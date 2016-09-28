@@ -1,0 +1,266 @@
+* Alt-x ingresar comandos
+** list-colors-display
+muestra todos los colores que se pueden conseguir y sus respectivos nombres o hexas
+** linum line number mode
+* Cortar/copiar/pegar
+** Use CUA en menu
+permite usar los clasicos Cx Cv Cc Cz de windows
+** cortar y pegar en emacs
+- cortar C-w
+- pegar C-y (yank)
+- copiar Alt-w
+* Manejo de Buffers
+** abrir archivo
+C-x C-f excelente con autocompletacion
+** guardar un buffer
+C-x C-s
+** eliminar un buffer
+C-x k
+
+* Movimiento dentro de un buffer
+** Principio y final
+C-Home Alt-<
+C-End  Alt->
+** Movimiento entre palabras
+C- -->  C <--
+
+** Movimiento entre lineas
+- C-n linea abajo
+- C-p linea arriba
+- C-a principio de linea
+- C-e final de linea
+* Seleccion de texto
+con C-Space hacemos una marca luego nos movemos hasta el lugar deseado y podemos usar los 
+comandos copiar o cortar
+C-x-h marca todo el buffer (el Ctrl-a de windows)
+* Undo
+C-/
+* Borrado
+C-k borra la linea desde la posicion hasta el final
+Alt-d borra la palabra actual
+Alt-Backspace borra la palabra anterior
+* Busqueda
+el comando de busqueda es asombroso. Busqueda incremental
+C-s busca hacia abajo
+C-r busca hacia arriba
+si repetimos va a la siguiente palabra y se puede cambiar de direccion Cs Cs Cr
+** Buscar la palabra bajo el cursor
+C-s C-w
+** Quedarnos con la busqueda
+C-s etc RET
+** Abandonar la busqueda y volver adonde estabamos
+C-s etc C-g
+
+* Replace
+Alt-% nos lleva a un replace (si hay algo seleccionado nos lo propone como default)
+y nos pide con que queremos reemplazarlo
+Luego tenemos la opcion  y / n /! que es todo
+
+* Replace global
+abrimos un dired y alli marcamos o desmarcamos los archivos que queremos procesar
+- m mark
+- u unmark
+y con la tecla Q hacemos el reemplazo global que nos llevara por los archivos paso a paso con la opcion
+y/n/! similar al replace local
+
+* Split windows
+** Horizontal
+C-x-2
+** Vertical
+C-x-3
+** Moverse a otra ventana
+C-x-o
+** Quedarse en la unica ventana (maximizar)
+C-x-1
+
+tabla
+| nombre       | direccion           | telefono |
+| juan perez   | julio de vedia 3161 |  4776677 |
+| julian lopez | orellano 89         |   457888 |
+|              |                     |          |
+|              |                     |          |
+|              |                     |          |
+
+ejemplo produciendo listas
+
++ item a
++ item b
+  + subitem b1
+  + subitem b2
+    1)sub.subitem b2.1
+  + subitem b3
+
+
+
+
+
+* ORG-mode
+** tables
+- Cc abre un menu sobre tablas
+- las tablas se crean con | y se van alineando solas
+- tambien se puede sobre un csv resaltado llamar Cc |
+
+| / | <>             | <>                      |
+|   | Alt-RET        | para una nueva fila     |
+|   | Alt-left-right | para mover las columnas |
+|   | Alt-up-down    | para mover las filas    |
+|---+----------------+-------------------------|
+
+Poner un encabezado con / <> <> y una col vacia a la izquierda produce 
+que se dibujen las lineas verticales de columna
+
+| / | <>              | <>                       |
+|   | Alt-Shift-left  | borra la columna         |
+|   | Alt-Shift-right | crea una columna         |
+|   | Alt-Shift-up    | borra la linea de arriba |
+|   | Alt-Shift-down  | crea una fila arriba     |
+|   | C-c RET         | crea una linea debajo    |
+|---+-----------------+--------------------------|
+
+Hay tambien algunos cumbersome pasos para mejorar tablas
+que creo que tienen sentido si luego vamos a exportar
+
+|   |  N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
+|---+----+-----+-----+-----+---------+------------|
+| / | <> |   < |     |   > |       < |          > |
+| # |  1 |   1 |   1 |   1 |       1 |          1 |
+| # |  2 |   4 |   8 |  16 |  1.4142 |     1.1892 |
+| # |  3 |   9 |  27 |  81 |  1.7321 |     1.3161 |
+|---+----+-----+-----+-----+---------+------------|
+
+Este ejemplo lo hice yo:
+|   |  N | N**2 | N**3 |
+| / | <> |    < |    > |
+| # |  1 |    1 |    1 |
+| # |  2 |    4 |    8 |
+| # |  3 |    9 |   27 |
+
+[[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Para usar las tablas como hoja de calculo]]
+
+
+* spacemacs
+** File navegacion
+*** Nerd-tree
+spa-f-t
+
+dentro de el
+
+| h | colapse un tree o ir al parent                |
+| l | expand un directorio                          |
+| j | next                                          |
+| k | previus                                       |
+| R | sobre un directorio - hacerlo root en el tree |
+| K | ir al parent directorio                       |
+| q | salir                                         |
+
+opciones de apertura (donde)
+
+| RET   | abre en la ultima activa windows |   |
+| # RET | lo abre en la window numero #    |   |
+| pipe  | split vertical                   |   |
+| -     | split horizontal                 |   |
+
+otras opciones dentro del Tree
+
+| TAB | stretching el buffer (agranda)        |
+| gr  | refresca                              |
+| s   | toggle showing of hidden files        |
+| c   | crea un node                          |
+| d   | delete el node (archivo o directorio) |
+| r   | rename el node                        |
+
+** intentos para autocompletar con jedi
+si no se puede hacer andar jedi la bocha la veo fea
+
+- instalar jedi
+- instalar virtualenv desde arch
+- ejecutar jedi:install-server 
+- ejecutar jedi-mode
+
+Eso produciria el jedi-mode enabled
+
+** Entrada en modo de produccion con emacs
+<2016-09-18 dom>
+Este ha sido un domingo muy intenso debido a un ataque muy potente del virus
+patetico diletante.
+Comenzo el viernes o quizas el jueves con un vistazo a emacs, que me produjo 
+que el viernes perdiera un par de horas.
+Y el finde entero estuvo destinado a la investigacion sobre la linea de trabajo
+sobre el tema.
+Con mucha frustracion porque no encontraba la forma de hacerlo funcionar.
+Hasta que comence por la base con las fichitas de los comandos basicos.
+Luego descubri org-mode.
+Luego los videos que vi sobre org-mode donde alucine en la forma en que acabadamente
+un tipo logro escribir tres libros sobre org que luego exporto a hlmt y/o pdf/latex.
+Y alli mismo me puse a trabajar en org, bastante bien al principio pq es rapido
+muy rapido y te muestra los resultados ahi mismo.
+Anoche que caigo rendido de cansancio pq no habia dormido bien las dos noches anteriores
+y en el proceso de la frustracion durante la noche concluyo que por mas que todo hubiera
+sido una perdida de tiempo me quedaba el haber conocido a org-mode que podria solucionar
+uno de los problemas de documentacion y base de conocimiento relativa a la programacion
+que no he podido resolver en los ultimos tiempos (años) sin suerte, como muchas experiencias
+que lei/vi en la web.
+Pero hoy despues de renegar un monton y tres migrales (lamentablemente) puse en produccion
+emacs para trabajar
+*** puesta en produccion de emacs
+Con spacemacs todo esta muy bueno pq es de configuracion simple y clara y tiene la 
+posibilidad de ponerle cientos de themes muy buenos, al menos el que estoy usando ahora.
+*** spacemacs
+lo bueno es que tenes vim casi con todos los comandos y la rapidez que te da lo que ya
+sabes mas emacs y sus tres mil comandos y la posibilidad de programar abajo en lisp.
+*** solucion al problema de autocomplecion
+para ser realista la autocomplecion con jedi en vim lo enlentece muchisimo hasta la exasperacion
+y en atom es muy intrusiva que tambien te exaspera pq te tapa lo que estas haciendo.
+Es cierto que uno puede estar escribiendo una funcion de la que no recuerda los argumentos y 
+un poco te lo facilita pero tengo un workaround que es mucho mas rapido.
+Tiene facilidades muy potentes para la busqueda, con asterisk sobre la palabra y / directamente
+se abre helm y te muestra todas las ocurrencias en el proyecto desde donde podes ir al archivo original
+y volver en dos segundos solo cuando queres.
+Para asegurarte de que escribiste bien tambien sirve pq marca todas las ocurrencias.
+Es decir que la forma de programar dependiendo de las autocompleciones puede ser una remora
+y descubrir nuevas herramientas puede ser mas provechoso. Creo que helm es el alma de spacemacs y
+una vez manejado bien puede darte un poder barbaro en pocos teclazos.
+*** solucion a la ejecucion del script rapidamente
+via-python es lento y no me permite cerrar el programa, la ventaja es que las salidas de error estan
+linkeadas y se pueden acceder directamente al codigo.
+via-shell es mas rapido pq hago spc-! y estoy en shell-helm ahi pongo python y luego el archivo, eso
+toma 5 segundos la primera vez, y luego las siguientes veces spc-! y up RET.
+y cierra igual que en la vida real
+*** diferencias con atom y vim
+
+| cualidad           | atom  | emacs            | vim         |
+|--------------------+-------+------------------+-------------|
+| delete linea       | c-s-k | dd               | dd          |
+| duplicar linea     | c-s-d | yy-p             | yy-p        |
+| guardar archivo    | c-s   | spc-fs           | :w          |
+| buscar             | c-f   | * / */ spc s etc | /           |
+| busqueda global    | c-F   | */ etc           | un quilombo |
+| manejo de archivos | c-t   | integrado        | :Explore    |
+|                    |       |                  |             |
+ 
+
+| otros aspectos   | atom  | emacs  | vim        |
+| distraccion      | mucha | media  | baja       |
+| rapidez de carga | lento | rapido | muy rapido |
+|                  |       |        |            |
+vim te quita tiempo y acarrea frustracion queriendo instalar plugin para transformarlo
+y nunca terminas en nada
+atom tiene el sistema de paquetes y themes ahi mismo que te distrae un monton
+y no funcionan 100% bien.
+emacs tambien tiene la parafernalia de vim con sus plugin para hacer de todo
+pero en este caso (hasta ahora) spacemacs es seamless y no requiere ni permite nada mas.
+
+
+* tips encontrados en spacemacs-produciendo
+*** Control-up/down para ir rapidamente entre lineas en blanco
+muy util seria para navegar rapidamente no solo entre clases, sino entre definiciones
+y partes de sectores densos.
+Incluso si se pone el titulo del sector denso como comentario es facil transitarlo. 
+
+* reniegues varios en desarrollo
+** poner en forma ordenada con label y entrys muchos campos
+es cumbersome, y painfull. Lo resolvi en parte con un tbls con altura 1, y
+selecttype='cell', muy bonito y practico, ahora abria que hacerlo editable, lo
+cual no es gran dificultad.
+se podria poner calle/num/barrio/zona aparte en una linea directa, ver. 
+** scrollwindows y scrolledframe

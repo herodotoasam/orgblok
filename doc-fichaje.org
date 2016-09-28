@@ -1,0 +1,645 @@
+
+* Justificacion del proyecto
+<2016-09-21 mié> Aparte de formar parte de mi re-aprendizaje , el cual
+es continuamente reforzado y complementado, creo que el proyecto se
+autojustifica suficientemente. 
+[2016-09-26 lun] Me resuenan las palabras de un programador que lei
+casualmente donde decia que su trabajo habia sido facilitarle la vida
+a los demas, y con emacs se facilitaba un poco la vida el mismo. Y me
+quede con eso de que el software o la programacion como yo le digo
+realmente te facilita la vida pq las cosas que haces con ella
+realmente repercuten en el dia a dia. Ya sea con las tareas
+repetitivas como en el ser mas productivo y ganar mas.
+
+** Objetivos del proyecto
+*** Manejo mas rapido y ergonomico de las funciones comunes
+Hay funciones comunes y repetitivas que las tenemos que seguir haciendo sea
+cual sea el camino que tomemos.
+Por ejemplo:
+- pasar ventas, pasar pagos, y gestionar los clientes.
+- emision de listados y planos para cobradores
+en ese sentido se mejoro muchisimo, ahora emito los listados muy rapidamente y 
+gestiono todo mucho mas rapido.
+La idea seria hacer extensiva toda esa operatoria a todo el negocio en todas sus
+partes. Una vez programado y mantenido el sistema va a dar su fruto
+
+Ya se ve la mejora en los tiempos de oficina y la calidad de la info y eso que esta 
+en pañales
+* Desarrollo del proyecto
+** Ideas flotantes 
+*** DONE Backup y subido a nube automatico 
+CLOSED: [2016-09-22 jue 18:09]
+mediante la interfase dropbox con python y backup en hot con sqlite
+y tambien con el manejo de tar que hace python automaticamente
+*** Pasado de novedades desde la venta (fichitas)
+
+** TabFechar
+*** Muchas de las cosas implementadas serviran en otros modulos
+1. cuenta y cuotas coloreadas
+2. uso de checkbuttons
+*** En el camino esto estoy haciendo
+**** TODO [#A] hacer los checkbuttons de fechas preestablecidas
+<2016-09-21 mié>
+Facilitara mucho el fechamiento
+**** Visualizacion de la planilla tal cual la estoy pasando
+para no perder tiempo con los casos en los cuales no hay nada que hacer
+**** cancelados (ya hechos)
+**** pagados y cuyo pmovto automatico esta bien
+**** Posiblemente achicar abajo aprovechando el sistema colores
+o sea ahorrando las columnas num cuenta para poner cuotas debidas y cuotas
+pagadas en el mismo sitio lado a lado y dejar mas amplitud a la "planilla"
+mas ancha??
+**** Gran caveat por resolver: el highlightBackground del tablelist
+pq no encuentro color para hacerlo. Sin color como esta ahora confunde
+quiza un color lightyellow pueda ser lo mejor. Y que la selectividad se
+acentue con el bold 
+*** Cosas sufridas y dejadas 
+**** no pude hacer que se resalte el campo pmovto cuando este mal
+ahi renegue con un error de sintaxis de sqlite date '+ 15 dias' y 
+lo mismo no puedo resolverlo, pero lo abandono pq creo que no me 
+sirve pq complica el proceso, me inclino por agrandar un poco el sitio
+No perder de vista que es una tab para fechar y nada mas que para eso
+*** Ideas a incorporar 
+**** desagregado de campo nombre en apellido y nombre
+**** comentarios en tabla aparte
+**** intimaciones en tabla aparte 
+**** acceso directo a modificadores de calle,num,zona
+**** botones de fechamiento automatizado
+**** seguimiento de uso o tratamiento de los estados cargados
+*** Tabla de acciones y sus correlatos
+| subirseven     | proceso externo seven                      |    |
+| intimar        | proceso externo intimaciones               |    |
+| novendermas    | trigger a nivel tabla ponga incobrable     |    |
+| llamar         | generacion de listado pendientes           |    |
+| monitorear     | resaltado en planilla impresas             |    |
+| espera evento  | campo evento -->generacion listado eventos |    |
+| quiere comprar | generacion de listado clientes pendientes  |    |
+| mudo           | cambio en la zona                          |    |
+|                |                                            | sa |
+|                |                                            |    |
+  * Objetivos de implementacion
+** TabFechar
+DEADLINE: <2016-09-26 lun>
+Este tab es el mas importante del CMR Cobranzas pq alli se cargaran
+todas las novedades de los clientes.
+* Ideas prospectivas proyecto
+** Generales
+*** Impresion
+Dentro de unas opciones generales del proyecto arriba.
+**** poner opcion a windows
+**** poner una variable impresora arriba para poner el nombre de la impresora actual
+**** poner el navegador pdf por defecto arriba tambien como variable
+** Modulo documentos
+   DEADLINE: <2016-10-08 sáb>
+una tab aparte para todo el manejo de documentos
+Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
+sabe cual es el doc que el cliente quiere.
+Se abriria una tab aparte y en ella se buscaria el cliente (salvo que 
+desde fechar te la abra buscada)
+Alli tendriamos que tener un sistema de busqueda de clientes (muy
+similar en todos lados como en el F13) o sea full text search y alli
+desplegado las cuentas cuyos documentos podrian quererse y alli si con
+un doble-click y/o con una letra se toggearia entre doc a traer o no
+traer, cuyo campo logico debe residir en la tabla ventas.
+Y abajo un tbl general de documentos/pedidos procesados. (boton ver
+todos) boton ver faltantes boton ver no retirados
+alli desplegaria un tbl cuya tabla base seria adhoc y tendria los
+campos idvta/fechapedido/fechatraido/fechadevuelto/quienlodevolvio/
+comentarios.
+Y se generaria un pdf con un listado de doc a traer con sus datos y
+con los doc traidos se actualizaria el tbls idem cuando uno le
+entregue a algun cobrador para que lo devuelva
+** Modulo intimaciones
+*** indicar en el tbs de fichas seleccionadas las fichas intimables
+ya que la decision de intimar se toma cuando uno fecha y lo pone alli,
+cuando seleccionamos la zona los reg intimables se resaltan diferentes
+y se agregara un boton alli que imprima las intimaciones.
+*** registro de intimaciones 
+    DEADLINE: <2016-10-01 sáb>
+tabla base adhoc con campos idcliente/fecha/tipo
+intimacion/comentarios
+No descarto que tenga que usar notebook dentro de los tabs p.e para
+poder mostrar las tbls que quiero mostrar como comentarios o
+intimaciones o visitas que quiero manejar en tablas aparte, salvo que
+use el mismo tbls con botones de llenado. p.e. en principio mostrar
+las visitas y con un boton ver las intimaciones o comentarios.
+Eso achicaria los campos textuales y quizas podemos poner entrys.
+** Modulo seven
+El modulo seven tiene tbls que muestran los que estan en capilla y
+permite procesar los que queremos enviar.
+tambien debe mostrar los que estan ya en el seven.
+** Tab busqueda padron
+** Linkeado de parentescos en la base de datos.
+** Estudio demografico sobre la clientela
+al menos los basicos, tantos hombres, tantas mujeres de tales edades y
+su correlacion con la compra/pago.
+Y tambien un estudio de la base de datos respecto a la cantidad de
+compra y tipo de articulos comprados
+** agregar campo en clientes para poner la lectura de seven cuando se hace
+** que en el nuevo F13 se pueda buscar por telefono en forma autonoma
+* Reniegues varios
+** funcion date(ultpago,'+ 15 days')
+[2016-09-21 mié]
+esta mal!!! es +15 days o sea sin espacio entre el + y el numero
+** error tonto en la funcion backup
+[2016-09-22 jue]
+todo funciona perfecto hasta que al final quiero re-conectar
+pq comienzo cerrando la con.close() para evitar errores de base de
+datos y luego de hacer el backup quiero conectar de nuevo y pongo
+con=conectar(db)
+y me dice que la variable local con la referencio antes de su definicion 
+en la sentencia con.close()
+Y no entiendo nada. Busque la forma hasta dar que el error es que si 
+dentro del proc por mas que con sea un nombre global, en alguna parte
+de la funcion la asigno como hago con con= conectar(db) el nombre con
+pasa a ser local y mas arriba a estar referenciado antes de su asignacion
+borrando la "reconexion" todo funciona bien.
+Pero da gusto haber encontrado el error.
+** imprimir directo con lpr
+usando subprocess ya sea Popen o call me daba errores por archivo o directorio
+desconocido. Y sabia que era por el parseo de la opcion o sea no solo tenia
+el comando lpr y el file sino la opcion.
+Todo se solucionaria si el sistema CUPs me tomara la impresora como default. 
+Y ahi estaba leyendo. [[https://docs.oracle.com/cd/E23824_01/html/821-1451/gllgm.html][Como administrar CUPS desde la linea de comando]]
+cuando el comando de verificacion de la impresora default me dio
+$ lpstat -d
+destino predeterminado del sistema: Brother_HL-1200_series
+O sea que ya la tenia seteada como default.
+Y el cambio se vio en que imprimiendo desde zathura ya me aparecia
+seteada como default
+Y ese seteo lo hice indirectamente en la pagina de control de cups
+[[http://localhost:631/printers/][CUPS]] en la parte Administracion, Set as Server Default, que aunque me
+dio supuestamente un error la debe haber seteado igual.
+En resumen pongo 
+subprocess.call(["lpr","file.pdf"]) y listo.
+Tengo la impresion directa, que para algunos casos es muy ergonomica y
+segura, en especial cuando se imprime una sola hoja.
+
+* Caveats y Limites
+** TabFichas
+*** Resumen funciona hasta un maximo de 88 fichas 
+** TabFechar
+*** Ubicacion de cuenta en tbs cuentas con raton
+    DEADLINE: <2016-09-30 vie>
+ En el tbls de cuentas del recorrido, se actuliza automaticamente
+a medida que pasamos de registro en registro <<TablelistSelect>>
+pero cuando uno apunta con el raton, puede querer que se actualice
+pero no lo hace. Es como si el primer puntazo seleccionara el registro
+y el segundo lo disparara.
+O sea que el comportamiento seria como un dobleclick.
+Esto tendria que estar tambien en grandes reniegues. Le dedique casi una
+hora o mas el [2016-09-24 sáb] y no obtuve resultado. No hay forma que
+un simple click sobre el body del tablelist te de la row que
+apuntaste.
+Incluso usando el atributo y del evento y la funcion containing(y) te
+entrega un posible valor pero puede dar error si le apuntas al borde
+de la fila, porque en si son dibujos de filas en un text, no son filas
+verdaderas.
+No me queda otra solucion que usar el doble-click o bien seleccionar
+con el teclado
+* Bugs
+*** Bug Bracamonte cta 40000
+
+la cuenta 40000 siempre la uso para pruebas y veia que funcionaba todo en el tabFechar
+menos el llenado del tbcli. raro.
+Analizando los datos raw del cliente vi que en el comentario tenia muchos \n\n\n
+y cuando los saque estuvo todo bien
+Lo que habria que ver es si hay otros casos, y estar prevenido.
+
+Ojo que trabajando sobre el levantado y el guardado de los campos text veo
+que la visualizacion del caso 40000 se distorsiona pq no se maneja los wrap
+en tbls.
+
+solucione mediante poner ancho fijo a las columnas y wrap=0 (explicito pq es default)
+for ct in campotexts:
+            tbcli.columnconfigure(ct,maxwidth=30,wrap=0)
+pero principalmente en el guardado como es un get del texto viene con saltos de linea
+y eso te rompe el esquema
+
+                tx.get(1.0,END).strip()
+el metodo strip() de un str le saca todos los espacios y lo deja limpito
+ideal para construir stm limpiamente.
+
+*** Bug tbls.insert en oficina
+aca funcionaba ok el tbls con insert y alla no 
+primero pense en versiones de tablelist pero actualice y nada
+y al final en la parte del insert puse tuple
+Es raro pero eso hizo que funcionara alla, pero aca no le afectaba
+Pero como son dos SO distintos y puede que haya distintas versiones de tcl
+
+* Org-mode
+** Historia:
+Escuche la conferencia del creador de org-mode. Muy interesante
+** bugs
+*** Me borra escritos que ya hice. No creo que sea fossil 
+** Uso
+*** M-RET estando al final de un outline te abre otro al mismo nivel
+*** Tab alli lo promote/demote ciclicamente a los niveles que existen
+*** M-up|down sube/baja el nodo 
+*** M-left|right lo promote/demote no limitado a los niveles que existen 
+*** Listas ordenadas y no ordenadas se hacen con -,1.,1) y se mueven igual
+*** [2016-09-21 mié] C-c . inserta una fecha del calendario
+*** SM-RET inserta un TODO
+*** C-c C-l inserta un link
+*** C-c C-| formatea una tabla con los datos tabulares insertados en la region
+  
+** Caracteristicas deseadas 
+*** poder poner un limite a la linea con un autowrap
+*** Comandos para org-mode: Manejo de fechas
+| C-C .        | inserta fecha del calendario                  |
+|              | sobre una fecha la modifica                   |
+|              | dos veces pone un rango                       |
+| C-C !        | ingresa una fecha inactiva o sea no agendable |
+| S-left/right | Cambia la fecha adelante/atras en un dias     |
+| S- up/down   | Cambia la parte de  la fecha arriba o abajo   |
+| C-C- C-D     | ingresa DEADLINE                              |
+| C-C- C-S     | ingresa SCHEDULED                             |
+*** [2016-09-24 sáb] soporte para uso de mouse
+** anexar packages
+   SCHEDULED: <2016-09-26 lun>
+*** tomatinho - pomodoro [[https://github.com/konr/tomatinho][descargar]]
+Permite llevar el control de lo realmente producido
+| <Enter>   | Forgoes the current pomodoro or leaves a break. |
+| S-<Enter> | Deliberately pauses.                            |
+| R         | Resets the timer.                               |
+| <Tab>     | Toggles between display modes.                  |
+| q         | Kills the buffer.                               |
+| Q         | Turns off Tomatinho.                            |
+*** org-mouse
+genial manejo de org con el raton que en cierta forma ayuda un monton
+pero no debe hacer que uno olvide o desaprenda lo basico para llegar a
+mastering org
+*** imenu
+te agrega un menu con las definiciones para saltar directamente, o sea
+lo que seria el minimap de funciones pero mas eficiente. Muy
+interesante para lib.py p.e.[[https://www.emacswiki.org/emacs/ImenuMode#toc15][wiki sobre imenus]]
+*** org-board
+es un sistema de guardado de paginas con wget y de paso te queda el registro.[[https://github.com/scallywag/org-board][org-board github]]
+*** helm in deep [[http://tuhdo.github.io/helm-intro.html][helm descripcion uso]]
+*** org-wiki [[https://github.com/caiorss/org-wiki][wiki]]
+** recursos en la web
+*** [[http://tuhdo.github.io/index.html][introduccion lisp]]
+*** [[http://jr0cket.co.uk/2016/09/Kanban-board-Emacs-Org-mode-to-get-work-done.html][kanban meet org]]
+*** [[https://github.com/kelvinh/org-page][interesante blog hecho con org y publicado en git]]
+*** [[http://orgmode.org/worg/org-blog-wiki.html][listado general de recursos de blog y wiki]]
+** [[file:~/data/94/1c072f-ad38-4767-bdb8-e9ca45322011/2016-09-25-dom-21-33-57/daemons.cf/posts/introduccin-a-helm/index.html][recurso bajado de la web]]
+bajado con org-board en disco y linkeado aca como file, y abre perfecto como un scrapbook propio.
+
+* Emacs maravillas
+** undo/redo por regiones
+Es muy comun que uno quiera deshacer algo antepasado pero no todo, y emacs te hace undos
+sobre regiones, o sea resaltar el lugar donde esta el undo y al c-/
+** M-y cicle yanks
+o sea despues de un yank con c-y se puede usar m-y y te cicla los yank
+
+* Plan de estudios
+En lineas generales que me gustaria aprender en los proximos tiempos
+** mastering git
+aunque uso fossil ahora no descarto que alguna vez tenga que cambiar
+por necesidad (p.e. se caiga chisselapp.com)
+jaja El titulo decia mastering fossil con relacion a git/mercurial, y
+en dos dias ya estamos en mastering git y ya nos pasamos a git. Fossil
+quedo para el recuerdo.
+** Mastering Emacs
+Tenerlo como herramienta base de trabajo. LLevo solo 7 dias de
+produccion neta en emacs y estoy muy conforme incluso mas ahora que
+tengo un emacs puro y que voy poniendo a punto
+** Mastering Org-mode
+org-mode esta genial, quiero aprender bien a fondo el programa y
+avanzar tambien al management task con la agenda y con los sistemas
+mas profundos que tiene
+** Elisp 
+no se si deberia ir dentro del Mastering Emacs pero el tutorial que
+estoy leyendo es muy didactico y creo que con el tiempo puedo llegar a
+comprender bien el lenguaje y es base para mastering emacs
+** Python
+Obviamente no nos olvidemos de python que es el lenguaje base de
+trabajo en el cual estoy programando todo. Por eso pienso que seria
+conveniente seguir cursos paralelos como el de learn y dive into
+python.
+** HTLM-CSS
+No le veo una utilidad inmediata pero creo que vale la pena al menos
+tenerlos al nivel aunque sea basico del curso de learn
+** algorritmos y algo de teoria basica de la computacion
+creo que es importante saber de eso.
+** programacion en android
+algun curso introductorio
+** teoria de las bases de datos
+relectura del libro que tengo sobre el tema
+* Bitacora general
+** [2016-09-21 mié] 
+Desde ayer implemento un tip que se me ocurrio y es hacer una serie de ejercicios
+simples (los mismos tres que conozco desde hace casi 30 años) por cada hora o periodo
+de maquina, como pago. Mas 5 sentadillas. Y el resultado ha sido fenomenal, pq me
+saca la contractura y un poco el dolor de espalda (aunque hoy estuve doblado cuando
+fui a trabajar) sino que tiene efectos espectaculares en el animo. Tanto es asi que 
+ayer me puse a encintar toda la pared y hoy la pinte.
+
+Lucho contra la idea de ir y volver respecto a la herramienta. Hoy pensaba volver a
+vim, pq lo veo rapido y expedito, (siendo que tengo aca evil que muchos dicen que es
+mas lindo que vim). Y siendo que descubri org-mode que recien estoy aprendiendo y es
+extraordinario, para irlo conociendo de a poco.
+
+No quiero perder el ritmo de la programacion. Siendo que voy viendo resultados. 
+
+** [2016-09-22 jue]
+Hoy termine de pintar la pared del living y colgue los cuadros
+cambio muchisimo y no fue gran tarea, sino que fue agradable y
+permite cambiar un poco de actividad
+
+* Bitacora de programacion
+** [2016-09-22 jue]
+*** PyDrive
+increiblemente en el momento que esperaba esta mañana al cobrador rezagado logre
+poner a punto.
+Faltaria agregarle encrypcion al tar.gz y un poco de mensajes a la operatoria.
+*** Ampliacion del espacio para las cuentas del recorrido
+Como vi en la practica que el pasado del listado tiene que tener relacion
+concreta con la lista en pantalla. Por eso la amplie en ancho y largo para 
+hacer mas seguro la navegacion.
+En especial el nombre del cliente y la mayor amplitud para ver mejor.
+Incluso volvi a poner el highlight a lightyellow.
+
+Todavia tengo mas espacio para ampliar pero creo que no es necesario.x
+** [2016-09-24 sáb]
+*** Tratando de terminar la tab Fechar
+**** Agregado de la funcionalidad de ver recorrido al dia siguiente
+Pasa que el resaltado de lo pagado el dia del recorrido es fundamental para el fechado
+y lo que no fechamos ese mismo dia se pierde pq lo habia linkeado a today(), ahora permiti
+poner fecha.
+** [2016-09-25 dom]
+Hoy poco lo que hice pero 
+*** Corregi la planilla de salidas de recibo
+le puse el nombre y el dni del cobrador y el num de cobrador arriba
+Puse dos opciones de salida, imprimir directo a impresora y verpdf por
+las dudas no anda esa impresora.
+*** Empece a corregir el Resumen
+    DEADLINE: <2016-09-26 lun>
+Si el resumen tiene mas de 44 lineas hay que hacerlo en dos columnas
+queda pendiente.
+** [2016-09-26 lun]
+*** Corregi el indice para que sea a dos columnas y se imprima solo
+Me llevo 60 minutos!!, 2pom y 1/2. Y todo el mediodia, pq ya a la hora
+que estamos ya no me pondre en otro proyecto, maxime que he comido
+pesado y estoy recomponiendo herramientas.  Funciona bien para
+cantidades menores o iguales a 88. Sino tengo que hacer otro
+esquema. Pero hasta ahora no hay una salida global de mas de 88, por
+lo que no vale la pena ponerse.  
+*** Excurso: sobre las cosas que llevan su tiempo
+Estas cositas llevan mucho tiempo programarse pero luego quedan en
+funciones por mucho tiempo tambien, por lo cual creo que es asi el
+trabajo. Desde aquellos tiempos del 2010 en los cuales programe el
+caja.tcl que todavia uso, me he preguntado si "valia la pena" el
+tiempo destinado a la parte minuciosa de la programacion, o sea las
+cosas que funcionen exactamente como tienen que funcionar.
+Addenda: Es verdad. P.e. programar que salga el nombre del cobrador y
+se imprima sola la hoja supuso dos pomodoros digamos, y se amortiza
+con el tedio de tareas repetitivas que desaparecen para siempre.
+
+* Bitacora de aprendizaje
+** [2016-09-22 jue]
+*** Comandos para org-mode: Manejo de fechas
+| C-C .        | inserta fecha del calendario                  |
+|              | sobre una fecha la modifica                   |
+|              | dos veces pone un rango                       |
+| C-C !        | ingresa una fecha inactiva o sea no agendable |
+| S-left/right | Cambia la fecha adelante/atras en un dias     |
+| S- up/down   | Cambia la parte de  la fecha arriba o abajo   |
+| C-C- C-D     | ingresa DEADLINE                              |
+| C-C- C-S     | ingresa SCHEDULED                             |
+*** Vuelta a Emacs puro (no evil/ no spacemacs)
+Me canse de vim, que parece rapido pero siempre causa errores y al 
+final perdes el tiempo y no logras hacer lo que queres.
+Aca va un resumen de los comandos aprendidos y logrados hoy:
+| gotoline         | Mg g                   | default |
+| kill line        | C-k                    | default |
+| Kill entire line | C-S-Backspace          | default |
+|                  |                        |         |
+| M-d              | Delete word            | default |
+| C-d              | Delete character       | default |
+|                  |                        |         |
+| C-S-d            | Duplicate line         | defun   |
+|                  |                        |         |
+| C-j              | open line              | default |
+|                  |                        |         |
+| M-up/down        | move line up/down      | defun   |
+|                  |                        |         |
+| C-/              | undo                   | default |
+| resalto word     | quota automatica con ' | default |
+| M-%              | reemplaza texto        | default |
+|                  |                        |         |
+| M-y luego de C-y | cicla los yanks        | default |
+
+Y ahora un repaso de los comandos generales
+
+| C-x C-c | quit           |
+| C-x C-f | open file      |
+| C-x C-s | save buffer    |
+| M-x     | insert command |
+| C-h     | help           |
+
+** [2016-09-23 vie]
+ 
+*** Elips - inicio de lectura
+en elips todo es una lista.
+
+| lista               | (a b c d)             |
+| lista no ejecutable | '(a b c)              |
+| lista ejecutable    | (funcion a b)         |
+| string              | (a "un string"        |
+| listas anidadas     | (a b c (a b))         |
+| suma                | (+ 2 2)               |
+| evaluar expresion   | C-x C-e en scratch    |
+| simbolic expresion  | sexp                  |
+| trace de error      | backstrace            |
+| funcion no valida   | void-function         |
+| nil                 | false                 |
+| t                   | true                  |
+| lista vacia         | ()                    |
+| atom                | palabra (indivisible) |
+| variable            | symbol con un valor   |
+| comentarios         | ;;comentarios         |
+
+Ejemplo:
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
+(package-initialize)
+
+De aqui se:
+ 1. que la primera linea es una lista ejecutable que evalua la funcion require
+con el argumento package (lo que no se es pq en ese caso package esta con apostrofe)
+   - se usa el apostrofe para que lo evalue como variable sino que lo tome como nombre
+   - la segunda idem la funcion add-to-list y el segundo argumento una lista
+   - 
+** [2016-09-24 sáb]
+*** Puesta a punto general para emacs
+    la mayoria de los items pienso que otorgaran una gran ventaja ergonomica y de productividad
+**** Accesos directos para files en los que estoy trabajando
+Se que Cx-Cf te permite abrir facilmente, pero la verdad es que trabajo a diario con dos archivos
+fichaje.py y doc-fichaje.org. Acceso a ambos con C-F5 y C-F6. Y .emacs con F6
+**** Accesos directos a modes que son muy usados pero que no me sirve que sean globales
+| F12  | autocomplete     |
+| F9   | linum            |
+| C-F9 | electric-pair    |
+| F8   | folding          |
+| --   | show-parent-mode |
+**** Excurso: folding
+Espectacular folding hard mediante signos colocados realmente en el archivo que permite que se foldee
+en la forma en que uno quiere. Lo cual puede coincidir con las def o class y puede NO coincidir pq tenes
+bloques feos que ya no usaras mas y no se foldean automaticamente con ningun sistema.
+Incluso permite con una linea documental tener la vision de lo que contiene el fold.
+Muy rapido el fold/unfold con boton derecho.
+**** Excurso electric-pair / show-parent-mode
+show-parent-mode muestra los pares de parentesis, corchetes, llaves, etc. Por eso la pongo global pq no 
+molesta.
+En cambio electric-pair aunque es muy util, puede molestar y se pone/saca facil con el C-f9.
+Espectacular resaltar una palabra y poner ' y te la encierra automaticamente.
+**** Excurso autocomplete
+Lo que veo aca es que no es tan intrusivo como jedi, y mayormente sirve y es rapido, y el poder togglearlo
+es bueno pq hay buffers en los cuales es odiosa, como aca en org.
+**** Highlight-symbol
+| C-F3 | marca las ocurrencias con colores rotativos y te da la cuenta  |
+| F3   | cicla en las ocurrencias adelante y de nuevo desde el comienzo |
+| S-F3 | idem en reversa                                                |
+| M-F3 | replace                                                        |
+Esta muy bueno (aunque funciona con lo visible, en files no importa pq haces F8 y desfoldas, en org habria
+que ver que desenrrolla todo).
+Lindo que marca en distintos colores y los deja permanente hasta que los sacas uno a uno con C-F3.
+El F3 funciona de una aunque no esten marcadas.
+**** El Duplicate line y el move line estan como ya cronicado
+Solo habria que estudiar si funcionan en mas de una linea y como reaccionan en org (aunque en org no hace
+falta)
+**** Cortar/Copiar/Yankear la linea entera
+en vez de solo la palabra resaltada
+*** Percepcion a hoy de emacs puro optimizado vs vim vs atom
+creo que a hoy me quedo mil veces con emac puro optimizado.
+O sea hecho a mi gusto.
+Ventajas enormes sobre vim y atom: org-mode.
+Ventajas sobre vim: lo veo mas firme y facil de ordenar. En vim nunca pude lograr un esquema uniforme
+en todas las maquinas y el vimrc era muy dificil de mantener. Los plugins no me sirvieron nunca.
+Las supuestas ventajas del sistema vim dejan de ser tales cuando las tareas importantes las haces igual o
+mejor.
+Ventajas sobre atom: la rapidez de apertura/cierre, la falta de distraccion en la interface y la posibilidad
+de customizar a voluntad mas alla de los themes. (Prefiero mil veces customizar como hacer una busqueda
+que cambiar de theme a cada rato)
+Y me parece mas potente en general.
+Sobre spacemacs: la rapidez, ligereza y posibilidad de customizar lo que yo quiero, algo imposible en ese
+hibrido y aparte lento.
+*** Mas aprendizajes
+**** Auto-fill mode
+Auto-fill mode es un minor-mode que provee el corte de linea
+automatico cuando se llega a cierto limite. Lo que uno conocia como
+auto wrap. Se pone en el menu Text, o como comando.
+** [2016-09-28 mié]
+Ayer empece con furia a leer/aprender git, con vias a usar git y en
+especial gitlab. Y luego de dos o tres tutoriales desemboco por
+casualidad (pq en realidad buscaba una info de python en un sitio que
+se llama librosweb que tienen un par de libros muy buenos bien
+traducidos al español.
+Lastima que no se pueden wgetear. [[http://librosweb.es/libros/][Libros en la web]]
+Y alli se puede decir que me sumergi en profundidad en git. Dive in
+git.
+Y ya pase fossil a git (mb por richard hipp que dejo un puente de
+exportacion y ahora me manejo con gitlab).
+Lo bueno de git es que es un potente programa que funciona en tu
+compu, y es muy general, o sea se baja en cualquier distribucion. Es
+linea de comando y es muy rapido.
+Git te hace un sistema de versionado alli en tu disco, alli tenes
+todo.
+Si subis a equis repositorio bien, pero podes subir con el mismo
+protocolo en cualquier otro (p.e. github, o bitbucker).
+Gitlab en particular es libre, es una startup muy buena que ofrece una
+version altamente profesional y libre-gratuita para uso con
+repositorios ilimitados y acceso a todo. (justo vi un video en youtube
+muy oportuno pq conoci al desarrollador. Y eso me da la tranquilidad
+de que es un proyecto grande).
+
+Creo que alli puedo tener ordenado y organizado todo el desarrollo, el
+actual, lo pasado y lo futuro.
+P.q mi forma de programar siempre fue un quilombo y esto es genial.
+Incluso hice dos repositorios mas, uno de tclviejo con todo el
+desarrollo de tcl oficina, y tclmobile para recuperarlo en algun
+momento para tener alli lo que necesite y no perder nada.
+Puede que haga otro pyexperimental y otro de org-mode para poner los
+escritos.
+Una vez que uno lo inicializa todo es muy facil:
+| git init                                | inicia un repositorio sobre tu carpeta |
+| git remote add origin git@gitlab.com... | agrega el lugar donde vas a subir      |
+| git add *.tcl                           | agrega archivos al proyecto            |
+| git commit                              | comitea el proyecto                    |
+| git push -u origin master               | hace la primera subida a gitlab        |
+| luego en el futuro basta con git push   | ya el destino esta en la config        |
+|                                         |                                        |
+O sea un funcionamiento muy facil y comodo
+Hay que recordar algo interesante de git add y es que no solo sirve
+para agregar la primera vez un archivo al proyecto como hice con
+fossil sino que hay que agregar expresamente los modificados para ser
+subidos en el proximo commit (pasarlos a la stagged area o al index).
+sino hay que hacer commit -a que saltea ese paso.
+Y tambien git add sirve para marcar que un archivo mergeado ya fue
+corregido.
+Obviamente queda mucho por hacer. Y aprender.
+Pero lo importante para mi es que pueda tener el proyecto en el cual
+estoy trabajando en el celu. Pq eso significa que lo tengo en todos
+lados. Eso de poder ver y analizar los pequeños cambios que has ido
+agregando commit tras commit es espectacular pq te da una idea de lo
+que estas haciendo.
+La productividad debe verse aumentada grandemente con este sistema.
+Y esto se va a ver en el futuro. Igual que el sistema que estoy
+programando, igual que el negocio que estamos montando con el
+hijo. Igual que el vivir en el centro.
+
+* Apuntes extra-programaticos 
+** [2016-09-25 dom]
+*** Ejercicio-movimiento
+Esta ultima semana al menos comence a hacer ejercicio y ahora con
+tomatinho pienso que se facilitara muchisimo comenzar a moverse
+durante la jornada y evitar el anquilosamiento.
+Asimismo pasar de 20 cuadras basicas a 30 o 40 no lo veo dificil ni
+imposible.
+*** Implementar cuanto antes el 3x12
+*** Alimentos
+Urgente debo volver a una alimentacion mas sana. Hoy comi
+pollo/gaseosa/helado o sea el trio maldito que alguna vez habia
+superado. Mucha manteca, mucho pan. Un desastre. Esta ultima semana no
+hice el muesli ni un dia.
+
+*** Acomodo del dpto
+La semana pasada di un paso gigante que fue la pintada de la pared.
+Debo seguir con ese sistema en lo posible.
+** [2016-09-28 mié]
+*** Entre ayer y hoy tome el toro por las astas
+en un par de cosas que estaba demorando como ser comprar la camisa en
+rochas, ir al peluquero, y hoy arreglar los cueritos de las
+canillas. Y los tres asuntos los resolvi expeditamente, o sea creo que
+no hay porque demorar las cosas.
+
+ 
+* Emacs requeridos
+*** un theme que marque la fila a lo ancho. Antes lo tenia.
+*** como poner autofill siempre p.e. en org-mode
+* Emacs teoria
+** Busqueda
+*** Ms .
+Con Ms . buscamos la palabra en la cual esta el cursor no importa si
+esta el cursor en el medio al comienzo o donde. La resalta y luego nos
+movemos con Cs/Cr
+
+** Lower/Upper
+*** Mu / Ml
+Con dichos comandos voy poniendo mayusculas/minusculas y va avanzando
+palabra a palabra
+
+* Emacs vs Vim
+[2016-09-28 mié]
+No esta definida a hoy la batalla. Se que ha pasado poco tiempo y uno
+no va a aprender todo en dos dias. Una cosa es entrar en produccion y
+otra es mastering.
+Y en el fondo creo que lo mejor es la produccion no la herramienta.
+Incluso a hoy un poco se me cae la utilidad de org-mode. Parte pq
+quedo en ese bache y parte por la forma en que se me hace complejo el
+escrito y sin orden.
