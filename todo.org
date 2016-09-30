@@ -9,9 +9,6 @@ ver aca al lado unos veladorcitos modernistas con posiblemente foco
 para lectura y led
 
 *  Gastos pasar
-| almuerzo | 1700 |
-| fotos    |  600 |
-| taxis    |  110 |
 |          |      |
 * Hacer
 ** TODO depositar auto ih
@@ -24,7 +21,9 @@ para lectura y led
 * clientes esperan visitas
 ** OcaBalda 1159 
 ** Florencia 3246 Romina Ponce
-** Plank 7869 cubrecamas llamo 
+** Plank 7869 cubrecamas llamo
+** Farrate Isabel Itu 2F1 varon mandar con cobr
+   SCHEDULED: <2016-10-03 lun>
 
 * terminar dpto
 ** pintar pared dormitorio
@@ -34,7 +33,8 @@ para lectura y led
 ** poner el caño cortina que ya compre
    DEADLINE: <2016-10-09 dom>
 ** colgar el espejo
-   DEADLINE: <2016-10-09 dom>
+   SCHEDULED: <2016-10-01 sáb> DEADLINE: <2016-10-09 dom>
+traer taladro
 ** estanteria
    DEADLINE: <2016-10-14 vie>
 *** pegarle los frentes
