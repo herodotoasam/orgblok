@@ -1,0 +1,42 @@
+* clientes
+** Enviar sabana ituizango despues 13hs
+
+* comprar/ver
+** cargador magnetico sony
+Urgente comprar ese cargador antes que se estropee la entrada normal
+** veladores
+ver aca al lado unos veladorcitos modernistas con posiblemente foco
+para lectura y led
+
+*  Gastos pasar
+| almuerzo | 1700 |
+| fotos    |  600 |
+| taxis    |  110 |
+|          |      |
+* Hacer
+** TODO depositar auto ih
+   SCHEDULED: <2016-09-30 vie>
+** TODO depositar auto mio
+   SCHEDULED: <2016-10-04 mar>
+** TODO pagar alquiler
+   SCHEDULED: <2016-10-05 mié>
+
+* clientes esperan visitas
+** OcaBalda 1159 
+** Florencia 3246 Romina Ponce
+** Plank 7869 cubrecamas llamo 
+
+* terminar dpto
+** pintar pared dormitorio
+   DEADLINE: <2016-10-05 mié>
+** Poner los burletes que ya compre
+   DEADLINE: <2016-10-09 dom>
+** poner el caño cortina que ya compre
+   DEADLINE: <2016-10-09 dom>
+** colgar el espejo
+   DEADLINE: <2016-10-09 dom>
+** estanteria
+   DEADLINE: <2016-10-14 vie>
+*** pegarle los frentes
+*** acomodar los papeles oficina en cajas
+*** traer libros

@@ -282,9 +282,6 @@ es un sistema de guardado de paginas con wget y de paso te queda el registro.[[h
 *** [[http://jr0cket.co.uk/2016/09/Kanban-board-Emacs-Org-mode-to-get-work-done.html][kanban meet org]]
 *** [[https://github.com/kelvinh/org-page][interesante blog hecho con org y publicado en git]]
 *** [[http://orgmode.org/worg/org-blog-wiki.html][listado general de recursos de blog y wiki]]
-** [[file:~/data/94/1c072f-ad38-4767-bdb8-e9ca45322011/2016-09-25-dom-21-33-57/daemons.cf/posts/introduccin-a-helm/index.html][recurso bajado de la web]]
-bajado con org-board en disco y linkeado aca como file, y abre perfecto como un scrapbook propio.
-
 * Emacs maravillas
 ** undo/redo por regiones
 Es muy comun que uno quiera deshacer algo antepasado pero no todo, y emacs te hace undos
@@ -300,6 +297,9 @@ por necesidad (p.e. se caiga chisselapp.com)
 jaja El titulo decia mastering fossil con relacion a git/mercurial, y
 en dos dias ya estamos en mastering git y ya nos pasamos a git. Fossil
 quedo para el recuerdo.
+** Django
+Es el proximo libro que me gustaria leer pq pienso que puede ser una
+puerta al reemplazo futuro de tclmobile
 ** Mastering Emacs
 Tenerlo como herramienta base de trabajo. LLevo solo 7 dias de
 produccion neta en emacs y estoy muy conforme incluso mas ahora que
@@ -346,6 +346,47 @@ No quiero perder el ritmo de la programacion. Siendo que voy viendo resultados.
 Hoy termine de pintar la pared del living y colgue los cuadros
 cambio muchisimo y no fue gran tarea, sino que fue agradable y
 permite cambiar un poco de actividad
+
+** [2016-09-29 jue]
+Hoy es un milestone en nuestras vidas. Hoy recibio su diploma de
+Contadora la Rominita. Ha pasado un largo trecho desde aquella noche
+de julio del 91 cuando solo en la oficina escribi un post,
+lamentablemente perdido en DOS-WordStart alusivo al nacimiento de la
+Romi y 25 años despues estoy escribiendo esto en una herramienta que
+no difiere mucho de aquella en cierta forma, y quizas tambien
+destinado a perderse.
+Me alegra que ella haga algo de su vida y haga las cosas bien.
+Fue un dia feliz, aunque no tenemos los musculos de la felicidad muy
+entrenados en la familia, al menos en la modalidad expresividad.
+
+*** Referencia al metodo usado en los ultimos tres dias
+Constructo: Actua como un tipo normal.
+Con relacion al evento (que causo mucha preocupacion anticipatoria e
+innecesaria casi al nivel de la opercion de mi vieja), se planteaban
+un par de todo's necesarios y urgentes que eran los que me causaban
+problema. Necesitaba comprarme una camisa e ir al peluquero. Aunque
+ambos temas son ridiculamente banales, representaban un problema en el
+sentido de que son ambas situaciones que me incomodan, ya sea en el
+sentido de ir y hacerlas y en el sentido de pensar que voy a salir
+defraudado por dichas acciones. Y el constructo usado, me movilizo y
+el martes volvi temprano de la oficina, me bañe rapidamente, me puse
+el saco y fui a comprar la camisa en un proceso directo y normal.
+Luego ayer fui al peluquero, por ahi el problema no era tanto ir a las
+dos opciones, sino el patetico miedo a que no fuera satisfactorio el
+resultado. Y con una ligerisima duda, fui y el resultado me parece
+mejor que la ausencia de resultado, o el demorarse como lo hacia antes
+con el resultado de andar desprolijo  e impresentable.
+Quedaba procesar el evento, y alli el constructo fue dividirlo en dos
+partes, por una parte la ceremonia, y luego el ir al lugar, y eso
+quito un poco de presion, una vez en el lugar el resultado fue
+bastante positivo a pesar de la situacion, (almorzar con niños en un
+sitio asi, y el que Fede pobre estuviera tan dolorido y molesto).
+Creo que como me pasa en la mayoria de las situaciones, alli no fue
+problema de plata, ya estaba jugado, sino el pensar que podia faltarme
+con lo que habia llevado.
+Pero pienso que la experiencia es positiva y tiene un efecto
+liberador.
+Y alienta a en el futuro encarar las cosas con mas asertividad.
 
 * Bitacora de programacion
 ** [2016-09-22 jue]
@@ -592,6 +633,26 @@ La productividad debe verse aumentada grandemente con este sistema.
 Y esto se va a ver en el futuro. Igual que el sistema que estoy
 programando, igual que el negocio que estamos montando con el
 hijo. Igual que el vivir en el centro.
+** [2016-09-29 jue] 
+Hoy sigo fuertemente con git, haciendo el capitulo 3 del libro, dos
+lecturas sobre el branching.
+
+| git branch testing      | crea un branch nuevo                    |
+| git checkout testing    | nos posisiona sobre ese branch          |
+| git checkout -b testing | une los dos comandos anteriores         |
+| git merge testing       | vamos a master y ese comando mergea     |
+| merge manual            | con git add file lo marco como hecho    |
+| git branch -d testing   | borrar rama                             |
+| git branch -D testing   | borrar rama con cambios que se desechan |
+| git branch --merged     | ramas que ya se han mergeado -a borrar  |
+| git branch --no-merged  | ramas que aun no se mergearon           |
+| git push origin testing | subo al repo el branch local            |
+| git checkout --track    | hago que localmente se siga una rama    |
+| ... origin/testing      | ... que existe en el repo               |
+| git push :testing       | borro dicha rama en el repo             | 
+  
+
+
 
 * Apuntes extra-programaticos 
 ** [2016-09-25 dom]
@@ -622,6 +683,7 @@ no hay porque demorar las cosas.
 * Emacs requeridos
 *** un theme que marque la fila a lo ancho. Antes lo tenia.
 *** como poner autofill siempre p.e. en org-mode
+*** ver que funcione de nuevo highlight-mode
 * Emacs teoria
 ** Busqueda
 *** Ms .
