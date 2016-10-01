@@ -38,7 +38,7 @@ y tambien con el manejo de tar que hace python automaticamente
 1. cuenta y cuotas coloreadas
 2. uso de checkbuttons
 *** En el camino esto estoy haciendo
-**** TODO [#A] hacer los checkbuttons de fechas preestablecidas
+**** DONE [#A] hacer los checkbuttons de fechas preestablecidas
 <2016-09-21 mié>
 Facilitara mucho el fechamiento
 **** Visualizacion de la planilla tal cual la estoy pasando
@@ -137,6 +137,7 @@ Y tambien un estudio de la base de datos respecto a la cantidad de
 compra y tipo de articulos comprados
 ** agregar campo en clientes para poner la lectura de seven cuando se hace
 ** que en el nuevo F13 se pueda buscar por telefono en forma autonoma
+** Interface de actualizado de datos provenientes de la venta (fichitas)
 * Reniegues varios
 ** funcion date(ultpago,'+ 15 days')
 [2016-09-21 mié]
@@ -798,4 +799,6 @@ especial para tus propias clases y argumentos necesarios.
 *** Tagbar
 con un simple F4 tengo al lado la ventana de navegacion, en la cual
 ves el esquema y te moves en el.
-
+*** superTab
+parece que viene en auxilio de jedi en las autocompleciones anodinas
+que son las que mas causan error.

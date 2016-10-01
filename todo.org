@@ -1,5 +1,6 @@
 * clientes
-** Enviar sabana ituizango despues 13hs
+** Paez Natalia Carolina Prado 4934
+llevar cortina negra
 
 * comprar/ver
 ** cargador magnetico sony
@@ -9,15 +10,15 @@ ver aca al lado unos veladorcitos modernistas con posiblemente foco
 para lectura y led
 
 *  Gastos pasar
-|          |      |
+| panaderia | 20 |
 * Hacer
 ** TODO depositar auto ih
-   SCHEDULED: <2016-09-30 vie>
+   SCHEDULED: <2016-10-03 lun>
 ** TODO depositar auto mio
    SCHEDULED: <2016-10-04 mar>
 ** TODO pagar alquiler
    SCHEDULED: <2016-10-05 mié>
-
+   
 * clientes esperan visitas
 ** OcaBalda 1159 
 ** Florencia 3246 Romina Ponce
@@ -28,6 +29,8 @@ para lectura y led
 * terminar dpto
 ** pintar pared dormitorio
    DEADLINE: <2016-10-05 mié>
+*** comprar pintura 
+    SCHEDULED: <2016-10-04 mar>
 ** Poner los burletes que ya compre
    DEADLINE: <2016-10-09 dom>
 ** poner el caño cortina que ya compre
