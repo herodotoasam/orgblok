@@ -10,7 +10,9 @@ ver aca al lado unos veladorcitos modernistas con posiblemente foco
 para lectura y led
 
 *  Gastos pasar
-| panaderia | 20 |
+| panaderia |   20 |
+| semana    | 2500 |
+|           |      |
 * Hacer
 ** TODO depositar auto ih
    SCHEDULED: <2016-10-03 lun>
@@ -20,7 +22,7 @@ para lectura y led
    SCHEDULED: <2016-10-05 mié>
    
 * clientes esperan visitas
-** OcaBalda 1159 
+** DONE OcaBalda 1159 
 ** Florencia 3246 Romina Ponce
 ** Plank 7869 cubrecamas llamo
 ** Farrate Isabel Itu 2F1 varon mandar con cobr

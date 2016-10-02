@@ -1,0 +1,102 @@
+Manual Usuario aplicacion CRM-Romitex
+
+* Estructura basica de la aplicacion
+La aplicacion esta estructurada con tabs. Cada tab abarca un tema. Hay
+algunos tabs que pueden tener subtabs adentro. (Como tab Varios)
+
+
+* Tab Fechar
+Este tab esta destinado a procesar el fechamiento de proximo
+vencimiento o proxima visita, en adelante "pmovto".
+
+Como esta tarea se hace luego que vuelven los cobradores con el
+listado en mano, se ha tratado de seguir el orden que trae la
+planilla.
+
+** Ubicar el cliente
+Hay dos formas de buscar un cliente:
+*** Por su numero de cuenta
+Raramente usada. Seria para fechar a alguien individualmente. Quizas
+por un llamado telefonico.
+Ponemos el numero de cuenta en el campo Cuenta y apretamos Enter.
+*** Por N° de listado de cobrador
+Esta es la mas usual. En el encabezado del listado de fichas del
+cobrador hay un N° de recorrido. Ponemos ese numero en el campo 
+"Rec N°" y luego ponemos el codigo de cobrador en el campo cobrador.
+Y apretamos "Llena".
+**** Notar que hay un campo intermedio "Fecha" que se llena solo:
+Se llena con la fecha en que fue impresa la planilla. Esto sirve para
+que en el listado de clientes que aparecera abajo se resalten en
+amarillo los que pagaron en el recorrido del cobrador, lo cual ayuda
+mucho en el proceso de fechado.
+**** Que pasa cuando el listado se hizo otro dia
+Puede pasar que imprimamos un listado digamos para un lunes y en
+realidad se haga un martes (porque el cobrador falto). Entonces para
+que nos resalte los clientes pagados tenemos que corregir el campo
+fecha. [[Como Fechar]]
+Una vez corregida la fecha apretamos de nuevo el boton Llena.
+
+** El listado de clientes 
+El listado de clientes tiene una primera columna que es el numero de
+orden en la planilla. En cualquier momento con planilla en mano
+podemos encontrar facilmente el cliente, sin tener que mirar nombre, o
+calle y numero.
+Las otras dos columnas que hay son utiles para este proceso. 
+*** Deuda
+Porque ahi chequeamos si ya cancelo. Los cancelados aparecen con
+None. 
+*** Pmovto
+Donde tenemos que ver especialmente si los pagados, que son los
+resaltados en amarillo tienen un pmovto adecuado (usualmente dentro de
+un mes). Porque si uno que ha pagado atrasado, tiene un pmovto a una
+fecha pasada va a ser visitado de nuevo por otro cobrador y eso es una
+perdida de tiempo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Tips usuales
+** Como Fechar 
+La fecha se puede cambiar de varias formas:
+*** Con raton:
+**** Boton derecho sobre la fecha: aumenta un dia
+**** Boton derecho sobre el "label": disminuye un dia
+El "label" es la palabra que esta antes del campo fecha. Puede ser
+"Fecha" o "Fecha de venta" etc.
+*** Con teclado:
+| +    | -    | aumenta/disminuye un dia     |
+| *    | /    | aumenta/disminuye una semana |
+| PgUp | PgDw | aumenta/disminuye un mes     |
+| .    |      | pone la fecha de hoy         |
+Si hacemos lio y/o se produce un resultado no deseado, borrar todo lo
+haya en el campo y apretar . o + y empezar de nuevo o hacer dos click
+con boton derecho de raton.

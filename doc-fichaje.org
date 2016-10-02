@@ -1,4 +1,4 @@
-
+ #+TAGS:
 * Justificacion del proyecto
 <2016-09-21 mié> Aparte de formar parte de mi re-aprendizaje , el cual
 es continuamente reforzado y complementado, creo que el proyecto se
@@ -31,7 +31,7 @@ en pañales
 CLOSED: [2016-09-22 jue 18:09]
 mediante la interfase dropbox con python y backup en hot con sqlite
 y tambien con el manejo de tar que hace python automaticamente
-*** Pasado de novedades desde la venta (fichitas)
+*** DONE Pasado de novedades desde la venta (fichitas)
 
 ** TabFechar
 *** Muchas de las cosas implementadas serviran en otros modulos
@@ -64,7 +64,11 @@ No perder de vista que es una tab para fechar y nada mas que para eso
 **** comentarios en tabla aparte
 **** intimaciones en tabla aparte 
 **** acceso directo a modificadores de calle,num,zona
-**** botones de fechamiento automatizado
+     SCHEDULED: <2016-10-02 dom>
+     subtab para editar calle/barrio/zona al estilo del que ya tengo o
+     sea la tabla entera editable, pq moverse en dichas tablas es
+     bastante rapido y de paso permite ver el contexto. 
+**** DONE botones de fechamiento automatizado
 **** seguimiento de uso o tratamiento de los estados cargados
 *** Tabla de acciones y sus correlatos
 | subirseven     | proceso externo seven                      |    |
@@ -137,7 +141,7 @@ Y tambien un estudio de la base de datos respecto a la cantidad de
 compra y tipo de articulos comprados
 ** agregar campo en clientes para poner la lectura de seven cuando se hace
 ** que en el nuevo F13 se pueda buscar por telefono en forma autonoma
-** Interface de actualizado de datos provenientes de la venta (fichitas)
+** DONE Interface de actualizado de datos provenientes de la venta (fichitas)
 * Reniegues varios
 ** funcion date(ultpago,'+ 15 days')
 [2016-09-21 mié]
@@ -201,25 +205,25 @@ con el teclado
 * Bugs
 *** Bug Bracamonte cta 40000
 
-la cuenta 40000 siempre la uso para pruebas y veia que funcionaba todo en el tabFechar
-menos el llenado del tbcli. raro.
-Analizando los datos raw del cliente vi que en el comentario tenia muchos \n\n\n
-y cuando los saque estuvo todo bien
-Lo que habria que ver es si hay otros casos, y estar prevenido.
+  la cuenta 40000 siempre la uso para pruebas y veia que funcionaba todo en el tabFechar
+  menos el llenado del tbcli. raro.
+  Analizando los datos raw del cliente vi que en el comentario tenia muchos \n\n\n
+  y cuando los saque estuvo todo bien
+  Lo que habria que ver es si hay otros casos, y estar prevenido.
 
-Ojo que trabajando sobre el levantado y el guardado de los campos text veo
-que la visualizacion del caso 40000 se distorsiona pq no se maneja los wrap
-en tbls.
+  Ojo que trabajando sobre el levantado y el guardado de los campos text veo
+  que la visualizacion del caso 40000 se distorsiona pq no se maneja los wrap
+  en tbls.
 
-solucione mediante poner ancho fijo a las columnas y wrap=0 (explicito pq es default)
-for ct in campotexts:
-            tbcli.columnconfigure(ct,maxwidth=30,wrap=0)
-pero principalmente en el guardado como es un get del texto viene con saltos de linea
-y eso te rompe el esquema
+  solucione mediante poner ancho fijo a las columnas y wrap=0 (explicito pq es default)
+  for ct in campotexts:
+              tbcli.columnconfigure(ct,maxwidth=30,wrap=0)
+  pero principalmente en el guardado como es un get del texto viene con saltos de linea
+  y eso te rompe el esquema
 
-                tx.get(1.0,END).strip()
-el metodo strip() de un str le saca todos los espacios y lo deja limpito
-ideal para construir stm limpiamente.
+                  tx.get(1.0,END).strip()
+  el metodo strip() de un str le saca todos los espacios y lo deja limpito
+  ideal para construir stm limpiamente.
 
 *** Bug tbls.insert en oficina
 aca funcionaba ok el tbls con insert y alla no 
@@ -228,7 +232,7 @@ y al final en la parte del insert puse tuple
 Es raro pero eso hizo que funcionara alla, pero aca no le afectaba
 Pero como son dos SO distintos y puede que haya distintas versiones de tcl
 
-* Org-mode
+* Org-mode							       :dpto:org:
 ** Historia:
 Escuche la conferencia del creador de org-mode. Muy interesante
 ** bugs
@@ -243,8 +247,34 @@ Escuche la conferencia del creador de org-mode. Muy interesante
 *** SM-RET inserta un TODO
 *** C-c C-l inserta un link
 *** C-c C-| formatea una tabla con los datos tabulares insertados en la region
-  
-** Caracteristicas deseadas 
+*** Links *** :							  :manual:ms:
+**** ((link) (descripcion)) o ((link)) en corchetes!!
+***** Para Editar un link Cc-Cl en el link o borrar el ultimo corchete invisible
+**** links internos ((Plan de estudios)) [[Plan de Estudios]] solo para outlines
+**** Autocomplecion de lugares internos * y M-Tab [[*Acomodo del dpto]]
+     Ojo funciona con [[* y M-Tab evitar que emacs te cierre los
+     parentesis sino te salta directo un link.
+**** Links externos
+| file:fichaje.py::252 | [[file:~/py1local/fichaje.py::252]] | ir a filetext linea especifica |
+| file:todo.org        | [[file:todo.org][TODO.org]]                        | otro org file                  |
+| file:todo.org::DONE  | [[file:todo.org::Hacer][Hacer]]                           | otro org file search word      |
+|                      |                                 |                                |
+**** [[ManualesKapeluz]] Apunta a una etiqueta <<etiqueta>>
+*** Tags							  :ms:manual:
+**** Un tag es una clave enclosada en dos puntos
+**** poniendo los primeros dos puntos y M-tab hay autocomplecion 
+**** o con Cc-Cc en un headline se puede poner un tag o Cc-Cq en cualquier parte
+**** Cu CcCq realinea los tags a la columna 77
+**** Al poner #+TAGS: en la primer linea y hacer CcCc no cargo tags fijos								       
+	Entonces habilito a hacer un listado dinamico de tags con los usados en el archivo.
+	Se podria tambien hacer:
+	#+TAGS: tag1(a) tag2(b) tag3(c) y siempre cargar con CcCc o 
+	#+TAGS: {tag1(a) tag2(b)} tag3(c) y crear un grupo alternativo o sea tag1 o tag2 en ese caso 
+**** Search tags:
+***** Cc / m permite busqueda por tags tag1+tag2 tag1-tag2 tag1|tag2
+***** Cc \ idem anterior pero va directo sin la m
+
+** Caracteristicas deseadas
 *** poder poner un limite a la linea con un autowrap
 *** Comandos para org-mode: Manejo de fechas
 | C-C .        | inserta fecha del calendario                  |
@@ -290,7 +320,7 @@ sobre regiones, o sea resaltar el lugar donde esta el undo y al c-/
 ** M-y cicle yanks
 o sea despues de un yank con c-y se puede usar m-y y te cicla los yank
 
-* Plan de estudios
+* Plan de estudios						  :proyectos:
 En lineas generales que me gustaria aprender en los proximos tiempos
 ** mastering git
 aunque uso fossil ahora no descarto que alguna vez tenga que cambiar
@@ -301,18 +331,10 @@ quedo para el recuerdo.
 ** Django
 Es el proximo libro que me gustaria leer pq pienso que puede ser una
 puerta al reemplazo futuro de tclmobile
-** Mastering Emacs
-Tenerlo como herramienta base de trabajo. LLevo solo 7 dias de
-produccion neta en emacs y estoy muy conforme incluso mas ahora que
-tengo un emacs puro y que voy poniendo a punto
 ** Mastering Org-mode
 org-mode esta genial, quiero aprender bien a fondo el programa y
 avanzar tambien al management task con la agenda y con los sistemas
 mas profundos que tiene
-** Elisp 
-no se si deberia ir dentro del Mastering Emacs pero el tutorial que
-estoy leyendo es muy didactico y creo que con el tiempo puedo llegar a
-comprender bien el lenguaje y es base para mastering emacs
 ** Python
 Obviamente no nos olvidemos de python que es el lenguaje base de
 trabajo en el cual estoy programando todo. Por eso pienso que seria
@@ -327,6 +349,14 @@ creo que es importante saber de eso.
 algun curso introductorio
 ** teoria de las bases de datos
 relectura del libro que tengo sobre el tema
+** Mastering Emacs
+Tenerlo como herramienta base de trabajo. LLevo solo 7 dias de
+produccion neta en emacs y estoy muy conforme incluso mas ahora que
+tengo un emacs puro y que voy poniendo a punto
+** Elisp 
+no se si deberia ir dentro del Mastering Emacs pero el tutorial que
+estoy leyendo es muy didactico y creo que con el tiempo puedo llegar a
+comprender bien el lenguaje y es base para mastering emacs :proy
 * Bitacora general
 ** [2016-09-21 mié] 
 Desde ayer implemento un tip que se me ocurrio y es hacer una serie de ejercicios
@@ -437,6 +467,16 @@ cosas que funcionen exactamente como tienen que funcionar.
 Addenda: Es verdad. P.e. programar que salga el nombre del cobrador y
 se imprima sola la hoja supuso dos pomodoros digamos, y se amortiza
 con el tedio de tareas repetitivas que desaparecen para siempre.
+** [2016-10-01 sáb]
+   Hoy a la siesta termine el modulo pasar fichitas dentro de una tab
+   varios y una subtab. O sea que ahi tengo posibilidad de meter
+   varias cosas.
+   La hice bastante completa, con posibilidad de editar cualquier
+   campo y atajos muy rapidos para cambio de zona.
+*** Reniegues con la estructura profunda de la clase Tbls
+por querer reusar el mismo tbls en el tab grupos y hacer uno que no
+tenga pesos pq muestro cantidad de recibos, y se me hace complejo ver
+como se hacen las cosas.
 
 * Bitacora de aprendizaje
 ** [2016-09-22 jue]
@@ -731,6 +771,9 @@ i686).
 
 Pero tambien creo que hay mejoras en el uso de vim que pueden hacerlo
 muchisimo mas poderoso (que lo que yo lo estaba usando)
+[2016-10-01 sáb] 
+Hoy puse en emacs evil, y parece que todo va muy rapido, al menos para
+seguir usando org-mode y punto.
 
 * Vim - mejorado
 ** Busqueda
@@ -789,6 +832,8 @@ Esa caracteristica out the box es genial y yo nunca la use. Es algo
 muy util al programar pq a veces te moves en distintos lugares de un
 archivo y estos mostros te guardan 100 lugares donde estuviste. (Creo
 que hace innecesario las marcas, o los inusables bookmarks de atom).
+*** :changes S-left S-right
+es mucho mas util que jump
 
 ** Auxiliares de programacion
 *** Autocompletado con jedi
@@ -802,3 +847,18 @@ ves el esquema y te moves en el.
 *** superTab
 parece que viene en auxilio de jedi en las autocompleciones anodinas
 que son las que mas causan error.
+*** En realidad he podido prescindir de jedi
+parte pq en la netbook me enlentece demasiado y parte pq es invasivo a
+nivel pantalla
+* Manuales							  :proyectos:
+Me propongo la creacion de tres manuales de uso que acompañen el
+proyecto
+** Manual de usuario
+   Un manual parte por parte en formato sencillo destinado a que la
+   aplicacion se use bien
+** Manual de mantenimiento del proyecto
+   Un manual destinado a que alguien con algunos conocimientos pueda
+   en el futuro mantener la aplicacion    :ofi:
+** Tutorial o guia especifica de la base teorica
+   Alguna guia para aprender lo necesario para mantener el proyecto
+   <<ManualesKapeluz>>    
