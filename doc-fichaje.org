@@ -34,6 +34,8 @@ y tambien con el manejo de tar que hace python automaticamente
 *** DONE Pasado de novedades desde la venta (fichitas)
 
 ** TabFechar
+   :PROPERTIES:
+   :tab: Fechar
 *** Muchas de las cosas implementadas serviran en otros modulos
 1. cuenta y cuotas coloreadas
 2. uso de checkbuttons
@@ -261,6 +263,7 @@ Escuche la conferencia del creador de org-mode. Muy interesante
 |                      |                                 |                                |
 **** [[ManualesKapeluz]] Apunta a una etiqueta <<etiqueta>>
 *** Tags							  :ms:manual:
+*** 
 **** Un tag es una clave enclosada en dos puntos
 **** poniendo los primeros dos puntos y M-tab hay autocomplecion 
 **** o con Cc-Cc en un headline se puede poner un tag o Cc-Cq en cualquier parte
@@ -273,6 +276,12 @@ Escuche la conferencia del creador de org-mode. Muy interesante
 **** Search tags:
 ***** Cc / m permite busqueda por tags tag1+tag2 tag1-tag2 tag1|tag2
 ***** Cc \ idem anterior pero va directo sin la m
+*** checkbox
+    toda lista puede ser usada con checkbox. Ojo respetar espacios sino no funciona
+    - [ ] Comienzo 
+    Si ponemos un checkbox en un item jerarquico superior y dentro de su checkbox
+    ponemos [/] o [%] llevara la cuenta de la cantidad o porc de subitems checkados
+    Con el mouse se pueden checkar o descheckar los items.
 
 ** Caracteristicas deseadas
 *** poder poner un limite a la linea con un autowrap

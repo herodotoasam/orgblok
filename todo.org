@@ -12,7 +12,13 @@ para lectura y led
 *  Gastos pasar
 | panaderia |   20 |
 | semana    | 2500 |
-|           |      |
+| helado    |   60 |
+| fede      | 3800 |
+| ih        | 3300 |
+| telecom   |  300 |
+| copar     | 1600 |
+| Fede      | 1000 |
+| quedan    | 20K  |
 * Hacer
 ** TODO depositar auto ih
    SCHEDULED: <2016-10-03 lun>
@@ -45,3 +51,14 @@ traer taladro
 *** pegarle los frentes
 *** acomodar los papeles oficina en cajas
 *** traer libros
+
+* cambios alimentarios
+** [0%] Cereales
+- [ ] amaranto
+- [ ] arroz
+- [ ] sesamo
+- [ ] quinoa
+
+** Legumbres
+*** aduki
+** Algas
