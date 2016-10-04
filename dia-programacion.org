@@ -1,0 +1,59 @@
+* Bitacora de programacion
+** [2016-09-22 jue]
+*** PyDrive
+increiblemente en el momento que esperaba esta mañana al cobrador rezagado logre
+poner a punto.
+Faltaria agregarle encrypcion al tar.gz y un poco de mensajes a la operatoria.
+*** Ampliacion del espacio para las cuentas del recorrido
+Como vi en la practica que el pasado del listado tiene que tener relacion
+concreta con la lista en pantalla. Por eso la amplie en ancho y largo para 
+hacer mas seguro la navegacion.
+En especial el nombre del cliente y la mayor amplitud para ver mejor.
+Incluso volvi a poner el highlight a lightyellow.
+
+Todavia tengo mas espacio para ampliar pero creo que no es necesario.x
+** [2016-09-24 sáb]
+*** Tratando de terminar la tab Fechar
+**** Agregado de la funcionalidad de ver recorrido al dia siguiente
+Pasa que el resaltado de lo pagado el dia del recorrido es fundamental para el fechado
+y lo que no fechamos ese mismo dia se pierde pq lo habia linkeado a today(), ahora permiti
+poner fecha.
+** [2016-09-25 dom]
+Hoy poco lo que hice pero 
+*** Corregi la planilla de salidas de recibo
+le puse el nombre y el dni del cobrador y el num de cobrador arriba
+Puse dos opciones de salida, imprimir directo a impresora y verpdf por
+las dudas no anda esa impresora.
+*** Empece a corregir el Resumen
+    DEADLINE: <2016-09-26 lun>
+Si el resumen tiene mas de 44 lineas hay que hacerlo en dos columnas
+queda pendiente.
+** [2016-09-26 lun]
+*** Corregi el indice para que sea a dos columnas y se imprima solo
+Me llevo 60 minutos!!, 2pom y 1/2. Y todo el mediodia, pq ya a la hora
+que estamos ya no me pondre en otro proyecto, maxime que he comido
+pesado y estoy recomponiendo herramientas.  Funciona bien para
+cantidades menores o iguales a 88. Sino tengo que hacer otro
+esquema. Pero hasta ahora no hay una salida global de mas de 88, por
+lo que no vale la pena ponerse.  
+*** Excurso: sobre las cosas que llevan su tiempo
+Estas cositas llevan mucho tiempo programarse pero luego quedan en
+funciones por mucho tiempo tambien, por lo cual creo que es asi el
+trabajo. Desde aquellos tiempos del 2010 en los cuales programe el
+caja.tcl que todavia uso, me he preguntado si "valia la pena" el
+tiempo destinado a la parte minuciosa de la programacion, o sea las
+cosas que funcionen exactamente como tienen que funcionar.
+Addenda: Es verdad. P.e. programar que salga el nombre del cobrador y
+se imprima sola la hoja supuso dos pomodoros digamos, y se amortiza
+con el tedio de tareas repetitivas que desaparecen para siempre.
+** [2016-10-01 sáb]
+   Hoy a la siesta termine el modulo pasar fichitas dentro de una tab
+   varios y una subtab. O sea que ahi tengo posibilidad de meter
+   varias cosas.
+   La hice bastante completa, con posibilidad de editar cualquier
+   campo y atajos muy rapidos para cambio de zona.
+*** Reniegues con la estructura profunda de la clase Tbls
+por querer reusar el mismo tbls en el tab grupos y hacer uno que no
+tenga pesos pq muestro cantidad de recibos, y se me hace complejo ver
+como se hacen las cosas.
+

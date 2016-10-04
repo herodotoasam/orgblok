@@ -1,0 +1,217 @@
+* Bitacora de aprendizaje
+** [2016-09-22 jue]
+*** Comandos para org-mode: Manejo de fechas
+| C-C .        | inserta fecha del calendario                  |
+|              | sobre una fecha la modifica                   |
+|              | dos veces pone un rango                       |
+| C-C !        | ingresa una fecha inactiva o sea no agendable |
+| S-left/right | Cambia la fecha adelante/atras en un dias     |
+| S- up/down   | Cambia la parte de  la fecha arriba o abajo   |
+| C-C- C-D     | ingresa DEADLINE                              |
+| C-C- C-S     | ingresa SCHEDULED                             |
+*** Vuelta a Emacs puro (no evil/ no spacemacs)
+Me canse de vim, que parece rapido pero siempre causa errores y al 
+final perdes el tiempo y no logras hacer lo que queres.
+Aca va un resumen de los comandos aprendidos y logrados hoy:
+| gotoline         | Mg g                   | default |
+| kill line        | C-k                    | default |
+| Kill entire line | C-S-Backspace          | default |
+|                  |                        |         |
+| M-d              | Delete word            | default |
+| C-d              | Delete character       | default |
+|                  |                        |         |
+| C-S-d            | Duplicate line         | defun   |
+|                  |                        |         |
+| C-j              | open line              | default |
+|                  |                        |         |
+| M-up/down        | move line up/down      | defun   |
+|                  |                        |         |
+| C-/              | undo                   | default |
+| resalto word     | quota automatica con ' | default |
+| M-%              | reemplaza texto        | default |
+|                  |                        |         |
+| M-y luego de C-y | cicla los yanks        | default |
+
+Y ahora un repaso de los comandos generales
+
+| C-x C-c | quit           |
+| C-x C-f | open file      |
+| C-x C-s | save buffer    |
+| M-x     | insert command |
+| C-h     | help           |
+
+** [2016-09-23 vie]
+ 
+*** Elips - inicio de lectura
+en elips todo es una lista.
+
+| lista               | (a b c d)             |
+| lista no ejecutable | '(a b c)              |
+| lista ejecutable    | (funcion a b)         |
+| string              | (a "un string"        |
+| listas anidadas     | (a b c (a b))         |
+| suma                | (+ 2 2)               |
+| evaluar expresion   | C-x C-e en scratch    |
+| simbolic expresion  | sexp                  |
+| trace de error      | backstrace            |
+| funcion no valida   | void-function         |
+| nil                 | false                 |
+| t                   | true                  |
+| lista vacia         | ()                    |
+| atom                | palabra (indivisible) |
+| variable            | symbol con un valor   |
+| comentarios         | ;;comentarios         |
+
+Ejemplo:
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "https://melpa.org/packages/") t)
+(when (< emacs-major-version 24)
+  ;; For important compatibility libraries like cl-lib
+  (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/")))
+(package-initialize)
+
+De aqui se:
+ 1. que la primera linea es una lista ejecutable que evalua la funcion require
+con el argumento package (lo que no se es pq en ese caso package esta con apostrofe)
+   - se usa el apostrofe para que lo evalue como variable sino que lo tome como nombre
+   - la segunda idem la funcion add-to-list y el segundo argumento una lista
+   - 
+** [2016-09-24 sáb]
+*** Puesta a punto general para emacs
+    la mayoria de los items pienso que otorgaran una gran ventaja ergonomica y de productividad
+**** Accesos directos para files en los que estoy trabajando
+Se que Cx-Cf te permite abrir facilmente, pero la verdad es que trabajo a diario con dos archivos
+fichaje.py y doc-fichaje.org. Acceso a ambos con C-F5 y C-F6. Y .emacs con F6
+**** Accesos directos a modes que son muy usados pero que no me sirve que sean globales
+| F12  | autocomplete     |
+| F9   | linum            |
+| C-F9 | electric-pair    |
+| F8   | folding          |
+| --   | show-parent-mode |
+**** Excurso: folding
+Espectacular folding hard mediante signos colocados realmente en el archivo que permite que se foldee
+en la forma en que uno quiere. Lo cual puede coincidir con las def o class y puede NO coincidir pq tenes
+bloques feos que ya no usaras mas y no se foldean automaticamente con ningun sistema.
+Incluso permite con una linea documental tener la vision de lo que contiene el fold.
+Muy rapido el fold/unfold con boton derecho.
+**** Excurso electric-pair / show-parent-mode
+show-parent-mode muestra los pares de parentesis, corchetes, llaves, etc. Por eso la pongo global pq no 
+molesta.
+En cambio electric-pair aunque es muy util, puede molestar y se pone/saca facil con el C-f9.
+Espectacular resaltar una palabra y poner ' y te la encierra automaticamente.
+**** Excurso autocomplete
+Lo que veo aca es que no es tan intrusivo como jedi, y mayormente sirve y es rapido, y el poder togglearlo
+es bueno pq hay buffers en los cuales es odiosa, como aca en org.
+**** Highlight-symbol
+| C-F3 | marca las ocurrencias con colores rotativos y te da la cuenta  |
+| F3   | cicla en las ocurrencias adelante y de nuevo desde el comienzo |
+| S-F3 | idem en reversa                                                |
+| M-F3 | replace                                                        |
+Esta muy bueno (aunque funciona con lo visible, en files no importa pq haces F8 y desfoldas, en org habria
+que ver que desenrrolla todo).
+Lindo que marca en distintos colores y los deja permanente hasta que los sacas uno a uno con C-F3.
+El F3 funciona de una aunque no esten marcadas.
+**** El Duplicate line y el move line estan como ya cronicado
+Solo habria que estudiar si funcionan en mas de una linea y como reaccionan en org (aunque en org no hace
+falta)
+**** Cortar/Copiar/Yankear la linea entera
+en vez de solo la palabra resaltada
+*** Percepcion a hoy de emacs puro optimizado vs vim vs atom
+creo que a hoy me quedo mil veces con emac puro optimizado.
+O sea hecho a mi gusto.
+Ventajas enormes sobre vim y atom: org-mode.
+Ventajas sobre vim: lo veo mas firme y facil de ordenar. En vim nunca pude lograr un esquema uniforme
+en todas las maquinas y el vimrc era muy dificil de mantener. Los plugins no me sirvieron nunca.
+Las supuestas ventajas del sistema vim dejan de ser tales cuando las tareas importantes las haces igual o
+mejor.
+Ventajas sobre atom: la rapidez de apertura/cierre, la falta de distraccion en la interface y la posibilidad
+de customizar a voluntad mas alla de los themes. (Prefiero mil veces customizar como hacer una busqueda
+que cambiar de theme a cada rato)
+Y me parece mas potente en general.
+Sobre spacemacs: la rapidez, ligereza y posibilidad de customizar lo que yo quiero, algo imposible en ese
+hibrido y aparte lento.
+*** Mas aprendizajes
+**** Auto-fill mode
+Auto-fill mode es un minor-mode que provee el corte de linea
+automatico cuando se llega a cierto limite. Lo que uno conocia como
+auto wrap. Se pone en el menu Text, o como comando.
+** [2016-09-28 mié]
+Ayer empece con furia a leer/aprender git, con vias a usar git y en
+especial gitlab. Y luego de dos o tres tutoriales desemboco por
+casualidad (pq en realidad buscaba una info de python en un sitio que
+se llama librosweb que tienen un par de libros muy buenos bien
+traducidos al español.
+Lastima que no se pueden wgetear. [[http://librosweb.es/libros/][Libros en la web]]
+Y alli se puede decir que me sumergi en profundidad en git. Dive in
+git.
+Y ya pase fossil a git (mb por richard hipp que dejo un puente de
+exportacion y ahora me manejo con gitlab).
+Lo bueno de git es que es un potente programa que funciona en tu
+compu, y es muy general, o sea se baja en cualquier distribucion. Es
+linea de comando y es muy rapido.
+Git te hace un sistema de versionado alli en tu disco, alli tenes
+todo.
+Si subis a equis repositorio bien, pero podes subir con el mismo
+protocolo en cualquier otro (p.e. github, o bitbucker).
+Gitlab en particular es libre, es una startup muy buena que ofrece una
+version altamente profesional y libre-gratuita para uso con
+repositorios ilimitados y acceso a todo. (justo vi un video en youtube
+muy oportuno pq conoci al desarrollador. Y eso me da la tranquilidad
+de que es un proyecto grande).
+
+Creo que alli puedo tener ordenado y organizado todo el desarrollo, el
+actual, lo pasado y lo futuro.
+P.q mi forma de programar siempre fue un quilombo y esto es genial.
+Incluso hice dos repositorios mas, uno de tclviejo con todo el
+desarrollo de tcl oficina, y tclmobile para recuperarlo en algun
+momento para tener alli lo que necesite y no perder nada.
+Puede que haga otro pyexperimental y otro de org-mode para poner los
+escritos.
+Una vez que uno lo inicializa todo es muy facil:
+| git init                                | inicia un repositorio sobre tu carpeta |
+| git remote add origin git@gitlab.com... | agrega el lugar donde vas a subir      |
+| git add *.tcl                           | agrega archivos al proyecto            |
+| git commit                              | comitea el proyecto                    |
+| git push -u origin master               | hace la primera subida a gitlab        |
+| luego en el futuro basta con git push   | ya el destino esta en la config        |
+|                                         |                                        |
+O sea un funcionamiento muy facil y comodo
+Hay que recordar algo interesante de git add y es que no solo sirve
+para agregar la primera vez un archivo al proyecto como hice con
+fossil sino que hay que agregar expresamente los modificados para ser
+subidos en el proximo commit (pasarlos a la stagged area o al index).
+sino hay que hacer commit -a que saltea ese paso.
+Y tambien git add sirve para marcar que un archivo mergeado ya fue
+corregido.
+Obviamente queda mucho por hacer. Y aprender.
+Pero lo importante para mi es que pueda tener el proyecto en el cual
+estoy trabajando en el celu. Pq eso significa que lo tengo en todos
+lados. Eso de poder ver y analizar los pequeños cambios que has ido
+agregando commit tras commit es espectacular pq te da una idea de lo
+que estas haciendo.
+La productividad debe verse aumentada grandemente con este sistema.
+Y esto se va a ver en el futuro. Igual que el sistema que estoy
+programando, igual que el negocio que estamos montando con el
+hijo. Igual que el vivir en el centro.
+** [2016-09-29 jue] 
+Hoy sigo fuertemente con git, haciendo el capitulo 3 del libro, dos
+lecturas sobre el branching.
+
+| git branch testing      | crea un branch nuevo                    |
+| git checkout testing    | nos posisiona sobre ese branch          |
+| git checkout -b testing | une los dos comandos anteriores         |
+| git merge testing       | vamos a master y ese comando mergea     |
+| merge manual            | con git add file lo marco como hecho    |
+| git branch -d testing   | borrar rama                             |
+| git branch -D testing   | borrar rama con cambios que se desechan |
+| git branch --merged     | ramas que ya se han mergeado -a borrar  |
+| git branch --no-merged  | ramas que aun no se mergearon           |
+| git push origin testing | subo al repo el branch local            |
+| git checkout --track    | hago que localmente se siga una rama    |
+| ... origin/testing      | ... que existe en el repo               |
+| git push :testing       | borro dicha rama en el repo             | 
+  
+
+
+

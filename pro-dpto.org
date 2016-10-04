@@ -2,16 +2,16 @@
 
 * Acondicionar el dpto						      :title:
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2016-10-03 lun 21:22]
+#+CAPTION: Clock summary at [2016-10-04 mar 15:05]
 | Headline             | Time   |
 |----------------------+--------|
-| *Total time*         | *0:11* |
+| *Total time*         | *0:19* |
 |----------------------+--------|
-| Acondicionar el dpto | 0:11   |
+| Acondicionar el dpto | 0:19   |
 #+END:
-
   CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
   CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
+  CLOCK: [2016-10-04 mar 14:56]--[2016-10-04 mar 15:04] =>  0:08
 * Vision del proyecto						     :vision:
 La idea es tener un lugar comodo y agradable donde vivir
 Confortable, terminado pero no aputosado
@@ -20,6 +20,7 @@ Un lugar donde tengan continuidad mis actividades
 - Tengo derecho a vivir en un ambiente confortable y agradable
 - Los gastos envueltos no son muy grandes y puedo afrontarlos
 - Tener un dpto acondicionado puede ser motivante
+- Tambien es mas facil de mantener si hay un orden establecido
 * Brainstorming							      :brain:
 ** eliminar la excesiva claridad
 ** acondicionar lugares de lectura
@@ -37,3 +38,26 @@ Un lugar donde tengan continuidad mis actividades
 ** mejorar el aspecto del baño
 ** lugar seguro y separado para los fondos
 ** gestion adecuada de los papeles de oficina
+** reacomodamiento de los trastos
+tengo un monton de cajas y ya se me han mezclado las cosas y es
+dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
+** una gran caja de herramientas para todas las herramientas.
+** cambiar las sillas
+** poner todas las lamparas led
+ 
+* Plan de accion						       :plan:
+** Dormitorio
+*** Pintura pared
+*** veladores
+*** Lampara techo
+*** cortina secundaria
+*** almohadas
+*** tope puerta de vestidor
+*** lustrado piso
+
+* Next Action							       :next:
+** TODO comprar pintura dormitorio
+** TODO poner caño cortina
+
+
+   

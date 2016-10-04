@@ -11,3 +11,53 @@
 ** Next action							       :next:
 ** Notas							      :notas:
 ** Research							   :research:
+* proyectos en proceso
+** Manuales							  :proyectos:
+Me propongo la creacion de tres manuales de uso que acompañen el
+proyecto
+*** Manual de usuario
+    Un manual parte por parte en formato sencillo destinado a que la
+    aplicacion se use bien
+*** Manual de mantenimiento del proyecto
+    Un manual destinado a que alguien con algunos conocimientos pueda
+    en el futuro mantener la aplicacion    :ofi:
+*** Tutorial o guia especifica de la base teorica
+    Alguna guia para aprender lo necesario para mantener el proyecto
+    <<ManualesKapeluz>>    
+** Plan de estudios						  :proyectos:
+En lineas generales que me gustaria aprender en los proximos tiempos
+*** mastering git
+aunque uso fossil ahora no descarto que alguna vez tenga que cambiar
+por necesidad (p.e. se caiga chisselapp.com)
+jaja El titulo decia mastering fossil con relacion a git/mercurial, y
+en dos dias ya estamos en mastering git y ya nos pasamos a git. Fossil
+quedo para el recuerdo.
+*** Django
+Es el proximo libro que me gustaria leer pq pienso que puede ser una
+puerta al reemplazo futuro de tclmobile
+*** Mastering Org-mode
+org-mode esta genial, quiero aprender bien a fondo el programa y
+avanzar tambien al management task con la agenda y con los sistemas
+mas profundos que tiene
+*** Python
+Obviamente no nos olvidemos de python que es el lenguaje base de
+trabajo en el cual estoy programando todo. Por eso pienso que seria
+conveniente seguir cursos paralelos como el de learn y dive into
+python.
+*** HTLM-CSS
+No le veo una utilidad inmediata pero creo que vale la pena al menos
+tenerlos al nivel aunque sea basico del curso de learn
+*** algorritmos y algo de teoria basica de la computacion
+creo que es importante saber de eso.
+*** programacion en android
+algun curso introductorio
+*** teoria de las bases de datos
+relectura del libro que tengo sobre el tema
+*** Mastering Emacs
+Tenerlo como herramienta base de trabajo. LLevo solo 7 dias de
+produccion neta en emacs y estoy muy conforme incluso mas ahora que
+tengo un emacs puro y que voy poniendo a punto
+*** Elisp 
+no se si deberia ir dentro del Mastering Emacs pero el tutorial que
+estoy leyendo es muy didactico y creo que con el tiempo puedo llegar a
+comprender bien el lenguaje y es base para mastering emacs :proy

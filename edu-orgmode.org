@@ -1,0 +1,131 @@
+* Org-mode							   :dpto:org:
+** Historia:
+Escuche la conferencia del creador de org-mode. Muy interesante
+** bugs
+*** Me borra escritos que ya hice. No creo que sea fossil 
+** Uso
+*** M-RET estando al final de un outline te abre otro al mismo nivel
+*** Tab alli lo promote/demote ciclicamente a los niveles que existen
+*** M-up|down sube/baja el nodo 
+*** M-left|right lo promote/demote no limitado a los niveles que existen 
+*** Listas ordenadas y no ordenadas se hacen con -,1.,1) y se mueven igual
+*** [2016-09-21 mié] C-c . inserta una fecha del calendario
+*** SM-RET inserta un TODO
+*** C-c C-l inserta un link
+*** C-c C-| formatea una tabla con los datos tabulares insertados en la region
+*** Links *** :							  :manual:ms:
+**** ((link) (descripcion)) o ((link)) en corchetes!!
+***** Para Editar un link Cc-Cl en el link o borrar el ultimo corchete invisible
+**** links internos ((Plan de estudios)) [[Plan de Estudios]] solo para outlines
+**** Autocomplecion de lugares internos * y M-Tab [[*Acomodo del dpto]]
+     Ojo funciona con [[* y M-Tab evitar que emacs te cierre los
+     parentesis sino te salta directo un link.
+**** Links externos
+| file:fichaje.py::252 | [[file:~/py1local/fichaje.py::252]] | ir a filetext linea especifica |
+| file:todo.org        | [[file:todo.org][TODO.org]]                        | otro org file                  |
+| file:todo.org::DONE  | [[file:todo.org::Hacer][Hacer]]                           | otro org file search word      |
+|                      |                                 |                                |
+**** [[ManualesKapeluz]] Apunta a una etiqueta <<etiqueta>>
+*** Tags							  :ms:manual:
+*** 
+**** Un tag es una clave enclosada en dos puntos
+**** poniendo los primeros dos puntos y M-tab hay autocomplecion 
+**** o con Cc-Cc en un headline se puede poner un tag o Cc-Cq en cualquier parte
+**** Cu CcCq realinea los tags a la columna 77
+**** Al poner #+TAGS: en la primer linea y hacer CcCc no cargo tags fijos								       
+	Entonces habilito a hacer un listado dinamico de tags con los usados en el archivo.
+	Se podria tambien hacer:
+	#+TAGS: tag1(a) tag2(b) tag3(c) y siempre cargar con CcCc o 
+	#+TAGS: {tag1(a) tag2(b)} tag3(c) y crear un grupo alternativo o sea tag1 o tag2 en ese caso 
+**** Search tags:
+***** Cc / m permite busqueda por tags tag1+tag2 tag1-tag2 tag1|tag2
+***** Cc \ idem anterior pero va directo sin la m
+*** checkbox
+    toda lista puede ser usada con checkbox. Ojo respetar espacios sino no funciona
+    - [ ] Comienzo 
+    Si ponemos un checkbox en un item jerarquico superior y dentro de su checkbox
+    ponemos [/] o [%] llevara la cuenta de la cantidad o porc de subitems checkados
+    Con el mouse se pueden checkar o descheckar los items.
+
+** Caracteristicas deseadas
+*** poder poner un limite a la linea con un autowrap
+*** Comandos para org-mode: Manejo de fechas
+| C-C .        | inserta fecha del calendario                  |
+|              | sobre una fecha la modifica                   |
+|              | dos veces pone un rango                       |
+| C-C !        | ingresa una fecha inactiva o sea no agendable |
+| S-left/right | Cambia la fecha adelante/atras en un dias     |
+| S- up/down   | Cambia la parte de  la fecha arriba o abajo   |
+| C-C- C-D     | ingresa DEADLINE                              |
+| C-C- C-S     | ingresa SCHEDULED                             |
+*** [2016-09-24 sáb] soporte para uso de mouse
+** anexar packages
+   SCHEDULED: <2016-09-26 lun>
+*** tomatinho - pomodoro [[https://github.com/konr/tomatinho][descargar]]
+Permite llevar el control de lo realmente producido
+| <Enter>   | Forgoes the current pomodoro or leaves a break. |
+| S-<Enter> | Deliberately pauses.                            |
+| R         | Resets the timer.                               |
+| <Tab>     | Toggles between display modes.                  |
+| q         | Kills the buffer.                               |
+| Q         | Turns off Tomatinho.                            |
+*** org-mouse
+genial manejo de org con el raton que en cierta forma ayuda un monton
+pero no debe hacer que uno olvide o desaprenda lo basico para llegar a
+mastering org
+*** imenu
+te agrega un menu con las definiciones para saltar directamente, o sea
+lo que seria el minimap de funciones pero mas eficiente. Muy
+interesante para lib.py p.e.[[https://www.emacswiki.org/emacs/ImenuMode#toc15][wiki sobre imenus]]
+*** org-board
+es un sistema de guardado de paginas con wget y de paso te queda el registro.[[https://github.com/scallywag/org-board][org-board github]]
+*** helm in deep [[http://tuhdo.github.io/helm-intro.html][helm descripcion uso]]
+*** org-wiki [[https://github.com/caiorss/org-wiki][wiki]]
+** recursos en la web
+*** [[http://tuhdo.github.io/index.html][introduccion lisp]]
+*** [[http://jr0cket.co.uk/2016/09/Kanban-board-Emacs-Org-mode-to-get-work-done.html][kanban meet org]]
+*** [[https://github.com/kelvinh/org-page][interesante blog hecho con org y publicado en git]]
+*** [[http://orgmode.org/worg/org-blog-wiki.html][listado general de recursos de blog y wiki]]
+** tables
+- Cc abre un menu sobre tablas
+- las tablas se crean con | y se van alineando solas
+- tambien se puede sobre un csv resaltado llamar Cc |
+
+| / | <>             | <>                      |
+|   | Alt-RET        | para una nueva fila     |
+|   | Alt-left-right | para mover las columnas |
+|   | Alt-up-down    | para mover las filas    |
+|---+----------------+-------------------------|
+
+Poner un encabezado con / <> <> y una col vacia a la izquierda produce 
+que se dibujen las lineas verticales de columna
+
+| / | <>              | <>                       |
+|   | Alt-Shift-left  | borra la columna         |
+|   | Alt-Shift-right | crea una columna         |
+|   | Alt-Shift-up    | borra la linea de arriba |
+|   | Alt-Shift-down  | crea una fila arriba     |
+|   | C-c RET         | crea una linea debajo    |
+|---+-----------------+--------------------------|
+
+Hay tambien algunos cumbersome pasos para mejorar tablas
+que creo que tienen sentido si luego vamos a exportar
+
+|   |  N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
+|---+----+-----+-----+-----+---------+------------|
+| / | <> |   < |     |   > |       < |          > |
+| # |  1 |   1 |   1 |   1 |       1 |          1 |
+| # |  2 |   4 |   8 |  16 |  1.4142 |     1.1892 |
+| # |  3 |   9 |  27 |  81 |  1.7321 |     1.3161 |
+|---+----+-----+-----+-----+---------+------------|
+
+Este ejemplo lo hice yo:
+|   |  N | N**2 | N**3 |
+| / | <> |    < |    > |
+| # |  1 |    1 |    1 |
+| # |  2 |    4 |    8 |
+| # |  3 |    9 |   27 |
+
+[[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Para usar las tablas como hoja de calculo]]
+
+

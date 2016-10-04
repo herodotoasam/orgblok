@@ -1,7 +1,73 @@
+* Emacs maravillas
+** undo/redo por regiones
+Es muy comun que uno quiera deshacer algo antepasado pero no todo, y emacs te hace undos
+sobre regiones, o sea resaltar el lugar donde esta el undo y al c-/
+** M-y cicle yanks
+o sea despues de un yank con c-y se puede usar m-y y te cicla los yank
+
+
+* Emacs teoria
+** Busqueda
+*** Ms .
+Con Ms . buscamos la palabra en la cual esta el cursor no importa si
+esta el cursor en el medio al comienzo o donde. La resalta y luego nos
+movemos con Cs/Cr
+
+** Lower/Upper
+*** Mu / Ml
+Con dichos comandos voy poniendo mayusculas/minusculas y va avanzando
+palabra a palabra
+
+
+* Emacs requeridos
+*** un theme que marque la fila a lo ancho. Antes lo tenia.
+*** como poner autofill siempre p.e. en org-mode
+*** ver que funcione de nuevo highlight-mode
+
+* Emacs vs Vim
+[2016-09-28 mié]
+No esta definida a hoy la batalla. Se que ha pasado poco tiempo y uno
+no va a aprender todo en dos dias. Una cosa es entrar en produccion y
+otra es mastering.
+Y en el fondo creo que lo mejor es la produccion no la herramienta.
+Incluso a hoy un poco se me cae la utilidad de org-mode. Parte pq
+quedo en ese bache y parte por la forma en que se me hace complejo el
+escrito y sin orden.
+[2016-09-30 vie]
+Hoy la batalla dio un giro inesperado. Desde anoche me volvi
+rotundamente a vim. La idea es lograr un vim bien armonizado con un
+control de plugin bien hecho y fundamentalmente con un .vimrc hecho de
+cero.
+Aunque parezca mentira trabajo con un .vimrc de hace varios años y
+nunca lo revise. Entonces tiene parche sobre parche y al final no se
+lo que tiene.
+Lo que me llamo la atencion fue.
+1. la rapidez
+En realidad gvim abre en un segundo y esta listo. (Emacs puro tambien)
+2. la facilidad real para editar
+No puedo decir que no es rapido y facil, y tiene ciertas
+caracteristicas que son utiles a la hora de trabajar (que no he
+encontrado aun en emacs).
+
+Al final me decidi en realidad por un resultado dividido:
+a. Vim para programar
+b. Emacs para org-mode
+Total los dos son ultrarapidos y estan en todas las maquinas (no asi
+atom que es un mastodonte en la tablet y no se puede instalar en una
+i686).
+
+Pero tambien creo que hay mejoras en el uso de vim que pueden hacerlo
+muchisimo mas poderoso (que lo que yo lo estaba usando)
+[2016-10-01 sáb] 
+Hoy puse en emacs evil, y parece que todo va muy rapido, al menos para
+seguir usando org-mode y punto.
+
+
 * Alt-x ingresar comandos
 ** list-colors-display
 muestra todos los colores que se pueden conseguir y sus respectivos nombres o hexas
 ** linum line number mode
+
 * Cortar/copiar/pegar
 ** Use CUA en menu
 permite usar los clasicos Cx Cv Cc Cz de windows
@@ -9,6 +75,7 @@ permite usar los clasicos Cx Cv Cc Cz de windows
 - cortar C-w
 - pegar C-y (yank)
 - copiar Alt-w
+
 * Manejo de Buffers
 ** abrir archivo
 C-x C-f excelente con autocompletacion
@@ -16,6 +83,7 @@ C-x C-f excelente con autocompletacion
 C-x C-s
 ** eliminar un buffer
 C-x k
+
 
 * Movimiento dentro de un buffer
 ** Principio y final
@@ -29,27 +97,23 @@ C- -->  C <--
 - C-p linea arriba
 - C-a principio de linea
 - C-e final de linea
+
 * Seleccion de texto
 con C-Space hacemos una marca luego nos movemos hasta el lugar deseado y podemos usar los 
 comandos copiar o cortar
 C-x-h marca todo el buffer (el Ctrl-a de windows)
+
 * Undo
 C-/
+
 * Borrado
 C-k borra la linea desde la posicion hasta el final
 Alt-d borra la palabra actual
 Alt-Backspace borra la palabra anterior
-* Busqueda
-el comando de busqueda es asombroso. Busqueda incremental
-C-s busca hacia abajo
-C-r busca hacia arriba
-si repetimos va a la siguiente palabra y se puede cambiar de direccion Cs Cs Cr
-** Buscar la palabra bajo el cursor
-C-s C-w
-** Quedarnos con la busqueda
-C-s etc RET
-** Abandonar la busqueda y volver adonde estabamos
+
+* Abandonar la busqueda y volver adonde estabamos
 C-s etc C-g
+
 
 * Replace
 Alt-% nos lleva a un replace (si hay algo seleccionado nos lo propone como default)
@@ -63,14 +127,19 @@ abrimos un dired y alli marcamos o desmarcamos los archivos que queremos procesa
 y con la tecla Q hacemos el reemplazo global que nos llevara por los archivos paso a paso con la opcion
 y/n/! similar al replace local
 
-* Split windows
-** Horizontal
-C-x-2
-** Vertical
-C-x-3
-** Moverse a otra ventana
-C-x-o
-** Quedarse en la unica ventana (maximizar)
+
+
+* Busqueda
+el comando de busqueda es asombroso. Busqueda incremental
+C-s busca hacia abajo
+C-r busca hacia arriba
+si repetimos va a la siguiente palabra y se puede cambiar de direccion Cs Cs Cr
+** Buscar la palabra bajo el cursor
+C-s C-w
+** Quedarnos con la busqueda
+C-s etc RET
+
+* Quedarse en la unica ventana (maximizar)
 C-x-1
 
 tabla
@@ -94,48 +163,18 @@ ejemplo produciendo listas
 
 
 
-* ORG-mode
-** tables
-- Cc abre un menu sobre tablas
-- las tablas se crean con | y se van alineando solas
-- tambien se puede sobre un csv resaltado llamar Cc |
 
-| / | <>             | <>                      |
-|   | Alt-RET        | para una nueva fila     |
-|   | Alt-left-right | para mover las columnas |
-|   | Alt-up-down    | para mover las filas    |
-|---+----------------+-------------------------|
+* Split windows
+** Horizontal
+C-x-2
+** Vertical
+C-x-3
+** Moverse a otra ventana
+C-x-o
 
-Poner un encabezado con / <> <> y una col vacia a la izquierda produce 
-que se dibujen las lineas verticales de columna
 
-| / | <>              | <>                       |
-|   | Alt-Shift-left  | borra la columna         |
-|   | Alt-Shift-right | crea una columna         |
-|   | Alt-Shift-up    | borra la linea de arriba |
-|   | Alt-Shift-down  | crea una fila arriba     |
-|   | C-c RET         | crea una linea debajo    |
-|---+-----------------+--------------------------|
 
-Hay tambien algunos cumbersome pasos para mejorar tablas
-que creo que tienen sentido si luego vamos a exportar
 
-|   |  N | N^2 | N^3 | N^4 | sqrt(n) | sqrt[4](N) |
-|---+----+-----+-----+-----+---------+------------|
-| / | <> |   < |     |   > |       < |          > |
-| # |  1 |   1 |   1 |   1 |       1 |          1 |
-| # |  2 |   4 |   8 |  16 |  1.4142 |     1.1892 |
-| # |  3 |   9 |  27 |  81 |  1.7321 |     1.3161 |
-|---+----+-----+-----+-----+---------+------------|
-
-Este ejemplo lo hice yo:
-|   |  N | N**2 | N**3 |
-| / | <> |    < |    > |
-| # |  1 |    1 |    1 |
-| # |  2 |    4 |    8 |
-| # |  3 |    9 |   27 |
-
-[[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Para usar las tablas como hoja de calculo]]
 
 
 * spacemacs
@@ -251,16 +290,10 @@ emacs tambien tiene la parafernalia de vim con sus plugin para hacer de todo
 pero en este caso (hasta ahora) spacemacs es seamless y no requiere ni permite nada mas.
 
 
+
 * tips encontrados en spacemacs-produciendo
 *** Control-up/down para ir rapidamente entre lineas en blanco
 muy util seria para navegar rapidamente no solo entre clases, sino entre definiciones
 y partes de sectores densos.
 Incluso si se pone el titulo del sector denso como comentario es facil transitarlo. 
 
-* reniegues varios en desarrollo
-** poner en forma ordenada con label y entrys muchos campos
-es cumbersome, y painfull. Lo resolvi en parte con un tbls con altura 1, y
-selecttype='cell', muy bonito y practico, ahora abria que hacerlo editable, lo
-cual no es gran dificultad.
-se podria poner calle/num/barrio/zona aparte en una linea directa, ver. 
-** scrollwindows y scrolledframe
