@@ -53,11 +53,12 @@ traer taladro
 *** traer libros
 
 * cambios alimentarios
-** [0%] Cereales
+** [40%] Cereales
 - [ ] amaranto
 - [ ] arroz
-- [ ] sesamo
+- [X] sesamo
 - [ ] quinoa
+- [X] mijo
 
 ** Legumbres
 *** aduki
