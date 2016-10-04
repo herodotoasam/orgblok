@@ -1,0 +1,39 @@
+#+FILETAGS: proyecto dpto
+
+* Acondicionar el dpto            :title:
+#+BEGIN: clocktable :maxlevel 2 :scope subtree
+#+CAPTION: Clock summary at [2016-10-03 lun 21:22]
+| Headline             | Time   |
+|----------------------+--------|
+| *Total time*         | *0:11* |
+|----------------------+--------|
+| Acondicionar el dpto | 0:11   |
+#+END:
+
+  CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
+  CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
+* Vision del proyecto             :vision:
+La idea es tener un lugar comodo y agradable donde vivir
+Confortable, terminado pero no aputosado
+Un lugar donde tengan continuidad mis actividades
+* Justificacion del proyecto   :why:
+- Tengo derecho a vivir en un ambiente confortable y agradable
+- Los gastos envueltos no son muy grandes y puedo afrontarlos
+- Tener un dpto acondicionado puede ser motivante
+* Brainstorming 						      :brain:
+** eliminar la excesiva claridad
+** acondicionar lugares de lectura
+** sillon comodo
+*** almohadones
+*** otro sillon en reemplazo del futon
+** ubicar algunos libros
+** refuncionalizar el placard
+** lustrar los pisos
+** tener los artefactos de iluminacion
+** Recambiar utensilios de cocina
+** minimalizar todo
+** poner un dosificador de aroma como en oficina
+** sellar las ventanas
+** mejorar el aspecto del baño
+** lugar seguro y separado para los fondos
+** gestion adecuada de los papeles de oficina

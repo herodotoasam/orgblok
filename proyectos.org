@@ -1,0 +1,21 @@
+
+* Aprender org-mode				 :proyecto:aprender:org:mode:
+** Vision							     :vision:
+ Estimo que aprender bien esta herramienta va a contribuir a la
+ productividad futura.
+
+** Justificacion							:why:
+ - Es una herramienta multiproposito
+ - 
+ - 
+ - 
+ - 
+** Brainstorming						      :brain:
+** Plan de accion						       :plan:
+** Next Action							       :next:
+** Notas							      :notas:
+
+
+* Pasar todos los escritos
+
+* Organizar el dpto
