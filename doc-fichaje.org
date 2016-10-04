@@ -1,5 +1,5 @@
 * Justificacion del proyecto
-<2016-09-21 mié> Aparte de formar parte de mi re-aprendizaje , el cual
+[2016-09-21 mié] Aparte de formar parte de mi re-aprendizaje , el cual
 es continuamente reforzado y complementado, creo que el proyecto se
 autojustifica suficientemente. 
 [2016-09-26 lun] Me resuenan las palabras de un programador que lei
@@ -33,8 +33,6 @@ y tambien con el manejo de tar que hace python automaticamente
 *** DONE Pasado de novedades desde la venta (fichitas)
 
 ** TabFechar
-   :PROPERTIES:
-   :tab: Fechar
 *** Muchas de las cosas implementadas serviran en otros modulos
 1. cuenta y cuotas coloreadas
 2. uso de checkbuttons
@@ -84,7 +82,6 @@ No perder de vista que es una tab para fechar y nada mas que para eso
 |                |                                            |    |
   * Objetivos de implementacion
 ** TabFechar
-DEADLINE: <2016-09-26 lun>
 Este tab es el mas importante del CMR Cobranzas pq alli se cargaran
 todas las novedades de los clientes.
 * Ideas prospectivas proyecto
