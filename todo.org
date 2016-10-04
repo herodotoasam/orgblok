@@ -20,9 +20,9 @@ para lectura y led
 | Fede      | 1000 |
 | quedan    | 20K  |
 * Hacer
-** TODO depositar auto ih
+** DONE depositar auto ih
    SCHEDULED: <2016-10-03 lun>
-** TODO depositar auto mio
+** DONE depositar auto mio
    SCHEDULED: <2016-10-04 mar>
 ** TODO pagar alquiler
    SCHEDULED: <2016-10-05 mié>
@@ -44,8 +44,7 @@ para lectura y led
 ** poner el caño cortina que ya compre
    DEADLINE: <2016-10-09 dom>
 ** colgar el espejo
-   SCHEDULED: <2016-10-01 sáb> DEADLINE: <2016-10-09 dom>
-traer taladro
+*** DONE er taladro
 ** estanteria
    DEADLINE: <2016-10-14 vie>
 *** pegarle los frentes

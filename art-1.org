@@ -1,4 +1,4 @@
-* Hacia la organizacion de los archivos en orgmode		   :org:mode:
+* Hacia la organizacion de los archivos en orgmode 		   :org:mode:
 [2016-10-04 mar]
 La idea es establecer un orden basico de tipos de archivos a llevar
 segun la funcion
