@@ -1,0 +1,57 @@
+* Hacia la organizacion de los archivos en orgmode		   :org:mode:
+[2016-10-04 mar]
+La idea es establecer un orden basico de tipos de archivos a llevar
+segun la funcion
+** Esquema de archivos
+*** pro proyectos
+Posiblemente un archivo por proyecto relevante, con su conteo de
+tiempo establecido.
+Puede que se haga uno general en el cual se contengan proyectos mas
+pequeños o todavia no categorizados
+*** art articulos
+Seria el espacio para todos aquellos temas o analisis no categorizados
+aun en los otros items mas especificos. P.e. aqui puede nacer un
+proyecto, o puede nacer una materia de estudio, mientras tanto es un
+lugar general.
+*** dia diario
+Son las bitacoras que se especifican por dia con fecha inactiva. 
+*** edu estudio
+Son contenedores de un tema lo suficientemente relevante como para
+tener su propio archivo, como ha sido hasta ahora emacs y orgmode
+*** especificos
+Serian los trabajos especificos como el "manual de usuario" que estaba
+escribiendo para la aplicacion.
+
+** Justificacion
+En un comienzo pense que las posibilidades del outline permitirian
+tener un solo archivo general para todo, donde uno trabajaria en la
+parte que quisiera y todo estaria junto. Pronto muy pronto se me
+complico y los dos archivos que tengo resultaron ilegibles e
+intrabajables.
+
+Luego me percato que tengo facilidades globales a disposicion
+- agenda de orgmode se fija en todos los archivos del directorio que
+  le indiques
+- git te actualiza o te puede versionar todo un directorio, solo con
+  hacer git add .
+- los links internos te pueden permitir referenciar o bien hacer un
+  indice general para no perder de vista nada. p.e. en un lugar pueden
+  estar indizados todos los proyectos con su link y no tener que
+  revisar un dired
+Entonces no tiene sentido trabajar sobre un solo archivo.
+
+** Metodos de trabajo
+Se pueden ir adoptando metodos de trabajo que sean coherentes.
+Por ejemplo:
+- Un articulo por encabezado principal
+- Fechar el comienzo y quizas tambien las revisiones futuras
+
+** Conceptos relativos a la escritura
+*** Concepto mantener la mente libre de cosas
+o sea una vez que uno vuelca una idea o proyecto o lista en un archivo
+convenientemente ubicado, la mente queda libre de tener la sensacion
+que hay cositas que se puedan olvidar o perder
+*** Concepto escribir cuando tengamos cosas que decir
+No forzarse, sino dejar que fluya. De ultima tener una seccion de
+escritos desganados o forzados.
+
