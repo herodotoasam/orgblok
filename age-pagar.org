@@ -1,0 +1,25 @@
+* TODO Alquiler dpto					:personal:alquileres:
+  DEADLINE: <2016-11-05 sáb +1m -3d>
+  - State "DONE"       from "TODO"       [2016-10-05 mié 12:10]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-10-05 mié 12:10]
+  :END:
+* TODO Expensas dpto					:personal:alquileres:
+  DEADLINE: <2016-10-05 mié +1m -2d>
+* TODO Aguas Cordobesas dpto				:personal:alquileres:
+  DEADLINE: <2016-11-23 mié +1m -5d>
+* TODO Alquiler casa marques				    :flia:alquileres:
+  DEADLINE: <2016-10-21 vie +1m>
+* TODO Expensas Local					      :oficina:fijos:
+  DEADLINE: <2016-10-20 jue +1m -3d>
+* TODO Depositar por seguros				      :personal:auto:
+  DEADLINE: <2016-11-05 sáb +1m -1d>
+  - State "DONE"       from "TODO"       [2016-10-05 mié 12:14]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-10-05 mié 12:14]
+  :END:
+* TODO Depositar auto Cesar					:flia:isabel:
+  DEADLINE: <2016-10-28 vie +1m>
+
+
+
