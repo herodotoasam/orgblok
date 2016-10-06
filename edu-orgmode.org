@@ -59,7 +59,7 @@ Escuche la conferencia del creador de org-mode. Muy interesante
 | C-C- C-D     | ingresa DEADLINE                              |
 | C-C- C-S     | ingresa SCHEDULED                             |
 *** [2016-09-24 sáb] soporte para uso de mouse
-** anexar packages
+** DONE anexar packages
    SCHEDULED: <2016-09-26 lun>
 *** tomatinho - pomodoro [[https://github.com/konr/tomatinho][descargar]]
 Permite llevar el control de lo realmente producido
@@ -129,3 +129,36 @@ Este ejemplo lo hice yo:
 [[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Para usar las tablas como hoja de calculo]]
 
 
+
+* Temas aprendidos
+** Fechas
+   DEADLINE: <2016-10-10 lun>
+Cuando hay que introducir una fecha y sale el calendario tambien hay
+un prompt en el minibuffer. Alli se puede poner una fecha relativa
+p.e.
++5d, +2w siempre relativo a hoy
+++5d con doble signo si la queremos referenciar a la que esta
+. pone el calendario a hoy
+
+Tambien asume que pondremos una fecha a futuro, entonces solo un
+numero pone esa fecha dentro del proximo mes.
+
+Manejo basico del calendario
+| S right/left   | un dia adelante o atras     |
+| S up/down      | una semana adelante o atras |
+| M-S-right/left | un mes adelante o atras     |
+| M-v C-v        | 3 meses adelante o atras    |
+| M-S- down/up   | un año adelante o atras     |
+| .              | hoy                         |
+
+Resumen de entradas permitidas en el minibuffer
+| .      | hoy                               |
+| +4d    | cuatro dias desde hoy             |
+| ++5    | cinco dias desde la fecha default |
+| +2w    | mas dos semanas                   |
+| +2mon  | dos lunes desde aca               |
+| -wed   | ultimo miercoles                  |
+| 14     | el proximo dia 14                 |
+| mon    | el proximo lunes                  |
+| oct 12 | el proximo 12 de oct              |
+|        |                                   |

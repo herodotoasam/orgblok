@@ -1,11 +1,15 @@
-* TODO Alquiler dpto					:personal:alquileres:
+* TODO Alquiler dpto 					:personal:alquileres:
   DEADLINE: <2016-11-05 sáb +1m -3d>
   - State "DONE"       from "TODO"       [2016-10-05 mié 12:10]
   :PROPERTIES:
   :LAST_REPEAT: [2016-10-05 mié 12:10]
   :END:
 * TODO Expensas dpto					:personal:alquileres:
-  DEADLINE: <2016-10-05 mié +1m -2d>
+  DEADLINE: <2016-11-05 sáb +1m -2d>
+  - State "DONE"       from "TODO"       [2016-10-05 mié 18:02]
+  :PROPERTIES:
+  :LAST_REPEAT: [2016-10-05 mié 18:02]
+  :END:
 * TODO Aguas Cordobesas dpto				:personal:alquileres:
   DEADLINE: <2016-11-23 mié +1m -5d>
 * TODO Alquiler casa marques				    :flia:alquileres:

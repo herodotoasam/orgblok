@@ -2,13 +2,14 @@
 
 * Acondicionar el dpto						      :title:
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2016-10-04 mar 15:05]
+#+CAPTION: Clock summary at [2016-10-05 mié 19:25]
 | Headline             | Time   |
 |----------------------+--------|
-| *Total time*         | *0:19* |
+| *Total time*         | *0:24* |
 |----------------------+--------|
-| Acondicionar el dpto | 0:19   |
+| Acondicionar el dpto | 0:24   |
 #+END:
+  CLOCK: [2016-10-05 mié 19:19]--[2016-10-05 mié 19:24] =>  0:05
   CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
   CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
   CLOCK: [2016-10-04 mar 14:56]--[2016-10-04 mar 15:04] =>  0:08
@@ -48,16 +49,24 @@ dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
 * Plan de accion						       :plan:
 ** Dormitorio
 *** Pintura pared
+Estaria bueno un color azul crepusculo
 *** veladores
+por lo visto en ML no se deberia gastar mas de 500 uno muy bueno con
+pantalla y/o unos 700 por ese groso modernista
 *** Lampara techo
 *** cortina secundaria
+Me fallo el caño. Quizas tendria que subirlo y acortar la cortina o
+bien poner un poco de contac negro en la parte superior de la ventana
+cosa de atenuar la claridad.
 *** almohadas
 *** tope puerta de vestidor
 *** lustrado piso
 
+da un rico olor la cera
 * Next Action							       :next:
 ** TODO comprar pintura dormitorio
-** TODO poner caño cortina
+** DONE poner caño cortina
+** TODO comprar caja de herramientas grande en bazar liquidacion
 
 
    

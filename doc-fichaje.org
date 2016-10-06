@@ -238,3 +238,60 @@ y al final en la parte del insert puse tuple
 Es raro pero eso hizo que funcionara alla, pero aca no le afectaba
 Pero como son dos SO distintos y puede que haya distintas versiones de tcl
 
+
+* Comentarios al desarrollo
+** Proceso quiere comprar
+[2016-10-05 mié] 
+Tengo un campo quierecomprar en clientes que sirve de control para con
+un bind a un checkbutton saber en todo momento que ese cliente activo
+el pedido.
+Pero la clave esta en la tabla quequierecomprar, donde cuando activo
+un pedido ingreso idcliente, fecha y articulo si es que lo dijo.
+Es de esta tabla de donde saldra la guia para emitir un listado de
+pendientes tanto visual como luego impreso.
+
+Ese query lo hago con la fecha-pedido vs fecha-ultimacompra. O sea
+listo todos los pedidos que tienen fecha posterior a la ultimacompra.
+Entonces no cierro la row del pedido cuando el cliente compra, pq no
+hace falta, pq es un sistema de pedidos informales, o sea avisos de
+visita del vendedor, y se supone que si el cliente compro con
+posterioridad al pedido ese pedido quedo satisfecho.
+
+Mediante un trigger muy simple cuando se modifica la fecha ultcompra
+en la tabla clientes (o sea cuando compra) saco el flag quierecomprar
+y eso sirve para que no se active el checkbutton.
+
+*** Caveats
+- Era necesario llamar quequierecomprar a la tabla, no podia ser pedidos
+- Se puede pensar en cerrar tambien por trigger el registro en la
+  tabla quequierecomprar cuando el cliente compra. ¿Sirve para algo?
+
+** Proceso seven
+[2016-10-05 mié]
+El proceso programado hoy tiene que ver con el marcado manual de gente
+a subir al seven.
+Luego habria que ver como seguimos para atras, si mediante la
+reactivacion de las cuentas a nivel cobrador-intimacion y seguir con
+el proceso manual.
+Quedaria aparte el tema de los mudados que tendria que subirlos
+automaticamente.
+Eso podria hacerlo con un update clientes set subirseven=1 where zona=
+'-mudados recientes'.
+
+Una vez marcados con el flag subirseven, saco el listado con el select
+subirseven=1 and sev=0 o sea los que no estan en el seven, y le
+agregue por las dudas deuda>0.
+
+Una vez emitido y controlado el archivo csv se procede a:
+- desflagear el campo subirseven=0
+- flaguear con sev=1
+- poner el fecha de alta
+- generar un registro en la tabla seven donde ponemos
+  - idcliente
+  - codigo
+  - fecha
+
+
+* Next Actions							       :next:
+** TODO [#A] Listado impreso de gente que quiere ser visitada
+** TODO Proceso de documentos
