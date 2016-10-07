@@ -27,3 +27,11 @@
 
 
 
+* TODO Pagar viaje estudio Cami					:flia:camila:
+  DEADLINE: <2016-10-15 sáb +1m>
+* TODO Claro						      :flia:personal:
+  DEADLINE: <2016-10-22 sáb +1m>
+* TODO Hospital Privado					      :flia:personal:
+  DEADLINE: <2016-10-17 lun +1m>
+* 
+ 

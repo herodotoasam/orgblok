@@ -162,3 +162,45 @@ Resumen de entradas permitidas en el minibuffer
 | mon    | el proximo lunes                  |
 | oct 12 | el proximo 12 de oct              |
 |        |                                   |
+** checkbox [2/2] [100%]
+- [X] item 1
+- [X] item 2
+Se pone el checkbox en un item de lista
+Si hacemos M-RET nos otorga otro item de lista, pero si hacemos
+M-S-RET nos otorga otro chekbox
+
+Poniendo la cockie [/] o [%] en un item superior se lleva la cuenta de los
+check tildados en los items inferiores.
+** Ciclo de listas
+- 
+- 
+- 
+Poniendo cualquier lista y luego haciendo S-left/right se cicla por distintos
+formatos de lista 
++ 1) 1. - 
+
+ 
+
+
+
+
+
+* En que estoy usando orgmode actualmente
+[2016-10-07 vie] 
+O bien en que le encuentro utilidad
+** Escritura de proyectos complejos
+p.e. manual de usuario o diario de proyecto
+** Agenda de proximos pagos
+ahi la veo interesante por lo sencillo y a la vez segura forma de 
+poner todo junto y estar tranquilo.
+** Manejo de proyectos 
+poner todo lo relativo a un proyecto en el mismo lugar y despachar
+las next action etc.
+** Diario
+Si podemos poner a punto el date-tree, seria ideal para organizar los
+escritos pasados y futuros.
+
+Es cierto que por ahi en el proceso de aprendizaje uno se traba y
+pierde mucho tiempo, o se desanima, pero en realidad es algo
+apasionante y que puede ser redituable a lo largo del tiempo como
+todas las cosas.
