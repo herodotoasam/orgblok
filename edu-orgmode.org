@@ -180,8 +180,14 @@ formatos de lista
 + 1) 1. - 
 
  
+** Edicion de codigo
+con <s y Tab obtenemos el siguiente esquema
+#+BEGIN_SRC 
 
-
+#+END_SRC
+ese espacio permite insertar codigo.
+al lado de begin_src ponemos python y adentro el codigo que se
+formateara como habitualmente se hace.
 
 
 

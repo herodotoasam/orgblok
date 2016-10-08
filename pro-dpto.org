@@ -67,6 +67,10 @@ mejores pq te permiten leer mejor)
 En calle rivadavia unos de led minimalistas y muy modernos, son con
 usb y van a la compu. Eso tambien es un moco a largo plazo. Por eso
 pienso que los de 580 son mejores con lamparas led.
+**** Casi estoy decidido a pedirlos en ML
+un velador de diseño con una pantallita muy linda a 480 con 150 de
+flete y entrega a domicilio
+
 *** Lampara
  techo
 *** cortina secundaria
@@ -85,6 +89,7 @@ Ver solucion contac.
 ** DONE poner caño cortina
 ** TODO comprar caja de herramientas grande en bazar liquidacion
 ** TODO comprar veladores
+- [ ] pedirlos a ML
 ** TODO pintar pared
 ** TODO traer del marques
 - [ ] tope puerta

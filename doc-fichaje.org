@@ -341,3 +341,61 @@ Son 6 argumentos, el primero y el ultimo 0, los dos anteultimos "".
 Poner el filename que queremos y las opciones son "print" para imprimir directo y
 "open" para abrir el programa determinado de pdf.
 
+* Corrijo class Buscar y class Tbls
+** jklh en Tbls
+Cuando escribi la class Tbls quise reinventar la rueda con los metodos
+j/k/l/h y al final le erre pq no me funcionaban bien en la
+determinacion del active de tablelist como los metodos nativos de
+tablelist.
+
+Asi que ahora lo unico que hago es wrapear esos metodos.
+
+#+BEGIN_SRC python
+    self.body_bind('<j>',lambda ev: (self.typerow(),self.event_generate('<Down>')))
+    self.body_bind('<k>',lambda ev: (self.typerow(),self.event_generate('<Up>')))
+    self.body_bind('<l>',lambda ev: (self.typecell(),self.event_generate('<Right>')))
+    self.body_bind('<h>',lambda ev: (self.typecell(),self.event_generate('<Left>')))
+#+END_SRC
+
+Como se puede ver solo uso event_generate que lo que hace es disparar
+el evento sin que el evento fisico haya tenido lugar, entonces es
+ideal para el wrappeado.
+Pero le agrego un previo paso y es cambiar el typeselect del tbls con
+dos funcioncitas.
+Primero notar que las tan utiles funciones lambda te permiten:
+- usar mas de una sentencia separadas por comas y todo entre comillas
+- pero no te permite asignacion, por lo cual no se puede poner
+  typeselect=row dentro de un lambda
+
+#+BEGIN_SCR python
+def typecell(self):
+   self['selecttype']='cell'
+
+def typerow(self):
+   self['selecttype']='row'
+#+END_SCR
+
+Con estos cambios se solucionan los malos comportamientos en la
+asignacion del active y puedo usar mi frikeada del jklh dentro de los tbls.
+** un buscar renovado
+Decidido a pulir la clase Buscar para poder usarla intensivamente
+necesitaba que la asignacion del idcliente fuera clara y facilmente
+obtenible con el enter y el dobleclick, por eso que tuve que corregir
+las anomalias del jklh de Tbls.
+
+Cambie los nombres de los metodos de ubicacion en la casa <c> y en la
+cuadra <C> para que sean mas faciles de acordar.
+
+Y tenemos un metodo get que entrega el idcliente buscado. En
+conjuncion con un focus al elemento siguiente segun Tk.
+
+#+BEGIN_SRC python
+       def cargaractive(self,ev):
+            self.active=self.t.getcell('active','id')
+            self.t.rowconfigure('active',bg='yellow',fg='black',font='ubuntu 10 bold')
+            self.t.tk_focusNext().focus_set()
+        
+        def get(self):
+            return self.active
+
+#+END_SRC
