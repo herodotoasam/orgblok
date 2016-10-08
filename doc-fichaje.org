@@ -293,5 +293,51 @@ Una vez emitido y controlado el archivo csv se procede a:
 
 
 * Next Actions							       :next:
-** TODO [#A] Listado impreso de gente que quiere ser visitada
+** DONE [#A] Listado impreso de gente que quiere ser visitada
+** TODO [#A] Proceso de Intimaciones
 ** TODO Proceso de documentos
+
+* Mejoras varias
+** Adaptacion para windows
+*** editor recomendado para windows
+scite liviano sin necesidad de instalacion y con F5 compila y muestra errores
+*** Modulos que me pidio una instalacion limpia en python
+  | dateutils   | pip | ojo q se llama dateutils y me pide dateutil |
+  | fastnumbers | exe | bajarlo de pypi                             |
+  | winshell    | pip |                                             |
+  | fpdf        | pip |                                             |
+  | win32api    | exe | bajarlo de sourceforge - ojo version 3.4    |
+*** Modulos tcl que me pidio
+  | Bwidget   | use el de tcl aunque es dificil de encontrar  |
+  | tablelist | baje de nemethi pq no lo encontre             |
+  | sqlite3   | necesario para fts (ver solucion en cuaderno) |
+  |           |                                               |
+*** algunos reniegues de instalacion en windows
+generalmente hay que poner el package que necesitamos dentro del subdirectorio tcl de python
+en especial pide bwidget y tablelist, porque son ambos wrappers que funcionan en python con su
+correlato en tcl y por mas que esten instalados en tcl hay que ponerlos en python. (Posiblemente
+eso se arregle con un tema de path, pero hay que meterse en windows)
+*** instalacion de modulos en windows
+**** python -m pip install modulo
+**** Pero hay modulos que no se instalan en windows
+en ese caso tratar de bajar el ejecutable de pypi y ejecutarlo
+Asi instale fastnumbers sino no se podia.
+*** controlo el proceso mediante sys.platform
+eso me permite el swich entre linux y las que no lo son
+*** determino el Desktop mediante winshell
+se importa facil con pip
+winshell.folder("Desktop") te entrega el desktop
+luego con un os.join lo armo suponiendo un directorio standard en el desktop
+*** hago un proceso de vision de pdf generico sin importar lo que tiene instalado
+mediante import win32api (hay que bajar la version para python3.4 de sourceforge)
+win32api.ShellExecute (
+  0,
+  "print",
+  filename,
+  "",
+  "",
+  0)
+Son 6 argumentos, el primero y el ultimo 0, los dos anteultimos "".
+Poner el filename que queremos y las opciones son "print" para imprimir directo y
+"open" para abrir el programa determinado de pdf.
+
