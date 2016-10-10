@@ -1,0 +1,4 @@
+* bindsym con mouse
+| Mod+Boton medio en cualq lado de window | kill windows |
+| Boton medio sobre title bar             | kill windows |
+|                                         |              |
