@@ -73,3 +73,6 @@ que son las que mas causan error.
 *** En realidad he podido prescindir de jedi
 parte pq en la netbook me enlentece demasiado y parte pq es invasivo a
 nivel pantalla
+* Tips
+** boton medio pegar clipboard
+
