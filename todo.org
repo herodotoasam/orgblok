@@ -52,12 +52,12 @@ para lectura y led
 *** traer libros
 
 * cambios alimentarios
-** [40%] Cereales
+** [20%] Cereales
 - [ ] amaranto
-- [ ] arroz
-- [X] sesamo
+- [X] arroz
+- [ ] sesamo
 - [ ] quinoa
-- [X] mijo
+- [ ] mijo
 
 ** Legumbres
 *** aduki

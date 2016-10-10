@@ -399,3 +399,10 @@ conjuncion con un focus al elemento siguiente segun Tk.
             return self.active
 
 #+END_SRC
+** Bloque de visionado de cuentas 
+Tambien pase a class el bloque de busqueda de cuentas que habia
+desarrollado en tabFechar. 
+Aunque con menos chances de uso que el bloque de busqueda tambien creo
+que puede ser interesante tenerlo reusable.
+No obstante para no complicarme no lo saque del codigo de la tabFechar
+donde originalmente se lo puso.
