@@ -57,3 +57,10 @@ por querer reusar el mismo tbls en el tab grupos y hacer uno que no
 tenga pesos pq muestro cantidad de recibos, y se me hace complejo ver
 como se hacen las cosas.
 
+** [2016-10-10 lun]
+*** Hoy instale el sistema en windows a traves de un usuario medio
+Logre que Fede instalara el sistema y funcionara bien siguiendo las
+instrucciones del manual.
+*** Hoy inicie el F13
+uniendo la instancia de Buscar con el visor cuentas/cuotas ya usado.
+
