@@ -93,8 +93,9 @@ Ver solucion contac.
 ** TODO pintar pared
 ** TODO traer del marques
 - [ ] tope puerta
-- [ ] pinza para arreglar canilla
-   SCHEDULED: <2016-10-08 sáb>
+- [X] pinza para arreglar canilla
+- [ ] llave inglesa
+   SCHEDULED: <2016-10-15 sáb>
 
 
 

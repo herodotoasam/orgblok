@@ -298,6 +298,7 @@ Una vez emitido y controlado el archivo csv se procede a:
 ** TODO Proceso de documentos
 
 * Mejoras varias
+Implementada el [2016-10-08 sáb]
 ** Adaptacion para windows
 *** editor recomendado para windows
 scite liviano sin necesidad de instalacion y con F5 compila y muestra errores
@@ -312,11 +313,8 @@ scite liviano sin necesidad de instalacion y con F5 compila y muestra errores
   | tablelist | baje de nemethi pq no lo encontre             |
   | sqlite3   | necesario para fts (ver solucion en cuaderno) |
   |           |                                               |
-*** algunos reniegues de instalacion en windows
-generalmente hay que poner el package que necesitamos dentro del subdirectorio tcl de python
-en especial pide bwidget y tablelist, porque son ambos wrappers que funcionan en python con su
-correlato en tcl y por mas que esten instalados en tcl hay que ponerlos en python. (Posiblemente
-eso se arregle con un tema de path, pero hay que meterse en windows)
+  sqlite3.dll se descarga de la pagina oficial de sqlite y se guarda
+  sobreescribiendo al que ya esta en la carpeta DLLs de python.
 *** instalacion de modulos en windows
 **** python -m pip install modulo
 **** Pero hay modulos que no se instalan en windows
@@ -406,3 +404,43 @@ Aunque con menos chances de uso que el bloque de busqueda tambien creo
 que puede ser interesante tenerlo reusable.
 No obstante para no complicarme no lo saque del codigo de la tabFechar
 donde originalmente se lo puso.
+
+* Hacia el proceso Intimaciones
+[2016-10-11 mar]
+No es  moco de pavo el proceso de intimacion. Es todo un proceso.
+** Marcado de moroso a intimar
+** Visualizacion de los marcados en el momento de emitir listados
+** Impresion de intimaciones optativamente sobre los marcados
+O sea tener un boton de imprimir intimaciones que imprima los marcados
+o bien un subset de ellos
+** Registro en tabla aparte de las intimaciones emitidas
+** Confirmacion o borrado de la intimacion en el momento de fechar
+Alli con planilla en mano veo si se entrego la intimacion y si hay
+algun comentario para agregar.
+Y eventualmente se borraria el registro si la intimacion no fue
+entregada.
+** Carga automatica? del cobr que entrego la intimacion en el momento de fechar
+al cargar una planilla con el num de cobr se tendria que actualizar
+ese dato, sino nos obliga a poner num de cobr antes de imprimir
+intimaciones como en la vieja epoca
+** Como se sale del estado intimar
+pagando o comenzando a pagar, alli a mano en el momento de fechar se
+levanta la orden de seguir intimando.
+** cuando se reintima
+con un fechamiento simple como vengo haciendo hasta ahora, es decir
+que cuando intimo fecho a 15 dias y alli se reintima
+** debe mostrarse en el resumen las intimaciones impresas para guia
+** debe mostrarse en la planilla las intimaciones impresas?
+esto obligaria a imprimir intimaciones antes de la planilla y ha hacer
+un campo anexo de int impresas porque como sabra el resumen o la
+planilla que hoy imprimimos a esos particulares marcados. (una opcion
+es que lea en la tabla intimaciones con fecha de hoy)
+** como y cuando decido que tipo de intimacion imprimir y como se carga eso
+en teoria deberia cargarlo como un dato a mano en el momento de
+fechar. Lo cual permitiria mas libertad de accion, y despejaria el
+momento de imprimir que se debe hacer a mil sin mayores complicaciones.
+** aparte podria haber un tbls general con log de intimaciones y pivot varios
+   todo un tema estadistico posterior al proceso que permita evaluar los
+   resultados de las intimaciones.
+** una forma de intimar por lote sin marcado previo para Elva y Monica
+** Forma de incluir dentro de las intimaciones info dinamica sobre estar ya en seven

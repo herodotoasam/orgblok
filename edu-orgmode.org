@@ -210,3 +210,38 @@ Es cierto que por ahi en el proceso de aprendizaje uno se traba y
 pierde mucho tiempo, o se desanima, pero en realidad es algo
 apasionante y que puede ser redituable a lo largo del tiempo como
 todas las cosas.
+
+* tablas
+** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
+** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
+o se puede hacer Cc-Cc para realinear en el momento
+** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
+y eso hace que sobreescribamos lo que hay
+
+| t | t | t  |
+| j | 5 | 99 |
+| j | a | f  |
+|   |   |    | 
+** Convertir una region en tabla
+t,j,k,l,m
+3,2,3,2,2
+Encerrar lo anterior en una region!!! y luego Cc | lo hace tabla
+| t | j | k | l | m |
+| 3 | 2 | 3 | 2 | 2 | 
+Pero recordar... debe estar resaltado o sea en una region!!
+
+| a | b |  c | d | e | f |
+| 1 | 2 | 43 | 4 | 5 |   |
+
+Puede ser csv o tab 
+
+Sin region el comando Cc | crea una tabla vacia
+|   |   |   |   |   |
+|---+---+---+---+---|
+|   |   |   |   |   |
+5x2 default pero puede darse el tamaño que uno quiera
+|   |   |   |   |   |   |   |   |   |   |
+|---+---+---+---+---+---+---+---+---+---|
+|   |   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |   |
