@@ -192,17 +192,17 @@ formateara como habitualmente se hace.
 
 
 * En que estoy usando orgmode actualmente
-[2016-10-07 vie] 
+** [2016-10-07 vie] 
 O bien en que le encuentro utilidad
-** Escritura de proyectos complejos
+*** Escritura de proyectos complejos
 p.e. manual de usuario o diario de proyecto
-** Agenda de proximos pagos
+*** Agenda de proximos pagos
 ahi la veo interesante por lo sencillo y a la vez segura forma de 
 poner todo junto y estar tranquilo.
-** Manejo de proyectos 
+*** Manejo de proyectos 
 poner todo lo relativo a un proyecto en el mismo lugar y despachar
 las next action etc.
-** Diario
+*** Diario
 Si podemos poner a punto el date-tree, seria ideal para organizar los
 escritos pasados y futuros.
 
@@ -211,6 +211,16 @@ pierde mucho tiempo, o se desanima, pero en realidad es algo
 apasionante y que puede ser redituable a lo largo del tiempo como
 todas las cosas.
 
+** [2016-10-11 mar]
+Lo encuentro extremadamente util para el brainstorming. En forma
+parecida al manejo de los proyectos, donde se busca el estado de
+mente-barrida. 
+Hoy hice un bs con una seccion que tengo que programar que es bastante
+compleja y al ir escribiendo rapido y en forma de outline las ideas
+fluyen mas rapido y luego eso queda y se puede seguir trabajando sobre
+eso en forma muy comoda y flexible. 
+Como p.e. reacomodar los headlines, promote, demote, ocultar
+desarrollos de la idea y focalizar sobre los encabezados. 
 * tablas
 ** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
 ** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
@@ -245,3 +255,21 @@ Sin region el comando Cc | crea una tabla vacia
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
+** Sort table
+   Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
+   las opciones en mayuscula)
+   la columna usada para el sort es la active cuando llamamos el
+   comando
+** Agregar una linea horizontal
+   Cc -
+** Mover filas o columnas
+   M-left-right mueve columnas
+   M-up-down mueve filas
+** Borrar o agregar filas o columnas
+   M-S-left borra la columna actual
+   M-S-right agrega una columna en la posicion actual
+   M-S-up borra la fila actual
+   M-S-down agrega una fila en la posicion actual
+   
+   
+

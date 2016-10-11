@@ -1,91 +1,186 @@
-* Bitacora general
-** [2016-09-21 mié] 
-Desde ayer implemento un tip que se me ocurrio y es hacer una serie de ejercicios
-simples (los mismos tres que conozco desde hace casi 30 años) por cada hora o periodo
-de maquina, como pago. Mas 5 sentadillas. Y el resultado ha sido fenomenal, pq me
-saca la contractura y un poco el dolor de espalda (aunque hoy estuve doblado cuando
-fui a trabajar) sino que tiene efectos espectaculares en el animo. Tanto es asi que 
-ayer me puse a encintar toda la pared y hoy la pinte.
+* 2016
+** Setiembre
+*** [2016-09-07 mié]
+    Pero si recupero la idea de hace solo un mes de hacer un plan de
+    estudios creo qu con python avance un monton. Queda mucho por
+    aprender todavia.
+*** [2016-09-08 jue]
+    Hoy establecimos que los patas deben cumplir la norma Raul o sea
+    entrar a las 9.30hs y cortar a las 14hs y volver a las 15hs.
 
-Lucho contra la idea de ir y volver respecto a la herramienta. Hoy pensaba volver a
-vim, pq lo veo rapido y expedito, (siendo que tengo aca evil que muchos dicen que es
-mas lindo que vim). Y siendo que descubri org-mode que recien estoy aprendiendo y es
-extraordinario, para irlo conociendo de a poco.
+    Subi a github pero tengo dudas pq expongo publicamente el codigo
+    solo por no usar bien un pendrive. Pero la verdad es que reniego
+    mucho con tener sincronizacion en las tres maquinas y con la de
+    Fede cuatro. Lo cual es bastante positivo, he perdido mucho codigo
+    hasta el dia de hoy y no veo mal esa funcionalidad. Quizas
+    cambiando a un nombre mas criptico.
 
-No quiero perder el ritmo de la programacion. Siendo que voy viendo resultados. 
+    La programacion por ticket que implemente desde ayer es muy buena
+    pq me focaliza a la productividad y me quita la presion de no
+    avanzar. Y a la vez me deja tranquilo que no pierdo u olvido
+    nada. Y el cuaderno de reflexion (el marron grande) permite
+    analizar donde queremos ir, que queremos hacer.
+    Igual con relacion a cada desarrollo o modulo o metodo o funcion
+    definirla conceptualmente para que sea mas facil de entender.
+*** [2016-09-09 vie]
+    Hoy un poco trabado el tema con el tabGrupo. Pq cai en un pequeño
+    bug de copiar el mismo nombre asignado a data en los pivot y me
+    hizo pensar que los nombres de b1/t etc estaban repetidos, pero
+    no.
+    Igual hice un metodo para asignar tipo a las columnas [-x] o sea
+    con un numero negativo seteo todas las columnas menos esa (lo cual
+    es util en los pivot mas que todo) Luego el metodo colreset() para
+    redefinir las columnas sin tener que determinar el tipo de
+    nuevo. Pienso que este finde me termino el recibeador y el tab
+    grupos o sea la info.
+    Y hay que comenzar el fechador.
+    MB mercurial con bitbucket incluido pq no solo organizamos sino
+    que tenemos todo disponible.
+*** [2016-09-14 mié]
+    Falta cronicar que alla el finde sab/dom me sumergi en fossil. Y
+    los emboles fueron pq en la netbook no tenia un webbrowser por
+    defecto (al haber borrado el palemoon que viene por defecto) y eso
+    hacia que cuando ponia fossil ui colapsara la maquina buscando el
+    webbrowser por defecto y tenia que resetear (lo hice como diez
+    veces)
+    Pero fossil me resulto muy funcional y rapido. Funciona localmente
+    se puede incluso backupear como un archivo standalone.
+    El manejo en la web se hace muy rapido a pesar de que el proveedor
+    no es muy que digamos y en cualquier momento desaparece.
+    Me gusta lo claro del timeline, los ticket y el diff. Lo he usado
+    en las tres maquinas y ha resultado muy eficiente.
+    Hoy conoci gitlab que parece ser el google de los git. Una
+    programacion de primer nivel gratis de por vida. Con miles de
+    proyectos. Nose por ahora sigo y veo. El problema es que no parece
+    ser tan agil y rapido. 
+    Hoy no fue muy fertil pero lun y mar he pulido lo hecho y no hice
+    nada nuevo. Por eso creo que sera mas facil agregar desde aca.
+    El curso MB creo que se logran conocimientos que no tenia aun en
+    Python que lo manejo mas, y el de html esta interesante
+    tambien. Luego vere el que se puede hacer.
+    Proximos tickets recibeador y depurar los geolocs.
+*** [2016-09-15 jue]
+    hoy avance en el curso php primera parte.
+    Renegue bastante con poco avance en el programa pq me distraje con
+    emacs. Si aunque parezca risueño. Al final obvio termino con
+    atom, pero perdi como 2 horas puras hoy en eso. Y asi se va el
+    tiempo. Ayer con git hoy con emacs la otra semana con vim. Todo
+    instrumental pero nada de avance. Y algunos avances son muy
+    escasos.
+*** [2016-09-20 mar]
+    el viernes pasado programe y avance. El sabado fue emacs puro en
+    marques, y el domingo descubri spacemacs y lo saque en el dia y a
+    la noche entre en produccion.
+    Ayer produje bastante y hoy tambien. Todo en emacs, pero en modo
+    vim. Muy rapido. Al lado de gente que lleva años en eso.
+    Muy importante: hoy a la tarde hice en el entretiempo de
+    programacion una serie basica completa 10/12/10 dos veces y me
+    encinte la pared para pintar. Mañana traigo la bandeja y pinto.
+    Esa mezcla con la programacion es optima.
+*** [2016-09-21 mié] 
+    Desde ayer implemento un tip que se me ocurrio y es hacer una serie de ejercicios
+    simples (los mismos tres que conozco desde hace casi 30 años) por cada hora o periodo
+    de maquina, como pago. Mas 5 sentadillas. Y el resultado ha sido fenomenal, pq me
+    saca la contractura y un poco el dolor de espalda (aunque hoy estuve doblado cuando
+    fui a trabajar) sino que tiene efectos espectaculares en el animo. Tanto es asi que 
+    ayer me puse a encintar toda la pared y hoy la pinte.
+    
+    Lucho contra la idea de ir y volver respecto a la herramienta. Hoy pensaba volver a
+    vim, pq lo veo rapido y expedito, (siendo que tengo aca evil que muchos dicen que es
+    mas lindo que vim). Y siendo que descubri org-mode que recien estoy aprendiendo y es
+    extraordinario, para irlo conociendo de a poco.
+    
+    No quiero perder el ritmo de la programacion. Siendo que voy viendo resultados. 
 
-** [2016-09-22 jue]
-Hoy termine de pintar la pared del living y colgue los cuadros
-cambio muchisimo y no fue gran tarea, sino que fue agradable y
-permite cambiar un poco de actividad
+*** [2016-09-22 jue]
+    Hoy termine de pintar la pared del living y colgue los cuadros
+    cambio muchisimo y no fue gran tarea, sino que fue agradable y
+    permite cambiar un poco de actividad
 
-** [2016-09-25 dom]
-*** Ejercicio-movimiento
-Esta ultima semana al menos comence a hacer ejercicio y ahora con
-tomatinho pienso que se facilitara muchisimo comenzar a moverse
-durante la jornada y evitar el anquilosamiento.
-Asimismo pasar de 20 cuadras basicas a 30 o 40 no lo veo dificil ni
-imposible.
-*** Implementar cuanto antes el 3x12
-*** Alimentos
-Urgente debo volver a una alimentacion mas sana. Hoy comi
-pollo/gaseosa/helado o sea el trio maldito que alguna vez habia
-superado. Mucha manteca, mucho pan. Un desastre. Esta ultima semana no
-hice el muesli ni un dia.
+*** [2016-09-25 dom]
+**** Ejercicio-movimiento
+     Esta ultima semana al menos comence a hacer ejercicio y ahora con
+     tomatinho pienso que se facilitara muchisimo comenzar a moverse
+     durante la jornada y evitar el anquilosamiento.
+     Asimismo pasar de 20 cuadras basicas a 30 o 40 no lo veo dificil ni
+     imposible.
+**** Implementar cuanto antes el 3x12
+**** Alimentos
+     Urgente debo volver a una alimentacion mas sana. Hoy comi
+     pollo/gaseosa/helado o sea el trio maldito que alguna vez habia
+     superado. Mucha manteca, mucho pan. Un desastre. Esta ultima semana no
+     hice el muesli ni un dia.
 
-*** Acomodo del dpto
-La semana pasada di un paso gigante que fue la pintada de la pared.
-Debo seguir con ese sistema en lo posible.
-** [2016-09-28 mié]
-*** Entre ayer y hoy tome el toro por las astas
-en un par de cosas que estaba demorando como ser comprar la camisa en
-rochas, ir al peluquero, y hoy arreglar los cueritos de las
-canillas. Y los tres asuntos los resolvi expeditamente, o sea creo que
-no hay porque demorar las cosas.
+**** Acomodo del dpto
+     La semana pasada di un paso gigante que fue la pintada de la pared.
+     Debo seguir con ese sistema en lo posible.
+*** [2016-09-27 mar]
+    Hoy dia defini hacer dos cositas que estaba evitando de una y
+    punto.
+    Dia que sufri malestar pq surgio un malestar en el ojo izquierdo.
+    (Fuerte dolor punzante en el ojo, sin latidos, pero que no tenia
+    ninguna relacion con la migraña u otro dolor de cabeza, me calme
+    yendome temprano a acostar y haciendo palming en el ojo. Al otro
+    dia mejore y no me volvio).
+    Orden de ideas pq se traslapan y se rompen:
+    1. git -->gitlab
+    2. mega
+    3. orgmode
+    4. emacs
+    Seguir programando nomas
+*** [2016-09-28 mié]
+**** Entre ayer y hoy tome el toro por las astas
+     en un par de cosas que estaba demorando como ser comprar la camisa en
+     rochas, ir al peluquero, y hoy arreglar los cueritos de las
+     canillas. Y los tres asuntos los resolvi expeditamente, o sea creo que
+     no hay porque demorar las cosas.
 
-** [2016-09-29 jue]
-Hoy es un milestone en nuestras vidas. Hoy recibio su diploma de
-Contadora la Rominita. Ha pasado un largo trecho desde aquella noche
-de julio del 91 cuando solo en la oficina escribi un post,
-lamentablemente perdido en DOS-WordStart alusivo al nacimiento de la
-Romi y 25 años despues estoy escribiendo esto en una herramienta que
-no difiere mucho de aquella en cierta forma, y quizas tambien
-destinado a perderse.
-Me alegra que ella haga algo de su vida y haga las cosas bien.
-Fue un dia feliz, aunque no tenemos los musculos de la felicidad muy
-entrenados en la familia, al menos en la modalidad expresividad.
+*** [2016-09-29 jue]
+    Hoy es un milestone en nuestras vidas. Hoy recibio su diploma de
+    Contadora la Rominita. Ha pasado un largo trecho desde aquella noche
+    de julio del 91 cuando solo en la oficina escribi un post,
+    lamentablemente perdido en DOS-WordStart alusivo al nacimiento de la
+    Romi y 25 años despues estoy escribiendo esto en una herramienta que
+    no difiere mucho de aquella en cierta forma, y quizas tambien
+    destinado a perderse.
+    Me alegra que ella haga algo de su vida y haga las cosas bien.
+    Fue un dia feliz, aunque no tenemos los musculos de la felicidad muy
+    entrenados en la familia, al menos en la modalidad expresividad.
 
-*** Referencia al metodo usado en los ultimos tres dias
-Constructo: Actua como un tipo normal.
-Con relacion al evento (que causo mucha preocupacion anticipatoria e
-innecesaria casi al nivel de la opercion de mi vieja), se planteaban
-un par de todo's necesarios y urgentes que eran los que me causaban
-problema. Necesitaba comprarme una camisa e ir al peluquero. Aunque
-ambos temas son ridiculamente banales, representaban un problema en el
-sentido de que son ambas situaciones que me incomodan, ya sea en el
-sentido de ir y hacerlas y en el sentido de pensar que voy a salir
-defraudado por dichas acciones. Y el constructo usado, me movilizo y
-el martes volvi temprano de la oficina, me bañe rapidamente, me puse
-el saco y fui a comprar la camisa en un proceso directo y normal.
-Luego ayer fui al peluquero, por ahi el problema no era tanto ir a las
-dos opciones, sino el patetico miedo a que no fuera satisfactorio el
-resultado. Y con una ligerisima duda, fui y el resultado me parece
-mejor que la ausencia de resultado, o el demorarse como lo hacia antes
-con el resultado de andar desprolijo  e impresentable.
-Quedaba procesar el evento, y alli el constructo fue dividirlo en dos
-partes, por una parte la ceremonia, y luego el ir al lugar, y eso
-quito un poco de presion, una vez en el lugar el resultado fue
-bastante positivo a pesar de la situacion, (almorzar con niños en un
-sitio asi, y el que Fede pobre estuviera tan dolorido y molesto).
-Creo que como me pasa en la mayoria de las situaciones, alli no fue
-problema de plata, ya estaba jugado, sino el pensar que podia faltarme
-con lo que habia llevado.
-Pero pienso que la experiencia es positiva y tiene un efecto
-liberador.
-Y alienta a en el futuro encarar las cosas con mas asertividad.
+**** Referencia al metodo usado en los ultimos tres dias
+     Constructo: Actua como un tipo normal.
+     Con relacion al evento (que causo mucha preocupacion anticipatoria e
+     innecesaria casi al nivel de la opercion de mi vieja), se planteaban
+     un par de todo's necesarios y urgentes que eran los que me causaban
+     problema. Necesitaba comprarme una camisa e ir al peluquero. Aunque
+     ambos temas son ridiculamente banales, representaban un problema en el
+     sentido de que son ambas situaciones que me incomodan, ya sea en el
+     sentido de ir y hacerlas y en el sentido de pensar que voy a salir
+     defraudado por dichas acciones. Y el constructo usado, me movilizo y
+     el martes volvi temprano de la oficina, me bañe rapidamente, me puse
+     el saco y fui a comprar la camisa en un proceso directo y normal.
+     Luego ayer fui al peluquero, por ahi el problema no era tanto ir a las
+     dos opciones, sino el patetico miedo a que no fuera satisfactorio el
+     resultado. Y con una ligerisima duda, fui y el resultado me parece
+     mejor que la ausencia de resultado, o el demorarse como lo hacia antes
+     con el resultado de andar desprolijo  e impresentable.
+     Quedaba procesar el evento, y alli el constructo fue dividirlo en dos
+     partes, por una parte la ceremonia, y luego el ir al lugar, y eso
+     quito un poco de presion, una vez en el lugar el resultado fue
+     bastante positivo a pesar de la situacion, (almorzar con niños en un
+     sitio asi, y el que Fede pobre estuviera tan dolorido y molesto).
+     Creo que como me pasa en la mayoria de las situaciones, alli no fue
+     problema de plata, ya estaba jugado, sino el pensar que podia faltarme
+     con lo que habia llevado.
+     Pero pienso que la experiencia es positiva y tiene un efecto
+     liberador.
+     Y alienta a en el futuro encarar las cosas con mas asertividad.
 
- 
-** [2016-10-10 lun]
+*** [2016-09-30 vie]
+    Dia
+
+** Octubre
+*** [2016-10-10 lun]
 Ayer experimente junto con la migraña otra recaida del estado animico,
 lo que se manifesto principalmente durante la crisis, en la mañana de
 hoy hasta volver de mi vieja y antes de la crisis migrañosa desde el
@@ -130,11 +225,11 @@ no tendria que ser asi.
 
 Los avances son muchos y no deberian ser desdeñados.
 
-** [2016-10-11 mar]
+*** [2016-10-11 mar]
 Hoy amaneci pensando un par de cosas respecto a como integrar org-mode
 con mis problemas actuales.
 
-*** Usar el diario para filosofar e ir acumulando en un solo lado
+**** Usar el diario para filosofar e ir acumulando en un solo lado
 Me gusto la experiencia de ayer en el sentido de hacer un autoanalisis
 -que resulta muy efectivo y barato jeje- como lo hice la ultima vez en
 el cuaderno.
@@ -144,7 +239,7 @@ via org si o si fechas, y luego tenes la posibilidad de tagear y de
 buscar de manera mas eficiente.
 Incluso el repositorio de gitlab privado p.e. mantenido en forma
 separada al codigo es un buen lugar para acumular los escritos.
-*** El sentido de filosofar o la necesidad en este momento
+**** El sentido de filosofar o la necesidad en este momento
 me refiero a filosofar quiza mas en el sentido de Eric Fromm o sea el
 de un personal autoanalisis para reponerse y reacomodarse.
 Lo sufrido este fin de semana en el perido descripto ayer te da un
@@ -155,14 +250,14 @@ Hoy (post-hecho) me alegro de haber ido a mi vieja, en vez de quedarme
 a lamentarme o ponerme mas oscuro y arruinarle el dia a ih.
 Tambien pienso que ponerse a hacer una actividad fisica fuerte en ese
 momento de distimia puede ayudar.
-*** En si el cambio empezo cuando saque el auto
+**** En si el cambio empezo cuando saque el auto
 alli me empezaron los pequeños planes de hacer algo con el auto y no
 dejarlo arrumbado ahi, y eso en cierta forma me cambio la mentalidad.
 Hay un monton de lados donde uno podria ir a pasar el rato y esa
 costumbre de permanecer encerrados y lugubres dentro de esa pieza no
 es buena. Pero esto lo veo ahora que estoy aca en la oficina. Hay que
 estar alla. 
-*** Como enfrentar los miedos
+**** Como enfrentar los miedos
 ayer las chicas se fueron a cpaz y obviamente me asaltaron un monton
 de miedos y aprensiones, y las espante de forma un poco extrema
 diciendome a mi mismo o a los miedos, bueno ya, que pase lo que tenga
@@ -174,7 +269,7 @@ yo muchas veces habia ido cuando joven y pq ellas no pueden hacer lo
 mismo. Y creo que esa es la forma general de enfrentar los miedos sino
 vivis una vida patetica de aprensiones de fantasmas que te acechan y
 no te dejan vivir en paz.
-*** Respecto a org-mode y su aprendizaje:
+**** Respecto a org-mode y su aprendizaje:
 Pense que ya que tengo un conocimiento basico mas o menos general que
 me permite ir produciendo en el, podria comenzar tranqui y en forma
 organica y sistematica ir aprendiendo con vias al mastering.
