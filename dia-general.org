@@ -130,3 +130,55 @@ no tendria que ser asi.
 
 Los avances son muchos y no deberian ser desdeñados.
 
+** [2016-10-11 mar]
+Hoy amaneci pensando un par de cosas respecto a como integrar org-mode
+con mis problemas actuales.
+
+*** Usar el diario para filosofar e ir acumulando en un solo lado
+Me gusto la experiencia de ayer en el sentido de hacer un autoanalisis
+-que resulta muy efectivo y barato jeje- como lo hice la ultima vez en
+el cuaderno.
+Lo unico que org-mode puede precisamente ayudarme a esto a org --
+mode. o sea a organizarme mejor. Pq via git lo tengo en todos lados y
+via org si o si fechas, y luego tenes la posibilidad de tagear y de
+buscar de manera mas eficiente.
+Incluso el repositorio de gitlab privado p.e. mantenido en forma
+separada al codigo es un buen lugar para acumular los escritos.
+*** El sentido de filosofar o la necesidad en este momento
+me refiero a filosofar quiza mas en el sentido de Eric Fromm o sea el
+de un personal autoanalisis para reponerse y reacomodarse.
+Lo sufrido este fin de semana en el perido descripto ayer te da un
+poco de miedo, respecto a la debilidad de uno mismo para ser ecuanime
+y quizas mantener la cordura o las relaciones intactas. Y como ese
+bajon te viene y uno no tiene herramientas para combatirlo.
+Hoy (post-hecho) me alegro de haber ido a mi vieja, en vez de quedarme
+a lamentarme o ponerme mas oscuro y arruinarle el dia a ih.
+Tambien pienso que ponerse a hacer una actividad fisica fuerte en ese
+momento de distimia puede ayudar.
+*** En si el cambio empezo cuando saque el auto
+alli me empezaron los pequeños planes de hacer algo con el auto y no
+dejarlo arrumbado ahi, y eso en cierta forma me cambio la mentalidad.
+Hay un monton de lados donde uno podria ir a pasar el rato y esa
+costumbre de permanecer encerrados y lugubres dentro de esa pieza no
+es buena. Pero esto lo veo ahora que estoy aca en la oficina. Hay que
+estar alla. 
+*** Como enfrentar los miedos
+ayer las chicas se fueron a cpaz y obviamente me asaltaron un monton
+de miedos y aprensiones, y las espante de forma un poco extrema
+diciendome a mi mismo o a los miedos, bueno ya, que pase lo que tenga
+que pasar y a la mierda que se vaya todo a la mierda. O sea recuerdo
+que me dije a la bosta si las matan a las dos. se va todo a la mierda,
+... pero no voy a tener miedo, o sea no voy a permitir que sufra por
+anticipado por cosas que quizas no pasen nunca. Y despues recorde que
+yo muchas veces habia ido cuando joven y pq ellas no pueden hacer lo
+mismo. Y creo que esa es la forma general de enfrentar los miedos sino
+vivis una vida patetica de aprensiones de fantasmas que te acechan y
+no te dejan vivir en paz.
+*** Respecto a org-mode y su aprendizaje:
+Pense que ya que tengo un conocimiento basico mas o menos general que
+me permite ir produciendo en el, podria comenzar tranqui y en forma
+organica y sistematica ir aprendiendo con vias al mastering.
+P.e. comenzando un tema, como puede ser las tablas. Y aprender todo
+sobre eso y luego ir avanzando capitulo por capitulo de acuerdo al
+interes que tenga.
+
