@@ -125,6 +125,7 @@ Este ejemplo lo hice yo:
 | # |  1 |    1 |    1 |
 | # |  2 |    4 |    8 |
 | # |  3 |    9 |   27 |
+|---+----+------+------|
 
 [[http://orgmode.org/worg/org-tutorials/org-spreadsheet-intro.html][Para usar las tablas como hoja de calculo]]
 
@@ -270,6 +271,39 @@ Sin region el comando Cc | crea una tabla vacia
    M-S-right agrega una columna en la posicion actual
    M-S-up borra la fila actual
    M-S-down agrega una fila en la posicion actual
-   
-   
+** sumar
+   C-c + suma los items de la columna activa y C-y los pastea.
+   O sea si estamos en una fila totalizadora hacemos C-c + y Cy y
+   tenemos la suma puesta
+|  a |  b |  c |  d |
+|----+----+----+----|
+|  2 |  7 |  8 |  9 |
+|  9 |  9 |  9 |  9 |
+|  9 |  9 |  9 | 78 |
+|  0 |  8 |  9 |  7 |
+|----+----+----+----|
+| 20 | 33 | 18 | 18 |
+|    |    |    |    |
+|----+----+----+----|
+#+TBLFM: @6$3=@5$3+@4$3::@6$4=vsum($3)
+** copiado y llenado
+   Con M-RET se va copiando e incrementando los valores en una
+   columna.
+   Numericamente con +1 y fechas tambien con +1, letras no.
+   Util si la primera columna la queremos para numeracion.
 
+|  a | b  | fechas           |
+| 11 | a1 | [2016-10-11 mar] |
+| 12 | a1 | [2016-10-12 mié] |
+| 13 | a1 | [2016-10-13 jue] |
+| 14 | a1 | [2016-10-14 vie] |
+| 15 | a1 | [2016-10-15 sáb] |
+| 16 | a1 | [2016-10-16 dom] |
+| 17 | a1 | [2016-10-17 lun] |
+| 18 | a1 | [2016-10-18 mar] |
+| 19 | a1 | [2016-10-19 mié] |
+
+** Hoja de calculo
+*** Cc } turn on numeros de fila y columnas
+*** cc ? sobre una celda te muestra en buffer la direccion
+*** 
