@@ -342,20 +342,147 @@ interes que tenga.
      los problemas. O sea me siento mal pq en general este dpto se
      transformara en una mierda para vivir (o sea asi pensaria frente
      a un problema especifico que requiere TF y no tanta BTF)
+**** Sintoma reaparecido dolor ojo izquierdo
+     Comenzo levemente a las 13hs y me recoste despues de almorzar sin
+     leer pantallas y tratando de hacerme palming, pero las untaditas
+     vienen solas. Me tome la presion dos veces, pero no se si anda la
+     bosta esa 12:8 antes de acostarme y 13.7:9 despues.
+     Tendria que ir al oculista pq puede ser glaucoma de angulo
+     estrecho que te hace perder la vision. Los sintomas pueden venir
+     continuos o discontinuos.
 
+**** Hoy nuevamente crisis existencial
+     En cierta forma reaparece en forma continua lo que siempre
+     aparecio y es el derrotero hacia donde me dirijo y como he jugado
+     mal mis cartas. Aunque quizas la forma en que he vivido sea la
+     unica forma posible de acuerdo a mi personalidad y que en este
+     sentido si hice y hago siempre lo que quiero.
+     Desde esa indiferencia hacia el dinero en general, pero esa
+     gigante hipersensibilidad a perderlo o a ser exaccionado o bien a
+     tributar cualquier tipo de tributo.
+     Y la cuenta regresiva cada tanto me marca los años, esta vez 12
+     para la edad jubilatoria y en un marco que aunque muy positivo
+     desde un punto de vista (vivir en el centro, posibilidad de
+     conocer a alguien, pocas responsabilidades horarias y facticas)
+     se me plantea como ambiente el dpto dentro de lo lindo y
+     agradable como que es un poco insano, y si no el dpto el vivir en
+     el centro en general. Pero todo es discutible pq no creo que
+     hayan sido mas "sanos" los esquemas anteriores, ya sea cabaña o
+     patricios y tampoco resolvieron para nada la crisis existencial.
+**** Sobre el valor de lo que estoy haciendo en el contexto actual
+     Yo aca tenia o tengo -vale decir- un plan en general y era
+     programar el CMR y demas para tener una administracion realmente
+     eficiente y a la vez mind-sweeped. [Debo poner un ejemplo: desde
+     que tengo el pasador de clientes que quieren comprar me resulta
+     altamente facil. Cosa que antes siempre fue un problema] Y asi
+     creo que cuando el CMR tenga todos los modulos se puede lograr
+     una administracion rapida y eficiente y alli poderme dedicar a
+     generar venta extra, sin caer ahora en este momento en un estress
+     excesivo y poner en riesgo la continuidad de la programacion.
 
-
-
-
+     Esto puede leerse como una excusa para la vagancia y la evasion
+     en el sentido de que mientras siga embarcado en el proyecto de
+     programar evito el generar venta extra con lo que eso signifique
+     para el momento actual. (Un poco influido por la particular
+     situacion de estos tiempos en los cuales estoy acosado
+     judicialmente por el fisco cordobes al pedo, pero ya
+     irreversiblemente y junte otro frequito juicio justo en el puto
+     momento en que la pila de años pasada sobre los juicios viejos te
+     hacia pensar que podias safar o que nada iba a pasar. Y es dentro
+     de ese contexto en el cual no me quisiera ver con un grupo de
+     venta).
+     O como una razon valida. Seamos realistas, en esta etapa del
+     negocio basada en la venta a los clientes y en una mayor toma de
+     riesgo facilitada por el sobrante de capital aparte de una
+     gestion uniforme de la cobranza quizas como la que no tuvimos
+     nunca estoy desarrollando un sistema de programas no digo como
+     los que nunca tuve porque he tenido varios sistemas bastante
+     ajustados y a medida, pero si un sistema (en produccion todavia)
+     que se ajuste a la realidad actual. Tampoco podemos estar
+     vendiendo 500k, cobrando 370k y soñar con aumentar un poco la
+     venta, con retazos programaticos de otra epoca que ya no se
+     adaptan a lo que hacemos ahora y encima estar alejado de toda
+     posibilidad de parchear. Pq es mas dificil parchear que hacer
+     algo de nuevo. Y seamos realistas la programacion requiere dos
+     pasos, una aprender y la otra hacerlo. No tenemos recursos para
+     pagar eso y no lo hariamos, como paso con ollas siljor cuando le
+     pidieron una bonita suma de dinero para desarrollar un sistema de
+     marketing.
+     Nosotros tenemos una aplicacion de celular o sea de calle con
+     posibilidad de testear padron y ver la totalidad de las cuentas y
+     no creo que otra empresa similar la tenga programada por ellos
+     mismos.
+     (Ojo que si quizas tengan otras cosas, como un grupo de venta mas
+     fuerte o una habilidad mayor para generar y cuidar el dinero)
+     
+     ¿Se podria programar y a la vez formar un sistema de venta?
+     No creo. La programacion si bien es cierto que con varias
+     desviaciones instrumentales (vim,emacs,org-mode,etc) me llevo una
+     dedicacion full time. Si esa dedicacion no la haces no formas
+     masa critica de conocimientos como para arrancar.
+***** Bajon en la programacion??
+     Hoy y quizas un poco ayer, peligrosamente he frenado la
+     programacion, cayendo en un estado como quien diria de falta de
+     inspiracion. Y aunque segui avanzando despacito con org-mode,
+     incluso centrandome en estos escritos no arranco. Y eso que el
+     modulo que tengo entre manos es muy necesario. Y eso que el
+     contexto computacional que es el que se me chifla a esta altura
+     entro en un punto agradable se puede decir con un vim muy lindo y
+     eficiente para trabajar y un orgmode facinante para mis escritos,
+     el cual tiene un nivel de usabilidad a hoy lo suficiente como
+     para producir y pequeños incrementos diarios de conocimiento que
+     no estan trabados ni frustrados. Y con el sistema git/gitlab
+     tengo lo que siempre ansie, un sistema de escritos global, pq
+     puedo escribir en mi compu, en la netbook, aca en la ofi y todo
+     remite a un repositorio en la web que es accesible desde todos
+     lados y a la vez puedo leer en formato bastante agradable el
+     mismo archivo producido actualizado en el celu. O sea una
+     sincronizacion de cuatro maquinas.
+**** Despues de todo que se podria estar haciendo en ventas
+     Es obvio que todo movimiento en relacion a las ventas tiene que
+     tener las siguientes condiciones:
+     1. No debe pasar por Fede (o sea p.e. a nivel reparto) pq ya esta
+        demostrado en la experiencia de Fede y en la mia que cualquier
+        persona extra que se deba atender ya sea conocida
+        (Lesta,Franco) o desconocida, te haria perder tiempo, te baja
+        la venta y no justifica ni siquiera lo que esas personas agregan
+     2. No debe implicar aflojar o cambiar el esquema actual y
+        reemplazarlo por un esquema superador (como que Fede se haga
+        cargo de "toda" la venta, ¿y como se supone que eso se haria?
+        dejando lo que esta haciendo y poniendo una oficina para
+        buscar vendedores???)
+     Entonces ¿que queda? que yo mismo desde la oficina genere
+     vendedores que vendan pero que no tengan que pasar por Fede como
+     repartidor, o sea una venta al estilo 2005 entregadas con
+     bolsita.
+     Pero eso aparte de significar un riesgo (lo cual puede ser
+     totalmente calculado) genera una exposicion aca en el local que
+     por ahora no creo que quiera o pueda hacerlo.
+     
+     Y hay que considerar lo que se podria hacer con lo que ya
+     tenemos:
+     1. comprar la kangoo para que se pueda abastecer mas
+        eficientemente la venta
+     2. cambiar el vendedor acompañante para que sea mas
+        eficiente. Posiblemente Franco ya este quemado y una persona
+        con mas espiritu de venta pueda con el mismo recorrido elevar
+        un poco la facturacion.
 
 * Constructos
 ** Be normal
 ** mind sweep
-
+   
 * Temas a pensar y/o articular
 ** Seguridad en dpto
+
+*** Cuanto tiempo vale la pena guardar los recibos?
+    Siendo que no estamos en bco y son un medio de prueba en cierta
+    forma de un ingreso percibido, todo al vicio pq no hay ninguna
+    utilidad en tenerlos, aparte del lugar que ocupan y luego viene lo
+    dificultoso que es ponerse a romper una tonelada.
 
 * temas sueltos
 ** puntadita en el ojo izquierdo 
 [2016-10-12 mié] de nuevo al mediodia dos veces. no tanto como la otra
 vez pero molesta.
+q

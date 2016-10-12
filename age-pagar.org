@@ -12,10 +12,22 @@
   :END:
 * TODO Aguas Cordobesas dpto				:personal:alquileres:
   DEADLINE: <2016-11-23 mié +1m -5d>
-* TODO Alquiler casa marques				    :flia:alquileres:
+* TODO Epec dpto :personal:alquileres:
+  DEADLINE: <2016-11-20 dom +2m>
+
+* TODO Alquiler casa marques 				    :flia:alquileres:
   DEADLINE: <2016-10-21 vie +1m>
+* TODO Epec marques					   :flia:gastosfijos:
+  DEADLINE: <2016-10-17 lun +2m>
 * TODO Expensas Local					      :oficina:fijos:
   DEADLINE: <2016-10-20 jue +1m -3d>
+* TODO Epec Local
+* TODO Telecom Local :oficina:fijos:
+  DEADLINE: <2016-10-21 vie +1m>
+* TODO Seven :oficina:fijos:
+  DEADLINE: <2016-10-05 mié +1m>
+
+
 * TODO Depositar por seguros				      :personal:auto:
   DEADLINE: <2016-11-05 sáb +1m -1d>
   - State "DONE"       from "TODO"       [2016-10-05 mié 12:14]
