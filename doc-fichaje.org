@@ -444,3 +444,8 @@ momento de imprimir que se debe hacer a mil sin mayores complicaciones.
    resultados de las intimaciones.
 ** una forma de intimar por lote sin marcado previo para Elva y Monica
 ** Forma de incluir dentro de las intimaciones info dinamica sobre estar ya en seven
+** Deberia haber un tipo de intimacion? que se determinara al marcar
+pq desde ya que puede haber un tipo suave y un tipo mas fuerte y luego
+tendremos la libertad de agregar tipos.
+Bueno ya hecho, Establece tipo es facil de ver y de updatear y esta
+reflejado en un campo de clientes que se levanta y guarda a voluntad.
