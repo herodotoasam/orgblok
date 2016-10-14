@@ -1,8 +1,12 @@
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** licuado almendras/avena/pasas de uva/ etc.
-
-
+** almorzar cereal compuesto segun libro
+*** calabaza,mijo,amaranto
+** frutas
+   para comer frutas hay que comprarlas y buscarlas. Hoy comi
+   frutillas y arandanos y una manzana. Creo que se podria comer dos o
+   tres porciones de fruta por dia, pero hay que comprarlas.
 
 
 * Alimentos evitados
@@ -21,10 +25,10 @@ funcione solo.
 
 
 * Listado de ingredientes usados 
-| alimento     | donde se compra |
-|--------------+-----------------|
-| miel         |                 |
-| aceite oliva |                 |
-| nueces       |                 |
-| maca         |                 |
-|              |                 |
+| alimento     | marca            | donde se compra |
+|--------------+------------------+-----------------|
+| miel         | Los dos zanganos | dietetica DF    |
+| aceite oliva | Lopez            | dietetica DF    |
+| nueces       |                  |                 |
+| maca         | peruana premium  | dietetica DF    |
+|              |                  |                 |

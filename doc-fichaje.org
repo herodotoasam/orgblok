@@ -186,6 +186,17 @@ se podria poner calle/num/barrio/zona aparte en una linea directa, ver.
 
 ** scrollwindows y scrolledframe
 
+** reniegue con ids levantados de un tbls como type str
+   Me encuentro con un comportamiento atipico en un procedimiento
+   totalmente logico y descubro por casualidad que apretando dos veces
+   seleccionar el proceso si funcionaba. P.q estaba bien logicamente.
+   Rastreando debuggeando veo que nemethi tablelist te cambia los
+   tipos en sucesivas llamadas, primero str luego int, por eso
+   espontaneamente me funcionaba.
+   Obviamente evito este problema expresamente pasando a int() cuando
+   tiene que hacerse la comparacion
+   Este comportamiento ya lo habia visto antes, no me acuerdo donde.
+
 * Caveats y Limites
 ** TabFichas
 *** Resumen funciona hasta un maximo de 88 fichas 
@@ -409,11 +420,18 @@ donde originalmente se lo puso.
 [2016-10-11 mar]
 No es  moco de pavo el proceso de intimacion. Es todo un proceso.
 ** Marcado de moroso a intimar
-** Visualizacion de los marcados en el momento de emitir listados
+** DONE Visualizacion de los marcados en el momento de emitir listados
+   - State "DONE"       from "WAITING"    [2016-10-13 jue 21:54]
 ** Impresion de intimaciones optativamente sobre los marcados
 O sea tener un boton de imprimir intimaciones que imprima los marcados
 o bien un subset de ellos
 ** Registro en tabla aparte de las intimaciones emitidas
+   Si o si se debe hacer una tabla aparte para llevar el rastro de las
+   intimaciones.
+   Pero la duda estaria en no generar el registro como hecho consumado
+   por la mera impresion de la intimacion sino que se genere cuando
+   estamos fechando y la intimacion realmente fue entregada. Para lo
+   cual tengo que llevar el control por la hoja resumen.
 ** Confirmacion o borrado de la intimacion en el momento de fechar
 Alli con planilla en mano veo si se entrego la intimacion y si hay
 algun comentario para agregar.
