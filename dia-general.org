@@ -501,6 +501,21 @@ interes que tenga.
      uno termina completamente expuesto, hasta en la forma mas tonta y
      ridicula.
 
+*** [2016-10-14 vie] 
+**** Hoy conoci tox
+     que parece ser un protocolo para comunicacion pear to pear con
+     clientes en android y en todos los sistemas.
+     Para analizar
+**** Me gusto la idea de html5 y python para alguna aplicacion
+     que reemplace el androwish. 
+     como una especie de sitio privado para navegar la info que
+     tenemos en la base de datos.
+     Pq parece bastante facil de programar la interface. Quedara para
+     el futuro
+**** Rescato lo que paso ayer o sea descansar y luego programar
+     y al final la programacion fue mucho mas fertil e inspirada, que
+     obligarse a estar cuando uno esta cansado o dolorido.
+
 * Constructos
 ** Be normal
 ** mind sweep
