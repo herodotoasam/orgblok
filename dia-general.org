@@ -600,12 +600,50 @@ interes que tenga.
      a nivel soledad me las iba a apañar e iba a empezar a salir de
      nuevo por mis medios. Iba a buscar otra forma de administrar mi
      tiempo que no fuera tan insana. 
-     
+*** [2016-10-15 sáb]
 
+    Hoy un dia altamente productivo. O maso, depende como se vea. A
+    pesar de haber estado atravesado por el dolor de espalda que se me
+    fue y por la migraña y por el golpazo en la frente, me levante
+    fui a comprar lo que tenia y limpie la oficina muy bien.
+    Hacia falta limpiar la oficina, lo que no entiendo es todo el
+    constructo que me hago alrededor o sea todo ese resentimiento
+    hacia la familia, en especial la Romi. Pq supuestamente me
+    gustaria que me ayuden. Pero no importa lo hice y disfrute
+    haciendolo y creo que una limpieza asi cada 3 meses esta bien.
+    Luego instale manjaro-Deepin que me parece bastante
+    adecuado. Aparte de que tiene varias cositas muy bellas, anda el
+    sonido out the box cosa que en i3 no y aparte aproveche para
+    encriptar el disco. (Y debo decir que i3 empezo a pitear un monton
+    en el arranque con un monton de errores.)
+    La instalacion estuvo muy facil, y deje un instructivo en org para
+    facilitarme la vida si tengo que instalar de nuevo.
+    [[file:doc-deepin.org][Instalar Deepin]] 
+    Hay dos cosas que voy incorporando que van a hacer una diferencia:
+    - el trabajo con org que recien comienza y puede crecer. No quiero
+      pensar la base que tendre en un año.
+    - la alimentacion que retorno con fuerza. La fruta, la avena, el
+      licuado el muesli, etc. Me hace pensar que puedo volver a un
+      sistema fuerte pronto si le agrego ejercicio.
+
+    No puedo olvidar que lo mas importante de este finde es no haber
+    ido ayer alla. Fue un dia distinto y como dije productivo. Lo
+    unico es que el clima acompaño un monton, no se que hubiera sido
+    si el dia no hubiera estado asi.
+    Pero lo que comenzo como una rebeldia pasa a ser un arruge pq uno
+    no sabe si se bancara el destierro. E ih con sus buenos modos no
+    deja de seguir amenazando.
+
+    Hoy decrete el no va mas con relacion al migral. El lunes me
+    instalo en el hospital a buscar una solucion. Debo cortar y buscar
+    alternativas pq no hay forma de seguir asi.
+
+    
 * Constructos
 ** Be normal
 ** mind sweep
    
+
 * Temas a pensar y/o articular
 ** Seguridad en dpto
 

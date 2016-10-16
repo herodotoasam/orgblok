@@ -88,12 +88,24 @@ Ver solucion contac.
 ** DONE comprar pintura dormitorio
 ** DONE poner caño cortina
 ** TODO comprar caja de herramientas grande en bazar liquidacion
+   :PROPERTIES:
+   :ID:       c5741c94-3cf9-4cad-ba6b-4a9eb3b8e707
+   :END:
 ** TODO comprar veladores
+   :PROPERTIES:
+   :ID:       7b8d8cb5-96a7-4d4e-aba3-690a581ecd68
+   :END:
 - [ ] pedirlos a ML
 ** TODO pintar pared
+   :PROPERTIES:
+   :ID:       61094945-333e-45d2-b357-7308ea9f8799
+   :END:
 ** TODO traer del marques
 - [ ] tope puerta
 - [X] pinza para arreglar canilla
+   :PROPERTIES:
+:ID:       371275ad-553b-441a-ac3d-fa349f98bd6a
+   :END:
 - [ ] llave inglesa
    SCHEDULED: <2016-10-15 sáb>
 

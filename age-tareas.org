@@ -1,0 +1,12 @@
+* Oficina
+** Limpieza general
+   DEADLINE: <2017-01-15 dom +3m >
+** Regar Amanda
+   DEADLINE: <2016-10-21 vie +7d >
+   :PROPERTIES:
+   :ID:       373f01b4-2e44-47e9-8df6-4008a9df1c6a
+   :END:
+
+* Negocio
+** Imprimir fichas de Elva y Monica
+   DEADLINE: <2016-10-30 dom +1m -3d>

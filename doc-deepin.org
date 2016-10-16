@@ -1,0 +1,52 @@
+* Instalacion de Deepin 16 
+[2016-10-15 sáb]
+** Locate
+se instala solo, sino instalar mlocate en pacman.
+reconstruir la base de datos, haciendo updatedb en root.
+** Recupero de mi sistema de trabajo git/vim/emacs
+- los subdirectorios .vim .emacs.d y los archivos .vimrc .emacs los
+  copie directamente, o sea que vim y emacs andan out the box.
+- instalo git y hago la clave ssh (instalar openssh antes) y clono los
+  repositorios en los directorios que ya uso siempre.
+- Para que funcione Ack en vim hay que instalar the_silver_searcher en pacman
+** Instalacion de python
+- python viene ya 3.5.2
+- tk: instalar tk en pacman para que funcione tkinter en python
+- pip: instalar python-pip en pacman
+- pip install dateutils
+- pip install fastnumbers
+- pip install fpdf
+- instalar bajo tcl bwidget y tablelist. En mi caso los copie
+  directamente para tener el bwidget tuneado que comunmente uso.
+- Arranco fichaje normalemente, solo observo un raro bug de desacomodo
+  en algunas pestañas, incluso el caso rarisimo que un boton de seis
+  es mas grande.
+
+** Instalacion de tcl
+- anteriormente se copio pdf4tcl en la carpeta /usr/lib/tcl8.6
+- instalar sqlite-tcl en pacman. Con eso ya funciona F13
+- instalar tcllib de pacman y tklib de aur
+- corregir plotchart.tcl ubicado en
+  /usr/lib/tklib0.6/plotchart/plotchart.tcl
+  corregir la ultima linea del archivo y cambiar 
+  2.0.1 por 2.1.0
+- bajar el ultimo itcl e itk de [[https://sourceforge.net/projects/incrtcl/][aca]].
+  desempacar e instalar con configure/make/makeinstall (su) para itcl
+  primero y luego para itk.
+- 
+** Bug fichaje.py en deepin
+Desacomodo en los botones del tabFechar, que son 8, haciendo uno mas
+ancho y al no mostrarlo se hacia mas ancho el del costado. Cambiando
+el ancho de todos a 8 en vez de 9 anda lo mas bien, y no mostraba la
+linea horizontal separadora, con alterar dos pixeles el placeo anduvo
+bien. Quizas sea por el place, o sea alguna diferencia en los pixeles
+de la pantalla que afecta los que estan placeados, pero creo que todos
+estan placeados y no han tenido problema.
+En el tab Fechar creo que el place de los frames contenedores esta
+movido.
+Para mi que es algo relativo al ancho de los caracteres. Tener en
+cuenta que tk toma los width como ancho de caracteres promedio, y debe
+ser que este sistema operativo los mide distinto, con unos toques
+quedo como antes, lo que no se es como quedara en las otras maquinas.
+ 
+

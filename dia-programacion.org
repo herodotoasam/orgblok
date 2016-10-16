@@ -26,6 +26,9 @@ Puse dos opciones de salida, imprimir directo a impresora y verpdf por
 las dudas no anda esa impresora.
 *** Empece a corregir el Resumen
     DEADLINE: <2016-09-26 lun>
+    :PROPERTIES:
+    :ID:       201ffe33-bb4b-4f7d-a062-d7fa0007578f
+    :END:
 Si el resumen tiene mas de 44 lineas hay que hacerlo en dos columnas
 queda pendiente.
 ** [2016-09-26 lun]

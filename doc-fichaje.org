@@ -64,6 +64,9 @@ No perder de vista que es una tab para fechar y nada mas que para eso
 **** intimaciones en tabla aparte 
 **** acceso directo a modificadores de calle,num,zona
      SCHEDULED: <2016-10-02 dom>
+     :PROPERTIES:
+     :ID:       777bcaf8-a605-4ed2-8434-8cca0ebaf420
+     :END:
      subtab para editar calle/barrio/zona al estilo del que ya tengo o
      sea la tabla entera editable, pq moverse en dichas tablas es
      bastante rapido y de paso permite ver el contexto. 
@@ -93,6 +96,9 @@ Dentro de unas opciones generales del proyecto arriba.
 **** poner el navegador pdf por defecto arriba tambien como variable
 ** Modulo documentos
    DEADLINE: <2016-10-08 sáb>
+   :PROPERTIES:
+   :ID:       e0777e3b-d195-4107-9b87-cba8c0f4cd12
+   :END:
 una tab aparte para todo el manejo de documentos
 Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
 sabe cual es el doc que el cliente quiere.
@@ -118,6 +124,9 @@ cuando seleccionamos la zona los reg intimables se resaltan diferentes
 y se agregara un boton alli que imprima las intimaciones.
 *** registro de intimaciones 
     DEADLINE: <2016-10-01 sáb>
+    :PROPERTIES:
+    :ID:       6c6df526-63b1-416e-b08c-15d2b438c9a7
+    :END:
 tabla base adhoc con campos idcliente/fecha/tipo
 intimacion/comentarios
 No descarto que tenga que usar notebook dentro de los tabs p.e para
@@ -203,6 +212,9 @@ se podria poner calle/num/barrio/zona aparte en una linea directa, ver.
 ** TabFechar
 *** Ubicacion de cuenta en tbs cuentas con raton
     DEADLINE: <2016-09-30 vie>
+    :PROPERTIES:
+    :ID:       e04c89fd-d126-4f04-8865-a304ddf7baa0
+    :END:
  En el tbls de cuentas del recorrido, se actuliza automaticamente
 a medida que pasamos de registro en registro <<TablelistSelect>>
 pero cuando uno apunta con el raton, puede querer que se actualice
@@ -306,7 +318,13 @@ Una vez emitido y controlado el archivo csv se procede a:
 * Next Actions							       :next:
 ** DONE [#A] Listado impreso de gente que quiere ser visitada
 ** TODO [#A] Proceso de Intimaciones
+   :PROPERTIES:
+   :ID:       8dcc4553-6399-4b25-9160-c91d4064e5a5
+   :END:
 ** TODO Proceso de documentos
+   :PROPERTIES:
+   :ID:       19bc9deb-e63b-46bf-98ee-995a2c8c2c4c
+   :END:
 
 * Mejoras varias
 Implementada el [2016-10-08 sáb]
@@ -425,13 +443,27 @@ No es  moco de pavo el proceso de intimacion. Es todo un proceso.
 ** Impresion de intimaciones optativamente sobre los marcados
 O sea tener un boton de imprimir intimaciones que imprima los marcados
 o bien un subset de ellos
-** Registro en tabla aparte de las intimaciones emitidas
+** TODO Registro en tabla aparte de las intimaciones emitidas
+   :PROPERTIES:
+   :ID:       a4c584cf-900d-4b93-87d8-062b38dbf34e
+   :END:
    Si o si se debe hacer una tabla aparte para llevar el rastro de las
    intimaciones.
    Pero la duda estaria en no generar el registro como hecho consumado
    por la mera impresion de la intimacion sino que se genere cuando
    estamos fechando y la intimacion realmente fue entregada. Para lo
    cual tengo que llevar el control por la hoja resumen.
+
+   Aun ahora que en la planilla resumen las marco a mano, cuando venga
+   la intimacion la registro. Con un boton en la botonera que no
+   contiene datos sino que solo tiene atado un comando registro en la
+   tabla intimaciones que ya estaba y muestro la pestaña.
+
+   Faltaria borrar los registros mal hechos de esa tabla dejando los
+   significativos, pq se ve que un bug cargaba sin fecha y con fecha
+   en el sistema viejo.
+   Y cambiar el campo plan por comentarios y permitir la edicion de
+   ese campo. 
 ** Confirmacion o borrado de la intimacion en el momento de fechar
 Alli con planilla en mano veo si se entrego la intimacion y si hay
 algun comentario para agregar.
@@ -467,3 +499,12 @@ pq desde ya que puede haber un tipo suave y un tipo mas fuerte y luego
 tendremos la libertad de agregar tipos.
 Bueno ya hecho, Establece tipo es facil de ver y de updatear y esta
 reflejado en un campo de clientes que se levanta y guarda a voluntad.
+
+** Deberia la intimacion tener un plan de pagos? como era antes?.
+
+
+
+
+* Ideas futuras 
+** Capturar los errores o ciertos errores en un blog o en un mensaje
+- p.e. los de sqlite3

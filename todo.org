@@ -26,6 +26,9 @@ para lectura y led
    SCHEDULED: <2016-10-04 mar>
 ** TODO pagar alquiler
    SCHEDULED: <2016-10-05 mié>
+   :PROPERTIES:
+   :ID:       fa1ab154-46d4-4f38-af33-be114d4b5966
+   :END:
    
 * clientes esperan visitas
 ** DONE OcaBalda 1159 
@@ -33,20 +36,38 @@ para lectura y led
 ** Plank 7869 cubrecamas llamo
 ** Farrate Isabel Itu 2F1 varon mandar con cobr
    SCHEDULED: <2016-10-03 lun>
+   :PROPERTIES:
+   :ID:       f0e19db0-249b-4d10-82be-708f3ae60c98
+   :END:
 
 * terminar dpto
 ** pintar pared dormitorio
    DEADLINE: <2016-10-05 mié>
+   :PROPERTIES:
+   :ID:       dbc4d0a3-c819-4923-ae85-895bd92c7617
+   :END:
 *** comprar pintura 
     SCHEDULED: <2016-10-04 mar>
+    :PROPERTIES:
+    :ID:       3cff65f9-b4e9-4728-b4c0-c90d0c607ca2
+    :END:
 ** Poner los burletes que ya compre
    DEADLINE: <2016-10-09 dom>
+   :PROPERTIES:
+   :ID:       05b9e3fc-a4bf-4785-95db-783e95682ac3
+   :END:
 ** poner el caño cortina que ya compre
    DEADLINE: <2016-10-09 dom>
+   :PROPERTIES:
+   :ID:       7cb198c1-a5b3-4bc9-9a56-3f127ef63007
+   :END:
 ** colgar el espejo
 *** DONE er taladro
 ** estanteria
    DEADLINE: <2016-10-14 vie>
+   :PROPERTIES:
+   :ID:       ad31c04c-2285-4f67-846f-75e4c0b0832e
+   :END:
 *** pegarle los frentes
 *** acomodar los papeles oficina en cajas
 *** traer libros

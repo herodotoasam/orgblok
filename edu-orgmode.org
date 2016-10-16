@@ -134,6 +134,9 @@ Este ejemplo lo hice yo:
 * Temas aprendidos
 ** Fechas
    DEADLINE: <2016-10-10 lun>
+   :PROPERTIES:
+   :ID:       acde9cc4-aca3-4d55-ae92-499929dcf9ce
+   :END:
 Cuando hay que introducir una fecha y sale el calendario tambien hay
 un prompt en el minibuffer. Alli se puede poner una fecha relativa
 p.e.
