@@ -225,6 +225,22 @@ fluyen mas rapido y luego eso queda y se puede seguir trabajando sobre
 eso en forma muy comoda y flexible. 
 Como p.e. reacomodar los headlines, promote, demote, ocultar
 desarrollos de la idea y focalizar sobre los encabezados. 
+** [2016-10-17 lun]
+*** Agenda-Calendario 
+   Ahora veo muy util el escribir el diario y luego exportarlo con
+   org-mobile y plasmarlo en el calendario del celu, pero ahi creo que
+   falta un poco de orden para que tenga mas utilidad. Por eso estoy
+   rehaciendo el archivo base.
+*** Diario secuencial
+    el dia se ordena muy bien y me permite eventualmente volcar todos
+    los cuadernos en orden
+*** temas sueltos que tienen entidad propia
+    como los edu, incluso con algun formato de diario en ellos
+    mismos.Como aca.
+*** lo de los habitos estaria muy bueno
+    por la filosofia de verificar el avance.
+
+
 * tablas
 ** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
 ** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
@@ -332,3 +348,19 @@ Aca hice que la fila 11 sea una suma de las columnas en celdas de fila
 |----+-----+----+----+----|
 | 36 | 124 | 52 | 68 | 28 |
 #+TBLFM: @11=vsum(@2..@9)
+
+* habits
+[2016-10-17 lun]
+Todavia no puedo hacerlo funcionar y que se vea la cadena de
+Seinfeld. 
+Pienso que faltan un par de dias para que se vea.
+
+
+* modulos a experimentar luego
+** learn 
+al M-x customize-variable RET org-modules RET vi que hay un modulo de
+learn con el algorritmo supermario. para ver 
+** search
+necesito un search que funcione como ag al toque pero dentro de emacs,
+esta el ag pero no se baja pq debe estar roto el enlace o algo.
+

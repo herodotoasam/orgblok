@@ -1,0 +1,18 @@
+* personal							   :personal:
+** dpto								   :alquiler:
+*** TODO alquiler dpto  
+    DEADLINE: <2016-11-05 sáb +1m>
+*** TODO expensas dpto
+    DEADLINE: <2016-11-05 sáb +1m>
+*** TODO agua dpto
+*** TODO epec dpto
+
+** auto								       :auto:
+*** TODO depositar por seguros 
+    DEADLINE: <2016-11-05 sáb +1m>
+* familia :familia:
+** casa :casa: 
+*** TODO alquiler prades 
+    DEADLINE: <2016-10-22 sáb +1m>
+
+
