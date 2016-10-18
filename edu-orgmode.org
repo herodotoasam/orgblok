@@ -357,7 +357,7 @@ Pienso que faltan un par de dias para que se vea.
 
 
 * modulos a experimentar luego
-** learn 
+** learn / drill 
 al M-x customize-variable RET org-modules RET vi que hay un modulo de
 learn con el algorritmo supermario. para ver 
 ** search

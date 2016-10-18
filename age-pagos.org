@@ -5,14 +5,39 @@
 *** TODO expensas dpto
     DEADLINE: <2016-11-05 sáb +1m>
 *** TODO agua dpto
-*** TODO epec dpto
-
+*** TODO epec dpto 						       :epec:
 ** auto								       :auto:
 *** TODO depositar por seguros 
     DEADLINE: <2016-11-05 sáb +1m>
-* familia :familia:
-** casa :casa: 
+** otros fijos
+*** TODO Claro 
+    DEADLINE: <2016-10-25 mar +1m>
+*** TODO Hospital Privado
+    DEADLINE: <2016-10-17 lun +1m>
+
+* familia							    :familia:
+** casa								       :casa:
 *** TODO alquiler prades 
     DEADLINE: <2016-10-22 sáb +1m>
+*** TODO epec casa						       :epec:
+    DEADLINE: <2016-10-17 lun +2m>
+*** TODO ecogas casa    :gas:
+*** TODO telecom casa   :telecom:
+    DEADLINE: <2016-10-28 vie +1m>
+** otros fijos
+*** TODO Viaje de estudio Cami  
+    DEADLINE: <2016-10-15 sáb +1m>
+
+* Romitex  :romitex:
+** TODO Expensas Local					      :oficina:fijos:
+   DEADLINE: <2016-10-20 jue +1m -3d>
+** TODO Epec Local					      :oficina:fijos:
+** TODO Telecom Local					      :oficina:fijos:
+   DEADLINE: <2016-10-21 vie +1m>
+** TODO Seven						      :oficina:fijos:
+   DEADLINE: <2016-10-05 mié +1m>
+
+
+
 
 

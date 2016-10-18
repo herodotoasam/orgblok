@@ -637,6 +637,7 @@ interes que tenga.
     instalo en el hospital a buscar una solucion. Debo cortar y buscar
     alternativas pq no hay forma de seguir asi.
 *** [2016-10-17 lun]
+*** [2016-10-18 mar]
     Hoy es el aniversario de la muerte de mi viejo. Y como siempre
     pasa desapercibido y nunca se hace ni una mencion, ni una
     reflexion. Como asunto olvidado. Quedara en cada uno
@@ -697,8 +698,18 @@ interes que tenga.
      independientemente que las chicas quieran o no quieran. Para ver
      si se puede salvar algo o no. Y en su caso dar por terminado pero
      bien.
-
+***** 
     
+      Hoy fui a sacarme los analisis. La prolactina la hice con hora y
+      media de las dos recomendadas y muy tranquilo. En realidad
+      viviendo aca, el tema analisis es muy fluido pq se hace antes de
+      la ofi.
+**** Org-mode ayuda o estorba
+     Noto que orgmode es groso pero que me cuesta aprenderlo y que no
+     me da mucha utilidad o me quita tiempo valioso, pq estoy faltante
+     de tiempo y sufro dolores de espalda estando en esta compu. Una
+     lastima pq la compu me gusta mucho, y el problema es el sillon. Y
+     la sensacion de urgencia que me da la falta de tiempo cronica.
 * Constructos
 ** Be normal
 ** mind sweep
