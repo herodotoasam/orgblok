@@ -509,6 +509,9 @@ fondo sobre la base de una.
 ** TODO aparte podria haber un tbls general con log de intimaciones y pivot varios
    todo un tema estadistico posterior al proceso que permita evaluar los
    resultados de las intimaciones.
+- pivot cobr/mes/semana cant intimaciones
+- alguna tabla que indique lo que cobramos posterior a la intimacion
+  para ver el resultado.
 ** CANCELED una forma de intimar por lote sin marcado previo para Elva y Monica
 pienso que no sino que se deberia usar el mismo modelo que con los
 chicos, probablemente con un listado impreso de atrasados, ese listado
@@ -544,3 +547,10 @@ jugando solo con el seven.
 * Ideas futuras 
 ** Capturar los errores o ciertos errores en un blog o en un mensaje
 - p.e. los de sqlite3
+* Ideas varias
+** en los pivots que se representan por mes/semana/dia
+pero que tienen la misma estructura obvio, p.e. index cobr, col
+sem/mes/dia y value cobranza, en vez de hacer tres botones, lo cual es
+complejo hacer uno solo y hacer binds dentro del tbls que te cambien
+la vista p.e. m/s/d para vistas mensuales, semanales, diarias (un poco
+inspirado en la vista de la agenda).

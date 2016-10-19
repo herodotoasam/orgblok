@@ -8,13 +8,6 @@ SCHEDULED: <2016-10-20 jue .+1d>
         :LAST_REPEAT: [2016-10-19 mié 11:32]
    :END:
 	- State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
-** TODO Shave
-        SCHEDULED: <2016-10-20 jue .+2d/4d>
-        :PROPERTIES:
-        :STYLE:    habit
-	:LAST_REPEAT: [2016-10-18 mar 21:56]
-        :END:
-	- State "DONE"       from "TODO"       [2016-10-18 mar 21:56]
 ** TODO Estudiar org-mode
 SCHEDULED: <2016-10-20 jue .+1d>
 - State "DONE"       from "TODO"       [2016-10-19 mié 08:17]
@@ -22,6 +15,15 @@ SCHEDULED: <2016-10-20 jue .+1d>
    :STYLE:    habit
    :LAST_REPEAT: [2016-10-19 mié 08:17]
    :END:
+
+** TODO Hacer las tres series
+SCHEDULED: <2016-10-20 jue +1d>
+- State "DONE"       from "PROCESO"    [2016-10-19 mié 13:58]
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-10-19 mié 13:58]
+:END:
+
 
 ** almorzar cereal compuesto segun libro
 *** calabaza,mijo,amaranto
