@@ -421,13 +421,13 @@ donde originalmente se lo puso.
 * Hacia el proceso Intimaciones
 [2016-10-11 mar]
 No es  moco de pavo el proceso de intimacion. Es todo un proceso.
-** Marcado de moroso a intimar
+** DONE Marcado de moroso a intimar
 ** DONE Visualizacion de los marcados en el momento de emitir listados
    - State "DONE"       from "WAITING"    [2016-10-13 jue 21:54]
-** Impresion de intimaciones optativamente sobre los marcados
+** DONE Impresion de intimaciones optativamente sobre los marcados
 O sea tener un boton de imprimir intimaciones que imprima los marcados
 o bien un subset de ellos
-** TODO Registro en tabla aparte de las intimaciones emitidas
+** DONE Registro en tabla aparte de las intimaciones emitidas
    :PROPERTIES:
    :ID:       a4c584cf-900d-4b93-87d8-062b38dbf34e
    :END:
@@ -448,43 +448,95 @@ o bien un subset de ellos
    en el sistema viejo.
    Y cambiar el campo plan por comentarios y permitir la edicion de
    ese campo. 
-** Confirmacion o borrado de la intimacion en el momento de fechar
+** DONE Confirmacion o borrado de la intimacion en el momento de fechar
 Alli con planilla en mano veo si se entrego la intimacion y si hay
 algun comentario para agregar.
 Y eventualmente se borraria el registro si la intimacion no fue
 entregada.
-** Carga automatica? del cobr que entrego la intimacion en el momento de fechar
+El registro se hace a posteriori si se ha entregado
+** DONE Carga automatica? del cobr que entrego la intimacion en el momento de fechar
 al cargar una planilla con el num de cobr se tendria que actualizar
 ese dato, sino nos obliga a poner num de cobr antes de imprimir
 intimaciones como en la vieja epoca
-** Como se sale del estado intimar
+** DONE Como se sale del estado intimar
 pagando o comenzando a pagar, alli a mano en el momento de fechar se
 levanta la orden de seguir intimando.
-** cuando se reintima
+O BIEN: se sale momentaneamente del estado de intimar cuando se intima
+y se recibe la intimacion, y se vuelve a ese estado cuando pasado un
+par de visitas infructuosas de acuerdo a la planilla amerita otra
+intimacion, vistas las fechas de las intimaciones anteriores.
+** DONE cuando se reintima
 con un fechamiento simple como vengo haciendo hasta ahora, es decir
 que cuando intimo fecho a 15 dias y alli se reintima
-** debe mostrarse en el resumen las intimaciones impresas para guia
-** debe mostrarse en la planilla las intimaciones impresas?
+El problema que observe fue. Como hago para fechar una visita sin otra
+intimacion pero sin perder el rastro de que tengo que volverlo a
+intimar. Entonces al registrar una intimacion se deberia sacar el
+estado de intimar y generar un fechamiento digamos a una semana o diez
+dias sin intimacion. Asi se cobraron muchas cuentas como ejemplo Diaz
+Colodrero. Pq le da la oportunidad de pagar en ese lapso.
+Ademas creo que no deberia reintimar en periodos menores a 1
+mes. Parte pq quedo moco y parte pq los cobradores van a dejar de
+enviarlas o sino van a dejar de presionar basado en las intimaciones.
+** CANCELED debe mostrarse en el resumen las intimaciones impresas para guia
+En el momento actual, no se puede. Pq el resumen es muy rudimentario,
+esta basado en una lista recolectada en el momento. Pretender marcar
+automaticamente en el resumen las intimaciones exigiria todo una
+reformulacion del resumen, lo cual creo no vale la pena teniendo en
+cuenta que generalmente las intimaciones son algo que se da en
+cantidades discretas.
+** DONE debe mostrarse en la planilla las intimaciones impresas?
 esto obligaria a imprimir intimaciones antes de la planilla y ha hacer
 un campo anexo de int impresas porque como sabra el resumen o la
 planilla que hoy imprimimos a esos particulares marcados. (una opcion
-es que lea en la tabla intimaciones con fecha de hoy)
-** como y cuando decido que tipo de intimacion imprimir y como se carga eso
+es que lea en la tabla intimaciones con
+No las intimaciones impresas pq para eso esta la planilla de resumen,
+sino las intimaciones anteriores.
+No solo lo muestro, sino que muestro los registros de la tabla
+intimaciones de los ultimos seis meses, con fecha, cobr y comentarios,
+los cuales tienen que ser publicos y usualmente ser la forma en que se
+entrego la intimacion: bajo puerta, a cierta persona, en mano.
+Y no pasa nada cuando no hay comentarios, pq se procesa igual y se
+muestra fecha y cobr.
+** DONE como y cuando decido que tipo de intimacion imprimir y como se carga eso
 en teoria deberia cargarlo como un dato a mano en el momento de
 fechar. Lo cual permitiria mas libertad de accion, y despejaria el
-momento de imprimir que se debe hacer a mil sin mayores complicaciones.
-** aparte podria haber un tbls general con log de intimaciones y pivot varios
+momento de imprimir que se debe hacer a mil sin mayores
+complicaciones.
+POR el momento quedo con un solo tipo de intimaciones. Queda comentado
+el codigo para poder volver a manejar tipo_de_intimacion si es
+relevante algun dia. Por el momento creo que se podria trabajar a
+fondo sobre la base de una.
+** TODO aparte podria haber un tbls general con log de intimaciones y pivot varios
    todo un tema estadistico posterior al proceso que permita evaluar los
    resultados de las intimaciones.
-** una forma de intimar por lote sin marcado previo para Elva y Monica
-** Forma de incluir dentro de las intimaciones info dinamica sobre estar ya en seven
-** Deberia haber un tipo de intimacion? que se determinara al marcar
+** CANCELED una forma de intimar por lote sin marcado previo para Elva y Monica
+pienso que no sino que se deberia usar el mismo modelo que con los
+chicos, probablemente con un listado impreso de atrasados, ese listado
+usarlo para que el cobrador te diga a quien podes intimar y/o mudo y
+luego pasar ese listado como si ellos hubieran trabajado como los
+otros cobradores, y alli se marcarian las intimaciones y se
+imprimirian normalmente. Se pueden luego registrar una tras otra con
+esa misma planilla. 
+Este enfoque tiene la ventaja de no crear una programacion especial
+para cierto tipo de cobradoras que no se si seguiran para siempre y si
+en cambio se puede con un pequeño rodeo lograr los mismos resultados.
+** DONE Forma de incluir dentro de las intimaciones info dinamica sobre estar ya en seven
+** CANCELED Deberia haber un tipo de intimacion? que se determinara al marcar
 pq desde ya que puede haber un tipo suave y un tipo mas fuerte y luego
 tendremos la libertad de agregar tipos.
 Bueno ya hecho, Establece tipo es facil de ver y de updatear y esta
 reflejado en un campo de clientes que se levanta y guarda a voluntad.
 
-** Deberia la intimacion tener un plan de pagos? como era antes?.
+** CANCELED Deberia la intimacion tener un plan de pagos? como era antes?.
+Vi la carta que habia bajado, y tambien recuerdo lo que teniamos antes
+nosotros mismos. El problema se da con los saldos chicos que no se
+deberian estirar a tres cuotas. Imaginate un caso Washintong con 280,
+por mas que carguemos recargos (que el cobrador deberia haberlos
+cobrado igual), le damos a la mina 3 cuotas de 145 lo cual lo estira y
+hace incobrable. Y en casos de deudas gigantes como Ocarina, con
+recargos y tres cuotas te sale una cuota que tampoco la vas a
+cobrar. Por eso no es facil poner el saldo ni las cuotas. Y seguir
+jugando solo con el seven.
 
 
 

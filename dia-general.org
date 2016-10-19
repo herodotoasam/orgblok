@@ -743,6 +743,37 @@ la mañana en la ofi por ahora. La bocha estaria en prender la compu a
 las 8hs y a las 12.30hs apagar con la jornada de programacion ya
 hecha, y dejar la tarde en la oficina, y si quiero un rato a la noche
 con mis org-files, pero ya la programacion se concentra alli.
+*** [2016-10-19 mié]
+Hoy comienza la prueba piloto de la mañana. Puse el reloj a las 7.45 y
+me levante en un minuto. Y prendi las maquinas a las 8 en punto.
+Y hoy amanece lloviendo, en casos asi creo que es mejor que ellos
+  tengan las fichas y salgan mas tarde como paso la semana pasada.
+**** resultados de la primera jornada de programacion
+muy positiva, como fue tambien muy positiva la jornada de anoche con
+la netbook en la cama poniendo a punto org-mode en una noche.
+No es mucho quizas lo que objetivamente se pueda marcar como hecho,
+pero se podria decir que termine el proceso de intimaciones, no solo
+la parte programatica (cargado de comentarios de la entrega, y
+visualizacion de los intimados en las planillas) sino la parte
+conceptual que tambien se define, donde uno define los limites de lo
+que esta haciendo. Hasta donde voy a llegar con cada modulo, pq por
+ahi hay ideas contradictorias o algunas que no valen la pena. En ese
+analisis orgmode es fenomenal, pq el brainstorming de proceso de
+intimaciones fue muy fertil y muy rapido, y se fue nutriendo con el
+paso del tiempo, y con los flags done, canceled o waiting tenes la
+vision clara de que es cada item y como se dejo. Esta muy bueno el
+adagio ese que dice "Piensa dos veces programa una" pq uno se larga a
+hacer cosas que luego en la practica misma ve que no son usables y no
+sirven. o que falta algo. Y que algunas ideas no tienen sentido, o son
+innecesarias.
+**** Que paso hoy con mi asertividad?
+¿que paso que acepte como un pelotudo la tarjetita vea -que no me
+interesa para nada- otorgando un monton de informacion al vicio?
+¿Donde me colgue?.
+Y que paso que desde la mañana tuve que justificarme ante ih de la
+circunstancia que me quedaba aca a programar, cuando soy yo mismo el
+que decide lo que hago.
+
 
 * Constructos
 ** Be normal

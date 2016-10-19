@@ -396,4 +396,6 @@ SE puede hacer a nivel archivo con el startup indent/noindent o
 mediante el seteo:
  '(org-startup-indented t)) pero que advierte que es lento para
 grandes archivos.
-   
+* TODO cosas pendientes [0%] 
+- [ ] poner que la agenda se abra en dia
+- 
