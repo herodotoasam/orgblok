@@ -1,11 +1,23 @@
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuado
-   DEADLINE: <2016-10-18 mar .+1d>
-   - State "DONE"       from "TODO"       [2016-10-17 lun 17:21]
+        SCHEDULED: <2016-10-19 mié .+1d>
+        :PROPERTIES:
+   :STYLE:    habit
+   :LAST_REPEAT: [2016-10-18 mar 22:01]
+   :END:
+	- State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
+** TODO Shave
+        SCHEDULED: <2016-10-20 jue .+2d/4d>
+        :PROPERTIES:
+        :STYLE:    habit
+	:LAST_REPEAT: [2016-10-18 mar 21:56]
+        :END:
+	- State "DONE"       from "TODO"       [2016-10-18 mar 21:56]
+** TODO Estudiar org-mode
+   SCHEDULED: <2016-10-18 mar .+1d>
    :PROPERTIES:
    :STYLE:    habit
-   :LAST_REPEAT: [2016-10-17 lun 17:21]
    :END:
 
 ** almorzar cereal compuesto segun libro

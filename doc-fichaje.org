@@ -63,10 +63,6 @@ No perder de vista que es una tab para fechar y nada mas que para eso
 **** comentarios en tabla aparte
 **** intimaciones en tabla aparte 
 **** acceso directo a modificadores de calle,num,zona
-     SCHEDULED: <2016-10-02 dom>
-     :PROPERTIES:
-     :ID:       777bcaf8-a605-4ed2-8434-8cca0ebaf420
-     :END:
      subtab para editar calle/barrio/zona al estilo del que ya tengo o
      sea la tabla entera editable, pq moverse en dichas tablas es
      bastante rapido y de paso permite ver el contexto. 
@@ -95,10 +91,6 @@ Dentro de unas opciones generales del proyecto arriba.
 **** poner una variable impresora arriba para poner el nombre de la impresora actual
 **** poner el navegador pdf por defecto arriba tambien como variable
 ** Modulo documentos
-   DEADLINE: <2016-10-08 sáb>
-   :PROPERTIES:
-   :ID:       e0777e3b-d195-4107-9b87-cba8c0f4cd12
-   :END:
 una tab aparte para todo el manejo de documentos
 Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
 sabe cual es el doc que el cliente quiere.
@@ -123,10 +115,6 @@ ya que la decision de intimar se toma cuando uno fecha y lo pone alli,
 cuando seleccionamos la zona los reg intimables se resaltan diferentes
 y se agregara un boton alli que imprima las intimaciones.
 *** registro de intimaciones 
-    DEADLINE: <2016-10-01 sáb>
-    :PROPERTIES:
-    :ID:       6c6df526-63b1-416e-b08c-15d2b438c9a7
-    :END:
 tabla base adhoc con campos idcliente/fecha/tipo
 intimacion/comentarios
 No descarto que tenga que usar notebook dentro de los tabs p.e para
@@ -211,10 +199,6 @@ se podria poner calle/num/barrio/zona aparte en una linea directa, ver.
 *** Resumen funciona hasta un maximo de 88 fichas 
 ** TabFechar
 *** Ubicacion de cuenta en tbs cuentas con raton
-    DEADLINE: <2016-09-30 vie>
-    :PROPERTIES:
-    :ID:       e04c89fd-d126-4f04-8865-a304ddf7baa0
-    :END:
  En el tbls de cuentas del recorrido, se actuliza automaticamente
 a medida que pasamos de registro en registro <<TablelistSelect>>
 pero cuando uno apunta con el raton, puede querer que se actualice

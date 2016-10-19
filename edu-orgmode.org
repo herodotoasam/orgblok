@@ -1,3 +1,4 @@
+  #+STARTUP: indent
 * Org-mode							   :dpto:org:
 ** Historia:
 Escuche la conferencia del creador de org-mode. Muy interesante
@@ -133,7 +134,7 @@ Este ejemplo lo hice yo:
 
 * Temas aprendidos
 ** Fechas
-   DEADLINE: <2016-10-10 lun>
+   DEADLINE: 2016-10-10 lun>
    :PROPERTIES:
    :ID:       acde9cc4-aca3-4d55-ae92-499929dcf9ce
    :END:
@@ -354,6 +355,14 @@ Aca hice que la fila 11 sea una suma de las columnas en celdas de fila
 Todavia no puedo hacerlo funcionar y que se vea la cadena de
 Seinfeld. 
 Pienso que faltan un par de dias para que se vea.
+[2016-10-18 mar]
+bingo!!!. Lo hice funcionar. El error era que en vez de scheduled
+ponia deadline.
+Para hacer un habito:
+1. hacer un TODO cualquiera
+2. schedularlo con repeticion
+3. ponerle propiedad (CcCxp) STYLE:habit
+y listo, luego sale en la agenda.
 
 
 * modulos a experimentar luego
@@ -364,3 +373,27 @@ learn con el algorritmo supermario. para ver
 necesito un search que funcione como ag al toque pero dentro de emacs,
 esta el ag pero no se baja pq debe estar roto el enlace o algo.
 
+
+* seteos que logran efecto deseado
+** (add-hook 'org-mode-hook 'turn-on-auto-fill
+el bendito auto-fill en los escritos
+** (global-set-key (kbd "C-}") 'org-agenda)
+el keybind para abrir agenda
+** (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+que funcionen los superbullets
+**  '(org-deadline-warning-days 0)
+seteado con customize-variable elimina el molesto aviso de los
+ proximos deadline que te llenan la agenda.
+**  '(org-habit-show-habits-only-for-today t)
+idem anterior, como el habito es repetitivo, te aparece todos los
+dias y no te permite apreciar la agenda 
+** org indent
+con   #+STARTUP: indent arriba he logrado una indentacion automatica
+aunque diferente en lo hecho a partir de ese momento y lo que estaba
+antes. La diferencia era causada porque uno habia cargado espacios
+para simular la indentacion. Pero funciona perfecto automaticamente.
+SE puede hacer a nivel archivo con el startup indent/noindent o
+mediante el seteo:
+ '(org-startup-indented t)) pero que advierte que es lento para
+grandes archivos.
+   
