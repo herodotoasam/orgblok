@@ -369,10 +369,13 @@ y listo, luego sale en la agenda.
 ** learn / drill 
 al M-x customize-variable RET org-modules RET vi que hay un modulo de
 learn con el algorritmo supermario. para ver 
+ambos dan error, no andan. que bronca.
 ** search
 necesito un search que funcione como ag al toque pero dentro de emacs,
 esta el ag pero no se baja pq debe estar roto el enlace o algo.
-
+Bastante bien funciona el agenda-s con regexp y palabras sueltas.
+** browser interno a emacs
+se puede navegar dentro de emacs como con el manual???
 
 * seteos que logran efecto deseado
 ** (add-hook 'org-mode-hook 'turn-on-auto-fill

@@ -554,3 +554,44 @@ sem/mes/dia y value cobranza, en vez de hacer tres botones, lo cual es
 complejo hacer uno solo y hacer binds dentro del tbls que te cambien
 la vista p.e. m/s/d para vistas mensuales, semanales, diarias (un poco
 inspirado en la vista de la agenda).
+* Hacia el proceso de documentos
+** Modulo documentos
+una tab aparte para todo el manejo de documentos
+Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
+sabe cual es el doc que el cliente quiere.
+Se abriria una tab aparte y en ella se buscaria el cliente (salvo que 
+desde fechar te la abra buscada)
+Alli tendriamos que tener un sistema de busqueda de clientes (muy
+similar en todos lados como en el F13) o sea full text search y alli
+desplegado las cuentas cuyos documentos podrian quererse y alli si con
+un doble-click y/o con una letra se toggearia entre doc a traer o no
+traer, cuyo campo logico debe residir en la tabla ventas.
+Y abajo un tbl general de documentos/pedidos procesados. (boton ver
+todos) boton ver faltantes boton ver no retirados
+alli desplegaria un tbl cuya tabla base seria adhoc y tendria los
+campos idvta/fechapedido/fechatraido/fechadevuelto/quienlodevolvio/
+comentarios.
+Y se generaria un pdf con un listado de doc a traer con sus datos y
+con los doc traidos se actualizaria el tbls idem cuando uno le
+entregue a algun cobrador para que lo devuelva
+
+** Como marcar el documento pedido (teniendo en cta que es idvta)
+un tab mas en fechar con los idvta y sus fechas y saldos y un bodybind
+desde alli indicado con un label de recordatorio y un ballon.
+idem un bodybind en el tab ver cosa de poder buscar un cliente y
+pedirle el doc sobre el registro de ventas.
+
+** un tab o subtab de documentos pedidos con facilidad para borrar o des-pedir
+
+** donde residiria el pedido y el control
+
+*** en tabla ventas
+con campo pedirdoc si/no y campos anexos
+
+*** en tabla aparte con un campo flag en ventas 
+la tabla aparte puede permitir muchos controles mas como fecha pedido,
+fecha devuelto, devuelto, quien devolvio, comentarios.
+
+** tecnologia necesaria
+checkbox en tablelist para marcar el si/no de la devolucion y unos
+botones arriba para optar por ver todos o los devueltos o los por devolver.
