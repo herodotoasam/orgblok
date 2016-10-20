@@ -1,11 +1,12 @@
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-10-20 jue .+1d>
+SCHEDULED: <2016-10-21 vie .+1d>
+- State "DONE"       from "TODO"       [2016-10-20 jue 12:54]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 11:32]
         :PROPERTIES:
    :STYLE:    habit
-        :LAST_REPEAT: [2016-10-19 mié 11:32]
+:LAST_REPEAT: [2016-10-20 jue 12:54]
    :END:
 	- State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
 ** TODO Estudiar org-mode

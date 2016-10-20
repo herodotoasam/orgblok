@@ -243,17 +243,20 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 
 * tablas
-** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
-** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
+** TODO Basicos 
+SCHEDULED: <2016-10-21 vie +5d>
+*** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
+*** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
 o se puede hacer Cc-Cc para realinear en el momento
-** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
+*** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
 y eso hace que sobreescribamos lo que hay
 
 | t | t | t  |
 | j | 5 | 99 |
 | j | a | f  |
 |   |   |    | 
-** Convertir una region en tabla
+*** Convertir una region en tabla
+
 t,j,k,l,m
 3,2,3,2,2
 Encerrar lo anterior en una region!!! y luego Cc | lo hace tabla
@@ -275,23 +278,26 @@ Sin region el comando Cc | crea una tabla vacia
 |---+---+---+---+---+---+---+---+---+---|
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |
-** Sort table
+|   |   |   |   |   |   |   |   |   | 
+  
+** Intermedio
+*** Sort table
    Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
    las opciones en mayuscula)
    la columna usada para el sort es la active cuando llamamos el
    comando
-** Agregar una linea horizontal
+*** Agregar una linea horizontal
    Cc -
-** Mover filas o columnas
+*** Mover filas o columnas
    M-left-right mueve columnas
    M-up-down mueve filas
-** Borrar o agregar filas o columnas
+*** Borrar o agregar filas o columnas
    M-S-left borra la columna actual
    M-S-right agrega una columna en la posicion actual
    M-S-up borra la fila actual
    M-S-down agrega una fila en la posicion actual
-** sumar
+** Avanzado
+*** sumar
    C-c + suma los items de la columna activa y C-y los pastea.
    O sea si estamos en una fila totalizadora hacemos C-c + y Cy y
    tenemos la suma puesta
@@ -303,10 +309,9 @@ Sin region el comando Cc | crea una tabla vacia
 |  0 |  8 |  9 |  7 |
 |----+----+----+----|
 | 20 | 33 | 18 | 18 |
-|    |    |    |    |
 |----+----+----+----|
 #+TBLFM: @6$3=@5$3+@4$3::@6$4=vsum($3)
-** copiado y llenado
+*** copiado y llenado
    Con M-RET se va copiando e incrementando los valores en una
    columna.
    Numericamente con +1 y fechas tambien con +1, letras no.
@@ -323,10 +328,10 @@ Sin region el comando Cc | crea una tabla vacia
 | 18 | a1 | [2016-10-18 mar] |
 | 19 | a1 | [2016-10-19 mié] |
 
-** Hoja de calculo
-*** Cc } turn on numeros de fila y columnas
-*** cc ? sobre una celda te muestra en buffer la direccion
-*** Formulas de toda la columna o toda la fila
+*** Hoja de calculo
+**** Cc } turn on numeros de fila y columnas
+**** cc ? sobre una celda te muestra en buffer la direccion
+**** Formulas de toda la columna o toda la fila
 Cuando introducimos una formula en una celda normalmente =vsum() etc
 y aparece abajo la linea de formulas,con el lado izquierdo de la
 ecuacion nombrando la direccion de la celda y la derecha la formula

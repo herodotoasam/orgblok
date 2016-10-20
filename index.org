@@ -1,0 +1,6 @@
+[[file:dia-general.org][diario]]
+[[file:doc-fichaje.org][desarrollo]]   [[file:habitos.org][habitos]]  [[file:age-pagos.org][pagos]] 
+
+* Estudio
+** [[file:edu-orgmode.org][org-mode]]
+

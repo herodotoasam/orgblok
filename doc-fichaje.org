@@ -595,3 +595,29 @@ fecha devuelto, devuelto, quien devolvio, comentarios.
 ** tecnologia necesaria
 checkbox en tablelist para marcar el si/no de la devolucion y unos
 botones arriba para optar por ver todos o los devueltos o los por devolver.
+
+* Hacia el proceso de pivot-cuotas a cobrar
+No es moco de pavo tampoco como parece. Primero pq esta en tcl,
+segundo pq no es tan facil como para hacerse en dos minutos.
+La idea seria tener una informacion lo mas cierta posible sobre lo que
+hay para cobrar. Los formatos pueden ser varios.
+** Tipos probables de pivot
+| N° | index       | muestra                                       | datos |
+|  1 | mes-venta   | el aporte de cada mes en el total cobrado     | todos |
+|  2 | zona        | lo que hay para cobrar en cada zona           | todos |
+|  3 | cobr        | idem lo que hay para los cobradores           | todos |
+|  4 | mes-ultpago | mostraria lo que hay depende como van pagando | todos |
+
+*** mes-venta
+Permitiria ver cuanto aporto cada campaña mensual en el total cobrado
+para ver que tan real es la diferencia o ver donde ya termina otra
+campaña anterior.
+
+*** mes-ultpago
+en caso de poder hacerse estaria bueno pq permitiria observar cuanto
+real hay para cobrar.
+
+** Datos base:
+hay que producir una tabla cuotas en el aire con los mismos
+procedimientos que usamos para ver, con los ganchos necesarios a los
+datos que vamos a necesitar despues.

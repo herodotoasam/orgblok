@@ -773,6 +773,31 @@ interesa para nada- otorgando un monton de informacion al vicio?
 Y que paso que desde la mañana tuve que justificarme ante ih de la
 circunstancia que me quedaba aca a programar, cuando soy yo mismo el
 que decide lo que hago.
+*** [2016-10-20 jue]
+Hoy el segundo dia del sistema, dormi muy bien anoche, me costo
+levantarme y recien me sente a las 8.15hs. No fue muy importante la
+programacion de hoy pero saque adelante muchos issues anotados en
+gitlab y agregue algunas funciones como ver los recorridos
+(recuperando el skill sobre tree, lo que no esta mal) y me planteo o
+replanteo otras modificaciones o agregados que van haciendo falta en
+el trabajo real, como el tema gestion de documentos o el tema pivot.
+Creo que falta mucho trabajo de analisis, para eso orgmode es genial.
+**** Fuerte sensacion de inseguridad
+luego del lapsus inexplicable de ayer en el super, anotando todos mis
+datos reales por un descuento de seis pesos, y el golpe animico de ser
+confundido por un jubilado, y el haber huido de la oficina a la mañana
+siento cada vez mas paranoia sobre el tema judicial, y a la vez no le
+veo a la situacion salida facil, porque me siento muy debilitado y
+enfermo como descuidado y no me siento muy fuerte en mi mente como
+para iniciar un proceso de venta o trabajo fluido. Creo que la
+exposicion publica en oficina va haciendo su trabajito y me deja en
+este estado, que es desde todo punto analizable falso, pq si vamos al
+caso por lo maximo que me persiguen en ese momento es por una deuda de
+15k la cual no creo que llegue al nivel de bloquearnos la oficina
+definitivamente.
+Este tema da para un analisis mucho mas tranquilo y extendido.
+P.e. no puedo salir del estado de crotura, es como que no quiero
+hacerlo me parece.
 
 
 * Constructos
