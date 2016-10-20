@@ -580,14 +580,24 @@ un tab mas en fechar con los idvta y sus fechas y saldos y un bodybind
 desde alli indicado con un label de recordatorio y un ballon.
 idem un bodybind en el tab ver cosa de poder buscar un cliente y
 pedirle el doc sobre el registro de ventas.
+Poder pedirlo tambien desde fechar sin tener que buscar con subtab en
+fechar, de modo tal que el boton pedir documentos te muestre los
+idvtas y podas pedirlo o ver si ese boton te puede abrir
+directamente. Parece que si pq el doble-3 de ver que te abre fechar
+anda bien. O sea que se podria mediante esos accesos en ver o en
+fechar abrir el tab doc y alli ponerle el check al idvta que
+queramos. 
 
 ** un tab o subtab de documentos pedidos con facilidad para borrar o des-pedir
-
+puede ser un tab propio doc un Buscar y los "documentos" o sea sus
+idvtas con sus saldos y la posibilidad de pedirlos ya sea updateando
+directamente un check en el tablelist que se vincule inmediatamente a
+la tabla ventas y genere un trigger de registro en la tabla
+documentos.
+Otro tab con los documentos pedidos y su inteligencia.
 ** donde residiria el pedido y el control
-
 *** en tabla ventas
 con campo pedirdoc si/no y campos anexos
-
 *** en tabla aparte con un campo flag en ventas 
 la tabla aparte puede permitir muchos controles mas como fecha pedido,
 fecha devuelto, devuelto, quien devolvio, comentarios.
