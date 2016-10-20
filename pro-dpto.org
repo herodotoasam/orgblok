@@ -2,12 +2,12 @@
 
 * Acondicionar el dpto						      :title:
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
-#+CAPTION: Clock summary at [2016-10-07 vie 12:43]
+#+CAPTION: Clock summary at [2016-10-18 mar 12:11]
 | Headline             | Time   |
 |----------------------+--------|
-| *Total time*         | *0:36* |
+| *Total time*         | *0:42* |
 |----------------------+--------|
-| Acondicionar el dpto | 0:36   |
+| Acondicionar el dpto | 0:42   |
 #+END:
   CLOCK: [2016-10-07 vie 12:36]--[2016-10-07 vie 12:43] =>  0:07
   CLOCK: [2016-10-06 jue 11:51]--[2016-10-06 jue 11:56] =>  0:05
@@ -15,6 +15,7 @@
   CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
   CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
   CLOCK: [2016-10-04 mar 14:56]--[2016-10-04 mar 15:04] =>  0:08
+  CLOCK: [2016-10-18 mar 12:05]--[2016-10-18 mar 12:11] =>  0:06
 * Vision del proyecto						     :vision:
 La idea es tener un lugar comodo y agradable donde vivir
 Confortable, terminado pero no aputosado
@@ -84,6 +85,12 @@ Ver solucion contac.
 *** lustrado piso
 
     da un rico olor la cera
+** Cocina
+*** arreglo pico y destrancado de caja abajo mesada
+[2016-10-18 mar] Cambie el pico con uno nuevo con cuerito y todo. La
+caja de desague de abajo que rebalsa la limpie y voy a probar con un
+gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
+  
 * Next Action							       :next:
 ** DONE comprar pintura dormitorio
 ** DONE poner caño cortina
@@ -106,7 +113,7 @@ Ver solucion contac.
    :PROPERTIES:
 :ID:       371275ad-553b-441a-ac3d-fa349f98bd6a
    :END:
-- [ ] llave inglesa
+- [X] llave inglesa
    SCHEDULED: <2016-10-15 sáb>
 
 

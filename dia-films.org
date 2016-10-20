@@ -1,5 +1,5 @@
 * Films
-** The irrational man  :profesor:filosofia:asesinato:
+** The irrational man			       :profesor:filosofia:asesinato:
    [2016-10-13 jue] Cuenta la historia de un profesor de filosofia que
    viene a una facultad y el tipo esta atravesando un bajon
    existencial. La vida no le interesa y atraviesa un gran displacer,
@@ -20,4 +20,28 @@
    muere accidentalmente el mismo.
    :Calificacion: 4/5
    :Actor: Joaquin Phoenix
-
+* Series
+** The Night of					    :prision:inocente:juicio:
+   [2016-10-17 lun] Terminada.
+   8 capitulos.
+   Narra la historia de un chico pakistani en NY que le saca sin
+   permiso el taxi a su padre (que a su vez lo tiene en sociedad con
+   dos mas y que representa su unica fuente de ingresos que les
+   permite tener una vida de clase media a pesar de ser inmigrantes)
+   con la finalidad de ir a una fiesta y la cadena de sucesos lo lleva
+   a conocer una chica rica drogadicta y con problemas que lo lleva a
+   la casa donde tienen sexo y juegos peligrosos, luego despierta
+   abajo en la cocina sin saber que paso anoche y cuando sube a la
+   habitacion la chica esta muerta con un monton de puñaladas. Entra
+   en panico y escapa, pero olvida las llaves del auto, cuando quiere
+   entrar de nuevo a la casa tiene que romper un vidrio y eso alerta a
+   los vecinos, saca las llaves, se lleva el cuchillo ensangrentado y
+   sale a los piques con el taxi, y luego casualmente por doblar mal
+   una esquina lo para la policia y lo detienen por ebriedad. Y cae a
+   la misma comisaria donde se procesa el asesinato, donde al final lo
+   detienen.
+**** La vida y el trabajo del abogado
+**** La vida y la historia previa de la chica
+**** La vida y el entorno del chico
+**** Como reacciona la familia
+**** La actuacion de la abogada 

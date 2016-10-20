@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2016-10-08 sáb 22:40 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="viewport" content="width=device-width, initial-scale=1" />
+<title></title>
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="heroasam" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgheadline3">1. Justificacion del proyecto</a>
+<ul>
+<li><a href="#orgheadline2">1.1. Objetivos del proyecto</a>
+<ul>
+<li><a href="#orgheadline1">1.1.1. Manejo mas rapido y ergonomico de las funciones comunes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline27">2. Desarrollo del proyecto</a>
+<ul>
+<li><a href="#orgheadline6">2.1. Ideas flotantes</a>
+<ul>
+<li><a href="#orgheadline4">2.1.1. <span class="done DONE">DONE</span> Backup y subido a nube automatico</a></li>
+<li><a href="#orgheadline5">2.1.2. <span class="done DONE">DONE</span> Pasado de novedades desde la venta (fichitas)</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline25">2.2. TabFechar</a>
+<ul>
+<li><a href="#orgheadline7">2.2.1. Muchas de las cosas implementadas serviran en otros modulos</a></li>
+<li><a href="#orgheadline14">2.2.2. En el camino esto estoy haciendo</a></li>
+<li><a href="#orgheadline16">2.2.3. Cosas sufridas y dejadas</a></li>
+<li><a href="#orgheadline23">2.2.4. Ideas a incorporar</a></li>
+<li><a href="#orgheadline24">2.2.5. Tabla de acciones y sus correlatos</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline26">2.3. TabFechar</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline44">3. Ideas prospectivas proyecto</a>
+<ul>
+<li><a href="#orgheadline32">3.1. Generales</a>
+<ul>
+<li><a href="#orgheadline31">3.1.1. Impresion</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline33">3.2. Modulo documentos</a></li>
+<li><a href="#orgheadline36">3.3. Modulo intimaciones</a>
+<ul>
+<li><a href="#orgheadline34">3.3.1. indicar en el tbs de fichas seleccionadas las fichas intimables</a></li>
+<li><a href="#orgheadline35">3.3.2. registro de intimaciones</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline37">3.4. Modulo seven</a></li>
+<li><a href="#orgheadline38">3.5. Tab busqueda padron</a></li>
+<li><a href="#orgheadline39">3.6. Linkeado de parentescos en la base de datos.</a></li>
+<li><a href="#orgheadline40">3.7. Estudio demografico sobre la clientela</a></li>
+<li><a href="#orgheadline41">3.8. agregar campo en clientes para poner la lectura de seven cuando se hace</a></li>
+<li><a href="#orgheadline42">3.9. que en el nuevo F13 se pueda buscar por telefono en forma autonoma</a></li>
+<li><a href="#orgheadline43">3.10. <span class="done DONE">DONE</span> Interface de actualizado de datos provenientes de la venta (fichitas)</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline50">4. Reniegues varios</a>
+<ul>
+<li><a href="#orgheadline45">4.1. funcion date(ultpago,'+ 15 days')</a></li>
+<li><a href="#orgheadline46">4.2. error tonto en la funcion backup</a></li>
+<li><a href="#orgheadline47">4.3. imprimir directo con lpr</a></li>
+<li><a href="#orgheadline48">4.4. poner en forma ordenada con label y entrys muchos campos</a></li>
+<li><a href="#orgheadline49">4.5. scrollwindows y scrolledframe</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline55">5. Caveats y Limites</a>
+<ul>
+<li><a href="#orgheadline52">5.1. TabFichas</a>
+<ul>
+<li><a href="#orgheadline51">5.1.1. Resumen funciona hasta un maximo de 88 fichas</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline54">5.2. TabFechar</a>
+<ul>
+<li><a href="#orgheadline53">5.2.1. Ubicacion de cuenta en tbs cuentas con raton</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline58">6. Bugs</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgheadline56">6.0.1. Bug Bracamonte cta 40000</a></li>
+<li><a href="#orgheadline57">6.0.2. Bug tbls.insert en oficina</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline62">7. Comentarios al desarrollo</a>
+<ul>
+<li><a href="#orgheadline60">7.1. Proceso quiere comprar</a>
+<ul>
+<li><a href="#orgheadline59">7.1.1. Caveats</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline61">7.2. Proceso seven</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline66">8. Next Actions&#xa0;&#xa0;&#xa0;<span class="tag"><span class="next">next</span></span></a>
+<ul>
+<li><a href="#orgheadline63">8.1. <span class="done DONE">DONE</span> Listado impreso de gente que quiere ser visitada</a></li>
+<li><a href="#orgheadline64">8.2. <span class="todo TODO">TODO</span> Proceso de Intimaciones</a></li>
+<li><a href="#orgheadline65">8.3. <span class="todo TODO">TODO</span> Proceso de documentos</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline78">9. Mejoras varias</a>
+<ul>
+<li><a href="#orgheadline77">9.1. Adaptacion para windows</a>
+<ul>
+<li><a href="#orgheadline67">9.1.1. editor recomendado para windows</a></li>
+<li><a href="#orgheadline68">9.1.2. Modulos que me pidio una instalacion limpia en python</a></li>
+<li><a href="#orgheadline69">9.1.3. Modulos tcl que me pidio</a></li>
+<li><a href="#orgheadline70">9.1.4. algunos reniegues de instalacion en windows</a></li>
+<li><a href="#orgheadline73">9.1.5. instalacion de modulos en windows</a></li>
+<li><a href="#orgheadline74">9.1.6. controlo el proceso mediante sys.platform</a></li>
+<li><a href="#orgheadline75">9.1.7. determino el Desktop mediante winshell</a></li>
+<li><a href="#orgheadline76">9.1.8. hago un proceso de vision de pdf generico sin importar lo que tiene instalado</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline81">10. Corrijo class Buscar y class Tbls</a>
+<ul>
+<li><a href="#orgheadline79">10.1. jklh en Tbls</a></li>
+<li><a href="#orgheadline80">10.2. un buscar renovado</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline3" class="outline-2">
+<h2 id="orgheadline3"><span class="section-number-2">1</span> Justificacion del proyecto</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-09-21 mié] </span></span> Aparte de formar parte de mi re-aprendizaje , el cual
+es continuamente reforzado y complementado, creo que el proyecto se
+autojustifica suficientemente. 
+<span class="timestamp-wrapper"><span class="timestamp">[2016-09-26 lun] </span></span> Me resuenan las palabras de un programador que lei
+casualmente donde decia que su trabajo habia sido facilitarle la vida
+a los demas, y con emacs se facilitaba un poco la vida el mismo. Y me
+quede con eso de que el software o la programacion como yo le digo
+realmente te facilita la vida pq las cosas que haces con ella
+realmente repercuten en el dia a dia. Ya sea con las tareas
+repetitivas como en el ser mas productivo y ganar mas.
+</p>
+</div>
+
+<div id="outline-container-orgheadline2" class="outline-3">
+<h3 id="orgheadline2"><span class="section-number-3">1.1</span> Objetivos del proyecto</h3>
+<div class="outline-text-3" id="text-1-1">
+</div><div id="outline-container-orgheadline1" class="outline-4">
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> Manejo mas rapido y ergonomico de las funciones comunes</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<p>
+Hay funciones comunes y repetitivas que las tenemos que seguir haciendo sea
+cual sea el camino que tomemos.
+Por ejemplo:
+</p>
+<ul class="org-ul">
+<li>pasar ventas, pasar pagos, y gestionar los clientes.</li>
+<li>emision de listados y planos para cobradores</li>
+</ul>
+<p>
+en ese sentido se mejoro muchisimo, ahora emito los listados muy rapidamente y 
+gestiono todo mucho mas rapido.
+La idea seria hacer extensiva toda esa operatoria a todo el negocio en todas sus
+partes. Una vez programado y mantenido el sistema va a dar su fruto
+</p>
+
+<p>
+Ya se ve la mejora en los tiempos de oficina y la calidad de la info y eso que esta 
+en pañales
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline27" class="outline-2">
+<h2 id="orgheadline27"><span class="section-number-2">2</span> Desarrollo del proyecto</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-orgheadline6" class="outline-3">
+<h3 id="orgheadline6"><span class="section-number-3">2.1</span> Ideas flotantes</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-orgheadline4" class="outline-4">
+<h4 id="orgheadline4"><span class="section-number-4">2.1.1</span> <span class="done DONE">DONE</span> Backup y subido a nube automatico</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+mediante la interfase dropbox con python y backup en hot con sqlite
+y tambien con el manejo de tar que hace python automaticamente
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline5" class="outline-4">
+<h4 id="orgheadline5"><span class="section-number-4">2.1.2</span> <span class="done DONE">DONE</span> Pasado de novedades desde la venta (fichitas)</h4>
+</div>
+</div>
+
+<div id="outline-container-orgheadline25" class="outline-3">
+<h3 id="orgheadline25"><span class="section-number-3">2.2</span> TabFechar</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-orgheadline7" class="outline-4">
+<h4 id="orgheadline7"><span class="section-number-4">2.2.1</span> Muchas de las cosas implementadas serviran en otros modulos</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<ol class="org-ol">
+<li>cuenta y cuotas coloreadas</li>
+<li>uso de checkbuttons</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgheadline14" class="outline-4">
+<h4 id="orgheadline14"><span class="section-number-4">2.2.2</span> En el camino esto estoy haciendo</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline8"></a><span class="done DONE">DONE</span> hacer los checkbuttons de fechas preestablecidas<br  /><div class="outline-text-5" id="text-2-2-2-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">&lt;2016-09-21 mié&gt;</span></span>
+Facilitara mucho el fechamiento
+</p>
+</div></li>
+<li><a id="orgheadline9"></a>Visualizacion de la planilla tal cual la estoy pasando<br  /><div class="outline-text-5" id="text-2-2-2-2">
+<p>
+para no perder tiempo con los casos en los cuales no hay nada que hacer
+</p>
+</div></li>
+<li><a id="orgheadline10"></a>cancelados (ya hechos)<br  /></li>
+<li><a id="orgheadline11"></a>pagados y cuyo pmovto automatico esta bien<br  /></li>
+<li><a id="orgheadline12"></a>Posiblemente achicar abajo aprovechando el sistema colores<br  /><div class="outline-text-5" id="text-2-2-2-5">
+<p>
+o sea ahorrando las columnas num cuenta para poner cuotas debidas y cuotas
+pagadas en el mismo sitio lado a lado y dejar mas amplitud a la "planilla"
+mas ancha??
+</p>
+</div></li>
+<li><a id="orgheadline13"></a>Gran caveat por resolver: el highlightBackground del tablelist<br  /><div class="outline-text-5" id="text-2-2-2-6">
+<p>
+pq no encuentro color para hacerlo. Sin color como esta ahora confunde
+quiza un color lightyellow pueda ser lo mejor. Y que la selectividad se
+acentue con el bold 
+</p>
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline16" class="outline-4">
+<h4 id="orgheadline16"><span class="section-number-4">2.2.3</span> Cosas sufridas y dejadas</h4>
+<div class="outline-text-4" id="text-2-2-3">
+</div><ol class="org-ol"><li><a id="orgheadline15"></a>no pude hacer que se resalte el campo pmovto cuando este mal<br  /><div class="outline-text-5" id="text-2-2-3-1">
+<p>
+ahi renegue con un error de sintaxis de sqlite date '+ 15 dias' y 
+lo mismo no puedo resolverlo, pero lo abandono pq creo que no me 
+sirve pq complica el proceso, me inclino por agrandar un poco el sitio
+No perder de vista que es una tab para fechar y nada mas que para eso
+</p>
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline23" class="outline-4">
+<h4 id="orgheadline23"><span class="section-number-4">2.2.4</span> Ideas a incorporar</h4>
+<div class="outline-text-4" id="text-2-2-4">
+</div><ol class="org-ol"><li><a id="orgheadline17"></a>desagregado de campo nombre en apellido y nombre<br  /></li>
+<li><a id="orgheadline18"></a>comentarios en tabla aparte<br  /></li>
+<li><a id="orgheadline19"></a>intimaciones en tabla aparte<br  /></li>
+<li><a id="orgheadline20"></a>acceso directo a modificadores de calle,num,zona<br  /><div class="outline-text-5" id="text-2-2-4-4">
+<p>
+subtab para editar calle/barrio/zona al estilo del que ya tengo o
+sea la tabla entera editable, pq moverse en dichas tablas es
+bastante rapido y de paso permite ver el contexto. 
+</p>
+</div></li>
+<li><a id="orgheadline21"></a><span class="done DONE">DONE</span> botones de fechamiento automatizado<br  /></li>
+<li><a id="orgheadline22"></a>seguimiento de uso o tratamiento de los estados cargados<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline24" class="outline-4">
+<h4 id="orgheadline24"><span class="section-number-4">2.2.5</span> Tabla de acciones y sus correlatos</h4>
+<div class="outline-text-4" id="text-2-2-5">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">subirseven</td>
+<td class="org-left">proceso externo seven</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">intimar</td>
+<td class="org-left">proceso externo intimaciones</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">novendermas</td>
+<td class="org-left">trigger a nivel tabla ponga incobrable</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">llamar</td>
+<td class="org-left">generacion de listado pendientes</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">monitorear</td>
+<td class="org-left">resaltado en planilla impresas</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">espera evento</td>
+<td class="org-left">campo evento &#x2013;&gt;generacion listado eventos</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">quiere comprar</td>
+<td class="org-left">generacion de listado clientes pendientes</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">mudo</td>
+<td class="org-left">cambio en la zona</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">sa</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+<ul class="org-ul">
+<li>Objetivos de implementacion</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline26" class="outline-3">
+<h3 id="orgheadline26"><span class="section-number-3">2.3</span> TabFechar</h3>
+<div class="outline-text-3" id="text-2-3">
+<p>
+Este tab es el mas importante del CMR Cobranzas pq alli se cargaran
+todas las novedades de los clientes.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline44" class="outline-2">
+<h2 id="orgheadline44"><span class="section-number-2">3</span> Ideas prospectivas proyecto</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-orgheadline32" class="outline-3">
+<h3 id="orgheadline32"><span class="section-number-3">3.1</span> Generales</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-orgheadline31" class="outline-4">
+<h4 id="orgheadline31"><span class="section-number-4">3.1.1</span> Impresion</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+Dentro de unas opciones generales del proyecto arriba.
+</p>
+</div>
+<ol class="org-ol"><li><a id="orgheadline28"></a>poner opcion a windows<br  /></li>
+<li><a id="orgheadline29"></a>poner una variable impresora arriba para poner el nombre de la impresora actual<br  /></li>
+<li><a id="orgheadline30"></a>poner el navegador pdf por defecto arriba tambien como variable<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline33" class="outline-3">
+<h3 id="orgheadline33"><span class="section-number-3">3.2</span> Modulo documentos</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+una tab aparte para todo el manejo de documentos
+Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
+sabe cual es el doc que el cliente quiere.
+Se abriria una tab aparte y en ella se buscaria el cliente (salvo que 
+desde fechar te la abra buscada)
+Alli tendriamos que tener un sistema de busqueda de clientes (muy
+similar en todos lados como en el F13) o sea full text search y alli
+desplegado las cuentas cuyos documentos podrian quererse y alli si con
+un doble-click y/o con una letra se toggearia entre doc a traer o no
+traer, cuyo campo logico debe residir en la tabla ventas.
+Y abajo un tbl general de documentos/pedidos procesados. (boton ver
+todos) boton ver faltantes boton ver no retirados
+alli desplegaria un tbl cuya tabla base seria adhoc y tendria los
+campos idvta/fechapedido/fechatraido/fechadevuelto/quienlodevolvio/
+comentarios.
+Y se generaria un pdf con un listado de doc a traer con sus datos y
+con los doc traidos se actualizaria el tbls idem cuando uno le
+entregue a algun cobrador para que lo devuelva
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline36" class="outline-3">
+<h3 id="orgheadline36"><span class="section-number-3">3.3</span> Modulo intimaciones</h3>
+<div class="outline-text-3" id="text-3-3">
+</div><div id="outline-container-orgheadline34" class="outline-4">
+<h4 id="orgheadline34"><span class="section-number-4">3.3.1</span> indicar en el tbs de fichas seleccionadas las fichas intimables</h4>
+<div class="outline-text-4" id="text-3-3-1">
+<p>
+ya que la decision de intimar se toma cuando uno fecha y lo pone alli,
+cuando seleccionamos la zona los reg intimables se resaltan diferentes
+y se agregara un boton alli que imprima las intimaciones.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline35" class="outline-4">
+<h4 id="orgheadline35"><span class="section-number-4">3.3.2</span> registro de intimaciones</h4>
+<div class="outline-text-4" id="text-3-3-2">
+<p>
+tabla base adhoc con campos idcliente/fecha/tipo
+intimacion/comentarios
+No descarto que tenga que usar notebook dentro de los tabs p.e para
+poder mostrar las tbls que quiero mostrar como comentarios o
+intimaciones o visitas que quiero manejar en tablas aparte, salvo que
+use el mismo tbls con botones de llenado. p.e. en principio mostrar
+las visitas y con un boton ver las intimaciones o comentarios.
+Eso achicaria los campos textuales y quizas podemos poner entrys.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline37" class="outline-3">
+<h3 id="orgheadline37"><span class="section-number-3">3.4</span> Modulo seven</h3>
+<div class="outline-text-3" id="text-3-4">
+<p>
+El modulo seven tiene tbls que muestran los que estan en capilla y
+permite procesar los que queremos enviar.
+tambien debe mostrar los que estan ya en el seven.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline38" class="outline-3">
+<h3 id="orgheadline38"><span class="section-number-3">3.5</span> Tab busqueda padron</h3>
+</div>
+<div id="outline-container-orgheadline39" class="outline-3">
+<h3 id="orgheadline39"><span class="section-number-3">3.6</span> Linkeado de parentescos en la base de datos.</h3>
+</div>
+<div id="outline-container-orgheadline40" class="outline-3">
+<h3 id="orgheadline40"><span class="section-number-3">3.7</span> Estudio demografico sobre la clientela</h3>
+<div class="outline-text-3" id="text-3-7">
+<p>
+al menos los basicos, tantos hombres, tantas mujeres de tales edades y
+su correlacion con la compra/pago.
+Y tambien un estudio de la base de datos respecto a la cantidad de
+compra y tipo de articulos comprados
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline41" class="outline-3">
+<h3 id="orgheadline41"><span class="section-number-3">3.8</span> agregar campo en clientes para poner la lectura de seven cuando se hace</h3>
+</div>
+<div id="outline-container-orgheadline42" class="outline-3">
+<h3 id="orgheadline42"><span class="section-number-3">3.9</span> que en el nuevo F13 se pueda buscar por telefono en forma autonoma</h3>
+</div>
+<div id="outline-container-orgheadline43" class="outline-3">
+<h3 id="orgheadline43"><span class="section-number-3">3.10</span> <span class="done DONE">DONE</span> Interface de actualizado de datos provenientes de la venta (fichitas)</h3>
+</div>
+</div>
+<div id="outline-container-orgheadline50" class="outline-2">
+<h2 id="orgheadline50"><span class="section-number-2">4</span> Reniegues varios</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orgheadline45" class="outline-3">
+<h3 id="orgheadline45"><span class="section-number-3">4.1</span> funcion date(ultpago,'+ 15 days')</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-09-21 mié]</span></span>
+esta mal!!! es +15 days o sea sin espacio entre el + y el numero
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline46" class="outline-3">
+<h3 id="orgheadline46"><span class="section-number-3">4.2</span> error tonto en la funcion backup</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-09-22 jue]</span></span>
+todo funciona perfecto hasta que al final quiero re-conectar
+pq comienzo cerrando la con.close() para evitar errores de base de
+datos y luego de hacer el backup quiero conectar de nuevo y pongo
+con=conectar(db)
+y me dice que la variable local con la referencio antes de su definicion 
+en la sentencia con.close()
+Y no entiendo nada. Busque la forma hasta dar que el error es que si 
+dentro del proc por mas que con sea un nombre global, en alguna parte
+de la funcion la asigno como hago con con= conectar(db) el nombre con
+pasa a ser local y mas arriba a estar referenciado antes de su asignacion
+borrando la "reconexion" todo funciona bien.
+Pero da gusto haber encontrado el error.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline47" class="outline-3">
+<h3 id="orgheadline47"><span class="section-number-3">4.3</span> imprimir directo con lpr</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+usando subprocess ya sea Popen o call me daba errores por archivo o directorio
+desconocido. Y sabia que era por el parseo de la opcion o sea no solo tenia
+el comando lpr y el file sino la opcion.
+Todo se solucionaria si el sistema CUPs me tomara la impresora como default. 
+Y ahi estaba leyendo. <a href="https://docs.oracle.com/cd/E23824_01/html/821-1451/gllgm.html">Como administrar CUPS desde la linea de comando</a>
+cuando el comando de verificacion de la impresora default me dio
+$ lpstat -d
+destino predeterminado del sistema: Brother<sub>HL</sub>-1200<sub>series</sub>
+O sea que ya la tenia seteada como default.
+Y el cambio se vio en que imprimiendo desde zathura ya me aparecia
+seteada como default
+Y ese seteo lo hice indirectamente en la pagina de control de cups
+<a href="http://localhost:631/printers/">CUPS</a> en la parte Administracion, Set as Server Default, que aunque me
+dio supuestamente un error la debe haber seteado igual.
+En resumen pongo 
+subprocess.call(["lpr","file.pdf"]) y listo.
+Tengo la impresion directa, que para algunos casos es muy ergonomica y
+segura, en especial cuando se imprime una sola hoja.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline48" class="outline-3">
+<h3 id="orgheadline48"><span class="section-number-3">4.4</span> poner en forma ordenada con label y entrys muchos campos</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+es cumbersome, y painfull. Lo resolvi en parte con un tbls con altura 1, y
+selecttype='cell', muy bonito y practico, ahora abria que hacerlo editable, lo
+cual no es gran dificultad.
+se podria poner calle/num/barrio/zona aparte en una linea directa, ver. 
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline49" class="outline-3">
+<h3 id="orgheadline49"><span class="section-number-3">4.5</span> scrollwindows y scrolledframe</h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline55" class="outline-2">
+<h2 id="orgheadline55"><span class="section-number-2">5</span> Caveats y Limites</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgheadline52" class="outline-3">
+<h3 id="orgheadline52"><span class="section-number-3">5.1</span> TabFichas</h3>
+<div class="outline-text-3" id="text-5-1">
+</div><div id="outline-container-orgheadline51" class="outline-4">
+<h4 id="orgheadline51"><span class="section-number-4">5.1.1</span> Resumen funciona hasta un maximo de 88 fichas</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline54" class="outline-3">
+<h3 id="orgheadline54"><span class="section-number-3">5.2</span> TabFechar</h3>
+<div class="outline-text-3" id="text-5-2">
+</div><div id="outline-container-orgheadline53" class="outline-4">
+<h4 id="orgheadline53"><span class="section-number-4">5.2.1</span> Ubicacion de cuenta en tbs cuentas con raton</h4>
+<div class="outline-text-4" id="text-5-2-1">
+<p>
+ En el tbls de cuentas del recorrido, se actuliza automaticamente
+a medida que pasamos de registro en registro <a id="orgtarget1"></a>
+pero cuando uno apunta con el raton, puede querer que se actualice
+pero no lo hace. Es como si el primer puntazo seleccionara el registro
+y el segundo lo disparara.
+O sea que el comportamiento seria como un dobleclick.
+Esto tendria que estar tambien en grandes reniegues. Le dedique casi una
+hora o mas el <span class="timestamp-wrapper"><span class="timestamp">[2016-09-24 sáb] </span></span> y no obtuve resultado. No hay forma que
+un simple click sobre el body del tablelist te de la row que
+apuntaste.
+Incluso usando el atributo y del evento y la funcion containing(y) te
+entrega un posible valor pero puede dar error si le apuntas al borde
+de la fila, porque en si son dibujos de filas en un text, no son filas
+verdaderas.
+No me queda otra solucion que usar el doble-click o bien seleccionar
+con el teclado
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline58" class="outline-2">
+<h2 id="orgheadline58"><span class="section-number-2">6</span> Bugs</h2>
+<div class="outline-text-2" id="text-6">
+</div><div id="outline-container-orgheadline56" class="outline-4">
+<h4 id="orgheadline56"><span class="section-number-4">6.0.1</span> Bug Bracamonte cta 40000</h4>
+<div class="outline-text-4" id="text-6-0-1">
+<p>
+la cuenta 40000 siempre la uso para pruebas y veia que funcionaba todo en el tabFechar
+menos el llenado del tbcli. raro.
+Analizando los datos raw del cliente vi que en el comentario tenia muchos \n\n\n
+y cuando los saque estuvo todo bien
+Lo que habria que ver es si hay otros casos, y estar prevenido.
+</p>
+
+<p>
+Ojo que trabajando sobre el levantado y el guardado de los campos text veo
+que la visualizacion del caso 40000 se distorsiona pq no se maneja los wrap
+en tbls.
+</p>
+
+<p>
+solucione mediante poner ancho fijo a las columnas y wrap=0 (explicito pq es default)
+for ct in campotexts:
+            tbcli.columnconfigure(ct,maxwidth=30,wrap=0)
+pero principalmente en el guardado como es un get del texto viene con saltos de linea
+y eso te rompe el esquema
+</p>
+
+<p>
+                tx.get(1.0,END).strip()
+el metodo strip() de un str le saca todos los espacios y lo deja limpito
+ideal para construir stm limpiamente.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgheadline57" class="outline-4">
+<h4 id="orgheadline57"><span class="section-number-4">6.0.2</span> Bug tbls.insert en oficina</h4>
+<div class="outline-text-4" id="text-6-0-2">
+<p>
+aca funcionaba ok el tbls con insert y alla no 
+primero pense en versiones de tablelist pero actualice y nada
+y al final en la parte del insert puse tuple
+Es raro pero eso hizo que funcionara alla, pero aca no le afectaba
+Pero como son dos SO distintos y puede que haya distintas versiones de tcl
+</p>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline62" class="outline-2">
+<h2 id="orgheadline62"><span class="section-number-2">7</span> Comentarios al desarrollo</h2>
+<div class="outline-text-2" id="text-7">
+</div><div id="outline-container-orgheadline60" class="outline-3">
+<h3 id="orgheadline60"><span class="section-number-3">7.1</span> Proceso quiere comprar</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-10-05 mié] </span></span> 
+Tengo un campo quierecomprar en clientes que sirve de control para con
+un bind a un checkbutton saber en todo momento que ese cliente activo
+el pedido.
+Pero la clave esta en la tabla quequierecomprar, donde cuando activo
+un pedido ingreso idcliente, fecha y articulo si es que lo dijo.
+Es de esta tabla de donde saldra la guia para emitir un listado de
+pendientes tanto visual como luego impreso.
+</p>
+
+<p>
+Ese query lo hago con la fecha-pedido vs fecha-ultimacompra. O sea
+listo todos los pedidos que tienen fecha posterior a la ultimacompra.
+Entonces no cierro la row del pedido cuando el cliente compra, pq no
+hace falta, pq es un sistema de pedidos informales, o sea avisos de
+visita del vendedor, y se supone que si el cliente compro con
+posterioridad al pedido ese pedido quedo satisfecho.
+</p>
+
+<p>
+Mediante un trigger muy simple cuando se modifica la fecha ultcompra
+en la tabla clientes (o sea cuando compra) saco el flag quierecomprar
+y eso sirve para que no se active el checkbutton.
+</p>
+</div>
+
+<div id="outline-container-orgheadline59" class="outline-4">
+<h4 id="orgheadline59"><span class="section-number-4">7.1.1</span> Caveats</h4>
+<div class="outline-text-4" id="text-7-1-1">
+<ul class="org-ul">
+<li>Era necesario llamar quequierecomprar a la tabla, no podia ser pedidos</li>
+<li>Se puede pensar en cerrar tambien por trigger el registro en la
+tabla quequierecomprar cuando el cliente compra. ¿Sirve para algo?</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline61" class="outline-3">
+<h3 id="orgheadline61"><span class="section-number-3">7.2</span> Proceso seven</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+<span class="timestamp-wrapper"><span class="timestamp">[2016-10-05 mié]</span></span>
+El proceso programado hoy tiene que ver con el marcado manual de gente
+a subir al seven.
+Luego habria que ver como seguimos para atras, si mediante la
+reactivacion de las cuentas a nivel cobrador-intimacion y seguir con
+el proceso manual.
+Quedaria aparte el tema de los mudados que tendria que subirlos
+automaticamente.
+Eso podria hacerlo con un update clientes set subirseven=1 where zona=
+'-mudados recientes'.
+</p>
+
+<p>
+Una vez marcados con el flag subirseven, saco el listado con el select
+subirseven=1 and sev=0 o sea los que no estan en el seven, y le
+agregue por las dudas deuda&gt;0.
+</p>
+
+<p>
+Una vez emitido y controlado el archivo csv se procede a:
+</p>
+<ul class="org-ul">
+<li>desflagear el campo subirseven=0</li>
+<li>flaguear con sev=1</li>
+<li>poner el fecha de alta</li>
+<li>generar un registro en la tabla seven donde ponemos
+<ul class="org-ul">
+<li>idcliente</li>
+<li>codigo</li>
+<li>fecha</li>
+</ul></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgheadline66" class="outline-2">
+<h2 id="orgheadline66"><span class="section-number-2">8</span> Next Actions&#xa0;&#xa0;&#xa0;<span class="tag"><span class="next">next</span></span></h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-orgheadline63" class="outline-3">
+<h3 id="orgheadline63"><span class="section-number-3">8.1</span> <span class="done DONE">DONE</span> Listado impreso de gente que quiere ser visitada</h3>
+</div>
+<div id="outline-container-orgheadline64" class="outline-3">
+<h3 id="orgheadline64"><span class="section-number-3">8.2</span> <span class="todo TODO">TODO</span> Proceso de Intimaciones</h3>
+</div>
+<div id="outline-container-orgheadline65" class="outline-3">
+<h3 id="orgheadline65"><span class="section-number-3">8.3</span> <span class="todo TODO">TODO</span> Proceso de documentos</h3>
+</div>
+</div>
+
+<div id="outline-container-orgheadline78" class="outline-2">
+<h2 id="orgheadline78"><span class="section-number-2">9</span> Mejoras varias</h2>
+<div class="outline-text-2" id="text-9">
+</div><div id="outline-container-orgheadline77" class="outline-3">
+<h3 id="orgheadline77"><span class="section-number-3">9.1</span> Adaptacion para windows</h3>
+<div class="outline-text-3" id="text-9-1">
+</div><div id="outline-container-orgheadline67" class="outline-4">
+<h4 id="orgheadline67"><span class="section-number-4">9.1.1</span> editor recomendado para windows</h4>
+<div class="outline-text-4" id="text-9-1-1">
+<p>
+scite liviano sin necesidad de instalacion y con F5 compila y muestra errores
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline68" class="outline-4">
+<h4 id="orgheadline68"><span class="section-number-4">9.1.2</span> Modulos que me pidio una instalacion limpia en python</h4>
+<div class="outline-text-4" id="text-9-1-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">dateutils</td>
+<td class="org-left">pip</td>
+<td class="org-left">ojo q se llama dateutils y me pide dateutil</td>
+</tr>
+
+<tr>
+<td class="org-left">fastnumbers</td>
+<td class="org-left">exe</td>
+<td class="org-left">bajarlo de pypi</td>
+</tr>
+
+<tr>
+<td class="org-left">winshell</td>
+<td class="org-left">pip</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">fpdf</td>
+<td class="org-left">pip</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">win32api</td>
+<td class="org-left">exe</td>
+<td class="org-left">bajarlo de sourceforge - ojo version 3.4</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgheadline69" class="outline-4">
+<h4 id="orgheadline69"><span class="section-number-4">9.1.3</span> Modulos tcl que me pidio</h4>
+<div class="outline-text-4" id="text-9-1-3">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left">Bwidget</td>
+<td class="org-left">use el de tcl aunque es dificil de encontrar</td>
+</tr>
+
+<tr>
+<td class="org-left">tablelist</td>
+<td class="org-left">baje de nemethi pq no lo encontre</td>
+</tr>
+
+<tr>
+<td class="org-left">sqlite3</td>
+<td class="org-left">necesario para fts (ver solucion en cuaderno)</td>
+</tr>
+
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orgheadline70" class="outline-4">
+<h4 id="orgheadline70"><span class="section-number-4">9.1.4</span> algunos reniegues de instalacion en windows</h4>
+<div class="outline-text-4" id="text-9-1-4">
+<p>
+generalmente hay que poner el package que necesitamos dentro del subdirectorio tcl de python
+en especial pide bwidget y tablelist, porque son ambos wrappers que funcionan en python con su
+correlato en tcl y por mas que esten instalados en tcl hay que ponerlos en python. (Posiblemente
+eso se arregle con un tema de path, pero hay que meterse en windows)
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline73" class="outline-4">
+<h4 id="orgheadline73"><span class="section-number-4">9.1.5</span> instalacion de modulos en windows</h4>
+<div class="outline-text-4" id="text-9-1-5">
+</div><ol class="org-ol"><li><a id="orgheadline71"></a>python -m pip install modulo<br  /></li>
+<li><a id="orgheadline72"></a>Pero hay modulos que no se instalan en windows<br  /><div class="outline-text-5" id="text-9-1-5-2">
+<p>
+en ese caso tratar de bajar el ejecutable de pypi y ejecutarlo
+Asi instale fastnumbers sino no se podia.
+</p>
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline74" class="outline-4">
+<h4 id="orgheadline74"><span class="section-number-4">9.1.6</span> controlo el proceso mediante sys.platform</h4>
+<div class="outline-text-4" id="text-9-1-6">
+<p>
+eso me permite el swich entre linux y las que no lo son
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline75" class="outline-4">
+<h4 id="orgheadline75"><span class="section-number-4">9.1.7</span> determino el Desktop mediante winshell</h4>
+<div class="outline-text-4" id="text-9-1-7">
+<p>
+se importa facil con pip
+winshell.folder("Desktop") te entrega el desktop
+luego con un os.join lo armo suponiendo un directorio standard en el desktop
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline76" class="outline-4">
+<h4 id="orgheadline76"><span class="section-number-4">9.1.8</span> hago un proceso de vision de pdf generico sin importar lo que tiene instalado</h4>
+<div class="outline-text-4" id="text-9-1-8">
+<p>
+mediante import win32api (hay que bajar la version para python3.4 de sourceforge)
+win32api.ShellExecute (
+  0,
+  "print",
+  filename,
+  "",
+  "",
+</p>
+<ol class="org-ol">
+<li></li>
+</ol>
+<p>
+Son 6 argumentos, el primero y el ultimo 0, los dos anteultimos "".
+Poner el filename que queremos y las opciones son "print" para imprimir directo y
+"open" para abrir el programa determinado de pdf.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgheadline81" class="outline-2">
+<h2 id="orgheadline81"><span class="section-number-2">10</span> Corrijo class Buscar y class Tbls</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-orgheadline79" class="outline-3">
+<h3 id="orgheadline79"><span class="section-number-3">10.1</span> jklh en Tbls</h3>
+<div class="outline-text-3" id="text-10-1">
+<p>
+Cuando escribi la class Tbls quise reinventar la rueda con los metodos
+j/k/l/h y al final le erre pq no me funcionaban bien en la
+determinacion del active de tablelist como los metodos nativos de
+tablelist.
+</p>
+
+<p>
+Asi que ahora lo unico que hago es wrapear esos metodos.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #ffad29; font-weight: bold;">self</span>.body_bind(<span style="color: #e67128;">'&lt;j&gt;'</span>,<span style="color: #ffad29; font-weight: bold;">lambda</span> ev: (<span style="color: #ffad29; font-weight: bold;">self</span>.typerow(),<span style="color: #ffad29; font-weight: bold;">self</span>.event_generate(<span style="color: #e67128;">'&lt;Down&gt;'</span>)))
+<span style="color: #ffad29; font-weight: bold;">self</span>.body_bind(<span style="color: #e67128;">'&lt;k&gt;'</span>,<span style="color: #ffad29; font-weight: bold;">lambda</span> ev: (<span style="color: #ffad29; font-weight: bold;">self</span>.typerow(),<span style="color: #ffad29; font-weight: bold;">self</span>.event_generate(<span style="color: #e67128;">'&lt;Up&gt;'</span>)))
+<span style="color: #ffad29; font-weight: bold;">self</span>.body_bind(<span style="color: #e67128;">'&lt;l&gt;'</span>,<span style="color: #ffad29; font-weight: bold;">lambda</span> ev: (<span style="color: #ffad29; font-weight: bold;">self</span>.typecell(),<span style="color: #ffad29; font-weight: bold;">self</span>.event_generate(<span style="color: #e67128;">'&lt;Right&gt;'</span>)))
+<span style="color: #ffad29; font-weight: bold;">self</span>.body_bind(<span style="color: #e67128;">'&lt;h&gt;'</span>,<span style="color: #ffad29; font-weight: bold;">lambda</span> ev: (<span style="color: #ffad29; font-weight: bold;">self</span>.typecell(),<span style="color: #ffad29; font-weight: bold;">self</span>.event_generate(<span style="color: #e67128;">'&lt;Left&gt;'</span>)))
+</pre>
+</div>
+
+<p>
+Como se puede ver solo uso event<sub>generate</sub> que lo que hace es disparar
+el evento sin que el evento fisico haya tenido lugar, entonces es
+ideal para el wrappeado.
+Pero le agrego un previo paso y es cambiar el typeselect del tbls con
+dos funcioncitas.
+Primero notar que las tan utiles funciones lambda te permiten:
+</p>
+<ul class="org-ul">
+<li>usar mas de una sentencia separadas por comas y todo entre comillas</li>
+<li>pero no te permite asignacion, por lo cual no se puede poner
+typeselect=row dentro de un lambda</li>
+</ul>
+
+<div class="SCR">
+<p>
+def typecell(self):
+   self['selecttype']='cell'
+</p>
+
+<p>
+def typerow(self):
+   self['selecttype']='row'
+</p>
+
+</div>
+
+<p>
+Con estos cambios se solucionan los malos comportamientos en la
+asignacion del active y puedo usar mi frikeada del jklh dentro de los tbls.
+</p>
+</div>
+</div>
+<div id="outline-container-orgheadline80" class="outline-3">
+<h3 id="orgheadline80"><span class="section-number-3">10.2</span> un buscar renovado</h3>
+<div class="outline-text-3" id="text-10-2">
+<p>
+Decidido a pulir la clase Buscar para poder usarla intensivamente
+necesitaba que la asignacion del idcliente fuera clara y facilmente
+obtenible con el enter y el dobleclick, por eso que tuve que corregir
+las anomalias del jklh de Tbls.
+</p>
+
+<p>
+Cambie los nombres de los metodos de ubicacion en la casa &lt;c&gt; y en la
+cuadra &lt;C&gt; para que sean mas faciles de acordar.
+</p>
+
+<p>
+Y tenemos un metodo get que entrega el idcliente buscado. En
+conjuncion con un focus al elemento siguiente segun Tk.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-python"><span style="color: #ffad29; font-weight: bold;">def</span> <span style="color: #00ede1; font-weight: bold;">cargaractive</span>(<span style="color: #ffad29; font-weight: bold;">self</span>,ev):
+     <span style="color: #ffad29; font-weight: bold;">self</span>.active=<span style="color: #ffad29; font-weight: bold;">self</span>.t.getcell(<span style="color: #e67128;">'active'</span>,<span style="color: #e67128;">'id'</span>)
+     <span style="color: #ffad29; font-weight: bold;">self</span>.t.rowconfigure(<span style="color: #e67128;">'active'</span>,bg=<span style="color: #e67128;">'yellow'</span>,fg=<span style="color: #e67128;">'black'</span>,font=<span style="color: #e67128;">'ubuntu 10 bold'</span>)
+     <span style="color: #ffad29; font-weight: bold;">self</span>.t.tk_focusNext().focus_set()
+
+ <span style="color: #ffad29; font-weight: bold;">def</span> <span style="color: #00ede1; font-weight: bold;">get</span>(<span style="color: #ffad29; font-weight: bold;">self</span>):
+     <span style="color: #ffad29; font-weight: bold;">return</span> <span style="color: #ffad29; font-weight: bold;">self</span>.active
+</pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: heroasam</p>
+<p class="date">Created: 2016-10-08 sáb 22:40</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

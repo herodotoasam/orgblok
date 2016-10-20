@@ -1,3 +1,4 @@
+  #+STARTUP: indent
 * Org-mode							   :dpto:org:
 ** Historia:
 Escuche la conferencia del creador de org-mode. Muy interesante
@@ -133,7 +134,7 @@ Este ejemplo lo hice yo:
 
 * Temas aprendidos
 ** Fechas
-   DEADLINE: <2016-10-10 lun>
+   DEADLINE: 2016-10-10 lun>
    :PROPERTIES:
    :ID:       acde9cc4-aca3-4d55-ae92-499929dcf9ce
    :END:
@@ -242,17 +243,20 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 
 * tablas
-** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
-** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
+** TODO Basicos 
+SCHEDULED: <2016-10-21 vie +5d>
+*** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
+*** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
 o se puede hacer Cc-Cc para realinear en el momento
-** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
+*** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
 y eso hace que sobreescribamos lo que hay
 
 | t | t | t  |
 | j | 5 | 99 |
 | j | a | f  |
 |   |   |    | 
-** Convertir una region en tabla
+*** Convertir una region en tabla
+
 t,j,k,l,m
 3,2,3,2,2
 Encerrar lo anterior en una region!!! y luego Cc | lo hace tabla
@@ -274,23 +278,26 @@ Sin region el comando Cc | crea una tabla vacia
 |---+---+---+---+---+---+---+---+---+---|
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |   |
-** Sort table
+|   |   |   |   |   |   |   |   |   | 
+  
+** Intermedio
+*** Sort table
    Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
    las opciones en mayuscula)
    la columna usada para el sort es la active cuando llamamos el
    comando
-** Agregar una linea horizontal
+*** Agregar una linea horizontal
    Cc -
-** Mover filas o columnas
+*** Mover filas o columnas
    M-left-right mueve columnas
    M-up-down mueve filas
-** Borrar o agregar filas o columnas
+*** Borrar o agregar filas o columnas
    M-S-left borra la columna actual
    M-S-right agrega una columna en la posicion actual
    M-S-up borra la fila actual
    M-S-down agrega una fila en la posicion actual
-** sumar
+** Avanzado
+*** sumar
    C-c + suma los items de la columna activa y C-y los pastea.
    O sea si estamos en una fila totalizadora hacemos C-c + y Cy y
    tenemos la suma puesta
@@ -302,10 +309,9 @@ Sin region el comando Cc | crea una tabla vacia
 |  0 |  8 |  9 |  7 |
 |----+----+----+----|
 | 20 | 33 | 18 | 18 |
-|    |    |    |    |
 |----+----+----+----|
 #+TBLFM: @6$3=@5$3+@4$3::@6$4=vsum($3)
-** copiado y llenado
+*** copiado y llenado
    Con M-RET se va copiando e incrementando los valores en una
    columna.
    Numericamente con +1 y fechas tambien con +1, letras no.
@@ -322,10 +328,10 @@ Sin region el comando Cc | crea una tabla vacia
 | 18 | a1 | [2016-10-18 mar] |
 | 19 | a1 | [2016-10-19 mié] |
 
-** Hoja de calculo
-*** Cc } turn on numeros de fila y columnas
-*** cc ? sobre una celda te muestra en buffer la direccion
-*** Formulas de toda la columna o toda la fila
+*** Hoja de calculo
+**** Cc } turn on numeros de fila y columnas
+**** cc ? sobre una celda te muestra en buffer la direccion
+**** Formulas de toda la columna o toda la fila
 Cuando introducimos una formula en una celda normalmente =vsum() etc
 y aparece abajo la linea de formulas,con el lado izquierdo de la
 ecuacion nombrando la direccion de la celda y la derecha la formula
@@ -354,13 +360,50 @@ Aca hice que la fila 11 sea una suma de las columnas en celdas de fila
 Todavia no puedo hacerlo funcionar y que se vea la cadena de
 Seinfeld. 
 Pienso que faltan un par de dias para que se vea.
+[2016-10-18 mar]
+bingo!!!. Lo hice funcionar. El error era que en vez de scheduled
+ponia deadline.
+Para hacer un habito:
+1. hacer un TODO cualquiera
+2. schedularlo con repeticion
+3. ponerle propiedad (CcCxp) STYLE:habit
+y listo, luego sale en la agenda.
 
 
 * modulos a experimentar luego
-** learn 
+** learn / drill 
 al M-x customize-variable RET org-modules RET vi que hay un modulo de
 learn con el algorritmo supermario. para ver 
+ambos dan error, no andan. que bronca.
 ** search
 necesito un search que funcione como ag al toque pero dentro de emacs,
 esta el ag pero no se baja pq debe estar roto el enlace o algo.
+Bastante bien funciona el agenda-s con regexp y palabras sueltas.
+** browser interno a emacs
+se puede navegar dentro de emacs como con el manual???
 
+* seteos que logran efecto deseado
+** (add-hook 'org-mode-hook 'turn-on-auto-fill
+el bendito auto-fill en los escritos
+** (global-set-key (kbd "C-}") 'org-agenda)
+el keybind para abrir agenda
+** (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+que funcionen los superbullets
+**  '(org-deadline-warning-days 0)
+seteado con customize-variable elimina el molesto aviso de los
+ proximos deadline que te llenan la agenda.
+**  '(org-habit-show-habits-only-for-today t)
+idem anterior, como el habito es repetitivo, te aparece todos los
+dias y no te permite apreciar la agenda 
+** org indent
+con   #+STARTUP: indent arriba he logrado una indentacion automatica
+aunque diferente en lo hecho a partir de ese momento y lo que estaba
+antes. La diferencia era causada porque uno habia cargado espacios
+para simular la indentacion. Pero funciona perfecto automaticamente.
+SE puede hacer a nivel archivo con el startup indent/noindent o
+mediante el seteo:
+ '(org-startup-indented t)) pero que advierte que es lento para
+grandes archivos.
+* TODO cosas pendientes [0%] 
+- [ ] poner que la agenda se abra en dia
+- 
