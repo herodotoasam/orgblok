@@ -299,18 +299,7 @@ Una vez emitido y controlado el archivo csv se procede a:
   - fecha
 
 
-* Next Actions							       :next:
-** DONE [#A] Listado impreso de gente que quiere ser visitada
-** TODO [#A] Proceso de Intimaciones
-   :PROPERTIES:
-   :ID:       8dcc4553-6399-4b25-9160-c91d4064e5a5
-   :END:
-** TODO Proceso de documentos
-   :PROPERTIES:
-   :ID:       19bc9deb-e63b-46bf-98ee-995a2c8c2c4c
-   :END:
-
-* Mejoras varias
+* Uso adaptado a Windows
 Implementada el [2016-10-08 sáb]
 ** Adaptacion para windows
 *** editor recomendado para windows
@@ -410,6 +399,10 @@ conjuncion con un focus al elemento siguiente segun Tk.
             return self.active
 
 #+END_SRC
+[2016-10-21 vie] Pequeña correccion de tamaños del entry buscar que
+sea armonico con el wtbl dado por el usuario y que no quede
+desacomodado.
+
 ** Bloque de visionado de cuentas 
 Tambien pase a class el bloque de busqueda de cuentas que habia
 desarrollado en tabFechar. 
@@ -555,7 +548,8 @@ complejo hacer uno solo y hacer binds dentro del tbls que te cambien
 la vista p.e. m/s/d para vistas mensuales, semanales, diarias (un poco
 inspirado en la vista de la agenda).
 * Hacia el proceso de documentos
-** Modulo documentos
+[2016-10-21 vie]
+** DONE tab doc/busqueda y toggeo entre pedir y no pedir
 una tab aparte para todo el manejo de documentos
 Pienso que esta mal ponerlo como un checkbutton en fechar pq no se
 sabe cual es el doc que el cliente quiere.
@@ -566,16 +560,29 @@ similar en todos lados como en el F13) o sea full text search y alli
 desplegado las cuentas cuyos documentos podrian quererse y alli si con
 un doble-click y/o con una letra se toggearia entre doc a traer o no
 traer, cuyo campo logico debe residir en la tabla ventas.
+** tbls de doc pedidos
 Y abajo un tbl general de documentos/pedidos procesados. (boton ver
 todos) boton ver faltantes boton ver no retirados
 alli desplegaria un tbl cuya tabla base seria adhoc y tendria los
 campos idvta/fechapedido/fechatraido/fechadevuelto/quienlodevolvio/
 comentarios.
+*** tecnologia necesaria
+checkbox en tablelist para marcar el si/no de la devolucion y unos
+botones arriba para optar por ver todos o los devueltos o los por devolver.
+En realidad el checkbox se ve en la edicion, mostrarlos como
+enmascaramiento de un valor se puede hacer pero es mas complicado y no
+vale la pena. 
+Uso una mezcla de formatvalue en el cual pongo un formato adhoc como
+pedido/nopedido o devuelto/nodevuelto y simultaneamente la posibilidad
+de editar con checkbox (en el pedido fue mas facil hacerlo con doble
+click pero en la otra tbl que tendre perdido/noperdido,
+devuelto/nodevuelto traido/no traido usare eso)
+** pdf de doc pedidos para traer
 Y se generaria un pdf con un listado de doc a traer con sus datos y
 con los doc traidos se actualizaria el tbls idem cuando uno le
 entregue a algun cobrador para que lo devuelva
 
-** Como marcar el documento pedido (teniendo en cta que es idvta)
+** pedir doc desde otros lugares
 un tab mas en fechar con los idvta y sus fechas y saldos y un bodybind
 desde alli indicado con un label de recordatorio y un ballon.
 idem un bodybind en el tab ver cosa de poder buscar un cliente y
@@ -588,23 +595,19 @@ anda bien. O sea que se podria mediante esos accesos en ver o en
 fechar abrir el tab doc y alli ponerle el check al idvta que
 queramos. 
 
-** un tab o subtab de documentos pedidos con facilidad para borrar o des-pedir
+** DONE un tab o subtab de documentos pedidos con facilidad para borrar o des-pedir
 puede ser un tab propio doc un Buscar y los "documentos" o sea sus
 idvtas con sus saldos y la posibilidad de pedirlos ya sea updateando
 directamente un check en el tablelist que se vincule inmediatamente a
 la tabla ventas y genere un trigger de registro en la tabla
 documentos.
 Otro tab con los documentos pedidos y su inteligencia.
-** donde residiria el pedido y el control
+** DONE donde residiria el pedido y el control
 *** en tabla ventas
-con campo pedirdoc si/no y campos anexos
+    con campo pedirdoc si/no y campos anexos
 *** en tabla aparte con un campo flag en ventas 
 la tabla aparte puede permitir muchos controles mas como fecha pedido,
 fecha devuelto, devuelto, quien devolvio, comentarios.
-
-** tecnologia necesaria
-checkbox en tablelist para marcar el si/no de la devolucion y unos
-botones arriba para optar por ver todos o los devueltos o los por devolver.
 
 * Hacia el proceso de pivot-cuotas a cobrar
 No es moco de pavo tampoco como parece. Primero pq esta en tcl,
@@ -613,6 +616,7 @@ La idea seria tener una informacion lo mas cierta posible sobre lo que
 hay para cobrar. Los formatos pueden ser varios.
 ** Tipos probables de pivot
 | N° | index       | muestra                                       | datos |
+|----+-------------+-----------------------------------------------+-------|
 |  1 | mes-venta   | el aporte de cada mes en el total cobrado     | todos |
 |  2 | zona        | lo que hay para cobrar en cada zona           | todos |
 |  3 | cobr        | idem lo que hay para los cobradores           | todos |
