@@ -244,7 +244,11 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 * tablas
 ** TODO Basicos 
-SCHEDULED: <2016-10-21 vie +5d>
+SCHEDULED: <2016-10-26 mié .+6d>
+- State "DONE"       from "TODO"       [2016-10-20 jue 20:58]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-20 jue 20:58]
+:END:
 *** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
 *** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
 o se puede hacer Cc-Cc para realinear en el momento
@@ -280,7 +284,12 @@ Sin region el comando Cc | crea una tabla vacia
 |   |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   | 
   
-** Intermedio
+| a | b | c | d | e | f | g |
+|---+---+---+---+---+---+---|
+|---+---+---+---+---+---+---|
+|   |   |   | b |   | a |   |
+** TODO Intermedio
+SCHEDULED: <2016-10-21 vie .+7d>
 *** Sort table
    Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
    las opciones en mayuscula)

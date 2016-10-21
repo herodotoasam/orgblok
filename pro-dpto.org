@@ -1,6 +1,7 @@
 #+FILETAGS: proyecto dpto
 
 * Acondicionar el dpto						      :title:
+CLOCK: [2016-10-20 jue 21:08]--[2016-10-20 jue 21:12] =>  0:04
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
 #+CAPTION: Clock summary at [2016-10-18 mar 12:11]
 | Headline             | Time   |
@@ -20,6 +21,7 @@
 La idea es tener un lugar comodo y agradable donde vivir
 Confortable, terminado pero no aputosado
 Un lugar donde tengan continuidad mis actividades
+Tambien un lugar donde tengan cabida mis objetos.
 * Justificacion del proyecto						:why:
 - Tengo derecho a vivir en un ambiente confortable y agradable
 - Los gastos envueltos no son muy grandes y puedo afrontarlos
@@ -38,10 +40,10 @@ Un lugar donde tengan continuidad mis actividades
 ** Recambiar utensilios de cocina
 ** minimalizar todo
 ** poner un dosificador de aroma como en oficina
-** sellar las ventanas
+** DONE sellar las ventanas
 ** mejorar el aspecto del baño
 ** lugar seguro y separado para los fondos
-** gestion adecuada de los papeles de oficina
+** PROCESO gestion adecuada de los papeles de oficina
 ** reacomodamiento de los trastos
 tengo un monton de cajas y ya se me han mezclado las cosas y es
 dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
@@ -51,7 +53,7 @@ dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
  
 * Plan de accion						       :plan:
 ** Dormitorio
-*** Pintura pared
+*** DONE Pintura pared
 Estaria bueno un color azul crepusculo
 Compre azul zafiro
 [2016-10-06 jue] encinte la pared
@@ -90,7 +92,9 @@ Ver solucion contac.
 [2016-10-18 mar] Cambie el pico con uno nuevo con cuerito y todo. La
 caja de desague de abajo que rebalsa la limpie y voy a probar con un
 gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
-  
+** Living
+*** cortinas oscuras 
+urgente necesito pq no puedo trabajar correctamente en la compu
 * Next Action							       :next:
 ** DONE comprar pintura dormitorio
 ** DONE poner caño cortina
@@ -114,7 +118,9 @@ gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
 :ID:       371275ad-553b-441a-ac3d-fa349f98bd6a
    :END:
 - [X] llave inglesa
-   SCHEDULED: <2016-10-15 sáb>
+   SCHEDULED: <2016-10-22 sáb>
+- [ ] cortinas de jean
+
 
 
 

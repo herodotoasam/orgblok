@@ -50,8 +50,12 @@ DEADLINE: <2016-11-21 lun +1m>
 :PROPERTIES:
 :LAST_REPEAT: [2016-10-19 mié 20:21]
 :END:
-** TODO Seven						      :oficina:fijos:
-   DEADLINE: <2016-10-05 mié +1m>
+** TODO Seven                                                :oficina:fijos:
+DEADLINE: <2016-11-05 sáb +1m>
+- State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-20 jue 21:06]
+:END:
 
 
 
