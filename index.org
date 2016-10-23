@@ -5,4 +5,6 @@
 ** [[file:edu-orgmode.org][org-mode]]
 ** [[file:edu-programar.org][programar]]
 
-[[http://technical-dresese.blogspot.com.ar/2012/12/an-emacs-configuration-smell.html][leer este blog]]
+[[http://technical-dresese.blogspot.com.ar/2012/12/an-emacs-configuration-smell.html][leer
+este blog]]
+** [[file:edu-emacs.org][emacs]]

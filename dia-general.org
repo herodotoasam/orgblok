@@ -1,13 +1,14 @@
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-22 sáb 20:43]
+#+CAPTION: Clock summary at [2016-10-23 dom 16:32]
 | Headline               | Time   |      |      |
 |------------------------+--------+------+------|
-| *Total time*           | *0:31* |      |      |
+| *Total time*           | *0:41* |      |      |
 |------------------------+--------+------+------|
-| 2016                   | 0:31   |      |      |
-| \_  Octubre            |        | 0:31 |      |
+| 2016                   | 0:41   |      |      |
+| \_  Octubre            |        | 0:41 |      |
 | \_    [2016-10-22 sáb] |        |      | 0:31 |
+| \_    [2016-10-23 dom] |        |      | 0:10 |
 #+END:
 
 ** Junio
@@ -1183,6 +1184,64 @@ sino los que la luchan de abajo y se conformen con un monto mas discreto.
 ***** es mucho mas liberado el sistema si se autoentrega
 porque eso da mas libertad en zona y en la permanencia o duracion en
 la zona.
+*** [2016-10-23 dom]
+***** puede ser un enfoque por dia con el famoso 300 por dia pago diario
+con tres cortinas entregadas.
+El riesgo si salen 3 cortinas a reparto y no vuelven pq son choreadas
+es perder 540 y si pagamos es 300. O sea que el chico puede querer
+chorear pq las puede hacer a 600 o 900 pero de ahi corre la parte
+firmada. Contrato, fotocopia de dni y hoja de salida. 
+El tema es que se puede pagar 80 por cortina y un premio compensador
+de 60 a la tercera cortina, cosa de generar la chance de tres cortinas
+por dia. 
+Un par de meses atras la chance de hacer 300 por dia fue grosa y
+muchos vinieron con ese plan, luego se complica con el sistema de
+oficina.
+Pero asumiendo riesgos estadisticos con respecto a la venta global
+controlada por limite de venta y seven, y liberando escollos mediante
+la entrega personal de cada uno se pude hacer la liquidacion diaria.
+***** liquidacion diaria, el camino a la simplificacion
+:LOGBOOK:
+CLOCK: [2016-10-23 dom 16:22]--[2016-10-23 dom 16:32] =>  0:10
+:END:
+que sea un trabajo de pago diario, hace que solo tenga que tener
+planillas con el dia que esta en curso y una vez liquidada se firma y
+se archiva, o sea no les debo nada solo lo de hoy, como tienen hoy los
+cobradores.
+Elimina la peligrosa planilla mensual y elimina el tener
+malosentendidos.
+Lo unico que queda es el choreo de parte de ellos de la ultima tanda
+de cortinas, lo cual es malo pero no entorpece el minimalismo del pago
+diario.
+Ademas el que puedan ganar 300 por dia es un gancho, o sea el pago
+diario para aquel que esta en la lona. Y es un incentivo para que
+trabajen bien o sea para que se esfuercen y hagan el dia.
+Se podria aceptar que si hay tres ventas y no se pudo entregar pq le
+fallo el cliente pueda entregarlo mañana y cobrar mañana el dia sin
+perder el premio.
+Cobrar por dia elimina tambien el tema de los vales, y el problema de
+la liquidacion.
+***** Que modulos necesito
+****** pasador de pedidos 
+necesita solo arreglar el tema del articulo
+****** planilla de salida y cobro de liquidacion de comision
+****** registro de jornales
+****** emisor rapido de planos
+y planos editados con los colectivos actuales
+***** El pasado de datos y chequeado se hace sin promotor presente
+algo que fue una molestia en el minisistema actual fue tener que
+chequear el vender o no (seven o dni antes) frente al promotor y
+cuando el promotor te rinda.(caso hony y lesta)
+Ahora no haria falta pq al ser ellos mismos los que entregan mañana no
+hace falta hacerlo
+***** otra ventaja de que sea plan diario- que se vayan solos
+el gran pain del sistema 2013 fue que la gente captada con un sistema
+mensual no produce bien, uno tiene que enmascarar esa situacion al
+comienzo y luego se complica sacarlos, como paso con el megagrupo
+antes de echarlos a todos y dejar los 7 que andaban bien. Al ser tan
+transparente asi la rendicion y entrega, el que anda mal y no produce
+se va solo. y te despeja el sitio para que sigas incorporando gente en
+el futuro.
 
 
 * Constructos

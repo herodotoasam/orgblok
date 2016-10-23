@@ -299,39 +299,45 @@ Incluso si se pone el titulo del sector denso como comentario es facil transitar
 * Emacs basicos                                                        :anki:
 SCHEDULED: <2016-10-26 mié +7d>
 ** basicos
-| C-j         | jump new line desde donde esta           |
-|-------------+------------------------------------------|
-| C-n         | linea abajo                              |
-| C-p         | linea arriba                             |
-| C-a         | comienzo linea                           |
-| C-e         | final linea                              |
-|-------------+------------------------------------------|
-| C-f/b       | avanza retrocede un caracter             |
-|             |                                          |
-|-------------+------------------------------------------|
-| M-<         | comienzo archivo                         |
-| M->         | final archivo                            |
-|-------------+------------------------------------------|
-| M-w         | copy                                     |
-| C-y         | yank                                     |
-| M-y         | cicla yanks                              |
-| C-w         | cut                                      |
-| C-/         | undo-redo                                |
-|-------------+------------------------------------------|
-| C-s         | busqueda adelante                        |
-| C-r         | busqueda atras                           |
-| M-%         | replace                                  |
-|-------------+------------------------------------------|
-| M-l/u       | lower-upper en avance desde ahi          |
-|-------------+------------------------------------------|
-| C-F/B       | marca y avanza presionando repetidamente |
-| C-spc       | comienza marca y luego flechas           |
-| C-x h       | select all                               |
-|-------------+------------------------------------------|
-| M-d         | borra la palabra actual desde ahi        |
-| M-Backspace | borra la palabra anterior                |
-| C-k         | borra la fila desde ahi                  |
-|             |                                          |
+| C-j         | jump new line desde donde esta sin respetar indentacion |
+| C-o         | abre nueva linea                                        |
+| RET         | abre nueva linea                                        |
+|-------------+---------------------------------------------------------|
+| C-n         | linea abajo                                             |
+| C-p         | linea arriba                                            |
+| C-a         | comienzo linea                                          |
+| C-e         | final linea                                             |
+|-------------+---------------------------------------------------------|
+| C-f/b       | avanza retrocede un caracter                            |
+| M-f/b       | adelante y atras una palabra                            |
+|-------------+---------------------------------------------------------|
+| M-<         | comienzo archivo                                        |
+| M->         | final archivo                                           |
+| M-g g       | go to line x                                            |
+|-------------+---------------------------------------------------------|
+| M-w         | copy                                                    |
+| C-y         | yank                                                    |
+| M-y         | cicla yanks                                             |
+| C-w         | cut                                                     |
+| C-/         | undo-redo                                               |
+| C-x z       | repite ultimo comando zzzz repite sucesivamente         |
+|-------------+---------------------------------------------------------|
+| C-s         | busqueda adelante                                       |
+| C-r         | busqueda atras                                          |
+| M-%         | replace                                                 |
+|-------------+---------------------------------------------------------|
+| M-l/u       | lower-upper en avance desde ahi                         |
+|-------------+---------------------------------------------------------|
+| C-F/B       | marca y avanza presionando repetidamente                |
+| C-spc       | comienza marca y luego flechas                          |
+| C-x h       | select all                                              |
+| C-p/n       | marca y avanza lineas desde alli                        |
+|-------------+---------------------------------------------------------|
+| M-d         | borra la palabra siguiente desde ahi                    |
+| M-Del       | borra la palabra anterior desde ahi                     |
+| M-Backspace | borra la palabra anterior                               |
+| C-k         | borra la fila desde ahi                                 |
+|             |                                                         |
 
 ** Dired
 C-x- d abre dired y pide directorio o pattern
@@ -341,4 +347,8 @@ C-x- d abre dired y pide directorio o pattern
 
 ** Comandos usables M-x
 | linum              | numerar lineas este archivo |
+| column-line-mode   | idem para columnas          |
 | list-color-display | colores y sus nombres       |
+| count-word         | lineas,words y caracteres   |
+| hl-line-mode       | highlight la linea activa   |
+|                    |                             |

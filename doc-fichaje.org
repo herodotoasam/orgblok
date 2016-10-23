@@ -351,10 +351,10 @@ tablelist.
 Asi que ahora lo unico que hago es wrapear esos metodos.
 
 #+BEGIN_SRC python
-   self.body_bind('<j>',lambda ev: (self.typerow(),self.event_generate('<Down>')))
-   self.body_bind('<k>',lambda ev: (self.typerow(),self.event_generate('<Up>')))
-   self.body_bind('<l>',lambda ev: (self.typecell(),self.event_generate('<Right>')))
-   self.body_bind('<h>',lambda ev: (self.typecell(),self.event_generate('<Left>')))
+self.body_bind('<j>',lambda ev: (self.typerow(),self.event_generate('<Down>')))
+self.body_bind('<k>',lambda ev: (self.typerow(),self.event_generate('<Up>')))
+self.body_bind('<l>',lambda ev: (self.typecell(),self.event_generate('<Right>')))
+self.body_bind('<h>',lambda ev: (self.typecell(),self.event_generate('<Left>')))
 #+END_SRC
 
 Como se puede ver solo uso event_generate que lo que hace es disparar
@@ -390,13 +390,13 @@ Y tenemos un metodo get que entrega el idcliente buscado. En
 conjuncion con un focus al elemento siguiente segun Tk.
 
 #+BEGIN_SRC python
-    def cargaractive(self,ev):
-       self.active=self.t.getcell('active','id')
-       self.t.rowconfigure('active',bg='yellow',fg='black',font='ubuntu 10 bold')
-       self.t.tk_focusNext().focus_set()
+def cargaractive(self,ev):
+    self.active=self.t.getcell('active','id')
+    self.t.rowconfigure('active',bg='yellow',fg='black',font='ubuntu 10 bold')
+    self.t.tk_focusNext().focus_set()
         
-    def get(self):
-       return self.active
+def get(self):
+    return self.active
 
 #+END_SRC
 [2016-10-21 vie] Pequeña correccion de tamaños del entry buscar que
