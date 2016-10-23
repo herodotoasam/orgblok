@@ -1,4 +1,15 @@
 * 2016
+#+BEGIN: clocktable :maxlevel 3 :scope subtree
+#+CAPTION: Clock summary at [2016-10-22 sáb 20:43]
+| Headline               | Time   |      |      |
+|------------------------+--------+------+------|
+| *Total time*           | *0:31* |      |      |
+|------------------------+--------+------+------|
+| 2016                   | 0:31   |      |      |
+| \_  Octubre            |        | 0:31 |      |
+| \_    [2016-10-22 sáb] |        |      | 0:31 |
+#+END:
+
 ** Junio
 *** [2016-06-21 mar]
 [Originalmente escrita en zoho doc en la oficina]
@@ -1079,8 +1090,99 @@ creo que este en condiciones de largar el sistema ya. Creo que queda
 para enero pase lo que pase.
 Tambien tengo por delante el withdrall y empezar con el dentista para
 que no explote la situacion cuando menos lo necesite.
-
-
+**** porque no me entusiasmo mas en un proyecto de algo
+creo que simplemente sobrevivo. y a la vez pierdo tiempo en cosas que
+no tendria que perder tiempo. recien ahora en ese sentido he
+emprendido un par de caminos para corregirme. la creacion de habitos y
+el hacer las cosas basicas que necesito hacer.
+pero no nos confundamos tenemos mas remoras que antes y no cuento con
+el empuje de antes.
+como cronique antes el creer que el pequeños pasos reiterados te puede
+cambiar de situacion, o sea que es una gran procrastinacion, porque es
+una racionalizacion de la dilacion, o sea es el creer equivocadamente
+que uno va a cambiar.
+por eso es importante el releerse pq en años anteriores me daba vuelta
+este tema que era si realmente uno puede cambiar, o sea si el cambio
+es posible, y alli entraba el tema de los habitos.
+**** sintomas depresivos
+un gran sintoma depresivo es el tema ropa. la dejadez con que me
+manejo en ese tema. hoy mientras esperaba el ascensor y escuchaba
+algarabias juveniles de viernes noche, pensaba que menos mal que me
+invitaron aca y puedo estar un rato con la familia pq cual era el plan
+de haberme quedado, programar, ver la serie nueva, escribir, releer,
+reconcentrarse en uno mismo. Y mientras pienso en el fondo que ese es
+el camino (no se a donde) camino que me da miedo dejar sigo estancado
+muy estancado y en el marasmo (palabreja que esta en mis escritos hace
+demasiados años). 
+Una parte que demora demasiado el salir es no hacer las cosas a fondo
+o dejarlas o cortarlas. Por eso creo que si sigo los escritos puedo
+volver a encausarme.
+*** [2016-10-22 sáb]
+:LOGBOOK:
+CLOCK: [2016-10-22 sáb 16:25]--[2016-10-22 sáb 16:40] =>  0:15
+:END:
+**** compramos la kangoo carajo
+hoy fuimos con el Fede a entregar una cuenta a barrio ituizango y
+pasamos por autocity y compramos la kangoo, me parece que un buen
+negocio pq pasamos del gol a la cero km con solo 125 lucas que en este
+momento tenemos. Esto lo completamos con la fase dos de poner a ih a
+trabajar con el y fase tres poner al franco en oficina para comenzar
+un sistema de venta en el local.
+**** hacia un sistema de ventas en el local
+:LOGBOOK:
+CLOCK: [2016-10-22 sáb 20:27]--[2016-10-22 sáb 20:43] =>  0:16
+:END:
+el unico riesgo que correria seria la exposicion de equis cantidad de
+cortinas alli, que no serian muchas pq tengo la chance que fede me
+deje lo que necesito dia por medio. 
+supongamos en el peor de los casos que tenga un nivel de cien
+cortinas, o sea dieciocho lucas o veinte lucas. pero si no vienen o si
+vienen y solo hacen un embargo preventivo en el medio yo cada
+cincuenta lucas que pierda de vender por miedo, pierdo definitiva y
+realmente veinte lucas, y cincuenta lucas las venderia por semana, o
+sea que por semana pierdo lo que pienso que podria llegar a
+perder. Mas alla que un alquiler extra de digamos tres o cuatro lucas
+en cuatro meses me fuma lo que supuestamente podria perder.
+***** que venderiamos
+solo cortinas
+***** que plan 
+una cortina suelta en 4 cuotas de 195 
+***** que ganancia daremos
+10% - o sea 3200 por dos cortinas por dia.
+***** una cortina sin anticipo la segunda con cuota
+eso nos previene de mayores riesgos pq la segunda cuota es alta y
+cubre los costos
+***** que papeles pedimos
+fotocopia de dni y servicio, o foto enviada al wassap puede ser del
+telefono del cliente. Ya se veria.
+***** riesgos del sistema
+****** embargo en la oficina de la mercaderia plus lo que habia en oficina
+****** inspeccion municipal
+****** los casos 508 o sea fraudes en la calle
+- autorrobo de la mercaderia
+- cobro de primera cuota sin rendir
+- vayan a entregar las primeras ventas y desaparezca
+***** ya no es lo mismo el riesgo asumido como en el pasado
+- ahora una cortina o dos arriesgadas no duele tanto como en ese tiempo
+- ahora pienso que seria mas desconfiado p.e. pediria si o si dni a
+  los empleados y le haria firmar un contrato, que permita subirlos al
+  seven en caso de que me estafen, y haria firmar una planilla de
+  salida como a los cobradores con una buena letra de compromiso.
+- en el caso de los cobros, creo que en aquellos casos que amerite
+  (p.e. el negro que me cago en rosedal o el 401 los haria chequear
+  por los cobradores al otro dia de la entrega)
+- Y tendria el apoyo de contar con dos conocidos para empezar, en
+  especial al Franco que me podria apoyar en caso de entregas.
+***** la diferencia mas grande es que ahora no necesitamos esa venta
+o sea aparte de estar mas capitalizados, no necesitariamos esa venta,
+por eso podria regular a los elementos complicados por medio de
+mandarlos a algun barrio mas dificil y no tanto a algo facil y de paso
+peligroso. donde puedan vender mas de dos con facilidad.
+***** no me sirven los que quieren ganar mucho o hacen muchas ventas
+sino los que la luchan de abajo y se conformen con un monto mas discreto.
+***** es mucho mas liberado el sistema si se autoentrega
+porque eso da mas libertad en zona y en la permanencia o duracion en
+la zona.
 
 
 * Constructos

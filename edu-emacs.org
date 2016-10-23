@@ -15,13 +15,13 @@ movemos con Cs/Cr
 
 ** Lower/Upper
 *** Mu / Ml
-Con dichos comandos voy poniendo mayusculas/minusculas y va avanzando
+Con dICHOS COMANDOS VOY PONIENDO mayusculas/minusculas y va avanzando
 palabra a palabra
 
 
 * Emacs requeridos
 *** un theme que marque la fila a lo ancho. Antes lo tenia.
-*** como poner autofill siempre p.e. en org-mode
+*** DONE como poner autofill siempre p.e. en org-mode
 *** ver que funcione de nuevo highlight-mode
 
 * Emacs vs Vim
@@ -83,14 +83,12 @@ C-x C-f excelente con autocompletacion
 C-x C-s
 ** eliminar un buffer
 C-x k
-
-
 * Movimiento dentro de un buffer
 ** Principio y final
 C-Home Alt-<
 C-End  Alt->
 ** Movimiento entre palabras
-C- -->  C <--
+C-left/right
 
 ** Movimiento entre lineas
 - C-n linea abajo
@@ -297,3 +295,50 @@ muy util seria para navegar rapidamente no solo entre clases, sino entre definic
 y partes de sectores densos.
 Incluso si se pone el titulo del sector denso como comentario es facil transitarlo. 
 
+
+* Emacs basicos                                                        :anki:
+SCHEDULED: <2016-10-26 mié +7d>
+** basicos
+| C-j         | jump new line desde donde esta           |
+|-------------+------------------------------------------|
+| C-n         | linea abajo                              |
+| C-p         | linea arriba                             |
+| C-a         | comienzo linea                           |
+| C-e         | final linea                              |
+|-------------+------------------------------------------|
+| C-f/b       | avanza retrocede un caracter             |
+|             |                                          |
+|-------------+------------------------------------------|
+| M-<         | comienzo archivo                         |
+| M->         | final archivo                            |
+|-------------+------------------------------------------|
+| M-w         | copy                                     |
+| C-y         | yank                                     |
+| M-y         | cicla yanks                              |
+| C-w         | cut                                      |
+| C-/         | undo-redo                                |
+|-------------+------------------------------------------|
+| C-s         | busqueda adelante                        |
+| C-r         | busqueda atras                           |
+| M-%         | replace                                  |
+|-------------+------------------------------------------|
+| M-l/u       | lower-upper en avance desde ahi          |
+|-------------+------------------------------------------|
+| C-F/B       | marca y avanza presionando repetidamente |
+| C-spc       | comienza marca y luego flechas           |
+| C-x h       | select all                               |
+|-------------+------------------------------------------|
+| M-d         | borra la palabra actual desde ahi        |
+| M-Backspace | borra la palabra anterior                |
+| C-k         | borra la fila desde ahi                  |
+|             |                                          |
+
+** Dired
+C-x- d abre dired y pide directorio o pattern
+| n/p | next/previous file            |
+| m/u | mark/unmark files for actions |
+| Q   | replace global                |
+
+** Comandos usables M-x
+| linum              | numerar lineas este archivo |
+| list-color-display | colores y sus nombres       |

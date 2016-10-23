@@ -1,5 +1,6 @@
 * Bitacora de aprendizaje
-** [2016-09-22 jue]
+** [2016-09-22 jue]                                                   :anki:
+SCHEDULED: <2016-10-29 sáb +15d>
 *** Comandos para org-mode: Manejo de fechas
 | C-C .        | inserta fecha del calendario                  |
 |              | sobre una fecha la modifica                   |
@@ -42,7 +43,8 @@ Y ahora un repaso de los comandos generales
 
 ** [2016-09-23 vie]
  
-*** Elips - inicio de lectura
+*** Elips - inicio de lectura                                        :anki:
+SCHEDULED: <2016-10-27 jue +7d>
 en elips todo es una lista.
 
 | lista               | (a b c d)             |
@@ -136,7 +138,8 @@ hibrido y aparte lento.
 Auto-fill mode es un minor-mode que provee el corte de linea
 automatico cuando se llega a cierto limite. Lo que uno conocia como
 auto wrap. Se pone en el menu Text, o como comando.
-** [2016-09-28 mié]
+** [2016-09-25 dom]                                                   :anki:
+SCHEDULED: <2016-11-05 sáb +15d>
 Ayer empece con furia a leer/aprender git, con vias a usar git y en
 especial gitlab. Y luego de dos o tres tutoriales desemboco por
 casualidad (pq en realidad buscaba una info de python en un sitio que
@@ -169,10 +172,11 @@ momento para tener alli lo que necesite y no perder nada.
 Puede que haga otro pyexperimental y otro de org-mode para poner los
 escritos.
 Una vez que uno lo inicializa todo es muy facil:
+| .gitignore                              | un archivo de exclusion                |
 | git init                                | inicia un repositorio sobre tu carpeta |
 | git remote add origin git@gitlab.com... | agrega el lugar donde vas a subir      |
 | git add *.tcl                           | agrega archivos al proyecto            |
-| git commit                              | comitea el proyecto                    |
+| git commit -m "...                      | comitea el proyecto                    |
 | git push -u origin master               | hace la primera subida a gitlab        |
 | luego en el futuro basta con git push   | ya el destino esta en la config        |
 |                                         |                                        |
@@ -194,7 +198,8 @@ La productividad debe verse aumentada grandemente con este sistema.
 Y esto se va a ver en el futuro. Igual que el sistema que estoy
 programando, igual que el negocio que estamos montando con el
 hijo. Igual que el vivir en el centro.
-** [2016-09-29 jue] 
+** [2016-09-29 jue]                                                   :anki:
+SCHEDULED: <2016-10-26 mié +10d>
 Hoy sigo fuertemente con git, haciendo el capitulo 3 del libro, dos
 lecturas sobre el branching.
 

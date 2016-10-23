@@ -1,25 +1,24 @@
+
+* Necesidad de establecer habitos
+Si no cambiamos ahora mediante habitos firmemente establecidos no
+cambiaremos mas. 
+El tema habito esta muy desarrollado por Confianza Total y en especial
+el tema de los 21 dias. No es casualidad que org-mode lleve la traza
+de veintiun dias con el sentido de que veas la linea completa de un
+solo color, y si lo has roto automaticamente se recomienza. 
+
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
 SCHEDULED: <2016-10-22 sáb .+1d>
-- State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
-- State "DONE"       from "TODO"       [2016-10-20 jue 12:54]
-- State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
-- State "DONE"       from "PROCESO"    [2016-10-19 mié 11:32]
 :PROPERTIES:
    :STYLE:    habit
 :LAST_REPEAT: [2016-10-21 vie 12:13]
    :END:
-** TODO Hacer las tres series
-SCHEDULED: <2016-10-22 sáb +1d>
 - State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
-- State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
-- State "DONE"       from "PROCESO"    [2016-10-19 mié 13:58]
-:PROPERTIES:
-:STYLE:    habit
-:LAST_REPEAT: [2016-10-21 vie 12:13]
-:END:
-
+- State "DONE"       from "TODO"       [2016-10-20 jue 12:54]
+- State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
+- State "DONE"       from "TODO"       [2016-10-19 mié 11:32]
 
 ** almorzar cereal compuesto segun libro
 *** calabaza,mijo,amaranto
@@ -28,23 +27,20 @@ SCHEDULED: <2016-10-22 sáb +1d>
    frutillas y arandanos y una manzana. Creo que se podria comer dos o
    tres porciones de fruta por dia, pero hay que comprarlas.
 
-
-* Alimentos evitados
-** Gaseosas o jugos de cualquier tipo
-** Cafe/azucar
-** pan criollo / facturas / galletas dulces etc:
+** Alimentos evitados
+*** Gaseosas o jugos de cualquier tipo
+*** Cafe/azucar
+*** pan criollo / facturas / galletas dulces etc:
 En eso tengo el problema en la oficina con las galletas y el cafe.
-** pollo y huevos
+*** pollo y huevos
 
 
-
-* Lineamientos generales
-** Gran atencion a los habitos
+** Lineamientos generales
+*** Gran atencion a los habitos
 pq son la columna vertebral del sistema y lo que hace que el sistema
 funcione solo.
 
-
-* Listado de ingredientes usados 
+** Listado de ingredientes usados 
 | alimento     | marca            | donde se compra |
 |--------------+------------------+-----------------|
 | miel         | Los dos zanganos | dietetica DF    |
@@ -52,3 +48,32 @@ funcione solo.
 | nueces       |                  |                 |
 | maca         | peruana premium  | dietetica DF    |
 |              |                  |                 |
+* Lista de habitos en ejercicio
+** TODO Hacer las tres series
+SCHEDULED: <2016-10-23 dom .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-10-23 dom 01:35]
+:END:
+- State "DONE"       from "TODO"       [2016-10-22 sáb 21:35]
+- State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
+- State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
+- State "DONE"       from "PROCESO"    [2016-10-19 mié 13:58]
+** Hacer los ejercicios de espalda
+** 3x12
+** Caminar expresamente 
+un circuito posible seria jujuy-deanfunes-cañada-colon eso son 6
+cuadras y se puede repetir unas dos o tres veces. 
+Se podria llevar dentro del track del habito una tabla con la suma de
+las cuadras caminadas. 
+* Experiencias en el camino
+** 3 series
+Llevo tres dias [2016-10-23 dom] y ayer note que ya me costaba menos
+dolor hacerlos que el dia uno o dos y el estado general mejoro mucho,
+y solo son 3 dias!!!
+** lindo el sistema lamentas romper la serie
+realmente es motivante y bueno el control por lo sencillo pq en
+realidad los habitos son dificiles pq envuelven la repeticion de algo
+sencillo hasta hacerlo parte de nuestra naturaleza. Segun Veronica
+Andres el habito crea nuevos caminos neuronales, es decir que te
+cambia la mente fisicamente o realmente, o sea no sos el mismo.

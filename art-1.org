@@ -103,7 +103,7 @@ nadie. por eso creo que llego la hora de limpiar un poco
 4) TODO hacer un script o un alias para generar el tar automaticamente
 
 #+BEGIN_SRC bash
-tar cvfz rx$(date +%F) rx/romitex.db rx/auxiliar.db py1local/pcrx.ods
+    tar cvfz rx$(date +%F) rx/romitex.db rx/auxiliar.db py1local/pcrx.ods
 #+END_SRC
 
 En realidad las funciones repetitivas deberian estar codificadas con

@@ -1,5 +1,7 @@
 #+FILETAGS: proyecto dpto
 
+clock
+
 * Acondicionar el dpto						      :title:
 CLOCK: [2016-10-20 jue 21:08]--[2016-10-20 jue 21:12] =>  0:04
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
@@ -111,7 +113,7 @@ urgente necesito pq no puedo trabajar correctamente en la compu
    :PROPERTIES:
    :ID:       61094945-333e-45d2-b357-7308ea9f8799
    :END:
-** TODO traer del marques
+** DONE traer del marques
 - [ ] tope puerta
 - [X] pinza para arreglar canilla
    :PROPERTIES:
@@ -119,9 +121,9 @@ urgente necesito pq no puedo trabajar correctamente en la compu
    :END:
 - [X] llave inglesa
    SCHEDULED: <2016-10-22 sáb>
-- [ ] cortinas de jean
+- [X] cortinas de jean
+** TODO comprar y colocar tope regaton de goma
+DEADLINE: <2016-10-25 mar>
+** TODO comprar caja herramientas grande 
+DEADLINE: <2016-10-25 mar>
 
-
-
-
-   
