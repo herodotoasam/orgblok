@@ -1,6 +1,16 @@
 Agenda de programacion clockeada.
+#+BEGIN: clocktable :maxlevel 2 :scope file
+#+CAPTION: Clock summary at [2016-10-25 mar 14:27]
+| Headline                                    | Time   |      |
+|---------------------------------------------+--------+------|
+| *Total time*                                | *2:27* |      |
+|---------------------------------------------+--------+------|
+| Tab pedidos                                 | 2:27   |      |
+| \emsp haciendo subtab pasar clientes nuevos |        | 1:02 |
+#+END:
 
 * Tab pedidos                                                       :urgente:
+CLOCK: [2016-10-25 mar 12:16]--[2016-10-25 mar 12:31] =>  0:15
 CLOCK: [2016-10-24 lun 21:59]--[2016-10-24 lun 22:22] =>  0:23
 CLOCK: [2016-10-24 lun 19:45]--[2016-10-24 lun 20:32] =>  0:47
 ** hice una subclase de Buscar que se llama BuscarConPadron
@@ -19,4 +29,20 @@ elif
 else
 y produce errores raros, y es que el flujo va dos veces por un if que
 pretende ser excluyente.
+** Arregle toque final class Buscar/BuscarConPadron
+
+
+Agregue o bien mejore y estableci el metodo colsel del tablelist que
+te permite poner las columnas ya de entrada en la definicion del tbls
+con el select que vamos a usar y no dejar que se cargue automaticamente.
+** haciendo subtab pasar clientes nuevos
+CLOCK: [2016-10-25 mar 13:06]--[2016-10-25 mar 13:30] =>  0:24
+CLOCK: [2016-10-25 mar 13:47]--[2016-10-25 mar 14:25] =>  0:38
+ya esta casi listo.  Falta corregir el metodo clear de los combos de
+bwidget que no andan. para el boton limpiar. Lo hice asi separado, pq
+en este pasador nuevo quiero seguir el zen de python explicito mejor
+que implicito.
+pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
+qu expresamente los limpie, etc.
+
 

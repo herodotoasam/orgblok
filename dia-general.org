@@ -1329,7 +1329,15 @@ panza pero sin dar la sensacion de puntada de dolor como otras veces
 con el aire, sino que -con mucho sueño que estaba- la sensacion de
 apnea, o sea despertar cuando uno estaria empezando a dormirse con la
 sensacion que habia dejado de respirar.
-
+**** tramite kangoo
+CLOCK: [2016-10-25 mar 12:53]--[2016-10-25 mar 12:57] =>  0:04
+***** TODO ir a rentas/comprar bolsas 
+SCHEDULED: <2016-10-26 mié>
+***** TODO ir a marques/llevar fondos
+SCHEDULED: <2016-10-26 mié>
+traer el jueves las cortinas que pueda llegar a necesitar cosa de no
+tener que adelantar llevada a oficina en estos dias tan complejos, si
+es posible que pase hasta el sabado.
 * Constructos
 ** Be normal
 ** mind sweep

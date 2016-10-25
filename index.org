@@ -1,6 +1,9 @@
-[[file:dia-general.org][diario]]       [[file:topiramato.org][topiramato]] 
+[[file:dia-general.org][diario]]       [[file:topiramato.org][topiramato]]
+
 [[file:doc-fichaje.org][desarrollo]]   [[file:habitos.org][habitos]]   [[file:age-pagos.org][pagos]]     [[file:rapido.org][hacer ahora]]
-[[file:age-programacion.org][control-programacion]]
+
+[[file:age-programacion.org][control-programacion]]       [[file:~/py1local/fichaje.py][fichaje.py]]
+
 * Estudio
 ** [[file:edu-orgmode.org][org-mode]]
 ** [[file:edu-programar.org][programar]]
