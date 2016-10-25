@@ -1,5 +1,5 @@
 * Films
-** The irrational man			       :profesor:filosofia:asesinato:
+** The irrational man                         :profesor:filosofia:asesinato:
    [2016-10-13 jue] Cuenta la historia de un profesor de filosofia que
    viene a una facultad y el tipo esta atravesando un bajon
    existencial. La vida no le interesa y atraviesa un gran displacer,
@@ -67,3 +67,15 @@ se adapto a la vida de la prision, en todo momento parecia tener un
 amor fati. 
 **** Conclusion
 muy buena serie, la volveria a ver, la introduccion genial
+** WestWorld                                                :west:androides:
+Episodio 1 [2016-10-24 lun]
+Cuenta un parque de diversiones enorme que recrea el viejo oeste y
+todo atendido por androides casi humanos, los cuales poseen IA, pero
+tienen limitaciones en el programa, p.e. que no pueden dañar a los
+humanos y olvidan cada temporada lo que paso antes.
+Y asi parece que han hecho negocios por mas de treinta años.
+Hasta que en una actualizacion del firmware de los androides que les
+permite tener gestos mas realistas, comienzan a tener sintomas raros
+que aparentemente provienen de que se le mezclan los recuerdos (que
+serian memorias en este caso) pero produciendo efectos espeluznantes
+en aquellos que olvidan que son maquinas programadas.
