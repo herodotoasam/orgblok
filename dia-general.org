@@ -2,16 +2,16 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-24 lun 11:42]
+#+CAPTION: Clock summary at [2016-10-24 lun 23:17]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *0:56* |      |      |
+| *Total time*                | *1:09* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 0:56   |      |      |
-| \emsp Octubre               |        | 0:56 |      |
+| 2016                        | 1:09   |      |      |
+| \emsp Octubre               |        | 1:09 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
-| \emsp\emsp [2016-10-24 lun] |        |      | 0:15 |
+| \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
 #+END:
 
 ** Junio
@@ -1277,10 +1277,41 @@ aun pagando 100  con un 10 de inc, da unos 39% de rentabilidad. O sea
 que vendiendo unas 6 cortinas por dia, nos generaria una rentabilidad
 extra de 35k. 
 **** flujo de oficina
+CLOCK: [2016-10-24 lun 23:04]--[2016-10-24 lun 23:17] =>  0:13
 pienso seguir manteniendo los cobradores a la tarde y poner los promos
 que retiren las bolsas de 9.30 a 10. 
-
-
+**** Raconto de cosas positivas a hoy
+***** org-mode para todo tipo de registros y escritos
+***** el control de habitos que te motiva
+al tener org-mode todo junto, y al estar uno en el flujo de trabajo
+diario siempre conectado (incluso creo en epocas de no programacion
+creo que los escritos siempre estan)
+***** git obvio que te mantiene simpre actualizado
+***** clockear el tiempo es fascinante
+mas en el caso del control de programacion, o sea clockeo el tiempo
+real que paso programando y registro que es lo que hago, cosa de ver
+bien claramente los avances. Y clockeo (me tengo que acostumbrar) el
+tiempo en diario y en diario de programacion. -Los org clockeables
+debo poner como hice con este arriba clockear para que me habitue
+hasta que aprenda a hacerlo automatico.
+***** el poder modular de programar con clases python
+hoy en 70 minutos reforme una clase para agregarle funcionalidad extra
+muy importante y luego en los ultimos 23 minutos de esos 70
+(incluyendo un pitfall sino hubieran sido 10 minutos le agregue una
+superfuncionalidad).
+Lo bueno que ya la clase queda asi y se puede poner en cualquier lado.
+***** la huella que realmente deja hacer un ejercicio habitualmente
+aunque parece moco el ejercicio lo hago ya sin dolor, y lo hago mas
+cantidad, lo cual no significa que sea facil hacerlo y que el habito
+ya esta, sufro con hacerlo. Por eso el poder del habito.
+Creo que el sistema de habitos de org es poderosisimo (obviamente en
+un contexto previo de usuario de la interface, sino pasaria a ser un
+programita mas en android que uno se olvidaria de abrir).
+Recuerdo en ese libro deusto que hablaba un poco de GTD y decia que el
+llevar una lista o cuadricula en la cual anotaramos dia a dia (o sea
+el metodo seinfield) era la herramienta mas poderosa.
+***** es fabuloso que pueda comenzar un sistema de venta independiente
+pq eso me da mas libertad e incentivo de trabajar.
 
 * Constructos
 ** Be normal

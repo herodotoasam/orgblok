@@ -1,0 +1,22 @@
+Agenda de programacion clockeada.
+
+* Tab pedidos                                                       :urgente:
+CLOCK: [2016-10-24 lun 21:59]--[2016-10-24 lun 22:22] =>  0:23
+CLOCK: [2016-10-24 lun 19:45]--[2016-10-24 lun 20:32] =>  0:47
+** hice una subclase de Buscar que se llama BuscarConPadron
+que hereda de Buscar y redefine el metodo show, para permitir filtrar
+si el usuario ingreso un dni con prefijo f/F/m/M y busca en el padron
+femenino o masculino el numero, y ello sin importar si el cliente ya
+existe en Romitex. (cosa que no se podia en las busqueda
+semiautomaticas de dni.tcl)
+** Inicie el tab y puse el cuadro de Buscar en un frame
+** Le agregue funcionalidad de busqueda por nombre pf'Filippi Ana'
+*** ojo con el elif                                                 :pitfall:
+agrego un branch mas a un if elif else y no actualizo bien. y queda 
+if
+if
+elif
+else
+y produce errores raros, y es que el flujo va dos veces por un if que
+pretende ser excluyente.
+

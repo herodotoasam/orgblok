@@ -51,10 +51,11 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2016-10-23 dom .+1d>
+SCHEDULED: <2016-10-25 mar .+1d>
+- State "DONE"       from "TODO"       [2016-10-24 lun 22:58]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-10-23 dom 01:35]
+:LAST_REPEAT: [2016-10-24 lun 22:58]
 :END:
 - State "DONE"       from "TODO"       [2016-10-22 sáb 21:35]
 - State "DONE"       from "TODO"       [2016-10-21 vie 12:13]

@@ -1,0 +1,22 @@
+* TODO topiramato
+SCHEDULED: <2016-10-25 mar .+1d>
+- State "DONE"       from "TODO"       [2016-10-24 lun 22:58]
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-10-24 lun 22:58]
+:END:
+** 25mg
+[2016-10-24 lun]
+
+* TODO propanolol
+SCHEDULED: <2016-10-25 mar +1d>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+
+** 80mg dia
+
+* ultimo migral
+
+* novalgina
+

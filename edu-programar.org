@@ -1,0 +1,59 @@
+* tablelist puro
+* class Tbls
+** TODO Tree
+SCHEDULED: <2016-10-28 vie .+7d>
+- ponemos la propiedad expandcommand a la funcion que ejecutara el expand
+- el expandcommand tiene como argumentos tbl y row dados por nemethi
+- sacamos facilmente el node con un getcell
+- creamos el select que va a llenar con un placeholder ? donde ira el nodo
+- instanciamos la clase Datos que es un contenedor de datos con
+  metodos adecuados para entre otras cosas llenar un tree. Los
+  argumentos son con/sel/node
+- llamamos el metodo llenatree de la instancia de Datos que toma como
+  argumentos el tbl donde se va a llenar, la fila que llamo, 0 o END,
+  bg,fg del subtree.
+- podemos usar el metodo cntrow de la instancia de Datos para saber si
+  en este caso hubo salida nula y dar un mensaje.
+
+#+BEGIN_SRC python
+def recorridos_exp(tbl,row):
+            node=tblrecorridos.getcell(row,0)
+            sel = "select aux.listado.id,nombre,calle,num,zona from aux.listado,clientes \
+                    where clientes.id=aux.listado.idcliente and idrecorrido=? order by aux.listado.id desc"
+            a=Datos(con,sel,node)
+            a.llenatree(tblrecorridos,row,0,bg='bisque',fg='black')
+            if not a.cntrow:
+                balloon(tblrecorridos,"Esta cuenta no tiene pagos",mode='nobind')
+tblrecorridos = Tbls(subtabrecorridos,con,width=120,height=20)
+tblrecorridos.pack(anchor=W)
+tblrecorridos.llenatree(con,'select * from recorrido order by id desc')
+tblrecorridos['expandcommand']=recorridos_exp
+#+END_SRC
+** TODO Buscar
+SCHEDULED: <2016-10-28 vie .+7d>
+clase que entrega un cuadro de busqueda generalizado y permite
+trabajar rapido con el idcliente.
+*** Instanciado
+buscar = Buscar(frame,con,wtbl=100)
+el wtbl permite regular el ancho del tbls de busqueda
+conviene hacerlo con un frame en el cual pongamos y regulemos el
+packeado de los otros elementos que adosemos, o sea no usar el tab
+entero.
+*** obtener el idcliente
+buscar.get() 
+entrega el idcliente buscado
+*** Movimientos dentro del cuadro de busqueda
+| c           | busca en la casa           |
+| C           | busca en la cuadra         |
+| u           | sube al cuadro de busqueda |
+| enter       | selecciona el cliente      |
+| doble click | idem                       | 
+*** como bindear en particular sobre la seleccion del cliente
+buscar.t.body_bind('<<Enter>>',lambda ev: funcion(),add=1)
+Ojo el add=1 permite sumar este bind al que viene ya empacado y no
+sustituirlo lo que dejaria sin funcionalidad al cuadro.
+*** anexo BuscarConPadron
+| f F   | dni    | busca por dni fem    | pone solo los ceros a la izq |
+| m M   | dni    | busca por dni masc   | --                           |
+| pf pF | nombre | busca por nombre fem | pf'Filippi Pastora'          |
+| pm pM | nombre | busca por nombre mas | pm'Salvay Daniel'            |
