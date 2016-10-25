@@ -10,10 +10,11 @@ solo color, y si lo has roto automaticamente se recomienza.
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-10-22 sáb .+1d>
+SCHEDULED: <2016-10-25 mar .+1d>
+- State "DONE"       from "TODO"       [2016-10-24 lun 10:48]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2016-10-21 vie 12:13]
+:LAST_REPEAT: [2016-10-24 lun 10:48]
    :END:
 - State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
 - State "DONE"       from "TODO"       [2016-10-20 jue 12:54]

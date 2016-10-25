@@ -1,14 +1,17 @@
+                              
+                                ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-23 dom 16:32]
-| Headline               | Time   |      |      |
-|------------------------+--------+------+------|
-| *Total time*           | *0:41* |      |      |
-|------------------------+--------+------+------|
-| 2016                   | 0:41   |      |      |
-| \_  Octubre            |        | 0:41 |      |
-| \_    [2016-10-22 sáb] |        |      | 0:31 |
-| \_    [2016-10-23 dom] |        |      | 0:10 |
+#+CAPTION: Clock summary at [2016-10-24 lun 11:42]
+| Headline                    | Time   |      |      |
+|-----------------------------+--------+------+------|
+| *Total time*                | *0:56* |      |      |
+|-----------------------------+--------+------+------|
+| 2016                        | 0:56   |      |      |
+| \emsp Octubre               |        | 0:56 |      |
+| \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
+| \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
+| \emsp\emsp [2016-10-24 lun] |        |      | 0:15 |
 #+END:
 
 ** Junio
@@ -1242,6 +1245,41 @@ antes de echarlos a todos y dejar los 7 que andaban bien. Al ser tan
 transparente asi la rendicion y entrega, el que anda mal y no produce
 se va solo. y te despeja el sitio para que sigas incorporando gente en
 el futuro.
+*** [2016-10-24 lun]
+CLOCK: [2016-10-24 lun 11:13]--[2016-10-24 lun 11:28] =>  0:15
+Hoy comienzo la semana listo para ir al medico. La prioridad numero
+uno es buscar una solucion razonable a la toma de migral. No es moco
+de pavo. 
+Uno a veces prioriza el dia a dia, el trabajo o la obligacion como
+hice siempre y al final lo mas importante es la salud y no caer a ser
+una carga a los demas si eso se puede evitar.
+Uno va a lamentar no haber hecho algo antes.
+Anoche dormi bien pq estaba cansado, pero tuve mucho dolor de espalda,
+no podia dormir de ninguno de los dos lados. Creo que puede ser un
+estiramiento debido a ejercicios en frio o mala fuerza.
+Ayer observe que ya las series las hacia mucho mas facil.
+Y el habito de los ejercicios de espalda ya estan siendo
+ultranecesarios.
+Se debe articular el orden de trabajo con las necesidades
+propias. P.e. la movida de cambio de horario de la oficina va en el
+sentido ese o sea poner el negocio al servicio de uno, o bien tener un
+minimo de respeto hacia uno mismo y las cosas necesarias.
+O se tratara de fiaca y desidia para ir al medico. Como me paso el
+viernes que dije que no iba a ir pq no tenia ganas pero fui porque era
+obligacion ir. 
+**** sistema anexo de venta sigo considerando
+**** cerrara con 300x3entregadas
+tengo la chance de probar con lesta y franco. Pero creo que es un
+trato justo. Entregas 3 cortinas y ganas 300 mangos, sino 80 por
+cortina. 
+**** rentabilidad esperada
+aun pagando 100  con un 10 de inc, da unos 39% de rentabilidad. O sea
+que vendiendo unas 6 cortinas por dia, nos generaria una rentabilidad
+extra de 35k. 
+**** flujo de oficina
+pienso seguir manteniendo los cobradores a la tarde y poner los promos
+que retiren las bolsas de 9.30 a 10. 
+
 
 
 * Constructos

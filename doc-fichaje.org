@@ -1,4 +1,12 @@
+                                   clock
 * Justificacion del proyecto
+#+BEGIN: clocktable :maxlevel 3 :scope subtree
+#+CAPTION: Clock summary at [2016-10-24 lun 11:41]
+| Headline     | Time   |
+|--------------+--------|
+| *Total time* | *0:00* |
+#+END:
+
 [2016-09-21 mié] Aparte de formar parte de mi re-aprendizaje , el cual
 es continuamente reforzado y complementado, creo que el proyecto se
 autojustifica suficientemente. 
@@ -637,7 +645,6 @@ procedimientos que usamos para ver, con los ganchos necesarios a los
 datos que vamos a necesitar despues.
 
 * Hacia el sistema de ventas
-
 ** Necesitaremos
 *** pasador y rastreador de pedidos
 *** emisor de documentos y planillas de salida
@@ -646,4 +653,61 @@ datos que vamos a necesitar despues.
 *** control visual de pedidos anulados/entregados/pendientes
 *** ingreso de datos de promotores
 *** control de avisos/estadisticas reales/
+*** Paso pedidos, agrego clientes.
+CLOCK: [2016-10-24 lun 11:28]--[2016-10-24 lun 11:39] =>  0:11
+con un Buscar arriba ubico el cliente. Si no existe lo cargo en un
+subtab abajo. luego vuelvo a buscar y lo cargo
+El pasador de pedidos debe tener
+1. fecha
+2. promotor
+3. cnt cortinas
+4. color/es
+5. fecha primer cuota
+6. info chequeda de seven
+Info redundante que habia antes y no creo necesario tener
+1. fecha de entrega: pq todo se entrega al otro dia y si hay una
+   excepcion se maneja a mano
+2. importe de cuota: pq son promos fijas donde no hay variacion a lo
+   que esta establecido y comprar dos o mas solo multiplica el valor
+3. entrega inicial: pq en caso de ser necesaria se maneja con el
+   promotor y se sabe al entregar. (Seguramente se dara un recibo
+   llenado con el importe y abrochado y se anotara en la planilla. No
+   hace falta que el documento contenga esa informacion o que contenga
+   la posibilidad de poner una entrega. Incluso se podria extender
+   este concepto a la venta de calle, exigiendo que los anticipos se
+   cursen con recibo y que la nota de venta no contenga la opcion
+   abierta al monto entregado alli).
+4. horarios: pq el promotor mismo entrega, y los horarios de la
+   entrega si vamos al caso no necesariamente coinciden con los
+   horarios para el cobrador.(p.e. un horario de entrega dentro de las
+   10 a 14 es obligatoria para ellos y no necesariamente querran que
+   les cobren en ese horario).
+5. no poner la primera cuota: o no pedirla de una en el dato, pq
+   genera ambiguedad para cuando vence la cuota, lo cual si es
+   malo. Prefiero blanquear la intencion de cuando efectivamente
+   quieren pagar la cuota y que esa fecha salga correctamente en el
+   fechaje y no calcularla fija a 15 dias como hasta ahora y que no se
+   cumpla o peor se corrija a mano por el promotor en reparto.
+
+Luego con esos datos genero
+1. el registro en tabla pedidos
+2. el documento
+3. la planilla de salida
+
+Hay que tener un tab de pedidos, con un tbls que muestre los pedidos
+pendientes y un bind para cancelar el pedido, y por defecto cuando
+imprimimos las planillas de salida se imprimen todas de todos los
+promotores y de todos los pedidos vencidos (la unica salvedad seria
+que si un promotor falto la vispera, y al imprimir hoy se imprime de
+nuevo, pero en realidad es uno mas, o bien podria hacer tbls con
+botones impresores como en fichas, y que aparte se pueda elegir, o sea
+si no hay select imprime todo y sino imprime select.
+un tbls de promotores con pedidos (planillas) y un tab de pedidos para
+imprimir documentos.
+*** Algo para llevar estadisticas de pedidos entregados
+creo que sale todo automatico pq el pedido entregado al pasar la venta
+se pone como entregado y el cancelado ya se marco como cancelado y las
+estadisticas se fabrican con los entregados.
+
+
 
