@@ -1,5 +1,5 @@
 * TODO topiramato
-SCHEDULED: <2016-10-25 mar .+1d>
+SCHEDULED: <2016-10-26 mié .+1d>
 - State "DONE"       from "TODO"       [2016-10-24 lun 22:58]
 :PROPERTIES:
 :STYLE:    habit
@@ -9,7 +9,7 @@ SCHEDULED: <2016-10-25 mar .+1d>
 [2016-10-24 lun]
 
 * TODO propanolol
-SCHEDULED: <2016-10-25 mar +1d>
+SCHEDULED: <2016-10-26 mié +1d>
 :PROPERTIES:
 :STYLE:    habit
 :END:
@@ -17,6 +17,7 @@ SCHEDULED: <2016-10-25 mar +1d>
 ** 80mg dia
 
 * ultimo migral
+supuestamente [2016-10-26 mié] a las 8hs. Tomo 10 mg cortipyren a las 11hs.
 
 * novalgina
 

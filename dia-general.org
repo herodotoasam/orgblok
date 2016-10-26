@@ -1332,7 +1332,7 @@ apnea, o sea despertar cuando uno estaria empezando a dormirse con la
 sensacion que habia dejado de respirar.
 **** tramite kangoo
 CLOCK: [2016-10-25 mar 12:53]--[2016-10-25 mar 12:57] =>  0:04
-***** TODO ir a rentas/comprar bolsas 
+***** DONE ir a rentas/comprar bolsas 
 SCHEDULED: <2016-10-26 mié>
 ***** TODO ir a marques/llevar fondos
 SCHEDULED: <2016-10-26 mié>

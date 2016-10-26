@@ -363,3 +363,34 @@ C-x- d abre dired y pide directorio o pattern
 | Cx-Cb | lista buffers   |
 | Cx-b  | cambia a buffer |
 | Cx-k  | kill buffers    |
+* Emacs nuevos de la lectura
+** hacer un solo windows C-x-1 
+Mouse-2 en modeline
+C-Mouse-2 divide en dos windows.
+** C-x left-right
+buffer next/previous
+** undo/redo
+para dar vuelta el sentido de los undos hacer cualquier otro comando
+p.e. C-f y eso interrumpe el undo y comienza para el otro lado
+** C-x-C-b abre la lista de buffers
+alli parecido a dired podemos poner entre otras cosas
+| k | kill the buffer      |
+| s | save the buffer      |
+| x | procesar lo anterior |
+|   |                      |
+** buffer next/buffer previous
+Mouse-1 previous
+Mouse-3 next
+en el nombre del buffer en mode-line
+Esto hace innecesario el rebind hecho con M-n M-p
+** ido-mode
+verlo a esto que parece bomba
+** Ctrl-Mouse-1 Buffer-Menu
+clasificado por tipo de fichero
+una bomba atomica
+y lo descubri por casualidad
+** Ctrl-Mouse-2 menu contextual
+con algunas cosas 
+** Shift-Mouse-1 menu contextual
+cambio de font entre otras
+
