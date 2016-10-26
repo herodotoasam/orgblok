@@ -36,6 +36,7 @@ Agregue o bien mejore y estableci el metodo colsel del tablelist que
 te permite poner las columnas ya de entrada en la definicion del tbls
 con el select que vamos a usar y no dejar que se cargue automaticamente.
 ** haciendo subtab pasar clientes nuevos
+CLOCK: [2016-10-25 mar 19:01]--[2016-10-25 mar 19:15] =>  0:14
 CLOCK: [2016-10-25 mar 13:06]--[2016-10-25 mar 13:30] =>  0:24
 CLOCK: [2016-10-25 mar 13:47]--[2016-10-25 mar 14:25] =>  0:38
 ya esta casi listo.  Falta corregir el metodo clear de los combos de
@@ -44,5 +45,8 @@ en este pasador nuevo quiero seguir el zen de python explicito mejor
 que implicito.
 pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
 qu expresamente los limpie, etc.
-
+Era un bug en bwidget.py, ya lo arregle pero lo mismo no limpia.
+** bosquejamos el pasado de pedido
+CLOCK: [2016-10-25 mar 19:27]--[2016-10-25 mar 19:43] =>  0:16
+dejo para despues cuando tenga mas concentracion.
 

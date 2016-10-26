@@ -62,7 +62,14 @@ SCHEDULED: <2016-10-25 mar .+1d>
 - State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 13:58]
-** Hacer los ejercicios de espalda
+** TODO Hacer los ejercicios de espalda
+SCHEDULED: <2016-10-25 mar .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+| N° | Descripcion                |                           |
+|  1 | flexion baja de la espalda | lev con brazos los muslos |
+|    |                            |                           |
 ** 3x12
 ** Caminar expresamente 
 un circuito posible seria jujuy-deanfunes-cañada-colon eso son 6

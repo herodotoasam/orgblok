@@ -2,16 +2,17 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-24 lun 23:17]
+#+CAPTION: Clock summary at [2016-10-25 mar 20:02]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *1:09* |      |      |
+| *Total time*                | *1:38* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 1:09   |      |      |
-| \emsp Octubre               |        | 1:09 |      |
+| 2016                        | 1:38   |      |      |
+| \emsp Octubre               |        | 1:38 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
 | \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
+| \emsp\emsp [2016-10-25 mar] |        |      | 0:29 |
 #+END:
 
 ** Junio
@@ -1338,6 +1339,50 @@ SCHEDULED: <2016-10-26 mié>
 traer el jueves las cortinas que pueda llegar a necesitar cosa de no
 tener que adelantar llevada a oficina en estos dias tan complejos, si
 es posible que pase hasta el sabado.
+**** vuelta a emacs!!! en forma natural                    :holywar:emacs:
+CLOCK: [2016-10-25 mar 19:45]--[2016-10-25 mar 20:02] =>  0:17
+hoy volvi a usar emacs pero en forma espontanea. Eso es lo raro. No me
+lo propuse ni tampoco proviene de la lectura de nada. Aunque he estado
+leyendo el epub oficial de emacs. Creo que fue porque como uso mucho
+org y tengo una configuracion basica sin tocar aca a la cual le voy
+agregando cositas muy utiles, que han hecho la diferencia
+***** configuracion que hizo la diferencia
+aunque el paso a emacs se hizo solo y no tiene que ver con esto, y
+tampoco copie ninguna configuracion ni nada.
+- hl-line-mode, linum-mode, auto-complete-mode para el hook de python
+  o sea que esas tres cosas que ayudan en la programacion se activan
+  solas alli.
+- el clockeado y la insersion de fecha inactiva
+- los relativos a orgmode
+***** Particularidades que uso en emacs vs vim
+| accion                      | emacs             | vim     |
+| duplicar linea              | C-D               | yy-p    |
+| mover lineas                | M-up/d            | idem    |
+| borrar linea                | Ca-Ck o Ck        | dd o d$ |
+| ppio y final linea          | Ca/Ce             | 0/$     |
+| linea siguiente y previa    | Cn/Cp             | j/k     |
+| Caracter siguiente y previo | Cf/Cb             | h/l     |
+| Borrar palabra              | M-d               | cw      |
+| seleccionar                 | S-mov/mouse/C-spc | v-mov   |
+| copiar                      | C-w               | yy      |
+| pegar                       | C-y               | p       |
+| cortar                      | M-w               | dd      |
+| buscar adelante/atras       | C-s C-r           | /?      |
+| buscar tags                 | M-.               | :Ack    |
+O sea que por lo visto hay mucha posibilidad de quedar aca en emacs,
+aparte esta la integracion con orgmode. Y creo que en general como
+ecosistema es muy superior, pq permite un mejor aprendizaje y luego
+queda la posibilidad e aprender lisp.
+**** sigue el tinitus :tinitus:
+a pesar de que me levante bien, en estos momentos sigo padeciendo el
+tinitus de nuevo, incluso con una sensacion que envuelve mas alla de
+la oreja y me da la sensacion de que me estallara la cabeza por
+tension alta. Me mido y da 13.9/9.1. Estoy cansado y no me levanto del
+sillon. Una lastima pq el estado animico es optimo.
+**** sobre la maca negra
+desde hace un par de dias he experimentado un mayor interes hacia las
+mujeres con el consecuente feedback. A pesar de la falta de tiempo que
+tengo quizas sea el aporte de la maca negra.
 * Constructos
 ** Be normal
 ** mind sweep
