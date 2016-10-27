@@ -1334,7 +1334,7 @@ sensacion que habia dejado de respirar.
 CLOCK: [2016-10-25 mar 12:53]--[2016-10-25 mar 12:57] =>  0:04
 ***** DONE ir a rentas/comprar bolsas 
 SCHEDULED: <2016-10-26 mié>
-***** TODO ir a marques/llevar fondos
+***** DONE ir a marques/llevar fondos
 SCHEDULED: <2016-10-26 mié>
 traer el jueves las cortinas que pueda llegar a necesitar cosa de no
 tener que adelantar llevada a oficina en estos dias tan complejos, si
@@ -1383,6 +1383,31 @@ sillon. Una lastima pq el estado animico es optimo.
 desde hace un par de dias he experimentado un mayor interes hacia las
 mujeres con el consecuente feedback. A pesar de la falta de tiempo que
 tengo quizas sea el aporte de la maca negra.
+*** [2016-10-27 jue]
+CLOCK: [2016-10-27 jue 13:55]--[2016-10-27 jue 14:06] =>  0:11
+Hoy sigo bastante mal con relacion a la migraña y al estado fisico en
+general, no sabiendo para que lado correr si darme al corticoide o
+tirar un poco mas.
+Y transcurro una semana un poco desarticulado por los compromisos
+extras que se agregaron con motivo de la kangoo( el sabado ir a la
+concesionaria, el martes reunion con los promotores y hoy jueves ir a
+pagar y ayer miercoles el super plomo de dgr. Y queda todavia el
+martes proximo la verificacion y el jueves que viene el retiro). Todo
+esto me desarticula, me saca tiempo que puedo dedicar aca a lo mio y
+me pone en situacion de tension o estres. Y a eso le sumas que te
+agarran unos malestares muy importantes al medio, como paso ayer y
+tenes el combo completo.
+Aparte se ha enfriado un poco la situaicon con ih alla.
+Y experimento una atraccion fatal hacia la computadora, en especial
+emacs en este momento que llega al paroxismo del daño fisico. Y lo
+peor que no se traduce directamente e inmediatamente en produccion. Al
+menos ayer y hoy.
+**** Resolucion
+- emacs se mide en años, no desesperarse ir de a poco
+- el clock esta muy bueno pq te mantiene informado pero no abusar en
+  abrirse a muchos items pq no se va a poder seguir el rastro
+- cuidar la salud en estos momentos
+- de ultima no voy alla el sabado y me recupero
 * Constructos
 ** Be normal
 ** mind sweep
