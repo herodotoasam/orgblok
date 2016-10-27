@@ -11,7 +11,11 @@
     DEADLINE: <2016-11-05 sáb +1m>
 ** otros fijos
 *** TODO Claro 
-    DEADLINE: <2016-10-25 mar +1m>
+DEADLINE: <2016-11-25 vie +1m>
+- State "DONE"       from "TODO"       [2016-10-27 jue 12:37]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-27 jue 12:37]
+:END:
 *** TODO Hospital Privado
 DEADLINE: <2016-11-17 jue +1m>
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
@@ -22,7 +26,11 @@ DEADLINE: <2016-11-17 jue +1m>
 * familia                                                           :familia:
 ** casa                                                               :casa:
 *** TODO alquiler prades 
-    DEADLINE: <2016-10-22 sáb +1m>
+DEADLINE: <2016-11-22 mar +1m>
+- State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-25 mar 21:06]
+:END:
 *** TODO epec casa                                                   :epec:
 DEADLINE: <2016-12-17 sáb +2m>
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
