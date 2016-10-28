@@ -393,4 +393,18 @@ y lo descubri por casualidad
 con algunas cosas 
 ** Shift-Mouse-1 menu contextual
 cambio de font entre otras
+** occur
+M-s o occur de una regexpr
+interesantes opciones 
+r - rename occur buffer para dejarlo fijo sin importar si llamamos a
+otros occur
+Auto Ocurrence Display para navegar de una entre las partes.
+Vendria a ser una ventanita mucho mejor que el F4 de vim, pero hay que
+hacerla a mano. y con la profundidad que uno quiera
+** tab search
+M-. busqueda en tags en un archivo generado por etags. y te lleva al
+file que sea. Util para ir a librerias.
 
+
+* Hace falta
+** una navegacion a ultimos cambios como en vim

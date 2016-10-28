@@ -1,12 +1,13 @@
 Agenda de programacion clockeada.
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-25 mar 14:27]
+#+CAPTION: Clock summary at [2016-10-28 vie 12:28]
 | Headline                                    | Time   |      |
 |---------------------------------------------+--------+------|
-| *Total time*                                | *2:27* |      |
+| *Total time*                                | *3:17* |      |
 |---------------------------------------------+--------+------|
-| Tab pedidos                                 | 2:27   |      |
-| \emsp haciendo subtab pasar clientes nuevos |        | 1:02 |
+| Tab pedidos                                 | 3:17   |      |
+| \emsp haciendo subtab pasar clientes nuevos |        | 1:16 |
+| \emsp bosquejamos el pasado de pedido       |        | 0:36 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -47,6 +48,10 @@ pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
 qu expresamente los limpie, etc.
 Era un bug en bwidget.py, ya lo arregle pero lo mismo no limpia.
 ** bosquejamos el pasado de pedido
-CLOCK: [2016-10-25 mar 19:27]--[2016-10-25 mar 19:43] =>  0:16
 dejo para despues cuando tenga mas concentracion.
-
+Pasado de pedido: Encabezo el subtab con id y nombre del que compra y
+luego vamos con los datos del pedido en si.
+CLOCK: [2016-10-28 vie 11:51]--[2016-10-28 vie 12:27] =>  0:36
+Done: Tanto buscando en el cuadro buscar como creando un cliente nuevo
+se termina en subtab pedido con un encabezado en label rojo con el id
+y nombre del cliente a procesar.
