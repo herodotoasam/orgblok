@@ -10,12 +10,14 @@ solo color, y si lo has roto automaticamente se recomienza.
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-10-28 vie .+1d>
-- State "DONE"       from "TODO"       <2016-10-26 mié 12:34>
+SCHEDULED: <2016-10-29 sáb .+1d>
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2016-10-26 mié 12:34]
+:LAST_REPEAT: [2016-10-28 vie 11:03]
 :END:      
+- State "DONE"       from "TODO"       [2016-10-28 vie 11:03]
+- State "DONE"       from "TODO"       [2016-10-27 jue 11:02]
+- State "DONE"       from "TODO"       <2016-10-26 mié 12:34>
 - State "DONE"       from "TODO"       [2016-10-25 mar 12:33]
 - State "DONE"       from "TODO"       [2016-10-24 lun 10:48]
 - State "DONE"       from "TODO"       [2016-10-21 vie 12:13]
@@ -54,11 +56,12 @@ funcione solo.
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
 SCHEDULED: <2016-10-28 vie .+1d>
-- State "DONE"       from "TODO"       [2016-10-26 mié 12:34]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-10-26 mié 12:34]
+:LAST_REPEAT: [2016-10-28 vie 11:03]
 :END:      
+- State "DONE"       from "TODO"       [2016-10-27 jue 11:03]
+- State "DONE"       from "TODO"       [2016-10-26 mié 12:34]
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:05]
 - State "DONE"       from "TODO"       [2016-10-24 lun 22:58]
 - State "DONE"       from "TODO"       [2016-10-22 sáb 21:35]
