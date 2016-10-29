@@ -249,22 +249,29 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 * tablas
 ** TODO Basicos                                                       :anki:
-SCHEDULED: <2016-10-26 mié .+6d>
+SCHEDULED: <2016-11-12 sáb .+15d>
+- State "DONE"       from "TODO"       [2016-10-28 vie 19:48]
 - State "DONE"       from "TODO"       [2016-10-20 jue 20:58]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-20 jue 20:58]
+:LAST_REPEAT: [2016-10-28 vie 19:48]
 :END:
-*** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
-*** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
+1. ¿Cual es la mejor forma de generar una tabla rapidamente?
+2. ¿Como generamos una linea horizontal?
+3. ¿Por que conviene moverse con Tab STab entre celdas de la tabla?
+4. ¿Como podemos convertir una region csv o tabulada en tabla y que
+   precaucion hay que tener?
+*** Contenidos
+**** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
+**** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
 o se puede hacer Cc-Cc para realinear en el momento
-*** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
+**** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
 y eso hace que sobreescribamos lo que hay
 
 | t | t | t  |
 | j | 5 | 99 |
 | j | a | f  |
 |   |   |    | 
-*** Convertir una region en tabla
+**** Convertir una region en tabla
 
 t,j,k,l,m
 3,2,3,2,2
@@ -293,6 +300,9 @@ Sin region el comando Cc | crea una tabla vacia
 |---+---+---+---+---+---+---|
 |---+---+---+---+---+---+---|
 |   |   |   | b |   | a |   |
+| a | . | m | . | l |   |   |
+
+
 ** TODO Intermedio                                                    :anki:
 SCHEDULED: <2016-10-31 lun .+10d>
 - State "DONE"       from "TODO"       [2016-10-24 lun 19:35]

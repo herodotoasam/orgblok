@@ -1411,6 +1411,7 @@ menos ayer y hoy.
 - cuidar la salud en estos momentos
 - de ultima no voy alla el sabado y me recupero
 *** [2016-10-28 vie]
+CLOCK: [2016-10-28 vie 20:35]--[2016-10-28 vie 20:50] =>  0:15
 CLOCK: [2016-10-28 vie 11:51]--[2016-10-28 vie 11:51] =>  0:00
 CLOCK: [2016-10-28 vie 11:05]--[2016-10-28 vie 11:13] =>  0:08
 Hoy debo notar un par de cosas, una es el estres que obviamente me
@@ -1437,6 +1438,26 @@ Creo que todo en base al habito.
 Nuevamente parado en la programacion y muy enchufado en la herramienta
 hasta el punto de lo innecesario ya, pq caemos a un nivel que
 sobrepasamos lo que hace falta para fluir.
+**** Cuanto tiempo te lleva programar
+Estos ultimos dias he notado algunas cosas, que estoy enfermo ya con
+emacs  y segundo que la programacion me cuesta y me cuesta que sea de
+calidad. Incluso hoy vi que si bien es cierto que funciona maso no es
+muy espectacular. Hay modulos que les falta mucho pulimiento.
+Y quiero poner com ejemplo el pasar pedidos, lleva 4 horas!!! y no
+tiene nada. A ese ritmo le faltan 6 horas. Y en realidad con ese
+tiempo terminare teniendo casi lo mismo que antes pero en python y con
+una pila de tiempo invertido.
+Esta bueno tambien que el clock te permita ver tambien exacto cuanto
+tiempo pasas en maquina en cada parte del proyecto.
+Como dije antes. emacs es algo para medirlo en años. Y la curva de
+aprendizaje que llevo es muy alta.
+**** emacs va cambiando mis habitos
+la integracion de la agenda, los habitos y los escritos y el control
+del trabajo va a terminar cambiando la forma de hacer las cosas
+siempre que siga en ello.
+
+
+
 * Constructos
 ** Be normal
 ** mind sweep
