@@ -1,4 +1,4 @@
-Agenda de programacion clockeada.
+Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
 #+CAPTION: Clock summary at [2016-10-28 vie 20:23]
 | Headline                                    | Time   |      |

@@ -1455,6 +1455,70 @@ aprendizaje que llevo es muy alta.
 la integracion de la agenda, los habitos y los escritos y el control
 del trabajo va a terminar cambiando la forma de hacer las cosas
 siempre que siga en ello.
+*** 
+*** [2016-10-29 sáb]
+CLOCK: [2016-10-29 sáb 10:32]--[2016-10-29 sáb 11:01] =>  0:29
+CLOCK: [2016-10-29 sáb 09:07]--[2016-10-29 sáb 09:38] =>  0:31
+**** reorganizacion de los diarios
+Pienso en re-organizar todo el sistema de escritos para no dispersarse
+y tener un sistema de mente-barrida y a la vez tener los elementos de
+informacion necesarios para luego trabajar sobre ellos cuando hagan
+falta.
+En general pienso que se divide en dos grandes temas o bien tres
+temas:
+1. programacion concretamente: o sea el diario de programacion con el
+   control de tiempo e items de avance y el diario de desarrollo donde
+   se estudian los aspectos teoricos y de alli se va a fichaje.py a
+   trabajar.
+2. diario personal y registros personales, donde "trabajo" sobre
+   registros personales o bien que no tienen que ver con la
+   programacion del proyecto, y es alli que yo digo que debo unificar
+   los archivos, mas que todos aquellos que son de escritura, para que
+   podamos clockearlos unificadamente. Al menos los de servicio (como
+   los especificos que apuntan a habits y agenda no son archivos que
+   se visiten muy mucho en forma directa).
+3. estudio, que es donde vamos volcando lo que voy aprendiendo y no
+   necesariamente es desarrollo o volcado interno.
+**** bitacora de un sabado
+hoy estoy aca con derecho y no puedo escapar a las generales de la
+ley.
+O sea o bien te sentis culpable o bien tenes que ser utilitario. Es
+decir que como permiso para estar aca tenes que aprovechar a hacer
+cosas utiles, si es posible mejor pedi permiso a ella, o autorizacion,
+y luego da la rendicion de cuenta de lo que hiciste. El sabado pasado
+tuve la limpieza de la oficina, que era un issue muy necesario para mi
+en ese momento (e increiblemente ayer con la ayudita de la romi que
+fue muy valiosa no lo digo ironicamente pq si ella no iba a comprar el
+balde yo no iba, y quizas no sacaba agua tampoco), y al final termine
+limpiando a fondo casi como el otro dia, solo que me resulto mas
+facil, pq no estaba sucio. Para hoy tenia el ir a comprar la
+camicleta. Y posiblemente otras cosas, pero no tengo ganas de salir,
+pq estoy un poco mareado y pq en realidad no tengo ganas, si casi que
+tampoco tengo ganas de salir a comprar nada para comer, y no se que me
+hare para comer.
+Lo de la camicleta creo que no es justo el momento pq el lolo tuvo el
+accidente y no vamos a ir con ese regalo para el euge sin algo para
+el, y ambos potencialmente peligrosos.
+
+Tengo que ver el tema de la comida, o sea que puedo hacer para ampliar
+la base de cosas que pueda comer. Va mas alla de no tener ganas de ir
+a comprar, sino que no tengo mas variantes.
+Pq p.e. me guio con nutricion energetica y voy a los cereales y las
+verduras pero no hago nada tampoco, termino con un arroz yamani, que
+le agregue ayer una lata de lentejas que se me termino ahi nomas y
+tomate. Tenemos que incorporar un par de opciones basicas que sean
+alternativas. 
+O sea ahi tendriamos menu 1 yamani, lentejas, tomate. Ok ahi lo vamos
+a organizar. Incluso lo vamos a articular con org. Abajo en Menues los
+menues concretos que se pueden hacer, y habria que hacer un registro
+diario o algo asi para ver maso lo que como, no para siempre sino para
+ver.
+Cuando me ataque el miedo a no parecerme a ese matematico que lei en
+mi niñez, creo que Roemers que registraba todo aspecto de su vida y
+eso me parecio agobiante, y cada vez que intento llevar un registro de
+algo me acuerdo de eso, recordarme que no es para siempre, y que los
+periodos registrados son utiles para analizar y tomar decisiones.
+
 
 
 
@@ -1462,7 +1526,6 @@ siempre que siga en ello.
 ** Be normal
 ** mind sweep
    
-
 * Temas a pensar y/o articular
 ** Seguridad en dpto
 
@@ -1472,18 +1535,253 @@ siempre que siga en ello.
     utilidad en tenerlos, aparte del lugar que ocupan y luego viene lo
     dificultoso que es ponerse a romper una tonelada.
 
-* tema alimentario (luego trasladar a otro sitio)
-** opciones de comidas para considerar
-*** Guiso cereal y verduras
+** tema alimentario (luego trasladar a otro sitio)
+*** opciones de comidas para considerar
+**** Guiso cereal y verduras
     puse una rodaja de calabaza, un poco de sal, un poco de mijo
     lavado y un poco de amaranto y lo hervi. Feo olor, como comida de
     perro pero se deja comer bastante, con oliva y un poquito de queso
     rico
-*** Usar la legumbre en latas
+**** Usar la legumbre en latas
     antes que nada es mejor  y permite combinar el cereal.
-*** Un tomatito, lentejas, ajito y una ensaladita que acompaña
+**** Un tomatito, lentejas, ajito y una ensaladita que acompaña
+
+* Diario de limpieza dpto
+** Registro de temporada
+*** [2016-10-29 sáb] guarde acolchado
+** Baño
+*** [2016-10-29 sáb]
+** Dormitorio
+*** [2016-10-29 sáb]
+c/cambio sabanas y rotacion colchon
+* Emacs
+** Necesarios
+*** atajo insertar dia con hora
+*** eliminar lo molesto que el autofill te mueva la ventana y muestre flechas
+** [[file:edu-emacs.org][emacs teoria]]
+
+* Diario de migrañas
+** Diario de migrañas fuertes
+*** [2016-10-09 dom]                                            :3M:fuerte:
+Me tomo el primer migral a las 9hs luego de una noche con molestias y
+espera a la mañana para tomar el migral.
+No considero que haya sido tardio en ese momento pq no me molesto ni
+subio en intensidad. Hice un poco de netbook en cama y luego me
+levante y trabaje en la terraza (con viento y sol), luego cuando
+llegaba la hora de la comida me puse a trabajar en el patio con la
+netbook a contrareloj muy presionado por terminar una secuencia antes
+que me llamaran a comer, entonces me sente a comer tensionado y con el
+clima beligerante de estos dias con las chicas. En ese momento pense
+que necesitaba otro migral, pero no quise arruinar el gusto de la
+comida, pero no comi tan feliz como en otras ocasiones.
+Justo al terminar el almuerzo me tome otro migral y me quede en el
+patio en un sitio mas o menos tranquilo tomando un te y el dolor
+subia. Pero no era incapacitante todavia.
+Me acuesto un rato y luego decido levantarme a tomar un cafe que tome
+con mucha torta y mucho dulce de leche. Y luego de una breve pausa
+para dormir que no debo haber dormido mas de diez minutos, bajo a
+hacerme un segundo cafe, mientras tanto sigo con la maquina y algunas
+frustraciones al medio.
+Dentro de esas frustraciones me planteaba el no dispersarme tanto y
+focalizarme en solo dos temas.
+El dolor subio y se mezclo con un bajon animico pronunciado y un
+malestar generalizado.
+Alli cuando me acuesto tipo 20.30 y empieza una migraña tipo 8 o 7,
+incapacitante hasta para pensar (pero mas por el malestar que por el
+dolor punzante). Cuando me lograba dormir me mejoraba un poco, a las
+21.30 ih me subio pure de calabazas que pude probar apenas pq estaba
+nauseoso. Tome reliveran a las 22.30 y en esas levantadas al baño el
+dolor por el movimiento era muy importante, igual que la fotofobia.
+Cuando hizo efecto el reliveran me tomo el tercer migral y en los
+proximos 45 minutos no experimente ninguna mejoria, acostado sobre el
+costado derecho me presionaba mucho la zona del higado, y sobre el
+costado izquierdo me presionaba la cabeza donde me dolia.
+Quizas una hora despues o dos, ya me mejore quedando solo la resaca
+que desaparecio durante la noche.
+*** [2016-10-15 sáb]                                        :3M:intermedio:
+Hoy desperte a las 4am con fuerte dolor, el clasico y claro dolor
+despertador que amerita un migral, tomo y me duermo, siendo
+efectivo. Me levanto bien, hago las tareas que habia pensado para el
+dia en forma bastante satisfactoria, salvo por dolor intenso en la
+espalda pq habia limpiado la oficina. Luego de comer bien (bifes con
+cebolla rucula papas), me meto en la compu para instalar un nuevo SO y
+el dolor va increscendo hasta hacerse un moderado que ameritaba otro
+migral y a eso de las 15hs me lo tomo, se aminora bastante y me echo
+una siestita que dormi con dificultad pero dormi, la dificultad fue
+por la falta de oscuridad total y por no tener hecha la cama, ya que
+necesito si o si ponerme los auriculares, debo haber dormido una hora
+en la misma posicion y despierto con un fuerte dolor de nuevo y me
+tomo el tercer migral del dia a las 17hs, sin nauseas hasta ahora, y
+no espero resolucion ni nada sino que me enfrasco en la compu, y en un
+momento de relax cuando miro por la ventana de la cocina, me golpeo
+fuertemente la frente, hasta el punto del sangrado, asi que ahora no
+se si tengo resaca o dolor del golpe. 
+Si bien es cierto que no tuvo la magnitud del domingo pasado, si
+podria haberlo ubicado en un comodo 6 en el momento de levantarme que
+me impediria las actividades. Y alli decidi ir al medico mañana. En
+realidad comenzar a ir a todos los medicos. O sea instalarme en el hp
+del patio olmos. o el central si hace falta. 
+*** [2016-10-18 mar]                                            :2M:fuerte:
+El domingo tomo dos migrales seguidos, me cayo un poco mal la comida
+(pollo al disco) y me percato que era tipo cefaleico y cedio bastante
+rapido y me bañe y me sente en la terraza y mejore bastante. 
+Ayer lunes en la oficina tome dos migrales con separacion de 2 horas
+mas o menos y tambien un dolor cefaleico moderado a molesto pero cedio
+practicamente cuando volvia a casa. Y hoy fue diferente, tomo los 2
+migrales con diferencia de una hora, y recien despues de 5 horas de
+haber tomado el ultimo puedo sentarme a escribir esto mas o menos en
+la cama. Me volteo, altamente incapacitante creo que a nivel 7, un
+poco menos que el domingo 9 pq casi no tuve nauseas. Solo un poco en
+la hora de la toma de los migrales, y repeticiones de la comida a
+pesar que fue yamani con rucula y quesito. Hace un rato me tome un te
+con galletas queso y miel y me fui mejorando paulatinamente. Del
+cefaleico parecido a los ultimos dos dias, se fue transformando en
+levemente migraico y luego cediendo.
+Creo que la causa real es que ya estoy en las ultimas del migral y los
+dolores son mas fuertes y descontrolados.
+*** [2016-10-26 mié]                                            :2M:fuerte:
+Me desperte bien, dentro del malestar que vengo teniendo de tinitus
+por asi decirlo, p.e. anoche no dormi con lluvia, y tuve sueños
+confusos. Me despierto con el dolorcito insidioso de siempre y me tomo
+un migral a las 7 am. Y el malestar no se va y se agrava. Decido tomar
+otro migral a las 8am para terminar con el asunto y se me agrava mas,
+y empiezo a devenir nauseoso.
+14.5/10 la presion, sin hambre, mal, nauseas, casi diria mareos o
+confusion. Tenia la presion ridicula de tener que ir a la dgr
+(ridicula pq como dijo dyer al final termino siendo menor que lo que
+yo imaginaba).
+"La catastrofe que tanto te preocupa, a menudo resulta menos horrible
+en la realidad, de lo que fue en tu imaginacion"
+Cuando fui, pq baje para ir a comprar los remedios y termine yendo por
+ratos o cuadras me sentia mejor, pero en realidad me senti mejor que
+p.e. lo que estoy ahora a las 12.30 en casa.
+Me tome 10mg de corti a las 11.30hs y hasta ahora estoy peor. Me tome
+a la misma hora 35 gotas de reliveran y sigo nauseoso, y de pedo tome
+un te con dos galletas y queso.
 
 
 
+** Diario de dias 3 Migrales aunque no migrañas fuertes
+*** [2016-10-13 jue]                                          :3M:moderado:
+   Desperte a la 1 de la mañana y tome un migral con un trago de
+   licuado. Y si bien es cierto que pude dormir lo mas bien, cada vez
+   que me despertaba sentia molestia, y me decia que ojala la molestia
+   no significara un segundo migral, y felizmente llegue a la
+   mañana. Luego desayuno y voy a la ofi. Y alli tipo 11hs tomo un
+   migral normal como hago siempre, y luego de nuevo en la ofi a la
+   tarde siento que el dolor va in crescendo y tipo 16hs tomo otro
+   sabiendo que tenia que quedarme hasta las 17 obligadamente. 
+   Luego llego a casa en un estado raro, no queria sentarme a
+   programar, me sentia saturado, y me hice una merienda frutal con
+   manzana, arandanos y frutilla y medio vaso de licuado, previamente
+   haberme bañado tranquila y relajadamente, todo esto mientras veia
+   la mitad de la pelicula que habia dejado pendiente, y la verdad que
+   me relaje bastante, luego me recoste un rato (en realidad el orden
+   de estos sucesos ya los olvide pero el resultado grato lo recuerdo)
+   la cosa que despues si me sente a programar y la verdad que fue
+   altamente productivo el tiempo que estuve, en cierta forma como
+   destrabado. Quizas sea que haya aprovechado una base que habia
+   hecho en la oficina, pero si me senti como que "fluyo" el trabajo y
+   me senti como que podia terminar alli mismo todo el modulo, pero me
+   fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
+   en el ojo, aunque no son en el ojo sino en el arco superciliar.
 
+* Movies
+** Films
+*** The irrational man                       :profesor:filosofia:asesinato:
+   [2016-10-13 jue] Cuenta la historia de un profesor de filosofia que
+   viene a una facultad y el tipo esta atravesando un bajon
+   existencial. La vida no le interesa y atraviesa un gran displacer,
+   nada le resulta placentero. Es sombrio, oscuro y practicamente esta
+   abandonado. Comienza una amistad con una alumna que intenta sin
+   exito sacarlo de ese marasmo. Un dia casualmente escuchan una
+   conversacion en un bar sobre un juez que estaba arruinandole la
+   vida a una mujer por abuso de poder en su cargo, y repentinamente
+   el profesor encuentra en el asesinar a dicho juez su razon de
+   vivir. A partir de ese momento su vida renace en todos los sentidos
+   que antes estaban bloqueados. Comete el asesinato, pensando que no
+   iba a ser descubierto, y al poco tiempo la misma alumna con quien
+   ya ha comenzado un affaire lo descubre y confronta. La situacion se
+   complica cuando la chica lo obliga a confesar el crimen pq alguien
+   inocente va a ser inculpado y el ya no quiere abandonar los
+   placeres de esta nueva vida que acaba de conseguir y decide matar a
+   la chica para cubrir su crimen, intento que casualmente le falla y
+   muere accidentalmente el mismo.
+   :Calificacion: 4/5
+   :Actor: Joaquin Phoenix
+
+** Series
+*** The Night of                        :prision:inocente:juicio:granintro:
+   [2016-10-17 lun] Terminada.
+   8 capitulos.
+   Narra la historia de un chico pakistani en NY que le saca sin
+   permiso el taxi a su padre (que a su vez lo tiene en sociedad con
+   dos mas y que representa su unica fuente de ingresos que les
+   permite tener una vida de clase media a pesar de ser inmigrantes)
+   con la finalidad de ir a una fiesta y la cadena de sucesos lo lleva
+   a conocer una chica rica drogadicta y con problemas que lo lleva a
+   la casa donde tienen sexo y juegos peligrosos, luego despierta
+   abajo en la cocina sin saber que paso anoche y cuando sube a la
+   habitacion la chica esta muerta con un monton de puñaladas. Entra
+   en panico y escapa, pero olvida las llaves del auto, cuando quiere
+   entrar de nuevo a la casa tiene que romper un vidrio y eso alerta a
+   los vecinos, saca las llaves, se lleva el cuchillo ensangrentado y
+   sale a los piques con el taxi, y luego casualmente por doblar mal
+   una esquina lo para la policia y lo detienen por ebriedad. Y cae a
+   la misma comisaria donde se procesa el asesinato, donde al final lo
+   detienen.
+***** La vida y el trabajo del abogado
+el abogado tiene una vida de mierda. Esta solo, separado y viejo,
+encima la relacion con el hijo no es buena ni es mala pero no es
+fluida. Y lo peor de todo que tiene una enfermedad estigmatizante que
+hace que los demas lo vean repugnante. 
+***** La vida y la historia previa de la chica
+una chica rica, heredera, drogadicta, con problemas con una pareja que
+la estafo. 
+***** La vida y el entorno del chico
+una familia muy tradicional, inmigrantes sufrientes por lo del 9/11 y
+ser arabes, clase media, buen pasar
+***** Como reacciona la familia
+el padre cree siempre en el chico, a pesar de que lo que hizo resulta
+catastrofico para la economia de la familia pq pierde el taxi que es
+su negocio, no se lo ve resentido, y la madre pierde la fe en el chico
+cuando en el juicio ve lo que supuestamente ha hecho
+***** La actuacion de la abogada
+primero la usan por su nacionalidad como palanca luego le tiran el
+caso para el cual no esta preparada, y luego comete unos errores
+garrafales que pueden costarle la carrera, parece que se enamora del
+chico y luego comete directamente el delito de pasarle droga. No se ve
+que luego el chico le corresponda
+***** el chico sobrevivio
+se adapto a la vida de la prision, en todo momento parecia tener un
+amor fati. 
+***** Conclusion
+muy buena serie, la volveria a ver, la introduccion genial
+*** WestWorld                                              :west:androides:
+Episodio 1 [2016-10-24 lun]
+Cuenta un parque de diversiones enorme que recrea el viejo oeste y
+todo atendido por androides casi humanos, los cuales poseen IA, pero
+tienen limitaciones en el programa, p.e. que no pueden dañar a los
+humanos y olvidan cada temporada lo que paso antes.
+Y asi parece que han hecho negocios por mas de treinta años.
+Hasta que en una actualizacion del firmware de los androides que les
+permite tener gestos mas realistas, comienzan a tener sintomas raros
+que aparentemente provienen de que se le mezclan los recuerdos (que
+serian memorias en este caso) pero produciendo efectos espeluznantes
+en aquellos que olvidan que son maquinas programadas.
+**** Arnold y su busqueda de conciencia
+la consciencia evoluciono en base a errores.
+**** [2016-10-29 sáb] Las historias o relatos que cargan en los huespedes
+se parecen mucho a las boludeces que nos motivan y nos ocupan o nos
+alienan a nosotros. Lo facsinante de la serie es el parecido con los
+seres humanos, o sea como que nosotros somos ellos y hubiera una
+instancia superior desconocida para nosotros que nos maneja de igual
+forma. Hay muchas cosas inexplicables en los seres humanos. Obviamente
+la serie se inventa sobre la base de la experiencia humana, eso no es
+real, pero porque no, que es la realidad, asi como un programa es real
+dentro de sus propias reglas de juego, nosotros podemos ser una pieza
+de un juego cosmico de proporciones desmesuradas que no conocemos.
+* Menues
+** Yamani-Lenteja-Tomate
+** Mijo-Amaranto-Calabacin
 

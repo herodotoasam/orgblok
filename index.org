@@ -1,12 +1,12 @@
-[[file:dia-general.org][diario]]       [[file:topiramato.org][topiramato]]
+[[file:dia-general.org][diario]]  
 
 [[file:doc-fichaje.org][desarrollo]]   [[file:habitos.org][habitos]]   [[file:age-pagos.org][pagos]]     [[file:rapido.org][hacer ahora]]
 
-[[file:age-programacion.org][control-programacion]]       [[file:~/py1local/fichaje.py][fichaje.py]]
+[[file:age-programacion.org][control-programacion]]      
 
 * Estudio
 ** [[file:edu-orgmode.org][org-mode]]
-** [[file:edu-programar.org][programar]]
+** [[file:edu-programar.org][tips para recordar en programacion]]
 
 [[http://technical-dresese.blogspot.com.ar/2012/12/an-emacs-configuration-smell.html][leer
 este blog]]
