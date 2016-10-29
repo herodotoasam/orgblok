@@ -1,13 +1,14 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-28 vie 20:23]
+#+CAPTION: Clock summary at [2016-10-29 sáb 13:09]
 | Headline                                    | Time   |      |
 |---------------------------------------------+--------+------|
-| *Total time*                                | *3:50* |      |
+| *Total time*                                | *5:22* |      |
 |---------------------------------------------+--------+------|
-| Tab pedidos                                 | 3:50   |      |
+| Tab pedidos                                 | 5:22   |      |
 | \emsp haciendo subtab pasar clientes nuevos |        | 1:16 |
-| \emsp bosquejamos el pasado de pedido       |        | 1:09 |
+| \emsp bosquejamos el pasado de pedido       |        | 1:41 |
+| \emsp agregando posibilidad de carga...     |        | 1:00 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -48,6 +49,8 @@ pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
 qu expresamente los limpie, etc.
 Era un bug en bwidget.py, ya lo arregle pero lo mismo no limpia.
 ** bosquejamos el pasado de pedido
+CLOCK: [2016-10-29 sáb 11:29]--[2016-10-29 sáb 11:51] =>  0:22
+CLOCK: [2016-10-29 sáb 11:17]--[2016-10-29 sáb 11:27] =>  0:10
 CLOCK: [2016-10-28 vie 19:50]--[2016-10-28 vie 20:23] =>  0:33
 dejo para despues cuando tenga mas concentracion.
 Pasado de pedido: Encabezo el subtab con id y nombre del que compra y
@@ -60,3 +63,23 @@ Inicio apenas el pedido.
 
 bugs: class LabelFecha que ponga la fecha de hoy con . o h.
 arreglar los tamaños de la linea.
+Corregido. Estaban mal los nombres de los keysym era period y
+KP_Decimal para punto y habia un error en delete(0,END,hasta) el hasta
+estaba de mas.
+Arreglado los tamaños a mano y agregado el campo de info seven, que
+tendra que ser registrado en algun lado, lo cual no es malo, pq toda
+esa data siempre se perdio y es muy relevante. .
+** agregando posibilidad de carga general de datos
+CLOCK: [2016-10-29 sáb 12:09]--[2016-10-29 sáb 13:09] =>  1:00
+ya esta hecha la linea de datos, que funciona a nivel general. Me
+trabo un bug o un pitfall de labelentry con el metodo set, que ya lo
+he tenido, es decir cuando asigno mediante un bind un valor a un
+labelentry se ponen unos signos raros en el campo lanzador del bind y
+no surte efecto el bind, yo lo atribuia en principio a que andaba mal
+el teclado fisico mio, pero aca lo probe con entrys sueltos o sea sin
+label entry y anda joyita o sea que eso me plantea el tema de tener
+que usar esos atajos que en principio parecieron ideales y que ahora
+no lo son. pq en el caso de que tengo que usar un frame horizontal, es
+rapidisimo incorporar los label sueltos y el ancho se calcula solo y
+mejor.
+

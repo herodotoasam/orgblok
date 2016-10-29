@@ -2,19 +2,20 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-28 vie 11:14]
+#+CAPTION: Clock summary at [2016-10-29 sáb 13:12]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *1:57* |      |      |
+| *Total time*                | *3:12* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 1:57   |      |      |
-| \emsp Octubre               |        | 1:57 |      |
+| 2016                        | 3:12   |      |      |
+| \emsp Octubre               |        | 3:12 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
 | \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
 | \emsp\emsp [2016-10-25 mar] |        |      | 0:29 |
 | \emsp\emsp [2016-10-27 jue] |        |      | 0:11 |
-| \emsp\emsp [2016-10-28 vie] |        |      | 0:08 |
+| \emsp\emsp [2016-10-28 vie] |        |      | 0:23 |
+| \emsp\emsp [2016-10-29 sáb] |        |      | 1:00 |
 #+END:
 
 ** Junio

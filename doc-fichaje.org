@@ -708,6 +708,22 @@ imprimir documentos.
 creo que sale todo automatico pq el pedido entregado al pasar la venta
 se pone como entregado y el cancelado ya se marco como cancelado y las
 estadisticas se fabrican con los entregados.
+*** Los campos programados
+son los estrictamente necesarios para la promo, lo cual en cierta
+forma me achica la posibilidad de vender otras cosas, esto habria que
+estudiarlo pq que pasaria si de pronto se me ocurriera darle a la
+lesta o a cualquier otro que venda otro articulo???.
+No esta bueno que no tengamos un sistema de proposito general.
+Se puede solucionar con una linea intermedia de codigo articulo, cnt
+cuotas, importe de cuotas, un total cuota que sale icxcnt que en este
+caso sea todo calculado que en la tabla articulo se pueda poner la
+promo especial y esa sea la que se cargue sola, pero que de ultima se
+pueda poner todo solo.
+Me gustaria poner en articulo el codigo, y que solo se carge un
+label,no usar combo, y que no este linkado a stock , y que con un
+boton de ayuda te muestre los codigos
+
+
 
 
 
