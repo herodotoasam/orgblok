@@ -647,6 +647,17 @@ datos que vamos a necesitar despues.
 * Hacia el sistema de ventas
 ** Necesitaremos
 *** pasador y rastreador de pedidos
+**** Se deberia pasar un pedido que no se vaya a entregar??
+ya sea por seven, o ya sea porque deba o por otra causa creo que si se
+deberia pasar y se deberia indicar la causa por la cual se anula cosa
+de que quede la info para mas adelante. Supongamos que un pedido
+levanta equis persona a lesta, y yo no lo cargo pq no figura en padron
+y busco en seven y es escandaloso entonces lo anulo y no lo paso, pero
+luego dentro de dos meses vuelven a levantarlo y lo vuelvo a chequear.
+O sea que pasamos todo, cargamos todo y asentamos todo.
+si es un seven, pongo zona seven, paso el pedido lo anulo y pongo la
+info seven.
+luego tendre la vista de todo.
 *** emisor de documentos y planillas de salida
 *** control de asistencia/cospeles/vales/pagos
 *** liquidaciones/vales/comisiones

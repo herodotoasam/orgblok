@@ -1,14 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-29 sáb 13:09]
-| Headline                                    | Time   |      |
-|---------------------------------------------+--------+------|
-| *Total time*                                | *5:22* |      |
-|---------------------------------------------+--------+------|
-| Tab pedidos                                 | 5:22   |      |
-| \emsp haciendo subtab pasar clientes nuevos |        | 1:16 |
-| \emsp bosquejamos el pasado de pedido       |        | 1:41 |
-| \emsp agregando posibilidad de carga...     |        | 1:00 |
+#+CAPTION: Clock summary at [2016-10-29 sáb 22:54]
+| Headline                                     |   Time |      |
+|----------------------------------------------+--------+------|
+| *Total time*                                 | *7:15* |      |
+|----------------------------------------------+--------+------|
+| Tab pedidos                                  |   6:24 |      |
+| \emsp haciendo subtab pasar clientes nuevos  |        | 1:16 |
+| \emsp bosquejamos el pasado de pedido        |        | 1:41 |
+| \emsp agregando posibilidad de carga...      |        | 1:00 |
+| \emsp parte logica - guardado del pedido     |        | 0:32 |
+| \emsp poner la linea check anulado/ causa... |        | 0:30 |
+| tab seven                                    |   0:51 |      |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -82,4 +85,35 @@ que usar esos atajos que en principio parecieron ideales y que ahora
 no lo son. pq en el caso de que tengo que usar un frame horizontal, es
 rapidisimo incorporar los label sueltos y el ancho se calcula solo y
 mejor.
+** parte logica - guardado del pedido
+CLOCK: [2016-10-29 sáb 20:32]--[2016-10-29 sáb 21:04] =>  0:32
+guardado todos los campos en tabla pedido. No se guardan los que no
+son relevantes en esta etapa p.e. fechaentrega pq suponemos como regla
+de negocio que el promotor vende para entregar en lo inmediato y se
+puede suponer una fecha de entrega del mismo dia o dia siguiente. 
+Alli faltaria una funcion dia-habil-siguiente. TODO
+Guardo la infoseven recabada en un campo agregado en tabla clientes
+para uso posterior.
+Puse un tbls de muestra con recalc automatico.
+** poner la linea check anulado/ causa anulamiento.
+CLOCK: [2016-10-29 sáb 22:24]--[2016-10-29 sáb 22:54] =>  0:30
+estaria listo esa parte en lo visual. faltaria la parte logica o sea
+incluirlo en el guardado.
+Y establecer borrado en el tbls de pedidos.
 
+* tab seven
+CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
+CLOCK: [2016-10-29 sáb 18:41]--[2016-10-29 sáb 19:08] =>  0:27
+CLOCK: [2016-10-29 sáb 18:06]--[2016-10-29 sáb 18:23] =>  0:17
+revision
+*** tema capitalizacion del nombre. 
+yo lo hice con la planilla de calculo y pretendi hacerlo dentro de
+python en un toque y no fue tan facil pq no salio bien.
+capitalizo la primera parte del nombre.
+seria split, capitalize, con excepciones del, las la de 
+unir el string de nuevo
+Se hizo una funcion que es mas eficiente que la funcion de libreoffice
+que no tiene en cuenta las particulas.
+*** tema bug calle arce cabeza de vaca ver.
+solucionado via string.replace(',',' ') o sea limpio la cadena de
+calle de todos los signos que puedan interferir.
