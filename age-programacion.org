@@ -1,16 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-29 sáb 22:54]
+#+CAPTION: Clock summary at [2016-10-31 lun 12:56]
 | Headline                                     |   Time |      |
 |----------------------------------------------+--------+------|
-| *Total time*                                 | *7:15* |      |
+| *Total time*                                 | *9:11* |      |
 |----------------------------------------------+--------+------|
-| Tab pedidos                                  |   6:24 |      |
+| Tab pedidos                                  |   8:20 |      |
 | \emsp haciendo subtab pasar clientes nuevos  |        | 1:16 |
 | \emsp bosquejamos el pasado de pedido        |        | 1:41 |
 | \emsp agregando posibilidad de carga...      |        | 1:00 |
 | \emsp parte logica - guardado del pedido     |        | 0:32 |
 | \emsp poner la linea check anulado/ causa... |        | 0:30 |
+| \emsp nuevas ideas                           |        | 1:56 |
 | tab seven                                    |   0:51 |      |
 #+END:
 
@@ -100,6 +101,37 @@ CLOCK: [2016-10-29 sáb 22:24]--[2016-10-29 sáb 22:54] =>  0:30
 estaria listo esa parte en lo visual. faltaria la parte logica o sea
 incluirlo en el guardado.
 Y establecer borrado en el tbls de pedidos.
+** nuevas ideas
+*** que la busqueda dni, empalme a padron directo
+y aparte esten las ya programadas de padron f/m/pf/pm
+*** que haya un buffer de edicion de datos/ingreso de cliente nuevo
+CLOCK: [2016-10-31 lun 12:27]--[2016-10-31 lun 12:56] =>  0:29
+CLOCK: [2016-10-31 lun 11:37]--[2016-10-31 lun 12:27] =>  0:50
+en el mismo set de campos
+
+*** como se ingresaria un pedido
+uno pone el dni que da el promotor, si coincide barbaro, si no
+coincide lo tenes que buscar por nombre y/o direccion, para evitar
+homonimos y avivados, ya ahi el viejo rx fallaba y el cuadro de
+busqueda es muy potente para eso.
+Pero luego no debemos quedar sin el cuadro de edicion de
+datos/agregado pq es mas practico, y luego pasamos el pedido. Podemos
+ver un tbls aunque sea chiquito de confirmacion de pedidos pasados,
+pero en un subtab aparte tenemos todos los pedidos.
+*** hacer un tipo packer-linea como tenia antes
+CLOCK: [2016-10-31 lun 11:00]--[2016-10-31 lun 11:37] =>  0:37
+eso permitiria componer la linea mas facilmente y luego packear o
+placear las lineas en si.
+el codigo quedara mas compacto y sera mas facil y rapido programar.
+*** Poner un cuadro de informacion resaltada en el frente a la derecha
+CLOCK: [2016-10-31 lun 14:05]--[2016-10-31 lun 14:36] =>  0:31
+deudor, seven, pagando, pedido rechazado, lista negra, etc. cosa de
+que no sea facil pasarse por alto un moroso cuando uno pasa el pedido.
+*** boton ver datos de cliente
+dirige a Fechar por necesidad, tendria que arreglar la pestaña Ver
+para que se pudiera ver ahi, con mas claridad. faltaria un encabezado
+de busqueda individual.
+
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07

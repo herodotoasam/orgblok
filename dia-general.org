@@ -1563,7 +1563,54 @@ traducir y tener todo en la misma interfase.
 Lo otro es un tema personal, la bronca que me da con el tema
 isabelino.
 Pero eso pasaria igual con o sin programacion.
-
+*** [2016-10-30 dom]
+CLOCK: [2016-10-31 lun 09:07]--[2016-10-31 lun 09:26] =>  0:19
+Este fue el peor domingo que recuerde, y anoche la peor noche. Siento
+como un rechazo generalizado a todo, como de un lugar que me es
+contrario o adverso. Desde la beligerancia encubierta de ih, hasta la
+falta de respeto directa de las chicas, la comida, el desorden, todo.
+Ahora me planteo el por que me impongo semana tras semana esa
+tortura. Es como que me borraran la mente o la memoria semana tras
+semana y llegado el viernes estoy listo para ir corriendo a
+encanutarme alla.
+Yendo a lo practico, creo que la clave esta en el auto. Con el auto
+aca puedo ir un domingo "de visita" dejarlo afuera y volverme al
+rato. Pero mientras me plantee esta forma de pernoctancia, me resulta
+en la practica mas dificil salirme de alla.
+Cuando miro desde el punto del hartazgo del lunes, de la resaca del
+lunes me pregunto como puede ser que el sabado haya estado siquiera
+contaminado con ambas manifestaciones de la manipulacion o la
+culpabilidad, el utilitarismo y la incomodidad del apuntamiento. 
+Hay que decir tambien que muchos asuntos de negocios se mezclan con el
+finde, por eso quiero resolverlo de otra manera.
+Y por ultimo que hay rezagos de sentimentalismo luego del corte, pero
+que no revisten el menor analisis.
+*** [2016-10-31 lun]
+CLOCK: [2016-10-31 lun 12:56]--[2016-10-31 lun 13:05] =>  0:09
+Hoy atravese muchas etapas negativas. Autodestruccion, nerviosismo,
+incomodidad, suicidio, locura, espanto. Cuando iba a la mañana a la
+ofi pensaba que si me diagnosticaban algo feo o estigmatizante, me iba
+a bolivia o brasil y me perdia en la selva, quemaba los documentos y
+me pegaba un tiro.
+Confome fue avanzando la mañana fui despejando el camino del modulo
+tal cual lo imagine anoche cuando estaba acostado, y no sin esfuerzo
+salio bien, a pesar de que esforce la espalda un monton.
+Y estoy aislado.
+el programa mejoro pq es mas legible y va perfilando a tener
+utilidades que tcl no tenga, sino para que programo. Eso tambien es un
+karma.
+**** Me distraje mucho en el camino
+emacs y org-mode entre otras cosas me distrajeron mucho del camino que
+tendria que haber seguido que es haber definido bien los modulos que
+necesitaba en funcion de dos cosas:
+- las reglas de negocio que habia que poner
+- la informacion que necesitabamos
+Y al final me fui por la cordillera del himalaya y termine frustrado,
+pq ahora uso emacs que en cualquier momento me desencanta y
+cagamos. Es tan loco todo que en el fondo me llama la campanita de
+atom.
+Pero no. pq emacs lo tiene a org-mode, y eso es bueno para toda la
+organizacion de mi vida en general.
 * Constructos
 ** Be normal
 ** mind sweep
@@ -1832,4 +1879,26 @@ moler
 **** Usar la legumbre en latas
     antes que nada es mejor  y permite combinar el cereal.
 **** Un tomatito, lentejas, ajito y una ensaladita que acompaña
+* Diario de Sintomas
+** insomnio de piernas inquietas y/o presion intercostal
+*** [2016-10-30 dom]
+que se manifiesta pq te das vuelta ocho mil veces, y las piernas no
+duelen pero estan como anudadas, y molestan. Y no podes estar de
+costado pq te duelen las costillas como que algo te presionara adentro
+y eso te obliga a darte vuelta cada dos minutos, y solo quizas
+acostarte boca arriba pero asi uno normalmente no duerme.
+** mareos generales o sensacion de mareos
+*** [2016-10-30 dom]--[2016-10-31 lun]
+en especial luego e inmediatamente despues de la toma del migral. El
+domingo tomo un migral a la mañana con un malestar un poco menor, pero
+cuando lo tomo a la nochecita el malestar fue tan grande e inmediato
+que pense que me iba a desmayar. Incluso le dije a ih que no se
+asustara si me desmayaba y pense que no llegaba a la pieza
+arriba. Luego me acoste y se me fue el mareo, o no lo percibi como
+vertigo y comenzo el sintoma del insomnio. Y esta mañana, me levante
+como si no hubiera dormido nada anoche, como si me hubiera aplastado
+algo, como si los musculos de los brazos tuvieran cansados luego de un
+dia de mucha fuerza o ejercicios. Y siento un sintoma de mareito.
+
+
 
