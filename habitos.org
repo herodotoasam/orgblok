@@ -58,11 +58,12 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2016-10-31 lun .+1d>
+SCHEDULED: <2016-11-01 mar .+1d>
+- State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
 - State "DONE"       from "TODO"       [2016-10-30 dom 13:07]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-10-31 lun 13:07]
+:LAST_REPEAT: [2016-10-31 lun 22:15]
 :END:      
 - State "DONE"       from "TODO"       [2016-10-29 sáb 17:36]
 - State "DONE"       from "TODO"       [2016-10-28 vie 19:29]
@@ -75,7 +76,8 @@ SCHEDULED: <2016-10-31 lun .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2016-10-31 lun .+1d>
+SCHEDULED: <2016-11-01 mar .+1d>
+- State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
 - State "DONE"       from "TODO"       [2016-10-30 dom 13:07]
 - State "DONE"       from "TODO"       [2016-10-29 sáb 17:36]
 - State "DONE"       from "TODO"       [2016-10-28 vie 19:29]
@@ -83,7 +85,7 @@ SCHEDULED: <2016-10-31 lun .+1d>
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-10-31 lun 13:07]
+:LAST_REPEAT: [2016-10-31 lun 22:15]
 :END:
 | N° | Descripcion                |                           |
 |  1 | flexion baja de la espalda | lev con brazos los muslos |

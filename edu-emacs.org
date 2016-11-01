@@ -296,8 +296,12 @@ y partes de sectores densos.
 Incluso si se pone el titulo del sector denso como comentario es facil transitarlo. 
 
 
-* Emacs basicos                                                        :anki:
-SCHEDULED: <2016-10-26 mié +7d>
+* TODO Emacs basicos                                                   :anki:
+SCHEDULED: <2016-11-10 jue .+10d>
+- State "DONE"       from "TODO"       [2016-10-31 lun 22:26]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-31 lun 22:26]
+:END:
 ** basicos
 | C-j         | jump new line desde donde esta sin respetar indentacion |
 | C-o         | abre nueva linea                                        |
@@ -331,7 +335,7 @@ SCHEDULED: <2016-10-26 mié +7d>
 | C-F/B       | marca y avanza presionando repetidamente                |
 | C-spc       | comienza marca y luego flechas                          |
 | C-x h       | select all                                              |
-| C-p/n       | marca y avanza lineas desde alli                        |
+| C-P/N       | marca y avanza lineas desde alli                        |
 |-------------+---------------------------------------------------------|
 | M-d         | borra la palabra siguiente desde ahi                    |
 | M-Del       | borra la palabra anterior desde ahi                     |

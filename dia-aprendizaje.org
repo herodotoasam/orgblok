@@ -1,7 +1,12 @@
 * Bitacora de aprendizaje
 ** [2016-09-22 jue]                                                   :anki:
-SCHEDULED: <2016-10-29 sáb +15d>
-*** Comandos para org-mode: Manejo de fechas
+
+*** TODO Comandos para org-mode: Manejo de fechas
+SCHEDULED: <2016-11-13 dom +15d>
+- State "DONE"       from "TODO"       [2016-10-31 lun 22:34]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-31 lun 22:34]
+:END:
 | C-C .        | inserta fecha del calendario                  |
 |              | sobre una fecha la modifica                   |
 |              | dos veces pone un rango                       |
@@ -43,17 +48,22 @@ Y ahora un repaso de los comandos generales
 
 ** [2016-09-23 vie]
  
-*** Elips - inicio de lectura                                        :anki:
-SCHEDULED: <2016-10-27 jue +7d>
+*** TODO Elips - inicio de lectura                                   :anki:
+SCHEDULED: <2016-11-03 jue +7d>
+- State "DONE"       from ""           [2016-10-31 lun 22:32]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-31 lun 22:32]
+:END:
 en elips todo es una lista.
 
 | lista               | (a b c d)             |
 | lista no ejecutable | '(a b c)              |
 | lista ejecutable    | (funcion a b)         |
-| string              | (a "un string"        |
+| string              | (a "un string")       |
 | listas anidadas     | (a b c (a b))         |
 | suma                | (+ 2 2)               |
 | evaluar expresion   | C-x C-e en scratch    |
+| --en el buffer      | Cu-Cx-Ce              |
 | simbolic expresion  | sexp                  |
 | trace de error      | backstrace            |
 | funcion no valida   | void-function         |
@@ -198,8 +208,12 @@ La productividad debe verse aumentada grandemente con este sistema.
 Y esto se va a ver en el futuro. Igual que el sistema que estoy
 programando, igual que el negocio que estamos montando con el
 hijo. Igual que el vivir en el centro.
-** [2016-09-29 jue]                                                   :anki:
-SCHEDULED: <2016-10-26 mié +10d>
+** TODO [2016-09-29 jue]                                              :anki:
+SCHEDULED: <2016-11-05 sáb +10d>
+- State "DONE"       from "TODO"       [2016-10-31 lun 22:23]
+:PROPERTIES:
+:LAST_REPEAT: [2016-10-31 lun 22:23]
+:END:
 Hoy sigo fuertemente con git, haciendo el capitulo 3 del libro, dos
 lecturas sobre el branching.
 

@@ -1611,6 +1611,16 @@ cagamos. Es tan loco todo que en el fondo me llama la campanita de
 atom.
 Pero no. pq emacs lo tiene a org-mode, y eso es bueno para toda la
 organizacion de mi vida en general.
+**** Malestar emocional
+[2016-10-31 lun]
+Hoy es un dia en el cual no estoy bien. Estoy muy caido y me siento
+bastante mal. Me parece o me cuesta el malestar que acarreo, agregando
+capas de pelea o alejamiento. A la de la casa ih-chicas, tengo tambien
+la sensacion en la galeria que todo esta mal, con el problema de la
+puerta y en cierta forma en el edificio tambien no me siento muy
+comodo. Debo ser yo. Y cuando transito el centro me siento muy
+marginal. Se que es una percepcion pq no siempre estoy asi. Y quizas
+se me pase.
 * Constructos
 ** Be normal
 ** mind sweep
@@ -1899,6 +1909,16 @@ vertigo y comenzo el sintoma del insomnio. Y esta mañana, me levante
 como si no hubiera dormido nada anoche, como si me hubiera aplastado
 algo, como si los musculos de los brazos tuvieran cansados luego de un
 dia de mucha fuerza o ejercicios. Y siento un sintoma de mareito.
+** Puntaditas en los arcos supercilliarres
+*** [2016-10-31 lun]
+no muy pronunciadamente como en descripciones anteriores pero he
+tenido molestias durante el dia, en especial en la oficina, mayormente
+en el lado izquierdo, pero me parece que tambien pasa al otro lado
+** Dolor o molestia en sona de vejiga
+*** [2016-10-31 lun]
+no lo habia anotado nunca y no se si es sogaca por lo de la ecografia,
+pero en cierta forma tengo un dolorcillo hace tiempo en el area,
+pareciera superficial, mas tipo hernioso.
 
 
 

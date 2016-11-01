@@ -1,6 +1,8 @@
 Edu Python
 
-* list
+* TODO list
+SCHEDULED: <2016-11-05 sáb .+7d>
+
 ** Conocidos
 *** list.append(x) 
 add an item to the end of the list

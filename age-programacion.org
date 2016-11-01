@@ -1,18 +1,20 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-31 lun 12:56]
-| Headline                                     |   Time |      |
-|----------------------------------------------+--------+------|
-| *Total time*                                 | *9:11* |      |
-|----------------------------------------------+--------+------|
-| Tab pedidos                                  |   8:20 |      |
-| \emsp haciendo subtab pasar clientes nuevos  |        | 1:16 |
-| \emsp bosquejamos el pasado de pedido        |        | 1:41 |
-| \emsp agregando posibilidad de carga...      |        | 1:00 |
-| \emsp parte logica - guardado del pedido     |        | 0:32 |
-| \emsp poner la linea check anulado/ causa... |        | 0:30 |
-| \emsp nuevas ideas                           |        | 1:56 |
-| tab seven                                    |   0:51 |      |
+#+CAPTION: Clock summary at [2016-10-31 lun 20:09]
+| Headline                                     |    Time |      |
+|----------------------------------------------+---------+------|
+| *Total time*                                 | *10:23* |      |
+|----------------------------------------------+---------+------|
+| Tab pedidos                                  |    8:51 |      |
+| \emsp haciendo subtab pasar clientes nuevos  |         | 1:16 |
+| \emsp bosquejamos el pasado de pedido        |         | 1:41 |
+| \emsp agregando posibilidad de carga...      |         | 1:00 |
+| \emsp parte logica - guardado del pedido     |         | 0:32 |
+| \emsp poner la linea check anulado/ causa... |         | 0:30 |
+| \emsp nuevas ideas                           |         | 2:27 |
+| tab seven                                    |    0:51 |      |
+| tabVentas                                    |    0:41 |      |
+| \emsp verificacion bug                       |         | 0:41 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -127,7 +129,17 @@ el codigo quedara mas compacto y sera mas facil y rapido programar.
 CLOCK: [2016-10-31 lun 14:05]--[2016-10-31 lun 14:36] =>  0:31
 deudor, seven, pagando, pedido rechazado, lista negra, etc. cosa de
 que no sea facil pasarse por alto un moroso cuando uno pasa el pedido.
-*** boton ver datos de cliente
+El cuadro de informacion de cliente debe asegurar que uno no se
+equivoque y que pueda investigar mas si hace falta. 
+Indicar p.e. si hay otros clientes en la direccion, (lo ideal seria
+que tambien vea si hay morososos en direcciones cercanas).
+
+*** guardar cliente nuevo editar cliente
+CLOCK: [2016-10-31 lun 21:33]--[2016-10-31 lun 22:12] =>  0:39
+al apretar boton guardar define editar o crear depende si existe el
+idcliente, editamos todos los datos muy facilmente y nos avisa un
+balloon que ha sido editado o creado el cliente.
+*** mejorar el tabVer para que se pueda dirigir alli las vistas
 dirige a Fechar por necesidad, tendria que arreglar la pestaña Ver
 para que se pudiera ver ahi, con mas claridad. faltaria un encabezado
 de busqueda individual.
@@ -149,3 +161,41 @@ que no tiene en cuenta las particulas.
 *** tema bug calle arce cabeza de vaca ver.
 solucionado via string.replace(',',' ') o sea limpio la cadena de
 calle de todos los signos que puedan interferir.
+* tabVentas
+** verificacion bug
+CLOCK: [2016-10-31 lun 19:28]--[2016-10-31 lun 20:09] =>  0:41
+Solucionado, pero -no me gusta- no encontre la causa.
+Al poner el numero de dni, busca el registro y lo carga pero el campo
+que tiene el bind asignado se llena o se appendea con caracteres
+raros.
+Yo antes pensaba que era culpa de LabelEntry, y cambie por Label y
+Entrys p.e. cuando hice el sabado el codart y art en el pedido, y hoy
+pensaba que era la correccion a LabelEntry y Entry1 que le habia hecho
+en el metodo set para que en caso de tener un valor nulo no diera
+error (cosa que tambien esta muy en el aire y sin probar pero
+permitio que siguiera adelante). 
+La realidad es que el fallo proviene del campo que tiene un bind,
+funciona el bind y deja los caracteres, que son unicode
+incomprensibles segun el error de python.
+Hice un parentesis para probar si era el problema que el bind agregaba
+un caracter extra y debia ponerse break, o evitar el bind de evento
+virtual, y nada, ni con <Return> puro, ni con break obtengo otro
+resultado.
+Lo real que levanto el registro, o sea que en el momento de gatillar
+el bind, el valor del campo es correcto, pero luego se corrompe o se
+le agrega unos caracteres malos, que aca no se ven, pero en la ofi si
+se ven.
+El workaround que tuve aca fue recargar el valor del campo, luego de
+levantado, o sea hacer de nuevo p.e. dni.set(cliente['dni']) y
+entonces tenemos el campo restaurado y listo para que el proceso siga.
+
+Lo raro de todo es que fichitas funcionaba bien la semana pasada, y en
+ofi pase un monton de fichitas. Y recien el sabado se manifesto este
+problema.
+Y no puede ser una actualizacion de tkinter pq aca la puedo haber
+hecho pero en oficina no actualice nada y alla se  manifesto hoy el
+problema.
+Da para estudiarlo en el futuro.
+
+
+
