@@ -1,20 +1,23 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-31 lun 20:09]
+#+CAPTION: Clock summary at [2016-11-03 jue 14:19]
 | Headline                                     |    Time |      |
 |----------------------------------------------+---------+------|
-| *Total time*                                 | *10:23* |      |
+| *Total time*                                 | *12:24* |      |
 |----------------------------------------------+---------+------|
-| Tab pedidos                                  |    8:51 |      |
+| Tab pedidos                                  |    9:30 |      |
 | \emsp haciendo subtab pasar clientes nuevos  |         | 1:16 |
 | \emsp bosquejamos el pasado de pedido        |         | 1:41 |
 | \emsp agregando posibilidad de carga...      |         | 1:00 |
 | \emsp parte logica - guardado del pedido     |         | 0:32 |
 | \emsp poner la linea check anulado/ causa... |         | 0:30 |
-| \emsp nuevas ideas                           |         | 2:27 |
+| \emsp nuevas ideas                           |         | 3:06 |
 | tab seven                                    |    0:51 |      |
 | tabVentas                                    |    0:41 |      |
 | \emsp verificacion bug                       |         | 0:41 |
+| Bug reaparece                                |    1:22 |      |
+| \emsp tabFechar                              |         | 0:46 |
+| \emsp reviso con pycharm lado a lado         |         | 0:36 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -196,6 +199,61 @@ Y no puede ser una actualizacion de tkinter pq aca la puedo haber
 hecho pero en oficina no actualice nada y alla se  manifesto hoy el
 problema.
 Da para estudiarlo en el futuro.
+
+
+
+* Bug reaparece
+** tabFechar
+CLOCK: [2016-11-01 mar 20:46]--[2016-11-01 mar 21:32] =>  0:46
+Habria que revisar con gitlab, linea por linea para atras lo que pueda
+haber afectado el enter en los campos con bind pq esto antes no
+estaba.
+Podria llegar a ser que los campos, no importa que sean entry o
+labelentry esten bindeados con return (o el virtual enter). Siendo que
+estan biendeados como all para movimiento, y en cambio cuando los
+bindie con focusout anduvo. veamos.
+
+Cuando pensaba que estaba solucionado me aparece un nuevo twist.
+lo pruebo en el ejemplo anterior, y anda bien, pero me corrompe el
+campo siguiente, en este caso el nombre.
+
+Pueden ser muchas cosas, ahora lo vamos aislando y sospechando de los
+bind de paso de campo, pero porque no se manifestaron antes, que los
+hizo aparecer ahora.
+
+Lo altamente sospechoso ahora es como si me internara en un juego de
+terror, es que anulando los bind de paso de campo el bug sigue igual y
+se manifiesta en el campo siguiente con focusout.
+
+Es tan raro que me hace sospechar del teclado, pero en tal caso
+andaria mal orgmode y emacs y todo.
+
+Revisaremos todo mañana cuando no este tan cansado.
+** reviso con pycharm lado a lado
+CLOCK: [2016-11-03 jue 13:43]--[2016-11-03 jue 14:19] =>  0:36
+CLOCK: [2016-11-03 jue 13:00]
+
+revisando parte que anda parte por parte
+*** padron femenino/masculino
+nada por el momento
+*** No entiendo nada. nada. nada.
+quiero ver que archivo lib.py esta tomando y los borro a todos, y los
+cambio de nombre y el archivo sigue arrancando como si nada.
+Este bug me esta consternando. Es una lastima porque venia bien y me
+esta cansando, me esta agotando.
+Ya no me gusta nada.
+*** parece nomas que el problema es con lib.py
+Despues de procesar todo, e ir agregando parte por parte y probando
+todo, se obtiene que nada es diferente.
+Y que la unica posibilidad es que python se deje llevar por el cache y
+alli algo se corrompa en un momento y por mas que el archivo este
+bien, nada parece andar.
+Abria que borrar el cache. Investigar si despues se puede andar sin
+cache.
+
+
+
+
 
 
 

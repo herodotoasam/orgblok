@@ -10,4 +10,8 @@ SCHEDULED: <2016-11-11 vie +2w>
 
 * Negocio
 ** Imprimir fichas de Elva y Monica
-   DEADLINE: <2016-10-30 dom +1m -3d>
+DEADLINE: <2016-11-30 mié +1m -3d>
+- State "DONE"       from ""           [2016-11-01 mar 20:32]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-01 mar 20:32]
+:END:

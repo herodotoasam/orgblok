@@ -304,21 +304,27 @@ Sin region el comando Cc | crea una tabla vacia
 
 
 ** TODO Intermedio                                                    :anki:
-SCHEDULED: <2016-10-31 lun .+10d>
+SCHEDULED: <2016-11-11 vie .+10d>
+- State "DONE"       from "TODO"       [2016-11-01 mar 20:38]
 - State "DONE"       from "TODO"       [2016-10-24 lun 19:35]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-24 lun 19:35]
+:LAST_REPEAT: [2016-11-01 mar 20:38]
 :END:
 *** Sort table
    Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
    las opciones en mayuscula)
    la columna usada para el sort es la active cuando llamamos el
    comando
-| k | a | l | 8 |
-| n | a | k | l |
-|---+---+---+---|
-| k | h | k | k |
-|---+---+---+---|
+| n | a | 21k | l |
+|---+---+-----+---|
+| k | h | 3k  | k |
+| a | a | 1l  | 8 |
+|---+---+-----+---|
+
+P.D. conviene usar org-table-sort-lines pq conseguir en este teclado
+la secuencia es cumbersome. Y el comando es casi en english directo.
+Recordar que en caso de lineas horizontales se sortea lo que esta
+entre linea y linea. no toda la columna.
 *** Agregar una linea horizontal
    Cc -
 *** Mover filas o columnas
@@ -330,14 +336,18 @@ SCHEDULED: <2016-10-31 lun .+10d>
    M-S-up borra la fila actual
    M-S-down agrega una fila en la posicion actual 
 ** TODO Avanzado                                                      :anki:
-SCHEDULED: <2016-10-31 lun +10d>
+SCHEDULED: <2016-11-10 jue +10d>
+- State "DONE"       from "TODO"       [2016-11-01 mar 20:44]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-01 mar 20:44]
+:END:
 *** sumar
    C-c + suma los items de la columna activa y C-y los pastea.
    O sea si estamos en una fila totalizadora hacemos C-c + y Cy y
    tenemos la suma puesta
 |  a |  b |  c |  d |
 |----+----+----+----|
-|  2 |  7 |  8 |  9 |
+|  2 |  7 |  8 |  9 |    
 |  9 |  9 |  9 |  9 |
 |  9 |  9 |  9 | 78 |
 |  0 |  8 |  9 |  7 |
@@ -388,6 +398,7 @@ Aca hice que la fila 11 sea una suma de las columnas en celdas de fila
 |----+-----+----+----+----|
 | 36 | 124 | 52 | 68 | 28 |
 #+TBLFM: @11=vsum(@2..@9)
+
 
 * habits
 [2016-10-17 lun]
@@ -452,7 +463,11 @@ grandes archivos.
 variable org-agenda-span
 - 
 * TODO org clock                                                       :anki:
-SCHEDULED: <2016-11-01 mar .+10d>
+SCHEDULED: <2016-11-11 vie .+10d>
+- State "DONE"       from "TODO"       [2016-11-01 mar 20:45]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-01 mar 20:45]
+:END:
 ** clock in - clock out 
 org-clock-in org-clock-out Cc-Cx-Ci Cc-Cx-Co
 bindeadas a F2/F3 

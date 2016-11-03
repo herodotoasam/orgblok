@@ -1,14 +1,28 @@
 * personal                                                         :personal:
 ** dpto                                                           :alquiler:
 *** TODO alquiler dpto  
-    DEADLINE: <2016-11-05 sáb +1m>
+DEADLINE: <2016-12-05 lun +1m>
+- State "DONE"       from "TODO"       [2016-11-03 jue 12:40]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-03 jue 12:40]
+:END:
 *** TODO expensas dpto
-    DEADLINE: <2016-11-05 sáb +1m>
+DEADLINE: <2016-12-05 lun +1m>
+- State "DONE"       from "TODO"       [2016-11-03 jue 12:41]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-03 jue 12:41]
+:END:
 *** TODO agua dpto
 *** TODO epec dpto                                                   :epec:
+SCHEDULED: <2017-01-12 jue +2m>
+
 ** auto                                                               :auto:
 *** TODO depositar por seguros 
-    DEADLINE: <2016-11-05 sáb +1m>
+DEADLINE: <2016-12-05 lun +1m>
+- State "DONE"       from "TODO"       [2016-11-03 jue 12:42]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-03 jue 12:42]
+:END:
 ** otros fijos
 *** TODO Claro 
 DEADLINE: <2016-11-25 vie +1m>
@@ -39,7 +53,11 @@ DEADLINE: <2016-12-17 sáb +2m>
 :END:
 *** TODO ecogas casa                                                  :gas:
 *** TODO telecom casa                                             :telecom:
-    DEADLINE: <2016-10-28 vie +1m>
+DEADLINE: <2016-11-28 lun +1m>
+- State "DONE"       from "TODO"       [2016-11-01 mar 20:33]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-01 mar 20:33]
+:END:
 ** otros fijos
 *** TODO Viaje de estudio Cami  
     DEADLINE: <2016-11-15 mar +1m -2d>
