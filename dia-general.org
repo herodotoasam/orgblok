@@ -2,19 +2,20 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-28 vie 11:14]
+#+CAPTION: Clock summary at [2016-10-29 sáb 23:04]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *1:57* |      |      |
+| *Total time*                | *3:29* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 1:57   |      |      |
-| \emsp Octubre               |        | 1:57 |      |
+| 2016                        | 3:29   |      |      |
+| \emsp Octubre               |        | 3:29 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
 | \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
 | \emsp\emsp [2016-10-25 mar] |        |      | 0:29 |
 | \emsp\emsp [2016-10-27 jue] |        |      | 0:11 |
-| \emsp\emsp [2016-10-28 vie] |        |      | 0:08 |
+| \emsp\emsp [2016-10-28 vie] |        |      | 0:23 |
+| \emsp\emsp [2016-10-29 sáb] |        |      | 1:17 |
 #+END:
 
 ** Junio
@@ -1411,6 +1412,7 @@ menos ayer y hoy.
 - cuidar la salud en estos momentos
 - de ultima no voy alla el sabado y me recupero
 *** [2016-10-28 vie]
+CLOCK: [2016-10-28 vie 20:35]--[2016-10-28 vie 20:50] =>  0:15
 CLOCK: [2016-10-28 vie 11:51]--[2016-10-28 vie 11:51] =>  0:00
 CLOCK: [2016-10-28 vie 11:05]--[2016-10-28 vie 11:13] =>  0:08
 Hoy debo notar un par de cosas, una es el estres que obviamente me
@@ -1437,11 +1439,237 @@ Creo que todo en base al habito.
 Nuevamente parado en la programacion y muy enchufado en la herramienta
 hasta el punto de lo innecesario ya, pq caemos a un nivel que
 sobrepasamos lo que hace falta para fluir.
+**** Cuanto tiempo te lleva programar
+Estos ultimos dias he notado algunas cosas, que estoy enfermo ya con
+emacs  y segundo que la programacion me cuesta y me cuesta que sea de
+calidad. Incluso hoy vi que si bien es cierto que funciona maso no es
+muy espectacular. Hay modulos que les falta mucho pulimiento.
+Y quiero poner com ejemplo el pasar pedidos, lleva 4 horas!!! y no
+tiene nada. A ese ritmo le faltan 6 horas. Y en realidad con ese
+tiempo terminare teniendo casi lo mismo que antes pero en python y con
+una pila de tiempo invertido.
+Esta bueno tambien que el clock te permita ver tambien exacto cuanto
+tiempo pasas en maquina en cada parte del proyecto.
+Como dije antes. emacs es algo para medirlo en años. Y la curva de
+aprendizaje que llevo es muy alta.
+**** emacs va cambiando mis habitos
+la integracion de la agenda, los habitos y los escritos y el control
+del trabajo va a terminar cambiando la forma de hacer las cosas
+siempre que siga en ello.
+*** [2016-10-29 sáb]
+CLOCK: [2016-10-29 sáb 10:32]--[2016-10-29 sáb 11:01] =>  0:29
+CLOCK: [2016-10-29 sáb 09:07]--[2016-10-29 sáb 09:38] =>  0:31
+**** reorganizacion de los diarios
+Pienso en re-organizar todo el sistema de escritos para no dispersarse
+y tener un sistema de mente-barrida y a la vez tener los elementos de
+informacion necesarios para luego trabajar sobre ellos cuando hagan
+falta.
+En general pienso que se divide en dos grandes temas o bien tres
+temas:
+1. programacion concretamente: o sea el diario de programacion con el
+   control de tiempo e items de avance y el diario de desarrollo donde
+   se estudian los aspectos teoricos y de alli se va a fichaje.py a
+   trabajar.
+2. diario personal y registros personales, donde "trabajo" sobre
+   registros personales o bien que no tienen que ver con la
+   programacion del proyecto, y es alli que yo digo que debo unificar
+   los archivos, mas que todos aquellos que son de escritura, para que
+   podamos clockearlos unificadamente. Al menos los de servicio (como
+   los especificos que apuntan a habits y agenda no son archivos que
+   se visiten muy mucho en forma directa).
+3. estudio, que es donde vamos volcando lo que voy aprendiendo y no
+   necesariamente es desarrollo o volcado interno.
+**** bitacora de un sabado
+hoy estoy aca con derecho y no puedo escapar a las generales de la
+ley.
+O sea o bien te sentis culpable o bien tenes que ser utilitario. Es
+decir que como permiso para estar aca tenes que aprovechar a hacer
+cosas utiles, si es posible mejor pedi permiso a ella, o autorizacion,
+y luego da la rendicion de cuenta de lo que hiciste. El sabado pasado
+tuve la limpieza de la oficina, que era un issue muy necesario para mi
+en ese momento (e increiblemente ayer con la ayudita de la romi que
+fue muy valiosa no lo digo ironicamente pq si ella no iba a comprar el
+balde yo no iba, y quizas no sacaba agua tampoco), y al final termine
+limpiando a fondo casi como el otro dia, solo que me resulto mas
+facil, pq no estaba sucio. Para hoy tenia el ir a comprar la
+camicleta. Y posiblemente otras cosas, pero no tengo ganas de salir,
+pq estoy un poco mareado y pq en realidad no tengo ganas, si casi que
+tampoco tengo ganas de salir a comprar nada para comer, y no se que me
+hare para comer.
+Lo de la camicleta creo que no es justo el momento pq el lolo tuvo el
+accidente y no vamos a ir con ese regalo para el euge sin algo para
+el, y ambos potencialmente peligrosos.
+
+Tengo que ver el tema de la comida, o sea que puedo hacer para ampliar
+la base de cosas que pueda comer. Va mas alla de no tener ganas de ir
+a comprar, sino que no tengo mas variantes.
+Pq p.e. me guio con nutricion energetica y voy a los cereales y las
+verduras pero no hago nada tampoco, termino con un arroz yamani, que
+le agregue ayer una lata de lentejas que se me termino ahi nomas y
+tomate. Tenemos que incorporar un par de opciones basicas que sean
+alternativas. 
+O sea ahi tendriamos menu 1 yamani, lentejas, tomate. Ok ahi lo vamos
+a organizar. Incluso lo vamos a articular con org. Abajo en Menues los
+menues concretos que se pueden hacer, y habria que hacer un registro
+diario o algo asi para ver maso lo que como, no para siempre sino para
+ver.
+Cuando me ataque el miedo a no parecerme a ese matematico que lei en
+mi niñez, creo que Roemers que registraba todo aspecto de su vida y
+eso me parecio agobiante, y cada vez que intento llevar un registro de
+algo me acuerdo de eso, recordarme que no es para siempre, y que los
+periodos registrados son utiles para analizar y tomar decisiones.
+**** muy bueno el sesamo
+CLOCK: [2016-10-29 sáb 14:25]--[2016-10-29 sáb 14:33] =>  0:08
+lo habia comprado hacia mucho y no lo prepare. Es muy facil tostarlo y
+luego molerlo como hago con el lino y lo envase y puse en la
+heladera. Cuando lo pones sobre el arroz o el tomate larga un aroma
+exquisito y tiene un sabor muy bueno tambien. Aparte las cualidades
+alimenticias a mejor disponibilidad que el tahin que es un producto
+caro y preparado no se sabe como.
+**** perdido por perdido
+creo que debo actuar asi, perdido por perdido. Como Darin y la
+Papaleo. o sea el tema bora, ir a hacer la transferencia y si rebota y
+se enquilomba ahi nomas ir a sucesion. Y el tema embargo, creo que hay
+que dejarlos venir y ahi ver, si conviene pagar o dejar que se lleven
+lo que se quieran llevar, si es que vienen, por ahi, no se van a meter
+en el chiquitaje de embargar muebles viejos si ellos estan para inhibir.
+**** muy disconforme con la programacion
+CLOCK: [2016-10-29 sáb 22:55]--[2016-10-29 sáb 23:04] =>  0:09
+no se si es producto del clock o si es por la verga de damocles
+isabelina de este sabado en dpto, o si es el pain del ojo que me
+empieza a molestar. 
+Pero me jode que llevo 7.15hs trabajando en el tab pedidos y no tengo
+nada muy espectacular y tanto el resultado como el programa en si es
+muy mediocre. En si no avanzo nada con relacion al mismo tipo de
+programa en tcl pq para hacer alguna funcionalidad que realmente
+marque la diferecia tendria que pensarla mucho y trabajarla mucho.
+Porque aca la bocha seria:
+1. que ergonomicamente el resultado sea mejor, que haya ganancia en
+   rapidez en los procesos
+2. que haya mas riqueza de datos recolectados y usados o factibles de
+   ser usados.
+3. que de ultima se pueda pulir la interface para que sea uniforme y linda
+4. que el programa en si sea claro, que no sea enredado, que no tenga
+   errores, que no sea dificil de mantener
+Aca la duda proviene o bien lo programado es muy muy bueno y me cuesta
+superarlo, o bien pierdo mucho tiempo en emacs/org/etc/
+O bien el clock marca la gran puta diferencia y fue monumental la
+cantidad de horas invertida en cada modulo, y ahora visto asi en
+blanco y negro la cantidad de horas destinada me asombro.
+Pero bueno. Habra que seguir.Paciencia. 
+Estoy en el medio del baile, no me queda otra. Al menos tendre que
+traducir y tener todo en la misma interfase.
+
+Lo otro es un tema personal, la bronca que me da con el tema
+isabelino.
+Pero eso pasaria igual con o sin programacion.
+*** [2016-10-30 dom]
+CLOCK: [2016-10-31 lun 09:07]--[2016-10-31 lun 09:26] =>  0:19
+Este fue el peor domingo que recuerde, y anoche la peor noche. Siento
+como un rechazo generalizado a todo, como de un lugar que me es
+contrario o adverso. Desde la beligerancia encubierta de ih, hasta la
+falta de respeto directa de las chicas, la comida, el desorden, todo.
+Ahora me planteo el por que me impongo semana tras semana esa
+tortura. Es como que me borraran la mente o la memoria semana tras
+semana y llegado el viernes estoy listo para ir corriendo a
+encanutarme alla.
+Yendo a lo practico, creo que la clave esta en el auto. Con el auto
+aca puedo ir un domingo "de visita" dejarlo afuera y volverme al
+rato. Pero mientras me plantee esta forma de pernoctancia, me resulta
+en la practica mas dificil salirme de alla.
+Cuando miro desde el punto del hartazgo del lunes, de la resaca del
+lunes me pregunto como puede ser que el sabado haya estado siquiera
+contaminado con ambas manifestaciones de la manipulacion o la
+culpabilidad, el utilitarismo y la incomodidad del apuntamiento. 
+Hay que decir tambien que muchos asuntos de negocios se mezclan con el
+finde, por eso quiero resolverlo de otra manera.
+Y por ultimo que hay rezagos de sentimentalismo luego del corte, pero
+que no revisten el menor analisis.
+*** [2016-10-31 lun]
+CLOCK: [2016-10-31 lun 12:56]--[2016-10-31 lun 13:05] =>  0:09
+Hoy atravese muchas etapas negativas. Autodestruccion, nerviosismo,
+incomodidad, suicidio, locura, espanto. Cuando iba a la mañana a la
+ofi pensaba que si me diagnosticaban algo feo o estigmatizante, me iba
+a bolivia o brasil y me perdia en la selva, quemaba los documentos y
+me pegaba un tiro.
+Confome fue avanzando la mañana fui despejando el camino del modulo
+tal cual lo imagine anoche cuando estaba acostado, y no sin esfuerzo
+salio bien, a pesar de que esforce la espalda un monton.
+Y estoy aislado.
+el programa mejoro pq es mas legible y va perfilando a tener
+utilidades que tcl no tenga, sino para que programo. Eso tambien es un
+karma.
+**** Me distraje mucho en el camino
+emacs y org-mode entre otras cosas me distrajeron mucho del camino que
+tendria que haber seguido que es haber definido bien los modulos que
+necesitaba en funcion de dos cosas:
+- las reglas de negocio que habia que poner
+- la informacion que necesitabamos
+Y al final me fui por la cordillera del himalaya y termine frustrado,
+pq ahora uso emacs que en cualquier momento me desencanta y
+cagamos. Es tan loco todo que en el fondo me llama la campanita de
+atom.
+Pero no. pq emacs lo tiene a org-mode, y eso es bueno para toda la
+organizacion de mi vida en general.
+**** Malestar emocional
+[2016-10-31 lun]
+Hoy es un dia en el cual no estoy bien. Estoy muy caido y me siento
+bastante mal. Me parece o me cuesta el malestar que acarreo, agregando
+capas de pelea o alejamiento. A la de la casa ih-chicas, tengo tambien
+la sensacion en la galeria que todo esta mal, con el problema de la
+puerta y en cierta forma en el edificio tambien no me siento muy
+comodo. Debo ser yo. Y cuando transito el centro me siento muy
+marginal. Se que es una percepcion pq no siempre estoy asi. Y quizas
+se me pase.
+*** [2016-11-01 mar]
+CLOCK: [2016-11-01 mar 20:02]--[2016-11-01 mar 20:22] =>  0:20
+Hoy nuevamente vi que algo que te preocupa mucho luego cuando lo haces
+no es nada. Pero esta vez lo maneje bien. Era acompañarlo al Fede a
+Colonia Caroya. Primero pense safar, pero luego pense que el
+necesitaba mi apoyo y me habia pedido que vaya con el. Y creo que fue
+importante que fuera. Tambien fue importante que todo lo decidiera por
+fuera del canal isabelino.
+Hoy tambien fui a la ecografia, aunque eso no me causo desasosiego,
+pero si molestias, hasta el punto que estuve a un minuto de abandonar,
+pq me meaba. Pero el analisis fue a fondo, y el lunes de nuevo Caeiro.
+Hoy y antes he pensado cuando preparo las bolsas de cortinas que eso
+me gusta, o sea me gusta el monoarticulo, me gusta esa venta hecha
+bien en un sistema monoarticulo bien dimensionado, y en especial de
+cortinas.
+Lo cual esta muy bueno, pq puede ser que termine haciendo al final
+algo que realmente me guste, sin importar la ganancia.
+Como pensaba hoy mismo con relacion a la Elva, o sea lo que podria ser
+una vision un poco idilica de las cosas, o sea siempre hay espinas,
+pero al menos si te gusta algo es mejor.
+Y de esa forma que yo imagine en ese momento para ella, vi despues que
+lo de las bolsitas me gustaba para mi. Aparte de la programacion
+obvio.
+Y el entender la naturaleza humana y obrar en consecuencia, y no
+renegar pq yo no la entienda o sea tozudo.
+** [2016-11-02 mié]
+CLOCK: [2016-11-02 mié 21:49]--[2016-11-02 mié 21:58] =>  0:09
+Hoy un dia de mucho estres. Quizas mas que ayer. Fuimos a retirar la
+kangoo. y mas que la llegada a autocity fue la contratacion del seguro
+a traves del telefono lo que causo mas tension, y luego la venida con
+el auto nuevo. Pero dentro de todo se desenvolvio bastante bien el
+hijo. Creo que le va a tomar la mano bastante rapido.
+Al menos dimos un paso importante en el negocio. Tanto como cuando
+abrimos de nuevo el local y pasamos de estar varados en patricios a
+tener una captacion, y luego cuando pasamos a tener una cobranza
+unificada. Y ahora pasar de andar en la calle con una mierdita de
+baulcito a tener una kangoo express es un salto cualitativo.
+Igualmente creo que el local va a dar un acomodamiento que ahora no
+hay pq esta todo despelotado y de esa forma sacaremos adelante toda
+esa cuestion del desorden, del stock sin contar, etc. 
+*** Hoy dia historico traje el bora
+lo cual cierra un ciclo creo. Y aunque eleva el gasto aca me permite
+mayor comodidad tanto de ir como de volver, y no me deja la obligacion
+de quedarme a pernoctar alla que era el problema que se habia
+planteado en forma tacita desde que vivo aca.
 * Constructos
 ** Be normal
 ** mind sweep
    
-
 * Temas a pensar y/o articular
 ** Seguridad en dpto
 
@@ -1451,18 +1679,297 @@ sobrepasamos lo que hace falta para fluir.
     utilidad en tenerlos, aparte del lugar que ocupan y luego viene lo
     dificultoso que es ponerse a romper una tonelada.
 
-* tema alimentario (luego trasladar a otro sitio)
-** opciones de comidas para considerar
-*** Guiso cereal y verduras
+* Diario de limpieza dpto
+** Registro de temporada
+*** [2016-10-29 sáb] guarde acolchado
+** Baño
+*** [2016-10-29 sáb]
+** Dormitorio
+*** [2016-10-29 sáb]
+c/cambio sabanas y rotacion colchon
+* Emacs
+** Necesarios
+*** atajo insertar dia con hora
+*** eliminar lo molesto que el autofill te mueva la ventana y muestre flechas
+** [[file:edu-emacs.org][emacs teoria]]
+
+* Diario de migrañas
+** Diario de migrañas fuertes
+*** [2016-10-09 dom]                                            :3M:fuerte:
+Me tomo el primer migral a las 9hs luego de una noche con molestias y
+espera a la mañana para tomar el migral.
+No considero que haya sido tardio en ese momento pq no me molesto ni
+subio en intensidad. Hice un poco de netbook en cama y luego me
+levante y trabaje en la terraza (con viento y sol), luego cuando
+llegaba la hora de la comida me puse a trabajar en el patio con la
+netbook a contrareloj muy presionado por terminar una secuencia antes
+que me llamaran a comer, entonces me sente a comer tensionado y con el
+clima beligerante de estos dias con las chicas. En ese momento pense
+que necesitaba otro migral, pero no quise arruinar el gusto de la
+comida, pero no comi tan feliz como en otras ocasiones.
+Justo al terminar el almuerzo me tome otro migral y me quede en el
+patio en un sitio mas o menos tranquilo tomando un te y el dolor
+subia. Pero no era incapacitante todavia.
+Me acuesto un rato y luego decido levantarme a tomar un cafe que tome
+con mucha torta y mucho dulce de leche. Y luego de una breve pausa
+para dormir que no debo haber dormido mas de diez minutos, bajo a
+hacerme un segundo cafe, mientras tanto sigo con la maquina y algunas
+frustraciones al medio.
+Dentro de esas frustraciones me planteaba el no dispersarme tanto y
+focalizarme en solo dos temas.
+El dolor subio y se mezclo con un bajon animico pronunciado y un
+malestar generalizado.
+Alli cuando me acuesto tipo 20.30 y empieza una migraña tipo 8 o 7,
+incapacitante hasta para pensar (pero mas por el malestar que por el
+dolor punzante). Cuando me lograba dormir me mejoraba un poco, a las
+21.30 ih me subio pure de calabazas que pude probar apenas pq estaba
+nauseoso. Tome reliveran a las 22.30 y en esas levantadas al baño el
+dolor por el movimiento era muy importante, igual que la fotofobia.
+Cuando hizo efecto el reliveran me tomo el tercer migral y en los
+proximos 45 minutos no experimente ninguna mejoria, acostado sobre el
+costado derecho me presionaba mucho la zona del higado, y sobre el
+costado izquierdo me presionaba la cabeza donde me dolia.
+Quizas una hora despues o dos, ya me mejore quedando solo la resaca
+que desaparecio durante la noche.
+*** [2016-10-15 sáb]                                        :3M:intermedio:
+Hoy desperte a las 4am con fuerte dolor, el clasico y claro dolor
+despertador que amerita un migral, tomo y me duermo, siendo
+efectivo. Me levanto bien, hago las tareas que habia pensado para el
+dia en forma bastante satisfactoria, salvo por dolor intenso en la
+espalda pq habia limpiado la oficina. Luego de comer bien (bifes con
+cebolla rucula papas), me meto en la compu para instalar un nuevo SO y
+el dolor va increscendo hasta hacerse un moderado que ameritaba otro
+migral y a eso de las 15hs me lo tomo, se aminora bastante y me echo
+una siestita que dormi con dificultad pero dormi, la dificultad fue
+por la falta de oscuridad total y por no tener hecha la cama, ya que
+necesito si o si ponerme los auriculares, debo haber dormido una hora
+en la misma posicion y despierto con un fuerte dolor de nuevo y me
+tomo el tercer migral del dia a las 17hs, sin nauseas hasta ahora, y
+no espero resolucion ni nada sino que me enfrasco en la compu, y en un
+momento de relax cuando miro por la ventana de la cocina, me golpeo
+fuertemente la frente, hasta el punto del sangrado, asi que ahora no
+se si tengo resaca o dolor del golpe. 
+Si bien es cierto que no tuvo la magnitud del domingo pasado, si
+podria haberlo ubicado en un comodo 6 en el momento de levantarme que
+me impediria las actividades. Y alli decidi ir al medico mañana. En
+realidad comenzar a ir a todos los medicos. O sea instalarme en el hp
+del patio olmos. o el central si hace falta. 
+*** [2016-10-18 mar]                                            :2M:fuerte:
+El domingo tomo dos migrales seguidos, me cayo un poco mal la comida
+(pollo al disco) y me percato que era tipo cefaleico y cedio bastante
+rapido y me bañe y me sente en la terraza y mejore bastante. 
+Ayer lunes en la oficina tome dos migrales con separacion de 2 horas
+mas o menos y tambien un dolor cefaleico moderado a molesto pero cedio
+practicamente cuando volvia a casa. Y hoy fue diferente, tomo los 2
+migrales con diferencia de una hora, y recien despues de 5 horas de
+haber tomado el ultimo puedo sentarme a escribir esto mas o menos en
+la cama. Me volteo, altamente incapacitante creo que a nivel 7, un
+poco menos que el domingo 9 pq casi no tuve nauseas. Solo un poco en
+la hora de la toma de los migrales, y repeticiones de la comida a
+pesar que fue yamani con rucula y quesito. Hace un rato me tome un te
+con galletas queso y miel y me fui mejorando paulatinamente. Del
+cefaleico parecido a los ultimos dos dias, se fue transformando en
+levemente migraico y luego cediendo.
+Creo que la causa real es que ya estoy en las ultimas del migral y los
+dolores son mas fuertes y descontrolados.
+*** [2016-10-26 mié]                                            :2M:fuerte:
+Me desperte bien, dentro del malestar que vengo teniendo de tinitus
+por asi decirlo, p.e. anoche no dormi con lluvia, y tuve sueños
+confusos. Me despierto con el dolorcito insidioso de siempre y me tomo
+un migral a las 7 am. Y el malestar no se va y se agrava. Decido tomar
+otro migral a las 8am para terminar con el asunto y se me agrava mas,
+y empiezo a devenir nauseoso.
+14.5/10 la presion, sin hambre, mal, nauseas, casi diria mareos o
+confusion. Tenia la presion ridicula de tener que ir a la dgr
+(ridicula pq como dijo dyer al final termino siendo menor que lo que
+yo imaginaba).
+"La catastrofe que tanto te preocupa, a menudo resulta menos horrible
+en la realidad, de lo que fue en tu imaginacion"
+Cuando fui, pq baje para ir a comprar los remedios y termine yendo por
+ratos o cuadras me sentia mejor, pero en realidad me senti mejor que
+p.e. lo que estoy ahora a las 12.30 en casa.
+Me tome 10mg de corti a las 11.30hs y hasta ahora estoy peor. Me tome
+a la misma hora 35 gotas de reliveran y sigo nauseoso, y de pedo tome
+un te con dos galletas y queso.
+
+
+
+** Diario de dias 3 Migrales aunque no migrañas fuertes
+*** [2016-10-13 jue]                                          :3M:moderado:
+   Desperte a la 1 de la mañana y tome un migral con un trago de
+   licuado. Y si bien es cierto que pude dormir lo mas bien, cada vez
+   que me despertaba sentia molestia, y me decia que ojala la molestia
+   no significara un segundo migral, y felizmente llegue a la
+   mañana. Luego desayuno y voy a la ofi. Y alli tipo 11hs tomo un
+   migral normal como hago siempre, y luego de nuevo en la ofi a la
+   tarde siento que el dolor va in crescendo y tipo 16hs tomo otro
+   sabiendo que tenia que quedarme hasta las 17 obligadamente. 
+   Luego llego a casa en un estado raro, no queria sentarme a
+   programar, me sentia saturado, y me hice una merienda frutal con
+   manzana, arandanos y frutilla y medio vaso de licuado, previamente
+   haberme bañado tranquila y relajadamente, todo esto mientras veia
+   la mitad de la pelicula que habia dejado pendiente, y la verdad que
+   me relaje bastante, luego me recoste un rato (en realidad el orden
+   de estos sucesos ya los olvide pero el resultado grato lo recuerdo)
+   la cosa que despues si me sente a programar y la verdad que fue
+   altamente productivo el tiempo que estuve, en cierta forma como
+   destrabado. Quizas sea que haya aprovechado una base que habia
+   hecho en la oficina, pero si me senti como que "fluyo" el trabajo y
+   me senti como que podia terminar alli mismo todo el modulo, pero me
+   fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
+   en el ojo, aunque no son en el ojo sino en el arco superciliar.
+
+* Movies
+** Films
+*** The irrational man                       :profesor:filosofia:asesinato:
+   [2016-10-13 jue] Cuenta la historia de un profesor de filosofia que
+   viene a una facultad y el tipo esta atravesando un bajon
+   existencial. La vida no le interesa y atraviesa un gran displacer,
+   nada le resulta placentero. Es sombrio, oscuro y practicamente esta
+   abandonado. Comienza una amistad con una alumna que intenta sin
+   exito sacarlo de ese marasmo. Un dia casualmente escuchan una
+   conversacion en un bar sobre un juez que estaba arruinandole la
+   vida a una mujer por abuso de poder en su cargo, y repentinamente
+   el profesor encuentra en el asesinar a dicho juez su razon de
+   vivir. A partir de ese momento su vida renace en todos los sentidos
+   que antes estaban bloqueados. Comete el asesinato, pensando que no
+   iba a ser descubierto, y al poco tiempo la misma alumna con quien
+   ya ha comenzado un affaire lo descubre y confronta. La situacion se
+   complica cuando la chica lo obliga a confesar el crimen pq alguien
+   inocente va a ser inculpado y el ya no quiere abandonar los
+   placeres de esta nueva vida que acaba de conseguir y decide matar a
+   la chica para cubrir su crimen, intento que casualmente le falla y
+   muere accidentalmente el mismo.
+   :Calificacion: 4/5
+   :Actor: Joaquin Phoenix
+
+** Series
+*** The Night of                        :prision:inocente:juicio:granintro:
+   [2016-10-17 lun] Terminada.
+   8 capitulos.
+   Narra la historia de un chico pakistani en NY que le saca sin
+   permiso el taxi a su padre (que a su vez lo tiene en sociedad con
+   dos mas y que representa su unica fuente de ingresos que les
+   permite tener una vida de clase media a pesar de ser inmigrantes)
+   con la finalidad de ir a una fiesta y la cadena de sucesos lo lleva
+   a conocer una chica rica drogadicta y con problemas que lo lleva a
+   la casa donde tienen sexo y juegos peligrosos, luego despierta
+   abajo en la cocina sin saber que paso anoche y cuando sube a la
+   habitacion la chica esta muerta con un monton de puñaladas. Entra
+   en panico y escapa, pero olvida las llaves del auto, cuando quiere
+   entrar de nuevo a la casa tiene que romper un vidrio y eso alerta a
+   los vecinos, saca las llaves, se lleva el cuchillo ensangrentado y
+   sale a los piques con el taxi, y luego casualmente por doblar mal
+   una esquina lo para la policia y lo detienen por ebriedad. Y cae a
+   la misma comisaria donde se procesa el asesinato, donde al final lo
+   detienen.
+***** La vida y el trabajo del abogado
+el abogado tiene una vida de mierda. Esta solo, separado y viejo,
+encima la relacion con el hijo no es buena ni es mala pero no es
+fluida. Y lo peor de todo que tiene una enfermedad estigmatizante que
+hace que los demas lo vean repugnante. 
+***** La vida y la historia previa de la chica
+una chica rica, heredera, drogadicta, con problemas con una pareja que
+la estafo. 
+***** La vida y el entorno del chico
+una familia muy tradicional, inmigrantes sufrientes por lo del 9/11 y
+ser arabes, clase media, buen pasar
+***** Como reacciona la familia
+el padre cree siempre en el chico, a pesar de que lo que hizo resulta
+catastrofico para la economia de la familia pq pierde el taxi que es
+su negocio, no se lo ve resentido, y la madre pierde la fe en el chico
+cuando en el juicio ve lo que supuestamente ha hecho
+***** La actuacion de la abogada
+primero la usan por su nacionalidad como palanca luego le tiran el
+caso para el cual no esta preparada, y luego comete unos errores
+garrafales que pueden costarle la carrera, parece que se enamora del
+chico y luego comete directamente el delito de pasarle droga. No se ve
+que luego el chico le corresponda
+***** el chico sobrevivio
+se adapto a la vida de la prision, en todo momento parecia tener un
+amor fati. 
+***** Conclusion
+muy buena serie, la volveria a ver, la introduccion genial
+*** WestWorld                                              :west:androides:
+Episodio 1 [2016-10-24 lun]
+Cuenta un parque de diversiones enorme que recrea el viejo oeste y
+todo atendido por androides casi humanos, los cuales poseen IA, pero
+tienen limitaciones en el programa, p.e. que no pueden dañar a los
+humanos y olvidan cada temporada lo que paso antes.
+Y asi parece que han hecho negocios por mas de treinta años.
+Hasta que en una actualizacion del firmware de los androides que les
+permite tener gestos mas realistas, comienzan a tener sintomas raros
+que aparentemente provienen de que se le mezclan los recuerdos (que
+serian memorias en este caso) pero produciendo efectos espeluznantes
+en aquellos que olvidan que son maquinas programadas.
+**** Arnold y su busqueda de conciencia
+la consciencia evoluciono en base a errores.
+**** [2016-10-29 sáb] Las historias o relatos que cargan en los huespedes
+se parecen mucho a las boludeces que nos motivan y nos ocupan o nos
+alienan a nosotros. Lo facsinante de la serie es el parecido con los
+seres humanos, o sea como que nosotros somos ellos y hubiera una
+instancia superior desconocida para nosotros que nos maneja de igual
+forma. Hay muchas cosas inexplicables en los seres humanos. Obviamente
+la serie se inventa sobre la base de la experiencia humana, eso no es
+real, pero porque no, que es la realidad, asi como un programa es real
+dentro de sus propias reglas de juego, nosotros podemos ser una pieza
+de un juego cosmico de proporciones desmesuradas que no conocemos.
+* Alimentaria
+** Menues
+*** Yamani-Lenteja-Tomate
+*** Mijo-Amaranto-Calabacin
+** Incorporados
+*** Lino 
+*** Sesamo
+comprar bolsa 100 gramos organico
+tostar
+moler
+** tema alimentario (luego trasladar a otro sitio)
+*** opciones de comidas para considerar
+**** Guiso cereal y verduras
     puse una rodaja de calabaza, un poco de sal, un poco de mijo
     lavado y un poco de amaranto y lo hervi. Feo olor, como comida de
     perro pero se deja comer bastante, con oliva y un poquito de queso
     rico
-*** Usar la legumbre en latas
+**** Usar la legumbre en latas
     antes que nada es mejor  y permite combinar el cereal.
 *** Un tomatito, lentejas, ajito y una ensaladita que acompaña
 
 xxx
 
 kkk
+=======
+**** Un tomatito, lentejas, ajito y una ensaladita que acompaña
+* Diario de Sintomas
+** insomnio de piernas inquietas y/o presion intercostal
+*** [2016-10-30 dom]
+que se manifiesta pq te das vuelta ocho mil veces, y las piernas no
+duelen pero estan como anudadas, y molestan. Y no podes estar de
+costado pq te duelen las costillas como que algo te presionara adentro
+y eso te obliga a darte vuelta cada dos minutos, y solo quizas
+acostarte boca arriba pero asi uno normalmente no duerme.
+** mareos generales o sensacion de mareos
+*** [2016-10-30 dom]--[2016-10-31 lun]
+en especial luego e inmediatamente despues de la toma del migral. El
+domingo tomo un migral a la mañana con un malestar un poco menor, pero
+cuando lo tomo a la nochecita el malestar fue tan grande e inmediato
+que pense que me iba a desmayar. Incluso le dije a ih que no se
+asustara si me desmayaba y pense que no llegaba a la pieza
+arriba. Luego me acoste y se me fue el mareo, o no lo percibi como
+vertigo y comenzo el sintoma del insomnio. Y esta mañana, me levante
+como si no hubiera dormido nada anoche, como si me hubiera aplastado
+algo, como si los musculos de los brazos tuvieran cansados luego de un
+dia de mucha fuerza o ejercicios. Y siento un sintoma de mareito.
+** Puntaditas en los arcos supercilliarres
+*** [2016-10-31 lun]
+no muy pronunciadamente como en descripciones anteriores pero he
+tenido molestias durante el dia, en especial en la oficina, mayormente
+en el lado izquierdo, pero me parece que tambien pasa al otro lado
+** Dolor o molestia en sona de vejiga
+*** [2016-10-31 lun]
+no lo habia anotado nunca y no se si es sogaca por lo de la ecografia,
+pero en cierta forma tengo un dolorcillo hace tiempo en el area,
+pareciera superficial, mas tipo hernioso.
+
+
 

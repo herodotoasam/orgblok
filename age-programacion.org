@@ -1,13 +1,23 @@
-Agenda de programacion clockeada.
+Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-10-28 vie 12:28]
-| Headline                                    | Time   |      |
-|---------------------------------------------+--------+------|
-| *Total time*                                | *3:17* |      |
-|---------------------------------------------+--------+------|
-| Tab pedidos                                 | 3:17   |      |
-| \emsp haciendo subtab pasar clientes nuevos |        | 1:16 |
-| \emsp bosquejamos el pasado de pedido       |        | 0:36 |
+#+CAPTION: Clock summary at [2016-11-03 jue 14:19]
+| Headline                                     |    Time |      |
+|----------------------------------------------+---------+------|
+| *Total time*                                 | *12:24* |      |
+|----------------------------------------------+---------+------|
+| Tab pedidos                                  |    9:30 |      |
+| \emsp haciendo subtab pasar clientes nuevos  |         | 1:16 |
+| \emsp bosquejamos el pasado de pedido        |         | 1:41 |
+| \emsp agregando posibilidad de carga...      |         | 1:00 |
+| \emsp parte logica - guardado del pedido     |         | 0:32 |
+| \emsp poner la linea check anulado/ causa... |         | 0:30 |
+| \emsp nuevas ideas                           |         | 3:06 |
+| tab seven                                    |    0:51 |      |
+| tabVentas                                    |    0:41 |      |
+| \emsp verificacion bug                       |         | 0:41 |
+| Bug reaparece                                |    1:22 |      |
+| \emsp tabFechar                              |         | 0:46 |
+| \emsp reviso con pycharm lado a lado         |         | 0:36 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -48,6 +58,9 @@ pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
 qu expresamente los limpie, etc.
 Era un bug en bwidget.py, ya lo arregle pero lo mismo no limpia.
 ** bosquejamos el pasado de pedido
+CLOCK: [2016-10-29 sáb 11:29]--[2016-10-29 sáb 11:51] =>  0:22
+CLOCK: [2016-10-29 sáb 11:17]--[2016-10-29 sáb 11:27] =>  0:10
+CLOCK: [2016-10-28 vie 19:50]--[2016-10-28 vie 20:23] =>  0:33
 dejo para despues cuando tenga mas concentracion.
 Pasado de pedido: Encabezo el subtab con id y nombre del que compra y
 luego vamos con los datos del pedido en si.
@@ -55,3 +68,192 @@ CLOCK: [2016-10-28 vie 11:51]--[2016-10-28 vie 12:27] =>  0:36
 Done: Tanto buscando en el cuadro buscar como creando un cliente nuevo
 se termina en subtab pedido con un encabezado en label rojo con el id
 y nombre del cliente a procesar.
+Inicio apenas el pedido.
+
+bugs: class LabelFecha que ponga la fecha de hoy con . o h.
+arreglar los tamaños de la linea.
+Corregido. Estaban mal los nombres de los keysym era period y
+KP_Decimal para punto y habia un error en delete(0,END,hasta) el hasta
+estaba de mas.
+Arreglado los tamaños a mano y agregado el campo de info seven, que
+tendra que ser registrado en algun lado, lo cual no es malo, pq toda
+esa data siempre se perdio y es muy relevante. .
+** agregando posibilidad de carga general de datos
+CLOCK: [2016-10-29 sáb 12:09]--[2016-10-29 sáb 13:09] =>  1:00
+ya esta hecha la linea de datos, que funciona a nivel general. Me
+trabo un bug o un pitfall de labelentry con el metodo set, que ya lo
+he tenido, es decir cuando asigno mediante un bind un valor a un
+labelentry se ponen unos signos raros en el campo lanzador del bind y
+no surte efecto el bind, yo lo atribuia en principio a que andaba mal
+el teclado fisico mio, pero aca lo probe con entrys sueltos o sea sin
+label entry y anda joyita o sea que eso me plantea el tema de tener
+que usar esos atajos que en principio parecieron ideales y que ahora
+no lo son. pq en el caso de que tengo que usar un frame horizontal, es
+rapidisimo incorporar los label sueltos y el ancho se calcula solo y
+mejor.
+** parte logica - guardado del pedido
+CLOCK: [2016-10-29 sáb 20:32]--[2016-10-29 sáb 21:04] =>  0:32
+guardado todos los campos en tabla pedido. No se guardan los que no
+son relevantes en esta etapa p.e. fechaentrega pq suponemos como regla
+de negocio que el promotor vende para entregar en lo inmediato y se
+puede suponer una fecha de entrega del mismo dia o dia siguiente. 
+Alli faltaria una funcion dia-habil-siguiente. TODO
+Guardo la infoseven recabada en un campo agregado en tabla clientes
+para uso posterior.
+Puse un tbls de muestra con recalc automatico.
+** poner la linea check anulado/ causa anulamiento.
+CLOCK: [2016-10-29 sáb 22:24]--[2016-10-29 sáb 22:54] =>  0:30
+estaria listo esa parte en lo visual. faltaria la parte logica o sea
+incluirlo en el guardado.
+Y establecer borrado en el tbls de pedidos.
+** nuevas ideas
+*** que la busqueda dni, empalme a padron directo
+y aparte esten las ya programadas de padron f/m/pf/pm
+*** que haya un buffer de edicion de datos/ingreso de cliente nuevo
+CLOCK: [2016-10-31 lun 12:27]--[2016-10-31 lun 12:56] =>  0:29
+CLOCK: [2016-10-31 lun 11:37]--[2016-10-31 lun 12:27] =>  0:50
+en el mismo set de campos
+
+*** como se ingresaria un pedido
+uno pone el dni que da el promotor, si coincide barbaro, si no
+coincide lo tenes que buscar por nombre y/o direccion, para evitar
+homonimos y avivados, ya ahi el viejo rx fallaba y el cuadro de
+busqueda es muy potente para eso.
+Pero luego no debemos quedar sin el cuadro de edicion de
+datos/agregado pq es mas practico, y luego pasamos el pedido. Podemos
+ver un tbls aunque sea chiquito de confirmacion de pedidos pasados,
+pero en un subtab aparte tenemos todos los pedidos.
+*** hacer un tipo packer-linea como tenia antes
+CLOCK: [2016-10-31 lun 11:00]--[2016-10-31 lun 11:37] =>  0:37
+eso permitiria componer la linea mas facilmente y luego packear o
+placear las lineas en si.
+el codigo quedara mas compacto y sera mas facil y rapido programar.
+*** Poner un cuadro de informacion resaltada en el frente a la derecha
+CLOCK: [2016-10-31 lun 14:05]--[2016-10-31 lun 14:36] =>  0:31
+deudor, seven, pagando, pedido rechazado, lista negra, etc. cosa de
+que no sea facil pasarse por alto un moroso cuando uno pasa el pedido.
+El cuadro de informacion de cliente debe asegurar que uno no se
+equivoque y que pueda investigar mas si hace falta. 
+Indicar p.e. si hay otros clientes en la direccion, (lo ideal seria
+que tambien vea si hay morososos en direcciones cercanas).
+
+*** guardar cliente nuevo editar cliente
+CLOCK: [2016-10-31 lun 21:33]--[2016-10-31 lun 22:12] =>  0:39
+al apretar boton guardar define editar o crear depende si existe el
+idcliente, editamos todos los datos muy facilmente y nos avisa un
+balloon que ha sido editado o creado el cliente.
+*** mejorar el tabVer para que se pueda dirigir alli las vistas
+dirige a Fechar por necesidad, tendria que arreglar la pestaña Ver
+para que se pudiera ver ahi, con mas claridad. faltaria un encabezado
+de busqueda individual.
+
+
+* tab seven
+CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
+CLOCK: [2016-10-29 sáb 18:41]--[2016-10-29 sáb 19:08] =>  0:27
+CLOCK: [2016-10-29 sáb 18:06]--[2016-10-29 sáb 18:23] =>  0:17
+revision
+*** tema capitalizacion del nombre. 
+yo lo hice con la planilla de calculo y pretendi hacerlo dentro de
+python en un toque y no fue tan facil pq no salio bien.
+capitalizo la primera parte del nombre.
+seria split, capitalize, con excepciones del, las la de 
+unir el string de nuevo
+Se hizo una funcion que es mas eficiente que la funcion de libreoffice
+que no tiene en cuenta las particulas.
+*** tema bug calle arce cabeza de vaca ver.
+solucionado via string.replace(',',' ') o sea limpio la cadena de
+calle de todos los signos que puedan interferir.
+* tabVentas
+** verificacion bug
+CLOCK: [2016-10-31 lun 19:28]--[2016-10-31 lun 20:09] =>  0:41
+Solucionado, pero -no me gusta- no encontre la causa.
+Al poner el numero de dni, busca el registro y lo carga pero el campo
+que tiene el bind asignado se llena o se appendea con caracteres
+raros.
+Yo antes pensaba que era culpa de LabelEntry, y cambie por Label y
+Entrys p.e. cuando hice el sabado el codart y art en el pedido, y hoy
+pensaba que era la correccion a LabelEntry y Entry1 que le habia hecho
+en el metodo set para que en caso de tener un valor nulo no diera
+error (cosa que tambien esta muy en el aire y sin probar pero
+permitio que siguiera adelante). 
+La realidad es que el fallo proviene del campo que tiene un bind,
+funciona el bind y deja los caracteres, que son unicode
+incomprensibles segun el error de python.
+Hice un parentesis para probar si era el problema que el bind agregaba
+un caracter extra y debia ponerse break, o evitar el bind de evento
+virtual, y nada, ni con <Return> puro, ni con break obtengo otro
+resultado.
+Lo real que levanto el registro, o sea que en el momento de gatillar
+el bind, el valor del campo es correcto, pero luego se corrompe o se
+le agrega unos caracteres malos, que aca no se ven, pero en la ofi si
+se ven.
+El workaround que tuve aca fue recargar el valor del campo, luego de
+levantado, o sea hacer de nuevo p.e. dni.set(cliente['dni']) y
+entonces tenemos el campo restaurado y listo para que el proceso siga.
+
+Lo raro de todo es que fichitas funcionaba bien la semana pasada, y en
+ofi pase un monton de fichitas. Y recien el sabado se manifesto este
+problema.
+Y no puede ser una actualizacion de tkinter pq aca la puedo haber
+hecho pero en oficina no actualice nada y alla se  manifesto hoy el
+problema.
+Da para estudiarlo en el futuro.
+
+
+
+* Bug reaparece
+** tabFechar
+CLOCK: [2016-11-01 mar 20:46]--[2016-11-01 mar 21:32] =>  0:46
+Habria que revisar con gitlab, linea por linea para atras lo que pueda
+haber afectado el enter en los campos con bind pq esto antes no
+estaba.
+Podria llegar a ser que los campos, no importa que sean entry o
+labelentry esten bindeados con return (o el virtual enter). Siendo que
+estan biendeados como all para movimiento, y en cambio cuando los
+bindie con focusout anduvo. veamos.
+
+Cuando pensaba que estaba solucionado me aparece un nuevo twist.
+lo pruebo en el ejemplo anterior, y anda bien, pero me corrompe el
+campo siguiente, en este caso el nombre.
+
+Pueden ser muchas cosas, ahora lo vamos aislando y sospechando de los
+bind de paso de campo, pero porque no se manifestaron antes, que los
+hizo aparecer ahora.
+
+Lo altamente sospechoso ahora es como si me internara en un juego de
+terror, es que anulando los bind de paso de campo el bug sigue igual y
+se manifiesta en el campo siguiente con focusout.
+
+Es tan raro que me hace sospechar del teclado, pero en tal caso
+andaria mal orgmode y emacs y todo.
+
+Revisaremos todo mañana cuando no este tan cansado.
+** reviso con pycharm lado a lado
+CLOCK: [2016-11-03 jue 13:43]--[2016-11-03 jue 14:19] =>  0:36
+CLOCK: [2016-11-03 jue 13:00]
+
+revisando parte que anda parte por parte
+*** padron femenino/masculino
+nada por el momento
+*** No entiendo nada. nada. nada.
+quiero ver que archivo lib.py esta tomando y los borro a todos, y los
+cambio de nombre y el archivo sigue arrancando como si nada.
+Este bug me esta consternando. Es una lastima porque venia bien y me
+esta cansando, me esta agotando.
+Ya no me gusta nada.
+*** parece nomas que el problema es con lib.py
+Despues de procesar todo, e ir agregando parte por parte y probando
+todo, se obtiene que nada es diferente.
+Y que la unica posibilidad es que python se deje llevar por el cache y
+alli algo se corrompa en un momento y por mas que el archivo este
+bien, nada parece andar.
+Abria que borrar el cache. Investigar si despues se puede andar sin
+cache.
+
+
+
+
+
+
+

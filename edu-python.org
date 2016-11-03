@@ -1,0 +1,30 @@
+Edu Python
+
+* TODO list
+SCHEDULED: <2016-11-05 sáb .+7d>
+
+** Conocidos
+*** list.append(x) 
+add an item to the end of the list
+*** list.insert(i,x)
+insert an item at a given position.
+*** list.remove(x)
+remove the first item from the list whose value is x. It is an error
+if there is no such item
+*** list.sort(key=None,reverse=False)
+sort the items of the list in place
+*** list.reverse()
+reverse the elements of the list in place
+** Poco conocidos o utiles quizas
+*** list.extend(L)
+extend the list by appending all the items in the given list L.
+*** list.pop([i])
+remove the item at the given position in the list, and return it. If
+no index is specified, a.pop() removes an returns the last item in the
+list.
+*** list.clear()
+remove all the items from the list.
+*** list.count(x)
+return the number of times x appears in the list
+*** list.copy()
+return a shalow copy of the list
