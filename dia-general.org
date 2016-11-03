@@ -1621,6 +1621,7 @@ puerta y en cierta forma en el edificio tambien no me siento muy
 comodo. Debo ser yo. Y cuando transito el centro me siento muy
 marginal. Se que es una percepcion pq no siempre estoy asi. Y quizas
 se me pase.
+** Noviembre
 *** [2016-11-01 mar]
 CLOCK: [2016-11-01 mar 20:02]--[2016-11-01 mar 20:22] =>  0:20
 Hoy nuevamente vi que algo que te preocupa mucho luego cuando lo haces
@@ -1646,7 +1647,7 @@ lo de las bolsitas me gustaba para mi. Aparte de la programacion
 obvio.
 Y el entender la naturaleza humana y obrar en consecuencia, y no
 renegar pq yo no la entienda o sea tozudo.
-** [2016-11-02 mié]
+*** [2016-11-02 mié]
 CLOCK: [2016-11-02 mié 21:49]--[2016-11-02 mié 21:58] =>  0:09
 Hoy un dia de mucho estres. Quizas mas que ayer. Fuimos a retirar la
 kangoo. y mas que la llegada a autocity fue la contratacion del seguro
@@ -1661,11 +1662,21 @@ baulcito a tener una kangoo express es un salto cualitativo.
 Igualmente creo que el local va a dar un acomodamiento que ahora no
 hay pq esta todo despelotado y de esa forma sacaremos adelante toda
 esa cuestion del desorden, del stock sin contar, etc. 
-*** Hoy dia historico traje el bora
+**** Hoy dia historico traje el bora
 lo cual cierra un ciclo creo. Y aunque eleva el gasto aca me permite
 mayor comodidad tanto de ir como de volver, y no me deja la obligacion
 de quedarme a pernoctar alla que era el problema que se habia
 planteado en forma tacita desde que vivo aca.
+*** [2016-11-03 jue]
+CLOCK: [2016-11-03 jue 16:15]--[2016-11-03 jue 16:17] =>  0:02
+Hoy es un dia de mierda, en el cual siento que todo se complica, y que
+fisicamente estoy mal.
+Creo que todo se complico cuando ayer ih dijo lo mal que estaba mi
+vieja y yo lo relacione con el embole mayusculo del problema de mi
+auto.
+Es eso nomas. No es otra cosa.
+Por otra parte, me alegra haber aparentemente acomodado el aire en el
+dpto y aparentemente encontrado el bug del programa.
 * Constructos
 ** Be normal
 ** mind sweep
@@ -1818,6 +1829,15 @@ un te con dos galletas y queso.
    me senti como que podia terminar alli mismo todo el modulo, pero me
    fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
    en el ojo, aunque no son en el ojo sino en el arco superciliar.
+*** [2016-11-03 jue]
+Me despierto a las 3am con urgencia de migral, tomo y no se limpia
+correctamente, y con nerviosismo pq tenia una mañana muy complicada,
+de rendicion y preparacion (caso unico) quizas jugo en contra para
+tomarme un segundo  migral a las 6 con reliveran, y luego mejoro con
+otros sintomas concomitantes (ver sintomas aparte). Luego a las 15 en
+oficina me invade un malestar y termino cediendo a un tercer migral
+que hasta el momento unos treinta minutos despues parece haber sido
+efectivo, y tengo dudas si cien por ciento necesario.
 
 * Movies
 ** Films
@@ -1965,11 +1985,29 @@ dia de mucha fuerza o ejercicios. Y siento un sintoma de mareito.
 no muy pronunciadamente como en descripciones anteriores pero he
 tenido molestias durante el dia, en especial en la oficina, mayormente
 en el lado izquierdo, pero me parece que tambien pasa al otro lado
-** Dolor o molestia en sona de vejiga
+*** [2016-11-03 jue]
+hoy vuelve la molestia, desde la mañana, que esta fuertemente asociada
+a ojo seco, y me pongo gotas y me arde.
+** Cansancio inhabitual
+*** [2016-11-03 jue]
+al estilo un poco de los corticoides,o sea desgano, ganas de
+acostarse, muchisimo sueño a horas en que antes no me iba a acostar
+todavia.
+
+** Dolor o molestia en zona de vejiga
 *** [2016-10-31 lun]
 no lo habia anotado nunca y no se si es sogaca por lo de la ecografia,
 pero en cierta forma tengo un dolorcillo hace tiempo en el area,
 pareciera superficial, mas tipo hernioso.
-
-
-
+** dolor de espalda
+*** [2016-11-03 jue]
+aca seria un dolor atipico, pq dolor de espalda en mi es cronico, y a
+pesar de hacer los ejercicios, estoy como doblado, y no por excesivo
+dolor sino como no poderme enderezar cuando camino en calle.
+** grano o lunar en brazo
+*** [2016-11-03 jue]
+cerca del brazo, mas o menos 1 mm de diametro, color marron, otro en
+la cara interior del brazo arriba del codo, un poco mas chico.
+** acidez extema
+*** [2016-11-03 jue]
+a lo 2006, que me obliga a tomar agua+
