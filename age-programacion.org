@@ -1,37 +1,37 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-03 jue 21:48]
-| Headline                                     |    Time |      |
-|----------------------------------------------+---------+------|
-| *Total time*                                 | *13:22* |      |
-|----------------------------------------------+---------+------|
-| Tab pedidos                                  |    9:30 |      |
-| \emsp haciendo subtab pasar clientes nuevos  |         | 1:16 |
-| \emsp bosquejamos el pasado de pedido        |         | 1:41 |
-| \emsp agregando posibilidad de carga...      |         | 1:00 |
-| \emsp parte logica - guardado del pedido     |         | 0:32 |
-| \emsp poner la linea check anulado/ causa... |         | 0:30 |
-| \emsp nuevas ideas                           |         | 3:06 |
-| tab seven                                    |    0:51 |      |
-| tabVentas                                    |    0:41 |      |
-| \emsp verificacion bug                       |         | 0:41 |
-| Bug reaparece                                |    2:20 |      |
-| \emsp tabFechar                              |         | 0:46 |
-| \emsp reviso con pycharm lado a lado         |         | 1:34 |
+#+CAPTION: Clock summary at [2016-11-04 vie 13:31]
+| Headline                                      |    Time |      |
+|-----------------------------------------------+---------+------|
+| *Total time*                                  | *14:22* |      |
+|-----------------------------------------------+---------+------|
+| Tab pedidos                                   |   10:30 |      |
+| \emsp DONE haciendo subtab pasar clientes...  |         | 1:16 |
+| \emsp DONE bosquejamos el pasado de pedido    |         | 1:41 |
+| \emsp DONE agregando posibilidad de carga...  |         | 1:00 |
+| \emsp DONE parte logica - guardado del pedido |         | 0:32 |
+| \emsp DONE poner la linea check anulado/...   |         | 0:30 |
+| \emsp nuevas ideas                            |         | 4:06 |
+| tab seven                                     |    0:51 |      |
+| tabVentas                                     |    0:41 |      |
+| \emsp verificacion bug                        |         | 0:41 |
+| Bug reaparece                                 |    2:20 |      |
+| \emsp tabFechar                               |         | 0:46 |
+| \emsp reviso con pycharm lado a lado          |         | 1:34 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
 CLOCK: [2016-10-25 mar 12:16]--[2016-10-25 mar 12:31] =>  0:15
 CLOCK: [2016-10-24 lun 21:59]--[2016-10-24 lun 22:22] =>  0:23
 CLOCK: [2016-10-24 lun 19:45]--[2016-10-24 lun 20:32] =>  0:47
-** hice una subclase de Buscar que se llama BuscarConPadron
+** DONE hice una subclase de Buscar que se llama BuscarConPadron
 que hereda de Buscar y redefine el metodo show, para permitir filtrar
 si el usuario ingreso un dni con prefijo f/F/m/M y busca en el padron
 femenino o masculino el numero, y ello sin importar si el cliente ya
 existe en Romitex. (cosa que no se podia en las busqueda
 semiautomaticas de dni.tcl)
-** Inicie el tab y puse el cuadro de Buscar en un frame
-** Le agregue funcionalidad de busqueda por nombre pf'Filippi Ana'
+** DONE Inicie el tab y puse el cuadro de Buscar en un frame
+** DONE Le agregue funcionalidad de busqueda por nombre pf'Filippi Ana'
 *** ojo con el elif                                                 :pitfall:
 agrego un branch mas a un if elif else y no actualizo bien. y queda 
 if
@@ -40,13 +40,13 @@ elif
 else
 y produce errores raros, y es que el flujo va dos veces por un if que
 pretende ser excluyente.
-** Arregle toque final class Buscar/BuscarConPadron
+** DONE Arregle toque final class Buscar/BuscarConPadron
 
 
 Agregue o bien mejore y estableci el metodo colsel del tablelist que
 te permite poner las columnas ya de entrada en la definicion del tbls
 con el select que vamos a usar y no dejar que se cargue automaticamente.
-** haciendo subtab pasar clientes nuevos
+** DONE haciendo subtab pasar clientes nuevos
 CLOCK: [2016-10-25 mar 19:01]--[2016-10-25 mar 19:15] =>  0:14
 CLOCK: [2016-10-25 mar 13:06]--[2016-10-25 mar 13:30] =>  0:24
 CLOCK: [2016-10-25 mar 13:47]--[2016-10-25 mar 14:25] =>  0:38
@@ -57,7 +57,7 @@ que implicito.
 pasado de cliente nuevo en tab aparte, que quede ahi los datos hasta
 qu expresamente los limpie, etc.
 Era un bug en bwidget.py, ya lo arregle pero lo mismo no limpia.
-** bosquejamos el pasado de pedido
+** DONE bosquejamos el pasado de pedido
 CLOCK: [2016-10-29 sáb 11:29]--[2016-10-29 sáb 11:51] =>  0:22
 CLOCK: [2016-10-29 sáb 11:17]--[2016-10-29 sáb 11:27] =>  0:10
 CLOCK: [2016-10-28 vie 19:50]--[2016-10-28 vie 20:23] =>  0:33
@@ -78,7 +78,7 @@ estaba de mas.
 Arreglado los tamaños a mano y agregado el campo de info seven, que
 tendra que ser registrado en algun lado, lo cual no es malo, pq toda
 esa data siempre se perdio y es muy relevante. .
-** agregando posibilidad de carga general de datos
+** DONE agregando posibilidad de carga general de datos
 CLOCK: [2016-10-29 sáb 12:09]--[2016-10-29 sáb 13:09] =>  1:00
 ya esta hecha la linea de datos, que funciona a nivel general. Me
 trabo un bug o un pitfall de labelentry con el metodo set, que ya lo
@@ -91,7 +91,7 @@ que usar esos atajos que en principio parecieron ideales y que ahora
 no lo son. pq en el caso de que tengo que usar un frame horizontal, es
 rapidisimo incorporar los label sueltos y el ancho se calcula solo y
 mejor.
-** parte logica - guardado del pedido
+** DONE parte logica - guardado del pedido
 CLOCK: [2016-10-29 sáb 20:32]--[2016-10-29 sáb 21:04] =>  0:32
 guardado todos los campos en tabla pedido. No se guardan los que no
 son relevantes en esta etapa p.e. fechaentrega pq suponemos como regla
@@ -101,7 +101,7 @@ Alli faltaria una funcion dia-habil-siguiente. TODO
 Guardo la infoseven recabada en un campo agregado en tabla clientes
 para uso posterior.
 Puse un tbls de muestra con recalc automatico.
-** poner la linea check anulado/ causa anulamiento.
+** DONE poner la linea check anulado/ causa anulamiento.
 CLOCK: [2016-10-29 sáb 22:24]--[2016-10-29 sáb 22:54] =>  0:30
 estaria listo esa parte en lo visual. faltaria la parte logica o sea
 incluirlo en el guardado.
@@ -142,10 +142,23 @@ CLOCK: [2016-10-31 lun 21:33]--[2016-10-31 lun 22:12] =>  0:39
 al apretar boton guardar define editar o crear depende si existe el
 idcliente, editamos todos los datos muy facilmente y nos avisa un
 balloon que ha sido editado o creado el cliente.
-*** mejorar el tabVer para que se pueda dirigir alli las vistas
+*** DONE mejorar el tabVer para que se pueda dirigir alli las vistas
+CLOCK: [2016-11-04 vie 13:03]--[2016-11-04 vie 13:30] =>  0:27
+CLOCK: [2016-11-04 vie 11:50]--[2016-11-04 vie 12:23] =>  0:33
+
 dirige a Fechar por necesidad, tendria que arreglar la pestaña Ver
 para que se pudiera ver ahi, con mas claridad. faltaria un encabezado
 de busqueda individual.
+Arregle un poco Ver, dandole un encabezado, pero no nos olvidemos que
+Ver no tiene por el momento edicion, la edicion la hemos concentrado
+en Fechar.
+*** TODO pestaña resumen de pedidos donde se pueda ver los pedidos
+segun diversos criterios, todos, pendientes, entregados,
+*** TODO posibilidad de pasar en algun lado el resultado de seven
+o del anulamiento luego de procesado el pedido, pq puede que uno lo
+pase rapido y no necesariamente coincida con el control de seven.
+*** TODO documento nuevo en python
+*** TODO tablero de control promotores
 
 
 * tab seven
