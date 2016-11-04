@@ -2,13 +2,13 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-10-29 sáb 23:04]
+#+CAPTION: Clock summary at [2016-11-03 jue 23:26]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *3:29* |      |      |
+| *Total time*                | *4:44* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 3:29   |      |      |
-| \emsp Octubre               |        | 3:29 |      |
+| 2016                        | 4:44   |      |      |
+| \emsp Octubre               |        | 3:57 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
 | \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
@@ -16,6 +16,12 @@
 | \emsp\emsp [2016-10-27 jue] |        |      | 0:11 |
 | \emsp\emsp [2016-10-28 vie] |        |      | 0:23 |
 | \emsp\emsp [2016-10-29 sáb] |        |      | 1:17 |
+| \emsp\emsp [2016-10-30 dom] |        |      | 0:19 |
+| \emsp\emsp [2016-10-31 lun] |        |      | 0:09 |
+| \emsp Noviembre             |        | 0:47 |      |
+| \emsp\emsp [2016-11-01 mar] |        |      | 0:20 |
+| \emsp\emsp [2016-11-02 mié] |        |      | 0:09 |
+| \emsp\emsp [2016-11-03 jue] |        |      | 0:18 |
 #+END:
 
 ** Junio
@@ -1677,6 +1683,34 @@ auto.
 Es eso nomas. No es otra cosa.
 Por otra parte, me alegra haber aparentemente acomodado el aire en el
 dpto y aparentemente encontrado el bug del programa.
+**** Recupero
+CLOCK: [2016-11-03 jue 23:10]--[2016-11-03 jue 23:26] =>  0:16
+Esta tarde experimente un recupero, como tocar fondo en la pileta y
+tomar impulso para arriba. De estar bajon-bajon pero seguir haciendo
+lo que se podia y sentirme cansado, incluso pensado en ilusoria la
+posibilidad de hacer los habitos este dia, ha hacer las tres series
+con mas vigor que de costumbre y tener una activacion general, incluso
+amigarme nuevamente con la programacion. No deja de preocuparme la
+base de fondo relativa al auto, o sea el golpe de que mi vieja esta
+mal y me dejara en banda, pero en el fondo pensaba que tengo que
+ponerme las pilas y dar una orden de perdido por perdido. Pq tiene que
+ser mas grande lo que pueda hacer si libero al craken que si me
+mantengo maniatado.
+Supongamos que lo que vende el Fede sea lo que mantiene los gastos y
+el plan kraken sea extra.
+Y vendiera 12cxd, o sea 250cxm. Eso me deja a mi 50k extras. En tres
+meses amortizo el auto, siendo que en si no lo pierdo, sino que tengo
+auto para usarlo por los proximos años. Imaginate que en un año tengo
+que hacer 600k extras. Y solo estoy pensando en 12 cortinitas por dia
+cuando la lesta me vende 3 o 4 y franco 2. Identico razonamiento con
+respecto al tema embargo, que no esta dicho que sea sobre bienes
+muebles y en caso de serlo no me afecta en lo mas minimo.
+Tengo que ponerme pilas al plan.
+**** PyCharm
+MMMMB pycharm no tanto en la parte dinamica de movimiento, es mas eso
+todavia no esta, sino en la parte integrada con git, el diff, el
+moverse dentro del programa, el buscar.
+
 * Constructos
 ** Be normal
 ** mind sweep
