@@ -1,0 +1,1 @@
+/usr/sbin/wget --directory-prefix=/home/hero/orgblok/data/e3/33f231-83aa-480c-a227-9e7b8b54ec7b/2016-11-06T19:41:57Z// "-e robots=off" --page-requisites --adjust-extension --convert-links --recursive -l 1 https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm
