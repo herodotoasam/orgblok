@@ -11,14 +11,14 @@ solo color, y si lo has roto automaticamente se recomienza.
 ** tomar agua con limon
 ** TODO licuados
 SCHEDULED: <2016-11-05 sáb .+1d>
-- State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
-- State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
-- State "DONE"       from "TODO"       [2016-11-02 mié 17:39]
-- State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 :PROPERTIES:
    :STYLE:    habit
 :LAST_REPEAT: [2016-11-06 dom 17:40]
 :END:      
+- State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
+- State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
+- State "DONE"       from "TODO"       [2016-11-02 mié 17:39]
+- State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 13:06]
 - State "DONE"       from "TODO"       [2016-10-30 dom 13:06]
 - State "DONE"       from "TODO"       [2016-10-29 sáb 17:36]
@@ -32,8 +32,16 @@ SCHEDULED: <2016-11-05 sáb .+1d>
 - State "DONE"       from "TODO"       [2016-10-19 mié 11:32]
 - State "DONE"       from "TODO"       [2016-10-18 mar 22:01]
 
-** almorzar cereal compuesto segun libro
-*** calabaza,mijo,amaranto
+
+** TODO Mezcla de cereales
+SCHEDULED: <2016-11-07 lun .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+
+Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
+y legumbre, en especial aduki.
+
 ** frutas
    para comer frutas hay que comprarlas y buscarlas. Hoy comi
    frutillas y arandanos y una manzana. Creo que se podria comer dos o
@@ -62,12 +70,13 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2016-11-06 dom .+1d>
+SCHEDULED: <2016-11-07 lun .+1d>
+- State "DONE"       from "TODO"       [2016-11-06 dom 21:29]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:37]
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-11-06 dom 17:37]
+:LAST_REPEAT: [2016-11-06 dom 21:29]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
@@ -83,7 +92,8 @@ SCHEDULED: <2016-11-06 dom .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2016-11-06 dom .+1d>
+SCHEDULED: <2016-11-07 lun .+1d>
+- State "DONE"       from "TODO"       [2016-11-06 dom 21:29]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:36]
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:36]
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
@@ -95,7 +105,7 @@ SCHEDULED: <2016-11-06 dom .+1d>
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-11-06 dom 17:37]
+:LAST_REPEAT: [2016-11-06 dom 21:29]
 :END:
 | N° | Descripcion                |                           |
 |  1 | flexion baja de la espalda | lev con brazos los muslos |
