@@ -1,0 +1,14 @@
+* Tk puro
+:PROPERTIES:
+:URL:      https://www.tcl.tk/man/tcl8.6/TkCmd/contents.htm
+:WGET_OPTIONS: --recursive -l 1
+:ID:       e333f231-83aa-480c-a227-9e7b8b54ec7b
+:ARCHIVED_AT: [[file:/home/hero/orgblok/data/e3/33f231-83aa-480c-a227-9e7b8b54ec7b/2016-11-06T19:41:57Z/][2016-11-06T19:41:57Z]]
+:END:
+* sqlite basico
+:PROPERTIES:
+:WGET_OPTIONS: --recursive -l 2
+:URL:      http://sqlite.org/lang.html
+:ID:       66d82183-6d35-4140-8324-38ad3da4276e
+:ARCHIVED_AT: [[file:/home/hero/orgblok/data/66/d82183-6d35-4140-8324-38ad3da4276e/2016-11-06T19:48:22Z/][2016-11-06T19:48:22Z]]
+:END:

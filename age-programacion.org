@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-04 vie 13:31]
+#+CAPTION: Clock summary at [2016-11-06 dom 20:57]
 | Headline                                      |    Time |      |
 |-----------------------------------------------+---------+------|
-| *Total time*                                  | *14:22* |      |
+| *Total time*                                  | *16:27* |      |
 |-----------------------------------------------+---------+------|
-| Tab pedidos                                   |   10:30 |      |
+| Tab pedidos                                   |   12:35 |      |
 | \emsp DONE haciendo subtab pasar clientes...  |         | 1:16 |
 | \emsp DONE bosquejamos el pasado de pedido    |         | 1:41 |
 | \emsp DONE agregando posibilidad de carga...  |         | 1:00 |
 | \emsp DONE parte logica - guardado del pedido |         | 0:32 |
 | \emsp DONE poner la linea check anulado/...   |         | 0:30 |
-| \emsp nuevas ideas                            |         | 4:06 |
+| \emsp nuevas ideas                            |         | 6:11 |
 | tab seven                                     |    0:51 |      |
 | tabVentas                                     |    0:41 |      |
 | \emsp verificacion bug                        |         | 0:41 |
@@ -152,6 +152,21 @@ de busqueda individual.
 Arregle un poco Ver, dandole un encabezado, pero no nos olvidemos que
 Ver no tiene por el momento edicion, la edicion la hemos concentrado
 en Fechar.
+*** TODO varios pensados este finde
+**** DONE agregar fecha de entrega
+CLOCK: [2016-11-06 dom 18:02]--[2016-11-06 dom 18:58] =>  0:56
+por ahora puede ser dia siguiente, lo ideal una funcion dia siguiente
+habil. 
+Ya hice una funcion diahabilsiguiente con feriados incluidos, solo
+necesita cargar los feriados en lib.tcl.
+
+**** DONE cuando se agrega pedidos limpiar campos, 
+CLOCK: [2016-11-06 dom 19:49]--[2016-11-06 dom 20:45] =>  0:56
+CLOCK: [2016-11-06 dom 19:25]--[2016-11-06 dom 19:38] =>  0:13
+cambiar el check que puede activarse por error y poner el tbls de
+control con el nombre del cliente tmb.
+
+**** historial de Buscar
 *** TODO pestaña resumen de pedidos donde se pueda ver los pedidos
 segun diversos criterios, todos, pendientes, entregados,
 *** TODO posibilidad de pasar en algun lado el resultado de seven
@@ -159,6 +174,39 @@ o del anulamiento luego de procesado el pedido, pq puede que uno lo
 pase rapido y no necesariamente coincida con el control de seven.
 *** TODO documento nuevo en python
 *** TODO tablero de control promotores
+*** TODO planilla de salida de mercaderia
+alli se hara la clausula legal. Me firmaran todos los dias, en la
+planilla no solo debe salir que mercaderia llevan sino que la llevan
+para entregarla especificamente a dichas personas, y pondria una
+clausula que diga en formato de contrato lo siguiente:
+**** Los clientes destinatarios de los articulos que el vendedor lleva
+han sido chequeados en funcion de la informacion traida por el
+vendedor, en base a su verificacion visual del dni del cliente y se
+compromete solidariamente a hacer firmar el documento a la misma
+persona que genero el pedido y cuyos datos figuran en la planilla y en
+el documento. En caso de no estar disponible la persona, el articulo
+debe ser traido y entregado mañana. Cualquier falsedad en que incurra
+la operacion no puede ser alegada como actuada por desconocimiento por
+cuanto el vendedor esta expresamente encomendado a tener la precaucion
+y tomar los recaudos para hacer firmar al cliente indicado que fue el
+que el mismo trajo, y de cuya operacion el mismo se va a beneficiar,
+resultando cualquier irregularidad un fraude directo a la empresa con
+responsabilidad sobre el vendedor.
+**** Las direcciones declaradas por el vendedor 
+tienen el caracter de declaracion jurada y son tomadas como ciertas,
+por cuanto tambien fueron informadas por el vendedor, cualquier
+discrepancia debe ser corregida en el momento de la entrega. 
+**** Formato de contrato
+en si cuando lo explique al vendedor, le hago saber que el contrato de
+entrega es un contrato aparte, que lo vincula a el en cada entrega que
+hace y queda pegado a la veracidad de lo actuado con cada cliente en
+particular.
+Como esas hojas se guardan y de paso tienen orden puede ser
+interesante para llevar un rastro de responsabilidad sobre el vendedor
+de que si se manda una cagada la va a pagar el mismo, y en un contexto
+en el cual no necesitamos ni queremos muchos promotores, todo pienso
+que puede andar bien en ese sentido.
+
 
 
 * tab seven
@@ -268,5 +316,10 @@ cache.
 
 
 
+
+
+* TODO Generales
+** Mejorar o bien cambiar los combos de bwidget
+en especial el tema focusnext con enter. y busqueda case insensitive
 
 
