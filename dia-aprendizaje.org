@@ -49,10 +49,11 @@ Y ahora un repaso de los comandos generales
 ** [2016-09-23 vie]
  
 *** TODO Elips - inicio de lectura                                   :anki:
-SCHEDULED: <2016-11-03 jue +7d>
+SCHEDULED: <2016-12-07 mié .+30d>
+- State "DONE"       from "TODO"       [2016-11-07 lun 21:43]
 - State "DONE"       from ""           [2016-10-31 lun 22:32]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-31 lun 22:32]
+:LAST_REPEAT: [2016-11-07 lun 21:43]
 :END:
 en elips todo es una lista.
 
@@ -148,8 +149,12 @@ hibrido y aparte lento.
 Auto-fill mode es un minor-mode que provee el corte de linea
 automatico cuando se llega a cierto limite. Lo que uno conocia como
 auto wrap. Se pone en el menu Text, o como comando.
-** [2016-09-25 dom]                                                   :anki:
-SCHEDULED: <2016-11-05 sáb +15d>
+** TODO [2016-09-25 dom]                                              :anki:
+SCHEDULED: <2016-11-20 dom +15d>
+- State "DONE"       from "TODO"       [2016-11-07 lun 21:44]
+:PROPERTIES:
+:LAST_REPEAT: [2016-11-07 lun 21:44]
+:END:
 Ayer empece con furia a leer/aprender git, con vias a usar git y en
 especial gitlab. Y luego de dos o tres tutoriales desemboco por
 casualidad (pq en realidad buscaba una info de python en un sitio que
