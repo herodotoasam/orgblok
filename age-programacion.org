@@ -351,13 +351,13 @@ CLOCK: [2016-11-09 mié 11:57]--[2016-11-09 mié 12:16] =>  0:19
 Ya hecho, corregido bug, producido por pasar como argumento un
 singleton que con su coma sobrante hacia pitear a sqlite.
 
-** TODO Poner zonas elva y monica en fichas para poder imprimir resumenes
+** DONE Poner zonas elva y monica en fichas para poder imprimir resumenes
 CLOCK: [2016-11-09 mié 12:17]--[2016-11-09 mié 12:22] =>  0:05
 intimables y seveneables desde dentro.
 Hecho. No hizo falta nada, solamente asignar un sector a las zonas de
 esas cobradoras y aparecen dentro del listbox de zonas en fichas
 
-** TODO Revisar los criterios de inclusion de las fichas en normal/mora/
+** DONE Revisar los criterios de inclusion de las fichas en normal/mora/
 CLOCK: [2016-11-09 mié 12:34]--[2016-11-09 mié 12:54] =>  0:20
 El criterio que habia usado era un mes, o sea suponiendo que todas las
 fichas se estaban arriando juntas para adelante con el fechamiento, la
@@ -370,12 +370,12 @@ para adelante. No queda nada que se pueda recuperar en el cajon de
 mora de cada zona. Habria que ver elva y monica.
 
 
-** TODO Posibilidad de intimar directamente en la pestaña mora
+** DONE Posibilidad de intimar directamente en la pestaña mora
 CLOCK: [2016-11-09 mié 12:55]--[2016-11-09 mié 13:04] =>  0:09
 Facilmente agregue posibilidad de imprimir directamente con una letra
 al viejo estilo (con i), desde cualquier ventana. 
 
-** TODO Emision de un resumen de intimaciones
+** DONE Emision de un resumen de intimaciones
 CLOCK: [2016-11-09 mié 13:07]--[2016-11-09 mié 13:25] =>  0:18
 Genialmente, y gracias a pycharm rapidamente , hice un resumen de
 intimaciones que se imprime automatico atras del lote.
@@ -386,7 +386,18 @@ intimaciones juntas.)
 Es un sistema aparte, que en cierta forma sirve como para un
 intimador, como tenia antes. 
 
+** TODO marcacion subir al seven generalizada tambien con letra
+igual que las intimaciones generalizadas. - estudiar esto.
 * tabVer
+el tab ver seria el el F13 integrado dentro del sistema y tendria que
+tener todo lo que el F13 tiene y mas. No puedo tener que "ir" al
+tabFechar para editar solo por ahorrar unas lineas de codigo de cortar
+y pegar. El tab-ver tiene que tener todo.
+** TODO posibilidad de condonar
+** TODO que el tab-ver sirva tambien para editar en forma clara
+en especial si uno esta atendiendo el telefono.
+** TODO adeduado manejo de los llamados telefonicos que deriven de las intimaciones
+mas que todo dentro del tab ver.
 ** info verificacion seven
 como una info mas que usualmente se carga durante un pedido pero se
 puede cargar en otro momento.
@@ -449,6 +460,11 @@ cache.
 * TODO Generales
 ** Mejorar o bien cambiar los combos de bwidget
 en especial el tema focusnext con enter. y busqueda case insensitive
+** TODO campos entry mas diferenciados o cambios generales en el theme
+pq en realidad se hace muy confuso, y el sistema en general tiene que
+ser usable para todo el mundo y que todos entiendan bien, y todo tan
+oscuro donde la ubicacion o directamente la existencia de los campos
+no esta determinada, no es nada muy logrado.
 * Modulos futuros
 ** modulo de cambios de direcciones con tabla aparte
 ** modulo de devoluciones de articulos
