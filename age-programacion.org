@@ -345,6 +345,46 @@ Hecho: agregue borrado de quieren comprar, con linkeado a tabla
 clientes, y doble click abre ficha en tabFechar.
 ** TODO fichita de pedidos diferenciada y con leyenda
 a pedido del vendedor
+* tabFichas
+** DONE Imprimir listado desde Todos o Mora
+CLOCK: [2016-11-09 mié 11:57]--[2016-11-09 mié 12:16] =>  0:19
+Ya hecho, corregido bug, producido por pasar como argumento un
+singleton que con su coma sobrante hacia pitear a sqlite.
+
+** TODO Poner zonas elva y monica en fichas para poder imprimir resumenes
+CLOCK: [2016-11-09 mié 12:17]--[2016-11-09 mié 12:22] =>  0:05
+intimables y seveneables desde dentro.
+Hecho. No hizo falta nada, solamente asignar un sector a las zonas de
+esas cobradoras y aparecen dentro del listbox de zonas en fichas
+
+** TODO Revisar los criterios de inclusion de las fichas en normal/mora/
+CLOCK: [2016-11-09 mié 12:34]--[2016-11-09 mié 12:54] =>  0:20
+El criterio que habia usado era un mes, o sea suponiendo que todas las
+fichas se estaban arriando juntas para adelante con el fechamiento, la
+fecha de corte se puso en un mes. Total se penso que habia tres
+botones, selecciona/mora/todos, pero la realidad hizo que nunca
+usaramos los botones, y el otro dia dentro del drawer de la mora de
+patricios estaba la hora 2004 por ejemplo.
+Ahora puse 6 meses, lo cual no es muy significativo y casi tira todo
+para adelante. No queda nada que se pueda recuperar en el cajon de
+mora de cada zona. Habria que ver elva y monica.
+
+
+** TODO Posibilidad de intimar directamente en la pestaña mora
+CLOCK: [2016-11-09 mié 12:55]--[2016-11-09 mié 13:04] =>  0:09
+Facilmente agregue posibilidad de imprimir directamente con una letra
+al viejo estilo (con i), desde cualquier ventana. 
+
+** TODO Emision de un resumen de intimaciones
+CLOCK: [2016-11-09 mié 13:07]--[2016-11-09 mié 13:25] =>  0:18
+Genialmente, y gracias a pycharm rapidamente , hice un resumen de
+intimaciones que se imprime automatico atras del lote.
+(no creo necesario recargar la interface con un disparador de resumen,
+ya que un sistema donde podemos unir las bochas, no hace falta, p.e
+coco liso va a congreso y si3 , uno las dos zonas e imprimo
+intimaciones juntas.)
+Es un sistema aparte, que en cierta forma sirve como para un
+intimador, como tenia antes. 
 
 * tabVer
 ** info verificacion seven

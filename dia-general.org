@@ -1842,7 +1842,18 @@ Y en lo posible pocas cosas y buenas cosas.
 **** gran embole que linux en general no funcione
 si bien es cierto que no tiene parangon lo que experimento con linux a
 veces te embola cuando algo no te funciona.
-
+*** [2016-11-09 mié]
+CLOCK: [2016-11-09 mié 11:51]--[2016-11-09 mié 11:54] =>  0:03
+anoche dormi muy bien, como las ultimas noches, no se si es la
+gimnasia o el cansancio o la temperatura justa por ahora, o el sonido
+lejano de lluvia.
+Y ayer considero que la gimnasia de los ejercicios fue muy pero muy
+positiva, y creo que me lleva a pensar que puedo fortalecer por ahi,
+incluso mas que por el momento el alimento que lo tengo un poco
+trabado.
+Me preocupan un poco los incobrables pero creo que en general
+aumentando el nivel de cuotas tendremos el mismo nivel de incobrables
+pero gozando de ventas mas grandes.
 
 
 * Constructos
@@ -2201,4 +2212,12 @@ a lo 2006, que me obliga a tomar agua
 ** [2016-11-02 mié] Retirar la Kangoo de agencia
 ** [2016-11-04 vie] Actuacion Camila
 ** [2016-11-05 sáb] Armar el local
+* Peluquero
+** [2016-11-09 mié]
+:PROPERTIES:
+:Lugar:    Cinerama
+:Costo:    150
+:Valoracion: 4
+:END:
+
 
