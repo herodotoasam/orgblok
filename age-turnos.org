@@ -1,4 +1,4 @@
-* clinica medica
+* DONE clinica medica
   SCHEDULED: <2016-11-08 mar 18:20>
 Dra Khorsandnia,Bayan
 

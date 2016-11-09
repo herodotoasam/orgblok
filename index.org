@@ -2,7 +2,7 @@
 
 [[file:doc-fichaje.org][desarrollo]]   [[file:habitos.org][habitos]]   [[file:age-pagos.org][pagos]]     [[file:rapido.org][hacer ahora]]
 
-[[file:age-programacion.org][control-programacion]]      
+[[file:age-programacion.org][control-programacion]]     [[file:edu-pycharm.org][pycharm]] 
 
 * Estudio
 ** [[file:edu-orgmode.org][org-mode]]

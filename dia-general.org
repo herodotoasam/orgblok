@@ -2,12 +2,12 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-11-03 jue 23:26]
+#+CAPTION: Clock summary at [2016-11-08 mar 13:06]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *4:44* |      |      |
+| *Total time*                | *5:37* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 4:44   |      |      |
+| 2016                        | 5:37   |      |      |
 | \emsp Octubre               |        | 3:57 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
@@ -18,10 +18,13 @@
 | \emsp\emsp [2016-10-29 sáb] |        |      | 1:17 |
 | \emsp\emsp [2016-10-30 dom] |        |      | 0:19 |
 | \emsp\emsp [2016-10-31 lun] |        |      | 0:09 |
-| \emsp Noviembre             |        | 0:47 |      |
+| \emsp Noviembre             |        | 1:40 |      |
 | \emsp\emsp [2016-11-01 mar] |        |      | 0:20 |
 | \emsp\emsp [2016-11-02 mié] |        |      | 0:09 |
 | \emsp\emsp [2016-11-03 jue] |        |      | 0:18 |
+| \emsp\emsp [2016-11-04 vie] |        |      | 0:13 |
+| \emsp\emsp [2016-11-06 dom] |        |      | 0:20 |
+| \emsp\emsp [2016-11-08 mar] |        |      | 0:20 |
 #+END:
 
 ** Junio
@@ -1761,11 +1764,92 @@ lamentablemente no se puede dejar de cumplir las obligaciones extra
 que te sacan.
 En el medio disgustos con las chicas que me siguen tratando mal, pq
 quizas consideran que las invado.
+*** [2016-11-08 mar]
+CLOCK: [2016-11-08 mar 12:52]--[2016-11-08 mar 13:05] =>  0:13
+CLOCK: [2016-11-08 mar 11:28]--[2016-11-08 mar 11:35] =>  0:07
+Hoy sali de oficina en un claro ataque de depresion, en el camino me
+interrogaba por la ironia del anonimato, y como te confunde el
+microcosmos que te genera un sistema propio en el cual sos el
+rey. Alli en ese ambito en el cual sos el que manda, y como por caso
+p.e. ih por recuerdo y traslacion sigue suscribiendo ese esquema
+aunque esta perimido y eso choca con la romi que se rebela.
+Y tambien como ese sistema cerrado te onnubilo de tal modo que te hizo
+perder el foco con relacion al exterior y el trato con otra gente
+comun no relacionada en forma directa con vos.
+Y una vez en la esquina esperando cruzar uno es tan anonimo y ahora
+croto, uno mas en un concierto anonimo y mas grande. 
+Creo que la depresion me la causo esta vez el ver que en oficina
+aparecio nuevamente el bug y no tiene relacion con lo que yo creia o
+sea con borrar el pycache, dejandome nuevamente en bolas. Maxime que
+para bien o para mal aca anda bien el sistema.
+Y decidi no dejarme arrastrar, y me digo, algo que influye muchisimo
+es el corte de pelo y ya es hora de que vaya y punto, a ir.
+**** Pensamientos negativos
+hay dias como hoy en los que me invaden muchisisimos pensamientos
+negativos y me da alivio que los procesos mentales no se trasluzcan pq
+me daria verguenza tener tales pensamientos. Muy pesimiesta, pero algo
+se debe traslucir.
+No obstante le pongo fichas a los habitos, o sea a empezar y seguir
+con paciencia en lo acordado que aunque parezca nada, algo es y peor
+seria estar realmente sin nada.
+P.e. el licuado, y ahora la mezcla de cereal/legumbre, que voy a
+acompañar con una verdura aunque sea atipica, p.e. ahora que iba
+directo al tomate y estaba caro, vi que la zanahoria estaba regalada a
+15 el kilo en bolsita de mendoza, entonces traje, pq pienso que
+acompañar la mezcla con una zana rallada no estaria mal, incluso capa
+que sea mejor que esos tomates chotos, cuando aparezcan los salteños
+estan joyas. En realidad sirven las cosas cuando estan baratas pq
+estan de temporada o maduras.
+Y los ejercicios y la espalda en habitos es genial pq yo no tenia nada
+en ejercicio, y eso mas o menos me saco un poco. No quiero quemar la
+herramienta por lo cual no quise abarrotar de habitos que despues no
+pueda hacer, o me sea imposible hacer.
+Otra cosa que veo que ayudara un monton a la sobrevivencia aca es el
+aire, aunque no se hasta ahora como me las puedo arreglar en el
+dormitorio si se impone el calor denso dentro del dpto.
+**** Objetivo de hacer un grupo de cortinas
+ese objetivo me gusta y creo que me va a llevar a puerto de
+nuevo. Hasta ahora lo plasma unicamente la lesta, pero tengo
+esperanza. Y creo que con la programacion lo vamos a lograr.
+Debo resolver al medio el intringulis del miedo al embargo pq eso me
+tiene mal, y eso hace que quiera escapar de la oficina rapido a la
+mañana, no se si es eso o bien si es que aprovecho pq soy asi de vago.
+**** tambien pensaba gastar un poco en algo de vestimenta
+para sentirme mejor yo mismo, y veia como una injusticia que la romi
+siguiera sacandome la mesada que son 2k por mes para usufructuarselo
+ella cuando yo no gasto nada en mi, y ella ya trabaja, pq aparte esta
+el auto.
+**** tema vestimenta
+CLOCK: [2016-11-08 mar 21:41]--[2016-11-08 mar 21:51] =>  0:10
+hoy surgio aparte del sindrome de emilio disi, que pienso corregir
+urgente mañana, una obsesion muy grande con las camisas, y mejore un
+poco mi autopercepcion y comodidad a la tarde con la remera abajo.
+Decidi en lo posible usarla y urgente descartar de una TODAS aquellas
+camisas que no sean utiles o que no me caigan bien de una.
+Seria preferible usar ropa de otro tipo en el futuro a tener que
+seguir teniendo tantas cosas inutiles.
+**** minimalismo extremo
+en cierta forma org-mode tambien ayuda al minimalismo, pq me organiza
+en todo. Y todas las cosas que hago, a pesar del proceso de enfermedad
+que llevo con la migraña, las hago con la idea del orden y la
+simplificacion.
+Y ese minimalismo que estoy practicando en el dpto, en la oficina, en
+el trabajo, en la programacion, en la alimentacion, quiero llevarla
+tambien al bagaje de ropa que tengo del pasado, para tirar (o dar
+obviamente) todo lo que tengo y no necesito y dejarme solamente lo que
+uso.
+Y en lo posible pocas cosas y buenas cosas.
+**** gran embole que linux en general no funcione
+si bien es cierto que no tiene parangon lo que experimento con linux a
+veces te embola cuando algo no te funciona.
+
+
 
 * Constructos
 ** Be normal
+* Consignas
 ** mind sweep
-   
+** minimalismo
 * Temas a pensar y/o articular
 ** Seguridad en dpto
 
@@ -1947,6 +2031,19 @@ efectivo, y tengo dudas si cien por ciento necesario.
    muere accidentalmente el mismo.
    :Calificacion: 4/5
    :Actor: Joaquin Phoenix
+*** The inocents
+[2016-11-07 lun]
+Interesante pelicula francesa, que cuenta la historia de un convento
+polaco en la posguerra en 1945, en el cual casi todas las monjas
+fueron violadas por soldados rusos y quedaron embarazadas, y sufrieron
+la tortura de tener que ocultar el embarazo y no tener ayuda medica,
+hasta que consiguen que una enfermera francesa las ayude y al final
+les de una solucion definitiva, que les permita conservar sus
+hijos. Muestra el costado inevitablemente humano de esas mujeres
+metidas en ese brete religioso vaya a saber porque y sufriendo esa
+derivacion y la decision extrema de la madre superiora que llego al
+asesinato como forma de proteger del escarnio o el escandalo al
+convento, a las monjas o a ella misma.
 
 ** Series
 *** The Night of                        :prision:inocente:juicio:granintro:

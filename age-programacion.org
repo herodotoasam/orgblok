@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-07 lun 21:30]
+#+CAPTION: Clock summary at [2016-11-08 mar 13:32]
 | Headline                                      |    Time |       |
 |-----------------------------------------------+---------+-------|
-| *Total time*                                  | *21:55* |       |
+| *Total time*                                  | *22:26* |       |
 |-----------------------------------------------+---------+-------|
-| Tab pedidos                                   |   17:13 |       |
+| Tab pedidos                                   |   17:44 |       |
 | \emsp DONE haciendo subtab pasar clientes...  |         |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido    |         |  1:41 |
 | \emsp DONE agregando posibilidad de carga...  |         |  1:00 |
 | \emsp DONE parte logica - guardado del pedido |         |  0:32 |
 | \emsp DONE poner la linea check anulado/...   |         |  0:30 |
-| \emsp nuevas ideas                            |         | 10:49 |
+| \emsp nuevas ideas                            |         | 11:20 |
 | tab seven                                     |    0:51 |       |
 | tabVentas                                     |    1:31 |       |
 | \emsp verificacion bug                        |         |  0:41 |
@@ -167,7 +167,17 @@ CLOCK: [2016-11-06 dom 19:25]--[2016-11-06 dom 19:38] =>  0:13
 cambiar el check que puede activarse por error y poner el tbls de
 control con el nombre del cliente tmb.
 
-**** historial de Buscar
+**** TODO historial de Buscar
+
+**** DONE mejora de tbls class buscar coloreado segun situacion
+CLOCK: [2016-11-08 mar 20:17]--[2016-11-08 mar 20:58] =>  0:41
+y de paso mejora de Buscar o sea otros coloreados segun situacion de
+deuda.
+puse un campo case when, llamado mora que calcula la deuda si tiene
+mas de 60 dias que no paga y lo pone en mora y va en rojo, sino va en
+azul. y pongo en gris los que no compraron nunca.
+
+
 *** DONE pestaña resumen de pedidos donde se pueda ver los pedidos
 CLOCK: [2016-11-07 lun 12:20]--[2016-11-07 lun 12:46] =>  0:26
 CLOCK: [2016-11-07 lun 12:00]--[2016-11-07 lun 12:20] =>  0:20
@@ -210,9 +220,19 @@ deberia dejar que se pudiera alterar el dni, y ello trabaria la
 posibilidad de  cambiar desde ese lugar de uso tan frecuente y rapido
 un dato de cliente como me paso hoy.
 
-*** TODO eliminar que se pueda cambiar el dni desde el tab pedidos
+*** DONE eliminar que se pueda cambiar el dni desde el tab pedidos
+CLOCK: [2016-11-08 mar 11:39]--[2016-11-08 mar 11:54] =>  0:15
 o bien poner un aviso de posible error.
+Puse un flag que avisa e impide en caso de que no se conteste que si
+avanzar en la edicion de un cambio de de dni.
 
+
+*** DONE agregar la vista de ex-calle-exnum etc 
+CLOCK: [2016-11-08 mar 13:15]--[2016-11-08 mar 13:31] =>  0:16
+agregado una pestaña mas en tabVer, lo cual es un servicio extra a una
+funcionalidad primitiva de la base de datos pero que nunca se programo
+para verla, quedara en el futuro el ampliar alli mismo el modulo de
+cambio de direcciones
 *** DONE posibilidad de pasar en algun lado el resultado de seven
 CLOCK: [2016-11-07 lun 13:17]--[2016-11-07 lun 13:34] =>  0:17
 o del anulamiento luego de procesado el pedido, pq puede que uno lo
@@ -318,11 +338,13 @@ Y no puede ser una actualizacion de tkinter pq aca la puedo haber
 hecho pero en oficina no actualice nada y alla se  manifesto hoy el
 problema.
 Da para estudiarlo en el futuro.
-** TODO borrado de quieren comprar
+** DONE borrado de quieren comprar
 CLOCK: [2016-11-07 lun 13:39]--[2016-11-07 lun 14:29] =>  0:50
 pq puede darse que me arrepienta de haberlo pasado.
 Hecho: agregue borrado de quieren comprar, con linkeado a tabla
 clientes, y doble click abre ficha en tabFechar.
+** TODO fichita de pedidos diferenciada y con leyenda
+a pedido del vendedor
 
 * tabVer
 ** info verificacion seven
@@ -387,5 +409,7 @@ cache.
 * TODO Generales
 ** Mejorar o bien cambiar los combos de bwidget
 en especial el tema focusnext con enter. y busqueda case insensitive
-
-
+* Modulos futuros
+** modulo de cambios de direcciones con tabla aparte
+** modulo de devoluciones de articulos
+** modulo de atencion de avisos y esquemas de promocion
