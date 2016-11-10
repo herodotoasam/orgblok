@@ -1854,7 +1854,7 @@ trabado.
 Me preocupan un poco los incobrables pero creo que en general
 aumentando el nivel de cuotas tendremos el mismo nivel de incobrables
 pero gozando de ventas mas grandes.
-*** muy potente los metodos de trabajo
+**** muy potente los metodos de trabajo
 CLOCK: [2016-11-09 mié 22:20]--[2016-11-09 mié 22:28] =>  0:08
 el tema habit, hasta ahora muy conforme, y el tema que hemos
 encontrado con la programacion con pycharm, pq realmente tiene una
@@ -1867,7 +1867,40 @@ Y el tema de la gimnasia va avanzando bien. Creo que se podria llegar
 a conjurar la debilidad mental que a veces tengo, que se manifiesta en
 no poder soportar la adversidad y en ponerme nervioso y asustarme
 cuando tengo que tener templanza.
-
+*** [2016-11-10 jue]
+CLOCK: [2016-11-10 jue 12:35]--[2016-11-10 jue 12:55] =>  0:20
+**** Como tenemos una sobre inundacion de cosas
+escuchando el postcad de Caparros sobre Mali, pienso en los objetos,
+en la maraña infinita de objetos que nos acompañan y como al tener
+todos o querer todos sobresalir en diseño y color y dibujo lo unico
+que logramos es una mescolanza de muy mal gusto. Y eso se ve en la
+ropa en general, pq usamos ropa de muy mal gusto o mezclamos estilos
+de cosas muy feuchas que pretenden o pretendieron ser o estar a la
+moda, pienso que el que las hace o vende. Pero todas juntas "vestidas"
+en una persona, combinadas producen un efecto bastante fierito.
+En ese caso p.e. es como si todo quisiera sobresalir, el jean, el
+calzado, las medias, la remera, la camisa, el reloj, el celu, todo. y
+termina uno como un payasin.
+Visto de ese modo no tiene sentido p.e. que el calzado sea resaltante
+o el jean, o las remeras.
+Y al final uno cae esclavo de la alternancia o combinacion, o de tener
+que usar ropa distinta, quizas por el que diran los demas.
+**** pq  uno no se caga en el que diran los demas
+pq uno no usa ciertas cosas en la calle, siempre esta pendiente a esa
+mirada supuesta de lo anonimo, y en realidad que importa nada, si cada
+cual va a pensar lo que piense de acuerdo a su propia percepcion del
+mundo y eso no lo va a cambiar, pq no lo va a entender primero.
+**** Cambio de la forma de llevar la caja
+a partir de hoy, no se deja mas montos abiertos alla en marques, lo
+que se lleva se reparte y se asigna de una y se anota. y de las
+entradas de calle, si no compensan las salidas la diferencia se
+arregla de vez en cuando.
+Pero el principal problema de caja era la caja abierta que no se podia
+cerrar, por eso ahora creo que podre volver a cerrar todos los dias la
+caja.
+Luego cuando pueda poner al dia, la paso a base de datos y dejo la
+planilla total, es al vicio. Habria que incorporar una pestaña del
+sistema el programa de caja.
 
 
 * Constructos
