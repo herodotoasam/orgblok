@@ -408,6 +408,20 @@ tabFechar para editar solo por ahorrar unas lineas de codigo de cortar
 y pegar. El tab-ver tiene que tener todo.
 El tab-Ver es para atender bien y rapido al cliente, tanto por
 telefono como personalmente.
+Increible que siempre hayamos tenido que renegar para ver bien lo que
+debe alguien. El viejo F13 se expande a lo ancho(cosa que nunca se
+arreglo) y no a lo alto siendo que ocupa casi la mitad de la
+pantalla. y le da solo cuatro lineas en tree a las cuentas, al abrir
+el tree, quedan dos y media filas a la vista, y se ve usualmente desde
+cero que suelen ser las pagadas, complicandose enormemente ver lo que
+debe realmente la persona. Y luego abajo destino cuatro lineas a
+recibos mezclados donde es dificultoso ver cual cuenta se pago si
+estan entrelazadas.
+En ese sentido hemos avanzado. Pero faltaria el poder sumar ahi mismo
+las cuotas.
+El resto de la funcionalidad del sistema debe ser estudiado asi, desde
+lo que sea practico.
+
 ** TODO posibilidad de condonar
 ** TODO que el tab-ver sirva tambien para editar en forma clara
 CLOCK: [2016-11-10 jue 13:07]--[2016-11-10 jue 13:43] =>  0:36
@@ -426,6 +440,19 @@ sumador.
 ¿porque el cuotas adeudadas no es sumador?
 tendria que tener la facilidad de sumador para calcular al vuelo lo
 que debe alguien con recargos.
+En realidad los tbls de class Cuentas no suman pq no son llenados con
+metodo llenar, sino con insert en pelo. La solucion luego de
+declaradas las columnas fue poner que columnas queremos totalizar y
+lanzar el metodo asignaratributos, ya que no va a ser lanzado por
+ningun otro metodo (generalmente lo hago con el metodo llenar, en
+forma directa, o bien con el expreso colsel)
+cuotasdebe.colstotalizar = [2,3,4]
+cuotasdebe._asignaatributoscolumnas()
+Se podria incluso guardar un coloreado diferencial para los
+totalizados de cada tbls. 
+p.e. 
+cuotasdebe.resaltadototalizar=['lightyellow','black','ubuntu 13 bold']
+y que se tome de alli.
 ** TODO hacer que el Mostrar cuotas-debe sea totalizable en cuota/recargo
 ** TODO transformar los comentarios a registros individuales en tabla aparte
 ** TODO poner stab de intimaciones en tabVer
