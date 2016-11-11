@@ -2,12 +2,12 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-11-08 mar 13:06]
+#+CAPTION: Clock summary at [2016-11-10 jue 23:37]
 | Headline                    | Time   |      |      |
 |-----------------------------+--------+------+------|
-| *Total time*                | *5:37* |      |      |
+| *Total time*                | *6:29* |      |      |
 |-----------------------------+--------+------+------|
-| 2016                        | 5:37   |      |      |
+| 2016                        | 6:29   |      |      |
 | \emsp Octubre               |        | 3:57 |      |
 | \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
 | \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
@@ -18,13 +18,15 @@
 | \emsp\emsp [2016-10-29 sáb] |        |      | 1:17 |
 | \emsp\emsp [2016-10-30 dom] |        |      | 0:19 |
 | \emsp\emsp [2016-10-31 lun] |        |      | 0:09 |
-| \emsp Noviembre             |        | 1:40 |      |
+| \emsp Noviembre             |        | 2:32 |      |
 | \emsp\emsp [2016-11-01 mar] |        |      | 0:20 |
 | \emsp\emsp [2016-11-02 mié] |        |      | 0:09 |
 | \emsp\emsp [2016-11-03 jue] |        |      | 0:18 |
 | \emsp\emsp [2016-11-04 vie] |        |      | 0:13 |
 | \emsp\emsp [2016-11-06 dom] |        |      | 0:20 |
-| \emsp\emsp [2016-11-08 mar] |        |      | 0:20 |
+| \emsp\emsp [2016-11-08 mar] |        |      | 0:30 |
+| \emsp\emsp [2016-11-09 mié] |        |      | 0:11 |
+| \emsp\emsp [2016-11-10 jue] |        |      | 0:31 |
 #+END:
 
 ** Junio
@@ -1901,6 +1903,34 @@ caja.
 Luego cuando pueda poner al dia, la paso a base de datos y dejo la
 planilla total, es al vicio. Habria que incorporar una pestaña del
 sistema el programa de caja.
+**** problemas familiares
+CLOCK: [2016-11-10 jue 23:26]--[2016-11-10 jue 23:37] =>  0:11
+como si no tuviera tensiones por el local, por el trabajo, por mi
+salud, por el Fede, mas que todo por la Kangoo nueva, por los
+cobradores que me fallan, por la gente que no paga, por las
+frustraciones, de a poco y dificultosamente acomodo mi rutina, sin
+poder ni siquiera acomodar el tema de la comida, que esta bastante
+maliense (por Mali -->Caparros -->Nomades -->comer todo los dias lo
+mismo), viene a traerme ih la catarsis con todo el quilombaso que paso
+alla con la cami.
+Yo reconozco que tengo mis grandes errores, sin embargo creo que
+aprendo de ellos a veces. Pero debo decirme en el secreto que me da
+emacs que ih me recuerda cada vez mas a la lesta. cada vez mas la veo
+sin sutileza, abrumada, sobrepasada.
+Y no es confiable para mi. No hay nada que pueda decirle o que pueda
+contarle que tenga yo la seguridad que ella lo vaya a mantener en
+secreto y no lo vaya a comentar en la familia, o bien decirselo al
+Fede o soltarlo incluso distorsionadamente en la casa.
+Y con el agravante que los demas piensen que se lo digo a ella para
+que ella lo diga.
+A veces pienso que mientras menos me comunique con ih, que mientras
+menos me vean con ella mejor.
+**** programacion practica
+podria lograr una programacion realmente util si voy puliendo cada
+parte obteniendo lo que realmente necesito en el trabajo. Y si voy
+simplificando las herramientas. En los ultimos dias he logrado varios
+avances en ese sentido.
+
 
 
 * Constructos

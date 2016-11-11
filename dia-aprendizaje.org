@@ -214,10 +214,11 @@ Y esto se va a ver en el futuro. Igual que el sistema que estoy
 programando, igual que el negocio que estamos montando con el
 hijo. Igual que el vivir en el centro.
 ** TODO [2016-09-29 jue]                                              :anki:
-SCHEDULED: <2016-11-05 sáb +10d>
+SCHEDULED: <2016-11-20 dom .+10d>
+- State "DONE"       from "TODO"       [2016-11-10 jue 23:15]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:23]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-31 lun 22:23]
+:LAST_REPEAT: [2016-11-10 jue 23:15]
 :END:
 Hoy sigo fuertemente con git, haciendo el capitulo 3 del libro, dos
 lecturas sobre el branching.

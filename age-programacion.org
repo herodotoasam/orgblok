@@ -432,6 +432,7 @@ Agregados los campos que tiene fechar, que pueden permitir editar por
 ejemplo una direccion, o algo relativo al cliente, que no sea un
 fechamiento.
 ** TODO hacer un subtab que se vean las cuotas adeudadas con los recargos 
+CLOCK: [2016-11-10 jue 20:27]--[2016-11-10 jue 21:06] =>  0:39
 CLOCK: [2016-11-10 jue 13:48]--[2016-11-10 jue 14:02] =>  0:14
 y las sumas como para una atencion mas eficiente de un llamado por
 intimacion. si el subtab esta aparte del tab cuentas, se puede hacer
@@ -453,6 +454,9 @@ totalizados de cada tbls.
 p.e. 
 cuotasdebe.resaltadototalizar=['lightyellow','black','ubuntu 13 bold']
 y que se tome de alli.
+Listo, no solo tengo resaltado en los tabs de cuentas sino que se
+puede modificar a voluntad para que lo podamos adecuar al contexto.
+
 ** TODO hacer que el Mostrar cuotas-debe sea totalizable en cuota/recargo
 ** TODO transformar los comentarios a registros individuales en tabla aparte
 ** TODO poner stab de intimaciones en tabVer
@@ -542,6 +546,12 @@ Y de paso hacer un contraste bien claro a los campos.
 ** TODO ver la forma de que el optiondatabase se tome como proyecto
 pq se toma con el dir como la base de datos lo cual no sirve para git
 y en caso de cambios queda fuera de clone y demas.
+** Agregar ayuda en todos los tabs que sea uniforme
+tanto respecto a lo que se puede o debe apretar, como a lo que
+significan ciertos colores, o marcas.
+p.q pe uno olvida como se hacen ciertas cosas, y lo que significan
+ciertas cosas. p.e. con tal letra marque tal cosa, y el color tal
+significa tal cosa.
 
 * Modulos futuros
 ** modulo de cambios de direcciones con tabla aparte
