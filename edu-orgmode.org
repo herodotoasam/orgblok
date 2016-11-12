@@ -336,10 +336,11 @@ entre linea y linea. no toda la columna.
    M-S-up borra la fila actual
    M-S-down agrega una fila en la posicion actual 
 ** TODO Avanzado                                                      :anki:
-SCHEDULED: <2016-11-10 jue +10d>
+SCHEDULED: <2016-12-10 sáb +30d>
+- State "DONE"       from "TODO"       [2016-11-11 vie 21:22]
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:44]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-01 mar 20:44]
+:LAST_REPEAT: [2016-11-11 vie 21:22]
 :END:
 *** sumar
    C-c + suma los items de la columna activa y C-y los pastea.
