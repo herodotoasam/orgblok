@@ -403,6 +403,7 @@ intimador, como tenia antes.
 ** TODO marcacion subir al seven generalizada tambien con letra
 igual que las intimaciones generalizadas. - estudiar esto.
 * tabVer
+CLOCK: [2016-11-12 sáb 13:07]--[2016-11-12 sáb 13:54] =>  0:47
 el tab ver seria el el F13 integrado dentro del sistema y tendria que
 tener todo lo que el F13 tiene y mas. No puedo tener que "ir" al
 tabFechar para editar solo por ahorrar unas lineas de codigo de cortar
@@ -422,7 +423,11 @@ En ese sentido hemos avanzado. Pero faltaria el poder sumar ahi mismo
 las cuotas.
 El resto de la funcionalidad del sistema debe ser estudiado asi, desde
 lo que sea practico.
-
+** DONE que el tabVer sea referenciable como metodo 
+ya esta, se puede llamar self.mustracuentas(idcliente) y tenes la
+cuenta vista, luego pulo como quiera el tabVer y tengo un F13 potente
+desde cualquier funcionalidad que este trabajando, con una simpleza
+que solo da python.
 ** TODO posibilidad de condonar
 ** TODO que el tab-ver sirva tambien para editar en forma clara
 CLOCK: [2016-11-10 jue 13:07]--[2016-11-10 jue 13:43] =>  0:36
@@ -463,7 +468,7 @@ puede modificar a voluntad para que lo podamos adecuar al contexto.
 ** TODO poner stab de intimaciones en tabVer
 ** TODO adeduado manejo de los llamados telefonicos que deriven de las intimaciones
 mas que todo dentro del tab ver.
-** info verificacion seven
+** TODO info verificacion seven
 como una info mas que usualmente se carga durante un pedido pero se
 puede cargar en otro momento.
 
