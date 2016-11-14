@@ -428,7 +428,23 @@ ya esta, se puede llamar self.mustracuentas(idcliente) y tenes la
 cuenta vista, luego pulo como quiera el tabVer y tengo un F13 potente
 desde cualquier funcionalidad que este trabajando, con una simpleza
 que solo da python.
-** TODO posibilidad de condonar
+** DONE posibilidad de condonar
+CLOCK: [2016-11-13 dom 17:33]--[2016-11-13 dom 18:07] =>  0:34
+Agregado la funcion de condonar dentro del tab Ver. Es un subtab en el
+cual aparecen las cuentas, y se resalta con indianred las que tienen
+saldo y alli con dobleclick derecho se condona o se descondona con
+dobleclick izquierdo.
+Y a su vez queda el metodo condonacuenta para funcionar desde
+cualquier lado por si luego lo necesito desde pasar recibos o algo.
+
+**** hacer una funcion pmovto pura, pq la vamos a necesitar
+CLOCK: [2016-11-13 dom 18:37]--[2016-11-13 dom 19:12] =>  0:35
+(select date(new.primera, printf('+%s
+months',round((new.ent+new.pagado)/new.ic))))
+hermosa la funcion, la pongo dentro del trigger  puede ser con un case
+when, quizas, y asi muy limpiamente me produce el pmovto. Sin depender
+de una funcion externa.
+
 ** TODO que el tab-ver sirva tambien para editar en forma clara
 CLOCK: [2016-11-10 jue 13:07]--[2016-11-10 jue 13:43] =>  0:36
 en especial si uno esta atendiendo el telefono.
@@ -565,7 +581,8 @@ significa tal cosa.
 ** modulo de cambios de direcciones con tabla aparte
 ** modulo de devoluciones de articulos
 ** modulo de atencion de avisos y esquemas de promocion
-* TODO tabVer accesible desde todo el proyecto
+* DONE tabVer accesible desde todo el proyecto
+CLOCK: [2016-11-13 dom 19:25]--[2016-11-13 dom 19:46] =>  0:21
 Considero todo el proyecto un mamarracho. El problema es el espacio y
 el uso del espacio, hay muchas cosas buenas en las cuales se ha
 avanzado y hay otras en las cuales no.
@@ -579,3 +596,14 @@ Y ahora como estoy en los compartimientos estancos no puedo verla.
 Incluso se tendria que poder ver para cuando esta fechado y poderse
 fechar tambien en ese caso desde ahi, y que fechar sea solo para las
 planillas.
+Se puede ver la cuenta desde
+| fechar  | dobleclick idcl                                |
+| doc     | dobleclick desde tbl y desde cuadro busqueda   |
+| pedidos | idem desde tbls y cuadro busqueda              |
+| seven   | dobleclick en ambos tbls que muestran clientes |
+| ventas  | en todos los tbls y en el idcl del primer subt |
+| fichas  | doble click en el tbls.                        |
+Con esto termino todos los links, o sea en todos los lugares donde se
+pueda pretender ver la cuenta del cliente que se esta trabajando se
+hace dobleclik izq o derecho y se llega a la cuenta.
+

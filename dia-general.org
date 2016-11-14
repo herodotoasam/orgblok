@@ -2124,7 +2124,88 @@ a un nivel de una camisa/remera por mes y un vaquero cada dos meses
 (serian  12 vaqueros antes del 101) y hubo unos 4 pero 3 estuvieron
 mal comprados. O sea que creo que con menos andariamos bien pq yo
 cuido mucho la ropa.
-
+*** [2016-11-13 dom]
+CLOCK: [2016-11-13 dom 14:08]--[2016-11-13 dom 14:17] =>  0:09
+**** Recuerdos de domingos solitarios
+cuando era mas joven queria escapar de isabel pq queria mi libertad
+para poder salir con otras mujeres o eso pensaba, poco a poco fui
+cayendo en que todos los fines de semana los pasaba en familia hasta
+que la familia me absorvio y termine viviendo con la familia, luego se
+hizo costumbre, y siempre me hizo ruido el egoismo supremo de pasar un
+domingo solo cuando tenes una familia con la cual lo podes pasar, pero
+preferis pasarlo solo.
+Quizas no sean mas que unos cuantos, uno o dos y uno se hastiaria o se
+acobardaria y volveria conscientemente a aferrarse a los domingos en
+familia.
+Siempre me martillo ese pensamiento, que podia ser mas importante que
+tuviera yo que hacer que estar con los chicos, hasta que los chicos se
+hicieron grandes y yo no hago mas que molestar o incordiar o pelear y
+quitarles el servicio de su madre. 
+Hasta creo que son mas felices cuando no voy, que se reunen mas
+facilmente y la pasan mejor sin que yo vaya. Por eso no debo sentirme
+mal por no ir. Al reves debo buscar la vuelta para disfrutar el tiempo
+libre y no sentirme mal por ello.
+**** Como fueron los sistemas de captacion o cual fue el ancla en otros tiempos
+CLOCK: [2016-11-13 dom 14:31]--[2016-11-13 dom 14:55] =>  0:24
+en el 2005/2006 el ancla aparte del basico que era real pero a mi no
+me preocupaba pq era bajo y se absorvia con el puntaje, era la
+COBRANZA, pq el promotor cobraba, y eso le daba anclaje. Era como que
+muchos mezclaban la tarea e iban tirando con ella. Y luego cuando
+sobre esa base de gente vino el aporte de promotores puros que pusimos
+con el Fede en el 2007 generaron una masa de venta que aumentaron el
+caudal de fichas de los promo-cobradores (p.e. las viejas que se
+vieron beneficiadas, pq no solo que hacian la cobranza sino que hacian
+reventa indiscriminada sobre ella).
+Luego los grupos del Fede del 2007 y el 2010 estuvieron anclados en
+las zonas bajas, o sea teniamos una amplitud y una libertad de zona
+monumental. No teniamos limite de zona, no testeabamos las ventas con
+seven. No teniamos presion de cobradores sobre donde vender y donde
+no, y lo mas importante el que no queria pagar no pagaba. 
+En el mismo 2012 cuando yo hago grupo y mando a esos negros a vender y
+"entregar" hacemos parque futura, en realidad barrio que no hicimos
+mas y en ese tiempo haciamos san roque.
+**** entre el miedo y el no-necesito-la-venta
+entre ambas cosas me pongo en una postura imposible. Por una parte
+quiero purificar cada vez mas el sistema, lo cual no viene mal, pq
+sino vamos a lograr tasas muy bajas. Pero si te pasas de papista
+logras que el sistema se caiga.
+**** pros y contras de los 300 por dia
+pros: pago por dia, no tengo compromiso con la gente, se puede poner
+como valor el hecho de pagar por dia, 
+contra: la gente no pone lo que hay que poner para ganar, trabaja
+poco.
+Como no hay planillas de promocion no se sabe lo que se hace, como no
+hay boletos con horario, no se sabe cuando volvieron.
+**** El tema de los cospeles de la casa
+los cospeles de la casa, nunca los cubrimos, pero en un trabajo que es
+a comision creo que tendria que cubrirselos pq el chico no puede
+gastar lo que no tiene para intentar ganar algo.
+**** El problema de querer estar en dos lados distintos a la vez
+CLOCK: [2016-11-13 dom 14:57]--[2016-11-13 dom 14:58] =>  0:01
+la mayoria de las veces que estamos indecisos, es pq queremos estar en
+dos lugares al mismo tiempo, o hacer dos cosas al mismo tiempo y hay
+que optar por una, Si deseamos hacer una sola cosa todo ok
+**** Decido comprarme el aire para la zapie
+CLOCK: [2016-11-13 dom 21:17]--[2016-11-13 dom 21:30] =>  0:13
+pienso que un aire incluso frio solo pq ya esta probado que los
+frio/calor son una poronga y este dpto no es muy frio parece. pero un
+sanyo frio/calor de todos modos vale 9500 mas coloca supongamos dos
+lucas estamos. total alla en el dormi lo pone sobre la pared como ya
+hay otro mas abajo y el balde lo pongo adentro.
+Entonces ya tengo asegurado que no voy a sufrir calorones cuando venga
+el verdadero calor durante los proximos cinco o seis meses.
+La cagada habria que ver si el aire que esta sobre la pared pertenece
+al D o al de la pared, pq puede dar vibraciones el aire sobre la pared
+del otro capaz o alguna huevada asi que le moleste.
+Habria que averiguar bien eso.
+**** al final este dominguito (y el finde como extension)
+CLOCK: [2016-11-13 dom 21:31]--[2016-11-13 dom 21:36] =>  0:05
+no estuvo mal. pq ordene la cocina, y el dpto en general, fui al
+dentista, compre pilchita destrabando ese tema, y meti un gran avance
+al programa haciendo la ubicuidad del tabver. Y tome dos grandes
+decisiones, el vender el auto rapido sin anestesia, urgente, mañana, y
+ponerme aire en el dormitorio pq no puedo entrar en una variante de
+molestias aca en la estancia que tengo. 
 
 * Constructos
 ** Be normal
@@ -2148,6 +2229,11 @@ cuido mucho la ropa.
 ** Dormitorio
 *** [2016-10-29 sáb]
 c/cambio sabanas y rotacion colchon
+** Cocina
+*** [2016-11-13 dom]
+pasar piso - rutina
+por unica vez: sacar las botellas de abajo, devolver herramientas,
+cambiar cortinas, intentar destrancar cañeria.
 * Emacs
 ** Necesarios
 *** atajo insertar dia con hora

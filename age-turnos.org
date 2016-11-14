@@ -5,3 +5,7 @@ Dra Khorsandnia,Bayan
 * Neurologia
   SCHEDULED: <2016-12-14 mié 10:40>
 Dr Romero William Nicolas
+
+* Ortopantografia
+SCHEDULED: <2016-11-15 mar>
+
