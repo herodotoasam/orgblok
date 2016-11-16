@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-11 vie 22:27]
+#+CAPTION: Clock summary at [2016-11-16 mié 14:17]
 | Headline                                       |      Time |       |
 |------------------------------------------------+-----------+-------|
-| *Total time*                                   | *1d 4:26* |       |
+| *Total time*                                   | *1d 7:50* |       |
 |------------------------------------------------+-----------+-------|
-| Tab pedidos                                    |     18:25 |       |
+| Tab pedidos                                    |     19:16 |       |
 | \emsp DONE haciendo subtab pasar clientes...   |           |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |           |  1:41 |
 | \emsp DONE agregando posibilidad de carga...   |           |  1:00 |
 | \emsp DONE parte logica - guardado del pedido  |           |  0:32 |
 | \emsp DONE poner la linea check anulado/...    |           |  0:30 |
-| \emsp nuevas ideas                             |           | 12:01 |
+| \emsp nuevas ideas                             |           | 12:52 |
 | tab seven                                      |      0:51 |       |
 | tabVentas                                      |      1:31 |       |
 | \emsp verificacion bug                         |           |  0:41 |
@@ -22,9 +22,11 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | \emsp DONE Revisar los criterios de...         |           |  0:20 |
 | \emsp DONE Posibilidad de intimar...           |           |  0:09 |
 | \emsp DONE Emision de un resumen de...         |           |  0:18 |
-| tabVer                                         |      1:29 |       |
+| tabVer                                         |      3:41 |       |
+| \emsp DONE posibilidad de condonar             |           |  1:09 |
 | \emsp TODO que el tab-ver sirva tambien...     |           |  0:36 |
 | \emsp TODO hacer un subtab que se vean las...  |           |  0:53 |
+| \emsp DONE info verificacion seven             |           |  0:16 |
 | Bug reaparece                                  |      2:20 |       |
 | \emsp tabFechar                                |           |  0:46 |
 | \emsp reviso con pycharm lado a lado           |           |  1:34 |
@@ -33,6 +35,7 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | TODO Generales                                 |      1:16 |       |
 | \emsp TODO campos entry mas diferenciados o... |           |  0:21 |
 | \emsp TODO ver la forma de que el...           |           |  0:55 |
+| DONE tabVer accesible desde todo el...         |      0:21 |       |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -306,7 +309,7 @@ vicio.
 Es algo estandard pero muy util que se permita la edicion de todos los
 campos del pedido.
 
-**** TODO datos para la evaluacion del pedido
+*** DONE datos para la evaluacion del pedido
 CLOCK: [2016-11-15 mar 20:55]--[2016-11-15 mar 21:10] =>  0:15
 falta informacion zonal para saber si hay otras deudas en la direccion
 cosa que no esta ocurriendo aca.
@@ -325,6 +328,15 @@ esta la calle hecha. Y supongamos que quiero ver todos los clientes en
 la manzana, entonces borro el 14 y enter, veo todos, si se me borra,
 paso de nuevo por el num y se regenera el campo... Precioso.
 
+*** DONE edicion de los campos del pedido
+CLOCK: [2016-11-16 mié 13:45]--[2016-11-16 mié 14:16] =>  0:31
+lista la primera parte, se puede editar todo lo relevante, quedaria
+para el futuro ver no me acuerdo y estudiar si queremos que se editen
+fechas con mas o menos dentro del tablelist.
+Me parece medio irrelevante, siendo que hay un lugar para ingresarlo y
+el tbls sirve a los fines solo de editar.
+Listo tambien en el otro tbl, en el cual hay un campo extra comentario
+que no esta en el frente, que es util para los rebotados.
 
 
 * tab seven
@@ -510,10 +522,23 @@ puede modificar a voluntad para que lo podamos adecuar al contexto.
 ** TODO poner stab de intimaciones en tabVer
 ** TODO adeduado manejo de los llamados telefonicos que deriven de las intimaciones
 mas que todo dentro del tab ver.
-** TODO info verificacion seven
+** DONE info verificacion seven
+CLOCK: [2016-11-16 mié 12:50]--[2016-11-16 mié 13:06] =>  0:16
 como una info mas que usualmente se carga durante un pedido pero se
 puede cargar en otro momento.
+Ahora es visible ese campo en el tabVer universalmente accedido, y
+queda pendiente que se pueda editar. Una vez que se pueda editar sera
+facil agregar una infoseven de un pedido ya pasado.
 
+** TODO campo nuevo tag u otro tipo campo fts
+de busqueda de datos privados, los datos searchables son publicos, de
+paso revisar que campos estan incluidos en goo1.
+pero una situacion, p.e. una clienta te llama y quiere ser vendedora y
+yo anoto en comentarios, o una clienta es pariente de un promotor, y
+luego como busco eso??
+
+** TODO Historial de pedidos
+un subtab extra con los pedidos sacados y su correlato.
 * Bug reaparece
 ** tabFechar
 CLOCK: [2016-11-01 mar 20:46]--[2016-11-01 mar 21:32] =>  0:46
