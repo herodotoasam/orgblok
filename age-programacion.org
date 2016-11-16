@@ -298,6 +298,32 @@ interesante para llevar un rastro de responsabilidad sobre el vendedor
 de que si se manda una cagada la va a pagar el mismo, y en un contexto
 en el cual no necesitamos ni queremos muchos promotores, todo pienso
 que puede andar bien en ese sentido.
+**** TODO edicion de pedidos
+CLOCK: [2016-11-15 mar 21:10]--[2016-11-15 mar 21:15] =>  0:05
+posibilidad de editar cnt, y color y fecha de pago, que serian los
+items que pueden cambiar en los pedidos para no tener que borrarlo al
+vicio.
+Es algo estandard pero muy util que se permita la edicion de todos los
+campos del pedido.
+
+**** TODO datos para la evaluacion del pedido
+CLOCK: [2016-11-15 mar 20:55]--[2016-11-15 mar 21:10] =>  0:15
+falta informacion zonal para saber si hay otras deudas en la direccion
+cosa que no esta ocurriendo aca.
+quizas puede ser por medio de al terminar de pasar calle y numero
+cargar eso en el buscador y activar la busqueda.
+Listo: Mas facil que lo que pensaba, un bind a numero, con focusout
+para que funcione con tab o enter y eso directamente actua sobre los
+metodos de la class buscar, primero hago set a Buscar.buscar y luego show
+Y como con doble click los analizo sin perder ningun foco, esta
+bueno. Y si quiero con C me voy a la cuadra.
+Algo muy bueno y colateral es que el solo paso por num, te llena no
+solo el resultado sino el campo buscar de la class Buscar, dejandolo
+alli para modificarlo sin el tedio de escribir de nuevo
+yo. P.e. supongamos Mna 52 (Ituizango) 14, que se escribe tal cual
+esta la calle hecha. Y supongamos que quiero ver todos los clientes en
+la manzana, entonces borro el 14 y enter, veo todos, si se me borra,
+paso de nuevo por el num y se regenera el campo... Precioso.
 
 
 
@@ -579,6 +605,7 @@ significa tal cosa.
 
 * Modulos futuros
 ** modulo de cambios de direcciones con tabla aparte
+** modulo de agregado o edicion de calles/barrios/zonas en una sola tab.
 ** modulo de devoluciones de articulos
 ** modulo de atencion de avisos y esquemas de promocion
 * DONE tabVer accesible desde todo el proyecto
@@ -606,4 +633,17 @@ Se puede ver la cuenta desde
 Con esto termino todos los links, o sea en todos los lugares donde se
 pueda pretender ver la cuenta del cliente que se esta trabajando se
 hace dobleclik izq o derecho y se llega a la cuenta.
+* TODO Modulo pasar ventas
+con la base de pedidos, creo que tendria un pasar ventas facilmente.
+** desde pedidos con numero de pedido y listo
+** desde clientes con mas facilidades de ingreso de datos
+*** informe seven/horarios/mjecobrador
+** el stock se debe manejar de otra forma, la forma actual es obsoleta.
+*** el articulo no se debe restringir en el pasado, si se vendio es pq hay
+*** el stock se debe calcular en forma directa, no por triggers
+creo que se usaron trigger por usar trigger no pq fueran eficientes
+para esto, y generaron mucha imprecision.
+* Explorar posibles nuevos optiondatabase
+con otros "themes", colores y combinaciones que hagan mas legible el
+pasado de datos. Y la lectura de datos.
 
