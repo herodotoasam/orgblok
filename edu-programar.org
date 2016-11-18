@@ -57,3 +57,45 @@ sustituirlo lo que dejaria sin funcionalidad al cuadro.
 | m M   | dni    | busca por dni masc   | --                           |
 | pf pF | nombre | busca por nombre fem | pf'Filippi Pastora'          |
 | pm pM | nombre | busca por nombre mas | pm'Salvay Daniel'            |
+* editar tbl
+#+BEGIN_EXAMPLE
+ def editarvta(tbl,row,col,text):
+            idvta = self.cuentas.cuentascliente.getcell(row,'id')
+            campo = self.cuentas.cuentascliente.columncget(col,'-name')
+            upd = 'update ventas set {}=? where id=?'.format(campo)
+            con.execute(upd,(text,idvta))
+            con.commit()
+            return text
+#+END_EXAMPLE
+*** referenciar tbl
+no anda
+*** idvta
+obtengo el id con getcell como es habitual, podria hacerlo con row
+active, pero uso el row que me da el proc nemethi, ojo es una variable
+python, poner row, no 'row'
+*** campo
+es lo mas sutil, obtengo el nombre del campo que se esta editando con
+el columncget sobre la propiedad -name usando el col que da nemethi
+*** upd
+ahi armo el upd. pongo el nombre del campo con format de python y los
+valores del campo y el id con parametros de sqlite, asi no tengo que
+lidear con interpretaciones erroneas.
+upd='update ventas set {} = ? where id=?'.format(campo)
+*** execute
+hago el con.execute como es habitual, pasando los parametros como
+cualquier otra execute, y commit.
+*** return text
+para que el tbl muestre el valor editado
+
+
+Una joyita en general pq sirve para editar en cualquier tbl, y
+cualquier campo, el esquema. Se podria generalizar quizas, pero el
+esquema es simple, y asi lo tengo bien diagramado.
+Esto es una botella de informacion para el futuro. Si llego a un nivel
+que olvidando todo lo que hice no entiendo nada, creo que con estas
+explicaciones algo tengo que agarrar.
+
+Falta por ultimo poner como configuracion al tbl, editendcommand el
+proc que va a hacer todo esto que tiene 4 parametros tbl/row/col/text.
+y tmb indicar cuales columnas seran editables, usualmente si son
+muchas las hago con un for, poniendo columnconfigure editable=1

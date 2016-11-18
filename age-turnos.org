@@ -6,10 +6,10 @@ Dra Khorsandnia,Bayan
   SCHEDULED: <2016-12-14 mié 10:40>
 Dr Romero William Nicolas
 
-* Ortopantografia
+* DONE Ortopantografia
 SCHEDULED: <2016-11-15 mar>
 
 * endocrinologia
-SCHEDULED: <2016-11-18 vie>
+SCHEDULED: <2016-11-21 lun>
 
 

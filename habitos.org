@@ -10,7 +10,9 @@ solo color, y si lo has roto automaticamente se recomienza.
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-11-16 mié .+1d>
+SCHEDULED: <2016-11-18 vie .+1d>
+- State "DONE"       from "TODO"       [2016-11-17 jue 20:43]
+- State "DONE"       from "TODO"       [2016-11-16 mié 21:06]
 - State "DONE"       from "TODO"       [2016-11-15 mar 20:42]
 - State "DONE"       from "TODO"       [2016-11-14 lun 21:03]
 - State "DONE"       from "TODO"       [2016-11-13 dom 19:48]
@@ -22,7 +24,7 @@ SCHEDULED: <2016-11-16 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2016-11-15 mar 20:42]
+:LAST_REPEAT: [2016-11-17 jue 20:43]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -43,7 +45,11 @@ SCHEDULED: <2016-11-16 mié .+1d>
 r
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2016-11-14 lun .+1d>
+SCHEDULED: <2016-11-18 vie .+1d>
+- State "DONE"       from "TODO"       [2016-11-17 jue 20:43]
+- State "DONE"       from "TODO"       [2016-11-16 mié 13:01]
+- State "DONE"       from "TODO"       [2016-11-15 mar 13:01]
+- State "DONE"       from "TODO"       [2016-11-14 lun 21:06]
 - State "DONE"       from "TODO"       [2016-11-13 dom 21:11]
 - State "DONE"       from "TODO"       [2016-11-12 sáb 23:01]
 - State "DONE"       from "TODO"       [2016-11-11 vie 20:52]
@@ -53,7 +59,7 @@ SCHEDULED: <2016-11-14 lun .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-11-13 dom 21:11]
+:LAST_REPEAT: [2016-11-17 jue 20:43]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
@@ -87,7 +93,9 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2016-11-16 mié .+1d>
+SCHEDULED: <2016-11-18 vie .+1d>
+- State "DONE"       from "TODO"       [2016-11-17 jue 20:43]
+- State "DONE"       from "TODO"       [2016-11-16 mié 21:06]
 - State "DONE"       from "TODO"       [2016-11-15 mar 20:42]
 - State "DONE"       from "TODO"       [2016-11-14 lun 21:02]
 - State "DONE"       from "TODO"       [2016-11-13 dom 21:11]
@@ -102,7 +110,7 @@ SCHEDULED: <2016-11-16 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-11-15 mar 20:42]
+:LAST_REPEAT: [2016-11-17 jue 20:43]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
@@ -118,7 +126,9 @@ SCHEDULED: <2016-11-16 mié .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2016-11-16 mié .+1d>
+SCHEDULED: <2016-11-18 vie .+1d>
+- State "DONE"       from "TODO"       [2016-11-17 jue 21:14]
+- State "DONE"       from "TODO"       [2016-11-16 mié 21:09]
 - State "DONE"       from "TODO"       [2016-11-15 mar 20:42]
 - State "DONE"       from "TODO"       [2016-11-14 lun 21:02]
 - State "DONE"       from "TODO"       [2016-11-13 dom 21:11]
@@ -140,7 +150,7 @@ SCHEDULED: <2016-11-16 mié .+1d>
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-11-15 mar 20:42]
+:LAST_REPEAT: [2016-11-17 jue 21:14]
 :END:
 | N° | Descripcion                |                           |
 |  1 | flexion baja de la espalda | lev con brazos los muslos |

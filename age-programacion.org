@@ -1,41 +1,48 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-16 mié 14:17]
-| Headline                                       |      Time |       |
-|------------------------------------------------+-----------+-------|
-| *Total time*                                   | *1d 7:50* |       |
-|------------------------------------------------+-----------+-------|
-| Tab pedidos                                    |     19:16 |       |
-| \emsp DONE haciendo subtab pasar clientes...   |           |  1:16 |
-| \emsp DONE bosquejamos el pasado de pedido     |           |  1:41 |
-| \emsp DONE agregando posibilidad de carga...   |           |  1:00 |
-| \emsp DONE parte logica - guardado del pedido  |           |  0:32 |
-| \emsp DONE poner la linea check anulado/...    |           |  0:30 |
-| \emsp nuevas ideas                             |           | 12:52 |
-| tab seven                                      |      0:51 |       |
-| tabVentas                                      |      1:31 |       |
-| \emsp verificacion bug                         |           |  0:41 |
-| \emsp DONE borrado de quieren comprar          |           |  0:50 |
-| tabFichas                                      |      1:11 |       |
-| \emsp DONE Imprimir listado desde Todos o Mora |           |  0:19 |
-| \emsp DONE Poner zonas elva y monica en...     |           |  0:05 |
-| \emsp DONE Revisar los criterios de...         |           |  0:20 |
-| \emsp DONE Posibilidad de intimar...           |           |  0:09 |
-| \emsp DONE Emision de un resumen de...         |           |  0:18 |
-| tabVer                                         |      3:41 |       |
-| \emsp DONE posibilidad de condonar             |           |  1:09 |
-| \emsp TODO que el tab-ver sirva tambien...     |           |  0:36 |
-| \emsp TODO hacer un subtab que se vean las...  |           |  0:53 |
-| \emsp DONE info verificacion seven             |           |  0:16 |
-| Bug reaparece                                  |      2:20 |       |
-| \emsp tabFechar                                |           |  0:46 |
-| \emsp reviso con pycharm lado a lado           |           |  1:34 |
-| tab-Doc                                        |      1:23 |       |
-| \emsp DONE Marcar doc como llevado a...        |           |  1:23 |
-| TODO Generales                                 |      1:16 |       |
-| \emsp TODO campos entry mas diferenciados o... |           |  0:21 |
-| \emsp TODO ver la forma de que el...           |           |  0:55 |
-| DONE tabVer accesible desde todo el...         |      0:21 |       |
+#+CAPTION: Clock summary at [2016-11-18 vie 12:21]
+| Headline                                       |       Time |       |
+|------------------------------------------------+------------+-------|
+| *Total time*                                   | *1d 11:22* |       |
+|------------------------------------------------+------------+-------|
+| Tab pedidos                                    |      19:16 |       |
+| \emsp DONE haciendo subtab pasar clientes...   |            |  1:16 |
+| \emsp DONE bosquejamos el pasado de pedido     |            |  1:41 |
+| \emsp DONE agregando posibilidad de carga...   |            |  1:00 |
+| \emsp DONE parte logica - guardado del pedido  |            |  0:32 |
+| \emsp DONE poner la linea check anulado/...    |            |  0:30 |
+| \emsp nuevas ideas                             |            | 12:52 |
+| tab seven                                      |       0:51 |       |
+| tabVentas                                      |       1:31 |       |
+| \emsp verificacion bug                         |            |  0:41 |
+| \emsp DONE borrado de quieren comprar          |            |  0:50 |
+| tabFichas                                      |       1:11 |       |
+| \emsp DONE Imprimir listado desde Todos o Mora |            |  0:19 |
+| \emsp DONE Poner zonas elva y monica en...     |            |  0:05 |
+| \emsp DONE Revisar los criterios de...         |            |  0:20 |
+| \emsp DONE Posibilidad de intimar...           |            |  0:09 |
+| \emsp DONE Emision de un resumen de...         |            |  0:18 |
+| tabVer                                         |       4:16 |       |
+| \emsp DONE posibilidad de condonar             |            |  1:09 |
+| \emsp TODO que el tab-ver sirva tambien...     |            |  0:36 |
+| \emsp TODO hacer un subtab que se vean las...  |            |  0:53 |
+| \emsp DONE info verificacion seven             |            |  0:16 |
+| \emsp DONE Historial de pedidos                |            |  0:35 |
+| Bug reaparece                                  |       2:20 |       |
+| \emsp tabFechar                                |            |  0:46 |
+| \emsp reviso con pycharm lado a lado           |            |  1:34 |
+| tab-Doc                                        |       1:23 |       |
+| \emsp DONE Marcar doc como llevado a...        |            |  1:23 |
+| TODO Generales                                 |       1:16 |       |
+| \emsp TODO campos entry mas diferenciados o... |            |  0:21 |
+| \emsp TODO ver la forma de que el...           |            |  0:55 |
+| Modulos futuros                                |       2:44 |       |
+| \emsp modulo de devoluciones de articulos      |            |  2:44 |
+| DONE tabVer accesible desde todo el...         |       0:29 |       |
+| \emsp DONE interconexion en tabver idem a...   |            |  0:08 |
+| chequear posibles bugs                         |       0:05 |       |
+| \emsp DONE tab order en pasado de pedidos...   |            |  0:03 |
+| \emsp DONE que paso, se achicaron los...       |            |  0:02 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -537,8 +544,29 @@ pero una situacion, p.e. una clienta te llama y quiere ser vendedora y
 yo anoto en comentarios, o una clienta es pariente de un promotor, y
 luego como busco eso??
 
-** TODO Historial de pedidos
+** DONE Historial de pedidos
+CLOCK: [2016-11-18 vie 11:45]--[2016-11-18 vie 12:20] =>  0:35
 un subtab extra con los pedidos sacados y su correlato.
+listo, un subtab extra en tabVer que no parece que pese tanto y los
+pedidos de ese cliente, en todos sus campos, y resaltado con el codigo
+de color que acostumbramos.
+Perdi unos minutitos y puse unos labels de aclaracion de ayuda en
+Pedidos, con las letras que cambian status, y que significan los
+status, y que color tienen asignado.
+| status | color     |   | significado              |
+|      0 | gold      |   | pendiente                |
+|      1 | green     | e | entregado                |
+|      2 | indianred | A | anulado por la empresa   |
+|      3 | royalblue | Z | rechazado por el cliente |
+Sirva esto de documentacion
+Esta bien es feucho, la ayuda en pantalla, pero consideremosla
+provisoria, sino despues quedan un monton de cosas programadas que no
+se usan nunca, ni siquiera por mi que soy el destinatario del 99% del
+programa que estoy escribiendo.
+
+Pongo directamente E y dejo todos los binds con mayusculas
+para unificar criterios.
+
 * Bug reaparece
 ** tabFechar
 CLOCK: [2016-11-01 mar 20:46]--[2016-11-01 mar 21:32] =>  0:46
@@ -632,6 +660,60 @@ significa tal cosa.
 ** modulo de cambios de direcciones con tabla aparte
 ** modulo de agregado o edicion de calles/barrios/zonas en una sola tab.
 ** modulo de devoluciones de articulos
+*** DONE modificacion de detvta en tabVer
+CLOCK: [2016-11-16 mié 19:39]--[2016-11-16 mié 20:05] =>  0:26
+**** DONE borrado de un item de detalle de venta
+CLOCK: [2016-11-16 mié 20:15]--[2016-11-16 mié 21:03] =>  0:48
+**** DONE edicion de los campos de un item de detalle de venta
+ok se puede modificar ic, cc, art, cnt, costo.
+Veremos si puedo modificar art con combobox.
+Desisto de modificar con combobox luego de probarlo.
+el ttk::combobox no require autorizacion o mejor dicho inicializacion
+como el BWidget. No obstante para cargarlo de values con
+editstartcommand me falla pq el metodo editwinpath no me entrega en
+python una relacion directa al combobox para trabajar con el, sino que
+alude a un objeto oscuro tcl-tkinter. Igual pasa con los proc de
+edicion cuyos parametro tbl pasado no me sirve para referenciar el
+tablelist que lo llama. En fin, no me voy a meter en los fondos de un
+tbls que bastante bien funciona y siendo que no fue programado para
+python, tendria que tener otra solucion. 
+O bien una muy rebuscada que introduciendo el codigo de articulo se
+expandiera al nombre del articulo, o bien tener un lista de articulos
+actualizada y facilmente accesible donde hacer cortar y pegar, cosa de
+que antes de editar uno ya tenga copiado el articulo que quiera pegar.
+**** DONE triggers modifican ventas.art
+CLOCK: [2016-11-17 jue 12:09]--[2016-11-17 jue 12:15] =>  0:06
+ya existen para ins/del detvta, calculan el total para cnt y una
+funcion concat contatena los arts para art.
+
+update ventas set cnt=(select sum(cnt) from detvta where
+idvta=new.idvta),art=(select group_concat(art,'|') from detvta where
+idvta=new.idvta) where id=new.idvta;
+
+Intentare para update de cnt y art tmb.
+**** DONE listita de articulos para pegar facil
+CLOCK: [2016-11-17 jue 12:15]--[2016-11-17 jue 12:37] =>  0:22
+listo, no es muy churro pero es efectivo, resaltando y Control-C
+copiamos y luego podemos pegar con Control-V o boton medio del raton.
+**** DONE agregado facil de otro item ya con id/idvta puesto
+CLOCK: [2016-11-17 jue 12:38]--[2016-11-17 jue 12:53] =>  0:15
+para que sea facil agregar el item que falta y que si es posible se
+llene solo el ic/cc/costo con lo que esta cargado en tablas.
+el agregado de los datos de ic/cc/costo tendria que ser a traves de
+trigger al editar el articulo, pero por ahora lo considero superfluo,
+al menos en un sistema de editado manual en el cual, se puede acomodar
+facilmente.
+*** DONE modificado de registro de venta o cuenta
+CLOCK: [2016-11-17 jue 19:46]--[2016-11-17 jue 20:33] =>  0:47
+en especial cc/ic/ent/primera/idvdor/ y de paso mostrar tmb en Ver
+estos dos ultimos datos que no estan visibles.
+Con eso terminariamos el proceso de un cambio todo dentro del tabVer
+cambio que se estaba haciendo a mano con los riesgos que eso implicaba
+*** TODO proceso de devoluciones es algo aparte
+pq aparte de poner en LN al cliente, y borrar la cuenta, requeriria el
+llevar algun tipo de registro.
+
+
 ** modulo de atencion de avisos y esquemas de promocion
 * DONE tabVer accesible desde todo el proyecto
 CLOCK: [2016-11-13 dom 19:25]--[2016-11-13 dom 19:46] =>  0:21
@@ -658,6 +740,11 @@ Se puede ver la cuenta desde
 Con esto termino todos los links, o sea en todos los lugares donde se
 pueda pretender ver la cuenta del cliente que se esta trabajando se
 hace dobleclik izq o derecho y se llega a la cuenta.
+** DONE interconexion en tabver idem a pedidos por callenum
+CLOCK: [2016-11-17 jue 20:34]--[2016-11-17 jue 20:42] =>  0:08
+muy interesante conexion, ya que permite "subir" los datos rapidamente
+al cuadro de busquedas, siendo que aterrizamos en tabVer desde
+cualquier lado.
 * TODO Modulo pasar ventas
 con la base de pedidos, creo que tendria un pasar ventas facilmente.
 ** desde pedidos con numero de pedido y listo
@@ -671,4 +758,12 @@ para esto, y generaron mucha imprecision.
 * Explorar posibles nuevos optiondatabase
 con otros "themes", colores y combinaciones que hagan mas legible el
 pasado de datos. Y la lectura de datos.
+* chequear posibles bugs
+** DONE tab order en pasado de pedidos que salta de num a los tbs 
+CLOCK: [2016-11-18 vie 11:23]--[2016-11-18 vie 11:26] =>  0:03
+y no sigue a barrio y zona.
+Listo. Era el bind en num, que buscaba los que viven en la direccion
+** DONE que paso, se achicaron los cuadros de busqueda y se agrando el campo de arriba
+CLOCK: [2016-11-18 vie 11:38]--[2016-11-18 vie 11:40] =>  0:02
+No parece estar distinto
 

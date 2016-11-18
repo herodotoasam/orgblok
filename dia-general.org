@@ -2644,5 +2644,9 @@ piel en toda la region perineal.
 :Costo:    150
 :Valoracion: 4
 :END:
+* diario de estado de animos
+** muy positivo 
+tipo como el dia del ejercicio que vio el lolo q tiraba rayos
+*** [2016-11-17 jue]
 
 
