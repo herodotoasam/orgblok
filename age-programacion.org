@@ -276,6 +276,20 @@ voy a borrar un pedido.
  
 *** TODO documento nuevo en python
 *** TODO tablero de control promotores
+al menos algo basico por ahora
+**** DONE pivot vendedor/mes
+CLOCK: [2016-11-20 dom 17:26]--[2016-11-20 dom 17:46] =>  0:20
+ultimo año, usando un esquema similar al del tab cobrado, o sea linea
+de botones arriba y reusado del tbls via resetcols
+**** DONE pivot zona/mes
+CLOCK: [2016-11-20 dom 18:05]--[2016-11-20 dom 18:20] =>  0:15
+tanto sistema cortinas como visita
+
+**** DONE cortinas por dia - sumable
+CLOCK: [2016-11-20 dom 18:35]--[2016-11-20 dom 18:58] =>  0:23
+**** ganancia-real por dia - sumable 
+aca quiza necesito una tabla
+
 *** TODO planilla de salida de mercaderia
 alli se hara la clausula legal. Me firmaran todos los dias, en la
 planilla no solo debe salir que mercaderia llevan sino que la llevan
@@ -308,7 +322,7 @@ interesante para llevar un rastro de responsabilidad sobre el vendedor
 de que si se manda una cagada la va a pagar el mismo, y en un contexto
 en el cual no necesitamos ni queremos muchos promotores, todo pienso
 que puede andar bien en ese sentido.
-**** TODO edicion de pedidos
+*** TODO edicion de pedidos
 CLOCK: [2016-11-15 mar 21:10]--[2016-11-15 mar 21:15] =>  0:05
 posibilidad de editar cnt, y color y fecha de pago, que serian los
 items que pueden cambiar en los pedidos para no tener que borrarlo al
@@ -344,6 +358,27 @@ Me parece medio irrelevante, siendo que hay un lugar para ingresarlo y
 el tbls sirve a los fines solo de editar.
 Listo tambien en el otro tbl, en el cual hay un campo extra comentario
 que no esta en el frente, que es util para los rebotados.
+
+*** TODO pasado directo del pedido como venta
+CLOCK: [2016-11-18 vie 21:02]--[2016-11-18 vie 21:14] =>  0:12
+que el E de entregado sea pasado como venta, ya que cuando trabajamos
+con pedidos lo unico que se hace es pasar todo automaticamente, pero
+todo esta igual.
+Habria que chequear el dni, que en realidad el pasado sirve para eso,
+porque me pregunto en el futuro cuando haya mas gente trabajando, y
+haga el documento nuevo, voy a sacar la referencia al dni dentro del
+documento y como controlo que realmente firmo la compradora sino lo
+paso al pedido y compruebo ahi mismo. Pero puede haber otra
+forma. p.e. que en el tbls de pendientes que es donde se procese esto
+este el dni y yo lo testee ahi, junto con el nombre, ponga E. y me de
+el numero de cuenta. Previamente edito la fecha de pago si hay una
+modificacion.
+
+**** Podriamos poner un campo extra en pedido: idvta
+y un trigger en ventas que ponga el idvta cuando se pase la venta
+y el tbls que muestro contener el idvta y luego del E, recalcularse y
+alli me aparecera el numero de cuenta. Aparte de un balloon.
+
 
 
 * tab seven
@@ -766,4 +801,15 @@ Listo. Era el bind en num, que buscaba los que viven en la direccion
 ** DONE que paso, se achicaron los cuadros de busqueda y se agrando el campo de arriba
 CLOCK: [2016-11-18 vie 11:38]--[2016-11-18 vie 11:40] =>  0:02
 No parece estar distinto
+* improvs
+** linkear desde fichas a fechar para despejar fichas.
+CLOCK: [2016-11-18 vie 19:31]--[2016-11-18 vie 19:52] =>  0:21
+listo- accedido
+** boton de impresion directa de zonas Atajo
+es embolante tener que hacer el proceso en especial cuando son zonas
+multiples.
+que se imprima directo resumen y zona 
+** reacomodar tabVentas
+poner fichitas atras y quieren comprar adelante y limitar el ancho de
+la columna que invade todo.
 

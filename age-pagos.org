@@ -31,10 +31,11 @@ DEADLINE: <2016-11-25 vie +1m>
 :LAST_REPEAT: [2016-10-27 jue 12:37]
 :END:
 *** TODO Hospital Privado
-DEADLINE: <2016-11-17 jue +1m>
+DEADLINE: <2016-12-17 sáb +1m>
+- State "DONE"       from "TODO"       [2016-11-18 vie 21:18]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-19 mié 20:20]
+:LAST_REPEAT: [2016-11-18 vie 21:18]
 :END:
 
 * familia                                                           :familia:
@@ -69,10 +70,11 @@ DEADLINE: <2016-12-15 jue +1m -2d>
 
 * Romitex                                                           :romitex:
 ** TODO Expensas Local                                       :oficina:fijos:
-DEADLINE: <2016-11-20 dom +1m -3d>
+DEADLINE: <2016-12-20 mar +1m -3d>
+- State "DONE"       from "TODO"       [2016-11-20 dom 19:27]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-19 mié 20:20]
+:LAST_REPEAT: [2016-11-20 dom 19:27]
 :END:
 ** TODO Epec Local                                           :oficina:fijos:
 ** TODO Telecom Local                                        :oficina:fijos:
@@ -82,10 +84,11 @@ DEADLINE: <2016-11-21 lun +1m>
 :LAST_REPEAT: [2016-10-19 mié 20:21]
 :END:
 ** TODO Seven                                                :oficina:fijos:
-DEADLINE: <2016-11-05 sáb +1m>
+DEADLINE: <2016-12-05 lun +1m>
+- State "DONE"       from "TODO"       [2016-11-18 vie 21:19]
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-20 jue 21:06]
+:LAST_REPEAT: [2016-11-18 vie 21:19]
 :END:
 
 
