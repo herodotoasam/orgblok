@@ -812,4 +812,18 @@ que se imprima directo resumen y zona
 ** reacomodar tabVentas
 poner fichitas atras y quieren comprar adelante y limitar el ancho de
 la columna que invade todo.
+* tabCobrado
+** pivot por cobrar
+CLOCK: [2016-11-21 lun 12:32]--[2016-11-21 lun 13:50] =>  1:18
+hecho, salio la tabla, aunque la calcule en forma atipica. probada en
+un solo caso, necesitaria mas testeo.
+Pero haciendo un select sum(saldo) from ventas where fecha>idem fecha
+tomada o sea desde 2014 tengo el mismo saldo, lo cual me indica que es
+un numero bien exacto, y con la confirmacion que me da que el vto ha
+sido bien asignado, debo concluir que el pivot es cierto.
+De ahi para arriba hay mucho para poblar en este tab, pero lo mas
+importante y lo mas dificil esta, con excepcion quiza del mes pago,
+mes venta, pero ese sale de un select mixto no de una tabla virtual.
+Otro ejemplo mas que algo que parece dificil en realidad se hace y se
+hace en una mañana en la cual uno no esta cien por cien.
 
