@@ -2329,6 +2329,13 @@ pregunta que hace Veronica en el curso me llevo la otra vez al local,
 y ahora creo que es hora de abrir de nuevo el negocio. 
 Pero creo que debo comenzar nuevamente a abrir la cabeza, a generar
 confianza y explorar todo de nuevo.
+*** [2016-11-23 mié]
+CLOCK: [2016-11-23 mié 14:33]--[2016-11-23 mié 14:34] =>  0:01
+Que curioso que justo cuando pienso que me voy a morir, el otro dia
+que me sentia mal, o cuando estaba en medio del temblorororon en lo
+primero que pienso es en el programa que va a quedar incompleto, que
+me falta para programar.
+
 * Constructos
 ** Be normal
 * Consignas

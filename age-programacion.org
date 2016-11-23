@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-22 mar 22:13]
+#+CAPTION: Clock summary at [2016-11-23 mié 13:38]
 | Headline                                       |       Time |       |
 |------------------------------------------------+------------+-------|
-| *Total time*                                   | *1d 15:59* |       |
+| *Total time*                                   | *1d 17:52* |       |
 |------------------------------------------------+------------+-------|
-| Tab pedidos                                    |      21:41 |       |
+| Tab pedidos                                    |      23:34 |       |
 | \emsp DONE haciendo subtab pasar clientes...   |            |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |            |  1:41 |
 | \emsp DONE agregando posibilidad de carga...   |            |  1:00 |
 | \emsp DONE parte logica - guardado del pedido  |            |  0:32 |
 | \emsp DONE poner la linea check anulado/...    |            |  0:30 |
-| \emsp nuevas ideas                             |            | 15:17 |
+| \emsp nuevas ideas                             |            | 17:10 |
 | tab seven                                      |       0:51 |       |
 | tabVentas                                      |       1:31 |       |
 | \emsp verificacion bug                         |            |  0:41 |
@@ -207,7 +207,6 @@ puse un campo case when, llamado mora que calcula la deuda si tiene
 mas de 60 dias que no paga y lo pone en mora y va en rojo, sino va en
 azul. y pongo en gris los que no compraron nunca.
 
-
 *** DONE pestaña resumen de pedidos donde se pueda ver los pedidos
 CLOCK: [2016-11-07 lun 12:20]--[2016-11-07 lun 12:46] =>  0:26
 CLOCK: [2016-11-07 lun 12:00]--[2016-11-07 lun 12:20] =>  0:20
@@ -241,7 +240,6 @@ rechazado.
 que joder lo hago ahora que estoy justo en el tema.
 listo tengo rechazado por el cliente en status 3.
 
-
 *** DONE bug: cliente nuevo
 CLOCK: [2016-11-07 lun 21:02]--[2016-11-07 lun 21:30] =>  0:28
 Listo. Puse un boton nuevo. No obstante me hace ruido la posibilidad
@@ -255,7 +253,6 @@ CLOCK: [2016-11-08 mar 11:39]--[2016-11-08 mar 11:54] =>  0:15
 o bien poner un aviso de posible error.
 Puse un flag que avisa e impide en caso de que no se conteste que si
 avanzar en la edicion de un cambio de de dni.
-
 
 *** DONE agregar la vista de ex-calle-exnum etc 
 CLOCK: [2016-11-08 mar 13:15]--[2016-11-08 mar 13:31] =>  0:16
@@ -279,8 +276,6 @@ dato anoto eso, es raro que pase el dato de una y despues vaya a
 anularlo, y si pasara eso, lo borro al dato y lo paso de nuevo, borro
 ventas a cada rato pq el codigo de art no me deja entrar, mira sino
 voy a borrar un pedido.
- 
-*** TODO documento nuevo en python
 *** DONE tablero de control promotores
 al menos algo basico por ahora
 **** DONE pivot vendedor/mes
@@ -319,39 +314,6 @@ cobradores venden como antes, o si algunos vendedores visitan
 clientes.
 Por lo pronto, puedo distinguir como promo las ventas hechas a traves
 de pedido, desde el 26-10-2016.
-
-*** TODO planilla de salida de mercaderia
-alli se hara la clausula legal. Me firmaran todos los dias, en la
-planilla no solo debe salir que mercaderia llevan sino que la llevan
-para entregarla especificamente a dichas personas, y pondria una
-clausula que diga en formato de contrato lo siguiente:
-**** Los clientes destinatarios de los articulos que el vendedor lleva
-han sido chequeados en funcion de la informacion traida por el
-vendedor, en base a su verificacion visual del dni del cliente y se
-compromete solidariamente a hacer firmar el documento a la misma
-persona que genero el pedido y cuyos datos figuran en la planilla y en
-el documento. En caso de no estar disponible la persona, el articulo
-debe ser traido y entregado mañana. Cualquier falsedad en que incurra
-la operacion no puede ser alegada como actuada por desconocimiento por
-cuanto el vendedor esta expresamente encomendado a tener la precaucion
-y tomar los recaudos para hacer firmar al cliente indicado que fue el
-que el mismo trajo, y de cuya operacion el mismo se va a beneficiar,
-resultando cualquier irregularidad un fraude directo a la empresa con
-responsabilidad sobre el vendedor.
-**** Las direcciones declaradas por el vendedor 
-tienen el caracter de declaracion jurada y son tomadas como ciertas,
-por cuanto tambien fueron informadas por el vendedor, cualquier
-discrepancia debe ser corregida en el momento de la entrega. 
-**** Formato de contrato
-en si cuando lo explique al vendedor, le hago saber que el contrato de
-entrega es un contrato aparte, que lo vincula a el en cada entrega que
-hace y queda pegado a la veracidad de lo actuado con cada cliente en
-particular.
-Como esas hojas se guardan y de paso tienen orden puede ser
-interesante para llevar un rastro de responsabilidad sobre el vendedor
-de que si se manda una cagada la va a pagar el mismo, y en un contexto
-en el cual no necesitamos ni queremos muchos promotores, todo pienso
-que puede andar bien en ese sentido.-
 *** DONE edicion de pedidos
 CLOCK: [2016-11-15 mar 21:10]--[2016-11-15 mar 21:15] =>  0:05
 posibilidad de editar cnt, y color y fecha de pago, que serian los
@@ -389,7 +351,7 @@ el tbls sirve a los fines solo de editar.
 Listo tambien en el otro tbl, en el cual hay un campo extra comentario
 que no esta en el frente, que es util para los rebotados.
 
-*** TODO pasado directo del pedido como venta
+*** DONE pasado directo del pedido como venta
 CLOCK: [2016-11-18 vie 21:02]--[2016-11-18 vie 21:14] =>  0:12
 que el E de entregado sea pasado como venta, ya que cuando trabajamos
 con pedidos lo unico que se hace es pasar todo automaticamente, pero
@@ -404,12 +366,98 @@ este el dni y yo lo testee ahi, junto con el nombre, ponga E. y me de
 el numero de cuenta. Previamente edito la fecha de pago si hay una
 modificacion.
 
-**** Podriamos poner un campo extra en pedido: idvta
+**** DONE Podriamos poner un campo extra en pedido: idvta
+CLOCK: [2016-11-23 mié 11:22]--[2016-11-23 mié 11:50] =>  0:28
 y un trigger en ventas que ponga el idvta cuando se pase la venta
 y el tbls que muestro contener el idvta y luego del E, recalcularse y
 alli me aparecera el numero de cuenta. Aparte de un balloon.
 
+**** DONE problema de la funcion pmovto que esta incrustada en los triggers
+CLOCK: [2016-11-23 mié 11:59]--[2016-11-23 mié 12:50] =>  0:51
+ademas de ser todos viejos los triggers, tiene esa funcion incrustada
+dentro.
+Solucionada incluso en version de ambos planes, aunque el plan semanal
+es obsoleto.
+Despues de mucho renegar se pulio una funcion internamente, y estoy
+puliendo o mejor dicho borrando muchos triggers que agregan datos que
+en realidad no usamos nunca, esta bien que no enlentece en nada la
+base de datos pero es una maraña dificil de mantener, creo que hay que
+seguir puliendo. Al menos termine con una solucion a la funcion
+pmovto.
+#+BEGIN_EXAMPLE
+pmovto=CASE WHEN p in (1,'1') THEN
+(select date(new.primera, printf('+%s months',round((new.ent+new.pagado)/new.ic))))
+WHEN p in (3,'3') THEN
+(select date(new.primera, printf('+%s days',round((new.ent+new.pagado)/new.ic)*7)))
+END
+ where id=new.id;
+#+END_EXAMPLE
+Con el sistema de trabajo que tengo ahora al menos llevo una pista.
+Creo que no deberia borrar los provisorios, sino irlos dejando como
+documentacion.
+En especial la operacion sobre tablas y triggers es muy importante.
+Incluso le agregaria el copiado de los trigger que voy borrando, o al
+menos ponerlos aca.
+Esta bien que estan en cualquier copia de la base de dato previo a la
+operacion.
 
+**** DONE pasado del detalle de venta 
+CLOCK: [2016-11-23 mié 13:03]--[2016-11-23 mié 13:13] =>  0:10
+ya esta. 
+Aca quiero notar el uso del lastrowid. Como paso primero la venta en
+tabla Ventas, y obtengo el idventa que luego necesito para detvta,
+ahorro un paso poniendo
+idvta = con.execute( bla bla el insert en tabla ventas ...).lastrowid
+entonces paralelamente a ejecutar el insert, cargo en la variable
+idvta la propiedad lastrowid del con.execute que me da el ultimo id
+insertado.
+
+**** DONE cambio de status en pedido y puesta del idvta
+CLOCK: [2016-11-23 mié 13:13]--[2016-11-23 mié 13:37] =>  0:24
+listo. Ya estaria. Quizas falta un poco que el balloon sea mas visible
+o bien que se use un label mas visible cosa de no equivocar el numero
+de cuenta.
+Obviamente esto tiene que ir acompañado de una revision de los
+documentos firmados para ver si la gente que firmo es la que deberia
+haber firmado, pero eso se emparenta a otra cuestion, la del dato o el
+pedido, pq con el pedido teniamos doble firma.
+El tema es que con unas 12/15 ventas se puede uno ahorrar un buen
+tiempito con este sistema de pasado directo.
+*** TODO planilla de salida de mercaderia
+alli se hara la clausula legal. Me firmaran todos los dias, en la
+planilla no solo debe salir que mercaderia llevan sino que la llevan
+para entregarla especificamente a dichas personas, y pondria una
+clausula que diga en formato de contrato lo siguiente:
+**** Los clientes destinatarios de los articulos que el vendedor lleva
+han sido chequeados en funcion de la informacion traida por el
+vendedor, en base a su verificacion visual del dni del cliente y se
+compromete solidariamente a hacer firmar el documento a la misma
+persona que genero el pedido y cuyos datos figuran en la planilla y en
+el documento. En caso de no estar disponible la persona, el articulo
+debe ser traido y entregado mañana. Cualquier falsedad en que incurra
+la operacion no puede ser alegada como actuada por desconocimiento por
+cuanto el vendedor esta expresamente encomendado a tener la precaucion
+y tomar los recaudos para hacer firmar al cliente indicado que fue el
+que el mismo trajo, y de cuya operacion el mismo se va a beneficiar,
+resultando cualquier irregularidad un fraude directo a la empresa con
+responsabilidad sobre el vendedor.
+**** Las direcciones declaradas por el vendedor 
+tienen el caracter de declaracion jurada y son tomadas como ciertas,
+por cuanto tambien fueron informadas por el vendedor, cualquier
+discrepancia debe ser corregida en el momento de la entrega. 
+**** Formato de contrato
+en si cuando lo explique al vendedor, le hago saber que el contrato de
+entrega es un contrato aparte, que lo vincula a el en cada entrega que
+hace y queda pegado a la veracidad de lo actuado con cada cliente en
+particular.
+Como esas hojas se guardan y de paso tienen orden puede ser
+interesante para llevar un rastro de responsabilidad sobre el vendedor
+de que si se manda una cagada la va a pagar el mismo, y en un contexto
+en el cual no necesitamos ni queremos muchos promotores, todo pienso
+que puede andar bien en ese sentido.-
+ 
+*** TODO documento nuevo en python
+*** TODO edicion y/o agregado calles/barrio/zonas
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
