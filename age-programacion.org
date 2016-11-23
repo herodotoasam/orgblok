@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-18 vie 12:21]
+#+CAPTION: Clock summary at [2016-11-22 mar 22:13]
 | Headline                                       |       Time |       |
 |------------------------------------------------+------------+-------|
-| *Total time*                                   | *1d 11:22* |       |
+| *Total time*                                   | *1d 15:59* |       |
 |------------------------------------------------+------------+-------|
-| Tab pedidos                                    |      19:16 |       |
+| Tab pedidos                                    |      21:41 |       |
 | \emsp DONE haciendo subtab pasar clientes...   |            |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |            |  1:41 |
 | \emsp DONE agregando posibilidad de carga...   |            |  1:00 |
 | \emsp DONE parte logica - guardado del pedido  |            |  0:32 |
 | \emsp DONE poner la linea check anulado/...    |            |  0:30 |
-| \emsp nuevas ideas                             |            | 12:52 |
+| \emsp nuevas ideas                             |            | 15:17 |
 | tab seven                                      |       0:51 |       |
 | tabVentas                                      |       1:31 |       |
 | \emsp verificacion bug                         |            |  0:41 |
@@ -43,6 +43,12 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | chequear posibles bugs                         |       0:05 |       |
 | \emsp DONE tab order en pasado de pedidos...   |            |  0:03 |
 | \emsp DONE que paso, se achicaron los...       |            |  0:02 |
+| improvs                                        |       0:21 |       |
+| \emsp linkear desde fichas a fechar para...    |            |  0:21 |
+| tabCobrado                                     |       1:51 |       |
+| \emsp pivot por cobrar                         |            |  1:18 |
+| \emsp generalizar la disposicion para poner... |            |  0:13 |
+| \emsp agregar a tabla virtual cuotas status... |            |  0:20 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -275,7 +281,7 @@ ventas a cada rato pq el codigo de art no me deja entrar, mira sino
 voy a borrar un pedido.
  
 *** TODO documento nuevo en python
-*** TODO tablero de control promotores
+*** DONE tablero de control promotores
 al menos algo basico por ahora
 **** DONE pivot vendedor/mes
 CLOCK: [2016-11-20 dom 17:26]--[2016-11-20 dom 17:46] =>  0:20
@@ -287,8 +293,32 @@ tanto sistema cortinas como visita
 
 **** DONE cortinas por dia - sumable
 CLOCK: [2016-11-20 dom 18:35]--[2016-11-20 dom 18:58] =>  0:23
-**** ganancia-real por dia - sumable 
+**** DONE ganancia-real por dia - sumable 
 aca quiza necesito una tabla
+***** DONE tabla de pasado de jornales
+CLOCK: [2016-11-22 mar 11:30]--[2016-11-22 mar 11:49] =>  0:19
+id-fecha-prom-sueldo-cospel-cnt
+listo junto con la linea de pasado.
+***** DONE tbls que muestra los registros de pagos
+CLOCK: [2016-11-22 mar 13:33]--[2016-11-22 mar 13:53] =>  0:20
+***** DONE cargar datos en oficina
+***** DONE pivot ganancia por semana y por mes
+CLOCK: [2016-11-22 mar 21:27]--[2016-11-22 mar 21:42] =>  0:15
+listo.
+**** TODO info extra en Resumen
+***** TODO pedidos por promotor
+CLOCK: [2016-11-22 mar 21:46]--[2016-11-22 mar 21:48] =>  0:02
+si es posible usando tree.
+***** TODO pedidos por fecha
+***** DONE pedidos por zona - analisis global 
+CLOCK: [2016-11-22 mar 21:53]--[2016-11-22 mar 22:12] =>  0:19
+responder a la pregunta a que barrio vamos con la promo. Ahi me hago
+una pregunta, como diferenciamos las ventas de otro origen, con las
+promo, donde se manifiesta eso?. Que pasaria si de pronto los
+cobradores venden como antes, o si algunos vendedores visitan
+clientes.
+Por lo pronto, puedo distinguir como promo las ventas hechas a traves
+de pedido, desde el 26-10-2016.
 
 *** TODO planilla de salida de mercaderia
 alli se hara la clausula legal. Me firmaran todos los dias, en la
@@ -321,8 +351,8 @@ Como esas hojas se guardan y de paso tienen orden puede ser
 interesante para llevar un rastro de responsabilidad sobre el vendedor
 de que si se manda una cagada la va a pagar el mismo, y en un contexto
 en el cual no necesitamos ni queremos muchos promotores, todo pienso
-que puede andar bien en ese sentido.
-*** TODO edicion de pedidos
+que puede andar bien en ese sentido.-
+*** DONE edicion de pedidos
 CLOCK: [2016-11-15 mar 21:10]--[2016-11-15 mar 21:15] =>  0:05
 posibilidad de editar cnt, y color y fecha de pago, que serian los
 items que pueden cambiar en los pedidos para no tener que borrarlo al
@@ -826,4 +856,22 @@ importante y lo mas dificil esta, con excepcion quiza del mes pago,
 mes venta, pero ese sale de un select mixto no de una tabla virtual.
 Otro ejemplo mas que algo que parece dificil en realidad se hace y se
 hace en una mañana en la cual uno no esta cien por cien.
+** generalizar la disposicion para poner mas vistas
+CLOCK: [2016-11-21 lun 19:28]--[2016-11-21 lun 19:41] =>  0:13
+y agregado proyeccion/por zona
+** agregar a tabla virtual cuotas status pago
+CLOCK: [2016-11-21 lun 20:20]--[2016-11-21 lun 20:40] =>  0:20
+hecho, quedo bien con tres status menos de 30 dias de pmovto y entre
+30/90 dias.
+** ver si se puede por mes de ultpago
+
+se pudo, y es bastante sutil.
+y le agregue pmovto.
+* Sumador
+ver si puedo hacer un sumador en un tab. Ventajas, el teclado de la
+compu siempre sera mejor que la calcu, aparte, es visible, es
+editable, no tengo que sumar dos veces, sino controlar, aparte me
+calcula el 15 solo. 
+* Poner las planillas de cobrador dentro de una pestaña
+
 
