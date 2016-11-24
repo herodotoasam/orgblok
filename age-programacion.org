@@ -915,11 +915,26 @@ hecho, quedo bien con tres status menos de 30 dias de pmovto y entre
 
 se pudo, y es bastante sutil.
 y le agregue pmovto.
-* Sumador
+* Poner las planillas de cobrador dentro de una pestaña
+* TODO Sumador
 ver si puedo hacer un sumador en un tab. Ventajas, el teclado de la
 compu siempre sera mejor que la calcu, aparte, es visible, es
 editable, no tengo que sumar dos veces, sino controlar, aparte me
 calcula el 15 solo. 
-* Poner las planillas de cobrador dentro de una pestaña
+* TODO campo msg-vendedor para alertar al vendedor / Puntaje?/ Limite?
+el msg podria actuar ahora como un protopuntaje. pq permitiria que
+salga el dato pero con ciertos avisos.
+Ver caso Quevedo Martha JID23
+* TODO Sistema de baja del seven
+que genere el archivo y que genere el log.
 
-
+* bugs
+** como tabFechar es ambi-valente
+tiene un proceso de coloreado del active,pmovto del tbls pero si la
+llamada es de numero de cuenta sola, obviamente da error.
+** revisar el proceso de condonacion
+no es claro el proceso, y no se ve el resultado, cambiarlo quizas a
+letras y colores. y por favor que se updatee el cliente subyacente.
+** cuando se genere pedido limpiar cliente
+cosa de pasar un cliente nuevo, y evitar error
+** ver de solucionar el combo clear y el combo tab
