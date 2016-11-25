@@ -2335,6 +2335,37 @@ Que curioso que justo cuando pienso que me voy a morir, el otro dia
 que me sentia mal, o cuando estaba en medio del temblorororon en lo
 primero que pienso es en el programa que va a quedar incompleto, que
 me falta para programar.
+*** [2016-11-24 jue]
+CLOCK: [2016-11-24 jue 14:30]--[2016-11-24 jue 14:57] =>  0:27
+Hoy estoy cansado, no solo a nivel hombros pq ayer hice mucha gimnasia
+sino estoy cansado de programar, pero por hoy. El modulito de sumador
+de hoy aunque recontrautil me parecio muy lento en su confeccion, y en
+este preciso instante tengo fiaca de emprender otro modulo.
+Pero no me puedo quejar que estos dias he hecho mucho.
+La cobranza de este mes estuvo muy buena, el trabajo ordenado, incluso
+hoy limpie anticipadamente la oficina.
+Me falta otro promotor unicamente. para proyectarme con mas fuerza el
+año que viene.
+Esta bien el plan general, comenzar con los dientes el trabajo mas
+duro y terminar la programacion. Ideal tambien seria que en ese
+periodo logre esquematizarme en un minimalismo saludable en una mejora
+para que luego no tenga que caer en crisis.
+Un minimalismo que te asegure continuidad.
+Por eso tambien el programa te asegura. mente barrida. no caer en
+desesperos. Tanto en el sistema de programar con el apoyo de org-mode
+y git, como en el orden del diario, como en la agenda para los
+pagos. Y las tareas.
+**** sistema de credito con CMR
+que bueno el sistema de credito con CMR. O sea tener un sistema como
+este que estoy haciendo con la lesta, pero organizado al maximo (casi
+ya lo tuve pq en realidad todavia no supero con el programa la
+organizacion que tenia en el 2012), lo que si pienso que se agrega
+ahora es la cobranza, que permite pensar mejor a quien vender. Y si
+uno tiene excedentes como para vender mejor. 
+Es como algo empresario. Algo que va haciendo trabajar el dinero. Un
+sistema automatico. Falta mucha programacion todavia para lograr
+esto. Pero se puede hacer.
+
 
 * Constructos
 ** Be normal
@@ -2702,6 +2733,17 @@ externo, dos puntos, uno abierto de mas o menos un mm y el otro igual
 pero con cascara, se trato con unguento desde el dia cero, previo el
 dia anterior o dos dias antes, se sintio el clasico malestar a flor de
 piel en toda la region perineal.
+[2016-11-24 jue] todavia sigue, a pesar de que se trato con unguento
+pocos dias por la inconveniencia de la zona exterior, la marca todavia
+persiste.
+** enuresis
+*** [2016-11-24 jue]
+raramente desperte con una mojada de unos veinte cm de
+diametro. Practicamente nunca me habia sucedido. Me despierto un
+millon de veces, pero estas ultimas noches duermo mas profundamente,
+incluso ni siquiera recuerdo haber tenido el sueño acorde relativo a
+orinar que es el que te despierta.
+
  
 * Diario de obligaciones
 ** [2016-10-22 sáb] Ir a Autocity a ver la Kangoo

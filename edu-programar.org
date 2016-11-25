@@ -99,3 +99,22 @@ Falta por ultimo poner como configuracion al tbl, editendcommand el
 proc que va a hacer todo esto que tiene 4 parametros tbl/row/col/text.
 y tmb indicar cuales columnas seran editables, usualmente si son
 muchas las hago con un for, poniendo columnconfigure editable=1
+* combobox ttk
+#+BEGIN_EXAMPLE
+calles=[x[0] for x in con.execute('select calle from calles order by calle').fetchall() if x[0]]
+calle=ComboBox(self)
+calle.setvalues(calles)
+#+END_EXAMPLE
+** simplemente llamamos el combobox con la class ComboBox asi sin nada mas.
+** el setvalues va como metodo no como propiedad!!!
+o sea pongo calle.setvalues(lista) en este caso.
+** no hace falta poner autocomplete pq todos lo son
+** son case insensitive en su sorted
+** notar la forma compacta de hacer la lista
+** que es ese if x[0]
+en la lista de zonas no se porque me aparecio un valor null o sea None
+y pitio el metodo sortear dentro del combo, como que no admite valores
+nulos para ponerlos a lower (pq sortea a lower), entonces en la lista
+generada le pongo la condicion que el valor listado exista o sea no
+sea nulo o sea if x[0]
+

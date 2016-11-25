@@ -249,11 +249,12 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 * tablas
 ** TODO Basicos                                                       :anki:
-SCHEDULED: <2016-11-12 sáb .+15d>
+SCHEDULED: <2016-12-08 jue .+15d>
+- State "DONE"       from "TODO"       [2016-11-23 mié 21:03]
 - State "DONE"       from "TODO"       [2016-10-28 vie 19:48]
 - State "DONE"       from "TODO"       [2016-10-20 jue 20:58]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-28 vie 19:48]
+:LAST_REPEAT: [2016-11-23 mié 21:03]
 :END:
 1. ¿Cual es la mejor forma de generar una tabla rapidamente?
 2. ¿Como generamos una linea horizontal?

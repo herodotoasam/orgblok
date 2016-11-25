@@ -25,10 +25,11 @@ DEADLINE: <2016-12-05 lun +1m>
 :END:
 ** otros fijos
 *** TODO Claro 
-DEADLINE: <2016-11-25 vie +1m>
+DEADLINE: <2016-12-25 dom +1m>
+- State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
 - State "DONE"       from "TODO"       [2016-10-27 jue 12:37]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-27 jue 12:37]
+:LAST_REPEAT: [2016-11-25 vie 13:49]
 :END:
 *** TODO Hospital Privado
 DEADLINE: <2016-12-17 sáb +1m>

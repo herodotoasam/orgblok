@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-23 mié 13:38]
+#+CAPTION: Clock summary at [2016-11-25 vie 13:46]
 | Headline                                       |       Time |       |
 |------------------------------------------------+------------+-------|
-| *Total time*                                   | *1d 17:52* |       |
+| *Total time*                                   | *1d 20:01* |       |
 |------------------------------------------------+------------+-------|
-| Tab pedidos                                    |      23:34 |       |
+| Tab pedidos                                    |    1d 0:19 |       |
 | \emsp DONE haciendo subtab pasar clientes...   |            |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |            |  1:41 |
 | \emsp DONE agregando posibilidad de carga...   |            |  1:00 |
 | \emsp DONE parte logica - guardado del pedido  |            |  0:32 |
 | \emsp DONE poner la linea check anulado/...    |            |  0:30 |
-| \emsp nuevas ideas                             |            | 17:10 |
+| \emsp nuevas ideas                             |            | 17:55 |
 | tab seven                                      |       0:51 |       |
 | tabVentas                                      |       1:31 |       |
 | \emsp verificacion bug                         |            |  0:41 |
@@ -46,9 +46,10 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | improvs                                        |       0:21 |       |
 | \emsp linkear desde fichas a fechar para...    |            |  0:21 |
 | tabCobrado                                     |       1:51 |       |
-| \emsp pivot por cobrar                         |            |  1:18 |
-| \emsp generalizar la disposicion para poner... |            |  0:13 |
-| \emsp agregar a tabla virtual cuotas status... |            |  0:20 |
+| \emsp DONE pivot por cobrar                    |            |  1:18 |
+| \emsp DONE generalizar la disposicion para...  |            |  0:13 |
+| \emsp DONE agregar a tabla virtual cuotas...   |            |  0:20 |
+| DONE Sumador                                   |       1:24 |       |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -458,6 +459,21 @@ que puede andar bien en ese sentido.-
  
 *** TODO documento nuevo en python
 *** TODO edicion y/o agregado calles/barrio/zonas
+*** DONE ver problema combobox
+CLOCK: [2016-11-25 vie 12:47]--[2016-11-25 vie 13:19] =>  0:32
+analizare primero si puedo volver a poner los tk::combobox.
+se cambio a ttk::combobox, creo que funcionara mejor, hago un
+articulito aparte para el uso de combobox.
+**** intento validar la entrada o avisar que entre un valor malo
+CLOCK: [2016-11-25 vie 13:32]--[2016-11-25 vie 13:45] =>  0:13
+hermoso quedo la validacion dentro del combo y con grandes facilidades
+de rapidez pq autocompleta, lo unico que por ahi seria mejor teclear
+con algo de lentitud.
+Y no vamos a incorporar el agregado de calles en los combos como tenia
+en pedidos/ventas viejos pq aunque fue bastante guay, en su momento,
+no verifica si hay otras calles, y no promueve la correccion de las
+calles.
+
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
@@ -891,7 +907,7 @@ que se imprima directo resumen y zona
 poner fichitas atras y quieren comprar adelante y limitar el ancho de
 la columna que invade todo.
 * tabCobrado
-** pivot por cobrar
+** DONE pivot por cobrar
 CLOCK: [2016-11-21 lun 12:32]--[2016-11-21 lun 13:50] =>  1:18
 hecho, salio la tabla, aunque la calcule en forma atipica. probada en
 un solo caso, necesitaria mas testeo.
@@ -904,23 +920,26 @@ importante y lo mas dificil esta, con excepcion quiza del mes pago,
 mes venta, pero ese sale de un select mixto no de una tabla virtual.
 Otro ejemplo mas que algo que parece dificil en realidad se hace y se
 hace en una mañana en la cual uno no esta cien por cien.
-** generalizar la disposicion para poner mas vistas
+** DONE generalizar la disposicion para poner mas vistas
 CLOCK: [2016-11-21 lun 19:28]--[2016-11-21 lun 19:41] =>  0:13
 y agregado proyeccion/por zona
-** agregar a tabla virtual cuotas status pago
+** DONE agregar a tabla virtual cuotas status pago
 CLOCK: [2016-11-21 lun 20:20]--[2016-11-21 lun 20:40] =>  0:20
 hecho, quedo bien con tres status menos de 30 dias de pmovto y entre
 30/90 dias.
-** ver si se puede por mes de ultpago
+** DONE ver si se puede por mes de ultpago
 
 se pudo, y es bastante sutil.
 y le agregue pmovto.
 * Poner las planillas de cobrador dentro de una pestaña
-* TODO Sumador
+* DONE Sumador
+CLOCK: [2016-11-24 jue 12:16]--[2016-11-24 jue 13:40] =>  1:24
 ver si puedo hacer un sumador en un tab. Ventajas, el teclado de la
 compu siempre sera mejor que la calcu, aparte, es visible, es
 editable, no tengo que sumar dos veces, sino controlar, aparte me
 calcula el 15 solo. 
+Hizo renegar un poco el sumador, mas de lo debido, pero ya esta y creo
+que es algo muy usable en el dia a dia.
 * TODO campo msg-vendedor para alertar al vendedor / Puntaje?/ Limite?
 el msg podria actuar ahora como un protopuntaje. pq permitiria que
 salga el dato pero con ciertos avisos.
