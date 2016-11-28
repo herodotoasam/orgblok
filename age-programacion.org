@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-25 vie 13:46]
+#+CAPTION: Clock summary at [2016-11-27 dom 23:01]
 | Headline                                       |       Time |       |
 |------------------------------------------------+------------+-------|
-| *Total time*                                   | *1d 20:01* |       |
+| *Total time*                                   | *1d 22:55* |       |
 |------------------------------------------------+------------+-------|
-| Tab pedidos                                    |    1d 0:19 |       |
+| Tab pedidos                                    |    1d 3:13 |       |
 | \emsp DONE haciendo subtab pasar clientes...   |            |  1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |            |  1:41 |
 | \emsp DONE agregando posibilidad de carga...   |            |  1:00 |
 | \emsp DONE parte logica - guardado del pedido  |            |  0:32 |
 | \emsp DONE poner la linea check anulado/...    |            |  0:30 |
-| \emsp nuevas ideas                             |            | 17:55 |
+| \emsp nuevas ideas                             |            | 20:49 |
 | tab seven                                      |       0:51 |       |
 | tabVentas                                      |       1:31 |       |
 | \emsp verificacion bug                         |            |  0:41 |
@@ -458,7 +458,28 @@ en el cual no necesitamos ni queremos muchos promotores, todo pienso
 que puede andar bien en ese sentido.-
  
 *** TODO documento nuevo en python
-*** TODO edicion y/o agregado calles/barrio/zonas
+*** DONE edicion y/o agregado calles/barrio/zonas
+**** DONE edicion generica de cualquier tabla 
+CLOCK: [2016-11-27 dom 19:35]--[2016-11-27 dom 20:28] =>  0:53
+**** DONE filtrado de resultados
+CLOCK: [2016-11-27 dom 20:39]--[2016-11-27 dom 21:21] =>  0:42
+explorare la opcion crear una tabla virtual con fts4, Hecho, un
+sistema todo generalizado, hasta ahora le agregue al tandem
+calle,barrio,zona, articulos y cobradores, como todo es generalizado
+todo joya.
+**** DONE agregado de nuevos valores
+CLOCK: [2016-11-27 dom 21:37]--[2016-11-27 dom 22:04] =>  0:27
+veo si puedo usar el insertador. None.
+Use el viejo y querido metodo de insertar un nuevo registro vacio en
+el tbls y luego lo edito.
+**** DONE borro registro genericamente en tbls editados
+CLOCK: [2016-11-27 dom 22:04]--[2016-11-27 dom 22:20] =>  0:16
+con incluso captura de error y muestra de un balloon al respecto.
+Este es un temita para experienciar.
+**** DONE recalculado de combobox
+CLOCK: [2016-11-27 dom 22:24]--[2016-11-27 dom 23:00] =>  0:36
+Hecho con el F11.
+
 *** DONE ver problema combobox
 CLOCK: [2016-11-25 vie 12:47]--[2016-11-25 vie 13:19] =>  0:32
 analizare primero si puedo volver a poner los tk::combobox.

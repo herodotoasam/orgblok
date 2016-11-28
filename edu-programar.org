@@ -117,4 +117,33 @@ y pitio el metodo sortear dentro del combo, como que no admite valores
 nulos para ponerlos a lower (pq sortea a lower), entonces en la lista
 generada le pongo la condicion que el valor listado exista o sea no
 sea nulo o sea if x[0]
-
+** ejemplo con seteado extra para recalculo y setvalues directo
+#+BEGIN_EXAMPLE
+barrio=ComboBox(self,width=22)
+barrio.setvalues([x[0] for x in con.execute('select barrio from barrios order by barrio').fetchall() if x[0]])
+barrio.setvaluesrecalc(con,'select barrio from barrios order by barrio')
+#+END_EXAMPLE
+** los combobox ttk se setean directo no con setvalue como bwidget
+#+BEGIN_EXAMPLE
+zona.set(cliente['zona'])
+barrio.set(cliente['barrio'])
+calle.set(cliente['calle'])
+#+END_EXAMPLE
+* capturar errores
+#+BEGIN_EXAMPLE
+try:
+   con.execute(delete, (id,))
+   con.commit()
+   tbleditar.recalc()
+except(sqlite3.IntegrityError) as err:
+   balloon(tbleditar,'No se pudo borrar el registro porque no lo permite el sistema {}'.format(err),\
+   bg='lightyellow',fg='black',delay=10000)
+#+END_EXAMPLE
+con el esquema try/except se puede capturar un error y luego trabajar
+con el. 
+como se que el error comun que se puede presentar alli es el que me
+dijo la consola, lo pongo ahi a saber sqlite3.IntegrityError y luego
+uso la salida para emitir el mensaje, como que la salida del except es
+la aclaracion del error que tira la consola.
+Yo ahi hice un balloon pero podria hacerse un cuadro de mensaje
+facilmente.
