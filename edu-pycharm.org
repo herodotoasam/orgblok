@@ -1,0 +1,9 @@
+| Shift-F6 | Cambiar de nombre un symbol en todo el file |
+| C-W      | select escalonado creciente                 |
+| C-F12    | buscar Simbolos                             |
+| C-F11    | add bookmark con letras o numeros           |
+| F11      | add bookmark anonimous                      |
+| S-F11    | ir a un bookmark                            |
+|----------+---------------------------------------------|
+| C-A-S n  | busca symbols y lo mejor que muestra ultima |
+|          |                                             |
