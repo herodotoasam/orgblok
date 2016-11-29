@@ -2567,7 +2567,12 @@ epoca de la cabaña I.
 Llevo 3 meses y medio en este arduo trabajo, no se que podre hacer
 luego si afloja la exigencia. Porque algun dia la programacion se
 terminara o se abandonara.
-
+*** [2016-11-29 mar]
+CLOCK: [2016-11-29 mar 12:33]--[2016-11-29 mar 12:36] =>  0:03
+sigo con bajon fisico pronunciado, hasta el punto que ya sospecho en
+algo alimentario, aparte de animico. Pero como las cosas se repiten a
+menudo debo recordar que en otras epocas tambien tuve esta debilidad
+fisica en especial cuando llega esta epoca del año.
 
 
 * Constructos
@@ -2912,7 +2917,13 @@ a ojo seco, y me pongo gotas y me arde.
 al estilo un poco de los corticoides,o sea desgano, ganas de
 acostarse, muchisimo sueño a horas en que antes no me iba a acostar
 todavia.
-
+*** [2016-11-29 mar]
+tipo debilidad. Ya lo habia notado ayer cuando fui a la verduleria y
+camine solo 4 cuadras y quede cansado, hoy fui a trabajar y el
+trayecto de solo 5 cuadras un poco fue arduo, luego sali de ofi, pase
+brevemente por banco, y llegue muy debilitado, recien luego de
+descansar en el aire por una hora o mas hago una serie con esfuerzo y
+quedo tembleque. 
 ** Dolor o molestia en zona de vejiga
 *** [2016-10-31 lun]
 no lo habia anotado nunca y no se si es sogaca por lo de la ecografia,
@@ -2953,8 +2964,17 @@ diametro. Practicamente nunca me habia sucedido. Me despierto un
 millon de veces, pero estas ultimas noches duermo mas profundamente,
 incluso ni siquiera recuerdo haber tenido el sueño acorde relativo a
 orinar que es el que te despierta.
+** adormecimiento de brazos
+*** [2016-11-29 mar]
+hoy al recostarme un rato en la cama a leer en el celu, y anoche
+mientras dormia, siento adormecimiento de ambos brazos, que luego se
+va solo.
+** apnea
+*** [2016-11-28 lun]
+al dormirme o quedarme dormido por primera vez siento esa sensacion, o
+sea me despierto a causa de la apnea. 
+No se si la sufro dormido.
 
- 
 * Diario de obligaciones
 ** [2016-10-22 sáb] Ir a Autocity a ver la Kangoo
 ** [2016-10-26 mié] Ir a DGR a sacar libre deuda

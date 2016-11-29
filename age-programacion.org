@@ -459,9 +459,15 @@ en el cual no necesitamos ni queremos muchos promotores, todo pienso
 que puede andar bien en ese sentido.-
  
 *** TODO documento nuevo en python
+CLOCK: [2016-11-29 mar 12:41]--[2016-11-29 mar 13:08] =>  0:27
 CLOCK: [2016-11-28 lun 20:23]--[2016-11-28 lun 21:50] =>  1:27
 CLOCK: [2016-11-28 lun 18:25]--[2016-11-28 lun 18:40] =>  0:15
 avance en un 50%
+**** documento - generar la funcion que traduce letras a numeros.
+CLOCK: [2016-11-29 mar 13:09]--[2016-11-29 mar 13:48] =>  0:39
+listo en forma pythonica en un 80% faltan detalles, la unidad, y
+llenar los dicts.
+ 
 *** DONE edicion y/o agregado calles/barrio/zonas
 **** DONE edicion generica de cualquier tabla 
 CLOCK: [2016-11-27 dom 19:35]--[2016-11-27 dom 20:28] =>  0:53
