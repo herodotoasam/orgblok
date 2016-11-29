@@ -147,3 +147,7 @@ uso la salida para emitir el mensaje, como que la salida del except es
 la aclaracion del error que tira la consola.
 Yo ahi hice un balloon pero podria hacerse un cuadro de mensaje
 facilmente.
+* strftime de sqlite
+ strftime(format, timestring, modifier, modifier, ...) 
+pero %y no existe como format, no es el año en dos digitos, y da error
+o te da None a toda la cadena.

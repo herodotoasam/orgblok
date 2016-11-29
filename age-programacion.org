@@ -459,7 +459,9 @@ en el cual no necesitamos ni queremos muchos promotores, todo pienso
 que puede andar bien en ese sentido.-
  
 *** TODO documento nuevo en python
-<<<<<<< HEAD
+CLOCK: [2016-11-28 lun 20:23]--[2016-11-28 lun 21:50] =>  1:27
+CLOCK: [2016-11-28 lun 18:25]--[2016-11-28 lun 18:40] =>  0:15
+avance en un 50%
 *** DONE edicion y/o agregado calles/barrio/zonas
 **** DONE edicion generica de cualquier tabla 
 CLOCK: [2016-11-27 dom 19:35]--[2016-11-27 dom 20:28] =>  0:53
@@ -482,7 +484,7 @@ Este es un temita para experienciar.
 CLOCK: [2016-11-27 dom 22:24]--[2016-11-27 dom 23:00] =>  0:36
 Hecho con el F11.
 
-*** TODO ver problema combobox
+*** DONE ver problema combobox
 CLOCK: [2016-11-25 vie 12:47]--[2016-11-25 vie 13:19] =>  0:32
 analizare primero si puedo volver a poner los tk::combobox.
 se cambio a ttk::combobox, creo que funcionara mejor, hago un
@@ -496,8 +498,12 @@ Y no vamos a incorporar el agregado de calles en los combos como tenia
 en pedidos/ventas viejos pq aunque fue bastante guay, en su momento,
 no verifica si hay otras calles, y no promueve la correccion de las
 calles.
-**** TODO hacer combo.clear()
-para que limpie
+**** DONE hacer combo.clear()
+CLOCK: [2016-11-27 dom 23:13]--[2016-11-27 dom 23:16] =>  0:03
+para que limpie.
+listo, pq con el Shift-F6 es facil ir para atras en PyCH entonces veo
+de donde vienen los metodos del combobox y cuales se pueden usar, por
+lo cual se puede trabajar muy facilmente.
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07

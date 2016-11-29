@@ -2,31 +2,41 @@
                                 ----clock----
 * 2016
 #+BEGIN: clocktable :maxlevel 3 :scope subtree
-#+CAPTION: Clock summary at [2016-11-10 jue 23:37]
-| Headline                    | Time   |      |      |
-|-----------------------------+--------+------+------|
-| *Total time*                | *6:29* |      |      |
-|-----------------------------+--------+------+------|
-| 2016                        | 6:29   |      |      |
-| \emsp Octubre               |        | 3:57 |      |
-| \emsp\emsp [2016-10-22 sáb] |        |      | 0:31 |
-| \emsp\emsp [2016-10-23 dom] |        |      | 0:10 |
-| \emsp\emsp [2016-10-24 lun] |        |      | 0:28 |
-| \emsp\emsp [2016-10-25 mar] |        |      | 0:29 |
-| \emsp\emsp [2016-10-27 jue] |        |      | 0:11 |
-| \emsp\emsp [2016-10-28 vie] |        |      | 0:23 |
-| \emsp\emsp [2016-10-29 sáb] |        |      | 1:17 |
-| \emsp\emsp [2016-10-30 dom] |        |      | 0:19 |
-| \emsp\emsp [2016-10-31 lun] |        |      | 0:09 |
-| \emsp Noviembre             |        | 2:32 |      |
-| \emsp\emsp [2016-11-01 mar] |        |      | 0:20 |
-| \emsp\emsp [2016-11-02 mié] |        |      | 0:09 |
-| \emsp\emsp [2016-11-03 jue] |        |      | 0:18 |
-| \emsp\emsp [2016-11-04 vie] |        |      | 0:13 |
-| \emsp\emsp [2016-11-06 dom] |        |      | 0:20 |
-| \emsp\emsp [2016-11-08 mar] |        |      | 0:30 |
-| \emsp\emsp [2016-11-09 mié] |        |      | 0:11 |
-| \emsp\emsp [2016-11-10 jue] |        |      | 0:31 |
+#+CAPTION: Clock summary at [2016-11-28 lun 17:41]
+| Headline                    | Time    |      |      |
+|-----------------------------+---------+------+------|
+| *Total time*                | *12:31* |      |      |
+|-----------------------------+---------+------+------|
+| 2016                        | 12:31   |      |      |
+| \emsp Octubre               |         | 3:57 |      |
+| \emsp\emsp [2016-10-22 sáb] |         |      | 0:31 |
+| \emsp\emsp [2016-10-23 dom] |         |      | 0:10 |
+| \emsp\emsp [2016-10-24 lun] |         |      | 0:28 |
+| \emsp\emsp [2016-10-25 mar] |         |      | 0:29 |
+| \emsp\emsp [2016-10-27 jue] |         |      | 0:11 |
+| \emsp\emsp [2016-10-28 vie] |         |      | 0:23 |
+| \emsp\emsp [2016-10-29 sáb] |         |      | 1:17 |
+| \emsp\emsp [2016-10-30 dom] |         |      | 0:19 |
+| \emsp\emsp [2016-10-31 lun] |         |      | 0:09 |
+| \emsp Noviembre             |         | 8:34 |      |
+| \emsp\emsp [2016-11-01 mar] |         |      | 0:20 |
+| \emsp\emsp [2016-11-02 mié] |         |      | 0:09 |
+| \emsp\emsp [2016-11-03 jue] |         |      | 0:18 |
+| \emsp\emsp [2016-11-04 vie] |         |      | 0:13 |
+| \emsp\emsp [2016-11-06 dom] |         |      | 0:20 |
+| \emsp\emsp [2016-11-08 mar] |         |      | 0:30 |
+| \emsp\emsp [2016-11-09 mié] |         |      | 0:11 |
+| \emsp\emsp [2016-11-10 jue] |         |      | 0:31 |
+| \emsp\emsp [2016-11-11 vie] |         |      | 1:32 |
+| \emsp\emsp [2016-11-12 sáb] |         |      | 0:38 |
+| \emsp\emsp [2016-11-13 dom] |         |      | 0:52 |
+| \emsp\emsp [2016-11-14 lun] |         |      | 0:20 |
+| \emsp\emsp [2016-11-15 mar] |         |      | 0:07 |
+| \emsp\emsp [2016-11-20 dom] |         |      | 0:16 |
+| \emsp\emsp [2016-11-23 mié] |         |      | 0:01 |
+| \emsp\emsp [2016-11-24 jue] |         |      | 0:27 |
+| \emsp\emsp [2016-11-27 dom] |         |      | 0:37 |
+| \emsp\emsp [2016-11-28 lun] |         |      | 1:12 |
 #+END:
 
 ** Junio
@@ -2439,6 +2449,124 @@ aparte hago mis cosas, o sea me compro los viveres, me preparo la
 comida, me plancho las camisas, me limpio el dpto, me limpio la
 oficina, y aparte pago las cuentas y tengo que ser yo el que vaya alla
 regularmente a "llevarles" la plata.
+*** [2016-11-28 lun]
+CLOCK: [2016-11-28 lun 17:18]--[2016-11-28 lun 17:41] =>  0:23
+CLOCK: [2016-11-28 lun 16:18]--[2016-11-28 lun 17:07] =>  0:49
+ Y el bajon fisico se hace sentir con fuerza y creo que un
+80% es animico. Por eso trato de esforzarme y hacer los ejercicios lo
+mismo. De todos modos creo que no tengo porque quejarme. Luego de
+"perderme" despues del 10/8/16 en la programacion, llegue al punto de
+empezar a hacerme daño a la salud, tanto en lo postural (a lo cual
+contribuyo sin duda morrison y tambien la netbook) como en la cantidad
+de tiempo sin descanso. En ese momento comienzo el habito y los tres
+ejercicios tenian la intencion de aliviar sintomas de entumecimiento
+postural debido al exceso de horas sentado, y en eso mejore bastante,
+pq me siento mas suelto y sin esa contractura cervical, con decirte
+que no necesite usar en todo el mes del habito la masajeadora.
+Pero incluso ese ejercicio simple, hacerlo TODOS los dias como habito
+es dificil y asi fue que cayo a dos series y no tres, y el dolor tipo
+codo de tenista se contagio tambien al codo derecho.
+Pero si bien es cierto que gane cierta movilidad y flexibilidad de lo
+que estaba, no mejore en nada el tema musculo pectoral pq no estoy
+haciendo nada de eso, ni siquiera una serie. 
+**** La llegada de diciembre como agravante de la depresion
+es algo de todos los años.
+En años anteriores de lucha, de negocio, de fracasos, diciembre era el
+mes en cual no iba a captar nada y era el mes en el cual hacia los
+analisis y preparativos para epocas mejores, o sea para arrancar el
+año.
+Luego con la familia ampliada, o la perdida del nucleo maleable, las
+fiestas se transformaron en algo feito, casi un compromiso ineludible
+que hay que pasar y no se puede dejar de lado y siempre produce
+sinsabores, casi casi como lo describia mi vieja que ocurria cincuenta
+años atras cuando ella era joven. Y a la vez se me acortan las
+vacaciones. Que casi se diluyen, casi no existen pq siempre se cortan
+con innumerables compromisos dentro de esos dias que hacen no sirvan
+para nada.
+Pero lo mas importante que el verano plantea el problema que tampoco
+podes hacer nada ni siquiera con la familia, ni siquiera salir a
+ningun lado, ni siquiera estar en el marques. 
+Yo creo que con la situacion que se planteo no da ni para ir. O sea
+cumplir un minimo-minimo indispensable y nada mas.
+En cierta forma el tratamiento dentario mientras mas completo, la
+operacion de mi vieja, y el que los chicos se vayan al chaco como
+siempre el 26 ayuda a pasar el mes de otra forma, sin tener que estar
+juntos de compromiso.
+**** La reclusion vista desde mi punto de vista
+hoy veia unos tweet de un tipo de mi edad que con su vida normal,
+celebraba la llegada del verano, de las fiestas, etc, pq tiene
+amistades, y estructura familiar apta como para que pueda disfrutar de
+la vida, y yo lamentablemente no la tengo hoy.
+Creo que la principal causa es la profunda depresion. Pq podria
+abordar el tema como un estigma, y que llegado el momento de aceptarlo
+o aceptarme como soy y vivir asi, pero me falta alegria de vida, me
+falta la pila las ganas de disfrutar de la vida en esas cosas, como
+p.e. la ih que si tiene esa pila de vida en forma natural y yo no la
+tengo, mas alla del "problema" porque supongamos dias, aquellos dias
+tan raros que los voy anotando, pq no se que me pasa, no se como estoy
+tan positivo, esos dias no me duran, no los puedo asir, no los puedo
+generar a voluntad. Si me comprometo me resulta tremendamente dificil
+todo.
+**** la depresion como problema de salud
+la depresion llega al punto de que por mas que yo crea que me cuido en
+la salud (quizas alimentariamente pq evito muchos contaminantes y como
+poco) creo que me afecta mas que lo que puedo "parar" de otra forma.
+Esta vida de mierda que llevo en la cual la distimia a ganado la
+batalla y los males fisicos irresueltos me han mantenido varados.
+Y cada dia que pasa me alejo mas de una posible solucion y me invaden
+mas los problemas. 
+**** las soluciones a medio plazo
+si hago un analisis entre yo y yo y veo los movimientos en plazos mas
+largos veo que en cierta forma me guste o no me guste volver al centro
+es lo "mas natural" para mi (al centro en trabajo y vida). La
+experiencia de cabañas fue al comienzo una extravagancia y una
+estupidez. La cabaña amarilla fue una experiencia extrema, muy
+arriesgada, muy osada, desde todo punto de vista. Y maxime teniendo en
+cuenta la real dimension de mi economia en ese momento.
+No en vano fue en ese tiempo que tuve mis primeras ideas suicidas, en
+especial por la falta de trabajo solido.
+¿Fue coherente salirme de la oficina en forma definitiva como termine
+haciendo en el 2013?, Creo que no. Pienso que en general la situacion
+se agravaba por la falta de capital, el vivir en el campo en la cabaña
+(que habia sido tomada con la consigna de tener medios, justo en el
+momento en que yo creia que iba a tener medios y tiempo pq estaba fede
+con el sistema de venta/entrega que aseguraria la venta, justo antes
+que decidiera irse al chaco). Y el golpe final a la oficina vino por
+el lado de la creencia de que los juicios iban a decantar ya para ese
+año, (y justo cae una cedula en ese tiempo). Si veo los cuadernos
+vivia obsesionado con la idea de que haria en la contingencia de que
+algo pasara si tenia el grupo y no podia seguir en la oficina. Y eso
+que en ese tiempo pagaba municipalidad, luego el problema del Lucas
+vino a completar el vaso, pero fue al vicio, se podria haber pagado y
+listo. 
+La excesiva tension que me causo la calle y la oficina al mismo tiempo
+quizas era pq tenia al mismo tiempo la cabaña. Ni que pensar si
+hubiera vivido aca en el centro. 
+Por eso irme al campo y todos los sueños ficticios de vida campera se
+tenian que corregir en algun momento.
+Luego cai en patricios, que fue otro error, un poco menor que el
+campo, pero error al fin, pq era un barrio muy nefasto para vivir, y
+luego al final lo comprobe. 
+Y luego cai en el tema sociedad, que en cierta forma era un
+karma. Creo que tarde o temprano tenia que caer en eso, y luego una
+vez adentro hubo muchas tensiones pq el esquema inicial no era viable.
+Recien luego de la transformacion se hizo medianamente viable (esa
+transformacion no fue gratis, llevo mucho estres, llevo mucha
+preocupacion y riesgos, pq se trato de dejar afuera gente de baja
+calaña que se habia tomado y a la vez se necesito organizar el trabajo
+para que se pusiera al dia la cobranza.). 
+El proceso de reorganizacion no termino, avanzo con la kangoo, avanzo
+con el local alla (indispensable), avanzo con el cambio del vendedor,
+y esta corriendo con la programacion con el objetivo doble de cobrar
+mas eficientemente y formar un grupo de venta que venda desde la
+oficina).
+Hasta hoy, estoy inmerso en esa transformacion, y me lleva todo el
+dia, pq aparte de cumplir la jornada, la programacion le agrega
+tiempo, y aparte intento retomar habitos basicos perdidos desde la
+epoca de la cabaña I. 
+Llevo 3 meses y medio en este arduo trabajo, no se que podre hacer
+luego si afloja la exigencia. Porque algun dia la programacion se
+terminara o se abandonara.
 
 
 
@@ -2858,6 +2986,8 @@ problematico, evitable, lejano. Ni siquiera que viniera el Fede, pq no
 pudimos entablar buen dialogo, y aun asi la beligerancia de las chicas
 sigue presente. Todo esto me hizo caer a negativo. Claramente el
 estado animico. [copio este fragmento al diario para continuar]
-
-
+*** [2016-11-28 lun]
+dia feriado. me fui quedando en la cama al viejo estilo dia de vago de
+la cabaña o patricios, y me cuesta levantarme y se va tornando el dia
+muy oscuro.
 
