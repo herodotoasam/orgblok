@@ -464,10 +464,12 @@ CLOCK: [2016-11-28 lun 20:23]--[2016-11-28 lun 21:50] =>  1:27
 CLOCK: [2016-11-28 lun 18:25]--[2016-11-28 lun 18:40] =>  0:15
 avance en un 50%
 **** documento - generar la funcion que traduce letras a numeros.
+CLOCK: [2016-11-30 mié 12:51]--[2016-11-30 mié 13:59] =>  1:08
 CLOCK: [2016-11-29 mar 13:09]--[2016-11-29 mar 13:48] =>  0:39
 listo en forma pythonica en un 80% faltan detalles, la unidad, y
 llenar los dicts.
- 
+**** linea de marca, romitex y direccion que se pueda poner como logo
+total estara llevado y traido con git.
 *** DONE edicion y/o agregado calles/barrio/zonas
 **** DONE edicion generica de cualquier tabla 
 CLOCK: [2016-11-27 dom 19:35]--[2016-11-27 dom 20:28] =>  0:53
