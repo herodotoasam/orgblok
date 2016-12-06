@@ -1,16 +1,18 @@
 * personal                                                         :personal:
 ** dpto                                                           :alquiler:
 *** TODO alquiler dpto  
-DEADLINE: <2016-12-05 lun +1m>
+DEADLINE: <2017-01-05 jue +1m>
+- State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-03 jue 12:40]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-03 jue 12:40]
+:LAST_REPEAT: [2016-12-06 mar 11:01]
 :END:
 *** TODO expensas dpto
-DEADLINE: <2016-12-05 lun +1m>
+DEADLINE: <2017-01-05 jue +1m>
+- State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-03 jue 12:41]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-03 jue 12:41]
+:LAST_REPEAT: [2016-12-06 mar 11:01]
 :END:
 *** TODO agua dpto
 *** TODO epec dpto                                                   :epec:
@@ -18,10 +20,11 @@ SCHEDULED: <2017-01-12 jue +2m>
 
 ** auto                                                               :auto:
 *** TODO depositar por seguros 
-DEADLINE: <2016-12-05 lun +1m>
+DEADLINE: <2017-01-05 jue +1m>
+- State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-03 jue 12:42]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-03 jue 12:42]
+:LAST_REPEAT: [2016-12-06 mar 11:01]
 :END:
 ** otros fijos
 *** TODO Claro 
@@ -56,10 +59,11 @@ DEADLINE: <2016-12-17 sáb +2m>
 :END:
 *** TODO ecogas casa                                                  :gas:
 *** TODO telecom casa                                             :telecom:
-DEADLINE: <2016-11-28 lun +1m>
+DEADLINE: <2016-12-28 mié +1m>
+- State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:33]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-01 mar 20:33]
+:LAST_REPEAT: [2016-12-06 mar 11:01]
 :END:
 ** otros fijos
 *** TODO Viaje de estudio Cami  
