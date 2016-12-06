@@ -1,17 +1,17 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-11-30 mié 21:42]
+#+CAPTION: Clock summary at [2016-12-02 vie 14:13]
 | Headline                                       |      Time |         |
 |------------------------------------------------+-----------+---------|
-| *Total time*                                   | *2d 3:27* |         |
+| *Total time*                                   | *2d 3:41* |         |
 |------------------------------------------------+-----------+---------|
-| Tab pedidos                                    |   1d 7:45 |         |
+| Tab pedidos                                    |   1d 7:59 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |           |    1:41 |
 | \emsp DONE agregando posibilidad de carga...   |           |    1:00 |
 | \emsp DONE parte logica - guardado del pedido  |           |    0:32 |
 | \emsp DONE poner la linea check anulado/...    |           |    0:30 |
-| \emsp nuevas ideas                             |           | 1d 1:21 |
+| \emsp nuevas ideas                             |           | 1d 1:35 |
 | tab seven                                      |      0:51 |         |
 | tabVentas                                      |      1:31 |         |
 | \emsp verificacion bug                         |           |    0:41 |
@@ -469,6 +469,7 @@ CLOCK: [2016-11-29 mar 13:09]--[2016-11-29 mar 13:48] =>  0:39
 listo en forma pythonica en un 80% faltan detalles, la unidad, y
 llenar los dicts.
 **** linea de marca, romitex y direccion que se pueda poner como logo
+CLOCK: [2016-12-02 vie 13:57]--[2016-12-02 vie 14:11] =>  0:14
 CLOCK: [2016-11-30 mié 21:09]--[2016-11-30 mié 21:42] =>  0:33
 total estara llevado y traido con git. Al final desisti e hice algo
 simple por ahora.
@@ -735,6 +736,12 @@ programa que estoy escribiendo.
 
 Pongo directamente E y dejo todos los binds con mayusculas
 para unificar criterios.
+
+** TODO mejor y mas fluida entrada del buscar
+o sea selecciono y debo volver a marcar el que esta seleccionado al
+menos con negrita.
+y que se seleccione tmb con un click si se puede.
+y que con Ctrl-click se habra en fechar.
 
 * Bug reaparece
 ** tabFechar

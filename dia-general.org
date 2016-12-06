@@ -2606,6 +2606,95 @@ Por eso creo que es hora de volver a los libros o a algunos libros o a
 algun libro. 
 Nunca es tarde para retomar algun viejo habito. Y ahora que he visto
 que los habitos son la base la puerta para cambiar.
+** Diciembre
+*** [2016-12-02 vie]
+CLOCK: [2016-12-02 vie 13:02]--[2016-12-02 vie 13:50] =>  0:48
+**** relatos semisalvajes
+Hoy la CI se puede analizar a la luz de varias interacciones. Ramiro,
+Auto en la calle, Maria.
+La mas grave es el auto en la calle. Creo que es una situacion
+programada. Nada sucede porque si, o al azar, creo que sembramos en el
+subconsciente las repuestas que vamos a tener y luego cuando surge el
+trigger actuamos aun sin que se hayan dado las circunstancias
+adecuadas.
+Aca el trigger es:
+CREATE TRIGGER
+increpar_automovilista_que_aparentemente_actue_desaprensivamente_hacia_el_peaton
+ON situaciones_en_las_que_dicha_accion_me_perjudique?? 
+BEGIN
+dar alcance al automovilista en cuestion
+increparlo violentamente
+END;
+Ese el trigger grabado, y uno actua en consecuencia a pesar de haber
+varias fallas e inconveniencias:
+1. en este caso no sali perjudicado, o sea el tipo no me mojo, ni
+   siquiera me salpico, por lo cual no se hasta que punto podria haber
+   mantenido o justificado mi ira
+2. el chequeo previo a la gresca para determinar si estamos en una
+   posibilidad de contienda, sin caer en una temeridad mayuscula. Aun
+   asi el chequeo fue insuficiente y puede ser equivoco, pq justamente
+   esa clase de gente, posiblemente sea la menos indicada (si es que
+   hay alguna indicada, yo creo honestamente que no, en este mundo de
+   hoy no hay nadie indicado para tomar como adversario a los golpes,
+   sin ir mas lejos hace pocos dias un medico pediatra de 48 años
+   quedo internado en terapia intensiva con la cara destruida pq el
+   otro sujeto lo golpeo con un fierro a raiz de una discusion por una
+   encerrona de transito en la plaza españa. Si vamos al caso es un
+   precio demasiado caro, que altera la vida para siempre, pq creo que
+   las secuelas de ese hecho, completamente evitable en otra cultura,
+   en otra programacion mental tiene su origen en una ridiculez en
+   algo nimio y olvidable).
+3. cuando llega el momento de la agresion, pq es tan fuera de lugar,
+   tan extemporanea, e injustificada, que no queda otra que
+   calificarla de agresion, se produce como un insulto de grueso
+   calibre totalmente en frio. Como luego sin explicacion sigo
+   caminando el tipo, la pareja que iba en el auto, me debe haber
+   tomado por loco y quedo ahi nomas.
+4. Ni que explicar hace falta que el hecho en si podria haber tomado
+   muchisimas derivaciones tan negativas que seria aburrido
+   extenderse. Aca creo que la leccion es que habria que investigar
+   cuales son los triggers que hay programado y eliminarlos,
+   borrarlos. Aparte que siempre cabe la posibilidad de que la otra
+   persona no haya actuado aldrede, ni con mala intencion, p.e. en
+   este caso pensandolo bien, no mojo a nadie, el conductor estaba
+   viendo que no habia ningun peaton que mojara y eso le permitio
+   acelerar. Y asi puede que pase en casi todos los casos, y en los
+   casos en que alguien sea lo suficientemente hdp como para hacer
+   algo malo, no creo que sea lo indicado entablar un pleito con un
+   desconocido por una cuestion nimia que hace un minuto no existia.
+Con Maria del alquiler lo mismo, lo que tendria que haber sido una
+simple pregunta sobre si me cubria el plomero, lo cual resulto
+positivo, pq me dio el telefono del plomero!!!, activo un trigger.
+CREATE TRIGGER QUEJOSO AFTER CUALQUIER SITUACION QUE VENGA A CUENTO (O
+NO) BEGIN HACER UNA RETAHILA CON LOS MULTIPLES Y FRUSTRANTES TEMAS QUE
+UNO HIZO O SE PERJUDICO END.
+Resultado: uno queda como lo que es un viejo patetico. En vez de
+expresar con asertividad y frases cortas uno termina en la retahila,
+en lo que no tiene nada que ver, y la gente no quiere escuchar. Y no
+siempre uno tiene razon, posiblemente no la tenga. 
+Con Ramiro, creo que el error que cometo es extenderme mas de lo
+debido en las salidas. Lo que debo hacer para corregir la situacion es
+darle los papeles a la tarde como con Pablo, total es responsable, y
+me evito tener que esperarlo y tener que perder tiempo.
+Tanta charla lo puede/pudo haber llevado a un exceso de confianza. De
+todos modos la secuencia de mensajes hacia el y los otros cobradores
+esta bien hecha pq son cortos, y sin valoraciones que puedan llevar a
+malos entendidos.
+Por eso el segundo msg tuvo que ser cortante y claro, el dia esta
+cancelado, nos vemos el lunes.
+**** sobre la CI
+lo que me resono de lo que lei ayer, anteayer (lo cual esta muy bueno
+el leer) es que la vida a esta etapa tiene que ser vivida para lo que
+uno le guste, pq en teoria las obligaciones irian
+disminuyendo. Entonces ahi me interrogue yo, y consideraba que el
+esquema que me toca vivir por ahi es un poco insano pq prorroga en el
+tiempo o prolonga en el tiempo en forma interminable un tipo de vida
+insana. Como p.e aca en este dpto ruidoso, ni hablemos de la
+contaminacion. O el trabajo en el centro. (Mas alla que podria matizar
+con un monton de ventajas tanto de este dpto, como de trabajar en el
+centro, etc.).
+Pero la idea seria que uno tendria que buscar un esquema de vida que
+fuera adecuado o deseable. [Ampliaremos]
 
 
 * Constructos
