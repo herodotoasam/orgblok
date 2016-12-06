@@ -517,6 +517,11 @@ para que limpie.
 listo, pq con el Shift-F6 es facil ir para atras en PyCH entonces veo
 de donde vienen los metodos del combobox y cuales se pueden usar, por
 lo cual se puede trabajar muy facilmente.
+** TODO poner infoseven en datos de cliente no en paso de pedido.
+eso permite editar y/o ver la infoseven al levantar cualquier cliente.
+** TODO arreglar el verpedidos de tabver para que se vea comentarios
+y de paso poner en la vista principal del tabver la infoseven, como
+parte de los datos o abajo de los tbs.
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
@@ -924,6 +929,10 @@ muy interesante conexion, ya que permite "subir" los datos rapidamente
 al cuadro de busquedas, siendo que aterrizamos en tabVer desde
 cualquier lado.
 ** TODO edicion en tabver!!!!!!!
+** vista de pedidos en tabver
+poner los campos relevantes primero, como comentario, y colorear de
+ultima como en los otros lados.
+** urgente aunque sea poder editar que alguien esta en el seven sin tener que pasar pedido
 
 * TODO Modulo pasar ventas
 con la base de pedidos, creo que tendria un pasar ventas facilmente.
@@ -1006,7 +1015,10 @@ pendiente de ser subido al seven todavia.
 que genere el archivo y que genere el log.
 ** TODO altas desde Fechar
 para poder subir mas rapido
-
+** TODO correcciones
+*** en tblsubir que este el ultimo pago para analizar a quien subo
+no la ultima compra???
+*** que la deuda ordene por numero
 * bugs
 ** como tabFechar es ambi-valente
 tiene un proceso de coloreado del active,pmovto del tbls pero si la
@@ -1035,3 +1047,8 @@ para ver si toma real el ultimo o maxima fecha, caso Leonel Bustos.
 
 *** consideraciones respecto al sistema
 se dejaria de usar el campo ent, y se sumarian todos los pagos.
+
+* TODO nuevos links vendedor o cobrador
+o sea doble click en el numero de cobrador vaya a un tbls de cobrador,
+doble click alli te de una lista de ventas de ese cobrador con
+indicadores precisos de compra/deuda/direccion de compra.
