@@ -1,17 +1,20 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-12-06 mar 14:31]
+#+CAPTION: Clock summary at [2016-12-06 mar 21:18]
 | Headline                                       |      Time |         |
 |------------------------------------------------+-----------+---------|
-| *Total time*                                   | *2d 4:46* |         |
+| *Total time*                                   | *2d 5:16* |         |
 |------------------------------------------------+-----------+---------|
-| Tab pedidos                                    |   1d 7:59 |         |
+| Tab pedidos                                    |   1d 8:29 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |           |    1:41 |
 | \emsp DONE agregando posibilidad de carga...   |           |    1:00 |
 | \emsp DONE parte logica - guardado del pedido  |           |    0:32 |
 | \emsp DONE poner la linea check anulado/...    |           |    0:30 |
 | \emsp nuevas ideas                             |           | 1d 1:35 |
+| \emsp DONE poner infoseven en datos de...      |           |    0:11 |
+| \emsp DONE revisar porque cuando se pasa un... |           |    0:14 |
+| \emsp DONE arreglar el verpedidos de tabver... |           |    0:05 |
 | tab seven                                      |      0:51 |         |
 | tabVentas                                      |      1:31 |         |
 | \emsp verificacion bug                         |           |    0:41 |
@@ -517,11 +520,19 @@ para que limpie.
 listo, pq con el Shift-F6 es facil ir para atras en PyCH entonces veo
 de donde vienen los metodos del combobox y cuales se pueden usar, por
 lo cual se puede trabajar muy facilmente.
-** TODO poner infoseven en datos de cliente no en paso de pedido.
+** DONE poner infoseven en datos de cliente no en paso de pedido.
+CLOCK: [2016-12-06 mar 20:44]--[2016-12-06 mar 20:55] =>  0:11
 eso permite editar y/o ver la infoseven al levantar cualquier cliente.
-** TODO arreglar el verpedidos de tabver para que se vea comentarios
+** DONE revisar porque cuando se pasa un pedido anulado no se anula
+CLOCK: [2016-12-06 mar 20:56]--[2016-12-06 mar 21:10] =>  0:14
+Listo pq faltaba ese link habiendo quedado inutil tanto el checkbox.
+** DONE arreglar el verpedidos de tabver para que se vea comentarios
+CLOCK: [2016-12-06 mar 21:11]--[2016-12-06 mar 21:16] =>  0:05
 y de paso poner en la vista principal del tabver la infoseven, como
 parte de los datos o abajo de los tbs.
+
+al menos ahora veo lo que hay que ver sin tener que observar campos
+obsoletos.
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
@@ -1052,3 +1063,13 @@ se dejaria de usar el campo ent, y se sumarian todos los pagos.
 o sea doble click en el numero de cobrador vaya a un tbls de cobrador,
 doble click alli te de una lista de ventas de ese cobrador con
 indicadores precisos de compra/deuda/direccion de compra.
+
+* Hacia el nuevo esquema de venta 
+
+** Mejor carga de datos del promotor
+
+** ver liquidacion / generar liquidacion
+
+** generar contrato
+
+** cargar jornales
