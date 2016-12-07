@@ -464,13 +464,7 @@ grandes archivos.
 - [X] poner que la agenda se abra en dia
 variable org-agenda-span
 - 
-* TODO org clock                                                       :anki:
-SCHEDULED: <2016-12-07 mié .+20d>
-- State "DONE"       from "TODO"       [2016-11-17 jue 21:16]
-- State "DONE"       from "TODO"       [2016-11-01 mar 20:45]
-:PROPERTIES:
-:LAST_REPEAT: [2016-11-17 jue 21:16]
-:END:
+* org clock                                                            :anki:
 ** clock in - clock out 
 org-clock-in org-clock-out Cc-Cx-Ci Cc-Cx-Co
 bindeadas a F2/F3 
