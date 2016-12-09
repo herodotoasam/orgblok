@@ -1,11 +1,11 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-12-06 mar 21:18]
+#+CAPTION: Clock summary at [2016-12-08 jue 22:59]
 | Headline                                       |      Time |         |
 |------------------------------------------------+-----------+---------|
-| *Total time*                                   | *2d 5:16* |         |
+| *Total time*                                   | *2d 7:52* |         |
 |------------------------------------------------+-----------+---------|
-| Tab pedidos                                    |   1d 8:29 |         |
+| Tab pedidos                                    |   1d 8:57 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
 | \emsp DONE bosquejamos el pasado de pedido     |           |    1:41 |
 | \emsp DONE agregando posibilidad de carga...   |           |    1:00 |
@@ -15,6 +15,7 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | \emsp DONE poner infoseven en datos de...      |           |    0:11 |
 | \emsp DONE revisar porque cuando se pasa un... |           |    0:14 |
 | \emsp DONE arreglar el verpedidos de tabver... |           |    0:05 |
+| \emsp DONE mejorar aun mas combobox nuevos     |           |    0:28 |
 | tab seven                                      |      0:51 |         |
 | tabVentas                                      |      1:31 |         |
 | \emsp verificacion bug                         |           |    0:41 |
@@ -25,9 +26,10 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | \emsp DONE Revisar los criterios de...         |           |    0:20 |
 | \emsp DONE Posibilidad de intimar...           |           |    0:09 |
 | \emsp DONE Emision de un resumen de...         |           |    0:18 |
-| tabVer                                         |      4:16 |         |
+| tabVer                                         |      6:24 |         |
 | \emsp DONE posibilidad de condonar             |           |    1:09 |
-| \emsp TODO que el tab-ver sirva tambien...     |           |    0:36 |
+| \emsp DONE que el tab-ver sirva tambien...     |           |    1:57 |
+| \emsp DONE poner el tbl de art comprado a...   |           |    0:47 |
 | \emsp TODO hacer un subtab que se vean las...  |           |    0:53 |
 | \emsp DONE info verificacion seven             |           |    0:16 |
 | \emsp DONE Historial de pedidos                |           |    0:35 |
@@ -706,7 +708,14 @@ separado hare los campos textos.
 muy agil el boton ver en fechar, y le di un poquito mas de visualidad
 de elementos claves como deuda, pmovto.
 
-** TODO poner el tbl de art comprado a la vista y dejar el subtab para editar
+** DONE poner el tbl de art comprado a la vista y dejar el subtab para editar
+CLOCK: [2016-12-08 jue 22:09]--[2016-12-08 jue 22:56] =>  0:47
+quedo bueno, incluso en un futuro si soluciono dos cosas puedo
+prescindir del subtab articulos.
+Una es lograr que el tablelist me tome el combobox y otra es que tenga
+un sistema de stock que no se base en triggers. Sino en sumas reales
+de detvta. Desde un cierto punto o desde cierto idvta, lo cual no es
+dificil de hacer.
 ** TODO hacer un subtab que se vean las cuotas adeudadas con los recargos 
 CLOCK: [2016-11-10 jue 20:27]--[2016-11-10 jue 21:06] =>  0:39
 CLOCK: [2016-11-10 jue 13:48]--[2016-11-10 jue 14:02] =>  0:14
@@ -776,7 +785,7 @@ programa que estoy escribiendo.
 Pongo directamente E y dejo todos los binds con mayusculas
 para unificar criterios.
 
-** TODO mejor y mas fluida entrada del buscar
+** DONE mejor y mas fluida entrada del buscar
 o sea selecciono y debo volver a marcar el que esta seleccionado al
 menos con negrita.
 y que se seleccione tmb con un click si se puede.
