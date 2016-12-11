@@ -880,10 +880,10 @@ p.q pe uno olvida como se hacen ciertas cosas, y lo que significan
 ciertas cosas. p.e. con tal letra marque tal cosa, y el color tal
 significa tal cosa.
 
-* Modulos futuros
-** modulo de cambios de direcciones con tabla aparte
-** modulo de agregado o edicion de calles/barrios/zonas en una sola tab.
-** modulo de devoluciones de articulos
+* TODO Modulos futuros
+** TODO modulo de cambios de direcciones con tabla aparte
+** DONE modulo de agregado o edicion de calles/barrios/zonas en una sola tab.
+** TODO modulo de devoluciones de articulos
 *** DONE modificacion de detvta en tabVer
 CLOCK: [2016-11-16 mié 19:39]--[2016-11-16 mié 20:05] =>  0:26
 **** DONE borrado de un item de detalle de venta
@@ -939,7 +939,7 @@ llevar algun tipo de registro.
 
 
 ** modulo de atencion de avisos y esquemas de promocion
-* TODO tabVer accesible desde todo el proyecto
+* DONE tabVer accesible desde todo el proyecto
 CLOCK: [2016-11-13 dom 19:25]--[2016-11-13 dom 19:46] =>  0:21
 Considero todo el proyecto un mamarracho. El problema es el espacio y
 el uso del espacio, hay muchas cosas buenas en las cuales se ha
@@ -969,15 +969,15 @@ CLOCK: [2016-11-17 jue 20:34]--[2016-11-17 jue 20:42] =>  0:08
 muy interesante conexion, ya que permite "subir" los datos rapidamente
 al cuadro de busquedas, siendo que aterrizamos en tabVer desde
 cualquier lado.
-** TODO edicion en tabver!!!!!!!
-** vista de pedidos en tabver
+** DONE edicion en tabver!!!!!!!
+** DONE vista de pedidos en tabver
 poner los campos relevantes primero, como comentario, y colorear de
 ultima como en los otros lados.
-** urgente aunque sea poder editar que alguien esta en el seven sin tener que pasar pedido
+** DONE urgente aunque sea poder editar que alguien esta en el seven sin tener que pasar pedido
 
 * TODO Modulo pasar ventas
 con la base de pedidos, creo que tendria un pasar ventas facilmente.
-** desde pedidos con numero de pedido y listo
+** DONE desde pedidos con numero de pedido y listo
 ** desde clientes con mas facilidades de ingreso de datos
 *** informe seven/horarios/mjecobrador
 ** el stock se debe manejar de otra forma, la forma actual es obsoleta.
@@ -988,7 +988,7 @@ para esto, y generaron mucha imprecision.
 * Explorar posibles nuevos optiondatabase
 con otros "themes", colores y combinaciones que hagan mas legible el
 pasado de datos. Y la lectura de datos.
-* chequear posibles bugs
+* DONE chequear posibles bugs
 ** DONE tab order en pasado de pedidos que salta de num a los tbs 
 CLOCK: [2016-11-18 vie 11:23]--[2016-11-18 vie 11:26] =>  0:03
 y no sigue a barrio y zona.
@@ -996,18 +996,18 @@ Listo. Era el bind en num, que buscaba los que viven en la direccion
 ** DONE que paso, se achicaron los cuadros de busqueda y se agrando el campo de arriba
 CLOCK: [2016-11-18 vie 11:38]--[2016-11-18 vie 11:40] =>  0:02
 No parece estar distinto
-* improvs
-** linkear desde fichas a fechar para despejar fichas.
+* TODO improvs
+** DONE linkear desde fichas a fechar para despejar fichas.
 CLOCK: [2016-11-18 vie 19:31]--[2016-11-18 vie 19:52] =>  0:21
 listo- accedido
-** boton de impresion directa de zonas Atajo
+** TODO boton de impresion directa de zonas Atajo
 es embolante tener que hacer el proceso en especial cuando son zonas
 multiples.
 que se imprima directo resumen y zona 
-** reacomodar tabVentas
+** TODO reacomodar tabVentas
 poner fichitas atras y quieren comprar adelante y limitar el ancho de
 la columna que invade todo.
-* tabCobrado
+* DONE tabCobrado
 ** DONE pivot por cobrar
 CLOCK: [2016-11-21 lun 12:32]--[2016-11-21 lun 13:50] =>  1:18
 hecho, salio la tabla, aunque la calcule en forma atipica. probada en
@@ -1069,7 +1069,7 @@ no es claro el proceso, y no se ve el resultado, cambiarlo quizas a
 letras y colores. y por favor que se updatee el cliente subyacente.
 ** cuando se genere pedido limpiar cliente
 cosa de pasar un cliente nuevo, y evitar error
-** ver de solucionar el combo clear y el combo tab
+** DONE ver de solucionar el combo clear y el combo tab
 ** chequear el proceso de trigger ultpago
 para ver si toma real el ultimo o maxima fecha, caso Leonel Bustos.
 
@@ -1099,7 +1099,57 @@ indicadores precisos de compra/deuda/direccion de compra.
 ** Mejor carga de datos del promotor
 
 ** ver liquidacion / generar liquidacion
+la liquidacion sera los jornales y el basico, mas el puntaje junto a
+la lista de operaciones concretadas, y una lista de datos rechazados,
+y una lista de datos pendientes si los hay
 
 ** generar contrato
+no seria necesario pq seria una planilla fija firmada arriba como en
+el 2012
 
 ** cargar jornales
+los jornales se cargan desde la planilla de asistencia que si o si
+debo tener. Esa planilla es contrato tambien lamentablemente.
+Para cargar, linea de carga fecha, prom, jornal, etc. y abajo el tbls
+que representa la planilla.
+
+** tablero de control
+jornales, datos, vendido, puntaje, costo.
+* modificacion necesaria para que ande en windows
+rompio el esquema el agregado de /rx/ al nombre del archivo previo al
+directorio,lo cual podria salvarse.
+agregar self.st.theme_use("default") para que los combobox se vean
+bien.
+
+* tema combobox
+    pathname = self.nametowidget(tbl).editwinpath()
+    self.nametowidget(tbl).embconfigure(pathname,values=lista)
+el tbl del editstartcommand(tbl,row,col,text) es un string. Para
+    pasarlo a valor de widget uso el metodo nametowidget y eso ya me
+    lleva al tbl real.
+el metodo editwinpath me da el path del widget que el tbl embebe para
+    la edicion. para que pueda alterarlo antes de la edicion, pe
+    ponerle valores al combobox.
+el metodo nuevo que agregue al wraper de tablelist con el nombre de
+    embconfigure (que se llamaria asi pq es el configure del embebido)
+    permite configurar directamente el embebido.
+tbl.embconfigure(pathname, values= lista)
+
+metodo embconfigure:
+#+BEGIN_EXAMPLE
+ def embconfigure(self,pathname,cnf={},**kw):
+     return self.tk.call((pathname, "configure") +
+     self._options(cnf, kw))
+
+#+END_EXAMPLE
+Luego de renegar bastante y meterme en el tema, lo que me permitio
+buscar, pq sino estas metido en un tema a fondo no podes encontrar
+facil las repuestas, y buscando, encontre dos tipos que tenian el
+mismo problema, uno plantio bien la pregunta pero nadie le respondio,
+y otro se contesto solo, con un parche al wrapper. Lo que hice yo y
+ahi creo que estuve genial, pq el parche en si rompia el wrapper, fue
+crear otro metodo adhoc para ese motivo con el codigo que mando el
+tipo. O sea ya el wrapper del tablelist es casi parte de mi
+programacion, pq no se usa asi, tiene muchisimos arreglos.
+
+
