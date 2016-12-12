@@ -1,9 +1,9 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-12-08 jue 22:59]
+#+CAPTION: Clock summary at [2016-12-11 dom 20:32]
 | Headline                                       |      Time |         |
 |------------------------------------------------+-----------+---------|
-| *Total time*                                   | *2d 7:52* |         |
+| *Total time*                                   | *2d 8:28* |         |
 |------------------------------------------------+-----------+---------|
 | Tab pedidos                                    |   1d 8:57 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
@@ -41,22 +41,23 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | TODO Generales                                 |      1:16 |         |
 | \emsp TODO campos entry mas diferenciados o... |           |    0:21 |
 | \emsp TODO ver la forma de que el...           |           |    0:55 |
-| Modulos futuros                                |      2:44 |         |
-| \emsp modulo de devoluciones de articulos      |           |    2:44 |
-| TODO tabVer accesible desde todo el...         |      0:29 |         |
+| TODO Modulos futuros                           |      2:44 |         |
+| \emsp TODO modulo de devoluciones de articulos |           |    2:44 |
+| DONE tabVer accesible desde todo el...         |      0:29 |         |
 | \emsp DONE interconexion en tabver idem a...   |           |    0:08 |
-| chequear posibles bugs                         |      0:05 |         |
+| DONE chequear posibles bugs                    |      0:05 |         |
 | \emsp DONE tab order en pasado de pedidos...   |           |    0:03 |
 | \emsp DONE que paso, se achicaron los...       |           |    0:02 |
-| improvs                                        |      0:21 |         |
-| \emsp linkear desde fichas a fechar para...    |           |    0:21 |
-| tabCobrado                                     |      1:51 |         |
+| TODO improvs                                   |      0:21 |         |
+| \emsp DONE linkear desde fichas a fechar...    |           |    0:21 |
+| DONE tabCobrado                                |      1:51 |         |
 | \emsp DONE pivot por cobrar                    |           |    1:18 |
 | \emsp DONE generalizar la disposicion para...  |           |    0:13 |
 | \emsp DONE agregar a tabla virtual cuotas...   |           |    0:20 |
 | DONE Sumador                                   |      1:24 |         |
 | TODO tabSeven                                  |      1:05 |         |
 | \emsp DONE Sistema de baja del seven           |           |    1:05 |
+| DONE tema combobox                             |      0:36 |         |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -1121,7 +1122,8 @@ directorio,lo cual podria salvarse.
 agregar self.st.theme_use("default") para que los combobox se vean
 bien.
 
-* tema combobox
+* DONE tema combobox
+CLOCK: [2016-12-11 dom 19:56]--[2016-12-11 dom 20:32] =>  0:36
     pathname = self.nametowidget(tbl).editwinpath()
     self.nametowidget(tbl).embconfigure(pathname,values=lista)
 el tbl del editstartcommand(tbl,row,col,text) es un string. Para
