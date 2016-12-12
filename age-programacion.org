@@ -1154,4 +1154,7 @@ crear otro metodo adhoc para ese motivo con el codigo que mando el
 tipo. O sea ya el wrapper del tablelist es casi parte de mi
 programacion, pq no se usa asi, tiene muchisimos arreglos.
 
+* bug tabVer
+si luego de una busqueda cualquiera buscamos con alguien que no tiene
+cuentas no limpia los cuadros de cuenta y es confuso.
 
