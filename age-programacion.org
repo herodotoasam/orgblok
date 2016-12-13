@@ -1154,7 +1154,10 @@ crear otro metodo adhoc para ese motivo con el codigo que mando el
 tipo. O sea ya el wrapper del tablelist es casi parte de mi
 programacion, pq no se usa asi, tiene muchisimos arreglos.
 
-* bug tabVer
+* TODO bug tabVer
+CLOCK: [2016-12-12 lun 20:40]--[2016-12-12 lun 21:09] =>  0:29
 si luego de una busqueda cualquiera buscamos con alguien que no tiene
 cuentas no limpia los cuadros de cuenta y es confuso.
+Hice procesos explicitos de clear() de los tbls envueltos y demas
+campos.
 
