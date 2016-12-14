@@ -2,14 +2,15 @@
 ** Limpieza general
    DEADLINE: <2017-01-15 dom +3m >
 ** TODO Regar Amanda
-SCHEDULED: <2016-12-13 mar .+1w> 
+SCHEDULED: <2016-12-20 mar .+1w> 
+- State "DONE"       from "TODO"       [2016-12-13 mar 14:08]
 - State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
 - State "DONE"       from "TODO"       [2016-11-18 vie 12:21]
 - State "DONE"       from "TODO"       [2016-11-11 vie 13:36]
 - State "DONE"       from "TODO"       [2016-10-24 lun 19:32]
 :PROPERTIES:
-:LAST_REPEAT: [2016-12-06 mar 11:01]
+:LAST_REPEAT: [2016-12-13 mar 14:08]
 :END:
 ** TODO Limpiar Oficina
 SCHEDULED: <2016-12-09 vie +2w>

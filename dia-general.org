@@ -3196,6 +3196,116 @@ Luego pienso que el año que viene tendre que vender y eso me llevara
 tiempo y que no habre terminado de programar y eso estara malo, pq no
 habre terminado de hacer lo que tenia que hacer.
 En el fondo tampoco sabes si queres terminar de programar.  
+*** [2016-12-13 mar]
+Otro dia mas de depresion intensa. Hoy pensaba que feo es que tenga
+este problema entre manos, me refiero al tema del auto y en el medio
+el tema de mi vieja. Y en el fondo esta distimia que me mata, me quita
+toda ganas de vivir, me hace caer en una abulia. Sin sueños ni
+esperanzas. En el marasmo. Hace cuanto que estoy en esta
+situacion?. lo del marasmo me suena conocido. Lo peor es cuando pierdo
+interes hasta por el negocio, o la programacion y no tengo ganas de
+hacer nada. 
+Aca es donde los habitos peligran. Hoy por hoy hacer las virtuales dos
+series en vez de las tres me cuesta un peru. es como si los musculos
+estuviesen duros, dolientes.
+El licuado felizmente se hace, y ayer y hoy he reemplazado la legumbre
+(provisoriamente) por amaranto, y he descubierto de paso una buena
+mezcla. Agregando amaranto al mijo en la propia hechura, es como que
+no se nota en la amalgama final, y con calabazin incorporado queda
+bastante bueno.
+Por lo menos he comenzado a leer el lemonde. Y eso me ocupa un poco
+mas la mente.
+Tambien creo que tendria que salir a caminar un rato luego del trabajo
+antes de quedarme definitivo adentro todos los dias, al menos un dia
+por semana.  Es esa horita o media horita la horita clave.
+No se pq no apruebo presupuesto para comprarme un par de camisas mas.
+*** [2016-12-14 mié]
+CLOCK: [2016-12-14 mié 11:55]--[2016-12-14 mié 12:45] =>  0:50
+Hoy fui al neurologo. Bien. me atendio rapido. Aunque nada muy
+espectacular, tampoco esperaba nada yo. Al menos me hizo la revision
+de rutina, y quedamos en que seguiremos con el topiramato que solo
+llevamos un mes.
+**** Algunas conclusiones sobre el topiramato
+- es obvio que me hace bien
+- ahora solo llevo un mes
+- lo rescatable de hoy es que no tomarlo un dia interrumpe la
+  acumulacion, pq funciona por acumulacion, y que el tratamiento
+  preventivo da efecto a 6 meses/ un año.
+- que debo estar prevenido si me dan adormecimientos de manos y pies
+- que debo luchar contra la falta de apetito que te da
+- la vez anterior si bien es cierto que lo tome unos cuantos meses no
+  fue estrictamente regular y luego lo deje.
+- Hablo de que paulatinamente se podria ir dejando el migral
+**** sobre como me cuesta la gimnasia
+me cuesta un peru y un bolivia.
+lo hago lo mismo pero a un costo de movimiento enorme.
+**** decision sobre la transferencia del auto
+pienso que hay que encarar la transferencia a como venga, como lo
+haria cualquier tipo normal, o sea haremos lo que se tenga que hacer.
+No desde el punto de vista nihilista mio, de no hacer nada o darlo por
+perdido.
+Y alli pienso que es presentarse con el 08, firmarlo alli mismo e ir
+llevando a como sea lo que falte para que la transferencia salga.
+Y chau perdido por perdido.
+Esto es un clavo que tengo que sacarme de encima rapido.
+**** No hay que ser injusto con el sistema
+en este primer año hemos hecho mucho, se normalizo bastante el sistema
+y se encontro un equilibrio de trabajo. Aparte nos encontramos con mas
+medios.
+Encima de todo he podido manejar el sistema sin tener que clavarme
+todo el tiempo en la oficina, solo hago horario de tarde.
+Y la verdad que hemos vendido mas que en el pasado.Y hemos cobrado
+mas. En si podemos sacar una lista de un monton de cosas buenas que
+hicimos. Y lo malo es que no festejamos nada. Entonces caemos en esa
+depresion como decia Veronica Andres de no festejar nada, que
+transmito yo a los demas.
+**** Que es lo principal que debo hacer para el proximo año
+1. lo bueno es que disminuyo la locura de la programacion, para bien o
+   para mal, y creo que si hay un reflujo, esta vez tengo las
+   herramientas con git y pycharm y las notas aca en org como para
+   retomar donde deje.
+2. a nivel dieta hay cosas que se van consolidando y me indican que a
+   futuro puedo agregarle mas cosas, pero no estoy en un caos,
+   basicamente por el soporte de los dos habitos licuado/mesclas.
+3. el trabajo base creo que esta para seguirlo como lo hago, mas o
+   menos, Y el gran desafio para el año que viene es hacer un sistema
+   de venta aparte.
+4. a nivel medicos he hecho los ultimos meses la ofensiva mas integral
+   de los ultimos años (falta asistir al endocrinologo), incluye
+   odontologia.
+**** Cuales fueron los logros de este año
+1. reabrir el local
+2. pusimos un aviso despues de muchisimo tiempo y logramos al toque un
+   grupo de 4 promos que produjeron cierto nivel de ventas
+3. hicimos un sistema de cobranza de ida y vuelta desde la oficina sin
+   zona fijada comprometida y reemplazamos la escoria
+4. compramos una kangoo 0km
+5. alquilamos el local de la esquina para deposito
+6. programe una aplicacion nueva de cero en python que poco a poco va
+   unificando todo el tablero de control en una sola parte
+En lo personal:
+- aprendi git
+- aprendi emacs y org-mode fundamentalmente
+- al final descubri como herramienta tranqui y muy eficiente pycharm
+- en el camino rehice lo que habia hecho en python y recupere los conocimientos
+- programe un monton
+- mas o menos me instale mejor en este dpto (al menos pinte dos
+  paredes que quedaron muy bonitas y puse las cortinas, compre cama y
+  mesa de luz, faltan cosas menores que las podria hacer rapidamente
+  si tuviera necesidad)
+- inicie el control de habitos con org-mode (que quiera o no me pone
+  frente a la obligacion de hacer lo que no tengo ganas y lo que no
+  haria si no tuviera este control de habitos)
+- volvi al pelo corto luego de un par de años de andar renegando con
+  el pelo larguisimo peinado para atras
+- me hice los implantes dentarios abajo!!! increible pero cierto, no
+  se como, pero ahora me obliga a arreglarme toda la dentadura si o si
+- fui al medico, me hice los analisis, volvi a ir, me hice los
+  estudios, fui al neurologo y tengo turno para el endocrinologo.
+- invente la teoria de las tramas que tengo que desarrollar
+**** El proyecto mas importante para el año proximo es el esquema de venta
+debo desarrollar un esquema que venda y genere clientes.
+
 * Constructos
 ** Be normal
 * Consignas
@@ -3625,6 +3735,13 @@ rasguñarlo en superficie, se ha aplanado mas bien.
 ** acidez extema
 *** [2016-11-03 jue]
 a lo 2006, que me obliga a tomar agua
+*** [2016-12-13 mar]
+el sabado pasado tome un par de las pastillas de la ih por la acidez,
+creo que quince dias de antibioticos y demas por los implantes. Y
+aunque ya volvi al licuado y a la mezcla, tengo acidez extrema, no se
+si pq ayer y anteayer me comi 6 arabes, y torta, y pan dulce a
+discresion.
+
 ** virosico
 *** [2016-11-10 jue]
 externo, dos puntos, uno abierto de mas o menos un mm y el otro igual

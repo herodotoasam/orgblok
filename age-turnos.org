@@ -2,14 +2,14 @@
   SCHEDULED: <2016-11-08 mar 18:20>
 Dra Khorsandnia,Bayan
 
-* Neurologia
-  SCHEDULED: <2016-12-14 mié 10:40>
+* TODO Neurologia    :turno:
+  SCHEDULED: <2017-03-01 mié 11:20 -7d>
 Dr Romero William Nicolas
 
 * DONE Ortopantografia
 SCHEDULED: <2016-11-15 mar>
 
-* endocrinologia
-SCHEDULED: <2017-01-19 jue> 15.30hs patio olmos.
+* TODO endocrinologia   :turno:
+SCHEDULED: <2017-01-19 jue -7d> 15.30hs patio olmos.
 
 
