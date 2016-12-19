@@ -10,7 +10,10 @@ solo color, y si lo has roto automaticamente se recomienza.
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-12-17 sáb .+1d>
+SCHEDULED: <2016-12-19 lun .+1d>
+- State "DONE"       from "TODO"       [2016-12-18 dom 19:10]
+- State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
+- State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
 - State "DONE"       from "TODO"       [2016-12-16 vie 20:43]
 - State "DONE"       from "TODO"       [2016-12-15 jue 13:37]
 - State "DONE"       from "TODO"       [2016-12-14 mié 12:45]
@@ -46,7 +49,7 @@ SCHEDULED: <2016-12-17 sáb .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2016-12-16 vie 20:43]
+:LAST_REPEAT: [2016-12-18 dom 19:10]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -67,7 +70,8 @@ SCHEDULED: <2016-12-17 sáb .+1d>
 r
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2016-12-17 sáb .+1d>
+SCHEDULED: <2016-12-18 dom .+1d>
+- State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
 - State "DONE"       from "TODO"       [2016-12-16 vie 21:01]
 - State "DONE"       from "TODO"       [2016-12-15 jue 13:37]
 - State "DONE"       from "TODO"       [2016-12-14 mié 12:45]
@@ -100,7 +104,7 @@ SCHEDULED: <2016-12-17 sáb .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-12-16 vie 21:01]
+:LAST_REPEAT: [2016-12-17 sáb 23:29]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
