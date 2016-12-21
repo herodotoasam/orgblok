@@ -1,5 +1,6 @@
 * TODO topiramato
-SCHEDULED: <2016-12-19 lun .+1d>
+SCHEDULED: <2016-12-21 mié .+1d>
+- State "DONE"       from "TODO"       [2016-12-20 mar 21:38]
 - State "DONE"       from "TODO"       [2016-12-18 dom 22:38]
 - State "DONE"       from "TODO"       [2016-12-17 sáb 23:30]
 - State "DONE"       from "TODO"       [2016-12-16 vie 21:00]
@@ -48,7 +49,7 @@ SCHEDULED: <2016-12-19 lun .+1d>
 - State "DONE"       from "TODO"       [2016-10-24 lun 22:58]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-12-18 dom 22:38]
+:LAST_REPEAT: [2016-12-20 mar 21:38]
 :END:      
 ** 25mg
 [2016-10-24 lun]
