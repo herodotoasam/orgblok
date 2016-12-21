@@ -74,11 +74,12 @@ DEADLINE: <2016-12-28 mié +1m>
 :END:
 ** otros fijos
 *** TODO Viaje de estudio Cami  
-DEADLINE: <2016-12-15 jue +1m -2d>
+DEADLINE: <2017-01-15 dom +1m -2d>
+- State "DONE"       from "TODO"       [2016-12-21 mié 15:22]
 - State "DONE"       from "TODO"       [2016-11-15 mar 20:43]
     - State "DONE"       from "TODO"       [2016-10-21 vie 17:57]
     :PROPERTIES:
-    :LAST_REPEAT: [2016-11-15 mar 20:43]
+:LAST_REPEAT: [2016-12-21 mié 15:22]
     :END:
 
 * Romitex                                                           :romitex:
