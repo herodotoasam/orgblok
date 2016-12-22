@@ -10,7 +10,8 @@ solo color, y si lo has roto automaticamente se recomienza.
 * Lista de habitos alimenticios
 ** tomar agua con limon
 ** TODO licuados
-SCHEDULED: <2016-12-21 mié .+1d>
+SCHEDULED: <2016-12-22 jue .+1d>
+- State "DONE"       from "TODO"       [2016-12-21 mié 22:31]
 - State "DONE"       from "TODO"       [2016-12-20 mar 21:38]
 - State "DONE"       from "TODO"       [2016-12-18 dom 19:10]
 - State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
@@ -50,7 +51,7 @@ SCHEDULED: <2016-12-21 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2016-12-20 mar 21:38]
+:LAST_REPEAT: [2016-12-21 mié 22:31]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -71,7 +72,8 @@ SCHEDULED: <2016-12-21 mié .+1d>
 r
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2016-12-21 mié .+1d>
+SCHEDULED: <2016-12-22 jue .+1d>
+- State "DONE"       from "TODO"       [2016-12-21 mié 22:31]
 - State "DONE"       from "TODO"       [2016-12-20 mar 21:38]
 - State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
 - State "DONE"       from "TODO"       [2016-12-16 vie 21:01]
@@ -106,7 +108,7 @@ SCHEDULED: <2016-12-21 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-12-20 mar 21:38]
+:LAST_REPEAT: [2016-12-21 mié 22:31]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
@@ -140,7 +142,8 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2016-12-21 mié .+1d>
+SCHEDULED: <2016-12-22 jue .+1d>
+- State "DONE"       from "TODO"       [2016-12-21 mié 22:31]
 - State "DONE"       from "TODO"       [2016-12-20 mar 21:39]
 - State "DONE"       from "TODO"       [2016-12-16 vie 21:01]
 - State "DONE"       from "TODO"       [2016-12-15 jue 20:47]
@@ -180,7 +183,7 @@ SCHEDULED: <2016-12-21 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2016-12-20 mar 21:39]
+:LAST_REPEAT: [2016-12-21 mié 22:31]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]

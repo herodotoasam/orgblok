@@ -152,7 +152,7 @@ Auto-fill mode es un minor-mode que provee el corte de linea
 automatico cuando se llega a cierto limite. Lo que uno conocia como
 auto wrap. Se pone en el menu Text, o como comando.
 ** TODO [2016-09-25 dom]                                              :anki:
-SCHEDULED: <2016-12-05 lun +15d>
+SCHEDULED: s<2016-12-05 lun +15d>
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:44]
 :PROPERTIES:
