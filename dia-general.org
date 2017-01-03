@@ -3464,6 +3464,75 @@ pero tenerlas al fin y al cabo es que uno no tiene ese vacio depresivo
 sino otro tipo de emociones positivas que le ganan a las negativas.
 **** el objetivo este año aparte de los habitos es la lectura de libros
 y una seleccion de articulos que sean de interes.
+*** [2016-12-24 sáb]
+hoy dia aciago tirando a recuperado dentro de todo dada las
+circunstancias, lo que rescato es que puedo generar un objetivo
+concreto para el año proximo con el tema compra de chata y cabaña y
+viajes.
+Atravesar el dia de hoy y en general los ultimos dias fue muy duro,
+mucho estres, me causa la situacion de que no haya quien cuide a la
+vieja y que termine de curar y le den el alta. Un poco cai en
+situacion de queja con ih y pense en irme solo y no quedarme navidad
+aca, pero primo el buen juicio y guarde silencio y decidi quedarme a
+comer y dormir una larga siesta y luego quedarme lo mejor que pudiera
+y me quede y creo que lo pase bastante bien. 
+Creo que debo ser menos pelotudo con los grandes y mas dedicado a los
+chicos. O sea prestarle mas atencion a los chicos y no tanto a los
+grandes. 
+*** [2016-12-26 lun]
+paso de la desesperanza al marasmo. a ese no saber que hacer. a ese
+pensar que a mi vida le falta un eje o un anclaje o una
+"normalidad". Y esa normalidad se leeria pareja, pero pareja significa
+a la par de unas posibles cosas buenas un monton de obligaciones que
+sumadas a las obligaciones insoslayables del pasado harian un circulo
+vicioso insoportable y ante eso prefiero no hacer nada. 
+Igual que las vacaciones. Hoy es el dia uno de quince, me cago en la
+excepcionalidad. me digo pq me refugio en la rutina en cierta forma
+del año una vez que entramos en año normal, y a la vez me gustaria
+estirar la excepcionalidad, cuidarla, estirarla lo mas posible,
+preservarla de las anormalidades anodinas, de las cosas que serian no
+contables aunque no se las vaya a contar a nadie, que hiciste estos
+dias nada, nada mas y nada menos que cuidar a mi vieja y visitar por
+ultima vez a mi suegro. Porque quizas sea este un año bisagra para
+nosotros en el cual la generacion anterior se esta yendo y quedamos
+nosotros y empezamos a enfilar el triste camino.
+**** la pickup como objetivo
+hace no mucho me decia que el auto no me importaba y que viviendo en
+el centro desdeñaba la movilidad propia y sus gastos y molestias y que
+lo poco que necesitara moverme lo haria en taxi. Incluso pensaba en
+que podia llegar a perder el auto y no me importaba. No se si era
+autoproteccion frente a esa circunstancia. Ahora ante una posibilidad
+de que podria disponer del auto, pienso que un formato chata, en una
+submodalidad rustica (ranger, toyota 05) estaria adecuada y serviria
+para transportarse y no tener las problematicas que te presenta
+habitualmente el tener auto, menos auto nuevo.  Pero en cierta forma
+hay que tener en cuenta que yo no soy precisamente de salir, ni de
+viajar ni de hacer cosas, y normalmente mis movimientos son de
+caracteristica simbolico, Por eso aunque desde ya que pasar a una
+pickup ranger es una inversion real, y no tengo que pagar un seguro
+tipo como el del bora, pq pienso que no es tan riesgoso andar en una
+ranger como lo es andar en un bora pienso. (Siempre pienso en los
+choques de atras que en las chatas estas bastante mas a cubierto).
+Hay varios cambios de vida que uno puede hacer si quiere usar mas el
+auto. Uno termino usandolo menos por eso, termino no yendo a ningun
+lado y limitandose cada vez mas.
+**** cuales son las certezas basicas
+yendo al hospital pensaba cuales son las cinco definiciones basicas
+mias. sobre las cuales construir lo que pretendo construir. Negocio,
+sociedad, dpto,  rutina, literatura, filosofia, programacion,
+alimentacion, ejercicio, lectura, objetivos,,, Hoy por hoy no se nada
+de nada. Nada esta seguro, por eso cualquier objetivo parece
+descolgado y esteril, tonto, infantil. Caprichito, que no lleva a
+nada.
+Pero puede servir si lo conecto con la situacion anterior, de estar en
+una postura en la cual creia que podia producir algo, o tener un
+resultado y tener el vacio de no tener ninguna meta.
+Bueno ahora tendria esa meta. 
+O sea acomodar primero mis metas personales, luego acomodar el lugar
+que le pienso dar al trabajo, y luego hacer numeros alli, y a la
+primera posibilidad de acomodar el tema auto, cambiarlo por la chata y
+luego empezar a salir al campo para encontrar un lote y comprarse un
+lote.
 
 
 * Constructos
@@ -3992,6 +4061,13 @@ avanzaba la caminata y luego no se presentaron cuando estuve en pausa.
 :Costo:    150
 :Valoracion: 4
 :END:
+** [2016-12-22 jue]
+:PROPERTIES:
+:Lugar:    Cinerama
+:Costo:    200
+:Valoracion: 4
+:END:
+
 * diario de estado de animos
 ** muy positivo 
 tipo como el dia del ejercicio que vio el lolo q tiraba rayos
@@ -4012,4 +4088,14 @@ estado animico. [copio este fragmento al diario para continuar]
 dia feriado. me fui quedando en la cama al viejo estilo dia de vago de
 la cabaña o patricios, y me cuesta levantarme y se va tornando el dia
 muy oscuro.
-
+* libros
+** la sangre derramada
+[2016-12-19 lun]
+Hasta ahora muy bueno. Los capitulos de dorrego y de rosas muy buenos,
+y eso que son relecturas. Pase a la segunda parte, da para relectura
+completa.
+** el hambre
+:PROPERTIES:
+:autor:    Caparros
+:Inicio:   [2016-12-25 dom]
+:END:
