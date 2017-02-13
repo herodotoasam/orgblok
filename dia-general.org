@@ -3533,6 +3533,98 @@ que le pienso dar al trabajo, y luego hacer numeros alli, y a la
 primera posibilidad de acomodar el tema auto, cambiarlo por la chata y
 luego empezar a salir al campo para encontrar un lote y comprarse un
 lote.
+* 2017
+** Enero
+*** [2017-01-03 mar]
+**** Definiciones o conceptos
+***** que tipo de soledad tengo o experimento hoy
+la misma que vengo observando hace unos meses y es la lejania con
+ih. Hay muchas facetas que analizar. Esta el miedo o posibilidad de
+que mi marasmo fuese contagioso, o que mi aplastamiento fuese
+contagioso y apagara o aplastara o sofocara el poco movimiento propio
+que puedan tener alla, con iniciativa propia sin censura de ningun
+tipo, iniciativa centrada en lo familiar por una parte, o bien salir
+al hiper, o bien algun plan tipo amigas de la cami, y como
+aparentemente iria yo y me instalo alla, "aplastadamente" porque me
+encanuto sin querer salir a ningun lado, ni querer que nadie salga, ni
+llevar a nadie, ni que nadie venga a la casa, les corto lo poco que
+puedan tener de iniciativa propia. A la vez estando alla casi que las
+visiones relativas a alguna accion minimamente placentera se reduce
+mucho. Quiero decir que lo que yo visualizaba como placentero respecto
+a la vida alla, como levantarse a tomar mates a la mañana en el patio,
+o bien ya no existe, o no fue posible en estas vacaciones que se
+pasaron volando con el tema de la internacion de mi vieja.
+Pero mas alla de todo, luego tuvimos entre los dos como padres el
+episodio del domingo de la cami, y se que ella esta muy angustiada por
+eso, y creo que ese episodio tambien tiene que ver con lo que estamos
+viviendo en estos tiempos como familia, este tipo de vida. Yo veo el
+ahogo de la cami muy parecido al mio del dia 31, esa incomprension
+total que encontras del otro lado o que vos crees que encontras y que
+te lleva a descontrolarte y a hacer cosas estupidas.
+Resumiendo mi soledad se ve agravada no estos dias sino estos ultimos
+meses por un apagamiento de ih, o un desinteres, o un proceso opuesto
+que experimentamos. (Es tal la sensacion que en estos ultimos meses
+resalto nuevamente la palabra meses, pq no es de estos dias, me
+parecia increible que no hubiera buscado la forma de solucionarla a
+esa soledad con lo que tenia en el 2013, imaginate que aca hoy, en la
+situacion de hoy, podria vivir bien con alguien asi).
+***** Despues mas de lo mismo
+dificultades para ir a comprar alimentos (alimentos si, en especial
+frutas y verduras), a pesar de que ellas tienen un presupuesto de 10k
+y por eso tiran el 50% de lo que compran, y todos los otros temas
+relativos a la falta de amor a mi mismo, y a un esquema basico para
+salir de la depresion y el marasmo sin odios y sin resentimientos.
+En estos ultimos dias, en especial en los dias en que estando con
+angustia por lo de mi vieja, casi no podia respirar. Y en general se
+sumaron muchos dias, y en estos ultimos meses en este ultimo año
+mucho, de mal emocional, lo cual creo que agrava los problemas de
+salud y no te hace nada bien. 
+***** tratar de no perder nada y levantar el pie luego seguir
+levantar el pie, distraerse, descansar, estar al pedo, retomar la
+rutina, cuando pueda retomare los habitos, al menos se que los habitos
+de base estan y que pueden ser levantados de nuevo.
+*** [2017-01-04 mié]
+**** Cambio de rutina basica en la semana laboral
+los ultimos meses tuve practicamente condicionado o motivado por la
+programacion.
+en los meses de setiembre y octubre mas que todo cuando se deriva a
+lateralidades en especial la fiebre emacs y org-mode hasta que se
+reposa en pycharm por suerte y se vuelve un poco mas productiva la
+cosa. Pero es como una fiebre que va mas alla de las necesidades. Es
+cierto que las necesidades mandaban en cierta forma y que ahora uno si
+se olvida de todo cae en el proceso de arreglarserlas con lo que tiene
+a mano y luego no se hace nada mas.
+Pero se habia llegado a extremos: estar una hora en la oficina y a la
+tarde penar por estar tres o tres y media horas.
+Esta bien que a la mañana empieza a tallar el miedo a que te agarren
+en la oficina. 
+En otras palabras la rutina se la semana laboral era minimizar oficina
+a lo minimo indispensable (por eso ni siquiera controlo como van las
+cosas, ni hago llamados, ni pongo avisos, etc. ) y permanezco en el
+dpto para programar y con la idea de hacer los ejercicios y mejorar
+comidas pero con grandes faltantes a la hora de compras en lo relativo
+frutas,verduras y con gran perdida de energia por falta de estado
+fisico y encierro.
+Me pasa y me ha pasado lo mismo calcadito en el pasado muchas veces,
+que cuando me sumerjo en la programacion me olvido de la lectura, me
+olvido de las otras cosas. Esta bien que es algo que me gusta, que es
+algo util. Por eso ahora que ya se como es, al menos tengo un gran
+paquete de documentacion y seguimiento como para poder continuar desde
+donde deje en algun otro momento por alguna necesidad puntual, pero
+sin caer en la locura.
+***** Rutina caminar + rumbo mercado:
+la idea se me cruzo en funcion de que debia caminar, que necesito
+caminar, mucho. Y que estaria bueno rumbear para el mercado y traer
+aunque sea uno o dos kilos de fruta por vez. La bocha es caminar y la
+bocha tambien es comer fruta y verdura. Y que eso de traer uno o dos
+kilos maximo te quita presion de no equivocarte con la compra pq vas
+mañana de nuevo. 
+***** quizas volver al cuaderno
+por ahi no da ganas abrir la compu todos los dias, y ahi se
+desactualiza mucho todo, o bien el cuaderno es mas compacto y te hace
+perder menos tiempo. Ademas seamos realista, emacs no lo relei nunca,
+salvo en el celu y el cuaderno si lo relees, no se. Creo que no hay
+que perderse en las formas sino en los contenidos basicos
 
 
 * Constructos
@@ -3562,6 +3654,8 @@ c/cambio sabanas y rotacion colchon
 pasar piso - rutina
 por unica vez: sacar las botellas de abajo, devolver herramientas,
 cambiar cortinas, intentar destrancar cañeria.
+*** [2017-01-04 mié]
+cocina- mesada, pileta en especial, piso
 * Emacs
 ** Necesarios
 *** atajo insertar dia con hora

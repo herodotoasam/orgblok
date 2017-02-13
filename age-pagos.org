@@ -33,34 +33,38 @@ DEADLINE: <2017-06-01 jue +1m>
 
 ** otros fijos
 *** TODO Claro 
-DEADLINE: <2016-12-25 dom +1m>
+DEADLINE: <2017-01-25 mié +1m>
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
 - State "DONE"       from "TODO"       [2016-10-27 jue 12:37]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-25 vie 13:49]
+:LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
 *** TODO Hospital Privado
-DEADLINE: <2016-12-17 sáb +1m>
+DEADLINE: <2017-01-17 mar +1m>
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-18 vie 21:18]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-18 vie 21:18]
+:LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
 
 * familia                                                           :familia:
 ** casa                                                               :casa:
 *** TODO alquiler prades 
-DEADLINE: <2016-12-22 jue +1m>
+DEADLINE: <2017-01-22 dom +1m>
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-22 mar 13:54]
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-22 mar 13:54]
+:LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
 *** TODO epec casa                                                   :epec:
-DEADLINE: <2016-12-15 jue +2m -2d>
+DEADLINE: <2017-02-15 mié +2m -2d>
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2016-10-19 mié 20:20]
+:LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
 *** TODO ecogas casa                                                  :gas:
 SCHEDULED: <2017-01-16 lun +2m>
@@ -95,11 +99,12 @@ DEADLINE: <2017-01-20 vie +1m -3d>
 SCHEDULED: <2017-01-25 mié +2m>
 
 ** TODO Telecom Local                                        :oficina:fijos:
-DEADLINE: <2016-12-21 mié +1m>
+DEADLINE: <2017-01-21 sáb +1m>
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-21 lun 20:50]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:21]
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-21 lun 20:50]
+:LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
 ** TODO Seven                                                :oficina:fijos:
 DEADLINE: <2016-12-05 lun +1m>
@@ -109,5 +114,10 @@ DEADLINE: <2016-12-05 lun +1m>
 :LAST_REPEAT: [2016-11-18 vie 21:19]
 :END:
 ** TODO aguas cordobesas local
-SCHEDULED: <2001-12-21 vie +1m>
+SCHEDULED: <2017-02-21 mar +1m>
+- State "DONE"       from "TODO"       [2017-01-04 mié 16:15]
+- State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
+:PROPERTIES:
+:LAST_REPEAT: [2017-01-04 mié 16:15]
+:END:
 
