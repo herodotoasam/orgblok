@@ -1208,3 +1208,15 @@ bug en tab Pedido
  descripcion de articulo o color. Usando el truncating de
  la funcion format que es asi: '{:.30}'.format(contenido),
  donde ahi se trunca a 30.
+* TODO sistema de atencion telefonica
+** al marcar llamar en fechar guardar en tabla llamar
+CLOCK: [2017-02-23 jue 17:55]--[2017-02-23 jue 19:22] =>  1:27
+Hecha la primera aproximacion, que seria registrar la intencion de
+llamar en una tabla, para que funcione como los pedidos de articulos
+dentro del proceso interno de fechar, y un poco uno se monta al
+proceso que viene haciendo con eso.
+** ver listado de llamados pendientes para hacer 
+o sea el tablelist de la tabla llamar con link a las cuentas.
+** Posibilidad de llenado del registro de llamado en el momento en que se esta haciendo el llamado
+** visualizacion del historial de llamados en la ficha del cliente.
+
