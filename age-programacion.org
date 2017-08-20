@@ -549,6 +549,47 @@ tecleemos mas rapido y las letras aparezcan atras de lo escrito. Lo
 ideal es acostumbrarse a teclear letra por letra para dar tiempo que
 se rearme el combo con el select-range del resto de la palabra.
 
+** DONE mejoras en la rapidez del pasado de pedidos
+CLOCK: [2017-08-19 sáb 19:00]--[2017-08-19 sáb 21:01] =>  2:01
+ponemos valores por defecto a la mayoria de los campos del pedido 
+corrijo bug de no limpiar idcliente al cargar dato nuevo
+nuevo boton para pedido doble del mismo cliente
+
+** DONE mejoras en el documento
+CLOCK: [2017-08-19 sáb 22:01]--[2017-08-19 sáb 23:02] =>  1:01
+ponemos wapp
+ponemos infoseven
+ordenamos por barrio,calle y numero: esto fue lo mas interesante pq
+tuve que sacar una lista de los idpedido implicados y hacer que sqlite
+ordene por via indirecta con la tabla clientes y escupa los idpedido
+nuevamente ordenados para recien ahi procesarlos
+
+
+
+** TODO tablero informativo promotores 2018
+
+*** DONE subtab pedidos coloreados por promotor
+CLOCK: [2017-08-20 dom 13:22]--[2017-08-20 dom 14:02] =>  0:40
+Comenzamos por reusar un subtab informativo de pedidos coloreados por
+distintas situaciones que estaba generalizado, poniendo un campo de
+filtro por promotor para usarlo si quiero ver un promotor solo. Una
+vez que tenga la carga completa de datos. Con 18 lineas mas de codigo
+lo logre con el codigo que ya tengo.
+
+*** TODO TD por dia de pedidos sacados y procesados
+lo que tendria que hacer seria pasar todos los datos, incluidos los
+anulados y los rechazados y poner la causa del rechazo, para que
+aparezca ahi pq se rechazo. La idea seria tener una td que mostrara
+los datos sacados por todos, sumable por los promotores activos.
+
+*** TODO Pedidos entregados. Corregir el programa pasador de ventas
+por el momento cargar el idpedido cuando paso una venta para que tome
+el dato de pedido entregado. Y pasar manualmente los pedidos anulados.
+
+*** TODO Resumen por promotor con un listado de todos los datos y su resultado
+coloreado por tipo de resultado, azul entregado, verde seven y rojo
+rechazado y blanco pendiente, sumable o con resumen.
+
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
