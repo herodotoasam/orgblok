@@ -612,9 +612,24 @@ alli se incluye a cobradores y algunos hacen datos como el braian.
 entonces editando ese campo tengo unicamente a los promotores.
 
 
-*** TODO ver si se puede hacer la misma td con columna doble entregado-anulado
-probar
+*** DONE ver si se puede hacer la misma td con columna doble entregado-anulado
+CLOCK: [2017-08-21 lun 11:17]--[2017-08-21 lun 11:43] =>  0:26
+puse la segunda columna.
+usando los status ya programados
+1. sin entregar status 0
+2. entregado status 1
+3. anulado o seven status 2
+4. rechazado por el cliente status 3
+con un case when el pivot suma los datos de uno u otro tipo.
 
+**** DONE coloracion de las columnas
+CLOCK: [2017-08-21 lun 11:44]--[2017-08-21 lun 12:14] =>  0:30
+hice una coloracion vertical por promotor usando los colores de paleta
+de fossil.
+
+**** TODO boton de recalculado de tabla dinamica
+CLOCK: [2017-08-21 lun 12:14]--[2017-08-21 lun 12:24] =>  0:10
+agregado boton de recalculado. 
 
 *** TODO Pedidos entregados. Corregir el programa pasador de ventas
 por el momento cargar el idpedido cuando paso una venta para que tome
@@ -1295,4 +1310,6 @@ proceso que viene haciendo con eso.
 o sea el tablelist de la tabla llamar con link a las cuentas.
 ** Posibilidad de llenado del registro de llamado en el momento en que se esta haciendo el llamado
 ** visualizacion del historial de llamados en la ficha del cliente.
+* TODO Temas generales
+** TODO scroll para tablelist
 
