@@ -613,6 +613,8 @@ entonces editando ese campo tengo unicamente a los promotores.
 
 
 *** TODO ver si se puede hacer la misma td con columna doble entregado-anulado
+probar
+
 
 *** TODO Pedidos entregados. Corregir el programa pasador de ventas
 por el momento cargar el idpedido cuando paso una venta para que tome
