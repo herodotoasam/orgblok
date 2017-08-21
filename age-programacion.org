@@ -569,6 +569,7 @@ nuevamente ordenados para recien ahi procesarlos
 ** TODO tablero informativo promotores 2018
 
 *** DONE subtab pedidos coloreados por promotor
+
 CLOCK: [2017-08-20 dom 13:22]--[2017-08-20 dom 14:02] =>  0:40
 Comenzamos por reusar un subtab informativo de pedidos coloreados por
 distintas situaciones que estaba generalizado, poniendo un campo de
@@ -576,11 +577,42 @@ filtro por promotor para usarlo si quiero ver un promotor solo. Una
 vez que tenga la carga completa de datos. Con 18 lineas mas de codigo
 lo logre con el codigo que ya tengo.
 
-*** TODO TD por dia de pedidos sacados y procesados
+*** DONE TD por dia de pedidos sacados y procesados
+CLOCK: [2017-08-20 dom 20:05]--[2017-08-20 dom 21:37] =>  1:32
+CLOCK: [2017-08-20 dom 23:00]--[2017-08-20 dom 23:58] =>  0:58
 lo que tendria que hacer seria pasar todos los datos, incluidos los
 anulados y los rechazados y poner la causa del rechazo, para que
 aparezca ahi pq se rechazo. La idea seria tener una td que mostrara
 los datos sacados por todos, sumable por los promotores activos.
+
+Hice la Td de pedidos pero habria que acotarla y mejorarla para
+hacerla funcional e informativa. 
+P.e. que abarque de hoy 30 dias o 35 dias para atras
+que este ordenada de hoy para atras
+nozero o mejora en los colores de presentacion
+
+Se toman los ultimos 31 dias moviles.
+se sumariza el total de datos sacados los ultimos 31 dias
+se usa la funcion nozero para no ensuciar la pantalla
+
+no hace falta ordenar de arriba a abajo pq se ve en una sola pantalla
+
+Hay que resolver el tema de que sumo cnt y en realidad tengo que sumar
+clientes.
+#+BEGIN_EXAMPLE
+'select fechaped,idcliente,pedido.prom as prom from pedido,cobr where cobr.id=pedido.prom and cobr.activo=1 and \
+        fechaped>date("now","-31 days") group by idcliente'
+#+END_EXAMPLE
+
+alli tomamos por cliente y no por cnt de articulos ni por multiples
+pedidos al mismo cliente.
+
+Al final cambie la condicion a prom=1 de la tabla cobr no a activo, pq
+alli se incluye a cobradores y algunos hacen datos como el braian.
+entonces editando ese campo tengo unicamente a los promotores.
+
+
+*** TODO ver si se puede hacer la misma td con columna doble entregado-anulado
 
 *** TODO Pedidos entregados. Corregir el programa pasador de ventas
 por el momento cargar el idpedido cuando paso una venta para que tome
@@ -589,6 +621,7 @@ el dato de pedido entregado. Y pasar manualmente los pedidos anulados.
 *** TODO Resumen por promotor con un listado de todos los datos y su resultado
 coloreado por tipo de resultado, azul entregado, verde seven y rojo
 rechazado y blanco pendiente, sumable o con resumen.
+
 
 
 * tab seven
