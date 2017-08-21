@@ -631,6 +631,24 @@ de fossil.
 CLOCK: [2017-08-21 lun 12:14]--[2017-08-21 lun 12:24] =>  0:10
 agregado boton de recalculado. 
 
+*** DONE Botones dinamicos de num de promotor en el mostrador de pedidos
+CLOCK: [2017-08-21 lun 18:41]--[2017-08-21 lun 19:47] =>  1:06
+estaria bueno para agilizar la muestra un set de botones en segunda
+fila de los numeros de promotores activos
+Se hizo un update provisorio de limpiado del promotor inactivo en
+forma automatica para el que no presente venta en los ultimos 35 dias,
+mas alla de que podamos sacar antes alguno a mano, pq esto saca no
+pone.
+y genero los botones en forma automatica.
+evito el problema del nominado de los botones, pq no los nomino solo
+los asigno con un comando dinamico y una funcion q le va tomando el
+numero de promotor como argumento.
+Y luego una funcion simple que solo invoca el boton que tenemos
+naturalmente.
+O sea solo reuso lo que esta.
+agregue tambien balloon con nombre del promotor cuando pasas el raton
+por el boton, para aprenderse los nombres de los promotores.
+
 *** TODO Pedidos entregados. Corregir el programa pasador de ventas
 por el momento cargar el idpedido cuando paso una venta para que tome
 el dato de pedido entregado. Y pasar manualmente los pedidos anulados.
