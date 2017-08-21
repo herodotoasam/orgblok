@@ -1,0 +1,32 @@
+* Notas sobre instalacion de ubuntu-budgie
+** no lectura de usb
+se soluciono solo cuando hacemos sudo apt update.
+debe ser algo desfasado, pero se soluciona solo.
+** mala experiencia con volumen encriptado en esta notebook
+no arrancaba sola, necesitaba un control/alt/delete lo cual me parecia
+un poco inseguro pq le podia hacer mal al hardware a la larga
+tampoco fue bueno encriptar la carpeta personal, pq tiraba errores en
+el arranca y lo enlentecia demas.
+** para que tome la cuenta de google
+hay que autorizar desde google el uso de software de terceros, y eso
+permitira sincronizar calendarios y demas.
+
+
+
+* Emacs
+
+** lo unico que falta instalar
+con Mx package-install
+1. org-bullets
+2. ido-vertical-mode
+
+** ColorScheme usado: leuven
+que se instala desde Mx list-packages y ahi lo elijo e instalo y luego
+para que los colorscheme queden pongo save colorscheme.
+
+** arregle la persistencia de la sesion anterior y de los archivos recientes
+#+BEGIN_EXAMPLE
+(desktop-save-mode 1)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+#+END_EXAMPLE
