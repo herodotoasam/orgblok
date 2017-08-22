@@ -1329,5 +1329,19 @@ o sea el tablelist de la tabla llamar con link a las cuentas.
 ** Posibilidad de llenado del registro de llamado en el momento en que se esta haciendo el llamado
 ** visualizacion del historial de llamados en la ficha del cliente.
 * TODO Temas generales
-** TODO scroll para tablelist
-
+** DONE scroll para tablelist
+CLOCK: [2017-08-22 mar 20:07]--[2017-08-22 mar 20:49] =>  0:42
+empiezo a ver si puedo resolver esto pq es un tema problematico en el
+dia a dia.
+Ya esta resuelto.
+Se hizo como una condicion con un parametro, como el titulo del
+tablelist, y se hace con un doble packeado que no le hace nada
+aparentemente.
+O sea se lo packea dentro de la clase y luego en el uso de la
+instancia.
+Seria facil hacer un scroll vertical copiando todo, pero no veo que
+sea muy necesario pq el tbls corre bien verticalemente, pero
+pobremente horizontalmente, y necesita un scroll horizontal.
+Y se puede usar el no temeado pero no es muy lindo que digamos.
+** TODO agregarle scroll-horizontal a todos los tbls que necesitan
+** TODO programar en el xmodmap las teclas mayor y menor
