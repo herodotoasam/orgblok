@@ -649,7 +649,21 @@ O sea solo reuso lo que esta.
 agregue tambien balloon con nombre del promotor cuando pasas el raton
 por el boton, para aprenderse los nombres de los promotores.
 
-*** TODO Pedidos entregados. Corregir el programa pasador de ventas
+*** DONE el subtab Pedidos(st2) pasarlo a tercer lugar
+CLOCK: [2017-08-23 mié 20:54]--[2017-08-23 mié 22:15] =>  1:21
+y por en el medio otro general de todos los datos para impresion y el
+de los promotores que solo contenga los clientes o sea que sea fiel
+reflejo de la planilla de cada promotor, sino es un despelote.
+incluso para imprimir podria ser para ayudarme que cada dia fuera
+coloreado diferente en los pendientes.
+Termine la parte de poner aparte el trabajo de los promotores.
+queda ahora el tema impresion
+Terminada la st2 con la impresion separada de la st3 que esta
+destinada a la vision de promotores.
+Solo falto si queremos despues la separacion por colores de acuerdo a
+dias. 
+
+*** DONE Pedidos entregados. Corregir el programa pasador de ventas
 por el momento cargar el idpedido cuando paso una venta para que tome
 el dato de pedido entregado. Y pasar manualmente los pedidos anulados.
 
@@ -1345,3 +1359,8 @@ pobremente horizontalmente, y necesita un scroll horizontal.
 Y se puede usar el no temeado pero no es muy lindo que digamos.
 ** TODO agregarle scroll-horizontal a todos los tbls que necesitan
 ** TODO programar en el xmodmap las teclas mayor y menor
+** TODO stripebg en tbls que cambie por fecha
+p.e. en tbls de pedidos a imprimir seria util que visualmente se
+vieran coloreados los diferentes dias con distintos colores. No creo
+que sea dificil lograrlo.
+
