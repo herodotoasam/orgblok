@@ -667,6 +667,10 @@ dias.
 por el momento cargar el idpedido cuando paso una venta para que tome
 el dato de pedido entregado. Y pasar manualmente los pedidos anulados.
 
+*** DONE Cambio los campos visibles en el visor de pedidos
+CLOCK: [2017-08-24 jue 21:20]--[2017-08-24 jue 21:33] =>  0:13
+agrego calle,num y zona
+
 *** TODO Resumen por promotor con un listado de todos los datos y su resultado
 coloreado por tipo de resultado, azul entregado, verde seven y rojo
 rechazado y blanco pendiente, sumable o con resumen.
@@ -1363,4 +1367,8 @@ Y se puede usar el no temeado pero no es muy lindo que digamos.
 p.e. en tbls de pedidos a imprimir seria util que visualmente se
 vieran coloreados los diferentes dias con distintos colores. No creo
 que sea dificil lograrlo.
-
+** DONE freezado de columna para el tablelist
+aca lo use en el tbls editar para que en especial la tabla cobr me
+quede fijo el idcobr cuando edito otros datos.
+busque la propiedad mucho pq no me acordaba, aunque sabia que existia
+era titlecolumns=numcol que queremos freezar, o sea muy facil
