@@ -675,7 +675,25 @@ agrego calle,num y zona
 coloreado por tipo de resultado, azul entregado, verde seven y rojo
 rechazado y blanco pendiente, sumable o con resumen.
 
-
+** TODO mejorar pasado de cliente nuevo en pedido combobox y numero
+CLOCK: [2017-08-25 vie 21:15]--[2017-08-25 vie 22:14] =>  0:59
+CLOCK: [2017-08-25 vie 20:00]--[2017-08-25 vie 21:14] =>  1:14
+ya es muy antiergonomico el tener que pasar todo con esos combobox,
+busco otra solucion.
+una hora catorce perdida en la experimentacion stasheada de combobox
+autocomplete que no es aplicable pq le falta mucho para que sea usable
+como p.e. que se pueda asignar valor al entrar.
+*** Solucion Bwidget
+lucen bien, y el autocomplete funciona joya, le puse como agregado la
+funcion setvalues para que carge la configure(-values=) y sea igual a
+lo que ya tengo.
+Me faltaria tunearle lo de lo indistinto en mayusculas minusculas.
+Y falta pulir algunos comportamientos pero creo que es mas funcional
+que el pain que venia sufriendo con esto otro que no funcionaba.
+*** No descartemos la funcionalidad del combobox_autocomplete para buscar
+en un cuadrito de busqueda tipo fts para calles u otros campos que
+pueden ser utiles en algunos contextos rapidos.
+*** Nada es perdido de todo se aprende
 
 * tab seven
 CLOCK: [2016-10-29 sáb 19:09]--[2016-10-29 sáb 19:16] =>  0:07
