@@ -1390,3 +1390,56 @@ aca lo use en el tbls editar para que en especial la tabla cobr me
 quede fijo el idcobr cuando edito otros datos.
 busque la propiedad mucho pq no me acordaba, aunque sabia que existia
 era titlecolumns=numcol que queremos freezar, o sea muy facil
+* bugs
+** problema database locked
+CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
+CLOCK: [2017-08-27 dom 21:03]--[2017-08-27 dom 23:03] =>  2:00
+aparecio de golpe no dejando escribir en la base de datos esta mañana
+cuando programaba la pestaña de pasado de datos de promotores.
+busque una solucion de recupero y pude seguir trabajando alli, pase
+promotores y demas.
+
+luego detecte que no funcionaban bien los combobox bwidget y que la
+parte clientes de la pestaña pedidos no cargaba dni y clientes y que
+no se podia pasar clientes.
+
+primero me decia que el dni violaba la condicion de unique, y luego al
+poner otro dni totalmente imposible que fuera, salia con lo de la
+database locked.
+
+pense que tener el seteo de los bwidget dentro del bwidget.py podria
+hacer que la base de datos trabajara de mas, incluso vi un delay la
+primera vez que se accedia a un combobox, entonces saque la funcion o
+metodo set dentro de bwiget.py y puse en cada lugar el seteo a mano
+con el correspondiente busqueda del indice.
+
+Luego unifique las listas de calles, zonas, y barrios que son usadas
+siempre al comienzo de la aplicacion y que los combos la tomen de ahi,
+y no las genero a cada rato
+
+aparentemente los combos funcionan bien y cargan bien.aunque creo que
+en la pestaña pedidos sigue el delay en la primera busqueda.
+
+y sigue sin cargar dni y nombre
+
+y no se puede pasar un cliente nuevo pq te da database locked.
+
+Si se puede usar en carga de datos de otras tablas.
+pero cuando quiero cargar un cliente aparece ese error y eso bloquea
+la base, cierro el programa y queda bloqueada y nada la desbloquea
+
+habria que descubrir que cambio hice este fin de semana que altero
+tanto que el dni sea no unique, que cuando pase la venta no hizo clear
+de dni y nombre, y no cargue dni y nombre o sea tiene problema con
+esos dos campos.
+
+Solucionado:
+Era que el st4 en el mismo metodo, tenia una colision de nombres, pq
+compartian el mismo nombre el formulario de pasado de promotores, dni
+y nombre de ahi el error. POr eso no cargaba y por eso andaba mal
+todo.
+Y la base de lockeaba justamente pq se cometia un error de
+inconsistencia y se cerraba el programa sin desconectar, lo cual nunca
+me ocurre pq todas las transacciones son consistentes.
+
+

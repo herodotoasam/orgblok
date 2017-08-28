@@ -12,3 +12,153 @@
 :ID:       66d82183-6d35-4140-8324-38ad3da4276e
 :ARCHIVED_AT: [[file:/home/hero/orgblok/data/66/d82183-6d35-4140-8324-38ad3da4276e/2016-11-06T19:48:22Z/][2016-11-06T19:48:22Z]]
 :END:
+* sqlite varios
+** usar like en vez de = para evitar errores
+tengo un campo numerico para una condicion 1 o 0
+y resulta que no se porque a veces la edito por tablelist y me la pone
+'1' y no 1, y si la condicion esta campo=1 no me lo toma, en cambio si
+la condicion esta campo like 1 o campo like '1' es igual, en ambos
+casos me lo toma a todo o sea a los que estan como 1 y los que estan
+como '1'.
+* database locked - problema sqlite3
+no se porque me aparecio la base de datos bloqueda y quise
+solucionarla sin tener que apelar al backup.
+Funcionaba para select, funcionaba para pragma integrity check pero no
+para vacuum ni para ningun movimiento dentro de la base.
+Lo que hice fue dentro de sqlite en una terminal
+.clone newrx.db y luego esa newrx la renombre como romitex.db y anduvo
+perfecto
+En las paginas de internet figuraba la solucion via .dump pero el dump
+lo que hace es sacar como secuencia sql lo cual es un pain.
+* bwidget
+** usar minusculas en la busqueda -nocase
+editar el /usr/share/tcltk/bwidget1.9.10/combobox.tcl
+linea 877 agregar -nocase
+#+BEGIN_EXAMPLE
+set x [lsearch -nocase $values $text*]
+#+END_EXAMPLE
+** tuneados varios a bwidget.py
+agregados varios a un bwidget que esta incluido en git o sea no hay
+problema de perder esos cambios.
+
+agregamos funcion clear para hacer compatible
+#+BEGIN_EXAMPLE
+ def clear(self):
+        return self.tk.call(self._w, "clearvalue")
+#+END_EXAMPLE
+agregamos funcion setvalues para hacer compatible
+#+BEGIN_EXAMPLE
+def setvalues(self,values):
+        self.configure(values=values,autocomplete=1)
+#+END_EXAMPLE
+agregamos funcion set para hacer compatible
+#+BEGIN_EXAMPLE
+    def set(self,value):
+        lista = self.cget('values')
+        ix = lista.index(value)
+        self.setvalue('@'+str(ix))
+#+END_EXAMPLE
+** imposibilidad de hacer funcionar un bind a Return
+luego de perder mas o menos hora y media tratando de meter un bind a
+<Return> dentro de las entrañas de bwidget no funciona, incluso no
+aparece como bindeado, pero no creo que cause problema, pq se puede
+acostumbrar uno facilmente al paso a traves en forma de tab.
+* tablelist
+** freezar columnas
+para freezar columnas se usa la propiedad titlecolumns en el Tbls
+#+BEGIN_EXAMPLE
+tbleditar=Tbls(self.p4,con,width=160,height=36,scrollhor=1,titlecolumns=1)
+#+END_EXAMPLE
+ahi se pone la cantidad de columnas que se quiere freezar.
+* git
+** stash/unstash changes
+puede ser visto como guardar cambios momentaneos o que estamos
+realizando y volver al estado original del ultimo commit. Me paso que
+me habia olvidado de hacer pull ultimo commit de oficina y me largue a
+hacer cambios y para evitar hacer merge los stashee e hice el pull,
+luego los unstashee y listo en un segundo.
+** branches
+son ramas que uno puede hacer incluso subir al servidor para que uno
+desarrolle ideas que puedan ser luego descartadas y cuando este uno
+seguro hace merge o sea lo uno a la rama principal.
+** push/pull
+push es subir cambios a la central y pull y es traer los cambios a la
+maquina de uno.
+** stash
+git stash
+guardado rapido del trabajo en la pila
+git stash list
+veo los distintos guardados
+git stash apply
+aplica el ultimo stash a la rama activa
+** merge 
+git checkout master
+con esto me voy a la rama original 
+git merge rama-mergeada
+y con esto queda incorporada lo mergeado a lo original
+y meto luego con un commit si hace falta
+con emacs corrigo los problemas de merge que surjan
+
+* redes 
+* instalacion de ubuntu nueva
+** instalacion de tcl
+** instalacion de python
+* emacs (instalacion)
+** .emacs
+lo inclui con git en orgblock pero hay que actualizarlo a mano de vez
+en cuando.
+** archivos recientes y guardado de desktop
+#+BEGIN_EXAMPLE
+(desktop-save-mode 1)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+#+END_EXAMPLE
+** instalar los modulos faltantes
+org-bullets
+ido-vertical-mode
+con M-x package-install
+** instalar magit 
+para manejar git dentro de emacs
+#+BEGIN_EXAMPLE
+(global-set-key (kbd "C-x g") 'magit-status)
+#+END_EXAMPLE
+** amazaing colorscheme
+instalar el colorscheme leuven que esta superbueno
+** ag
+siguiendo instrucciones de la documentacion
+se instala el bin con apt install silver-ag o algo asi
+y luego en melpa con M-x package install ag
+y listo
+* python virtualenv/elpy
+python3 -m venv /path/to/new/virtual/environment
+M-x elpy
+M-x elpy-config
+M-x pyvenv-activate[[https://elpy.readthedocs.io/en/latest/ide.html][
+pagina documentacion de elpy]]
+M-x company-mode enable
+(add-hook 'after-init-hook 'global-company-mode) en .emacs para
+tenerlo activado para todos los buffers al comienzo
+
+
+* emacs basicos
+** busqueda de texto - search
+C-s/ C-r
+** occur
+ag y pide el string a buscar
+luego el directorio y da la ventana de busqueM-s o y luego te pide la
+regexp para buscar (dandote una opcion a veces por default) y te
+muestra todas las ocurrencias de esa cadena (parecido a ag) pero en el
+mismo archivo, creo que tiene mas opciones para estudiar luego. las
+opciones quedan en un buffer o sea que es regrosso.
+
+** evaluar fichero Python
+Cc-Cl
+pide el nombre del fichero y solo con poner f-tab ya accedo a fichaje
+asi que es muy rapido
+eso si solo admite tener un solo proceso, asi que antes de lanzar uno
+cerrar el anterior.
+
+** borrar palabra
+ M-d te borra la palabra siguiente lo cual es muy eficiente, y con
+ control retroceso te borra la ultima palabra.
+
