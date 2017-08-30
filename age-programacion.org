@@ -1365,6 +1365,11 @@ o sea el tablelist de la tabla llamar con link a las cuentas.
 ** Posibilidad de llenado del registro de llamado en el momento en que se esta haciendo el llamado
 ** visualizacion del historial de llamados en la ficha del cliente.
 * TODO tab PasarVentas [nuevo]
+Esto es todo un proceso nuevo de pasado de ventas que reune en una
+sola integralidad o unidad todo un numero de tareas e inteligencias
+que uno las veia por separado y ahora uno las va a pensar en forma
+global en un solo lugar.
+
 ** TODO subtab pasado propiamente dicho
 CLOCK: [2017-08-28 lun 20:43]--[2017-08-28 lun 21:32] =>  0:49
 CLOCK: [2017-08-28 lun 19:39]--[2017-08-28 lun 20:17] =>  0:38
@@ -1379,7 +1384,21 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-08-29 mar 18:56]--[2017-08-29 mar 21:01] =>  2:05
 se incluyen dni firmante-nombre y relacion
+Me cago en los comboboxs, no sirven ninguno de los dos.
+el bwidget que parece que funcionara bien no lo hace pq no pasa con en
+enter y eso ralentiza el pasado de datos a velocidad, (si bien hay que
+tener en cuenta que esto es una notebook y yo paso en una compu).
+y el ttkcombobox es un pain. pq lo mismo no sirve pq el autocompletado
+no reacciona y te hace cometer errores.
+No funciona como en tcl.
+Por lo menos hice la primera parte del guardado en la base venta,
+faltaria el detalle de venta, y luego el pasado en la tabla pagos,
+creo que para el fin de semana tendria que tenerla pulida, lo cual
+estaria bien, por ser una de las grosas, luego seguiria el pasado de
+recibos y luego el de caja como los tres grandes.
+
 *** TODO proceso de firmantes
 incluir en tabVer la info de los firmantes y en pasar ventas que al
 poner el dni se chequee los datos
@@ -1393,6 +1412,18 @@ de control para el control de la planilla que me pasa fede
 o sea un editado de clientes secundario
 *** TODO proceso de pasado del detalle de venta
 con facilidad de ver la suma de lo que se va pasando y lo que falta 
+*** TODO pendiente el tema campo anticipo 
+para la generalidad de vender con anticipo y como se procesa eso en
+los otros procesos de la empresa
+*** TODO pasado de ventas stand alone
+pq no voy a poner todo el F7 atras para que la chica pase tendria que
+estar solo como programa aparte
+con herramientas de verificacion para poder controlar comoda y
+exhaustivamente todo lo que se paso.
+*** TODO cuadro para el testeo y agregado de calles nuevas
+que es un tema cuando se pasan ventas nuevas a menudo
+
+
 
 ** TODO st2 visor de pasado de ventas
 ver si puedo ordenarlo por fecha de pasado no por fecha de venta que
