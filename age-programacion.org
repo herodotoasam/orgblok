@@ -1,63 +1,78 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2016-12-11 dom 20:32]
-| Headline                                       |      Time |         |
-|------------------------------------------------+-----------+---------|
-| *Total time*                                   | *2d 8:28* |         |
-|------------------------------------------------+-----------+---------|
-| Tab pedidos                                    |   1d 8:57 |         |
-| \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
-| \emsp DONE bosquejamos el pasado de pedido     |           |    1:41 |
-| \emsp DONE agregando posibilidad de carga...   |           |    1:00 |
-| \emsp DONE parte logica - guardado del pedido  |           |    0:32 |
-| \emsp DONE poner la linea check anulado/...    |           |    0:30 |
-| \emsp nuevas ideas                             |           | 1d 1:35 |
-| \emsp DONE poner infoseven en datos de...      |           |    0:11 |
-| \emsp DONE revisar porque cuando se pasa un... |           |    0:14 |
-| \emsp DONE arreglar el verpedidos de tabver... |           |    0:05 |
-| \emsp DONE mejorar aun mas combobox nuevos     |           |    0:28 |
-| tab seven                                      |      0:51 |         |
-| tabVentas                                      |      1:31 |         |
-| \emsp verificacion bug                         |           |    0:41 |
-| \emsp DONE borrado de quieren comprar          |           |    0:50 |
-| tabFichas                                      |      1:11 |         |
-| \emsp DONE Imprimir listado desde Todos o Mora |           |    0:19 |
-| \emsp DONE Poner zonas elva y monica en...     |           |    0:05 |
-| \emsp DONE Revisar los criterios de...         |           |    0:20 |
-| \emsp DONE Posibilidad de intimar...           |           |    0:09 |
-| \emsp DONE Emision de un resumen de...         |           |    0:18 |
-| tabVer                                         |      6:24 |         |
-| \emsp DONE posibilidad de condonar             |           |    1:09 |
-| \emsp DONE que el tab-ver sirva tambien...     |           |    1:57 |
-| \emsp DONE poner el tbl de art comprado a...   |           |    0:47 |
-| \emsp TODO hacer un subtab que se vean las...  |           |    0:53 |
-| \emsp DONE info verificacion seven             |           |    0:16 |
-| \emsp DONE Historial de pedidos                |           |    0:35 |
-| Bug reaparece                                  |      2:20 |         |
-| \emsp tabFechar                                |           |    0:46 |
-| \emsp reviso con pycharm lado a lado           |           |    1:34 |
-| tab-Doc                                        |      1:23 |         |
-| \emsp DONE Marcar doc como llevado a...        |           |    1:23 |
-| TODO Generales                                 |      1:16 |         |
-| \emsp TODO campos entry mas diferenciados o... |           |    0:21 |
-| \emsp TODO ver la forma de que el...           |           |    0:55 |
-| TODO Modulos futuros                           |      2:44 |         |
-| \emsp TODO modulo de devoluciones de articulos |           |    2:44 |
-| DONE tabVer accesible desde todo el...         |      0:29 |         |
-| \emsp DONE interconexion en tabver idem a...   |           |    0:08 |
-| DONE chequear posibles bugs                    |      0:05 |         |
-| \emsp DONE tab order en pasado de pedidos...   |           |    0:03 |
-| \emsp DONE que paso, se achicaron los...       |           |    0:02 |
-| TODO improvs                                   |      0:21 |         |
-| \emsp DONE linkear desde fichas a fechar...    |           |    0:21 |
-| DONE tabCobrado                                |      1:51 |         |
-| \emsp DONE pivot por cobrar                    |           |    1:18 |
-| \emsp DONE generalizar la disposicion para...  |           |    0:13 |
-| \emsp DONE agregar a tabla virtual cuotas...   |           |    0:20 |
-| DONE Sumador                                   |      1:24 |         |
-| TODO tabSeven                                  |      1:05 |         |
-| \emsp DONE Sistema de baja del seven           |           |    1:05 |
-| DONE tema combobox                             |      0:36 |         |
+#+CAPTION: Clock summary at [2017-08-31 jue 23:37]
+| Headline                                       |       Time |         |
+|------------------------------------------------+------------+---------|
+| *Total time*                                   | *3d 11:44* |         |
+|------------------------------------------------+------------+---------|
+| Tab pedidos                                    |   1d 21:08 |         |
+| \emsp DONE haciendo subtab pasar clientes...   |            |    1:16 |
+| \emsp DONE bosquejamos el pasado de pedido     |            |    1:41 |
+| \emsp DONE agregando posibilidad de carga...   |            |    1:00 |
+| \emsp DONE parte logica - guardado del pedido  |            |    0:32 |
+| \emsp DONE poner la linea check anulado/...    |            |    0:30 |
+| \emsp nuevas ideas                             |            | 1d 1:35 |
+| \emsp DONE poner infoseven en datos de...      |            |    0:11 |
+| \emsp DONE revisar porque cuando se pasa un... |            |    0:14 |
+| \emsp DONE arreglar el verpedidos de tabver... |            |    0:05 |
+| \emsp DONE mejorar aun mas combobox nuevos     |            |    0:28 |
+| \emsp DONE mejoras en la rapidez del pasado... |            |    2:01 |
+| \emsp DONE mejoras en el documento             |            |    1:01 |
+| \emsp TODO tablero informativo promotores 2018 |            |    6:56 |
+| \emsp TODO mejorar pasado de cliente nuevo...  |            |    2:13 |
+| tab seven                                      |       0:51 |         |
+| tabVentas                                      |       1:31 |         |
+| \emsp verificacion bug                         |            |    0:41 |
+| \emsp DONE borrado de quieren comprar          |            |    0:50 |
+| tabFichas                                      |       1:11 |         |
+| \emsp DONE Imprimir listado desde Todos o Mora |            |    0:19 |
+| \emsp DONE Poner zonas elva y monica en...     |            |    0:05 |
+| \emsp DONE Revisar los criterios de...         |            |    0:20 |
+| \emsp DONE Posibilidad de intimar...           |            |    0:09 |
+| \emsp DONE Emision de un resumen de...         |            |    0:18 |
+| tabVer                                         |       6:24 |         |
+| \emsp DONE posibilidad de condonar             |            |    1:09 |
+| \emsp DONE que el tab-ver sirva tambien...     |            |    1:57 |
+| \emsp DONE poner el tbl de art comprado a...   |            |    0:47 |
+| \emsp TODO hacer un subtab que se vean las...  |            |    0:53 |
+| \emsp DONE info verificacion seven             |            |    0:16 |
+| \emsp DONE Historial de pedidos                |            |    0:35 |
+| Bug reaparece                                  |       2:20 |         |
+| \emsp tabFechar                                |            |    0:46 |
+| \emsp reviso con pycharm lado a lado           |            |    1:34 |
+| tab-Doc                                        |       1:23 |         |
+| \emsp DONE Marcar doc como llevado a...        |            |    1:23 |
+| TODO Generales                                 |       1:16 |         |
+| \emsp TODO campos entry mas diferenciados o... |            |    0:21 |
+| \emsp TODO ver la forma de que el...           |            |    0:55 |
+| TODO Modulos futuros                           |       2:44 |         |
+| \emsp TODO modulo de devoluciones de articulos |            |    2:44 |
+| DONE tabVer accesible desde todo el...         |       0:29 |         |
+| \emsp DONE interconexion en tabver idem a...   |            |    0:08 |
+| DONE chequear posibles bugs                    |       0:05 |         |
+| \emsp DONE tab order en pasado de pedidos...   |            |    0:03 |
+| \emsp DONE que paso, se achicaron los...       |            |    0:02 |
+| TODO improvs                                   |       0:21 |         |
+| \emsp DONE linkear desde fichas a fechar...    |            |    0:21 |
+| DONE tabCobrado                                |       1:51 |         |
+| \emsp DONE pivot por cobrar                    |            |    1:18 |
+| \emsp DONE generalizar la disposicion para...  |            |    0:13 |
+| \emsp DONE agregar a tabla virtual cuotas...   |            |    0:20 |
+| DONE Sumador                                   |       1:24 |         |
+| TODO tabSeven                                  |       1:05 |         |
+| \emsp DONE Sistema de baja del seven           |            |    1:05 |
+| DONE tema combobox                             |       0:36 |         |
+| DONE bug tabVer                                |       0:29 |         |
+| DONE bug tab Visitar:                          |       0:28 |         |
+| DONE bug de los dos articulos en tab...        |       0:39 |         |
+| TODO sistema de atencion telefonica            |       1:27 |         |
+| \emsp al marcar llamar en fechar guardar en... |            |    1:27 |
+| TODO tab PasarVentas [nuevo]                   |       7:20 |         |
+| \emsp TODO subtab pasado propiamente dicho     |            |    7:20 |
+| TODO Temas generales                           |       0:42 |         |
+| \emsp DONE scroll para tablelist               |            |    0:42 |
+| bugs                                           |       4:00 |         |
+| \emsp problema database locked                 |            |    4:00 |
 #+END:
 
 * Tab pedidos                                                       :urgente:
@@ -1384,6 +1399,8 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-08-31 jue 20:07]--[2017-08-31 jue 20:55] =>  0:48
+CLOCK: [2017-08-30 mié 18:34]--[2017-08-30 mié 20:34] =>  2:00
 CLOCK: [2017-08-29 mar 18:56]--[2017-08-29 mar 21:01] =>  2:05
 se incluyen dni firmante-nombre y relacion
 Me cago en los comboboxs, no sirven ninguno de los dos.
@@ -1398,6 +1415,42 @@ faltaria el detalle de venta, y luego el pasado en la tabla pagos,
 creo que para el fin de semana tendria que tenerla pulida, lo cual
 estaria bien, por ser una de las grosas, luego seguiria el pasado de
 recibos y luego el de caja como los tres grandes.
+
+Se hizo todo el guardado de la venta y la emision del numero de venta,
+y el guardado del detalle de venta.
+Falta muchisimo pulir en la seguridad de los detalles y de los datos,
+para que tenga consistencia, pero hacia alla vamos, no vamos a dejar
+ahora.
+**** excurso Pmw-combobox
+CLOCK: [2017-08-31 jue 22:28]--[2017-08-31 jue 23:28] =>  1:00
+no estoy disconforme del todo puede ser tuneado luego con respecto a
+la apariencia, pero lo bueno que funciona con teclas de direccion y se
+podria acomodar con frecuencia de uso para el articulo puede ser mas
+util que poner codigo incluso para un novato/ o sea no debo obligar a
+usar codigo y puede que no sea riesgoso equivocar el uso de los
+articulos.
+**** como agregado me pone un callback con mensaje tipo tcl de errores
+lo cual no viene mal, dentro de la aplicacion, pq no te deja tan en
+bolas.
+p.e. foreing key / database locked, etc.
+**** resultado del uso del pmw-combobox en el articulo
+1. el metodo clear no va pq borra la lista directamente y lo deja
+   vacio
+2. se pudo aplicar un ordenamiento por lo vendido los ultimos 1000
+   ventas, logrando que se vean los resultados mas relevantes arriba
+3. se ve el codigo y el articulo, el codigo resalta o hace mas segura
+   la eleccion
+4. es comodo elegir con el raton desplegando el combo para el empleado
+**** futuro de Pmw
+creo que tiene futuro, pq al ser algo de python se integra muy bien
+con dos lineas de codigo y se instala en un segundo, con pip3 install
+pmw.
+Me parece que voy a encarar en el futuro por ahi para tunearlo.
+*** TODO venta preprocesada de pedido unitario
+se podria ganar muchisimo tiempo si el numero de pedido no solo
+cargara el cliente sino tambien cargara detalle de venta el articulo,
+ya listo para dar el teclazo al guardar item, o sea que con dos
+botones pasamos la venta. 
 
 *** TODO proceso de firmantes
 incluir en tabVer la info de los firmantes y en pasar ventas que al
