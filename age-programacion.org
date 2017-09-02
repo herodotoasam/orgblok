@@ -690,6 +690,10 @@ agrego calle,num y zona
 coloreado por tipo de resultado, azul entregado, verde seven y rojo
 rechazado y blanco pendiente, sumable o con resumen.
 
+*** TODO tabla de meses o campañas de promotores, comienzo y final y resultado
+para que se pueda hacer estadistica y reconstruir las planillas y los
+pagos
+
 ** TODO mejorar pasado de cliente nuevo en pedido combobox y numero
 CLOCK: [2017-08-25 vie 21:15]--[2017-08-25 vie 22:14] =>  0:59
 CLOCK: [2017-08-25 vie 20:00]--[2017-08-25 vie 21:14] =>  1:14
@@ -1399,6 +1403,8 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-09-02 sáb 15:59]--[2017-09-02 sáb 17:45] =>  1:46
+CLOCK: [2017-09-02 sáb 13:45]--[2017-09-02 sáb 14:33] =>  0:48
 CLOCK: [2017-08-31 jue 20:07]--[2017-08-31 jue 20:55] =>  0:48
 CLOCK: [2017-08-30 mié 18:34]--[2017-08-30 mié 20:34] =>  2:00
 CLOCK: [2017-08-29 mar 18:56]--[2017-08-29 mar 21:01] =>  2:05
@@ -1446,12 +1452,28 @@ creo que tiene futuro, pq al ser algo de python se integra muy bien
 con dos lineas de codigo y se instala en un segundo, con pip3 install
 pmw.
 Me parece que voy a encarar en el futuro por ahi para tunearlo.
-*** TODO venta preprocesada de pedido unitario
+**** uso del pmw-combobox
+CLOCK: [2017-09-02 sáb 10:32]--[2017-09-02 sáb 11:40] =>  1:08
+tiene un metodo selectitem() que permite asignarle un item (o sea como
+seria nuestro metodo set, que no hace falta que sea como en bwidget
+buscandole el index, sino que le podemos mandar el valor directamente
+y el trabajo lo hace el.
+
+*** DONE venta preprocesada de pedido unitario
 se podria ganar muchisimo tiempo si el numero de pedido no solo
 cargara el cliente sino tambien cargara detalle de venta el articulo,
 ya listo para dar el teclazo al guardar item, o sea que con dos
-botones pasamos la venta. 
+botones pasamos la venta.
 
+*** DONE asegurar que no se pueda procesar mal una venta
+CLOCK: [2017-09-02 sáb 16:45]--[2017-09-02 sáb 17:46] =>  1:01
+o sea que no haya la chance de procesar un item sin numero de venta
+por ejemplo.
+Se aseguro que si se pone mal un numero de pedido sale un balloon y se
+bloquea para poder poner un cliente.
+se pone por defecto entrega 0 para no dar problemas futuros en los
+calculos. y en el levantamiento del pedido se pone tambien por default
+la fecha de la primer cuota.
 *** TODO proceso de firmantes
 incluir en tabVer la info de los firmantes y en pasar ventas que al
 poner el dni se chequee los datos
@@ -1502,10 +1524,13 @@ pobremente horizontalmente, y necesita un scroll horizontal.
 Y se puede usar el no temeado pero no es muy lindo que digamos.
 ** TODO agregarle scroll-horizontal a todos los tbls que necesitan
 ** TODO programar en el xmodmap las teclas mayor y menor
-** TODO stripebg en tbls que cambie por fecha
+** DONE stripebg en tbls que cambie por fecha
+CLOCK: [2017-09-02 sáb 12:05]--[2017-09-02 sáb 12:29] =>  0:24
 p.e. en tbls de pedidos a imprimir seria util que visualmente se
 vieran coloreados los diferentes dias con distintos colores. No creo
 que sea dificil lograrlo.
+Se hizo para la pestaña pedidos a imprimir, bastante facilmente.
+
 ** DONE freezado de columna para el tablelist
 aca lo use en el tbls editar para que en especial la tabla cobr me
 quede fijo el idcobr cuando edito otros datos.
