@@ -162,3 +162,8 @@ cerrar el anterior.
  M-d te borra la palabra siguiente lo cual es muy eficiente, y con
  control retroceso te borra la ultima palabra.
 
+** theme
+solarized light
+no solo por las fonts en org, sino pq se ve el resaltado cuando voy a
+copiar sino tambien los parentesis.
+

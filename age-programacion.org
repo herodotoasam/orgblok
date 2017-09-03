@@ -1,9 +1,9 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2017-08-31 jue 23:37]
+#+CAPTION: Clock summary at [2017-09-02 sáb 21:45]
 | Headline                                       |       Time |         |
 |------------------------------------------------+------------+---------|
-| *Total time*                                   | *3d 11:44* |         |
+| *Total time*                                   | *3d 19:55* |         |
 |------------------------------------------------+------------+---------|
 | Tab pedidos                                    |   1d 21:08 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |            |    1:16 |
@@ -67,10 +67,11 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | DONE bug de los dos articulos en tab...        |       0:39 |         |
 | TODO sistema de atencion telefonica            |       1:27 |         |
 | \emsp al marcar llamar en fechar guardar en... |            |    1:27 |
-| TODO tab PasarVentas [nuevo]                   |       7:20 |         |
-| \emsp TODO subtab pasado propiamente dicho     |            |    7:20 |
-| TODO Temas generales                           |       0:42 |         |
+| TODO tab PasarVentas [nuevo]                   |      15:07 |         |
+| \emsp TODO subtab pasado propiamente dicho     |            |   15:07 |
+| TODO Temas generales                           |       1:06 |         |
 | \emsp DONE scroll para tablelist               |            |    0:42 |
+| \emsp DONE stripebg en tbls que cambie por...  |            |    0:24 |
 | bugs                                           |       4:00 |         |
 | \emsp problema database locked                 |            |    4:00 |
 #+END:
@@ -1403,6 +1404,7 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-09-03 dom 11:28]--[2017-09-03 dom 12:28] =>  1:00
 CLOCK: [2017-09-02 sáb 15:59]--[2017-09-02 sáb 17:45] =>  1:46
 CLOCK: [2017-09-02 sáb 13:45]--[2017-09-02 sáb 14:33] =>  0:48
 CLOCK: [2017-08-31 jue 20:07]--[2017-08-31 jue 20:55] =>  0:48
@@ -1427,6 +1429,9 @@ y el guardado del detalle de venta.
 Falta muchisimo pulir en la seguridad de los detalles y de los datos,
 para que tenga consistencia, pero hacia alla vamos, no vamos a dejar
 ahora.
+Puse en el sector de pasado de ventas colores diferentes por sector
+logico de pasado para tener mejor vision del formulario.
+
 **** excurso Pmw-combobox
 CLOCK: [2017-08-31 jue 22:28]--[2017-08-31 jue 23:28] =>  1:00
 no estoy disconforme del todo puede ser tuneado luego con respecto a
@@ -1458,7 +1463,8 @@ tiene un metodo selectitem() que permite asignarle un item (o sea como
 seria nuestro metodo set, que no hace falta que sea como en bwidget
 buscandole el index, sino que le podemos mandar el valor directamente
 y el trabajo lo hace el.
-
+**** TODO falta poner el pasado de lo accesorio de aclaracion/horario etc
+que se llenaria abajo para no ir arriba
 *** DONE venta preprocesada de pedido unitario
 se podria ganar muchisimo tiempo si el numero de pedido no solo
 cargara el cliente sino tambien cargara detalle de venta el articulo,
@@ -1481,8 +1487,22 @@ poner el dni se chequee los datos
 poner que cuando paso una venta se necesita condonacion y condonar
 desde alli mismo
 *** TODO paso de datos de la primer cuota y su recibo
+CLOCK: [2017-09-02 sáb 19:40]--[2017-09-02 sáb 21:43] =>  2:03
 incluso hacer una planilla de caja o que pueda visualizar en el tbls
 de control para el control de la planilla que me pasa fede
+**** TODO Problema del pmovto
+CLOCK: [2017-09-02 sáb 20:43]--[2017-09-02 sáb 21:44] =>  1:01
+no se pq con python tenemos problema para la function en sqlite de
+pmovto.
+esto es algo que viene de hace rato.
+Se podria hacer por trigger.
+Seria cuestion de ser prolijos y transformar los trigger y listo.
+
+ya pasamos uno, en pagosINS y aparentemente funciono bien. Habria que
+ver si hace falta pasar otro. v
+***** TODO arreglar trigger en PagosDEL y Pagos UPD
+en forma similar a lo hecho en PAGOSINS
+
 *** TODO paso reafirmado de horarios aclaraciones y msg cuando paso la venta
 o sea un editado de clientes secundario
 *** TODO proceso de pasado del detalle de venta
@@ -1506,6 +1526,25 @@ puede ser varia.
 que sea editable el tbls
 que a su vez me indique como el verificar en forma facil los que
 necesitan fichas para cobrar rapido
+
+Hice un listado de las ultimas 1000 ventas, pero no me aparece el
+scroll
+pero se ve bien.
+lo mismo con alt--> se va a la ultima columna y viceversa, y con
+control up igual a gg y control down G  o sea que un tablelist gigante
+se navega muy rapido con esas teclas.
+
+*** poner un campo en ventas con una fecha datatimedefault
+
+*** hacer editado de algunos campos editables
+p.e. idvdor, cnt cuotas, importe, etc. ver
+
+*** hacer borrado
+para no tener que necesitar mas editar ventas de tcl.
+
+** TODO posible st3 visor reducido de cuotas cobradas en el pasado reciente 
+para control rapido del pasado de papeles. 
+
 
 * TODO Temas generales
 ** DONE scroll para tablelist
