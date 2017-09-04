@@ -1404,6 +1404,7 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-09-03 dom 19:40]--[2017-09-03 dom 21:00] =>  1:20
 CLOCK: [2017-09-03 dom 11:28]--[2017-09-03 dom 12:28] =>  1:00
 CLOCK: [2017-09-02 sáb 15:59]--[2017-09-02 sáb 17:45] =>  1:46
 CLOCK: [2017-09-02 sáb 13:45]--[2017-09-02 sáb 14:33] =>  0:48
@@ -1431,6 +1432,12 @@ para que tenga consistencia, pero hacia alla vamos, no vamos a dejar
 ahora.
 Puse en el sector de pasado de ventas colores diferentes por sector
 logico de pasado para tener mejor vision del formulario.
+
+Termine de pulir distintos temas y ya estoy probando todo funciona
+bien salvo el pmovto que no funciona perfecto pq la funcion round de
+sqlite me hace calcular mal y cuando han pagado mas de la mitad de la
+cuota te pone que vence el mes que viene. vamos a trabajar con ella
+para ir viendo y vemos sino no avanzare.
 
 **** excurso Pmw-combobox
 CLOCK: [2017-08-31 jue 22:28]--[2017-08-31 jue 23:28] =>  1:00
