@@ -1487,6 +1487,14 @@ bloquea para poder poner un cliente.
 se pone por defecto entrega 0 para no dar problemas futuros en los
 calculos. y en el levantamiento del pedido se pone tambien por default
 la fecha de la primer cuota.
+
+*** DONE avisos varios con balloon de colores
+CLOCK: [2017-09-04 lun 20:06]--[2017-09-04 lun 21:06] =>  1:00
+los balloons son practicos pq entregan informacion visible en el lugar
+y de color no dejan de ser vistos. 
+se logro un buen avance en ese sentido que dejo un poco obsoleto el
+pedidos pero YA LO PONDREMOS A TONO.
+
 *** TODO proceso de firmantes
 incluir en tabVer la info de los firmantes y en pasar ventas que al
 poner el dni se chequee los datos
