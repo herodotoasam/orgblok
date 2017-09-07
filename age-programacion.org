@@ -570,6 +570,20 @@ CLOCK: [2017-08-19 sáb 19:00]--[2017-08-19 sáb 21:01] =>  2:01
 ponemos valores por defecto a la mayoria de los campos del pedido 
 corrijo bug de no limpiar idcliente al cargar dato nuevo
 nuevo boton para pedido doble del mismo cliente
+*** mejoras en el pasado de DNI que no estan en padron 
+CLOCK: [2017-09-06 mié 19:25]--[2017-09-06 mié 20:25] =>  1:00
+es un pain diario con unos diez o mas datos que uno pasa el dni y
+luego tiene que tipear de nuevo el dni en la pagina del seven y luego
+copiar el nombre, pegar el nombre, y volver a tipear el dni, o sea
+tengo que tipear tres veces el dni.
+Logre que 
+1. tipeo una sola vez el dni. y pasa tambien al campo, y se copia al
+   portapapeles y lo pego directo al campo de seven.
+2. me pone sexo femenino por defecto
+3. me ubica en el campo nombre para pegar de una lo traido del seven
+4. tambien hice una validacion para sexo que me permite poner 1 para
+   femenino y 2 para masculino y que me valida errores.
+Creo que esto mejorara bastante.
 
 ** DONE mejoras en el documento
 CLOCK: [2017-08-19 sáb 22:01]--[2017-08-19 sáb 23:02] =>  1:01
