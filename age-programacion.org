@@ -1574,6 +1574,31 @@ para no tener que necesitar mas editar ventas de tcl.
 ** TODO posible st3 visor reducido de cuotas cobradas en el pasado reciente 
 para control rapido del pasado de papeles. 
 
+** TODO posible pasado remoto
+CLOCK: [2017-09-08 vie 22:51]--[2017-09-08 vie 23:50] =>  0:59
+
+*** TODO ver set_trace_callback()
+bastante exitoso
+#+BEGIN_EXAMPLE
+def tracesqlite(stm):
+    (key,resto) = stm.split(maxsplit=1)
+    if key.lower() in ('insert', 'update','delete'):
+        print(stm)
+        con.execute('insert into pa.smt(smt) values(?)',(stm,))
+        con.commit()
+#+END_EXAMPLE
+que bueno que en la version 3.3 del pysqlite agregaron el trace. Y uno
+sabiendo buscar lo encontro.
+Tambien encontre lindo ese split elegante para sacar la primer palabra
+de una linea. 
+Logrado meter en una tabla con fecha y un campo los stm que luego
+podran ser vistos en un tablelist y ser levantados automaticamente y
+ser incorporados.
+esa tabla me la manda por mail. todos los dias y tenemos el trace alli
+de todo.
+
+**** Ver si a la tabla le podemos poner numero de cuenta en un campo para ver
+eso sera mas facil para controlar rapido
 
 * TODO Temas generales
 ** DONE scroll para tablelist
@@ -1604,6 +1629,14 @@ aca lo use en el tbls editar para que en especial la tabla cobr me
 quede fijo el idcobr cuando edito otros datos.
 busque la propiedad mucho pq no me acordaba, aunque sabia que existia
 era titlecolumns=numcol que queremos freezar, o sea muy facil
+
+** TODO trabajo para solucionar el tema combobox
+CLOCK: [2017-09-08 vie 19:39]--[2017-09-08 vie 21:03] =>  1:24
+tiempo totalmente perdido, no anda el puto cabron combobox ttk con
+autocomplete falla con muchos registros, al final el unico que anda
+bien es el bwidget pero no tiene traverse por medio de enter y eso me
+frena, pero quizas no se pueda hacer otra cosa.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
