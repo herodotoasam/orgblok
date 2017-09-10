@@ -129,6 +129,11 @@ siguiendo instrucciones de la documentacion
 se instala el bin con apt install silver-ag o algo asi
 y luego en melpa con M-x package install ag
 y listo
+** package-install no encuentra package
+package-refresh-contents 
+lee nuevamente las bases de datos de paquetes y soluciona el problema
+que no existen los paquetes.
+
 * python virtualenv/elpy
 python3 -m venv /path/to/new/virtual/environment
 M-x elpy
