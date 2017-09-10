@@ -1406,7 +1406,7 @@ sola integralidad o unidad todo un numero de tareas e inteligencias
 que uno las veia por separado y ahora uno las va a pensar en forma
 global en un solo lugar.
 
-** TODO subtab pasado propiamente dicho
+** DONE subtab pasado propiamente dicho
 CLOCK: [2017-08-28 lun 20:43]--[2017-08-28 lun 21:32] =>  0:49
 CLOCK: [2017-08-28 lun 19:39]--[2017-08-28 lun 20:17] =>  0:38
 reuso el pasado de pedidos y cambiare la parte de abajo
@@ -1420,6 +1420,7 @@ Se agrego una interface muy completa donde se carga lo que contiene el
 pedido y luego se podra cargar la cuota y el recibo, lo cual se
 procesara aparte y los datos de clientes.
 *** TODO guardar venta
+CLOCK: [2017-09-10 dom 15:17]--[2017-09-10 dom 15:47] =>  0:30
 CLOCK: [2017-09-03 dom 19:40]--[2017-09-03 dom 21:00] =>  1:20
 CLOCK: [2017-09-03 dom 11:28]--[2017-09-03 dom 12:28] =>  1:00
 CLOCK: [2017-09-02 sáb 15:59]--[2017-09-02 sáb 17:45] =>  1:46
@@ -1486,8 +1487,11 @@ tiene un metodo selectitem() que permite asignarle un item (o sea como
 seria nuestro metodo set, que no hace falta que sea como en bwidget
 buscandole el index, sino que le podemos mandar el valor directamente
 y el trabajo lo hace el.
-**** TODO falta poner el pasado de lo accesorio de aclaracion/horario etc
+**** DONE falta poner el pasado de lo accesorio de aclaracion/horario etc
 que se llenaria abajo para no ir arriba
+se aborta pq no hace falta pq ya tenemos arriba el cliente que se
+puede editar a voluntad, no hace falta tener abajo los campos
+repetidos, da a confusion
 *** DONE venta preprocesada de pedido unitario
 se podria ganar muchisimo tiempo si el numero de pedido no solo
 cargara el cliente sino tambien cargara detalle de venta el articulo,
@@ -1548,10 +1552,14 @@ con herramientas de verificacion para poder controlar comoda y
 exhaustivamente todo lo que se paso.
 *** TODO cuadro para el testeo y agregado de calles nuevas
 que es un tema cuando se pasan ventas nuevas a menudo
+*** proceso con el numero de pedido con triggers
+CLOCK: [2017-09-10 dom 14:02]--[2017-09-10 dom 14:03] =>  0:01
+CLOCK: [2017-09-10 dom 11:56]--[2017-09-10 dom 12:56] =>  1:00
+en vez de hacerlo a mano hice dos triggers que manejan esto de pasar
+el numero de idvta a la tabla pedido 
 
 
-
-** TODO st2 visor de pasado de ventas
+** DONE st2 visor de pasado de ventas
 ver si puedo ordenarlo por fecha de pasado no por fecha de venta que
 puede ser varia.
 que sea editable el tbls
@@ -1576,9 +1584,9 @@ para no tener que necesitar mas editar ventas de tcl.
 ** TODO posible st3 visor reducido de cuotas cobradas en el pasado reciente 
 para control rapido del pasado de papeles. 
 
-** TODO posible pasado remoto
+** DONE posible pasado remoto
 CLOCK: [2017-09-08 vie 22:51]--[2017-09-08 vie 23:50] =>  0:59
-*** TODO ver set_trace_callback()
+*** DONE ver set_trace_callback()
 bastante exitoso
 #+BEGIN_EXAMPLE
 def tracesqlite(stm):
@@ -1606,6 +1614,20 @@ CLOCK: [2017-09-09 sáb 20:59]--[2017-09-09 sáb 22:20] =>  1:21
 CLOCK: [2017-09-09 sáb 16:31]--[2017-09-09 sáb 17:31] =>  1:00
 Terminada la interfase de pasado.
 Faltaria probar como  se comporta en la prueba real. 
+
+Solo este procedimiento hace todo el trabajo de procesar los stms
+#+BEGIN_EXAMPLE
+ def procesarventasremotas():
+            ids = [tblssmtpasados.getcell(x,0) for x in tblssmtpasados.curselection()]
+            sel = 'select smt from smt where id in '+ listasql(ids)
+            stms = [x[0] for x in con.execute(sel).fetchall()]
+            for stm in stms:
+                con.execute(stm)
+            upd = 'update smt set pasado=1 where id in '+ listasql(ids)
+            con.execute(upd)
+            con.commit()
+            tblssmtpasados.recalc()
+#+END_EXAMPLE
 
 * TODO Temas generales
 ** DONE scroll para tablelist

@@ -58,6 +58,13 @@ agregamos funcion set para hacer compatible
         ix = lista.index(value)
         self.setvalue('@'+str(ix))
 #+END_EXAMPLE
+** Notebook - raise command
+propiedad que permite especificar un comando a ejecutar cada vez que
+se abra una pagina, muy util para recalcular un tablelist.
+#+BEGIN_EXAMPLE
+st2 = notventas.insert(END,2,text='Ventas Pasadas',raisecmd=lambda:tblsventaspasadas.recalc())
+st3 = notventas.insert(END,3,text='Ventas a Integrar',raisecmd=lambda:tblssmtpasados.recalc())
+#+END_EXAMPLE
 ** imposibilidad de hacer funcionar un bind a Return
 luego de perder mas o menos hora y media tratando de meter un bind a
 <Return> dentro de las entrañas de bwidget no funciona, incluso no
@@ -134,6 +141,11 @@ package-refresh-contents
 lee nuevamente las bases de datos de paquetes y soluciona el problema
 que no existen los paquetes.
 
+
+* super-emacs
+tratar de incorporar algo de super-emacs dentro de .emacs
+** theme material
+** neotree 
 * python virtualenv/elpy
 python3 -m venv /path/to/new/virtual/environment
 M-x elpy
