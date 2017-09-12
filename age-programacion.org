@@ -1487,7 +1487,7 @@ tiene un metodo selectitem() que permite asignarle un item (o sea como
 seria nuestro metodo set, que no hace falta que sea como en bwidget
 buscandole el index, sino que le podemos mandar el valor directamente
 y el trabajo lo hace el.
-**** DONE falta poner el pasado de lo accesorio de aclaracion/horario etc
+**** ABORTED falta poner el pasado de lo accesorio de aclaracion/horario etc
 que se llenaria abajo para no ir arriba
 se aborta pq no hace falta pq ya tenemos arriba el cliente que se
 puede editar a voluntad, no hace falta tener abajo los campos

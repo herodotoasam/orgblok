@@ -184,3 +184,17 @@ solarized light
 no solo por las fonts en org, sino pq se ve el resaltado cuando voy a
 copiar sino tambien los parentesis.
 
+
+* orgmode
+** listas planas
+empiezan con + - o numero seguido de punto
+se agrega otro item con 
++ item
++ alt enter y con
++ [ ] shift alt enter se le agrega checkbox
+** checkboxs 
+en listas planas con shift - alt - enter
+poniendo la cookies [%] o [/] en cualquier parte del outline calcula
+los checkboxs interiores
+ 
+
