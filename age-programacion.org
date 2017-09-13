@@ -1666,6 +1666,30 @@ autocomplete falla con muchos registros, al final el unico que anda
 bien es el bwidget pero no tiene traverse por medio de enter y eso me
 frena, pero quizas no se pueda hacer otra cosa.
 
+** TODO combobox propio
+CLOCK: [2017-09-12 mar 21:37]--[2017-09-12 mar 22:02] =>  0:25
+CLOCK: [2017-09-12 mar 21:06]--[2017-09-12 mar 21:31] =>  0:25
+CLOCK: [2017-09-12 mar 20:36]--[2017-09-12 mar 21:01] =>  0:25
+CLOCK: [2017-09-12 mar 19:25]--[2017-09-12 mar 20:24] =>  0:59
+CLOCK: [2017-09-12 mar 19:10]--[2017-09-12 mar 19:25] =>  0:15
+CLOCK: [2017-09-11 lun 23:09]--[2017-09-12 mar 00:09] =>  1:00
+Esta bueno el funcionamiento a nivel busqueda dentro de un cuadro de
+texto, es mucho mas funcional que el combobox normal, pero debo pulir
+las trabas que me presenta el listbox a la hora de la manipulacion de
+las opciones
+
+Ya tengo una segunda version con TExt y numeritos que directamente
+entro el numero y se entra la eleccion, y alli manejo mas la cosa
+falta pulir un monton, pero reniego menos que con el listbox
+y no me hace falta el list box
+pq el text incluso es muy amplio y puede tener todo tipo de funciones
+creo que con el numerito voy a andar bien.
+
+Hay muchas ideas, incluso hacerla con un minibuffer como habia dicho,
+y asignarle un lugar al minibuffer que puede ser al costado.
+Es todo muy groso.
+Es muy buen avance por hoy y por ayer.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
