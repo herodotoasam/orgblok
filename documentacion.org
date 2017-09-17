@@ -196,5 +196,7 @@ se agrega otro item con
 en listas planas con shift - alt - enter
 poniendo la cookies [%] o [/] en cualquier parte del outline calcula
 los checkboxs interiores
- 
+** todos states por files
+#+TODO: TODO(t) | DONE(d!) CANCELED(c@)
+#+TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
 

@@ -79,8 +79,8 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | bugs                                           |       4:00 |         |
 | \emsp problema database locked                 |            |    4:00 |
 #+END:
-#+TODO: TODO ABORTED | DONE
-
+#+TODO: TODO(t) | DONE(d!) CANCELED(c@)
+#+TODO: IMPROV(i) BUG(b) | FIXED(f!@)
 * Tab pedidos                                                       :urgente:
 CLOCK: [2016-10-25 mar 12:16]--[2016-10-25 mar 12:31] =>  0:15
 CLOCK: [2016-10-24 lun 21:59]--[2016-10-24 lun 22:22] =>  0:23
@@ -1695,16 +1695,17 @@ y asignarle un lugar al minibuffer que puede ser al costado.
 Es todo muy groso.
 Es muy buen avance por hoy y por ayer.
 
-** TODO ideas de perfeccionamiento[3/7]
-*** DONE hacer que el text abarque nueve renglones
+*** DONE ideas de perfeccionamiento[9/9]
+- State "DONE"       from "TODO"       [2017-09-16 sáb 19:51]
+**** DONE hacer que el text abarque nueve renglones
 CLOCK: [2017-09-14 jue 20:41]--[2017-09-14 jue 20:50] =>  0:09
-*** DONE hacer que se pueda mover tambien para ver registros abajo aunque no se puedan referenciar por numero
+**** DONE hacer que se pueda mover tambien para ver registros abajo aunque no se puedan referenciar por numero
 - State "DONE"       from "TODO"       [2017-09-15 vie 22:19]
 ya estaria y se podria trabajar mas con el estatus de disable habria
 que ver.
 se puede mover uno, y ver lo que hay y servirse de eso para refiltrar
 si la lista es muy larga
-*** DONE ver si puedo linkear tambien por click desde el text
+**** DONE ver si puedo linkear tambien por click desde el text
 - State "DONE"       from "TODO"       [2017-09-15 vie 22:18]
 CLOCK: [2017-09-15 vie 22:00]--[2017-09-15 vie 22:18] =>  0:18
 CLOCK: [2017-09-15 vie 21:21]--[2017-09-15 vie 22:00] =>  0:39
@@ -1730,8 +1731,16 @@ impractico
 tambien se puede uno mover en caso de una eleccion grande y volver al
 campo y filtrar con un criterio mas estricto
 
-*** TODO agregado de valores nuevos tambien
-*** TODO que trave el seguir con un valor parcial
+**** DONE agregado de valores nuevos tambien
+- State "DONE"       from "TODO"       [2017-09-16 sáb 19:50]
+CLOCK: [2017-09-16 sáb 17:50]--[2017-09-16 sáb 18:15] =>  0:25
+CLOCK: [2017-09-16 sáb 17:15]--[2017-09-16 sáb 17:22] =>  0:07
+con solo poner el valor en el campo, se puede agregar un valor nuevo
+con Control-I
+
+**** CANCELED que trave el seguir con un valor parcial
+- State "CANCELED"   from "TODO"       [2017-09-16 sáb 19:50] \\
+  lo abandono pq pondre la verificacion a nivel guardado
 quedo que si uno sale del list con un valor parcial te deja, es para
 mayor rapidez del trabajo, pero si uno siguiera lo mismo daria error
 en el guardado por clave erronea pq se supone que los valores tienen
@@ -1739,14 +1748,87 @@ que coincidir con uno existente, pero se puede hacer en momento de
 guardado la comprobacion.
 Como resolvi con la verificacion de domicilio que tanto problemas me
 causo en el campo numero, y la puse en el guardado de cliente y listo/ 
-*** TODO Historial en la sesion
+**** DONE Historial en la sesion
+- State "DONE"       from "TODO"       [2017-09-16 sáb 15:03]
+CLOCK: [2017-09-16 sáb 14:42]--[2017-09-16 sáb 15:03] =>  0:21
+CLOCK: [2017-09-16 sáb 14:11]--[2017-09-16 sáb 14:36] =>  0:25
 CLOCK: [2017-09-15 vie 22:29]--[2017-09-15 vie 22:35] =>  0:06
 para usar con alt-p alt-n cambiar los valores segun se van usando
 seria demasiado abuso.
 La idea esta, para desarrollarla cuando este mas fresco, ahora estoy
 reventado y he logrado algo lindo. Y esta casi terminado, asi que no
 mames cabron.
-*** TODO Historial en la tabla
+
+Estoy haciendo un proc de ciclamiento de los valores ingresados que se
+guardan en una lista.
+#+BEGIN_EXAMPLE
+def historial(self):
+        if self.i == -1:
+            self.i = len(self.valores)-1
+        self.e.set(self.valores[self.i-1])
+        self.i = self.i - 1
+#+END_EXAMPLE
+y antes cargo cada valor que asigno al campo a la lista
+#+BEGIN_EXAMPLE
+valor = self.resultados[int(num)-1]
+self.e.set(valor)
+self.valores.append(valor)
+#+END_EXAMPLE
+**** DONE Historial en la tabla
+- State "DONE"       from "TODO"       [2017-09-16 sáb 16:52]
+CLOCK: [2017-09-16 sáb 16:34]--[2017-09-16 sáb 16:52] =>  0:18
+CLOCK: [2017-09-16 sáb 15:58]--[2017-09-16 sáb 16:23] =>  0:25
+CLOCK: [2017-09-16 sáb 15:04]--[2017-09-16 sáb 15:29] =>  0:25
+intentare lo mismo con historial de tabla
+Lo hice y funciona joya aunque exige poner un valor mas en la
+determinacion de la clase pero necesario, y me hace pensar que es
+innecesario el historial de sesion.
+
+**** DONE pasar text a top para que no desacomode el pack
+- State "DONE"       from "IMPROV"     [2017-09-16 sáb 14:10]
+CLOCK: [2017-09-16 sáb 13:06]--[2017-09-16 sáb 13:21] =>  0:15
+CLOCK: [2017-09-16 sáb 12:25]--[2017-09-16 sáb 12:50] =>  0:25
+pasado a toplevel
+#+BEGIN_EXAMPLE python
+ self.popup = Toplevel(bd=0)
+            self.popup.overrideredirect(1)
+            self.t = Text(self.popup,bg='PaleTurquoise',fg='black',takefocus=1,width=35,heigh=9,cursor='right_side')
+            self.t.pack()
+            self.t.focus_set()
+            w = self.e
+            xy = w.winfo_rootx(), w.winfo_rooty() + w.winfo_height() + 2
+            self.popup.geometry("+%d+%d" % xy)
+            self.t.bind('<KeyPress>',lambda ev: self.activar(ev))
+            self.t.bind('<Double-1>',lambda ev: self.activepor2click(ev))
+            self.t.bind('<Escape>',lambda ev: (self.popup.destroy(),self.e.focus_set()))
+#+END_EXAMPLE
+
+**** DONE ver si por medio de tags se pueden acceder los numeros mayores a 9
+- State "DONE"       from "TODO"       [2017-09-17 dom 11:56]
+CLOCK: [2017-09-17 dom 11:33]--[2017-09-17 dom 11:55] =>  0:22
+CLOCK: [2017-09-17 dom 11:06]--[2017-09-17 dom 11:31] =>  0:25
+CLOCK: [2017-09-17 dom 09:30]--[2017-09-17 dom 09:55] =>  0:25
+Listo hice mediante tags que los renglones queden coloreados y se
+pueda mediante dobleclick acceder a ellos no importa el numero.
+Lo cual hace mas usable el combo.
+Nada mal para una horita  pico.
+
+** CANCELED dividir el proyecto en archivos diferentes
+- State "CANCELED"   from ""           [2017-09-16 sáb 21:01] \\
+  Fracaso pq no es facil implementarlo con los tab que ya estan
+CLOCK: [2017-09-16 sáb 20:56]--[2017-09-16 sáb 21:01] =>  0:05
+CLOCK: [2017-09-16 sáb 20:24]--[2017-09-16 sáb 20:49] =>  0:25
+CLOCK: [2017-09-16 sáb 19:54]--[2017-09-16 sáb 20:19] =>  0:25
+la idea es que para trabajar mejor tendre todo separado, total con git
+se maneja todo junto.
+
+** DONE idea refuncionalizar el tamaño y forma de los entrys
+- State "DONE"       from "IMPROV"     [2017-09-17 dom 13:09]
+CLOCK: [2017-09-17 dom 12:47]--[2017-09-17 dom 13:09] =>  0:22
+CLOCK: [2017-09-17 dom 12:22]--[2017-09-17 dom 12:47] =>  0:25
+CLOCK: [2017-09-16 sáb 21:32]--[2017-09-16 sáb 21:43] =>  0:11
+CLOCK: [2017-09-16 sáb 21:02]--[2017-09-16 sáb 21:29] =>  0:27
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
