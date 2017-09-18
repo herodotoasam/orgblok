@@ -1,9 +1,9 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2017-09-15 vie 22:34]
+#+CAPTION: Clock summary at [2017-09-17 dom 21:16]
 | Headline                                       |       Time |         |
 |------------------------------------------------+------------+---------|
-| *Total time*                                   | *4d 14:05* |         |
+| *Total time*                                   | *4d 22:03* |         |
 |------------------------------------------------+------------+---------|
 | Tab pedidos                                    |   1d 22:08 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |            |    1:16 |
@@ -70,12 +70,13 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | TODO tab PasarVentas [nuevo]                   |      23:18 |         |
 | \emsp DONE subtab pasado propiamente dicho     |            |   19:58 |
 | \emsp DONE posible pasado remoto               |            |    3:20 |
-| TODO Temas generales                           |      10:05 |         |
+| TODO Temas generales                           |      18:03 |         |
 | \emsp DONE scroll para tablelist               |            |    0:42 |
 | \emsp DONE stripebg en tbls que cambie por...  |            |    0:24 |
 | \emsp ABORTED trabajo para solucionar el...    |            |    1:24 |
-| \emsp DONE combobox propio                     |            |    4:07 |
-| \emsp TODO ideas de perfeccionamiento[3/7]     |            |    3:28 |
+| \emsp DONE combobox propio                     |            |   13:13 |
+| \emsp CANCELED dividir el proyecto en...       |            |    0:55 |
+| \emsp DONE idea refuncionalizar el tamaño y... |            |    1:25 |
 | bugs                                           |       4:00 |         |
 | \emsp problema database locked                 |            |    4:00 |
 #+END:
@@ -1813,6 +1814,8 @@ pueda mediante dobleclick acceder a ellos no importa el numero.
 Lo cual hace mas usable el combo.
 Nada mal para una horita  pico.
 
+*** DONE cambio de los combobox bwidget a esearch2
+CLOCK: [2017-09-17 dom 20:00]--[2017-09-17 dom 21:14] =>  1:14
 ** CANCELED dividir el proyecto en archivos diferentes
 - State "CANCELED"   from ""           [2017-09-16 sáb 21:01] \\
   Fracaso pq no es facil implementarlo con los tab que ya estan
