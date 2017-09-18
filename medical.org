@@ -1,5 +1,29 @@
-* Diario de migrañas fuertes
-** [2016-10-09 dom]						  :3M:fuerte:
+
+Este archivo concentrara todo lo relativo al tema medico
+turnos, sintomas, historial etc.
+
+* turnos
+* sintomas
+** Dolores
+*** Testiculos
+[2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
+de un gran ataque virosico y buscaba las ampollitas y me puse ac, pero
+nada, luego lo tuve el sabado a la mañana y se fue.
+
+* medicacion
+** TODO Cabergolina
+SCHEDULED: <2017-09-18 lun .+1w>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+
+
+
+
+* historial
+** migrañas
+*** Diario de migrañas fuertes
+**** [2016-10-09 dom]                                          :3M:fuerte:
 Me tomo el primer migral a las 9hs luego de una noche con molestias y
 espera a la mañana para tomar el migral.
 No considero que haya sido tardio en ese momento pq no me molesto ni
@@ -35,7 +59,7 @@ costado derecho me presionaba mucho la zona del higado, y sobre el
 costado izquierdo me presionaba la cabeza donde me dolia.
 Quizas una hora despues o dos, ya me mejore quedando solo la resaca
 que desaparecio durante la noche.
-** [2016-10-15 sáb]					      :3M:intermedio:
+**** [2016-10-15 sáb]                                      :3M:intermedio:
 Hoy desperte a las 4am con fuerte dolor, el clasico y claro dolor
 despertador que amerita un migral, tomo y me duermo, siendo
 efectivo. Me levanto bien, hago las tareas que habia pensado para el
@@ -58,7 +82,7 @@ podria haberlo ubicado en un comodo 6 en el momento de levantarme que
 me impediria las actividades. Y alli decidi ir al medico mañana. En
 realidad comenzar a ir a todos los medicos. O sea instalarme en el hp
 del patio olmos. o el central si hace falta. 
-** [2016-10-18 mar]						  :2M:fuerte:
+**** [2016-10-18 mar]                                          :2M:fuerte:
 El domingo tomo dos migrales seguidos, me cayo un poco mal la comida
 (pollo al disco) y me percato que era tipo cefaleico y cedio bastante
 rapido y me bañe y me sente en la terraza y mejore bastante. 
@@ -76,7 +100,7 @@ cefaleico parecido a los ultimos dos dias, se fue transformando en
 levemente migraico y luego cediendo.
 Creo que la causa real es que ya estoy en las ultimas del migral y los
 dolores son mas fuertes y descontrolados.
-** [2016-10-26 mié]                                              :2M:fuerte:
+**** [2016-10-26 mié]                                          :2M:fuerte:
 Me desperte bien, dentro del malestar que vengo teniendo de tinitus
 por asi decirlo, p.e. anoche no dormi con lluvia, y tuve sueños
 confusos. Me despierto con el dolorcito insidioso de siempre y me tomo
@@ -95,8 +119,8 @@ p.e. lo que estoy ahora a las 12.30 en casa.
 Me tome 10mg de corti a las 11.30hs y hasta ahora estoy peor. Me tome
 a la misma hora 35 gotas de reliveran y sigo nauseoso, y de pedo tome
 un te con dos galletas y queso.
-* Diario de dias 3 Migrales aunque no migrañas fuertes
-** [2016-10-13 jue]						:3M:moderado:
+*** Diario de dias 3 Migrales aunque no migrañas fuertes
+**** [2016-10-13 jue]                                        :3M:moderado:
    Desperte a la 1 de la mañana y tome un migral con un trago de
    licuado. Y si bien es cierto que pude dormir lo mas bien, cada vez
    que me despertaba sentia molestia, y me decia que ojala la molestia
@@ -119,3 +143,4 @@ un te con dos galletas y queso.
    me senti como que podia terminar alli mismo todo el modulo, pero me
    fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
    en el ojo, aunque no son en el ojo sino en el arco superciliar.
+
