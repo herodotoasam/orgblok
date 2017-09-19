@@ -1,0 +1,18 @@
+
+* Compras y asuntos puntuales [0/3]
+** TODO comprar jean
+DEADLINE: <2017-09-20 mié>
+** TODO buscar plomero
+DEADLINE: <2017-09-22 vie>
+** TODO comprar sillon operativo
+DEADLINE: <2017-09-22 vie>
+
+
+
+* Control limpieza dpto
+** TODO baño
+SCHEDULED: <2017-09-25 lun .+7d>
+- State "DONE"       from "TODO"       [2017-09-18 lun 22:21]
+:PROPERTIES:
+:LAST_REPEAT: [2017-09-18 lun 22:21]
+:END:
