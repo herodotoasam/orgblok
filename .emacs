@@ -1,4 +1,7 @@
 (require 'package)
+
+
+
 (add-to-list 'package-archives
              '("melpa" . "https://melpa.org/packages/") t)
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
@@ -13,18 +16,55 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(ansi-color-faces-vector
+   [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#2e3436" "#a40000" "#4e9a06" "#c4a000" "#204a87" "#5c3566" "#729fcf" "#eeeeec"])
- '(custom-enabled-themes (quote (leuven)))
+ '(canlock-password "f76b6d512dd29cedcc83666eb5a5733c5e67a2be")
+ '(compilation-message-face (quote default))
+ '(cua-global-mark-cursor-color "#2aa198")
+ '(cua-normal-cursor-color "#657b83")
+ '(cua-overwrite-cursor-color "#b58900")
+ '(cua-read-only-cursor-color "#859900")
+ '(custom-enabled-themes (quote (solarized-light)))
  '(custom-safe-themes
    (quote
-    ("c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
+    ("98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
+ '(fci-rule-color "#2e2e2e")
+ '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
+ '(highlight-symbol-colors
+   (--map
+    (solarized-color-blend it "#fdf6e3" 0.25)
+    (quote
+     ("#b58900" "#2aa198" "#dc322f" "#6c71c4" "#859900" "#cb4b16" "#268bd2"))))
+ '(highlight-symbol-foreground-color "#586e75")
+ '(highlight-tail-colors
+   (quote
+    (("#eee8d5" . 0)
+     ("#B4C342" . 20)
+     ("#69CABF" . 30)
+     ("#69B7F0" . 50)
+     ("#DEB542" . 60)
+     ("#F2804F" . 70)
+     ("#F771AC" . 85)
+     ("#eee8d5" . 100))))
+ '(hl-bg-colors
+   (quote
+    ("#DEB542" "#F2804F" "#FF6E64" "#F771AC" "#9EA0E5" "#69B7F0" "#69CABF" "#B4C342")))
+ '(hl-fg-colors
+   (quote
+    ("#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3" "#fdf6e3")))
+ '(hl-sexp-background-color "#efebe9")
  '(inhibit-startup-buffer-menu t)
  '(inhibit-startup-echo-area-message "hero")
  '(inhibit-startup-screen t)
+ '(magit-diff-use-overlays nil)
+ '(nrepl-message-colors
+   (quote
+    ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/orgblok/topiramato.org" "~/orgblok/age-programacion.org" "/home/hero/orgblok/edu-orgmode.org" "/home/hero/orgblok/art-1.org" "/home/hero/orgblok/doc-fichaje.org" "~/orgblok/dia-programacion.org" "/home/hero/orgblok/age-pagos.org" "/home/hero/orgblok/age-tareas.org" "/home/hero/orgblok/age-turnos.org" "/home/hero/orgblok/dia-aprendizaje.org" "/home/hero/orgblok/dia-films.org" "/home/hero/orgblok/dia-general.org" "/home/hero/orgblok/dia-migrana.org" "/home/hero/orgblok/doc-deepin.org" "/home/hero/orgblok/edu-emacs.org" "/home/hero/orgblok/edu-i3.org" "/home/hero/orgblok/edu-vim.org" "/home/hero/orgblok/habitos.org" "/home/hero/orgblok/manualusuario.org" "/home/hero/orgblok/pro-dpto.org" "/home/hero/orgblok/proyectos.org" "/home/hero/orgblok/vim.org")))
+    ("~/orgblok/agenda.org" "~/orgblok/medical.org" "~/orgblok/habitos.org" "/home/hero/orgblok/documentacion.org" "/home/hero/orgblok/age-programacion.org")))
  '(org-agenda-span (quote day))
  '(org-deadline-warning-days 0)
  '(org-habit-show-habits-only-for-today t)
@@ -35,15 +75,52 @@
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (org-journal org-pomodoro projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+ '(pos-tip-background-color "#eee8d5")
+ '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
- '(python-shell-interpreter "python3.5"))
+ '(python-shell-interpreter "python3.5")
+ '(pyvenv-workon nil)
+ '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
+ '(term-default-bg-color "#fdf6e3")
+ '(term-default-fg-color "#657b83")
+ '(vc-annotate-background "#3b3b3b")
+ '(vc-annotate-background-mode nil)
+ '(vc-annotate-color-map
+   (quote
+    ((20 . "#dd5542")
+     (40 . "#CC5542")
+     (60 . "#fb8512")
+     (80 . "#baba36")
+     (100 . "#bdbc61")
+     (120 . "#7d7c61")
+     (140 . "#6abd50")
+     (160 . "#6aaf50")
+     (180 . "#6aa350")
+     (200 . "#6a9550")
+     (220 . "#6a8550")
+     (240 . "#6a7550")
+     (260 . "#9b55c3")
+     (280 . "#6CA0A3")
+     (300 . "#528fd1")
+     (320 . "#5180b3")
+     (340 . "#6380b3")
+     (360 . "#DC8CC3"))))
+ '(vc-annotate-very-old-color "#DC8CC3")
+ '(virtualenv-root "~hero/pyrx1/")
+ '(weechat-color-list
+   (quote
+    (unspecified "#fdf6e3" "#eee8d5" "#990A1B" "#dc322f" "#546E00" "#859900" "#7B6000" "#b58900" "#00629D" "#268bd2" "#93115C" "#d33682" "#00736F" "#2aa198" "#657b83" "#839496")))
+ '(xterm-color-names
+   ["#eee8d5" "#dc322f" "#859900" "#b58900" "#268bd2" "#d33682" "#2aa198" "#073642"])
+ '(xterm-color-names-bright
+   ["#fdf6e3" "#cb4b16" "#93a1a1" "#839496" "#657b83" "#6c71c4" "#586e75" "#002b36"]))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(org-todo ((t (:foreground "red" :weight bold)))))
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (global-set-key (kbd "C-}") 'org-agenda)
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
@@ -58,11 +135,11 @@
   (org-insert-time-stamp nil nil t)
   )
 (global-set-key (kbd "C-{") 'org-insert-inactive-timestamp)
-(global-set-key (kbd "C-M-{") 'org-clock-in)
+(global-set-key (kbd "C-M-{") 'org-pomodoro)
 (global-set-key (kbd "C-M-}") 'org-clock-out)
 
 (global-set-key (kbd "M-<f6>") (lambda() (interactive)(find-file "~/.emacs")))
-(global-set-key (kbd "M-<f1>") (lambda() (interactive)(find-file "~/orgblok/index.org")))
+(global-set-key (kbd "M-1") (lambda() (interactive)(neotree-toggle)))
 
 ;; Duplicate line
 (defun duplicate-line (arg)
@@ -166,14 +243,31 @@
     (global-set-key [remap kill-ring-save] 'my-kill-ring-save)
 
 
-;;iclicles
-;;(setq load-path (cons "/usr/share/emacs/site-lisp/icicles" load-path))
-;;(require 'icicles)
-;;(icy-mode 1)
-;;(eval-after-load "ring" '(progn (require 'ring+)))
 
-;;(require 'helm-config)
-;;(helm-mode 1)
 (desktop-save-mode 1)
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
+
+;;magit
+(global-set-key (kbd "C-x g") 'magit-status)
+
+
+;;company mode enable para todos
+(add-hook 'after-init-hook 'global-company-mode)
+(setq ag-reuse-buffers 't)
+
+
+
+;;smartparents
+(smartparens-global-mode 1)
+
+;; ver column number
+(setq column-number-mode t)
+
+
+(setq org-todo-keywords
+      (quote ((sequence "TODO(t)"  "DONE(d!)"))))
+
+
+
+

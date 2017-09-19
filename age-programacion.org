@@ -81,7 +81,7 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | \emsp problema database locked                 |            |    4:00 |
 #+END:
 #+TODO: TODO(t) | DONE(d!) CANCELED(c@)
-#+TODO: IMPROV(i) BUG(b) | FIXED(f!@)
+#+TODO: IDEA IMPROV(i) BUG(b) | FIXED(f!@)
 * Tab pedidos                                                       :urgente:
 CLOCK: [2016-10-25 mar 12:16]--[2016-10-25 mar 12:31] =>  0:15
 CLOCK: [2016-10-24 lun 21:59]--[2016-10-24 lun 22:22] =>  0:23
@@ -1816,6 +1816,22 @@ Nada mal para una horita  pico.
 
 *** DONE cambio de los combobox bwidget a esearch2
 CLOCK: [2017-09-17 dom 20:00]--[2017-09-17 dom 21:14] =>  1:14
+
+*** DONE arreglo de bug de repeticion de valor que parece igual
+CLOCK: [2017-09-18 lun 20:39]--[2017-09-18 lun 21:39] =>  1:00
+El bug era pq estaba muy mal planteado logicamente el flujo de
+opciones ya que preguntaba primero si la opcion que tenia el entry
+esta en la lista (ete aqui que la lista era no una lista sino el
+nombre de una lista o sea que siempre daba falso), luego habia otro
+bug pq yo con el metodo title() del string le ponia mayuscula a la
+primera letra y eso modificaba algunas entradas como Primero De Mayo y
+hacia que no figurara en la lista, entonces directamente lo consulto
+en sqlite y listo, me evito la lista de valores, consulto en la tabla
+y si existe lo paso por arriba si no existe busco los resultados, si
+es uno solo lo pongo, si son mas de uno formo el cuadro con las
+opciones.
+Luego saque el colorinche, y deje un stripebg, y permiti que se ponga
+un ancho a discresion del combo.
 ** CANCELED dividir el proyecto en archivos diferentes
 - State "CANCELED"   from ""           [2017-09-16 sáb 21:01] \\
   Fracaso pq no es facil implementarlo con los tab que ya estan
@@ -1826,11 +1842,22 @@ la idea es que para trabajar mejor tendre todo separado, total con git
 se maneja todo junto.
 
 ** DONE idea refuncionalizar el tamaño y forma de los entrys
+CLOCK: [2017-09-18 lun 20:35]--[2017-09-18 lun 21:35] =>  1:00
 - State "DONE"       from "IMPROV"     [2017-09-17 dom 13:09]
 CLOCK: [2017-09-17 dom 12:47]--[2017-09-17 dom 13:09] =>  0:22
 CLOCK: [2017-09-17 dom 12:22]--[2017-09-17 dom 12:47] =>  0:25
 CLOCK: [2017-09-16 sáb 21:32]--[2017-09-16 sáb 21:43] =>  0:11
 CLOCK: [2017-09-16 sáb 21:02]--[2017-09-16 sáb 21:29] =>  0:27
+Cambien en optiondatabase en Entry el color del bg a NavajoWhite y el
+fg a black y el font a Monospace 11, eso ya por default me pone a todo
+en el nivel que hice el tab ventas, falta ir puliendo y acomodando de
+a poco para obtener mejores niveles de visualizacion.
+
+** IDEA unos labelentrys tipo como los de la hojita de datos con el nombre arriba
+la idea es hacer el formulario mas parejo, ya que solo uso entrys,
+botones y tbls tendria que hacer mas ordenada la interface que es muy
+desordenada y de paso explorar otros colores pq ya creo que ese oscuro
+esta obsoleto.
 
 * bugs
 ** problema database locked

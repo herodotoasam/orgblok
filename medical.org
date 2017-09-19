@@ -9,12 +9,26 @@ turnos, sintomas, historial etc.
 [2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
 de un gran ataque virosico y buscaba las ampollitas y me puse ac, pero
 nada, luego lo tuve el sabado a la mañana y se fue.
-
+[2017-09-18 lun] hoy hace un rato vuelvo a sentir pero a nivel
+varicocele en el huevo izquierdo, o como una sensacion de hernia, no
+como senti el viernes como algo masivo que abarcaba todo el perineo y
+casi no me dejaba sentar.
 * medicacion
+** ibuprofeno
+| Fecha            | cnt |
+| [2017-09-18 lun] |   2 |
+|                  |     |
+|                  |     |
+|                  |     |
+|                  |     |
+|                  |     |
+|                  |     |
 ** TODO Cabergolina
-SCHEDULED: <2017-09-18 lun .+1w>
+SCHEDULED: <2017-09-25 lun .+1w>
+- State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
 :STYLE:    habit
+:LAST_REPEAT: [2017-09-18 lun 18:44]
 :END:
 
 
