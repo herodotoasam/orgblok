@@ -2,7 +2,11 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos
+* turnos [0/2]
+** TODO 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
+SCHEDULED: <2017-09-26 mar>
+** TODO 11.40 Romero William
+SCHEDULED: <2017-11-08 mié>
 * sintomas
 ** Dolores
 *** Testiculos
@@ -13,16 +17,19 @@ nada, luego lo tuve el sabado a la mañana y se fue.
 varicocele en el huevo izquierdo, o como una sensacion de hernia, no
 como senti el viernes como algo masivo que abarcaba todo el perineo y
 casi no me dejaba sentar.
+*** Implantes
+[2017-09-19 mar] hoy tengo bastantes molestias en en los implantes
+izquierdos en ambos, mas que todo en el de mas atras.
 * medicacion
 ** ibuprofeno
-| Fecha            | cnt |
+| Fecha          | cnt |
 | [2017-09-18 lun] |   2 |
-|                  |     |
-|                  |     |
-|                  |     |
-|                  |     |
-|                  |     |
-|                  |     |
+| [2017-09-19 mar] |   1 |
+|                |     |
+|                |     |
+|                |     |
+|                |     |
+|                |     |
 ** TODO Cabergolina
 SCHEDULED: <2017-09-25 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
