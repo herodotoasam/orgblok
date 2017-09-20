@@ -25,7 +25,7 @@ izquierdos en ambos, mas que todo en el de mas atras.
 | Fecha            | cnt | sintomas                    |
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
-|                  |     |                             |
+| [2017-09-20 mié] |   1 | desperte con dolor          |
 |                  |     |                             |
 |                  |     |                             |
 |                  |     |                             |
@@ -50,6 +50,9 @@ luego con el disgusto-desasosiego (ver diario) pero hice lo que dice
 el libro, segui con el plan con todo, como un bull, y luego me tome
 unos buenos mates, y luego me perdi en la compu en mi silloncito nuevo
 y en el medio hice todo el ejercicio y el dolor se limpio totalmente.
+** [2017-09-20 mié]
+desperte con dolor bastante feucho, tanto que pensaba que iba a
+terminar en nar. Tome un ibu a las 4.30hs y luego me levante bien.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
