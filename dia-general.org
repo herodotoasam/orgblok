@@ -3714,8 +3714,67 @@ temas no son compartibles.
 Y la mayoria genera conflicto.
 
 
-
-
+** Setiembre
+*** [2017-09-19 mar]
+**** la bisagra de hacer lo que debes hacer y no quedarte en la inaccion
+Hoy es un dia bisagra, quizas tambien comienza ayer con el recupero de
+los habits.
+Ayer anoto en agenda que queria o tenia que comprar un jean, comprar
+el sillon operativo y comprar elementos de limpieza.
+Y hoy salgo mas temprano de la oficina gracias a la programacion y a
+que hay menos chicos.
+Y vivo una situacion patetica en la puerta del local de oficinas, no
+por no estar decidido, que lo estaba recontradecidido, sino pq era
+presa de una sucesion de patetismo que es engorroso explicar, -sucede
+que cuando al fin me decidi ir la vez pasada luego de varias veces
+pasar por la puerta, en vez de encarar y decir quiero ese sillon de
+ahi, le digo que quiero un sillon operativo asi y asi, y la mina me
+empieza a mostrar unas porongas que valen casi diez lucas pero son
+unas mas fieras que otras, y en vez de cortarla y sentarme en el
+sillon rojo y traermelo, termino preguntando por el repuesto del
+sillon viejo y yendome sin nada. Y hoy dudando en la puerta termino
+diciendo no voy ahi mas, y no se donde puedo comprar con una cercania
+que me permita traer el sillon comodamente.
+Entonces subo y digo bueno voy a comprar el jean, pero primero me
+cambio plancho el jean mejorcito que tengo, que me queda menos mal y
+eso es malisimo, y yo me sentia malisimo, y me agarra un bajon de
+locura y encima me dolia la cabeza.
+Y el click ahi fue no caer en la locura, sino ir a cortarle la cabeza
+a la hidra y levantarme buscar plata y comprar el sillon. Lo cual me
+salio redondito pq me lo trajeron y mande el viejo para arreglo, lo
+cual puede servir para la oficina y fui a comprarle unos mates de
+regalo a ih. O sea que termine con un nivel positivo para mañana
+encarar la compra del jean de otra forma asertiva y superar este
+bajon.
+Y todo pq me lo impuso la agenda.
+Un poco retomar todo desde emacs-org me cuesta pq no es facil, y para
+sacarle provecho verdadero hay que estar organizado.
+**** el cambio total del habitsqq
+ayer luego de meses de parate y de descuido personal al extremo,
+tambien por recupero del org-mode, y porque me hace falta pero 90% por
+la motivacion del org-habit, recomence con los dos habitos de
+movimiento y ya tengo dos dias de cumplimiento de las 3 series y los
+ejercicios de espalda.
+**** no querer delegar y te quedas siempre igual
+hoy pensaba que me gusta tanto hacer lo que hago que por eso no lo
+quiero delegar. Entre otras cosas. O sea no quiero dejar de pasar los
+papeles. Y creo que no tendria incentivo para seguir desarrollando y
+aprendiendo si no tuviera yo pasando los papeles. 
+Pero a la vez pensaba que si no delego, no voy a salir o no voy a
+crecer mas alla de este pozo. Pq estoy estancado y no puedo salir a
+flote.
+Hoy me decia a mi mismo que iba a salir que iba a salir, y me parece
+que congelando vacantes y mejorando los procesos y trabajando mas y
+mejor iba a ir saliendo de a poco, pero es muy de a poco y no se ve la
+salida.
+Y hoy si no hago ese gran salto adelante de ir a comprar el sillon no
+se que pasaba.
+De todos modos creo que no ganamos nada con que me pasen los recibos y
+me distraigan si no es mucho lo que demoro con el sistema obsoleto que
+tengo.
+**** le tengo mucha fe a la programacion
+solo hay que ver lo que hemos conseguido y lo que podemos
+conseguir. Hay que esperar tres meses mas.
 
 * Constructos
 ** Be normal

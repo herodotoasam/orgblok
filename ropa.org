@@ -1,0 +1,15 @@
+
+Este archivo sirve de control operativo de todo lo relativo a la
+vestimenta desde lo serio a lo freaky.
+
+* research
+
+* plan 33
+con registro de planchado
+** pantalones
+*** TODO jean Brooksfield
+SCHEDULED: <2017-10-03 mar .+14d>
+- State "DONE"       from "TODO"       [2017-09-19 mar 19:10]
+:PROPERTIES:
+:LAST_REPEAT: [2017-09-19 mar 19:10]
+:END:

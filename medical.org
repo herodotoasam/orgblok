@@ -22,14 +22,14 @@ casi no me dejaba sentar.
 izquierdos en ambos, mas que todo en el de mas atras.
 * medicacion
 ** ibuprofeno
-| Fecha          | cnt |
-| [2017-09-18 lun] |   2 |
-| [2017-09-19 mar] |   1 |
-|                |     |
-|                |     |
-|                |     |
-|                |     |
-|                |     |
+| Fecha            | cnt | sintomas                    |
+| [2017-09-18 lun] |   2 |                             |
+| [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
+|                  |     |                             |
+|                  |     |                             |
+|                  |     |                             |
+|                  |     |                             |
+|                  |     |                             |
 ** TODO Cabergolina
 SCHEDULED: <2017-09-25 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
@@ -41,6 +41,15 @@ SCHEDULED: <2017-09-25 lun .+1w>
 
 
 
+* cefaleico
+** [2017-09-19 mar] 
+un dia feucho del dolor desde la mañana, pq desperte con dolor y tome
+el primer ibu temprano. Luego el segundo en la ofi misma. Y sali
+temprano de la ofi pq pensaba que iba a tener una cefalea molesta, y
+luego con el disgusto-desasosiego (ver diario) pero hice lo que dice
+el libro, segui con el plan con todo, como un bull, y luego me tome
+unos buenos mates, y luego me perdi en la compu en mi silloncito nuevo
+y en el medio hice todo el ejercicio y el dolor se limpio totalmente.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

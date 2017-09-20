@@ -1854,11 +1854,28 @@ en el nivel que hice el tab ventas, falta ir puliendo y acomodando de
 a poco para obtener mejores niveles de visualizacion.
 
 ** IDEA unos labelentrys tipo como los de la hojita de datos con el nombre arriba
+CLOCK: [2017-09-19 mar 19:20]--[2017-09-19 mar 20:30] =>  1:10
 la idea es hacer el formulario mas parejo, ya que solo uso entrys,
 botones y tbls tendria que hacer mas ordenada la interface que es muy
 desordenada y de paso explorar otros colores pq ya creo que ese oscuro
 esta obsoleto.
 
+Ya tengo unos bien bonitos que usando el azul navy con blanco para el
+label y el navajowhite y el font monospace grande creo que es legible
+y bien acomodable.
+Y todo es igual, o sea todo es entry. tanto la fecha como el combo,
+quedaria el boton que se adecuaria luego en tamaño y forma. Pero creo
+que estamos cerca de lo que buscamos.
+Lo dejamos ahi para luego. 
+Ahora tendria que ponerme a pulir bugs. 
+
+** IDEA que el fecha2 tenga mas opciones de facil entrada
+CLOCK: [2017-09-19 mar 22:00]--[2017-09-19 mar 23:02] =>  1:02
+ya que es un entry podria entrarse un numero de dos cifras e
+interpretarse como el dia de este mes, o 129 y ser 12 de setiembre
+Le hice la posibilidad de llenar con fechas poniendo solo el dia o el
+dia y el mes.
+Eso agrega muchisima posibilidad a la fecha.
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
