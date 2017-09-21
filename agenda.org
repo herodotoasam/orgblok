@@ -1,5 +1,5 @@
 
-* Compras y asuntos puntuales [1/4]
+* Compras y asuntos puntuales [2/4]
 ** TODO comprar jean
 DEADLINE: <2017-09-20 mié>
 ** TODO buscar plomero
@@ -8,8 +8,9 @@ DEADLINE: <2017-09-22 vie>
 DEADLINE: <2017-09-22 vie>
 - State "DONE"       from "TODO"       [2017-09-19 mar 19:06]
 
-** TODO comprar elementos de limpieza
+** DONE comprar elementos de limpieza
 SCHEDULED: <2017-09-21 jue>
+- State "DONE"       from "TODO"       [2017-09-20 mié 19:02]
 * Control limpieza dpto
 ** TODO baño
 SCHEDULED: <2017-09-25 lun .+7d>

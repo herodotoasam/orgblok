@@ -67,7 +67,7 @@ habia devuelto creia, una 76.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [1/20]
+* TODO bugs o improvs fichaje.py [2/20]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -106,7 +106,8 @@ cual habia sido la causa.
 - State "DONE"       from "TODO"        [2017-09-19 mar 20:22]
 ** TODO pasar ventas: un boton atajo guardar ventas/pasar item para esas ventas que esta todo ok??
 ** TODO reubicar botones para mayor ergonomia
-** TODO un <dot> en el campo numpedido podria bindear a focus_set buscar para no tener que agarrar el raton
+** DONE un <dot> en el campo numpedido podria bindear a focus_set buscar para no tener que agarrar el raton
+- State "DONE"       from "TODO"       [2017-09-20 mié 19:20]
 
 ** IDEA en Fechar arriba de msgcobrar botones "Cancela" "Abona 2 cuotas" etc  lo que usualmente dicen
 ** IDEA extender esearch2 para que en vez de una tabla se le pase una consulta
@@ -123,9 +124,9 @@ o sea la sra compro 4 nauticos, pq puso 6 de 180 sin articulo o es
 pack o es piñata
 ** error de interpretacion fechas en recibos
 segunda cuota??
-** TODO pedir queen!!
-SCHEDULED: <2017-09-20 mié>
-* ramiro debe $272 de la diferencia de planilla
+** DONE pedir queen!!
+SCHEDULED: <2017-09-21 jue>
+- State "DONE"       from "TODO"       [2017-09-20 mié 22:00]
 
 * Tareas
 ** TODO Revisar si todas las planillas de promotores estan pasadas a pc

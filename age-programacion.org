@@ -1832,6 +1832,28 @@ es uno solo lo pongo, si son mas de uno formo el cuadro con las
 opciones.
 Luego saque el colorinche, y deje un stripebg, y permiti que se ponga
 un ancho a discresion del combo.
+
+*** IMPROV ver si como fuente en vez de una tabla tenes un view
+CLOCK: [2017-09-20 mié 23:15]--[2017-09-20 mié 23:54] =>  0:39
+CLOCK: [2017-09-20 mié 21:24]--[2017-09-20 mié 21:48] =>  0:24
+CLOCK: [2017-09-20 mié 21:09]--[2017-09-20 mié 21:24] =>  0:15
+CLOCK: [2017-09-20 mié 19:22]--[2017-09-20 mié 19:54] =>  0:32
+ejemplo para pasar recibos que tome los recibos de un set reducido de
+clientes
+Por el momento lo unico que hice fue igualar los improvs en esearch y
+entry2
+El esearch ahora esta optimizado para una fuente Monospace 11 en el
+entry, una fuente mas grande me desacomoda el tamaño del text.
+
+Funciona con un view. incluso con historial.
+Eso abre muchas posibilidades.
+
+Funciona bien creando los view con una funcion a demanda mientras los
+necesitas, lo cual permitiria crear esos subset de busquedas de
+acuerdo a lo que necesitamos, pq los recorridos puntuales.
+
+
+*** IDEA ver si se puede aplicar esearch para un buscador compacto
 ** CANCELED dividir el proyecto en archivos diferentes
 - State "CANCELED"   from ""           [2017-09-16 sáb 21:01] \\
   Fracaso pq no es facil implementarlo con los tab que ya estan
@@ -1876,6 +1898,29 @@ interpretarse como el dia de este mes, o 129 y ser 12 de setiembre
 Le hice la posibilidad de llenar con fechas poniendo solo el dia o el
 dia y el mes.
 Eso agrega muchisima posibilidad a la fecha.
+
+** IDEA Pasador de recibos
+*** Para el numero de recibo
+siguiendo con las ideas de la fecha se podria aparte de limitar a los
+numeros que tiene en su poder el cobrador, por la planilla o los que
+tiene en caso de monica/elva. Se podria buscar en las tres ultimas
+cifras ya que es muy improbable que coincidan y en el caso de que
+coincidan que aparezca la busqueda en el list de seleccion, aparte que
+vayan desapareciendo los que ya vas usando. O sea en vez de poner seis
+cifras pones tres.
+*** para el num de cuenta/nombre
+hacer una linea cuenta/nombre/calle/num que es lo que el cobrador
+escribe y ponerlo en un campo de busqueda esearch2 y como estara
+limitado a lo que tenga en su poder el cobrador le podes poner una
+mezcla de numero y letras incluso un parcial de num de cuenta te daria
+lo que tiene hasta todo en los casos mas chicos.
+*** posibilidad de usar text con tags para listados 
+no hace falta tablelist para todo
+** IDEA Posible idea para fechador Nueva generacion
+tambien con un formato de planilla-formulario en el cual vaya
+avanzando con numero viendo datos claves y cambiando las fechas con
+este nuevo estilo de fechar sobre el campo fecha (p.e. j para pmo
+jueves y j de nuevo para el otro jueves). 
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00

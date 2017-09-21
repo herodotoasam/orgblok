@@ -74,7 +74,6 @@ SCHEDULED: <2017-01-05 jue .+1d>
 r
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2016-12-22 jue .+1d>
 - State "DONE"       from "TODO"       [2016-12-21 mié 22:31]
 - State "DONE"       from "TODO"       [2016-12-20 mar 21:38]
 - State "DONE"       from "TODO"       [2016-12-17 sáb 23:29]
@@ -109,7 +108,7 @@ SCHEDULED: <2016-12-22 jue .+1d>
 - State "DONE"       from "TODO"       [2016-11-08 mar 20:59]
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
-:STYLE:    habit
+:STYLE:    
 :LAST_REPEAT: [2016-12-21 mié 22:31]
 :END:
 
@@ -144,7 +143,8 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2017-09-20 mié .+1d>
+SCHEDULED: <2017-09-21 jue .+1d>
+- State "DONE"       from "TODO"       [2017-09-20 mié 21:59]
 - State "DONE"       from "TODO"       [2017-09-19 mar 20:54]
 - State "DONE"       from "TODO"       [2017-09-18 lun 22:16]
 - State "DONE"       from "TODO"       [2016-12-21 mié 22:31]
@@ -187,7 +187,7 @@ SCHEDULED: <2017-09-20 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-09-19 mar 20:54]
+:LAST_REPEAT: [2017-09-20 mié 21:59]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
@@ -203,7 +203,8 @@ SCHEDULED: <2017-09-20 mié .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2017-09-20 mié .+1d>
+SCHEDULED: <2017-09-21 jue .+1d>
+- State "DONE"       from "TODO"       [2017-09-20 mié 21:59]
 - State "DONE"       from "TODO"       [2017-09-19 mar 20:54]
 - State "DONE"       from "TODO"       [2017-09-18 lun 22:16]
 - State "DONE"       from "TODO"       [2016-12-08 jue 23:21]
@@ -244,7 +245,7 @@ SCHEDULED: <2017-09-20 mié .+1d>
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-09-19 mar 20:54]
+:LAST_REPEAT: [2017-09-20 mié 21:59]
 :END:
 | N° | Descripcion                |                           |
 |  1 | flexion baja de la espalda | lev con brazos los muslos |
