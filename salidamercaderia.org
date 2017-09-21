@@ -119,14 +119,15 @@ Y puedo usarla tambien para un campo de busqueda que no necesite un
 tablelist abajo y por lo tanto ocupe menos lugar
 ** IDEA Fechar: fechado por lote, o sea seleccionar dos o tres y fechar a la misma fecha
 * Preguntar Fede
-** 63999 son dos nauticos??
-o sea la sra compro 4 nauticos, pq puso 6 de 180 sin articulo o es
-pack o es piñata
-** error de interpretacion fechas en recibos
-segunda cuota??
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-20 mié 22:00]
+
+** DONE plantear que Lesta aclare que LH son microfibra
+SCHEDULED: <2017-09-21 jue>
+- State "DONE"       from "IDEA"       [2017-09-21 jue 14:55]
+
+
 
 * Tareas
 ** TODO Revisar si todas las planillas de promotores estan pasadas a pc

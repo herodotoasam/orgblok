@@ -1900,6 +1900,30 @@ dia y el mes.
 Eso agrega muchisima posibilidad a la fecha.
 
 ** IDEA Pasador de recibos
+
+*** TODO preliminares
+**** DONE pasar tablas auxiliares a base principal
+- State "DONE"       from "TODO"       [2017-09-21 jue 15:07]
+CLOCK: [2017-09-21 jue 14:56]--[2017-09-21 jue 15:06] =>  0:10
+CLOCK: [2017-09-21 jue 14:06]--[2017-09-21 jue 14:20] =>  0:14
+en sqlite3
+.output nombre.sql
+.dump
+luego en la database destino
+.read nombre.sql
+y las tablas quedan incorporadas en la base de datos
+**** DONE modificar los recorridos para unificarlos
+- State "DONE"       from "TODO"       [2017-09-21 jue 16:31]
+CLOCK: [2017-09-21 jue 15:13]--[2017-09-21 jue 16:30] =>  1:17
+para evitar el tener numerosos numeros de recorridos por chico
+Listo, no solo unifique los recorridos, en una sola impresion, lo cual
+ahorra tambien la impresion un embole.
+Ahora voy a cambiar el list por un tablelist con un resumen de fichas
+para calcular lo que hay para imprimir y mejorar la seleccion.
+Sino que cambie la hoja resumen que no servia por una nueva basada en
+el recorrido.
+**** TODO cambiar el listbox de seleccion de zona por un tablelist con resumen de fichas
+**** revisar funcion pmovto
 *** Para el numero de recibo
 siguiendo con las ideas de la fecha se podria aparte de limitar a los
 numeros que tiene en su poder el cobrador, por la planilla o los que
