@@ -13,8 +13,9 @@ SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-20 mié 19:02]
 * Control limpieza dpto
 ** TODO baño
-SCHEDULED: <2017-09-25 lun .+7d>
+SCHEDULED: <2017-09-28 jue .+7d>
+- State "DONE"       from "TODO"       [2017-09-21 jue 19:43]
 - State "DONE"       from "TODO"       [2017-09-18 lun 22:21]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-18 lun 22:21]
+:LAST_REPEAT: [2017-09-21 jue 19:43]
 :END:

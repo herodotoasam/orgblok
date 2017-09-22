@@ -133,6 +133,11 @@ SCHEDULED: <2017-09-21 jue>
 ** TODO Revisar si todas las planillas de promotores estan pasadas a pc
 SCHEDULED: <2017-09-22 vie>
 eso explicaria la diferencia.
-** TODO imprimir fichas elva de ventas nuevas
+** DONE imprimir fichas elva de ventas nuevas
 SCHEDULED: <2017-09-21 jue>
+- State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
+** TODO comprar carpetas 12
+SCHEDULED: <2017-09-22 vie>
+** TODO poner aviso  
+SCHEDULED: <2017-09-22 vie>
 
