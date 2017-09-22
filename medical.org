@@ -13,6 +13,7 @@ SCHEDULED: <2017-11-08 mié>
 [2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
 de un gran ataque virosico y buscaba las ampollitas y me puse ac, pero
 nada, luego lo tuve el sabado a la mañana y se fue.
+Creo que la causa fue el boxer ajustado.
 [2017-09-18 lun] hoy hace un rato vuelvo a sentir pero a nivel
 varicocele en el huevo izquierdo, o como una sensacion de hernia, no
 como senti el viernes como algo masivo que abarcaba todo el perineo y
@@ -20,6 +21,8 @@ casi no me dejaba sentar.
 *** Implantes
 [2017-09-19 mar] hoy tengo bastantes molestias en en los implantes
 izquierdos en ambos, mas que todo en el de mas atras.
+Creo que la causa fue un cepillado demasiado intenso en la zona
+lastimada de los implantes.
 *** presion en brazos
 [2017-09-21 jue] siento presion en los brazos a la altura del codo de
 la parte de adentro como si tuviera una banda elastica que me
@@ -29,14 +32,15 @@ la mano derecha al escribir en el teclado. y por momentos en la
 oficina senti como que los ojos no enfocaban bien y se deslumbraban
 con la pantalla, pero recien me vine caminando bien hasta aca, solo
 tengo esto y un poco de rareza en la cabeza.
+Creo que la causa es el ejercicio de brazos.
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
 | [2017-09-20 mié] |   1 | desperte con dolor          |
-|                  |     |                             |
-|                  |     |                             |
+| [2017-09-21 jue] |   1 |                             |
+| [2017-09-22 vie] |   1 | madrugada                                   |
 |                  |     |                             |
 |                  |     |                             |
 ** TODO Cabergolina
@@ -69,6 +73,11 @@ y en el medio hice todo el ejercicio y el dolor se limpio totalmente.
 ** [2017-09-20 mié]
 desperte con dolor bastante feucho, tanto que pensaba que iba a
 terminar en nar. Tome un ibu a las 4.30hs y luego me levante bien.
+** [2017-09-22 vie]
+desperte con dolor mas o menos molesto, pero pienso que fue debido a
+que comi casi toda la bandeja de una tarta de pollo muy tarde y ahi al
+toque me fui a dormir, tome el ibu y me dormi y se fue todo bien, me
+levante joya.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

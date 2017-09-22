@@ -47,9 +47,11 @@ Heredia Valeria y Micaela Villalba morosas en seven, no se puede
 entregar nada ahi.
 
 
-* TODO Devoluciones pendientes [0/1]
-** TODO devolucion Mna 13 casa 36 Ampliacion Cabildo
-
+* DONE Devoluciones pendientes con Fede en zona [1/1]
+- State "DONE"       from "TODO"       [2017-09-22 vie 10:54]
+** DONE devolucion Mna 13 casa 36 Ampliacion Cabildo
+- State "DONE"       from "IDEA"       [2017-09-22 vie 10:54]
+al otro dia retiro la sabana y dejo la cortina en la casa.
 
 * LLamados por reclamos de sabanas
 ** [2017-09-15 vie] Viviana Romera Vigil 486
@@ -62,12 +64,30 @@ Def Cons, le dije que no lo diga que lo haga (tipo pope). y fresco.
 ** TODO [2017-09-15 vie] Sarmiento Leviller 1535 cobr 755
 la atendio la hija y dice que la madre no la iba a querer o que la
 habia devuelto creia, una 76.
-** TODO [2017-09-18 lun] Charafedin Pall Mall 3714
+** DONE [2017-09-18 lun] Charafedin Pall Mall 3714 (cortinas)
+- State "DONE"       from "IDEA"       [2017-09-22 vie 10:53]
+* Casos sabanas LH estropeadas
+** DONE caso Villa el libertador
+- State "DONE"       from "TODO"       [2017-09-22 vie 10:51]
+1 plaza / se cambio por una falla en la tela, la clienta con muy buena
+actitud, incluso la dio pagando la cuota y confiando en el
+cobrador. Valia la pena conservar la clienta. La sabana la vendimos
+mas barata con la Monica en cuotas creo que 6x80
+** TODO Capilla Remedios 6396
+1 plaza / se retirara y se anulara la venta. El cobrador dice que esta
+desteñida, no vale la pena conservar el cliente alli.
+
+
+
+* Recibos sospechosos 765
+| [2017-09-22 vie] | 250025 | 63172 | 250 |
+|                  |        |       |     |
+
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [2/20]
+* TODO bugs o improvs fichaje.py [2/23]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -118,6 +138,14 @@ flexible que fts.
 Y puedo usarla tambien para un campo de busqueda que no necesite un
 tablelist abajo y por lo tanto ocupe menos lugar
 ** IDEA Fechar: fechado por lote, o sea seleccionar dos o tres y fechar a la misma fecha
+** TODO Resumen: explorar la posibilidad de incluir fecha pmovto y msgcobrador
+eso daria la posibilidad de leer rapidamente en el resumen lo que hay
+que hacer o remarcar.
+** TODO una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
+incluso que me permita buscar un promotor no solo por numero sino por
+nombre para el futuro en futuros avisos y que esten todos y me muestre
+lo que vendio y cobro ese promotor.
+** IDEA colorear zonas elva y monica para que vea las que quedan para repartir
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
@@ -130,9 +158,14 @@ SCHEDULED: <2017-09-21 jue>
 
 
 * Tareas
-** TODO Revisar si todas las planillas de promotores estan pasadas a pc
+** DONE Revisar si todas las planillas de promotores estan pasadas a pc
 SCHEDULED: <2017-09-22 vie>
+- State "DONE"       from "IDEA"       [2017-09-22 vie 14:18]
 eso explicaria la diferencia.
+encontre que falime y daniela no estaban pasados, por casi 11k y vales
+por 1k mas.
+Hice un formato condicional para que use dos cuentas vales promotores
+y liquidaciones promotores por el momento y se me facilite las cosas.
 ** DONE imprimir fichas elva de ventas nuevas
 SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
