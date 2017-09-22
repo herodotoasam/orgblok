@@ -169,8 +169,10 @@ y liquidaciones promotores por el momento y se me facilite las cosas.
 ** DONE imprimir fichas elva de ventas nuevas
 SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
-** TODO comprar carpetas 12
+** DONE comprar carpetas 12
 SCHEDULED: <2017-09-22 vie>
-** TODO poner aviso  
+- State "DONE"       from "TODO"       [2017-09-22 vie 17:36]
+** DONE poner aviso  
 SCHEDULED: <2017-09-22 vie>
+- State "DONE"       from "TODO"       [2017-09-22 vie 17:36]
 

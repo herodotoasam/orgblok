@@ -1573,4 +1573,18 @@ cuando se acaben las sabanas se caeran unos cuantos.
 ** llegado el momento empalme visita de cliente
 y mi tiempo sobrante lo destino a poner luego un lmm con promocion
 para que vaya junto a la zona que el fede haga con la lesta.
-
+* [2017-09-22 vie]
+** una semana despues...
+quedan 6 promotores de los cuales hoy faltaron dos.
+Hay dos flojos, el Maxi y el Rodolfo que no responden a ningun
+estimulo. Y se quedan en la improductividad. 
+Aunque esta bueno seguir asi y seguir con mi plan original hoy
+lamentablemente cedi a las presiones indirectas del Fede sobre que no
+podemos dejar venir abajo el sistema de promocion
+Y mande a poner aviso nada mas y nada menos que dos domingos seguidos,
+lo cual generara un grupo nuevo.
+Y ya estoy arrepentido, pq hubiera estado buena la oportunidad para
+terminar de programar y tomarme un descanso.
+** uso de emacs en oficina
+habiendo unificado todos los archivos que van y vienen tengo todo
+junto y es mas comodo, pq tengo la informacion entera y mas comoda.
