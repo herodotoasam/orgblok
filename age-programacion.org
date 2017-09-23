@@ -1949,6 +1949,8 @@ solo confunde.
 **** revisar funcion pmovto
 
 *** TODO Comienzo del pasador propiamente dicho
+CLOCK: [2017-09-23 sáb 12:25]--[2017-09-23 sáb 13:04] =>  0:39
+CLOCK: [2017-09-23 sáb 11:02]--[2017-09-23 sáb 11:55] =>  0:53
 CLOCK: [2017-09-22 vie 23:43]--[2017-09-23 sáb 00:06] =>  0:23
 CLOCK: [2017-09-22 vie 21:02]--[2017-09-22 vie 21:39] =>  0:37
 CLOCK: [2017-09-22 vie 19:34]--[2017-09-22 vie 20:39] =>  1:05
@@ -1997,6 +1999,11 @@ no hace falta tablelist para todo
 *** tener mas info calculada
 p.e. suma de importes de un mismo recibo
 calculo de total de planilla menos cospeles, menos nafta, menos comision.
+*** TODO Faltantes
+**** agregado de recibos o cuentas que no estan en el esearch
+**** borrado de recibo pasado
+**** frenado de traverse en el boton pasar
+**** encuadres de tbls 
 ** IDEA Posible idea para fechador Nueva generacion
 tambien con un formato de planilla-formulario en el cual vaya
 avanzando con numero viendo datos claves y cambiando las fechas con
