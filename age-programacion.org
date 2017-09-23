@@ -1903,7 +1903,6 @@ dia y el mes.
 Eso agrega muchisima posibilidad a la fecha.
 
 ** IDEA Pasador de recibos
-
 *** TODO preliminares
 **** DONE pasar tablas auxiliares a base principal
 - State "DONE"       from "TODO"       [2017-09-21 jue 15:07]
@@ -1950,6 +1949,9 @@ solo confunde.
 **** revisar funcion pmovto
 
 *** TODO Comienzo del pasador propiamente dicho
+CLOCK: [2017-09-22 vie 23:43]--[2017-09-23 sáb 00:06] =>  0:23
+CLOCK: [2017-09-22 vie 21:02]--[2017-09-22 vie 21:39] =>  0:37
+CLOCK: [2017-09-22 vie 19:34]--[2017-09-22 vie 20:39] =>  1:05
 CLOCK: [2017-09-21 jue 20:11]--[2017-09-21 jue 21:11] =>  1:00
 - problemitas con la efecha que por ahi hay que pulir pero creo que
   estan pq saltaba.
@@ -1963,6 +1965,18 @@ CLOCK: [2017-09-21 jue 20:11]--[2017-09-21 jue 21:11] =>  1:00
 - la hechura del formulario con los entry2 y los linea es rapidisimo,
   me demoro en la parte tecnica quizas pq quiero agregarle
   inteligencia y he hecho mucho hoy.
+**** se agrego el visor de cuenta para no pasar a ciegas
+siempre he pasado los recibos a ciegas sin poder observar en el
+momento la cuenta integramente.
+Fabuloso vemos ahi mismo como se actualiza la cuota que pasamos.
+**** poner campo de pmovto y pmavisita para que pueda ver ahi
+CLOCK: [2017-09-22 vie 21:49]--[2017-09-22 vie 22:48] =>  0:59
+Agregado del tbls informativo abajo que muestre todo, falta info de
+cancelacion que no tiene como el de tcl. No se si hace falta pq se ve
+al medio. Pero se veria linda.
+**** IDEA concepto de tener la lista de recibos y la lista de clientes
+y que se vaya coloreando cuando se va pasando
+
 *** Para el numero de recibo
 siguiendo con las ideas de la fecha se podria aparte de limitar a los
 numeros que tiene en su poder el cobrador, por la planilla o los que

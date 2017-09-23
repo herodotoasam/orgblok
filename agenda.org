@@ -19,3 +19,11 @@ SCHEDULED: <2017-09-28 jue .+7d>
 :PROPERTIES:
 :LAST_REPEAT: [2017-09-21 jue 19:43]
 :END:
+** TODO cocina
+*** TODO piso
+SCHEDULED: <2017-09-29 vie .+7d>
+- State "DONE"       from "TODO"       [2017-09-22 vie 21:49]
+:PROPERTIES:
+:LAST_REPEAT: [2017-09-22 vie 21:49]
+:END:
+
