@@ -39,6 +39,8 @@ tengo esto y un poco de rareza en la cabeza.
 |                  |     |                             |
 |                  |     |                             |
 |                  |     |                             |
+vie no recuerdo ahora si tome algo.
+sab hasta el momento nada.
 ** TODO Cabergolina
 SCHEDULED: <2017-09-25 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
@@ -49,11 +51,12 @@ SCHEDULED: <2017-09-25 lun .+1w>
 
 
 ** TODO VitC
-SCHEDULED: <2017-09-22 vie .+1d>
+SCHEDULED: <2017-09-24 dom .+1d>
+- State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-21 jue 19:44]
+:LAST_REPEAT: [2017-09-23 sáb 22:29]
 :END:
 
 

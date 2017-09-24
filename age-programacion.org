@@ -2000,16 +2000,60 @@ no hace falta tablelist para todo
 p.e. suma de importes de un mismo recibo
 calculo de total de planilla menos cospeles, menos nafta, menos comision.
 *** TODO Faltantes
-**** agregado de recibos o cuentas que no estan en el esearch
+**** DONE agregado de recibos o cuentas que no estan en el esearch
+- State "DONE"       from "TODO"       [2017-09-23 sáb 21:01]
 CLOCK: [2017-09-23 sáb 14:08]--[2017-09-23 sáb 14:51] =>  0:43
 por el momento no encuentro una solucion facil sin romper la
 funcionalidad del esearch.
 La encontre via insertar el valor en la tabla subyacente, en este caso
 cambiando el view por una temp table, y usando control I para agregar
 el nuevo valor.
-**** borrado de recibo pasado
-**** frenado de traverse en el boton pasar
+**** DONE borrado de recibo pasado
+- State "DONE"       from ""           [2017-09-23 sáb 21:01]
+CLOCK: [2017-09-23 sáb 17:56]--[2017-09-23 sáb 18:53] =>  0:57
+**** DONE llenado de la info con la fecha y el cobr
+- State "DONE"       from "TODO"       [2017-09-23 sáb 22:17]
+CLOCK: [2017-09-23 sáb 21:12]--[2017-09-23 sáb 22:17] =>  1:05
+ahora al poner fecha y cobrador se llena todo.
+al borrar un recibo se actualiza bien todo, incluso los resaltados y
+se resalta suavemente con lightyellow el registro borrado
+**** DONE frenado de traverse en el boton pasar
+- State "DONE"       from ""           [2017-09-23 sáb 22:17]
+el frenado de traverse usa ahora una funcion muy facil para buttons
+#+BEGIN_EXAMPLE
+def nocyclebutton(ev):
+            balloon(ev.widget,'Termine el proceso!, active el Boton con tecla Espaciador',bg='OrangeRed',fg='black')
+            return 'break
+#+END_EXAMPLE
+al estar al principio es valida para todos los modulos.
+el uso es bien sencillo
+#+BEGIN_EXAMPLE
+ guardarpedido.bind('<<Enter>>',lambda ev: nocyclebutton(ev),add=1)
+ guardarpedido.bind('<Tab>',lambda ev: nocyclebutton(ev),add=1)
+#+END_EXAMPLE
 **** encuadres de tbls 
+*** TODO nueva emision de listados
+que sea mas amplia y que se le pueda dar al cobrador
+La idea seria tener un nuevo emisor de recibos mas amplio de hasta 50
+recibos que pueda darle al cobrador como planilla para que me la
+traiga llena.
+Esto abarcaria casos elva/monica/ comisiones y puntajes.
+**** esquema de llenado de numeros y llenado de tabla
+CLOCK: [2017-09-23 sáb 23:45]--[2017-09-24 dom 00:41] =>  0:56
+ya tengo el llenado de recibos hasta 50 y expandible hasta lo que
+quiera, 60/70/100 etc. lo que si si voy a usar la parte derecha del
+st2 para un tbls no va a entrar pero el procedimiento esta apto para
+agregar, y no creo que listas de mas de un talonario sean validas. NI
+para la Elva.
+incluso para ella puedo usarlo ahora como limitacion y cuidar que no
+se pase de eso.
+La impresion tambien es ipso facto en una sola linea mete los
+cincuenta, mañana hago el resumen a la derecha, diferencial segun el
+promotor.
+
+*** TODO manejo de lotes para ver pendientes
+y poder incluir elva y monica dentro de esto
+
 ** IDEA Posible idea para fechador Nueva generacion
 tambien con un formato de planilla-formulario en el cual vaya
 avanzando con numero viendo datos claves y cambiando las fechas con
