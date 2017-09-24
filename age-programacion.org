@@ -2050,6 +2050,29 @@ se pase de eso.
 La impresion tambien es ipso facto en una sola linea mete los
 cincuenta, mañana hago el resumen a la derecha, diferencial segun el
 promotor.
+**** DONE impresion de listado de lote diferenciado depende el cobrador
+- State "DONE"       from "TODO"       [2017-09-24 dom 13:41]
+CLOCK: [2017-09-24 dom 12:20]--[2017-09-24 dom 13:30] =>  1:10
+me hizo renegar un poco, pero lo logre con mas claridad.
+hay una lista llamada cobradorespuntaje=['765','488','755'] donde
+facilmente se puede poner quien esta habilitado, y eso hace que el
+listado sea diferencial y no muestre el tema comisiones, sino el
+puntaje.
+Tengo listado diferenciado para que me traigan la planilla hecha y por
+50 recibos.
+Con una leve correccion se imprime del tamaño adecuado y no se
+imprimen 50 casilleros al pedo.
+**** TODO planilla de retiro de recibos con clausulas y listado compacto de recibos
+CLOCK: [2017-09-24 dom 14:55]--[2017-09-24 dom 15:36] =>  0:41
+o sea la planilla que firma el cobrador.
+ahi tuve que usar para hacer list.pop() que me daba los valores de
+atras para adelante use collections.deque que tiene un metodo
+popleft().
+y eso hizo facil de la lista de numeros de recibos que yo llame wid o
+sea que es la que saco de los entrys que tienen un w.get() valido, voy
+haciendo pop hasta agotarla para hacerla a dos columnas. El resto es
+pericia del momento que se te va ocurriendo y no tenes tiempo de
+documentar y ojala siga funcionando bien.
 
 *** TODO manejo de lotes para ver pendientes
 y poder incluir elva y monica dentro de esto
