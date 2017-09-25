@@ -40,14 +40,9 @@ Creo que la causa es el ejercicio de brazos.
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
 | [2017-09-20 mié] |   1 | desperte con dolor          |
 | [2017-09-21 jue] |   1 |                             |
-| [2017-09-22 vie] |   1 | madrugada                                   |
-|                  |     |                             |
-|                  |     |                             |
-vie no recuerdo ahora si tome algo.
-sab no tome.
-dom tome a las 12hs pq parecia que iba a molestar al final no fue
-hasta ahora muchito. Al final transcurrio bastante bien con una siesta
-suprema con pastilla.
+| [2017-09-22 vie] |   1 | madrugada                   |
+| [2017-09-23 sáb] |   - |                             |
+| [2017-09-24 dom] |   1 |                             |
 ** TODO Cabergolina
 SCHEDULED: <2017-09-25 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
@@ -85,6 +80,12 @@ desperte con dolor mas o menos molesto, pero pienso que fue debido a
 que comi casi toda la bandeja de una tarta de pollo muy tarde y ahi al
 toque me fui a dormir, tome el ibu y me dormi y se fue todo bien, me
 levante joya.
+** [2017-09-24 dom]
+el domingo tome uno a las 12hs medio al pedo, pero por momentos
+parecia que era necesario, como paso al final ahora, el lunes que
+escribo esto y no lo tomas y no pasa nada. Pq transcurrio el domingo y
+no paso nada. Ojo con tomar por safar de situaciones o por arreglar un
+dia que parezca nefasto.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

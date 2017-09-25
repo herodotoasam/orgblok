@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA | DONE(d!)
 * Monica
-** Mercaderia llevada [5/6]
+** Mercaderia llevada de oficina [6/8]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -8,34 +8,66 @@
 *** DONE [2017-09-18 lun] pack toallones
 - State "DONE"       from "BUG"        [2017-09-20 mié 14:16]
 64184
-*** TODO [2017-09-18 lun] pack toallones
-
-** Dejada por Fede [2017-09-18 lun] [2/21]
-*** TODO pack nautico
-*** TODO pack nautico
-*** TODO pack nautico
-*** TODO pack nautico
-*** TODO pack nautico
-*** TODO cocina tropical
-*** TODO cocina tropical
+*** DONE [2017-09-18 lun] pack toallones
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:43]
+64240
+*** TODO [2017-09-25 lun] mantel
+*** TODO [2017-09-25 lun] mantel
+** Dejada por Fede [2017-09-18 lun] [14/21]
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
+64239
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
+64238
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
+64237
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:45]
+64236 parte 1
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:45]
+64236 parte 2
+*** DONE cocina tropical
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
+64233
+*** DONE cocina tropical
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
+64232
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-20 mié 14:17]
 64185
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
+64235
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
+64231
 *** TODO cortina
 *** TODO cortina
 *** TODO cortina
-*** TODO cortina
-*** TODO cortina
-*** TODO mantel cuerina
+*** DONE mantel cuerina
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
+64233
 *** TODO mantel cuerina
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-09-20 mié 14:17]
 64183
 *** TODO PB2
+*** DONE PB1
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
+64234
 *** TODO PB1
-*** TODO PB1
+*** DONE piñata
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
+64231
 *** TODO piñata
-*** TODO piñata
+** Entregado con su pack de toallones que le debemos
+*** DONE pack nautico
+- State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
+64235 
+
 * Elva
 ** TODO sab pb2 torres
 
@@ -87,7 +119,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [2/23]
+* TODO bugs o improvs fichaje.py [3/29]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -146,6 +178,23 @@ incluso que me permita buscar un promotor no solo por numero sino por
 nombre para el futuro en futuros avisos y que esten todos y me muestre
 lo que vendio y cobro ese promotor.
 ** IDEA colorear zonas elva y monica para que vea las que quedan para repartir
+** IDEA ver si en pasar recibos cuando pasas una cuenta se puede ver la cuenta
+igual en el listbox de los recibos. usando el metodo see. pq a veces
+hay dos cuentas y se ve abajo. o bien ponerlas por fecha.
+** DONE en Fechar el orden no es el mismo que el nuevo listado
+- State "DONE"       from "BUG"        [2017-09-25 lun 14:23]
+ya se hizo aca. simplemente la diferencia era el ordenamiento
+zona,calle,num frente a calle,num que tenia el tbls.
+** IDEA un error muy comun en el entry de total mas que todo en pasar recibo que meto space
+y me borra el contenido pq pienso que es el button, quizas haciendole
+un bind de space a traverse.
+** IDEA poner un entry2 en pasarrbos para viaticos en blanco y uno lo carga
+con 25/38/40/60/80/ etc lo que diga la planilla y eso permite hacer el
+calculo sin tener que usar la calculadora.
+** IDEA falta sumador de dos cuotas del mismo recibo
+** IDEA que pmovto/pmovto se pongan en rojo o se resalten con valores anomalos
+entonces no me saco los ojos al pedo mirandolos al vicio si saltan a
+un valor normal.
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
