@@ -1,87 +1,87 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2017-09-21 jue 21:20]
-| Headline                                       |      Time |         |
-|------------------------------------------------+-----------+---------|
-| *Total time*                                   | *5d 8:30* |         |
-|------------------------------------------------+-----------+---------|
-| Tab pedidos                                    |  1d 22:08 |         |
-| \emsp DONE haciendo subtab pasar clientes...   |           |    1:16 |
-| \emsp DONE bosquejamos el pasado de pedido     |           |    1:41 |
-| \emsp DONE agregando posibilidad de carga...   |           |    1:00 |
-| \emsp DONE parte logica - guardado del pedido  |           |    0:32 |
-| \emsp DONE poner la linea check anulado/...    |           |    0:30 |
-| \emsp nuevas ideas                             |           | 1d 1:35 |
-| \emsp DONE poner infoseven en datos de...      |           |    0:11 |
-| \emsp DONE revisar porque cuando se pasa un... |           |    0:14 |
-| \emsp DONE arreglar el verpedidos de tabver... |           |    0:05 |
-| \emsp DONE mejorar aun mas combobox nuevos     |           |    0:28 |
-| \emsp DONE mejoras en la rapidez del pasado... |           |    3:01 |
-| \emsp DONE mejoras en el documento             |           |    1:01 |
-| \emsp TODO tablero informativo promotores 2018 |           |    6:56 |
-| \emsp TODO mejorar pasado de cliente nuevo...  |           |    2:13 |
-| tab seven                                      |      0:51 |         |
-| tabVentas                                      |      1:31 |         |
-| \emsp verificacion bug                         |           |    0:41 |
-| \emsp DONE borrado de quieren comprar          |           |    0:50 |
-| tabFichas                                      |      1:11 |         |
-| \emsp DONE Imprimir listado desde Todos o Mora |           |    0:19 |
-| \emsp DONE Poner zonas elva y monica en...     |           |    0:05 |
-| \emsp DONE Revisar los criterios de...         |           |    0:20 |
-| \emsp DONE Posibilidad de intimar...           |           |    0:09 |
-| \emsp DONE Emision de un resumen de...         |           |    0:18 |
-| tabVer                                         |      6:24 |         |
-| \emsp DONE posibilidad de condonar             |           |    1:09 |
-| \emsp DONE que el tab-ver sirva tambien...     |           |    1:57 |
-| \emsp DONE poner el tbl de art comprado a...   |           |    0:47 |
-| \emsp TODO hacer un subtab que se vean las...  |           |    0:53 |
-| \emsp DONE info verificacion seven             |           |    0:16 |
-| \emsp DONE Historial de pedidos                |           |    0:35 |
-| Bug reaparece                                  |      2:20 |         |
-| \emsp tabFechar                                |           |    0:46 |
-| \emsp reviso con pycharm lado a lado           |           |    1:34 |
-| tab-Doc                                        |      1:23 |         |
-| \emsp DONE Marcar doc como llevado a...        |           |    1:23 |
-| TODO Generales                                 |      1:16 |         |
-| \emsp TODO campos entry mas diferenciados o... |           |    0:21 |
-| \emsp TODO ver la forma de que el...           |           |    0:55 |
-| TODO Modulos futuros                           |      2:44 |         |
-| \emsp TODO modulo de devoluciones de articulos |           |    2:44 |
-| DONE tabVer accesible desde todo el...         |      0:29 |         |
-| \emsp DONE interconexion en tabver idem a...   |           |    0:08 |
-| DONE chequear posibles bugs                    |      0:05 |         |
-| \emsp DONE tab order en pasado de pedidos...   |           |    0:03 |
-| \emsp DONE que paso, se achicaron los...       |           |    0:02 |
-| TODO improvs                                   |      0:21 |         |
-| \emsp DONE linkear desde fichas a fechar...    |           |    0:21 |
-| DONE tabCobrado                                |      1:51 |         |
-| \emsp DONE pivot por cobrar                    |           |    1:18 |
-| \emsp DONE generalizar la disposicion para...  |           |    0:13 |
-| \emsp DONE agregar a tabla virtual cuotas...   |           |    0:20 |
-| DONE Sumador                                   |      1:24 |         |
-| TODO tabSeven                                  |      1:05 |         |
-| \emsp DONE Sistema de baja del seven           |           |    1:05 |
-| DONE tema combobox                             |      0:36 |         |
-| DONE bug tabVer                                |      0:29 |         |
-| DONE bug tab Visitar:                          |      0:28 |         |
-| DONE bug de los dos articulos en tab...        |      0:39 |         |
-| TODO sistema de atencion telefonica            |      1:27 |         |
-| \emsp al marcar llamar en fechar guardar en... |           |    1:27 |
-| TODO tab PasarVentas [nuevo]                   |     23:18 |         |
-| \emsp DONE subtab pasado propiamente dicho     |           |   19:58 |
-| \emsp DONE posible pasado remoto               |           |    3:20 |
-| TODO Temas generales                           |   1d 4:30 |         |
-| \emsp DONE scroll para tablelist               |           |    0:42 |
-| \emsp DONE stripebg en tbls que cambie por...  |           |    0:24 |
-| \emsp ABORTED trabajo para solucionar el...    |           |    1:24 |
-| \emsp DONE combobox propio                     |           |   16:03 |
-| \emsp CANCELED dividir el proyecto en...       |           |    0:55 |
-| \emsp DONE idea refuncionalizar el tamaño y... |           |    2:25 |
-| \emsp IDEA unos labelentrys tipo como los...   |           |    1:10 |
-| \emsp IDEA que el fecha2 tenga mas opciones... |           |    1:02 |
-| \emsp IDEA Pasador de recibos                  |           |    4:25 |
-| bugs                                           |      4:00 |         |
-| \emsp problema database locked                 |           |    4:00 |
+#+CAPTION: Clock summary at [2017-09-24 dom 21:28]
+| Headline                                       |       Time |         |
+|------------------------------------------------+------------+---------|
+| *Total time*                                   | *5d 19:17* |         |
+|------------------------------------------------+------------+---------|
+| Tab pedidos                                    |   1d 22:08 |         |
+| \emsp DONE haciendo subtab pasar clientes...   |            |    1:16 |
+| \emsp DONE bosquejamos el pasado de pedido     |            |    1:41 |
+| \emsp DONE agregando posibilidad de carga...   |            |    1:00 |
+| \emsp DONE parte logica - guardado del pedido  |            |    0:32 |
+| \emsp DONE poner la linea check anulado/...    |            |    0:30 |
+| \emsp nuevas ideas                             |            | 1d 1:35 |
+| \emsp DONE poner infoseven en datos de...      |            |    0:11 |
+| \emsp DONE revisar porque cuando se pasa un... |            |    0:14 |
+| \emsp DONE arreglar el verpedidos de tabver... |            |    0:05 |
+| \emsp DONE mejorar aun mas combobox nuevos     |            |    0:28 |
+| \emsp DONE mejoras en la rapidez del pasado... |            |    3:01 |
+| \emsp DONE mejoras en el documento             |            |    1:01 |
+| \emsp TODO tablero informativo promotores 2018 |            |    6:56 |
+| \emsp TODO mejorar pasado de cliente nuevo...  |            |    2:13 |
+| tab seven                                      |       0:51 |         |
+| tabVentas                                      |       1:31 |         |
+| \emsp verificacion bug                         |            |    0:41 |
+| \emsp DONE borrado de quieren comprar          |            |    0:50 |
+| tabFichas                                      |       1:11 |         |
+| \emsp DONE Imprimir listado desde Todos o Mora |            |    0:19 |
+| \emsp DONE Poner zonas elva y monica en...     |            |    0:05 |
+| \emsp DONE Revisar los criterios de...         |            |    0:20 |
+| \emsp DONE Posibilidad de intimar...           |            |    0:09 |
+| \emsp DONE Emision de un resumen de...         |            |    0:18 |
+| tabVer                                         |       6:24 |         |
+| \emsp DONE posibilidad de condonar             |            |    1:09 |
+| \emsp DONE que el tab-ver sirva tambien...     |            |    1:57 |
+| \emsp DONE poner el tbl de art comprado a...   |            |    0:47 |
+| \emsp TODO hacer un subtab que se vean las...  |            |    0:53 |
+| \emsp DONE info verificacion seven             |            |    0:16 |
+| \emsp DONE Historial de pedidos                |            |    0:35 |
+| Bug reaparece                                  |       2:20 |         |
+| \emsp tabFechar                                |            |    0:46 |
+| \emsp reviso con pycharm lado a lado           |            |    1:34 |
+| tab-Doc                                        |       1:23 |         |
+| \emsp DONE Marcar doc como llevado a...        |            |    1:23 |
+| TODO Generales                                 |       1:16 |         |
+| \emsp TODO campos entry mas diferenciados o... |            |    0:21 |
+| \emsp TODO ver la forma de que el...           |            |    0:55 |
+| TODO Modulos futuros                           |       2:44 |         |
+| \emsp TODO modulo de devoluciones de articulos |            |    2:44 |
+| DONE tabVer accesible desde todo el...         |       0:29 |         |
+| \emsp DONE interconexion en tabver idem a...   |            |    0:08 |
+| DONE chequear posibles bugs                    |       0:05 |         |
+| \emsp DONE tab order en pasado de pedidos...   |            |    0:03 |
+| \emsp DONE que paso, se achicaron los...       |            |    0:02 |
+| TODO improvs                                   |       0:21 |         |
+| \emsp DONE linkear desde fichas a fechar...    |            |    0:21 |
+| DONE tabCobrado                                |       1:51 |         |
+| \emsp DONE pivot por cobrar                    |            |    1:18 |
+| \emsp DONE generalizar la disposicion para...  |            |    0:13 |
+| \emsp DONE agregar a tabla virtual cuotas...   |            |    0:20 |
+| DONE Sumador                                   |       1:24 |         |
+| TODO tabSeven                                  |       1:05 |         |
+| \emsp DONE Sistema de baja del seven           |            |    1:05 |
+| DONE tema combobox                             |       0:36 |         |
+| DONE bug tabVer                                |       0:29 |         |
+| DONE bug tab Visitar:                          |       0:28 |         |
+| DONE bug de los dos articulos en tab...        |       0:39 |         |
+| TODO sistema de atencion telefonica            |       1:27 |         |
+| \emsp al marcar llamar en fechar guardar en... |            |    1:27 |
+| TODO tab PasarVentas [nuevo]                   |      23:18 |         |
+| \emsp DONE subtab pasado propiamente dicho     |            |   19:58 |
+| \emsp DONE posible pasado remoto               |            |    3:20 |
+| TODO Temas generales                           |   1d 15:17 |         |
+| \emsp DONE scroll para tablelist               |            |    0:42 |
+| \emsp DONE stripebg en tbls que cambie por...  |            |    0:24 |
+| \emsp ABORTED trabajo para solucionar el...    |            |    1:24 |
+| \emsp DONE combobox propio                     |            |   16:03 |
+| \emsp CANCELED dividir el proyecto en...       |            |    0:55 |
+| \emsp DONE idea refuncionalizar el tamaño y... |            |    2:25 |
+| \emsp IDEA unos labelentrys tipo como los...   |            |    1:10 |
+| \emsp IDEA que el fecha2 tenga mas opciones... |            |    1:02 |
+| \emsp IDEA Pasador de recibos                  |            |   15:12 |
+| bugs                                           |       4:00 |         |
+| \emsp problema database locked                 |            |    4:00 |
 #+END:
 #+TODO: TODO(t) | DONE(d!) CANCELED(c@)
 #+TODO: IDEA IMPROV(i) BUG(b) | FIXED(f!@)
@@ -1903,7 +1903,6 @@ dia y el mes.
 Eso agrega muchisima posibilidad a la fecha.
 
 ** IDEA Pasador de recibos
-
 *** TODO preliminares
 **** DONE pasar tablas auxiliares a base principal
 - State "DONE"       from "TODO"       [2017-09-21 jue 15:07]
@@ -1950,6 +1949,11 @@ solo confunde.
 **** revisar funcion pmovto
 
 *** TODO Comienzo del pasador propiamente dicho
+CLOCK: [2017-09-23 sáb 12:25]--[2017-09-23 sáb 13:04] =>  0:39
+CLOCK: [2017-09-23 sáb 11:02]--[2017-09-23 sáb 11:55] =>  0:53
+CLOCK: [2017-09-22 vie 23:43]--[2017-09-23 sáb 00:06] =>  0:23
+CLOCK: [2017-09-22 vie 21:02]--[2017-09-22 vie 21:39] =>  0:37
+CLOCK: [2017-09-22 vie 19:34]--[2017-09-22 vie 20:39] =>  1:05
 CLOCK: [2017-09-21 jue 20:11]--[2017-09-21 jue 21:11] =>  1:00
 - problemitas con la efecha que por ahi hay que pulir pero creo que
   estan pq saltaba.
@@ -1963,6 +1967,18 @@ CLOCK: [2017-09-21 jue 20:11]--[2017-09-21 jue 21:11] =>  1:00
 - la hechura del formulario con los entry2 y los linea es rapidisimo,
   me demoro en la parte tecnica quizas pq quiero agregarle
   inteligencia y he hecho mucho hoy.
+**** se agrego el visor de cuenta para no pasar a ciegas
+siempre he pasado los recibos a ciegas sin poder observar en el
+momento la cuenta integramente.
+Fabuloso vemos ahi mismo como se actualiza la cuota que pasamos.
+**** poner campo de pmovto y pmavisita para que pueda ver ahi
+CLOCK: [2017-09-22 vie 21:49]--[2017-09-22 vie 22:48] =>  0:59
+Agregado del tbls informativo abajo que muestre todo, falta info de
+cancelacion que no tiene como el de tcl. No se si hace falta pq se ve
+al medio. Pero se veria linda.
+**** IDEA concepto de tener la lista de recibos y la lista de clientes
+y que se vaya coloreando cuando se va pasando
+
 *** Para el numero de recibo
 siguiendo con las ideas de la fecha se podria aparte de limitar a los
 numeros que tiene en su poder el cobrador, por la planilla o los que
@@ -1983,6 +1999,97 @@ no hace falta tablelist para todo
 *** tener mas info calculada
 p.e. suma de importes de un mismo recibo
 calculo de total de planilla menos cospeles, menos nafta, menos comision.
+*** TODO Faltantes
+**** DONE agregado de recibos o cuentas que no estan en el esearch
+- State "DONE"       from "TODO"       [2017-09-23 sáb 21:01]
+CLOCK: [2017-09-23 sáb 14:08]--[2017-09-23 sáb 14:51] =>  0:43
+por el momento no encuentro una solucion facil sin romper la
+funcionalidad del esearch.
+La encontre via insertar el valor en la tabla subyacente, en este caso
+cambiando el view por una temp table, y usando control I para agregar
+el nuevo valor.
+**** DONE borrado de recibo pasado
+- State "DONE"       from ""           [2017-09-23 sáb 21:01]
+CLOCK: [2017-09-23 sáb 17:56]--[2017-09-23 sáb 18:53] =>  0:57
+**** DONE llenado de la info con la fecha y el cobr
+- State "DONE"       from "TODO"       [2017-09-23 sáb 22:17]
+CLOCK: [2017-09-23 sáb 21:12]--[2017-09-23 sáb 22:17] =>  1:05
+ahora al poner fecha y cobrador se llena todo.
+al borrar un recibo se actualiza bien todo, incluso los resaltados y
+se resalta suavemente con lightyellow el registro borrado
+**** DONE frenado de traverse en el boton pasar
+- State "DONE"       from ""           [2017-09-23 sáb 22:17]
+el frenado de traverse usa ahora una funcion muy facil para buttons
+#+BEGIN_EXAMPLE
+def nocyclebutton(ev):
+            balloon(ev.widget,'Termine el proceso!, active el Boton con tecla Espaciador',bg='OrangeRed',fg='black')
+            return 'break
+#+END_EXAMPLE
+al estar al principio es valida para todos los modulos.
+el uso es bien sencillo
+#+BEGIN_EXAMPLE
+ guardarpedido.bind('<<Enter>>',lambda ev: nocyclebutton(ev),add=1)
+ guardarpedido.bind('<Tab>',lambda ev: nocyclebutton(ev),add=1)
+#+END_EXAMPLE
+**** TODO encuadres de tbls 
+*** DONE nueva emision de listados
+- State "DONE"       from "TODO"       [2017-09-24 dom 21:27]
+que sea mas amplia y que se le pueda dar al cobrador
+La idea seria tener un nuevo emisor de recibos mas amplio de hasta 50
+recibos que pueda darle al cobrador como planilla para que me la
+traiga llena.
+Esto abarcaria casos elva/monica/ comisiones y puntajes.
+**** esquema de llenado de numeros y llenado de tabla
+CLOCK: [2017-09-23 sáb 23:45]--[2017-09-24 dom 00:41] =>  0:56
+ya tengo el llenado de recibos hasta 50 y expandible hasta lo que
+quiera, 60/70/100 etc. lo que si si voy a usar la parte derecha del
+st2 para un tbls no va a entrar pero el procedimiento esta apto para
+agregar, y no creo que listas de mas de un talonario sean validas. NI
+para la Elva.
+incluso para ella puedo usarlo ahora como limitacion y cuidar que no
+se pase de eso.
+La impresion tambien es ipso facto en una sola linea mete los
+cincuenta, mañana hago el resumen a la derecha, diferencial segun el
+promotor.
+**** DONE impresion de listado de lote diferenciado depende el cobrador
+- State "DONE"       from "TODO"       [2017-09-24 dom 13:41]
+CLOCK: [2017-09-24 dom 12:20]--[2017-09-24 dom 13:30] =>  1:10
+me hizo renegar un poco, pero lo logre con mas claridad.
+hay una lista llamada cobradorespuntaje=['765','488','755'] donde
+facilmente se puede poner quien esta habilitado, y eso hace que el
+listado sea diferencial y no muestre el tema comisiones, sino el
+puntaje.
+Tengo listado diferenciado para que me traigan la planilla hecha y por
+50 recibos.
+Con una leve correccion se imprime del tamaño adecuado y no se
+imprimen 50 casilleros al pedo.
+**** DONE planilla de retiro de recibos con clausulas y listado compacto de recibos
+- State "DONE"       from "TODO"       [2017-09-24 dom 21:17]
+CLOCK: [2017-09-24 dom 20:36]--[2017-09-24 dom 21:15] =>  0:39
+CLOCK: [2017-09-24 dom 14:55]--[2017-09-24 dom 15:36] =>  0:41
+o sea la planilla que firma el cobrador.
+ahi tuve que usar para hacer list.pop() que me daba los valores de
+atras para adelante use collections.deque que tiene un metodo
+popleft().
+y eso hizo facil de la lista de numeros de recibos que yo llame wid o
+sea que es la que saco de los entrys que tienen un w.get() valido, voy
+haciendo pop hasta agotarla para hacerla a dos columnas. El resto es
+pericia del momento que se te va ocurriendo y no tenes tiempo de
+documentar y ojala siga funcionando bien.
+Planilla terminada en sus detalles y tablelist tree para ver los lotes
+dados. 
+
+*** TODO manejo de lotes para ver pendientes
+y poder incluir elva y monica dentro de esto
+Ya esta la emision del lote y el tbls, faltaria tener un campo en
+loterbos de lote devuelto que se chequeara cuando yo paso la planilla
+en pasar recibos y eso hiciera que en el tbls lotespendientes se
+coloreara distinto y quedaran expuestos solo los lotes pendientes. o
+sea los lotes en la calle que tienen que coincidir con las planillas
+que tenemos en el armario.
+los tbls tree son fabulosos aca, y tmb para hacer uno de recorridos
+salidos, que puedo cargar dia a dia, y no solo tenerlos automaticos
+como los tengo que es confuson. [[file:documentacion.org::*tree][Como hacer un Tablelist-tree]]
 ** IDEA Posible idea para fechador Nueva generacion
 tambien con un formato de planilla-formulario en el cual vaya
 avanzando con numero viendo datos claves y cambiando las fechas con

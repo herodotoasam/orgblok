@@ -77,6 +77,25 @@ para freezar columnas se usa la propiedad titlecolumns en el Tbls
 tbleditar=Tbls(self.p4,con,width=160,height=36,scrollhor=1,titlecolumns=1)
 #+END_EXAMPLE
 ahi se pone la cantidad de columnas que se quiere freezar.
+** tree
+para usar tablelist tree es facilisimo
+1. definir el tbls igual
+2. usar el metodo llenartree en vez de llenar que es igual
+#+BEGIN_EXAMPLE
+ tblslotesrbos.llenatree(con,'select id,fecha,cobr from loterbos order by id desc')
+#+END_EXAMPLE
+.3 poner la propiedad expand command del tbls a una funcion que va a
+ser llamada con el argumento tbls/row
+#+BEGIN_EXAMPLE
+tblslotesrbos['expandcommand']=loterbos_exp
+def loterbos_exp(tbl,row):
+            node=tblslotesrbos.getcell(row,0)
+            sel = "select rbo from rbos where idloterbos=?"
+            a=Datos(con,sel,node)
+            a.llenatree(tblslotesrbos,row,0,bg='bisque',fg='black')
+            if not a.cntrow:
+                balloon(tblslotesrbos,"Este lote no tiene recibos",mode='nobind')
+#+END_EXAMPLE
 * git
 ** stash/unstash changes
 puede ser visto como guardar cambios momentaneos o que estamos
