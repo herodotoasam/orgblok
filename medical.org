@@ -42,7 +42,8 @@ tengo esto y un poco de rareza en la cabeza.
 vie no recuerdo ahora si tome algo.
 sab no tome.
 dom tome a las 12hs pq parecia que iba a molestar al final no fue
-hasta ahora muchito.
+hasta ahora muchito. Al final transcurrio bastante bien con una siesta
+suprema con pastilla.
 ** TODO Cabergolina
 SCHEDULED: <2017-09-25 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
