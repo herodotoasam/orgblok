@@ -52,6 +52,8 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-23 sáb] |   - |                             |
 | [2017-09-24 dom] |   1 |                             |
 | [2017-09-25 lun] |   1 | 14hs en dpto                |
+| [2017-09-26 mar] |   2 | madrugada y oficina         |
+|                  |     |                             |
 ** TODO Cabergolina
 SCHEDULED: <2017-10-02 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
@@ -97,6 +99,11 @@ parecia que era necesario, como paso al final ahora, el lunes que
 escribo esto y no lo tomas y no pasa nada. Pq transcurrio el domingo y
 no paso nada. Ojo con tomar por safar de situaciones o por arreglar un
 dia que parezca nefasto.
+** [2017-09-26 mar]
+mal desperte con dolor como costumbre luego de la cabergolina, y todo
+bien, se fue, me levante y me bañe, y ahora en oficina, luego de una
+mañana dificil y sin desayuno me tomo un segundo ibu pq tengo un
+punzante en sien izq que espero se vaya. pero pienso que si se va a ir.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
