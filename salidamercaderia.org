@@ -188,9 +188,10 @@ zona,calle,num frente a calle,num que tenia el tbls.
 ** IDEA un error muy comun en el entry de total mas que todo en pasar recibo que meto space
 y me borra el contenido pq pienso que es el button, quizas haciendole
 un bind de space a traverse.
-** IDEA poner un entry2 en pasarrbos para viaticos en blanco y uno lo carga
-con 25/38/40/60/80/ etc lo que diga la planilla y eso permite hacer el
-calculo sin tener que usar la calculadora.
+Mas bien podria ser un acortamiento del proceso para que una vez visto
+el monto el space lo procese sin tener que hacer tres click siendo que
+recargo se cobra cada muerte de obispo.
+
 ** IDEA falta sumador de dos cuotas del mismo recibo
 ** IDEA que pmovto/pmovto se pongan en rojo o se resalten con valores anomalos
 entonces no me saco los ojos al pedo mirandolos al vicio si saltan a

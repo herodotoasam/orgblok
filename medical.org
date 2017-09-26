@@ -7,6 +7,8 @@ turnos, sintomas, historial etc.
 SCHEDULED: <2017-09-26 mar>
 ** TODO 11.40 Romero William
 SCHEDULED: <2017-11-08 mié>
+** sacar turno endocrinologia
+SCHEDULED: <2017-09-27 mié>
 * sintomas
 ** Dolores
 *** Testiculos
@@ -33,6 +35,12 @@ oficina senti como que los ojos no enfocaban bien y se deslumbraban
 con la pantalla, pero recien me vine caminando bien hasta aca, solo
 tengo esto y un poco de rareza en la cabeza.
 Creo que la causa es el ejercicio de brazos.
+*** Temblores
+[2017-09-25 lun] si bien es cierto que hace dos años que los padezco
+hoy tuve un ataque bastante feo en mano izquierda posterior a
+levantarme.
+Y tengo la sensacion que habia cesado el sintoma por mucho tiempo y se
+volvio a complicar el ultimo tiempo.
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
@@ -43,23 +51,26 @@ Creo que la causa es el ejercicio de brazos.
 | [2017-09-22 vie] |   1 | madrugada                   |
 | [2017-09-23 sáb] |   - |                             |
 | [2017-09-24 dom] |   1 |                             |
+| [2017-09-25 lun] |   1 | 14hs en dpto                |
 ** TODO Cabergolina
-SCHEDULED: <2017-09-25 lun .+1w>
+SCHEDULED: <2017-10-02 lun .+1w>
+- State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-09-18 lun 18:44]
+:LAST_REPEAT: [2017-09-25 lun 21:25]
 :END:
 
 
 ** TODO VitC
-SCHEDULED: <2017-09-25 lun .+1d>
+SCHEDULED: <2017-09-26 mar .+1d>
+- State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
 - State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-24 dom 12:19]
+:LAST_REPEAT: [2017-09-25 lun 21:25]
 :END:
 
 

@@ -1901,7 +1901,15 @@ interpretarse como el dia de este mes, o 129 y ser 12 de setiembre
 Le hice la posibilidad de llenar con fechas poniendo solo el dia o el
 dia y el mes.
 Eso agrega muchisima posibilidad a la fecha.
-
+*** DONE corregir entradas de dia y dia/mes para que no de error
+CLOCK: [2017-09-25 lun 17:40]--[2017-09-25 lun 18:12] =>  0:32
+- State "DONE"       from "BUG"        [2017-09-25 lun 17:37]
+CLOCK: [2017-09-25 lun 16:39]--[2017-09-25 lun 17:37] =>  0:58
+y de paso hacer que muestre futuro como orgmode
+Ya esta debo reconocer que fue idea de ih.
+Y evite un bug.
+Le agregue todos los controles que faltaban con regex para que no se
+pueda entrar valores erroneos .
 ** IDEA Pasador de recibos
 *** TODO preliminares
 **** DONE pasar tablas auxiliares a base principal
@@ -2090,6 +2098,34 @@ que tenemos en el armario.
 los tbls tree son fabulosos aca, y tmb para hacer uno de recorridos
 salidos, que puedo cargar dia a dia, y no solo tenerlos automaticos
 como los tengo que es confuson. [[file:documentacion.org::*tree][Como hacer un Tablelist-tree]]
+
+**** ideas para los subtabs subsiguientes de pasarrbos
+***** TODO el ingreso diario
+CLOCK: [2017-09-25 lun 21:31]--[2017-09-25 lun 22:14] =>  0:43
+es el mas importante para computar en un tree por fecha lo que cobran
+los cobradores, comisiones y viaticos cosa de hacer el asiento una vez
+al dia y que se pueda revisar alli.
+Se comenzo me hizo renegar un monton un trabazon ridiculo con el tree
+hasta que borre todo y empeze de nuevo no descubri el error, pero ya
+esta.
+ahora quedara para mañana el perfeccionamiento.
+Quizas tenga que hacer una tabla aparte para registrar las comisiones,
+viaticos y perdidas (o bien las perdidas cargarlas a viaticos). Y
+cuando uno pase el recorrido automaticamente se pasa ese registro, y
+en el st3 se une ese registro y el cobro real de planilla para empezar
+a hacer el asiento global, 
+| cobrado    | 17550 |
+| comisiones |  3550 |
+| viaticos   |   350 |
+y en los casos en que ese dia se pague una liquidacion se carga como
+comision y aparece en ese dia.
+Y esa tabla anexa sera un reflejo real de los costos de logistica para
+el cobro real que lo sacamos por planilla global, y alli se incluye
+tambien en forma automatica el cobro mio, el del fede etc.
+incluso a fin de mes podemos sacar el verdadero costo de la cobranza.
+
+***** recorridos
+***** planillas de rendicion virtuales
 ** IDEA Posible idea para fechador Nueva generacion
 tambien con un formato de planilla-formulario en el cual vaya
 avanzando con numero viendo datos claves y cambiando las fechas con
@@ -2149,3 +2185,13 @@ inconsistencia y se cerraba el programa sin desconectar, lo cual nunca
 me ocurre pq todas las transacciones son consistentes.
 
 
+* Items anotados en la oficina y luego cortados y pegados aca
+** IDEA poner un entry2 en pasarrbos para viaticos en blanco y uno lo carga
+CLOCK: [2017-09-25 lun 19:45]--[2017-09-25 lun 20:24] =>  0:39
+con 25/38/40/60/80/ etc lo que diga la planilla y eso permite hacer el
+calculo sin tener que usar la calculadora.
+Y en el fondo la chance de de que no calcule comision a los de
+puntaje.
+listo. Calculo el viatico con una funcion que suma los currencys.
+y tengo en cuenta los cobradores que son del sistema puntaje de los
+que no lo son.
