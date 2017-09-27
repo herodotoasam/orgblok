@@ -62,7 +62,11 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-24 dom] |   1 |                             |
 | [2017-09-25 lun] |   1 | 14hs en dpto                |
 | [2017-09-26 mar] |   2 | madrugada y oficina         |
-|                  |     |                             |
+| [2017-09-27 mié] |   1 | madrugada                   | 
+**  naratriptan
+| Fecha            | cnt | hora   |
+| [2017-09-27 mié] |   1 | 6.30hs |
+|                  |     |        |
 ** TODO Cabergolina
 SCHEDULED: <2017-10-02 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
@@ -113,7 +117,15 @@ dia que parezca nefasto.
 mal desperte con dolor como costumbre luego de la cabergolina, y todo
 bien, se fue, me levante y me bañe, y ahora en oficina, luego de una
 mañana dificil y sin desayuno me tomo un segundo ibu pq tengo un
-punzante en sien izq que espero se vaya. pero pienso que si se va a ir.
+punzante en sien izq que espero se vaya. pero pienso que si se va a
+ir.
+** [2017-09-27 mié]
+desperte como todas las noches de este tipo, tomo ibu con yogur, sigo
+durmiendo y me despierto de nuevo con un dolor mas intenso y dormido
+como estaba decido un <nar> pensando que tenia oficina, pienso que me
+acuchilla los compromisos de la oficina, que estoy muy cansado por
+eso.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
