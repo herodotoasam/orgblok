@@ -1,7 +1,8 @@
 
-* Compras y asuntos puntuales [2/4]
-** TODO comprar jean
+* Compras y asuntos puntuales [3/4]
+** DONE comprar jean
 DEADLINE: <2017-09-20 mié>
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 ** TODO buscar plomero
 DEADLINE: <2017-09-22 vie>
 ** DONE comprar sillon operativo

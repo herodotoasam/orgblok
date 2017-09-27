@@ -1,9 +1,9 @@
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
-#+CAPTION: Clock summary at [2017-09-24 dom 21:28]
+#+CAPTION: Clock summary at [2017-09-26 mar 23:15]
 | Headline                                       |       Time |         |
 |------------------------------------------------+------------+---------|
-| *Total time*                                   | *5d 19:17* |         |
+| *Total time*                                   | *5d 23:55* |         |
 |------------------------------------------------+------------+---------|
 | Tab pedidos                                    |   1d 22:08 |         |
 | \emsp DONE haciendo subtab pasar clientes...   |            |    1:16 |
@@ -70,7 +70,7 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | TODO tab PasarVentas [nuevo]                   |      23:18 |         |
 | \emsp DONE subtab pasado propiamente dicho     |            |   19:58 |
 | \emsp DONE posible pasado remoto               |            |    3:20 |
-| TODO Temas generales                           |   1d 15:17 |         |
+| TODO Temas generales                           |   1d 18:27 |         |
 | \emsp DONE scroll para tablelist               |            |    0:42 |
 | \emsp DONE stripebg en tbls que cambie por...  |            |    0:24 |
 | \emsp ABORTED trabajo para solucionar el...    |            |    1:24 |
@@ -78,10 +78,14 @@ Agenda de programacion clockeada.                             [[file:~/py1local/
 | \emsp CANCELED dividir el proyecto en...       |            |    0:55 |
 | \emsp DONE idea refuncionalizar el tamaño y... |            |    2:25 |
 | \emsp IDEA unos labelentrys tipo como los...   |            |    1:10 |
-| \emsp IDEA que el fecha2 tenga mas opciones... |            |    1:02 |
-| \emsp IDEA Pasador de recibos                  |            |   15:12 |
+| \emsp IDEA que el fecha2 tenga mas opciones... |            |    2:32 |
+| \emsp IDEA Pasador de recibos                  |            |   16:52 |
 | bugs                                           |       4:00 |         |
 | \emsp problema database locked                 |            |    4:00 |
+| Items anotados en la oficina y luego...        |       1:28 |         |
+| \emsp IDEA poner un entry2 en pasarrbos...     |            |    0:39 |
+| \emsp DONE en Fechar hacer boton enviar...     |            |    0:24 |
+| \emsp DONE estaria bueno un repetidor de...    |            |    0:25 |
 #+END:
 #+TODO: TODO(t) | DONE(d!) CANCELED(c@)
 #+TODO: IDEA IMPROV(i) BUG(b) | FIXED(f!@)
@@ -2126,6 +2130,20 @@ incluso a fin de mes podemos sacar el verdadero costo de la cobranza.
 
 ***** recorridos
 ***** planillas de rendicion virtuales
+**** TODO correcciones finas a pasado de recibos
+***** DONE colorear distinto en Fichas lo de Elva y Monica
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:29]
+CLOCK: [2017-09-26 mar 19:22]--[2017-09-26 mar 19:29] =>  0:07
+***** TODO recorrido generico Elva y Monica en Recibos
+CLOCK: [2017-09-26 mar 19:29]--[2017-09-26 mar 20:19] =>  0:50
+Esto fue mas trabajoso, pq de paso permite que con esas dos cobradoras
+se trabaje ipso facto sin recorrido y se cargue con toda la zona
+asignada a ellas sin afectar el sistema de recorridos de los otros.
+**** IDEA Ideas para nueva tabla guardadora del registro de planilla
+id,fecha,cobr,recorrido,lote,cobrado,comision,viatico,cntrbos.
+esto permitiria hacer un hub de varia informacion, incluso levantar la
+pasada completa con recorrido y lote.
+
 ** IDEA Posible idea para fechador Nueva generacion
 tambien con un formato de planilla-formulario en el cual vaya
 avanzando con numero viendo datos claves y cambiando las fechas con
@@ -2183,7 +2201,10 @@ todo.
 Y la base de lockeaba justamente pq se cometia un error de
 inconsistencia y se cerraba el programa sin desconectar, lo cual nunca
 me ocurre pq todas las transacciones son consistentes.
-
+* ideas generales
+** TODO hacer un metodo que cuente las filas de los tbls
+asi como t totaliza que supongamos Cc cuente y muestre un balloon con
+la cantidad de filas.
 
 * Items anotados en la oficina y luego cortados y pegados aca
 ** IDEA poner un entry2 en pasarrbos para viaticos en blanco y uno lo carga
@@ -2195,3 +2216,20 @@ puntaje.
 listo. Calculo el viatico con una funcion que suma los currencys.
 y tengo en cuenta los cobradores que son del sistema puntaje de los
 que no lo son.
+** DONE en Fechar hacer boton enviar directo a impresora, pues ya se ve cuantas fichas hay
+- State "DONE"       from "IDEA"       [2017-09-26 mar 21:48]
+CLOCK: [2017-09-26 mar 21:24]--[2017-09-26 mar 21:48] =>  0:24
+incluso se podria hacer mas grande el label de cnt de fichas  Incluso
+se podria tanto para ver como para enviar hacerlo con el resumen como
+vagon de cola, pq hacer los dos botones es embolante. Y hacer otro
+boton para imprimir ficha sin que se registre como recorrido.
+
+** DONE estaria bueno un repetidor de cuenta, que podria ser <dot>
+- State "DONE"       from "IDEA"       [2017-09-26 mar 22:15]
+CLOCK: [2017-09-26 mar 21:50]--[2017-09-26 mar 22:15] =>  0:25
+para que me cicle las cuentas del ultimo cliente
+Perfecto. Cree el evento virtual <<dot>> que incluye period y
+Kp_decimal o sea los dos puntos, y asi no tener que repetir binds.
+y con ese evento bindeo que cicle las cuentas del cliente. Funciona
+joya para dos cuentas, y medio que no funciona muy bien para tres o
+cuatro cuentas, pero no son muchos los casos.

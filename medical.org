@@ -2,11 +2,20 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos [0/2]
-** TODO 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
+* turnos [2/4]
+** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-26 mar>
-** TODO 11.40 Romero William
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
+** TODO radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
+SCHEDULED: <2017-09-30 sáb>
+
+** TODO analisis Romero William
+SCHEDULED: <2017-09-30 sáb>
+
+
+** DONE 11.40 Romero William
 SCHEDULED: <2017-11-08 mié>
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:17]
 ** sacar turno endocrinologia
 SCHEDULED: <2017-09-27 mié>
 * sintomas
@@ -65,14 +74,15 @@ SCHEDULED: <2017-10-02 lun .+1w>
 
 
 ** TODO VitC
-SCHEDULED: <2017-09-26 mar .+1d>
+SCHEDULED: <2017-09-27 mié .+1d>
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
 - State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-25 lun 21:25]
+:LAST_REPEAT: [2017-09-26 mar 19:16]
 :END:
 
 
