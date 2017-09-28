@@ -2,22 +2,24 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos [2/4]
+* turnos [2/6]
 ** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-26 mar>
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
+
+
+** TODO 12.40 Romero William
+SCHEDULED: <2017-11-08 mié>
+** TODO Dra Banus Maria Victoria 18hs 
+SCHEDULED: <2017-11-30 jue>
 ** TODO radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-30 sáb>
 
 ** TODO analisis Romero William
 SCHEDULED: <2017-09-30 sáb>
-
-
-** DONE 11.40 Romero William
-SCHEDULED: <2017-11-08 mié>
-- State "DONE"       from "TODO"       [2017-09-26 mar 19:17]
-** sacar turno endocrinologia
+** DONE sacar turno endocrinologia
 SCHEDULED: <2017-09-27 mié>
+- State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
 * sintomas
 ** Dolores
 *** Testiculos
@@ -67,6 +69,10 @@ volvio a complicar el ultimo tiempo.
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
 |                  |     |        |
+** gastromax
+| fecha            | cnt | horas            |
+| [2017-09-27 mié] |   2 | mediodia y noche |
+|                  |     |                  |
 ** TODO Cabergolina
 SCHEDULED: <2017-10-02 lun .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
@@ -78,7 +84,8 @@ SCHEDULED: <2017-10-02 lun .+1w>
 
 
 ** TODO VitC
-SCHEDULED: <2017-09-27 mié .+1d>
+SCHEDULED: <2017-09-28 jue .+1d>
+- State "DONE"       from "TODO"       [2017-09-27 mié 19:30]
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
@@ -86,7 +93,7 @@ SCHEDULED: <2017-09-27 mié .+1d>
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-26 mar 19:16]
+:LAST_REPEAT: [2017-09-27 mié 19:30]
 :END:
 
 

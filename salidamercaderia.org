@@ -200,10 +200,6 @@ entonces no me saco los ojos al pedo mirandolos al vicio si saltan a
 un valor normal.
 ** IDEA el Num de rbo tendria que ir primero que el num de cuenta
 ** BUG falta edicion de recibos
-** BUG cuando calcula el neto de viaticos- 
-que calcule todo de nuevo pq si me equivoco en poner el viatico y
-quiero ponerlo de nuevo da error, pq solo altera la cifra que ve, no
-recalcula los valores.
 ** BUG boton anular ventas no tendria que tener takefocus
 * Preguntar Fede
 ** DONE pedir queen!!

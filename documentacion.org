@@ -96,6 +96,33 @@ def loterbos_exp(tbl,row):
             if not a.cntrow:
                 balloon(tblslotesrbos,"Este lote no tiene recibos",mode='nobind')
 #+END_EXAMPLE
+** delete row
+para el proceso de borrado uno hace un body_bind con delete o
+control-d 
+#+BEGIN_EXAMPLE
+def borroplanilla():
+            idplanilla = tblsplanillasencrudo.getcell('active', 'id')
+            borro = messagebox.askquestion('Borrar Planilla', '¿Borra la Planilla {}?'.format(idplanilla))
+            if borro =='yes':
+                con.execute('delete from planillas where id=?', (idplanilla,))
+                con.commit()
+                tblsplanillasencrudo.recalc()
+ tblsplanillasencrudo = Tbls(st4,width=140,heigh=10,stripebg='DarkOrchid')
+ tblsplanillasencrudo.pack(anchor=W)
+ tblsplanillasencrudo.llenar(con,'select * from planillas order by id desc limit 500')
+ tblsplanillasencrudo.body_bind('<Control-d>',lambda ev:borroplanilla())
+#+END_EXAMPLE
+como se ve en el ejemplo se salta un messagebox.askquestion que
+contesta yes or no
+mi gran bug era que yo ponia 
+if borro:
+etc
+como si el resultado fuera pythoniano o sea logico, borro=1 si era si,
+pero esto es tcl, y el resultado del messagebox es 'yes' nunca lo
+habia descubierto pq debe ser que siempre que borre algo nunca me
+arrepenti, pero ahora que le di no al querer borrar me lo borraba lo
+mismo, entonces no servia la advertencia.
+
 * git
 ** stash/unstash changes
 puede ser visto como guardar cambios momentaneos o que estamos
