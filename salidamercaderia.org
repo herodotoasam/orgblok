@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA | DONE(d!)
 * Monica
-** Mercaderia llevada de oficina [6/8]
+** Mercaderia llevada de oficina [8/9]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -11,9 +11,14 @@
 *** DONE [2017-09-18 lun] pack toallones
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:43]
 64240
-*** TODO [2017-09-25 lun] mantel
-*** TODO [2017-09-25 lun] mantel
-** Dejada por Fede [2017-09-18 lun] [14/21]
+*** DONE [2017-09-25 lun] mantel
+- State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
+64352
+*** DONE [2017-09-25 lun] mantel
+- State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
+64351
+*** TODO [2017-09-28 jue] cortina incaica
+** Dejada por Fede [2017-09-18 lun] [15/21]
 *** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64239
@@ -44,7 +49,9 @@
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64231
-*** TODO cortina
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
+64352
 *** TODO cortina
 *** TODO cortina
 *** DONE mantel cuerina
@@ -67,7 +74,7 @@
 *** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
-
+** quedamos que los packs de muestra iran a 6x160
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
@@ -120,7 +127,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [4/32]
+* TODO bugs o improvs fichaje.py [4/38]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -149,6 +156,8 @@ colorear???
 ** TODO cuando pones repetir cliente poner la fecha de la ultima venta-
 tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta 
 ** TODO que la lista de ventas pasadas sea editable al menos en algunos campos, como era editar ventas en jornales
+en especial Fecha!! pq me trago errores en fecha y luego es tedioso
+corregir eso.
 ** BUG pmovto null -- la cuenta no sale
 tuve que actualizar a mano como unas 30 cuentas que no se estuvieron
 cobrando durante los dos meses anteriores por culpa de este
@@ -201,6 +210,14 @@ un valor normal.
 ** IDEA el Num de rbo tendria que ir primero que el num de cuenta
 ** BUG falta edicion de recibos
 ** BUG boton anular ventas no tendria que tener takefocus
+** TODO en planillas de lotes que el tree llene con los usados coloreados y nominados
+para tener conciencia del uso
+** TODO poner en planilla de lotes una columna con la cnt de rbos que tiene el lote.
+** TODO URG poner boton en TabVer evaluar direccion.
+** IDEA un subtab en Ventas con las fichas para imprimir de Mon y Elva 
+** BUG los botones guardarventas e item deben parar!!!
+** IDEA de ultima sacar el campo total en pasarrbos pq no tiene goyete, poner un balloon
+** IDEA poner los bind a +- a los esearch numericos si se puede.
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>

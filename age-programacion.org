@@ -1971,7 +1971,24 @@ de vez en cuando y ver que guardan ahi.
 Tambien esta por abecedario y dejo atras ese cumbersome de la zona que
 solo confunde.
 
-*** revisar funcion pmovto
+*** BUG revisar funcion pmovto
+lo que analice aca es que la funcion de sqlite funciona con decimales 
+#+BEGIN_EXAMPLE
+select date(primera,printf('+%s months',(ent+pagado)/ic)) from ventas where id=64297;
+2017-10-20
+#+END_EXAMPLE
+poniendo solo el calculo sin el round, sale el decimal en el caso de
+pago parcial y el pmovto se calcula proporcional, en ese caso una
+cuota de 125 vendida el 4/10 con un pago de 70 faltaban 55 y en vez de
+pasarme al 4/11 como lo haria con el round me puso al 20/10 y la
+segunda el 4/11 lo cual no estaria mal.
+Y los bugs observados en el establecimiento del pmovto se observan no
+en el pasado de la venta sino en el pasado de los recibos y pueden
+deberse al delay. o sea que cuando se procese ese calculo no se haya
+procesado el total pagado. Teniendo en cuenta que el valor pagado se
+procesa en el mismo trigger. De ultima se podria poner el mismo
+calculo que se usa mas arriba en vez de leer el valor de la tabla
+ventas que todavia puede no estar puesto.
 
 ** TODO Comienzo del pasador propiamente dicho
 CLOCK: [2017-09-23 sáb 12:25]--[2017-09-23 sáb 13:04] =>  0:39
