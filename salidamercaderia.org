@@ -135,11 +135,6 @@ desteñida, no vale la pena conservar el cliente alli.
 
 ** TODO en pasar ventas al lado del num de venta poner el pmovto que se genero
 
-** TODO reacomodar colores y balloones en pasar venta
-que venta generada y venta completada no se superpongan sino que esten
-lado a lado
-que guardar venta tenga color el boton igual que item
-
 ** TODO que poner el focus en idpedido sea igual que ingresar nuevo
 
 ** TODO que en el tbls listado ventas pasadas se pueda sumar las entregas
@@ -155,9 +150,6 @@ y confunde un poco y uno tiende a llevar el raton alla al pedo,
 colorear???
 ** TODO cuando pones repetir cliente poner la fecha de la ultima venta-
 tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta 
-** TODO que la lista de ventas pasadas sea editable al menos en algunos campos, como era editar ventas en jornales
-en especial Fecha!! pq me trago errores en fecha y luego es tedioso
-corregir eso.
 ** BUG pmovto null -- la cuenta no sale
 tuve que actualizar a mano como unas 30 cuentas que no se estuvieron
 cobrando durante los dos meses anteriores por culpa de este
@@ -166,11 +158,7 @@ cual habia sido la causa.
 ** TODO hacer un atajo para hacer upper el contenido de un campo
 ** DONE que tab tmb active el esearch2 igual que enter por las dudas
 - State "DONE"       from "TODO"        [2017-09-19 mar 20:22]
-** TODO pasar ventas: un boton atajo guardar ventas/pasar item para esas ventas que esta todo ok??
 ** TODO reubicar botones para mayor ergonomia
-** DONE un <dot> en el campo numpedido podria bindear a focus_set buscar para no tener que agarrar el raton
-- State "DONE"       from "TODO"       [2017-09-20 mié 19:20]
-
 ** IDEA en Fechar arriba de msgcobrar botones "Cancela" "Abona 2 cuotas" etc  lo que usualmente dicen
 ** IDEA extender esearch2 para que en vez de una tabla se le pase una consulta
 y esa consulta sea un query de los clientes que tiene en su poder el
@@ -209,13 +197,8 @@ entonces no me saco los ojos al pedo mirandolos al vicio si saltan a
 un valor normal.
 ** IDEA el Num de rbo tendria que ir primero que el num de cuenta
 ** BUG falta edicion de recibos
-** BUG boton anular ventas no tendria que tener takefocus
-** TODO en planillas de lotes que el tree llene con los usados coloreados y nominados
-para tener conciencia del uso
 ** TODO poner en planilla de lotes una columna con la cnt de rbos que tiene el lote.
-** TODO URG poner boton en TabVer evaluar direccion.
 ** IDEA un subtab en Ventas con las fichas para imprimir de Mon y Elva 
-** BUG los botones guardarventas e item deben parar!!!
 ** IDEA de ultima sacar el campo total en pasarrbos pq no tiene goyete, poner un balloon
 ** IDEA poner los bind a +- a los esearch numericos si se puede.
 * Preguntar Fede

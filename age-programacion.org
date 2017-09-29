@@ -1645,6 +1645,38 @@ Solo este procedimiento hace todo el trabajo de procesar los stms
             tblssmtpasados.recalc()
 #+END_EXAMPLE
 
+** Pulido desde la oficina
+*** FIXED los botones guardarventas e item deben parar!!!
+CLOCK: [2017-09-28 jue 19:41]--[2017-09-28 jue 20:11] =>  0:30
+*** FIXED boton anular ventas no tendria que tener takefocus
+*** DONE un <dot> en el campo numpedido podria bindear a focus_set buscar para no tener que agarrar el raton
+- State "DONE"       from "TODO"       [2017-09-20 mié 19:20]
+
+
+*** DONE pasar ventas: un boton atajo guardar ventas/pasar item para esas ventas que esta todo ok??
+- State "DONE"       from "TODO"       [2017-09-28 jue 20:14]
+
+*** DONE reacomodar colores y balloones en pasar venta
+- State "DONE"       from "TODO"       [2017-09-28 jue 20:15]
+que venta generada y venta completada no se superpongan sino que esten
+lado a lado
+que guardar venta tenga color el boton igual que item
+
+*** DONE que la lista de ventas pasadas sea editable al menos en algunos campos, como era editar ventas en jornales
+- State "DONE"       from "TODO"       [2017-09-28 jue 21:02]
+CLOCK: [2017-09-28 jue 20:44]--[2017-09-28 jue 21:02] =>  0:18
+en especial Fecha!! pq me trago errores en fecha y luego es tedioso
+corregir eso.
+
+*** DONE URG poner boton en TabVer evaluar direccion.
+- State "DONE"       from "TODO"       [2017-09-28 jue 21:08]
+CLOCK: [2017-09-28 jue 21:04]--[2017-09-28 jue 21:08] =>  0:04
+
+*** DONE en planillas de lotes que el tree llene con los usados coloreados y nominados
+- State "DONE"       from "TODO"       [2017-09-28 jue 21:19]
+CLOCK: [2017-09-28 jue 21:09]--[2017-09-28 jue 21:19] =>  0:10
+para tener conciencia del uso
+
 * TODO Temas generales
 ** DONE scroll para tablelist
 CLOCK: [2017-08-22 mar 20:07]--[2017-08-22 mar 20:49] =>  0:42

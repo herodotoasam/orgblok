@@ -30,3 +30,26 @@ para que los colorscheme queden pongo save colorscheme.
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 #+END_EXAMPLE
+
+
+*  instalacion de TCL
+1. emacs por supuesto (no se si hace falta vim-gtk)
+2. sqlite3 libsqlite3-tcl
+3. tklib bwidget libtk-img tcllib
+4. tk8.6-dev tcl8.6-dev
+5. git
+
+** instalar itcl /itk de la pagina
+./configure
+make all
+make test
+sudo make install
+
+editar el configure de itk y poner la ruta del /usr/lib/tk8.6/
+
+** pdf4tcl/tablelist
+ultimo tablelist de nemethi
+
+ambos a /usr/share/tcltk/
+
+
