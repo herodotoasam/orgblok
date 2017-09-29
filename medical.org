@@ -2,7 +2,7 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos [2/6]
+* turnos [3/6]
 ** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-26 mar>
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
@@ -15,8 +15,9 @@ SCHEDULED: <2017-11-30 jue>
 ** TODO radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-30 sáb>
 
-** TODO analisis Romero William
+** DONE analisis Romero William
 SCHEDULED: <2017-09-30 sáb>
+- State "DONE"       from "TODO"       [2017-09-29 vie 12:00]
 ** DONE sacar turno endocrinologia
 SCHEDULED: <2017-09-27 mié>
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
@@ -64,7 +65,10 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-24 dom] |   1 |                             |
 | [2017-09-25 lun] |   1 | 14hs en dpto                |
 | [2017-09-26 mar] |   2 | madrugada y oficina         |
-| [2017-09-27 mié] |   1 | madrugada                   | 
+| [2017-09-27 mié] |   1 | madrugada                   |
+| [2017-09-28 jue] |   2 | 12/23hs                     |
+| [2017-09-29 vie] |   1 | 12hs                        |
+|                  |     |                             |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -84,16 +88,18 @@ SCHEDULED: <2017-10-02 lun .+1w>
 
 
 ** TODO VitC
-SCHEDULED: <2017-09-28 jue .+1d>
+SCHEDULED: <2017-09-29 vie .+1d>
+- State "DONE"       from "TODO"       [2017-09-28 jue 18:02]
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:30]
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
 - State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
+- State "DONE"       from "TODO"       [2017-09-22 vie 17:44]
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-27 mié 19:30]
+:LAST_REPEAT: [2017-09-29 vie 12:02]
 :END:
 
 
@@ -132,7 +138,17 @@ durmiendo y me despierto de nuevo con un dolor mas intenso y dormido
 como estaba decido un <nar> pensando que tenia oficina, pienso que me
 acuchilla los compromisos de la oficina, que estoy muy cansado por
 eso.
-
+** [2017-09-28 jue]
+tuve unos dolorcitos que por momentos me hicieron pensar en tomar algo
+mas fuerte o sea que por ahi te parece que se va a ir de
+madre. Felizmente anoche que comi bastante y queria irme a hacer el
+analisis y no tomar nada a la madrugada no jodio
+** [2017-09-29 vie]
+por ahi aparecen tipo puntadas de la nada esta bien que no le doy
+pausa cuando estoy en la oficina y tambien tendria que tomarme un
+ejercicio.
+en especial que hago algo de mala postura, que tuve como una hora
+poniendo la compu atras muy incomodo.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

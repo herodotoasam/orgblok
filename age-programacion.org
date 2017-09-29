@@ -1677,6 +1677,13 @@ CLOCK: [2017-09-28 jue 21:04]--[2017-09-28 jue 21:08] =>  0:04
 CLOCK: [2017-09-28 jue 21:09]--[2017-09-28 jue 21:19] =>  0:10
 para tener conciencia del uso
 
+*** DONE que en el tbls listado ventas pasadas se pueda sumar las entregas
+- State "DONE"       from "TODO"       [2017-09-29 vie 16:20]
+y obvio seleccionar por fecha
+y quizas colorear por fecha (que ya lo tengo a ese proc)
+Listo hecho y creo que es muy util pq una vez pasado el lote diario
+uno revisa y ahi tiene que saltar si hay errores de fecha que se
+pueden corregir al instante. y de paso tambien sumo las ventas
 * TODO Temas generales
 ** DONE scroll para tablelist
 CLOCK: [2017-08-22 mar 20:07]--[2017-08-22 mar 20:49] =>  0:42

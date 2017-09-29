@@ -78,6 +78,11 @@
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
+** DONE SOTO LORENA SOLEDAD 3518010272 que llame y quede de acuerdo
+SCHEDULED: <2017-10-02 lun>
+- State "DONE"       from "TODO"       [2017-09-29 vie 15:07]
+para cobrar y llevar una sabana, se mudo a guido y europa.
+
 
 
 * Llamados pidiendo mercaderia no pasados a BD
@@ -127,7 +132,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [4/38]
+* TODO bugs o improvs fichaje.py [4/34]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -137,9 +142,6 @@ desteñida, no vale la pena conservar el cliente alli.
 
 ** TODO que poner el focus en idpedido sea igual que ingresar nuevo
 
-** TODO que en el tbls listado ventas pasadas se pueda sumar las entregas
-y obvio seleccionar por fecha
-y quizas colorear por fecha (que ya lo tengo a ese proc)
 ** TODO BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo
 y luego la pasas de nuevo y te figura dos cuotas pagadas
 ** TODO IDEA: poner el dia que se esta procesando en ventas:
@@ -198,9 +200,19 @@ un valor normal.
 ** IDEA el Num de rbo tendria que ir primero que el num de cuenta
 ** BUG falta edicion de recibos
 ** TODO poner en planilla de lotes una columna con la cnt de rbos que tiene el lote.
+
 ** IDEA un subtab en Ventas con las fichas para imprimir de Mon y Elva 
 ** IDEA de ultima sacar el campo total en pasarrbos pq no tiene goyete, poner un balloon
 ** IDEA poner los bind a +- a los esearch numericos si se puede.
+** BUG cuando procesas una planilla de rbos poner a cero viaticos
+pq sino da a error en la proxima que vamos a creer que ya estan
+descontados los viaticos.
+** IDEA aprovechar el registro de planilla y cargar en tabla recorridos el cobr y la fecha
+asi cuando la uso en Fechar ya estan, y de paso en fechar cargar esos datos.
+** TODO impresor de fichas para elva y monica pq solo falta poner add page en el ciclo
+y usar fimp
+** BUG chequear que si la p pasando venta esta corrida el pmovto sale vacio
+
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>

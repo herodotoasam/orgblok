@@ -245,4 +245,6 @@ los checkboxs interiores
 ** todos states por files
 #+TODO: TODO(t) | DONE(d!) CANCELED(c@)
 #+TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
-
+** sparse tree
+muy buena funcion!!!
+C-c // busco y me entrega abiertito y todo los que coinciden con la busqueda.
