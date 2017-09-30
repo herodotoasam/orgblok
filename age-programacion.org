@@ -2048,7 +2048,9 @@ de vez en cuando y ver que guardan ahi.
 Tambien esta por abecedario y dejo atras ese cumbersome de la zona que
 solo confunde.
 
-*** BUG revisar funcion pmovto
+*** DONE revisar funcion pmovto
+- State "DONE"       from "BUG"        [2017-09-30 sáb 16:10]
+CLOCK: [2017-09-30 sáb 15:32]--[2017-09-30 sáb 16:10] =>  0:38
 lo que analice aca es que la funcion de sqlite funciona con decimales 
 #+BEGIN_EXAMPLE
 select date(primera,printf('+%s months',(ent+pagado)/ic)) from ventas where id=64297;
@@ -2066,7 +2068,16 @@ procesado el total pagado. Teniendo en cuenta que el valor pagado se
 procesa en el mismo trigger. De ultima se podria poner el mismo
 calculo que se usa mas arriba en vez de leer el valor de la tabla
 ventas que todavia puede no estar puesto.
-
+**** DONE reparacion de la funcion pmovto sacando el round 
+- State "DONE"       from "TODO"       [2017-09-30 sáb 16:02]
+vi que sacando el round la funcion anda mejor
+y de paso corregimos en update.
+Hecho, se saco el round, se saco el tema del 1 o '1' y directamente se
+pone like 1 que anda para los dos, y se saco la referencia al campo
+pagado que es calculado en el mismo trigger y por lo tanto puede dar
+error ahi mismo. Y calculo los valores con lo que tiene la tabla
+llamadora del trigger que es la pagos.
+Y de paso tambien arregle el trigger update. 
 ** TODO Comienzo del pasador propiamente dicho
 CLOCK: [2017-09-23 sáb 12:25]--[2017-09-23 sáb 13:04] =>  0:39
 CLOCK: [2017-09-23 sáb 11:02]--[2017-09-23 sáb 11:55] =>  0:53
@@ -2309,6 +2320,18 @@ CLOCK: [2017-09-27 mié 14:52]--[2017-09-27 mié 15:38] =>  0:46
 que calcule todo de nuevo pq si me equivoco en poner el viatico y
 quiero ponerlo de nuevo da error, pq solo altera la cifra que ve, no
 recalcula los valores.
+** pulidos de oficina
+*** DONE poner en planilla de lotes una columna con la cnt de rbos que tiene el lote.
+- State "DONE"       from "TODO"       [2017-09-30 sáb 14:51]
+CLOCK: [2017-09-30 sáb 13:37]--[2017-09-30 sáb 13:53] =>  0:16
+CLOCK: [2017-09-30 sáb 13:14]--[2017-09-30 sáb 13:24] =>  0:10
+al final lo resolvi agregando un campo a la tabla lotesrbo y
+cargando el total cuando agrego el registro (total tengo esa
+informacion al cargar) y updateando todo lo pasado en forma
+provisoria.
+
+*** FIXED falta edicion de recibos
+CLOCK: [2017-09-30 sáb 15:01]--[2017-09-30 sáb 15:31] =>  0:30
 
 * bugs
 ** problema database locked
