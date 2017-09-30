@@ -68,7 +68,7 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-27 mié] |   1 | madrugada                   |
 | [2017-09-28 jue] |   2 | 12/23hs                     |
 | [2017-09-29 vie] |   2 | 12hs/22hs                   |
-|                  |     |                             |
+| [2017-09-30 sáb] |   1 | 18                          |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -155,6 +155,9 @@ sigo, pero como me va bien, sigo, y alterno, ejercicios, limpieza,
 comida, etc, pero la puntadita sigue y la amenaza sigue y todo el
 significante del migral agazapado, ese seguir hasta reventar total
 tomo la pastilla y se me va o caigo reventado. no me importa.
+** [2017-09-30 sáb]
+tomo un ibu postsiestal y preparatorio para lo que vendra esta noche
+con los nietos.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

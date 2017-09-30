@@ -248,3 +248,20 @@ los checkboxs interiores
 ** sparse tree
 muy buena funcion!!!
 C-c // busco y me entrega abiertito y todo los que coinciden con la busqueda.
+* emacs ultimos
+** register
+| C-x r space | point-to-register | F5 |
+| C-x r j     | jump-to-register  | F6 |
+|             |                   |    |
+muy bueno para establecer marcas y volver a ellas F5 y F6 son los
+atajos globales que hice
+** indentacion
+marcar una region y luego
+Cx Tab y ahi da la opcion a mover la region entera con left/right/ o
+Sleft o Sright
+** search at symbol
+con Cs-Cw buscamos la palabra del cursor y luego avanzamos con Cs o Cr
+como es habitual
+** historial en yank
+una vez hecho un yank C-y haciendo M-y o CY vamos atras o adelante en
+los yanks-rings.

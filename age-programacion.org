@@ -2162,6 +2162,22 @@ el uso es bien sencillo
  guardarpedido.bind('<Tab>',lambda ev: nocyclebutton(ev),add=1)
 #+END_EXAMPLE
 *** TODO encuadres de tbls 
+*** DONE edicion de recibos
+- State "DONE"       from "TODO"       [2017-09-30 sáb 20:10]
+CLOCK: [2017-09-30 sáb 19:50]--[2017-09-30 sáb 20:08] =>  0:18
+CLOCK: [2017-09-30 sáb 18:21]--[2017-09-30 sáb 18:35] =>  0:14
+o sea donde edito un recibo erroneo en general que encuentro
+o sea debo poder buscarlo y editarlo. Un lugar es la general de
+edicion haciendo el fts.
+Arregle un pequeño bug del tab Editar y ahi te das cuenta que tenes ya
+la base de un poder impresionante ya programado
+**** DONE generalizar el editar poniendo un esearch con todas las tablas del sistema
+- State "DONE"       from "TODO"       [2017-09-30 sáb 20:10]
+pusimos un esearch con todas las tablas del sistema. Obvio que uno
+puede ahi editar cualquier cosa o ver cualquier cosa
+#+BEGIN_EXAMPLE
+SELECT NAME FROM SQLITE_MASTER WHERE TYPE="table"
+#+END_EXAMPLE
 ** DONE nueva emision de listados
 - State "DONE"       from "TODO"       [2017-09-24 dom 21:27]
 que sea mas amplia y que se le pueda dar al cobrador
@@ -2332,6 +2348,21 @@ provisoria.
 
 *** FIXED falta edicion de recibos
 CLOCK: [2017-09-30 sáb 15:01]--[2017-09-30 sáb 15:31] =>  0:30
+
+*** DONE ver si en pasar recibos cuando pasas una cuenta se puede ver la cuenta
+- State "DONE"       from "IDEA"       [2017-09-30 sáb 20:46]
+CLOCK: [2017-09-30 sáb 20:13]--[2017-09-30 sáb 20:46] =>  0:33
+igual en el listbox de los recibos. usando el metodo see. pq a veces
+hay dos cuentas y se ve abajo. o bien ponerlas por fecha.
+Muy facil usas el metodo see(index) y el index lo sacas con
+searchcolumn.
+Me hizo perder tiempo que el tbls de cuentas tiene la column hide y no
+sabia si funcionaba y era que lo buscaba antes de la asignacion del
+valor.
+#+BEGIN_EXAMPLE
+rbo.e.bind('<FocusOut>',lambda ev: lboxrbos.see(lboxrbos.searchcolumn(0,rbo.get(),'-numeric','-exact')))
+cuotasdebe.see(cuotasdebe.searchcolumn(5,idvta,'-numeric','-exact'))
+#+END_EXAMPLE
 
 * bugs
 ** problema database locked
