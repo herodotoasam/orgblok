@@ -26,10 +26,10 @@
  '(cua-normal-cursor-color "#657b83")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes (quote (solarized-light)))
+ '(custom-enabled-themes (quote (molokai)))
  '(custom-safe-themes
    (quote
-    ("98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
+    ("a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
  '(fci-rule-color "#2e2e2e")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -64,7 +64,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/orgblok/agenda.org" "~/orgblok/medical.org" "~/orgblok/habitos.org" "/home/hero/orgblok/documentacion.org" "/home/hero/orgblok/age-programacion.org")))
+    ("~/orgblok/salidamercaderia.org" "~/orgblok/agenda.org" "~/orgblok/medical.org" "~/orgblok/habitos.org" "/home/hero/orgblok/documentacion.org" "/home/hero/orgblok/age-programacion.org")))
  '(org-agenda-span (quote day))
  '(org-deadline-warning-days 0)
  '(org-habit-show-habits-only-for-today t)
@@ -75,7 +75,7 @@
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (org-journal org-pomodoro projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
@@ -135,7 +135,7 @@
   (org-insert-time-stamp nil nil t)
   )
 (global-set-key (kbd "C-{") 'org-insert-inactive-timestamp)
-(global-set-key (kbd "C-M-{") 'org-pomodoro)
+(global-set-key (kbd "C-M-{") 'org-clock-in)
 (global-set-key (kbd "C-M-}") 'org-clock-out)
 
 (global-set-key (kbd "M-<f6>") (lambda() (interactive)(find-file "~/.emacs")))
@@ -253,8 +253,8 @@
 
 
 ;;company mode enable para todos
-(add-hook 'after-init-hook 'global-company-mode)
-(setq ag-reuse-buffers 't)
+;;(add-hook 'after-init-hook 'global-company-mode)
+;;(setq ag-reuse-buffers 't)
 
 
 
@@ -268,6 +268,33 @@
 (setq org-todo-keywords
       (quote ((sequence "TODO(t)"  "DONE(d!)"))))
 
+(setq pomidor-sound-tick nil
+      pomidor-sound-tack nil
+      )
 
+;;;
+;; Move to beginning of word before yanking word in isearch-mode.
+;; Make C-s C-w and C-r C-w act like Vim's g* and g#, keeping Emacs'
+;; C-s C-w [C-w] [C-w]... behaviour.
 
+(require 'thingatpt)
 
+(defun my-isearch-yank-word-or-char-from-beginning ()
+  "Move to beginning of word before yanking word in isearch-mode."
+  (interactive)
+  ;; Making this work after a search string is entered by user
+  ;; is too hard to do, so work only when search string is empty.
+  (if (= 0 (length isearch-string))
+      (beginning-of-thing 'word))
+  (isearch-yank-word-or-char)
+  ;; Revert to 'isearch-yank-word-or-char for subsequent calls
+  (substitute-key-definition 'my-isearch-yank-word-or-char-from-beginning 
+			     'isearch-yank-word-or-char
+			     isearch-mode-map))
+
+(add-hook 'isearch-mode-hook
+ (lambda ()
+   "Activate my customized Isearch word yank command."
+   (substitute-key-definition 'isearch-yank-word-or-char 
+			      'my-isearch-yank-word-or-char-from-beginning
+			      isearch-mode-map)))

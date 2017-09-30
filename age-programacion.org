@@ -1689,13 +1689,13 @@ CLOCK: [2017-09-29 vie 18:30]--[2017-09-29 vie 18:46] =>  0:16
 tema simple pero lo tenemos para chequear por lo menos hasta resolver
 el bug de pmovto.
 
-
 *** FIXED chequear que si la p pasando venta esta corrida el pmovto sale vacio
 CLOCK: [2017-09-29 vie 18:49]--[2017-09-29 vie 18:58] =>  0:09
 efectivamente Watson pq si el trigger tiene la opcion de que 1 o '1' y
 yo guardo ' 1' no es la misma cadena.
 
-*** TODO se hizo impresion de Fichas para Elva y Monica
+*** DONE se hizo impresion de Fichas para Elva y Monica
+- State "DONE"       from "TODO"       [2017-09-29 vie 23:56]
 CLOCK: [2017-09-29 vie 20:59]--[2017-09-29 vie 21:07] =>  0:08
 CLOCK: [2017-09-29 vie 19:54]--[2017-09-29 vie 20:45] =>  0:51
 1. se puso zonasdefichas=[x[0] for x in con.execute('select zona from
@@ -1711,8 +1711,16 @@ zonas where asignado in (516,731)').fetchall()]
 3. se agrego un subtab en Ventas que muestra cada mes las fichas de
    las zonas fijas, vendidas desde el dia primero con vencimiento
    dentro del mismo mes, y con campo fimp.
-**** TODO coloreado de ya impresas segun fecha de impresion posterior a la vta
-**** TODO proceso de impresion directamente desde ese subtab
+**** DONE coloreado de ya impresas segun fecha de impresion posterior a la vta
+- State "DONE"       from "TODO"       [2017-09-29 vie 23:55]
+CLOCK: [2017-09-29 vie 23:41]--[2017-09-29 vie 23:55] =>  0:14
+**** DONE proceso de impresion directamente desde ese subtab
+- State "DONE"       from "TODO"       [2017-09-29 vie 23:40]
+CLOCK: [2017-09-29 vie 22:59]--[2017-09-29 vie 23:40] =>  0:41
+Costo un poco pq tuve que copiar todo el proceso de impresion de nuevo
+aca y adaptar la parte que correspondia solo a la impresion sacando la
+parte de los recorridos y los titulos, o sea haciendo mas simple las
+cosas.
 
 * TODO Temas generales
 ** DONE scroll para tablelist
