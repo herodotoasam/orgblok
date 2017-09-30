@@ -87,8 +87,9 @@ SCHEDULED: <2017-10-02 lun .+1w>
 :END:
 
 
-** TODO VitC
-SCHEDULED: <2017-09-29 vie .+1d>
+** DONE VitC
+SCHEDULED: <2017-09-29 vie>
+- State "DONE"       from "TODO"       [2017-09-29 vie 19:59]
 - State "DONE"       from "TODO"       [2017-09-28 jue 18:02]
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:30]
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
@@ -99,7 +100,7 @@ SCHEDULED: <2017-09-29 vie .+1d>
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 - State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
 :PROPERTIES:
-:LAST_REPEAT: [2017-09-29 vie 12:02]
+:LAST_REPEAT: [2017-09-29 vie 19:59]
 :END:
 
 

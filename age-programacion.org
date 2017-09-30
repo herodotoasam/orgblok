@@ -1652,7 +1652,6 @@ CLOCK: [2017-09-28 jue 19:41]--[2017-09-28 jue 20:11] =>  0:30
 *** DONE un <dot> en el campo numpedido podria bindear a focus_set buscar para no tener que agarrar el raton
 - State "DONE"       from "TODO"       [2017-09-20 mié 19:20]
 
-
 *** DONE pasar ventas: un boton atajo guardar ventas/pasar item para esas ventas que esta todo ok??
 - State "DONE"       from "TODO"       [2017-09-28 jue 20:14]
 
@@ -1684,6 +1683,37 @@ y quizas colorear por fecha (que ya lo tengo a ese proc)
 Listo hecho y creo que es muy util pq una vez pasado el lote diario
 uno revisa y ahi tiene que saltar si hay errores de fecha que se
 pueden corregir al instante. y de paso tambien sumo las ventas
+*** DONE en pasar ventas al lado del num de venta poner el pmovto que se genero
+- State "DONE"       from "TODO"       [2017-09-29 vie 18:47]
+CLOCK: [2017-09-29 vie 18:30]--[2017-09-29 vie 18:46] =>  0:16
+tema simple pero lo tenemos para chequear por lo menos hasta resolver
+el bug de pmovto.
+
+
+*** FIXED chequear que si la p pasando venta esta corrida el pmovto sale vacio
+CLOCK: [2017-09-29 vie 18:49]--[2017-09-29 vie 18:58] =>  0:09
+efectivamente Watson pq si el trigger tiene la opcion de que 1 o '1' y
+yo guardo ' 1' no es la misma cadena.
+
+*** TODO se hizo impresion de Fichas para Elva y Monica
+CLOCK: [2017-09-29 vie 20:59]--[2017-09-29 vie 21:07] =>  0:08
+CLOCK: [2017-09-29 vie 19:54]--[2017-09-29 vie 20:45] =>  0:51
+1. se puso zonasdefichas=[x[0] for x in con.execute('select zona from
+zonas where asignado in (516,731)').fetchall()] 
+2. se agrega una pagina luego de imprimir cada cliente
+#+BEGIN_EXAMPLE
+ if x['zona'] in zonasdefichas:
+                    if i<len(lista)-1:
+                        pdf.add_page()
+#+END_EXAMPLE
+1. se agrega la fimp cuando se imprime el lote de fichas
+2. se agrego el campo fimp en el tbls de Fichas para poder ver
+3. se agrego un subtab en Ventas que muestra cada mes las fichas de
+   las zonas fijas, vendidas desde el dia primero con vencimiento
+   dentro del mismo mes, y con campo fimp.
+**** TODO coloreado de ya impresas segun fecha de impresion posterior a la vta
+**** TODO proceso de impresion directamente desde ese subtab
+
 * TODO Temas generales
 ** DONE scroll para tablelist
 CLOCK: [2017-08-22 mar 20:07]--[2017-08-22 mar 20:49] =>  0:42
@@ -2324,10 +2354,17 @@ Y la base de lockeaba justamente pq se cometia un error de
 inconsistencia y se cerraba el programa sin desconectar, lo cual nunca
 me ocurre pq todas las transacciones son consistentes.
 * ideas generales
-** TODO hacer un metodo que cuente las filas de los tbls
+** DONE hacer un metodo que cuente las filas de los tbls
+- State "DONE"       from "TODO"       [2017-09-29 vie 20:59]
+CLOCK: [2017-09-29 vie 20:45]--[2017-09-29 vie 20:58] =>  0:13
 asi como t totaliza que supongamos Cc cuente y muestre un balloon con
 la cantidad de filas.
-
+hice dos bind espectaculares uno que cuenta las filas directamente y
+otro que va contando lo que vamos seleccionando
+#+BEGIN_EXAMPLE
+self.body_bind('<Control-c>',lambda ev: balloon(self,self.size()))
+self.bind('<<TablelistSelect>>',lambda ev: balloon(self,len(self.curselection())))
+#+END_EXAMPLE
 * Items anotados en la oficina y luego cortados y pegados aca
 ** IDEA poner un entry2 en pasarrbos para viaticos en blanco y uno lo carga
 CLOCK: [2017-09-25 lun 19:45]--[2017-09-25 lun 20:24] =>  0:39
