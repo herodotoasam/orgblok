@@ -2399,6 +2399,21 @@ resaltandose el num de rbo.
 Y corregi un bug que no permitia funcionar colspesos y colstotales en
 dicho tbls.
 
+*** DONE un error muy comun en el entry de total mas que todo en pasar recibo que meto space
+- State "DONE"       from "IDEA"       [2017-10-01 dom 20:47]
+CLOCK: [2017-10-01 dom 20:04]--[2017-10-01 dom 20:45] =>  0:41
+y me borra el contenido pq pienso que es el button, quizas haciendole
+un bind de space a traverse.
+Mas bien podria ser un acortamiento del proceso para que una vez visto
+el monto el space lo procese sin tener que hacer tres click siendo que
+recargo se cobra cada muerte de obispo.
+takefocus=0 a rec y total. 
+Y luego hacer una funcion que recalcule totalmente el recargo y el
+total segun el saldo de la venta, para lo cual hice uso de una
+variable self.saldo al comienzo de la clase.
+que lleno al comenzar cada cuenta y cuando salgo de importe comparo
+con el saldo y ahi decido que pasa con el recargo y es muy bueno.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00

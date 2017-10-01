@@ -68,7 +68,7 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-27 mié] |   1 | madrugada                   |
 | [2017-09-28 jue] |   2 | 12/23hs                     |
 | [2017-09-29 vie] |   2 | 12hs/22hs                   |
-| [2017-09-30 sáb] |   1 | 18                          |
+| [2017-09-30 sáb] |   1 | 18hs                        |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -157,7 +157,12 @@ significante del migral agazapado, ese seguir hasta reventar total
 tomo la pastilla y se me va o caigo reventado. no me importa.
 ** [2017-09-30 sáb]
 tomo un ibu postsiestal y preparatorio para lo que vendra esta noche
-con los nietos.
+con los nietos. Al final a pesar de que no habia traido nar, gran
+olvido de mi parte, y de haber sido una noche dificil, habia comido
+mucho y mal, y me habia acostado ahi nomas, y sentia como que al menos
+tenia que tomar otro ibu, hasta pense que haria ante una migraña (me
+iba a ir en el auto a buscar el nar), al final dormi tranquilo, no
+tome el ibu y se limpio solo el dolor
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
