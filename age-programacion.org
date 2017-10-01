@@ -2336,6 +2336,24 @@ CLOCK: [2017-09-27 mié 14:52]--[2017-09-27 mié 15:38] =>  0:46
 que calcule todo de nuevo pq si me equivoco en poner el viatico y
 quiero ponerlo de nuevo da error, pq solo altera la cifra que ve, no
 recalcula los valores.
+** DONE manejo integral de recorridos
+- State "DONE"       from "TODO"       [2017-10-01 dom 14:29]
+*** DONE hacer un tbls de recorridos editable en fecha y cobr
+- State "DONE"       from "TODO"       [2017-10-01 dom 12:14]
+CLOCK: [2017-10-01 dom 11:30]--[2017-10-01 dom 12:14] =>  0:44
+para cargar la mañana que salen
+agregar un campo terminado o hecho para colorear los pendientes
+poner un boton purgar para borrar de la tabla los recorridos espurios
+o sea los generados al vicio en impresiones fallidas
+*** DONE hacer que en Ver salga un label con la info que esta en calle
+- State "DONE"       from "TODO"       [2017-10-01 dom 14:29]
+CLOCK: [2017-10-01 dom 14:05]--[2017-10-01 dom 14:28] =>  0:23
+*** DONE que al pasar recibos se cargue solo el recorrido en gatera
+- State "DONE"       from "TODO"       [2017-10-01 dom 12:50]
+CLOCK: [2017-10-01 dom 12:34]--[2017-10-01 dom 12:49] =>  0:15
+*** DONE que al fechar y poner un recorrido se cargue solo fecha y cobr
+- State "DONE"       from "TODO"       [2017-10-01 dom 13:24]
+CLOCK: [2017-10-01 dom 12:50]--[2017-10-01 dom 13:24] =>  0:34
 ** pulidos de oficina
 *** DONE poner en planilla de lotes una columna con la cnt de rbos que tiene el lote.
 - State "DONE"       from "TODO"       [2017-09-30 sáb 14:51]
