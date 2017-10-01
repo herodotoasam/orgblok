@@ -265,3 +265,15 @@ como es habitual
 ** historial en yank
 una vez hecho un yank C-y haciendo M-y o CY vamos atras o adelante en
 los yanks-rings.
+** version control
+| C-x vv | git commit |
+| C-x vP | git push   |
+| C-x v+ | git pull   |
+| c-x v= | git diff   |
+muy buena la secuencia ver lo que hay de diferencia luego commit y
+luego push.
+** comment region
+*** region entera coment/descoment
+ M-;
+*** escribiendo un comentario para seguir con coment
+M-j  corta linea y agrega comentario
