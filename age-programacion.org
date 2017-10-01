@@ -2364,6 +2364,17 @@ rbo.e.bind('<FocusOut>',lambda ev: lboxrbos.see(lboxrbos.searchcolumn(0,rbo.get(
 cuotasdebe.see(cuotasdebe.searchcolumn(5,idvta,'-numeric','-exact'))
 #+END_EXAMPLE
 
+*** DONE falta sumador de dos cuotas del mismo recibo
+- State "DONE"       from "IDEA"       [2017-09-30 sáb 23:31]
+CLOCK: [2017-09-30 sáb 22:46]--[2017-09-30 sáb 23:29] =>  0:43
+Analizando el problema veo que se podria hacer a nivel tablelist lo
+cual puede ser un poco complejo o bien a nivel balloon.
+Se logro una solucion muy efectiva, al hacerse un pago del mismo
+recibo se suma agregandose un row diferencial en el tablelist y
+resaltandose el num de rbo.
+Y corregi un bug que no permitia funcionar colspesos y colstotales en
+dicho tbls.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
