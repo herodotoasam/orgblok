@@ -1722,6 +1722,12 @@ aca y adaptar la parte que correspondia solo a la impresion sacando la
 parte de los recorridos y los titulos, o sea haciendo mas simple las
 cosas.
 
+*** DONE IDEA: poner el dia que se esta procesando en ventas:
+- State "DONE"       from "TODO"       [2017-10-01 dom 16:32]
+CLOCK: [2017-10-01 dom 14:32]--[2017-10-01 dom 14:50] =>  0:18
+y luego avisar si el pedido procesado es de otro dia o cambiarle el
+dia de una.
+
 * TODO Temas generales
 ** DONE scroll para tablelist
 CLOCK: [2017-08-22 mar 20:07]--[2017-08-22 mar 20:49] =>  0:42
