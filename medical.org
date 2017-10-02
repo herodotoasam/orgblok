@@ -53,6 +53,12 @@ hoy tuve un ataque bastante feo en mano izquierda posterior a
 levantarme.
 Y tengo la sensacion que habia cesado el sintoma por mucho tiempo y se
 volvio a complicar el ultimo tiempo.
+*** retorcijones
+[2017-10-02 lun] la noche anterior safe con oleo31 y a la mañana
+volvieron y me tome una pastilla de carbon y no jodio mas enla
+oficina.
+
+
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
@@ -69,6 +75,9 @@ volvio a complicar el ultimo tiempo.
 | [2017-09-28 jue] |   2 | 12/23hs                     |
 | [2017-09-29 vie] |   2 | 12hs/22hs                   |
 | [2017-09-30 sáb] |   1 | 18hs                        |
+| [2017-10-01 dom] |   2 |                             |
+| [2017-10-02 lun] |     |                             |
+|                  |     |                             |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -163,6 +172,13 @@ mucho y mal, y me habia acostado ahi nomas, y sentia como que al menos
 tenia que tomar otro ibu, hasta pense que haria ante una migraña (me
 iba a ir en el auto a buscar el nar), al final dormi tranquilo, no
 tome el ibu y se limpio solo el dolor
+** [2017-10-01 dom]
+ayer pensaba nuevamente que iba a llegar al nar, y antes de acostarme
+tome el segundo luego de un domingo que trabaje mucho y no disfrute pq
+estuve tenso todo el dia, pq estaba enojado con el Fede a la
+distancia. Y al acostarme luego de comer profusamente me agarro
+retorcijon fuerte, y tuve que aplicarme profusamente oleo31. 
+** 
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
