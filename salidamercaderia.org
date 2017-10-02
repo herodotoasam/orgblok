@@ -1,4 +1,4 @@
-#+TODO: TODO(t) BUG IDEA | DONE(d!) FIXED
+#+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED
 * Monica
 ** Mercaderia llevada de oficina [8/9]
 *** DONE 2 pack de toallones nauticos
@@ -132,7 +132,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [5/25]
+* TODO bugs o improvs fichaje.py [4/30]
 
 ** TODO sacar la traba en dni de pedidos
 
@@ -193,8 +193,18 @@ descontados los viaticos.
 ** IDEA aprovechar el registro de planilla y cargar en tabla recorridos el cobr y la fecha
 asi cuando la uso en Fechar ya estan, y de paso en fechar cargar esos
 datos.
-
-
+** BUG el "en calle ahora" tiene que tomar hecho=0 y cobr no null   :tabVer:
+y en realidad siempre van a haber dos recorridos no hechos asi que ahi
+tiene que ser el max()
+** BUG en el subtab Planillas de asientos al abrir no se recalcula :tabPasarRecibos:
+el tbls de abajo que tiene las planillas en moradito
+** IDEA que los tbls tengan un bind que te diga el nombre intenro del tbls :tablelist:
+lo que seria util para los bugs y las correcciones
+** BUG cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
+pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
+error, habria que hacer un if ahi
+** IMPROV en pasar planilla hacer un ballon que diga que ya esta pasada y evite el error :tabPasarRecibos:
+** IDEA que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
