@@ -266,12 +266,17 @@ como es habitual
 una vez hecho un yank C-y haciendo M-y o CY vamos atras o adelante en
 los yanks-rings.
 ** version control
-| C-x vv | git commit |
-| C-x vP | git push   |
-| C-x v+ | git pull   |
-| c-x v= | git diff   |
+| C-x vv | git commit        |
+| C-x vP | git push          |
+| C-x v+ | git pull          |
+| c-x v= | git diff          |
+| C-x vd | dired             |
+| C-x vD | git diff en dired |
+|        |                   |
 muy buena la secuencia ver lo que hay de diferencia luego commit y
 luego push.
+de ahi creo que lo mejor para orgblock es el vD que te hace ver las
+diff globales o bien vd y procesar de una, pq vv es para un solo archivo.
 ** comment region
 *** region entera coment/descoment
  M-;

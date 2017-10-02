@@ -132,20 +132,17 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [4/30]
+* TODO bugs o improvs fichaje.py [0/27]
 
-** TODO sacar la traba en dni de pedidos
-
-** TODO sacar el balloon de nombre de promotor que es molesto
-
-** TODO que poner el focus en idpedido sea igual que ingresar nuevo
-
-** TODO BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo
+** TODO sacar la traba en dni de pedidos                        :tabPedidos:
+** TODO sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
+** TODO BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo :tabPasarVentas:
 y luego la pasas de nuevo y te figura dos cuotas pagadas
-** TODO cuando pones ingresar nuevo y el cursor va a idpedido no se ve
+** TODO cuando pones ingresar nuevo y el cursor va a idpedido no se ve :tabPasarVentas:
 y confunde un poco y uno tiende a llevar el raton alla al pedo,
 colorear???
-** TODO cuando pones repetir cliente poner la fecha de la ultima venta-
+*** TODO que poner el focus en idpedido sea igual que ingresar nuevo
+** TODO cuando pones repetir cliente poner la fecha de la ultima venta- :tabPasarVentas:
 tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta 
 ** BUG pmovto null -- la cuenta no sale
 tuve que actualizar a mano como unas 30 cuentas que no se estuvieron
@@ -153,17 +150,8 @@ cobrando durante los dos meses anteriores por culpa de este
 asunto. Incluso no todas fueron cuentas nuevas y no pude averiguar
 cual habia sido la causa.
 ** TODO hacer un atajo para hacer upper el contenido de un campo
-** DONE que tab tmb active el esearch2 igual que enter por las dudas
-- State "DONE"       from "TODO"        [2017-09-19 mar 20:22]
-** TODO reubicar botones para mayor ergonomia
+** TODO reubicar botones para mayor ergonomia               :tabPasarVentas:
 ** IDEA en Fechar arriba de msgcobrar botones "Cancela" "Abona 2 cuotas" etc  lo que usualmente dicen
-** IDEA extender esearch2 para que en vez de una tabla se le pase una consulta
-y esa consulta sea un query de los clientes que tiene en su poder el
-cobrador entonces la busqueda se restringe a ellos y con pocos
-teclazos lo accedo mas si es con nombre calle y num, capaz que mas
-flexible que fts.
-Y puedo usarla tambien para un campo de busqueda que no necesite un
-tablelist abajo y por lo tanto ocupe menos lugar
 ** IDEA Fechar: fechado por lote, o sea seleccionar dos o tres y fechar a la misma fecha
 ** TODO Resumen: explorar la posibilidad de incluir fecha pmovto y msgcobrador
 eso daria la posibilidad de leer rapidamente en el resumen lo que hay
@@ -172,27 +160,14 @@ que hacer o remarcar.
 incluso que me permita buscar un promotor no solo por numero sino por
 nombre para el futuro en futuros avisos y que esten todos y me muestre
 lo que vendio y cobro ese promotor.
-** DONE colorear zonas elva y monica para que vea las que quedan para repartir
-- State "DONE"       from "IDEA"       [2017-09-26 mar 23:14]
-** DONE en Fechar el orden no es el mismo que el nuevo listado
-CLOCK: [2017-09-30 sáb 20:12]--[2017-09-30 sáb 20:13] =>  0:01
-- State "DONE"       from "BUG"        [2017-09-25 lun 14:23]
-ya se hizo aca. simplemente la diferencia era el ordenamiento
-zona,calle,num frente a calle,num que tenia el tbl
-** IDEA que pmovto/pmovto se pongan en rojo o se resalten con valores anomalos
+** IDEA que pmovto/pmovto se pongan en rojo o se resalten con valores anomalos :tabPasarRecibos:
 entonces no me saco los ojos al pedo mirandolos al vicio si saltan a
 un valor normal.
-** IDEA el Num de rbo tendria que ir primero que el num de cuenta
-** DONE un subtab en Ventas con las fichas para imprimir de Mon y Elva 
-- State "DONE"       from "IDEA"       [2017-09-29 vie 23:01]
-** IDEA de ultima sacar el campo total en pasarrbos pq no tiene goyete, poner un balloon
+** IDEA el Num de rbo tendria que ir primero que el num de cuenta :tabPasarRecibos:
 ** IDEA poner los bind a +- a los esearch numericos si se puede.
-** BUG cuando procesas una planilla de rbos poner a cero viaticos
+** BUG cuando procesas una planilla de rbos poner a cero viaticos :tabPasarRecibos:
 pq sino da a error en la proxima que vamos a creer que ya estan
 descontados los viaticos.
-** IDEA aprovechar el registro de planilla y cargar en tabla recorridos el cobr y la fecha
-asi cuando la uso en Fechar ya estan, y de paso en fechar cargar esos
-datos.
 ** BUG el "en calle ahora" tiene que tomar hecho=0 y cobr no null   :tabVer:
 y en realidad siempre van a haber dos recorridos no hechos asi que ahi
 tiene que ser el max()
@@ -205,6 +180,12 @@ pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
 error, habria que hacer un if ahi
 ** IMPROV en pasar planilla hacer un ballon que diga que ya esta pasada y evite el error :tabPasarRecibos:
 ** IDEA que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
+** BUG se rompio ver en Fechar desde ver cliente directamente        :tabVer:
+** BUG chequear pq cuando paso elva cada vez dice ballon listado generado lo cual es molesto :tabPasarRecibos:
+y no se pq se genera de nuevo un listado alli.
+** BUG verificar el funcionamiento del boton purgar        :tabPasarRecibos:
+** IMPROV que frenen los botones en pedidos en pasar cliente     :tabPedidos:
+** IMPROV que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
