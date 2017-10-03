@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED
 * Monica
-** Mercaderia llevada de oficina [8/9]
+** Mercaderia llevada de oficina [9/12]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -17,8 +17,13 @@
 *** DONE [2017-09-25 lun] mantel
 - State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
 64351
-*** TODO [2017-09-28 jue] cortina incaica
-** Dejada por Fede [2017-09-18 lun] [15/21]
+*** DONE [2017-09-28 jue] cortina incaica
+- State "DONE"       from "TODO"       [2017-10-03 mar 14:32]
+64452
+*** TODO [2017-10-03 mar] pack toallones reducido
+*** TODO [2017-10-03 mar] pack toallones reducido
+*** TODO [2017-10-03 mar] mantel chocolate
+** Dejada por Fede [2017-09-18 lun] [19/21]
 *** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64239
@@ -52,7 +57,9 @@
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
 64352
-*** TODO cortina
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-03 mar 14:32]
+64452
 *** TODO cortina
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
@@ -61,15 +68,21 @@
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-09-20 mié 14:17]
 64183
-*** TODO PB2
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-10-03 mar 14:31]
+64453
 *** DONE PB1
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
 64234
-*** TODO PB1
+*** DONE PB1
+- State "DONE"       from "TODO"       [2017-10-03 mar 14:31]
+64453
 *** DONE piñata
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64231
-*** TODO piñata
+*** DONE piñata
+- State "DONE"       from "TODO"       [2017-10-03 mar 14:32]
+64453
 ** Entregado con su pack de toallones que le debemos
 *** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
@@ -132,7 +145,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [1/23]
+* TODO bugs o improvs fichaje.py [0/27]
 
 ** TODO sacar la traba en dni de pedidos                        :tabPedidos:
 ** TODO sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
@@ -183,6 +196,11 @@ error, habria que hacer un if ahi
 ** BUG se rompio ver en Fechar desde ver cliente directamente        :tabVer:
 ** IMPROV que frenen los botones en pedidos en pasar cliente     :tabPedidos:
 ** IMPROV que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
+** IMPROV boton purgar para listado rbos                   :tabPasarRecibos:
+** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
+pero no por tenerlo en base de datos sino por disparado externo por
+pdf, pq es muy tedioso buscar el plano abrirlo etc.
+
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
