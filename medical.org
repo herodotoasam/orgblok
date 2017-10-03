@@ -81,7 +81,7 @@ oficina.
 | [2017-09-30 sáb] |   1 | 18hs                        |
 | [2017-10-01 dom] |   2 |                             |
 | [2017-10-02 lun] |   1 | 19hs                        |
-|                  |     |                             |
+| [2017-10-03 mar] |   2 | 8/15hs                      |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -182,7 +182,9 @@ tome el segundo luego de un domingo que trabaje mucho y no disfrute pq
 estuve tenso todo el dia, pq estaba enojado con el Fede a la
 distancia. Y al acostarme luego de comer profusamente me agarro
 retorcijon fuerte, y tuve que aplicarme profusamente oleo31. 
-** 
+** [2017-10-03 mar] 
+molesto un poco en oficina me fui a comer a casa lasagna y volvi con
+un poco de dolor.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
