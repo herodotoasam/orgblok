@@ -32,6 +32,10 @@ Creo que la causa fue el boxer ajustado.
 varicocele en el huevo izquierdo, o como una sensacion de hernia, no
 como senti el viernes como algo masivo que abarcaba todo el perineo y
 casi no me dejaba sentar.
+[2017-10-02 lun] en oficina senti como me apretaba el huevo derecho el
+boxer y de nuevo no se si es causa o efecto, o sea si el boxer es el
+causante o siento el boxer cuando tengo el dolor y lo sentiria igual
+con slip
 *** Implantes
 [2017-09-19 mar] hoy tengo bastantes molestias en en los implantes
 izquierdos en ambos, mas que todo en el de mas atras.
@@ -76,7 +80,7 @@ oficina.
 | [2017-09-29 vie] |   2 | 12hs/22hs                   |
 | [2017-09-30 sáb] |   1 | 18hs                        |
 | [2017-10-01 dom] |   2 |                             |
-| [2017-10-02 lun] |     |                             |
+| [2017-10-02 lun] |   1 | 19hs                        |
 |                  |     |                             |
 **  naratriptan
 | Fecha            | cnt | hora   |
@@ -87,12 +91,12 @@ oficina.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 |                  |     |                  |
 ** TODO Cabergolina
-SCHEDULED: <2017-10-02 lun .+1w>
+SCHEDULED: <2017-10-09 lun .+1w>
+- State "DONE"       from "TODO"       [2017-10-02 lun 22:31]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:STYLE:    habit
-:LAST_REPEAT: [2017-09-25 lun 21:25]
+:LAST_REPEAT: [2017-10-02 lun 22:31]
 :END:
 
 

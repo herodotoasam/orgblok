@@ -2414,6 +2414,29 @@ variable self.saldo al comienzo de la clase.
 que lleno al comenzar cada cuenta y cuando salgo de importe comparo
 con el saldo y ahi decido que pasa con el recargo y es muy bueno.
 
+*** DONE verificar el funcionamiento del boton purgar     :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-02 lun 21:29]
+CLOCK: [2017-10-02 lun 21:18]--[2017-10-02 lun 21:29] =>  0:11
+Habria que poner una mañana luego que salgan los cobradores numero de
+cobr a todos los recorridos que salieron, y si queda alguno pendiente
+en mostrador nominarlo provisoriamente, y purgar lo cual borrara todos
+los que sean cobr null o "".
+Para justificar un poco el trabajo, puse un balloon de ayuda en el
+boton y un recalculo al tbls
+
+
+*** FIXED chequear pq cuando paso elva cada vez dice ballon listado generado lo cual es molesto :tabPasarRecibos:
+CLOCK: [2017-10-02 lun 21:32]--[2017-10-02 lun 22:29] =>  0:57
+y no se pq se genera de nuevo un listado alli.
+Me tarde un poco mas de lo pensado en este bug, pero en realidad era
+algo que estaba mal hecho y no lo resolvi tampoco muy bien. Pero quedo
+mejor que antes, al menos en calculo. Pq cada vez que se pasaba un
+recibo de Elva se creaba la tabla temporal de todas las cuentas, o sea
+habia procesos que se hacian cuando se cargaba fecha y cobrador que se
+estaban repitiendo en cada recibo.
+Me gustaria refactorizar mas pero me da miedo que encuentre un error
+en la oficina y no pueda agregar otras cosas.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
