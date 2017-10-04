@@ -17,6 +17,7 @@ permitira sincronizar calendarios y demas.
 2. git
 3. firefox
 4. xclip
+5. zathura
 ** syncronizar marcadores con firefox hfj024/ataraxia76
 ** crear clave ssh con gitlab para hacer el git clone sin contraseña
 
@@ -27,6 +28,8 @@ permitira sincronizar calendarios y demas.
 con Mx package-install
 1. org-bullets
 2. ido-vertical-mode
+3. smartparents
+4. auto-complete
 
 ** ColorScheme usado: leuven
 que se instala desde Mx list-packages y ahi lo elijo e instalo y luego
@@ -85,3 +88,13 @@ ambos a /usr/share/tcltk/
 3. fpdf
 4. Pmw
 5. pyperclip
+6. 
+
+** poner las fuentes DejaVu / DejaVuBold en pyrx
+
+** editar .bashrc
+#+BEGIN_EXAMPLE
+alias cd..='cd ..'
+alias q='exit'
+xmodmap ~/.Xmodmap
+#+END_EXAMPLE
