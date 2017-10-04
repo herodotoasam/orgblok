@@ -145,7 +145,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [1/28]
+* TODO bugs o improvs fichaje.py [1/29]
 
 ** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
 - State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
@@ -202,6 +202,7 @@ error, habria que hacer un if ahi
 pero no por tenerlo en base de datos sino por disparado externo por
 pdf, pq es muy tedioso buscar el plano abrirlo etc.
 ** BUG el tbl moradito de planillas es un desastre id ordena mal, no tiene colspesos no recalcula etc :tabPasarRecibos:
+** BUG en tbl loterbos la cnt la llena mal pq a todos pone 50 :tabPasarRecibos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
