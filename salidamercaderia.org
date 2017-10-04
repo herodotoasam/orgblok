@@ -1,5 +1,5 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED
-* Monica
+* Monica-
 ** Mercaderia llevada de oficina [9/12]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
@@ -23,7 +23,7 @@
 *** TODO [2017-10-03 mar] pack toallones reducido
 *** TODO [2017-10-03 mar] pack toallones reducido
 *** TODO [2017-10-03 mar] mantel chocolate
-** Dejada por Fede [2017-09-18 lun] [19/21]
+- Dejada por Fede [2017-09-18 lun] [19/21]
 *** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64239
@@ -145,9 +145,10 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [0/27]
+* TODO bugs o improvs fichaje.py [1/28]
 
-** TODO sacar la traba en dni de pedidos                        :tabPedidos:
+** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
+- State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
 ** TODO sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 ** TODO BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo :tabPasarVentas:
 y luego la pasas de nuevo y te figura dos cuotas pagadas
@@ -200,7 +201,7 @@ error, habria que hacer un if ahi
 ** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
 pero no por tenerlo en base de datos sino por disparado externo por
 pdf, pq es muy tedioso buscar el plano abrirlo etc.
-
+** BUG el tbl moradito de planillas es un desastre id ordena mal, no tiene colspesos no recalcula etc :tabPasarRecibos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
