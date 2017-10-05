@@ -1,4 +1,4 @@
-  #+STARTUP: indent
+#+STARTUP: indent
 * Org-mode                                                         :dpto:org:
 ** Historia:
 Escuche la conferencia del creador de org-mode. Muy interesante
@@ -479,3 +479,12 @@ crea una tabla con el total del tiempo clockeado
 en begin pregunta el nivel de recursion que va a controlar
 Cc-Cc sobre BEGIN recalcula la tabla
 
+
+
+* your life in plain text
+** [2017-10-04 mié] 
+1. que se pueden tener distintos archivos dentro del directorio para
+   distintos asuntos, total las herramientas de busqueda son muy
+   poderosas y tambien las de versionado
+2. que se puede poner en agenda directamente el directorio y no los
+   archivos individuales eso hace que se agende todo.

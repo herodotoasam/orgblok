@@ -2437,6 +2437,19 @@ estaban repitiendo en cada recibo.
 Me gustaria refactorizar mas pero me da miedo que encuentre un error
 en la oficina y no pueda agregar otras cosas.
 
+* IDEA Tablero de zonas
+la idea seria tener lo que esta en la pizarra pero en un subtab
+** pienso primero poner un tbls con zonas como primera columna y luego
+CLOCK: [2017-10-04 mié 19:55]--[2017-10-04 mié 20:49] =>  0:54
+columnas de dias que se levante con los recorridos reales.
+Lista la primera parte en la cual se logro un interesante pivot que se
+actualiza continuamente y toma los dos ultimos meses, y toma
+informacion de la tabla recorrido y nos permite ver como nos estamos
+moviendo en las zonas. creo que podria tener eso en la mitad de la
+pantalla y en la otra mitad podria tener un tbls de cinco columna para
+planificar la proxima semana y una visualizacion de lo que hay en cada
+zona.
+
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00

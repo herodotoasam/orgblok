@@ -42,6 +42,15 @@ para que los colorscheme queden pongo save colorscheme.
 (setq recentf-max-menu-items 25)
 #+END_EXAMPLE
 
+** ag
+*** instalar silver searcher 
+#+BEGIN_EXAMPLE
+sudo apt install silversearcher-ag
+#+END_EXAMPLE
+*** luego instalar ag
+Mx package-install ag
+
+
 
 *  instalacion de TCL
 1. emacs por supuesto (no se si hace falta vim-gtk)

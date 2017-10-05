@@ -22,15 +22,12 @@ SCHEDULED: <2017-02-06 lun +2m>
 
 ** auto                                                               :auto:
 *** TODO depositar por seguros 
-DEADLINE: <2017-01-05 jue +1m>
+DEADLINE: <2017-11-05 dom +1m>
 - State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-03 jue 12:42]
 :PROPERTIES:
 :LAST_REPEAT: [2016-12-06 mar 11:01]
 :END:
-*** TODO pagar cochera auto
-DEADLINE: <2017-06-01 jue +1m>
-
 ** otros fijos
 *** TODO Claro 
 DEADLINE: <2017-01-25 mié +1m>
