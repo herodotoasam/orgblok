@@ -1,4 +1,4 @@
-#+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED
+#+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** Mercaderia llevada de oficina [9/12]
 *** DONE 2 pack de toallones nauticos
@@ -145,7 +145,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [1/29]
+* TODO bugs o improvs fichaje.py [4/29]
 
 ** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
 - State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
@@ -187,8 +187,12 @@ y en realidad siempre van a haber dos recorridos no hechos asi que ahi
 tiene que ser el max()
 ** BUG en el subtab Planillas de asientos al abrir no se recalcula :tabPasarRecibos:
 el tbls de abajo que tiene las planillas en moradito
-** IDEA que los tbls tengan un bind que te diga el nombre intenro del tbls :tablelist:
+** DESISTIDO que los tbls tengan un bind que te diga el nombre intenro del tbls :tablelist:
 lo que seria util para los bugs y las correcciones
+CLOCK: [2017-10-04 mié 18:12]--[2017-10-04 mié 18:38] =>  0:26
+tiempo perdido tratando de hacer un metodo general para que los
+tablelist muestren su nombre directamente no se puede pq no hay forma
+que dentro de la clase se sepa cual es el nombre que le das a la instancia.
 ** BUG cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
 pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
 error, habria que hacer un if ahi
@@ -197,12 +201,19 @@ error, habria que hacer un if ahi
 ** BUG se rompio ver en Fechar desde ver cliente directamente        :tabVer:
 ** IMPROV que frenen los botones en pedidos en pasar cliente     :tabPedidos:
 ** IMPROV que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
-** IMPROV boton purgar para listado rbos                   :tabPasarRecibos:
+** IMPROV boton purgar para listado rbos                    :tabPasarRecibos:
 ** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
 pero no por tenerlo en base de datos sino por disparado externo por
 pdf, pq es muy tedioso buscar el plano abrirlo etc.
-** BUG el tbl moradito de planillas es un desastre id ordena mal, no tiene colspesos no recalcula etc :tabPasarRecibos:
-** BUG en tbl loterbos la cnt la llena mal pq a todos pone 50 :tabPasarRecibos:
+** DONE el tbl moradito de planillas es un desastre id ordena mal, no tiene colspesos no recalcula etc :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-04 mié 18:50]
+CLOCK: [2017-10-04 mié 18:43]--[2017-10-04 mié 18:50] =>  0:07
+arreglado orden de columna id, colspesos
+** DONE en tbl loterbos la cnt la llena mal pq a todos pone 50 :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-04 mié 18:12]
+CLOCK: [2017-10-04 mié 18:00]--[2017-10-04 mié 18:11] =>  0:11
+listo era que ponia len(w) donde w era el set de 50 entrys, por eso
+daba 50 siempre. Ahora lo calcule con sqlite.
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
