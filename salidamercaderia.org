@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** Mercaderia llevada de oficina [9/12]
+** Mercaderia llevada de oficina [9/16]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -23,71 +23,75 @@
 *** TODO [2017-10-03 mar] pack toallones reducido
 *** TODO [2017-10-03 mar] pack toallones reducido
 *** TODO [2017-10-03 mar] mantel chocolate
-- Dejada por Fede [2017-09-18 lun] [19/21]
-*** DONE pack nautico
+*** TODO [2017-10-06 vie] pack toallones reducido
+*** TODO [2017-10-06 vie] sabanas PB2
+*** TODO [2017-10-06 vie] sabanas PB2
+*** TODO [2017-10-06 vie] cortinas verde esmeralda reducida 6x80
+** Dejada por Fede [2017-09-18 lun] [20/22]
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64239
-*** DONE pack nautico
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64238
-*** DONE pack nautico
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
 64237
-*** DONE pack nautico
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:45]
 64236 parte 1
-*** DONE pack nautico
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:45]
 64236 parte 2
-*** DONE cocina tropical
+**** DONE cocina tropical
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
 64233
-*** DONE cocina tropical
+**** DONE cocina tropical
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64232
-*** DONE cortina
+**** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-20 mié 14:17]
 64185
-*** DONE cortina
+**** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
 64235
-*** DONE cortina
+**** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64231
-*** DONE cortina
+**** DONE cortina
 - State "DONE"       from "TODO"       [2017-09-28 jue 16:45]
 64352
-*** DONE cortina
+**** DONE cortina
 - State "DONE"       from "TODO"       [2017-10-03 mar 14:32]
 64452
-*** TODO cortina
-*** DONE mantel cuerina
+**** TODO cortina
+**** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64233
-*** TODO mantel cuerina
-*** DONE PB2
+**** TODO mantel cuerina
+**** DONE PB2
 - State "DONE"       from "TODO"       [2017-09-20 mié 14:17]
 64183
-*** DONE PB2
+**** DONE PB2
 - State "DONE"       from "TODO"       [2017-10-03 mar 14:31]
 64453
-*** DONE PB1
+**** DONE PB1
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:47]
 64234
-*** DONE PB1
+**** DONE PB1
 - State "DONE"       from "TODO"       [2017-10-03 mar 14:31]
 64453
-*** DONE piñata
+**** DONE piñata
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:48]
 64231
-*** DONE piñata
+**** DONE piñata
 - State "DONE"       from "TODO"       [2017-10-03 mar 14:32]
 64453
-** Entregado con su pack de toallones que le debemos
-*** DONE pack nautico
+*** Entregado con su pack de toallones que le debemos
+**** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
-** quedamos que los packs de muestra iran a 6x160
+*** quedamos que los packs de muestra iran a 6x160
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
@@ -145,7 +149,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [6/32]
+* TODO bugs o improvs fichaje.py [6/36]
 
 ** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
 - State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
@@ -195,7 +199,8 @@ tablelist muestren su nombre directamente no se puede pq no hay forma
 que dentro de la clase se sepa cual es el nombre que le das a la instancia.
 ** BUG cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
 pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
-error, habria que hacer un if ahi
+error, habria que hacer un if ahi y aparte si elegis un cliente con
+raton no dispara el proceso como si lo eligieras normalmente
 ** IMPROV en pasar planilla hacer un ballon que diga que ya esta pasada y evite el error :tabPasarRecibos:
 ** IDEA que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
 ** FIXED se rompio ver en Fechar desde ver cliente directamente     :tabVer:
@@ -230,6 +235,25 @@ CLOCK: [2017-10-05 jue 20:35]--[2017-10-05 jue 20:53] =>  0:18
 de paso saque otras que no servian tampoco, simplemente con
 comentarlas o sea que no borre nada y queda en el sistema para una
 revision general mas adelante cuando hagamos una refactorizacion.
+** TODO que buscar use esearch en vez de fts   
+definitivamente fts no me sirve, y es de esas cosas que a veces se
+aprenden y uno quiere usarlas si o si por mas que no sean las mejores.
+el esearch (o las busquedas armadas de siempre con %) tienen la
+ventaja de poder poner cadenas parciales y el fts lo unico que te da
+es la posibilidad de alternar el orden de los factores.
+p.e. recien habla Olivarez Eva de Curazao 2273 y ella me dice 2275 y
+yo con fts no la encuentro, despues de una busqueda fallida tuve que
+poner Curazao y ordenar el tbls por nombre y buscar Olivarez y
+encontrarlo en el medio de un monton de registros.
+Si hubiera sido esearch hubiera pueso oli cura y listo.
+Incluso podria poner los campos relevantes por separado como es cuenta
+o rbo o dni
+** TODO [#C] sacar los balloons de listado cargado y recorrido cargado :tabPasarRecibos:
+ya sabemos que se cargan no hace falta y molestan
+** TODO poner en las hojitas de visitas la infoseven y anotar alli el limite de venta
+** BUG recibos repetidos                                   :tabPasarRecibos:
+no cicla todas las cuentas el dot
+y suma solo dos cuentas no tres ni cuatro ejemplo caso 63911 zona elva
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
@@ -240,6 +264,9 @@ SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "IDEA"       [2017-09-21 jue 14:55]
 
 
+** 64521 Reynoso Julia ?? de que barrio y encima firma otra vieja
+
+** 64520 era con primer cuota y no le cobra nada y no pone nada de fecha
 
 * Tareas
 ** DONE Revisar si todas las planillas de promotores estan pasadas a pc
