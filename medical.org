@@ -61,6 +61,10 @@ volvio a complicar el ultimo tiempo.
 [2017-10-02 lun] la noche anterior safe con oleo31 y a la mañana
 volvieron y me tome una pastilla de carbon y no jodio mas enla
 oficina.
+*** cadera derecha
+[2017-10-05 jue] un dolor que aparecio hace una semana y que me impide
+cruzar la pierna del lado derecho y lo sospecho que es el sillon de la
+oficina.
 
 
 * medicacion
@@ -82,6 +86,9 @@ oficina.
 | [2017-10-01 dom] |   2 |                             |
 | [2017-10-02 lun] |   1 | 19hs                        |
 | [2017-10-03 mar] |   2 | 8/15hs                      |
+| [2017-10-04 mié] |   1 |                             |
+| [2017-10-05 jue] |   1 |                             |
+|                  |     |                             |
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
