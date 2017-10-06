@@ -282,3 +282,7 @@ diff globales o bien vd y procesar de una, pq vv es para un solo archivo.
  M-;
 *** escribiendo un comentario para seguir con coment
 M-j  corta linea y agrega comentario
+
+* fichaje.py
+** mostrar cuenta con doble click
+hacer un bind con la funcion self.muestracuentas(idcliente)
