@@ -2449,6 +2449,7 @@ moviendo en las zonas. creo que podria tener eso en la mitad de la
 pantalla y en la otra mitad podria tener un tbls de cinco columna para
 planificar la proxima semana y una visualizacion de lo que hay en cada
 zona.
+.
 
 * bugs
 ** problema database locked

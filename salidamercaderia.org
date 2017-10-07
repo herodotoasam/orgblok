@@ -149,7 +149,7 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [6/36]
+* TODO bugs o improvs fichaje.py [11/37]
 
 ** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
 - State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
@@ -197,12 +197,18 @@ CLOCK: [2017-10-04 mié 18:12]--[2017-10-04 mié 18:38] =>  0:26
 tiempo perdido tratando de hacer un metodo general para que los
 tablelist muestren su nombre directamente no se puede pq no hay forma
 que dentro de la clase se sepa cual es el nombre que le das a la instancia.
-** BUG cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
+** FIXED cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
 pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
 error, habria que hacer un if ahi y aparte si elegis un cliente con
 raton no dispara el proceso como si lo eligieras normalmente
 ** IMPROV en pasar planilla hacer un ballon que diga que ya esta pasada y evite el error :tabPasarRecibos:
-** IDEA que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
+** DONE que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
+- State "DONE"       from "IDEA"       [2017-10-06 vie 23:53]
+CLOCK: [2017-10-06 vie 23:31]--[2017-10-06 vie 23:52] =>  0:21
+puede ser el siguiente del listbox o un simple bind de mas 1
+Adopte la solucion facil, o sea un metodo de mas/menos que agrega o
+quita uno lo cual ya de por si puede ser muy valioso en tiempo a la
+hora de pasar los recibos.
 ** FIXED se rompio ver en Fechar desde ver cliente directamente     :tabVer:
 CLOCK: [2017-10-05 jue 20:21]--[2017-10-05 jue 20:34] =>  0:13
 corregido es que habia borrado una linea que era el bind que hacia que
@@ -224,11 +230,13 @@ CLOCK: [2017-10-04 mié 18:00]--[2017-10-04 mié 18:11] =>  0:11
 listo era que ponia len(w) donde w era el set de 50 entrys, por eso
 daba 50 siempre. Ahora lo calcule con sqlite.
 ** TODO hacer que cobradores puntaje sea un campo          :tabPasarRecibos:
-** TODO atajo para imprimir una sola ficha desde tabVer por mas vieja que sea :tabVer:
+** DONE atajo para imprimir una sola ficha desde tabVer por mas vieja que sea :tabVer:
+- State "DONE"       from "TODO"       [2017-10-06 vie 18:20]
 CLOCK: [2017-10-05 jue 22:33]--[2017-10-05 jue 23:01] =>  0:28
 Ya esta listo, tuve que copiar la funcion impresion de ficha, pasarla
 al frente del programa, limpiarla de todo el tema listado y recorrido
 y luego la llamo con un idcliente.
+Da gusto cuando algo tan sencillo es tan usable.
 ** DONE sacar pestaña recibos vieja
 - State "DONE"       from "TODO"       [2017-10-05 jue 20:54]
 CLOCK: [2017-10-05 jue 20:35]--[2017-10-05 jue 20:53] =>  0:18
@@ -248,12 +256,56 @@ encontrarlo en el medio de un monton de registros.
 Si hubiera sido esearch hubiera pueso oli cura y listo.
 Incluso podria poner los campos relevantes por separado como es cuenta
 o rbo o dni
-** TODO [#C] sacar los balloons de listado cargado y recorrido cargado :tabPasarRecibos:
+** DONE [#C] sacar los balloons de listado cargado y recorrido cargado :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2017-10-06 vie 19:10]
 ya sabemos que se cargan no hace falta y molestan
 ** TODO poner en las hojitas de visitas la infoseven y anotar alli el limite de venta
-** BUG recibos repetidos                                   :tabPasarRecibos:
+** FIXED recibos repetidos                                 :tabPasarRecibos:
+CLOCK: [2017-10-06 vie 19:49]--[2017-10-06 vie 21:49] =>  2:00
+CLOCK: [2017-10-06 vie 18:23]--[2017-10-06 vie 19:18] =>  0:55
 no cicla todas las cuentas el dot
+Lo que hice fue simplificar el proceso. Hice una lista a nivel self. O
+sea para todo la clase, que guarde las cuentas del cliente, que se
+regenera con cada recibo que se pasa, no importa, y de paso me la
+muestra en un balloon que no molesta a la derecha, y luego con esa
+listita hago un pop o sea puedo ciclar todos los numeros de cuenta que
+tiene el cliente.
+
 y suma solo dos cuentas no tres ni cuatro ejemplo caso 63911 zona elva
+
+veremos que hacemos 
+Esto lamentablemente fue una ballena blanca.
+Fue una perdida de tiempo mayuscula.
+Pq en realidad luego de perder un tiempo valiosisimo estando muy
+cansado y pudiendo haber hecho otras cosas en programacion me puse a
+cambiar a diestra y siniestra un proceso clave del tema recibos
+haciendo cambios drasticos que no valian la pena.
+La cosa es asi:
+El tblrecibospasados de abajo del pasador de recibos que permite
+borrar un recibo y editar datos con seguridad porque se basa como toda
+la vida en el idpagos osea es la tabla pagos en crudo, lo tenia
+tuneado con un sumador muy resaltado de dos recibos que funcionaba muy
+chulo, y rapido para la cobranza de dos recibos. Y eso lo hacia
+veloz. Y es algo que anda muy comun en la cobranza (incluso hay chicos
+como el miguel que directamente no me ponen la discriminacion de dos
+cuentas y con eso las paso volando). Y como la vieja Elva hoy me puso
+un recibo con mas de dos cuentas, yo pense que era un bug y me lance a
+cazar la ballena blanca de querer un procedimiento que sumara
+cualquier valor de recibos. Menos mal que no me salio!!!. Renegue como
+un negro y tablelis no me entrego el valor de childcount() de la
+cantidad de child colapsados en el tree para saber cuantos item tiene
+un recibo y colorear los que estan sumados, y luego cuando quiero
+hacerlo con sqlite misteriosamente me traba la base de datos, cuando
+quiero hacer el commit, me caigo en la cuenta que los recibos fisicos
+son de dos cuentas, y por lo tanto no esta mal la programacion para
+que sea de dos la suma.
+E hice un stash en vez de un commit pq quedarme sin edicion, y sin
+borrado de recibo seguros, por un tree ilegible realmente no era
+negocio, mejor asumir que una tarde pelotuda perdi tiempo por no
+permitirme descansar cuando debo descansar. Hubiera sido mucho mas
+efectiva la tarde si hubiera dedicado a programar el avance automatico
+del numero de recibo que eso si puede hacer una diferencia .
+** TODO hacer que para cobrador 10 y 15 el esearch cargue todas las zonas :tabPasarRecibos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>

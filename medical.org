@@ -70,12 +70,13 @@ oficina.
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
+|                  |  26 |                             |
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
 | [2017-09-20 mié] |   1 | desperte con dolor          |
 | [2017-09-21 jue] |   1 |                             |
 | [2017-09-22 vie] |   1 | madrugada                   |
-| [2017-09-23 sáb] |   - |                             |
+| [2017-09-23 sáb] |   0 |                             |
 | [2017-09-24 dom] |   1 |                             |
 | [2017-09-25 lun] |   1 | 14hs en dpto                |
 | [2017-09-26 mar] |   2 | madrugada y oficina         |
@@ -88,7 +89,8 @@ oficina.
 | [2017-10-03 mar] |   2 | 8/15hs                      |
 | [2017-10-04 mié] |   1 |                             |
 | [2017-10-05 jue] |   1 |                             |
-|                  |     |                             |
+| [2017-10-06 vie] |   2 | 10/18hs                     |
+#+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |
 | [2017-09-27 mié] |   1 | 6.30hs |
@@ -192,6 +194,9 @@ retorcijon fuerte, y tuve que aplicarme profusamente oleo31.
 ** [2017-10-03 mar] 
 molesto un poco en oficina me fui a comer a casa lasagna y volvi con
 un poco de dolor.
+** [2017-10-06 vie]
+no parecia hoy un dia especialmente molesto, pero llegue a casa y me
+tome un segundo ibu.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

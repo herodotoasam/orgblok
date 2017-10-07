@@ -11,7 +11,15 @@ el arranca y lo enlentecia demas.
 hay que autorizar desde google el uso de software de terceros, y eso
 permitira sincronizar calendarios y demas.
 
-
+** para que no se resetee las X y se pierda todo con C-Alt-Retroceso
+encima que es parecido a C-Shift-Retroceso que se usa mucho en Emacs
+ en /etc/X11/xorg.config se pone:
+ #+BEGIN_EXAMPLE
+ Section "ServerFlags"
+ Option "DontZap"  "yes"
+ EndSection
+ #+END_EXAMPLE
+y eso deshabilita el zap
 * Antes que nada instalar con sudo apt install ...
 1. emacs
 2. git

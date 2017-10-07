@@ -286,3 +286,12 @@ M-j  corta linea y agrega comentario
 * fichaje.py
 ** mostrar cuenta con doble click
 hacer un bind con la funcion self.muestracuentas(idcliente)
+** 
+
+* projectile
+para activarlo en un file del project hacer
+Mx- projectile-mode
+
+| Cc- p S | save all project buffers |
+| Cc- p k | kill all project buffers |
+|         |                          |
