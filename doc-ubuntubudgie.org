@@ -20,6 +20,12 @@ encima que es parecido a C-Shift-Retroceso que se usa mucho en Emacs
  EndSection
  #+END_EXAMPLE
 y eso deshabilita el zap
+
+** para ver fecha con la hora en la barra del panel
+en un terminal
+#+BEGIN_EXAMPLE
+gsettings set org.gnome.desktop.interface clock-show-date true
+#+END_EXAMPLE
 * Antes que nada instalar con sudo apt install ...
 1. emacs
 2. git

@@ -2451,6 +2451,15 @@ planificar la proxima semana y una visualizacion de lo que hay en cada
 zona.
 .
 
+** tablero asignacion de zonas
+CLOCK: [2017-10-07 sáb 16:50]--[2017-10-07 sáb 18:09] =>  1:19
+muy eficiente y rapido el tablerito de asignacion de zonas para saber
+cuantos cobradores vamos a necesitar.
+En este analisis llegue a la conclusion que tengo 160k vacantes con
+patricios/remedios/liceo3/ italia/jid1 o sea tengo para dos vacantes
+largas casi casi para tres.
+Este tablero no tiene nada que ver con el anterior que no esta mal pq
+es un visor de las salidas de los recorridos.
 * bugs
 ** problema database locked
 CLOCK: [2017-08-27 dom 10:03]--[2017-08-27 dom 12:03] =>  2:00
