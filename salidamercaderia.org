@@ -149,18 +149,27 @@ desteñida, no vale la pena conservar el cliente alli.
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [19/36]
+* TODO bugs o improvs fichaje.py [21/36]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
 CLOCK: [2017-10-07 sáb 23:40]--[2017-10-08 dom 00:04] =>  0:24
 y de paso ponemos esearch en campo promotor que agiliza el uso del campo
-** TODO BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo :tabPasarVentas:
+** FIXED BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo :tabPasarVentas:
+- State "FIXED"       from "TODO"       [2017-10-08 dom 11:47]
+CLOCK: [2017-10-08 dom 11:20]--[2017-10-08 dom 11:47] =>  0:27
 y luego la pasas de nuevo y te figura dos cuotas pagadas
-** TODO cuando pones ingresar nuevo y el cursor va a idpedido no se ve :tabPasarVentas:
+** DONE cuando pones ingresar nuevo y el cursor va a idpedido no se ve :tabPasarVentas:
+- State "DONE"       from "DESISTIDO"  [2017-10-08 dom 12:57]
+CLOCK: [2017-10-08 dom 12:26]--[2017-10-08 dom 12:57] =>  0:31
+CLOCK: [2017-10-08 dom 11:48]--[2017-10-08 dom 11:50] =>  0:02
 y confunde un poco y uno tiende a llevar el raton alla al pedo,
-colorear???
-*** TODO que poner el focus en idpedido sea igual que ingresar nuevo
+colorear??? -- Retomado, al final lo hice, y cambie el color, lo cual
+es facil se hace con dos bind, un focusin y un focus out. lo que no
+hice fue que hacer foco en el pedido invoke pedidonuevo pq cae en un
+bucle infinito y tengo que arreglar el codigo por algo que no tiene
+mucha relevancia.
+*** DESISTIDO que poner el focus en idpedido sea igual que ingresar nuevo
 ** TODO cuando pones repetir cliente poner la fecha de la ultima venta- :tabPasarVentas:
 tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta 
 ** TODO hacer un atajo para hacer upper el contenido de un campo
