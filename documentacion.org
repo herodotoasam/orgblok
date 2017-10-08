@@ -295,3 +295,10 @@ Mx- projectile-mode
 | Cc- p S | save all project buffers |
 | Cc- p k | kill all project buffers |
 |         |                          |
+* neotree
+M-x neotree
+| H     | toggle hidden archivos |
+| n/p   | next/previous          |
+| Cc Cp | copy node              |
+| Cc Cd | delete node            |
+| q     |   quit                 |

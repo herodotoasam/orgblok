@@ -90,6 +90,7 @@ oficina.
 | [2017-10-04 mié] |   1 |                             |
 | [2017-10-05 jue] |   1 |                             |
 | [2017-10-06 vie] |   2 | 10/18hs                     |
+| [2017-10-07 sáb] |   2 | 15/23                       |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |
@@ -197,6 +198,8 @@ un poco de dolor.
 ** [2017-10-06 vie]
 no parecia hoy un dia especialmente molesto, pero llegue a casa y me
 tome un segundo ibu.
+** [2017-10-07 sáb]
+hoy tome dos ibus por los implantes
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
