@@ -63,8 +63,18 @@ sudo apt install silversearcher-ag
 #+END_EXAMPLE
 *** luego instalar ag
 Mx package-install ag
+** yasnippets
+instalar de list-packages
+luego agregar a .emacs
+#+BEGIN_EXAMPLE
+(add-to-list 'load-path
+	     "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+#+END_EXAMPLE
 
-
+Los snippets residen en ~/.emacs.d/snippets/prog-mode/
+y tengo un git en ~/.emacs.d/snippets
 
 *  instalacion de TCL
 1. emacs por supuesto (no se si hace falta vim-gtk)

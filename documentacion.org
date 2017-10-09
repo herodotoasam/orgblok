@@ -302,3 +302,15 @@ M-x neotree
 | Cc Cp | copy node              |
 | Cc Cd | delete node            |
 | q     |   quit                 |
+* yasnippets
+** creacion de snippets
+1. poner textual lo que queremos que salga
+2. campos van con $1 $2 $3 etc
+3. salvo el $0 que es el ultimo
+4. Y si hay un valor por default lo ponemos: ${3:valor-default} ej ${3:self}
+5. si repetimos un campo es  mirror o sea tiene el mismo valor $2 $3  $2
+6. para terminar C-C
+
+
+
+
