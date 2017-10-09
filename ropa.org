@@ -8,7 +8,6 @@ vestimenta desde lo serio a lo freaky.
 con registro de planchado
 ** pantalones
 *** TODO jean Brooksfield
-SCHEDULED: <2017-10-03 mar .+14d>
 - State "DONE"       from "TODO"       [2017-09-19 mar 19:10]
 :PROPERTIES:
 :LAST_REPEAT: [2017-09-19 mar 19:10]

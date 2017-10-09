@@ -2550,3 +2550,37 @@ Kp_decimal o sea los dos puntos, y asi no tener que repetir binds.
 y con ese evento bindeo que cicle las cuentas del cliente. Funciona
 joya para dos cuentas, y medio que no funciona muy bien para tres o
 cuatro cuentas, pero no son muchos los casos.
+* TODO Sistema Contable
+** Inspiracion en Ledger no usa debe/haber sino signos mas y menos
+Puede hacerse como libro caja puro o puede hacerse en forma mas amplia
+como una contabilidad que incluya otras cosas simplemente agregando la
+cuenta caja en forma automatica total es una linea mas. 
+** podria leer y trastear algo de ledger pq podria hacerlo compatible
+o sea que lo haga en sqlite internamente pero que pueda exportar a
+ledger
+** que mas adelante se pueda incluir la cuenta proveedores dentro del mismo 
+** esquema
+simplemente seria un plan de cuentas basico A/P/P/G y subcuentas y
+luego los asientos correspondientes.
+gastos 
+  a caja
+
+caja 
+ a ingresos
+
+mercaderias 
+ a proveedores
+
+proveedores 
+  a caja
+
+El problema de este esquema que obliga a evaluaciones contables que no
+conducen a nada. Pq un asiento costo mercaderias vendidas, o ventas,
+etc. no tiene sentido.
+Lo unico que hace falta es seguirle bien el rastro a cada peso que
+entra y sale. Como asi a cada articulo que entra y sale.
+Como a cada promotor que trabaja y poder calcular el costo de la
+cobranza y el costo de la promocion.
+
+Por eso hay que seguir pensando que queremos hacer.
+

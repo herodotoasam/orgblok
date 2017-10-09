@@ -91,6 +91,7 @@ oficina.
 | [2017-10-05 jue] |   1 |                             |
 | [2017-10-06 vie] |   2 | 10/18hs                     |
 | [2017-10-07 sáb] |   2 | 15/23                       |
+| [2017-10-08 dom] |   2 | 10/17                       |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |
@@ -200,6 +201,11 @@ no parecia hoy un dia especialmente molesto, pero llegue a casa y me
 tome un segundo ibu.
 ** [2017-10-07 sáb]
 hoy tome dos ibus por los implantes
+** [2017-10-08 dom]
+idem ayer tome dos ibus por implantes, aunque hoy domingo pense por
+momentos a la tarde que iba a tomar un nar, pq el segundo ibu en
+realidad lo adelante y lo tome por cefaleico y luego se fue todo y
+termine por no tomar nada.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

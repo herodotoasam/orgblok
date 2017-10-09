@@ -1,30 +1,10 @@
 * Oficina
 ** Limpieza general
-   DEADLINE: <2017-01-15 dom +3m >
-** TODO Regar Amanda
-SCHEDULED: <2016-12-28 mié .+1w> 
-- State "DONE"       from "TODO"       [2016-12-21 mié 15:18]
-- State "DONE"       from "TODO"       [2016-12-13 mar 14:08]
-- State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
-- State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
-- State "DONE"       from "TODO"       [2016-11-18 vie 12:21]
-- State "DONE"       from "TODO"       [2016-11-11 vie 13:36]
-- State "DONE"       from "TODO"       [2016-10-24 lun 19:32]
-:PROPERTIES:
-:LAST_REPEAT: [2016-12-21 mié 15:18]
-:END:
-** TODO Limpiar Oficina
-SCHEDULED: <2016-12-09 vie +2w>
-- State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
-- State "DONE"       from "TODO"       [2016-11-15 mar 20:43]
-:PROPERTIES:
-:LAST_REPEAT: [2016-11-25 vie 13:49]
-:END:
-
+   DEADLINE: <2017-10-15 dom>
 
 * Negocio
 ** TODO Imprimir fichas de Elva y Monica
-DEADLINE: <2016-12-30 vie +1m -3d>
+DEADLINE: <2017-11-01 mié +1m -1d>
 - State "DONE"       from "TODO"       [2016-11-30 mié 21:43]
 - State "DONE"       from ""           [2016-11-01 mar 20:32]
 :PROPERTIES:

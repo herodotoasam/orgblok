@@ -223,7 +223,8 @@ SCHEDULED: <2017-10-06 vie .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2017-10-05 jue .+1d>
+SCHEDULED: <2017-10-09 lun .+1d>
+- State "DONE"       from "TODO"       [2017-10-08 dom 21:43]
 - State "DONE"       from "TODO"       [2017-10-04 mié 20:56]
 - State "DONE"       from "TODO"       [2017-09-28 jue 20:00]
 - State "DONE"       from "TODO"       [2017-09-27 mié 22:23]
@@ -271,7 +272,7 @@ SCHEDULED: <2017-10-05 jue .+1d>
 - State "DONE"       from "TODO"       [2016-10-25 mar 21:06]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-04 mié 20:56]
+:LAST_REPEAT: [2017-10-08 dom 21:43]
 :END:
 | N° | Descripcion                |                           |
 |  1 | flexion baja de la espalda | lev con brazos los muslos |

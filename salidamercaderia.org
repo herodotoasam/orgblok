@@ -200,11 +200,18 @@ Si hubiera sido esearch hubiera pueso oli cura y listo.
 Incluso podria poner los campos relevantes por separado como es cuenta
 o rbo o dni
 ** TODO poner en las hojitas de visitas la infoseven y anotar alli el limite de venta
-** BUG pmovto null -- la cuenta no sale
+** BUG [#A] pmovto null -- la cuenta no sale
+CLOCK: [2017-10-08 dom 23:03]--[2017-10-08 dom 23:25] =>  0:22
 tuve que actualizar a mano como unas 30 cuentas que no se estuvieron
 cobrando durante los dos meses anteriores por culpa de este
 asunto. Incluso no todas fueron cuentas nuevas y no pude averiguar
 cual habia sido la causa.
+ 
+Por lo pronto veo que algo hay con respecto a los planes semanales. Pq
+las cuentas de Montenegro Delia que aparece como semanal pq es una
+cuenta de ocho cuotas y doris quinteros que es semanal no se cargaron
+los pmovtos o sea que alli hay algo.
+
 ** BUG el "en calle ahora" tiene que tomar hecho=0 y cobr no null   :tabVer:
 y en realidad siempre van a haber dos recorridos no hechos asi que ahi
 tiene que ser el max()
