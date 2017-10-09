@@ -142,14 +142,15 @@ desteñida, no vale la pena conservar el cliente alli.
 
 
 * Recibos sospechosos 765
-| [2017-09-22 vie] | 250025 | 63172 | 250 |
-|                  |        |       |     |
+| [2017-09-22 vie] |   250025 | 63172 | 250 |                                                    |
+| [2017-09-07 jue] | 230081-2 | 61772 | 100 | dice la sra que pago 600 y el partio en dos el rbo |
+|                  |          |       |     |                                                    |
 
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [22/36]
+* TODO bugs o improvs fichaje.py [22/39]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -351,7 +352,13 @@ se desiste pq no es aplicable la idea pq no hay forma de purgar los
 lotesrbos.
 Ya que no hay forma de determinar que el lote no fue usado Y no tiene
 tanta relevancia el purgado como con los recorridos.
-
+** IDEA que los cancelados en Fechar coloreen orange para no fijar vista :tabFechar:
+** IDEA hacer sistema de guardar exdirecciones
+puede ser un boton al lado de ingresar cliente que sea guardar
+direccion vieja o cambio direccion y que guarde un registro o bien que
+al editar un cliente se fije en la ultima direccion y vea si hay
+diferencias las guarde.
+** TODO ver si en tbls pedidos los E/A/Z pueden ser e/a/z y el rojo puede tener fg='white' :tabPedidos:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
