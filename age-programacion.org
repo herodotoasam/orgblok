@@ -2605,4 +2605,20 @@ te reemplaza toda la planilla.
 2. referencia a la fila del archivo que quedara como referencia futura
 *** TODO transformacion a cvs
 *** TODO lectura del cvs por sqlite a la tabla caja
+*** Asientos automaticos
+**** registro de planillas
+que cuando pase una planilla de ingreso directamente se registre en
+asientos, sin tanta complicacion con el idplanilla en el comentario
+para poder borrarla a mano si cometimos un error
+**** el egreso por gastos de promocion
+todo lo relativo a promotores me gustaria cargarlo en una tabla
+jornales nuevamente.
+jornales(id,fecha,prom,remuneracion,viatico) y ese registro a su vez
+va a generar un asiento en caja automatico, mejor dicho uno o dos
+asientos, en caso que haya remuneracion, y me evito tener que pasarlos
+en forma agrupada o como hago ahora, ver cospeles grupo, contar
+quienes vinieron, etc. Sino que al final del dia, los que vinieron
+firmaron y esos que firmaron con los vales y/o remuneraciones se pasan
+los jornales. y los jornales se pasan en caja.
+
 
