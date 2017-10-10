@@ -2584,3 +2584,25 @@ cobranza y el costo de la promocion.
 
 Por eso hay que seguir pensando que queremos hacer.
 
+** TODO [#A] Transformacion de pcods en datos usables por sqlite
+*** Manipulacion de fechas
+1. con el raton y Ctrl apretado relleno los lugares vacios
+2. luego le aplico el formato de celda fecha a YYYY-MM-DD
+*** Columna importe
+1. elimino la columna repetida
+2. agrego una columna vacia en su lugar
+3. pongo la formula -E1+D1 y la arrastro para abajo y ello hace que
+   esa columna agregada se llene con los ingresos en valor positivo y
+   los egresos en valor negativo
+*** Arreglo de las cuentas
+muy facilmente se arregla con reemplazar usando la facilidad de la
+planilla de calculo, opcion comodines, o regexp, ya que en un segundo
+te reemplaza toda la planilla.
+*** Podria ser guardar en comentarios algun dato mas
+1. puede ser el contenido del campo original (facil repitiendo la
+   columna antes de cambiarla y solo restringiendo el reemplazar a
+   dicha columna)
+2. referencia a la fila del archivo que quedara como referencia futura
+*** TODO transformacion a cvs
+*** TODO lectura del cvs por sqlite a la tabla caja
+

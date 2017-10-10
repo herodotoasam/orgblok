@@ -92,6 +92,7 @@ oficina.
 | [2017-10-06 vie] |   2 | 10/18hs                     |
 | [2017-10-07 sáb] |   2 | 15/23                       |
 | [2017-10-08 dom] |   2 | 10/17                       |
+| [2017-10-09 lun] |   1 | 13                          |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |
@@ -102,12 +103,13 @@ oficina.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 |                  |     |                  |
 ** TODO Cabergolina
-SCHEDULED: <2017-10-09 lun .+1w>
+SCHEDULED: <2017-10-16 lun .+1w>
+- State "DONE"       from "TODO"       [2017-10-09 lun 18:38]
 - State "DONE"       from "TODO"       [2017-10-02 lun 22:31]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2017-10-02 lun 22:31]
+:LAST_REPEAT: [2017-10-09 lun 18:38]
 :END:
 
 
@@ -206,6 +208,8 @@ idem ayer tome dos ibus por implantes, aunque hoy domingo pense por
 momentos a la tarde que iba a tomar un nar, pq el segundo ibu en
 realidad lo adelante y lo tome por cefaleico y luego se fue todo y
 termine por no tomar nada.
+** [2017-10-09 lun]
+hoy a las 13hs fue por implantes directamente.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
