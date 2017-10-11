@@ -2,12 +2,13 @@
 ** [2016-09-22 jue]                                                   :anki:
 
 *** TODO Comandos para org-mode: Manejo de fechas
-SCHEDULED: <2016-12-13 mar +15d> 
+SCHEDULED: <2017-10-25 mié .+15d> 
+- State "DONE"       from "TODO"       [2017-10-10 mar 22:35]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:06]
 - State "DONE"       from "TODO"      
 :PROPERTIES:
-:LAST_REPEAT: [2016-11-23 mié 21:07]
+:LAST_REPEAT: [2017-10-10 mar 22:35]
 :END:
 | C-C .        | inserta fecha del calendario                  |
 |              | sobre una fecha la modifica                   |

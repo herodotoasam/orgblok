@@ -30,7 +30,11 @@ tblrecorridos.llenatree(con,'select * from recorrido order by id desc')
 tblrecorridos['expandcommand']=recorridos_exp
 #+END_SRC
 ** TODO Buscar
-SCHEDULED: <2016-10-28 vie .+7d>
+SCHEDULED: <2017-12-10 dom .+2m>
+- State "DONE"       from "TODO"       [2017-10-10 mar 22:34]
+:PROPERTIES:
+:LAST_REPEAT: [2017-10-10 mar 22:34]
+:END:
 clase que entrega un cuadro de busqueda generalizado y permite
 trabajar rapido con el idcliente.
 *** Instanciado
