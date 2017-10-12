@@ -2586,26 +2586,36 @@ Por eso hay que seguir pensando que queremos hacer.
 
 ** TODO [#A] Transformacion de pcods en datos usables por sqlite
 *** Manipulacion de fechas
+CLOCK: [2017-10-11 mié 20:43]--[2017-10-11 mié 21:03] =>  0:20
+CLOCK: [2017-10-11 mié 18:53]--[2017-10-11 mié 19:02] =>  0:09
 1. con el raton y Ctrl apretado relleno los lugares vacios
 2. luego le aplico el formato de celda fecha a YYYY-MM-DD
 *** Columna importe
+CLOCK: [2017-10-11 mié 21:03]--[2017-10-11 mié 21:12] =>  0:09
 1. elimino la columna repetida
 2. agrego una columna vacia en su lugar
 3. pongo la formula -E1+D1 y la arrastro para abajo y ello hace que
    esa columna agregada se llene con los ingresos en valor positivo y
    los egresos en valor negativo
 *** Arreglo de las cuentas
+CLOCK: [2017-10-11 mié 21:14]--[2017-10-11 mié 21:43] =>  0:29
 muy facilmente se arregla con reemplazar usando la facilidad de la
 planilla de calculo, opcion comodines, o regexp, ya que en un segundo
 te reemplaza toda la planilla.
+Esto sera lo mas lento y lo mas artesanal pq habra muchas cuentas que
+no son tan obvias.  Encima perdi un monton de tiempo porque el
+putisimo programa perdio los datos y engaña con la recuperacion de los
+datos, no recupera nada. 
 *** Podria ser guardar en comentarios algun dato mas
 1. puede ser el contenido del campo original (facil repitiendo la
    columna antes de cambiarla y solo restringiendo el reemplazar a
    dicha columna)
+se guardo la columna original de cuenta para juntarla con el
+comentario de la planilla y hacer un comentario redundante en la tabla
 2. referencia a la fila del archivo que quedara como referencia futura
 *** TODO transformacion a cvs
 *** TODO lectura del cvs por sqlite a la tabla caja
-*** Asientos automaticos
+** Asientos automaticos
 **** registro de planillas
 que cuando pase una planilla de ingreso directamente se registre en
 asientos, sin tanta complicacion con el idplanilla en el comentario
@@ -2620,5 +2630,16 @@ en forma agrupada o como hago ahora, ver cospeles grupo, contar
 quienes vinieron, etc. Sino que al final del dia, los que vinieron
 firmaron y esos que firmaron con los vales y/o remuneraciones se pasan
 los jornales. y los jornales se pasan en caja.
-
+** Notas sobre contable
+creo que estamos en marcha.
+Lo mas importante creo es poder recuperar esa masa de datos aunque no
+de una forma muy precisa, nada se pierde en lo numericamente que esta
+en la planilla, lo que puede ser un poco normalizado es la fecha, y la
+cuenta pero en el fondo el dato fino permanecera en el comentario y la
+manipulacion en cierta forma del "bigdata" salvando la distancia
+permitira un nivel que no tengo ni tendra nunca la puta planilla de
+calculo maxime que esta hecha para la mierda desde el mismo primer
+dia.
+Asi que le tengo que poner un par de horas de dedicacion y meterle
+para adelante.
 

@@ -174,7 +174,7 @@ recuperados ver en la cobranza de ese dia
 ** ver si los planes de mas de 7 cuotas salen semanales
 
 
-* TODO bugs o improvs fichaje.py [26/45]
+* TODO bugs o improvs fichaje.py [26/47]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -406,6 +406,8 @@ pregunto puede funcionar un esearch con femenino?? o masculino??
 ** TODO volver a poner en nombre de promotor en visor de pedidos pero no con balloon :tabPedidos:
 ** BUG corregir molesto bug que cuando se fecha un solo id sin lista de cuentas da error :tabFechar:
 ** TODO poner tablero zonas y manejo zonas en tab Fichas         :tabFichas:
+** TODO poner el numero de pedido generado en label grande como en ventas :tabPedidos:
+** TODO tbl cuentas no totaliza                                     :tabVer:
 * Preguntar Fede
 ** DONE pedir queen!!
 SCHEDULED: <2017-09-21 jue>
