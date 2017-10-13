@@ -161,14 +161,16 @@ SCHEDULED: <2017-10-16 lun>
 Gramajo Braian - llamo la madre que vive en Liceo y vendra el lunes a
 cambiar por PB2 6x195 pq dice que hizo pelotitas hasta en la funda
 
-
+* Devoluciones normales 
+| [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
+|                  |       |                |      |     |           |        |     |       |              |
 * Recibos sospechosos 765
 Lote robado el 3/10/17 en Barrio Patricios 1101
 recuperados ver en la cobranza de ese dia
 
-| [2017-09-22 vie] |   250025 | 63172 | 250 |                                                    |
-| [2017-09-07 jue] | 230081-2 | 61772 | 100 | dice la sra que pago 600 y el partio en dos el rbo |
-|                  |          |       |     |                                                    |
+| [2017-09-22 vie] |   250025 |    63172 |   250 |                                                    |
+| [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo |
+| [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria         |
 
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales

@@ -95,7 +95,9 @@ oficina.
 | [2017-10-09 lun] |   1 | 13                          |
 | [2017-10-10 mar] |   1 | ?                           |
 | [2017-10-11 mié] |   2 | 4am/15hs                    |
-| [2017-10-12 jue] |   1 | 4am                         |
+| [2017-10-12 jue] |   2 | 4am/22                      |
+| [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
+|                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |
@@ -213,6 +215,10 @@ realidad lo adelante y lo tome por cefaleico y luego se fue todo y
 termine por no tomar nada.
 ** [2017-10-09 lun]
 hoy a las 13hs fue por implantes directamente.
+** [2017-10-13 vie]
+hoy despues de muchos dias me molesta un poco un dolor continuo, y
+creo que es la desintoxicacion del cuarto dia de licuado. Es increible
+el cambio que el licuado me hizo a nivel estomacal.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
