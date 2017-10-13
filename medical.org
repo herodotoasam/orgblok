@@ -13,7 +13,7 @@ SCHEDULED: <2017-11-08 mié>
 ** TODO Dra Banus Maria Victoria 18hs 
 SCHEDULED: <2017-11-30 jue>
 ** TODO radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
-SCHEDULED: <2017-09-30 sáb>
+DEADLINE: <2017-10-25 mié> SCHEDULED: <2017-09-30 sáb>
 
 ** DONE analisis Romero William
 SCHEDULED: <2017-09-30 sáb>
@@ -93,6 +93,9 @@ oficina.
 | [2017-10-07 sáb] |   2 | 15/23                       |
 | [2017-10-08 dom] |   2 | 10/17                       |
 | [2017-10-09 lun] |   1 | 13                          |
+| [2017-10-10 mar] |   1 | ?                           |
+| [2017-10-11 mié] |   2 | 4am/15hs                    |
+| [2017-10-12 jue] |   1 | 4am                         |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora   |

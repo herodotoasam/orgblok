@@ -1,0 +1,242 @@
+#+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
+
+* TODO bugs o improvs fichaje.py [29/47]
+
+** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
+- State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
+CLOCK: [2017-10-07 sáb 23:40]--[2017-10-08 dom 00:04] =>  0:24
+y de paso ponemos esearch en campo promotor que agiliza el uso del campo
+** FIXED BUG: cuando anulas una venta que tiene recibo no borra el recibo ojo :tabPasarVentas:
+- State "FIXED"       from "TODO"       [2017-10-08 dom 11:47]
+CLOCK: [2017-10-08 dom 11:20]--[2017-10-08 dom 11:47] =>  0:27
+y luego la pasas de nuevo y te figura dos cuotas pagadas
+** DONE cuando pones ingresar nuevo y el cursor va a idpedido no se ve :tabPasarVentas:
+- State "DONE"       from "DESISTIDO"  [2017-10-08 dom 12:57]
+CLOCK: [2017-10-08 dom 12:26]--[2017-10-08 dom 12:57] =>  0:31
+CLOCK: [2017-10-08 dom 11:48]--[2017-10-08 dom 11:50] =>  0:02
+y confunde un poco y uno tiende a llevar el raton alla al pedo,
+colorear??? -- Retomado, al final lo hice, y cambie el color, lo cual
+es facil se hace con dos bind, un focusin y un focus out. lo que no
+hice fue que hacer foco en el pedido invoke pedidonuevo pq cae en un
+bucle infinito y tengo que arreglar el codigo por algo que no tiene
+mucha relevancia.
+*** DESISTIDO que poner el focus en idpedido sea igual que ingresar nuevo
+** DONE cuando pones repetir cliente poner la fecha de la ultima venta- :tabPasarVentas:
+- State "DONE"       from "TODO"       [2017-10-08 dom 20:11]
+CLOCK: [2017-10-08 dom 19:59]--[2017-10-08 dom 20:11] =>  0:12
+tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta 
+** TODO hacer un atajo para hacer upper el contenido de un campo
+** TODO reubicar botones para mayor ergonomia               :tabPasarVentas:
+** TODO Resumen: explorar la posibilidad de incluir fecha pmovto y msgcobrador
+eso daria la posibilidad de leer rapidamente en el resumen lo que hay
+que hacer o remarcar.
+** TODO una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
+incluso que me permita buscar un promotor no solo por numero sino por
+nombre para el futuro en futuros avisos y que esten todos y me muestre
+lo que vendio y cobro ese promotor.
+** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
+pero no por tenerlo en base de datos sino por disparado externo por
+pdf, pq es muy tedioso buscar el plano abrirlo etc.
+** TODO que buscar use esearch en vez de fts   
+definitivamente fts no me sirve, y es de esas cosas que a veces se
+aprenden y uno quiere usarlas si o si por mas que no sean las mejores.
+el esearch (o las busquedas armadas de siempre con %) tienen la
+ventaja de poder poner cadenas parciales y el fts lo unico que te da
+es la posibilidad de alternar el orden de los factores.
+p.e. recien habla Olivarez Eva de Curazao 2273 y ella me dice 2275 y
+yo con fts no la encuentro, despues de una busqueda fallida tuve que
+poner Curazao y ordenar el tbls por nombre y buscar Olivarez y
+encontrarlo en el medio de un monton de registros.
+Si hubiera sido esearch hubiera pueso oli cura y listo.
+Incluso podria poner los campos relevantes por separado como es cuenta
+o rbo o dni
+** TODO poner en las hojitas de visitas la infoseven y anotar alli el limite de venta
+** BUG [#A] pmovto null -- la cuenta no sale
+CLOCK: [2017-10-08 dom 23:03]--[2017-10-08 dom 23:25] =>  0:22
+tuve que actualizar a mano como unas 30 cuentas que no se estuvieron
+cobrando durante los dos meses anteriores por culpa de este
+asunto. Incluso no todas fueron cuentas nuevas y no pude averiguar
+cual habia sido la causa.
+ 
+Por lo pronto veo que algo hay con respecto a los planes semanales. Pq
+las cuentas de Montenegro Delia que aparece como semanal pq es una
+cuenta de ocho cuotas y doris quinteros que es semanal no se cargaron
+los pmovtos o sea que alli hay algo.
+
+** BUG el "en calle ahora" tiene que tomar hecho=0 y cobr no null   :tabVer:
+y en realidad siempre van a haber dos recorridos no hechos asi que ahi
+tiene que ser el max()
+** IDEA en Fechar arriba de msgcobrar botones "Cancela" "Abona 2 cuotas" etc  lo que usualmente dicen
+y que en msg cobrador aparezca la fecha y lo que prometio
+p.e. 10/10 paga dos cuota
+o 20/10 cancela
+** IDEA Fechar: fechado por lote, o sea seleccionar dos o tres y fechar a la misma fecha
+** DONE poner los bind a +- a los esearch numericos si se puede.
+- State "DONE"       from "IDEA"       [2017-10-09 lun 21:45]
+** IMPROV que frenen los botones en pedidos en pasar cliente     :tabPedidos:
+** IMPROV que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
+** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
+- State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
+** DONE en el subtab Planillas de asientos al abrir no se recalcula :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-07 sáb 23:16]
+CLOCK: [2017-10-07 sáb 22:44]--[2017-10-07 sáb 23:16] =>  0:32
+el tbls de abajo que tiene las planillas en moradito
+** DONE en pasar planilla hacer un ballon que diga que ya esta pasada y evite el error :tabPasarRecibos:
+- State "DONE"       from "IMPROV"     [2017-10-07 sáb 22:44]
+CLOCK: [2017-10-07 sáb 21:58]--[2017-10-07 sáb 22:44] =>  0:46
+CLOCK: [2017-10-07 sáb 21:16]--[2017-10-07 sáb 21:21] =>  0:05
+completamente protegido el proceso, para pasar de nuevo hay que borrar
+la planilla
+** DONE que los recibos se autonumeren con el num siguiente del lboxrbos :tabPasarRecibos:
+- State "DONE"       from "IDEA"       [2017-10-06 vie 23:53]
+CLOCK: [2017-10-06 vie 23:31]--[2017-10-06 vie 23:52] =>  0:21
+puede ser el siguiente del listbox o un simple bind de mas 1
+Adopte la solucion facil, o sea un metodo de mas/menos que agrega o
+quita uno lo cual ya de por si puede ser muy valioso en tiempo a la
+hora de pasar los recibos.
+** DONE el tbl moradito de planillas es un desastre id ordena mal, no tiene colspesos no recalcula etc :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-04 mié 18:50]
+CLOCK: [2017-10-04 mié 18:43]--[2017-10-04 mié 18:50] =>  0:07
+arreglado orden de columna id, colspesos
+** DONE en tbl loterbos la cnt la llena mal pq a todos pone 50 :tabPasarRecibos:
+- State "DONE"       from "BUG"        [2017-10-04 mié 18:12]
+CLOCK: [2017-10-04 mié 18:00]--[2017-10-04 mié 18:11] =>  0:11
+listo era que ponia len(w) donde w era el set de 50 entrys, por eso
+daba 50 siempre. Ahora lo calcule con sqlite.
+** DONE hacer que cobradores puntaje sea un campo          :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2017-10-07 sáb 20:50]
+CLOCK: [2017-10-07 sáb 20:38]--[2017-10-07 sáb 20:48] =>  0:10
+los cobradores puntaje ahora se actualizan en tabla
+** DONE atajo para imprimir una sola ficha desde tabVer por mas vieja que sea :tabVer:
+- State "DONE"       from "TODO"       [2017-10-06 vie 18:20]
+CLOCK: [2017-10-05 jue 22:33]--[2017-10-05 jue 23:01] =>  0:28
+Ya esta listo, tuve que copiar la funcion impresion de ficha, pasarla
+al frente del programa, limpiarla de todo el tema listado y recorrido
+y luego la llamo con un idcliente.
+Da gusto cuando algo tan sencillo es tan usable.
+** DONE sacar pestaña recibos vieja
+- State "DONE"       from "TODO"       [2017-10-05 jue 20:54]
+CLOCK: [2017-10-05 jue 20:35]--[2017-10-05 jue 20:53] =>  0:18
+de paso saque otras que no servian tampoco, simplemente con
+comentarlas o sea que no borre nada y queda en el sistema para una
+revision general mas adelante cuando hagamos una refactorizacion.
+** DONE [#C] sacar los balloons de listado cargado y recorrido cargado :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2017-10-06 vie 19:10]
+ya sabemos que se cargan no hace falta y molestan
+** DONE hacer que para cobrador 10 y 15 el esearch cargue todas las zonas :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2017-10-07 sáb 20:37]
+CLOCK: [2017-10-07 sáb 19:46]--[2017-10-07 sáb 20:37] =>  0:51** FIXED cuando procesas una planilla de rbos poner a cero viaticos :tabPasarRecibos:
+CLOCK: [2017-10-07 sáb 23:16]--[2017-10-07 sáb 23:19] =>  0:03
+pq sino da a error en la proxima que vamos a creer que ya estan
+descontados los viaticos.
+** FIXED cuando elegis un cliente y abris el popup  salta error con self.saldo :tabPasarRecibos:
+pq no hay una cuenta correcta ahi y se genera el evento FocusOut y da
+error, habria que hacer un if ahi y aparte si elegis un cliente con
+raton no dispara el proceso como si lo eligieras normalmente
+** FIXED se rompio ver en Fechar desde ver cliente directamente     :tabVer:
+CLOCK: [2017-10-05 jue 20:21]--[2017-10-05 jue 20:34] =>  0:13
+corregido es que habia borrado una linea que era el bind que hacia que
+llamara la funcion y el circuito quedaba desconectado.
+
+** FIXED recibos repetidos                                 :tabPasarRecibos:
+CLOCK: [2017-10-06 vie 19:49]--[2017-10-06 vie 21:49] =>  2:00
+CLOCK: [2017-10-06 vie 18:23]--[2017-10-06 vie 19:18] =>  0:55
+no cicla todas las cuentas el dot
+Lo que hice fue simplificar el proceso. Hice una lista a nivel self. O
+sea para todo la clase, que guarde las cuentas del cliente, que se
+regenera con cada recibo que se pasa, no importa, y de paso me la
+muestra en un balloon que no molesta a la derecha, y luego con esa
+listita hago un pop o sea puedo ciclar todos los numeros de cuenta que
+tiene el cliente.
+
+y suma solo dos cuentas no tres ni cuatro ejemplo caso 63911 zona elva
+
+veremos que hacemos 
+Esto lamentablemente fue una ballena blanca.
+Fue una perdida de tiempo mayuscula.
+Pq en realidad luego de perder un tiempo valiosisimo estando muy
+cansado y pudiendo haber hecho otras cosas en programacion me puse a
+cambiar a diestra y siniestra un proceso clave del tema recibos
+haciendo cambios drasticos que no valian la pena.
+La cosa es asi:
+El tblrecibospasados de abajo del pasador de recibos que permite
+borrar un recibo y editar datos con seguridad porque se basa como toda
+la vida en el idpagos osea es la tabla pagos en crudo, lo tenia
+tuneado con un sumador muy resaltado de dos recibos que funcionaba muy
+chulo, y rapido para la cobranza de dos recibos. Y eso lo hacia
+veloz. Y es algo que anda muy comun en la cobranza (incluso hay chicos
+como el miguel que directamente no me ponen la discriminacion de dos
+cuentas y con eso las paso volando). Y como la vieja Elva hoy me puso
+un recibo con mas de dos cuentas, yo pense que era un bug y me lance a
+cazar la ballena blanca de querer un procedimiento que sumara
+cualquier valor de recibos. Menos mal que no me salio!!!. Renegue como
+un negro y tablelis no me entrego el valor de childcount() de la
+cantidad de child colapsados en el tree para saber cuantos item tiene
+un recibo y colorear los que estan sumados, y luego cuando quiero
+hacerlo con sqlite misteriosamente me traba la base de datos, cuando
+quiero hacer el commit, me caigo en la cuenta que los recibos fisicos
+son de dos cuentas, y por lo tanto no esta mal la programacion para
+que sea de dos la suma.
+E hice un stash en vez de un commit pq quedarme sin edicion, y sin
+borrado de recibo seguros, por un tree ilegible realmente no era
+negocio, mejor asumir que una tarde pelotuda perdi tiempo por no
+permitirme descansar cuando debo descansar. Hubiera sido mucho mas
+efectiva la tarde si hubiera dedicado a programar el avance automatico
+del numero de recibo que eso si puede hacer una diferencia .
+** DESISTIDO que pmovto/pmovto se pongan en rojo o se resalten con valores anomalos :tabPasarRecibos:
+CLOCK: [2017-10-07 sáb 23:24]--[2017-10-07 sáb 23:28] =>  0:04
+entonces no me saco los ojos al pedo mirandolos al vicio si saltan a
+un valor normal.
+Tambien desisto de esto pq en el dia a dia no hay tiempo para evaluar
+ese dato.
+** DESISTIDO el Num de rbo tendria que ir primero que el num de cuenta :tabPasarRecibos:
+CLOCK: [2017-10-07 sáb 23:19]--[2017-10-07 sáb 23:23] =>  0:04
+desisto pq no hace la diferencia una vez que me acostumbre a ese
+orden, y no vale la pena el cambio programatico y luego tener que
+acostumbrarme de nuevo.
+** DESISTIDO que los tbls tengan un bind que te diga el nombre intenro del tbls :tablelist:
+lo que seria util para los bugs y las correcciones
+CLOCK: [2017-10-04 mié 18:12]--[2017-10-04 mié 18:38] =>  0:26
+tiempo perdido tratando de hacer un metodo general para que los
+tablelist muestren su nombre directamente no se puede pq no hay forma
+que dentro de la clase se sepa cual es el nombre que le das a la instancia.
+** DESISTIDO boton purgar para listado rbos                :tabPasarRecibos:
+CLOCK: [2017-10-07 sáb 20:52]--[2017-10-07 sáb 21:08] =>  0:16
+se desiste pq no es aplicable la idea pq no hay forma de purgar los
+lotesrbos.
+Ya que no hay forma de determinar que el lote no fue usado Y no tiene
+tanta relevancia el purgado como con los recorridos.
+** DONE que los cancelados en Fechar coloreen orange para no fijar vista :tabFechar:
+- State "DONE"       from "IDEA"       [2017-10-09 lun 21:45]
+CLOCK: [2017-10-09 lun 21:38]--[2017-10-09 lun 21:44] =>  0:06
+** DONE hacer sistema de guardar exdirecciones
+- State "DONE"       from "IDEA"       [2017-10-09 lun 20:59]
+CLOCK: [2017-10-09 lun 20:21]--[2017-10-09 lun 20:59] =>  0:38
+CLOCK: [2017-10-09 lun 18:59]--[2017-10-09 lun 19:35] =>  0:36
+puede ser un boton al lado de ingresar cliente que sea guardar
+direccion vieja o cambio direccion y que guarde un registro o bien que
+al editar un cliente se fije en la ultima direccion y vea si hay
+diferencias las guarde.
+** DONE ver si en tbls pedidos los E/A/Z pueden ser e/a/z y el rojo puede tener fg='white' :tabPedidos:
+- State "DONE"       from "TODO"       [2017-10-09 lun 18:59]
+CLOCK: [2017-10-09 lun 18:46]--[2017-10-09 lun 18:58] =>  0:12
+no se puede poner los links minusculas pq ya existen binds genericos
+para tbls con a/z para ordenar las columnas. Lo del rojo esta.
+** IDEA cuando insertas nuevo valor de cuenta que aparezca un balloon con el nombre :tabPasarRecibos:
+** TODO procesos que hay en pedidos ponerlos en ventas      :tabPasarVentas:
+*** copy dni para seven a todos los dni no solo los que no estan
+*** que cuando agrego cliente nuevo desde dni tambien llene fecha/16/6/
+*** que dnifirmante busque datos de padron o al menos base romitex con un esearch.
+pregunto puede funcionar un esearch con femenino?? o masculino??
+** TODO hacer que dni no sea takefocus y que infoseven siga a editar cliente :tabVer:
+** TODO volver a poner en nombre de promotor en visor de pedidos pero no con balloon :tabPedidos:
+** DONE BUG corregir molesto bug que cuando se fecha un solo id sin lista de cuentas da error :tabFechar:
+- State "DONE"       from "BUG"           [2017-10-12 jue 14:20]
+** DONE poner tablero zonas y manejo zonas en tab Fichas         :tabFichas:
+- State "DONE"       from "TODO"       [2017-10-12 jue 15:28]
+CLOCK: [2017-10-12 jue 14:57]--[2017-10-12 jue 15:28] =>  0:31
+** TODO poner el numero de pedido generado en label grande como en ventas :tabPedidos:
+** DONE tbl cuentas no totaliza                                     :tabVer:
+- State "DONE"       from "TODO"       [2017-10-12 jue 14:20]
+CLOCK: [2017-10-12 jue 14:00]--[2017-10-12 jue 14:20] =>  0:20
+

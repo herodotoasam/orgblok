@@ -73,12 +73,13 @@
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (ledger-mode yasnippet zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
  '(python-shell-interpreter "python3.5")
  '(pyvenv-workon nil)
+ '(send-mail-function (quote smtpmail-send-it))
  '(smartrep-mode-line-active-bg (solarized-color-blend "#859900" "#eee8d5" 0.2))
  '(term-default-bg-color "#fdf6e3")
  '(term-default-fg-color "#657b83")
@@ -305,3 +306,25 @@
 (global-set-key (kbd "C-<up>") 'delete-other-windows)
 
 (fset 'yes-or-no-p 'y-or-n-p)
+
+(global-set-key (kbd "C-<f12>") 'mu4e)
+
+;;yasnippets
+(add-to-list 'load-path
+	     "~/.emacs.d/plugins/yasnippet")
+(require 'yasnippet)
+(yas-global-mode 1)
+
+(autoload 'ledger-mode "ledger-mode" "A major mode for Ledger" t)
+
+(add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))
+
+;; I have my "default" parameters from Gmail
+(setq mu4e-sent-folder "/home/hero/Maildir/sent"
+      ;; mu4e-sent-messages-behavior 'delete ;; Unsure how this should be configured
+      mu4e-drafts-folder "/home/hero/Maildir/drafts"
+      user-mail-address "romitexcba@gmail.com"
+      smtpmail-default-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-server "smtp.gmail.com"
+      smtpmail-smtp-service 587)
+

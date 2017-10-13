@@ -131,3 +131,35 @@ alias cd..='cd ..'
 alias q='exit'
 xmodmap ~/.Xmodmap
 #+END_EXAMPLE
+* instalacion de mu4e
+** instalar offineimap con apt
+ luego poner .offlineimaprc
+#+BEGIN_EXAMPLE
+[general]
+# List of accounts to be synced, separated by a comma.
+accounts = main
+
+[Account main]
+# Identifier for the local repository; e.g. the maildir to be synced via IMAP.
+localrepository = main-local
+# Identifier for the remote repository; i.e. the actual IMAP, usually non-local.
+remoterepository = main-remote
+
+[Repository main-local]
+# OfflineIMAP supports Maildir, GmailMaildir, and IMAP for local repositories.
+type = Maildir
+# Where should the mail be placed?
+localfolders = ~/Maildir
+
+[Repository main-remote]
+type = Gmail
+remoteuser = romitexcba@gmail.com
+remotepass = ataH3161.
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
+# Necessary as of OfflineIMAP 6.5.4
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+#+END_EXAMPLE
+** hacer mu index en Maildir para poder hacer un mu find 
+** instalar mu4e de apt
+** hacer mkdir dentro de Maildir de las carpetas que emacs pide

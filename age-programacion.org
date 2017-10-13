@@ -1,3 +1,4 @@
+#+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 Agenda de programacion clockeada.                             [[file:~/py1local/fichaje.py][fichaje.py]]
 #+BEGIN: clocktable :maxlevel 2 :scope file
 #+CAPTION: Clock summary at [2017-09-27 mié 22:21]
@@ -2598,6 +2599,7 @@ CLOCK: [2017-10-11 mié 21:03]--[2017-10-11 mié 21:12] =>  0:09
    esa columna agregada se llene con los ingresos en valor positivo y
    los egresos en valor negativo
 *** Arreglo de las cuentas
+CLOCK: [2017-10-12 jue 20:05]--[2017-10-12 jue 20:53] =>  0:48
 CLOCK: [2017-10-11 mié 21:14]--[2017-10-11 mié 21:43] =>  0:29
 muy facilmente se arregla con reemplazar usando la facilidad de la
 planilla de calculo, opcion comodines, o regexp, ya que en un segundo
@@ -2642,4 +2644,25 @@ calculo maxime que esta hecha para la mierda desde el mismo primer
 dia.
 Asi que le tengo que poner un par de horas de dedicacion y meterle
 para adelante.
+Falta una horita mas o menos en la transformacion mas dificil que es
+el nombre de la cuenta y haciendolo a mano va volando, luego queda la
+manipulacion en global para meterlo a la base de datos y hacer el programa.
+* IDEA cambiar estructura de tabFechar
+pienso en una estructura hecha con entrys en el cual pueda poner la
+fecha con fecha2 en forma de numero mas facilmente.
+Quizas teniendo un calendario a la vista en el mismo formulario.
+quizas agregando a fecha2 facilidades como dias de la semana o pl o pm
+para proximo lunes o pmomartes
+y unos botones que llevaran a hacer las cosas que eventualmente se
+hacen en edicion como edicion de direccion o comentario, o demas
+cosas.
+Pq en realidad esa es una tabla que se maneja con raton y tendria que
+manejarse con teclado para ser mas rapida.
 
+Hay una cosa que es un lack. Que cuando se programo eso, era pq se
+necesitaba y tabVer no tenia capacidad de edicion, e incluso no la
+tiene hoy en dia, o sea no puedo editar en las pestañas internas
+aclaracion/mensaje/comentarios/horarios en tabver y me tengo que ir a
+fechar.
+Primero habria que corregir eso. Para dejar un fechador mas eficiente.
+* IDEA poner el historial del cliente en otra tabla
