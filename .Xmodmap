@@ -1,0 +1,15 @@
+clear Lock
+keycode 66 = Escape
+keycode 108 = Mode_switch
+keycode 61 = slash underscore minus
+keycode 60 = period colon period 
+keycode 35 = asterisk greater grave
+keycode 34 = plus less dead_circumflex
+keycode 47 = minus ntilde Ntilde Ntilde
+keycode 11 = 2 quotedbl at
+keycode 21 = backslash questiondown exclamdown
+keycode 62 = Shift_R
+keycode 16 = 7 asciitilde
+add Lock = Print
+
+
