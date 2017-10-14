@@ -2647,6 +2647,14 @@ para adelante.
 Falta una horita mas o menos en la transformacion mas dificil que es
 el nombre de la cuenta y haciendolo a mano va volando, luego queda la
 manipulacion en global para meterlo a la base de datos y hacer el programa.
+** Insercion del sistema contable en el programa
+*** pasado de asientos 
+CLOCK: [2017-10-14 sáb 15:05]--[2017-10-14 sáb 15:51] =>  0:46
+CLOCK: [2017-10-14 sáb 14:30]--[2017-10-14 sáb 14:52] =>  0:22
+**** TODO faltantes tbl borrado asiento
+**** TODO tbl coloracion rojo negativos
+**** TODO total o sea saldo de caja
+
 * IDEA cambiar estructura de tabFechar
 pienso en una estructura hecha con entrys en el cual pueda poner la
 fecha con fecha2 en forma de numero mas facilmente.

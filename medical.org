@@ -97,7 +97,7 @@ oficina.
 | [2017-10-11 mié] |   2 | 4am/15hs                    |
 | [2017-10-12 jue] |   2 | 4am/22                      |
 | [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
-|                  |     |                             |
+| [2017-10-14 sáb] |   1 | 12                          |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora    |
@@ -225,6 +225,14 @@ nervioso con relacion a la cena de graduacion de la mayra y sumado a
 la detox hizo que lo tomara. Creo que si hubiera sido un dia normal en
 que con el mismo proceso en marcha me hubiera podido recostar o no
 hubiera tenido tension creo que no lo tomaba.
+** [2017-10-14 sáb]
+hoy estoy patetico he dormido bien anoche luego de un dia o dias de
+tension por un compromiso que no se dio y enfrento un finde largo y no
+me puedo distender pq estoy patetico para querer estar enfrascado todo
+el dia metido en la compu y al final no hago nada en la compu y no me
+sirve de nada el resultado pq no rindo y a la vez el cuerpo sufre peor
+que en mi casa pq aca el tema posicional es ferozmente feo y ya esta
+subiendo a dolor de cabeza y esta afectando a incomodidades.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
