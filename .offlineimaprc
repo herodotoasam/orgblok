@@ -1,24 +1,23 @@
 [general]
-# List of accounts to be synced, separated by a comma.
-accounts = main
+accounts = Gmail
+maxsyncaccounts = 2
 
-[Account main]
-# Identifier for the local repository; e.g. the maildir to be synced via IMAP.
-localrepository = main-local
-# Identifier for the remote repository; i.e. the actual IMAP, usually non-local.
-remoterepository = main-remote
+[Account Gmail]
+localrepository = LocalGmail
+remoterepository = RepositoryGmail
+autorefresh = 5
+quick = 10
+postsynchook = mu index --maildir ~/Maildir
+status_backend = sqlite
 
-[Repository main-local]
-# OfflineIMAP supports Maildir, GmailMaildir, and IMAP for local repositories.
+[Repository LocalGmail]
 type = Maildir
-# Where should the mail be placed?
-localfolders = ~/Maildir
+localfolders = ~/Maildir/Gmail
 
-[Repository main-remote]
+[Repository RepositoryGmail]
 type = Gmail
-remoteuser = romitexcba@gmail.com
-remotepass = ataH3161.
-folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail']
-# Necessary as of OfflineIMAP 6.5.4
+maxconnections = 2
+remoteuser = hfj024@gmail.com
+remotepass = Orozco96.JujuY
+folderfilter = lambda foldername: foldername not in ['[Gmail]/All Mail', '[Gmail]/Important']
 sslcacertfile = /etc/ssl/certs/ca-certificates.crt
-

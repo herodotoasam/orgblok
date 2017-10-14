@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 
-* TODO bugs o improvs fichaje.py [29/47]
+* TODO bugs o improvs fichaje.py [33/48]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -73,8 +73,11 @@ o 20/10 cancela
 ** IDEA Fechar: fechado por lote, o sea seleccionar dos o tres y fechar a la misma fecha
 ** DONE poner los bind a +- a los esearch numericos si se puede.
 - State "DONE"       from "IDEA"       [2017-10-09 lun 21:45]
-** IMPROV que frenen los botones en pedidos en pasar cliente     :tabPedidos:
-** IMPROV que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
+** DONE que frenen los botones en pedidos en pasar cliente      :tabPedidos:
+- State "DONE"       from "IMPROV"     [2017-10-13 vie 21:05]
+CLOCK: [2017-10-13 vie 20:57]--[2017-10-13 vie 21:05] =>  0:08
+** DESISTIDO que el balloon de frenado en pedidos no tape el num de pedido :tabPedidos:
+no hace falta pq el numero ahora esta bien visible
 ** DONE sacar la traba en sexo de pedidos               :tabPedidos:URGENTE:
 - State "DONE"       from "TODO"       [2017-10-04 mié 11:32]
 ** DONE en el subtab Planillas de asientos al abrir no se recalcula :tabPasarRecibos:
@@ -229,14 +232,18 @@ para tbls con a/z para ordenar las columnas. Lo del rojo esta.
 *** que dnifirmante busque datos de padron o al menos base romitex con un esearch.
 pregunto puede funcionar un esearch con femenino?? o masculino??
 ** TODO hacer que dni no sea takefocus y que infoseven siga a editar cliente :tabVer:
-** TODO volver a poner en nombre de promotor en visor de pedidos pero no con balloon :tabPedidos:
+** DONE volver a poner en nombre de promotor en visor de pedidos pero no con balloon :tabPedidos:
+- State "DONE"       from "TODO"       [2017-10-13 vie 21:37]
+CLOCK: [2017-10-13 vie 21:19]--[2017-10-13 vie 21:29] =>  0:10
 ** DONE BUG corregir molesto bug que cuando se fecha un solo id sin lista de cuentas da error :tabFechar:
 - State "DONE"       from "BUG"           [2017-10-12 jue 14:20]
 ** DONE poner tablero zonas y manejo zonas en tab Fichas         :tabFichas:
 - State "DONE"       from "TODO"       [2017-10-12 jue 15:28]
 CLOCK: [2017-10-12 jue 14:57]--[2017-10-12 jue 15:28] =>  0:31
-** TODO poner el numero de pedido generado en label grande como en ventas :tabPedidos:
+** DONE poner el numero de pedido generado en label grande como en ventas :tabPedidos:
+- State "DONE"       from "TODO"       [2017-10-13 vie 20:53]
+CLOCK: [2017-10-13 vie 20:41]--[2017-10-13 vie 20:52] =>  0:11
 ** DONE tbl cuentas no totaliza                                     :tabVer:
 - State "DONE"       from "TODO"       [2017-10-12 jue 14:20]
 CLOCK: [2017-10-12 jue 14:00]--[2017-10-12 jue 14:20] =>  0:20
-
+** TODO hacer pivots de ventas diarias por vendedor y en general 

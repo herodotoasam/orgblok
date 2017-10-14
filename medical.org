@@ -100,9 +100,10 @@ oficina.
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
-| Fecha            | cnt | hora   |
-| [2017-09-27 mié] |   1 | 6.30hs |
-|                  |     |        |
+| Fecha            | cnt | hora    |
+| [2017-09-27 mié] |   1 | 6.30hs  |
+| [2017-10-13 vie] |   1 | 18.30hs |
+|                  |     |         |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -219,6 +220,11 @@ hoy a las 13hs fue por implantes directamente.
 hoy despues de muchos dias me molesta un poco un dolor continuo, y
 creo que es la desintoxicacion del cuarto dia de licuado. Es increible
 el cambio que el licuado me hizo a nivel estomacal.
+Creo que termino tomando <<nar>> pq se habia generado un sistema
+nervioso con relacion a la cena de graduacion de la mayra y sumado a
+la detox hizo que lo tomara. Creo que si hubiera sido un dia normal en
+que con el mismo proceso en marcha me hubiera podido recostar o no
+hubiera tenido tension creo que no lo tomaba.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
