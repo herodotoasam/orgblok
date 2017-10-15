@@ -318,3 +318,10 @@ hacer un bind con la funcion self.muestracuentas(idcliente)
 ** obtener una id jabber
 p.e. en jabjab.de
 ** usar un cliente como jaxim o pigdin
+* wget
+wget -vrpk --
+| v | verbose                      |
+| r | recursive                    |
+| l | --level=3 nivel de recursion |
+| k | convierte link locales       |
+|   |                              |

@@ -97,7 +97,7 @@ oficina.
 | [2017-10-11 mié] |   2 | 4am/15hs                    |
 | [2017-10-12 jue] |   2 | 4am/22                      |
 | [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
-| [2017-10-14 sáb] |   1 | 12                          |
+| [2017-10-14 sáb] |   2 | 12/23hs                     |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora    |
@@ -233,6 +233,8 @@ el dia metido en la compu y al final no hago nada en la compu y no me
 sirve de nada el resultado pq no rindo y a la vez el cuerpo sufre peor
 que en mi casa pq aca el tema posicional es ferozmente feo y ya esta
 subiendo a dolor de cabeza y esta afectando a incomodidades.
+Al final termine con la netbook hasta casi las 2 am, y a la noche me
+tome un ibu casi preventivamente sin necesidad.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

@@ -247,3 +247,7 @@ CLOCK: [2017-10-13 vie 20:41]--[2017-10-13 vie 20:52] =>  0:11
 - State "DONE"       from "TODO"       [2017-10-12 jue 14:20]
 CLOCK: [2017-10-12 jue 14:00]--[2017-10-12 jue 14:20] =>  0:20
 ** TODO hacer pivots de ventas diarias por vendedor y en general 
+CLOCK: [2017-10-15 dom 11:00]--[2017-10-15 dom 12:05] =>  1:05
+hice el primer tab regenerando el viejo tree de ventas globales de
+todos los años.
+
