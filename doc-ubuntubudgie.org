@@ -107,7 +107,7 @@ buscar
 			`ls -d /usr/lib/tcl8.5 2>/dev/null` \
 			`ls -d /usr/lib/tk8.6 2>/dev/null` \   <============ agregado por mi!!!!!!!!!!!!!
 #+END_EXAMPLE
-
+tambien en linea 3584 
 ** pdf4tcl/tablelist
 ultimo tablelist de nemethi
 

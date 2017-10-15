@@ -283,27 +283,22 @@ diff globales o bien vd y procesar de una, pq vv es para un solo archivo.
 *** escribiendo un comentario para seguir con coment
 M-j  corta linea y agrega comentario
 
-* fichaje.py
-** mostrar cuenta con doble click
-hacer un bind con la funcion self.muestracuentas(idcliente)
-** 
-
-* projectile
+** projectile
 para activarlo en un file del project hacer
 Mx- projectile-mode
 
 | Cc- p S | save all project buffers |
 | Cc- p k | kill all project buffers |
 |         |                          |
-* neotree
+** neotree
 M-x neotree
 | H     | toggle hidden archivos |
 | n/p   | next/previous          |
 | Cc Cp | copy node              |
 | Cc Cd | delete node            |
 | q     |   quit                 |
-* yasnippets
-** creacion de snippets
+** yasnippets
+*** creacion de snippets
 1. poner textual lo que queremos que salga
 2. campos van con $1 $2 $3 etc
 3. salvo el $0 que es el ultimo
@@ -314,3 +309,12 @@ M-x neotree
 
 
 
+* fichaje.py
+** mostrar cuenta con doble click
+hacer un bind con la funcion self.muestracuentas(idcliente)
+** 
+
+* jabbed- mensajeria
+** obtener una id jabber
+p.e. en jabjab.de
+** usar un cliente como jaxim o pigdin

@@ -1671,3 +1671,33 @@ CLOCK: [2017-10-10 mar 19:53]--[2017-10-10 mar 20:23] =>  0:30
 por eso me traje las ventas aca.
 voy a clockear el pasado a ver cuanto me lleva pasar las ventas
 
+* [2017-10-14 sáb]
+** prueba netbook
+hoy es un día de prueba con en la netbook y lo unico que parece fallar
+es la cadencia de emacs la puta madre. o sea no se pq se traba.
+ahora estoy en emacs texto y tambien se traba.
+Al final descubri que era proyectile el que trababa todo pq sin el todo va joya. 
+Incluso python con AC y SP y con cc-cp usando el evaluar el programa desde alli mismo.
+Todo lo demas anda joya. Pq convengamos que hay cositas que tienen una ventaja:
+*** la bateria casi digamos dura lo mismo
+*** el teclado es mejor en la netbook
+*** el SO que le instale me gusta mas que el que tenia
+*** para la labor que hago en org/emacs/etc es suficiente 
+*** el tamaño es mas manuable para trabajar en la cama y en sillon
+o sea que si pudiera venderla genuinamente a la notebook y recuperar
+el valor estaria hecho sino me quedo en el molde y veo que hago  pq ya
+me paso lo mismo con xperia vs motoG
+
+** tema lesta
+creo que Fede se tendria que des-lestizar pq no puede ser que yo
+trabaje todos los dias con gente extraña y el tenga que trabajar con
+alguien de una "supuesta confianza" que al final termina siendo una
+chabacaneria y una cosa inconveniente.
+
+** tema navegadores internet
+me gustaria aprender a usar mas el nativo de emacs, incluso he bajado
+archivos desde el con rapidez asombrosa.
+En realidad no hay mucho para aprender. Es un navegador muy simple
+para texto solamente. pero que puede ser util para aquellas paginas
+que sirven para leer.
+

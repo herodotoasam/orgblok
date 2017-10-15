@@ -1,5 +1,5 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
-
+#+COLUMNS %TODO%TAGS
 * TODO bugs o improvs fichaje.py [33/48]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
