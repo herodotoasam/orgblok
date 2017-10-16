@@ -297,7 +297,7 @@ Incluso si se pone el titulo del sector denso como comentario es facil transitar
 
 
 * TODO Emacs basicos                                                   :anki:
-SCHEDULED: <2017-01-24 mar .+40d>
+SCHEDULED: <2017-10-17 mar .+40d>
 - State "DONE"       from "TODO"       [2016-12-15 jue 13:39]
 - State "DONE"       from "TODO"       [2016-11-12 sáb 23:07]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:26]
