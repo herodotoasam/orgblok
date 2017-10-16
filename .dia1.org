@@ -1,4 +1,4 @@
-yDiarios de oficina
+Diarios de oficina
 * [2017-03-22 mié]
 ** porque segui asi que diria en analisis
 en una consulta frente a un analista diria que sigo este camino y no
@@ -1701,3 +1701,31 @@ En realidad no hay mucho para aprender. Es un navegador muy simple
 para texto solamente. pero que puede ser util para aquellas paginas
 que sirven para leer.
 
+* [2017-10-15 dom]
+hoy un dia bastante normal en familia no puedo quejarme pero termine 
+con la toma de otro nar.
+Creo que debo acomodarme de ahora en adelante. Moderarme un poco. Es
+obvio que el tema tecnologico me puede y no lo domino, pq no es solo
+la programacion.
+voy a los ejemplos:
+ayer pase todo el dia reinstalando esta vieja netbook y me entusiasme
+con este downsizing y reinstalacion.
+tambien paralelamente me entusiasme con jabber hasta el punto de
+quedar malisimo en el almuerzo como un adolescente con el celu como un
+pelotudo y lo unico que hacia era intentar probar un sistema que
+cuando llegue aca me dejo de interesar totalmente, o sea demostre
+menos atencion que el euge.
+y en el tema programacion propiamente dicho creo que ya tengo
+organizado las cosas, o sea ya podria plantearme objetivos y hacerme
+agendas pq ya cuento con las herramientas de trabajo y los
+conocimientos como para hacerlo. Incluso podria tratar de ser mas
+equilibrado y salirme un poco de la cosa.
+
+P.e. podria decirme para la semana ponerme el objetivo de terminar el
+tema contable y abocarme a una sola tarea y en el resto de las cosas
+recopilar bugs e ideas y anotar cosas, y si surge alguna urgencia
+hacerla pero atenerse al plan. Entonces no tener que estar en la forma
+que estuve estos dias tan feito en la forma que estuve.
+
+Y urgente ocuparme de mejorar la situacion con la salud pq asi no
+podemos continuar.

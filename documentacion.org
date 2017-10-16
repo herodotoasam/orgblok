@@ -230,6 +230,8 @@ solarized light
 no solo por las fonts en org, sino pq se ve el resaltado cuando voy a
 copiar sino tambien los parentesis.
 
+** pdf-tools
+con eso habilito a ver pdf dentro de emacs
 
 * orgmode
 ** listas planas
@@ -325,3 +327,19 @@ wget -vrpk --
 | l | --level=3 nivel de recursion |
 | k | convierte link locales       |
 |   |                              |
+* documentacion a mano en emacs
+** alternativa eww
+tratar de bajar el sitio con wget o mejor directamente empacado de la
+pagina como lo entrega gnu-emacs o python y luego con
+eww-open-file
+abro el index que luego tengo bookmarkeado
+** alternativa pdf
+con los pdf-tools instalado directamente abro el pdf como un archivo
+mas que bajo de la documentacion de las paginas y lo tengo para buscar
+mejor que con herramientas propias de pdf, pq tenes el pdf-occur que
+te entrega las lineas que contienen lo que buscas y dentro de ese
+buffer podes hacer busquedas con c-s y podes ir a la seccion, y tmb el
+pdf es navegable y el renderizado es veloz, manejaba el python library
+de dos mil paginas velozmente.
+Teniendo eso adentro de emacs podes trabajar mas rapido que si tenes
+que buscar la web.

@@ -98,12 +98,13 @@ oficina.
 | [2017-10-12 jue] |   2 | 4am/22                      |
 | [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
 | [2017-10-14 sáb] |   2 | 12/23hs                     |
+| [2017-10-15 dom] |   2 | 10/15hs                     |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 **  naratriptan
 | Fecha            | cnt | hora    |
 | [2017-09-27 mié] |   1 | 6.30hs  |
 | [2017-10-13 vie] |   1 | 18.30hs |
-|                  |     |         |
+| [2017-10-15 dom] |   1 | 18.30hs |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -235,6 +236,17 @@ que en mi casa pq aca el tema posicional es ferozmente feo y ya esta
 subiendo a dolor de cabeza y esta afectando a incomodidades.
 Al final termine con la netbook hasta casi las 2 am, y a la noche me
 tome un ibu casi preventivamente sin necesidad.
+** [2017-10-15 dom]
+obviamente que me iba a dar la pataleta por los desmanes que
+estaba/estoy haciendo y por la comida. Hoy comi como loco y comi esa
+porcion de torta de chocolate encima. Pero no tendria porque darme la
+cefalea esta no se pq se da todo esto quizas sea por falta de sueño o
+que. y tome un segundo ibu apenas volvi del almuerzo y luego me senti
+mal cuando me acoste afuera en el futon y me tome un <<nar>> que
+termino haciendo efecto bastante rapido y quedo con una leve
+resaca. Ayudo que me puse a lavar a mano y colgar la ropa en el aire y
+me despeje un poco tomando mates y deje un poco la compu.
+Ahora voy a descansar un poco.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
