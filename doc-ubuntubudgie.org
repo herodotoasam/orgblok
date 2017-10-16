@@ -26,17 +26,27 @@ en un terminal
 #+BEGIN_EXAMPLE
 gsettings set org.gnome.desktop.interface clock-show-date true
 #+END_EXAMPLE
+
+* Notas sobre lubuntu
+agregar a panel "agente distribucion de teclado"
+configurar deseleccionar Mantener las distribuciones del sistema
+agregar la que falta ya sea latam o us
+agregar monitor del sistema
+
 * Antes que nada instalar con sudo apt install ...
 1. emacs
 2. git
 3. firefox
-4. xclip
-5. zathura
+4. vim-gtk
+5. xclip
+6. zathura
 ** syncronizar marcadores con firefox hfj024/ataraxia76
 ** crear clave ssh con gitlab para hacer el git clone sin contraseña
 
 
 * Emacs
+copiar .emacs desde ../orblok
+M-x package-refresh-contens
 
 ** lo unico que falta instalar
 con Mx package-install
@@ -84,6 +94,12 @@ y tengo un git en ~/.emacs.d/snippets
 5. git
 
 ** instalar itcl /itk de la pagina
+Nueva informacion: Bajar el itk4.0.4 [[https://sourceforge.net/projects/incrtcl/files/latest/download?source%3Dtyp_redirect][itk apropiado (No el 4.1.0 o
+nuevo)]]
+Para editar buscar "common install locations" es mas facil y alli
+editamos tres veces y ponemos la ruta /usr/lib/tk8.6
+
+
 ./configure
 make all
 make test
@@ -104,7 +120,7 @@ buscar
 			`ls -d /usr/lib 2>/dev/null` \
 			`ls -d /usr/lib64 2>/dev/null` \
 			`ls -d /usr/lib/tcl8.6 2>/dev/null` \
-			`ls -d /usr/lib/tcl8.5 2>/dev/null` \
+2497                `ls -d /usr/lib/tcl8.5 2>/dev/null` \
 			`ls -d /usr/lib/tk8.6 2>/dev/null` \   <============ agregado por mi!!!!!!!!!!!!!
 #+END_EXAMPLE
 tambien en linea 3584 
