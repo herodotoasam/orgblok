@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [33/48]
+* TODO bugs o improvs fichaje.py [33/51]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -255,4 +255,11 @@ todos los años.
 - State "DONE"       from "TODO"       [2017-10-15 dom 22:03]
 CLOCK: [2017-10-15 dom 21:39]--[2017-10-15 dom 22:03] =>  0:24
  
-** 
+** TODO boton de recalc o proceso recalc para totales      :tabPasarRecibos:
+pq se dio dos veces editar un valor luego que la planilla esta
+terminada y necesito que se refleje la edicion en los totales para
+pasar el asiento y no me recalcula como con jornales.tcl 
+
+** TODO repetir vta poner pmovto igual a vta anterior       :tabPasarVentas:
+
+** TODO info de seven alta fecha  en tabver                         :tabVer:

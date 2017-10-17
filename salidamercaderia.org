@@ -110,6 +110,33 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
+** Dejada por Fede [2017-10-13 vie] [1/24]
+*** TODO mantel cuerina
+*** TODO mantel cuerina
+*** TODO mantel cuerina
+*** TODO PB KING
+*** TODO PB KING
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-17 mar 15:40]
+64712
+*** TODO cortina
+*** TODO cortina
+*** TODO cortina
+*** TODO cortina
+*** TODO cortina
+*** TODO PB2
+*** TODO PB2
+*** TODO PB2
+*** TODO cortina cocina tropical
+*** TODO cortina cocina tropical
+*** TODO cortina cocina tropical
+*** TODO cubrecamas indu 1PL
+*** TODO cubrecamas indu 1PL
+*** TODO pack x 2 nauticos
+*** TODO pack x 2 nauticos
+*** TODO pack x 2 nauticos
+*** TODO pack x 2 nauticos
+*** TODO pack x 2 nauticos
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
