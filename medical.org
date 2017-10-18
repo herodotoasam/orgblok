@@ -65,12 +65,23 @@ oficina.
 [2017-10-05 jue] un dolor que aparecio hace una semana y que me impide
 cruzar la pierna del lado derecho y lo sospecho que es el sillon de la
 oficina.
-
+*** espalda
+[2017-10-18 mié] muy mucho dolor de espalda, toda la noche, pienso que
+la culpa del dolor de anoche la tuvo el sillon. Ahoche me colgue con
+tres capitulos de netflix y eso se noto a nivel espalda es peor que la
+jornada de sillon con la compu.
+*** acidez extrema
+[2017-10-18 mié] hasta el punto de tomar agua para pasar la noche, me
+paso hace dos noches en el marques y hoy tome un gastromax a la mañana
+como primer medicamento
+*** polialquria
+[2017-10-18 mié] ya a nivel molesto, tener que levantarme tantas veces
+de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
-|                  |  26 |                             |
+|                  |  42 |                             |
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
 | [2017-09-20 mié] |   1 | desperte con dolor          |
@@ -101,18 +112,20 @@ oficina.
 | [2017-10-15 dom] |   2 | 10/15hs                     |
 | [2017-10-16 lun] |   0 |                             |
 | [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs           |
+| [2017-10-18 mié] |   1 | 11.30                       |
 |                  |     |                             |
-|                  |     |                             |
-#+TBLFM: @2$2=vsum(@3$2..@21$2)
+#+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
 | [2017-09-27 mié] |   1 | 6.30hs  |
 | [2017-10-13 vie] |   1 | 18.30hs |
 | [2017-10-15 dom] |   1 | 18.30hs |
+| [2017-10-18 mié] |   1 | 1.30 am |
+|                  |     |         |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
-|                  |     |                  |
+| [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
 SCHEDULED: <2017-10-23 lun .+1w>
 - State "DONE"       from "TODO"       [2017-10-17 mar 19:58]
@@ -259,6 +272,13 @@ tiempos la presion de la cefaleica y cuando me decia que yendome a
 caminar un poco se me iba a ir, y omiti tomarme un segundo (tercero en
 realidad). Luego me olvide pero tome cabergolina y estoy precefaleico
 asi que en un rato me tomo otro.
+** [2017-10-18 mié]
+anoche muy mal me desperte con intensa cefalea para <<nar>> que tome
+solo con agua y segui durmiendo y fue efectivo en la noche. Me dio un
+poco de miedo pq en la noche anterior habia tomado cabergolina, nunca
+habia tomado tan cerca ambos medicamentos.
+Pero sigo cefaleico. 
+Es que tenemos problemas y tensiones en el trabajo.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
