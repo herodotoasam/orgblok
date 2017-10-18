@@ -99,7 +99,9 @@ oficina.
 | [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
 | [2017-10-14 sáb] |   2 | 12/23hs                     |
 | [2017-10-15 dom] |   2 | 10/15hs                     |
-| [2017-10-16 lun] |     |                             |
+| [2017-10-16 lun] |   0 |                             |
+| [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs           |
+|                  |     |                             |
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@21$2)
 ** naratriptan
@@ -112,13 +114,14 @@ oficina.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 |                  |     |                  |
 ** TODO Cabergolina
-SCHEDULED: <2017-10-16 lun .+1w>
+SCHEDULED: <2017-10-23 lun .+1w>
+- State "DONE"       from "TODO"       [2017-10-17 mar 19:58]
 - State "DONE"       from "TODO"       [2017-10-09 lun 18:38]
 - State "DONE"       from "TODO"       [2017-10-02 lun 22:31]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2017-10-09 lun 18:38]
+:LAST_REPEAT: [2017-10-17 mar 19:58]
 :END:
 
 
@@ -249,6 +252,13 @@ termino haciendo efecto bastante rapido y quedo con una leve
 resaca. Ayudo que me puse a lavar a mano y colgar la ropa en el aire y
 me despeje un poco tomando mates y deje un poco la compu.
 Ahora voy a descansar un poco.
+** [2017-10-17 mar]
+ayer no tome nada pero hoy empece temprano a la una y media con un
+ibu, el dia en oficina normal, y a la tarde senti como en los viejos
+tiempos la presion de la cefaleica y cuando me decia que yendome a
+caminar un poco se me iba a ir, y omiti tomarme un segundo (tercero en
+realidad). Luego me olvide pero tome cabergolina y estoy precefaleico
+asi que en un rato me tomo otro.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

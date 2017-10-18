@@ -14,7 +14,8 @@ SCHEDULED: <2017-10-02 lun .+1d>
 :STYLE:    habit
 :END:
 ** TODO licuados
-SCHEDULED: <2017-10-13 vie .+1d>
+SCHEDULED: <2017-10-18 mié .+1d>
+- State "DONE"       from "TODO"       [2017-10-17 mar 21:11]
 - State "DONE"       from "TODO"       [2017-10-12 jue 20:57]
 - State "DONE"       from "TODO"       [2017-10-11 mié 20:42]
 - State "DONE"       from "TODO"       [2017-01-04 mié 16:13]
@@ -59,7 +60,7 @@ SCHEDULED: <2017-10-13 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2017-10-12 jue 20:57]
+:LAST_REPEAT: [2017-10-17 mar 21:11]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -80,7 +81,8 @@ SCHEDULED: <2017-10-13 vie .+1d>
 
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2017-10-13 vie .+1d>
+SCHEDULED: <2017-10-18 mié .+1d>
+- State "DONE"       from "TODO"       [2017-10-17 mar 21:11]
 - State "DONE"       from "TODO"       [2017-10-12 jue 23:40]
 - State "DONE"       from "TODO"       [2017-10-09 lun 21:37]
 - State "DONE"       from "TODO"       [2017-10-05 jue 22:30]
@@ -122,7 +124,7 @@ SCHEDULED: <2017-10-13 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-12 jue 23:40]
+:LAST_REPEAT: [2017-10-17 mar 21:11]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
@@ -287,11 +289,25 @@ SCHEDULED: <2017-10-13 vie .+1d>
 |  1 | flexion baja de la espalda | lev con brazos los muslos |
 |    |                            |                           |
 ** 3x12
-** Caminar expresamente 
+** TODO Caminar expresamente 
+SCHEDULED: <2017-10-19 jue .+2d>
+- State "DONE"       from "TODO"       [2017-10-17 mar 20:02]
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2017-10-17 mar 20:02]
+:END:
 un circuito posible seria jujuy-deanfunes-cañada-colon eso son 6
 cuadras y se puede repetir unas dos o tres veces. 
 Se podria llevar dentro del track del habito una tabla con la suma de
 las cuadras caminadas. 
+[2017-10-17 mar] en realidad lo propongo como habito alternativo a las
+tres series rigurosas como actividad. Cosa de salir un poco del
+encierro y de paso caminar que es lo que me hace bien. Y necesito ver
+que levante algo. Entonces si hay salida de la casa asi sea para
+comprar alguna cosa y uno hizo un par de cuadras eso ya cuenta. De
+paso que uno no se queda sin esa comprita necesaria (lo que ayuda en
+el plano alimentario y de paso aumenta la vision) Por eso no me pongo
+una gran meta sino ir saliendo.
 * Experiencias en el camino
 ** 3 series
 Llevo tres dias [2016-10-23 dom] y ayer note que ya me costaba menos

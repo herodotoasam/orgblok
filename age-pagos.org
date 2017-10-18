@@ -75,6 +75,8 @@ DEADLINE: <2017-10-15 dom +1m -2d>
 :LAST_REPEAT: [2016-12-21 mié 15:22]
     :END:
 
+*** TODO Tarjeta Naranja
+SCHEDULED: <2017-11-10 vie +1m>
 * Romitex                                                           :romitex:
 ** TODO Expensas Local                                       :oficina:fijos:
 DEADLINE: <2017-10-20 vie +1m -3d>
