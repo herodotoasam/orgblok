@@ -168,9 +168,10 @@ Def Cons, le dije que no lo diga que lo haga (tipo pope). y fresco.
 ** 
 * Devoluciones en proceso por cobradores
 ** TODO [2017-09-15 vie] Viale Melian 2074  cobr 750
-** TODO [2017-09-15 vie] Sarmiento Leviller 1535 cobr 755
+** DESISTIDO [2017-09-15 vie] Sarmiento Leviller 1535 cobr 755
 la atendio la hija y dice que la madre no la iba a querer o que la
-habia devuelto creia, una 76.
+habia devuelto creia, una 76.[2017-10-19 jue] viene a pagar la hija a
+la oficina la cuota dos y no dijo nada de ninguna devolucion.
 ** DONE [2017-09-18 lun] Charafedin Pall Mall 3714 (cortinas)
 - State "DONE"       from "IDEA"       [2017-09-22 vie 10:53]
 * Casos sabanas LH estropeadas
@@ -187,7 +188,20 @@ desteñida, no vale la pena conservar el cliente alli.
 SCHEDULED: <2017-10-16 lun>
 Gramajo Braian - llamo la madre que vive en Liceo y vendra el lunes a
 cambiar por PB2 6x195 pq dice que hizo pelotitas hasta en la funda
-
+** TODO Pinto Sandra Pje Machas
+[2017-10-19 jue] me dice por whatapp que despues de lavar se descosio
+y le dije que la trajera y quedo ahi.
+** TODO Turri Maria Soledad La Hora 2482
+[2017-10-19 jue]
+reclama que las sabanas se destiñeron al segundo lavado que son de
+mala calidad pero en ese momento paga $330 cubriendo 1 y 2 cuota y un
+poco mas.
+** TODO sesse 3238 
+SCHEDULED: <2017-10-23 lun>
+cambiar sabana azul LH2 por una clara enviar
+** TODO  alumnine 2221
+SCHEDULED: <2017-10-23 lun>
+cambiar sabana azul LH2 
 * Devoluciones normales 
 | [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
 |                  |       |                |      |     |           |        |     |       |              |

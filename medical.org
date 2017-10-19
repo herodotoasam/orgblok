@@ -112,7 +112,8 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-15 dom] |   2 | 10/15hs                     |
 | [2017-10-16 lun] |   0 |                             |
 | [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs           |
-| [2017-10-18 mié] |   1 | 11.30                       |
+| [2017-10-18 mié] |   2 | 11.30/23hs                  |
+| [2017-10-19 jue] |   1 | 11                          |
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
@@ -121,6 +122,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-13 vie] |   1 | 18.30hs |
 | [2017-10-15 dom] |   1 | 18.30hs |
 | [2017-10-18 mié] |   1 | 1.30 am |
+| [2017-10-19 jue] |   1 | 4.30 am |
 |                  |     |         |
 ** gastromax
 | fecha            | cnt | horas            |
@@ -279,6 +281,11 @@ poco de miedo pq en la noche anterior habia tomado cabergolina, nunca
 habia tomado tan cerca ambos medicamentos.
 Pero sigo cefaleico. 
 Es que tenemos problemas y tensiones en el trabajo.
+** [2017-10-19 jue]
+anoche me tome un ibu preventivo pq estoy cefaleico como ahora y dormi
+bien hasta las 4.30am que me desperte y tome un <<nar>> y mas o menos
+se fue y me levante bien y la mañana fue particularmente intensa y
+nerviosa hasta el mediodia que tomo otro ibu y sigo cefaleico.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
