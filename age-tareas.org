@@ -1,6 +1,10 @@
 * Oficina
-** Limpieza general
-   DEADLINE: <2017-10-15 dom>
+** TODO Limpieza general
+DEADLINE: <2017-10-25 mié .+1w>
+- State "DONE"       from "TODO"       [2017-10-18 mié 21:28]
+:PROPERTIES:
+:LAST_REPEAT: [2017-10-18 mié 21:28]
+:END:
 
 * Negocio
 ** TODO Imprimir fichas de Elva y Monica

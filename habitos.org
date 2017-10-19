@@ -14,7 +14,8 @@ SCHEDULED: <2017-10-02 lun .+1d>
 :STYLE:    habit
 :END:
 ** TODO licuados
-SCHEDULED: <2017-10-18 mié .+1d>
+SCHEDULED: <2017-10-19 jue .+1d>
+- State "DONE"       from "TODO"       [2017-10-18 mié 21:28]
 - State "DONE"       from "TODO"       [2017-10-17 mar 21:11]
 - State "DONE"       from "TODO"       [2017-10-12 jue 20:57]
 - State "DONE"       from "TODO"       [2017-10-11 mié 20:42]
@@ -60,7 +61,7 @@ SCHEDULED: <2017-10-18 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2017-10-17 mar 21:11]
+:LAST_REPEAT: [2017-10-18 mié 21:28]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -290,11 +291,12 @@ SCHEDULED: <2017-10-13 vie .+1d>
 |    |                            |                           |
 ** 3x12
 ** TODO Caminar expresamente 
-SCHEDULED: <2017-10-19 jue .+2d>
+SCHEDULED: <2017-10-20 vie .+2d>
+- State "DONE"       from "TODO"       [2017-10-18 mié 21:29]
 - State "DONE"       from "TODO"       [2017-10-17 mar 20:02]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-17 mar 20:02]
+:LAST_REPEAT: [2017-10-18 mié 21:29]
 :END:
 un circuito posible seria jujuy-deanfunes-cañada-colon eso son 6
 cuadras y se puede repetir unas dos o tres veces. 

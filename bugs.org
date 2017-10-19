@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [33/51]
+* TODO bugs o improvs fichaje.py [34/52]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -262,4 +262,9 @@ pasar el asiento y no me recalcula como con jornales.tcl
 
 ** TODO repetir vta poner pmovto igual a vta anterior       :tabPasarVentas:
 
-** TODO info de seven alta fecha  en tabver                         :tabVer:
+** DONE info de seven alta fecha  en tabver                         :tabVer:
+- State "DONE"       from "TODO"       [2017-10-18 mié 21:54]
+CLOCK: [2017-10-18 mié 21:35]--[2017-10-18 mié 21:54] =>  0:19
+
+** TODO poder imprimir fichas de cuentas que ya estan canceladas    :tabVer:
+como tenia en F13 para aclarar dudas o problemas en forma mas facil
