@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [35/52]
+* TODO bugs o improvs fichaje.py [35/53]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -270,3 +270,5 @@ CLOCK: [2017-10-18 mié 21:35]--[2017-10-18 mié 21:54] =>  0:19
 
 ** TODO poder imprimir fichas de cuentas que ya estan canceladas    :tabVer:
 como tenia en F13 para aclarar dudas o problemas en forma mas facil
+
+** TODO dobleclick a tabver en tbl recibos pasados         :tabPasarRecibos:

@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** Mercaderia llevada de oficina [15/18]
+** Mercaderia llevada de oficina [15/19]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -41,6 +41,7 @@ cancela el pack que le debia
 64536
 *** TODO [2017-10-06 vie] cortinas verde esmeralda reducida 6x80
 *** TODO [2017-10-10 mar] sabanas PB2
+*** TODO [2017-10-20 vie] piñata car
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -110,21 +111,31 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
-** Dejada por Fede [2017-10-13 vie] [1/24]
+** Dejada por Fede [2017-10-13 vie] [8/24]
+*** DONE mantel cuerina
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
+64767
+*** DONE mantel cuerina
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:52]
+64766
 *** TODO mantel cuerina
-*** TODO mantel cuerina
-*** TODO mantel cuerina
-*** TODO PB KING
+*** DONE PB KING
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
+64768
 *** TODO PB KING
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-10-17 mar 15:40]
 64712
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:52]
+64766
 *** TODO cortina
 *** TODO cortina
 *** TODO cortina
 *** TODO cortina
-*** TODO cortina
-*** TODO PB2
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
+64767
 *** TODO PB2
 *** TODO PB2
 *** TODO cortina cocina tropical
@@ -132,8 +143,12 @@ Devuelta
 *** TODO cortina cocina tropical
 *** TODO cubrecamas indu 1PL
 *** TODO cubrecamas indu 1PL
-*** TODO pack x 2 nauticos
-*** TODO pack x 2 nauticos
+*** DONE pack x 2 nauticos
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
+64767
+*** DONE pack x 2 nauticos
+- State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
+64767
 *** TODO pack x 2 nauticos
 *** TODO pack x 2 nauticos
 *** TODO pack x 2 nauticos
@@ -188,6 +203,7 @@ desteñida, no vale la pena conservar el cliente alli.
 SCHEDULED: <2017-10-16 lun>
 Gramajo Braian - llamo la madre que vive en Liceo y vendra el lunes a
 cambiar por PB2 6x195 pq dice que hizo pelotitas hasta en la funda
+[2017-10-19 jue] raro paga la primera a Magali rbo 251496 140 
 ** TODO Pinto Sandra Pje Machas
 [2017-10-19 jue] me dice por whatapp que despues de lavar se descosio
 y le dije que la trajera y quedo ahi.
