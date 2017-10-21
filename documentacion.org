@@ -343,3 +343,31 @@ pdf es navegable y el renderizado es veloz, manejaba el python library
 de dos mil paginas velozmente.
 Teniendo eso adentro de emacs podes trabajar mas rapido que si tenes
 que buscar la web.
+* error en apt install
+    No se pudo bloquear /var/lib/dpkg/lock – open (11: Recurso no disponible temporalmente)
+    E: No se pudo bloquear el directorio de administración (/var/lib/dpkg/), ¿quizás haya algún otro proceso utilizándolo?
+
+Y lo solucionamos de la siguiente forma:
+
+Abriremos una terminar  y ejecutamos el siguiente comando para desbloquear /var/lib/dpkg/lock.
+
+    $ sudo fuser -vki  /var/lib/dpkg/lock
+
+Las opciones utilizadas en el comando sirven para:
+
+    -v activa el modo verbose, para los que nos gusta ver en todo momento lo que está haciendo.
+    -k mata el proceso que mantiene el fichero ocupado.
+    -i pide confirmación para matar al proceso.
+
+También recomiendan eliminar el fichero en cuestión.
+
+    $ sudo rm -f /var/lib/dpkg/lock
+
+Una vez terminado con el bloqueo, ejecutamos el siguiente comando para reparar los posibles paquetes rotos.
+
+    $ sudo dpkg --configure -a
+
+Terminado este último paso, ya podemos volver a instalar. Acaba la instalación ejecutamos el siguiente comando para eliminar paquetes que ya no sirvan o se hayan quedado “colgando” y
+listo.
+
+    $ sudo apt-get autoremove

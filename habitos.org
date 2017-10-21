@@ -9,9 +9,11 @@ solo color, y si lo has roto automaticamente se recomienza.
 
 * Lista de habitos alimenticios
 ** TODO tomar agua con limon
-SCHEDULED: <2017-10-02 lun .+1d>
+SCHEDULED: <2017-10-21 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-10-20 vie 21:44]
 :PROPERTIES:
 :STYLE:    habit
+:LAST_REPEAT: [2017-10-20 vie 21:44]
 :END:
 ** TODO licuados
 SCHEDULED: <2017-10-20 vie .+1d>
@@ -83,7 +85,8 @@ SCHEDULED: <2017-10-20 vie .+1d>
 
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2017-10-20 vie .+1d>
+SCHEDULED: <2017-10-21 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-10-20 vie 21:45]
 - State "DONE"       from "TODO"       [2017-10-19 jue 21:27]
 - State "DONE"       from "TODO"       [2017-10-17 mar 21:11]
 - State "DONE"       from "TODO"       [2017-10-12 jue 23:40]
@@ -127,11 +130,12 @@ SCHEDULED: <2017-10-20 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-19 jue 21:27]
+:LAST_REPEAT: [2017-10-20 vie 21:45]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.
 y legumbre, en especial aduki.
+Y tambien puede ser el menu vegetariano en oficina
 
 ** frutas
    para comer frutas hay que comprarlas y buscarlas. Hoy comi
@@ -161,7 +165,8 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2017-10-13 vie .+1d>
+SCHEDULED: <2017-10-21 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-10-20 vie 21:45]
 - State "DONE"       from "TODO"       [2017-10-12 jue 21:10]
 - State "DONE"       from "TODO"       [2017-10-10 mar 22:31]
 - State "DONE"       from "TODO"       [2017-10-09 lun 21:37]
@@ -219,7 +224,7 @@ SCHEDULED: <2017-10-13 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-12 jue 21:10]
+:LAST_REPEAT: [2017-10-20 vie 21:45]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]
@@ -293,12 +298,13 @@ SCHEDULED: <2017-10-13 vie .+1d>
 |    |                            |                           |
 ** 3x12
 ** TODO Caminar expresamente 
-SCHEDULED: <2017-10-20 vie .+2d>
+SCHEDULED: <2017-10-22 dom .+2d>
+- State "DONE"       from "TODO"       [2017-10-19 jue 21:45]
 - State "DONE"       from "TODO"       [2017-10-18 mié 21:29]
 - State "DONE"       from "TODO"       [2017-10-17 mar 20:02]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-18 mié 21:29]
+:LAST_REPEAT: [2017-10-20 vie 21:45]
 :END:
 un circuito posible seria jujuy-deanfunes-cañada-colon eso son 6
 cuadras y se puede repetir unas dos o tres veces. 

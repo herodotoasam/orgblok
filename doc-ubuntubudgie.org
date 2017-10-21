@@ -86,7 +86,7 @@ luego agregar a .emacs
 Los snippets residen en ~/.emacs.d/snippets/prog-mode/
 y tengo un git en ~/.emacs.d/snippets
 
-*  instalacion de TCL
+* instalacion de TCL
 1. emacs por supuesto (no se si hace falta vim-gtk)
 2. sqlite3 libsqlite3-tcl
 3. tklib bwidget libtk-img tcllib

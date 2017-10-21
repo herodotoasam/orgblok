@@ -114,7 +114,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs           |
 | [2017-10-18 mié] |   2 | 11.30/23hs                  |
 | [2017-10-19 jue] |   1 | 11                          |
-|                  |     |                             |
+| [2017-10-20 vie] |   1 | 19hs                        |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -306,6 +306,12 @@ cefaleico al licuado.
 No diria al licuado sino a los ingredientes viejos, tiraria todo y
 compraria nuevos por las dudas. y compraria verduras para probar si
 hay desagote por otro lado. 
+Por la experiencia del dia de hoy en la cual transcurrio todo el dia
+bien, salvo con un pequeño brote al llegar al marques que fue sofocado
+cuando me tome un ibu creo que puede ser el tema licuado. (No creo que
+sea el segundo factor corregido que fue el partir la dosis de
+topiramato y menos el tercer factor no corregido que fue no haber
+tomado estos tres dias la sublingual)
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
