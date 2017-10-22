@@ -2586,6 +2586,7 @@ cobranza y el costo de la promocion.
 Por eso hay que seguir pensando que queremos hacer.
 
 ** TODO [#A] Transformacion de pcods en datos usables por sqlite
+CLOCK: [2017-10-21 sáb 14:53]--[2017-10-21 sáb 16:53] =>  2:00
 *** Manipulacion de fechas
 CLOCK: [2017-10-11 mié 20:43]--[2017-10-11 mié 21:03] =>  0:20
 CLOCK: [2017-10-11 mié 18:53]--[2017-10-11 mié 19:02] =>  0:09
@@ -2614,9 +2615,28 @@ datos, no recupera nada.
    dicha columna)
 se guardo la columna original de cuenta para juntarla con el
 comentario de la planilla y hacer un comentario redundante en la tabla
-2. referencia a la fila del archivo que quedara como referencia futura
-*** TODO transformacion a cvs
-*** TODO lectura del cvs por sqlite a la tabla caja
+1. referencia a la fila del archivo que quedara como referencia futura
+2. el comentario se hizo un ampersand para no perder ningun comentario
+3. se copiaron a otra planilla los datos con un paste especial o sea
+   sin formulas solo datos
+4. se copio la columna de fechas aparte
+5. se inserto una columna a la izquierda de id y se calculo en que id
+   iba y se numero a partir del id real
+6. se importo desde sqlite
+
+*** DONE transformacion a cvs y lectura en sqlite
+- State "DONE"       from "TODO"       [2017-10-21 sáb 16:55]
+con el csv de campos id, fecha, cuenta importe y comentario me ubico
+en sqlite3 y hago
+.separator , 
+.import datacsv.csv caja
+y listo
+*** DONE reparacion finita
+- State "DONE"       from "TODO"       [2017-10-21 sáb 16:57]
+un poco la hice volviendo a la planilla y luego vi que era mejor en
+emacs pq me volvia loco. y emacs con el multoccur es mas rapido y
+visible y ya trabajo sobre el archivo csv directamente.
+
 ** Asientos automaticos
 **** registro de planillas
 que cuando pase una planilla de ingreso directamente se registre en
@@ -2658,7 +2678,10 @@ CLOCK: [2017-10-15 dom 21:09]--[2017-10-15 dom 21:17] =>  0:08
 **** DONE total o sea saldo de caja
 - State "DONE"       from "TODO"       [2017-10-15 dom 21:33]
 CLOCK: [2017-10-15 dom 21:17]--[2017-10-15 dom 21:33] =>  0:16
-
+*** posible hoja mayorizadora o visualzadora de una cuenta por vez pe. retiros
+CLOCK: [2017-10-21 sáb 23:15]--[2017-10-21 sáb 23:36] =>  0:21
+claro que una vez que tenga todos los datos adentro sera facil
+trabajar con ellos.
 * IDEA cambiar estructura de tabFechar
 pienso en una estructura hecha con entrys en el cual pueda poner la
 fecha con fecha2 en forma de numero mas facilmente.

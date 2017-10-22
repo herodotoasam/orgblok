@@ -115,6 +115,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-18 mié] |   2 | 11.30/23hs                  |
 | [2017-10-19 jue] |   1 | 11                          |
 | [2017-10-20 vie] |   1 | 19hs                        |
+| [2017-10-21 sáb] |   1 | 10hs                        |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -312,6 +313,13 @@ cuando me tome un ibu creo que puede ser el tema licuado. (No creo que
 sea el segundo factor corregido que fue el partir la dosis de
 topiramato y menos el tercer factor no corregido que fue no haber
 tomado estos tres dias la sublingual)
+** [2017-10-21 sáb]
+felizmente anoche corte la racha, en realidad ayer se corto. me tome
+un ibu ayer tarde al llegar aca y un ibu esta mañana pienso que el
+problema radico en intoxicacion por licuado, o sea por elementos
+viejos del licuado.
+
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
