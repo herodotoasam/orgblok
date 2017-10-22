@@ -116,6 +116,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-19 jue] |   1 | 11                          |
 | [2017-10-20 vie] |   1 | 19hs                        |
 | [2017-10-21 sáb] |   1 | 10hs                        |
+| [2017-10-22 dom] |   1 | 9hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -318,7 +319,11 @@ felizmente anoche corte la racha, en realidad ayer se corto. me tome
 un ibu ayer tarde al llegar aca y un ibu esta mañana pienso que el
 problema radico en intoxicacion por licuado, o sea por elementos
 viejos del licuado.
-
+** [2017-10-22 dom]
+anoche dormi nuevamente bastante normal, con un poquito de cefalea sin
+haber tomado ningun preventivo y me tome un ibu solo al levantarme. La
+manana transcurre normal y pinta un domingo bastante fierito de
+aquellos para el olvido total.
 
 * historial
 ** migrañas

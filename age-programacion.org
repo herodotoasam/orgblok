@@ -2585,7 +2585,8 @@ cobranza y el costo de la promocion.
 
 Por eso hay que seguir pensando que queremos hacer.
 
-** TODO [#A] Transformacion de pcods en datos usables por sqlite
+** DONE [#A] Transformacion de pcods en datos usables por sqlite
+- State "DONE"       from "TODO"       [2017-10-22 dom 12:36]
 CLOCK: [2017-10-21 sáb 14:53]--[2017-10-21 sáb 16:53] =>  2:00
 *** Manipulacion de fechas
 CLOCK: [2017-10-11 mié 20:43]--[2017-10-11 mié 21:03] =>  0:20
@@ -2632,11 +2633,15 @@ en sqlite3 y hago
 .import datacsv.csv caja
 y listo
 *** DONE reparacion finita
+CLOCK: [2017-10-22 dom 12:00]--[2017-10-22 dom 12:34] =>  0:34
 - State "DONE"       from "TODO"       [2017-10-21 sáb 16:57]
 un poco la hice volviendo a la planilla y luego vi que era mejor en
 emacs pq me volvia loco. y emacs con el multoccur es mas rapido y
 visible y ya trabajo sobre el archivo csv directamente.
-
+HIce el agregado puesta al dia casi a mano de los ultimos asientos
+pendientes de la caja que marca la planilla de caja que no estaba
+pasada a pcodx y lo pase a la pc de libreoffice para saber su saldo y
+lo pase a mano a emacs y lo updatee en la tabla de sqlite.
 ** Asientos automaticos
 **** registro de planillas
 que cuando pase una planilla de ingreso directamente se registre en
@@ -2679,9 +2684,45 @@ CLOCK: [2017-10-15 dom 21:09]--[2017-10-15 dom 21:17] =>  0:08
 - State "DONE"       from "TODO"       [2017-10-15 dom 21:33]
 CLOCK: [2017-10-15 dom 21:17]--[2017-10-15 dom 21:33] =>  0:16
 *** posible hoja mayorizadora o visualzadora de una cuenta por vez pe. retiros
+CLOCK: [2017-10-22 dom 12:36]--[2017-10-22 dom 13:08] =>  0:32
 CLOCK: [2017-10-21 sáb 23:15]--[2017-10-21 sáb 23:36] =>  0:21
 claro que una vez que tenga todos los datos adentro sera facil
 trabajar con ellos.
+Le puse una visualizacion por fecha de distintos colores y esta
+bueno. Ahora para mayor facilidad de movimiento faltaria un scroll
+vertical. veo si lo puedo incorporar en unos pocos minutos.
+Renegue un poco pq no podia packear los scroll, hice un scrollhorver
+que pone los dos scroll. 
+Revisando los scroll en el resto del programa vi casos obsoletos en
+los cuales se habia hecho a mano el packeo del scroll y quise
+aplicarlo automaticamente y no funciona y se desacomoda la visualidad,
+la cual no esta muy definida pq no se sabe bien para que tama:o de
+pantalla optimizar si no se con que pantalla trabajo, notebook,
+netbook, la pantalla 22 o la pantalla de la cami.
+*** DONE paso automatico de planillas de caja
+- State "DONE"       from "TODO"       [2017-10-22 dom 15:34]
+CLOCK: [2017-10-22 dom 14:49]--[2017-10-22 dom 15:15] =>  0:26
+listo ya lo hice por el momento les pongo a todos la misma cuenta
+cobranza para mantener la uniformidad con lo que venia haciendo o sea
+tener el neto de la cobranza y a partir de cierto momento tendria que
+empezar a discrimar con las tres cuentas lo cual seria facil a nivel
+programa hacer tres lineas de codigo.
+** TODO Sistema de control y de contabilizacion de promocion
+usar un sistema de control de jornales que de paso sirva para desde el
+punto de vista contable tener los asientos de cospeles, vales y pagos
+a promotores que son los tres tipos de erogaciones que conlleva un
+promotor.
+Una simple tablita jornales (que creo que ya existe con fecha, idvdor,
+cospel, pagos), y otra tabla anexa tendria que haber que limitara los
+periodos o sea que tuviera los limites de las planillas como la que
+llevo en la planilla excel o sea prom, fechacomienzo/ fechafinal, y
+luego el sistema que calcule lo que pague de viatico, comisiones, y
+ventas en el medio. Podria empezar con los actuales y que en el
+momento que se vuelva operativa que empiece a volcar datos a la caja,
+antes lo meto a mano, y luego armo todas las planillas anteriores del
+sistema con lo que tengo en emacs y luego lo importo en sqlite por
+orden.
+
 * IDEA cambiar estructura de tabFechar
 pienso en una estructura hecha con entrys en el cual pueda poner la
 fecha con fecha2 en forma de numero mas facilmente.
