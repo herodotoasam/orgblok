@@ -116,7 +116,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-19 jue] |   1 | 11                          |
 | [2017-10-20 vie] |   1 | 19hs                        |
 | [2017-10-21 sáb] |   1 | 10hs                        |
-| [2017-10-22 dom] |   1 | 9hs                         |
+| [2017-10-22 dom] |   2 | 9hs/17hs                    |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -126,7 +126,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-18 mié] |   1 | 1.30 am |
 | [2017-10-19 jue] |   1 | 4.30 am |
 | [2017-10-20 vie] |   1 | 4.30 am |
-|                  |     |         |
+| [2017-10-22 dom] |   1 | 17.30hs |
 |                  |     |         |
 ** gastromax
 | fecha            | cnt | horas            |
@@ -324,7 +324,11 @@ anoche dormi nuevamente bastante normal, con un poquito de cefalea sin
 haber tomado ningun preventivo y me tome un ibu solo al levantarme. La
 manana transcurre normal y pinta un domingo bastante fierito de
 aquellos para el olvido total.
-
+en realidad la tarde derivo en migraña total. me tome un ibu y luego
+un <<nar>> y no surtio efecto. Segui con la actividad, me vine al dpto
+y estoy haciendo las cosas pq creo que si me tiro en la cama va a ser
+peor, al menos estoy planchando, voy a pasar los datos y me voy a
+bañar, y veo.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

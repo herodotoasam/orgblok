@@ -1833,3 +1833,74 @@ comida se me pasa alli mismo. Eso no me ocurre de ninguna manera si el
 menu se puede comer frio y en dos etapas. Y ademas tomando agua evito
 la acidez y el aumento de azucares al vicio. Voy a poner que cumplo el
 habit mezcla de cereales con el menu vegetariano.
+* [2017-10-22 dom]
+** plan de negocios nuevo Pierre Balmain
+algunos numeros:
+de detvta globales con like *pierre*
+| sum(costo) | delta | costo unitario |
+|    1058660 |  3.17 | 314            |
+|            |       |                |
+de ventas
+con like *pierre* y fecha< date('now','- 7 months') para que no salgan
+los que estan pagando ahora y refleje los incobrables reales
+| vendido |  saldo |  cnt | P.Unit | incobrabilidad |
+| 3163642 | 213037 | 4095 |   772  |           6.7% |
+
+O sea unos buenos numeros esta bien que casi todo a clientes, pero un
+buen nivel.
+Ahora esta visto que se le puede sacar un delta de 3.32 en la calle a
+6x220 considerando el precio de shuby a 400 de costo.
+
+El plan de negocios seria vender solo sabanas de lujo, basicamente pb
+y el anexo queen y king y puro algodon 180 hilos para quien pida y
+pague.
+
+Todo bien logrado.
+
+*** Tema reparto
+puede ser que entreguen ellos mismos o bien que reparta yo o a traves
+de alguien independiente.
+El tema es que para lograr un nivel optimo estariamos hablando de 400
+sabanas mensuales o sea de 100 sabanas por semana. O sea 20 por dia.
+
+Monica p.e. te puede repartir 3 o 4 sabanas por dia si se las llevas y
+se las dejas en la casa. una vez por semana. Y asi podria tener un
+sistema distribuido a traves de toda la geografia por medio de la cual
+el cobrador lleve las sabanas en un ritmo adecuado y a un costo
+adecuado.
+(como era en el 2005)
+p.e. coco liso va siempre a mosconi y puede llevar tres sabanas por
+vez que va (las lleva en la mochila). Pq la sabana se venderia por
+foto bien determinado el color por carpeta.  y con una mochila grande
+te lleva tres o cuatro sabanas y a razon de 30 por unidad le conviene,
+igual ramiro. Y asi con un grupo de cobradores te tengo repartido 20
+sabanas por dia, que me las hago traer directamente a la oficina para
+no renegar.
+
+Ejemplo: 8 cobradores con sus respectivas mochilas a la mañana se
+llevan 24 sabanas para repartir que les deja casi 100 mangos a cada
+uno (guita nada despreciable) y conseguimos las siguientes ventajas:
+**** no salgo de la oficina (no tengo que salir ni necesito auto, ni costo)
+**** me hago traer la mercaderia por copar al local directamente
+por lo cual no necesito depender del marques, puedo seguir viviendo en
+el centro, puedo tener un auto nuevo, no necesito tener un auto de
+reparto, no tengo limite a la gente que tenga etc.
+**** puedo mandar a los promotores separadamente
+eso les quita el efecto grupo, hace que los barrios se hagan mejor,
+que no se quemen etc.
+**** el cobrador entrega el mismo con su mochila
+se gana unos pesos extras que no son pocos, supongamos en una magali
+lo que incidiria unos 2000 mas, logramos que el cobrador vea la casa y
+se responsabilice de lo que hace, pq el tendra que cobrar, hacemos que
+el vendedor no sea el que entregue, cortamos ahi los fraudes, y a la
+vez no complicamos el sistema con el vendedor sabiendo que los chicos
+en su deseperacion echan moco.
+**** el costo dentro de todo es reducido
+pq es un monto fijo por venta que se carga a un trabajador que hace
+otra cosa, si no se entrega vuelve con las cosas y tiene otro trabajo,
+que es la cobranza. El riesgo de robo es acotado a esa mochila con 4,
+3, 2 o 1 sabana o sea no es tanto y no hay gastos fijos, como los que
+tendria yo si tengo que mover el auto. O poner un Fabian. Incluso el
+costo tiempo tambien es menor, pq es una extension a la cobranza pq es
+una precobranza.
+**** pasaria a ser obligatorio para todo cobrador pq asi sera el sistema
