@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** Mercaderia llevada de oficina [15/19]
+** Mercaderia llevada de oficina [18/19]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -26,7 +26,9 @@
 *** DONE [2017-10-03 mar] pack toallones reducido
 - State "DONE"       from "TODO"       [2017-10-10 mar 11:16]
 64537
-*** TODO [2017-10-03 mar] mantel chocolate
+*** DONE [2017-10-03 mar] mantel chocolate
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:44]
+64825
 *** DONE [2017-10-06 vie] pack toallones reducido
 - State "DONE"       from "TODO"       [2017-10-11 mié 16:17]
 cancela el pack que le debia
@@ -40,8 +42,12 @@ cancela el pack que le debia
 - State "DONE"       from "TODO"       [2017-10-10 mar 11:19]
 64536
 *** TODO [2017-10-06 vie] cortinas verde esmeralda reducida 6x80
-*** TODO [2017-10-10 mar] sabanas PB2
-*** TODO [2017-10-20 vie] piñata car
+*** DONE [2017-10-10 mar] sabanas PB2
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:41]
+64829
+*** DONE [2017-10-20 vie] piñata car
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
+64827
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -111,14 +117,16 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
-** Dejada por Fede [2017-10-13 vie] [8/24]
+** Dejada por Fede [2017-10-13 vie] [19/25]
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:52]
 64766
-*** TODO mantel cuerina
+*** DONE mantel cuerina
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:43]
+64826
 *** DONE PB KING
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64768
@@ -129,16 +137,28 @@ Devuelta
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:52]
 64766
-*** TODO cortina
-*** TODO cortina
-*** TODO cortina
-*** TODO cortina
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:41]
+64830
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
+64828
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
+64828
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:44]
+64825
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
+64829
 *** TODO PB2
-*** TODO PB2
-*** TODO cortina cocina tropical
+*** DONE cortina cocina tropical
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:44]
+62824
 *** TODO cortina cocina tropical
 *** TODO cortina cocina tropical
 *** TODO cubrecamas indu 1PL
@@ -149,9 +169,19 @@ Devuelta
 *** DONE pack x 2 nauticos
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
-*** TODO pack x 2 nauticos
-*** TODO pack x 2 nauticos
-*** TODO pack x 2 nauticos
+*** DONE pack x 2 nauticos
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:41]
+64830
+*** DONE pack x 2 nauticos
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
+64827
+*** DONE pack x 2 nauticos
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:43]
+64826
+*** DONE pack x 2 nauticos (ultimos dos turquesas) [2017-10-23 lun]
+- State "DONE"       from "TODO"       [2017-10-23 lun 15:43]
+64826
+
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
@@ -213,7 +243,7 @@ reclama que las sabanas se destiñeron al segundo lavado que son de
 mala calidad pero en ese momento paga $330 cubriendo 1 y 2 cuota y un
 poco mas.
 ** TODO sesse 3238 
-SCHEDULED: <2017-10-23 lun>
+SCHEDULED: <2017-10-25 mié>
 cambiar sabana azul LH2 por una clara enviar
 ** TODO  alumnine 2221
 SCHEDULED: <2017-10-23 lun>

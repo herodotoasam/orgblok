@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [36/53]
+* TODO bugs o improvs fichaje.py [36/55]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -274,3 +274,8 @@ como tenia en F13 para aclarar dudas o problemas en forma mas facil
 ** DONE dobleclick a tabver en tbl recibos pasados         :tabPasarRecibos:
 CLOCK: [2017-10-20 vie 22:45]--[2017-10-20 vie 23:04] =>  0:19
 - State "DONE"       from "TODO"       [2017-10-20 vie 23:03]
+** TODO ventas pasadas agregar campo comprado y suma a comprado y cuotas :tabPasarVentas:
+para corroborar sumas ventas monica
+** TODO revisar scroll mochos 
+creo que es que se packean en el parent no en el frame correcto, ver
+la forma de averiguar el frame donde packearse internamente.
