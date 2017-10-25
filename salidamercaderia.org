@@ -212,7 +212,10 @@ y ya la uso, le dije que no se podia hacer nada. Dice que iba a ir a
 Def Cons, le dije que no lo diga que lo haga (tipo pope). y fresco.
 ** 
 * Devoluciones en proceso por cobradores
-** TODO [2017-09-15 vie] Viale Melian 2074  cobr 750
+** DONE [2017-09-15 vie] Viale Melian 2074  cobr 750
+- State "DONE"       from "TODO"       [2017-10-24 mar 12:15]
+retirada por fede, pq la Sra que es grande y enferma no le gusta la
+sabana de poliester.
 ** DESISTIDO [2017-09-15 vie] Sarmiento Leviller 1535 cobr 755
 la atendio la hija y dice que la madre no la iba a querer o que la
 habia devuelto creia, una 76.[2017-10-19 jue] viene a pagar la hija a
@@ -311,3 +314,8 @@ SCHEDULED: <2017-09-22 vie>
 ** 784
 | 250827 | Lerda Elizabeth | 62286 | cuota 6 puso | dice que se equivoco | ya esta hablado |
 |        |                 |       |              |                      |                 |
+* Casos raros
+*** tipo del recibo no-oficial
+yo le dije ud es de la afip [2017-10-24 mar]
+cuenta 64711 - Cabrera felisa - debe ser el marido, conte anecdota de
+autohaus sobreprecio pagado sin factura.

@@ -2,7 +2,7 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos [3/6]
+* turnos [4/6]
 ** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
 SCHEDULED: <2017-09-26 mar>
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
@@ -12,8 +12,9 @@ SCHEDULED: <2017-09-26 mar>
 SCHEDULED: <2017-11-08 mié>
 ** TODO Dra Banus Maria Victoria 18hs 
 SCHEDULED: <2017-11-30 jue>
-** TODO radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
+** DONE radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
 DEADLINE: <2017-10-25 mié> SCHEDULED: <2017-09-30 sáb>
+- State "DONE"       from "TODO"       [2017-10-25 mié 12:49]
 
 ** DONE analisis Romero William
 SCHEDULED: <2017-09-30 sáb>
@@ -118,6 +119,9 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-21 sáb] |   1 | 10hs                        |
 | [2017-10-22 dom] |   2 | 9hs/17hs                    |
 | [2017-10-23 lun] |   1 | 11hs                        |
+| [2017-10-24 mar] |   2 | 10/23hs                     |
+| [2017-10-25 mié] |   1 | 13hs                        |
+|                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -330,6 +334,19 @@ un <<nar>> y no surtio efecto. Segui con la actividad, me vine al dpto
 y estoy haciendo las cosas pq creo que si me tiro en la cama va a ser
 peor, al menos estoy planchando, voy a pasar los datos y me voy a
 bañar, y veo.
+** [2017-10-23 lun]
+es obvia la diferencia que hubo en las dos ultimas noches con relacion
+a la semana pasada sin la sublingual, no solo la calidad del sueño y
+descanso sino como me levanto.
+** [2017-10-25 mié]
+anoche me fui a dormir un poco cefaleico y pense que iba a despertar
+con <<nar>> y me preguntaba que me habia llevado a eso si el exceso de
+un capitulo de mas de la serie o el dia demasiado largo o que no habia
+cenado pero en realidad dormi bien y limpio bien la noche la cabeza y
+me desperte bien y tire hasta pasado el medio dia sin problemas eso
+que estoy cagado de hambre y me fui al patio olmos a la carrera a
+sacarme los rx.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

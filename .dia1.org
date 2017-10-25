@@ -1929,3 +1929,26 @@ que vengan a pagar aca. O sea me refiero esos casos raros. O las
 hincha bolas, o bien en los avisos de visita, poner que vengan aca. Ya
 que tengo que estar metido aca dentro 8 horas seguidas hacer que
 vengan aca. 
+* [2017-10-24 mar]
+** limpieza del grupo
+pareceria que el grupo se limpio solo pq miguel y rodolfo no vinieron
+ni lunes ni martes.
+lunes miguel aviso, y hoy borro avatar. le robaron el telefono?.
+rodolfo no vino ni lunes ni martes sin aviso.
+el grupo que hay dentro de todo no esta mal del todo, no es
+espectacular pero se puede seguir con tranquilidad mientras formamos
+un nuevo grupo.
+O bien se los puede transformar en cobradores.
+* [2017-10-25 mié]
+** nueva etapa sin rencores
+ayer quedo superado el bochornoso ito del sabado pasado. Creo que
+no tengo que hacer mas esto pq el daño por el daño mismo no es bueno. 
+** preparacion de la seguridad para tener una empleada
+*** dividir el programa en partes 
+los modulos pasar recibo y pasar ventas y pasar pedido deben ser
+autonomos
+o sea puede ser un fichaje-lite.py que no contenga estadisticas ni
+caja ni acceso a los datos en general, y solo permita la entrada de
+datos.
+*** preparar la compu para que no se le pueda extraer datos
+** definir horarios de trabajo

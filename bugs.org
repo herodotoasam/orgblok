@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [36/55]
+* TODO bugs o improvs fichaje.py [36/59]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -276,6 +276,11 @@ CLOCK: [2017-10-20 vie 22:45]--[2017-10-20 vie 23:04] =>  0:19
 - State "DONE"       from "TODO"       [2017-10-20 vie 23:03]
 ** TODO ventas pasadas agregar campo comprado y suma a comprado y cuotas :tabPasarVentas:
 para corroborar sumas ventas monica
-** TODO revisar scroll mochos 
+** TODO revisar scroll mochos                                    :Generales:
 creo que es que se packean en el parent no en el frame correcto, ver
-la forma de averiguar el frame donde packearse internamente.
+la forma de averiguar el frame donde packearse
+internamente.   
+** TODO hacer funcion promediar                                  :Generales:
+** TODO estadisticas ventas sume articulos                 :tabEstadisticas:
+** TODO funcion totalizar de tbls que sume valores negativos     :Generales:
+** TODO hacer que se recalcule el saldo de caja de alguna forma :tabCaja:
