@@ -1952,3 +1952,40 @@ caja ni acceso a los datos en general, y solo permita la entrada de
 datos.
 *** preparar la compu para que no se le pueda extraer datos
 ** definir horarios de trabajo
+** curso de cobradores
+muy buena la experiencia de dar un curso de cobradores, aunque me
+falto uno al menos di con dos y es la primera vez que encaro una
+capacitacion con la planilla y el indice y el mapa enseñando que se
+sigue una ruta con el mapa, el indice y la planilla y se analizan los
+casos. luego se practica el recibo, creo que es la mejor capacitacion
+de cobradores que he tenido hasta ahora.
+** idea de plan con primer cuota
+ya que el reparto seria hecho con los cobradores en zonas fijas y esas
+zonas se pueden abastecer en cualquier momento pq se visitan dia por
+medio, incluso se puede determinar el dia que se visita dicha zona.
+Se podria vender con primer cuota y no asi como vendemos, lo cual
+incidiria mucho en la liberalidad con que venderiamos.
+*** no es acaso lo mismo vender sin cuota
+en cierta forma si, pero si vamos al caso podriamos usar un pedido
+impreso por imprenta bien hecho, por duplicado con carbonico, numerado
+con el cual comprometamos mejor y sea todo mas serio. Luego con la
+secretaria podemos avisar por whatapp o sms que vamos a ir. 
+El riesgo asumido baja de 400+125+30=555 a 555-220=335 o sea se hace
+mucho mas potable. Y el promotor tiene el deber de asumir que esa
+venta que esta haciendo no se va a caer pq en teoria lo que el esta
+haciendo esta bien hecho. Y el tiene la obligacion de hacer bien las
+cosas. 
+*** posibilidad de vender delta 3
+| costo |   33% |
+| inc   |   10% |
+| vta   |   10% |
+| cobr  | 13.5% |
+| total | 66.5% |
+| NETO  | 33 %  |
+
+precios probables
+| pb1  | 150 |  900 |  90 |
+| pb2  | 200 | 1200 | 120 |
+| king | 250 | 1500 | 150 |
+o sea que un promedio superior a 100 lo cual podria ser factible que
+se aprobara una venta por articulo. Total es con primer cuota.

@@ -138,14 +138,15 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
-SCHEDULED: <2017-10-23 lun .+1w>
+SCHEDULED: <2017-11-01 mié .+1w>
+- State "DONE"       from "TODO"       [2017-10-25 mié 20:17]
 - State "DONE"       from "TODO"       [2017-10-17 mar 19:58]
 - State "DONE"       from "TODO"       [2017-10-09 lun 18:38]
 - State "DONE"       from "TODO"       [2017-10-02 lun 22:31]
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2017-10-17 mar 19:58]
+:LAST_REPEAT: [2017-10-25 mié 20:17]
 :END:
 
 
@@ -231,7 +232,7 @@ tome el segundo luego de un domingo que trabaje mucho y no disfrute pq
 estuve tenso todo el dia, pq estaba enojado con el Fede a la
 distancia. Y al acostarme luego de comer profusamente me agarro
 retorcijon fuerte, y tuve que aplicarme profusamente oleo31. 
-** [2017-10-03 mar] 
+** [2017-10-03 mar]
 molesto un poco en oficina me fui a comer a casa lasagna y volvi con
 un poco de dolor.
 ** [2017-10-06 vie]
