@@ -121,7 +121,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-23 lun] |   1 | 11hs                        |
 | [2017-10-24 mar] |   2 | 10/23hs                     |
 | [2017-10-25 mié] |   1 | 13hs                        |
-|                  |     |                             |
+| [2017-10-26 jue] |   1 | 23hs                        |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
