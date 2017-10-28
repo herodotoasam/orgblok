@@ -122,6 +122,7 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-24 mar] |   2 | 10/23hs                     |
 | [2017-10-25 mié] |   1 | 13hs                        |
 | [2017-10-26 jue] |   1 | 23hs                        |
+| [2017-10-27 vie] |   1 | 15hs                        |
 #+TBLFM: @2$2=vsum(@3$2..@31$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -347,6 +348,9 @@ cenado pero en realidad dormi bien y limpio bien la noche la cabeza y
 me desperte bien y tire hasta pasado el medio dia sin problemas eso
 que estoy cagado de hambre y me fui al patio olmos a la carrera a
 sacarme los rx.
+** [2017-10-27 vie]
+hoy el dolor nacio luego del estres en oficina, y todo el dia tuve muy
+sonolento pq me falta sueno.
 
 * historial
 ** migrañas
