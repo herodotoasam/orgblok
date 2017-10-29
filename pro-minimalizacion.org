@@ -1,0 +1,48 @@
+#+FILETAGS: proyecto minimalizacion
+#+TODO: TODO(t) BUG IDEA IMPROV NEXT | DONE(d!) FIXED DESISTIDO
+
+
+
+* Minimalizar la vida                                                 :title:
+Hacer la vida mas simple, minimalista.
+* Vision del proyecto                                                :vision:
+El objetivo es lograr un nivel de mente vacia o mente limpia, porque
+uno confia en un sistema de archivo y/o de organizacion en el cual va
+volcando todas las ideas las va trabajando y va sacando las
+next-actions para agendar. Y asi va avanzando. Pero no se pierde nada.
+En este caso el proyecto sera como un meta-proyecto, en el cual el
+objetivo seria limpiar o minimizar, como para no tener distintos
+proyectos o muchos proyectos abiertos al mismo tiempo, la idea es
+tener este que tenga como objetivo el descomplicar la vida.
+* Justificacion del proyecto						:why:
+* Brainstorming						      :brain:
+** me quejo de la comida pero podria llevar licuado y comida sana a la oficina
+podria volver a los licuados, tener una buena mochila, llevar fruta,
+fruta seca, llevar arroz, en si podria hacer mucho por mi dieta directamente
+** me gustaria pasar los cuadernos a formato digital
+no quiero perderlos pero tampoco quiero tenerlos asi para siempre
+** tener el dpto minimalizado
+eso basicamente seria que tenga seguridad nivel adecuado para
+interactuar con alguien sin problemas (me da la sensacion que tengo
+muchas cosas encima y justamente me gustaria ver si vale la pena
+tenerlas o bien habria que tenerlas de otra forma)
+*** caja fuerte
+si o si el dpto tiene que tener caja fuerte. Esos fondos tienen que
+estar en una caja oculta en un estante dificil de acceso con una
+cajita fuerte. 
+*** boletas de pagos
+es caotico el tema boletas
+** tener la oficina minimalizada
+o sea apta para que otra persona este alli
+*** caja fuerte
+*** seguridad informatica
+sobre el apartado seguridad informatica en general se plantea el
+separar los escritos personales de los estrictamente personales, en
+ese sentido p.e. salidamercaderia.org y bugs.org incluso
+age-programacion.org y hasta documentacion.org todo puede estar en el
+servidor  de desarrollo de la empresa, pero todos los otros org que
+son personales tendrian que estar separados.
+*** stock contado
+* Plan de accion						       :plan:
+* Next Action							       :next:
+

@@ -1,4 +1,6 @@
 #+FILETAGS: proyecto dpto
+#+TODO: TODO(t) BUG IDEA IMPROV NEXT | DONE(d!) FIXED DESISTIDO
+
 
 clock
 
@@ -55,11 +57,19 @@ dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
  
 * Plan de accion						       :plan:
 ** Dormitorio
+gran parte de la disfuncionalidad del dormitorio es la falta de
+espacio que generan los puff al vicio pq no aportan nada alli y solo
+sirven para acumular cosas que se le tiran encima (mayormente ropa de
+entrecasa que se podria "tirar" en el suelo del vestidor) y no deja
+paso y no permite limpiar ni acceder a la ventana. Y parte que la
+cabecera de la cama no se puede apoyar bien pq el enchufe como se debe
+compartir entre los veladores y el aire no se puede apretar y queda
+todo muy mal acomodado y feo y peligroso. 
 *** DONE Pintura pared
 Estaria bueno un color azul crepusculo
 Compre azul zafiro
 [2016-10-06 jue] encinte la pared
-*** veladores
+*** DONE veladores
 por lo visto en ML no se deberia gastar mas de 500 uno muy bueno con
 pantalla y/o unos 700 por ese groso modernista
 Error!!. El modernista cuesta 1300!! y otros modernistas mas copados
@@ -76,19 +86,24 @@ pienso que los de 580 son mejores con lamparas led.
 un velador de diseño con una pantallita muy linda a 480 con 150 de
 flete y entrega a domicilio
 
-*** Lampara
+*** TODO Lampara
  techo
-*** cortina secundaria
+*** DESISTIDO cortina secundaria
 Me fallo el caño. Quizas tendria que subirlo y acortar la cortina o
 bien poner un poco de contac negro en la parte superior de la ventana
 cosa de atenuar la claridad.
 Realmente pasa luz igual.
 Ver solucion contac.
-*** almohadas
-*** tope puerta de vestidor
-*** lustrado piso
+*** TODO almohadas
+*** TODO tope puerta de vestidor
+*** TODO lustrado piso
 
     da un rico olor la cera
+*** TODO poner cableado para enchufes cabecera de la cama
+**** TODO aire acondicionado
+**** TODO veladores
+*** TODO fijar respaldo de cama a la pared
+*** TODO poner llave al vestidor
 ** Cocina
 *** arreglo pico y destrancado de caja abajo mesada
 [2016-10-18 mar] Cambie el pico con uno nuevo con cuerito y todo. La
@@ -97,13 +112,10 @@ gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
 ** Living
 *** cortinas oscuras 
 urgente necesito pq no puedo trabajar correctamente en la compu
+*** definir la estanteria
 * Next Action							       :next:
 ** DONE comprar pintura dormitorio
 ** DONE poner caño cortina
-** TODO comprar caja de herramientas grande en bazar liquidacion
-   :PROPERTIES:
-   :ID:       c5741c94-3cf9-4cad-ba6b-4a9eb3b8e707
-   :END:
 ** DONE comprar veladores
 ** DONE pintar pared
    :PROPERTIES:
@@ -118,8 +130,12 @@ urgente necesito pq no puedo trabajar correctamente en la compu
 - [X] llave inglesa
    SCHEDULED: <2016-10-22 sáb>
 - [X] cortinas de jean
-** TODO comprar y colocar tope regaton de goma
-DEADLINE: <2016-10-25 mar>
-** TODO comprar caja herramientas grande 
-DEADLINE: <2016-10-25 mar>
+** NEXT comprar y colocar tope regaton de goma
+DEADLINE: <2017-11-05 dom>
+** NEXT llevar cosas sobrantes al marques
+DEADLINE: <2017-11-05 dom>
+*** puff
+*** vaciar alacenas de cosas
+** NEXT poner enchufe para aire acondicionado dormitorio
+DEADLINE: <2017-11-05 dom>
 
