@@ -81,8 +81,10 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 
 * medicacion
 ** ibuprofeno
+CLOCK: [2017-10-29 dom 13:16]--[2017-10-29 dom 13:18] =>  0:02
 | Fecha            | cnt | sintomas                    |
-|                  |  42 |                             |
+|                  |  60 | 0                           |
+|------------------+-----+-----------------------------|
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
 | [2017-09-20 mié] |   1 | desperte con dolor          |
@@ -123,7 +125,9 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-25 mié] |   1 | 13hs                        |
 | [2017-10-26 jue] |   1 | 23hs                        |
 | [2017-10-27 vie] |   1 | 15hs                        |
-#+TBLFM: @2$2=vsum(@3$2..@31$2)
+| [2017-10-28 sáb] |   1 | 11hs                        |
+| [2017-10-29 dom] |   1 | 11hs                        |
+#+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
 | [2017-09-27 mié] |   1 | 6.30hs  |
@@ -352,6 +356,11 @@ sacarme los rx.
 hoy el dolor nacio luego del estres en oficina, y todo el dia tuve muy
 sonolento pq me falta sueno.
 
+** [2017-10-28 sáb]
+nuevamente entra el factor nervioso, y cuando hay estres viene la
+necesidad de tomar un analgesico, hoy que cuando me levante no habia
+tomado nada, lo termine tomando cuando el estres de la situacion subio
+a cierto nivel.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

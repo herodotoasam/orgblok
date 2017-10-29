@@ -37,7 +37,7 @@ DEADLINE: <2017-10-25 mié +1m>
 :PROPERTIES:
 :LAST_REPEAT: [2017-01-03 mar 20:02]
 :END:
-*** TODO Hospital Privado
+*** TODO Hospital Privado 
 DEADLINE: <2017-10-17 mar +1m>
 - State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-18 vie 21:18]

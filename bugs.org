@@ -1,6 +1,52 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 #+COLUMNS %TODO%TAGS
-* TODO bugs o improvs fichaje.py [36/59]
+#+BEGIN: clocktable :maxlevel 2 :scope file
+#+CAPTION: Clock summary at [2017-10-28 sáb 19:48]
+| Headline                                       | Time    |      |
+|------------------------------------------------+---------+------|
+| *Total time*                                   | *17:48* |      |
+|------------------------------------------------+---------+------|
+| TODO bugs o improvs fichaje.py [41/60]         | 17:48   |      |
+| \emsp DONE sacar el balloon de nombre de...    |         | 0:24 |
+| \emsp FIXED BUG: cuando anulas una venta...    |         | 0:27 |
+| \emsp DONE cuando pones ingresar nuevo y el... |         | 0:33 |
+| \emsp DONE cuando pones repetir cliente...     |         | 0:12 |
+| \emsp BUG [#A] pmovto null -- la cuenta no...  |         | 0:22 |
+| \emsp DONE que frenen los botones en...        |         | 0:08 |
+| \emsp DONE en el subtab Planillas de...        |         | 0:32 |
+| \emsp DONE en pasar planilla hacer un...       |         | 0:51 |
+| \emsp DONE que los recibos se autonumeren...   |         | 0:21 |
+| \emsp DONE el tbl moradito de planillas es...  |         | 0:07 |
+| \emsp DONE en tbl loterbos la cnt la llena...  |         | 0:11 |
+| \emsp DONE hacer que cobradores puntaje sea... |         | 0:10 |
+| \emsp DONE atajo para imprimir una sola...     |         | 0:28 |
+| \emsp DONE sacar pestaña recibos vieja         |         | 0:18 |
+| \emsp DONE hacer que para cobrador 10 y 15...  |         | 0:54 |
+| \emsp FIXED se rompio ver en Fechar desde...   |         | 0:13 |
+| \emsp FIXED recibos repetidos                  |         | 2:55 |
+| \emsp DESISTIDO que pmovto/pmovto se pongan... |         | 0:04 |
+| \emsp DESISTIDO el Num de rbo tendria que...   |         | 0:04 |
+| \emsp DESISTIDO que los tbls tengan un bind... |         | 0:26 |
+| \emsp DESISTIDO boton purgar para listado rbos |         | 0:16 |
+| \emsp DONE que los cancelados en Fechar...     |         | 0:06 |
+| \emsp DONE hacer sistema de guardar...         |         | 1:14 |
+| \emsp DONE ver si en tbls pedidos los E/A/Z... |         | 0:12 |
+| \emsp DONE volver a poner en nombre de...      |         | 0:10 |
+| \emsp DONE poner tablero zonas y manejo...     |         | 0:31 |
+| \emsp DONE poner el numero de pedido...        |         | 0:11 |
+| \emsp DONE tbl cuentas no totaliza             |         | 0:20 |
+| \emsp TODO hacer pivots de ventas diarias...   |         | 1:29 |
+| \emsp DONE repetir vta poner pmovto igual a... |         | 0:06 |
+| \emsp DONE info de seven alta fecha  en tabver |         | 0:19 |
+| \emsp DONE dobleclick a tabver en tbl...       |         | 0:19 |
+| \emsp TODO revisar scroll mochos               |         | 1:52 |
+| \emsp DONE estadisticas ventas sume articulos  |         | 0:02 |
+| \emsp DONE funcion totalizar de tbls que...    |         | 0:33 |
+| \emsp DONE hacer que se recalcule el saldo...  |         | 0:07 |
+| \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
+#+END:
+
+* TODO bugs o improvs fichaje.py [42/61]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -277,10 +323,43 @@ CLOCK: [2017-10-20 vie 22:45]--[2017-10-20 vie 23:04] =>  0:19
 ** TODO ventas pasadas agregar campo comprado y suma a comprado y cuotas :tabPasarVentas:
 para corroborar sumas ventas monica
 ** TODO revisar scroll mochos                                    :Generales:
+CLOCK: [2017-10-28 sáb 16:52]--[2017-10-28 sáb 17:24] =>  0:32
+CLOCK: [2017-10-28 sáb 16:45]--[2017-10-28 sáb 16:51] =>  0:06
+CLOCK: [2017-10-28 sáb 13:35]--[2017-10-28 sáb 13:54] =>  0:19
 creo que es que se packean en el parent no en el frame correcto, ver
 la forma de averiguar el frame donde packearse
 internamente.   
-** TODO hacer funcion promediar                                  :Generales:
-** TODO estadisticas ventas sume articulos                 :tabEstadisticas:
-** TODO funcion totalizar de tbls que sume valores negativos     :Generales:
-** TODO hacer que se recalcule el saldo de caja de alguna forma :tabCaja:
+ya esta la funcion para los hor y los ver falta ambos. Ya esta ambos
+en un solo frame right away.
+Ahora estoy yendo tab por tab.
+Ya hice Recibos
+*** revisacion tabAsientos
+CLOCK: [2017-10-28 sáb 17:26]--[2017-10-28 sáb 17:43] =>  0:17
+en realidad tabAsientos usa sin problemas scrollhor=1
+*** revisacion tabPasarVentas
+CLOCK: [2017-10-28 sáb 18:57]--[2017-10-28 sáb 19:04] =>  0:07
+*** revisacion tabEstadisticas
+CLOCK: [2017-10-28 sáb 19:05]--[2017-10-28 sáb 19:16] =>  0:11
+*** revisacion tabPedidos
+CLOCK: [2017-10-28 sáb 19:16]--[2017-10-28 sáb 19:36] =>  0:20
+** DONE hacer funcion promediar                                  :Generales:
+- State "DONE"       from "TODO"       [2017-10-28 sáb 11:11]
+lo hice anexandolo a la funcion totalizar 
+** DONE estadisticas ventas sume articulos                 :tabEstadisticas:
+- State "DONE"       from "TODO"       [2017-10-27 vie 21:56]
+CLOCK: [2017-10-27 vie 21:54]--[2017-10-27 vie 21:56] =>  0:02
+** DONE funcion totalizar de tbls que sume valores negativos     :Generales:
+- State "DONE"       from "TODO"       [2017-10-28 sáb 11:11]
+CLOCK: [2017-10-28 sáb 10:38]--[2017-10-28 sáb 11:11] =>  0:33
+** DONE hacer que se recalcule el saldo de caja de alguna forma    :tabCaja:
+- State "DONE"       from "TODO"       [2017-10-27 vie 21:53]
+CLOCK: [2017-10-27 vie 21:46]--[2017-10-27 vie 21:53] =>  0:07
+** DONE hacer que la clase fecha muestre el dia de la semana
+- State "DONE"       from "TODO"       [2017-10-27 vie 21:45]
+CLOCK: [2017-10-27 vie 20:49]--[2017-10-27 vie 21:10] =>  0:21
+** DONE editar todos los comentarios en caja                       :tabCaja:
+- State "DONE"       from "TODO"       [2017-10-29 dom 16:01]
+CLOCK: [2017-10-29 dom 14:29]--[2017-10-29 dom 15:09] =>  0:40
+CLOCK: [2017-10-29 dom 13:23]--[2017-10-29 dom 13:39] =>  0:16
+perdi mucho mas tiempo del deseado pq pense hacer una generalizacion
+con tablelist. [[file:documentacion.org::*edit%20bug%20tab][edit bug tab]]

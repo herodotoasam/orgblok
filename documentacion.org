@@ -121,7 +121,19 @@ como si el resultado fuera pythoniano o sea logico, borro=1 si era si,
 pero esto es tcl, y el resultado del messagebox es 'yes' nunca lo
 habia descubierto pq debe ser que siempre que borre algo nunca me
 arrepenti, pero ahora que le di no al querer borrar me lo borraba lo
-mismo, entonces no servia la advertencia.
+mismo, entonces no servia la 
+** edit bug tab
+el edit end command entrega cuatro parametros tbl row col text que
+siempre funcionaron, pero aca en tkinter el tbl es formato str y type
+str aunque tiene la misma forma o nombre que el tablelist genuino que
+tiene type objeto tbls y no se como transformar ese str que entrega
+tablelist en el objeto que tiene los metodos getcells y demas y me da
+errores como que un str no tiene el metodo getcell supongamos, y no se
+puede hacer nada.
+.140077220321600.140077216656184.f18.140077216131560.f1.140077120898944
+.140077220321600.140077216656184.f18.140077216131560.f1.140077120898944
+aunque se imprimen iguales a nivel type dan diferente uno es objeto
+tbl otro es str.
 
 * git
 ** stash/unstash changes
