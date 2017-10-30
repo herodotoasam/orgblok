@@ -73,6 +73,26 @@ problema de ir y venir con un pendrive. y manejarse asi. Es una prueba
 de todos modos. pq no voy a estar tranquilo con todos estos escritos.
 
 *** stock contado
+
+** tener el trabajo normalizado
+*** trabajo de cobrador
+**** instructivos claros y faciles para que la gente aprenda 
+p.e. como hacer los recibos en los distintos casos dos cuotas, dos
+cuentas pagos a cuenta, etc.
+
+*** promocion
+**** planos
+**** idear una forma de control de ventas menos artesanal
+incluso una vez terminado el proceso de este sistema tengo que largar
+el proceso nuevo y ver que cambios son necesarios en el software para
+ver los pedidos pendientes los por vencer, y los por entregar.
+No quisiera nuevamente tener que largar sin tener la herramienta
+adecuada para trabajar bien o sea todo lo necesario para pasar.
+Podria hacerlo en el futuro
 * Plan de accion						       :plan:
 * Next Action							       :next:
-
+** NEXT comprar elementos para hacer licuado
+super: avena/gatorade/
+diet: almendra
+verdura: peras
+** NEXT comprar fruta en mercado

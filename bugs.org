@@ -76,10 +76,13 @@ tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta
 ** TODO Resumen: explorar la posibilidad de incluir fecha pmovto y msgcobrador
 eso daria la posibilidad de leer rapidamente en el resumen lo que hay
 que hacer o remarcar.
-** TODO una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
+** TODO [#A] una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
 incluso que me permita buscar un promotor no solo por numero sino por
 nombre para el futuro en futuros avisos y que esten todos y me muestre
-lo que vendio y cobro ese promotor.
+lo que vendio y cobro ese promotor. Y lo que se liquido a ese
+promotor.
+con un esearch es facil encontrar los datos, y luego abajo un tbls de
+ventas y un tbls de cobros por mes.
 ** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
 pero no por tenerlo en base de datos sino por disparado externo por
 pdf, pq es muy tedioso buscar el plano abrirlo etc.
