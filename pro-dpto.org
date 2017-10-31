@@ -136,6 +136,3 @@ DEADLINE: <2017-11-05 dom>
 DEADLINE: <2017-11-05 dom>
 *** puff
 *** vaciar alacenas de cosas
-** NEXT poner enchufe para aire acondicionado dormitorio
-DEADLINE: <2017-11-05 dom>
-

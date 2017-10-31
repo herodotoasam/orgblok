@@ -117,7 +117,7 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
-** Dejada por Fede [2017-10-13 vie] [19/25]
+** Dejada por Fede [2017-10-13 vie] [20/25]
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
@@ -155,7 +155,9 @@ Devuelta
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
 64829
-*** TODO PB2
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-10-30 lun 10:12]
+64916
 *** DONE cortina cocina tropical
 - State "DONE"       from "TODO"       [2017-10-23 lun 15:44]
 62824

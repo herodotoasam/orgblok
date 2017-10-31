@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [42/61]
+* TODO bugs o improvs fichaje.py [42/62]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -76,10 +76,13 @@ tambien vdor 15 y 6 cuotas y fecha primera del ultimo venta
 ** TODO Resumen: explorar la posibilidad de incluir fecha pmovto y msgcobrador
 eso daria la posibilidad de leer rapidamente en el resumen lo que hay
 que hacer o remarcar.
-** TODO una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
+** TODO [#A] una pestaña en Pedidos para ver los pedidos hechos por los promotores aun se hayan ido
 incluso que me permita buscar un promotor no solo por numero sino por
 nombre para el futuro en futuros avisos y que esten todos y me muestre
-lo que vendio y cobro ese promotor.
+lo que vendio y cobro ese promotor. Y lo que se liquido a ese
+promotor.
+con un esearch es facil encontrar los datos, y luego abajo un tbls de
+ventas y un tbls de cobros por mes.
 ** TODO faltaria impresor de planos desde dentro del sistema     :Generales:
 pero no por tenerlo en base de datos sino por disparado externo por
 pdf, pq es muy tedioso buscar el plano abrirlo etc.
@@ -363,3 +366,4 @@ CLOCK: [2017-10-29 dom 14:29]--[2017-10-29 dom 15:09] =>  0:40
 CLOCK: [2017-10-29 dom 13:23]--[2017-10-29 dom 13:39] =>  0:16
 perdi mucho mas tiempo del deseado pq pense hacer una generalizacion
 con tablelist. [[file:documentacion.org::*edit%20bug%20tab][edit bug tab]]
+** TODO ordenar el mayor antes de colorearlo por fecha             :tabCaja:

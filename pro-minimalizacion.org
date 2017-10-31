@@ -18,9 +18,33 @@ tener este que tenga como objetivo el descomplicar la vida.
 * Brainstorming						      :brain:
 ** me quejo de la comida pero podria llevar licuado y comida sana a la oficina
 podria volver a los licuados, tener una buena mochila, llevar fruta,
-fruta seca, llevar arroz, en si podria hacer mucho por mi dieta directamente
+fruta seca, llevar arroz, en si podria hacer mucho por mi dieta
+directamente.
+Uno de los problemas mas graves que tengo seamos realistas es el pagar
+o gastar en verdura/fruta en verdulerias hasta un punto casi
+patologico que hace que esta temporada los primeros y unicos arandanos
+que comi fueron unos que me dio ih hace dos semanas. Y yo estoy
+gastando unos 1600 x mes en delivery y llegue a gastar 2400 y como muy
+mal ese es el problema. Podria llevarme un par de frutas y diversas
+cosas y hacerme un box de comidas atras como hice el otro dia.
+Yo antes con licuado (dos botellas) y una bolsita de nueces tiraba
+hasta las 16 que volvia a la cabaña sin necesidad de ningun tipo de
+comida. Y ahora me podria llevar algo.
+El problema nace aca en el dpto:
+**** el desayuno:
+inexistente pq ya perdi el licuado, pq no lo varie, pq no le puse
+ingredientes. Y tampoco tengo un desayuno tradicional solido. Entonces
+llego alla cagado de hambre y entonces a las 12 estoy desesperado por
+el almuerzo pero luego me viene y no lo puedo comer bien, salvo excepciones.
+**** las compras:
+
+
 ** me gustaria pasar los cuadernos a formato digital
-no quiero perderlos pero tampoco quiero tenerlos asi para siempre
+no quiero perderlos pero tampoco quiero tenerlos asi para siempre.
+Cuanto tiempo me daria para pasar las cosas.
+Vale la pena pasar todas las cosas?
+Eso es algo que tendria que considerar.
+Quizas hacer una prueba de tiempo, o sea pasar un par de hojas y ver.
 ** tener el dpto minimalizado
 eso basicamente seria que tenga seguridad nivel adecuado para
 interactuar con alguien sin problemas (me da la sensacion que tengo
@@ -42,7 +66,48 @@ ese sentido p.e. salidamercaderia.org y bugs.org incluso
 age-programacion.org y hasta documentacion.org todo puede estar en el
 servidor  de desarrollo de la empresa, pero todos los otros org que
 son personales tendrian que estar separados.
+Considerar un par de dias manejar los orkblocks en pendrive. El
+pendrive con luke es crytoseguro con una clave que es separada de la
+familia es personal, es un espacio personal. Por lo tanto no hay
+problema de ir y venir con un pendrive. y manejarse asi. Es una prueba
+de todos modos. pq no voy a estar tranquilo con todos estos escritos.
+
 *** stock contado
+
+** tener el trabajo normalizado
+*** trabajo de cobrador
+**** instructivos claros y faciles para que la gente aprenda 
+p.e. como hacer los recibos en los distintos casos dos cuotas, dos
+cuentas pagos a cuenta, etc.
+
+*** promocion
+**** planos
+**** idear una forma de control de ventas menos artesanal
+incluso una vez terminado el proceso de este sistema tengo que largar
+el proceso nuevo y ver que cambios son necesarios en el software para
+ver los pedidos pendientes los por vencer, y los por entregar.
+No quisiera nuevamente tener que largar sin tener la herramienta
+adecuada para trabajar bien o sea todo lo necesario para pasar.
+Podria hacerlo en el futuro
+***** un nuevo pasador de pedidos 
+****** que use los nuevos desarrollos
+****** que se adapte a los requerimientos
+******* fecha de entrega
+******* repartidor
+******* color
+***** un visionado mas claro de pedidos pendientes y logrados por promotores
+para no tener que tener que sumar a mano a cada rato. 
+Lo ideal seria una planilla de asistencia con la cantidad de pedidos y
+numero de pedido entregados los cuales se archivaran y se tendra la
+pista exacta de lo que paso y en el dorso el contrato y la grilla de
+vales. Entonces es una planilla clara pq no tiene alteraciones, y todo
+lo manejo por pantalla y puedo imprimir resumenes y manejarme por alli.
+*** cobranza
+**** idea nueva de cobranza mas chica con venta incluida
 * Plan de accion						       :plan:
 * Next Action							       :next:
-
+** NEXT comprar elementos para hacer licuado
+super: avena/gatorade/
+diet: almendra
+verdura: peras
+** NEXT comprar fruta en mercado
