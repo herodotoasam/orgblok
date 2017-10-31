@@ -30,40 +30,44 @@ DEADLINE: <2017-11-05 dom +1m>
 :END:
 ** otros fijos
 *** TODO Claro 
-DEADLINE: <2017-10-25 mié +1m>
+DEADLINE: <2017-11-25 sáb +1m>
+- State "DONE"       from "TODO"       [2017-10-29 dom 21:16]
 - State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-25 vie 13:49]
 - State "DONE"       from "TODO"       [2016-10-27 jue 12:37]
 :PROPERTIES:
-:LAST_REPEAT: [2017-01-03 mar 20:02]
+:LAST_REPEAT: [2017-10-29 dom 21:16]
 :END:
 *** TODO Hospital Privado 
-DEADLINE: <2017-10-17 mar +1m>
+DEADLINE: <2017-11-17 vie +1m>
+- State "DONE"       from "TODO"       [2017-10-29 dom 21:17]
 - State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-18 vie 21:18]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2017-01-03 mar 20:02]
+:LAST_REPEAT: [2017-10-29 dom 21:17]
 :END:
 
 * familia                                                           :familia:
 ** casa                                                               :casa:
 *** TODO epec casa                                                   :epec:
-DEADLINE: <2017-10-15 dom +2m -2d>
+DEADLINE: <2017-11-15 mié +1m>
+- State "DONE"       from "TODO"       [2017-10-29 dom 21:17]
 - State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:20]
 :PROPERTIES:
-:LAST_REPEAT: [2017-01-03 mar 20:02]
+:LAST_REPEAT: [2017-10-29 dom 21:17]
 :END:
 *** TODO ecogas casa                                                  :gas:
 SCHEDULED: <2017-10-16 lun +2m>
 
 *** TODO telecom casa                                             :telecom:
-DEADLINE: <2017-10-28 sáb +1m>
+DEADLINE: <2017-11-28 mar +1m>
+- State "DONE"       from "TODO"       [2017-10-29 dom 21:16]
 - State "DONE"       from "TODO"       [2016-12-06 mar 11:01]
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:33]
 :PROPERTIES:
-:LAST_REPEAT: [2016-12-06 mar 11:01]
+:LAST_REPEAT: [2017-10-29 dom 21:16]
 :END:
 ** otros fijos
 *** TODO Viaje de estudio Cami  
@@ -91,12 +95,13 @@ DEADLINE: <2017-11-20 lun +1m -3d>
 SCHEDULED: <2017-10-25 mié +1m>
 
 ** TODO Telecom Local                                        :oficina:fijos:
-DEADLINE: <2017-10-21 sáb +1m>
+DEADLINE: <2017-11-21 mar +1m>
+- State "DONE"       from "TODO"       [2017-10-29 dom 21:16]
 - State "DONE"       from "TODO"       [2017-01-03 mar 20:02]
 - State "DONE"       from "TODO"       [2016-11-21 lun 20:50]
 - State "DONE"       from "PROCESO"    [2016-10-19 mié 20:21]
 :PROPERTIES:
-:LAST_REPEAT: [2017-01-03 mar 20:02]
+:LAST_REPEAT: [2017-10-29 dom 21:16]
 :END:
 ** TODO Seven                                                :oficina:fijos:
 DEADLINE: <2017-11-10 vie +1m>
