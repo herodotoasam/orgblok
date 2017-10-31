@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [42/61]
+* TODO bugs o improvs fichaje.py [42/62]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -366,3 +366,4 @@ CLOCK: [2017-10-29 dom 14:29]--[2017-10-29 dom 15:09] =>  0:40
 CLOCK: [2017-10-29 dom 13:23]--[2017-10-29 dom 13:39] =>  0:16
 perdi mucho mas tiempo del deseado pq pense hacer una generalizacion
 con tablelist. [[file:documentacion.org::*edit%20bug%20tab][edit bug tab]]
+** TODO ordenar el mayor antes de colorearlo por fecha             :tabCaja:

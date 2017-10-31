@@ -89,6 +89,21 @@ ver los pedidos pendientes los por vencer, y los por entregar.
 No quisiera nuevamente tener que largar sin tener la herramienta
 adecuada para trabajar bien o sea todo lo necesario para pasar.
 Podria hacerlo en el futuro
+***** un nuevo pasador de pedidos 
+****** que use los nuevos desarrollos
+****** que se adapte a los requerimientos
+******* fecha de entrega
+******* repartidor
+******* color
+***** un visionado mas claro de pedidos pendientes y logrados por promotores
+para no tener que tener que sumar a mano a cada rato. 
+Lo ideal seria una planilla de asistencia con la cantidad de pedidos y
+numero de pedido entregados los cuales se archivaran y se tendra la
+pista exacta de lo que paso y en el dorso el contrato y la grilla de
+vales. Entonces es una planilla clara pq no tiene alteraciones, y todo
+lo manejo por pantalla y puedo imprimir resumenes y manejarme por alli.
+*** cobranza
+**** idea nueva de cobranza mas chica con venta incluida
 * Plan de accion						       :plan:
 * Next Action							       :next:
 ** NEXT comprar elementos para hacer licuado

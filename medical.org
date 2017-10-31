@@ -66,11 +66,18 @@ oficina.
 [2017-10-05 jue] un dolor que aparecio hace una semana y que me impide
 cruzar la pierna del lado derecho y lo sospecho que es el sillon de la
 oficina.
+[2017-10-31 mar] este ultimo fin de semana estuvo muy inflamado la
+cadera incluso me parecio que se propagaba a la otra. Pienso que se
+debe en parte a que la mala postura en el marques se potencia con la notebook.
 *** espalda
 [2017-10-18 mié] muy mucho dolor de espalda, toda la noche, pienso que
 la culpa del dolor de anoche la tuvo el sillon. Ahoche me colgue con
 tres capitulos de netflix y eso se noto a nivel espalda es peor que la
 jornada de sillon con la compu.
+[2017-10-31 mar] este ultimo finde tuve un pico de malestar en la
+espalda hasta el punto que con oleo31 tuve masajes el domingo en
+varias oportunidades y poco alivio tuve, y el domingo a la noche y el
+lunes me tome un diclo para aliviar sintomas de inflamacion.
 *** acidez extrema
 [2017-10-18 mié] hasta el punto de tomar agua para pasar la noche, me
 paso hace dos noches en el marques y hoy tome un gastromax a la mañana
@@ -81,9 +88,8 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 
 * medicacion
 ** ibuprofeno
-CLOCK: [2017-10-29 dom 13:16]--[2017-10-29 dom 13:18] =>  0:02
 | Fecha            | cnt | sintomas                    |
-|                  |  60 | 0                           |
+|                  |  62 | 0                           |
 |------------------+-----+-----------------------------|
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
@@ -127,6 +133,9 @@ CLOCK: [2017-10-29 dom 13:16]--[2017-10-29 dom 13:18] =>  0:02
 | [2017-10-27 vie] |   1 | 15hs                        |
 | [2017-10-28 sáb] |   1 | 11hs                        |
 | [2017-10-29 dom] |   1 | 11hs                        |
+| [2017-10-30 lun] |   1 | 18hs                        |
+| [2017-10-31 mar] |   1 | 11hs                        |
+|                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -361,6 +370,12 @@ nuevamente entra el factor nervioso, y cuando hay estres viene la
 necesidad de tomar un analgesico, hoy que cuando me levante no habia
 tomado nada, lo termine tomando cuando el estres de la situacion subio
 a cierto nivel.
+
+** [2017-10-31 mar] 
+anoche pense que iba a tener que tomar un nar pq no tenia ibu, pense
+en salir a comprar, y me la aguante y me fue bien al final, aunque
+ahora recien tomado no he mejorado nada. Pero sali del pozo de la
+semana pasada con la crisis migrañosa que me causo creo el licuado.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
