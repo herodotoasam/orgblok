@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** Mercaderia llevada de oficina [18/19]
+** Mercaderia llevada de oficina [18/20]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -48,6 +48,7 @@ cancela el pack que le debia
 *** DONE [2017-10-20 vie] piñata car
 - State "DONE"       from "TODO"       [2017-10-23 lun 15:42]
 64827
+*** TODO [2017-11-01 mié] cortina maiz
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
