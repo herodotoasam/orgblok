@@ -130,9 +130,10 @@ urgente necesito pq no puedo trabajar correctamente en la compu
 - [X] llave inglesa
    SCHEDULED: <2016-10-22 sáb>
 - [X] cortinas de jean
-** NEXT comprar y colocar tope regaton de goma
+** NEXT colocar tope regaton de goma
 DEADLINE: <2017-11-05 dom>
 ** NEXT llevar cosas sobrantes al marques
 DEADLINE: <2017-11-05 dom>
 *** puff
 *** vaciar alacenas de cosas
+** NEXT pedir en ML caja fuerte empotrable de chapa (necesito 2)
