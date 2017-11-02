@@ -248,12 +248,19 @@ y le dije que la trajera y quedo ahi.
 reclama que las sabanas se destiñeron al segundo lavado que son de
 mala calidad pero en ese momento paga $330 cubriendo 1 y 2 cuota y un
 poco mas.
-** TODO sesse 3238 
+** DONE sesse 3238 
 SCHEDULED: <2017-10-25 mié>
+- State "DONE"       from "IMPROV"     [2016-11-02 mié 15:11]
 cambiar sabana azul LH2 por una clara enviar
-** TODO  alumnine 2221
+cambiada por una clarita con hojitas verdes por el 773
+** DONE alumnine 2221
 SCHEDULED: <2017-10-23 lun>
+- State "DONE"       from "TODO"       [2017-10-27 vie 15:12]
 cambiar sabana azul LH2 
+cambiada por una clarita con hojitas verdes por 154
+** TODO Duarte Mesa y Castro 1378
+L&H2 - lleva pagada 3 cuotas al dia, dice a traves de la 755 que las
+va a devolver pq se destiñeron. Creo que da para un cambio  a PB.
 * Devoluciones normales 
 | [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
 |                  |       |                |      |     |           |        |     |       |              |

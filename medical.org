@@ -85,11 +85,14 @@ como primer medicamento
 *** polialquria
 [2017-10-18 mié] ya a nivel molesto, tener que levantarme tantas veces
 de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
-
+*** nerviosismo
+[2017-11-02 jue] hoy me tuve que ir al dpto a buscar SL para ponerme
+una y soportar la jornada, pq vengo desde ayer no soportando los
+embates normales del trabajo.
 * medicacion
 ** ibuprofeno
 | Fecha            | cnt | sintomas                    |
-|                  |  62 | 0                           |
+|                  |  65 | 0                           |
 |------------------+-----+-----------------------------|
 | [2017-09-18 lun] |   2 |                             |
 | [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
@@ -135,7 +138,8 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 | [2017-10-29 dom] |   1 | 11hs                        |
 | [2017-10-30 lun] |   1 | 18hs                        |
 | [2017-10-31 mar] |   1 | 11hs                        |
-|                  |     |                             |
+| [2017-11-01 mié] |   2 |                             |
+| [2017-11-02 jue] |   2 |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
