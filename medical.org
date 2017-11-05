@@ -140,6 +140,8 @@ embates normales del trabajo.
 | [2017-10-31 mar] |   1 | 11hs                        |
 | [2017-11-01 mié] |   2 |                             |
 | [2017-11-02 jue] |   2 |                             |
+| [2017-11-03 vie] |   1 |                             |
+| [2017-11-04 sáb] |   1 |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -156,7 +158,8 @@ embates normales del trabajo.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
-SCHEDULED: <2017-11-01 mié .+1w>
+SCHEDULED: <2017-11-09 jue .+1w>
+- State "DONE"       from "TODO"       [2017-11-02 jue 21:23]
 - State "DONE"       from "TODO"       [2017-10-25 mié 20:17]
 - State "DONE"       from "TODO"       [2017-10-17 mar 19:58]
 - State "DONE"       from "TODO"       [2017-10-09 lun 18:38]
@@ -164,7 +167,7 @@ SCHEDULED: <2017-11-01 mié .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2017-10-25 mié 20:17]
+:LAST_REPEAT: [2017-11-04 sáb 21:23]
 :END:
 
 
