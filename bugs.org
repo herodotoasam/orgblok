@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [47/65]
+* TODO bugs o improvs fichaje.py [47/66]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -380,4 +380,8 @@ CLOCK: [2017-11-04 sáb 19:07]--[2017-11-04 sáb 19:15] =>  0:08
 fila:fecha col:cobr data:cobr/15% con suma y promedio y scroll 
 ** DONE ver si promediar puede tomar los valores significativos unicamente
 CLOCK: [2017-11-04 sáb 21:11]--[2017-11-04 sáb 21:22] =>  0:11
-
+** TODO estadistica cobrador: todas las planillas-zona
+tree por cobrador ultimos dos años abre tree fecha desc total cobrado,
+cnt rbos, zona con funcion mas. 
+Esto responderia la pregunta de hoy de saber como le habia ido a coco
+liso en mosconi cosa que no pude sacarlo.

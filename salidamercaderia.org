@@ -185,6 +185,8 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-10-23 lun 15:43]
 64826
 
+
+vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
