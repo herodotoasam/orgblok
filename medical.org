@@ -145,6 +145,8 @@ embates normales del trabajo.
 | [2017-11-05 dom] |   1 |                             |
 | [2017-11-06 lun] |   1 |                             |
 | [2017-11-07 mar] |   1 |                             |
+| [2017-11-08 mié] |   1 | 3 am                        |
+|                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora    |
@@ -156,7 +158,7 @@ embates normales del trabajo.
 | [2017-10-20 vie] |   1 | 4.30 am |
 | [2017-10-22 dom] |   1 | 17.30hs |
 | [2017-11-06 lun] |   1 | 3.30 am |
-|                  |     |         |
+| [2017-11-08 mié] |   1 | 4.20 am |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -391,6 +393,11 @@ semana pasada con la crisis migrañosa que me causo creo el licuado.
 de un finde en general malo y encima cene pesado anoche desperte con
 un dolor turbio aunque no declarado y como tenia supercompromiso hoy
 con el aviso me tome el <<nar>> sino no lo tomaba.
+** [2017-11-08 mié]
+anoche desperte con dolor que no cedio con el ibu, y sospecho a la
+cena. Muy tarde para meterse a las 22.30hs esos ravioles la
+salteña. Tome un ibu a las 3 y un <<nar>> a las 4.20 y me levante mas
+o menos bien, pero no tan limpiado como el lunes.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

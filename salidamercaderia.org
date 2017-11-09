@@ -1,6 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** Mercaderia llevada de oficina [18/20]
+** Mercaderia llevada de oficina [19/20]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -41,7 +41,9 @@ cancela el pack que le debia
 *** DONE [2017-10-10 mar] pack toallones
 - State "DONE"       from "TODO"       [2017-10-10 mar 11:19]
 64536
-*** TODO [2017-10-06 vie] cortinas verde esmeralda reducida 6x80
+*** DONE [2017-10-06 vie] cortinas verde esmeralda reducida 6x80
+- State "DONE"       from "TODO"       [2017-11-01 mié 13:37]
+65047
 *** DONE [2017-10-10 mar] sabanas PB2
 - State "DONE"       from "TODO"       [2017-10-23 lun 15:41]
 64829
@@ -118,7 +120,7 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
-** Dejada por Fede [2017-10-13 vie] [20/25]
+** Dejada por Fede [2017-10-13 vie] [21/25]
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
@@ -131,7 +133,9 @@ Devuelta
 *** DONE PB KING
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64768
-*** TODO PB KING
+*** DONE PB KING
+- State "DONE"       from "IMPROV"     [2017-11-09 jue 13:36]
+65048
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-10-17 mar 15:40]
 64712
@@ -273,6 +277,7 @@ recuperados ver en la cobranza de ese dia
 | [2017-09-22 vie] |   250025 |    63172 |   250 |                                                    |
 | [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo |
 | [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria         |
+| [2017-09-06 mié] |   247342 |    63221 |    90 | comprobado por Lesta recibo que de 290 pasado aca por 200 |
 
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales
