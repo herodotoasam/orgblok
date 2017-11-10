@@ -146,19 +146,22 @@ embates normales del trabajo.
 | [2017-11-06 lun] |   1 |                             |
 | [2017-11-07 mar] |   1 |                             |
 | [2017-11-08 mié] |   1 | 3 am                        |
-|                  |     |                             |
+| [2017-11-09 jue] |   1 |                             |
+| [2017-11-10 vie] |   1 |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
-| Fecha            | cnt | hora    |
-| [2017-09-27 mié] |   1 | 6.30hs  |
-| [2017-10-13 vie] |   1 | 18.30hs |
-| [2017-10-15 dom] |   1 | 18.30hs |
-| [2017-10-18 mié] |   1 | 1.30 am |
-| [2017-10-19 jue] |   1 | 4.30 am |
-| [2017-10-20 vie] |   1 | 4.30 am |
-| [2017-10-22 dom] |   1 | 17.30hs |
-| [2017-11-06 lun] |   1 | 3.30 am |
-| [2017-11-08 mié] |   1 | 4.20 am |
+| Fecha            | cnt | hora     |
+| [2017-09-27 mié] |   1 | 6.30hs   |
+| [2017-10-13 vie] |   1 | 18.30hs  |
+| [2017-10-15 dom] |   1 | 18.30hs  |
+| [2017-10-18 mié] |   1 | 1.30 am  |
+| [2017-10-19 jue] |   1 | 4.30 am  |
+| [2017-10-20 vie] |   1 | 4.30 am  |
+| [2017-10-22 dom] |   1 | 17.30hs  |
+| [2017-11-06 lun] |   1 | 3.30 am  |
+| [2017-11-08 mié] |   1 | 4.20 am  |
+| [2017-11-10 vie] |   1 | 14.45 hs |
+|                  |     |          |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -398,6 +401,16 @@ anoche desperte con dolor que no cedio con el ibu, y sospecho a la
 cena. Muy tarde para meterse a las 22.30hs esos ravioles la
 salteña. Tome un ibu a las 3 y un <<nar>> a las 4.20 y me levante mas
 o menos bien, pero no tan limpiado como el lunes.
+** [2017-11-10 vie]
+esta mañana tome un ibu y ahora decido un <<nar>> pq la cefalea pinta
+fuerte y tengo 3.15hs de labor por delante y la oficina sin aire o a
+mi me parece. Lo cual es una pelotudez mayuscula. Pero esos mas que
+todo son signos panicosos. De ultima podriamos intercambiar el lugar y
+vemos.
+Mejoro bastante y a las dos horas se puede decir que no hay dolor a
+nivel cabeza a pesar de la atmosfera cerrada y de haber seguido
+trabajando.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
