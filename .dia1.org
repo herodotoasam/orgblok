@@ -2237,3 +2237,6 @@ seguimiento de las fichas.
 O sea que no solo mandaremos a cobrar sino que le preguntaremos al
 cobrador que paso en cada ficha.
 
+* [2017-11-13 lun]
+** Malisimo registro de la migraña el ultimo mes
+11 naratriptan y 42 ibuprofeno de 13/10 a 13/11

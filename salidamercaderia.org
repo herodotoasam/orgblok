@@ -198,8 +198,8 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 SCHEDULED: <2017-10-02 lun>
 - State "DONE"       from "TODO"       [2017-09-29 vie 15:07]
 para cobrar y llevar una sabana, se mudo a guido y europa.
-
-
+** TODO caso Ponce Norma
+Sra que quiere que le vea el ancho de la sabana
 
 * Llamados pidiendo mercaderia no pasados a BD
 ** Comptom 5381 Dora ludueña cortinas[2017-09-12 mar]
@@ -336,6 +336,19 @@ SCHEDULED: <2017-09-22 vie>
 yo le dije ud es de la afip [2017-10-24 mar]
 cuenta 64711 - Cabrera felisa - debe ser el marido, conte anecdota de
 autohaus sobreprecio pagado sin factura.
+*** caso Gonzalez Nilda calle Hortiguera
+nieto Pablo 152-512358
 * Raul
 [2017-11-09 jue]
 [2017-11-10 vie]
+* Pedidos
+** 773
+*** [2017-11-10 vie]
+**** Tissera Maria cta 62173
+2 cubrecamas hombre y 2 cubrecamas mujeres tel 153447659
+**** Reyes Florencia geriatrico calle Dupuy 155991052
+2 sab de 2 y 2 sab de 1 anulado por seven
+
+* retiro mercaderia
+** 773
+*** [2017-11-13 lun] 3 sab 1pl PB
