@@ -69,6 +69,10 @@ oficina.
 [2017-10-31 mar] este ultimo fin de semana estuvo muy inflamado la
 cadera incluso me parecio que se propagaba a la otra. Pienso que se
 debe en parte a que la mala postura en el marques se potencia con la notebook.
+[2017-11-14 mar] hoy tuve un choque en puerta del fondo de oficina con
+pie derecho que repercutio en cadera derecha inflamada y me hizo
+gritar literalmente de dolor, muy feo eso. No le hacen nada los
+masajes ni unguentos. Va de mal en peor.
 *** espalda
 [2017-10-18 mié] muy mucho dolor de espalda, toda la noche, pienso que
 la culpa del dolor de anoche la tuvo el sillon. Ahoche me colgue con
@@ -151,6 +155,7 @@ embates normales del trabajo.
 | [2017-11-11 sáb] |   1 |                             |
 | [2017-11-12 dom] |   1 |                             |
 | [2017-11-13 lun] |   2 | ambos en oficina            |
+| [2017-11-14 mar] |     |                             |
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -433,6 +438,11 @@ habil de oficina, a pesar de que el encierro, la claustrofofia, la
 falta de aire, y el hambre  etc no se presentaron, pero el estres por el caso 765
 es muy grande casi comparado al caso 747 y produce la migraña estoy
 seguro mas alla de las bronquitas menores con los otros chicos. 
+** [2017-11-14 mar]
+hoy felizmente corte la racha del nar en oficina y el nar de ayer
+logro disipar por 24hs el malestar.
+No obstante los multiples otros malestares persisten pero es bueno que
+se haya frenado esa racha.
 
 * historial
 ** migrañas
