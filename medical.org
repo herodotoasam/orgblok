@@ -155,7 +155,7 @@ embates normales del trabajo.
 | [2017-11-11 sáb] |   1 |                             |
 | [2017-11-12 dom] |   1 |                             |
 | [2017-11-13 lun] |   2 | ambos en oficina            |
-| [2017-11-14 mar] |     |                             |
+| [2017-11-14 mar] |   1 | 21:45hs                     |
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
