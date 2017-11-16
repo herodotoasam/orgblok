@@ -156,6 +156,8 @@ embates normales del trabajo.
 | [2017-11-12 dom] |   1 |                             |
 | [2017-11-13 lun] |   2 | ambos en oficina            |
 | [2017-11-14 mar] |   1 | 21:45hs                     |
+| [2017-11-16 jue] |   0 |                             |
+| [2017-11-16 jue] |   0 |                             |
 |                  |     |                             |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -172,8 +174,8 @@ embates normales del trabajo.
 | [2017-11-10 vie] |   1 | 14.45 hs |
 | [2017-11-12 dom] |   1 | 3.30 am  |
 | [2017-11-13 lun] |   1 | 17.30hs  |
-| [2017-11-14 mar] |   1 | 3 am     |
-|                  |     |          |
+| [2017-11-15 mié] |   1 | 3 am     |
+| [2017-11-16 jue] |   1 | 15.40hs  |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -455,6 +457,28 @@ yamani aderezado con mostaza, obvio ambas cosas acidas, y medio
 nervioson, a pesar de que me habia acomodado un poco, que habia
 logrado cierto nivel de encuadre en mi dpto y en mis planes no le di a
 la cena la paz y tranquilidad que era necesario.
+
+** [2017-11-16 jue]
+decidi que no tomo mas ibuprofeno, pq habia caido en la toma
+preventiva, y en todas las variantes de toma que el migral tiene, por
+eso la toma diaria, y con lo malo que es el ibuprofeno no me conviene
+si aparte estoy teniendo ese nivel de naratriptan, o sea que o bien
+subo el topi y aguanto la tormenta con naratriptan solo o bien evito
+totalmente el TACC. y otros conservantes.
+veremos que pasa.
+Harto!!!!! del dolorcillo y deseando que se me disparara para tomarme
+el <<nar>> o se fuera, me tome el nar a 15.40 y veremos. Esta
+acompañado de tension muscular cervical extrema, de gran nerviosismo y
+de pensamientos suicidas. Creo que si tuviera un chumbo este seria el
+momento de pegarse un cuetazo y que la sangre corriera por la
+pantalla.
+Una hora de tomado y no cede la gran puta y yo lideando aca con los
+tipos mas pelotudos que me pueda haber tocado en suerte los ultimos
+años.
+Pasaron 3 horas y no se me fue el dolor cien por cien y el embole que
+tengo es mayusculo, asi no se me va a ir.
+
+
 
 * historial
 ** migrañas

@@ -270,6 +270,9 @@ cambiada por una clarita con hojitas verdes por 154
 ** TODO Duarte Mesa y Castro 1378
 L&H2 - lleva pagada 3 cuotas al dia, dice a traves de la 755 que las
 va a devolver pq se destiñeron. Creo que da para un cambio  a PB.
+** TODO Tunuyan 2285
+pago 4 cuotas y no le gusta la sabana y pide que la cambien. Se
+ofrecera cambio a PB con diferencia de precio al contado
 * Devoluciones normales 
 | [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
 |                  |       |                |      |     |           |        |     |       |              |
