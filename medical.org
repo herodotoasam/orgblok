@@ -176,6 +176,8 @@ embates normales del trabajo.
 | [2017-11-13 lun] |   1 | 17.30hs  |
 | [2017-11-15 mié] |   1 | 3 am     |
 | [2017-11-16 jue] |   1 | 15.40hs  |
+| [2017-11-17 vie] |   1 | 11.40hs  |
+|                  |     |          |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -478,7 +480,9 @@ años.
 Pasaron 3 horas y no se me fue el dolor cien por cien y el embole que
 tengo es mayusculo, asi no se me va a ir.
 
-
+** [2017-11-17 vie]
+mal dos dias de <<nar>> refractario, no hace nada pero la presion es
+muy grande dentro y fuera del trabajo, es indescriptible.
 
 * historial
 ** migrañas
