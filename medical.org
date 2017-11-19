@@ -95,70 +95,73 @@ una y soportar la jornada, pq vengo desde ayer no soportando los
 embates normales del trabajo.
 * medicacion
 ** ibuprofeno
-| Fecha            | cnt | sintomas                    |
-|                  |  65 | 0                           |
-|------------------+-----+-----------------------------|
-| [2017-09-18 lun] |   2 |                             |
-| [2017-09-19 mar] |   2 | dolor molesto toda la tarde |
-| [2017-09-20 mié] |   1 | desperte con dolor          |
-| [2017-09-21 jue] |   1 |                             |
-| [2017-09-22 vie] |   1 | madrugada                   |
-| [2017-09-23 sáb] |   0 |                             |
-| [2017-09-24 dom] |   1 |                             |
-| [2017-09-25 lun] |   1 | 14hs en dpto                |
-| [2017-09-26 mar] |   2 | madrugada y oficina         |
-| [2017-09-27 mié] |   1 | madrugada                   |
-| [2017-09-28 jue] |   2 | 12/23hs                     |
-| [2017-09-29 vie] |   2 | 12hs/22hs                   |
-| [2017-09-30 sáb] |   1 | 18hs                        |
-| [2017-10-01 dom] |   2 |                             |
-| [2017-10-02 lun] |   1 | 19hs                        |
-| [2017-10-03 mar] |   2 | 8/15hs                      |
-| [2017-10-04 mié] |   1 |                             |
-| [2017-10-05 jue] |   1 |                             |
-| [2017-10-06 vie] |   2 | 10/18hs                     |
-| [2017-10-07 sáb] |   2 | 15/23                       |
-| [2017-10-08 dom] |   2 | 10/17                       |
-| [2017-10-09 lun] |   1 | 13                          |
-| [2017-10-10 mar] |   1 | ?                           |
-| [2017-10-11 mié] |   2 | 4am/15hs                    |
-| [2017-10-12 jue] |   2 | 4am/22                      |
-| [2017-10-13 vie] |   2 | 11.30hs/15.30hs             |
-| [2017-10-14 sáb] |   2 | 12/23hs                     |
-| [2017-10-15 dom] |   2 | 10/15hs                     |
-| [2017-10-16 lun] |   0 |                             |
-| [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs           |
-| [2017-10-18 mié] |   2 | 11.30/23hs                  |
-| [2017-10-19 jue] |   1 | 11                          |
-| [2017-10-20 vie] |   1 | 19hs                        |
-| [2017-10-21 sáb] |   1 | 10hs                        |
-| [2017-10-22 dom] |   2 | 9hs/17hs                    |
-| [2017-10-23 lun] |   1 | 11hs                        |
-| [2017-10-24 mar] |   2 | 10/23hs                     |
-| [2017-10-25 mié] |   1 | 13hs                        |
-| [2017-10-26 jue] |   1 | 23hs                        |
-| [2017-10-27 vie] |   1 | 15hs                        |
-| [2017-10-28 sáb] |   1 | 11hs                        |
-| [2017-10-29 dom] |   1 | 11hs                        |
-| [2017-10-30 lun] |   1 | 18hs                        |
-| [2017-10-31 mar] |   1 | 11hs                        |
-| [2017-11-01 mié] |   2 |                             |
-| [2017-11-02 jue] |   2 |                             |
-| [2017-11-03 vie] |   1 |                             |
-| [2017-11-04 sáb] |   1 |                             |
-| [2017-11-05 dom] |   1 |                             |
-| [2017-11-06 lun] |   1 |                             |
-| [2017-11-07 mar] |   1 |                             |
-| [2017-11-08 mié] |   1 | 3 am                        |
-| [2017-11-09 jue] |   1 |                             |
-| [2017-11-10 vie] |   1 |                             |
-| [2017-11-11 sáb] |   1 |                             |
-| [2017-11-12 dom] |   1 |                             |
-| [2017-11-13 lun] |   2 | ambos en oficina            |
-| [2017-11-14 mar] |   1 | 21:45hs                     |
-| [2017-11-16 jue] |   0 |                             |
-| [2017-11-16 jue] |   0 |                             |
-|                  |     |                             |
+| Fecha            | cnt | sintomas                     |
+|                  |  65 | 0                            |
+|------------------+-----+------------------------------|
+| [2017-09-18 lun] |   2 |                              |
+| [2017-09-19 mar] |   2 | dolor molesto toda la tarde  |
+| [2017-09-20 mié] |   1 | desperte con dolor           |
+| [2017-09-21 jue] |   1 |                              |
+| [2017-09-22 vie] |   1 | madrugada                    |
+| [2017-09-23 sáb] |   0 |                              |
+| [2017-09-24 dom] |   1 |                              |
+| [2017-09-25 lun] |   1 | 14hs en dpto                 |
+| [2017-09-26 mar] |   2 | madrugada y oficina          |
+| [2017-09-27 mié] |   1 | madrugada                    |
+| [2017-09-28 jue] |   2 | 12/23hs                      |
+| [2017-09-29 vie] |   2 | 12hs/22hs                    |
+| [2017-09-30 sáb] |   1 | 18hs                         |
+| [2017-10-01 dom] |   2 |                              |
+| [2017-10-02 lun] |   1 | 19hs                         |
+| [2017-10-03 mar] |   2 | 8/15hs                       |
+| [2017-10-04 mié] |   1 |                              |
+| [2017-10-05 jue] |   1 |                              |
+| [2017-10-06 vie] |   2 | 10/18hs                      |
+| [2017-10-07 sáb] |   2 | 15/23                        |
+| [2017-10-08 dom] |   2 | 10/17                        |
+| [2017-10-09 lun] |   1 | 13                           |
+| [2017-10-10 mar] |   1 | ?                            |
+| [2017-10-11 mié] |   2 | 4am/15hs                     |
+| [2017-10-12 jue] |   2 | 4am/22                       |
+| [2017-10-13 vie] |   2 | 11.30hs/15.30hs              |
+| [2017-10-14 sáb] |   2 | 12/23hs                      |
+| [2017-10-15 dom] |   2 | 10/15hs                      |
+| [2017-10-16 lun] |   0 |                              |
+| [2017-10-17 mar] |   3 | 1.30 am/12hs/20hs            |
+| [2017-10-18 mié] |   2 | 11.30/23hs                   |
+| [2017-10-19 jue] |   1 | 11                           |
+| [2017-10-20 vie] |   1 | 19hs                         |
+| [2017-10-21 sáb] |   1 | 10hs                         |
+| [2017-10-22 dom] |   2 | 9hs/17hs                     |
+| [2017-10-23 lun] |   1 | 11hs                         |
+| [2017-10-24 mar] |   2 | 10/23hs                      |
+| [2017-10-25 mié] |   1 | 13hs                         |
+| [2017-10-26 jue] |   1 | 23hs                         |
+| [2017-10-27 vie] |   1 | 15hs                         |
+| [2017-10-28 sáb] |   1 | 11hs                         |
+| [2017-10-29 dom] |   1 | 11hs                         |
+| [2017-10-30 lun] |   1 | 18hs                         |
+| [2017-10-31 mar] |   1 | 11hs                         |
+| [2017-11-01 mié] |   2 |                              |
+| [2017-11-02 jue] |   2 |                              |
+| [2017-11-03 vie] |   1 |                              |
+| [2017-11-04 sáb] |   1 |                              |
+| [2017-11-05 dom] |   1 |                              |
+| [2017-11-06 lun] |   1 |                              |
+| [2017-11-07 mar] |   1 |                              |
+| [2017-11-08 mié] |   1 | 3 am                         |
+| [2017-11-09 jue] |   1 |                              |
+| [2017-11-10 vie] |   1 |                              |
+| [2017-11-11 sáb] |   1 |                              |
+| [2017-11-12 dom] |   1 |                              |
+| [2017-11-13 lun] |   2 | ambos en oficina             |
+| [2017-11-14 mar] |   1 | 21:45hs                      |
+| [2017-11-15 mié] |   0 |                              |
+| [2017-11-16 jue] |   0 |                              |
+| [2017-11-17 vie] |   0 |                              |
+| [2017-11-18 sáb] |   1 | 13hs                         |
+| [2017-11-19 dom] |   1 | 11.30hs preventivo y espalda |
+|                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -177,7 +180,7 @@ embates normales del trabajo.
 | [2017-11-15 mié] |   1 | 3 am     |
 | [2017-11-16 jue] |   1 | 15.40hs  |
 | [2017-11-17 vie] |   1 | 11.40hs  |
-|                  |     |          |
+| [2017-11-18 sáb] |   1 | 12hs     |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -484,6 +487,37 @@ tengo es mayusculo, asi no se me va a ir.
 mal dos dias de <<nar>> refractario, no hace nada pero la presion es
 muy grande dentro y fuera del trabajo, es indescriptible.
 
+** [2017-11-18 sáb]
+a las 24.42min me tomo otro <<nar>> a las 12.02 con fuerte jaqueca
+ambos lados molleral habia dormido bien desperte normal y desayune dos
+huevos con cinco almendras  y fui al mercado y eso si fueron dos horas
+de gran patetismo en los pensamientos, que se dispararon ni bien
+comence a caminar (que comence bien despacito y dispuesto a ejercitar
+la espalda sin forzar) se disparo viendo una gente en un auto que se
+iba al campo pienso y alli salto el fusible de yo-sin-auto y alli
+comenzaron los malos pensamientos que no cejaron en dos horas y
+patetismo de no querer comprar nada en el mercado parte por no querer
+hacer cola y no esperar parte por no saber bien que comprar y parte
+por no gastar, salve la jornada de pedo con una boliviana chota que
+compre unos tomates chomazos y dos paltas duras casi casi peor que la
+verdu frente a cañada y unos limones horribles, o sea una compra
+malisima, salvo el quesillo que compre y la panceta en la
+fiambreria. Menos mal que calce la mochila en ambos lados y no me
+lesiono la espalda la vuelta al contrario me hizo bien, pero luego me
+fui al light para comprar la bolsita red y al llegar se desato la
+jaqueca mal. Y el nar fue refractario de nuevo. llevaba una hora y
+alli pense que si no era problema de haber dejado el ibu. y decidi
+provisionalmente volver a tomar ibu al menos hasta salir de esta
+crisis total en la cual estoy, para no agregar factores que no vienen
+al caso. O sea no es momento de hacerme el macho y dejar el ibu si eso
+va a hacer un caos, pq estoy en un estado terminal de espalda en la
+cual tengo una ventana de accion de no mas de una hora, y una ventana
+de accion en cabeza de no mas de dos horas, con un nar puro que no
+hace nada. al menos con los 42 ibus y los 10 nar (tomado de 14/10 a
+14/11) al menos safe de la cabeza.
+Ojo tambien dude de que eran los huevos que estaba consumiendo los que
+habian activado la migraña feroz, pero creo que no o no esta bien
+claro por los registros aun.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
