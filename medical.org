@@ -161,6 +161,7 @@ embates normales del trabajo.
 | [2017-11-17 vie] |   0 |                              |
 | [2017-11-18 sáb] |   1 | 13hs                         |
 | [2017-11-19 dom] |   1 | 11.30hs preventivo y espalda |
+| [2017-11-20 lun] |     |                              |
 |                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -181,6 +182,8 @@ embates normales del trabajo.
 | [2017-11-16 jue] |   1 | 15.40hs  |
 | [2017-11-17 vie] |   1 | 11.40hs  |
 | [2017-11-18 sáb] |   1 | 12hs     |
+| [2017-11-19 dom] |   1 | 13hs     |
+|                  |     |          |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -518,6 +521,25 @@ hace nada. al menos con los 42 ibus y los 10 nar (tomado de 14/10 a
 Ojo tambien dude de que eran los huevos que estaba consumiendo los que
 habian activado la migraña feroz, pero creo que no o no esta bien
 claro por los registros aun.
+** [2017-11-19 dom]
+se repitio practicamente el patron de ayer o sea desayune dos huevos
+fritos en oliva y a las dos horas mas o menos se desato la migrana que
+el <<nar>> no pudo abortar. En este caso comi igual y recien a las
+tres horas o cuatro horas se limpio y eso que habia tenido un ibu
+"preventivo" a las 11.30hs incluso antes de desayunar que no influyo en
+nada. Pense cuando era inutil el nar en tomarme un segundo ibu pero no
+lo hice por vagancia e inconveniencia del lugar y mejor pq termine
+perfecto la tarde-noche sin dolor y sin un segundo ibu con una mateada
+amarga con almendras, y eso lo repeti de desayuno el lunes.
+Hay que notar que desde la tarde del sabado y ya desde que me levante
+el domingo cedio un poco el malestar mayusculo de la columna que me
+tuvo a maltraer en el dpto. Pero sigo con la dieta estricta en cierta
+forma.
+** [2017-11-20 lun]
+hoy no desayune huevos como los ultimos dos dias y no tuve la migrana
+a la misma hora y a la misma intensidad hasta ahora. Es mas ni
+siquiera tome ibu. Desayune mate amargo con 15 almendras y almorce
+hamburguesas y ensalada hervida. Se eleva el factor sospecha para los huevos.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
