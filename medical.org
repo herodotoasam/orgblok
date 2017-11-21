@@ -183,7 +183,7 @@ embates normales del trabajo.
 | [2017-11-17 vie] |   1 | 11.40hs  |
 | [2017-11-18 sáb] |   1 | 12hs     |
 | [2017-11-19 dom] |   1 | 13hs     |
-|                  |     |          |
+| [2017-11-20 lun] |   1 | 17hs     |
 ** gastromax
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
@@ -201,7 +201,10 @@ SCHEDULED: <2017-11-16 jue .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2017-11-13 lun 09:13]
 :END:
-
+** migral
+| Fecha            | cnt | hora    |
+| [2017-11-20 lun] |   1 | 20.23hs |
+|                  |     |         |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -410,12 +413,12 @@ necesidad de tomar un analgesico, hoy que cuando me levante no habia
 tomado nada, lo termine tomando cuando el estres de la situacion subio
 a cierto nivel.
 
-** [2017-10-31 mar] 
+** [2017-10-31 mar]
 anoche pense que iba a tener que tomar un nar pq no tenia ibu, pense
 en salir a comprar, y me la aguante y me fue bien al final, aunque
 ahora recien tomado no he mejorado nada. Pero sali del pozo de la
 semana pasada con la crisis migrañosa que me causo creo el licuado.
-** [2017-11-06 lun] 
+** [2017-11-06 lun]
 de un finde en general malo y encima cene pesado anoche desperte con
 un dolor turbio aunque no declarado y como tenia supercompromiso hoy
 con el aviso me tome el <<nar>> sino no lo tomaba.
@@ -539,7 +542,38 @@ forma.
 hoy no desayune huevos como los ultimos dos dias y no tuve la migrana
 a la misma hora y a la misma intensidad hasta ahora. Es mas ni
 siquiera tome ibu. Desayune mate amargo con 15 almendras y almorce
-hamburguesas y ensalada hervida. Se eleva el factor sospecha para los huevos.
+hamburguesas y ensalada hervida. Se eleva el factor sospecha para los
+huevos.
+Almorce y me acoste a dormir una siestita luego de pasar unos papeles
+a la notebook, no estaba muy comodo y me dormi y tipo 17 me levante
+con cefalea, la trate de solventar con un ibu y una mateada amarga,
+sentia una necesidad de comer algo dulce. Me comi un par de almendras
+y le dije a ih que se hiciera unos pururu una posibilidad para no
+salirse de la dieta sin tacc. Las siguientes dos horas mas o menos
+fueron pasables y el dolor cedio y luego volvio y ahi decido irme. o
+sea venirme. Me cambio pido el remi y me vengo con un N2 sin
+problemas, desarmo maletas y comienzo a pasar papeles pasa una hora y
+la jaqueca se va transformando en migrañosa izquierda hemicraneal
+frontal palpitante y me tomo un migral luego de 30hs25min de haber
+tomado el <<nar>>.
+Tomo la decision de pasarme al migral pq ya esta visto que el nar no
+va mas, que el incremento del dolor en esta pauta casi diaria, aun
+habiendo evitado el huevo, tiene que ver quiza con desintoxicacion de
+alguna manera, pq se puede decir que las ultimas 48 hs no tuve malos
+pensamientos y las ultimas 72 hs no tuve estres importante, incluso el
+dolor intenso de espalda cedio. 
+Creo que una vez que se asiente la pauta de alimento nueva cederan los
+dolores y no creo que haya tiempo para enviciarme con el migral, eso
+llevaria unos dos meses. De todos modos como voy voy camino a una
+crisis del naratriptan, crisis aguda pq me impediria trabajar. Ojala
+que prenda el migral y corte el dolor, al menos puedo repetirlo o sea
+tomar dos o tres de ultima, o sea estoy en terreno conocido, pero con
+el nar no y estoy muy acotado. 
+Aca yo pienso que debemos cambiar totalmente y a ello vamos asi que no
+hay que tener miedo.
+Para bien o para mal el migral fue efectivo, saco en tiempo y forma el
+dolor y me voy a dormir con la esperanza de normalizarme lo mas pronto
+posible. Espero no equivocarme de estrategia.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
