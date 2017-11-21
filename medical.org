@@ -22,6 +22,8 @@ SCHEDULED: <2017-09-30 sáb>
 ** DONE sacar turno endocrinologia
 SCHEDULED: <2017-09-27 mié>
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
+** TODO Romero William [2018-01-03 mié] 12.40hs
+
 * sintomas
 ** Dolores
 *** Testiculos

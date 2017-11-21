@@ -1,5 +1,6 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
+** TODO devolver documento Martines Viviana
 ** Mercaderia llevada de oficina [22/26]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
@@ -289,10 +290,11 @@ ofrecera cambio a PB con diferencia de precio al contado
 Lote robado el 3/10/17 en Barrio Patricios 1101
 recuperados ver en la cobranza de ese dia
 
-| [2017-09-22 vie] |   250025 |    63172 |   250 |                                                    |
-| [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo |
-| [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria         |
+| [2017-09-22 vie] |   250025 |    63172 |   250 |                                                           |
+| [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo        |
+| [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria                |
 | [2017-09-06 mié] |   247342 |    63221 |    90 | comprobado por Lesta recibo que de 290 pasado aca por 200 |
+| [2017-09-15 vie] |   249668 |    62336 |   120 | comprobado con el cliente                                 |
 
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales
@@ -356,6 +358,16 @@ nieto Pablo 152-512358
 * Raul
 [2017-11-09 jue]
 [2017-11-10 vie]
+[2017-11-13 lun]
+[2017-11-14 mar]
+[2017-11-15 mié]
+[2017-11-16 jue]
+[2017-11-17 vie]
+[2017-11-21 mar]
+* Osver
+cobro el [2017-11-17 vie] arranca el mes o bien el mismo 18 y cobra
+los 17 o veamos.
+
 * Pedidos
 ** 773
 *** [2017-11-10 vie]
