@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
-** TODO devolver documento Martines Viviana
-** Mercaderia llevada de oficina [22/26]
+** FIXED devolver documento Martines Viviana
+** Mercaderia llevada de oficina [25/30]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -61,9 +61,19 @@ cancela el pack que le debia
 *** DONE [2017-11-15 mié] pack toallones
 - State "DONE"       from "TODO"       [2017-11-17 vie 20:06]
 65181
-*** TODO [2017-11-17 vie] pack toallones
-*** TODO [2017-11-17 vie] pack toallones
+*** DONE [2017-11-17 vie] pack toallones
+- State "DONE"       from "TODO"       [2017-11-21 mar 14:46]
+65221
+*** DONE [2017-11-17 vie] pack toallones
+- State "DONE"       from "TODO"       [2017-11-21 mar 14:46]
+65220
 *** TODO [2017-11-17 vie] PB2
+*** DONE [2017-11-21 mar] pack toallones
+- State "DONE"       from "TODO"       [2017-11-21 mar 14:47]
+65220
+*** TODO [2017-11-21 mar] pack toallones
+*** TODO [2017-11-21 mar] pack toallones
+*** TODO [2017-11-21 mar] pack toallones
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -211,7 +221,8 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 SCHEDULED: <2017-10-02 lun>
 - State "DONE"       from "TODO"       [2017-09-29 vie 15:07]
 para cobrar y llevar una sabana, se mudo a guido y europa.
-** TODO caso Ponce Norma
+** DONE caso Ponce Norma
+- State "DONE"       from "TODO"       [2017-11-22 mié 14:59]
 Sra que quiere que le vea el ancho de la sabana
 
 * Llamados pidiendo mercaderia no pasados a BD
