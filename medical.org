@@ -163,7 +163,9 @@ embates normales del trabajo.
 | [2017-11-17 vie] |   0 |                              |
 | [2017-11-18 sáb] |   1 | 13hs                         |
 | [2017-11-19 dom] |   1 | 11.30hs preventivo y espalda |
-| [2017-11-20 lun] |     |                              |
+| [2017-11-20 lun] |   1 | 17hs                         |
+| [2017-11-21 mar] |   0 |                              |
+| [2017-11-22 mié] |   1 | 7am                          |
 |                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -576,6 +578,25 @@ hay que tener miedo.
 Para bien o para mal el migral fue efectivo, saco en tiempo y forma el
 dolor y me voy a dormir con la esperanza de normalizarme lo mas pronto
 posible. Espero no equivocarme de estrategia.
+** [2017-11-21 mar]
+me levante bien, me bañe y tenia cita con ramiro a las 10hs y luego el
+plan era ir al patio olmos a ver la traumatologa que al final atendia
+a la tarde, el plan b no lo hice que era comprar ropa. Me volvi pero
+positivo y almorce bien, habia desayunado licuado, mientras tomaba el
+primer vaso pensaba que no iba a alcanzar pq estaba muy liquido pero
+ya en el final del vaso estaba saciado y el medio vaso sirvio hasta el
+mediodia. El almuerzo fue bife con tomate y palta y mijo, el mijo
+estuvo muy bueno. La jornada laboral tuvo optima, no senti cansancio
+ni presion de ningun tipo, luego al volver previo haberme desviado por
+una picardia me senti un poquito cansado y luego hice el trabajazo de
+la cocina [[file:dia-general.org::*%5B2017-11-21%20mar%5D][limpie la mesada podrida]] y me hice una cena de antologia y
+aqui estoy dispuesto a pasar los papeles para que no me pese mañana el
+dia. 
+** [2017-11-22 mié]
+aunque anoche comi copiosamente el menu ya descripto dormi bien y
+recien tipo 5 o 6 aparecieron las primeras molestias y decidi tomarme
+tipo 7 un ibu q ya para las 8 limpio completamente la molestia, como
+pasaba antes.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

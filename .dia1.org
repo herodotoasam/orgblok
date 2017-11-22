@@ -2448,3 +2448,29 @@ Parte se lo debo a la alimentacion y parte se lo debo a no prender el
 tele. pq el tele es lo malo pq te crea esa necesidad de sentarse a ver
 y no te deja tomarte tu tiempo para hacer otras cosas que por ahi
 valen mas la pena como comer, preparar la comida, descansar o leer.
+
+
+
+
+
+
+
+
+
+
+* pasado de papeles en casa
+** [2017-11-21 mar]
+CLOCK: [2017-11-22 mié 09:17]--[2017-11-22 mié 10:38] =>  1:21
+CLOCK: [2017-11-22 mié 08:16]--[2017-11-22 mié 09:04] =>  0:48
+CLOCK: [2017-11-21 mar 21:50]--[2017-11-21 mar 22:31] =>  0:41
+pasados tres chicos 154/796/697 pero cansado pq en el medio llamado
+por telefono y cansancio del dia. sigo mañana.
+48 minutos pase brian solo pero intente solucionar un bug que encontre
+con el pmovto que se sigue poniendo cuando una cuenta se cancela, que
+yo pensaba que era inocuo pero en realidad no, pq cuando ese tipo
+compra de nuevo ese pmovto va a aparecer como anterior y se va a
+presentar como valido, entonces primero los hice nulos con un update
+masivo y ahora intento sin exito un trigger que me los haga
+automaticos.
+y eso me hace perder tiempo.
+Pase todo en 2hs hoy pero con esa perdida de tiempo. 

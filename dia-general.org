@@ -3837,6 +3837,11 @@ por unica vez: sacar las botellas de abajo, devolver herramientas,
 cambiar cortinas, intentar destrancar cañeria.
 *** [2017-01-04 mié]
 cocina- mesada, pileta en especial, piso
+*** [2017-11-21 mar]
+historico limpie el piso del mueble de mesada con lavandina calce los
+guantes amarillos y un balde con lavandina y limpie todo y
+directamente anule la pileta pq el resumidero no va mas y todo esta
+podrido y echa mucho olor.
 * Emacs
 ** Necesarios
 *** atajo insertar dia con hora
