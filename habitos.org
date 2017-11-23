@@ -33,8 +33,9 @@ SCHEDULED: <2017-11-23 jue .+1d>
 :END:
 
 
-** TODO licuados
-SCHEDULED: <2017-11-23 jue .+1d>
+**sq TODO licuados
+SCHEDULED: <2017-11-24 vie .+1d>
+- State "DONE"       from "TODO"       [2017-11-23 jue 18:45]
 - State "DONE"       from "TODO"       [2017-11-22 mié 08:15]
 - State "DONE"       from "TODO"       [2017-11-21 mar 21:01]
 - State "DONE"       from "TODO"       [2017-10-19 jue 20:51]
@@ -84,7 +85,7 @@ SCHEDULED: <2017-11-23 jue .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2017-11-22 mié 08:15]
+:LAST_REPEAT: [2017-11-23 jue 18:45]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]

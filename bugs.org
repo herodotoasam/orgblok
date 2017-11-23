@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [47/66]
+* TODO bugs o improvs fichaje.py [47/67]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -385,3 +385,4 @@ tree por cobrador ultimos dos años abre tree fecha desc total cobrado,
 cnt rbos, zona con funcion mas. 
 Esto responderia la pregunta de hoy de saber como le habia ido a coco
 liso en mosconi cosa que no pude sacarlo.
+** TODO poner pmovto en tbs muestra recibos pagados
