@@ -20,7 +20,9 @@ SCHEDULED: <2017-11-23 jue .+1d>
 :END:
 
 ** TODO tomar agua de lino 
-SCHEDULED: <2017-11-23 jue .+1d>
+SCHEDULED: <2017-11-25 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
+- State "DONE"       from "TODO"       [2017-11-23 jue 15:52]
 - State "DONE"       from "TODO"       [2017-11-22 mié 08:15]
 - State "DONE"       from "TODO"       [2017-11-20 lun 20:38]
 - State "DONE"       from "TODO"       [2017-11-19 dom 20:38]
@@ -29,12 +31,13 @@ SCHEDULED: <2017-11-23 jue .+1d>
 - State "DONE"       from "TODO"       [2017-11-16 jue 20:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-11-22 mié 08:15]
+:LAST_REPEAT: [2017-11-24 vie 15:52]
 :END:
 
 
-**sq TODO licuados
-SCHEDULED: <2017-11-24 vie .+1d>
+** TODO licuados
+SCHEDULED: <2017-11-25 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
 - State "DONE"       from "TODO"       [2017-11-23 jue 18:45]
 - State "DONE"       from "TODO"       [2017-11-22 mié 08:15]
 - State "DONE"       from "TODO"       [2017-11-21 mar 21:01]
@@ -85,7 +88,7 @@ SCHEDULED: <2017-11-24 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
    :STYLE:    habit
-:LAST_REPEAT: [2017-11-23 jue 18:45]
+:LAST_REPEAT: [2017-11-24 vie 15:52]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-04 vie 17:40]
 - State "DONE"       from "TODO"       [2016-11-03 jue 17:39]
@@ -106,7 +109,8 @@ SCHEDULED: <2017-11-24 vie .+1d>
 
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2017-11-22 mié .+1d>
+SCHEDULED: <2017-11-25 sáb .+1d>
+- State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
 - State "DONE"       from "TODO"       [2017-11-21 mar 21:01]
 - State "DONE"       from "TODO"       [2017-10-20 vie 21:45]
 - State "DONE"       from "TODO"       [2017-10-19 jue 21:27]
@@ -152,7 +156,7 @@ SCHEDULED: <2017-11-22 mié .+1d>
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:33]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-11-21 mar 21:01]
+:LAST_REPEAT: [2017-11-24 vie 15:52]
 :END:
 
 Puede ser arroz, mijo en cereal, con amaranto, sesamo etc.

@@ -167,6 +167,7 @@ embates normales del trabajo.
 | [2017-11-21 mar] |   0 |                              |
 | [2017-11-22 mié] |   1 | 7am                          |
 | [2017-11-23 jue] |   2 | 1am - 16hs                   |
+| [2017-11-24 vie] |   1 | 16hs                         |
 |                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -624,7 +625,24 @@ bien. en cierta forma tiene almuerzo/cena y licuado en el medio.
 pasando las horas no fue efectivo el ibu, pienso que por el encierro
 casi cinco horas de intenso calor aca sin aire, mas que aire
 acondicionado creo que se necesitaria un extractor que recirculara el
-aire viciado.  Pero pronto lo vamos a tener. 
+aire viciado.  Pero pronto lo vamos a tener.
+Llegue a mi casa y parecia crecer en virulencia la urgencia del
+migral, y en cierto momento pense que emergian viejas estructuras del
+migral o sea el deseo de tomar migral por tomarlo por sentir ese
+alivio, lo que si estaba muy cansado, entonces me acoste a reposar un
+poco y fui safando poco a poco de la necesidad de tomar migral y no
+tome y tampoco ibu, y dormi bien y me levante bien y tuve una mañana
+bien el viernes a la mañana y recien me tomo un ibu mas que todo pq se
+me hace insoportable el dolor de espalda. 
+Es que esta mañana me levante y vine a la oficina y luego cuando me
+relajaba me tuve que ir al banco y luego de un breve momento venir a
+la oficina y el tiron es largo pq al estar expuesto aca adelante se
+hace mas tenso y cansador todo, creo que estando atras va a ser todo
+mas facil.
+Creo que lo que fue fundamental para el alivio de las ultimas 24hs fue
+el litro de agua de lino como desinflamante no queda otra. Pq estando
+yo cefaleico, tome por tomar medio vaso cada media hora mas o menos y
+fui despejandome.  
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

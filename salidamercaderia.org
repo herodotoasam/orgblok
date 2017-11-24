@@ -268,6 +268,19 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** TODO  PB1
 *** TODO  PB1
 *** TODO  PB1
+** Dejada por Fede [2017-11-24 vie]
+*** TODO cortina
+*** TODO cortina
+*** TODO cortina
+*** TODO cortina
+*** TODO mantel de cuerina
+*** TODO mantel de cuerina
+*** TODO PB2
+*** TODO PB2
+*** TODO PB2
+*** TODO Cubrecamas Indu 2plazas
+*** TODO Cubrecamas Indu 2plazas
+*** TODO Cubrecamas Indu 2plazas
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
