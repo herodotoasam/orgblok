@@ -171,7 +171,7 @@ embates normales del trabajo.
 | [2017-11-25 sáb] |   1 | 11hs                         |
 | [2017-11-26 dom] |   1 | 11hs                         |
 | [2017-11-27 lun] |   0 |                              |
-| [2017-11-28 mar] |   1 | 10hs                         |
+| [2017-11-28 mar] |   2 | 10hs/15hs                    |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -216,6 +216,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-11-20 lun] |   1 | 20.23hs |
 | [2017-11-25 sáb] |   1 | 12hs    |
 | [2017-11-27 lun] |   1 | 01am    |
+| [2017-11-28 mar] |   1 | 16hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -691,6 +692,11 @@ me tome un ibu mas que todo por el factor animico que estaba pasando y
 luego que paso todo, que pinto, se fue, pague y termino una etapa, me
 active y arme la compu, la hice funcionar y me vine, podria si hubiera
 querido hacer mas pero me hubiera quedado sin tiempo.
+aca hay olor a pintura y tensiones. algunas las voy a sacar otras van
+a estar siempre. me tomo un segundo ibu a las 15hs y catastroficamente
+me produce un incremento del dolor jaquecoso para los estandares del
+trabajo en este ambiente cerrado y maxime con el tener que estar
+lidiando con el tema 765. Y tomo un <<migral>>!!.
 
 
 * historial
