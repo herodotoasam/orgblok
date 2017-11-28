@@ -326,7 +326,23 @@ M-x neotree
 * fichaje.py
 ** mostrar cuenta con doble click
 hacer un bind con la funcion self.muestracuentas(idcliente)
-** 
+** bug muestra doble los registro en Buscar [2017-11-24 vie]
+es pq la tabla virtual goo1 se duplico no se cuando, fue cuando
+hicimos una consulta relativa a los 
+con.execute("update ventas set pmovto='' where saldo=0 and pmovto is not null")
+
+lo solucione borrando goo1 y regenerandola
+
+#+BEGIN_EXAMPLE
+sqlite> .ta goo1
+goo1
+sqlite> .sch goo1
+CREATE VIRTUAL TABLE goo1  using fts4(id,nombre,dni,calle,num,acla,tel,barrio, zona,deuda,ultpago,ultcompra,comprado);
+sqlite> drop table goo1;
+sqlite> CREATE VIRTUAL TABLE goo1  using fts4(id,nombre,dni,calle,num,acla,tel,barrio, zona,deuda,ultpago,ultcompra,comprado);
+sqlite> insert into goo1 select id,nombre,dni,calle,num,acla,tel,barrio, zona,deuda,ultpago,ultcompra,comprado from clientes;
+sqlite> 
+#+END_EXAMPLE
 
 * jabbed- mensajeria
 ** obtener una id jabber

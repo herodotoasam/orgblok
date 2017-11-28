@@ -168,7 +168,10 @@ embates normales del trabajo.
 | [2017-11-22 mié] |   1 | 7am                          |
 | [2017-11-23 jue] |   2 | 1am - 16hs                   |
 | [2017-11-24 vie] |   1 | 16hs                         |
-|                  |     |                              |
+| [2017-11-25 sáb] |   1 | 11hs                         |
+| [2017-11-26 dom] |   1 | 11hs                         |
+| [2017-11-27 lun] |   0 |                              |
+| [2017-11-28 mar] |   1 | 10hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -211,7 +214,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 ** migral
 | Fecha            | cnt | hora    |
 | [2017-11-20 lun] |   1 | 20.23hs |
-|                  |     |         |
+| [2017-11-25 sáb] |   1 | 12hs    |
+| [2017-11-27 lun] |   1 | 01am    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -642,7 +646,53 @@ mas facil.
 Creo que lo que fue fundamental para el alivio de las ultimas 24hs fue
 el litro de agua de lino como desinflamante no queda otra. Pq estando
 yo cefaleico, tome por tomar medio vaso cada media hora mas o menos y
-fui despejandome.  
+fui despejandome.
+** [2017-11-25 sáb]
+me levante bien y fui a la oficina temprano una hora y media
+acomodando hasta que llegaron ellos y con el aire prendido, a las 11
+tome un ibu medio preventivo y luego la cefalea fue creciendo y a las
+12 decidi tomarme un migral. No se si en situacion normal lo hubiese
+tomado. Creo que me apure un poco no soporte ni siquiera un cachito de
+presion y al menos actuo rapido y bien aun siguiendo la actividad en
+las mismas condiciones. Segui trabajando hasta las 14.30 que me vine a
+comer. Me reafirmo en la dieta sin TACC y creo que debo eliminar la
+avena como factor inflamante y mas cruda. Creo que una dieta sin
+gluten definitiva va a ser positiva en el futuro. Y el lino como
+factor desinflamante. Y el frio intenso del aire como factor que
+pudiera llevar a la cefalea (estudiarlo)
+** [2017-11-26 dom]
+repeti el patron de ayer, en oficina luego de dormir mal anoche pq me
+desperte a las 6 y no me pude volver a dormir, me tomo un ibu tipo
+11hs mas que todo preventivo y luego tipo mediodia cuando se fue Fede
+a eso de las 13 y pico acuciaba el dolor como para algo mas. Y me dije
+seria catastrofico un segundo migral consecutivo en estas
+circunstancias.
+Decidi comer pq tenia hambre y me hice con todo, total pensaba lo
+mismo iba terminar tomando algo, me hice dos "bifes" de mijo fritos,
+idem una rodaja hervida de calabaza que me habia quedado, 4 huevitos
+de codorniz, y ensalada de tomate y una palta, todo exquisito y luego
+me acoste me puse una SL y dormi una siesta de mas de dos horas y
+desperte con la recidiva del dolor, no hice nada me levante, tome
+lino, y se fue el dolor. Me fui al disco compre, y me bañe y aca
+estoy, por ahora lo saque de vista.
+** [2017-11-27 lun]
+al final me desperte a la una de la mañana con una cefalea importante
+y no supe que hacer y tome un <<migral>> y no me causo insomnio pq
+estoy tomando clonagin, esa noche tome uno y medio despues de la
+despertada de las cinco, y el lunes transcurrio limpio total de ibu y
+de dolor y de molestias.
+** [2017-11-28 mar]
+hoy me levante bien incluso con pocas molestias a nivel espalda, que
+desde que hago los estiramientos van disminuyendo a pesar de que
+cumplo las funciones igual (pe. lavo platos) y que camino como bestia
+pq voy y vengo con esto de la oficina, fueron cuatro dias seguidos de
+estar atras de la parecita. Lo que si me note en oficina muy cansado y
+me tome un ibu mas que todo por el factor animico que estaba pasando y
+luego que paso todo, que pinto, se fue, pague y termino una etapa, me
+active y arme la compu, la hice funcionar y me vine, podria si hubiera
+querido hacer mas pero me hubiera quedado sin tiempo.
+
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
