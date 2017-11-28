@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [29/30]
+** Mercaderia llevada de oficina [31/32]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -68,8 +68,11 @@ cancela el pack que le debia
 - State "DONE"       from "TODO"       [2017-11-21 mar 14:46]
 65220
 *** DONE [2017-11-17 vie] PB2
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:02]
+65289
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:41]
-65243
+65243 - devuelta
+
 *** DONE [2017-11-21 mar] pack toallones
 - State "DONE"       from "TODO"       [2017-11-21 mar 14:47]
 65220
@@ -82,6 +85,12 @@ cancela el pack que le debia
 *** DONE [2017-11-21 mar] pack toallones
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:42]
 65245
+*** DONE [2017-11-27 lun] pack toallones
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:04]
+65287
+*** DONE [2017-11-27 lun] pack toallones
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:04]
+65286
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -151,7 +160,7 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:46]
 64235 
 *** quedamos que los packs de muestra iran a 6x160
-** Dejada por Fede [2017-10-13 vie] [22/25]
+** Dejada por Fede [2017-10-13 vie] [23/25]
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
 64767
@@ -201,7 +210,9 @@ Devuelta
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:43]
 65248
 *** TODO cortina cocina tropical
-*** TODO cubrecamas indu 1PL
+*** DONE cubrecamas indu 1PL
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:05]
+65284
 *** TODO cubrecamas indu 1PL
 *** DONE pack x 2 nauticos
 - State "DONE"       from "TODO"       [2017-10-20 vie 11:51]
@@ -224,7 +235,7 @@ Devuelta
 
 
 vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
-** Dejada por Fede [2017-11-23 jue]
+** Dejada por Fede [2017-11-23 jue] [11/23]
 *** DONE pack toallones nauticos
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:42]
 65248
@@ -264,23 +275,40 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 65242
 *** TODO  PB2
 *** TODO  PB2
+*** DONE PB1
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:06]
+65284
 *** TODO  PB1
 *** TODO  PB1
 *** TODO  PB1
-*** TODO  PB1
-** Dejada por Fede [2017-11-24 vie]
+** Dejada por Fede [2017-11-24 vie] [6/12]
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:02]
+65289
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
+65287
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
+65287
 *** TODO cortina
-*** TODO cortina
-*** TODO cortina
-*** TODO cortina
+*** DONE mantel de cuerina
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:05]
+65285
 *** TODO mantel de cuerina
-*** TODO mantel de cuerina
-*** TODO PB2
-*** TODO PB2
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
+65288
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
+65288
 *** TODO PB2
 *** TODO Cubrecamas Indu 2plazas
 *** TODO Cubrecamas Indu 2plazas
 *** TODO Cubrecamas Indu 2plazas
+** Dejada por Fede [2017-11-27 lun]
+*** TODO cortina turquesa
+** 
 * Elva
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
