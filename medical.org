@@ -172,6 +172,10 @@ embates normales del trabajo.
 | [2017-11-26 dom] |   1 | 11hs                         |
 | [2017-11-27 lun] |   0 |                              |
 | [2017-11-28 mar] |   2 | 10hs/15hs                    |
+| [2017-11-29 mié] |   1 | 15hs                         |
+| [2017-11-30 jue] |   1 | 17hs                         |
+| [2017-12-01 vie] |   1 | 16hs                         |
+|                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -217,6 +221,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-11-25 sáb] |   1 | 12hs    |
 | [2017-11-27 lun] |   1 | 01am    |
 | [2017-11-28 mar] |   1 | 16hs    |
+| [2017-12-01 vie] |   1 | 16hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -697,6 +702,27 @@ a estar siempre. me tomo un segundo ibu a las 15hs y catastroficamente
 me produce un incremento del dolor jaquecoso para los estandares del
 trabajo en este ambiente cerrado y maxime con el tener que estar
 lidiando con el tema 765. Y tomo un <<migral>>!!.
+
+** [2017-11-30 jue]
+ayer se repitio el patron, somnolencia, hartazgo, nerviosismo, y
+encierro hicieron que tomara un ibu a las 16hs y que luego se
+aumentara el riesgo de que se incrementara el dolor y terminara en
+migral, pero paso.
+Creo que necesito la cerradura pomo urgente para que pueda irme
+automatico sin cerrar que se trabe sola y luego que se abra facil cosa
+de poder irme un rato afuera cuando me sienta encerrado.
+Al final el ibu me domino el dolor y pude ir a la reunion que duro
+hasta las 22hs en un ambiente encerrado, sin problemas jaquecosos
+luego cene liviano y dormi muy bien.
+
+** [2017-12-01 vie]
+recien a las 14.30hs tomo un ibu por cefalea de apuro, pero pienso que
+se va a controlar. Y fue creciendo (hoy comi 4 huevitos de codorniz)
+mas tensiones mas trabajar ahi mismo. Crecio el dolor de cabeza y me
+tome un migral 
+Ya a las 2hs esta bastante limpio el sistema e incluso me muestro
+animoso, parte por la charla politica con la Elva que me animo a mas
+lecturas y a esforzarme mas en el trabajo.
 
 
 * historial

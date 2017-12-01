@@ -2534,3 +2534,35 @@ masivo y ahora intento sin exito un trigger que me los haga
 automaticos.
 y eso me hace perder tiempo.
 Pase todo en 2hs hoy pero con esa perdida de tiempo. 
+
+* [2017-12-01 vie]
+** correcciones al sistema
+*** salida de recibos
+una solucion intermedia entre lo que hago ahora que es ir a la carrera
+y lo que planteaba estos dias o sea hacer que Raul haga una planilla a
+mano y controlar el toco (lo cual no es practico pq el recibo entra
+aca y tendria que volver alla para que lo haga toco) seria:
+hacer una hora de salida innominada sin fecha numerada de dimension
+variable y en una sola hoja para que se pueda imprimir por tandas.
+O sea desde ya que sea una sola hoja no dos como ahora.
+recuadro para fecha y recuadro para nombre de cobrador
+Numero de lote arriba a la derecha.
+texto legal
+grilla de planilla
+firma y aclaracion del cobrador
+
+Entonces imprimo y/o preparo muchas indistintas sin tener en cuenta
+los nombres ni las fechas. Y eso me sacaria una de las tareas
+conminantes que ahora tengo. Y en el pasado de recibos debo sacar el
+automatismo de buscar solo el lote y ponerlo con el lote que tengo a
+mano.
+*** cospeles
+darle un monto semanal y que me haga una planilla de caja semanal con
+todos los cospeles pagados por semana para no tener que estar dia a
+dia con cambio y diferencias minimas.
+*** intimaciones
+intimar por lotes una vez se acomode el tema ficha de acuerdo a la
+fecha de ultimo pago y que las vaya entregaando raul tambien. 
+*** ventas
+urge el catalogo para que los pedidos entren bien determinados por
+color y asi se puedan preparar bien por carpeta. 
