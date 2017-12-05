@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [33/34]
+** Mercaderia llevada de oficina [33/35]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -97,6 +97,7 @@ cancela el pack que le debia
 *** DONE [2017-11-29 mié] pack toallones
 - State "DONE"       from "TODO"       [2017-11-29 mié 17:10]
 65301
+*** TODO [2017-12-04 lun] pack toallones
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -245,7 +246,7 @@ Devuelta
 
 
 vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
-** Dejada por Fede [2017-11-23 jue] [16/23]
+** Dejada por Fede [2017-11-23 jue] [18/23]
 *** DONE pack toallones nauticos
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:42]
 65248
@@ -258,7 +259,10 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE pack toallones nauticos
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:43]
 65249
-*** TODO  pack toallones nauticos
+*** DONE pack toallones nauticos
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:28]
+65388
+
 *** DONE cortinas
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:42]
 65247
@@ -293,7 +297,9 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:41]
 65242
-*** TODO  PB2
+*** DONE PB2
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:27]
+65387
 *** TODO  PB2
 *** DONE PB1
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:06]
@@ -301,7 +307,7 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** TODO  PB1
 *** TODO  PB1
 *** TODO  PB1
-** Dejada por Fede [2017-11-24 vie] [8/12]
+** Dejada por Fede [2017-11-24 vie] [9/12]
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:02]
 65289
@@ -328,13 +334,21 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE Cubrecamas Indu 2plazas
 - State "DONE"       from "TODO"       [2017-11-29 mié 17:09]
 65304
-*** TODO Cubrecamas Indu 2plazas
+*** DONE Cubrecamas Indu 2plazas
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:28]
+65388
 *** TODO Cubrecamas Indu 2plazas
 ** Dejada por Fede [2017-11-27 lun]
-*** TODO cortina turquesa
+*** DONE cortina turquesa
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:27]
+65386
 ** Dejada por Fede [2017-11-28 mar]
-*** TODO cortina roja
-*** TODO cortina roja
+*** DONE cortina roja
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:27]
+65386
+*** DONE cortina roja
+- State "DONE"       from "TODO"       [2017-12-05 mar 16:27]
+65386
 ** 
 * Elva
 ** DONE sab pb2 torres

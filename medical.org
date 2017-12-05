@@ -175,6 +175,10 @@ embates normales del trabajo.
 | [2017-11-29 mié] |   1 | 15hs                         |
 | [2017-11-30 jue] |   1 | 17hs                         |
 | [2017-12-01 vie] |   1 | 16hs                         |
+| [2017-12-02 sáb] |   0 |                              |
+| [2017-12-03 dom] |   1 | tarde                        |
+| [2017-12-04 lun] |   0 |                              |
+| [2017-12-05 mar] |   2 | 8hs y 14hs                   |
 |                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -723,6 +727,26 @@ tome un migral
 Ya a las 2hs esta bastante limpio el sistema e incluso me muestro
 animoso, parte por la charla politica con la Elva que me animo a mas
 lecturas y a esforzarme mas en el trabajo.
+
+** [2017-12-04 lun]
+el finde entero lo pase en el marques, fue como haber pasado un finde
+en una cabaña de viernes a la noche a lunes a la mañana. Por la
+tranquilidad con la que dormi, por como le dimos, vimos unas cuantas
+pelis y cumpli el regimen sin tacc y sin azucar a rajatabla. No lleve
+la notebook y practicamente no hable de negocios pq el tema que me
+ocupaba era otro, era en realidad las lecturas de la parte alimentaria
+y me distraje con las pelis. Solo me tome un ibu el domingo cuando
+pense que me aumentaba el dolorcillo y me tome un par de tes de
+romero. y luego desaparecio el vestigio del dolor.
+
+** [2017-12-05 mar]
+ya comence mal con la pintada. pero no quiero que me siente mal, sino
+que al reves considerar que esto es parte de lo que yo quiero hacer y
+parte de lo que me va a beneficiar.
+Luego del suceso braian parece que los nervios se tensaron y quede
+bien animicamente y lo cefaleico se fue, pero el transcurrir de las
+horas termina por aburrirme y cansarme aca abajo tanto el encierro
+como la postura. Pero al menos se limpio lo cefaleico.
 
 
 * historial
