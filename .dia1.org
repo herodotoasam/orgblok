@@ -2651,3 +2651,45 @@ estamos igual que el pais. Va a ser dificil armar un sistema
 alternativo teniendo esto que mas o menos funciona y nos es comodo.
 Solamente despues de una crisis se puede armar un esquema alternativo
 o pensar en otra cosa.
+* [2017-12-06 mié]
+** el verdadero objetivo hoy
+creo que no estoy para aventuras, pq repetiria el patetismo de
+anizacate 2009. Es cierto que viviendo ahi estaba alienado, y el ruido
+me estaba matando pero tenia todas las posibilidades economicas de
+hacer lo que quisiera y no las aproveche y me fui alla pensando en
+conseguir lo que aca no conseguia y fue peor pq alla todo era mas
+limitado. 
+** resultado del aviso parece que viene con todo
+da ganas de ponerse las pilas para armar un sistema de trabajo que sea
+mas viable y los abarque a todos.
+O sea que cada cobrador tendria una sola zona de trabajo, un solo
+barrio y eso simplificaria enormemente el trabajo en todos los
+sentidos.
+Un promotor tiene que cobrar 30k y eso significa un nivel de 1500
+pesos por dia lo cual reduce totalmente el riesgo, pq bajamos la
+cantidad de fichas/recibos, damos solo 10 recibos por dia, o menos, y
+podemos llevar no mas de dos articulos por dia, o sea que la persona
+puede vender maximo 40 por mes.
+
+Requerimientos 10 recibos por dia, y cada venta equivale a 3
+recibos. o sea que si lleva una venta puede hacer 7 recibos, y si
+lleva dos articulos puede hacer 4 recibos.
+Pero como cada zona tiene unas 100 fichas necesitas hacer 5 recibos
+por dia si o si, o sea que 2 ventas por dia hay que hacer. 
+Se podria hacer la promo con seña todo y algunos articulos con cuota.
+eso limpiaria un poco los fraudes.
+
+*** pros
+**** la zona unica permite facil administracion
+ya que hay una correspondencia univoca entre zona y persona, no hay
+mucho que ir variando alli, la persona tiene que cuidar el recurso
+todo el mes para que dure. A nivel cobranza tendremos todo lo mejor
+cobrado posible ya que tendremos una persona que vaya 20 dias por
+mes. Y no se complicara el tema venta. Y se puede programar el tema
+venta. Si alguien anda mal se lo cambia de zona. 
+**** si alguien falta dificilmente se atrase mucho la cobranza de una zona
+no es lo mismo tener dos zonas o mucha cobranza.
+**** 
+*** contras
+**** que le falte zona
+

@@ -179,6 +179,7 @@ embates normales del trabajo.
 | [2017-12-03 dom] |   1 | tarde                        |
 | [2017-12-04 lun] |   0 |                              |
 | [2017-12-05 mar] |   2 | 8hs y 14hs                   |
+| [2017-12-06 mié] |   1 | 12.30hs                      |
 |                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
@@ -226,6 +227,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-11-27 lun] |   1 | 01am    |
 | [2017-11-28 mar] |   1 | 16hs    |
 | [2017-12-01 vie] |   1 | 16hs    |
+| [2017-12-06 mié] |   1 | 13hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -748,6 +750,19 @@ bien animicamente y lo cefaleico se fue, pero el transcurrir de las
 horas termina por aburrirme y cansarme aca abajo tanto el encierro
 como la postura. Pero al menos se limpio lo cefaleico.
 
+** [2017-12-06 mié]
+hoy con el tema levantarse venir a ofi etc, sentirse desgraciado, etc,
+termine con una migraña. Y justo empece a contestar el aviso por wapp
+y me motive y me tome un migral, que limpio el dolor, y me vine, y a
+la vez fantasie con una idea mientras de ser mochilero, o sea de
+vacacionar vagando, y luego comprarme el equipo y ser mochilero, pero
+en el fondo me di cuenta que no lo voy a poder hacer pq no me da el
+cuero para hacer eso pq no soy de esa clase de persona. Pero podria
+empezar por caminar mas e incluso comprarme unas reebok de trekking
+como las que marque para caminar largos trechos y meterle cada vez mas
+cuadras hasta llegar en lo posible a irme caminando los fines de
+semana al marques. Eso seria un buen ejercicio. Incluso con la mochila
+de 40 lts encima puesta para ir preparando el cuerpo a la faena. 
 
 * historial
 ** migrañas
