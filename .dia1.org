@@ -2678,6 +2678,34 @@ Pero como cada zona tiene unas 100 fichas necesitas hacer 5 recibos
 por dia si o si, o sea que 2 ventas por dia hay que hacer. 
 Se podria hacer la promo con seña todo y algunos articulos con cuota.
 eso limpiaria un poco los fraudes.
+*** Cual era el pensamiento imperante antes de esta idea:
+que habia cobradores especializados. Lo cual esta bien para Elva, para
+MOnica, para Pablo, pero el resto no era lo que se llamaba muy
+productivo. Incluso antes un 488, una magali, un CL, un ramiro te
+cobraban en una forma mas automatica si que estos ahora pero ni a
+palos iban a fondo en la zona como se puede ir con un cobrador
+especializado por zona que vaya todos los dias al barrio. Y a nivel
+vendedor tampoco pq terminas contratando a todos pq pensas que no van
+a tocar nada y metes negros que luego terminan siendo improductivos o
+bajo productivos.
+Ahora eso era antes, en la situacion actual de hoy, con tres
+cobradores que provienen del riñon promotoril y son flojitos y la
+lesta, y un ramiro reducido se puede decir que no teniamos nada. O sea
+tenia que tomar cobradores a pata con toda la dificultad y el problema
+que ello representa. 
+De ahi nace la genialidad de mezclar las dos funciones, lo cual
+resulta por un lado en una simplificacion enorme de la cobranza por
+atomizacion, pq al estar dividida la tarea en zonas unicas por persona
+eso hace que sea mas facil gestionar la cobranza (cualquiera te cobra
+5 fichas por dia de promedio, y el riesgo de llevar 1250 de promedio
+por dia es bajo) y de paso vendes dentro de esa misma zona con seña y
+lo cobras al toque pq vas todos los dias. Hay que trabajar
+ordenadamente.
+Y se podria abrir zonas nuevas en caso de que tengamos mas vacantes.
+*** sobre los riesgos de oficina
+tengamos en cuenta que esto nos generara una venta de 24 articulos por
+dia promedio, por 20 dias, son 500 articulos por 900 son 450k de vta,
+o sea es un producido bastante importante. 
 
 *** pros
 **** la zona unica permite facil administracion
@@ -2688,8 +2716,12 @@ cobrado posible ya que tendremos una persona que vaya 20 dias por
 mes. Y no se complicara el tema venta. Y se puede programar el tema
 venta. Si alguien anda mal se lo cambia de zona. 
 **** si alguien falta dificilmente se atrase mucho la cobranza de una zona
-no es lo mismo tener dos zonas o mucha cobranza.
-**** 
+no es lo mismo tener dos zonas o mucha cobranza. Y aparte se puede
+poner al dia. 
+**** queda mas expuesto el que anda mal, pq la zona anda mal
+**** cuando queda vacante una zona ponemos un aviso y buscamos alguien que la cubra
+**** si alguien no anda en una zona lo cambiamos a otra mas chica
+**** si una zona se hace grande la partimos en dos zonas
 *** contras
 **** que le falte zona
-
+*** 
