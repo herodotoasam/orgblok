@@ -180,7 +180,7 @@ embates normales del trabajo.
 | [2017-12-04 lun] |   0 |                              |
 | [2017-12-05 mar] |   2 | 8hs y 14hs                   |
 | [2017-12-06 mié] |   1 | 12.30hs                      |
-|                  |     |                              |
+| [2017-12-07 jue] |   1 | 17hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -228,6 +228,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-11-28 mar] |   1 | 16hs    |
 | [2017-12-01 vie] |   1 | 16hs    |
 | [2017-12-06 mié] |   1 | 13hs    |
+| [2017-12-07 jue] |   1 | 15hs    |
+|                  |     |         |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -770,6 +772,9 @@ Un poco me hizo mal el olor a pintura, me volvi y en casa me siento
 que la cefalea vuelve y me ronda siendo que es dia que ya tome un
 migral y se tendria que dejar de joder por largo rato.
 
+** [2017-12-07 jue]
+tomo migral por el desborde y encima no limpia y es resciliente, creo
+que es el olor a pintura y tomo ibu a la hora sobre el migral
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
