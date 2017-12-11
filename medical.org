@@ -181,6 +181,10 @@ embates normales del trabajo.
 | [2017-12-05 mar] |   2 | 8hs y 14hs                   |
 | [2017-12-06 mié] |   1 | 12.30hs                      |
 | [2017-12-07 jue] |   1 | 17hs                         |
+| [2017-12-08 vie] |     |                              |
+| [2017-12-09 sáb] |   1 |                              |
+| [2017-12-10 dom] |   0 |                              |
+| [2017-12-11 lun] |   1 | 13hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -229,6 +233,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-01 vie] |   1 | 16hs    |
 | [2017-12-06 mié] |   1 | 13hs    |
 | [2017-12-07 jue] |   1 | 15hs    |
+| [2017-12-10 dom] |   1 | 4 am    |
 |                  |     |         |
 
 ** DONE VitC
@@ -775,6 +780,10 @@ migral y se tendria que dejar de joder por largo rato.
 ** [2017-12-07 jue]
 tomo migral por el desborde y encima no limpia y es resciliente, creo
 que es el olor a pintura y tomo ibu a la hora sobre el migral
+
+** [2017-12-10 dom]
+tome uno en plena fiesta y preventivo casi, creo que justificado, pero
+me la banque muy bien eso que habia tomado bastante vino tintillo.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

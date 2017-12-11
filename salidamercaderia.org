@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [33/36]
+** Mercaderia llevada de oficina [34/36]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -97,7 +97,9 @@ cancela el pack que le debia
 *** DONE [2017-11-29 mié] pack toallones
 - State "DONE"       from "TODO"       [2017-11-29 mié 17:10]
 65301
-*** TODO [2017-12-04 lun] pack toallones
+*** DONE [2017-12-04 lun] pack toallones
+- State "DONE"       from "TODO"       [2017-12-11 lun 18:02]
+65396
 *** TODO [2017-12-06 mié] pack toallones
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
@@ -247,7 +249,7 @@ Devuelta
 
 
 vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
-** Dejada por Fede [2017-11-23 jue] [18/23]
+** Dejada por Fede [2017-11-23 jue] [20/23]
 *** DONE pack toallones nauticos
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:42]
 65248
@@ -291,7 +293,9 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE mantel cuerina
 - State "DONE"       from "TODO"       [2017-11-29 mié 17:10]
 65301
-*** TODO  mantel cuerina
+*** DONE mantel cuerina
+- State "DONE"       from "TODO"       [2017-12-11 lun 18:01]
+63595
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-11-23 jue 16:41]
 65242
@@ -305,10 +309,12 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE PB1
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:06]
 65284
+*** DONE PB1
+- State "DONE"       from "TODO"       [2017-12-11 lun 18:01]
+65396
 *** TODO  PB1
 *** TODO  PB1
-*** TODO  PB1
-** Dejada por Fede [2017-11-24 vie] [9/12]
+** Dejada por Fede [2017-11-24 vie] [11/12]
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:02]
 65289
@@ -322,7 +328,9 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE mantel de cuerina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:05]
 65285
-*** TODO mantel de cuerina
+*** DONE mantel de cuerina
+- State "DONE"       from "TODO"       [2017-12-11 lun 18:01]
+63595
 *** DONE PB2
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
 65288
@@ -338,7 +346,9 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE Cubrecamas Indu 2plazas
 - State "DONE"       from "TODO"       [2017-12-05 mar 16:28]
 65388
-*** TODO Cubrecamas Indu 2plazas
+*** DONE Cubrecamas Indu 2plazas
+- State "DONE"       from "TODO"       [2017-12-11 lun 18:02]
+65396
 ** Dejada por Fede [2017-11-27 lun]
 *** DONE cortina turquesa
 - State "DONE"       from "TODO"       [2017-12-05 mar 16:27]
@@ -361,7 +371,8 @@ para cobrar y llevar una sabana, se mudo a guido y europa.
 ** DONE caso Ponce Norma
 - State "DONE"       from "TODO"       [2017-11-22 mié 14:59]
 Sra que quiere que le vea el ancho de la sabana
-
+** TODO devolucion pack toallones
+man 79 casa 2 gigantes pero no puedo establecer bien quien es?
 * Llamados pidiendo mercaderia no pasados a BD
 ** Comptom 5381 Dora ludueña cortinas[2017-09-12 mar]
 ** DONE [2017-09-13 mié] caso Tolosa 737 Maldonado Beatriz
@@ -438,11 +449,13 @@ ofrecera cambio a PB con diferencia de precio al contado
 Lote robado el 3/10/17 en Barrio Patricios 1101
 recuperados ver en la cobranza de ese dia
 
-| [2017-09-22 vie] |   250025 |    63172 |   250 |                                                           |
-| [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo        |
-| [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria                |
-| [2017-09-06 mié] |   247342 |    63221 |    90 | comprobado por Lesta recibo que de 290 pasado aca por 200 |
-| [2017-09-15 vie] |   249668 |    62336 |   120 | comprobado con el cliente                                 |
+| [2017-09-22 vie] |   250025 |    63172 |   250 |                                                               |
+| [2017-09-07 jue] | 230081-2 |    61772 |   100 | dice la sra que pago 600 y el partio en dos el rbo            |
+| [2017-09-15 vie] | 249666/7 | 63220/13 | 90/60 | rbos por 300/200 que son 360/290 en teoria                    |
+| [2017-09-06 mié] |   247342 |    63221 |    90 | comprobado por Lesta recibo que de 290 pasado aca por 200     |
+| [2017-09-15 vie] |   249668 |    62336 |   120 | comprobado con el cliente                                     |
+| [2017-11-07 mar] |   253293 |    63448 |    20 | comprobado visualmente por 768 rinde aca 180 el rbo es de 200 |
+|                  |          |          |       |                                                               |
 
 * bugs a controlar/arreglar
 ** ver si los planes de mas de 7 cuotas salen semanales
