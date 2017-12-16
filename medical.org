@@ -185,6 +185,11 @@ embates normales del trabajo.
 | [2017-12-09 sáb] |   1 |                              |
 | [2017-12-10 dom] |   0 |                              |
 | [2017-12-11 lun] |   1 | 13hs                         |
+| [2017-12-12 mar] |   2 | 16hs-21hs                    |
+| [2017-12-13 mié] |   2 | 10hs/15.30ha                 |
+| [2017-12-14 jue] |   1 | 13.30hs                      |
+| [2017-12-15 vie] |   1 | 12hs                         |
+|                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -234,7 +239,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-06 mié] |   1 | 13hs    |
 | [2017-12-07 jue] |   1 | 15hs    |
 | [2017-12-10 dom] |   1 | 4 am    |
-|                  |     |         |
+| [2017-12-13 mié] |   1 | 16hs    |
+| [2017-12-15 vie] |   1 | 15hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -784,6 +790,26 @@ que es el olor a pintura y tomo ibu a la hora sobre el migral
 ** [2017-12-10 dom]
 tome uno en plena fiesta y preventivo casi, creo que justificado, pero
 me la banque muy bien eso que habia tomado bastante vino tintillo.
+
+** [2017-12-13 mié]
+ayer, anoche y esta mañana estoy en un estado cefaleico mas o menos
+leve, ayer mas acentuado pero con suerte se modero con el ibu, como ha
+pasado otras tardes. He aplicado el concepto de ir con calma y
+dedicarme a fondo a lo que estoy haciendo en ese momento sin
+preocuparme por todo lo pendiente o lo de alrededor, y ha
+funcionado. P.e. ahora por lo pronto en la mañana lo unico que me
+preocupa seria capacitar a las chicas en el trabajo.
+Me pongo cefaleico despues de las 14 pq me agoto con el curso y no
+como en mi casa y me quedo directo.
+y termino con un migral, fue un dia de mierda con respecto a suspender
+el tema de la regularidad alimenticia.
+
+** [2017-12-15 vie]
+hoy estoy cefaleico y lamentablemente tomo migral por una cefaleita de
+morondanga pq ya el migral me gano la batalla sicologica, como me la
+gano netflix, como me la va a ganar la azucar y el gluten. 
+Pero noto que el nerviosismo era por las chicas nuevas, y por la
+mañana agitada con lo que tenia que hacer a nivel bancario.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
