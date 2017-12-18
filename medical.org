@@ -189,7 +189,9 @@ embates normales del trabajo.
 | [2017-12-13 mié] |   2 | 10hs/15.30ha                 |
 | [2017-12-14 jue] |   1 | 13.30hs                      |
 | [2017-12-15 vie] |   1 | 12hs                         |
-|                  |     |                              |
+| [2017-12-16 sáb] |   1 |                              |
+| [2017-12-17 dom] |   2 |                              |
+| [2017-12-18 lun] |   1 | 10.30                        |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -810,6 +812,11 @@ morondanga pq ya el migral me gano la batalla sicologica, como me la
 gano netflix, como me la va a ganar la azucar y el gluten. 
 Pero noto que el nerviosismo era por las chicas nuevas, y por la
 mañana agitada con lo que tenia que hacer a nivel bancario.
+
+** [2017-12-18 lun]
+Felizmente va terminando el año, pero en el fondo se renota que uno
+toma ya sea ibu o algo mas fuerte cuando tiene tensiones inmanejables
+y en el medio esta cefaleico.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
