@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [36/38]
+** Mercaderia llevada de oficina [44/46]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -106,12 +106,32 @@ cancela el pack que le debia
 *** DONE [2017-12-15 vie] pack toallones
 - State "DONE"       from "IMPROV"     [2017-12-15 vie 17:50]
 65403
-*** TODO [2017-12-15 vie] cortina de ambiente
-*** TODO [2017-12-15 vie] cortina de ambiente
-*** TODO [2017-12-15 vie] cortina de ambiente
-*** TODO [2017-12-15 vie] mantel de cuerina
-*** TODO [2017-12-15 vie] mantel de cuerina
+*** DONE [2017-12-15 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:11]
+65407
+*** DONE [2017-12-15 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:11]
+65407
+*** DONE [2017-12-15 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:12]
+65406
+*** DONE [2017-12-15 vie] mantel de cuerina
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:11]
+65407
+*** DONE [2017-12-15 vie] mantel de cuerina
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:13]
+65405
 
+*** DONE [2017-12-18 lun] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:12]
+65406
+*** DONE [2017-12-18 lun] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:12]
+65406
+*** DONE [2017-12-18 lun] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:12]
+65406
+*** TODO [2017-12-18 lun] pack toallones
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -327,7 +347,7 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 65396
 *** TODO  PB1
 *** TODO  PB1
-** Dejada por Fede [2017-11-24 vie] [11/12]
+** Dejada por Fede [2017-11-24 vie] [12/12]
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:02]
 65289
@@ -337,7 +357,9 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 *** DONE cortina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:03]
 65287
-*** TODO cortina
+*** DONE cortina
+- State "DONE"       from "TODO"       [2017-12-19 mar 09:13]
+65406
 *** DONE mantel de cuerina
 - State "DONE"       from "TODO"       [2017-11-27 lun 17:05]
 65285
@@ -449,9 +471,11 @@ SCHEDULED: <2017-10-23 lun>
 - State "DONE"       from "TODO"       [2017-10-27 vie 15:12]
 cambiar sabana azul LH2 
 cambiada por una clarita con hojitas verdes por 154
-** TODO Duarte Mesa y Castro 1378
+** DONE Duarte Mesa y Castro 1378
+- State "DONE"       from "TODO"       [2017-12-18 lun 18:45]
 L&H2 - lleva pagada 3 cuotas al dia, dice a traves de la 755 que las
 va a devolver pq se destiñeron. Creo que da para un cambio  a PB.
+cambiada el dia de la fecha por una violetita. 
 ** TODO Tunuyan 2285
 pago 4 cuotas y no le gusta la sabana y pide que la cambien. Se
 ofrecera cambio a PB con diferencia de precio al contado
@@ -553,3 +577,4 @@ los 17 o veamos.
 * retiro mercaderia
 ** 773
 *** [2017-11-13 lun] 3 sab 1pl PB
+* Cortina Nir $625 a pagar en dos veces
