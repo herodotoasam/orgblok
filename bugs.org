@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [47/70]
+* TODO bugs o improvs fichaje.py [47/71]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -392,3 +392,8 @@ liso en mosconi cosa que no pude sacarlo.
 *** no funciona el totalizar con importes negativos, parecia que funcionaba
 ** TODO  hacer una especie de control facil para ver si los recorridos pasados fueron asentados :tabPasarRecibos:
 pq temo olvidar de pasar un toco y es complejo revisar eso
+** TODO [#A] hacer que el cuadro de buscar sea como antes el fts no sirve!!!!!
+que se pueda buscar parcial por mas que tengamos que respetar el orden
+es mas facil que el tener que escribir la complecion de la palabra
+Y ademas hacer una inteligencia que busque cinco cifras como numero de
+cuenta como el viejo F13

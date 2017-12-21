@@ -192,6 +192,9 @@ embates normales del trabajo.
 | [2017-12-16 sáb] |   1 |                              |
 | [2017-12-17 dom] |   2 |                              |
 | [2017-12-18 lun] |   1 | 10.30                        |
+| [2017-12-19 mar] |   2 | 9 y 14hs                     |
+| [2017-12-20 mié] |   1 | 23hs                         |
+| [2017-12-21 jue] |   1 | 15hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -243,6 +246,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-10 dom] |   1 | 4 am    |
 | [2017-12-13 mié] |   1 | 16hs    |
 | [2017-12-15 vie] |   1 | 15hs    |
+| [2017-12-19 mar] |   1 | 15hs    |
+|                  |     |         |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -817,6 +822,16 @@ mañana agitada con lo que tenia que hacer a nivel bancario.
 Felizmente va terminando el año, pero en el fondo se renota que uno
 toma ya sea ibu o algo mas fuerte cuando tiene tensiones inmanejables
 y en el medio esta cefaleico.
+
+** [2017-12-19 mar]
+vengo cefaleico desde ayer, y muy agotado. hoy fui llegue a las 11
+repose me bañe, comi bien, pero comi un huevo, y el olor a pintura
+tambien hace lo suyo. tome el segundo ibu al pedo tomo un migral
+despues de 96hs del anterior. Ojala se acabe este olor de mierda.
+
+** [2017-12-21 jue]
+anoche tome un ibu medio al vicio creo, y ahora lo tome medio
+preventivo pq el olor a pintura me hace medio bosta.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
