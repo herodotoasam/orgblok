@@ -2789,3 +2789,78 @@ Lo que si conviene es lanzarse al mundo. Con este nuevo horario a
 partir del 6 de enero que puedo manejar yo a discrecion, lanzare una
 nueva investigacion de sargeo. Horarios, lugares, franjas etarias,
 etc. 
+* [2017-12-23 sáb]
+** administracion del tiempo en nuevo esquema
+hasta ahora no tuve nunca tiempos disponibles para la programacion o
+el desarrollo estando descansado y sin otras preocupaciones y sin
+interrupciones.
+Todo el desarrollo fue hecho en 150hs mas o menos. O sea que en un
+ritmo de 5hs diarias que es lo que se puede hacer en un periodo de
+entonacion en un proyecto de ese tipo, lo saco en un mes mas o menos.
+Y no me falta todo el proyecto.
+** perdidas de tiempo en la rutina diaria de trabajo en la oficina
+*** preparacion para ir a trabajar 1hs por dia
+de 8hs a 9hs se pierde totalmente desde que me levanto hasta que
+inicio actividad
+*** dormir mas
+pq me levanto a las 8hs cuando en el campo o en otros momentos me
+levantaba a las 7hs (p.e. patricios). Y es quizas el miedo a tener
+sueño. Pero supongamos que me levanto a las 7 y camino 30min y limpio
+30min y esto antes de las 8hs o 8.15 y a las 12.30 ya hice 4hs del
+trabajo mas lucido con la mente mas despierta, si luego a la tarde me
+baja sueño, o me hecho una siestita, o bien me dedico a cosas menos
+grosas o me voy a dar otra vueltita de 30 minutos y listo. Y a las 22
+o 23 ya me voy a dormir. Y le gane una hora mas importante al dia que
+ahora en la abulia del marasmo lo pierdo (como es la media hora en el
+inodoro)
+Si quisiera podria ir todos los dias al mercado a las 7hs y comprar la
+verdura y carne para comer y ya dejo las compras hechas.
+
+*** ida y vuelta a almorzar  30 minutos minimo
+es el tiempo perdido desde que salgo de oficina me descambio y luego
+me cambio y llego a oficina.
+*** rutinas delegables
+no hablemos de la inconmensurable cantidad de horas perdidas en el año
+en rutinas idiotizantes, totalmente delegables (como probe con CL),
+pero de las cuales no me he podido librar pq lo mismo tengo que estar
+atras.
+*** cumplimiento de horarios
+no solo es el tiempo pasado en la oficina sino el cumplir horario que
+te corta la posibilidad de hacer cualquier otra cosa y hacerla
+bien. Pq p.e. si me aplico al principio de hacer una cosa bien y
+concentrarme en ella, me puedo poner a hacer las cosas de a una. Y
+como parte del trabajo. supongamos que me ponga a acomodar los
+documentos por orden, o a purgarlos, o a subir al seven a todos los
+atrasados, etc asi con cualquier otra cosa, pero sin interrupcion.
+** rutinas que me gustaria tener ahora
+*** gimnasia!!
+quizas me levante 8hs y como no tengo que ir al baño y no tengo que
+desayunar, incluso el licuado puede hacerse a la noche, podria
+comenzar el dia con una gimnasia, o bien salgo a caminar 30 minutos o
+bien hago spining, o bien hago los ejercicios. Tambien estaria bueno
+levantarse a las 7am para hacer eso. 
+*** limpieza del dpto
+tener una rutina de limpieza y compras diaria distribuida para tener
+el dpto impecable y de paso estar mas motivado. Incluso marchar hacia
+la minimalizacion.
+*** minimalizacion
+Como parte de la posibilidad de achicar y acomodar y minimalizar todo,
+pienso que puedo simplificar todo en el dpto, incluso el tema
+cuadernos destinando una rutina de 30 minutos por dia a su pasado en
+forma ordenada.
+el deshacerse de lo que no uso y no voy a usar. Rearmar la cocina con
+un criterio ordenado y uniforme. Acomodar los archivos de la oficina a
+lo necesario y bien ordenado. 
+*** estudio
+como paso a trabajar en un solo ambiente y una sola compu (antes lo
+hacia en tres) debo recuperar el orden general de todo con orgmode y
+emacs. Felizmente entre git y orgmode tengo todo en el punto en que lo
+deje. es cuestion de recuperarlo. Pero al tener una presencia diaria
+unica en un solo lado y continua durante el dia (maquina prendida todo
+el dia) podre aprovechar mejor orgmode, p.e. seguimiento de habit y
+otros registros.
+no se si en principio este cambio de esquema me podra permitir
+estudiar en forma organica algo mas alla de lo que sea necesario para
+los proyectos que encare (p.e. cuando estudie python, emacs etc.)
+O bien la lectura de los libros que emprendi y a cuya relectura me
+dedico ultimamente.
