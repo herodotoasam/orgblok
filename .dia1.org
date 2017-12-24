@@ -1,3 +1,4 @@
+
 Diarios de oficina
 * [2017-03-22 mié]
 ** porque segui asi que diria en analisis
@@ -2542,7 +2543,7 @@ una solucion intermedia entre lo que hago ahora que es ir a la carrera
 y lo que planteaba estos dias o sea hacer que Raul haga una planilla a
 mano y controlar el toco (lo cual no es practico pq el recibo entra
 aca y tendria que volver alla para que lo haga toco) seria:
-hacer una hora de salida innominada sin fecha numerada de dimension
+hacer una hoja de salida innominada sin fecha numerada de dimension
 variable y en una sola hoja para que se pueda imprimir por tandas.
 O sea desde ya que sea una sola hoja no dos como ahora.
 recuadro para fecha y recuadro para nombre de cobrador
@@ -2850,7 +2851,11 @@ cuadernos destinando una rutina de 30 minutos por dia a su pasado en
 forma ordenada.
 el deshacerse de lo que no uso y no voy a usar. Rearmar la cocina con
 un criterio ordenado y uniforme. Acomodar los archivos de la oficina a
-lo necesario y bien ordenado. 
+lo necesario y bien ordenado.
+***** cuadernos
+los cuadernos son parte de mi historia y tienen una informacion muy
+importante, pero no deben estar asi como estan, por eso creo que media
+hora por dia para pasarlos estaria bien 
 *** estudio
 como paso a trabajar en un solo ambiente y una sola compu (antes lo
 hacia en tres) debo recuperar el orden general de todo con orgmode y
@@ -2864,3 +2869,64 @@ estudiar en forma organica algo mas alla de lo que sea necesario para
 los proyectos que encare (p.e. cuando estudie python, emacs etc.)
 O bien la lectura de los libros que emprendi y a cuya relectura me
 dedico ultimamente.
+* [2017-12-24 dom]
+** base fundamental del cambio
+el cambio es posible como dije en un cuaderno desde el habito que se
+realiza ahora.
+el creer que "algun dia haremos esto o aquello" aun en la forma de
+procesos o rutinas o planes es una falacia muy comun que causa la
+ruina. (como la persona que cree que algun dia va a hacer dieta o a
+dejar de fumar, y en realidad quizas no tenga el tiempo ni la
+posibilidad de hacer ninguna de las dos cosas). Y yo creo que podre
+algun dia hacer el ejercicio o salir a buscar a alguien y llegara el
+dia que me convencere que ya no puedo hacerlo si es que ese dia no ha
+llegado ya.
+Como contraejemplo tengo la dieta sin gluten y sin azucar que llevo a
+rajatabla desde hace casi un mes. En cierta forma ha sido un cambio
+brutal de dieta que me ha llevado a evitar el consumo de azucar
+(gaseosas, helado, golosinas, azucar agregada pe mate, excesos en
+miel, pasas de uva, frutas dulces y obviamente todos los azucares que
+van con los panificados que se evitaron con la restriccion de gluten)
+y evitar el consumo de gluten (pan, facturas, galletas!!!, tortas,
+fideos, pizzas). Y en realidad no he tenido gran problema en cumplir
+con el esquema incluso pasando la fiesta de fin de año (donde evite
+gaseosa, y toda clase de bocadillos y comi fiambres y el plato
+principal) y los fines de semana (donde tomo mate amargo y safo con
+las galletas de arroz y el queso fresco).
+Es un cambio brutal de dieta. Un cambio que hizo que en solo 40 dias
+bajara 4kg y en general se notara mas en las areas mas comprometidas.
+Pero lo mas importante es que levanto el nivel de energia y el nivel
+de animo.
+Y ya sea la dieta o bien la toma de 10 dias de agua de lino me saco un
+dolor cronico a nivel 10 que tenia de espalda, casi incapacitante.
+Ese dolor que era sumamente preocupante y no podia mitigarlo con nada,
+incluso habia buscado unos ejercicios de espalda dorsal, que intente
+hacer una o dos veces, practicamente desaparecio. Hasta el punto de
+hacerme pensar en la rareza de que porque habria ido a consultar a una
+traumatologa por la columna. No tome diclo, el consumo de ibu
+permanecio igual incluso en esos dias puede que haya disminuido y el
+dolor se fue. Quedara la duda que fue o bien la interrupcion del
+gluten en sus primeros diez o quince dias o bien fue la toma del lino.
+(Tambien hay que notar que pase 21 dias sin ver netflix sentado de
+frente al tele como acostumbraba por dos o tres horas por dia)
+Como sea esta dieta, la ejecucion de esta dieta me da la esperanza que
+se puede cambiar hacia lo xt. Pq si uno puede cambiar la dieta en
+forma tan extrema y modificar todo su metabolismo, creo que se podria
+potenciarlo con el ejercicio y a la vez mejorar la dieta.
+P.e. con solo levantarse temprano como dije a las 7 o 7.30 y salir ahi
+mismo sin desayunar ni nada y caminar media hora a ritmo rapido ya
+tenemos un nivel de caminata diaria que no teniamos antes. Y si puedo
+combinar esa caminata con una mejor compra de viveres para la dieta
+entonces no me faltaran elementos a la comida. 
+** la clave el control
+las planillas: saber exactamente lo que se hace y cuando y cuanto.
+en un proceso de uno mismo saber que esta cambiando y no se engaña
+creo que tendria que tener esa planilla.
+** plan B oficina de captacion
+como plan B en caso de que Fede no sirva para captar se me ocurrio el
+alquilar una oficina para estar yo y alli hacer entrevistas y dar
+cursos, y luego derivar al local. Obvio que eso me daria muchas
+posibilidades pq tendria la entrada de toda la gente a un costo bajo
+en plata y tiempo, pero me quitaria la chance de hacer el plan xt full
+que pienso hacer ahora. Pq sus interrupciones tendria. Lo mismo lo
+tengamos como plan B por ahora.
