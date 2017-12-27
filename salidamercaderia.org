@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [46/56]
+** Mercaderia llevada de oficina [51/57]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -137,15 +137,26 @@ cancela el pack que le debia
 *** DONE [2017-12-20 mié] PB2
 - State "DONE"       from "TODO"       [2017-12-22 vie 15:43]
 65559
-*** TODO [2017-12-20 mié] PB2
+*** DONE [2017-12-20 mié] PB2
+- State "DONE"       from "TODO"       [2017-12-27 mié 15:19]
+65577
+*** DONE [2017-12-22 vie] mantel de cuerina
+- State "DONE"       from "TODO"       [2017-12-27 mié 15:19]
+65578
+*** DONE [2017-12-22 vie] mantel de cuerina
+- State "DONE"       from "TODO"       [2017-12-27 mié 15:20]
+65576
 *** TODO  [2017-12-22 vie] mantel de cuerina
-*** TODO  [2017-12-22 vie] mantel de cuerina
-*** TODO  [2017-12-22 vie] mantel de cuerina
-*** TODO  [2017-12-22 vie] cortina de ambiente
-*** TODO  [2017-12-22 vie] cortina de ambiente
+*** DONE [2017-12-22 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-27 mié 15:21]
+65574
+*** DONE [2017-12-22 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2017-12-27 mié 15:21]
+65574
 *** TODO  [2017-12-22 vie] cortina de ambiente
 *** TODO  [2017-12-22 vie] cortina de ambiente
 *** TODO  [2017-12-22 vie] cortina de cocina
+*** BUG [2017-12-27 mié] pack toallones 65575 no lo tengo como salido
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]

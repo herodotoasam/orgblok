@@ -196,6 +196,10 @@ embates normales del trabajo.
 | [2017-12-20 mié] |   1 | 23hs                         |
 | [2017-12-21 jue] |   2 | 15hs-tarde                   |
 | [2017-12-22 vie] |   1 | 15hs                         |
+| [2017-12-23 sáb] |   1 |                              |
+| [2017-12-24 dom] |   1 |                              |
+| [2017-12-25 lun] |   1 |                              |
+| [2017-12-26 mar] |   1 | 11hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -844,6 +848,14 @@ hoy pase un poco de calor en la mañana y perdi tiempo viniendo al
 centro por causa de la monica y no pude reposar bastante
 tuve que tomar un migral pq no tuve paciencia en esperar el ibu y es
 un dia agitado por ser el cierre del año, y eso me lleva a tomar el migral
+
+** [2017-12-26 mar]
+todo este finde navideño incluido tomar vino tinto dos veces, lo pase
+sin migral y eso que animicamente no estuve del todo bien. Y no pude
+comer todo lo que necesito. Esta bien que la salida de la dieta fue
+minima. Solo el postre breve el 24 y la ensalada de fruta el 25 que
+tenia azucar y un poco de rusa con mayonesa. El pollo que es carne no
+me gusto y me cayo mal.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

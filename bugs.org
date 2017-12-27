@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [47/71]
+* TODO bugs o improvs fichaje.py [47/73]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -397,3 +397,5 @@ que se pueda buscar parcial por mas que tengamos que respetar el orden
 es mas facil que el tener que escribir la complecion de la palabra
 Y ademas hacer una inteligencia que busque cinco cifras como numero de
 cuenta como el viejo F13
+** TODO  sacar que se ponga solo el numero de lote en forma automatica
+** TODO  boton de impresion rapida al pasado de un pedido 
