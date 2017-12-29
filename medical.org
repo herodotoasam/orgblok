@@ -200,6 +200,9 @@ embates normales del trabajo.
 | [2017-12-24 dom] |   1 |                              |
 | [2017-12-25 lun] |   1 |                              |
 | [2017-12-26 mar] |   1 | 11hs                         |
+| [2017-12-27 mié] |   0 |                              |
+| [2017-12-28 jue] |   1 | 11hs                         |
+| [2017-12-29 vie] |   2 | 13hs/14.45hs                 |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -253,8 +256,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-15 vie] |   1 | 15hs    |
 | [2017-12-19 mar] |   1 | 15hs    |
 | [2017-12-22 vie] |   1 | 15.30hs |
-| [2017-12-23 sáb] |   0 |         |
-|                  |     |         |
+| [2017-12-28 jue] |   1 | 15.30hs |
+| [2017-12-29 vie] |   1 | 16hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -856,6 +859,19 @@ comer todo lo que necesito. Esta bien que la salida de la dieta fue
 minima. Solo el postre breve el 24 y la ensalada de fruta el 25 que
 tenia azucar y un poco de rusa con mayonesa. El pollo que es carne no
 me gusto y me cayo mal.
+
+** [2017-12-28 jue]
+hoy luego del dia de ayer que enfrente cansancio inusual y luego del
+llamado del Fede en donde acomodamos lo que vamos a hacer y hoy que
+pienso que va a haber estres, creo que caigo en un estado cefaleico
+que el ibu no lo paro a pesar de que lo tome hace 4.30hs. 
+
+** [2017-12-29 vie]
+sin saber porque se desencadeno  una cefalea fuerte que necesito
+migral a pesar que no llevo 24hs del ultimo y tuve que tomar.
+No estoy nervioso, al menos por fuera, salvo que la cami se va mañana
+y las cosas con ih no estan claras pero al menos se alivio un poco el
+frente aca en la oficina.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

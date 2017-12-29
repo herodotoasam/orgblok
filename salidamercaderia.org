@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [51/57]
+** Mercaderia llevada de oficina [51/58]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -157,6 +157,8 @@ cancela el pack que le debia
 *** TODO  [2017-12-22 vie] cortina de ambiente
 *** TODO  [2017-12-22 vie] cortina de cocina
 *** BUG [2017-12-27 mié] pack toallones 65575 no lo tengo como salido
+*** TODO [2017-12-28 jue] cortina de ambiente
+*** TODO [2017-12-28 jue] cortina de cocina
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
