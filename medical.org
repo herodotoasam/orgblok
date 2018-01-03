@@ -203,6 +203,11 @@ embates normales del trabajo.
 | [2017-12-27 mié] |   0 |                              |
 | [2017-12-28 jue] |   1 | 11hs                         |
 | [2017-12-29 vie] |   2 | 13hs/14.45hs                 |
+| [2017-12-30 sáb] |   1 |                              |
+| [2017-12-31 dom] |   2 |                              |
+| [2018-01-01 lun] |   1 |                              |
+| [2018-01-02 mar] |   2 |    9hs y 22hs                |
+| [2018-01-03 mié] |   1 | 9hs                          |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -258,6 +263,8 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-22 vie] |   1 | 15.30hs |
 | [2017-12-28 jue] |   1 | 15.30hs |
 | [2017-12-29 vie] |   1 | 16hs    |
+| [2018-01-02 mar] |   1 | 23.30hs |
+|                  |     |         |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -872,6 +879,13 @@ migral a pesar que no llevo 24hs del ultimo y tuve que tomar.
 No estoy nervioso, al menos por fuera, salvo que la cami se va mañana
 y las cosas con ih no estan claras pero al menos se alivio un poco el
 frente aca en la oficina.
+
+** [2018-01-03 mié]
+ayer el primero que me tomo antes de ir a dormir, y si descubro algo
+que se ha repetido muchas veces, y es que el segundo ibu cuando el
+dolor esta declarado y vamos rumbo a un migral o antes ibamos rumbo a
+un nar es al pedo, no sirve de nada y recarga el estomago y el higado
+pq lo mismo uno se va a tomar lo otro.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
