@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [47/73]
+* TODO bugs o improvs fichaje.py [48/74]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -399,3 +399,17 @@ Y ademas hacer una inteligencia que busque cinco cifras como numero de
 cuenta como el viejo F13
 ** TODO  sacar que se ponga solo el numero de lote en forma automatica
 ** TODO  boton de impresion rapida al pasado de un pedido 
+** DONE hacer planilla unificada de salida de recibos
+- State "DONE"       from "TODO"       [2018-01-04 jue 17:29]
+CLOCK: [2018-01-04 jue 16:30]--[2018-01-04 jue 17:29] =>  0:59
+En vez de la idea original que habia tenido de hacer planillas
+genericas e imprimir varias usables para el que sea, idea que descarto
+pq me parece que no sirve, pq va a causar otro problema y es que
+tendre que controlar las planillas dadas a este muchacho y eso sera
+perder un control que tengo y es de los recibos. Aparte se hara mucho
+lio con la cantidad que yo mismo voy regulando segun el tipo de dia y
+de cobrador. Hasta regulo el tipo de atomizacion de recibos segun el
+cobrador.
+Pero gastamos dos hojas, generamos dos hojas y es al vicio, y de paso
+aparte de unificar todo en una misma planilla le agregue una grila
+para los articulos.
