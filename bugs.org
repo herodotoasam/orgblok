@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [48/74]
+* TODO bugs o improvs fichaje.py [50/74]
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -385,8 +385,19 @@ tree por cobrador ultimos dos años abre tree fecha desc total cobrado,
 cnt rbos, zona con funcion mas. 
 Esto responderia la pregunta de hoy de saber como le habia ido a coco
 liso en mosconi cosa que no pude sacarlo.
-** TODO poner pmovto en tbs muestra recibos pagados        :tabPasarRecibos:
-** TODO hacer editable pmovto y PMOVTO                     :tabPasarRecibos:
+** DONE poner pmovto en tbs muestra recibos pagados        :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2018-01-05 vie 15:26]
+se puede ver ahora por un golpe de vista que pmovto tiene y si es
+pertinente que haya tirado la ficha y/o conservado la ficha.
+** DONE hacer editable pmovto y PMOVTO                     :tabPasarRecibos:
+- State "DONE"       from "TODO"       [2018-01-05 vie 15:23]
+hice editable solamente el pmovto para que el PMOVTO (que es el pmovto
+de clientes se edite solo via triggers sino estaria interviniendo
+malamente). Agregue un botoncito edit al lado pq sino para que sea
+automatico tendria que grabar cada cambio de fecha, un desproposito,
+cuando edito la fecha se actualiza igual que si fuera a hacerlo en
+forma manual, si el cliente tiene dos cuentas se tendran que
+actualizar ambas por separado.
 ** TODO pasar asientos                                             :tabCaja:
 *** orden de campo id 
 *** no funciona el totalizar con importes negativos, parecia que funcionaba
