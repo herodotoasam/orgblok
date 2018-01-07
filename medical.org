@@ -237,7 +237,8 @@ embates normales del trabajo.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
-SCHEDULED: <2017-11-30 jue .+1w>
+SCHEDULED: <2018-01-12 vie .+1w>
+- State "DONE"       from "TODO"       [2018-01-05 vie 21:20]
 - State "DONE"       from "TODO"       [2017-11-23 jue 09:47]
 - State "DONE"       from "TODO"       [2017-11-09 jue 09:13]
 - State "DONE"       from "TODO"       [2017-11-02 jue 21:23]
@@ -248,7 +249,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2017-11-23 jue 18:47]
+:LAST_REPEAT: [2018-01-05 vie 21:20]
 :END:
 ** migral
 | Fecha            | cnt | hora    |
