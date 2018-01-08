@@ -1,0 +1,14 @@
+* TODO documentos
+** TODO traer todos los documentos a dpto
+** TODO acomodarlos por numero y blocarlos
+** TODO traer todos los documentos pedidos
+** TODO purgar documentos viejos de oficina
+se podria ver los no devolvibles y llevarlos a un block especial en el
+dpto un año mas.
+
+
+* TODO vencimientos
+
+** TODO hacer agenda org de vencimientos
+** TODO hacer bibliorato con comprobantes abrochados
+

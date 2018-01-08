@@ -1,0 +1,23 @@
+* tarjetas
+** ih paga 8250
+*** Fede 3000
+2 tarjetas 1050 y 2 niños 900 son 3000 se descuenta directo de retiro
+fede.
+*** Romi 2100
+dos tarjetas adulto que pago yo e ih se encarga de cobrarle y engrosa
+el saldo que hay en marques
+*** nosotros 3150
+tres tarjetas pq pagamos la de la Carla
+
+* Fondo marques
+| saldo inicial recuperado ospe |  5000 |
+| recuperar por tarjetas        |  2100 |
+|-------------------------------+-------|
+| subtotal                      |  7100 |
+| expensas pagadas por romina   |  -757 |
+|-------------------------------+-------|
+| subtotal                      |  6343 |
+| hormiguitas de jardin         | -1500 |
+|-------------------------------+-------|
+| subtotal                      |  4843 |
+|                               |       |
