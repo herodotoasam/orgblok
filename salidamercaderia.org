@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [51/58]
+** Mercaderia llevada de oficina [55/64]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -146,19 +146,32 @@ cancela el pack que le debia
 *** DONE [2017-12-22 vie] mantel de cuerina
 - State "DONE"       from "TODO"       [2017-12-27 mié 15:20]
 65576
-*** TODO  [2017-12-22 vie] mantel de cuerina
+*** DONE [2017-12-22 vie] mantel de cuerina
+- State "DONE"       from "TODO"       [2018-01-08 lun 16:45]
+64547
 *** DONE [2017-12-22 vie] cortina de ambiente
 - State "DONE"       from "TODO"       [2017-12-27 mié 15:21]
 65574
 *** DONE [2017-12-22 vie] cortina de ambiente
 - State "DONE"       from "TODO"       [2017-12-27 mié 15:21]
 65574
-*** TODO  [2017-12-22 vie] cortina de ambiente
-*** TODO  [2017-12-22 vie] cortina de ambiente
+*** DONE [2017-12-22 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2018-01-08 lun 16:45]
+65647
+*** DONE [2017-12-22 vie] cortina de ambiente
+- State "DONE"       from "TODO"       [2018-01-08 lun 16:45]
+65647
 *** TODO  [2017-12-22 vie] cortina de cocina
 *** BUG [2017-12-27 mié] pack toallones 65575 no lo tengo como salido
+*** DONE [2017-12-28 jue] cortina de ambiente
+- State "DONE"       from "TODO"       [2018-01-08 lun 16:46]
+65647
 *** TODO [2017-12-28 jue] cortina de ambiente
-*** TODO [2017-12-28 jue] cortina de ambiente
+*** TODO [2018-01-05 vie] pack de toallones
+*** TODO [2018-01-05 vie] pack de toallones
+*** TODO [2018-01-05 vie] pack de toallones
+*** TODO [2018-01-05 vie] manteles
+*** TODO [2018-01-05 vie] manteles
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -508,6 +521,9 @@ cambiada el dia de la fecha por una violetita.
 ** TODO Tunuyan 2285
 pago 4 cuotas y no le gusta la sabana y pide que la cambien. Se
 ofrecera cambio a PB con diferencia de precio al contado
+** TODO Tridentina 1865
+L&H 2 destiño le dijo a 792 pero pago cuota 3 y cuota 1 de una
+cortina, no se hablo de nada.
 * Devoluciones normales 
 | [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
 |                  |       |                |      |     |           |        |     |       |              |

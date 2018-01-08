@@ -210,7 +210,9 @@ embates normales del trabajo.
 | [2018-01-03 mié] |   1 | 9hs                          |
 | [2018-01-04 jue] |   1 | 13hs                         |
 | [2018-01-05 vie] |   1 | 10hs                         |
-|                  |     |                              |
+| [2018-01-06 sáb] |   1 |                              |
+| [2018-01-07 dom] |   1 |                              |
+| [2018-01-08 lun] |   1 |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -267,6 +269,7 @@ SCHEDULED: <2017-11-30 jue .+1w>
 | [2017-12-28 jue] |   1 | 15.30hs |
 | [2017-12-29 vie] |   1 | 16hs    |
 | [2018-01-02 mar] |   1 | 23.30hs |
+| [2018-01-07 dom] |   1 | 22hs    |
 |                  |     |         |
 
 ** DONE VitC
@@ -889,6 +892,18 @@ que se ha repetido muchas veces, y es que el segundo ibu cuando el
 dolor esta declarado y vamos rumbo a un migral o antes ibamos rumbo a
 un nar es al pedo, no sirve de nada y recarga el estomago y el higado
 pq lo mismo uno se va a tomar lo otro.
+
+** [2018-01-07 dom]
+venia bien con un ibu por dia, pero el domingo me mato la tension, la
+ida al aeropuerto bien, pq a pesar del planton, el hecho que hubiera
+aterrizado ahi mismo el avion fue todo joya, pero luego la tension del
+quilombo, y muchisimo mas la tension que no salia la Cami, y luego la
+tension de la cabina del estacionamiento y luego la tension de la casa
+con la explosion de la Cami...
+Y estando afuera charlando con el Fede y eso que ya se habia
+distendido el tema con la Cami, me empezo una migraña que parecia
+bomba y me tome un migral, y como la comida estaba ahi al toque se
+aborto enseguida.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
