@@ -213,6 +213,8 @@ embates normales del trabajo.
 | [2018-01-06 sáb] |   1 |                              |
 | [2018-01-07 dom] |   1 |                              |
 | [2018-01-08 lun] |   1 |                              |
+| [2018-01-09 mar] |   2 |                              |
+| [2018-01-10 mié] |   2 | 10hs y 19hs                  |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -905,6 +907,14 @@ Y estando afuera charlando con el Fede y eso que ya se habia
 distendido el tema con la Cami, me empezo una migraña que parecia
 bomba y me tome un migral, y como la comida estaba ahi al toque se
 aborto enseguida.
+
+** [2018-01-10 mié]
+ayer y hoy he estado cefaleico y felizmente pude safar con un segundo
+ibu en casa. Hoy mande a lesta a comprar una caja a las 10hs y ahi
+mismo me tome cuando me empezaba a joder en la oficina y luego se me
+paso bien, y recien ahora luego de una densa siesta  de asadito de
+bocado y no saber si iba a hacer algo productivo a la tarde safe y
+recien tome hace un rato.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

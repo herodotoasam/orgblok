@@ -121,9 +121,10 @@ buscar
 			`ls -d /usr/lib64 2>/dev/null` \
 			`ls -d /usr/lib/tcl8.6 2>/dev/null` \
 2497                `ls -d /usr/lib/tcl8.5 2>/dev/null` \
-			`ls -d /usr/lib/tk8.6 2>/dev/null` \   <============ agregado por mi!!!!!!!!!!!!!
+			`ls -d /usr/lib/tk8.6 2>/dev/null` \   <============ agregado por mi!!!!!!!!!!!!! ojo incluye tambien la barra invertida
 #+END_EXAMPLE
 tambien en linea 3584 
+en ambas lineas hay que hacer el agregado en 2497 y 3584 de `ls -d /usr/lib/tk8.6 2>/dev/null` \
 ** pdf4tcl/tablelist
 ultimo tablelist de nemethi
 
