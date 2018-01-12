@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [55/64]
+** Mercaderia llevada de oficina [63/69]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -161,17 +161,39 @@ cancela el pack que le debia
 *** DONE [2017-12-22 vie] cortina de ambiente
 - State "DONE"       from "TODO"       [2018-01-08 lun 16:45]
 65647
-*** TODO  [2017-12-22 vie] cortina de cocina
+*** DONE [2017-12-22 vie] cortina de cocina
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:37]
+65651
 *** BUG [2017-12-27 mié] pack toallones 65575 no lo tengo como salido
 *** DONE [2017-12-28 jue] cortina de ambiente
 - State "DONE"       from "TODO"       [2018-01-08 lun 16:46]
 65647
 *** TODO [2017-12-28 jue] cortina de ambiente
-*** TODO [2018-01-05 vie] pack de toallones
-*** TODO [2018-01-05 vie] pack de toallones
-*** TODO [2018-01-05 vie] pack de toallones
-*** TODO [2018-01-05 vie] manteles
-*** TODO [2018-01-05 vie] manteles
+*** DONE [2018-01-05 vie] pack de toallones
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:37]
+65651
+*** DONE [2018-01-05 vie] pack de toallones
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:37]
+65650
+
+*** DONE [2018-01-05 vie] pack de toallones
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:38]
+65648
+*** DONE [2018-01-05 vie] manteles
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:37]
+65650
+*** DONE [2018-01-05 vie] manteles
+- State "DONE"       from "TODO"       [2018-01-11 jue 09:38]
+65649
+*** DONE [2018-01-10 mié] pack toallones 
+- State "DONE"       from "TODO"       [2018-01-12 vie 12:03]
+65660
+*** TODO [2018-01-10 mié] pack toallones 
+*** DONE [2018-01-10 mié] cubrecamas indu 2plazas
+- State "DONE"       from "TODO"       [2018-01-12 vie 12:03]
+65659
+*** TODO [2018-01-10 mié] cubrecamas indu 2plazas
+*** TODO [2018-01-10 mié] piñata frozen
 ** Dejada por Fede [2017-09-18 lun] [22/22]
 **** DONE pack nautico
 - State "DONE"       from "TODO"       [2017-09-25 lun 11:44]
@@ -449,7 +471,8 @@ para cobrar y llevar una sabana, se mudo a guido y europa.
 - State "DONE"       from "TODO"       [2017-11-22 mié 14:59]
 Sra que quiere que le vea el ancho de la sabana
 ** TODO devolucion pack toallones
-man 79 casa 2 gigantes pero no puedo establecer bien quien es?
+man 79 casa 2 gigantes pero no puedo establecer bien quien es? es mna
+82 casa 9
 * Llamados pidiendo mercaderia no pasados a BD
 ** Comptom 5381 Dora ludueña cortinas[2017-09-12 mar]
 ** DONE [2017-09-13 mié] caso Tolosa 737 Maldonado Beatriz
