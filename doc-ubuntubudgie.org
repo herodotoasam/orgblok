@@ -42,7 +42,9 @@ agregar monitor del sistema
 6. zathura
 ** syncronizar marcadores con firefox hfj024/ataraxia76
 ** crear clave ssh con gitlab para hacer el git clone sin contraseña
-
+* solucion audio Xubuntu
+alsamixer F6 elegir HD-Audio Generic
+irse a la derecha a Auto-Mute poner [Disabled]
 
 * Emacs
 copiar .emacs desde ../orblok
