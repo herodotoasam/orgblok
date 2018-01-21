@@ -215,6 +215,11 @@ embates normales del trabajo.
 | [2018-01-08 lun] |   1 |                              |
 | [2018-01-09 mar] |   2 |                              |
 | [2018-01-10 mié] |   2 | 10hs y 19hs                  |
+| [2018-01-11 jue] |   1 |                              |
+| [2018-01-12 vie] |   1 |                              |
+| [2018-01-13 sáb] |   1 |                              |
+| [2018-01-14 dom] |   2 |                              |
+| [2018-01-15 lun] |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -273,6 +278,7 @@ SCHEDULED: <2018-01-12 vie .+1w>
 | [2017-12-29 vie] |   1 | 16hs    |
 | [2018-01-02 mar] |   1 | 23.30hs |
 | [2018-01-07 dom] |   1 | 22hs    |
+| [2018-01-19 vie] |   1 | 2 am    |
 |                  |     |         |
 
 ** DONE VitC
@@ -915,6 +921,13 @@ mismo me tome cuando me empezaba a joder en la oficina y luego se me
 paso bien, y recien ahora luego de una densa siesta  de asadito de
 bocado y no saber si iba a hacer algo productivo a la tarde safe y
 recien tome hace un rato.
+
+** [2018-01-14 dom]
+anoche siendo que venia de un mal fin de semana y ya venia con dos
+ibus y estaba al limite y habia tenido mucho de netflix y me fui a
+dormir con 1.5 clonagin y me dije mejor si viene la alta migraña asi
+me tomo el migral y al final me dormi y desaparecio todo, se esfumo.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
