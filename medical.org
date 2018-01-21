@@ -219,7 +219,13 @@ embates normales del trabajo.
 | [2018-01-12 vie] |   1 |                              |
 | [2018-01-13 sáb] |   1 |                              |
 | [2018-01-14 dom] |   2 |                              |
-| [2018-01-15 lun] |     |                              |
+| [2018-01-15 lun] |   0 |                              |
+| [2018-01-16 mar] |   0 |                              |
+| [2018-01-17 mié] |   0 |                              |
+| [2018-01-18 jue] |   0 |                              |
+| [2018-01-19 vie] |   0 |                              |
+| [2018-01-20 sáb] |   0 |                              |
+| [2018-01-21 dom] |   0 |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -246,7 +252,8 @@ embates normales del trabajo.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
-SCHEDULED: <2018-01-12 vie .+1w>
+SCHEDULED: <2018-01-28 dom .+1w>
+- State "DONE"       from "TODO"       [2018-01-21 dom 12:12]
 - State "DONE"       from "TODO"       [2018-01-05 vie 21:20]
 - State "DONE"       from "TODO"       [2017-11-23 jue 09:47]
 - State "DONE"       from "TODO"       [2017-11-09 jue 09:13]
@@ -258,7 +265,7 @@ SCHEDULED: <2018-01-12 vie .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2018-01-05 vie 21:20]
+:LAST_REPEAT: [2018-01-21 dom 17:12]
 :END:
 ** migral
 | Fecha            | cnt | hora    |
@@ -279,7 +286,7 @@ SCHEDULED: <2018-01-12 vie .+1w>
 | [2018-01-02 mar] |   1 | 23.30hs |
 | [2018-01-07 dom] |   1 | 22hs    |
 | [2018-01-19 vie] |   1 | 2 am    |
-|                  |     |         |
+| [2018-01-20 sáb] |   1 | 15hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -927,6 +934,23 @@ anoche siendo que venia de un mal fin de semana y ya venia con dos
 ibus y estaba al limite y habia tenido mucho de netflix y me fui a
 dormir con 1.5 clonagin y me dije mejor si viene la alta migraña asi
 me tomo el migral y al final me dormi y desaparecio todo, se esfumo.
+
+** [2018-01-19 vie]
+tire sin ibus de lunes a viernes y cai con migral en la madrugada del
+viernes a 2 am potenciado por la responsabilidad-presion de aviso que
+al final termino siendo una mierda pq no vino sino solo uno.
+Pero la noche anterior es una presion, no tuve cefaleico esos cuatro
+dias a pesar de todas las presiones personales que tuve, y recien
+cuando se "destapo la olla o se hizo publico que yo estaba en nirvana,
+cosa que hasta ese momento solo lo sabia yo solo" caigo en migraña el
+viernes 2 am y luego el sabado a las 15hs
+
+** [2018-01-20 sáb]
+como adelante el sabado a pesar de mantenerme en mi postura sufre
+muchos embates y nervios y a las 15hs luego de almorzar y acostarme
+una siesta sufri una migraña y me tome un migral que no sirvio y me
+salvo que me fui a la oficina con fede y tuve con el hasta las 20.30hs
+casi.
 
 * historial
 ** migrañas
