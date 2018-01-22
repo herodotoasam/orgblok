@@ -226,6 +226,7 @@ embates normales del trabajo.
 | [2018-01-19 vie] |   0 |                              |
 | [2018-01-20 sáb] |   0 |                              |
 | [2018-01-21 dom] |   0 |                              |
+| [2018-01-22 lun] |   1 | 10hs                         |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -287,6 +288,7 @@ SCHEDULED: <2018-01-28 dom .+1w>
 | [2018-01-07 dom] |   1 | 22hs    |
 | [2018-01-19 vie] |   1 | 2 am    |
 | [2018-01-20 sáb] |   1 | 15hs    |
+| [2018-01-22 lun] |   1 | 19hs    |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -952,6 +954,19 @@ una siesta sufri una migraña y me tome un migral que no sirvio y me
 salvo que me fui a la oficina con fede y tuve con el hasta las 20.30hs
 casi.
 
+** [2018-01-22 lun]
+mal dia hoy para la cefalea, empece mal el dia pensando que no tenia
+migral y me tome un ibu en oficina que me mejoro, y trabaje con gusto
+en la oficina hasta las 16hs almorzando alla.
+Luego me fui a poner el aviso y a comprar la camara y luego al volver
+no se que mal emocionalmente me puse la cosa que al llegar a casa ya
+estaba mal, y a pesar de la labor cumplida con creses cedi a la toma
+del migral. Luego de un capitulo y medio de netflix, y volviendo un
+poco la cefalea, me decidi urgente a cambiarme y salir a comprar un
+par de cosas que necesitaba con dos salidas cosa de caminar y tomar
+aire, y eso me despejo, aunque utilitariamente y no solo por placer pq
+no lo haria. Y ya me canse, me faltaba ir a comprar fruta pero mejor
+no pq no es buen dia hoy para eso, mejor mañana en el mercado. 
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
