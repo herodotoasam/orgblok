@@ -227,6 +227,9 @@ embates normales del trabajo.
 | [2018-01-20 sáb] |   0 |                              |
 | [2018-01-21 dom] |   0 |                              |
 | [2018-01-22 lun] |   1 | 10hs                         |
+| [2018-01-23 mar] |   1 |                              |
+| [2018-01-24 mié] |   1 |                              |
+| [2018-01-25 jue] |   1 |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -269,26 +272,28 @@ SCHEDULED: <2018-01-28 dom .+1w>
 :LAST_REPEAT: [2018-01-21 dom 17:12]
 :END:
 ** migral
-| Fecha            | cnt | hora    |
-| [2017-11-20 lun] |   1 | 20.23hs |
-| [2017-11-25 sáb] |   1 | 12hs    |
-| [2017-11-27 lun] |   1 | 01am    |
-| [2017-11-28 mar] |   1 | 16hs    |
-| [2017-12-01 vie] |   1 | 16hs    |
-| [2017-12-06 mié] |   1 | 13hs    |
-| [2017-12-07 jue] |   1 | 15hs    |
-| [2017-12-10 dom] |   1 | 4 am    |
-| [2017-12-13 mié] |   1 | 16hs    |
-| [2017-12-15 vie] |   1 | 15hs    |
-| [2017-12-19 mar] |   1 | 15hs    |
-| [2017-12-22 vie] |   1 | 15.30hs |
-| [2017-12-28 jue] |   1 | 15.30hs |
-| [2017-12-29 vie] |   1 | 16hs    |
-| [2018-01-02 mar] |   1 | 23.30hs |
-| [2018-01-07 dom] |   1 | 22hs    |
-| [2018-01-19 vie] |   1 | 2 am    |
-| [2018-01-20 sáb] |   1 | 15hs    |
-| [2018-01-22 lun] |   1 | 19hs    |
+| Fecha            | cnt | hora      |
+| [2017-11-20 lun] |   1 | 20.23hs   |
+| [2017-11-25 sáb] |   1 | 12hs      |
+| [2017-11-27 lun] |   1 | 01am      |
+| [2017-11-28 mar] |   1 | 16hs      |
+| [2017-12-01 vie] |   1 | 16hs      |
+| [2017-12-06 mié] |   1 | 13hs      |
+| [2017-12-07 jue] |   1 | 15hs      |
+| [2017-12-10 dom] |   1 | 4 am      |
+| [2017-12-13 mié] |   1 | 16hs      |
+| [2017-12-15 vie] |   1 | 15hs      |
+| [2017-12-19 mar] |   1 | 15hs      |
+| [2017-12-22 vie] |   1 | 15.30hs   |
+| [2017-12-28 jue] |   1 | 15.30hs   |
+| [2017-12-29 vie] |   1 | 16hs      |
+| [2018-01-02 mar] |   1 | 23.30hs   |
+| [2018-01-07 dom] |   1 | 22hs      |
+| [2018-01-19 vie] |   1 | 2 am      |
+| [2018-01-20 sáb] |   1 | 15hs      |
+| [2018-01-22 lun] |   1 | 19hs      |
+| [2018-01-25 jue] |   2 | 16 y 19hs |
+|                  |     |           |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -967,6 +972,21 @@ par de cosas que necesitaba con dos salidas cosa de caminar y tomar
 aire, y eso me despejo, aunque utilitariamente y no solo por placer pq
 no lo haria. Y ya me canse, me faltaba ir a comprar fruta pero mejor
 no pq no es buen dia hoy para eso, mejor mañana en el mercado. 
+
+** [2018-01-25 jue]
+HOY CATASTROFE PORQUE???? creo que el dia fue estresante desde las 7
+am.
+y vino la cami, y luego se me demoro el almuerzo, y luego todo,
+contribuyo para que me tome el primero que fue resciliente pq no me
+relaje.
+y esto de la casa me mato mal.
+Es un embole mayusculo no poderse relajar en el dpto en verano cuando
+a uno le queda una puta cosa por comprar y uno viene con el puto bolso
+y no puede entrar al super y entonces uno dice voy a casa y luego
+compro. pq uno esta incomodo y luego o bien no baja si se cambia o
+bien esta incomodo como hoy y lo mismo se tiene que bajar. La gran
+puta.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
