@@ -648,3 +648,8 @@ los 17 o veamos.
 ** 773
 *** [2017-11-13 lun] 3 sab 1pl PB
 * Cortina Nir $625 a pagar en dos veces
+[2018-01-26 vie] paga $300 la primer cuota de la cortina y queda para
+el mes proximo el saldo de $300
+[2018-01-26 vie] saca dos toallones y paga $250 y quedan dos cuotas de
+250
+
