@@ -2742,3 +2742,34 @@ aclaracion/mensaje/comentarios/horarios en tabver y me tengo que ir a
 fechar.
 Primero habria que corregir eso. Para dejar un fechador mas eficiente.
 * IDEA poner el historial del cliente en otra tabla
+* reparaciones generales
+** tema database locked a causa de tareas iniciales
+CLOCK: [2018-01-30 mar 20:05]--[2018-01-30 mar 20:15] =>  0:10
+CLOCK: [2018-01-30 mar 19:48]--[2018-01-30 mar 20:03] =>  0:15
+parece que es por un campo mes/year en tabla ventas
+agregado por trigger no hace falta una actualizacion que me lockeo la
+base de dato al menos aca.
+** arreglos de confusiones en el pasado de ventas
+CLOCK: [2018-01-30 mar 20:15]--[2018-01-30 mar 20:31] =>  0:16
+saque el boton PASAR total que es la desactivacion de bdirecto #4548
+saque la fechaprocesando en #4431 y aledañas.
+O sea que se puede volver a activar
+Pero era confuso para mi, pues un par de veces active dos veces una
+venta quedando una venta fantasma y vacia, y no quiero que la cami se
+equivoque. que pase todo por items. y el tema fecha que ponga todo por
+fecha, los excesivos automatismos no hacen falta para los demas y
+pueden crear errores.
+* ideas de auditoria
+** pasado de recibos
+agregar al exterior de la planilla el monto total y revisar el toco
+del dia en la planilla resumen para ver si fue pasado a planilla de
+caja, o sea de paso que reviso si la cantidad global fue bien pasada
+veo si fue pasado a caja (detecte varios errores en los que revise)
+** planilla de gastos de Fede sera mensual ahora
+eso sera mucho mas facil de gestionar y de pasar y de controlar
+** revisar las nuevas ventas ingresadas 
+pendiente
+** mas arqueos de caja
+pendiente
+** control de stock
+pendiente
