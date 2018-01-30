@@ -200,7 +200,8 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2017-10-27 vie .+1d>
+SCHEDULED: <2018-01-12 vie .+1d>
+- State "DONE"       from "TODO"       [2018-01-11 jue 20:46]
 - State "DONE"       from "TODO"       [2017-10-26 jue 20:13]
 - State "DONE"       from "TODO"       [2017-10-24 mar 20:17]
 - State "DONE"       from "TODO"       [2017-10-23 lun 20:16]
@@ -262,7 +263,7 @@ SCHEDULED: <2017-10-27 vie .+1d>
 - State "DONE"       from "TODO"       [2016-11-02 mié 17:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-10-26 jue 20:13]
+:LAST_REPEAT: [2018-01-11 jue 20:46]
 :END:      
 - State "DONE"       from "TODO"       [2016-11-01 mar 20:32]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:15]

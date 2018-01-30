@@ -1,7 +1,7 @@
 #+TODO: TODO(t) BUG IDEA IMPROV | DONE(d!) FIXED DESISTIDO
 * Monica-
 ** FIXED devolver documento Martines Viviana
-** Mercaderia llevada de oficina [63/69]
+** Mercaderia llevada de oficina [64/69]
 *** DONE 2 pack de toallones nauticos
 *** DONE 1 cortina turquesa
 *** DONE 1 pb2 rombitos turquesa
@@ -188,7 +188,9 @@ cancela el pack que le debia
 *** DONE [2018-01-10 mié] pack toallones 
 - State "DONE"       from "TODO"       [2018-01-12 vie 12:03]
 65660
-*** TODO [2018-01-10 mié] pack toallones 
+*** DONE [2018-01-10 mié] pack toallones 
+- State "DONE"       from "TODO"       [2018-01-18 jue 12:48]
+65733
 *** DONE [2018-01-10 mié] cubrecamas indu 2plazas
 - State "DONE"       from "TODO"       [2018-01-12 vie 12:03]
 65659
@@ -646,3 +648,15 @@ los 17 o veamos.
 ** 773
 *** [2017-11-13 lun] 3 sab 1pl PB
 * Cortina Nir $625 a pagar en dos veces
+[2018-01-26 vie] paga $300 la primer cuota de la cortina y queda para
+el mes proximo el saldo de $300
+[2018-01-26 vie] saca dos toallones y paga $250 y quedan dos cuotas de
+250
+* kelvin costo
+clases empiezan 17 de abril  martes y jueves 11 a 13hs y terminan en
+Noviembre
+cuesta 20900
+2x1190
+3x7900
+9x3000
+
