@@ -299,6 +299,8 @@ SCHEDULED: <2018-01-28 dom .+1w>
 | [2018-01-22 lun] |   1 | 19hs      |
 | [2018-01-25 jue] |   2 | 16 y 19hs |
 | [2018-01-28 dom] |   1 | 17hs      |
+| [2018-01-31 mié] |   1 | 21hs      |
+|                  |     |           |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -992,6 +994,12 @@ compro. pq uno esta incomodo y luego o bien no baja si se cambia o
 bien esta incomodo como hoy y lo mismo se tiene que bajar. La gran
 puta.
 
+** [2018-01-31 mié]
+el del finde no lo recuerdo, y no lo anote, no se si fue sabado o
+domingo, pero ayer tome uno no pq estuviera en crisis severa sino creo
+que era constipacion. Y hartazgo y eso se disipo bastante
+luteranamente hoy creo. Gracias a la fruta y a los arrozitos. Y hoy no
+tome hasta ahora ibus
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
