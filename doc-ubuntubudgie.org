@@ -198,4 +198,13 @@ sacamos de ifconfig donde dice Direc. inet
 *** al abrir o cerrar
 respetar el orden abrir servidor primero, cerrar primero el cliente
 *** ver si la red funciona!!!!!!
-me preocupaba pq no andaba y era que el puto fibertel no andaba ese dia.
+me preocupaba pq no andaba y era que el puto fibertel no andaba ese
+dia.
+* instalacion impresora EPSON L380
+** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
+** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]
+** instalar los dos drivers que da para impresora !!
+** previamente instalar la dependencia que requiere
+apt-get install lsb
+** el driver de scaner no me funciono
+
