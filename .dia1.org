@@ -3470,3 +3470,8 @@ haberlo tomado, y la elva nos dejo en banda a mitad de mes tambien.
 *** control de recibos diario como vengo haciendo
 *** control de salida de articulos
 *** paciencia hasta que formemos un grupo de cobradores
+* [2018-02-02 vie]
+** ojo con los temas de control
+*** control de ventas fisicas
+*** control periodico de que no haya pmovto vacio que produzca que no se imprima la ficha
+ver la forma de eliminar ese bug o ese problema.
