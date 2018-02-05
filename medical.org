@@ -236,7 +236,8 @@ embates normales del trabajo.
 | [2018-01-29 lun] |   1 |                              |
 | [2018-01-30 mar] |   1 |                              |
 | [2018-02-01 jue] |   1 |                              |
-|                  |     |                              |
+| [2018-02-02 vie] |   1 |                              |
+| [2018-02-03 sáb] |   1 |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -263,7 +264,9 @@ embates normales del trabajo.
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** TODO Cabergolina
-SCHEDULED: <2018-01-28 dom .+1w>
+SCHEDULED: <2018-02-09 
+vie .+1w>
+- State "DONE"       from "TODO"       [2018-02-02 vie 20:31]
 - State "DONE"       from "TODO"       [2018-01-21 dom 12:12]
 - State "DONE"       from "TODO"       [2018-01-05 vie 21:20]
 - State "DONE"       from "TODO"       [2017-11-23 jue 09:47]
@@ -276,7 +279,7 @@ SCHEDULED: <2018-01-28 dom .+1w>
 - State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
 - State "DONE"       from "TODO"       [2017-09-18 lun 18:44]
 :PROPERTIES:
-:LAST_REPEAT: [2018-01-21 dom 17:12]
+:LAST_REPEAT: [2018-02-03 sáb 15:31]
 :END:
 ** migral
 | Fecha            | cnt | hora      |
@@ -302,7 +305,8 @@ SCHEDULED: <2018-01-28 dom .+1w>
 | [2018-01-25 jue] |   2 | 16 y 19hs |
 | [2018-01-28 dom] |   1 | 17hs      |
 | [2018-01-31 mié] |   1 | 21hs      |
-|                  |     |           |
+| [2018-02-03 sáb] |   1 | 11hs      |
+| [2018-02-04 dom] |   1 | 23hs      |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -1125,4 +1129,3 @@ un te con dos galletas y queso.
    me senti como que podia terminar alli mismo todo el modulo, pero me
    fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
    en el ojo, aunque no son en el ojo sino en el arco superciliar.
-

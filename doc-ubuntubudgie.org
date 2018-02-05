@@ -27,6 +27,16 @@ en un terminal
 gsettings set org.gnome.desktop.interface clock-show-date true
 #+END_EXAMPLE
 
+* Actualizar version de ubuntu 'a mano'
+sudo apt install update-manager-core
+
+Next, edit a configuration file using nano or your preferred command line text editor.
+sudo nano /etc/update-manager/release-upgrades
+At the bottom of this file, change the value of Prompt from lts to normal.
+Prompt=normal
+
+luego en linea de comando:
+do-release-upgrade
 * Notas sobre lubuntu
 agregar a panel "agente distribucion de teclado"
 configurar deseleccionar Mantener las distribuciones del sistema
