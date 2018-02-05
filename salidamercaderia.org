@@ -493,7 +493,9 @@ al otro dia retiro la sabana y dejo la cortina en la casa.
 disconforme con la sabana LH, no pude hablar pq estaba con los chicos
 y ya la uso, le dije que no se podia hacer nada. Dice que iba a ir a
 Def Cons, le dije que no lo diga que lo haga (tipo pope). y fresco.
-** 
+** Casos que reclamaron pelotitas y quedaron en nada y no se cobran mas
+*** Aguero Emilse Chocano 4772 Liceo 2
+*** Jaeggi Claudio Sesse 3482 JID1
 * Devoluciones en proceso por cobradores
 ** DONE [2017-09-15 vie] Viale Melian 2074  cobr 750
 - State "DONE"       from "TODO"       [2017-10-24 mar 12:15]
