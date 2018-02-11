@@ -39,3 +39,25 @@ o sea la planilla de caja empresa incluso imprimible
 ** lista de medicamentos tomados
 ** agenda o lista de compromisos 
 ** lista de peliculas vistas 
+* funcionalidades agregadas a dni.tcl
+** fts5 generado en el celu
+o sea un fts modificable a voluntad en el programa que se borra y
+genera de nuevo siempre o sea no es mantenido por costosos triggers,
+como el anterior y abarca todos los campos que contienen informacion
+documental, como todos los campos memo. Lograndose busquedas mas
+potentes en menos tiempo. 
+** generacion y compartimiento de la ficha
+la generacion de la ficha y la vision del pdf clarifica un monton la
+cuenta en caso de tener que cobrarla y se puede enviar por wassapp en
+el momento por qpdf y se hace por doble click.
+aparte le puso un cuarto tbls que no tenia de las cuotas a vencer
+* funcionalidades que puedan faltar
+** aviso popup de seven o lista negra mas claros
+** lista de cuentas buscadas para historial con fecha/hora
+** favoritos de cuentas para guardar casos que se puedan referenciar
+** posibilidad de cargar numero telefono nuevo directamente en la cuenta
+idem otros ingresos de datos
+** lista de eventos pendientes linkables a cuenta con fecha/hora
+pe una pestana con lista de clientes a visitar por motivos, cambios
+cobro o venta y q sea linkable a la cuenta directo
+** posibilidad de subir al seven desde la app como un dato mas
