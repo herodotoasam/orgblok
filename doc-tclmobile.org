@@ -1,0 +1,41 @@
+* nuevo paradigma de trabajo
+voy a hacer una migracion de trabajo hacia el celu, por causa del
+futuro trabajo en calle.
+Ya no voy a tener el trabajo basado en la compu, ni en la aplicacion
+de escritorio, sino en la del celu.
+** potenciacion de la aplicacion para manejo de clientes y promotores
+*** ver los registros que se necesiten para la promocion
+** herramientas personales
+*** p.e. el anotado de gastos que hago en wunderlist en forma precaria
+y puedo hacerlo mas eficiente en el gastos.tcl que hice que puede
+tener diversas pestanas una para personales y otra para empresa,
+incluso puedo mudar mi caja personal enteramente al celu pq sera mas
+facil manejarla ahi.
+*** anotacion de medicacion 
+habria que traerla de nuevo al celu
+* apostar a la plataforma que ya tengo
+creo que me conviene seguir con la plataforma que tengo que es
+tclandrowish de rapido desarrollo con sqlite y se compatibiliza con la
+lectura de los datos en la notebook en casa. 
+* reconocer que orgmode es incomodo para algunas cosas incluso estando en escritorio
+la anotacion de medicacion con orgmode es incomoda, ni hablar de la
+anotacion de los articulos de monica u otro tipo de anotaciones. El
+deseo de usar una herramienta a veces lleva a usarla para cosas que no
+nos conviene.
+Como entrada de datos el celu es lo mejor pq es lo que tenemos a mano
+siempre, es como el reader no le gana nadie. orgmode sirve para esto
+para escribir y guardarlo en git, pq es mejor el cuaderno y
+fotografiarlo y guardarlo tambien ordenadamente.
+* nuevas funcionalidades que necesitare desarrollar
+** marcado on/off del registro 
+puede ser un campo que sea 1/0 y eso lo cambie de color y sirva para
+desactivarlo e indicar que ya esta procesado, o hasta hide. y un boton
+para unhide?
+* nuevas aplicaciones que me gustaria tener
+** lista de vencimientos o cosas a pagar
+** lista de gastos a rendir a la empresa /ingresos tambien 
+o sea la planilla de caja empresa incluso imprimible
+** contabilidad personal directamente en el celu
+** lista de medicamentos tomados
+** agenda o lista de compromisos 
+** lista de peliculas vistas 
