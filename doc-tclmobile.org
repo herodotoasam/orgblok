@@ -51,9 +51,13 @@ la generacion de la ficha y la vision del pdf clarifica un monton la
 cuenta en caso de tener que cobrarla y se puede enviar por wassapp en
 el momento por qpdf y se hace por doble click.
 aparte le puso un cuarto tbls que no tenia de las cuotas a vencer
+** recuperacion de registros
+*** registros de calles visitadas
+*** registros de dni buscados
+*** registros de cuentas buscadas
 * funcionalidades que puedan faltar
 ** aviso popup de seven o lista negra mas claros
-** lista de cuentas buscadas para historial con fecha/hora
+** DONE lista de cuentas buscadas para historial con fecha/hora
 ** favoritos de cuentas para guardar casos que se puedan referenciar
 ** posibilidad de cargar numero telefono nuevo directamente en la cuenta
 idem otros ingresos de datos
@@ -61,3 +65,15 @@ idem otros ingresos de datos
 pe una pestana con lista de clientes a visitar por motivos, cambios
 cobro o venta y q sea linkable a la cuenta directo
 ** posibilidad de subir al seven desde la app como un dato mas
+** listado de cuentas revisables por zona
+* Prueba de trabajo para decidir TCL frente a python
+tendria que programar un modulo que fuera similar a uno y ver la
+funcionalidad y simpleza para que podamos ver si tenemos algo que sea
+mejor.
+tendria que ser un modulo necesario y ser algo que no me gusta como
+esta ahora.
+En el fondo el pasado de venta no me gusta.
+** pasado de venta, cargado de cliente. buscar si el postulante existe como cliente
+nada de automatismos, sexo ; dni; nombre 
+
+

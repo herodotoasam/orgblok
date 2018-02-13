@@ -329,3 +329,43 @@ tenia que cortar y tomarme vacaciones urgente, y ahora que yo hice el
 acomodo quede como el heroe de la jornada y sobrevivo con energia para
 empezar una campana nueva, pero tendria que descansar, me merezco una
 larga pausa.
+* [2018-02-12 lun]
+** elucubracion sobre la programacion
+pienso que podria programar todo de nuevo en forma simplificada
+estudiando los procesos que nos hacen falta realmente de cero y
+rehaciendo de nuevo todo. 
+** depuracion de base de datos
+limpieza de tablas que no sirven y campos que no sirven y creacion de
+vistas nuevas y triggers nuevos
+** creacion de formularios nuevos de entrada de datos independientes
+o sea un formulario independiente por funcion que abarque la pantalla
+completa y que sirva para esa funcion y las relacionadas.
+*** formulario de ventas
+*** formulario de recibos
+*** ver datos clientes
+*** tablero de control
+** ver que pasa con tcl
+en una de esas lo termino haciendo con tcl con las siguientes
+ventajas:
+*** el mismo lenguaje que tclmobile 
+*** tablelist-bwidget etc nativo sin problemas
+*** sqlite nativo interno
+** tendriamos que ver cuanto demoramos en escribir un modulo en tcl
+en vez de hacerlo en python.
+** tendria que ver cuanto puedo tardar en hacer toda la programacion
+* [2018-02-13 mar]
+** sobre la inconveniencia de largar sistema paralelo ya
+pq aparte de estar en el centro y eso complica, agregaria mas flujo de
+cuentas a lo que ya hay, y el tiempo para atender es reducido, lo que
+produciria una congestion de atencion, y una problematica de
+coordinacion.
+p.e. una cobranza de 800k a atender entre los 8 cobradores que hay mas
+unos dos o tres mas, o sea que habria que atender unos 11  cobradores
+en 1hora y recaudar unos 40k por dia.
+O sea es inviable.
+*** Como nace la idea
+nace en la inocencia de la explicacion de salida de Raul, y los
+rezagos del esquema cero, pero no es viable.
+Creo que tendria que administrar perfectamente lo que hay antes de
+pensar en ampliar el sistema.
+
