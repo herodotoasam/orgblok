@@ -2773,3 +2773,20 @@ pendiente
 pendiente
 ** control de stock
 pendiente
+* idea de control de stock
+** idea basica
+tabla compras(id fecha art(reference art) cnt costo proveedor) 
+o sea simplifico en una sola tabla lo que seria compra y detalle de
+compra  pq en la practica no llevamos un registro de las compras como
+unidad administrativa en si que debamos referenciar (pe num de factura
+o num de remito o costo de flete) son informaciones contables quizas
+deseables estadisticamente pero que en la practica se nos hace muy
+dificil pasar, entonces la simplificacion viene por el lado de obviar
+ese paso o bien dejarlo pero repetitivo p.e. num de factura.
+La diferencia con el sistema anterior es que se calcularia el stock
+como una suma o bien resta entre compras (entrada de mercaderia) menos
+ventas (salidas de mercaderia) y no a traves de triggers. 
+El stock inicial seria como compra cero, y las ventas de contado se
+cursarian como ventas de contado normales en la base de datos. Idem
+todo otro tipo de ventas. Todo otro tipo de caso de salida por falla
+etc, se pasa como compra negativa. 

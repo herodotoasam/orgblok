@@ -1,0 +1,105 @@
+* nuevo paradigma de trabajo
+voy a hacer una migracion de trabajo hacia el celu, por causa del
+futuro trabajo en calle.
+Ya no voy a tener el trabajo basado en la compu, ni en la aplicacion
+de escritorio, sino en la del celu.
+** potenciacion de la aplicacion para manejo de clientes y promotores
+*** ver los registros que se necesiten para la promocion
+** herramientas personales
+*** p.e. el anotado de gastos que hago en wunderlist en forma precaria
+y puedo hacerlo mas eficiente en el gastos.tcl que hice que puede
+tener diversas pestanas una para personales y otra para empresa,
+incluso puedo mudar mi caja personal enteramente al celu pq sera mas
+facil manejarla ahi.
+*** anotacion de medicacion 
+habria que traerla de nuevo al celu
+* apostar a la plataforma que ya tengo
+creo que me conviene seguir con la plataforma que tengo que es
+tclandrowish de rapido desarrollo con sqlite y se compatibiliza con la
+lectura de los datos en la notebook en casa. 
+* reconocer que orgmode es incomodo para algunas cosas incluso estando en escritorio
+la anotacion de medicacion con orgmode es incomoda, ni hablar de la
+anotacion de los articulos de monica u otro tipo de anotaciones. El
+deseo de usar una herramienta a veces lleva a usarla para cosas que no
+nos conviene.
+Como entrada de datos el celu es lo mejor pq es lo que tenemos a mano
+siempre, es como el reader no le gana nadie. orgmode sirve para esto
+para escribir y guardarlo en git, pq es mejor el cuaderno y
+fotografiarlo y guardarlo tambien ordenadamente.
+* nuevas funcionalidades que necesitare desarrollar
+** marcado on/off del registro 
+puede ser un campo que sea 1/0 y eso lo cambie de color y sirva para
+desactivarlo e indicar que ya esta procesado, o hasta hide. y un boton
+para unhide?
+* nuevas aplicaciones que me gustaria tener
+** lista de vencimientos o cosas a pagar
+** lista de gastos a rendir a la empresa /ingresos tambien 
+o sea la planilla de caja empresa incluso imprimible
+** contabilidad personal directamente en el celu
+** lista de medicamentos tomados
+** agenda o lista de compromisos 
+** lista de peliculas vistas 
+* funcionalidades agregadas a dni.tcl
+** fts5 generado en el celu
+o sea un fts modificable a voluntad en el programa que se borra y
+genera de nuevo siempre o sea no es mantenido por costosos triggers,
+como el anterior y abarca todos los campos que contienen informacion
+documental, como todos los campos memo. Lograndose busquedas mas
+potentes en menos tiempo. 
+** generacion y compartimiento de la ficha
+la generacion de la ficha y la vision del pdf clarifica un monton la
+cuenta en caso de tener que cobrarla y se puede enviar por wassapp en
+el momento por qpdf y se hace por doble click.
+aparte le puso un cuarto tbls que no tenia de las cuotas a vencer
+** recuperacion de registros
+*** registros de calles visitadas
+*** registros de dni buscados
+*** registros de cuentas buscadas
+* funcionalidades que puedan faltar
+** aviso popup de seven o lista negra mas claros
+** DONE lista de cuentas buscadas para historial con fecha/hora
+** favoritos de cuentas para guardar casos que se puedan referenciar
+** posibilidad de cargar numero telefono nuevo directamente en la cuenta
+idem otros ingresos de datos
+** lista de eventos pendientes linkables a cuenta con fecha/hora
+pe una pestana con lista de clientes a visitar por motivos, cambios
+cobro o venta y q sea linkable a la cuenta directo
+** posibilidad de subir al seven desde la app como un dato mas
+** listado de cuentas revisables por zona
+* Prueba de trabajo para decidir TCL frente a python
+tendria que programar un modulo que fuera similar a uno y ver la
+funcionalidad y simpleza para que podamos ver si tenemos algo que sea
+mejor.
+tendria que ser un modulo necesario y ser algo que no me gusta como
+esta ahora.
+En el fondo el pasado de venta no me gusta.
+** pasado de venta, cargado de cliente. buscar si el postulante existe como cliente
+nada de automatismos, sexo ; dni; nombre 
+No se cuantas horas llevo en esto entre ayer y hoy pq no las he medido
+pero el desarrollo ha sido satisfactorio tanto en aspecto como en
+funcionalidad como en programacion, como en claridad hasta en la
+herramienta (en este caso vim pelado).
+Uso una claridad conceptual para la funcion sin recargar las cosas,
+concentrandome en el tema del pasado de los papeles, no en el analisis
+de las cosas, como para que lo pase bien pasado otra persona.
+y a la vez como son modulos independientes me parece que seran mas
+faciles de mantener.
+Veo que programar en tcl es mas fluido que en python pq se usa mas
+directamente el programa, si bien es cierto que uso un par de esquemas
+de itk que son mas bien para el armado y maquetacion de campo/label y
+combo/label y tablelist/scrollbar pero el resto el packeado el manejo
+de la base de datos sqlite es transparente y es el del manual, con
+algunos metodos que vengo usando hace anos como tabule, llenar etc.
+O sea si bien es cierto que usamos unos atajos no desnaturaliza el
+lenguaje.
+** el empezar de cero te permite repensar de nuevo lo que te hace realmente falta
+tanto en formularios, como en tablero, como en informacion, y se puede
+ir haciendo un diccionario de tablas y campos realmente usados por
+formularios.
+P.e. ventas.tcl usa tabla clientes(id,dni,nombre,calle etc)
+y asi con las otras tablas.
+por caso uso goo1 para el match, lo cual puede ser cambiado a una
+tabla que se haga adhoc.
+Esto permitiria al final de todo saber que todas esas tablas y views
+que no se usan no sirven y se pueden dejar de usar.
+

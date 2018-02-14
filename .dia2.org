@@ -279,3 +279,92 @@ se pudo lograr un nivel de gente muy bueno. Y con un aviso atendido en
 forma muy eficaz y facil. Eso eleva la confianza. Y eso lo manejo yo.
 Y con esto nos libramos de todo el engorro y de todos los bajones y
 nos ponemos en situacion de estar mejor.
+** lo que el cambio dejo a nivel personal
+rescato algunas ideas textuales de LH que son muy fuertes
+*** "el momento del poder es siempre el presente"
+"los cambios se pueden iniciar en este mismo momento".
+y eso lo vi claro cuando despedi a Raul y a la Lesta
+inmediatamente. Una vez que puse en accion el mecanismo o sea que me
+libere de las dilaciones no considere necesario esperar mas.
+*** El universo apoya totalmente cada idea que decidimos pensar y creer
+lo vi totalmente cuando tuve que ir a dar el curso a los dos, aunque
+estaba desalentado, pq fue un momento dificil, con las fallas de los
+otros y hasta del que habia comenzado mas del que habia empezado no
+sabia con que me iba a encontrar y me dije voy a dar un curso muy
+profesional yo puedo hacerlo, los voy a hacer pasar atras y les voy a
+dar un curso bien profesional, y salio todo muy bien.
+*** nos demoramos en hacer las cosas que nos beneficiarian 
+Vivimos en el caos y en el desorden
+como sintomas de la falta de amor a uno mismo, y esto lo vi
+patente. Si hay una pruebe evidente de "demora en hacer lo que me
+beneficiaria" es esta.  Y lo veo ahora que quede liberado.
+Ahora me resta acomodar bien las cosas para que no me molesten mas. O
+sea empezar un proceso de minimalizacion.
+** xp ayer en sargeo
+fue muy llamativa pq llevaba la camisa vieja. Y la paradoja que las
+camisas viejas concentren las miradas, desde las furtivas pero
+evidentes que salen de su compostura. O la alevosa y mantenida que
+hubiera ameritado un saludo, hasta la impensada.
+Es raro, pienso que es un reflejo de la actitud que llevo quizas
+cuando voy vestido con esa ropa, o sea voy por una parte comodo y
+seguro pq me siento comodo pero no miro ni busco miradas pq pienso que
+estoy croto o con ropa vieja, e indirectamente me topo con miradas
+increibles, y cuando ando con camisas nuevas pe como que buscara mas
+las miradas y no encontras ninguna, mas o menos asi creo que es. Mas
+alla de que haya algun factor de que un look muy cuidadoso sea peor.
+* [2018-02-11 dom]
+** a pesar de todo este finde es un embole
+pq el tiempo no se presta para nada, esta feisimo y a la vez lindo
+para estar adentro, y durmiendo o programando.
+Pero tambien cansa programar en esta posicion, y tantas horas
+seguidas.
+Voy a terminar enquistado. Me tendria que ir.
+Creo que aca esta todo mal pq no hay amor de familia. Y nos soportamos
+mutuamente y eso esta mal. pero es asi.
+Yo hablo peste de la sociedad en voz alta a oidos de las chicas y
+luego cuando viene el Fede compartimos como si nada, Creo que deberia
+descansar y ver que pasa.
+No nos olvidemos que en varios dias de la semana anterior pensaba que
+tenia que cortar y tomarme vacaciones urgente, y ahora que yo hice el
+acomodo quede como el heroe de la jornada y sobrevivo con energia para
+empezar una campana nueva, pero tendria que descansar, me merezco una
+larga pausa.
+* [2018-02-12 lun]
+** elucubracion sobre la programacion
+pienso que podria programar todo de nuevo en forma simplificada
+estudiando los procesos que nos hacen falta realmente de cero y
+rehaciendo de nuevo todo. 
+** depuracion de base de datos
+limpieza de tablas que no sirven y campos que no sirven y creacion de
+vistas nuevas y triggers nuevos
+** creacion de formularios nuevos de entrada de datos independientes
+o sea un formulario independiente por funcion que abarque la pantalla
+completa y que sirva para esa funcion y las relacionadas.
+*** formulario de ventas
+*** formulario de recibos
+*** ver datos clientes
+*** tablero de control
+** ver que pasa con tcl
+en una de esas lo termino haciendo con tcl con las siguientes
+ventajas:
+*** el mismo lenguaje que tclmobile 
+*** tablelist-bwidget etc nativo sin problemas
+*** sqlite nativo interno
+** tendriamos que ver cuanto demoramos en escribir un modulo en tcl
+en vez de hacerlo en python.
+** tendria que ver cuanto puedo tardar en hacer toda la programacion
+* [2018-02-13 mar]
+** sobre la inconveniencia de largar sistema paralelo ya
+pq aparte de estar en el centro y eso complica, agregaria mas flujo de
+cuentas a lo que ya hay, y el tiempo para atender es reducido, lo que
+produciria una congestion de atencion, y una problematica de
+coordinacion.
+p.e. una cobranza de 800k a atender entre los 8 cobradores que hay mas
+unos dos o tres mas, o sea que habria que atender unos 11  cobradores
+en 1hora y recaudar unos 40k por dia.
+O sea es inviable.
+*** Como nace la idea
+nace en la inocencia de la explicacion de salida de Raul, y los
+rezagos del esquema cero, pero no es viable.
+Creo que tendria que administrar perfectamente lo que hay antes de
+pensar en ampliar el sistema.

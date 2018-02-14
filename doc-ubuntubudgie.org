@@ -217,4 +217,6 @@ dia.
 ** previamente instalar la dependencia que requiere
 apt-get install lsb
 ** el driver de scaner no me funciono
+* desactivar el mousepad de la notebook
+
 
