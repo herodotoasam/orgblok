@@ -102,4 +102,18 @@ por caso uso goo1 para el match, lo cual puede ser cambiado a una
 tabla que se haga adhoc.
 Esto permitiria al final de todo saber que todas esas tablas y views
 que no se usan no sirven y se pueden dejar de usar.
+** [2018-02-14 mié] experiencias a dos dias de programar el modulo ventas
+muy bien, se programa como un tiro, casi sin consultar documentacion,
+lo que es sqlite, tablelist, el mismo tk, tcl lo se a fondo y casi lo
+escribo en forma directa, puede que busque dentro de mis propios
+programas o rapido en la documentacion la forma de escribir algo.
+Y el resto es copiar y pegar mucho, Y se avanza bastante rapido, creo
+que conceptualmente estamos consiguiendo algo mas avanzado tanto a
+nivel de usuario, como a nivel de control, como a nivel de auditoria y
+a nivel de programacion.
+O sea mas facil y claro para pasar, facil para que la misma persona se
+controle, facil para uno encontrar y depurar errores dentro del
+sistema, y a su vez el programa es modular y creo que es mas facil de
+mantener.
+Y no es tan complejo.
 
