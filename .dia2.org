@@ -368,3 +368,17 @@ nace en la inocencia de la explicacion de salida de Raul, y los
 rezagos del esquema cero, pero no es viable.
 Creo que tendria que administrar perfectamente lo que hay antes de
 pensar en ampliar el sistema.
+* [2018-02-14 mié]
+** control de documentos
+ya estan acomodados hasta hoy los documentos fisicos  y estan
+controlados los que faltan, y se detecto un error de duplicacion,
+aparte de los errores de diff, que hay que corregir.
+** se cargaron las compras en el nuevo stock
+faltaria seguir con las compras de citiblanc y las salidas por nicotex
+y salidas personales ultimos dos anos.
+** los recibos ya vienen con auditoria y control desde la oficina
+y ya se traen de esa forma.
+** hoy fue un dia muy arduo de programacion y trabajo
+fue un dia que no sali salvo un paseito de cinco cuadras y no comi, pq
+pase programando toda la tarde, y no estoy teniendo una rutina sana,
+que sea mantenible. 
