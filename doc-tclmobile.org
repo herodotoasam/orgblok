@@ -116,4 +116,18 @@ controle, facil para uno encontrar y depurar errores dentro del
 sistema, y a su vez el programa es modular y creo que es mas facil de
 mantener.
 Y no es tan complejo.
+** [2018-02-15 jue] hoy se complejiza no tcl sino los requerimientos
+tcl responde bien, digamos que mejor que python, y eso es bueno,
+volviendo al tema de ayer, puedo escribir codigo directamente como si
+supiera. El problema es que me voy enredando en complejidades pq el
+sistema es asi, y pq aparecen errores nuevos. Debo evitar esos
+errores.
+p.e. creo que debo buscar la forma que la entrada de datos sea lo mas
+facil y segura para el de afuera, y las herramientas de control si no
+muestran errores mejor, y las de auditoria mas freakys que son las que
+me van permitiendo ahora descubrir los errores no importa tenerlas, pq
+o bien no se usan o bien se ocultan pq no ocupan lugar ni ralentizan
+nada.
+Esta bueno tener una especie de test contra la base de datos que te
+diga cuales son los errores.
 
