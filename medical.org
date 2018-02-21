@@ -299,35 +299,36 @@ vie .+1w>
 :LAST_REPEAT: [2018-02-03 sáb 15:31]
 :END:
 ** migral
-| Fecha            | cnt | hora        |   |
-| [2017-11-20 lun] |   1 | 20.23hs     |   |
-| [2017-11-25 sáb] |   1 | 12hs        |   |
-| [2017-11-27 lun] |   1 | 01am        |   |
-| [2017-11-28 mar] |   1 | 16hs        |   |
-| [2017-12-01 vie] |   1 | 16hs        |   |
-| [2017-12-06 mié] |   1 | 13hs        |   |
-| [2017-12-07 jue] |   1 | 15hs        |   |
-| [2017-12-10 dom] |   1 | 4 am        |   |
-| [2017-12-13 mié] |   1 | 16hs        |   |
-| [2017-12-15 vie] |   1 | 15hs        |   |
-| [2017-12-19 mar] |   1 | 15hs        |   |
-| [2017-12-22 vie] |   1 | 15.30hs     |   |
-| [2017-12-28 jue] |   1 | 15.30hs     |   |
-| [2017-12-29 vie] |   1 | 16hs        |   |
-| [2018-01-02 mar] |   1 | 23.30hs     |   |
-| [2018-01-07 dom] |   1 | 22hs        |   |
-| [2018-01-19 vie] |   1 | 2 am        |   |
-| [2018-01-20 sáb] |   1 | 15hs        |   |
-| [2018-01-22 lun] |   1 | 19hs        |   |
-| [2018-01-25 jue] |   2 | 16 y 19hs   | l |
-| [2018-01-28 dom] |   1 | 17hs        |   |
-| [2018-01-31 mié] |   1 | 21hs        |   |
-| [2018-02-03 sáb] |   1 | 11hs        |   |
-| [2018-02-04 dom] |   1 | 23hs        |   |
-| [2018-02-08 jue] |   1 | 01.30 hs am |   |
-| [2018-02-11 dom] |   1 | 18.30hs     |   |
-| [2018-02-17 sáb] |   1 | 18.30hs     |   |
-|                  |     |             |   |
+| Fecha            | cnt | hora        |   |   |
+| [2017-11-20 lun] |   1 | 20.23hs     |   |   |
+| [2017-11-25 sáb] |   1 | 12hs        |   |   |
+| [2017-11-27 lun] |   1 | 01am        |   |   |
+| [2017-11-28 mar] |   1 | 16hs        |   |   |
+| [2017-12-01 vie] |   1 | 16hs        |   |   |
+| [2017-12-06 mié] |   1 | 13hs        |   |   |
+| [2017-12-07 jue] |   1 | 15hs        |   |   |
+| [2017-12-10 dom] |   1 | 4 am        |   |   |
+| [2017-12-13 mié] |   1 | 16hs        |   |   |
+| [2017-12-15 vie] |   1 | 15hs        |   |   |
+| [2017-12-19 mar] |   1 | 15hs        |   |   |
+| [2017-12-22 vie] |   1 | 15.30hs     |   |   |
+| [2017-12-28 jue] |   1 | 15.30hs     |   |   |
+| [2017-12-29 vie] |   1 | 16hs        |   |   |
+| [2018-01-02 mar] |   1 | 23.30hs     |   |   |
+| [2018-01-07 dom] |   1 | 22hs        |   |   |
+| [2018-01-19 vie] |   1 | 2 am        |   |   |
+| [2018-01-20 sáb] |   1 | 15hs        |   |   |
+| [2018-01-22 lun] |   1 | 19hs        |   |   |
+| [2018-01-25 jue] |   2 | 16 y 19hs   | l |   |
+| [2018-01-28 dom] |   1 | 17hs        |   |   |
+| [2018-01-31 mié] |   1 | 21hs        |   |   |
+| [2018-02-03 sáb] |   1 | 11hs        |   |   |
+| [2018-02-04 dom] |   1 | 23hs        |   |   |
+| [2018-02-08 jue] |   1 | 01.30 hs am |   |   |
+| [2018-02-11 dom] |   1 | 18.30hs     |   |   |
+| [2018-02-17 sáb] |   1 | 18.30hs     |   |   |
+| [2018-02-20 mar] |   1 | 16.30hs     |   |   |
+|                  |     |             |   |   |
 
 ** DONE VitC
 SCHEDULED: <2017-09-29 vie>
@@ -1027,6 +1028,10 @@ domingo, pero ayer tome uno no pq estuviera en crisis severa sino creo
 que era constipacion. Y hartazgo y eso se disipo bastante
 luteranamente hoy creo. Gracias a la fruta y a los arrozitos. Y hoy no
 tome hasta ahora ibus
+** [2018-02-20 mar]
+ayer tome de emergencia cuando estaba con fede por una jaqueca
+incisiva y se me paso, pq pense que era problematico el momento de la
+incorporacion de nuevos cobradores. 
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

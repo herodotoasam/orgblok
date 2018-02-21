@@ -606,7 +606,9 @@ ofrecera cambio a PB con diferencia de precio al contado
 ** TODO Tridentina 1865
 L&H 2 destiño le dijo a 792 pero pago cuota 3 y cuota 1 de una
 cortina, no se hablo de nada.
-* Devoluciones normales 
+** TODO Pons 1270
+va por la tercera cuota LH 1pl dice que achico la de abajo
+* devoluciones normales 
 | [2017-10-13 vie] | 63395 | Heredia Miriam | JID1 | 768 | pago $100 | 251555 | LH2 | 6x145 | gestiono 765 |
 |                  |       |                |      |     |           |        |     |       |              |
 * Recibos sospechosos 765
