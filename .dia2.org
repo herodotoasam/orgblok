@@ -413,3 +413,13 @@ crece la sensacion que uno entro en un declive economico del cual no
 va a salir mas, que se refleja o se manifiesta en el tema del auto, el
 solo hecho de no tener auto o no poder comprar mas un auto de esa gama
 (y a la vez el ver que no tiene sentido comprarlo)
+* [2018-02-16 vie]
+** conforme con lo hecho esta semana
+ayer quede fascinado con la programacion en tcl en el mobile.
+poder mandar un pdf en un segundo, poder hacer una busqueda fts
+rapidamente, en si es un muy buen programa.
+Y estoy conforme como va avanzando la programacion en TCL para
+el escritorio.
+** via libre para gestionar la cobranza de nuevo
+de otra manera y con otro perfil. Estamos en cambio de sistema y eso
+va a ser otra forma de trabajar. Tendria que ver la forma de 
