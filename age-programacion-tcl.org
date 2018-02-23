@@ -1,0 +1,38 @@
+* Ideas
+** tema pmovto/triggers/paso a TCL
+Hoy [2018-02-22 jue] corrijo el ultimo trigger de pagos y ventas upd
+para tener todo pmovto con TCL de nuevo, eso rompe la funcionalidad de
+python, en el pasado de ventas y recibos.
+Lo cual hace obsoleto muchas cosas. pero por lo menos comienzo a
+corregir algo.
+Con los tests y las correcciones a la base de datos, luego la
+depuracion que seria el borrado de lo que no voy a usar o sea las
+tablas que no se usan y son obsoletas.
+Y la entrada de datos con verificacion para que no haya errores.
+** Correccion de datos/Auditoria/Reformulacion de la Base de datos
+*** Test.tcl
+**** script para correr y dejar asentadas pruebas
+un monton de pruebas acumulables que permiten verificar cosas en la
+base de datos y emitir resultados, los cuales a medida que se corrijan
+tienen que desaparecer.
+Incluso se pueden poner alli algunos scripts para corregir si hace
+falta.
+**** mantencion de sqlite
+***** vacuum
+achica a casi la mitad la base de datos
+***** pragma integrity_check
+** Verificacion de entrada de datos en la Venta
+*** Verificacion visual de datos corregidos
+hacer un tbs donde se vean los campos aclaracion/horario/msgcobr etc
+que puedan haberse corregido y se pueda editar alli mismo.
+**** TODO corregir bug de borrar datos
+no se pq en la edicion me da error si borro datos
+cuando en viejas interfaces tcl anda bien
+*** TODO ver si hay deudas viejas para condonar
+la idea es que al visualizar las ventas pasadas me resalte solo si el
+cliente tiene deudas viejas condonables y desaparezca cuando haya sido
+condonado
+*** TODO linkear los tab con idvta a dobleclick vision ficha con zathura
+cosa de poder inspeccionar rapido si todo esta bien en la ficha.
+
+
