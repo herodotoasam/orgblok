@@ -255,6 +255,9 @@ embates normales del trabajo.
 | [2018-02-18 dom] |   2 |                              |
 | [2018-02-19 lun] |   0 |                              |
 | [2018-02-20 mar] |   1 |                              |
+| [2018-02-21 mié] |   1 |                              |
+| [2018-02-22 jue] |   1 |                              |
+| [2018-02-23 vie] |   2 |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
