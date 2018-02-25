@@ -258,6 +258,8 @@ embates normales del trabajo.
 | [2018-02-21 mié] |   1 |                              |
 | [2018-02-22 jue] |   1 |                              |
 | [2018-02-23 vie] |   2 |                              |
+| [2018-02-24 sáb] |   1 |                              |
+|                  |     |                              |
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 ** naratriptan
 | Fecha            | cnt | hora     |
@@ -331,6 +333,7 @@ vie .+1w>
 | [2018-02-11 dom] |   1 | 18.30hs     |   |   |
 | [2018-02-17 sáb] |   1 | 18.30hs     |   |   |
 | [2018-02-20 mar] |   1 | 16.30hs     |   |   |
+| [2018-02-24 sáb] |   1 | 4.00 am     |   |   |
 |                  |     |             |   |   |
 
 ** DONE VitC
@@ -1035,6 +1038,11 @@ tome hasta ahora ibus
 ayer tome de emergencia cuando estaba con fede por una jaqueca
 incisiva y se me paso, pq pense que era problematico el momento de la
 incorporacion de nuevos cobradores. 
+** [2018-02-24 sáb]
+luego del viernes con el tema de la Sandra en oficina hasta tarde y
+comiendo mal dos dias anteriores termine yendome a dormir medio
+cefaleico pensando que iba a safar y lo mismo termine tomandome un
+migral a la noche a las 4 y durmiendo muy mal
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

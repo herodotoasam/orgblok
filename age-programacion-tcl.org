@@ -34,5 +34,29 @@ cliente tiene deudas viejas condonables y desaparezca cuando haya sido
 condonado
 *** TODO linkear los tab con idvta a dobleclick vision ficha con zathura
 cosa de poder inspeccionar rapido si todo esta bien en la ficha.
+** Nueva ficha
+*** mejoras con pdf4tcl lo unico que hay
+**** encapsulamiento de cell
+empaquete una class emulando el cell del fpdf de python, o sea con
+cell [unique] $pdf x text
+tengo la celda en la coordenada x y e el valor actual para las y que
+lo averigua solo y luego posisiona solo para el siguiente comando, el
+texto que se le indica y averigua el ancho y hace el rectangulo de
+acuerdo al alto que da la letra.
+**** nuevos comandos a usar
+$pdf moveTextPosition x y para reposicionar los siguiente comandos de
+textos y no depender del flujo de la variable y, y del incr. 
+En caso de que no pagine solo, tendria que encapsularlo a este comando
+y hacer que compare el valor obtenido de y en cada momento y pagine
+correcta y automaticamente.
+getTextPosition es util al respecto como tupla de x y para saber la
+posicion
+*** idea de nueva ficha
+creo que se podria hacer la nueva ficha con un encabezado grande de la
+operacion, con el valor de la compra.
+Restar los pagos realizados y obtener el saldo de la cuenta, y a
+continuacion las cuotas a pagar. Alli se deberia ver el tema del vto
+para no confundir, o sea con los casos de vencimientos ya vencidos.
+
 
 
