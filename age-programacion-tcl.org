@@ -57,6 +57,12 @@ operacion, con el valor de la compra.
 Restar los pagos realizados y obtener el saldo de la cuenta, y a
 continuacion las cuotas a pagar. Alli se deberia ver el tema del vto
 para no confundir, o sea con los casos de vencimientos ya vencidos.
-
-
-
+** Bugs e ideas
+*** TODO bug de busqueda padron femenino por dni
+buscar p.e. 5359959 vega maria o buscar por dni a savid silvia
+argentina y no las encuentra pero si por nombre.
+*** TODO idea poner en la tabla de revision de ventas la zona pq puede ser un error 
+que cometa la cami de interpretacion
+*** TODO hacer que en el listado de revision de ventas marque los que tengan deudas condonables
+para que no nos traguemos deudas condonables
+*** TODO  pensar todos los test que se pueden agregar que descubririan errores de pasado
