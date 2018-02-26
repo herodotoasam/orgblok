@@ -58,11 +58,21 @@ Restar los pagos realizados y obtener el saldo de la cuenta, y a
 continuacion las cuotas a pagar. Alli se deberia ver el tema del vto
 para no confundir, o sea con los casos de vencimientos ya vencidos.
 ** Bugs e ideas
-*** TODO bug de busqueda padron femenino por dni
+*** DONE bug de busqueda padron femenino por dni
 buscar p.e. 5359959 vega maria o buscar por dni a savid silvia
 argentina y no las encuentra pero si por nombre.
-*** TODO idea poner en la tabla de revision de ventas la zona pq puede ser un error 
+era que por mas que pusieramos el cero adelante lo tomaba como hexa.
+y/o no lo tomaba pq lo trabajaba como int.
+tuve que ponerle comillas para que lo busque como string y hacer la
+completacion de ceros a la izquierda.
+
+*** DONE idea poner en la tabla de revision de ventas la zona pq puede ser un error 
 que cometa la cami de interpretacion
-*** TODO hacer que en el listado de revision de ventas marque los que tengan deudas condonables
+*** DONE hacer que en el listado de revision de ventas marque los que tengan deudas condonables
 para que no nos traguemos deudas condonables
-*** TODO  pensar todos los test que se pueden agregar que descubririan errores de pasado
+*** DONE pensar todos los test que se pueden agregar que descubririan errores de pasado
+al menos anote estos dos.
+*** estudiar luego el tema condonada
+para hacerlo desde ventas.tcl y poder hacerlo reversible que todo lo
+haga el trigger o sea que uno solo toggee el campo condonada de 1 a 0
+y de 0 a 1.
