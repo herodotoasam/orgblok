@@ -83,5 +83,9 @@ debe ser un error en trigger que no pone el numero de idcliente.
 *** TODO que el recalc borre la info de editables
 *** TODO  return $text en starteditcommand hace que veas lo que editas aunque sea campo texto
 p.e. en detalle venta
-
-
+*** DONE bug en edicion de tab nuevos
+- State "DONE"       from "TODO"       [2018-02-28 mié 12:33]
+no se pq no funciona que los campos sean editables y estoy cansado
+para encontrarlo.
+era que se recalculaba al abrirse desde la apertura del tab en el
+raisecmd
