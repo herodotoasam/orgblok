@@ -72,9 +72,16 @@ que cometa la cami de interpretacion
 para que no nos traguemos deudas condonables
 *** DONE pensar todos los test que se pueden agregar que descubririan errores de pasado
 al menos anote estos dos.
-*** estudiar luego el tema condonada
+*** TODO estudiar luego el tema condonada
 para hacerlo desde ventas.tcl y poder hacerlo reversible que todo lo
 haga el trigger o sea que uno solo toggee el campo condonada de 1 a 0
 y de 0 a 1.
-*** TODO arreglar el bug de clientes.cuota que todos tienen el mismo valor
+*** DONE arreglar el bug de clientes.cuota que todos tienen el mismo valor
+- State "DONE"       from "TODO"       [2018-02-28 mié 10:49]
 debe ser un error en trigger que no pone el numero de idcliente.
+*** TODO que no permita ingresar letras en cnt bug indu 
+*** TODO que el recalc borre la info de editables
+*** TODO  return $text en starteditcommand hace que veas lo que editas aunque sea campo texto
+p.e. en detalle venta
+
+
