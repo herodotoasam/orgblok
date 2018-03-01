@@ -97,6 +97,7 @@ raisecmd
 *** TODO ver el caso de llenar un tbls con un set de datos que no provenga de un select
 como cuotaspagar, y como consigo funcion sumar.
 quizas sea mas facil revisar que pasa ahi con el metodo totalizar.
+un nuevo sumador con un searchcolumn de regexp con valor numerico
 *** TODO bug 66224 o sea edite detvta y no se refleja en ventas.cnt y ventas.art
 ver en test.tcl poner una regeneracion de esos campos con la misma
 formula que en los triggers pq son campos redundantes y solo
@@ -108,6 +109,8 @@ de venta de una operacion sin tener que apelar a tener que ir a la
 base de datos en pelo como hice siempre en el todos estos años o tener
 que ir a un programa de python pq no tenemos una funcionalidad en uno
 de tcl.
-*** TODO  ver si se puede hacer que el ancho de columnas quede tambien para el recalc
-*** TODO  en mostrar errores limitar el tamaño de campo art pq en mi pantallita no se puede trabajar
-
+*** DONE ver si se puede hacer que el ancho de columnas quede tambien para el recalc
+*** DONE en mostrar errores limitar el tamaño de campo art pq en mi pantallita no se puede trabajar
+*** TODO problema del \n en los comentarios
+por el momento lo mejor es ir corrigiendo los comentarios a mano como
+un error de tipeado sacando los saltos de linea hasta que desaparezcan.
