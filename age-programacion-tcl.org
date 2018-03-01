@@ -76,12 +76,17 @@ al menos anote estos dos.
 para hacerlo desde ventas.tcl y poder hacerlo reversible que todo lo
 haga el trigger o sea que uno solo toggee el campo condonada de 1 a 0
 y de 0 a 1.
+el problema es que no se podra hacer desde ventas.tcl pq tenes que ver
+la venta.
 *** DONE arreglar el bug de clientes.cuota que todos tienen el mismo valor
 - State "DONE"       from "TODO"       [2018-02-28 mié 10:49]
 debe ser un error en trigger que no pone el numero de idcliente.
-*** TODO que no permita ingresar letras en cnt bug indu 
-*** TODO que el recalc borre la info de editables
-*** TODO  return $text en starteditcommand hace que veas lo que editas aunque sea campo texto
+*** DONE que no permita ingresar letras en cnt bug indu 
+*** DONE que el recalc borre la info de editables
+hice dos variables coleditables y coleditablesconcb y dos metodos
+setcoleditables y setcoleditablesconcb
+y cuando quiero que tenga columnas editables pongo tbl setcoleditables {cols}
+*** DONE return $text en starteditcommand hace que veas lo que editas aunque sea campo texto
 p.e. en detalle venta
 *** DONE bug en edicion de tab nuevos
 - State "DONE"       from "TODO"       [2018-02-28 mié 12:33]
@@ -89,3 +94,7 @@ no se pq no funciona que los campos sean editables y estoy cansado
 para encontrarlo.
 era que se recalculaba al abrirse desde la apertura del tab en el
 raisecmd
+*** TODO ver el caso de llenar un tbls con un set de datos que no provenga de un select
+como cuotaspagar, y como consigo funcion sumar.
+quizas sea mas facil revisar que pasa ahi con el metodo totalizar.
+
