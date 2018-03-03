@@ -1,6 +1,15 @@
 * TODO orgmode en vim
  la idea es hacer los archivos org en vim y poder leerlos en ambos lados viceversa.
- <2018-03-01 jue>
+ :<2018-03-01 jue>
  [2018-03-02 vie]
-* 
+* arreglos en vim para mayor eficiencia
+  
+** buffer previo y next con [ ]
+** apertura rapida de archivos usados frecuentes con ;6 ;7 etc
+** apertura de orgblock ;9  Explore
+** reinicio de pomodoro con ;0 
+** magit facil
+   inicio con :Magit
+   stash con S
+   commit con CC
 

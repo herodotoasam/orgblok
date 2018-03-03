@@ -115,13 +115,26 @@ de tcl.
 por el momento lo mejor es ir corrigiendo los comentarios a mano como
 un error de tipeado sacando los saltos de linea hasta que desaparezcan.
 
-*** TODO perfeccionar class campo num
+*** DONE perfeccionar class campo num
     con metodos de aumento y disminucion de valor
+    ya que el campo solo admite numeros tiene dos bind que aumentan 
+    /decrementan el numero
 
 ** tips y workarounds
 *** format %0.0f $var para expresar el valor entero
+    :DEADLINE: <2018-04-03 Tue>
 que es la forma que lo usa el proc cur (a diferencia del curr antiguo
 que usa el %0.2f) 
 tener en cuenta que dentro de un bind hay que duplicar %%
 poner format %%0.0f
 
+*** select en un eval o en un onecolumn que lleva variable a evaluar
+    :DEADLINE: <2018-04-01 Sun>
+    no confundir sigue las reglas de TCL.
+    quebradero de cabeza con esta situacion:
+    set total [db onecolumn {select sum(imp+rec) from pagos where
+    cobr=$cobr and fecha='$fecha'}]
+    no funcionaba!!!
+    y claro no lo iba a hacer pq al estar entre llaves no se evaluaban las 
+    variables cobr y fecha. Lo tenia que pasar entre comillas. para que se 
+    evaluen.
