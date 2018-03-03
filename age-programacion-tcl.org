@@ -114,3 +114,14 @@ de tcl.
 *** TODO problema del \n en los comentarios
 por el momento lo mejor es ir corrigiendo los comentarios a mano como
 un error de tipeado sacando los saltos de linea hasta que desaparezcan.
+
+*** TODO perfeccionar class campo num
+    con metodos de aumento y disminucion de valor
+
+** tips y workarounds
+*** format %0.0f $var para expresar el valor entero
+que es la forma que lo usa el proc cur (a diferencia del curr antiguo
+que usa el %0.2f) 
+tener en cuenta que dentro de un bind hay que duplicar %%
+poner format %%0.0f
+

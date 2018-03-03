@@ -1,0 +1,6 @@
+* TODO orgmode en vim
+ la idea es hacer los archivos org en vim y poder leerlos en ambos lados viceversa.
+ <2018-03-01 jue>
+ [2018-03-02 vie]
+* 
+

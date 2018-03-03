@@ -497,3 +497,11 @@ Lo que veo que definitivamente hay una influencia en la diferentes
 prendas usadas. Explorar por ahi. 
 Y pienso que se podria dedicar un par mas de tiempo sin estar siempre
 apurado.
+* [2018-03-03 sáb]
+vuelta rotunda a vim para programar por la rapidez total que tiene, y
+me hubiera gustado tener alli la forma de tomar notas, pero temo
+perder la organizacion de las notas que tengo aca, a pesar de que mas
+alla de escribir con outline y usar un poco de fechas no hago mas
+nada, pq ni busco ni hago agenda. y lo que se pierde es el feedback
+mientras se va programando.
+
