@@ -44,3 +44,25 @@ que mezcle undos y redos.
    stash con S
    commit con CC
 
+
+
+** nuevos plugins
+*** CtrlP
+    busqueda de archivos en general con C-b o C-b cambio el tipo de busqueda 
+    en tres posibles: mru files buf o sea archivos recientes files o buf
+    una vez buscamos el archivo introduciendo el nombre, el path lo tenemos a 
+    la derecha en la barra, y es el dir presente tenemos tres opciones:
+    C-t abre en otro tab C-v C-x abre en split vertical o en split horizontal
+
+    tip de busqueda: p.e. para buscar age-programacion-tcl.org poner age-tcl 
+    no asi agetcl.
+
+    para ir al directorio padre usar ..
+
+*** superyank
+    usar Alt-p o Shift-Alt-p para ciclar entre el reg de yanks
+*** tagbar
+    instalar desde el apt exuberant ctags
+    en el directorio correr ctags files en este caso en tcl1 ctags *.tcl
+    luego con tagbar (keybindeado a F4) te aparece el resumen de proc o clases 
+    y metodos. Interesante en proyectos complejos

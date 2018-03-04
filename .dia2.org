@@ -505,3 +505,43 @@ alla de escribir con outline y usar un poco de fechas no hago mas
 nada, pq ni busco ni hago agenda. y lo que se pierde es el feedback
 mientras se va programando.
 
+* [2018-03-04 Sun]  
+  Este fue un finde que parece largo pq vine el viernes al mediodia.
+  La semana pasada fue fructifera pq saque lo de la escritura viniendo a mitad 
+  de semana. Y acomode lo de la comida, no comiendo en la oficina y comiendo 
+  en la casa, ayudado por las hamburguesas y haber ido al mercado una vez a la 
+  semana.
+  Tambien la programacion mejoro bastante pq con el tomatimer de atom cumpli 
+  rigurosamente las pausas y limpie el dpto y no me aliene de mas en la compu, 
+  mientras que hice avances considerables en la programacion, que me dejaban 
+  conforme. No parece pero una programacion te lleva muchos detalles que se te 
+  pasan y tener que sacarlos adelante hace que se te vaya el tiempo. En 
+  especial cuando uno estupidamente se empecina en solucionar cosas que a 
+  veces no tienen solucion facil. O a veces hay que optar todo tiene su 
+  ventaja y desventaja.
+  Estas semanas estuve encantado con TCL y en empezar de nuevo de cero viendo 
+  que los datos ingresados no contengan errores.
+  No importa que uno tenga que pasar tiempo programando.
+
+  Lo de este finde fue diferente pq me reinocule con el virus vim.
+  Volvi con ganas de volver a programar en vim, me agarro de nuevo algo que 
+  veo en los escritos que habia pasado en el 2016. Y por las mismas razones.
+  Este finde estuve mucho en esto, en la locura de los plugins y en especial 
+  en hacer funcionar el vimorganizer, para tener todo en uno. Y ya casi estoy, 
+  pq en realidad no es mucho lo que uso en orgmode, y el solo hecho de que 
+  pueda seguir editando los archivos sin arruinarlos ni cambiarlos, y luego 
+  pueda abrirlos en emacs si cambio de idea esta bien.
+  O sea que ahora tengo un IDE bastante decente para programar y tengo orgmode 
+  bastante funcional para acompañar en el mismo sitio.
+
+  Respecto al finde en general debo decir que no puedo entender pq soy como 
+  soy. No se justifica que siempre este contra alguien, en vez de estar bien 
+  con todos, asi como estoy bien con el Fede, y con la Cami, pq no le hice ver 
+  a la Romi y a ih que estaba bien con ellas tambien que no tenia nada contra 
+  ellas. Y aprovechar el finde de otra forma. Si la semana basta y sobra para 
+  programar. Y no tengo apuro para tener el programa.
+  Pq el negocio pasa por otro lado, pq estoy programando por otro lado, falta 
+  mucho para reemplazar todo.
+  Debo seguir con un sistema mixto.
+
+  
