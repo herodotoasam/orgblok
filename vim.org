@@ -34,3 +34,13 @@ que mezcle undos y redos.
 
 
     
+* arreglos en vim para mayor eficiencia
+** buffer previo y next con [ ]
+** apertura rapida de archivos usados frecuentes con ;6 ;7 etc
+** apertura de orgblock ;9  Explore
+** reinicio de pomodoro con ;0 
+** magit facil
+   inicio con :Magit
+   stash con S
+   commit con CC
+
