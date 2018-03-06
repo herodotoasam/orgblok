@@ -218,5 +218,9 @@ dia.
 apt-get install lsb
 ** el driver de scaner no me funciono
 * desactivar el mousepad de la notebook
+  sudo modprobe -r psmouse 
+* instalar fzf 
+   git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+   ~/.fzf/install
 
 

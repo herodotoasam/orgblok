@@ -82,6 +82,15 @@ para no confundir, o sea con los casos de vencimientos ya vencidos.
     de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
     luego yo hago el asiento por dia en global por el total.
 
+*** Control de planillas
+    un tbls para las planillas en crudo donde se podra borrar y editar 
+    comision y viaticos y un tbls tree a la izq sumador actualizado que 
+    mostrara todo lo cobrado por dia para poder hacer el asiento.
+    
+*** Faltaria la emision de Lotes desde aca 
+    esto completaria la funcionalidad del programa sin la parte tablero de 
+    control.
+
 ** Bugs e ideas
 *** DONE bug de busqueda padron femenino por dni
 buscar p.e. 5359959 vega maria o buscar por dni a savid silvia
