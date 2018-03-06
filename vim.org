@@ -25,7 +25,11 @@
 te lleva adelante o atras a los cambios reales hechos en el archivo e
 incluso permanece tras cerrar el archivo. Ideal para volver donde
 estabamos.
-
+** C-r en insersion mode
+   te aparece unas comillas y alli puedes poner el numero de registro que 
+   quieres insertar.
+   se puede ver en :reg
+   es de destacar el . (dot) que es todo lo ultimo insertado
 
 * Aspectos que son interesantes
 ** un undo y redo separado e ilimitado.
@@ -33,7 +37,7 @@ Incluso con horario que lo vas viendo. En emacs te confunde un poco el
 que mezcle undos y redos.
 
 
-    
+   
 * arreglos en vim para mayor eficiencia
 ** buffer previo y next con [ ]
 ** apertura rapida de archivos usados frecuentes con ;6 ;7 etc
@@ -66,3 +70,4 @@ que mezcle undos y redos.
     en el directorio correr ctags files en este caso en tcl1 ctags *.tcl
     luego con tagbar (keybindeado a F4) te aparece el resumen de proc o clases 
     y metodos. Interesante en proyectos complejos
+

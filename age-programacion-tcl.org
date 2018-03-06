@@ -57,6 +57,31 @@ operacion, con el valor de la compra.
 Restar los pagos realizados y obtener el saldo de la cuenta, y a
 continuacion las cuotas a pagar. Alli se deberia ver el tema del vto
 para no confundir, o sea con los casos de vencimientos ya vencidos.
+
+** Recibos
+*** Desisto de la idea de Recorrido y sus procesos
+    le añade una capa de complejidad al asunto y no ha demostrado ser util 
+    para prevenir lo unico que vale la pena en la entrada de datos en pasado 
+    de recibos que seria no equivocar el numero de cuenta. O bien revisas 
+    bien, o bien chequeas a posteriori. No es admisible pasar mal un recibo.
+    Y esa idea del recorrido no es mas viable como preventivo.
+    
+*** No tantas facilidades para entrar el numero de cuenta y recibo
+    joder que tambien hay que trabajar. O sea en multiples cuentas permanece 
+    el tbl otras cuentas para el dobleclick y se puede mover el numeral del 
+    recibo arriba y abajo y si filtra la cuenta por cobrador.
+
+*** Separo el proceso de control de planillas al de caja
+    la caja sera indelegable.
+    No puede dependerse que la empleada pase el asiento.
+    Tampoco se puede tener los asientos masivos pq son molestos y hacen perder 
+    a los demas asientos. 
+    (Incluso me gustaria que gastos cotideanos se fundieran en planillas 
+    generales, como p.e. el almuerzo de la cami).
+    El pasado de la planilla ahora pasa a la tabla planillas y luego al tree 
+    de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
+    luego yo hago el asiento por dia en global por el total.
+
 ** Bugs e ideas
 *** DONE bug de busqueda padron femenino por dni
 buscar p.e. 5359959 vega maria o buscar por dni a savid silvia
@@ -78,6 +103,8 @@ haga el trigger o sea que uno solo toggee el campo condonada de 1 a 0
 y de 0 a 1.
 el problema es que no se podra hacer desde ventas.tcl pq tenes que ver
 la venta.
+Ojo que tengo que hacerlo en tcl hoy me equivoque y condone mal y no
+podia descondonar. en Ventas con el buscador?
 *** DONE arreglar el bug de clientes.cuota que todos tienen el mismo valor
 - State "DONE"       from "TODO"       [2018-02-28 mié 10:49]
 debe ser un error en trigger que no pone el numero de idcliente.
@@ -120,6 +147,7 @@ un error de tipeado sacando los saltos de linea hasta que desaparezcan.
     ya que el campo solo admite numeros tiene dos bind que aumentan 
     /decrementan el numero
 
+*** TODO Agregado de calles,barrios,zonas nuevas
 ** tips y workarounds
 *** format %0.0f $var para expresar el valor entero
     :DEADLINE: <2018-04-03 Tue>
@@ -138,3 +166,16 @@ poner format %%0.0f
     y claro no lo iba a hacer pq al estar entre llaves no se evaluaban las 
     variables cobr y fecha. Lo tenia que pasar entre comillas. para que se 
     evaluen.
+
+*** recordar cuando no anda un bind en tbs que es [tbls bodytag]
+     en especial <Delete> es un nombre valido, pero ya van varias veces que 
+     confundo esto
+*** inversa de format
+     [scan $total \$%f]
+     o sea desformateo la cadena total con el formato cur, y escapeo el signo 
+     pesos para despojarlo de su valor
+*** reniegue con un select para sacar la cantidad de recibos
+    solo queria select distinct rbo from pagos where cobr y fecha x
+    pero cuando hacia el count no me funcionaba.
+    lo solucione directamente haciendo un llength del searchcolumn del tbls 
+    loterecibos y listo.
