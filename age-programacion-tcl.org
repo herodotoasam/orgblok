@@ -188,6 +188,13 @@ poner format %%0.0f
     pero cuando hacia el count no me funcionaba.
     lo solucione directamente haciendo un llength del searchcolumn del tbls 
     loterecibos y listo.
+    
+*** cuando en un select la cosa parece que no anda fijarse si es una fecha
+    y la fecha entrecomillarla en comillas simples
+    ej:
+    tbl expandir "select x,y,z from tabla where campo=$nodo"
+    y resulta que el nodo es una fecha, entonces usar comillas simples
+
 * Roadmap
 ** Recibos
 *** Editar recibos individual
