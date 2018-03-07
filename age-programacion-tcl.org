@@ -194,6 +194,22 @@ poner format %%0.0f
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
     
+*** Emitir lotes de recibos
+    quizas me inclino por una sola hoja no dos no importa la cantidad.
+    Como resolver la excepcion de 750 y 731 que ambos casos seria problematico 
+    amoldar aunque no imposible (monica que traiga sumado, yo sumo los recibos 
+    y cuento como hago con todo el mundo y le hago firmar la planilla como 
+    viene firmando las planillas, y el pablo igual) 
+    Por eso evaluar la complejidad de emitir una planilla a voluntad aparte.
+
 ** Ventas
 *** Condonadas
     que sea simple rapido y pueda ser reversible
+    
+** Bugs generales
+   
+*** tbls
+    
+**** al recalc se desacomodan los anchos de columna
+**** el bind n que cambia de row a cell no vuelve a row
+**** no estan mas los bind de orden por teclado a/z
