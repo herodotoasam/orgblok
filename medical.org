@@ -97,7 +97,7 @@ una y soportar la jornada, pq vengo desde ayer no soportando los
 embates normales del trabajo.
 * medicacion
 ** ibuprofeno
-CLOCK: [2018-03-05 lun 19:47]--[2018-03-05 lun 19:54] =>  0:07
+:CLOCK: [2018-03-05 lun 19:47]--[2018-03-05 lun 19:54] =>  0:07
    :<2018-03-01 Thu>
 | Fecha            | cnt | sintomas                     |
 |                  |  65 | 0                            |
@@ -316,36 +316,37 @@ vie .+1w>
 :END:
 ** migral
 | Fecha            | cnt | hora        |   |   |
-| [2017-11-20 lun] |   1 | 20.23hs     |   |   |
-| [2017-11-25 sáb] |   1 | 12hs        |   |   |
-| [2017-11-27 lun] |   1 | 01am        |   |   |
-| [2017-11-28 mar] |   1 | 16hs        |   |   |
-| [2017-12-01 vie] |   1 | 16hs        |   |   |
-| [2017-12-06 mié] |   1 | 13hs        |   |   |
-| [2017-12-07 jue] |   1 | 15hs        |   |   |
-| [2017-12-10 dom] |   1 | 4 am        |   |   |
-| [2017-12-13 mié] |   1 | 16hs        |   |   |
-| [2017-12-15 vie] |   1 | 15hs        |   |   |
-| [2017-12-19 mar] |   1 | 15hs        |   |   |
-| [2017-12-22 vie] |   1 | 15.30hs     |   |   |
-| [2017-12-28 jue] |   1 | 15.30hs     |   |   |
-| [2017-12-29 vie] |   1 | 16hs        |   |   |
-| [2018-01-02 mar] |   1 | 23.30hs     |   |   |
-| [2018-01-07 dom] |   1 | 22hs        |   |   |
-| [2018-01-19 vie] |   1 | 2 am        |   |   |
-| [2018-01-20 sáb] |   1 | 15hs        |   |   |
-| [2018-01-22 lun] |   1 | 19hs        |   |   |
-| [2018-01-25 jue] |   2 | 16 y 19hs   | l |   |
-| [2018-01-28 dom] |   1 | 17hs        |   |   |
-| [2018-01-31 mié] |   1 | 21hs        |   |   |
-| [2018-02-03 sáb] |   1 | 11hs        |   |   |
-| [2018-02-04 dom] |   1 | 23hs        |   |   |
-| [2018-02-08 jue] |   1 | 01.30 hs am |   |   |
-| [2018-02-11 dom] |   1 | 18.30hs     |   |   |
-| [2018-02-17 sáb] |   1 | 18.30hs     |   |   |
-| [2018-02-20 mar] |   1 | 16.30hs     |   |   |
-| [2018-02-24 sáb] |   1 | 4.00 am     |   |   |
-| [2018-03-05 lun] |   1 | 18.30hs     |   |   |
+| [2017-11-20 lun] | 1   | 20.23hs     |   |   |
+| [2017-11-25 sáb] | 1   | 12hs        |   |   |
+| [2017-11-27 lun] | 1   | 01am        |   |   |
+| [2017-11-28 mar] | 1   | 16hs        |   |   |
+| [2017-12-01 vie] | 1   | 16hs        |   |   |
+| [2017-12-06 mié] | 1   | 13hs        |   |   |
+| [2017-12-07 jue] | 1   | 15hs        |   |   |
+| [2017-12-10 dom] | 1   | 4 am        |   |   |
+| [2017-12-13 mié] | 1   | 16hs        |   |   |
+| [2017-12-15 vie] | 1   | 15hs        |   |   |
+| [2017-12-19 mar] | 1   | 15hs        |   |   |
+| [2017-12-22 vie] | 1   | 15.30hs     |   |   |
+| [2017-12-28 jue] | 1   | 15.30hs     |   |   |
+| [2017-12-29 vie] | 1   | 16hs        |   |   |
+| [2018-01-02 mar] | 1   | 23.30hs     |   |   |
+| [2018-01-07 dom] | 1   | 22hs        |   |   |
+| [2018-01-19 vie] | 1   | 2 am        |   |   |
+| [2018-01-20 sáb] | 1   | 15hs        |   |   |
+| [2018-01-22 lun] | 1   | 19hs        |   |   |
+| [2018-01-25 jue] | 2   | 16 y 19hs   | l |   |
+| [2018-01-28 dom] | 1   | 17hs        |   |   |
+| [2018-01-31 mié] | 1   | 21hs        |   |   |
+| [2018-02-03 sáb] | 1   | 11hs        |   |   |
+| [2018-02-04 dom] | 1   | 23hs        |   |   |
+| [2018-02-08 jue] | 1   | 01.30 hs am |   |   |
+| [2018-02-11 dom] | 1   | 18.30hs     |   |   |
+| [2018-02-17 sáb] | 1   | 18.30hs     |   |   |
+| [2018-02-20 mar] | 1   | 16.30hs     |   |   |
+| [2018-02-24 sáb] | 1   | 4.00 am     |   |   |
+| [2018-03-05 lun] | 1   | 18.30hs     |   |   |
+| [2018-03-07 Wed] | 1   | 13.30hs     |   |   |
 
 ** DONE VitC
 :SCHEDULED: <2017-09-29 vie>
@@ -1069,6 +1070,22 @@ louse muy freekimente, lo cierto que fue media hora muy patetica y muy
 danina y media hora de dormitar y me levante con jaqueca fuerte y no
 tenia ibu, me puse a tomar la jarra de licuado y termine con un
 migral, lamentable por partida doble.
+** [2018-03-07 mie]
+   termino tomando un migral al volver de ofi, luego de tomar un ibu alla a la 
+   mañana, y no se pq estoy cayendo a este estado cefaleico. Que va acompañado 
+   quiero cronicar aca de malos pensamientos, o sea de una catarata de malos 
+   pensamientos, o sea p.e. puntualmente ahora venia caminando de  la ofi y en 
+   vez de estar bien conmigo mismo me sentia mal y en realidad focalizaba en 
+   lo malo en especial mirando a una equis persona que va caminando adelante o 
+   a una equis tipologia de persona. Lo cual no es para nada normal ni logico, 
+   pero pasa, y la siesta de hace dos dias fue de lo mas patetica pq fue un 
+   reconcentrado de pensamientos negativos. Al menos recien cuando llegue y me 
+   tire en la cama antes de decidir tomar el migral y escribir esto me puse a 
+   leer el resumen de louise y ahi vi una parte que demorar la decision del 
+   cambio se hace mediante "estar ocupado, incluso trabajar" y es lo que hago, 
+   y cuando lei otro que es un ejercicio de espejo que consiste en amarse 
+   completamente como uno es, me dije que no puedo, y me pregunto pq y ahi 
+   quedo. 
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

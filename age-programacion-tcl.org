@@ -188,3 +188,12 @@ poner format %%0.0f
     pero cuando hacia el count no me funcionaba.
     lo solucione directamente haciendo un llength del searchcolumn del tbls 
     loterecibos y listo.
+* Roadmap
+** Recibos
+*** Editar recibos individual
+    como en el viejo pasador de recibos.
+    esa funcion siempre fue inigualable y ultrasimple
+    
+** Ventas
+*** Condonadas
+    que sea simple rapido y pueda ser reversible

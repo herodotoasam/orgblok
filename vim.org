@@ -71,3 +71,12 @@ que mezcle undos y redos.
     luego con tagbar (keybindeado a F4) te aparece el resumen de proc o clases 
     y metodos. Interesante en proyectos complejos
 
+    
+** insertar fecha emulando fecha inactiva de orgmode
+:put =strftime('[%F %a]')
+put =strftime('[%F %a]')
+*** [2018-03-07 mié]
+    entrada del dia 
+**** [2018-03-07 mié]
+     entrada del dia
+        

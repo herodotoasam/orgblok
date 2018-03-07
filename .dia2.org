@@ -545,3 +545,46 @@ mientras se va programando.
   Debo seguir con un sistema mixto.
 
   
+* [2018-03-07 mie]
+
+** tema candente como reacciono a que me critiquen
+   Me entero que el Fede le pregunta a la Cami que hago yo en el dia y eso me 
+   pone furioso.
+   Me pongo a la defensiva y me pongo mal.
+   Felizmente pienso que debo preservar a la Cami (algo en mi me dice que 
+   cualquier -cualquier- filtracion asi sea a ih o al Fede o a la misma Cami 
+   sobre disconformidades o quejosidad mia sobre el trabajo de la Cami, seria 
+   una mancha irreparable tanto para la Cami, como para mi como para la 
+   relacion mia con la Cami). Y de eso soy bien consciente, y por eso me cuido 
+   en pensar bien y no echar moco.
+   Trato de calmarme y ver bien las cosas.
+   Estoy en el banco y me irrita la cola del banco.
+   Pienso en lo que dijo el Fede, y pienso que estar alli es parte de mi 
+   trabajo, y podria agravarlo pensando en esto otro. Que se ha agravado en 
+   estos dias con los errores descubiertos.
+   No obstante me pongo a leer las siete hojas de regexp en tcl 8.1.  Super 
+   freaky.
+   Pero termino y me olvide del tema.
+   Luego pienso que iba a hacer dos cosas, iba a controlar las ventas e iba a 
+   evaluar cuantos errores encontraba y si realmente era valido estar 
+   preocupado.
+   Hasta el momento los hechos son estos: el programa era super error-prone o 
+   sea era productor de error, y yo no le habia dado instrucciones a la Cami 
+   de que debia cuidarse el error y/o controlarse como parte del trabajo. Lo 
+   cierto es que ella mas alla de la fachada de desfachatez es muy 
+   responsable. No la puedo culpar de lo que no estaba establecido y de lo que 
+   no le habia pedido. Estos ultimos dos dias le dije de buena forma que 
+   debiamos poner atencion especial en controlar que no hubiese errores en los 
+   numeros de cuenta, y en revisar, y cuando me puse a revisar las planillas, 
+   hete aqui que ya lo habia hecho ella. O sea que tenemos a hoy, un programa 
+   que solo acepta numeros de cuenta, y una instruccion de revisar que antes 
+   no estaba, y una instruccion de controlar que antes no estaba.
+   Me queda controlar para atras todo el mes que estuvo ella para ver cuantos 
+   recibos encuentro.
+   El tema es que los daños que parecen leves son irreparables. O sea no 
+   quiero cometer con ella lo que ya hice con la Romi, o sea quiero pensarmelo 
+   bien.
+   Y con respecto al Fede tambien. No me voy a enganchar en esta volteada de 
+   que me critiquen. Yo se que lo que hice es genial y que mi trabajo vale. Y 
+   los resultados ya se veran.
+
