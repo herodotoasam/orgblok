@@ -58,39 +58,6 @@ Restar los pagos realizados y obtener el saldo de la cuenta, y a
 continuacion las cuotas a pagar. Alli se deberia ver el tema del vto
 para no confundir, o sea con los casos de vencimientos ya vencidos.
 
-** Recibos
-*** Desisto de la idea de Recorrido y sus procesos
-    le añade una capa de complejidad al asunto y no ha demostrado ser util 
-    para prevenir lo unico que vale la pena en la entrada de datos en pasado 
-    de recibos que seria no equivocar el numero de cuenta. O bien revisas 
-    bien, o bien chequeas a posteriori. No es admisible pasar mal un recibo.
-    Y esa idea del recorrido no es mas viable como preventivo.
-    
-*** No tantas facilidades para entrar el numero de cuenta y recibo
-    joder que tambien hay que trabajar. O sea en multiples cuentas permanece 
-    el tbl otras cuentas para el dobleclick y se puede mover el numeral del 
-    recibo arriba y abajo y si filtra la cuenta por cobrador.
-
-*** Separo el proceso de control de planillas al de caja
-    la caja sera indelegable.
-    No puede dependerse que la empleada pase el asiento.
-    Tampoco se puede tener los asientos masivos pq son molestos y hacen perder 
-    a los demas asientos. 
-    (Incluso me gustaria que gastos cotideanos se fundieran en planillas 
-    generales, como p.e. el almuerzo de la cami).
-    El pasado de la planilla ahora pasa a la tabla planillas y luego al tree 
-    de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
-    luego yo hago el asiento por dia en global por el total.
-
-*** Control de planillas
-    un tbls para las planillas en crudo donde se podra borrar y editar 
-    comision y viaticos y un tbls tree a la izq sumador actualizado que 
-    mostrara todo lo cobrado por dia para poder hacer el asiento.
-    
-*** Faltaria la emision de Lotes desde aca 
-    esto completaria la funcionalidad del programa sin la parte tablero de 
-    control.
-
 ** Bugs e ideas
 *** DONE bug de busqueda padron femenino por dni
 buscar p.e. 5359959 vega maria o buscar por dni a savid silvia
@@ -197,6 +164,34 @@ poner format %%0.0f
 
 * Roadmap
 ** Recibos
+*** DONE Desisto de la idea de Recorrido y sus procesos
+    le añade una capa de complejidad al asunto y no ha demostrado ser util 
+    para prevenir lo unico que vale la pena en la entrada de datos en pasado 
+    de recibos que seria no equivocar el numero de cuenta. O bien revisas 
+    bien, o bien chequeas a posteriori. No es admisible pasar mal un recibo.
+    Y esa idea del recorrido no es mas viable como preventivo.
+    
+*** DONE No tantas facilidades para entrar el numero de cuenta y recibo
+    joder que tambien hay que trabajar. O sea en multiples cuentas permanece 
+    el tbl otras cuentas para el dobleclick y se puede mover el numeral del 
+    recibo arriba y abajo y si filtra la cuenta por cobrador.
+
+*** DONE Control de planillas
+    un tbls para las planillas en crudo donde se podra borrar y editar 
+    comision y viaticos y un tbls tree a la izq sumador actualizado que 
+    mostrara todo lo cobrado por dia para poder hacer el asiento.
+    
+*** DONE Separo el proceso de control de planillas al de caja
+    la caja sera indelegable.
+    No puede dependerse que la empleada pase el asiento.
+    Tampoco se puede tener los asientos masivos pq son molestos y hacen perder 
+    a los demas asientos. 
+    (Incluso me gustaria que gastos cotideanos se fundieran en planillas 
+    generales, como p.e. el almuerzo de la cami).
+    El pasado de la planilla ahora pasa a la tabla planillas y luego al tree 
+    de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
+    luego yo hago el asiento por dia en global por el total.
+
 *** Editar recibos individual
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
@@ -210,13 +205,23 @@ poner format %%0.0f
     Por eso evaluar la complejidad de emitir una planilla a voluntad aparte.
 
 ** Ventas
-*** Condonadas
+*** DONE Condonadas
     que sea simple rapido y pueda ser reversible
+    se hizo una busqueda ampliada en el tab Detalle en vez de mostrarte una 
+    venta te muestra todas las ventas del cliente cuyo idvta pones, y alli 
+    podes ver cual queres condonar.
+    Con F3 condonas o descondonas, como hay triggers que calculan el saldo 
+    automatico, no hay problema en la reversibilidad del asunto
     
 ** Bugs generales
    
 *** tbls
     
 **** al recalc se desacomodan los anchos de columna
-**** el bind n que cambia de row a cell no vuelve a row
+**** DONE el bind n que cambia de row a cell no vuelve a row
+     no habia un bind <n> sino que parecia lo que habia era un cambio del 
+     selecttype que pasaba a ser cell cuando uno apretaba l o h y por eso 
+     parecia que funcionaba el viejo bind n, pero ahora todo es automatico o 
+     sea cambia el selecttype unicamente cuando nos movemos en la direccion 
+     apropiada
 **** no estan mas los bind de orden por teclado a/z

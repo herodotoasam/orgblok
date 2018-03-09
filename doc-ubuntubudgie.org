@@ -222,5 +222,17 @@ apt-get install lsb
 * instalar fzf 
    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
    ~/.fzf/install
+[[http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/] 
+[Pagina de fzf]]
+en especial notar que en bash con C-r se busca muy eficientemente en la 
+historia del bash lo cual arregla todos los problemas que uno tuvo con el bash 
+en especial el tema anular touchpad con el modprobe o hacer un commit etc.
 
+
+* corregir speeddating (plugin necesario en vimorganizer)
+        agregar en ~/.vim/plugged/vim-speeddating.vim
+
+        SpeedDatingFormat %Y-%m-%d%[ T_-]%a
+        donde %a es la parte de la fecha que maneja la abreviatura del nombre 
+        del dia.
 
