@@ -1,5 +1,8 @@
 :cd /home/hero/tcl1
 set lines=40 columns=130
+set path+=**
+set cm=blowfish2 
+set relativenumber
 
 call plug#begin('~/.vim/plugged')
 Plug 'mileszs/ack.vim'
@@ -13,19 +16,50 @@ Plug 'mattn/calendar-vim'
 Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'vim-scripts/Tagbar'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug '~/.fzf' 
+Plug 'tpope/vim-speeddating'
+Plug 'altercation/vim-colors-solarized'
+Plug 'morhetz/gruvbox'
 call plug#end()
+
+
+"ver los espacios en blanco o tabs mal puestos
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 
 syntax on
 filetype plugin indent on
+if has('gui_running')
+        set background=light
+        colorscheme gruvbox
+    else
+            set background=dark
+            colorscheme darkblue
+        endif
+
+"tweaks for netrw
+let g:netrw_banner=0
+let g:netrw_browse_split=4
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+let g:netrw_listhide=netrw_gitignore#Hide()
+let g:netrw_listhide=',\(^\|\s\s\)\zs\.\S\+'
+
 
 "requerido por VimOrganizer
     au! BufRead,BufWrite,BufWritePost,BufNewFile *.org 
 au BufEnter *.org            call org#SetOrgFileType()
 :let g:agenda_dirs=["/home/hero/orgblok/"]
+:let g:agenda_files = ['/home/hero/orgblock/vim.org','/home/hero/orgblock/edu-vim.org']
 
 "requerido por air
 set laststatus=2
+let g:airline_section_z='%t'
 
 "requerido para que Ack use ag
 if executable('ag')
@@ -49,8 +83,7 @@ let g:jedi#popup_on_dot = 0
 let g:jedi#show_call_signatures = 2
 let g:jedi#completions_enabled = 0
 
-colorscheme evening
-let g:airline_theme='kolor'
+let g:airline_theme='gruvbox'
 
 set nocompatible
 set modelines=0
@@ -98,13 +131,13 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-nnoremap <C-up> :bp<cr>
-nnoremap <C-down> :bn<cr>
-nnoremap <C-right> :tabNext<cr>
-nnoremap <C-left> :tabprevious<cr>
+"nnoremap <C-up> :bp<cr>
+"nnoremap <C-down> :bn<cr>
+"nnoremap <C-right> :tabNext<cr>
+"nnoremap <C-left> :tabprevious<cr>
 
 nnoremap q :q<cr>
-nnoremap <C-w> :w<cr>
+nnoremap <C-s> :w<cr>
 
 "quoting a word
 nnoremap e ciw'<C-r>"'<Esc> 
@@ -115,12 +148,15 @@ nnoremap s I#<Esc>j
 "cargardatoscliente del viejo .vimrc
 set nobackup
 set noswapfile
-set guifont=Liberation\ Mono\ 12
+"set guifont=Liberation\ Mono\ 12
+set guifont=FantasqueSansMono\ 14 
 set guioptions-=r
 set guioptions-=T
 set guioptions-=m
 
-inoremap <expr> <C-f> strftime("%d-%m-%y",localtime())
+"inoremap <expr> <C-f> strftime("%d-%m-%y",localtime())
+inoremap <C-f> <C-R>=strftime('[%F %a]')<cr>
+map <C-f> :put =strftime('[%F %a]')<cr>
 
 :map ;0  :call tomato#reset()
 :map ;v  :e /home/hero/.vimrc<cr>
@@ -148,8 +184,8 @@ nnoremap <S-Left> g;
 """""""""""""""""""""""""" RUN CURRENT FILE """""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Execute current file
-nnoremap <C-z> :w<cr> :call ExecuteFile()<CR>
-nnoremap <C-x> :w<cr> :!wish %<CR>
+"nnoremap <C-z> :w<cr> :call ExecuteFile()<CR>
+nnoremap <C-z> :w<cr> :!wish %<CR>
 
 " Will attempt to execute the current file based on the `&filetype`
 " You need to manually map the filetypes you use most commonly to the
