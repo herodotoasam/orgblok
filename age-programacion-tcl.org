@@ -162,6 +162,28 @@ poner format %%0.0f
     tbl expandir "select x,y,z from tabla where campo=$nodo"
     y resulta que el nodo es una fecha, entonces usar comillas simples
 
+    
+*** usar grid para acomodos complejos y en forma muy simple
+    Ej:
+    grid .a .b .c
+    grid .d - -     #.d estara centrado respecto abc
+    grid .d         #.d estara abajo de de a
+
+    Ej tbls
+    grid .a .b
+    grid .c .d
+    grid .tbls - - - - - - - - - - - - - - - ... # para un tbls 130 de ancho 
+    le hice 29 columnas y podrian haber sido mas y los campos quedaron 
+    anclados a la izq con -steaky w
+    luego abajo puse
+    grid .button -column 29  #y sin necesitar poner el row aparecio en columna 
+    29
+    y abajo puse
+    grid .label - -row 0 -column 28 # y el label uso el espacio de la columna 
+    28 y 29 en la fila 0
+    O sea una recompleja pantalla con un formato muy simple de programar y 
+    mantener donde ni siquiera necesitamos los numeros de row y col
+
 * Roadmap
 ** Recibos
 *** DONE Desisto de la idea de Recorrido y sus procesos

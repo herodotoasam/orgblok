@@ -666,3 +666,41 @@ mientras se va programando.
    
 
 ** afirmaciones adaptadas 
+   
+* [2018-03-11 dom]
+** ergonomia --netbook
+   creo que como las otras otras veces concluyo igualmente que aca es 
+   antiergonomica salvo que decida trabajar o escribir en la cama por alguna 
+   razon, para lo cual no es malo tener un clon. Pero el sillon no es para 
+   escribir ya estar en este escritorio me causa grandes dolores como para 
+   agregarle otros sitios mas antiergonomicos.
+   
+** gran descubrimiento que vale una tableta 10 pulgadas !! qpdf
+   que qpdf te modele un pdf como el que estoy leyendo (mein kampf) que parece 
+   escaneado de hoja en bruto y repesado para todo tipo de lectores que hasta 
+   el moon se traba, es una alegria.
+   Te lo recompone y te lo fluye en una tipografia moderna y facil de leer, 
+   casi o mejor que un epub, y rapido y continuo para pasar sin perdidas ni 
+   espacios en blanco. Algo que te abre la puerta a todo tipo de archivos que 
+   no tienen un buen epub. y el telefono es mas practico para leer por su peso 
+   reducido y por poder llevarlo a todas partes. Por eso pienso que una tablet 
+   de cualquier tamaño queda totalmente sepultada
+** lectura desde cero de los libros de tcl, en especial toolkit
+   quiero hacer una relectura y aprendizaje desde cero de tcl y el toolkit 
+   parece indicado a un precio ultrarazonable en googlelibros para ese tipo de 
+   libros.
+** rearmado de la bitacora en temas
+   pensaba rearmar la bitacora ya sea producto de la relectura o bien de la 
+   reflexion en un formato mas util, como p.e. los objetivos actuales, o las 
+   afirmaciones actuales o los conceptos actuales, cosas asi.
+   p.e. ahora quiero trabajar sobre un par de afirmaciones que creo que van a 
+   cambiar el asunto en relacion al problema basico que nos enfrentamos y 
+   tengo un cambio de vision respecto al ejercicio, quiero liberar un par de 
+   ejercicios para hacerlos a cada rato hasta poder descontracturar, creo que 
+   el objetivo de consolidar lo logrado con esta baja de 8kg bastante 
+   localizada en donde nos hacia falta es muy positivo y hasta tambien se 
+   puede apoyar con afirmaciones.
+   
+** hoy estoy contento que me vuelvo feliz pq no choque con nadie y estuve bien
+   asi quiero ser y creo que la pasamos bien y podemos disfrutar del tiempo en 
+   familia.
