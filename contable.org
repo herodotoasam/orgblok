@@ -21,3 +21,16 @@ tres tarjetas pq pagamos la de la Carla
 |-------------------------------+-------|
 | subtotal                      |  4843 |
 |                               |       |
+
+
+* [2018-03-12 lun] Debito Ospe romina
+  Romina debita Ospe de su cuenta $8967
+  De ahi paga su cuota 25 del Up $4236 y le quedan netos para devolver a la 
+  operacion de Nani $4731, con lo cual la deuda Nani queda en $30269 a la 
+  fecha.
+
+  En mis cuentas, como yo habia pagado naranja el sabado 12mil y pico, y ella 
+  me estaria dando para el Up mediante el pago de ospe, yo en mi contabilidad 
+  pongo que pague ospe, ahi tengo que me salen 9k, y pongo que ella me ingresa 
+  los 4731 en devolucion, y a su vez no registro que la naranja la pague a 12k 
+  si no que anoto lo que cada uno pago. 

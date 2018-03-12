@@ -704,3 +704,8 @@ mientras se va programando.
 ** hoy estoy contento que me vuelvo feliz pq no choque con nadie y estuve bien
    asi quiero ser y creo que la pasamos bien y podemos disfrutar del tiempo en 
    familia.
+
+* [2018-03-12 lun]
+** Fabuloso aprender bien tcl
+   con un tema aprendido sobre grid que increiblemente no sabia ya creo que 
+   pagaria el libro y quedan un monton

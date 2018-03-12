@@ -225,6 +225,14 @@ poner format %%0.0f
     y cuento como hago con todo el mundo y le hago firmar la planilla como 
     viene firmando las planillas, y el pablo igual) 
     Por eso evaluar la complejidad de emitir una planilla a voluntad aparte.
+**** tendria que tener impresion postuma de lote
+     muchas veces se da la perdida de una planilla y se puede querer 
+     reimprimirla
+
+**** busqueda de recibo dentro de los lotes
+     para el caso de que a un cobrador le falte un recibo y queremos 
+     rastrearlo a ver si ese recibo ya fue asignado.
+     o fue usado.
 
 ** Ventas
 *** DONE Condonadas

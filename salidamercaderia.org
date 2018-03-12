@@ -521,7 +521,7 @@ vacaciones Monica - [2018-01-13 sáb]--[2018-01-31 mié]
 ** DONE sab pb2 torres
 - State "DONE"       from "TODO"       [2017-09-26 mar 10:48]
 ** DONE SOTO LORENA SOLEDAD 3518010272 que llame y quede de acuerdo
-SCHEDULED: <2017-10-02 lun>
+:SCHEDULED: <2017-10-02 lun>
 - State "DONE"       from "TODO"       [2017-09-29 vie 15:07]
 para cobrar y llevar una sabana, se mudo a guido y europa.
 ** DONE caso Ponce Norma
@@ -573,7 +573,7 @@ mas barata con la Monica en cuotas creo que 6x80
 1 plaza / se retirara y se anulara la venta. El cobrador dice que esta
 desteñida, no vale la pena conservar el cliente alli.
 ** TODO Homamay 1325
-SCHEDULED: <2017-10-16 lun>
+:SCHEDULED: <2017-10-16 lun>
 Gramajo Braian - llamo la madre que vive en Liceo y vendra el lunes a
 cambiar por PB2 6x195 pq dice que hizo pelotitas hasta en la funda
 [2017-10-19 jue] raro paga la primera a Magali rbo 251496 140 
@@ -586,12 +586,12 @@ reclama que las sabanas se destiñeron al segundo lavado que son de
 mala calidad pero en ese momento paga $330 cubriendo 1 y 2 cuota y un
 poco mas.
 ** DONE sesse 3238 
-SCHEDULED: <2017-10-25 mié>
+:SCHEDULED: <2017-10-25 mié>
 - State "DONE"       from "IMPROV"     [2016-11-02 mié 15:11]
 cambiar sabana azul LH2 por una clara enviar
 cambiada por una clarita con hojitas verdes por el 773
 ** DONE alumnine 2221
-SCHEDULED: <2017-10-23 lun>
+:SCHEDULED: <2017-10-23 lun>
 - State "DONE"       from "TODO"       [2017-10-27 vie 15:12]
 cambiar sabana azul LH2 
 cambiada por una clarita con hojitas verdes por 154
@@ -632,11 +632,11 @@ recuperados ver en la cobranza de ese dia
 
 * Preguntar Fede
 ** DONE pedir queen!!
-SCHEDULED: <2017-09-21 jue>
+:SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-20 mié 22:00]
 
 ** DONE plantear que Lesta aclare que LH son microfibra
-SCHEDULED: <2017-09-21 jue>
+:SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "IDEA"       [2017-09-21 jue 14:55]
 
 
@@ -646,7 +646,7 @@ SCHEDULED: <2017-09-21 jue>
 
 * Tareas
 ** DONE Revisar si todas las planillas de promotores estan pasadas a pc
-SCHEDULED: <2017-09-22 vie>
+:SCHEDULED: <2017-09-22 vie>
 - State "DONE"       from "IDEA"       [2017-09-22 vie 14:18]
 eso explicaria la diferencia.
 encontre que falime y daniela no estaban pasados, por casi 11k y vales
@@ -654,13 +654,13 @@ por 1k mas.
 Hice un formato condicional para que use dos cuentas vales promotores
 y liquidaciones promotores por el momento y se me facilite las cosas.
 ** DONE imprimir fichas elva de ventas nuevas
-SCHEDULED: <2017-09-21 jue>
+:SCHEDULED: <2017-09-21 jue>
 - State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
 ** DONE comprar carpetas 12
-SCHEDULED: <2017-09-22 vie>
+:SCHEDULED: <2017-09-22 vie>
 - State "DONE"       from "TODO"       [2017-09-22 vie 17:36]
 ** DONE poner aviso  
-SCHEDULED: <2017-09-22 vie>
+:SCHEDULED: <2017-09-22 vie>
 - State "DONE"       from "TODO"       [2017-09-22 vie 17:36]
 
 
@@ -724,4 +724,7 @@ cuesta 20900
 2x1190
 3x7900
 9x3000
+
+* Recibos faltantes
+  [2018-03-12 lun] 800 263181
 
