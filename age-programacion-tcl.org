@@ -219,16 +219,18 @@ poner format %%0.0f
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
     
-*** Emitir lotes de recibos
+*** DONE Emitir lotes de recibos
     quizas me inclino por una sola hoja no dos no importa la cantidad.
     Como resolver la excepcion de 750 y 731 que ambos casos seria problematico 
     amoldar aunque no imposible (monica que traiga sumado, yo sumo los recibos 
     y cuento como hago con todo el mundo y le hago firmar la planilla como 
     viene firmando las planillas, y el pablo igual) 
     Por eso evaluar la complejidad de emitir una planilla a voluntad aparte.
-**** tendria que tener impresion postuma de lote
+**** DONE tendria que tener impresion postuma de lote
      muchas veces se da la perdida de una planilla y se puede querer 
      reimprimirla
+     Eso fue una papa, pq hice un proc aparte para imprimirlote y con doble 
+     click con un bind en el tbls de lotes reimprimo.
 
 **** busqueda de recibo dentro de los lotes
      para el caso de que a un cobrador le falte un recibo y queremos 
@@ -256,3 +258,8 @@ poner format %%0.0f
      sea cambia el selecttype unicamente cuando nos movemos en la direccion 
      apropiada
 **** no estan mas los bind de orden por teclado a/z
+** Improv posibles
+
+*** mejorar una class cell que emule la class de fpdf de python o bien hacer 
+    un wrapper a python en ese sentido para cuando necesitemos un pdf con mas 
+    detalle
