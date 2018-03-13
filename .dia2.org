@@ -748,3 +748,66 @@ mientras se va programando.
    negocio, buenos tratos con la familia y buenos pensamientos. Lo unico que 
    falta es salir a sargear y conseguir algo pero es por falta de tiempo que 
    no se sale, y bueno ya llegara el tiempo para eso.
+* [2018-03-13 mar]
+** situacion de cobradores
+   hoy cuando creia tener la vaca atada se cae de golpe el armazon, y no pq se 
+   caiga el animo o nada, sino por enfermedad, me avisa el 802 que esta con 
+   fiebre y el 800 ayer llego tarde pq estaba descompuesto y en la zona no 
+   hizo nada. O sea una caida de dos jornales en dias pico. 
+   Lo del 800 lo puedo arreglar dandole al 801 MT como apoyo lo que le vendria 
+   bien y de ultima tengo al 750 como valvula de ayuda para la zona 
+   olmedo/hernandez. Asi se debe manejar un sistema asi. Bajo el principio de 
+   la no propiedad de la zona. El que falta pierde la zona. 
+
+** replanteo moto x2
+   por una parte pienso que puede que las caracteristicas sean parecidas al 
+   sony, pantalla 5.2 vs 5.5, igual bateria, casi igual procesador, casi igual 
+   memoria. Pero no es asi:
+*** 64gb de almacenamiento interno
+    o sea olvidate a los parametros actuales del problema falta de espacio 
+    para una aplicacion. Calculo que tambien se debe llenar pero es mas 
+    dificil. En cambio con los actuales te obliga a la sd externa y ahi viene 
+    el quebradero de cabeza con el s.o.
+*** lector de huellas/uso sin botones virtuales
+    el lector para desbloqueo y poder eliminar los botones virtuales 
+    permitirian si es que los programas hacen uso de eso de una mayor fluidez 
+    en la navegacion pq el boton virtual agrega una capa de tiempo perdido y 
+    delay, p.e. en moon se ve siempre eso. 
+    Y lo del lector de huellas le da una seguridad que el patron numerico o 
+    demas le da pero a un costo ridiculo en molestias para el usuario.  O bien 
+    tenes que andar en pelo como yo con el xperia arriesgando todo.
+*** posibilidad de usarlo sin funda!!!
+    eso es "funda"mental para mi, pq representa un contrasentido que un 
+    telefono se tenga que usar con una funda. Y no lo digo tanto por el 
+    apartado estetico solamente (pensar nomas en la estetica del telefono de 
+    la politi de borderliner - que creo que es un moto z- si este estuviera 
+    enfundado con un case) sino en la perdida de funcionalidad de las teclas y 
+    en la molestia a la camara que se produce. En mi caso observe que la 
+    camara siempre se vio ofuscada por la funda y las teclas tambien 
+    estuvieron ralentizadas por las fundas, y hay casos que son extremos.
+*** mejor camara
+    aunque eso fue lo que me movio a buscar el sony y al final quede 
+    decepcionado, no solo pq no sirvio nunca para fotos, nunca saco buenas 
+    fotos, nunca grabo buenos videos, siempre fue dificil sostenerlo y demas, 
+    siempre vi que el moto g 4 de ih sacaba buenas fotos comparado con el mio.
+*** posibilidad de ver netflix
+    no se pq razon en el sony no se ve netflix quizas sea por el android 
+    viejo.
+*** solucionable el problema de la carga a media tarde
+    o bien con un mod power a bajo costo tenes un super power extra. o tenes 
+    la supercarga de media hora, y se se soluciona el engorro del cargador 
+    magnetico del sony.
+*** sistema operativo nuevo
+    con el sony estoy clavado en el 5.1 y este viene con el 7.1.1 en cierta 
+    forma ya hay diferencias que se van perdiendo   
+** situacion de tiempo en oficina
+   estamos sobrantes de tiempo tanto la cami como yo.
+   Pasadas todas las ventas, y emitidos todas las zonas, no queda nada para 
+   hacer que tengamos ganas de hacer, lo bueno es que tengo la caja al dia.
+   El conteo del viernes dio exacto, y con respecto al stock no creo que valga 
+   la pena gastarse en demasia, sino mas bien dejar que se agote la mercaderia 
+   que hay y ver como diagramar un sistema de control futuro.
+   Con ambos temas con el tema tiempo-oficina y con el tema moto-x2 pienso que 
+   me planteo una cuestion de tener que ser proclive al sacrificio.
+
+   No tendria que preocuparme por tener una temporada asi.

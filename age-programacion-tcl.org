@@ -213,7 +213,8 @@ poner format %%0.0f
     El pasado de la planilla ahora pasa a la tabla planillas y luego al tree 
     de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
     luego yo hago el asiento por dia en global por el total.
-
+*** TODO pasar recibos de mostrador y de Fede
+    habilitar paso con lote cero
 *** Editar recibos individual
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
