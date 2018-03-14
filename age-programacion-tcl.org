@@ -21,6 +21,18 @@ falta.
 ***** vacuum
 achica a casi la mitad la base de datos
 ***** pragma integrity_check
+**** mas test y backup inicial
+     hice un db backup inicial para por las dudas automatizar el tema antes de 
+     cualquier test
+     hice el borrado de los pdf
+     file delete {*}[glob -nocomplain *.pdf]
+     con eso borro sin problemas todos los archivos pdf antes de hacer el 
+     test.
+     genere el test y agregue un test mas.
+     Esta bueno esto del test pq aparte es como una documentacion viviente de 
+     lo que vamos limpiando y aparte un control de auditoria futuro de que ese 
+     bug no se repetira y si se repite lo detectaremos. 
+
 ** Verificacion de entrada de datos en la Venta
 *** Verificacion visual de datos corregidos
 hacer un tbs donde se vean los campos aclaracion/horario/msgcobr etc
@@ -237,6 +249,12 @@ poner format %%0.0f
      rastrearlo a ver si ese recibo ya fue asignado.
      o fue usado.
 
+**** reformas en oficina
+     hoy le hice algunos toquesitos en la oficina: que imprima directo a lpr.
+     que tenga el numero de cobrador que no tenia.
+     que tome la fecha de lote que tomaba el today.
+*** Emitir Fichas
+este seria el proximo paso
 ** Ventas
 *** DONE Condonadas
     que sea simple rapido y pueda ser reversible
