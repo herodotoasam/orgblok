@@ -709,7 +709,7 @@ los 17 o veamos.
 * retiro mercaderia
 ** 773
 *** [2017-11-13 lun] 3 sab 1pl PB
-* Cortina Nir $625 a pagar en dos veces
+* Deuda Nir
 [2018-01-26 vie] paga $300 la primer cuota de la cortina y queda para
 el mes proximo el saldo de $300
 [2018-01-26 vie] saca dos toallones y paga $250 y quedan dos cuotas de
@@ -717,6 +717,8 @@ el mes proximo el saldo de $300
 [2018-01-26 vie] ERROR EN LA LIQUIDACION se le abono sin descontarle
 $1000 de vales 
 Total deuda $1800
+[2018-03-15 jue] compra 2 PB1 para el padre en 3cuotas 580 abona 1ra.
+Debe 10/4 $580 / 10/5 $580
 * kelvin costo
 clases empiezan 17 de abril  martes y jueves 11 a 13hs y terminan en
 Noviembre
@@ -726,7 +728,6 @@ cuesta 20900
 9x3000
 
 * Recibos faltantes
-  [2018-03-12 lun] 800 263181
 
 
 * fabricacion cortinas

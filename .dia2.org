@@ -839,3 +839,45 @@ mientras se va programando.
    que falta, total me puedo arreglar con lo que hay en ese hibrido en 
    general.
    La pausita.
+** posdata
+   luego de banarme y demas lei un rato largo y segui con los videos de 
+   distintos aparatos y luego me levante a comer mientras vi medio capitulo de 
+   borderline y me fui a acostar y no pude conciliar el sueno. Aunque tome 
+   aparte del clonagil una SL me desvele hasta las 1 am. Pienso que culpa de 
+   la siesta.
+
+* [2018-03-15 jue]
+** el virus del aparato
+   muy frecuentemente ultimamente pierdo tiempo en la busqueda y analisis de 
+   aparatos que supuestamente podria llegar a comprar para mejorar la 
+   adquisicion de contenido que en realidad no hago ( o sea ironicamente para 
+   ver videos que no veo, o peliculas que no veo, o leer pdf que no leo) y
+   paradojicamente se trata de aparatos con una capacidad de hardware similar 
+   al que ya tengo y un software que todos conocemos a esta altura que es solo 
+   para los ojos o sea un monton de chiches nomas pero la funcionalidad 
+   basicamente es la misma, o puede ser peor.
+** esquema de estudio del ingles
+   creo que el abordaje de anki esta equivocado pq esta basado en el 
+   smartphone y por lo tanto promueve una repeticion muy aislada de terminos 
+   que no estan anclados en la memoria y cuestan memorizarlos entonces no se 
+   hace la practica.
+   La idea seria hacer unas hojas tematicas donde se agrupen las palabras 
+   semejantes y agregarle los fragmentos de practica de donde proviene o sea 
+   el contexto.
+   p.e. thought therefore thus althought 
+   Entonces el repaso tendria mas sentido, y seria mas fertil.
+   Aparte la lectura o seguimiento de un curso basico de gramatica para la 
+   teoria cosa de detectar los modos verbales. 
+   (Es como en tcl saber que comandos como expr o if evaluan expresiones 
+   aritmeticas)
+
+** pausita en la programacion
+   pienso que con lo que tengo programado ya puedo arreglarmelas un tiempo y 
+   que tendria que ocuparme en documentar todo lo hecho y perfeccionar lo 
+   hecho y seguir aprendiendo y hacerlo de manera mas organica.
+** si no es ahora cuando
+   pienso que los cambios que no haga ahora no los hare mas.
+   y esa negativa a hacer los cambios me esta matando.
+   Asi como si se pudo bajar de peso creo que se podria generar un esquema de 
+   ejercicio localizado para terminar la obra.
+

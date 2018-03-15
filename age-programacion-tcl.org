@@ -253,6 +253,7 @@ poner format %%0.0f
      hoy le hice algunos toquesitos en la oficina: que imprima directo a lpr.
      que tenga el numero de cobrador que no tenia.
      que tome la fecha de lote que tomaba el today.
+*** TODO Asignacion de zonas
 *** Emitir Fichas
 este seria el proximo paso
 ** Ventas
@@ -264,10 +265,21 @@ este seria el proximo paso
     Con F3 condonas o descondonas, como hay triggers que calculan el saldo 
     automatico, no hay problema en la reversibilidad del asunto
     
-** Bugs generales
-   
+** dni.tcl
+*** aviso popup de seven o lista negra mas claros
+*** DONE lista de cuentas buscadas para historial con fecha/hora
+*** favoritos de cuentas para guardar casos que se puedan referenciar
+*** posibilidad de cargar numero telefono nuevo directamente en la cuenta
+idem otros ingresos de datos
+*** lista de eventos pendientes linkables a cuenta con fecha/hora
+pe una pestana con lista de clientes a visitar por motivos, cambios
+cobro o venta y q sea linkable a la cuenta directo
+*** posibilidad de subir al seven desde la app como un dato mas
+*** listado de cuentas revisables por zona
+*** TODO buscar por numero de cuenta en el movil
+*** TODO posibilidad de ver la lista de los docs pedidos
+* Bugs generales
 *** tbls
-    
 **** al recalc se desacomodan los anchos de columna
 **** DONE el bind n que cambia de row a cell no vuelve a row
      no habia un bind <n> sino que parecia lo que habia era un cambio del 
@@ -276,8 +288,7 @@ este seria el proximo paso
      sea cambia el selecttype unicamente cuando nos movemos en la direccion 
      apropiada
 **** no estan mas los bind de orden por teclado a/z
-** Improv posibles
-
+* Improv posibles
 *** mejorar una class cell que emule la class de fpdf de python o bien hacer 
     un wrapper a python en ese sentido para cuando necesitemos un pdf con mas 
     detalle

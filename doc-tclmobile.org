@@ -66,6 +66,8 @@ pe una pestana con lista de clientes a visitar por motivos, cambios
 cobro o venta y q sea linkable a la cuenta directo
 ** posibilidad de subir al seven desde la app como un dato mas
 ** listado de cuentas revisables por zona
+** buscar por numero de cuenta en el movil
+** posibilidad de ver la lista de los docs pedidos
 * Prueba de trabajo para decidir TCL frente a python
 tendria que programar un modulo que fuera similar a uno y ver la
 funcionalidad y simpleza para que podamos ver si tenemos algo que sea

@@ -1667,8 +1667,8 @@ establecer nuevas pautas, caiga quien caiga:
 5. vales no superen 50 por cada venta entregada
 si no les gusta que se vayan a la mierda y pongo gente nueva.
 ** atraso en el paso de los papeles
-CLOCK: [2017-10-10 mar 21:09]--[2017-10-10 mar 21:45] =>  0:36
-CLOCK: [2017-10-10 mar 19:53]--[2017-10-10 mar 20:23] =>  0:30
+:CLOCK: [2017-10-10 mar 21:09]--[2017-10-10 mar 21:45] =>  0:36
+:CLOCK: [2017-10-10 mar 19:53]--[2017-10-10 mar 20:23] =>  0:30
 por eso me traje las ventas aca.
 voy a clockear el pasado a ver cuanto me lleva pasar las ventas
 
@@ -2521,9 +2521,9 @@ preservamos la oficina a la mañana
 
 * pasado de papeles en casa
 ** [2017-11-21 mar]
-CLOCK: [2017-11-22 mié 09:17]--[2017-11-22 mié 10:38] =>  1:21
-CLOCK: [2017-11-22 mié 08:16]--[2017-11-22 mié 09:04] =>  0:48
-CLOCK: [2017-11-21 mar 21:50]--[2017-11-21 mar 22:31] =>  0:41
+:CLOCK: [2017-11-22 mié 09:17]--[2017-11-22 mié 10:38] =>  1:21
+:CLOCK: [2017-11-22 mié 08:16]--[2017-11-22 mié 09:04] =>  0:48
+:CLOCK: [2017-11-21 mar 21:50]--[2017-11-21 mar 22:31] =>  0:41
 pasados tres chicos 154/796/697 pero cansado pq en el medio llamado
 por telefono y cansancio del dia. sigo mañana.
 48 minutos pase brian solo pero intente solucionar un bug que encontre

@@ -9,7 +9,7 @@ solo color, y si lo has roto automaticamente se recomienza.
 
 * Lista de habitos alimenticios
 ** TODO tomar agua con limon
-SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2017-11-27 lun .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-25 sáb 15:36]
 - State "DONE"       from "TODO"       [2017-11-24 vie 21:53]
@@ -24,7 +24,7 @@ SCHEDULED: <2017-11-27 lun .+1d>
 :END:
 
 ** TODO tomar agua de lino 
-SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2017-11-27 lun .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-25 sáb 15:36]
 - State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
@@ -42,7 +42,7 @@ SCHEDULED: <2017-11-27 lun .+1d>
 
 
 ** TODO licuados
-SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2017-11-27 lun .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
 - State "DONE"       from "TODO"       [2017-11-23 jue 18:45]
@@ -116,7 +116,7 @@ SCHEDULED: <2017-11-27 lun .+1d>
 
 
 ** TODO Mezcla de cereales
-SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2017-11-27 lun .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 20:00]
 - State "DONE"       from "TODO"       [2017-11-25 sáb 15:36]
 - State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
@@ -200,7 +200,7 @@ funcione solo.
 |              |                  |                 |
 * Lista de habitos en ejercicio
 ** TODO Hacer las tres series
-SCHEDULED: <2018-01-12 vie .+1d>
+:SCHEDULED: <2018-01-12 vie .+1d>
 - State "DONE"       from "TODO"       [2018-01-11 jue 20:46]
 - State "DONE"       from "TODO"       [2017-10-26 jue 20:13]
 - State "DONE"       from "TODO"       [2017-10-24 mar 20:17]
@@ -279,7 +279,7 @@ SCHEDULED: <2018-01-12 vie .+1d>
 - State "DONE"       from "TODO"       [2016-10-20 jue 21:06]
 - State "DONE"       from "TODO"       [2016-10-19 mié 13:58]
 ** TODO Ejerc Espalda
-SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2017-11-27 lun .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-25 sáb 15:36]
 - State "DONE"       from "TODO"       [2017-11-24 vie 21:52]
@@ -340,7 +340,7 @@ SCHEDULED: <2017-11-27 lun .+1d>
 |    |                            |                           |
 ** 3x12
 ** TODO Caminar expresamente 
-SCHEDULED: <2017-10-22 dom .+2d>
+:SCHEDULED: <2017-10-22 dom .+2d>
 - State "DONE"       from "TODO"       [2017-10-19 jue 21:45]
 - State "DONE"       from "TODO"       [2017-10-18 mié 21:29]
 - State "DONE"       from "TODO"       [2017-10-17 mar 20:02]
