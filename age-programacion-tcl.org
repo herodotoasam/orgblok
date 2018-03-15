@@ -276,8 +276,11 @@ pe una pestana con lista de clientes a visitar por motivos, cambios
 cobro o venta y q sea linkable a la cuenta directo
 *** posibilidad de subir al seven desde la app como un dato mas
 *** listado de cuentas revisables por zona
-*** TODO buscar por numero de cuenta en el movil
-*** TODO posibilidad de ver la lista de los docs pedidos
+*** DONE buscar por numero de cuenta en el movil
+    ya esta se busca por cuenta y rbo   
+*** DONE posibilidad de ver la lista de los docs pedidos
+    solo con actualizar tenes la lista en el movil, una vez que tengamos la 
+    interface en la oficina actualizada mejor
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
