@@ -1,5 +1,5 @@
 :cd /home/hero/tcl1
-set lines=40 columns=130
+set lines=50 columns=130
 set path+=**
 set cm=blowfish2 
 set relativenumber
@@ -39,7 +39,7 @@ if has('gui_running')
         colorscheme gruvbox
     else
             set background=dark
-            colorscheme darkblue
+            colorscheme solarized
         endif
 
 "tweaks for netrw
@@ -137,6 +137,7 @@ nnoremap <C-l> <C-w>l
 "nnoremap <C-left> :tabprevious<cr>
 
 nnoremap q :q<cr>
+nnoremap wq :wq<cr>
 nnoremap <C-s> :w<cr>
 
 "quoting a word
@@ -148,8 +149,8 @@ nnoremap s I#<Esc>j
 "cargardatoscliente del viejo .vimrc
 set nobackup
 set noswapfile
-"set guifont=Liberation\ Mono\ 12
-set guifont=FantasqueSansMono\ 14 
+set guifont=Liberation\ Mono\ 12
+"set guifont=FantasqueSansMono\ 14 
 set guioptions-=r
 set guioptions-=T
 set guioptions-=m

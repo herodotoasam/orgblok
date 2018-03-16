@@ -290,6 +290,22 @@ cobro o venta y q sea linkable a la cuenta directo
     relevantes de un tbls.
     fecha de intimacion en el campo del lado para no repetir intimaciones
   
+*** botonera doble de seleccion
+    en solo 24 lineas de codigo hice una botonera doble de seleccion 
+    automatica, salen los cobradores en marcha, y el cobrador abre sus zonas.
+    Deja para los tbls muy usados de asignacion de zona la tarea de marcar y 
+    desmarcar las zonas.
+    Ya con esto hecho luego es facil hacer abajo un tbls con diferentes 
+    columnas seleccionadas por la zona que elejimos arriba y luego hacer 
+    procesos de intimacion y marcado de ultima intimacion etc. subida al 
+    seven, etc.
+
+*** TODO Asignacion de zonas
+**** Borrado de zonas
+**** verificacion de zonas inactivas
+**** asignacion de dias alternados
+     eso permitiria p.e. que en la interface botonera se pudiera ver 
+     facilmente la que corresponde para hoy 
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
