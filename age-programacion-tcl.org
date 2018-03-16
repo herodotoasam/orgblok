@@ -281,6 +281,15 @@ cobro o venta y q sea linkable a la cuenta directo
 *** DONE posibilidad de ver la lista de los docs pedidos
     solo con actualizar tenes la lista en el movil, una vez que tengamos la 
     interface en la oficina actualizada mejor
+
+** Control
+*** Morosos
+    lista automatica para generar intimaciones de acuerdo a la ultima fecha 
+    pagada
+    facil toggeo de intimar o subir a seven con letra sobre los valores 
+    relevantes de un tbls.
+    fecha de intimacion en el campo del lado para no repetir intimaciones
+  
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna

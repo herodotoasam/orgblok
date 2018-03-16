@@ -881,3 +881,80 @@ mientras se va programando.
    Asi como si se pudo bajar de peso creo que se podria generar un esquema de 
    ejercicio localizado para terminar la obra.
 
+* [2018-03-16 vie]
+** plan de estudios
+   hace mucho que no hacia un plan de estudios. Pero como viene la situacion 
+   laboral este año creo que no estaria mal establecer un plan de estudios 
+   acorde para mi gusto. [ver excurso sobre lo que podria estar haciendo en 
+   vez de esto, pero en realidad coincide con lo que dice louse hay]
+*** ingles
+    le quiero meter fichas al ingles. Empezar de nuevo en forma organica.
+    o sea la lectura de una gramatica y un vocabulario que empiece de nuevo no 
+    el aburridisimo anki.
+    hay herramientas geniales en la web para aprender
+*** tcl
+    ya habia empezado con la lectura del libro toolkit que tiene la virtud de 
+    que empieza desde cero pero con un criterio dirigido a programadores o sea 
+    que hay para aprender de ahi. 
+    La otra vez antes de programar todo en python y cambiar la bocha a python 
+    me habia planteado aprender tcl desde cero, pero no se dio, pq se plantea 
+    como una sensacion, o como un desafio. Uno tiene mas cosas en comun con 
+    tcl (pariente de sqlite, nativo de tk, nativo de tablelist y bwidget y 
+    como si fuera poco androwish) pero python te atraia por la cantidad de 
+    material a tu disposicion la cantidad de libros y cosas.  Pero en realidad 
+    lo mismo no profundice tampoco en python sino que perdi la mayoria del 
+    tiempo en adaptar o wrapear estas cosas que tenia directo en python y nada 
+    mas. Y quedando en falta en algunas otras. Por eso que pienso que el libro 
+    de Ousterhout tiene el rigor suficiente y la amplitud suficiente como para 
+    lograr expertise en un lenguage que te sirve para todos los propositos que 
+    necesitas. Y tambien la idea es pasar de la etapa inicial a una etapa 
+    experta y eso solo se hace aprendiendo. 
+*** vim
+    o la herramienta que sea necesaria para que uno lleve adelante la tarea, 
+    en este caso creo que es mas simple que emacs y el orgmode en vim va mas 
+    rapido y es mas lindo, incluso juntandolo con zsh o fzs 
+    aca lo mejor es no perderse en la herramienta sino no perder lo actuado y 
+    esto lo he logrado con git y orgmode fundamentalmente donde todo queda 
+    registrado para referencia futura. Puede que alguna vez quiera volver a 
+    emacs y entonces estare listo para recuperar lo que hice. Como ahora que 
+    tengo todo anotado, idem con python y con tcl.
+
+
+** excurso uso alternativo del tiempo
+   ayer pensaba cuando veia netflix que si existiera la vida de los 
+   protagonistas de netflix no existiria netflix, pq como plataforma para que 
+   exista necesita ser invasiva y completamente fisurante, como pasa con los 
+   juegos y en general los protagonistas son personas que viven vidas 
+   interesantes pero no pasan tanto tiempo viendo tv sino que salen 
+   continuamente y aparte tienen obligaciones y eso no cuadra con la vida 
+   real. O sea estariamos no solo con una disonancia de tipo imagen fisica 
+   como quizas se ve la juventud al ver una chica ficticia que no existe en la 
+   realidad pq en la forma en que esta maquillada o iluminada o photoshopeada 
+   no es real, sino estariamos frente a una ficcion de tipo 
+   temporal/energetica en la cual el patron de vida que se plantea en las 
+   personas que se nos muestran en las series en el tiempo comprimido por la 
+   trama se presenta una realidad que no es real. Donde se ve en pocos y 
+   breves minutos algo bello o interesante pero no lo que esta detras. (ya lo 
+   habiamos visto en la banda del golden rocket en donde los protagonistas que 
+   son chicos bastante escasos de fondos, tanto como para no tener sirvientes 
+   nunca se vieron teniendo que limpiar o lavar los platos, cuando esas dos 
+   cosas son rutina basica de todos los putos dias cuando vivis solo y te 
+   altera la existencia.).
+   Ayer veia en Borderline que en un dpto sueco a todo culo los protagonistas 
+   levantan los platos de una fiestita que tuvieron y quizas ese si se pueda 
+   pagar una domestica por el nivel economico que tiene y es mas razonable.
+   Tienen aparatos de tv modernos todos, incluso en series politicas desde el 
+   desayuno estan viendo CNN, pero no creo que parte importante del dia lo 
+   lleve el "ver series". Yo me considero un usuario intermedio de netflix y 
+   me lleva muchisimo tiempo, y eso que puedo ver siendo que vivo solo 
+   "mientras" como y eso no se deberia contar, ni eso ni mientras mateo. 
+   Descontando eso hay dias como ayer que casi no vi mucho.
+
+   Volviendo al uso alternativo del tiempo sabemos lo que significa pero el 
+   problema es que hay que hacer la transformacion mental para estar bien en 
+   todos los sentidos. No se trata de decir tengo otra cosa que hacer y no la 
+   hago. Seria como si quisiera intentar hacer algo distinto a lo que 
+   realmente hago ahora, o sea lo que quiero.
+** plan de trabajo
+
+*** documentar lo programado
