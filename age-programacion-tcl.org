@@ -283,14 +283,26 @@ cobro o venta y q sea linkable a la cuenta directo
     interface en la oficina actualizada mejor
 
 ** Control
-*** Morosos
+*** TODO Morosos
     lista automatica para generar intimaciones de acuerdo a la ultima fecha 
     pagada
     facil toggeo de intimar o subir a seven con letra sobre los valores 
     relevantes de un tbls.
     fecha de intimacion en el campo del lado para no repetir intimaciones
-  
-*** botonera doble de seleccion
+**** bind para subir al seven
+     poner subirseven=1 en clientes y colorearlo en azul en el listado
+**** bind para emitir intimaciones por lote
+     y anotar en fechaintim la fecha para poder saber cuando se intimo asi 
+     poder enviarlas regularmente. Pq de eso se trataria.
+**** poner una incobrabilidad transitoria para el cobrador
+     pasa que el cobrador que gestiona una zona te pasa ya un caso como mudado 
+     o incobrable y entonces uno ya no quiere mandarle intimacion entonces lo 
+     pone incobrable o mudado y ya queda perdido pero le gustaria seguir 
+     molestando si cambio la zona de manos. Por lo cual podria ser cambiarle 
+     la zona a bured o sea enterrada por ahora, puede ser hacer zonas gemelas 
+     con dash -Cabildo etc o poner un campo que indique que se puede volver a 
+     poner la ficha.
+*** DONE botonera doble de seleccion
     en solo 24 lineas de codigo hice una botonera doble de seleccion 
     automatica, salen los cobradores en marcha, y el cobrador abre sus zonas.
     Deja para los tbls muy usados de asignacion de zona la tarea de marcar y 
@@ -299,6 +311,12 @@ cobro o venta y q sea linkable a la cuenta directo
     columnas seleccionadas por la zona que elejimos arriba y luego hacer 
     procesos de intimacion y marcado de ultima intimacion etc. subida al 
     seven, etc.
+
+*** Teoria sobre estos tabs de control
+    la doble botonera es rapidisima. Es mucho mejor que cualquier otro sistema 
+    de vision de zona.
+    y las visiones parciales o sea ver -12/-3 o atras de 12 o -3/ahora creo 
+    que permite una mejor administracion que poner todo junto.
 
 *** TODO Asignacion de zonas
 **** Borrado de zonas
