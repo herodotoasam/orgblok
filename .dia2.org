@@ -987,3 +987,55 @@ mientras se va programando.
      ocupado de mas y no poder hacer cosas que me interesarian.
 
 
+* [2018-03-18 dom]
+** mas sobre el plan de estudios
+   creo que podria considerar mi situacion actual como una virtual jubilacion, 
+   donde puedo seguir realizando un trabajo a tiempo parcial y disfrutar de un 
+   retiro parcial de mediodia y dentro de esos horarios desarrollar el plan de 
+   estudios. Tambien puedo considerarlo como un año sabatico.
+
+*** TCL 
+    obviamente la columna es el texto comprado y tambien la revision de la 
+    documentacion como hicimos ayer con el commando scan, incluye la practica 
+    de los ejemplos, y el hacer los cuadros o tarjetas con los comandos. P.e. 
+    caso comandos format y scan, o bien regexp para tener un manejo mas 
+    profesional. Quiza un manejo de tarjetas sea mas rapido a la hora de 
+    programar que andar buscando en las documentaciones y eso contribuye a 
+    fijar. Y tambien facilita el repaso.
+*** ingles
+    encontre varias apps que incluso podria eventualmente comprar (todas no 
+    superan los 2 dolares c/u) Nnglish muy buena y divertida con un nivel 
+    altito y explicativo no aburre y permite repasar las palabras que vamos 
+    aprendiendo permitiendote a vos mismo marcar cuales palabras queres 
+    aprender. Hasta ahora va bien, para hacerlo en cualquier momento del dia, 
+    como un juego. Y quizas esa sea la clave, yo habia leido que un tipo que 
+    sabia no se cuantos idiomas decia que estudiar por 15 minutos cada vez era 
+    lo mas indicado pq permitia avanzar ya que la mente se encontraba fresca, 
+    y aca tenes el smart que lo tenes siempre con vos (menos mal que no me 
+    compre la tablet!!!) y una app que esta siempre al toque para practicar 
+    cuando queramos un ratito. Y que sea divertida. 
+    La otra de la BBC esta buena pq tiene articulos leidos por locutores 
+    nativos de 6 minutos de largo para enfatizar algunas palabras y permite 
+    entrar bastante. y la tercera es tambien interesante pq es una gramatica 
+    basica con ejercicios. Uniendo las tres encuentro que no me aburra.
+*** filosofia
+    dificil seria elegir la tercera materia que fuera interesante y que 
+    aportara algo interesante y lograra un nivel que sirviera de contrapeso a 
+    lo otro, pq pe quedarme en lo otro o poner otro tema de computadoras 
+    dejaria muy sesgado mis pensamientos, volver a Feinmann era una asignatura 
+    pendiente para algun dia, y porque no ahora. 
+    Siempre me dije que la filosofia era como mi religion, -no practicada-, y 
+    porque esperar. No da para esperar. 
+    El texto sera filo y el barro de la historia, que tengo en ambos formatos, 
+    y mas que eso las 8 temporadas de filo aqui y ahora. Creo que esa sera la 
+    columna vertebral de estimulo para ahondar en el el texto y darle cabida.
+    Si vamos al caso pongamos 80 capitulos de media hora son 40 horas, son 4 
+    series de netflix no es tanto y hablamos de multiples temas que dan para 
+    una reflexion bastante interesante.
+** sobre el plan de ejercicios
+   releyendo en el cerebro de pan capitulo ejercicios que esta marcado ahora 
+   dice que debo destinar 20 minutos por dia a caminar minimo. Y pensaba 
+   levantarme temprano y hacerlo antes de ir a oficina, lo cual veo casi 
+   imposible y agregaria mas presion a la siesta fatidica.
+   hacerlo despues de comer?
+
