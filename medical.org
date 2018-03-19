@@ -351,6 +351,8 @@ vie .+1w>
 | [2018-03-07 mié] | 1   | 13.30hs     |   |   |
 | [2018-03-09 vie] | 1   | 1.30 am     |   |   |
 | [2018-03-11 dom] | 1   | 18hs        |   |   |
+| [2018-03-16 vie] | 1   | 18hs        |   |   |
+| [2018-03-19 lun] | 1   | 2.30hs am   |   |   |
 
 ** DONE VitC
 :SCHEDULED: <2017-09-29 vie>
@@ -1130,6 +1132,12 @@ migral, lamentable por partida doble.
   segui con otra sesion larga de programacion donde se fueron las causas del 
   patetismo y el fracaso y todo salio bien y sali adelante y hasta este 
   momento al menos se fue el momento critico
+
+* [2018-03-19 lun]
+  casi segui la misma pauta que la semana anterior con migral el viernes y 
+  domingo. Anoche me desperte con cefalea y tome es raro despertarse, el del 
+  viernes fue quizas medio al pedo. 
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
