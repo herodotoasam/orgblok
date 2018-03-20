@@ -289,11 +289,14 @@ cobro o venta y q sea linkable a la cuenta directo
     facil toggeo de intimar o subir a seven con letra sobre los valores 
     relevantes de un tbls.
     fecha de intimacion en el campo del lado para no repetir intimaciones
-**** bind para subir al seven
+**** DONE bind para subir al seven
      poner subirseven=1 en clientes y colorearlo en azul en el listado
-**** bind para emitir intimaciones por lote
+**** DONE bind para emitir intimaciones por lote
      y anotar en fechaintim la fecha para poder saber cuando se intimo asi 
      poder enviarlas regularmente. Pq de eso se trataria.
+     agregue un bind <l> que emite un listado auxiliar que puede ser muy 
+     comodo p.e. para caso como la Monica, que ordeno por fecha de intimacion 
+     y emito el listadito de esas intimaciones.
 **** poner una incobrabilidad transitoria para el cobrador
      pasa que el cobrador que gestiona una zona te pasa ya un caso como mudado 
      o incobrable y entonces uno ya no quiere mandarle intimacion entonces lo 
@@ -324,6 +327,12 @@ cobro o venta y q sea linkable a la cuenta directo
 **** asignacion de dias alternados
      eso permitiria p.e. que en la interface botonera se pudiera ver 
      facilmente la que corresponde para hoy 
+
+*** F13
+**** emision de fichas ya canceladas
+     algo que tuve unicamente en el viejo F13 y que es algo que sirve bastante 
+     para aclarar situaciones, incluso se podria hacer un resumen general de 
+     cuentas.
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
