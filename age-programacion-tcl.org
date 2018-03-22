@@ -333,6 +333,13 @@ cobro o venta y q sea linkable a la cuenta directo
      algo que tuve unicamente en el viejo F13 y que es algo que sirve bastante 
      para aclarar situaciones, incluso se podria hacer un resumen general de 
      cuentas.
+** Fichas  
+*** Normales
+    en vez de poner fecha, colorear la base hasta la fecha de hoy  ordenado 
+    por pmovto siempre se puede incluir mas o menos y siempre se imprimira por 
+    curselection.
+    Los status vendran por coloracion o indicados en los campos, p.e. seven o 
+    intimado, y solo son informativos. 
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
