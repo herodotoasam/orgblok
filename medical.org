@@ -353,6 +353,7 @@ vie .+1w>
 | [2018-03-11 dom] | 1   | 18hs        |   |   |
 | [2018-03-16 vie] | 1   | 18hs        |   |   |
 | [2018-03-19 lun] | 1   | 2.30hs am   |   |   |
+| [2018-03-25 dom] | 1   | 18hs        |   |   |
 
 ** DONE VitC
 :SCHEDULED: <2017-09-29 vie>
@@ -1143,6 +1144,12 @@ migral, lamentable por partida doble.
    bolsillo, arriba de la mesa, al lado de la taza de cafe, y felizmente no lo 
    he tomado. y todo pq no tenia ibu casi tomo migral. Y eso que ayer comi 3 
    huevos.
+** [2017-03-26 dom]
+   la llevaba bien hasta el domingo con ibus, y me largue a tomar tintillo por 
+   demas y eso creo que llevo a que me doliera la cabeza y me tome un ibu y un 
+   migral y no basto para limpiar rapido el dolor. Creo que lo que gatillo fue 
+   la preocupacion que me dio la musica fuerte a la siesta del domingo.
+
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
