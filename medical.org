@@ -359,6 +359,10 @@ vie .+1w>
 | [2018-03-25 dom] | 1   | 18hs        |   |   |
 | [2018-03-27 mar] | 1   | 17.30hs     |   |   |
 | [2018-03-30 sab] | 1   | 17.30hs     |   |   |
+| [2018-04-03 mar] | 1   | 14.30hs     |   |   |
+| [2018-04-04 mié] | 1   | 10.30hs     |   |   |
+| [2018-04-06 vie] | 1   | 14hs        |   |   |
+| [2018-04-07 sab] | 1   | 17hs        |   |   |
 
 ** DONE VitC
 :SCHEDULED: <2017-09-29 vie>
@@ -1160,6 +1164,21 @@ migral, lamentable por partida doble.
    punto de un migral, aparte de fuertes dolores de espalda.
    Creo que influye el estres y el alto dolor y tension muscular en el cuello 
    y los hombros y la tension en general
+** [2018-04-04 mié]
+   hace mucho que no tomo un migral en la oficina creo que es el estres de 
+   tanto trabajo por la incorporacion de gente y tambien el cambio de dieta
+
+** [2018-04-06 vie]
+   hace dos noches que despierto a 1.30am con migraña y sin migral, antenoche 
+   sin ibu tampoco, busque corty por las dudas y me dormi y se limpio bien, y 
+   anoche que era mas fuerte, tome un ibu y tambien limpio bien. Lo 
+   interesante es que en ambas noches posiblemente hubiera tomado migral.
+   Creo que es la desintoxicacion. Noto en estos ultimos dos dias un aumento 
+   muy pronunciado de tt. Mas alla del malestar fisico al salir de oficina que 
+   luego atribui a baja presion pero tenia al tomarme 11/8
+** [2018-04-07 sab]
+   los migrales de viernes y sabado ultimos fueron debidos al alto estres que me ocasiono el tema de la firma de la escritura
+   
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

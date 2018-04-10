@@ -730,6 +730,8 @@ cuesta 20900
 * Recibos faltantes
 
 
+** 802 denunciados como extraviados
+   [2018-04-09 lun] 262839-262850
 * fabricacion cortinas
   Leiva Albina Amsterdan 4581 Estacion Flores [2018-03-13 mar] me dijo que 
   tiene una amiga que cose muy responsable que preguntaba si nosotros no 
