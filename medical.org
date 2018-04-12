@@ -84,6 +84,11 @@ jornada de sillon con la compu.
 espalda hasta el punto que con oleo31 tuve masajes el domingo en
 varias oportunidades y poco alivio tuve, y el domingo a la noche y el
 lunes me tome un diclo para aliviar sintomas de inflamacion.
+[2018-04-12 jue] muy mucho dolor hasta el punto que no puedo estar sentado en 
+el sillon de la oficina, o en una silla, y acostado en algunas posiciones.
+Acabo de tomar un ibu no por cabeza sino por espalda, es un dolor puntual en 
+el sector dorsal
+
 *** acidez extrema
 [2017-10-18 mié] hasta el punto de tomar agua para pasar la noche, me
 paso hace dos noches en el marques y hoy tome un gastromax a la mañana
@@ -364,6 +369,8 @@ vie .+1w>
 | [2018-04-06 vie] | 1   | 14hs        |   |   |
 | [2018-04-07 sab] | 1   | 17hs        |   |   |
 | [2018-04-09 lun] | 1   | 16hs        |   |   |
+| [2018-04-11 mie] | 1   | 15hs        |   |   |
+|                  |     |             |   |   |
 
 ** DONE VitC
 :SCHEDULED: <2017-09-29 vie>
@@ -1180,6 +1187,28 @@ migral, lamentable por partida doble.
 ** [2018-04-07 sab]
    los migrales de viernes y sabado ultimos fueron debidos al alto estres que me ocasiono el tema de la firma de la escritura
    
+** [2018-04-12 jue]
+   ayer y hoy sufri procesos muy parecidos. Me acuesto luego de comer bien mas 
+   que todo por dolor de espalda no tanto por sueño (pero me pongo a escuchar 
+   un video y me duermo) y luego me pongo para dormir con gran aparato pq hay 
+   que poner sonidos fuertes con auricular, posicion incomoda, y en si no 
+   logro la tranquilidad para relajarme, y de golpe en un momento se agrava la 
+   migraña a tal punto que se hace muy fuerte, tomando migral y todo ayer, no 
+   cedia y al rato largo, parecia como si no hubiera tomado nada. Recien 
+   cuando decidi salirme pensando que salir me sacaria el dolor (fui a la 
+   farmacia a comprar topiramato y me vine a la oficina mas temprano) el dolor 
+   cedio y se fue y eso que el dia tenia 34° y el sol estaba brillante.  Hoy 
+   iba camino a pasar lo mismo, me acuesto, me dormilo, no iba a dormirme pero 
+   vi que comenzaba la migraña y ahi me levante, me cambie y me puse en 
+   actividad sin proposito claro. O sea no utilitarista. Me tome un licuado, y 
+   vi el freezer y me puse a limpiarlo saque el hielo con el secapelo y tire 
+   todo lo vencido, y luego limpie abajo la peor parte, o sea toda una parte 
+   si se dice fea de la heladera, la peor, (quizas me queda lo mas facil si 
+   decidiera terminar de limpiarla). Pero no viene al caso, el tema es que 
+   estuve agachado, estuve largo rato en el tema y se me paso todo sintoma 
+   hasta ese momento. Luego dije que hago. pq tengo un horario incierto y me 
+   vine a la oficina. Lo que tiene que ver con el cefaleico es que parece que 
+   la migraña esa se hace ahi. 
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
