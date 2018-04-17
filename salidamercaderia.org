@@ -732,6 +732,10 @@ cuesta 20900
 
 ** 802 denunciados como extraviados
    [2018-04-09 lun] 262839-262850
+
+** 805 no rendidos y dejados
+   [2018-04-06 mar]
+   263051-263064 planilla guardada el 14/4 con recibos del 808
 * fabricacion cortinas
   Leiva Albina Amsterdan 4581 Estacion Flores [2018-03-13 mar] me dijo que 
   tiene una amiga que cose muy responsable que preguntaba si nosotros no 

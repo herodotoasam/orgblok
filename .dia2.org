@@ -1295,3 +1295,26 @@ mientras se va programando.
    Y los "alternativos" son mucho mas vivos pq atacan problemas imaginarios o 
    sea atacan problemas supuestos o problemas que insinuan sin ninguna base 
    medica. 
+
+** [2018-04-13 vie]
+*** Sistema de compras por una plataforma electronica
+    un sistema que permitiera comprar en forma facil un set de productos p.e. 
+    sabanas cortinas toallones y acolchados, y que sea solo para clientes, o 
+    sea el cliente se loguea elige el articulo y yo se lo mando por intermedio 
+    de los cobradores.
+    Esa plataforma que puede ir desde lo mas facil y estatico que seria tener 
+    un catalogo para enviar por whatapp o una pagina en fb actualizada o una 
+    pagina web hasta lo mas sofisticado que seria un sitio de compras.
+    Pero en vez de usar un sistema de tarjetas y estar expuesto seria algo 
+    nuestro a credito sin tener de socio al estado.
+
+**** habria que perfeccionar el sistema de logistica
+     emision de pedido, analisis rapido de clientes en su capacidad 
+     crediticia, alta de nuevos clientes.
+
+**** control de catalogo
+     para que la venta sea jugosa
+
+**** con un grupo de 10 cobradores/repartidores 
+     se podria llegar a una distribucion de unos 300k por mes, o sea un lindo 
+     negocito.
