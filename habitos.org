@@ -24,7 +24,9 @@ solo color, y si lo has roto automaticamente se recomienza.
 :END:
 
 ** TODO tomar agua de lino 
-:SCHEDULED: <2017-11-27 lun .+1d>
+:SCHEDULED: <2018-04-20 vie .+1d>
+- State "DONE"       from "TODO"       [2018-04-19 jue 15:31]
+- State "DONE"       from "TODO"       [2018-04-18 mié 15:30]
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-25 sáb 15:36]
 - State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
@@ -37,7 +39,7 @@ solo color, y si lo has roto automaticamente se recomienza.
 - State "DONE"       from "TODO"       [2017-11-16 jue 20:37]
 :PROPERTIES:
 :STYLE:    habit
-:LAST_REPEAT: [2017-11-26 dom 19:59]
+:LAST_REPEAT: [2018-04-19 jue 15:31]
 :END:
 
 
