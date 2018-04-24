@@ -227,9 +227,12 @@ poner format %%0.0f
     luego yo hago el asiento por dia en global por el total.
 *** TODO pasar recibos de mostrador y de Fede
     habilitar paso con lote cero
-*** Editar recibos individual
+*** DONE Editar recibos individual
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
+    hice una tab aparte donde se busca por numero de recibo y se puede cambiar 
+    comodamente el campo y comprobar el resultado, un poco como la simpleza 
+    del jornales pero en su tabla adhoc
     
 *** DONE Emitir lotes de recibos
     quizas me inclino por una sola hoja no dos no importa la cantidad.
