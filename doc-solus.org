@@ -1,0 +1,20 @@
+* instalar TCL
+** pdf4tcl/bwidget/tablelist bajarlos descomprimirlos y copiar la carpeta en 
+   /usr/lib/tcl8.6/
+** si no encontramos algo como Plotchart o Img
+   instalar ActiveTCL en una carpeta de /home y de ahi sacar el directorio y 
+   llevarlo a esa ubicacion
+** Caso especial de ITK ITCL
+   sacarlo de ActiveTCL y copiarlo en /usr/lib64/
+   y listo, no mas complicaciones de compilarlo y demas y aparte tenemos la 
+   ultima version compatible de activetcl.
+* instalar VIM
+  lo unico que hay que instalar es PLUG, buscar en la internet vim plug y ahi 
+  hay un curl de instalacion y se instala solo y luego al abrir vim ponemos 
+  :PlugInstall y listo se instalan todos los plugins en un segundo. 
+* instalar GIT
+  instalar git/xclip
+  ir a la pagina de gitlab y ahi generar una clave de ssh para hacer las 
+  transferencias.
+  ahi estan las instrucciones, no usar clave para que no tengamos que usarla 
+  cada vez que hagamos commit. 
