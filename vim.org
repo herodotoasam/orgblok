@@ -80,6 +80,7 @@ put =strftime('[%F %a]')
 **** [2018-03-07 mié]
      entrada del dia
         
+**** 
 * vimorg    
 ** movimiento de subtrees
    al final tanto lio y se logra con delete y pegado te borra y pega el tree 

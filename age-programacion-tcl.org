@@ -225,8 +225,24 @@ poner format %%0.0f
     El pasado de la planilla ahora pasa a la tabla planillas y luego al tree 
     de control (como tenia en python, (puede ser en dos tabs diferentes aca) y 
     luego yo hago el asiento por dia en global por el total.
+
+*** Planilla de caja de oficina en Zoho???
+    no hay que ser dogmatico y se podria tener una planilla de caja en zoho en 
+    donde anotemos todos los gastos de la oficina ahi y luego los pasemos al 
+    programa de caja de la empresa. La idea es por una parte no olvidarme de 
+    pasar los gastos en eso mejor zoho, mas flexible y visual, se abre facil, 
+    te suma todo y es mas moderno. Luego sumarizo y asiento. Si quiero hacer 
+    un arqueo veo el saldo no pasado y lo anoto, incluso mis gastos tambien 
+    los puedo pasar en zoho. pq no los tengo a mano para analizar de ninguna 
+    manera asi que podria buscar otra forma nueva de llevarlos.
+    En ambos casos tenerla en zoho ya sea caja personal y caja negocio hace 
+    que la tenga en la mano.
 *** TODO pasar recibos de mostrador y de Fede
     habilitar paso con lote cero
+    pasar en tabla pagos un campo que sea el lote que contenia al recibo lo 
+    cual puede ser util a nivel control de pasado de rbos.
+*** pasar recibos fuera de lote cuando se agrego a mano de un lote
+    es poco frecuente pero se termina pasando con jornales.tcl
 *** DONE Editar recibos individual
     como en el viejo pasador de recibos.
     esa funcion siempre fue inigualable y ultrasimple
