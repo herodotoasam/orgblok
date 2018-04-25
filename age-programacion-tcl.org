@@ -237,11 +237,24 @@ poner format %%0.0f
     manera asi que podria buscar otra forma nueva de llevarlos.
     En ambos casos tenerla en zoho ya sea caja personal y caja negocio hace 
     que la tenga en la mano.
-*** TODO pasar recibos de mostrador y de Fede
+    [2018-04-25 mié]
+    hice planillas para oficina y para personal basadas en los gastos reales 
+    de los dos ultimos meses tanto en grilla como en gastos fijos abajo y de 
+    paso me sirve para el control de gastos fijos. Que tanto por ahi me va 
+    molestando dia a dia no saber si lo he pagado.
+    Lo bueno de esto que se puede trabajar en zoho (o en google) y lo tenes 
+    reflejado al instante en el celu y tambien podes cargarlo en el celu.
+    O sea que te da mas posibilidades. O sea trabajas en la pantalla y 
+    chequeas en pantalla.
+    En el caso de  zoho lo bueno es que en el celu se ve mas pulido y te 
+    permite la entrada de fecha/hora con el display de android lo cual es muy 
+    bueno para celu.
+
+*** DONE pasar recibos de mostrador y de Fede
     habilitar paso con lote cero
     pasar en tabla pagos un campo que sea el lote que contenia al recibo lo 
     cual puede ser util a nivel control de pasado de rbos.
-*** pasar recibos fuera de lote cuando se agrego a mano de un lote
+*** DONE pasar recibos fuera de lote cuando se agrego a mano de un lote
     es poco frecuente pero se termina pasando con jornales.tcl
 *** DONE Editar recibos individual
     como en el viejo pasador de recibos.
