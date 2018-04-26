@@ -372,6 +372,14 @@ cobro o venta y q sea linkable a la cuenta directo
     curselection.
     Los status vendran por coloracion o indicados en los campos, p.e. seven o 
     intimado, y solo son informativos. 
+*** Control de plan nuevo
+    se hara integrado en el mismo tab mediante un boton extra que mostrara las 
+    fichas nuevas en principio y luego tendremos un control visual de avance 
+    de cuotas.
+    Ya tengo control basico.
+    Falta el chiche del grafico.
+    que es algo que nunca incorpore a tbls.
+
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
