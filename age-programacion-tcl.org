@@ -296,7 +296,17 @@ este seria el proximo paso
     podes ver cual queres condonar.
     Con F3 condonas o descondonas, como hay triggers que calculan el saldo 
     automatico, no hay problema en la reversibilidad del asunto
-    
+*** validacion de vendedores
+    que no se pueda poner cualquier codigo de vendedor
+*** buscar una nueva forma de validar el cliente
+    p.e. con apellido y num de doc o sea algo unico que obligue a chequear 
+    nombre/numero. 
+    que tal si cargamos en formulario aparte los clientes nuevos y ahi vemos 
+    la busqueda padron.
+
+*** cargar los datos extras que se obtienen correctamente
+    es mejor tener muchos campos que no saber donde cargar los datos
+
 ** dni.tcl
 *** aviso popup de seven o lista negra mas claros
 *** DONE lista de cuentas buscadas para historial con fecha/hora
