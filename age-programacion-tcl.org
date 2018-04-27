@@ -408,6 +408,13 @@ cobro o venta y q sea linkable a la cuenta directo
     Falta el chiche del grafico.
     que es algo que nunca incorpore a tbls.
 
+*** boton de fichas canceladas
+    al lado de nuevas poner canceladas
+    para poder ver p.e. las fichas canceladas
+    supongamos que uno quiere ver si una tanda de intimaciones de una 
+    cobradora tuvo eco, al ver las normales se puede ver si tienen fecha de 
+    intimacion con ese lote, pero puede haber cancelados que no se estaran 
+    viendo. 
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
