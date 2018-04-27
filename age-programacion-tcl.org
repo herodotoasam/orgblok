@@ -372,6 +372,24 @@ cobro o venta y q sea linkable a la cuenta directo
     curselection.
     Los status vendran por coloracion o indicados en los campos, p.e. seven o 
     intimado, y solo son informativos. 
+*** TODO Imprimir desde fichas.tcl
+    creo que el sistema es hermoso y ahora que al abrir zona abre normales, se 
+    puede marcar lo que esta vencido y trabajarlo a vista y luego imprimir y 
+    aparte imprimir una lista de intimables pq no puede mezclarse cuentas que 
+    hace tres meses que no pagan con las normales. Si puedo conseguir resmas 
+    de distinto color me las curro.
+    para no tener critica tratare de conseguir lo que hay en el otro no 
+    importa que los cuadritos no esten.
+**** numeracion de clientes
+     ya esta y fue lo mas rapido y facil
+**** numeracion de paginas
+     faltaria y no creo que sea muy dificil de lograr
+**** mejorar el corte de pagina para que no se corte un cliente en lo posible
+**** hacer el resumen automatico
+     ya tengo un dict que recolecta la informacion y luego faltaria imprimir 
+     al final el resumen en pdf.
+**** ver si incluyo info de intimaciones y seven
+**** ver si luego incluyo planes de pago.
 *** Control de plan nuevo
     se hara integrado en el mismo tab mediante un boton extra que mostrara las 
     fichas nuevas en principio y luego tendremos un control visual de avance 
