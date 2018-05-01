@@ -296,7 +296,7 @@ este seria el proximo paso
     podes ver cual queres condonar.
     Con F3 condonas o descondonas, como hay triggers que calculan el saldo 
     automatico, no hay problema en la reversibilidad del asunto
-*** validacion de vendedores
+*** TODO validacion de vendedores
     que no se pueda poner cualquier codigo de vendedor
 *** buscar una nueva forma de validar el cliente
     p.e. con apellido y num de doc o sea algo unico que obligue a chequear 
@@ -376,13 +376,13 @@ cobro o venta y q sea linkable a la cuenta directo
      para aclarar situaciones, incluso se podria hacer un resumen general de 
      cuentas.
 ** Fichas  
-*** Normales
+*** DONE Normales
     en vez de poner fecha, colorear la base hasta la fecha de hoy  ordenado 
     por pmovto siempre se puede incluir mas o menos y siempre se imprimira por 
     curselection.
     Los status vendran por coloracion o indicados en los campos, p.e. seven o 
     intimado, y solo son informativos. 
-*** TODO Imprimir desde fichas.tcl
+*** DONE Imprimir desde fichas.tcl
     creo que el sistema es hermoso y ahora que al abrir zona abre normales, se 
     puede marcar lo que esta vencido y trabajarlo a vista y luego imprimir y 
     aparte imprimir una lista de intimables pq no puede mezclarse cuentas que 
@@ -390,31 +390,46 @@ cobro o venta y q sea linkable a la cuenta directo
     de distinto color me las curro.
     para no tener critica tratare de conseguir lo que hay en el otro no 
     importa que los cuadritos no esten.
-**** numeracion de clientes
+**** DONE numeracion de clientes
      ya esta y fue lo mas rapido y facil
-**** numeracion de paginas
+**** DONE numeracion de paginas
      faltaria y no creo que sea muy dificil de lograr
-**** mejorar el corte de pagina para que no se corte un cliente en lo posible
-**** hacer el resumen automatico
+**** DONE mejorar el corte de pagina para que no se corte un cliente en lo posible
+     se hizo con un proc que mide el cliente de acuerdo a sus cnt de cuotas y 
+     articulos a imprimir y de acuerdo a eso pagina o no, siendo que paginar 
+     ahora es un proc aparte que abre una pagina y numera
+**** DONE hacer el resumen automatico
      ya tengo un dict que recolecta la informacion y luego faltaria imprimir 
      al final el resumen en pdf.
+     Al final cambie por un list pq con el dict me complicaba al vicio y 
+     quizas sea mas adecuado el list pq es mejor obtener el resultado 
+     ordenado, tengo exacto el indice no como en python que variaba y a nivel 
+     resumen esta en el mismo pdf o sea no son dos pdf sino que es la ultima 
+     pagina del unico pdf.
 **** ver si incluyo info de intimaciones y seven
 **** ver si luego incluyo planes de pago.
-*** Control de plan nuevo
+*** DONE Control de plan nuevo
     se hara integrado en el mismo tab mediante un boton extra que mostrara las 
     fichas nuevas en principio y luego tendremos un control visual de avance 
     de cuotas.
     Ya tengo control basico.
     Falta el chiche del grafico.
     que es algo que nunca incorpore a tbls.
+    El chiche grafico lo logre con un proc que crea los dos frames que se 
+    placean con relwidth y una relacion de acuerdo a la variable que queremos 
+    graficar y luego dos lineas de codigo para indicar al tbls que incruste el 
+    windows. quedara para manana hacer una docs aparte de como se hace bien 
+    esto.
 
-*** boton de fichas canceladas
+*** DONE boton de fichas canceladas
     al lado de nuevas poner canceladas
     para poder ver p.e. las fichas canceladas
     supongamos que uno quiere ver si una tanda de intimaciones de una 
     cobradora tuvo eco, al ver las normales se puede ver si tienen fecha de 
     intimacion con ese lote, pero puede haber cancelados que no se estaran 
     viendo. 
+** Caja
+   pasado automatico del asiento de cobranza
 * Bugs generales
 *** tbls
 **** al recalc se desacomodan los anchos de columna
