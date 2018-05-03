@@ -428,6 +428,15 @@ cobro o venta y q sea linkable a la cuenta directo
     cobradora tuvo eco, al ver las normales se puede ver si tienen fecha de 
     intimacion con ese lote, pero puede haber cancelados que no se estaran 
     viendo. 
+
+*** Sobre el tema doble listados
+    puede ser molesto y puede ser que achique los listados. Y puede ser que 
+    discrimine las cuentas Pero no podemos negar que pone sobre la picota las 
+    cuentas atrasadas que estan sin moverse hace 3 fucking meses. Y no han 
+    podido hacer nada.
+    No tendriamos que volver a imprimir eso.
+    Y estaria bueno buscar un colorcito diferente.
+    
 ** Caja
    pasado automatico del asiento de cobranza
 * Bugs generales
