@@ -1,0 +1,4 @@
+* enviar señal break
+  con un proc enviar señal de break
+  return -code break
+
