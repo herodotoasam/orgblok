@@ -2,3 +2,11 @@
   con un proc enviar señal de break
   return -code break
 
+* freezar columnas en el tablelist
+  tbls configure -titlecolumns 4
+
+
+* hacer que una columna sea numerica o muestrenumeros
+  tbls columnconfigure n -showlinenumbers yes (o 1)
+
+
