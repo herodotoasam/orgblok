@@ -10,3 +10,13 @@
   tbls columnconfigure n -showlinenumbers yes (o 1)
 
 
+* regsub
+  regsub {^0} [funcion] {} var
+  saco el 0 inicial del resultado de una funcion que me entregaba valores del 
+  dia de una fecha y algunos eran rechazados como octales p.e. 09 08 y por eso 
+  le saco el cero inicial y luego pongo el valor de var en su reemplazo que es 
+  el regsub.
+  O sea 1ro la regexp a buscar luego el texto, tercero la expr para cambiar y 
+  cuarto la variable que contendra el texto cambiado, y regsub responde 1 o 0 
+  segun tuvo o no tuvo exito.
+

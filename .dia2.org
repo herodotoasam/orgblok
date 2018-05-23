@@ -1644,6 +1644,74 @@ mientras se va programando.
     por quedarme en el centro voy a hacer esto o aquello. Sino mas bien voy a 
     vivir tranquilo y tratar de estar comodo, y buscar mas comodidad que la 
     que tengo ahora incluso.
+<<<<<<< HEAD
+* [2018-05-19 sáb]
+** Decision tomada mudarse a diego de vera
+   ya estoy en la decision tomada de venirme a dv150.
+   basado en los siguientes parametros decisorios causantes y condicionantes
+*** plazo
+    al menos hasta terminar de pagar la casa. Termino a fin de ano la cuota de 
+    30 y en marzo el remanente de 15. Ya sin esa erogacion de 30 de mi 
+    presupuesto puedo decidir mejor que hago, si construir rapidamente con ese 
+    presupuesto o bien desistir de construir y vivir en algo fuera asi sea 
+    caro.
+*** crisis
+    coincide con la incertidumbre de la crisis economica que me obliga a ser 
+    cauto y precautorio una vez mas, o sea buscar un alquiler bajo, un lugar 
+    economico, cercano, bajo perfil, etc. o sea inscripto en un momento de 
+    efecto pobreza, y no quiero atarme a dos anos de eso, prefiero terminar el 
+    ano aca y luego irme una vez que el panorama aclare, y si la crisis es 
+    crisis me voy a sentir mejor si no adquiero un compromiso extra.
+*** concepto de presupuesto reducido
+    veo que vivir solo siempre ha sido posible con un presupuesto reducido de 
+    mi parte, o sea no es una vida minimamente confortable.
+    sino el presupuesto se va a la mierda y ya no lo tomaria.
+    p.e.
+    | alquiler  | 6500 |
+    | expensas  | 2000 |
+    | impuestos | 1500 |
+    | servicios | 600  |
+    | fibertel  | 1000 |
+    | limpieza  | 2000 |
+    | lavado    | 1000 |
+    | almuerzo  | 2000 |
+    | taxis mq  | 3000 |
+    |           |      |
+    como se ve hay muchos items que no tomo en cuenta, entonces es facil 
+    comparar el alquiler solo, pe. decir gasto 6k en taxi ida y vuelta vs 6k 
+    en alquiler, pero no pensar que si tuviera un dpto en el cual no tuviera 
+    que limpiar ni lavar, ni renegar como un boludo al final tengo 20k de 
+    gasto. Entonces eso plantea y me interroga sobre cuales son los reales 
+    usos que le hago al dpto.
+*** concepto lugar aislado o de retiro (privacidad/silencio)
+    una de las causas por las cuales desisti de la idea la vez pasada fue por 
+    esto, cuando pense solucionar el problema de la privacidad en la cochera, 
+    y luego al ver que la cochera no era viable.
+    Y ahora se me ocurre que puedo en cierta forma usar la oficina, o sea 
+    puedo extender el horario de trabajo hasta las 17hs p.e. via almuerzo en 
+    la oficina y eso me da un tiempo que tendria que ser valioso para 
+    programar/leer/etc o sea todo lo mental concentrado del dia alli. No 
+    tendria que anorar o querer tener nada fuera de eso. Al contrario tendria 
+    que estar contento de poder volver a la calidez del hogar, a tener con 
+    quienes hablar, con quienes estar, y algo que comer sin tener que 
+    cocinarme yo. pero con eso ya terminado, y en el fondo puedo seguir si 
+    quiero pq aca tengo la notebook, tengo wifi, tengo el celu, pero no me 
+    hace falta vivir solo pq no es que no tenga esa aislacion.
+    Para lo cual hacia falta hacerlo confortable: y creo que eso se lograria 
+    con el aire F/C con el sillon y con almorzar todos los dias alla.
+*** desmitificacion de la ida al centro
+    hago una cosa gigante el ir al centro y al final no es para tanto.
+    mas en un contexto en el cual estoy acostumbrado a levantarme a las 7 y 
+    teniendo un sistema de salida rapida
+*** dormir mejor
+    desde cualquier forma que lo mires aca se duerme mejor 
+*** no es por ahorro sino pq no se puede con las garantias actuales
+    no se planteara en ningun momento la "necesidad" de hacer una diferencia 
+    de ahorro entre el ahora y el antes. pq como dije para igualar el confort 
+    total viviendo solo tendria que gastar 20k mas o menos. 
+    es porque no se puede con las garantias actuales en situacion de 
+    normalidad. y tener que caer encima en alquilar algo defectuoso o pedir 
+    cosas ridiculas.
 * [2018-05-23 mié] 
 ** migral tomado por nerviosismo subito
    15hs tomo ibu pensando frenar el migral como ayer, y 15.30 se desata la 
