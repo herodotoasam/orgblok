@@ -1644,6 +1644,7 @@ mientras se va programando.
     por quedarme en el centro voy a hacer esto o aquello. Sino mas bien voy a 
     vivir tranquilo y tratar de estar comodo, y buscar mas comodidad que la 
     que tengo ahora incluso.
+<<<<<<< HEAD
 * [2018-05-19 sáb]
 ** Decision tomada mudarse a diego de vera
    ya estoy en la decision tomada de venirme a dv150.
@@ -1711,6 +1712,7 @@ mientras se va programando.
     es porque no se puede con las garantias actuales en situacion de 
     normalidad. y tener que caer encima en alquilar algo defectuoso o pedir 
     cosas ridiculas.
+<<<<<<< HEAD
         
 *** aspectos negativos
 **** invasion de espacio a ih
@@ -1718,6 +1720,30 @@ mientras se va programando.
 **** perdida del dpto armado por dispersion de cosas
      lo cual me seria dificil recuperar las cosas mas en un contexto 
      inflacionario.
+* [2018-05-23 mié] 
+** migral tomado por nerviosismo subito
+   15hs tomo ibu pensando frenar el migral como ayer, y 15.30 se desata la 
+   tormenta de nerviosismo que repercute en la cabeza y me "obliga" a tomar el 
+   migral repentinamente. Haciendo que el ibu fuera tomado al vicio total. 
+   Esas minitormentas que ocasionan un caos que luego amaina y se va me pasan 
+   a menudo y son lamentables, incluso en esta (y creo que en anteriores) 
+   pienso en un microsuicidio o sea en la toma de migral como un irse a la 
+   mierda, de entrar en una escalada de tomar todo lo que se me venga en ganas 
+   tomar y que se vaya todo a la mierda pq no tengo nada que perder y terminar 
+   enfermo y que esa sea la excusa perfecta para darme el cuetazo final, total 
+   la vida de mierda que llevo no vale la pena vivirla. La toma del migral 
+   consiste en todo eso.
+** tema de los errores que comete la Cami en el trabajo
+   como causal del enojo a veces. No estoy disconforme que venga, pq la verdad 
+   que si ella no viene me aburro mas y me siento mas solo. Y el dia que pase 
+   todos los papeles me desgaste un  monton. O sea se nota un monton lo que 
+   hace ella, pero me embola a veces los errores.
+   Y mi forma de ser distorsionada actuando sobre este tema o dejandolo salir 
+   al aire ante cualquier oido, ya sea ih, o ella misma, ni hablemos de los 
+   demas podria causar daños irreparables. Por eso es que tengo que hacer la 
+   catarsis yo solo, y el ejemplo del lunes me vino bien y el saber que ella 
+   hace un buen trabajo pq pasa todos los papeles pero es necesario que haga 
+   bien las cosas.
 * [2018-05-26 sáb]
 ** falta de minimalizacion
    el atascamiento se produce por la cantidad de cosas que uno tiene que 
