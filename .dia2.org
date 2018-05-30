@@ -1296,8 +1296,8 @@ mientras se va programando.
    sea atacan problemas supuestos o problemas que insinuan sin ninguna base 
    medica. 
 
-** [2018-04-13 vie]
-*** Sistema de compras por una plataforma electronica
+* [2018-04-13 vie]
+** Sistema de compras por una plataforma electronica
     un sistema que permitiera comprar en forma facil un set de productos p.e. 
     sabanas cortinas toallones y acolchados, y que sea solo para clientes, o 
     sea el cliente se loguea elige el articulo y yo se lo mando por intermedio 
@@ -1354,7 +1354,18 @@ mientras se va programando.
    Creo que eso tambien es motivo de preocupacion. Y en este momento critico y 
    de transicion me toca el final de contrato de este dpto con la idea casi 
    impuesta de irme alla. Lo cual no me disgusta pero tampoco me entusiasma 
-   del todo.
+   del todo. [2018-05-30 mié] no se porque digo autoimpuesta, siendo que hay 
+   un gran componente de mi que se vino para aca. Creo que a pesar de los 
+   demas. Creo que ni ih ni las chicas ni los gatos querian que yo me viniera 
+   aca, pq todos se ven invadidos. Aca el silencio y la tranquilidad los dias 
+   de semana es alucinante y no tiene nada que ver con la del fin de semana, 
+   el fin de semana se arruina mucho con la Cami y el Fede. con la Cami pq 
+   sale y te caga la noche previa, la noche que sale y el dia siguiente, y con 
+   el Fede tenes que ver que plan haces el finde para "hacer algo". En cambio 
+   los dias de semana son supertranquilos y silenciosos. Y no se pq tampoco no 
+   llegue al final del contrato sin esa discontinuidad o sea sin ese quiebre 
+   que decia que necesariamente te tenias que ir. Ese pensar que iba a ser tan 
+   facil alquilar en otro lado.
 ** vista alternativa
 *** conservar mi independencia
     no irme alla, esta bien seguir yendo los findes, o bien ir haciendo de a 
@@ -1644,7 +1655,6 @@ mientras se va programando.
     por quedarme en el centro voy a hacer esto o aquello. Sino mas bien voy a 
     vivir tranquilo y tratar de estar comodo, y buscar mas comodidad que la 
     que tengo ahora incluso.
-<<<<<<< HEAD
 * [2018-05-19 sáb]
 ** Decision tomada mudarse a diego de vera
    ya estoy en la decision tomada de venirme a dv150.
@@ -1814,11 +1824,89 @@ mientras se va programando.
     me queda la posibilidad de renovar. 
 ** posibilidades ultimas Merlo
 *** renovacion
-    ahorro la molestia de la mudanza y arreglo la situacion con una llevada de 
+    ahorro la molestia de la mudanza, evito tambien el gasto de sacar y poner 
+    el aire (mas o menos 7k) y la pintada (gasto en pintura y 
+    tiempo/esfuerzo), o sea no menores situaciones. 
+    y arreglo la situacion con una llevada de 
     las cosas que traje.
-    solo tengo que llamar el plomero que arregle el desague. Economicamente es 
-    seguir como estamos. quizas 5000 mas imp y exp que no llegan a 2k. 
+    solo tengo que llamar el plomero que arregle el desague.
+    Economicamente es seguir como estamos. quizas 5000 mas imp y exp que no llegan a 2k. 
+    Quizas sea mas, pq pretendan 5500 minimo mas impuestos lo que llegaria a 
+    6k. o quizas me puedan pedir mas.
     servicios ya colocados, pero con la clausula de rescicion bien hablada. 
+    (esto lo dudo)
 *** otro dpto 
     otro dpto en cartera que tenga si ofrece las mismas condiciones de 
     alquiler o sea aceptacion de la misma garantia.
+    Pero aca pierdo todas las ventajas
+*** ventajas de quedarse en gama
+**** no hace falta mudanza 
+     que no solo es el tiempo sino el bajar a mano el sillon y el sommier y 
+     subirlo al supuesto otro dpto.
+**** no hace falta pintar
+     gasto mas mano de obra
+**** no hace falta cambiar los aires
+     gasto mas molestias
+**** no hace falta renegar con la aceptacion de garantia
+     pues ya tendriamos el credito aprobado en el lugar, solo tenemos que 
+     renovar las garantias y ahora dependen 100% de nosotros.
+
+*** desventajas de quedarse en gama
+**** sensacion de que me rompen el orto en merlo lo mismo
+     pero no es nada comparado a lo que hay que poner en otro lado, al menos 
+     ahi con solo las propiedades pasamos y con eso solo no te dan ni una 
+     pieza.
+**** sensacion de perdida de oportunidad de devolver sin riesgo la propiedad
+     pq se cambiaron los nombres. Pero es falaz pq como somos nosotros, 
+     seguramente la vamos a devolver a la propiedad hecha una pinturita sin 
+     quejas y nos someteremos igual a los mismos stress que en cualquier otro 
+     momento historico.
+
+**** quedarse con un dpto viejo/obsoleto
+     es cierto que no tiene la misma vista y calidad que uno nuevo, la unica 
+     ventaja es la ubicacion y un poco el precio. Y en mi caso la mayor 
+     ventaja actual quizas la unica que vale la pena es que es el unico dpto 
+     posible.
+
+**** problemas de desague
+     no los cuento pq tendria que haberlos arreglado/ idem el tema cables, y 
+     demas para dejarlo completamente funcional. Incluso con el lavarropas 
+     funcionando
+
+**** ruido extremo, ruido vecinos
+     el ruido de la calle creo que esta amortizado ya y el ruido del vecino es 
+     relativo pq puede que se vaya en cualquier momento.
+
+**** pierdo el tema recambio de domicilio por el tema juicio
+     pero una rescicion a la apurada teniendo en cuenta que primero empezara a 
+     venir una notificacion a la oficina cuesta mes y medio o sea que no me 
+     conviene hoy tomarlo como asunto relevante. Se hara cuando sea el 
+     momento.
+*** conclusiones
+    quizas sea mejor negocio continuar la locacion, arreglar el dpto, hacer 
+    reparar la plomeria, instalar el lavarropas, poner un tender plegable, 
+    cambiar la cortina, poner la cortina de bano, arreglar el cablerio en 
+    dormitorio, fijar el respaldo, poner el regaton, arreglar los cables de 
+    living, lustrar los pisos y darle una limpiada en general.
+    Podriamos contar entonces con un dpto bastante funcional en todos los 
+    sentidos con el agregado de lavado alli con lo cual evitamos que la venida 
+    al marques tenga esa carga. Podriamos sacar el guardado de recibos en el 
+    dpto y dejar solo los documentos, podriamos seguir minimalizando papeles 
+    (cuadernos y recuerdos y boletas) y trapos (ropa) para tener mucho mas 
+    espacio. Se podria minimalizar tambien la cocina para tener mejoras 
+    practicas en lo estetico y lo practico a la hora de cocinar y a la hora de 
+    limpiar.
+    No hay mucho que pueda tener de plus en otro dpto que realmente "mejorara" 
+    mi calidad de vida real respecto a este dpto, solo el silencio.
+    P.e. si lo comparo con sr600 frente colegio, el bano era nuevo pero no me 
+    agrega nada al que tengo aca, la cocina era linda pero igual no hacia ni 
+    haria que cocinara mas ni menos que lo que haria aca. 
+    Al final esos balconazos no eran funcionales pq eran poco privados y no 
+    tenian vista a nada. El dpto era muy grande, era inseguro, la entrada del 
+    edificio era insegura, y al final sufria mas pq el ruido sufrido era 
+    personalizado o sea mas molesto. Como paso en sr450 que tmb los ruidos 
+    personalizados eran mas irritables.
+    O sea que no me convence mucho el cambio monumental que significaria todo 
+    el movimiento para el unico plus que yo apreciaria que seria el silencio y 
+    eso no lo puede asegurar nadie.
+*** 
