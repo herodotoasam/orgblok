@@ -4,8 +4,9 @@
 
 clock
 
-* Acondicionar el dpto						      :title:
-CLOCK: [2016-10-20 jue 21:08]--[2016-10-20 jue 21:12] =>  0:04
+* Acondicionar el dpto
+  :title:
+:CLOCK: [2016-10-20 jue 21:08]--[2016-10-20 jue 21:12] =>  0:04
 #+BEGIN: clocktable :maxlevel 2 :scope subtree
 #+CAPTION: Clock summary at [2016-10-18 mar 12:11]
 | Headline             | Time   |
@@ -14,24 +15,27 @@ CLOCK: [2016-10-20 jue 21:08]--[2016-10-20 jue 21:12] =>  0:04
 |----------------------+--------|
 | Acondicionar el dpto | 0:42   |
 #+END:
-  CLOCK: [2016-10-07 vie 12:36]--[2016-10-07 vie 12:43] =>  0:07
-  CLOCK: [2016-10-06 jue 11:51]--[2016-10-06 jue 11:56] =>  0:05
-  CLOCK: [2016-10-05 mié 19:19]--[2016-10-05 mié 19:24] =>  0:05
-  CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
-  CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
-  CLOCK: [2016-10-04 mar 14:56]--[2016-10-04 mar 15:04] =>  0:08
-  CLOCK: [2016-10-18 mar 12:05]--[2016-10-18 mar 12:11] =>  0:06
-* Vision del proyecto						     :vision:
+  :CLOCK: [2016-10-07 vie 12:36]--[2016-10-07 vie 12:43] =>  0:07
+  :CLOCK: [2016-10-06 jue 11:51]--[2016-10-06 jue 11:56] =>  0:05
+  :CLOCK: [2016-10-05 mié 19:19]--[2016-10-05 mié 19:24] =>  0:05
+  :CLOCK: [2016-10-03 lun 21:15]--[2016-10-03 lun 21:21] =>  0:06
+  :CLOCK: [2016-10-03 lun 20:39]--[2016-10-03 lun 20:44] =>  0:05
+  :CLOCK: [2016-10-04 mar 14:56]--[2016-10-04 mar 15:04] =>  0:08
+  :CLOCK: [2016-10-18 mar 12:05]--[2016-10-18 mar 12:11] =>  0:06
+* Vision del proyecto
+  :vision:
 La idea es tener un lugar comodo y agradable donde vivir
 Confortable, terminado pero no aputosado
 Un lugar donde tengan continuidad mis actividades
 Tambien un lugar donde tengan cabida mis objetos.
-* Justificacion del proyecto						:why:
+* Justificacion del proyecto
+  :why:
 - Tengo derecho a vivir en un ambiente confortable y agradable
 - Los gastos envueltos no son muy grandes y puedo afrontarlos
 - Tener un dpto acondicionado puede ser motivante
 - Tambien es mas facil de mantener si hay un orden establecido
-* Brainstorming							      :brain:
+* Brainstorming
+  :brain:
 ** eliminar la excesiva claridad
 ** acondicionar lugares de lectura
 ** sillon comodo
@@ -55,7 +59,8 @@ dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
 ** cambiar las sillas
 ** poner todas las lamparas led
  
-* Plan de accion						       :plan:
+* Plan de accion
+  :plan:
 ** Dormitorio
 gran parte de la disfuncionalidad del dormitorio es la falta de
 espacio que generan los puff al vicio pq no aportan nada alli y solo
@@ -100,8 +105,8 @@ Ver solucion contac.
 
     da un rico olor la cera
 *** TODO poner cableado para enchufes cabecera de la cama
-**** TODO aire acondicionado
-**** TODO veladores
+*** TODO aire acondicionado
+*** TODO veladores
 *** TODO fijar respaldo de cama a la pared
 *** TODO poner llave al vestidor
 ** Cocina
@@ -113,7 +118,8 @@ gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
 *** cortinas oscuras 
 urgente necesito pq no puedo trabajar correctamente en la compu
 *** definir la estanteria
-* Next Action							       :next:
+* Next Action
+  :next:
 ** DONE comprar pintura dormitorio
 ** DONE poner caño cortina
 ** DONE comprar veladores
@@ -128,12 +134,12 @@ urgente necesito pq no puedo trabajar correctamente en la compu
 :ID:       371275ad-553b-441a-ac3d-fa349f98bd6a
    :END:
 - [X] llave inglesa
-   SCHEDULED: <2016-10-22 sáb>
+   :SCHEDULED: <2016-10-22 sáb>
 - [X] cortinas de jean
 ** NEXT colocar tope regaton de goma
-DEADLINE: <2017-11-05 dom>
+:DEADLINE: <2017-11-05 dom>
 ** NEXT llevar cosas sobrantes al marques
-DEADLINE: <2017-11-05 dom>
+:DEADLINE: <2017-11-05 dom>
 *** puff
 *** vaciar alacenas de cosas
 ** NEXT pedir en ML caja fuerte empotrable de chapa (necesito 2)
