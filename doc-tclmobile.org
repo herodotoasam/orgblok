@@ -132,4 +132,16 @@ o bien no se usan o bien se ocultan pq no ocupan lugar ni ralentizan
 nada.
 Esta bueno tener una especie de test contra la base de datos que te
 diga cuales son los errores.
+* bugs 
+** fichas no muestra cobrador nuevo en boton
+   no me muestra los cobradores nuevos
+   analizando con paciencia veo, gracias a la profusa documentacion, la cual 
+   es realmente util en estos momentos aciagos, en los cuales uno esta ciego y 
+   no puede ir mas alla que ver la documentacion, que los botones se generan 
+   haciendo un query sobre la tabla cobr con el criterio activo=1 prom=0, 
+   entonces hago ese query en la sqlite3 pelado y no me aparece el nuevo, y 
+   sospecho y hago activo='1' y nada y hago prom='0' y voile me aparece, o sea 
+   hay una puta problematica de edicion no se en donde que en vez de poner 0 
+   puso '0' y me cago todo el filtro, ahi nomas hice el update en pelo y salio 
+   el nuevo en el formulario y quedara luego corregir el bug.
 
