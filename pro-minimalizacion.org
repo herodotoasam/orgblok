@@ -3,9 +3,11 @@
 
 
 
-* Minimalizar la vida                                                 :title:
+* Minimalizar la vida
+  :title:
 Hacer la vida mas simple, minimalista.
-* Vision del proyecto                                                :vision:
+* Vision del proyecto
+  :vision:
 El objetivo es lograr un nivel de mente vacia o mente limpia, porque
 uno confia en un sistema de archivo y/o de organizacion en el cual va
 volcando todas las ideas las va trabajando y va sacando las
@@ -14,8 +16,10 @@ En este caso el proyecto sera como un meta-proyecto, en el cual el
 objetivo seria limpiar o minimizar, como para no tener distintos
 proyectos o muchos proyectos abiertos al mismo tiempo, la idea es
 tener este que tenga como objetivo el descomplicar la vida.
-* Justificacion del proyecto						:why:
-* Brainstorming						      :brain:
+* Justificacion del proyecto
+  :why:
+* Brainstorming
+  :brain:
 ** me quejo de la comida pero podria llevar licuado y comida sana a la oficina
 podria volver a los licuados, tener una buena mochila, llevar fruta,
 fruta seca, llevar arroz, en si podria hacer mucho por mi dieta
@@ -104,8 +108,10 @@ vales. Entonces es una planilla clara pq no tiene alteraciones, y todo
 lo manejo por pantalla y puedo imprimir resumenes y manejarme por alli.
 *** cobranza
 **** idea nueva de cobranza mas chica con venta incluida
-* Plan de accion						       :plan:
-* Next Action							       :next:
+* Plan de accion
+  :plan:
+* Next Action
+  :next:
 ** NEXT comprar elementos para hacer licuado
 super: avena/gatorade/
 diet: almendra
