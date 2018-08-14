@@ -3130,4 +3130,18 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
     levantarse a las siete, hacer bici 20min, trabajar, desayunar cuando tenga 
     hambre, ir al bano cuando me llame, cambiarme para el banco o la compra, 
     comer tipo 12.30hs, dormir siesta, hacer jornada de tarde.
-=======
+* [2018-08-14 mar]
+** implementacion del sistema de horario
+   hoy pase el horario con un resultado muy positivo, mas positivo que el 
+   esperado.
+   Muy buena repuesta por parte del grupo, incluso en vez de tener que darle 
+   un dia para acomodo, hoy mismo hago la transicion. Y los casos dudosos como 
+   808 tomo muy bien, y 750 tambien. 
+   Asi que no habia razon para seguir en un horario complicado o 
+   inconveniente.
+
+** que espero ahora del cambio
+   solucionar el tema banco
+   eliminar la tension de las notificaciones que mas que todo se dan a la 
+   manana. 
+   eliminar la reunion diaria de gente a la misma hora
