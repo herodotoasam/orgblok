@@ -27,6 +27,8 @@ en un terminal
 gsettings set org.gnome.desktop.interface clock-show-date true
 #+END_EXAMPLE
 
+
+
 * Actualizar version de ubuntu 'a mano'
 sudo apt install update-manager-core
 
@@ -43,6 +45,14 @@ configurar deseleccionar Mantener las distribuciones del sistema
 agregar la que falta ya sea latam o us
 agregar monitor del sistema
 
+* Vim
+ 
+** instalar gvim con vim-gtk
+** poner en home .vimrc que esta en /orgblok que sacamos de git
+** instalar Plug / buscar vim plug en google
+   instalar curl
+** instalar los plugins
+   :PlugInstall
 * Antes que nada instalar con sudo apt install ...
 1. emacs
 2. git
