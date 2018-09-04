@@ -3415,7 +3415,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    falta de tiempo y permite que pueda hacer lo maximo que pueda en ese tiempo 
    que no pueda ser hecho fuera de esa hora, o sea que si esas horas son 
    tiempo muerto, que en esas horas haga lo que no haria luego obvio.
-   
 ** el costo de estar en negro
    hay o tiene que haber algunos costos de estar en negro. Y algunos son que 
    se pierde eficiencia. Al no poder estar con todos los papeles en la oficina 
@@ -3426,7 +3425,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    estamos, hablamos de una perdida finita que se te puede estar escapando 
    pero que la podes estar perdiendo por otro lado, lo mas seguro por costos 
    fijos. O sea trabajarias para los otros.
-   
 * [2018-09-04 mar]
 ** malestar
    ayer me caia literalmente de sueno y me dispongo a dormir una siesta y fue 
@@ -3446,3 +3444,12 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    el estomago y comenzo una salivacion tipo la usual para vomitar, lo que ya 
    experimente en la cabana por la ingesta de naranja frente a una acidez 
    extrema. 
+** ir transicionando a este esquema nuevo
+   estoy cansado hoy, me voy a dormir, pero creo que puedo aprovechar la 
+   mañana para hacer las cosas que me presionan para no poder hacerse. 
+   Hoy vi que no estuve presionado, pude ir al super, ir a la verdu, ir a 
+   comprar hojas, comer, incluso programar, -si programar- una pagina de 
+   control del pasado de ventas de modo tal que se puede controlar un dia de 
+   ventas con total precision en un ratito bastante rapido y facil, con la 
+   precision que da el control por planilla. 
+
