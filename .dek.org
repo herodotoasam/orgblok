@@ -1,4 +1,5 @@
 * la deconstruccion como ordenamiento de la problematica
+  [2018-09-06 jue]
   si todo es texto, incluso todos los procesos que vivimos, las sensaciones 
   que nos ahogan, los nudos gordianos que no nos permiten respirar ni seguir, 
   las espadas de damocles que pensamos que tenemos y todas esas cosas que 
@@ -27,3 +28,28 @@
   que una vez expresadas salen fuera de de mi cerebro y ya no sere dueño de 
   ellas, y como creo que eso es una excusa para no enfrentarme conmigo mismo 
   pq hay encriptacion disponible.
+* el trabajo como problema o el problema del trabajo
+** el urticante problema de Romitex Fichas
+   [2018-09-06 jue]
+   el enfermante tema de la entrada por wapp de planes de pagos y yo no 
+   procesandolos correctamente ni verificando su cumplimiento. Todo por falta 
+   de orden de trabajo y falta de capacidad de trabajo.
+   Resolvi usar un excel Fichas, y dentro de el un tab por zona o grupo 
+   similar de zonas para mejor y mas facil gestion de pasado y control del 
+   bloque. Con el metodo de duplicar pestaña que tiene zoho puedo tener un 
+   template y duplicarlo facilmente, entonces el encolumnado sus anchos y 
+   colores no los tengo que hacer, solo los duplico, como vengo haciendo ya 
+   con el paso de los gastos en tiempo real. 
+   Uso webwhatapp para mas facilidad, pongo fecha actualizada de visita, 
+   corrijo zona, cargo el plan de pagos en msgcobrador y luego imprimo la 
+   ficha, luego cargo la linea en el zoho-fichas. 
+   Vengo avanzando de adelante para atras por un barrio por dia, poniendo al 
+   dia lo que entre hoy, con el criterio de la pieza, o sea limpio sobre 
+   limpio y agrego lo que se pueda. Luego me sera mas facil controlar con ese 
+   material lo que se hizo. 
+   Se que no tiene link con la base de datos y no es del todo ortodoxa la 
+   solucion, pero peor es no tener nada.
+   Quizas se me ocurra un campo en la tabla clientes que pueda ser plan de 
+   pagos y me permita reimprimir los planes de pagos o visualizarlos, algo asi 
+   me queda para pensar. 
+
