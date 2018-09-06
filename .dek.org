@@ -53,3 +53,56 @@
    pagos y me permita reimprimir los planes de pagos o visualizarlos, algo asi 
    me queda para pensar. 
 
+** el dibujo siempre cambiante de los cobradores
+   [2018-09-06 jue]
+   nunca permanece estable el grupo de cobradores, siempre pasa algo, y eso te 
+   hace no poder descansar y a la vez se hace dificil contratar a alguien 
+   nuevo. 
+   Quizas el verdadero problema es la captacion. La mala experiencia, la 
+   molestia de tener que capacitar, de tener que elegir, sin tener una 
+   cantidad suficiente de zona. 
+   Eso quizas hizo que volviera a tomar al 744 a pesar de que todos los 
+   antecedentes me decian que no iba a cumplir. Pq era un cobrador ya armado, 
+   ya hecho y que no necesitaba darle mucha zona de entrada. 
+
+** la falta de confianza en los cobradores 
+   en el fondo uno no confia en los cobradores y llega a pensar en que tiene 
+   que usar el metodo del latigo, la amenaza continua del cambio de zona y 
+   sueña con tener mas cobradores para "achicar" las zonas y cagarle la vida a 
+   los que estan para que reaccionen y no se si es el camino correcto.
+
+** idea alternativa de fichas
+   [2018-09-06 jue] yo se que pensar que las fichas van a andar esta vez es 
+   similar a los que creen que las utopias van a funcionar si "ellos" la 
+   llevan a cabo, pero creo que vale la pena al menos pensar la idea:
+*** las fichas se imprimirian y entregarian una vez al mes
+    [diferencia con sist Raul, igual a Elba y Monica]
+    
+**** se eliminaria el fechado y la impresion diaria
+     cada cobrador tendria el orden de sus fichas. 
+**** se devolveria y abrocharia cada recibo con la ficha
+     salvo que vaya a seguir cobrandola durante el mes, y si la devuelve la 
+     fecha. 
+**** devolveria las fichas incobrables o con problemas
+     esa devolucion fisica de las fichas "no cobrables" permitiria o tendria 
+     que permitir que nuestro trabajo sea ese, o sea trabajar sobre el fichaje 
+     que los cobradores no pueden cobrar. 
+**** se pueden particionar las zonas de la forma que uno quiera
+     ese seria el verdadero quid del asunto, o sea que por mas que uno quiera 
+     el listado tiene sus limitaciones en cuanto a dividir las zonas. 
+**** el riesgo o la apuesta seria por mes pero se puede monitorear
+     o sea asigno por un mes, obviamente uno conoce la gente, y queda 
+     registrado exactamente las fichas que se dieron, p.e. un caso como el que 
+     paso aca de 744 tendremos posibilidad de reimprimir en el acto las fichas 
+     y dividirlas entre los que estan para que vayan rapidamente. Y tambien se 
+     puede ir monitoreando dia a dia como va avanzando cada cobrador en cuanto 
+     a fichas asignadas/cobradas/devueltas etc. 
+**** la incorporacion de uno nuevo
+     seria paulatina, o sea el toco de fichas lo puedo tener yo, y le voy 
+     dando dia a dia las fichas que van venciendo y le dejo tener las 
+     fechadas. Lo voy midiendo dia a dia a medida que lo voy conociendo.
+**** se podria pedir rendicion a fin de mes de las no cobradas
+     para ver fecha de visita y resultado.
+     Ese seria el mayor diferencial con Elba/monica o sea no entregarlas con 
+     los recibos abrochadas y no rendir a fin de mes las no cobradas para ver 
+     en que estado estan y como las trabajo
