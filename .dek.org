@@ -114,20 +114,53 @@
      Ese seria el mayor diferencial con Elba/monica o sea no entregarlas con 
      los recibos abrochadas y no rendir a fin de mes las no cobradas para ver 
      en que estado estan y como las trabajo
+**** las mudadas o descartadas se reasignarian 
+     eso permitiria no tener que dar por perdido de una los casos sino tirarse 
+     otra chance el mes siguiente con otro.
 *** ventajas del sistema
 **** en cierta forma me independizo de la impresion
      al hacerse la impresion una vez al mes no tenes que estar en el dia a dia 
      imprimiendo y pensando que le vas a dar a cada uno, sino que la 
      asignacion se hace mensual, y la atencion del local se hace mas facil. 
+**** seria la unica forma en que podria poner mas cobradores
+     pq no se puede estar dividiendo zonas rigidas como hay ahora y 
+     modificando la base de datos. Pero se puede ir asignando fichas. Ellos 
+     sabran que mas fichas es mas cobranza y que la unica manera de conservar 
+     fichas es con resultados no durmiendo sobre las zonas. Pq ante la duda 
+     uno in-cruentamente le puede dar menos fichas el mes que viene de la zona 
+     y dejar entrar una poco a otro y ver que onda que pasa con ese otro y si 
+     va mejor lo va desplazando, p.e. con el 800 en Fragueiro, que se le 
+     podrian sacar unas 50 fichas y poner a uno nuevo y ver que pasa.
+**** control indirecto al cobrador ejercido por el papel fisico de la ficha
+    tendria que tener un recuadro con unos 8 casilleros de visita con 
+    fecha/hora/resultado/con quien hablo y lugar para fechar. y decirles que 
+    las fichas quedaran archivadas, como que quedara archivado tambien el 
+    resultado.
+**** mayor facilidad para rotar sin que se den cuenta
+     p.e. un mes puedo dar algunas fichas de bustos/talleres/italia a 813 y 
+     otro mes mas fichas de esos barrios y dejar entrar a ese mismo bloque a 
+     802, y ese vaiven lo consigo facilmente de acuerdo a los resultados y de 
+     acuerdo a lo que se vaya trabajando.
 *** desventajas del sistema
 **** que empiezen a perder disciplina
      como tienen las fichas comiencen a no ir. Pero se puede quedar bien claro 
      que el que no va tiene que avisar por wapp. 
+*** hacia un sistema programatico de fichas
+**** dar un numero unico de ficha
+     de modo tal de anotar la asignacion y cargar a quien se asigno.
+**** llevar un historial de asignacion
+     o sea ver de que fecha a que fecha estuvo asignada a quien y quien cobro 
+     o no la ficha.
+**** visualizar las fichas asignadas por cobrador
+**** visualizar el avance de cobranza por cobrador
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 
     traigo 100. Los toallones los dejo alla, e intento venderlos, idem las 
     cortinas largas, salvo colores sobrantes.
+    [2018-09-07 vie] no creo que sea viable. Llevar esas 50 sabanas me va a 
+    dejar la espalda a la miseria y despues hay que bajarlas lo mismo de mi 
+    dpto. O sea doble trabajo. 
 *** revisar lo fallado
 *** llevar de aca cosas que se puedan guardar en el local
     p.e. el palo y caja de plancha
