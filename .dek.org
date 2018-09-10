@@ -152,6 +152,18 @@
 **** que empiezen a perder disciplina
      como tienen las fichas comiencen a no ir. Pero se puede quedar bien claro 
      que el que no va tiene que avisar por wapp. 
+**** situaciones de exceso de fichas
+     ante una situacion de exceso de fichas como la actual, el darles una 
+     cantidad grande de fichas que ellos visualicen y luego quitarla en cierta 
+     forma en el futuro puede ser complicado. O bien la perdida de manejo que 
+     significaria pe haber asignado a alguien una zona que de pronto tiene 100 
+     fichas que vencen el dia 10 y el cobrador no te las cobra. Esos flujos de 
+     pronto se dan en la zona nueva, y en la situacion de que uno no tiene 
+     cobradores. 
+     De todos modos con listado se esta haciendo caotico tambien y el problema 
+     no es el medio usado sino la falta de gente y los problemas de 
+     asignacion.
+
 *** hacia un sistema programatico de fichas
 **** dar un numero unico de ficha
      de modo tal de anotar la asignacion y cargar a quien se asigno.
@@ -160,6 +172,8 @@
      o no la ficha.
 **** visualizar las fichas asignadas por cobrador
 **** visualizar el avance de cobranza por cobrador
+**** formato de ficha
+     ficha con grilla
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 
