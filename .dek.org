@@ -172,8 +172,35 @@
      o no la ficha.
 **** visualizar las fichas asignadas por cobrador
 **** visualizar el avance de cobranza por cobrador
-**** formato de ficha
-     ficha con grilla
+**** impresion de la ficha 
+***** sobre el formato de la ficha 
+     de 3316 fichas actuales (con pmovto mayor a 1/1/18) hay solo 75 que 
+     pertenecen por duplicado a un mismo cliente, o sea la mayoria de esas en 
+     cantidad de 2 por cliente, y 4 o 5 en 3 por cliente.
+     o sea si imprimieramos por idvta y no por idcliente no perderiamos nada 
+     esencial, en ese sentido. (De ultima programar una leyenda como en 2010 
+     que diga a la manera de la boleta de luz, aparte de esta ficha hay otra/s 
+     fichas del cliente). 
+     A nivel cc vemos que 8/10/21/24 cuotas hay una de cada una, el resto es 6 
+     o menos, con obvia preponderancia de 6 (3222).
+     Como para tener en cuenta a la hora de gastarse en un proceso de 
+     programacion solo para un caso. 
+     Encima los casos de 10/21 y 24 estan en morosidad.
+     O sea directamente no vale la pena complejizar toda una programacion de 
+     formato de fichas solo pq hay una duplicacion de dominio en 75 casos 
+     sobre 3316 fichas, y en el largo de las fichas de 4 fichas. Directamente 
+     se hace una ficha de tamano fijo pq se sabe que todas tienen como maximo 
+     6 cuotas. 
+     Tambien habria que simplificar el corte, y tratar de lograrlo a la mitad 
+     justo de la hoja, para no tener que renegar en el proceso todos los 
+     meses.
+***** informacion extra
+      numero de ficha, que pasaria a ser el numero de cuenta. Como cada cuenta 
+      tiene su ficha, y no nos complicamos con un numero extra, o un numero 
+      que no usamos como el numero del cliente.
+      el porcentaje diferencial puede ser una columna extra en una planilla 
+      cualquiera editable que podamos editar y luego la ficha lleve en caso 
+      que tenga otro valor distinto a 15, el porcentaje diferenciado impreso. 
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 
