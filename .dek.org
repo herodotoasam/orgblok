@@ -143,6 +143,8 @@
     fecha/hora/resultado/con quien hablo y lugar para fechar. y decirles que 
     las fichas quedaran archivadas, como que quedara archivado tambien el 
     resultado.
+    O sea que en un caso como el Aravella de Olmedo que no sabemos que paso, 
+    tendriamos la pista de que trabajo hizo el cobrador si es que lo hizo. 
 **** mayor facilidad para rotar sin que se den cuenta
      p.e. un mes puedo dar algunas fichas de bustos/talleres/italia a 813 y 
      otro mes mas fichas de esos barrios y dejar entrar a ese mismo bloque a 
@@ -164,12 +166,39 @@
      no es el medio usado sino la falta de gente y los problemas de 
      asignacion.
 
+**** que se puedan organizar con las fichas
+     desde ya que hay casos como el 750 que rechaza la idea pq prefiere que 
+     uno le organize el trabajo. 
+     Estamos hablando de zonas de 500 fichas, o de 300 fichas las zonas 
+     menores. (El que ahora haya una zona con 743 habla de la distorsion del 
+     sistema y de la problematica que se plantea).
+
 *** hacia un sistema programatico de fichas
 **** dar un numero unico de ficha
      de modo tal de anotar la asignacion y cargar a quien se asigno.
 **** llevar un historial de asignacion
      o sea ver de que fecha a que fecha estuvo asignada a quien y quien cobro 
      o no la ficha.
+**** modificar planilla de recibos
+     hacer recuadro de fichas entregadas y si es posible que salga la cantidad 
+     de fichas en poder del cobrador en ese momento.
+**** un nuevo "fichas"
+     pq este esta pensado como asignar primero y encabezar por cobradores, en 
+     cambio habria que verlo por zonas, o sea que tendriamos que hacer los 
+     botones de zonas y abajo deplegar todas las fichas cobrables y dentro de 
+     ellas que tenga un campo (en tabla ventas seria) de cobr asignado, que 
+     puede colorear diferencialmente, ahi tener la facilidad de intimar y 
+     subir al seven, cambiar la asignacion, imprimir fichas, imprimir 
+     resumenes de fichas en poder del cobrador en esa zona.
+     Tambien que se vayan coloreando los ultpagos que sean de este mes para ir 
+     viendo las que vayan pagando para ver que tan atrasado esta cada zona. 
+     En otros tabs se pueden poner las fichas totales por cobrador, para 
+     verlas todas juntas, y todos los otros calculos sobre las cantidades que 
+     hagan falta y que ahora no son factibles pq no nos manejamos sobre un 
+     lote fijo asignado para bien o para mal a la persona. 
+     Con este nuevo fichas ya puedo largar, pq tengo la forma de asignar las 
+     fichas, imprimirlas y controlar lo que va pasando. 
+     Habria que hacer una forma generica de asignacion multiple en tablelist.
 **** visualizar las fichas asignadas por cobrador
 **** visualizar el avance de cobranza por cobrador
 **** impresion de la ficha 
