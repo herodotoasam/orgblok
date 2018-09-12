@@ -57,6 +57,8 @@
    pagos y me permita reimprimir los planes de pagos o visualizarlos, algo asi 
    me queda para pensar. 
 
+*** posible desactivacion de Romitex Fichas
+    si no hay resultado con los planes de pagos.
 ** el dibujo siempre cambiante de los cobradores
    [2018-09-06 jue]
    nunca permanece estable el grupo de cobradores, siempre pasa algo, y eso te 
@@ -173,7 +175,7 @@
      menores. (El que ahora haya una zona con 743 habla de la distorsion del 
      sistema y de la problematica que se plantea).
 
-*** hacia un sistema programatico de fichas
+*** programacion necesaria
 **** dar un numero unico de ficha
      de modo tal de anotar la asignacion y cargar a quien se asigno.
 **** llevar un historial de asignacion
@@ -182,7 +184,7 @@
 **** modificar planilla de recibos
      hacer recuadro de fichas entregadas y si es posible que salga la cantidad 
      de fichas en poder del cobrador en ese momento.
-**** un nuevo "fichas"
+**** Fichas II un nuevo concepto
      pq este esta pensado como asignar primero y encabezar por cobradores, en 
      cambio habria que verlo por zonas, o sea que tendriamos que hacer los 
      botones de zonas y abajo deplegar todas las fichas cobrables y dentro de 
@@ -199,6 +201,10 @@
      Con este nuevo fichas ya puedo largar, pq tengo la forma de asignar las 
      fichas, imprimirlas y controlar lo que va pasando. 
      Habria que hacer una forma generica de asignacion multiple en tablelist.
+***** botones de zonas usando el mismo algorritmo usado ya
+***** grideado por filas de 9 para visualizacion
+      se puede lograr con un foreach
+      foreach {a b c d e f g h i} $botoneszonas {grid $a $b $c etc}
 **** visualizar las fichas asignadas por cobrador
 **** visualizar el avance de cobranza por cobrador
 **** impresion de la ficha 
@@ -238,6 +244,9 @@
     [2018-09-07 vie] no creo que sea viable. Llevar esas 50 sabanas me va a 
     dejar la espalda a la miseria y despues hay que bajarlas lo mismo de mi 
     dpto. O sea doble trabajo. 
+    [2018-09-10 Mon] se detecto alta humedad en el fondo de la oficina y 
+    traslade la mercaderia adelante dejando cerrada la puerta al fondo. Creo 
+    que avanza la humedad y todo lo que este ahi se va a perder.
 *** revisar lo fallado
 *** llevar de aca cosas que se puedan guardar en el local
     p.e. el palo y caja de plancha
@@ -348,3 +357,12 @@
   horarios y contractuales que nos asemejen mas a unos esclavos que a unos 
   hombres libres y todo porque?). Cuando fue la ultima vez que pude disponer 
   de un solo puto dia para mi mismo con total libertad??
+* traer el auto
+  ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
+  adecuada, ya solo falta traerlo. 
+* autodidactismo
+  desde que me plantie un plan de estudio con tres materias, ingles filosofia 
+  y tcl, no he dejado filosofia en estos casi seis meses que han sido 
+  dificiles, y en estos ultimos dias se potencio desde que no veo netflix aca. 
+  Pq eso me lleva una cantidad de tiempo enorme. Incluso me da ganas de volver 
+  a programar.
