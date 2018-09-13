@@ -236,6 +236,81 @@
       el porcentaje diferencial puede ser una columna extra en una planilla 
       cualquiera editable que podamos editar y luego la ficha lleve en caso 
       que tenga otro valor distinto a 15, el porcentaje diferenciado impreso. 
+*** fichas encare provisorio-nuevas ideas [2018-09-13 jue]
+
+**** usar fichas actuales
+     o sea no programar y despues largar, sino usar las que tengo al menos 
+     desde ya hasta fin de mes. Y eso me dara mas tiempo para programar y 
+     pulir resultados.
+**** no hace falta que de todas las fichas
+     o sea puedo dar por bloques tipo hasta el 15, 20, 25, 30. 
+     Eso evitaria dar todo, evitaria que "vean" el toco, que especulen que 
+     cuenten, etc.
+     En realidad al unico que le interesa el numero de fichas en el poder de 
+     ellos, o bien la circunstancia que no pierdan fichas es a mi, no a ellos. 
+     Eso de dar por "semana" digamos (10/15/20/25) me permitiria que pudiera 
+     dividir zonas a voluntad de acuerdo a lo que vayan rindiendo cada uno. 
+**** quiero saber que hacen con las fichas
+     fecha/hora/resultado y no solo que me escriban intimado que no se si 
+     significa que la entregaron, que no me dicen como la entregaron, y luego 
+     siguen poniendo intimada como si a esa casa no hay que ir mas. 
+     Es obvio que el ida y vuelta de planillas no sirve, pq ellos vuelven te 
+     cobran, te traen la plata y uno la tira, la fecha la Cami y o la fecho yo 
+     mismo lo mas rapido posible y nada. Nadie controla esa ficha. Si pasa 
+     algo o no. 
+**** Como hago el control, quien tendra las fichas
+     ellos deben creer que yo se cuantas fichas tienen, por lo cual debo 
+     contar y anotar en planilla si o si cuantas fichas traen. y cuantas les 
+     doy, el tema es si les exigire que me muestren las no cobradas o que me
+     las den. 
+     Y ahi se cae en el circulo vicioso de ficha/listado, o sea el cobrador al 
+     entregar dia a dia las fichas, no se cuida de ellas, ya que asume que uno 
+     las cuidara, las acomodara y se las reimprimira para el dia siguiente.
+     Y por mas que uno se tomara el trabajo de contar frente a el las fichas, 
+     en lotes grandes supongamos 70/75 si faltan dos o tres, el problema es 
+     averiguar cual faltan, que seran fichas que se le quedaron en la gaveta 
+     el pantalon o en cualquier lado.
+     Y el problema es como hacemos a controlar que no pase con la 
+     administracion propia del cobrador. La unica forma es que el sepa que 
+     tiene que rendir de vuelta la cantidad que le dieron, o sea que no tiene 
+     que perder ninguna ficha. 
+     La otra es directamente fichas van fichas vienen bajo la premisa de que 
+     no se deben perder las fichas, y que la ficha debe conservar la 
+     informacion en ella de las visitas previas de trabajo, que si no se anota 
+     es pq no se trabajo, eso es crucial. e imprimo el resumen de lo que en 
+     teoria mandaria a cobrar y hago armar el toco de fichas con ese resumen, 
+     y ficha que no este o no se encuentre se reimprime.  Pero hay una falla: 
+     si la ficha que viene fechada no se carga en la maquina la vamos a 
+     imprimir en el resumen, con lo cual hacemos doble trabajo que ahora, 
+     fechamos, acomodamos una ficha fisica en ese fechamiento, luego 
+     imprimimos una lista de fichas, luego buscamos las fichas que coincidan 
+     (un embole total, tedioso y consumidor tremendo de tiempo). Todo pq no 
+     confiamos que nos devuelvan exactamente las misma cantidad de fichas. La 
+     otra solucion es contar de ida y de vuelta, y buscar el faltante, lo cual 
+     tambien es recontratedioso. 
+**** que seria entonces el listado
+     seria darle todas las fichas eso si cada dos dias, (usemos como ejemplo 
+     809 en SI3), pero a pesar de que tenemos la sensacion de que cobra bien, 
+     tenemos una performance de cobranza muy baja. tenemos muchos morosos de 
+     planes nuevos, quizas excesivos, y la intimada que llamo ayer evidencia 
+     mala praxis en cuanto a perseguir morosidad. 
+     o sea que listado va listado viene no sirve para nada, pq se cae en la 
+     rutina de poner "no responde" y yo quisiera verlo en una ficha a que hora 
+     a ido, que dias y si es posible que no le haya respondido nunca nadie. 
+     Lo que pasa tambien que el listado da una falsa sensacion de control, 
+     pero en realidad no controla nada, solo imprimimos todo, o sea es el 
+     descontrol, que nosotros ni siquiera vemos ni focalizamos las fichas. 
+     Solo algunos cobradores lo hacen y van limpiando las zonas. Otros no 
+     dicen nada. 
+
+**** prueba hasta fin de mes
+     que ellos tengan las fichas hasta fin de mes no creo que afecte la 
+     cobrabilidad, pq se trata de gente que ya esta trabajando esas zonas.
+     Como 808/815/802/801/800
+
+**** uso provisorio de python
+     tendria que agregar si o si el entramado de resultado pq sino no me sirve 
+     el cambio.
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 
