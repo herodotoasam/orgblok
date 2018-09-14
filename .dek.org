@@ -311,6 +311,46 @@
 **** uso provisorio de python
      tendria que agregar si o si el entramado de resultado pq sino no me sirve 
      el cambio.
+*** fichas consideraciones al [2018-09-14 vie]
+    creo que ayer y hoy es la transicion y los resultados se vera en un 
+    tiempo. Y no vamos a poder solucionar el problema que representa la falta 
+    de cobradores o el embole que un cobrador te cague (744) o que un cobrador 
+    inexplicablemente se venga abajo (813). 
+    Pero quizas el sistema en si de fichas con las caracteristicas que le 
+    hemos dado o sea
+    1. datacion de resultado
+    2. frontera difusa entre zonas 
+    3. dacion de fichas en forma parcial los 5/10/15/20 cada mes
+    podria hacer que en el futuro sea mas facil solucionar el problema de 
+    a. division de zonas o sea sacarle o entresacarle fichas a la zona de 
+    alguien.
+    b. incorporar gente nueva que se podria plantear tipo 801 o sea polizonas 
+    o sea abarcar multiples zonas un poquito de cada una. Porque lo que me 
+    frena muchas veces a la hora de contratar cobrador es esa falta de 
+    flexibilidad que tenia el sistema anterior.
+
+**** tema incobrables/mudados
+     tambien esta el tema de que gente que se niega a pagar y es mantenido en 
+     los listados pero no hay forma de cobrarles. Quizas se podria cambiar el 
+     sistema y no manejarlo con zonas sino con un campo incobrable en clientes 
+     para ya ir calculando la incobrabilidad por zona/campaña o cosa asi. A su 
+     vez tendria que subir todos al seven los que estan morosos para que no 
+     vuelvan a comprar (todo moroso de los ultimos 5 años subirlos al seven).
+
+**** ahorro de tiempo
+     creo que teniendo en cuenta que todas las fichas que me llevo son las que 
+     pagaron y/o fechadas para octubre, y no tengo que procesarlas para el 
+     lunes, lo unico que tengo que hacer es hacer el toco de recibos que puede 
+     hacer la cami como nueva rutina, y el proceso de pablo que tambien lo 
+     puede hacer como nueva rutina. o sea que me saco un tema de encima pq la 
+     verificacion de que fichas traer la vamos a hacer los 5/10/15/20/25/30 o 
+     sea cada 5 dias redondos, y eso llevara minutos, y el preparado de las 
+     fichas una vez por mes eso es aparte. me llevare la guillotina alla. Y el 
+     pasado/proceso de las fichas lo hago cada dos o tres dias y no llevara 
+     mas que una horita cada vez. O sea que creo que me liberaria bastante del 
+     tema papeleo con esto, y en el fondo creo que podria usar el tiempo en la 
+     casa para programar, y aca los tiempos muertos si no hay nada que 
+     escribir, leo algo como siempre he hecho, pero aburrir no me aburro.
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 
