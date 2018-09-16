@@ -1,8 +1,20 @@
 * fichas
 
 ** proceso seven 
-*** coloreo segun seven
+*** DONE coloreo segun seven
     subidos/seven
     como ya no va a haber tab fechar propiamente dicha, quedara para fechar al 
     pablo la otra tiene que mostrar mas facilmente lo que esta subido al seven 
     y lo que esta en capilla.
+    uso el mismo sistema que habia antes pq colorear toda la fila va a ser 
+    molesto y esta bien a la vista la columna seven e intimar con su color 
+    azul y verde y naranja de intimado reciente y fecha sola de intimado 
+    viejo.
+    Hice que el proceso de subir bajar intimar y desintimar no recalcule que 
+    movia todo y hacia molesto el proceso.
+** fechado 
+*** TODO fechar en el mismo cuerpo
+    pq solo quedara el pablo para el fechar clasico, que debe quedar funcional
+** imprimir ficha
+*** hacer ficha nueva con grilla como en python
+*** incluir espacio de msgcobr suficiente para planes de pago
