@@ -353,7 +353,7 @@
      Entonces con eso abierto controlo al cobrador preguntando casos reales de 
      las fichas que supuestamente faltan cobrar.
 
-**** TODO posible cambio de programacion que refleje status de ficha
+**** DONE posible cambio de programacion que refleje status de ficha
      que quede la zona, pero un campo para mudado, uno para incobrables otro 
      para gestion.
      entonces se plantearia un escenario parecido a lo que tengo con el 
@@ -437,6 +437,24 @@
    y los mudados-gestion imprimirlos cuando cambie el cobrador y si confirma 
    resultado paso a incobrable y mantengo la impresion limpia.
 
+*** info sobre la coherencia mente-cerebro leida en curacion emocional
+    lo que me llama positivamente la atencion es que en estudios realizados en 
+    grandes grupos de empresarios el 70% dijo sentirse cansados y el 50% 
+    completamente agotados, ademas de otros sintomas que yo siento como 
+    insomnio y que eran propensos a echar la culpa a situaciones concretas en 
+    el mundo externo de ellos, a saber el trabajo en si, o las relaciones y no 
+    sospechar de que todo es la fisiologia interna, en este caso la coherencia 
+    cardiaca. Luego de un periodo de adaptacion de 8 semanas lograron grandes 
+    mejoras en todos los items, en especial en la energia.
+    Lo interesante es que a mi me pasa lo mismo, y leer esos dos capitulos es 
+    como haberlos leido escritos para mi particularmente pq expresan lo que 
+    decia ayer o sea que el cambio externo no va a cambiar nada si no hay un 
+    cambio en la coherencia. 
+    En mi caso puntual de hoy esto es mas importante que la nutricion, y que 
+    todo, pq es urgente, si no logro la solucion voy a morirme pronto, ya lo 
+    venia pensando en otros terminos el otro dia cuando cagaba que puedo estar 
+    bien del intestino pero si estoy mal de las emociones no hay arreglo.
+    
 * la rutina de lo cotideano
 ** la limpieza
 *** el sistema de limpio sobre limpio

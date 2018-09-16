@@ -1,0 +1,8 @@
+* fichas
+
+** proceso seven 
+*** coloreo segun seven
+    subidos/seven
+    como ya no va a haber tab fechar propiamente dicha, quedara para fechar al 
+    pablo la otra tiene que mostrar mas facilmente lo que esta subido al seven 
+    y lo que esta en capilla.
