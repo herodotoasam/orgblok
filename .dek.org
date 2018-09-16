@@ -337,6 +337,47 @@
      vez tendria que subir todos al seven los que estan morosos para que no 
      vuelvan a comprar (todo moroso de los ultimos 5 años subirlos al seven).
 
+     Este tema esta en estrecha relacion con la incorporacion de nuevos. 
+     Recordar el caso gemelo al 800, o sea mas alla que fue un caso que no 
+     valia la pena, el listado saco fichas que no valia la pena visitar por 
+     ningun cobrador. O sea habria que ver que cuando uno saca un cobrador a 
+     la calle le puede asignar fichas actuales y luego cuando lo va conociendo 
+     irle dando fichas que sean anteriores para que las trabaje, y luego esas 
+     fichas no sacarlas nuevamente. 
+
+**** TODO app para control de fichas
+     podria tener una app tipo dni.tcl que me mostrara las fichas que tiene 
+     cada cobrador, incluso con una pestaña cada uno o boton arriba de 
+     cobrador, ver, y abajo ver las fichas por zona o totas (botones) y que se 
+     vean las que faltan y por orden de vto. con opcion a pdf.
+     Entonces con eso abierto controlo al cobrador preguntando casos reales de 
+     las fichas que supuestamente faltan cobrar.
+
+**** TODO posible cambio de programacion que refleje status de ficha
+     que quede la zona, pero un campo para mudado, uno para incobrables otro 
+     para gestion.
+     entonces se plantearia un escenario parecido a lo que tengo con el 
+     fichas.tcl, normales, incobrables, gestion, mudados. todo con la columna 
+     de seven-intimacion a mano, y los ultimos cinco años. 
+     Entonces seria muy facil manejarse asi, cargo la info de telefono si la 
+     hay de un mudado, subo al seven y listo. Si quiero comprobar lo mando a 
+     otro cobrador.
+
+**** fichas mobile algunas consideraciones
+     con el comentario de ayer [2018-09-14 vie] del 815 sobre que interplan 
+     tenia una app que daba a los cobradores con geolocalizacion y la ficha me 
+     surgio la pregunta de si se podria manejar el fichaje por app. O sea algo 
+     similar a dni.tcl pero simplificado a ficha, y que se cargue con un db 
+     personalizado a cada cobrador que enviariamos con una contraseña que 
+     seria valida para cierta fecha, o sea que pasada esa fecha o a tantas 
+     horas de que el archivo se instale-active se borre. 
+     Tambien seria necesario una reestructuracion del formato de la ficha para 
+     que sea mas clara.
+     Podria haber un listado con las fichas, que con doble click se 
+     desplieguen y en la ficha un boton para pagado o fechado. que a su vez 
+     haga que se coloree el listado con los cobrados y los fechados.
+     No obstante pienso que es algo bastante futuro.
+
 **** ahorro de tiempo
      creo que teniendo en cuenta que todas las fichas que me llevo son las que 
      pagaron y/o fechadas para octubre, y no tengo que procesarlas para el 
@@ -366,6 +407,36 @@
 *** llevar de aca cosas que se puedan guardar en el local
     p.e. el palo y caja de plancha
     pensar que podria tambien guardar alli las colchas.
+** sobre el tema insatisfaccion por el trabajo
+   todas las semanas expreso alta dosis de insatisfaccion. Pq la catarsis de 
+   la semana laboral se me hace larga y no me es suficiente y termina siendo 
+   corrosiva a pesar de que ih me escuche lo suficiente.
+   Y parece que siempre la catarsis o la quejosidad de este gran bicho que se 
+   queja que soy yo, termina siempre siendo un tiro por elevacion a la 
+   sociedad o al Fede, en el sentido que hubiera un tiempo mitico pasado en el 
+   cual todo estaba bien y yo era feliz o tenia el futuro por delante.
+   Y la realidad es que como todo no es tan asi.
+   Parte pq todo este tiempo creo que si bien es cierto que he trabajado y no 
+   he tenido vacaciones y he terminado con una crisis nerviosa que no estoy 
+   procesando bien, es pq en el negocio pasaron cosas que no son gratas pero 
+   no es la primer vez que pasan y no por eso dejan de ser desasosegantes e 
+   inquietantes y estresantes, mas este agosto cuando ambos casos fueron 
+   tomando carises distintos a los habituales. 
+   Pienso no obstante que no he logrado un esquema de trabajo objetivamente 
+   correcto, si bien es cierto que se fue avanzando en el camino al 
+   ordenamiento no he logrado todavia resolver ciertas cuestiones. 
+   Los numeros me dan a favor, el cobro del mes pasado no estuvo mal, el 
+   cambio de horario tampoco es malo en si, 
+   La idea es que creo que falta solucionar muchas cosas para crear un sistema 
+   neutro que deje en lo posible mas tiempo. 
+   (ejemplos: caja seg empotr. en dpto, arreglar agua dpto, poner lavarropas, 
+   caja empotr en local, llave extra dpto esto en lo que tiene que ver con 
+   cosasa practicas y el resto programacion, ya sea en metodos de trabajo como 
+   en lo posible programacion. ejemplo eso que dije arriba de 
+   zonas-normales-mudados-gestion-incobrables, cosas se imprimir los normales 
+   y los mudados-gestion imprimirlos cuando cambie el cobrador y si confirma 
+   resultado paso a incobrable y mantengo la impresion limpia.
+
 * la rutina de lo cotideano
 ** la limpieza
 *** el sistema de limpio sobre limpio
