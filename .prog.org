@@ -15,6 +15,33 @@
 ** fechado 
 *** TODO fechar en el mismo cuerpo
     pq solo quedara el pablo para el fechar clasico, que debe quedar funcional
+    aparentemente funciona, solo que aca en net no funciona, chequear en otro 
+    lado.
 ** imprimir ficha
 *** hacer ficha nueva con grilla como en python
 *** incluir espacio de msgcobr suficiente para planes de pago
+** asignacion zonas
+*** TODO cambio de paradigma en la asignacion
+    en vez de asignar por tabla zona, asignar por campo en tabla ventas, de 
+    modo tal que se pudiera asignar en forma diferenciada a distintos 
+    cobradores la misma zona (el problema seria como muestro o quien muestra 
+    los incobrables/mudados/gestion), 
+    pq podria ser que los botones zonas salieran no de la asignacion de tabla 
+    zona sino de la asignacion de tabla ventas. Para lo cual habria que tener 
+    formas de cargar las asignaciones que podrian ser, desde el cuadro de 
+    zonas hacer un asignador, p.e. asignar al 800 juarez celman y que ponga en 
+    todas las fichas el codigo del 800. Y la otra seria mediante el tbls de 
+    fichas en proceso de edicion individual o global. 
+    Y los inc/ges/mud aparecerian en los luegares donde aparezca la zona pero 
+    sin asignacion salvo que alguno se asigne.
+    A su vez este cambio tendria que repercutir en el pasado de recibos para 
+    que no moleste que no haya asignacion global de zona, sino individual de 
+    zona. 
+*** esta solucion es mejor que iniciar con botones de zona
+    pq si inicio con botones de zona a la par que tantos botones son confusos 
+    y dificiles de encontrar, lo mismo es dificil saber que esta asignado a 
+    cada cobrador. incluso se podria poner un boton sin asignacion que muestre 
+    las fichas vacantes si las hay. 
+    el tbls zonas sera mas bien un simulador que sirve para calcular como 
+    quedan las zonas pero haga falta un sencillo cargador de zonas inicial.
+
