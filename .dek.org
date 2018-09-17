@@ -345,6 +345,23 @@
      irle dando fichas que sean anteriores para que las trabaje, y luego esas 
      fichas no sacarlas nuevamente. 
 
+     Postdata al [2018-09-17 lun]: creo que en realidad el objetivo de una 
+     gestion tipo fichas es separar las fichas ge-mu-in y al tener un 
+     dispositivo tecnologico facil para administrar eso ya que con atajos de 
+     una letra paso a un grupo las fichas dejando el compacto de fichas sanas. 
+     Y luego el segundo tema es la posibilidad de dividir zonas a discresion 
+     con solo asignar el cobrador en el dispositivo. Es como el tema seven o 
+     el tema intimacion, son dispositivos muy sencillos que yo no quiera 
+     disponer de mas tiempo para subir gente no significa que sea dificil 
+     hacerlo. Nuevamente para ser reiterativo con el listado no era tan facil 
+     filtrar los casos pq te obligaba a un cambio de "zona" global que 
+     practicamente perdia la ficha para siempre, aca la sigo teniendo a mano. 
+     de modo tal que pe. al cambiar el cobrador de la zona puedo reimprimir 
+     las fichas de mudados y "verificar" lo mudado y a la vez no causar 
+     irritacion en un cobrador bueno que este teniendo en ese momento como era 
+     808 en liceo o el pablo en sus zonas y repito todo esto es un mecanismo 
+     tecnologico. 
+
 **** TODO app para control de fichas
      podria tener una app tipo dni.tcl que me mostrara las fichas que tiene 
      cada cobrador, incluso con una pestaña cada uno o boton arriba de 
@@ -392,6 +409,19 @@
      tema papeleo con esto, y en el fondo creo que podria usar el tiempo en la 
      casa para programar, y aca los tiempos muertos si no hay nada que 
      escribir, leo algo como siempre he hecho, pero aburrir no me aburro.
+**** sobre el tema Romitex Fichas
+     creo que el tema reviste varias aristas y ahora creo que se facilita el 
+     manejo. Con este formato de fichas, con normales/antiguos siendo que 
+     antiguo abarca hasta el infinito, tendria que encontrar la ficha 
+     enseguida. El tema seria que cambiandole la fecha de visita y cargando el 
+     plan en msgcobr ahi mismo. se puede procesar todo en un minuto, subir 
+     seven, intimar, etc. y como nos manejamos con fichas fisicas ahora se 
+     imprime y se acomoda en el toco correspondiente y luego se reimprimira 
+     hasta que el cobrador correspondiente la de de baja como incobrable de 
+     nuevo. 
+***** la otra arista es advertir al Fede que no se meta en problemas 
+      pq seria al vicio ya que el objetivo es cobrar no andar peleandose con 
+      la gente ni tener venganza pq no pagaron en otra epoca.
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 

@@ -37,6 +37,22 @@
     A su vez este cambio tendria que repercutir en el pasado de recibos para 
     que no moleste que no haya asignacion global de zona, sino individual de 
     zona. 
+**** TODO hacer editador de varias filas de tbls 
+     con un lmap proceso el curselection y al campo dado lo proceso, me 
+     faltaria el valor a asignar que lo tendria que cargar puede ser con un 
+     msgbox con aceptar o cancelar. si acepto edita los curselection con el 
+     valor dado si cancelo no hace nada.  Una vez hecho habria que ver si se 
+     lo generaliza y se lo incluye en la class tbls para que pueda ser usado 
+     en todas las tbls que programo.
+*** la division normales/antiguos debe ser por fecha visitar
+    cosa que uno cuando active una ficha asi sea del 2005 poniendole visitar 
+    siga saliendo como normal hasta que la pongamos como incobrable o gestion.
+*** agregar campos de edicion al tbl fichas
+    los mismos que tiene fechar: msgcobr/horarios/tel/ por mas que esten a la 
+    derecha y no esten visibles, ya que pueden ser usados p.e. cuando paso un 
+    mudado o un incobrable y anoto quien lo informa. O bien un mecanismo tipo 
+    el fichaje viejo que con una letra oculto algunas columnas y desoculto 
+    otras. 
 *** esta solucion es mejor que iniciar con botones de zona
     pq si inicio con botones de zona a la par que tantos botones son confusos 
     y dificiles de encontrar, lo mismo es dificil saber que esta asignado a 
