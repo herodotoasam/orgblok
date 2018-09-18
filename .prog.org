@@ -44,10 +44,16 @@
      valor dado si cancelo no hace nada.  Una vez hecho habria que ver si se 
      lo generaliza y se lo incluye en la class tbls para que pueda ser usado 
      en todas las tbls que programo.
-*** la division normales/antiguos debe ser por fecha visitar
+*** DONE la division normales/antiguos debe ser por fecha visitar
     cosa que uno cuando active una ficha asi sea del 2005 poniendole visitar 
     siga saliendo como normal hasta que la pongamos como incobrable o gestion.
-*** agregar campos de edicion al tbl fichas
+    se hizo un case when ventas.ultpago>=clientes.pmovto y se uso los dos 
+    criterios para delimitar las fechas de ambos conjuntos cosa de abarcar 
+    todos los casos.
+*** corregir subconjuntos ge/mu/in sacando between pq no hace falta
+    ya que con la clausula logica gestion=1 o mudo=1 es suficiente no hace 
+    falta delimitar la fecha.
+*** TODO agregar campos de edicion al tbl fichas
     los mismos que tiene fechar: msgcobr/horarios/tel/ por mas que esten a la 
     derecha y no esten visibles, ya que pueden ser usados p.e. cuando paso un 
     mudado o un incobrable y anoto quien lo informa. O bien un mecanismo tipo 
