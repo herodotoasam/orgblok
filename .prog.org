@@ -20,6 +20,10 @@
 ** imprimir ficha
 *** hacer ficha nueva con grilla como en python
 *** incluir espacio de msgcobr suficiente para planes de pago
+*** prever un mecanismo para imprimir las nuevas de este mes
+    como pasaba antes con la Elba, o sea las vendidas durante el mes que 
+    vencen el mismo mes.
+    Quizas necesite que se active de nuevo el campo fimpr
 ** asignacion zonas
 *** TODO cambio de paradigma en la asignacion
     en vez de asignar por tabla zona, asignar por campo en tabla ventas, de 
