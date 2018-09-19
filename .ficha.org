@@ -1,0 +1,403 @@
+
+** idea alternativa de fichas
+   [2018-09-06 jue] yo se que pensar que las fichas van a andar esta vez es 
+   similar a los que creen que las utopias van a funcionar si "ellos" la 
+   llevan a cabo, pero creo que vale la pena al menos pensar la idea:
+*** las fichas se imprimirian y entregarian una vez al mes
+    [diferencia con sist Raul, igual a Elba y Monica]
+    
+**** se eliminaria el fechado y la impresion diaria
+     cada cobrador tendria el orden de sus fichas. 
+**** se devolveria y abrocharia cada recibo con la ficha
+     salvo que vaya a seguir cobrandola durante el mes, y si la devuelve la 
+     fecha. 
+**** devolveria las fichas incobrables o con problemas
+     esa devolucion fisica de las fichas "no cobrables" permitiria o tendria 
+     que permitir que nuestro trabajo sea ese, o sea trabajar sobre el fichaje 
+     que los cobradores no pueden cobrar. 
+**** devolucion de fichas que no se pueden cobrar aunque no sean incobrables
+     como todas las zonas tienen zona de influencia para otro cobrador, pienso 
+     que el poder disponer de las fichas facilmente me permitiria reasignar 
+     las fichas a otro cobrador y ver que pasa
+**** se pueden particionar las zonas de la forma que uno quiera
+     ese seria el verdadero quid del asunto, o sea que por mas que uno quiera 
+     el listado tiene sus limitaciones en cuanto a dividir las zonas. 
+**** el riesgo o la apuesta seria por mes pero se puede monitorear
+     o sea asigno por un mes, obviamente uno conoce la gente, y queda 
+     registrado exactamente las fichas que se dieron, p.e. un caso como el que 
+     paso aca de 744 tendremos posibilidad de reimprimir en el acto las fichas 
+     y dividirlas entre los que estan para que vayan rapidamente. Y tambien se 
+     puede ir monitoreando dia a dia como va avanzando cada cobrador en cuanto 
+     a fichas asignadas/cobradas/devueltas etc. 
+**** la incorporacion de uno nuevo
+     seria paulatina, o sea el toco de fichas lo puedo tener yo, y le voy 
+     dando dia a dia las fichas que van venciendo y le dejo tener las 
+     fechadas. Lo voy midiendo dia a dia a medida que lo voy conociendo.
+**** se podria pedir rendicion a fin de mes de las no cobradas
+     para ver fecha de visita y resultado.
+     Ese seria el mayor diferencial con Elba/monica o sea no entregarlas con 
+     los recibos abrochadas y no rendir a fin de mes las no cobradas para ver 
+     en que estado estan y como las trabajo
+**** las mudadas o descartadas se reasignarian 
+     eso permitiria no tener que dar por perdido de una los casos sino tirarse 
+     otra chance el mes siguiente con otro.
+**** reasignacion con comision diferenciada
+     para lograr la penetracion de cobradores en zonas aledañas en fichas que 
+     no sean muy faciles se podria hacer una comision diferenciada y que eso 
+     quedara plasmado en la ficha en particular.
+     p.e. para hacer entrar el 813 a fichas en particular de yofresur seria 
+     facil tener comisiones diferenciadas de acuerdo a las fichas de que se 
+     trate.
+*** ventajas del sistema
+**** en cierta forma me independizo de la impresion
+     al hacerse la impresion una vez al mes no tenes que estar en el dia a dia 
+     imprimiendo y pensando que le vas a dar a cada uno, sino que la 
+     asignacion se hace mensual, y la atencion del local se hace mas facil. 
+**** seria la unica forma en que podria poner mas cobradores
+     pq no se puede estar dividiendo zonas rigidas como hay ahora y 
+     modificando la base de datos. Pero se puede ir asignando fichas. Ellos 
+     sabran que mas fichas es mas cobranza y que la unica manera de conservar 
+     fichas es con resultados no durmiendo sobre las zonas. Pq ante la duda 
+     uno in-cruentamente le puede dar menos fichas el mes que viene de la zona 
+     y dejar entrar una poco a otro y ver que onda que pasa con ese otro y si 
+     va mejor lo va desplazando, p.e. con el 800 en Fragueiro, que se le 
+     podrian sacar unas 50 fichas y poner a uno nuevo y ver que pasa.
+**** control indirecto al cobrador ejercido por el papel fisico de la ficha
+    tendria que tener un recuadro con unos 8 casilleros de visita con 
+    fecha/hora/resultado/con quien hablo y lugar para fechar. y decirles que 
+    las fichas quedaran archivadas, como que quedara archivado tambien el 
+    resultado.
+    O sea que en un caso como el Aravella de Olmedo que no sabemos que paso, 
+    tendriamos la pista de que trabajo hizo el cobrador si es que lo hizo. 
+**** mayor facilidad para rotar sin que se den cuenta
+     p.e. un mes puedo dar algunas fichas de bustos/talleres/italia a 813 y 
+     otro mes mas fichas de esos barrios y dejar entrar a ese mismo bloque a 
+     802, y ese vaiven lo consigo facilmente de acuerdo a los resultados y de 
+     acuerdo a lo que se vaya trabajando.
+*** desventajas del sistema
+**** que empiezen a perder disciplina
+     como tienen las fichas comiencen a no ir. Pero se puede quedar bien claro 
+     que el que no va tiene que avisar por wapp. 
+**** situaciones de exceso de fichas
+     ante una situacion de exceso de fichas como la actual, el darles una 
+     cantidad grande de fichas que ellos visualicen y luego quitarla en cierta 
+     forma en el futuro puede ser complicado. O bien la perdida de manejo que 
+     significaria pe haber asignado a alguien una zona que de pronto tiene 100 
+     fichas que vencen el dia 10 y el cobrador no te las cobra. Esos flujos de 
+     pronto se dan en la zona nueva, y en la situacion de que uno no tiene 
+     cobradores. 
+     De todos modos con listado se esta haciendo caotico tambien y el problema 
+     no es el medio usado sino la falta de gente y los problemas de 
+     asignacion.
+
+**** que se puedan organizar con las fichas
+     desde ya que hay casos como el 750 que rechaza la idea pq prefiere que 
+     uno le organize el trabajo. 
+     Estamos hablando de zonas de 500 fichas, o de 300 fichas las zonas 
+     menores. (El que ahora haya una zona con 743 habla de la distorsion del 
+     sistema y de la problematica que se plantea).
+
+*** programacion necesaria
+**** dar un numero unico de ficha
+     de modo tal de anotar la asignacion y cargar a quien se asigno.
+**** llevar un historial de asignacion
+     o sea ver de que fecha a que fecha estuvo asignada a quien y quien cobro 
+     o no la ficha.
+**** modificar planilla de recibos
+     hacer recuadro de fichas entregadas y si es posible que salga la cantidad 
+     de fichas en poder del cobrador en ese momento.
+**** Fichas II un nuevo concepto
+     pq este esta pensado como asignar primero y encabezar por cobradores, en 
+     cambio habria que verlo por zonas, o sea que tendriamos que hacer los 
+     botones de zonas y abajo deplegar todas las fichas cobrables y dentro de 
+     ellas que tenga un campo (en tabla ventas seria) de cobr asignado, que 
+     puede colorear diferencialmente, ahi tener la facilidad de intimar y 
+     subir al seven, cambiar la asignacion, imprimir fichas, imprimir 
+     resumenes de fichas en poder del cobrador en esa zona.
+     Tambien que se vayan coloreando los ultpagos que sean de este mes para ir 
+     viendo las que vayan pagando para ver que tan atrasado esta cada zona. 
+     En otros tabs se pueden poner las fichas totales por cobrador, para 
+     verlas todas juntas, y todos los otros calculos sobre las cantidades que 
+     hagan falta y que ahora no son factibles pq no nos manejamos sobre un 
+     lote fijo asignado para bien o para mal a la persona. 
+     Con este nuevo fichas ya puedo largar, pq tengo la forma de asignar las 
+     fichas, imprimirlas y controlar lo que va pasando. 
+     Habria que hacer una forma generica de asignacion multiple en tablelist.
+***** botones de zonas usando el mismo algorritmo usado ya
+***** grideado por filas de 9 para visualizacion
+      se puede lograr con un foreach
+      foreach {a b c d e f g h i} $botoneszonas {grid $a $b $c etc}
+**** visualizar las fichas asignadas por cobrador
+**** visualizar el avance de cobranza por cobrador
+**** impresion de la ficha 
+***** sobre el formato de la ficha 
+     de 3316 fichas actuales (con pmovto mayor a 1/1/18) hay solo 75 que 
+     pertenecen por duplicado a un mismo cliente, o sea la mayoria de esas en 
+     cantidad de 2 por cliente, y 4 o 5 en 3 por cliente.
+     o sea si imprimieramos por idvta y no por idcliente no perderiamos nada 
+     esencial, en ese sentido. (De ultima programar una leyenda como en 2010 
+     que diga a la manera de la boleta de luz, aparte de esta ficha hay otra/s 
+     fichas del cliente). 
+     A nivel cc vemos que 8/10/21/24 cuotas hay una de cada una, el resto es 6 
+     o menos, con obvia preponderancia de 6 (3222).
+     Como para tener en cuenta a la hora de gastarse en un proceso de 
+     programacion solo para un caso. 
+     Encima los casos de 10/21 y 24 estan en morosidad.
+     O sea directamente no vale la pena complejizar toda una programacion de 
+     formato de fichas solo pq hay una duplicacion de dominio en 75 casos 
+     sobre 3316 fichas, y en el largo de las fichas de 4 fichas. Directamente 
+     se hace una ficha de tamano fijo pq se sabe que todas tienen como maximo 
+     6 cuotas. 
+     Tambien habria que simplificar el corte, y tratar de lograrlo a la mitad 
+     justo de la hoja, para no tener que renegar en el proceso todos los 
+     meses.
+***** informacion extra
+      numero de ficha, que pasaria a ser el numero de cuenta. Como cada cuenta 
+      tiene su ficha, y no nos complicamos con un numero extra, o un numero 
+      que no usamos como el numero del cliente.
+      el porcentaje diferencial puede ser una columna extra en una planilla 
+      cualquiera editable que podamos editar y luego la ficha lleve en caso 
+      que tenga otro valor distinto a 15, el porcentaje diferenciado impreso. 
+*** fichas encare provisorio-nuevas ideas [2018-09-13 jue]
+
+**** usar fichas actuales
+     o sea no programar y despues largar, sino usar las que tengo al menos 
+     desde ya hasta fin de mes. Y eso me dara mas tiempo para programar y 
+     pulir resultados.
+**** no hace falta que de todas las fichas
+     o sea puedo dar por bloques tipo hasta el 15, 20, 25, 30. 
+     Eso evitaria dar todo, evitaria que "vean" el toco, que especulen que 
+     cuenten, etc.
+     En realidad al unico que le interesa el numero de fichas en el poder de 
+     ellos, o bien la circunstancia que no pierdan fichas es a mi, no a ellos. 
+     Eso de dar por "semana" digamos (10/15/20/25) me permitiria que pudiera 
+     dividir zonas a voluntad de acuerdo a lo que vayan rindiendo cada uno. 
+**** quiero saber que hacen con las fichas
+     fecha/hora/resultado y no solo que me escriban intimado que no se si 
+     significa que la entregaron, que no me dicen como la entregaron, y luego 
+     siguen poniendo intimada como si a esa casa no hay que ir mas. 
+     Es obvio que el ida y vuelta de planillas no sirve, pq ellos vuelven te 
+     cobran, te traen la plata y uno la tira, la fecha la Cami y o la fecho yo 
+     mismo lo mas rapido posible y nada. Nadie controla esa ficha. Si pasa 
+     algo o no. 
+**** Como hago el control, quien tendra las fichas
+     ellos deben creer que yo se cuantas fichas tienen, por lo cual debo 
+     contar y anotar en planilla si o si cuantas fichas traen. y cuantas les 
+     doy, el tema es si les exigire que me muestren las no cobradas o que me
+     las den. 
+     Y ahi se cae en el circulo vicioso de ficha/listado, o sea el cobrador al 
+     entregar dia a dia las fichas, no se cuida de ellas, ya que asume que uno 
+     las cuidara, las acomodara y se las reimprimira para el dia siguiente.
+     Y por mas que uno se tomara el trabajo de contar frente a el las fichas, 
+     en lotes grandes supongamos 70/75 si faltan dos o tres, el problema es 
+     averiguar cual faltan, que seran fichas que se le quedaron en la gaveta 
+     el pantalon o en cualquier lado.
+     Y el problema es como hacemos a controlar que no pase con la 
+     administracion propia del cobrador. La unica forma es que el sepa que 
+     tiene que rendir de vuelta la cantidad que le dieron, o sea que no tiene 
+     que perder ninguna ficha. 
+     La otra es directamente fichas van fichas vienen bajo la premisa de que 
+     no se deben perder las fichas, y que la ficha debe conservar la 
+     informacion en ella de las visitas previas de trabajo, que si no se anota 
+     es pq no se trabajo, eso es crucial. e imprimo el resumen de lo que en 
+     teoria mandaria a cobrar y hago armar el toco de fichas con ese resumen, 
+     y ficha que no este o no se encuentre se reimprime.  Pero hay una falla: 
+     si la ficha que viene fechada no se carga en la maquina la vamos a 
+     imprimir en el resumen, con lo cual hacemos doble trabajo que ahora, 
+     fechamos, acomodamos una ficha fisica en ese fechamiento, luego 
+     imprimimos una lista de fichas, luego buscamos las fichas que coincidan 
+     (un embole total, tedioso y consumidor tremendo de tiempo). Todo pq no 
+     confiamos que nos devuelvan exactamente las misma cantidad de fichas. La 
+     otra solucion es contar de ida y de vuelta, y buscar el faltante, lo cual 
+     tambien es recontratedioso. 
+**** que seria entonces el listado
+     seria darle todas las fichas eso si cada dos dias, (usemos como ejemplo 
+     809 en SI3), pero a pesar de que tenemos la sensacion de que cobra bien, 
+     tenemos una performance de cobranza muy baja. tenemos muchos morosos de 
+     planes nuevos, quizas excesivos, y la intimada que llamo ayer evidencia 
+     mala praxis en cuanto a perseguir morosidad. 
+     o sea que listado va listado viene no sirve para nada, pq se cae en la 
+     rutina de poner "no responde" y yo quisiera verlo en una ficha a que hora 
+     a ido, que dias y si es posible que no le haya respondido nunca nadie. 
+     Lo que pasa tambien que el listado da una falsa sensacion de control, 
+     pero en realidad no controla nada, solo imprimimos todo, o sea es el 
+     descontrol, que nosotros ni siquiera vemos ni focalizamos las fichas. 
+     Solo algunos cobradores lo hacen y van limpiando las zonas. Otros no 
+     dicen nada. 
+
+**** prueba hasta fin de mes
+     que ellos tengan las fichas hasta fin de mes no creo que afecte la 
+     cobrabilidad, pq se trata de gente que ya esta trabajando esas zonas.
+     Como 808/815/802/801/800
+
+**** uso provisorio de python
+     tendria que agregar si o si el entramado de resultado pq sino no me sirve 
+     el cambio.
+** fichas consideraciones al [2018-09-14 vie]
+    creo que ayer y hoy es la transicion y los resultados se vera en un 
+    tiempo. Y no vamos a poder solucionar el problema que representa la falta 
+    de cobradores o el embole que un cobrador te cague (744) o que un cobrador 
+    inexplicablemente se venga abajo (813). 
+    Pero quizas el sistema en si de fichas con las caracteristicas que le 
+    hemos dado o sea
+    1. datacion de resultado
+    2. frontera difusa entre zonas 
+    3. dacion de fichas en forma parcial los 5/10/15/20 cada mes
+    podria hacer que en el futuro sea mas facil solucionar el problema de 
+    a. division de zonas o sea sacarle o entresacarle fichas a la zona de 
+    alguien.
+    b. incorporar gente nueva que se podria plantear tipo 801 o sea polizonas 
+    o sea abarcar multiples zonas un poquito de cada una. Porque lo que me 
+    frena muchas veces a la hora de contratar cobrador es esa falta de 
+    flexibilidad que tenia el sistema anterior.
+
+**** tema incobrables/mudados
+     tambien esta el tema de que gente que se niega a pagar y es mantenido en 
+     los listados pero no hay forma de cobrarles. Quizas se podria cambiar el 
+     sistema y no manejarlo con zonas sino con un campo incobrable en clientes 
+     para ya ir calculando la incobrabilidad por zona/campaña o cosa asi. A su 
+     vez tendria que subir todos al seven los que estan morosos para que no 
+     vuelvan a comprar (todo moroso de los ultimos 5 años subirlos al seven).
+
+     Este tema esta en estrecha relacion con la incorporacion de nuevos. 
+     Recordar el caso gemelo al 800, o sea mas alla que fue un caso que no 
+     valia la pena, el listado saco fichas que no valia la pena visitar por 
+     ningun cobrador. O sea habria que ver que cuando uno saca un cobrador a 
+     la calle le puede asignar fichas actuales y luego cuando lo va conociendo 
+     irle dando fichas que sean anteriores para que las trabaje, y luego esas 
+     fichas no sacarlas nuevamente. 
+
+     Postdata al [2018-09-17 lun]: creo que en realidad el objetivo de una 
+     gestion tipo fichas es separar las fichas ge-mu-in y al tener un 
+     dispositivo tecnologico facil para administrar eso ya que con atajos de 
+     una letra paso a un grupo las fichas dejando el compacto de fichas sanas. 
+     Y luego el segundo tema es la posibilidad de dividir zonas a discresion 
+     con solo asignar el cobrador en el dispositivo. Es como el tema seven o 
+     el tema intimacion, son dispositivos muy sencillos que yo no quiera 
+     disponer de mas tiempo para subir gente no significa que sea dificil 
+     hacerlo. Nuevamente para ser reiterativo con el listado no era tan facil 
+     filtrar los casos pq te obligaba a un cambio de "zona" global que 
+     practicamente perdia la ficha para siempre, aca la sigo teniendo a mano. 
+     de modo tal que pe. al cambiar el cobrador de la zona puedo reimprimir 
+     las fichas de mudados y "verificar" lo mudado y a la vez no causar 
+     irritacion en un cobrador bueno que este teniendo en ese momento como era 
+     808 en liceo o el pablo en sus zonas y repito todo esto es un mecanismo 
+     tecnologico. 
+
+**** TODO app para control de fichas
+     podria tener una app tipo dni.tcl que me mostrara las fichas que tiene 
+     cada cobrador, incluso con una pestaña cada uno o boton arriba de 
+     cobrador, ver, y abajo ver las fichas por zona o totas (botones) y que se 
+     vean las que faltan y por orden de vto. con opcion a pdf.
+     Entonces con eso abierto controlo al cobrador preguntando casos reales de 
+     las fichas que supuestamente faltan cobrar.
+
+**** DONE posible cambio de programacion que refleje status de ficha
+     que quede la zona, pero un campo para mudado, uno para incobrables otro 
+     para gestion.
+     entonces se plantearia un escenario parecido a lo que tengo con el 
+     fichas.tcl, normales, incobrables, gestion, mudados. todo con la columna 
+     de seven-intimacion a mano, y los ultimos cinco años. 
+     Entonces seria muy facil manejarse asi, cargo la info de telefono si la 
+     hay de un mudado, subo al seven y listo. Si quiero comprobar lo mando a 
+     otro cobrador.
+
+**** fichas mobile algunas consideraciones
+     con el comentario de ayer [2018-09-14 vie] del 815 sobre que interplan 
+     tenia una app que daba a los cobradores con geolocalizacion y la ficha me 
+     surgio la pregunta de si se podria manejar el fichaje por app. O sea algo 
+     similar a dni.tcl pero simplificado a ficha, y que se cargue con un db 
+     personalizado a cada cobrador que enviariamos con una contraseña que 
+     seria valida para cierta fecha, o sea que pasada esa fecha o a tantas 
+     horas de que el archivo se instale-active se borre. 
+     Tambien seria necesario una reestructuracion del formato de la ficha para 
+     que sea mas clara.
+     Podria haber un listado con las fichas, que con doble click se 
+     desplieguen y en la ficha un boton para pagado o fechado. que a su vez 
+     haga que se coloree el listado con los cobrados y los fechados.
+     No obstante pienso que es algo bastante futuro.
+
+**** ahorro de tiempo
+     creo que teniendo en cuenta que todas las fichas que me llevo son las que 
+     pagaron y/o fechadas para octubre, y no tengo que procesarlas para el 
+     lunes, lo unico que tengo que hacer es hacer el toco de recibos que puede 
+     hacer la cami como nueva rutina, y el proceso de pablo que tambien lo 
+     puede hacer como nueva rutina. o sea que me saco un tema de encima pq la 
+     verificacion de que fichas traer la vamos a hacer los 5/10/15/20/25/30 o 
+     sea cada 5 dias redondos, y eso llevara minutos, y el preparado de las 
+     fichas una vez por mes eso es aparte. me llevare la guillotina alla. Y el 
+     pasado/proceso de las fichas lo hago cada dos o tres dias y no llevara 
+     mas que una horita cada vez. O sea que creo que me liberaria bastante del 
+     tema papeleo con esto, y en el fondo creo que podria usar el tiempo en la 
+     casa para programar, y aca los tiempos muertos si no hay nada que 
+     escribir, leo algo como siempre he hecho, pero aburrir no me aburro.
+**** sobre el tema Romitex Fichas
+     creo que el tema reviste varias aristas y ahora creo que se facilita el 
+     manejo. Con este formato de fichas, con normales/antiguos siendo que 
+     antiguo abarca hasta el infinito, tendria que encontrar la ficha 
+     enseguida. El tema seria que cambiandole la fecha de visita y cargando el 
+     plan en msgcobr ahi mismo. se puede procesar todo en un minuto, subir 
+     seven, intimar, etc. y como nos manejamos con fichas fisicas ahora se 
+     imprime y se acomoda en el toco correspondiente y luego se reimprimira 
+     hasta que el cobrador correspondiente la de de baja como incobrable de 
+     nuevo. 
+***** la otra arista es advertir al Fede que no se meta en problemas 
+      pq seria al vicio ya que el objetivo es cobrar no andar peleandose con 
+      la gente ni tener venganza pq no pagaron en otra epoca.
+** fichas consideraciones al [2018-09-18 mar]
+    hoy reparti hasta el 20. (La acomodada de los tocos a repartir me llevo 20 
+    minutos),
+    Esta bueno que me devuelvan las fichas incobrables y que se pueda anotar 
+    en ellas lo que pasa para luego acomodarlas en los diferentes casilleros, 
+    para generar informacion (caso ventas hechas a gente que trabajaba alli) y 
+    generar acciones, por el momento seven e intimaciones. (Pero la repuesta 
+    de la gente es clara o sea no van a pagar y no les importa estar en el 
+    seven). 
+    El mayor beneficio seria que el conjunto de cuentas a cobrar apareceria 
+    limpio de los que no son cobrables y ese conjunto seria mas manejable y 
+    controlable. 
+    El segundo beneficio del trabajo con fichas es la limpieza, o sea es menos 
+    papeleo y menos necesidad de imprimir cosas a diario. Quedan los recibos, 
+    pero incluso se podrian imprimir para toda la semana (una tarea para la 
+    cami) y dividirlos por gomitas, entonces no hace falta ni siquiera estar 
+    prendiendo la impresora antes de salir. 
+    El tercer beneficio gigante esta siendo el poder asignar fichas a los 
+    cobradores en propia mano sin tener que partir zonas ni establecer ningun 
+    tipo de problema. Obvio esto es experimental, y el mes que viene antes de 
+    darle las fichas a un cobrador anotare la asignacion para que no sea tan 
+    caotico. Este mediomes es de confianza. 
+
+** fichas consideraciones al [2018-09-19 mié]
+   el dia de hoy esta marcado por el tema del conato 808/815 de ayer. Que 
+   desnuda la falencia en si de la cobranza en el flanco mas debil que es la 
+   incorporacion de nuevos elementos.
+   Pq no me siento confiado en incorporar gente nueva luego de malas 
+   experiencias y por falta de tiempo para entrevistas, y capacitaciones, en 
+   el contexto de las turbulencias de agosto/set que tuvimos en la oficina.
+   Luego del fallido de 744, de la desercion del 813, y de la aflojada del 
+   tandem, creo que llego la hora de poner las pilas en una captacion mas 
+   firme de un perfil intermedio que sea mas adecuado para nosotros. Y alli 
+   puede ser que tallen las mujeres como en el pasado. 
+   No se descarta que esta idea se combine con una oficina nueva. 
+   
+** idea superadora de listado-divisible
+   la idea seria seguir con listado pero tratando de superar los problemas 
+   o bien agregarle lo que avanzamos con esta experiencia.
+*** division dinamica de zonas
+    metodo rapido de division de zonas y muestra automatica de las zonas 
+    asignadas al cobrador
+*** subconjuntos contenedores de fichas indeseables
+    el gran problema desasosegante de este sistema que hacer con los mudados, 
+    los gestion y los incobrables.
+*** impresion cada 5 dias
+    tambien se podria imprimir las zonas de cada cobrador una vez a la semana, 
+    eso evitaria el fechado innecesario y terminaria con la locura de la 
+    impresion diaria. P.e. se podria imprimir todos los lunes.  
+** incorporacion de cobradora
+   podria poner un aviso: cobradora 30/50 años con moto y exp. mediodia 
+   esto podria un poco achicar la base de gente que viene al aviso y se pueda 
+   conseguir alguien que no tenga tanta pretension como las que tienen los que 
+   estan desempleados y son cabeza de familia.
+   Mayormente las mujeres son subsidiadas o tienen el marido que trabaja y no 
+   pretenden ganar 20k y a la vez no tienen las mismas posibilidades.
+
