@@ -445,6 +445,26 @@
     darle las fichas a un cobrador anotare la asignacion para que no sea tan 
     caotico. Este mediomes es de confianza. 
 
+**** Conato de rebelion 808/815
+     cuando todo parecia ir bien con las fichas, salen esos dos diciendo que 
+     es un caos la administracion de las fichas. El problema es el ida y 
+     vuelta tan rapido y la falta de explicacion y la falta de voluntad de 
+     ellos, sumado a que son bastante brutitos, comparados con los otros que 
+     por haber sido carteros se apañan mejor.
+     
+**** alternativa a las fichas
+     una alternativa posible seria poner a punto una reasignacion de zona mas 
+     facilmente con el metodo que ayer programe para asignar a cobrador, y 
+     crear zonas alternativas a discresion, de ese modo no estaria atado a 
+     darles la zona entera.
+     Ejemplos de movimentos que hubiera hecho estos dias con eso:
+     poner fichas seleccionadas de talleres en italia que es de 801
+     crear un yofresurII y ponerle las ultimas cuotas y darselas al 801
+     idem peinado de patricios, que ahora no hace falta pq el 813 se fue.
+     crear olmedoII y ponerle las que le estoy dando al 809
+     y asi sucesivamente .
+     con los subconjuntos ge-in-mu vamos a andar joya con la asignacion de los 
+     que salen de listado que era el problema de antes.
 ** acomodo de oficina
 *** traer la mercaderia en forma hormiga
     suponiendo una carga de 5 cortinas por dia o se equivalente en un mes 

@@ -48,6 +48,9 @@
      valor dado si cancelo no hace nada.  Una vez hecho habria que ver si se 
      lo generaliza y se lo incluye en la class tbls para que pueda ser usado 
      en todas las tbls que programo.
+**** TODO variante: asignador de zona o cambiador de zona 
+     usando el mismo criterio usado para asignar cobrador, solo que sutilmente 
+     diferente, con un combo.
 *** DONE la division normales/antiguos debe ser por fecha visitar
     cosa que uno cuando active una ficha asi sea del 2005 poniendole visitar 
     siga saliendo como normal hasta que la pongamos como incobrable o gestion.
