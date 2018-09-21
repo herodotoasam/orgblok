@@ -393,6 +393,8 @@
     tambien se podria imprimir las zonas de cada cobrador una vez a la semana, 
     eso evitaria el fechado innecesario y terminaria con la locura de la 
     impresion diaria. P.e. se podria imprimir todos los lunes.  
+*** el listado en base a dos zonas dentro de todo es viable
+    el fechado lleva menos tiempo que este tema de las fichas.
 ** incorporacion de cobradora
    podria poner un aviso: cobradora 30/50 años con moto y exp. mediodia 
    esto podria un poco achicar la base de gente que viene al aviso y se pueda 
@@ -400,4 +402,43 @@
    estan desempleados y son cabeza de familia.
    Mayormente las mujeres son subsidiadas o tienen el marido que trabaja y no 
    pretenden ganar 20k y a la vez no tienen las mismas posibilidades.
+   [2018-09-21 vie] puse el aviso dos domingos y como novedad enviar CV por 
+   mail, creo que es menos invasivo, no requiere desactivar el telefono que 
+   uso para la oficina (sino me hacian falta tres telefonos) y te rompen mucho 
+   las bolas con los avisos por wapp.
+   Creo que esto filtrara un poco, ya que no creo que alguien se ponga a 
+   mandar un mail diciendo hola, o diciendo hola de que trata el trabajo. Sino 
+   que ya partimos de la base de alguien que tiene un CV y lo sabe mandar por 
+   mail. Y no tiene otra forma de comunicarse. 
+   Y aparte (y muy importante) al no ser wapp ya no tengo que se diga romitex 
+   o el logo de romitex, entonces que no te empiecen a mandar los indeseables 
+   que conocen romitex. 
+   Tambien pienso que cobradora 30/50 acota las edades a la edad de lo que fue 
+   la captacion de la elba, y en tiempo reciente 808. Puede haber unas cuantas 
+   mas. Veremos.
 
+** fichas consideraciones al [2018-09-21 vie]
+   creo que practicamente es una idea no viable pq me lleva muchisimo tiempo 
+   el proceso de fechamiento, el cual basicamente es anodino, lo podria 
+   delegar enseñandole a la Cami que lo haga y me dejara unicamente los casos 
+   raros. 
+*** el problema que no soluciona lo que pretendia solucionar
+    o sea el descargo de fichas que no pagan que no todos lo hacen, (lo estan 
+    haciendo 801/802/809) es en parte debido a que en fichas se imprimio un 
+    monton de fichas que no salian en listado, y al final estan volviendo de 
+    nuevo sin resultado. 
+*** sigo con un tremendo problema de no saber cuantas fichas tienen
+    o sea que lo mismo no sabemos cuantas fichas tienen, en cambio con el 
+    listado se podia ver claramente cuantas fichas estaba teniendo cada uno.
+*** para dividir zonas no hace falta fichas sino un dispositivo
+    podria haberle dado al 753 el listado de olmedo y que me anotara los que 
+    no va a cobrar y generar una zona olmedoII y pasarlos y darsela a 809 o 
+    sea el dispositivo solo me va a controlar mejor que ahora con las fichas.
+*** Cambiamos para esmerilar al 813 y al final se fue antes de empezar
+    como paso con coco liso en oficina para esmerilar al Brian, ahora cambiar 
+    a fichas para esmerilar al 13 fue un cambio muy rotundo que casi me 
+    lesiona a la cobradora.
+*** el problema de donde poner los mudados e incobrables
+    el dispositivo de subconjuntos no perdibles es lo que nos permite con 
+    facilidad saber cuales fichas estan teniendo problemas sin tener que caer 
+    al tema fichas.
