@@ -448,3 +448,6 @@
     el dispositivo de subconjuntos no perdibles es lo que nos permite con 
     facilidad saber cuales fichas estan teniendo problemas sin tener que caer 
     al tema fichas.
+** fichas consideraciones al [2018-09-25 mar]
+   hoy reparto las ultimas para que lleguen a fin de mes, y voy preparando el 
+   regreso de los listados. 
