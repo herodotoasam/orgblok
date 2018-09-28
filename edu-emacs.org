@@ -454,3 +454,12 @@ marcarlos, ahi hacemos commit ya sea con el icono, con el menu, o bien
 con un teclazo que creo que es v
 ahi pasamos al mismo de antes para escribir el header y cuerpo del
 commit y Cc para commit y P hace push.
+
+* TCL
+
+** ejecutar el script de prueba
+el clasico C-x que hacia en vim. lo logro facilmente con el menu Tcl
+que me aparece mientras trabajo con Tcl.
+Restart Tcl process with file (no tiene un atajo adaptado todavia) y
+me aparece un file explorer donde elijo el archivo a ejecutar, que
+esta resaltado el que estoy trabajando y enter y ya esta. 
