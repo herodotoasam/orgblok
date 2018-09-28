@@ -438,8 +438,14 @@ commit, con un titulo y una aclaracion pertinente.
 Es importante explayarse en ambas cuestiones pq luego en el log
 tenemos una especie de documentacion de la programacion.
 Salimos de ahi con Cc.
-
 ** Cx vl
 log tenemos el listado de los commit pero al ir de commit en commit
 presionamos D en cualquiera y se abre una ventana con el diff
 particular lo cual es una bocha para ver lo que hemos cambiado.
+
+** Cx vd abre directorio
+pide directorio y muestra los archivos que estan sin commit para
+marcarlos, ahi hacemos commit ya sea con el icono, con el menu, o bien
+con un teclazo que creo que es v
+ahi pasamos al mismo de antes para escribir el header y cuerpo del
+commit y Cc para commit y P hace push.
