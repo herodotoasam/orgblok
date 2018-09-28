@@ -150,6 +150,11 @@ con / tengo una busqueda multioccur de los archivos
 y hay otras busquedas mas relativas a agenda con los todos y demas que
 son menos relevantes .
 
+** busqueda en org por sparse tree
+C-c /
+da muchas opciones pero nuevamente / brinda la opcion de buscar regexp
+y da el resultado con los tree abiertos
+
 
 * Quedarse en la unica ventana (maximizar)
 C-x-1
