@@ -137,6 +137,20 @@ C-s C-w
 ** Quedarnos con la busqueda
 C-s etc RET
 
+** ag
+Mx-ag RET default la palabra que esta bajo el cursor
+podemos con Mp Mn ir arriba y abajo en el historial de busquedas
+nos deja poner el directorio de busqueda y nos abre una ventana de
+resultados que es linkeable. o sea toda una maravilla
+
+** busqueda en los orgs que estan en agenda
+verificar que todos los orgs esten incluidos en agenda
+abrir agenda (usualmente C-})
+con / tengo una busqueda multioccur de los archivos
+y hay otras busquedas mas relativas a agenda con los todos y demas que
+son menos relevantes .
+
+
 * Quedarse en la unica ventana (maximizar)
 C-x-1
 
@@ -414,3 +428,18 @@ file que sea. Util para ir a librerias.
 
 * Hace falta
 ** una navegacion a ultimos cambios como en vim
+
+* git
+comandos basicos
+
+** Cx vv
+genera el commit. Abre una ventana al lado para poner el mensaje del
+commit, con un titulo y una aclaracion pertinente.
+Es importante explayarse en ambas cuestiones pq luego en el log
+tenemos una especie de documentacion de la programacion.
+Salimos de ahi con Cc.
+
+** Cx vl
+log tenemos el listado de los commit pero al ir de commit en commit
+presionamos D en cualquiera y se abre una ventana con el diff
+particular lo cual es una bocha para ver lo que hemos cambiado.
