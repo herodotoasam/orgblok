@@ -136,6 +136,13 @@ si repetimos va a la siguiente palabra y se puede cambiar de direccion Cs Cs Cr
 C-s C-w
 ** Quedarnos con la busqueda
 C-s etc RET
+** busqueda de la palabra bajo el cursor (otra forma)
+M-s .
+** highlight busquedas
+*** M-s h . highlight-symbol-at-point
+*** M-s h l highlight-matching-regexp
+*** M-s h r
+*** M-s h p
 
 ** ag
 Mx-ag RET default la palabra que esta bajo el cursor
