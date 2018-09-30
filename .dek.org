@@ -824,6 +824,23 @@ en concreto que necesito para el trabajo. En este caso estoy
 trabajando con el sistema de autorizacion de ventas, y el tema
 principal que quiero desarrollar es el de la captacion de nuevos
 cobradores. Pq esa es mi funcion, que haya cobradores y que cobren.
+[2018-09-30 dom] hoy me levante y luego de hablar tranqui hasta las
+11hs me puse a programar, saliendome bien lo programado, luego dormi
+una siesta afuera y tomamos mates, amenazo un poco la necesidad de
+tomarme la otra mitad del M pero por ahora no lo hice eso que me
+explaye con ih sobre el tema Cami en el trabajo, dejando claro que es
+un tema insostenible en seguirla empleando en las circunstancias
+actuales.
+Tome SL no recuerdo si una o dos durante el dia para evitar la
+ansiedad sobre el tic de empujar los dientes. Aunque este finde estuvo
+totalmente copado por emacs/org/programacion como en los viejos
+tiempos tuvo mucho de negocio, o sea mucho de analisis de negocio, con
+ih, pero en positivo, o sea respecto a lo que hay que hacer, pero no
+en relacion a un plan en concreto de una idea rara o nada sino en
+concreto sobre dos temas base, sobre la aprobacion de las ventas, y
+sobre la contratacion de mas cobradores. La unica idea que me ronda en
+la cabeza es quizas que contratemos al Fabian y al Ariel o a alguno de
+los dos.
 * traer el auto
   ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
   adecuada, ya solo falta traerlo. 
@@ -945,7 +962,11 @@ pienso aplicar una postura basada en los listados, o sea no tanto en
 la zona asignada sino ir modificando las zonas. Tanto con el listado
 de ida y vuelta, no permitiendo que me guarden listados al estilo 808
 sino que el listado vuelva para que vea yo mismo que la tarea este
-hecha, y los listados sustraidos.
+hecha. O sea no solo el fechamiento sino ver si se cubre todo el
+listado, pq no puede haber tantos que no respondan, o que pasen para
+otra fecha. (caso 809 o caso 750 que pudiera servir para balancear
+cuanto vamos a dar o no de zona.) La idea es ver que las experiencias
+744 y 801 cuando no tuvieron zona cobraron bien. 
 
 *** listados sustraidos
 son las zonas sacadas a los cobradores de las fichas que no
@@ -956,4 +977,10 @@ incluso se puede apelar a una comision diferenciada.
 *** base on pendrive
 si logro que la base resida en pendrive lograria que pudiera pasar en
 oficina todo lo que pudiera y de paso trabajar mejor. y liberarme la manana.
+la idea seria trabajar en oficina de 17 a 20 y pasar los recibos e
+imprimir todo alli, cosa de quedar todo libre y solo tema venta
+fuera. y elimino la necesidad de trasladar.
 
+*** hacer entrevistas sin miedo
+no importa los pergaminos de quien mande el cv sino el que este sin
+trabajo pq se trata de gente desempleada y ahora hay mucha necesidad. 

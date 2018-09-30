@@ -481,3 +481,8 @@ Lo que si si cerramos el buffer la marca nos dice que el buffer no
 existe y la marca ya se pierde, o sea que al cerrar el buffer se borra
 la marca.
 
+* listas desordenadas
+- uno
+- dos
+- tres
+ 
