@@ -470,3 +470,14 @@ que me aparece mientras trabajo con Tcl.
 Restart Tcl process with file (no tiene un atajo adaptado todavia) y
 me aparece un file explorer donde elijo el archivo a ejecutar, que
 esta resaltado el que estoy trabajando y enter y ya esta. 
+
+* jump to register
+F5 point-to-register te pide una letra mostrandote las que estan
+grabadas
+F6 jump-to-register te pide una letra idem mostrandote las grabadas y
+te lleva a ella.
+Genialmente aparentemente persiste mas alla que cerremos el programa.
+Lo que si si cerramos el buffer la marca nos dice que el buffer no
+existe y la marca ya se pierde, o sea que al cerrar el buffer se borra
+la marca.
+
