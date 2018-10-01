@@ -841,6 +841,26 @@ concreto sobre dos temas base, sobre la aprobacion de las ventas, y
 sobre la contratacion de mas cobradores. La unica idea que me ronda en
 la cabeza es quizas que contratemos al Fabian y al Ariel o a alguno de
 los dos.
+[2018-10-01 lun] hoy me levante temprano y bien pq me quede en el
+marques, y me fui a tomar taxi a la ruta que vino en un minuto, y vine
+mejor. Pase a las 9hs a la oficina, pq tenia que atender al 802 y alli
+hablamos del problema 801 respecto a como lo esta cagando con el tema
+de la moto. Vuelvo al dpto y paso los papeles con el nuevo sistema de
+pendrive.
+Tomo una verde en dos mitades pq tengo el sintoma de empujar los
+dientes y solo cede cuando me tranquilizo o sea me olvido. NO estoy
+particularmente ansioso, salvo con la sensacion de que se me pase el
+tiempo y no tenga tiempo para dormir, pero no creo que muera de sueño,
+pq en realidad estoy en un estado de enchufe total con la
+programacion/emacs/orgmode/trabajo. o sea ese combo funciona completo.
+Creo que con lo hablado ayer con ih, donde me explaye sobre el
+problema Cami, y los trazos dados con la Cami misma sin lastimarla, y
+aceptando las cosas que me va pidiendo gentilmente vamos a andar
+bien. pq el cambio pendrive va a permitir que pase los papeles en la
+oficina. Y eso alivie el trabajo aca, que tengo que ir limpiando los
+pendientes y sacando lo que hay sobre los muebles o sea tengo que ir
+archivando.
+Hasta las 14.21 no tome M.
 * traer el auto
   ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
   adecuada, ya solo falta traerlo. 
@@ -984,3 +1004,13 @@ fuera. y elimino la necesidad de trasladar.
 *** hacer entrevistas sin miedo
 no importa los pergaminos de quien mande el cv sino el que este sin
 trabajo pq se trata de gente desempleada y ahora hay mucha necesidad. 
+
+** pendrive
+formatie un pendrive ext4, con clave luks poniendo la misma clave que
+la maquina, o sea que si lo pierdo no se abre. y trabajo por bloques,
+o sea en general uno pasa lo que pasa por bloques y sube, o sea la
+secuencia de trabajo esta en mega. Lo que reside en pendrive tambien
+son los programas lo cual es bueno tambien pq no dependen de la
+maquina. ni de los cambios que uno haga. 
+Ya que pueda pasar los recibos y ganar ese tiempo es bocha. Y no creo
+que sea una perdida de seguridad. 
