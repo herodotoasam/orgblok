@@ -482,12 +482,19 @@ existe y la marca ya se pierde, o sea que al cerrar el buffer se borra
 la marca.
 
 * listas desordenadas
-1. con + - *
-2. M-RET agrego otro renglon
-3. con S-Left ciclo tipos de bullets
-4. M-Left-Right promote/demote
-5. M-Up-Down subo bajo el renglon
-6. 
+1) con + - *
+2) M-RET agrego otro renglon
+3) con S-Left ciclo tipos de bullets o C-c - 
+4) M-Left-Right promote/demote
+5) M-Up-Down subo bajo el renglon
+6) C-c * transforma una entrada en un titulo
+7) C-c C-* transforma toda la lista en titulos sin tener que resaltarla
+8) C-c ^ ordena la lista con un criterio que te da a eleccion.
+
+
+
+
+
 
 * corrector ortografico
 instalar aspell-es 

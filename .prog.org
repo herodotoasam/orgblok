@@ -73,4 +73,20 @@
     las fichas vacantes si las hay. 
     el tbls zonas sera mas bien un simulador que sirve para calcular como 
     quedan las zonas pero haga falta un sencillo cargador de zonas inicial.
+* fichas.tcl
+** proceso de fechar
+*** para ganar tiempo un proceso comun es tener que fechar varios
+registros con la misma fecha, eso podria solucionar bastante.  
+1) para usar el espacion que hay abajo se podria usar una grilla tipo
+   la del fechador que te muestre las cuotas y los pagos a medida que
+   avanzas en el listado.
+2) hay alguna razon para que no se use el dot para poner la fecha de hoy?
+3) ver si el resaltado de los pagados y cancelados no solo funciona
+   para la fecha especifica marcada sino para los ultimos dos o tres
+   dias, cosa de que uno vea que esos casos deben ser fechados.
+4) se debe resaltar un pagado que permanezca con una fecha baja
+5) forma de poner no vender mas dentro del fechador y ver si esta en no
+   vender mas. para prescindir de python
+* listados 
+** ponerle fecha a los listados
 
