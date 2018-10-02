@@ -117,9 +117,6 @@ dentro, salvo breves salidas que no llegan al 10% de lo permitido, con
 batata.
 Pero hay que reformar la dieta urgente para dar variedad.
 
-* Pushup
-| [2018-01-11 jue] | 8 |
-
 * [2018-02-05 lun]
 ** frustracion general me voy a esquema cero
 cual seria esquema cero: seria empezar desde abajo de la nada con una
@@ -544,7 +541,6 @@ Pq el negocio pasa por otro lado, pq estoy programando por otro lado, falta
 mucho para reemplazar todo.
 Debo seguir con un sistema mixto.
 
-
 * [2018-03-07 mie]
 ** tema candente como reacciono a que me critiquen
 Me entero que el Fede le pregunta a la Cami que hago yo en el dia y eso me 
@@ -586,7 +582,6 @@ bien.
 Y con respecto al Fede tambien. No me voy a enganchar en esta volteada de 
 que me critiquen. Yo se que lo que hice es genial y que mi trabajo vale. Y 
 los resultados ya se veran.
-
 
 
 * [2018-03-08 jue]
@@ -985,7 +980,6 @@ actividades de pantalla y tener grandes problemas ergonomicos.
  no estoy obligado a terminar de leer nada, ni a hacer un tema completo ni 
  a ver una serie completa, etc. Y menos a tener una sensacion de que estoy 
  ocupado de mas y no poder hacer cosas que me interesarian.
-
 
 * [2018-03-18 dom]
 ** mas sobre el plan de estudios
@@ -1461,7 +1455,6 @@ mujeres de diversas edades, es increible la densidad. Uno no lo ve tanto
 al pasar al caminar pero es increible lo que se ve al estar uno en un 
 punto fijo.
 
-
 * [2018-04-25 mié]
 **** volvi a programar
  gracias a haber instalado Solus que de paso es muy bueno hasta ahora. Muy 
@@ -1729,7 +1722,19 @@ cosas ridiculas.
 **** perdida del dpto armado por dispersion de cosas
  lo cual me seria dificil recuperar las cosas mas en un contexto 
  inflacionario.
-* [2018-05-23 mié] 
+* [2018-05-22 mar]
+** criticar irreflexivamente
+   Lo que hubiera podido ser una charla amigable y puntual y reducida a un 
+   caso se transformo en una torva diatriba tensa y descontrolada, que podria 
+   haber terminado mal. Por fortuna Fede la encauzo bien en positivo lo cual 
+   hizo que fuera productivo para el y no terminaramos negativamente entre 
+   nosotros. Pero fue injusto que yo critique al voleo sin cifras.
+   Y menos se explica en un contexto en el cual el habia hecho en el mismo dia 
+   un record absoluto de venta (75k) con record absoluto de delta (21%) lo 
+   cual nos llevaria casi a un Sn del 50%. Y en vez de hablar de eso tiro este 
+   tema tan denso a lo W.W S04E02 cuando se pone denso como acostumbra ser a 
+   veces.
+* [2018-05-23 mié]
 ** migral tomado por nerviosismo subito
 15hs tomo ibu pensando frenar el migral como ayer, y 15.30 se desata la 
 tormenta de nerviosismo que repercute en la cabeza y me "obliga" a tomar el 
@@ -1772,7 +1777,6 @@ tambien.
 Con los libros pasa lo mismo, y con todo pasa lo mismo. Todo estara en 
 revision. No se salvara nada. Todo estara en tela de juicio.
 Hasta los papeles tienen que ser minimalizados.
-
 * [2018-05-29 mar]
 ** algunos puntos negativos a quedarse en marques
 *** sigo viendo que mi presencia molesta
@@ -2048,7 +2052,6 @@ Pero podria tocar fondo y ver que hay alli.
 para perderle el miedo.
 Pq siempre evitando o temiendo algo, llega un momento en que te cansas y 
 decis que venga y punto.
-
 * [2018-06-04 lun]
 ** primer dia en dpto
 si bien es cierto que no puedo juzgar la situacion por estar en cierta 
@@ -2199,7 +2202,6 @@ absoluto, tanto yo como ih conmigo juntos los dos. Asi somos los dos.
 o sea fase I hare tal y cual cosa en tal y tal cosa. Los objetivos en dpto, 
 en trabajo, en distintas cosas.
 en fase II en fase III etc.
-
 * [2018-06-14 jue]
 ** episodio migral anoche
 anoche tengo una discontinuidad en migral que me rompe una muy buena 
@@ -2282,7 +2284,6 @@ Y al final no era viable ni inteligente cambiarse solo pq habia vencido el
 contrato, siendo que en mi vida, ni en mis finanzas, ni en mi trabajo habia 
 cambiado nada como para que yo aspirara a cambiar de categoria de dpto. Al 
 contrario al reves podria terminar con algo peor.
-
 * [2018-06-22 vie]
 ** plan xtreme
 lo unico que me pone orden en el caotico momento actual es pensar en 
@@ -2365,7 +2366,6 @@ por la inaccion y la negligencia propia.
 aumento de dosis topiramato
 probar medio migral en especial para aquellos casos de semicefalea
 tratar de volver a la rutina normal, en especial en alimentos y descansos
-
 * [2018-06-28 jue]
 ** sobre el tema frustrado de vivir juntos con ih
 hoy me dice ih que se esta haciendo a la idea que no vamos a vivir juntos 
@@ -2433,7 +2433,6 @@ ejercicio, como el trio estado/pectoral/espalda y en realidad no hago nada
 pq me nutro solo con planes, o me conformo solo con planes, o pienso que en 
 algun momento los voy a hacer, y creo que si hago algo 5 minutos sirve pq 
 lo voy a repetir pero no sirve de nada.
-
 * [2018-07-03 mar]
 ** como salir del marasmo de a poco pero salir al fin y al cabo
 el nucleo del marasmo es la sensacion de falta de tiempo, la sensacion de 
@@ -2696,7 +2695,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    creo que parte del problema de la falta de ganas de salir es el frio 
    intenso, igual que trabajar aca dentro. El frio moderado no esta mal. Pero 
    hay frio de sobra.
-
 * [2018-07-19 jue]
 ** Nueva vision de la cobranza
    pocos cobradores mas robustos y un cambio de concepto en la gestion
@@ -2815,7 +2813,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    preocuparme por nada total no me importa. Nada me interesa ya. Ni tampoco 
    tengo energia para nada, ni tampoco pienso que podria transformar mucho las 
    cosas. 
-
 * [2018-07-31 mar]
 ** movimiento como causa del marasmo ocupacional
    veo una serie, en la cual trabajan en un tipo mercado de abasto y alli se 
@@ -3159,7 +3156,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    comer para los dos, como ahora que hare dos milas con pure o algun dia que 
    compre un menucito para los dos. En vez de comer solo. Todos estos dias he 
    estado trabajando de corrido o sea que no hay problemas. 
-
 * [2018-08-22 mié]
 ** sistema separado entre la desarticulacion y la preocupacion
    Creo que trabajar en este sistema separado tiene multiples ventajas. en 
@@ -3238,7 +3234,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    un dia, y eso tambien influye en la cronificacion del dolor. 
    Tambien el marasmo, el hipernetflixmo, el esquema adverso de oficina por la 
    mañana, el frio, la tarde infinita, 
-
 * [2018-08-24 vie]
 ** inmediatez/ el momento irrepetible
    sigo con la idea de que el momento actual es el unico que tenemos y que ese 
@@ -3312,7 +3307,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    Pero reconozcamos con 802 el efecto manoseo de zona en talleres, y que creo 
    que el mismo produjo en r20. La pauta la dara 808 en R20 para observar. y 
    802 en Bustos/talleres. 
-
 * [2018-08-27 lun]
 ** primer dia solo
    primer dia solo y me invade una profunda tristeza.
@@ -3408,7 +3402,6 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
    y no he podido hacer ninguna comida en especial pq no he hecho compras ni 
    he tenido tiempo de cocinarme. O sea sencillamente no me sobra el tiempo 
    para nada en absoluto. y no he visto netflix
-   
 * [2018-09-03 lun]
 ** reincorporacion de la Cami
    hoy reincorporo a la Cami, y eso soluciona muchos problemas. Soluciona la 
@@ -3530,4 +3523,3 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
     limpieza se puede ir logrando un sistema que tenga el limpiar sobre lo 
     limpio como es la habitacion y sea facil de mantener, y sea integrada como 
     habitos.
-
