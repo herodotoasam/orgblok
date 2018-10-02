@@ -919,7 +919,10 @@ Hasta las 14.21 no tome M.
 ** pq no me permito descansar como quiero?
 
 ** DEBO emplearla a la Cami?
-
+tema resuelto este ultimo fin de semana [2018-09-30 dom] hablando con
+ih donde le explique que no me sirve el pasado de papeles si no tengo
+la seguridad plena que se pasan bien, y los metodos de control no se
+aplican. 
 ** la tarea domestica
 pq es un hecho que tengo que hacer tarea domestica a diario y no
 siempre pero cuando la hago pienso en que alguien de mi edad pero mas
@@ -1004,7 +1007,15 @@ fuera. y elimino la necesidad de trasladar.
 *** hacer entrevistas sin miedo
 no importa los pergaminos de quien mande el cv sino el que este sin
 trabajo pq se trata de gente desempleada y ahora hay mucha necesidad. 
+[2018-10-02 mar] citada el mejor pergamino de los CV que enviaron y
+resulto muy interesada en el trabajo, un prospecto tipo Elva que
+podria ser de muy buena utilidad en el futuro. Los otros citados no
+vinieron pq no pudieron confirmar ya que el mail no es leido ahi
+nomas. Lo que resalto esta Sra era que en el mail estaba bien
+explicado el trabajo. Entonces viene aquella persona que le interesa.
 
+*** sistema de captacion por email
+mande un mail de repuesta previo donde explico de que se trata. 
 ** pendrive
 formatie un pendrive ext4, con clave luks poniendo la misma clave que
 la maquina, o sea que si lo pierdo no se abre. y trabajo por bloques,
@@ -1014,3 +1025,6 @@ son los programas lo cual es bueno tambien pq no dependen de la
 maquina. ni de los cambios que uno haga. 
 Ya que pueda pasar los recibos y ganar ese tiempo es bocha. Y no creo
 que sea una perdida de seguridad. 
+
+** aprender emacs/org y usarlo como centro de trabajo
+o sea tener todo centralizado como herramienta de trabajo.
