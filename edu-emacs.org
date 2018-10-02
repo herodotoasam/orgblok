@@ -482,7 +482,20 @@ existe y la marca ya se pierde, o sea que al cerrar el buffer se borra
 la marca.
 
 * listas desordenadas
-- uno
-- dos
-- tres
- 
+1. con + - *
+2. M-RET agrego otro renglon
+3. con S-Left ciclo tipos de bullets
+4. M-Left-Right promote/demote
+5. M-Up-Down subo bajo el renglon
+6. 
+
+* corrector ortografico
+instalar aspell-es 
+luego M-$ 
+es muy bueno mejor que el de google
+lo use para una palabra rara pq estaba escribiendo un mail en gmail:
+háganoslo y el puto gmail no me la corregía, abri el libreoffice y me
+corregia igual que google y me desesperaba pq tenia que terminar el
+trabajo y lo hice en emacs y me lo corrigio perfecto.
+Asi pienso que es todo emacs para el que lo sabe usar, me imagino que
+con el mail tambien. 
