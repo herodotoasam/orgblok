@@ -861,6 +861,35 @@ oficina. Y eso alivie el trabajo aca, que tengo que ir limpiando los
 pendientes y sacando lo que hay sobre los muebles o sea tengo que ir
 archivando.
 Hasta las 14.21 no tome M.
+[2018-10-03 mié] luego de 5 medios, uno entero, dos medios, hoy me
+tome dos M. y casi que tiene su explicacion. Ayer un dia largo, comi
+unas empanadas hablando con el Fede del negocio, un poco no nervioso
+pero no tranqui ni relajado, y aunque no me cayo mal, me fui a dormir
+y me dormi tarde, y me fui despertando con dolorcillo al que no di
+bola en absoluto pq no era de cuidado, y ni sabia la hora que vivia. Y
+cuando me desperte bien, ya era tarde, eran las 7am y el dolor era
+intenso como para uno entero, no para medio, y me levante con
+dificultad me tome medio y lo baje con licuadito medio vaso y segui
+acostado sin dormirme y en unos veinte minutos se me paso.
+El problema vino despues pq le habia dicho que viniese la Cami, y no
+era nada eso sino que iba a venir a las 9hs pq venia con la
+Romi. Entonces medio que me obligo a levantarme temprano. Y luego
+medio que me puse nervioso pq entre que tenia yo mucho trabajo y venia
+la Cami que no es muy eficiente en ayudarme se enquilomba todo, me
+puse una SL y lo que creo que marco el diferencial con lo que veniamos
+trayendo estos 8 dias es que reaccione ante el estress con la pauta de
+apelar al migral o sea dos veces tome medio migral antes de comer y
+luego a las 16hs, y no tome otra SL como habia hecho antes. Y todo por
+el desbarajuste que me habian producido las chicas. No estoy
+disconforme con que hayan venido, y que lindo seria tener mejores
+instalaciones para recibirlas, o sea una cocina que ande, tener todo
+limpio, vajilla, e incluso que ellas puedan dejarme todo limpio pero
+este dpto y esta realidad es un moco, y el haber comido aca y ver el
+desastre que quedo me altero, y en vez de aplacarlo con SL, o en un
+contexto en que no tuviese ningun dolorcillo de base, lo aplaque o
+recurri al M como en los viejos tiempos. 
+O sea es como una BTF que se corrije con M en vez de con SL. O mejor
+aun con metodos sicologicos. 
 * traer el auto
   ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
   adecuada, ya solo falta traerlo. 
@@ -1027,4 +1056,48 @@ Ya que pueda pasar los recibos y ganar ese tiempo es bocha. Y no creo
 que sea una perdida de seguridad. 
 
 ** aprender emacs/org y usarlo como centro de trabajo
-o sea tener todo centralizado como herramienta de trabajo.
+o sea tener todo centralizado como herramienta de trabajo. O sea el
+centro es la informacion y si pudiera tener la mayor informacion
+posible guardada y aprender a guardar o sea saber cuales claves
+incluir donde guardarla y como poder usar las multiples opciones que
+el sistema brinda tendremos un sistema muy fertil para rato. 
+El problema es que esta muy desordenado todo pq hay cosas que no
+anotamos. No quiero hacer un culto a emacs, o sea no puedo hacer doble
+registro de nada. p.e. hay cosas que deben estar en su sitio 
+1. git 
+   es bueno que tratemos de titular bien el commit y explicar lo que se
+   hizo pq sirve para documentar lo que no documentamos en la aplicacion
+2. zoho 
+  la carga de gastos y registros (como migral) obviamente es mejor
+  hacerlos en zoho que es planilla y esta en la nube y uno lo lleva
+  siempre en la mano que hacerlo en org
+3. acciones repetitivas de los clientes
+  como devoluciones y otras cosas que ocurran lo suficientemente
+   repetidas como para que ameriten una programacion adhoc y se lleven
+   incorporadas en la base de datos y se linken con todos los datos
+   del sistema. (Ej. seria al vicio llevar devoluciones en org cuando
+   es algo que ocurrio, ocurre y ocurrira)
+4. registrables que no estamos seguros que sea relevante programarlos
+   pero que posiblemente queremos anotarlos.
+   1. llamados clasificados
+      habria que ver si hay forma de linkar la base de datos de
+      clientes nombre/idcliente/dni/calle/nu/tel a bbdb sqlite/bbdb o
+      algo asi para ser usada dentro de emacs rapidamente
+      1. reclamos de mercaderia
+      2. respuetas a intimaciones
+      3. reclamos a cobradores
+      4. pedidos de venta
+      5. piden cobradores
+   2. entrevistados en la oficina
+   3. problemas que surjan y que sean archivados
+      como fue el caso del viejo pelotudo que pregunto por el recibo
+      de la afip y el caso de la calle Hortiguera.
+   4. gente que paga en la oficina, para que chequiemos que terminen
+      de pagar.
+   5. eventos de los cobradores
+      o sea dia que faltan, o que tienen problemas, y lo que pensamos
+      nosotros de eso.
+   6. recibos faltantes o perdidos
+
+      
+
