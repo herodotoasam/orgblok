@@ -39,5 +39,8 @@ da. Mostraste la hilacha.
 o sea dos cobradores de confianza diferenciados que accedan a deposito
 y tengan la posibilidad de vender. Esa posibilidad de vender va a ser
 muy importante a largo plazo. 
+* tareas
+** TODO traer los docs "a devolver de la oficina"
+y encarpetarlos en un nepako y tenerlos en dpto
 
 
