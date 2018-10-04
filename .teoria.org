@@ -1,0 +1,13 @@
+* Documentacion general
+que es la teoria? es el lugar donde acumularemos todo lo que sea
+aprendizaje o documentacion. en vez de tener uno por tema aca vendran
+todos juntos
+* emacs
+* org-mode
+* tcl
+* tablelist
+* sqlite
+* python
+* instalacion ubuntu
+* vim
+* impresoras
