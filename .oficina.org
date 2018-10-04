@@ -3,6 +3,7 @@
 | [2018-10-02 mar] | 808 | no cobro nada | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |
 | [2018-10-02 mar] | 809 | falto         |                                                                  |
 | [2018-10-03 mié] | 809 | falto         |                                                                  |
+| [2018-10-04 jue] | 809 | falto         |                                                                  |
 ** bitacora
 *** [2018-10-03 mié] 
 **** 815/808 cagada a pedo respecto a 808 que anda mal y no se presenta
@@ -19,6 +20,19 @@ rapido pq tenia que hablar afuera con Graciela...)
 A ambos por separado les hice un comentario velado a lo Pablo Escobar
 que una vez que se solucionara lo de la moto le iba a "mandar mis
 muchachos" a ajustar cuentas con el viejo de mierda ese.
+*** [2018-10-04 jue]
+**** curso al 817 de 16.30 a 17.45hs, 
+enviado a Sargento, que es su barrio y se le asignaria yofre sur,
+fragueiro y marques. No se si esta tan interesado, no lo manifiesta
+pero puede ser un buen elemento vamos a ver. 
+**** encuentro del Fede con 808/815
+los encontro juntos en zona y le dijeron que estan separados, pero
+juntos trabajan mejor, que el tipo vive en italia, y ella vive en
+Platanos. Habria que ver que para con una unificacion de zona. 
+**** 802 toma conocimiento que 809 no viene
+y queda en llamarlo para ver que le pasa y comenta que no puede estar
+en connivencia con 801 pq se habia manifestado con bronca con lo que
+el otro habia hecho.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -39,8 +53,15 @@ da. Mostraste la hilacha.
 o sea dos cobradores de confianza diferenciados que accedan a deposito
 y tengan la posibilidad de vender. Esa posibilidad de vender va a ser
 muy importante a largo plazo. 
+** recibos faltantes
+|fecha|rbo|cobr| 
+
 * tareas
-** TODO traer los docs "a devolver de la oficina"
+** DONE traer los docs "a devolver de la oficina"
+- State "DONE"       from "TODO"       [2018-10-04 jue 18:38]
 y encarpetarlos en un nepako y tenerlos en dpto
 
 
+ no tiene sentido tener esos documentos en la oficina pq no fueron
+ reclamados y se van a terminar perdiendo. Ya los nepakie y los voy a
+ llevar al dpto.
