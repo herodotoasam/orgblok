@@ -902,6 +902,21 @@ para mañana. sigo con el beroca pero tome medio y sigo con dolorcillo,
 tome lo mismo hace un rato una SL, pero el estado es como que no estoy
 ansioso, sino es como que estoy ocupado y me gusta como estoy ocupado,
 se que voy a ir sacando los temas. 
+[2018-10-05 vie] sigo con el dolor de cabeza, hoy tome un M entero,
+pero ya va aflojando la crisis de ansiedad, si bien es cierto que tomo
+algunas SL ya no la veo como la panacea incluso no veo que para dormir
+sea obligatoria, incluso anoche creo que no puse lluvia, y hoy a la
+siesta que me dormi unos 45 min bastante bien, pq tenia sueño, y eso
+que tenia que estar a las 16hs en oficina, no tome SL ni puse
+auricular ni nada. La unica obsesion es que sigue subiendo el tema
+orgmode/emacs/programacion/negocio. O sea que el trabajo toma el lugar
+principal de todo. La ansiedad estaba mayormente generada por el tema
+trabajo. Ya sea por el tema Cami o por el tema falta de cobradores o
+incertidumbre sobre los cobradores. 
+El resto mucho no me importa pq en el fondo sabemos que son cosas que
+pasan. Las crisis de CD ya las hemos tenido y son virulentas cuando
+tenes un compacto de gente amuchada en el lobby y te entra la cartita
+por el resquicio de la puerta, pero en este horario en que no andan carteros.
 * traer el auto
   ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
   adecuada, ya solo falta traerlo. 
@@ -944,7 +959,9 @@ se que voy a ir sacando los temas.
    ello, tengo mucho para leer y eso me ocupa el rato libre que tenga. Pero en 
    ese sentido creo que hay altibajos, leyendo se aprende mucho pero te puede 
    hacer caer en la soberbia de nuevo. 
-
+** orgmode
+esta vez quiero adquirir expertice real en orgmode no por arribita o
+sea usabilidad. por eso empiezo por  el 
 * matetes
 
 ** tema no tener auto

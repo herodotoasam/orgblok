@@ -33,6 +33,20 @@ Platanos. Habria que ver que para con una unificacion de zona.
 y queda en llamarlo para ver que le pasa y comenta que no puede estar
 en connivencia con 801 pq se habia manifestado con bronca con lo que
 el otro habia hecho.
+*** [2018-10-05 vie]
+**** curso a Fabian (816) a las 16hs
+muy bien se presento puntual aunque tuvo que dejar el auto lejos. De
+lo que hablamos me planteo que tiene unos 300 de gasto por dia para ir
+y venir y que yo le pague el gas de la ciudad segun los km que haga. 
+Lo cual el calcula que serian 150 por 70km. Le dije que no habia
+problema. Tiene algunos clientes el viernes que le dije que puede
+mixturar con el trabajo del viernes, y que tiene que venir todos los
+dias. Esta dispuesto a trabajar todo el dia digamos desde las 10 hasta
+las 17hs que tiene que ir cortando para venir a rendir aca. Rendiria
+primero a las 18hs para ir volviendo temprano a AG. 
+**** 809 clava el visto al 802 preguntando sobre el trabajo
+el Leo le mando a preguntar sobre la familia y el le contesto esta
+bien gracias. y le pregunto pq no va a trabajar y le clavo el visto.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -53,11 +67,60 @@ da. Mostraste la hilacha.
 o sea dos cobradores de confianza diferenciados que accedan a deposito
 y tengan la posibilidad de vender. Esa posibilidad de vender va a ser
 muy importante a largo plazo. 
+*** [2018-10-05 vie]
+**** ¿Cual es la verdadera necesidad estrategica? Realidad/Fantasia
+Cuando pense en llamar a Fabian y despues se sumo el Fernando (yo
+pensaba en el Ariel en un principio) yo pensaba solo en la cobranza o
+sea en el no poder tener gente que se aboque al tema de la cobranza
+como lo hace el 802 (o lo hizo el 801 esos pocos dias que funciono
+antes de irse, idem el 744) o sea que funcione bien con pocas
+fichas. Pero posiblemente chocaremos con una realidad, y es que lo
+mismo no podran hacer milagros y tendran que facturar igual, y en el
+caso de Fabian mas, pq viene de lejos. Y con visitar morosos no se
+factura y no se gana plata, entonces que haran?. En el caso de estos
+dos lo que tienen de estrategico es que les tenemos confianza y tienen
+auto como para visitar clientes, entonces podemos activar la visita de
+clientes que tenemos descuidada. Entonces podemos hacer un mix de
+visita cliente/cobranza, o quizas ir derivando en un futuro visita de
+clientes unicamente.
+Ya que en realidad la fantasia es que alguien te vaya a decir que lo
+incobrable sea cobrable. 
+Creo que hay que cambiar otras cosas.
+**** [#A] estrategias de cambio mas realistas respecto a la cobranza
+***** mejores notificaciones
+tengo una carta light y obsoleta, podria tener otra mas agresiva y/o
+dos o mas cartas.
+a su vez ir convenciendo a los cobradores que tienen que insistir con
+las notificaciones.
+***** busqueda de abogado para enviar cartas de abogado
+pero que podamos enviarlas nosotros
+***** incorporacion de mas cobradores 
+habilitando entrevistas y cursos a las 16hs/17hs podremos tener mas
+cobradores disponibles.
+***** asertividad en el manejo de cobradores
+estar dispuesto a la perdida y asumirla como parte del negocio
+***** asertividad en el manejo de los incobrables
+con el manejo de los cajones de mudados/gestion/incobrables y un mejor
+manejo de cartas y la division de zonas manejar el todo con
+asertividad sin involucramiento.
+***** manejar la division de zonas
+para no estar preso de la gestion de las individualidades.
+**** Pasos a seguir
+esperando los resultados, el proximo es reducirle la zona a 750,
+creando el 819, que podria ser el jaled, o podria ser el padre del
+802, o podria ser el padre del 816 ver.  
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
 |                  |        |      |
-
+** planillas robadas
+se indica el dia de procesamiento en el pasado de Recibos
+*** 731 [2018-06-11 lun]
+*** 812 [2018-06-22 vie]
+*** 744 [2018-09-03 lun]
+*** 813 [2018-09-13 jue] 2846
+*** 801 [2018-09-21 vie]
+*** 809 [2018-10-02 mar] 2934
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]
@@ -69,6 +132,8 @@ y encarpetarlos en un nepako y tenerlos en dpto
  llevar al dpto.
 * ventas
 ** devoluciones
-| fecha            | prom | zona     | nombre       | direccion   | articulos    | estado   | cobr | multa | excusa                      |
-| [2018-10-04 jue] |  792 | YofreSur | Zarate Elisa | Alsina 1352 | indu1/cocina | 9 puntos |  802 | no    | viaje pq operaban a alguien |
-|                  |      |          |              |             |              |          |      |       |                             |
+| fecha            | prom | zona     | nombre       | direccion     | articulos    | estado   | cobr | multa | excusa                      |
+| [2018-10-04 jue] |  792 | YofreSur | Zarate Elisa | Alsina 1352   | indu1/cocina | 9 puntos |  802 | no    | viaje pq operaban a alguien |
+| [2018-10-05 vie] |  768 | Coops    | Monge Paola  | Mna 36-23     | cor/coc/man  | 7 puntos |  802 | no    | no expresa                  |
+| [2018-10-05 vie] |  796 | Revol    | Perez Maria  | Necochea 2748 | cor/coc      | 9 puntos |  802 | no    | no expresa                  |
+|                  |      |          |              |               |              |          |      |       |                             |
