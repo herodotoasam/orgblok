@@ -3523,3 +3523,4 @@ Creo que con lo que estamos ganando hoy por hoy, minimo tengo que trabajar
     limpieza se puede ir logrando un sistema que tenga el limpiar sobre lo 
     limpio como es la habitacion y sea facil de mantener, y sea integrada como 
     habitos.
+

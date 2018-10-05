@@ -2,15 +2,14 @@
 Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
-* turnos [4/6]
+* turnos
 ** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
 :SCHEDULED: <2017-09-26 mar>
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 
 
-*y* TODO 12.40 Romero William
-:SCHEDULED: <2017-11-08 mié>
-** TODO Dra Banus Maria Victoria 18hs 
+** Romero William
+** DONE Dra Banus Maria Victoria 18hs 
 :SCHEDULED: <2017-11-30 jue>
 ** DONE radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
 :DEADLINE: <2017-10-25 mié> SCHEDULED: <2017-09-30 sáb>
@@ -22,7 +21,7 @@ turnos, sintomas, historial etc.
 ** DONE sacar turno endocrinologia
 :SCHEDULED: <2017-09-27 mié>
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
-** TODO Romero William [2018-01-03 mié] 12.40hs
+**  Romero William [2018-01-03 mié] 12.40hs
 
 * sintomas
 ** Dolores
@@ -305,7 +304,7 @@ bien cero o bien 2
 | fecha            | cnt | horas            |
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
-** TODO Cabergolina
+** Cabergolina
 :SCHEDULED: <2018-02-09 
 vie .+1w>
 - State "DONE"       from "TODO"       [2018-02-02 vie 20:31]
