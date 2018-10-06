@@ -26,10 +26,10 @@
  '(cua-normal-cursor-color "#657b83")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes (quote (zerodark)))
+ '(custom-enabled-themes (quote (monokai-alt)))
  '(custom-safe-themes
    (quote
-    ("86e2d09ebcfff3b7ec95543bce5a163384579a2bf2e2a81bfba8908b7a0c44df" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
+    ("d66e8428842d4b1e38e79f51b153d3e747220fdd9018acf38227a5d9e13b84c4" "11e57648ab04915568e558b77541d0e94e69d09c9c54c06075938b6abc0189d8" "d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "86e2d09ebcfff3b7ec95543bce5a163384579a2bf2e2a81bfba8908b7a0c44df" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
  '(fci-rule-color "#2e2e2e")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -73,7 +73,7 @@
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (ledger-mode yasnippet zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens magit leuven-theme ## rings icicles ido-vertical-mode minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (helm nimbus-theme monokai-alt-theme zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens leuven-theme ## rings icicles minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
@@ -123,9 +123,9 @@
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (global-set-key (kbd "C-}") 'org-agenda)
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
-(add-hook 'python-mode-hook (lambda () (auto-complete-mode 1)))
-(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
-(add-hook 'python-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'tcl-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
 
 
 (defun org-insert-inactive-timestamp()
@@ -207,22 +207,7 @@
 (show-paren-mode 1)
 (hl-line-mode 1)
 
-(require 'ido-vertical-mode)
-(ido-mode 1)
-(setq ido-enable-flex-matching t)
-(setq ido-everywhere t)
-(ido-vertical-mode 1)
-(setq ido-vertical-define-keys 'C-n-and-C-p-only)
-(setq ido-vertical-show-count t)
-(setq ido-use-faces t)
-(set-face-attribute 'ido-vertical-first-match-face nil
-                    :background nil
-                    :foreground "orange")
-(set-face-attribute 'ido-vertical-only-match-face nil
-                    :background nil
-                    :foreground nil)
-(set-face-attribute 'ido-vertical-match-face nil
-                    :foreground nil)
+
 
 
 
@@ -247,8 +232,7 @@
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
 
-;;magit
-(global-set-key (kbd "C-x g") 'magit-status)
+
 
 
 ;;company mode enable para todos
@@ -277,6 +261,7 @@
 ;; C-s C-w [C-w] [C-w]... behaviour.
 
 (require 'thingatpt)
+(require 'helm-config)
 
 (defun my-isearch-yank-word-or-char-from-beginning ()
   "Move to beginning of word before yanking word in isearch-mode."
@@ -309,15 +294,7 @@
 
 (global-set-key (kbd "C-<f12>") 'mu4e)
 
-;;yasnippets
-(add-to-list 'load-path
-	     "~/.emacs.d/plugins/yasnippet")
-(require 'yasnippet)
-(yas-global-mode 1)
 
-(autoload 'ledger-mode "ledger-mode" "A major mode for Ledger" t)
-
-(add-to-list 'auto-mode-alist '("\\.ledger$" . ledger-mode))
 
 ;; I have my "default" parameters from Gmail
 (setq mu4e-sent-folder "/home/hero/Maildir/sent"
@@ -328,3 +305,9 @@
       smtpmail-smtp-server "smtp.gmail.com"
       smtpmail-smtp-service 587)
 
+(global-set-key (kbd "M-x") #'helm-M-x)
+(global-set-key (kbd "C-x r b") #'helm-filtered-bookmarks)
+(global-set-key (kbd "C-x C-f") #'helm-find-files)
+
+
+(helm-mode 1)
