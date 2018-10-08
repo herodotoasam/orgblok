@@ -311,3 +311,14 @@
 
 
 (helm-mode 1)
+
+(global-set-key (kbd "C-0") 'org-capture)
+
+
+(setq org-capture-templates
+ '(("t" "Todo" entry (file+headline "~/org/gtd.org" "Tasks")
+        "* TODO %?\n  %i\n  %a")
+   ("j" "Journal" entry (file+olp+datetree "~/orgblok/journal.org")
+    "* %?%^g \n %i \n" :clock-in t :clock-resume t)
+   ("b" "Bugs" entry (file "~/orgblok/bugs.org")
+    "* TODO %?%^g\n%U\n%i\n%a\n ")))

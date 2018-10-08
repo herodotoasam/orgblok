@@ -154,3 +154,13 @@ CLOCK: [2018-10-07 dom 20:07]--[2018-10-07 dom 20:11] =>  0:04
 :END:
  al menos .dek habria que pasarlo se puede ir leyendo parte por parte
  para ver que tag asignar
+*** 2018-10-08 lunes
+**** Ya asumio que no trabaja mas conmigo                   :problemaCami:
+:LOGBOOK:
+CLOCK: [2018-10-08 lun 15:40]--[2018-10-08 lun 15:41] =>  0:01
+:END:
+ Por lo menos hemos hablado y seguimos en buena relacion y de paso yo
+ me libero de esa presion que he venido analizandola en los anteriores
+ post y hoy a la mañana analice bien con ih, lo bueno de todo esto que
+ no afecte la relacion con ella, y si ahora ella tiene trabajo con la
+ Romi mejor.
