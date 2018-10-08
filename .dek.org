@@ -818,7 +818,25 @@ incertidumbre sobre los cobradores.
 El resto mucho no me importa pq en el fondo sabemos que son cosas que
 pasan. Las crisis de CD ya las hemos tenido y son virulentas cuando
 tenes un compacto de gente amuchada en el lobby y te entra la cartita
-por el resquicio de la puerta, pero en este horario en que no andan carteros.
+por el resquicio de la puerta, pero en este horario en que no andan
+carteros.
+[2018-10-08 lun] el finde fue lindo en mi apreciacion desde la lejania
+de la ih pero caotico pq el tiempo fue faltante pq estoy inoculado con
+el virus emacs-org me he llevado la notebook, me lleve las ventas (lo
+unico bueno pq ya las tengo todas pasadas) y tenia el sabado que ir a
+la oficina a acondicionar la planta y limpiar, lo cual me agoto, pq el
+viernes por ansioso no dormi bien, al vicio nomas pq me podria haber
+dopado bien, ya que la Cami no salia, y luego con la situacion que la
+Cami el sabado a la noche salia y al final se le cayo la salida. Eso
+lo debo arreglar, debo tomar el toro por las astas y ver que llevarla
+no es nada y no pelear mas con eso, si al final a mi me conviene que
+salga y llevarla no es nada. dormi un poco mejor pero no tanto el
+sabado a la noche, y el domingo el compromiso asado fue peor que el
+del sabado, con dos migrales, digamos que termino pesimo el fin de
+semana, y encima me quedo a tomarme unos mates y ahora estoy a la
+carrera aca. Para completar el patetismo me olvido de cargar lo que
+habia logrado con .emacs y no tengo como disfrutar de eso y como deje
+alla la notebook me atraso una semana. 
 * traer el auto
   ya tengo la cochera a un precio mas que razonable y en la misma cuadra muy 
   adecuada, ya solo falta traerlo. 

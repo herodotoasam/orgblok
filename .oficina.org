@@ -109,6 +109,21 @@ para no estar preso de la gestion de las individualidades.
 esperando los resultados, el proximo es reducirle la zona a 750,
 creando el 819, que podria ser el jaled, o podria ser el padre del
 802, o podria ser el padre del 816 ver.  
+*** [2018-10-07 dom]
+**** venta por cobradores Fabian y Fernando:
+hablamos con Fede que ibamos a vender todo por 4 incluso las sabanas
+salvo las cortinas que las dejabamos al precio superior a delta4. Todo
+en 6 cuotas. Que el les daba stock, anotando un remito de salida que
+me mandaba en foto. Yo iba a programar un stock individual. Le ibamos
+a pagar el 10% sobre la venta en forma mensual simpre que se pague la
+primer cuota de lo vendido, para evitar las devoluciones y los
+incobrables como son ellos mismos los que cobran. Entonces yo mismo
+iba a administrar todo eso.
+**** sobre el colgar el diploma de la Romi adelante
+que era inconveniente a pesar que a mi me gustaba, pq iba a hacer
+cascara con la profesion de mi hija, pero era verdad el riesgo de
+ensuciarla definitivamente con la escoria que la pudiera salpicar era
+grande y muy dificil de limpiar, entonces decidimos sacarlo.
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -132,8 +147,15 @@ y encarpetarlos en un nepako y tenerlos en dpto
  llevar al dpto.
 * ventas
 ** devoluciones
-| fecha            | prom | zona     | nombre       | direccion     | articulos    | estado   | cobr | multa | excusa                      |
-| [2018-10-04 jue] |  792 | YofreSur | Zarate Elisa | Alsina 1352   | indu1/cocina | 9 puntos |  802 | no    | viaje pq operaban a alguien |
-| [2018-10-05 vie] |  768 | Coops    | Monge Paola  | Mna 36-23     | cor/coc/man  | 7 puntos |  802 | no    | no expresa                  |
-| [2018-10-05 vie] |  796 | Revol    | Perez Maria  | Necochea 2748 | cor/coc      | 9 puntos |  802 | no    | no expresa                  |
-|                  |      |          |              |               |              |          |      |       |                             |
+| fecha            | prom | zona     |      DNI | direccion        | articulos    | estado   | cobr | multa | t/p | excusa                      |
+| [2018-10-04 jue] |  792 | YofreSur |  4132831 | Alsina 1352      | indu1/cocina | 9 puntos |  802 | no    | t   | viaje pq operaban a alguien |
+| [2018-10-05 vie] |  768 | Coops    | 25267386 | Mna 36-23        | cor/coc/man  | 7 puntos |  802 | no    | t   | no expresa                  |
+| [2018-10-05 vie] |  796 | Revol    |  4707724 | Necochea 2748    | cor/coc      | 9 puntos |  802 | no    | t   | no expresa                  |
+| [2018-10-05 vie] |  811 | Flores   | 22772903 | Mna 40-7 Aspasia | cor          | 8 puntos |  808 | no    | p   | incobrabilidad              |
+|                  |      |          |          |                  |              |          |      |       |     |                             |
+** condonados
+| cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
+|  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
+|  69969 | 58334 | 2526 |       |                  |      | No vender mas. Insolvente, irresponsable. Dice que devolvio la cortina a 747. |
+|  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
+|        |       |      |       |                  |      |                                                                               |
