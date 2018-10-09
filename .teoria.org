@@ -6,12 +6,6 @@ aprendizaje o documentacion. en vez de tener uno por tema aca vendran
 todos juntos
 * emacs
 * org-mode
-** actualizar org-mode en xubuntu                                      :ORG:
-[2018-10-09 mar 09:26]
-No me andaban los templates de capture inesperadamente y luego se me
-ocurrio que estaba desactualizado, vi la version con org-version y era
-una version vieja la instalada, y la instale aparte con apt install.
-
 * tcl
 * tablelist
 * sqlite
@@ -20,3 +14,15 @@ una version vieja la instalada, y la instale aparte con apt install.
 * vim
 * impresoras
 * Refile
+** Solucion al no funcionamiento de los Capture Template               :ORG:
+[2018-10-09 mar 19:44]
+
+Capture Template programados en otra maquina y que funcionaban bien en
+la oficina no funcionaban o lo hacian parcialmente, en especial no
+andaba el de jornal que tenia datatree+olp.
+La version que tenia de org era la 8.algo que incluso actualizandola
+via apt no obtuve gran diferencia, cosa que si habia logrado en el
+dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
+ocurrio hacer un package-list y buscar org directamente e instalar
+desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
+parece ser el problema de que no funcione el template.

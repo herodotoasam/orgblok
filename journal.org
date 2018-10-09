@@ -165,7 +165,7 @@ CLOCK: [2018-10-08 lun 15:40]--[2018-10-08 lun 15:41] =>  0:01
  no afecte la relacion con ella, y si ahora ella tiene trabajo con la
  Romi mejor.
 *** 2018-10-09 martes
-**** ultra dispositivo para dormir :insomnio:
+**** ultra dispositivo para dormir                              :insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 09:10]--[2018-10-09 mar 09:16] =>  0:06
 :END:
@@ -238,3 +238,12 @@ quejarme de todo. Al final me puse y en dos minutos, lave las dos
 ollas que podian estar podridas y me saque el reloj y puse un balde
 con procenex y pase el piso de la cocina y listo, no tarde mas de
 cuatro minutos. 
+**** me quede sin la siesta por ahora                           :libertad:
+:LOGBOOK:
+CLOCK: [2018-10-09 mar 19:40]--[2018-10-09 mar 19:42] =>  0:02
+:END:
+Es por el trabajo, pq durante el horario en que me aislaria por motivo
+de la siesta p.e. Fabian me pidio dos cuentas nuevas y al final es
+cuestion de costumbre, me quedo leyendo aunque descansando quizas en
+un tiempito con aa y luego me cambio tomo un cafe y me vengo a la
+ofi. Y luego duermo bien a la noche. 
