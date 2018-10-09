@@ -424,3 +424,8 @@ cobrador.
 Pero gastamos dos hojas, generamos dos hojas y es al vicio, y de paso
 aparte de unificar todo en una misma planilla le agregue una grila
 para los articulos.
+* TODO edicion de fecha pueda moverse con Down :fichas:
+[2018-10-09 mar 14:04]
+agilizaria mucho para no tener que usar el raton en cada fecha que
+editemos
+

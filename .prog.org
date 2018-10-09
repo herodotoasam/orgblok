@@ -88,17 +88,19 @@ registros con la misma fecha, eso podria solucionar bastante.
 ** se debe resaltar un pagado que permanezca con una fecha baja
 ** forma de poner no vender mas dentro del fechador y ver si esta en no
   vender mas. para prescindir de python
-** tab de cobradores dentro de fichas.tcl
+* TODO tab de cobradores                                             :fichas:
 o sea agregar cobradores, editar datos, activar, desactivar, eliminar
 bug prom=0, 
-* listados 
-** ponerle fecha a los 
-* bugs
-** corregir fichas.tcl agregado de cobradores
+* TODO ponerle fecha a los listados                                 :listado:
+* TODO corregir fichas.tcl agregado de cobradores                    :fichas:
  [db eval {select id from cobr where activo=1 and prom=0 and id>15}] {
  ese prom=0 impide captar a los agregados via edicion en F7 pq entran
  como '0' o sea un desastre y mas si uno olvida donde estaba el bug,
  entonces agrega un cobrador y no te aparece en el boton y uno se
  desespera. 
- 
- 
+* TODO indicar recorridos impresos el dia anterior :fichas:
+[2018-10-09 mar 14:51]
+para mayor comodidad con un balloon persistente al apretar cobrador y
+tambien en tab recorrdidos colorear el ultimo dia, eso dara mejor
+claridad para ver lo ultimo que imprimi de cada cobrador. 
+
