@@ -62,7 +62,9 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
- '(org-agenda-files (quote ("~/orgblok")))
+ '(org-agenda-files
+   (quote
+    ("~/orgblok/.teoria.org" "/home/heroasam/orgblok/age-programacion-tcl.org" "/home/heroasam/orgblok/age-programacion.org" "/home/heroasam/orgblok/bugs.org" "/home/heroasam/orgblok/contable.org" "/home/heroasam/orgblok/dia-aprendizaje.org" "/home/heroasam/orgblok/dia-films.org" "/home/heroasam/orgblok/dia-general.org" "/home/heroasam/orgblok/dia-programacion.org" "/home/heroasam/orgblok/doc-deepin.org" "/home/heroasam/orgblok/doc-fichaje.org" "/home/heroasam/orgblok/doc-solus.org" "/home/heroasam/orgblok/doc-tclmobile.org" "/home/heroasam/orgblok/doc-ubuntubudgie.org" "/home/heroasam/orgblok/documentacion.org" "/home/heroasam/orgblok/edu-emacs.org" "/home/heroasam/orgblok/edu-i3.org" "/home/heroasam/orgblok/edu-orgmode.org" "/home/heroasam/orgblok/edu-programar.org" "/home/heroasam/orgblok/edu-pycharm.org" "/home/heroasam/orgblok/edu-python.org" "/home/heroasam/orgblok/edu-tcl.org" "/home/heroasam/orgblok/edu-vim.org" "/home/heroasam/orgblok/habitos.org" "/home/heroasam/orgblok/index.org" "/home/heroasam/orgblok/journal.org" "/home/heroasam/orgblok/listadpto.org" "/home/heroasam/orgblok/louisehay.org" "/home/heroasam/orgblok/manualusuario.org" "/home/heroasam/orgblok/medical.org" "/home/heroasam/orgblok/negocio.org" "/home/heroasam/orgblok/postgres.org" "/home/heroasam/orgblok/private.org" "/home/heroasam/orgblok/pro-dpto.org" "/home/heroasam/orgblok/pro-minimalizacion.org" "/home/heroasam/orgblok/proyectopb.org" "/home/heroasam/orgblok/proyectos.org" "/home/heroasam/orgblok/pycharm.org" "/home/heroasam/orgblok/rapido.org" "/home/heroasam/orgblok/ropa.org" "/home/heroasam/orgblok/salidamercaderia.org" "/home/heroasam/orgblok/tcl.org" "/home/heroasam/orgblok/vim.org")))
  '(org-agenda-span (quote day))
  '(org-deadline-warning-days 0)
  '(org-habit-show-habits-only-for-today t)
@@ -321,4 +323,7 @@
    ("j" "Journal" entry (file+olp+datetree "~/orgblok/journal.org")
     "* %?%^g \n %i \n" :clock-in t :clock-resume t)
    ("b" "Bugs" entry (file "~/orgblok/bugs.org")
-    "* TODO %?%^g\n%U\n%i\n%a\n ")))
+    "* TODO %?%^g\n%U\n%i\n%a\n ")
+   ("m" "Manual" entry (file+headline "~/orgblok/.teoria.org" "Refile")
+    "* %?%^g\n%U\n%i\n%a\n ")
+   ))

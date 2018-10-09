@@ -1,9 +1,17 @@
+#+TAGS: INICIO MEDIO ALTO
+#+TAGS: EMACS ORG ELIPS TCL TABLELIST SQLITE PYTHON UBUNTU LINUX VIM PRINT
 * Documentacion general
 que es la teoria? es el lugar donde acumularemos todo lo que sea
 aprendizaje o documentacion. en vez de tener uno por tema aca vendran
 todos juntos
 * emacs
 * org-mode
+** actualizar org-mode en xubuntu                                      :ORG:
+[2018-10-09 mar 09:26]
+No me andaban los templates de capture inesperadamente y luego se me
+ocurrio que estaba desactualizado, vi la version con org-version y era
+una version vieja la instalada, y la instale aparte con apt install.
+
 * tcl
 * tablelist
 * sqlite
@@ -11,3 +19,4 @@ todos juntos
 * instalacion ubuntu
 * vim
 * impresoras
+* Refile
