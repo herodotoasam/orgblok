@@ -379,3 +379,18 @@ El tema tablas tambien y falta repasar el tema formulas y calculos, y
 el tema busquedas, agendas etc etc.
 Obviamente todo va a ser mas operativo con el uso continuo. pq el uso
 hace a la funcion. 
+**** estoy enviciado con emacs/orgmode :bitacoraOficina:
+:LOGBOOK:
+CLOCK: [2018-10-10 mié 20:10]--[2018-10-10 mié 20:14] =>  0:04
+:END:
+En todo momento estoy con lo mismo, y aunque atiendo bien a la gente y
+me paso el dia trabajando pasando los papeles y produciendo lo que
+hace falta, pero no me queda tiempo para las cosas diarias en mi casa,
+y para el relax, y todo tiempo libre lo paso o bien leyendo cosas de
+emacs o bien haciendo posteos (que no es algo malo en si pq son
+posteos de la situacion en que me siento en momento presente) y lo
+malo es que creo que la emacmania o la orgmania me da la sensacion o
+me agrava la sensacion de falta de tiempo, pero en realidad la falta
+de tiempo la tengo igual, y esto en realidad lo que hace es a la larga
+beneficiarme y ayudarme a organizarme y me da la posibilidad de
+aprender algo. 
