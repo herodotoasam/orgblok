@@ -1,8 +1,0 @@
-* Comandos interesantes                                                :anki:
-SCHEDULED: <2016-11-10 jue .+7d>
-| S-F6  | refactorizar-rename | rename all ocurrences symbol |
-| C-F12 | buscar symbol       |                              |
-| C-F11 | add-bookmark        | numero o letra               |
-| S-F11 | ir a bookmark       |                              |
-| F11   | toggle bookmark     |                              |
-|       |                     |                              |

@@ -1,5 +1,55 @@
 
+* 2016
+** 2016-10 octubre
+*** 2016-10-22 sábado
+**** minuta de programacion :programacion: 
+:LOGBOOK:
+CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
+:END:
+ orgfile de relato o minuta de todos los items que vamos trabajando
+ durante el trabajo con clock. entonces cumple una funcion doble es una
+ lista de todos los items programados y las fechas.
+ me saca la duda o sensacion de que carajo hice cada dia, en especial
+ ahora que dedico la mañana y a la vez cuanto me lleva programar.
+ hacer chunks de estudio y visitar el diario de desarrollo estarian
+ incluidos en la tarea de programar, pq estarian dentro del mismo tema.
+ se diferencia del diario de desarrollo que en el se debate lo que se
+ va a hacer, y este registra lo que se hace, muy claramente en vim.
+ ver si el clockeado en subtree se suma arriba
 * 2018
+** 2018-03 marzo
+*** 2018-03-15 jueves
+**** Louse Hey reflexiones sobre traumas infantiles :lecturas: 
+:LOGBOOK:
+CLOCK: [2018-10-10 mié 18:50]--[2018-10-10 mié 18:51] =>  0:01
+:END:
+***** necesidad de pontificar u obtener lustre indirectamente
+ o sea de hacerse odiar. O sea de resaltar cosas en las cuales siempre
+ quedamos bien parados o mejor parados que los demas. O sea es una
+ forma de busqueda de aprobacion externa que viene a ser buscada
+ indirectamente.
+***** necesidad de quejarse
+ hay un articulo perfecto en el cuaderno donde describo el ideal que
+ veria en ih si sirviera a proposito para mis quejas.
+***** necesidad de dolor de cabeza o de tomar analgesico
+ en especial frente a una crisis de nervios o a un imprevisto que me
+ saque de la rutina
+***** necesidad de hacer "competir" por el amor o la atencion
+    con un placer perverso de mirar al que esta "perdiendo" la atencion. Este 
+    recurso que es ampliamente usado en las peliculas y series.
+    P.e. en serie Amor S01E03 donde Mickey ve a Gus que atrae la atencion de 
+    otra chica y ella aparentemente se queda mirando de afuera. Y eso explota 
+    la perversa cuestion dentro de muchos de nosotros de no solo "hacer 
+    competir por el amor" sino de mirar sadicamente al perdedor como diciendo 
+    mira lo que te perdiste. Esto que creo que es algo enfermo, debe provenir 
+    de la infancia en una etapa en que a uno lo deben haber desplazado en un 
+    contexto de amor limitado, siendo que el amor hubiera podido alcanzar para 
+    todos. Y de mayor uno tiende a beneficiar mas a uno que a otro. Y a gozar 
+    con sadismo de esas diferencias.
+***** vivencia de no ser amado
+***** vivencia de tener que dejar mi proyecto en favor de un familiar
+***** vivencia de que no era dado ni siquiera desear algo
+***** vivencia de invisibilidad
 ** 2018-09 septiembre
 *** 2018-09-12 miércoles
 **** sensacion de estar atrapado                                :libertad:

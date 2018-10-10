@@ -10,6 +10,16 @@ todos juntos
 * tablelist
 * sqlite
 * python
+** comandos interesantes pycharm                                    :PYTHON:
+[2018-10-10 mié 18:33]
+| S-F6  | refactorizar-rename | rename all ocurrences symbol |
+| C-F12 | buscar symbol       |                              |
+| C-F11 | add-bookmark        | numero o letra               |
+| S-F11 | ir a bookmark       |                              |
+| F11   | toggle bookmark     |                              |
+|       |                     |                              |
+
+
 * instalacion ubuntu
 * vim
  * impresoras
