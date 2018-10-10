@@ -12,7 +12,20 @@ todos juntos
 * python
 * instalacion ubuntu
 * vim
-* impresoras
+ * impresoras
+** impresora hp no anda luego de cambio toner
+[2018-10-10 mié 16:01]
+da retenido y no arranca, resetie maquina y nada, cambie usb de lugar
+y nada, borre impresora y nada, cuando prendia no se instalaba sola
+como acostumbraba.
+Luego la instalo desde el menu que te ofrece y tampoco andaba.
+la borro, insisto pero esta vez la instalo como impresora usb y
+anduvo.
+Pero no quedo como antes, sino que cuando le mando varios trabajos no
+los hace. incluso si es muy grande no lo procesa y a la segunda vez
+que se lo mando lo procesa. 
+es como si estuviera rota la cola de impresion.
+
 * Refile
 ** Solucion al no funcionamiento de los Capture Template               :ORG:
 [2018-10-09 mar 19:44]
