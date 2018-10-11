@@ -2,7 +2,7 @@
 * 2016
 ** 2016-10 octubre
 *** 2016-10-22 sábado
-**** minuta de programacion :programacion: 
+**** minuta de programacion                                 :programacion: 
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
 :END:
@@ -19,7 +19,7 @@ CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
 * 2018
 ** 2018-03 marzo
 *** 2018-03-15 jueves
-**** Louse Hey reflexiones sobre traumas infantiles :lecturas: 
+**** Louse Hey reflexiones sobre traumas infantiles             :lecturas: 
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 18:50]--[2018-10-10 mié 18:51] =>  0:01
 :END:
@@ -298,7 +298,7 @@ cuestion de costumbre, me quedo leyendo aunque descansando quizas en
 un tiempito con aa y luego me cambio tomo un cafe y me vengo a la
 ofi. Y luego duermo bien a la noche.
 *** 2018-10-10 miércoles
-**** segunda noche con ultradispositivo y sin siesta :insomnio:
+**** segunda noche con ultradispositivo y sin siesta            :insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 08:39]--[2018-10-10 mié 08:43] =>  0:04
 :END:
@@ -357,14 +357,14 @@ anoche mientras comia el arroz senti una sensacion de dolor no
 dentaria tipo carie pero si como inflamatoria alrededor de la encia,
 pero luego me fui a dormir, y a la mañana cuando me lave los dientes
 me molesto un poco y luego paso. 
-**** sigo con el tic de empujar con la lengua :sintomas:dientes:
+**** sigo con el tic de empujar con la lengua           :sintomas:dientes:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 13:19]--[2018-10-10 mié 13:21] =>  0:02
 :END:
 hasta producir dolor en las protesis en distintos lugares, y me tomo
 otra SL para evitar el nerviosismo que me lleva a hacer eso no quiero
 tener problemas por culpa de eso.
-**** objetivo concentrarse en org-mode unicamente :estudio:
+**** objetivo concentrarse en org-mode unicamente                :estudio:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 15:30]--[2018-10-10 mié 15:38] =>  0:08
 :END:
@@ -379,7 +379,7 @@ El tema tablas tambien y falta repasar el tema formulas y calculos, y
 el tema busquedas, agendas etc etc.
 Obviamente todo va a ser mas operativo con el uso continuo. pq el uso
 hace a la funcion. 
-**** estoy enviciado con emacs/orgmode :bitacoraOficina:
+**** estoy enviciado con emacs/orgmode                   :bitacoraOficina:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 20:10]--[2018-10-10 mié 20:14] =>  0:04
 :END:
@@ -414,7 +414,7 @@ y dejar lo rutinario que lo pase ella. Igual el imprimir intimaciones
 puedo hacerlo en la oficina. O sea menos trabajo en la casa, mas
 trabajo en la oficina. Y pongo mi vida al dia que de otra forma no se
 va a poner al dia y va a ir rumbo al colapso. 
-**** hoy cronico disminucion de ansiedad :ansiedad:
+**** hoy disminucion de ansiedad                       :ansiedad:insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 15:29]--[2018-10-11 jue 15:36] =>  0:07
 :END:
@@ -440,7 +440,7 @@ encarar la limpieza que falta. (El dia ayuda y el nivel de energia que
 yo tenia tambien.) Luego me aboque a instalar la impresora y lo logre
 sin demasiadas complicaciones aunque no a la primera instancia, y ya
 tengo el sistema de nuevo en funcionamiento. 
-**** organizacion de la jornada con la Cami trabajando :dpto:
+**** organizacion de la jornada con la Cami trabajando              :dpto:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 15:37]--[2018-10-11 jue 15:43] =>  0:06
 :END:
@@ -451,3 +451,10 @@ como las hojas y el toner, o sea es mucha la ayuda que tengo. Y de
 paso la tengo aca conmigo.
 Yo por lo pronto quiero empezar a limpiar el dpto, esa sera la primer
 estrategia y el primer objetivo y a descansar mas. 
+**** sigue molestia en molar implantado derecho       :sintomas:implantes:
+:LOGBOOK:
+CLOCK: [2018-10-11 jue 19:55]--[2018-10-11 jue 19:59] =>  0:04
+:END:
+en el area de la encia alrededor, como si se hubiera inflamado con el
+cepillo o bien un proceso. Voy a aprovechar el sabado que vaya a
+pagarle al doc para consultar

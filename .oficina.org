@@ -4,6 +4,9 @@
 | [2018-10-02 mar] | 809 | falto         |                                                                  |
 | [2018-10-03 mié] | 809 | falto         |                                                                  |
 | [2018-10-04 jue] | 809 | falto         |                                                                  |
+| [2018-10-10 mié] | 802 | falto         | no llamo ni escribio                                             |
+| [2018-10-11 jue] | 802 | mande wapp    | contesto esta enfermo mando fotos de estudios/posible apendice   |
+| [2018-10-11 jue] | 800 | falta-lluvia  | avisa                                                            |
 ** bitacora
 *** [2018-10-03 mié] 
 **** 815/808 cagada a pedo respecto a 808 que anda mal y no se presenta
@@ -47,6 +50,17 @@ primero a las 18hs para ir volviendo temprano a AG.
 **** 809 clava el visto al 802 preguntando sobre el trabajo
 el Leo le mando a preguntar sobre la familia y el le contesto esta
 bien gracias. y le pregunto pq no va a trabajar y le clavo el visto.
+*** [2018-10-11 jue]
+una cagada la lluvia de casi todo el dia, ya el 800 no vino pq dice
+que llueve mucho en su barrio y solo cobro 1600, el 750 vino y solo
+cobro 2700, se llevo todo para mañana, fabian hizo record y gano 2200,
+y faltan los tres en auto que no vinieron aun. Y el 802 enfermo.
+**** llamado frustrado al 819
+iba a llamar al prospecto, lo agendo en wapp y veo un avatar de rock o
+sea no su cara ni foto familiar, y la leyenda "robo auto" y una mano
+negra haciendo cuernitos. Obviamente que con esa semiotica abandone el
+intento de llamar. Sobre que tensaria la cuerda de las zonas
+metiendolo veo eso.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -124,6 +138,14 @@ que era inconveniente a pesar que a mi me gustaba, pq iba a hacer
 cascara con la profesion de mi hija, pero era verdad el riesgo de
 ensuciarla definitivamente con la escoria que la pudiera salpicar era
 grande y muy dificil de limpiar, entonces decidimos sacarlo.
+*** [2018-10-11 jue]
+a hoy como van las cosas con Fabian veo que realmente es un excelente
+cobrador con una proyeccion a "venta agregada" y eso cerraria muy bien
+para el y para nosotros, idem para el Fernando. Y para los otros. 
+No se veria por el momento una postura como la de dias atras que
+pensaba una dedicacion a hacer venta recorriendo clientes no creo que
+podamos cobrar todo, pq no tenemos cobradores.
+
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -199,15 +221,22 @@ y encarpetarlos en un nepako y tenerlos en dpto
  llevar al dpto.
 * ventas
 ** devoluciones
-| fecha            | prom | zona     |      DNI | direccion        | articulos    | estado   | cobr | multa | t/p | excusa                      |
-| [2018-10-04 jue] |  792 | YofreSur |  4132831 | Alsina 1352      | indu1/cocina | 9 puntos |  802 | no    | t   | viaje pq operaban a alguien |
-| [2018-10-05 vie] |  768 | Coops    | 25267386 | Mna 36-23        | cor/coc/man  | 7 puntos |  802 | no    | t   | no expresa                  |
-| [2018-10-05 vie] |  796 | Revol    |  4707724 | Necochea 2748    | cor/coc      | 9 puntos |  802 | no    | t   | no expresa                  |
-| [2018-10-05 vie] |  811 | Flores   | 22772903 | Mna 40-7 Aspasia | cor          | 8 puntos |  808 | no    | p   | incobrabilidad              |
-| [2018-10-09 mar] |  796 | Olmedo   |  6257697 | Bogado 5770      | toallon      |          |  816 | no    | p   | no puede pagar/queja sobre el otro articulo |
+| fecha            | prom | zona     |      DNI | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                      |
+| [2018-10-04 jue] |  792 | YofreSur |  4132831 | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   | viaje pq operaban a alguien                 |
+| [2018-10-05 vie] |  768 | Coops    | 25267386 | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   | no expresa                                  |
+| [2018-10-05 vie] |  796 | Revol    |  4707724 | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   | no expresa                                  |
+| [2018-10-05 vie] |  811 | Flores   | 22772903 | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   | incobrabilidad                              |
+| [2018-10-09 mar] |  796 | Olmedo   |  6257697 | Bogado 5770      | toallon      |           |  816 | no    | p   | no puede pagar/queja sobre el otro articulo |
+| [2018-10-11 jue] |  796 | Ferreyra | 12483041 | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   | saco bajo amenaza de no pagar y demas       |
+|                  |      |          |          |                  |              |           |      |       |     |                                             |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
 |  69969 | 58334 | 2526 |       |                  |      | No vender mas. Insolvente, irresponsable. Dice que devolvio la cortina a 747. |
 |  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
 |        |       |      |       |                  |      |                                                                               |
+* llamados pendientes
+** TODO doc 66052 buscar - wapp 3193143 
+pidio documento y justo no esta. La unica posibilidad es que este
+desacomodado en el toco que tengo en el cajon.
+
