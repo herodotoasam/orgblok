@@ -6,6 +6,18 @@ aprendizaje o documentacion. en vez de tener uno por tema aca vendran
 todos juntos
 * emacs
 * org-mode
+** Solucion al no funcionamiento de los Capture Template               :ORG:
+[2018-10-09 mar 19:44]
+
+Capture Template programados en otra maquina y que funcionaban bien en
+la oficina no funcionaban o lo hacian parcialmente, en especial no
+andaba el de jornal que tenia datatree+olp.
+La version que tenia de org era la 8.algo que incluso actualizandola
+via apt no obtuve gran diferencia, cosa que si habia logrado en el
+dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
+ocurrio hacer un package-list y buscar org directamente e instalar
+desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
+parece ser el problema de que no funcione el template.
 * tcl
 * tablelist
 * sqlite
@@ -19,10 +31,16 @@ todos juntos
 | F11   | toggle bookmark     |                              |
 |       |                     |                              |
 
-
 * instalacion ubuntu
 * vim
- * impresoras
+* linux
+** crear un usb con una distro con dd                                :LINUX:
+[2018-10-10 mié 21:18]
+con lsblk averiguamos la letra de asignada al usb.
+No desmontar como dicen por ahi
+sudo dd if=/home/... ubic del iso of=/dev/sdb bs=1M
+
+* impresoras
 ** impresora hp no anda luego de cambio toner
 [2018-10-10 mié 16:01]
 da retenido y no arranca, resetie maquina y nada, cambie usb de lugar
@@ -37,15 +55,3 @@ que se lo mando lo procesa.
 es como si estuviera rota la cola de impresion.
 
 * Refile
-** Solucion al no funcionamiento de los Capture Template               :ORG:
-[2018-10-09 mar 19:44]
-
-Capture Template programados en otra maquina y que funcionaban bien en
-la oficina no funcionaban o lo hacian parcialmente, en especial no
-andaba el de jornal que tenia datatree+olp.
-La version que tenia de org era la 8.algo que incluso actualizandola
-via apt no obtuve gran diferencia, cosa que si habia logrado en el
-dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
-ocurrio hacer un package-list y buscar org directamente e instalar
-desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
-parece ser el problema de que no funcione el template.
