@@ -1,5 +1,5 @@
 #+TAGS: INICIO MEDIO ALTO
-#+TAGS: EMACS ORG ELIPS TCL TABLELIST SQLITE PYTHON UBUNTU LINUX VIM PRINT
+#+TAGS: EMACS ORG ELIPS TCL TABLELIST SQLITE PYTHON UBUNTU LINUX VIM PRINT SOLUS
 * Documentacion general
 que es la teoria? es el lugar donde acumularemos todo lo que sea
 aprendizaje o documentacion. en vez de tener uno por tema aca vendran
@@ -40,6 +40,56 @@ con lsblk averiguamos la letra de asignada al usb.
 No desmontar como dicen por ahi
 sudo dd if=/home/... ubic del iso of=/dev/sdb bs=1M
 
+* SOLUS
+** instalacion de TCL en solus                                       :SOLUS:
+[2018-10-10 mié 23:14]
+ningun archivo de tcl esta. 
+Entonces instale ActiveState en un directorio de Home para luego
+borrarlo y fui moviendo subdirectorios a pedido de acuerdo a lo que
+demandaban los programas.
+*** pdf4tcl
+que lo instale desde el backup mio
+*** tablelist 
+que baje la ultima version
+*** tcllib1.18
+pq F13.tcl me pedia snit para que funcionara pdf4tcl
+*** bwidget
+*** Img
+*** itcl y itk
+alli vino el problema pq me daba un error que yo asumi que era una
+gran incompatibilidad y luego cuando lei bien decia algo como que: 
+Error in startup script: Can't find a usable itk.tcl in the following directories:
+    /usr/lib64/itk4.1.0 /usr/bin/../lib/itk4.1.0 /usr/bin/../library /usr/bin/../../library /usr/bin/../../itk/library
+This probably means that Itcl/Itk weren't installed properly.
+o sea que no encontraba el directorio de itk directamente en /usr/lib
+no dentro de tcl8.6 como estan todos, entonces lo copie directo a
+/usr/lib  y anduvo perfecto.
+*** directorio en solus para tcl /usr/lib/tcl8.6/
+** problema con los modulos python                                   :SOLUS:
+[2018-10-10 mié 23:51]
+no tiene pip3, entonces se instalan con pip, de una, y hay que hacerlo
+con sudo.
+y luego hay que copiarlos de la ubicacion del modulo en python2.7 a
+3.6
+hero@hero /usr/lib64/python2.7/site-packages $ sudo cp -r pypercl*
+/usr/lib64/python3.6/site-packages/
+Uso asteriscos porque pueden ser varias cosas y uso -r pq pueden ser
+directorios con dateutils paso asi.
+
+No obstante se me trabo fastnumbers que no anda y parece un bug que
+hasta esta en la web, asi que voy a ver si lo desinstalo.
+
+
+
+
+** instalacion de hp1102 en solus                                    :SOLUS:
+[2018-10-11 jue 15:00]
+1) instalar en solus HPLIP
+2) en un terminal poner hp-setup y seguir las indicaciones
+3) desde configuracion de impresion hacerla predeterminada
+nada mas que eso. Y se soluciono el problema de la cola de impresion,
+que tenia un dia atras en xubuntu aparentemente, pq anda bien, lo
+unico que con otras fuentes se imprimen los listados
 * impresoras
 ** impresora hp no anda luego de cambio toner
 [2018-10-10 mié 16:01]
@@ -55,3 +105,9 @@ que se lo mando lo procesa.
 es como si estuviera rota la cola de impresion.
 
 * Refile
+** problema con hibernacion :SOLUS:
+[2018-10-11 jue 15:04]
+tuve dos casos de que luego de equis minutos la maquina no respondia,
+y tuve que resetearla, pienso que es pq la configuracion de energia
+esta para entrar en hibernacion y esta maquina de escritorio queda en
+estado loco. Lo desactive. veremos que pasa. 

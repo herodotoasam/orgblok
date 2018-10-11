@@ -10,6 +10,11 @@ keycode 11 = 2 quotedbl at
 keycode 21 = backslash questiondown exclamdown
 keycode 62 = Shift_R
 keycode 16 = 7 asciitilde
-add Lock = Print
+keycode 13 = 4 dollar asciitilde
+keycode 12 = 3 numbersign
+keycode 10 = 1 exclam bar
+keycode 48 = braceleft bracketleft
+keycode 51 = braceright bracketright
+add Lock = Print 
 
 
