@@ -107,3 +107,9 @@ claridad para ver lo ultimo que imprimi de cada cobrador.
 [2018-10-11 jue 21:52]
 dice que esta indefinido
 [[file:~/.emacs::"*%20%25?%25^{fecha}p%20%25^{fecha}p%20%25^{fecha}p%20%25\n")]]
+* TODO campo en algun lado de que se hizo plan de pagos :RomitexFichas:
+[2018-10-12 vie 14:43]
+eso permitiria hacer seguimiento de los planes de pago y quizas otros
+tratamientos futuros a los planes de pagos. Como no aparecer mas la
+cuenta original sino el plan de pago. 
+
