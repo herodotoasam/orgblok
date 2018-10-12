@@ -326,4 +326,6 @@
     "* TODO %?%^g\n%U\n%i\n%a\n ")
    ("m" "Manual" entry (file+headline "~/orgblok/.teoria.org" "Refile")
     "* %?%^g\n%U\n%i\n%a\n ")
+   ("d" "nuevo" entry (file+headline "~/orgblok/.devoluciones.org")
+    "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
    ))

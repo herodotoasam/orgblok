@@ -103,4 +103,7 @@ bug prom=0,
 para mayor comodidad con un balloon persistente al apretar cobrador y
 tambien en tab recorrdidos colorear el ultimo dia, eso dara mejor
 claridad para ver lo ultimo que imprimi de cada cobrador. 
-
+* TODO no marca el dead-circumflex :emacs:
+[2018-10-11 jue 21:52]
+dice que esta indefinido
+[[file:~/.emacs::"*%20%25?%25^{fecha}p%20%25^{fecha}p%20%25^{fecha}p%20%25\n")]]
