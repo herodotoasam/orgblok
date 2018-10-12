@@ -45,10 +45,11 @@ solo color, y si lo has roto automaticamente se recomienza.
 
 ** TODO licuados
 :PROPERTIES:
-:LAST_REPEAT: [2018-10-10 mié 20:49]
+:LAST_REPEAT: [2018-10-12 vie 14:04]
 :END:
+- State "DONE"       from "TODO"       [2018-10-12 vie 14:04]
 - State "DONE"       from "TODO"       [2018-10-10 mié 20:49]
-:SCHEDULED: <2018-10-11 jue .+1d>
+:SCHEDULED: <2018-10-13 sáb .+1d>
 - State "DONE"       from "TODO"       [2017-11-26 dom 19:59]
 - State "DONE"       from "TODO"       [2017-11-24 vie 15:52]
 - State "DONE"       from "TODO"       [2017-11-23 jue 18:45]

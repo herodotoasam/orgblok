@@ -219,6 +219,8 @@ y encarpetarlos en un nepako y tenerlos en dpto
  no tiene sentido tener esos documentos en la oficina pq no fueron
  reclamados y se van a terminar perdiendo. Ya los nepakie y los voy a
  llevar al dpto.
+** TODO hacer carta fuerte para subidos al seven 
+con monto super alto que cause impacto. 
 * ventas
 ** devoluciones
 | fecha            | prom | zona     |      DNI | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                      |
@@ -239,4 +241,7 @@ y encarpetarlos en un nepako y tenerlos en dpto
 ** TODO doc 66052 buscar - wapp 3193143 
 pidio documento y justo no esta. La unica posibilidad es que este
 desacomodado en el toco que tengo en el cajon.
+* Romitex Fichas
+** [2018-10-02 mar] pasado desde el [2018-09-20 jue]-[2018-10-02 mar]
+
 
