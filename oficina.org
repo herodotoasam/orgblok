@@ -210,6 +210,7 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273247 |       |     |
 | 273248 |       |     |
 | 273249 |       |     |
+** documentos llevados a calle
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]

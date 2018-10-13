@@ -1,8 +1,0 @@
-Estudio de tcl toolkit
-
-* Temas aprendidos
-** Variables
-*** Set
-*** Append
-*** incr
-*** array

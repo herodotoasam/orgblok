@@ -36,7 +36,27 @@ y solucionar ese problema pq si quiero mover el .emacs frecuentemente
 se incompatibiliza con las distintas maquinas si no lo toma
 automaticamente a los dotfiles que puedo crear.
 
-* tcl
+* tcl                                                                   :TCL:
+** enviar señal break
+  con un proc enviar señal de break
+  return -code break
+
+** freezar columnas en el tablelist
+  tbls configure -titlecolumns 4
+
+** hacer que una columna sea numerica o muestrenumeros
+  tbls columnconfigure n -showlinenumbers yes (o 1)
+
+** regsub
+  regsub {^0} [funcion] {} var
+  saco el 0 inicial del resultado de una funcion que me entregaba valores del 
+  dia de una fecha y algunos eran rechazados como octales p.e. 09 08 y por eso 
+  le saco el cero inicial y luego pongo el valor de var en su reemplazo que es 
+  el regsub.
+  O sea 1ro la regexp a buscar luego el texto, tercero la expr para cambiar y 
+  cuarto la variable que contendra el texto cambiado, y regsub responde 1 o 0 
+  segun tuvo o no tuvo exito.
+
 * tablelist
 * sqlite
 * python
@@ -50,7 +70,86 @@ automaticamente a los dotfiles que puedo crear.
 |       |                     |                              |
 
 * instalacion ubuntu
-* vim
+* vim                                                                   :VIM:
+** Vim - mejorado
+*** Busqueda
+**** Busqueda de palabra bajo el cursor (*|#)
+Esa caracteristica viene out the box y es inigualable, y me resulta
+impresindible y en emacs no la puedo lograr asi de una.
+Incluso el resaltado (o subrayado) queda hasta que expresamente lo
+saques. Y lo buscado queda linkado para seguirlo usando.
+**** Esta la busqueda al toque con / y sus repetidos n|N
+**** Busqueda global en el proyecto con Acw
+Eso es genial pq te muestra en ventana aparte las ocurrencias de lo
+que buscas y podes ir directamente alli sin perder la ventana de
+busqueda.
+Incluso funciona aun fuera del proyecto indicandole el directorio.
+**** Reemplazo eficiente y seguro con :%s//
+:%s/buscar/reemplazar/gc   o sea % busca en todo, g global y c
+confirma y tambien se podria hacer en un area :5,25s/busca/reemplaza
+lo cual habria que acostumbrarse a usarlo pq es muy util cuando
+queremos hacer un reemplazo sobre una parte del archivo.
+*** Files
+**** apertura normal
+la apertura out the box es muchisimo mas rapida que en emacs. 
+:e y al toque escribis la ruta con autocompletado y ahora con el
+wildmode ves los resultados en la barra los cuales podes moverlos con
+teclas de movimiento. 
+**** ctrlP
+con ese plugin abris cualquier archivo en el directorio actual (el
+cual genialmente te lo cambia de acuerdo al archivo que tengas por
+delante) y te moves facilmente dentro de el
+**** NERDTree que lo tengo linkeado a F3
+Lo unico que no logre que me funcione el toggle o una forma de
+cerrarlo.
+Es un explorer ahi en tu area de trabajo. Falta aprenderlo nomas.
+*** Movimientos
+**** Entre buffers ultrarapido Ctrl up|down bn|bp
+Con ese linkeado me muevo como luz entre buffers. Si tuviera muchos
+abiertos ctrlp tiene busqueda sobre buffers.
+**** Entre tabs con Ctrl right|left
+idem anterior.
+**** Entre ventanas Ctrl j|k l|h
+La facilidad enorme de abrir split con 
+| :sp         | abre split horizontal                  |
+| :vsp        | abre split vertical                    |
+| :30sp       | se le puede dar un tamaño              |
+| Ctrl w _    | maximice el ancho de la ventana actual |
+| Ctrl w pipe | maximice el alto de la ventana actual  |
+| Ctrl W =    | restaura el dibujo original            |
+| Ctrl W o    | cerrar todas menos la actual           |
+| Ctrl W t    | abrir la actual en nueva pestaña       |
+| Ctrl W R    | swap ventanas                          |
+|             |                                        |
+Y con los bindkey echos a Ctrl jklh saltas de ventana en ventana en un
+tris.
+**** :jump history Ctrl i/ Ctrl o
+Esa caracteristica out the box es genial y yo nunca la use. Es algo
+muy util al programar pq a veces te moves en distintos lugares de un
+archivo y estos mostros te guardan 100 lugares donde estuviste. (Creo
+que hace innecesario las marcas, o los inusables bookmarks de atom).
+**** :changes S-left S-right
+es mucho mas util que jump
+
+*** Auxiliares de programacion
+**** Autocompletado con jedi
+Ya habia notado antes que vim con jedi que funciona bastante bien te
+permite programar facilmente, pq instrospecciona las clases y te
+muestra practicamente la ayuda en linea, en mayor o menor medida, en
+especial para tus propias clases y argumentos necesarios.
+**** Tagbar
+con un simple F4 tengo al lado la ventana de navegacion, en la cual
+ves el esquema y te moves en el.
+**** superTab
+parece que viene en auxilio de jedi en las autocompleciones anodinas
+que son las que mas causan error.
+**** En realidad he podido prescindir de jedi
+parte pq en la netbook me enlentece demasiado y parte pq es invasivo a
+nivel pantalla
+*** boton medio pegar clipboard
+
+
+
 * linux
 ** crear un usb con una distro con dd                                :LINUX:
 [2018-10-10 mié 21:18]
@@ -155,3 +254,4 @@ y alli copia todo.
 
 
 * Refile
+
