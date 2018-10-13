@@ -16,7 +16,7 @@ CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
  se diferencia del diario de desarrollo que en el se debate lo que se
  va a hacer, y este registra lo que se hace, muy claramente en vim.
  ver si el clockeado en subtree se suma arriba
-* 2018
+* 2018                                                                 :2018:
 ** 2018-03 marzo
 *** 2018-03-15 jueves
 **** Louse Hey reflexiones sobre traumas infantiles             :lecturas: 

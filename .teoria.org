@@ -5,6 +5,15 @@ que es la teoria? es el lugar donde acumularemos todo lo que sea
 aprendizaje o documentacion. en vez de tener uno por tema aca vendran
 todos juntos
 * emacs
+** ver diff llamando C-x vD sobre un dired                           :emacs:
+[2018-10-12 vie 19:08]
+para ver todas las diferencias generadas se llama sobre el dired y se
+ven las diferencias claramente.
+| proximo hunk   | Tab |
+| anterior hunk  | p   |
+| ir a la fuente | o   |
+| proximo file   | {  |
+| anterior file  | }   |
 * org-mode
 ** Solucion al no funcionamiento de los Capture Template               :ORG:
 [2018-10-09 mar 19:44]
@@ -40,7 +49,7 @@ con lsblk averiguamos la letra de asignada al usb.
 No desmontar como dicen por ahi
 sudo dd if=/home/... ubic del iso of=/dev/sdb bs=1M
 
-* SOLUS
+* SOLUS                                                         :instalacion:
 ** instalacion de TCL en solus                                       :SOLUS:
 [2018-10-10 mié 23:14]
 ningun archivo de tcl esta. 
@@ -81,7 +90,6 @@ hasta esta en la web, asi que voy a ver si lo desinstalo.
 
 
 
-
 ** instalacion de hp1102 en solus                                    :SOLUS:
 [2018-10-11 jue 15:00]
 1) instalar en solus HPLIP
@@ -111,3 +119,12 @@ tuve dos casos de que luego de equis minutos la maquina no respondia,
 y tuve que resetearla, pienso que es pq la configuracion de energia
 esta para entrar en hibernacion y esta maquina de escritorio queda en
 estado loco. Lo desactive. veremos que pasa. 
+** problema con org-agenda-files                                       :org:
+[2018-10-12 vie 19:24]
+se puede poner un directorio, y yo pongo usualmente ~/orgblock y todo
+anda bien, pero detecte que no levanta los orgfiles que empiezan con
+punto o sea los dotfiles. y yo tengo varios que tendria que renombrar
+y solucionar ese problema pq si quiero mover el .emacs frecuentemente
+se incompatibiliza con las distintas maquinas si no lo toma
+automaticamente a los dotfiles que puedo crear.
+

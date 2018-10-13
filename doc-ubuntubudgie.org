@@ -66,7 +66,7 @@ agregar monitor del sistema
 alsamixer F6 elegir HD-Audio Generic
 irse a la derecha a Auto-Mute poner [Disabled]
 
-* Emacs
+* Emacs                                                   :emacs:instalacion:
 copiar .emacs desde ../orblok
 M-x package-refresh-contens
 
@@ -74,7 +74,7 @@ M-x package-refresh-contens
 con Mx package-install
 1. org-bullets
 2. ido-vertical-mode
-3. smartparents
+3. smartparens
 4. auto-complete
 
 ** ColorScheme usado: leuven
@@ -95,7 +95,7 @@ sudo apt install silversearcher-ag
 #+END_EXAMPLE
 *** luego instalar ag
 Mx package-install ag
-** yasnippets
+** DEPRECATED: yasnippets
 instalar de list-packages
 luego agregar a .emacs
 #+BEGIN_EXAMPLE
@@ -107,6 +107,9 @@ luego agregar a .emacs
 
 Los snippets residen en ~/.emacs.d/snippets/prog-mode/
 y tengo un git en ~/.emacs.d/snippets
+** instalar org en su ultima version
+desde package-list-packages
+instalar desde alli pq de otra forma no funciona.
 
 * instalacion de TCL
 1. emacs por supuesto (no se si hace falta vim-gtk)
