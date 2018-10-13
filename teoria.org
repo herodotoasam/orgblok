@@ -27,6 +27,15 @@ dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
 ocurrio hacer un package-list y buscar org directamente e instalar
 desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
 parece ser el problema de que no funcione el template.
+** problema con org-agenda-files                                       :org:
+[2018-10-12 vie 19:24]
+se puede poner un directorio, y yo pongo usualmente ~/orgblok y todo
+anda bien, pero detecte que no levanta los orgfiles que empiezan con
+punto o sea los dotfiles. y yo tengo varios que tendria que renombrar
+y solucionar ese problema pq si quiero mover el .emacs frecuentemente
+se incompatibiliza con las distintas maquinas si no lo toma
+automaticamente a los dotfiles que puedo crear.
+
 * tcl
 * tablelist
 * sqlite
@@ -98,6 +107,12 @@ hasta esta en la web, asi que voy a ver si lo desinstalo.
 nada mas que eso. Y se soluciono el problema de la cola de impresion,
 que tenia un dia atras en xubuntu aparentemente, pq anda bien, lo
 unico que con otras fuentes se imprimen los listados
+** problema con hibernacion                                          :SOLUS:
+[2018-10-11 jue 15:04]
+tuve dos casos de que luego de equis minutos la maquina no respondia,
+y tuve que resetearla, pienso que es pq la configuracion de energia
+esta para entrar en hibernacion y esta maquina de escritorio queda en
+estado loco. Lo desactive. veremos que pasa. 
 * impresoras
 ** impresora hp no anda luego de cambio toner
 [2018-10-10 mié 16:01]
@@ -113,18 +128,3 @@ que se lo mando lo procesa.
 es como si estuviera rota la cola de impresion.
 
 * Refile
-** problema con hibernacion :SOLUS:
-[2018-10-11 jue 15:04]
-tuve dos casos de que luego de equis minutos la maquina no respondia,
-y tuve que resetearla, pienso que es pq la configuracion de energia
-esta para entrar en hibernacion y esta maquina de escritorio queda en
-estado loco. Lo desactive. veremos que pasa. 
-** problema con org-agenda-files                                       :org:
-[2018-10-12 vie 19:24]
-se puede poner un directorio, y yo pongo usualmente ~/orgblock y todo
-anda bien, pero detecte que no levanta los orgfiles que empiezan con
-punto o sea los dotfiles. y yo tengo varios que tendria que renombrar
-y solucionar ese problema pq si quiero mover el .emacs frecuentemente
-se incompatibiliza con las distintas maquinas si no lo toma
-automaticamente a los dotfiles que puedo crear.
-

@@ -485,3 +485,14 @@ CLOCK: [2018-10-12 vie 14:18]--[2018-10-12 vie 14:19] =>  0:01
 :END:
 lo puedo hacer en cualquier lado, es algo divertido y a la vez es util
 para que rinda mejor el esfuerzo.
+*** 2018-10-13 sábado
+**** mala experiencia con helm :orgmode:emacs:
+:LOGBOOK:
+CLOCK: [2018-10-13 sáb 15:31]--[2018-10-13 sáb 15:34] =>  0:03
+:END:
+para desinstalar en otras maquinas desinstale emacs y volvi a
+instalar, y en la notebook no hizo falta, directamente borre el
+directorio .emacs.d/ y luego reinstale todos los paquetes que uso y
+quedo una instalacion limpia de nuevo.
+prefiero usar asi. Helm era muy invasivo, incomprensible y estorbaba
+en la asignacion de tags en orgmode.
