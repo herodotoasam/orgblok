@@ -126,5 +126,32 @@ Pero no quedo como antes, sino que cuando le mando varios trabajos no
 los hace. incluso si es muy grande no lo procesa y a la segunda vez
 que se lo mando lo procesa. 
 es como si estuviera rota la cola de impresion.
+* otras bases de datos
+** postgres 
+*** superusuario por defecto postgres
+El super usuario predeterminado de PostgreSQL se llama
+postgres. Deberá ingresar con este usuario la primera vez.
+
+sudo su postgres
+password de linux para sudo 
+
+postgres@herohp: asi es el prompt
+*** creacion de un user nuevo
+createuser --createdb --username postgres --no-createrole--pwprompt hero
+alli creo el usuario hero que tiene la capacidad de crear database
+pero no de crear usuarios (roles) y me pide password 
+*** crear database
+las cree con pgAdmin en forma grafica 
+*** ir a una database concreta y salir de ella
+postgres@herohp: psql romitex
+romitex#  create table calles(id int,calle varchar(80));
+CREATE TABLE
+romitex# \q  ---> salir de la database
+*** copiar datos desde un CSV 
+con esto migro facilmente los datos
+
+COPY calles FROM '/home/hero/rx/calles.csv' CSV HEADER;
+y alli copia todo.
+
 
 * Refile

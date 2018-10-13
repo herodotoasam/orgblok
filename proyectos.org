@@ -1,0 +1,239 @@
+#+TODO: TODO(t) BUG IDEA IMPROV NEXT | DONE(d!) FIXED DESISTIDO
+
+* Proyectos
+** Plantilla
+*** Minimalizar la vida                                             :title:
+*** Vision del proyecto                                            :vision:
+*** Justificacion del proyecto                                        :why:
+*** Brainstorming                                                   :brain:
+*** Plan de accion                                                   :plan:
+*** Next Action                                                      :next:
+** proyecto dpto
+*** Acondicionar el dpto                                            :title:
+[2016-10-20 jue]
+*** Vision del proyecto                                            :vision:
+La idea es tener un lugar comodo y agradable donde vivir
+Confortable, terminado pero no aputosado
+Un lugar donde tengan continuidad mis actividades
+Tambien un lugar donde tengan cabida mis objetos.
+*** Justificacion del proyecto                                        :why:
+- Tengo derecho a vivir en un ambiente confortable y agradable
+- Los gastos envueltos no son muy grandes y puedo afrontarlos
+- Tener un dpto acondicionado puede ser motivante
+- Tambien es mas facil de mantener si hay un orden establecido
+*** Brainstorming                                                   :brain:
+**** eliminar la excesiva claridad
+**** acondicionar lugares de lectura
+**** sillon comodo
+***** almohadones
+***** otro sillon en reemplazo del futon
+**** ubicar algunos libros
+**** refuncionalizar el placard
+**** lustrar los pisos
+**** tener los artefactos de iluminacion
+**** Recambiar utensilios de cocina
+**** minimalizar todo
+**** poner un dosificador de aroma como en oficina
+**** DONE sellar las ventanas
+**** mejorar el aspecto del baño
+**** lugar seguro y separado para los fondos
+**** PROCESO gestion adecuada de los papeles de oficina
+**** reacomodamiento de los trastos
+tengo un monton de cajas y ya se me han mezclado las cosas y es
+dificil encontrar las cosas que necesito. Quizas tenga que acomodar eso.
+**** una gran caja de herramientas para todas las herramientas.
+**** cambiar las sillas
+**** poner todas las lamparas led
+ 
+*** Plan de accion                                                   :plan:
+**** Dormitorio
+gran parte de la disfuncionalidad del dormitorio es la falta de
+espacio que generan los puff al vicio pq no aportan nada alli y solo
+sirven para acumular cosas que se le tiran encima (mayormente ropa de
+entrecasa que se podria "tirar" en el suelo del vestidor) y no deja
+paso y no permite limpiar ni acceder a la ventana. Y parte que la
+cabecera de la cama no se puede apoyar bien pq el enchufe como se debe
+compartir entre los veladores y el aire no se puede apretar y queda
+todo muy mal acomodado y feo y peligroso. 
+***** DONE Pintura pared
+Estaria bueno un color azul crepusculo
+Compre azul zafiro
+[2016-10-06 jue] encinte la pared
+***** DONE veladores
+por lo visto en ML no se deberia gastar mas de 500 uno muy bueno con
+pantalla y/o unos 700 por ese groso modernista
+Error!!. El modernista cuesta 1300!! y otros modernistas mas copados
+arriba de 2000. O sea mas que la mesa de luz. 
+Uno intermedio lindo, base niquelada o bruñida y espiga larga forrada
+en cuero (lo cual te puede dar la seguridad al tomarlo de ahi
+supongamos) cuesta 580 y admite led. Con pantallita chiquita de color
+blanco y un poco altitos. (Pero el muchacho dice que los altitos son
+mejores pq te permiten leer mejor)
+En calle rivadavia unos de led minimalistas y muy modernos, son con
+usb y van a la compu. Eso tambien es un moco a largo plazo. Por eso
+pienso que los de 580 son mejores con lamparas led.
+****** Casi estoy decidido a pedirlos en ML
+un velador de diseño con una pantallita muy linda a 480 con 150 de
+flete y entrega a domicilio
+
+***** TODO Lampara
+ techo
+***** DESISTIDO cortina secundaria
+Me fallo el caño. Quizas tendria que subirlo y acortar la cortina o
+bien poner un poco de contac negro en la parte superior de la ventana
+cosa de atenuar la claridad.
+Realmente pasa luz igual.
+Ver solucion contac.
+***** TODO almohadas
+***** TODO tope puerta de vestidor
+***** TODO lustrado piso
+
+    da un rico olor la cera
+***** TODO poner cableado para enchufes cabecera de la cama
+***** TODO aire acondicionado
+***** TODO veladores
+***** TODO fijar respaldo de cama a la pared
+***** TODO poner llave al vestidor
+**** Cocina
+***** arreglo pico y destrancado de caja abajo mesada
+[2016-10-18 mar] Cambie el pico con uno nuevo con cuerito y todo. La
+caja de desague de abajo que rebalsa la limpie y voy a probar con un
+gel destapacañerias. Costo total $126 el grifo y $96 el destapa.
+**** Living
+***** cortinas oscuras 
+urgente necesito pq no puedo trabajar correctamente en la compu
+***** definir la estanteria
+*** Next Action                                                      :next:
+**** DONE comprar pintura dormitorio
+**** DONE poner caño cortina
+**** DONE comprar veladores
+**** DONE pintar pared
+   :PROPERTIES:
+   :ID:       61094945-333e-45d2-b357-7308ea9f8799
+   :END:
+**** DONE traer del marques
+- [ ] tope puerta
+- [X] pinza para arreglar canilla
+   :PROPERTIES:
+:ID:       371275ad-553b-441a-ac3d-fa349f98bd6a
+   :END:
+- [X] llave inglesa
+   :SCHEDULED: <2016-10-22 sáb>
+- [X] cortinas de jean
+**** DONE colocar tope regaton de goma
+- State "DONE"       from "NEXT"       [2018-10-13 sáb 18:01]
+:DEADLINE: <2017-11-05 dom>
+**** NEXT llevar cosas sobrantes al marques
+:DEADLINE: <2017-11-05 dom>
+***** puff
+***** vaciar alacenas de cosas
+**** NEXT pedir en ML caja fuerte empotrable de chapa (necesito 2)
+** Minimalizacion
+*** Minimalizar la vida                                             :title:
+[2017-10-29 dom] Hacer la vida mas simple, minimalista.
+*** Vision del proyecto                                            :vision:
+El objetivo es lograr un nivel de mente vacia o mente limpia, porque
+uno confia en un sistema de archivo y/o de organizacion en el cual va
+volcando todas las ideas las va trabajando y va sacando las
+next-actions para agendar. Y asi va avanzando. Pero no se pierde nada.
+En este caso el proyecto sera como un meta-proyecto, en el cual el
+objetivo seria limpiar o minimizar, como para no tener distintos
+proyectos o muchos proyectos abiertos al mismo tiempo, la idea es
+tener este que tenga como objetivo el descomplicar la vida.
+*** Justificacion del proyecto                                        :why:
+*** Brainstorming                                                   :brain:
+**** me quejo de la comida pero podria llevar licuado y comida sana a la oficina
+podria volver a los licuados, tener una buena mochila, llevar fruta,
+fruta seca, llevar arroz, en si podria hacer mucho por mi dieta
+directamente.
+Uno de los problemas mas graves que tengo seamos realistas es el pagar
+o gastar en verdura/fruta en verdulerias hasta un punto casi
+patologico que hace que esta temporada los primeros y unicos arandanos
+que comi fueron unos que me dio ih hace dos semanas. Y yo estoy
+gastando unos 1600 x mes en delivery y llegue a gastar 2400 y como muy
+mal ese es el problema. Podria llevarme un par de frutas y diversas
+cosas y hacerme un box de comidas atras como hice el otro dia.
+Yo antes con licuado (dos botellas) y una bolsita de nueces tiraba
+hasta las 16 que volvia a la cabaña sin necesidad de ningun tipo de
+comida. Y ahora me podria llevar algo.
+El problema nace aca en el dpto:
+****** el desayuno:
+inexistente pq ya perdi el licuado, pq no lo varie, pq no le puse
+ingredientes. Y tampoco tengo un desayuno tradicional solido. Entonces
+llego alla cagado de hambre y entonces a las 12 estoy desesperado por
+el almuerzo pero luego me viene y no lo puedo comer bien, salvo excepciones.
+****** las compras:
+
+
+**** me gustaria pasar los cuadernos a formato digital
+no quiero perderlos pero tampoco quiero tenerlos asi para siempre.
+Cuanto tiempo me daria para pasar las cosas.
+Vale la pena pasar todas las cosas?
+Eso es algo que tendria que considerar.
+Quizas hacer una prueba de tiempo, o sea pasar un par de hojas y ver.
+**** tener el dpto minimalizado
+eso basicamente seria que tenga seguridad nivel adecuado para
+interactuar con alguien sin problemas (me da la sensacion que tengo
+muchas cosas encima y justamente me gustaria ver si vale la pena
+tenerlas o bien habria que tenerlas de otra forma)
+***** caja fuerte
+si o si el dpto tiene que tener caja fuerte. Esos fondos tienen que
+estar en una caja oculta en un estante dificil de acceso con una
+cajita fuerte. 
+***** boletas de pagos
+es caotico el tema boletas
+**** tener la oficina minimalizada
+o sea apta para que otra persona este alli
+***** caja fuerte
+***** seguridad informatica
+sobre el apartado seguridad informatica en general se plantea el
+separar los escritos personales de los estrictamente personales, en
+ese sentido p.e. salidamercaderia.org y bugs.org incluso
+age-programacion.org y hasta documentacion.org todo puede estar en el
+servidor  de desarrollo de la empresa, pero todos los otros org que
+son personales tendrian que estar separados.
+Considerar un par de dias manejar los orkblocks en pendrive. El
+pendrive con luke es crytoseguro con una clave que es separada de la
+familia es personal, es un espacio personal. Por lo tanto no hay
+problema de ir y venir con un pendrive. y manejarse asi. Es una prueba
+de todos modos. pq no voy a estar tranquilo con todos estos escritos.
+
+***** stock contado
+
+**** tener el trabajo normalizado
+***** trabajo de cobrador
+****** instructivos claros y faciles para que la gente aprenda 
+p.e. como hacer los recibos en los distintos casos dos cuotas, dos
+cuentas pagos a cuenta, etc.
+
+***** promocion
+****** planos
+****** idear una forma de control de ventas menos artesanal
+incluso una vez terminado el proceso de este sistema tengo que largar
+el proceso nuevo y ver que cambios son necesarios en el software para
+ver los pedidos pendientes los por vencer, y los por entregar.
+No quisiera nuevamente tener que largar sin tener la herramienta
+adecuada para trabajar bien o sea todo lo necesario para pasar.
+Podria hacerlo en el futuro
+******* un nuevo pasador de pedidos 
+******** que use los nuevos desarrollos
+******** que se adapte a los requerimientos
+********* fecha de entrega
+********* repartidor
+********* color
+******* un visionado mas claro de pedidos pendientes y logrados por promotores
+para no tener que tener que sumar a mano a cada rato. 
+Lo ideal seria una planilla de asistencia con la cantidad de pedidos y
+numero de pedido entregados los cuales se archivaran y se tendra la
+pista exacta de lo que paso y en el dorso el contrato y la grilla de
+vales. Entonces es una planilla clara pq no tiene alteraciones, y todo
+lo manejo por pantalla y puedo imprimir resumenes y manejarme por alli.
+***** cobranza
+****** idea nueva de cobranza mas chica con venta incluida
+*** Plan de accion                                                   :plan:
+*** Next Action                                                      :next:
+**** NEXT comprar elementos para hacer licuado
+super: avena/gatorade/
+diet: almendra
+verdura: peras
+**** NEXT comprar fruta en mercado
