@@ -26,7 +26,7 @@
  '(cua-normal-cursor-color "#657b83")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
- '(custom-enabled-themes (quote (monokai-alt)))
+ '(custom-enabled-themes (quote (tsdh-light)))
  '(custom-safe-themes
    (quote
     ("d66e8428842d4b1e38e79f51b153d3e747220fdd9018acf38227a5d9e13b84c4" "11e57648ab04915568e558b77541d0e94e69d09c9c54c06075938b6abc0189d8" "d1ede12c09296a84d007ef121cd72061c2c6722fcb02cb50a77d9eae4138a3ff" "86e2d09ebcfff3b7ec95543bce5a163384579a2bf2e2a81bfba8908b7a0c44df" "a4c9e536d86666d4494ef7f43c84807162d9bd29b0dfd39bdf2c3d845dcc7b2e" "98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" "b571f92c9bfaf4a28cb64ae4b4cdbda95241cd62cf07d942be44dc8f46c491f4" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1db337246ebc9c083be0d728f8d20913a0f46edc0a00277746ba411c149d7fe5" "43c1a8090ed19ab3c0b1490ce412f78f157d69a29828aa977dae941b994b4147" "c72a772c104710300103307264c00a04210c00f6cc419a79b8af7890478f380e" default)))
@@ -62,11 +62,12 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
- '(org-agenda-files
-   (quote
-    ("~/orgblok/.prog.org" "~/orgblok/.teoria.org" "/home/heroasam/orgblok/age-programacion-tcl.org" "/home/heroasam/orgblok/age-programacion.org" "/home/heroasam/orgblok/bugs.org" "/home/heroasam/orgblok/contable.org" "/home/heroasam/orgblok/dia-aprendizaje.org" "/home/heroasam/orgblok/dia-films.org" "/home/heroasam/orgblok/dia-general.org" "/home/heroasam/orgblok/dia-programacion.org" "/home/heroasam/orgblok/doc-deepin.org" "/home/heroasam/orgblok/doc-fichaje.org" "/home/heroasam/orgblok/doc-solus.org" "/home/heroasam/orgblok/doc-tclmobile.org" "/home/heroasam/orgblok/doc-ubuntubudgie.org" "/home/heroasam/orgblok/documentacion.org" "/home/heroasam/orgblok/edu-emacs.org" "/home/heroasam/orgblok/edu-i3.org" "/home/heroasam/orgblok/edu-orgmode.org" "/home/heroasam/orgblok/edu-programar.org" "/home/heroasam/orgblok/edu-pycharm.org" "/home/heroasam/orgblok/edu-python.org" "/home/heroasam/orgblok/edu-tcl.org" "/home/heroasam/orgblok/edu-vim.org" "/home/heroasam/orgblok/habitos.org" "/home/heroasam/orgblok/index.org" "/home/heroasam/orgblok/journal.org" "/home/heroasam/orgblok/listadpto.org" "/home/heroasam/orgblok/louisehay.org" "/home/heroasam/orgblok/manualusuario.org" "/home/heroasam/orgblok/medical.org" "/home/heroasam/orgblok/negocio.org" "/home/heroasam/orgblok/postgres.org" "/home/heroasam/orgblok/private.org" "/home/heroasam/orgblok/pro-dpto.org" "/home/heroasam/orgblok/pro-minimalizacion.org" "/home/heroasam/orgblok/proyectopb.org" "/home/heroasam/orgblok/proyectos.org" "/home/heroasam/orgblok/pycharm.org" "/home/heroasam/orgblok/rapido.org" "/home/heroasam/orgblok/ropa.org" "/home/heroasam/orgblok/salidamercaderia.org" "/home/heroasam/orgblok/tcl.org" "/home/heroasam/orgblok/vim.org")))
+ '(org-agenda-files (quote ("~/orgblok/")))
  '(org-agenda-span (quote day))
  '(org-deadline-warning-days 0)
+ '(org-habit-following-days 5)
+ '(org-habit-graph-column 50)
+ '(org-habit-preceding-days 21)
  '(org-habit-show-habits-only-for-today t)
  '(org-indent-indentation-per-level 2)
  '(org-modules
@@ -128,6 +129,9 @@
 (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (linum-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'python-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'python-mode-hook (lambda () (hl-line-mode 1)))
 
 
 (defun org-insert-inactive-timestamp()
@@ -318,14 +322,14 @@
 
 
 (setq org-capture-templates
- '(("t" "Todo" entry (file "~/orgblok/.tareas.org")
+ '(("t" "Todo" entry (file "~/orgblok/tareas.org")
         "* TODO %?%^g\n%U\n%i\n")
    ("j" "Journal" entry (file+olp+datetree "~/orgblok/journal.org")
     "* %?%^g \n %i \n" :clock-in t :clock-resume t)
-   ("b" "Bugs" entry (file "~/orgblok/.prog.org")
+   ("b" "Bugs" entry (file "~/orgblok/bugs.org")
     "* TODO %?%^g\n%U\n%i\n%a\n ")
-   ("m" "Manual" entry (file+headline "~/orgblok/.teoria.org" "Refile")
+   ("m" "Manual" entry (file+headline "~/orgblok/teoria.org" "Refile")
     "* %?%^g\n%U\n%i\n%a\n ")
-   ("d" "nuevo" entry (file+headline "~/orgblok/.devoluciones.org")
+   ("d" "nuevo" entry (file+headline "~/orgblok/devoluciones.org")
     "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
    ))
