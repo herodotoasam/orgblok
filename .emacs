@@ -62,27 +62,23 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
- '(org-agenda-files
-   (quote
-    ("~/orgblok/")))
+ '(org-agenda-files (quote ("~/orgblok/")))
  '(org-agenda-span (quote day))
+ '(org-blank-before-new-entry nil)
  '(org-deadline-warning-days 0)
  '(org-habit-following-days 5)
  '(org-habit-graph-column 50)
  '(org-habit-preceding-days 21)
  '(org-habit-show-habits-only-for-today t)
  '(org-indent-indentation-per-level 2)
- '(org-sparse-tree-open-archived-trees t)
- '(org-blank-before-new-entry nil)
- 
- 
  '(org-modules
    (quote
     (org-bbdb org-bibtex org-docview org-gnus org-habit org-info org-irc org-mhe org-mouse org-rmail org-w3m org-bullets)))
+ '(org-sparse-tree-open-archived-trees t)
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (nimbus-theme monokai-alt-theme zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens leuven-theme ## rings icicles minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (w3m nimbus-theme monokai-alt-theme zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens leuven-theme ## rings icicles minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
@@ -341,3 +337,10 @@
    ("h" "Habit" entry (file "~/orgblok/habitos.org")
     "* TODO %?\n%U\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:END:\n"))
  )
+
+
+
+(global-set-key (kbd "C-9") 'w3m)
+
+(setq browse-url-browser-function 'w3m-browse-url) 
+      (global-set-key "\C-xm" 'browse-url-at-point)      
