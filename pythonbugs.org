@@ -46,7 +46,7 @@
 | \emsp DONE hacer que la clase fecha muestre... |         | 0:21 |
 #+END:
 
-* TODO bugs o improvs fichaje.py [50/74]
+* TODO bugs o improvs fichaje.py [50/74]                            :ARCHIVE:
 
 ** DONE sacar el balloon de nombre de promotor que es molesto   :tabPedidos:
 - State "DONE"       from "TODO"       [2017-10-08 dom 00:06]
@@ -424,7 +424,7 @@ cobrador.
 Pero gastamos dos hojas, generamos dos hojas y es al vicio, y de paso
 aparte de unificar todo en una misma planilla le agregue una grila
 para los articulos.
-* TODO edicion de fecha pueda moverse con Down :fichas:
+* TODO edicion de fecha pueda moverse con Down               :ARCHIVE:fichas:
 [2018-10-09 mar 14:04]
 agilizaria mucho para no tener que usar el raton en cada fecha que
 editemos

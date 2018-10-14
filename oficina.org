@@ -145,6 +145,12 @@ para el y para nosotros, idem para el Fernando. Y para los otros.
 No se veria por el momento una postura como la de dias atras que
 pensaba una dedicacion a hacer venta recorriendo clientes no creo que
 podamos cobrar todo, pq no tenemos cobradores.
+*** [2018-10-14 dom]
+habria que preparar a ambos nuevos para los dias dificiles pq como se
+cobra por dia irlos preparandolos en el sentido que hay para cobrar
+una suma que va a entrar si o si todo el mes, y una cantidad de venta
+que pueden hacer y eso lo van a cobrar por mes, para que no tengan
+bajon animico alguno. Y sepan que todo es parte de una estrategia.
 
 ** recibos faltantes
 | fecha            |    rbo | cobr |
@@ -242,8 +248,10 @@ con monto super alto que cause impacto.
 ** TODO doc 66052 buscar - wapp 3193143 
 pidio documento y justo no esta. La unica posibilidad es que este
 desacomodado en el toco que tengo en el cajon.
+** TODO llamar a gladys romero
+ver el numero en wapp de la romi
 * Romitex Fichas
-** [2018-10-02 mar] pasado desde el [2018-09-20 jue]-[2018-10-02 mar]
-** [2018-10-12 vie] pasado desde el [2018-10-03 mié]-[2018-10-12 vie]
+** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
+** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
 
 

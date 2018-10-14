@@ -62,7 +62,9 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
- '(org-agenda-files (quote ("~/orgblok/")))
+ '(org-agenda-files
+   (quote
+    ("~/orgblok/")))
  '(org-agenda-span (quote day))
  '(org-deadline-warning-days 0)
  '(org-habit-following-days 5)
@@ -70,6 +72,10 @@
  '(org-habit-preceding-days 21)
  '(org-habit-show-habits-only-for-today t)
  '(org-indent-indentation-per-level 2)
+ '(org-sparse-tree-open-archived-trees t)
+ '(org-blank-before-new-entry nil)
+ 
+ 
  '(org-modules
    (quote
     (org-bbdb org-bibtex org-docview org-gnus org-habit org-info org-irc org-mhe org-mouse org-rmail org-w3m org-bullets)))
@@ -332,4 +338,6 @@
     "* %?%^g\n%U\n%i\n%a\n ")
    ("d" "nuevo" entry (file+headline "~/orgblok/devoluciones.org")
     "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
-   ))
+   ("h" "Habit" entry (file "~/orgblok/habitos.org")
+    "* TODO %?\n%U\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:END:\n"))
+ )

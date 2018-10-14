@@ -14,8 +14,8 @@ ven las diferencias claramente.
 | ir a la fuente | o   |
 | proximo file   | {  |
 | anterior file  | }   |
-* org-mode
-** Solucion al no funcionamiento de los Capture Template               :ORG:
+* org-mode                                                              :ORG:
+** Solucion al no funcionamiento de los Capture Template           :Capture:
 [2018-10-09 mar 19:44]
 
 Capture Template programados en otra maquina y que funcionaban bien en
@@ -27,7 +27,7 @@ dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
 ocurrio hacer un package-list y buscar org directamente e instalar
 desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
 parece ser el problema de que no funcione el template.
-** problema con org-agenda-files                                       :org:
+** problema con org-agenda-files                                    :Agenda:
 [2018-10-12 vie 19:24]
 se puede poner un directorio, y yo pongo usualmente ~/orgblok y todo
 anda bien, pero detecte que no levanta los orgfiles que empiezan con
@@ -35,6 +35,32 @@ punto o sea los dotfiles. y yo tengo varios que tendria que renombrar
 y solucionar ese problema pq si quiero mover el .emacs frecuentemente
 se incompatibiliza con las distintas maquinas si no lo toma
 automaticamente a los dotfiles que puedo crear.
+
+** Archivamiento interno                                          :Archivar:
+[2018-10-14 dom 12:51]
+Internal Archiving
+poniendo el tag :ARCHIVE: a un heading (que se hereda) el tree se
+archiva en el lugar, o sea no se traslada a ninguna parte. 
+Las consecuencias de este tipo de archivamiento son:
+1. no participa del ciclo de visibilidad (solo con Ctrl-Tab) o bien
+   existe una variable para activarlo (pero no tiene sentido)
+2. no participa en los sparse tree y tambien hay una variable que los
+   activa: org-sparse-tree-open-archived-trees (esta la active pq si
+   me parece que tiene sentido)
+3. en la construccion de las vistas de agenda no participan. Tambien
+   hay variable (no tiene sentido aplicarla me parece pq para eso uno
+   archiva para que todos los TODO que pueda tener un archivo obsoleto
+   no te aparezcan en agenda p.e. pythonbug.org) Pero en agenda uno
+   puede poner v a para que aparezcan
+4. no se exportan
+5. no se ven en las column-view (tambien hay variable)
+
+** Archivamiento externo                                          :Archivar:
+[2018-10-14 dom 13:00]
+mover un tree a un archivo externo de archivamiento:
+C-c $ org-archive-subtree
+el archivo tiene el mismo nombre con la terminacion _archive
+ej. habitos.org habitos.org_archive
 
 * tcl                                                                   :TCL:
 ** enviar señal break
@@ -150,6 +176,97 @@ nivel pantalla
 
 
 
+** comandos recuperados                                             
+[2018-10-14 dom 13:21]
+** Comandos descubiertos o redescubiertos
+
+| C   | Cambia el resto de la linea | emacs C-k |
+| S   | Sustituye la entera linea   | ?         |
+| D   | Delete hasta eol            |           |
+| U   | en visual Upper case        |           |
+| ciw | change integer word         |           |
+
+
+** Nuevos atajos
+| e            | enclose word con quote |
+| s            | commenting a line      |
+| S-left-right | ir al ant-pos change   |
+|              |                        |
+
+
+
+** Comandos que siempre he usado y son utiles  
+
+| cw | cambia la palabra | emacs M-d | 
+|    |                   |           | 
+
+** Aspectos que no conocia
+*** :changes 
+te lleva adelante o atras a los cambios reales hechos en el archivo e
+incluso permanece tras cerrar el archivo. Ideal para volver donde
+estabamos.
+*** C-r en insersion mode
+   te aparece unas comillas y alli puedes poner el numero de registro que 
+   quieres insertar.
+   se puede ver en :reg
+   es de destacar el . (dot) que es todo lo ultimo insertado
+
+** Aspectos que son interesantes
+*** un undo y redo separado e ilimitado.
+Incluso con horario que lo vas viendo. En emacs te confunde un poco el
+que mezcle undos y redos.
+
+
+   
+** arreglos en vim para mayor eficiencia
+*** buffer previo y next con [ ]
+*** apertura rapida de archivos usados frecuentes con ;6 ;7 etc
+*** apertura de orgblock ;9  Explore
+*** reinicio de pomodoro con ;0 
+*** magit facil
+   inicio con :Magit
+   stash con S
+   commit con CC
+
+
+
+*** nuevos plugins
+**** CtrlP
+    busqueda de archivos en general con C-b o C-b cambio el tipo de busqueda 
+    en tres posibles: mru files buf o sea archivos recientes files o buf
+    una vez buscamos el archivo introduciendo el nombre, el path lo tenemos a 
+    la derecha en la barra, y es el dir presente tenemos tres opciones:
+    C-t abre en otro tab C-v C-x abre en split vertical o en split horizontal
+
+    tip de busqueda: p.e. para buscar age-programacion-tcl.org poner age-tcl 
+    no asi agetcl.
+
+    para ir al directorio padre usar ..
+
+**** superyank
+    usar Alt-p o Shift-Alt-p para ciclar entre el reg de yanks
+**** tagbar
+    instalar desde el apt exuberant ctags
+    en el directorio correr ctags files en este caso en tcl1 ctags *.tcl
+    luego con tagbar (keybindeado a F4) te aparece el resumen de proc o clases 
+    y metodos. Interesante en proyectos complejos
+
+    
+*** insertar fecha emulando fecha inactiva de orgmode
+:put =strftime('[%F %a]')
+put =strftime('[%F %a]')
+**** [2018-03-07 mié]
+    entrada del dia 
+***** [2018-03-07 mié]
+     entrada del dia
+        
+***** 
+** vimorg    
+*** movimiento de subtrees
+   al final tanto lio y se logra con delete y pegado te borra y pega el tree 
+   completo mas intuitivo que emacs
+
+
 * linux
 ** crear un usb con una distro con dd                                :LINUX:
 [2018-10-10 mié 21:18]
@@ -254,4 +371,3 @@ y alli copia todo.
 
 
 * Refile
-

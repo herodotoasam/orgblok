@@ -1,4 +1,6 @@
-
+* Idea de ficha               :experimentos:fracasos:fichas:hollywar:ARCHIVE:
+Idea de ficha experimentada durante la segunda quincena de setiembre
+de 2018 con el grupo de cobradores.
 ** idea alternativa de fichas
    [2018-09-06 jue] yo se que pensar que las fichas van a andar esta vez es 
    similar a los que creen que las utopias van a funcionar si "ellos" la 
@@ -451,3 +453,90 @@
 ** fichas consideraciones al [2018-09-25 mar]
    hoy reparto las ultimas para que lleguen a fin de mes, y voy preparando el 
    regreso de los listados. 
+** fichas consideraciones finales
+*** grupo de cobradores a los cuales se aplico fichas 
+**** 753 
+en forma natural fue el primero que me inspiro la idea, pq lo asigno a
+Olmedo y le hago fichas y de ahi me salio la idea que rapida e
+irreflexivamente la hago extensiva a todos.
+**** 750
+no lo puse en fichas
+**** 800
+lo puse y trabajo igual como venia haciendo con los listados o sea
+acaparando toda la zona, y trabajando igual, o sea el no es un
+cobrador de listado viene y va, o sea no necesita de nuestros
+servicios de listado/fechado, y no devolvio fichas como para que
+nosotros anotaramos nada.
+**** 801
+ahi sirvio perfecto el sistema pq como era un cobrador motivado en ese
+primer momento, y no tenia zona y se le tuvo que armar la zona un
+poquito de cada lado, la ficha sirvio, tambien sirvio pq devolvia en
+el momento las incobrables informadas en cada caso, pero tambien las
+fichas demostraron su enorme falencia pq a poco de andar, ya no sabia
+cuantas ni cuales fichas tenia el tipo, y cuando a pocos dias empezo a
+fallutear ya no sabia sobre cuanto material me falluteaba. Entonces
+alli la ficha no sirve. Pq en realidad se puede informar morosos igual
+en la planilla. y se puede partir igual zona con planilla.
+**** 802
+fue el mas entusiasmado con el sistema de fichas pq se acomodaba bien
+los recorridos (igual que el 801 y el 809), y me devolvia los morosos,
+fue el unico que echo de menos que dejara las fichas.
+**** 808
+un desastre. Al menos sirvio para desnudar las falencias de ella como
+cobradora en su faz de logistica. Ella agarraba una calle y la hacia
+punta a punta, no tiene ni idea de organizar un recorrido. y el tener
+las fichas en la mano la desorganizo totalmente y la hizo
+colapsar. Fue el comienzo de la rotura de la relacion pq se sumo al
+bajon en el resultado de la zona.
+**** 809
+agarro docilmente el sistema pero no sirvio a los fines que habiamos
+propuesto pq lo mismo no informo morosos, y mintio con el informe de
+las visitas dibujando las fechas y las horas de las visitas.
+**** 813
+no alcanzamos a darselas, se fue justo antes
+**** 815
+en el fondo no le gustaron, pero mas o menos se defendio, lo mismo no
+informo nada.
+*** reflexiones finales
+**** la gente se hizo un lio
+por mas que parece que es mas facil acomodar fichas, lo es en una
+cantidad chica, no en una gran cantidad, o sea no sirve en la forma
+que nosotros se la dabamos. En ese sentido es mejor el listado pq esta
+todo junto abrochado, numerado por pagina, por cliente y es mas seguro.
+**** por mas que lo hagamos nosotros nunca sabremos si pierden fichas
+el eterno problema de las fichas. Si van y vienen, y pongo un empleado
+que haga los recorridos y los acomode, y los fechamientos, como
+hacemos para controlar que no pierden fichas, y como hacemos si no
+anotan los pagos parciales.
+**** perdemos control nosotros de lo que tiene en ese momento el cobrador
+pq le vamos dando y le vamos dando y no sabemos cuanto tiene. Partimos
+de la base que en ese momento teniamos cobradores leales y
+confiables. Era la "foto" del [2018-09-14 vie] y solo un par de
+semanas despues tuvimos el abandono del 801 y del 809 con choreo
+ambos, la desaparicion a un dia de las fichas del 813, el conato de la
+808, la enfermedad repentina del 802. O sea que nada es estable, y lo
+mejor es contar uno mismo con las fichas en la mano.
+**** llama la atencion la poca reflexion previa
+en tiempo que tuve para implementar un cambio de tanta magnitud y como
+me equivoque en casi todos los conceptos previos, en especial la
+repuesta de la gente y lo que iba a significar en cuanto a volumen de
+trabajo mio. Creer que un sistema como ese iba a significar menos
+proceso en maquina fue un mal calculo.
+*** que dejo de positivo la experiencia
+**** el cambio en la programacion
+tanto conceptual como en el programa en si, pq hice los 'cajones' de
+clientes donde 'estacionar' a los en gestion/mudados/incobrables
+principalmente a los primeros dos, sin necesidad de perderlos para
+siempre y tenerlos alli a mano para poder gestionarlos en cualquier
+momento con otro cobrador, cosa que me daba problema con el sistema
+anterior que no sabia como hacer.
+Y la facilidad para cambiar en un segundo de zona. Asi como habia
+pensado asignar masivamente las cuentas a cobrador y generar distintas
+asignaciones, lo hice para zona, cosa que en el fondo sea mas
+conveniente pq asi puedo partir un listado en dos minutos y volverlo a
+unir en diez segundos (como hice con yofre) que era una de las
+principales "ventajas" que le atribuia a las fichas. 
+**** no confiarse mas en nadie
+por mas que nos parezca que una situacion sea estable en el fondo
+siempre tiene algo de inestabilidad cronica que hace que tengamos
+empezar de nuevo.
