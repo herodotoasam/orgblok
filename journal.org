@@ -537,3 +537,29 @@ vinieron, y quedo una seudoinvitacion del fede para ir a comer, y
 hasta ahora no se han hecho presente, y eso en el fondo te tiene las
 bolas al plato, pq ni siquiera quiero ir para alla, y encima viene ih
 que la del super le dice "van a ir a algun lado??"
+**** avance bastante en aprendizaje y en arreglo :findes:orgmode:
+:LOGBOOK:
+CLOCK: [2018-10-14 dom 17:32]--[2018-10-14 dom 17:38] =>  0:06
+:END:
+Como dos caracteristicas muy grandes que hice en esta siesta tengo la
+instalacion de un navegador interno de emacs muy potente, que creo
+agilizara por diez la tarea de cualquier tipo que se trate, el w3m, y
+toda la puesta a punto del encriptamiento de nodos con el aprendizaje
+de la clave GPG tanto en generacion, en backupeado, en exportacion,
+luego importacion a otras maquinas, y posibilidad de tener en el git
+en forma transparente los orgs con los nodos mezclados tanto los
+abiertos como los pgpeados.
+Antes de eso trabaje bastante sobre el tema de Archivo que permite ir
+guardando y desactivando los org viejos que molestan pero que son
+lindos guardarlos, y ya manejo bien el refile, y los capture template,
+agregue otro template para habit.
+No he avanzado tanto en achurar archivos pero eso es la parte facil.
+**** objetivo de estudio y forma de realizarlo :estudio:orgmode:emacs:
+:LOGBOOK:
+CLOCK: [2018-10-14 dom 17:38]--[2018-10-14 dom 17:40] =>  0:02
+:END:
+Creo que la forma de realizar la incorporacion definitiva y plasmada
+de los conocimientos para llegar al fondo de la cuestion es la
+impresion por capitulos separados como hice con orgmode y su
+correspondiente lectura y asimilacion completa. pq eso luego lleva a
+su aplicacion he incorporacion a la base de datos actual.
