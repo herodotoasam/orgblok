@@ -344,3 +344,13 @@
 
 (setq browse-url-browser-function 'w3m-browse-url) 
       (global-set-key "\C-xm" 'browse-url-at-point)      
+
+
+(require 'org-crypt)
+(org-crypt-use-before-save-magic)
+(setq org-tags-exclude-from-inheritance (quote ("crypt"))) 
+;;  set to nil to use symmetric encryption.
+;;(setq org-crypt-key nil)
+(setq org-crypt-key "hfj024@gmail.com")
+(global-set-key (kbd "C-8") 'org-decrypt-entries)
+(setq org-crypt-disable-auto-save nil)

@@ -14,6 +14,43 @@ ven las diferencias claramente.
 | ir a la fuente | o   |
 | proximo file   | {  |
 | anterior file  | }   |
+** crear una key en emacs                                     :ENCRIPTACION:
+[2018-10-14 dom 17:13]
+Creating a key
+To get started you must first generate the key pair with gpg:
+$ gpg --gen-key
+Follow the prompts to generate your key. I highly recommend you pick a pass phrase!
+You can verify it is loaded into your system’s keychain by running:
+M-x epa-list-secret-keys in Emacs;
+or gpg --list-secret-keys on your command line
+[[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources - Mastering Emacs]]
+O sea un paso a paso bastante facil y similar a lo hecho con gitlab
+** exportacion e importacion a otras maquinas key emacs       :ENCRIPTACION:
+[2018-10-14 dom 17:16]
+Next, export the secret key to a file mykey.asc to gpg (using the key holder’s name, email or key ID):
+
+$ gpg --armor --export-secret-keys herodoto asam > hasamkey.asc
+
+You can now, on a different machine, re-import the key, but you will also have to trust it again. You can pass the full name in quotes or the
+e-mail to gpg and it will pick the right one. Here I edit a key based on the full name of the key holder and GPG is smart enough to figure out
+which one it is:
+
+$ gpg --import mykey.asc
+$ gpg --edit-key "herodoto asam"
+gpg> trust
+Your decision? 5
+Do you really want to set this key to ultimate trust? (y/N) y
+gpg> quit
+
+At this point you have a key and a way of exporting and re-importing it between computers; useful, if you use more than one, but optional. It goes
+without saying that if you lose your key you lose your encrypted data!
+[[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources - Mastering Emacs]]
+ 
+O sea con este sistema reimportaria las mismas claves a las otras
+maquinas y podria abrir y generar los mismos crypts sin problemas y
+aparte la clave que vence en el 2020, la backupeo con git. Y la frase
+esta muy pegada en mi memoria desde hace treinta anios casi.
+
 * org-mode                                                              :ORG:
 ** Solucion al no funcionamiento de los Capture Template           :Capture:
 [2018-10-09 mar 19:44]
@@ -104,6 +141,44 @@ las propiedades que definimos nosotros y aca tenemos una busqueda
 mixta entre propiedades y tags. Entonces aca aplica hacer busquedas
 con las propiedades que tienen fecha. 
  
+** seteado inicial                                            :ENCRIPTACION:
+[2018-10-14 dom 17:03]
+(require 'org-crypt)
+(org-crypt-use-before-save-magic)
+(setq org-tags-exclude-from-inheritance (quote ("crypt")))
+;; GPG key to use for encryption
+;; Either the Key ID or set to nil to use symmetric encryption.
+(setq org-crypt-key nil)
+Esta ultima linea como lo indica el comentario es para evitar usar el
+encriptado de GPG y entonces te pide al entrar y al salir la
+contrasena y eso es peligroso pq podes encriptar mal y no recordas mas
+y es mas debil.
+por eso lo cambie como norang a
+(setq org-crypt-key "hfj024@gmail.com")
+(global-set-key (kbd "C-8") 'org-decrypt-entries)
+solo necesito poner mi email o mi nombre y emacs la busca a la clave
+GPG, y setie un global set key a Ctrl8 para decryptar los outlines pq
+es tedioso meter la orden.
+
+[[https://orgmode.org/worg/org-tutorials/encrypting-files.html][Encrypting org Files.]]
+** problema con autosave                                      :ENCRIPTACION:
+[2018-10-14 dom 17:09]
+Auto Save Files
+
+Emacs temporarily saves your buffer in an autosave file while you are editing your org buffer and a sufficient number of changes have accumulated.
+If you have decrypted subtrees in your buffer these will be written to disk in plain text which possibly leaks sensitive information. To combat
+this org-mode now asks if you want to disable the autosave functionality in this buffer.
+
+Personally I really like the autosave feature. 99% of the time my encrypted entries are perfectly safe to write to the autosave file since they
+are still encrypted. I tend to decrypt an entry, read the details for what I need to look up and then immediately save the file again with C-x C-s
+which re-encrypts the entry immediately. This pretty much guarantees that my autosave files never have decrypted data stored in them.
+
+I disable the default org crypt auto-save setting as follows:
+
+(setq org-crypt-disable-auto-save nil)
+
+[[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
+El problema es que te lo pregunta org mode continuamente y es molesto.
 * tcl                                                                   :TCL:
 ** enviar señal break
   con un proc enviar señal de break
