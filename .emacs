@@ -11,6 +11,7 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -332,7 +333,7 @@
     "* TODO %?%^g\n%U\n%i\n%a\n ")
    ("m" "Manual" entry (file+headline "~/orgblok/teoria.org" "Refile")
     "* %?%^g\n%U\n%i\n%a\n ")
-   ("d" "nuevo" entry (file+headline "~/orgblok/devoluciones.org")
+   ("d" "devoluciones" entry (file+headline "~/orgblok/devoluciones.org")
     "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
    ("h" "Habit" entry (file "~/orgblok/habitos.org")
     "* TODO %?\n%U\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:END:\n"))
@@ -354,3 +355,4 @@
 (setq org-crypt-key "hfj024@gmail.com")
 (global-set-key (kbd "C-8") 'org-decrypt-entries)
 (setq org-crypt-disable-auto-save nil)
+

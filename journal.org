@@ -1,3 +1,4 @@
+#+TODO: TODO(t) NEXT | DONE(d!) DESISTIDO
 #+BEGIN: clocktable :scope file :maxlevel 2
 #+CAPTION: Clock summary at [2018-10-14 dom 22:59]
 | Headline               | Time   |      |
@@ -28,6 +29,135 @@ CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
  va a hacer, y este registra lo que se hace, muy claramente en vim.
  ver si el clockeado en subtree se suma arriba
 * 2018                                                                 :2018:
+** 2018-01 enero
+*** 2018-01-10 miércoles
+**** problema tiempo libre cambio horario a la manana :problemaTiempo: 
+:LOGBOOK:
+CLOCK: [2018-10-15 lun 18:06]--[2018-10-15 lun 18:07] =>  0:01
+:END:
+  el problema de haber cambiado el horario es que no puedo pasarme el
+ tiempo durmiendo excesivamente y luego pasar a ver netflix, y luego
+ ir a dormir de nuevo. Tengo que hacer cosas productivas para
+ justificar el cambio. Tampoco da por ahora la idea de salir, No estoy
+ animicamente para eso. Por el momento creo que esta bueno que me
+ inspire en hacer estas cosas que tengo que hacer y nunca hice.
+*** 2018-01-11 jueves
+**** experiencias luego de la lectura de Louse Hay :lecturas:estadoAnimico:RELEER:
+:LOGBOOK:
+CLOCK: [2018-10-15 lun 18:10]--[2018-10-15 lun 18:11] =>  0:01
+:EN
+***** "puedo cambiar" en medio del ejercicio
+ en el capitulo de louise hay donde dice que el uso del espejo es
+ fundamental para las afirmaciones en voz alta, pues es ahi donde
+ veremos si creemos nosotros mismos en lo que supuestamente
+ decimos. Esto retoma el famoso libro que lei en la decada del 80, que
+ hablaba del metodo del espejo y yo no lo practique muy mucho. 
+ Hoy hice la prueba con la afirmacion PUEDO CAMBIAR y no solo que pude
+ hacerla con conviccion sino que en medio del ejercicio de tres series
+ completo incluido el tercer ejercicio a rajatabla pude renovar fuerzas
+ sin saber de donde salian y puedo decir que no hubiera completado
+ nunca las tres series sin las afirmaciones.
+ Y luego hice la primer serie de pushup.
+***** sin la practica esos libros no sirven
+ si no hacemos la practica no sirven.
+ Es importante esa parte que dice que hay una necesidad dentro de
+ nosotros para ser como somos sino atacamos esa causa no eliminaremos
+ los efectos. Siempre estaremos solos, por miedo a la invasion en
+ nuestras vidas de las otras personas y a la vez nunca cambiamos nunca
+ hacemos nada en privado que sea realmente privado, o sea uno tiene
+ miedo de perder esa privacidad que no aprovecha se podria decir
+ (p.e. si vamos al caso de poder hacer gimnasia en mi caso, o de hacer
+ un sistema de cambio por control mental por ejercicios que puedan
+ parecer esotericos)
+ Estuve pensando y no hice nada hoy que no hubiera podido hacer si
+ hubiera estado en pareja, es mas hay cosas que me tienen eternamente
+ trabado pq no estoy en pareja, como el mantenimiento del dpto (que no
+ digo que me lo haga la pareja, pero mi parte seria mas facil hacerla
+ si estuviera con otra persona) y la comida. 
+ La escritura, la lectura, etc son temas privados que incluso siguen.
+ Es una sensacion, como la sensacion de que hay quilombo en el dpto y
+ nunca se termina de limpiar, o que hay muchas cosas por hacer y nunca
+ se hacen. Parte pq se trabaja mal (p.e. el tema recibos y documentos
+ esta mal y esta atorado pq se trabajo mal) 
+
+ Igual el tema del dpto que hay muchisimas cosas que no se resuelven
+ nunca en una minimalizacion que sea compatible con otras personas.
+ Pero PUEDO CAMBIAR.
+***** louise hay tiene la clave
+ se que tiene la clave pq en las inseguridades propias y en la falta de
+ amor por uno mismo esta la clave. Si uno no puede hablarse al espejo
+ solo en su propia soledad imaginate si podra hablarle a los demas. Por
+ eso pienso que debo continuar por ese camino.
+*** 2018-01-13 sábado
+****  Aplicacion de conceptos de Louse Hay :lecturas:
+:LOGBOOK:
+CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
+:END:
+***** descubrimiento del poder de la mente                       :RELEER:
+ me llama la atencion la idea de que "la mente es un instrumento que
+ usted puede usar de cualquier manera como lo desee"
+ "A medida que aprenda a controlar la mente eligiendo conscientemente
+ sus pensamientos, ira ganandose como aliado ese poder"
+ Y alli tengo dos ejemplos y un contraejemplo
+****** Ejemplo oficina:
+ Estaba tan mal que no queria ir mas a la oficina, me costaba
+ levantarme y enfrentar otro dia de trabajo. Y leyendo un capitulo
+ donde uno hacia un repaso mental de todos los lugares y cosas de la
+ oficina e iba bendiciendolas a todas con el corazon, y cada una de las
+ personas, incluso a la persona que en ese momento mas tenia cruzada
+ que era CL la imaginaba que era eficiente y se comportaba en forma
+ opuesta a lo que me molestaba, y la transformacion fue casi milagrosa
+ y ha funcionado hasta el dia de hoy. Y solo cambio el pensamiento.
+****** Ejemplo ejercicio:
+ Luego de dos meses y medio de no hacer ejercicios, me encare a la idea
+ de hacer las series de ejercicio con mucho esfuerzo pero en el medio
+ de cada serie hacia una serie de afirmaciones en el espejo de "Puedo
+ cambiar" y eso me dio energia suficiente para lograr las tres series
+ completas y empezar los pushup, todo pienso que imposible sin ese
+ aditamento.
+****** Contraejemplo:
+ el dia que fui al mercado norte y se me fueron los pensamientos en un
+ espiral negativo cada vez peor y cuando llegue a casa a los cuarenta
+ minutos tenia una migraña explosiva. Estoy seguro que si hubiera
+ interrumpido el flujo de pensamientos y cambiado no habria pasado
+ nada.
+***** manejo del tiempo en el nuevo esquema horario
+ por el momento tratando de transformar la realidad del dpto, como hice
+ comenzando con la cocina, y pienso seguir con el tema documentos y el
+ resto de las minimalizaciones.
+ creo que mientras limite la duracion de la siesta para no interferir
+ con la noche y solucionemos el problema de hacer con calor a la tarde
+ total despues te das una ducha y listo se puede hacer un sistema de
+ limpieza con poco esfuerzo o bien pasar la masa critica de  esfuerzo o
+ de resultado que haga que luego sea agradable continuar y
+ mantener. Igual con los minimos acomodos que hacen falta a nivel
+ cables. 
+***** entrenamiento mental
+ creo que se puede comenzar un serio entrenamiento mental usando
+ afirmaciones.
+ he comenzado una dificil, muy dificil en mi caso apoyandome en un
+ video y de ahi van surgiendo las trabas, como pq no quiero una
+ relacion estable pq no quiero cosas que me aten o que puedan ponerme
+ en estres, por eso las afirmaciones se van afinando bien precisamente
+ a lo que quiero y son ayudadas con la visualidad.
+ Recordando en tiempo presente, en positivo, con
+ emocion. Reiteradamente. Antes de acostarme y al levantarme. Veremos
+ cuanto tiempo demoramos en hacerlo realidad.
+***** ejercicio con "ayuda mental"
+ creo que lo demostre anteayer y el dolor muscular es prueba de que fue
+ lo suficientemente intenso como para que sirviera. Ahora pienso que
+ debo superar cierta "masa critica" para que empiece a crear musculo,
+ eso va a costar mucho en mi caso. 
+ Hace varios dias me da vuelta en la cabeza la pregunta Cuanto estarias
+ dispuesto a dar para un resultado tan espectacular como ese cambio?,
+ pq hacer un cambio para el cual ya estoy usando camisas mc sin
+ camisetas abajo en solo dos meses solo por dieta, tendria que hacer un
+ sacrificio.
+***** rearmar el tema alimentario
+ idem anterior es el tema dieta, felizmente hasta hoy me he mantenido
+ dentro, salvo breves salidas que no llegan al 10% de lo permitido, con
+ batata.
+ Pero hay que reformar la dieta urgente para dar variedad.
 ** 2018-03 marzo
 *** 2018-03-15 jueves
 **** Louse Hey reflexiones sobre traumas infantiles             :lecturas: 
@@ -565,7 +695,7 @@ guardando y desactivando los org viejos que molestan pero que son
 lindos guardarlos, y ya manejo bien el refile, y los capture template,
 agregue otro template para habit.
 No he avanzado tanto en achurar archivos pero eso es la parte facil.
-**** objetivo de estudio y forma de realizarlo :estudio:orgmode:emacs:
+**** NEXT objetivo de estudio y forma de realizarlo :estudio:orgmode:emacs:OBJ:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 17:38]--[2018-10-14 dom 17:40] =>  0:02
 :END:
@@ -608,3 +738,37 @@ CLOCK: [2018-10-14 dom 22:52]--[2018-10-14 dom 22:53] =>  0:01
  learn con el algorritmo supermario. para ver 
  ambos dan error, no andan. que bronca.
 Lo volvi a probar hoy y tampoco funciono.
+*** 2018-10-15 lunes
+**** formas de tagear en journal :orgmode:
+:LOGBOOK:
+CLOCK: [2018-10-15 lun 17:55]--[2018-10-15 lun 18:02] =>  0:07
+:END:
+***** usar el tag OBJ para objetivos 
+cosa que siempre hacemos o hicimos, y asi podemos identificar un post
+con dicho tag como objetivo, y adosarle otros tags como alimento o
+ejercicio o dpto o estudio etc. para filtrar, y tambien se puede jugar
+luego que uno filtre los OBJ mas recientes o activos, con TODOS> NEXT,
+DESISTIDO, DONE. o sea un search muy interesante podria ser para
+tag/todos OBJ/NEXT lo cual nos daria los objetivos que estariamos
+trabajando y de alli concretar acciones en agenda o reformularle el
+titulo para que sirvan para nextaccions.  Y de paso tendriamos una
+vision a traves del tiempo de todos los objetivos como van o
+permaneciendo los mismos o cambiando a traves del tiempo.
+***** usar el tag RELEER para post destacados 
+cuando releemos p.e. ahora que tengo que hacer refile hay post que
+vale la pena destacar del resto se pueden tagear a posteriori con este
+tag, cosa que no sale en el momento de escribirlo pq no sabiamos que
+era una porcion memorable.
+**** pasar TODOS los escritos a un solo archivo :orgmode:OBJ:matetes:
+:LOGBOOK:
+CLOCK: [2018-10-15 lun 18:38]--[2018-10-15 lun 18:47] =>  0:09
+:END:
+como es tan sencillo mediante el capture y el C-1 C-0 y con el
+movimiento rapido a traves del calendario, hace que podas meter el
+post dentro del arbol del journal original, y de paso tageamos bien. Y
+de paso releemos en el momento, o sea no solo debe ser un trabajo
+rutinario y rapido para luego leer algun dia.
+Creo que la suma de poder tagear profusamente, acomodar en el arbol
+cronologico, y a la vez marcar encryptado lo que sea necesario. Mas la
+posibilidad de ir escribiendo abajo nuevos posts relacionados, incluso
+usar links vale la pena. 
