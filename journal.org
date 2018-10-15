@@ -1,3 +1,14 @@
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2018-10-14 dom 22:59]
+| Headline               | Time   |      |
+|------------------------+--------+------|
+| *Total time*           | *2:23* |      |
+|------------------------+--------+------|
+| 2018                   | 2:23   |      |
+| \_  2018-03 marzo      |        | 0:01 |
+| \_  2018-09 septiembre |        | 0:04 |
+| \_  2018-10 octubre    |        | 2:18 |
+#+END:
 
 * 2016
 ** 2016-10 octubre
@@ -563,3 +574,37 @@ de los conocimientos para llegar al fondo de la cuestion es la
 impresion por capitulos separados como hice con orgmode y su
 correspondiente lectura y asimilacion completa. pq eso luego lleva a
 su aplicacion he incorporacion a la base de datos actual.
+**** sigo con dolor en implante y sangrado encia :implantes:sintomas:
+:LOGBOOK:
+CLOCK: [2018-10-14 dom 22:22]--[2018-10-14 dom 22:23] =>  0:01
+:END:
+sigue el dolor en el mismo nivel, parece encia, y ahora sangra al
+lavar los dientes pero no mucho.
+**** tres SL un domingo!! :findes:ansiedad:
+:LOGBOOK:
+CLOCK: [2018-10-14 dom 22:23]--[2018-10-14 dom 22:29] =>  0:06
+:END:
+desde esta manana que me agarro el ataque de ansiedad cuando ih vino
+del minisol y dijo que si no ibamos a algun lado y de ahi analize todo
+respecto al fin de semana, y estar esperando a Godot, tome el primer
+SL. Luego me pase la siesta super bien, aunque tome medio migral, con
+gran avance que describi en otro post. Luego se levanta ih y cuando le
+cuento todo esto o sea la teoria de que el fin de semana me pone
+ansioso y porque, me pongo ansioso de tal forma que no puedo hablar
+bien, y me tomo un segundo SL, y estoy todo ansioso por dentro, lo
+siento en los brazos en el cuerpo entero. Y nos ponemos a ver un
+capitulo de Ministerio del Tiempo, luego me pongo de nuevo en la
+maquina agotando una carga de notebook pero sin tanto exito en el
+resultado, y la ansiedad ahora se manifiesta con el tic de empujar los
+dientes y me tomo un tercer SL. Y pienso que todo es lo mismo. Al
+final un dia que tendria que ser de relax total termina siendo de
+dopacion total.
+**** learn/anki/drill no funciona :orgmode: 
+:LOGBOOK:
+CLOCK: [2018-10-14 dom 22:52]--[2018-10-14 dom 22:53] =>  0:01
+:END:
+ learn / drill 
+ al M-x customize-variable RET org-modules RET vi que hay un modulo de
+ learn con el algorritmo supermario. para ver 
+ ambos dan error, no andan. que bronca.
+Lo volvi a probar hoy y tampoco funciono.
