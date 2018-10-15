@@ -53,6 +53,12 @@ maquinas y podria abrir y generar los mismos crypts sin problemas y
 aparte la clave que vence en el 2020, la backupeo con git. Y la frase
 esta muy pegada en mi memoria desde hace treinta anios casi.
 
+** reformat un paragrafo que excede los 80 caracteres M-q
+[2018-10-14 dom 20:27]
+
+[[https://superuser.com/questions/401293/in-emacs-how-to-reformat-an-edited-paragraph-so-the-line-breaks-are-properly-re][formatting - In Emacs, how to reformat an edited paragraph so the line
+breaks are properly reinserted? - Super User]] Puede pasar con las
+capturas. M-q fill-paragraph
 * org-mode                                                              :ORG:
 ** Solucion al no funcionamiento de los Capture Template           :Capture:
 [2018-10-09 mar 19:44]
@@ -218,8 +224,8 @@ El problema es que te lo pregunta org mode continuamente y es molesto.
 
 * tablelist
 * sqlite
-* python
-** comandos interesantes pycharm                                    :PYTHON:
+* python                                                             :PYTHON:
+** comandos interesantes pycharm
 [2018-10-10 mié 18:33]
 | S-F6  | refactorizar-rename | rename all ocurrences symbol |
 | C-F12 | buscar symbol       |                              |
@@ -227,6 +233,159 @@ El problema es que te lo pregunta org mode continuamente y es molesto.
 | S-F11 | ir a bookmark       |                              |
 | F11   | toggle bookmark     |                              |
 |       |                     |                              |
+
+** varios de tcl/tablelist/sqlite para python
+[2018-10-14 dom 21:13]
+
+*** class Tbls
+- ponemos la propiedad expandcommand a la funcion que ejecutara el expand
+- el expandcommand tiene como argumentos tbl y row dados por nemethi
+- sacamos facilmente el node con un getcell
+- creamos el select que va a llenar con un placeholder ? donde ira el nodo
+- instanciamos la clase Datos que es un contenedor de datos con
+  metodos adecuados para entre otras cosas llenar un tree. Los
+  argumentos son con/sel/node
+- llamamos el metodo llenatree de la instancia de Datos que toma como
+  argumentos el tbl donde se va a llenar, la fila que llamo, 0 o END,
+  bg,fg del subtree.
+- podemos usar el metodo cntrow de la instancia de Datos para saber si
+  en este caso hubo salida nula y dar un mensaje.
+
+#+BEGIN_SRC python
+def recorridos_exp(tbl,row):
+            node=tblrecorridos.getcell(row,0)
+            sel = "select aux.listado.id,nombre,calle,num,zona from aux.listado,clientes \
+                    where clientes.id=aux.listado.idcliente and idrecorrido=? order by aux.listado.id desc"
+            a=Datos(con,sel,node)
+            a.llenatree(tblrecorridos,row,0,bg='bisque',fg='black')
+            if not a.cntrow:
+                balloon(tblrecorridos,"Esta cuenta no tiene pagos",mode='nobind')
+tblrecorridos = Tbls(subtabrecorridos,con,width=120,height=20)
+tblrecorridos.pack(anchor=W)
+tblrecorridos.llenatree(con,'select * from recorrido order by id desc')
+tblrecorridos['expandcommand']=recorridos_exp
+#+END_SRC
+*** Buscar
+clase que entrega un cuadro de busqueda generalizado y permite
+trabajar rapido con el idcliente.
+**** Instanciado
+buscar = Buscar(frame,con,wtbl=100)
+el wtbl permite regular el ancho del tbls de busqueda
+conviene hacerlo con un frame en el cual pongamos y regulemos el
+packeado de los otros elementos que adosemos, o sea no usar el tab
+entero.
+**** obtener el idcliente
+buscar.get() 
+entrega el idcliente buscado
+**** Movimientos dentro del cuadro de busqueda
+| c           | busca en la casa           |
+| C           | busca en la cuadra         |
+| u           | sube al cuadro de busqueda |
+| enter       | selecciona el cliente      |
+| doble click | idem                       | 
+**** como bindear en particular sobre la seleccion del cliente
+buscar.t.body_bind('<<Enter>>',lambda ev: funcion(),add=1)
+Ojo el add=1 permite sumar este bind al que viene ya empacado y no
+sustituirlo lo que dejaria sin funcionalidad al cuadro.
+**** anexo BuscarConPadron
+| f F   | dni    | busca por dni fem    | pone solo los ceros a la izq |
+| m M   | dni    | busca por dni masc   | --                           |
+| pf pF | nombre | busca por nombre fem | pf'Filippi Pastora'          |
+| pm pM | nombre | busca por nombre mas | pm'Salvay Daniel'            |
+*** editar tbl
+#+BEGIN_EXAMPLE
+ def editarvta(tbl,row,col,text):
+            idvta = self.cuentas.cuentascliente.getcell(row,'id')
+            campo = self.cuentas.cuentascliente.columncget(col,'-name')
+            upd = 'update ventas set {}=? where id=?'.format(campo)
+            con.execute(upd,(text,idvta))
+            con.commit()
+            return text
+#+END_EXAMPLE
+***** referenciar tbl
+no anda
+***** idvta
+obtengo el id con getcell como es habitual, podria hacerlo con row
+active, pero uso el row que me da el proc nemethi, ojo es una variable
+python, poner row, no 'row'
+***** campo
+es lo mas sutil, obtengo el nombre del campo que se esta editando con
+el columncget sobre la propiedad -name usando el col que da nemethi
+***** upd
+ahi armo el upd. pongo el nombre del campo con format de python y los
+valores del campo y el id con parametros de sqlite, asi no tengo que
+lidear con interpretaciones erroneas.
+upd='update ventas set {} = ? where id=?'.format(campo)
+***** execute
+hago el con.execute como es habitual, pasando los parametros como
+cualquier otra execute, y commit.
+***** return text
+para que el tbl muestre el valor editado
+
+
+Una joyita en general pq sirve para editar en cualquier tbl, y
+cualquier campo, el esquema. Se podria generalizar quizas, pero el
+esquema es simple, y asi lo tengo bien diagramado.
+Esto es una botella de informacion para el futuro. Si llego a un nivel
+que olvidando todo lo que hice no entiendo nada, creo que con estas
+explicaciones algo tengo que agarrar.
+
+Falta por ultimo poner como configuracion al tbl, editendcommand el
+proc que va a hacer todo esto que tiene 4 parametros tbl/row/col/text.
+y tmb indicar cuales columnas seran editables, usualmente si son
+muchas las hago con un for, poniendo columnconfigure editable=1
+*** combobox ttk
+#+BEGIN_EXAMPLE
+calles=[x[0] for x in con.execute('select calle from calles order by calle').fetchall() if x[0]]
+calle=ComboBox(self)
+calle.setvalues(calles)
+#+END_EXAMPLE
+**** simplemente llamamos el combobox con la class ComboBox asi sin nada mas.
+**** el setvalues va como metodo no como propiedad!!!
+o sea pongo calle.setvalues(lista) en este caso.
+**** no hace falta poner autocomplete pq todos lo son
+**** son case insensitive en su sorted
+**** notar la forma compacta de hacer la lista
+**** que es ese if x[0]
+en la lista de zonas no se porque me aparecio un valor null o sea None
+y pitio el metodo sortear dentro del combo, como que no admite valores
+nulos para ponerlos a lower (pq sortea a lower), entonces en la lista
+generada le pongo la condicion que el valor listado exista o sea no
+sea nulo o sea if x[0]
+**** ejemplo con seteado extra para recalculo y setvalues directo
+#+BEGIN_EXAMPLE
+barrio=ComboBox(self,width=22)
+barrio.setvalues([x[0] for x in con.execute('select barrio from barrios order by barrio').fetchall() if x[0]])
+barrio.setvaluesrecalc(con,'select barrio from barrios order by barrio')
+#+END_EXAMPLE
+**** los combobox ttk se setean directo no con setvalue como bwidget
+#+BEGIN_EXAMPLE
+zona.set(cliente['zona'])
+barrio.set(cliente['barrio'])
+calle.set(cliente['calle'])
+#+END_EXAMPLE
+*** capturar errores
+#+BEGIN_EXAMPLE
+try:
+   con.execute(delete, (id,))
+   con.commit()
+   tbleditar.recalc()
+except(sqlite3.IntegrityError) as err:
+   balloon(tbleditar,'No se pudo borrar el registro porque no lo permite el sistema {}'.format(err),\
+   bg='lightyellow',fg='black',delay=10000)
+#+END_EXAMPLE
+con el esquema try/except se puede capturar un error y luego trabajar
+con el. 
+como se que el error comun que se puede presentar alli es el que me
+dijo la consola, lo pongo ahi a saber sqlite3.IntegrityError y luego
+uso la salida para emitir el mensaje, como que la salida del except es
+la aclaracion del error que tira la consola.
+Yo ahi hice un balloon pero podria hacerse un cuadro de mensaje
+facilmente.
+*** strftime de sqlite
+ strftime(format, timestring, modifier, modifier, ...) 
+pero %y no existe como format, no es el año en dos digitos, y da error
+o te da None a toda la cadena.
 
 * instalacion ubuntu
 * vim                                                                   :VIM:
@@ -399,7 +558,6 @@ put =strftime('[%F %a]')
    al final tanto lio y se logra con delete y pegado te borra y pega el tree 
    completo mas intuitivo que emacs
 
-
 * linux
 ** crear un usb con una distro con dd                                :LINUX:
 [2018-10-10 mié 21:18]
@@ -502,7 +660,6 @@ con esto migro facilmente los datos
 COPY calles FROM '/home/hero/rx/calles.csv' CSV HEADER;
 y alli copia todo.
 
-
 * Refile
 ** Superbrowser para emacs  :w3m:
 [2018-10-14 dom 15:40]
@@ -519,8 +676,3 @@ bookmark v para ver los bookmark q para salir y asi sucesivamente pero
 tiene tres menu dedicados o sea que tenes para aprenderte los atajos.
 
 [[http://sachachua.com/blog/2008/08/why-browse-the-web-in-emacs/][Why browse the Web in Emacs? –]]
-** reformat un paragrafo que excede los 80 caracteres M-q
-[2018-10-14 dom 20:27]
-
-[[https://superuser.com/questions/401293/in-emacs-how-to-reformat-an-edited-paragraph-so-the-line-breaks-are-properly-re][formatting - In Emacs, how to reformat an edited paragraph so the line breaks are properly reinserted? - Super User]]
-Puede pasar con las capturas. M-q fill-paragraph

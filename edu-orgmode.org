@@ -333,10 +333,40 @@ entre linea y linea. no toda la columna.
    M-left-right mueve columnas
    M-up-down mueve filas
 *** Borrar o agregar filas o columnas
-   M-S-left borra la columna actual
-   M-S-right agrega una columna en la posicion actual
-   M-S-up borra la fila actual
-   M-S-down agrega una fila en la posicion actual 
+:PROPERTIES:
+:DRILL_HEADING: Atajo
+:DRILL_CARD_TYPE:
+:DRILL_INSTRUCTIONS:
+:END:
+| M-S-left  | borra la columna actual                  |
+| M-S-right | agrega una columna en la posicion actual |
+| M-S-up    | borra la fila actual                     |
+| M-S-down  | agrega una fila en la posicion actual    |
+**** Cards                                                      :noexport:
+***** Atajo                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE:
+:END:
+****** M-S-left
+M-S-right
+****** borra la columna actual
+agrega una columna en la posicion actual
+***** Atajo                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE:
+:END:
+****** M-S-left
+M-S-up
+****** borra la columna actual
+borra la fila actual
+***** Atajo                                                       :drill:
+:PROPERTIES:
+:DRILL_CARD_TYPE:
+:END:
+****** M-S-left
+M-S-down
+****** borra la columna actual
+agrega una fila en la posicion actual
 ** TODO Avanzado                                                      :anki:
 SCHEDULED: <2017-02-08 mié +60d>
 - State "DONE"       from "TODO"       [2016-12-16 vie 20:46]
