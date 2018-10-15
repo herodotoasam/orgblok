@@ -15,25 +15,25 @@ ven las diferencias claramente.
 | proximo file   | {  |
 | anterior file  | }   |
 ** crear una key en emacs                                     :ENCRIPTACION:
-[2018-10-14 dom 17:13]
-Creating a key
-To get started you must first generate the key pair with gpg:
-$ gpg --gen-key
-Follow the prompts to generate your key. I highly recommend you pick a pass phrase!
-You can verify it is loaded into your system’s keychain by running:
-M-x epa-list-secret-keys in Emacs;
-or gpg --list-secret-keys on your command line
-[[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources - Mastering Emacs]]
-O sea un paso a paso bastante facil y similar a lo hecho con gitlab
+[2018-10-14 dom 17:13] Creating a key To get started you must first
+generate the key pair with gpg: $ gpg --gen-key Follow the prompts to
+generate your key. I highly recommend you pick a pass phrase!  You can
+verify it is loaded into your system’s keychain by running: M-x
+epa-list-secret-keys in Emacs; or gpg --list-secret-keys on your
+command line [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources -
+Mastering Emacs]] O sea un paso a paso bastante facil y similar a lo
+hecho con gitlab
 ** exportacion e importacion a otras maquinas key emacs       :ENCRIPTACION:
-[2018-10-14 dom 17:16]
-Next, export the secret key to a file mykey.asc to gpg (using the key holder’s name, email or key ID):
+[2018-10-14 dom 17:16] Next, export the secret key to a file mykey.asc
+to gpg (using the key holder’s name, email or key ID):
 
 $ gpg --armor --export-secret-keys herodoto asam > hasamkey.asc
 
-You can now, on a different machine, re-import the key, but you will also have to trust it again. You can pass the full name in quotes or the
-e-mail to gpg and it will pick the right one. Here I edit a key based on the full name of the key holder and GPG is smart enough to figure out
-which one it is:
+You can now, on a different machine, re-import the key, but you will
+also have to trust it again. You can pass the full name in quotes or
+the e-mail to gpg and it will pick the right one. Here I edit a key
+based on the full name of the key holder and GPG is smart enough to
+figure out which one it is:
 
 $ gpg --import mykey.asc
 $ gpg --edit-key "herodoto asam"
@@ -42,9 +42,11 @@ Your decision? 5
 Do you really want to set this key to ultimate trust? (y/N) y
 gpg> quit
 
-At this point you have a key and a way of exporting and re-importing it between computers; useful, if you use more than one, but optional. It goes
-without saying that if you lose your key you lose your encrypted data!
-[[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources - Mastering Emacs]]
+At this point you have a key and a way of exporting and re-importing
+it between computers; useful, if you use more than one, but
+optional. It goes without saying that if you lose your key you lose
+your encrypted data!  [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth
+Sources - Mastering Emacs]]
  
 O sea con este sistema reimportaria las mismas claves a las otras
 maquinas y podria abrir y generar los mismos crypts sin problemas y
@@ -100,12 +102,12 @@ el archivo tiene el mismo nombre con la terminacion _archive
 ej. habitos.org habitos.org_archive
 
 ** tag searching regexp sobre tags                                  :SEARCH:
-[2018-10-14 dom 14:44]
-Instead of a tag, you may also specify a regular expression enclosed in curly braces. For example, ‘work+{^boss.*}’ matches headlines that contain
-the tag ‘:work:’ and any tag starting with ‘boss’
-[[https://orgmode.org/manual/Matching-tags-and-properties.html][The Org Manual: Matching tags and properties]]
-Se puede armar el tag searching con una expresion regular del tag pero
-encerrandolo en llaves.
+[2018-10-14 dom 14:44] Instead of a tag, you may also specify a
+regular expression enclosed in curly braces. For example,
+‘work+{^boss.*}’ matches headlines that contain the tag ‘:work:’ and
+any tag starting with ‘boss’ [[https://orgmode.org/manual/Matching-tags-and-properties.html][The Org Manual: Matching tags and
+properties]] Se puede armar el tag searching con una expresion regular
+del tag pero encerrandolo en llaves.
 ** armado de tag search con los status de TODO                      :SEARCH:
 [2018-10-14 dom 14:47]
 ‘work/WAITING’
@@ -124,22 +126,29 @@ Al mezclar un tag como 'work' en este caso con property como
 TODO="WAITING" se toma un atajo
 ‘work+TODO="WAITING"’ pasa a ser 'work/WAITING' directamente
 ** uso de fechas en tag/property search                             :SEARCH:
-[2018-10-14 dom 14:54]
-If the comparison value is a plain number, a numerical comparison is done, and the allowed operators are ‘<’, ‘=’, ‘>’, ‘<=’, ‘>=’, and ‘<>
-    ’.
-  * - If the comparison value is enclosed in double-quotes, a string comparison is done, and the same operators are allowed.
-  * - If the comparison value is enclosed in double-quotes and angular brackets (like ‘DEADLINE<="<2008-12-24 18:30>"’), both values are assumed
-    to be date/time specifications in the standard Org way, and the comparison will be done accordingly. Special values that will be recognized
-    are "<now>" for now (including time), and "<today>", and "<tomorrow>" for these days at 00:00 hours, i.e., without a time specification. Also
-    strings like "<+5d>" or "<-2m>" with units d, w, m, and y for day, week, month, and year, respectively, can be used.
-  * - If the comparison value is enclosed in curly braces, a regexp match is performed, with ‘=’ meaning that the regexp matches the property
-    value, and ‘<>’ meaning that it does not match.
-[[https://orgmode.org/manual/Matching-tags-and-properties.html][The Org Manual: Matching tags and properties]]
-Recordar que las propiedades pueden ser tambien las SPECIAL PROPERTIES
-DEADLINE PRIORITY SCHEDULED TAGS TODO TIMESTAMP TIMESTAMP_IA entre otras que funcionan como
-las propiedades que definimos nosotros y aca tenemos una busqueda
-mixta entre propiedades y tags. Entonces aca aplica hacer busquedas
-con las propiedades que tienen fecha. 
+[2018-10-14 dom 14:54] If the comparison value is a plain number, a
+numerical comparison is done, and the allowed operators are ‘<’, ‘=’,
+‘>’, ‘<=’, ‘>=’, and ‘<> ’.
+  * - If the comparison value is enclosed in double-quotes, a string
+    comparison is done, and the same operators are allowed.
+  * - If the comparison value is enclosed in double-quotes and angular
+    brackets (like ‘DEADLINE<="<2008-12-24 18:30>"’), both values are
+    assumed to be date/time specifications in the standard Org way,
+    and the comparison will be done accordingly. Special values that
+    will be recognized are "<now>" for now (including time), and
+    "<today>", and "<tomorrow>" for these days at 00:00 hours, i.e.,
+    without a time specification. Also strings like "<+5d>" or "<-2m>"
+    with units d, w, m, and y for day, week, month, and year,
+    respectively, can be used.
+  * - If the comparison value is enclosed in curly braces, a regexp
+    match is performed, with ‘=’ meaning that the regexp matches the
+    property value, and ‘<>’ meaning that it does not match.
+[[https://orgmode.org/manual/Matching-tags-and-properties.html][The Org Manual: Matching tags and properties]] Recordar que las
+propiedades pueden ser tambien las SPECIAL PROPERTIES DEADLINE
+PRIORITY SCHEDULED TAGS TODO TIMESTAMP TIMESTAMP_IA entre otras que
+funcionan como las propiedades que definimos nosotros y aca tenemos
+una busqueda mixta entre propiedades y tags. Entonces aca aplica hacer
+busquedas con las propiedades que tienen fecha.
  
 ** seteado inicial                                            :ENCRIPTACION:
 [2018-10-14 dom 17:03]
@@ -165,13 +174,20 @@ es tedioso meter la orden.
 [2018-10-14 dom 17:09]
 Auto Save Files
 
-Emacs temporarily saves your buffer in an autosave file while you are editing your org buffer and a sufficient number of changes have accumulated.
-If you have decrypted subtrees in your buffer these will be written to disk in plain text which possibly leaks sensitive information. To combat
-this org-mode now asks if you want to disable the autosave functionality in this buffer.
+Emacs temporarily saves your buffer in an autosave file while you are
+editing your org buffer and a sufficient number of changes have
+accumulated.  If you have decrypted subtrees in your buffer these will
+be written to disk in plain text which possibly leaks sensitive
+information. To combat this org-mode now asks if you want to disable
+the autosave functionality in this buffer.
 
-Personally I really like the autosave feature. 99% of the time my encrypted entries are perfectly safe to write to the autosave file since they
-are still encrypted. I tend to decrypt an entry, read the details for what I need to look up and then immediately save the file again with C-x C-s
-which re-encrypts the entry immediately. This pretty much guarantees that my autosave files never have decrypted data stored in them.
+Personally I really like the autosave feature. 99% of the time my
+encrypted entries are perfectly safe to write to the autosave file
+since they are still encrypted. I tend to decrypt an entry, read the
+details for what I need to look up and then immediately save the file
+again with C-x C-s which re-encrypts the entry immediately. This
+pretty much guarantees that my autosave files never have decrypted
+data stored in them.
 
 I disable the default org crypt auto-save setting as follows:
 
@@ -503,3 +519,8 @@ bookmark v para ver los bookmark q para salir y asi sucesivamente pero
 tiene tres menu dedicados o sea que tenes para aprenderte los atajos.
 
 [[http://sachachua.com/blog/2008/08/why-browse-the-web-in-emacs/][Why browse the Web in Emacs? –]]
+** reformat un paragrafo que excede los 80 caracteres M-q
+[2018-10-14 dom 20:27]
+
+[[https://superuser.com/questions/401293/in-emacs-how-to-reformat-an-edited-paragraph-so-the-line-breaks-are-properly-re][formatting - In Emacs, how to reformat an edited paragraph so the line breaks are properly reinserted? - Super User]]
+Puede pasar con las capturas. M-q fill-paragraph

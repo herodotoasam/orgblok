@@ -1,4 +1,4 @@
-Este es igual al dia1 pero un poco mas privado o de la casa
+
 * [2018-01-10 mié]
 ** el problema del tiempo libre
 el problema de haber cambiado el horario es que no puedo pasarme el
@@ -501,7 +501,6 @@ perder la organizacion de las notas que tengo aca, a pesar de que mas
 alla de escribir con outline y usar un poco de fechas no hago mas
 nada, pq ni busco ni hago agenda. y lo que se pierde es el feedback
 mientras se va programando.
-
 * [2018-03-04 Sun]  
 Este fue un finde que parece largo pq vine el viernes al mediodia.
 La semana pasada fue fructifera pq saque lo de la escritura viniendo a mitad 
@@ -582,10 +581,30 @@ bien.
 Y con respecto al Fede tambien. No me voy a enganchar en esta volteada de 
 que me critiquen. Yo se que lo que hice es genial y que mi trabajo vale. Y 
 los resultados ya se veran.
+* [2018-03-07 mie]                                                    :crypt:
+-----BEGIN PGP MESSAGE-----
 
-
+hQEMAzw2XLrRDtSdAQgAtOJHDOo3dasCYi4eJrtdbEZmRPUfNUnjd3ohmd2lsSGd
+n4JFkqAKcO6xkIgU0Hv/OXLfUgree1+WTKvyIlyJLK2/WZq55ts3izq7+ORPpcLn
+84sMb40UdXnVxHs9oN3h1rNEfpXS+WujEpandquQhpG+n3kfnqHXaia6+W4hyiGe
+hgUVu8dQV/7CY+jSTW9bo+as8s6N77Pf7P4O6ZtJKvIbAIC+mlH7J0/235VZh8Jw
+tTQWwHwvFssjMyeIuWFXGzaH1glNO76WHCg4fdiVXUZyYMqSa4J8HQ5D/aeT+fxS
+hEvzY64a+wsnT4iGsaMfjpWPrU0NYwBlI8G/rcn3StLpAQ7khANfGXRfcripNrNC
+biwqS+iQy1ARjOOM1cTqVd0bgk8PE3+lCCcwSTaPc9SkMu0cJVyKTYYwO52Jy4Il
+qtBqiter6w4OWJmOJ/dh2iAOZpctblEwN05AL22fUFOYIss6SfyAeQFc1A4xaNIu
+gA4LH03kEolDk7CHW2mmrwePvbh3htf1PDlxqFih0JDf9Yb7/3XYYAvkFpQ8F7yi
+2TqKhuTKGD9tt7+bPKxZHekJI7LwxDPMqtXhzyMv1EvA2QrxizTeJn4nRPgZCNlF
+CMPdSw6AGjoxngy3wgHkhfOkNp0MvBJgRJOzlxA1d4HsRsq562/JhnwLXlr0uw2z
+HCZggDNBkBM/oYW6lImqWRPwfP6/qKn7Nbz+ucA1T0bbovBxlxdsGdWfiQqGnTTC
+9EPoyJV+2eRNOD0iZ5sPJ25ytFtTgVB7odvqxBN0B/EU6cz5gIAbn2+odMRMfRwb
+vda61nmRId7HegA/U2GPoclxLgtPqbqRLBBdZ9HQrZw832z0Ed7amRsSGABvok6V
+ethhlk0tLzUh4P/CKdGkF+souS8dh/KXtRGZ8mSKQ3gQgV2caDjAq4jcGCwFsyrI
+G+iDBYOduaOOasLptkBnNNUgAZY94F8H65YygzSITMpiyOUUEXovEhN9P4GJFS/A
+RYniGBUh+SpcMxysjlUeZ9BH0BekorsAKHc4iLCDGzX6DUM8YrhF81cBZ1s0Tg6n
+3EsvFeBoiGHjI4YyzgzLfljOvL4mChawPFSHHvf+1UXQJ3mWGGlNiNo=
+=PtI6
+-----END PGP MESSAGE-----
 * [2018-03-08 jue]
-
 ** chorro de baba en el peluquero
 nuevamente siento en la peluqueria que no soy bienvenido, y que no tiene 
 ganas de hablar, por eso pienso que debo cortar por lo sano y cambiar de 
@@ -593,7 +612,6 @@ peluqueria pq de todos modos no es un muy buen lugar. Vaya y pase fuera la
 de barrio patricios. Desde otro angulo el chorro de baba mio explayandome 
 sobre un tema no solicitado dando opiniones panfletarias no creo que 
 sirvan.
-
 ** refuerzo de que no merezco nada bueno para mi
 ayer me entusiasme con la idea de comprarme una tablet de 10 pulgadas para 
 consumir multimedia (ver netflix y peliculas bajadas, youtube, spotify, 
@@ -636,7 +654,38 @@ sobre el nazismo y sobre la programacion en TCL, y me parecia muy freaky,
 pero halle una repuesta inmediata, y es mantenerme motivado, o sea mientras 
 uno se mantenga motivado y este entretenido entonces no hay problema. El 
 medio no importa.
+* [2018-03-08 jue]                                                    :crypt:
+-----BEGIN PGP MESSAGE-----
 
+hQEMAzw2XLrRDtSdAQf+JU0S3E53HcSuUgUmD5Cv8tY6QoPJpKL2S8hi1t2idSO8
+pIIIih+vYsq9rHn90EJAvxxn3ISAJcVu6ZmO8Fm9nxZ9bns+Bm1kBcf0XBVgbQ0b
+Ju2pZCkHxbFzSniVkSLjfv2R0LC4IQ+PujIAIzb0yttDelFCFm567V1ZPjAJyWmG
+A8qMMJryGcyAsqTAEZY/4u2tBX1lZbJMkPUBERkxt/dgX5P5btU4MUbD7RrLZkkZ
+/qyhs1QMv93JahqYcWylCZJLIDYvR3eISl5JJ/KEeFF4Hoa4ZPUfmRjUAdSqQqWD
+w5cYqih+UoomyyYOhrJqQikV7r9XexP+Uuh7EekMNtLpATV5SA+fEC56yL34CeSN
+5iKxcFtMgW+PZKHaPi//ODOTY8pAKRNWIxnRzpXsniVB6dlb+7GtYpZZpUiuHenP
+dGgEAUZo4gimmWneOoKpf35/nwI2o3x8EG+/l0VM7lK8Qf/PQZv/Q01DDwcdyDxN
+zmKab69S7MwpXKtlSQAS0CkRj3ZKveuGjSkvYyDtIEhbLpjK/ELS9mXd5Dr9M+Mr
+QV1ZKLA5BEqCIE9P3LEb09sUhhPIHJpy6yjlk17QkY/KSkBDPfO7IbXvY9UjOec8
+aTdIZqI/6K76cU0jtgmxrO8tsN7aulNxgwCP8phryp6P+E0UunXA8xUZUESzr6Ks
+ph9dQWoQ9o9fVbDlblI5O+Z8n6cn9AlLwH2TM1O6VUTcbVFNKKl/4zL/uhEHxK1P
+xwTu9cOSYgvR12UMQikn2k54QZjXTVB8W0Hw9ms2toYb+WKIWUeVbK/G9wH+sX/v
+lzodcW9XAoprbWcwvLSB2QJEKkVD+NHnzZRjHd54w+1c4sNGDalNaojpQ88WTu6F
+2u+6PbIXzWW7BhLLbBvfH7Cew0pzMgnrM9D97sHGJzKHTEHXq5RbXgr+GDG7HE+J
+/CWzoZnsg2nvnhmAmLA16Yc5rjAyxMZXrbwz1SPUWMlu/MG3kuNxMEV6Jzdf1DwA
+f/hbBuK5iVZkTfJ6jNi/gMfBOn3wBexktJ1UhqaNhlo5repfvzLWdl48k8e/Obiz
+5E/M31624L85bimUTvEMipE+XZPqLD41rVF2S72fEF1hnCP4CmG0b9r7/6cfAbX2
+pY7OFwaoEkY4Ij03tWryq9NH2NHT9CotLLF07kZW7x7otnbXAb+LQ7l6Rr+ojqnN
+VsHcVUH+X1iVWx18d9T5U/NwUExHIlE1vCEIFhzoOojUrJAjV+z/uy5uG4KPsDPl
+DGXPHXff7COJivNFXHCP/1vXEp3oUlXiGahj6XQIYgOpO4Hp72AUaPUwG6ERpc//
+TgIPqYipuhkApu7Tr3O7gQlog4+N3U6dx/fA1I1T3jKe2U3daopfw0pcp8JpEHOV
+KKbwAlLmvNj0dpxnrK/1FCwK6rJG6zh9P1Nx71pspfB+xoTl2erFQEEcZuwPhGEj
+Rp+YSAm0o0MaA6W3GWCNAcGvqqoc5hdw+oDDK+kjtuQOURaPpV+OSJwbEjBDmG2Z
+rZpripCHs6rTCOPQbEYUvrl6R2k0dFmt0gbm3Kb5RJ3H8yNinHutWJlhi/xUYXQv
+WRGhyuakNW0djUB9n9oq5DJ5lUwROqL0oJNNVGsIFJyJFLeZgLrXgdzJBWtwNmyM
+pAHsEBNM4CRZa1aOYqksiz60GUq4+qf/WPMOVFYQc+9fJIwXgVCq2oX41QIy
+=aY9G
+-----END PGP MESSAGE-----
 * [2018-03-10 Sat]  
 
 ** decision tomada respecto a la tablet
@@ -1393,6 +1442,30 @@ y la falta de ejercicio siga para siempre.
 *** no puede ser que no logre una efectiva cantidad de ejercicio
 o sea que el vacio o el problema en general que tengo que no puedo llenar 
 con nada es el problema de no poder hacer ejercicio.
+* [2018-04-17 mar]                                                    :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQEMAzw2XLrRDtSdAQgAisG1/z1B/q5qAlvNfSvWQ9XuyUczsQ99U2COaV64mz0+
+E+zjhD1bOzVd47g8aOTo1WYqhA1MKTvvK8gsdPBZ/u1bMKj3oCXTyKY3GNUXFA6R
+QwcMKjiYibC/o6Bw4VX2OMWeDnnZrmxdn5mUTL4y1ZAZSo9am68zQswJFjiJIiRn
+7nIuRWq0vb896gYwuc1h9X2lmvrX2XRb1FZ0sXanV1bLu98EOU5UOiv2bfjt1JC+
+RXBEC83ZkhCFbOg/Y+FkuctxUPzhXcpICRqbndpc4tKgC+LyIinpmz9L1KlS7Sn8
+IGds0Yf7XROC+lOJqyuFs+r3/rH3I2Z0t87cKekNU9LpAVJXRK+UDfxwItjqmL8F
+AURFKm/ZZM/IKCRT4C4SUosWXSX91DLFwMIwh0gWEnnmeNebASmh/yWd37J4zeu0
+T7GEdfM0Kj3IjmetyW1DquCZZfkVUYzUNOGpQSAuvwbAcIInu53PMZbj8NdA6wtv
+6SbOf5MqaMhXkUZDcIVia76RkOlJ/krBsS3EP6vVvbqBMHc9fajrhMejDTO2crKe
+WdeeU6F4dDa0KqkKR8QwX4pbjC270HWGdWPXTyxvH/VH72dxCJKQ0E/QR98KYgzc
+XvPXoXyRK0aUSMYkH9h+2huIkrML2lHoL9/eu4D6e6z31HWvhFkNrnLe0nbjICnJ
+FXdx+1rovyrlrOdMAHiBNw6/UJUf4jh7qByLZpdHqtKictd5C9XOOyZFufKQdys6
+kewOoQtRIkDNLt7r2i9Q/r9mYZfXVE8JnIiWat7bDqnU6ocIGLIQIMue/z3E7JkX
+5cqqCgm8l4NLOPgfkGw28jQAyjHvYg3WjxRVaJFMhB3DdbQV9TFVoRELUrtK8+XD
+tPkceL/c1F59SoSzDTRUcu9f9qNph7KKrBKkxwT9axKV0xKkrEockVS2fGG8OiyY
+youRBAcOFb8kJ3LWJMMcjzXIKtdTGAsAYJZ3NhquPc08UW21s5Y3oVQB66tKCmYp
+wF+USIUC36SVI4K09pA2z5dXltJM5+IQt0auMQ09RMSQz989o4XKSsSeg+gA8jOl
+WWzxylG+FlthikoTls+taeh//FvN8T/Rv1j96zHtXS/nfNylzvoOprqnruUS/4uG
+AKvkAAk6j2Iy
+=mYR+
+-----END PGP MESSAGE-----
 * [2018-04-18 mié]
 ** primeros pasos de la inspiracion palmetti
 desde ayer quise hacer dos cosas comprar el recetario y un libro de 
@@ -2365,7 +2438,35 @@ por la inaccion y la negligencia propia.
 ** batalla contra la migrana
 aumento de dosis topiramato
 probar medio migral en especial para aquellos casos de semicefalea
-tratar de volver a la rutina normal, en especial en alimentos y descansos
+tratar de volver a la rutina normal, en especial en alimentos y
+descansos
+* [2018-06-26 mar]                                                    :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQEMAzw2XLrRDtSdAQf/Qte8ZaOUYd+smySuF4oZwIZIDnqRhPbZcStlNE1qMfoU
+NuQ5tYcmM2aBW8NvJVu6Pbdj5m7P5XSMVxYZvB3/Ha0QMEguvbmFmTQs/nyD6GVm
+0Y0x2EUAe2PfsRC+dX3pKmshw1VopU0ZGcOaHjms2BDuVSWa7iTwhd4iDYnGKkNh
+rgK0AJMmjbLWCcfXmGRrLb/ARZthpm0UkC7G/jSW0HEjnvLZ2CSpiDx3JJCWJ4Nj
+IMGDbxESMMDSGIDWHFUAKkMxjVI6R6U4osd1CI3i34K7mi6BSO2+XKO4+sT2BLlp
+K9RdcksPBtkfOQxE+pvBL8W0NDeW7AvQXGlaGGyVMNLpAV26iE1yRHA2RIGUxFKn
+eE0xnGpXzVkjjOYky+pq7FjIn1nhSzA0boZe0IjGkwS1t6dYE1JAgwJ7eEV3TFpi
+c//tCz2nN8smJvepYlN7Zy1Ev4yrDGzgzTBbAA0QGVnHxhKxZWJo9lU5vxSkFqe1
+VVPzq+h7aAKWbIH7LfAHVPlDhSmdC+PTv2ASHkwe0bKHVpU1kwYMCLCfYOnKq9+H
+P6SWb13idwp77KO8IuLfVuaAQkHOo1hPSk/OiJn23nPtqHoWIfl0jf/t6qA8EPXu
+T5e6digdChC5UDA3MKZgJG5M4g3c0MDnwkP7mSWorrq6vso3PDm4SRnnhCkE95nh
+bTsFSPDLbmfxHTL6ne4In4QtHskiE2totMf6TcPy981qeG/TGjFnKHayrpuv3tuI
+L5UkJ/l1DYDVghy0nQo7hVZKs26XzFD1sj7kVsQTKciL8RoTxWdvIB0GbguMOWyD
+QNsxcGiRrPb9rBj4KzKfk1bbTgI401GpfFkx8tLldprYPP4dcLJHtkAY4qblS3SL
+Mw9lNyEHASUMJ0X0xPplWddSKKnxWbvFFCmUoQFz4uQOnGIZbI2lNhEay0B4RC9V
+6/+vGtcMoqeMBO1gL6pmQDHNJk6Q4r7SNhboZz3qBvCYXnhxfDyo7y82ro6aECv8
+Vnt988sTM56cdlEBaz+Sg6XAPVkwttVn3RrfeRQVYNC0EsZVXnjFJaPAfSsy1g2E
+O5dd4Y/+hnTmQjf+wVaXNoWflGID+OOW7SdgwiCsPC45ziFDA0Pq43NvnIpLyvAF
+tT2xDkmP6E8L7NEmTtqYRgJRqhegFCAPNCCHmtsub0Xgo4JKcXxGaR4NIr6LbXu1
+b2ERIMtgRg8tucsKv1/NwrZ4WELKztQCWsPu/jjYTWtzaJEjevLhvgHRstNm5Wzl
+kxIt3sLXKi2U6zRD6IrvuBHCWlvOsM6faLSbJTX2pbesgHUOshkcs7z2ZFM+JPJg
+XJ3L2kwpWnGSayywp39G+qpxQcdrzUWcT8GVORwJuUY=
+=NhHJ
+-----END PGP MESSAGE-----
 * [2018-06-28 jue]
 ** sobre el tema frustrado de vivir juntos con ih
 hoy me dice ih que se esta haciendo a la idea que no vamos a vivir juntos 
