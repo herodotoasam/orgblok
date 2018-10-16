@@ -186,7 +186,7 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 274884 |  300 | [2018-09-28 vie] |
 | 274885 |  700 | [2018-09-27 jue] |
 | 274886 |      |                  |
-| 274887 |      |                  |
+| 274887 |  500 | ?                |
 | 274888 |      |                  |
 | 274889 |      |                  |
 | 274890 |      |                  |
@@ -198,7 +198,7 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273608 |      |                  |
 | 273609 |      |                  |
 | 273610 |      |                  |
-|        | 3585 |                  |
+|        | 4085 |                  |
 #+TBLFM: @>$2=vsum(@3$2..@25$2)
 *** 809 [2018-10-02 mar] 2934
 | 273225 |       |     |
@@ -280,7 +280,7 @@ con monto super alto que cause impacto.
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
 |  69969 | 58334 | 2526 |       |                  |      | No vender mas. Insolvente, irresponsable. Dice que devolvio la cortina a 747. |
 |  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
-|        |       |      |       |                  |      |                                                                               |
+|  69704 | 58239 | 1200 | seven |                  |      | dice que devolvio la cortina a una mujer petiza en un auto                    |
 * llamados pendientes
 ** TODO doc 66052 buscar - wapp 3193143 
 pidio documento y justo no esta. La unica posibilidad es que este
