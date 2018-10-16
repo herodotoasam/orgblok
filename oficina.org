@@ -55,12 +55,22 @@ una cagada la lluvia de casi todo el dia, ya el 800 no vino pq dice
 que llueve mucho en su barrio y solo cobro 1600, el 750 vino y solo
 cobro 2700, se llevo todo para mañana, fabian hizo record y gano 2200,
 y faltan los tres en auto que no vinieron aun. Y el 802 enfermo.
-**** llamado frustrado al 819
+**** llamado frustrado a hosen josed 
 iba a llamar al prospecto, lo agendo en wapp y veo un avatar de rock o
 sea no su cara ni foto familiar, y la leyenda "robo auto" y una mano
 negra haciendo cuernitos. Obviamente que con esa semiotica abandone el
 intento de llamar. Sobre que tensaria la cuerda de las zonas
 metiendolo veo eso.
+[2018-10-16 mar] hoy veo que el tipo fue el 12/10 a la oficina y de
+ahi saco el numero y me wassapeo respetuosamente preguntando si
+todavia habia vacante, y yo le conteste ahi nomas que no pero que
+quedaba a la espera de la primera vacante que hubiera y me contesto
+que gracias. O sea queda la puerta abierta. LUego la Cami me aclara
+que lo de "roboauto es un hashtag de instagram por una cancion de rock
+etc."
+**** [2018-10-16 mar]
+hoy manda audio 802 diciendo que esta recuperando y que el viernes
+busca zona para el finde semana y saldria despacio a recuperar zona.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -227,6 +237,23 @@ que le cobro solo 60 pesos. Si la mina pita que muestre recibo.
 **** TODO Altamirano Sergio                                          :SI3:
 Isabella 2110 caso que la hijita le dijo que habia devuelto pero tenia
 pagadas cuatro cuotas. 
+*** 802                                                               :802:
+**** TODO Reartes Elba Baradero 3221                           :Hernandez:
+supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
+era mas corta que la otra el paño, pero esta colgada!!! y pretendia
+cambio, y no pago, luego 750 cambio de zona
+**** TODO Sa Graciela Pergamino 3688                           :Hernandez:
+sra pago cuota, compro dos cortinas y quiere devolver una,
+supuestamente que no uso por eso pago la mitad de la cuota, pq dice
+que no le sirve.
+** captacion
+registrar todos los avisos que ponga/ textos dias costo etc.
+respuesta. casos contestados / estadisticas 
+registrar todos los casos entrevistados en oficina con todos los datos 
+y obviamente todos los casos fallidos en pocos dias con sus
+respectivas informaciones y explicaciones.
+*** avisos
+**** fecha/cantidades/experiencias/etc.
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]
