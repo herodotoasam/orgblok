@@ -195,7 +195,7 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273226 | 67750 | 200 |
 | 273227 |       |     |
 | 273228 | 67830 | 290 |
-| 273229 |       |     |
+| 273229 | 67555 | 60?  |
 | 273230 |       |     |
 | 273231 |       |     |
 | 273232 |       |     |
@@ -217,6 +217,16 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273248 |       |     |
 | 273249 |       |     |
 ** documentos llevados a calle
+** casos cobradores
+*** 816                                                               :816:
+**** TODO Dorado Mayra cta 67555                                :Congreso:
+SCHEDULED: <2018-11-02 vie>
+tiene un recibo cobrado por 809 [[*809 %5B2018-10-02 mar%5D 2934][809 {2018-10-02 mar} 2934]] 
+que no se vio la fecha pero viendo la trayectoria de cobros yo le pase
+que le cobro solo 60 pesos. Si la mina pita que muestre recibo.
+**** TODO Altamirano Sergio                                          :SI3:
+Isabella 2110 caso que la hijita le dijo que habia devuelto pero tenia
+pagadas cuatro cuotas. 
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]

@@ -20,8 +20,9 @@ generate the key pair with gpg: $ gpg --gen-key Follow the prompts to
 generate your key. I highly recommend you pick a pass phrase!  You can
 verify it is loaded into your system’s keychain by running: M-x
 epa-list-secret-keys in Emacs; or gpg --list-secret-keys on your
-command line [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources -
-Mastering Emacs]] O sea un paso a paso bastante facil y similar a lo
+command line [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth Sources
+Mastering Emacs]]
+O sea un paso a paso bastante facil y similar a lo
 hecho con gitlab
 ** exportacion e importacion a otras maquinas key emacs       :ENCRIPTACION:
 [2018-10-14 dom 17:16] Next, export the secret key to a file mykey.asc
@@ -45,8 +46,7 @@ gpg> quit
 At this point you have a key and a way of exporting and re-importing
 it between computers; useful, if you use more than one, but
 optional. It goes without saying that if you lose your key you lose
-your encrypted data!  [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and Auth
-Sources - Mastering Emacs]]
+your encrypted data!  [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-gnupg-auth-sources][Keeping Secrets in Emacs with GnuPG and AuthSources - Mastering Emacs]]
  
 O sea con este sistema reimportaria las mismas claves a las otras
 maquinas y podria abrir y generar los mismos crypts sin problemas y

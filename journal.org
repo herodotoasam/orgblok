@@ -771,4 +771,60 @@ rutinario y rapido para luego leer algun dia.
 Creo que la suma de poder tagear profusamente, acomodar en el arbol
 cronologico, y a la vez marcar encryptado lo que sea necesario. Mas la
 posibilidad de ir escribiendo abajo nuevos posts relacionados, incluso
-usar links vale la pena. 
+usar links vale la pena.
+*** 2018-10-16 martes
+**** terminacion finde superlargo :ansiedad:findes:
+:LOGBOOK:
+CLOCK: [2018-10-16 mar 09:39]--[2018-10-16 mar 09:44] =>  0:05
+:END:
+termino el martes a la mañana un finde que empezo el viernes a la
+tarde.
+y fue signado por el tema de esperar que nos invitaran a comer como
+habian quedado, y aunque el tema fue sacado y aclarado, aunque no
+entendido en su momento causo mucho desasiego en el fin de semana y
+causo mucha ansiedad y varios SL. 
+En general dormi bien, curse con poco migral, y hoy a la mañana un
+poco me puse ansioso por la salida pensando que no iba a conseguir
+taxi pero a pesar del caos vehicular pudimos salir tranquilos.
+**** limpie vestidor y mesas de luz :tareaExtra:
+:LOGBOOK:
+CLOCK: [2018-10-16 mar 13:10]--[2018-10-16 mar 13:16] =>  0:06
+:END:
+pase toda la ropa de invierno a cajas, saque bultos a llevar a
+marques, limpie y acomode en cajas lo que habia en mesas de luz,
+liberando un poco el caos, limpie con blem, cajon y abajo, libere
+mucho espacio en sector de perchas y quedo con las camisas que puedo
+llegar a usar en la temporada. Las cajas mas o menos estan
+clasificadas, por temas y no estan tan colapsadas, o sea que se podria
+considerar terminado el vestidor. faltaria rociarlo con antipolillas
+para eliminar esas maripositas molestas. Esta tarea la hice durante la
+mañana aproximadamente entre las 10.30 y las 12.30, pq no lave platos
+ni tendi cama, pq pense que era mejor hacer una tarea de base y luego
+seguir con lo de arribita y no seguir evadiendo la tarea de base. para
+siempre. 
+**** Este tag es un analisis de la organizacion en org :infoOrg:
+:LOGBOOK:
+CLOCK: [2018-10-16 mar 13:16]--[2018-10-16 mar 13:26] =>  0:10
+:END:
+Como organizar los archivos y como organizar los tags.
+***** Implemente el tag tareaExtra 
+para describir toda aquella tarea que haga en el dia a dia que no sea
+rutinaria ni se haga siempre, siempre en funcion de hacer un sparse
+tree y ver cuales y cuando fueron las tareas extras que hicimos
+***** implementar las recetas como tag no como archivo extra
+para que poner otro archivo, si mejor tener todo en uno y con un tag
+adecuado poner la receta y luego la buscamos facilmente.
+***** implemente una seccion cobradores casos con sus tags
+esa seccion contendra los casos que deben seguirse y agendarse.
+Eso siempre fue un pain con la base de datos y nunca lo logre, y con
+esto es una papa. 
+Tengo suboutines con los numeros de los cobradores con tag a los
+mismos numeros, cosa que todas las tareas lo hereden, luego viene el
+caso, que puede tener un schedule pq tiene que saltar con un suceso
+futuro ya sea cuando vaya a cobrar o algo asi. (ahi venia el pain de
+la base de datos), y abro el todo. y describo el problema.
+y tageo de nuevo a la zona. Luego viene el tema o bien agenda view,
+que luego podre tener programadas vistas ad-hoc para filtrar y ver o
+bien las filtro a mano segun cuantas vayan siendo. Pero lo libre es
+poder poner todo tipo de casos, para que quede registrado
+todo. Incluso los reclamos, pendientes, etc.
