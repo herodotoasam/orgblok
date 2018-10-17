@@ -828,3 +828,13 @@ que luego podre tener programadas vistas ad-hoc para filtrar y ver o
 bien las filtro a mano segun cuantas vayan siendo. Pero lo libre es
 poder poner todo tipo de casos, para que quede registrado
 todo. Incluso los reclamos, pendientes, etc.
+**** me inocule de common lisp :freakismo:
+:LOGBOOK:
+CLOCK: [2018-10-16 mar 22:00]--[2018-10-16 mar 22:02] =>  0:02
+:END:
+y estoy distrayendome de esto hasta el punto de alejarme de lo
+principal que seria terminar de organizarme en orgmode y en en el
+trabajo. P.e. estoy teniendo problemas con la agenda view por cobrador
+para recordar asuntos pendientes en el momento en oficina, y en crear
+trabajo que valga la pena en los pocos momentos de maquina efectivo
+que tengo como para tener que lidear con otra cosa nueva.

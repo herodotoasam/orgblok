@@ -282,10 +282,12 @@ con monto super alto que cause impacto.
 |  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
 |  69704 | 58239 | 1200 | seven |                  |      | dice que devolvio la cortina a una mujer petiza en un auto                    |
 * llamados pendientes
-** TODO doc 66052 buscar - wapp 3193143 
+** TODO doc 66052 buscar - wapp 3193143                                :817:
+SCHEDULED: <2018-10-17 mié>
 pidio documento y justo no esta. La unica posibilidad es que este
 desacomodado en el toco que tengo en el cajon.
-** TODO llamar a gladys romero
+** TODO llamar a gladys romero                                         :800:
+SCHEDULED: <2018-10-17 mié>
 ver el numero en wapp de la romi
 * Romitex Fichas
 ** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
