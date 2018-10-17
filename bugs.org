@@ -123,3 +123,9 @@ En realidad no era un problema ni del metodo ni de la instalacion sino
 que eran habitos discontinuados hace mucho, con instalaciones
 anteriores donde algo se debe haber desencuadrado y entonces termine
 por mandar todo a archivo y empezamos fresco de nuevo.
+* TODO registrar cambio direccion desde fechar :fichas:
+[2018-10-17 mié 11:31]
+Cuando cambias el telefono desde fechar no queda registrado en la
+tabla de cambios de direcciones, y se pierden los datos en los
+sucesivos cambios.
+

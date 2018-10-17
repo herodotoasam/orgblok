@@ -838,3 +838,36 @@ trabajo. P.e. estoy teniendo problemas con la agenda view por cobrador
 para recordar asuntos pendientes en el momento en oficina, y en crear
 trabajo que valga la pena en los pocos momentos de maquina efectivo
 que tengo como para tener que lidear con otra cosa nueva.
+*** 2018-10-17 miércoles
+**** dispositivo a toda maquina :insomnio:
+:LOGBOOK:
+CLOCK: [2018-10-17 mié 08:37]--[2018-10-17 mié 08:40] =>  0:03
+:END:
+anoche dormi muy bien a pesar de haberme despertado a cierta hora y
+pensar que era hora de despertarme, y eran las 6 y pico y me volvi a
+dormir. A pesar del ruido, creo que las dos verdes por ahora superan
+el ruido y te permiten dormir muy bien. En especial si no has cenado
+nada. 
+**** un dia como cualquiera :estadoAnimico:hijas:orgmode:
+:LOGBOOK:
+CLOCK: [2018-10-17 mié 15:37]--[2018-10-17 mié 15:43] =>  0:06
+:END:
+Hoy parece que no hice mucho, pero tenia mi plancito hecho desde ayer
+en mi lista (tiene que ser en smart no puede ser en emacs todavia pq
+no hay integracion y no hay maquina disponible pq deje la notebook
+alla). Me hice licuado, y conte y deposite, que era lo planeado y
+compre migral, quedo pendiente comprar beroca por el precio. 
+Luego me puse bermudas para hacer mas soportable aca dentro el trabajo
+y me puse a pasar listados para ayudar a la Cami , es que el finde
+largo fue fenomenal, 82k de cobranza y 200 paginas de listado a pasar
+al menos, ella me compro las cosas y luego se fue. 
+Lo bueno es que la relacion con ambas hijas mejoro un poco o bastante,
+la comunicacion es mas fluida incluso tenemos un canal propio mas
+directo. Y me hice la primera comida en serio, comi un bife con
+cebolla y pure hecho en pocos minutos. 
+Lo poco que lei en el banco pq fue rapido es que hay mucho para
+aprender y organizarse en orgmode todavia para que podamos estar
+medianamente organizados en un matete tan grande como el que
+tenemos. Pq estamos queriendo facturar una pasta y estamos sin gente y
+asi no se puede. Pq no hay tiempo. Pq yo trabajo todo el dia y no
+tengo tiempo para nada. Pq te lleva tiempo hacer las cosas. 

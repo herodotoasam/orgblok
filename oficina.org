@@ -237,6 +237,8 @@ que le cobro solo 60 pesos. Si la mina pita que muestre recibo.
 **** TODO Altamirano Sergio                                          :SI3:
 Isabella 2110 caso que la hijita le dijo que habia devuelto pero tenia
 pagadas cuatro cuotas. 
+**** Flores Luciano Helguera 5629                                 :Olmedo:
+quiere cambiar los articulos por otros pq la mujer lo reto. 
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
@@ -246,6 +248,24 @@ cambio, y no pago, luego 750 cambio de zona
 sra pago cuota, compro dos cortinas y quiere devolver una,
 supuestamente que no uso por eso pago la mitad de la cuota, pq dice
 que no le sirve.
+*** 817                                                               :817:
+**** Contreras Silvina Nadal 1716                               :YofreSur:
+este es un caso que se mudo de ahi pero dejo una empleada en la
+verduleria, parece como que es dueña de esa casa, o sea es al reves de
+todos los casos que tenemos, que la empleada se va. 
+**** Rodriguez Lorena Vacaro 1433                               :YofreSur:
+dice que los manteles los devolvio. averiguar a quien, que constancia
+tiene. Creo que muestra el papel blanco que dice ahi mismo devuelto,
+pero eso no tiene ningun valor pq puede haberlo escrito ella misma.
+**** Pereyra Lidia Gable 3710                                   :YofreSur:
+reclama cortinas, pero cuando las vio si bien es cierto que estan
+chingueadas estaban manchadas, y la mujer no supo explicarse.
+**** Rigoni Giuliano Gomez Pereyra 3083                         :Sargento:
+quiere cambiar un mantel (compro dos y va bien en los pagos)
+*** 815                                                               :815:
+**** TODO traer mercaderia devolucion cta 69960
+SCHEDULED: <2018-10-17 mié>
+y preguntar causa
 ** captacion
 registrar todos los avisos que ponga/ textos dias costo etc.
 respuesta. casos contestados / estadisticas 
@@ -265,6 +285,9 @@ y encarpetarlos en un nepako y tenerlos en dpto
  llevar al dpto.
 ** TODO hacer carta fuerte para subidos al seven 
 con monto super alto que cause impacto. 
+** TODO revisar listados seven subidos dni erroneos
+DEADLINE: <2018-10-24 mié>
+y corregir la base de datos, sino cuando demos las bajas no las toman
 * ventas
 ** devoluciones
 | fecha            | prom | zona     |      DNI | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                      |
@@ -274,7 +297,7 @@ con monto super alto que cause impacto.
 | [2018-10-05 vie] |  811 | Flores   | 22772903 | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   | incobrabilidad                              |
 | [2018-10-09 mar] |  796 | Olmedo   |  6257697 | Bogado 5770      | toallon      |           |  816 | no    | p   | no puede pagar/queja sobre el otro articulo |
 | [2018-10-11 jue] |  796 | Ferreyra | 12483041 | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   | saco bajo amenaza de no pagar y demas       |
-|                  |      |          |          |                  |              |           |      |       |     |                                             |
+| [2018-10-16 mar] |  792 | Liceo    | 25427192 | Rodo 4558        | cort/toallon |           |  815 | no    | t   |                                             |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
