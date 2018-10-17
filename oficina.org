@@ -161,6 +161,16 @@ cobra por dia irlos preparandolos en el sentido que hay para cobrar
 una suma que va a entrar si o si todo el mes, y una cantidad de venta
 que pueden hacer y eso lo van a cobrar por mes, para que no tengan
 bajon animico alguno. Y sepan que todo es parte de una estrategia.
+*** [2018-10-17 mié]
+no quiero apresurarme en los juicios estrategicos, lo que pienso que
+si la venta le sigue bien al Fede no es que haga falta la venta sino
+que hace falta cobranza esa es la prioridad y espero que no se
+arruinen cobradores con la venta, sino que preservemos cobradores.
+La gran pregunta es si no tendria que estar captando a alguien
+mas. Ese es el gran tema. Pero justo tengo que 802 que es un buen pibe
+y necesita trabajar no esta viniendo. Y el abarcaria varios barrios
+que ahora no se estan haciendo. 
+**** TODO probar poner el aviso por email en alamaula
 
 ** recibos faltantes
 | fecha            |    rbo | cobr |
@@ -201,31 +211,31 @@ se indica el dia de procesamiento en el pasado de Recibos
 |        | 4085 |                  |
 #+TBLFM: @>$2=vsum(@3$2..@25$2)
 *** 809 [2018-10-02 mar] 2934
-| 273225 |       |     |
-| 273226 | 67750 | 200 |
-| 273227 |       |     |
-| 273228 | 67830 | 290 |
-| 273229 | 67555 | 60?  |
-| 273230 |       |     |
-| 273231 |       |     |
-| 273232 |       |     |
-| 273233 |       |     |
-| 273234 |       |     |
-| 273235 |       |     |
-| 273236 |       |     |
-| 273237 |       |     |
-| 273238 |       |     |
-| 273239 |       |     |
-| 273240 |       |     |
-| 273241 |       |     |
-| 273242 |       |     |
-| 273243 |       |     |
-| 273244 |       |     |
-| 273245 |       |     |
-| 273246 |       |     |
-| 273247 |       |     |
-| 273248 |       |     |
-| 273249 |       |     |
+| 273225 |       |                  |     |
+| 273226 | 67750 |                  | 200 |
+| 273227 |       |                  |     |
+| 273228 | 67830 |                  | 290 |
+| 273229 | 67555 |                  | 60? |
+| 273230 |       |                  |     |
+| 273231 |       |                  |     |
+| 273232 |       |                  |     |
+| 273233 | 67698 | [2018-10-05 vie] | 480 |
+| 273234 |       |                  |     |
+| 273235 |       |                  |     |
+| 273236 |       |                  |     |
+| 273237 |       |                  |     |
+| 273238 |       |                  |     |
+| 273239 |       |                  |     |
+| 273240 |       |                  |     |
+| 273241 |       |                  |     |
+| 273242 |       |                  |     |
+| 273243 |       |                  |     |
+| 273244 |       |                  |     |
+| 273245 |       |                  |     |
+| 273246 |       |                  |     |
+| 273247 |       |                  |     |
+| 273248 |       |                  |     |
+| 273249 |       |                  |     |
 ** documentos llevados a calle
 ** casos cobradores
 *** 816                                                               :816:
@@ -237,8 +247,11 @@ que le cobro solo 60 pesos. Si la mina pita que muestre recibo.
 **** TODO Altamirano Sergio                                          :SI3:
 Isabella 2110 caso que la hijita le dijo que habia devuelto pero tenia
 pagadas cuatro cuotas. 
-**** Flores Luciano Helguera 5629                                 :Olmedo:
+**** TODO Flores Luciano Helguera 5629                            :Olmedo:
 quiere cambiar los articulos por otros pq la mujer lo reto. 
+lleva doc para traerse las cosas
+**** TODO Torres Laura Tte la Corte 4937                        :Ferreyra:
+devolucion tumultuosa lleva doc
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
@@ -249,18 +262,22 @@ sra pago cuota, compro dos cortinas y quiere devolver una,
 supuestamente que no uso por eso pago la mitad de la cuota, pq dice
 que no le sirve.
 *** 817                                                               :817:
-**** Contreras Silvina Nadal 1716                               :YofreSur:
+**** TODO Contreras Silvina Nadal 1716                          :YofreSur:
 este es un caso que se mudo de ahi pero dejo una empleada en la
 verduleria, parece como que es dueña de esa casa, o sea es al reves de
 todos los casos que tenemos, que la empleada se va. 
-**** Rodriguez Lorena Vacaro 1433                               :YofreSur:
+**** DONE Rodriguez Lorena Vacaro 1433                          :YofreSur:
+- State "DONE"       from "TODO"       [2018-10-17 mié 20:28]
 dice que los manteles los devolvio. averiguar a quien, que constancia
 tiene. Creo que muestra el papel blanco que dice ahi mismo devuelto,
 pero eso no tiene ningun valor pq puede haberlo escrito ella misma.
-**** Pereyra Lidia Gable 3710                                   :YofreSur:
+Fue un error nuestro pq la devolucion la hizo el Fede mismo y me la
+aviso por un mensaje de audio y yo no lo procese en el momento. Recien
+cuando me describe bien el caso el cobrador ato cabos y lo soluciono.
+**** TODO Pereyra Lidia Gable 3710                              :YofreSur:
 reclama cortinas, pero cuando las vio si bien es cierto que estan
 chingueadas estaban manchadas, y la mujer no supo explicarse.
-**** Rigoni Giuliano Gomez Pereyra 3083                         :Sargento:
+**** TODO Rigoni Giuliano Gomez Pereyra 3083                    :Sargento:
 quiere cambiar un mantel (compro dos y va bien en los pagos)
 *** 815                                                               :815:
 **** TODO traer mercaderia devolucion cta 69960
@@ -309,9 +326,13 @@ y corregir la base de datos, sino cuando demos las bajas no las toman
 SCHEDULED: <2018-10-17 mié>
 pidio documento y justo no esta. La unica posibilidad es que este
 desacomodado en el toco que tengo en el cajon.
-** TODO llamar a gladys romero                                         :800:
+** DONE llamar a gladys romero                                         :800:
 SCHEDULED: <2018-10-17 mié>
-ver el numero en wapp de la romi
+- State "DONE"       from "TODO"       [2018-10-17 mié 18:08]
+ver el numero en wapp de la romi 155443738/152898651
+Se llamo atendio el hombre que venia a pagar y quedo en venir el lunes
+proximo.
+
 * Romitex Fichas
 ** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
 ** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
