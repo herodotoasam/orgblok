@@ -1,0 +1,44 @@
+* nuevo F13 brainstorming
+** tab que se abren a discrecion o sea multitab
+pero solo para el F13, no para todo el sistema
+** tab para el historial de busquedas con fecha
+infinito para atras de todas las busquedas
+** tab buscador por calle/cuadra
+la limitacion a veces de un f13 es que el area destinada a buscar
+tiene que ser chica lo cual a veces esta bien para ciertos propositos
+pero cuando uno quiere buscar en detalle fino no tiene espacio y no
+sirve, ejemplo buscar la cuadra, si quiero examinar la cuadra buscando
+morosos para aprobar quiero buscarla bien, y tener tags cruzados, 
+** meter planos dentros de un tag
+para buscar rapido una esquina o una altura, o mejor un link a google
+maps o bien lo que sea
+** el buscador de cuadras o cualquier otro que sea repetible
+o sea si uno busca una cuadra y abre otra busqueda que deje esa y abra
+otro tab
+** que cualquier buscador sea tagueable
+o sea que tenga botones arriba para ver/ocultar los diferentes tipos
+de cuentas cosa que sea mas facil la lectura
+** ver si puedo incorporar en el tbls en forma de boton o etiqueta los tags
+como seven/sube los distintos tags
+seria bueno ver un 
+Dominica|1960|Mudado|Seven|Moroso|NoVenderMas|
+en distintos colores
+** que todos los registros sean linkeables
+a la pantalla principal para ver el cliente
+** facilidad para ejecutar las acciones comunes al cliente
+*** condonar cuentas
+*** cambiar o modificar cuentas
+*** devoluciones
+*** flag no vender mas
+*** flag subir/bajar al seven
+*** intimar
+*** escribir comentario
+*** cambiar datos del cliente
+*** pedir documento 
+*** pedir venta
+*** imprimir ficha
+*** imprimir resumen de cuenta de cuentas ya canceladas
+** ver datos internos del cliente
+*** lista de cambios de domicilio
+*** lista de intimaciones
+*** comentarios

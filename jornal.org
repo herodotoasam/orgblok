@@ -989,3 +989,25 @@ sigamos explorando, lo bueno es que no se pierde nada.
 Y no es freakismo algo que a mi me gusta.
 
  
+**** avance gigante el volver a filtrar por mobile :bitacoraOficina:
+:LOGBOOK:
+CLOCK: [2018-10-18 jue 19:37]--[2018-10-18 jue 19:41] =>  0:04
+:END:
+Creo que fue un avance gigante volver a filtrar por nuestra base de
+datos y con la mejora que le hice de que se vean en forma clara.
+Creo que fueron muchisimos los mocos de venta que se cometieron en la
+ultima pasada y todo por causa de no tener el cuidado minimo de
+protegerse de la cuestion calle. Por eso pienso que la informacion es
+de vital importancia pq cada frase cuenta en el momento de tomar la
+decision.
+**** necesidad de un F13 moderno en TCL :programacion:
+:LOGBOOK:
+CLOCK: [2018-10-18 jue 19:42]--[2018-10-18 jue 19:47] =>  0:05
+:END:
+en especial para aprobacion de creditos, con visualizacion de los
+"tags" y las supraentidades o sea las casas o clanes. 
+Estaria bueno un sistema de buffers tipo emacs por medio de tabs
+quizas p.e. donde la info se expandiera y saliera en otro tab y se
+fueran agregando los tabs, los cuales luego se podrian cerrar a
+discreción con doble click. P.e. una busqueda o un detalle ampliado de
+un cliente, eso limpiaria la pantalla principal.
