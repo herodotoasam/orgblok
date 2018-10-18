@@ -871,3 +871,37 @@ medianamente organizados en un matete tan grande como el que
 tenemos. Pq estamos queriendo facturar una pasta y estamos sin gente y
 asi no se puede. Pq no hay tiempo. Pq yo trabajo todo el dia y no
 tengo tiempo para nada. Pq te lleva tiempo hacer las cosas. 
+**** limites entre oficina.org y programar en tcl :orgmode:programacion:
+:LOGBOOK:
+CLOCK: [2018-10-17 mié 22:16]--[2018-10-17 mié 22:22] =>  0:06
+:END:
+creo que se empieza en orgmode por la rapidez, luego se ve si la
+funcion lo amerita y uno ve que hay voluntad de recopilacion de
+informacion durante un tiempo razonable se programa algo en la base de
+datos en forma definitiva. 
+Obvio que seria bueno un CMR todo interrelacionado con todas las
+funciones pero no lo tenemos y tengo esto ahora, que aunque tampoco lo
+se manejar estoy mas cerca, y luego vere como puedo ir
+mejorandolo. Pero por ahora recopilo informacion que sea relevante y
+que se pueda recopilar no cualquier informacion porque ese es el
+problema.
+A veces no anotamos cosas importantisimas que van pasando o que nos
+van diciendo los cobradores para hacer seguimiento, para lo cual
+orgmode se presta un monton, como se presta para las anotaciones de
+bitacora y estrategia en un solo archivo. Y otros registros como
+cambios, y devoluciones, que antes no registrabamos. O tampoco los
+documentos llevados por los cobradores, o cosas asi. Ahora todo lo
+relevante esta en un solo archivo que esta abierto toda la sesion de
+atencion de cobradores de dos horas.
+Como estaba abierto el log de programacion durante la programacion y
+alli quedo plasmada toda la historia de la programacion que hice.
+Y este jornal un poco anota todo lo que hago.
+**** dieta carne :alimentacion:
+:LOGBOOK:
+CLOCK: [2018-10-17 mié 22:22]--[2018-10-17 mié 22:25] =>  0:03
+:END:
+hoy comi carne mediodia y noche. No digo que voy a hacerlo todos los
+dias, pero aproveche el bife fresco pq freeze la mitad nomas. Cocinar
+no me supuso mucho tiempo. Las compras las hizo la Cami. 
+Mañana compro de nuevo para licuado y creo que eso va a levantar mas
+rapido que un frasco de beroca.

@@ -162,16 +162,13 @@ una suma que va a entrar si o si todo el mes, y una cantidad de venta
 que pueden hacer y eso lo van a cobrar por mes, para que no tengan
 bajon animico alguno. Y sepan que todo es parte de una estrategia.
 *** [2018-10-17 mié]
-no quiero apresurarme en los juicios estrategicos, lo que pienso que
-si la venta le sigue bien al Fede no es que haga falta la venta sino
-que hace falta cobranza esa es la prioridad y espero que no se
-arruinen cobradores con la venta, sino que preservemos cobradores.
-La gran pregunta es si no tendria que estar captando a alguien
-mas. Ese es el gran tema. Pero justo tengo que 802 que es un buen pibe
-y necesita trabajar no esta viniendo. Y el abarcaria varios barrios
-que ahora no se estan haciendo. 
-**** TODO probar poner el aviso por email en alamaula
-
+Luego de ver el resultado de hoy de 817 y los resultados de 815, llego
+a la conclusion que necesito urgente captar por wapp como antes un par
+de cobradores con moto con experiencia y arriesgarse a un par
+nuevos. Hay que reducir zonas urgente. Nadie tiene que tener una zona
+asignada mayor a 150k, y algunos menos (p.e. 800/802). Eso me da lugar
+a uno o dos mas. No es que sea malo el 817 es que le estamos asignando
+demasiada zona. Y quedan zonas sin cubrir. 
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -262,6 +259,10 @@ sra pago cuota, compro dos cortinas y quiere devolver una,
 supuestamente que no uso por eso pago la mitad de la cuota, pq dice
 que no le sirve.
 *** 817                                                               :817:
+**** TODO doc 66052 llevar - wapp 3193143                       :YofreSur:
+SCHEDULED: <2018-10-19 vie>
+pidio documento y justo no esta. La unica posibilidad es que este
+desacomodado en el toco que tengo en el cajon.
 **** TODO Contreras Silvina Nadal 1716                          :YofreSur:
 este es un caso que se mudo de ahi pero dejo una empleada en la
 verduleria, parece como que es dueña de esa casa, o sea es al reves de
@@ -322,10 +323,6 @@ y corregir la base de datos, sino cuando demos las bajas no las toman
 |  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
 |  69704 | 58239 | 1200 | seven |                  |      | dice que devolvio la cortina a una mujer petiza en un auto                    |
 * llamados pendientes
-** TODO doc 66052 buscar - wapp 3193143                                :817:
-SCHEDULED: <2018-10-17 mié>
-pidio documento y justo no esta. La unica posibilidad es que este
-desacomodado en el toco que tengo en el cajon.
 ** DONE llamar a gladys romero                                         :800:
 SCHEDULED: <2018-10-17 mié>
 - State "DONE"       from "TODO"       [2018-10-17 mié 18:08]
