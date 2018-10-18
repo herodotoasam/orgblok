@@ -63,7 +63,9 @@
  '(nrepl-message-colors
    (quote
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
- '(org-agenda-files (quote ("~/orgblok/")))
+ '(org-agenda-files
+   (quote
+    ("~/orgblok/jornal.org" "~/orgblok/tareas.org" "~/orgblok/oficina.org")))
  '(org-agenda-span (quote day))
  '(org-blank-before-new-entry nil)
  '(org-deadline-warning-days 0)
@@ -79,7 +81,7 @@
  '(org-startup-indented t)
  '(package-selected-packages
    (quote
-    (w3m nimbus-theme monokai-alt-theme zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens leuven-theme ## rings icicles minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
+    (slime w3m nimbus-theme monokai-alt-theme zerodark-theme popup-kill-ring atom-one-dark-theme pomidor org-journal projectile molokai-theme solarized-theme smartparens leuven-theme ## rings icicles minimap org-pdfview org-bullets org-beautify-theme color-theme auto-complete ag)))
  '(pos-tip-background-color "#eee8d5")
  '(pos-tip-foreground-color "#586e75")
  '(python-shell-completion-native-enable nil)
@@ -327,7 +329,7 @@
 (setq org-capture-templates
  '(("t" "Todo" entry (file "~/orgblok/tareas.org")
         "* TODO %?%^g\n%U\n%i\n")
-   ("j" "Journal" entry (file+olp+datetree "~/orgblok/journal.org")
+   ("j" "Journal" entry (file+olp+datetree "~/orgblok/jornal.org")
     "* %?%^g \n %i \n" :clock-in t :clock-resume t)
    ("b" "Bugs" entry (file "~/orgblok/bugs.org")
     "* TODO %?%^g\n%U\n%i\n%a\n ")
@@ -356,3 +358,6 @@
 (global-set-key (kbd "C-8") 'org-decrypt-entries)
 (setq org-crypt-disable-auto-save nil)
 
+(setq inferior-lisp-program "/usr/bin/sbcl")
+;; Also setup the slime-fancy contrib
+(add-to-list 'slime-contribs 'slime-fancy)
