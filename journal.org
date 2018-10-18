@@ -1,14 +1,15 @@
 #+TODO: TODO(t) NEXT | DONE(d!) DESISTIDO
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2018-10-14 dom 22:59]
+#+CAPTION: Clock summary at [2018-10-18 jue 13:44]
 | Headline               | Time   |      |
 |------------------------+--------+------|
-| *Total time*           | *2:23* |      |
+| *Total time*           | *3:35* |      |
 |------------------------+--------+------|
-| 2018                   | 2:23   |      |
+| 2018                   | 3:35   |      |
+| \_  2018-01 enero      |        | 0:03 |
 | \_  2018-03 marzo      |        | 0:01 |
 | \_  2018-09 septiembre |        | 0:04 |
-| \_  2018-10 octubre    |        | 2:18 |
+| \_  2018-10 octubre    |        | 3:27 |
 #+END:
 
 * 2016
@@ -905,3 +906,86 @@ dias, pero aproveche el bife fresco pq freeze la mitad nomas. Cocinar
 no me supuso mucho tiempo. Las compras las hizo la Cami. 
 Mañana compro de nuevo para licuado y creo que eso va a levantar mas
 rapido que un frasco de beroca.
+*** 2018-10-18 jueves
+**** tags para clientes :idea:
+:LOGBOOK:
+CLOCK: [2018-10-18 jue 13:26]--[2018-10-18 jue 13:38] =>  0:12
+:END:
+pensar las ideas de orgmode y tratar de traducirlas para la base de
+datos. 
+Pensar la idea de tags. Y como un tag se puede pegar a un cliente. y
+luego permitir la busqueda de ese cliente. Supongamos que un cliente
+vive en Dominica 1960 entonces el tag Dominica1960 se le adosa de por
+vida, eso no cambia, por mas que cambie de direccion o nada. 
+Los tags se podrian representar por buttons y al presionarlos se
+podria obtener un tablelist con todos los registros que comparten ese
+tag y los otros tags e ir filtrando. 
+Tambien se podria manejar por tag la situacion de moroso, incobrable,
+o mudado, o devolvio. 
+y eso permitiria analizar mejor las situaciones.
+Incluso luego con los parentezcos que habria que pensar como
+incluirlos como tags. 
+**** reflexiones :freakismo:
+:LOGBOOK:
+CLOCK: [2018-10-18 jue 14:41]--[2018-10-18 jue 14:54] =>  0:13
+:END:
+anteayer pensaba sobre el freakismo pq me sentia atraido en la lectura
+de lisp en forma pura y pensaba que esto me estaba apartando de
+orgmode basico. Y luego que en el banco ayer vi como en la agenda
+ponian linkeos a calendario me puse a husmear sobre holidays y me meti
+a mayores vericuetos como pasa en esos casos para pasar el tiempo, pq
+pasa asi, uno no lee organicamente, por eso yo propuse el otro dia,
+imprimir capitulos completos para "trabajarlos de una cierta forma" y
+tenerlos fisicamente a mano para poder volver a ellos y al menos
+distinguir lo que seria teoria de base del boludeo de buscar la quinta
+pata al gato y en este sentido fue que encontre una repuesta en
+reddit:
+
+Um, I don't really do all that. Guess I just keep track of relevant
+dates in my head -- not that hard to do, and it's good exercise for
+your brain. I mean, you would think that I would use some tool for
+organizing time considering that I am working full-time while
+constantly traveling around the world -- and yet I've yet to yet miss
+a plane or a deadline at work. I don't know, my dude -- when I start a
+Masters one day I will probably begin using some kind of time-tracking
+system, though it will likely be paper-based. I find paper-based
+systems much more useful and convenient than electronic ones -- I
+don't need to constantly carry around some electronic with me (and I
+don't have to bother with unlocking the device, opening the app,
+forgetting to synchronize, etc. -- I just check my notepad and/or
+write down my next appointment). As for note-taking, I would also
+carry around a notepad and take it out when I need to, but I'd then
+copy everything over into org-mode. I already am a big user of
+org-mode since organizing notes and searching through them is much
+easier than with a 100% paper-based solution. I guess some people want
+such advantages for time-tracking too, but for me it's too much effort
+and not enough reward. Okay, I guess the whole clocking your tasks in
+org-mode is a nice feature -- but do you really need this? And
+personally, my tasks are complex enough and intertwined enough that I
+cannot really clock them in an independent way and if I were to try to
+do so, the data would be mostly meaningless. But hey, everyone's
+different -- and my hyper-optimized, surprisingly paper-biased
+workflows may only work well for me. There's just not enough data here
+to be able to give general advice and be confident that "hey, I'm
+certain this applies to you!" -- no. This isn't so much advice as it
+is food for thought, though it could also be advice if you think this
+would be helpful to you -- in which case, please write back and let me
+know if my advice was useful!
+
+En otras palabras creo que lo que pude entender es que para que
+preocuparse por lo que yo llamo la quinta pata del gato, o sea
+distraerse o preocuparse por funciones que no usamos o cubrimos mejor
+de otra forma si tenemos una enorme funcionalidad, gigante
+funcionalidad a nuestra disposicion para hacer andar.
+
+Por otro lado pienso que todo lo que aprendemos y leemos tiene
+continua implicancia en el trabajo, pq nos van ocurriendo ideas que
+pueden provenir de otros sistemas y de otras formas de hacer las cosas
+que ahora no tenemos. Como la recientemente esbozada idea de tageado
+de clientes, para rapida busqueda de situaciones y clasificado de
+clientes. Son ideas que deben ser desarrolladas en extenso pero ya
+empezaron a calar y bueno pueden ser buenas a futuro, pero por ahora
+sigamos explorando, lo bueno es que no se pierde nada. 
+Y no es freakismo algo que a mi me gusta.
+
+ 

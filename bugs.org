@@ -129,3 +129,8 @@ Cuando cambias el telefono desde fechar no queda registrado en la
 tabla de cambios de direcciones, y se pierden los datos en los
 sucesivos cambios.
 
+* TODO mejorar log de cambios de domicilio :mejoras:
+[2018-10-18 jue 12:08]
+no solo registrar el cambio desde todos lados sino que tenes que poner
+un informe cuando quepa de donde proviene el cambio quien lo informo
+que veracidad tiene, etc. 

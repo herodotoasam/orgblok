@@ -1,4 +1,5 @@
-* cobradores
+
+* Cobradores
 ** eventos
 | [2018-10-02 mar] | 808 | no cobro nada | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |
 | [2018-10-02 mar] | 809 | falto         |                                                                  |
@@ -110,7 +111,7 @@ clientes unicamente.
 Ya que en realidad la fantasia es que alguien te vaya a decir que lo
 incobrable sea cobrable. 
 Creo que hay que cambiar otras cosas.
-**** [#A] estrategias de cambio mas realistas respecto a la cobranza
+**** [#A] estrategias de cambio mas realistas respecto a la cobranza :IMPORTANTE:
 ***** mejores notificaciones
 tengo una carta light y obsoleta, podria tener otra mas agresiva y/o
 dos o mas cartas.
@@ -127,6 +128,16 @@ estar dispuesto a la perdida y asumirla como parte del negocio
 con el manejo de los cajones de mudados/gestion/incobrables y un mejor
 manejo de cartas y la division de zonas manejar el todo con
 asertividad sin involucramiento.
+***** mayor cuidado en el manejo de la informacion
+amplitud en la recogida de informacion y calidad de informacion ya sea
+en base de datos y por ahora en orgmode. Ejemplos
+****** actualizar verificaciones datos seven
+si buscamos seven por cualquier causa actulicemos el infoseven
+****** recolectar todo tipo de casos en un campo informativo
+ahora hay informacion que se esta perdiendo pq no la queremos anotar
+en comentarios pq no accedemos rapidamente a ella, ni la anotamos en
+ninguna otra parte y se pierde. La consigna es que no se pierda
+ninguna informacion relevante que podamos conseguir.
 ***** manejar la division de zonas
 para no estar preso de la gestion de las individualidades.
 **** Pasos a seguir
@@ -207,32 +218,32 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273610 |      |                  |
 |        | 4085 |                  |
 #+TBLFM: @>$2=vsum(@3$2..@25$2)
-*** 809 [2018-10-02 mar] 2934
-| 273225 |       |                  |     |
-| 273226 | 67750 |                  | 200 |
-| 273227 |       |                  |     |
-| 273228 | 67830 |                  | 290 |
-| 273229 | 67555 |                  | 60? |
-| 273230 |       |                  |     |
-| 273231 |       |                  |     |
-| 273232 |       |                  |     |
-| 273233 | 67698 | [2018-10-05 vie] | 480 |
-| 273234 |       |                  |     |
-| 273235 |       |                  |     |
-| 273236 |       |                  |     |
-| 273237 |       |                  |     |
-| 273238 |       |                  |     |
-| 273239 |       |                  |     |
-| 273240 |       |                  |     |
-| 273241 |       |                  |     |
-| 273242 |       |                  |     |
-| 273243 |       |                  |     |
-| 273244 |       |                  |     |
-| 273245 |       |                  |     |
-| 273246 |       |                  |     |
-| 273247 |       |                  |     |
-| 273248 |       |                  |     |
-| 273249 |       |                  |     |
+*** 809 [2018-10-03 mié] 2934
+| 273225 |       |     |                  |     |
+| 273226 | 67750 | 200 |                  |     |
+| 273227 |       |     |                  |     |
+| 273228 | 67830 | 290 |                  |     |
+| 273229 | 67555 | 60? |                  |     |
+| 273230 |       |     |                  |     |
+| 273231 |       |     |                  |     |
+| 273232 |       |     |                  |     |
+| 273233 | 67698 | 480 | [2018-10-05 vie] | SI2 |
+| 273234 |       |     |                  |     |
+| 273235 |       |     |                  |     |
+| 273236 |       |     |                  |     |
+| 273237 |       |     |                  |     |
+| 273238 |       |     |                  |     |
+| 273239 |       |     |                  |     |
+| 273240 |       |     |                  |     |
+| 273241 |       |     |                  |     |
+| 273242 |       |     |                  |     |
+| 273243 |       |     |                  |     |
+| 273244 |       |     |                  |     |
+| 273245 |       |     |                  |     |
+| 273246 |       |     |                  |     |
+| 273247 |       |     |                  |     |
+| 273248 |       |     |                  |     |
+| 273249 |       |     |                  |     |
 ** documentos llevados a calle
 ** casos cobradores
 *** 816                                                               :816:
@@ -322,6 +333,18 @@ y corregir la base de datos, sino cuando demos las bajas no las toman
 |  69969 | 58334 | 2526 |       |                  |      | No vender mas. Insolvente, irresponsable. Dice que devolvio la cortina a 747. |
 |  69933 | 41164 | 2310 |       |                  |      | ninguno: pero no habia pagado nunca de 13 cuotas pago una.                    |
 |  69704 | 58239 | 1200 | seven |                  |      | dice que devolvio la cortina a una mujer petiza en un auto                    |
+** casos de malas ventas
+*** Dominica 1960
+[2018-05-18 vie] se vende a Muñoz Alfredo 2130 y se revende a Tobares
+Silvana 1560, siendo que esta ultima en ese momento  debia la cuota de
+feb y marzo de 2018 y el ultimo pago que habia hecho era el 4/5/18
+luego de no pagar desde 10/17, y todo sobre una cuota de 145, y que el
+historial del seven decia: sev tatymania / bco columbia 25k sit 1//
+OJO MORA en la casa, pq ademas en la casa hay una vieja que nos habia
+clavado en 2015. Obvio que no se pago un centavo de ninguna cuenta
+desde ese momento en adelante. (en ese caso se repartieron las
+comisiones 787 y 796 siendo que eran la misma casa). Ahora va Fabian y
+le dicen que Muñoz que es un viejo y posible dueño de la casa se mudo!!.
 * llamados pendientes
 ** DONE llamar a gladys romero                                         :800:
 SCHEDULED: <2018-10-17 mié>
@@ -333,5 +356,6 @@ proximo.
 * Romitex Fichas
 ** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
 ** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
+** [2018-10-18 jue] pasado desde el [2018-10-16 mar]--[2018-10-17 mié]
 
 
