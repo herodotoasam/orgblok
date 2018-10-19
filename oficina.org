@@ -246,6 +246,10 @@ se indica el dia de procesamiento en el pasado de Recibos
 | 273248 |       |     |                  |     |
 | 273249 |       |     |                  |     |
 ** documentos llevados a calle
+anotar en base antes de llevar a oficina ante el pedido del cobrador
+| 815 | C | [2018-10-19 vie] | 66976 |
+| 815 | C | [2018-10-19 vie] | 66977 |
+| 750 | C | [2018-10-19 vie] | 61894 |
 ** casos cobradores
 *** 816                                                               :816:
 **** TODO Dorado Mayra cta 67555                                :Congreso:
@@ -265,6 +269,9 @@ devolucion tumultuosa lleva doc
 dicen que tienen 3 toallones fallados. Se indico cambiarlos pero
 primero cobrar las dos cuotas atrasada que a la fecha serian 1600, a
 cara de perro. Jara Wanda es una mala venta (ver mas abajo.)
+**** TODO Arguello Gisela Erika                                   :Olmedo:
+mudo a malvinas 2da tenemos direccion, esta en contacto por wapp con
+fabian veremos que contesta, sino intimaremos por correo.
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
@@ -296,6 +303,9 @@ reclama cortinas, pero cuando las vio si bien es cierto que estan
 chingueadas estaban manchadas, y la mujer no supo explicarse.
 **** TODO Rigoni Giuliano Gomez Pereyra 3083                    :Sargento:
 quiere cambiar un mantel (compro dos y va bien en los pagos)
+**** TODO Aguilo Gladys  Marquina 2374                          :Sargento:
+reclama la mala costura de las cortinas, ya pago una cuota el 10/9 y
+compro el 9/8, pide que vaya el vendedor. 
 *** 815                                                               :815:
 **** TODO traer mercaderia devolucion cta 69960
 SCHEDULED: <2018-10-17 mié>
@@ -307,7 +317,11 @@ registrar todos los casos entrevistados en oficina con todos los datos
 y obviamente todos los casos fallidos en pocos dias con sus
 respectivas informaciones y explicaciones.
 *** avisos
+**** receptoria 25 de Mayo
+telefonos 4233171/4290019 horario corrido hasta las 18hs??
 **** fecha/cantidades/experiencias/etc.
+**** aviso [2018-10-21 dom]-[2018-10-28 dom]
+cobrador c/moto c/exp mandar CV por Wapp 3513882892
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]
@@ -369,7 +383,12 @@ hermano menor) quien pagaria las dos cuentas, y habia tenido un buen
 antecedente de dos compras anteriores buenas. Ahora [2018-10-18 jue]
 luego de dos visitas de Fabian la Wanda Jara que solo compro dos
 toallones dice que tiene fallados para cambiar "3 toallones"!!.
-
+** casos rechazados en Romitex
+*** Renault 2164
+tuvo un credito 6x360 muy bien pagado, pide renovar por 6x670 y
+rechazo pq tiene un seven muy malo: una TN 4k en sit 4 y una TGR 15k
+en sit 4 y dos tatymania 2016. O sea no condice con lo que paga aca, o
+bien nos puede cambiar la conducta en cualquier momento. 
 * llamados pendientes
 ** DONE llamar a gladys romero                                         :800:
 SCHEDULED: <2018-10-17 mié>

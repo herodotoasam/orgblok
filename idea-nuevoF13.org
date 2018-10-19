@@ -42,3 +42,15 @@ a la pantalla principal para ver el cliente
 *** lista de cambios de domicilio
 *** lista de intimaciones
 *** comentarios
+** accesos directos a los campos de busqueda
+Alt-C Alt-R Alt-N etc
+** busqueda especifica o dedicada para todo tipo de campos
+no al buscador generalizado y criptico
+*** numero de cuenta
+*** dni
+*** recibo
+*** cobr > puede ir en tab aparte con otros filtros
+*** fts generalizada con comentarios/msgcobr/horario/aclaraciones/ tags
+los tags seria un campo generado con los tags que te entregan los
+campos logicos como seven/mudado/incobrable/etc. 
+
