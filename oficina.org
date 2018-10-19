@@ -1,13 +1,14 @@
 
 * Cobradores
 ** eventos
-| [2018-10-02 mar] | 808 | no cobro nada | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |
-| [2018-10-02 mar] | 809 | falto         |                                                                  |
-| [2018-10-03 mié] | 809 | falto         |                                                                  |
-| [2018-10-04 jue] | 809 | falto         |                                                                  |
-| [2018-10-10 mié] | 802 | falto         | no llamo ni escribio                                             |
-| [2018-10-11 jue] | 802 | mande wapp    | contesto esta enfermo mando fotos de estudios/posible apendice   |
-| [2018-10-11 jue] | 800 | falta-lluvia  | avisa                                                            |
+| [2018-10-02 mar] | 808 | no cobro nada   | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
+| [2018-10-02 mar] | 809 | falto           |                                                                  |   |   |
+| [2018-10-03 mié] | 809 | falto           |                                                                  |   |   |
+| [2018-10-04 jue] | 809 | falto           |                                                                  |   |   |
+| [2018-10-10 mié] | 802 | falto           | no llamo ni escribio                                             |   |   |
+| [2018-10-11 jue] | 802 | mande wapp      | contesto esta enfermo mando fotos de estudios/posible apendice   |   |   |
+| [2018-10-11 jue] | 800 | falta-lluvia    | avisa                                                            |   |   |
+| [2018-10-18 jue] |     | lluvia dispersa | fuerte por momentos                                              |   |   |
 ** bitacora
 *** [2018-10-03 mié] 
 **** 815/808 cagada a pedo respecto a 808 que anda mal y no se presenta
@@ -260,6 +261,10 @@ quiere cambiar los articulos por otros pq la mujer lo reto.
 lleva doc para traerse las cosas
 **** TODO Torres Laura Tte la Corte 4937                        :Ferreyra:
 devolucion tumultuosa lleva doc
+**** TODO Quiles/Jara Wanda Murgiondo 4557                       :Carcano:
+dicen que tienen 3 toallones fallados. Se indico cambiarlos pero
+primero cobrar las dos cuotas atrasada que a la fecha serian 1600, a
+cara de perro. Jara Wanda es una mala venta (ver mas abajo.)
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
@@ -319,14 +324,18 @@ DEADLINE: <2018-10-24 mié>
 y corregir la base de datos, sino cuando demos las bajas no las toman
 * ventas
 ** devoluciones
-| fecha            | prom | zona     |      DNI | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                      |
-| [2018-10-04 jue] |  792 | YofreSur |  4132831 | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   | viaje pq operaban a alguien                 |
-| [2018-10-05 vie] |  768 | Coops    | 25267386 | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   | no expresa                                  |
-| [2018-10-05 vie] |  796 | Revol    |  4707724 | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   | no expresa                                  |
-| [2018-10-05 vie] |  811 | Flores   | 22772903 | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   | incobrabilidad                              |
-| [2018-10-09 mar] |  796 | Olmedo   |  6257697 | Bogado 5770      | toallon      |           |  816 | no    | p   | no puede pagar/queja sobre el otro articulo |
-| [2018-10-11 jue] |  796 | Ferreyra | 12483041 | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   | saco bajo amenaza de no pagar y demas       |
-| [2018-10-16 mar] |  792 | Liceo    | 25427192 | Rodo 4558        | cort/toallon |           |  815 | no    | t   |                                             |
+| fecha            | prom | zona     |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                       |
+| [2018-10-04 jue] |  792 | YofreSur |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   | viaje pq operaban a alguien                  |
+| [2018-10-05 vie] |  768 | Coops    | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   | no expresa                                   |
+| [2018-10-05 vie] |  796 | Revol    |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   | no expresa                                   |
+| [2018-10-05 vie] |  811 | Flores   | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   | incobrabilidad                               |
+| [2018-10-09 mar] |  796 | Olmedo   |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   | no puede pagar/queja sobre el otro articulo  |
+| [2018-10-11 jue] |  796 | Ferreyra | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   | saco bajo amenaza de no pagar y demas        |
+| [2018-10-16 mar] |  792 | Liceo    | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |                                              |
+| [2018-10-18 jue] |  768 | Olmedo   | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   | la mujer lo reto pq no era eso lo que queria |
+| [2018-10-18 jue] |  792 | Ferreyra | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | zona roja / no puede pagar                   |
+| [2018-10-18 jue] |  792 | Olmedo   | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   | mujer devuelve pq marido la abandono         |
+|                  |      |          |          |   |                  |              |           |      |       |     |                                              |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
@@ -345,6 +354,22 @@ clavado en 2015. Obvio que no se pago un centavo de ninguna cuenta
 desde ese momento en adelante. (en ese caso se repartieron las
 comisiones 787 y 796 siendo que eran la misma casa). Ahora va Fabian y
 le dicen que Muñoz que es un viejo y posible dueño de la casa se mudo!!.
+*** Tierra del Fuego 1280
+[2018-09-17 lun] se vende 1950 cuando tenia un saldo de 1035 atrasado
+con fecha  julio y agosto y el ultimo pago era del 13/8 y venia dando
+pagos irregulares nunca dando la cuota entera desde abril, dio
+200/310/400 cuando la cuota era 445. 
+*** Murgiondo 4557
+[2018-09-11 mar] vdor 792 Wanda Jara.
+se condona una venta del 2014 que no pago nada 52289 una cortina,
+habia un comentario que decia "2016-11-15- caradura, le mande el
+cobrador, quedo en llamar pq dice que segun ella pago".
+El mismo dia se le vende a Quiles Ivan (supuestamente el hijo o
+hermano menor) quien pagaria las dos cuentas, y habia tenido un buen
+antecedente de dos compras anteriores buenas. Ahora [2018-10-18 jue]
+luego de dos visitas de Fabian la Wanda Jara que solo compro dos
+toallones dice que tiene fallados para cambiar "3 toallones"!!.
+
 * llamados pendientes
 ** DONE llamar a gladys romero                                         :800:
 SCHEDULED: <2018-10-17 mié>

@@ -1,0 +1,31 @@
+* descripcion de la idea
+la idea seria tagear los clientes como se hace en orgmode tanto como
+presentacion en un F13 como en el mobile como en un fichas, como para
+filtrar mas adecuadamente
+* preguntas que surgen
+** si no es redundante con campos logicos o campos directamente
+o sea si voy a tagear como moroso, o gestion o mudado o seven etc. No
+existen acaso todos estos campos logicos que pueden servir para hacer
+consultas hiperrapidas?
+** Cual es la diferencia entre un tag y un campo entonces?
+** no hay una confusion entre distintos tipos de tags?
+p.e. entre Dominica1960 como tag filtrable y moroso o seven, hay una
+diferencia pq si filtramos por Dominica1960 tiene sentido, y ahi tiene
+sentido ver si los "pocos" tageados con ese tag tienen algun otro tag
+negativo, pero no puedo filtrar un tag mayoritario y generalista pq no
+tiene sentido, supongamos filtrar morosos o seven. Y ahi cabe que esos
+filtros tan generales y sabidos de antemano son ya programados en la
+base de dato como campos logicos. 
+entonces que otro tag se me ocurre que se puede tener que no entre
+como campo logico como para hacer la estructura de tags. 
+* ideas fuera de la estructura
+** crear supraunidades encima del cliente individual: los clanes
+que seria la misma direccion y/o los parientes. y esta unidad se
+tendria que evaluar toda junta tanto en la gestion de cobranza como
+principalmente en la de venta. Lo unico que tenemos ahora es el
+"evaluar direccion en python" que es muy util. Necesitariamos dos
+cosas:
+*** una forma de unir
+*** una forma de presentar claramente los "tags" 
+que pueden ser en forma de tags o en forma de los campos logicos, o
+sea que se vea claramente lo que cada uno representa. 
