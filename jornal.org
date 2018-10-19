@@ -1055,3 +1055,16 @@ negocio, pq nada de eso era personal, o sea qu een el fondo pienso que
 estoy un poco excedido. Y quizas sea el formato de la jornada. Pero
 tambien los otros formatos me han sido adversos tambien hay que
 recordar. Y releer para verlo.
+**** tag MALVENDIDO para ventas con errores concretos :programacion:idea:
+:LOGBOOK:
+CLOCK: [2018-10-19 vie 18:07]--[2018-10-19 vie 18:11] =>  0:04
+:END:
+se hace un log en comentarios explicando la foto en el momento como
+estoy haciendo en org y se tagea como malvendido (puede ser un campo
+logico ya sea en ventas o clientes ya se vera) la idea es que despues
+podamos comprobar con ese tag cuantos pagaron y cuantos no. Y de paso
+ir uniendo logs y creando una especie de instructivo que nos indique
+cuales son los casos en los que no se debe vender. Pq en la situacion
+actual de la base de dato todo queda en el olvido, se vende mal, se
+borran los rastros (condonamos) no anotamos nada y despues si hay un
+terrible incobrable no lo atribuimos a la mala venta.

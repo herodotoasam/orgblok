@@ -181,6 +181,10 @@ nuevos. Hay que reducir zonas urgente. Nadie tiene que tener una zona
 asignada mayor a 150k, y algunos menos (p.e. 800/802). Eso me da lugar
 a uno o dos mas. No es que sea malo el 817 es que le estamos asignando
 demasiada zona. Y quedan zonas sin cubrir. 
+*** [2018-10-19 vie] 
+considero que el 817 ya fracaso. Esperemos tener exito en la captacion
+de los nuevos con el nuevo aviso. Pq necesitamos urgente unos
+cobradores nuevos.
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -260,10 +264,12 @@ que le cobro solo 60 pesos. Si la mina pita que muestre recibo.
 **** TODO Altamirano Sergio                                          :SI3:
 Isabella 2110 caso que la hijita le dijo que habia devuelto pero tenia
 pagadas cuatro cuotas. 
-**** TODO Flores Luciano Helguera 5629                            :Olmedo:
+**** DONE Flores Luciano Helguera 5629                            :Olmedo:
+- State "DONE"       from "TODO"       [2018-10-19 vie 18:05]
 quiere cambiar los articulos por otros pq la mujer lo reto. 
 lleva doc para traerse las cosas
-**** TODO Torres Laura Tte la Corte 4937                        :Ferreyra:
+**** DONE Torres Laura Tte la Corte 4937                        :Ferreyra:
+- State "DONE"       from "TODO"       [2018-10-19 vie 18:05]
 devolucion tumultuosa lleva doc
 **** TODO Quiles/Jara Wanda Murgiondo 4557                       :Carcano:
 dicen que tienen 3 toallones fallados. Se indico cambiarlos pero
@@ -310,6 +316,9 @@ compro el 9/8, pide que vaya el vendedor.
 **** TODO traer mercaderia devolucion cta 69960
 SCHEDULED: <2018-10-17 mié>
 y preguntar causa
+*** 750                                                               :750:
+**** TODO Berduc 2638 devoluciones pendientes (2)
+**** TODO Escalante 3344
 ** captacion
 registrar todos los avisos que ponga/ textos dias costo etc.
 respuesta. casos contestados / estadisticas 

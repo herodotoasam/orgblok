@@ -53,4 +53,42 @@ no al buscador generalizado y criptico
 *** fts generalizada con comentarios/msgcobr/horario/aclaraciones/ tags
 los tags seria un campo generado con los tags que te entregan los
 campos logicos como seven/mudado/incobrable/etc. 
+Como se puede ver en el F7 la busqueda esta muy sucia, pq al final
+mantenemos un clientes paralelo con fts4 para un sistema de busqueda
+que solo se usa para cambiar el orden de los nombres pero tenes que
+poner las palabras completas sino completarlas con * y no se puede
+filtrar mucho los resultados y la ventana es chica y no permite
+analizar mucho que digamos, no tiene ni un scroll horizontal. Tampoco
+un historial de anteriores busquedas etc. Y todos los campos que
+entran en la busqueda no son usualmente usados. Mayormente uso:
+- apellido y nombre (o nombre y apellido)
+- apellido y calle
+- apellido y barrio o zona
+o sea un mix entre nombre/calle/num/barrio/zona y nada mas, casi nunca
+se busca por campos internos por mas que sea lo que asombre del fts
+como un buscador google en la teoria. 
+Frente a eso tenemos
+- la molestia de poner el prefijo v al numero de cuenta que se usa muy
+  a menudo
+- no se usa nunca la busqueda por recibo
+- y no se usa la busqueda por dni tanto que no se si se puede (en
+  realidad si pq el dni esta dentro del fts)
+- y menos por telefono que es o seria tan util, pq proviene de los
+  llamados.(en realidad si busca pq esta dentro del fts e incluso
+  buscaria telefonos que esten anotados en otros campos, pero siempre
+  que se busque cadena completa o comience con ese numero)
+- ademas debemos decir que el fts busca el campo o sea tel:494*
+  buscaria todos los telefonos que comiencen con 494, pero siempre se
+  puede obviar terminaciones. Y no esta bien documentado los campos
+  que tiene la consulta base. Como para sacarle mas jugo.
+*** querer hacer un buscador para otros motivos que no sea ubicar un cliente
+y en los momentos de busqueda de cliente o sea cuando nos llaman o
+estamos frente a un cobrador buscando un cliente, y alli no buscamos
+por criterios esotericos. El buscador tiene que ser simple. No un
+sistema de estadistica y analisis. Debe haber otros buscadores anexos
+en otros tabs que busquen por criterios mas esotericos como recibos
+cobrados por cobrador por zona, por fechas, etc. o ventas hechas etc.
+
+
+
 
