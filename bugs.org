@@ -134,3 +134,8 @@ sucesivos cambios.
 no solo registrar el cambio desde todos lados sino que tenes que poner
 un informe cuando quepa de donde proviene el cambio quien lo informo
 que veracidad tiene, etc. 
+* TODO [#A] revisar si en mobile toma solo zonas o campos logicos    :fichas:
+[2018-10-19 vie 11:07]
+pq estaria poniendo en incobrable o no vender mas en dos formas, los
+cajones y los cambios de zona.
+
