@@ -65,7 +65,7 @@
     ("#dc322f" "#cb4b16" "#b58900" "#546E00" "#B4C342" "#00629D" "#2aa198" "#d33682" "#6c71c4")))
  '(org-agenda-files
    (quote
-    ("~/orgblok/jornal.org" "~/orgblok/tareas.org" "~/orgblok/oficina.org")))
+    ("/media/veracrypt1/orgblok/oficina.org" "/media/veracrypt1/orgblok/teoria.org" "/media/veracrypt1/orgblok/jornal.org")))
  '(org-agenda-span (quote day))
  '(org-blank-before-new-entry nil)
  '(org-deadline-warning-days 0)
@@ -327,17 +327,17 @@
 
 
 (setq org-capture-templates
- '(("t" "Todo" entry (file "~/orgblok/tareas.org")
+ '(("t" "Todo" entry (file "/media/veracrypt1/orgblok/tareas.org")
         "* TODO %?%^g\n%U\n%i\n")
-   ("j" "Journal" entry (file+olp+datetree "~/orgblok/jornal.org")
+   ("j" "Journal" entry (file+olp+datetree "/media/veracrypt1/orgblok/jornal.org")
     "* %?%^g \n %i \n" :clock-in t :clock-resume t)
-   ("b" "Bugs" entry (file "~/orgblok/bugs.org")
+   ("b" "Bugs" entry (file "/media/veracrypt1/orgblok/bugs.org")
     "* TODO %?%^g\n%U\n%i\n%a\n ")
-   ("m" "Manual" entry (file+headline "~/orgblok/teoria.org" "Refile")
+   ("m" "Manual" entry (file+headline "/media/veracrypt1/orgblok/teoria.org" "Refile")
     "* %?%^g\n%U\n%i\n%a\n ")
-   ("d" "devoluciones" entry (file+headline "~/orgblok/devoluciones.org")
+   ("d" "devoluciones" entry (file+headline "/media/veracrypt1/orgblok/devoluciones.org")
     "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
-   ("h" "Habit" entry (file "~/orgblok/habitos.org")
+   ("h" "Habit" entry (file "/media/veracrypt1/orgblok/habitos.org")
     "* TODO %?\n%U\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:END:\n"))
  )
 

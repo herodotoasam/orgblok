@@ -1068,3 +1068,47 @@ cuales son los casos en los que no se debe vender. Pq en la situacion
 actual de la base de dato todo queda en el olvido, se vende mal, se
 borran los rastros (condonamos) no anotamos nada y despues si hay un
 terrible incobrable no lo atribuimos a la mala venta.
+*** 2018-10-20 sábado
+**** estallido de fin de semana inexplicable contra ih :estadoAnimico:findes:ih:
+:LOGBOOK:
+CLOCK: [2018-10-20 sáb 15:14]--[2018-10-20 sáb 15:25] =>  0:11
+:END:
+Vine mal de la oficina pq  el dia habia terminado sombrio y estaba
+beligerante en especial contra el Fede y ya ih se habia retirado de la
+mesa y yo trataba de hablar con la Cami suavemente tratando de que
+ella pudiera serme mas util, como habia expresado en post anteriores,
+o sea poniendo como ejemplo la compra de nueces de ayer, que no pudo
+hacerla pq no encontraba o no se animaba a encontrar el lugar, y yo en
+un esfuerzo maximo de condescendencia, estaba proclive a llevarla
+conmigo a que viera donde es y como compro para que pudiera ir ella
+otra vez y asi serme mas util, y alli ellas dijeron que eso era asunto
+privado mio que no tenia que ser pagado por el sueldo de romitex, y
+que el Fede en todo caso le pagaba extra a la Cami por traerle cosas
+del centro y entonces se mete la ih, y yo le dije "gorda amorfa" que
+se callara y entonces quedo todo asi en la media ofensa. Y como yo no
+me retracte y segui medio enojado, y hoy me pide que la lleve a alta
+gracia a llevarle las plantas a la madre y a visitarla y yo no la
+lleve entonces me siento mal yo y a la vez me da bronca pq me paso
+toda la semana renegando por el puto negocio de mierda, y las cosas
+que no funcionan y tener que venir el fin de semana un fin de semana
+al menos que la Cami no sale y tener que empezar tan mal, ya cruzado y
+con dos compromisos tan complejos que estan relacionados pero son
+dificiles de sacar.
+
+**** Cambio de sistema operativo :programacion:notebook:
+:LOGBOOK:
+CLOCK: [2018-10-20 sáb 15:28]--[2018-10-20 sáb 15:35] =>  0:07
+:END:
+Cambie dentro de Solus a variante Budgie, que ya la tengo en el
+desktop y ahora la paso aca y me parece que esta muy buena pq no tiene
+ese menu que aparece y desaparece al costado que es desconcertante y a
+la vez es muy solido.
+No hice encriptacion del disco entero pq ahora no estoy usando los
+datos de romitex, salvo para la programacion pq trabajo con un
+pendrive, y el orgblok lo tengo en un volumen encryptado en verycript
+lo cual es mas seguro y a la vez facilita el arranque de la maquina y
+el prestamo de la maquina. 
+Tambien tengo telegram que tiene un pin de cierre en ambas maquinas. O
+sea que mientras no estoy esta cerrada la aplicacion.
+La instalacion fue muy rapida esta vez con las instrucciones que ya
+tenia de la vez pasada.

@@ -742,6 +742,7 @@ que lo instale desde el backup mio
 que baje la ultima version
 *** tcllib1.18
 pq F13.tcl me pedia snit para que funcionara pdf4tcl
+*** tklib...
 *** bwidget
 *** Img
 *** itcl y itk
