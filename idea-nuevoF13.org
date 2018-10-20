@@ -88,7 +88,25 @@ por criterios esotericos. El buscador tiene que ser simple. No un
 sistema de estadistica y analisis. Debe haber otros buscadores anexos
 en otros tabs que busquen por criterios mas esotericos como recibos
 cobrados por cobrador por zona, por fechas, etc. o ventas hechas etc.
-
-
-
+* ejecucion
+** tags
+la idea seria a la izquierda unos iconitos chiquitos de color con a lo
+sumo una letra
+p.e. verde seven, rojo mora, azul cuenta, negro lista negra, negro d
+amarilla devolucion, gris no cliente, etc. verde claro ex seven. 
+habria que pensar si uno solo por cliente o mas de uno o sea si son
+excluyentes las condiciones. mudado no olvideis.
+** ver si esto sale de campos logicos y esos campos los trae el fts5
+para no complicar con otra consulta cargarselos al fts5
+** estaria bueno averiguar el time para que veamos cuanto tiempo demoran las variante
+ahora y lo que le vayamos cargando o en distintas maquinas o en
+pendrive
+** explorar el incluir el idvta dentro del fts como idvta1/2/3 
+no hizo falta pq al hacer el join se incluyeron todos los registros, y
+se hizo la consulta en general, lo unico que hice fue usar el metodo
+antiguo de tabule para fijar las columnas y que no salga en el
+resultado el idvta.  Y solo asi podemos poner select distinct  de
+todos los campos pero no del idvta. O sea tengo busqueda de idvta
+incluida en el fts. Y todo con una recarga de 1 seg. O sea pase de 1
+seg a 2 seg.
 

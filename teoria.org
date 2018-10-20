@@ -385,7 +385,17 @@ Cc-Cc sobre BEGIN recalcula la tabla
   O sea 1ro la regexp a buscar luego el texto, tercero la expr para cambiar y 
   cuarto la variable que contendra el texto cambiado, y regsub responde 1 o 0 
   segun tuvo o no tuvo exito.
-
+** siempre que hay un error no existe la "columna" Amancio 
+o sea no existe la columna con el nombre de un dato, Cabildo, Alvarez,
+Heredie, o el dato que estamos buscando, es porque no lo hemos quotado
+al dato en el where y sqlite lo esta tomando literal y no encuentra en
+la tabla una columna que se llame asi. o sea si le entregamos Amancio
+lo busca como columna y no la encuentra y si le entregamos 'Amancio'
+lo busca como dato, lo que pasa que en una construccion como 
+ "select * from busquedasfts5 where busquedasfts5 match '$buscar'"
+donde el $buscar es el valor entrado uno se olvida de quotar ese valor
+y entra crudo a sqlite, y uno desconfia de tablelist, o del proceso de
+tcl (en este caso el tabule)y era el puto sqlite que estaba negando el resultado.
 * tablelist
 * sqlite
 * python                                                             :PYTHON:
