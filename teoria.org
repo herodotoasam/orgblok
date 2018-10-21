@@ -851,3 +851,8 @@ bookmark v para ver los bookmark q para salir y asi sucesivamente pero
 tiene tres menu dedicados o sea que tenes para aprenderte los atajos.
 
 [[http://sachachua.com/blog/2008/08/why-browse-the-web-in-emacs/][Why browse the Web in Emacs? –]]
+** w3m :emacs:instalacion:
+[2018-10-21 dom 18:55]
+*** instalar w3m en eopkg
+*** instalar w3m en package-install
+

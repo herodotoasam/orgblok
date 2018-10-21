@@ -121,4 +121,23 @@ seg a 2 seg.
 ** resultado
 tenemos un busqueda que crea un fts5 en dos segundos on demand, tiene
 idvta incluido, fts5, y muestra tags de colores. Todo en tcl.
-
+* parte datos
+** estariamos en duda con innovaciones
+*** poner los datos de clientes en labels
+lo cual lo haria mucho mas rapido y mas seguro y podria permitir mas
+lugar para presentar todo tipo de informacion. Y separar la edicion en
+otro tipo de formulario ad hoc, pq siempre se mezcla la edicion con la
+busqueda lo cual es un quilombo.
+los labels podrian permitir jugar mucho mas con la presentacion de la
+informacion en pantalla.
+*** poner el bind  <<TablelistSelect>> que permite ir cambiando rapidamente
+con el solo pasar los resultados del tbls los resultados en forma muy
+rapida
+pero el form no puede estar muy cargado.
+* parte datos de cuotas/recibos 
+tambien pienso innovar y no tener un formulario igual que siempre sino
+algo nuevo. innovador. pensar en algo.
+p.e. izq un tbl con las cuotas todas por orden
+idvta vto nc ic fechapgo atraso pago y coloreada segun el atraso
+pagado pero no hay forma de saber eso por el momento con las
+herramientas actuales. y a la derecha los recibos reales
