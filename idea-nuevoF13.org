@@ -96,8 +96,17 @@ p.e. verde seven, rojo mora, azul cuenta, negro lista negra, negro d
 amarilla devolucion, gris no cliente, etc. verde claro ex seven. 
 habria que pensar si uno solo por cliente o mas de uno o sea si son
 excluyentes las condiciones. mudado no olvideis.
+Lo resolvi con una columna 0 que cambia de color de acuerdo al tag
+entonces hay tag excluyentes, o sea si alguien esta en el seven, no
+importa si esta mudado, obvio que es moroso, obvio que es
+incobrable. Si alguien es incobrable puede que no este en el seven pq
+es muy viejo para subirlo, si alguien es moroso es pq debe hace mucho,
+si alguien debe es pq esta pagando, etc. o sea no vale la pena tener
+mas de un tag. Es un cuadro de busqueda y vista rapida.
 ** ver si esto sale de campos logicos y esos campos los trae el fts5
 para no complicar con otra consulta cargarselos al fts5
+El campo tag sale de un case when en un orden logico y no parece que
+demore el proceso.
 ** estaria bueno averiguar el time para que veamos cuanto tiempo demoran las variante
 ahora y lo que le vayamos cargando o en distintas maquinas o en
 pendrive
@@ -109,4 +118,7 @@ resultado el idvta.  Y solo asi podemos poner select distinct  de
 todos los campos pero no del idvta. O sea tengo busqueda de idvta
 incluida en el fts. Y todo con una recarga de 1 seg. O sea pase de 1
 seg a 2 seg.
+** resultado
+tenemos un busqueda que crea un fts5 en dos segundos on demand, tiene
+idvta incluido, fts5, y muestra tags de colores. Todo en tcl.
 
