@@ -22,7 +22,9 @@ turnos, sintomas, historial etc.
 :SCHEDULED: <2017-09-27 mié>
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
 **  Romero William [2018-01-03 mié] 12.40hs
-
+** 
+** TODO dentista toma de impresion y arreglo inferior
+SCHEDULED: <2018-11-17 sáb> 9hs
 * sintomas
 ** Dolores
 *** Testiculos

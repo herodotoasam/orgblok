@@ -1122,3 +1122,48 @@ problema. Ahora queda armarlo.
 El lugar aca se presta con la nueva disposicion de la cocina al lado
 del tele. mientras ih ve tele yo programo.
 Un F13 nuevo va a resumir el F7 y el F13 viejo en uno nuevo.
+*** 2018-10-21 domingo
+**** consulta dentista :dientes:implantes:
+:LOGBOOK:
+CLOCK: [2018-10-21 dom 12:29]--[2018-10-21 dom 12:36] =>  0:07
+:END:
+ayer hice la consulta general al dentista sobre todos los temas que
+tenia hasta el presente y hago este post para recordar.
+***** amarilleo
+dice que no amarillean facilmente y que pueden volver a lo natural con
+bicarbonato o una pasta especial o una limpieza del odontologo cada
+seis meses
+***** bruxismo
+placa de deporte que se remoja o bien hacer la placa especial cuando
+tenga el turno el sabado 17/11 
+***** pasta dental
+la noc no es mala, pero tengo que comprar pastas que cuiden de la
+encia, todas las que tengan mencion a encias ya sea oral B o sensodyne
+o colgate, pero que tengan eso en la caja
+***** cuidar sintomas
+si entre el diente y en la encia se va formando una bolsita que se va
+inflando se puede ir haciendo una infeccion con el implante
+***** aftas
+las aftas ovaladas se formaron con el cepillado y son mas persistentes
+que las aftas comunes y pueden ser molestos y tambien sangrantes, y
+pueden ser producidos por excesos en el cepillado.
+***** masticacion
+es normal por unos meses el tener miedo a masticar, pero no hay que
+tener miedo y mas que yo tengo los dientes naturales abajo que me
+permiten saber el grado de presion que estoy dando, pq con todo
+implantado no se sabe la presion que se da. 
+***** tic de empujar con la lengua
+dice que no se aflojaran los dientes con eso
+***** premolar mas atras
+que se puede corregir un poco con el implante definitivo pero va a
+haber un defecto pq la conformacion original de la boca era muy
+deficiente en ese sitio.
+**** Aprendizaje de emacslisp :estudio:freakismo:
+:LOGBOOK:
+CLOCK: [2018-10-21 dom 12:37]--[2018-10-21 dom 12:42] =>  0:05
+:END:
+Estoy leyendo el manual de emacs-lisp que aparece con emacs que lo
+tengo en firefox traducido bastante bien. Y aunque no es algo que
+lleve a una via concreta no deja de ser algo que va relajando en las
+lecturas, idem el paso a telegram.
+Tendria que pasar a teoria lo aprendido de ambos temas.
