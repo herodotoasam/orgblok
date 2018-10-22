@@ -1,0 +1,9 @@
+* ventajas
+** escuchar mensajes de voz emitidos antes de enviar
+los mensajes de voz se graban abajo y se pueden escuchar en 2x primero
+y luego o bien se borran o bien se envian.
+** escuchar mensajes de voz a 2X
+** borrar mensajes sin que quede el rastro del otro lado
+** borrar mensajes sin plazo
+** editar mensajes
+** tener hasta tres numeros de telegram en un telefono
