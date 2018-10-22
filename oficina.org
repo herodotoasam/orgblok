@@ -1,14 +1,60 @@
 
 * Cobradores
+** teoria
+*** [#A] estrategias de cambio mas realistas respecto a la cobranza :IMPORTANTE:
+**** mejores notificaciones
+tengo una carta light y obsoleta, podria tener otra mas agresiva y/o
+dos o mas cartas.
+a su vez ir convenciendo a los cobradores que tienen que insistir con
+las notificaciones.
+**** busqueda de abogado para enviar cartas de abogado
+pero que podamos enviarlas nosotros
+**** incorporacion de mas cobradores 
+habilitando entrevistas y cursos a las 16hs/17hs podremos tener mas
+cobradores disponibles.
+**** asertividad en el manejo de cobradores
+estar dispuesto a la perdida y asumirla como parte del negocio
+**** asertividad en el manejo de los incobrables
+con el manejo de los cajones de mudados/gestion/incobrables y un mejor
+manejo de cartas y la division de zonas manejar el todo con
+asertividad sin involucramiento.
+**** mayor cuidado en el manejo de la informacion
+amplitud en la recogida de informacion y calidad de informacion ya sea
+en base de datos y por ahora en orgmode. Ejemplos
+***** actualizar verificaciones datos seven
+si buscamos seven por cualquier causa actulicemos el infoseven
+***** recolectar todo tipo de casos en un campo informativo
+ahora hay informacion que se esta perdiendo pq no la queremos anotar
+en comentarios pq no accedemos rapidamente a ella, ni la anotamos en
+ninguna otra parte y se pierde. La consigna es que no se pierda
+ninguna informacion relevante que podamos conseguir.
+**** manejar la division de zonas
+para no estar preso de la gestion de las individualidades.
+**** capacitar a los cobradores
+***** tema me dijeron que empezaba el mes que viene
+y no piden el papel de la venta
+***** quieren devolver
+y no revisan la mercaderia
+***** dicen que pagaron 
+y no piden que muestren el recibo, o lo muestran y no le sacan foto
+**** achicar zonas
+pq por mas que cobren la estrategia de trabajo no sirve, pe la del 750
+de visitar una vez a todos rutinariamente no sirve ya que deja sin
+encontrar a muchisimos y sin seguimiento, y esos no los encuentra
+mas. una estrategia de segunda visita en el dia que se puede hacer
+solo cuando tenes menos fichas es la unica efectiva para cobrar mas.
+
 ** eventos
-| [2018-10-02 mar] | 808 | no cobro nada   | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
-| [2018-10-02 mar] | 809 | falto           |                                                                  |   |   |
-| [2018-10-03 mié] | 809 | falto           |                                                                  |   |   |
-| [2018-10-04 jue] | 809 | falto           |                                                                  |   |   |
-| [2018-10-10 mié] | 802 | falto           | no llamo ni escribio                                             |   |   |
-| [2018-10-11 jue] | 802 | mande wapp      | contesto esta enfermo mando fotos de estudios/posible apendice   |   |   |
-| [2018-10-11 jue] | 800 | falta-lluvia    | avisa                                                            |   |   |
-| [2018-10-18 jue] |     | lluvia dispersa | fuerte por momentos                                              |   |   |
+| [2018-10-02 mar] | 808 | no cobro nada     | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
+| [2018-10-02 mar] | 809 | falto             |                                                                  |   |   |
+| [2018-10-03 mié] | 809 | falto             |                                                                  |   |   |
+| [2018-10-04 jue] | 809 | falto             |                                                                  |   |   |
+| [2018-10-10 mié] | 802 | falto             | no llamo ni escribio                                             |   |   |
+| [2018-10-11 jue] | 802 | mande wapp        | contesto esta enfermo mando fotos de estudios/posible apendice   |   |   |
+| [2018-10-11 jue] | 800 | falta-lluvia      | avisa                                                            |   |   |
+| [2018-10-18 jue] |     | lluvia dispersa   | fuerte por momentos                                              |   |   |
+| [2018-10-19 vie] |     | llovizna dispersa |                                                                  |   |   |
+| [2018-10-22 lun] |     | llovizna dispersa |                                                                  |   |   |
 ** bitacora
 *** [2018-10-03 mié] 
 **** 815/808 cagada a pedo respecto a 808 que anda mal y no se presenta
@@ -73,6 +119,13 @@ etc."
 **** [2018-10-16 mar]
 hoy manda audio 802 diciendo que esta recuperando y que el viernes
 busca zona para el finde semana y saldria despacio a recuperar zona.
+*** [2018-10-22 lun]
+Obviamente nos esta afectando la lluvia, este seria el tercer dia de
+octubre con fenomeno de lluvia/llovizna, me afecto el tema del 802 que
+recien hoy estaria arrancando, no hubiera sido lo mismo octubre con el
+a full-full. Y me afecto que no me anduvo de acuerdo a las
+expectativas el 817. El aviso Es mas de lo mismo, o sea que veremos
+que hacemos con eso.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -112,35 +165,6 @@ clientes unicamente.
 Ya que en realidad la fantasia es que alguien te vaya a decir que lo
 incobrable sea cobrable. 
 Creo que hay que cambiar otras cosas.
-**** [#A] estrategias de cambio mas realistas respecto a la cobranza :IMPORTANTE:
-***** mejores notificaciones
-tengo una carta light y obsoleta, podria tener otra mas agresiva y/o
-dos o mas cartas.
-a su vez ir convenciendo a los cobradores que tienen que insistir con
-las notificaciones.
-***** busqueda de abogado para enviar cartas de abogado
-pero que podamos enviarlas nosotros
-***** incorporacion de mas cobradores 
-habilitando entrevistas y cursos a las 16hs/17hs podremos tener mas
-cobradores disponibles.
-***** asertividad en el manejo de cobradores
-estar dispuesto a la perdida y asumirla como parte del negocio
-***** asertividad en el manejo de los incobrables
-con el manejo de los cajones de mudados/gestion/incobrables y un mejor
-manejo de cartas y la division de zonas manejar el todo con
-asertividad sin involucramiento.
-***** mayor cuidado en el manejo de la informacion
-amplitud en la recogida de informacion y calidad de informacion ya sea
-en base de datos y por ahora en orgmode. Ejemplos
-****** actualizar verificaciones datos seven
-si buscamos seven por cualquier causa actulicemos el infoseven
-****** recolectar todo tipo de casos en un campo informativo
-ahora hay informacion que se esta perdiendo pq no la queremos anotar
-en comentarios pq no accedemos rapidamente a ella, ni la anotamos en
-ninguna otra parte y se pierde. La consigna es que no se pierda
-ninguna informacion relevante que podamos conseguir.
-***** manejar la division de zonas
-para no estar preso de la gestion de las individualidades.
 **** Pasos a seguir
 esperando los resultados, el proximo es reducirle la zona a 750,
 creando el 819, que podria ser el jaled, o podria ser el padre del
@@ -288,10 +312,15 @@ sra pago cuota, compro dos cortinas y quiere devolver una,
 supuestamente que no uso por eso pago la mitad de la cuota, pq dice
 que no le sirve.
 *** 817                                                               :817:
-**** TODO doc 66052 llevar - wapp 3193143                       :YofreSur:
+**** DONE doc 66052 llevar - wapp 3193143                       :YofreSur:
 SCHEDULED: <2018-10-19 vie>
+- State "DONE"       from "TODO"       [2018-10-22 lun 15:40]
 pidio documento y justo no esta. La unica posibilidad es que este
 desacomodado en el toco que tengo en el cajon.
+La sra mando wapp con la parte de arriba pq se equivoco el cobrador y
+luego le fue a cambiar y me trajo esa parte o sea que obviamente se lo
+devolvio.
+Caso cerrado.
 **** TODO Contreras Silvina Nadal 1716                          :YofreSur:
 este es un caso que se mudo de ahi pero dejo una empleada en la
 verduleria, parece como que es dueña de esa casa, o sea es al reves de
@@ -312,13 +341,24 @@ quiere cambiar un mantel (compro dos y va bien en los pagos)
 **** TODO Aguilo Gladys  Marquina 2374                          :Sargento:
 reclama la mala costura de las cortinas, ya pago una cuota el 10/9 y
 compro el 9/8, pide que vaya el vendedor. 
+**** TODO Suarez Gabriela Martin Allende 1497                   :YofreSur:
+devolucion de colcha- explicar como es una colcha sin uso
+**** TODO Sanchez Estefania Tula Cervin 1268                    :YofreSur:
+traer foto de recibo supuestamente cancelatorio pq la fecha tomada de
+12/9 no coincidiria, pero es posible que haya ahi un recibo trucho
+pero con otra fecha. 
+**** TODO Ferreyra Maria Virgolini 1425                         :YofreSur:
+devolucion por falta de trabajo, reviso y esta intactas las cosas
 *** 815                                                               :815:
 **** TODO traer mercaderia devolucion cta 69960
 SCHEDULED: <2018-10-17 mié>
 y preguntar causa
 *** 750                                                               :750:
-**** TODO Berduc 2638 devoluciones pendientes (2)
-**** TODO Escalante 3344
+**** TODO Berduc 2638 devoluciones pendientes (2)                   :JID1:
+**** TODO Escalante 3344                                            :JID3:
+**** TODO Gimenez Ana de la Maza 3313                               :JID3:
+quiere devolver una cortina, tiene pagado 500 dice que va a ir a la
+oficina eso lo dijo el [2018-10-19 vie]
 ** captacion
 registrar todos los avisos que ponga/ textos dias costo etc.
 respuesta. casos contestados / estadisticas 
