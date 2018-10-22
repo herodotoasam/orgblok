@@ -1186,3 +1186,9 @@ discresion. Y casi no se que hacer con todo ese tiempo, Y el freakismo
 extra por fuera solo se canalizo suavemente solo a un libro  que es la
 introduccion emacs-lisp, y lo de telegram. Que no se si ira a cuajar
 del todo.
+*** 2018-10-22 lunes
+**** instale veracrypt en la compu del dpto :freakismo:findes:
+:LOGBOOK:
+CLOCK: [2018-10-22 lun 12:11]--[2018-10-22 lun 12:11] =>  0:00
+:END:
+ya tengo en la notebook y aca, faltaria en la oficina 
