@@ -43,6 +43,7 @@ de visitar una vez a todos rutinariamente no sirve ya que deja sin
 encontrar a muchisimos y sin seguimiento, y esos no los encuentra
 mas. una estrategia de segunda visita en el dia que se puede hacer
 solo cuando tenes menos fichas es la unica efectiva para cobrar mas.
+*** idea de una oficina de cobradores a pie (analisis de factibilidad)
 
 ** eventos
 | [2018-10-02 mar] | 808 | no cobro nada     | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
@@ -126,6 +127,11 @@ recien hoy estaria arrancando, no hubiera sido lo mismo octubre con el
 a full-full. Y me afecto que no me anduvo de acuerdo a las
 expectativas el 817. El aviso Es mas de lo mismo, o sea que veremos
 que hacemos con eso.
+El evento del dia fue la salida deshonrosa del 817 quien demostro ser
+un energumeno. Salio por la puerta trasera en forma muy alterada
+siendo que podria haber salido como un caballero, se lanzo a una
+discusion y no pudo buscar una salida elegante a una situacion que no
+andaba.
 ** estrategia
 *** [2018-10-03 mié]
 mañana tengo entrevista con el 817 Fernando para la zona Sargento,
@@ -209,6 +215,85 @@ demasiada zona. Y quedan zonas sin cubrir.
 considero que el 817 ya fracaso. Esperemos tener exito en la captacion
 de los nuevos con el nuevo aviso. Pq necesitamos urgente unos
 cobradores nuevos.
+*** [2018-10-23 mar]
+Repartiendo zonas en forma normal sin excederme, o sea 
+
+| 750 | 565 | $174844 |
+| 753 | 220 | $53439  |
+| 800 | 407 | $123158 |
+| 802 | 422 | $134941 |
+| 808 | 675 | $199473 |
+| 815 | 529 | $189222 |
+| 816 | 770 | $221472 |
+
+donde se ve un poquito recargadito a Fabian lo cual no es malo, pq eso
+hace que tenga asegurada cobranza y ganancia base, que es lo que a el
+le conviene, y en realidad lo unico que le he dado extra es Coops
+
+| Congreso | 111 | $29265 |
+| Ferreyra |  30 | $11260 |
+| SI2      | 130 | $34484 |
+| SI3      | 136 | $38869 |
+| Cabildo  |  95 | $20605 |
+| Carcano  |  56 | $18883 |
+| Coops    |  73 | $25036 |
+| Olmedo   | 139 | $43070 |
+
+Luego 815/808 quedaron normalizados con la entrega del perno
+Italia/Talleres/Pueyrredon a 808 lo cual cumplio doble proposito,
+limpiar ese reducto con alguien bueno y aliviar las tensiones de la
+reduccion de zona de ella que sumida en el feudo R20 se iba a venir
+abajo mal, entonces ahora la equilibro.
+
+| Italia         |  52 | $15545 |
+| Pueyrredon     |  42 | $15870 |
+| Talleres       |  87 | $25955 |
+| Adela          | 127 | $36533 |
+| EstacionFlores | 133 | $36766 |
+| Rosedal        | 109 | $33043 |
+| SanRoque       | 125 | $35761 |
+
+Un 802/800 bastante discretos con cantidades mesuradas, y solo le
+agregue una minizonita a 753, que no es nada de nada, pero otro
+barriecito hay que darle. o un par mas.
+Y por ahora 750 sigue igual, ya le sacamos ferreyra y hernandez.
+Y el bajon solo de las zonas hara el resto.
+LO que queda a hoy sin cobrador es poco, no es para desesperar:
+
+| LiceoII      |  42 | $16531 |
+| YofreSur2    | 113 | $51703 |
+| Panamericano |  48 | $15540 |
+| YofreSur     |  69 | $22705 |
+| VillaCorina  |  26 | $5882  |
+
+En total es $112000 o sea no da ni para una moto, con los chicos que
+salen de la promo, p.e. el Dario, el Osver y el Nir, refaltaria zona,
+admitiria que fallutearan todo lo que quisieran e incluso nos
+permitiria que fueramos o bien sacando zonitas de los otros o bien ir
+haciendo zonitas nuevas con las fichas nuevas que vayan haciendose. 
+
+Porque una forma de pasar a un sistema de visita de clientes con
+Marcos SIN perder a los chicos (pq tampoco es facil conseguir
+promotores en el futuro si quisieramos volver a empezar ese tipo de
+promocion) es plantearle un paso a la cobranza, como una especie de
+situacion medio de cambio fin de año o como para dejar descansar la
+zona, o para que cambien un poco ellos etc.
+
+El unico tema es que la oficina abre a las 18hs. Yo maximo podria
+bajarme a abrirla a las 17hs. lo cual no creo que sea problema para
+los horarios que estan manejando ahora. (Salvo para el nabazo del 768
+pero ese es nabo en cualquier sistema) 
+
+El tema ganancia. Para ganar 10K tienen que cobrar unos 3333 por dia
+lo cual no lo veo imposible, al contrario. (De nuevo salvo para el
+nabo de america., pero ese se conforma con ganar 300 mangos por dia.)
+
+Y asi se podria hacer la transicion suavemente y sin complicaciones de
+tener que seguir con una promo paralela, y de paso nos sacamos el
+problema de la cobranza que nos esta haciendo falta, y tiramos hasta
+el año que viene y ahi vemos si alquilamos una oficina y ponemos gente
+a pata, o alguna otra solucion.
+
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -305,7 +390,8 @@ mudo a malvinas 2da tenemos direccion, esta en contacto por wapp con
 fabian veremos que contesta, sino intimaremos por correo.
 mando [2018-10-22 lun] wapp con direccion avisando que pague a la
 oficina.
-
+**** TODO Aguilar Monica Alotolaguirre 5743                       :Olmedo:
+quiere devolver problemas economicos
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
@@ -356,7 +442,10 @@ devolucion por falta de trabajo, reviso y esta intactas las cosas
 *** 815                                                               :815:
 **** TODO traer mercaderia devolucion cta 69960
 SCHEDULED: <2018-10-17 mié>
-y preguntar causa
+y preguntar causa-- ver en oficina si esta merc. y cerrar item.
+**** TODO llevo mantel para cambiar a Zorrilla 1447                :Liceo:
+debe traer un cuadrado y luego hacer el cambio en la ficha 69961
+
 *** 750                                                               :750:
 **** TODO Berduc 2638 devoluciones pendientes (2)                   :JID1:
 **** TODO Escalante 3344                                            :JID3:
@@ -391,18 +480,18 @@ DEADLINE: <2018-10-24 mié>
 y corregir la base de datos, sino cuando demos las bajas no las toman
 * ventas
 ** devoluciones
-| fecha            | prom | zona     |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p | excusa                                       |
-| [2018-10-04 jue] |  792 | YofreSur |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   | viaje pq operaban a alguien                  |
-| [2018-10-05 vie] |  768 | Coops    | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   | no expresa                                   |
-| [2018-10-05 vie] |  796 | Revol    |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   | no expresa                                   |
-| [2018-10-05 vie] |  811 | Flores   | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   | incobrabilidad                               |
-| [2018-10-09 mar] |  796 | Olmedo   |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   | no puede pagar/queja sobre el otro articulo  |
-| [2018-10-11 jue] |  796 | Ferreyra | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   | saco bajo amenaza de no pagar y demas        |
-| [2018-10-16 mar] |  792 | Liceo    | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |                                              |
-| [2018-10-18 jue] |  768 | Olmedo   | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   | la mujer lo reto pq no era eso lo que queria |
-| [2018-10-18 jue] |  792 | Ferreyra | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | zona roja / no puede pagar                   |
-| [2018-10-18 jue] |  792 | Olmedo   | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   | mujer devuelve pq marido la abandono         |
-|                  |      |          |          |   |                  |              |           |      |       |     |                                              |
+| fecha            | prom | zona     |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p |         | excusa                                       |
+| [2018-10-04 jue] |  792 | YofreSur |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   |         | viaje pq operaban a alguien                  |
+| [2018-10-05 vie] |  768 | Coops    | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  796 | Revol    |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  811 | Flores   | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   |         | incobrabilidad                               |
+| [2018-10-09 mar] |  796 | Olmedo   |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   |         | no puede pagar/queja sobre el otro articulo  |
+| [2018-10-11 jue] |  796 | Ferreyra | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   |         | saco bajo amenaza de no pagar y demas        |
+| [2018-10-16 mar] |  792 | Liceo    | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |         |                                              |
+| [2018-10-18 jue] |  768 | Olmedo   | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   |         | la mujer lo reto pq no era eso lo que queria |
+| [2018-10-18 jue] |  792 | Ferreyra | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | doc     | zona roja / no puede pagar                   |
+| [2018-10-18 jue] |  792 | Olmedo   | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   |         | mujer devuelve pq marido la abandono         |
+| [2018-10-22 lun] |  792 | Liceo2   | 17003719 | F | Guiraldes 4873   | coc/man      | 8 puntos  |  800 | no    | t   | r277978 |                                              |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
@@ -457,5 +546,7 @@ proximo.
 ** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
 ** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
 ** [2018-10-18 jue] pasado desde el [2018-10-16 mar]--[2018-10-17 mié]
+** [2018-10-23 mar] pasado el dia hasta 14:23
+
 
 
