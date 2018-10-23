@@ -44,6 +44,40 @@ encontrar a muchisimos y sin seguimiento, y esos no los encuentra
 mas. una estrategia de segunda visita en el dia que se puede hacer
 solo cuando tenes menos fichas es la unica efectiva para cobrar mas.
 *** idea de una oficina de cobradores a pie (analisis de factibilidad)
+[2018-10-23 mar]
+el tema nace pq mas alla de estos 6 cobradores "grandes"
+(750/800/802/808/815/816) que reunen movilidad, y capacidad lo mas
+importante para gestionar un volumen que haga que les convenga la
+cifra que necesitan (o sea cobrarnos unos 150/200k), no nos es facil
+captar uno nuevo, e incluso hemos perdido dos de los considerados
+"buenos" con la salida del 801 y el 809 que supuso una caida
+importante e inesperada del sistema. 
+Ya desde 812, 813,814 hemos tenido problemas para encontrar gente de
+la calidad que substituya a nivel de los anteriores por una sencilla
+razon, no hay zonas suficientes como para jugarnos a ello. Lo hicimos
+con Fabian y el 817 pq eran conocidos, el 817 fallo, y al volver a
+acomodar las zonas (pq 802 estaba vacante) solo quedaron 102k y eso no
+da como dije arriba ni para una moto. 
+Ese es el primer problema.
+El otro es la rentabilidad.
+Preguntas:
+**** ¿Cuanto me puede cobrar un tipo a pata?
+753 en oct2017 cobro 52k contra 117k de 750 o sea el 44%, eso seria
+ahora 64k. (en porcentaje de la cobranza actualizada de 750)
+154 en nov2017 cobro 56k contra 117k de 750 o sea el 47%, eso seria
+ahora 69k. 
+768 en dic2017 38k
+796 en dic2017 48k 
+
+O sea un buen cobrador a valores actuales te tiene que cobrar entre
+60/70k a pata, lo cual no deja de ser algo valioso por las ventajas de
+tener ciertos cobradores de ese estilo (no digo todos asi, pero si algunos)
+
+
+**** ¿Cuanto me puede salir una oficina?
+y recordar que una oficina nos puede corregir un poco el terrible
+desfasaje que tenemos ahora pq es un despelote maximo el que tenemos.
+**** ¿cuanto puede incidir en la ecuacion la ventita de bolsita?
 
 ** eventos
 | [2018-10-02 mar] | 808 | no cobro nada     | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
@@ -423,9 +457,6 @@ pero eso no tiene ningun valor pq puede haberlo escrito ella misma.
 Fue un error nuestro pq la devolucion la hizo el Fede mismo y me la
 aviso por un mensaje de audio y yo no lo procese en el momento. Recien
 cuando me describe bien el caso el cobrador ato cabos y lo soluciono.
-**** TODO Pereyra Lidia Gable 3710                              :YofreSur:
-reclama cortinas, pero cuando las vio si bien es cierto que estan
-chingueadas estaban manchadas, y la mujer no supo explicarse.
 **** TODO Rigoni Giuliano Gomez Pereyra 3083                    :Sargento:
 quiere cambiar un mantel (compro dos y va bien en los pagos)
 **** TODO Aguilo Gladys  Marquina 2374                          :Sargento:
@@ -542,6 +573,14 @@ ver el numero en wapp de la romi 155443738/152898651
 Se llamo atendio el hombre que venia a pagar y quedo en venir el lunes
 proximo.
 
+* problemas
+** TODO Pereyra Lidia Gable 3710                                  :YofreSur:
+[2018-10-23 mar]
+reclama cortinas dice que le salieron malas y exije cambio. Primero
+hizo el reclamo al 817 en un par de oportunidades y ahora al 802 con
+colores concretos de cambio que pretende. Dice que es clienta hace
+tiempo y compara las cortinas anteriores con estas y entonces ve la
+diferencia. 
 * Romitex Fichas
 ** [2018-10-02 mar] pasado desde el [2018-09-20 jue]--[2018-10-02 mar]
 ** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
