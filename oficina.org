@@ -327,7 +327,19 @@ tener que seguir con una promo paralela, y de paso nos sacamos el
 problema de la cobranza que nos esta haciendo falta, y tiramos hasta
 el año que viene y ahi vemos si alquilamos una oficina y ponemos gente
 a pata, o alguna otra solucion.
-
+*** [2018-10-24 mié]
+hoy fede me manifiesta que no esta disconforme con el grupo (ver
+audios de telegram) y que me quiere endosar a Nir. Yo contesto con
+audio largo que no es solucion para mi Nir solo pq es falluto, al
+menos los tres juntos pueden ser, pero no pq sean buenos, sino como
+solucion desgastante para no tener problemas laborales de finalizar el
+grupo sin muñeca.
+Por los 100k que me faltan cobrar llamo a cualquiera del aviso y lo
+cubro.
+Recien mande wassap a hosen, para ver si contesta y como contesta y
+cuando contesta o si clava visto. 
+Y ya han pasado 15 minutos o sea que no debe estar muy interesado que
+digamos, o sea que tendria que activar 
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -468,14 +480,19 @@ devolucion de colcha- explicar como es una colcha sin uso
 traer foto de recibo supuestamente cancelatorio pq la fecha tomada de
 12/9 no coincidiria, pero es posible que haya ahi un recibo trucho
 pero con otra fecha. 
-**** TODO Ferreyra Maria Virgolini 1425                         :YofreSur:
+**** DONE Ferreyra Maria Virgolini 1425                         :YofreSur:
+- State "DONE"       from "TODO"       [2018-10-24 mié 16:10]
 devolucion por falta de trabajo, reviso y esta intactas las cosas
 *** 815                                                               :815:
-**** TODO traer mercaderia devolucion cta 69960
+**** DONE traer mercaderia devolucion cta 69960
 SCHEDULED: <2018-10-17 mié>
+- State "DONE"       from "TODO"       [2018-10-24 mié 16:22]
 y preguntar causa-- ver en oficina si esta merc. y cerrar item.
-**** TODO llevo mantel para cambiar a Zorrilla 1447                :Liceo:
+**** DONE llevo mantel para cambiar a Zorrilla 1447                :Liceo:
+- State "DONE"       from "TODO"       [2018-10-24 mié 16:22]
 debe traer un cuadrado y luego hacer el cambio en la ficha 69961
+**** TODO Altamirano Blanca Mna 79/229                           :America:
+cambiar cortina llevar cortina maiz
 
 *** 750                                                               :750:
 **** TODO Berduc 2638 devoluciones pendientes (2)                   :JID1:
@@ -511,18 +528,20 @@ DEADLINE: <2018-10-24 mié>
 y corregir la base de datos, sino cuando demos las bajas no las toman
 * ventas
 ** devoluciones
-| fecha            | prom | zona     |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p |         | excusa                                       |
-| [2018-10-04 jue] |  792 | YofreSur |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   |         | viaje pq operaban a alguien                  |
-| [2018-10-05 vie] |  768 | Coops    | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   |         | no expresa                                   |
-| [2018-10-05 vie] |  796 | Revol    |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   |         | no expresa                                   |
-| [2018-10-05 vie] |  811 | Flores   | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   |         | incobrabilidad                               |
-| [2018-10-09 mar] |  796 | Olmedo   |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   |         | no puede pagar/queja sobre el otro articulo  |
-| [2018-10-11 jue] |  796 | Ferreyra | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   |         | saco bajo amenaza de no pagar y demas        |
-| [2018-10-16 mar] |  792 | Liceo    | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |         |                                              |
-| [2018-10-18 jue] |  768 | Olmedo   | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   |         | la mujer lo reto pq no era eso lo que queria |
-| [2018-10-18 jue] |  792 | Ferreyra | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | doc     | zona roja / no puede pagar                   |
-| [2018-10-18 jue] |  792 | Olmedo   | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   |         | mujer devuelve pq marido la abandono         |
-| [2018-10-22 lun] |  792 | Liceo2   | 17003719 | F | Guiraldes 4873   | coc/man      | 8 puntos  |  800 | no    | t   | r277978 |                                              |
+| fecha            | prom | zona       |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p |         | excusa                                       |
+| [2018-10-04 jue] |  792 | YofreSur   |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   |         | viaje pq operaban a alguien                  |
+| [2018-10-05 vie] |  768 | Coops      | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  796 | Revol      |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  811 | Flores     | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   |         | incobrabilidad                               |
+| [2018-10-09 mar] |  796 | Olmedo     |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   |         | no puede pagar/queja sobre el otro articulo  |
+| [2018-10-11 jue] |  796 | Ferreyra   | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   |         | saco bajo amenaza de no pagar y demas        |
+| [2018-10-16 mar] |  792 | Liceo      | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |         |                                              |
+| [2018-10-18 jue] |  768 | Olmedo     | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   |         | la mujer lo reto pq no era eso lo que queria |
+| [2018-10-18 jue] |  792 | Ferreyra   | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | doc     | zona roja / no puede pagar                   |
+| [2018-10-18 jue] |  792 | Olmedo     | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   |         | mujer devuelve pq marido la abandono         |
+| [2018-10-22 lun] |  792 | Liceo2     | 17003719 | F | Guiraldes 4873   | coc/man      | 8 puntos  |  800 | no    | t   | r277978 |                                              |
+| [2018-10-23 mar] |  792 | Pueyrredon | 24319009 | F | Virgolini 1425   | 2 cor        | 9 puntos  |  808 | no    | t   |         | falta de trabajo                             |
+|                  |      |            |          |   |                  |              |           |      |       |     |         |                                              |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |

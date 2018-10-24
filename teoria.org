@@ -856,3 +856,11 @@ tiene tres menu dedicados o sea que tenes para aprenderte los atajos.
 *** instalar w3m en eopkg
 *** instalar w3m en package-install
 
+** balloon ubicado en celda precisa de tablelist :tcl:
+[2018-10-24 mié 16:01] balloon [$itk_component(tablelist) editwinpath]
+ [diasemana [clock format [clock scan $f -format "%Y-%m-%d"] -format
+ "%u"]]
+con editwinpath obtengo el widget que se esta editando entonces
+ balloon va a situarse alli que es lo que yo quiero
+
+ [[file:/run/media/hero/bora/itk2.tcl::balloon%20%5B$itk_component(tablelist)%20editwinpath%5D%20%5Bdiasemana%20%5Bclock%20format%20%5Bclock%20scan%20$f%20-format%20"%25Y-%25m-%25d"%5D%20-format%20"%25u"%5D%5D]]
