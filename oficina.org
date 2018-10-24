@@ -339,7 +339,10 @@ cubro.
 Recien mande wassap a hosen, para ver si contesta y como contesta y
 cuando contesta o si clava visto. 
 Y ya han pasado 15 minutos o sea que no debe estar muy interesado que
-digamos, o sea que tendria que activar 
+digamos, o sea que tendria que activar. Citado uno del aviso, contesto
+hosen que no, ya atendido el del aviso, o sea que podemos darle
+adelante con el curso mañana.
+
 ** recibos faltantes
 | fecha            |    rbo | cobr |
 | [2018-10-04 jue] | 274849 | 800  |
@@ -436,7 +439,8 @@ mudo a malvinas 2da tenemos direccion, esta en contacto por wapp con
 fabian veremos que contesta, sino intimaremos por correo.
 mando [2018-10-22 lun] wapp con direccion avisando que pague a la
 oficina.
-**** TODO Aguilar Monica Alotolaguirre 5743                       :Olmedo:
+**** DONE Aguilar Monica Alotolaguirre 5743                       :Olmedo:
+- State "DONE"       from "TODO"       [2018-10-24 mié 18:53]
 quiere devolver problemas economicos
 *** 802                                                               :802:
 **** TODO Reartes Elba Baradero 3221                           :Hernandez:
@@ -510,8 +514,21 @@ respectivas informaciones y explicaciones.
 **** receptoria 25 de Mayo
 telefonos 4233171/4290019 horario corrido hasta las 18hs??
 **** fecha/cantidades/experiencias/etc.
-**** aviso [2018-10-21 dom]-[2018-10-28 dom]
+**** avisos 
+***** [2018-10-21 dom]-[2018-10-28 dom]
 cobrador c/moto c/exp mandar CV por Wapp 3513882892
+**** entrevistas
+***** [2018-10-24 mié] Farias Ever 20 años Esmeralda 4761
+una entrevista de 30 min. bastante buena, un pibe que parece de
+familia hijo de una clienta, trabaja de deliveri en la zona adela,
+jueves a domingo de noche por 450 el turno, y se mostro muy receptivo
+a que le paguemos la nafta diaria de 80 todos los dias. (El hizo un
+curso de mecanica de motos, eso es positivo para los arreglos y ya
+tuvo una experiencia de que le robaran una moto por dejarla sin
+cuidado afuera y hablamos largamente sobre el asunto).
+quedamos en curso mañana. Para darle Sargento e ir limando bustos y
+yofre o alguna otra zona del que ande flojo.
+
 * tareas
 ** DONE traer los docs "a devolver de la oficina"
 - State "DONE"       from "TODO"       [2018-10-04 jue 18:38]
@@ -521,27 +538,34 @@ y encarpetarlos en un nepako y tenerlos en dpto
  no tiene sentido tener esos documentos en la oficina pq no fueron
  reclamados y se van a terminar perdiendo. Ya los nepakie y los voy a
  llevar al dpto.
-** TODO hacer carta fuerte para subidos al seven 
+** TODO [#B] hacer carta fuerte para subidos al seven 
 con monto super alto que cause impacto. 
-** TODO revisar listados seven subidos dni erroneos
+** TODO [#A] revisar listados seven subidos dni erroneos
 DEADLINE: <2018-10-24 mié>
 y corregir la base de datos, sino cuando demos las bajas no las toman
+** TODO [#A] pasar los planes de pagos como cuentas
+me comenta 750 que se le hace dificil cobrar planes de pagos que son
+largos si no sale como cuenta pq se pierde la ilacion de la cuenta pq
+sale la cuenta vieja. 
 * ventas
 ** devoluciones
-| fecha            | prom | zona       |      DNI |   | direccion        | articulos    | estado    | cobr | multa | t/p |         | excusa                                       |
-| [2018-10-04 jue] |  792 | YofreSur   |  4132831 |   | Alsina 1352      | indu1/cocina | 9 puntos  |  802 | no    | t   |         | viaje pq operaban a alguien                  |
-| [2018-10-05 vie] |  768 | Coops      | 25267386 |   | Mna 36-23        | cor/coc/man  | 7 puntos  |  802 | no    | t   |         | no expresa                                   |
-| [2018-10-05 vie] |  796 | Revol      |  4707724 |   | Necochea 2748    | cor/coc      | 9 puntos  |  802 | no    | t   |         | no expresa                                   |
-| [2018-10-05 vie] |  811 | Flores     | 22772903 |   | Mna 40-7 Aspasia | cor          | 8 puntos  |  808 | no    | p   |         | incobrabilidad                               |
-| [2018-10-09 mar] |  796 | Olmedo     |  6257697 |   | Bogado 5770      | toallon      |           |  816 | no    | p   |         | no puede pagar/queja sobre el otro articulo  |
-| [2018-10-11 jue] |  796 | Ferreyra   | 12483041 |   | de la Corte 4950 | toallon/mant | pos.usado |  816 | no    | t   |         | saco bajo amenaza de no pagar y demas        |
-| [2018-10-16 mar] |  792 | Liceo      | 25427192 |   | Rodo 4558        | cort/toallon |           |  815 | no    | t   |         |                                              |
-| [2018-10-18 jue] |  768 | Olmedo     | 28657513 | M | Helguera 5629    | cort/coc     | 9 puntos  |  816 | no    | t   |         | la mujer lo reto pq no era eso lo que queria |
-| [2018-10-18 jue] |  792 | Ferreyra   | 18669929 | F | de la Corte 4937 | indu2        | 9 puntos  |  816 | no    | t   | doc     | zona roja / no puede pagar                   |
-| [2018-10-18 jue] |  792 | Olmedo     | 20870608 | F | Huidobro         | cor/nau      | 8 puntos  |  816 | no    | t   |         | mujer devuelve pq marido la abandono         |
-| [2018-10-22 lun] |  792 | Liceo2     | 17003719 | F | Guiraldes 4873   | coc/man      | 8 puntos  |  800 | no    | t   | r277978 |                                              |
-| [2018-10-23 mar] |  792 | Pueyrredon | 24319009 | F | Virgolini 1425   | 2 cor        | 9 puntos  |  808 | no    | t   |         | falta de trabajo                             |
-|                  |      |            |          |   |                  |              |           |      |       |     |         |                                              |
+| fecha            | prom | zona       |      DNI |   | direccion         | articulos    | estado    | cobr | multa | t/p |         | excusa                                       |
+| [2018-10-04 jue] |  792 | YofreSur   |  4132831 |   | Alsina 1352       | indu1/cocina | 9 puntos  |  802 | no    | t   |         | viaje pq operaban a alguien                  |
+| [2018-10-05 vie] |  768 | Coops      | 25267386 |   | Mna 36-23         | cor/coc/man  | 7 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  796 | Revol      |  4707724 |   | Necochea 2748     | cor/coc      | 9 puntos  |  802 | no    | t   |         | no expresa                                   |
+| [2018-10-05 vie] |  811 | Flores     | 22772903 |   | Mna 40-7 Aspasia  | cor          | 8 puntos  |  808 | no    | p   |         | incobrabilidad                               |
+| [2018-10-09 mar] |  796 | Olmedo     |  6257697 |   | Bogado 5770       | toallon      |           |  816 | no    | p   |         | no puede pagar/queja sobre el otro articulo  |
+| [2018-10-11 jue] |  796 | Ferreyra   | 12483041 |   | de la Corte 4950  | toallon/mant | pos.usado |  816 | no    | t   |         | saco bajo amenaza de no pagar y demas        |
+| [2018-10-16 mar] |  792 | Liceo      | 25427192 |   | Rodo 4558         | cort/toallon |           |  815 | no    | t   |         |                                              |
+| [2018-10-18 jue] |  768 | Olmedo     | 28657513 | M | Helguera 5629     | cort/coc     | 9 puntos  |  816 | no    | t   |         | la mujer lo reto pq no era eso lo que queria |
+| [2018-10-18 jue] |  792 | Ferreyra   | 18669929 | F | de la Corte 4937  | indu2        | 9 puntos  |  816 | no    | t   | doc     | zona roja / no puede pagar                   |
+| [2018-10-18 jue] |  792 | Olmedo     | 20870608 | F | Huidobro          | cor/nau      | 8 puntos  |  816 | no    | t   |         | mujer devuelve pq marido la abandono         |
+| [2018-10-22 lun] |  792 | Liceo2     | 17003719 | F | Guiraldes 4873    | coc/man      | 8 puntos  |  800 | no    | t   | r277978 |                                              |
+| [2018-10-23 mar] |  792 | Pueyrredon | 24319009 | F | Virgolini 1425    | 2 cor        | 9 puntos  |  808 | no    | t   |         | falta de trabajo                             |
+| [2018-10-24 mié] |  792 | Ferreyra   | 20438431 | F | Mna 48 casa 3     | 2 cor        |           |  816 | no    | t   | r279251 | queria otro tipo de cortinas                 |
+| [2018-10-24 mié] |  796 | Coops      | 31921774 | F | Ludueña 2876      | cor/man      |           |  816 | no    | t   |         | insolvente                                   |
+| [2018-10-24 mié] |  768 | Olmedo     | 21394533 | F | Altolaguirre 5743 | 2 cor        |           |  816 | no    | t   |         | insolvente                                   |
+|                  |      |            |          |   |                   |              |           |      |       |     |         |                                              |
 ** condonados
 | cuenta | excta | actu | seven | fecha seven      | flag | comentarios                                                                   |
 |  70063 | 59372 | 1031 | seven | [2017-04-20 jue] | NVM  |                                                                               |
