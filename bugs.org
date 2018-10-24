@@ -139,3 +139,13 @@ que veracidad tiene, etc.
 pq estaria poniendo en incobrable o no vender mas en dos formas, los
 cajones y los cambios de zona.
 
+* TODO tablas cuotas fijas regenerables :Buscador:
+[2018-10-23 mar 21:38]
+lo que empezo como algo temp, puede ser en el futuro la forma de
+trabajar o sea tener un esquema de tabla cuotas real no virtual, pero
+que se regenere a voluntad con los cambios cosa de evitar lo del
+pasado que cuando habia un error o un cambio era dificil el corregir,
+pero la tabla real permitira mejores calculos sobre las cosas,
+p.e. los dias de atraso en los cuales se pagaron las cuotas. que
+virtualmente serian muy dificiles calcular y nunca se han intentado.
+[[file:~/tclmobile/buscador.tcl::}]]

@@ -1191,4 +1191,33 @@ del todo.
 :LOGBOOK:
 CLOCK: [2018-10-22 lun 12:11]--[2018-10-22 lun 12:11] =>  0:00
 :END:
-ya tengo en la notebook y aca, faltaria en la oficina 
+ya tengo en la notebook y aca, faltaria en la oficina
+*** 2018-10-23 martes
+**** dia durisimo y largo :cansancio:trabajo:
+:LOGBOOK:
+CLOCK: [2018-10-23 mar 21:32]--[2018-10-23 mar 21:38] =>  0:06
+:END:
+hace dos dias que no duermo siesta.
+El dia comenzo mal pq vino la Cami con la Romi a desayunar, pero
+contuve la ansiedad lo mas bien, y seguimos adelante.
+Pero hace dos dias que me saque la presion mental de "tener que"
+dormir la siesta y eso es un gran avance que me quita ansiedad pero me
+va acumulando cansansio.
+Y en el fondo acumulo presion hacia el sistema.
+No puedo ni quiero culpar a la Romi, ni menos que le va bien pq le
+preste la oficina, pq esta segunda vez no se la voy a pedir ni la voy
+a molestar.
+Tenemos que buscar una solucion al sistema y esa solucion tiene que
+venir de nuestro lado. 
+Yo sigo motivado pero el cansancio va haciendo mella en mi, estoy
+rompiendome fisicamente y lo siento en el cuerpo, en el cuello en las
+piernas, en las pantorrilas por la excesiva cantidad de tiempo en la
+maquina y sentado.
+Y encima no como bien pq no tengo nada comprado y no estoy haciendo el
+licuado, y ayer no se si fue el agua del pico o las empanadas me
+agarro una mini diarrea que me complico las cosas.
+Pero es la excesiva aplicacion al freakismo computacional, via
+emacs/orgmode/elips este finde/ telegram/ programacion en tcl nueva
+sumado a la crisis del sistema de cobranza y la crisis en general lo
+que hace que no podamos vivir ni tener un respiro y estemos
+practicamente viviendo para trabajar.
