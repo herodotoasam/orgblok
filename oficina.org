@@ -443,14 +443,17 @@ oficina.
 - State "DONE"       from "TODO"       [2018-10-24 mié 18:53]
 quiere devolver problemas economicos
 *** 802                                                               :802:
-**** TODO Reartes Elba Baradero 3221                           :Hernandez:
+**** DONE Reartes Elba Baradero 3221                           :Hernandez:
+- State "DONE"       from "TODO"       [2018-10-26 vie 19:01]
 supuestamente 750 le hicieron ver la cortina el hijo de la Sra que una
 era mas corta que la otra el paño, pero esta colgada!!! y pretendia
-cambio, y no pago, luego 750 cambio de zona
-**** TODO Sa Graciela Pergamino 3688                           :Hernandez:
+cambio, y no pago, luego 750 cambio de zona.
+parece resuelto pq el 750 le cobro la primer cuota a fin de setiembre
+**** DONE Sa Graciela Pergamino 3688                           :Hernandez:
+- State "DONE"       from "TODO"       [2018-10-26 vie 18:53]
 sra pago cuota, compro dos cortinas y quiere devolver una,
 supuestamente que no uso por eso pago la mitad de la cuota, pq dice
-que no le sirve.
+que no le sirve. Devuelta el [2018-10-26 vie]
 *** 817                                                               :817:
 **** DONE doc 66052 llevar - wapp 3193143                       :YofreSur:
 SCHEDULED: <2018-10-19 vie>
