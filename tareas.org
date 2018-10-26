@@ -7,3 +7,7 @@
 [2018-10-10 mié 10:35]
 * TODO llevar todos los recibos y doc viejos al marques        :dpto:oficina:
 [2018-10-10 mié 10:35]
+* TODO facilidades fechadoras
+
+Se podrían hacer múltiples. bind en tablet list para allá en facilitación del fechado por ejemplo poner números y que eso sean interpretados inteligentemente Cómo fechas tal cual ya habíamos hecho en una función de python y letras correspondiente a los días de semana incluso teniendo en cuenta cuando se trata de no la semana que viene si no la otra también se podría tener en cuenta más inteligentemente el teclas o mes siguiente que no sea tan irritante en los casos qué en vez de pasar por ejemplo para el día 10 del mes siguiente pase para el día 9 del mes siguiente porque este mes tenga 31 días.
+
