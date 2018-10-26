@@ -1380,3 +1380,62 @@ CLOCK: [2018-10-25 jue 15:26]--[2018-10-25 jue 15:27] =>  0:01
 creo que no estaria mal la idea pq aunque uno perderia esa
 exclusividad en el fondo se iria a un sistema serio y en lo posible
 mas eficiente y que demande menos de nosotros como personas.
+*** 2018-10-26 viernes
+**** Cual creo qu ees el problema de Romitex:trabajo:idea:
+:LOGBOOK:
+CLOCK: [2018-10-26 vie 12:28]--[2018-10-26 vie 12:56] =>  0:28
+:END:
+un esquema cero tiene el ojo del amo sobre unas cuantas cuentas que
+domina y maneja a ojo, (p.e. Fede en el Chaco, o Fede aca en Cordoba
+con Villa los Llanos, fragueiro y liceo), incluso un esquema
+unipersonal 24/7 como el mio con el Romitex pre2006 podria decirse que
+manejaba todos los hilos con bastante tecnologia. 
+Y ahora ¿Cual es el problema?: que en los ultimos dos o tres años,
+demandamos cantidades enormes de tiempo personal en gestion,
+principalmente de cobradores (captacion, manejo, pasado de papeles,
+etc.) porque la parte venta no se podia dejar aparte y a la vez por
+causa de la sociedad necesariamente crecio la cantidad de operaciones,
+y todo se monto sobre la fragilidad casi de los mismos programas y
+tablas y sistemas del pasado, se podria decir que incluso a veces
+menos que en el pasado. 
+Y como el negocio crecio y se expandio y dejo de ser monolitico, y
+tuvo problemas (se desorganizo por causas externas: pongamos por ahora
+solo el tema de el pasado de papeles por la Cami y el tener que
+abandonar la oficina como centro de funciones unificada) terminamos
+con un "sistema informatico" debil para enfrentar el nuevo
+desafio. Trabajamos con algo obsoleto, con algo viejo que no cumple
+todas las funciones, que no es seguro, que no nos entrega informacion.
+En parte es debido a que no se le asigna importancia a los datos, y yo
+tambien ante la rutina del dia a dia, el enorme cansancio y hastio, el
+ver que la noria sigue girando sin fin y sin esperanza, no encuentro
+nada que me guste en el horizonte. Aunque percibo de entrada que el
+sistema es lo que cambiaria el futuro, o sea un rediseño de cero de
+todo el sistema. Y para eso tengo que trabajar tranquilo desde cero en
+forma enorme. Pero alli tendre que definir que quiero escribir o que
+sistema queremos escribir. En ese caso tiene que ser algo para todo
+tipo de usuario y flexible para todo cambio futuro.
+
+Resumiendo el problema de Romitex ha sido que nos hemos agotado en
+funciones comunes, pq no podemos delegar nada, pq no hemos creado
+sistemas seguros que funcionen bien pq son parche sobre
+parche. Todavia dependo de un fichaje.py seriamente achurado para que
+siga funcionando pq no he reemplazado todas las funciones, y tengo
+programas viejos y programas nuevos, y no tengo estadisticas fiables
+en ningun lado. Ni tengo sistemas de auditoria confiables ni nada. O
+sea todo debe ser muy hecho a mano para que no falle. 
+
+Y en el medio personalemente aparte de los problemas de agotamiento
+que tengo, y que hace mes y medio o algo asi que abandone todo por el
+tema tecnologico, por ahi me disperso en otras areas (mas alla de las
+herramientas como son org/emacs que habia que recuperarlas y
+perfeccionarlas y eso estaba bien), pero hay areas como lisp que no
+tienen nada que ver con el futuro de una posible solucion al tema de
+la programacion que necesitamos, pq necesitamos una programacion de
+escritorio y esta hecha con tcl/sqlite y no vale la pena salirse de
+ahi. Todo lo demas ha sido basura, incluso python fue basura pq la
+mayoria del tiempo invertido fue para emular las herramientas que en
+tcl tenia en forma nativa. Sin ninguna ventaja significativa arriba de
+eso para construir algo que valiera la pena el cambio. O sea que en
+ese sentido creo que si algo debo hacer es dedicarme a fondo a esas
+herramientas y a ese proposito.
+
