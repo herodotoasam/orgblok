@@ -1,13 +1,42 @@
 * TODO comprar antipolillas :dpto:
+
 [2018-10-10 mié 10:33]
+
 * TODO limpiar estantes vestidor :dpto:
+
 [2018-10-10 mié 10:34]
-* DONE encarpetar documentos pendientes                        :dpto:oficina:
+
+* DONE encarpetar documentos pendientes :dpto:oficina:
 - State "DONE"       from "TODO"       [2018-10-12 vie 14:05]
 [2018-10-10 mié 10:35]
-* TODO llevar todos los recibos y doc viejos al marques        :dpto:oficina:
+
+* TODO llevar todos los recibos y doc viejos al marques :dpto:oficina:
+
 [2018-10-10 mié 10:35]
-* TODO facilidades fechadoras
+
+* TODO facilidades fechadoras :IDEA:
 
 Se podrían hacer múltiples. bind en tablet list para allá en facilitación del fechado por ejemplo poner números y que eso sean interpretados inteligentemente Cómo fechas tal cual ya habíamos hecho en una función de python y letras correspondiente a los días de semana incluso teniendo en cuenta cuando se trata de no la semana que viene si no la otra también se podría tener en cuenta más inteligentemente el teclas o mes siguiente que no sea tan irritante en los casos qué en vez de pasar por ejemplo para el día 10 del mes siguiente pase para el día 9 del mes siguiente porque este mes tenga 31 días.
+
+* TODO Edicion en ventana aparte del fechar :IDEA:
+:PROPERTIES:
+:CREADO:   [2018-10-26 Fri 16:02]
+:END:
+
+Podría ser que cuando se va bajando en el fechar renglón por renglón y uno pusiera o apretar a un botón decisión que tú ir incrustado en el tablero y se abrir una ventana emergente donde estuvieran todos los campos editable y uno atrás de otro con un encabezado fijo de los datos del cliente editar con los datos fijos y todos los campos editables que suelen surgir cuando uno está editando el estado que hay podría hacer editar una dirección editor teléfono y ello tener digamos acceso a la Macro de guardar a ex dirección y a su vez que podamos evitar digamos todo lo que es aclaración horarios mensaje al cobrador y comentarios y poner tag de gestión tag mudado tarde bueno todo lo otro está que todavía no están programados como tag de no vender más tarde a la venta s13 tras subir al se deben emitir intimaciones ese te lo deseo todo el trabajo del cliente que se haga en una ventanita en forma más segura una que se terminó con el cliente se pone guardar eso se pliega Y si sigue con el cliente entonces esa sería una forma muy eficiente porque se trabajaría sobre un listado sobre una planilla pero al aves se abriría una ventana donde estarían todas las facilidades de trabajo dentro de esa ventana que no sería muy grande sino que sería más o menos compacta para que no oculte del todo el listado que esté abajo
+
+* Algunas cosas q se cruzan
+:PROPERTIES:
+:CREADO:   [2018-10-26 Fri 16:41]
+:END:
+
+Matetes
+De como me cambio la vida quedarme sin auto y eso no se compensó con haber comprado la casa ni haber vivido en dpto
+Que haber tenido q vivir en jujuy me mato por el ruido
+Que la oficina me mato por la falta de tiempo en q me sumio
+Que retirarme ahora supuestamente a descansar es un peligro para mi pq cedo la unica porcion de poder q me queda
+Que creo q me tengo q recuperar en silencio de a poco. 
+Pero los problemas q basicamente tengo no van a desaparecer.
+Quizas veo todo muy malo pq estoy cansado.
+
 
