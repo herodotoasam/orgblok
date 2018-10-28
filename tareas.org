@@ -40,3 +40,88 @@ Pero los problemas q basicamente tengo no van a desaparecer.
 Quizas veo todo muy malo pq estoy cansado.
 
 
+* Planes de pago :IDEA:
+:PROPERTIES:
+:CREADO:   [2018-10-27 Sat 11:55]
+:END:
+
+condonar la cuenta
+crear una "venta" nueva con los vtos y el monto nuevo.
+el tema seria no afectar las estadísticas de venta reales con estas ventas fictas por lo cual se debe buscar una solucion.
+O bien nuevos campos en tabla venta 
+Planpago logico
+Ccpp int
+icpp int
+Primerapp date
+Y reescribir los procesos virtuales q producen on the fly el cuotaje y el pagaje que cuando ventas.planpago=1 tome los campos pp en vez de los normales y tome los pagos hechos posteriores al plan de pago. A su vez la info permanece intacta y se puede visualizar.
+
+Como se haria con los casos en q son dos las cuentas. Para no partir el plan de pagos y siendo q nace de un acuerdo se podria condonar una la mas chica y poner el plan en la mas grande y anotar esa circunstancias. Para q salga una ficha unificada.
+El tema es q saldria de x la cuenta y (la z estaria condonada) y generaria p.e 3 cuotas de 300 q es lo q acordo el cliente.  Y se iria cobrando eso incluso se puede marcar como plan de pago pero sin cuota a las q son hijas de un mismo pp.
+Podria haber una tbl de plan de pago q genere un id q lo cargue en tbl ventas en los registros afectados y en solo uno cargue las cuotas. Luego registre toda la otra info del pp. 
+
+* Primer dia :retiro:estadoAnimico:
+:PROPERTIES:
+:CREADO:   [2018-10-27 Sat 18:56]
+:END:
+
+Vine rapido y bien.
+Charla breve y fluida.
+Almuerzo bueno y sin sobresaltos con las chicas
+Larga siesta.
+Solo el dia esta tramado por la obligacion de ir al evento que tengo llevar a la Cami.
+Fui a llevarla facilmente pq era cerca y no habia transito pero fue muy larga la espera y luego la noche fue caotica mas que lo comun.
+Mas alla de ello en este primer dia tuve expresiones bastante desafortunadas que pienso q provienen de la desesperanza y la depresión y la ira mas q todo pq el estado de agotamiento de los últimos dias no me permitio explicarme claramente en mis propositos.
+Nadie sabe q quiero hacer y como yo necesito descansar mas q nada y no veo por momentos la posibilidad de un espacio fisico de tranquilidad para hacerlo entonces me pongo agresivo.
+
+* Nueva programación :programacion:IDEA:
+:PROPERTIES:
+:CREADO:   [2018-10-27 Sat 23:03]
+:END:
+
+~Como debe ser lo nuevo:
+- documentado: en extremo asi como se esta haciendo el nuevo buscador
+- ordenado: guardar convenciones logicas para los nombres de los widgets variables y procs
+- estructura
+createWidgets
+createBindings
+Procedimientos primero luego dos proc q contienen la UI que se instancia despues a lo python
+- uso de namespace eval para guardar variables privadamente y no mezclar con lo global
+
+namespace eval tClip {
+    variable on_top    false
+    variable word_wrap none
+    variable selected  ""
+    variable cliplist  [list]
+    variable theme     [ttk::style theme use]
+    variable type      [expr {[tk windowingsystem] eq "x11" ? "UTF8_STRING" : "STRING"}]
+}
+- se podria documentar cada script en forma unificada o similar o siguiendo la misma estructura para q sea facil de leer.
+P.e. tener una parte q diga q tablas usa y q campos necesita
+
+* Arreglo de tablas :programacion:IDEA:insomnio:
+:PROPERTIES:
+:CREADO:   [2018-10-28 Sun 10:07]
+:END:
+
+Una vez q arregle app por app dando de baja cada aplicación vieja pq ya TODAS las funciones ya fueron incluidas (como quiero hacer con F13+fichaje.py/ver -->buscador.tcl) voy a anotar las tablas y los campos q realmente uso. Deberia agregar el campo q quiera con el nombre q quiera. Y no reusar campos obsoletos. Y anotar las consultas q uso si es q uso alguna y los triggers.
+Luego en un script reescribir el traspaso de tablas a su nuevo schema y hacer un test bien groso sobre todas las aplicaciones oficiales a partir de ese momento.
+Y ahi se hara la limpieza de la base de datos del pasado y se hara el paso definitivo a una nueva version de los programas q supere toda la tanda de los actuales y quiza sea incompatible con ellos. Pero el tamaño de la db sera menor y el schema mejor.
+
+* Buscador :programacion:
+:PROPERTIES:
+:CREADO:   [2018-10-28 Sun 10:30]
+:END:
+
+Creo q el camino de crear virtualmente en el arranque una tabla cuotas de todas las cuentas y luego hacer un proceso de llenado de recibos no sirve.
+
+Creo q tendria q avanzar teniendo un buscador con todo lo q tienen ambos predecesores.
+
+En todo caso si un proceso permitiria crear los datos q quiero hay q hacerlos cliente por cliente. O sea al llenardatoscliente hago tabla cuotas del cliente con su proceso pago desde su set de recibos con idcliente x. La carga de tjo es 30000 veces menos y es mas rapida. 
+O bien se podria usar namespace o una class para mantener abiertas distintas tabs como queria yo.
+O sea q haya un buscador en un 20% de la pantalla y luego el resultado abajo por tabs cosa q podamos tener varios clientes abiertos en paralelo. Al estilo Firefox. Esta idea es genial.
+
+Entonces bajo la parafernalia de labels de info no editable y algunos entrys editables vendra un tbls de ventas por orden coloreadas tageadas (cancelada devuelta condonada pagando) que con un tree se abrira y se calculara el cuotaje.
+
+Se podra imprimir resumen de cuenta de cuentas canceladas con menu como f13
+
+
