@@ -2,18 +2,19 @@ Tener en cuenta que las properties deben venir inmediatamente debajo
 de scheduled, el orden es importante para el graph.
 
 * Listado de habitos
-** TODO limpiar el dormitorio
-SCHEDULED: <2018-10-16 mar .+2d>
+** DONE limpiar el dormitorio
+CLOSED: [2018-10-29 Mon 12:20]
 :PROPERTIES:
 :STYLE:    habit
 :LAST_REPEAT: [2018-10-14 dom 11:36]
 :END:
-
-
 - State "DONE"       from "TODO"       [2018-10-14 dom 11:36]
+
 ** TODO peluquero
+
 [2018-10-14 dom 13:30]
 SCHEDULED: <2018-10-19 vie .+30d>
 :PROPERTIES:
 :STYLE: habit
 :END:
+

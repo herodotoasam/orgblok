@@ -1,7 +1,7 @@
-
 * class Tbls
-** TODO Tree
-SCHEDULED: <2016-10-28 vie .+7d>
+** DONE Tree
+CLOSED: [2018-10-29 Mon 12:19]
+
 - ponemos la propiedad expandcommand a la funcion que ejecutara el expand
 - el expandcommand tiene como argumentos tbl y row dados por nemethi
 - sacamos facilmente el node con un getcell
@@ -29,39 +29,52 @@ tblrecorridos.pack(anchor=W)
 tblrecorridos.llenatree(con,'select * from recorrido order by id desc')
 tblrecorridos['expandcommand']=recorridos_exp
 #+END_SRC
-** TODO Buscar
-SCHEDULED: <2017-12-10 dom .+2m>
+
+** DONE Buscar
+CLOSED: [2018-10-29 Mon 12:19]
 - State "DONE"       from "TODO"       [2017-10-10 mar 22:34]
 :PROPERTIES:
 :LAST_REPEAT: [2017-10-10 mar 22:34]
 :END:
 clase que entrega un cuadro de busqueda generalizado y permite
 trabajar rapido con el idcliente.
+
 *** Instanciado
+
 buscar = Buscar(frame,con,wtbl=100)
 el wtbl permite regular el ancho del tbls de busqueda
 conviene hacerlo con un frame en el cual pongamos y regulemos el
 packeado de los otros elementos que adosemos, o sea no usar el tab
 entero.
+
 *** obtener el idcliente
+
 buscar.get() 
 entrega el idcliente buscado
+
 *** Movimientos dentro del cuadro de busqueda
+
 | c           | busca en la casa           |
 | C           | busca en la cuadra         |
 | u           | sube al cuadro de busqueda |
 | enter       | selecciona el cliente      |
 | doble click | idem                       | 
+
 *** como bindear en particular sobre la seleccion del cliente
+
 buscar.t.body_bind('<<Enter>>',lambda ev: funcion(),add=1)
 Ojo el add=1 permite sumar este bind al que viene ya empacado y no
 sustituirlo lo que dejaria sin funcionalidad al cuadro.
+
 *** anexo BuscarConPadron
+
 | f F   | dni    | busca por dni fem    | pone solo los ceros a la izq |
 | m M   | dni    | busca por dni masc   | --                           |
 | pf pF | nombre | busca por nombre fem | pf'Filippi Pastora'          |
 | pm pM | nombre | busca por nombre mas | pm'Salvay Daniel'            |
+
 * editar tbl
+
 #+BEGIN_EXAMPLE
  def editarvta(tbl,row,col,text):
             idvta = self.cuentas.cuentascliente.getcell(row,'id')
@@ -71,24 +84,36 @@ sustituirlo lo que dejaria sin funcionalidad al cuadro.
             con.commit()
             return text
 #+END_EXAMPLE
+
 *** referenciar tbl
+
 no anda
+
 *** idvta
+
 obtengo el id con getcell como es habitual, podria hacerlo con row
 active, pero uso el row que me da el proc nemethi, ojo es una variable
 python, poner row, no 'row'
+
 *** campo
+
 es lo mas sutil, obtengo el nombre del campo que se esta editando con
 el columncget sobre la propiedad -name usando el col que da nemethi
+
 *** upd
+
 ahi armo el upd. pongo el nombre del campo con format de python y los
 valores del campo y el id con parametros de sqlite, asi no tengo que
 lidear con interpretaciones erroneas.
 upd='update ventas set {} = ? where id=?'.format(campo)
+
 *** execute
+
 hago el con.execute como es habitual, pasando los parametros como
 cualquier otra execute, y commit.
+
 *** return text
+
 para que el tbl muestre el valor editado
 
 
@@ -103,37 +128,49 @@ Falta por ultimo poner como configuracion al tbl, editendcommand el
 proc que va a hacer todo esto que tiene 4 parametros tbl/row/col/text.
 y tmb indicar cuales columnas seran editables, usualmente si son
 muchas las hago con un for, poniendo columnconfigure editable=1
+
 * combobox ttk
+
 #+BEGIN_EXAMPLE
 calles=[x[0] for x in con.execute('select calle from calles order by calle').fetchall() if x[0]]
 calle=ComboBox(self)
 calle.setvalues(calles)
 #+END_EXAMPLE
+
 ** simplemente llamamos el combobox con la class ComboBox asi sin nada mas.
 ** el setvalues va como metodo no como propiedad!!!
+
 o sea pongo calle.setvalues(lista) en este caso.
+
 ** no hace falta poner autocomplete pq todos lo son
 ** son case insensitive en su sorted
 ** notar la forma compacta de hacer la lista
 ** que es ese if x[0]
+
 en la lista de zonas no se porque me aparecio un valor null o sea None
 y pitio el metodo sortear dentro del combo, como que no admite valores
 nulos para ponerlos a lower (pq sortea a lower), entonces en la lista
 generada le pongo la condicion que el valor listado exista o sea no
 sea nulo o sea if x[0]
+
 ** ejemplo con seteado extra para recalculo y setvalues directo
+
 #+BEGIN_EXAMPLE
 barrio=ComboBox(self,width=22)
 barrio.setvalues([x[0] for x in con.execute('select barrio from barrios order by barrio').fetchall() if x[0]])
 barrio.setvaluesrecalc(con,'select barrio from barrios order by barrio')
 #+END_EXAMPLE
+
 ** los combobox ttk se setean directo no con setvalue como bwidget
+
 #+BEGIN_EXAMPLE
 zona.set(cliente['zona'])
 barrio.set(cliente['barrio'])
 calle.set(cliente['calle'])
 #+END_EXAMPLE
+
 * capturar errores
+
 #+BEGIN_EXAMPLE
 try:
    con.execute(delete, (id,))
@@ -151,7 +188,10 @@ uso la salida para emitir el mensaje, como que la salida del except es
 la aclaracion del error que tira la consola.
 Yo ahi hice un balloon pero podria hacerse un cuadro de mensaje
 facilmente.
+
 * strftime de sqlite
+
  strftime(format, timestring, modifier, modifier, ...) 
 pero %y no existe como format, no es el año en dos digitos, y da error
 o te da None a toda la cadena.
+

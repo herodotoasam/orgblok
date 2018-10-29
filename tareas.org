@@ -125,3 +125,77 @@ Entonces bajo la parafernalia de labels de info no editable y algunos entrys edi
 Se podra imprimir resumen de cuenta de cuentas canceladas con menu como f13
 
 
+* Exportar contactos a telefono :programacion:
+:PROPERTIES:
+:CREADO:   [2018-10-28 Sun 16:09]
+:END:
+
+Tener por script la posibilidad de exportar los contactos en formato vcf p.e.
+Entonces producimos el romitex.vcf con digamos 5000 contactos y de ahi lo importamos con un gestor eficiente de contactos y de ahi a whatapp web o un bot o wrapper futuro
+
+* tclshrc :LEER:
+:PROPERTIES:
+:CREADO:   [2018-10-28 Sun 17:48]
+:END:
+
+https://wiki.tcl-lang.org/page/tclshrc
+
+La idea seria poner todo lo necesario para tjar en el proyecto
+Package require etc.
+
+
+* Ayuda de eGuard 2 - eggdrop.es :LEER:
+:PROPERTIES:
+:CREADO:   [2018-10-28 Sun 23:48]
+:END:
+
+http://eggdrop.es/ayuda/script/eguard2/
+
+* TODO [#A] Ver cuentas :oficina:
+DEADLINE: <2018-10-31 Wed>
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 09:20]
+:END:
+
+Llevar doc 70037 de la devolución
+Analizar 69965
+
+* Segundo dia :retiro:estadoAnimico:ansiedad:
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 11:39]
+:END:
+
+El domingo estuvo tramado por no haber podido dormir bien la noche anterior y por los compromisos inflados q tenia
+- correr los muebles
+- ir a la oficina
+Y luego todo se esfumo. El corrimiento de muebles fue 5 minutos y el ir a la oficina no fue tan grave. Pero lo mismo no dormi bien por los gatos pienso en especial el escli y pq el lunes empezaba la obra
+
+* Tercer dia :retiro:migraña:hijas:
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 11:44]
+:END:
+
+Hoy al final me levanté a las 9. Salude a los albañiles. Pedi el contenedor. Todo fluido.
+Y fuimos a ver a los bancos de la Romi
+Muy lindos y muy contento q se vaya para arriba y q la pueda ayudar
+Una migraña de 2 migrales antes de las 12hs me molesta pero no es por ansiedad.
+Medio a la madrugada. Medio al levantarme y uno al volver de ver los bancos.
+Otra tarea q estaba agendada y ya la hicimos.
+Hasta las 19.15 sigo con migraña.
+
+* TODO Acomodar el celu :actividad:retiro:
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 19:24]
+:END:
+
+- [ ] anotar todas las apk q voy borrando cuanto las tuve si las use mucho poco o nada para q la instale que funcion buscaba y con cual la reemplace.
+- [ ] borrar obviamente la apk
+- [ ] reacomodar las pantallas dejar solo 3
+
+* Pin para app romitex :programacion:IDEA:
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 19:29]
+:END:
+
+Poner pin de seguridad a dni.tcl para q en caso de q roben el celu podas proteger la app si fallan el pin mas de 5 veces seguidas se borra la base de datos y los programas. 
+

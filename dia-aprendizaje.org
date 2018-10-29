@@ -1,8 +1,10 @@
 * Bitacora de aprendizaje
-** [2016-09-22 jue]                                                   :anki:
-
-*** TODO Comandos para org-mode: Manejo de fechas
-SCHEDULED: <2017-10-25 mié .+15d> 
+** [2016-09-22 jue] :anki:
+*** DONE Comandos para org-mode: Manejo de fechas
+CLOSED: [2018-10-29 Mon 12:18]
+:PROPERTIES:
+:LAST_REPEAT: [2018-10-29 Mon 12:18]
+:END:
 - State "DONE"       from "TODO"       [2017-10-10 mar 22:35]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:06]
@@ -18,7 +20,9 @@ SCHEDULED: <2017-10-25 mié .+15d>
 | S- up/down   | Cambia la parte de  la fecha arriba o abajo   |
 | C-C- C-D     | ingresa DEADLINE                              |
 | C-C- C-S     | ingresa SCHEDULED                             |
+
 *** Vuelta a Emacs puro (no evil/ no spacemacs)
+
 Me canse de vim, que parece rapido pero siempre causa errores y al 
 final perdes el tiempo y no logras hacer lo que queres.
 Aca va un resumen de los comandos aprendidos y logrados hoy:
@@ -50,9 +54,11 @@ Y ahora un repaso de los comandos generales
 | C-h     | help           |
 
 ** [2016-09-23 vie]
+
  
-*** TODO Elips - inicio de lectura                                   :anki:
-SCHEDULED: <2016-12-07 mié .+30d>
+
+*** DONE Elips - inicio de lectura :anki:
+CLOSED: [2018-10-29 Mon 12:18]
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:43]
 - State "DONE"       from ""           [2016-10-31 lun 22:32]
 :PROPERTIES:
@@ -93,33 +99,47 @@ con el argumento package (lo que no se es pq en ese caso package esta con apostr
    - se usa el apostrofe para que lo evalue como variable sino que lo tome como nombre
    - la segunda idem la funcion add-to-list y el segundo argumento una lista
    - 
+
 ** [2016-09-24 sáb]
 *** Puesta a punto general para emacs
+
     la mayoria de los items pienso que otorgaran una gran ventaja ergonomica y de productividad
+
 **** Accesos directos para files en los que estoy trabajando
+
 Se que Cx-Cf te permite abrir facilmente, pero la verdad es que trabajo a diario con dos archivos
 fichaje.py y doc-fichaje.org. Acceso a ambos con C-F5 y C-F6. Y .emacs con F6
+
 **** Accesos directos a modes que son muy usados pero que no me sirve que sean globales
+
 | F12  | autocomplete     |
 | F9   | linum            |
 | C-F9 | electric-pair    |
 | F8   | folding          |
 | --   | show-parent-mode |
+
 **** Excurso: folding
+
 Espectacular folding hard mediante signos colocados realmente en el archivo que permite que se foldee
 en la forma en que uno quiere. Lo cual puede coincidir con las def o class y puede NO coincidir pq tenes
 bloques feos que ya no usaras mas y no se foldean automaticamente con ningun sistema.
 Incluso permite con una linea documental tener la vision de lo que contiene el fold.
 Muy rapido el fold/unfold con boton derecho.
+
 **** Excurso electric-pair / show-parent-mode
+
 show-parent-mode muestra los pares de parentesis, corchetes, llaves, etc. Por eso la pongo global pq no 
 molesta.
 En cambio electric-pair aunque es muy util, puede molestar y se pone/saca facil con el C-f9.
 Espectacular resaltar una palabra y poner ' y te la encierra automaticamente.
+
 **** Excurso autocomplete
+
 Lo que veo aca es que no es tan intrusivo como jedi, y mayormente sirve y es rapido, y el poder togglearlo
 es bueno pq hay buffers en los cuales es odiosa, como aca en org.
+
 **** Highlight-symbol
+
 | C-F3 | marca las ocurrencias con colores rotativos y te da la cuenta  |
 | F3   | cicla en las ocurrencias adelante y de nuevo desde el comienzo |
 | S-F3 | idem en reversa                                                |
@@ -128,12 +148,18 @@ Esta muy bueno (aunque funciona con lo visible, en files no importa pq haces F8 
 que ver que desenrrolla todo).
 Lindo que marca en distintos colores y los deja permanente hasta que los sacas uno a uno con C-F3.
 El F3 funciona de una aunque no esten marcadas.
+
 **** El Duplicate line y el move line estan como ya cronicado
+
 Solo habria que estudiar si funcionan en mas de una linea y como reaccionan en org (aunque en org no hace
 falta)
+
 **** Cortar/Copiar/Yankear la linea entera
+
 en vez de solo la palabra resaltada
+
 *** Percepcion a hoy de emacs puro optimizado vs vim vs atom
+
 creo que a hoy me quedo mil veces con emac puro optimizado.
 O sea hecho a mi gusto.
 Ventajas enormes sobre vim y atom: org-mode.
@@ -147,12 +173,16 @@ que cambiar de theme a cada rato)
 Y me parece mas potente en general.
 Sobre spacemacs: la rapidez, ligereza y posibilidad de customizar lo que yo quiero, algo imposible en ese
 hibrido y aparte lento.
+
 *** Mas aprendizajes
 **** Auto-fill mode
+
 Auto-fill mode es un minor-mode que provee el corte de linea
 automatico cuando se llega a cierto limite. Lo que uno conocia como
 auto wrap. Se pone en el menu Text, o como comando.
-** TODO [2016-09-25 dom]                                              :anki:
+
+** TODO [2016-09-25 dom] :anki:
+
 SCHEDULED: s<2016-12-05 lun +15d>
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:44]
@@ -217,8 +247,9 @@ La productividad debe verse aumentada grandemente con este sistema.
 Y esto se va a ver en el futuro. Igual que el sistema que estoy
 programando, igual que el negocio que estamos montando con el
 hijo. Igual que el vivir en el centro.
-** TODO [2016-09-29 jue]                                              :anki:
-SCHEDULED: <2016-12-03 sáb .+10d>
+
+** DONE [2016-09-29 jue] :anki:
+CLOSED: [2018-10-29 Mon 12:19]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:10]
 - State "DONE"       from "TODO"       [2016-11-10 jue 23:15]
 - State "DONE"       from "TODO"       [2016-10-31 lun 22:23]
@@ -241,7 +272,4 @@ lecturas sobre el branching.
 | git checkout --track    | hago que localmente se siga una rama    |
 | ... origin/testing      | ... que existe en el repo               |
 | git push :testing       | borro dicha rama en el repo             | 
-  
-
-
 
