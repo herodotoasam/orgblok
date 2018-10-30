@@ -1,0 +1,31 @@
+* F Droid :fdroid:
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 08:44]
+:END:
+
+Fdroid es UN play store pero de aplicaciones libres.
+No se instala obvio en google sino en su web.
+
+** NewPipe :fdroid:
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 15:04]
+:END:
+
+Un youtube sin cuenta y permite bajar los videos directamente.
+
+* Play store
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 09:06]
+:END:
+
+** OsmAnd
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 09:09]
+:END:
+
+Mapas offline q funciona realmente no como google maps q no funciona offline.
+Este parece funcionar encuentra las calles y anda sin red.
+No se cuanto consume en red.
+
+
+

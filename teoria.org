@@ -1,11 +1,15 @@
 #+TAGS: INICIO MEDIO ALTO
 #+TAGS: EMACS ORG ELIPS TCL TABLELIST SQLITE PYTHON UBUNTU LINUX VIM PRINT SOLUS
+
 * Documentacion general
+
 que es la teoria? es el lugar donde acumularemos todo lo que sea
 aprendizaje o documentacion. en vez de tener uno por tema aca vendran
 todos juntos
+
 * emacs
-** ver diff llamando C-x vD sobre un dired                           :emacs:
+** ver diff llamando C-x vD sobre un dired :emacs:
+
 [2018-10-12 vie 19:08]
 para ver todas las diferencias generadas se llama sobre el dired y se
 ven las diferencias claramente.
@@ -14,7 +18,9 @@ ven las diferencias claramente.
 | ir a la fuente | o   |
 | proximo file   | {  |
 | anterior file  | }   |
-** crear una key en emacs                                     :ENCRIPTACION:
+
+** crear una key en emacs :ENCRIPTACION:
+
 [2018-10-14 dom 17:13] Creating a key To get started you must first
 generate the key pair with gpg: $ gpg --gen-key Follow the prompts to
 generate your key. I highly recommend you pick a pass phrase!  You can
@@ -24,7 +30,9 @@ command line [[https://www.masteringemacs.org/article/keeping-secrets-in-emacs-g
 Mastering Emacs]]
 O sea un paso a paso bastante facil y similar a lo
 hecho con gitlab
-** exportacion e importacion a otras maquinas key emacs       :ENCRIPTACION:
+
+** exportacion e importacion a otras maquinas key emacs :ENCRIPTACION:
+
 [2018-10-14 dom 17:16] Next, export the secret key to a file mykey.asc
 to gpg (using the key holder’s name, email or key ID):
 
@@ -54,13 +62,16 @@ aparte la clave que vence en el 2020, la backupeo con git. Y la frase
 esta muy pegada en mi memoria desde hace treinta anios casi.
 
 ** reformat un paragrafo que excede los 80 caracteres M-q
+
 [2018-10-14 dom 20:27]
 
 [[https://superuser.com/questions/401293/in-emacs-how-to-reformat-an-edited-paragraph-so-the-line-breaks-are-properly-re][formatting - In Emacs, how to reformat an edited paragraph so the line
 breaks are properly reinserted? - Super User]] Puede pasar con las
 capturas. M-q fill-paragraph
-* org-mode                                                              :ORG:
-** Solucion al no funcionamiento de los Capture Template           :Capture:
+
+* org-mode :ORG:
+** Solucion al no funcionamiento de los Capture Template :Capture:
+
 [2018-10-09 mar 19:44]
 
 Capture Template programados en otra maquina y que funcionaban bien en
@@ -72,7 +83,9 @@ dpto pq ese xubuntu es 2018 y el de aca es 2016. Entonces se me
 ocurrio hacer un package-list y buscar org directamente e instalar
 desde alli, y lo instalo de una y ahora la version indica 9.1.14 y ese
 parece ser el problema de que no funcione el template.
-** problema con org-agenda-files                                    :Agenda:
+
+** problema con org-agenda-files :Agenda:
+
 [2018-10-12 vie 19:24]
 se puede poner un directorio, y yo pongo usualmente ~/orgblok y todo
 anda bien, pero detecte que no levanta los orgfiles que empiezan con
@@ -81,7 +94,8 @@ y solucionar ese problema pq si quiero mover el .emacs frecuentemente
 se incompatibiliza con las distintas maquinas si no lo toma
 automaticamente a los dotfiles que puedo crear.
 
-** Archivamiento interno                                          :Archivar:
+** Archivamiento interno :Archivar:
+
 [2018-10-14 dom 12:51]
 Internal Archiving
 poniendo el tag :ARCHIVE: a un heading (que se hereda) el tree se
@@ -100,21 +114,25 @@ Las consecuencias de este tipo de archivamiento son:
 4. no se exportan
 5. no se ven en las column-view (tambien hay variable)
 
-** Archivamiento externo                                          :Archivar:
+** Archivamiento externo :Archivar:
+
 [2018-10-14 dom 13:00]
 mover un tree a un archivo externo de archivamiento:
 C-c $ org-archive-subtree
 el archivo tiene el mismo nombre con la terminacion _archive
 ej. habitos.org habitos.org_archive
 
-** tag searching regexp sobre tags                                  :SEARCH:
+** tag searching regexp sobre tags :SEARCH:
+
 [2018-10-14 dom 14:44] Instead of a tag, you may also specify a
 regular expression enclosed in curly braces. For example,
 ‘work+{^boss.*}’ matches headlines that contain the tag ‘:work:’ and
 any tag starting with ‘boss’ [[https://orgmode.org/manual/Matching-tags-and-properties.html][The Org Manual: Matching tags and
 properties]] Se puede armar el tag searching con una expresion regular
 del tag pero encerrandolo en llaves.
-** armado de tag search con los status de TODO                      :SEARCH:
+
+** armado de tag search con los status de TODO :SEARCH:
+
 [2018-10-14 dom 14:47]
 ‘work/WAITING’
    
@@ -131,7 +149,9 @@ del tag pero encerrandolo en llaves.
 Al mezclar un tag como 'work' en este caso con property como
 TODO="WAITING" se toma un atajo
 ‘work+TODO="WAITING"’ pasa a ser 'work/WAITING' directamente
-** uso de fechas en tag/property search                             :SEARCH:
+
+** uso de fechas en tag/property search :SEARCH:
+
 [2018-10-14 dom 14:54] If the comparison value is a plain number, a
 numerical comparison is done, and the allowed operators are ‘<’, ‘=’,
 ‘>’, ‘<=’, ‘>=’, and ‘<> ’.
@@ -155,8 +175,9 @@ PRIORITY SCHEDULED TAGS TODO TIMESTAMP TIMESTAMP_IA entre otras que
 funcionan como las propiedades que definimos nosotros y aca tenemos
 una busqueda mixta entre propiedades y tags. Entonces aca aplica hacer
 busquedas con las propiedades que tienen fecha.
- 
-** seteado inicial                                            :ENCRIPTACION:
+
+** seteado inicial :ENCRIPTACION:
+
 [2018-10-14 dom 17:03]
 (require 'org-crypt)
 (org-crypt-use-before-save-magic)
@@ -176,7 +197,9 @@ GPG, y setie un global set key a Ctrl8 para decryptar los outlines pq
 es tedioso meter la orden.
 
 [[https://orgmode.org/worg/org-tutorials/encrypting-files.html][Encrypting org Files.]]
-** problema con autosave                                      :ENCRIPTACION:
+
+** problema con autosave :ENCRIPTACION:
+
 [2018-10-14 dom 17:09]
 Auto Save Files
 
@@ -201,24 +224,31 @@ I disable the default org crypt auto-save setting as follows:
 
 [[http://doc.norang.ca/org-mode.html][Org Mode - Organize Your Life In Plain Text!]]
 El problema es que te lo pregunta org mode continuamente y es molesto.
-** conceptos basicos                                                :TABLAS:
+
+** conceptos basicos :TABLAS:
+
 [2018-10-14 dom 22:42]
 1. ¿Cual es la mejor forma de generar una tabla rapidamente?
 2. ¿Como generamos una linea horizontal?
 3. ¿Por que conviene moverse con Tab STab entre celdas de la tabla?
 4. ¿Como podemos convertir una region csv o tabulada en tabla y que
    precaucion hay que tener?
+
 **** Contenidos
 ***** Lo mejor es escribir |campo|campo|campo|campo <Tab> y el encabezado se arma solo
 ***** un guion inmediato a pipe |- produce luego de realinear una linea horizontal
+
 o se puede hacer Cc-Cc para realinear en el momento
+
 ***** Conviene moverse entre celdas con tab-Stab para que se asuma como celdas el contenido
+
 y eso hace que sobreescribamos lo que hay
 
 | t | t | t  |
 | j | 5 | 99 |
 | j | a | f  |
 |   |   |    | 
+
 ***** Convertir una region en tabla
 
 t,j,k,l,m
@@ -250,9 +280,12 @@ Sin region el comando Cc | crea una tabla vacia
 |   |   |   | b |   | a |   |
 | a | . | m | . | l |   |   |
 
-** conceptos intermedios                                            :TABLAS:
+** conceptos intermedios :TABLAS:
+
 [2018-10-14 dom 22:44]
+
 **** Sort table
+
    Cc ^  sort table numeric/alphabetic/time (tambien en reversa con
    las opciones en mayuscula)
    la columna usada para el sort es la active cuando llamamos el
@@ -267,20 +300,29 @@ P.D. conviene usar org-table-sort-lines pq conseguir en este teclado
 la secuencia es cumbersome. Y el comando es casi en english directo.
 Recordar que en caso de lineas horizontales se sortea lo que esta
 entre linea y linea. no toda la columna.
+
 **** Agregar una linea horizontal
+
    Cc -
+
 **** Mover filas o columnas
+
    M-left-right mueve columnas
    M-up-down mueve filas
+
 **** Borrar o agregar filas o columnas
+
 | M-S-left  | borra la columna actual                  |
 | M-S-right | agrega una columna en la posicion actual |
 | M-S-up    | borra la fila actual                     |
 | M-S-down  | agrega una fila en la posicion actual    |
 
-** conceptos avanzados                                              :TABLAS:
+** conceptos avanzados :TABLAS:
+
 [2018-10-14 dom 22:48]
+
 **** sumar
+
    C-c + suma los items de la columna activa y C-y los pastea.
    O sea si estamos en una fila totalizadora hacemos C-c + y Cy y
    tenemos la suma puesta
@@ -294,7 +336,9 @@ entre linea y linea. no toda la columna.
 | 20 | 33 | 18 | 18 |
 |----+----+----+----|
 #+TBLFM: @6$3=@5$3+@4$3::@6$4=vsum($3)
+
 **** copiado y llenado
+
    Con M-RET se va copiando e incrementando los valores en una
    columna.
    Numericamente con +1 y fechas tambien con +1, letras no.
@@ -315,6 +359,7 @@ entre linea y linea. no toda la columna.
 ***** Cc } turn on numeros de fila y columnas
 ***** cc ? sobre una celda te muestra en buffer la direccion
 ***** Formulas de toda la columna o toda la fila
+
 Cuando introducimos una formula en una celda normalmente =vsum() etc
 y aparece abajo la linea de formulas,con el lado izquierdo de la
 ecuacion nombrando la direccion de la celda y la derecha la formula
@@ -337,7 +382,9 @@ Aca hice que la fila 11 sea una suma de las columnas en celdas de fila
 |----+-----+----+----+----|
 | 36 | 124 | 52 | 68 | 28 |
 #+TBLFM: @11=vsum(@2..@9)
-***** forma de referenciar las filas y columnas                    :anki:
+
+***** forma de referenciar las filas y columnas :anki:
+
 | @2$3   | 2nd row                                  | 3rd column (same as C2)   |
 | $5     | column 5 in the current row (same as E&) |                           |
 | @2     | current column                           | row 2                     |
@@ -348,35 +395,45 @@ el ultimo caso es muy interesante pq permitio solucionar el tema de
 medical en donde queria sumar una tabla que iba creciendo y no queria
 tener que actualizar la formula y entonces con @>$2 referencio la
 ultima row de la columna 2.
-  
-** clocking                                                          :CLOCK:
+
+** clocking :CLOCK:
+
 [2018-10-14 dom 23:01]
-*** clock in - clock out 
+
+*** clock in - clock out
+
 org-clock-in org-clock-out Cc-Cx-Ci Cc-Cx-Co
 bindeadas a F2/F3 
 cuando comenzamos un clock en un lado y hay otro corriendo se cierra
 solo
 se puede corregir a mano el lapso de tiempo con S-up/down sobre el
 tiempo de algun lado del rango
+
 *** org-clock-report Cc-Cx-Cr
+
 crea una tabla con el total del tiempo clockeado
 en begin pregunta el nivel de recursion que va a controlar
 Cc-Cc sobre BEGIN recalcula la tabla
 
 
 [[file:~/orgblok/edu-orgmode.org::*clock%20in%20-%20clock%20out][clock in - clock out]]
-* tcl                                                                   :TCL:
+
+* tcl :TCL:
 ** enviar señal break
+
   con un proc enviar señal de break
   return -code break
 
 ** freezar columnas en el tablelist
+
   tbls configure -titlecolumns 4
 
 ** hacer que una columna sea numerica o muestrenumeros
+
   tbls columnconfigure n -showlinenumbers yes (o 1)
 
 ** regsub
+
   regsub {^0} [funcion] {} var
   saco el 0 inicial del resultado de una funcion que me entregaba valores del 
   dia de una fecha y algunos eran rechazados como octales p.e. 09 08 y por eso 
@@ -385,7 +442,9 @@ Cc-Cc sobre BEGIN recalcula la tabla
   O sea 1ro la regexp a buscar luego el texto, tercero la expr para cambiar y 
   cuarto la variable que contendra el texto cambiado, y regsub responde 1 o 0 
   segun tuvo o no tuvo exito.
-** siempre que hay un error no existe la "columna" Amancio 
+
+** siempre que hay un error no existe la "columna" Amancio
+
 o sea no existe la columna con el nombre de un dato, Cabildo, Alvarez,
 Heredie, o el dato que estamos buscando, es porque no lo hemos quotado
 al dato en el where y sqlite lo esta tomando literal y no encuentra en
@@ -396,10 +455,12 @@ lo busca como dato, lo que pasa que en una construccion como
 donde el $buscar es el valor entrado uno se olvida de quotar ese valor
 y entra crudo a sqlite, y uno desconfia de tablelist, o del proceso de
 tcl (en este caso el tabule)y era el puto sqlite que estaba negando el resultado.
+
 * tablelist
 * sqlite
-* python                                                             :PYTHON:
+* python :PYTHON:
 ** comandos interesantes pycharm
+
 [2018-10-10 mié 18:33]
 | S-F6  | refactorizar-rename | rename all ocurrences symbol |
 | C-F12 | buscar symbol       |                              |
@@ -409,9 +470,11 @@ tcl (en este caso el tabule)y era el puto sqlite que estaba negando el resultado
 |       |                     |                              |
 
 ** varios de tcl/tablelist/sqlite para python
+
 [2018-10-14 dom 21:13]
 
 *** class Tbls
+
 - ponemos la propiedad expandcommand a la funcion que ejecutara el expand
 - el expandcommand tiene como argumentos tbl y row dados por nemethi
 - sacamos facilmente el node con un getcell
@@ -439,34 +502,48 @@ tblrecorridos.pack(anchor=W)
 tblrecorridos.llenatree(con,'select * from recorrido order by id desc')
 tblrecorridos['expandcommand']=recorridos_exp
 #+END_SRC
+
 *** Buscar
+
 clase que entrega un cuadro de busqueda generalizado y permite
 trabajar rapido con el idcliente.
+
 **** Instanciado
+
 buscar = Buscar(frame,con,wtbl=100)
 el wtbl permite regular el ancho del tbls de busqueda
 conviene hacerlo con un frame en el cual pongamos y regulemos el
 packeado de los otros elementos que adosemos, o sea no usar el tab
 entero.
+
 **** obtener el idcliente
+
 buscar.get() 
 entrega el idcliente buscado
+
 **** Movimientos dentro del cuadro de busqueda
+
 | c           | busca en la casa           |
 | C           | busca en la cuadra         |
 | u           | sube al cuadro de busqueda |
 | enter       | selecciona el cliente      |
 | doble click | idem                       | 
+
 **** como bindear en particular sobre la seleccion del cliente
+
 buscar.t.body_bind('<<Enter>>',lambda ev: funcion(),add=1)
 Ojo el add=1 permite sumar este bind al que viene ya empacado y no
 sustituirlo lo que dejaria sin funcionalidad al cuadro.
+
 **** anexo BuscarConPadron
+
 | f F   | dni    | busca por dni fem    | pone solo los ceros a la izq |
 | m M   | dni    | busca por dni masc   | --                           |
 | pf pF | nombre | busca por nombre fem | pf'Filippi Pastora'          |
 | pm pM | nombre | busca por nombre mas | pm'Salvay Daniel'            |
+
 *** editar tbl
+
 #+BEGIN_EXAMPLE
  def editarvta(tbl,row,col,text):
             idvta = self.cuentas.cuentascliente.getcell(row,'id')
@@ -476,24 +553,36 @@ sustituirlo lo que dejaria sin funcionalidad al cuadro.
             con.commit()
             return text
 #+END_EXAMPLE
+
 ***** referenciar tbl
+
 no anda
+
 ***** idvta
+
 obtengo el id con getcell como es habitual, podria hacerlo con row
 active, pero uso el row que me da el proc nemethi, ojo es una variable
 python, poner row, no 'row'
+
 ***** campo
+
 es lo mas sutil, obtengo el nombre del campo que se esta editando con
 el columncget sobre la propiedad -name usando el col que da nemethi
+
 ***** upd
+
 ahi armo el upd. pongo el nombre del campo con format de python y los
 valores del campo y el id con parametros de sqlite, asi no tengo que
 lidear con interpretaciones erroneas.
 upd='update ventas set {} = ? where id=?'.format(campo)
+
 ***** execute
+
 hago el con.execute como es habitual, pasando los parametros como
 cualquier otra execute, y commit.
+
 ***** return text
+
 para que el tbl muestre el valor editado
 
 
@@ -508,37 +597,49 @@ Falta por ultimo poner como configuracion al tbl, editendcommand el
 proc que va a hacer todo esto que tiene 4 parametros tbl/row/col/text.
 y tmb indicar cuales columnas seran editables, usualmente si son
 muchas las hago con un for, poniendo columnconfigure editable=1
+
 *** combobox ttk
+
 #+BEGIN_EXAMPLE
 calles=[x[0] for x in con.execute('select calle from calles order by calle').fetchall() if x[0]]
 calle=ComboBox(self)
 calle.setvalues(calles)
 #+END_EXAMPLE
+
 **** simplemente llamamos el combobox con la class ComboBox asi sin nada mas.
 **** el setvalues va como metodo no como propiedad!!!
+
 o sea pongo calle.setvalues(lista) en este caso.
+
 **** no hace falta poner autocomplete pq todos lo son
 **** son case insensitive en su sorted
 **** notar la forma compacta de hacer la lista
 **** que es ese if x[0]
+
 en la lista de zonas no se porque me aparecio un valor null o sea None
 y pitio el metodo sortear dentro del combo, como que no admite valores
 nulos para ponerlos a lower (pq sortea a lower), entonces en la lista
 generada le pongo la condicion que el valor listado exista o sea no
 sea nulo o sea if x[0]
+
 **** ejemplo con seteado extra para recalculo y setvalues directo
+
 #+BEGIN_EXAMPLE
 barrio=ComboBox(self,width=22)
 barrio.setvalues([x[0] for x in con.execute('select barrio from barrios order by barrio').fetchall() if x[0]])
 barrio.setvaluesrecalc(con,'select barrio from barrios order by barrio')
 #+END_EXAMPLE
+
 **** los combobox ttk se setean directo no con setvalue como bwidget
+
 #+BEGIN_EXAMPLE
 zona.set(cliente['zona'])
 barrio.set(cliente['barrio'])
 calle.set(cliente['calle'])
 #+END_EXAMPLE
+
 *** capturar errores
+
 #+BEGIN_EXAMPLE
 try:
    con.execute(delete, (id,))
@@ -556,52 +657,71 @@ uso la salida para emitir el mensaje, como que la salida del except es
 la aclaracion del error que tira la consola.
 Yo ahi hice un balloon pero podria hacerse un cuadro de mensaje
 facilmente.
+
 *** strftime de sqlite
+
  strftime(format, timestring, modifier, modifier, ...) 
 pero %y no existe como format, no es el año en dos digitos, y da error
 o te da None a toda la cadena.
 
 * instalacion ubuntu
-* vim                                                                   :VIM:
+* vim :VIM:
 ** Vim - mejorado
 *** Busqueda
 **** Busqueda de palabra bajo el cursor (*|#)
+
 Esa caracteristica viene out the box y es inigualable, y me resulta
 impresindible y en emacs no la puedo lograr asi de una.
 Incluso el resaltado (o subrayado) queda hasta que expresamente lo
 saques. Y lo buscado queda linkado para seguirlo usando.
+
 **** Esta la busqueda al toque con / y sus repetidos n|N
 **** Busqueda global en el proyecto con Acw
+
 Eso es genial pq te muestra en ventana aparte las ocurrencias de lo
 que buscas y podes ir directamente alli sin perder la ventana de
 busqueda.
 Incluso funciona aun fuera del proyecto indicandole el directorio.
+
 **** Reemplazo eficiente y seguro con :%s//
+
 :%s/buscar/reemplazar/gc   o sea % busca en todo, g global y c
 confirma y tambien se podria hacer en un area :5,25s/busca/reemplaza
 lo cual habria que acostumbrarse a usarlo pq es muy util cuando
 queremos hacer un reemplazo sobre una parte del archivo.
+
 *** Files
 **** apertura normal
+
 la apertura out the box es muchisimo mas rapida que en emacs. 
 :e y al toque escribis la ruta con autocompletado y ahora con el
 wildmode ves los resultados en la barra los cuales podes moverlos con
 teclas de movimiento. 
+
 **** ctrlP
+
 con ese plugin abris cualquier archivo en el directorio actual (el
 cual genialmente te lo cambia de acuerdo al archivo que tengas por
 delante) y te moves facilmente dentro de el
+
 **** NERDTree que lo tengo linkeado a F3
+
 Lo unico que no logre que me funcione el toggle o una forma de
 cerrarlo.
 Es un explorer ahi en tu area de trabajo. Falta aprenderlo nomas.
+
 *** Movimientos
 **** Entre buffers ultrarapido Ctrl up|down bn|bp
+
 Con ese linkeado me muevo como luz entre buffers. Si tuviera muchos
 abiertos ctrlp tiene busqueda sobre buffers.
+
 **** Entre tabs con Ctrl right|left
+
 idem anterior.
+
 **** Entre ventanas Ctrl j|k l|h
+
 La facilidad enorme de abrir split con 
 | :sp         | abre split horizontal                  |
 | :vsp        | abre split vertical                    |
@@ -615,35 +735,46 @@ La facilidad enorme de abrir split con
 |             |                                        |
 Y con los bindkey echos a Ctrl jklh saltas de ventana en ventana en un
 tris.
+
 **** :jump history Ctrl i/ Ctrl o
+
 Esa caracteristica out the box es genial y yo nunca la use. Es algo
 muy util al programar pq a veces te moves en distintos lugares de un
 archivo y estos mostros te guardan 100 lugares donde estuviste. (Creo
 que hace innecesario las marcas, o los inusables bookmarks de atom).
+
 **** :changes S-left S-right
+
 es mucho mas util que jump
 
 *** Auxiliares de programacion
 **** Autocompletado con jedi
+
 Ya habia notado antes que vim con jedi que funciona bastante bien te
 permite programar facilmente, pq instrospecciona las clases y te
 muestra practicamente la ayuda en linea, en mayor o menor medida, en
 especial para tus propias clases y argumentos necesarios.
+
 **** Tagbar
+
 con un simple F4 tengo al lado la ventana de navegacion, en la cual
 ves el esquema y te moves en el.
+
 **** superTab
+
 parece que viene en auxilio de jedi en las autocompleciones anodinas
 que son las que mas causan error.
+
 **** En realidad he podido prescindir de jedi
+
 parte pq en la netbook me enlentece demasiado y parte pq es invasivo a
 nivel pantalla
+
 *** boton medio pegar clipboard
+** comandos recuperados
 
-
-
-** comandos recuperados                                             
 [2018-10-14 dom 13:21]
+
 ** Comandos descubiertos o redescubiertos
 
 | C   | Cambia el resto de la linea | emacs C-k |
@@ -652,26 +783,27 @@ nivel pantalla
 | U   | en visual Upper case        |           |
 | ciw | change integer word         |           |
 
-
 ** Nuevos atajos
+
 | e            | enclose word con quote |
 | s            | commenting a line      |
 | S-left-right | ir al ant-pos change   |
 |              |                        |
 
-
-
-** Comandos que siempre he usado y son utiles  
+** Comandos que siempre he usado y son utiles
 
 | cw | cambia la palabra | emacs M-d | 
 |    |                   |           | 
 
 ** Aspectos que no conocia
-*** :changes 
+*** :changes
+
 te lleva adelante o atras a los cambios reales hechos en el archivo e
 incluso permanece tras cerrar el archivo. Ideal para volver donde
 estabamos.
+
 *** C-r en insersion mode
+
    te aparece unas comillas y alli puedes poner el numero de registro que 
    quieres insertar.
    se puede ver en :reg
@@ -679,25 +811,24 @@ estabamos.
 
 ** Aspectos que son interesantes
 *** un undo y redo separado e ilimitado.
+
 Incluso con horario que lo vas viendo. En emacs te confunde un poco el
 que mezcle undos y redos.
 
-
-   
 ** arreglos en vim para mayor eficiencia
 *** buffer previo y next con [ ]
 *** apertura rapida de archivos usados frecuentes con ;6 ;7 etc
 *** apertura de orgblock ;9  Explore
-*** reinicio de pomodoro con ;0 
+*** reinicio de pomodoro con ;0
 *** magit facil
+
    inicio con :Magit
    stash con S
    commit con CC
 
-
-
 *** nuevos plugins
 **** CtrlP
+
     busqueda de archivos en general con C-b o C-b cambio el tipo de busqueda 
     en tres posibles: mru files buf o sea archivos recientes files o buf
     una vez buscamos el archivo introduciendo el nombre, el path lo tenemos a 
@@ -710,52 +841,70 @@ que mezcle undos y redos.
     para ir al directorio padre usar ..
 
 **** superyank
+
     usar Alt-p o Shift-Alt-p para ciclar entre el reg de yanks
+
 **** tagbar
+
     instalar desde el apt exuberant ctags
     en el directorio correr ctags files en este caso en tcl1 ctags *.tcl
     luego con tagbar (keybindeado a F4) te aparece el resumen de proc o clases 
     y metodos. Interesante en proyectos complejos
 
-    
 *** insertar fecha emulando fecha inactiva de orgmode
+
 :put =strftime('[%F %a]')
 put =strftime('[%F %a]')
+
 **** [2018-03-07 mié]
+
     entrada del dia 
+
 ***** [2018-03-07 mié]
+
      entrada del dia
-        
+
 ***** 
-** vimorg    
+** vimorg
 *** movimiento de subtrees
+
    al final tanto lio y se logra con delete y pegado te borra y pega el tree 
    completo mas intuitivo que emacs
 
 * linux
-** crear un usb con una distro con dd                                :LINUX:
+** crear un usb con una distro con dd :LINUX:
+
 [2018-10-10 mié 21:18]
 con lsblk averiguamos la letra de asignada al usb.
 No desmontar como dicen por ahi
 sudo dd if=/home/... ubic del iso of=/dev/sdb bs=1M
 
-* SOLUS                                                         :instalacion:
-** instalacion de TCL en solus                                       :SOLUS:
+* SOLUS :instalacion:
+** instalacion de TCL en solus :SOLUS:
+
 [2018-10-10 mié 23:14]
 ningun archivo de tcl esta. 
 Entonces instale ActiveState en un directorio de Home para luego
 borrarlo y fui moviendo subdirectorios a pedido de acuerdo a lo que
 demandaban los programas.
+
 *** pdf4tcl
+
 que lo instale desde el backup mio
-*** tablelist 
+
+*** tablelist
+
 que baje la ultima version
+
 *** tcllib1.18
+
 pq F13.tcl me pedia snit para que funcionara pdf4tcl
+
 *** tklib...
 *** bwidget
 *** Img
 *** itcl y itk
+
 alli vino el problema pq me daba un error que yo asumi que era una
 gran incompatibilidad y luego cuando lei bien decia algo como que: 
 Error in startup script: Can't find a usable itk.tcl in the following directories:
@@ -764,8 +913,10 @@ This probably means that Itcl/Itk weren't installed properly.
 o sea que no encontraba el directorio de itk directamente en /usr/lib
 no dentro de tcl8.6 como estan todos, entonces lo copie directo a
 /usr/lib  y anduvo perfecto.
+
 *** directorio en solus para tcl /usr/lib/tcl8.6/
-** problema con los modulos python                                   :SOLUS:
+** problema con los modulos python :SOLUS:
+
 [2018-10-10 mié 23:51]
 no tiene pip3, entonces se instalan con pip, de una, y hay que hacerlo
 con sudo.
@@ -779,9 +930,8 @@ directorios con dateutils paso asi.
 No obstante se me trabo fastnumbers que no anda y parece un bug que
 hasta esta en la web, asi que voy a ver si lo desinstalo.
 
+** instalacion de hp1102 en solus :SOLUS:
 
-
-** instalacion de hp1102 en solus                                    :SOLUS:
 [2018-10-11 jue 15:00]
 1) instalar en solus HPLIP
 2) en un terminal poner hp-setup y seguir las indicaciones
@@ -789,14 +939,18 @@ hasta esta en la web, asi que voy a ver si lo desinstalo.
 nada mas que eso. Y se soluciono el problema de la cola de impresion,
 que tenia un dia atras en xubuntu aparentemente, pq anda bien, lo
 unico que con otras fuentes se imprimen los listados
-** problema con hibernacion                                          :SOLUS:
+
+** problema con hibernacion :SOLUS:
+
 [2018-10-11 jue 15:04]
 tuve dos casos de que luego de equis minutos la maquina no respondia,
 y tuve que resetearla, pienso que es pq la configuracion de energia
 esta para entrar en hibernacion y esta maquina de escritorio queda en
 estado loco. Lo desactive. veremos que pasa. 
+
 * impresoras
 ** impresora hp no anda luego de cambio toner
+
 [2018-10-10 mié 16:01]
 da retenido y no arranca, resetie maquina y nada, cambie usb de lugar
 y nada, borre impresora y nada, cuando prendia no se instalaba sola
@@ -808,9 +962,11 @@ Pero no quedo como antes, sino que cuando le mando varios trabajos no
 los hace. incluso si es muy grande no lo procesa y a la segunda vez
 que se lo mando lo procesa. 
 es como si estuviera rota la cola de impresion.
+
 * otras bases de datos
-** postgres 
+** postgres
 *** superusuario por defecto postgres
+
 El super usuario predeterminado de PostgreSQL se llama
 postgres. Deberá ingresar con este usuario la primera vez.
 
@@ -818,25 +974,34 @@ sudo su postgres
 password de linux para sudo 
 
 postgres@herohp: asi es el prompt
+
 *** creacion de un user nuevo
+
 createuser --createdb --username postgres --no-createrole--pwprompt hero
 alli creo el usuario hero que tiene la capacidad de crear database
 pero no de crear usuarios (roles) y me pide password 
+
 *** crear database
+
 las cree con pgAdmin en forma grafica 
+
 *** ir a una database concreta y salir de ella
+
 postgres@herohp: psql romitex
 romitex#  create table calles(id int,calle varchar(80));
 CREATE TABLE
 romitex# \q  ---> salir de la database
-*** copiar datos desde un CSV 
+
+*** copiar datos desde un CSV
+
 con esto migro facilmente los datos
 
 COPY calles FROM '/home/hero/rx/calles.csv' CSV HEADER;
 y alli copia todo.
 
 * Refile
-** Superbrowser para emacs  :w3m:
+** Superbrowser para emacs :w3m:
+
 [2018-10-14 dom 15:40]
 instale con un atajo C-9 un navegador ultrarapido para emacs (me
 llamaba la atencion que el eww no fuera rapido) y tiene muchisimas
@@ -851,12 +1016,15 @@ bookmark v para ver los bookmark q para salir y asi sucesivamente pero
 tiene tres menu dedicados o sea que tenes para aprenderte los atajos.
 
 [[http://sachachua.com/blog/2008/08/why-browse-the-web-in-emacs/][Why browse the Web in Emacs? –]]
+
 ** w3m :emacs:instalacion:
+
 [2018-10-21 dom 18:55]
+
 *** instalar w3m en eopkg
 *** instalar w3m en package-install
-
 ** balloon ubicado en celda precisa de tablelist :tcl:
+
 [2018-10-24 mié 16:01] balloon [$itk_component(tablelist) editwinpath]
  [diasemana [clock format [clock scan $f -format "%Y-%m-%d"] -format
  "%u"]]
@@ -864,3 +1032,21 @@ con editwinpath obtengo el widget que se esta editando entonces
  balloon va a situarse alli que es lo que yo quiero
 
  [[file:/run/media/hero/bora/itk2.tcl::balloon%20%5B$itk_component(tablelist)%20editwinpath%5D%20%5Bdiasemana%20%5Bclock%20format%20%5Bclock%20scan%20$f%20-format%20"%25Y-%25m-%25d"%5D%20-format%20"%25u"%5D%5D]]
+
+* Tplink :instalacion:
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 22:20]
+:END:
+
+** Extensor de red
+:PROPERTIES:
+:CREADO:   [2018-10-29 Mon 22:24]
+:END:
+
+1. Bajar apk tether
+2. Buscar aparatos para lo cual
+3. Conectarse a la wifi del extensor
+4. Resetear el extensor enchufado con una lapicera y encendera todas las luces con eso olvidara la programacion anterior
+5. Aparecera el aparato elegirlo y seguir las instrucciones 
+
+

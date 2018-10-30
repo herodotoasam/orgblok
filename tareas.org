@@ -199,3 +199,146 @@ Hasta las 19.15 sigo con migraña.
 
 Poner pin de seguridad a dni.tcl para q en caso de q roben el celu podas proteger la app si fallan el pin mas de 5 veces seguidas se borra la base de datos y los programas. 
 
+* TODO [#A] Comprar extractor :oficina:
+SCHEDULED: <2018-10-30 Tue>
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 09:12]
+:END:
+
+* TODO [#A] Hacer caja
+SCHEDULED: <2018-10-30 Tue>
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 09:13]
+:END:
+
+* Text Note: Org-mode Frequently Asked Questions :orgmode:
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 12:18]
+:END:
+
+Why is a blank line inserted after headlines and list items?
+In org-mode, typing M-RET at the end of a headline will create a new headline of the same level on a new line. The same is true for plain lists. By default org-mode uses context to determine if a blank line should be inserted after each headline or plain list item when M-RET is pressed. For instance, if a there is a blank line before a headline, then typing M-RET at the end of the line will insert a blank line before the new headline. For instance, hitting M-RET at the end of "Headline Two" below inserts a new headline without a blank line:
+
+ ** Headline One
+ ** Headline Two
+ **
+
+If there is a blank line between Headline One and Headline Two, however, the results will be as follows:
+
+ ** Headline One
+
+ ** Headline Two
+
+ **
+
+If you do not like the default behavior you can change it with the variable org-blank-before-new-entry. You can set headings and/or plain lists to auto (the default setting), t (always), or nil (never).
+
+https://orgmode.org/worg/org-faq.html#keeping-current-with-Org-mode-development
+
+
+
+Sent using Zoho Notebook - Android
+
+* Text Note: Org-mode Frequently Asked Questions :orgmode:
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 12:18]
+:END:
+
+How can I promote or demote multiple headlines at once?
+If you have a long list of first level headlines that you'd like to demote to second level headlines, you can select the headlines as a region and then hit M- to demote all the headlines at once.
+
+Note: M-S- will not work on a selected region. Its use is to demote a single subtree (i.e., a headline and all sub-headlines).
+
+If M- doesn't seem to work, make sure transient mark mode is enabled. See this FAQ.
+
+https://orgmode.org/worg/org-faq.html#keeping-current-with-Org-mode-development
+
+
+
+Sent using Zoho Notebook - Android
+
+* negligencias
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 12:44]
+:END:
+
+negligencias
+
+❏ service bora dejan todo el dia el auto no hacen nada
+❏ claro dos chip reclaman dos telefonos cortan linea
+❏ garbarino flete helader
+❏ tramite gol prenda bco nacion/gestor
+❏ fibertel instalacion dpto
+❏ arnet instalacion dpto
+❏ lacaja seguro bora
+
+
+* Wunderlist - Peso
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 12:46]
+:END:
+
+Peso
+
+❏ 25/9/18 83.60 limpio
+❏ 8/6/18 85.16 botas
+❏ 15/5 84.4k botas 2k
+❏ 2/5/18 83.95 
+❏ 28/4 82.2 k fede
+❏ 11/4/18 84.5k limpio
+❏ 11/3 84.6 limpio
+❏ 12/1/18 87kg
+❏ 11/12/17 88.6k limpio
+❏ 18/10 92.70 limpio
+❏ 18/9/17 91.34 limpio
+❏ 10/08/17 93.3 con botas
+❏ 7/7/17 92.7 con botas y campera
+❏ 4/5 89.6
+❏ 24/3 89.6
+❏ 27/8 85.9
+❏ 30/7 87.2 con botas en casa
+❏ 21/5 87.4 -2 85.4
+❏ 7/5 84.1
+❏ 16/4 84.1
+❏ 2/4 84.9
+❏ 20/2 87.9
+
+
+
+
+* Wunderlist - Numbers
+:PROPERTIES:
+:CREADO:   [2018-10-30 Tue 12:47]
+:END:
+
+Numbers
+
+❏ orozco1493 hfj050 ataraxia76
+❏ clave wifi ofi romitex123
+❏ TN IH 623isabel ✭
+❏ cable vera romitexcba@gmail ataraxia
+❏ turnos hp Orozco96
+❏ ospe web Orozco96
+❏ Bolsa riñón 35x45
+❏ Fibertel dpto hfj024 ataraxia
+❏ Naranja online hfj024 ataraxia76
+❏ Telecom mariaisaheredie  1493
+❏ Ecogas verá mariaisaheredie ataraxia76.
+❏ Mariaisaheredie@gmail ataraxia76
+❏ Cidi Isabel Ataraxia76 
+❏ Orozco96.JujuY nueva hfj024 
+❏ Caruso SALVAY542 orozco96
+❏ HP Orozco96
+❏ Orozco96 1493
+❏  ataH2132**/asam3161 ✭
+❏ Aguas hfj024 ataraxia76
+❏ Telecom romi romitexcba 3161
+❏ Mia 390-107/2 ✭
+❏ Tipo 000-18426/7 ✭
+❏ Here ata3161
+❏ Sony ata3161.
+❏ ataH2132.
+❏ Clarin  Herrera796
+❏ Estereo 1206 luego >>>> hace beep
+
+
