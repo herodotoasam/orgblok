@@ -80,16 +80,21 @@ desfasaje que tenemos ahora pq es un despelote maximo el que tenemos.
 **** ¿cuanto puede incidir en la ecuacion la ventita de bolsita?
 
 ** eventos
-| [2018-10-02 mar] | 808 | no cobro nada     | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
-| [2018-10-02 mar] | 809 | falto             |                                                                  |   |   |
-| [2018-10-03 mié] | 809 | falto             |                                                                  |   |   |
-| [2018-10-04 jue] | 809 | falto             |                                                                  |   |   |
-| [2018-10-10 mié] | 802 | falto             | no llamo ni escribio                                             |   |   |
-| [2018-10-11 jue] | 802 | mande wapp        | contesto esta enfermo mando fotos de estudios/posible apendice   |   |   |
-| [2018-10-11 jue] | 800 | falta-lluvia      | avisa                                                            |   |   |
-| [2018-10-18 jue] |     | lluvia dispersa   | fuerte por momentos                                              |   |   |
-| [2018-10-19 vie] |     | llovizna dispersa |                                                                  |   |   |
-| [2018-10-22 lun] |     | llovizna dispersa |                                                                  |   |   |
+| [2018-10-02 mar] | 808 | no cobro nada                        | 815 refirio que sufrio ataque nervio, llanto y tuvo que llamarla |   |   |
+| [2018-10-02 mar] | 809 | falto                                |                                                                  |   |   |
+| [2018-10-03 mié] | 809 | falto                                |                                                                  |   |   |
+| [2018-10-04 jue] | 809 | falto                                |                                                                  |   |   |
+| [2018-10-10 mié] | 802 | falto                                | no llamo ni escribio                                             |   |   |
+| [2018-10-11 jue] | 802 | mande wapp                           | contesto esta enfermo mando fotos de estudios/posible apendice   |   |   |
+| [2018-10-11 jue] | 800 | falta-lluvia                         | avisa                                                            |   |   |
+| [2018-10-18 jue] |     | lluvia dispersa                      | fuerte por momentos                                              |   |   |
+| [2018-10-19 vie] |     | llovizna dispersa                    |                                                                  |   |   |
+| [2018-10-22 lun] |     | llovizna dispersa                    |                                                                  |   |   |
+| [2018-10-26 vie] |     | ultimo de dia de atencion de oficina |                                                                  |   |   |
+| [2018-10-28 dom] |     | instalo Solus OS                     | llevo nuevamente impresora Laser                                 |   |   |
+| [2018-10-31 mié] |     | Romi lleva bancos y pizarra nueva    |                                                                  |   |   |
+| [2018-10-31 mié] |     | instalo carpeta planos pdf           |                                                                  |   |   |
+|                  |     |                                      |                                                                  |   |   |
 ** bitacora
 *** [2018-10-03 mié] 
 **** 815/808 cagada a pedo respecto a 808 que anda mal y no se presenta

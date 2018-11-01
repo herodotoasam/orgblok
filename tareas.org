@@ -25,21 +25,6 @@ Se podrían hacer múltiples. bind en tablet list para allá en facilitación de
 
 Podría ser que cuando se va bajando en el fechar renglón por renglón y uno pusiera o apretar a un botón decisión que tú ir incrustado en el tablero y se abrir una ventana emergente donde estuvieran todos los campos editable y uno atrás de otro con un encabezado fijo de los datos del cliente editar con los datos fijos y todos los campos editables que suelen surgir cuando uno está editando el estado que hay podría hacer editar una dirección editor teléfono y ello tener digamos acceso a la Macro de guardar a ex dirección y a su vez que podamos evitar digamos todo lo que es aclaración horarios mensaje al cobrador y comentarios y poner tag de gestión tag mudado tarde bueno todo lo otro está que todavía no están programados como tag de no vender más tarde a la venta s13 tras subir al se deben emitir intimaciones ese te lo deseo todo el trabajo del cliente que se haga en una ventanita en forma más segura una que se terminó con el cliente se pone guardar eso se pliega Y si sigue con el cliente entonces esa sería una forma muy eficiente porque se trabajaría sobre un listado sobre una planilla pero al aves se abriría una ventana donde estarían todas las facilidades de trabajo dentro de esa ventana que no sería muy grande sino que sería más o menos compacta para que no oculte del todo el listado que esté abajo
 
-* Algunas cosas q se cruzan
-:PROPERTIES:
-:CREADO:   [2018-10-26 Fri 16:41]
-:END:
-
-Matetes
-De como me cambio la vida quedarme sin auto y eso no se compensó con haber comprado la casa ni haber vivido en dpto
-Que haber tenido q vivir en jujuy me mato por el ruido
-Que la oficina me mato por la falta de tiempo en q me sumio
-Que retirarme ahora supuestamente a descansar es un peligro para mi pq cedo la unica porcion de poder q me queda
-Que creo q me tengo q recuperar en silencio de a poco. 
-Pero los problemas q basicamente tengo no van a desaparecer.
-Quizas veo todo muy malo pq estoy cansado.
-
-
 * Planes de pago :IDEA:
 :PROPERTIES:
 :CREADO:   [2018-10-27 Sat 11:55]
@@ -58,20 +43,6 @@ Y reescribir los procesos virtuales q producen on the fly el cuotaje y el pagaje
 Como se haria con los casos en q son dos las cuentas. Para no partir el plan de pagos y siendo q nace de un acuerdo se podria condonar una la mas chica y poner el plan en la mas grande y anotar esa circunstancias. Para q salga una ficha unificada.
 El tema es q saldria de x la cuenta y (la z estaria condonada) y generaria p.e 3 cuotas de 300 q es lo q acordo el cliente.  Y se iria cobrando eso incluso se puede marcar como plan de pago pero sin cuota a las q son hijas de un mismo pp.
 Podria haber una tbl de plan de pago q genere un id q lo cargue en tbl ventas en los registros afectados y en solo uno cargue las cuotas. Luego registre toda la otra info del pp. 
-
-* Primer dia :retiro:estadoAnimico:
-:PROPERTIES:
-:CREADO:   [2018-10-27 Sat 18:56]
-:END:
-
-Vine rapido y bien.
-Charla breve y fluida.
-Almuerzo bueno y sin sobresaltos con las chicas
-Larga siesta.
-Solo el dia esta tramado por la obligacion de ir al evento que tengo llevar a la Cami.
-Fui a llevarla facilmente pq era cerca y no habia transito pero fue muy larga la espera y luego la noche fue caotica mas que lo comun.
-Mas alla de ello en este primer dia tuve expresiones bastante desafortunadas que pienso q provienen de la desesperanza y la depresión y la ira mas q todo pq el estado de agotamiento de los últimos dias no me permitio explicarme claramente en mis propositos.
-Nadie sabe q quiero hacer y como yo necesito descansar mas q nada y no veo por momentos la posibilidad de un espacio fisico de tranquilidad para hacerlo entonces me pongo agresivo.
 
 * Nueva programación :programacion:IDEA:
 :PROPERTIES:
@@ -124,7 +95,6 @@ Entonces bajo la parafernalia de labels de info no editable y algunos entrys edi
 
 Se podra imprimir resumen de cuenta de cuentas canceladas con menu como f13
 
-
 * Exportar contactos a telefono :programacion:
 :PROPERTIES:
 :CREADO:   [2018-10-28 Sun 16:09]
@@ -143,7 +113,6 @@ https://wiki.tcl-lang.org/page/tclshrc
 La idea seria poner todo lo necesario para tjar en el proyecto
 Package require etc.
 
-
 * Ayuda de eGuard 2 - eggdrop.es :LEER:
 :PROPERTIES:
 :CREADO:   [2018-10-28 Sun 23:48]
@@ -160,35 +129,15 @@ DEADLINE: <2018-10-31 Wed>
 Llevar doc 70037 de la devolución
 Analizar 69965
 
-* Segundo dia :retiro:estadoAnimico:ansiedad:
-:PROPERTIES:
-:CREADO:   [2018-10-29 Mon 11:39]
-:END:
-
-El domingo estuvo tramado por no haber podido dormir bien la noche anterior y por los compromisos inflados q tenia
-- correr los muebles
-- ir a la oficina
-Y luego todo se esfumo. El corrimiento de muebles fue 5 minutos y el ir a la oficina no fue tan grave. Pero lo mismo no dormi bien por los gatos pienso en especial el escli y pq el lunes empezaba la obra
-
-* Tercer dia :retiro:migraña:hijas:
-:PROPERTIES:
-:CREADO:   [2018-10-29 Mon 11:44]
-:END:
-
-Hoy al final me levanté a las 9. Salude a los albañiles. Pedi el contenedor. Todo fluido.
-Y fuimos a ver a los bancos de la Romi
-Muy lindos y muy contento q se vaya para arriba y q la pueda ayudar
-Una migraña de 2 migrales antes de las 12hs me molesta pero no es por ansiedad.
-Medio a la madrugada. Medio al levantarme y uno al volver de ver los bancos.
-Otra tarea q estaba agendada y ya la hicimos.
-Hasta las 19.15 sigo con migraña.
-
-* TODO Acomodar el celu :actividad:retiro:
+* DONE Acomodar el celu                                    :actividad:retiro:
 :PROPERTIES:
 :CREADO:   [2018-10-29 Mon 19:24]
 :END:
 
-- [ ] anotar todas las apk q voy borrando cuanto las tuve si las use mucho poco o nada para q la instale que funcion buscaba y con cual la reemplace.
+- State "DONE"       from "TODO"       [2018-10-31 mié 19:09]
+- [ ] anotar todas las apk q voy borrando cuanto las tuve si las use
+  mucho poco o nada para q la instale que funcion buscaba y con cual
+  la reemplace.
 - [ ] borrar obviamente la apk
 - [ ] reacomodar las pantallas dejar solo 3
 
@@ -197,14 +146,20 @@ Hasta las 19.15 sigo con migraña.
 :CREADO:   [2018-10-29 Mon 19:29]
 :END:
 
-Poner pin de seguridad a dni.tcl para q en caso de q roben el celu podas proteger la app si fallan el pin mas de 5 veces seguidas se borra la base de datos y los programas. 
+Poner pin de seguridad a dni.tcl para q en caso de q roben el celu
+podas proteger la app si fallan el pin mas de 5 veces seguidas se
+borra la base de datos y los programas.
 
-* TODO [#A] Comprar extractor :oficina:
+* DONE [#A] Comprar extractor                                       :oficina:
 SCHEDULED: <2018-10-30 Tue>
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 09:12]
 :END:
-
+- State "DONE"       from "TODO"       [2018-10-31 mié 19:09]
+Se averiguo y llego a la conclusion que la compra del extractor no
+estaria ligada a Andres el constructor pq un extractor de ventana no
+sirve para lo que nosotros queremos. hay que hacer uno con tubos, y
+ese lo pongo yo como puse en la cabaña los caños perforando el bloque.
 * TODO [#A] Hacer caja
 SCHEDULED: <2018-10-30 Tue>
 :PROPERTIES:
@@ -216,22 +171,30 @@ SCHEDULED: <2018-10-30 Tue>
 :CREADO:   [2018-10-30 Tue 12:18]
 :END:
 
-Why is a blank line inserted after headlines and list items?
-In org-mode, typing M-RET at the end of a headline will create a new headline of the same level on a new line. The same is true for plain lists. By default org-mode uses context to determine if a blank line should be inserted after each headline or plain list item when M-RET is pressed. For instance, if a there is a blank line before a headline, then typing M-RET at the end of the line will insert a blank line before the new headline. For instance, hitting M-RET at the end of "Headline Two" below inserts a new headline without a blank line:
+Why is a blank line inserted after headlines and list items?  In
+org-mode, typing M-RET at the end of a headline will create a new
+headline of the same level on a new line. The same is true for plain
+lists. By default org-mode uses context to determine if a blank line
+should be inserted after each headline or plain list item when M-RET
+is pressed. For instance, if a there is a blank line before a
+headline, then typing M-RET at the end of the line will insert a blank
+line before the new headline. For instance, hitting M-RET at the end
+of "Headline Two" below inserts a new headline without a blank line:
+
+ ** Headline One Headline Two
+
+If there is a blank line between Headline One and Headline Two,
+however, the results will be as follows:
 
  ** Headline One
- ** Headline Two
- **
-
-If there is a blank line between Headline One and Headline Two, however, the results will be as follows:
-
- ** Headline One
 
  ** Headline Two
 
  **
 
-If you do not like the default behavior you can change it with the variable org-blank-before-new-entry. You can set headings and/or plain lists to auto (the default setting), t (always), or nil (never).
+If you do not like the default behavior you can change it with the
+variable org-blank-before-new-entry. You can set headings and/or plain
+lists to auto (the default setting), t (always), or nil (never).
 
 https://orgmode.org/worg/org-faq.html#keeping-current-with-Org-mode-development
 
@@ -244,12 +207,16 @@ Sent using Zoho Notebook - Android
 :CREADO:   [2018-10-30 Tue 12:18]
 :END:
 
-How can I promote or demote multiple headlines at once?
-If you have a long list of first level headlines that you'd like to demote to second level headlines, you can select the headlines as a region and then hit M- to demote all the headlines at once.
+How can I promote or demote multiple headlines at once?  If you have a
+long list of first level headlines that you'd like to demote to second
+level headlines, you can select the headlines as a region and then hit
+M- to demote all the headlines at once.
 
-Note: M-S- will not work on a selected region. Its use is to demote a single subtree (i.e., a headline and all sub-headlines).
+Note: M-S- will not work on a selected region. Its use is to demote a
+single subtree (i.e., a headline and all sub-headlines).
 
-If M- doesn't seem to work, make sure transient mark mode is enabled. See this FAQ.
+If M- doesn't seem to work, make sure transient mark mode is
+enabled. See this FAQ.
 
 https://orgmode.org/worg/org-faq.html#keeping-current-with-Org-mode-development
 
@@ -271,7 +238,6 @@ negligencias
 ❏ fibertel instalacion dpto
 ❏ arnet instalacion dpto
 ❏ lacaja seguro bora
-
 
 * Wunderlist - Peso
 :PROPERTIES:
@@ -302,7 +268,6 @@ Peso
 ❏ 16/4 84.1
 ❏ 2/4 84.9
 ❏ 20/2 87.9
-
 
 
 
@@ -340,5 +305,5 @@ Numbers
 ❏ ataH2132.
 ❏ Clarin  Herrera796
 ❏ Estereo 1206 luego >>>> hace beep
-
-
+* TODO pagar dpto/exp/agua/depFede
+SCHEDULED: <2018-11-01 jue>
