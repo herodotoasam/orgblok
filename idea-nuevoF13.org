@@ -1,8 +1,22 @@
 * nuevo F13 brainstorming
-** tab que se abren a discrecion o sea multitab
+** DONE tab que se abren a discrecion o sea multitab
+- State "DONE"       from "TODO"       [2018-11-01 jue 16:09]
 pero solo para el F13, no para todo el sistema
-** tab para el historial de busquedas con fecha
+** TODO tab para el historial de busquedas con fecha
 infinito para atras de todas las busquedas
+*** TODO tecla de atajo para avanzar y retroceder en el historial de busquedas
+dentro del F13
+lo estoy resolviendo con dos botones tipo avanzar retroceder y lo
+tengo bastante listo, pero falta afinar unos detalles, que seria que
+si uno hace busquedas bobas o sea repite dos veces la misma busqueda
+se traba.
+O sea no es algo para jugar, lo que pasa es que a veces uno analiza
+tres cuentas en la misma casa y es tedioso abrirlas a las tres
+consecutivamente, y entonces con el ida y vuelta se puede ver mas
+facil.
+Creo que con una facilidad de borrar las busquedas del log y
+arreglarlo un poquito estaria bien.
+
 ** tab buscador por calle/cuadra
 la limitacion a veces de un f13 es que el area destinada a buscar
 tiene que ser chica lo cual a veces esta bien para ciertos propositos
@@ -141,3 +155,8 @@ p.e. izq un tbl con las cuotas todas por orden
 idvta vto nc ic fechapgo atraso pago y coloreada segun el atraso
 pagado pero no hay forma de saber eso por el momento con las
 herramientas actuales. y a la derecha los recibos reales
+* Descartados
+** tabs de busquedas al estilo Firefox
+por ahora lo descarto pq es algo que exigiria demasiado codigo y me
+trabaria mucho en relacion a la utilidad, si podria hacer una vuelta
+atras o un atajo para avanzar y retroceder en el historial de busquedas.

@@ -160,12 +160,13 @@ Se averiguo y llego a la conclusion que la compra del extractor no
 estaria ligada a Andres el constructor pq un extractor de ventana no
 sirve para lo que nosotros queremos. hay que hacer uno con tubos, y
 ese lo pongo yo como puse en la cabaña los caños perforando el bloque.
-* TODO [#A] Hacer caja
+* DONE [#A] Hacer caja
 SCHEDULED: <2018-10-30 Tue>
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 09:13]
 :END:
 
+- State "DONE"       from "TODO"       [2018-11-01 jue 17:47]
 * Text Note: Org-mode Frequently Asked Questions :orgmode:
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 12:18]
@@ -305,5 +306,6 @@ Numbers
 ❏ ataH2132.
 ❏ Clarin  Herrera796
 ❏ Estereo 1206 luego >>>> hace beep
-* TODO pagar dpto/exp/agua/depFede
+* DONE pagar dpto/exp/agua/depFede
 SCHEDULED: <2018-11-01 jue>
+- State "DONE"       from "TODO"       [2018-11-01 jue 17:46]
