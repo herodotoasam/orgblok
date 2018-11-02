@@ -5,5 +5,21 @@
    fecha nacimiento 17/02/1942
    gender female
    nombre herodoto asam
+** hfj050@gmail.com
+:PROPERTIES:
+:clave:    ataraxia76
+:END:
+** hfj024@gmail.com
+:PROPERTIES:
+:clave:    Orozco96.JujuY
+:END:
+
 * naranjaonline
 clave 1406
+* nextcloud
+:PROPERTIES:
+:cuenta:   hfj050@gmail.com
+:clave:    ataH2132**/
+:proveedor-nextcloud: webo.hosting
+:END:
+https://nextcloud.webo.hosting/
