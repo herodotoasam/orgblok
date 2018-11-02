@@ -3,12 +3,11 @@
 - State "DONE"       from "TODO"       [2018-11-01 jue 16:09]
 pero solo para el F13, no para todo el sistema
 
-** TODO tab para el historial de busquedas con fecha
-
+** DONE tab para el historial de busquedas con fecha
+- State "DONE"       from "TODO"       [2018-11-02 vie 13:13]
 infinito para atras de todas las busquedas
-
-*** TODO tecla de atajo para avanzar y retroceder en el historial de busquedas
-
+*** DONE tecla de atajo para avanzar y retroceder en el historial de busquedas
+- State "DONE"       from "TODO"       [2018-11-02 vie 13:13]
 dentro del F13
 lo estoy resolviendo con dos botones tipo avanzar retroceder y lo
 tengo bastante listo, pero falta afinar unos detalles, que seria que
@@ -20,16 +19,18 @@ consecutivamente, y entonces con el ida y vuelta se puede ver mas
 facil.
 Creo que con una facilidad de borrar las busquedas del log y
 arreglarlo un poquito estaria bien.
-
-
-
-*** Tcl Programming/Examples - Wikibooks, open books for an open world
+Se lo hizo con genialidad gracias al aporte conseguido en el wikibook
+que es codigo de primer nivel, cuesta pero vale la pena. Y se resolvio
+con codigo tcl que es mejor que depender enteramente de sqlite.
+Y mas rapido.
+O sea queda el registro historico y tenes el rapido movimiento en la
+sesion actual para poder volverte rapido sin tener que poner de nuevo
+el numero de cuenta.
+*** [#A] Tcl Programming/Examples - Wikibooks, open books for an open world
 :PROPERTIES:
 :CREADO:   [2018-11-01 Thu 19:17]
 :END:
-
 https://en.wikibooks.org/wiki/Tcl_Programming/Examples
-
 ** tab buscador por calle/cuadra
 
 la limitacion a veces de un f13 es que el area destinada a buscar
