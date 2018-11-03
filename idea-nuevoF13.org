@@ -32,7 +32,8 @@ el numero de cuenta.
 :END:
 https://en.wikibooks.org/wiki/Tcl_Programming/Examples
 *** volverse en el buscaresultado
-*** buscar los mismacalle por defecto
+*** DONE buscar los mismacalle por defecto
+- State "DONE"       from "TODO"       [2018-11-03 sáb 14:47]
 ** tab buscador por calle/cuadra
 
 la limitacion a veces de un f13 es que el area destinada a buscar
