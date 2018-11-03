@@ -1,15 +1,16 @@
 #+TODO: TODO(t) NEXT | DONE(d!) DESISTIDO
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2018-10-18 jue 13:44]
+#+CAPTION: Clock summary at [2018-11-03 sáb 09:16]
 | Headline               | Time   |      |
 |------------------------+--------+------|
-| *Total time*           | *3:35* |      |
+| *Total time*           | *7:29* |      |
 |------------------------+--------+------|
-| 2018                   | 3:35   |      |
+| 2018                   | 7:29   |      |
 | \_  2018-01 enero      |        | 0:03 |
 | \_  2018-03 marzo      |        | 0:01 |
 | \_  2018-09 septiembre |        | 0:04 |
-| \_  2018-10 octubre    |        | 3:27 |
+| \_  2018-10 octubre    |        | 6:26 |
+| \_  2018-11 noviembre  |        | 0:55 |
 #+END:
 
 * 2016
@@ -1621,3 +1622,74 @@ lo primero es lograr un cambio en la mente.
 no puedo recuperar nada sino me estabilizo animicamente.
 debo solucionar el tema nervioso
 y desde ahi ver como recupero todo lo que es mio
+**** Resurreccion                                            :OBJ:freedom:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 09:02]--[2018-11-03 sáb 09:02] =>  0:00
+:END:
+ 1. Aislacion nirvana atomico
+ 2. Rutina sana
+ 3. Comer mas sano salir de la anorexia nerviosa licuados y licuados
+    verdes.
+ 4. Ejercicio progresivo
+ 5. Comenzar por un libro solo propongo louise hay
+ 6. Estudiar a fondo tcl programacion para q la solución a los
+    problemas q se vayan presentando en la programacion sean resueltos
+    a fondo p.e. como ahora reempeze a estudiar listas y todo lo
+    relativo a ello pop push qeque
+*** 2018-11-03 sábado
+**** Comentarios sobre el plan :freedom:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 09:03]--[2018-11-03 sáb 09:16] =>  0:13
+:END:
+Creo que anoche me convenci de tres cosas:
+1. voy a salir de esta situacion
+2. voy a salir solo
+3. no puede ser aca
+
+O sea me creo capaz de generar dentro de mi la fuerza para curarme una
+vez mas de la situacion que me llevo a estar asi como estoy. Y cuando
+me cure voy a estar mas fuerte.
+Pero lo tengo que hacer solo, nadie lo hara por mi, ni nadie
+comprendera mi problema.
+Por lo cual no puede ser hecho aca por mas que parezca que aca es
+lindo o que es agradable.
+En cierta forma lo es pq tiene hasta cierta hora el aire de la manana
+en la casa, pero ojo siempre encerrados en la casa, y en una rutina
+dependientes, sin hacer nada positivo, para eso me plantearia ir
+saliendo del marasmo atomico que estoy e ir p.e. desayunando en
+distintos lugares temprano leyendo el diario, o cosas similares. 
+En realidad yo veo esta alternativa como mejor a la otra pq veo la
+otra a la luz de lo que yo-puedo-hacer-con-la-otra o sea lo que me
+esta permitido. O sea como vivo al pendiente de aca o de ih ya sea de
+las obligaciones o de los compromisos, no vivo una vida libre de hacer
+y ser lo que yo quiera entonces alli es donde el dpto y la vida
+alrededor de el empieza a carecer de valor.
+**** falta de precision del status actual :retiro:CE:estadoAnimico:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 13:10]--[2018-11-03 sáb 13:24] =>  0:14
+:END:
+no me pongo de acuerdo con las personas del entorno en cuanto a que es
+lo que tengo y que es lo que estoy haciendo y que es lo que necesito,
+entonces ante la falta de escucha, me pongo innecesariamente
+beligerante y suelto frases como que arreglaremos por las buenas o por
+las malas, o me ire y luego volvere a ajustar cuentas u otras peores
+que les dije a las chicas no relativas a ellas sino a los
+otros. (siendo los otros los que las perjudicarian a ellas y a mi.)
+
+Lo que queria expresar era que necesito un descanso de recupero y
+todos toman posiciones que me impiden descansar, nadie se pone de
+acuerdo conmigo en forma amable para facilitarme el descanso, y al
+contrario ni siquiera me permiten hablar. 
+Y me siguen sumando obligaciones y compromisos y percances que cada
+vez complican mas mi situacion.
+Haciendo de un simple descanso algo caotico y desastrozo y una
+situacion en la cual pensar que todo se va al carajo y que uno tiene
+que protejerse y pensar en como va a sobrevivir. O sea nada mas
+alejado de una situacion de descanso y paz que esta. Donde se activan
+los peores temores y las peores situaciones.
+
+Esta manana tuve la ultima posibilidad de hablar con ih y la
+conversacion termino en la nada mas absoluta, hablar con una pared con
+una mente vacia, hueca, con alguien que no te comprende ni quiere
+comprenderte, pq el problema es que todos se estan posicionando y
+nadie puede escuchar libre de situacion.
