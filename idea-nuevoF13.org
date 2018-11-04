@@ -214,4 +214,5 @@ herramientas actuales. y a la derecha los recibos reales
 por ahora lo descarto pq es algo que exigiria demasiado codigo y me
 trabaria mucho en relacion a la utilidad, si podria hacer una vuelta
 atras o un atajo para avanzar y retroceder en el historial de busquedas.
-
+* Cuestiones filosoficas
+** El visor tiene que editar o tiene que haber un editor aparte

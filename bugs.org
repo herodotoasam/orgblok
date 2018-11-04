@@ -149,3 +149,33 @@ pero la tabla real permitira mejores calculos sobre las cosas,
 p.e. los dias de atraso en los cuales se pagaron las cuotas. que
 virtualmente serian muy dificiles calcular y nunca se han intentado.
 [[file:~/tclmobile/buscador.tcl::}]]
+* TODO arreglo tabla ventas :schema:
+[2018-11-03 sáb 21:13]
+se detecto que cerca de 11000 cuentas con salditos menores de los anos
+2002 al 2009 no estaban condonadas. Viendo la distribucion de los
+saldos:
+2002|6593.57000000001
+2003|42990.45
+2004|52563.4999999999
+2005|27152.3
+2006|1359.75
+2007|1263.6
+2008|1056.25
+2009|17.0
+se nota que 2002 al 2005 corresponde a la condonacion del seven, y del
+2006 al 2009 a redondeo.
+Debe ser que los procedimientos de condonacion no se hacian por campo
+logico sino por poner saldo cero.
+Ahora que hago un buscador que produce una tabla cuotas virtual en vez
+de un proceso en el aire, saltan esos saldos, por lo cual tengo que
+hacer un proceso de condonacion para que se unifiquen los criterios y
+aparezca todo condonado. 
+Probe varios procesos y son muy lerdos, pareceria ser que con un proc
+de tcl es mas rapido desactivando los trigger recursivos para no
+activar el trigger de condonada pq ya estan con saldo cero esas
+cuentas o sea que no necesito activar un trigger que me demora al
+maximo el proceso por demas ya lento. En la notebook lo estimo en casi
+18 minutos, y quizas en forma sqlite no se sabe cuanto y si alguna vez
+termina pq puede caer en bucles infinitos.
+
+[[file:~/tclmobile/buscador.tcl::puts%20$b]]
