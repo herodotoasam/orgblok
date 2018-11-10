@@ -1693,3 +1693,73 @@ conversacion termino en la nada mas absoluta, hablar con una pared con
 una mente vacia, hueca, con alguien que no te comprende ni quiere
 comprenderte, pq el problema es que todos se estan posicionando y
 nadie puede escuchar libre de situacion.
+*** 2018-11-10 sábado
+**** preparando la vuelta :retiro:
+:LOGBOOK:
+CLOCK: [2018-11-10 sáb 12:56]--[2018-11-10 sáb 13:13] =>  0:17
+:END:
+Luego de un retiro de una semana llego a algunas conclusiones que es
+bueno registrar rapidamente como vayan saliendo:
+.1 en los ultimos dias me distendi fisicamente, descubri que lo que me
+hace mal es la mesa y obvio el exceso de compu, pero pare un poco los
+nervios.
+.2 creo que es muy nuevo para decirlo pero la pastilla de ayer dio en
+la tecla de como parar la tension interna pq en cierta forma mas alla
+de que nada cambio ni fisica ni mental ni situacionalmente, la toma
+del quimico me saco el liquido que corria y me quemaba por dentro de
+los huesos tranquilizandome sin ponerme zombi ni darme
+sueno. dosificada en una sola en el dia, media cuarto y cuarto y hoy
+comence con cuarto.
+.3 sobrepase la gran frustracion de no dar pie con bola con snit y
+luego con itclnuevo, con eso perdi domingo a la noche, lunes martes
+miercoles. y parte de jueves no se.
+recien anoche viernes a la noche cuando leo pausadamente el manual de
+itk entiendo realmente la diferencia del objeto .t creado por tbls .t
+que tiene el metodo .t llenar siendo llenar un metodo y .t.tbls
+rowconfigure siendo rowconfigure un "comando" de un componente del
+objeto .t o sea que no se le puede pedir ni a palos que .t tenga como
+propio el comando (que seria el metodo) rowconfigure como para
+ejecutarlo el mismo, seria un quilombo, esa confusion mental la tenia
+hasta anoche, imaginarse cuanto tiempo estuve en la nebulosa
+peleandome con el sistema, el cual lo hago andar pero sin tenerlo
+claro, igual con las opciones. No se si llegar a este conocimiento
+actual vale la pena haber pasado por lo que pase, o sea haber perdido
+tiempo en todo lo que perdi, y haber ensayado lo que ensaye, y esto me
+hace apreciar lo que tengo, que dentro de todo asi como esta va una
+luz. 
+.4 luego retomo el desarrollo del buscador guiandome por lo que estoy
+requiriendome en el cuaderno y por ahi me voy de nuevo a la mierda
+como cuando quiero modificar el alma de nemethi para que incluya mi
+combo modificado en la edicion del tablelist, lo cual no se si es muy
+necesario o muy seguro, o muy deseable perder tiempo en eso.
+.5 dentro de todo un par de ideitas nuevas las pude pasar al toque a
+lo nuevo como sumar celdas, o combo que filtre por lista de cajon, y
+me permitio apreciar la rapidez que tiene el itk2 con relacion a
+cualquier otro sistema que no se porque es tan lento. 
+.6 la bocha es que me calme creo animicamente, y me di cuenta que debo
+hacer algo con el dolor de cabeza pq no puedo seguir asi tomando dos
+migrales por dia.
+el licuadito diario, me regularizo el vientre joya, y con la pastilla
+dormi muy bien estos dias, pero quizas exacerbo el dolor por el exceso
+en la programaicon y los nervios, fruto del descontrol.
+No me debo olvidar que pocos dias atras hablaba de matarlos a todos, o
+matarme yo o irme a otro lado y perderme, ya ahora pienso en volver a
+trabajar, en retomar una rutina sencilla, en volver a programar
+simplemente y tratar de vivir sencillamente.
+Creo que la crisis nerviosa que en cierta forma tenia y me parecia
+enorme e inmanejable me parece ahora superable con la ayuda de una
+pastillita y quizas sea el efecto de la chia acumulado, o de dormir
+bien tambien, no podemos negar eso. LLevo durmiendo bien unas cuantas
+noches.
+.7 tendria que volver a mi casa para ver si puedo agregar otras
+funciones a mi vida como serian:
+   .a mas suplementos y comida mas sana
+   .b mas movimiento
+   .c ver si puedo dormir igual alla
+   .d moderar la programacion como trabajo y no como obsesion
+   .e participar del trabajo sin nerviosismo
+.8 quedarme mas tiempo aca seria peligroso pq caeria en la dependencia
+y caeria en mas conducta de dejadez. y a la vez no podria hacer nada
+relativo a ir mejorando otros aspectos de mi vida o sea recuperarme.
+
+
