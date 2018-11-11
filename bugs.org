@@ -179,3 +179,18 @@ maximo el proceso por demas ya lento. En la notebook lo estimo en casi
 termina pq puede caer en bucles infinitos.
 
 [[file:~/tclmobile/buscador.tcl::puts%20$b]]
+* TODO cambio de direccion :buscador:
+[2018-11-11 dom 16:38]
+hice el log de cambio de domicilio sobre la base de calle num y barrio
+como nucleo de la direccion y en forma bastante segura creo un
+mecanismo que funciona como el del F8 sin romper lo que ya tengo o sea
+1700 log de cambio acumulados y algunos perdidos hechos por fuera del
+sistema.
+desde ahora se haran todos por aca.
+
+y todos los cambios de telefono/horario/acla/mjecobr quedaran
+logueados en el sparse tree que sera un log nuevo que luego permitira
+ver un historial de cambio de cada uno de esos campos pero lo
+importante esa ahi. 
+ 
+[[file:~/tclmobile/buscador.tcl::#proc%20mostrar%20{sql}%20{]]
