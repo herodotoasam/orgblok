@@ -1033,6 +1033,16 @@ con editwinpath obtengo el widget que se esta editando entonces
 
  [[file:/run/media/hero/bora/itk2.tcl::balloon%20%5B$itk_component(tablelist)%20editwinpath%5D%20%5Bdiasemana%20%5Bclock%20format%20%5Bclock%20scan%20$f%20-format%20"%25Y-%25m-%25d"%5D%20-format%20"%25u"%5D%5D]]
 
+** hacer tree :tablelist:
+[2018-11-03 sáb 09:57]
+Hacer un tree es tan facil como en vez de poner llenar db poner
+llenartree db y abajo poner otro comando expandir con el select que
+hara la expansion ligado al '$nodo'
+
+ .ventas llenartree db "select id,fecha,cc,ic,idvdor as vdor,ent from ventas where idcliente=$clienteactual(id) order by id desc" {resvtasxidvta}
+ .ventas expandir {select cnt,art from detvta where idvta='$nodo'} db
+
+[[file:~/tclmobile/buscador.tcl::.ventas%20llenartree%20db%20"select%20id,fecha,cc,ic,idvdor%20as%20vdor,ent%20from%20ventas%20where%20idcliente=$clienteactual(id)%20order%20by%20id%20desc"%20{resvtasxidvta}%20.ventas%20expandir%20{select%20cnt,art%20from%20detvta%20where%20idvta='$nodo'}%20db]]
 * Tplink :instalacion:
 :PROPERTIES:
 :CREADO:   [2018-10-29 Mon 22:20]

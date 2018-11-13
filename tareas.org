@@ -129,11 +129,10 @@ DEADLINE: <2018-10-31 Wed>
 Llevar doc 70037 de la devolución
 Analizar 69965
 
-* DONE Acomodar el celu                                    :actividad:retiro:
+* DONE Acomodar el celu :actividad:retiro:
 :PROPERTIES:
 :CREADO:   [2018-10-29 Mon 19:24]
 :END:
-
 - State "DONE"       from "TODO"       [2018-10-31 mié 19:09]
 - [ ] anotar todas las apk q voy borrando cuanto las tuve si las use
   mucho poco o nada para q la instale que funcion buscaba y con cual
@@ -150,7 +149,7 @@ Poner pin de seguridad a dni.tcl para q en caso de q roben el celu
 podas proteger la app si fallan el pin mas de 5 veces seguidas se
 borra la base de datos y los programas.
 
-* DONE [#A] Comprar extractor                                       :oficina:
+* DONE [#A] Comprar extractor :oficina:
 SCHEDULED: <2018-10-30 Tue>
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 09:12]
@@ -160,13 +159,14 @@ Se averiguo y llego a la conclusion que la compra del extractor no
 estaria ligada a Andres el constructor pq un extractor de ventana no
 sirve para lo que nosotros queremos. hay que hacer uno con tubos, y
 ese lo pongo yo como puse en la cabaña los caños perforando el bloque.
+
 * DONE [#A] Hacer caja
 SCHEDULED: <2018-10-30 Tue>
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 09:13]
 :END:
-
 - State "DONE"       from "TODO"       [2018-11-01 jue 17:47]
+
 * Text Note: Org-mode Frequently Asked Questions :orgmode:
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 12:18]
@@ -270,8 +270,6 @@ Peso
 ❏ 2/4 84.9
 ❏ 20/2 87.9
 
-
-
 * Wunderlist - Numbers
 :PROPERTIES:
 :CREADO:   [2018-10-30 Tue 12:47]
@@ -306,6 +304,8 @@ Numbers
 ❏ ataH2132.
 ❏ Clarin  Herrera796
 ❏ Estereo 1206 luego >>>> hace beep
+
 * DONE pagar dpto/exp/agua/depFede
 SCHEDULED: <2018-11-01 jue>
 - State "DONE"       from "TODO"       [2018-11-01 jue 17:46]
+

@@ -2,9 +2,12 @@
 ** DONE tab que se abren a discrecion o sea multitab
 - State "DONE"       from "TODO"       [2018-11-01 jue 16:09]
 pero solo para el F13, no para todo el sistema
-** TODO tab para el historial de busquedas con fecha
+
+** DONE tab para el historial de busquedas con fecha
+- State "DONE"       from "TODO"       [2018-11-02 vie 13:13]
 infinito para atras de todas las busquedas
-*** TODO tecla de atajo para avanzar y retroceder en el historial de busquedas
+*** DONE tecla de atajo para avanzar y retroceder en el historial de busquedas
+- State "DONE"       from "TODO"       [2018-11-02 vie 13:13]
 dentro del F13
 lo estoy resolviendo con dos botones tipo avanzar retroceder y lo
 tengo bastante listo, pero falta afinar unos detalles, que seria que
@@ -16,29 +19,55 @@ consecutivamente, y entonces con el ida y vuelta se puede ver mas
 facil.
 Creo que con una facilidad de borrar las busquedas del log y
 arreglarlo un poquito estaria bien.
-
+Se lo hizo con genialidad gracias al aporte conseguido en el wikibook
+que es codigo de primer nivel, cuesta pero vale la pena. Y se resolvio
+con codigo tcl que es mejor que depender enteramente de sqlite.
+Y mas rapido.
+O sea queda el registro historico y tenes el rapido movimiento en la
+sesion actual para poder volverte rapido sin tener que poner de nuevo
+el numero de cuenta.
+*** [#A] Tcl Programming/Examples - Wikibooks, open books for an open world
+:PROPERTIES:
+:CREADO:   [2018-11-01 Thu 19:17]
+:END:
+https://en.wikibooks.org/wiki/Tcl_Programming/Examples
+*** volverse en el buscaresultado
+*** DONE buscar los mismacalle por defecto
+- State "DONE"       from "TODO"       [2018-11-03 sáb 14:47]
 ** tab buscador por calle/cuadra
+
 la limitacion a veces de un f13 es que el area destinada a buscar
 tiene que ser chica lo cual a veces esta bien para ciertos propositos
 pero cuando uno quiere buscar en detalle fino no tiene espacio y no
 sirve, ejemplo buscar la cuadra, si quiero examinar la cuadra buscando
 morosos para aprobar quiero buscarla bien, y tener tags cruzados, 
+
 ** meter planos dentros de un tag
+
 para buscar rapido una esquina o una altura, o mejor un link a google
 maps o bien lo que sea
+
 ** el buscador de cuadras o cualquier otro que sea repetible
+
 o sea si uno busca una cuadra y abre otra busqueda que deje esa y abra
 otro tab
+
 ** que cualquier buscador sea tagueable
+
 o sea que tenga botones arriba para ver/ocultar los diferentes tipos
 de cuentas cosa que sea mas facil la lectura
+
 ** ver si puedo incorporar en el tbls en forma de boton o etiqueta los tags
+
 como seven/sube los distintos tags
 seria bueno ver un 
 Dominica|1960|Mudado|Seven|Moroso|NoVenderMas|
 en distintos colores
+
 ** que todos los registros sean linkeables
+
 a la pantalla principal para ver el cliente
+
 ** facilidad para ejecutar las acciones comunes al cliente
 *** condonar cuentas
 *** cambiar o modificar cuentas
@@ -48,7 +77,7 @@ a la pantalla principal para ver el cliente
 *** intimar
 *** escribir comentario
 *** cambiar datos del cliente
-*** pedir documento 
+*** pedir documento
 *** pedir venta
 *** imprimir ficha
 *** imprimir resumen de cuenta de cuentas ya canceladas
@@ -57,14 +86,19 @@ a la pantalla principal para ver el cliente
 *** lista de intimaciones
 *** comentarios
 ** accesos directos a los campos de busqueda
+
 Alt-C Alt-R Alt-N etc
+
 ** busqueda especifica o dedicada para todo tipo de campos
+
 no al buscador generalizado y criptico
+
 *** numero de cuenta
 *** dni
 *** recibo
 *** cobr > puede ir en tab aparte con otros filtros
 *** fts generalizada con comentarios/msgcobr/horario/aclaraciones/ tags
+
 los tags seria un campo generado con los tags que te entregan los
 campos logicos como seven/mudado/incobrable/etc. 
 Como se puede ver en el F7 la busqueda esta muy sucia, pq al final
@@ -95,15 +129,19 @@ Frente a eso tenemos
   buscaria todos los telefonos que comiencen con 494, pero siempre se
   puede obviar terminaciones. Y no esta bien documentado los campos
   que tiene la consulta base. Como para sacarle mas jugo.
+
 *** querer hacer un buscador para otros motivos que no sea ubicar un cliente
+
 y en los momentos de busqueda de cliente o sea cuando nos llaman o
 estamos frente a un cobrador buscando un cliente, y alli no buscamos
 por criterios esotericos. El buscador tiene que ser simple. No un
 sistema de estadistica y analisis. Debe haber otros buscadores anexos
 en otros tabs que busquen por criterios mas esotericos como recibos
 cobrados por cobrador por zona, por fechas, etc. o ventas hechas etc.
+
 * ejecucion
 ** tags
+
 la idea seria a la izquierda unos iconitos chiquitos de color con a lo
 sumo una letra
 p.e. verde seven, rojo mora, azul cuenta, negro lista negra, negro d
@@ -117,14 +155,20 @@ incobrable. Si alguien es incobrable puede que no este en el seven pq
 es muy viejo para subirlo, si alguien es moroso es pq debe hace mucho,
 si alguien debe es pq esta pagando, etc. o sea no vale la pena tener
 mas de un tag. Es un cuadro de busqueda y vista rapida.
+
 ** ver si esto sale de campos logicos y esos campos los trae el fts5
+
 para no complicar con otra consulta cargarselos al fts5
 El campo tag sale de un case when en un orden logico y no parece que
 demore el proceso.
+
 ** estaria bueno averiguar el time para que veamos cuanto tiempo demoran las variante
+
 ahora y lo que le vayamos cargando o en distintas maquinas o en
 pendrive
-** explorar el incluir el idvta dentro del fts como idvta1/2/3 
+
+** explorar el incluir el idvta dentro del fts como idvta1/2/3
+
 no hizo falta pq al hacer el join se incluyeron todos los registros, y
 se hizo la consulta en general, lo unico que hice fue usar el metodo
 antiguo de tabule para fijar las columnas y que no salga en el
@@ -132,31 +176,43 @@ resultado el idvta.  Y solo asi podemos poner select distinct  de
 todos los campos pero no del idvta. O sea tengo busqueda de idvta
 incluida en el fts. Y todo con una recarga de 1 seg. O sea pase de 1
 seg a 2 seg.
+
 ** resultado
+
 tenemos un busqueda que crea un fts5 en dos segundos on demand, tiene
 idvta incluido, fts5, y muestra tags de colores. Todo en tcl.
+
 * parte datos
 ** estariamos en duda con innovaciones
 *** poner los datos de clientes en labels
+
 lo cual lo haria mucho mas rapido y mas seguro y podria permitir mas
 lugar para presentar todo tipo de informacion. Y separar la edicion en
 otro tipo de formulario ad hoc, pq siempre se mezcla la edicion con la
 busqueda lo cual es un quilombo.
 los labels podrian permitir jugar mucho mas con la presentacion de la
 informacion en pantalla.
+
 *** poner el bind  <<TablelistSelect>> que permite ir cambiando rapidamente
+
 con el solo pasar los resultados del tbls los resultados en forma muy
 rapida
 pero el form no puede estar muy cargado.
-* parte datos de cuotas/recibos 
+
+* parte datos de cuotas/recibos
+
 tambien pienso innovar y no tener un formulario igual que siempre sino
 algo nuevo. innovador. pensar en algo.
 p.e. izq un tbl con las cuotas todas por orden
 idvta vto nc ic fechapgo atraso pago y coloreada segun el atraso
 pagado pero no hay forma de saber eso por el momento con las
 herramientas actuales. y a la derecha los recibos reales
+
 * Descartados
 ** tabs de busquedas al estilo Firefox
+
 por ahora lo descarto pq es algo que exigiria demasiado codigo y me
 trabaria mucho en relacion a la utilidad, si podria hacer una vuelta
 atras o un atajo para avanzar y retroceder en el historial de busquedas.
+* Cuestiones filosoficas
+** El visor tiene que editar o tiene que haber un editor aparte

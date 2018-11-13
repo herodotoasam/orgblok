@@ -1,15 +1,16 @@
 #+TODO: TODO(t) NEXT | DONE(d!) DESISTIDO
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2018-10-18 jue 13:44]
+#+CAPTION: Clock summary at [2018-11-03 sáb 09:16]
 | Headline               | Time   |      |
 |------------------------+--------+------|
-| *Total time*           | *3:35* |      |
+| *Total time*           | *7:29* |      |
 |------------------------+--------+------|
-| 2018                   | 3:35   |      |
+| 2018                   | 7:29   |      |
 | \_  2018-01 enero      |        | 0:03 |
 | \_  2018-03 marzo      |        | 0:01 |
 | \_  2018-09 septiembre |        | 0:04 |
-| \_  2018-10 octubre    |        | 3:27 |
+| \_  2018-10 octubre    |        | 6:26 |
+| \_  2018-11 noviembre  |        | 0:55 |
 #+END:
 
 * 2016
@@ -1553,8 +1554,244 @@ al verme al espejo me doy cuenta que estoy hecho un espanto y la
 situacion actual me esta sobrepasando mucho. Por eso espero que esta
 semana de menos obligaciones sirva para que se calme el dolor de
 cabeza y se calmen los nervios y logre la paz.
+*** 2018-11-02 viernes
+**** a casi una semana de dejar de trabajar :retiro:
+:LOGBOOK:
+CLOCK: [2018-11-02 vie 14:11]--[2018-11-02 vie 14:46] =>  0:35
+:END:
+el balance es caotico. Y me empieza a dar miedo.
+Ya empiezo a ponerme paranoico y no confio en nadie en serio.
+Si antes decia cosas por decir ahora creo que van en serio. 
+Es cierto que ha sido una semana caotica para todos. 
+Los albaniles en casa deben haber sido dificiles para ih tambien y
+ella tenia que ir si o si a ag antes de manana. Y logro ambas cosas y
+dentro de eso no tenia tiempo para nada extra. Que yo decidiera
+salirme de trabajar de repente sin preguntar que cosa la mia.
+
+la Romi en lo suyo, la Cami en lo suyo, y el Fede aunque seria el gran
+sacrificado para permitir que yo me tome un descanso, el mas bien lo
+esta viendo para salirse de la calle.
+
+Lo que mas me afecta es el estado nervioso que tengo y la falta de
+posibilidad de hacer pie para volver a reencausarme en un nivel
+apropiado de fuerza para volver a ser funcional.
+
+pongamos como ejemplo ayer.
+Digamos que luego de abortar la migrana antes de ayer o sea miercoles
+luego que el gran compromiso de llevar al lolo quedaba tacitamente en
+la nada y quizas mas concretamente pq me habia tomado un cortipyren.
+Luego como me puse a programar todo fue mas o menos bien hasta me
+dormi sin tomar ansiolitico.
+Me levante y tenia que ir al banco y a pagar el alquiler, me habia
+banado el dia anterior y tambien iba a ir al peluquero (que en las
+circunstancias que estaba viviendo era bastante dificil), no obstante
+hice todo bastante rapido y bien, fui al banco, pague el alquiler, fui
+al peluquero, y todo iba bien incluso programe un poco, cuando vi que
+ih subio la foto que habia limpiado la casa, y como yo no puedo hacer
+vida independiente alla, primero pq no estoy en una situacion digamos
+para abreviar de nirvana (o para abreviar mas nirvana beligerante) si
+no vengo empiezo a tener ansiedades o sea ansiedades por estar en
+falta de no venir, o por no venir entonces, ahi pienso en venir y le
+mando mensaje. Y en ese eterno desencuentro estaba, cuando me llama el
+Fede que me pregunta donde estaba y me propone que me traia el, y de
+ahi, en ese momento que eran las 18.05 hasta las 19.30 que mas o menos
+habra venido me tome dos SL, me empeze a poner mal, y quede hecho un
+trapo de piso, recien cuando estabamos llegando aca me empece a
+normalizar.
+(Hay que notar el porque quizas de todo, quiza sea pq en el fondo ya
+no me queria quedar en el dpto pq ya estaba hastiado y me queria ir, o
+pq no me gusta esperar, no me gusta estar esperando a que me lleven,
+solo para ahorrarme un taxi, etc. Esa hora al pedo total ahi en la
+casa donde no podes hacer nada pq en cualquier momento te caen es un
+embole, y encima, a los minutos nomas, parecia que iban a cortar la
+calle y que el encierro iba a ser total, luego de haber quedado
+desequilibrado, venir en la kangoo, que siempre me pone nervioso, "ser
+traido" -"El mundo al reves yo tengo que esperar una hora para que me
+'traigan' al marques e ih se va sola con el bora llevando a su hermana
+a alta gracia!!")
+Esta inestabilidad es lo que me friega totalmente. O sea el estar como
+inestable nerviosamente.
+Y no tener una base de lugar donde estar.
+
+
+**** bases del plan :freedom:
+:LOGBOOK:
+CLOCK: [2018-11-02 vie 14:49]--[2018-11-02 vie 14:52] =>  0:03
+:END:
+lo primero es lograr un cambio en la mente.
+no puedo recuperar nada sino me estabilizo animicamente.
+debo solucionar el tema nervioso
+y desde ahi ver como recupero todo lo que es mio
+**** Resurreccion                                            :OBJ:freedom:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 09:02]--[2018-11-03 sáb 09:02] =>  0:00
+:END:
+ 1. Aislacion nirvana atomico
+ 2. Rutina sana
+ 3. Comer mas sano salir de la anorexia nerviosa licuados y licuados
+    verdes.
+ 4. Ejercicio progresivo
+ 5. Comenzar por un libro solo propongo louise hay
+ 6. Estudiar a fondo tcl programacion para q la solución a los
+    problemas q se vayan presentando en la programacion sean resueltos
+    a fondo p.e. como ahora reempeze a estudiar listas y todo lo
+    relativo a ello pop push qeque
+*** 2018-11-03 sábado
+**** Comentarios sobre el plan :freedom:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 09:03]--[2018-11-03 sáb 09:16] =>  0:13
+:END:
+Creo que anoche me convenci de tres cosas:
+1. voy a salir de esta situacion
+2. voy a salir solo
+3. no puede ser aca
+
+O sea me creo capaz de generar dentro de mi la fuerza para curarme una
+vez mas de la situacion que me llevo a estar asi como estoy. Y cuando
+me cure voy a estar mas fuerte.
+Pero lo tengo que hacer solo, nadie lo hara por mi, ni nadie
+comprendera mi problema.
+Por lo cual no puede ser hecho aca por mas que parezca que aca es
+lindo o que es agradable.
+En cierta forma lo es pq tiene hasta cierta hora el aire de la manana
+en la casa, pero ojo siempre encerrados en la casa, y en una rutina
+dependientes, sin hacer nada positivo, para eso me plantearia ir
+saliendo del marasmo atomico que estoy e ir p.e. desayunando en
+distintos lugares temprano leyendo el diario, o cosas similares. 
+En realidad yo veo esta alternativa como mejor a la otra pq veo la
+otra a la luz de lo que yo-puedo-hacer-con-la-otra o sea lo que me
+esta permitido. O sea como vivo al pendiente de aca o de ih ya sea de
+las obligaciones o de los compromisos, no vivo una vida libre de hacer
+y ser lo que yo quiera entonces alli es donde el dpto y la vida
+alrededor de el empieza a carecer de valor.
+**** falta de precision del status actual :retiro:CE:estadoAnimico:
+:LOGBOOK:
+CLOCK: [2018-11-03 sáb 13:10]--[2018-11-03 sáb 13:24] =>  0:14
+:END:
+no me pongo de acuerdo con las personas del entorno en cuanto a que es
+lo que tengo y que es lo que estoy haciendo y que es lo que necesito,
+entonces ante la falta de escucha, me pongo innecesariamente
+beligerante y suelto frases como que arreglaremos por las buenas o por
+las malas, o me ire y luego volvere a ajustar cuentas u otras peores
+que les dije a las chicas no relativas a ellas sino a los
+otros. (siendo los otros los que las perjudicarian a ellas y a mi.)
+
+Lo que queria expresar era que necesito un descanso de recupero y
+todos toman posiciones que me impiden descansar, nadie se pone de
+acuerdo conmigo en forma amable para facilitarme el descanso, y al
+contrario ni siquiera me permiten hablar. 
+Y me siguen sumando obligaciones y compromisos y percances que cada
+vez complican mas mi situacion.
+Haciendo de un simple descanso algo caotico y desastrozo y una
+situacion en la cual pensar que todo se va al carajo y que uno tiene
+que protejerse y pensar en como va a sobrevivir. O sea nada mas
+alejado de una situacion de descanso y paz que esta. Donde se activan
+los peores temores y las peores situaciones.
+
+Esta manana tuve la ultima posibilidad de hablar con ih y la
+conversacion termino en la nada mas absoluta, hablar con una pared con
+una mente vacia, hueca, con alguien que no te comprende ni quiere
+comprenderte, pq el problema es que todos se estan posicionando y
+nadie puede escuchar libre de situacion.
+*** 2018-11-10 sábado
+**** preparando la vuelta :retiro:
+:LOGBOOK:
+CLOCK: [2018-11-10 sáb 12:56]--[2018-11-10 sáb 13:13] =>  0:17
+:END:
+Luego de un retiro de una semana llego a algunas conclusiones que es
+bueno registrar rapidamente como vayan saliendo:
+.1 en los ultimos dias me distendi fisicamente, descubri que lo que me
+hace mal es la mesa y obvio el exceso de compu, pero pare un poco los
+nervios.
+.2 creo que es muy nuevo para decirlo pero la pastilla de ayer dio en
+la tecla de como parar la tension interna pq en cierta forma mas alla
+de que nada cambio ni fisica ni mental ni situacionalmente, la toma
+del quimico me saco el liquido que corria y me quemaba por dentro de
+los huesos tranquilizandome sin ponerme zombi ni darme
+sueno. dosificada en una sola en el dia, media cuarto y cuarto y hoy
+comence con cuarto.
+.3 sobrepase la gran frustracion de no dar pie con bola con snit y
+luego con itclnuevo, con eso perdi domingo a la noche, lunes martes
+miercoles. y parte de jueves no se.
+recien anoche viernes a la noche cuando leo pausadamente el manual de
+itk entiendo realmente la diferencia del objeto .t creado por tbls .t
+que tiene el metodo .t llenar siendo llenar un metodo y .t.tbls
+rowconfigure siendo rowconfigure un "comando" de un componente del
+objeto .t o sea que no se le puede pedir ni a palos que .t tenga como
+propio el comando (que seria el metodo) rowconfigure como para
+ejecutarlo el mismo, seria un quilombo, esa confusion mental la tenia
+hasta anoche, imaginarse cuanto tiempo estuve en la nebulosa
+peleandome con el sistema, el cual lo hago andar pero sin tenerlo
+claro, igual con las opciones. No se si llegar a este conocimiento
+actual vale la pena haber pasado por lo que pase, o sea haber perdido
+tiempo en todo lo que perdi, y haber ensayado lo que ensaye, y esto me
+hace apreciar lo que tengo, que dentro de todo asi como esta va una
+luz. 
+.4 luego retomo el desarrollo del buscador guiandome por lo que estoy
+requiriendome en el cuaderno y por ahi me voy de nuevo a la mierda
+como cuando quiero modificar el alma de nemethi para que incluya mi
+combo modificado en la edicion del tablelist, lo cual no se si es muy
+necesario o muy seguro, o muy deseable perder tiempo en eso.
+.5 dentro de todo un par de ideitas nuevas las pude pasar al toque a
+lo nuevo como sumar celdas, o combo que filtre por lista de cajon, y
+me permitio apreciar la rapidez que tiene el itk2 con relacion a
+cualquier otro sistema que no se porque es tan lento. 
+.6 la bocha es que me calme creo animicamente, y me di cuenta que debo
+hacer algo con el dolor de cabeza pq no puedo seguir asi tomando dos
+migrales por dia.
+el licuadito diario, me regularizo el vientre joya, y con la pastilla
+dormi muy bien estos dias, pero quizas exacerbo el dolor por el exceso
+en la programaicon y los nervios, fruto del descontrol.
+No me debo olvidar que pocos dias atras hablaba de matarlos a todos, o
+matarme yo o irme a otro lado y perderme, ya ahora pienso en volver a
+trabajar, en retomar una rutina sencilla, en volver a programar
+simplemente y tratar de vivir sencillamente.
+Creo que la crisis nerviosa que en cierta forma tenia y me parecia
+enorme e inmanejable me parece ahora superable con la ayuda de una
+pastillita y quizas sea el efecto de la chia acumulado, o de dormir
+bien tambien, no podemos negar eso. LLevo durmiendo bien unas cuantas
+noches.
+.7 tendria que volver a mi casa para ver si puedo agregar otras
+funciones a mi vida como serian:
+   .a mas suplementos y comida mas sana
+   .b mas movimiento
+   .c ver si puedo dormir igual alla
+   .d moderar la programacion como trabajo y no como obsesion
+   .e participar del trabajo sin nerviosismo
+.8 quedarme mas tiempo aca seria peligroso pq caeria en la dependencia
+y caeria en mas conducta de dejadez. y a la vez no podria hacer nada
+relativo a ir mejorando otros aspectos de mi vida o sea recuperarme.
+*** 2018-11-11 domingo
+**** items no negociables :retiro:trabajo:
+:LOGBOOK:
+CLOCK: [2018-11-11 dom 14:51]--[2018-11-11 dom 14:58] =>  0:07
+:END:
+noto que si no puedo expresar las ideas rapidamente en forma
+coordinada y clara me pongo nervioso y alterado y que si hago un
+esfuerzo de sintesis y aclaracion de ideas me tranquilizo.
+Aca un resumen de las ideas que me parecen que son basicas de lo que
+quiero
+***** debo trabajar
+no puedo dejar de trabajar ni pensar en ninguna otra cosa rara
+***** me conviene seguir en la sociedad
+por cuanto si no veo en perspectiva un cambio de rubro mejor seguir
+con este negocio
+***** necesitamos alquilar una oficina
+ya que la oficina actual es indisponible, y el dpto no es apto para
+oficina pq es mi vivienda personal y me gustaria disponer de el cuando
+yo quiera.
+la oficina pienso que debe tener minimo dos ambientes ser apta para
+flujo de gente y posible venta a traves de promotores desde la oficina.
+***** una vez instalados en la nueva oficina 
+o bien vuelvo a mi tarea o bien puedo hacer la tarea de la calle.
+ya sea visita de clientes o grupo
+***** no creo que la kangoo deba ser entregada a nadie 
+la venta base que nos asegura el sustento la debemos hacer nosotros
+mismos.
+Maxime en un contexto como el actual.
+>>>>>>> 3fa2b985e1f5b7b332fa623360b89249c2e2f802
 *** 2018-11-13 martes
-**** Hoy comienza desafio :retiro:programacion:problemaTiempo:
+**** Hoy comienza desafio             :retiro:programacion:problemaTiempo:
 :LOGBOOK:
 CLOCK: [2018-11-13 mar 08:37]--[2018-11-13 mar 08:44] =>  0:07
 :END:
@@ -1571,7 +1808,7 @@ algo, como Floky.
 Y me produce ansiedad y problemas, y dolores, y a veces pienso porque
 me meto al vicio en camisa de once baras pudiendo estar tranquilo
 cumpliendo lo que debo hacer y punto. 
-**** gran ataque de migraña :migraña:ansiedad:
+**** gran ataque de migraña                             :migraña:ansiedad:
 :LOGBOOK:
 CLOCK: [2018-11-13 mar 17:22]--[2018-11-13 mar 17:39] =>  0:17
 :END:
