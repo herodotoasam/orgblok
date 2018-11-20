@@ -309,3 +309,51 @@ Numbers
 SCHEDULED: <2018-11-01 jue>
 - State "DONE"       from "TODO"       [2018-11-01 jue 17:46]
 
+* Por fin volvi al trabajo :retiro:
+:PROPERTIES:
+:CREADO:   [2018-11-16 Fri 18:58]
+:END:
+
+Hoy volvi!!!!!!!!
+Y fue grandioso.
+Creo q no debo dejar de trabajar y no debo ser mas condescendiente con nadie.
+Y eso incluye a la cami.
+Si no le gusta el trabajo q se vaya.
+Ya me canso.
+Total a partir de ahora estoy de vuelta.
+
+La idea es seguir programando pero para q sea mas facil las tareas reales.
+
+
+* DONE Evaluar atom orgmode
+CLOSED: [2018-11-19 Mon 21:26]
+:PROPERTIES:
+:CREADO:   [2018-11-16 Fri 19:03]
+:END:
+
+* DONE Mejorar dni.tcl :IDEA:
+CLOSED: [2018-11-19 Mon 21:26]
+:PROPERTIES:
+:CREADO:   [2018-11-16 Fri 19:04]
+:END:
+
+Para facilitar los pedidos de fichas
+
+* TODO Mobile
+:PROPERTIES:
+:CREADO:   [2018-11-19 Mon 21:42]
+:END:
+
+Que el pdf generado se llame callenum y no temp como ahora
+
+* TODO Ver en programacion :programacion:IDEA:
+:PROPERTIES:
+:CREADO:   [2018-11-19 Mon 21:56]
+:END:
+
+Gridplus
+Seguir con TODO dentro de VS para el control de cerca de los proyectos
+Releer el manual de itcl itk y perfeccionar el itk2
+Chequear el programar en androwish via tkhellowish para ver si se puede usar el ambiente de desarrollo de android
+
+

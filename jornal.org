@@ -16,7 +16,7 @@
 * 2016
 ** 2016-10 octubre
 *** 2016-10-22 sábado
-**** minuta de programacion                                 :programacion: 
+**** minuta de programacion :programacion:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
 :END:
@@ -30,10 +30,11 @@ CLOCK: [2018-10-10 mié 18:29]--[2018-10-10 mié 18:29] =>  0:00
  se diferencia del diario de desarrollo que en el se debate lo que se
  va a hacer, y este registra lo que se hace, muy claramente en vim.
  ver si el clockeado en subtree se suma arriba
-* 2018                                                                 :2018:
+
+* 2018 :2018:
 ** 2018-01 enero
 *** 2018-01-10 miércoles
-**** problema tiempo libre cambio horario a la manana :problemaTiempo: 
+**** problema tiempo libre cambio horario a la manana :problemaTiempo:
 :LOGBOOK:
 CLOCK: [2018-10-15 lun 18:06]--[2018-10-15 lun 18:07] =>  0:01
 :END:
@@ -43,12 +44,15 @@ CLOCK: [2018-10-15 lun 18:06]--[2018-10-15 lun 18:07] =>  0:01
  justificar el cambio. Tampoco da por ahora la idea de salir, No estoy
  animicamente para eso. Por el momento creo que esta bueno que me
  inspire en hacer estas cosas que tengo que hacer y nunca hice.
+
 *** 2018-01-11 jueves
 **** experiencias luego de la lectura de Louse Hay :lecturas:estadoAnimico:RELEER:
 :LOGBOOK:
 CLOCK: [2018-10-15 lun 18:10]--[2018-10-15 lun 18:11] =>  0:01
 :EN
+
 ***** "puedo cambiar" en medio del ejercicio
+
  en el capitulo de louise hay donde dice que el uso del espejo es
  fundamental para las afirmaciones en voz alta, pues es ahi donde
  veremos si creemos nosotros mismos en lo que supuestamente
@@ -60,7 +64,9 @@ CLOCK: [2018-10-15 lun 18:10]--[2018-10-15 lun 18:11] =>  0:01
  sin saber de donde salian y puedo decir que no hubiera completado
  nunca las tres series sin las afirmaciones.
  Y luego hice la primer serie de pushup.
+
 ***** sin la practica esos libros no sirven
+
  si no hacemos la practica no sirven.
  Es importante esa parte que dice que hay una necesidad dentro de
  nosotros para ser como somos sino atacamos esa causa no eliminaremos
@@ -85,23 +91,30 @@ CLOCK: [2018-10-15 lun 18:10]--[2018-10-15 lun 18:11] =>  0:01
  Igual el tema del dpto que hay muchisimas cosas que no se resuelven
  nunca en una minimalizacion que sea compatible con otras personas.
  Pero PUEDO CAMBIAR.
+
 ***** louise hay tiene la clave
+
  se que tiene la clave pq en las inseguridades propias y en la falta de
  amor por uno mismo esta la clave. Si uno no puede hablarse al espejo
  solo en su propia soledad imaginate si podra hablarle a los demas. Por
  eso pienso que debo continuar por ese camino.
+
 *** 2018-01-13 sábado
-****  Aplicacion de conceptos de Louse Hay :lecturas:
+**** Aplicacion de conceptos de Louse Hay :lecturas:
 :LOGBOOK:
 CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
 :END:
-***** descubrimiento del poder de la mente                       :RELEER:
+
+***** descubrimiento del poder de la mente :RELEER:
+
  me llama la atencion la idea de que "la mente es un instrumento que
  usted puede usar de cualquier manera como lo desee"
  "A medida que aprenda a controlar la mente eligiendo conscientemente
  sus pensamientos, ira ganandose como aliado ese poder"
  Y alli tengo dos ejemplos y un contraejemplo
+
 ****** Ejemplo oficina:
+
  Estaba tan mal que no queria ir mas a la oficina, me costaba
  levantarme y enfrentar otro dia de trabajo. Y leyendo un capitulo
  donde uno hacia un repaso mental de todos los lugares y cosas de la
@@ -110,20 +123,26 @@ CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
  que era CL la imaginaba que era eficiente y se comportaba en forma
  opuesta a lo que me molestaba, y la transformacion fue casi milagrosa
  y ha funcionado hasta el dia de hoy. Y solo cambio el pensamiento.
+
 ****** Ejemplo ejercicio:
+
  Luego de dos meses y medio de no hacer ejercicios, me encare a la idea
  de hacer las series de ejercicio con mucho esfuerzo pero en el medio
  de cada serie hacia una serie de afirmaciones en el espejo de "Puedo
  cambiar" y eso me dio energia suficiente para lograr las tres series
  completas y empezar los pushup, todo pienso que imposible sin ese
  aditamento.
+
 ****** Contraejemplo:
+
  el dia que fui al mercado norte y se me fueron los pensamientos en un
  espiral negativo cada vez peor y cuando llegue a casa a los cuarenta
  minutos tenia una migraña explosiva. Estoy seguro que si hubiera
  interrumpido el flujo de pensamientos y cambiado no habria pasado
  nada.
+
 ***** manejo del tiempo en el nuevo esquema horario
+
  por el momento tratando de transformar la realidad del dpto, como hice
  comenzando con la cocina, y pienso seguir con el tema documentos y el
  resto de las minimalizaciones.
@@ -134,7 +153,9 @@ CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
  de resultado que haga que luego sea agradable continuar y
  mantener. Igual con los minimos acomodos que hacen falta a nivel
  cables. 
+
 ***** entrenamiento mental
+
  creo que se puede comenzar un serio entrenamiento mental usando
  afirmaciones.
  he comenzado una dificil, muy dificil en mi caso apoyandome en un
@@ -145,7 +166,9 @@ CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
  Recordando en tiempo presente, en positivo, con
  emocion. Reiteradamente. Antes de acostarme y al levantarme. Veremos
  cuanto tiempo demoramos en hacerlo realidad.
+
 ***** ejercicio con "ayuda mental"
+
  creo que lo demostre anteayer y el dolor muscular es prueba de que fue
  lo suficientemente intenso como para que sirviera. Ahora pienso que
  debo superar cierta "masa critica" para que empiece a crear musculo,
@@ -155,29 +178,40 @@ CLOCK: [2018-10-15 lun 18:19]--[2018-10-15 lun 18:20] =>  0:01
  pq hacer un cambio para el cual ya estoy usando camisas mc sin
  camisetas abajo en solo dos meses solo por dieta, tendria que hacer un
  sacrificio.
+
 ***** rearmar el tema alimentario
+
  idem anterior es el tema dieta, felizmente hasta hoy me he mantenido
  dentro, salvo breves salidas que no llegan al 10% de lo permitido, con
  batata.
  Pero hay que reformar la dieta urgente para dar variedad.
+
 ** 2018-03 marzo
 *** 2018-03-15 jueves
-**** Louse Hey reflexiones sobre traumas infantiles             :lecturas: 
+**** Louse Hey reflexiones sobre traumas infantiles :lecturas:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 18:50]--[2018-10-10 mié 18:51] =>  0:01
 :END:
+
 ***** necesidad de pontificar u obtener lustre indirectamente
+
  o sea de hacerse odiar. O sea de resaltar cosas en las cuales siempre
  quedamos bien parados o mejor parados que los demas. O sea es una
  forma de busqueda de aprobacion externa que viene a ser buscada
  indirectamente.
+
 ***** necesidad de quejarse
+
  hay un articulo perfecto en el cuaderno donde describo el ideal que
  veria en ih si sirviera a proposito para mis quejas.
+
 ***** necesidad de dolor de cabeza o de tomar analgesico
+
  en especial frente a una crisis de nervios o a un imprevisto que me
  saque de la rutina
+
 ***** necesidad de hacer "competir" por el amor o la atencion
+
     con un placer perverso de mirar al que esta "perdiendo" la atencion. Este 
     recurso que es ampliamente usado en las peliculas y series.
     P.e. en serie Amor S01E03 donde Mickey ve a Gus que atrae la atencion de 
@@ -189,13 +223,14 @@ CLOCK: [2018-10-10 mié 18:50]--[2018-10-10 mié 18:51] =>  0:01
     contexto de amor limitado, siendo que el amor hubiera podido alcanzar para 
     todos. Y de mayor uno tiende a beneficiar mas a uno que a otro. Y a gozar 
     con sadismo de esas diferencias.
+
 ***** vivencia de no ser amado
 ***** vivencia de tener que dejar mi proyecto en favor de un familiar
 ***** vivencia de que no era dado ni siquiera desear algo
 ***** vivencia de invisibilidad
 ** 2018-09 septiembre
 *** 2018-09-12 miércoles
-**** sensacion de estar atrapado                                :libertad:
+**** sensacion de estar atrapado :libertad:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 19:41]--[2018-10-07 dom 19:42] =>  0:01
 :END:
@@ -240,6 +275,7 @@ CLOCK: [2018-10-07 dom 19:41]--[2018-10-07 dom 19:42] =>  0:01
   propio, etc. o sea no es cuestion de decir que me acuesto y tengo super 
   siesta, y no es tampoco que se puede dormir aca en el centro. y a correr a 
   la oficina.
+
 **** sensacion de encierro en mi dpto transformado en oficina :problemaCami:libertad:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 19:45]--[2018-10-07 dom 19:47] =>  0:02
@@ -284,8 +320,9 @@ CLOCK: [2018-10-07 dom 19:45]--[2018-10-07 dom 19:47] =>  0:02
    que me liberaron, pienso que el solo hecho de que la Cami se vaya cuando 
    termina su jornada y quede solo en el dpto ya es liberador para mi. Pero de 
    la carcel mayor no puedo librarme.
+
 *** 2018-09-18 martes
-**** pruebo con beroca                                         :cansancio:
+**** pruebo con beroca :cansancio:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 19:56]--[2018-10-07 dom 19:57] =>  0:01
 :END:
@@ -304,7 +341,7 @@ CLOCK: [2018-10-07 dom 19:56]--[2018-10-07 dom 19:57] =>  0:01
 
 ** 2018-10 octubre
 *** 2018-10-07 domingo
-**** domingo en familia de nuevo con dolor                       :migraña:
+**** domingo en familia de nuevo con dolor :migraña:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 19:28]--[2018-10-07 dom 19:35] =>  0:07
 :END:
@@ -323,6 +360,7 @@ mas si es a la siesta. Es muy desgastante y mas si uno quiere hablar
 temas de negocio, no es factible querer discutir temas de negocio
 durante un almuerzo familiar, pq le quita la familiaridad que debe
 tener todo y eso no sirve.
+
 **** De que tratara el diario jornales y como estara organizado :jornales:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 20:00]--[2018-10-07 dom 20:07] =>  0:07
@@ -341,14 +379,16 @@ CLOCK: [2018-10-07 dom 20:00]--[2018-10-07 dom 20:07] =>  0:07
  seleccionar una parte del org que queramos leer. Como puse que
  podemos seleccionar solo tags del mismo archivo eso es mas facil pq
  facilita la seleccion.
-**** TODO trasvasar todo .dek a jornales                        :jornales:
+
+**** TODO trasvasar todo .dek a jornales :jornales:
 :LOGBOOK:
 CLOCK: [2018-10-07 dom 20:07]--[2018-10-07 dom 20:11] =>  0:04
 :END:
  al menos .dek habria que pasarlo se puede ir leyendo parte por parte
  para ver que tag asignar
+
 *** 2018-10-08 lunes
-**** Ya asumio que no trabaja mas conmigo                   :problemaCami:
+**** Ya asumio que no trabaja mas conmigo :problemaCami:
 :LOGBOOK:
 CLOCK: [2018-10-08 lun 15:40]--[2018-10-08 lun 15:41] =>  0:01
 :END:
@@ -357,8 +397,9 @@ CLOCK: [2018-10-08 lun 15:40]--[2018-10-08 lun 15:41] =>  0:01
  post y hoy a la mañana analice bien con ih, lo bueno de todo esto que
  no afecte la relacion con ella, y si ahora ella tiene trabajo con la
  Romi mejor.
+
 *** 2018-10-09 martes
-**** ultra dispositivo para dormir                              :insomnio:
+**** ultra dispositivo para dormir :insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 09:10]--[2018-10-09 mar 09:16] =>  0:06
 :END:
@@ -379,7 +420,8 @@ CLOCK: [2018-10-09 mar 09:10]--[2018-10-09 mar 09:16] =>  0:06
  las 8 que sono el despertador. Al menos en un contexto de ansiedad
  (pero ansiedad de la buena, esa ansiedad emacsiana) pude dormir bien
  pq vengo de varios dias sin dormir bien.
-**** fui a pagar dpto y de nuevo la bruja de la Maria       :dpto:matetes:
+
+**** fui a pagar dpto y de nuevo la bruja de la Maria :dpto:matetes:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 11:18]--[2018-10-09 mar 11:23] =>  0:05
 :END:
@@ -392,7 +434,8 @@ CLOCK: [2018-10-09 mar 11:18]--[2018-10-09 mar 11:23] =>  0:05
 Lo patetico de todo es que ya pago el 4to mes de alquiler y no arregle
  el caño de la cocina, y ya pienso en mudarme. Tendria que agregar
  este tema a matetes.
-**** altibajo animico durante el fin de semana      :estadoAnimico:findes:
+
+**** altibajo animico durante el fin de semana :estadoAnimico:findes:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 12:09]--[2018-10-09 mar 12:15] =>  0:06
 :END:
@@ -412,7 +455,8 @@ finde fue la emacsiada. Y en el pasado tambien. Los otros anteriores
 fue la filosofia y la lectura. Lo llamativo es que estando en mi casa
 no dejo de hacer otras cosas como dormir la siesta por eso, -bueno a
 veces si- Pero creo que es algo que hay que cambiarlo. 
-**** soy una maquina de quejas                           :ih:matetes:dpto:
+
+**** soy una maquina de quejas :ih:matetes:dpto:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 12:39]--[2018-10-09 mar 12:44] =>  0:05
 :END:
@@ -431,7 +475,8 @@ quejarme de todo. Al final me puse y en dos minutos, lave las dos
 ollas que podian estar podridas y me saque el reloj y puse un balde
 con procenex y pase el piso de la cocina y listo, no tarde mas de
 cuatro minutos. 
-**** me quede sin la siesta por ahora                           :libertad:
+
+**** me quede sin la siesta por ahora :libertad:
 :LOGBOOK:
 CLOCK: [2018-10-09 mar 19:40]--[2018-10-09 mar 19:42] =>  0:02
 :END:
@@ -440,8 +485,9 @@ de la siesta p.e. Fabian me pidio dos cuentas nuevas y al final es
 cuestion de costumbre, me quedo leyendo aunque descansando quizas en
 un tiempito con aa y luego me cambio tomo un cafe y me vengo a la
 ofi. Y luego duermo bien a la noche.
+
 *** 2018-10-10 miércoles
-**** segunda noche con ultradispositivo y sin siesta            :insomnio:
+**** segunda noche con ultradispositivo y sin siesta :insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 08:39]--[2018-10-10 mié 08:43] =>  0:04
 :END:
@@ -453,7 +499,8 @@ de ... arroz yamani en seco!! horrible, al respiro fui a tomar agua al
 menos que saliera mas fluido pero no salio nada y no jodio mas nada,
 y segui durmiendo joya y sin tomar una tercera SL como habia hecho la
 primera noche del ultradispositivo
-**** atoramiento de tareas atrasadas en ciertos momentos    :matetes:dpto:
+
+**** atoramiento de tareas atrasadas en ciertos momentos :matetes:dpto:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 08:44]--[2018-10-10 mié 08:53] =>  0:09
 :END:
@@ -478,7 +525,8 @@ limpiadora que atendi en la oficina no tener un dpto para recibir
 gente en condiciones, o me molesto pq las visitas me sacan de mi plan
 original que pueda ser comer, leer etc. Yo me inclinaria por el
 segundo en estos momentos. 
-**** ataque ansiedad al volver del banco                        :ansiedad:
+
+**** ataque ansiedad al volver del banco :ansiedad:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 11:20]--[2018-10-10 mié 11:24] =>  0:04
 :END:
@@ -492,7 +540,8 @@ mesa, tengo que contar la plata, hacer la caja, pasar las ventas, etc
 y el calor insoportable, me tomo una SL y caigo en ansiedad, luego se
 me va a pesar de la mala noticia que me da ih sobre que la Romi
 abandona la idea de la enseñanza y entra en crisis personal ella misma.
-**** dolor implantes inf. derechos                    :sintomas:implantes:
+
+**** dolor implantes inf. derechos :sintomas:implantes:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 13:16]--[2018-10-10 mié 13:19] =>  0:03
 :END:
@@ -500,14 +549,16 @@ anoche mientras comia el arroz senti una sensacion de dolor no
 dentaria tipo carie pero si como inflamatoria alrededor de la encia,
 pero luego me fui a dormir, y a la mañana cuando me lave los dientes
 me molesto un poco y luego paso. 
-**** sigo con el tic de empujar con la lengua           :sintomas:dientes:
+
+**** sigo con el tic de empujar con la lengua :sintomas:dientes:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 13:19]--[2018-10-10 mié 13:21] =>  0:02
 :END:
 hasta producir dolor en las protesis en distintos lugares, y me tomo
 otra SL para evitar el nerviosismo que me lleva a hacer eso no quiero
 tener problemas por culpa de eso.
-**** objetivo concentrarse en org-mode unicamente                :estudio:
+
+**** objetivo concentrarse en org-mode unicamente :estudio:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 15:30]--[2018-10-10 mié 15:38] =>  0:08
 :END:
@@ -522,7 +573,8 @@ El tema tablas tambien y falta repasar el tema formulas y calculos, y
 el tema busquedas, agendas etc etc.
 Obviamente todo va a ser mas operativo con el uso continuo. pq el uso
 hace a la funcion. 
-**** estoy enviciado con emacs/orgmode                   :bitacoraOficina:
+
+**** estoy enviciado con emacs/orgmode :bitacoraOficina:
 :LOGBOOK:
 CLOCK: [2018-10-10 mié 20:10]--[2018-10-10 mié 20:14] =>  0:04
 :END:
@@ -537,8 +589,9 @@ me agrava la sensacion de falta de tiempo, pero en realidad la falta
 de tiempo la tengo igual, y esto en realidad lo que hace es a la larga
 beneficiarme y ayudarme a organizarme y me da la posibilidad de
 aprender algo.
+
 *** 2018-10-11 jueves
-**** resolucion de algunos matetes         :matetes:ansiedad:problemaCami:
+**** resolucion de algunos matetes :matetes:ansiedad:problemaCami:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 13:20]--[2018-10-11 jue 13:27] =>  0:07
 :END:
@@ -557,7 +610,8 @@ y dejar lo rutinario que lo pase ella. Igual el imprimir intimaciones
 puedo hacerlo en la oficina. O sea menos trabajo en la casa, mas
 trabajo en la oficina. Y pongo mi vida al dia que de otra forma no se
 va a poner al dia y va a ir rumbo al colapso. 
-**** hoy disminucion de ansiedad                       :ansiedad:insomnio:
+
+**** hoy disminucion de ansiedad :ansiedad:insomnio:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 15:29]--[2018-10-11 jue 15:36] =>  0:07
 :END:
@@ -583,7 +637,8 @@ encarar la limpieza que falta. (El dia ayuda y el nivel de energia que
 yo tenia tambien.) Luego me aboque a instalar la impresora y lo logre
 sin demasiadas complicaciones aunque no a la primera instancia, y ya
 tengo el sistema de nuevo en funcionamiento. 
-**** organizacion de la jornada con la Cami trabajando              :dpto:
+
+**** organizacion de la jornada con la Cami trabajando :dpto:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 15:37]--[2018-10-11 jue 15:43] =>  0:06
 :END:
@@ -594,13 +649,15 @@ como las hojas y el toner, o sea es mucha la ayuda que tengo. Y de
 paso la tengo aca conmigo.
 Yo por lo pronto quiero empezar a limpiar el dpto, esa sera la primer
 estrategia y el primer objetivo y a descansar mas. 
-**** sigue molestia en molar implantado derecho       :sintomas:implantes:
+
+**** sigue molestia en molar implantado derecho :sintomas:implantes:
 :LOGBOOK:
 CLOCK: [2018-10-11 jue 19:55]--[2018-10-11 jue 19:59] =>  0:04
 :END:
 en el area de la encia alrededor, como si se hubiera inflamado con el
 cepillo o bien un proceso. Voy a aprovechar el sabado que vaya a
 pagarle al doc para consultar
+
 *** 2018-10-12 viernes
 **** segundo dia de sistema :ansiedad:hijas:insomnio:migraña:
 :LOGBOOK:
@@ -622,12 +679,14 @@ encarpetados y al dia. O sea metimos 600 documentos en carpeta en un
 solo saque. Ahora me falta llevar los papeles. Sigo con ansiedad cero,
 y me parece que la relacion con las hijas aca fluye de otra forma lo
 que estoy mas relajado en cuanto a horarios.
+
 **** TODO objetivo acomodar los archivos de orgmode :orgmode:minimalizacion:
 :LOGBOOK:
 CLOCK: [2018-10-12 vie 14:18]--[2018-10-12 vie 14:19] =>  0:01
 :END:
 lo puedo hacer en cualquier lado, es algo divertido y a la vez es util
 para que rinda mejor el esfuerzo.
+
 *** 2018-10-13 sábado
 **** mala experiencia con helm :orgmode:emacs:
 :LOGBOOK:
@@ -639,6 +698,7 @@ directorio .emacs.d/ y luego reinstale todos los paquetes que uso y
 quedo una instalacion limpia de nuevo.
 prefiero usar asi. Helm era muy invasivo, incomprensible y estorbaba
 en la asignacion de tags en orgmode.
+
 *** 2018-10-14 domingo
 **** solo en la cabaña estaba tranquilo :ansiedad:CE:findes:matetes:libertad:
 :LOGBOOK:
@@ -680,6 +740,7 @@ vinieron, y quedo una seudoinvitacion del fede para ir a comer, y
 hasta ahora no se han hecho presente, y eso en el fondo te tiene las
 bolas al plato, pq ni siquiera quiero ir para alla, y encima viene ih
 que la del super le dice "van a ir a algun lado??"
+
 **** avance bastante en aprendizaje y en arreglo :findes:orgmode:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 17:32]--[2018-10-14 dom 17:38] =>  0:06
@@ -697,6 +758,7 @@ guardando y desactivando los org viejos que molestan pero que son
 lindos guardarlos, y ya manejo bien el refile, y los capture template,
 agregue otro template para habit.
 No he avanzado tanto en achurar archivos pero eso es la parte facil.
+
 **** NEXT objetivo de estudio y forma de realizarlo :estudio:orgmode:emacs:OBJ:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 17:38]--[2018-10-14 dom 17:40] =>  0:02
@@ -706,12 +768,14 @@ de los conocimientos para llegar al fondo de la cuestion es la
 impresion por capitulos separados como hice con orgmode y su
 correspondiente lectura y asimilacion completa. pq eso luego lleva a
 su aplicacion he incorporacion a la base de datos actual.
+
 **** sigo con dolor en implante y sangrado encia :implantes:sintomas:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 22:22]--[2018-10-14 dom 22:23] =>  0:01
 :END:
 sigue el dolor en el mismo nivel, parece encia, y ahora sangra al
 lavar los dientes pero no mucho.
+
 **** tres SL un domingo!! :findes:ansiedad:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 22:23]--[2018-10-14 dom 22:29] =>  0:06
@@ -731,7 +795,8 @@ resultado, y la ansiedad ahora se manifiesta con el tic de empujar los
 dientes y me tomo un tercer SL. Y pienso que todo es lo mismo. Al
 final un dia que tendria que ser de relax total termina siendo de
 dopacion total.
-**** learn/anki/drill no funciona :orgmode: 
+
+**** learn/anki/drill no funciona :orgmode:
 :LOGBOOK:
 CLOCK: [2018-10-14 dom 22:52]--[2018-10-14 dom 22:53] =>  0:01
 :END:
@@ -740,12 +805,15 @@ CLOCK: [2018-10-14 dom 22:52]--[2018-10-14 dom 22:53] =>  0:01
  learn con el algorritmo supermario. para ver 
  ambos dan error, no andan. que bronca.
 Lo volvi a probar hoy y tampoco funciono.
+
 *** 2018-10-15 lunes
 **** formas de tagear en journal :orgmode:
 :LOGBOOK:
 CLOCK: [2018-10-15 lun 17:55]--[2018-10-15 lun 18:02] =>  0:07
 :END:
-***** usar el tag OBJ para objetivos 
+
+***** usar el tag OBJ para objetivos
+
 cosa que siempre hacemos o hicimos, y asi podemos identificar un post
 con dicho tag como objetivo, y adosarle otros tags como alimento o
 ejercicio o dpto o estudio etc. para filtrar, y tambien se puede jugar
@@ -756,11 +824,14 @@ trabajando y de alli concretar acciones en agenda o reformularle el
 titulo para que sirvan para nextaccions.  Y de paso tendriamos una
 vision a traves del tiempo de todos los objetivos como van o
 permaneciendo los mismos o cambiando a traves del tiempo.
-***** usar el tag RELEER para post destacados 
+
+***** usar el tag RELEER para post destacados
+
 cuando releemos p.e. ahora que tengo que hacer refile hay post que
 vale la pena destacar del resto se pueden tagear a posteriori con este
 tag, cosa que no sale en el momento de escribirlo pq no sabiamos que
 era una porcion memorable.
+
 **** pasar TODOS los escritos a un solo archivo :orgmode:OBJ:matetes:
 :LOGBOOK:
 CLOCK: [2018-10-15 lun 18:38]--[2018-10-15 lun 18:47] =>  0:09
@@ -774,6 +845,7 @@ Creo que la suma de poder tagear profusamente, acomodar en el arbol
 cronologico, y a la vez marcar encryptado lo que sea necesario. Mas la
 posibilidad de ir escribiendo abajo nuevos posts relacionados, incluso
 usar links vale la pena.
+
 *** 2018-10-16 martes
 **** terminacion finde superlargo :ansiedad:findes:
 :LOGBOOK:
@@ -788,6 +860,7 @@ causo mucha ansiedad y varios SL.
 En general dormi bien, curse con poco migral, y hoy a la mañana un
 poco me puse ansioso por la salida pensando que no iba a conseguir
 taxi pero a pesar del caos vehicular pudimos salir tranquilos.
+
 **** limpie vestidor y mesas de luz :tareaExtra:
 :LOGBOOK:
 CLOCK: [2018-10-16 mar 13:10]--[2018-10-16 mar 13:16] =>  0:06
@@ -804,19 +877,26 @@ mañana aproximadamente entre las 10.30 y las 12.30, pq no lave platos
 ni tendi cama, pq pense que era mejor hacer una tarea de base y luego
 seguir con lo de arribita y no seguir evadiendo la tarea de base. para
 siempre. 
+
 **** Este tag es un analisis de la organizacion en org :infoOrg:
 :LOGBOOK:
 CLOCK: [2018-10-16 mar 13:16]--[2018-10-16 mar 13:26] =>  0:10
 :END:
 Como organizar los archivos y como organizar los tags.
-***** Implemente el tag tareaExtra 
+
+***** Implemente el tag tareaExtra
+
 para describir toda aquella tarea que haga en el dia a dia que no sea
 rutinaria ni se haga siempre, siempre en funcion de hacer un sparse
 tree y ver cuales y cuando fueron las tareas extras que hicimos
+
 ***** implementar las recetas como tag no como archivo extra
+
 para que poner otro archivo, si mejor tener todo en uno y con un tag
 adecuado poner la receta y luego la buscamos facilmente.
+
 ***** implemente una seccion cobradores casos con sus tags
+
 esa seccion contendra los casos que deben seguirse y agendarse.
 Eso siempre fue un pain con la base de datos y nunca lo logre, y con
 esto es una papa. 
@@ -830,6 +910,7 @@ que luego podre tener programadas vistas ad-hoc para filtrar y ver o
 bien las filtro a mano segun cuantas vayan siendo. Pero lo libre es
 poder poner todo tipo de casos, para que quede registrado
 todo. Incluso los reclamos, pendientes, etc.
+
 **** me inocule de common lisp :freakismo:
 :LOGBOOK:
 CLOCK: [2018-10-16 mar 22:00]--[2018-10-16 mar 22:02] =>  0:02
@@ -840,6 +921,7 @@ trabajo. P.e. estoy teniendo problemas con la agenda view por cobrador
 para recordar asuntos pendientes en el momento en oficina, y en crear
 trabajo que valga la pena en los pocos momentos de maquina efectivo
 que tengo como para tener que lidear con otra cosa nueva.
+
 *** 2018-10-17 miércoles
 **** dispositivo a toda maquina :insomnio:
 :LOGBOOK:
@@ -850,6 +932,7 @@ pensar que era hora de despertarme, y eran las 6 y pico y me volvi a
 dormir. A pesar del ruido, creo que las dos verdes por ahora superan
 el ruido y te permiten dormir muy bien. En especial si no has cenado
 nada. 
+
 **** un dia como cualquiera :estadoAnimico:hijas:orgmode:
 :LOGBOOK:
 CLOCK: [2018-10-17 mié 15:37]--[2018-10-17 mié 15:43] =>  0:06
@@ -873,6 +956,7 @@ medianamente organizados en un matete tan grande como el que
 tenemos. Pq estamos queriendo facturar una pasta y estamos sin gente y
 asi no se puede. Pq no hay tiempo. Pq yo trabajo todo el dia y no
 tengo tiempo para nada. Pq te lleva tiempo hacer las cosas. 
+
 **** limites entre oficina.org y programar en tcl :orgmode:programacion:
 :LOGBOOK:
 CLOCK: [2018-10-17 mié 22:16]--[2018-10-17 mié 22:22] =>  0:06
@@ -898,6 +982,7 @@ atencion de cobradores de dos horas.
 Como estaba abierto el log de programacion durante la programacion y
 alli quedo plasmada toda la historia de la programacion que hice.
 Y este jornal un poco anota todo lo que hago.
+
 **** dieta carne :alimentacion:
 :LOGBOOK:
 CLOCK: [2018-10-17 mié 22:22]--[2018-10-17 mié 22:25] =>  0:03
@@ -907,6 +992,7 @@ dias, pero aproveche el bife fresco pq freeze la mitad nomas. Cocinar
 no me supuso mucho tiempo. Las compras las hizo la Cami. 
 Mañana compro de nuevo para licuado y creo que eso va a levantar mas
 rapido que un frasco de beroca.
+
 *** 2018-10-18 jueves
 **** tags para clientes :idea:
 :LOGBOOK:
@@ -926,6 +1012,7 @@ o mudado, o devolvio.
 y eso permitiria analizar mejor las situaciones.
 Incluso luego con los parentezcos que habria que pensar como
 incluirlos como tags. 
+
 **** reflexiones :freakismo:
 :LOGBOOK:
 CLOCK: [2018-10-18 jue 14:41]--[2018-10-18 jue 14:54] =>  0:13
@@ -1000,6 +1087,7 @@ ultima pasada y todo por causa de no tener el cuidado minimo de
 protegerse de la cuestion calle. Por eso pienso que la informacion es
 de vital importancia pq cada frase cuenta en el momento de tomar la
 decision.
+
 **** necesidad de un F13 moderno en TCL :programacion:
 :LOGBOOK:
 CLOCK: [2018-10-18 jue 19:42]--[2018-10-18 jue 19:47] =>  0:05
@@ -1020,27 +1108,38 @@ CLOCK: [2018-10-19 vie 11:22]--[2018-10-19 vie 11:29] =>  0:07
 Senti un momentaneo ataque de improductividad estando la Cami aca sin
 hacer nada pq ya hizo todo temprano y creo que volvemos a caer a lo
 mismo de siempre. 
+
 ***** ganamos muy poquitas rutinas
+
 pq que rompa los papeles dia a dia, que encarpete dia a dia y asi. 
+
 ***** pero... sigo confiando en que no cometa errores
+
 o sea no da la ecuacion del tiempo para corregir errores, o sea que si
 siguen apareciendo errores se va a armar la gorda.
+
 ***** no es factible delegar tareas por mas nimias que sean
+
 hace dos dias que tengo que comprar nueces y pasas de uva y no puedo
 mandarla aca a una cuadra a que me las compre, o sea una mezcla de
 autodeclarada incapacidad de ella y un poco el querer yo que no me
 echen gran moco en las compras de ciertas cosas hace que no me sirva
 para eso. (ya se... tendria que llevarla conmigo una vez y que vea y
 luego a largo plazo ya que vaya ella.)
+
 ***** no es factible delegar cosas que son mayores o pq yo no me animo
+
 como fue hoy ir a rapipago pq eran 20k o ir al banco menos, o bien pe
 ir a poner un aviso que hay que preguntar por el numero de telefono y
 quizas no lo logre y encima llueve.
+
 ***** no se presta y no es proclive a agregarse funciones en el dpto
+
 pe me ve sacando la basura del cesto, atando la bolsa llevandola a
 donde va poniendo otra bolsa, etc. u ordenando un poco el dpto asi sea
 la parte del living cocina, o sea la parte dedicada a la oficina, y no
 lo hace.
+
 **** Creo que trabajo mucho :problemaTiempo:trabajo:
 :LOGBOOK:
 CLOCK: [2018-10-19 vie 11:30]--[2018-10-19 vie 11:37] =>  0:07
@@ -1056,6 +1155,7 @@ negocio, pq nada de eso era personal, o sea qu een el fondo pienso que
 estoy un poco excedido. Y quizas sea el formato de la jornada. Pero
 tambien los otros formatos me han sido adversos tambien hay que
 recordar. Y releer para verlo.
+
 **** tag MALVENDIDO para ventas con errores concretos :programacion:idea:
 :LOGBOOK:
 CLOCK: [2018-10-19 vie 18:07]--[2018-10-19 vie 18:11] =>  0:04
@@ -1069,6 +1169,7 @@ cuales son los casos en los que no se debe vender. Pq en la situacion
 actual de la base de dato todo queda en el olvido, se vende mal, se
 borran los rastros (condonamos) no anotamos nada y despues si hay un
 terrible incobrable no lo atribuimos a la mala venta.
+
 *** 2018-10-20 sábado
 **** estallido de fin de semana inexplicable contra ih :estadoAnimico:findes:ih:
 :LOGBOOK:
@@ -1113,6 +1214,7 @@ Tambien tengo telegram que tiene un pin de cierre en ambas maquinas. O
 sea que mientras no estoy esta cerrada la aplicacion.
 La instalacion fue muy rapida esta vez con las instrucciones que ya
 tenia de la vez pasada.
+
 **** buen resultado de este sabado :programacion:
 :LOGBOOK:
 CLOCK: [2018-10-20 sáb 23:57]--[2018-10-21 dom 00:00] =>  0:03
@@ -1123,6 +1225,7 @@ problema. Ahora queda armarlo.
 El lugar aca se presta con la nueva disposicion de la cocina al lado
 del tele. mientras ih ve tele yo programo.
 Un F13 nuevo va a resumir el F7 y el F13 viejo en uno nuevo.
+
 *** 2018-10-21 domingo
 **** consulta dentista :dientes:implantes:
 :LOGBOOK:
@@ -1130,35 +1233,52 @@ CLOCK: [2018-10-21 dom 12:29]--[2018-10-21 dom 12:36] =>  0:07
 :END:
 ayer hice la consulta general al dentista sobre todos los temas que
 tenia hasta el presente y hago este post para recordar.
+
 ***** amarilleo
+
 dice que no amarillean facilmente y que pueden volver a lo natural con
 bicarbonato o una pasta especial o una limpieza del odontologo cada
 seis meses
+
 ***** bruxismo
+
 placa de deporte que se remoja o bien hacer la placa especial cuando
 tenga el turno el sabado 17/11 
+
 ***** pasta dental
+
 la noc no es mala, pero tengo que comprar pastas que cuiden de la
 encia, todas las que tengan mencion a encias ya sea oral B o sensodyne
 o colgate, pero que tengan eso en la caja
+
 ***** cuidar sintomas
+
 si entre el diente y en la encia se va formando una bolsita que se va
 inflando se puede ir haciendo una infeccion con el implante
+
 ***** aftas
+
 las aftas ovaladas se formaron con el cepillado y son mas persistentes
 que las aftas comunes y pueden ser molestos y tambien sangrantes, y
 pueden ser producidos por excesos en el cepillado.
+
 ***** masticacion
+
 es normal por unos meses el tener miedo a masticar, pero no hay que
 tener miedo y mas que yo tengo los dientes naturales abajo que me
 permiten saber el grado de presion que estoy dando, pq con todo
 implantado no se sabe la presion que se da. 
+
 ***** tic de empujar con la lengua
+
 dice que no se aflojaran los dientes con eso
+
 ***** premolar mas atras
+
 que se puede corregir un poco con el implante definitivo pero va a
 haber un defecto pq la conformacion original de la boca era muy
 deficiente en ese sitio.
+
 **** Aprendizaje de emacslisp :estudio:freakismo:
 :LOGBOOK:
 CLOCK: [2018-10-21 dom 12:37]--[2018-10-21 dom 12:42] =>  0:05
@@ -1168,6 +1288,7 @@ tengo en firefox traducido bastante bien. Y aunque no es algo que
 lleve a una via concreta no deja de ser algo que va relajando en las
 lecturas, idem el paso a telegram.
 Tendria que pasar a teoria lo aprendido de ambos temas.
+
 **** finde espantoso pero pasamos :freakismo:findes:ih:
 :LOGBOOK:
 CLOCK: [2018-10-21 dom 17:32]--[2018-10-21 dom 17:37] =>  0:05
@@ -1187,12 +1308,14 @@ discresion. Y casi no se que hacer con todo ese tiempo, Y el freakismo
 extra por fuera solo se canalizo suavemente solo a un libro  que es la
 introduccion emacs-lisp, y lo de telegram. Que no se si ira a cuajar
 del todo.
+
 *** 2018-10-22 lunes
 **** instale veracrypt en la compu del dpto :freakismo:findes:
 :LOGBOOK:
 CLOCK: [2018-10-22 lun 12:11]--[2018-10-22 lun 12:11] =>  0:00
 :END:
 ya tengo en la notebook y aca, faltaria en la oficina
+
 *** 2018-10-23 martes
 **** dia durisimo y largo :cansancio:trabajo:
 :LOGBOOK:
@@ -1222,6 +1345,7 @@ emacs/orgmode/elips este finde/ telegram/ programacion en tcl nueva
 sumado a la crisis del sistema de cobranza y la crisis en general lo
 que hace que no podamos vivir ni tener un respiro y estemos
 practicamente viviendo para trabajar.
+
 *** 2018-10-24 miércoles
 **** :estadoAnimico:depresion:
 :LOGBOOK:
@@ -1250,7 +1374,9 @@ captacion maxime que quiera o no en el medio perdi la oficina. (Repito
 el tema no lo quiero tocar ni con ih, ni con el Fede, ni con nadie
 para evitar filtraciones, pasa como con la Cami a principios de año,
 pero es algo que te afecta en cierta medida.)
-**** porque quiero renunciar a todo             :trabajo:matetes:CE:crypt:
+
+**** porque quiero renunciar a todo :trabajo:matetes:CE:crypt:
+
 -----BEGIN PGP MESSAGE-----
 
 hQEMAzw2XLrRDtSdAQgArmkbAv5CLQJrXsD7IkEvSfTFah8mdCaCyTfD7pQkTGYA
@@ -1276,6 +1402,7 @@ J16r9vQwTLDA8YArJyzI4Kc/7cVBpuKzVKr7XglMLXy/yYtFueKkqI0ZiZvrzjGN
 V9ixDu7WRJNIezV0pBRgocGifSAU+InXq4hhZV9ruvuWUS8=
 =evS9
 -----END PGP MESSAGE-----
+
 **** hoy falto la Cami y fue caotico :ansiedad:estadoAnimico:
 :LOGBOOK:
 CLOCK: [2018-10-24 mié 16:26]--[2018-10-24 mié 16:27] =>  0:01
@@ -1284,6 +1411,7 @@ me mata que no venga, son las 4.30 y estoy destruido, y no he
 terminado y tengo entrevista a las 5.30
 y no comi bien y es injusto que haya faltado. Y tampoco me gusta que
 venga, esto no tiene solucion va camino a terminar mal.
+
 **** Estoy preso de un esquema que no puedo dejar :libertad:
 :LOGBOOK:
 CLOCK: [2018-10-24 mié 19:29]--[2018-10-24 mié 19:39] =>  0:10
@@ -1314,6 +1442,7 @@ findes que podrian haber sido disfrutables por el clima y pq la cami
 no salio se arruinaron por la presencia de los parientes y sus
 desencuentros y por la rutina en general que ya describi en otro post
 mas arriba.
+
 *** 2018-10-25 jueves
 **** necesidad de vacaciones- posibilidad :estadoAnimico:depresion:
 :LOGBOOK:
@@ -1324,7 +1453,9 @@ creo que podria aspirar a un periodo de descanso normal y ver que
 pasa, tratar de desenchufarme en la medida de lo posible (si es
 posible)
 considero algunos puntos para ir viendo:
+
 ***** que Fede tome contacto con el crudo de los cobradores
+
 anoche vi como vengo viendo estos dias pasados que de 815/816 entra
 una descripcion cruda de las cagadas de la calle, casos Olmedo, o ayer
 el del lavadero de la tercera con tres ventas alli, junto con casos
@@ -1332,21 +1463,32 @@ que no te lo cuentan en crudo con detalles pero lo mismo no se cobran
 en jid1 o en estacion flores que te das cuenta que estas frente a una
 cagada de dimensiones epicas.
 Esto tiene que escucharlo Fede directamente el por un tiempo.
+
 ***** Fede atiende oficina
+
 Esa seria la base del arreglo de las vacaciones.
+
 ***** Cami pasa papeles en marques
+
 pq no daria ni que lo haga en la oficina ni que lo haga en el
 dpto. Esto seria un punto en contra que me rozaria mi tranquilidad si
 mi descanso pienso pasarlo en el marques, pero lo mismo puede ser en
 la oficina de 3 a 6. y tenerlo todo hecho antes de que venga fede.
+
 ***** Yo quedo librado de mis obligaciones nominales
+
 que serian papeles y atencion al publico y atencion de cobradores por
 wapp (en especial Fabian). Y faltante de cobradores, etc.
+
 ***** Quedo con algunas mini-obligaciones y algunos asientos
+
 Por como arreglaremos el tema caja de ahi en adelante. 
+
 ***** Duracion
+
 Hay que considerar un plazo largo minimo de un mes y si es posible dos
 meses. Estaria dispuesto a ganar menos.
+
 **** porque convendrian los cobradores a pata :trabajo:
 :LOGBOOK:
 CLOCK: [2018-10-25 jue 15:07]--[2018-10-25 jue 15:26] =>  0:19
@@ -1374,6 +1516,7 @@ planillas de visitas de clientes. Entonces eso aseguraria que hay buen
 trabajo de entrada. 
 Sino ocurren cosas extrañas como esto que 802 cuenta que te hace 60
 fichas de yofre en 3 horas. 
+
 **** adelantos sobre el plan B :trabajo:idea:
 :LOGBOOK:
 CLOCK: [2018-10-25 jue 15:26]--[2018-10-25 jue 15:27] =>  0:01
@@ -1381,6 +1524,7 @@ CLOCK: [2018-10-25 jue 15:26]--[2018-10-25 jue 15:27] =>  0:01
 creo que no estaria mal la idea pq aunque uno perderia esa
 exclusividad en el fondo se iria a un sistema serio y en lo posible
 mas eficiente y que demande menos de nosotros como personas.
+
 *** 2018-10-26 viernes
 **** Cual creo qu ees el problema de Romitex:trabajo:idea:
 :LOGBOOK:
@@ -1450,8 +1594,9 @@ todo pasa y ya es hora que haga otra cosa.
 Estoy realmente cansado y me merezco un largo descanso si quiero
 recuperarme en todos los sentidos. 
 Porque se pierde un monton de todo.
+
 *** 2018-10-29 lunes
-**** Primer dia                                     :retiro:estadoAnimico:
+**** Primer dia :retiro:estadoAnimico:
 :PROPERTIES:
 :CREADO:   [2018-10-27 Sat 18:56]
 :END:
@@ -1483,9 +1628,7 @@ me queda Que creo q me tengo q recuperar en silencio de a poco.  Pero
 los problemas q basicamente tengo no van a desaparecer.  Quizas veo
 todo muy malo pq estoy cansado.
 
-
-
-**** Segundo dia                           :retiro:estadoAnimico:ansiedad:
+**** Segundo dia :retiro:estadoAnimico:ansiedad:
 :PROPERTIES:
 :CREADO:   [2018-10-29 Mon 11:39]
 :END:
@@ -1498,7 +1641,7 @@ Y luego todo se esfumo. El corrimiento de muebles fue 5 minutos y el
 ir a la oficina no fue tan grave. Pero lo mismo no dormi bien por los
 gatos pienso en especial el escli y pq el lunes empezaba la obra
 
-**** tercer dia retiro                              :retiro:migraña:hijas:
+**** tercer dia retiro :retiro:migraña:hijas:
 :LOGBOOK:
 CLOCK: [2018-10-31 mié 19:34]--[2018-10-31 mié 19:35] =>  0:01
 :END:
@@ -1509,8 +1652,9 @@ migraña de 2 migrales antes de las 12hs me molesta pero no es por
 ansiedad.  Medio a la madrugada. Medio al levantarme y uno al volver
 de ver los bancos.  Otra tarea q estaba agendada y ya la hicimos.
 Hasta las 19.15 sigo con migraña.
+
 *** 2018-10-31 miércoles
-**** gran ataque de migralosidad                                 :migraña: 
+**** gran ataque de migralosidad :migraña:
 :LOGBOOK:
 CLOCK: [2018-10-31 mié 19:37]--[2018-10-31 mié 19:37] =>  0:00
 :END:
@@ -1539,6 +1683,7 @@ CLOCK: [2018-10-31 mié 19:37]--[2018-10-31 mié 19:37] =>  0:00
  las de un post-tratamiento de 6 a 8 hs de incapacidad total, y con
  dolores casi totales, y la de hoy amenazaba con ser igual a las de los
  ultimos dias.
+
 ** 2018-11 noviembre
 *** 2018-11-01 jueves
 **** un embole que ya casi paso una semana y no tengo nada :retiro:
@@ -1554,6 +1699,7 @@ al verme al espejo me doy cuenta que estoy hecho un espanto y la
 situacion actual me esta sobrepasando mucho. Por eso espero que esta
 semana de menos obligaciones sirva para que se calme el dolor de
 cabeza y se calmen los nervios y logre la paz.
+
 *** 2018-11-02 viernes
 **** a casi una semana de dejar de trabajar :retiro:
 :LOGBOOK:
@@ -1613,7 +1759,6 @@ Esta inestabilidad es lo que me friega totalmente. O sea el estar como
 inestable nerviosamente.
 Y no tener una base de lugar donde estar.
 
-
 **** bases del plan :freedom:
 :LOGBOOK:
 CLOCK: [2018-11-02 vie 14:49]--[2018-11-02 vie 14:52] =>  0:03
@@ -1622,7 +1767,8 @@ lo primero es lograr un cambio en la mente.
 no puedo recuperar nada sino me estabilizo animicamente.
 debo solucionar el tema nervioso
 y desde ahi ver como recupero todo lo que es mio
-**** Resurreccion                                            :OBJ:freedom:
+
+**** Resurreccion :OBJ:freedom:
 :LOGBOOK:
 CLOCK: [2018-11-03 sáb 09:02]--[2018-11-03 sáb 09:02] =>  0:00
 :END:
@@ -1636,6 +1782,7 @@ CLOCK: [2018-11-03 sáb 09:02]--[2018-11-03 sáb 09:02] =>  0:00
     problemas q se vayan presentando en la programacion sean resueltos
     a fondo p.e. como ahora reempeze a estudiar listas y todo lo
     relativo a ello pop push qeque
+
 *** 2018-11-03 sábado
 **** Comentarios sobre el plan :freedom:
 :LOGBOOK:
@@ -1664,6 +1811,7 @@ esta permitido. O sea como vivo al pendiente de aca o de ih ya sea de
 las obligaciones o de los compromisos, no vivo una vida libre de hacer
 y ser lo que yo quiera entonces alli es donde el dpto y la vida
 alrededor de el empieza a carecer de valor.
+
 **** falta de precision del status actual :retiro:CE:estadoAnimico:
 :LOGBOOK:
 CLOCK: [2018-11-03 sáb 13:10]--[2018-11-03 sáb 13:24] =>  0:14
@@ -1693,6 +1841,7 @@ conversacion termino en la nada mas absoluta, hablar con una pared con
 una mente vacia, hueca, con alguien que no te comprende ni quiere
 comprenderte, pq el problema es que todos se estan posicionando y
 nadie puede escuchar libre de situacion.
+
 *** 2018-11-10 sábado
 **** preparando la vuelta :retiro:
 :LOGBOOK:
@@ -1761,6 +1910,7 @@ funciones a mi vida como serian:
 .8 quedarme mas tiempo aca seria peligroso pq caeria en la dependencia
 y caeria en mas conducta de dejadez. y a la vez no podria hacer nada
 relativo a ir mejorando otros aspectos de mi vida o sea recuperarme.
+
 *** 2018-11-11 domingo
 **** items no negociables :retiro:trabajo:
 :LOGBOOK:
@@ -1771,27 +1921,38 @@ coordinada y clara me pongo nervioso y alterado y que si hago un
 esfuerzo de sintesis y aclaracion de ideas me tranquilizo.
 Aca un resumen de las ideas que me parecen que son basicas de lo que
 quiero
+
 ***** debo trabajar
+
 no puedo dejar de trabajar ni pensar en ninguna otra cosa rara
+
 ***** me conviene seguir en la sociedad
+
 por cuanto si no veo en perspectiva un cambio de rubro mejor seguir
 con este negocio
+
 ***** necesitamos alquilar una oficina
+
 ya que la oficina actual es indisponible, y el dpto no es apto para
 oficina pq es mi vivienda personal y me gustaria disponer de el cuando
 yo quiera.
 la oficina pienso que debe tener minimo dos ambientes ser apta para
 flujo de gente y posible venta a traves de promotores desde la oficina.
-***** una vez instalados en la nueva oficina 
+
+***** una vez instalados en la nueva oficina
+
 o bien vuelvo a mi tarea o bien puedo hacer la tarea de la calle.
 ya sea visita de clientes o grupo
-***** no creo que la kangoo deba ser entregada a nadie 
+
+***** no creo que la kangoo deba ser entregada a nadie
+
 la venta base que nos asegura el sustento la debemos hacer nosotros
 mismos.
 Maxime en un contexto como el actual.
->>>>>>> 3fa2b985e1f5b7b332fa623360b89249c2e2f802
+
+
 *** 2018-11-13 martes
-**** Hoy comienza desafio             :retiro:programacion:problemaTiempo:
+**** Hoy comienza desafio :retiro:programacion:problemaTiempo:
 :LOGBOOK:
 CLOCK: [2018-11-13 mar 08:37]--[2018-11-13 mar 08:44] =>  0:07
 :END:
@@ -1808,7 +1969,8 @@ algo, como Floky.
 Y me produce ansiedad y problemas, y dolores, y a veces pienso porque
 me meto al vicio en camisa de once baras pudiendo estar tranquilo
 cumpliendo lo que debo hacer y punto. 
-**** gran ataque de migraña                             :migraña:ansiedad:
+
+**** gran ataque de migraña :migraña:ansiedad:
 :LOGBOOK:
 CLOCK: [2018-11-13 mar 17:22]--[2018-11-13 mar 17:39] =>  0:17
 :END:
@@ -1861,6 +2023,7 @@ No se si la migraña se "preparo" el dia anterior, si influyo la
 comida, la forma en que la comi, si fue la reunion prolongada con el
 Fede, si fue la vuelta al centro, si fue todo eso, pero creo que
 quizas haya que ajustar las dosis para estar mas relajado.
+
 *** 2018-11-15 jueves
 **** :retiro:ansiedad:problemaCami:
 :LOGBOOK:
@@ -1879,3 +2042,4 @@ sea como carajo se podrian arreglar sin mi, o sea como carajo podrian
 hacer andar una impresora que se traba, o un sistema que no saben
 hacerlo andar. y que dos por tres estan cagandolo.
 No esta mal que se hagan cargo de la situacion.
+
