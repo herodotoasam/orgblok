@@ -1376,33 +1376,41 @@ para evitar filtraciones, pasa como con la Cami a principios de año,
 pero es algo que te afecta en cierta medida.)
 
 **** porque quiero renunciar a todo :trabajo:matetes:CE:crypt:
-
 -----BEGIN PGP MESSAGE-----
 
-hQEMAzw2XLrRDtSdAQgArmkbAv5CLQJrXsD7IkEvSfTFah8mdCaCyTfD7pQkTGYA
-gf79oYcNuMV/y2XiidIJj15CRs7URS/uTIDnPuXGnZmZw59oiqpqcklmpCRYiRlk
-+h0WyVBB/E/k/DiTzFbpTOWtJ1v8Bf7bkU1jtfweALsPG7lA/Ft8ExeEQjYsd5FS
-0aZI3IVXbU3AhatjPxCs4Tf8+zCuZkmjso6vsXaQyFKhPyJJS8F9q4ey4E2jJa2E
-UMCxOPJHHvtrMyxSkPNyg9oOnDcb86yoo5xM7A2n47uDo2df81v6MTQZy904o7uh
-8FoPybPG4k9yYltAL7TsFsgwlSSWA6B4gOWZtuCii9LpAbZSBiPIUzkcXDkRIoNt
-gr3LtN2axiGYfhIpXn0xwzTiB7c9hZwjgqi3n8Zh4crh4c0EJPTBMf19Ikrz5m82
-JbZ101RBE1SbJhiNNw0BkSWxS+Z9Om/gk6mEWZXt2dEJNQbLB/qFTtoCXP/3mrKo
-Rs00BeorN22R+BM0LXOQ0ncZY4ysd7ZK8gzujPMSim8Fb9oEsy0DmktlZ3yTPUGK
-wqaseBJDT0KtceEhLbInV6RXhku03B9I3cwejfhWeyaR/8dUP+ed5BQFaoFO5n90
-INPrTYO0EOg1st1zbqu4pVKtzHLXrXrCqvqrc4yT8fWeSC3f76fh+UzHERrpaXH6
-BkfJ7ZDXOCzHD6P/b64qq6xUbvkeOgFi+yDyWyiXchVw4vVNnT7bcA4ym+WkwPim
-ae17Rlo1xA0THgV/TO/To2fUQwX4NgIWRIHAXslACcSPE4qw5B5iLXuSpKqm8hrG
-MMf6TvOpzu2wzJA5U50fbFjBnFuSqvjbYQTRqZM0zjvyhpCUkS6dV0mogqIk1mBY
-ocktSTKwZ0gxH/cha/FjnloOMHn9OPROb3R2FZ4AuIk2UI00QI/52WEX2IABUO5+
-p+StthtJ8bB48+K9/Ss7tWCUfYyhIB0tIH7ZJpE7/mtL+JElHBWeMvyvocuoDq6n
-AQ9xYX8bimVhmJi0UJ9Btl/AEPzP1i/Dxjcg2lOz6IIo2qnO/G2VPPBeKHSzf7UE
-mGMm7F4q2bWA2rmxuneNf7CQl2fgo/SkU7sRiSeMWuoZFH4hpBweddppn3ru/crU
-wp77D1ShuEMNQJz3nOlJdKzfKt38LoR8zrqY598zTkU7xx99GllN6yt7DQRPn+HA
-J16r9vQwTLDA8YArJyzI4Kc/7cVBpuKzVKr7XglMLXy/yYtFueKkqI0ZiZvrzjGN
-V9ixDu7WRJNIezV0pBRgocGifSAU+InXq4hhZV9ruvuWUS8=
-=evS9
+hQEMAzw2XLrRDtSdAQgAtZ9jqlzD9WYLfYqX2LFpkqTC5tKaKXs4GP/gTcFezjXS
+lvW0H3phQS/hz0AfYBkuLHl/QeMzc4wjNqMSGOt83NHMGjHNkxTcPeAlzDDHpvj1
+0B6wUx1E7O6JDGChaQtH8HTfAyp7euRaR/BOvQLxWqV8RQtWtduwn1kyfGn42EEj
+I3m3F1tw0yJGJtOQOxBHSnqObYqtxJsxQFtp/vKr4dAhDvxIqApLuh0ja9dF3sEG
+villdPrtGaUsNqDKrPsfjjVL8H4Uo0VnVaBU8/bN9MfJmbzop9YA4F+10RWF2Ql0
+rzVJLK9+OtBwWm/R/9I79mAQU8jTvAhwrxY7nkix+dLqAQsAZ85yJLxBqZw4Haw7
+GIg5y2uFrWWmjbvwije7E/2928vL3WvJrt2F7YvCkh1H+bKzLPgMGErduCP28T8I
+61Plj3/421o2wVlx8Kz+qRa/31OCZMK8ZkpiFQfQb6hOj7v9G2gQYCNKw9eJGrPR
+C28zH/6mUT/d5FilQsBO+lTcbs43ehzck7H8jXAkZv9Z+07G98sqhYQjxV1UdUcc
+4QKMlgzVwONt0hinC07jZh0wKHfPfvakdslAEhgDbLmYmChHP3dGQy4A85fB+df7
+suAhTV14zqy5wKBs7w9IKN6h98y3gWimWM1wFo0jQiHDWU+vgtRtkdapy9zY5Lzp
+OK30DhTc6ZqaEBIDrIDMHHtIeQ7K8pgaV4TMuQyUmrQdzQ8kIKsNAjuaT6p6eS1g
+oghK+x2ct1ANaFm3pGiDQpCjJi0qDMWZlRhoTkaKy04Ly19FBpvIUxiePUgLOBof
+VWuaZ5gQ3KXJyY182es1Yi8W1Sz5BZgj4HGS3vAgVmHnpP4Hg8TA8hRPRHYplxbl
+J8q2qOFNg1Z6ihZVBmGkUoeGPn07b6FVr4OQdmt+N/UkCAX3fwvUnJSSWT/71gP5
+E9iwnogZsIHeQkfOawo+f5GuhU8ycAb0XZjZF+Ux1jLUrImZwy9eVFLTJbjXtQX4
+Q8b1U1GKSMqCj64VO42CfIWOU2vcdU3n+O/t8REaLkPHO6lIB/9bwjrPyocz8YHw
+SR8JdxBMYtvpD6FguWRKTptk91r0ZsbTElt/4iKKvBhGeb6yx9EhG5SxGnTFs8pL
+lgXLJumNoigsXc5tgcV27rhPutFeAOfj2Lffwj3+WgwWfx4WoJeTP0WgELMwW63d
+1lGIEqE6Eq6rKtwc8IvSWJS2UCaMb9xzBfvmcRM66S3BlLGr12w8S1tUSQSYkzZS
+PBQRfQlpL2wf+x0O5P0jSQWMOtfvrctRYzpHSQZ5WqJdqmiYmEkEvzsxlbyIaG1P
+IlyOWeO50MgH01dF72Z4VCzrIwLcZVU60mggWftKwsoMXl5/Sln9Yk5MNwdjMyOz
+v93zQwe+h7svyvrmsdFYD/v4mjR7L3NXm9cS+ecUuNn5qyhjZzm85EurgqCUbvwt
+oFAR9DToo9R8SpfL3ejNkcPKsfCMlsPL4FIj1IFWEU+2gZ0GvQ5UGkZ1hP5lrFZa
+NiqOrp5Ns/8gYhQL05xW/3Bnb6HGQIhav8w749H86OSNBSvwio/tkVWUY8ur0W4m
+aLQp00eCOx/Sy/T5Qp4cbkyagj8NOceqg3UqvIM+SJ27VDOrIDqyqhG/HT/XeLRj
+7E02HJGF27OHSP0a3GZKwUSluHGVhy8+APB3MPZB6itqZnZLF79zfM/4kKfyw+rl
+YqIq3TEdM2OXFtpdvyzAFjSX0orVlos9uRW4tzS6FOgLPGJ0v4JU1oQt41xhvrXn
+c1bxEYnHMSriqqUrJpJcjwwgudiJ+yhkDyQvFByTnQ5NynHEgZrKrPLrs76Itbmh
+qU69Ro3sGfbcw27WLK4HJwmDCPeeeFko6w9bTlJllx7mvMa0WiDGZ7Od/rv5FUni
+JVaXUN/KcFeIxIz4JzDgRxURhG0=
+=4CyR
 -----END PGP MESSAGE-----
-
 **** hoy falto la Cami y fue caotico :ansiedad:estadoAnimico:
 :LOGBOOK:
 CLOCK: [2018-10-24 mié 16:26]--[2018-10-24 mié 16:27] =>  0:01
@@ -2042,4 +2050,45 @@ sea como carajo se podrian arreglar sin mi, o sea como carajo podrian
 hacer andar una impresora que se traba, o un sistema que no saben
 hacerlo andar. y que dos por tres estan cagandolo.
 No esta mal que se hagan cargo de la situacion.
+*** 2018-11-20 martes
+**** fuerte migraña desarrollada y fuera de control aunque no fuerte :migraña:
+:LOGBOOK:
+CLOCK: [2018-11-20 mar 22:35]--[2018-11-20 mar 22:44] =>  0:09
+:END:
+hoy como quien no quiere la cosa termine tomando 2.5 migral y 2mg de
+cortypiren.
+Mas alla de los ansioliticos.
+lo del dolor de cabeza es inexplicable, mas alla de que esta mañana
+tenia hambre cuando estaba en la oficina, y solo me tome un cepita y
+con esa "energia" solamente me fui a llevar los papeles de Fabian y
+camine como 40 cuadras, lo cual no estoy acostumbrado y menos con este
+calor, eso me produjo cierto nivel ya de aceleracion del dolor, y
+lejos de relajarme, me puse a la maquina aunque no inmediatamente, y
+creo que en vez de abusar de la maquina, abuse de la serie, y eso
+exacerbo el dolor, y luego que habia tomado 1.5 separado decidir tomar
+uno entero con el almuerzo y cansado del dolor que no era intenso ni
+por asomo me tome el cuartito, y me fui a dormir, y relajar y me
+relaje bien, me dormi rapido y se me fue rapido, o sea que la tonelada
+de medicacion fue al pedo, o bien felizmente funciono, pero me hace
+bosta en cierta forma.
+Y luego de eso me tome una leche abundante y me puse  a maquina y ya
+creo que sobrepase hace rato el punto del abuso y no me brindare cena
+ni por asomo , parte pq no tengo nada de nada, y parte pq no tengo
+ganas.
+O sea mas de lo mismo.
+Solo un yogurt lo unico que tengo.
+Ni siquiera tengo para hacer cosas basicas como licuado, frutas, nada.
+un asco.
+Pero fue el primer dia de trabajo, y empezo con un pedo, que si bien
+es cierto que no causo nerviosismo fue un garron, pq fue una caminata
+garron grande.
+Y bueno veremos que pasa mañana.
+Vamos a ver que onda como se van planteando los dias subsiguientes
+cuando me acostumbre a mi rutina.
 
+En cuanto a la perdida de tiempo de hoy estuvo signada por gridplus,
+que me hizo perder un pedo de tiempo, que estimo en mas de una hora,
+casi dos.
+Y creo que no me sirve, pq los arreglitos que necesitaba, como la
+planilla extra o las otras guevaditas que hice hoy fueron rapidas. Y
+asi deben ser.
