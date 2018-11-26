@@ -70,7 +70,7 @@ irse a la derecha a Auto-Mute poner [Disabled]
 copiar .emacs desde ../orblok
 M-x package-refresh-contens
 
-** lo unico que falta instalar
+** Lo unico que falta instalar
 con Mx package-install
 1. org-bullets
 2. ido-vertical-mode
