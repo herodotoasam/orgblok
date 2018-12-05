@@ -2112,3 +2112,87 @@ pedo, pero no hay que ponerse nervioso, y tampoco hay que alterarse.
 Creo que tengo que ir a la noche una horita o dos a pasar los
 problemas, los planes y lo que haya alla. 
 No caer en panico es una forma de ser no es un resultado.
+** 2018-12 diciembre
+*** 2018-12-04 martes
+**** buscar la forma de hacer la tarea ahora :trabajo:problemaCami:
+:LOGBOOK:
+CLOCK: [2018-12-04 mar 09:41]--[2018-12-04 mar 09:45] =>  0:04
+:END:
+El problema es que se extiende la jornada de atencion de cobradores
+con periodos inutiles de tiempo, aun imprimiendo aca, y eso que cuento
+con medios imperfectos de determinacion de que zona imprimir, que si
+pudiera marcar bien la zona que debo imprimir o imprimir mas
+automaticamente o mas rapidamente, mejor.
+O sea que el problema es el pasado de los recibos y las ventas y el
+banco.
+Ahora viene un periodo de depositos, en el cual tenemos que depositar
+varios dias seguido y pagar boletas y en eso puede ser util la
+Cami. Mas con el quilombo que va a ser el centro este mes, y yo
+quedarme a pasar los papeles aca dentro.
+**** avances y frustraciones :trabajo:programacion:
+:LOGBOOK:
+CLOCK: [2018-12-04 mar 17:43]--[2018-12-04 mar 17:56] =>  0:13
+:END:
+Estos ultimos dias he tenido unos grandes avances pero a veces
+rescatando trabajo del pasado. Es increible lo logrado en el pasado y
+como no se llego a documentar bien al menos ese esquema de trabajo o
+bien a mejorarlo.
+Y luego se fue abandonando hasta llegar a un nivel de cero total donde
+no recordaba lo mas basico que seria que significaba [expr 2 +2] 
+O sea ir a los extremos mas gigantes. Y asi no se puede pq en realidad
+tardas un monton en llegar a donde ya estabas. Y te das cuenta que
+estas dando vueltas en circulos.
+O sea como que cuando estas trabajando te ocurre lo siguiente:
+ 1. te parece una perdida de tiempo documentar, menos documentar bien
+ 2. te parece perdida igual refactorizar o mejorar lo que esta hecho
+ 3. menos te parece mejorar las herramientas
+
+ hasta que llega el colapso y uno se hastia y tira todo a la mierda y
+ no programa mas y se va olvidando y deci que el sistema es estable
+ que mas o menos sigue andando pq sino no se que seria. 
+ 
+Ahora hay cosas fabulosas
+1. crear un tbls con todo lo que tiene alrededor el tbls
+2. crear un tree con una facilidad extrema incluso con un expandir
+   personalizado ahora.
+3. generar un pdf con un proc de detalle muy rapidamente para ensamblar
+4. ya tenia el pivot que tambien se hacia muy facilmente
+5. tenemos los combos con un filtro muy atomico no importa de donde
+   vengan los datos
+6. tengo un packer para rapido diseño de los packs mas complejos
+7. tengo el menucontextual en los tbls recuperado hace poquito
+*** 2018-12-05 miércoles
+**** hoy pasar las planillas me produjo gran estres :estadoAnimico:clonazepan:
+:LOGBOOK:
+CLOCK: [2018-12-05 mié 16:46]--[2018-12-05 mié 16:59] =>  0:13
+:END:
+hoy empece como todas las mañanas de esta semana con 0.25 (media
+blanca fuerte = una verde) mucho para el dia, y anduve bien, y luego
+del mediodia cuando pensaba que podia reposar, fue pasando de a poco
+el tiempo mientras pasaba mas las planillas me fue invadiendo el
+nerviosismo hasta el punto de interrumpir y llamar a ih por telefono
+mientras cocinaba. Ahi distendi un poco con pensamientos de corte de
+venta, de comparativa con epocas pasadas, etc. 
+Y luego comence a pasar papeles varios y se me empezo a endurecer la
+panza y a poner nervioso el organismo y me tome la otra mitad.
+y tengo de dia, dos clonazepan. lo cual pienso que es mucho pq antes
+los tomaba para dormir.
+Creo que me los causa la incobrabilidad. El pensamiento de que es muy
+alta que es muy mucha la cagada y que podemos tener un nivel de
+incobrabilidad que nos va a hacer perder plata.
+
+Porque en otros momentos el nerviosismo se debia a otros factores, o
+bien se debia a problemas con las personas, ya sean clientes, o
+empleados pq habia una confrontacion pendiente, o una falla pendiente,
+ya sea que alguien no se haya presentado, o habia que echar a alguien,
+etc. pero no es el caso.
+O bien cuando el nerviosismo se debia pq no tenia la gente suficiente
+para cubrir las zonas y me parecia que no llegaban o que las zonas
+estaban subhechas porque habia poca gente, pero ahora hay gente e
+incluso hay postulantes llamables. Y no estoy en epoca de avisos que
+me causen desasosiego.
+O el desasosiego que me causaba el ambiente judicial o sea cuando
+estan llegando cartas documento o demandas o cosas asi, esto es
+diferente, o sea es un nerviosismo que nace pq el plan no funciona, o
+sea pq vas viendo que hay una incobrabilidad generalizada que excede
+lo normal.

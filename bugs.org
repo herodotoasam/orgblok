@@ -194,3 +194,8 @@ ver un historial de cambio de cada uno de esos campos pero lo
 importante esa ahi. 
  
 [[file:~/tclmobile/buscador.tcl::#proc%20mostrar%20{sql}%20{]]
+* TODO amplitud de fichas a imprimir :fichas:
+[2018-12-05 mié 09:43]
+que sea hasta hoy no mañana pq se imprime en el dia
+
+

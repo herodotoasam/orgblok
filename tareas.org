@@ -357,3 +357,6 @@ Releer el manual de itcl itk y perfeccionar el itk2
 Chequear el programar en androwish via tkhellowish para ver si se puede usar el ambiente de desarrollo de android
 
 
+* TODO ventas :programacion:
+[2018-12-04 mar 17:32]
+ver
