@@ -199,3 +199,10 @@ importante esa ahi.
 que sea hasta hoy no mañana pq se imprime en el dia
 
 
+* TODO :buscador:
+[2018-12-06 jue 12:42]
+entrecomillar tambien num en variable callenum
+pq algunos num tienen el formato 28/29 que da error en el fts
+y tener en cuenta que si num es nulo creo que tambien da error
+
+

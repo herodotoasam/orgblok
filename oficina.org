@@ -405,14 +405,14 @@ extras 277587/88/89 278936/37
 | 273239 |       |     |                  |          |
 | 273240 | 67085 | 130 | [2018-11-22 jue] | Liceo    |
 | 273241 |       |     |                  |          |
-| 273242 |       |     |                  |          |
+| 273242 | 66762 | 340 | [2018-11-26 lun] | YofreSur |
 | 273243 | 69874 | 620 | [2018-11-27 mar] | Liceo    |
 | 273244 |       |     |                  |          |
 | 273245 |       |     |                  |          |
 | 273246 |       |     |                  |          |
 | 273247 |       |     |                  |          |
 | 273248 |       |     |                  |          |
-| 273249 |       |     |                  |          |
+| 273249 | 65883 | 175 | [2018-12-03 lun] | YofreSur |
 ** documentos llevados a calle
 anotar en base antes de llevar a oficina ante el pedido del cobrador
 | 815 | C | [2018-10-19 vie] | 66976 |
@@ -642,6 +642,8 @@ diferencia.
 ** [2018-10-12 vie] pasado desde el [2018-10-03 mié]--[2018-10-12 vie]
 ** [2018-10-18 jue] pasado desde el [2018-10-16 mar]--[2018-10-17 mié]
 ** [2018-10-23 mar] pasado el dia hasta 14:23
+** [2018-12-05 mié] pasado hasta Lencina Santa Isabel 13:59hs.
+
 
 
 

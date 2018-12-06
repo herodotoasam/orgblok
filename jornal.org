@@ -2196,3 +2196,64 @@ estan llegando cartas documento o demandas o cosas asi, esto es
 diferente, o sea es un nerviosismo que nace pq el plan no funciona, o
 sea pq vas viendo que hay una incobrabilidad generalizada que excede
 lo normal.
+**** otro escalon mas en el sistema :programacion:
+:LOGBOOK:
+CLOCK: [2018-12-05 mié 19:15]--[2018-12-05 mié 19:17] =>  0:02
+:END:
+de a poco voy haciendo un sistema mucho mas solido y mas integrado que
+tiene otra practicidad y otro tipo de programacion por lo cual pienso
+que sera mas facil de mantener aparte que es tcl o sea es algo nativo
+y facil. Y se van teniendo en cuenta las cuestiones basicas del
+negocio o sea brindar la informacion lo mas completa posible pero sin
+ir al extremo de lo que no se va a llenar o va a ser tedioso y luego
+va a ser inutil.
+*** 2018-12-06 jueves
+**** bloques que se han agregado :programacion:
+:LOGBOOK:
+CLOCK: [2018-12-06 jue 11:01]--[2018-12-06 jue 11:05] =>  0:04
+:END:
+***** packer2 
+crea facilidad enorme para crear formularios pq ya campo, campofecha y
+camponum junto con combo, o mezclar los label, checkbutton etc era
+facil pero packearlos no era tan sencillo.
+***** 
+**** me trave mucho con un dialogo :programacion:
+:LOGBOOK:
+CLOCK: [2018-12-06 jue 16:20]--[2018-12-06 jue 16:21] =>  0:01
+:END:
+lastima pq estaba ahi, o sea el fechar grupalmente en fichas, pero no
+pude meterle el campofecha, y asi no me sirve pq tengo que poner la
+ficha a mano, y me complico con el proceso de pasar una variable de un
+procedimiento a otro. 
+**** alto consumo en oficina :estadoAnimico:clonazepan:trabajo:
+:LOGBOOK:
+CLOCK: [2018-12-06 jue 16:22]--[2018-12-06 jue 16:28] =>  0:06
+:END:
+otro dia de alto consumo.
+a la mañana es terrible como me pongo nervioso en el proceso de la
+oficina, tuve que tomar una mitad y luego una sublingual en la
+oficina.
+Y luego todo bien con la Cami, el centro todo, y luego me meto aca, y
+encima me va mal programando, o bien no estoy en medio de un proceso
+que vaya a terminar en buen puerto sin reventarme.
+como fue ayer.
+Pq vengo postergando un dolor de cabeza desde mediamañana, y no tome
+nada
+que voy a hacer, comenzar un nuevo modulo ahora, no.
+no da. Hay que parar un poco, Esto esta bien, hay que pensar un
+poco. sino me va a hacer mal.
+Al menos vamos acomodando las cosas.
+Los modulos son fabulosos o no.
+Cada mejora cambia el trabajo del dia a dia en forma fenomenal.
+ASi sea simples cosas como el redimensionado del fichas, o el poner
+novendermas directo en fichas, o el tener todas las opciones con menu
+contextual lo que te desobliga a recordar opciones que te pueden dar a
+error.
+Y el todo el proceso de los documentos que te alienta a tener todo al
+dia.
+y de paso sabes como se genero todo.
+Pero hay que descansar pienso y eso es lo que no me permito, pq no me
+plantie un proceso de vida paralelo a esto.
+Desde que se fue todo al carajo no se cuando, me puse como loco a
+programar y a validar mi vida en esto pero no es asi, las cosas no se
+van a olvidar al contrario es bueno que pare. Y haga un resumen creo.
