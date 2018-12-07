@@ -2257,3 +2257,81 @@ plantie un proceso de vida paralelo a esto.
 Desde que se fue todo al carajo no se cuando, me puse como loco a
 programar y a validar mi vida en esto pero no es asi, las cosas no se
 van a olvidar al contrario es bueno que pare. Y haga un resumen creo.
+*** 2018-12-07 viernes
+**** todavia no se pq me produce ansiedad venir :trabajo:ansiedad:clonazepan:
+:LOGBOOK:
+CLOCK: [2018-12-07 vie 08:55]--[2018-12-07 vie 09:01] =>  0:06
+:END:
+Una vez aca todo ok.
+No se si es que no esta listo la impresion y es posible el cuello de
+botella comparado con la situacion anterior de traer todo listo, o
+haber dejado todo listo.
+La verdad que confiar en la impresora de ultimo momento es algo un
+poco arriesgado. Se puede trabar, dejar de funcionar, no poder
+arreglarla y empezar a venirte alguien mas temprano de lo debido como
+el otro dia y producirte un alto estres, nada que ver como cuando
+traes todo o ya tenes todo listo hasta los planos.
+Esa fue la forma de trabajar mia de siempre.
+O sea era ir a abrir y tener todo. El unico contratiempo que me podia
+encontrar era encontrar el local inundado por lo demas el dia a dia
+era mas calmo.
+Quizas sea eso.
+Otra cosa no se explica.
+**** idea futura :trabajo:programacion:proyecto2019:
+:LOGBOOK:
+CLOCK: [2018-12-07 vie 09:01]--[2018-12-07 vie 09:28] =>  0:27
+:END:
+en larga reunion ayer con el Fede decidimos que 
+1. suspendemos la venta por lo que resta de Diciembre pq si esta en
+   tela de juicio la calidad de venta que entrega el sistema de calle
+   en forma agravada, no solo campaña 2 y 3 mas que todo, sino la
+   ultima con los resultados mas recientes de nir y fabian que son dos
+   cobradores ultra seguidores, no podemos esperar que la venta sea
+   segura mas con el agravante que tiene diciembre en la mente de los
+   clientes y en la mente de los promotores.
+2. agrega los dos elementos 792/787 al plantel de cobradores en
+   caracter de cobradores flotantes de emergencia para mandar a
+   reforzar planillas a cualquier lado, lo cual puede servir incluso
+   para cobrar mas este mes y tener una vision mejor de recupero de la
+   venta ultrareciente con los mismos chicos que vendieron.
+3. volvemos a tener la posibilidad de una dedicacion del Fede a la
+   cobranza full time sin la preocupacion de la venta como antes y con
+   toda la furia de la situacion, o sea de haber vendido todo el año y
+   que no se cobre y tener el tiempo para gestionar, a la mañana los
+   cobradores y luego algo de llamado y fundamental el analisis y
+   planificacion de zonas etc.
+4. por otra parte debemos pensar en el futuro, o sea que vamos a hacer
+   a partir de enero, y por eso si vamos a intentar otro tipo de
+   venta, como la de l&h hay que programar todo, preparar todo para
+   que podamos abrir con todo el sistema listo para hacerlo.
+5. esa programacion es trabajo y es mucho trabajo y ese trabajo no se
+   puede ni siquiera planificar en tan poco tiempo. Pero para poder
+   trabajar bien y hacer un sistema que ande bien, seria necesario
+   tener las herramientas que sirvieran.
+**** :proyecto2019:programacion:
+:LOGBOOK:
+CLOCK: [2018-12-07 vie 09:28]--[2018-12-07 vie 09:54] =>  0:26
+:END:
+en la practica voy a tener dos semanas habiles que hubiera trabajado
+donde podria haber programado bastante como lo vengo haciendo ahora
+sin comer, arruinandome, etc. 
+La pregunta es si estas dos semanas me voy a quedar aca o me voy al
+marques o mitad y mitad. Pq el problema es que aca no como y tengo el
+hastio del encierro absoluto, pq si le sacas la salida a trabajar va a
+ser medio insano el estar alli tantas horas.
+En el marques el problema es que hay incomodidad es la notebook, la
+mesa, la silla, pero el lugar es mas comodo en general y tenes comida
+y ves mas aire. Y hablas con gente. Es como estar de vacaciones.
+La solucion facil seria llevarme el rojo con eso tengo la comodidad
+para incluso ponerme a la altura de la mesa de la cocina, y respecto a
+la notebook si mantengo el tamaño del buscador.tcl creo que andamos
+bien, en el unico que me excedi fue en el fichas pero tampoco creo que
+conviene tener un formulario muy ancho pq la vista no abarca un rango
+muy amplio de informacion.
+Llevar y traer un sillon tampoco es algo muy complejo teniendo en
+cuenta un margen de trabajo de un par de semanas o un mes entero. pq
+voy mañana a la tarde en el bora y lo cargo. 
+Luego esta el tema de traerse un poco mas de ropa, no mucho, sino la
+justa para estar comodo, teniendo en cuenta el movimiento que tendre
+aca.
+
