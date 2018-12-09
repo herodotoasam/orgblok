@@ -163,8 +163,10 @@ base de datos en pelo como hice siempre en el todos estos años o tener
 que ir a un programa de python pq no tenemos una funcionalidad en uno
 de tcl.
 
-*** DONE ver si se puede hacer que el ancho de columnas quede tambien para el recalc
+*** TODO ver si se puede hacer que el ancho de columnas quede tambien para el recalc
 *** DONE en mostrar errores limitar el tamaño de campo art pq en mi pantallita no se puede trabajar
+    CLOSED: [2018-11-30 Fri 22:10]
+
 *** TODO problema del \n en los comentarios
 
 por el momento lo mejor es ir corrigiendo los comentarios a mano como

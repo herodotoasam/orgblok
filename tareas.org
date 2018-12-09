@@ -357,3 +357,110 @@ Releer el manual de itcl itk y perfeccionar el itk2
 Chequear el programar en androwish via tkhellowish para ver si se puede usar el ambiente de desarrollo de android
 
 
+* Packer :programacion:IDEA:
+:PROPERTIES:
+:CREADO:   [2018-11-21 Wed 22:20]
+:END:
+
+proc packs {args} {
+frame .funique
+Pack 
+
+* Sistema
+:PROPERTIES:
+:CREADO:   [2018-11-28 Wed 22:37]
+:END:
+
+12k 60 vtas 100 la vta abandonada
+Cospeles aparte con gps
+Puede ser pagar los cospeles de la casa y q sea voluntario
+Vta 233 13%
+Inc......... 14%
+Costo.....25%
+Cobrad...13%
+Reparto....3%
+Neto.........68% 32% real
+
+
+* Chequear
+:PROPERTIES:
+:CREADO:   [2018-11-30 Fri 07:49]
+:END:
+
+1 que poner :var no previene ante variables con espacio en el medio
+2 que en la creacion de tablas se puede hacer el type affinity int o integer y eso elimina el problema de que guarde el valor como texto sin convertirlo 
+
+* Sistemas faltantes
+:PROPERTIES:
+:CREADO:   [2018-11-30 Fri 13:23]
+:END:
+
+Buscador
+Bug historial
+
+Que el +- en numero rote en los num con cuentas y no en todos
+
+Sist de manejo de doc pedidos 
+Con campo en vta traerdoc y docenofi docdevuelto
+
+Falta sistema pide venta incluso con clausula de tiempo p.e. cuando cancele. O avisar precios etc
+
+Impresion de resumen de cuenta
+Cuentas canceladas
+
+
+* Recibos
+:PROPERTIES:
+:CREADO:   [2018-11-30 Fri 22:27]
+:END:
+
+Fecha cobr lote
+Cuenta combo cta nombre calle num de todas las cuentas del cobr
+
+
+
+* Sistema seven
+:PROPERTIES:
+:CREADO:   [2018-12-01 Sat 23:58]
+:END:
+
+Subidor de datos y estadisticas
+de seven
+Para no depender mas de python
+Primero no debe quedar ninguna funcion en python util o usable o necesaria
+en este momento quedan seven y listado clientes
+Y pedidos
+idem recorrer el tcl viejo
+Luego queda refactorización y documentar.
+Y borrar las tablas y vistas que no uso.
+
+
+* Programa
+:PROPERTIES:
+:CREADO:   [2018-12-02 Sun 09:35]
+:END:
+
+1 ciclo
+TCL BASICO
+TABLELIST
+SQLITE BASICO
+ITCL
+2 ciclo
+intro a C
+Tcl avanzado
+sqlite avanzado
+Android studio java
+
+* Tema articulos
+:PROPERTIES:
+:CREADO:   [2018-12-03 Mon 13:30]
+:END:
+
+Limitar los art en el uso a los q tenemos
+Permitir la facil edicion de precio y costo
+Historial de precios
+Historial de costos
+facil edicion de precios
+
+
+
