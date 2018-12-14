@@ -349,9 +349,9 @@ hosen que no, ya atendido el del aviso, o sea que podemos darle
 adelante con el curso mañana.
 
 ** recibos faltantes
-| fecha            |    rbo | cobr |
-| [2018-10-04 jue] | 274849 | 800  |
-|                  |        |      |
+| fecha            | rbo                   | cobr |
+| [2018-10-04 jue] | 274849                |  800 |
+| [2018-12-12 mié] | 282288(solo original) |  815 |
 ** planillas robadas
 se indica el dia de procesamiento en el pasado de Recibos
 *** 731 [2018-06-11 lun]
@@ -643,7 +643,7 @@ diferencia.
 ** [2018-10-18 jue] pasado desde el [2018-10-16 mar]--[2018-10-17 mié]
 ** [2018-10-23 mar] pasado el dia hasta 14:23
 ** [2018-12-05 mié] pasado hasta Lencina Santa Isabel 13:59hs.
-
+** [2018-12-13 jue] pasado hasta el [2018-12-08 sáb] Amanda Mesa y Castro
 
 
 
