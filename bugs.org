@@ -219,3 +219,22 @@ quiza no cambiar el color sino poner un tilde, o algo que implique que
 ya se imprimio o ponerlo en color normal.
 o sea algo que clarifique.
 [[file:/media/hero/bora/orgblok/bugs.org::*fichas][fichas]]
+* TODO casos particulares :buscador:
+[2018-12-18 mar 09:01]
+cuenta 70325 figura como Mora verificar algorritmo pq esta al dia
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO pivot1 :recibos:
+[2018-12-18 mar 12:50]
+porque 819 no aparece en pivot1 de recibos cual es la variable que
+limita alli?
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO edicion de ventas :buscador:
+[2018-12-18 mar 12:55]
+como se puede editar un dato de una venta
+no como plan de pagos 
+hay edicion de ventas??
+que datos se pueden editar?
+lo que surge muchas veces es el cambio de la primera, y un cambio de
+articulo por otro del mismo precio.
+se podria acomodar en el menucontextual de venta.
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
