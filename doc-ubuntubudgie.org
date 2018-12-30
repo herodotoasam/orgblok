@@ -1,4 +1,4 @@
-* Notas sobre instalacion de ubuntu-budgie
+ Notas sobre instalacion de ubuntu-budgie
 ** no lectura de usb
 se soluciono solo cuando hacemos sudo apt update.
 debe ser algo desfasado, pero se soluciona solo.
@@ -68,7 +68,7 @@ irse a la derecha a Auto-Mute poner [Disabled]
 
 * Emacs                                                   :emacs:instalacion:
 
-copiar .emacs desde ../orblok
+copiar .emacs desde ../orblock
 M-x package-refresh-contens
 
 ** Lo unico que falta instalar
@@ -131,7 +131,51 @@ sudo apt-key add -
 1. instalar qt (bajar qt opensource de www.qt.io es un archivo run 
 que se le da chmod u+x y luego se ejecuta con ./qt...run y se instala,
 hacer skip donde piden los datos personales) 
-2. 
+Instalar en /home/hero/.Qt/
+2. instalar solo la version  5.9.7 de Qt para no instalar todo pq es
+mucho y es lerdo (aun asi me instalo cosas de android, ver si en
+futuras instalaciones se podria evitar)
+1. bajar el source de pgmodeler ultimo alpha, no clonar el pgmodeler.
+2. seguir las instrucciones de intalacion de pgmodeler sobre las siguientes
+   1. 1: pkg­-config libxml-­2.0 ­--cflags --libs
+      2: ­-I/usr/include/libxml2 ­-lxml2 
+      si no esta la orden pkg--config pienso que habra que instalarla
+      una vez me dijo que no habia tal paquete y luego se curso como
+      un paquete del sistema. y me dio un mensaje de error, con ese
+      mensaje de error busque y encontre una pagina que parece que
+      contenia un bug de debian sobre el tema y encontre una solucion
+      en los comentarios, instalando a mano libxml2 de nuevo hasta
+      obtener la salida que dice en 2.
+[[https://stackoverflow.com/questions/31797524/r-devtools-fails-as-package-libxml-2-0-was-not-found-in-the-pkg-config-search-p][solucionar el problema de libxml2]]
+wget ftp://xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz
+tar xvf libxml... 
+./configure --prefix=/usr --disable-static --with-history && make
+sudo make install
+y ya esta solucionado el problema de libxml2
+   2. 1: pkg­-config libpq --cflags --libs
+      2: ­I/usr/include ­L/usr/lib64/libpq.so 
+      tambien da una salida erronea y encontre una solucion en otra
+      pagina
+      [[https://github.com/pgmodeler/pgmodeler/issues/43][solucionar dependencia libpq]]
+      apt-get install libpq-dev libpq5
+     
+3. orden de make
+/home/hero/.Qt/5.9.7/gcc_64/bin/qmake -r PREFIX=/home/hero/.pgmodeler BINDIR=/home/hero/.pgmodeler \
+                         PRIVATEBINDIR=/home/hero/.pgmodeler
+                         PRIVATELIBDIR=/home/hero/.pgmodeler/lib
+                         pgmodeler.pro
+4. se travo el make con un error por un libutils.so.1.0.0
+   [[https://github.com/pgmodeler/pgmodeler/issues/583][solucion a libutils.so.1.0.0]]
+    apt-get install libgl1-mesa-dev
+5. make
+6. sudo make install
+7. editar el pgmodeler.vars
+export QT_ROOT="/home/hero/.Qt/5.9.7/gcc_64"
+export PGMODELER_ROOT="/home/hero/.pgmodeler"
+8. seguir las instrucciones 
+cambiarle el nombre a pgmodeler.sh y mv a /etc/profile.d
+9. arrancar pgmodeler en /.pgmodeler
+
 
 * instalacion de TCL (kubuntu y otros ubuntus)
 1. emacs por supuesto (no se si hace falta vim-gtk)
