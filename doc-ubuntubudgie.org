@@ -67,6 +67,7 @@ alsamixer F6 elegir HD-Audio Generic
 irse a la derecha a Auto-Mute poner [Disabled]
 
 * Emacs                                                   :emacs:instalacion:
+
 copiar .emacs desde ../orblok
 M-x package-refresh-contens
 
@@ -110,13 +111,38 @@ y tengo un git en ~/.emacs.d/snippets
 ** instalar org en su ultima version
 desde package-list-packages
 instalar desde alli pq de otra forma no funciona.
+* instalar postgres (kubuntu)
+1. sudo apt-get install wget ca-certificates
+2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |
+sudo apt-key add -
+1. sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/
+   `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+2. sudo apt-get update
+3. sudo apt-get install postgresql postgresql-contrib
+4. sudo su - postgres psql
+* instalar pgadmin 4 (kubuntu)
+1. sudo apt-get install pgadmin4 pgadmin4-apache2
+2. durante la instalacion damos mail/password
+3. para acceder a pgadmin ponemos localhost/pgadmin/browser
+* instalar omnidb
+1. bajar en omnidb.org
+2. instalar el omnidb app y establecer conexion.
+* instalar pgmodeler
+1. instalar qt (bajar qt opensource de www.qt.io es un archivo run 
+que se le da chmod u+x y luego se ejecuta con ./qt...run y se instala,
+hacer skip donde piden los datos personales) 
+2. 
 
-* instalacion de TCL
+* instalacion de TCL (kubuntu y otros ubuntus)
 1. emacs por supuesto (no se si hace falta vim-gtk)
 2. sqlite3 libsqlite3-tcl
 3. tklib bwidget libtk-img tcllib
 4. tk8.6-dev tcl8.6-dev
-5. git
+5. instalar Telegram-Desktop y bajar los itcl/itk/pdf4tcl/tablelist
+   y moverlos a /usr/share/tcltk/
+6. nuevos para postgres:
+   libpgtcl 
+   postgresql-pltcl-11
 
 ** instalar itcl /itk de la pagina
 Nueva informacion: Bajar el itk4.0.4 [[https://sourceforge.net/projects/incrtcl/files/latest/download?source%3Dtyp_redirect][itk apropiado (No el 4.1.0 o
