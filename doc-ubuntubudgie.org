@@ -275,3 +275,23 @@ en especial el tema anular touchpad con el modprobe o hacer un commit etc.
         donde %a es la parte de la fecha que maneja la abreviatura del nombre 
         del dia.
 
+* red con ssh
+** instalar ssh en ambas maquinas
+instala varios archivos
+** obtener ip con ifconfig instalar net-tools
+** conectar
+ssh -p 22 hero@192.168.0.2.243
+password y voile!!!
+estamos adentro y viceversa.
+** si queremos ejecutar programas graficos agregar -X en la orden
+ssh -X -p 22 ...
+** en dolphin para agregar una capeta del disco compartido
+iniciar knetattach que no esta en el menu y no se como llegue a el
+te permite hacer una carpeta con los datos de ssh.
+poniendo como usuario el usuario que vamos a acceder, no el
+nombremaquina, en este caso fede, y servidor el numero obtenido por
+ifconfig o sea 192.168.0.243 y el dir que queremos acceder, nos pide
+password y ya esta.
+** impresoras creo que va aparte de esto pero se compartio sin problema
+** faltaria ver como se podria via ssh compartir el romitex.db solo
+
