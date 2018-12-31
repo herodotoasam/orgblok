@@ -277,7 +277,7 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 ** hacer mkdir dentro de Maildir de las carpetas que emacs pide
 * instalacion de red local
 ** del lado del servidor
-*** sudo apt install nfs-common nfs-kernel-server 
+*** sudo apt install nfs-common nfs-kernel-server
 *** editar /etc/exports
 /home/hero/rx  192.168.0.39/24(rw,no_subtree_check)
 de donde /home/hero/rx es el directorio a compartir
@@ -293,6 +293,18 @@ respetar el orden abrir servidor primero, cerrar primero el cliente
 *** ver si la red funciona!!!!!!
 me preocupaba pq no andaba y era que el puto fibertel no andaba ese
 dia.
+** automount
+sudo apt install autofs
+edit /etc/auto.master
+insert al tope del archivo
+/mnt/nfs /etc/auto.network --ghost
+esto montara la red remota dentro de /mnt/nfs (habria que ver sin o
+tendria que poner mi directorio ahi o sea /home/fede/rx)
+Parece que habria que crear el archivo /etc/auto.network
+y agregarle la linea
+MyShare     -rsize=32768,wsize=32768,intr,tcp,timeo=300,rw,user
+192.168.1.2:/volume1/MyShare
+[[https://ferhatakgun.com/properly-mounting-network-drives-linux/][Pagina que explica el proceso]]
 * instalacion impresora EPSON L380
 ** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
 ** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]
