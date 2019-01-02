@@ -1,0 +1,219 @@
+* instalacion
+** abrir el basico postgres
+sudo -u postgres psql
+** ver el default data directory
+postgres# SHOW data_directory;
+Output
+       data_directory       
+------------------------------
+/var/lib/postgresql/10/main
+(1 row)
+** OJO VER!!! instalacion de un cluster en un directorio dado
+cuando iniciamos todo y el server parece que no anda, lo primero que
+hay que hacer es crear un cluster.
+
+sudo pg_createcluster 10 rx --datadir /media/veracrypt1/rx/
+
+Success. You can now start the database server using:
+
+    /usr/lib/postgresql/10/bin/pg_ctl -D /media/veracrypt1/rx/ -l logfile start
+
+Ver Cluster Port Status Owner    Data directory        Log file
+10  rx      5433 down   postgres /media/veracrypt1/rx/ /var/log/postgresql/postgresql-10-rx.log
+** ver listado de cluster funcionando
+pg_lsclusters
+Ver Cluster Port Status Owner     Data directory        Log file
+10  main    5432 down   <unknown> /media/veracrypt/rx   /var/log/postgresql/postgresql-10-main.log
+10  rx      5433 online postgres  /media/veracrypt1/rx/ /var/log/postgresql/postgresql-10-rx.log
+** ingreso a base de datos
+sudo -u postgres psql
+como default configuration of Postgres un user llamado postgres es
+hecho y tiene full administratives derechos a todo PostgresSQL
+corriendo sobre el SO
+*** creamos usuario
+$sudo -u postgres createuser hero
+*** creamos base de datos
+$sudo -u postgres createdb rx
+*** le damos al usuario password
+$sudo -u postgres psql
+postgres=# alter user hero with encrypted password 'ajax';
+*** le damos privilegios a la base de datos
+psql=# grant all privileges on database <dbname> to <username> ;
+*** entramos en la base de datos
+sudo -u hero psql rx
+rx=# create table....
+*** importante si cluster is down
+Step 2: Restart the pg_ctlcluster
+
+#format is pg_ctlcluster <version> <cluster> <action>
+sudo pg_ctlcluster 9.6 main start
+
+#restart postgres
+sudo service postgres restart
+
+aunque solo con pg_ctlcluster 10 rx start 
+anduvo
+*** apagamos el servicio para desmontar bien veracrypt
+sudo systemctl stop postgresql
+*** COPY
+**** entrar en modo superusuario (postgres)
+sudo -u postgres rx 
+rx=#  
+notar que entro lo mismo en mi base rx
+y notar que en vez de verse rx=> se ve rx=# como superuser
+**** cmd copy
+copy zonas from '/home/hero/tclmobile/zonas.csv' with (format csv);
+
+** instalar pgtcl
+bajar pgtcl-master
+ Then run autoconf and configure in this directory, like this:
+
+autoreconf
+./configure --with-tcl=/usr/lib/tcl8.6 --mandir=/usr/share/man "$@"
+tuve que instalar autoconf para poder correr las ultimas dos ordenes
+que copie y pegue y se instalo
+Luego hacer
+package require Pgtcl.
+* Uso de Pgtcl
+* transferencia de datos
+la unica forma que me queda es hacer un schema nuevo de datos leyendo
+caso por caso o sea form por form los campos que se usan e ir armando
+lo que realmente se usa de cada tabla y no teniendo en cuenta lo demas
+pq sino es un problema. pq produciremos un csv pero no lo lee (copy)
+postgres pq no lo permite el tipo de datos.
+[2018-12-19 mié] se puede hacer perfectamente el data mining es
+tedioso pero se hace un cribado de los datos que va quedando en el
+script como un arreglo permanente dentro de la base de sqlite
+corrigiendo errores de muchos anos mayormente errores relacionales,
+registros huerfanos, y errores de tipo.
+Una vez corregido todo eso, creo que el pasaje va a ser inmediato e
+interno sin tener que atravesar el tedio de hacer o producir csv y
+leerlos, aunque eso lo hace velozmente pg la produccion de una
+cantidad de archivos separados lohace inconveniente. Por eso que un
+script que lea romitex.db y pase por dentro toda la base de datos por
+mas que demore media hora y lo haga solo es lo mejor.
+
+* functions
+creamos funciones sin problemas para obtener valores como la funcion
+pagado o ppagado o pmovto (que le faltan datos), pero para triggers de
+insersion o update no se pudo, pero el lenguage plpgsql es facil es
+parecido a sqlite pero mas simple  y directo.
+* triggers
+se pueden hacer igual o mejor que con sqlite3, casi se podria decir
+que se puede hacer una transferencia directa con la diferencia que
+puedo usar otras funciones y mas riqueza de lenguaje.
+* pltcl
+funciones en pltcl vs sql
+hay diferencia en velocidad
+** ejemplo de diferencia en velocidad en dos funciones
+CREATE OR REPLACE FUNCTION public.ym(fecha date)
+ RETURNS character varying
+ LANGUAGE sql
+ COST 1
+AS $function$
+SELECT to_char(fecha,'YYYY-MM');
+$function$
+
+select ym(fecha) as ym, sum(imp) as p from pagos group by ym order by
+p desc;
+Lo hace en 312 ms.
+
+Variantes en pltcl hice varias las dos mas rapidas fueron de un
+segundo o sea 3 veces mas lerdas.
+
+CREATE OR REPLACE FUNCTION public.ym1 (date) RETURNS varchar(7)
+AS $$
+set a ""
+regexp {^(\d){4}-(\d){2}} $1] a
+return $a
+$$ LANGUAGE pltcl;
+
+o la simple
+return [string range $1 0 6]
+
+y la de clock format;clock scan demoraba 9 segundos.
+** ejemplo funcion desmoney
+CREATE OR REPLACE FUNCTION public.desmoney(money)
+ RETURNS integer
+ LANGUAGE pltcl
+AS $function$
+    set parcial 0
+    regexp {(\d)+} $1 parcial
+    return $parcial
+$function$
+
+viendo CAST
+ que se puede expresar de esta forma select imp::numeric
+[[http://www.postgresqltutorial.com/postgresql-cast/][tutorial de cast]]
+la cambio a 
+CREATE OR REPLACE FUNCTION public.desmoney(money)
+ RETURNS numeric
+ LANGUAGE sql
+AS $function$
+    select $1::numeric
+$function$
+
+ Y baje de 1000ms a 167ms y lo mas importante que corregi un error de
+ 200000 pesos en la suma de los imp totales de pagos por redondeo.
+o sea ahora la suma de desmoney da exacto igual a suma de money, en
+ cambio antes daba desastrozamente diferente.
+** funcion pagado
+una simple funcion de select
+CREATE FUNCTION public.pagado ( _param1 integer)
+	RETURNS money
+	LANGUAGE pltcl
+	set sel "select sum(imp) as totalpagado from pagos where idvta=$1"
+    spi_exec -count 1 -array C $sel {
+        if {[info exists C(totalpagado)]} {return $C(totalpagado)} {return 0}
+    }
+
+$$;
+cambiada a 
+CREATE OR REPLACE FUNCTION public.pagado(integer)
+ RETURNS money
+ LANGUAGE sql
+AS $function$
+    select sum(imp) from pagos where idvta=$1
+$function$
+
+obtuvo una mejora de 6 veces menos de tiempo.
+
+Pero luego de hacer un indice en pagos sobre idvta!!!
+pero eso afecta a cualquiera de los lenguajes usados.
+** problemas con la funcion pmovto
+luego de muchos cambios, como por ejemplo no necesitar mas desmoney pq
+directamente desmonetizo con ::numeric, eso no es nada, el problema
+paso con que me daba error con que una salida erronea para typo date
+"", y era la que proveia para el caso de cancelados o sea con saldo=0
+entonces luego de renegar un monton releo la documentacion y encuentro
+que pltcl para entregar un valor nul tiene que hacer un simplicimo
+return_null y listo.
+
+Ahora me da un retorno 1. veremos cual es.
+Descubro bug retorcido y es que hay tres cuentas que tienen saldo y
+que tienen periodicidad 2, y como esta no esta contemplada en el
+script da como salida 1.
+le agregue la salida a la situacion p=2 y listo.
+ahora funciona medianamente bien la funcion.
+
+CREATE FUNCTION public.pmovto(integer) RETURNS date
+    LANGUAGE pltcl
+    AS $_$
+    set sel "select id,pp,ent::numeric as ent,pagado::numeric as pagado,
+    ppagado::numeric as ppagado,ic::numeric as ic, saldo::numeric as saldo,
+    pic::numeric as pic ,p,pper,cc,pcc,primera,pprimera from ventas where id=$1"
+    spi_exec -count 1 -array C $sel {
+    if {![info exists C(pagado)]} {set C(pagado) 0}
+    if {$C(pp)==0} {set pago [expr $C(ent)+$C(pagado)]} {set pago $C(ppagado)}
+    if {$C(pp)==0} {set icuota $C(ic)} {set icuota $C(pic)}
+    if {$C(pp)==0} {set period $C(p)} {set period $C(pper)}
+    if {$C(pp)==0} {set cntcuotas $C(cc)} {set cntcuotas $C(pcc)}
+    if {$C(pp)==0} {set fechainic $C(primera)} {set fechainic $C(pprimera)}
+    set enteras [expr int($pago/$icuota)]
+    if {$enteras==0} {return [clock format [clock scan $fechainic] -format "%Y-%m-%d"]}
+    if {$C(saldo)==0} {return_null}
+    if {$period==1} {return [clock format [clock scan "$enteras months" -base [clock scan $fechainic]] -format "%Y-%m-%d"]}
+    if {$period==3} {return [clock format [clock scan "$enteras weeks" -base [clock scan $fechainic]] -format "%Y-%m-%d"]}
+    if {$period==2} {return [clock format [clock scan "[expr 2*$enteras] weeks" -base [clock scan $fechainic]] -format "%Y-%m-%d"]}
+    }
+$_$;

@@ -1,4 +1,3 @@
-:cd /home/hero/tcl1
 set lines=50 columns=130
 set path+=**
 set cm=blowfish2 
@@ -39,7 +38,7 @@ if has('gui_running')
         colorscheme gruvbox
     else
             set background=dark
-            colorscheme solarized
+            colorscheme gruvbox
         endif
 
 "tweaks for netrw
