@@ -217,3 +217,12 @@ CREATE FUNCTION public.pmovto(integer) RETURNS date
     if {$period==2} {return [clock format [clock scan "[expr 2*$enteras] weeks" -base [clock scan $fechainic]] -format "%Y-%m-%d"]}
     }
 $_$;
+* usuarios/permisos
+he creado dos usuarios mas fede y cami, con createuser igual que hice
+con hero.
+pude loguearlos con omnidb pero no con tcl y vi que el fallo era el
+peer.
+cambie el pg_hba.conf y puse trust en vez de peer y asi se puede
+loguear con tcl bien, pero la tabla que habia hecho no permitia acceso
+entonce tuve que hacer grant para la tabla
+GRANT ALL0 PRIVILEGES ON PRUEBA TO CAMI;
