@@ -605,3 +605,20 @@ vez en cuando se usaba.
 agregar al que esta en ventas, capacidad de deletion y trace, y
 posible guardado de consultas.
 ** catalogo
+
+* impresion de cancelados
+** corregir
+*** vdor poner vdor default
+*** corregir la impresion que imprime todo el barrio y no lo seleccionado
+** hacer
+*** pasar vdor a clientes y fecha de impresion
+*** trigger para tablalog 
+*** opcion de borrar la impresion
+*** tbls para ver las zonas impresas
+*** tbls para ver las ventas mensuales por zona 
+zona x mes y mes x zona.
+
+** futuro
+*** ver de estudiar criterios de autorizacion mejores para emitir listado
+ahora uso uno amplio y general para eliminar toda casa en la cual hay
+una deuda, pero debe hacerse una inteligencia mas grande en esto.
