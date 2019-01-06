@@ -172,6 +172,12 @@ hay que tenerlo en cuenta.
     # separo con los newline que quiero
     $pdf newLine n siendo n los espacios que quiero
 
+    # line de ancho a ancho
+    line $pdf
+    gracias a un proc line que hice solo poniendo line te traza una
+    linea a tres pixeles abajo de la posicion actual, en forma
+    totalmente comoda y dinamica.
+
     # pongo dentro del script un controlador de salto de pagina si pienso que el impreso puede ser
     multipagina
      if {[lindex [$pdf getTextPosition] 1]>750} {$pdf startPage}
@@ -608,16 +614,35 @@ posible guardado de consultas.
 
 * impresion de cancelados
 ** corregir
-*** vdor poner vdor default
-*** corregir la impresion que imprime todo el barrio y no lo seleccionado
+*** DONE vdor poner vdor default
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
+*** DONE corregir la impresion que imprime todo el barrio y no lo seleccionado
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
 ** hacer
-*** pasar vdor a clientes y fecha de impresion
-*** trigger para tablalog 
-*** opcion de borrar la impresion
-*** tbls para ver las zonas impresas
-*** tbls para ver las ventas mensuales por zona 
+*** DONE pasar vdor a clientes y fecha de impresion
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
+*** TODO trigger para tablalog 
+*** DONE opcion de borrar la impresion
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:14]
+*** DONE tbls para ver las zonas impresas
+- State "DONE"       from "TODO"       [2019-01-04 vie 18:48]
+al final esta hecho con un pivot, no con un log, ni con un tbls pq en
+realidad, esto se trata de una impresion de fichas, y una asignacion,
+por lo tanto de nada vale tener  pienso un historial de impresiones,
+aunque se podria sacar de la misma tabla clientes un resumen, pero ahi
+en el pivot se ve por mes los barrios impresos y en que cantidad y
+yendo a esos barrios se ven cuales fichas se imprimieron y que dia y a
+que promotor.
+*** TODO tbls para ver las ventas mensuales por zona 
 zona x mes y mes x zona.
-
+*** DONE pivot de futuros cancelados
+- State "DONE"       from "TODO"       [2019-01-04 vie 18:50]
+genial aunque esta basado en el dato clientes.cuota, calcula las
+cuotas que se adeudan, y se pivotea frente a eso, permite ver muy
+graficamente las zonas que hay que ir haciendo primero.
+*** TODO un impresor igual pero de fichas que no esten canceladas sino proximas a vencer
+pq puede ser que en alguna zona se quiera ir mandando a las que no
+esten canceladas aun.
 ** futuro
 *** ver de estudiar criterios de autorizacion mejores para emitir listado
 ahora uso uno amplio y general para eliminar toda casa en la cual hay
