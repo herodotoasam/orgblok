@@ -1,0 +1,37 @@
+* objetivo
+programar y llevar control del trabajo telefonico sobre las cuentas
+* debate
+lo que hay que pensar es el formato que queremos tener.
+pq tambien puede ser una sola tabla extra llamados que tenga
+idcliente, fechahora, descripcion, pmollamado si hay, o bien
+cancelacion del tema.
+Si hay proximo llamado se reagenda el campo clientes.fechallamar, si
+hay cancelacion se borra clientes.llamar. 
+el listado se saca con los clientes.llamar=1
+el listado puede tener indicios de la causa del llamado con el campo
+seven, msgcobr, deuda, ultpago.
+para el caso de un cliente no seven/no gestion/no inc/no mudado/ y con
+msgcobr tiene que cambiar o preguntar direccion, es obvio que no es
+por mora. 
+O sea que tiene que tener un formato como la planilla de gestion con
+campos columnares finitos de colores.
+** Facilismo de uso
+para cargar solo un boton en buscador o una letra en fichas
+para llamar un dialogo en el listado de clientes a llamar, que se
+llene con fecha de llamado, y refeche el campo clientes.llamafecha 
+* tablas
+** clientes llamar fechallamar
+col llamar permite controlar los llamados pendientes y presentarlos
+con sus datos en una planilla de trabajo.
+** llamar fecha idcliente motivo cerrado comentario
+** llamados fecha hora idllamar resultado
+* ejecucion
+** DONE agregar boton llamar en buscador
+- State "DONE"       from "TODO"       [2019-01-07 lun 18:01]
+** TODO agregar posibilidad de anotar llamar en fichas
+** TODO tbls llamados a realizar con los datos a la vista
+sacado de clientes.llamar y demas datos de clientes
+** borrar tablas llamar y llamados y crear tabla nueva.
+
+
+

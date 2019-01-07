@@ -1,0 +1,14 @@
+* [2019-01-07 lun]
+** corrijo telefono intimaciones
+** cambiamos ubicacion impresora pq no anda en red
+** agrego un test nuevo por un bug encontrado
+** retirar estudios camila patio olmos
+** TODO pagar expensas oficina
+** programacion: mejores atajos fichas2
+volver atajo <i>
+menu diferencial para pdf o impresora
+botones diferenciales para imprimir lotes
+** reniegues varios para hacer andar impresora por red
+** instalado chromium en fede desde aca por ssh
+** se hizo nuevo gmail rxcbaarg@gmail para el celu oficial
+
