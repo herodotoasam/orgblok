@@ -238,3 +238,37 @@ lo que surge muchas veces es el cambio de la primera, y un cambio de
 articulo por otro del mismo precio.
 se podria acomodar en el menucontextual de venta.
 [[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO [2019-01-06 dom] fichas2 falla con zonas que tengan espacios entre medio
+p.e. Itu Anexo del vendedor 792
+* DONE [2019-01-07 lun] bug pmovto nulo ctas 70325 /68306
+- State "DONE"       from "TODO"       [2019-01-07 lun 16:19]
+no tienen relacion aparente entre ellos. 
+el pmovto nulo no se da en ventas sino en clientes y solo fueron estos
+dos casos.
+los meti en test.
+resulta que ya estaba el test arriba y larga otro test y figura 
+Brandan Peralta (58692) plan de pagos. con dos pagos hechos en
+diciembre
+cuello andrea (47369) plan de pagos tambien con un pago hecho el 21/12
+ortiz sandra (45916) plan de pagos con ult pago 17/12
+escudero florencia (50209) plan de pagos con ult pago 07/12
+
+la diferencia entre los casos de abajo que son todos planes de pagos
+era que saltaron como faltantes en pmovto en tabla ventas y los de
+arriba en tabla clientes.
+** Solucion 
+#if {$saldo==0} {return {}} ;# este criterio de saldo cero deja pendiente el problema de los saldos negativos
+# y la resolucion de pago>comprado no sirve para esto pq no contempla los planes de pago.
+if {$saldo<=0} {return {}} ;# o sea si esta cancela o por algun motivo tiene saldo negativo
+#if {$pago>=$comprado} {return {}} ;# Es erroneo en los planes de pago
+pq el comprado es bajo y el pago supera antes de cancelar
+
+El problema estaba en $pago>$comprado, el caso brandan peralta
+p.e. tenia 800 de pago y 720 de comprado y todavia le faltaban un par
+de cuotas del plan de pagos, por lo cual no es factible seguir
+teniendo esa comprobacion con los planes de pago.
+
+¿Para que estaba esa comprobacion si ya estaba la del saldo? o sea si
+tiene que ser el saldo el que gobierne si una cuenta se termina o no,
+pq en la linea anterior el saldo lo comprobaba como saldo==0 lo cual
+dejaba afuera la posibilidad de saldos negativos.

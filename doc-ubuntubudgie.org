@@ -283,6 +283,8 @@ sslcacertfile = /etc/ssl/certs/ca-certificates.crt
 de donde /home/hero/rx es el directorio a compartir
 y 192.168.0.39 es la direccion ip de la maquina servidor que la
 sacamos de ifconfig donde dice Direc. inet
+*** sudo exportfs -a    (para que export comunique lo que hicimos)
+
 ** del lado del cliente
 *** sudo apt install nfs-common
 *** mount 192.168.0.39:/home/hero/rx /home/dir_destinado_al_montaje
@@ -305,6 +307,11 @@ y agregarle la linea
 MyShare     -rsize=32768,wsize=32768,intr,tcp,timeo=300,rw,user
 192.168.1.2:/volume1/MyShare
 [[https://ferhatakgun.com/properly-mounting-network-drives-linux/][Pagina que explica el proceso]]
+* instalacion de la impresora HP 1102
+sudo apt install hplib 
+hp-setup 
+esto instalara el driver bajado por hp no el que viene por defecto que
+causa problemas varios aunque anda a veces.
 * instalacion impresora EPSON L380
 ** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
 ** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]

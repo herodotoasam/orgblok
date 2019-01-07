@@ -13,6 +13,12 @@
 :PROPERTIES:
 :clave:    Orozco96.JujuY
 :END:
+** rxcbaarg@gmail.com
+:PROPERTIES:
+:clave:    ataraxia76.
+:fnac:     1960-02-02
+:telefono: 3513882892
+:END:
 
 * naranjaonline
 clave 1406

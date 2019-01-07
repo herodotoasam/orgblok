@@ -647,3 +647,9 @@ esten canceladas aun.
 *** ver de estudiar criterios de autorizacion mejores para emitir listado
 ahora uso uno amplio y general para eliminar toda casa en la cual hay
 una deuda, pero debe hacerse una inteligencia mas grande en esto.
+* TODO esquema pivot generico
+o sea disparador de pivot general donde se pueda escribir un
+selectdata y se pueda elegir el index, la columna y los demas datos en
+la formacion del pivot y luego ver el resultado.
+* TODO sistema gestion de llamados
+hay cosas que tendrian que quedar anotadas como llamados
