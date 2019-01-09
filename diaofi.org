@@ -57,5 +57,9 @@ CLOCK: [2019-01-09 mié 11:39]--[2019-01-09 mié 15:52] =>  4:13
 *** pivot articulos mes
 *** fallido upm
 *** fechamiento avanzado de fichas2
+*** recibos
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 17:03]--[2019-01-09 mié 17:38] =>  0:35
+:END:
 
 
