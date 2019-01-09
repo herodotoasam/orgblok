@@ -25,9 +25,6 @@ itcl/itk/pdf4tcl/tablelist
 ** python
 *** python3-tk y python3-pip
 *** pip3 install modulos
-:LOGBOOK:
-CLOCK: [2019-01-07 lun 16:01]
-:END:
 **** dateutils
 **** fastnumbers
 **** fpdf
@@ -185,3 +182,14 @@ causa problemas varios aunque anda a veces.
 [[https://github.com/junegunn/vim-plug][Pagina de Plug]]
 **** instalar los plugins con 
 :PlugInstall
+** instalacion impresora EPSON L380
+**** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
+**** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]
+**** instalar los dos drivers que da para impresora !!
+**** previamente instalar la dependencia que requiere
+apt-get install lsb
+**** en dialogo impresoras agregar impresora
+detecta la epson y aceptar el driver que ya estara instalado
+y listo.
+**** el driver de scaner no me funciono
+

@@ -2,6 +2,10 @@
 SCHEDULED: <2019-01-18 vie>
 * fibertel verificar baja
 SCHEDULED: <2019-01-09 mié>
-* pagar oficina
+* DONE pagar oficina
 SCHEDULED: <2019-01-09 mié>
-* peluqueria
+- State "DONE"       from "TODO"       [2019-01-08 mar 13:33]
+* cort amarilla para entregar a Mna 79/229
+SCHEDULED: <2019-01-18 vie>
+* DONE peluqueria
+- State "DONE"       from "TODO"       [2019-01-08 mar 13:33]

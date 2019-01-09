@@ -272,3 +272,45 @@ teniendo esa comprobacion con los planes de pago.
 tiene que ser el saldo el que gobierne si una cuenta se termina o no,
 pq en la linea anterior el saldo lo comprobaba como saldo==0 lo cual
 dejaba afuera la posibilidad de saldos negativos.
+* DONE [2019-01-08 mar] poner dialogo previsor a imprimir muchas intimaciones directas con <i>
+- State "DONE"       from "TODO"       [2019-01-08 mar 17:17]
+* TODO [2019-01-08 mar] poner en fechar un ballon con el ultimo pago
+el abordaje que tuvimos en fichas.tcl no es tan sencillo aplicarlo aca
+pq fichas era por ventas y ahora estamos con clientes.
+Tendria que sacar el valor de lo que pago ayer o ultimo pago.
+No es trivial el valor que necesito tener, es el valor del ultimo pago
+realizado por el cliente.
+Facil para hacer por un trigger.
+
+trigger on pagos
+update clientes set ultimopago=sum(new.imp+new.rec)
+
+proc para actualizar por unica vez
+db eval {select * from pagos} {
+update clientes set ultimopago=[expr $imp+$rec] where id=$idcliente
+}
+
+ya tengo el campo y el proc, que no aparece como que demora.
+
+Falta terminar de pensar como recalcular en caso de borrar o updatear
+pagos.
+* TODO [2019-01-09 mié] hacer entrada cuenta en recibos con combo
+* DONE [2019-01-09 mié] idea de fechamiento avanzado
+- State "DONE"       from "TODO"       [2019-01-09 mié 15:58]
+disparar el fechamiento por teclado y agregar atajos a class fecha.
+se hizo todo muy bien y se dejo el camino para perfeccionarlo si
+quiero.
+con un bind f a nivel bodytag se dispara un dialogo fechador con un
+campofecha.
+Al dialogo se le puso -default 0 para que el boton Ok sea el default y
+solo con enter se cierre (de paso se hizo con todos los dialogos)
+Luego a la class campofecha se le agregaron nuevos binds para fechar
+con pmo dia de semana.
+lo hago con una funcion pmo que tiene como argumento %K que captura el
+textual del nombre del bind que sera la clave para poner el dia que
+quiero en el pmo.
+luego a traves de una tabla que ya tengo en postgres con su respectiva
+funcion para mantenerla en el futuro puedo calcular cuales seran los
+dias que pido con una consulta.
+Luego hice un acomodamiento visual de resultados, cambiando color a lo
+que habia cambiado y ubicando la fila en el registro siguiente.

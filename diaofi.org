@@ -12,3 +12,50 @@ botones diferenciales para imprimir lotes
 ** instalado chromium en fede desde aca por ssh
 ** se hizo nuevo gmail rxcbaarg@gmail para el celu oficial
 
+* [2019-01-08 mar]
+** pasando ventas
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 08:34]--[2019-01-08 mar 08:37] =>  0:03
+:END:
+** pasando recibos
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 08:37]--[2019-01-08 mar 12:00] =>  3:23
+:END:
+** pagar oficina
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 12:00]--[2019-01-08 mar 13:09] =>  1:09
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 13:09]--[2019-01-08 mar 15:44] =>  2:35
+:END:
+** instalando impresora 
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 16:00]--[2019-01-08 mar 16:52] =>  0:52
+:END:
+** programacion varias
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 17:10]--[2019-01-08 mar 18:13] =>  1:03
+:END:
+* [2019-01-09 mié]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 08:40]--[2019-01-09 mié 09:05] =>  0:25
+:END:
+** anotar numeros campañas de venta
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 09:11]--[2019-01-09 mié 09:24] =>  0:13
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 09:24]--[2019-01-09 mié 11:39] =>  2:15
+:END:
+** inicio programacion
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 11:39]--[2019-01-09 mié 15:52] =>  4:13
+:END:
+*** pivot articulos mes
+*** fallido upm
+*** fechamiento avanzado de fichas2
+
+
