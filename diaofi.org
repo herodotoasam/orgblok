@@ -61,5 +61,25 @@ CLOCK: [2019-01-09 mié 11:39]--[2019-01-09 mié 15:52] =>  4:13
 :LOGBOOK:
 CLOCK: [2019-01-09 mié 17:03]--[2019-01-09 mié 17:38] =>  0:35
 :END:
-
-
+* [2019-01-10 jue]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 08:50]--[2019-01-10 jue 09:58] =>  1:08
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 09:58]--[2019-01-10 jue 10:36] =>  0:38
+:END:
+** programar
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 16:35]--[2019-01-10 jue 17:26] =>  0:51
+CLOCK: [2019-01-10 jue 13:37]--[2019-01-10 jue 15:08] =>  1:31
+CLOCK: [2019-01-10 jue 10:36]--[2019-01-10 jue 12:41] =>  2:05
+:END:
+*** recibos entrada por combo
+*** espeak en fichas2
+*** correccion bug trigger ultimopago
+*** recibos cambio regla de filtro recibos
+ahora no impide fuera de lote sino que marca los colores.
+*** apertura de postgres desde la otra maquina
+tunel ssh funcionando a pleno.

@@ -115,7 +115,7 @@ en especial el tema anular touchpad con el modprobe o hacer un commit etc.
 instala varios archivos
 *** obtener ip con ifconfig instalar net-tools
 *** conectar
-ssh -p 22 hero@192.168.0.2.243
+ssh -p 22 hero@192.168.0.243
 password y voile!!!
 estamos adentro y viceversa.
 ssh -p 22 fede@192.168.0.39
@@ -192,4 +192,9 @@ apt-get install lsb
 detecta la epson y aceptar el driver que ya estara instalado
 y listo.
 **** el driver de scaner no me funciono
+** ssh -f -L 5433:127.0.0.1:5432 hero@192.168.0.243 -N
+con esto hice un tunel ssh, y luego a postgres lo conecto con port
+5433 y host localhost.
+lo que hay que ver si el tunel se debe hacer en cada sesion.
+
 
