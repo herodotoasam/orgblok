@@ -3,7 +3,7 @@
 ** cambiamos ubicacion impresora pq no anda en red
 ** agrego un test nuevo por un bug encontrado
 ** retirar estudios camila patio olmos
-** TODO pagar expensas oficina
+** DONE pagar expensas oficina
 ** programacion: mejores atajos fichas2
 volver atajo <i>
 menu diferencial para pdf o impresora
@@ -83,3 +83,42 @@ CLOCK: [2019-01-10 jue 10:36]--[2019-01-10 jue 12:41] =>  2:05
 ahora no impide fuera de lote sino que marca los colores.
 *** apertura de postgres desde la otra maquina
 tunel ssh funcionando a pleno.
+* [2019-01-11 vie]
+** programo campo wapp
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 08:47]--[2019-01-11 vie 09:13] =>  0:26
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 09:13]--[2019-01-11 vie 10:05] =>  0:52
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 10:05]--[2019-01-11 vie 11:55] =>  1:50
+:END:
+** hacer gran caja
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 11:55]--[2019-01-11 vie 12:15] =>  0:20
+:END:
+** postgres
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 12:20]--[2019-01-11 vie 12:56] =>  0:36
+:END:
+** contactos
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 12:56]--[2019-01-11 vie 15:24] =>  2:28
+:END:
+1. emitir csv
+2. tranformar en vcf con pagina
+[[http://phrogz.net/js/csv2vcard_2.html][pagina]]
+1. copiar y pegar en editor y ponerle un nombre.vcf
+2. importarlo con el telefono
+** pivot mesvta/cobr/mespago
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 16:00]--[2019-01-11 vie 16:33] =>  0:33
+CLOCK: [2019-01-11 vie 15:39]--[2019-01-11 vie 15:56] =>  0:17
+:END:
+** instalo usbformater/usbisograbar
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 16:45]--[2019-01-11 vie 17:35] =>  0:50
+:END:

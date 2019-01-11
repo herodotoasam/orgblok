@@ -315,3 +315,5 @@ funcion para mantenerla en el futuro puedo calcular cuales seran los
 dias que pido con una consulta.
 Luego hice un acomodamiento visual de resultados, cambiando color a lo
 que habia cambiado y ubicando la fila en el registro siguiente.
+* TODO [2019-01-11 vie] edicion de campos de ventas
+p.e. primera en buscador. (eso se podia hacer en fichaje.py)
