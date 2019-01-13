@@ -276,6 +276,54 @@ le indica al metodo expandir que use el proc expandirmora.
 igual que el proc generico usado, lo cual da pie a confundir que son
 la misma cosa. Como cuando uno confunde que el objeto tbls generado es
 lo mismo que el tablelist que tiene dentro ese objeto.
+* Pivot expandidos
+el pivot expandido agrega una dimension mas de analisis o sea agrega
+una cuarta dimension. Esta el index o sea lo que se ve en las filas,
+las cols que generalmente muestran un desarrollo temporal, y los
+valores que estan dentro del calculado, y el tree muestra un
+desagregado que en algunos casos puede ser muy util para el analisis.
+P.e. el pivot cuotas futuras que agregara la cuarta dimension de
+campana al abrir la zona, mostrando que agrega cada campaNa al total
+de cuotas futuras, es un agregado importante de informacion
+dificilmente obtenida de otra forma.
+** en el expandir en vez de sel poner el command generador del pivot
+{[[pivot pcobrfv#auto -db db -seldata "select pagos.cobr as
+cobr,imp+rec as cobro,ventas.fecha as fv from pagos,ventas where
+ventas.id=pagos.idvta and strftime('%Y-%m',pagos.fecha)='$nodo'"
+-index {cobr} -col fv -value cobro -reversed 1 -order "cobr" -offset
+[.pivotfpfv.tbls  childindex $row]] getsel]}
+*** se lo pone entre llaves para que no cause problemas la variable nodo
+*** el resultado del command que devuelve un sel es lo que se procesa
+*** el expand es otro pivot!!!
+antes no le encontraba la vuelta pq queria desarmar el select del
+primer pivot y en realidad el expand es otro pivot separado, lo vi
+cuando hice otro pivot aparte y luego vi la forma de insertarlo como tree.
+*** hay que hacer offset de columnas
+es obvio que el primer pivot arranca desde la primera fila y a medida
+que bajamos cada pivot independiente se ira descuadrando, para lo cual
+tendriamos que agregar columnas en blanco adelante equivalentes a las
+filas que bajamos.
+primero hice en teoria en class pivot la posibilidad de agregar un
+offset que simplemente agrega columnas en blanco entre total y la
+primera columna, default cero. Y luego en la llamada de expandir para
+poder relacionar la fila del nodo con el offset no podia usar row pq
+da valores cambiantes o sea empieza quizas con fila 1, 2 y salta a
+fila 65. Entonces uso el metodo childindex que entrega el valor real
+de la fila. y eso lo pongo a offset.
+** posibles desarrollos futuros
+** 
+agregar una quinta dimension mediante la posibilidad de cambiar el
+campo del tree. p.e. si tenemos venta por mes, y podemos agregarle
+tree por zona o tree por vendedor supongamos. en vez de hacer dos
+pivots, hacemos uno solo con un swich a mano que cambie el valor que
+tomara para el proceso.
+** pivottree para pg pivotpg
+en vez de pivot es pivotpg
+en vez de expandir es expandirpg
+en vez de usar strftime usar to_char(campofecha,'YYYY-MM')
+los campos money castearlos a numeric pe. imp::numeric+rec::numeric as
+cobro
+
 * Documentacion BWidget Dialog 
 ** creacion del dialogo
 
@@ -653,3 +701,19 @@ selectdata y se pueda elegir el index, la columna y los demas datos en
 la formacion del pivot y luego ver el resultado.
 * TODO sistema gestion de llamados
 hay cosas que tendrian que quedar anotadas como llamados
+* TODO ver materialized view de postgres
+creo que con la rapidez con se realiza y se refresca puede ser una
+buena opcion para evitar querys complejos continuamente.
+creamos la view que queremos, y solo antes de usarla hacemos un
+refresh.
+en casos grandes pe. una union clientes,ventas con campocalculado y
+todo en menos de dos segundos.
+Jugando un poco con las posibilidades estoy creando querys realmente
+complejos de realizar. p.e.
+create materialized view cliven3 as select
+nombre,calle,num,barrio,zona,tel,acla,ventas.id,saldo,ic,cc,primera,ultpago,pmovto,(CURRENT_DATE -
+pmovto)/30::int as pv from clientes,ventas where
+clientes.id=ventas.idcliente;
+alli tenemos una instantanea de valores de fecha tales como up o pvto,
+que pueden ser refrescados al instante, y permiten cuadros de analisis
+muy fecundos y rapidos.
