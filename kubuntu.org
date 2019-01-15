@@ -22,6 +22,9 @@ tk8.6-dev tcl8.6-dev
 *** copiar en /usr/share/tcltk
 puede ser instalar telegram-desktop y bajar de alli 
 itcl/itk/pdf4tcl/tablelist
+*** tclsh
+instalar con apt tcl-tclreadline
+copiar de ~/orgblok .tclshrc a ~
 ** python
 *** python3-tk y python3-pip
 *** pip3 install modulos

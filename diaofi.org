@@ -109,9 +109,21 @@ CLOCK: [2019-01-11 vie 12:20]--[2019-01-11 vie 12:56] =>  0:36
 CLOCK: [2019-01-11 vie 12:56]--[2019-01-11 vie 15:24] =>  2:28
 :END:
 1. emitir csv
+select nombre,calle||' '||num,wapp,dni from clientes where wapp is not null and deuda>0 and pmovto>date('now','-4 years');
+
 2. tranformar en vcf con pagina
 [[http://phrogz.net/js/csv2vcard_2.html][pagina]]
+los campos tipo de de campo los setie asi
+encabezado en la entrada primera linea 
+Nombre,Domicilio,WApp,DNI
+Specify Types
+Nombre- First Name
+Domicilio- StreetAdress1 (Home)
+WApp Phone (Cell)
+DNI Company
+
 1. copiar y pegar en editor y ponerle un nombre.vcf
+previamente sacarle las comillas dobles con C-r " 
 2. importarlo con el telefono
 ** pivot mesvta/cobr/mespago
 :LOGBOOK:
@@ -121,4 +133,46 @@ CLOCK: [2019-01-11 vie 15:39]--[2019-01-11 vie 15:56] =>  0:17
 ** instalo usbformater/usbisograbar
 :LOGBOOK:
 CLOCK: [2019-01-11 vie 16:45]--[2019-01-11 vie 17:35] =>  0:50
+:END:
+* [2019-01-14 lun]
+** programacion: fichas con seguimiento 
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 08:46]--[2019-01-14 lun 09:53] =>  1:07
+:END:
+** pasar recibos/caja/control usd
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 09:53]--[2019-01-14 lun 12:33] =>  2:40
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 12:34]--[2019-01-14 lun 14:50] =>  2:16
+:END:
+** pagar cuentas
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 16:30]--[2019-01-14 lun 17:31] =>  1:01
+:END:
+* [2019-01-15 mar]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 09:05]--[2019-01-15 mar 09:52] =>  0:47
+:END:
+** pasar recibos, con caja y deposito
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 09:52]--[2019-01-15 mar 12:53] =>  3:01
+:END:
+** programacion
+*** bug pasarrbos
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 13:19]--[2019-01-15 mar 15:34] =>  2:15
+:END:
+*** terminar fichas con seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 15:34]--[2019-01-15 mar 16:03] =>  0:29
+:END:
+desisto de crear una vista general de fichas con seguimiento por
+considerar que no vale la pena esa vista ya que la ficha con
+seguimiento tiene valor zona por zona y no en general.
+*** edicion de campos de tabla ventas
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 16:07]--[2019-01-15 mar 17:03] =>  0:56
 :END:

@@ -315,5 +315,44 @@ funcion para mantenerla en el futuro puedo calcular cuales seran los
 dias que pido con una consulta.
 Luego hice un acomodamiento visual de resultados, cambiando color a lo
 que habia cambiado y ubicando la fila en el registro siguiente.
-* TODO [2019-01-11 vie] edicion de campos de ventas
+* DONE [2019-01-11 vie] edicion de campos de ventas
+- State "DONE"       from "TODO"       [2019-01-15 mar 17:04]
 p.e. primera en buscador. (eso se podia hacer en fichaje.py)
+* TODO [2019-01-14 lun] offset equivocado en fvfp
+genericamente se puede implementar como el offset del offset a la
+diferencia de las dos series, la de la columna y la de las filas
+O bien verificar que creo que hay un offset equivocado o sea que
+tendria que ser -1 de lo que es.
+* DONE [2019-01-14 lun] implementar fichas con seguimiento
+- State "DONE"       from "TODO"       [2019-01-15 mar 16:06]
+falta una vista de todos los seguidos
+* DONE [2019-01-15 mar] pasar rbos cuando cancela alguien 67464 p.e.
+- State "DONE"       from "TODO"       [2019-01-15 mar 15:34]
+row index "-1" out of range
+row index "-1" out of range
+    while executing
+"rowIndex $win [lindex $argList 0] 0 1"
+    (procedure "rowconfigureSubCmd" line 8)
+    invoked from within
+"${cmd}SubCmd $win [lrange $args 1 end]"
+    (procedure "tablelist::tablelistWidgetCmd" line 8)
+    invoked from within
+".otrascuentas.tbls rowconfigure $row -bg red -fg yellow"
+    (procedure "resotrascuentas" line 4)
+    invoked from within
+"resotrascuentas"
+    ("eval" body line 1)
+    invoked from within
+"eval $res"
+    (object "::.otrascuentas" method "::Tbls::llenar" body line 39)
+    invoked from within
+".otrascuentas llenar db "select id,fecha,cc,ic,saldo from ventas where saldo>0 and
+                            idcliente=$idcliente" {resotrascuentas}"
+    (procedure "llenarcuotaje" line 4)
+    invoked from within
+"llenarcuotaje"
+    (procedure "llenacuenta" line 7)
+    invoked from within
+"llenacuenta"
+    (command bound to event)
+
