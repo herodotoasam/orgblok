@@ -355,4 +355,15 @@ row index "-1" out of range
     invoked from within
 "llenacuenta"
     (command bound to event)
-
+* TODO [2019-01-16 mié] estadisticas faltantes
+** DONE ventas por dia
+- State "DONE"       from "TODO"       [2019-01-16 mié 12:43]
+probemos pivot fecha/art/monto
+** DONE ampliar pivot cuotas futuras por mes de vta en tree
+- State "DONE"       from "TODO"       [2019-01-16 mié 13:32]
+** TODO vtas por zona por campaña recientes 
+usando como campaña el mes o sea en vez de un pivot seria un tree,
+tipo como el que esta en analisis pero no a mano sino automatico por mes
+* TODO [2019-01-16 mié] buscador de padron como el que tengo en DNI.tcl
+- State "DONE"       from "TODO"       [2019-01-16 mié 15:32]
+* DONE [2019-01-16 mié] tomador de DNI del buscador

@@ -63,7 +63,7 @@ mucho y es lerdo (aun asi me instalo cosas de android, ver si en
 futuras instalaciones se podria evitar)
 1. bajar el source de pgmodeler ultimo alpha, no clonar el pgmodeler.
 2. seguir las instrucciones de intalacion de pgmodeler sobre las siguientes
-   1. 1: pkg­-config libxml-­2.0 ­--cflags --libs
+   1. 1: pkg­-config libxml-­2.0 --cflags --libs
       2: ­-I/usr/include/libxml2 ­-lxml2 
       si no esta la orden pkg--config pienso que habra que instalarla
       una vez me dijo que no habia tal paquete y luego se curso como
@@ -86,10 +86,7 @@ y ya esta solucionado el problema de libxml2
       apt-get install libpq-dev libpq5
      
 3. orden de make
-/home/hero/.Qt/5.9.7/gcc_64/bin/qmake -r PREFIX=/home/hero/.pgmodeler BINDIR=/home/hero/.pgmodeler \
-                         PRIVATEBINDIR=/home/hero/.pgmodeler
-                         PRIVATELIBDIR=/home/hero/.pgmodeler/lib
-                         pgmodeler.pro
+/home/hero/.Qt/5.9.7/gcc_64/bin/qmake -r PREFIX=/home/hero/.pgmodeler BINDIR=/home/hero/.pgmodeler PRIVATEBINDIR=/home/hero/.pgmodeler PRIVATELIBDIR=/home/hero/.pgmodeler/lib pgmodeler.pro
 4. se travo el make con un error por un libutils.so.1.0.0
    [[https://github.com/pgmodeler/pgmodeler/issues/583][solucion a libutils.so.1.0.0]]
     apt-get install libgl1-mesa-dev

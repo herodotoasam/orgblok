@@ -176,3 +176,35 @@ seguimiento tiene valor zona por zona y no en general.
 :LOGBOOK:
 CLOCK: [2019-01-15 mar 16:07]--[2019-01-15 mar 17:03] =>  0:56
 :END:
+* [2019-01-16 mié]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 08:41]--[2019-01-16 mié 09:14] =>  0:33
+:END:
+** pasar recibos/caja
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 09:15]--[2019-01-16 mié 11:18] =>  2:03
+:END:
+** ir a depositar
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 11:18]--[2019-01-16 mié 11:53] =>  0:35
+:END:
+** programar
+*** pivot ventas por dia
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 11:55]--[2019-01-16 mié 14:44] =>  2:49
+:END:
+*** tomador del DNI del padron
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 14:45]--[2019-01-16 mié 15:10] =>  0:25
+:END:
+*** padron en buscador
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 16:00]--[2019-01-16 mié 16:16] =>  0:16
+CLOCK: [2019-01-16 mié 15:31]--[2019-01-16 mié 15:47] =>  0:16
+:END:
+*** instalar pgmodeler
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 16:16]--[2019-01-16 mié 17:12] =>  0:56
+CLOCK: [2019-01-16 mié 15:47]--[2019-01-16 mié 16:00] =>  0:13
+:END:
