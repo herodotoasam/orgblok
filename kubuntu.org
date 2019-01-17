@@ -198,5 +198,7 @@ y listo.
 con esto hice un tunel ssh, y luego a postgres lo conecto con port
 5433 y host localhost.
 lo que hay que ver si el tunel se debe hacer en cada sesion.
-
-
+** instalar applicacion menu con kmenuedit
+Alt-space (Ctrl-F2)  luego de ubicarse en la rama poner nuevo elemento
+y poner el elemento.
+Luego Guardar.

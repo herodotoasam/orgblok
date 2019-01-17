@@ -364,6 +364,28 @@ probemos pivot fecha/art/monto
 ** TODO vtas por zona por campaña recientes 
 usando como campaña el mes o sea en vez de un pivot seria un tree,
 tipo como el que esta en analisis pero no a mano sino automatico por mes
-* TODO [2019-01-16 mié] buscador de padron como el que tengo en DNI.tcl
+* DONE [2019-01-16 mié] buscador de padron como el que tengo en DNI.tcl
 - State "DONE"       from "TODO"       [2019-01-16 mié 15:32]
 * DONE [2019-01-16 mié] tomador de DNI del buscador
+* TODO [2019-01-17 jue] pgmodeler
+** DONE buscador .tcl
+- State "DONE"       from "TODO"       [2019-01-17 jue 10:21]
+ya chequeado todo saque lista de tablas a ingresar
+*** DONE comentarios
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:19]
+*** DONE logcambiodireccion
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:23]
+*** DONE recorridos
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:30]
+*** DONE logbuscador
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:32]
+*** devoluciones
+*** condonadas
+*** retiroartcobr
+*** rendicionartcobr
+*** stockcobr
+En todos los casos actualizo modeler y actualizo postgres3.tcl, luego
+en casa los findes voy actualizando el pasaje de datos para evitar
+errores.
+* DONE [2019-01-17 jue] vista pagos futuros x asignado
+- State "DONE"       from "TODO"       [2019-01-17 jue 14:34]
