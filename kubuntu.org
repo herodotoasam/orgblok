@@ -184,6 +184,8 @@ causa problemas varios aunque anda a veces.
 :PlugInstall
 *** formatear usb/instalar usb
 [[http://packages.linuxmint.com/pool/main/m/mintstick/][link a pagina del proyecto]]
+*** sqlitebrowser
+sudo snap install --edge sqlitebrowser
 ** instalacion impresora EPSON L380
 **** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
 **** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]

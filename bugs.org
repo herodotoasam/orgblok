@@ -379,8 +379,10 @@ ya chequeado todo saque lista de tablas a ingresar
 - State "DONE"       from "TODO"       [2019-01-17 jue 13:30]
 *** DONE logbuscador
 - State "DONE"       from "TODO"       [2019-01-17 jue 13:32]
-*** devoluciones
-*** condonadas
+*** DONE devoluciones
+- State "DONE"       from "TODO"       [2019-01-18 vie 16:02]
+*** DONE condonadas
+- State "DONE"       from "TODO"       [2019-01-18 vie 16:19]
 *** retiroartcobr
 *** rendicionartcobr
 *** stockcobr
@@ -389,3 +391,17 @@ en casa los findes voy actualizando el pasaje de datos para evitar
 errores.
 * DONE [2019-01-17 jue] vista pagos futuros x asignado
 - State "DONE"       from "TODO"       [2019-01-17 jue 14:34]
+* TODO [2019-01-18 vie] hacer dialogo editor de mjecobr en buscador
+* TODO [2019-01-18 vie] editar tbls planes de pago en general  
+y poner combo con los Nombres de los que ingresan.
+* TODO [2019-01-18 vie] esquema para manejar llamados
+desde mes 
+** pegar el nombre
+** ver poblacion objetivo para llamar (llamables)
+** incluso se podria separar con botones los cancelados los no llamables
+** facilidad para editar mjecobr y otros campos de informacion
+** tendria que haber un campo wassapeado para que se sepa los que ya estan contactados
+** tendria que haber un campo cerrado ya sea pq respondio positivo o negativo o pq no anda el tel
+p.e. wasapeados se ponen en verde, respondidos en azul, y quedan en
+negro los que falta procesar.
+** un dobleclick o una forma de ver la ficha
