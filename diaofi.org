@@ -253,3 +253,24 @@ CLOCK: [2019-01-18 vie 13:59]--[2019-01-18 vie 14:42] =>  0:43
 :LOGBOOK:
 CLOCK: [2019-01-18 vie 15:45]--[2019-01-18 vie 16:56] =>  1:11
 :END:
+* [2019-01-21 lun]
+** pasar rbos
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 08:55]--[2019-01-21 lun 11:55] =>  3:00
+:END:
+** conteo caja y deposito
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 11:56]--[2019-01-21 lun 13:17] =>  1:21
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 13:17]--[2019-01-21 lun 14:26] =>  1:09
+:END:
+** programacion llamables
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 15:30]--[2019-01-21 lun 17:08] =>  1:38
+:END:
+*** cambiar menu por toolbar
+*** agregar t3 en modo mes
+*** pasado a llamar
+*** campos control de llamado/fechallamado/gestionterminada
