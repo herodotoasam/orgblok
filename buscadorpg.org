@@ -76,3 +76,26 @@ la asignacion dentro del body directamente se hace
 foo := bar*2
 (esto me dio un par de errores pq ponia variable foo := bar*2 lo cual
 era erroneo y provenia de mi pasado con tcl.)
+* buscadorpgFede
+coneccion con 
+set db [pg_connect -conninfo "dbname=hero user=fede password=lola"
+-port 5433 -host localhost ]
+
+creado el role fede con
+create user fede with password 'lola';
+
+luego di los permisos
+GRANT CONNECT ON DATABASE my_db TO my_user;
+GRANT USAGE ON SCHEMA public TO my_user;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO my_user;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO my_user;
+
+y como seguia con falla
+o sea los pivot salen con la primera columna, en local esa falla se
+debe al cast, se soluciona con debe::numeric, y aca no hubo caso
+le di grant privileges a todo lo demas
+functions, languages, types, etc. y nada.
+
+Lo curioso es que haciendo la consulta en la maquina de red, anda
+bien, o sea que el problema es cuando llama la consulta dentro del
+programa tcl

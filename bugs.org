@@ -396,7 +396,8 @@ errores.
 y poner combo con los Nombres de los que ingresan.
 * TODO [2019-01-18 vie] esquema para manejar llamados
 desde mes 
-** pegar el nombre
+** DONE pegar el nombre
+- State "DONE"       from "TODO"       [2019-01-22 mar 16:50]
 ** DONE marcar para llamar
 - State "DONE"       from "TODO"       [2019-01-21 lun 16:56]
 ** DONE ver poblacion objetivo para llamar (llamables)
@@ -411,3 +412,5 @@ p.e. wasapeados se ponen en verde, respondidos en azul, y quedan en
 negro los que falta procesar.
 clientes.gestiontelefterminada
 ** un dobleclick o una forma de ver la ficha
+* DONE [2019-01-22 mar] lista de seguimientos/ planes de pagos
+- State "DONE"       from "TODO"       [2019-01-22 mar 16:15]

@@ -274,3 +274,24 @@ CLOCK: [2019-01-21 lun 15:30]--[2019-01-21 lun 17:08] =>  1:38
 *** agregar t3 en modo mes
 *** pasado a llamar
 *** campos control de llamado/fechallamado/gestionterminada
+* [2019-01-22 mar]
+** pasar ventas y atencion al Deivi
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 08:29]--[2019-01-22 mar 10:21] =>  1:52
+:END:
+** pasar recibos y banco
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 10:21]--[2019-01-22 mar 12:44] =>  2:23
+:END:
+** programacion postgres en red
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 12:44]--[2019-01-22 mar 14:20] =>  1:36
+:END:
+** programar impresion de pedidos vieja
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 14:44]--[2019-01-22 mar 15:11] =>  0:27
+:END:
+** programar lista de seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 15:11]--[2019-01-22 mar 16:52] =>  1:41
+:END:
