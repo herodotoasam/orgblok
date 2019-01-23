@@ -405,12 +405,15 @@ desde mes
 ** DONE incluso se podria separar con botones los cancelados los no llamables
 - State "DONE"       from "TODO"       [2019-01-21 lun 16:37]
 ** facilidad para editar mjecobr y otros campos de informacion
-** tendria que haber un campo wassapeado para que se sepa los que ya estan contactados
+** DONE tendria que haber un campo wassapeado para que se sepa los que ya estan contactados
+- State "DONE"       from "TODO"       [2019-01-23 mié 15:40]
 clientes.llamado clientes.fechllamado
-** tendria que haber un campo cerrado ya sea pq respondio positivo o negativo o pq no anda el tel
+** DONE tendria que haber un campo cerrado ya sea pq respondio positivo o negativo o pq no anda el tel
+- State "DONE"       from "TODO"       [2019-01-23 mié 15:40]
 p.e. wasapeados se ponen en verde, respondidos en azul, y quedan en
 negro los que falta procesar.
 clientes.gestiontelefterminada
 ** un dobleclick o una forma de ver la ficha
 * DONE [2019-01-22 mar] lista de seguimientos/ planes de pagos
 - State "DONE"       from "TODO"       [2019-01-22 mar 16:15]
+* TODO [2019-01-23 mié] sacar fts de buscador y poner combo

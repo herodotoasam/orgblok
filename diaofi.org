@@ -295,3 +295,29 @@ CLOCK: [2019-01-22 mar 14:44]--[2019-01-22 mar 15:11] =>  0:27
 :LOGBOOK:
 CLOCK: [2019-01-22 mar 15:11]--[2019-01-22 mar 16:52] =>  1:41
 :END:
+* [2019-01-23 mié]
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 08:25]--[2019-01-23 mié 08:32] =>  0:07
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 08:32]--[2019-01-23 mié 09:34] =>  1:02
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 09:34]--[2019-01-23 mié 10:52] =>  1:18
+:END:
+** caja y banco
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 11:11]--[2019-01-23 mié 12:38] =>  1:27
+:END:
+** programacion
+*** arreglo impresion provisoria
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 12:41]--[2019-01-23 mié 14:44] =>  2:03
+:END:
+*** seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 14:49]--[2019-01-23 mié 15:40] =>  0:51
+:END:
