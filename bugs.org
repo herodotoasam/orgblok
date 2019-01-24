@@ -414,6 +414,11 @@ p.e. wasapeados se ponen en verde, respondidos en azul, y quedan en
 negro los que falta procesar.
 clientes.gestiontelefterminada
 ** un dobleclick o una forma de ver la ficha
+** TODO lista unificada de llamados en espera en buscador
 * DONE [2019-01-22 mar] lista de seguimientos/ planes de pagos
 - State "DONE"       from "TODO"       [2019-01-22 mar 16:15]
 * TODO [2019-01-23 mié] sacar fts de buscador y poner combo
+* TODO [2019-01-24 jue] nuevo pasador de ventas
+** articulos con codigo
+* TODO [2019-01-24 jue] idea para test
+** recibos duplicados o sea usados dos veces
