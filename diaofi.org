@@ -331,3 +331,8 @@ CLOCK: [2019-01-24 jue 08:51]--[2019-01-24 jue 14:17] =>  5:26
 :LOGBOOK:
 CLOCK: [2019-01-24 jue 14:18]--[2019-01-24 jue 16:58] =>  2:40
 :END:
+* [2019-01-25 vie]
+** pasar ventas, pasar recibos, ver oficina, y nada mas
+:LOGBOOK:
+CLOCK: [2019-01-25 vie 08:39]--[2019-01-25 vie 16:47] =>  8:08
+:END:

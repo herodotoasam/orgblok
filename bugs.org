@@ -422,3 +422,6 @@ clientes.gestiontelefterminada
 ** articulos con codigo
 * TODO [2019-01-24 jue] idea para test
 ** recibos duplicados o sea usados dos veces
+* TODO [2019-01-25 vie] pivot venta por dia por vdor
+* TODO [#A] [2019-01-25 vie] bug de devueltos caso gacitua roberto figura debe 1950
+
