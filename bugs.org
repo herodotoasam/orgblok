@@ -423,5 +423,13 @@ clientes.gestiontelefterminada
 * TODO [2019-01-24 jue] idea para test
 ** recibos duplicados o sea usados dos veces
 * TODO [2019-01-25 vie] pivot venta por dia por vdor
-* TODO [#A] [2019-01-25 vie] bug de devueltos caso gacitua roberto figura debe 1950
-
+* DONE [#A] [2019-01-25 vie] bug de devueltos caso gacitua roberto figura debe 1950
+- State "DONE"       from "TODO"       [2019-01-28 lun 12:58]
+Luego de chequear caso por caso los devueltos de la lista de
+devoluciones observo que el unico caso que figuro en el tbls de deben
+en la vista meses fue gacitua, y todos los otros casos de dev total no
+estan, pq sencillamente tienen saldo cero.
+O sea que el proceso devolutorio hace que el cliente quede en saldo
+cero y por lo tanto no figure como deben.
+La unica explicacion puede ser que haya sido mal procesada la
+devolucion o sea o bien no haya sido procesada o haya sido procesada incorrectamente.
