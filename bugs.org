@@ -433,3 +433,7 @@ O sea que el proceso devolutorio hace que el cliente quede en saldo
 cero y por lo tanto no figure como deben.
 La unica explicacion puede ser que haya sido mal procesada la
 devolucion o sea o bien no haya sido procesada o haya sido procesada incorrectamente.
+* TODO [2019-01-29 mar] comentario privado al ingresar la venta
+* DONE [2019-01-29 mar] bug en fechamiento
+- State "DONE"       from "TODO"       [2019-01-29 mar 16:30]
+arreglado cambiando la logica del proceso

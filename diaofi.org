@@ -341,3 +341,12 @@ CLOCK: [2019-01-25 vie 08:39]--[2019-01-25 vie 16:47] =>  8:08
 :LOGBOOK:
 CLOCK: [2019-01-28 lun 08:45]--[2019-01-28 lun 12:49] =>  4:04
 :END:
+* [2019-01-29 mar]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-29 mar 09:04]--[2019-01-29 mar 13:07] =>  4:03
+:END:
+** programacion
+:LOGBOOK:
+CLOCK: [2019-01-29 mar 13:08]--[2019-01-29 mar 16:31] =>  3:23
+:END:
