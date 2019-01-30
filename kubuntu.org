@@ -78,6 +78,8 @@ tar xvf libxml...
 ./configure --prefix=/usr --disable-static --with-history && make
 sudo make install
 y ya esta solucionado el problema de libxml2
+Si hay un error en el make, algo pidiendo python.h se soluciona
+instalando python-dev.
    2. 1: pkg­-config libpq --cflags --libs
       2: ­I/usr/include ­L/usr/lib64/libpq.so 
       tambien da una salida erronea y encontre una solucion en otra
