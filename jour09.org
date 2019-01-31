@@ -1,0 +1,18 @@
+
+* 2019
+** 2019-01 enero
+*** 2019-01-30 miércoles
+**** preparando retorno                                            :crypt:
+
+Entered on [2019-01-30 mié 22:27]
+  
+  [[file:~/.emacs::(setq%20browse-url-browser-function%20'w3m-browse-url)]]
+por lo menos esta planteado el tema y por lo menos esta aceptado.
+yo plantie un nirvana atomico pero aca nadie se lo cree y menos ih y
+ella da por sentado que yo voy a volver los findes como siempre, por
+lo cual no creo que haya problema para seguir como siempre.
+Pero con mas movilidad y mayor comodidad. Incluyendo la notebook mas
+portable y facil de transportar.
+Y a su vez el dpto esta ya arreglado y pienso que mantenerlo limpio va
+a ser posible.
+Y trabajar dentro de una oficina y en la cercanias va a ser algo lindo.
