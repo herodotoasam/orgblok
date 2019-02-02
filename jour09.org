@@ -16,3 +16,32 @@ portable y facil de transportar.
 Y a su vez el dpto esta ya arreglado y pienso que mantenerlo limpio va
 a ser posible.
 Y trabajar dentro de una oficina y en la cercanias va a ser algo lindo.
+*** 2019-01-31 jueves
+**** notebook avances en la configuracion
+Entered on [2019-01-31 jue 20:42]
+  
+  [[file:~/orgblok/kubuntu.org::*maximizacion%20y%20movimiento%20de%20ventanas%20facil][maximizacion y movimiento de ventanas facil]]
+pierdo tiempo en la configuracion de kde pero va quedando pipi cucu.
+agregue el theme numix que mejoro mucho el aspecto. Y los temas para
+gtk que mejoraron mucho la apariencia de emacs.
+ademas kate esta configurado muy bien. 
+y falta conocer mas a fondo plasma que es un escritorio nuevo para mi.
+pq tiene muchisimas cosas por aprender.
+** 2019-02 febrero
+*** 2019-02-02 sábado
+**** la peor descompostura de mi vida                           :sintomas:
+Entered on [2019-02-02 sáb 10:42]
+anoche tuve la peor descompostura sufrida, con fuerte dolor abdominal
+que termino en una diarrea, por momentos parecia que podia ser el
+apendice o algo peor, y no podia cursar tranquilamente hasta que
+pasara pq me subia el malestar a la nausea produciendome sensacion de
+vomito. y no sabia si iba a terminar vomitando en la mitad del asunto,
+todo un desastre, en medio de un dolor insoportable.
+Me tuve que desvestir en el trance y echarme agua desde el bidet en la
+cara en el cuello y la cabeza y respirando entrecortadamente de
+continuo pude terminar con la fase aguda, una vez salido todo, se
+alivio automaticamente el sintoma vomitivo y al rato cedio el dolor.
+Apenas termino todo quede con las manos y brazos temblorosos del dolor
+que habia sufrido.
+Pienso que lo que lo causo fue la ingesta de compota recocida de
+manzanas con lino hecha por ih.

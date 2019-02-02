@@ -206,3 +206,17 @@ lo que hay que ver si el tunel se debe hacer en cada sesion.
 Alt-space (Ctrl-F2)  luego de ubicarse en la rama poner nuevo elemento
 y poner el elemento.
 Luego Guardar.
+* ATAJOS A APRENDER
+** control-esc show system activity
+mas rapido y al acceso que ksysguard
+** C-A-Esc kill app
+te muestra una calaverita roja que te mata la aplicacion.
+** C-A-Del logout
+** maximizacion y movimiento de ventanas facil
+doble-click en titulo
+win-down/left/right/up primero resize a half en el sentido de la
+flecha y luego mueve.
+alt-boton izq mueve la ventana
+alt-boton der resize 
+boton izq solo en titulo o areas no inner mueve cambiandose el cursor
+a la cruz de movimiento

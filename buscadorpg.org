@@ -99,3 +99,42 @@ functions, languages, types, etc. y nada.
 Lo curioso es que haciendo la consulta en la maquina de red, anda
 bien, o sea que el problema es cuando llama la consulta dentro del
 programa tcl
+* pasos a seguir
+primero pense que podria programar todo de cero.
+pero toda la infraestructura de trabajo en tcl es demasiado compleja e
+intrincada y la estoy puliendo dia a dia para que responda tanto a lo
+que necesitamos en la realidad como datos para la toma de desiciones
+como para que los datos entren lo mejor posible. Dentro de esa maraña
+e codigo el acceso a datos es muy sencillo y el traducir de sqlite a
+pgtcl es muy simple, yo lo quise hacer casi por replace.
+y funciono en parte.
+vamos descubriendo distintas cosas como lo de esta mañana que una
+asignacion de db eval $sel array break , se puede hacer como 
+pg_execute -array array $db $sel o sea que en el fondo el paso es muy
+simple y no hace falta escribir todo el codigo.
+Mas que llenar/llenarpg/llenarpgt y sus correlatos llenartree/expandir
+andan perfecto y son responsables del 85% de la interaccion con la
+base de datos.
+Creo que el pasaje hacia postgres va a ser hecho via documentacion y
+refactorizacion a fondo del software que estamos usando y
+aguantandonos a usar sqlite asi sea 6 meses mas hasta que yo tenga
+terminado todo.
+Mientras tanto voy pasando algo para que no pierda contacto con la
+realidad sino ahi estamos fritos.
+pero el crear un wraper de datos o sea una interface que sea agnostica
+de base de datos o sea que sea tipo elixir que tome la conexion y te
+entregue la tipologia de datos que necesitamos o bien que solo
+cambiemos la desinencia pe llenar/llenarpg/llenarpgt y luego uno
+programa dichos metodos para entregar los datos que hacen falta. 
+en cuanto a los sql especificos de cada lenguaje hacerlos visibles en
+cada caso 
+if pg=1 el sel es con interval sumado a current_date
+if pg=0 el sel es con date('now','-1 month')
+entonces con solo setear una variable arriba cambian los selects.
+y asi se sigue con verificar todos los campos usados y hacer bien el
+modelo de tablas y relaciones para levantar con pgmodeler
+
+tablas/campos --->pgmodeler+script de pasado
+revision de programas y transformacion para funcionar en ambos
+sentidos.
+
