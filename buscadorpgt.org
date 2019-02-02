@@ -1,0 +1,10 @@
+con tdbc::postgres
+* problemas
+** falta de llist
+o mejor dicho de list.
+pq aunque en la practica funciona todo igual que el otro y me parece
+funcionar mas rapido y lo busco por la posibilidad de que ande mejor
+en red para ser fuente de value para el combo me tira los valores de
+una sola columna encerrados por llaves.
+he probado con smt foreach y con allrows y lo mismo da.
+en pg anda bien.
