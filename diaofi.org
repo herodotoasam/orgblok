@@ -379,7 +379,7 @@ CLOCK: [2019-02-04 lun 10:29]--[2019-02-04 lun 14:18] =>  3:49
 :END:
 ** programcion
 :LOGBOOK:
-CLOCK: [2019-02-04 lun 15:25]
+CLOCK: [2019-02-04 lun 15:25]--[2019-02-04 lun 17:20] =>  1:55
 :END:
 *** DONE habilitar la periodicidad quincenal
 - State "DONE"       from "TODO"       [2019-02-04 lun 16:38]

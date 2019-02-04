@@ -458,7 +458,9 @@ ver si a medida que avanzamos en el pasado de una venta vamos
 coloreando el campo, y luego cuando guardamos vuelve a color normal
 cosa que a la vista salte donde dejamos un pasado.
 es facil de hacer.
-* TODO [2019-02-04 lun] habilitar la periodicidad quincenal
+* DONE [2019-02-04 lun] habilitar la periodicidad quincenal
+- State "DONE"       from              [2019-02-04 lun 17:20]
+- State "DONE"       from "TODO"       [2019-02-04 lun 17:20]
 chequear cuenta 71291
 * TODO [2019-02-04 lun] stock mejoras al programa
 ** vista sin los que tienen saldo cero 
