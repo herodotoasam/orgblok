@@ -437,3 +437,31 @@ devolucion o sea o bien no haya sido procesada o haya sido procesada incorrectam
 * DONE [2019-01-29 mar] bug en fechamiento
 - State "DONE"       from "TODO"       [2019-01-29 mar 16:30]
 arreglado cambiando la logica del proceso
+* DONE [#A] [2019-01-31 jue] tablero de control cobradores
+- State "DONE"       from              [2019-02-04 lun 09:09]
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE boton extra tablero o mas simple un boton al lado recorridos en tb3
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE abrir top con 3 tbls
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+*** planes de pagos ordenados por fecha hechura desc
+*** ver los seguir del cobrador
+*** ver las ultimas zonas que hizo y cuanto cobro o sea el resumen del cobrador
+*** ver la ganancia
+** DONE estudiar si lo hacemos como tres tbls o como pestañas.
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+* TODO [2019-01-31 jue] arreglar impresion lotes 
+securitizar el ingreso del cobrador y permitir el cambio de cobrador
+sin tener que cambiar el lote entero.
+* TODO [2019-02-04 lun] ventas avance coloreado
+ver si a medida que avanzamos en el pasado de una venta vamos
+coloreando el campo, y luego cuando guardamos vuelve a color normal
+cosa que a la vista salte donde dejamos un pasado.
+es facil de hacer.
+* TODO [2019-02-04 lun] habilitar la periodicidad quincenal
+chequear cuenta 71291
+* TODO [2019-02-04 lun] stock mejoras al programa
+** vista sin los que tienen saldo cero 
+** posibilidad de editar los costos en la tabla de stock
+** impresion de stock
+** vista de totales de mercaderia en stock
