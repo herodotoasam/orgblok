@@ -357,10 +357,29 @@ CLOCK: [2019-01-30 mié 08:40]--[2019-01-30 mié 10:40] =>  2:00
 :END:
 ** programacion
 :LOGBOOK:
-CLOCK: [2019-01-30 mié 16:55]
 CLOCK: [2019-01-30 mié 10:45]--[2019-01-30 mié 11:04] =>  0:19
 :END:
 ** pasar recibos y gran programacion variopinta.
 :LOGBOOK:
 CLOCK: [2019-01-30 mié 11:04]--[2019-01-30 mié 16:55] =>  5:51
 :END:
+* [2019-01-31 jue]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-31 jue 08:59]--[2019-01-31 jue 16:28] =>  7:29
+:END:
+* [2019-02-04 lun]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 08:28]--[2019-02-04 lun 10:29] =>  2:01
+:END:
+** pasar recibos y pasar stock
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 10:29]--[2019-02-04 lun 14:18] =>  3:49
+:END:
+** programcion
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 15:25]--[2019-02-04 lun 17:20] =>  1:55
+:END:
+*** DONE habilitar la periodicidad quincenal
+- State "DONE"       from "TODO"       [2019-02-04 lun 16:38]

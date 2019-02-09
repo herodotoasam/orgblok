@@ -422,7 +422,7 @@ clientes.gestiontelefterminada
 ** articulos con codigo
 * TODO [2019-01-24 jue] idea para test
 ** recibos duplicados o sea usados dos veces
-* TODO [2019-01-25 vie] pivot venta por dia por vdor
+* DONE [2019-01-25 vie] pivot venta por dia por vdor
 * DONE [#A] [2019-01-25 vie] bug de devueltos caso gacitua roberto figura debe 1950
 - State "DONE"       from "TODO"       [2019-01-28 lun 12:58]
 Luego de chequear caso por caso los devueltos de la lista de
@@ -437,3 +437,44 @@ devolucion o sea o bien no haya sido procesada o haya sido procesada incorrectam
 * DONE [2019-01-29 mar] bug en fechamiento
 - State "DONE"       from "TODO"       [2019-01-29 mar 16:30]
 arreglado cambiando la logica del proceso
+* DONE [#A] [2019-01-31 jue] tablero de control cobradores
+- State "DONE"       from              [2019-02-04 lun 09:09]
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE boton extra tablero o mas simple un boton al lado recorridos en tb3
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE abrir top con 3 tbls
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+*** planes de pagos ordenados por fecha hechura desc
+*** ver los seguir del cobrador
+*** ver las ultimas zonas que hizo y cuanto cobro o sea el resumen del cobrador
+*** ver la ganancia
+** DONE estudiar si lo hacemos como tres tbls o como pestañas.
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+* TODO [2019-01-31 jue] arreglar impresion lotes 
+securitizar el ingreso del cobrador y permitir el cambio de cobrador
+sin tener que cambiar el lote entero.
+* TODO [2019-02-04 lun] ventas avance coloreado
+ver si a medida que avanzamos en el pasado de una venta vamos
+coloreando el campo, y luego cuando guardamos vuelve a color normal
+cosa que a la vista salte donde dejamos un pasado.
+es facil de hacer.
+* DONE [2019-02-04 lun] habilitar la periodicidad quincenal
+- State "DONE"       from              [2019-02-04 lun 17:20]
+- State "DONE"       from "TODO"       [2019-02-04 lun 17:20]
+chequear cuenta 71291
+* TODO [2019-02-04 lun] stock mejoras al programa
+** vista sin los que tienen saldo cero 
+** posibilidad de editar los costos en la tabla de stock
+** impresion de stock
+** vista de totales de mercaderia en stock
+* TODO [2019-02-05 mar] hacer que el mensaje para wapp se genere tambien en buscador
+* TODO [2019-02-06 mié] mejoras en pasador ventas
+** un tbls de calle-num en direccion para chequear direccion
+* TODO [2019-02-06 mié] chequear y poner (o sacar) LN desde recibos
+* TODO [2019-02-06 mié] crear un sistema de registro de las autorizaciones 
+** en buscador facil puede ser un boton
+registra dia/hora automatica y maquina que la proceso
+tendria que anotar con un boton el vdor que la pidio y si se aprobo o
+rechazo y por cuanto se aprobo.
+En el caso de las del seven estaria bueno cargarlas y cargar el
+infoseven, 
