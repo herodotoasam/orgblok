@@ -1,0 +1,140 @@
+* pivotpg
+** formular por sql la col
+p.e. ym(fecha) as fecha o y(fecha) as year
+-col fecha 
+-col year
+** poner correctamente el cast a toda expresion (especial campos money)
+deuda::numeric=0
+deuda::numeric>0
+ic::numeric*cc::numeric
+round((deuda::numeric/cuota::numeric),2)
+** tener en cuenta los nulos
+si algun valor nulo puede dar problemas en una operacion, eliminar los
+nulos mediante sql
+p.e.
+y(ultpago) is not null
+cuota::numeric is not null
+** corregir las funciones que usa postgres
+p.e to_char en vez de strftime
+* pg_execute
+** -array  tengo que nominar expresamente el array y luego 
+las columnas son elementos de ese array
+pe. -array b  $b(id)
+** insert de fechas deben hacerse con '$fecha'
+* plpgsql
+** declare
+DECLARE
+    myrec record;
+	i integer;
+   vto date;
+declarar las variables a utilizar no olvidar el ;;;;
+** select ... into 
+SELECT ventas.id as id, fecha,ic,cc,primera,ent,p,pp,pfecha,pper,pic,pcc,pprimera,condonada,pcondo,devuelta,
+saldo,clientes.zona as zona,asignado INTO myrec FROM ventas,clientes,zonas WHERE 
+clientes.id=ventas.idcliente and clientes.zona=zonas.zona and
+ventas.id=$1;
+permite poner el resultado de un select dentro de una variable (type
+record o row, mejor record si el select proviene de un query como
+este)
+luego se usan las columnas qualificadas como myrec.fecha etc.
+** for 
+for i  in 1 .. myrec.cc loop
+....
+end loop;
+se puede iterar en un rango integral tambien en reversa y a los saltos
+en este caso itero hasta el valor de la cc. 
+** case when
+case when myrec.p=1 then 
+select myrec.primera + ((i-1) || ' MONTH')::INTERVAL into vto;
+when myrec.p=3 then
+select myrec.primera + ((i-1) || ' WEEKS')::INTERVAL into vto;
+when myrec.p=2 then 
+select myrec.primera + ((i-1)*2 || ' WEEKS')::INTERVAL into vto;
+else
+RAISE EXCEPTION 'Periodicidad nula... Corregir!!!';
+end case;
+
+el case when es igual a lo conocido. la unica diferencia es poner end
+case;
+** raise exception ;;; genial!!!
+pq puedo poner mensajes de error personalizados que luego en un
+momento dado seran inapreciables. p.e. en este caso aunque no tengo
+una periodicidad nula, si aparece por error se sabra cual es el error.
+** quote_literal
+se puede solucionar el tema de un mensaje o cadena tipo format
+con quote_literal que recibe anyelement y lo convierte a string y lo
+mete en la posicion del % que pusimos en la cadena.
+** interval
+como lograr acomodar un interval que se make con una variable
+((i-1) || ' MONTH')::INTERVAL
+o sea se usa de ultima || para ampersand el resultado de la variable
+con la palabra month y a ello se lo castea a interval y eso mismo se
+lo suma o resta a la fecha en crudo, o sea funciona como un typo de
+datos.
+** variable
+la asignacion dentro del body directamente se hace 
+foo := bar*2
+(esto me dio un par de errores pq ponia variable foo := bar*2 lo cual
+era erroneo y provenia de mi pasado con tcl.)
+* buscadorpgFede
+coneccion con 
+set db [pg_connect -conninfo "dbname=hero user=fede password=lola"
+-port 5433 -host localhost ]
+
+creado el role fede con
+create user fede with password 'lola';
+
+luego di los permisos
+GRANT CONNECT ON DATABASE my_db TO my_user;
+GRANT USAGE ON SCHEMA public TO my_user;
+GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO my_user;
+GRANT ALL PRIVILEGES ON ALL SEQUENCES IN SCHEMA public TO my_user;
+
+y como seguia con falla
+o sea los pivot salen con la primera columna, en local esa falla se
+debe al cast, se soluciona con debe::numeric, y aca no hubo caso
+le di grant privileges a todo lo demas
+functions, languages, types, etc. y nada.
+
+Lo curioso es que haciendo la consulta en la maquina de red, anda
+bien, o sea que el problema es cuando llama la consulta dentro del
+programa tcl
+* pasos a seguir
+primero pense que podria programar todo de cero.
+pero toda la infraestructura de trabajo en tcl es demasiado compleja e
+intrincada y la estoy puliendo dia a dia para que responda tanto a lo
+que necesitamos en la realidad como datos para la toma de desiciones
+como para que los datos entren lo mejor posible. Dentro de esa maraña
+e codigo el acceso a datos es muy sencillo y el traducir de sqlite a
+pgtcl es muy simple, yo lo quise hacer casi por replace.
+y funciono en parte.
+vamos descubriendo distintas cosas como lo de esta mañana que una
+asignacion de db eval $sel array break , se puede hacer como 
+pg_execute -array array $db $sel o sea que en el fondo el paso es muy
+simple y no hace falta escribir todo el codigo.
+Mas que llenar/llenarpg/llenarpgt y sus correlatos llenartree/expandir
+andan perfecto y son responsables del 85% de la interaccion con la
+base de datos.
+Creo que el pasaje hacia postgres va a ser hecho via documentacion y
+refactorizacion a fondo del software que estamos usando y
+aguantandonos a usar sqlite asi sea 6 meses mas hasta que yo tenga
+terminado todo.
+Mientras tanto voy pasando algo para que no pierda contacto con la
+realidad sino ahi estamos fritos.
+pero el crear un wraper de datos o sea una interface que sea agnostica
+de base de datos o sea que sea tipo elixir que tome la conexion y te
+entregue la tipologia de datos que necesitamos o bien que solo
+cambiemos la desinencia pe llenar/llenarpg/llenarpgt y luego uno
+programa dichos metodos para entregar los datos que hacen falta. 
+en cuanto a los sql especificos de cada lenguaje hacerlos visibles en
+cada caso 
+if pg=1 el sel es con interval sumado a current_date
+if pg=0 el sel es con date('now','-1 month')
+entonces con solo setear una variable arriba cambian los selects.
+y asi se sigue con verificar todos los campos usados y hacer bien el
+modelo de tablas y relaciones para levantar con pgmodeler
+
+tablas/campos --->pgmodeler+script de pasado
+revision de programas y transformacion para funcionar en ambos
+sentidos.
+

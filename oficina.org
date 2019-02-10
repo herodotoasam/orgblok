@@ -349,9 +349,9 @@ hosen que no, ya atendido el del aviso, o sea que podemos darle
 adelante con el curso mañana.
 
 ** recibos faltantes
-| fecha            |    rbo | cobr |
-| [2018-10-04 jue] | 274849 | 800  |
-|                  |        |      |
+| fecha            | rbo                   | cobr |
+| [2018-10-04 jue] | 274849                |  800 |
+| [2018-12-12 mié] | 282288(solo original) |  815 |
 ** planillas robadas
 se indica el dia de procesamiento en el pasado de Recibos
 *** 731 [2018-06-11 lun]
@@ -359,6 +359,8 @@ se indica el dia de procesamiento en el pasado de Recibos
 *** 744 [2018-09-03 lun] 2772
 extras 277587/88/89 278936/37
 *** 813 [2018-09-13 jue] 2846
+| 273651 | 300 | [2018-09-20 jue] |
+|        |     |                  |
 *** 801 [2018-09-21 vie] 2887
 | 275712 |      |                  |
 | 275710 |      |                  |
@@ -400,19 +402,21 @@ extras 277587/88/89 278936/37
 | 273234 | 67616 | 140 | [2018-10-03 mié] | SI2      |
 | 273235 |       |     |                  |          |
 | 273236 |       |     |                  |          |
-| 273237 |       |     |                  |          |
+| 273237 | 69861 | 320 | [2018-11-21 mié] | YofreSur |
 | 273238 | 69784 | 390 | [2018-11-21 mié] | YofreSur |
-| 273239 |       |     |                  |          |
+| 273239 | 69746 | 400 | [2018-11-21 mié] | YofreSur |
 | 273240 | 67085 | 130 | [2018-11-22 jue] | Liceo    |
 | 273241 |       |     |                  |          |
 | 273242 | 66762 | 340 | [2018-11-26 lun] | YofreSur |
 | 273243 | 69874 | 620 | [2018-11-27 mar] | Liceo    |
-| 273244 |       |     |                  |          |
+| 273244 | 69717 | 390 | [2018-11-27 mar] | YofreSur |
 | 273245 |       |     |                  |          |
-| 273246 |       |     |                  |          |
+| 273246 | 69813 | 390 | [2018-11-28 mié] | YofreSur |
 | 273247 |       |     |                  |          |
 | 273248 |       |     |                  |          |
 | 273249 | 65883 | 175 | [2018-12-03 lun] | YofreSur |
+cuenta 69955 robo cort ambiente y mantel cuerina devueltos
+Rodo 4345 Parque Liceo 3ra seccion.
 ** documentos llevados a calle
 anotar en base antes de llevar a oficina ante el pedido del cobrador
 | 815 | C | [2018-10-19 vie] | 66976 |
@@ -643,7 +647,7 @@ diferencia.
 ** [2018-10-18 jue] pasado desde el [2018-10-16 mar]--[2018-10-17 mié]
 ** [2018-10-23 mar] pasado el dia hasta 14:23
 ** [2018-12-05 mié] pasado hasta Lencina Santa Isabel 13:59hs.
-
+** [2018-12-13 jue] pasado hasta el [2018-12-08 sáb] Amanda Mesa y Castro
 
 
 

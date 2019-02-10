@@ -219,3 +219,262 @@ quiza no cambiar el color sino poner un tilde, o algo que implique que
 ya se imprimio o ponerlo en color normal.
 o sea algo que clarifique.
 [[file:/media/hero/bora/orgblok/bugs.org::*fichas][fichas]]
+* TODO casos particulares :buscador:
+[2018-12-18 mar 09:01]
+cuenta 70325 figura como Mora verificar algorritmo pq esta al dia
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO pivot1 :recibos:
+[2018-12-18 mar 12:50]
+porque 819 no aparece en pivot1 de recibos cual es la variable que
+limita alli?
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO edicion de ventas :buscador:
+[2018-12-18 mar 12:55]
+como se puede editar un dato de una venta
+no como plan de pagos 
+hay edicion de ventas??
+que datos se pueden editar?
+lo que surge muchas veces es el cambio de la primera, y un cambio de
+articulo por otro del mismo precio.
+se podria acomodar en el menucontextual de venta.
+[[file:~/tclmobile/.buscador.org::*imprimir%20planos%20desde%20dentro][imprimir planos desde dentro]]
+* TODO [2019-01-06 dom] fichas2 falla con zonas que tengan espacios entre medio
+p.e. Itu Anexo del vendedor 792
+* DONE [2019-01-07 lun] bug pmovto nulo ctas 70325 /68306
+- State "DONE"       from "TODO"       [2019-01-07 lun 16:19]
+no tienen relacion aparente entre ellos. 
+el pmovto nulo no se da en ventas sino en clientes y solo fueron estos
+dos casos.
+los meti en test.
+resulta que ya estaba el test arriba y larga otro test y figura 
+Brandan Peralta (58692) plan de pagos. con dos pagos hechos en
+diciembre
+cuello andrea (47369) plan de pagos tambien con un pago hecho el 21/12
+ortiz sandra (45916) plan de pagos con ult pago 17/12
+escudero florencia (50209) plan de pagos con ult pago 07/12
+
+la diferencia entre los casos de abajo que son todos planes de pagos
+era que saltaron como faltantes en pmovto en tabla ventas y los de
+arriba en tabla clientes.
+** Solucion 
+#if {$saldo==0} {return {}} ;# este criterio de saldo cero deja pendiente el problema de los saldos negativos
+# y la resolucion de pago>comprado no sirve para esto pq no contempla los planes de pago.
+if {$saldo<=0} {return {}} ;# o sea si esta cancela o por algun motivo tiene saldo negativo
+#if {$pago>=$comprado} {return {}} ;# Es erroneo en los planes de pago
+pq el comprado es bajo y el pago supera antes de cancelar
+
+El problema estaba en $pago>$comprado, el caso brandan peralta
+p.e. tenia 800 de pago y 720 de comprado y todavia le faltaban un par
+de cuotas del plan de pagos, por lo cual no es factible seguir
+teniendo esa comprobacion con los planes de pago.
+
+¿Para que estaba esa comprobacion si ya estaba la del saldo? o sea si
+tiene que ser el saldo el que gobierne si una cuenta se termina o no,
+pq en la linea anterior el saldo lo comprobaba como saldo==0 lo cual
+dejaba afuera la posibilidad de saldos negativos.
+* DONE [2019-01-08 mar] poner dialogo previsor a imprimir muchas intimaciones directas con <i>
+- State "DONE"       from "TODO"       [2019-01-08 mar 17:17]
+* TODO [2019-01-08 mar] poner en fechar un ballon con el ultimo pago
+el abordaje que tuvimos en fichas.tcl no es tan sencillo aplicarlo aca
+pq fichas era por ventas y ahora estamos con clientes.
+Tendria que sacar el valor de lo que pago ayer o ultimo pago.
+No es trivial el valor que necesito tener, es el valor del ultimo pago
+realizado por el cliente.
+Facil para hacer por un trigger.
+
+trigger on pagos
+update clientes set ultimopago=sum(new.imp+new.rec)
+
+proc para actualizar por unica vez
+db eval {select * from pagos} {
+update clientes set ultimopago=[expr $imp+$rec] where id=$idcliente
+}
+
+ya tengo el campo y el proc, que no aparece como que demora.
+
+Falta terminar de pensar como recalcular en caso de borrar o updatear
+pagos.
+* DONE [2019-01-09 mié] hacer entrada cuenta en recibos con combo
+- State "DONE"       from "TODO"       [2019-01-10 jue 15:09]
+* DONE [2019-01-09 mié] idea de fechamiento avanzado
+- State "DONE"       from "TODO"       [2019-01-09 mié 15:58]
+disparar el fechamiento por teclado y agregar atajos a class fecha.
+se hizo todo muy bien y se dejo el camino para perfeccionarlo si
+quiero.
+con un bind f a nivel bodytag se dispara un dialogo fechador con un
+campofecha.
+Al dialogo se le puso -default 0 para que el boton Ok sea el default y
+solo con enter se cierre (de paso se hizo con todos los dialogos)
+Luego a la class campofecha se le agregaron nuevos binds para fechar
+con pmo dia de semana.
+lo hago con una funcion pmo que tiene como argumento %K que captura el
+textual del nombre del bind que sera la clave para poner el dia que
+quiero en el pmo.
+luego a traves de una tabla que ya tengo en postgres con su respectiva
+funcion para mantenerla en el futuro puedo calcular cuales seran los
+dias que pido con una consulta.
+Luego hice un acomodamiento visual de resultados, cambiando color a lo
+que habia cambiado y ubicando la fila en el registro siguiente.
+* DONE [2019-01-11 vie] edicion de campos de ventas
+- State "DONE"       from "TODO"       [2019-01-15 mar 17:04]
+p.e. primera en buscador. (eso se podia hacer en fichaje.py)
+* TODO [2019-01-14 lun] offset equivocado en fvfp
+genericamente se puede implementar como el offset del offset a la
+diferencia de las dos series, la de la columna y la de las filas
+O bien verificar que creo que hay un offset equivocado o sea que
+tendria que ser -1 de lo que es.
+* DONE [2019-01-14 lun] implementar fichas con seguimiento
+- State "DONE"       from "TODO"       [2019-01-15 mar 16:06]
+falta una vista de todos los seguidos
+* DONE [2019-01-15 mar] pasar rbos cuando cancela alguien 67464 p.e.
+- State "DONE"       from "TODO"       [2019-01-15 mar 15:34]
+row index "-1" out of range
+row index "-1" out of range
+    while executing
+"rowIndex $win [lindex $argList 0] 0 1"
+    (procedure "rowconfigureSubCmd" line 8)
+    invoked from within
+"${cmd}SubCmd $win [lrange $args 1 end]"
+    (procedure "tablelist::tablelistWidgetCmd" line 8)
+    invoked from within
+".otrascuentas.tbls rowconfigure $row -bg red -fg yellow"
+    (procedure "resotrascuentas" line 4)
+    invoked from within
+"resotrascuentas"
+    ("eval" body line 1)
+    invoked from within
+"eval $res"
+    (object "::.otrascuentas" method "::Tbls::llenar" body line 39)
+    invoked from within
+".otrascuentas llenar db "select id,fecha,cc,ic,saldo from ventas where saldo>0 and
+                            idcliente=$idcliente" {resotrascuentas}"
+    (procedure "llenarcuotaje" line 4)
+    invoked from within
+"llenarcuotaje"
+    (procedure "llenacuenta" line 7)
+    invoked from within
+"llenacuenta"
+    (command bound to event)
+* TODO [2019-01-16 mié] estadisticas faltantes
+** DONE ventas por dia
+- State "DONE"       from "TODO"       [2019-01-16 mié 12:43]
+probemos pivot fecha/art/monto
+** DONE ampliar pivot cuotas futuras por mes de vta en tree
+- State "DONE"       from "TODO"       [2019-01-16 mié 13:32]
+** TODO vtas por zona por campaña recientes 
+usando como campaña el mes o sea en vez de un pivot seria un tree,
+tipo como el que esta en analisis pero no a mano sino automatico por mes
+* DONE [2019-01-16 mié] buscador de padron como el que tengo en DNI.tcl
+- State "DONE"       from "TODO"       [2019-01-16 mié 15:32]
+* DONE [2019-01-16 mié] tomador de DNI del buscador
+* TODO [2019-01-17 jue] pgmodeler
+** DONE buscador .tcl
+- State "DONE"       from "TODO"       [2019-01-17 jue 10:21]
+ya chequeado todo saque lista de tablas a ingresar
+*** DONE comentarios
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:19]
+*** DONE logcambiodireccion
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:23]
+*** DONE recorridos
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:30]
+*** DONE logbuscador
+- State "DONE"       from "TODO"       [2019-01-17 jue 13:32]
+*** DONE devoluciones
+- State "DONE"       from "TODO"       [2019-01-18 vie 16:02]
+*** DONE condonadas
+- State "DONE"       from "TODO"       [2019-01-18 vie 16:19]
+*** retiroartcobr
+*** rendicionartcobr
+*** stockcobr
+En todos los casos actualizo modeler y actualizo postgres3.tcl, luego
+en casa los findes voy actualizando el pasaje de datos para evitar
+errores.
+* DONE [2019-01-17 jue] vista pagos futuros x asignado
+- State "DONE"       from "TODO"       [2019-01-17 jue 14:34]
+* TODO [2019-01-18 vie] hacer dialogo editor de mjecobr en buscador
+* TODO [2019-01-18 vie] editar tbls planes de pago en general  
+y poner combo con los Nombres de los que ingresan.
+* TODO [2019-01-18 vie] esquema para manejar llamados
+desde mes 
+** DONE pegar el nombre
+- State "DONE"       from "TODO"       [2019-01-22 mar 16:50]
+** DONE marcar para llamar
+- State "DONE"       from "TODO"       [2019-01-21 lun 16:56]
+** DONE ver poblacion objetivo para llamar (llamables)
+- State "DONE"       from "TODO"       [2019-01-21 lun 16:37]
+** DONE incluso se podria separar con botones los cancelados los no llamables
+- State "DONE"       from "TODO"       [2019-01-21 lun 16:37]
+** facilidad para editar mjecobr y otros campos de informacion
+** DONE tendria que haber un campo wassapeado para que se sepa los que ya estan contactados
+- State "DONE"       from "TODO"       [2019-01-23 mié 15:40]
+clientes.llamado clientes.fechllamado
+** DONE tendria que haber un campo cerrado ya sea pq respondio positivo o negativo o pq no anda el tel
+- State "DONE"       from "TODO"       [2019-01-23 mié 15:40]
+p.e. wasapeados se ponen en verde, respondidos en azul, y quedan en
+negro los que falta procesar.
+clientes.gestiontelefterminada
+** un dobleclick o una forma de ver la ficha
+** TODO lista unificada de llamados en espera en buscador
+* DONE [2019-01-22 mar] lista de seguimientos/ planes de pagos
+- State "DONE"       from "TODO"       [2019-01-22 mar 16:15]
+* TODO [2019-01-23 mié] sacar fts de buscador y poner combo
+* TODO [2019-01-24 jue] nuevo pasador de ventas
+** articulos con codigo
+* TODO [2019-01-24 jue] idea para test
+** recibos duplicados o sea usados dos veces
+* DONE [2019-01-25 vie] pivot venta por dia por vdor
+* DONE [#A] [2019-01-25 vie] bug de devueltos caso gacitua roberto figura debe 1950
+- State "DONE"       from "TODO"       [2019-01-28 lun 12:58]
+Luego de chequear caso por caso los devueltos de la lista de
+devoluciones observo que el unico caso que figuro en el tbls de deben
+en la vista meses fue gacitua, y todos los otros casos de dev total no
+estan, pq sencillamente tienen saldo cero.
+O sea que el proceso devolutorio hace que el cliente quede en saldo
+cero y por lo tanto no figure como deben.
+La unica explicacion puede ser que haya sido mal procesada la
+devolucion o sea o bien no haya sido procesada o haya sido procesada incorrectamente.
+* TODO [2019-01-29 mar] comentario privado al ingresar la venta
+* DONE [2019-01-29 mar] bug en fechamiento
+- State "DONE"       from "TODO"       [2019-01-29 mar 16:30]
+arreglado cambiando la logica del proceso
+* DONE [#A] [2019-01-31 jue] tablero de control cobradores
+- State "DONE"       from              [2019-02-04 lun 09:09]
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE boton extra tablero o mas simple un boton al lado recorridos en tb3
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+** DONE abrir top con 3 tbls
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+*** planes de pagos ordenados por fecha hechura desc
+*** ver los seguir del cobrador
+*** ver las ultimas zonas que hizo y cuanto cobro o sea el resumen del cobrador
+*** ver la ganancia
+** DONE estudiar si lo hacemos como tres tbls o como pestañas.
+- State "DONE"       from "TODO"       [2019-02-04 lun 09:09]
+* TODO [2019-01-31 jue] arreglar impresion lotes 
+securitizar el ingreso del cobrador y permitir el cambio de cobrador
+sin tener que cambiar el lote entero.
+* TODO [2019-02-04 lun] ventas avance coloreado
+ver si a medida que avanzamos en el pasado de una venta vamos
+coloreando el campo, y luego cuando guardamos vuelve a color normal
+cosa que a la vista salte donde dejamos un pasado.
+es facil de hacer.
+* DONE [2019-02-04 lun] habilitar la periodicidad quincenal
+- State "DONE"       from              [2019-02-04 lun 17:20]
+- State "DONE"       from "TODO"       [2019-02-04 lun 17:20]
+chequear cuenta 71291
+* TODO [2019-02-04 lun] stock mejoras al programa
+** vista sin los que tienen saldo cero 
+** posibilidad de editar los costos en la tabla de stock
+** impresion de stock
+** vista de totales de mercaderia en stock
+* TODO [2019-02-05 mar] hacer que el mensaje para wapp se genere tambien en buscador
+* TODO [2019-02-06 mié] mejoras en pasador ventas
+** un tbls de calle-num en direccion para chequear direccion
+* TODO [2019-02-06 mié] chequear y poner (o sacar) LN desde recibos
+* TODO [2019-02-06 mié] crear un sistema de registro de las autorizaciones 
+** en buscador facil puede ser un boton
+registra dia/hora automatica y maquina que la proceso
+tendria que anotar con un boton el vdor que la pidio y si se aprobo o
+rechazo y por cuanto se aprobo.
+En el caso de las del seven estaria bueno cargarlas y cargar el
+infoseven, 

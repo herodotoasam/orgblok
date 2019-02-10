@@ -358,6 +358,4 @@
 (global-set-key (kbd "C-8") 'org-decrypt-entries)
 (setq org-crypt-disable-auto-save nil)
 
-(setq inferior-lisp-program "/usr/bin/sbcl")
-;; Also setup the slime-fancy contrib
-(add-to-list 'slime-contribs 'slime-fancy)
+

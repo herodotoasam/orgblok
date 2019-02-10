@@ -1,0 +1,146 @@
+
+* 2019
+** 2019-01 enero
+*** 2019-01-30 miércoles
+**** preparando retorno                                            :crypt:
+
+Entered on [2019-01-30 mié 22:27]
+  
+  [[file:~/.emacs::(setq%20browse-url-browser-function%20'w3m-browse-url)]]
+por lo menos esta planteado el tema y por lo menos esta aceptado.
+yo plantie un nirvana atomico pero aca nadie se lo cree y menos ih y
+ella da por sentado que yo voy a volver los findes como siempre, por
+lo cual no creo que haya problema para seguir como siempre.
+Pero con mas movilidad y mayor comodidad. Incluyendo la notebook mas
+portable y facil de transportar.
+Y a su vez el dpto esta ya arreglado y pienso que mantenerlo limpio va
+a ser posible.
+Y trabajar dentro de una oficina y en la cercanias va a ser algo lindo.
+*** 2019-01-31 jueves
+**** notebook avances en la configuracion
+Entered on [2019-01-31 jue 20:42]
+  
+  [[file:~/orgblok/kubuntu.org::*maximizacion%20y%20movimiento%20de%20ventanas%20facil][maximizacion y movimiento de ventanas facil]]
+pierdo tiempo en la configuracion de kde pero va quedando pipi cucu.
+agregue el theme numix que mejoro mucho el aspecto. Y los temas para
+gtk que mejoraron mucho la apariencia de emacs.
+ademas kate esta configurado muy bien. 
+y falta conocer mas a fondo plasma que es un escritorio nuevo para mi.
+pq tiene muchisimas cosas por aprender.
+** 2019-02 febrero
+*** 2019-02-02 sábado
+**** la peor descompostura de mi vida                           :sintomas:
+Entered on [2019-02-02 sáb 10:42]
+anoche tuve la peor descompostura sufrida, con fuerte dolor abdominal
+que termino en una diarrea, por momentos parecia que podia ser el
+apendice o algo peor, y no podia cursar tranquilamente hasta que
+pasara pq me subia el malestar a la nausea produciendome sensacion de
+vomito. y no sabia si iba a terminar vomitando en la mitad del asunto,
+todo un desastre, en medio de un dolor insoportable.
+Me tuve que desvestir en el trance y echarme agua desde el bidet en la
+cara en el cuello y la cabeza y respirando entrecortadamente de
+continuo pude terminar con la fase aguda, una vez salido todo, se
+alivio automaticamente el sintoma vomitivo y al rato cedio el dolor.
+Apenas termino todo quede con las manos y brazos temblorosos del dolor
+que habia sufrido.
+Pienso que lo que lo causo fue la ingesta de compota recocida de
+manzanas con lino hecha por ih.
+*** 2019-02-03 domingo
+**** problemas de tiempo :programacion:
+con la definitiva situacion que se presenta con al Cami que no va a
+trabajar pq tiene que estudiar se me presenta un problema de tiempo pq
+tengo que pasar yo todas las cosas y aparte programar.
+Pienso que la solucion seria conservar el escritorio en mi dpto y
+retirarme al mediodia despues de pasar los papeles a programar en mi
+casa.
+O sea llevar la mesa de vidrio y un escritorio grande de la oficina y
+comprar dos giratorios y las sillas. No hace falta comprar compu,
+hacer red de dos maquinas como aca. 
+En cierta forma pasar los papeles yo mismo me permite seguir
+perfeccionando el pasado de papeles al maximo para que sea mas rapido
+y mas eficiente el pasado, y el no tener que renegar con una red de
+tres maquinas con sqlite cosa que no sabria como hacerla, me
+permitiria tirar un tiempo mas largo pq seria como estamos trabajando
+ahora mismo.
+Y al no meter mano nadie mas, esta mas controlado el ingreso de datos.
+Y repito estando yo como usuario de la entrada de datos y al lado de
+las necesidades de informacion, puedo programar bien la parte TCL
+mientras trabajo en casa en la transformacion pgmodeler/postgres que
+con que le dedique dos horas por dia al proyecto en uno par de meses
+lo tengo que tener listo.
+O sea que en cierta forma mejor:
+que no vaya la Cami servira para que tengamos menos presion de
+realizar cambios rapido, pero tengo mas agotamiento de trabajo
+rutinario dia a dia. Pero puedo en el formato de la nueva oficina +
+dpto dedicarme mas asertivamente a lo mio, o sea al estar en el fondo
+no tengo que abrir la puerta, por lo cual me puedo poner a pasar los
+papeles de una y rapido. El despacho de los vendedores no es gran
+tiempo perdido, y tampoco el banco, que puede ser que desde alli ya me
+vaya.
+Y la chance de programar en mi casa en la asus tambien es valido de
+otra forma que aca..
+**** Nuevo tag dpto19 nueva etapa :dpto19:
+Lineamientos que quiero:
+1. mantener la limpieza que logramos antes de empezar la oficina
+2. lograr urgente un nivel de alimento sano alcalino y energizante
+**** agobio ante lo grande y lo parchado :programacion:
+a veces siento agobio pq solo alcanzo a hacer parches, y mas parches y
+no encaro cosas en serio.
+pero no debo sentirme asi pq nunca voy a tener el tiempo y la
+tranquilidad necesaria para dedicarme a lo mio, y debo estar en el
+medio si quiero programar bien.
+y voy consiguiendo cosas buenas pero habra otras que hay que dejar ir
+y habra que hacerlas mejor.
+Hay proyectos que son muy buenos como fichas2 que fue reescrito de
+cero y se nota pq es mas potente que los otros y el buscador  ambos
+son los ultimos los dos mas modernos.
+el ventas y recibos son los mas antiguos de esta etapa los que vengo
+parchando.
+habria que seguir trabajando hasta reemplazar lo viejo con tecnologia
+nueva. para lo cual pienso que hay que ir aprendiendo y mejorando cada
+vez mas.
+*** 2019-02-09 sábado
+**** Abandono de Zoho y refuerzo de seguridad  :seguridad:
+He perdido unas horas desde el mediodia pero me salid e Zoho. La
+verdad que me canso que a cada rato esten modificandote el servicio y
+amenazandote que no vas a poder entrar mas en la cuenta.
+Perdi tiempo basicamente pq me puse a hacer un research sobre
+googledocs para estar mas enterado y luego me puse a corregir unas
+cosas.
+En particular:
+1. descubri paswords.google.com que te lleva a todas las contraseñas
+   guardadas por chrome y te las muestra lo cual es mas seguro ya que
+   eso hace que podas saber y ver que password tenes guardadas no como
+   firefox que no se como se hace eso.
+2. cambie el mail de recupero creando uno en yandex igual hfj024 con
+   una strong clave basada en nmemotecnica de un poema.
+3. lo mismo todo esta anotado en claves.org
+4. cree una cuenta mail hfj027 y alli mude las planillas y las accedo
+   igual desde el celu pq aunque las cuentas no son nominadas mi
+   correo a sido dado a todo el mundo, y ese le puse el celu de ih, y
+   lo unico que comparte conmigo es el correo de recuperacion.
+**** Temas pendientes :seguridad:
+.1 ir limpiando la hfj024 de archivos que puedan ser complicados y
+pasarlos a la hfj027. 
+**** avances :alimentario:
+licuado de gusto lindo, y retomada facilidad de ejecucion.
+con la praxis del remojo y el licuar.
+Queda lograr mejores sabores via elegir mejores ingredientes (mejores
+productos), prepararlos mejor (lavarlos antes, no remojarlos de mas ni
+de menos), combinarlos bien.
+Y luego agregar el rubro ensaladero.
+Voy a articular sobre esos tres ejes:
+licuado
+ensaladas
+pasta base (arroz, mijo)
+y el evitamiento de venenos (ahi entra volver al agua)
+**** Me parece que estoy un poco alejado :programacion:
+me siento alejado, un poco no me atraia la zen y  es la transicion,
+pasa que esta semana fue muy dura y todavia estoy con el tema
+alimentario y el dolor de cabeza mortal.
+Hasta que no me vuelva a  mi casa no podre organizarme.
+Por lo menos tenemos todo el tema anotado queda luego seguirlo.
+Apuro no hay pq todo el tema postgres no es aplicable en lo
+inmediato. Y para ponerse a programar eso hay que seguir la
+transformacion de las aplicaciones que tenemos como dijimos y alli ir
+viendo los problemas que surjan.   

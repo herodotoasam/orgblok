@@ -1,0 +1,17 @@
+* ventajas kdeveloped
+** boton save/execute
+no solo la posibilidad de ejecutar directamente sino con boton
+accesible al raton
+** commit directo accesible con boton
+integracion de git directo simple y facil, con los chunks directamente
+expuestos.
+Lo unico que todavia echo en falta es un boton directo de push
+** guardado de sesion automatico
+al abrir, que casi es tan rapido como kate, se abre la ultima sesion
+tal cual lo teniamos.
+** themes para la interface
+en especial poder elegir numix que es la que uso
+* Faltas o inconveniencias
+** un atajo facil para git push
+** aparente bug que queda freezada la ventana del control version
+

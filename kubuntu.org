@@ -1,0 +1,222 @@
+* instalacion
+** sincronizar marcadores firefox
+cuenta hfj024@gmail.com / ataraxia76
+** sincronizar cuenta mega.nz
+cuenta hfj024@gmail.com ataH2132**/asam3161
+** crar clave ssh en gitlab segun instrucciones
+** emacs
+*** copiar .emacs de orblok/
+*** mx package-refresh-contens
+*** mx package-install
+**** org-bullets
+**** ido-vertical-mode
+**** smartparents
+**** auto-complete
+**** ag (instalar silversearcher con apt)
+*** instalar org en su ultima version
+usar package-list-packages
+** tcl
+*** en apt
+sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
+tk8.6-dev tcl8.6-dev
+*** copiar en /usr/share/tcltk
+puede ser instalar telegram-desktop y bajar de alli 
+itcl/itk/pdf4tcl/tablelist
+*** tclsh
+instalar con apt tcl-tclreadline
+copiar de ~/orgblok .tclshrc a ~
+** python
+*** python3-tk y python3-pip
+*** pip3 install modulos
+**** dateutils
+**** fastnumbers
+**** fpdf
+**** Pmw
+**** pyperclip
+*** poner las fuentes DejaVu DejaVuBold 
+*** 
+** postgres
+1. sudo apt-get install wget ca-certificates
+2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |
+sudo apt-key add -
+1. sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/
+   `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+2. sudo apt-get update
+3. sudo apt-get install postgresql postgresql-contrib
+4. sudo su - postgres psql
+5. instalar libpgtcl y postgresql-pltcl-11
+
+** instalar pgadmin 4 
+1. sudo apt-get install pgadmin4 pgadmin4-apache2
+2. durante la instalacion damos mail/password
+3. para acceder a pgadmin ponemos localhost/pgadmin/browser
+** instalar omnidb
+1. bajar en omnidb.org
+2. instalar el omnidb app y establecer conexion.
+** instalar pgmodeler
+1. instalar qt (bajar qt opensource de www.qt.io es un archivo run 
+que se le da chmod u+x y luego se ejecuta con ./qt...run y se instala,
+hacer skip donde piden los datos personales) 
+Instalar en /home/hero/.Qt/
+2. instalar solo la version  5.9.7 de Qt para no instalar todo pq es
+mucho y es lerdo (aun asi me instalo cosas de android, ver si en
+futuras instalaciones se podria evitar)
+1. bajar el source de pgmodeler ultimo alpha, no clonar el pgmodeler.
+2. seguir las instrucciones de intalacion de pgmodeler sobre las siguientes
+   1. 1: pkg­-config libxml-­2.0 --cflags --libs
+      2: ­-I/usr/include/libxml2 ­-lxml2 
+      si no esta la orden pkg--config pienso que habra que instalarla
+      una vez me dijo que no habia tal paquete y luego se curso como
+      un paquete del sistema. y me dio un mensaje de error, con ese
+      mensaje de error busque y encontre una pagina que parece que
+      contenia un bug de debian sobre el tema y encontre una solucion
+      en los comentarios, instalando a mano libxml2 de nuevo hasta
+      obtener la salida que dice en 2.
+[[https://stackoverflow.com/questions/31797524/r-devtools-fails-as-package-libxml-2-0-was-not-found-in-the-pkg-config-search-p][solucionar el problema de libxml2]]
+wget ftp://xmlsoft.org/libxml2/libxml2-2.9.2.tar.gz
+tar xvf libxml... 
+./configure --prefix=/usr --disable-static --with-history && make
+sudo make install
+y ya esta solucionado el problema de libxml2
+Si hay un error en el make, algo pidiendo python.h se soluciona
+instalando python-dev.
+   2. 1: pkg­-config libpq --cflags --libs
+      2: ­I/usr/include ­L/usr/lib64/libpq.so 
+      tambien da una salida erronea y encontre una solucion en otra
+      pagina
+      [[https://github.com/pgmodeler/pgmodeler/issues/43][solucionar dependencia libpq]]
+      apt-get install libpq-dev libpq5
+     
+3. orden de make
+/home/hero/.Qt/5.9.7/gcc_64/bin/qmake -r PREFIX=/home/hero/.pgmodeler BINDIR=/home/hero/.pgmodeler PRIVATEBINDIR=/home/hero/.pgmodeler PRIVATELIBDIR=/home/hero/.pgmodeler/lib pgmodeler.pro
+4. se travo el make con un error por un libutils.so.1.0.0
+   [[https://github.com/pgmodeler/pgmodeler/issues/583][solucion a libutils.so.1.0.0]]
+    apt-get install libgl1-mesa-dev
+5. make
+6. sudo make install
+7. editar el pgmodeler.vars
+export QT_ROOT="/home/hero/.Qt/5.9.7/gcc_64"
+export PGMODELER_ROOT="/home/hero/.pgmodeler"
+8. seguir las instrucciones 
+cambiarle el nombre a pgmodeler.sh y mv a /etc/profile.d
+9. arrancar pgmodeler en /.pgmodeler
+
+
+** instalar fzf 
+   git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+   ~/.fzf/install
+[[http://owen.cymru/fzf-ripgrep-navigate-with-bash-faster-than-ever-before/] 
+[Pagina de fzf]]
+en especial notar que en bash con C-r se busca muy eficientemente en la 
+historia del bash lo cual arregla todos los problemas que uno tuvo con el bash 
+en especial el tema anular touchpad con el modprobe o hacer un commit etc.
+
+
+** red con ssh
+*** instalar ssh en ambas maquinas
+instala varios archivos
+*** obtener ip con ifconfig instalar net-tools
+*** conectar
+ssh -p 22 hero@192.168.0.243
+password y voile!!!
+estamos adentro y viceversa.
+ssh -p 22 fede@192.168.0.39
+password 
+
+*** si queremos ejecutar programas graficos agregar -X en la orden
+ssh -X -p 22 ...
+*** en dolphin para agregar una capeta del disco compartido
+iniciar knetattach que no esta en el menu y no se como llegue a el
+te permite hacer una carpeta con los datos de ssh.
+poniendo como usuario el usuario que vamos a acceder, no el
+nombremaquina, en este caso fede, y servidor el numero obtenido por
+ifconfig o sea 192.168.0.243 y el dir que queremos acceder, nos pide
+password y ya esta.
+*** impresoras creo que va aparte de esto pero se compartio sin problema
+*** faltaria ver como se podria via ssh compartir el romitex.db solo
+
+** instalacion de red local
+*** del lado del servidor
+**** sudo apt install nfs-common nfs-kernel-server
+**** editar /etc/exports
+/home/hero/rx  192.168.0.39/24(rw,no_subtree_check)
+de donde /home/hero/rx es el directorio a compartir
+y 192.168.0.39 es la direccion ip de la maquina servidor que la
+sacamos de ifconfig donde dice Direc. inet
+**** sudo exportfs -a    (para que export comunique lo que hicimos)
+
+
+*** del lado del cliente
+**** sudo apt install nfs-common
+**** mount 192.168.0.39:/home/hero/rx /home/dir_destinado_al_montaje
+**** hacemos la correccion en fichaje.py para que romitex.db lo lea del dir_destinado_al_montaje en vez del usual rx
+*** problemas
+**** al abrir o cerrar
+respetar el orden abrir servidor primero, cerrar primero el cliente
+**** ver si la red funciona!!!!!!
+me preocupaba pq no andaba y era que el puto fibertel no andaba ese
+dia.
+*** automount
+sudo apt install autofs
+edit /etc/auto.master
+insert al tope del archivo
+/mnt/nfs /etc/auto.network --ghost
+esto montara la red remota dentro de /mnt/nfs (habria que ver sin o
+tendria que poner mi directorio ahi o sea /home/fede/rx)
+Parece que habria que crear el archivo /etc/auto.network
+y agregarle la linea
+MyShare     -rsize=32768,wsize=32768,intr,tcp,timeo=300,rw,user
+192.168.1.2:/volume1/MyShare
+[[https://ferhatakgun.com/properly-mounting-network-drives-linux/][Pagina que explica el proceso]]
+** instalacion de la impresora HP 1102
+sudo apt install hplib 
+hp-setup 
+esto instalara el driver bajado por hp no el que viene por defecto que
+causa problemas varios aunque anda a veces.
+** otras instalaciones
+*** RIBreak
+*** smb4k
+*** vim
+**** copiar .vimrc de /orgblok
+**** instalar curl y Plug
+ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+[[https://github.com/junegunn/vim-plug][Pagina de Plug]]
+**** instalar los plugins con 
+:PlugInstall
+*** formatear usb/instalar usb
+[[http://packages.linuxmint.com/pool/main/m/mintstick/][link a pagina del proyecto]]
+*** sqlitebrowser
+sudo snap install --edge sqlitebrowser
+** instalacion impresora EPSON L380
+**** [[http://www.epson-driver.com/2017/06/epson-l380-driver-download-windows-mac-linux.html][pagina de busqueda EPSON]]
+**** [[http://download.ebz.epson.net/dsc/search/01/search/?OSC%3DLX][pagina especifica de drivers Linux]]
+**** instalar los dos drivers que da para impresora !!
+**** previamente instalar la dependencia que requiere
+apt-get install lsb
+**** en dialogo impresoras agregar impresora
+detecta la epson y aceptar el driver que ya estara instalado
+y listo.
+**** el driver de scaner no me funciono
+** ssh -f -L 5433:127.0.0.1:5432 hero@192.168.0.243 -N
+con esto hice un tunel ssh, y luego a postgres lo conecto con port
+5433 y host localhost.
+lo que hay que ver si el tunel se debe hacer en cada sesion.
+** instalar applicacion menu con kmenuedit
+Alt-space (Ctrl-F2)  luego de ubicarse en la rama poner nuevo elemento
+y poner el elemento.
+Luego Guardar.
+* ATAJOS A APRENDER
+** control-esc show system activity
+mas rapido y al acceso que ksysguard
+** C-A-Esc kill app
+te muestra una calaverita roja que te mata la aplicacion.
+** C-A-Del logout
+** maximizacion y movimiento de ventanas facil
+doble-click en titulo
+win-down/left/right/up primero resize a half en el sentido de la
+flecha y luego mueve.
+alt-boton izq mueve la ventana
+alt-boton der resize 
+boton izq solo en titulo o areas no inner mueve cambiandose el cursor
+a la cruz de movimiento

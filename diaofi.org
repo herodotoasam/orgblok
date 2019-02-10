@@ -1,0 +1,385 @@
+* [2019-01-07 lun]
+** corrijo telefono intimaciones
+** cambiamos ubicacion impresora pq no anda en red
+** agrego un test nuevo por un bug encontrado
+** retirar estudios camila patio olmos
+** DONE pagar expensas oficina
+** programacion: mejores atajos fichas2
+volver atajo <i>
+menu diferencial para pdf o impresora
+botones diferenciales para imprimir lotes
+** reniegues varios para hacer andar impresora por red
+** instalado chromium en fede desde aca por ssh
+** se hizo nuevo gmail rxcbaarg@gmail para el celu oficial
+
+* [2019-01-08 mar]
+** pasando ventas
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 08:34]--[2019-01-08 mar 08:37] =>  0:03
+:END:
+** pasando recibos
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 08:37]--[2019-01-08 mar 12:00] =>  3:23
+:END:
+** pagar oficina
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 12:00]--[2019-01-08 mar 13:09] =>  1:09
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 13:09]--[2019-01-08 mar 15:44] =>  2:35
+:END:
+** instalando impresora 
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 16:00]--[2019-01-08 mar 16:52] =>  0:52
+:END:
+** programacion varias
+:LOGBOOK:
+CLOCK: [2019-01-08 mar 17:10]--[2019-01-08 mar 18:13] =>  1:03
+:END:
+* [2019-01-09 mié]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 08:40]--[2019-01-09 mié 09:05] =>  0:25
+:END:
+** anotar numeros campañas de venta
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 09:11]--[2019-01-09 mié 09:24] =>  0:13
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 09:24]--[2019-01-09 mié 11:39] =>  2:15
+:END:
+** inicio programacion
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 11:39]--[2019-01-09 mié 15:52] =>  4:13
+:END:
+*** pivot articulos mes
+*** fallido upm
+*** fechamiento avanzado de fichas2
+*** recibos
+:LOGBOOK:
+CLOCK: [2019-01-09 mié 17:03]--[2019-01-09 mié 17:38] =>  0:35
+:END:
+* [2019-01-10 jue]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 08:50]--[2019-01-10 jue 09:58] =>  1:08
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 09:58]--[2019-01-10 jue 10:36] =>  0:38
+:END:
+** programar
+:LOGBOOK:
+CLOCK: [2019-01-10 jue 16:35]--[2019-01-10 jue 17:26] =>  0:51
+CLOCK: [2019-01-10 jue 13:37]--[2019-01-10 jue 15:08] =>  1:31
+CLOCK: [2019-01-10 jue 10:36]--[2019-01-10 jue 12:41] =>  2:05
+:END:
+*** recibos entrada por combo
+*** espeak en fichas2
+*** correccion bug trigger ultimopago
+*** recibos cambio regla de filtro recibos
+ahora no impide fuera de lote sino que marca los colores.
+*** apertura de postgres desde la otra maquina
+tunel ssh funcionando a pleno.
+* [2019-01-11 vie]
+** programo campo wapp
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 08:47]--[2019-01-11 vie 09:13] =>  0:26
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 09:13]--[2019-01-11 vie 10:05] =>  0:52
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 10:05]--[2019-01-11 vie 11:55] =>  1:50
+:END:
+** hacer gran caja
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 11:55]--[2019-01-11 vie 12:15] =>  0:20
+:END:
+** postgres
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 12:20]--[2019-01-11 vie 12:56] =>  0:36
+:END:
+** contactos
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 12:56]--[2019-01-11 vie 15:24] =>  2:28
+:END:
+1. emitir csv
+select nombre,calle||' '||num,wapp,dni from clientes where wapp is not null and deuda>0 and pmovto>date('now','-4 years');
+
+2. tranformar en vcf con pagina
+[[http://phrogz.net/js/csv2vcard_2.html][pagina]]
+los campos tipo de de campo los setie asi
+encabezado en la entrada primera linea 
+Nombre,Domicilio,WApp,DNI
+Specify Types
+Nombre- First Name
+Domicilio- StreetAdress1 (Home)
+WApp Phone (Cell)
+DNI Company
+
+1. copiar y pegar en editor y ponerle un nombre.vcf
+previamente sacarle las comillas dobles con C-r " 
+2. importarlo con el telefono
+** pivot mesvta/cobr/mespago
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 16:00]--[2019-01-11 vie 16:33] =>  0:33
+CLOCK: [2019-01-11 vie 15:39]--[2019-01-11 vie 15:56] =>  0:17
+:END:
+** instalo usbformater/usbisograbar
+:LOGBOOK:
+CLOCK: [2019-01-11 vie 16:45]--[2019-01-11 vie 17:35] =>  0:50
+:END:
+* [2019-01-14 lun]
+** programacion: fichas con seguimiento 
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 08:46]--[2019-01-14 lun 09:53] =>  1:07
+:END:
+** pasar recibos/caja/control usd
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 09:53]--[2019-01-14 lun 12:33] =>  2:40
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 12:34]--[2019-01-14 lun 14:50] =>  2:16
+:END:
+** pagar cuentas
+:LOGBOOK:
+CLOCK: [2019-01-14 lun 16:30]--[2019-01-14 lun 17:31] =>  1:01
+:END:
+* [2019-01-15 mar]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 09:05]--[2019-01-15 mar 09:52] =>  0:47
+:END:
+** pasar recibos, con caja y deposito
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 09:52]--[2019-01-15 mar 12:53] =>  3:01
+:END:
+** programacion
+*** bug pasarrbos
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 13:19]--[2019-01-15 mar 15:34] =>  2:15
+:END:
+*** terminar fichas con seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 15:34]--[2019-01-15 mar 16:03] =>  0:29
+:END:
+desisto de crear una vista general de fichas con seguimiento por
+considerar que no vale la pena esa vista ya que la ficha con
+seguimiento tiene valor zona por zona y no en general.
+*** edicion de campos de tabla ventas
+:LOGBOOK:
+CLOCK: [2019-01-15 mar 16:07]--[2019-01-15 mar 17:03] =>  0:56
+:END:
+* [2019-01-16 mié]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 08:41]--[2019-01-16 mié 09:14] =>  0:33
+:END:
+** pasar recibos/caja
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 09:15]--[2019-01-16 mié 11:18] =>  2:03
+:END:
+** ir a depositar
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 11:18]--[2019-01-16 mié 11:53] =>  0:35
+:END:
+** programar
+*** pivot ventas por dia
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 11:55]--[2019-01-16 mié 14:44] =>  2:49
+:END:
+*** tomador del DNI del padron
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 14:45]--[2019-01-16 mié 15:10] =>  0:25
+:END:
+*** padron en buscador
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 16:00]--[2019-01-16 mié 16:16] =>  0:16
+CLOCK: [2019-01-16 mié 15:31]--[2019-01-16 mié 15:47] =>  0:16
+:END:
+*** instalar pgmodeler
+:LOGBOOK:
+CLOCK: [2019-01-16 mié 16:16]--[2019-01-16 mié 17:12] =>  0:56
+CLOCK: [2019-01-16 mié 15:47]--[2019-01-16 mié 16:00] =>  0:13
+:END:
+* [2019-01-17 jue]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-17 jue 08:55]--[2019-01-17 jue 09:25] =>  0:30
+:END:
+** cargar pgmodeler
+:LOGBOOK:
+CLOCK: [2019-01-17 jue 13:11]--[2019-01-17 jue 13:56] =>  0:45
+CLOCK: [2019-01-17 jue 09:25]--[2019-01-17 jue 10:21] =>  0:56
+:END:
+***  buscador.tcl 
+*** remodelacion de las tablas en postgres
+:LOGBOOK:
+CLOCK: [2019-01-17 jue 16:30]--[2019-01-17 jue 17:37] =>  1:07
+:END:
+usando diff de pgmodeler y arreglando postgres3
+** pasar recibos y caja
+:LOGBOOK:
+CLOCK: [2019-01-17 jue 15:38]--[2019-01-17 jue 17:37] =>  1:59
+CLOCK: [2019-01-17 jue 10:35]--[2019-01-17 jue 12:15] =>  1:40
+:END:
+** programacion
+:LOGBOOK:
+CLOCK: [2019-01-17 jue 13:56]--[2019-01-17 jue 14:34] =>  0:38
+:END:
+*** DONE vista pagos futuros por asignado
+- State "DONE"       from "TODO"       [2019-01-17 jue 14:34]
+* [2019-01-18 vie]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-18 vie 08:49]--[2019-01-18 vie 09:52] =>  1:03
+:END:
+** pasar recibos y pgmodeler mientras tanto y fui super
+:LOGBOOK:
+CLOCK: [2019-01-18 vie 13:08]--[2019-01-18 vie 13:59] =>  0:51
+CLOCK: [2019-01-18 vie 09:52]--[2019-01-18 vie 12:32] =>  2:40
+:END:
+** subir seven
+:LOGBOOK:
+CLOCK: [2019-01-18 vie 13:59]--[2019-01-18 vie 14:42] =>  0:43
+:END:
+** pgmodeler
+:LOGBOOK:
+CLOCK: [2019-01-18 vie 15:45]--[2019-01-18 vie 16:56] =>  1:11
+:END:
+* [2019-01-21 lun]
+** pasar rbos
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 08:55]--[2019-01-21 lun 11:55] =>  3:00
+:END:
+** conteo caja y deposito
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 11:56]--[2019-01-21 lun 13:17] =>  1:21
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 13:17]--[2019-01-21 lun 14:26] =>  1:09
+:END:
+** programacion llamables
+:LOGBOOK:
+CLOCK: [2019-01-21 lun 15:30]--[2019-01-21 lun 17:08] =>  1:38
+:END:
+*** cambiar menu por toolbar
+*** agregar t3 en modo mes
+*** pasado a llamar
+*** campos control de llamado/fechallamado/gestionterminada
+* [2019-01-22 mar]
+** pasar ventas y atencion al Deivi
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 08:29]--[2019-01-22 mar 10:21] =>  1:52
+:END:
+** pasar recibos y banco
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 10:21]--[2019-01-22 mar 12:44] =>  2:23
+:END:
+** programacion postgres en red
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 12:44]--[2019-01-22 mar 14:20] =>  1:36
+:END:
+** programar impresion de pedidos vieja
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 14:44]--[2019-01-22 mar 15:11] =>  0:27
+:END:
+** programar lista de seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-22 mar 15:11]--[2019-01-22 mar 16:52] =>  1:41
+:END:
+* [2019-01-23 mié]
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 08:25]--[2019-01-23 mié 08:32] =>  0:07
+:END:
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 08:32]--[2019-01-23 mié 09:34] =>  1:02
+:END:
+** pasar recibos
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 09:34]--[2019-01-23 mié 10:52] =>  1:18
+:END:
+** caja y banco
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 11:11]--[2019-01-23 mié 12:38] =>  1:27
+:END:
+** programacion
+*** arreglo impresion provisoria
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 12:41]--[2019-01-23 mié 14:44] =>  2:03
+:END:
+*** seguimiento
+:LOGBOOK:
+CLOCK: [2019-01-23 mié 14:49]--[2019-01-23 mié 15:40] =>  0:51
+:END:
+* [2019-01-24 jue]
+** pasar ventas,banco,pasar recibos, programar
+:LOGBOOK:
+CLOCK: [2019-01-24 jue 08:51]--[2019-01-24 jue 14:17] =>  5:26
+:END:
+** programar
+*** mensaje wassap
+:LOGBOOK:
+CLOCK: [2019-01-24 jue 14:18]--[2019-01-24 jue 16:58] =>  2:40
+:END:
+* [2019-01-25 vie]
+** pasar ventas, pasar recibos, ver oficina, y nada mas
+:LOGBOOK:
+CLOCK: [2019-01-25 vie 08:39]--[2019-01-25 vie 16:47] =>  8:08
+:END:
+* [2019-01-28 lun]
+** pasar ventas,pasar recibos y caja
+:LOGBOOK:
+CLOCK: [2019-01-28 lun 08:45]--[2019-01-28 lun 12:49] =>  4:04
+:END:
+* [2019-01-29 mar]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-29 mar 09:04]--[2019-01-29 mar 13:07] =>  4:03
+:END:
+** programacion
+:LOGBOOK:
+CLOCK: [2019-01-29 mar 13:08]--[2019-01-29 mar 16:31] =>  3:23
+:END:
+* [2019-01-30 mié]
+** ventas
+:LOGBOOK:
+CLOCK: [2019-01-30 mié 08:40]--[2019-01-30 mié 10:40] =>  2:00
+:END:
+** programacion
+:LOGBOOK:
+CLOCK: [2019-01-30 mié 10:45]--[2019-01-30 mié 11:04] =>  0:19
+:END:
+** pasar recibos y gran programacion variopinta.
+:LOGBOOK:
+CLOCK: [2019-01-30 mié 11:04]--[2019-01-30 mié 16:55] =>  5:51
+:END:
+* [2019-01-31 jue]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-01-31 jue 08:59]--[2019-01-31 jue 16:28] =>  7:29
+:END:
+* [2019-02-04 lun]
+** pasar ventas
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 08:28]--[2019-02-04 lun 10:29] =>  2:01
+:END:
+** pasar recibos y pasar stock
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 10:29]--[2019-02-04 lun 14:18] =>  3:49
+:END:
+** programcion
+:LOGBOOK:
+CLOCK: [2019-02-04 lun 15:25]--[2019-02-04 lun 17:20] =>  1:55
+:END:
+*** DONE habilitar la periodicidad quincenal
+- State "DONE"       from "TODO"       [2019-02-04 lun 16:38]

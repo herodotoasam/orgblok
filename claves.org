@@ -1,4 +1,4 @@
-* emails
+* emai:clave:
 ** cobrozonalcba@gmail.com
    clave ataraxia76
    telefono contacto 3513882892
@@ -13,6 +13,23 @@
 :PROPERTIES:
 :clave:    Orozco96.JujuY
 :END:
+** rxcbaarg@gmail.com
+:PROPERTIES:
+:clave:    ataraxia76.
+:fnac:     1960-02-02
+:telefono: 3513882892
+:END:
+** hfj024@yandex.com
+:PROPERTIES:
+:clave:  Ntdpvnav-Tdppbyafymh@
+:END:
+** hfj027@gmail.com
+:PROPERTIES:
+:clave:    Ntdpvnav-Tdppbyafymh@
+:gender:   female
+:fnac:     19420217
+:celular:  ih
+:END:
 
 * naranjaonline
 clave 1406
@@ -23,3 +40,14 @@ clave 1406
 :proveedor-nextcloud: webo.hosting
 :END:
 https://nextcloud.webo.hosting/
+* servicios
+** aguas cordobesas
+:PROPERTIES:
+:usuario:  hfj024@gmail.com
+:clave:    ataraxia76
+:END:
+** cablevision
+:PROPERTIES:
+:usuario:  hfj024@gmail.com
+:clave:    ataraxia
+:END:

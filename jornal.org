@@ -2334,4 +2334,103 @@ voy mañana a la tarde en el bora y lo cargo.
 Luego esta el tema de traerse un poco mas de ropa, no mucho, sino la
 justa para estar comodo, teniendo en cuenta el movimiento que tendre
 aca.
+*** 2018-12-10 lunes
+**** estado de salud actual :migraña:sintomas:
+:LOGBOOK:
+CLOCK: [2018-12-10 lun 18:01]--[2018-12-10 lun 18:04] =>  0:03
+:END:
+Me siento para la real mierda.
+Este fin de semana fui bastante productivo pq avance bastante en la
+programacion pq se me abrio la mente en varios temas, sin romperme
+fisicamente demasiado, pero estoy como empachado, cada vez que como
+siento como que despues me duele la panza, pero no es un dolor agudo
+ni un ardor sino un dolor sordo, que se termina yendo con el oleo31, y
+el dolor de cabeza que no se va mas, aunque tomes uno o dos migrales,
+por eso ahora me tome 2mg de cp.
+y obvio como ya llevo tres dias me empiezan a molestar los hombros por
+la mala postura.
+Estoy evitando tomar clonazepan desde que fui al dentista pase lo que
+pase.
+o sea una cosa por vez o sea una especie de reparacion pero es malo.
+**** mejoro mucho con bwidget :programacion:
+:LOGBOOK:
+CLOCK: [2018-12-10 lun 19:29]--[2018-12-10 lun 19:34] =>  0:05
+:END:
+Ya habia sido un salto cualitativo el usar VSCode para la rapidez de
+programacion, aunque ahora como todo ya me estoy cansando y estoy
+buscando cambio. Pero tiene a su favor la terminal incoporada abajo
+para ir probando con salida directa, e integracion total con git, en
+forma transparente, y un sistema bastante sencillo por lo demas, creo
+que en todo es mas rapido desarrollar ahi que en emacs o en vim, se
+asemeja a la experiencia de pycharm para python.
 
+Y en los ultimos cuatro dias con bwidget cambio un monton todo pq con
+mainframe obtuve una base hermosa para una interface con toolbar muy
+adecuada para hacer lo mismo que habia hecho en fichas.tcl pero mas
+profesional y con statusbar y menu. 
+Luego los dialog para manejar toplevel con mayor profesionalismo y
+menos trabajo, y ahora los msgdialog que son una luz.
+Y pude con tcl ir a namespace que no cambia nada pero mantiene todo
+dentro de un namespace lo que puede hacer que no colisionen las
+variables en caso que vayamos haciendo algo mas grande con el tiempo.
+
+Veo incluso que a nivel problemas que se me presentaron igual cuando
+hice la programacion en python ahora se resuelven con pocas lineas de
+codigo y en forma simple lo cual dara en el futuro una facilidad de
+mantenimiento muy grande.
+=======
+*** 2018-12-12 miércoles
+**** rapido pq es tarde :estadoAnimico:
+:LOGBOOK:
+CLOCK: [2018-12-12 mié 22:49]--[2018-12-12 mié 22:52] =>  0:03
+:END:
+he programado mucho
+he vuelto a casa
+estoy cansado
+no pienso mucho
+mi vida es un desastre
+dentro de todo cuando trabajo hago las cosas bien o sea soy eficiente
+el problema es fuera del trabajo cuando viene la queja
+pq no se puede ser feliz si uno es infeliz
+y no se puede ser muy feliz en mi situacion
+hay muchas cosas en contra para ser feliz
+despues lo seguimos.
+*** 2018-12-13 jueves
+**** opinion a hoy :estadoAnimico:trabajo:proyecto2019:
+:LOGBOOK:
+CLOCK: [2018-12-13 jue 15:34]--[2018-12-13 jue 15:49] =>  0:15
+:END:
+HOy pienso que debo trabajar.
+Que debo quedarme.
+Que mi trabajo es este.
+Que debo corregir cosas minimas.
+Como anoche que volvi a dormir con el sonido de la lluvia y dormi muy
+placenteramente.
+O quizas cuando pienso en la oficina que puedo atender rapidamente y
+asertivamente bien con un sistema programado en forma cada vez mejor
+por mi.
+Ni que hablar que podria mejorar las cosas aca.
+Porque tambien me doy cuenta que una vez recuperada la relacion con la
+Cami en forma directa sin intermediarios (es mas, el contubernio con
+ih arruina la relacion con los hijos) no necesito ni extraño ir alla
+para ningun tipo de relacionamiento al contrario, todo es cuestion de
+costumbrismo una vez que estas alla. 
+Eso puede ser motivo de otro post [ampliaremos si viene al caso] que
+estando en el marques no nos movemos mas, y es cierto uno tiene una
+inmovibilidad mayuscula. Pero esa obligatoriedad de "ir" te termina
+matando.
+Y ahora con el verano se acabo la breve pausa de que dormir en
+silencio alla pueda ser ventajoso. Dormir alla con el aire entufado y
+a full te hace mal y comidas no pegas casi ninguna o las que pegas te
+hacen mal.
+
+Creo que lo mejor seria que siguieramos como estamos hasta ahora, o
+sea que retomaramos el plan C, o sea volver a la venta normal de
+antes, yo atiendo los cobradores, el Fede vuelve con el grupo, o bien
+sale a vender a los clientes.
+A lo sumo voy probando con tiempo un sistema hobbystico de venta desde
+aca.
+No veo que sea factible, en la practica que nos pongamos a buscar una
+oficina, alquilar y formar grupo para vender intentando ser la unica
+fuente de facturacion.
+>>>>>>> 639fd45a404e69aa98a70519c74c16d4b51cc0f9

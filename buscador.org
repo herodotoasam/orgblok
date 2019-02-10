@@ -1,0 +1,719 @@
+#+TITLE: buscador
+* temas pendientes [2018-11-26 Mon]
+** registro de intimaciones
+esta la tabla intimaciones con campos idcliente fecha tipo intimador
+plan comentarios
+usada desde el 2012 y dejada de usar desde febrero de este año.
+Tiene el inconveniente de que si registramos las emisiones de
+intimacion no siempre lo impreso llega al cliente y estariamos
+generando un historial ficticio, lo ideal es generar un pasado de
+intimaciones reales o sea un boton de intimacion entregada que
+generara un log automatico de intimacion entregada.
+** logcambio de direccion queda restringido a calle/num/barrio
+quedando tel/zona/acla fuera del log para evitar numerosos cambios
+sobre campos que pueden cambiar a menudo sin ser relevantes a la
+esencia de mudarse, pero que podriamos llevarlo en otro masterlog mas
+general de todos los cambios.
+
+
+* tema planes de pagos
+** ventas columna condo en el tbls
+transformarla en un tag 
+e indicar el tag, condo puede ser uno, pero plan de pagos otro, 
+** cargado de plan
+puedo hacer una operacion semiprofesional o sea editar los campos
+cripticos en el tbls de todos modos no se puede hacer daño con eso.
+pq solo se puede editar lo que esta ahi. pero habria que ver como
+dejamos un log del plan de pagos cargado.
+
+* tablero de mora
+** filosofia base
+    analizar la mora por campaña zonal y luego tratar de comparar las campañas.
+** terminar el asignador de campañas
+CLOCK: [2018-11-26 Mon 22:8]--[2018-11-26 Mon 22:56] =>  0:48
+CLOCK: [2018-11-27 Tue 16:1]--[2018-11-27 Tue 16:31] =>  0:30
+CLOCK: [2018-11-27 Tue 16:31]--[2018-11-27 Tue 17:50] =>  1:19
+Me atraso un monton un bug increible en la coloracion y en la lectura simple de tomar un color especifico por el 
+campo camp si lo hago por lista lindex toma hasta el numero cinco y luego nada, y si lo hago por array no lo reconoce
+a pesar de que en tclsh anda perfecto el array. y en el mismo proc lo imprime con puts. 
+Por lo demas anda bien y conseguir que el tbls luego de recalcular quede en el mismo lugar.
+Voy a explorar una tabla auxiliar camp donde cargue las campañas a analizar para tener mejor perspectiva de analisis.
+Funciono muy bien, para tener el numero de campaña, la zona editable por las dudas, y la fecha, luego se podran agregar instantaneas 
+o datos que se puedan ir cargando desde las vistas que se vayan haciendo, para enriquecer las propias vistas futuras, como
+p.e. la cantidad de sev, gestion,mudados etc. que es muy complejo hacerlo con selects.
+
+Hice un sistema de tags muy resaltante y de ultimo pago, con sumador de saldos y tambien un link directo a la cuenta cosa que se pueda ir 
+directo a la cuenta. 
+
+** notar que hice un expandir adhoc
+
+proc expandir {obj sel db tbl row} {
+    set nodo [$tbl getcells $row,0]
+    $tbl activate $row
+    set sel [subst $sel]
+    $tbl delete [$tbl childkeys $row]
+    set var [tabule $sel db]
+    $tbl insertchildlist $row end $var
+    set rows [$tbl childkeys $row]
+    foreach row $rows {
+    $tbl rowconfigure $row -bg lightyellow -fg black
+    if {[$tbl getcell $row,SEV]==1} {$tbl cellconfigure $row,SEV -bg green -fg white -text SEV}
+    if {[$tbl getcell $row,GES]==1} {$tbl cellconfigure $row,GES -bg orange4 -fg white -text GES}
+    if {[$tbl getcell $row,MUD]==1} {$tbl cellconfigure $row,MUD -bg chocolate -fg white -text MUD}
+    if {[$tbl getcell $row,INCO]==1.0} {$tbl cellconfigure $row,INCO -bg red -fg white -text TODO}
+    if {[$tbl getcell $row,INC]==1} {$tbl cellconfigure $row,INC -bg purple -fg white -text INC}
+}
+}
+Como el metodo expandir para los llenartree es fijo, o sea se le debe proveer un proc expandir generico, y ese proc esta en lib2015.tcl, si lo 
+copio y lo pongo en mi script y lo altero, obviamente tomara este, 
+y aca alteramos unas cosas o sea le agregamos un resaltado adhoc 
+Esto esta muy bueno pq seria en la practica como resaltado para expansion.
+O sea que en resumen hacer un tree es muy pero muy facil
+1. se define un tbls igual igual que siempre
+2. se pone llenartree en vez de llenar
+3. se pone .tblsxxx expandir {select de expansion donde seguro tengo un where adosado a al '$nodo'} db
+y listo, tener en cuenta nomas que el select este entre {} para que no pitee el $nodo, y si queremos alterar el expandir generico
+copiamos el expandir dentro del script actual y lo alteramos, usualmente al final con el coloreado.
+
+* DONE sistema de control stock de cobradores/vendedores
+** inicio del sistema 
+CLOCK: [2018-11-29 Thu 15:22]--[2018-11-29 Thu 20:43] =>  5:21
+con interrupciones obvio
+pero hice la creacion de tablas y los campos en ventas
+los tabs uno de entrada de datos y otro de salida de mercaderia
+ambos tbls se puede borrar registros y volverlos a entrar
+genero stock
+El sistema permite el uso de distintos vendedores, 
+para mantener stocks separados
+Luego tengo un tab de ventas donde tengo el control de si la pase a stock
+lo que se hace automatico y si pago primer cuota
+luego me falta hacer
+*** DONE imprimir stock
+    CLOCK: [2018-12-1 Sat 10:58] --[2018-12-1 Sat 12:14] =>  1:16
+*** DONE imprimir lista de ventas a liquidar
+    CLOCK: [2018-12-1 Sat 12:21] --[2018-12-1 Sat 13:25] =>  1:4
+*** DONE imprimir lista de ventas pendientes a cobrar 
+*** DONE procedimiento bindeado para poner comision pagada
+    CLOCK: [2018-12-1 Sat 13:26]--[2018-12-1 Sat 13:44] =>  0:18
+* problema con type affinity de los datos en sqlite3
+    el tema es que sqlite3 si tiene afinidad de datos.
+    aunque permite guardar cualquier tipo de datos en cualquier campo
+    se puede definir el tipo de afinidad y eso va a hacer que convierta los 
+    datos al guardarlos y eso va a influir en la consulta.
+    P.e. si defino una tabla
+    create table cobr(id integer primary key, prom, ) 
+    create table cobr(id integer primary key, prom int, ) 
+    en el primer caso el campo prom no definimos type y en el segundo definimos type integer
+    eso significa que antes de guardarlo sqlite3 lo va a tratar de transformar a integer
+    o sea que si guardamos '816' lo va a transformar a 816 o si guardamos '1' lo va a transformar en 1
+    por eso siendo que de formularios tablelist mayormente todo es texto y entra como text al no ser los
+    campos con afinidad integer no son transformados y al hacer una consulta no hay resultados esperados
+    obligando a la doble condicion que es muy precaria o sea campo=0 or campo='0'
+
+* problema UNION UNIONALL
+    poco uso el UNION y no me daba resultado hasta que vi que sqlite3 te filtra los campos 
+    que cree duplicados y eso da grandes errores, por eso usar UNIONALL mejor.
+* sistema de pedido de documentos
+CLOCK: [2018-12-1 Sat 16:9] --[2018-12-1 Sat 17:8] =>  0:59
+    puede ser administrado por un campo en ventas pidedoc
+    en el tbls ventas con F4 se marca pedir doc y alli aparece en tag DP
+** falta la segunda parte marcar como traido el doc en ofi
+** marcar doc devuelto
+** marcar doc perdido
+    
+* generales
+** recalc que no se salga del strech
+   parece que erraba con el strech pq no era poner strech 0 sino streech {} y el puto strech
+   estaba seteado en el option database.
+** un printl general con anchos incluidos
+tipo printl $pdf {campo n campo n campo n campo n campo n}
+donde n es el ancho asignado
+y lo que haga sea truncar la salida del campo a n caracteres y hacer el printl
+** recordar que case when tiene la primera salida
+o sea una vez que encuentra un valor no sigue buscando
+lo vi nuevamente con los tags de documento en tbls ventas
+when condonada=1 then 'CONDO' \
+                           when devuelta=1 then 'DEVUELTA' \
+                           when pcondo=1 then 'PLAN PAGO' \
+                           when pp=1 then 'PLAN PAGO' \
+                           when pidedoc=1 then 'DocPed' \
+                           when doctraido=1 then 'DocOfic' \
+                           when docdev=1 then 'DocDev' \
+                           when docperd=1 then 'DPerdido' \
+                                else '' end as TAG, \
+
+Luego de renegar pq no me aparecian los tags sucesivos vi que si 
+no anulaba la condicion de arriba cuando se daba la primera en este
+caso pidedoc=1 las otras no se testeaban, eso hizo que tuviera que
+ir cambiando las condiciones a cada paso, lo cual fue muy facil pero 
+hay que tenerlo en cuenta.
+
+* Documentacion para imprimir rapidamente
+    se usa el proc imprimirdatos script
+    que esta en lib2025.tcl al cual se le entrega el script que es un proc
+    y que contiene el detalle de lo que queremos imprimir
+    usualmente comienza con los siguientes parametros
+
+    # para encabezados
+    $pdf setTextPosition 0 3cm
+    print $pdf "STOCK DE MERCADERIAS AL [today] correspondiente a $cobrstock"
+    $pdf newLine
+    establezco posicion e imprimo encabezado.
+
+    # recorro variables con un select 
+    db eval {select art,sum(cnt) as cnt  from stockcobr group by art order by art} {
+        printl $pdf $cnt -x 2cm -align right
+        printl $pdf $art -x 3cm
+        $pdf newLine
+    }
+    usando printl que permite imprimir la linea campo por campo asignando con la coordenada
+    -x el lugar de la columna incluso el align y luego cuando cierro la fila pongo un newLine
+
+    # separo con los newline que quiero
+    $pdf newLine n siendo n los espacios que quiero
+
+    # line de ancho a ancho
+    line $pdf
+    gracias a un proc line que hice solo poniendo line te traza una
+    linea a tres pixeles abajo de la posicion actual, en forma
+    totalmente comoda y dinamica.
+
+    # pongo dentro del script un controlador de salto de pagina si pienso que el impreso puede ser
+    multipagina
+     if {[lindex [$pdf getTextPosition] 1]>750} {$pdf startPage}
+
+    # recordar que el proc que crearemos para adosar a imprimir datos tiene que tener un argumento pdf
+    o sea debe ser hecho asi:
+    proc imprimirstockxx {pdf} {
+        ;;;;
+    }
+    sin ningun significado para nosotros de ese pdf, eso lo usa lib2015. cuando ensambla.
+
+    # recordar tambien que muchas veces nos olvidamos que cuando bindeamos o hacemos command
+    pongamos imprimirdatos script y no script solo que casi siempre lo hice
+    pq el proc que ensambla todo es imprimirdatos de lib2015 y el script que estamos haciendo
+    es solo un proc de detalle que va a ser ensamblado dentro.
+** bugs o problemas
+*** no me aparecia una impresion de un registro 
+era en documentos pedidos luego de renegar media hora pq pensaba que
+era el programa, no sospechaba del pdf y al ver que estaba todo bien 
+pense que me estaba comiendo la linea el pdf
+y ahi recorde
+$pdf setTextPosition 0 1cm
+asi que tenerlo en cuenta
+
+* documentacion menucontextual
+    # es un metodo de tbl
+    o sea directamente .ventas menucontextual [list {Menu1} comando1 {Menu2} comando2 ]
+
+    # no hace falta el comando list pero es mas seguro
+    para que quede una lista correctamente conformada por las dudas
+    tiene que quedar una lista par de nombres de menu y comandos
+    no hace falta que los nombres de menu esten entre llaves pero para separarlos los pongo
+    y aparte si tienen espacio entre medio es mas seguro.
+    Si el el comando lleva dos palabras pq lleva un argumento tambien encierro entre llaves.
+    Ejemplo real
+    .vtascobr menucontextual [list {Pasar Stock} pasarstock {Comision Pagada} pasarcomisionpagada {Borrar comision pagada} desmarcarcomisionpagada \
+{Imprimir Listado} {imprimirdatos imprliqvtascobr}]
+    
+    # separador
+    hice por convencion que poniendo como un nombre de menu sep y un comando vacio, ello produzca un separador
+    o sea que {sep} {} me da un separador
+
+* calendar redescubierto
+    se podria recuperar, faltaria ver como podemos hacer para que funcione como un proc y devuelva el valor de la 
+    variable cuando sea seleccionada una fecha, o sea una especie de wait hasta que el evento se dispare.
+    algo asi.
+    De todos modos no es algo super relevante para ahora.
+       
+* Documentacion para expandir
+** se define el tbls como siempre
+** se usa el metodo llenartree en vez del metodo llenar
+** se usa el metodo adicional expandir con los siguientes argumentos
+obj expandir select db scriptexpansion 
+donde: select es un select de
+expansion donde seguro vamos a vincular el nodo que se expande con el
+select que estamos brindando entonces usamos la variable $nodo para
+ensamblar, si pensamos que va a ser compuesta como en el caso de
+fechas, zonas o calles, ponemos '$nodo'
+ ejemplo
+ .recorridos expandir {select "",idcliente,nombre,calle,num from listado,clientes where
+idrecorrido=$nodo and clientes.id=listado.idcliente} db
+En este caso no se puso un script de expansion.
+Si no se pone un script de expansion se usa el generico que esta en
+lib2015.
+Si agregamos un proc ahi, tenemos que tunear el expandir generico,
+usualmente agregandole coloreados para que use ese en vez del
+generico.
+
+Ejemplo de expandir tuneado:
+
+proc expandirmora {obj sel db tbl row} {
+    set nodo [$tbl getcells $row,0]
+    $tbl activate $row
+    set sel [subst $sel]
+    $tbl delete [$tbl childkeys $row]
+    set var [tabule $sel db]
+    $tbl insertchildlist $row end $var
+    set rows [$tbl childkeys $row]
+    foreach row $rows {
+    $tbl rowconfigure $row -bg lightyellow -fg black
+    if {[$tbl getcell $row,SEV]==1} {$tbl cellconfigure $row,SEV -bg green -fg white -text SEV}
+    if {[$tbl getcell $row,GES]==1} {$tbl cellconfigure $row,GES -bg orange4 -fg white -text GES}
+    if {[$tbl getcell $row,MUD]==1} {$tbl cellconfigure $row,MUD -bg chocolate -fg white -text MUD}
+    if {[$tbl getcell $row,INCO]==1.0} {$tbl cellconfigure $row,INCO -bg red -fg white -text TODO}
+    if {[$tbl getcell $row,INC]==1} {$tbl cellconfigure $row,INC -bg purple -fg white -text INC}
+}
+}
+
+.moraporcamp expandir {select ventas.id as idvta, fecha, clientes.zona as zona,ventas.comprado as comprado, saldo, round(saldo/ventas.comprado,2) , \
+gestion,case when (sev or subirseven) then 1 else 0 end as sev,incobrable, mudo,ventas.ultpago as ultpago,idvdor as vdor,calle,num,dni from ventas,clientes where clientes.id=ventas.idcliente and ventas.camp='$nodo' order by ventas.ultpago} db expandirmora
+
+Notar al final del largo select, que esta db, luego expandirmora que
+le indica al metodo expandir que use el proc expandirmora.
+
+#NOTA: lamentablemente es confuso que el metodo expandir se llame
+igual que el proc generico usado, lo cual da pie a confundir que son
+la misma cosa. Como cuando uno confunde que el objeto tbls generado es
+lo mismo que el tablelist que tiene dentro ese objeto.
+* Pivot expandidos
+el pivot expandido agrega una dimension mas de analisis o sea agrega
+una cuarta dimension. Esta el index o sea lo que se ve en las filas,
+las cols que generalmente muestran un desarrollo temporal, y los
+valores que estan dentro del calculado, y el tree muestra un
+desagregado que en algunos casos puede ser muy util para el analisis.
+P.e. el pivot cuotas futuras que agregara la cuarta dimension de
+campana al abrir la zona, mostrando que agrega cada campaNa al total
+de cuotas futuras, es un agregado importante de informacion
+dificilmente obtenida de otra forma.
+** en el expandir en vez de sel poner el command generador del pivot
+{[[pivot pcobrfv#auto -db db -seldata "select pagos.cobr as
+cobr,imp+rec as cobro,ventas.fecha as fv from pagos,ventas where
+ventas.id=pagos.idvta and strftime('%Y-%m',pagos.fecha)='$nodo'"
+-index {cobr} -col fv -value cobro -reversed 1 -order "cobr" -offset
+[.pivotfpfv.tbls  childindex $row]] getsel]}
+*** se lo pone entre llaves para que no cause problemas la variable nodo
+*** el resultado del command que devuelve un sel es lo que se procesa
+*** el expand es otro pivot!!!
+antes no le encontraba la vuelta pq queria desarmar el select del
+primer pivot y en realidad el expand es otro pivot separado, lo vi
+cuando hice otro pivot aparte y luego vi la forma de insertarlo como tree.
+*** hay que hacer offset de columnas
+es obvio que el primer pivot arranca desde la primera fila y a medida
+que bajamos cada pivot independiente se ira descuadrando, para lo cual
+tendriamos que agregar columnas en blanco adelante equivalentes a las
+filas que bajamos.
+primero hice en teoria en class pivot la posibilidad de agregar un
+offset que simplemente agrega columnas en blanco entre total y la
+primera columna, default cero. Y luego en la llamada de expandir para
+poder relacionar la fila del nodo con el offset no podia usar row pq
+da valores cambiantes o sea empieza quizas con fila 1, 2 y salta a
+fila 65. Entonces uso el metodo childindex que entrega el valor real
+de la fila. y eso lo pongo a offset.
+** posibles desarrollos futuros
+** 
+agregar una quinta dimension mediante la posibilidad de cambiar el
+campo del tree. p.e. si tenemos venta por mes, y podemos agregarle
+tree por zona o tree por vendedor supongamos. en vez de hacer dos
+pivots, hacemos uno solo con un swich a mano que cambie el valor que
+tomara para el proceso.
+** pivottree para pg pivotpg
+en vez de pivot es pivotpg
+en vez de expandir es expandirpg
+en vez de usar strftime usar to_char(campofecha,'YYYY-MM')
+los campos money castearlos a numeric pe. imp::numeric+rec::numeric as
+cobro
+
+* Documentacion BWidget Dialog 
+** creacion del dialogo
+
+#+BEGIN_SRC TCL
+
+    set dialogofechador [Dialog .dialogofechador -side bottom -title "Ingrese Fecha" -modal local]
+    .dialogofechador add -text OK -command "Dialog::enddialog .dialogofechador 0"
+    .dialogofechador add -text Cancel
+    .dialogofechador configure -cancel 1
+    set framedialogofechador [.dialogofechador getframe]
+    campofecha $framedialogofechador.cf -text Fecha -textvariable fechamiento
+    pack $framedialogofechador.cf -anchor w
+#+END_SRC 
+Lo creamos con Dialog, y con las opciones -side para los botones,
+-title, y en especial en mi caso -modal para que funcione el grab y
+eso
+
+luego apelamos al metodo add para agregar los botones, simplemente con
+opcion -text y opcionalmente -command
+se puede configurar cual seria el cancel.
+y existe el comando 
+Dialog::enddialog path value para terminar con un valor especifico
+
+Muy importante existe el metodo getframe como en NoteBook para obtener
+el frame para crear a nuestro gusto el cuerpo del dialog, donde yo
+puse sin ningun problema el campofecha.
+y lo packie
+O sea que podria haber hecho todo un top con este dialog
+sencillamente.
+** invocacion del dialogo
+
+#+BEGIN_SRC TCL
+
+proc fecharcuenta {} {
+    global  fechamiento dialogofechador framedialogofechador 
+    set rows [.fichas.tbls curselection]
+    lmap row $rows {.fichas.tbls cellconfigure $row,visitar -bg tan -fg black}
+    $dialogofechador draw $framedialogofechador.cf.e
+
+    db transaction {
+    lmap row $rows {
+        set idcliente [.fichas.tbls getcell $row,idcliente]
+        set upd "update clientes set pmovto='$fechamiento' where id=$idcliente"
+        db eval $upd
+}
+}
+.fechar invoke
+
+}
+#+END_SRC
+
+Aca lo mas importante a tener en cuenta es que 
+1.  las textvariables que definamos para usar son globales de ahi que 
+necesitemos hacer global fechamiento dentro del proc.
+2. el dialogo se invoca con el metodo draw
+o sea $dialogofechador draw focus (que aca lo hago focusar el
+campofecha)
+3. como el dialogo persiste y no se destruye es el mismo siempre o sea
+   no hay conflicto de nombres.
+
+** detalles aplicativos a este proc en particular
+como al irse el foco al dialogo se pierde el foco en tbls y se pierde
+la curselection, por eso hago una variable set rows guardando el
+curselection
+y ademas resalto con otro color momentaneamente los campos que estoy
+modificando para no estar tan perdido, podria muy facilmente
+resaltarlos post modificacion tambien pero ya me parecia muy
+colorinche.
+Luego es lo usual hago el update con el valor de fecha establecido en
+el dialogo.
+* Nuevo Fichas con BWidget main apto uso gral con toolbar
+** explorar uso de main y de toolbar en teoria
+CLOCK: [2018-12-07 vie 15:49]--[2018-12-07 vie 16:55] =>  1:06
+muy buen inicio anda muy bien el toolbar y el main.
+** explorar el usar el toolbar para dos tipos de buttonbox
+CLOCK: [2018-12-08 sáb 11:23]--[2018-12-08 sáb 12:22] =>  0:59
+mediante una seleccion con menu
+se agrego una funcionalidad aparte.
+pq en realidad los toolbar son espacios genericos como toplevel que
+son, entonces lo nomine aparte como tb1,tb2,tb3 y no como estaban
+antes tbcobr, tbzonas etc.
+pq son usados momentaneamente y seria mas correcto nominar como cobr o
+zonas al bboxcobr bboxzonas que se packea en el tb1 o el tb2 y luego
+cuando lo quiero usar para otra cosa lo que hago es unpackear lo que
+hay en el toolbar directamente con pack forget [pack slaves $tbx] y
+eso lo limpia.
+** sigo con el trabajo
+CLOCK: [2018-12-08 sáb 12:23]--[2018-12-08 sáb 13:29] =>  1:06
+una pequena demora con unas variables, es una lastima que bbox no
+entregue out the box una lista de los path de los buttons manejados,
+pero lo he resuelto yo 
+* Documentacion mainframe y conexos
+** mainframe declaracion
+ MainFrame .mainframe -width 1000 -height 800
+simplemente lo creamos con esta linea no hay mucha ciencia en eso
+** tema statusbar
+.mainframe showstatusbar status
+    set cobradormostrado [.mainframe addindicator -text {Cobr:} -fg
+    navy -bg orange ]
+con la primera sentencia indicamos que la barra de status servira para
+    poner labels (hay otros usos como progress bar etc)
+luego el metodo addindicator agrega un label que se va poniendo de
+    derecha a izquierda, y se le puede poner todos las opciones que
+    tiene un label, interesante pq se podria poner imagenes, fecha,
+    botones, etc. como una interface. 
+Ese comando devuelve el path del label que yo lo voy a necesitar para
+    luego configurar o reconfigurar el valor.
+(no probe usar textvariable)
+ por eso yo cree tres variables que hice globales
+    cobradormostrado,zonamostrada y modomostrado para que se muestren
+    esos valores.
+
+Luego en el lugar adecuado, o sea cuando se detona el evento que
+quiero significar en el status bar configuro el label para que muestre
+el valor simplemente
+$cobradormostrado configure -text "COBRADOR: $cobr"
+** tema toolbar
+ Creacion tan simple como
+
+set tbcobr  [.mainframe addtoolbar]
+
+luego a llenarlo con lo que queramos, en este caso lo llenare con
+botones, y como bwidget tiene un megawidget fabuloso que se llama
+ButtonBox que maneja un conjunto de botones, uso eso que es mas facil.
+
+set bboxcobr [ButtonBox $tbcobr.bbox1 -spacing 0 -padx 1 -pady 1]
+
+agrego los botones, en este caso dinamicamente desde una lista que
+obtengo y mapeo
+
+set listbboxcobr {} ;# lista con los path de los botones que contiene el ButtonBox que BWidget no la entrega
+    lmap cob $listacobradores {
+        set b [$bboxcobr add -text $cob -name $cob -anchor center -width 8 -relief raised -padx 1 -borderwidth 1]
+        $b configure -command "restaurabboxcobr;$b configure -bg orange -fg black;muestratbzona $cob"
+        lappend listbboxcobr $b
+    }
+    pack $bboxcobr -side left -anchor w
+
+luego packeo el buttonbox directamente pq lo cree como hijo del
+toolbar.
+
+la forma de agregar botones al buttonbox no podia ser mas simple>
+$bbox add -text mas opciones -command ... una masita
+todas las opciones de los botones
+
+Como no entrega el megawidget una lista de los paths que contiene lo
+hago 
+
+lappend listbboxcobr $b siendo $b el valor que entrega la creacion del
+boton, o sea igual que tk
+* Pasado de Fichas2 a namespace propio
+CLOCK: [2018-12-08 sáb 19:45]--[2018-12-08 sáb 20:22] =>  0:37
+basicamente se trata de los siguientes pasos
+** namespace eval Fichas
+donde lo unico que hice aca es establecer una variable
+los array se hacen en dos etapas primero la variable y despues de
+hacen.
+namespace eval Fichas {
+    variable arraymeses
+    array set arraymeses [list ENE 01 FEB 02 MAR 03 ABR 04 MAY 05 JUN 06 JUL 07 AGO 08 SET 09 OCT 10 NOV 11 DIC 12]
+}    
+** los proc se hacen como proc Fichas::nameproc 
+y las variables se declaran adentro como 
+variable x x
+yo las hice uno por renglon pero creo que se puede hacer en uno solo
+como global.
+
+proc Fichas::restaurabboxcobr {} {
+     variable listbboxcobr
+     lmap button $listbboxcobr {$button configure -bg #333333 -fg white}
+ }
+** ventajas
+todas las variables son locales al namespace.
+el problema se puede ver con algun proc que se ejecute en el espacio
+global de tablelist, o un bind, pero ahi tenemos el namespace code.
+* Documentacion de MsgDialog
+MessageDlg .x -message "Debe seleccionar un solo registro para Editar
+Datos" -type ok -icon error
+asi con una linea de codigo tenes un msgdialogo emergente modal y
+perfectamente funcional. Mucho mejor que un balloon que lo estaba
+usando para todo.
+* Fichas2 roadmap
+Nos quedaria un fichas reescrito con menos codigo mas preciso y mas
+rapido y con mejores prestaciones que el anterior, hecho en mucho
+menos tiempo, usando algo del codigo viejo.
+
+** lo hecho hasta ahora
+*** boton para seleccionar todo lo del dia 
+que era un embole y boton para imprimir
+*** indicacion en status bar de la zona impresa
+*** indicacion clara de la zonas impresas ayer
+*** indicacion de la cantidad de fichas disponibles para hoy
+*** vista gestion unificada para los tres tipos de gestion con tags
+o sea veo en una sola vista mudo/gestion/incobrables con tags bien
+diferenciados y desde una fecha de hoy un ano atras unicamente o sea
+no se mezcla el 2008 con hoy.
+*** mezcla de botones de alternancia como normal/gestion con botones de funcion
+como seleccionar imprimir 
+*** vista mas compacta de botones gracias al manejo de buttonbox
+*** alternancia del uso de los toolbar por menu
+y poder usar en una sola aplicacion todas los mismos proc para tener
+un solo uso de todo
+*** volver a la vista por cliente y salirse del capricho de ver por cuenta
+que me causaba errores conceptuales el ver dos veces un cliente en el
+tbls aca veo clientes, pierdo por lo que veo hasta ahora un solo dato
+relevante que es lo pagado en esta cuenta para comparar con lo
+adeudado y evaluar lo relevante de una subida (p.e. me debes 500 pero
+pagaste 1500 p.e. eso no lo tengo mas por ahora)
+*** agregue el tag NV+
+*** hice que el subirseven/novendermas sean toggies
+*** hice el que cambiarzona tenga un combobox itk2
+*** hice un editor con dialogo completo y link a log de cambiodireccion
+*** agregada la impresion con resumen
+*** quedo una impresion diferenciada por menucontextual que no genera recorrido
+*** el modal recorridos tambien se accede por toolbar3 y es muy rapido
+y tiene forma de borrar los recorridos no deseados.
+*** hice un atajo para imprimir como antes viendo el pdf
+con ctrl-1 al boton Imprimir por las dudas tenes problemas de
+impresora y no anda bien el sistema de impresion directa.
+** faltaria
+*** DONE alguna ayuda para que sepamos cuales son las zonas de ayer y las de hoy
+- State "DONE"       from "TODO"       [2018-12-09 dom 15:55]
+*** DONE vista antiguos
+- State "DONE"       from "TODO"       [2018-12-09 dom 16:10]
+*** DONE vista fechar
+- State "DONE"       from "TODO"       [2018-12-09 dom 19:42]
+**** DONE se puso en el toolbar camponum para idrec
+se puede agregar al toolbar un campo/camponum/entry etc.
+el problema que tuve que parecia no reconocer o no destroy y
+sobreagregaba los widget era que al poner 
+destroy [pack slaves $tb2]
+cuando era uno solo el slave del tb2 o sea un bbox todo bien pero al
+ser ya dos o sea el bbox y el camponum el comando destroy daba error y
+no se procesaba, entonces se generaba barra tras barra y se me hacia
+ancha la toolbar.
+y habia que poner 
+destroy {*}[pack slaves $tb2]
+El segundo tema relativo al idrec que ya lo habia advertido era que
+todos los listvariables son globales, entonces no iban a funcionar a
+nivel namespace.
+*** DONE funciones faltantes
+- State "DONE"       from "TODO"       [2018-12-10 lun 11:18]
+subirseven/nosubirseven/novendermas/
+**** DONE subirseven
+- State "DONE"       from "TODO"       [2018-12-10 lun 10:24]
+NO PERMITIR SUBIR SEVEN CON MAS DE CINCO ANOS
+pienso que en vez de no permitir marcar para subir, puedo dejar para
+el formulario que efectivamente transforma datos y sube efectivamente
+al seven el cribado y seleccion de quien subimos al seven.
+**** DONE cambio de zona
+- State "DONE"       from "TODO"       [2018-12-10 lun 11:19]
+con dialogo de bwidget y combo propio de itk2 o sea todo ok nada que
+ver con lo que rudimentariamente teniamos antes.
+*** DONE ver si puedo hacer mediante dialogo un editador de datos
+- State "DONE"       from "TODO"       [2018-12-10 lun 11:48]
+incluso para msgcobr/acla etc o sea que todo lo que se edite salvo la
+fecha sea hecho mediante dialogo, para que sea mas seguro.
+Se hizo editador, incluso recalcula o invoka boton fechar de acuerdo a
+la pantalla en que este fijandose en el statusbar.
+permitiria editar todos los campos, pq trabaja con un array, por el
+momento solo cargue un campo, pero es rutinario cargar todos los otros campos.
+*** DONE agregar campos faltantes y poner log de cambio de direccion
+- State "DONE"       from "TODO"       [2018-12-10 lun 16:40]
+*** DONE ver la forma de hacer todos los labels de campos y combos de igual tamano
+- State "DONE"       from "TODO"       [2018-12-10 lun 16:40]
+para mejor presentacion estilo gridplus
+podria ser un proc que obtuviera el path de los label de
+campo/campofecha/camponum/combo y pudiera configurarlo a un ancho fijo 
+de modo tal que dandole como entrada la lista de widget los acomode
+algo asi como
+igualdimension listwidget ancho
+obtengo path con un metodo que entrega el pathlabel que existira en
+cada una de esas clases
+y luego hago un path configure -width $ancho
+*** hacer mediante menu y dialogos las funciones que tenia en tabs el otro
+**** asignar zonas y ver el cuadro de zonas
+**** agregar cobradores y editar datos
+**** ver los subidos al seven 
+*** definir las vistas de year/mes
+*** imprimir planos desde dentro
+puede ser un bind ctrl-1 y tambien un boton que directamente imprima
+el plano linkeado a la zona, y/o si no lo encuentra que pida ubicarlo
+con un file chooser y lo guarde en una tabla de configuracion.
+Comenzado:
+faltaria afinar un poquito las cosas. no guardar el path sino el
+nombre del archivo, luego cambio el path y tengo que cargar todo de
+nuevo, y me travo dos veces la maquina totalmente y sospecho que fue
+eso.
+
+* Documentacion Dialogs en general
+** tener en cuenta las variables
+tanto en el namespace que define el dialog como en el proc que las va
+a usar.
+Tener en cuenta que no funciona el declararlas juntas
+variable v1 v2 v3
+sino que hay que hacerla una por renglon!!!
+** el -modal none requiere un mecanismo de cierre
+** el -modal local cierra solo y no es necesario destruir el dialogo
+** preferir los mecanismos explicitos y simples
+luego de renegar un monton pq queria hacer que el dialogo mostrar
+recorridos no fuera tan lento por tener que mostrar un numero
+arbitrario y grande registros (3000) que a veces quedara corto, quise
+poner una variable que funcionara automaticamente lo cual de entrada
+no funciono.
+No funciono el -default del camponum, 
+no funciono poner set var x antes de crear el camponum pq cuando la
+iba a usar ya la variable no existia
+Luego no funcionaba el bind del camponum, pq queria hacer que el
+cambiar el valor del camponum estuviera bindeado a un recalc del tbls.
+Y poner un button que hiciera el llamado a un proc llenartbls me llevo
+diez segundos literales y anduvo de una, entonces no hay que darle
+tanta vuelta, aparte queda explicito para el usuario, que haya un
+boton para generar el recalculo.
+Mas simpleza aun: en vez de manejarse con textvariable a traves de
+namespace que obliga a tener variables en global que no funcionan y se
+hace complejo, directamente no uso textvariable y leo lo que contiene
+el campo, si eso es lo que quiero, pedir una entrada del usuario y con
+esa entrada mostrar un tbls, o sea hago camponum get y listo.
+
+
+* proyectos aparte
+** DONE resumen de cuenta
+- State "DONE"       from "TODO"       [2018-12-13 jue 18:05]
+Un simple resumen de cuenta adosado a menucontextual en tbls ventas en
+el buscador (o sea facil de recordar y facil de disparar). Facil de
+leer y sencillo de usar, solo menciona el cliente, datos basicos de la
+venta, o sea fecha de venta numero de cuenta, plan cc e ic  y los
+pagos.
+Me pase muchos years sin tenerlo, aunque lo tenia en el viejo F13 y de
+vez en cuando se usaba.
+
+** editor general
+agregar al que esta en ventas, capacidad de deletion y trace, y
+posible guardado de consultas.
+** catalogo
+
+* impresion de cancelados
+** corregir
+*** DONE vdor poner vdor default
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
+*** DONE corregir la impresion que imprime todo el barrio y no lo seleccionado
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
+** hacer
+*** DONE pasar vdor a clientes y fecha de impresion
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:13]
+*** TODO trigger para tablalog 
+*** DONE opcion de borrar la impresion
+- State "DONE"       from "TODO"       [2019-01-04 vie 15:14]
+*** DONE tbls para ver las zonas impresas
+- State "DONE"       from "TODO"       [2019-01-04 vie 18:48]
+al final esta hecho con un pivot, no con un log, ni con un tbls pq en
+realidad, esto se trata de una impresion de fichas, y una asignacion,
+por lo tanto de nada vale tener  pienso un historial de impresiones,
+aunque se podria sacar de la misma tabla clientes un resumen, pero ahi
+en el pivot se ve por mes los barrios impresos y en que cantidad y
+yendo a esos barrios se ven cuales fichas se imprimieron y que dia y a
+que promotor.
+*** TODO tbls para ver las ventas mensuales por zona 
+zona x mes y mes x zona.
+*** DONE pivot de futuros cancelados
+- State "DONE"       from "TODO"       [2019-01-04 vie 18:50]
+genial aunque esta basado en el dato clientes.cuota, calcula las
+cuotas que se adeudan, y se pivotea frente a eso, permite ver muy
+graficamente las zonas que hay que ir haciendo primero.
+*** TODO un impresor igual pero de fichas que no esten canceladas sino proximas a vencer
+pq puede ser que en alguna zona se quiera ir mandando a las que no
+esten canceladas aun.
+** futuro
+*** ver de estudiar criterios de autorizacion mejores para emitir listado
+ahora uso uno amplio y general para eliminar toda casa en la cual hay
+una deuda, pero debe hacerse una inteligencia mas grande en esto.
+* TODO esquema pivot generico
+o sea disparador de pivot general donde se pueda escribir un
+selectdata y se pueda elegir el index, la columna y los demas datos en
+la formacion del pivot y luego ver el resultado.
+* TODO sistema gestion de llamados
+hay cosas que tendrian que quedar anotadas como llamados
+* TODO ver materialized view de postgres
+creo que con la rapidez con se realiza y se refresca puede ser una
+buena opcion para evitar querys complejos continuamente.
+creamos la view que queremos, y solo antes de usarla hacemos un
+refresh.
+en casos grandes pe. una union clientes,ventas con campocalculado y
+todo en menos de dos segundos.
+Jugando un poco con las posibilidades estoy creando querys realmente
+complejos de realizar. p.e.
+create materialized view cliven3 as select
+nombre,calle,num,barrio,zona,tel,acla,ventas.id,saldo,ic,cc,primera,ultpago,pmovto,(CURRENT_DATE -
+pmovto)/30::int as pv from clientes,ventas where
+clientes.id=ventas.idcliente;
+alli tenemos una instantanea de valores de fecha tales como up o pvto,
+que pueden ser refrescados al instante, y permiten cuadros de analisis
+muy fecundos y rapidos.
