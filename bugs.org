@@ -194,3 +194,28 @@ ver un historial de cambio de cada uno de esos campos pero lo
 importante esa ahi. 
  
 [[file:~/tclmobile/buscador.tcl::#proc%20mostrar%20{sql}%20{]]
+* TODO amplitud de fichas a imprimir :fichas:
+[2018-12-05 mié 09:43]
+que sea hasta hoy no mañana pq se imprime en el dia
+
+
+* TODO :buscador:
+[2018-12-06 jue 12:42]
+entrecomillar tambien num en variable callenum
+pq algunos num tienen el formato 28/29 que da error en el fts
+y tener en cuenta que si num es nulo creo que tambien da error
+
+
+* TODO marcar lo impreso :Idea:
+[2018-12-07 vie 08:42]
+a medida que imprimimos el recorrido  mandarlo directo a lpr y cambiar
+el color del boton cosa de no repetirse y no dudar de lo que ya
+mandamos a imprimir. y de paso tener un log con hora min seg de zona
+mandada a imprimir.
+para no imprimir dos veces.
+Igual cambiar los botones que no marquen lo cobrado ayer sino lo
+impreso ayer, cosa de ser mas seguro lo que tengo que imprimir hoy.
+quiza no cambiar el color sino poner un tilde, o algo que implique que
+ya se imprimio o ponerlo en color normal.
+o sea algo que clarifique.
+[[file:/media/hero/bora/orgblok/bugs.org::*fichas][fichas]]

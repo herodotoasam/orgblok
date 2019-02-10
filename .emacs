@@ -327,17 +327,17 @@
 
 
 (setq org-capture-templates
- '(("t" "Todo" entry (file "/media/veracrypt1/orgblok/tareas.org")
+ '(("t" "Todo" entry (file "/media/hero/bora/orgblok/tareas.org")
         "* TODO %?%^g\n%U\n%i\n")
-   ("j" "Journal" entry (file+olp+datetree "/media/veracrypt1/orgblok/jornal.org")
+   ("j" "Journal" entry (file+olp+datetree "/media/hero/bora/orgblok/jornal.org")
     "* %?%^g \n %i \n" :clock-in t :clock-resume t)
-   ("b" "Bugs" entry (file "/media/veracrypt1/orgblok/bugs.org")
+   ("b" "Bugs" entry (file "/media/hero/bora/orgblok/bugs.org")
     "* TODO %?%^g\n%U\n%i\n%a\n ")
-   ("m" "Manual" entry (file+headline "/media/veracrypt1/orgblok/teoria.org" "Refile")
+   ("m" "Manual" entry (file+headline "/media/hero/bora/orgblok/teoria.org" "Refile")
     "* %?%^g\n%U\n%i\n%a\n ")
-   ("d" "devoluciones" entry (file+headline "/media/veracrypt1/orgblok/devoluciones.org")
+   ("d" "devoluciones" entry (file+headline "/media/hero/bora/orgblok/devoluciones.org")
     "* %^{Cuenta} %^{fecha}p %^{prom}p %^{zona}p %^{dni}p %^{direccion}p %^{articulo}p %^{estado}p %^{cobrador}p %^{multa}p %^{totalparcial}p %^{excusa}p \n")
-   ("h" "Habit" entry (file "/media/veracrypt1/orgblok/habitos.org")
+   ("h" "Habit" entry (file "/media/hero/bora/orgblok/habitos.org")
     "* TODO %?\n%U\nSCHEDULED: %(format-time-string \"%<<%Y-%m-%d %a .+1d/3d>>\")\n:PROPERTIES:\n:STYLE: habit\n:END:\n"))
  )
 

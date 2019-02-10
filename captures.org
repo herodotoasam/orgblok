@@ -1,0 +1,15 @@
+* Tipos
+:PROPERTIES:
+:CREADO:   [2018-10-06 Sat 21:59]
+:END:
+
+ * agenda de programación
+Con clipboard de lo q quiera documentar dentro del firmato de begin de emacs
+Con link al archivo seria muy util mientras programas con tag nombre archivo
+ * el aprendizaje tmb puede tener una parte de clipboard q puede venir de una captura de eww y link tambien y un sistema de TODO para anki q sea inicio medio full o algo asi entonces no interfiere con los todo normales y se puede hacer un filtro por agenda de todos los los todo de ese archivo en cierto estado por ejemplo todos los inicios o todos los medios o todos los full e ir repasando y depende el resultado del repaso se va cambiando el estado del todo y funciona perfectamente como anki
+ * bugs recopilacion de bugs con tag para poner q sea el archivo y todo bug y fecha y luego pondremos fixed 
+ * en oficina anotar los dias de lluvia aunque quedara el evento igual el asueto.
+ ** un registro de depositos con fecha sucursal y demora con capture y horario
+ * ya en freakismo un org para pelis vistas con capture con titulo que puede venir de buscarla en eww y clipboardear alli el título y luego entrar la fecha y luego poner la sintesis
+
+

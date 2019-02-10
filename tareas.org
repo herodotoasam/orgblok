@@ -324,7 +324,6 @@ Total a partir de ahora estoy de vuelta.
 
 La idea es seguir programando pero para q sea mas facil las tareas reales.
 
-
 * DONE Evaluar atom orgmode
 CLOSED: [2018-11-19 Mon 21:26]
 :PROPERTIES:
@@ -357,6 +356,8 @@ Releer el manual de itcl itk y perfeccionar el itk2
 Chequear el programar en androwish via tkhellowish para ver si se puede usar el ambiente de desarrollo de android
 
 
+<<<<<<< HEAD
+
 * Packer :programacion:IDEA:
 :PROPERTIES:
 :CREADO:   [2018-11-21 Wed 22:20]
@@ -380,7 +381,6 @@ Costo.....25%
 Cobrad...13%
 Reparto....3%
 Neto.........68% 32% real
-
 
 * Chequear
 :PROPERTIES:
@@ -408,7 +408,6 @@ Falta sistema pide venta incluso con clausula de tiempo p.e. cuando cancele. O a
 Impresion de resumen de cuenta
 Cuentas canceladas
 
-
 * Recibos
 :PROPERTIES:
 :CREADO:   [2018-11-30 Fri 22:27]
@@ -416,8 +415,6 @@ Cuentas canceladas
 
 Fecha cobr lote
 Cuenta combo cta nombre calle num de todas las cuentas del cobr
-
-
 
 * Sistema seven
 :PROPERTIES:
@@ -433,7 +430,6 @@ Y pedidos
 idem recorrer el tcl viejo
 Luego queda refactorización y documentar.
 Y borrar las tablas y vistas que no uso.
-
 
 * Programa
 :PROPERTIES:
@@ -462,5 +458,150 @@ Historial de precios
 Historial de costos
 facil edicion de precios
 
+
+
+=======
+
+* TODO ventas :programacion:
+
+[2018-12-04 mar 17:32]
+ver
+>>>>>>> branch 'master' of https://gitlab.com/heroasam/orgblok.git
+
+* Contingentes
+:PROPERTIES:
+:CREADO:   [2018-12-11 Tue 20:53]
+:END:
+
+Sistema parasimpático funcionando normal
+Las presiones parecen mas grandes cuando uno esta fuera de la accion
+
+* Editador de ventas
+:PROPERTIES:
+:CREADO:   [2018-12-13 Thu 11:23]
+:END:
+
+Ponerlo en otros lados y mejorarlo
+Hacerle borrador
+Y ponerle trace
+
+* Hacer resumen cuenta ctas viejas
+:PROPERTIES:
+:CREADO:   [2018-12-13 Thu 11:24]
+:END:
+
+* Ideas
+:PROPERTIES:
+:CREADO:   [2018-12-16 Sun 01:09]
+:END:
+
+arreglos fondo bloating pintar máquina red
+Captar promocobrador cortinas mknizona sin reparto sin zona fija
+disp oficina hasta 17hs
+Futuro gte cuentas gestione 8 minicobradores y una zona de 500lucas gane 30
+Meta vender 1000 cortinas monoarticulos ir a todos los barrios
+Volante con wapp e instagram encargada de contenido digital
+
+
+
+* Bridge
+:PROPERTIES:
+:CREADO:   [2018-12-19 Wed 17:41]
+:END:
+
+No generar csv y leer sino conectar un tcl a sqlite y a postgres y pasar los datos de una a otra
+
+
+* Catalogo
+:PROPERTIES:
+:CREADO:   [2018-12-19 Wed 17:43]
+:END:
+
+Tabla
+Tabla colname type descripciones
+o sea catalogo y documento en un tbls
+
+
+* Todo
+:PROPERTIES:
+:CREADO:   [2018-12-31 Mon 19:51]
+:END:
+
+1 ver kate para para programar
+2 instalar nts en dpto
+3 buscar verde
+4 programar impresion de listado de ventas
+5 triguer clientes.pagado
+6 manejar users via postgres dialog log user pass y con eso armar el pgconect y agregar campos logtimestamp user en todas las tablas
+7 hacer pivot anual ventas crregido por inflacion
+
+* Idea
+:PROPERTIES:
+:CREADO:   [2019-01-04 Fri 00:43]
+:END:
+
+No numerar correlativamente las ventas
+Sino hacerlo como cliente01 etc y hacer series repetidas de recibos 
+
+* Pivot con tree
+:PROPERTIES:
+:CREADO:   [2019-01-12 Sat 08:06]
+:END:
+
+En llenar poner llenartree
+Y rn el expandir generar el pívot 4ta dimension
+
+* Funcion deflactadora
+:PROPERTIES:
+:CREADO:   [2019-01-12 Sat 08:08]
+:END:
+
+Cargar una tabla la serie desde el csv y hacer la funcion y obtener los graficos desde dentro
+
+
+
+* Create materializaded view
+:PROPERTIES:
+:CREADO:   [2019-01-12 Sat 23:59]
+:END:
+
+* CREATE FUNCTION merge_fields(t_row table1) RETURNS text AS $$ DECLARE     t2_row table2%ROWTYPE; BEGIN     SELECT * INTO t2_row FROM table2 WHERE ... ;     RETURN t_row.f1 || t2_row.f3 || t_row.f5 || t2_row.f7; END; $$ LANGUAGE plpgsql;  SELECT merge_fields(t.*) FROM table1 t WHERE ... ;
+:PROPERTIES:
+:CREADO:   [2019-01-20 Sun 08:45]
+:END:
+
+* The result of a SQL command yielding a single row (possibly of multiple columns) can be assigned to a record variable, row-type variable, or list of scalar variables. This is done by writing the base SQL command and adding an INTO clause. For example,  SELECT select_expressions INTO [STRICT] target FROM ...;
+:PROPERTIES:
+:CREADO:   [2019-01-20 Sun 08:54]
+:END:
+
+* 8th November 2018: PostgreSQL 11.1, 10.6, 9.6.11, 9.5.15, 9.4.20, and 9.3.25 Released! Documentation → PostgreSQL devel (2019-01-20 08:17:03) Supported Versions: Current (11) / 10 / 9.6 / 9.5 / 9.4 Development Versions: devel Unsupported versions: 9.3 / 9.2 / 9.1 / 9.0 / 8.4 / 8.3 / 8.2 / 8.1 / 8.0 / 7.4 / 7.3 / 7.2  Search the documentation for...  42.6. Control Structures Prev 	Up	Chapter 42. PL/pgSQL - SQL Procedural Language	Home	 Next 42.6. Control Structures 42.6.1. Returning From a Function 42.6.2. Returning From a Procedure 42.6.3. Calling a Procedure 42.6.4. Conditionals 42.6.5. Simple Loops 42.6.6. Looping Through Query Results 42.6.7. Looping Through Arrays 42.6.8. Trapping Errors 42.6.9. Obtaining Execution Location Information Control structures are probably the most useful (and important) part of PL/pgSQL. With PL/pgSQL's control structures, you can manipulate PostgreSQL data in a very flexible and powerful way.  42.6.1. Returning From a Function There are two commands available that allow you to return data from a function: RETURN and RETURN NEXT.  42.6.1.1. RETURN RETURN expression; RETURN with an expression terminates the function and returns the value of expression to the caller. This form is used for PL/pgSQL functions that do not return a set.  In a function that returns a scalar type, the expression's result will automatically be cast into the function's return type as described for assignments. But to return a composite (row) value, you must write an expression delivering exactly the requested column set. This may require use of explicit casting.  If you declared the function with output parameters, write just RETURN with no expression. The current values of the output parameter variables will be returned.  If you declared the function to return void, a RETURN statement can be used to exit the function early; but do not write an expression following RETURN.  The return value of a function cannot be left undefined. If control reaches the end of the top-level block of the function without hitting a RETURN statement, a run-time error will occur. This restriction does not apply to functions with output parameters and functions returning void, however. In those cases a RETURN statement is automatically executed if the top-level block finishes.  Some examples:  -- functions returning a scalar type RETURN 1 + 2; RETURN scalar_var;  -- functions returning a composite type RETURN composite_type_var; RETURN (1, 2, 'three'::text);  -- must cast columns to correct types 42.6.1.2. RETURN NEXT And RETURN QUERY  RETURN NEXT expression; RETURN QUERY query; RETURN QUERY EXECUTE command-string [ USING expression [, ... ] ]; When a PL/pgSQL function is declared to return SETOF sometype, the procedure to follow is slightly different. In that case, the individual items to return are specified by a sequence of RETURN NEXT or RETURN QUERY commands, and then a final RETURN command with no argument is used to indicate that the function has finished executing. RETURN NEXT can be used with both scalar and composite data types; with a composite result type, an entire “table” of results will be returned. RETURN QUERY appends the results of executing a query to the function's result set. RETURN NEXT and RETURN QUERY can be freely intermixed in a single set-returning function, in which case their results will be concatenated.  RETURN NEXT and RETURN QUERY do not actually return from the function — they simply append zero or more rows to the function's result set. Execution then continues with the next statement in the PL/pgSQL function. As successive RETURN NEXT or RETURN QUERY commands are executed, the result set is built up. A final RETURN, which should have no argument, causes control to exit the function (or you can just let control reach the end of the function).  RETURN QUERY has a variant RETURN QUERY EXECUTE, which specifies the query to be executed dynamically. Parameter expressions can be inserted into the computed query string via USING, in just the same way as in the EXECUTE command.  If you declared the function with output parameters, write just RETURN NEXT with no expression. On each execution, the current values of the output parameter variable(s) will be saved for eventual return as a row of the result. Note that you must declare the function as returning SETOF record when there are multiple output parameters, or SETOF sometype when there is just one output parameter of type sometype, in order to create a set-returning function with output parameters.  Here is an example of a function using RETURN NEXT:  CREATE TABLE foo (fooid INT, foosubid INT, fooname TEXT); INSERT INTO foo VALUES (1, 2, 'three'); INSERT INTO foo VALUES (4, 5, 'six');  CREATE OR REPLACE FUNCTION get_all_foo() RETURNS SETOF foo AS $BODY$ DECLARE     r foo%rowtype; BEGIN     FOR r IN         SELECT * FROM foo WHERE fooid > 0     LOOP         -- can do some processing here         RETURN NEXT r; -- return current row of SELECT     END LOOP;     RETURN; END $BODY$ LANGUAGE plpgsql;  SELECT * FROM get_all_foo();
+:PROPERTIES:
+:CREADO:   [2019-01-20 Sun 09:05]
+:END:
+
+* FOR i IN 1..10 LOOP     -- i will take on the values 1,2,3,4,5,6,7,8,9,10 within the loop END LOOP;  FOR i IN REVERSE 10..1 LOOP     -- i will take on the values 10,9,8,7,6,5,4,3,2,1 within the loop END LOOP;  FOR i IN REVERSE 10..1 BY 2 LOOP     -- i will take on the values 10,8,6,4,2 within the loop END LOOP;
+:PROPERTIES:
+:CREADO:   [2019-01-20 Sun 09:15]
+:END:
+
+* CREATE PROCEDURE transaction_test2() LANGUAGE plpgsql AS $$ DECLARE     r RECORD; BEGIN     FOR r IN SELECT * FROM test2 ORDER BY x LOOP         INSERT INTO test1 (a) VALUES (r.x);         COMMIT;     END LOOP; END; $$;  CALL transaction_test2();
+:PROPERTIES:
+:CREADO:   [2019-01-20 Sun 11:56]
+:END:
+
+Para generar cuotas de todas las ventas
+
+* Dentista
+:PROPERTIES:
+:CREADO:   [2019-02-02 Sat 12:16]
+:END:
+
+Diferencia....  3000
+Perno....   ..... 2500
+Corona.......... 7800
+Total 13300
+2/2... 5300
+Saldo 8000
 
 

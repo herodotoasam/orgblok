@@ -1,0 +1,55 @@
+* Busqueda ppr campos
+:PROPERTIES:
+:CREADO:   [2018-10-18 Thu 21:46]
+:END:
+
+Se podría hacer un campo de búsqueda por cada elemento clave por ejemplo la mayoría de las búsquedas se hacen por número de cuenta por lo tanto ese debería de ser el primer campo esa sería una búsqueda fija con un campo fijado a dígito de cinco cifras luego vendría una búsqueda por dni también con ciertas limitaciones para dni y luego vendría una búsqueda por recibo también con sus limitaciones luego vendría una búsqueda por por cobrador salvo que la búsqueda por cobrador la pongamos en en un tab aparte en la que pongamos distintas condiciones Como por ejemplo limitaciones de fecha una búsqueda de telefono todas estas búsquedas serían más accesibles mediante una tecla de acceso rápido por ejemplo MC para buscar cuenta Mr para buscar recibo m t para Buscar teléfono y todas las búsquedas que no sean exactas Como por ejemplo la del teléfono serían parsia das con signo de porcentaje entonces uno pondría una parte del número de teléfono y no daría todo lo que tengamos con esa parte
+
+
+* Buscador fts5
+:PROPERTIES:
+:CREADO:   [2018-10-18 Thu 21:54]
+:END:
+
+El buscador fst 5 estaría en una sola línea y nos entregaría los resultados y tendríamos botones que a su vez filtraran los resultados por ejemplo cancelados no compraron nunca Sólo morosos o alguna cosa relevante así
+
+* Tbls cuotas
+:PROPERTIES:
+:CREADO:   [2018-10-23 Tue 11:34]
+:END:
+
+Puede ser las q tengan saldo no nulo p.e. o las de los que tengan deuda mauor a cero
+
+Luego aplicarle el pagado a dichas cuentas con los recibos pagados
+
+Bajando a caso x caso y a pedido se puede generar con la tablita cuotas y el aplique de los recibos el dato de cuantos dias demoro en pagar cada cuota.
+
+Se podria hacer con una estructura de datos pero como no estamos en python mejor usar una temp table que puede tener el nombre de la idvta t67545
+
+O sea primero 
+Borro la tabla si existe
+Creo la tabla
+La lleno segun los valores de la venta
+Cargo los pagos segun la lista de recibos de la cuenta
+Esa tabla con sus columnas calculadas sera la base del tbs a mostrar como cta del cliente
+Xomo es temp al cerrar coneccion debe desaparecer la tabla
+
+Ahi graficare como pago y que atraso tiene ahora
+
+
+
+ 
+
+* Tbls cuotas en gral
+:PROPERTIES:
+:CREADO:   [2018-10-23 Tue 11:36]
+:END:
+
+Un segundo demora la generacion de cuotas desde 2013 no optimizado.
+Veremos todas optimizadas
+Lo q no hace el proc es usar rbo por rbo
+1. Generar tbl cuotas vacia
+2. Llenar los pagos
+Capaz no sea gravoso en tiempo
+
+
