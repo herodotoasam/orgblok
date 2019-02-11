@@ -470,7 +470,8 @@ chequear cuenta 71291
 * TODO [2019-02-05 mar] hacer que el mensaje para wapp se genere tambien en buscador
 * TODO [2019-02-06 mié] mejoras en pasador ventas
 ** un tbls de calle-num en direccion para chequear direccion
-* TODO [2019-02-06 mié] chequear y poner (o sacar) LN desde recibos
+* DONE [2019-02-06 mié] chequear y poner (o sacar) LN desde recibos
+- State "DONE"       from "TODO"       [2019-02-11 lun 14:44]
 * TODO [2019-02-06 mié] crear un sistema de registro de las autorizaciones 
 ** en buscador facil puede ser un boton
 registra dia/hora automatica y maquina que la proceso
