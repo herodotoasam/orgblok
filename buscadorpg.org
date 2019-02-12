@@ -21,6 +21,7 @@ p.e to_char en vez de strftime
 las columnas son elementos de ese array
 pe. -array b  $b(id)
 ** insert de fechas deben hacerse con '$fecha'
+** tambien los campos tienen el valor como variable $fecha
 * plpgsql
 ** declare
 DECLARE
@@ -137,4 +138,33 @@ modelo de tablas y relaciones para levantar con pgmodeler
 tablas/campos --->pgmodeler+script de pasado
 revision de programas y transformacion para funcionar en ambos
 sentidos.
+* bugs
+** tabla cuotas desaparecia
+y era que al abrir el buscador se llamaba a generarcuotas y ahi se
+creaba de nuevo la tabla cuotas borrandome la que tenia.
+* traduccion
+** se recomienda en select dificil probarlo en psql
+** printf -->format
+printf('%d cuo',cc) pasa a format('%s cuo',cc)
 
+directamente printf no va y va format que tiene un set mas reducido de
+caracteres validos.
+https://www.postgresql.org/docs/9.3/functions-string.html#FUNCTIONS-STRING-FORMAT
+** cur no va mas 
+directamente se usa la columna money como viene
+** los select son case insensitive
+p.e. poner ... d+f as DEBE y luego que tablelist genere dependencia de
+una columna DEBE con mayusculas dara error pq postgres producira una
+columna debe en minusculas.
+** pg_select $db select array { proc donde se usa $array(campo)}
+** corregir formato ad-hoc para fecha en logbuscador
+-format "%Y-%m-%d-%H:%M:%S" solo le saque el guion entre fecha y hora.
+** crear campo autonumerico en tablas que no referencian a otras ej logbuscador
+cuando un id es usado para una relacion aparentemente crea una
+sequencia en forma automatica, pero en caso de logbuscador no.
+Entonces creo la sequencia, luego la aplico al campo id, que tiene que
+ser integer. (Solo me dio error el validate pq la sequencia fue creada
+despues de la tabla pero se arreglo apretando fix)
+Luego el campo id con sequencia es autonumerico.
+Y se puede hacer un insert sin expresar el valor del id y que no de un
+error por ser id null.
