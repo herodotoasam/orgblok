@@ -483,3 +483,6 @@ infoseven,
 * TODO [2019-02-12 mar] editador de detvta
 continuar con la labor de editar ventas 
 * TODO [2019-02-12 mar] crear una consulta para saber lo cobrado en planes de pagos
+* TODO [2019-02-13 mié] tabla que registre las visitas de promocion
+pq el registro en clientes es estatico y luego al hacer revisitas en
+especial con vendedor diferente se pierde la estadistica. 
