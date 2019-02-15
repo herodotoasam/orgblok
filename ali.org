@@ -210,3 +210,20 @@ permita ese mediodia relajante.
 Yo propongo ir temprano tipo 8.30 hasta las 12/12.30 y luego volver
 tipo 15.30 hasta la hora que quiera. Eso tambien limitara las horas de
 convivencia con el Fede y facilitara las cosas en ese sentido.
+** [2019-02-15 vie]
+desde ayer a las 18.30 entramos en emergencia, felizmente ya habia
+salido de la fase aguda de la migraña y solo quedaba resto, lo que
+paso fue que la Cami habia ido al hp por sintomas de apendicitis,
+luego se fue al hp central, ya tipo 21hs la Romi se viene para el dpto
+y con la Cami con posibilidades de ser operada esa misma noche, me voy
+al hp, y permanezco alli hasta las 0.30hs sin sintomas, sin hambre y
+sin problemas. Luego pude dormir bien pero poco, me levanto y la
+mañana cursa con estresores fuertes, ya que el delay de salida, de una
+hora y media sin evacuacion suficiente, y el transito. 
+Me tomo un B8 a las 9hs para ir previniendo un dia que sera dificil. 
+** emacs -nw equis.org
+esta nueva forma de acceder a emacs con consola, y buscando el archivo
+a editar por linea de comando es mas agil que buscarlo internamente, y
+a la vez mas rapido, y tiene la ventaja que cuando salis podes hacer
+el comit particular ahi mismo. Son pocas las cosas que no podes hacer
+en modo texto, y las que vas necesitando las tenes que ir aprendiendo.
