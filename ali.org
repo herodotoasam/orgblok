@@ -239,9 +239,19 @@ Como dice el marco de este tree esto es una transicion, transicion de
 recupero de mi espacio, y estabamos entrando en lo mas algido del
 asunto, en el cambio en si, con una migraña atomica a diario, y sobre
 esa situacion cae como una bomba esta situacion.
+La tarde en el hp curso bastante bien sin rebote, solo con un segundo
+tomado en el momento justo pero sin consecuencias tipicas del segundo
+migral, o sea la migraña catastrofica.
+luego llego al marques y comemos con la romi un lomito y duermo
+bastante mal, pero sin dolor y el sabado comienzo otro dia de hp.
 ** emacs -nw equis.org
 esta nueva forma de acceder a emacs con consola, y buscando el archivo
 a editar por linea de comando es mas agil que buscarlo internamente, y
 a la vez mas rapido, y tiene la ventaja que cuando salis podes hacer
 el comit particular ahi mismo. Son pocas las cosas que no podes hacer
 en modo texto, y las que vas necesitando las tenes que ir aprendiendo.
+** [2019-03-16 sáb]
+como pintaba a ser otro dia de hp, me tomo otro 8mg de preventivo al
+comenzar la mañana y al rato un migral y todo fue muy bien, tanto en
+el manejo por circunvalacion, como con la suerte del alta nos vinimos,
+el sabado 
