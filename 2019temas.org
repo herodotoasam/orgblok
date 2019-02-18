@@ -1,0 +1,72 @@
+* escribir por temas de nuevo pero sobre una base temporal
+por eso que le llamo 2019temas o sea cada etapa tiene su logica y
+puede que uno cuando relee algo quiera o venga bien conocer la fecha
+pero no hace falta que tenga el formato jounal. Es mas el formato
+capture-jornal es comodo pero tiene en cierta forma  el aditamento de
+que lo escrito se te va de las manos.
+Y con el atajo [2019-02-10 dom] ctrl { pongo la fecha al toque. 
+releyendo .dek es que me vino a la mente volver con este formato.
+* apuntes de las relecturas
+** llama la atencion el problema de no gastar en comida
+no puedo creer ahora que existiera ese problema p.e. el 2015 en un
+contexto en el cual estaba vendiendo 200k (600k de los de ahora y
+estaba solo y tenia alta rentabilidad) o aun dentro de la sociedad
+cuando cualquier opcion alimentaria que puede ser de costosa?. Ese
+efecto pobreza permanente referido a la alimentacion propia que
+llevaba a evitar los gastos y no comprar lo suficiente. O sufrir si el
+agua habia aumentado 5 pesos la botella. Nunca me asigne un
+presupuesto fijo de comida que fuera acorde.
+Como todo problema lejano cuesta entenderlo, salvo cuando uno se
+sumerje en los escritos de otros tiempos. 
+** idem llama la atencion las grandes dificultades para limpiar
+esta bien que no tenia el desague pero no veo que taaaan dificil pueda
+ser lavar unos platos. Como parecia impensable encerar o limpiar los
+vidrios y luego se hizo todo eso cuando fuimos alli a trabajar. 
+Parece increible que no haya hecho desobstruir el desague por un año
+entero de no uso total y dos años enteros de problema.
+* dpto jujuy nueva etapa 2019 objetivos
+objetivos escritos el [2019-02-10 dom] para comparar de aca a seis
+meses y ver que se hizo y que no se hizo
+** alimentario
+es el primer objetivo el mas grande el principal el mas necesario.
+*** licuados desarrollados
+no caer en la rutina sino desarrollar sabores nuevos, y cuidar los ingredientes
+*** cereales base
+arroz yamani / mijo/ quinoa/ amaranto
+*** ensaladitas
+ensaladitas diarias minimas para aliñar e ir cambiando la rutina con variedad
+*** legumbre
+*** pescado
+*** agua / limon / jenjibre
+*** ampliar ingredientes
+agregar semillas / y variedades sin caer a los procesados.
+** limpieza a fondo del dpto 
+ahora se que encerar es facil y limpiar los vidrios tambien, y
+mantener la cocina.
+** no-ejercicio
+no quiero hacer planes de ejercicios, reconozco que no voy a hacer
+nada, pienso que lo mejor seria caminar lo maximo posible, al menos
+para buscar alimentos variados.
+** limitacion al trabajo en el dpto 
+no digo que no trabaje pero en el caso de hacerlo tiene que ser
+limitado con horario, pq ya vengo de una rutina de trabajo en oficina
+de ese tipo y por lo tanto no da mucho caer en una situacion de
+meterse en un sistema de programacion tal que te impida el hacer otras
+cosas como mi objetivo primero que es cambiar alimentacion.
+La idea (apuesta) mia es la siguiente: que cambiando la alimentacion
+conseguire mayor energia y concentracion y eso incentivara otras
+cosas, p.e. puede hacer que limpiar y mantener la casa sea facil y eso
+a su vez llevara a una vida mas agradable y quizas te lleve a querer
+salir mas y moverse mas, y ahi quizas termines haciendo algo de
+ejercicio. En cambio si uno se aliena totalmente en algo como la
+programacion no tiene ni tiempo ni ganas de comer, y termina comiendo
+mierda, y a su vez eso lo debilita y termina no pudiendo ni siquiera
+hacer las cosas basicas.
+*** el trabajo tendria que ser en la oficina y durante la jornada laboral
+no debo sentirme obligado a trabajar fuera de la jornada laboral.
+*** cuantificar la transicion a postgres y programarla
+el objetivo de maxima es cambiar sqlite por postgres y para hacerlo
+hay que corregir un poco las tablas, ir escribiendo el script de
+transformacion, ir modelando la database, y adaptando todos los
+tcls. Eso se puede hacer una hora por dia en la oficina. No hay fecha
+para ese objetivo.
