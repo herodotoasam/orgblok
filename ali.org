@@ -305,4 +305,12 @@ Es libre de humo y eso es muy importante, extremadamente importante.
 Solo por citar las cosas que me molestaron aca. 
 Tambien me libero de atender la puerta y de la vista lateral de la
 gente.
+** distintos archivos org propuestos
+*** tcl-teory
+para ir volcando todo lo que vaya aprendiendo del libro
+*** tcl-practica
+para ir poniendo lo que vamos aplicando de lo que vamos aprendiendo.
+idem para toda materia que vayamos haciendo.
+*** migra
+para concentrar el tratamiento cualquiera sea a partir de ahora
 
