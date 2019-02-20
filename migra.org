@@ -1,8 +1,8 @@
-| [2019-02-18 lun] | 1M-12hs | i600-17hs |         |
-| [2019-02-19 mar] | 1M-03hs | i600-12hs | 1M-23hs |
-| [2019-02-20 mié] |         |           |         |
-|                  |         |           |         |
-|                  |         |           |         |
+| [2019-02-18 lun] | 1M-12hs   | i600-17hs |         |
+| [2019-02-19 mar] | 1M-03hs   | i600-12hs | 1M-23hs |
+| [2019-02-20 mié] | i600-15hs | M-15.45hs |         |
+|                  |           |           |         |
+|                  |           |           |         |
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
 real, y luego me doy cuenta que al rato la molestia sube, pero lo
@@ -56,4 +56,9 @@ boletas, maso.
 Me mido la tension y me da 12/6 o sea si baja.
 segunda medida ya cinco minutos despues de estar sentado: 
 12.3/ 6.8 y 98 ppm. 
-
+Voy al neurologo y tengo que esperar dos horas que me atienda. Ya me
+habia mejorado bastante el sintoma de baja tension, y tenia una
+jaqueca creciente pero no era todavia amenzante. 
+Luego almuerzo en el hp bien, en un ambiente agradable y al final del
+almuerzo tomo un ibu, y al llegar aca me va creciendo la jaqueca y no
+lo pienso mas y me tomo el migral para abortar cualquier problema.
