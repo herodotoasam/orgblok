@@ -1,8 +1,8 @@
-| [2019-02-18 lun] | 1M-12hs   | i600-17hs |         |
-| [2019-02-19 mar] | 1M-03hs   | i600-12hs | 1M-23hs |
-| [2019-02-20 mié] | i600-15hs | M-15.45hs |         |
-|                  |           |           |         |
-|                  |           |           |         |
+| [2019-02-18 lun] | 1M-12hs   | i600-17hs |               |
+| [2019-02-19 mar] | 1M-03hs   | i600-12hs | 1M-23hs       |
+| [2019-02-20 mié] | i600-15hs | M-15.45hs | C10mg-16.30hs |
+| [2019-02-20 mié] |           |           |               |
+|                  |           |           |               |
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
 real, y luego me doy cuenta que al rato la molestia sube, pero lo
@@ -62,3 +62,10 @@ jaqueca creciente pero no era todavia amenzante.
 Luego almuerzo en el hp bien, en un ambiente agradable y al final del
 almuerzo tomo un ibu, y al llegar aca me va creciendo la jaqueca y no
 lo pienso mas y me tomo el migral para abortar cualquier problema.
+Luego de 45 minutos de migral solamente se agrava la migraña, esta
+bien que la situacion hace que no pueda salirme de la situacion y me
+tomo un C10mg y felizmente el fede me compra lo que me hace falta de
+viveres minimos para sobrevivir y ya daremos por terminada la jornada
+y me podre acostar.
+Creo que faltan solo dos dias para finalizar esta tortura. Pero creo
+que la pauta que me dio el doc puede aliviar el status migrañoso.
