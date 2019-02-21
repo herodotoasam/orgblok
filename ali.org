@@ -411,9 +411,20 @@ palabra justa del dentista a esta hora estaria complicado por ese
 tema.
 *** hoy surgieron dos ideas impresionantes para el negocio
 **** que pongamos un grupo de promocion con Fabian
-y que el siga ganando el 4.5% y nosotros arreglamos a los chicos. 
+y que el siga ganando el 4.5% y nosotros arreglamos a los chicos.
+la idea surge como consecuencia inmediata de pensar que ya se terminan
+la vuelta y ambos dependen unica y exclusivamente de los datos. Y
+antes que la pelea por los datos se haga imposible, y baje la venta,
+tenemos que ampliar, hacer mas barrios. y no depender de los actuales unicamente. 
 **** que hagamos un centro de verificacion con ih
 para que no necesitemos que Fabian se autorice en calle y a la vez
 podamos centralizar alli toda la autorizacion y de paso hacerlo mas
 profesional y no recargarnos nosotros aca que necesitamos llegar a los
 2M de facturacion y los 2M de cobranza. 
+La idea nace pq primero pienso en una miniaplicacion para que fabian
+se pueda autorizar solo en calle y luego pienso que no va a poder como
+no podriamos nosotros, es muy dificil.
+Yo hice auto-autorizacion pero sin seven, o sea una sola, no se pueden
+las dos autorizaciones juntas. para eso hay que estar con maquina.
+Y surge la idea de ih pq ella necesita trabajar y es la unica
+disponible para hacerlo en forma de teletrabajo.
