@@ -206,6 +206,12 @@ lo que hay que ver si el tunel se debe hacer en cada sesion.
 Alt-space (Ctrl-F2)  luego de ubicarse en la rama poner nuevo elemento
 y poner el elemento.
 Luego Guardar.
+** agregar alias a bashrc
+comit='git commit -a -m "asus" && git push && git status'
+cd..='cd ..'
+exit='q'
+&& asegura que el segundo comando se ejecute solo si el primer comando
+es exitoso.
 * ATAJOS A APRENDER
 ** control-esc show system activity
 mas rapido y al acceso que ksysguard
