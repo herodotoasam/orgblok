@@ -1,10 +1,12 @@
-| [2019-02-18 lun] | 1M-12hs   | i600-17hs |               |
-| [2019-02-19 mar] | 1M-03hs   | i600-12hs | 1M-23hs       |
-| [2019-02-20 mié] | i600-15hs | M-15.45hs | C10mg-16.30hs |
-| [2019-02-21 jue] | C20m-8hs  |           |               |
-| [2019-02-22 vie] | C20m-8hs  |           |               |
-| [2019-02-23 sáb] | C20m-8hs  | Nx-18hs   | Nx-22.30hs    |
-| [2019-02-24 dom] | C20m-8hs  |           |               |
+| [2019-02-18 lun] | 1M-12hs   | i600-17hs  |               |
+| [2019-02-19 mar] | 1M-03hs   | i600-12hs  | 1M-23hs       |
+| [2019-02-20 mié] | i600-15hs | M-15.45hs  | C10mg-16.30hs |
+| [2019-02-21 jue] | C20m-8hs  |            |               |
+| [2019-02-22 vie] | C20m-8hs  |            |               |
+| [2019-02-23 sáb] | C20m-8hs  | Nx-18hs    | Nx-22.30hs    |
+| [2019-02-24 dom] | C20m-8hs  | Nx-22.30hs | M-00hs        |
+| [2019-02-25 lun] | C20m-8hs  |            |               |
+|                  |           |            |               |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -163,7 +165,7 @@ Asimismo el viernes increiblemente siendo el segundo dia de WD y
 siendo que toco por suerte asi un dia de mierda climatologicamente y
 por compromisos no tuve ninguna molestia ni tuve necesidad de tomar
 nada.
-* [2019-02-23 sáb]
+* [2019-02-23 sáb] N6
 el sabado luego de venirme me dedico a comprar las cosas para el
 licuado y verduleria y arreglar pileta.
 Ese fue el factor principal que necesitaba hacer sino quizas me
@@ -196,7 +198,7 @@ de tener que hacer cosas y estar en tension, no es lo mismo haber
 transcurrido en un sabado cualquiera con la heladera bien llenita sin
 problemas de traslados, ni mudanzas, ni canillas, ni cucarachas y el
 dptito bien limpito, y la ropita lavadita y planchadita para el lunes.
-* [2019-02-24 dom]
+* [2019-02-24 dom] N8
 despierto libre de dolor, con el despertador de las 8 para el
 corticoide, lo tomo y sigo durmiendo y asi hasta las 11hs, luego me
 levanto desayuno te con galletas, se me plantea tomer un naprux
@@ -210,4 +212,25 @@ hambre y no tengo hambre. Solo cansancio, por eso me tomo un
 beroca. Lo mismo me gustaria comer algo mas tardar 15.30 para no
 desarticular tanto las comidas y tratar de hacer una siestita. No
 viene mal el dia de relax de todos modos.
+...
+El domingo llegaba a su fin, lo que tocaba era el aburrimiento ya. En
+eso giro la cama, y me gusta.
+Pero en los primeros momentos de adaptacion me daba el aire frio muy
+de golpe quizas no se. 
+Yo ya habia apagado todo, luego activo de nuevo wifi, la Cami me
+pregunta si le pago un delivery, y luego ih me pide que le compre un
+tv, eso me enoja y le contesto mal, no es que eso haya disparado una
+emocion violenta en mi interiormente perceptible, pero desde ese
+momento se disparo una migraña total. Previo a esto unas dos horas
+antes me habia tomado un Naprux quizas como preventivo para
+incipientes, o pq estaba en el fondo nervioso pq al dia siguiente
+tenia oficina, aunque en ese momento no era consciente del compromiso.
+La migraña crecio de golpe, muy rapido y se agravo con el nerviosismo
+de la incomodidad que me dio el lugar nuevo, y me vino a la mente que
+yo DEBIA estar en la oficina hoy por la mañana pq no habiamos probado
+la impresora y Fede tenia que imprimir todo de frente y encima
+soportar un primer dia de adaptacion a una nueva oficina, y no podia
+faltar, entonces decido tomar un migral.
+Felizmente hizo efecto y dormi bien y me levanto bien para seguir con
+el WD.
 
