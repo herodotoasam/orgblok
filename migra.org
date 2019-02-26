@@ -1,12 +1,12 @@
-| [2019-02-18 lun] | 1M-12hs   | i600-17hs  |               |
-| [2019-02-19 mar] | 1M-03hs   | i600-12hs  | 1M-23hs       |
-| [2019-02-20 mié] | i600-15hs | M-15.45hs  | C10mg-16.30hs |
-| [2019-02-21 jue] | C20m-8hs  |            |               |
-| [2019-02-22 vie] | C20m-8hs  |            |               |
-| [2019-02-23 sáb] | C20m-8hs  | Nx-18hs    | Nx-22.30hs    |
-| [2019-02-24 dom] | C20m-8hs  | Nx-22.30hs | M-00hs        |
-| [2019-02-25 lun] | C20m-8hs  |            |               |
-|                  |           |            |               |
+| [2019-02-18 lun] | MIG-12hs  | i600-17hs    |               |
+| [2019-02-19 mar] | MIG-03hs  | i600-12hs    | MIG-23hs      |
+| [2019-02-20 mié] | i600-15hs | M-15.45hs    | C10mg-16.30hs |
+| [2019-02-21 jue] | C20m-8hs  |              |               |
+| [2019-02-22 vie] | C20m-8hs  |              |               |
+| [2019-02-23 sáb] | C20m-8hs  | Nx-18hs      | Nx-22.30hs    |
+| [2019-02-24 dom] | C20m-8hs  | Nx-22.30hs   | MIG-00hs      |
+| [2019-02-25 lun] | C20m-8hs  | i600-23.30hs |               |
+| [2019-02-26 mar] | C20m-8hs  |              |               |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -233,7 +233,7 @@ soportar un primer dia de adaptacion a una nueva oficina, y no podia
 faltar, entonces decido tomar un migral.
 Felizmente hizo efecto y dormi bien y me levanto bien para seguir con
 el WD.
-* [2019-02-25 lun]
+* [2019-02-25 lun] N7
 me levanto mas o menos normal, desayuno enteramente licuado, y tomo el
 C20 puntual a las 8hs. Voy a la oficina, y no llevo nada ni licuado ni
 remedios.
@@ -252,3 +252,21 @@ incluso me fui a pagar los audifonos que compre, luego me puse a
 cocinar y comi, hasta ahora las 21.30 todo bien , solo que comi mucho
 aunque vegetales mayormente, voy a esperar un rato para acostarme.
 Solo un poco de dolor de espalda.
+
+A la noche me vino una migraña hemicraneal pero mas manejable, decidi
+probar con ibu600 solo para ver, que onda por las dudas pero no paso
+nada, ni para bien ni para mal, salvo que haya sido el causal de la
+suavizacion de la migraña con respecto a la del domingo noche.
+Tambien puede haber influido el acomodo de la pieza, acomodo la musica
+con un musiquero nuevo que sirva para toda la noche y me dispongo
+comodamente sin aire por la temperatura (eso tambien fue positivo) y
+lo bueno fue que pude dormir!!!.
+Cuando me despertaba para ir al baño notaba que el dolor era intenso
+en el desacomodo, pero luego de acomodarse permitia volver a dormirse,
+y pensaba que iba reduciendose pero no, a la mañana lo siento igual,
+me planteo que no podre ir a trabajar, pero estoy todavia en duda,
+noto una cierta disminucion, aunque estoy con un nivel de migraña muy
+superior a lo aceptable para salir de casa.  Seria romper los esquemas
+y ver que pasa, quizas el movimiento sea positivo, al menos voy y
+hablo con el Fede en persona si no puedo me vuelvo.
+Lo bueno es haberse animado a no tomar migral y a recomenzar nuevamente.
