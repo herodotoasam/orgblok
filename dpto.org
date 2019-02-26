@@ -9,7 +9,8 @@ tener una estanteria metalica en la cochera con todos los documentos.
 ** reducir espacio en general en placard
 en todas las cajas, en la ropa, en los trastos. Aplicar el minimalismo
 mas drastico. 
-** limpiar arriba alacena para que no se peguen los frascos
+** DONE limpiar arriba alacena para que no se peguen los frascos
+- State "DONE"       from              [2019-02-26 mar 20:36]
 * problema filtraciones
 ya selle la perdida de la pileta que me molestaba a mi y elimine
 posible implicaciones en el tema.
