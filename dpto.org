@@ -25,6 +25,9 @@ ej lucuadora, tarros, botellas, etc. Incluso tirar el estante que esta
 torcido y roto, comprar bolsas compactadoras y con dos bolsas lo saco
 al frente. Comprarse guantes nuevos. 
 ** limpiar la barrosidad que queda y tirar veneno en todo el interior del mueble vacio
+** entro una cuca por la ventana en el dormi
+pero pienso que era por el viento posiblemente bajaba por un cable y
+se avento adentro, creo que el edificio debe tener una buena cantidad
 * arreglos pendientes
 ** cuerito canilla cocina 
 * baño
@@ -41,10 +44,13 @@ luego traer
 ** ir cambiando platos/utensilios en general
 ** ver los frascos que necesitamos para lo que usamos y tenerlos exactos.
 * dormitorio -luego del giro
-** pasar enchufes de cabezera
-** poner cortina
+** DONE pasar enchufes de cabezera
+- State "DONE"       from              [2019-02-25 lun 16:12]
+** DONE poner cortina
+- State "DONE"       from              [2019-02-25 lun 21:24]
 ** buscar bidon 6lts
-** encerar
+** DONE encerar
+- State "DONE"       from              [2019-02-25 lun 21:24]
 ** poner topetina
 ** comprar vinilo para pared
 me parece muy funcional el tener un vinilo en esa pared, le veo muchas
