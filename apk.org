@@ -1,81 +1,23 @@
-* F Droid :fdroid:
-:PROPERTIES:
-:CREADO:   [2018-10-30 Tue 08:44]
-:END:
-
+* F Droid 
 Fdroid es UN play store pero de aplicaciones libres.
 No se instala obvio en google sino en su web.
-
-** NewPipe :fdroid:
-:PROPERTIES:
-:CREADO:   [2018-10-30 Tue 15:04]
-:END:
-
-Un youtube sin cuenta y permite bajar los videos directamente.
-
-** Simple Galery :fdroid:
-:PROPERTIES:
-:CREADO:   [2018-10-30 Tue 15:25]
-:END:
-
-Galeria minimalista pero que tiene lo que yo quiero o sea selección que increíblemente la LG no tiene y mostrar todas las carpetas juntas
-Permite redimensionar las columnas a menos o mas
-Y un monton de cosas mas
-Se parece a la de sony.
-PD: no es mala pero la del G6 no la sabia usar para seleccionar hay q compartir primero. Y si hace cosas magnificas.
-
-** Any Soft Keaboard :fdroid:
-:PROPERTIES:
-:CREADO:   [2018-10-31 Wed 13:58]
-:END:
-
-Buen teclado
-Muy completo
-facilmente intercambia layout entre elegidos en mi caso sp en y terminal.
-Tiene una interfaz limpia y abre rapido los teclados numericos extras. Lo q falla es la barra un poco escasa.
-
- 
-
-** Image to PDF converter :fdroid:
-:PROPERTIES:
-:CREADO:   [2018-10-31 Wed 14:11]
-:END:
-
-El unico pasable. Desinstalando a favor de este nuevo de Fdroid PDF converter q tiene de todo aparentemente
+** NewPipe 
+ventajas sobre youtube
+1. sin publicidad
+2. permite bajar video o audio y gestionarlas desde dentro
+3. permite gestionar las suscripciones de youtube
+4. mantiene historial interno sin pedir cuenta en google
+5. se pone horizontal automaticamente
+6. luego rota entre h y v sin perder el marco de fondo
+7. tiene a recontramano los tres controles basicos: brillo/volumen y
+   adelanto!!!
+8. NO MUESTRA COMENTARIOS!!!!
 
 * Play store
-:PROPERTIES:
-:CREADO:   [2018-10-30 Tue 09:06]
-:END:
-
-** OsmAnd
-:PROPERTIES:
-:CREADO:   [2018-10-30 Tue 09:09]
-:END:
-
-Mapas offline q funciona realmente no como google maps q no funciona offline.
-Este parece funcionar encuentra las calles y anda sin red.
-No se cuanto consume en red.
-
-
-
-** Reproductor MX
-:PROPERTIES:
-:CREADO:   [2018-10-31 Wed 11:22]
-:END:
-
-Muy bueno pero desinstaló por publicidad.
-Lo que tiene de bueno es que guarda la posicion de la reproducción lindo para las conferencias .
-Superado ampliamente por VLC que ahora tiene la misma función y no tiene publicidad
-
-
 ** Brave browser
-:PROPERTIES:
-:CREADO:   [2018-10-31 Wed 18:06]
-:END:
-
+usado desde [2018-10-31 Wed 18:06]
 Tiene bloqueador eficiente incorporado.
 Y es rapido.
 Lo vengo usando para reemplazar app de clima con mas detalle y twitter y tmb accedo a instagram y fb q no uso nunca pero ahi mismo son 4 apk menos
-
+Es el unico browser que realmente bloquea todo. 
 
