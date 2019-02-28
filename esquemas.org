@@ -47,6 +47,12 @@ COMO APRENDO RAPIDO: determino las ideas principales y esas son el
 tronco del arbol, y luego voy poniendo las ramas y las hojas...
 EL CRECIMIENTO EXPONENCIAL: a veces se va incubando algo y se demora
 al comienzo pero luego de golpe se obtienen resultados. 
+* app que mostraria por areas 
+el autor delinea 12 areas que pueden no corresponder con las nuestras
+o no ser tantas
+poner los esquemas detectados que las afectan
+poner los sistemas de vida que deben ser actualizados
+poner los topes de referencia
 * esquemas detectados derribados o a derribar
 ** tomar medicamentos sirve 
 te duele, toma medicamento, te sentis mal toma medicamento, no cagas
