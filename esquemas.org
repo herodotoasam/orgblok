@@ -1,6 +1,52 @@
 * sobre los esquemas
 aca se trata de descubrir cuales son los esquemas mentales erroneos
 que uno puede llegar a suscribir ya sea internamente o externamente
+* que dice el libro
+habla de modelo cultural (que yo llamo esquema) que se absorve
+necesariamente del exterior, uno nace y ya nace dentro de una cultura,
+cae dentro de una cultura, tema largamente tratado por Heidegger y
+otros.
+Es hablado por una lengua, es pensado, los conceptos de lo que SE usa,
+lo que SE piensa, etc son todos heideggerianos.
+De donde provienen los esquemas de la sociedad, de la religion, de la
+familia, de la escuela, de la television, de los medios, de la
+gente. Uno los sigue pq piensa que es el modo normal de vida, que no
+hay otro, que eso "esta bien". Mas que todo cuando es
+chico. P.e. cuando tia Gloria dispensaba alegremente medicamentos
+quien iba a pensar que sembraba la semilla de la catastrofe que yo a
+los 54 años estoy viviendo culpa de la dependencia de los
+analgesicos. 
+Lo que se invita es a deconstruir los esquemas (Derrida) y ver cuales
+son innecesarios seguir ahora, incluso se invita a descubrir los que
+puedan estar ocultos. 
+Luego pasa al concepto de SISTEMA DE VIDA que seria la implementacion
+en nuestra vida del esquema, o sea como ese esquema cristalizo en
+nuestra vida en particular. Para dar un ejemplo, el esquema
+medicamentos o dolor-analgesico devino en el desastre por mi
+atravesado, quizas en otro el mismo esquema no tiene el mismo
+resultado, y viceversa, p.e. el esquema alimentario en mi no resulto
+tan catastrofico como en otro que a mi edad pueda tener diabetes y
+obesidad morbida y ni siquiera reconozca el esquema errado. 
+Los esquemas son iguales para todos las implementaciones privadas
+varian en cada uno.
+Pero esos resultados de vida, esos sistemas de vida no pueden cambiar
+si dependen de esquemas erroneos hay que cambiarlos.
+Luego esta el concepto de TOPE DE REFERENCIA que es una medida minima
+que uno se marca en ciertos aspectos de la vida que considera valiosos
+y lo pone como mojones de medida referenciales para saber si no esta
+retrocediendo.
+Un ejemplo para mi seria p.e. decirme si no hago regularmente las 3
+series y 15min de bici es que mi estado fisico disminuyo por debajo de
+la cota que no quiero estar. Entonces aplico algun correctivo y vuelvo
+a la normalidad.
+Otros topes en mi caso serian no tomar antiacidos, ni purgantes, ni
+clonazepan. En caso de tomarlos es que estaria en situacion de
+correccion.
+Un par de ideas interesantes mas son:
+COMO APRENDO RAPIDO: determino las ideas principales y esas son el
+tronco del arbol, y luego voy poniendo las ramas y las hojas...
+EL CRECIMIENTO EXPONENCIAL: a veces se va incubando algo y se demora
+al comienzo pero luego de golpe se obtienen resultados. 
 * esquemas detectados derribados o a derribar
 ** tomar medicamentos sirve 
 te duele, toma medicamento, te sentis mal toma medicamento, no cagas
@@ -121,3 +167,7 @@ Capaz si hubiera tenido auto aca conmigo me voy de una escapada y no
 lo dejo romper.
 Tendria que haberle dado yo la idea que lave con una manguera hacia el
 resumidero del patio??
+** tenes que leer un libro de comienzo a final... en orden
+** esquemas relativos a los alimentos
+*** lo que es un desayuno
+*** lo que se puede comer como tentepie
