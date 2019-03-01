@@ -491,3 +491,5 @@ ahora habria que hacer que se carguen las visitas cada vez que se
 imprime el listado.
 * TODO [2019-02-19 mar] verificar si aparece en listado el numero de wapp
 * TODO [2019-02-21 jue] ver que al agregar una calle no se actualiza el combo para incluirla
+* TODO [2019-02-28 jue] poner <w> y coloreado verde/azul en gestion/antiguos
+
