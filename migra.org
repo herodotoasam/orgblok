@@ -9,6 +9,8 @@
 | [2019-02-26 mar] | C20m-8hs  |              |               |
 | [2019-02-27 mié] | C20m-8hs  |              |               |
 | [2019-02-28 jue] | C20m-8hs  |              |               |
+| [2019-03-01 vie] | C20m-8hs  |              |               |
+|                  |           |              |               |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
