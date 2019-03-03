@@ -11,6 +11,8 @@
 | [2019-02-28 jue] | C20m-8hs  |              |               |
 | [2019-03-01 vie] | C20m-8hs  |              |               |
 | [2019-03-02 sáb] | C20m-8hs  |              |               |
+| [2019-03-03 dom] | C20m-8hs  | Dic50m-15hs  |               |
+|                  |           |              |               |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -422,7 +424,7 @@ al disminuir la nausea ya podia dormir de mejores formas.
 Solo pensaba que al llegar las 8hs podria tomar el corticoide y una
 hora despues cederia, o bien por el tiempo ya asi fue, tipo 9/9.30 me
 levante y desayune normal.
-* [2019-03-02 sáb]
+* [2019-03-02 sáb] N9
 hoy luego de la migraña de ayer quede con cierta resaca menor, que se
 manifesto a la siesta, a pesar de todo segui adelante, y cuando tipo
 19hs me empezaba un dolorcillo a molestar me pongo a hacer las 3
@@ -432,4 +434,29 @@ bastante y tuvo el efecto de por una parte limpiarme 100% el
 dolorcillo base que rondaba y por otra animarme fisicamente lo que
 estaba un poco caiducho o en cierta forma fusilado por el mal dormir
 de anoche, pq fue como una biaba que me pego la bosta.
+Luego de esta experiencia donde se me fue cien por cien la resaca,
+incluso pense estar bien, la Cami planteaba salir y yo pensaba poder
+llevarla, incluso esperarla en el centro para traerla a la madrugada,
+y felizmente se frustro la salida.
+Tipo 23 o 00 se dispara una migraña identica a la noche anterior, que
+yo supongo es la misma que vuelve, pero mas pura y mas punzante mas
+incisiva, o bien yo mas cansado para soportarla, no obstante menos
+problemas nauseosos, pero no pude mas que dormir de a trechitos de no
+mas de 45 min una hora, y levantandome mayormente al baño, comerme una
+ciruela y seguir durmiendo, incluso ni siquiera podia dormir del lado
+de la migraña.
+Cuando faltaban dos horas para las 8, ya casi me volvia loco, y solo
+queria esperar al corti.
+Pero creo que en esa hora claudico, pq no fue como ayer, que despues
+del corti tuve que esperar una hora mas, aca casi como que fue casi
+instantaneo, o sea fue mas como vencimiento del plazo, pero fue muy fuerte.
+* [2019-03-03 dom]
+hoy ya no es como ayer, no se si el acumulado de dos dias de mal
+dormir, o que el dia me parece muy luminoso, tengo fotofobia desde el
+dia, y a la siesta misma me parecia in crescendo las molestias,
+entonces a las 15 decidi probar con un diclo 50 a modo de paliativo de
+la resaca migrañosa, pero llevo casi 45 min ya y no tengo agravamiento
+pero tampoco mejora total.
+No me duermo y tengo esta debilidad/cansansio fruto de haber dormido
+mal, prefiero guardar el sueño para la noche.
 
