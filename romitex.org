@@ -1,0 +1,18 @@
+* programacion
+** sobre postgres/sqlite
+[2019-03-04 lun]
+como no se puede demorar el ritmo de programacion, se debe seguir y
+rapido desarrolando en sqlite, y no debe considerarse inseguro hacerlo
+en esa base de datos. Lo unico que todas las tablas nuevas o
+modificaciones de tablas deben ser mapeadas a pgmodeler y su
+correspondiente mapeo a postgres para ir manteniendo compatibilidad y
+en lo posible ir manteniendo en los ratos libres la compatibilidad del
+buscadorpg
+** recuperar los datos de visitas de clientes
+[2019-03-04 lun]
+aunque sea un poco tedioso seria bueno contar con esa informacion
+aunque sea grosso modo a partir de comienzo de año para fines
+estadisticos.
+* sistemas
+** sistema 4 en linea arrancando con elementos viejos desde ya
+[2019-03-04 lun]

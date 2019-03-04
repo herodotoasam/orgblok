@@ -1,0 +1,5 @@
+* visitas clientes
+se remodelo lo relativo a poner el numero de cobrador antes.
+y que se vaya generando un archivo de visitas aparte, para que no se
+vaya borrando el trabajo que se habia hecho atras.
+** TODO hacer mas adelante los pivot en base a la tabla visitas
