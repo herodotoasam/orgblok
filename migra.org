@@ -11,7 +11,8 @@
 | [2019-02-28 jue] | C20m-8hs  |              |               |
 | [2019-03-01 vie] | C20m-8hs  |              |               |
 | [2019-03-02 sáb] | C20m-8hs  |              |               |
-| [2019-03-03 dom] | C20m-8hs  | Dic50m-15hs  |               |
+| [2019-03-03 dom] | C20m-8hs  | Dic50m-15hs  | MIG-19hs      |
+| [2019-03-04 lun] | C20m-8hs  |              |               |
 |                  |           |              |               |
 
 * [2019-02-18 lun]   
@@ -459,4 +460,13 @@ la resaca migrañosa, pero llevo casi 45 min ya y no tengo agravamiento
 pero tampoco mejora total.
 No me duermo y tengo esta debilidad/cansansio fruto de haber dormido
 mal, prefiero guardar el sueño para la noche.
+A la tarde no iba en mejora, y luego de un poco de compu, en donde
+alterne los descansos con las 3 series, vi que no habia ningun tipo de
+solucion, y decidi tipo 19hs tomar un MIG, en el medio de la toma el
+dolor llego a N9.25 y cedio en unos 20minutos ya. Y me levanto
+enseguida y en razon de una hora ya estaba normalizado, cene bien y
+luego dormi bien hasta las 6hs. que me desvele, y espere el
+corty. Luego del cual no quede tan bien como estaba de madrugada, pero
+ya me levante.
+* [2019-03-04 lun]
 

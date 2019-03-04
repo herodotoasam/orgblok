@@ -590,8 +590,17 @@ mas facil, el escobillon no es malo, creo que hay que buscar una pala
 decente. El tacho de basura ayuda a mantener el orden tambien. El tema
 lavado en el marques se vera muy facilitado con lavarropas nuevo, Y
 quedara el tema de la plancha.
-
-
+** [2019-03-03 dom]
+estoy metido en el medio de la recuperacion de la migraña y no quiero
+quedarme esta vez y tengo muchas cosas por hacer, y si me meto en
+obligacion de "hacer un sistema yo de ventas" me voy a sobrecargar de
+trabajo.
+pq sera un desastre.
+o por lo menos sentirme bien y no tan saturado y poder programar lo
+que me falta, o sea un buen pasador de pedidos y un impresor de
+pedidos nuevos que no tenemos, o sea no ya decir que vamos a pasarnos
+a postgres sino que al menos tener todo ok lo que necesitamos en
+sqlite funcionando a pleno.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

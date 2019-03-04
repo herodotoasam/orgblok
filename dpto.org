@@ -11,7 +11,8 @@ en todas las cajas, en la ropa, en los trastos. Aplicar el minimalismo
 mas drastico. 
 ** DONE limpiar arriba alacena para que no se peguen los frascos
 - State "DONE"       from              [2019-02-26 mar 20:36]
-* problema filtraciones
+* DONE problema filtraciones
+- State "DONE"       from "TODO"       [2019-03-01 vie 16:29]
 ya selle la perdida de la pileta que me molestaba a mi y elimine
 posible implicaciones en el tema.
 ** averiguar con la portera actuaciones anteriores quinto piso
@@ -53,7 +54,7 @@ luego traer
 ** DONE encerar
 - State "DONE"       from              [2019-02-25 lun 21:24]
 ** poner topetina
-** comprar vinilo para pared
+** colocar vinilo para pared
 me parece muy funcional el tener un vinilo en esa pared, le veo muchas
 aplicaciones, quizas no termine haciendo nada, pero a nivel fijacional
 el hacer un cuadro mental de algo y verlo ahi hasta grabarlo es muy
