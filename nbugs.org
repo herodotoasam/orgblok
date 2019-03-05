@@ -40,3 +40,10 @@ infoseven,
 ** posibilidad de editar los costos en la tabla de stock
 ** impresion de stock
 ** vista de totales de mercaderia en stock
+* TODO [2019-03-05 mar] sistema mas agil de pasado de venta
+ya que las ventas las pasare yo pienso qeu lo que conviene es pasarlas
+a mil por hora o sea que el sistema de control que tengo con lapicera
+sirva para controlar pero que  el pasado sea lo mas automatizado
+posible. P.e. un pasado por botones en art puede ser muy rapido
+comparado ese bloque de combo que es muy lento. y es el lugar donde
+mas lento se me pone. 

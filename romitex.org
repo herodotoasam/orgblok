@@ -17,6 +17,12 @@ Renegue bastante. Pero ya esta. Al final un problema en las fechas
 levantadas con el volcado da csv pero lo pude limpiar al final
 unicamente con el kdevelop, en forma ultrarapida, poniendo que los
 finales de linea no sean DOS sino linux.
+** programar todo sqlite-tcl ya para optimizacion total
+cosa de no esperar mas y perder tiempo en paralelismos y luego
+recuperar la base de postgres desde ahora. Lo que no quita que en los
+tiempos libres siga jugando con lo logrado hasta ahora.
+La bocha seria tener un sistema de programacion que fuera agnostico de
+base de datos cosa que llegado el momento se haga el cambio
 * sistemas
 ** sistema 4 en linea arrancando con elementos viejos desde ya
 [2019-03-04 lun]
