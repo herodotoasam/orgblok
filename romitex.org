@@ -13,6 +13,31 @@ buscadorpg
 aunque sea un poco tedioso seria bueno contar con esa informacion
 aunque sea grosso modo a partir de comienzo de año para fines
 estadisticos.
+Renegue bastante. Pero ya esta. Al final un problema en las fechas
+levantadas con el volcado da csv pero lo pude limpiar al final
+unicamente con el kdevelop, en forma ultrarapida, poniendo que los
+finales de linea no sean DOS sino linux.
 * sistemas
 ** sistema 4 en linea arrancando con elementos viejos desde ya
 [2019-03-04 lun]
+ya estaria preparado el sistema para arrancar.
+no solo se basa en elementos viejos. Y no solo en 4 en linea.
+*** el sistema se parece mas al 2013
+o sea reunion en zona, division de zona por manzanas y pulmon para
+repechaje.
+luego mandan autorizacion a la central y el repartidor esta
+repartiendo continuamente. 
+*** no es el clasico 4 en linea
+el 4 en linea dos y dos, viene pq el llamado es visual, y el avance
+tiene que ser parejo pq la asignacion de zona no se da desde la
+mañana, y la distribucion de trabajo del repartidor no viene de una
+central sino de los mismos chicos.
+*** ventajas del sistema 2013
+1. podes tener mas chicos. No necesitas ceñirte a los 4 exactos.
+2. podes manejar mas cosas desde la oficina, como la asignacion de zona
+3. menos dependencia de los individuos, lo cual puede hacer que se
+   caigan solos.
+*** simplificacion de la cuota
+tener todos los packs al mismo precio tambien puede simplificar
+tambien la operatoria.
+

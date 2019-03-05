@@ -601,6 +601,9 @@ que me falta, o sea un buen pasador de pedidos y un impresor de
 pedidos nuevos que no tenemos, o sea no ya decir que vamos a pasarnos
 a postgres sino que al menos tener todo ok lo que necesitamos en
 sqlite funcionando a pleno.
+** [2019-03-04 lun]
+*** hoy volvi a programar
+*** alta escucha de musica clasica
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

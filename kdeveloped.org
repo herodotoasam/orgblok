@@ -16,5 +16,8 @@ en especial poder elegir numix que es la que uso
 lo tiene: boton derecho sobre el archivo sale un contextual que lleva
 a git y alli tiene push
 ** aparente bug que queda freezada la ventana del control version
-solo sucede en la netbook, pero se puede sacar el cuadro de version control
+solo sucede en la netbook, pero se puede sacar el cuadro de version
+control.
+Al final era que estaba detached. Al ubicarlo debajo o al costado,
+anda perfecto.
 

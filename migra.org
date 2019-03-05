@@ -13,6 +13,7 @@
 | [2019-03-02 sáb] | C20m-8hs  |              |               |
 | [2019-03-03 dom] | C20m-8hs  | Dic50m-15hs  | MIG-19hs      |
 | [2019-03-04 lun] | C20m-8hs  |              |               |
+| [2019-03-05 mar] | C20m-8hs  |              |               |
 |                  |           |              |               |
 
 * [2019-02-18 lun]   
@@ -469,4 +470,8 @@ luego dormi bien hasta las 6hs. que me desvele, y espere el
 corty. Luego del cual no quede tan bien como estaba de madrugada, pero
 ya me levante.
 * [2019-03-04 lun]
-
+* [2019-03-05 mar]
+anoche dormi bien salvo por el episodio de gases cursado con dos
+factor ag, y hoy levanto temprano a pesar del feriado por el tener que
+estar con la obra en la casa y luego fui al easy, aparentaba iniciarse
+un proceso pero quedo ahi.

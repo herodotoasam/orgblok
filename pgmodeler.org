@@ -1,0 +1,21 @@
+* Message returned: ERROR: must be owner of extension pg_stat_statements
+root@server:/var/log/postgresql# sudo -u postgres psql
+psql (8.4.4)
+Type "help" for help.
+
+postgres=# \du
+               List of roles
+    Role name    | Attributes  | Member of
+-----------------+-------------+-----------
+ <user-name>    | Superuser   | {}
+                 : Create DB
+ postgres       | Superuser   | {}
+                 : Create role
+                 : Create DB
+
+postgres=# alter role <user-name> superuser;
+ALTER ROLE
+postgres=#
+
+Hicimos eso, o sea dimos superuser al role hero y listo, paso el
+generate diff de pgmodeler que se habia trabado por falta de permisos.
