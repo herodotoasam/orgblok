@@ -48,9 +48,32 @@ posible. P.e. un pasado por botones en art puede ser muy rapido
 comparado ese bloque de combo que es muy lento. y es el lugar donde
 mas lento se me pone. 
 * TODO [2019-03-07 jue] que tendria que tener ventas nuevo
-** pararse en los botones
-** resaltar con color los campos que controlo
+** DONE pararse en los botones
+- State "DONE"       from "TODO"       [2019-03-07 jue 16:07]
+Documentacion de pararse en los botones:
+bind .guardar <<Enter>> {+balloon %W "Presione espacio para procesar"
+5000 orange3;break}
+donde .guardar es el nombre del boton a parar.
+** DONE resaltar con color los campos que controlo
+- State "DONE"       from "TODO"       [2019-03-07 jue 16:18]
+simplemente hice bind al paso por <<Enter>> y luego los limpio cuando
+agrego cliente nuevo.
 ** tener articulos con boton
-** tener wapp articulado
+tabla de manejo de packs
+packs con idpacks nmemotecnico con pocas letras
+faltaria la creacion de los botones
+
+** DONE tener wapp articulado
+- State "DONE"       from "TODO"       [2019-03-07 jue 16:38]
+hice dos controles camponum para wasap uno prefijo de limite 4 para
+contener el 3512 y otro de limite 8 para el 411963, luego en el
+guardar los uni concatenando los gets.
+Hecho tambien el viceversa o sea la lectura en el proc cargarcliente,
+que era antes muy elegante solo cargando la variable cliente como
+array, y haciendo depender todos los widgets a elementos del array.
+En este caso globalizo las dos variables wass1/2 que estan detras de
+las partes del wass y con string range parto el wassap de la base y lo
+presento en los dos camposnum cuando se abre un registro.
+
 ** solucionar tema combo que se traba con ituizango ituizango anexo pe.
 ** pegar con boton derecho para nombre proveniente de seven
