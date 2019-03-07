@@ -47,3 +47,10 @@ sirva para controlar pero que  el pasado sea lo mas automatizado
 posible. P.e. un pasado por botones en art puede ser muy rapido
 comparado ese bloque de combo que es muy lento. y es el lugar donde
 mas lento se me pone. 
+* TODO [2019-03-07 jue] que tendria que tener ventas nuevo
+** pararse en los botones
+** resaltar con color los campos que controlo
+** tener articulos con boton
+** tener wapp articulado
+** solucionar tema combo que se traba con ituizango ituizango anexo pe.
+** pegar con boton derecho para nombre proveniente de seven
