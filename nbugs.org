@@ -77,3 +77,10 @@ presento en los dos camposnum cuando se abre un registro.
 
 ** solucionar tema combo que se traba con ituizango ituizango anexo pe.
 ** pegar con boton derecho para nombre proveniente de seven
+* TODO [2019-03-08 vie] hacer tab Sectores en Fichas2
+para procesar fichas por Sector 1 y 2 (u otros)
+Los sectores serian como megazonas y no estarian asignadas a nadie
+se mostraria un resumen.
+Primero mostrar resumen de cuanto hay para cobrar por sector y por
+zona. Vencido a la fecha.
+
