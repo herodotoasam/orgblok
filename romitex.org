@@ -46,4 +46,61 @@ central sino de los mismos chicos.
 *** simplificacion de la cuota
 tener todos los packs al mismo precio tambien puede simplificar
 tambien la operatoria.
-
+* nuevo esquema cobranza modular
+un esquema de cobradores limitados estandarizados
+** detalles del sistema
+1. sin asignacion de zona fija
+2. se le asigna un recorrido por dia de unas 40 fichas o menos segun
+   el tipo de fichas
+3. se dan 15 recibos
+4. se rinde a la vuelta y se puede repetir (primer viatico 80, segundo
+   si hay 40 - para sacar un segundo recorrido hay que venir a rendir
+   el primero antes de las 14hs con los 15 recibos completos).
+5. flexibilidad de dias en el mes
+** ventajas del sistema 
+*** riesgo acotado general a 6000 promedio
+como nadie tiene porque llevar mas de 15 recibos no tiene porque haber
+un riesgo mayor
+*** mayor facilidad de contratacion
+por riesgo acotado tendremos mas facilidad para tomar riesgo, y por no
+tener que asignar zona tendremos mas flexibilidad a la hora de tomar
+pq los mandamos a cualquier lado. 
+*** contratacion continua
+tener avisos continuamente como rutina, tener gente entrevistada y
+gente probada y poner gente que realmente sirva. Siempre tener lista
+de espera
+*** manipular los recorridos
+uno en el fondo sabe cual recorrido es cada cual y puede manipular los
+recorridos para ir dando los que uno quiera a quien quiera a los fines
+de controlar o desgastar.
+*** mejor control y prevencion
+al no tener zona fija es dificil cubrir la cagada pq al otro dia va
+otro.
+*** mayor eficiencia
+pq no jugamos el destino de una zona en la mano de uno sino en las de
+varios, supongamos primero de mayo en vez de apostar a uno, podemos
+mandar 3 o 4 distintos, es raro que el factor cobrador influya en la
+zona.
+*** quitamos el peso de encima de cuanto ganaras
+al no ser proporcional a la zona que te asignemos, sino a los
+recorridos que seas capaz de gestionar dimos vuelta la cuchara y lo
+que ganes va a ser culpa tuya y no nuestra. Si haces mas recorridos
+ganas mas, seas quien seas. (lo de la diferencia entre recorridos es
+una sutileza, aparte los recibos son 15 para todo el mundo)
+** esquemas mentales viejos que sostienen las desventajas
+*** a la gente no le gusta que vayan cobradores distintos cada vez
+es cierto, pero que importa y desde cuando nos importa lo que diga la
+gente.
+las ventajas para nosotros superan en mucho lo que la gente quiera y
+la justificacion nuestra sera que lo hacemos por motivos de seguridad
+y que nosotros nunca le dijimos que le ibamos a mandar un mismo cobrador
+*** el cobrador es mas eficiente cuando tiene una zona a su cargo
+mentira. siempre tuvimos ese sistema y la eficiencia brillo por su
+ausencia. La eficiencia se pierde. Prefiero que pierdan una hora de
+mas buscando las calles por primera vez que tener gente en la misma
+zona, otra vez, las ventajas para nosotros superan la ventaja para el
+cobrador.
+*** la gente paga mejor cuando viene el mismo cobrador
+mentira. paga peor. pq al ser conocido lo cagan mejor. pasaba con la
+elba. en el caso de que al que mandemos no le paguen, mañana mandamos
+otro y pasado otro y asi sucesivamente.
