@@ -1,23 +1,25 @@
-| [2019-02-18 lun] | MIG-12hs  | i600-17hs        |               |   |   |
-| [2019-02-19 mar] | MIG-03hs  | i600-12hs        | MIG-23hs      |   |   |
-| [2019-02-20 mié] | i600-15hs | MIG-15.45hs      | C10mg-16.30hs |   |   |
-| [2019-02-21 jue] | C20m-8hs  |                  |               |   |   |
-| [2019-02-22 vie] | C20m-8hs  |                  |               |   |   |
-| [2019-02-23 sáb] | C20m-8hs  | Nx-18hs          | Nx-22.30hs    |   |   |
-| [2019-02-24 dom] | C20m-8hs  | Nx-22.30hs       | MIG-00hs      |   |   |
-| [2019-02-25 lun] | C20m-8hs  | i600-23.30hs     |               |   |   |
-| [2019-02-26 mar] | C20m-8hs  |                  |               |   |   |
-| [2019-02-27 mié] | C20m-8hs  |                  |               |   |   |
-| [2019-02-28 jue] | C20m-8hs  |                  |               |   |   |
-| [2019-03-01 vie] | C20m-8hs  |                  |               |   |   |
-| [2019-03-02 sáb] | C20m-8hs  |                  |               |   |   |
-| [2019-03-03 dom] | C20m-8hs  | Dic50m-15hs      | MIG-19hs      |   |   |
-| [2019-03-04 lun] | C20m-8hs  |                  |               |   |   |
-| [2019-03-05 mar] | C20m-8hs  |                  |               |   |   |
-| [2019-03-06 mié] | C10m-8hs  |                  |               |   |   |
-| [2019-03-07 jue] | C10m-8hs  |                  |               |   |   |
-| [2019-03-08 vie] | C10m-8hs  | FIN cortiterapia |               |   |   |
-| [2019-03-09 sáb] |           |                  |               |   |   |
+| [2019-02-18 lun] | MIG-12hs   | i600-17hs        |               |   |   |
+| [2019-02-19 mar] | MIG-03hs   | i600-12hs        | MIG-23hs      |   |   |
+| [2019-02-20 mié] | i600-15hs  | MIG-15.45hs      | C10mg-16.30hs |   |   |
+| [2019-02-21 jue] | C20m-8hs   |                  |               |   |   |
+| [2019-02-22 vie] | C20m-8hs   |                  |               |   |   |
+| [2019-02-23 sáb] | C20m-8hs   | Nx-18hs          | Nx-22.30hs    |   |   |
+| [2019-02-24 dom] | C20m-8hs   | Nx-22.30hs       | MIG-00hs      |   |   |
+| [2019-02-25 lun] | C20m-8hs   | i600-23.30hs     |               |   |   |
+| [2019-02-26 mar] | C20m-8hs   |                  |               |   |   |
+| [2019-02-27 mié] | C20m-8hs   |                  |               |   |   |
+| [2019-02-28 jue] | C20m-8hs   |                  |               |   |   |
+| [2019-03-01 vie] | C20m-8hs   |                  |               |   |   |
+| [2019-03-02 sáb] | C20m-8hs   |                  |               |   |   |
+| [2019-03-03 dom] | C20m-8hs   | Dic50m-15hs      | MIG-19hs      |   |   |
+| [2019-03-04 lun] | C20m-8hs   |                  |               |   |   |
+| [2019-03-05 mar] | C20m-8hs   |                  |               |   |   |
+| [2019-03-06 mié] | C10m-8hs   |                  |               |   |   |
+| [2019-03-07 jue] | C10m-8hs   |                  |               |   |   |
+| [2019-03-08 vie] | C10m-8hs   | FIN cortiterapia |               |   |   |
+| [2019-03-09 sáb] |            |                  |               |   |   |
+| [2019-03-10 dom] | Dic50m-7hs |                  |               |   |   |
+|                  |            |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -617,5 +619,37 @@ que ser "entretenido" y ese entretenimiento te lo regalaran
 (venderan?) con todo gusto pq en el medio te adoctrinaran en la forma
 que ellos quieran. Ellos quienes? los que necesitan que hayan
 suficientes tipos como vos.
-
-
+* [2019-03-09 sáb]
+dia sin ninguna toma de nada que transcurrio con un N0.5 de a ratos,
+limpio muy bien hacia la tarde-noche.
+El dia planteaba muy dificil.
+de por si veniamos de una previa con salida de la Cami sola con la
+amiga y venia en remi sola, aunque habia dormido bien o mas o menos
+bien considerando que no me adapto cien por cien aca.
+me levanto a las 7am y hago gimnasia en el patio fresco, luego me
+pongo a limpiar el patio con energia que la tenia, todo para limpiar
+el 0.50. Luego desayuno el licuado, luego programo, luego almuerzo muy
+bien, comida con mucha carne (bife a la criolla) hacia mucho que no
+comia carne, luego siesta corta controlada pero buena, luego
+programacion, luego actividad, luego viene Fede, todo bien, ahi limpie
+total, comi como un cerdo, nunca habia comido tanta carne en un asado
+en mi vida. 
+tomando solamente agua y de ensalada rucula.
+tomo un te de boldo y la postcena, aunque me resulto beneficiosa pq
+baje la carne pues cuando me acoste no me molesto para nada dormir de
+ningun costado, el ruido enloquecedor de la hablada, los chicos, el
+humo etc, fueron haciendo mella, y el cansancio.
+Me duermo ya con un quizas N2.
+Voy despertando en los primeros ciclos con N2, hasta que sube a un
+comodo N4.
+En cierto ciclo observo que la relajacion me ayuda un monton, y el
+sacar la almohada tambien.
+Pero creo que se habia diferenciado una migraña clara y crei
+racionalizar la idea de que podria tomarme un migral por "esa" migraña
+dado "que habia ya aguantado unas 4 horas de un N4", entonces tipo 7
+me levanto con el bolso a tomarme el migral y noto que no, que la
+migraña no estaba como pensaba (no habia una hemicraneal, no habia un
+agravamiento con el movimiento, no habia un dolor que superara el N7 y
+no habia nauseas), entonces como tenia un intenso dolor de cintura
+aproveche a probar con un diclo, y tome un diclo en 45 min parecio que
+el N4 paso a un N2 y me levante.
