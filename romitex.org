@@ -104,3 +104,10 @@ cobrador.
 mentira. paga peor. pq al ser conocido lo cagan mejor. pasaba con la
 elba. en el caso de que al que mandemos no le paguen, mañana mandamos
 otro y pasado otro y asi sucesivamente.
+* aviso de visita
+pienso que el aviso de visita debe salir hecho desde la oficina. No
+debe ser dado en blanco.
+Pq primero nosotros tendriamos que contactar con la persona por
+telefono. Sino se degrada la herramienta. y se pierde el impacto.
+Entonces primero llamamos nosotros y establecemos el status del
+telefono, y luego mandamos el aviso hecho con el cobrador.
