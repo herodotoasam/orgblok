@@ -48,6 +48,10 @@ tener todos los packs al mismo precio tambien puede simplificar
 tambien la operatoria.
 * nuevo esquema cobranza modular
 un esquema de cobradores limitados estandarizados
+esta idea fue una serenpidia que salio a raiz que el Fede planteo
+ponerlo al 800 como libero de zona con 30 fichas aca o alla y ahi
+instantaneamente se me ocurrio hacerlo un sistema general.
+
 ** detalles del sistema
 1. sin asignacion de zona fija
 2. se le asigna un recorrido por dia de unas 40 fichas o menos segun
