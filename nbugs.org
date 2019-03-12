@@ -83,4 +83,9 @@ Los sectores serian como megazonas y no estarian asignadas a nadie
 se mostraria un resumen.
 Primero mostrar resumen de cuanto hay para cobrar por sector y por
 zona. Vencido a la fecha.
-
+* TODO [2019-03-12 mar] poner wapp en buscador
+* TODO [2019-03-12 mar] caso Usuahia 1978 en buscador
+si lo busco por calle numero no me aparece o sea me da direccion sana
+pq no es cliente, pero la direccion esta mencionada en un comentario,
+pero si lo busco en busqueda abierta me salta un dato valioso en
+comentario, estaria bueno que mas en direccion capte esas cosas. 
