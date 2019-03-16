@@ -115,3 +115,14 @@ Pq primero nosotros tendriamos que contactar con la persona por
 telefono. Sino se degrada la herramienta. y se pierde el impacto.
 Entonces primero llamamos nosotros y establecemos el status del
 telefono, y luego mandamos el aviso hecho con el cobrador.
+* nuevo esquema venta 
+grupo con encargado y vendedores
+| propiedad del auto | venta propia | venta del promotor |
+| Romitex (kangoo)   | $125         | $50                |
+| del repartidor     | 6%           | $75                |
+
+En todos los casos al promotor se le paga como unica remuneracion $125
+por venta en forma diaria por dia vencido en la oficina. No hay
+viaticos.
+
+
