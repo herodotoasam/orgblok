@@ -1,31 +1,33 @@
-| [2019-02-18 lun] | MIG-12hs   | i600-17hs        |               |   |   |
-| [2019-02-19 mar] | MIG-03hs   | i600-12hs        | MIG-23hs      |   |   |
-| [2019-02-20 mié] | i600-15hs  | MIG-15.45hs      | C10mg-16.30hs |   |   |
-| [2019-02-21 jue] | C20m-8hs   |                  |               |   |   |
-| [2019-02-22 vie] | C20m-8hs   |                  |               |   |   |
-| [2019-02-23 sáb] | C20m-8hs   | Nx-18hs          | Nx-22.30hs    |   |   |
-| [2019-02-24 dom] | C20m-8hs   | Nx-22.30hs       | MIG-00hs      |   |   |
-| [2019-02-25 lun] | C20m-8hs   | i600-23.30hs     |               |   |   |
-| [2019-02-26 mar] | C20m-8hs   |                  |               |   |   |
-| [2019-02-27 mié] | C20m-8hs   |                  |               |   |   |
-| [2019-02-28 jue] | C20m-8hs   |                  |               |   |   |
-| [2019-03-01 vie] | C20m-8hs   |                  |               |   |   |
-| [2019-03-02 sáb] | C20m-8hs   |                  |               |   |   |
-| [2019-03-03 dom] | C20m-8hs   | Dic50m-15hs      | MIG-19hs      |   |   |
-| [2019-03-04 lun] | C20m-8hs   |                  |               |   |   |
-| [2019-03-05 mar] | C20m-8hs   |                  |               |   |   |
-| [2019-03-06 mié] | C10m-8hs   |                  |               |   |   |
-| [2019-03-07 jue] | C10m-8hs   |                  |               |   |   |
-| [2019-03-08 vie] | C10m-8hs   | FIN cortiterapia |               |   |   |
-| [2019-03-09 sáb] |            |                  |               |   |   |
-| [2019-03-10 dom] | Dic50m-7hs |                  |               |   |   |
-| [2019-03-11 lun] |            |                  |               |   |   |
-| [2019-03-12 mar] |            |                  |               |   |   |
-| [2019-03-13 mié] |            |                  |               |   |   |
-| [2019-03-14 jue] |            |                  |               |   |   |
-| [2019-03-15 vie] |            |                  |               |   |   |
-| [2019-03-16 sáb] | Dic50m-4hs |                  |               |   |   |
-|                  |            |                  |               |   |   |
+| [2019-02-18 lun] | MIG-12hs    | i600-17hs        |               |   |   |
+| [2019-02-19 mar] | MIG-03hs    | i600-12hs        | MIG-23hs      |   |   |
+| [2019-02-20 mié] | i600-15hs   | MIG-15.45hs      | C10mg-16.30hs |   |   |
+| [2019-02-21 jue] | C20m-8hs    |                  |               |   |   |
+| [2019-02-22 vie] | C20m-8hs    |                  |               |   |   |
+| [2019-02-23 sáb] | C20m-8hs    | Nx-18hs          | Nx-22.30hs    |   |   |
+| [2019-02-24 dom] | C20m-8hs    | Nx-22.30hs       | MIG-00hs      |   |   |
+| [2019-02-25 lun] | C20m-8hs    | i600-23.30hs     |               |   |   |
+| [2019-02-26 mar] | C20m-8hs    |                  |               |   |   |
+| [2019-02-27 mié] | C20m-8hs    |                  |               |   |   |
+| [2019-02-28 jue] | C20m-8hs    |                  |               |   |   |
+| [2019-03-01 vie] | C20m-8hs    |                  |               |   |   |
+| [2019-03-02 sáb] | C20m-8hs    |                  |               |   |   |
+| [2019-03-03 dom] | C20m-8hs    | Dic50m-15hs      | MIG-19hs      |   |   |
+| [2019-03-04 lun] | C20m-8hs    |                  |               |   |   |
+| [2019-03-05 mar] | C20m-8hs    |                  |               |   |   |
+| [2019-03-06 mié] | C10m-8hs    |                  |               |   |   |
+| [2019-03-07 jue] | C10m-8hs    |                  |               |   |   |
+| [2019-03-08 vie] | C10m-8hs    | FIN cortiterapia |               |   |   |
+| [2019-03-09 sáb] |             |                  |               |   |   |
+| [2019-03-10 dom] | Dic50m-7hs  |                  |               |   |   |
+| [2019-03-11 lun] |             |                  |               |   |   |
+| [2019-03-12 mar] |             |                  |               |   |   |
+| [2019-03-13 mié] |             |                  |               |   |   |
+| [2019-03-14 jue] |             |                  |               |   |   |
+| [2019-03-15 vie] |             |                  |               |   |   |
+| [2019-03-16 sáb] | Dic50m-4hs  |                  |               |   |   |
+| [2019-03-17 dom] | Dic75m-16hs |                  |               |   |   |
+| [2019-03-18 lun] | Dic50m-14hs |                  |               |   |   |
+|                  |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -684,7 +686,37 @@ el cafe estaba limpio total, y asi segui durante la mañana, que
 resulto hasta las 9 muy movidita pq tuve que hacer gran esfuerzo
 llevando la ventana y principalmente llevando el material hacia la
 oficina.
-
+* [2019-03-17 dom]
+seguimos con el alto requerimiento. Anoche dormi muy profundamente con
+N0.
+pero desperte muy temprano y me levante tipo 7. Hice ejercicios y
+fuimos al centro con gran tension (eutres pienso). Resolvimos lo del
+contenedor y la salida de la Romi, pasamos por dpto y luego por local,
+pero el cansancio se sumo, luego hicimos siesta antes de comer hasta
+las 15hs, ahi me levanto con un N2 casi entero basado en parte
+huesitos posteriores, y accedo a tomar un diclo que podria y debia
+haber sido de 50 o directamente no haber sido.
+Almorzamos y eso me mejoro inmediatamente luego fuimos al Fede, y
+volvimos aca a tomar mates y aunque bien se nota el cansancio, y no
+poder relajarse pq en el fondo pienso que el Andres vendra a
+cobrar. Pero pienso que mejor pq asi dormire mejor a la noche.
+* [2019-03-18 lun]
+hoy el dia fue muy largo y muy intenso, duermo bien muy bien con N0, y
+me voy despertando bien temprano.
+Me levanto tipo 6.30. llego al centro 7.15 y hago con cierta
+dificultad las primeras series, luego me siento bien, cuando las
+termino, y hago la bici. Luego me voy a la oficina y cumplo bien la
+funcion de la mañana.
+y ya se perfila un N2, pero de tipo huesito. Entonces a las 13.30 con
+el almuerzo me tomo un diclo, y luego me tiro una siesta y me duermo
+muy bien, luego en oficina estoy bien pero va subiendo un N1 N1.5 voy
+a ver el local, y a comprarle los libros al fede, y luego vuelvo al
+local. 
+y me vuelvo. 
+Tengamos en cuenta que hice el tema de la cabaña, y el tema aviso y el
+tema ir ver el local, y todo se junto, y a la tarde estoy agotado y ya
+con N2, y entonces pienso que tengo que descansar, he caminado mucho,
+pienso que a nivel ejercicio ando bien con esto. 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
