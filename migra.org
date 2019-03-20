@@ -27,7 +27,8 @@
 | [2019-03-16 sáb] | Dic50m-4hs  |                  |               |   |   |
 | [2019-03-17 dom] | Dic75m-16hs |                  |               |   |   |
 | [2019-03-18 lun] | Dic50m-14hs |                  |               |   |   |
-|                  |             |                  |               |   |   |
+| [2019-03-19 mar] | Dic50m-16hs |                  |               |   |   |
+| [2019-03-20 mié]                 |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -723,7 +724,32 @@ tenia era el ejercicio, y entonces me vino el animo para hacer el
 pushup que estaba programado para hoy, precalente y lo hice en sus
 tres intensas series, y me bañe. Luego comi, y baje el N2 a N0. Ahora
 que me va bajando el sueño me voy a dormir.
-
+* [2019-03-19 mar]
+fue un dia normal con N1/N2 rotando segun presion del momento y
+"autojustificandome" la toma de diclo por situaciones especiales.
+Es verdad que ayer un dia frio en exceso que me agarro mal abrigado y
+que no volvi a comer a casa, que no hice siesta, que me fui a cortar
+el pelo, que volvi al marques en el auto, que tenia que comprar los
+ceramicos, o sea todas cosas que se salen de mi rutina normal, y
+decidi tomar un diclo, y todo ok, luego dormi mas que bien, eso que
+comi un guisito recalentado de fideos.
+* [2019-03-20 mié]
+hoy interesantemente empalma igual que ayer, el dia sin compromisos
+como los de ayer, pero se presenta intenso, cansador, sin la gimnasia
+de la mañana despues de muchos dias, y sin licuado, y sin irme a casa,
+y sin siesta. Voy a pagar todas las cuentas, y sigo aca trabajando, ya
+el aire no es agradable pq esta embotado y la carga de trabajo es tan
+grande que ya no hay relajo. Entonces estamos sembrando el terreno
+propicio para entrar en un sistema de cultivar el dolor.
+Me sobrepaso casi todos los stops de RSBreak, no solo los cortos que
+son facilicimos de hacer, los grandes todos, y no me levanto del
+sillon.
+Y tengo el diclo ahi arriba.
+Y me dije que macana pq ya el 5to dia de diclo es una tendencia, y es
+una mala señal.
+Y al final no lo necesite. Y al final decidi tomarme el rsbreak y pude
+hacer dos series y el mover la sangre me sento barbaro y creo que eso
+es la clave de todo o sea el movimiento y parar un poco la bocha.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
