@@ -28,7 +28,9 @@
 | [2019-03-17 dom] | Dic75m-16hs |                  |               |   |   |
 | [2019-03-18 lun] | Dic50m-14hs |                  |               |   |   |
 | [2019-03-19 mar] | Dic50m-16hs |                  |               |   |   |
-| [2019-03-20 mié]                 |             |                  |               |   |   |
+| [2019-03-20 mié] |             |                  |               |   |   |
+| [2019-03-21 jue] | Dic50m-14hs |                  |               |   |   |
+|                  |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -750,6 +752,26 @@ una mala señal.
 Y al final no lo necesite. Y al final decidi tomarme el rsbreak y pude
 hacer dos series y el mover la sangre me sento barbaro y creo que eso
 es la clave de todo o sea el movimiento y parar un poco la bocha.
+* [2019-03-21 jue]
+anoche dormi espectacularmente, pense agregar a mi kit de
+recuperacion, el balde (futuro sofisticarlo) pq ir al baño supone
+exponerse a cambio de temperatura que me puede despertar mas. 
+y me costo un poco la gimnasia esta mañana, pero en el medio pense que
+no tengo vicios ni sustancias en mi fisico por lo tanto tengo que
+exigirme a tener mas fuerza pq no puedo amesetarme en eso.
+Es mas a la tarde p.e. hoy me hice ya dos series hechas con mas
+energia y rapidez que las series de la mañana que las hago como si me
+fuera a desarmar. Y estas serian la 4ª y 5º serie del dia. 
+Lo mismo hoy no se si como resultado del estres de la mañana, ni por
+causa de la falta de ejercicio o que, aunque la mañana no duro mas que
+cuatro horas, me fui con un N2 de huesitos, y al almuerzo lindo y
+variado me tome un diclo. Y dormi una siesta muy buena, con tapones
+fue espectacular, y costo despertarme.
+me vine y dos cafes fue necesario para despabilarme.
+persistio un N1.
+Luego al correr la tarde se fue todo sintoma y con la gimnasia me voy
+de la oficina a las 19.30hs con N0 y con energia plena.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
