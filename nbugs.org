@@ -83,9 +83,61 @@ Los sectores serian como megazonas y no estarian asignadas a nadie
 se mostraria un resumen.
 Primero mostrar resumen de cuanto hay para cobrar por sector y por
 zona. Vencido a la fecha.
-* TODO [2019-03-12 mar] poner wapp en buscador
-* TODO [2019-03-12 mar] caso Usuahia 1978 en buscador
+* DONE [2019-03-26 mar] sacar fts de buscador y cambiarla por busqueda simple
+- State "DONE"       from "TODO"       [2019-03-26 mar 18:00]
+formato nombre%calle%num%barrio%zona%aclaracion
+** DONE exploracion basica 
+- State "DONE"       from "TODO"       [2019-03-26 mar 18:00]
+:LOGBOOK:
+CLOCK: [2019-03-26 mar 16:19]--[2019-03-26 mar 17:42] =>  1:23
+:END:
+Se logro sacar todo vestigio del FTS5.
+se cambio el engorroso sistema de dependencia a la generacion de una
+tabla anexa FTS5, lo cual era un error conceptual pq de hacerlo en
+cada arranque insumia mas de 3 segundos y era inaceptable y uno se
+olvidaba de hacerlo a mano. 
+Luego toda la versatilidad del FTS no se usaba. apenas se usaba una
+busqueda simple de calle y numero o nombre, o el numero de dni o
+cuenta.
+Ahora los numeros son mas concretos, ya que dni y telefono se hacen el
+el cuadro buscar y cuenta y rbo en sus cuadros correspondientes, lo
+cual evita tener que poner un prefijo y es el mismo engorro a nivel
+usuario.
+La diferencia a favor del sistema actual es la busqueda parcial la no
+necesidad de tener que poner el nombre completo de calle o apellido,
+la posibilidad de empalmar partes. La unica condicion respetar el
+orden logico de nombre-calle-num-barrio-zona-aclaracion-mjecobr.
+Supongamos el caso Usuhaia 1978 salta al toque, incluso saltaria la
+direccion si esta en el mjecobr tambien. 
+Como el arreglo de la cadena de busqueda lo hice en el proc
+buscarresultado casi la estructura se mantuvo y no tuve que hacer
+grandes cambios y se mantuvo todo igual.
+Otra cosa que se corrigio aparentemente es el problema de caracteres
+no permitidos por FTS5 cuando se hace la rebusqueda por calle/num. 
+
+** DONE [2019-03-12 mar] caso Usuahia 1978 en buscador
+- State "DONE"       from "TODO"       [2019-03-26 mar 18:00]
 si lo busco por calle numero no me aparece o sea me da direccion sana
 pq no es cliente, pero la direccion esta mencionada en un comentario,
 pero si lo busco en busqueda abierta me salta un dato valioso en
 comentario, estaria bueno que mas en direccion capte esas cosas. 
+** DONE [2019-01-23 mié] sacar fts de buscador y poner combo
+- State "DONE"       from "TODO"       [2019-03-26 mar 18:16]
+* DONE [2019-03-12 mar] poner wapp en buscador
+- State "DONE"       from "TODO"       [2019-03-26 mar 18:13]
+:LOGBOOK:
+CLOCK: [2019-03-26 mar 18:02]--[2019-03-26 mar 18:13] =>  0:11
+:END:
+poner wapp en datos1 al lado de tel y hacer ambos editables
+* DONE [2019-01-31 jue] arreglar impresion lotes 
+- State "DONE"       from "TODO"       [2019-03-26 mar 19:08]
+:LOGBOOK:
+CLOCK: [2019-03-26 mar 18:17]--[2019-03-26 mar 19:08] =>  0:51
+:END:
+securitizar el ingreso del cobrador y permitir el cambio de cobrador
+sin tener que cambiar el lote entero.
+
+Reparado: se pudo un label con el nombre del cobrador grande para que
+sea dificil equivocarse y se cambio el campo que limpie los numeros
+cosa que se pueda cambiar el nombre del cobrador sin perder lo
+ingresado.
