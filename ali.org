@@ -683,3 +683,25 @@ muy bueno y sano.
 ir agregando uno o dos ingredientes de cada tipo ya incorpodado,
 p.e. arroz negro, quinoa, girasol, y mas verduras por ahora, y otro
 aceite de oliva mas fino. 
+* idea estudiar a fondo TCL para acumular capital laboral
+la idea nacio primero como reveer a fondo el tolkit y hacerlo con la
+compu de "sentado" para hacer los ejercicios, hacer fichas, hacer
+resumen en org, y que sirva, pensando que hay bastante para ver:
+listas, dict, file i/o, namespaces, etc. Luego se agrega tk, con
+canvas, text, grid, pack, etc, y luego puede seguir tablelist, y por
+supuesto itcl a fondo. Y todo sin comenzar a desarrollar nada o bien
+hacerlo pero sin dejar de estudiar pq la bocha esta en hacer algo
+realmente nuevo, algo que cambie lo que venimos haciendo hasta ahora.
+** cuanto puedo estudiar por dia
+pense que sacandole horas muertas o al vicio del trabajo siendo que
+esto tendra implicaciones positivas para el negocio, pero sera a largo
+plazo, creo que tres horas por dia.
+** no distraerse en los resultados o las practicas
+si bien es cierto que hacer cosas son incentivos para aprender, sino
+hacemos el esfuerzo por aprender la teoria cruda cruda no vamos a
+ningun lado.
+** quizas tengamos que imprimir tambien
+p.e. el manual lo cual seria muy util para horas de reposo que pueden
+sumar y el manual es un buen complemento a todo tipo de aprendizaje.
+luego los encarpetamos a todos.
+

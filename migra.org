@@ -38,6 +38,10 @@
 | [2019-03-27 mié] | Dic50m-19hs |                  |               |   |   |
 | [2019-03-28 jue] | Dic50m-8hs  |                  |               |   |   |
 | [2019-03-29 vie] | Naprux-8hs  | Naprux-16hs      | MIG-17hs      |   |   |
+| [2019-03-30 sáb] |             |                  |               |   |   |
+| [2019-03-31 dom] | Naprux-19hs |                  |               |   |   |
+| [2019-04-01 lun] |             |                  |               |   |   |
+| [2019-04-02 mar] | Naprux-18hs |                  |               |   |   |
 |                  |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -230,7 +234,7 @@ de tener que hacer cosas y estar en tension, no es lo mismo haber
 transcurrido en un sabado cualquiera con la heladera bien llenita sin
 problemas de traslados, ni mudanzas, ni canillas, ni cucarachas y el
 dptito bien limpito, y la ropita lavadita y planchadita para el lunes.
-* [2019-02-24 dom] N8
+* [2019-02-24 dom] N8    MIG
 despierto libre de dolor, con el despertador de las 8 para el
 corticoide, lo tomo y sigo durmiendo y asi hasta las 11hs, luego me
 levanto desayuno te con galletas, se me plantea tomer un naprux
@@ -476,7 +480,7 @@ queria esperar al corti.
 Pero creo que en esa hora claudico, pq no fue como ayer, que despues
 del corti tuve que esperar una hora mas, aca casi como que fue casi
 instantaneo, o sea fue mas como vencimiento del plazo, pero fue muy fuerte.
-* [2019-03-03 dom]
+* [2019-03-03 dom]      MIG
 hoy ya no es como ayer, no se si el acumulado de dos dias de mal
 dormir, o que el dia me parece muy luminoso, tengo fotofobia desde el
 dia, y a la siesta misma me parecia in crescendo las molestias,
@@ -877,7 +881,7 @@ requeridas con un N1 de fondo.
 Casualmente ayer pensaba que habia cambiado la bocha de ser que todas
 las circunstancias adversas del dia conspiraban juntas para producir
 Ns, a una en que todas esas circunstancias no pueden voltear los Hs.
-* [2019-03-29 vie]
+* [2019-03-29 vie] N6 con MIG
 anoche dormi mal pq ya al acostarme tenia un N3.
 durante la noche molesto bastante en forma de mal dormir incluso con
 pesadillas o sueños malos y aunque me dormia enseguida, tenia
@@ -924,6 +928,35 @@ La lastima de haber tomado un migral dentro del mes que venia muy
 bien, pero pienso que administre muy mal la estrategia. Hoy tendria
 que haberme ido en sentido contrario al toxico, o sea haberme recluido
 en mi dpto a comer mijo, o bien haber ido a comer solo y tranquilo.
+* [2019-04-02 mar]
+luego de cuatro dias de cabaña pienso que el tema se porto bien. No
+tuve molestias de ningun tipo y eso que no tuve medidas sanas de
+ningun tipo.
+** dormi de mas
+empece de a poco, parte por la paz y silencio y luego para evadirme y
+luego por la costumbre y termino este martes con una siesta brutal ya
+en marques que me dejo un N5 casi con destornillador que conjure con
+cafe, naprux y baño y me volvi al centro donde no pienso cenar y
+pienso empezar la detox.
+** comi de todo
+comimos de todo, choripan, salame, asado de chanco, morcilla, pollo al
+disco, guiso de lentejas, pizza, guiso de fideos, manteca, cafe a
+mansalva, gaseosa todos los dias. Cero fruta, cero verdura, Cero agua,
+Ninguna comida que se pueda considerar sana.
+** ruido y condiciones de aburrimiento que fungen como estresores
+a pesar de estar en relax y que fue bueno, este post es analizador
+frio de la implicancia sobre la migraña y bien pudo ese cambio de
+actividad sumado a la falta de incentivos y la monotonia ser
+estresores proNs. 
+** actividad moderada a baja
+las series las hice en forma descendente, pero no faltaron ningun dia,
+y solo un dia hice una actividad de caminata de unas 35/40 cuadras, y
+nada mas.
+** conclusion
+para todas esas condiciones no muy sanas creo que se porto bien. El
+fisico acuso un cansancio pienso debido a exceso de sueño por falta de
+actividad quizas debida a la falta de incentivos.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
@@ -1042,7 +1075,7 @@ queremos cambiar el resultado p.e.
    idea de matar el dolor con un farmaco debe ser erradicada.
 5. evitar estar en estado de tension, ya sea por enojos o por
    preocupacion o por disgusto o por sobrecarga de trabajo, o por lo
-   que sea.
+   que sea. [sino ver dia viernes 29]
 6. Evitar el "encierro" del nuevo local o sea la situacion en la cual
    nos metemos ahi dentro y nos sometemos a una toxicidad que no
    sirve.
