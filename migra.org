@@ -42,6 +42,7 @@
 | [2019-03-31 dom] | Naprux-19hs |                  |               |   |   |
 | [2019-04-01 lun] |             |                  |               |   |   |
 | [2019-04-02 mar] | Naprux-18hs |                  |               |   |   |
+| [2019-04-03 mié] | Naprux-18hs |                  |               |   |   |
 |                  |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -956,6 +957,14 @@ nada mas.
 para todas esas condiciones no muy sanas creo que se porto bien. El
 fisico acuso un cansancio pienso debido a exceso de sueño por falta de
 actividad quizas debida a la falta de incentivos.
+** [2019-04-03 mié]
+reinicio de actividades con bastante cansancio y un dia muy luminoso
+de mas, caluroso para la fecha y con mucha fiaca para ponerme a
+comprar cosas, encima estoy incomodo pq no tengo ropa adecuada de
+semifajina acorde a la temperatura, cosa que no vale la pena
+solucionar dado lo avanzado de la fecha.
+Un N2 molestito dando vueltas lo soluciono con un naprux y sigo
+adelante.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
