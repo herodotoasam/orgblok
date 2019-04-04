@@ -43,6 +43,7 @@
 | [2019-04-01 lun] |             |                  |               |   |   |
 | [2019-04-02 mar] | Naprux-18hs |                  |               |   |   |
 | [2019-04-03 mié] | Naprux-18hs |                  |               |   |   |
+| [2019-04-04 jue] |             |                  |               |   |   |
 |                  |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -957,7 +958,7 @@ nada mas.
 para todas esas condiciones no muy sanas creo que se porto bien. El
 fisico acuso un cansancio pienso debido a exceso de sueño por falta de
 actividad quizas debida a la falta de incentivos.
-** [2019-04-03 mié]
+* [2019-04-03 mié]
 reinicio de actividades con bastante cansancio y un dia muy luminoso
 de mas, caluroso para la fecha y con mucha fiaca para ponerme a
 comprar cosas, encima estoy incomodo pq no tengo ropa adecuada de
@@ -965,7 +966,19 @@ semifajina acorde a la temperatura, cosa que no vale la pena
 solucionar dado lo avanzado de la fecha.
 Un N2 molestito dando vueltas lo soluciono con un naprux y sigo
 adelante.
-
+* [2019-04-04 jue]
+anoche dormi mal, a pesar de que estoy con un masazo en la cabeza de
+sueño desde que volvi de la cabaña, me fui despertando con un N5, y me
+dije que no daba tomar nada ni hacer nada, aparte me tranquilice a mi
+mismo diciendome que a la mañana iba a tomarme un migral si hacia
+falta, pq la perspectiva de remontar con gimnasia y cafe me hubiera
+agitado pq estaba cansado. Y solo quedaba seguir durmiendo, y como
+paso ya en otras ocasiones cuando me desperte, ya tenia un N0.5,
+prorrogue el reloj a 7.30 cancelando la bici mas por el agotamiento
+que por la resaca, me levante bien, un poco desconexo (episodio de
+buscar la media perdida que tenia puesta) y lo mismo hice dos series
+mientras hacia el licuado, tome dos vasos y vine bien, luego tomo un
+cafe breve para completar y/o despertarme mejor.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
