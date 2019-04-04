@@ -212,6 +212,24 @@ cd..='cd ..'
 exit='q'
 && asegura que el segundo comando se ejecute solo si el primer comando
 es exitoso.
+** contactos telefonicos vcf
+1. emitir csv
+select nombre,calle||' '||num,wapp,dni from clientes where wapp is not null and deuda>0 and pmovto>date('now','-4 years');
+
+2. tranformar en vcf con pagina
+[[http://phrogz.net/js/csv2vcard_2.html][pagina]]
+los campos tipo de de campo los setie asi
+encabezado en la entrada primera linea 
+Nombre,Domicilio,WApp,DNI
+Specify Types
+Nombre- First Name
+Domicilio- StreetAdress1 (Home)
+WApp Phone (Cell)
+DNI Company
+
+1. copiar y pegar en editor y ponerle un nombre.vcf
+previamente sacarle las comillas dobles con C-r " 
+2. importarlo con el telefono
 * ATAJOS A APRENDER
 ** control-esc show system activity
 mas rapido y al acceso que ksysguard
