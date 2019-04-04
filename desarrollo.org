@@ -1,0 +1,33 @@
+* ideas o conceptos
+** tdbc para un desarrollo conjunto a partir de ahora
+ir programando sqlite3 con tbdc cosa que sirva el mismo proc y el
+mismo metodo para ambos mundos como ya lo tengo con llenax resulset.
+** uso abreviado del resulset
+#+BEGIN_SRC 
+set recordset [[db prepare "select * from clientes"] execute ]
+#+END_SRC
+** nuevo look
+el look basico sin el optiondatabase. Que para la notebook es tiny,
+para mi compu es un poco mas grande y para la del fede sera mas grande
+pq se arregla agrandando el tipo de letra.
+Es un look claro y limpio como el theme que tengo en emacs ahora
+(leuven), fondo blanco, azul, bisque, amarillo, lightyellow,
+celeste. En los tbls uso el pink/lightblue/lightgreen. Y de ultima
+jugaria con un optiondatabse diferencial para el Fede luego.
+No deja de ser extenuante de todos modos el tema color y diseño. Por
+ahi el diseño y color estilo F13 es agradable luego de años del tosco
+fondo #333333 y el alto contraste que presenta el tablelist con
+colores chocantes a la vista. Lo que no hay que hacer es que el
+colorinche penalice el tiempo de apertura como en stock, eso es
+inaceptable.
+ 
+* proyectos
+** DONE catalogo/catalogopg
+- State "DONE"       from "TODO"       [2019-04-04 jue 20:16]
+este lo tuve que dividir porque hay una situacion de datos que hace
+imposible mantenerlos juntos. Pero los voy llevando unidos desde ahora
+o no los hare mas.
+Tiene un tbls de tablas, (en caso de sqlite filtra las views
+indeseables), y luego automaticamente muestra las columnas y el
+contenido de las ultimas 100 filas, y con doble click en el bodytag
+del tablelist obtengo la totalidad de los registros.
