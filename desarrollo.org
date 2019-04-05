@@ -20,7 +20,16 @@ fondo #333333 y el alto contraste que presenta el tablelist con
 colores chocantes a la vista. Lo que no hay que hacer es que el
 colorinche penalice el tiempo de apertura como en stock, eso es
 inaceptable.
- 
+** funcionamiento del prepare/stmt/resultset
+se puede hacer el prepare con =: o sea no molesta el {} ya que no es
+lo mismo hacer zona=:zona que zona=$zona, incluso funciona en los
+casos de calle=:calle cuando calle es {Obispo Castellano} o sea nos
+olvidamos de entrecomillar nosotros. 
+Luego que el prepare esta listo cuando se dispara el execute, se busca
+el valor que tiene la variable en el ambito que llamo el execute y si
+no existe la variable se pone null, salvo que luego del execute
+agreguemos un dict {calle Solares} O sea de una inteligencia total.
+
 * proyectos
 ** DONE catalogo/catalogopg
 - State "DONE"       from "TODO"       [2019-04-04 jue 20:16]
