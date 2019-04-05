@@ -29,6 +29,11 @@ Luego que el prepare esta listo cuando se dispara el execute, se busca
 el valor que tiene la variable en el ambito que llamo el execute y si
 no existe la variable se pone null, salvo que luego del execute
 agreguemos un dict {calle Solares} O sea de una inteligencia total.
+** clipboard
+aparte de la sencillez de clipboard clear, clipboard append, ahora
+tengo clipboard get facil para bindear a <3>
+bind .dni <3> {set dni [clipboard get]}
+y nada mas no hace falta limpiar ni nada, 
 
 * proyectos
 ** DONE catalogo/catalogopg
