@@ -141,3 +141,12 @@ Reparado: se pudo un label con el nombre del cobrador grande para que
 sea dificil equivocarse y se cambio el campo que limpie los numeros
 cosa que se pueda cambiar el nombre del cobrador sin perder lo
 ingresado.
+* TODO [2019-04-05 vie] periodicidad ventas
+chequear en pasado de ventas que pasa con la periodicidad y de paso
+ver que no se puede editar periodicidad en editar ventas.
+* TODO [2019-04-05 vie] editar articulos en edicion de ventas
+borrado y agregado de articulos
+* TODO [2019-04-05 vie] edicion con borrado y agregado de articulos
+o en general para no tener que recurrir a fichaje.py
+* TODO [2019-04-05 vie] interface de agregado de promotores/cobradores
+
