@@ -44,7 +44,7 @@
 | [2019-04-02 mar] | Naprux-18hs |                  |               |   |   |
 | [2019-04-03 mié] | Naprux-18hs |                  |               |   |   |
 | [2019-04-04 jue] | Naprux-18hs |                  |               |   |   |
-|                  |             |                  |               |   |   |
+| [2019-04-05 vie] |             |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -991,7 +991,11 @@ duro, y un N2/3 esta latente a pesar del naprux con puntaditas en el
 ceño.
 Ahora cierro y descanso, labor cumplida pq me fue bien en la
 programacion.
-
+No estaba en una situacion N0. estaba molestito como decia N2/3 y me
+tome un te con un pancito integral mani y queso y dormi profundamente
+hasta el punto que me costo levantarme a la mañana y tuve que pasarme
+por alto la bici y desperte N0.
+* [2019-04-05 vie]
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

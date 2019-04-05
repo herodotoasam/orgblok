@@ -40,3 +40,13 @@ Tiene un tbls de tablas, (en caso de sqlite filtra las views
 indeseables), y luego automaticamente muestra las columnas y el
 contenido de las ultimas 100 filas, y con doble click en el bodytag
 del tablelist obtengo la totalidad de los registros.
+** TODO autorizador
+seria un megaform que tome el DNI que pueda pegarse con boton derecho
+y/o un boton, que busque en romitex y entregue toda la info en forma
+clara y concisa en formatos de colores y tablas bien visibles.
+
+Como segunda parte que tenga un registro de las autorizaciones pedidas
+con fecha y hora y su resultado, pq abajo se pondria si fue autorizado
+o rechazado. 
+
+
