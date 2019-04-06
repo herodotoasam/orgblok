@@ -1,50 +1,52 @@
-| [2019-02-18 lun] | MIG-12hs    | i600-17hs        |               |   |   |
-| [2019-02-19 mar] | MIG-03hs    | i600-12hs        | MIG-23hs      |   |   |
-| [2019-02-20 mié] | i600-15hs   | MIG-15.45hs      | C10mg-16.30hs |   |   |
-| [2019-02-21 jue] | C20m-8hs    |                  |               |   |   |
-| [2019-02-22 vie] | C20m-8hs    |                  |               |   |   |
-| [2019-02-23 sáb] | C20m-8hs    | Nx-18hs          | Nx-22.30hs    |   |   |
-| [2019-02-24 dom] | C20m-8hs    | Nx-22.30hs       | MIG-00hs      |   |   |
-| [2019-02-25 lun] | C20m-8hs    | i600-23.30hs     |               |   |   |
-| [2019-02-26 mar] | C20m-8hs    |                  |               |   |   |
-| [2019-02-27 mié] | C20m-8hs    |                  |               |   |   |
-| [2019-02-28 jue] | C20m-8hs    |                  |               |   |   |
-| [2019-03-01 vie] | C20m-8hs    |                  |               |   |   |
-| [2019-03-02 sáb] | C20m-8hs    |                  |               |   |   |
-| [2019-03-03 dom] | C20m-8hs    | Dic50m-15hs      | MIG-19hs      |   |   |
-| [2019-03-04 lun] | C20m-8hs    |                  |               |   |   |
-| [2019-03-05 mar] | C20m-8hs    |                  |               |   |   |
-| [2019-03-06 mié] | C10m-8hs    |                  |               |   |   |
-| [2019-03-07 jue] | C10m-8hs    |                  |               |   |   |
-| [2019-03-08 vie] | C10m-8hs    | FIN cortiterapia |               |   |   |
-| [2019-03-09 sáb] |             |                  |               |   |   |
-| [2019-03-10 dom] | Dic50m-7hs  |                  |               |   |   |
-| [2019-03-11 lun] |             |                  |               |   |   |
-| [2019-03-12 mar] |             |                  |               |   |   |
-| [2019-03-13 mié] |             |                  |               |   |   |
-| [2019-03-14 jue] |             |                  |               |   |   |
-| [2019-03-15 vie] |             |                  |               |   |   |
-| [2019-03-16 sáb] | Dic50m-4hs  |                  |               |   |   |
-| [2019-03-17 dom] | Dic75m-16hs |                  |               |   |   |
-| [2019-03-18 lun] | Dic50m-14hs |                  |               |   |   |
-| [2019-03-19 mar] | Dic50m-16hs |                  |               |   |   |
-| [2019-03-20 mié] |             |                  |               |   |   |
-| [2019-03-21 jue] | Dic50m-14hs |                  |               |   |   |
-| [2019-03-22 vie] | Dic75m-19hs |                  |               |   |   |
-| [2019-03-23 sáb] |             |                  |               |   |   |
-| [2019-03-24 dom] |             |                  |               |   |   |
-| [2019-03-25 lun] |             |                  |               |   |   |
-| [2019-03-26 mar] |             |                  |               |   |   |
-| [2019-03-27 mié] | Dic50m-19hs |                  |               |   |   |
-| [2019-03-28 jue] | Dic50m-8hs  |                  |               |   |   |
-| [2019-03-29 vie] | Naprux-8hs  | Naprux-16hs      | MIG-17hs      |   |   |
-| [2019-03-30 sáb] |             |                  |               |   |   |
-| [2019-03-31 dom] | Naprux-19hs |                  |               |   |   |
-| [2019-04-01 lun] |             |                  |               |   |   |
-| [2019-04-02 mar] | Naprux-18hs |                  |               |   |   |
-| [2019-04-03 mié] | Naprux-18hs |                  |               |   |   |
-| [2019-04-04 jue] | Naprux-18hs |                  |               |   |   |
-| [2019-04-05 vie] |             |                  |               |   |   |
+| [2019-02-18 lun] | MIG-12hs     | i600-17hs        |               |   |   |
+| [2019-02-19 mar] | MIG-03hs     | i600-12hs        | MIG-23hs      |   |   |
+| [2019-02-20 mié] | i600-15hs    | MIG-15.45hs      | C10mg-16.30hs |   |   |
+| [2019-02-21 jue] | C20m-8hs     |                  |               |   |   |
+| [2019-02-22 vie] | C20m-8hs     |                  |               |   |   |
+| [2019-02-23 sáb] | C20m-8hs     | Nx-18hs          | Nx-22.30hs    |   |   |
+| [2019-02-24 dom] | C20m-8hs     | Nx-22.30hs       | MIG-00hs      |   |   |
+| [2019-02-25 lun] | C20m-8hs     | i600-23.30hs     |               |   |   |
+| [2019-02-26 mar] | C20m-8hs     |                  |               |   |   |
+| [2019-02-27 mié] | C20m-8hs     |                  |               |   |   |
+| [2019-02-28 jue] | C20m-8hs     |                  |               |   |   |
+| [2019-03-01 vie] | C20m-8hs     |                  |               |   |   |
+| [2019-03-02 sáb] | C20m-8hs     |                  |               |   |   |
+| [2019-03-03 dom] | C20m-8hs     | Dic50m-15hs      | MIG-19hs      |   |   |
+| [2019-03-04 lun] | C20m-8hs     |                  |               |   |   |
+| [2019-03-05 mar] | C20m-8hs     |                  |               |   |   |
+| [2019-03-06 mié] | C10m-8hs     |                  |               |   |   |
+| [2019-03-07 jue] | C10m-8hs     |                  |               |   |   |
+| [2019-03-08 vie] | C10m-8hs     | FIN cortiterapia |               |   |   |
+| [2019-03-09 sáb] |              |                  |               |   |   |
+| [2019-03-10 dom] | Dic50m-7hs   |                  |               |   |   |
+| [2019-03-11 lun] |              |                  |               |   |   |
+| [2019-03-12 mar] |              |                  |               |   |   |
+| [2019-03-13 mié] |              |                  |               |   |   |
+| [2019-03-14 jue] |              |                  |               |   |   |
+| [2019-03-15 vie] |              |                  |               |   |   |
+| [2019-03-16 sáb] | Dic50m-4hs   |                  |               |   |   |
+| [2019-03-17 dom] | Dic75m-16hs  |                  |               |   |   |
+| [2019-03-18 lun] | Dic50m-14hs  |                  |               |   |   |
+| [2019-03-19 mar] | Dic50m-16hs  |                  |               |   |   |
+| [2019-03-20 mié] |              |                  |               |   |   |
+| [2019-03-21 jue] | Dic50m-14hs  |                  |               |   |   |
+| [2019-03-22 vie] | Dic75m-19hs  |                  |               |   |   |
+| [2019-03-23 sáb] |              |                  |               |   |   |
+| [2019-03-24 dom] |              |                  |               |   |   |
+| [2019-03-25 lun] |              |                  |               |   |   |
+| [2019-03-26 mar] |              |                  |               |   |   |
+| [2019-03-27 mié] | Dic50m-19hs  |                  |               |   |   |
+| [2019-03-28 jue] | Dic50m-8hs   |                  |               |   |   |
+| [2019-03-29 vie] | Naprux-8hs   | Naprux-16hs      | MIG-17hs      |   |   |
+| [2019-03-30 sáb] |              |                  |               |   |   |
+| [2019-03-31 dom] | Naprux-19hs  |                  |               |   |   |
+| [2019-04-01 lun] |              |                  |               |   |   |
+| [2019-04-02 mar] | Naprux-18hs  |                  |               |   |   |
+| [2019-04-03 mié] | Naprux-18hs  |                  |               |   |   |
+| [2019-04-04 jue] | Naprux-18hs  |                  |               |   |   |
+| [2019-04-05 vie] |              |                  |               |   |   |
+| [2019-04-06 sáb] | Diclo50m-8hs |                  |               |   |   |
+|                  |              |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1002,6 +1004,13 @@ en la oficina, previo haberme venido a buscar un papel mediamañana y
 estar en ofi sin licuado. Y luego apenas comi, casi con la comida en
 la boca, me fui al local y trabaje como un enano boliviano, y me volvi
 tipo 18.30 con todos los musculos doloridos.
+* [2019-04-06 sáb]
+luego de un dia perfecto sin Ns me levanto luego de dormir sin
+molestias, pero no bien ni placenteramente, o sea sin molestias de Ns,
+pero no dormi con placer a eso me refiero, quizas pq estaba muy
+cansado y sigo cansado al levantarme, me levanto con un N3 punzante
+izquierdo y me tomo de desayuno nomas diclo con resto de licuado y voy
+directo a la programacion sin ejercicio por ahora.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
@@ -1128,5 +1137,10 @@ queremos cambiar el resultado p.e.
    enfrentamientos y falta de aire, aire viciado, falta de movimiento
    y compensacion via cafeina. Porque todo eso termina generando
    situaciones que no convienen a nivel dolor.
+7. Casi completando el primer mes del postWD con 16 aines y un mig
+   pienso que es mucho aine. Maxime que muchos de ellos fueron al
+   vicio y se podrian haber obviado para no caer nuevamente en un
+   consumo cada vez mas alto que nos traiga otro tipo de problemas,
+   p.e. digestivos. (naprux y diclo son fuertes en ese sentido)
 
 

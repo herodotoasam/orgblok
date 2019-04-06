@@ -61,7 +61,30 @@ nombres de las columnas de la tabla lo hace el dict/array.
 como ya lo vengo haciendo es mas claro de mantener y de ubicar, muchas
 veces tienen el mismo patron, y practicamente se agrupan los proc con
 el mismo prefijo o sea empiezan con res y ya sabemos que es un resaltado.
-
+** cambios en llenarx / recalcx
+para evitar problemas e integrar recalcx hice los siguientes cambios:
+1. el metodo recalc le puse un if inicial que se fija si la variable
+   _tdbc es 1 y pasa por alto todo y directamente llama a
+   recalcx. recalcx lo que hace es llenarx $_stmt $_res siendo estas
+   ambas variables guardadas oportunamente
+2. lamentablemente no puedo trabajar con resulset sino un paso mas
+   atras con stmt y hacer que el resultset lo calcule el llenarx. O
+   sea hago el prepare directo
+   set stmt [db prepare sql]  y eso envio al llenarx.
+3. La unica desventaja (y lo que me hizo perder mucho tiempo) es que
+   pierdo el :var y la lectura local del ambito llamante, lo cual es
+   obvio usandose asi como metodo y menos guardandose en la clase para
+   un recalculo. Asi que el stmt se debe hacer entrecomillado y
+   calculado con las variables del momento con $, cuidando los ''
+   respectivos y enviar el stmt que responda a lo local, sino ese
+   prepare no obtendra ningun resultado en la clase.
+** tema current_timestamp/datetime
+en sqlite el current_timestam se guarda en en UTC o sea en GMT lo cual
+difiere 3 hs lo nuestro. Lo cual es considerado una buena practica a
+nivel base de datos.
+Para expresarlo en los formularios hay que hacer la transcripcion a
+localtime, mediante la funcion datetime(campofecha,'localtime'), con
+el modificador 'localtime' se logra que se muestre la hora correcta.
 * proyectos
 ** DONE catalogo/catalogopg
 - State "DONE"       from "TODO"       [2019-04-04 jue 20:16]
@@ -82,3 +105,12 @@ con fecha y hora y su resultado, pq abajo se pondria si fue autorizado
 o rechazado. 
 
 
+Por el momento estoy en la simpleza de mostrar una tabla con los datos
+en un tbls y ver la direccion.
+Me movere ahora en la de autorizar/rechazar y ver las "direcciones" en
+las cuales van vendiendo para ver que no haya problema ahi lo cual
+puede ser dificultoso cuando vayan avanzando.
+
+Pero queda el problema de las direcciones de los que no sean clientes
+para ver si hay ventas en la direccion. alli habra otro cuadrito de
+entrada con calle y numero 
