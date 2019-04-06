@@ -34,6 +34,33 @@ aparte de la sencillez de clipboard clear, clipboard append, ahora
 tengo clipboard get facil para bindear a <3>
 bind .dni <3> {set dni [clipboard get]}
 y nada mas no hace falta limpiar ni nada, 
+** $resultset nextdict vardict
+directamente te tira un row como diccionario en forma muy directa
+luego para sacar la variable chequeamos con dict exists y luego dict
+get pq sino da error.
+
+#+BEGIN_SRC
+foreach w {nombre calle num barrio wapp tel} {
+    if {[dict exists $cliente $w]} {
+    set $w [dict get $cliente $w]
+}}
+#+END_SRC
+
+tener en cuenta tambien que se puede transformar ese dict en un array
+muy facilmente 
+p.e.
+$resulset nextdict dictcliente
+array set cliente $dictcliente ;# donde se paso el dict al array
+luego $cliente(nombre) $cliente(calle) etc seran operativos por lo
+cual estariamos en la misma operatividad que teniamos con el viejo
+sqlite solo con una linea de codigo. o sea array set.
+Esto es repractico pq no tenemos que andar con un monton de variables
+y solo globalizamos el nombre del array, y el manejo automatico de los
+nombres de las columnas de la tabla lo hace el dict/array.
+** el resaltado en proc aparte
+como ya lo vengo haciendo es mas claro de mantener y de ubicar, muchas
+veces tienen el mismo patron, y practicamente se agrupan los proc con
+el mismo prefijo o sea empiezan con res y ya sabemos que es un resaltado.
 
 * proyectos
 ** DONE catalogo/catalogopg
