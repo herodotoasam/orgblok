@@ -121,6 +121,11 @@ efecto usuahia 1872.
 
 Agregue link a comentarios viejos y nuevos.
 Por el momento no veo nada para agregar.
+*** agregar los autorizados que no son de romitex aunque sea solo dni
+*** agregar promotor
+*** agregar/cargar datos de los rechazados no romitex
+*** emitir diariamente un archivo enviable de resumen de autorizados/rechaz.
+
 * Ideas en general
 ** ir depurando comentarios a mano
 va a ser la unica manera de salir de eso
