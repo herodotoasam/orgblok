@@ -46,6 +46,7 @@
 | [2019-04-04 jue] | Naprux-18hs  |                  |               |   |   |
 | [2019-04-05 vie] |              |                  |               |   |   |
 | [2019-04-06 sáb] | Diclo50m-8hs |                  |               |   |   |
+| [2019-04-07 dom] |              |                  |               |   |   |
 |                  |              |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1011,6 +1012,16 @@ pero no dormi con placer a eso me refiero, quizas pq estaba muy
 cansado y sigo cansado al levantarme, me levanto con un N3 punzante
 izquierdo y me tomo de desayuno nomas diclo con resto de licuado y voy
 directo a la programacion sin ejercicio por ahora.
+Me dio por acostarme tipo 18.30 para recordar viejos tiempos, pero me
+puse a repasar los habitos y me entro una energia para por lo menos
+poner series, y como habian sido dispersas las de la mañana me dije
+que al menos dos enteras, y me hice tres perfectas series, y vi como
+la energia me entro, tanto que si hubiera estado en mi casa hacia el
+pushup.
+* [2019-04-07 dom]
+dormi bien y me levante a las 10. Desayune mucho y me puse a programar
+un poco, intercalando series. 
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

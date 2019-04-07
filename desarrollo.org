@@ -113,4 +113,22 @@ puede ser dificultoso cuando vayan avanzando.
 
 Pero queda el problema de las direcciones de los que no sean clientes
 para ver si hay ventas en la direccion. alli habra otro cuadrito de
-entrada con calle y numero 
+entrada con calle y numero.
+
+Tendriamos que ir un paso mas alla ahora y buscar que la direccion no
+aparezca ni en la aclaracion ni en ningun otro campo, para evitar el
+efecto usuahia 1872.
+
+Agregue link a comentarios viejos y nuevos.
+Por el momento no veo nada para agregar.
+* Ideas en general
+** ir depurando comentarios a mano
+va a ser la unica manera de salir de eso
+** agregar campos de info no visible en ficha pero util para informacion
+como un campo direccion relacionada, un campo persona relacionada, o
+acaso ese concepto se une al anterior, un campo que se pueda anotar en
+el momento de la venta pq sigo anotando o bien en infoseven o en
+comentarios viejos, un campo para que quede la info en primera plana
+para la aprobacion o denegacion de creditos futuros que tenga
+prioridad sobre todos los otros items o sea que sea como el campo
+nuevo. y lo que diga ese campo nuevo no se discute.
