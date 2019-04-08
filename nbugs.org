@@ -148,7 +148,19 @@ lo del pasado es pq el combo es un combo itk y tendria que ser un
 combo comun, pq uno se olvida el funcionamiento.
 * TODO [2019-04-05 vie] editar articulos en edicion de ventas
 borrado y agregado de articulos
-* TODO [2019-04-05 vie] edicion con borrado y agregado de articulos
+* DONE [2019-04-05 vie] edicion con borrado y agregado de articulos
+- State "DONE"       from "TODO"       [2019-04-08 lun 16:58]
 o en general para no tener que recurrir a fichaje.py
 * TODO [2019-04-05 vie] interface de agregado de promotores/cobradores
-
+* DONE [2019-04-08 lun] modifico la busqueda de num cuenta en buscador
+- State "DONE"       from "TODO"       [2019-04-08 lun 15:44]
+pq se hacia molesto la costumbre de poner el numero de cuenta en el
+campo buscar y que no te la busque. 
+Lo hice con un elif ya que el campo buscar original luego se
+transforma en cadbuscar intercalandole los % o sea que cuando ponemos
+un numero de cuenta de 5 cifras el buscar es puro y una regexp lo
+captura.
+La regexp es 
+regexp {^[0-9]{5}$ $buscar} eso permite poniendola como primer opcion
+que sigan funcionando las opciones de busqueda de dni y telefono.
+ 
