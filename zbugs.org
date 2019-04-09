@@ -1,0 +1,27 @@
+* buscador no busca ciertos casos
+[2019-04-09 mar]
+descubri que habia que sacar la mencion a mjecobr en el armado de la
+base de busqueda
+
+#+BEGIN_SRC
+.resultados.tbls insertlist end [tabule "select distinct 
+    case
+	when subirseven=1 then 'SUBE'
+	when deuda=0 and sev=1 then 'BAJA'
+	when sev=1 then 'SEV'
+	when incobrable=1 then 'INC'
+	when mudo=1 then 'MUD'
+	when deuda>0 and clientes.pmovto<date('now','-4 months') then 'MORA'
+	when deuda>0 and clientes.pmovto>=date('now','-4 months') then 'DEBE'
+	when deuda=0 and baja!='' and alta!='' then 'exSEV'
+	else '' END as tag,
+         dni,nombre,
+         calle,num,tel,zona,acla,barrio from clientes where
+          tag||dni||nombre||calle||num||tel||barrio||zona||acla like '$cadbuscar'" db]
+
+    }
+#+END_SRC
+En la ultima linea ||acla||mjecobr se armaba con los datos de mjecobr
+y eso hacia que esos registros desaparecieran.
+Habria que estar atentos que no haya otro bug parecido o que el bug se
+replique en el autorizador.
