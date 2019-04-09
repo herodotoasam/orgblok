@@ -48,6 +48,8 @@ posible. P.e. un pasado por botones en art puede ser muy rapido
 comparado ese bloque de combo que es muy lento. y es el lugar donde
 mas lento se me pone. 
 * TODO [2019-03-07 jue] que tendria que tener ventas nuevo
+** solucionar tema sexo, con botones pq ese combo es cumbersome
+es muy molesto
 ** DONE pararse en los botones
 - State "DONE"       from "TODO"       [2019-03-07 jue 16:07]
 Documentacion de pararse en los botones:
