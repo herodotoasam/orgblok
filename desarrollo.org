@@ -1,4 +1,4 @@
-* ideas o conceptos
+* conceptos
 ** tdbc para un desarrollo conjunto a partir de ahora
 ir programando sqlite3 con tbdc cosa que sirva el mismo proc y el
 mismo metodo para ambos mundos como ya lo tengo con llenax resulset.
@@ -78,6 +78,10 @@ para evitar problemas e integrar recalcx hice los siguientes cambios:
    calculado con las variables del momento con $, cuidando los ''
    respectivos y enviar el stmt que responda a lo local, sino ese
    prepare no obtendra ningun resultado en la clase.
+   PRESTAR ATENCION QUE ESTE ES EL MAYOR PROBLEMA CUANDO UN LLENARX NO
+   FUNCIONA Y ES QUE EL ENVIADO DE VARIABLES CON =: NO FUNCIONA Y HAY
+   QUE HACERLO CON $.
+
 ** tema current_timestamp/datetime
 en sqlite el current_timestam se guarda en en UTC o sea en GMT lo cual
 difiere 3 hs lo nuestro. Lo cual es considerado una buena practica a
@@ -85,6 +89,30 @@ nivel base de datos.
 Para expresarlo en los formularios hay que hacer la transcripcion a
 localtime, mediante la funcion datetime(campofecha,'localtime'), con
 el modificador 'localtime' se logra que se muestre la hora correcta.
+** operador ternario x?y:z
+ES X V O F?? --> si es verdad y si es falso z 
+PREGUNTA ? VERDAD : FALSO
+
+If-then-else, as in C. If x evaluates to non-zero, then the result is
+the value of y. Otherwise the result is the value of z. The x operand
+must have a boolean or numeric value.
+
+#+BEGIN_SRC
+    foreach row [range 0 [expr [$tbl size]>200?200:[$tbl size]]] {
+#+END_SRC
+Aca se pudo usar el operador ternario para con compacidad y elegancia
+prever dos opciones:
+si el tamaño de la tabla era mayor de 200 se usaba el maximo de 200 y
+si el tamaño era menor se usaba el size de la tabla. 
+En este caso x es [tbl size]>200 cuando esa expresion da 1 o sea
+cuando es verdadera se gatilla el y o sea se obtiene 200, y cuando esa
+expresion es falsa o sea 0, se obtiene z que seria el size.
+El error que cometia yo era no poner el comando expr y encerrarlo como
+comando, y alli me recorde el aforismo que habia leido por ahi:
+EN TCL NO PIENSE EN STATEMENTS SINO EN COMANDOS.
+el comando es expr y al ser un comando a evaluar hay que encerrarlo en
+[], y los elementos del comando son en este caso x?y:z, x lo que puede
+dar verdad o falso, y si es verdad y z si es falso.
 * proyectos
 ** DONE catalogo/catalogopg
 - State "DONE"       from "TODO"       [2019-04-04 jue 20:16]
@@ -125,6 +153,24 @@ Por el momento no veo nada para agregar.
 *** agregar promotor
 *** agregar/cargar datos de los rechazados no romitex
 *** emitir diariamente un archivo enviable de resumen de autorizados/rechaz.
+** ventas
+por el momento estoy ordenando basado en los siguientes puntos
+1. saco el colorscheme dejando el nuevo natural colorscheme
+2. saco los larguisimos procesos de los binds y los buttons a proc y
+   los voy ordenando
+3. saco el buscar padron por nombre pq resulto en la practica no usado
+4. cambio los colores rosa por dodgeblue2
+5. MUYIMPORTANTE: cambio el sqlite db eval por tdbc::sqlite por mas
+   que es mas verbose que el otro crea la base para la transformacion
+   para postgres
+6. voy solucionando los problemas ergonomicos esa es la idea tambien,
+   p.e. el tema sexo que lo pase a botones.
+7. correccion de pequeños bugs anteriores como la falta de limpiado
+   del wassap.
+8. tambien va una correccion a nivel codigo que estaba improlijo los
+   margenes.
+
+
 
 * Ideas en general
 ** ir depurando comentarios a mano

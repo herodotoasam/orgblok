@@ -48,6 +48,7 @@
 | [2019-04-06 sáb] | Diclo50m-8hs  |                  |               |   |   |
 | [2019-04-07 dom] |               |                  |               |   |   |
 | [2019-04-08 lun] | Diclo50m-15hs |                  |               |   |   |
+| [2019-04-09 mar] | Naprux-16hs   |                  |               |   |   |
 |                  |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1034,6 +1035,15 @@ aunque me habia levantado bien e ido al banco y a pagar el alquiler,
 luego a dormir una minisiesta, el ambiente tenso de la oficina termino
 siendo nocivo para el dolor de cabeza, decido venirme a programar a la
 oficina en vez de quedarme en mi casa y me termino tomando un diclo.
+* [2019-04-09 mar]
+hoy transcurrio el dia muy bien, mañana, banco, almuerzo, siesta, un
+poco somñolenta y me costo levantarme el plan era programar, estaba
+pautado y arreglado, no habia problema con eso, y luego de un par de
+horas tipo 16 me invadio un destornillador, al que me rehuse como no,
+y aunque me tome un naprux, hice todo tipo de actividad, de mixtura
+con la programacion, pero segui en la misma absorvido y se limpio el
+martillo, casi a N0.
+
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD

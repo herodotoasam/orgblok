@@ -673,6 +673,14 @@ solo. Pero mejor estar solo y no que te saquen.
 En lo personal me aferro a los habitos, a seguir haciendo las cosas
 bien tratando de que con el tiempo se perciban las mejoras.
 Por el momento creo que estoy en un tiempo de transicion.  
+** [2019-04-09 mar]
+lanzado con todo en la programacion. Te lleva horas y horas, pero a mi
+me gusta. Casi 5hs con las pausas necesarias pero muy satisfecho con
+el resultado, que no es fantastico pero va avanzando. 
+Me preguntaba que pasaria si de pronto viniera un programador a la
+empresa e hiciera un superprograma tipo como tienen los de interplan y
+toda mi programacion quedara obsoleta y triste. Pero creo que eso debe
+costar plata. Una buena cantidad de plata.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

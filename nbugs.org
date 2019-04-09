@@ -24,7 +24,8 @@ imprime el listado.
 - State "DONE"       from "TODO"       [2019-02-04 lun 17:20]
 chequear cuenta 71291
 * TODO [2019-02-12 mar] crear una consulta para saber lo cobrado en planes de pagos
-* TODO [2019-02-12 mar] editador de detvta
+* DONE [2019-02-12 mar] editador de detvta
+- State "DONE"       from "TODO"       [2019-04-09 mar 19:31]
 continuar con la labor de editar ventas 
 * TODO [2019-02-06 mié] crear un sistema de registro de las autorizaciones 
 ** en buscador facil puede ser un boton
@@ -48,7 +49,8 @@ posible. P.e. un pasado por botones en art puede ser muy rapido
 comparado ese bloque de combo que es muy lento. y es el lugar donde
 mas lento se me pone. 
 * TODO [2019-03-07 jue] que tendria que tener ventas nuevo
-** solucionar tema sexo, con botones pq ese combo es cumbersome
+** DONE solucionar tema sexo, con botones pq ese combo es cumbersome
+- State "DONE"       from "TODO"       [2019-04-09 mar 19:33]
 es muy molesto
 ** DONE pararse en los botones
 - State "DONE"       from "TODO"       [2019-03-07 jue 16:07]
