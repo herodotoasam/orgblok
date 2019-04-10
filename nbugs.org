@@ -168,4 +168,5 @@ captura.
 La regexp es 
 regexp {^[0-9]{5}$ $buscar} eso permite poniendola como primer opcion
 que sigan funcionando las opciones de busqueda de dni y telefono.
- 
+* TODO [2019-04-10 mié] cuando alguien cancele que no se genere saldo negativo
+y mucho menos que tenga seven.

@@ -153,6 +153,26 @@ Por el momento no veo nada para agregar.
 *** agregar promotor
 *** agregar/cargar datos de los rechazados no romitex
 *** emitir diariamente un archivo enviable de resumen de autorizados/rechaz.
+*** URG: ESTIMADOR DE FORMA DE PAGO
+propongo un analisis de los pagos anteriores mediante una exposicion
+clara por medio de una coloracion entre roja y blanca, o sea termica
+que indique si pago atrasada o pago al dia, con ciertos parametros que
+indique a simple vista si alguien sirve o no sirve.
+Para lo cual necesitaria tener un campo en la tabla pagos de cantidad
+de dias de atraso, para lo cual necesitaria un vencimiento.
+Pienso que podria "armar" un vencimiento mediante ir poniendo o
+sumando a los importes pagados la fecha.
+O sea puedo poner una columna cuota efectiva haciendo una sumatoria
+del pago, o sea si tengo una cuota de 300 y pago 100 es cuota 1, luego
+pago 200 sigue siendo cuota 1, pago 300 es cuota 2, etc. O sea tiene
+que hacerse un algorritmo para que cargue en los pagos el numero de
+cuota que corresponde. Una vez con numero de cuota, facilmente se le
+calcula cuando vencio esa cuota, y que atraso tuvo al pagar, y que
+color le corresponde.
+Todo es un algorritmo.
+Si a ese algorritmo le sumamos una actualizacion de las cuotas, o sea
+ver el importe actualizado, lo cual obtenemos por una funcion logramos
+que el operador este en mejores condiciones para decidir el credito. 
 ** ventas
 por el momento estoy ordenando basado en los siguientes puntos
 1. saco el colorscheme dejando el nuevo natural colorscheme
@@ -169,7 +189,14 @@ por el momento estoy ordenando basado en los siguientes puntos
    del wassap.
 8. tambien va una correccion a nivel codigo que estaba improlijo los
    margenes.
-
+** test gui
+traer los elementos de mantenimiento de la base de datos pero en una
+gui de vision continua pq el otro demostro ser inusable.
+Doy prioridad a esto por lo necesario.
+No estan pasados todos los tests sino los que dan positivos, la idea
+es que luego de corregir se corra el test de consola tambien y no de
+ninguna salida, y que si alguna vez da salida ir agregando lo que de
+salida.
 
 
 * Ideas en general
