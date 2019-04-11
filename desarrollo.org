@@ -153,7 +153,8 @@ Por el momento no veo nada para agregar.
 *** agregar promotor
 *** agregar/cargar datos de los rechazados no romitex
 *** emitir diariamente un archivo enviable de resumen de autorizados/rechaz.
-*** URG: ESTIMADOR DE FORMA DE PAGO
+*** DONE URG: ESTIMADOR DE FORMA DE PAGO
+- State "DONE"       from "TODO"       [2019-04-11 jue 19:03]
 propongo un analisis de los pagos anteriores mediante una exposicion
 clara por medio de una coloracion entre roja y blanca, o sea termica
 que indique si pago atrasada o pago al dia, con ciertos parametros que
@@ -173,6 +174,20 @@ Todo es un algorritmo.
 Si a ese algorritmo le sumamos una actualizacion de las cuotas, o sea
 ver el importe actualizado, lo cual obtenemos por una funcion logramos
 que el operador este en mejores condiciones para decidir el credito. 
+hecho en forma genial pienso, una vez puesto en la forma de hacer los
+ciclos con db eval salio todo tal cual lo pensaba, es mas facil
+hacerlo que plantearlo.
+Ahora pienso que hacerlo mientras se pasan los pagos va a ser mas
+facil aun.
+El actualizador de cuotas funciona pero le faltan datos monetarios al
+array, para que sea mas relevante, podria hacerlo morder year-month y
+en todos los year hacerlos igual a los datos y en el 18 poner todos
+los datos cosa de que no distorsione tanto.
+Creo que el adecuar los datos es algo semitedioso que se puede hacer
+cada seis meses o un año, se deberia poder tener otra solucion que
+solo agregue los ultimos guarismos y no tenga que cambiar todo.
+*** TODO agregar busqueda por nombre
+*** TODO adecuar pasar pagos para que anote que cuota corresponde el pago
 ** ventas
 por el momento estoy ordenando basado en los siguientes puntos
 1. saco el colorscheme dejando el nuevo natural colorscheme

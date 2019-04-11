@@ -681,6 +681,23 @@ Me preguntaba que pasaria si de pronto viniera un programador a la
 empresa e hiciera un superprograma tipo como tienen los de interplan y
 toda mi programacion quedara obsoleta y triste. Pero creo que eso debe
 costar plata. Una buena cantidad de plata.
+** [2019-04-11 jue]
+*** habits
+muy bueno el control de habitos del celu, mejor que el de emacs pq es
+mas portable y es formidable lo que pecha el control de habito en
+querer hacer las cosas, no se porque pero funciona, uno hay veces que
+piensa en lo desdichado que es pq tiene ciertas obligaciones pero al
+fin y al cabo uno mismo se las puso y es para el bien de uno. Y cuando
+las hace siente un pechon de energia positiva muy bueno.
+*** estudio dirigido / al menos ficha de problemas resueltos al programar
+aparte de programar todo tapon o tema que causa que tenga que recurrir
+al manual page, lo hago ficha, pq esas fichas van a ser estudiadas y
+memorizadas a full para que la programacion sea fluida, y la lectura
+concentrada tambien ayuda.
+*** relectura de resaltados
+cuando estamos varados en la lectura al menos leer los resaltados
+ayuda a retomar ritmos que hemos dejado y al menos a cambiar un poco
+de aire.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

@@ -50,6 +50,7 @@
 | [2019-04-08 lun] | Diclo50m-15hs |                  |               |   |   |
 | [2019-04-09 mar] | Naprux-16hs   |                  |               |   |   |
 | [2019-04-10 mié] |               |                  |               |   |   |
+| [2019-04-11 jue] |               |                  |               |   |   |
 |                  |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1055,6 +1056,13 @@ me despejo un poco, y la idea que estaba pergeñando se hizo mas
 grande, y aunque no me aboco a ella, la dejo bien planteada para
 encararla mañana o los proximos dias, pq es grande de verdad. Un dia
 puede estar momentaneamente trabado pero termina bien despues.
+* [2019-04-11 jue]
+esplendido, todo, incluso no tuve siesta como ayer tampoco la tuve,
+pero tengamos en cuenta que estuve muy motivado por un proyecto de
+programacion que me ha dejado un poco entablillado, pero contento y
+feliz.
+De todos modos hice las dos series que me falta, y la limpiecita.
+Me faltaria hacer el pushup para ponerme al dia.
 
 
 * CONCLUSIONES
