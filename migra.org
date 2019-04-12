@@ -51,6 +51,7 @@
 | [2019-04-09 mar] | Naprux-16hs   |                  |               |   |   |
 | [2019-04-10 mié] |               |                  |               |   |   |
 | [2019-04-11 jue] |               |                  |               |   |   |
+| [2019-04-12 vie] |               |                  |               |   |   |
 |                  |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1063,8 +1064,13 @@ programacion que me ha dejado un poco entablillado, pero contento y
 feliz.
 De todos modos hice las dos series que me falta, y la limpiecita.
 Me faltaria hacer el pushup para ponerme al dia.
-
-
+* [2019-04-12 vie]
+otro dia joyita igual que los anteriores dos, sin siesta y con mate me
+dedico a programar y a cumplir los habitos y a estar bien conmigo
+mismo.
+Lo bueno es que en ciertos momentos de la semana parece que fueras a
+sosobrar y luego cuando has cumplido con todas las expectativas te
+encontras optimo y eso esta bueno.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
