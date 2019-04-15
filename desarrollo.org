@@ -123,7 +123,8 @@ Tiene un tbls de tablas, (en caso de sqlite filtra las views
 indeseables), y luego automaticamente muestra las columnas y el
 contenido de las ultimas 100 filas, y con doble click en el bodytag
 del tablelist obtengo la totalidad de los registros.
-** TODO autorizador
+** DONE autorizador
+- State "DONE"       from "TODO"       [2019-04-15 lun 14:05]
 seria un megaform que tome el DNI que pueda pegarse con boton derecho
 y/o un boton, que busque en romitex y entregue toda la info en forma
 clara y concisa en formatos de colores y tablas bien visibles.
@@ -186,8 +187,23 @@ los datos cosa de que no distorsione tanto.
 Creo que el adecuar los datos es algo semitedioso que se puede hacer
 cada seis meses o un año, se deberia poder tener otra solucion que
 solo agregue los ultimos guarismos y no tenga que cambiar todo.
-*** TODO agregar busqueda por nombre
+*** DONE agregar busqueda por nombre
+- State "DONE"       from "TODO"       [2019-04-15 lun 13:59]
 *** TODO adecuar pasar pagos para que anote que cuota corresponde el pago
+*** CAMBIOS EN EL CONCEPTO:
+elimino el concepto de anotar y registrar los aprobados y rechazados,
+por el hecho que es una idea fallada pq es parcial, ya que el universo
+de romitex es una parte de los rechazos totales, la mayoria de los
+cuales son por seven. 
+En la idea nueva en la cual no filtrariamos por seven mucho sentido no
+tiene anotar los aceptados y los rechazados dentro de la base de
+datos.
+Si en cambio tendria sentido agregar a la base de datos los morosos
+que descubrieramos del seven que rechazaramos por ese motivo y los
+cargaramos para ponerlos en lista negra, pero en realidad es tedioso
+hacerlo, y si no se hace con todos los datos tampoco sirve mucho luego
+como base segura para la reprobacion de un credito. Y de nuevo con el
+sistema nuevo no va a existir mucho de este sistema.
 ** ventas
 por el momento estoy ordenando basado en los siguientes puntos
 1. saco el colorscheme dejando el nuevo natural colorscheme
@@ -204,7 +220,12 @@ por el momento estoy ordenando basado en los siguientes puntos
    del wassap.
 8. tambien va una correccion a nivel codigo que estaba improlijo los
    margenes.
-** test gui
+visualmente va quedando muy bien y conceptualmente va quedando pulido
+con la experiencia acumulada en estos meses.
+Hoy di un paso gigante en la ergonomia creo con la solucion del paso
+de los combos con el KP_Enter, veremos como funciona en el teclado de pc.
+** DONE test gui
+- State "DONE"       from "TODO"       [2019-04-15 lun 20:01]
 traer los elementos de mantenimiento de la base de datos pero en una
 gui de vision continua pq el otro demostro ser inusable.
 Doy prioridad a esto por lo necesario.
