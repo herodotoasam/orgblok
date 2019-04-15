@@ -54,7 +54,7 @@
 | [2019-04-12 vie] |               |                  |               |   |   |
 | [2019-04-13 sáb] | Naprux -18hs  |                  |               |   |   |
 | [2019-04-14 dom] | Diclo75m-8hs  | Naprux - 14hs    | MIG-17hs      |   |   |
-|                  |               |                  |               |   |   |
+| [2019-04-15 lun] |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1106,7 +1106,8 @@ Me pude retirar y me dormi rapidamente, y a las dos horas seguia
 fuertemente afectado, me levanto y tomo un te, y alli me mejoro en
 unos quince minutos hasta tal punto que puedo venirme y dormir en mi
 cama y comenzar la semana desde mi casa.
-
+* [2019-04-15 lun]
+dormi bien anoche y me levante normal
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

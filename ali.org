@@ -715,6 +715,32 @@ como el monto de la deuda y le digo cosas como que quiero cobrar en
 cierta fecha lo cual le causa presion, etc. me doy cuenta que no tengo
 control que no tengo empatia y que siempre estoy diciendo algo que
 causa daño.
+** [2019-04-15 lun]
+*** nuevo plan
+la idea del nuevo plan que nace del adyacente proximo es hacer un
+monoarticulo del articulo mas conveniente para nosotros (maximo margen
+real || menor incobrabilidad estadistica || menor competencia) en un
+plan semanal (que permite una cuota baja|| el menor plazo de recupero)
+con las herramientas actuales del wassap tanto para la captacion que
+ya lo habiamos experimentado como para la logistica de entrega y
+manejo de promotores. 
+**** algo mas I: logistica x wassap: 
+esta totalmente establecido que si la entrega se realiza dentro de la
+media hora de efectuada la venta la efectividad de la venta es
+grandisima, pero eso implica el manejo de la gente y la gestion de las
+autorizaciones en la misma persona, lo cual a su vez limita la
+cantidad de gente y desgasta un monton, haciendo por wassap las dos
+cosas podriamos tener la potencia absoluta de tener cantidad de gente
+sin necesidad de una persona fisica dedicada.
+Se autoriza por wassap directamente y se entrega dentro de la media
+hora el mismo dia sin estar uno presente.
+**** algo mas II: manejo del grupo x wassap:
+se distribuyen las calles y se exige que den el comienzo de jornada
+con mensaje y ubicacion y pidan las calles por wassap.
+*** nuevo plan aspectos negativos
+**** volumen aumentado de papeles del plan semanal
+**** problemas de provision de mercaderia
+**** tentacion a poner otros articulos y traicionar los principios
 
 * recetas
 ** mijo con calabazas
