@@ -737,6 +737,34 @@ hora el mismo dia sin estar uno presente.
 **** algo mas II: manejo del grupo x wassap:
 se distribuyen las calles y se exige que den el comienzo de jornada
 con mensaje y ubicacion y pidan las calles por wassap.
+**** numeros del plan semanal
+Cantidad de planes hechos en la historia: 10535
+Incobrabilidad historica del plan semanal 9.7%
+Incobrabilidad historica del plan mensual 10%
+Planes semanales por año
+| year |  cnt |
+| 2002 | 1142 |
+| 2003 | 1894 |
+| 2004 | 1257 |
+| 2005 |  265 |
+| 2007 | 2068 |
+| 2008 | 1682 |
+| 2009 |  508 |
+| 2010 |  442 |
+| 2011 |  661 |
+| 2012 |  216 |
+| 2013 |    2 |
+| 2014 |    4 |
+| 2015 |   54 |
+| 2016 |  190 |
+| 2017 |    7 |
+| 2018 |    2 |
+| 2019 |    1 |
+Es interesante notar que las etapas conservadoras fueron hechas sin
+plan semanal (periodo 2005/2006) y las expansivas con plan semanal.
+Se le hecho la culpa al plan semanal de desmadres de cobranza pese a
+que los numeros frios dicen lo contrario.
+
 *** nuevo plan aspectos negativos
 **** volumen aumentado de papeles del plan semanal
 **** problemas de provision de mercaderia
