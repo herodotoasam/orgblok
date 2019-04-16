@@ -225,7 +225,9 @@ con la experiencia acumulada en estos meses.
 Hoy di un paso gigante en la ergonomia creo con la solucion del paso
 de los combos con el KP_Enter, veremos como funciona en el teclado de pc.
 *** Falta
-1. edicion poder borrar registros
+1. edicion poder borrar registros:
+se agrego poder borrar registros y agregar registros y editar
+continuamente cualquier registro menos el id. 
 2. visualizar ficha bien desde listado no adhoc
 3. ver el tab denso
 ** DONE test gui
@@ -250,3 +252,4 @@ comentarios viejos, un campo para que quede la info en primera plana
 para la aprobacion o denegacion de creditos futuros que tenga
 prioridad sobre todos los otros items o sea que sea como el campo
 nuevo. y lo que diga ese campo nuevo no se discute.
+** tener en cuenta que tdbc::sqlite no tienen manejo de funciones

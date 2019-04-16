@@ -1,5 +1,5 @@
-* buscador no busca ciertos casos
-[2019-04-09 mar]
+* DONE buscador no busca ciertos casos
+- State "DONE"       from "TODO"       [2019-04-09 mar 18:17]
 descubri que habia que sacar la mencion a mjecobr en el armado de la
 base de busqueda
 
@@ -25,3 +25,19 @@ En la ultima linea ||acla||mjecobr se armaba con los datos de mjecobr
 y eso hacia que esos registros desaparecieran.
 Habria que estar atentos que no haya otro bug parecido o que el bug se
 replique en el autorizador.
+* DONE problema de atravesado de combos
+- State "DONE"       from "TODO"       [2019-04-16 mar 18:08]
+el problema es que los combos no se pueden atravesar con <Enter> pq si
+tienen valores similares se abren en vez de ser atravesados obligando
+al uso de TAB lo cual es engorroso. Ejemplo en zona Cabildo/Ampliacion
+Cabildo, como los dos valores contienen la palabra Cabildo si tenes
+como valor Cabildo te lo abre con las dos. 
+Lo solucione agregando en la deficion de clase un bind extra para
+KP_Enter que pasara al elemento siguiente. 
+
+#+BEGIN_SRC
+bind $itk_interior.cb.e <<Enter>> "$this filtravalores" 
+#filtracion automatica de valores por lista
+bind $itk_interior.cb.e <KP_Enter> {+tk::TabToWindow [tk_focusNext %W]}
+#+END_SRC
+
