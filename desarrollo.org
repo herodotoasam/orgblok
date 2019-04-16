@@ -224,6 +224,10 @@ visualmente va quedando muy bien y conceptualmente va quedando pulido
 con la experiencia acumulada en estos meses.
 Hoy di un paso gigante en la ergonomia creo con la solucion del paso
 de los combos con el KP_Enter, veremos como funciona en el teclado de pc.
+*** Falta
+1. edicion poder borrar registros
+2. visualizar ficha bien desde listado no adhoc
+3. ver el tab denso
 ** DONE test gui
 - State "DONE"       from "TODO"       [2019-04-15 lun 20:01]
 traer los elementos de mantenimiento de la base de datos pero en una
