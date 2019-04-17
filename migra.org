@@ -56,6 +56,7 @@
 | [2019-04-14 dom] | Diclo75m-8hs  | Naprux - 14hs    | MIG-17hs      |   |   |
 | [2019-04-15 lun] |               |                  |               |   |   |
 | [2019-04-16 mar] |               |                  |               |   |   |
+| [2019-04-17 mié] |               |                  |               |   |   |
 |                  |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1112,6 +1113,9 @@ cama y comenzar la semana desde mi casa.
 dormi bien anoche y me levante normal
 * [2019-04-16 mar]
 otro dia normal
+* [2019-04-17 mié]
+consulta al medico otro dia normal
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
@@ -1243,5 +1247,8 @@ queremos cambiar el resultado p.e.
    vicio y se podrian haber obviado para no caer nuevamente en un
    consumo cada vez mas alto que nos traiga otro tipo de problemas,
    p.e. digestivos. (naprux y diclo son fuertes en ese sentido)
+8. de acuerdo al Dr Williams Romero en la visita del 17 de Abril 2019
+   el exito del tratamiento se debe en un 50/50 a los factores
+   profilacticos antes descriptos.
 
 

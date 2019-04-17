@@ -41,3 +41,9 @@ bind $itk_interior.cb.e <<Enter>> "$this filtravalores"
 bind $itk_interior.cb.e <KP_Enter> {+tk::TabToWindow [tk_focusNext %W]}
 #+END_SRC
 
+El problema de esta solucion es que hay formularios que si necesitan
+que la funcion del combo este atada al KP_Enter como recibos.tcl. que
+queda total inutil con estos cambios. Por lo cual opte por una
+solucion a la inversa o sea poner el bind en particular luego de cada
+combo que queremos atravesar por KP_Enter.
+
