@@ -57,6 +57,7 @@
 | [2019-04-15 lun] |               |                  |               |   |   |
 | [2019-04-16 mar] |               |                  |               |   |   |
 | [2019-04-17 mié] |               |                  |               |   |   |
+| [2019-04-18 jue] | Diclo50m-16hs |                  |               |   |   |
 |                  |               |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1115,7 +1116,16 @@ dormi bien anoche y me levante normal
 otro dia normal
 * [2019-04-17 mié]
 consulta al medico otro dia normal
-
+* [2019-04-18 jue]
+nuevamente un dolor de cabeza que sobreviene cuando venimos al
+marques, esta vez por causa de estres en el horario del almuerzo por
+causa de venirme con el Fede y ahorrarme el taxi, hicieron que tipo
+16hs tuviera un N5 que cedio luego de una siesta tranquila y
+prolongada y un cafe fuerte con galletas  y dulce de leche y ponerme a
+conversar.
+Felizmente se fue quedo una leve resaca y no tuve que padecer grandes
+problemas remanentes, y luego me puse a la compu.
+y me esta bajando sueño.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
