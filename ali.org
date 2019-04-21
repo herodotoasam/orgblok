@@ -858,6 +858,16 @@ Batas Seclair|0.0|12240.0|0.0
 Frazada Triple Patagonica 2 y media|0.0|14400.0|0.0
 Jgo Toallon y toalla AI 450gr|0.0|11660.0|0.0
 Jgo Toallon y toalla Seclair 550gr|0.0|44005.0|0.0
+*** nuevo plan articulos anexos 12x100
+la idea seria vender toallon que es el articulo mas sensible a 12x100.
+y generar una comision generalizada de 100. 
+O sea ampliarle a los chicos los articulos a vender llevaran cortinas,
+mantel de cuerina, y cortinas de cocina y toallones y darles cuotas
+desde cien pesos, y darles una comision de cien por articulo. 
+No va a hacer falta mas comision que esa, y a la vez sera una comision
+grande pq el plan de cuotas de 100 suena muy groso. Y el plan semanal
+absorve a los otros planes. Porque lo que se cambia es la idea de
+vender un producto en vez de vender un pack.
 
 
 * recetas
