@@ -1,67 +1,68 @@
-| [2019-02-18 lun] | MIG-12hs      | i600-17hs        |               |   |   |
-| [2019-02-19 mar] | MIG-03hs      | i600-12hs        | MIG-23hs      |   |   |
-| [2019-02-20 mié] | i600-15hs     | MIG-15.45hs      | C10mg-16.30hs |   |   |
-| [2019-02-21 jue] | C20m-8hs      |                  |               |   |   |
-| [2019-02-22 vie] | C20m-8hs      |                  |               |   |   |
-| [2019-02-23 sáb] | C20m-8hs      | Nx-18hs          | Nx-22.30hs    |   |   |
-| [2019-02-24 dom] | C20m-8hs      | Nx-22.30hs       | MIG-00hs      |   |   |
-| [2019-02-25 lun] | C20m-8hs      | i600-23.30hs     |               |   |   |
-| [2019-02-26 mar] | C20m-8hs      |                  |               |   |   |
-| [2019-02-27 mié] | C20m-8hs      |                  |               |   |   |
-| [2019-02-28 jue] | C20m-8hs      |                  |               |   |   |
-| [2019-03-01 vie] | C20m-8hs      |                  |               |   |   |
-| [2019-03-02 sáb] | C20m-8hs      |                  |               |   |   |
-| [2019-03-03 dom] | C20m-8hs      | Dic50m-15hs      | MIG-19hs      |   |   |
-| [2019-03-04 lun] | C20m-8hs      |                  |               |   |   |
-| [2019-03-05 mar] | C20m-8hs      |                  |               |   |   |
-| [2019-03-06 mié] | C10m-8hs      |                  |               |   |   |
-| [2019-03-07 jue] | C10m-8hs      |                  |               |   |   |
-| [2019-03-08 vie] | C10m-8hs      | FIN cortiterapia |               |   |   |
-| [2019-03-09 sáb] |               |                  |               |   |   |
-| [2019-03-10 dom] | Dic50m-7hs    |                  |               |   |   |
-| [2019-03-11 lun] |               |                  |               |   |   |
-| [2019-03-12 mar] |               |                  |               |   |   |
-| [2019-03-13 mié] |               |                  |               |   |   |
-| [2019-03-14 jue] |               |                  |               |   |   |
-| [2019-03-15 vie] |               |                  |               |   |   |
-| [2019-03-16 sáb] | Dic50m-4hs    |                  |               |   |   |
-| [2019-03-17 dom] | Dic75m-16hs   |                  |               |   |   |
-| [2019-03-18 lun] | Dic50m-14hs   |                  |               |   |   |
-| [2019-03-19 mar] | Dic50m-16hs   |                  |               |   |   |
-| [2019-03-20 mié] |               |                  |               |   |   |
-| [2019-03-21 jue] | Dic50m-14hs   |                  |               |   |   |
-| [2019-03-22 vie] | Dic75m-19hs   |                  |               |   |   |
-| [2019-03-23 sáb] |               |                  |               |   |   |
-| [2019-03-24 dom] |               |                  |               |   |   |
-| [2019-03-25 lun] |               |                  |               |   |   |
-| [2019-03-26 mar] |               |                  |               |   |   |
-| [2019-03-27 mié] | Dic50m-19hs   |                  |               |   |   |
-| [2019-03-28 jue] | Dic50m-8hs    |                  |               |   |   |
-| [2019-03-29 vie] | Naprux-8hs    | Naprux-16hs      | MIG-17hs      |   |   |
-| [2019-03-30 sáb] |               |                  |               |   |   |
-| [2019-03-31 dom] | Naprux-19hs   |                  |               |   |   |
-| [2019-04-01 lun] |               |                  |               |   |   |
-| [2019-04-02 mar] | Naprux-18hs   |                  |               |   |   |
-| [2019-04-03 mié] | Naprux-18hs   |                  |               |   |   |
-| [2019-04-04 jue] | Naprux-18hs   |                  |               |   |   |
-| [2019-04-05 vie] |               |                  |               |   |   |
-| [2019-04-06 sáb] | Diclo50m-8hs  |                  |               |   |   |
-| [2019-04-07 dom] |               |                  |               |   |   |
-| [2019-04-08 lun] | Diclo50m-15hs |                  |               |   |   |
-| [2019-04-09 mar] | Naprux-16hs   |                  |               |   |   |
-| [2019-04-10 mié] |               |                  |               |   |   |
-| [2019-04-11 jue] |               |                  |               |   |   |
-| [2019-04-12 vie] |               |                  |               |   |   |
-| [2019-04-13 sáb] | Naprux -18hs  |                  |               |   |   |
-| [2019-04-14 dom] | Diclo75m-8hs  | Naprux - 14hs    | MIG-17hs      |   |   |
-| [2019-04-15 lun] |               |                  |               |   |   |
-| [2019-04-16 mar] |               |                  |               |   |   |
-| [2019-04-17 mié] |               |                  |               |   |   |
-| [2019-04-18 jue] | Diclo50m-16hs |                  |               |   |   |
-| [2019-04-19 vie] |               |                  |               |   |   |
-| [2019-04-20 sáb] |               |                  |               |   |   |
-| [2019-04-21 dom] |               |                  |               |   |   |
-|                  |               |                  |               |   |   |
+| [2019-02-18 lun] | MIG-12hs       | i600-17hs        |               |   |   |
+| [2019-02-19 mar] | MIG-03hs       | i600-12hs        | MIG-23hs      |   |   |
+| [2019-02-20 mié] | i600-15hs      | MIG-15.45hs      | C10mg-16.30hs |   |   |
+| [2019-02-21 jue] | C20m-8hs       |                  |               |   |   |
+| [2019-02-22 vie] | C20m-8hs       |                  |               |   |   |
+| [2019-02-23 sáb] | C20m-8hs       | Nx-18hs          | Nx-22.30hs    |   |   |
+| [2019-02-24 dom] | C20m-8hs       | Nx-22.30hs       | MIG-00hs      |   |   |
+| [2019-02-25 lun] | C20m-8hs       | i600-23.30hs     |               |   |   |
+| [2019-02-26 mar] | C20m-8hs       |                  |               |   |   |
+| [2019-02-27 mié] | C20m-8hs       |                  |               |   |   |
+| [2019-02-28 jue] | C20m-8hs       |                  |               |   |   |
+| [2019-03-01 vie] | C20m-8hs       |                  |               |   |   |
+| [2019-03-02 sáb] | C20m-8hs       |                  |               |   |   |
+| [2019-03-03 dom] | C20m-8hs       | Dic50m-15hs      | MIG-19hs      |   |   |
+| [2019-03-04 lun] | C20m-8hs       |                  |               |   |   |
+| [2019-03-05 mar] | C20m-8hs       |                  |               |   |   |
+| [2019-03-06 mié] | C10m-8hs       |                  |               |   |   |
+| [2019-03-07 jue] | C10m-8hs       |                  |               |   |   |
+| [2019-03-08 vie] | C10m-8hs       | FIN cortiterapia |               |   |   |
+| [2019-03-09 sáb] |                |                  |               |   |   |
+| [2019-03-10 dom] | Dic50m-7hs     |                  |               |   |   |
+| [2019-03-11 lun] |                |                  |               |   |   |
+| [2019-03-12 mar] |                |                  |               |   |   |
+| [2019-03-13 mié] |                |                  |               |   |   |
+| [2019-03-14 jue] |                |                  |               |   |   |
+| [2019-03-15 vie] |                |                  |               |   |   |
+| [2019-03-16 sáb] | Dic50m-4hs     |                  |               |   |   |
+| [2019-03-17 dom] | Dic75m-16hs    |                  |               |   |   |
+| [2019-03-18 lun] | Dic50m-14hs    |                  |               |   |   |
+| [2019-03-19 mar] | Dic50m-16hs    |                  |               |   |   |
+| [2019-03-20 mié] |                |                  |               |   |   |
+| [2019-03-21 jue] | Dic50m-14hs    |                  |               |   |   |
+| [2019-03-22 vie] | Dic75m-19hs    |                  |               |   |   |
+| [2019-03-23 sáb] |                |                  |               |   |   |
+| [2019-03-24 dom] |                |                  |               |   |   |
+| [2019-03-25 lun] |                |                  |               |   |   |
+| [2019-03-26 mar] |                |                  |               |   |   |
+| [2019-03-27 mié] | Dic50m-19hs    |                  |               |   |   |
+| [2019-03-28 jue] | Dic50m-8hs     |                  |               |   |   |
+| [2019-03-29 vie] | Naprux-8hs     | Naprux-16hs      | MIG-17hs      |   |   |
+| [2019-03-30 sáb] |                |                  |               |   |   |
+| [2019-03-31 dom] | Naprux-19hs    |                  |               |   |   |
+| [2019-04-01 lun] |                |                  |               |   |   |
+| [2019-04-02 mar] | Naprux-18hs    |                  |               |   |   |
+| [2019-04-03 mié] | Naprux-18hs    |                  |               |   |   |
+| [2019-04-04 jue] | Naprux-18hs    |                  |               |   |   |
+| [2019-04-05 vie] |                |                  |               |   |   |
+| [2019-04-06 sáb] | Diclo50m-8hs   |                  |               |   |   |
+| [2019-04-07 dom] |                |                  |               |   |   |
+| [2019-04-08 lun] | Diclo50m-15hs  |                  |               |   |   |
+| [2019-04-09 mar] | Naprux-16hs    |                  |               |   |   |
+| [2019-04-10 mié] |                |                  |               |   |   |
+| [2019-04-11 jue] |                |                  |               |   |   |
+| [2019-04-12 vie] |                |                  |               |   |   |
+| [2019-04-13 sáb] | Naprux -18hs   |                  |               |   |   |
+| [2019-04-14 dom] | Diclo75m-8hs   | Naprux - 14hs    | MIG-17hs      |   |   |
+| [2019-04-15 lun] |                |                  |               |   |   |
+| [2019-04-16 mar] |                |                  |               |   |   |
+| [2019-04-17 mié] |                |                  |               |   |   |
+| [2019-04-18 jue] | Diclo50m-16hs  |                  |               |   |   |
+| [2019-04-19 vie] |                |                  |               |   |   |
+| [2019-04-20 sáb] |                |                  |               |   |   |
+| [2019-04-21 dom] | Diclo 50m-15hs |                  |               |   |   |
+| [2019-04-22 lun] |                |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1154,7 +1155,27 @@ A la noche nuevamente siento un N4 que curso con sueño o sea dejarlo
 que curse, y despertar normal, un shot de ejercicios fuerte, y un
 cafe, y comenzar la rutina del dia. 
 * [2019-04-21 dom]
-hasta ahora bien
+hasta ahora bien, termine tomando un diclo para frenar una jaqueca que
+mas que dolor de cabeza era dolor de corazon, pq visto para atras en
+ese fangoso fin de semana interminable de semana santa varado ahi sin
+tener nada que hacer frustrado como estaba por la compu mal comprada y
+fallada, empece a sacar mierda con ih que es el peor de los planes pq
+al fin y al cabo eso no resuelve nada, sino que lo lleva a uno a picos
+de melancolia peores, y en medio de toda esa maroma imposible me tome
+un diclo para aliviar el dolor que como digo no era para nada de
+cabeza.
+* [2019-04-22 lun]
+mayormente bien.
+Como dije ayer que iba a empezar a medir el animo, hoy bien pq a pesar
+de una agenda jodida en realidad termino bien, y no me puedo quejar en
+lo absoluto, pq se encamino bien ambas cosas, por un lado el reclamo
+de la compu ya esta y la compu esta andando y mejor que mejor en
+window para la cami con la impresora con cartucho y todo, y el aviso
+en marcha con nueve citados en el primer dia para mañana, lo cual es
+muy importante pq un citado fresco o sea un citado de lunes es un
+citado con mas chance de posibilidades, Mañana por la mañana las
+carpetas y a las 15hs el curso.
+
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
