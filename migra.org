@@ -63,6 +63,8 @@
 | [2019-04-21 dom] | Diclo 50m-15hs |                  |               |   |   |
 | [2019-04-22 lun] |                |                  |               |   |   |
 | [2019-04-23 mar] | Naprux - 14hs  |                  |               |   |   |
+| [2019-04-24 mié] | Ibu600- 12hs   |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1189,7 +1191,10 @@ toda situacion con el fracaso incluido en la captacion. La tarde curso
 sin ningun tipo de Ns. Lo unico que experimente fue un exceso de
 sueño, tanto antes de dormir, como en la noche misma como luego de
 levantarse.
-
+* [2019-04-24 mié]
+un incipiente N4 en oficina sin naprux y sin otro desayuno posible y
+con incomodidades varias, decidi tomarme un ibu, que parece que va a
+sentar bien a pesar de tomarlo sin nada. 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
