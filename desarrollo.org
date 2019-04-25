@@ -286,4 +286,55 @@ y descubri un bug que se esta generando en tabla recorridos.
 datos de romitex core.)
 postgres5 que produce la tabla cuotas demora 20 minutos pero corre sin
 errores por lo menos.
- 
+* tcl-postgres
+** diario programacion
+*** [2019-04-25 jue] creacion directorio git postcl
+alli concentraremos todo el proyecto
+*** [2019-04-25 jue] padron 
+creacion del padron en postgres, falta solo dump
+*** [2019-04-25 jue] busqueda automatica de dni para pasado de ventas
+inteligencia para no confundir cuando hay dos dni iguales, para no
+tener que estar trabado con romitex/padron/femenino y masculino
+*** [2019-04-25 jue] trabado por el bug de tdbc de no guardado con array
+o sea cuando un un insert o update detecta un () da error, y eso nos
+complica enormemente las cosas a nivel de formularios.
+*** [2019-04-25 jue] total definicion para Ptcl 
+gracias al bug de tdbc me fui para ptcl recupere lo ya conocido y veo
+que es un desarrollo muchisimo mas acabado, y en realidad no debo
+temer qeu no siga en desarrollo pq lo mismo tdbc no lo tocan hace diez
+años. O sea que no creo que haya problema.
+Ahi tengo total integracion de array en varios formatos o sea que no
+creo tener problemas y aparte es mas tipo tcl o sea que p.e. los
+comando permiten el loop dentro de la consulta tipo el eval, cosa que
+este otro no lo hacia o sea no se como iba a resolverlo llegado el
+caso. Pero ahora lo tengo. O sea tengo array y tengo proc de loop. Y
+tengo llist, y tengo procedimientos en postgres que se pueden
+programar con tcl.
+
+** DONE padron
+- State "DONE"       from "TODO"       [2019-04-25 jue 15:16]
+:LOGBOOK:
+CLOCK: [2019-04-25 jue 14:01]--[2019-04-25 jue 15:16] =>  1:15
+:END:
+habilitar padron para uso en postgres y uso en busqueda en ventas.
+primero emito desde sqlite sendos archivos csv para copiar desde
+posgres.
+creo las tablas desde posgres y luego con el comando copy levanto el
+csv en las tablas.
+.1 en sqlite: .output fem.csv .mode csv
+.2 en sqlite: select * from fem order by dni; asi emito el csv
+.3 inspecciono con emacs y corrijo una linea del fem
+.4 obtengo el ancho de los campos nombre y dni para no hacer anchos al
+vicio los campos de la tabla
+.5 select max(length(nombre)) from fem;
+.6 en postgres como usuario hero: creo la tabla
+CREATE TABLE femenino (
+id serial NOT NULL,
+DNI character varying(8),
+NOMBRE character varying(54),
+CONSTRAINT femenino_pkey PRIMARY KEY (id))
+.7 en postgres como usuario postgres: 
+COPY masculino(dni,nombre)
+FROM '/home/hero/mas.csv' DELIMETER ',' CSV HEADER;
+** TODO padron dump y restore
+

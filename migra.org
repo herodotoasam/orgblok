@@ -64,6 +64,7 @@
 | [2019-04-22 lun] |                |                  |               |   |   |
 | [2019-04-23 mar] | Naprux - 14hs  |                  |               |   |   |
 | [2019-04-24 mié] | Ibu600- 12hs   |                  |               |   |   |
+| [2019-04-25 jue] | Diclo 50- 14hs |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1195,6 +1196,12 @@ levantarse.
 un incipiente N4 en oficina sin naprux y sin otro desayuno posible y
 con incomodidades varias, decidi tomarme un ibu, que parece que va a
 sentar bien a pesar de tomarlo sin nada. 
+* [2019-04-25 jue]
+contractura y dolorcito en base de craneo izq. por abuso de compu y
+como empiezo a programar tomo. hago mal pero tomo.
+Me la banque rebien, y termino muertazo de cansado y hambriento, como
+y me acuesto, pq estoy fusilado total.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
