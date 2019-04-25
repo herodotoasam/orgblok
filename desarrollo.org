@@ -225,7 +225,7 @@ con la experiencia acumulada en estos meses.
 Hoy di un paso gigante en la ergonomia creo con la solucion del paso
 de los combos con el KP_Enter, veremos como funciona en el teclado de pc.
 *** Falta
-1. edicion poder borrar registros:
+1- edicion poder borrar registros:
 se agrego poder borrar registros y agregar registros y editar
 continuamente cualquier registro menos el id. 
 2. visualizar ficha bien desde listado no adhoc
@@ -253,3 +253,37 @@ para la aprobacion o denegacion de creditos futuros que tenga
 prioridad sobre todos los otros items o sea que sea como el campo
 nuevo. y lo que diga ese campo nuevo no se discute.
 ** tener en cuenta que tdbc::sqlite no tienen manejo de funciones
+* Postgres
+creo que hay que escribir todo de nuevo y comenzar un nuevo mundo
+totalmente simplificado y nuevo teniendo en cuenta unicamente lo que
+se hace ahora, solo tomando los datos que necesitamos. 
+O sino olvidarnos del tema para siempre.
+La idea que programando en tdbc iba a poder acercar los mundos no
+anduvo, hay muchas incompatibilidades. Y las programaciones son muy
+complejas tienen distintos vicios que no queremos dejar de lado por no
+querer empezar de cero todo. 
+Creo que tendria que trabajar unos dos meses sobre la creacion de un
+sistema desde cero en postgres y olvidarme del sistema de sqlite. 
+Hacer lo que tenemos ahora:
+1. buscador
+2. pasador de ventas
+3. pasador de recibos
+4. fichas
+5. stock y caja
+A un promedio de quince dias cada uno tenemos dos meses y medio.
+Y basarnos en las tablas simplificadas que vamos pasando desde
+postgres como venimos haciendo.
+DECLARO SOLEMNEMENTE QUE EN MENOS DE CUATRO MESES TENGO ROMITEX CON
+POSTGRES
+
+en solo dos minutos con postgres3 cargo
+zonas,barrios,calles,clientes,ventas y pagos, y de paso corrijo
+errores.
+postgres 3.1 corrio rapido pero tuve problemas con tabla visitas, que
+debo ver pq no la quiso cargar.
+y descubri un bug que se esta generando en tabla recorridos.
+(notar que ambas son tablas de servicio y no son esenciales a los
+datos de romitex core.)
+postgres5 que produce la tabla cuotas demora 20 minutos pero corre sin
+errores por lo menos.
+ 
