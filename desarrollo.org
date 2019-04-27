@@ -310,6 +310,45 @@ este otro no lo hacia o sea no se como iba a resolverlo llegado el
 caso. Pero ahora lo tengo. O sea tengo array y tengo proc de loop. Y
 tengo llist, y tengo procedimientos en postgres que se pueden
 programar con tcl.
+*** [2019-04-26 vie] solucion del problema de las ids
+un problema que me llevo casi dos horas: o sea cuando iba a insertar
+un registro me lo ingresaba con un id=1 y por supuesto me lo
+rechazaba.
+O sea que la sequencia generaba valores pero start a partir de 1.
+Y se puede programar en forma muy flexible como queremos los valores,
+a partir de cual, de dos en dos, etc.
+Lo que debo hacer es programar las sequencias con el valor minimo de
+las filas que hay en el minuto cero y desde alli empiezan a andar.
+Se trato de un problema angustioso pq hasta ahora en postgres solo
+habia hecho consultas y practicamente no habia hecho insersiones, y
+tener este problema con los id causaba sosobra de entrada.
+*** [2019-04-26 vie] problema aprendizaje sequences/serial/
+vi que solucionamos el problema de los id con poner la columna id como
+serial, en el modelo directamente, y como primary key, luego poner en
+el script de entrada de datos el setval calculado en funcion del
+ultimo id asignado en la tabla para tener una continuidad
+automatizada. Con eso solucione el problema y lo hice en una forma
+automatizada, pq sino no se podria trabajar.
+Tambien solucione el tema de los id pasando todas las tablas a id
+serial, siendo el seudotipo serial el mas conveniente pq te ahora el
+tener que crear una sequencia a mano, haciendo toda la tarea por
+vos. Deje las nueve secuencias ya creadas para no enquilombar por hoy
+pero al lo mejor algun dia las saco y dejo todo serial., Lo bueno que
+funciona el automatismo.
+*** [2019-04-26 vie] recreacion de los padrones sin id para ahorrar espacio
+cree las tablas en pgmodeler y el proceso se hizo muy rapido, fue cosa
+de unos segundos emitir los csv y la lectura del copy que ya estaba
+guardado fue rapidisima. igual el indexado.
+*** [2019-04-26 vie] primera parte del pasado de venta
+automatizado el tema cliente/padron/doblepadron/noestaenpadron- con
+una señalizacion clara y permanente solo una minima e imperceptible
+linea de detalle en el diseño que afea pero por lo demas es todo
+excelente.
+Ahora tendria que ir a los dos procesos de update/creacion de cliente
+y al logde cambio, pero como pg maneja array sera claro y facil. Capaz
+en este finde transite esa parte para quedar el paso de los articulos
+para la semana que viene.
+
 
 ** DONE padron
 - State "DONE"       from "TODO"       [2019-04-25 jue 15:16]
