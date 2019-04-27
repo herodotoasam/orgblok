@@ -66,6 +66,8 @@
 | [2019-04-24 mié] | Ibu600- 12hs   |                  |               |   |   |
 | [2019-04-25 jue] | Diclo 50- 14hs |                  |               |   |   |
 | [2019-04-26 vie] |                |                  |               |   |   |
+| [2019-04-27 sáb] |                |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1214,8 +1216,10 @@ volvi y compre para comer unos agnolotis comi tipo una y desde alli le
 di sin parar hasta ahora terrible masazo, solo pare para ir a comprar
 cosas, fui al super, a la dietetica y a la panaderia, pero fueron ocho
 horas de trabajo con alguna pausa, ponele siete. Y se la banco.
-
-
+* [2019-04-27 sáb]
+joya pude dormir muy bien anoche aca y desperte un poco tarde hice una
+sola serie no por obligacion sino por habito y me puse a programar
+pero hago estiramientos y pausas.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

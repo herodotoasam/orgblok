@@ -170,4 +170,10 @@ regexp {^[0-9]{5}$ $buscar} eso permite poniendola como primer opcion
 que sigan funcionando las opciones de busqueda de dni y telefono.
 * TODO [2019-04-10 mié] cuando alguien cancele que no se genere saldo negativo
 y mucho menos que tenga seven.
-* TODO [2019-04-24 mié] corregir bug recorridos
+* DONE [2019-04-24 mié] corregir bug recorridos
+- State "DONE"       from "TODO"       [2019-04-27 sáb 12:49]
+* TODO [2019-04-27 sáb] bug Asia 1623
+ver porque en el buscador no aparece una clienta que debe desde el
+2013 en el buscador y si aparece en el F13 y si aparece en el
+autorizador.
+

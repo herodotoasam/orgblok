@@ -348,7 +348,18 @@ Ahora tendria que ir a los dos procesos de update/creacion de cliente
 y al logde cambio, pero como pg maneja array sera claro y facil. Capaz
 en este finde transite esa parte para quedar el paso de los articulos
 para la semana que viene.
-
+*** [2019-04-27 sáb] correccion de funciones y/ym para hacerlas mas generales
+y poder captar tambien argumento timestamp aparte de date, en especial
+el campo agregado que recupere en la tabla clientes.
+*** [2019-04-27 sáb] avance en update cliente y guardar cliente.
+se hizo un update cliente muy claro con un guardar en proc aparte con
+indicadores claros con label y con un logdecambio de direccion tambien
+muy claro en proc aparte. O sea la misma ingenieria de antes pero muy
+simple en varios proc nada complejos. Sumado a lo de ayer que fue toda
+la ingenieria de la busqueda de padron tambien clara y automatica.
+ya hemos modificado pgmodeler y el padron sigue ahi por lo cual pienso
+que no voy a manejarme con dump sino con los csv para hacer copy.
+*** [2019-04-27 sáb] avance generar venta
 
 ** DONE padron
 - State "DONE"       from "TODO"       [2019-04-25 jue 15:16]
@@ -376,4 +387,13 @@ CONSTRAINT femenino_pkey PRIMARY KEY (id))
 COPY masculino(dni,nombre)
 FROM '/home/hero/mas.csv' DELIMETER ',' CSV HEADER;
 ** TODO padron dump y restore
+** tema purificar aun mas las tablas
+*** sacar los procesos que van quedando obsoletos y dejan huella en las tablas
+ejemplo gestion de documentos
+ejemplo stock de fabian
 
+en ambos ejemplos en la vida real no se usa lo que esta programado y
+se sobrecarga las tablas con un monton de campos inutiles que no
+tienen uso ni lo tendran nunca.
+
+En realidad todo eso se podria hacer con una tabla aparte.
