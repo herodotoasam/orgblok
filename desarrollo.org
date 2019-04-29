@@ -379,6 +379,30 @@ importe de cuota cero, que ya fue borrado.
 Creo que con los triggers bien claritos y manejados en el pgmodeler
 y/o luego en algun administrador bien chulo y funciones escritas en
 plpgsql se puede hacer de todo sin problemas.
+*** [2019-04-29 lun] termine de corregir pmovto(), hice trig_condonada
+y quedamos en que hay que hacer luego de cargar las tablas una corrida
+a condonadas y pmovto para actualizar todo.
+Depure la funcion pmovto y creo que funciona bien, y le voy entrando a
+plpgsql.
+*** [2019-04-29 lun] ingreso de articulos por botonera y en forma general
+o sea mediante una tabla especial, lo cual me permitiria en el futuro
+cambiar la interface de programacion sin tener que modificar los
+codigos sino modificando los articulos, teniendo esa tablita en una
+pestaña de servicio puedo tener los articulos que figuran en el
+programa y los precios actualizados.
+la cantidad se hace con raton, los montos se calculan solos, y se
+podra editar.
+ademas voy a cambiar el proceso o sea se metera el detalle antes de
+generar la venta pq los articulos se estan cargando en un tablelist
+como datos virtuales no como tabla entonces no necesito tener generado
+el idvta para cargarlos, entonces ahora si separo en dos, o sea cargo
+un cliente y eso no me afecta en nada pq incluso lo puedo usar si no
+estoy pasando clientes. Y lo de abajo pasar clientes si no pase los
+articulos y los articulos no cuadran la cantidad no se le puede dar a
+generar y si se genera se genera todo, y se borra luego se borra todo,
+la venta y lo conexo de esa venta en cascada. (venta y detalle de
+venta)
+
 
 ** DONE padron
 - State "DONE"       from "TODO"       [2019-04-25 jue 15:16]
