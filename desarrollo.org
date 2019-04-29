@@ -360,6 +360,25 @@ la ingenieria de la busqueda de padron tambien clara y automatica.
 ya hemos modificado pgmodeler y el padron sigue ahi por lo cual pienso
 que no voy a manejarme con dump sino con los csv para hacer copy.
 *** [2019-04-27 sáb] avance generar venta
+*** [2019-04-28 dom] triggers!!!! como se hacen en pgmodeler
+ya hice el triguer ventas insert- hice ficha.
+*** [2019-04-28 dom] solucion a problema de funcion total() con coalesce
+*** [2019-04-28 dom] encarar reescritura de pmovto() en plpgsql
+a la fuerza pq sino da error la lectura de datos con postgres3.tcl
+felizmente a fuerza de ensayo y error fui dando con algunos temas
+basicos y luego en postgres5.tcl vi que ya tenia casi todo aplicado o
+sea if/then/else/end if// case/when// loop// record y el resto digamos
+que resulto ser mas clarito que hacerlo con tcl. 
+La carga de ventas ahora es mas lenta pq lo agarran los trigger que
+hemos cargado y eso enlentece un poco, no se va a notar en el dia a
+dia, pero cargar de golpe 70000 registros da un poco de trabajo. Y esa
+carga hizo saltar los fusibles, primero salto el funcionamiento
+interno de pmovto de modo tal que no era apto para tremenda cantidad
+de triggers y luego salto un error de tabla con un registro que tenia
+importe de cuota cero, que ya fue borrado.
+Creo que con los triggers bien claritos y manejados en el pgmodeler
+y/o luego en algun administrador bien chulo y funciones escritas en
+plpgsql se puede hacer de todo sin problemas.
 
 ** DONE padron
 - State "DONE"       from "TODO"       [2019-04-25 jue 15:16]
