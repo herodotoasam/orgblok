@@ -113,6 +113,12 @@ EN TCL NO PIENSE EN STATEMENTS SINO EN COMANDOS.
 el comando es expr y al ser un comando a evaluar hay que encerrarlo en
 [], y los elementos del comando son en este caso x?y:z, x lo que puede
 dar verdad o falso, y si es verdad y z si es falso.
+** tablelist: get y getcolumn
+como nunca habia trabajado con un tbls sin ligarlo a una tabla no los
+habia visto pero son muy faciles get te da la fila y getcolumn la
+columna entera y pude manipular los datos del detalle de venta muy
+facilmente.
+
 * proyectos
 ** DONE catalogo/catalogopg
 - State "DONE"       from "TODO"       [2019-04-04 jue 20:16]
