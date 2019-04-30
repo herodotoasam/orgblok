@@ -118,6 +118,15 @@ como nunca habia trabajado con un tbls sin ligarlo a una tabla no los
 habia visto pero son muy faciles get te da la fila y getcolumn la
 columna entera y pude manipular los datos del detalle de venta muy
 facilmente.
+** current_date interval reemplaza date(fecha,...)
+current_date entrega la fecha actual y con interval hacemos las
+calculaciones en forma muy directa.
+pmovto>current_date - interval '1 year' 
+
+ojo con un bug muy comun a uno que viene de sqlite y es poner '-1year'
+o sea hacer la calculacion dentro del string y postgres la hace afuera
+con la resta delante del interval.
+
 
 * proyectos
 ** DONE catalogo/catalogopg
