@@ -70,8 +70,12 @@
 | [2019-04-28 dom] |                |                  |               |   |   |
 | [2019-04-29 lun] |                |                  |               |   |   |
 | [2019-04-30 mar] | Diclo 50-12hs  | MIG-17hs         |               |   |   |
-| [2019-05-02 jue] | Diclo 75-13hs  | MIG-17hs         |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-05-01 mié] | Diclo 75-13hs  | MIG-17hs         |               |   |   |
+| [2019-05-02 jue] |                |                  |               |   |   |
+| [2019-05-03 vie] |Ibu600          |                  |               |   |   |
+| [2019-05-04 sáb] |Ibu600          |                  |               |   |   |
+| [2019-05-05 dom] |Ibu600          |                  |               |   |   |
+| [2019-05-06 lun] |Ibu600-13hs     |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1258,6 +1262,20 @@ medios decido hacerlo con migral, tratando de culpabilizar a otros y
 de caer en la barranca yo mismo. Pq dos dias atras o mejor dicho 24
 horas atras estaba contento de terminar el mes con un migral y tengo
 dos dias dos migrales o sea una catastrofe. 
+* [2019-05-02 jue]
+normal pero he quedado con bajon, pe ayer que dormi en marques y los
+habitos se cruzaron la bici la hice a la tarde y las series hice dos
+nomas, 
+* [2019-05-03 vie]
+hoy no hice bici a la mañana me quede en la cama hasta las 8. REcien a
+la tarde me levanto un poco el animo, estoy tratando de resucitar las
+series que faltan y ponerle un poco de movimiento.
+* [2019-05-06 lun]
+estos ultimos cuatro dias fueron iguales, todos con ibu pasaron bien,
+pero no quiero acostumbrarme de nuevo, y lucho por mantener de nuevo
+el nivel de entusiasmo. Ahora que enganche el goolge cloud creo que
+vamos por buen camino.
+Y tengo que ponerle comida.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
