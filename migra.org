@@ -76,7 +76,7 @@
 | [2019-05-04 sáb] | Ibu600         |                  |               |   |   |
 | [2019-05-05 dom] | Ibu600         |                  |               |   |   |
 | [2019-05-06 lun] | Ibu600-13hs    |                  |               |   |   |
-| [2019-05-07 mar] | diclo50-8hs    | ibu600-11hs      |               |   |   |
+| [2019-05-07 mar] | diclo50-8hs    | ibu600-11hs      |MIG 13hs       |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1278,7 +1278,7 @@ pero no quiero acostumbrarme de nuevo, y lucho por mantener de nuevo
 el nivel de entusiasmo. Ahora que enganche el goolge cloud creo que
 vamos por buen camino.
 Y tengo que ponerle comida.
-* [2019-05-07 mar]
+* [2019-05-07 mar] N8 MIG
 anoche tuve un molesto N4 casi N5  y me atuve al protocolo de no tomar
 nada, y segui durmiendo. A la mañana recupere con fuerza la serie, las
 tres series, rapidamente, y el licuado, y la bici. Y logre un estado
@@ -1292,8 +1292,15 @@ recupere con energia el ejercicio. O sea que la profilaxis que el
 medico con justicia le atribuia el 50% del exito, tenia razon, era
 mucho lo que habia hecho y era lo mas dificil, mas facil es tomar una
 pastillita.
-Tipo 11 sube nuevamente a N4 y tomo ibu.
-
+Tipo 11 sube nuevamente a N4 y tomo ibu, me vuelvo tipo doce y media y
+ya estaba tipo N6, tomo migral doce y media y me recuesto, como un
+poco entre medio y el migral no hace efecto, alli toca el N8, todas
+esas dos horas que habra durado el tema estuve incapacitado hasta para
+pensar.
+recostado en la oscuridad encima sin tener calma ni sosiego. Y luego
+le di matraca con todo, y encima con disgusto pq termino el dia
+reventado y sin resultados tengo un sobreuso del fisico que presagia
+algo malo.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
