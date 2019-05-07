@@ -72,10 +72,12 @@
 | [2019-04-30 mar] | Diclo 50-12hs  | MIG-17hs         |               |   |   |
 | [2019-05-01 mié] | Diclo 75-13hs  | MIG-17hs         |               |   |   |
 | [2019-05-02 jue] |                |                  |               |   |   |
-| [2019-05-03 vie] |Ibu600          |                  |               |   |   |
-| [2019-05-04 sáb] |Ibu600          |                  |               |   |   |
-| [2019-05-05 dom] |Ibu600          |                  |               |   |   |
-| [2019-05-06 lun] |Ibu600-13hs     |                  |               |   |   |
+| [2019-05-03 vie] | Ibu600         |                  |               |   |   |
+| [2019-05-04 sáb] | Ibu600         |                  |               |   |   |
+| [2019-05-05 dom] | Ibu600         |                  |               |   |   |
+| [2019-05-06 lun] | Ibu600-13hs    |                  |               |   |   |
+| [2019-05-07 mar] | diclo50-8hs    | ibu600-11hs      |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1276,6 +1278,21 @@ pero no quiero acostumbrarme de nuevo, y lucho por mantener de nuevo
 el nivel de entusiasmo. Ahora que enganche el goolge cloud creo que
 vamos por buen camino.
 Y tengo que ponerle comida.
+* [2019-05-07 mar]
+anoche tuve un molesto N4 casi N5  y me atuve al protocolo de no tomar
+nada, y segui durmiendo. A la mañana recupere con fuerza la serie, las
+tres series, rapidamente, y el licuado, y la bici. Y logre un estado
+de N1 para ir correctamente a trabajar. Fue una victoria gracias a que
+ayer tuve un exito espectacular con la programacion al ser la primera
+conexion con la nube. Pero convengamos que estoy violentando los
+principios basicos que hacen a no tener dolor de cabeza: programo y
+estoy sentado de mas sin descansos, luego violo la regla de seguir
+hasta tarde con el celu, y como mal, y recien hoy se puede decir que
+recupere con energia el ejercicio. O sea que la profilaxis que el
+medico con justicia le atribuia el 50% del exito, tenia razon, era
+mucho lo que habia hecho y era lo mas dificil, mas facil es tomar una
+pastillita.
+Tipo 11 sube nuevamente a N4 y tomo ibu.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
