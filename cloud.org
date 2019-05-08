@@ -1,0 +1,8 @@
+* TODO
+** generar un modelo en pgmodeler estilizado
+seria primero en 9.6 sin serial ni sequence solo primary key
+eliminando los campos que no se usan.
+generar el source en sql, editarlo y luego adosarlo en un escript con
+pg_execute, para subirlo, con drops antes.
+incluir los create functions.
+** usaremos primarykey unicamente y generaremos el id por tcl
