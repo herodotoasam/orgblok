@@ -7,7 +7,8 @@ generar el source en sql, editarlo y luego adosarlo en un escript con
 pg_execute, para subirlo, con drops antes.
 incluir los create functions.
 Ya se hizo y funciona rapidamente, borra y recrea las tablas.
-** usaremos primarykey unicamente y generaremos el id por tcl
+** DONE usaremos primarykey unicamente y generaremos el id por tcl
+- State "DONE"       from "TODO"       [2019-05-09 jue 20:44]
 las tablas sin el serial o el sequence permiten el llenado con csv en
 el caso de barrios,zonas, en el caso de clientes dio un error ya en
 los datos, que fue por datos de tipo money no aceptados en el formato
@@ -19,9 +20,41 @@ al final con postgres tuvimos muchos inconvenientes a la hora de subir
 los datos a cloud, (y tambien a la hora de pasar los datos de sqlite a
 postgres convengamos)
 ** [2019-05-09 jue] mysql hasta ahora
+
 *** creacion de instancia/usuario/db
 *** lectura de dde por script tcl
 *** script interno para generar tablas e importar csv (con errores)
 *** subida a cloud de generacion de tablas por script tcl
 *** importacion por csv (con errores) y por dump.
+** TODO terminar de pasar las tablas para el dump
+** TODO transcribir las funciones a mysql
+** TODO transcribir el ventaspg.tcl a ventasmysql.tcl
+* diary
+** [2019-05-09 jue]
+hoy un dia positivo dentro de todo pq he logrado algunos resultados
+*** logre entrarle al ::mysql::tcl
+casi de una pase el metodo llenarm y funciona incluso con una simpleza
+mayor que los otros, un par de sentencias menos. es muy funcional el
+wraper y le entre al map y al sel, por ahora.
+*** pase casi directo sin problemas al llenado o volcado de datos de sqlite por tcl
+casi se pasa directo lo que teniamos antes o sea que tendremos todo
+rapido
+me hizo renegar mucho el varchar limitado de clientes que quedaba
+estrecho para los largos de campos, pero ya lo vamos a corregir.
+*** como es el proceso
+**** la tabla se crea rapidamente en workbech y de ahi se saca el sql y se lo pasa a tcl
+**** en tcl se cura el script que sirve para crear tabla en localhost y en cloud
+**** un script lee de sqlite3 los datos a localhost bastante rapido
+**** por workbench hago un dump en un solo sql una sola transaccion instantaneo
+**** ese solo archivo lo subo y lo importo en un toque en cloud
+**** o sea no usaremos CSV sino tcl y dump, 
+mucho mas rapido y manejable por mi, parte pq el csv es archivo por
+archivo y el dump es general y el volcado lo hago por script y todo lo
+que sea por escript por mas lerdo que sea se hace solo.
+*** logre corregir el problema de las ñ 
+que era un encoding que lo paso directo a tcl y me lee bien los datos.
+*** Se podria decir que la estructura de trabajo ya esta lista, falta completar
+falta terminar el resto de las tablas y subir todo junto y luego hacer
+funcionar el pasador de ventas, y luego o antes quizas el tema de las
+funciones.
 
