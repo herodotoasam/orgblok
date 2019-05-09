@@ -78,7 +78,7 @@
 | [2019-05-06 lun] | Ibu600-13hs    |                  |               |   |   |
 | [2019-05-07 mar] | diclo50-8hs    | ibu600-11hs      | MIG 13hs      |   |   |
 | [2019-05-08 mié] | ibu600         |                  |               |   |   |
-| [2019-05-09 jue] | ibu600         |                  |               |   |   |
+| [2019-05-09 jue] | ibu600-10hs    | ibu600-16hs      |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad

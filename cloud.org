@@ -14,3 +14,14 @@ los datos, que fue por datos de tipo money no aceptados en el formato
 en que se presentaban.
 El escript propio esta corriendo para clientes solo y va muy lento y
 todavia no se si va a ser grabado. 
+** [2019-05-08 mié] se produjo el pasado a mysql
+al final con postgres tuvimos muchos inconvenientes a la hora de subir
+los datos a cloud, (y tambien a la hora de pasar los datos de sqlite a
+postgres convengamos)
+** [2019-05-09 jue] mysql hasta ahora
+*** creacion de instancia/usuario/db
+*** lectura de dde por script tcl
+*** script interno para generar tablas e importar csv (con errores)
+*** subida a cloud de generacion de tablas por script tcl
+*** importacion por csv (con errores) y por dump.
+
