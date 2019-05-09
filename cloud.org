@@ -1,8 +1,16 @@
 * TODO
-** generar un modelo en pgmodeler estilizado
+** DONE generar un modelo en pgmodeler estilizado
+- State "DONE"       from "TODO"       [2019-05-08 mié 15:04]
 seria primero en 9.6 sin serial ni sequence solo primary key
 eliminando los campos que no se usan.
 generar el source en sql, editarlo y luego adosarlo en un escript con
 pg_execute, para subirlo, con drops antes.
 incluir los create functions.
+Ya se hizo y funciona rapidamente, borra y recrea las tablas.
 ** usaremos primarykey unicamente y generaremos el id por tcl
+las tablas sin el serial o el sequence permiten el llenado con csv en
+el caso de barrios,zonas, en el caso de clientes dio un error ya en
+los datos, que fue por datos de tipo money no aceptados en el formato
+en que se presentaban.
+El escript propio esta corriendo para clientes solo y va muy lento y
+todavia no se si va a ser grabado. 
