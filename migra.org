@@ -79,6 +79,8 @@
 | [2019-05-07 mar] | diclo50-8hs    | ibu600-11hs      | MIG 13hs      |   |   |
 | [2019-05-08 mié] | ibu600         |                  |               |   |   |
 | [2019-05-09 jue] | ibu600-10hs    | ibu600-16hs      |               |   |   |
+| [2019-05-10 vie] | ibu600-8hs     |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1302,10 +1304,12 @@ recostado en la oscuridad encima sin tener calma ni sosiego. Y luego
 le di matraca con todo, y encima con disgusto pq termino el dia
 reventado y sin resultados tengo un sobreuso del fisico que presagia
 algo malo.
-[2019-05-09 jue]
+* [2019-05-09 jue]
 sintoma de aura a la mañana en la oficina muy fuerte que duro unos
 quince minutos luego durante el sintoma tome un ibu y se me paso.
-
+* [2019-05-10 vie]
+tome ibu al levantarme pq desperte con molestias y al menos once y
+media comenzando a programar estoy joya.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

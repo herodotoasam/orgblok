@@ -57,4 +57,31 @@ que era un encoding que lo paso directo a tcl y me lee bien los datos.
 falta terminar el resto de las tablas y subir todo junto y luego hacer
 funcionar el pasador de ventas, y luego o antes quizas el tema de las
 funciones.
-
+** [2019-05-10 vie]
+hoy un dia totalmente frustrante pq si bien es cierto que he logrado
+ciertos avances que estaban cantados y eso en forma trabajosa veo
+claroscuros en el programa y quedo totalmente trabado con el tema de
+las funciones de forma tal que tengo que aprenderlo de cero y esto es
+un tema crucial y muy engorroso para hacer y la funcion que
+necesitamos es muy compleja.
+Para poder hacer una prueba operativa del cloud tendria que poder
+subir el sistema de archivos en la nube sin problemas y conectar el
+cliente pasar ventas y poder pasar ventas sin problemas desde
+cualquier maquina, En forma rapida y sin delay.
+*** Al menos termino con el HITO tener todos los datos en la nube
+tengo el script completo en tcl que permite rehacer las tablas
+completamente en la nube por separado para evitar errores y ya lo voy
+a unificar en localhost para tambien tener uno solo. Y emito por
+workbench un solo dump que lo subo y lo lee sin problemas
+rapidamente. O sea la subida de datos se haria sin complicaciones.
+*** decido trabajar con el padron en forma local con sqlite3!!
+mas alla de los problemas de mysql tambien en postgres era lerdo y por
+lo tanto creo que no vale la pena. se puede tener una copia local en
+toda maquina facilmente y consultar ahi. no hay problema con eso.
+*** me queda por una parte el tedioso tema de estudiar funciones y triggers
+*** por otro hacer la transcripcion del ventaspg a ventasmysql
+eso hare mañana parte que es mas facil y lograble y parte pq es mas
+util ya que lo que necesito es lograr saber lo antes posible si
+podemos contar con un cliente que logre hacer algo mas complejo desde
+el cloud. De ultima se podria hacer una pmovto boba que retorne la
+fecha hasta que tengamos la verdadera.
