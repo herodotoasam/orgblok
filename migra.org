@@ -80,6 +80,7 @@
 | [2019-05-08 mié] | ibu600         |                  |               |   |   |
 | [2019-05-09 jue] | ibu600-10hs    | ibu600-16hs      |               |   |   |
 | [2019-05-10 vie] | ibu600-8hs     |                  |               |   |   |
+| [2019-05-11 sáb] | ibu600-8hs     |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1310,6 +1311,14 @@ quince minutos luego durante el sintoma tome un ibu y se me paso.
 * [2019-05-10 vie]
 tome ibu al levantarme pq desperte con molestias y al menos once y
 media comenzando a programar estoy joya.
+* [2019-05-11 sáb]
+no quiero tomar ibu por costumbrismo practicamente sin tener nada de
+dolor sino mas bien como preventivo, y en esa lucha estoy, veremos en
+que momento se gatilla la toma que ya anote.
+a solo diez minutos de escribir esto sin sintomas parece que el ibu no
+va a frenar la escalada hasta un migral, la puta madre que joda esto.
+Felizmente a pesar de las terribles situaciones a que someto el fisico
+en estas horas luego del ibu el dolor cedio por completo.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

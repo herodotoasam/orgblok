@@ -85,3 +85,22 @@ util ya que lo que necesito es lograr saber lo antes posible si
 podemos contar con un cliente que logre hacer algo mas complejo desde
 el cloud. De ultima se podria hacer una pmovto boba que retorne la
 fecha hasta que tengamos la verdadera.
+** [2019-05-11 sáb]
+a pesar de la enorme frustracion de no poder subir un trigger al cloud
+y querer tirar todo por la borda, pienso que no debo pensar todo en
+funcion del cloud.
+de ultima tener todo hecho en funcion de mysql que es como un
+estandard mas generalizado y seguir adelante con los clientes en tcl
+que son los que conozco y alli tengo dos cosas positivas para
+resaltar: 
+*** que logre la funcion pmovto!!
+e incluso hice otra funcion ultpago, y de paso hice todos los trigger
+que son mas sencillos y faciles de editar y mantener. Incluso para
+ello creo que php da la plataforma mas facil para editar y mantener a
+pesar de la fea letra.
+*** que anoche en los videitos vi como se puede unir mysql con boostrap para hacer tablas en html
+o sea que realmente mysql es un standart y que tener todo aca no es
+perdida.
+que pasarla al cloud se podra eventualmente si o si en el futuro.
+no hay que perder tiempo ahora en eso. hay que seguir con lo de abajo.
+Ahora falta pasar el programa de ventas.

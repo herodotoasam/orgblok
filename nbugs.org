@@ -176,4 +176,5 @@ y mucho menos que tenga seven.
 ver porque en el buscador no aparece una clienta que debe desde el
 2013 en el buscador y si aparece en el F13 y si aparece en el
 autorizador.
-
+* TODO [2019-05-11 sáb] saldo no suma las entregas
+p.e. id 72179 presenta saldo 2370 cuando es 1870 sumando sus cuotas
