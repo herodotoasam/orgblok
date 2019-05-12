@@ -29,6 +29,13 @@ postgres convengamos)
 ** TODO terminar de pasar las tablas para el dump
 ** TODO transcribir las funciones a mysql
 ** TODO transcribir el ventaspg.tcl a ventasmysql.tcl
+** conexion a AWS con psql por terminal
+pg_dump -f mydbdump.sq
+psql  -f mydbdump.sql -h
+rx2019.cxsjyjct3wug.us-east-2.rds.amazonaws.com -U hero -d  hero
+pide ahi la clave del usuario hero que es ata y listo comienza el
+restore/
+
 * diary
 ** [2019-05-09 jue]
 hoy un dia positivo dentro de todo pq he logrado algunos resultados
@@ -104,3 +111,38 @@ perdida.
 que pasarla al cloud se podra eventualmente si o si en el futuro.
 no hay que perder tiempo ahora en eso. hay que seguir con lo de abajo.
 Ahora falta pasar el programa de ventas.
+*** lo que paso en el marques
+llegue a la conclusion que el sucinto mytclsql no servia para generar
+un array en forma tan clara como pgtcl lo cual me dejaba a pata para
+una situacion gui por lo cual ante la imposibilidad de emularlo por
+proc decidi pasarme a tdbc::mysql y en esto estaba en la
+transformacion de ventaspg a ventasmysql lo cual no era facil en el
+bullicio y alli apago la maquina.
+Me pongo a leer el documento de tdbc y alli se me ocurre leer sobre
+AWS y bingo alli mismo veo que funciona en argentina y parece ser
+mejor que google aunque un poco mas caro pasado los doce meses.
+** [2019-05-12 dom]
+*** inicio de AWS creacion de instancia vuelta a postgres
+la creacion de la cuenta en AWS fue muy facil y la instancia en
+postgres tambien, y el subido de datos muy facil ya que se puede hacer
+directamente desde la terminal local via psql poniendo el host
+remoto. o sea una papita. Solo tuve que corregir el campo money que da
+eror pq es algo que depende de los locale y al ir a la nube va a dar
+error y sacar el procedure pq antes de la version 11 no existia, cosa
+que no sabia, fuera de eso, pude cargar perfectamente bien los datos.
+*** carga de datos sin problemas
+solo haciendo dump y haciendo restore desde la terminal en forma muy
+simple y rapida y en forma local.
+y sube todo, funciones, triggers, datos todo.
+Faltaria hacer un script de borrado/vaciado para corrrer cada vez que
+necesite resubir la base para volver a cargar los datos frescos.
+*** la aplicacion de ventas funciona perfecto en la nube
+integrandose perfectamente con el padron con sqlite es mas en forma
+ultraveloz con el padron pq sqlite usa fts. La conexion inicial tiene
+un pequeño delay pero luego la carga de la operacion es instantanea,
+como si tuvieramos en local. y la vision de la tabla de atras que es
+calculada a demanda tambien, o sea es el pg4 el demorero.
+*** o sea que ahora a meterle pata con todo a la programacion con el cronograma original
+reescribir las grandes interfaces conectadas y perfeccionar los datos
+para que tengamos lo antes posible las cosas en forma lo mas acabada
+posible.

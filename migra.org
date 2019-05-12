@@ -81,6 +81,7 @@
 | [2019-05-09 jue] | ibu600-10hs    | ibu600-16hs      |               |   |   |
 | [2019-05-10 vie] | ibu600-8hs     |                  |               |   |   |
 | [2019-05-11 sáb] | ibu600-8hs     |                  |               |   |   |
+| [2019-05-12 dom] | ibu600-11hs    |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1319,6 +1320,29 @@ a solo diez minutos de escribir esto sin sintomas parece que el ibu no
 va a frenar la escalada hasta un migral, la puta madre que joda esto.
 Felizmente a pesar de las terribles situaciones a que someto el fisico
 en estas horas luego del ibu el dolor cedio por completo.
+A pesar de que el sabado fue casi de mierda, dentro de todo la familia
+aporto notas positivas, pq lo que fue malo dentro de la frustracion
+general de no tener exitos en programacion fue venir en un taxi con un
+taxista semiborracho y tener que soportar todo eso. Menos mal qeu
+traje la compu y me saque las ganas de programar y aunque termine
+frustrado esa frustracion fue buena, pq genero dos cosas positivas,
+una en ese momento que era salirse de mysqltcl hacia tdbc, que no hizo
+falta y la otra gigante... AWS en vez de google, que todavia la estoy
+explorando por eso no puedo cantar victoria, pero que me podria
+permitir conservar el trabajo hecho con postgres que es mucho.
+Por eso creo que todo lo estudiado todo lo echo en estos dias no esta
+de mas pq todo ayuda, todo empuja, todo sirve, pero en cierta forma lo
+malo es que uno se vaya entablillando a nivel cuello y vaya entrando
+en la cronicidad de la toma del ibu, y vuelva a caer en la
+dependencia, y venga a festejar como era la intencion ahora el "solo"
+haber tomado un ibu a la mañana y no haber tomado otro a la tarde.
+* [2019-05-12 dom]
+dormi muy bien anoche aca solo y la noche de los chicos paso muy
+light, y con la maquina no sufro carencias, pero ya a la horita estoy
+incubando un ibu.
+lo tome casi alas 12 una mañana bastante ajetreada programando desde
+las 8 luego haciendo un asado a la carrera, y cumpliendo obligaciones,
+pero a pesar del choripan, estoy ok hasta ahora.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
