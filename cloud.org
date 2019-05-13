@@ -146,3 +146,13 @@ calculada a demanda tambien, o sea es el pg4 el demorero.
 reescribir las grandes interfaces conectadas y perfeccionar los datos
 para que tengamos lo antes posible las cosas en forma lo mas acabada
 posible.
+* problemas
+** update fechas en ventaspg
+no anda ninguna tecla
+** trigger update ventas se hace recursivo
+al no haber especificidad como en sqlite se hace recursivo y no puedo
+updatear una columna especifica .
+parece que postgres es terminante con eso o sea no se puede hacer. es
+problema de diseño. o sea los datos deberian poder calcularse sobre la
+base de lo que hay no en forma de trigger. Hay que repensar el
+diseño. que estaria mal hecho. hay que volver a usar el lapiz.
