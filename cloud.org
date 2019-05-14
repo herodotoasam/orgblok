@@ -200,3 +200,10 @@ que no hay que crear otros sino que hay que agregarlo a ese, lo que
 confunde es que no tiene un nombre muy potable. Tiene que aparecer en
 la portada como rules ahi a la vista en el listado la ip que agregamos.
 ** no me deja delete un registro en la tabla pagos
+* directivas
+** hacer programas basicos y programasx
+p.e. ventaspg y ventaspgx
+ventaspg solo para pasar y controlar ventas apto para Rodrigo donde el
+ver ventas para controlar tenga limite 100 y un ventaspgx donde
+tengamos posibilidades mas extendidas que tenemos en el actual ventas,
+como editar todas las tablas y cambiar mas cosas.
