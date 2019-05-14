@@ -169,6 +169,18 @@ hacer escript de actualizacion a mano que son error prone. Asi puedo
 modificar funciones y trigger a gusto incluso tablas y luego acomodar
 los modelos aca. El unico escript que tengo que arreglar es el de
 lectura de datos de sqlite3 para actualizar los datos reales.
+** [2019-05-14 mar]
+por lo menos termino bien, he empezado bien el pasador de recibos y
+creo que ira rapido, en lo que mas se pierde tiempo en en el modelo de
+datos.
+Hoy se me fue casi toda la tarde en agregar trigger, corregir
+funciones, agregar dos tablas, agregar un tab que faltaba al pasador
+de ventas y en hacer una ronda de pasado de datos que no fue sin
+problemas, sino que saltaron los problemas en todos lados y los fui
+solucionando, tanto del owner de la base, como de no poder limpiar
+correctamente el destino de los datos. Y de paso documento bien el
+proceso y tengo que hacerlo a menudo para ir haciendolo de memoria pq
+lo haremos varias veces hasta que quede fijo.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -199,7 +211,16 @@ que a su vez es el que aparece en la portada de la instancia, o sea
 que no hay que crear otros sino que hay que agregarlo a ese, lo que
 confunde es que no tiene un nombre muy potable. Tiene que aparecer en
 la portada como rules ahi a la vista en el listado la ip que agregamos.
-** no me deja delete un registro en la tabla pagos
+** DONE no me deja delete un registro en la tabla pagos
+- State "DONE"       from "TODO"       [2019-05-14 mar 12:24]
+haciendo la pregunta correcta en ingles obtenes la repuesta ya sea en
+el foro de postgres (ya van dos respuestas alli, esta y la de los
+triggers recursivos) o bien en stack, de primera pongo "postgres cant
+delete row without aparente razon" y el primer resultado es "unable
+delete a row" y alli lo pille en el instante, es pq un trigger before
+llama una funcion con return NULL; y eso hace que el proceso haga skip
+de todo lo que siga, una especie de break de tcl, y entonces el delete
+no se haga.
 * directivas
 ** hacer programas basicos y programasx
 p.e. ventaspg y ventaspgx

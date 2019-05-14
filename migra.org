@@ -83,7 +83,7 @@
 | [2019-05-11 sáb] | ibu600-8hs     |                  |               |   |   |
 | [2019-05-12 dom] | ibu600-11hs    |                  |               |   |   |
 | [2019-05-13 lun] | ibu600-8hs     | ibu600-16hs      |               |   |   |
-| [2019-05-14 mar] | ibu600-8hs     |                  |               |   |   |
+| [2019-05-14 mar] | ibu600-8hs     | ibu600-16hs      |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1357,6 +1357,8 @@ menos.
 levantado con N4 tomo ibu, y ando pero no logra limpiar del todo, sigo
 con contractura y en oficina no logro relajar los musculos y sigo
 tenso y el dolor sigue en aumento.
+Mismo patron que ayer, pero al menos fue util, limpio bien, y voy
+ordenando un poquito y quizas me vaya corrigiendo con el paso de los dias.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
