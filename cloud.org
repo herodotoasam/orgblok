@@ -146,13 +146,57 @@ calculada a demanda tambien, o sea es el pg4 el demorero.
 reescribir las grandes interfaces conectadas y perfeccionar los datos
 para que tengamos lo antes posible las cosas en forma lo mas acabada
 posible.
+** [2019-05-13 lun]
+hoy di un paso gigante pq compre el monitor y traje el teclado o sea
+arme una casi compu en la casa lo que permite una mejor
+programacion. Y resolvi los tres problemas que tenia de ayer, y avance
+bastante en la escritura de triggers los cuales hago sobre la marcha
+con omni. ahora voy a pasarlos a script para ordenar las reescrituras
+sino se va a hacer un lio.
+*** gigante OMNIDB para escribir funciones y triggers
+te permite rapidamente escribir ahi mismo y crearlos y con un terminal
+de pruebas aparte con un par de consultas voy probando y testeando;
+*** a partir de ahora CUADERNO MACHETE 
+la bocha seria pasar las fichas cuando vaya pudiendo. E ir generando
+una especie de indice en las ultimas paginas cosa de encontrar mas
+rapido las cosas. Me parece mejor que las fichas y a la larga mas
+barato. De ultima le voy metiendo lapiz y goma. 
+*** gigante el pgmodeler que me lee el modelo de aws importandolo
+y luego haciendo diff en local.
+Cosa de que puedo trabajar en aws y bajar los cambios y sincronisarlos
+via pgmodeler teniendo el modelo como la base para evitar tener que
+hacer escript de actualizacion a mano que son error prone. Asi puedo
+modificar funciones y trigger a gusto incluso tablas y luego acomodar
+los modelos aca. El unico escript que tengo que arreglar es el de
+lectura de datos de sqlite3 para actualizar los datos reales.
 * problemas
-** update fechas en ventaspg
-no anda ninguna tecla
-** trigger update ventas se hace recursivo
+** DONE update fechas en ventaspg
+- State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
+no anda ninguna tecla. Era un anodino bug de tcl. Resulta que el bind
+para update de tbls-fechas es para KP_Add y KP_Substract no para plus
+ni para minus, o sea al estar en la notebook no andaba ni a palos
+porque al no tener teclado numerico no le podia dar teclazo adecuado y
+como me hacia sospechar de aws pensaba cualquier cosa. Lo puse muy
+facilmente como un swich - arriba del otro sin siquiera tener que
+repetir la orden.
+
+** DONE trigger update ventas se hace recursivo
+- State "DONE"       from "TODO"       [2019-05-13 lun 20:17]
 al no haber especificidad como en sqlite se hace recursivo y no puedo
 updatear una columna especifica .
 parece que postgres es terminante con eso o sea no se puede hacer. es
 problema de diseño. o sea los datos deberian poder calcularse sobre la
 base de lo que hay no en forma de trigger. Hay que repensar el
 diseño. que estaria mal hecho. hay que volver a usar el lapiz.
+Solucionado pq hice triggers especificos gracias a update of, lo cual
+actualiza los cambios pero no cae en un bucle infinito.
+** DONE no poder agregar ip publicas fuera de la creadora
+- State "DONE"       from "TODO"       [2019-05-13 lun 15:33]
+no pude agregar tan facil las ip de la oficina y del dpto.
+el reniegue fue que habia que agregar la ip en realidad se agrega mas
+facil que google pero en el security group del momento de la creacion,
+que a su vez es el que aparece en la portada de la instancia, o sea
+que no hay que crear otros sino que hay que agregarlo a ese, lo que
+confunde es que no tiene un nombre muy potable. Tiene que aparecer en
+la portada como rules ahi a la vista en el listado la ip que agregamos.
+** no me deja delete un registro en la tabla pagos

@@ -82,6 +82,7 @@
 | [2019-05-10 vie] | ibu600-8hs     |                  |               |   |   |
 | [2019-05-11 sáb] | ibu600-8hs     |                  |               |   |   |
 | [2019-05-12 dom] | ibu600-11hs    |                  |               |   |   |
+| [2019-05-13 lun] | ibu600-8hs     |  ibu600-16hs     |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1343,6 +1344,14 @@ incubando un ibu.
 lo tome casi alas 12 una mañana bastante ajetreada programando desde
 las 8 luego haciendo un asado a la carrera, y cumpliendo obligaciones,
 pero a pesar del choripan, estoy ok hasta ahora.
+* [2019-05-13 lun]
+anoche desperte con un N4 parecia que se iba a la mierda con puntadas
+tipo migrañon. Casi para tenerme que tomar un migral de noche. y
+estaba justificado, toda el dia habia pasado en la compu. no respete
+nada.
+hice el control mental y lo reduje, hasta las siete, tome el cafe el
+ibu y unas galletas fui a trabajar y hasta ahora todo bien.
+Tome por el estres de ir a comprar el monitor. y se me paso por lo menos.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
