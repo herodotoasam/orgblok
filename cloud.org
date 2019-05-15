@@ -221,6 +221,7 @@ delete a row" y alli lo pille en el instante, es pq un trigger before
 llama una funcion con return NULL; y eso hace que el proceso haga skip
 de todo lo que siga, una especie de break de tcl, y entonces el delete
 no se haga.
+** TODO trigger comprado (y otros) recursivo infinito al insertar
 * directivas
 ** hacer programas basicos y programasx
 p.e. ventaspg y ventaspgx
