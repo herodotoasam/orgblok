@@ -181,6 +181,19 @@ solucionando, tanto del owner de la base, como de no poder limpiar
 correctamente el destino de los datos. Y de paso documento bien el
 proceso y tengo que hacerlo a menudo para ir haciendolo de memoria pq
 lo haremos varias veces hasta que quede fijo.
+** [2019-05-15 mié]
+hoy dire que esto avanza con una lentitud espantosa, voy bocetando el
+pasar pagos yendo a la simpleza y rozando la complejidad del F9
+totalmente funcional y acabado como una roca y empezar de nuevo desde
+el llano algo pretendiendo que sea simple y empezar a enrollarlo de
+nuevo sin demasiada genialidad puesta de manifiesto en realidad no
+logra nada nuevo, solo una reescritura que permita que funcione con el
+nuevo sistema en vez de tener que hacer un wrap que al final es mas
+dificil, y quizas lograr algo como el ventaspg.
+Lo que si tendremos que hacer es separar el pasado de los papeles de
+la parte gerencial que siempre estuvo unido y no puede estarlo, no
+puede estar el pasado de recibos con la lista de cobranzas del mes y
+cosas asi. 
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -221,7 +234,8 @@ delete a row" y alli lo pille en el instante, es pq un trigger before
 llama una funcion con return NULL; y eso hace que el proceso haga skip
 de todo lo que siga, una especie de break de tcl, y entonces el delete
 no se haga.
-** TODO trigger comprado (y otros) recursivo infinito al insertar
+** DONE trigger comprado (y otros) recursivo infinito al insertar
+- State "DONE"       from "TODO"       [2019-05-15 mié 13:49]
 * directivas
 ** hacer programas basicos y programasx
 p.e. ventaspg y ventaspgx
@@ -229,3 +243,5 @@ ventaspg solo para pasar y controlar ventas apto para Rodrigo donde el
 ver ventas para controlar tenga limite 100 y un ventaspgx donde
 tengamos posibilidades mas extendidas que tenemos en el actual ventas,
 como editar todas las tablas y cambiar mas cosas.
+** hacer la menor carga posible al servidor para tener el menor delay posible
+y el menor costo luego y la menor dependencia de demoras
