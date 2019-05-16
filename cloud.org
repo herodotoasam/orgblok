@@ -194,6 +194,19 @@ Lo que si tendremos que hacer es separar el pasado de los papeles de
 la parte gerencial que siempre estuvo unido y no puede estarlo, no
 puede estar el pasado de recibos con la lista de cobranzas del mes y
 cosas asi. 
+** [2019-05-16 jue]
+el dia de hoy llevo 6 horas y media sentado en la compu, sin
+levantarme, un dia que tengo un migral, un ibu y un diclo encima, y
+estoy en una curva de aprendizaje tipo pared de acantilado. Muy
+poquito lo que pude moverla. Para un dia casi nada. Desde el domingo
+que el pasar ventas funcionaba o creo que funcionaba el lunes lo pase
+en la compra del monitor y en el acomodado de la base de datos y el
+martes-miercoles me trabe en el pasar recibos y eso me frustro lo
+suficiente como para pensar que no era viable el proyecto con tcl. Y
+que debiamos empezar todo de cero. Todo de la nada. 
+Habria que reevaluar pienso, entre el valor de lo que tengo y la
+viabilidad de lo que podria llegar a hacer y quizas el poder hacerlo
+pero mas adelante.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -245,3 +258,11 @@ tengamos posibilidades mas extendidas que tenemos en el actual ventas,
 como editar todas las tablas y cambiar mas cosas.
 ** hacer la menor carga posible al servidor para tener el menor delay posible
 y el menor costo luego y la menor dependencia de demoras
+** [2019-05-16 jue] a partir de hoy la directiva es aprender y desarrollar php/postgres
+la idea es dejar tcl pq el nivel de dificultad de hacer un traspaso a
+la red es bastante grande aunque el nivel de diseño y resultado
+observado en una interface como la del pasado de ventas es fabuloso y
+si aparte eso esta conectado en la nube es buenisimo, y eso me llevo
+una semana de trabajo intenso. Estoy todavia muy dudoso en cuanto al
+camino a emprender ambos caminos estan llenos de piedras y son muy
+empindados y tienen enormes desafios.

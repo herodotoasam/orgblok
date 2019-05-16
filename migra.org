@@ -85,6 +85,7 @@
 | [2019-05-13 lun] | ibu600-8hs     | ibu600-16hs      |               |   |   |
 | [2019-05-14 mar] | ibu600-8hs     | ibu600-16hs      |               |   |   |
 | [2019-05-15 mié] | ibu600-14hs    |                  |               |   |   |
+| [2019-05-16 jue] | ibu600-6am     | MIG-8am          | diclo50-20hs  |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1362,7 +1363,7 @@ tenso y el dolor sigue en aumento.
 Mismo patron que ayer, pero al menos fue util, limpio bien, y voy
 ordenando un poquito y quizas me vaya corrigiendo con el paso de los
 dias.
-[2019-05-15 mié]
+* [2019-05-15 mié]
 hoy dormi bien sin dolor espontaneo solo media hora antes de
 levantarme me inicio un leve N2, podria haber tomado un ibu y me
 levante temprano como antes e hice la gimnasia de antes junto con la
@@ -1370,6 +1371,18 @@ bici y mas o menos pude venir a trabajar normal sin tomar el ibu. Y
 fue gigante el paso de volver a hacer bici luego de tanto tiempo. Lo
 mismo termino tomandolo a las 14hs y tengo molestias pero como que lo
 mismo gane una etapa.
+* [2019-05-16 jue] N4 MIG
+dia pesimo en todo sentido, fue el primer dia que tomo algo en la
+noche, no pude conjurar del todo el dolor, lo hice por un rato y
+desperte y faltaba una hora y media y me tome un ibuprofeno, y menguo
+un poco, pero para ir a trabajar tenia creo que un N4 y termine con un
+migral no muy necesario o sea fue el primero de los migrales que se
+toma sin ser una migraña fuerte, y hoy es uno de los primeros dias
+tambien que estoy todo el dia sin ningun tipo de descanso, o sea que
+ya el tema programatico se ha ido al horto, no tiene ningun tipo de
+control de ningun tipo. 
+* 
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
