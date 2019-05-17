@@ -207,6 +207,22 @@ que debiamos empezar todo de cero. Todo de la nada.
 Habria que reevaluar pienso, entre el valor de lo que tengo y la
 viabilidad de lo que podria llegar a hacer y quizas el poder hacerlo
 pero mas adelante.
+** [2019-05-17 vie] 
+al final volvi con todos los brios a la programacion con el entorno
+TCL y anduve bastante bien teniendo en cuenta la limitacion de
+horarios de hoy. Un poco tropece con un problema de pgmodeler que me
+borra los update de columnas y eso me hizo renegar dandome error en la
+base local, hasta que descubri el error, y luego que no me andaba
+pgadmin4 pq habia trasteado con apache2 hasta que borre todas las
+config agregadas y felizmente volvio a a ndar pq en realidad pgadmin4
+es fundamental para trabajar con postgres.
+y en el medio me surgio la ultima gran duda que es la compatibilidad
+con windows, y el poder pasar a trabajar con tdbc en vez de pg, hasta
+qeu perdiendo una hora mas en eso me di cuenta que es al pedo, capaz
+que reniego como negro en eso y no obtengo nada en limpio, lo mismo
+termina andando para la mierda el sistema y nos trabamos al pedo
+total.
+
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
