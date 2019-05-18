@@ -87,7 +87,7 @@
 | [2019-05-15 mié] | ibu600-14hs    |                  |               |   |   |
 | [2019-05-16 jue] | ibu600-6am     | MIG-8am          | diclo50-20hs  |   |   |
 | [2019-05-17 vie] |                |                  |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-05-18 sáb] |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1385,7 +1385,12 @@ control de ningun tipo.
 * [2019-05-17 vie]
 despues del dia malisimo de ayer al menos por el momento estuve
 bastante regularon y pasable.
-
+a pesar del dia que tenia el cumple y fui a la oficina al medio previo
+haberme bañado y vine con el fede, y luego la previa en la casa y
+luego el cumple, que comi pesado, y me dormi tarde, y las vicisitudes
+varias, no tuve que tomar nada ni el viernes ni la noche
+* [2019-05-18 sáb]
+me levante bien a programar
 * 
 
 * CONCLUSIONES

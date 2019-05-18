@@ -222,7 +222,13 @@ qeu perdiendo una hora mas en eso me di cuenta que es al pedo, capaz
 que reniego como negro en eso y no obtengo nada en limpio, lo mismo
 termina andando para la mierda el sistema y nos trabamos al pedo
 total.
-
+A la noche en el aburrimiento leo mas sobre postgres y aprendo sobre
+el pg_dump y a la mañana me instalo el adminer.
+** [2019-05-18 sáb]
+en cierta forma va paralelo el desarrollo de la interfase con el
+manejo de la base de datos pq si no domamos los datos no podemos hacer
+nada, tengo que ser experto en postgres para poder con solvencia
+pasarme.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -282,3 +288,5 @@ si aparte eso esta conectado en la nube es buenisimo, y eso me llevo
 una semana de trabajo intenso. Estoy todavia muy dudoso en cuanto al
 camino a emprender ambos caminos estan llenos de piedras y son muy
 empindados y tienen enormes desafios.
+** [2019-05-17 vie] vuelta atras la directiva es desarrollar TCL
+** [2019-05-17 vie] decidimos que no habra compatibilidad con Windows
