@@ -87,7 +87,8 @@
 | [2019-05-15 mié] | ibu600-14hs    |                  |               |   |   |
 | [2019-05-16 jue] | ibu600-6am     | MIG-8am          | diclo50-20hs  |   |   |
 | [2019-05-17 vie] |                |                  |               |   |   |
-| [2019-05-18 sáb] |                |                  |               |   |   |
+| [2019-05-18 sáb] | ibu600-15hs    |                  |               |   |   |
+| [2019-05-19 dom] | ibu600-11hs    |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1391,7 +1392,11 @@ luego el cumple, que comi pesado, y me dormi tarde, y las vicisitudes
 varias, no tuve que tomar nada ni el viernes ni la noche
 * [2019-05-18 sáb]
 me levante bien a programar
-* 
+* [2019-05-19 dom]
+leve dolorcillo tomo ibu mas por costumbre que por necesidad y metido
+en la compu doblado y sin gimnasia y aguantando un chat-chat sin
+sentido.
+
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD

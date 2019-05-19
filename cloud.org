@@ -229,6 +229,18 @@ en cierta forma va paralelo el desarrollo de la interfase con el
 manejo de la base de datos pq si no domamos los datos no podemos hacer
 nada, tengo que ser experto en postgres para poder con solvencia
 pasarme.
+** [2019-05-19 dom]
+descubri que una instancia en saopaolo es mucho mas rapida, y tambien
+que cloud google puede ser usado via psql en igual manera que aws y
+pude en dos segundos subir un dump y hacer funcionales mis programas
+desde la consola con un psql -f en una forma muy compacta, ya que
+desde consola google permite establecer basedatos y user entonces de
+una subimos, en dos minutos la tenia configurada y es postgres 11 beta
+ya. Lo unico que la facturacion va galopando y creo que va a superar
+los 30 por mes uses o no uses el servicio.
+Adminer anda joyisima en el sistema y algunos css son buenos y
+permiten trabajar con las tres bases al mismo tiempo. la creacion de
+tablas es la mas rapida y directa aca.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]

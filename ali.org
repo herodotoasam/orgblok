@@ -951,6 +951,24 @@ completar la potencia programadora, pero por ahora va esto, y me traje
 mi teclado profesional, todo para darme mayor comodidad.
 Quiero empezar a programar en serio como un trabajo sin que me afecte
 ni los nervios ni la salud.
+** [2019-05-19 dom]
+*** estudio de ingles
+estudiar cualquier aplicacion me aburriria hasta morir, lo que debo
+hacer es sacar terminos de los manuales que leo y necesito leer y
+crear un anki de terminos que tendria que dominar bien, precisamente
+con anki en forma intensiva y luego releer el material hasta
+comprenderlo totalmente. cuando llegue a manejar 300/400 terminos mas
+que ahora creo que elevare la comprension lectora que tengo ahora en
+un 20% mas o mas.
+*** programacion primera etapa
+con postgres a fondo aseguro lo que estoy haciendo pq la ida y vuelta
+de datos a la nube no hubiera ido tan facil sin comprender a fondo
+pg_dump por ejemplo, igual podria ser si aprendiera a fondo psql y
+otras cosas administrativas de postgres. Y meterle a fondo con la
+programacion de tcl. No vendria mal un repaso a fondo de pgtcl para no
+andar adivinando cada vez que programamos un toque. 
+una vez terminada esa primera etapa podria emprender otra etapa con
+otras cosas pero ya tendria funcionando en la nube el sistema.
 
 * recetas
 ** mijo con calabazas
