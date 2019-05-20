@@ -302,3 +302,7 @@ camino a emprender ambos caminos estan llenos de piedras y son muy
 empindados y tienen enormes desafios.
 ** [2019-05-17 vie] vuelta atras la directiva es desarrollar TCL
 ** [2019-05-17 vie] decidimos que no habra compatibilidad con Windows
+* bugs o ideas particulares
+** ventas
+*** TODO [2019-05-20 lun] controlar que p=3 and ic=12
+

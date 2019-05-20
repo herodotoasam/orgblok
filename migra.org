@@ -89,6 +89,8 @@
 | [2019-05-17 vie] |                |                  |               |   |   |
 | [2019-05-18 sáb] | ibu600-15hs    |                  |               |   |   |
 | [2019-05-19 dom] | ibu600-11hs    |                  |               |   |   |
+| [2019-05-20 lun] | ibu600-8hs     |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1396,6 +1398,9 @@ me levante bien a programar
 leve dolorcillo tomo ibu mas por costumbre que por necesidad y metido
 en la compu doblado y sin gimnasia y aguantando un chat-chat sin
 sentido.
+* [2019-05-20 lun]
+dormi perfecto anoche a pesar de haber comido mucho y solo un leve
+dolorcillo me llevo a tomarme un ibu al levantarme como siempre.
 
 
 * CONCLUSIONES
