@@ -241,6 +241,16 @@ los 30 por mes uses o no uses el servicio.
 Adminer anda joyisima en el sistema y algunos css son buenos y
 permiten trabajar con las tres bases al mismo tiempo. la creacion de
 tablas es la mas rapida y directa aca.
+** [2019-05-20 lun]
+hoy fue fluido pq me permiti copiar procesos enteros que estan bien en
+otro lado, o sea verifico la aplicacion anterior y si veo que un tab
+esta correcto o funciona bien y es adecuado, lo copio y lo
+adapto. Entonces gano tiempo. P.e. en una tarde cerre el recibos con
+dos tabs que faltaban. La que queda de las zonas ira en otro lado, y
+el resumen de planillas ira con stock, con el buscador y con el fichas
+voy a demorar mas pq son dos aplicaciones mas complejas pero en si son
+mas modernas por lo que quizas tenga que directamente copiarlas parte
+por parte e irlas mejorando a medida que las transformo.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -302,7 +312,14 @@ camino a emprender ambos caminos estan llenos de piedras y son muy
 empindados y tienen enormes desafios.
 ** [2019-05-17 vie] vuelta atras la directiva es desarrollar TCL
 ** [2019-05-17 vie] decidimos que no habra compatibilidad con Windows
+** [2019-05-20 lun] trabajo con una instancia google cloud en saopaulo
+que tiene una latencia similar a una base local, para la mayoria de
+las tareas basicas, quizas se note mas en una tarea dura de impresion
+de listado o algo asi.
 * bugs o ideas particulares
 ** ventas
-*** TODO [2019-05-20 lun] controlar que p=3 and ic=12
-
+*** DONE [2019-05-20 lun] controlar que p=3 and ic=12
+- State "DONE"       from "TODO"       [2019-05-20 lun 14:15]
+se agrego una columna case when que controla que p=3 y cc=12 marque un
+flag y ese flag lo coloreo, y ademas pongo la posibilidad de editar en
+la misma planilla la p que antes no la tenia.
