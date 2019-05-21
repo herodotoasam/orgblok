@@ -251,6 +251,15 @@ el resumen de planillas ira con stock, con el buscador y con el fichas
 voy a demorar mas pq son dos aplicaciones mas complejas pero en si son
 mas modernas por lo que quizas tenga que directamente copiarlas parte
 por parte e irlas mejorando a medida que las transformo.
+** [2019-05-21 mar]
+hoy comence de una la transcripcion del fichas a fichaspg y fue
+bastante rapido, creo que en cuestion de un par de dias lo tendre
+terminado, no ya de un par de semanas. y mas rapido voy con las nuevas
+funciones que he creado
+pg_list / pg_onecolumn / pg_exists 
+Creo que asi esta bien , al menos con las interfaces que andan bien, y
+luego si se da se podrian perfeccionar, pero no es necesario
+reescribir algo que funciona bien.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
