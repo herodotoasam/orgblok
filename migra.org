@@ -91,7 +91,8 @@
 | [2019-05-19 dom] | ibu600-11hs    |                  |               |   |   |
 | [2019-05-20 lun] | ibu600-8hs     | ibu 17hs         |               |   |   |
 | [2019-05-21 mar] | MIG 5am        | diclo 50- 8am    |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-05-22 mié] | ibu600-8hs     |                  |               |   |   |
+| [2019-05-23 jue] |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1430,6 +1431,11 @@ No habia comido nada en especial que me causara malestar, solo arroz y
 habia comido con ganas pq tenia hambre. Como la otra noche que tome
 licuado de noche y tambien tuve dolor, y en el marques me toco cenar
 mila a napo y cero dolor. En el dia transcurri normal.
+* [2019-05-23 jue]
+lo unico llamativo es que desde ayer tarde con el estres agravado del
+suceso embargador aqui en el dpto y la corrida a suiza a lavar fondos
+y la salida de los promos esta mañana transcurrio 24 horitas sin
+novedades en el frente lo cual es muy bueno. 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

@@ -260,6 +260,23 @@ pg_list / pg_onecolumn / pg_exists
 Creo que asi esta bien , al menos con las interfaces que andan bien, y
 luego si se da se podrian perfeccionar, pero no es necesario
 reescribir algo que funciona bien.
+** [2019-05-23 jue]
+muchos avances con el fichaje, casi todos los modulos importantes, ya
+funcionan, solo faltan las ventanas emergentes que creo que seran
+faciles.
+Y el gran problema descubierto ya al menos es la impresion que se
+ralentiza pq es una lectura sucesiva, o sea esta programada para
+trabajar en base de datos local y por lo tanto sobre la base de leer a
+cada rato y eso tiene una penalidad de tiempo enorme en la emision de
+un listado, un segundo por cliente, pq una lectura es una lectura sea
+un datito o una tonelada de datos, o sea que lo que tengo que hacer
+pienso es leer todo y procesarlo internamente con tcl y mandarlo a
+imprimir en unos breves segundos. Quizas necesite usar la tabla cuotas
+con sus trigger bien aceitados para que nos manejemos con eso en vez
+de la forma tradicional. Pero en solo tres dias uno de los cuales ayer
+fue a medias por problemas ajenos a la programacion traduje uno de los
+principales y diria yo mas desafiantes. Queda el buscador que es el
+otro grande y el resto creo que es ya mas facil. 
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
