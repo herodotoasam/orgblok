@@ -277,6 +277,25 @@ de la forma tradicional. Pero en solo tres dias uno de los cuales ayer
 fue a medias por problemas ajenos a la programacion traduje uno de los
 principales y diria yo mas desafiantes. Queda el buscador que es el
 otro grande y el resto creo que es ya mas facil. 
+** [2019-05-25 sáb]
+hoy fue un dia de altibajo, tanto que en el bajo pense en buscar otra
+cosa o en abandonar el proyecto. Y las lecturas fluyeron de nuevo por
+todos lados, por el mundo python (sqlalchemy y toda esa mierda).
+incluso otros gui de python.
+Todo motivado pq la impresion no me daba la velocidad requerida o sea
+demoraba unos insaceptables segundos.
+Y el tema es que todo lo que es conexion recurrente es lento, lo lento
+en la nube es la coneccion repetitiva. Como el listado es lo mas
+intensivo produce problemas. 
+Lo solucione con una lectura inicial de todo, el pasado a tablas
+temporales de sqlite en una base de datos en memory y luego el proceso
+heavy dutty con sqlite como local sin tener que leer en postgres y
+alli emito el listado luego para las insersiones repetitivas las
+soluciono con un foreach agolpandolas en un solo insert y voile!! en
+un segundo esta.
+Con esto funcionando no tengo necesidad por ahora de irme a otros
+temas pq para lograr lo que tengo aca necesitaria un desarrollo de
+mucho tiempo.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
@@ -342,6 +361,7 @@ empindados y tienen enormes desafios.
 que tiene una latencia similar a una base local, para la mayoria de
 las tareas basicas, quizas se note mas en una tarea dura de impresion
 de listado o algo asi.
+** [2019-05-25 sáb] seguir en TCL
 * bugs o ideas particulares
 ** ventas
 *** DONE [2019-05-20 lun] controlar que p=3 and ic=12
@@ -349,3 +369,24 @@ de listado o algo asi.
 se agrego una columna case when que controla que p=3 y cc=12 marque un
 flag y ese flag lo coloreo, y ademas pongo la posibilidad de editar en
 la misma planilla la p que antes no la tenia.
+** fichas
+*** tabla cuotas 
+debo trabajar sobre una tabla cuotas enteramente funcional.
+primero recuperemos la funcion gc-gct.
+aca generamos una tabla cuotas que es igual a lo que nos entrega
+cuotas sin recargo el recargo lo calcularemos in situ con los datos de
+la planilla. esto permitiria con una sola consulta tener todos los
+datos que necesitamos para emitir las planillas.
+Una solucion al tema de la impresion seria manejar localmente los
+datos de la impresion con sqlite::memory o sea bajar los datos con
+postgres en una sola consulta y pasarlos a una tabla temporal de
+sqlite y desde alli trabajar la impresion, eso puede llevar pocos
+milisegundos
+y de paso ser muy facil de manipular a nivel datos y a nivel manejo de
+la estructura de datos desde esas tablas hacia el listado, y desde la
+bajada de datos a la creacion de tablas tambien. pq todo se hace en
+memoria.
+Asi como en un segundo tablelist se lee 250 registros de ituizango y
+te los pinta en un tablelist en la misma forma una tabla temporal de
+sqlite te lo puede leer y desde alli mandar la impresion en forma
+tradicional.
