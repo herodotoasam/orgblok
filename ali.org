@@ -969,7 +969,67 @@ programacion de tcl. No vendria mal un repaso a fondo de pgtcl para no
 andar adivinando cada vez que programamos un toque. 
 una vez terminada esa primera etapa podria emprender otra etapa con
 otras cosas pero ya tendria funcionando en la nube el sistema.
+** [2019-05-26 dom]
+*** analisis de conveniencia de cambiar dpto para evitar riesgo embargo
+un cambio de dpto a uno infimamente mejor (digamos costo 3k plus por
+mes nivel 9000 o 10000 mas expensas) acarrearia los siguientes gastos:
+| rescision                  |  7500 |
+| mes traslapado             | 12000 |
+| comision inmobiliaria      | 13500 |
+| coneccion luz y gas        |  6000 |
+| verificacion luz           |  4000 |
+| retiro y colocacion 2 a.a. | 14000 |
+| pintura dpto y mudanza     |  6000 |
+| Subtotal                   | 63000 |
+| dif alquiler por 12 meses  | 36000 |
+| Total                      | 99000 |
+Como se observa aunque algunos costos son anticipados a costos que si
+o si tendre que hacer, la mayoria se producen por el cambio en si, o
+sea que si el cambio lo hago cuando me plazca o cuando sea mas
+conveniente para mi no para evadir algo.
+El tema es que para evadir un posible embargo de algunos bienes voy a
+meterme a gastar platita contante y sonante en la suma de 60 lukitas
+ya y me metere en un gasto mas grande que el que estoy y en una vida
+peor que la actual, pq no estare en una direccion comoda.
+Posibles embargables:
+| mesa y sillas    | no se puede |
+| mesa tv          |   sin valor |
+| escritorio       |        2000 |
+| sillon giratorio |        8000 |
+| monitor          |        9000 |
+| sofa             |       20000 |
+| heladera         | no se puede |
+| cama             | no se puede |
+| bici             |        7000 |
+| notebook         |       30000 |
+| reloj            |       20000 |
+Total sin pequeños objetos: 46000
+Total general: 96000
+En el peor de los casos que perdiera todos esos objetos la cifra no
+justifica la cifra real de la maniobra evasiva, pq si para evitar el
+embargo "preventivo" de 96k gasto 60 y luego 30 a lo largo del año
+estoy en la misma, maxime siendo que las probabilidades reales que
+dicho embargo ocurra son mas bien bajas.
+Lo unico que hay que hacer es no tener fondos en efectivo y hay que
+estar preparado para guardar ciertas cosas. 
 
+Tendria que aplicar lo que enseña Carnegie aceptar lo peor que pueda
+pasar, y desde alli todo lo demas es mejora.
+Lo que hace este articulo es poner en verdadera perspectiva cuanto
+cuesta el cambio, que no es barato lamentablemente y por otra parte
+que no es mucho lo que hay de embargable, pq sacando los pequeños
+objetos, no queda nada, lo que es la carcasa del dpto pueden venir a
+embargarla diez veces si quieren que no hay nada de valor que sea
+relevante lo suficiente como para justificar el salirse de aca. 
+*** analisis de irse al marques
+la hipotesis no era irse a otro dpto sino irse al marques, pero
+nuevamente me encuentro con la traba que no podre adaptarme, mas que
+todo por la falta de lugar. 
+Y es verdad lo que me advierten es lo que luego me sucedera a mi
+mismo. Yo mismo me dare cuenta luego nuevamente que no me siento
+comodo.
+Que el problema de depresion lo debo resolver solo no tengo pq cargar
+a los demas con ese problema.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

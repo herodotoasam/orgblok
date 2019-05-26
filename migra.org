@@ -94,7 +94,8 @@
 | [2019-05-22 mié] | ibu600-8hs     |                  |               |   |   |
 | [2019-05-23 jue] |                |                  |               |   |   |
 | [2019-05-24 vie] | ibu600-5am     | MIG- 8am         |               |   |   |
-| [2019-05-25 sáb] |                |                  |               |   |   |
+| [2019-05-25 sáb] | ibu600-18hs    |                  |               |   |   |
+| [2019-05-26 dom] | ibu600-10hs    |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1446,6 +1447,16 @@ un migral para poder ir a trabajar tranquilo.
 * [2019-05-25 sáb]
 dormi bien anoche y a pesar de la juntada con empanadas y todo sigo
 bien a las 4.30hs.
+luego me pongo a ver tele ministerio del tiempo y me tomo un ibu por
+un N0.25, y luego el resto de la noche estuve bien
+* [2019-05-26 dom]
+dormi bien a pesar de haber comido un monton y pesado, pero a mitad de
+la noche comenzo la molestia, y lo maneje como en la vieja epoca con
+la decision de no tomar migral hasta que se generara una migraña hecha
+y derecha. y lo pude pasar, a pesar de que en otras circunstancias con
+el mismo dolor quizas hubiera tomado un migral. Es importante notar
+que no es que hayan crecido en intensidad quizas algunas molestias
+sino que yo he cambiado la fuerza con la que enfrento todo.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
