@@ -296,6 +296,16 @@ un segundo esta.
 Con esto funcionando no tengo necesidad por ahora de irme a otros
 temas pq para lograr lo que tengo aca necesitaria un desarrollo de
 mucho tiempo.
+** [2019-05-27 lun]
+hoy hice buen avance pq me quedo redondito el autorizador ya listo pq
+estaba programado en tdbc y es casi directo el paso asi que me quedo
+asi, con la esperanza incluso que ande directo en windows.
+Hice un volcado de datos, un pg_dump y una subida impecable tanto a
+saopaulo como a aws (solo con el problema del procedure por postgres
+11), pero los datos andan bien y el volcado se hace sin problemas. 
+Y hoy me dedique bastante a un tema muy engorroso y dificultoso que
+son los triggers, vaya si hay un tema embolante es este, pero hay que
+hacerlo algun dia y ese dia es hoy.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]

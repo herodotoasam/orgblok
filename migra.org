@@ -96,6 +96,7 @@
 | [2019-05-24 vie] | ibu600-5am     | MIG- 8am         |               |   |   |
 | [2019-05-25 sáb] | ibu600-18hs    |                  |               |   |   |
 | [2019-05-26 dom] | ibu600-10hs    |                  |               |   |   |
+| [2019-05-27 lun] | ibu600-13h     |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1457,6 +1458,10 @@ y derecha. y lo pude pasar, a pesar de que en otras circunstancias con
 el mismo dolor quizas hubiera tomado un migral. Es importante notar
 que no es que hayan crecido en intensidad quizas algunas molestias
 sino que yo he cambiado la fuerza con la que enfrento todo.
+* [2019-05-27 lun]
+lunes regular, dormi felizmente sin dolor de cabeza y solo al mediodia
+quiza por la interrupcion de la Cami me tome un ibu. y luego como
+seguia nervioson me tome una SL. (van dos)
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
