@@ -306,6 +306,14 @@ saopaulo como a aws (solo con el problema del procedure por postgres
 Y hoy me dedique bastante a un tema muy engorroso y dificultoso que
 son los triggers, vaya si hay un tema embolante es este, pero hay que
 hacerlo algun dia y ese dia es hoy.
+** [2019-05-28 mar]
+hoy me dedique a trabajo de sqlite tuve que programar los listados
+para sistema kangoo, de todos modos consegui reusar codigo de puta
+madre y como aditamento logre una impresion por columnas muy prolija y
+con relativo poco esfuerzo y muy clarita a nivel codigo. 
+Creo que el proximo que agarrare sera el buscador para traducir paso
+por paso.
+
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
