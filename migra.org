@@ -98,7 +98,7 @@
 | [2019-05-26 dom] | ibu600-10hs    |                  |               |   |   |
 | [2019-05-27 lun] | ibu600-13h     |                  |               |   |   |
 | [2019-05-28 mar] | MIG- 6am       | ibu600 8am       |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-05-29 mié] |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1459,11 +1459,11 @@ y derecha. y lo pude pasar, a pesar de que en otras circunstancias con
 el mismo dolor quizas hubiera tomado un migral. Es importante notar
 que no es que hayan crecido en intensidad quizas algunas molestias
 sino que yo he cambiado la fuerza con la que enfrento todo.
-* [2019-05-27 lun] N5 MIG nocturno
+* [2019-05-27 lun]
 lunes regular, dormi felizmente sin dolor de cabeza y solo al mediodia
 quiza por la interrupcion de la Cami me tome un ibu. y luego como
 seguia nervioson me tome una SL. (van dos)
-* [2019-05-28 mar]
+* [2019-05-28 mar] N5 MIG nocturno
 dormi desde temprano y sin comer anoche, solo un vaso y medio de
 licuado livianito, y desde las tres me dolio molestamente y a eso de
 las seis decidi tomar mig pq pense que tenia una mañana dificil en el
