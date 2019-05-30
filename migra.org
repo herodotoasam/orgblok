@@ -99,6 +99,8 @@
 | [2019-05-27 lun] | ibu600-13h     |                  |               |   |   |
 | [2019-05-28 mar] | MIG- 6am       | ibu600 8am       |               |   |   |
 | [2019-05-29 mié] |                |                  |               |   |   |
+| [2019-05-30 jue] |                |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1472,6 +1474,11 @@ practicamente efecto aunque dormite bastante, y me levante como si no
 hubiera tomado nada y tuve que tomar un ibu con un cafe para irme a
 trabajar y alli al final cedio. una bronca pq hubiera estado todo bien
 pero sin el migral
+* [2019-05-29 mié]
+nada
+* [2019-05-30 jue]
+dormi barbaro anoche y toda la mañana bien y almorce en kike el cubano
+y todo ok.
 
 
 * CONCLUSIONES
