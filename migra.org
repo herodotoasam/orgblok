@@ -100,6 +100,7 @@
 | [2019-05-28 mar] | MIG- 6am       | ibu600 8am       |               |   |   |
 | [2019-05-29 mié] |                |                  |               |   |   |
 | [2019-05-30 jue] | ibu600 17hs    |                  |               |   |   |
+| [2019-05-31 vie] | ibu600 11hs    |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1487,7 +1488,10 @@ contentamiento y quizas toda posibilidad de abocarte a tarea de
 concentracion.
 Felizmente la bici, quizas el ibu hizo efecto y un paseito centrico
 parecen haber disipado el N2. cierro por hoy.
-
+* [2019-05-31 vie]
+dormi mucho y bien, desde que cambie por mozart y desperte bien
+tambien, luego recien en oficina tuve que tomarme el ibu que molesto
+levemente un N2 hasta ahora solventado.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
