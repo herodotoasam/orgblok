@@ -101,6 +101,7 @@
 | [2019-05-29 mié] |                |                  |               |   |   |
 | [2019-05-30 jue] | ibu600 17hs    |                  |               |   |   |
 | [2019-05-31 vie] | ibu600 11hs    |                  |               |   |   |
+| [2019-06-01 sáb] |                |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1249,7 +1250,7 @@ el dia se porto muy bien, a la mañana limpio muy bien, tipo doce me
 volvi y compre para comer unos agnolotis comi tipo una y desde alli le
 di sin parar hasta ahora terrible masazo, solo pare para ir a comprar
 cosas, fui al super, a la dietetica y a la panaderia, pero fueron ocho
-horas de trabajo con alguna pausa, ponele siete. Y se la banco.
+horas de trabajo con alguna pausa, ponele siete. Y se la banco. [[ ]] 
 * [2019-04-27 sáb]
 joya pude dormir muy bien anoche aca y desperte un poco tarde hice una
 sola serie no por obligacion sino por habito y me puse a programar
@@ -1492,6 +1493,15 @@ parecen haber disipado el N2. cierro por hoy.
 dormi mucho y bien, desde que cambie por mozart y desperte bien
 tambien, luego recien en oficina tuve que tomarme el ibu que molesto
 levemente un N2 hasta ahora solventado.
+* [2019-06-01 sáb]
+anoche tuve otro episodio nocturno abortado gracias a que fue fin de
+semana y a que la falta de preocupacion por compromisos me hizo pensar
+en que si hiciera falta me tomaba un migral entonces segui durmiendo
+tranquilo y como resultado se me limpio totalmente el dolor y termine
+sin Ns. incluso me levante sin ibu y llego al medio dia asi.
+seria importante poder reproducir por un par de meses en la vida
+semana a semana ese panorama. 
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
@@ -1626,5 +1636,22 @@ queremos cambiar el resultado p.e.
 8. de acuerdo al Dr Williams Romero en la visita del 17 de Abril 2019
    el exito del tratamiento se debe en un 50/50 a los factores
    profilacticos antes descriptos.
+** CONCLUSIONES MAYO19
+los tres ultimos migrales, dos nocturnos y uno matinal los atribuyo al
+estres laboral que me causo la inestabilidad del sistema de venta. Al
+estar mas que complicada la mañana siento una sensibilidad muy grande
+hacia el compromiso de estar bien en el horario de la salida y ahi es
+cuando tomo el migral preventivamente y con permiso.
+el primero del mes vino por una crisis de encierro que me producen las
+reuniones familiares muy largas y en si migrales migrañosos de N8 no
+tenemos mas de uno o dos en el mes.
 
+si tenemos en mayo un aumento explosivo del consumo de ibuprofeno,
+pasamos de 16 aines (mayormente naprux y diclo) en abril a 32 en mayo
+(mayormente ibu600). 
 
+en el mes de mayo se cae la profilaxis a la mitad o menos cae
+muchisimo la pausa en la tarea informatica creciendo el dolor de
+cuello y espalda y cayo a casi la mitad el ejercicio.
+Y salvo los ultimos dias que decidi comer comida comprada hecha,
+atravese un bache de mal comer en general. 

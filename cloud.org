@@ -313,7 +313,13 @@ madre y como aditamento logre una impresion por columnas muy prolija y
 con relativo poco esfuerzo y muy clarita a nivel codigo. 
 Creo que el proximo que agarrare sera el buscador para traducir paso
 por paso.
-
+** [2019-06-01 sáb]
+sigo traduciendo buscadorpg en forma ordenada reproduciendo fielmente
+su contenido. creo que asi esta bien. salvo por los tabs interiores
+que los ire evaluando para ver si son pertinentes y los ire acomodando
+y perfeccionando.
+creo que es un trabajo de paciencia y creo que en un mes o mes y medio
+ya estara listo todo. maximo dos meses. 
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]

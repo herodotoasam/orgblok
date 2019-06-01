@@ -50,10 +50,12 @@ luego traer
 - State "DONE"       from              [2019-02-25 lun 16:12]
 ** DONE poner cortina
 - State "DONE"       from              [2019-02-25 lun 21:24]
-** buscar bidon 6lts
+** DONE buscar bidon 6lts
+- State "DONE"       from "TODO"       [2019-06-01 sáb 13:54]
 ** DONE encerar
 - State "DONE"       from              [2019-02-25 lun 21:24]
-** poner topetina
+** DONE poner topetina
+- State "DONE"       from "TODO"       [2019-06-01 sáb 13:54]
 ** colocar vinilo para pared
 me parece muy funcional el tener un vinilo en esa pared, le veo muchas
 aplicaciones, quizas no termine haciendo nada, pero a nivel fijacional
