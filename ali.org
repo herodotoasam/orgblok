@@ -1127,7 +1127,12 @@ de opciones mas pero se podrian agregar mas en el futuro
 4. seguir trabajando en el programa no parar hacerlo bien seguir en
    practica no olvidarse.
 el resumen en general 
-
+** [2019-06-03 lun]
+tengo una fiaca atomica. no es solo sueño pero se transforma en sueño
+y tambien se va transformando en desinteres por todo. Mayormente por
+el negocio. Me da la impresion de que nunca podre terminar la
+programacion y hacer el cambio de sistema. 
+** 
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso
