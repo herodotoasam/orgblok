@@ -320,6 +320,9 @@ que los ire evaluando para ver si son pertinentes y los ire acomodando
 y perfeccionando.
 creo que es un trabajo de paciencia y creo que en un mes o mes y medio
 ya estara listo todo. maximo dos meses. 
+** [2019-06-03 lun]
+di de baja la cuenta de AWS pq pareciera que empiezan a facturar sin
+periodo de gracia, y para no arriesgar cerre la cuenta.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]

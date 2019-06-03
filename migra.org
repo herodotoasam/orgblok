@@ -102,6 +102,7 @@
 | [2019-05-30 jue] | ibu600 17hs    |                  |               |   |   |
 | [2019-05-31 vie] | ibu600 11hs    |                  |               |   |   |
 | [2019-06-01 sáb] |                |                  |               |   |   |
+| [2019-06-02 dom] | diclo75-15hs   |                  |               |   |   |
 |                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
@@ -1501,6 +1502,12 @@ tranquilo y como resultado se me limpio totalmente el dolor y termine
 sin Ns. incluso me levante sin ibu y llego al medio dia asi.
 seria importante poder reproducir por un par de meses en la vida
 semana a semana ese panorama. 
+* [2019-06-03 lun]
+todo el finde lo pase sano, comiendo y durmiendo y bien animicamente
+sin tomar nada solo un diclo el domingo, solo por leves molestias que
+me estaban empezando a nivel craneal (huesitos) y luego desaparecieron
+cuando me fui a dormir la siesta. Creo que el comer y beber y
+despreocuparme de todo fue beneficioso para esto.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
