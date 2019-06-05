@@ -1,0 +1,11 @@
+* pull/push
+fossil push
+https://herodoto@chiselapp.com/user/herodoto/repository/postcl
+te pregunta password y si quieres guardarla y luego hace el push.
+fossil pull https://chiselapp.com/user/herodoto/repository/postcl
+* fossil ui
+abre la ui web
+* fossil open archivo.fossil
+* fossil add
+* fossil commit
+
