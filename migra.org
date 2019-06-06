@@ -103,7 +103,10 @@
 | [2019-05-31 vie] | ibu600 11hs    |                  |               |   |   |
 | [2019-06-01 sáb] |                |                  |               |   |   |
 | [2019-06-02 dom] | diclo75-15hs   |                  |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-06-03 lun] | ibu600         |                  |               |   |   |
+| [2019-06-04 mar] | ibu600-11hs    |                  |               |   |   |
+| [2019-06-05 mié] | diclo50-11hs   | ibu600-17hs      |               |   |   |
+| [2019-06-06 jue] | ibu600-14hs    |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1508,7 +1511,10 @@ sin tomar nada solo un diclo el domingo, solo por leves molestias que
 me estaban empezando a nivel craneal (huesitos) y luego desaparecieron
 cuando me fui a dormir la siesta. Creo que el comer y beber y
 despreocuparme de todo fue beneficioso para esto.
-
+* [2019-06-06 jue]
+todos estos dias sigo igual aunque con consumo cotideano de aines en
+aumento pero alejado de las crisis no obstante la falta de movimiento
+y la falta de ergonomia aca en este receso invernal puede jugar en contra.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

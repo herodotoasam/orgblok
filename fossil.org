@@ -6,6 +6,9 @@ fossil pull https://chiselapp.com/user/herodoto/repository/postcl
 * fossil ui
 abre la ui web
 * fossil open archivo.fossil
+esto recrea el ultimo check-in haciendo un check-out o sea la
+reproduccion de archivos.
 * fossil add
 * fossil commit
+produce un push automatico ya q por default esta en autosyn=1
 
