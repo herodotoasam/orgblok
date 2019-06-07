@@ -106,7 +106,9 @@
 | [2019-06-03 lun] | ibu600         |                  |               |   |   |
 | [2019-06-04 mar] | ibu600-11hs    |                  |               |   |   |
 | [2019-06-05 mié] | diclo50-11hs   | ibu600-17hs      |               |   |   |
-| [2019-06-06 jue] | ibu600-14hs    |                  |               |   |   |
+| [2019-06-06 jue] | ibu600-14hs    | ibu600-23hs      |               |   |   |
+| [2019-06-07 vie] | MIG-8hs        |                  |               |   |   |
+|                  |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1515,6 +1517,12 @@ despreocuparme de todo fue beneficioso para esto.
 todos estos dias sigo igual aunque con consumo cotideano de aines en
 aumento pero alejado de las crisis no obstante la falta de movimiento
 y la falta de ergonomia aca en este receso invernal puede jugar en contra.
+* [2019-06-07 vie] N5 MIG matinal nauseoso
+luego de soportar toda la noche bien tuve que tomarlo justificadamente
+pq seguia el dolor y la nauseosidad. Lo que pasa que el dia del cumple
+habia comido de todo muy pesado y no lo digeri bien, en especial creo
+que fue la cerveza.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

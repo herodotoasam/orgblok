@@ -11,4 +11,12 @@ reproduccion de archivos.
 * fossil add
 * fossil commit
 produce un push automatico ya q por default esta en autosyn=1
-
+* chisel
+** herodoto|ajax ingresa cuenta 
+repo postcl
+** para hacer clone repositorio
+fossil clone
+https://herodoto@chiselapp.com/user/herodoto/repository/postcl
+postcl.fossil
+ahi pide password para herodoto --> ataraxia76  (ojo no ajax aca)
+fossil open postcl.fossil
