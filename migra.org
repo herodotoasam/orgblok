@@ -110,7 +110,7 @@
 | [2019-06-07 vie] | MIG-8hs        |                  |               |   |   |
 | [2019-06-08 sáb] |                |                  |               |   |   |
 | [2019-06-09 dom] |                |                  |               |   |   |
-| [2019-06-10 lun] |                |                  |               |   |   |
+| [2019-06-10 lun] | ibu600-11hs    | MIG 15hs         |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1524,9 +1524,20 @@ luego de soportar toda la noche bien tuve que tomarlo justificadamente
 pq seguia el dolor y la nauseosidad. Lo que pasa que el dia del cumple
 habia comido de todo muy pesado y no lo digeri bien, en especial creo
 que fue la cerveza.
-* [2019-06-10 lun]
+* [2019-06-10 lun] N4 MIG oficina
 pase todo el finde sin nada ni ibu ni diclo. aunque tuve momentos que
 podria haber tomado algo pero por vago no fui y se pasaron.
+la mañana comenzo bien pero luego fue evolucionando una molestia,
+luego tome un ibu, y parece que hubiera sido peor, pq siguio a peor,
+luego me retiro al mediodia a comer y como arroz con queso y vuelvo a
+oficina al rato y siento fuerte dolor y malestar de estomago
+(desconfio del aceite de oliva en primer lugar, del arroz en segundo
+junto con el amaranto, habria que hacer prueba por descarte) termino
+tomando migral en la oficina y al final fue resiliente, no sirvio de
+nada. La molestia siguio como si no lo hubiese tomado, recien cuando
+me fui a comprar a la farmacia se puede decir que cedio un poco.
+Luego hice las series y la bici y parece estabilizado, pero el mig ya
+esta tomado y eso es lo malo.                                     
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
