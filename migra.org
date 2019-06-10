@@ -109,7 +109,8 @@
 | [2019-06-06 jue] | ibu600-14hs    | ibu600-23hs      |               |   |   |
 | [2019-06-07 vie] | MIG-8hs        |                  |               |   |   |
 | [2019-06-08 sáb] |                |                  |               |   |   |
-|                  |                |                  |               |   |   |
+| [2019-06-09 dom] |                |                  |               |   |   |
+| [2019-06-10 lun] |                |                  |               |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1523,7 +1524,9 @@ luego de soportar toda la noche bien tuve que tomarlo justificadamente
 pq seguia el dolor y la nauseosidad. Lo que pasa que el dia del cumple
 habia comido de todo muy pesado y no lo digeri bien, en especial creo
 que fue la cerveza.
-
+* [2019-06-10 lun]
+pase todo el finde sin nada ni ibu ni diclo. aunque tuve momentos que
+podria haber tomado algo pero por vago no fui y se pasaron.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
