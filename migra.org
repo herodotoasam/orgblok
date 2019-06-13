@@ -112,7 +112,8 @@
 | [2019-06-09 dom] |                |                  |               |   |   |   |
 | [2019-06-10 lun] | ibu600-11hs    | MIG 15hs         |               |   |   |   |
 | [2019-06-11 mar] | ibu600-16hs    |                  |               |   |   |   |
-|                  |                |                  |               |   |   |   |
+| [2019-06-12 mié] |                |                  |               |   |   |   |
+| [2019-06-13 jue]                 |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1550,7 +1551,9 @@ pivotear entre irse o atacar, luego decido hacer las series y las hago
 con muchisimo esfuerzo y luego me tiro en el sillon a leer historia
 personal y parece que se hubiera conjurado aunque no del todo, pero ya
 no esta como recien que estaba para tomarse otro migral.
-
+* [2019-06-13 jue]
+providencialmente pase el cumple de ih con toda la comida extra sin
+siquiera un ibu durante el dia 12.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
