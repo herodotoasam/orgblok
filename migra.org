@@ -113,7 +113,9 @@
 | [2019-06-10 lun] | ibu600-11hs    | MIG 15hs         |               |   |   |   |
 | [2019-06-11 mar] | ibu600-16hs    |                  |               |   |   |   |
 | [2019-06-12 mié] |                |                  |               |   |   |   |
-| [2019-06-13 jue]                 |                |                  |               |   |   |   |
+| [2019-06-13 jue] |                |                  |               |   |   |   |
+| [2019-06-14 vie] | ibu600-8hs     |                  |               |   |   |   |
+| [2019-06-15 sáb] |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1554,6 +1556,12 @@ no esta como recien que estaba para tomarse otro migral.
 * [2019-06-13 jue]
 providencialmente pase el cumple de ih con toda la comida extra sin
 siquiera un ibu durante el dia 12.
+* [2019-06-15 sáb]
+pase el 13 sin nada, el 14 tome un ibu y pense que iba a necesitar un
+migral, fue la tarde de los pastelitos y pase providencialmente
+tambien sin migral, y estoy pasando el 15 la fiesta-compromiso del
+gran cumple ruidoso del lolo con nada encima.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
