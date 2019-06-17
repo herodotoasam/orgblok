@@ -1237,7 +1237,21 @@ los 15 minutos para arriba y despues rompi la inercia de las compras y
 de la comida y me fui a la verduleria ahi mismo y como estaba y no
 solo eso sino que traje mas cosas que las que traje nunca antes en los
 ultimos tiempos, con mas motivacion.
-
+** [2019-06-17 lun]
+como me costo a partir del martes mismo lograr el mismo pensamiento y
+el mismo sentido que el lunes pasado. Solo al dia siguiente el animo
+cambio y no encontraba el hilo que habia logrado el cambio de sentido
+desde el dia anterior. que era lo que habia hecho cambiar.
+la relectura de escritos, lh, y los resaltados produjeron un nivel de
+estado animico positivo inmediato de cambio en el momento, pero luego
+las obligaciones hicieron el resto para desviarme (si quiero echarle
+la culpa a lo vivido desde el miercoles 12 que fue el cumple de la ih)
+pero algo habia cambiado antes y era el relativo a cambiar el
+paradigma de la programacion y mudarme a ruby, lo cual cambio todo pq
+aunque estos ultimos dias no habia estado programando casi.
+asimismo en vez de ser motivante el cambio de paradigma por ser
+renovador en algo positivo y rapidamente puedo estar en aprendizaje de
+produccion lo malo es lo perdido en relacion a el estado animico.
  
 * recetas
 ** mijo con calabazas
