@@ -117,7 +117,8 @@
 | [2019-06-14 vie] | ibu600-8hs     |                  |               |   |   |   |
 | [2019-06-15 sáb] |                |                  |               |   |   |   |
 | [2019-06-16 dom] | diclo75-18hs   |                  |               |   |   |   |
-| [2019-06-17 lun] |                |                  |               |   |   |   |
+| [2019-06-17 lun] | diclo75-20hs   |                  |               |   |   |   |
+| [2019-06-18 mar] |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1566,6 +1567,10 @@ gran cumple ruidoso del lolo con nada encima.
 * [2019-06-17 lun]
 bastante bien cursando el finde largo mucho frio mucho dormir y mucho
 estar sentado
+* [2019-06-18 mar]
+atravesado el finde sin novedad un par de diclos alguno quiza
+prescindible, sera que se duerme mejor alla?
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
