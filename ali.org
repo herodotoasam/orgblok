@@ -1273,7 +1273,13 @@ dia y me queden medio dia para mis proyectos
 **** poder darme el lujo de tener un dpto propio
 un lugar de tranquilidad absoluta y reducto de retiro que puedo hacer
 incluso mas apartado en la proxima version.
-
+**** ir acumulando herramientas
+emacs, vim, orgmode, sqlite, postgres, tcl, ruby etc. mas todas las
+lecturas acumuladas.
+**** relacion bastante fluida con los hijos
+**** tengo una casa
+y la posibilidad de hacerme un dpto de mi agrado para vivir alli solo
+el tiempo que me quede
 *** causas de un malestar
 **** persecusion judicial
 **** bajo nivel de venta y bajas expectativas
