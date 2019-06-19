@@ -119,6 +119,8 @@
 | [2019-06-16 dom] | diclo75-18hs   |                  |               |   |   |   |
 | [2019-06-17 lun] | diclo75-20hs   |                  |               |   |   |   |
 | [2019-06-18 mar] |                |                  |               |   |   |   |
+| [2019-06-19 mié] | MIG 6am        |                  |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1570,6 +1572,13 @@ estar sentado
 * [2019-06-18 mar]
 atravesado el finde sin novedad un par de diclos alguno quiza
 prescindible, sera que se duerme mejor alla?
+* [2019-06-19 mié] N6 MIG nocturno
+anoche no cene casi, una merienda tardia acostado livianisima y me
+dormi con la panza vacia, quizas haya sido eso no lo se, dormi muy
+placidamente pero el dolor fue en ascenso, decidi postergarlo para el
+otro dia hasta que me fue insoportable, y decidi levantarme, tomarme
+un tipo desayuno galletas con queso y te y un migral a las 6 y a las 8
+ya todo limpiado.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
