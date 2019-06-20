@@ -395,6 +395,14 @@ seguir con lo mismo que hago hace 10 sino que debo buscar algo nuevo
 que permita nuevos desafios.
 creo que un sitio con sinatra/postgres estara bien para administrar el
 negocio y quizas pueda ser subido a heroku. 
+** [2019-06-20 jue] aprender php y jugarse con ello
+luego de renegar en demasia con rails y su poca documentacion prefiero
+hacer inmersion en php/html/javascript que aunque complejo es mas
+facil que lo otro y muy documentado y tiene gran documentacion
+Lo unico es que me aparto por un buen rato de la posibilidad de lograr
+resultados viables. y corro el riesgo de dejar para siempre de
+programar.
+
 * bugs o ideas particulares
 ** ventas
 *** DONE [2019-05-20 lun] controlar que p=3 and ic=12
