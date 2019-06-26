@@ -1,0 +1,26 @@
+* diario
+** [2019-06-21 vie] inicio de estudio de php con videos
+desde cero
+** [2019-06-26 mié] forms conectado a cloud para insersion y busqueda con tabla
+*** funciona la conexion a cloud
+solo cambio la ip de fibertel en el dpto y por eso no abria
+*** formularios basicos y de buen aspecto logrados
+al menos los controles basicos en una grilla de tabla se puede lograr
+*** forms y tabla juntos
+forms para submit y tabla debajo de repuesta, cosa de hacer un select
+por ejemplo y que salgan los datos en la tabla
+*** detalles css en la tabla
+**** border-collapse: collapse;
+**** border: 1px solid black;
+**** tr:nth-child(odd){background:bisque}
+para el efecto stripebackground
+**** padding: 5px;
+**** th {text-align: left;} 
+para alinear el encabezado a la izquierda
+*** detalles html de tabla
+**** encabezado
+saque el encabezado por pg_ y con un array_keys obtuve los cols y
+luego con un foreach arme el encabezado
+*** igualacion de mysql=pg 
+siguiendo el curso y practicando con mi propia base de datos y
+haciendo todo en pg. 
