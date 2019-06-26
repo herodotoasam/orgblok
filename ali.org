@@ -1287,7 +1287,29 @@ el tiempo que me quede
 **** falta de exito en la programacion
 **** problemas de pareja
 **** temores difusos por supuestos problemas fisicos
-
+** [2019-06-22 sáb]
+*** avance con curso por youtube
+llevo 15 videos del php y unos 5 o 6 complementarios de html5 para
+reforzar la base de html y en especial logre ver el tema de
+formularios.
+Creo que se puede hacer un formulario web en menos tiempo o en tiempo
+comparable a tcl, luego obviamente viene ponerle la logica detras,
+pero la parte visual era la que me preocupaba. Se avanza bastante con
+los cursos en especial cuando se practica a la vez. Lo importante es
+que se comienza a practicar y se sale de la teoria pura de cuando lees
+los libros.
+*** no tener ganas de pintar la casa
+en realidad no tengo ganas de nada en absoluto. en realidad disfruto
+el venir aca pq aparte de no hacer nada no estoy solo, duermo bien, y
+aparte como sin tener que ocuparme de nada en absoluto y todo el
+tiempo lo puedo dedicar a la programacion. Pero el problema nace
+cuando se me exigen cosas, como ayer que fue ponerse a lijar un poco y
+hoy supuestamente a pintar la pared. Y el problema es que excede lo
+que puedo hacer en estos momentos.
+*** sacar algo positivo de una etapa mala
+si salgo de esta etapa que en algun momento saldre de esta mastering
+varias tecnologias nuevas que permitan programar cosas nuevas no sera
+tiempo deperdiciado del todo.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso

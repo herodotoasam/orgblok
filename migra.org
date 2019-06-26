@@ -121,6 +121,13 @@
 | [2019-06-18 mar] |                |                  |               |   |   |   |
 | [2019-06-19 mié] | MIG 6am        | ibu400-14hs      | ibu400-20hs   |   |   |   |
 | [2019-06-20 jue] |                |                  |               |   |   |   |
+| [2019-06-21 vie] | ibu400 14hs    | ibu400-16hs      |               |   |   |   |
+| [2019-06-22 sáb] | ibu400 14hs    | ibu400-16hs      | MIG-17hs      |   |   |   |
+| [2019-06-23 dom] |                |                  |               |   |   |   |
+| [2019-06-24 lun] |                |                  |               |   |   |   |
+| [2019-06-25 mar] |                |                  |               |   |   |   |
+| [2019-06-26 mié] | ibu400 11hs    | ibu400 15hs      |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1583,6 +1590,20 @@ El dia continuo complicado amenazando luego del acto escolar al medio
 dia con recrudecer la migraña necesitando un segundo migral eso que
 habia tomado un migral a la mañana y lo resolvi con un segundo ibu400
 para la cena muy buena y temprana por cierto y todo ok.
+* [2019-06-21 vie]
+Molesto N3 in crescendo, pense q iba a escalar a un migral, y me dormi
+una minisiesta y se limpio totalmente.
+* [2019-06-22 sáb] N5 MIG
+idem dia anterior pero la escalada no la pare yendome a dormir con el
+segundo ibu y me tome un mig, lo mismo a los treinta minutos de estar
+bastante mal me tuve que ir a dormir y alli se produjo la mejoria
+total.
+* [2019-06-26 mié]
+despues de tres dias sin nada de sintomas ni siquiera un ibu, en
+especial lun y martes, hoy ya empezo a molestar un poquito antes de
+despertar un poquito, y lo mismo no quise tomar el ibu que lo
+sindicaba como generador de dolor, y efectivamente asi fue, pq en
+general no me ha aliviado para nada.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD

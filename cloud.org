@@ -323,6 +323,13 @@ ya estara listo todo. maximo dos meses.
 ** [2019-06-03 lun]
 di de baja la cuenta de AWS pq pareciera que empiezan a facturar sin
 periodo de gracia, y para no arriesgar cerre la cuenta.
+** [2019-06-26 mié]
+avanza muy lentamente pero avanza el aprendizaje de php con el curso
+de youtube, en realidad no es muy grande lo que se ve pero me va
+introduciendo poco a poco en la sintaxis y ya por lo menos estoy en el
+ciclo que me va a llevar a la experimentacion, lo bueno: que funciona
+perfecto con pg igual que con mysql y por lo tanto se pueden usar los
+datos de la base local.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
