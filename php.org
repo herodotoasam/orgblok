@@ -24,3 +24,14 @@ luego con un foreach arme el encabezado
 *** igualacion de mysql=pg 
 siguiendo el curso y practicando con mi propia base de datos y
 haciendo todo en pg. 
+** [2019-06-27 jue] inicio javascript
+hoy inicie con todo (un poco anoche) el estudio de javascript. para
+mezclar un poco y desaburrirme del punto a donde habia llegado y para
+ir teniendo mas herramientas de desarrollo de lo que voy a ir
+necesitando para armar lo que necesito. pq creo que la conexion php-pg
+no es mucho mas que lo visto pero falta la interface y eso es mas
+html/css/js/boostrap. Por eso creo que js es fundamental. Hasta ahora
+todo ok pq es aburridamente igual a php, pero ya empezamos a ver eventos
+*** eventos de raton sobre botones
+onclick p.e. onmouseover
+*** regreso a visual studio code como entorno de programacion.
