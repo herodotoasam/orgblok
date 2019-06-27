@@ -330,6 +330,11 @@ introduciendo poco a poco en la sintaxis y ya por lo menos estoy en el
 ciclo que me va a llevar a la experimentacion, lo bueno: que funciona
 perfecto con pg igual que con mysql y por lo tanto se pueden usar los
 datos de la base local.
+** [2019-06-27 jue]
+ayer empece a estudiar javascript en un curso con Ada que va muy bueno
+y creo que esta bueno ir aprendiendo los dos lenguajes al mismo
+tiempo. Y tengo en vista luego el de boostrap con un guey que es un
+capo como enseña.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
