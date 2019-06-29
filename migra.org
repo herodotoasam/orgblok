@@ -128,7 +128,8 @@
 | [2019-06-25 mar] |                |                  |               |   |   |   |
 | [2019-06-26 mié] | ibu400 11hs    | ibu400 15hs      |               |   |   |   |
 | [2019-06-27 jue] | MIG 8am        |                  |               |   |   |   |
-|                  |                |                  |               |   |   |   |
+| [2019-06-28 vie] |                |                  |               |   |   |   |
+| [2019-06-29 sáb] |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1615,6 +1616,13 @@ arrullo de tomarse un migral y arroparse un ratito esperando que te
 haga efecto y luego me levante barbaro. Ahora me arrepiento pq pienso
 que igual resultado hubiera conseguido con una taza de cafe y una
 serie de ejercicios.
+* [2019-06-29 sáb]
+anoche dormi bien aunque molesto dolor al que no le di importancia
+como siempre en visperas de un sabado con el consueldo de despues me
+tomo un migral y al final termine safando cuando me levante sin tomar
+nada.
+
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
