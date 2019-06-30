@@ -130,6 +130,8 @@
 | [2019-06-27 jue] | MIG 8am        |                  |               |   |   |   |
 | [2019-06-28 vie] |                |                  |               |   |   |   |
 | [2019-06-29 sáb] |                |                  |               |   |   |   |
+| [2019-06-30 dom] | ibu400 11hs    |                  |               |   |   |   |
+| [2019-07-01 lun] |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1621,7 +1623,8 @@ anoche dormi bien aunque molesto dolor al que no le di importancia
 como siempre en visperas de un sabado con el consueldo de despues me
 tomo un migral y al final termine safando cuando me levante sin tomar
 nada.
-
+* [2019-06-30 dom]
+leve molestia a la mañana y fue cediendo durante el dia luego de la comida
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD

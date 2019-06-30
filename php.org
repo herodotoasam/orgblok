@@ -35,3 +35,21 @@ todo ok pq es aburridamente igual a php, pero ya empezamos a ver eventos
 *** eventos de raton sobre botones
 onclick p.e. onmouseover
 *** regreso a visual studio code como entorno de programacion.
+** [2019-06-29 sáb] comienzo a ver jquery
+luego de la frustracion que el viernes no se aprovecho casi por el
+caos aca (me vine a las 14hs del centro y entre ir a ver el lote y
+retirar los sillones, el partido y el caos que habia aca no hubo
+tiempo de estudiar). Hoy sabado un poco de confusion, por no saber por
+donde seguirle a javascript. Y decidi seguirle un poco a pildoras todo
+lo mas que pueda, en especial que tiene unos diez videos de jquery que
+comence hoy y unos diez de formularios. Y luego ir redondeando yo
+mismo buscando otros cursos y otros materiales. 
+Creo que vamos avanzando pq con los cursos por video por lo menos se
+va escribiendo codigo y se va practicando con la maquina a diferencia
+de la lectura.
+creo que el estado de frustracion continuo que se experimenta pq
+parece que lo que se avanza es poco y no va a servir para nada se va a
+ir disipando con el tiempo. cuando lleve un par de meses de estudio
+puro de videos creo que ya aprendere lo suficiente como para producir
+algun resultado visible.
+El tema es seguir siendo capaz de lograr dominar esos temas. 
