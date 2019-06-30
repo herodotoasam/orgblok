@@ -1324,6 +1324,45 @@ crisis.
 el problema que me presenta el estudio es que si no hago eso no veo
 que otra cosa podria estar haciendo. No tengo nada que me interese lo
 suficiente como para quedarme despierto, nada atrapa mi voluntad. 
+*** no es facil superar el nivel de lo ya hecho
+aunque falta lo engorroso de terminar la traduccion es algo con lo
+cual cuento con los conocimientos y es un trabajo de uno o dos
+meses. Y para lograr algo similar con otro sistema tengo que hablar de
+algo muy pero muy largo. 
+*** puede que el centro informatico si bien estructura este deprimiendo
+por una parte puede que uno diga cuento con esto para salir adelante,
+como fue en todos los años en que programar fue mi pasion, pero al no
+poder empezar a codificar pq me faltan los conocimientos (no es lo
+mismo que con python que empece de a poco a hacerme el camino y de a
+poco ya estaba haciendo cosas mas interesantes que con tcl), aca es la
+aridez de estudiar estudiar y no ver nada pq no se articula en un
+programa sino en un desarrollo web entonces tenes que esperar y se
+hace tedioso pq tampoco es que la forma de estudiar de uno sea muy
+buena o articulada nunca lo fue, por lo tanto tenes como resultado que
+te vas olvidando, y en el contexto actual que ni siquiera sabes que
+tenes que estudiar pq vas mezclando cosas y estudiando 10 cosas
+distintas, html, css, javascript, php, jquery ahora, pero no sabes por
+donde empezar a codificar como para ver si vas a poder lograr una
+forma de trabajo desde aca.
+*** una posibilidad antes de tirar todo por la borda
+terminar el curso de pildoras de javascript reforzando formularios y
+el de php/mysql en paralelo reforzando crud, y hacer formularios de
+pasado de recibo, de ventas, de consulta y ver si ya podemos ir
+haciendo algo que sea usable, o sea si podemos ir creando interfaces
+usables.
+(pq despues arreglarlas con bootstrap y hacer un sitio grande con
+laravel se puede aprender pero la bocha es ir aprendiendo ahora a los
+forms basicos para las tareas que necesitamos ahora.)
+*** otra posibilidad es dejar completamente la programacion
+y basarme solamente en lo que tenemos o sea en el mundo sqlite, o sea
+hacer una relectura y reelaboracion paciente de todo los escritos
+tratando de buscar una sanacion y una salida a la situacion y evitar
+la distraccion de la programacion y concentrar toda la fuerza en otra
+cosa, o sea en pensar la situacion no pensar el sistema.
+*** incluso hay cosas copernicanas
+como ver donde vivimos pq si vivir en ese dpto es insano y estar
+quedandome aca tanto tambien lo es entonces buscar otra alternativa
+que sea mas sana.
 * recetas
 ** mijo con calabazas
 ** yamani con amaranto y queso
