@@ -145,7 +145,8 @@ Reparado: se pudo un label con el nombre del cobrador grande para que
 sea dificil equivocarse y se cambio el campo que limpie los numeros
 cosa que se pueda cambiar el nombre del cobrador sin perder lo
 ingresado.
-* TODO [2019-04-05 vie] periodicidad ventas
+* DONE [2019-04-05 vie] periodicidad ventas
+- State "DONE"       from "TODO"       [2019-07-01 lun 14:28]
 chequear en pasado de ventas que pasa con la periodicidad y de paso
 ver que no se puede editar periodicidad en editar ventas.
 lo del pasado es pq el combo es un combo itk y tendria que ser un

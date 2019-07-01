@@ -131,7 +131,7 @@
 | [2019-06-28 vie] |                |                  |               |   |   |   |
 | [2019-06-29 sáb] |                |                  |               |   |   |   |
 | [2019-06-30 dom] | ibu400 11hs    |                  |               |   |   |   |
-| [2019-07-01 lun] |                |                  |               |   |   |   |
+| [2019-07-01 lun] | diclo 50 12hs  |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1300,7 +1300,7 @@ serie y me reanime, y me tome una minisiesta pq era ya muy tarde y me
 anime del todo y logre un avance en el programa y termino animoso pero
 muy reventado de cansado, como y me voy a dormir pq estoy realmente
 fusilado.
-* [2019-05-02 jue] N6 sit atrap MIG
+* [2019-04-30 mar] N6 sit atrap MIG
 este dia tenia que acompañar a hacer un estudio importante a ih. Y no
 habia forma de pasar. Al mediodia me voy para alla y como locro dos
 platitos breves, y me voy con relativa tranquilidad de transito y una
@@ -1625,7 +1625,13 @@ tomo un migral y al final termine safando cuando me levante sin tomar
 nada.
 * [2019-06-30 dom]
 leve molestia a la mañana y fue cediendo durante el dia luego de la comida
-
+* [2019-07-01 lun]
+hoy experimente una molestia nueva y rara. de bien que estaba en la
+oficina me empezo un dolor en el cuero cabelludo parte trasera pero no
+el clasico huesito un poco mas arriba y un poco mas superficial, sin
+ser superficial tipo piel, y conforme se iba haciendo mas molesto me
+volvi y me tome un diclo y luego cedio pq no parecia desarrollarse con
+migraña para ningun costado
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

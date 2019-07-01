@@ -428,6 +428,56 @@ Yo hice auto-autorizacion pero sin seven, o sea una sola, no se pueden
 las dos autorizaciones juntas. para eso hay que estar con maquina.
 Y surge la idea de ih pq ella necesita trabajar y es la unica
 disponible para hacerlo en forma de teletrabajo.
+* recetas
+** mijo con calabazas
+** yamani con amaranto y queso
+** verduras al vapor todo tipo 
+** yamani cocinado con calabazas sin queso
+** quinoa con papas y sesamo y chauchas al vapor
+receta quinoa coccion perfecta: lavar, poner 1.5 taza por taza de
+quina EXACTO cocinar 14 minutos, echar solo hirviendo y bajar el
+fuego, poner sal en el agua. no se pega en la olla.
+** lentejas semanales
+las lentejas remojadas a las 7hs (dejadas la noche anterior en seco
+para no olvidarse), y puestas a hervir apenas regrese a casa, en tres
+ciclos de 20 min con reloj, en olla horno fuego corona, con laurel y
+ajo, quedaron tan exquisitas que me comi un plataso ahi mismo calentitas.
+** quinoa coccion perfecta 14 min
+1 parte quinoa - 1 1/2 parte agua - 14 min coccion fuego suave
+lavar la quinoa!!! y colarla bien pq resume casi media taza de
+agua!!!!
+media taza sirve para dos porciones 
+** fideos italianos con salsa tomate
+fideos italianos cocinados segun instrucciones del paquete, lata de
+tomates perita, picados en tabla, una cebolla picada dorada en aceite
+de oliva abundante, le tiro el tomate, oregano y listo.
+muy bueno y sano.
+* comprar
+ir agregando uno o dos ingredientes de cada tipo ya incorpodado,
+p.e. arroz negro, quinoa, girasol, y mas verduras por ahora, y otro
+aceite de oliva mas fino. 
+* idea estudiar a fondo TCL para acumular capital laboral
+la idea nacio primero como reveer a fondo el tolkit y hacerlo con la
+compu de "sentado" para hacer los ejercicios, hacer fichas, hacer
+resumen en org, y que sirva, pensando que hay bastante para ver:
+listas, dict, file i/o, namespaces, etc. Luego se agrega tk, con
+canvas, text, grid, pack, etc, y luego puede seguir tablelist, y por
+supuesto itcl a fondo. Y todo sin comenzar a desarrollar nada o bien
+hacerlo pero sin dejar de estudiar pq la bocha esta en hacer algo
+realmente nuevo, algo que cambie lo que venimos haciendo hasta ahora.
+** cuanto puedo estudiar por dia
+pense que sacandole horas muertas o al vicio del trabajo siendo que
+esto tendra implicaciones positivas para el negocio, pero sera a largo
+plazo, creo que tres horas por dia.
+** no distraerse en los resultados o las practicas
+si bien es cierto que hacer cosas son incentivos para aprender, sino
+hacemos el esfuerzo por aprender la teoria cruda cruda no vamos a
+ningun lado.
+** quizas tengamos que imprimir tambien
+p.e. el manual lo cual seria muy util para horas de reposo que pueden
+sumar y el manual es un buen complemento a todo tipo de aprendizaje.
+luego los encarpetamos a todos.
+
 * nueva etapa
 ** [2019-02-24 dom]
 hoy comienza una nueva etapa aca en el dpto y lo
@@ -1363,53 +1413,31 @@ cosa, o sea en pensar la situacion no pensar el sistema.
 como ver donde vivimos pq si vivir en ese dpto es insano y estar
 quedandome aca tanto tambien lo es entonces buscar otra alternativa
 que sea mas sana.
-* recetas
-** mijo con calabazas
-** yamani con amaranto y queso
-** verduras al vapor todo tipo 
-** yamani cocinado con calabazas sin queso
-** quinoa con papas y sesamo y chauchas al vapor
-receta quinoa coccion perfecta: lavar, poner 1.5 taza por taza de
-quina EXACTO cocinar 14 minutos, echar solo hirviendo y bajar el
-fuego, poner sal en el agua. no se pega en la olla.
-** lentejas semanales
-las lentejas remojadas a las 7hs (dejadas la noche anterior en seco
-para no olvidarse), y puestas a hervir apenas regrese a casa, en tres
-ciclos de 20 min con reloj, en olla horno fuego corona, con laurel y
-ajo, quedaron tan exquisitas que me comi un plataso ahi mismo calentitas.
-** quinoa coccion perfecta 14 min
-1 parte quinoa - 1 1/2 parte agua - 14 min coccion fuego suave
-lavar la quinoa!!! y colarla bien pq resume casi media taza de
-agua!!!!
-media taza sirve para dos porciones 
-** fideos italianos con salsa tomate
-fideos italianos cocinados segun instrucciones del paquete, lata de
-tomates perita, picados en tabla, una cebolla picada dorada en aceite
-de oliva abundante, le tiro el tomate, oregano y listo.
-muy bueno y sano.
-* comprar
-ir agregando uno o dos ingredientes de cada tipo ya incorpodado,
-p.e. arroz negro, quinoa, girasol, y mas verduras por ahora, y otro
-aceite de oliva mas fino. 
-* idea estudiar a fondo TCL para acumular capital laboral
-la idea nacio primero como reveer a fondo el tolkit y hacerlo con la
-compu de "sentado" para hacer los ejercicios, hacer fichas, hacer
-resumen en org, y que sirva, pensando que hay bastante para ver:
-listas, dict, file i/o, namespaces, etc. Luego se agrega tk, con
-canvas, text, grid, pack, etc, y luego puede seguir tablelist, y por
-supuesto itcl a fondo. Y todo sin comenzar a desarrollar nada o bien
-hacerlo pero sin dejar de estudiar pq la bocha esta en hacer algo
-realmente nuevo, algo que cambie lo que venimos haciendo hasta ahora.
-** cuanto puedo estudiar por dia
-pense que sacandole horas muertas o al vicio del trabajo siendo que
-esto tendra implicaciones positivas para el negocio, pero sera a largo
-plazo, creo que tres horas por dia.
-** no distraerse en los resultados o las practicas
-si bien es cierto que hacer cosas son incentivos para aprender, sino
-hacemos el esfuerzo por aprender la teoria cruda cruda no vamos a
-ningun lado.
-** quizas tengamos que imprimir tambien
-p.e. el manual lo cual seria muy util para horas de reposo que pueden
-sumar y el manual es un buen complemento a todo tipo de aprendizaje.
-luego los encarpetamos a todos.
-
+** [2019-07-01 lun]
+hoy sigo pensando que estoy muy mal. Y estoy mal en este momento para
+las dos posibles versiones o caminos. Tanto para seguir estudiando con
+visos realistas de obtener algo posible con lo nuevo, como seguir
+traduciendo el sistema tcl-postgres. Tanto por la complejidad como por
+el estado animico actual. 
+A pesar de que salgo a las 12y media quedo varado en un sistema
+dificil de sobrellevar dia a dia. Y no veo futuro. 
+*** opciones
+**** no programar mas
+el problema es en que llenar el tiempo o sea que hacer.
+**** programar solo en sqlite
+dedicarme a corregir y perfeccionar lo que hay quedandonos en sqlite
+**** seguir el proyecto postgres-tcl
+seguir la traduccion y la innovacion y eventualmente hacer el cambio a
+ese sistema
+**** seguir estudiando lenguajes nuevos con la esperanza de programar algo nuevo
+que es lo que estaba haciendo la semana pasada.
+*** no va mas...
+llego a la conclusion siendo las 17:27 del [2019-07-01 lun] que no
+estudio mas pq no le veo el horizonte, no veo que llegue, no veo que
+tenga sentido. Considero que estoy enfermo y seguir con esto me va a
+enfermar mas, pq va a enmascarar los sintomas poniendome en
+situaciones peores. Prefiero enfrentar la realidad ahora como es.
+*** no hay obligacion de programar nada
+no tengo la obligacion de programar nada ni de producir nada en
+absoluto. Quizas no es un hasta nunca, sino un hasta luego. Buscar la
+forma de vivir sin eso en la cabeza. 

@@ -335,6 +335,11 @@ ayer empece a estudiar javascript en un curso con Ada que va muy bueno
 y creo que esta bueno ir aprendiendo los dos lenguajes al mismo
 tiempo. Y tengo en vista luego el de boostrap con un guey que es un
 capo como enseña.
+** [2019-07-01 lun]
+doy por cerrada las ilusiones que estudiando "algo nuevo" pueda llegar
+a desarrollar algo de la calidad semejante a lo logrado con
+tcl/tablelist. Me parece que es muy mucho lo que hay que aprender y ya
+de tanto que es pierdo el incentivo pq no hay practica usable que lo avale.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
