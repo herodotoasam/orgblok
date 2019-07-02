@@ -419,6 +419,11 @@ facil que lo otro y muy documentado y tiene gran documentacion
 Lo unico es que me aparto por un buen rato de la posibilidad de lograr
 resultados viables. y corro el riesgo de dejar para siempre de
 programar.
+** [2019-07-02 mar] volver a TCL-postgres y terminar el proyecto en eso
+estoy muy cerca de lograr tener todo el sistema funcionando con
+postgres lo cual es fabuloso y se puede transformar refuncionalizando
+para que funcione mejor, y mas eficientemente, y como frutilla de
+postre podria andar en la web.
 
 * bugs o ideas particulares
 ** ventas

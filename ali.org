@@ -1456,4 +1456,18 @@ de paso solucionamos el problema de riesgo en dpto y aumentamos la
 comodidad de trabajo.
 *** desarrollar postgres
 hacer un gran desarrollo en postgres-tcl para que tengamos un bigdata
-
+*** comentarios al finalizar la tarde
+luego de programar un rato vi que realmente es mas satisfactorio
+quedarse en un ambiente que uno conoce y que obtine resultados, antes
+de meterse en uno que esta lejos de obtener resultados.
+en un ratito luego de pasarme y limpiar el vscode, y elegir un buen
+light theme, comence con pasar un par de comandos de la linea de
+comando y logre dos uno sencillo el fechamiento y otro bien enredado
+como la impresion de ficha, lo que me da la pauta que con paciencia
+lograre la traduccion y la optimizacion conjunta de todo lo obtenido
+hasta ahora por lo menos y mas. Con el trasfondo de postgres. Con el
+beneficio de que postgres se puede conectar a la nube si queremos
+pagar el servicio sino lo podemos hacer en localhost. 
+Con tcl se puede hacer de todo y con postgres se puede hacer de todo
+tambien por eso creo que ambas cosas son una buena simbiosis y son
+sencillas para aprender bien.

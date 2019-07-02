@@ -179,6 +179,10 @@ ver porque en el buscador no aparece una clienta que debe desde el
 autorizador.
 * TODO [2019-05-11 sáb] saldo no suma las entregas
 p.e. id 72179 presenta saldo 2370 cuando es 1870 sumando sus cuotas
-* TODO [2019-07-02 mar] caso Tognali Roxana en Antiguos
+* DONE [2019-07-02 mar] caso Tognali Roxana en Antiguos
+- State "DONE"       from "TODO"       [2019-07-02 mar 14:44]
 verificar la condicion que lleva a la inclusion en antiguos y que esa
 condicion tenga en cuenta el ultpago.
+EL pasaje a antiguos se realizaba con el campo pmovto pero si por
+error una cuenta de pago reciente no actualizaba su pmovto lo mismo
+era pasada a antiguos, agregando un par de condiciones arreglamos esto

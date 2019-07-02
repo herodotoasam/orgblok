@@ -132,6 +132,8 @@
 | [2019-06-29 sáb] |                |                  |               |   |   |   |
 | [2019-06-30 dom] | ibu400 11hs    |                  |               |   |   |   |
 | [2019-07-01 lun] | diclo 50 12hs  |                  |               |   |   |   |
+| [2019-07-02 mar] |                |                  |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1632,6 +1634,11 @@ el clasico huesito un poco mas arriba y un poco mas superficial, sin
 ser superficial tipo piel, y conforme se iba haciendo mas molesto me
 volvi y me tome un diclo y luego cedio pq no parecia desarrollarse con
 migraña para ningun costado
+* [2019-07-02 mar]
+importante pq esta mañana aborte un importante N3 de toda la noche con
+"nada" solo con levantarme tomar el cafe y los criollos e irme a
+trabajar.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
