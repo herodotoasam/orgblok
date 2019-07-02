@@ -179,3 +179,6 @@ ver porque en el buscador no aparece una clienta que debe desde el
 autorizador.
 * TODO [2019-05-11 sáb] saldo no suma las entregas
 p.e. id 72179 presenta saldo 2370 cuando es 1870 sumando sus cuotas
+* TODO [2019-07-02 mar] caso Tognali Roxana en Antiguos
+verificar la condicion que lleva a la inclusion en antiguos y que esa
+condicion tenga en cuenta el ultpago.
