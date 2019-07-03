@@ -340,6 +340,9 @@ doy por cerrada las ilusiones que estudiando "algo nuevo" pueda llegar
 a desarrollar algo de la calidad semejante a lo logrado con
 tcl/tablelist. Me parece que es muy mucho lo que hay que aprender y ya
 de tanto que es pierdo el incentivo pq no hay practica usable que lo avale.
+** [2019-07-03 mié]
+terminando la fase comandos del buscador, quedan las tabs visitas
+clientes y los cuadros estadisticos.
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]

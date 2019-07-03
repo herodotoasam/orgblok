@@ -1471,3 +1471,20 @@ pagar el servicio sino lo podemos hacer en localhost.
 Con tcl se puede hacer de todo y con postgres se puede hacer de todo
 tambien por eso creo que ambas cosas son una buena simbiosis y son
 sencillas para aprender bien.
+** [2019-07-03 mié]
+*** obviamente la mejora animica se la debo a encontrarle la vuelta a la programacion
+hay una causa efecto en la disparada del animo positivo desde que
+decido continuar programando con tcl-postgres y me reconcilio con la
+programacion y le hayo el gustito a la programacion como antes, o sea
+el buscar y hacer que funcione. 
+creo que hay mucho por hacer desde los datos, tanto en la parte de
+optimizar la entrada de datos como reordenar la salida de datos y
+obtener mayores resultados con los big-data. Mientras mas informacion
+tengamos mejor, y esa informacion va a venir por mas cuadros, por mas
+tablas dinamicas, por mas perfeccionamiento de los datos y eso es lo
+que tenemos que trabajar.
+*** hoy entre a comprar comida siria
+me anime a entrar y compre emp arabes y baklavas y genial tuve un
+almuerzo muy bueno y tengo para la cena, a solo unas pocas cuadras. 
+creo que hay que buscarse un par de lugares mas para comprar almuerzos
+que queden para la cena cosa de resolver por ahora este tema.

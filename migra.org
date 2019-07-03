@@ -133,6 +133,7 @@
 | [2019-06-30 dom] | ibu400 11hs    |                  |               |   |   |   |
 | [2019-07-01 lun] | diclo 50 12hs  |                  |               |   |   |   |
 | [2019-07-02 mar] |                |                  |               |   |   |   |
+| [2019-07-03 mié] | diclo 50 14hs  |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1638,6 +1639,11 @@ migraña para ningun costado
 importante pq esta mañana aborte un importante N3 de toda la noche con
 "nada" solo con levantarme tomar el cafe y los criollos e irme a
 trabajar.
+y asi el resto del dia todo bien incluso dormi mejor, eso si comiendo solido.
+* [2019-07-03 mié]
+hoy anduve bien y molesto tipo 12 de nuevo parte trasera izq muscular
+externa, pero me fui a pagar el alquiler sin darle demasiado bola, y
+recien luego de programar media hora reaparece y decido tomar diclo.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
