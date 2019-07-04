@@ -134,6 +134,7 @@
 | [2019-07-01 lun] | diclo 50 12hs  |                  |               |   |   |   |
 | [2019-07-02 mar] |                |                  |               |   |   |   |
 | [2019-07-03 mié] | diclo 50 14hs  |                  |               |   |   |   |
+| [2019-07-04 jue] | MIG 6.30hs     |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1644,6 +1645,9 @@ y asi el resto del dia todo bien incluso dormi mejor, eso si comiendo solido.
 hoy anduve bien y molesto tipo 12 de nuevo parte trasera izq muscular
 externa, pero me fui a pagar el alquiler sin darle demasiado bola, y
 recien luego de programar media hora reaparece y decido tomar diclo.
+* [2019-07-04 jue] N4 MIG madrugada
+lo tuve estirando lo mas que pude y a las 6.30 tome un mig que hizo
+efecto inmediatamente.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
