@@ -1488,3 +1488,9 @@ me anime a entrar y compre emp arabes y baklavas y genial tuve un
 almuerzo muy bueno y tengo para la cena, a solo unas pocas cuadras. 
 creo que hay que buscarse un par de lugares mas para comprar almuerzos
 que queden para la cena cosa de resolver por ahora este tema.
+** [2019-07-04 jue]
+*** mejorar los cuadros
+ya la parte operativa del buscador esta terminada ahora quedan los
+cuadros, pero toca mejorarlos, optimizarlos sino es un esfuerzo vano
+pq es repetir cuadros y mas cuadros que no usamos nunca o que estan
+mal hechos. O suplir los que nos faltan.

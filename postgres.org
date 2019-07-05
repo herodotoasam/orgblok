@@ -242,3 +242,9 @@ $sudo -u postgres psql
 eso asegura que la base sea nuestra y no haya problemas
 *** ALTER USER user_name WITH PASSWORD 'new_password';
 por si necesitamos resetear la password como me paso
+** restaurar google cloud
+*** delete database desde el iconito
+*** crear database desde el button con el mismo nombre
+*** psql -f pg20190706.sql -h 35.198.25.247 -d hero -U hero -p 5432
+donde en vez de pg2019... ponemos el dump que tenemos que restaurar.
+
