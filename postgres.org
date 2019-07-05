@@ -226,3 +226,19 @@ cambie el pg_hba.conf y puse trust en vez de peer y asi se puede
 loguear con tcl bien, pero la tabla que habia hecho no permitia acceso
 entonce tuve que hacer grant para la tabla
 GRANT ALL0 PRIVILEGES ON PRUEBA TO CAMI;
+* restauracion de dump completo en otra maquina
+** dump
+pg_dump dbname | gzip > filename.gz
+Reload with:
+gunzip -c filename.gz | psql dbname
+** previamente borrar la base de datos
+*** entrar como postgres
+$sudo -u postgres psql
+*** drop database hero;
+*** $sudo -u postgres createdb rx
+*** grant all privileges on database <dbname> to <username> 
+** cambiamos owner de la base de datos desde postgres
+*** ALTER DATABASE name OWNER TO new_owner;
+eso asegura que la base sea nuestra y no haya problemas
+*** ALTER USER user_name WITH PASSWORD 'new_password';
+por si necesitamos resetear la password como me paso
