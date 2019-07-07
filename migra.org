@@ -135,6 +135,8 @@
 | [2019-07-02 mar] |                |                  |               |   |   |   |
 | [2019-07-03 mié] | diclo 50 14hs  |                  |               |   |   |   |
 | [2019-07-04 jue] | MIG 6.30hs     |                  |               |   |   |   |
+| [2019-07-05 vie] | ibu400 14hs    |                  |               |   |   |   |
+| [2019-07-06 sáb] | ibu400 11hs    | ibu 400 14hs     | MIG 17hs      |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1648,7 +1650,9 @@ recien luego de programar media hora reaparece y decido tomar diclo.
 * [2019-07-04 jue] N4 MIG madrugada
 lo tuve estirando lo mas que pude y a las 6.30 tome un mig que hizo
 efecto inmediatamente.
-
+* [2019-07-06 sáb] N4 MIG
+los dos ibus no lograron interrumpir la molestias y luego de una
+siesta la molestia fue mayor y luego de un mig ceso.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

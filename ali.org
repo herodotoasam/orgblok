@@ -1494,3 +1494,28 @@ ya la parte operativa del buscador esta terminada ahora quedan los
 cuadros, pero toca mejorarlos, optimizarlos sino es un esfuerzo vano
 pq es repetir cuadros y mas cuadros que no usamos nunca o que estan
 mal hechos. O suplir los que nos faltan.
+** [2019-07-06 sáb]
+*** mejora animica por programar pero sin rumbo en lineas generales
+se puede decir que no hay rumbo ni hay goce. tampoco hay
+exultacion. hay si mucho aburrimiento. la soledad se acentua mucho
+aunque es dificil y mas en esta temporada de extremo frio quedarme en
+mi casa, tambien lo seria si hiciera calor, en si venir aca es como
+venir a una cabaña de descanso pero nada mas, si yo no traigo en la
+cabeza algo que me distraiga estoy frito.
+** [2019-07-07 dom]
+*** rentabilidad con 20% de morosidad
+costo 0.25
+ venta 0.10
+ cobranza 0.12 15% sobre el 80%
+ incobrabilidad 0.20
+ NETO 33% -> mejorable contra morosidad
+es raro que supere en terminos absolutos el 20 maxime con las
+ devoluciones.
+*** mas cuadros
+agregue clientes x barrios, ventas x barrios, morosos x barrios. y el
+comision por vendedor.
+*** temo que si me apuro en terminar la programacion me quede sin nada para hacer
+a la velocidad en que va la traduccion creo que en un mes mas termino
+todo absolutamente al punto de hacer el gran cambio.
+y luego no me queda nada. o queda una gran liberacion, todo es segun
+uno lo mire.
