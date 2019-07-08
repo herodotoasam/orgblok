@@ -1519,3 +1519,27 @@ a la velocidad en que va la traduccion creo que en un mes mas termino
 todo absolutamente al punto de hacer el gran cambio.
 y luego no me queda nada. o queda una gran liberacion, todo es segun
 uno lo mire.
+** [2019-07-08 lun]
+*** programacion grandes expectativas
+creo que el paquete postgres basado en lo que hay de sqlite y mejorado
+desde el punto de vista de los cuadros y desde el punto de vista de la
+usabilidad por un lado, y por el otro por la DB que es muy superior me
+da grandes expectativas y el resultado no tiene qeu esperar mucho,
+creo que en uno o dos meses ya lo tendria listo.
+*** agregar un lenguaje a la meta de aprendizaje
+tendria qeu ser javascript. Hacerlo de a poco, p.e. uno o dos videos
+por dia, con su practica, un par de lecturas,
+*** crear un sistema de aprendizaje-recordacion efectivo 
+hojas a4-lapiz B-goma- colores
+hacer cuadros mentales adecuados con los temas a desarrollar y luego
+solo queda el repaso adecuado cuando haga falta.
+*** hacer algo con los cuadernos
+una de las posibilidades seria la relectura resaltador en mano para lo
+que fuera relevante para conservar y ello transcribir a un org. Los
+org dada su condicion digital y giteable son mas faciles de conservar
+como un todo y de revisar y de mantener discretamente. 
+El cuaderno de papel tarde o temprano se perdera. Es una tarea
+conservacionista y se puede hacer un comentario actual, no es tiempo
+perdido, seria una buena terapia y de paso limpiamos cosas,
+minimalizamos bastante.
+
