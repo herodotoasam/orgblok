@@ -139,6 +139,7 @@
 | [2019-07-06 sáb] | ibu400 11hs    | ibu 400 14hs     | MIG 17hs      |   |   |   |
 | [2019-07-07 dom] |                |                  |               |   |   |   |
 | [2019-07-08 lun] | ibu400 14hs    | MIG 15hs         |               |   |   |   |
+| [2019-07-09 mar] | ibu800 19hs    |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1660,7 +1661,8 @@ mas depresivo que otra cosa, pero si que estaba molesta e
 irrecuperable la jaqueca, que creo a esta altura que la produce el
 ibu400 al menos. por lo que lo saco como preventivo por ser
 jaquecogenesico.
-
+* [2019-07-09 mar]
+fue positivo una dosis de dos ibus 400 para un N2+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
