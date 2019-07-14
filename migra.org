@@ -144,6 +144,7 @@
 | [2019-07-11 jue] |                |                  |               |   |   |   |
 | [2019-07-12 vie] | ibu800 3 am    | MIG 7am          |               |   |   |   |
 | [2019-07-13 sáb] | ibu800 19hs    |                  |               |   |   |   |
+| [2019-07-14 dom] | ibu800 12hs    |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1671,6 +1672,8 @@ fue positivo una dosis de dos ibus 400 para un N2+
 el moco fue que me tomo 800 de ibu a las 3 y no me mata del todo y
 decido en el torpor de la noche tomar el migral, para eso hubiera
 tenido que aguantar y terminar solo con el migral.
+* [2019-07-14 dom]
+domingo tome los 800mg de ibu casi preventivamente.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
