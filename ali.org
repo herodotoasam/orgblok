@@ -1542,4 +1542,99 @@ El cuaderno de papel tarde o temprano se perdera. Es una tarea
 conservacionista y se puede hacer un comentario actual, no es tiempo
 perdido, seria una buena terapia y de paso limpiamos cosas,
 minimalizamos bastante.
-
+** [2019-07-13 sáb]
+*** le pongo fichas a la chia
+aunque pueda parecer demasiado inmediato para dar un resultado he
+sentido un push animico luego del consumo directo de la chia, pero se
+que no se puede manifestar asi tan milagrosamente, de todos modos no
+soy de las personas que esperan un resultado magico, ya la anote como
+habito y lo bueno es que se puede tomar en el marques facilmente pq
+hay aca y se mezcla con el agua y limon.
+Incluso en centro pienso tomarla asi, no con el licuado, mas bien al
+licuado le agregare el lino, por las dudas las propiedades sean
+mejores con 15 minutos de remojo y no un remojo prolongado que pueda
+llegar a arruinar sus efectos. 
+*** le pongo fichas al ejercicio
+incluso pienso que no deberia haber el corte de los dias de marques
+sino que las series en su nuevo formato de 3 series consecutivas que
+producen buen efecto tendrian que hacerse todos los dias.
+*** ambos habitos se trasladan al marques y no se cortan
+chia por un lado y series por otro se pueden hacer igual en el marques
+*** le pongo fichas a recuperar la lectura
+ya sea de marcadores como de capitulos sueltos como de quizas empezar
+un libro entero o mas de uno y entrar en una etapa lectora.
+*** no forzar la forma de ingresar a un interes intelectual
+quizas me fuerzo en estos momentos a que la forma sea estudiando
+ingles, o estudiando un lenguaje en particular de programacion extra y
+quizas no venga por ahi por ahora, no sea por ahi en este momento.
+parte pq un lenguaje de programacion para ser aprendido con interes
+tenes que poder aplicarlo y eso significa aplicarlo al negocio, eso
+hice con python, luego con tcl, luego con sqlite, luego ultimamente
+con postgres, y ultimamente todo el intento de la multitud de
+lenguajes para reemplazar todo eso que seria programar en la web te
+lleva a estar lejos de la practica y de la aplicacion.
+Hoy por hoy supongamos puedo aplicar tcl-tk-tablelist-sqlite-postgres
+a romitex en forma directa pero "estudiar" un javascript por amor al
+estudio, por amor al arte, pienso que no te agrega mucho pq en el
+camino tenes que practicar otras cosas que no son aplicables al
+negocio. 
+*** diversificar los intereses
+para no caer en las tardes eternas en las cuales no tenes nada que
+hacer, ni que ver, ahi es donde propongo diversificar los intereses
+lectores. salirse un poco de la parte tecnologica y volver a explorar
+otros tipos de libros. de ultima apelar a la relectura. la lectura es
+un placer en si mismo y quiebra un poco el llenar el tiempo viendo
+tele que ya no tengo aparte.
+*** no escatimar gastos
+**** colchoneta 
+para ej de espalda y pushup mas comodamente
+**** elementos de dibujo para mm
+para inagurar un nuevo sistema de recordacion - block 115gr lapiz goma 
+*** le pongo fichas a estudiar itcl - postgres - tcl 
+hacer ejercicio estudiantil de inmersion total con esas materias,
+paralelo al "trabajo" de programacion. .
+**** itcl
+lectura del manual con practica paso a paso de los ejemplos.
+obtencion del explorer de ejemplo paso a paso hecho por mi.
+revision de las clases itcl de itk2 acorde a lo aprendido
+**** postgres1
+lectura del manual
+manejo efectivo de los distintos aspectos 
+**** tablelist
+revision del manual
+revision de los ejemplos
+**** tcl
+mm de los grandes comandos 
+comandos que no hemos usado nunca pq no hemos entendido
+lectura de codigo de otros
+mejora de codigo propio
+**** formato de estudio
+lectura de manual impreso
+sacado de terminos a anki
+practica de ejemplos
+confeccion de mm en a4
+*** sobre la "urgencia" de la programacion
+creo honestamente que la programacion no es urgente.
+creo que los cuadros y vistas que puedo ir haciendo se podrian ir
+haciendo en la version sqlite3 con unos minutos mas de esfuerzo. Asi
+como las correcciones de bugs van poniendose para aca.
+Incluso pienso que con un poco de esfuerzo y entusiasmo se podria
+programar el cambio del pasado de venta. (digamos dos dias dedicados a
+esa tarea unas cuatro horas bien valen la pena, si en los proximos
+cuatro meses esa aplicacion la uso.).
+Creo que no es urgente pasarse a postgres lo que creo es que 
+**** no se deberia perder lo que ya sabemos de postgres
+o sea no se puede dejar de desarrollarlo
+**** postgres tambien tiene el valor de corregir los datos
+pq en el pasado de datos sirve como filtrador de datos erroneos
+**** el paso a postgres va a ser un limpiador de mucho pasado
+o sea de datos que ya no se usan mas, y tablas y vistas obsoletas
+**** no se deberia dejar de traducir las vistas y pivots a sqlite
+pq son de rapido pasaje. p.e. las nuevas de barrios-cliente- etc en
+media hora las hago para sqlite3.
+**** se puede ver la programacion como un todo
+tanto que se programe en tclmobile o postcl y se traduzca de uno a
+otro. 
+**** creo que se podria "tirar" hasta fin de año mejorando los datos
+programando una o dos horas por dia o nada y dedicandome a solidificar
+los procesos.
