@@ -146,7 +146,7 @@
 | [2019-07-13 sáb] | ibu800 19hs    |                  |               |   |   |   |
 | [2019-07-14 dom] | ibu800 12hs    |                  |               |   |   |   |
 | [2019-07-15 lun] | diclo 50 20hs  |                  |               |   |   |   |
-| [2019-07-16 mar] | ibu800 9hs     |                  |               |   |   |   |
+| [2019-07-16 mar] | ibu800 9hs     | MIG 12.30hs      |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1676,6 +1676,9 @@ decido en el torpor de la noche tomar el migral, para eso hubiera
 tenido que aguantar y terminar solo con el migral.
 * [2019-07-14 dom]
 domingo tome los 800mg de ibu casi preventivamente.
+* [2019-07-16 mar] N5 MIG oficina 
+nauseoso en progreso, comenzo en la madrugada desaparecio al
+levantarse tome 800 de ibu que no sirvio de nada 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
