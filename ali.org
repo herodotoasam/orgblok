@@ -1693,3 +1693,8 @@ agregado esta ultima semana que juntas van cambiando la situacion.
 *** apertura en alimentos
 *** cambio de bici por caminata
 *** lectura de un libro
+*** tambien darse permiso para fallar
+no estoy inspirado para programar o llego a problemas que en este
+momento me parecen muy dificiles pero se que es hoy, que no me defino
+asi por siempre, aparte lo programado por mi mismo es genial por eso
+creo que debo darme palmaditas de aprobacion por eso.
