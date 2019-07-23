@@ -154,6 +154,8 @@
 | [2019-07-20 sáb] |                |                  |               |   |   |   |
 | [2019-07-21 dom] |                |                  |               |   |   |   |
 | [2019-07-22 lun] |                |                  |               |   |   |   |
+| [2019-07-23 mar] | MIG 7hs        |                  |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1685,6 +1687,10 @@ domingo tome los 800mg de ibu casi preventivamente.
 * [2019-07-16 mar] N5 MIG oficina 
 nauseoso en progreso, comenzo en la madrugada desaparecio al
 levantarse tome 800 de ibu que no sirvio de nada 
+* [2019-07-23 mar] N4 MIG matinal-nocturno
+despierto jaquecoso y corte con un migral a las 7am y duermo hasta las
+8hs y no surtio mucho efecto pero al levantarme ya me hizo efecto la
+mañana y se limpio completamente.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
