@@ -155,6 +155,9 @@
 | [2019-07-21 dom] |                |                  |               |   |   |   |
 | [2019-07-22 lun] |                |                  |               |   |   |   |
 | [2019-07-23 mar] | MIG 7hs        |                  |               |   |   |   |
+| [2019-07-24 mié] |                |                  |               |   |   |   |
+| [2019-07-25 jue] | ibu800 9hs     |                  |               |   |   |   |
+| [2019-07-26 vie] | ibu800 12hs    |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1691,6 +1694,10 @@ levantarse tome 800 de ibu que no sirvio de nada
 despierto jaquecoso y corte con un migral a las 7am y duermo hasta las
 8hs y no surtio mucho efecto pero al levantarme ya me hizo efecto la
 mañana y se limpio completamente.
+* [2019-07-26 vie]
+ayer y hoy sendas jaquecas, la de hoy incluso subidita de tono fueron
+abortadas por 800 de ibu.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
