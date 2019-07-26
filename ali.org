@@ -1768,3 +1768,18 @@ alimentarios y los demas.
 puedo comprarmelo sin justificacion, pero creo que puede significar
 impulso a la lectura-estudio. hasta cierto punto el formato pantalla
 para leer puede ser mas comodo. 
+*** seguir programando al menos una hora por dia
+con la finalidad de no perder la practica, pq sino despues sera mucho
+mas grave volver a arrancar.
+es cierto que la incomodidad aca en el marques hace que no se pueda
+programar mucho con la compu pero se podria al menos de lunes a
+viernes o de lunes a jueves hacer una practica de una hora. y se
+podria hacer una hora en la oficina, junto con la relectura de atras
+para adelante. si no logramos arrancar programando, puede ser
+interpretando, comentando codigo, documentando en org aparte cosa de
+tener una base para el mantenimiento.
+Esa puede ser una tarea en la oficina, no necesariamente tengo que
+justificarme en la oficina con tarea de pasado de papeles puedo
+tambien hacer org y tambien puedo hacer tcl. hay mucho tcl que
+hacer. es mas si el tcl pudiera hacerlo en horario de oficina y dejar
+la tarde libre mejor.
