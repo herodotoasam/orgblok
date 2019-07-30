@@ -160,6 +160,8 @@
 | [2019-07-26 vie] | ibu800 12hs    |                  |               |   |   |   |
 | [2019-07-27 sáb] | ibu800 12hs    |                  |               |   |   |   |
 | [2019-07-28 dom] | ibu800 12hs    |                  |               |   |   |   |
+| [2019-07-29 lun] | ibu800 22hs    |                  |               |   |   |   |
+| [2019-07-30 mar] | MIG 2 am       |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1699,6 +1701,10 @@ mañana y se limpio completamente.
 * [2019-07-26 vie]
 ayer y hoy sendas jaquecas, la de hoy incluso subidita de tono fueron
 abortadas por 800 de ibu.
+* [2019-07-30 mar] N6 MIG nocturno
+migral nocturno temprano a las 2am abortado rapidamente y segui
+durmiendo bien, creo que causado por intoxicacion por salame en mal
+estado.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
