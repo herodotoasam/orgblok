@@ -163,6 +163,12 @@
 | [2019-07-29 lun] | ibu800 22hs    |                  |               |   |   |   |
 | [2019-07-30 mar] | MIG 2 am       |                  |               |   |   |   |
 | [2019-07-31 mié] | ibu800 10hs    |                  |               |   |   |   |
+| [2019-08-01 jue] | ibu800 16hs    | MIG 18hs         |               |   |   |   |
+| [2019-08-02 vie] | ibu800 12hs    |                  |               |   |   |   |
+| [2019-08-03 sáb] | ibu800 12hs    |                  |               |   |   |   |
+| [2019-08-04 dom] | ibu800 12hs    | MIG 18hs         |               |   |   |   |
+| [2019-08-05 lun] |                |                  |               |   |   |   |
+| [2019-08-06 mar] | ibu800 13hs    |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1706,6 +1712,12 @@ abortadas por 800 de ibu.
 migral nocturno temprano a las 2am abortado rapidamente y segui
 durmiendo bien, creo que causado por intoxicacion por salame en mal
 estado.
+* [2019-08-01 jue] N5 MIG
+verspertino en marques luego de un ibu, tarde complicada con ih
+atendida con cadbury y yo viendo tele, felizmente el migral tomo bien
+y no hubo recaida por mas que los hechos luego se pusieron densos.
+* [2019-08-04 dom] N5 MIG
+dominguero
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
