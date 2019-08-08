@@ -168,7 +168,9 @@
 | [2019-08-03 sáb] | ibu800 12hs    |                  |               |   |   |   |
 | [2019-08-04 dom] | ibu800 12hs    | MIG 18hs         |               |   |   |   |
 | [2019-08-05 lun] |                |                  |               |   |   |   |
-| [2019-08-06 mar] | ibu800 13hs    |                  |               |   |   |   |
+| [2019-08-06 mar] | ibu800 13hs    | MIG 18hs         |               |   |   |   |
+| [2019-08-07 mié] |                |                  |               |   |   |   |
+| [2019-08-08 jue] | MIG 14hs       |                  |               |   |   |   |
 |                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1718,6 +1720,24 @@ atendida con cadbury y yo viendo tele, felizmente el migral tomo bien
 y no hubo recaida por mas que los hechos luego se pusieron densos.
 * [2019-08-04 dom] N5 MIG
 dominguero
+* [2019-08-06 mar] N7 MIG
+el dia martes luego de una seguidilla que va desde el jueves pasado
+que podria explicar la zozobra, vuelvo nuevamente al marques para ir
+al cumple del eugenio y aunque habia tomado ibu a la mañana ya habia
+limpiado y no tenia idea que el dia iba tornar migrañoso. La tarde
+transcurrio lenta pero tranquila, en la casa solo viendo tele y sin
+mucho hambre. Tome un par de vasitos de yogurt bebible ilolay con
+chia, -salvo que eso me haya caido pesado-, y luego matie con ih con
+pan negro y dulce de leche. Ya en la mateada crecio el dolor, que como
+tenia un compromiso me permiti atacar con migral y resulto resciliente
+y luego fue en aumento hasta tornarse nauseoso. Decido no ir y tipo
+20hs voy al final, me lleno la panza de papas fritas y coca del cumple
+y en una hora me vuelvo con la panza hinchada y dolor de cabeza que me
+duro toda la noche, aunque me permitio dormir.
+* [2019-08-08 jue] N5 MIG
+todo comenzo a la mañana como no tuve a mano ibu a mano no lo tome y
+fue creciendo hasta llegar a las 14hs a n5 espero ahora que haga
+efecto.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
