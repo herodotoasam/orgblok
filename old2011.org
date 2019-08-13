@@ -791,6 +791,74 @@ Preguntarse ¿para que?
 invasion de bichos.
 sabado 12/5 hice entrega de los dos perros.
 
+...Fue acertadisimo el maridaje entre sqlite y tcl ya que calzan
+perfectos, lo que me decidio fue cuando lei que sqlite fue
+originalmente una extension de tcl y que el unico wrapper que es
+mantenido por el sqlite-core-team es el tclsqlite. Y es el mas directo
+de ida y vuelta, tanto tuneando el sqlite con las funciones como
+trayendo datos con los metodos de tcl-sqlite.
+Y que decir de tk creado a medida de tcl por el propio creador de tcl
+y de la mounstruosa tablelist que funciona un caño.
+Tdv hay mucho que aprender de ambos, incluso itcl.
+
+...Autojustificacion que me hice para volver a cabaña II:
+1. estoy harto de manejar vs llevo un año sin manejar y el Bora ya
+   esta amortizado
+2. venia de 80m2 propios y hoy saldo de 2x3mts.
+3. no pucho, ni perros!!!
+4. tengo mas exp en lo que debo cocinar, tengo la reja, la salamandra,
+   la cortadora y pienso que lo que falte lo puedo hacer/comprar mejor
+   ahora que antes.
+5. el debate cotideano del tjo por el momento no existe. ese marasmo
+   de estar cortado.
+6. pienso poder hacer el acomodo de confort de una al comienzo, parte
+   pq hay y parte pq lo peor ya esta hecho.
+Enemigo N°1 diletancia, en libros, en quinta en todo.
+Notar que cuando opte medre (caso sqlite,tcl etc).
+Hay otras opciones pero hay que optar y quedarse pq sino no se logra
+nada. En casos libros tambien, el apotegma un libro por vez hizo que
+cuajara de otra forma.
+En el tema quinta se ve muy bien la diletancia en el cuaderno
+campo. Se ven a)objetivos irreales, b)falta de ir paso a paso, c)falta
+de concentrarse en lo basico primero. [Lo basico primero es rucula
+achicoria lechuga perejil, la puta lo logre en macetas sin luz]
+entonces no habia proyecto concreto real y afanes desmedidos.
+
+...¿Como tiene que ser el campo ahora?
+1. la distancia, tiempo, manejo es el peaje a dormir tranquilo y estar
+   al aire libre.
+2. la organizacion del sitio es mandatory al comienzo: iluminacion,
+   arreglos menores, instalacion, etc, hay que hacerlo como parte del sistema
+3. la salud es mandatory, cambio alimentario y plan tactico,
+   planificar compras, fichero recetas, quinta, verdulerias, caminar
+   como habito nuevo.
+4. aclarar las ideas. saber bien que conviene y que no y cuales son
+   los patetismos y cual es la asertividad. Si uno quiere hacer un
+   cambio, trabajar en ese sentido. Crear concepto, firme, propio,
+   acotado, optado.
+5. mejor aspecto, mas potencia, mas costo, mas identidad que marasmo,
+   abulia.
+Proyectos para cabaña II:
+1. bancal profundo
+2. no-poo
+3. alimentacion prana
+4. 3x12 plus
+5. filosofia
+
+...Escalas N-Migrañosa
+N10-infarto migrañoso
+N9-impide pensar-desesperante-ni moverse siquiera
+N8-impide roce del almohada
+N7-acostado en el oscuro
+N6-muy molesto pero levantado dificil el trabajo mental
+N5-con dolor no feliz pero se trabaja
+N4-leve
+N3-N2-N1 muy leves, molestias breves, pero somos conscientes de esas
+molestias.
+N0-hermoso estado de salud.
+
+
+
 * Comentarios de transcripcion
 [2019-07-23 mar]
 veo que la experiencia de campo si bien es cierto que salpicada por
