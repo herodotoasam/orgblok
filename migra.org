@@ -174,8 +174,8 @@
 | [2019-08-09 vie] | ibu800         |                  |               |   |   |   |
 | [2019-08-10 sáb] |                |                  |               |   |   |   |
 | [2019-08-11 dom] | ibu800 22hs    |                  |               |   |   |   |
-| [2019-08-12 lun] | ibu400 14hs    | ibu800 17hs      |               |   |   |   |
-|                  |                |                  |               |   |   |   |
+| [2019-08-12 lun] | ibu400 14hs    | ibu800 17hs      | MIG 20hs      |   |   |   |
+| [2019-08-13 mar] |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1742,9 +1742,12 @@ duro toda la noche, aunque me permitio dormir.
 todo comenzo a la mañana como no tuve a mano ibu a mano no lo tome y
 fue creciendo hasta llegar a las 14hs a n5 espero ahora que haga
 efecto.
-* [2019-08-12 lun]
+* [2019-08-12 lun] N6 MIG
 luego de tomar el ibu800 subio el N5 ibupiraqueo, voy a tratar de
-evitar el migraloide
+evitar el migraloide. No pude. Me acoste y todo, dormite una o dos
+horas y lo mismo tenia un n6, ahi tome un mig y fue positivo y dormi
+diez horas mas.
+* [2019-08-13 mar]
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
