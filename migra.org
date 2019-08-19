@@ -178,7 +178,10 @@
 | [2019-08-13 mar] |                |                  |               |   |   |   |
 | [2019-08-14 mié] |                |                  |               |   |   |   |
 | [2019-08-15 jue] | ibu800 5am     | ibu800 14hs      | MIG 19hs      |   |   |   |
-|                  |                |                  |               |   |   |   |
+| [2019-08-16 vie] |                |                  |               |   |   |   |
+| [2019-08-17 sáb] | MIG 17hs       |                  |               |   |   |   |
+| [2019-08-18 dom] |                |                  |               |   |   |   |
+| [2019-08-19 lun] | ibu800 11hs    |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1751,7 +1754,7 @@ evitar el migraloide. No pude. Me acoste y todo, dormite una o dos
 horas y lo mismo tenia un n6, ahi tome un mig y fue positivo y dormi
 diez horas mas.
 * [2019-08-15 jue] N5 MIG
-
+* [2019-08-17 sáb] N5 MIG
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
