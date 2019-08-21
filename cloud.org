@@ -343,6 +343,20 @@ de tanto que es pierdo el incentivo pq no hay practica usable que lo avale.
 ** [2019-07-03 mié]
 terminando la fase comandos del buscador, quedan las tabs visitas
 clientes y los cuadros estadisticos.
+** [2019-08-21 mié]
+creo que el proyecto esta avanzado en un 80% y lo que falta es
+trasladable, no hace programar de cero. 
+los procesos son transparentes. y son los mismos en todos lados, o sea
+no es un software nuevo, sino uno incluso mas prolijo. El traslado se
+haria en un contexto de mineria de datos donde se habria purificado
+todo la base de datos sqlite dejando atras todas las tablas y vistas
+obsoletas y pasando solo las que son usables.
+¿que ganamos? compatibilidad de red, y mayor velocidad y a futuro
+estar listo para enchufar a google cloud. 
+Y todo esto por ser un proyecto que esta casi listo, que no vale la
+pena tirar a la basura. que vale la pena terminarlo sin apuro. asi sea
+a fin de año.
+
 * problemas
 ** DONE update fechas en ventaspg
 - State "DONE"       from "TODO"       [2019-05-13 lun 18:26]
