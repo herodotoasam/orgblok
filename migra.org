@@ -183,7 +183,7 @@
 | [2019-08-18 dom] |                |                  |               |   |   |   |
 | [2019-08-19 lun] | ibu800 11hs    |                  |               |   |   |   |
 | [2019-08-20 mar] | ibu800 9hs     |                  |               |   |   |   |
-| [2019-08-21 mié] | ibu800 9hs     |                  |               |   |   |   |
+| [2019-08-21 mié] | ibu800 9hs     |  MIG 9.30hs      |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1763,10 +1763,11 @@ o migral y la aguante hasta levantarme y como ocurrio en otras
 oportunidades el cambio de posision casi hace desaparecer la molestia,
 termine tomando ibu postdesayuno casi preventivo de molestias mayores
 durante la oficina.
-* [2019-08-21 mié]
+* [2019-08-21 mié] N5 MIG oficina
 N3 durante la noche menos que anoche, tanto que a la mañana parecia
 innecesario tomar el ibu, pero luego de tomado crecio a un N5 camino a
-la oficina.
+la oficina. En la oficina se consolida el N5 y termino tomando el
+migral que tenia preparado.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
