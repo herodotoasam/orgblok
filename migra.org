@@ -183,7 +183,10 @@
 | [2019-08-18 dom] |                |                  |               |   |   |   |
 | [2019-08-19 lun] | ibu800 11hs    |                  |               |   |   |   |
 | [2019-08-20 mar] | ibu800 9hs     |                  |               |   |   |   |
-| [2019-08-21 mié] | ibu800 9hs     |  MIG 9.30hs      |               |   |   |   |
+| [2019-08-21 mié] | ibu800 9hs     | MIG 9.30hs       |               |   |   |   |
+| [2019-08-22 jue] | ibu800 15hs    |                  |               |   |   |   |
+| [2019-08-23 vie] | ibu400 10hs    |                  |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
