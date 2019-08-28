@@ -186,7 +186,11 @@
 | [2019-08-21 mié] | ibu800 9hs     | MIG 9.30hs       |               |   |   |   |
 | [2019-08-22 jue] | ibu800 15hs    |                  |               |   |   |   |
 | [2019-08-23 vie] | ibu400 10hs    |                  |               |   |   |   |
-|                  |                |                  |               |   |   |   |
+| [2019-08-24 sáb] | ibu800         | ibu800           |               |   |   |   |
+| [2019-08-25 dom] | ibu800         | MIG              |               |   |   |   |
+| [2019-08-26 lun] |                |                  |               |   |   |   |
+| [2019-08-27 mar] |                |                  |               |   |   |   |
+| [2019-08-28 mié] | MIG 13hs       |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1772,6 +1776,10 @@ innecesario tomar el ibu, pero luego de tomado crecio a un N5 camino a
 la oficina. En la oficina se consolida el N5 y termino tomando el
 migral que tenia preparado. El migral no hace efecto y sigo con un N5
 y se torna nauseoso, como para hacer reposo durante la tarde.
+* [2019-08-25 dom] N5 MIG
+* [2019-08-28 mié] N5 MIG  
+comenzo la descompostura en la oficina repentinamente pq no me
+cuadraban los numeros.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
@@ -1924,4 +1932,4 @@ en el mes de mayo se cae la profilaxis a la mitad o menos cae
 muchisimo la pausa en la tarea informatica creciendo el dolor de
 cuello y espalda y cayo a casi la mitad el ejercicio.
 Y salvo los ultimos dias que decidi comer comida comprada hecha,
-atravese un bache de mal comer en general. 
+atravese un bache de mal comer en general
