@@ -195,3 +195,5 @@ condicion tenga en cuenta el ultpago.
 EL pasaje a antiguos se realizaba con el campo pmovto pero si por
 error una cuenta de pago reciente no actualizaba su pmovto lo mismo
 era pasada a antiguos, agregando un par de condiciones arreglamos esto
+* TODO [2019-09-03 mar] caso 66542 deuda no corresponde para un plan de pagos
+el plan de pagos parece correcto pero la deuda calculada es incorrecta.
