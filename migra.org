@@ -196,7 +196,9 @@
 | [2019-08-31 sáb] |                |                  |               |   |   |   |
 | [2019-09-01 dom] |                |                  |               |   |   |   |
 | [2019-09-02 lun] | ibu800         | ibu 800          |               |   |   |   |
-| [2019-09-03 mar] |                |                  |               |   |   |   |
+| [2019-09-03 mar] | ibu800         | MIG 17.30hs      |               |   |   |   |
+| [2019-09-04 mié] | ibu800 8hs     | MIG 16.30hs      |               |   |   |   |
+|                  |                |                  |               |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1787,7 +1789,9 @@ y se torna nauseoso, como para hacer reposo durante la tarde.
 comenzo la descompostura en la oficina repentinamente pq no me
 cuadraban los numeros.
 * [2019-08-30 vie] N5 MIG
-
+* [2019-09-03 mar] N6 MIG 
+* [2019-09-04 mié] N5 MIG
+por el momento N5 pero me parece que fuera la misma migraña de ayer
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
