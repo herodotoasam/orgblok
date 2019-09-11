@@ -203,3 +203,5 @@ cancelacion se borran los recibos y eso gatilla trigger de calculo de
 saldo que se hace por tabla ventas y ese triger no tiene en cuenta el
 campo devolucion.
 * TODO [2019-09-11 mié] devoluciones dejar zona y poner LN
+* TODO [2019-09-11 mié] en fichas2 consulta de pagaron hoy
+para poder fechar los visitar que esten atrasados.
