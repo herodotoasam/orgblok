@@ -2012,3 +2012,45 @@ una historia sufrida que estoy abordando y no quiero volver a
 padecerla.
 quiero ver si mañana viernes alargo la posibilidad de incluir los
 habitos tambien el dia qeu me voy para que la semana tenga cinco dias.
+** [2019-09-11 mié]
+*** venida al marques y comienzo de la obra
+lun y martes de franco por pinza y comienzo de obra hoy miercoles
+durmiendo de nuevo aca porque vine a comprar materiales y menos mal
+que me fue bien y vamos aclarando las cosas.
+*** para motivar me surgio comenzar con python
+o sea seria mas bien recomenzar pq hubo ya un trabajo profundo y serio
+en python que quedo abandonado por la problematica con la funcion
+pmovto de sqlite.
+y quiza el enganche que supuso el programar dni.tcl. que me trajo de
+nuevo el gustito por tcl puro y sus ventajas.
+es cierto que tengo ya casi todo hecho con tcl-postgres con un 80% de
+avance pero la verdad factica es que estoy anclado o sea que no
+avanzo, no me muevo, no me motivo, no me da ganas de aprender, de
+leer, de hacer nada. 
+Se que yo hice esa estructura en python gigante que todavia funciona y
+podria funcionar si solucionara el problema del trigger por lo cual
+pienso que comenzar un python de cero sera interesante pq podra sacar
+a la luz conocimientos que yo ya tengo y a la vez sin tener que
+sepultar a tcl, sino conservar ambos. incluso hacer la lista de
+paralelismos, para que pueda seguir siendo funcional, incluso poder
+acceder a la base de datos desde los dos lenguajes en lo posible. como
+lo hago con la funcion seven que todavia sigue siendo funcional con
+fichaje.py.
+**** ventajas
+1. lo hago por motivacion en un momento en que estoy totalmente parado
+   y lo unico que hago es aburrirme y estar desmotivado de la vida y
+   todo, y lo unico que me motiva es la programacion.
+2. python es un lenguaje mas abierto a la motivacion pq tiene un
+   millon de ventanitas que te llevan a cosas nuevas, a diferencia de
+   tcl que parece un lenguaje muerto cuyos dialogos datan del 2004.
+3. tengo una base hecha muy grande tanto en programacion como en
+   documentacion que una vez que la vaya recuperando va a ser una base
+   riquisima para avanzar y partir desde alli a cosas mejores.
+
+**** desventajas
+1. tablelist ya que el wrapper que yo uso no se publica mas, si bien
+   es cierto que me funciona no tiene soporte y no lo entiendo del
+   todo, el nuevo basado en en pytkapp suena muy complejo y dificil de
+   adaptar a lo que yo tengo aca.
+
+

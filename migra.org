@@ -200,7 +200,11 @@
 | [2019-09-04 mié] | ibu800 8hs     | MIG 16.30hs      |               |   |   |   |   |
 | [2019-09-05 jue] |                |                  |               |   |   |   |   |
 | [2019-09-06 vie] | MIG 7hs        |                  |               |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |
+| [2019-09-07 sáb] |                |                  |               |   |   |   |   |
+| [2019-09-08 dom] | ibu800         | MIG N5           |               |   |   |   |   |
+| [2019-09-09 lun] |                |                  |               |   |   |   |   |
+| [2019-09-10 mar] |                |                  |               |   |   |   |   |
+| [2019-09-11 mié] |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1801,6 +1805,7 @@ otra actividad. recien en dos horas se fue. dos dias calcados iguales.
 * [2019-09-06 vie] N5 MIG nocturno
 por ser viernes y por no tener ibu, me apresure y tome, felizmente
 hizo efecto
+* [2019-09-08 dom] N5 MIG
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
