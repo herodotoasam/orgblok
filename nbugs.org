@@ -202,3 +202,4 @@ pienso que se hizo pq la cuenta tenia pagos a favor y luego de la
 cancelacion se borran los recibos y eso gatilla trigger de calculo de
 saldo que se hace por tabla ventas y ese triger no tiene en cuenta el
 campo devolucion.
+* TODO [2019-09-11 mié] devoluciones dejar zona y poner LN
