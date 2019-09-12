@@ -2052,5 +2052,34 @@ fichaje.py.
    es cierto que me funciona no tiene soporte y no lo entiendo del
    todo, el nuevo basado en en pytkapp suena muy complejo y dificil de
    adaptar a lo que yo tengo aca.
+**** comentarios
+1. me gustaria estudiarlo bien de base y que esa base no se hiciera
+   olvidando del todo a tcl, sino haciendo cuadros y mapas paralelos.
+2. me gustaria estudiar la teoria antes de hacer nada practico,
+   siempre me largue a la practica sin nada de teoria y la teoria me
+   aburrio o no me dedique a estudiarla
+3. hacer fichas, cuadros mentales, graficos, etc. material de estudio
+   para que esa teoria cale profundo, asi como estudia un estudiante,
+   pq la forma en qeu se estudia con el smart en la mano no sirve,
+   hace falta el libro de papel y hace falta el resaltado, hace falta
+   el resumen, y hace falta la ficha.
+4. estudio para llenar el tiempo que quedo vacio de accion y de
+   significado y llenado por netflix que me termino aburriendo, por
+   eso pienso que no necesito entrar en el frenesi programador que
+   tenia antes con la prisa de querer programar enseguida todo. 
 
-
+* [2019-09-12 jue]
+hoy a pesar de lo caotica esta semana que sera esta la primer noche y
+unica noche de la semana que duerma aca, hice nuevamente las series,
+en forma de habito y las hice bien, y por necesidad me veo haciendo el
+habito del lino y la chia, y el agua, creo que son los habitos los
+unicos que sobreviven y articulan en momentos asi. 
+Creo que la construccion me distraera un poco y mudarme alla me
+servira para comer mejor y estar en otro ambiente no tan encerrado, y
+poder mantener mis habitos e incluso aumentarlos. 
+la idea de python me parece buena pq significa un incentivo a la mente
+para evitar caer en la desidia y volver a entonarme con la
+programacion que es lo que a mi me gusta de verdad y no se porque se
+me cayo. 
+y el proyecto de salir con la kangoo creo que tambien puede ser
+interesante para salir del marasmo.
