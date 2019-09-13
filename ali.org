@@ -2068,7 +2068,7 @@ fichaje.py.
    eso pienso que no necesito entrar en el frenesi programador que
    tenia antes con la prisa de querer programar enseguida todo. 
 
-* [2019-09-12 jue]
+** [2019-09-12 jue]
 hoy a pesar de lo caotica esta semana que sera esta la primer noche y
 unica noche de la semana que duerma aca, hice nuevamente las series,
 en forma de habito y las hice bien, y por necesidad me veo haciendo el
@@ -2083,3 +2083,19 @@ programacion que es lo que a mi me gusta de verdad y no se porque se
 me cayo. 
 y el proyecto de salir con la kangoo creo que tambien puede ser
 interesante para salir del marasmo.
+** [2019-09-13 vie]
+creo que el proyecto python es mucho mas monumental que lo que parecia
+en primera instancia, es increible lo que tenia desarrollado, incluso
+no lo habia usado en su potencialidad. p.e. el searcher que es mas
+usable que la solucion actual basada en combobox, tiene un uso de
+historial para atras y para adelante para las ultimas diez entradas de
+la tabla que pueden ser muy utiles extremadamente utiles y nunca lo
+use. Pero lograr decodificar el codigo y hacerlo usable de nuevo en
+general va a llevar un tiempo muy largo. Por ahora debo ver claramente
+donde esta el quid del asunto que es salir del marasmo. Si esto sirve
+para salir del marasmo bienvenido sea, pq no esta todo dicho que
+realmente vaya a salir a la calle el año que viene y si no salgo un
+proyecto de programacion es lo unico que puede mantenerme vivo. ya sea
+que viva solo en el centro o que viva aca, eso es indistinto, es mas
+me veo con mas chances de sobrevivir viviendo aca y haciendo el
+proyecto.
