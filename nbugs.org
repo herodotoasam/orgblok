@@ -205,3 +205,6 @@ campo devolucion.
 * TODO [2019-09-11 mié] devoluciones dejar zona y poner LN
 * TODO [2019-09-11 mié] en fichas2 consulta de pagaron hoy
 para poder fechar los visitar que esten atrasados.
+* TODO [2019-09-13 vie] pmovto en plan quincenal no anda
+* TODO [2019-09-13 vie] hacer la red no internet dependiente
+hacerla por medio de un router
