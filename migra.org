@@ -206,6 +206,7 @@
 | [2019-09-10 mar] |                |                  |               |   |   |   |   |
 | [2019-09-11 mié] |                |                  |               |   |   |   |   |
 | [2019-09-12 jue] | MIG N5 6.30hs  |                  |               |   |   |   |   |
+| [2019-09-13 vie] | MIG N6 2.30hs  |                  |               |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1812,7 +1813,9 @@ hizo efecto
 en la previa de un dia clave que no podia faltar y estando en marques
 con poco margen de maniobra, me levante a la hora de la cami y me tome
 un migral en el dia de la migraña y se me paso volando.
-
+* [2019-09-13 vie] N6 MIG nocturno
+quise esperarlo hasta la mañana y me redesperte con sueños sobre la
+misma migraña y con un n6 agravado, felizmente hizo efecto
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
