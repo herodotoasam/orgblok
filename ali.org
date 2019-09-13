@@ -2099,3 +2099,11 @@ proyecto de programacion es lo unico que puede mantenerme vivo. ya sea
 que viva solo en el centro o que viva aca, eso es indistinto, es mas
 me veo con mas chances de sobrevivir viviendo aca y haciendo el
 proyecto.
+*** avances con python en el primer dia
+logre husmeando no solo ver como dije la potencialidad del esearcher
+con el historial que no habia sido explotado en el uso en el dia a dia
+sino que lo modifique y lo mejore.
+*** creo que la bocha estaria empezar a desarrollar con postgres en forma limpia
+o sea modulos de python separados o juntos pero linkados a la base de
+datos postgres o sea para hacer el cambiazo global a python-postgres o
+sea pp. 
