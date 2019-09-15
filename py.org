@@ -9,4 +9,22 @@ tiempo para buscar la documentacion
 aprovechando el feedback de la consola o sea la interactividad
 4. en lo posible programar cosas sueltas que lleven cierta
    complejidad. 
+* teoria
+** F String
+i=1
+x=6
+print(f"N°{i} -elemento {x}")
 
+N°1 -elemento 6
+** %-formating
+antigua y desaconsejada por la documentacion
+
+name = "Eric"
+"Hello, %s." % name
+
+'Hello, Eric'
+** str.format()
+"Hello, {}. You are {}.".format(name,age)
+'Hello, Eric. You are 74.'
+** F String
+f"Hello,{name}.You are {age}"

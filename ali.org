@@ -2107,3 +2107,20 @@ sino que lo modifique y lo mejore.
 o sea modulos de python separados o juntos pero linkados a la base de
 datos postgres o sea para hacer el cambiazo global a python-postgres o
 sea pp. 
+** [2019-09-14 sáb]
+hoy pensaba en una alegoria respecto a python como si fuera un
+castillo que hubiera construido y habitado y ahora luego de abandonado
+hubiera retornado a el y encontrado una cienaga fangosa alrededor que
+me impide acercarme y el castillo sin luz me impide pernoctar en el,
+entonces antes de desistir y desechar todo encarar a lo basico que
+seria poner la luz, en este caso seria volver a hacer andar
+fichaje.py, que creo que falla en conectar, por causa de la funcion
+pmovto, tratar de arreglar eso y que arranque de nuevo.
+
+tambien encontre pysimplegui y me entusiasmo pero luego desisti pq
+pienso que me limita a desarrollar lo mio propio como seria el
+esearcher y lo grandioso del tablelist.
+creo que tengo que empezar por ahi, o sea a desarrollar el esearcher
+para postgres y remodelar el tablelist para postgres.
+
+y por ultimo saque en limpio que tendria que desarrollar en pycharm
