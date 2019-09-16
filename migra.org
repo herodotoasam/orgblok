@@ -207,7 +207,8 @@
 | [2019-09-11 mié] |                |                  |               |   |   |   |   |
 | [2019-09-12 jue] | MIG N5 6.30hs  |                  |               |   |   |   |   |
 | [2019-09-13 vie] | MIG N6 2.30hs  |                  |               |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |
+| [2019-09-14 sáb] | MIG N5 16.30hs |                  |               |   |   |   |   |
+| [2019-09-15 dom] | MIG N5 16hs    |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1816,6 +1817,9 @@ un migral en el dia de la migraña y se me paso volando.
 * [2019-09-13 vie] N6 MIG nocturno
 quise esperarlo hasta la mañana y me redesperte con sueños sobre la
 misma migraña y con un n6 agravado, felizmente hizo efecto
+* [2019-09-14 sáb] N5 MIG
+* [2019-09-15 dom] N5 MIG
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

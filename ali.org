@@ -2124,3 +2124,12 @@ creo que tengo que empezar por ahi, o sea a desarrollar el esearcher
 para postgres y remodelar el tablelist para postgres.
 
 y por ultimo saque en limpio que tendria que desarrollar en pycharm
+** [2019-09-15 dom]
+ya python se va desencastrando de a poco, creo que voy comprendiendo
+el esquema basico de tkinter que es siempre igual y debe ser aprendido
+y es muy facil, luego estuvieron los articulos de divulgacion que
+estan tambien accesibles y legibles y ya empiezo a desgranar el
+entry2.
+otra novedad que se agrega es la frescura del vim para el desarrollo
+con su rapidez y su practicidad. tiene lo justo, abre en un segundo y
+con un solo teclazo guarda y ejecuta.
