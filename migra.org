@@ -209,6 +209,9 @@
 | [2019-09-13 vie] | MIG N6 2.30hs  |                  |               |   |   |   |   |
 | [2019-09-14 sáb] | MIG N5 16.30hs |                  |               |   |   |   |   |
 | [2019-09-15 dom] | MIG N5 16hs    |                  |               |   |   |   |   |
+| [2019-09-16 lun] |                |                  |               |   |   |   |   |
+| [2019-09-17 mar] |                |                  |               |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad

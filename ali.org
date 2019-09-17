@@ -2133,3 +2133,40 @@ entry2.
 otra novedad que se agrega es la frescura del vim para el desarrollo
 con su rapidez y su practicidad. tiene lo justo, abre en un segundo y
 con un solo teclazo guarda y ejecuta.
+** [2019-09-17 mar]
+deje el vim pelado con muy pocas cosas, solo las basicas para andar a
+mil, y sin vueltas para no perder tiempo tratando de ser agil dentro
+de ese ecosistema que es el que yo uso para programar, pq todo lo
+demas yo no lo uso y no lo llego ni siquiera a aprender. Pero son dias
+de mucho de cansancio pq venimos en obras y esto va a ser asi hasta
+fin de año asi que no va a ser facil para nada. 
+*** avances pythonicos
+ 1. entry2 top remodelado a los valores de optiondatabase en entry,
+    cosa de dejar libre la posibilidad de modificar directamente
+    variables de una muy facilmente
+entry2(self,'DNI',8,bg='lightyellow')
+ 1. adapte el esearch que sea por default como entry2 para
+    consistencia y como usuario rescato el excelente manejo del
+    historial linkado a la tabla base.
+ 2. linea para rapidamente packear entris y demas widgets incluso tbls
+ 3. rapidez impresionante en la escritura de un tbls tanto en su
+    definicion como en su llenado.
+ 4. uso de f-string para confeccionar el sel con el uso directo de una
+    funcion {dni.get()} quedando muy compacto.
+ 5. uso del bind con los lambdas y las funciones dentro del ambito de
+    su llamada.
+ 6. modificacion de linea para que con el lower del frame permita su
+    uso directo con un self.
+Resumen: con cuatro lineas locas de codigo se consigue una interface
+muy potente en este caso un par de tbls, varios campos muy bien
+acomodados, varios esearchers camuflados iguales que los campos con
+toda su potencia. Despues el atar los cablecitos es lo de menos, hay
+que recuperar la interface de sqlite o bien la de postgres para ir
+haciendo algo directamente en postgres.
+
+Pero ya esta teniendo el resultado que yo necesitaba que era
+mantenerme ocupado, mantenerme extasiado con ganas, boludo dentro de
+eso y sin mirar el marasmo, pq se que si puedo ir metiendo dentro de
+la situacion de trabajo los habitos basicos por mas que duela o por
+mas que sea dificil meterlos. Pero sin ganas de hacer nada se pone
+complicada la cosa se pone mas fea.
