@@ -2170,3 +2170,26 @@ eso y sin mirar el marasmo, pq se que si puedo ir metiendo dentro de
 la situacion de trabajo los habitos basicos por mas que duela o por
 mas que sea dificil meterlos. Pero sin ganas de hacer nada se pone
 complicada la cosa se pone mas fea.
+** [2019-09-20 vie]
+ayer la adquisicion de la nueva maquina asus-home, al principio
+resignado al uso de windows por las dudas, pero luego del reniegue
+basico con el cable de hmdi que no lo puse en la tarjeta de video sino
+en el mother y me daba pantalla negra y luego a la prueba por vga
+idem, felizmente lo solucione, y lo mejor que pude instalar kubuntu
+18.04 en diez minutos right away.
+buenisima la primera impresion pq es rapida, no tanto como parece ser
+el arranque de windows pq tiene el disquito encriptado, un pequeño
+delay pero tengo la seguridad que ante cualquier perdida los datos
+estan seguros, quizas mas adelante cuando este aca lo cambie.
+solo algunos problemitas menores,como el freezado del recupero de
+sesion ante el primer bloqueo, o la demora de cierre en el ultimo uso,
+pero todo bien. 
+en memoria no paso de un uso de 1.3mg cuando tengo 4mg. 
+para lo que uso anda veloz.
+incluso el visual o firefox abren rapidisimo como en esta notebook que
+tambien es un i3 pero tiene mas ram.
+es mucho mas comodo trabajar alli, aunque tambien es tener la notebook
+para llevar, creo que las dos cosas forman el paquete del freaky
+total.
+encima con el sistema espejo.
+
