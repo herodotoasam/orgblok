@@ -2192,4 +2192,48 @@ es mucho mas comodo trabajar alli, aunque tambien es tener la notebook
 para llevar, creo que las dos cosas forman el paquete del freaky
 total.
 encima con el sistema espejo.
-
+*** avances en python
+hoy hice el comienzo con psycopg2 entrando en postgres, y le entramos
+al metodo llenarpg, y al esearcherpg, haciendo totalmente funcional el
+form1 en postgres, por lo tanto es un gran avance para un solo dia. Si
+bien es cierto y hago la salvedad de que no ha habido programacion
+pura desde cero ni por las tapas, dentro de una estructura gigante,
+pero la adaptacion hay que entenderla tambien en su funcionamiento, y
+la vamos comprendiendo. lo cual esta bueno siendo que postgres es el
+futuro.
+habria que idear un form sencillo para empezar con postgres para
+comenzar a programar formularios basicos desde cero y ver como vamos
+avanzando luego. p.e. pasado de recibos. 
+** [2019-09-21 sáb]
+hoy dimensiono nuevamente que la vuelta a python solo adquiere
+significado terapeutico.
+de estar en el marasmo en un marasmo fiero, casi terminal, que
+asustaba. solo arrastrandome a duras penas reciclando un cuaderno de
+memorias de la cabaña, a leer de nuevo python y "volver a creer",
+volver al codigo y poder hacer algunas cositas, pe las que hice ayer
+que pude hacer funcionar el form1 con postgres y ya hoy hice mi primir
+wraper pgonecolumn con postgres y la primera linea del pasador de
+recibos. Pero de nuevo te invade la sensacion de siempre, o sea una
+enorme carga que lo que tenes que hacer es monumental, y es nada mas
+que lo mismo que ya hiciste, o sea solo es recuperar lo que ya en
+cierta forma una vez supiste pero olvidaste, pq estaba destinado a
+olvidarse por falta de practica. 
+No se como seguira la cosa en el futuro, pienso que con la compu fija
+unas dos horas por dia le podre dedicar y eso a lo largo del año puede
+ser un sistema interesante para desarrollar, tanto a nivel de lo que
+logre como lo que aprenda.
+lo que pasa es que por un lado cuando desarrolle ambas cosas o sea
+python en el 17 y tcl en el 18 tenia el incentivo de hacer algo en
+concreto, ahora estoy boludeando, o sea puedo desarrollar en postgres
+pero lo mismo es algo en teoria y a largo plazo que requiere mucho
+camino por delante, en cambio antes era usable en el momento.
+segundo estamos hablando de periodos de programacion larguisimos que
+duraron mucho tiempo:
+| py1    | [2016-09-10 sáb] | [2017-11-22 mié] |
+| tcl    | [2018-02-10 sáb] | [2019-07-18 jue] |
+| postcl | [2019-04-25 jue] | [2019-07-03 mié] |
+|        |                  |                  |
+Como se observa son periodos muy largos en los dos proyectos estamos
+hablando de mas de un año cada uno. No debo ser impaciente en no poder
+recuperar el nivel en dos dias de practica. Quizas si en mas dias o en
+un par de meses y entrando en produccion.
