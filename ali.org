@@ -2237,3 +2237,13 @@ Como se observa son periodos muy largos en los dos proyectos estamos
 hablando de mas de un año cada uno. No debo ser impaciente en no poder
 recuperar el nivel en dos dias de practica. Quizas si en mas dias o en
 un par de meses y entrando en produccion.
+** [2019-09-22 dom]
+hoy pienso que podre avanzar rapido con python escribiendo un codigo
+prolijo, tendria que documentar lo que vamos encontrando de trabas por
+mas que lleve alguna linea mas, wrapear postgres con las funciones que
+son usuales, y llevar un cierto tipo de de orden en la programacion
+para que el programa quede limpito y facil de ejecutar. pero creo que
+puede ir bastante rapido. A pesar de las circunstancias poco aptas
+para el gran desarrollo de estos dias en dos dias hice un avance
+considerable en el planteo de un formulario con postgres y mirando el
+codigo en tcl y viendo como esta alli.
