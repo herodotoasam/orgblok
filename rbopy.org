@@ -1,0 +1,5 @@
+* TODO [2019-09-22 dom] ubicar el form en un notebook
+* TODO [2019-09-22 dom] ubicar con place lista de loterbos y ocultar columna usado
+* TODO [2019-09-22 dom] colorear usados/no usados en loterbos
+* TODO [2019-09-22 dom] cambiar la busqueda de cobrador por un esearcher
+

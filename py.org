@@ -28,3 +28,8 @@ name = "Eric"
 'Hello, Eric. You are 74.'
 ** F String
 f"Hello,{name}.You are {age}"
+* bugs
+** TODO [2019-09-22 dom] Entry2 no se muestra en tabRecibos del fichaje.py
+misteriosamente no funciona en esa tab cuando todo parece indicar que
+tendria que andar bien.
+** 

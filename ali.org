@@ -2247,3 +2247,7 @@ puede ir bastante rapido. A pesar de las circunstancias poco aptas
 para el gran desarrollo de estos dias en dos dias hice un avance
 considerable en el planteo de un formulario con postgres y mirando el
 codigo en tcl y viendo como esta alli.
+Como vengo encarando podria hacer en python un recibos.py con todos
+los elementos que tuve en los ultimos recibeadores y en lo posible
+manteniendo el orden programatico.
+
