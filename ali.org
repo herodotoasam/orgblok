@@ -2250,4 +2250,9 @@ codigo en tcl y viendo como esta alli.
 Como vengo encarando podria hacer en python un recibos.py con todos
 los elementos que tuve en los ultimos recibeadores y en lo posible
 manteniendo el orden programatico.
-
+** [2019-09-23 lun] 
+hoy un dia fuerte de programacion hice una revision casi total del
+rbospg y tengo algunas ideas para modificarlo todavia por lo menos ya
+en un solo dia retome la senda tcl sin interferencias pythonianas en
+la escritura del codigo. una lastima nomas que vuelva la jaqueca luego
+de 8 dias ojala se pueda solucionar con lo que he tomado nomas.
