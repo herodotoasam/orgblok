@@ -2272,3 +2272,6 @@ cambiar la necesidad de pasar el $node si total todos lo pasan igual y
 que lo transforme el proc pivot.
 Pero el formulario a avanzado mucho y se ha perfeccionado incorporando
 todo lo que tiene el otro rbos.
+la interfase pg--sqlite se hace rapida para solucionar cuellos de
+botella puntuales pero quede trabado en un pivot con una consulta que
+no se resuelve ni siquiera en sqlite, para revisar despues.
