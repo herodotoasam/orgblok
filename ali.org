@@ -2256,3 +2256,19 @@ rbospg y tengo algunas ideas para modificarlo todavia por lo menos ya
 en un solo dia retome la senda tcl sin interferencias pythonianas en
 la escritura del codigo. una lastima nomas que vuelva la jaqueca luego
 de 8 dias ojala se pueda solucionar con lo que he tomado nomas.
+** [2019-09-24 mar]
+la programacion ya esta entrando a nivel full, falta entrar en la gran
+complejidad, todavia falta para eso, pero de a poco lo voy a ir
+consiguiendo. Hoy p.e. consegui empezar el dia con el paned windows y
+fue todo perfecto. y fueron muchos avances para un solo dia.
+** [2019-09-25 mié]
+bastante avanzado el rbospg pero me trave en una limitacion de pg con
+el pivot incrustado en un expandir pq a diferencia de sqlite la
+conexion va por variable y eso complica las cosas. La unica solucion
+viable seria pasar los datos a sqlite en el aire pero me parece un
+poco complicada. O bien asumir esa limitacion de pg, o reprogramar la
+generacion del getsel mediante un proc donde sean argumentos. o
+cambiar la necesidad de pasar el $node si total todos lo pasan igual y
+que lo transforme el proc pivot.
+Pero el formulario a avanzado mucho y se ha perfeccionado incorporando
+todo lo que tiene el otro rbos.

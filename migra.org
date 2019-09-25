@@ -217,7 +217,9 @@
 | [2019-09-21 sáb] |                |                  |               |   |   |   |   |
 | [2019-09-22 dom] |                |                  |               |   |   |   |   |
 | [2019-09-23 lun] | ibu800 17hs    | ibu 800 19hs     |               |   |   |   |   |
-| [2019-09-24 mar] | MIG N7 4am     |                  |               |   |   |   |   |
+| [2019-09-24 mar] | MIG N7 4am     | ibu800 12hs N5   | MIG 13hs N5   |   |   |   |   |
+| [2019-09-25 mié] |                |                  |               |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1828,7 +1830,7 @@ quise esperarlo hasta la mañana y me redesperte con sueños sobre la
 misma migraña y con un n6 agravado, felizmente hizo efecto
 * [2019-09-14 sáb] N5 MIG
 * [2019-09-15 dom] N5 MIG
-* [2019-09-24 mar] N7 MIG nocturno
+* [2019-09-24 mar] N7 MIG nocturno MIG N5
 con gran malestar luego de 8 dias sin migral y sin casi nada.
 de esos 8 dias, 6 fueron limpios totales y dos fueron con 1600 ibu
 cada uno.
@@ -1839,6 +1841,10 @@ acostarme a seguir durmiendo haciendo insoportable el resto de la
 noche, la cual curso con N6 (no dejo dormir mayormente) y N7 luego de
 tomado el migral por el jaleo del movimiento, y si bien disminuyo no
 lo saco del todo todavia.
+Tomo a las 12 800 de ibu por resilencia del migral que durante la
+mañana no afloja.
+Cansado de un N5 persistente me tomo un segundo MIG en el dia en la
+esperanza que lo corte. Felizmente lo saco pero he quedado medio tumbado.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
