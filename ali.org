@@ -2275,3 +2275,14 @@ todo lo que tiene el otro rbos.
 la interfase pg--sqlite se hace rapida para solucionar cuellos de
 botella puntuales pero quede trabado en un pivot con una consulta que
 no se resuelve ni siquiera en sqlite, para revisar despues.
+** [2019-09-27 vie]
+anhelo una rutina de vida y de trabajo. esta semana toda la semana
+dormi en el marques y casi que no como en el dpto y no estuve en toda
+la semana en la compu nueva, pq la programacion que hice fue toda
+hecha en la notebook. creo que cuando este en la casa podre tener
+rutinas nuevas mas estables y mayor tranquilidad en el proyecto que
+quiero hacer de programacion. aunque la perdida de independencia suena
+un poco arriesgada ya no la echo muchos de menos pq esta muy cortada
+en dias con el fin de semana tan alargado que no te deja establecer
+rutina en el centro y a la vez enfrentar el gasto gigante del dpto.
+quizas una buena apuesta de futuro sea hacer un grupo con kangoo. 

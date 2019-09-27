@@ -219,7 +219,8 @@
 | [2019-09-23 lun] | ibu800 17hs    | ibu 800 19hs     |               |   |   |   |   |
 | [2019-09-24 mar] | MIG N7 4am     | ibu800 12hs N5   | MIG 13hs N5   |   |   |   |   |
 | [2019-09-25 mié] | ibu800         |                  |               |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |
+| [2019-09-26 jue] | ibu800 13hs    | MIG 16hs N5      |               |   |   |   |   |
+| [2019-09-27 vie] |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1845,6 +1846,13 @@ Tomo a las 12 800 de ibu por resilencia del migral que durante la
 mañana no afloja.
 Cansado de un N5 persistente me tomo un segundo MIG en el dia en la
 esperanza que lo corte. Felizmente lo saco pero he quedado medio tumbado.
+* [2019-09-26 jue] N5 MIG
+al volver de ferrocons apurado tome migral con N5 y tuve que seguir en
+actividad moderada y anduve normal , pero cuando repose anduve bien,
+pero despues me agarro una migraña del otro lado tipo N6 que duro un
+poco pero paso y luego mejore, cene una sopita y ya estaba
+restablecido.
+
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
