@@ -2293,4 +2293,6 @@ no tan extremas como en la cabaña. Donde mas se noto el fracaso aparte
 de la soledad creciente es en la comida que a pesar de estar en el
 centro fue muy limitada, en eso se diferencio a la experiencia de la
 cabaña que fue muchisimo mas sana, mas orientada a lo natural.
+los unicos momentos de alto rendimiento coincidieron con las grandes
+programaciones de python y tcl. 
 
