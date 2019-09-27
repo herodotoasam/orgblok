@@ -8,7 +8,7 @@ tiempo para buscar la documentacion
 3. practica en consola hasta aprender bien el concepto
 aprovechando el feedback de la consola o sea la interactividad
 4. en lo posible programar cosas sueltas que lleven cierta
-   complejidad. 
+   complejidad. Programacion parada hasta nuevo aviso.
 * teoria
 ** F String
 i=1
