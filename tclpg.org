@@ -1,0 +1,14 @@
+* dump restore
+pg_dump dbname | gzip > filename.gz
+
+Reload with:
+
+gunzip -c filename.gz | psql dbname
+* solucion a expandpg {[pivotpg]}
+cuando queremos poner un pivot dentro del expand, nos da error de
+lectura de la variable $con, pq a diferencia de sqlite que
+referenciamos la conexion en forma absoluta como db, aca lo usamos
+como variable.
+La unica solucion que encontre es usar el handle directo que entrega
+la conexion esperando que sea estable siempre, en este caso fue
+pgsql7, en cada programa asume un numero distinto.
