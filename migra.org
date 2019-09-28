@@ -221,7 +221,7 @@
 | [2019-09-25 mié] | ibu800         |                  |               |   |   |   |   |
 | [2019-09-26 jue] | ibu800 13hs    | MIG 16hs N5      |               |   |   |   |   |
 | [2019-09-27 vie] |                |                  |               |   |   |   |   |
-| [2019-09-28 sáb] |                |                  |               |   |   |   |   |
+| [2019-09-28 sáb] |  MIG17hs       |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1853,8 +1853,9 @@ actividad moderada y anduve normal , pero cuando repose anduve bien,
 pero despues me agarro una migraña del otro lado tipo N6 que duro un
 poco pero paso y luego mejore, cene una sopita y ya estaba
 restablecido.
-
-
+* [2019-09-28 sáb] N5 MIG siestal
+luego de dormir una siesta me levante con un N5 que cedio rapido pq
+tome el migral a tiempo.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
