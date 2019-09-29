@@ -12,3 +12,12 @@ como variable.
 La unica solucion que encontre es usar el handle directo que entrega
 la conexion esperando que sea estable siempre, en este caso fue
 pgsql7, en cada programa asume un numero distinto.
+* TODO BUG se borra el tbls al hacer focus
+se borra el tbls y su source -pq no hace recalc- tanto al hacer focus
+con teclado o con raton, y al hacer focus en el mismo o en el tbls del
+costado, pero en el bodytag no en los encabezados de columna. Y al
+recargar nuevamente el tbls anda perfecto. Los otros tbls andan
+fenomeno. Pone en la col id Total en bold que no es la misma forma que
+Total de Totalizar y saca un campo. 
+O sea que es una combinacion muy rara de cosas. Es la primera vez que
+veo un bug de esta naturaleza con tbls.
