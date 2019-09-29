@@ -12,7 +12,8 @@ como variable.
 La unica solucion que encontre es usar el handle directo que entrega
 la conexion esperando que sea estable siempre, en este caso fue
 pgsql7, en cada programa asume un numero distinto.
-* TODO BUG se borra el tbls al hacer focus
+* DONE BUG se borra el tbls al hacer focus
+- State "DONE"       from "TODO"       [2019-09-29 dom 15:55]
 se borra el tbls y su source -pq no hace recalc- tanto al hacer focus
 con teclado o con raton, y al hacer focus en el mismo o en el tbls del
 costado, pero en el bodytag no en los encabezados de columna. Y al
@@ -21,3 +22,8 @@ fenomeno. Pone en la col id Total en bold que no es la misma forma que
 Total de Totalizar y saca un campo. 
 O sea que es una combinacion muy rara de cosas. Es la primera vez que
 veo un bug de esta naturaleza con tbls.
+encontre la solucion pasando en limpio paso a paso la planilla con
+otro nombre. habia un bind en un entry de otro tab que actuaba sobre
+las planillas haciendolas llenar y totalizar y eso daba los errores.
+* TODO BUG core dumped segment fault
+cuando luego de usar los tbls-tree cierro el programa
