@@ -221,7 +221,10 @@
 | [2019-09-25 mié] | ibu800         |                  |               |   |   |   |   |
 | [2019-09-26 jue] | ibu800 13hs    | MIG 16hs N5      |               |   |   |   |   |
 | [2019-09-27 vie] |                |                  |               |   |   |   |   |
-| [2019-09-28 sáb] |  MIG17hs       |                  |               |   |   |   |   |
+| [2019-09-28 sáb] | MIG17hs        |                  |               |   |   |   |   |
+| [2019-09-29 dom] |                |                  |               |   |   |   |   |
+| [2019-09-30 lun] | ibu800         |                  |               |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
