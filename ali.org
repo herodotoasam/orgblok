@@ -2308,3 +2308,32 @@ final del domingo.
 y en hacer las rutinas aca. si lo que me encuadraban alla eran las
 rutinas de licuado, chia, lino, series, bici, etc, hacerlas aca sumado
 a la programacion entonces lograremos un nivel de adecuacion aca
+** [2019-09-30 lun]
+*** sobre las dudas de dejar el dpto
+primero que si dejo pasar esta oportunidad de "deshacerme de las
+cosas" lo mismo le voy a tener que comprar a la Cami una heladera una
+mesa etc y luego pierdo para siempre la oportunidad de escapar de la
+situacion actual. 
+Cuando digo escapar lo digo pq aca siendo una clase de desasosiego con
+desesperacion diferente al que siento alla. Alla siento mas bien
+aburrimiento pero no siento desesperacion, pero aca ya me invade la
+desesperacion.
+Y si en un utopico futuro quisiera irme de nuevo solo puedo comprarme
+una heladera, una mesa y un sillon de nuevo o que se lo compre la Cami
+y que me devuelva mis cosas y me voy.
+O sea reexpresado en tres puntos:
+.1 la oportunidad de salir de aca y colocar mis cosas sobrantes es
+esta sino le tendre que comprar a la Cami heladera y mesa y si despues
+quiero salirme del dpto no podre hacerlo.
+.2 el marasmo aca es mucho mas grande que alla, no se si esta
+exacerbado por la cantidad de dias que pase alla, o que, pero aca
+siento que no voy para ningun lado, por eso no me disgusta irme y por
+eso me cole para irme.
+.3 siempre estara abierta la posibilidad de volver a irme y recuperar
+mis cosas o volverlas a comprar, en el peor de los casos hablamos de
+100k y es una cifra que se ve posible. 
+*** sobre el uso de emacs para programar
+estoy usando emacs como resultado de la lectura ludica del manual que
+se me cuela en moon reader y lo considero como un hobby.
+pero en realidad lo llevo bastante bien, lo tengo bastante
+incorporado, me ha resultado agil y para nada problematico.

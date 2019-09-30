@@ -202,7 +202,11 @@ pienso que se hizo pq la cuenta tenia pagos a favor y luego de la
 cancelacion se borran los recibos y eso gatilla trigger de calculo de
 saldo que se hace por tabla ventas y ese triger no tiene en cuenta el
 campo devolucion.
-* TODO [2019-09-11 mié] devoluciones dejar zona y poner LN
+* DONE [2019-09-11 mié] devoluciones dejar zona y poner LN
+- State "DONE"       from "TODO"       [2019-09-30 lun 16:40]
+hay dos comentarios diferenciales de acuerdo a si hay lista negra o
+no.
+Adecuacion hecha en buscadorpg tambien.
 * TODO [2019-09-11 mié] en fichas2 consulta de pagaron hoy
 para poder fechar los visitar que esten atrasados.
 * TODO [2019-09-13 vie] pmovto en plan quincenal no anda
@@ -212,3 +216,7 @@ hacerla por medio de un router
 poner 74579 y luego poner 30120908 ahi saltan dos bugs uno que las
 ventas de la cuenta anterior quedan visibles y el problema del array
 colores para las ventas devueltas que tienen cuota pagada.
+* DONE [2019-09-30 lun] pivot de devueltos o alguna tabla que se vean los valores devueltos
+- State "DONE"       from "TODO"       [2019-09-30 lun 19:17]
+hice tres pivots de devoluciones con sus correspondientes label de
+colores en la parte superior que los hace auto explicativos
