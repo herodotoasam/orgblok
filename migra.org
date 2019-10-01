@@ -223,7 +223,7 @@
 | [2019-09-27 vie] |                |                  |               |   |   |   |   |
 | [2019-09-28 sáb] | MIG17hs        |                  |               |   |   |   |   |
 | [2019-09-29 dom] |                |                  |               |   |   |   |   |
-| [2019-09-30 lun] | ibu800         |                  |               |   |   |   |   |
+| [2019-09-30 lun] | ibu800         |ibu800            |               |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
@@ -2012,3 +2012,11 @@ muchisimo la pausa en la tarea informatica creciendo el dolor de
 cuello y espalda y cayo a casi la mitad el ejercicio.
 Y salvo los ultimos dias que decidi comer comida comprada hecha,
 atravese un bache de mal comer en general
+** CONCLUSIONES AGOSTO/SETIEMBRE19
+agosto 19 ibu 11 migral
+setiem 14 ibu 12 migral
+las dosis de ibu son de 800mg
+setiembre influye que tuve 9 dias seguidos sin migral lo que influyo
+en el numero final bajo, sino hubiera terminado con 15 o 16.
+mas o menos el 10 de setiembre se me termino el fluericina y lo deje
+de tomar pq ya llevaba 6 meses y segui con topiramato.
