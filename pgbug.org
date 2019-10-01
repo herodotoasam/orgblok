@@ -1,0 +1,9 @@
+* TODO [2019-10-01 mar] segmentacion fault en rbospg.tcl
+sospecha de que el no cerrar la coneccion antes de cerrar la ventana
+hace el core dumped fault.
+No le afecta en nada.
+Separando la carga de un tree y haciendo que se cargue a demanda hago
+que que no todas las aperturas den fault.
+Lo llamativo es que buscador tiene tree y no da fault.
+y rbos dan fault ambas tree tanto la de zona como la de asientos.
+* TODO [2019-10-01 mar] algo me borra la tabla cuotas 
