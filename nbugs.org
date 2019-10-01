@@ -220,5 +220,8 @@ colores para las ventas devueltas que tienen cuota pagada.
 - State "DONE"       from "TODO"       [2019-09-30 lun 19:17]
 hice tres pivots de devoluciones con sus correspondientes label de
 colores en la parte superior que los hace auto explicativos
-* TODO [2019-10-01 mar] boton intimar en buscador que genere mensaje de intimacion
+* DONE [2019-10-01 mar] boton intimar en buscador que genere mensaje de intimacion
+- State "DONE"       from "TODO"       [2019-10-01 mar 12:21]
 igual como en fichas2
+ya estaba programado, lo programe igual, fue un ejercicio, lo mismo
+puse boton adhoc para que no se olvide.
