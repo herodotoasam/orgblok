@@ -4,7 +4,8 @@ pg_dump dbname | gzip > filename.gz
 Reload with:
 
 gunzip -c filename.gz | psql dbname
-* solucion a expandpg {[pivotpg]}
+* DONE solucion a expandpg {[pivotpg]}
+- State "DONE"       from "TODO"       [2019-10-01 mar 19:16]
 cuando queremos poner un pivot dentro del expand, nos da error de
 lectura de la variable $con, pq a diferencia de sqlite que
 referenciamos la conexion en forma absoluta como db, aca lo usamos
