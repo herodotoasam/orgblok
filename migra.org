@@ -224,8 +224,8 @@
 | [2019-09-28 sáb] | MIG17hs        |                  |               |   |   |   |   |
 | [2019-09-29 dom] |                |                  |               |   |   |   |   |
 | [2019-09-30 lun] | ibu800         | ibu800           |               |   |   |   |   |
-| [2019-10-01 mar] |                |                  |               |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |
+| [2019-10-01 mar] | ibu800         |                  |               |   |   |   |   |
+| [2019-10-02 mié] | MIG 4am N5     |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1860,6 +1860,12 @@ restablecido.
 * [2019-09-28 sáb] N5 MIG siestal
 luego de dormir una siesta me levante con un N5 que cedio rapido pq
 tome el migral a tiempo.
+* [2019-10-02 mié] N5 MIG nocturno 
+comi mucho y antes de dormir ya me dolia tome ibu, que algo fue
+aligerando pero una noche mal dormida y con indisposicion factica de
+tomar cuando hiciera falta, pude tomarlo a las 3am y lo tome ahi,
+quizas con un N4.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de

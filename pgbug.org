@@ -6,6 +6,10 @@ Separando la carga de un tree y haciendo que se cargue a demanda hago
 que que no todas las aperturas den fault.
 Lo llamativo es que buscador tiene tree y no da fault.
 y rbos dan fault ambas tree tanto la de zona como la de asientos.
+en buscadorpg abriendo individualmente los pivot devolucion no da
+problemas pero si se abren los tres juntos se rompe y son pivots
+simples.
+
 * DONE [2019-10-01 mar] algo me borra la tabla cuotas 
 - State "DONE"       from "TODO"       [2019-10-02 mié 10:42]
 era un drop table cuotas en buscadorpg.tcl que lo usaba en un proc

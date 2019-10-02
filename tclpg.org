@@ -28,3 +28,7 @@ otro nombre. habia un bind en un entry de otro tab que actuaba sobre
 las planillas haciendolas llenar y totalizar y eso daba los errores.
 * TODO BUG core dumped segment fault
 cuando luego de usar los tbls-tree cierro el programa
+* TODO resignficar los pivot y cuadros con etiquetas
+ya sea titulo con labels o etiquetas triples de colores con los campos
+de un pivot es mucho mas explicativo el saber lo que tenemos en un
+cuadro que despues de un tiempo lo dejamos de ver.
