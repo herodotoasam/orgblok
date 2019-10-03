@@ -225,3 +225,7 @@ colores en la parte superior que los hace auto explicativos
 igual como en fichas2
 ya estaba programado, lo programe igual, fue un ejercicio, lo mismo
 puse boton adhoc para que no se olvide.
+* TODO [2019-10-03 jue] bug 74493 con cant read coloresidvtas(61160)
+.pagos.tbls rowconfigure $row -bg $coloresidvta($idvta)
+respagosxidvta
+para idvta 61160 que debe ser una devuelta
