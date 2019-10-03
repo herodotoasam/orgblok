@@ -21,4 +21,7 @@ procesa la consulta pq el campo fecha no esta en la clausula group by,
 y no puedo ponerla al lado del index pq no genera un pivot en forma
 adecuada.
 Tendre que investigar pivots en postgres de otra forma.
+no parece haber buenas chances en pivots de postgres y menos obtener
+la riqueza de opciones que tengo con sqlite. quizas me convenga hacer
+un traspaso de datos postgres/sqlite y calcular el pivot localmente.
 
