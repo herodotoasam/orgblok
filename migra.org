@@ -226,6 +226,9 @@
 | [2019-09-30 lun] | ibu800         | ibu800           |               |   |   |   |   |
 | [2019-10-01 mar] | ibu800         |                  |               |   |   |   |   |
 | [2019-10-02 mié] | MIG 4am N5     |                  |               |   |   |   |   |
+| [2019-10-03 jue] | ibu800         |                  |               |   |   |   |   |
+| [2019-10-04 vie] | MIG 3am N5     |                  |               |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1865,6 +1868,10 @@ comi mucho y antes de dormir ya me dolia tome ibu, que algo fue
 aligerando pero una noche mal dormida y con indisposicion factica de
 tomar cuando hiciera falta, pude tomarlo a las 3am y lo tome ahi,
 quizas con un N4.
+* [2019-10-04 vie] N5 MIG nocturno
+idem comi mucho y pesado a la noche y a las 3 am despierto con un
+incipiente seguro y para no dejar que se desmadre lo agarro a tiempo
+con un migral.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
