@@ -15,7 +15,8 @@ simples.
 era un drop table cuotas en buscadorpg.tcl que lo usaba en un proc
 generarcuotas, podria usar cualquier otro nombre y uso ese borrandome
 mi tabla cuotas.
-* TODO [2019-10-03 jue] problemas con pivots que involucran columnas fecha o index agrupados por fecha
+* DONE [2019-10-03 jue] problemas con pivots que involucran columnas fecha o index agrupados por fecha
+- State "DONE"       from "TODO"       [2019-10-05 sáb 12:46]
 basicamente no me sirve pq no se produce la consulta ya que pg no
 procesa la consulta pq el campo fecha no esta en la clausula group by,
 y no puedo ponerla al lado del index pq no genera un pivot en forma
@@ -28,3 +29,8 @@ un traspaso de datos postgres/sqlite y calcular el pivot localmente.
 ya tengo el proc para pasar un sel en un segundo a una base memory db
 de ahi puedo usar esa tabla ya como la temp table del pivot de sqlite
 y dibujarla como pivot tradicional sin muchas variantes.
+el transform provee los datos y el pivot intacto de sqlite hace lo que
+falta. Al menos en los casos simples anda todo bien.
+le puse pivotpgx la x de transform o sea transform pg-->sqlite.
+el delay es minimo y no tiene importancia pq son pivots que se usan
+para analisis de datos, no penaliza la apertura de la aplicacion.
