@@ -24,4 +24,7 @@ Tendre que investigar pivots en postgres de otra forma.
 no parece haber buenas chances en pivots de postgres y menos obtener
 la riqueza de opciones que tengo con sqlite. quizas me convenga hacer
 un traspaso de datos postgres/sqlite y calcular el pivot localmente.
-
+** solucion via transformpgsql
+ya tengo el proc para pasar un sel en un segundo a una base memory db
+de ahi puedo usar esa tabla ya como la temp table del pivot de sqlite
+y dibujarla como pivot tradicional sin muchas variantes.

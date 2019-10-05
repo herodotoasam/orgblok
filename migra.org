@@ -228,6 +228,7 @@
 | [2019-10-02 mié] | MIG 4am N5     |                  |               |   |   |   |   |
 | [2019-10-03 jue] | ibu800         |                  |               |   |   |   |   |
 | [2019-10-04 vie] | MIG 3am N5     |                  |               |   |   |   |   |
+| [2019-10-05 sáb] | ibu800         |                  |               |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1872,6 +1873,9 @@ quizas con un N4.
 idem comi mucho y pesado a la noche y a las 3 am despierto con un
 incipiente seguro y para no dejar que se desmadre lo agarro a tiempo
 con un migral.
+* [2019-10-05 sáb] 
+jaqueca matinal molesta tipo N4 quizas abortada por ibu800 mas cafe y
+levantarse.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
