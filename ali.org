@@ -2459,3 +2459,7 @@ justificadas, como que es el reino de la normalidad frente al reino de
 anormalidad. Por eso seguramente encontrare una excusa para irme, que
 tengo que lavar la ropa o algo por el estilo. Y asi perdere la batalla
 fundamental para poder mantenerme en mi decision de mantenerme solo.
+** [2019-10-06 dom]
+muy compacto el codigo tcl tambien. un proc que transforma los datos
+de pg y los pasa a sqlite solo dando con/db/sel lleva 18 lineas de
+codigo muy expresivas
