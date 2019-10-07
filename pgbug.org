@@ -34,3 +34,10 @@ falta. Al menos en los casos simples anda todo bien.
 le puse pivotpgx la x de transform o sea transform pg-->sqlite.
 el delay es minimo y no tiene importancia pq son pivots que se usan
 para analisis de datos, no penaliza la apertura de la aplicacion.
+* TODO [2019-10-06 dom] purgar relacion articulos/artcomprado
+agregar en articulos los siguientes articulos
+select art from articulos where art not in (select distinct articulo
+from artcomprado);
+si los agregamos directamente en sqlite no tenemos que hacer tanto
+problema de trasvasamiento cada vez que corramos el 3-1.
+
