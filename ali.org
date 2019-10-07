@@ -2463,3 +2463,18 @@ fundamental para poder mantenerme en mi decision de mantenerme solo.
 muy compacto el codigo tcl tambien. un proc que transforma los datos
 de pg y los pasa a sqlite solo dando con/db/sel lleva 18 lineas de
 codigo muy expresivas
+** [2019-10-07 lun]
+estoy bien metido en la programacion aunque no me queda mucho
+horizonte pq el sistema se esta terminando, pero me entretiene
+bastante. como en los viejos tiempos o casi. 
+la lectura por ahi, regular el mes pasado lei dos libros y creo que un
+par de libros puedo llevar adelante. 
+algunas series me gustan.
+pero... se me hace dificil remontar las rutinas, una enormidad. Creo
+que la claudicacion de vivir aca se debe a eso, a no esperar ya nada
+mas.
+cuesta articular una vida normal. cuesta hacer las cosas. creo que es
+la distima. una distimia cronica que ya lleva quince años
+diagnosticada y no le di nunca bola. podria haber cambiado mi vida si
+me hubiera curado de eso. obvio que no todos los años fueron
+iguales. Ahora es mas acuciante. 
