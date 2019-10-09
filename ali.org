@@ -2507,3 +2507,9 @@ lo que hace de este marasmo un marasmo mas profundo es que no tengo un
 proceso productivo que me envuelva y me ocupe y hasta el mismo sistema
 programatico esta casi terminado. entonces casi no hay incentivos que
 me movilicen. quizas no sea algo animico solamente sino algo hormonal.
+** [2019-10-09 mié]
+ventaspg: falta poner los controles y demas cosas que tiene el
+ventas.tcl.
+pero tambien cabe preguntarse como quisiera uno tener que pasar las
+ventas, o controlar las ventas. pq se trata de un programa escrito de
+cero.
