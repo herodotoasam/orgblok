@@ -2513,3 +2513,18 @@ ventas.tcl.
 pero tambien cabe preguntarse como quisiera uno tener que pasar las
 ventas, o controlar las ventas. pq se trata de un programa escrito de
 cero.
+** [2019-10-10 jue]
+hoy probe el funcionamiento en red ssh de los programas y funcionan
+bien y documente como se hace para luego hacer la prueba en la oficina
+un poco mas establemente. 
+*** apuntes sobre las relecturas sobre la depresion
+relecturas de dia1 del 2017 y dia2 del 2018 evidencian serios
+problemas mas o menos como los de ahora o quizas mas graves, con
+actividad plena, lo que tira abajo la hipotesis de que estoy asi por
+falta de actividad, tenia actividad y estaba asi, muchos de los items
+parecen calcados, en otras cosas se ha mejorado en otras he empeorado
+y mucho. 
+noto que ya no hablo, que no tengo la necesidad de hablar, si la
+necesidad de ir para evitar la soledad pero no la de hablar, y el
+desinteres en general por todo, el resto sigo igual sin
+solucion. arruinandome paso a paso. poco a poco. 
