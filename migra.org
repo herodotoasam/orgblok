@@ -233,7 +233,10 @@
 | [2019-10-07 lun] | ibu800         |                  |               |   |   |   |   |   |
 | [2019-10-08 mar] | MIG15hs N5     |                  |               |   |   |   |   |   |
 | [2019-10-09 mié] | ibu800         |                  |               |   |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |   |
+| [2019-10-10 jue] |                |                  |               |   |   |   |   |   |
+| [2019-10-11 vie] | ibu800         |                  |               |   |   |   |   |   |
+| [2019-10-12 sáb] | ibu800         | ibu800           | MIG 3am N5    |   |   |   |   |   |
+| [2019-10-13 dom] | ibu800         |                  |               |   |   |   |   |   |
 
 * [2019-02-18 lun]   
 tomo el migral tipo 13hs mas por evitar el rebote que por necesidad
@@ -1881,6 +1884,11 @@ con un migral.
 jaqueca matinal molesta tipo N4 quizas abortada por ibu800 mas cafe y
 levantarse.
 * [2019-10-08 mar] N5 MIG
+* [2019-10-12 sáb] N5 MIG nocturno
+luego de dos tandas de ibu en el dia me tengo que levantar a la
+madrugada a un migral que tecnicamente es en domingo pero lo pongo en
+sabado para la continuidad de la toma.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
