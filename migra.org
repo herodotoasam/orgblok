@@ -232,7 +232,8 @@
 | [2019-10-06 dom] |                |                  |               |   |   |   |   |   |
 | [2019-10-07 lun] | ibu800         |                  |               |   |   |   |   |   |
 | [2019-10-08 mar] | MIG15hs N5     |                  |               |   |   |   |   |   |
-| [2019-10-09 mié] | ibu800         |                  |               |   |   |   |   |   |
+| [2019-10-09 mié] | ibu800         | MIG 17hs N5      |               |   |   |   |   |   |
+| [2019-10-10 jue] | ibu800         |                  |               |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |
 
 * [2019-02-18 lun]   
@@ -1881,6 +1882,11 @@ con un migral.
 jaqueca matinal molesta tipo N4 quizas abortada por ibu800 mas cafe y
 levantarse.
 * [2019-10-08 mar] N5 MIG
+* [2019-10-09 mié] N5 MIG
+* [2019-10-10 jue]
+iba un N3 en progreso para hacerse redondito y fui a hacer las compras
+y compre ibu, y tome una dosis de ibu800 y lo limpio totalmente, lo
+cual sirve para recordar que no todos los casos de ibu son inutiles
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
