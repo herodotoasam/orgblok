@@ -2592,3 +2592,65 @@ crisis tambien pasara. Y tengamos en cuenta que nos pusimos en camisa
 de once baras por culpa de la construccion en el peor momento pq sino
 estariamos comprando mercaderia a dos manos.  O sea es un problema
 interno nuestro.
+*** analisis sobre el trabajo
+¿que es espero de la vida?, si llego a vivir veinte años mas y miro
+este dia, me voy a considerar muy joven en este momento y me voy a
+querer lamentar por no haber tomado decisiones y haber hecho lo que
+quisiera realmente. que digo veinte, digo diez o digo cinco. 
+pienso en el momento en que estoy releyendo (nov-dic 2015) con todas
+sus problematicas que son muchisimas segun se ve, pero veo que tengo
+trabajo, que tengo una actividad, luego en cierto momento del 2016
+luego del grupo de promocion que tuvimos en ese año decidi que era
+mejor abrir la oficina y dedicarme a trabajar alli, y comence a
+cagarme de frio en el local 4 y a sufrir las vicisitudes de ese
+trabajo que me dejaron malos recuerdos en general, hasta que vinimos
+aca a jujuy un par de meses y luego al local nuevo. En el local nuevo
+al comienzo hubo un poco de actividad con los dos grupos de trabajo y
+la expectativa de formar un grupo de gente pero se fue desdibujando
+con el correr de los meses y creo que el golpe de gracia vino con la
+primera devaluacion y mas acentuadamente con la gran devaluacion
+postPASO. Y ya ahi quedamos parados totalmente. Y yo quede sin
+actividad practicamente. La falta de actividad es algo que te
+condiciona mal, es algo que te afecta mal. por eso pienso que lo
+primero que tendria que recuperar es eso es una actividad. 
+Resumen: que creo que el eje debe ser una actividad y luego viene el
+hobby, que el xt, las teorias etc son cosas que no existen en la
+realidad. Pasan los años y no pongo en practica nada. Es 2015 y estoy
+hablando de CM en A4 y pasaron 4 años y no hice ni estudie ninguno. O
+sea no estoy en eso y no esta mal que sea asi pero esta bien tomar en
+cuenta la realidad de lo que es.
+El principal problema hoy es la falta de actividad. Como no coincide
+con falta de dinero pq la parte de la sociedad me reditua ingresos, no
+se produce una catastrofe economica concomitante. Y asi la falta de
+actividad pasa desapercibida, no salta en evidencia como lo nociva que
+es. Pero el daño que causa se va sintiendo mes tras mes cuando uno no
+tiene nada que hacer y le cuesta llenar las jornadas y los fines de
+semana no traen una semana laboral despues que satisfaga. 
+*** sistema postgres en la nube en una hipotesis de trabajo en la calle
+seria optimo tener un sistema en la nube si trabajo en la calle.
+llegar y pasar mis ventas en la casa. o que la cami pase los papeles,
+o bien que se distribuya el peso de los papeles pasados, todo es muy
+conveniente. salvo el costo mensual.
+*** mantenimiento de los conocimientos latentes
+como hacer para no perder los conocimientos, para no llegar a cero sin
+tener que estar totalmente dedicado y superar las barreras de
+desgano. Sabiendo que posiblemente tengamos que seguir usando los
+programas sqlite por largo rato mas y nunca lleguemos a implementar
+los de postgres?.
+ej. mediante el documentar profusamente los programas descubriendo
+particularidades y creando manuales de re-aprendizaje. 
+Con el material de reaprendizaje en poco tiempo me pongo en sintonia
+de nuevo.
+hacer un tutorial o un manual de tcl. para uso personal, o
+eventualmente de otro. donde se recapitule lo basico pero tambien los
+atajos que tome yo mismo.
+*** relecturas del 2015
+gran entretenimiento pase esta tarde con la relectura de un cuaderno
+de 2015 finales comienzos del 2016. los escritos de esa epoca tienen
+otra fuerza, otro empuje que los actuales ni hablar. a pesar del
+problema de la sociedad que esta tratado con total altura y
+respeto. Pero hay plan de trabajo y no hay dudas de llevarlos
+adelante, o de poder llevarlos adelante. hay planes. proyectos. En fin
+una version de mi mismo muy renovadora que me da gusto volver a
+recordar y que me gustaria recuperar.
+
