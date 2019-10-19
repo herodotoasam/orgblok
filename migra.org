@@ -242,7 +242,7 @@
 | [2019-10-16 mié] | MIG N5         |                  |               |   |   |   |   |   |
 | [2019-10-17 jue] | ibu800         |                  |               |   |   |   |   |   |
 | [2019-10-18 vie] | ibu800         |                  |               |   |   |   |   |   |
-| [2019-10-19 sáb] | ibu800         |                  |               |   |   |   |   |   |
+| [2019-10-19 sáb] | ibu800         | MIG N5           |               |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |
 
 
@@ -1903,7 +1903,7 @@ madrugada a un migral que tecnicamente es en domingo pero lo pongo en
 sabado para la continuidad de la toma.
 * [2019-10-15 mar] N5 MIG
 * [2019-10-16 mié] N5 MIG
-
+* [2019-10-19 sáb] N5 MIG
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
