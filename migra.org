@@ -257,7 +257,7 @@
 | [2019-11-01 vie] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-02 sáb] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-03 dom] | Ibu800         | MIG N5           |               |   |   |   |   |   |   |
-| [2019-11-04 lun] | ibu400         |                  |               |   |   |   |   |   |   |
+| [2019-11-04 lun] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |   |
 
 
@@ -1928,6 +1928,7 @@ migral matinal al vicio quiza por el agobio del trabajo
 * [2019-11-01 vie] N5 MIG
 * [2019-11-02 sáb] N5 MIG
 * [2019-11-03 dom] N6 MIG
+* [2019-11-04 lun] N5 MIG
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
