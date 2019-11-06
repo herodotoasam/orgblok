@@ -259,7 +259,8 @@
 | [2019-11-03 dom] | Ibu800         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-04 lun] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-05 mar] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
-| [2019-11-06 mié] |                |                  |               |   |   |   |   |   |   |
+| [2019-11-06 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1934,6 +1935,11 @@ empezo N5 fallo el mig y llevo 4hs remontar. nuevamente sospecho del oliva.
 * [2019-11-05 mar] N5 MIG 2hs
 resciliencia por dos horas, un poco menos que ayer. Un poco se corto
 pq me levante y sali a tomar a aire.
+* [2019-11-06 mié] N5 MIG 6hs
+resciliencia por 6hs, me pregunto que pasaria si no tomo nada. El dia
+anduve bien comi bien y camine 45 cuadras. pero muy largo el periodo
+de molestias, pero con Nmenor.
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
