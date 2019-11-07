@@ -260,6 +260,7 @@
 | [2019-11-04 lun] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-05 mar] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-06 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-07 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |   |
 
 
@@ -1939,6 +1940,9 @@ pq me levante y sali a tomar a aire.
 resciliencia por 6hs, me pregunto que pasaria si no tomo nada. El dia
 anduve bien comi bien y camine 45 cuadras. pero muy largo el periodo
 de molestias, pero con Nmenor.
+* [2019-11-07 jue] N5 MIG 
+hizo efecto sin resciliencia pq me levante a trabajar en la cocina
+pienso. que si me quedo en la cama me llevaba 4hs.
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
