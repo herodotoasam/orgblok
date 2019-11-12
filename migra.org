@@ -261,7 +261,11 @@
 | [2019-11-05 mar] | ibu400         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-06 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-07 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |   |   |
+| [2019-11-08 vie] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-09 sáb] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-10 dom] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-11 lun] | ibu 400        |                  |               |   |   |   |   |   |   |
+| [2019-11-12 mar] | MIG N5         |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1943,7 +1947,10 @@ de molestias, pero con Nmenor.
 * [2019-11-07 jue] N5 MIG 
 hizo efecto sin resciliencia pq me levante a trabajar en la cocina
 pienso. que si me quedo en la cama me llevaba 4hs.
-
+* [2019-11-08 vie] N5 MIG
+* [2019-11-09 sáb] N5 MIG y recidiva resciliente toda la noche
+* [2019-11-10 dom] N5 MIG 
+* [2019-11-12 mar] N5 MIG
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
