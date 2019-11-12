@@ -140,11 +140,15 @@ instala varios archivos
 *** obtener ip con ifconfig instalar net-tools
 el ip es el inet la segunda linea a la izquierda
 *** conectar
-ssh -p 22 hero@192.168.0.243
+ssh -X -p 22 hero@192.168.0.243
 password y voile!!!
 estamos adentro y viceversa.
-ssh -p 22 fede@192.168.0.39
+ssh -X -p 22 fede@192.168.0.39
 password 
+--- No olvidar la -X pq da un extraño error que nos extraviara, siendo
+que -X es esencial para poder mostrar interfaces graficas a traves de
+ssh, pero da un error de tk que nos deja confundidos y empezamos a
+mirar el programa en vez de error en ssh.
 
 *** si queremos ejecutar programas graficos agregar -X en la orden
 ssh -X -p 22 ...
