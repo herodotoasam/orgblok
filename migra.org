@@ -267,7 +267,7 @@
 | [2019-11-11 lun] | ibu 400        |                  |               |   |   |   |   |   |   |
 | [2019-11-12 mar] | MIG N5         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-13 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
-| [2019-11-14 jue] |                |                  |               |   |   |   |   |   |   |
+| [2019-11-14 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1957,6 +1957,9 @@ tuve que tomar un segundo migral por una resciliencia feroz de unas
 cinco horas que ya me habia cansado y estaba en el marques. 
 * [2019-11-13 mié] N5 MIG 
 hizo efecto felizmente rapido
+* [2019-11-15 vie] N4 MIG
+ya estoy entregado y con una molestia que no llego a ser migrañosa
+pero tampoco estaba libre de ella tome migral y limpio enseguida.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
