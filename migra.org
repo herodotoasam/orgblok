@@ -268,6 +268,9 @@
 | [2019-11-12 mar] | MIG N5         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-13 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-14 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-15 vie] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-16 sáb] | MIG N4         |                  |               |   |   |   |   |   |   |
+| [2019-11-18 lun] | MIG N5         | MIG N5           |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1960,6 +1963,11 @@ hizo efecto felizmente rapido
 * [2019-11-15 vie] N4 MIG
 ya estoy entregado y con una molestia que no llego a ser migrañosa
 pero tampoco estaba libre de ella tome migral y limpio enseguida.
+* [2019-11-16 sáb] N5 MIG
+* [2019-11-17 dom] N4 MIG
+* [2019-11-18 lun] N5 MIG MADRUGADA N4 MIG 21HS
+no puedo salirme del migral diario, y luego de un dia sin migral lo
+recupero ahi nomas incluso con dos.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
