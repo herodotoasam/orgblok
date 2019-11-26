@@ -273,7 +273,11 @@
 | [2019-11-18 lun] | MIG N5         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-19 mar] | MIG N5         | MIG N5           |               |   |   |   |   |   |   |
 | [2019-11-20 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |   |   |
+| [2019-11-21 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-22 vie] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-23 sáb] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-24 dom] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-25 lun] | MIG N5         |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1973,6 +1977,12 @@ no puedo salirme del migral diario, y luego de un dia sin migral lo
 recupero ahi nomas incluso con dos.
 * [2019-11-19 mar] N5 MIG N4 MIG
 * [2019-11-20 mié] N5 MIG
+* [2019-11-21 jue] N5 mig
+* [2019-11-22 vie] N5 mig
+* [2019-11-23 sáb] N5 mig
+* [2019-11-24 dom] N5 mig
+* [2019-11-25 lun] N3 mig
+preventivo
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
