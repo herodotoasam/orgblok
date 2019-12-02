@@ -280,7 +280,11 @@
 | [2019-11-25 lun] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-26 mar] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-11-27 mié] | MIG N5         |                  |               |   |   |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |   |   |
+| [2019-11-28 jue] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-11-29 vie] |                |                  |               |   |   |   |   |   |   |
+| [2019-11-30 sáb] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-12-01 dom] |                |                  |               |   |   |   |   |   |   |
+| [2019-12-02 lun] | MIG N5         |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -1988,7 +1992,14 @@ recupero ahi nomas incluso con dos.
 preventivo
 * [2019-11-26 mar] N3 mig
 * [2019-11-27 mié] N3 mig
-
+* [2019-11-28 jue] N3 mig
+* [2019-11-30 sáb] N3 mig
+* [2019-12-02 lun] N3 mig
+tuve dos dias sin mig alternados, luego de que los ultimos 6 migrales
+fueron tomados con N3 y hace mas de dos semanas que ya no tengo
+resciliencia, o sea que debo concluir que o bien funciona la falta de
+quimicos colorantes aditivos etc, o bien funciona la falta de gluten,
+habria que seguir probando.
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
