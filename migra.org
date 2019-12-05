@@ -285,6 +285,10 @@
 | [2019-11-30 sáb] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-12-01 dom] |                |                  |               |   |   |   |   |   |   |
 | [2019-12-02 lun] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-12-03 mar] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-12-04 mié] |                |                  |               |   |   |   |   |   |   |
+| [2019-12-05 jue] | MIG N3         |                  |               |   |   |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -2000,6 +2004,13 @@ fueron tomados con N3 y hace mas de dos semanas que ya no tengo
 resciliencia, o sea que debo concluir que o bien funciona la falta de
 quimicos colorantes aditivos etc, o bien funciona la falta de gluten,
 habria que seguir probando.
+* [2019-12-03 mar] N5 mig
+repentino fuerteson en el marques al ir a ver la obra
+* [2019-12-05 jue] N3 mig
+luego de un dia en blanco a pesar del gran estres y dormi con alguito
+de molestia al levantarme pintaba como dia de no necesitar y creo que
+tome al vicio por adelantarme con un casi inexistente N3
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
