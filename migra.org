@@ -288,6 +288,9 @@
 | [2019-12-03 mar] | MIG N5         |                  |               |   |   |   |   |   |   |
 | [2019-12-04 mié] |                |                  |               |   |   |   |   |   |   |
 | [2019-12-05 jue] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-06 vie] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-07 sáb] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-08 dom] | MIG N5         |                  |               |   |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |   |
 
 
@@ -2010,6 +2013,9 @@ repentino fuerteson en el marques al ir a ver la obra
 luego de un dia en blanco a pesar del gran estres y dormi con alguito
 de molestia al levantarme pintaba como dia de no necesitar y creo que
 tome al vicio por adelantarme con un casi inexistente N3
+* [2019-12-06 vie] N3 mig
+* [2019-12-07 sáb] N3 mig
+* [2019-12-08 dom] N5 mig
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
