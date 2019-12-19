@@ -301,7 +301,7 @@
 | [2019-12-16 lun] | MIG N4         |                  |               |   |   |   |   |   |   |
 | [2019-12-17 mar] |                |                  |               |   |   |   |   |   |   |
 | [2019-12-18 mié] | MIG N3         | MIG N4           |               |   |   |   |   |   |   |
-|                  |                |                  |               |   |   |   |   |   |   |
+| [2019-12-19 jue] | MIG N3         |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -2031,6 +2031,8 @@ tome al vicio por adelantarme con un casi inexistente N3
 * [2019-12-15 dom] N5 mig nocturno 1am
 * [2019-12-16 lun] N4 mig
 * [2019-12-18 mié] N3 mig N5 mig
+* [2019-12-19 jue] N3 mig
+
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
