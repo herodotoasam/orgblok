@@ -302,6 +302,10 @@
 | [2019-12-17 mar] |                |                  |               |   |   |   |   |   |   |
 | [2019-12-18 mié] | MIG N3         | MIG N4           |               |   |   |   |   |   |   |
 | [2019-12-19 jue] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-20 vie] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-21 sáb] | MIG N3         |                  |               |   |   |   |   |   |   |
+| [2019-12-22 dom] | MIG N3         | MIG N5           |               |   |   |   |   |   |   |
+|                  |                |                  |               |   |   |   |   |   |   |
 
 
 * [2019-02-18 lun]   
@@ -2032,6 +2036,10 @@ tome al vicio por adelantarme con un casi inexistente N3
 * [2019-12-16 lun] N4 mig
 * [2019-12-18 mié] N3 mig N5 mig
 * [2019-12-19 jue] N3 mig
+* [2019-12-20 vie] N3 mig
+* [2019-12-21 sáb] N3 mig
+* [2019-12-22 dom] N3 mig N6 mig siesta
+
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
