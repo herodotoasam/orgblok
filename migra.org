@@ -309,6 +309,7 @@
 | [2019-12-24 mar] | MIG N3         |                  |               |   |   |   |   |   |   |
 | [2019-12-25 mié] | MIG N3         |                  |               |   |   |   |   |   |   |
 | [2019-12-26 jue] | MIG N4         |                  |               |   |   |   |   |   |   |
+| [2019-12-27 vie] | MIG N3         |                  |               |   |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |   |
 
 
@@ -2019,6 +2020,7 @@ preventivo
 * [2019-11-27 mié] N3 mig
 * [2019-11-28 jue] N3 mig
 * [2019-11-30 sáb] N3 mig
+
 * [2019-12-02 lun] N3 mig
 tuve dos dias sin mig alternados, luego de que los ultimos 6 migrales
 fueron tomados con N3 y hace mas de dos semanas que ya no tengo
@@ -2047,6 +2049,7 @@ tome al vicio por adelantarme con un casi inexistente N3
 * [2019-12-24 mar] N3 mig
 * [2019-12-25 mié] N3 mig
 * [2019-12-26 jue] N4 mig
+* [2019-12-27 vie] N3 mig
 
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
