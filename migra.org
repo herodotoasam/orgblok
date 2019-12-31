@@ -313,6 +313,7 @@
 | [2019-12-28 sáb] | MIG N3         |                  |               |   |   |   |   |   |   |
 | [2019-12-29 dom] | MIG N3         |                  |               |   |   |   |   |   |   |
 | [2019-12-30 lun] | MIG N5         |                  |               |   |   |   |   |   |   |
+| [2019-12-31 mar] | MIG N3         | MIG N5           |               |   |   |   |   |   |   |
 |                  |                |                  |               |   |   |   |   |   |   |
 
 
@@ -2057,7 +2058,7 @@ tome al vicio por adelantarme con un casi inexistente N3
 * [2019-12-29 dom] N3 mig
 * [2019-12-30 lun] N5 mig 
 resciliente y lo salve hasta ahora al segundo con descanso en el aire
-
+* [2019-12-31 mar] N3 mig N5 mig
 * CONCLUSIONES
 ** CONCLUSIONES PROVISORIAS DEL WD
 El WD duro 13 dias de 20mg y 3 dias de 10mg o sea un total de 290mg de
