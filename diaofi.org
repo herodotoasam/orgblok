@@ -383,3 +383,24 @@ CLOCK: [2019-02-04 lun 15:25]--[2019-02-04 lun 17:20] =>  1:55
 :END:
 *** DONE habilitar la periodicidad quincenal
 - State "DONE"       from "TODO"       [2019-02-04 lun 16:38]
+* [2020-01-06 lun]
+** forma de captacion 
+necesito captar cobradores a pie, y vendedores para el ale, pero dada
+la experiencia que tuve con la stephania y cia, y con los cinco
+promo-cobradores creo que debo hacer las cosas diferentes.
+El flujo de aviso lo debo trabajar diciendo que es un trabajo de promo
+domiciliaria de venta tal cual esta en el wassap, peeero a los
+elegidos les ofrezco una alternativa un trabajo de cobranza pura donde
+NO hay que vender, y hay que ir a lo seguro de la cobranza, obvio para
+lo cual no debo decirle a los de la venta que tengo cobranza para
+agregar y luego le digo que la cobranza se maneja con un porcentaje de
+lo cobrado pero que siempre se gana pq a diferencia de la venta. Y los
+del grupo tambien los manejo igual como oportunidades excepcionales.
+le planteo la oportunidad excepcional y le digo que me avise si le
+gusta, o bien lo cito para el otro dia como hice con la stephi, y le
+explico como cobran, por semana un porcentaje.
+La ventaja de este enfoque es que no tengo que preocuparme por los que
+estan en marcha, o sea una vez enganchen estan a comision, por lo cual
+pueda seguir captando, sino se hace una situacion tensa de tener la
+vela a caso por caso y no se avanza en absoluto a un grupo mas
+grande. 
