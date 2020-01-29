@@ -404,3 +404,19 @@ estan en marcha, o sea una vez enganchen estan a comision, por lo cual
 pueda seguir captando, sino se hace una situacion tensa de tener la
 vela a caso por caso y no se avanza en absoluto a un grupo mas
 grande. 
+* [2020-01-29 mié]
+** cambio en la aprobacion de las ventas 
+desde que permitimos la libre aprobacion de ventas la cosa funciono
+mas o menos bien, con algunos fallos menores quizas las dos ventas en
+la misma casa a dos personas relacionadas, o fallos en la aprobacion
+telefonica de clientes para ventas dobles o triples. 
+El cambio viene a reflotar el sistema de filtracion global de ventas
+via wassap. Donde todos los promotores mandan los datos a un numero y
+luego si esta aprobado se lo reenvia al repartidor para que proceda a
+entregarlo por orden.
+Tenemos mas trabajo pero no seria problema pq en la situacion actual
+tengo la jornada disponible. 
+Este sistema permite controlar todos las ventas antes de que se
+realicen y en forma mas tranquila, pq se hace via wp. 
+No podemos confiar en que el Ale ejerza algun tipo de seleccion o
+frenaje a algo.
