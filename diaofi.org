@@ -420,3 +420,19 @@ Este sistema permite controlar todos las ventas antes de que se
 realicen y en forma mas tranquila, pq se hace via wp. 
 No podemos confiar en que el Ale ejerza algun tipo de seleccion o
 frenaje a algo.
+* [2020-02-01 sáb]
+** experiencias de autorizacion online 
+viernes 31 22 ventas 11 anulados.
+la mayoria estaba en listado o sea era en casa donde ya se habia
+vendido, incluso el mismo Osver y no se habia pagado nada, dos casos
+de clientes pagando una cuota alta, y dos casos en una misma casa
+sospecho que marido y mujer con un seven muy malo los dos ahi creo que
+salvamos una mora innecesaria.
+pienso que podremos reducir varios puntos la incobrabilidad de la
+venta en la calle, aunque obviamente va a repercutir en la disminucion
+de los montos vendidos salvo que pongamos un pack y/o pongamos mas
+promos para compensar.
+** limitacion de la carga de trabajo en los cobradores
+en caso de miguel ya trabaja solo, en caso de lautaro dandole el
+listado dia antes para que se lo acomode y llame el. y tambien armando
+al menos para que se lo acomode.
