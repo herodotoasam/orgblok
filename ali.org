@@ -3650,3 +3650,38 @@ evitar el aburrimiento.
 *** sedentarismo
 tendria que ver como salimos del alarmante sedentarismo que tenemos en
 la actualidad
+** [2020-02-14 vie]
+comentarios sobre el [2020-02-07 vie]
+*** dieta
+la avena fermentada fallo, me maneje con licuado y con kefir-granola
+que me sienta bien dentro de todo. ha sido una semana nefasta pero es
+la semana final de la construccion y no se puede pedir mas. Pero noto
+que debo traer si o si el arroz o el mijo con calabazin pq no hay otra
+cosa para comer aca. No puedo anotar en habitos agua pura en todo el
+dia pq mezclo con gaseosas si hay. y no hago el esfuerzo de no
+tomarlas. por ahora desastre.
+*** lectura
+muy bien digamos: relectura a full de uno de g.play y lectura bastante
+buena de uno que baje gratuito que me ha dado algunas ideas
+positivas. Ambas posturas estan bien, la relectura y el que haya
+libros gratuitos que sean interesantes. Se puede leer mucho en la
+oficina y eso es bueno, en general el habito de la lectura avanza y se
+va imponiendo para ganarle a las redes.
+*** ejercicio
+monumentalmente pude hacer un par de veces las tresseries, 5 veces en
+la ultima semana, lo cual es bueno despues de dos meses de inactividad
+total.
+*** computadora
+empece a mover mediante promover el entusiasmo reinstalando un nuevo
+linux, esta vez manjaro-kde. lo unico que como no tengo ganas de
+sentarme en el escritorio, lo hago en la cama y mas de una hora no es
+ergonomico y por lo tanto hago una hora por dia, un dia instale, otro
+dia instale tcl. Pienso seguir con la instalacion y asi aprender la
+parte basica de manejo del manjaro y luego ver si me entusiasmo en la
+programacion.
+*** orgzly
+vi con sumo interes una relectura de un archivo dek.org mediante
+orgzly y de paso tambien rescato el formato, que a diferencia del
+diario por fecha en el que se repiten los temas continuamente, encarar
+una dekonstruccion por tema, pq casi siempre son los mismos los temas
+que nos ocupan.
