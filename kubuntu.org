@@ -39,12 +39,28 @@ copiar de ~/orgblok .tclshrc a ~
 1. sudo apt-get install wget ca-certificates
 2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |
 sudo apt-key add -
-1. sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/
-   `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
-2. sudo apt-get update
-3. sudo apt-get install postgresql postgresql-contrib
-4. sudo su - postgres psql
-5. instalar libpgtcl y postgresql-pltcl-11
+3 echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release
+-cs`-pgdg main" |sudo tee  /etc/apt/sources.list.d/pgdg.list
+1. sudo apt-get update
+2. sudo apt-get install postgresql postgresql-contrib
+3. sudo su - postgres psql
+4. instalar libpgtcl y postgresql-pltcl-11
+
+*** instalacion de postgres
+**** entrar como postgres
+$sudo -u postgres psql
+**** crear usuario
+$sudo -u postgres createuser hero
+**** crear base de datos
+$sudo -u postgres createdb hero
+**** dar password al usuario
+$sudo -u postgres psql
+postgres=# alter user hero with encrypted password 'ata';
+**** le damos privilegios a la base de datos
+postgres=# grant all privileges on database hero to hero;
+**** cargamos el schema dumpeado previamente
+$psql -f dumppreviodeschema.sql
+ 
 
 ** instalar pgadmin 4 
 1. sudo apt-get install pgadmin4 pgadmin4-apache2
