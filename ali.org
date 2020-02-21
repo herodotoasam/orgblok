@@ -3685,3 +3685,23 @@ orgzly y de paso tambien rescato el formato, que a diferencia del
 diario por fecha en el que se repiten los temas continuamente, encarar
 una dekonstruccion por tema, pq casi siempre son los mismos los temas
 que nos ocupan.
+** [2020-02-16 dom]
+*** computacion
+perdi muchas horar reinstalando varios sistemas operativos, dos veces
+manjaro, una vez opensuse y de vuelta a kubuntu el cual todavia no
+termine de restaurar.
+Demasiado tiempo perdido y en el fondo me hace pensar que no vale la
+pena engancharse en algo que no me dara solucion a nada ni a mis
+problemas personales, es mas me agregara mas desdichas ni a los
+problemas del trabajo que se corrigen con mejor forma de trabajar.
+La compu sentado en la cama trae problemas ergonomicos que no puedo
+darme el lujo de tener y luego de 8hs en la oficina no me da ganas de
+sentarme en el escritorio aca.
+** [2020-02-20 jue]
+*** hacer pivot de morosidad por vdor
+*** definir el plan de negocios 
+o la filosofia del negocio o un plan de mejora continua que nos saque
+del atascamiento.
+*** mejorarme del dolor de cabeza y de los sintomas del estomago
+*** mejorar animicamente
+*** mejorar la relacion con ih
