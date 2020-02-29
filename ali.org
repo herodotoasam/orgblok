@@ -3796,3 +3796,29 @@ adecuadamente acomodado, sin salir a ningun lado. Con ih nerviosa y
 mal por eso. Pasarme todo enero viendo tele y deteriorandome y recien
 en febrero ir cambiando un poco los habitos pero sufriendo los embates
 fuertes del dolor de cabeza.
+** [2020-02-29 sáb]
+*** nueva terapia cortypiren
+hoy comienzo nueva terapia cortypiren pq estoy detonado, cerre febrero
+con 48 el mas alto de la historia, y estoy camino a 60 o sea a 2 por
+dia minimo.
+vengo tomando tranqui dos por dia y todo ok, el tema es cuando por
+cualquier razon no tomo, se va todo al carajo como anoche. Ayer fue un
+dia de uno, en una semana de dos, y llego la noche y no sentia ni un
+N2, quizas un N1 pero ya era abuso tomar por las dudas y me dije me
+duermo total si es viernes no pasa nada me despierto y ya, y me
+desperte tipo 23.30hs con una migraña cañon, y estuve casi toda la
+noche para procesar el dolor pq no se me fue en el momento.
+*** formulario para registro de aprobaciones
+o sea no seria un formulario verificador, ni un formulario para llenar
+en el momento incluso se puede llenar con la hoja aunque seria mejor
+hacerlo en el mismo dia con la info del seven.
+ingresar sexo/dni y alli levanta si existe en romitex, y se rellena
+con padron (eso ahorra tiempo), sino existe en padron lleno yo con
+datos de seven, lleno direccion, infoseven, o edito esos campos si es
+un rx. Luego boton de aceptado - rechazado - cargar cliente- 
+cargar cliente obviamente carga el cliente con
+sexo/dni/nombre/calle/num/barrio/zona/infoseven/ y luego rechazado o
+aceptado crea un registro hacia idcliente donde estara el historial de
+los creditos aceptados o rechazados. 
+tabla verificaciones(id/idcliente/fecha/idvdor/aprobado (1 aprobado 0
+rechazado)/comentarios)
