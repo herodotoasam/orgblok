@@ -3822,3 +3822,14 @@ aceptado crea un registro hacia idcliente donde estara el historial de
 los creditos aceptados o rechazados. 
 tabla verificaciones(id/idcliente/fecha/idvdor/aprobado (1 aprobado 0
 rechazado)/comentarios)
+** [2020-03-02 lun]
+*** cortyterapia
+bastante peor que en otras ocasiones, cursa con dolor, estoy en tercer
+dia y tomo napro y no me hace nada a pesar que me cocina el gañote, y
+ante un persistente N5 que por momentos se transforma en N6 o mas tome
+un refuerzo a las 12hs de 10mg mas de corty. sin resultados hasta el
+momento, pero al menos puedo seguir trabajando. Pero no podria haber
+ido al local creo que permanecer todo el dia en el local hubiera sido
+como me siento hoy totalmente insufrible. pq me cuesta estar aqui que
+estoy en condiciones comodisimas no quiero imaginarme alla.
+
