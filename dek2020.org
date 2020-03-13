@@ -1,0 +1,18 @@
+* analisis venta fabian
+** Casos de error que pueden llevar a mora
+*** reemplazo de cliente por el hijo/a por NEP
+o sea visita no encuentra al cliente pero encuentra a la hija 42mill
+con un seven en blanco y sin historial crediticio en el mejor de los
+casos y le clava una venta que estaba destinada a la clienta original.
+O poniendo en riesgo la continuidad de un cliente bueno original
+(alguien de 10 o mas compras que se pueda trabar por una pendejita de
+mierda que no pague).
+Caso 77228 Montalvo 3726 - cliente original Gonzalez Gabriela 20
+mill. con 10 ventas y un buen historial, esa era la visitada. No
+compra en la oportunidad, y se le vende a esta pendejita 42 Millones
+obviamente la hija una venta destinada a la madre.
+**** soluciones
+Obviamente habria que ver si la venta es de la madre, volver y
+hacersela a ella. Y si es de la hija, yo la hubiera autorizado con la
+firma de la madre.
+
