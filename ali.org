@@ -4157,3 +4157,14 @@ Lo noto en el tiron fenomenal de un dia como el de ayer de 20 horas
 corridas sin problemas. 
 Quizas se vaya notando progresivamente si agrego luego otro ejercicio
 durante el dia a ver como me va.
+*** Ultimo momento: anda mal gitlab
+pruebo bitbucket, tengo alli una cuenta gratuita para repositorios
+privados ilimitados con mi mail y ataraxia76.
+solo hice:git remote set-url origin
+https://pyrx@bitbucket.org/pyrx/orgblok.git
+para revertirlo tendria que hacer
+git remote set-url origin  git@gitlab.com:heroasam/orgblok.git
+luego hice para subir el repositorio desde el directorio orgblok, un
+push
+con git push -u origin master
+
