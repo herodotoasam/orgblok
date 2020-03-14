@@ -45,6 +45,56 @@ mantenga en este caso el pan esponjoso tantos dias. O sea que estas
 consumiento vaya a saber que cocktail de quimicos. Pero en realidad
 somos nosotros lo que descuidadamente consumimos un producto que no es
 para durar como durable.
+* recetas
+** mijo con calabazas
+** yamani con amaranto y queso
+** verduras al vapor todo tipo 
+** yamani cocinado con calabazas sin queso
+** quinoa con papas y sesamo y chauchas al vapor
+receta quinoa coccion perfecta: lavar, poner 1.5 taza por taza de
+quina EXACTO cocinar 14 minutos, echar solo hirviendo y bajar el
+fuego, poner sal en el agua. no se pega en la olla.
+** lentejas semanales
+las lentejas remojadas a las 7hs (dejadas la noche anterior en seco
+para no olvidarse), y puestas a hervir apenas regrese a casa, en tres
+ciclos de 20 min con reloj, en olla horno fuego corona, con laurel y
+ajo, quedaron tan exquisitas que me comi un plataso ahi mismo calentitas.
+** quinoa coccion perfecta 14 min
+1 parte quinoa - 1 1/2 parte agua - 14 min coccion fuego suave
+lavar la quinoa!!! y colarla bien pq resume casi media taza de
+agua!!!!
+media taza sirve para dos porciones 
+** fideos italianos con salsa tomate
+fideos italianos cocinados segun instrucciones del paquete, lata de
+tomates perita, picados en tabla, una cebolla picada dorada en aceite
+de oliva abundante, le tiro el tomate, oregano y listo.
+muy bueno y sano.
+* comprar
+ir agregando uno o dos ingredientes de cada tipo ya incorpodado,
+p.e. arroz negro, quinoa, girasol, y mas verduras por ahora, y otro
+aceite de oliva mas fino. 
+* idea estudiar a fondo TCL para acumular capital laboral
+la idea nacio primero como reveer a fondo el tolkit y hacerlo con la
+compu de "sentado" para hacer los ejercicios, hacer fichas, hacer
+resumen en org, y que sirva, pensando que hay bastante para ver:
+listas, dict, file i/o, namespaces, etc. Luego se agrega tk, con
+canvas, text, grid, pack, etc, y luego puede seguir tablelist, y por
+supuesto itcl a fondo. Y todo sin comenzar a desarrollar nada o bien
+hacerlo pero sin dejar de estudiar pq la bocha esta en hacer algo
+realmente nuevo, algo que cambie lo que venimos haciendo hasta ahora.
+** cuanto puedo estudiar por dia
+pense que sacandole horas muertas o al vicio del trabajo siendo que
+esto tendra implicaciones positivas para el negocio, pero sera a largo
+plazo, creo que tres horas por dia.
+** no distraerse en los resultados o las practicas
+si bien es cierto que hacer cosas son incentivos para aprender, sino
+hacemos el esfuerzo por aprender la teoria cruda cruda no vamos a
+ningun lado.
+** quizas tengamos que imprimir tambien
+p.e. el manual lo cual seria muy util para horas de reposo que pueden
+sumar y el manual es un buen complemento a todo tipo de aprendizaje.
+luego los encarpetamos a todos.
+
 * transicion
 [2019-02-12 mar] anoche me quede con bastante buen resultado pq
 significo muchas horas de tranquilidad. A pesar de la mala experiencia
@@ -428,56 +478,6 @@ Yo hice auto-autorizacion pero sin seven, o sea una sola, no se pueden
 las dos autorizaciones juntas. para eso hay que estar con maquina.
 Y surge la idea de ih pq ella necesita trabajar y es la unica
 disponible para hacerlo en forma de teletrabajo.
-* recetas
-** mijo con calabazas
-** yamani con amaranto y queso
-** verduras al vapor todo tipo 
-** yamani cocinado con calabazas sin queso
-** quinoa con papas y sesamo y chauchas al vapor
-receta quinoa coccion perfecta: lavar, poner 1.5 taza por taza de
-quina EXACTO cocinar 14 minutos, echar solo hirviendo y bajar el
-fuego, poner sal en el agua. no se pega en la olla.
-** lentejas semanales
-las lentejas remojadas a las 7hs (dejadas la noche anterior en seco
-para no olvidarse), y puestas a hervir apenas regrese a casa, en tres
-ciclos de 20 min con reloj, en olla horno fuego corona, con laurel y
-ajo, quedaron tan exquisitas que me comi un plataso ahi mismo calentitas.
-** quinoa coccion perfecta 14 min
-1 parte quinoa - 1 1/2 parte agua - 14 min coccion fuego suave
-lavar la quinoa!!! y colarla bien pq resume casi media taza de
-agua!!!!
-media taza sirve para dos porciones 
-** fideos italianos con salsa tomate
-fideos italianos cocinados segun instrucciones del paquete, lata de
-tomates perita, picados en tabla, una cebolla picada dorada en aceite
-de oliva abundante, le tiro el tomate, oregano y listo.
-muy bueno y sano.
-* comprar
-ir agregando uno o dos ingredientes de cada tipo ya incorpodado,
-p.e. arroz negro, quinoa, girasol, y mas verduras por ahora, y otro
-aceite de oliva mas fino. 
-* idea estudiar a fondo TCL para acumular capital laboral
-la idea nacio primero como reveer a fondo el tolkit y hacerlo con la
-compu de "sentado" para hacer los ejercicios, hacer fichas, hacer
-resumen en org, y que sirva, pensando que hay bastante para ver:
-listas, dict, file i/o, namespaces, etc. Luego se agrega tk, con
-canvas, text, grid, pack, etc, y luego puede seguir tablelist, y por
-supuesto itcl a fondo. Y todo sin comenzar a desarrollar nada o bien
-hacerlo pero sin dejar de estudiar pq la bocha esta en hacer algo
-realmente nuevo, algo que cambie lo que venimos haciendo hasta ahora.
-** cuanto puedo estudiar por dia
-pense que sacandole horas muertas o al vicio del trabajo siendo que
-esto tendra implicaciones positivas para el negocio, pero sera a largo
-plazo, creo que tres horas por dia.
-** no distraerse en los resultados o las practicas
-si bien es cierto que hacer cosas son incentivos para aprender, sino
-hacemos el esfuerzo por aprender la teoria cruda cruda no vamos a
-ningun lado.
-** quizas tengamos que imprimir tambien
-p.e. el manual lo cual seria muy util para horas de reposo que pueden
-sumar y el manual es un buen complemento a todo tipo de aprendizaje.
-luego los encarpetamos a todos.
-
 * nueva etapa
 ** [2019-02-24 dom]
 hoy comienza una nueva etapa aca en el dpto y lo
@@ -4139,4 +4139,21 @@ la diferencia.
 Yo temo que ya haya empezado la debacle.
 Los noticieros estan todo el dia con ese tema y creo que la gente teme
 perder sus trabajos. Veremos que pasa mañana en otra zona.
-
+** [2020-03-14 sáb]
+*** comidas que me duran un par de dias que me puede hacer ih
+**** guiso de lentejas-papas al natural
+**** ensaladaa 6 colores
+*** nivel energetico en ascenso
+siento un nivel de energia un poquito mas alta que la que tenia meses
+antes a pesar de que la toma de corticoides afecta negativamente. Lo
+noto p.e. en el mayor tiempo que me quedo levantado, en la
+predisposicion de sentarme al escritorio a la compu, en la tendencia a
+ponerme a lavar los platos dos por tres, y encararia cualquier otra
+tareita domestica posiblemente acorde, tampoco es un quantum poderoso
+de energia el que se va notando.
+Lo noto en los ejercicios de la mañana que tengo mas fuerza para
+hacerlos.
+Lo noto en el tiron fenomenal de un dia como el de ayer de 20 horas
+corridas sin problemas. 
+Quizas se vaya notando progresivamente si agrego luego otro ejercicio
+durante el dia a ver como me va.

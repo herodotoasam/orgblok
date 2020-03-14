@@ -1,6 +1,26 @@
-* analisis venta fabian
-** Casos de error que pueden llevar a mora
-*** reemplazo de cliente por el hijo/a por NEP
+* Romitex
+** Ventas
+*** deblacle de ventas
+**** semana 9 al 13 marzo dos dias negros
+Martes negro 10 de marzo
+Jueves negro 12 de marzo
+No se como habra estado "La Tele" el martes, pero el jueves yo la vivi
+y se que fue generadora de panico, fue un dia negro a nivel mundial, y
+coincidio en forma directa en la venta en la calle.
+Pero el viernes se recupero, o sea no se noto que se agregue nada
+nuevo, el runrun empieza a hartar y a parecer menos grave, y se vendio
+algo.
+Lastima que no estuvo la venta de Fabian para trazar paralelos.
+**** las proyecciones de caida del PBI hablan del -2%
+eso significa que la economia sigue funcionando, que las instituciones
+siguen funcionando. No es -20%. 
+Con -2% hasta podemos llegar a ganar plata.
+**** este 2020 nos tendriamos que conformar con preservar el negocio
+o sea sobrevivir para que llegado el momento podamos volver a empezar.
+
+*** analisis venta fabian
+**** Casos de error que pueden llevar a mora
+***** reemplazo de cliente por el hijo/a por NEP
 o sea visita no encuentra al cliente pero encuentra a la hija 42mill
 con un seven en blanco y sin historial crediticio en el mejor de los
 casos y le clava una venta que estaba destinada a la clienta original.
@@ -11,7 +31,7 @@ Caso 77228 Montalvo 3726 - cliente original Gonzalez Gabriela 20
 mill. con 10 ventas y un buen historial, esa era la visitada. No
 compra en la oportunidad, y se le vende a esta pendejita 42 Millones
 obviamente la hija una venta destinada a la madre.
-**** soluciones
+***** soluciones
 Obviamente habria que ver si la venta es de la madre, volver y
 hacersela a ella. Y si es de la hija, yo la hubiera autorizado con la
 firma de la madre.
