@@ -4167,4 +4167,36 @@ git remote set-url origin  git@gitlab.com:heroasam/orgblok.git
 luego hice para subir el repositorio desde el directorio orgblok, un
 push
 con git push -u origin master
+** [2020-03-16 lun]
+*** angustia por las consecuencias economicas del coronavirus
+paso a relatar la angustia que se vivio ayer durante el dia por la
+bocaza de nuestro querido presidente, que en declaraciones a RAdio10
+en horas de la mañana antes de reunirse con el gabinete dice que esta
+evaluando poner en cuarentena por 10 dias al pais!!, y esa noticia
+reboto todo el dia. 
+Siempre supe que nuestro negocio es fragil en ese sentido y nos agarro
+mal parados pq no teniamos suficiente efectivo. Habia que esperar las
+noticias a la tarde/noche recien.
+Felizmente no sucedio nada de eso, como era previsible, solo cerraron
+las clases, y por lo visto la mayoria de la gente no le hace caso en
+lo mas minimo al asunto, no se hasta cuando. 
+El tema va a ser si la gente va a seguir pagando sus cuotas
+normalmente y hasta cuando. 
+*** vuelta al trabajo
+hoy es el primer dia de vuelta al trabajo con Fede. Y con
+coronavirus. Y con el Fede con su sintoma que no quiere ir al
+medico. Pero se puso y se cambio la disposicion del escritorio para
+estar mas comodo y esta tomando medidas precautorias de contagio mas
+que efectivas.  
+*** consolidacion del habito de las series con señal al levantarse
+tomo con señal!! el levantarse y esa es una señal muy potente que no
+deja lugar a pensar. Justamente el habito significa eso no-pensar. y
+voy haciendolo mientras me preparo. La recompensa es la anotacion y el
+ver que se va haciendo mas grande la serie de casos positivos
+hechos. En especial cuando voy tras el ultimo record de 59 casos.
+*** la crema de mijo en dias laborales es mejor hacerla a la noche
+se puede hacer a la mañana, el tiempo da, pero produce un poco de
+estres, y hace que comamos mas rapido cuando podemos usar ese tiempo
+para desayunar mas relajadamente si ya la tenemos hecha la noche
+anterior.
 
