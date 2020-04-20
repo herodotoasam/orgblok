@@ -349,12 +349,24 @@ cartas me puse a ver una peli con ih, y luego me fue a acostar y ya
 estaba en N0. sin haber tomado un segundo.
 ** [2020-04-16 jue]
 N0
-** [2020-04-17 vie] MIG
+** [2020-04-17 vie] MIG MIG
 como el dia anterior no tome me levante con un poco de resaca incluso
 no me permitio dormir bien la segunda parte de la noche. y a las 10.30
-tome un migral que me fue barbaro.
+tome un migral que me fue barbaro. Sin embargo tengo un registro de
+otro migral a las 20hs que no recuerdo pero esta anotado
+** [2020-04-18 sáb] MIG
+migral unico a las 15.30hs
+** [2020-04-19 dom] 
+N0 todo el dia
+** [2020-04-20 lun] MIG MIG
+mal mal el dia, me levanto con resaca de la noche, tipico de una noche
+posterior a un dia N0 y desayuno practicamente con migral, y a las
+6hs, ya estoy con un N5 casi N6 tomando un segundo, esta bien que la
+actividad ha sido ininterrumpida y poco proclive a que no me otro
+cuetazo.
 
 
+** [2020-04-18 sáb]
 * conclusiones WD 2020
 ** Ni el Naprux ni "reforzar" la dosis sirviron para aplacar los rebotes
 de los tres naprux tomados uno solo parecio ser efectivo, y las dos
@@ -456,3 +468,9 @@ una dinamica circular viciosa como fue en años anteriores cuando
 tomaba migral para seguir programando y esa misma programacion me daba
 migraña.
 En ese sentido aprovechar la cuarentena.
+* consultas Dr Romero
+** [2020-04-20 lun] telefonica por covid
+me dio que tome 8mg de cortypiren dia por medio por un periodo largo,
+pero quedo pendiente a la proxima consulta cuando yo le dije si era
+conveniente inmunosuprimirse frente al Covid-19. 
+alternativamente probaremos nuevamente con Silbelium 10mg.
