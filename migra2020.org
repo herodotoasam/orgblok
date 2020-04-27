@@ -44,10 +44,12 @@ UM-28/02/20 23:30hs
 comienzo bien a horario 8hs y 20hs 20mg cada dosis.
 18.30hs tomo Naprux con mucha dificultad gastrica y no fue efectivo
 tipo 20hs incipiente N5 y molesto un N3/N5 toda la noche
-** [2020-03-01 dom]
+** Marzo 7
+
+*** [2020-03-01 dom]
 dosis idem 
 18.30hs tomo Naprux por un incipiente N4 y fue efectivo
-** [2020-03-02 lun]
+*** [2020-03-02 lun]
 dosis idem
 se "agrego una sobredosis" de 10mg de refuerzo a media tarde para
 intentar conjurar un N6 al vicio pq no funciono.
@@ -58,36 +60,36 @@ la casa. pero estuve dolorido, fue el tercer y ultimo naprux de la
 serie llegando a la conclusion que no me hace nada y que es
 gastricamente muy malo. y a la tarde "probe" con agrandar al dosis de
 cortipiren pero no altero en nada el curso del dolor.
-** [2020-03-03 mar]
+*** [2020-03-03 mar]
 dosis idem
 dia esplendido sin ningun sintoma
-** [2020-03-04 mié]
+*** [2020-03-04 mié]
 dosis idem
 nuevamente decido a las 15hs "reforzar" la dosis con 10mg pq arreciaba
 un N5/6 y luego de la siesta cedio
-** [2020-03-05 jue]
+*** [2020-03-05 jue]
 dosis idem
 dia esplendido
-** [2020-03-06 vie]
+*** [2020-03-06 vie]
 dosis idem
 N3/4 durante la jornada que se fue subiendo luego de las 17hs a un
 N8, no cediendo y descansando relajado por un clonazepan 0.5 luego
 casi digamos que llega a niveles de N9 pero me logro dormir y a las
 23hs mas o menos ya habia cedido.
-** [2020-03-07 sáb]
+*** [2020-03-07 sáb]
 dosis idem
 N3/4 a las 14hs - N5/6 a las 17hs
 me levanto de la siesta con clonazepan con N6 y baja a N0 "con
 episodio de pintura en el patio" (ver descripcion en conclusiones)
 vuelve N5 a la noche que durante la noche baja a N1
-** [2020-03-08 dom]
+*** [2020-03-08 dom]
 dosis idem
 dia normal
-** [2020-03-09 lun]
+*** [2020-03-09 lun]
 N2 12hs N4 12.45hs N5 15hs
 me levanto de la siesta con un N5 y se baja a N0 con tareas de cocina
 (similar al sabado ver descripcion en conclusiones)
-** [2020-03-10 mar]
+*** [2020-03-10 mar]
 20 mg C 8hs - hoy comienza la reduccion o sea a la tarde no se tomara
 la segunda dosis
 N0 durante el dia, a la noche se desarrollo un nivel de N3/N5/N2
@@ -95,7 +97,7 @@ fluctuante que duro toda la noche que aunque permitio dormir (es para
 anotar tambien que tuve que montar guardia pq habian quedado cosas en
 el jardin y dormi con la ventana levantada y mirando para afuera cada
 vez que me despertaba)
-** [2020-03-11 mié] MIG
+*** [2020-03-11 mié] MIG
 dosis idem
 el nivel N5/N3/N4 sigue fluctuando y permitiendome hacer las cosas sin
 problemas. Tipo 12 se incremento hasta N6/7 impidiendo la lectura y
@@ -109,7 +111,7 @@ nivel de N9.
 quise reposar con clonazepan y tranquilidad y no consegui ninguna
 mejoria, y decidi tomar MIG que fue efectivo en 30 minutos sin resaca.
 Luego pude retomar actividad normal por el resto de la tarde.
-** [2020-03-12 jue]
+*** [2020-03-12 jue]
 dosis idem (casi me demoro y la tome a las 8.24)
 mañana transcurrio bien, tipo 12 comenzo un N2 atipico como diferente,
 y luego del almuerzo que fue muy bueno se transformo en N4, como es un
@@ -122,7 +124,7 @@ cafe-recargado (100mm 4cc+2azucar) con la finalidad que no se escape y
 pueda terminar la jornada aciaga. Fue efectivo el Naprux y/o supercafe
 para bajar de N5-N0 y cumplir con la obligacion de esta tarde.
 Luego de lo cual quede relajado y levantado
-** [2020-03-13 vie]
+*** [2020-03-13 vie]
 dosis idem
 este fue el dia mas desafiante del tratamiento. Y transcurrio
 totalmente en estado N0 felizmente de punta a punta.
@@ -183,7 +185,7 @@ corticoide inyectable y le llevemos. Vamos y lo llevamos al HP. Y
 permanezco alla hasta las 2.30am y luego hasta que viene ih no se si
 me dormi a las 3.30am. Dormi lo que se dice muy poco.
 Todo cursado normal con energia y N0.
-** [2020-03-14 sáb]
+*** [2020-03-14 sáb]
 dosis idem
 Me desperto el despertador de las 8hs para el corticoide del sabado, y
 me senti en ese segundo destruido. Pero me levante e hice la rutina de
@@ -193,7 +195,7 @@ Almorce bien y al intentar dormir la siesta estalla un N4
 puntiagudo. Lo encaro con Naprux+cafe y una actividad absorvente y no
 obtengo resultado. Si puedo luego bajarlo luego a N0 con actividad
 normal. 
-** [2020-03-15 dom]
+*** [2020-03-15 dom]
 dosis idem (tomada por situacion especial a las 7am y por situacion
 especial no empece la segunda reduccion a 10mg)
 Hoy tenia que llevar a las chicas a la terminal bien temprano y me
@@ -202,7 +204,7 @@ tema de la pandemia y el riesgo economico sobre la empresa. Me costo
 volver a dormirme, pero luego de paciencia pude dormir una siesta y
 recuperarme.
 El dia transcurrio totalmente en N0.
-** [2020-03-16 lun]
+*** [2020-03-16 lun]
 dosis idem (sigo con la prolongacion de la dosis de 20mg por situacion
 especial)
 hoy era el primer dia de reintegro en oficina y no podia arriesgarme a
@@ -212,7 +214,7 @@ decidi tomar un Naprux+Cafe, que con absorsion en actividad parece
 estar haciendo efecto. Paliando el efecto corrosivo del naprux con
 leche de avena. Pude soportar bien el dia laboral y luego el resto del
 dia sin problemas en un estado de N0
-** [2020-03-17 mar]
+*** [2020-03-17 mar]
 10 mg C 8hs - hoy empiezo la reduccion a 10, demorada dos dias.
 me tomo licencia para ver que pasa.
 Hasta esta hora (12hs) todo normal.
@@ -231,81 +233,83 @@ Admito que el WD cayo en una crisis lamentablemente externa con esto
 del coronavirus y no se como se sigue de ahora en mas, salvo que cese
 la actividad y se pueda enfrentar uno con tranquilidad a luchar contra
 el dolor.
-** [2020-03-18 mié]
+*** [2020-03-18 mié]
 dosis idem
 dia normal con N0
-** [2020-03-19 jue]
+*** [2020-03-19 jue]
 dosis idem
 dia normal con N0
-** [2020-03-20 vie]
+*** [2020-03-20 vie]
 dosis idem
 dia muy complicado (dia para ir a buscar a las chicas a la terminal)
 tuve N0 hasta el mediodia durante la salida critica a la calle por
 suerte, habia llevado baggio y pastillas pero no las use. luego a la
 tarde N2/N4/N5 tomo cafe, galletas, dleche sube a N7 pienso en tomar
 mig y luego de media hora baja a N0 solo.
-** [2020-03-21 sáb] MIG
+*** [2020-03-21 sáb] MIG
 dosis idem - fin de cortyterapia - 
 dia similar, por la mañana bien y a la tarde N2/N4/N6/N7 siesta N9 MIG
 a las 18hs recupero en 1.30hs.
-** [2020-03-22 dom] MIG
+*** [2020-03-22 dom] MIG
 similar al dia anterior mañana bien y a la tarde N2/N4/N7/N8 MIG
 18.30hs 40m recupero
-** [2020-03-23 lun]
+*** [2020-03-23 lun]
 similar al dia anterior solo que cuando comienza un N2 a media tarde
 tomo un naprux con cafe y no duermo siesta sino que paso la siesta
 mirando series, y me mantengo estacionario sin migraña.
-** [2020-03-24 mar]
+*** [2020-03-24 mar]
 N0 todo el dia
-** [2020-03-25 mié]
+*** [2020-03-25 mié]
 N2/N4 napro mas cafe, luego baño prolongado y felizmente domo el dolor
-** [2020-03-26 jue] MIG
+*** [2020-03-26 jue] MIG
 cuando aumenta la molestia N2/N3/N4 tomo naprux con cafe, (me alegro
 que sea el ultimo de la caja, - no compro mas-) y no hace ningun
 efecto es mas aumenta a N6/N7 y tomo migral que si hace efecto.
-** [2020-03-27 vie]
+*** [2020-03-27 vie]
 cuando empieza como todos los dias el N4/N5 tomo cafe y eso lo alivio
-** [2020-03-28 sáb] MIG MIG
+*** [2020-03-28 sáb] MIG MIG
 como siempre comienza a molestar tipo N4/N5 y decido probar
 Paracetamol Raffo 1gr con cafe, pero una hora despues tengo que tomar
 migral y no fue util y una hora y media despues tome otro migral que
 si fue util.
-** [2020-03-29 dom]
+*** [2020-03-29 dom]
 N0 todo el dia
-** [2020-03-30 lun] MIG
+*** [2020-03-30 lun] MIG
 dia normal pero a la tarde se puso en nivel N4/N5 y decidi ir directo
 al migral y no limpio inmediatamente sino que demoro unas dos o tres
 horas en limpiar totalmente
-** [2020-03-31 mar]
+*** [2020-03-31 mar]
 todo bien con cafe desayuno y un cafe triple a la siesta, toda la
 siesta viendo netflix hasta las 19 con un N2/N3 continuo hasta ahi
 nomas por ahora
-** [2020-04-01 mié] MIG MIG
+** Abril
+
+*** [2020-04-01 mié] MIG MIG
 nefasto dia de migral a la 1.30hs tuve que levantarme a la madrugada,
 y luego en el dia a las 17.15hs otro con N5.
-** [2020-04-02 jue]
+*** [2020-04-02 jue]
 N0 todo el dia
-** [2020-04-03 vie] MIG MIG
+*** [2020-04-03 vie] MIG MIG
 nefasto dia pq me levanto luego de una noche con dolor leve pero que
 cada vez me molestaba mas y al levantarme a las 10hs decido tomarme un
 migral, luego de un dia largo de lecturas varias buscando una solucion
 de plataforma para la romi, me entra un destornillador en la mollera y
 tomo otro a las 19hs felizmente eficiente
-** [2020-04-04 sáb] MIG
+*** [2020-04-04 sáb] MIG
 solo un mig a las 16.30hs
-** [2020-04-05 dom] MIG
+*** [2020-04-05 dom] MIG
 solo un mig a las 15.30hs
-** [2020-04-06 lun] MIG MIG
+*** [2020-04-06 lun] MIG MIG
 a las 14.30hs pruebo por primera vez un Ibu400 luego de leer un
 articulo que decia que no hacia nada en caso del covid19 por eso no lo
 queria tomar yo, y no me hizo absolutamente nada, tal como habia sido
 el paracetamol los otros dias, y a la hora tomo un migral, a la hora
 siguiente ya tenia un N8, aguanto una hora y tomo otro,
 15.30/16.30/17.30
-** [2020-04-07 mar]
+*** [2020-04-07 mar]
 el dia transcurrio con N0 pero creo que tiro una inercia a que el dia
 siguiente empezara a las 7.30hs.
-** [2020-04-08 mié] MIG MIG
+*** [2020-04-08 mié] MIG MIG
 altamente nefasto dia pero que termino con una pequeña victoria,
 comenzo con un migral seminocturno en las circunstancias actuales de
 dormir hasta las 10hs, pq lo tome a las 7.30hs y segui durmiendo y fue
@@ -316,29 +320,29 @@ no tomarme el tercer migral, y me quede levantado hablando tomando un
 cafe, caminando no prestandole atencion, pq habia pensado acostarme
 hasta que pasara, y pude bajarlo a N0 como si me hubiera tomado el tercero.
 
-** [2020-04-09 jue] MIG MIG 
+*** [2020-04-09 jue] MIG MIG 
 dia nefasto me agarra un N5 como todos los dias luego de ver un par de
 horas series y tomo un migral que lejos de hacer efecto parece que
 agravara los sintomas produciendo un N8, entonces a la hora y media
 tomo otro que a duras penas me reduce el martirio y me saca el
 dolor. Esto se produjo a 17/18.30hs.
-** [2020-04-10 vie] MIG
+*** [2020-04-10 vie] MIG
 17hs migral N4, 18hs N6, 19hs N8 y decido no cenar y no tomarme un
 segundo migral sino irme a la cama y dormirme y conjurarlo con dormida
 y tuve exito.
-** [2020-04-11 sáb]
+*** [2020-04-11 sáb]
 N0
-** [2020-04-12 dom] MIG
+*** [2020-04-12 dom] MIG
 tome mig a 12hs y fue suficiente el resto del dia sin molestias
-** [2020-04-13 lun] MIG
+*** [2020-04-13 lun] MIG
 tome un mig a las 13.30hs con un incipiente N3 y luego de comer me
 aumento a N5 y decidi irme a dormir la siesta o a soportar el dolor en
 vez de tomar un segundo migral, y dormi una siesta hermosa. Debo decir
 que cuando me fui a acostar tenia un N8, y cuando me levante un N1. No
 todas las dormidas produciran ese efecto pero esta fue asi.
-** [2020-04-14 mar]
+*** [2020-04-14 mar]
 N0
-** [2020-04-15 mié] MIG
+*** [2020-04-15 mié] MIG
 16hs tomo migral y no resuelve totalmente esta bien que fue una tarde
 muy full con series, sentado sin pausa, con cafe, merienda con cafe, y
 me decido a no tomar otro, luego viene Fede, luego viene la cena, y
@@ -347,36 +351,45 @@ un N4 en promedio digamos con un pico de N5 a veces. Luego permitio
 ponerse a jugar a las cartas bastante confortablemente, y luego de las
 cartas me puse a ver una peli con ih, y luego me fue a acostar y ya
 estaba en N0. sin haber tomado un segundo.
-** [2020-04-16 jue]
+*** [2020-04-16 jue]
 N0
-** [2020-04-17 vie] MIG MIG
+*** [2020-04-17 vie] MIG MIG
 como el dia anterior no tome me levante con un poco de resaca incluso
 no me permitio dormir bien la segunda parte de la noche. y a las 10.30
 tome un migral que me fue barbaro. Sin embargo tengo un registro de
 otro migral a las 20hs que no recuerdo pero esta anotado
-** [2020-04-18 sáb] MIG
+*** [2020-04-18 sáb] MIG
 migral unico a las 15.30hs
-** [2020-04-19 dom] 
+*** [2020-04-19 dom] 
 N0 todo el dia
-** [2020-04-20 lun] MIG MIG
+*** [2020-04-20 lun] MIG MIG
 mal mal el dia, me levanto con resaca de la noche, tipico de una noche
 posterior a un dia N0 y desayuno practicamente con migral, y a las
 6hs, ya estoy con un N5 casi N6 tomando un segundo, esta bien que la
 actividad ha sido ininterrumpida y poco proclive a que no me otro
 cuetazo.
-** [2020-04-21 mar] MIG  Sibelium
+*** [2020-04-21 mar] MIG  Sibelium
 tomo 15.30hs
-** [2020-04-22 mié] MIG
+*** [2020-04-22 mié] MIG
 tomo 15.30hs y resulta efectivo en la hora siguiente
-** [2020-04-23 jue] MIG
+*** [2020-04-23 jue] MIG
 tomo 15.30hs y resulta efectivo
-** [2020-04-24 vie] MIG MIG
+*** [2020-04-24 vie] MIG MIG
 tomo 13hs casi de urgencia dia de mucho y excesivo calor fuera de
 tiempo ya, mientras estaba en el patio con el fede, y no fue efectivo,
 tomo otro a las 16.30hs que tampoco es efectivo luego tipo 17.30 me
 tomo una siesta que es efectiva a medias y luego una minimerienda que
 termina corrigiendo el problema y se me pasa.
-
+*** [2020-04-25 sáb]
+nada
+*** [2020-04-26 dom] MIG MIG
+dia malisimo pq me levanto con resaca del dia anterior que no habia
+tenido nada pero lo mismo no tomo nada y recien lo tomo en el almuerzo
+en un momento de nerviosismo y me pongo a ver tele, luego de un par de
+horas que no fue efectivo me tomo otro y no es efectivo y decido
+acostarme para ver si mejoraba y la "acostada" no fue efectiva para
+nada y termine sin cenar y varias horas dolorido hasta que pude
+dormirme y tranquilisarme.
 * conclusiones WD 2020
 ** Ni el Naprux ni "reforzar" la dosis sirviron para aplacar los rebotes
 de los tres naprux tomados uno solo parecio ser efectivo, y las dos
