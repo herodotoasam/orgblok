@@ -261,20 +261,28 @@ exit='q'
 es exitoso.
 ** contactos telefonicos vcf
 1. emitir csv
+abrir en terminal sqlite
+cd rx
+sqlite3 romitex.db
+.mode csv
+.output contactos.csv
 select nombre,calle||' '||num,wapp,dni from clientes where wapp is not null and deuda>0 and pmovto>date('now','-4 years');
 
 2. tranformar en vcf con pagina
 [[http://phrogz.net/js/csv2vcard_2.html][pagina]]
-los campos tipo de de campo los setie asi
-encabezado en la entrada primera linea 
+cortar y pegar el contenido de contactos.csv (p.e en kate) y ponerlos
+en en recuadro de Steep 1
+agregar como primer fila la siguiente fila:
 Nombre,Domicilio,WApp,DNI
+
+En el Step 2 especificar el tipo segun lo indicado abajo
 Specify Types
 Nombre- First Name
 Domicilio- StreetAdress1 (Home)
 WApp Phone (Cell)
 DNI Company
 
-1. copiar y pegar en editor y ponerle un nombre.vcf
+1. copiar el contenido de Step3 y pegar en editor y ponerle un nombre.vcf
 previamente sacarle las comillas dobles con C-r " 
 2. importarlo con el telefono
 * ATAJOS A APRENDER
