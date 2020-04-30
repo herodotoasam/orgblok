@@ -299,3 +299,29 @@ alt-boton izq mueve la ventana
 alt-boton der resize 
 boton izq solo en titulo o areas no inner mueve cambiandose el cursor
 a la cruz de movimiento
+* ruby
+** rails
+*** instalacion
+**** sudo apt install libsqlite3-dev
+**** sudo gem install sqlite3
+**** sudo gem install therubyracer
+**** sudo gem install rails
+*** rails server (problemas para inicio de webpacker)
+**** install yarn
+***** instalar la version 1.21.1
+$ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+$ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+$ sudo apt update
+$ sudo apt -y install yarn
+$ sudo apt -y install --no-install-recommends yarn
+$ yarn --version
+1.21.1
+[[https://yoshikimi.com/programming/rails/6][Pagina con explicacion anterior]]
+**** rails webpacker:install
+***** puede que pida la version actualizada de node.js
+[[https://nodejs.org/en/download/][Link para bajar el binario de node.js]]
+y en la misma pagina toda la explicacion de la instalacion.
+No se instala propiamente dicho, sino que se ubica en un directorio y
+se hace un path.
+**** yarn install --check-files
+**** rails s
