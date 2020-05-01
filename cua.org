@@ -228,3 +228,10 @@ pausas.
 viendo esa pantalla 4k y con un material que tiene impacto emocional.
 Pero de ahi a hacer posible lo que flashie ayer, o sea hacer eje en
 orgblock para pasar toda la tarde??.
+* [2020-04-30 jue]
+** ruby 
+hace dos dias que estoy estudiando furiosamente ruby y eso a opacado
+toda otra cosa, no leo diarios ni tw, no veo series, y paso viendo
+videos leyendo, instalando y programando. 
+lo bueno que de a poco voy aprendiendo y creo que podria entusiasmarme
+de nuevo con un lenguaje de programacion otra vez.

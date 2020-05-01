@@ -1,0 +1,13 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with C-x C-f and enter text in its buffer.
+
+* tkvariable - textvariable
+$resultsVar = TkVariable.new
+label['textvariable'] = $resultsVar
+$resultsVar.value = 'New value to display'
+
+Ruby's Tk binding only allows you to attach to an instance of the
+"TkVariable" class, which contains all the logic to watch for changes,
+communicate them back and forth between the variable and Tk, and so
+on. You need to read or write the current value using the "value"
+accessor, as shown.
