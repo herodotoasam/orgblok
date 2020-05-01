@@ -282,7 +282,7 @@ horas en limpiar totalmente
 todo bien con cafe desayuno y un cafe triple a la siesta, toda la
 siesta viendo netflix hasta las 19 con un N2/N3 continuo hasta ahi
 nomas por ahora
-** Abril
+** Abril 29 - 8 dias dobles - 9 dias NO
 
 *** [2020-04-01 mié] MIG MIG
 nefasto dia de migral a la 1.30hs tuve que levantarme a la madrugada,
@@ -396,6 +396,13 @@ No
 migral a las 14.30 dia que colocaron la cocina, felizmente dio
 resultado
 *** [2020-04-29 mié]
+no
+*** [2020-04-30 jue] MIG
+6am nocturno funciono bien y el resto del dia normal
+** Mayo
+*** [2020-05-01 vie] MIG
+migral a las 11hs funciono aparentemente.
+
 
 
 * conclusiones WD 2020
