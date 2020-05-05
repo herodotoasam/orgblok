@@ -273,7 +273,17 @@ cd rx
 sqlite3 romitex.db
 .mode csv
 .output contactos.csv
-select nombre,calle||' '||num,wapp,dni from clientes where wapp is not null and deuda>0 and pmovto>date('now','-4 years');
+Opcion emitir contactos unicamente de clientes pagando: (opcion vieja
+para cobrar)
+select nombre,calle||' '||num,wapp,dni from clientes where wapp is not
+null and deuda>0 and pmovto>date('now','-4 years');
+
+Opcion emitir contactos de clientes pagando y clientes cancelados cuya
+ultima compra fue dentro del ultimo año para que podamos vender tambien:
+
+select nombre,calle||' '||num,wapp,dni from clientes where (wapp is
+not null or wapp<>"") and ((deuda>0 and pmovto>date('now','-4 years'))
+or (deuda=0 and ultcompra>date('now','-1 years')));
 
 2. tranformar en vcf con pagina
 [[http://phrogz.net/js/csv2vcard_2.html][pagina]]
@@ -291,7 +301,12 @@ DNI Company
 
 1. copiar el contenido de Step3 y pegar en editor y ponerle un nombre.vcf
 previamente sacarle las comillas dobles con C-r " 
-2. importarlo con el telefono
+1. importarlo con el telefono
+** solaar para mejor uso de logitech teclado y raton 
+sudo apt install solaar 
+desenchufar y volver a enchufar el usb
+abrir solaar
+
 * ATAJOS A APRENDER
 ** control-esc show system activity
 mas rapido y al acceso que ksysguard
