@@ -127,10 +127,8 @@ cambiarle el nombre a pgmodeler.sh y mv a /etc/profile.d
 ya con apache y pgadmin4 funcionando...
 sudo mkdir /usr/share/adminer
 sudo wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
-sudo ln -s /usr/share/adminer/latest.php
-/usr/share/adminer/adminer.php
-echo "Alias /adminer.php /usr/share/adminer/adminer.php" | sudo tee
-/etc/apache2/conf-available/adminer.conf
+sudo ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
+echo "Alias /adminer.php /usr/share/adminer/adminer.php" | sudo tee /etc/apache2/conf-available/adminer.conf
 sudo a2enconf adminer.conf
 sudo systemctl reload apache2
 [[http://www.ubuntuboss.com/how-to-install-adminer-on-ubuntu-18-04/][Pagina que explica claramente el proceso]]
