@@ -589,7 +589,23 @@ desarrollar en paginas individuales que luego se pondrian u
 organizarian en una plantilla adecuada y se regularia por permisos. 
 Tambien falta aprender mucho mas de DB y descubri el tinker que es
 como una consola que permite probar el eloquent.
-
+** [2020-05-20 mié]
+:LOGBOOK:
+CLOCK: [2020-05-20 mié 18:33]--[2020-05-20 mié 21:31] =>  2:58
+CLOCK: [2020-05-20 mié 16:53]--[2020-05-20 mié 18:19] =>  1:26
+CLOCK: [2020-05-20 mié 14:06]--[2020-05-20 mié 14:30] =>  0:24
+CLOCK: [2020-05-20 mié 13:35]--[2020-05-20 mié 13:40] =>  0:05
+CLOCK: [2020-05-20 mié 12:36]--[2020-05-20 mié 13:17] =>  0:41
+CLOCK: [2020-05-20 mié 12:17]--[2020-05-20 mié 12:36] =>  0:19
+CLOCK: [2020-05-20 mié 10:30]--[2020-05-20 mié 11:29] =>  0:59
+:END:
+la idea es comenzar con la pagina de carga de ventas, la cual sera
+lenta pq necesito aprender mucho, es mas anoche lei tres horas, esta
+mañana dos.
+Lei mucho bootstrap, descarte un formbuilder pq era muy complejo, deje
+para mas adelante el midleware para cuando tenga mas paginas y ahora
+estoy a pleno con datetables que creo que sera una parte esencial de
+mis forms.
 
 * doc
 ** dump/ restore schema
