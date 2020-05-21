@@ -614,6 +614,8 @@ luego de haber reestudiado la posibilidad de volver a semantic-ui me
 decante definitivamente por boostrap pq semantic es un proyecto
 muerto.
 a bs hay que aprenderlo.
+Arreglado tema del repositorio bitbucket que no funcionaba cambiado a
+github.
 
 
 * doc
