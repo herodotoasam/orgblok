@@ -606,6 +606,15 @@ Lei mucho bootstrap, descarte un formbuilder pq era muy complejo, deje
 para mas adelante el midleware para cuando tenga mas paginas y ahora
 estoy a pleno con datetables que creo que sera una parte esencial de
 mis forms.
+** [2020-05-21 jue]
+:LOGBOOK:
+CLOCK: [2020-05-21 jue 10:00]
+:END:
+luego de haber reestudiado la posibilidad de volver a semantic-ui me
+decante definitivamente por boostrap pq semantic es un proyecto
+muerto.
+a bs hay que aprenderlo.
+
 
 * doc
 ** dump/ restore schema
