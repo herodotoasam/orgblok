@@ -648,6 +648,46 @@ con semantic, y creo que queda bien.
 Bueno creo que todo es un gran aprendizaje, que quedara plasmado en
 las lineas de codigo que se hagan y lo que se aprenda, es imposible
 con el cansancio del dia exponerlas aca.
+** [2020-05-23 sáb]
+:LOGBOOK:
+CLOCK: [2020-05-23 sáb 18:59]--[2020-05-23 sáb 19:25] =>  0:26
+CLOCK: [2020-05-23 sáb 17:59]--[2020-05-23 sáb 18:48] =>  0:49
+CLOCK: [2020-05-23 sáb 13:07]--[2020-05-23 sáb 17:24] =>  4:17
+CLOCK: [2020-05-23 sáb 10:40]--[2020-05-23 sáb 12:44] =>  2:04
+:END:
+acomododar vim a basico
+instalar mozilla firefox for developer
+hacer cliente create y cliente delete
+estan los dos hechos y funcionan.
+cualquier cosita que cambies te puede romper lo que estaba funcionando
+bien, por eso es bueno guardar hasta el minimo cambio hecho e ir
+probando de a poco cosa por cosa e ir viendo lo que vamos haciendo.
+p.e. cosas que me hicieron dejar de funcionar las cosas:
+1. las validaciones: hacian que apretar un enter dentro del modal
+   crear se saliera y no solo eso sino que recargara la pagina,
+   incluso llegue a buscar el error y existia uno igual, y llegue a
+   pensar en desechar semantic y volver a bootstrap pensando que era
+   una falla de los modales semantic, y es quizas un comportamiento de
+   ajax que no admite las validaciones sin recargar la
+   pagina.. Solucion me las arreglo con las validaciones de html que
+   algo es algo.
+2. me olvide de tipear una / en la ruta /cliente/ y figuraba como
+   /cliente entonces con un id quedaba /cliente281 y decia que era
+   desconocida la ruta.
+3. acceso unautorizado. y era pq no estaba logueado, pq yo puse un
+   midleware a todo el controller clientes entonces no podia ir alli.
+y quizas otros que no me acuerdo. Pero lo que pasa es que como uno no
+sabe lo que hace y lo que no hace el sistema enseguida pasas a buscar
+la solucion como si algo anduviera mal.
+Estos errores y la lentitud del proceso te hacen dudar un poco pero
+creo que es un proceso irreversible pq no puedo volver atras, ya estoy
+en el medio de algo que tengo que dominarlo si o si.
+
+Semantic Calendar vs Firefox Calendar pienso que gana firefox por el
+momento pq es lindo y es out the box.
+
+esta la mitad del pasar ventas, faltan los articulos que es lo mas
+dificil, veremos como lo solucionamos.
 
 * doc
 ** dump/ restore schema
