@@ -608,7 +608,11 @@ estoy a pleno con datetables que creo que sera una parte esencial de
 mis forms.
 ** [2020-05-21 jue]
 :LOGBOOK:
-CLOCK: [2020-05-21 jue 10:00]
+CLOCK: [2020-05-21 jue 18:20]--[2020-05-21 jue 21:00] =>  2:40
+CLOCK: [2020-05-21 jue 16:29]--[2020-05-21 jue 18:00] =>  1:31
+CLOCK: [2020-05-21 jue 13:57]--[2020-05-21 jue 14:50] =>  0:53
+CLOCK: [2020-05-21 jue 12:40]--[2020-05-21 jue 13:27] =>  0:47
+CLOCK: [2020-05-21 jue 10:00]--[2020-05-21 jue 12:10] =>  2:10
 :END:
 luego de haber reestudiado la posibilidad de volver a semantic-ui me
 decante definitivamente por boostrap pq semantic es un proyecto
@@ -616,7 +620,34 @@ muerto.
 a bs hay que aprenderlo.
 Arreglado tema del repositorio bitbucket que no funcionaba cambiado a
 github.
+Arreglo la instalacion de awesomplete que la hice mal.
+Parece que he dado con un form decente. Ahora quiero tener un js que
+me coloree los campos cuando se llenen de datos y que queden en bco
+los que no tengan datos.
+Me fue mal con los modales de bootstrap irremediablemente hoy un dia
+aciago. pero algunas cosas se hicieron, y como siempre algo se
+aprendio.
+** [2020-05-22 vie]
+:LOGBOOK:
+CLOCK: [2020-05-22 vie 18:54]--[2020-05-22 vie 21:00] =>  2:06
+CLOCK: [2020-05-22 vie 14:52]--[2020-05-22 vie 18:35] =>  3:43
+CLOCK: [2020-05-22 vie 09:58]--[2020-05-22 vie 13:25] =>  3:27
+:END:
+Conclusiones de este dia largo y aciago:
+1 la mas importante de todas, para trabajar en serio firefox para
+encontrar los errores, esa consola de debug es impresionante, nada que
+ver las otras. Me permitio ver donde estaban los errores y ver que
+estaba todo bien y que estaba cometiendo errores de tipeo.
 
+Basicamente el sufrimiento del dia fue al final con ajax, pq no me
+funcionaba cuando todo parecia pefecto y era un par de errores que
+corregi con firefox que no tenian nada que ver.
+esta mañana me hizo renegar un poco el select de semantic asi que tuve
+que poner el datatable con bootstrap y no queda mal, y todo lo otro
+con semantic, y creo que queda bien. 
+Bueno creo que todo es un gran aprendizaje, que quedara plasmado en
+las lineas de codigo que se hagan y lo que se aprenda, es imposible
+con el cansancio del dia exponerlas aca.
 
 * doc
 ** dump/ restore schema
