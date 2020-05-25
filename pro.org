@@ -699,13 +699,44 @@ el horario pero es un monton de horas desde las siete de la mañana que
 vengo con esto.
 ** [2020-05-25 lun]
 :LOGBOOK:
-CLOCK: [2020-05-25 lun 16:17]
+CLOCK: [2020-05-25 lun 19:03]--[2020-05-25 lun 20:12] =>  1:09
+CLOCK: [2020-05-25 lun 16:17]--[2020-05-25 lun 18:30] =>  2:13
 :END:
 instalando gitkraken para ver si tengo el manejo de git fuera del
 editor y puedo volver a sublime text. Gitkraken bosta fallo pq no
 admite repositorios privados.
+termine instalando git-cola que es bastante completo y visual y
+opensource.
+El problema que tengo con sublime que cuando lo abro la maquina
+empieza a chillar.
 
 Hoy a sido el segundo dia del curso intensivo de java.
+Poco y nada pude hacer de avances en la pagina. Es exasperante que de
+todo lo supuestamente aprendido nada haya podido sacarse de
+practica. Bueno algo si, p.e. pude hacer el addEventListener para el
+campo sex y que ante el evento change pusiera el value a mayusculas, y
+eso habilita a cualquier otra correccion de validacion por eventos o
+de manejo por eventos. Y aunque pude hacer que se notara el evento a
+traves de los elementos hijos del formulario no pude hacer que
+cambiaran de clase como para irse coloreando a medida que vayan
+avanzando, se podria probar de nuevo.
+Tuve buen exito con el datalist que me parece una buena solucion para
+los combos aunque agrega un teclaso mas que awesomplete pq el otro
+funciona con el enter, es codigo html puro y no depende de terceros
+sino de mi mismo, y creo que no me colisionaria con el dibujo del
+formulario lo que me permitiria tener labels. lo cual no es poca
+cosa. o sea datalist con un teclazo mas pero con labels y anchos
+correctos vs awesomplete con un solo enter pero sin label y sin
+formato. sumado a sin instalacion extra de nada vs tener que instalar
+una libreria extra.
+
+Solo llevo dos dias en plan de aprendizaje, como suspendiendo el
+desarrollo para aprender, y aprendi mucho, creo bastante sobre arrays,
+objetos, dom, y creo que es una base, creo que debo destinarle una
+semana a la capacitacion intensa y despues ver si me deposita en un
+estadio mas arriba.
+
+
 * doc
 ** dump/ restore schema
 pg_dump > file
