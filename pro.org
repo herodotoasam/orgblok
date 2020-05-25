@@ -688,7 +688,24 @@ momento pq es lindo y es out the box.
 
 esta la mitad del pasar ventas, faltan los articulos que es lo mas
 dificil, veremos como lo solucionamos.
+** [2020-05-24 dom]
+:LOGBOOK:
+CLOCK: [2020-05-24 dom 18:21]--[2020-05-24 dom 19:17] =>  0:56
+CLOCK: [2020-05-24 dom 15:58]--[2020-05-24 dom 17:08] =>  1:10
+:END:
+decidi hacer un curso intensivo de javascript para estar en mejores
+condiciones de encarar el trabajo. por eso no se vera reflejado aca en
+el horario pero es un monton de horas desde las siete de la mañana que
+vengo con esto.
+** [2020-05-25 lun]
+:LOGBOOK:
+CLOCK: [2020-05-25 lun 16:17]
+:END:
+instalando gitkraken para ver si tengo el manejo de git fuera del
+editor y puedo volver a sublime text. Gitkraken bosta fallo pq no
+admite repositorios privados.
 
+Hoy a sido el segundo dia del curso intensivo de java.
 * doc
 ** dump/ restore schema
 pg_dump > file
