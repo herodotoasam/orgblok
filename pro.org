@@ -735,6 +735,14 @@ desarrollo para aprender, y aprendi mucho, creo bastante sobre arrays,
 objetos, dom, y creo que es una base, creo que debo destinarle una
 semana a la capacitacion intensa y despues ver si me deposita en un
 estadio mas arriba.
+** [2020-05-26 mar]
+:LOGBOOK:
+CLOCK: [2020-05-26 mar 10:48]--[2020-05-26 mar 13:53] =>  3:05
+:END:
+hoy comence a ver Vue.js como posible alternativa para front-end pero
+primero tengo que terminar la base de js.
+Excelente el resultado hasta ahora de lo que voy haciendo con js. me
+sirve de practica y tambien en los resultados.
 
 
 * doc
