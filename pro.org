@@ -737,14 +737,27 @@ semana a la capacitacion intensa y despues ver si me deposita en un
 estadio mas arriba.
 ** [2020-05-26 mar]
 :LOGBOOK:
+CLOCK: [2020-05-26 mar 17:17]--[2020-05-26 mar 18:28] =>  1:11
 CLOCK: [2020-05-26 mar 10:48]--[2020-05-26 mar 13:53] =>  3:05
 :END:
 hoy comence a ver Vue.js como posible alternativa para front-end pero
 primero tengo que terminar la base de js.
 Excelente el resultado hasta ahora de lo que voy haciendo con js. me
 sirve de practica y tambien en los resultados.
-
-
+Por alguna razon no funcionaron los eventos de Form submit o blur y
+entonces hice la funcion de limpiar campos atada al boton crear.
+** [2020-05-27 mié]
+:LOGBOOK:
+CLOCK: [2020-05-27 mié 18:27]--[2020-05-27 mié 18:42] =>  0:15
+CLOCK: [2020-05-27 mié 16:39]--[2020-05-27 mié 18:01] =>  1:22
+CLOCK: [2020-05-27 mié 10:21]--[2020-05-27 mié 13:29] =>  3:08
+:END:
+excelentisima practica con el fetch datacreate.
+bastante bien tambien el tema de la seleccion del articulo y el
+agregado del articulo el form paso de ventas que creo que esta
+expresado en su funcionalidad, faltan detalles pero creo que va a
+andar.
+Falta mucho por aprender todavia. 
 * doc
 ** dump/ restore schema
 pg_dump > file
