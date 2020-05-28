@@ -758,6 +758,26 @@ agregado del articulo el form paso de ventas que creo que esta
 expresado en su funcionalidad, faltan detalles pero creo que va a
 andar.
 Falta mucho por aprender todavia. 
+** [2020-05-28 jue]
+:LOGBOOK:
+CLOCK: [2020-05-28 jue 17:14]--[2020-05-28 jue 18:06] =>  0:52
+CLOCK: [2020-05-28 jue 15:04]--[2020-05-28 jue 16:03] =>  0:59
+CLOCK: [2020-05-28 jue 14:00]--[2020-05-28 jue 14:18] =>  0:18
+CLOCK: [2020-05-28 jue 11:01]--[2020-05-28 jue 13:13] =>  2:12
+:END:
+anoche pense una nueva forma de trabajar con los videos. Escucha mas
+activa con toma de apuntes, pero apuntes no con formato prettyfy para
+consulta ulterior sino como guia para practica inmediata en la
+maquina, bajo la premisa que si lo aprendido no se practica no se
+fija, y luego de ultima hacer un apunte de repaso que bien podria ser
+hecho en org, que puede ser consultable mas rapido mientras
+programamos y de ultima releible si actualizamos orgmode en el movil.
+Avance hermoso con las validaciones y no quise seguir metiendole
+tiempo por si acaso con vue se hacen cosas mas grosas, total lo hecho
+es para fijar conocimientos. De ultima donde me trave que es cuando
+creia que las regex no funcionaban era pq habia puesto mal el nombre
+del elemento en el getElementById o sea un error muy infantil.
+
 * doc
 ** dump/ restore schema
 pg_dump > file
