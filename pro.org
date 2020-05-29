@@ -777,6 +777,39 @@ tiempo por si acaso con vue se hacen cosas mas grosas, total lo hecho
 es para fijar conocimientos. De ultima donde me trave que es cuando
 creia que las regex no funcionaban era pq habia puesto mal el nombre
 del elemento en el getElementById o sea un error muy infantil.
+** [2020-05-29 vie]
+:LOGBOOK:
+CLOCK: [2020-05-29 vie 18:46]--[2020-05-29 vie 20:06] =>  1:20
+CLOCK: [2020-05-29 vie 17:32]--[2020-05-29 vie 18:44] =>  1:12
+CLOCK: [2020-05-29 vie 15:27]--[2020-05-29 vie 17:27] =>  2:00
+CLOCK: [2020-05-29 vie 13:50]--[2020-05-29 vie 15:25] =>  1:35
+CLOCK: [2020-05-29 vie 11:25]--[2020-05-29 vie 12:53] =>  1:28
+CLOCK: [2020-05-29 vie 09:53]--[2020-05-29 vie 11:23] =>  1:30
+:END:
+hora y media perdida en un intento de practica con laravel mix que
+resulto fallida pq no me anduvo, esta bien que el sistema esta muy
+sucio tiene muchas cosas instaladas y reinstaladas, tendria que
+empezar de nuevo de cero y terminar de definir el tema
+boostrap-semantic y otras cosas y pasar en limpio.
+Fecunda hora y media con practica de Vue, aunque uno se traba en los
+detalles se van sacando de a poco y se va puliendo la tecnica, pero
+creo que tengo que ir haciendo video/maquina en el momento, no me
+sirve adelantar videos pq no gano nada, salvo que realmente no pueda
+estar en la maquina y quiera avanzar.
+Hora y media bastante perdidita tambien pq intente hacer nuevamente no
+se si por tercera vez los modales de bootstrap y no me salieron, menos
+mal que tengo fomantic sino estaria frustrado, quise separar las
+modales en blades separadas mediante extends y no me funciono el
+javascript entonces todo de nuevo, lo unico bueno fue que la
+validacion de los campos de combo se hicieron en un pelin.
+Alto reniegue estas dos horas, con una sola leccion de vue!!! y encima
+incompleta con las faltas de semantic.
+y quise instalar semantic en un directorio de laravel de prueba y me
+trabe mil con gulp, increible. hasta que por fin di que funcionara .
+Por lo menos una hora perdida pero pude instalar semantic, pero mal
+muy mal la perdida de tiempo.
+Un poco mejor el ultimo tramo pq recupere la visual de semantic y
+aprendi que con un componente de vue se pueden hacer muchas cosas.
 
 * doc
 ** dump/ restore schema
@@ -949,3 +982,27 @@ seq con el comando adecuado
 select setval('clientes_id_seq',(select max(id) from clientes));
 incluso podria hacerlo o bien manualmente pq es una unica vez o bien
 ir haciendo un script con tcl.
+** fomantic-ui
+ npm install fomantic-ui
+ npx gulp build --> me dio toda clase de dolores de cabeza pq gulp
+ decia que no tenia el gulpfile busque en internet y obtuve solo
+ confusion.
+me termino funcionando dentro del directorio como gulp buid solo, pq
+ el gulpfile.js ya estaba en el directorio semantic/ que se hizo
+ dentro del directorio example.
+o sea
+*** npm install fomantic-ui
+*** npm install fomantic-ui-css
+*** cd semantic/
+*** gulp build
+*** ver que public tenga las carpetas js y css
+*** cambiar el webpack.mix.js a
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .copy('node_modules/fomantic-ui-css/semantic.min.css','public/css/semantic.min.css')
+    .copy('node_modules/fomantic-ui-css/semantic.min.js','public/js/semantic.min.js');
+y funciona.
+chequear antes que la carpeta node-modules exista que ya se tiene que
+    haber generado con el npm install.
+
+
