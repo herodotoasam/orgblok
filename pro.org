@@ -810,7 +810,18 @@ Por lo menos una hora perdida pero pude instalar semantic, pero mal
 muy mal la perdida de tiempo.
 Un poco mejor el ultimo tramo pq recupere la visual de semantic y
 aprendi que con un componente de vue se pueden hacer muchas cosas.
-
+** [2020-05-30 sáb]
+:LOGBOOK:
+CLOCK: [2020-05-30 sáb 10:35]--[2020-05-30 sáb 11:41] =>  1:06
+CLOCK: [2020-05-30 sáb 09:39]--[2020-05-30 sáb 10:19] =>  0:40
+:END:
+1er tramo: perdido experimentando con toast. Lamentablemente no
+funciona, jquery no la acepta pero no anda en boostrap tampoco, anoto
+mas en troubleshoting.
+2do tramo: bastante bien aprovechado pq vi dos videos y voy avanzando
+en vue, y a la vez voy viendo como aprender semantic para no quedar
+demasiado desfasado, o sea ir haciendo con semantic lo que el otro va
+haciendo con boosta.
 * doc
 ** dump/ restore schema
 pg_dump > file
@@ -982,7 +993,7 @@ seq con el comando adecuado
 select setval('clientes_id_seq',(select max(id) from clientes));
 incluso podria hacerlo o bien manualmente pq es una unica vez o bien
 ir haciendo un script con tcl.
-** fomantic-ui
+** fomantic-ui instalacion
  npm install fomantic-ui
  npx gulp build --> me dio toda clase de dolores de cabeza pq gulp
  decia que no tenia el gulpfile busque en internet y obtuve solo
@@ -1004,5 +1015,9 @@ mix.js('resources/js/app.js', 'public/js')
 y funciona.
 chequear antes que la carpeta node-modules exista que ya se tiene que
     haber generado con el npm install.
-
-
+** fomantic-ui toast
+no funciona. da error jquery 3.5-1 el actual, pq dice que .toast no es
+una funcion. Pero aparentemente les pasa a todos principalmente a
+bootstrap que no las puede usar, tambien a toastr y a otros
+frameworks. No da para renegar mas, solo esperar que una nueva version
+o quizas mas adelante se arregle este tema.
