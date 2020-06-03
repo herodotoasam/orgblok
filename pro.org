@@ -1,10 +1,10 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-01 lun 11:09]
+#+CAPTION: Clock summary at [2020-06-03 mié 20:07]
 | Headline               | Time       |          |      |
 |------------------------+------------+----------+------|
-| *Total time*           | *6d 14:04* |          |      |
+| *Total time*           | *7d 11:31* |          |      |
 |------------------------+------------+----------+------|
-| Agenda de trabajo      | 6d 14:04   |          |      |
+| Agenda de trabajo      | 7d 11:31   |          |      |
 | \_  2020-Mayo          |            | 6d 14:04 |      |
 | \_    [2020-05-06 mié] |            |          | 5:00 |
 | \_    [2020-05-07 jue] |            |          | 6:07 |
@@ -32,6 +32,10 @@
 | \_    [2020-05-29 vie] |            |          | 9:05 |
 | \_    [2020-05-30 sáb] |            |          | 6:00 |
 | \_    [2020-05-31 dom] |            |          | 4:55 |
+| \_  2020-Junio         |            |    21:27 |      |
+| \_    [2020-06-01 lun] |            |          | 6:21 |
+| \_    [2020-06-02 mar] |            |          | 7:38 |
+| \_    [2020-06-03 mié] |            |          | 7:28 |
 #+END:
 
 
@@ -970,8 +974,39 @@ una velocidad mayor, 1.25/1.50 o hasta 1.75 lo cual hace que se pueda
 avanzar mas rapido y aprovecharlos mejor sin aburrirse.
 Lo mismo todavia no he cumplido un mes de programacion y creo que he
 avanzado un monton.
-
-
+*** [2020-06-03 mié]
+:LOGBOOK:
+CLOCK: [2020-06-03 mié 16:58]--[2020-06-03 mié 20:02] =>  3:04
+CLOCK: [2020-06-03 mié 15:32]--[2020-06-03 mié 16:24] =>  0:52
+CLOCK: [2020-06-03 mié 14:23]--[2020-06-03 mié 15:30] =>  1:07
+CLOCK: [2020-06-03 mié 12:45]--[2020-06-03 mié 13:58] =>  1:13
+CLOCK: [2020-06-03 mié 10:56]--[2020-06-03 mié 12:08] =>  1:12
+:END:
+Ayer decidi definitivamente quedarme con Buefy porque opto por el
+diseño bulma. Lo veo mas simple y liviano que el otro. Y los
+resultados son lindos en ambos escenarios y dependen de la experiencia
+en la maquetacion y en el arte, que no viene con el programa sino que
+lo pone uno.
+primera hora repasando lo basico de vue, y bastante arme un cuadro en
+mi mente.
+Luego de renegar por una hora instalo de nuevo una instalacion limpia
+la unica que encontre que es la de CRETUEUSEBIU que se llama
+laravel-vue-spa en github.
+voy a empezar a trabajar sobre eso.
+Hoy el balance es mitad y mitad, un poco desalentado pq no puedo
+empezar a codificar ni tampoco estoy en el medio de una clara etapa de
+capacitacion, y es porque no se veia bien el camino, habia que
+establecer cual era la plataforma donde ibamos a construir, o sea
+hacer la platea.
+Y creo que con el boilerplate que consegui logre algo limpio sin
+errores de instalacion que me da la posibilidad de trabajar con vue y
+hacer un spa con buefy.
+Pude iniciar el navbar, esta trabado un poco el tema de las auth con
+santum que parece ser un problema general, pero se puede ir
+resolviendo despues, y me queda por aprender en lo inmediato como
+conseguir datos por medio de vue, que creo que es por axios. Y alli
+ver si el haber trasvasado todas las migraciones sirve, si hay que
+hacer una fresh y recargar los datos, o sea todas esas cosas. 
 * doc
 ** dump/ restore schema
 pg_dump > file
