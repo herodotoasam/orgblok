@@ -1007,6 +1007,42 @@ resolviendo despues, y me queda por aprender en lo inmediato como
 conseguir datos por medio de vue, que creo que es por axios. Y alli
 ver si el haber trasvasado todas las migraciones sirve, si hay que
 hacer una fresh y recargar los datos, o sea todas esas cosas. 
+*** [2020-06-04 jue]
+:LOGBOOK:
+CLOCK: [2020-06-04 jue 20:02]--[2020-06-04 jue 21:40] =>  1:38
+CLOCK: [2020-06-04 jue 18:58]--[2020-06-04 jue 20:02] =>  1:04
+CLOCK: [2020-06-04 jue 15:17]--[2020-06-04 jue 18:40] =>  3:23
+CLOCK: [2020-06-04 jue 12:41]--[2020-06-04 jue 12:50] =>  0:09
+CLOCK: [2020-06-04 jue 12:07]--[2020-06-04 jue 12:35] =>  0:28
+CLOCK: [2020-06-04 jue 11:18]--[2020-06-04 jue 11:28] =>  0:10
+CLOCK: [2020-06-04 jue 10:34]--[2020-06-04 jue 11:16] =>  0:42
+CLOCK: [2020-06-04 jue 09:35]--[2020-06-04 jue 10:34] =>  0:59
+:END:
+logre un punto de partida limpio vamos a ver que pasa.
+por el momento quiero tirar todo a la mierda, es que estoy varado
+cuando no entiendo y estoy solo, y me abruma lo complejo, pero no es
+moco de pavo. ejemplo un navbar de bulma. que ni siquiera lo lei y lo
+quiero implementar asi al copy y pegue.
+Dia muy peleado, con mucha frustracion, en algunos momentos me da
+ganas de abandonar. Pq pienso que esto es algo muy grande y dificil de
+lograr, pensar que estoy trabado todo el dia en cosas muy chiquititas
+y con cero apoyo del mundo exterior. Si que se esta aprendiendo y en
+el camino se estan fijando mucho los conocimientos del sistema para
+hacerlo algo que uno domine, pero es arduo.
+Hoy por lo menos hice un sccafoling completo que me gusta como base pq
+es puro y sin errores basado en una instalacion basica para vue de
+laravel y el agregado de algunos archivos a mano y nada mas. la guia
+la tengo bookmarkeada. hice las migraciones, logre conexion a datos
+que es lo que me preocupaba, logro una lista via ul/li en pantalla,
+posiblmente logre un componente para mi propio autocompletado, pero no
+logro poner en marcha el autocompletado de buefy y eso me frustra pq
+no le encuentro la vuelta por los putos arrays de javascript, que dan
+trabajo pero lo buenisimo es que encontre un camino facil via rutas y
+controladores para sacar datos via axios sin problemas, creo que hay
+que seguir adelante sin trabarse demasiado pq sino va a ser muy
+frustrante.
+Pero el dia viendolo en perspectiva es de mucho avance.
+
 * doc
 ** dump/ restore schema
 pg_dump > file
