@@ -1042,6 +1042,59 @@ controladores para sacar datos via axios sin problemas, creo que hay
 que seguir adelante sin trabarse demasiado pq sino va a ser muy
 frustrante.
 Pero el dia viendolo en perspectiva es de mucho avance.
+*** [2020-06-05 vie]
+:LOGBOOK:
+CLOCK: [2020-06-05 vie 18:52]--[2020-06-05 vie 19:50] =>  0:58
+CLOCK: [2020-06-05 vie 18:44]--[2020-06-05 vie 18:51] =>  0:07
+CLOCK: [2020-06-05 vie 18:15]--[2020-06-05 vie 18:23] =>  0:08
+CLOCK: [2020-06-05 vie 18:06]--[2020-06-05 vie 18:12] =>  0:06
+CLOCK: [2020-06-05 vie 17:29]--[2020-06-05 vie 17:58] =>  0:29
+CLOCK: [2020-06-05 vie 15:49]--[2020-06-05 vie 17:18] =>  1:29
+CLOCK: [2020-06-05 vie 13:24]--[2020-06-05 vie 13:28] =>  0:04
+CLOCK: [2020-06-05 vie 10:30]--[2020-06-05 vie 13:05] =>  2:35
+:END:
+Por lo menos hoy despues de tanto renegar tuve suerte con el
+datalist. primero me baje un datalist casero que funciona gracias a
+cuatro componentes individuales, y luego pensando se me prende la
+lampara que falta algo en php para que funcione y ahi recuerdo el
+video y lo pongo y sas era un archivo en composer que maneja el
+tablelist. 
+Despues empiezo a renegar con la interface en si para emular lo hecho
+con lo anterior pero dentro de un SPA y con lo que pueda conseguir
+luego con vue, nada mas y nada menos que eso.  Por lo demas pienso
+seguir usando jquery. Y pienso que axios funciona joya, y descubri con
+las rutas que se puede acceder facil al servidor.
+El reto era hacer el control de texto y boton de busqueda en bulma y
+lo logre en 30minutos. Asimismo no conseguir que funcionara la columna
+y lo hice con style al ancho.
+
+objetivo: centrar un poco el contenido:(6min): el error era que ponia
+class conteiner y es class container. funciona barbaro.
+10min perdidos en buscarle la vuelta a ver si habia un error en el
+tema de las columnas y no hay caso, no funciona para el input. hasta
+me pregunto si funciona para el input.
+Fenomeno!! un minuto mas y lo descubri, es a nivel class control lleva
+is-expanded y alli se nota cuando el input en este caso o el widget
+que este en esa clase se expandira hasta usar el ancho de la columna.
+7min creados los tres botones editar/crear/borrar clientes muy lindos
+con field is-grouped
+58min de reniegue con el modal obtengo: se inicializo bien el modal,
+funciona no hay problemas. pero no puedo dar ancho con columnas ni con
+buefy ni con bulma, debe ser un problema del componente y ahi si que
+estoy restringido con buefy no tengo tanta libertad como con
+uielement. No queda feo el modal, funciona bien, es chiquito, pero los
+anchos los tengo que calcular a ojo con style y darlos a pixels y no
+son responsives, o sea no van a funcionar en el celular. No habria que
+trabarse tanto pienso pq con el paso del tiempo algo aprendere de
+nuevo, no puedo frenarme aca. Salvo que desista de usar modales y me
+incline a otra solucion como hacerla en la pagina tipo el formulario
+de tcl. y deje los modales para ventanitas de servicio. Habria que
+probar si en la pagina entera y lisa puedo hacer bien el formulario.
+Como resumen el dia pienso que anduvo bien, hice funcionar el
+componente calle, para buscar el combo, hice funcionar el datatable,
+hice el campo buscador y empece con los modales y anduvieron, pero
+falta seguir encontrando la vuelta.
+
 
 * doc
 ** dump/ restore schema
@@ -1171,7 +1224,16 @@ git remote -v muestra el repositorio actual que responde el git
 git remote set-url origin https://github.com/... se pone el nuevo
 para cambiar el de heroku en caso de hayamos cambiado la app
 git remote set-url heroku https://heroku.com....
-
+** datatable server-side
+el archivo clave es instalar por composer
+composer require yajra/laravel-datatables-oracle:"~9.0"
+que es el que le dice a php como preparar los datos, 
+la parte js en el front la copiamos bien de los ejemplos y yo tengo un
+ejemplo que funciona, pero no olvidar esto, incluso en la pagina de
+yajra en packagist explica las forma de servir el json que no solo es
+con eloquent sino con otras formas. 
+cualquier cosa esto lo aprendi con los videos de tip 4 laravel y ajax
+de rimorsoft.
 * troubleshooting
 ** laravel
 *** no existe laravel como comando para ejecutar laravel new
