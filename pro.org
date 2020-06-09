@@ -1,44 +1,45 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-07 dom 20:47]
-| Headline               | Time      |          |      |
-|------------------------+-----------+----------+------|
-| *Total time*           | *8d 5:43* |          |      |
-|------------------------+-----------+----------+------|
-| Agenda de trabajo      | 8d 5:43   |          |      |
-| \_  2020-Mayo          |           | 6d 14:04 |      |
-| \_    [2020-05-06 mié] |           |          | 5:00 |
-| \_    [2020-05-07 jue] |           |          | 6:07 |
-| \_    [2020-05-08 vie] |           |          | 6:57 |
-| \_    [2020-05-09 sáb] |           |          | 7:32 |
-| \_    [2020-05-10 dom] |           |          | 6:58 |
-| \_    [2020-05-11 lun] |           |          | 5:07 |
-| \_    [2020-05-12 mar] |           |          | 5:45 |
-| \_    [2020-05-13 mié] |           |          | 5:06 |
-| \_    [2020-05-14 jue] |           |          | 7:16 |
-| \_    [2020-05-15 vie] |           |          | 7:42 |
-| \_    [2020-05-16 sáb] |           |          | 6:12 |
-| \_    [2020-05-17 dom] |           |          | 2:26 |
-| \_    [2020-05-18 lun] |           |          | 9:14 |
-| \_    [2020-05-19 mar] |           |          | 6:07 |
-| \_    [2020-05-20 mié] |           |          | 6:52 |
-| \_    [2020-05-21 jue] |           |          | 8:01 |
-| \_    [2020-05-22 vie] |           |          | 9:16 |
-| \_    [2020-05-23 sáb] |           |          | 7:36 |
-| \_    [2020-05-24 dom] |           |          | 2:06 |
-| \_    [2020-05-25 lun] |           |          | 3:22 |
-| \_    [2020-05-26 mar] |           |          | 4:16 |
-| \_    [2020-05-27 mié] |           |          | 4:45 |
-| \_    [2020-05-28 jue] |           |          | 4:21 |
-| \_    [2020-05-29 vie] |           |          | 9:05 |
-| \_    [2020-05-30 sáb] |           |          | 6:00 |
-| \_    [2020-05-31 dom] |           |          | 4:55 |
-| \_  2020-Junio         |           | 1d 15:39 |      |
-| \_    [2020-06-01 lun] |           |          | 6:21 |
-| \_    [2020-06-02 mar] |           |          | 7:38 |
-| \_    [2020-06-03 mié] |           |          | 7:28 |
-| \_    [2020-06-04 jue] |           |          | 8:33 |
-| \_    [2020-06-05 vie] |           |          | 5:56 |
-| \_    [2020-06-07 dom] |           |          | 3:43 |
+#+CAPTION: Clock summary at [2020-06-08 lun 19:17]
+| Headline               | Time       |          |      |
+|------------------------+------------+----------+------|
+| *Total time*           | *8d 12:03* |          |      |
+|------------------------+------------+----------+------|
+| Agenda de trabajo      | 8d 12:03   |          |      |
+| \_  2020-Mayo          |            | 6d 14:04 |      |
+| \_    [2020-05-06 mié] |            |          | 5:00 |
+| \_    [2020-05-07 jue] |            |          | 6:07 |
+| \_    [2020-05-08 vie] |            |          | 6:57 |
+| \_    [2020-05-09 sáb] |            |          | 7:32 |
+| \_    [2020-05-10 dom] |            |          | 6:58 |
+| \_    [2020-05-11 lun] |            |          | 5:07 |
+| \_    [2020-05-12 mar] |            |          | 5:45 |
+| \_    [2020-05-13 mié] |            |          | 5:06 |
+| \_    [2020-05-14 jue] |            |          | 7:16 |
+| \_    [2020-05-15 vie] |            |          | 7:42 |
+| \_    [2020-05-16 sáb] |            |          | 6:12 |
+| \_    [2020-05-17 dom] |            |          | 2:26 |
+| \_    [2020-05-18 lun] |            |          | 9:14 |
+| \_    [2020-05-19 mar] |            |          | 6:07 |
+| \_    [2020-05-20 mié] |            |          | 6:52 |
+| \_    [2020-05-21 jue] |            |          | 8:01 |
+| \_    [2020-05-22 vie] |            |          | 9:16 |
+| \_    [2020-05-23 sáb] |            |          | 7:36 |
+| \_    [2020-05-24 dom] |            |          | 2:06 |
+| \_    [2020-05-25 lun] |            |          | 3:22 |
+| \_    [2020-05-26 mar] |            |          | 4:16 |
+| \_    [2020-05-27 mié] |            |          | 4:45 |
+| \_    [2020-05-28 jue] |            |          | 4:21 |
+| \_    [2020-05-29 vie] |            |          | 9:05 |
+| \_    [2020-05-30 sáb] |            |          | 6:00 |
+| \_    [2020-05-31 dom] |            |          | 4:55 |
+| \_  2020-Junio         |            | 1d 21:59 |      |
+| \_    [2020-06-01 lun] |            |          | 6:21 |
+| \_    [2020-06-02 mar] |            |          | 7:38 |
+| \_    [2020-06-03 mié] |            |          | 7:28 |
+| \_    [2020-06-04 jue] |            |          | 8:33 |
+| \_    [2020-06-05 vie] |            |          | 5:56 |
+| \_    [2020-06-07 dom] |            |          | 3:43 |
+| \_    [2020-06-08 lun] |            |          | 6:20 |
 #+END:
 
 
@@ -69,9 +70,22 @@ exacto de bugs y TODOs.
 equivocados en los cuales se pierde mucho tiempo, pero en el camino se
 aprende mucho, nada se pierde creo, salvo la salud corporal en el
 proceso continuo sin descanso. Pero creo que vamos a salir adelante.
+** Idea de usar TCL como muleto
+o sea hacerlo entrar en produccion mas o menos rapidamente, y tenerlo
+como segunda opcion para cualquier cosa tener dos sistemas funcionando
+y no depender solo de un sistema que recien estamos aprendiendo y nos
+cuesta tanto aprender.
+[2020-06-08 lun] el tema es que el desarrollo se pueda hacer mas o
+menos rapidamente. que no lleve una excesiva cantidad de tiempo.
 
 * Agenda de trabajo
+:LOGBOOK:
+CLOCK: [2020-06-08 lun 15:23]--[2020-06-08 lun 15:23] =>  0:00
+:END:
 ** 2020-Mayo
+:LOGBOOK:
+CLOCK: [2020-06-08 lun 20:16]--[2020-06-08 lun 20:17] =>  0:01
+:END:
 *** [2020-05-06 mié]
 **** desempolvado de la base postgres
 :LOGBOOK:
@@ -1118,9 +1132,88 @@ sistema de una spa, y he juntado bastantes conocimientos diversos,
 como para saber renegar mejor, pero no creo que todo vaya a ser vue,
 aunque debo seguir aprendiendo eso.
 *** [2020-06-08 lun]
+:LOGBOOK:
+CLOCK: [2020-06-08 lun 19:20]--[2020-06-08 lun 21:40] =>  2:20
+CLOCK: [2020-06-08 lun 17:54]--[2020-06-08 lun 19:20] =>  1:26
+CLOCK: [2020-06-08 lun 14:55]--[2020-06-08 lun 15:23] =>  0:28
+CLOCK: [2020-06-08 lun 14:22]--[2020-06-08 lun 14:54] =>  0:32
+CLOCK: [2020-06-08 lun 13:15]--[2020-06-08 lun 13:58] =>  0:43
+CLOCK: [2020-06-08 lun 12:48]--[2020-06-08 lun 13:13] =>  0:25
+CLOCK: [2020-06-08 lun 11:29]--[2020-06-08 lun 12:03] =>  0:34
+CLOCK: [2020-06-08 lun 11:14]--[2020-06-08 lun 11:28] =>  0:14
+CLOCK: [2020-06-08 lun 10:59]--[2020-06-08 lun 11:13] =>  0:14
+CLOCK: [2020-06-08 lun 10:51]--[2020-06-08 lun 10:59] =>  0:08
+CLOCK: [2020-06-08 lun 09:14]--[2020-06-08 lun 10:50] =>  1:36
+:END:
 falta validaciones / autocomplete / guardar/ borrar / editar/
 solucionar el bug-problema de que al hacer enter se borran los
 contenidos de los campos.
+1ro autocomplete. 1hs30min de reniegue total, llego a la conclusion
+que el autocomplete de buefy anda completamente bien, pero no muestra
+el combo, en la inspeccion con vue tiene el array filtrado correcto
+pero no muestra el combo. Tampoco lo hace con un ejemplo simple
+copiado. Es como que mi pagina no lo permite.
+8min muy felizmente!! en 8 minutos encaje la implementacion de mi!!
+datalist en buefy... con v-for de vue. 
+14min: termine de extender a las otras dos barrios y zonas el sistema.
+14min: problema de que borra los campos: no solucionado pero acotado:
+lo hace el enter y el tab tambien, pero sucede la primera vez luego de
+reiniciar, las subsiguientes veces funciona normal de acuerdo a lo
+esperado.
+Por lo tanto lo dejo como un bug a resolver despues.
+34min+25min perdidos buscando la solucion a adaptar la validacion, se
+agrega aparte de los errores que se cometen en el cortar y pegar, una
+capa de perfeccionamiento pq es mas estricto en el requerimiento de
+variables, y dejo pendiente la validacion de calle/barrio/zona por no
+contar con acceso a los arrays de datos en forma facil, y para no
+duplicar prefiero esperar a tener mas conocimiento, quizas con vuex.
+43m salvando crear clientes +32min renegando. no funciona FormData que
+recibe el form correctamente pero no levanta los pares de valores y no
+entrega nada. En rom funciona bien y entrega todos los valores, sin
+los valores el fetch no se hace. obviamente. 
+28min mas descubri el problema es que FormData arma sus valores con el
+atributo name de los campos.
+1.30hs prueba con buscadorpg anda bien le faltan pocas cosas para ser
+enteramente funcional, incluso podriamos sacarle cosas obsoletas
+mayormente cuadros de informacion que no se usan mas, creo que en un
+par de dias lo tengo funcionando a pleno pulido, ...peero con heroku
+no funciona fluidamente, el delay es impresentable y no permitiria
+trabajar en produccion. Asi que instale de nuevo una instancia en
+google y estoy subiendo una base pg nuevamente para probar rendimiento
+en google.
+Si tengo el pasador de ventas y el de recibos y fundamentalmente el
+fichas creo que en cuestion de unos pocos dias, digamos una o dos
+semanas se podria ir a produccion lo que facilitaria enormemente el
+desarrollo futuro del proyecto, pq Fede pasaria parte de los papeles
+sino todos y yo tendria full time para programar.
+2:20hs    :estoy desempolvando el fichas, y ojo el problema de las
+incompatibilidades mayormente es el cambio de tablas y campos que le
+hice a postgres, fijarse primero en eso antes de alterar cualquier
+cosa.
+Me decepciona tambien la lentitud de google, apenitas un poquito por
+debajo de heroku.
+Creo que iremos rapido y antes de fin de mes tenemos que estar en la
+nube o al menos en postgres.
+Tambien pienso que hay una de dos repuestas al problema del delay: o
+es normal en las bases de datos en la nube, o es un problema de
+programacion, por el tipo de pedido de datos que hago y que pueda ser
+corregido en todo caso. Lo llamativo es que cuando hice las pruebas el
+año pasado en el centro andaba bien y no fue problematica la velocidad
+al contrario era absolutamente normal salvo en la generacion de las
+fichas en la cual se notaba bastante el trabajo de datos y por eso
+hice el wrap con sqlite.
+No me molesta trabajar en el proyecto tcl primero al contrario me da
+gusto tener dos opciones. Hay una diferencia atroz con la instancia de
+san pablo frente a la iowa/heroku, como proporcional a la distancia
+recorrida.
+Pero tambien noto una diferencia con relacion a una busqueda con el
+buscador y una impresion de cien fichas, no tiene relacion, Hay algo
+que anda mal en el buscador, tendria que revisar el algoritmo para ver
+si hay algo que corregir, desde mañana lo reviso y comienzo a
+programar algo mas sencillo.
+
+
+
 * doc
 ** dump/ restore schema
 pg_dump > file
