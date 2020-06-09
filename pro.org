@@ -1,11 +1,11 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-08 lun 19:17]
+#+CAPTION: Clock summary at [2020-06-09 mar 19:48]
 | Headline               | Time       |          |      |
 |------------------------+------------+----------+------|
-| *Total time*           | *8d 12:03* |          |      |
+| *Total time*           | *8d 22:08* |          |      |
 |------------------------+------------+----------+------|
-| Agenda de trabajo      | 8d 12:03   |          |      |
-| \_  2020-Mayo          |            | 6d 14:04 |      |
+| Agenda de trabajo      | 8d 22:08   |          |      |
+| \_  2020-Mayo          |            | 6d 14:05 |      |
 | \_    [2020-05-06 mié] |            |          | 5:00 |
 | \_    [2020-05-07 jue] |            |          | 6:07 |
 | \_    [2020-05-08 vie] |            |          | 6:57 |
@@ -32,14 +32,15 @@
 | \_    [2020-05-29 vie] |            |          | 9:05 |
 | \_    [2020-05-30 sáb] |            |          | 6:00 |
 | \_    [2020-05-31 dom] |            |          | 4:55 |
-| \_  2020-Junio         |            | 1d 21:59 |      |
+| \_  2020-Junio         |            | 2d 8:03  |      |
 | \_    [2020-06-01 lun] |            |          | 6:21 |
 | \_    [2020-06-02 mar] |            |          | 7:38 |
 | \_    [2020-06-03 mié] |            |          | 7:28 |
 | \_    [2020-06-04 jue] |            |          | 8:33 |
 | \_    [2020-06-05 vie] |            |          | 5:56 |
 | \_    [2020-06-07 dom] |            |          | 3:43 |
-| \_    [2020-06-08 lun] |            |          | 6:20 |
+| \_    [2020-06-08 lun] |            |          | 8:40 |
+| \_    [2020-06-09 mar] |            |          | 7:44 |
 #+END:
 
 
@@ -1211,7 +1212,43 @@ buscador y una impresion de cien fichas, no tiene relacion, Hay algo
 que anda mal en el buscador, tendria que revisar el algoritmo para ver
 si hay algo que corregir, desde mañana lo reviso y comienzo a
 programar algo mas sencillo.
-
+*** [2020-06-09 mar]
+:LOGBOOK:
+CLOCK: [2020-06-09 mar 19:29]--[2020-06-09 mar 19:48] =>  0:19
+CLOCK: [2020-06-09 mar 17:56]--[2020-06-09 mar 18:17] =>  0:21
+CLOCK: [2020-06-09 mar 15:16]--[2020-06-09 mar 16:39] =>  1:23
+CLOCK: [2020-06-09 mar 14:18]--[2020-06-09 mar 14:53] =>  0:35
+CLOCK: [2020-06-09 mar 12:03]--[2020-06-09 mar 13:45] =>  1:42
+CLOCK: [2020-06-09 mar 08:28]--[2020-06-09 mar 11:52] =>  3:24
+:END:
+probando tiempos en las distintas bases de datos y de paso repasando
+como borrar y recargar base de datos en la nube.
+3:24min de un tiron 221 lineas de codigo. una estructura de busqueda
+muy completa y visual, que funciona muy bien con iowa.
+1.42 sigo llegue a las 345 ldc y logre solucionar el cuello de botella
+de la generacion de la tabla cuotas, haciendolo con sqlite on memory.
+genial. funciona en heroku.
+35+1:23 llegue a las 606 ldc obvio que hay mucho cortar y pegar en
+estas ultimas etapas pq hay funciones enteras que funcionan bien y los
+pego los reviso y van.
+Dejo de funcionar heroku con un error que lo he encontrado en internet
+incluso en la misma pagina de ellos. como que interpretaran que el uso
+que le da el programa mio es inseguro y dieron de baja el acceso a la
+base de datos. 
+21min di de baja heroku, por malos, me quedo con google, a pesar del
+precio, no existe algo que sea bueno y sea barato, lamentablemente. 
+Ya esta la primer parte ahora quiero poner en la parte de abajo mas
+info para tener todo en primera plana, comentarios, devoluciones,
+relaciones, visitas?, intimaciones?, subidas al seven?. Todo en el
+balance de informacion y que no sea pesada la pagina al cargarse. Los
+analisis cuadros y demas los quiero presentar en otra ventana no
+quiero tenerlos en la misma. Quiero que los programas sean solo
+operativos.
+Muy buen avance hoy con el buscador. 
+*** [2020-06-10 mié]
+encarar edicion - planes de pago - devoluciones - comentarios
+luego los tbls extras que pretendo para abajo siempre que no
+ralenticen la carga.
 
 
 * doc
@@ -1433,3 +1470,14 @@ como fuente y asi funciona bien.
 *** borrar la carpeta node_modules y package-lock.json
 *** cambiar "laravel-mix-versionhash" en package.json de "^1.13.7" a "1.0.7"
 *** npm install luego npm run dev
+** reseteo de base de datos de nube
+*** heroku
+poner Reset Database en pestaña Setting
+y eso la borra y ahi hacemos la subida de nuevo, como no permite crear
+y borrar bases de datos con nuestro nombre es la unica forma.
+truncate funciona pero da error el restore.
+*** gcloud
+borrar en consola con drop database romi; con el usuario hero, pero
+debe hacerse desde otra database por eso cree romi2 para poder entrar
+alli y desde alli borrarla. Como yo hago owner a hero sobre romi hero
+debe borrarla. y luego hago el restore.
