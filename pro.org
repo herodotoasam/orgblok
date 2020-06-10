@@ -1,46 +1,47 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-09 mar 19:48]
-| Headline               | Time       |          |      |
-|------------------------+------------+----------+------|
-| *Total time*           | *8d 22:08* |          |      |
-|------------------------+------------+----------+------|
-| Agenda de trabajo      | 8d 22:08   |          |      |
-| \_  2020-Mayo          |            | 6d 14:05 |      |
-| \_    [2020-05-06 mié] |            |          | 5:00 |
-| \_    [2020-05-07 jue] |            |          | 6:07 |
-| \_    [2020-05-08 vie] |            |          | 6:57 |
-| \_    [2020-05-09 sáb] |            |          | 7:32 |
-| \_    [2020-05-10 dom] |            |          | 6:58 |
-| \_    [2020-05-11 lun] |            |          | 5:07 |
-| \_    [2020-05-12 mar] |            |          | 5:45 |
-| \_    [2020-05-13 mié] |            |          | 5:06 |
-| \_    [2020-05-14 jue] |            |          | 7:16 |
-| \_    [2020-05-15 vie] |            |          | 7:42 |
-| \_    [2020-05-16 sáb] |            |          | 6:12 |
-| \_    [2020-05-17 dom] |            |          | 2:26 |
-| \_    [2020-05-18 lun] |            |          | 9:14 |
-| \_    [2020-05-19 mar] |            |          | 6:07 |
-| \_    [2020-05-20 mié] |            |          | 6:52 |
-| \_    [2020-05-21 jue] |            |          | 8:01 |
-| \_    [2020-05-22 vie] |            |          | 9:16 |
-| \_    [2020-05-23 sáb] |            |          | 7:36 |
-| \_    [2020-05-24 dom] |            |          | 2:06 |
-| \_    [2020-05-25 lun] |            |          | 3:22 |
-| \_    [2020-05-26 mar] |            |          | 4:16 |
-| \_    [2020-05-27 mié] |            |          | 4:45 |
-| \_    [2020-05-28 jue] |            |          | 4:21 |
-| \_    [2020-05-29 vie] |            |          | 9:05 |
-| \_    [2020-05-30 sáb] |            |          | 6:00 |
-| \_    [2020-05-31 dom] |            |          | 4:55 |
-| \_  2020-Junio         |            | 2d 8:03  |      |
-| \_    [2020-06-01 lun] |            |          | 6:21 |
-| \_    [2020-06-02 mar] |            |          | 7:38 |
-| \_    [2020-06-03 mié] |            |          | 7:28 |
-| \_    [2020-06-04 jue] |            |          | 8:33 |
-| \_    [2020-06-05 vie] |            |          | 5:56 |
-| \_    [2020-06-07 dom] |            |          | 3:43 |
-| \_    [2020-06-08 lun] |            |          | 8:40 |
-| \_    [2020-06-09 mar] |            |          | 7:44 |
+#+CAPTION: Clock summary at [2020-06-10 mié 20:35]
+| Headline               | Time      |          |      |
+|------------------------+-----------+----------+------|
+| *Total time*           | *9d 4:52* |          |      |
+|------------------------+-----------+----------+------|
+| Agenda de trabajo      | 9d 4:52   |          |      |
+| \_  2020-Mayo          |           | 6d 14:05 |      |
+| \_    [2020-05-06 mié] |           |          | 5:00 |
+| \_    [2020-05-07 jue] |           |          | 6:07 |
+| \_    [2020-05-08 vie] |           |          | 6:57 |
+| \_    [2020-05-09 sáb] |           |          | 7:32 |
+| \_    [2020-05-10 dom] |           |          | 6:58 |
+| \_    [2020-05-11 lun] |           |          | 5:07 |
+| \_    [2020-05-12 mar] |           |          | 5:45 |
+| \_    [2020-05-13 mié] |           |          | 5:06 |
+| \_    [2020-05-14 jue] |           |          | 7:16 |
+| \_    [2020-05-15 vie] |           |          | 7:42 |
+| \_    [2020-05-16 sáb] |           |          | 6:12 |
+| \_    [2020-05-17 dom] |           |          | 2:26 |
+| \_    [2020-05-18 lun] |           |          | 9:14 |
+| \_    [2020-05-19 mar] |           |          | 6:07 |
+| \_    [2020-05-20 mié] |           |          | 6:52 |
+| \_    [2020-05-21 jue] |           |          | 8:01 |
+| \_    [2020-05-22 vie] |           |          | 9:16 |
+| \_    [2020-05-23 sáb] |           |          | 7:36 |
+| \_    [2020-05-24 dom] |           |          | 2:06 |
+| \_    [2020-05-25 lun] |           |          | 3:22 |
+| \_    [2020-05-26 mar] |           |          | 4:16 |
+| \_    [2020-05-27 mié] |           |          | 4:45 |
+| \_    [2020-05-28 jue] |           |          | 4:21 |
+| \_    [2020-05-29 vie] |           |          | 9:05 |
+| \_    [2020-05-30 sáb] |           |          | 6:00 |
+| \_    [2020-05-31 dom] |           |          | 4:55 |
+| \_  2020-Junio         |           | 2d 14:47 |      |
+| \_    [2020-06-01 lun] |           |          | 6:21 |
+| \_    [2020-06-02 mar] |           |          | 7:38 |
+| \_    [2020-06-03 mié] |           |          | 7:28 |
+| \_    [2020-06-04 jue] |           |          | 8:33 |
+| \_    [2020-06-05 vie] |           |          | 5:56 |
+| \_    [2020-06-07 dom] |           |          | 3:43 |
+| \_    [2020-06-08 lun] |           |          | 8:40 |
+| \_    [2020-06-09 mar] |           |          | 7:44 |
+| \_    [2020-06-10 mié] |           |          | 6:44 |
 #+END:
 
 
@@ -1246,10 +1247,58 @@ quiero tenerlos en la misma. Quiero que los programas sean solo
 operativos.
 Muy buen avance hoy con el buscador. 
 *** [2020-06-10 mié]
+:LOGBOOK:
+CLOCK: [2020-06-10 mié 20:00]--[2020-06-10 mié 20:29] =>  0:29
+CLOCK: [2020-06-10 mié 17:59]--[2020-06-10 mié 19:54] =>  1:55
+CLOCK: [2020-06-10 mié 16:05]--[2020-06-10 mié 16:21] =>  0:16
+CLOCK: [2020-06-10 mié 15:55]--[2020-06-10 mié 16:03] =>  0:08
+CLOCK: [2020-06-10 mié 13:10]--[2020-06-10 mié 13:44] =>  0:34
+CLOCK: [2020-06-10 mié 11:57]--[2020-06-10 mié 13:04] =>  1:07
+CLOCK: [2020-06-10 mié 11:50]--[2020-06-10 mié 11:52] =>  0:02
+CLOCK: [2020-06-10 mié 11:23]--[2020-06-10 mié 11:49] =>  0:26
+CLOCK: [2020-06-10 mié 10:10]--[2020-06-10 mié 11:15] =>  1:05
+CLOCK: [2020-06-10 mié 10:00]--[2020-06-10 mié 10:08] =>  0:08
+CLOCK: [2020-06-10 mié 09:25]--[2020-06-10 mié 09:59] =>  0:34
+:END:
 encarar edicion - planes de pago - devoluciones - comentarios
 luego los tbls extras que pretendo para abajo siempre que no
 ralenticen la carga.
-
+34min edicion y comentarios sobre toda la aplicacion, pude observar lo
+bueno que son los comentarios, uno nunca sabe cuando va a volver sobre
+el codigo, y los comentarios son mas que bienvenidos. 
+8min hice condonacion y comentarios y suspendo para hacer triggers en
+la base de datos para terminar de verificar los condonados.
+1:10 puse todas las funciones y los triggers felizmente estaban
+guardados y funcionan y tambien hice la edicion de venta. Falta
+resumen de cuenta, devolucion y plan de pago.
+26min devoluciones y planes de pagos.
+En 10hs tengo el buscador funcional basico, faltaria ver comentarios y
+direcciones viejas y relaciones en la pantalla de abajo.
+1hs resubi la base a brasil con las funciones y triggers y funciona
+perfecto, y agregue las tres tbls abajo y anda todo bien incluso
+relaciones tiene doble click.
+Me gustaria un atajo para volver al cliente anterior. Hecho.
+Me gustaria que cuando uno busca y en el tbls aparece un solo
+resultado se busque sin mas.
+5min terminado - eso agiliza un monton las busquedas. 
+15min cambie el algorritmo del boton volver para poder volver
+indefinidamente de ida y vuelta, o sea no borrando los links para
+poder ir y volver.
+1:55 se empezo con el pasar ventas, se lo recupero, se corrigio la
+base de datos para eso. Se agrego una tabla nueva art_ventas y de paso
+se puso a punto el sistema migra1.tcl para generar la base de datos
+completamente con funciones y con generacion de datos (como que
+condonados=1 tienen que tener saldo 0, o poner clientes.pagado igual a
+la suma de pagos, etc.). O sea un update generalizado de comienzo.
+Perdi media hora mas pq para que funcione el script tuve que poner que
+borrara las funciones pq sino daba error.
+*** [2020-06-11 jue]
+comenzar con el problema de pmovto pienso el problema de la funcion se
+da con las ventas nuevas pq no da tiempo que se genere el idvta o algo
+asi.
+de ultima poner la fecha de primera que ese es el pmovto de una venta
+recien hecha.
+hay que revisar el trigger ahi.
 
 * doc
 ** dump/ restore schema
@@ -1481,3 +1530,6 @@ borrar en consola con drop database romi; con el usuario hero, pero
 debe hacerse desde otra database por eso cree romi2 para poder entrar
 alli y desde alli borrarla. Como yo hago owner a hero sobre romi hero
 debe borrarla. y luego hago el restore.
+* TODO
+** hacer trigger con pp que recalcule saldo
+** form para imprimir listados de visita fabian nuevo.
