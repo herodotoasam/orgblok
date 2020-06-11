@@ -1293,12 +1293,43 @@ la suma de pagos, etc.). O sea un update generalizado de comienzo.
 Perdi media hora mas pq para que funcione el script tuve que poner que
 borrara las funciones pq sino daba error.
 *** [2020-06-11 jue]
+:LOGBOOK:
+CLOCK: [2020-06-11 jue 19:25]--[2020-06-11 jue 20:22] =>  0:57
+CLOCK: [2020-06-11 jue 18:15]--[2020-06-11 jue 19:24] =>  1:09
+CLOCK: [2020-06-11 jue 14:35]--[2020-06-11 jue 15:18] =>  0:43
+CLOCK: [2020-06-11 jue 12:21]--[2020-06-11 jue 13:20] =>  0:59
+CLOCK: [2020-06-11 jue 11:23]--[2020-06-11 jue 11:36] =>  0:13
+CLOCK: [2020-06-11 jue 10:27]--[2020-06-11 jue 11:09] =>  0:42
+CLOCK: [2020-06-11 jue 09:47]--[2020-06-11 jue 10:26] =>  0:39
+:END:
 comenzar con el problema de pmovto pienso el problema de la funcion se
 da con las ventas nuevas pq no da tiempo que se genere el idvta o algo
 asi.
 de ultima poner la fecha de primera que ese es el pmovto de una venta
 recien hecha.
 hay que revisar el trigger ahi.
+40min- descubierto Lumen probando primeras impresiones. es una version
+lite de laravel con muchos menos archivos, que puede ser todalmente
+funcional y mucho mas rapida. No estaria mal probarla y ver si podemos
+desarrollar alli, debido a las caracteristicas de la api que
+necesitamos nosotros.
+42min termine de optimizar ventaspg arregle el tema pmovto era lo que
+decia estaba mal el trigger, el pmovto de una cuenta nueva es primera,
+no tiene sentido llamar a pmovto(). 
+-Estudiar volver a tener la tabla cuotas en pg para generar al toque
+sin demasiada carga de software cliente el simple array de cuotas. 
+-Estudiar tambien el no tener tabla cuotas pero usar la funcion gc.
+Me falta el campo cuota en tabla clientes, que vendria a ser: 
+update clientes set cuota=(select sum(ic) from ventas where
+idcliente=clientes.id)
+update clientes set cuota=(select sum(ic) from
+ventas where saldo>0 and idcliente=clientes.id)
+1.10hs terminado el cuadro principal de info que se necesita con pasar
+ventas que es el que maneja las zonas.
+1hs -un poco de boludeo con lumen...bastante bien, logre hacer
+funcionar las rutas y los controladores y obtener datos, lo que tengo
+que lograr ahora es dominar el array que entra y poder mostrarlo en
+pantalla con foreach e ir paso a paso.
 
 * doc
 ** dump/ restore schema
@@ -1533,3 +1564,9 @@ debe borrarla. y luego hago el restore.
 * TODO
 ** hacer trigger con pp que recalcule saldo
 ** form para imprimir listados de visita fabian nuevo.
+** DONE faltan trigger pagos_insert/update/delete que hagan perform gc y demas 
+- State "DONE"       from "TODO"       [2020-06-11 jue 14:35]
+desistido pq no actualizare nada en momento de modificar los pagos
+sino que al usar la tabla cuotas generare primero el gc con la funcion.
+** rescatar los proc de datos extras en tabla pagos y hacerlos triggers
+** tener en cuenta el campo cuota para los triggers al inser o delete venta o cancelar venta
