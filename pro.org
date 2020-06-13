@@ -1330,6 +1330,64 @@ ventas que es el que maneja las zonas.
 funcionar las rutas y los controladores y obtener datos, lo que tengo
 que lograr ahora es dominar el array que entra y poder mostrarlo en
 pantalla con foreach e ir paso a paso.
+*** [2020-06-12 vie]
+:LOGBOOK:
+CLOCK: [2020-06-12 vie 17:35]--[2020-06-12 vie 17:50] =>  0:15
+CLOCK: [2020-06-12 vie 16:42]--[2020-06-12 vie 17:20] =>  0:38
+CLOCK: [2020-06-12 vie 10:27]--[2020-06-12 vie 12:30] =>  2:03
+:END:
+2hs : comenzando con cobrpg.tcl terminada la vista, terminados muchos
+detalles de rbospg incluso con una practica de pasado completo,
+triggers pagos.
+38min -boludeando con lumen pude instanciar vue, y hacer un get con
+axios aunque tuve que poner el scr para vue y para axios, hice un
+v-for y presente los datos con un {{}} lo que veo es que no veo
+dificil la ejecucion de rutas para nada, menos el trabajo con los
+controllers y empezar a trabajar con vue despues. 
+15min puse en marcha stockpg.tcl el ultimo que faltaba.
+*** [2020-06-13 sáb]
+:LOGBOOK:
+CLOCK: [2020-06-13 sáb 15:46]--[2020-06-13 sáb 17:53] =>  2:07
+:END:
+con ruby rails- muy positiva la experiencia pude comenzar la migracion
+de dos tablas desde cero cargarla con datos y trabajar, falta ahora
+teoria. 
+* avance semanal
+** semana [2020-06-07 dom]
+a todo vapor con el comienzo del spa, y el cambio de frontend dejando
+semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
+practica. recien el domingo empiezo con cierta dificultad y muchas
+trabas, en especial en temas puntuales como el modal que me
+recontratabo en Bulma-Buefy (no habia sido asi en Semantic) [pero bue
+Semantic es tema totalmente cerrado, es imposible seguir con algo que
+requiere una instalacion tan pesada y ademas no se esta desarrollando
+mas. principalmente esto ultimo]. El autocomplete de Buefy tampoco me
+funciona, lo cual es un poco desilusionante.
+El sabado dia del cumpleaños habia sido pura lectura de jquery,
+pensando encontrar el nirvana alli, con librerias que prometian justo
+lo que necesitamos tanto en autocomplete como en datepicker pero todas
+obsoletas, asimismo el domingo me lance a hacer un curso de jquery y
+uno de CSS basico los cuales termine a los dos casi. Y me sirvio un
+monton para el lunes poner casi a punto el pasarventas en el mismo
+lugar en donde habia estado antes.
+Y alli vino el momento revolucionario de la semana: el pensar que
+podria desarrollar sobre la base de lo que ya tenia el TCL-postgres
+como sistema que estuviera listo mucho mas rapido en produccion que
+fuera mas seguro y manejable y en el futuro sirviera de
+resguardo. Eran muchas ventajas para pocas horas que podria insumir el
+proyecto siendo que gran parte ya estaba hecho y funcionando. Y asi
+fue que martes, miercoles, jueves y viernes logre poner a punto gran
+parte del proyecto, revisando la base de datos, haciendo mas triggers,
+etc.
+El Miercoles descubro LUMEN que es un microframework de Laravel y
+empiezo a leer y a aprender sobre el, y a practicar un poco sobre
+eso. 
+Creo que la semana que viene tendria que terminar el proyecto y seguir
+estudiando Lumen y Vue.
+ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
+bichito de volver a rails, me parece un camino mas corto que seguir
+con laravel. Todos los conceptos aprendidos en laravel me
+recontrasirven para rails.
 
 * doc
 ** dump/ restore schema
