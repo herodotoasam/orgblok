@@ -1,47 +1,53 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-10 mié 20:35]
-| Headline               | Time      |          |      |
-|------------------------+-----------+----------+------|
-| *Total time*           | *9d 4:52* |          |      |
-|------------------------+-----------+----------+------|
-| Agenda de trabajo      | 9d 4:52   |          |      |
-| \_  2020-Mayo          |           | 6d 14:05 |      |
-| \_    [2020-05-06 mié] |           |          | 5:00 |
-| \_    [2020-05-07 jue] |           |          | 6:07 |
-| \_    [2020-05-08 vie] |           |          | 6:57 |
-| \_    [2020-05-09 sáb] |           |          | 7:32 |
-| \_    [2020-05-10 dom] |           |          | 6:58 |
-| \_    [2020-05-11 lun] |           |          | 5:07 |
-| \_    [2020-05-12 mar] |           |          | 5:45 |
-| \_    [2020-05-13 mié] |           |          | 5:06 |
-| \_    [2020-05-14 jue] |           |          | 7:16 |
-| \_    [2020-05-15 vie] |           |          | 7:42 |
-| \_    [2020-05-16 sáb] |           |          | 6:12 |
-| \_    [2020-05-17 dom] |           |          | 2:26 |
-| \_    [2020-05-18 lun] |           |          | 9:14 |
-| \_    [2020-05-19 mar] |           |          | 6:07 |
-| \_    [2020-05-20 mié] |           |          | 6:52 |
-| \_    [2020-05-21 jue] |           |          | 8:01 |
-| \_    [2020-05-22 vie] |           |          | 9:16 |
-| \_    [2020-05-23 sáb] |           |          | 7:36 |
-| \_    [2020-05-24 dom] |           |          | 2:06 |
-| \_    [2020-05-25 lun] |           |          | 3:22 |
-| \_    [2020-05-26 mar] |           |          | 4:16 |
-| \_    [2020-05-27 mié] |           |          | 4:45 |
-| \_    [2020-05-28 jue] |           |          | 4:21 |
-| \_    [2020-05-29 vie] |           |          | 9:05 |
-| \_    [2020-05-30 sáb] |           |          | 6:00 |
-| \_    [2020-05-31 dom] |           |          | 4:55 |
-| \_  2020-Junio         |           | 2d 14:47 |      |
-| \_    [2020-06-01 lun] |           |          | 6:21 |
-| \_    [2020-06-02 mar] |           |          | 7:38 |
-| \_    [2020-06-03 mié] |           |          | 7:28 |
-| \_    [2020-06-04 jue] |           |          | 8:33 |
-| \_    [2020-06-05 vie] |           |          | 5:56 |
-| \_    [2020-06-07 dom] |           |          | 3:43 |
-| \_    [2020-06-08 lun] |           |          | 8:40 |
-| \_    [2020-06-09 mar] |           |          | 7:44 |
-| \_    [2020-06-10 mié] |           |          | 6:44 |
+#+CAPTION: Clock summary at [2020-06-16 mar 19:37]
+| Headline               | Time       |          |      |
+|------------------------+------------+----------+------|
+| *Total time*           | *10d 3:14* |          |      |
+|------------------------+------------+----------+------|
+| Agenda de trabajo      | 10d 3:14   |          |      |
+| \_  2020-Mayo          |            | 6d 14:05 |      |
+| \_    [2020-05-06 mié] |            |          | 5:00 |
+| \_    [2020-05-07 jue] |            |          | 6:07 |
+| \_    [2020-05-08 vie] |            |          | 6:57 |
+| \_    [2020-05-09 sáb] |            |          | 7:32 |
+| \_    [2020-05-10 dom] |            |          | 6:58 |
+| \_    [2020-05-11 lun] |            |          | 5:07 |
+| \_    [2020-05-12 mar] |            |          | 5:45 |
+| \_    [2020-05-13 mié] |            |          | 5:06 |
+| \_    [2020-05-14 jue] |            |          | 7:16 |
+| \_    [2020-05-15 vie] |            |          | 7:42 |
+| \_    [2020-05-16 sáb] |            |          | 6:12 |
+| \_    [2020-05-17 dom] |            |          | 2:26 |
+| \_    [2020-05-18 lun] |            |          | 9:14 |
+| \_    [2020-05-19 mar] |            |          | 6:07 |
+| \_    [2020-05-20 mié] |            |          | 6:52 |
+| \_    [2020-05-21 jue] |            |          | 8:01 |
+| \_    [2020-05-22 vie] |            |          | 9:16 |
+| \_    [2020-05-23 sáb] |            |          | 7:36 |
+| \_    [2020-05-24 dom] |            |          | 2:06 |
+| \_    [2020-05-25 lun] |            |          | 3:22 |
+| \_    [2020-05-26 mar] |            |          | 4:16 |
+| \_    [2020-05-27 mié] |            |          | 4:45 |
+| \_    [2020-05-28 jue] |            |          | 4:21 |
+| \_    [2020-05-29 vie] |            |          | 9:05 |
+| \_    [2020-05-30 sáb] |            |          | 6:00 |
+| \_    [2020-05-31 dom] |            |          | 4:55 |
+| \_  2020-Junio         |            | 3d 13:09 |      |
+| \_    [2020-06-01 lun] |            |          | 6:21 |
+| \_    [2020-06-02 mar] |            |          | 7:38 |
+| \_    [2020-06-03 mié] |            |          | 7:28 |
+| \_    [2020-06-04 jue] |            |          | 8:33 |
+| \_    [2020-06-05 vie] |            |          | 5:56 |
+| \_    [2020-06-07 dom] |            |          | 3:43 |
+| \_    [2020-06-08 lun] |            |          | 8:40 |
+| \_    [2020-06-09 mar] |            |          | 7:44 |
+| \_    [2020-06-10 mié] |            |          | 6:44 |
+| \_    [2020-06-11 jue] |            |          | 5:22 |
+| \_    [2020-06-12 vie] |            |          | 2:56 |
+| \_    [2020-06-13 sáb] |            |          | 2:07 |
+| \_    [2020-06-14 dom] |            |          | 0:46 |
+| \_    [2020-06-15 lun] |            |          | 6:53 |
+| \_    [2020-06-16 mar] |            |          | 4:18 |
 #+END:
 
 
@@ -1352,6 +1358,53 @@ CLOCK: [2020-06-13 sáb 15:46]--[2020-06-13 sáb 17:53] =>  2:07
 con ruby rails- muy positiva la experiencia pude comenzar la migracion
 de dos tablas desde cero cargarla con datos y trabajar, falta ahora
 teoria. 
+*** [2020-06-14 dom]
+:LOGBOOK:
+CLOCK: [2020-06-14 dom 12:10]--[2020-06-14 dom 12:56] =>  0:46
+:END:
+*** [2020-06-15 lun]
+:LOGBOOK:
+CLOCK: [2020-06-16 mar 12:15]--[2020-06-16 mar 12:15] =>  0:00
+CLOCK: [2020-06-15 lun 17:30]--[2020-06-15 lun 19:34] =>  2:04
+CLOCK: [2020-06-15 lun 14:59]--[2020-06-15 lun 16:53] =>  1:54
+CLOCK: [2020-06-15 lun 13:56]--[2020-06-15 lun 14:47] =>  0:51
+CLOCK: [2020-06-15 lun 11:16]--[2020-06-15 lun 13:20] =>  2:04
+:END:
+Hice todas las migraciones de la base de datos en rails, todo normal,
+salvo los nombres de algunas pocas tablas, como paso con el otro
+sistema, que para no seguir alterando las aplicaciones se pueden usar
+vistas tranquilamente y eso tendria que haber usado desde un comienzo.
+La unica dificultad que veo hasta ahora es que los procesos de update
+de estado, que envuelven gran trabajo con triggers que en las otras
+bases funcionan perfecto, aca demoran una barbaridad como que hubiera
+algun proceso que ralentizara al maximo las cosas. Incluso ahora que
+estoy creando un index sobre la tabla ventas(idcliente) esta tomando
+un tiempo muy largo, frente al de otras bases, en las otras toma un
+segundo, aca toma varios minutos y lo cancele, no se pudo hacer.
+Descubierto el misterio: los indices, las tablas ventas y pagos tenian
+indices sobre idcliente e idvta, fundamentalmente el de idcliente hace
+la diferencia, no se en que lugar del migration laravel lo agregamos
+al indice, pero aca los updates sin indices se hacen insoportablemente
+lentos y con indices son ultrarapidos y la base funciona igual que las
+otras. Ahora tengo que releer todo de nuevo para entender a fondo lo
+que tenemos que hacer, para que el backend funcione a pleno antes de
+querer agregar algo de frontend.
+*** [2020-06-16 mar]
+:LOGBOOK:
+CLOCK: [2020-06-16 mar 18:30]--[2020-06-16 mar 19:31] =>  1:01
+CLOCK: [2020-06-16 mar 15:48]--[2020-06-16 mar 16:24] =>  0:36
+CLOCK: [2020-06-16 mar 13:44]--[2020-06-16 mar 14:04] =>  0:20
+CLOCK: [2020-06-16 mar 12:21]--[2020-06-16 mar 12:40] =>  0:19
+CLOCK: [2020-06-16 mar 11:35]--[2020-06-16 mar 12:15] =>  0:40
+CLOCK: [2020-06-16 mar 09:56]--[2020-06-16 mar 11:18] =>  1:22
+:END:
+una hora veinte muy basicas tratando de comprender yo solo el
+funcionamiento de rails para new/create. con el form hecho con
+erb. problemas con el scope y los params. pero ya esta visto. 
+40min corrigiendo el fichas.tcl.
+avanzando en rails con dificultad, a los tropezones, no es facil, pq
+no estoy haciendo ningun curso por ahora sino que estoy siguiendo la
+lectura del manual.
 * avance semanal
 ** semana [2020-06-07 dom]
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
@@ -1527,6 +1580,16 @@ yajra en packagist explica las forma de servir el json que no solo es
 con eloquent sino con otras formas. 
 cualquier cosa esto lo aprendi con los videos de tip 4 laravel y ajax
 de rimorsoft.
+** rails-migrate
+*** rails g model Cliente
+*** rails g migration AddForeignKeys
+usado para generar una migracion sin modelo ideal para pasar index o
+claves foraneas p.e.
+*** rails db:migrate
+*** rails db:rollback STEP=3
+*** rails db:reset
+** rails
+*** rails g controller Cliente
 * troubleshooting
 ** laravel
 *** no existe laravel como comando para ejecutar laravel new
