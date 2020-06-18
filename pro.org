@@ -1405,6 +1405,56 @@ erb. problemas con el scope y los params. pero ya esta visto.
 avanzando en rails con dificultad, a los tropezones, no es facil, pq
 no estoy haciendo ningun curso por ahora sino que estoy siguiendo la
 lectura del manual.
+*** [2020-06-17 mié]
+:LOGBOOK:
+CLOCK: [2020-06-17 mié 17:45]--[2020-06-17 mié 19:27] =>  1:42
+CLOCK: [2020-06-17 mié 15:58]--[2020-06-17 mié 17:15] =>  1:17
+CLOCK: [2020-06-17 mié 11:00]--[2020-06-17 mié 12:27] =>  1:27
+CLOCK: [2020-06-17 mié 10:14]--[2020-06-17 mié 11:00] =>  0:46
+:END:
+estoy en un bache con rails, quiero tratar de avanzar despacio
+aprendiendo solidamente con las guias.
+sigo con el trabajo sobre tcl-postgres
+*** [2020-06-18 jue]
+:LOGBOOK:
+CLOCK: [2020-06-18 jue 15:00]--[2020-06-18 jue 17:33] =>  2:33
+CLOCK: [2020-06-18 jue 10:22]--[2020-06-18 jue 12:56] =>  2:34
+:END:
+ayer estuve a punto de abandonar rails, y leyendo descubri que
+desarrollar un SPA no es una buena idea, que requiere mucha
+programacion, que es dificil de mantener y que contiene muchos
+errores, por lo cual en el fondo es inseguro para algo como lo que
+necesitamos nosotros.
+A decir del articulo: con rails se obtiene el 90% de la funcionalidad
+del spa con el 10% del trabajo.
+Luego me puse a analizar los distintos lenguajes de plantillas y vi
+que aparte de erb estan slim y helm como para lograr una escritura
+mucho mas fluida, p.e. con slim.
+Hoy despues de cansadoras dos horas y media felizmente descubro la
+forma de usar directamente los models dentro de las view con solo
+nombrarlos, eso es muy fuerte pq tenes el acceso a todos los datos de
+una.
+Hice mi datalist rudimentario pero no lo puedo linkar al modelo que
+tiene rails de vinculacion campo/edit/new mediante form_for, y a la
+vez veo dos cosas, que en un lugar dicen que usar datalist para
+autocomplete no esta bien, y segundo que hay muchas repuestas en
+internet sobre autocompletado para rails, o sea que habra que meterse
+en ello con tiempo. o con mas conocimiento.
+Ya vere la forma de conectar input directo a los objetos para hacer un
+edit o un new, o hare mis propios forms para eso que no sean los
+basicos que provee la interface.
+Con muchos altibajos con muchas trabas pero saque adelante un cuadro
+de busqueda medianamente lindo en boostrap y funcional para ver,
+arregle tambien la tabla que no se veia bien y era pq estaban unidas
+dos tablas y eso desastraba todo.
+Queda por definir en larga encamada, slim-helm batalla final solo
+teorica, aprender mas slim segunda lectura profunda, y leer simple
+form, y leer de nuevo form en rails.
+pq me da ganas de volver al erb pero da lastima perder la elegancia y
+simplicidad de slim.
+y no olvidemos que permite poner html o sea que si algo no funca lo
+ponemos directo y listo.
+
 * avance semanal
 ** semana [2020-06-07 dom]
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
