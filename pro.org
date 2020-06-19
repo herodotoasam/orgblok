@@ -1,53 +1,56 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-16 mar 19:37]
-| Headline               | Time       |          |      |
-|------------------------+------------+----------+------|
-| *Total time*           | *10d 3:14* |          |      |
-|------------------------+------------+----------+------|
-| Agenda de trabajo      | 10d 3:14   |          |      |
-| \_  2020-Mayo          |            | 6d 14:05 |      |
-| \_    [2020-05-06 mié] |            |          | 5:00 |
-| \_    [2020-05-07 jue] |            |          | 6:07 |
-| \_    [2020-05-08 vie] |            |          | 6:57 |
-| \_    [2020-05-09 sáb] |            |          | 7:32 |
-| \_    [2020-05-10 dom] |            |          | 6:58 |
-| \_    [2020-05-11 lun] |            |          | 5:07 |
-| \_    [2020-05-12 mar] |            |          | 5:45 |
-| \_    [2020-05-13 mié] |            |          | 5:06 |
-| \_    [2020-05-14 jue] |            |          | 7:16 |
-| \_    [2020-05-15 vie] |            |          | 7:42 |
-| \_    [2020-05-16 sáb] |            |          | 6:12 |
-| \_    [2020-05-17 dom] |            |          | 2:26 |
-| \_    [2020-05-18 lun] |            |          | 9:14 |
-| \_    [2020-05-19 mar] |            |          | 6:07 |
-| \_    [2020-05-20 mié] |            |          | 6:52 |
-| \_    [2020-05-21 jue] |            |          | 8:01 |
-| \_    [2020-05-22 vie] |            |          | 9:16 |
-| \_    [2020-05-23 sáb] |            |          | 7:36 |
-| \_    [2020-05-24 dom] |            |          | 2:06 |
-| \_    [2020-05-25 lun] |            |          | 3:22 |
-| \_    [2020-05-26 mar] |            |          | 4:16 |
-| \_    [2020-05-27 mié] |            |          | 4:45 |
-| \_    [2020-05-28 jue] |            |          | 4:21 |
-| \_    [2020-05-29 vie] |            |          | 9:05 |
-| \_    [2020-05-30 sáb] |            |          | 6:00 |
-| \_    [2020-05-31 dom] |            |          | 4:55 |
-| \_  2020-Junio         |            | 3d 13:09 |      |
-| \_    [2020-06-01 lun] |            |          | 6:21 |
-| \_    [2020-06-02 mar] |            |          | 7:38 |
-| \_    [2020-06-03 mié] |            |          | 7:28 |
-| \_    [2020-06-04 jue] |            |          | 8:33 |
-| \_    [2020-06-05 vie] |            |          | 5:56 |
-| \_    [2020-06-07 dom] |            |          | 3:43 |
-| \_    [2020-06-08 lun] |            |          | 8:40 |
-| \_    [2020-06-09 mar] |            |          | 7:44 |
-| \_    [2020-06-10 mié] |            |          | 6:44 |
-| \_    [2020-06-11 jue] |            |          | 5:22 |
-| \_    [2020-06-12 vie] |            |          | 2:56 |
-| \_    [2020-06-13 sáb] |            |          | 2:07 |
-| \_    [2020-06-14 dom] |            |          | 0:46 |
-| \_    [2020-06-15 lun] |            |          | 6:53 |
-| \_    [2020-06-16 mar] |            |          | 4:18 |
+#+CAPTION: Clock summary at [2020-06-19 vie 18:14]
+| Headline               | Time        |          |      |
+|------------------------+-------------+----------+------|
+| *Total time*           | *10d 18:02* |          |      |
+|------------------------+-------------+----------+------|
+| Agenda de trabajo      | 10d 18:02   |          |      |
+| \_  2020-Mayo          |             | 6d 14:05 |      |
+| \_    [2020-05-06 mié] |             |          | 5:00 |
+| \_    [2020-05-07 jue] |             |          | 6:07 |
+| \_    [2020-05-08 vie] |             |          | 6:57 |
+| \_    [2020-05-09 sáb] |             |          | 7:32 |
+| \_    [2020-05-10 dom] |             |          | 6:58 |
+| \_    [2020-05-11 lun] |             |          | 5:07 |
+| \_    [2020-05-12 mar] |             |          | 5:45 |
+| \_    [2020-05-13 mié] |             |          | 5:06 |
+| \_    [2020-05-14 jue] |             |          | 7:16 |
+| \_    [2020-05-15 vie] |             |          | 7:42 |
+| \_    [2020-05-16 sáb] |             |          | 6:12 |
+| \_    [2020-05-17 dom] |             |          | 2:26 |
+| \_    [2020-05-18 lun] |             |          | 9:14 |
+| \_    [2020-05-19 mar] |             |          | 6:07 |
+| \_    [2020-05-20 mié] |             |          | 6:52 |
+| \_    [2020-05-21 jue] |             |          | 8:01 |
+| \_    [2020-05-22 vie] |             |          | 9:16 |
+| \_    [2020-05-23 sáb] |             |          | 7:36 |
+| \_    [2020-05-24 dom] |             |          | 2:06 |
+| \_    [2020-05-25 lun] |             |          | 3:22 |
+| \_    [2020-05-26 mar] |             |          | 4:16 |
+| \_    [2020-05-27 mié] |             |          | 4:45 |
+| \_    [2020-05-28 jue] |             |          | 4:21 |
+| \_    [2020-05-29 vie] |             |          | 9:05 |
+| \_    [2020-05-30 sáb] |             |          | 6:00 |
+| \_    [2020-05-31 dom] |             |          | 4:55 |
+| \_  2020-Junio         |             | 4d 3:57  |      |
+| \_    [2020-06-01 lun] |             |          | 6:21 |
+| \_    [2020-06-02 mar] |             |          | 7:38 |
+| \_    [2020-06-03 mié] |             |          | 7:28 |
+| \_    [2020-06-04 jue] |             |          | 8:33 |
+| \_    [2020-06-05 vie] |             |          | 5:56 |
+| \_    [2020-06-07 dom] |             |          | 3:43 |
+| \_    [2020-06-08 lun] |             |          | 8:40 |
+| \_    [2020-06-09 mar] |             |          | 7:44 |
+| \_    [2020-06-10 mié] |             |          | 6:44 |
+| \_    [2020-06-11 jue] |             |          | 5:22 |
+| \_    [2020-06-12 vie] |             |          | 2:56 |
+| \_    [2020-06-13 sáb] |             |          | 2:07 |
+| \_    [2020-06-14 dom] |             |          | 0:46 |
+| \_    [2020-06-15 lun] |             |          | 6:53 |
+| \_    [2020-06-16 mar] |             |          | 4:18 |
+| \_    [2020-06-17 mié] |             |          | 5:12 |
+| \_    [2020-06-18 jue] |             |          | 5:07 |
+| \_    [2020-06-19 vie] |             |          | 4:29 |
 #+END:
 
 
@@ -1454,6 +1457,58 @@ pq me da ganas de volver al erb pero da lastima perder la elegancia y
 simplicidad de slim.
 y no olvidemos que permite poner html o sea que si algo no funca lo
 ponemos directo y listo.
+*** [2020-06-19 vie]
+:LOGBOOK:
+CLOCK: [2020-06-19 vie 16:20]--[2020-06-19 vie 18:06] =>  1:46
+CLOCK: [2020-06-19 vie 12:20]--[2020-06-19 vie 13:01] =>  0:41
+CLOCK: [2020-06-19 vie 11:25]--[2020-06-19 vie 12:19] =>  0:54
+CLOCK: [2020-06-19 vie 10:15]--[2020-06-19 vie 11:23] =>  1:08
+:END:
+la idea es volver a erb, pienso que slim es lindo pero agrega una capa
+de posibles errores incomprensibles o sea no debugueables, y tiene
+poca documentacion, y como es con indentacion con una pagina grande
+tambien sera dificil de mantener. 
+creo que con erb tenes una capa menos, y aparte todos los ejemplos en
+todos lados estan con erb. Medio como que pasarse a slim sin dominar
+el tema es medio complicado.
+1hs- pase a ERB, con dificultades desinstale todo slim. puse
+simpleform en bootstrap. o sea que ahora estoy en
+rails-erb/simpleform/bootstrap tengo la tabla bien, tengo el crud
+bien, tengo la busqueda bien. Tendria que encarar el ajax que vi los
+videos hoy y pasar a pulir tcl.
+1hs agregue div-container a las los forms edit y new y ahora se ven
+bien, con simpleform-bootstrap, tambien pase el form que estaba en
+erbpuro a simpleform. puse los combos de barrio y zona e hice una
+practica extensa sobre el uso real de los tres combos y los veo muy
+usables en una hipotesis de uso complicada como puede ser la seleccion
+de calles/barrios/zonas, en especial calles con 3000 selecciones, y
+veo que tiene una fluidez muy grande y suficiente para todo uso, solo
+en el caso de las mnas te obligaria a buscarla en forma de combo
+velozmente pero estan ordenadas lo cual no es tan gravoso y
+representan menos del 5% de las ventas. el resto va como un tiro casi
+sin usar la seleccion con el raton salvo quizas para algun
+general. Mas trabado resulta la "solucion" tcl que te traba con los
+nombres iguales. Por eso no creo que tenga que seguir insistiendo en
+buscar un autocompletado para eso.
+40min hice forms horizontales!!!!
+1:45hs hoy hice un avance gigante pq practicamente he conseguido en un
+dia poner en visualidad los formularios de crear y editar cliente con
+bootstrap de una en un momento. Aparte esos formularios andan fenomeno
+con el backend, o sea las validaciones se hacen solas y todo es muy
+solido, Es mas no tengo codigo sino que es todo hecho con ruby-erb.
+tambien en el dia de hoy gane el hecho de lograr el array de
+calles/barrios/zonas muy agilmente y de hacer los selects, y darme
+cuenta que con los select estoy listo. Por eso ahora estoy en hacer la
+union entre clientes y venta, y lo quiero hacer a traves de la
+pertenencia o sea que se pueda hacer de una por las relaciones, asi
+como por venta pertenecer a clientes se armo todo el rutaje, quiero
+que al hacer una venta nueva se cargue en forma mas que segura todo.
+Un dia de claro avance.
+Al menos en el micro-nivel al que habia llegado con laravel, no al que
+tengo que llegar para reemplazar tcl, pero paciencia. Hablamos de tres
+meses para tener la spa, y solo llevamos mes y medio si tenemos en
+cuenta todo el tiempo, lo peor es el aprendizaje creo que cuando sepa
+mas de todo voy a andar muchisimo mas rapido.
 
 * avance semanal
 ** semana [2020-06-07 dom]
