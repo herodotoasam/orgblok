@@ -1,56 +1,59 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-19 vie 18:14]
-| Headline               | Time        |          |      |
-|------------------------+-------------+----------+------|
-| *Total time*           | *10d 18:02* |          |      |
-|------------------------+-------------+----------+------|
-| Agenda de trabajo      | 10d 18:02   |          |      |
-| \_  2020-Mayo          |             | 6d 14:05 |      |
-| \_    [2020-05-06 mié] |             |          | 5:00 |
-| \_    [2020-05-07 jue] |             |          | 6:07 |
-| \_    [2020-05-08 vie] |             |          | 6:57 |
-| \_    [2020-05-09 sáb] |             |          | 7:32 |
-| \_    [2020-05-10 dom] |             |          | 6:58 |
-| \_    [2020-05-11 lun] |             |          | 5:07 |
-| \_    [2020-05-12 mar] |             |          | 5:45 |
-| \_    [2020-05-13 mié] |             |          | 5:06 |
-| \_    [2020-05-14 jue] |             |          | 7:16 |
-| \_    [2020-05-15 vie] |             |          | 7:42 |
-| \_    [2020-05-16 sáb] |             |          | 6:12 |
-| \_    [2020-05-17 dom] |             |          | 2:26 |
-| \_    [2020-05-18 lun] |             |          | 9:14 |
-| \_    [2020-05-19 mar] |             |          | 6:07 |
-| \_    [2020-05-20 mié] |             |          | 6:52 |
-| \_    [2020-05-21 jue] |             |          | 8:01 |
-| \_    [2020-05-22 vie] |             |          | 9:16 |
-| \_    [2020-05-23 sáb] |             |          | 7:36 |
-| \_    [2020-05-24 dom] |             |          | 2:06 |
-| \_    [2020-05-25 lun] |             |          | 3:22 |
-| \_    [2020-05-26 mar] |             |          | 4:16 |
-| \_    [2020-05-27 mié] |             |          | 4:45 |
-| \_    [2020-05-28 jue] |             |          | 4:21 |
-| \_    [2020-05-29 vie] |             |          | 9:05 |
-| \_    [2020-05-30 sáb] |             |          | 6:00 |
-| \_    [2020-05-31 dom] |             |          | 4:55 |
-| \_  2020-Junio         |             | 4d 3:57  |      |
-| \_    [2020-06-01 lun] |             |          | 6:21 |
-| \_    [2020-06-02 mar] |             |          | 7:38 |
-| \_    [2020-06-03 mié] |             |          | 7:28 |
-| \_    [2020-06-04 jue] |             |          | 8:33 |
-| \_    [2020-06-05 vie] |             |          | 5:56 |
-| \_    [2020-06-07 dom] |             |          | 3:43 |
-| \_    [2020-06-08 lun] |             |          | 8:40 |
-| \_    [2020-06-09 mar] |             |          | 7:44 |
-| \_    [2020-06-10 mié] |             |          | 6:44 |
-| \_    [2020-06-11 jue] |             |          | 5:22 |
-| \_    [2020-06-12 vie] |             |          | 2:56 |
-| \_    [2020-06-13 sáb] |             |          | 2:07 |
-| \_    [2020-06-14 dom] |             |          | 0:46 |
-| \_    [2020-06-15 lun] |             |          | 6:53 |
-| \_    [2020-06-16 mar] |             |          | 4:18 |
-| \_    [2020-06-17 mié] |             |          | 5:12 |
-| \_    [2020-06-18 jue] |             |          | 5:07 |
-| \_    [2020-06-19 vie] |             |          | 4:29 |
+#+CAPTION: Clock summary at [2020-06-23 mar 20:36]
+| Headline               | Time       |          |      |
+|------------------------+------------+----------+------|
+| *Total time*           | *11d 6:12* |          |      |
+|------------------------+------------+----------+------|
+| Agenda de trabajo      | 11d 6:12   |          |      |
+| \_  2020-Mayo          |            | 6d 14:05 |      |
+| \_    [2020-05-06 mié] |            |          | 5:00 |
+| \_    [2020-05-07 jue] |            |          | 6:07 |
+| \_    [2020-05-08 vie] |            |          | 6:57 |
+| \_    [2020-05-09 sáb] |            |          | 7:32 |
+| \_    [2020-05-10 dom] |            |          | 6:58 |
+| \_    [2020-05-11 lun] |            |          | 5:07 |
+| \_    [2020-05-12 mar] |            |          | 5:45 |
+| \_    [2020-05-13 mié] |            |          | 5:06 |
+| \_    [2020-05-14 jue] |            |          | 7:16 |
+| \_    [2020-05-15 vie] |            |          | 7:42 |
+| \_    [2020-05-16 sáb] |            |          | 6:12 |
+| \_    [2020-05-17 dom] |            |          | 2:26 |
+| \_    [2020-05-18 lun] |            |          | 9:14 |
+| \_    [2020-05-19 mar] |            |          | 6:07 |
+| \_    [2020-05-20 mié] |            |          | 6:52 |
+| \_    [2020-05-21 jue] |            |          | 8:01 |
+| \_    [2020-05-22 vie] |            |          | 9:16 |
+| \_    [2020-05-23 sáb] |            |          | 7:36 |
+| \_    [2020-05-24 dom] |            |          | 2:06 |
+| \_    [2020-05-25 lun] |            |          | 3:22 |
+| \_    [2020-05-26 mar] |            |          | 4:16 |
+| \_    [2020-05-27 mié] |            |          | 4:45 |
+| \_    [2020-05-28 jue] |            |          | 4:21 |
+| \_    [2020-05-29 vie] |            |          | 9:05 |
+| \_    [2020-05-30 sáb] |            |          | 6:00 |
+| \_    [2020-05-31 dom] |            |          | 4:55 |
+| \_  2020-Junio         |            | 4d 16:07 |      |
+| \_    [2020-06-01 lun] |            |          | 6:21 |
+| \_    [2020-06-02 mar] |            |          | 7:38 |
+| \_    [2020-06-03 mié] |            |          | 7:28 |
+| \_    [2020-06-04 jue] |            |          | 8:33 |
+| \_    [2020-06-05 vie] |            |          | 5:56 |
+| \_    [2020-06-07 dom] |            |          | 3:43 |
+| \_    [2020-06-08 lun] |            |          | 8:40 |
+| \_    [2020-06-09 mar] |            |          | 7:44 |
+| \_    [2020-06-10 mié] |            |          | 6:44 |
+| \_    [2020-06-11 jue] |            |          | 5:22 |
+| \_    [2020-06-12 vie] |            |          | 2:56 |
+| \_    [2020-06-13 sáb] |            |          | 2:07 |
+| \_    [2020-06-14 dom] |            |          | 0:46 |
+| \_    [2020-06-15 lun] |            |          | 6:53 |
+| \_    [2020-06-16 mar] |            |          | 4:18 |
+| \_    [2020-06-17 mié] |            |          | 5:12 |
+| \_    [2020-06-18 jue] |            |          | 5:07 |
+| \_    [2020-06-19 vie] |            |          | 4:29 |
+| \_    [2020-06-20 sáb] |            |          | 3:01 |
+| \_    [2020-06-22 lun] |            |          | 3:49 |
+| \_    [2020-06-23 mar] |            |          | 5:20 |
 #+END:
 
 
@@ -1510,42 +1513,49 @@ meses para tener la spa, y solo llevamos mes y medio si tenemos en
 cuenta todo el tiempo, lo peor es el aprendizaje creo que cuando sepa
 mas de todo voy a andar muchisimo mas rapido.
 
-* avance semanal
-** semana [2020-06-07 dom]
-a todo vapor con el comienzo del spa, y el cambio de frontend dejando
-semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
-practica. recien el domingo empiezo con cierta dificultad y muchas
-trabas, en especial en temas puntuales como el modal que me
-recontratabo en Bulma-Buefy (no habia sido asi en Semantic) [pero bue
-Semantic es tema totalmente cerrado, es imposible seguir con algo que
-requiere una instalacion tan pesada y ademas no se esta desarrollando
-mas. principalmente esto ultimo]. El autocomplete de Buefy tampoco me
-funciona, lo cual es un poco desilusionante.
-El sabado dia del cumpleaños habia sido pura lectura de jquery,
-pensando encontrar el nirvana alli, con librerias que prometian justo
-lo que necesitamos tanto en autocomplete como en datepicker pero todas
-obsoletas, asimismo el domingo me lance a hacer un curso de jquery y
-uno de CSS basico los cuales termine a los dos casi. Y me sirvio un
-monton para el lunes poner casi a punto el pasarventas en el mismo
-lugar en donde habia estado antes.
-Y alli vino el momento revolucionario de la semana: el pensar que
-podria desarrollar sobre la base de lo que ya tenia el TCL-postgres
-como sistema que estuviera listo mucho mas rapido en produccion que
-fuera mas seguro y manejable y en el futuro sirviera de
-resguardo. Eran muchas ventajas para pocas horas que podria insumir el
-proyecto siendo que gran parte ya estaba hecho y funcionando. Y asi
-fue que martes, miercoles, jueves y viernes logre poner a punto gran
-parte del proyecto, revisando la base de datos, haciendo mas triggers,
-etc.
-El Miercoles descubro LUMEN que es un microframework de Laravel y
-empiezo a leer y a aprender sobre el, y a practicar un poco sobre
-eso. 
-Creo que la semana que viene tendria que terminar el proyecto y seguir
-estudiando Lumen y Vue.
-ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
-bichito de volver a rails, me parece un camino mas corto que seguir
-con laravel. Todos los conceptos aprendidos en laravel me
-recontrasirven para rails.
+*** [2020-06-20 sáb]
+:LOGBOOK:
+CLOCK: [2020-06-20 sáb 17:05]--[2020-06-20 sáb 17:29] =>  0:24
+CLOCK: [2020-06-20 sáb 16:10]--[2020-06-20 sáb 17:02] =>  0:52
+CLOCK: [2020-06-20 sáb 13:56]--[2020-06-20 sáb 15:22] =>  1:26
+CLOCK: [2020-06-20 sáb 13:12]--[2020-06-20 sáb 13:31] =>  0:19
+:END:
+Pude lograr pasar ventas, tener el formulario de pasar ventas, linkado
+a un cliente con los metodos new y create funcionando correctamente, y
+tambien en el metodo show de clientes agregue una tabla con las
+ventas. 
+La solucion de datapicker de html5 es satisfactoria y rapida, en
+firefox es mas linda que cualquier datapicker que hubiese imaginado.
+Me falta ver como podria agregar el detalle de articulos a la venta
+generada y eso va a ser un poco complicado y va a requerir bastante
+mas estudio.
+Lo bueno de esto es que visualmente esta a un 95% de lo que queria y
+practicamente sin esfuerzo o sea se hace solo, en ese sentido un gran
+clap para html5 y bootstrap, y el background de rails funciona muy
+solido pero hay que entenderlo para que rinda bien. Creo que una
+aplicacion solida asi con rails es de confianza y tambien servira bien
+a su proposito. 
+La rapidez es como decia ese tipo es como un spa, falta el delay de
+consulta en la nube, pero eso lo sufren todos.
+*** [2020-06-22 lun]
+:LOGBOOK:
+CLOCK: [2020-06-22 lun 13:59]--[2020-06-22 lun 15:51] =>  1:52
+CLOCK: [2020-06-22 lun 12:42]--[2020-06-22 lun 13:15] =>  0:33
+CLOCK: [2020-06-22 lun 11:38]--[2020-06-22 lun 12:00] =>  0:22
+CLOCK: [2020-06-22 lun 10:26]--[2020-06-22 lun 11:28] =>  1:02
+:END:
+enteramente dedicado a flask
+*** [2020-06-23 mar]
+:LOGBOOK:
+CLOCK: [2020-06-23 mar 19:34]
+CLOCK: [2020-06-23 mar 19:13]--[2020-06-23 mar 19:33] =>  0:20
+CLOCK: [2020-06-23 mar 17:56]--[2020-06-23 mar 18:47] =>  0:51
+CLOCK: [2020-06-23 mar 13:40]--[2020-06-23 mar 15:42] =>  2:02
+CLOCK: [2020-06-23 mar 12:03]--[2020-06-23 mar 12:54] =>  0:51
+CLOCK: [2020-06-23 mar 10:11]--[2020-06-23 mar 11:27] =>  1:16
+:END:
+dedicado a flask
+19:34 retomo django
 
 * doc
 ** dump/ restore schema
@@ -1692,7 +1702,7 @@ usado para generar una migracion sin modelo ideal para pasar index o
 claves foraneas p.e.
 *** rails db:migrate
 *** rails db:rollback STEP=3
-*** rails db:reset
+*** rails db:reset --trace    //trace es para ver los errores
 ** rails
 *** rails g controller Cliente
 * troubleshooting
@@ -1796,3 +1806,68 @@ desistido pq no actualizare nada en momento de modificar los pagos
 sino que al usar la tabla cuotas generare primero el gc con la funcion.
 ** rescatar los proc de datos extras en tabla pagos y hacerlos triggers
 ** tener en cuenta el campo cuota para los triggers al inser o delete venta o cancelar venta
+* avance semanal
+** semana [2020-06-07 dom]
+a todo vapor con el comienzo del spa, y el cambio de frontend dejando
+semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
+practica. recien el domingo empiezo con cierta dificultad y muchas
+trabas, en especial en temas puntuales como el modal que me
+recontratabo en Bulma-Buefy (no habia sido asi en Semantic) [pero bue
+Semantic es tema totalmente cerrado, es imposible seguir con algo que
+requiere una instalacion tan pesada y ademas no se esta desarrollando
+mas. principalmente esto ultimo]. El autocomplete de Buefy tampoco me
+funciona, lo cual es un poco desilusionante.
+El sabado dia del cumpleaños habia sido pura lectura de jquery,
+pensando encontrar el nirvana alli, con librerias que prometian justo
+lo que necesitamos tanto en autocomplete como en datepicker pero todas
+obsoletas, asimismo el domingo me lance a hacer un curso de jquery y
+uno de CSS basico los cuales termine a los dos casi. Y me sirvio un
+monton para el lunes poner casi a punto el pasarventas en el mismo
+lugar en donde habia estado antes.
+Y alli vino el momento revolucionario de la semana: el pensar que
+podria desarrollar sobre la base de lo que ya tenia el TCL-postgres
+como sistema que estuviera listo mucho mas rapido en produccion que
+fuera mas seguro y manejable y en el futuro sirviera de
+resguardo. Eran muchas ventajas para pocas horas que podria insumir el
+proyecto siendo que gran parte ya estaba hecho y funcionando. Y asi
+fue que martes, miercoles, jueves y viernes logre poner a punto gran
+parte del proyecto, revisando la base de datos, haciendo mas triggers,
+etc.
+El Miercoles descubro LUMEN que es un microframework de Laravel y
+empiezo a leer y a aprender sobre el, y a practicar un poco sobre
+eso. 
+Creo que la semana que viene tendria que terminar el proyecto y seguir
+estudiando Lumen y Vue.
+ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
+bichito de volver a rails, me parece un camino mas corto que seguir
+con laravel. Todos los conceptos aprendidos en laravel me
+recontrasirven para rails.
+** semana [2020-06-14 dom]
+inmersion en ruby. Las diferencias son que hay pocos videos, pocos
+tutoriales y los que hay son muy viejos. Como que rails fue famoso 10
+años atras con la version 3 y 4 y ahora en el 2020 nadie le da bola.
+La documentacion oficial es muy dificil de entender, se aprende pero
+cuesta mucho. (igual a laravel si hubiera tenido que aprender de
+ahi). Hay libros de rails pero no los he conseguido.
+Esta semana tambien fue una semana de grandes descartes o de grandes
+simplificaciones que no se si vienen pq estoy cansandome de no tener
+resultados o cansandome en general o bien pq estoy mas bien acertando
+el camino mas directo
+- SPA: un gran articulo leido en medium que daba cuenta sobre los spa
+  vs rails puro y concluia que un spa es dificultoso de programar y
+  mantener y propenso a errores aun para programadores profesionales,
+  y no queremos esto para nuestra aplicacion de oficina, por eso alli
+  quedo la necesidad de estudiar vue o mas recientemente react.
+- Bulma y etcs: me quedo con Bootstrap que anda de facto con
+  simpleform y anda perfecto de una, pretender diferenciarse con una
+  opcion atipica como bulma me parece excentrico y
+  dificultoso. problematico sin documentacion para hacer el binding.
+- autocompletes: probe los selects que de una se producen con una
+  linea de codigo en rails y son cien por cien funcionales a la hora
+  del trabajo incluso diria que mas que los combos-mios-tcl.
+Necesito aprender en forma mas basica y a fondo si quiero avanzar a
+otros niveles, por eso creo que el libro de ruby bajado me va a servir
+y seguir leyendo e investigando las guias rails a fondo hasta saberlas
+todas. Hay buenos tutoriales en medium sobre rails que hasta ahora me
+han servido y creo que por ahi pasa ir subiendo peldaño a peldaño.
+
