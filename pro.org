@@ -1576,6 +1576,16 @@ CLOCK: [2020-06-25 jue 12:23]--[2020-06-25 jue 13:13] =>  0:50
 CLOCK: [2020-06-25 jue 10:06]--[2020-06-25 jue 12:05] =>  1:59
 :END:
 instalare pycharm:hecho.
+*** [2020-06-26 vie]
+dia dedicado al traslado de la oficina y adecuacion del lugar con una
+nueva computadora con la instalacion del sistema
+*** [2020-06-27 sáb]
+:LOGBOOK:
+CLOCK: [2020-06-27 sáb 16:50]
+CLOCK: [2020-06-27 sáb 14:00]--[2020-06-27 sáb 16:50] =>  2:50
+CLOCK: [2020-06-27 sáb 11:30]--[2020-06-27 sáb 13:09] =>  1:39
+:END:
+comienza boludeo con vim-ide-python
 * doc
 ** dump/ restore schema
 pg_dump > file
