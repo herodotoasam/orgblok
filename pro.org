@@ -1586,6 +1586,12 @@ CLOCK: [2020-06-27 sáb 14:00]--[2020-06-27 sáb 16:50] =>  2:50
 CLOCK: [2020-06-27 sáb 11:30]--[2020-06-27 sáb 13:09] =>  1:39
 :END:
 comienza boludeo con vim-ide-python
+*** [2020-06-28 Sun]
+reinstalacion del sistema.
+prueba con manjaro primero con openbox, luego instalacion en sistema
+de manajaro-xfce, fallida por fallas en la impresora y en red y
+complejidad en general del sistema. Y decantacion final por mint hasta
+ahora muy satisfecho.
 * doc
 ** dump/ restore schema
 pg_dump > file
@@ -1836,6 +1842,28 @@ borrar en consola con drop database romi; con el usuario hero, pero
 debe hacerse desde otra database por eso cree romi2 para poder entrar
 alli y desde alli borrarla. Como yo hago owner a hero sobre romi hero
 debe borrarla. y luego hago el restore.
+** psicopg2 problemas para instalar en venv python3.7
+Trying to get a server ready for a django project and I'm running into some issues with setup for postgres.
+I'm following this guide: https://jee-appy.blogspot.com/2017/01/deply-django-with-nginx.html
+And I'm at step 5:
+        Now, we need to configure postgreSQL so that it can communicate with our Django application. For this, install psycopg2 database adapter. But this adapter have some package dependencies, so first install them.
+    run:
+    (django_env) $ sudo apt-get install libpq-dev python3-dev
+    then...
+    (django_env) $ pip install psycopg2
+I do that, and this point in the instructions, I get a "compilation failed" error.
+I tried the solutions suggested in this stack exchange question: Trouble with psycopg2 in virtualenv python3 for use with Django and this one: Cannot install psycopg2 on virtualenv
+I am very much a linux and django noob, so if this is a duplicate issue, please have mercy on me and leave a comment explaining why you are marking it as a duplicate as you do so.
+Thanks for your time!
+5
+
+I had the same error trying to install it in a virtualenv (with python3)
+I solved it by installing a previous version of psycopg2.
+    pip install psycopg2==2.7.5
+
+LO pude instalar con pip3 en la maquina globalmente, pero en venv solo
+la version vieja. por ahora lo dejo asi
+
 * TODO
 ** hacer trigger con pp que recalcule saldo
 ** form para imprimir listados de visita fabian nuevo.
