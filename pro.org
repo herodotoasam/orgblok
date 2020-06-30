@@ -1606,6 +1606,21 @@ estudiar desde alli. Estudiando y practicando directamente el orm.
 1:30hs dedicado al programa mobil.Que creo que lo sacare rapido pq
 sera una copia del programa anterior.
 *** [2020-06-30 Tue]
+:LOGBOOK:
+CLOCK: [2020-06-30 Tue 11:50]--[2020-06-30 Tue 16:59] =>  5:09
+:END:
+puesta a punto en general con nvim y entorno de trabajo con buffers y
+busqueda de archivos dentro del proyecto. Fueron claves ciertos
+conceptos, como el que dijo que "proyecto" es una forma elegante de
+decir carpeta (generalmente manejada por .git). Y como magistralmente
+n3 con , hace la carpeta local, la hace proyecto, y luego con CtrlP
+busco los archivos directamente en esa carpeta, y los buffers los
+busco con CtrlB. Y aparte n3 da grandes funcionalidades de manejo de
+archivos con creacion de dir o files con n, borrado con x, y cambio a
+exe con *. Todo a la velocidad de la luz.
+Desarrolle la app de calle sobre la base de mobile, ahora se llama
+mob, pero esta funcional 100% y ubique todo en un repositorio mob en
+gitlab.
 
 
 * doc
