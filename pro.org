@@ -1581,7 +1581,6 @@ dia dedicado al traslado de la oficina y adecuacion del lugar con una
 nueva computadora con la instalacion del sistema
 *** [2020-06-27 sáb]
 :LOGBOOK:
-CLOCK: [2020-06-27 sáb 16:50]
 CLOCK: [2020-06-27 sáb 14:00]--[2020-06-27 sáb 16:50] =>  2:50
 CLOCK: [2020-06-27 sáb 11:30]--[2020-06-27 sáb 13:09] =>  1:39
 :END:
@@ -1592,6 +1591,23 @@ prueba con manjaro primero con openbox, luego instalacion en sistema
 de manajaro-xfce, fallida por fallas en la impresora y en red y
 complejidad en general del sistema. Y decantacion final por mint hasta
 ahora muy satisfecho.
+*** [2020-06-29 Mon]
+:LOGBOOK:
+CLOCK: [2020-06-29 Mon 19:25]--[2020-06-29 Mon 20:57] =>  1:32
+CLOCK: [2020-06-29 Mon 18:33]--[2020-06-29 Mon 19:25] =>  0:52
+CLOCK: [2020-06-29 Mon 12:49]--[2020-06-29 Mon 14:17] =>  1:28
+CLOCK: [2020-06-29 Mon 11:03]--[2020-06-29 Mon 11:20] =>  0:17
+:END:
+hoy interrumpido por idas al Fede por rotura del auto no pude hacer
+nada, solo instale lynx. 
+Dia interrumpido por obra de pintura por devolucion de oficina.
+Descubierta una pagina con buen material sobre ORM django para
+estudiar desde alli. Estudiando y practicando directamente el orm.
+1:30hs dedicado al programa mobil.Que creo que lo sacare rapido pq
+sera una copia del programa anterior.
+*** [2020-06-30 Tue]
+
+
 * doc
 ** dump/ restore schema
 pg_dump > file
@@ -1667,17 +1683,18 @@ google, lo que no esta/no funciona es lo siguiente
 *** hay que hacer un gcloud init
 *** el archivo app.yaml va en /rom o sea en el raiz de laravel
 *** no sirve el comando sed para hacerlo automatico lo hice a mano
-** boostrap 
+** laravel
+*** boostrap con laravel 
 composer require laravel/ui
 php artisan ui boostrap
 npm install && npm run dev
-*** segun aprendible video 36
+**** segun aprendible video 36
 yarn remove bootstrap (para lo cual antes capaz hacer yarn install)
 yarn add bootstrap --dev (luego se ve en package json como cambia la
 version)
 yarn watch (si queremos ver los cambios al instante mientras
 programamos ver los videos de aprendible los ultimos)
-** instalar SEMANTIC UI
+*** instalar SEMANTIC UI
 **** npm install semantic-ui-css --save-dev
 no usar lo que dice el manual de semantic
 **** hacer los hints que te de npm
@@ -1690,7 +1707,7 @@ mix.js('resources/js/app.js', 'public/js')
 **** npm run dev
 te da cuando termina un icono rectangular arriba a la derecha de
 laravel
-** GUIA DE ACCION CON LARAVEL
+*** GUIA DE ACCION CON LARAVEL
 *** crear el proyecto con laravel new rom
 *** crear el model para la tabla
 php artisan make:model Cliente
@@ -1738,7 +1755,6 @@ claves foraneas p.e.
 *** rails db:migrate
 *** rails db:rollback STEP=3
 *** rails db:reset --trace    //trace es para ver los errores
-** rails
 *** rails g controller Cliente
 ** python
 *** como instalar python 3.7.7 y mantener las intalaciones
@@ -1792,7 +1808,7 @@ seq con el comando adecuado
 select setval('clientes_id_seq',(select max(id) from clientes));
 incluso podria hacerlo o bien manualmente pq es una unica vez o bien
 ir haciendo un script con tcl.
-** fomantic-ui instalacion
+*** fomantic-ui instalacion
  npm install fomantic-ui
  npx gulp build --> me dio toda clase de dolores de cabeza pq gulp
  decia que no tenia el gulpfile busque en internet y obtuve solo
@@ -1814,23 +1830,23 @@ mix.js('resources/js/app.js', 'public/js')
 y funciona.
 chequear antes que la carpeta node-modules exista que ya se tiene que
     haber generado con el npm install.
-** fomantic-ui toast
+*** fomantic-ui toast
 no funciona. da error jquery 3.5-1 el actual, pq dice que .toast no es
 una funcion. Pero aparentemente les pasa a todos principalmente a
 bootstrap que no las puede usar, tambien a toastr y a otros
 frameworks. No da para renegar mas, solo esperar que una nueva version
 o quizas mas adelante se arregle este tema.
-** fomantic-ui search
+*** fomantic-ui search
 la fuente de datos no basta que este en formato json como marca la
 documentacion, en forma identica sino que la key tenga el nombre de
 'title' si o si, lo cual hace al vicio que te lo hagan poner como
 opcion. Del array que te entrega php lo transformo con un for en un
 objeto json en formato {'title':array[i]} y luego ese json lo entrego
 como fuente y asi funciona bien.
-** npm run dev error en laravel-vue
-*** borrar la carpeta node_modules y package-lock.json
-*** cambiar "laravel-mix-versionhash" en package.json de "^1.13.7" a "1.0.7"
-*** npm install luego npm run dev
+*** npm run dev error en laravel-vue
+**** borrar la carpeta node_modules y package-lock.json
+**** cambiar "laravel-mix-versionhash" en package.json de "^1.13.7" a "1.0.7"
+**** npm install luego npm run dev
 ** reseteo de base de datos de nube
 *** heroku
 poner Reset Database en pestaña Setting
@@ -1863,6 +1879,10 @@ I solved it by installing a previous version of psycopg2.
 
 LO pude instalar con pip3 en la maquina globalmente, pero en venv solo
 la version vieja. por ahora lo dejo asi
+*** [2020-06-29 Mon] 
+haciendo python manage.py shell, me sale un aviso de psycopg2 que a
+partir de la version 2.8 hay que instalar psycopg2-binary y lo hice y
+anduvo bien.
 
 * TODO
 ** hacer trigger con pp que recalcule saldo
@@ -1937,4 +1957,33 @@ otros niveles, por eso creo que el libro de ruby bajado me va a servir
 y seguir leyendo e investigando las guias rails a fondo hasta saberlas
 todas. Hay buenos tutoriales en medium sobre rails que hasta ahora me
 han servido y creo que por ahi pasa ir subiendo peldaño a peldaño.
-
+** semana [2020-06-21 Sun]
+semana de Django. Luego del pico de rails de la semana pasada parece
+que en el momento mas alto pica el bichito de lo nuevo y se me ocurrio
+probar django a ver como era. POr dos motivos, primero por probar,
+para ver, y segundo por la pretension interna de aprender algo a fondo
+ir a fondo para adelante sin detenerme, y creo que el mundo python era
+mas adecuado para eso. Django debo decir que me encanto desde el
+primer momento, la pagina de inicio, el tutorial, etc. pero luego
+entro el diletantismo, empece a ver los microframeworks y vi flask, y
+me dedique por entero a un tutorial con flask y anduvo bien pero lo
+veia muy complejo, incluso mas complejo que django, por eso el martes a
+la noche dije hasta aca nomas y regrese a django, hice el tutorial de
+nuevo y arranque, pero la semana estuvo muy cortada pq el dia jueves
+me distraje mucho con el pycharm, y el viernes con el traslado de la
+oficina, y la instalacion de la maquina nueva, nuevo sistema operativo
+etc., en realidad estuve boludeando con eso hasta el domingo a la
+noche, o sea tres dias. pero estoy conforme con el resultado al menos.
+en el medio al menos he solidificado algunos conocimientos basicos
+django que habia leido y habia practicado como para que me entren
+bien. y no avanzar rapido pero sin base. Luego y mientras pasaba todo
+esto vino la revolucion vim, la revolucion terminal, tmux (aplazada
+por el momento), emacs en terminal, trabajar en terminal en pestañas,
+hoy con lynx (abandonado) y demas. O sea una semana floja en avance
+pero creo que cambie el entorno fisico de trabajo un monton, y tambien
+hice unos cambios de entorno de base que veremos como funcionan.
+** semana [2020-06-28 Sun]
+en realidad la semana propiamente dicha va a empezar el martes, pq el
+domingo estuvo perdido en boludeaje de instalacion de s.o. y el lunes
+en obra de pintura del local.
+Pero empezare a programar una aplicacion de celular.
