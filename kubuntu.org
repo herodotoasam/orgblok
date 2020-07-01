@@ -33,6 +33,9 @@ itcl/itk/pdf4tcl/tablelist
 *** tclsh
 instalar con apt tcl-tclreadline
 copiar de ~/orgblok .tclshrc a ~
+** python necesarios
+*** libsqlite3-dev
+
 ** python
 *** python3-tk y python3-pip
 *** pip3 install modulos

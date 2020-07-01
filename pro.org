@@ -1,64 +1,66 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-06-30 Tue 19:18]
-| Headline               | Time       |          |      |
-|------------------------+------------+----------+------|
-| *Total time*           | *12d 6:55* |          |      |
-|------------------------+------------+----------+------|
-| Agenda de trabajo      | 12d 6:55   |          |      |
-| \_  2020-Mayo          |            | 6d 14:05 |      |
-| \_    [2020-05-06 mié] |            |          | 5:00 |
-| \_    [2020-05-07 jue] |            |          | 6:07 |
-| \_    [2020-05-08 vie] |            |          | 6:57 |
-| \_    [2020-05-09 sáb] |            |          | 7:32 |
-| \_    [2020-05-10 dom] |            |          | 6:58 |
-| \_    [2020-05-11 lun] |            |          | 5:07 |
-| \_    [2020-05-12 mar] |            |          | 5:45 |
-| \_    [2020-05-13 mié] |            |          | 5:06 |
-| \_    [2020-05-14 jue] |            |          | 7:16 |
-| \_    [2020-05-15 vie] |            |          | 7:42 |
-| \_    [2020-05-16 sáb] |            |          | 6:12 |
-| \_    [2020-05-17 dom] |            |          | 2:26 |
-| \_    [2020-05-18 lun] |            |          | 9:14 |
-| \_    [2020-05-19 mar] |            |          | 6:07 |
-| \_    [2020-05-20 mié] |            |          | 6:52 |
-| \_    [2020-05-21 jue] |            |          | 8:01 |
-| \_    [2020-05-22 vie] |            |          | 9:16 |
-| \_    [2020-05-23 sáb] |            |          | 7:36 |
-| \_    [2020-05-24 dom] |            |          | 2:06 |
-| \_    [2020-05-25 lun] |            |          | 3:22 |
-| \_    [2020-05-26 mar] |            |          | 4:16 |
-| \_    [2020-05-27 mié] |            |          | 4:45 |
-| \_    [2020-05-28 jue] |            |          | 4:21 |
-| \_    [2020-05-29 vie] |            |          | 9:05 |
-| \_    [2020-05-30 sáb] |            |          | 6:00 |
-| \_    [2020-05-31 dom] |            |          | 4:55 |
-| \_  2020-Junio         |            | 5d 16:50 |      |
-| \_    [2020-06-01 lun] |            |          | 6:21 |
-| \_    [2020-06-02 mar] |            |          | 7:38 |
-| \_    [2020-06-03 mié] |            |          | 7:28 |
-| \_    [2020-06-04 jue] |            |          | 8:33 |
-| \_    [2020-06-05 vie] |            |          | 5:56 |
-| \_    [2020-06-07 dom] |            |          | 3:43 |
-| \_    [2020-06-08 lun] |            |          | 8:40 |
-| \_    [2020-06-09 mar] |            |          | 7:44 |
-| \_    [2020-06-10 mié] |            |          | 6:44 |
-| \_    [2020-06-11 jue] |            |          | 5:22 |
-| \_    [2020-06-12 vie] |            |          | 2:56 |
-| \_    [2020-06-13 sáb] |            |          | 2:07 |
-| \_    [2020-06-14 dom] |            |          | 0:46 |
-| \_    [2020-06-15 lun] |            |          | 6:53 |
-| \_    [2020-06-16 mar] |            |          | 4:18 |
-| \_    [2020-06-17 mié] |            |          | 5:12 |
-| \_    [2020-06-18 jue] |            |          | 5:07 |
-| \_    [2020-06-19 vie] |            |          | 4:29 |
-| \_    [2020-06-20 sáb] |            |          | 3:01 |
-| \_    [2020-06-22 lun] |            |          | 3:49 |
-| \_    [2020-06-23 mar] |            |          | 5:40 |
-| \_    [2020-06-24 mié] |            |          | 5:24 |
-| \_    [2020-06-25 jue] |            |          | 5:12 |
-| \_    [2020-06-27 sáb] |            |          | 4:29 |
-| \_    [2020-06-29 Mon] |            |          | 4:09 |
-| \_    [2020-06-30 Tue] |            |          | 5:09 |
+#+CAPTION: Clock summary at [2020-07-01 Wed 19:09]
+| Headline               | Time        |          |      |
+|------------------------+-------------+----------+------|
+| *Total time*           | *12d 15:01* |          |      |
+|------------------------+-------------+----------+------|
+| Agenda de trabajo      | 12d 15:01   |          |      |
+| \_  2020-Mayo          |             | 6d 14:04 |      |
+| \_    [2020-05-06 mié] |             |          | 5:00 |
+| \_    [2020-05-07 jue] |             |          | 6:07 |
+| \_    [2020-05-08 vie] |             |          | 6:57 |
+| \_    [2020-05-09 sáb] |             |          | 7:32 |
+| \_    [2020-05-10 dom] |             |          | 6:58 |
+| \_    [2020-05-11 lun] |             |          | 5:07 |
+| \_    [2020-05-12 mar] |             |          | 5:45 |
+| \_    [2020-05-13 mié] |             |          | 5:06 |
+| \_    [2020-05-14 jue] |             |          | 7:16 |
+| \_    [2020-05-15 vie] |             |          | 7:42 |
+| \_    [2020-05-16 sáb] |             |          | 6:12 |
+| \_    [2020-05-17 dom] |             |          | 2:26 |
+| \_    [2020-05-18 lun] |             |          | 9:14 |
+| \_    [2020-05-19 mar] |             |          | 6:07 |
+| \_    [2020-05-20 mié] |             |          | 6:52 |
+| \_    [2020-05-21 jue] |             |          | 8:01 |
+| \_    [2020-05-22 vie] |             |          | 9:16 |
+| \_    [2020-05-23 sáb] |             |          | 7:36 |
+| \_    [2020-05-24 dom] |             |          | 2:06 |
+| \_    [2020-05-25 lun] |             |          | 3:22 |
+| \_    [2020-05-26 mar] |             |          | 4:16 |
+| \_    [2020-05-27 mié] |             |          | 4:45 |
+| \_    [2020-05-28 jue] |             |          | 4:21 |
+| \_    [2020-05-29 vie] |             |          | 9:05 |
+| \_    [2020-05-30 sáb] |             |          | 6:00 |
+| \_    [2020-05-31 dom] |             |          | 4:55 |
+| \_  2020-Junio         |             | 5d 18:54 |      |
+| \_    [2020-06-01 lun] |             |          | 6:21 |
+| \_    [2020-06-02 mar] |             |          | 7:38 |
+| \_    [2020-06-03 mié] |             |          | 7:28 |
+| \_    [2020-06-04 jue] |             |          | 8:33 |
+| \_    [2020-06-05 vie] |             |          | 5:56 |
+| \_    [2020-06-07 dom] |             |          | 3:43 |
+| \_    [2020-06-08 lun] |             |          | 9:08 |
+| \_    [2020-06-09 mar] |             |          | 7:44 |
+| \_    [2020-06-10 mié] |             |          | 6:44 |
+| \_    [2020-06-11 jue] |             |          | 5:22 |
+| \_    [2020-06-12 vie] |             |          | 2:56 |
+| \_    [2020-06-13 sáb] |             |          | 2:07 |
+| \_    [2020-06-14 dom] |             |          | 0:46 |
+| \_    [2020-06-15 lun] |             |          | 6:53 |
+| \_    [2020-06-16 mar] |             |          | 4:18 |
+| \_    [2020-06-17 mié] |             |          | 5:12 |
+| \_    [2020-06-18 jue] |             |          | 5:07 |
+| \_    [2020-06-19 vie] |             |          | 4:29 |
+| \_    [2020-06-20 sáb] |             |          | 3:01 |
+| \_    [2020-06-22 lun] |             |          | 3:49 |
+| \_    [2020-06-23 mar] |             |          | 5:40 |
+| \_    [2020-06-24 mié] |             |          | 5:24 |
+| \_    [2020-06-25 jue] |             |          | 5:12 |
+| \_    [2020-06-27 sáb] |             |          | 4:29 |
+| \_    [2020-06-29 Mon] |             |          | 4:09 |
+| \_    [2020-06-30 Tue] |             |          | 6:45 |
+| \_  2020-Julio         |             | 6:03     |      |
+| \_    [2020-07-01 Wed] |             |          | 6:03 |
 #+END:
 
 
@@ -1623,6 +1625,27 @@ gitlab.
 instalado spacemacs para lidear con orgmode en modo vim. Y ver que pasa.
 Emacs dooms espectacular. Lo mejor en este primer minuto.
 ** 2020-Julio
+*** [2020-07-01 Wed]
+:LOGBOOK:
+CLOCK: [2020-07-01 Wed 19:25]--[2020-07-01 Wed 20:52] =>  1:27
+CLOCK: [2020-07-01 Wed 15:59]--[2020-07-01 Wed 18:17] =>  2:18
+CLOCK: [2020-07-01 Wed 14:09]--[2020-07-01 Wed 15:39] =>  1:30
+CLOCK: [2020-07-01 Wed 13:28]--[2020-07-01 Wed 13:40] =>  0:12
+CLOCK: [2020-07-01 Wed 11:54]--[2020-07-01 Wed 12:40] =>  0:46
+CLOCK: [2020-07-01 Wed 11:34]--[2020-07-01 Wed 11:54] =>  0:20
+CLOCK: [2020-07-01 Wed 11:32]--[2020-07-01 Wed 11:34] =>  0:02
+CLOCK: [2020-07-01 Wed 11:03]--[2020-07-01 Wed 11:32] =>  0:29
+CLOCK: [2020-07-01 Wed 10:43]--[2020-07-01 Wed 11:02] =>  0:19
+CLOCK: [2020-07-01 Wed 10:36]--[2020-07-01 Wed 10:43] =>  0:07
+:END:
+puesta a punto de emacs-doom logre agrandar la letra, el theme no lo cambio pq me gusta bastante, y pude arreglar los atajos para orgmode-fechas.
+tambien para ver los buffers abiertos.
+Funciona a la perfeccion en modo texto tambien. El modo python es casi mas claro que en vsmode. Habria que ver que pasa con los otros modos que son necesarios para escribir plantillas por ejemplo. Es como tener los dos mundos mezclados. P.e. pones Cx y aparecen los atajos que uno normalmente olvida, idem con C-c donde aparecen todos los atajos de org mode pq estoy en orgmode en este momento.
+Dos horas estudiando a full django siguiendo el libro. Creo que es mejor, incluso puedo imprimir y avanzar a la noche leyendo lo que despues voy a hacer. Creo que es una buena practica. En cuanto al uso de los ides un poco para cada lado, faltan mas dias de batalla. Y aprender un poco mas el tema de proyecto o sea definir un proyecto y buscar los archivos rapidamente para moverse en esa estructura. Ya descubri como asignar carpetas a proyectos y es muy facil.
+faltaria la busqueda dentro del proyecto.
+
+*** [2020-07-02 Thu]
+
 * doc
 ** dump/ restore schema
 pg_dump > file
@@ -1898,6 +1921,10 @@ la version vieja. por ahora lo dejo asi
 haciendo python manage.py shell, me sale un aviso de psycopg2 que a
 partir de la version 2.8 hay que instalar psycopg2-binary y lo hice y
 anduvo bien.
+** venv con python3.8
+hice python3 -m venv venv  como es normal pero
+la estructura generada diferia a la normal y no se podia activar pq no existia activate en la posicion adecuada. Y no se si esta escondido en algun otro sitio.
+
 
 * TODO
 ** hacer trigger con pp que recalcule saldo
@@ -2002,3 +2029,6 @@ en realidad la semana propiamente dicha va a empezar el martes, pq el
 domingo estuvo perdido en boludeaje de instalacion de s.o. y el lunes
 en obra de pintura del local.
 Pero empezare a programar una aplicacion de celular.
+No salgo del bache provocado por el cambio de maquina de sistema y de lugar de trabajo, me volvi mas freaky y no salgo de eso, todavia se que me tengo que volver mas productivo, ahora que el cierre de la oficina se transformo en un hecho, es como que me dedique mas a la herramienta.
+No salgo del bache provocado por el cambio de maquina de sistema y de lugar de trabajo, me volvi mas freaky y no salgo de eso, todavia se que me tengo que volver mas productivo, ahora que el cierre de la oficina se transformo en un hecho, es como que me dedique mas a la herramienta.
+primero con el cambio de sistema operativo, que al final decanto en mint con el cual estoy reconforme. y luego con la vuelta a vim y ahora con la recontravuelta a emacs y sus recontrafreaky sistemas de tuneados con caracteristicas mixtas de emacs-vim. Y este ultimo que he encontrado parece realmente bueno. Veremos lo que pasa.
