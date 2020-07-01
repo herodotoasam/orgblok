@@ -1643,7 +1643,7 @@ tambien para ver los buffers abiertos.
 Funciona a la perfeccion en modo texto tambien. El modo python es casi mas claro que en vsmode. Habria que ver que pasa con los otros modos que son necesarios para escribir plantillas por ejemplo. Es como tener los dos mundos mezclados. P.e. pones Cx y aparecen los atajos que uno normalmente olvida, idem con C-c donde aparecen todos los atajos de org mode pq estoy en orgmode en este momento.
 Dos horas estudiando a full django siguiendo el libro. Creo que es mejor, incluso puedo imprimir y avanzar a la noche leyendo lo que despues voy a hacer. Creo que es una buena practica. En cuanto al uso de los ides un poco para cada lado, faltan mas dias de batalla. Y aprender un poco mas el tema de proyecto o sea definir un proyecto y buscar los archivos rapidamente para moverse en esa estructura. Ya descubri como asignar carpetas a proyectos y es muy facil.
 faltaria la busqueda dentro del proyecto.
-
+y aparentemente me salio bien el commit dentro de magit. Va ahora otro para reforzar.
 *** [2020-07-02 Thu]
 
 * doc
