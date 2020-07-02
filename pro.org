@@ -1645,7 +1645,19 @@ Dos horas estudiando a full django siguiendo el libro. Creo que es mejor, inclus
 faltaria la busqueda dentro del proyecto.
 y aparentemente me salio bien el commit dentro de magit. Va ahora otro para reforzar.
 *** [2020-07-02 Thu]
-
+:LOGBOOK:
+CLOCK: [2020-07-02 Thu 18:38]--[2020-07-02 Thu 20:52] =>  2:14
+CLOCK: [2020-07-02 Thu 17:27]--[2020-07-02 Thu 17:53] =>  0:26
+CLOCK: [2020-07-02 Thu 13:47]--[2020-07-02 Thu 13:57] =>  0:10
+CLOCK: [2020-07-02 Thu 12:39]--[2020-07-02 Thu 12:55] =>  0:16
+CLOCK: [2020-07-02 Thu 11:15]--[2020-07-02 Thu 12:27] =>  1:12
+CLOCK: [2020-07-02 Thu 11:03]--[2020-07-02 Thu 11:15] =>  0:12
+CLOCK: [2020-07-02 Thu 10:01]--[2020-07-02 Thu 10:58] =>  0:57
+:END:
+descubierto spacevim. Vamos a ver la guerra con igualdad de condicion. Tendra mas capitulos.
+Batalla totalmente perdida hoy por vim. una verguenza atroz. un engorro de proporciones epicas. Ni siquiera pude hacer andar spacevim, totalmente trabado y problematico. y el nvim puro no lo puedo hacer andar con proyectile, pero no se para que lo quiero asi.
+Me repliego y trato de usar el nvim asi como lo tengo y veo que pasa. Si se me complica paso aqui.
+Recien 11.15 comienzo con django despues de una hora diez con el reniegue. Demasiado pienso en las herramientas.
 * doc
 ** dump/ restore schema
 pg_dump > file
