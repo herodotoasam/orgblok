@@ -1,10 +1,10 @@
 #+BEGIN: clocktable :scope file :maxlevel 3
-#+CAPTION: Clock summary at [2020-07-01 Wed 19:09]
+#+CAPTION: Clock summary at [2020-07-03 Fri 14:35]
 | Headline               | Time        |          |      |
 |------------------------+-------------+----------+------|
-| *Total time*           | *12d 15:01* |          |      |
+| *Total time*           | *12d 21:55* |          |      |
 |------------------------+-------------+----------+------|
-| Agenda de trabajo      | 12d 15:01   |          |      |
+| Agenda de trabajo      | 12d 21:55   |          |      |
 | \_  2020-Mayo          |             | 6d 14:04 |      |
 | \_    [2020-05-06 mié] |             |          | 5:00 |
 | \_    [2020-05-07 jue] |             |          | 6:07 |
@@ -59,8 +59,9 @@
 | \_    [2020-06-27 sáb] |             |          | 4:29 |
 | \_    [2020-06-29 Mon] |             |          | 4:09 |
 | \_    [2020-06-30 Tue] |             |          | 6:45 |
-| \_  2020-Julio         |             | 6:03     |      |
-| \_    [2020-07-01 Wed] |             |          | 6:03 |
+| \_  2020-Julio         |             | 12:57    |      |
+| \_    [2020-07-01 Wed] |             |          | 7:30 |
+| \_    [2020-07-02 Thu] |             |          | 5:27 |
 #+END:
 
 
@@ -1638,12 +1639,24 @@ CLOCK: [2020-07-01 Wed 11:03]--[2020-07-01 Wed 11:32] =>  0:29
 CLOCK: [2020-07-01 Wed 10:43]--[2020-07-01 Wed 11:02] =>  0:19
 CLOCK: [2020-07-01 Wed 10:36]--[2020-07-01 Wed 10:43] =>  0:07
 :END:
-puesta a punto de emacs-doom logre agrandar la letra, el theme no lo cambio pq me gusta bastante, y pude arreglar los atajos para orgmode-fechas.
-tambien para ver los buffers abiertos.
-Funciona a la perfeccion en modo texto tambien. El modo python es casi mas claro que en vsmode. Habria que ver que pasa con los otros modos que son necesarios para escribir plantillas por ejemplo. Es como tener los dos mundos mezclados. P.e. pones Cx y aparecen los atajos que uno normalmente olvida, idem con C-c donde aparecen todos los atajos de org mode pq estoy en orgmode en este momento.
-Dos horas estudiando a full django siguiendo el libro. Creo que es mejor, incluso puedo imprimir y avanzar a la noche leyendo lo que despues voy a hacer. Creo que es una buena practica. En cuanto al uso de los ides un poco para cada lado, faltan mas dias de batalla. Y aprender un poco mas el tema de proyecto o sea definir un proyecto y buscar los archivos rapidamente para moverse en esa estructura. Ya descubri como asignar carpetas a proyectos y es muy facil.
-faltaria la busqueda dentro del proyecto.
-y aparentemente me salio bien el commit dentro de magit. Va ahora otro para reforzar.
+puesta a punto de emacs-doom logre agrandar la letra, el theme no lo
+cambio pq me gusta bastante, y pude arreglar los atajos para
+orgmode-fechas.  tambien para ver los buffers abiertos.  Funciona a la
+perfeccion en modo texto tambien. El modo python es casi mas claro que
+en vsmode. Habria que ver que pasa con los otros modos que son
+necesarios para escribir plantillas por ejemplo. Es como tener los dos
+mundos mezclados. P.e. pones Cx y aparecen los atajos que uno
+normalmente olvida, idem con C-c donde aparecen todos los atajos de
+org mode pq estoy en orgmode en este momento.  Dos horas estudiando a
+full django siguiendo el libro. Creo que es mejor, incluso puedo
+imprimir y avanzar a la noche leyendo lo que despues voy a hacer. Creo
+que es una buena practica. En cuanto al uso de los ides un poco para
+cada lado, faltan mas dias de batalla. Y aprender un poco mas el tema
+de proyecto o sea definir un proyecto y buscar los archivos
+rapidamente para moverse en esa estructura. Ya descubri como asignar
+carpetas a proyectos y es muy facil.  faltaria la busqueda dentro del
+proyecto.  y aparentemente me salio bien el commit dentro de magit. Va
+ahora otro para reforzar.
 *** [2020-07-02 Thu]
 :LOGBOOK:
 CLOCK: [2020-07-02 Thu 18:38]--[2020-07-02 Thu 20:52] =>  2:14
@@ -1654,10 +1667,34 @@ CLOCK: [2020-07-02 Thu 11:15]--[2020-07-02 Thu 12:27] =>  1:12
 CLOCK: [2020-07-02 Thu 11:03]--[2020-07-02 Thu 11:15] =>  0:12
 CLOCK: [2020-07-02 Thu 10:01]--[2020-07-02 Thu 10:58] =>  0:57
 :END:
-descubierto spacevim. Vamos a ver la guerra con igualdad de condicion. Tendra mas capitulos.
-Batalla totalmente perdida hoy por vim. una verguenza atroz. un engorro de proporciones epicas. Ni siquiera pude hacer andar spacevim, totalmente trabado y problematico. y el nvim puro no lo puedo hacer andar con proyectile, pero no se para que lo quiero asi.
-Me repliego y trato de usar el nvim asi como lo tengo y veo que pasa. Si se me complica paso aqui.
-Recien 11.15 comienzo con django despues de una hora diez con el reniegue. Demasiado pienso en las herramientas.
+descubierto spacevim. Vamos a ver la guerra con igualdad de
+condicion. Tendra mas capitulos.  Batalla totalmente perdida hoy por
+vim. una verguenza atroz. un engorro de proporciones epicas. Ni
+siquiera pude hacer andar spacevim, totalmente trabado y
+problematico. y el nvim puro no lo puedo hacer andar con proyectile,
+pero no se para que lo quiero asi.  Me repliego y trato de usar el
+nvim asi como lo tengo y veo que pasa. Si se me complica paso aqui.
+Recien 11.15 comienzo con django despues de una hora diez con el
+reniegue. Demasiado pienso en las herramientas.
+*** [2020-07-03 Fri]
+:LOGBOOK:
+CLOCK: [2020-07-03 Fri 20:10]--[2020-07-03 Fri 21:33] =>  1:23
+CLOCK: [2020-07-03 Fri 18:30]--[2020-07-03 Fri 19:21] =>  0:51
+CLOCK: [2020-07-03 Fri 15:26]--[2020-07-03 Fri 17:26] =>  2:00
+CLOCK: [2020-07-03 Fri 14:59]--[2020-07-03 Fri 15:16] =>  0:17
+CLOCK: [2020-07-03 Fri 14:49]--[2020-07-03 Fri 14:59] =>  0:10
+:END:
+hoy la batalla se inclino fuertemente hacia el lado de emacs.
+bellisimo theme, muy convincente modo de python para trabajar y nada
+mas.
+Ahora estoy teniendo un problemilla que no se si es de emacs o es de
+teclado.
+Luego de reinciar vere que pasa lo mismo hay un delay, no es algo
+fluido.
+Esta bastante focalizado en org el problema, no en los otros tipos de
+archivos.
+
+
 * doc
 ** dump/ restore schema
 pg_dump > file
@@ -1815,6 +1852,19 @@ sudo ./configure --enable-optimizations
 sudo make altinstall
 
 python3.7 -V
+** emacs
+*** Alt-X fill-region
+para reparagrafear una region que esta mal cortada pq la hemos escrito
+en otro lado.
+** linux
+*** locate/find
+sudo updatedb
+locate arch
+** org
+*** submodulos de org (p.e. org mouse)
+se activan como variables dentro del sistema. Acceder desde el menu en
+Org/Customize/Expand this menu luego
+Org Modules...
 
 * troubleshooting
 ** laravel
@@ -1934,11 +1984,14 @@ haciendo python manage.py shell, me sale un aviso de psycopg2 que a
 partir de la version 2.8 hay que instalar psycopg2-binary y lo hice y
 anduvo bien.
 ** venv con python3.8
-hice python3 -m venv venv  como es normal pero
-la estructura generada diferia a la normal y no se podia activar pq no existia activate en la posicion adecuada. Y no se si esta escondido en algun otro sitio.
-
-
-* TODO
+hice python3 -m venv venv como es normal pero la estructura generada
+diferia a la normal y no se podia activar pq no existia activate en la
+posicion adecuada. Y no se si esta escondido en algun otro sitio.
+** django
+*** templates error { % for ... % }
+dejar un espacio antes o despues entre el % y la llave hace que no
+reconozca el tag. Un error inexpugnable, que lo encontre gracias a stack.
+* Todo
 ** hacer trigger con pp que recalcule saldo
 ** form para imprimir listados de visita fabian nuevo.
 ** DONE faltan trigger pagos_insert/update/delete que hagan perform gc y demas 
