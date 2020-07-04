@@ -4202,3 +4202,14 @@ anterior.
 ** [2020-03-17 mar]
 *** estoy teniendo mas hambre
 desde el sabado o el domingo. Tengo un hambre desaforado.
+* etapa teletrabajo
+** [2020-07-04 Sat]
+*** como ha cambiado la realidad en estos ultimos tiempos
+la pandemia lo ha cambiado todo, la realidad del mundo y la realidad
+personal.
+ahora trabajo en la casa. tengo una rutina en casa.
+veremos que es lo que estaba causando el problema.
+efectivamente era el minor mode virtualenviroment.
+Un nuevo capitulo en la batalla de los editores, ganada por emacs en
+mi caso personal. Seguire adelante en la capacitacion en django pq
+sino no voy a ser productivo para nada.
