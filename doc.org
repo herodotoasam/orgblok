@@ -1,0 +1,313 @@
+* doc
+** postgres
+*** dump/ restore schema
+ pg_dump > file
+ psql hero < schema.sql
+*** corriendo postgres3 / postgres3-1 / postgres 5
+ OJO que correrlos dentro de Visual-Code es un desastre, usa cerca del
+ 50% del CPU y la maquina parece tomar vuelo y es muy lento.
+ La lentitud se debe a que operan los triggers a full. 
+**** Problema de la lentitud por causa de los triguers SOLVED
+ SET session_replication_role = replica;
+ SET session_replication_role = DEFAULT;
+ Estos dos comandos al comienzo y al final desactivan y vuelven a
+ activar los triggers en forma global. Se supone que la db esta bien
+ conformada pq la estoy pasando desde sqlite. la velocidad es x10 y el
+ uso del CPU baja al 5%. Siendo un proceso que debo repetir a menudo
+ esta bien que encuentre una solucion.
+ [[http://koo.fi/blog/2013/01/08/disable-postgresql-triggers-temporarily/][Pagina que explica el tema]]
+*** psql
+ importantisimo aprender psql por la falta de otras herramientas
+**** ver/editar una funcion
+ \ef <function name> 
+ luego te da a elegir el editor de texto 
+ aunque no guarda la edicion si la puedo salvar y correr via
+ psql<edicion.sql
+
+**** ver detalles de una tabla
+ \d
+**** ver tablas en la db
+ \dt \dt+ \dtS
+**** cargar un script
+ psql db -f script
+*** pgmodeler 
+**** agregado de tabla
+***** no olvidar primero la sequencia
+ crear un objeto sequencia con nombre tbl_id_seq y todo normal solo con
+ propiedad hero
+***** hacer la tabla
+ solo con propiedad hero
+ se pueden poner los campos ahi mismo
+ se pone sequence y se elige la sequence de public. y tambien se lo
+ pone como primary key al id.
+***** agregar los otros campos
+***** agregar una constraint fk a la tabla
+ NEW constrain 
+ constrain type - Foreign 
+ Columns elegir la columna y bajarla
+ referenced column elegir la tabla y columna y bajarla y alli los
+ cascade
+***** guardar y validar a menudo
+**** Hacer Diff
+ Current model
+ Compare to conection elegir - DAtabase elegir
+ use postgres 12 marcar y Apply on server marcar.
+ Se puede guardar ese Preset para facilidad.
+ Esto exporta a la base todos los cambios.
+** sqlite
+*** encontrar registros huerfanos
+SELECT count(*)
+FROM payment AS child
+WHERE rental_id IS NOT NULL
+  AND NOT EXISTS (
+  SELECT NULL FROM rental AS parent WHERE parent.rental_id = child.rental_id
+);
+** Adminer
+*** conexion localhost/adminer.php
+*** refresco usualmente cambiando la db pq no veo boton de refresco
+*** Select Data - Show structure 
+son los dos lugares mas importantes.
+** gcloud
+aparte de seguir los pasos de la guia laravel/gcloud que esta en
+google, lo que no esta/no funciona es lo siguiente
+*** hay que instalar el gcloud en la maquina local con sudo snap install google-cloud-sdk --classic
+*** hay que hacer un gcloud init
+*** el archivo app.yaml va en /rom o sea en el raiz de laravel
+*** no sirve el comando sed para hacerlo automatico lo hice a mano
+** laravel
+*** boostrap con laravel 
+composer require laravel/ui
+php artisan ui boostrap
+npm install && npm run dev
+**** segun aprendible video 36
+yarn remove bootstrap (para lo cual antes capaz hacer yarn install)
+yarn add bootstrap --dev (luego se ve en package json como cambia la
+version)
+yarn watch (si queremos ver los cambios al instante mientras
+programamos ver los videos de aprendible los ultimos)
+*** instalar SEMANTIC UI
+**** npm install semantic-ui-css --save-dev
+no usar lo que dice el manual de semantic
+**** hacer los hints que te de npm
+**** corregir el webpack.mix.js segun la pagina del link
+[[https://laracasts.com/discuss/channels/elixir/semantic-ui-integration][link que explica]]
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .copy('node_modules/semantic-ui-css/semantic.min.css','public/css/semantic.min.css')
+    .copy('node_modules/semantic-ui-css/semantic.min.js','public/js/semantic.min.js');
+**** npm run dev
+te da cuando termina un icono rectangular arriba a la derecha de
+laravel
+*** GUIA DE ACCION CON LARAVEL
+*** crear el proyecto con laravel new rom
+*** crear el model para la tabla
+php artisan make:model Cliente
+*** crear la migracion para la tabla
+php artisan make:migration  create_table_clientes --create=clientes
+*** unir los dos pasos anteriores con php artisan make:model Cliente -m
+en vez de hacer los pasos por separado hacemos un solo paso y
+listo. asi hice todas las tablas
+*** hacemos el detalle de la tabla o sea los campos en el file 202005...
+segun los tipos de campo $table->string('dni',8);
+*** migramos
+php artisan migrate
+*** si hay que migrar de nuevo
+php artisan migrate fresh o refresh ojo que borra todos los datos
+*** generamos el controlador para la tabla
+php artisan make:controller ClienteController -r (resourse crea las 7
+rutas)
+que podemos ver con php artisan r:l
+*** usar la clase dentro del controlador
+use App\Cliente;
+$clientes = Cliente::get();
+*** para controlar que campos van a ser guardados
+en cliente.php
+protected $fillable = ['dni','nombre']
+*** datatable server-side
+ el archivo clave es instalar por composer
+ composer require yajra/laravel-datatables-oracle:"~9.0"
+ que es el que le dice a php como preparar los datos, 
+ la parte js en el front la copiamos bien de los ejemplos y yo tengo un
+ ejemplo que funciona, pero no olvidar esto, incluso en la pagina de
+ yajra en packagist explica las forma de servir el json que no solo es
+ con eloquent sino con otras formas. 
+ cualquier cosa esto lo aprendi con los videos de tip 4 laravel y ajax
+ de rimorsoft.
+** git cambiar repositorio remoto
+git remote -v muestra el repositorio actual que responde el git
+git remote set-url origin https://github.com/... se pone el nuevo
+para cambiar el de heroku en caso de hayamos cambiado la app
+git remote set-url heroku https://heroku.com....
+** rails-migrate
+*** rails g model Cliente
+*** rails g migration AddForeignKeys
+usado para generar una migracion sin modelo ideal para pasar index o
+claves foraneas p.e.
+*** rails db:migrate
+*** rails db:rollback STEP=3
+*** rails db:reset --trace    //trace es para ver los errores
+*** rails g controller Cliente
+** python
+*** como instalar python 3.7.7 y mantener las intalaciones
+bajar el 3.7.7 en formato tgz
+descomprimir
+cd Python-3.7.7
+sudo ./configure --enable-optimizations
+sudo make altinstall
+
+python3.7 -V
+** emacs
+*** Alt-X fill-region
+para reparagrafear una region que esta mal cortada pq la hemos escrito
+en otro lado.
+*** lentitud en un hook (tipo de archivo)
+googleando encontre una pregunta con el mismo tipo de problema que yo,
+y le aconsejaron revisar los minor modes activados, que no son todos
+los que aparecen con el click derecho abajo, sino con Ctrl H m.
+Ahi vi p.e. que en org estaba activo python-venv, o sea nada que ver,
+no entiendo pq se activo a nivel global, y efectivamente parece el
+culpable de enlentecimiento de los org-files.
+** linux
+*** locate/find
+sudo updatedb
+locate arch
+** org
+*** submodulos de org (p.e. org mouse)
+se activan como variables dentro del sistema. Acceder desde el menu en
+Org/Customize/Expand this menu luego
+Org Modules...
+
+* troubleshooting
+** laravel
+*** no existe laravel como comando para ejecutar laravel new
+aunque esta instalado
+ejecutar
+composer global require "laravel/installer"
+y luego agregar a .bashrc
+export PATH=$HOME/.config/composer/vendor/bin:$PATH
+y hacer
+source .bashrc
+y listo
+*** dump solo datos y por tablas
+pg_dump -t clientes -a rx >dumpclientes.sql
+restore con
+psql romi -f dumpclientes.sql
+*** paginate() solo funciona con query no con collection
+    
+    Cliente::all() => Returns a Collection
+
+    Cliente::all()->where() => Returns a Collection
+
+    Cliente::where() => Returns a Query
+
+    Cliente::where()->get() => Returns a Collection
+
+    Cliente::where()->get()->where() => Returns a Collection
+
+You can only invoke "paginate" on a Query, not on a Collection.
+
+And yes, it is totally confusing to have a where function for both
+Queries and Collections, working as close as they do, but it is what
+it is.
+*** id create empieza de cero
+no se puede agregar un registro indicando id, pq es autonumerico. y
+comienza de cero, dando el clasico error id duplicada.
+hay soluciones en internet que no andan.
+aplico mi antigua solucion luego de hacer el restore updateo todos los
+seq con el comando adecuado
+
+select setval('clientes_id_seq',(select max(id) from clientes));
+incluso podria hacerlo o bien manualmente pq es una unica vez o bien
+ir haciendo un script con tcl.
+*** fomantic-ui instalacion
+ npm install fomantic-ui
+ npx gulp build --> me dio toda clase de dolores de cabeza pq gulp
+ decia que no tenia el gulpfile busque en internet y obtuve solo
+ confusion.
+me termino funcionando dentro del directorio como gulp buid solo, pq
+ el gulpfile.js ya estaba en el directorio semantic/ que se hizo
+ dentro del directorio example.
+o sea
+*** npm install fomantic-ui
+*** npm install fomantic-ui-css
+*** cd semantic/
+*** gulp build
+*** ver que public tenga las carpetas js y css
+*** cambiar el webpack.mix.js a
+mix.js('resources/js/app.js', 'public/js')
+    .sass('resources/sass/app.scss', 'public/css')
+    .copy('node_modules/fomantic-ui-css/semantic.min.css','public/css/semantic.min.css')
+    .copy('node_modules/fomantic-ui-css/semantic.min.js','public/js/semantic.min.js');
+y funciona.
+chequear antes que la carpeta node-modules exista que ya se tiene que
+    haber generado con el npm install.
+*** fomantic-ui toast
+no funciona. da error jquery 3.5-1 el actual, pq dice que .toast no es
+una funcion. Pero aparentemente les pasa a todos principalmente a
+bootstrap que no las puede usar, tambien a toastr y a otros
+frameworks. No da para renegar mas, solo esperar que una nueva version
+o quizas mas adelante se arregle este tema.
+*** fomantic-ui search
+la fuente de datos no basta que este en formato json como marca la
+documentacion, en forma identica sino que la key tenga el nombre de
+'title' si o si, lo cual hace al vicio que te lo hagan poner como
+opcion. Del array que te entrega php lo transformo con un for en un
+objeto json en formato {'title':array[i]} y luego ese json lo entrego
+como fuente y asi funciona bien.
+*** npm run dev error en laravel-vue
+**** borrar la carpeta node_modules y package-lock.json
+**** cambiar "laravel-mix-versionhash" en package.json de "^1.13.7" a "1.0.7"
+**** npm install luego npm run dev
+** reseteo de base de datos de nube
+*** heroku
+poner Reset Database en pestaña Setting
+y eso la borra y ahi hacemos la subida de nuevo, como no permite crear
+y borrar bases de datos con nuestro nombre es la unica forma.
+truncate funciona pero da error el restore.
+*** gcloud
+borrar en consola con drop database romi; con el usuario hero, pero
+debe hacerse desde otra database por eso cree romi2 para poder entrar
+alli y desde alli borrarla. Como yo hago owner a hero sobre romi hero
+debe borrarla. y luego hago el restore.
+** psicopg2 problemas para instalar en venv python3.7
+Trying to get a server ready for a django project and I'm running into some issues with setup for postgres.
+I'm following this guide: https://jee-appy.blogspot.com/2017/01/deply-django-with-nginx.html
+And I'm at step 5:
+        Now, we need to configure postgreSQL so that it can communicate with our Django application. For this, install psycopg2 database adapter. But this adapter have some package dependencies, so first install them.
+    run:
+    (django_env) $ sudo apt-get install libpq-dev python3-dev
+    then...
+    (django_env) $ pip install psycopg2
+I do that, and this point in the instructions, I get a "compilation failed" error.
+I tried the solutions suggested in this stack exchange question: Trouble with psycopg2 in virtualenv python3 for use with Django and this one: Cannot install psycopg2 on virtualenv
+I am very much a linux and django noob, so if this is a duplicate issue, please have mercy on me and leave a comment explaining why you are marking it as a duplicate as you do so.
+Thanks for your time!
+5
+
+I had the same error trying to install it in a virtualenv (with python3)
+I solved it by installing a previous version of psycopg2.
+    pip install psycopg2==2.7.5
+
+LO pude instalar con pip3 en la maquina globalmente, pero en venv solo
+la version vieja. por ahora lo dejo asi
+*** [2020-06-29 Mon] 
+haciendo python manage.py shell, me sale un aviso de psycopg2 que a
+partir de la version 2.8 hay que instalar psycopg2-binary y lo hice y
+anduvo bien.
+** venv con python3.8
+hice python3 -m venv venv como es normal pero la estructura generada
+diferia a la normal y no se podia activar pq no existia activate en la
+posicion adecuada. Y no se si esta escondido en algun otro sitio.
+** django
+*** templates error { % for ... % }
+dejar un espacio antes o despues entre el % y la llave hace que no
+reconozca el tag. Un error inexpugnable, que lo encontre gracias a stack.
+* Todo
+** hacer trigger con pp que recalcule saldo
+** form para imprimir listados de visita fabian nuevo.
+** DONE faltan trigger pagos_insert/update/delete que hagan perform gc y demas 
+- State "DONE"       from "TODO"       [2020-06-11 jue 14:35]
+desistido pq no actualizare nada en momento de modificar los pagos
+sino que al usar la tabla cuotas generare primero el gc con la funcion.
+** rescatar los proc de datos extras en tabla pagos y hacerlos triggers
+** tener en cuenta el campo cuota para los triggers al inser o delete venta o cancelar venta
