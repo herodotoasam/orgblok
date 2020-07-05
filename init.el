@@ -46,12 +46,19 @@
     py-autopep8                     ;; Run autopep8 on save
     blacken                         ;; Black formatting on save
     magit                           ;; Git integration
-
+   
+    web-mode
+    powerline
+    
     org
     org-bullets
     ido-vertical-mode
+    flx-ido
+    autopair
+    auto-complete
     ag
     material-theme                  ;; Theme
+    sr-speedbar
 
     )
 
@@ -81,7 +88,7 @@
 
 (load-theme 'material t)            ;; Load material theme
 
-(global-linum-mode t)               ;; Enable line numbers globally
+;;(global-linum-mode t)               ;; Enable line numbers globally
 
 (elpy-enable)
 
@@ -117,12 +124,20 @@
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
 (global-set-key (kbd "C-}") 'org-agenda)
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
+(defun nolinum ()
+  (global-linum-mode 0)
+)
+(add-hook 'org-mode-hook 'nolinum)
 
 (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (linum-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'tcl-mode-hook 'autopair-mode)
+
+(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
 
 (fset 'yes-or-no-p 'y-or-n-p)
+
 
 ;; Duplicate line
 (defun duplicate-line (arg)
@@ -191,14 +206,92 @@
 (desktop-save-mode 1)
 (recentf-mode 1)
 (setq recentf-max-menu-items 25)
+;; ido mo
+(require 'flx-ido)
+(setq ido-enable-flex-maching t)
+(setq ido-everywhere t)
+(setq ido-use-filename-at-point 'guess)
+(setq ido-create-new-buffer 'always)
 (ido-mode 1)
+
+;; Configuracion de web-mode
+(require 'autopair)
+(autopair-global-mode) ;; enable autopair in all buffers
+(add-hook 'js2-mode-hook 'autopair-mode)
+(set-cursor-color "#aaaaaa")
+
+(require 'auto-complete)
+(require 'auto-complete-config)
+(ac-config-default)
+(setq ac-auto-start 3)
+(add-to-list 'ac-modes 'web-mode)
+(setq ac-ignore-case t)
+(setq ac-auto-start nil)
+(global-set-key (kbd "C-<tab>") 'auto-complete)
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.html$\\'" . web-mode))
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-markup-indent-offset 2)
+  (setq web-mode-css-indent-offset 2)
+  (setq web-mode-code-indent-offset 2)
+  (setq web-mode-enable-auto-pairing t)
+  (setq web-mode-enable-css-colorization t)
+  (setq web-mode-enable-block-face t)
+  (setq web-mode-enable-part-face t)
+  (setq web-mode-enable-current-element-highlight t)
+  (setq web-mode-enable-current-column-highlight t)
+  (setq web-mode-ac-sources-alist
+	'(("css" . (ac-source-css-property))
+	  ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
+)
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+(add-hook 'web-mode-hook 'autopair-mode)
+(add-hook 'web-mode-hook 'auto-complete-mode)
+
+
+(define-key web-mode-map (kbd "C-n") 'web-mode-tag-match)
+
+(require 'sr-speedbar)
+
+(require 'powerline)
+(powerline-default-theme)
+
+
+;; --------------------------------------------
+;; Aca termina lo que yo he programado
+;; --------------------------------------------
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(elpy-rpc-python-command "python3"))
+ '(custom-enabled-themes (quote (material)))
+ '(custom-safe-themes
+   (quote
+    ("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" "afd761c9b0f52ac19764b99d7a4d871fc329f7392dfc6cd29710e8209c691477" default)))
+ '(elpy-rpc-python-command "python3")
+ '(org-agenda-files
+   (quote
+    ("~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
+ '(org-modules (quote (org-mouse)))
+ '(org-mouse-features
+   (quote
+    (context-menu move-tree yank-link activate-stars activate-bullets activate-checkboxes)))
+ '(package-selected-packages
+   (quote
+    (org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
+ '(pyvenv-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

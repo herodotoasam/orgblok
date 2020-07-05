@@ -1594,7 +1594,7 @@ Esta bastante focalizado en org el problema, no en los otros tipos de
 archivos.
 *** [2020-07-04 Sat]
     :LOGBOOK:
-    CLOCK: [2020-07-04 Sat 18:33]
+    CLOCK: [2020-07-04 Sat 18:33]--[2020-07-04 Sat 19:25] =>  0:52
     CLOCK: [2020-07-04 Sat 12:50]--[2020-07-04 Sat 13:10] =>  0:20
     CLOCK: [2020-07-04 Sat 12:34]--[2020-07-04 Sat 12:50] =>  0:16
     CLOCK: [2020-07-04 Sat 12:05]--[2020-07-04 Sat 12:34] =>  0:29
@@ -1753,3 +1753,34 @@ decanto en mint con el cual estoy reconforme. y luego con la vuelta a
 vim y ahora con la recontravuelta a emacs y sus recontrafreaky
 sistemas de tuneados con caracteristicas mixtas de emacs-vim. Y este
 ultimo que he encontrado parece realmente bueno. Veremos lo que pasa.
+La semana continuo en recontra perdida de tiempo con la puesta a punto
+de un Emacs propio, con poco y nada de django, avanzando con el
+trazado del libro pero con poco avance. Pero por lo menos me he
+decantado por un editor.
+Creo que esta fue la semana de la Guerra de los Editores. con la
+puesta a punto de dos editores grandes. Poner a punto Emacs me llevo
+bastante y Nvim tambien, y tambien en el medio perdi tiempo con el
+doom.
+* agenda emacs
+** [2020-07-04 Sat]
+*** powerline
+*** ido-mode 
+puesta a punto
+*** busqueda en buffer con Cx b
+a traves de ido en forma facil y rapida
+*** Cx s
+para ver que buffers necesitan ser
+salvados en un momento dado.
+*** arregle el problema de los linum en orghook
+y de python venv que causaban
+enlentecimiento de los buffers grandes.
+** [2020-07-05 Sun]
+*** ag
+ag-project para busquedas dentro del
+project actual.
+*** bookmark
+para archivos que necesitamos acudir
+frecuentemente p.e. init.el
+* agenda django
+** [2020-07-05 Sun]
+lecturas formularios

@@ -4213,3 +4213,27 @@ efectivamente era el minor mode virtualenviroment.
 Un nuevo capitulo en la batalla de los editores, ganada por emacs en
 mi caso personal. Seguire adelante en la capacitacion en django pq
 sino no voy a ser productivo para nada.
+*** ensimismamiento programatico maximo
+estoy teniendo en estos ultimos dos meses, desde el 6 de mayo un
+ensimismamiento programacional maximo, creo que el mayor de mi vida,
+gracias tambien a las facilidades que me da el no tener que trabajar
+afuera y en realidad estar "trabajando" pocas horas y tambien en
+maquina.
+Pase por todo: estudie laravel, javascrip, jquery, html, css, ruby,
+rails y ultimamente termine en python-django (pasando brevemente por
+flask).
+Y tambien cai como no en la guerra de los editores, vim a fondo con
+nvim, y emacs, con spacemacs un dia maximo, uno nuevo bastante decente
+doom-emacs dos dias, hasta terminar con un emacs puro de factura
+propia en el cual estoy programando directamente. 
+He perdido bastante tiempo esta ultima semana en la guerra de los
+editores.
+Estoy haciendo lo que me gusta hacer. No me arrepiento pq de otro modo
+no se que estaria haciendo. Cuando me acuerdo que al comienzo de la
+cuarentena pasaba todo el dia viendo noticieros y leyendo diarios, y
+luego viendo series, pienso que la realidad es mejor ahora que por lo
+menos estoy aprendiendo algo que sirve para algun proposito. Y me
+mantiene ocupado.
+A medida que pasa el tiempo lo mas dificil es enfrentarse a los
+recuerdos, de las cosas que uno hizo y lo que fue y lo que pudo ser.
+
