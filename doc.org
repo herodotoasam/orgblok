@@ -302,6 +302,16 @@ posicion adecuada. Y no se si esta escondido en algun otro sitio.
 *** templates error { % for ... % }
 dejar un espacio antes o despues entre el % y la llave hace que no
 reconozca el tag. Un error inexpugnable, que lo encontre gracias a stack.
+** emacs
+*** problemas con fill-region 
+con auto-fill puesto se me habia fijado el fill-column a 36
+M-x customize-variable on fill-column, y lo puse a 80 y nada. Seguia igual
+incluso el Mx-fill-region no funcionaba pq estaba a 36.
+El problema era en un solo buffer y solo desde hacia un tiempito. (pro.org)
+y cuando hago 
+Cu80 Cx f se pone a 80 y alli me dice que el valor anterior era 36. 
+De ultima queda poner en el init.el
+(setq-default fill-column 80)
 * Todo
 ** hacer trigger con pp que recalcule saldo
 ** form para imprimir listados de visita fabian nuevo.

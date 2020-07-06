@@ -1,0 +1,65 @@
+; journal created 2020-07-05 by hledger
+
+2020/07/05 delivery cena
+    Comida             630
+    Caja              -630
+
+2020/07/01 remis visita Romi
+    Cami             500
+    Caja
+
+2020/07/01 alimento gatos
+    Comida:Gatos             610
+    Caja                    -610
+
+2020/07/01 articulos de limpieza
+    Comida:Limpieza             200
+    Caja                       -200
+
+2020/07/01 Comida
+    Comida             900
+    Caja              -900
+
+2020/07/01 consulta dentista y dos rx
+    Gastos Medicos:Odontologia            2100
+    Caja                                 -2100
+
+2020/07/04 Comida
+    Comida             530
+    Caja              -530
+
+2020/07/03 Colocacion aa dpto Cami
+    Casa:Refacciones            4000
+    Caja                       -4000
+
+2020/07/01 asiento inicial
+    Caja                            15650
+    Reserva                        -15650
+
+2020/07/01 asiento inicial
+    Reserva                        145650
+    Ingresos                      -145650
+
+2020/07/01 reserva dolares
+    Reserva Dolares            1900
+    Capital Dolares           -1900
+
+2020/07/01 Prestamo a Fede
+    Deudores en Dolares            6125
+    Capital Dolares               -6125
+
+2020/07/05 remis a Romi
+    Romi             200
+    Caja            -200
+
+2020/07/05 comida
+    Comida            1500
+    Caja             -1500
+
+2020/07/05 regalo cumpleaños Romi
+    Romi            2000
+    Caja           -2000
+
+2020/07/05 diff
+    Faltante de Caja              60
+    Caja                         -60

@@ -1614,6 +1614,12 @@ archivo pro. es chico comparado a otros y no tendria porque delayar.
 pero sacandole la tabla generada todo ok.
 Puede ser debido a la version de org. Eso es cambiante.
 De todos modos cambie y puse en otro archivo doc.org la documentacion.
+*** [2020-07-05 Sun]
+    :LOGBOOK:
+    CLOCK: [2020-07-05 Sun 19:13]
+    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-05 Sun 18:29] =>  1:00
+    CLOCK: [2020-07-05 Sun 11:28]--[2020-07-05 Sun 12:15] =>  0:47
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -1761,6 +1767,14 @@ Creo que esta fue la semana de la Guerra de los Editores. con la
 puesta a punto de dos editores grandes. Poner a punto Emacs me llevo
 bastante y Nvim tambien, y tambien en el medio perdi tiempo con el
 doom.
+** semana [2020-07-05 Sun]
+esta semana comienza ya con la herramienta establecida por lo tanto no tendria
+que perder demasiado tiempo en cambios rotundos como la semana pasada salvo
+perfeccionamientos menores.  siempre me da un reniegue nuevo el editor no
+entiendo porque es el problema que tengo que resolver.  Cuando parecia que todo
+estaba afinado y puesto a punto aparece un nuevo problema que me ocupa un monton
+de tiempo y no se resuelve.[Solved aparentemente]
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -1781,6 +1795,22 @@ project actual.
 *** bookmark
 para archivos que necesitamos acudir
 frecuentemente p.e. init.el
+*** busqueda tipo %/*
+con el comando adhoc
+xah-search-current-word bindeado a
+F8
+*** dired Cx-Cj para subir de directorio
+gracias a (require 'dired-x)
+*** descubrimiento de mouse-8 y mouse-9
+pero aun no bindeados
 * agenda django
 ** [2020-07-05 Sun]
 lecturas formularios
+* agenda linux general
+** firefox
+*** [2020-07-05 Sun]
+**** aceleracion de mouse-whell
+In the URL bar, type about:config, press Enter.
+
+    set mousewheel.acceleration.start to 2. (default is -1)
+    set mousewheel.acceleration.factor to 20. (default is 10)
