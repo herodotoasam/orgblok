@@ -1616,10 +1616,15 @@ Puede ser debido a la version de org. Eso es cambiante.
 De todos modos cambie y puse en otro archivo doc.org la documentacion.
 *** [2020-07-05 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-05 Sun 19:13]
-    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-05 Sun 18:29] =>  1:00
+    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-06 Mon 11:03] => 17:34
     CLOCK: [2020-07-05 Sun 11:28]--[2020-07-05 Sun 12:15] =>  0:47
     :END:
+*** [2020-07-06 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-07-06 Mon 11:54]
+    CLOCK: [2020-07-06 Mon 10:50]--[2020-07-06 Mon 11:54] =>  1:04
+    :END:
+una hora con hl y ahora empiezo con dj.
 
 * Anotaciones
 ** Objetivos
@@ -1774,6 +1779,10 @@ perfeccionamientos menores.  siempre me da un reniegue nuevo el editor no
 entiendo porque es el problema que tengo que resolver.  Cuando parecia que todo
 estaba afinado y puesto a punto aparece un nuevo problema que me ocupa un monton
 de tiempo y no se resuelve.[Solved aparentemente]
+Como siempre y siguiendo la costumbre de los domingos, re-descubri
+ledger y mas que todo la posibilidad de implementarlo con facilidad a
+traves de la mano de hledger que permite ingresar las operaciones con
+la terminal o ui o web. Asi se obtiene una contabilidad de otro nivel.
 
 * agenda emacs
 ** [2020-07-04 Sat]
@@ -1814,3 +1823,24 @@ In the URL bar, type about:config, press Enter.
 
     set mousewheel.acceleration.start to 2. (default is -1)
     set mousewheel.acceleration.factor to 20. (default is 10)
+** ln -s
+simbolic links (ojo -s no s)
+mediante ln -s y siguiendo una idea que escuche el otro dia en un
+video puse un par de dotfiles (init.el y .hledger.jornal) en la
+carpeta orgblok que esta en git y es activamente mantenida y por lo
+tanto esta bajo control de version asegurada. Y mantengo soft links en
+el lugar necesario.
+
+ln -s path-del-archivo-real  path-del-soft-link
+* agenda hledger
+** inicio [2020-07-05 Sun]
+muy rapido y facil.
+** arreglo de cuentas y directivas
+Y2020 para establecer el año por defecto
+D $1000.00 para establecer el producto por defecto
+account ... ; type:Asset
+para establecer el plan de cuentas y la tipologia de cuentas para que
+se presenten en los informes.
+*** tipos de informes 
+**** hl b caja - hl b
+**** hl register caja

@@ -309,6 +309,10 @@ M-x customize-variable on fill-column, y lo puse a 80 y nada. Seguia igual
 incluso el Mx-fill-region no funcionaba pq estaba a 36.
 El problema era en un solo buffer y solo desde hacia un tiempito. (pro.org)
 y cuando hago 
+{descubri cual es el problema: C-x f setea el ancho de columnas y
+tiene un default al lugar donde esta el cursor en ese momento, y ese
+comando involuntariamente se puede ejecutar queriendo hacer un Cx-Cf}
+
 Cu80 Cx f se pone a 80 y alli me dice que el valor anterior era 36. 
 De ultima queda poner en el init.el
 (setq-default fill-column 80)

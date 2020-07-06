@@ -1,65 +1,86 @@
 ; journal created 2020-07-05 by hledger
+Y2020
+D $1000.00
+account Activo                     ; type:Asset
+account Activo:Caja                ; type:Asset
+account Activo:Deudores            ; type:Asset
+account Activo:Reserva             ; type:Asset
+account Activo:Reserva U$D         ; type:Asset
+account Pasivo:Capital 	  	   ; type:Liability
+account Pasivo:Capital U$D  	   ; type:Liability
+account Ganancias:Retiro Sociedad  ; type:Revenue
+account Perdidas:Comida            ; type:Expense
+account Perdidas:Comida:Gatos      ; type:Expense
+account Perdidas:Comida:Limpieza   ; type:Expense
+account Perdidas:Cami:Mesada       ; type:Expense
+account Perdidas:Cami:Comida       ; type:Expense
+account Perdidas:Cami:Extras       ; type:Expense
+account Perdidas:Romi              ; type:Expense
+account Perdidas:Isabel            ; type:Expense
+account Perdidas:Gastos Medicos:Odontologia            ; type:Expense
+account Perdidas:Casa:Refacciones                      ; type:Expense
+account Perdidas:Faltante de Caja                      ; type:Expense
 
 2020/07/05 delivery cena
-    Comida             630
-    Caja              -630
+    Perdidas:Comida            $630
+    Activo:Caja                  $-630
 
 2020/07/01 remis visita Romi
-    Cami             500
-    Caja
+    Perdidas:Cami:Extras             $500
+    Activo:Caja
 
 2020/07/01 alimento gatos
-    Comida:Gatos             610
-    Caja                    -610
+    Perdidas:Comida:Gatos             $610
+    Activo:Caja                    $-610
 
 2020/07/01 articulos de limpieza
-    Comida:Limpieza             200
-    Caja                       -200
+    Perdidas:Comida:Limpieza             $200
+    Activo:Caja                       $-200
 
 2020/07/01 Comida
-    Comida             900
-    Caja              -900
+    Perdidas:Comida             $900
+    Activo:Caja              $-900
 
 2020/07/01 consulta dentista y dos rx
-    Gastos Medicos:Odontologia            2100
-    Caja                                 -2100
+    Perdidas:Gastos Medicos:Odontologia            $2100
+    Activo:Caja                                 $-2100
 
 2020/07/04 Comida
-    Comida             530
-    Caja              -530
+    Perdidas:Comida             $530
+    Activo:Caja              $-530
 
 2020/07/03 Colocacion aa dpto Cami
-    Casa:Refacciones            4000
-    Caja                       -4000
+    Perdidas:Casa:Refacciones            $4000
+    Activo:Caja                       $-4000
 
 2020/07/01 asiento inicial
-    Caja                            15650
-    Reserva                        -15650
+    Activo:Caja                            $15650
+    Activo:Reserva                  $-15650
 
 2020/07/01 asiento inicial
-    Reserva                        145650
-    Ingresos                      -145650
+    Activo:Reserva                        $145650
+    Ingresos                      $-145650
 
 2020/07/01 reserva dolares
-    Reserva Dolares            1900
-    Capital Dolares           -1900
+    Activo:Reserva U$S              U$S1900
+    Pasivo:Capital U$S         U$S-1900
 
 2020/07/01 Prestamo a Fede
-    Deudores en Dolares            6125
-    Capital Dolares               -6125
+    Activo:Deudores                    U$S6125
+    Pasivo:Capital U$S           U$S-6125
 
 2020/07/05 remis a Romi
-    Romi             200
-    Caja            -200
+    Perdidas:Romi             $200
+    Activo:Caja            $-200
 
 2020/07/05 comida
-    Comida            1500
-    Caja             -1500
+    Perdidas:Comida            $1500
+    Activo:Caja             $-1500
 
 2020/07/05 regalo cumpleaños Romi
-    Romi            2000
-    Caja           -2000
+    Perdidas:Romi            $2000
+    Activo:Caja           $-2000
 
 2020/07/05 diff
-    Faltante de Caja              60
-    Caja                         -60
+    Perdidas:Faltante de Caja              $60
+    Activo:Caja                         $-60
