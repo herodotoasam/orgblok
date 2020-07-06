@@ -1,86 +1,115 @@
 ; journal created 2020-07-05 by hledger
 Y2020
 D $1000.00
-account Activo                     ; type:Asset
-account Activo:Caja                ; type:Asset
-account Activo:Deudores            ; type:Asset
-account Activo:Reserva             ; type:Asset
-account Activo:Reserva U$D         ; type:Asset
-account Pasivo:Capital 	  	   ; type:Liability
-account Pasivo:Capital U$D  	   ; type:Liability
-account Ganancias:Retiro Sociedad  ; type:Revenue
-account Perdidas:Comida            ; type:Expense
-account Perdidas:Comida:Gatos      ; type:Expense
-account Perdidas:Comida:Limpieza   ; type:Expense
-account Perdidas:Cami:Mesada       ; type:Expense
-account Perdidas:Cami:Comida       ; type:Expense
-account Perdidas:Cami:Extras       ; type:Expense
-account Perdidas:Romi              ; type:Expense
-account Perdidas:Isabel            ; type:Expense
-account Perdidas:Gastos Medicos:Odontologia            ; type:Expense
-account Perdidas:Casa:Refacciones                      ; type:Expense
-account Perdidas:Faltante de Caja                      ; type:Expense
+account activo					        ; type:Asset
+account activo:caja				        ; type:Asset
+account activo:deudores					; type:Asset
+account activo:reserva				        ; type:Asset
+account activo:reserva u$d			        ; type:Asset
+account pasivo:capital				        ; type:Liability
+account pasivo:capital u$d		                ; type:Liability
+account ganancias:retiro sociedad		        ; type:Revenue
+account perdidas:comida				        ; type:Expense
+account perdidas:comida:gatos			        ; type:Expense
+account perdidas:comida:limpieza		        ; type:Expense
+account perdidas:cami:mesada			        ; type:Expense
+account perdidas:cami:comida			        ; type:Expense
+account perdidas:cami:extras			        ; type:Expense
+account perdidas:romi                                   ; type:Expense
+account perdidas:isabel                                 ; type:Expense
+account perdidas:gastos medicos:odontologia             ; type:Expense
+account perdidas:casa:refacciones                       ; type:Expense
+account perdidas:diferencia arqueo                      ; type:Expense
+account perdidas:servicios:epec                         ; type:Expense
+account perdidas:servicios:aguas cordobesas             ; type:Expense
+account perdidas:servicios:ecogas                       ; type:Expense
+account perdidas:servicios:fibertel                     ; type:Expense
+account perdidas:servicios:claro                        ; type:Expense
+account perdidas:servicios:la caja seguros              ; type:Expense
+account perdidas:servicios:carusso                      ; type:Expense
+account perdidas:servicios:OSPE                         ; type:Expense
+account perdidas:servicios:tarjeta naranja gastos fijos ; type:Expense
+account perdidas:impuestos:municipales casa             ; type:Expense
+account perdidas:impuestos:municipales bora             ; type:Expense
+account perdidas:impuestos:dgr casa                     ; type:Expense
+account perdidas:gastos medicos:farmacia                ; type:Expense
+account perdidas:transporte:taxi y remis                ; type:Expense
+account perdidas:transporte:nafta                       ; type:Expense
+
+alias caja=activo:caja
 
 2020/07/05 delivery cena
-    Perdidas:Comida            $630
-    Activo:Caja                  $-630
+    perdidas:comida            $630
+    activo:caja                  $-630
 
-2020/07/01 remis visita Romi
-    Perdidas:Cami:Extras             $500
-    Activo:Caja
+2020/07/01 remis visita romi
+    perdidas:cami:extras             $500
+    activo:caja
 
 2020/07/01 alimento gatos
-    Perdidas:Comida:Gatos             $610
-    Activo:Caja                    $-610
+    perdidas:comida:gatos             $610
+    activo:caja                    $-610
 
 2020/07/01 articulos de limpieza
-    Perdidas:Comida:Limpieza             $200
-    Activo:Caja                       $-200
+    perdidas:comida:limpieza             $200
+    activo:caja                       $-200
 
-2020/07/01 Comida
-    Perdidas:Comida             $900
-    Activo:Caja              $-900
+2020/07/01 comida
+    perdidas:comida             $900
+    activo:caja              $-900
 
 2020/07/01 consulta dentista y dos rx
-    Perdidas:Gastos Medicos:Odontologia            $2100
-    Activo:Caja                                 $-2100
+    perdidas:gastos medicos:odontologia            $2100
+    activo:caja                                 $-2100
 
-2020/07/04 Comida
-    Perdidas:Comida             $530
-    Activo:Caja              $-530
+2020/07/04 comida
+    perdidas:comida             $530
+    activo:caja              $-530
 
-2020/07/03 Colocacion aa dpto Cami
-    Perdidas:Casa:Refacciones            $4000
-    Activo:Caja                       $-4000
-
-2020/07/01 asiento inicial
-    Activo:Caja                            $15650
-    Activo:Reserva                  $-15650
+2020/07/03 colocacion aa dpto cami
+    perdidas:casa:refacciones            $4000
+    activo:caja                       $-4000
 
 2020/07/01 asiento inicial
-    Activo:Reserva                        $145650
-    Ingresos                      $-145650
+    activo:caja                            $15650
+    activo:reserva                  $-15650
+
+2020/07/01 asiento inicial
+    activo:reserva                        $145650
+    ingresos                      $-145650
 
 2020/07/01 reserva dolares
-    Activo:Reserva U$S              U$S1900
-    Pasivo:Capital U$S         U$S-1900
+    activo:reserva u$s              u$s1900
+    pasivo:capital u$s         u$s-1900
 
-2020/07/01 Prestamo a Fede
-    Activo:Deudores                    U$S6125
-    Pasivo:Capital U$S           U$S-6125
+2020/07/01 prestamo a fede
+    activo:deudores                    u$s6125
+    pasivo:capital u$s           u$s-6125
 
-2020/07/05 remis a Romi
-    Perdidas:Romi             $200
-    Activo:Caja            $-200
+2020/07/05 remis a romi
+    perdidas:romi             $200
+    activo:caja            $-200
 
 2020/07/05 comida
-    Perdidas:Comida            $1500
-    Activo:Caja             $-1500
+    perdidas:comida            $1500
+    activo:caja             $-1500
 
-2020/07/05 regalo cumpleaños Romi
-    Perdidas:Romi            $2000
-    Activo:Caja           $-2000
+2020/07/05 regalo cumpleaños romi
+    perdidas:romi            $2000
+    activo:caja           $-2000
 
 2020/07/05 diff
-    Perdidas:Faltante de Caja              $60
-    Activo:Caja                         $-60
+    perdidas:diferencia arqueo              $60
+    activo:caja                         $-60
+
+2020/07/06 jabon liquido lavarropas
+    perdidas:comida:limpieza            $490
+    activo:caja                                $-490
+
+2020/07/06 hilos
+    perdidas:isabel             $100
+    activo:caja                $-100
+
+2020/07/06 saco reserva
+    activo:caja              $10000
+    activo:reserva          $-10000

@@ -1,3 +1,18 @@
+#+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
+#+CAPTION: Clock summary at [2020-07-06 Mon 20:47], for July 2020.
+| Headline               |      Time |
+|------------------------+-----------|
+| *Total time*           | *1d 8:04* |
+|------------------------+-----------|
+| Agenda de trabajo      |   1d 8:04 |
+| \_  2020-Julio         |   1d 8:04 |
+| \_    [2020-07-01 Wed] |      7:30 |
+| \_    [2020-07-02 Thu] |      5:27 |
+| \_    [2020-07-03 Fri] |      4:41 |
+| \_    [2020-07-04 Sat] |      3:45 |
+| \_    [2020-07-05 Sun] |      3:21 |
+| \_    [2020-07-06 Mon] |      7:20 |
+#+END:
 
 * Agenda de trabajo
 ** 2020-Mayo
@@ -1616,15 +1631,23 @@ Puede ser debido a la version de org. Eso es cambiante.
 De todos modos cambie y puse en otro archivo doc.org la documentacion.
 *** [2020-07-05 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-06 Mon 11:03] => 17:34
+    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-05 Sun 20:03] =>  2:34
     CLOCK: [2020-07-05 Sun 11:28]--[2020-07-05 Sun 12:15] =>  0:47
     :END:
 *** [2020-07-06 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-06 Mon 11:54]
+    CLOCK: [2020-07-06 Mon 19:07]--[2020-07-06 Mon 20:33] =>  1:26
+    CLOCK: [2020-07-06 Mon 18:00]--[2020-07-06 Mon 19:07] =>  1:07
+    CLOCK: [2020-07-06 Mon 14:51]--[2020-07-06 Mon 16:15] =>  1:24
+    CLOCK: [2020-07-06 Mon 13:36]--[2020-07-06 Mon 14:51] =>  1:15
+    CLOCK: [2020-07-06 Mon 12:31]--[2020-07-06 Mon 13:11] =>  0:40
+    CLOCK: [2020-07-06 Mon 11:54]--[2020-07-06 Mon 12:18] =>  0:24
     CLOCK: [2020-07-06 Mon 10:50]--[2020-07-06 Mon 11:54] =>  1:04
     :END:
-una hora con hl y ahora empiezo con dj.
+una hora con hl y ahora empiezo con dj. termine el cap 3 del libro y
+ahi termino el blog. y empieza un nuevo proyecto, y vi un par de
+videos de la serie que venia viendo pero vuelvo al libro pq me parece
+de superior calidad.
 
 * Anotaciones
 ** Objetivos
@@ -1783,6 +1806,17 @@ Como siempre y siguiendo la costumbre de los domingos, re-descubri
 ledger y mas que todo la posibilidad de implementarlo con facilidad a
 traves de la mano de hledger que permite ingresar las operaciones con
 la terminal o ui o web. Asi se obtiene una contabilidad de otro nivel.
+Estoy contento con emacs a nivel general pq complementa directamente
+con orgmode y eso es fantastico. A la larga servira y mucho para
+organizarse mejor. Pero hoy pensaba [2020-07-06 Mon] si el fanatismo
+de emacs no es solo eso un fanatismo. Pero asi lo fuera no estaria
+mal, pq es algo que tiene mucha historia en el mundo de la computacion
+y uno no esta en el sitio del gran desarrollo sino que esta
+aprendiendo. Y se esta divirtiendo. La pregunta hoy por hoy es si
+seria mas productivo en vscode, probablemente si, pero aprenderia
+menos, no me hace mal escribir codigo pq aprendes mas. En eso recuerdo
+el video que vi si conviene al estudiante desarrollar con un IDE o
+usar algo limpio.
 
 * agenda emacs
 ** [2020-07-04 Sat]
@@ -1812,6 +1846,14 @@ F8
 gracias a (require 'dired-x)
 *** descubrimiento de mouse-8 y mouse-9
 pero aun no bindeados
+** [2020-07-06 Mon]
+*** Mx-shell Mx-ehell
+aunque eshell es mas coloreado y lindo shell es bash puro y ejecuta el
+venv.
+*** mayor uso de Cf y Cb para evitar las flechas
+el Cf lo vengo usando mucho y ahora empiezo con el Cb
+*** dired R rename + crear directorio
+*** M% para buscar y reemplazar
 * agenda django
 ** [2020-07-05 Sun]
 lecturas formularios
@@ -1844,3 +1886,7 @@ se presenten en los informes.
 *** tipos de informes 
 **** hl b caja - hl b
 **** hl register caja
+**** cj (hl r caja)
+que viene a ser una forma rapida de consultar el saldo y a la vez de
+ver los ultimos movimientos.
+
