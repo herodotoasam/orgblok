@@ -19,6 +19,7 @@ account perdidas:romi                                   ; type:Expense
 account perdidas:isabel                                 ; type:Expense
 account perdidas:gastos medicos:odontologia             ; type:Expense
 account perdidas:casa:refacciones                       ; type:Expense
+account perdidas:casa:mantenimiento:jardineria          ; type:Expense
 account perdidas:diferencia arqueo                      ; type:Expense
 account perdidas:servicios:epec                         ; type:Expense
 account perdidas:servicios:aguas cordobesas             ; type:Expense
@@ -76,7 +77,7 @@ alias caja=activo:caja
 
 2020/07/01 asiento inicial
     activo:reserva                        $145650
-    ingresos                      $-145650
+    ganancias:retiro sociedad            $-145650
 
 2020/07/01 reserva dolares
     activo:reserva u$s              u$s1900
@@ -113,3 +114,27 @@ alias caja=activo:caja
 2020/07/06 saco reserva
     activo:caja              $10000
     activo:reserva          $-10000
+
+2020/07/07 tratamiento de conducto
+    perdidas:gastos medicos:odontologia            5500
+    activo:caja                                   -5500
+
+2020/07/07 arreglo general frente
+    perdidas:casa:mantenimiento:jardineria            1000
+    activo:caja                                      -1000
+
+2020/07/07 ingresos
+    activo:reserva                      40000
+    ganancias:retiro sociedad          -40000
+
+2020/07/07 ketorolac
+    perdidas:gastos medicos:farmacia             325
+    activo:caja                                 -325
+
+2020/07/07 fibertel 07/2020
+    perdidas:servicios:fibertel            1730
+    activo:caja                           -1730
+
+2020/07/07 dif
+    perdidas:diferencia arqueo              95
+    activo:caja                            -95

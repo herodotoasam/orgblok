@@ -1648,6 +1648,10 @@ una hora con hl y ahora empiezo con dj. termine el cap 3 del libro y
 ahi termino el blog. y empieza un nuevo proyecto, y vi un par de
 videos de la serie que venia viendo pero vuelvo al libro pq me parece
 de superior calidad.
+*** [2020-07-07 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-07-07 Tue 17:45]--[2020-07-07 Tue 19:38] =>  1:53
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -1838,7 +1842,7 @@ project actual.
 *** bookmark
 para archivos que necesitamos acudir
 frecuentemente p.e. init.el
-*** busqueda tipo %/*
+*** busqueda tipo %/* F8
 con el comando adhoc
 xah-search-current-word bindeado a
 F8
@@ -1854,6 +1858,8 @@ venv.
 el Cf lo vengo usando mucho y ahora empiezo con el Cb
 *** dired R rename + crear directorio
 *** M% para buscar y reemplazar
+** [2020-07-07 Tue]
+*** Md para borrar palabra 
 * agenda django
 ** [2020-07-05 Sun]
 lecturas formularios
