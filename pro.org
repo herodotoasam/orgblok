@@ -1652,6 +1652,11 @@ de superior calidad.
     :LOGBOOK:
     CLOCK: [2020-07-07 Tue 17:45]--[2020-07-07 Tue 19:38] =>  1:53
     :END:
+*** [2020-07-08 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-07-08 Wed 15:27]--[2020-07-08 Wed 16:14] =>  0:47
+    CLOCK: [2020-07-08 Wed 11:11]--[2020-07-08 Wed 12:30] =>  1:19
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -1880,6 +1885,10 @@ tanto esta bajo control de version asegurada. Y mantengo soft links en
 el lugar necesario.
 
 ln -s path-del-archivo-real  path-del-soft-link
+** tree
+comando tree para ver la estructura del arbol del directorio. Le hice
+un alias para ignorar los pyc pycache y los ~ # de emacs.
+
 * agenda hledger
 ** inicio [2020-07-05 Sun]
 muy rapido y facil.

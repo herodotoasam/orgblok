@@ -138,3 +138,20 @@ alias caja=activo:caja
 2020/07/07 dif
     perdidas:diferencia arqueo              95
     activo:caja                            -95
+
+2020/07/08 locro
+    perdidas:comida            2500
+    activo:caja               -2500
+
+2020/07/08 arreglo jardin terminacion
+    perdidas:casa:mantenimiento:jardineria             600
+    activo:caja                                       -600
+
+2020/07/08 saco reserva
+    activo:caja             $10000
+    activo:reserva         $-10000
+
+2020/07/08 cami semana
+    perdidas:cami:comida            2000
+    perdidas:cami:mesada            1500
+    activo:caja                    -3500
