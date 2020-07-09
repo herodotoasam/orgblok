@@ -11,6 +11,16 @@ ataraxia76
 
 ** crear clave ssh en gitlab segun instrucciones
 ** emacs
+*** Nuevo Emacs
+**** crear un ln -s a init.el de orgblok
+ln -s ~/orgblok/init.el ~/.emacs.d/init.el
+**** instalar font: Input font for Code
+bajar desempaquetar - doble click en la font y luego install
+**** troubleshoting con algun package no encontrado en melpa
+me paso con yasnippet-20200420 supongamos y en package-list estaba ya
+el 2020-05-22 entonces lo instale a mano y luego siguio la instalacion
+sola.
+
 *** copiar .emacs de orblok/
 *** mx package-refresh-contens
 *** mx package-install
@@ -21,6 +31,15 @@ ataraxia76
 **** ag (instalar silversearcher con apt)
 *** instalar org en su ultima version
 usar package-list-packages
+** neovim
+*** instalar neovim 
+*** ln -s a init.vim
+mkdir .config/nvim
+ln -s ~/orgblok/init.vim ~/.config/nvim/init.vim
+*** instalar vim-Plug
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+*** hacer PlugInstall
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
