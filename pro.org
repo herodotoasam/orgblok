@@ -1667,7 +1667,9 @@ de superior calidad.
     CLOCK: [2020-07-09 Thu 17:40]--[2020-07-09 Thu 17:59] =>  0:19
     CLOCK: [2020-07-09 Thu 11:57]--[2020-07-09 Thu 12:57] =>  1:00
     :END:
-
+*** [2020-07-10 Fri]
+dia perdido en re-instalacion de mint-cinnamon en la compu vieja.
+Y luego en breves practicas que no fueron cuantificadas.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -1889,6 +1891,15 @@ asimismo laravel. Tendria que hacer una pausa de un par de dias en
 django y ver si puedo superar el bache que me trabo en rails y ver que
 pasa. De todos modos creo que todos los conocimientos estan ahi, no se
 pierden. (incluso creo que los de laravel deben estar)
+[2020-07-10 Fri] Siendo que estoy a solo 24 hs de la reimplantacion de
+rails y siendo que perdi todo el dia util en la reinstalacion de la
+maquina vieja, bastante he recuperado de rails. He recuperado el
+sistema tal cual lo deje en dos maquinas, o sea dos practicas, dos
+instalaciones de rails, e incluso tomando como ejemplo lo hecho pude
+mejorar una de las vistas que tenia a medio hacer. Me lei tres
+capitulos del libro y pienso que puedo avanzar un poco aunque no
+espero mucho de alli. Me parece solido, puede que se pueda ir
+programando un sistema con el tiempo. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

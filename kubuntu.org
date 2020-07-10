@@ -42,6 +42,12 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 *** hacer PlugInstall
+** hldedger
+*** install hledger con apt
+sudo apt install hledger hledger-ui hledger-web
+*** ln -s ~/orgblok/.hledger.journal ~/.hledger.jounal
+*** alias hl='hledger'
+alias cj='hl r caja' en .bashrc ambos
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
@@ -87,11 +93,15 @@ $sudo -u postgres createdb hero
 **** dar password al usuario
 $sudo -u postgres psql
 postgres=# alter user hero with encrypted password 'ata';
+postgres=# alter user hero with superuser;
 **** le damos privilegios a la base de datos
 postgres=# grant all privileges on database hero to hero;
 **** cargamos el schema dumpeado previamente
 $psql -f dumppreviodeschema.sql
 ** instalar Rails
+sudo apt-get install libpq-dev
+para que no de problemas la gem pg
+gem install pg
 [[https://gorails.com/setup/ubuntu/20.04][tutorial para instalar Rail en ubuntu 20.04]]
 ** instalar pgadmin 4 
 1. sudo apt-get install pgadmin4 pgadmin4-apache2

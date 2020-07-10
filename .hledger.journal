@@ -187,3 +187,27 @@ alias caja=activo:caja
 2020/07/09 saco reserva
     activo:caja             $10000
     activo:reserva         $-10000
+
+2020/07/10 epec julio/2020
+    perdidas:servicios:epec         3597.80
+    activo:caja                    -3597.80
+
+2020/07/10 claro julio/2020
+    perdidas:servicios:claro         3041.60
+    activo:caja                     -3041.60
+
+2020/07/10 ecogas 03/2020 con vto 06/07/2020
+    perdidas:servicios:ecogas         4049.98
+    activo:caja                      -4049.98
+
+2020/07/10 aguas 6-7/2020 con vto 14/7 y 19/8
+    perdidas:servicios:aguas cordobesas         1492.44
+    activo:caja                                -1492.44
+
+2020/07/10 saco reserva
+    activo:caja             $10000
+    activo:reserva         $-10000
+
+2020/07/10 remis cami
+    perdidas:cami:extras             500
+    activo:caja                     -500
