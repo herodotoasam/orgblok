@@ -36,7 +36,9 @@ usar package-list-packages
 *** ln -s a init.vim
 mkdir .config/nvim
 ln -s ~/orgblok/init.vim ~/.config/nvim/init.vim
-*** instalar vim-Plug
+*** instalar Vundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+*** instalar vim-Plug [por el momento no]
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 *** hacer PlugInstall

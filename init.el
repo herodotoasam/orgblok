@@ -289,7 +289,6 @@ Version 2015-04-09"
 
 (define-key web-mode-map (kbd "C-n") 'web-mode-tag-match)
 
-(require 'sr-speedbar)
 
 (require 'powerline)
 (powerline-default-theme)
