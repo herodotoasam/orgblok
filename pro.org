@@ -1661,6 +1661,12 @@ de superior calidad.
     CLOCK: [2020-07-08 Wed 15:27]--[2020-07-08 Wed 16:14] =>  0:47
     CLOCK: [2020-07-08 Wed 11:11]--[2020-07-08 Wed 12:30] =>  1:19
     :END:
+*** [2020-07-09 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-07-09 Thu 18:00]--[2020-07-09 Thu 18:32] =>  0:32
+    CLOCK: [2020-07-09 Thu 17:40]--[2020-07-09 Thu 17:59] =>  0:19
+    CLOCK: [2020-07-09 Thu 11:57]--[2020-07-09 Thu 12:57] =>  1:00
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -1848,7 +1854,41 @@ en laravel que fue seguir el video y hacer la practica, y en
 rail/django seguir el libro me han introducido al tema pero con muchas
 lagunas y sin saber como seguir o como hacer para adaptar lo aprendido
 para algo propio.
-
+[2020-07-09 Thu] hoy considero volver a usar vscode para el desarrollo
+web pq se hace muy anti-productivo hacerlo en emacs, o sea el estar
+cambiando y abriendo buffers a cada rato es un pain. Como experiencia
+fue valida, incluso me quedo el emacs bien tuneado y reproducible con
+solo hacer el ln -s en .emacs.d/ a la carpeta orgblok o sea mejor que
+antes.
+Pero puedo seguir con vscode pienso.
+Bastante regular la experiencia con vscode. No fue tan lisa y llana
+como pense. Quizas siga con emacs. 
+Esta mañana habia tenido la idea de esqueletos de diseño. O sea
+p.e. la estructura {% extends "base.html" %} etc se repite en todos
+los templates, por lo tanto tenerlo como un boilerplate, y tambien se
+podria tener uno tipo base.html, quizas con una extencion ~ o
+adelante, y listo, el tema de los porcentajes ya me acostumbre a
+escribirlos.
+Pero mas adelante podria quizas aprender con yasnippet.
+y depender de mi mismo.
+Hoy a la tarde volvi a revisar RAils. Instalacion: 19
+minutos. Reimplantacion del proyecto, totalmente lisa sin problema con
+bundle install, y con yarn a pedido de la interface cuando hice el
+rake db:migrate. Genere la base de datos y volvi a ver el sistema, que
+estaba bastante avanzado comparando la nada absoluta en la que nado
+con django. Si bien es cierto que ciertos conocimientos he adquirido
+de django y tengo conocimientos de python, a nivel de resultados
+productivos no tengo nada en absoluto. En Laravel en una semana saque
+algo productivo incluso subido a heroku. Luego deambule por todos
+lados con la interface. Y con rails fue muy liso lo logrado a nivel de
+interface a pesar de la escasa documentacion a seguir (sin cursos de
+video ni libro a seguir) y muy mucho lo conseguido y me trabe en la
+parte detalle de venta que es una parte que trabaria cualquier
+sistema, no solo rail en ese nivel, sino quiero verlo a django y
+asimismo laravel. Tendria que hacer una pausa de un par de dias en
+django y ver si puedo superar el bache que me trabo en rails y ver que
+pasa. De todos modos creo que todos los conocimientos estan ahi, no se
+pierden. (incluso creo que los de laravel deben estar)
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -1927,4 +1967,13 @@ se presenten en los informes.
 **** cj (hl r caja)
 que viene a ser una forma rapida de consultar el saldo y a la vez de
 ver los ultimos movimientos.
-
+* agenda mint
+** [2020-07-07 Tue] aparece mensaje de error al arranque
+casi al dia siguiente de haber cambiado a uso de controlador nvidia
+por sugerencia del mismo sistema
+[2020-07-09 Thu] lo mismo sigue haciendolo por mas que volvi al
+controlador anterior.
+** [2020-07-09 Thu] cambia el orden del icono de inicio
+se posiciona despues de los pineados
+despues del reseteado sigue igual
+haciendo edit mode del panel lo restaure pero no se pq se puso.

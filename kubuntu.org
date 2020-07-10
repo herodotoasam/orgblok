@@ -89,8 +89,8 @@ postgres=# alter user hero with encrypted password 'ata';
 postgres=# grant all privileges on database hero to hero;
 **** cargamos el schema dumpeado previamente
 $psql -f dumppreviodeschema.sql
- 
-
+** instalar Rails
+[[https://gorails.com/setup/ubuntu/20.04][tutorial para instalar Rail en ubuntu 20.04]]
 ** instalar pgadmin 4 
 1. sudo apt-get install pgadmin4 pgadmin4-apache2
 2. durante la instalacion damos mail/password

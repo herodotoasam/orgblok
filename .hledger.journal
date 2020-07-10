@@ -155,3 +155,35 @@ alias caja=activo:caja
     perdidas:cami:comida            2000
     perdidas:cami:mesada            1500
     activo:caja                    -3500
+
+2020/07/09 ñoño
+    perdidas:comida:ayuda              60
+    activo:caja                       -60
+
+2020/07/09 compras
+    perdidas:comida             600
+    activo:caja                -600
+
+2020/07/09 diff
+    perdidas:diferencia arqueo             100
+    activo:caja                           -100
+
+2020/07/09 facturas
+    perdidas:comida             400
+    activo:caja                -400
+
+2020/07/09 a cuenta devolucion de deuda sommier
+    perdidas:isabel            4000
+    activo:caja               -4000
+
+2020/07/09 cuota valija
+    perdidas:cami:extras            1000
+    activo:caja                    -1000
+
+2020/07/09 romi remis
+    perdidas:romi             300
+    activo:caja              -300
+
+2020/07/09 saco reserva
+    activo:caja             $10000
+    activo:reserva         $-10000
