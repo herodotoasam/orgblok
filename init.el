@@ -9,6 +9,9 @@
 
 ;; Enables basic packaging support
 
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+
 (require 'package)
 
 
@@ -46,7 +49,8 @@
     py-autopep8                     ;; Run autopep8 on save
     blacken                         ;; Black formatting on save
     magit                           ;; Git integration
-   
+    enh-ruby-mode
+    
     web-mode
     powerline
     
@@ -105,6 +109,12 @@
 
 (add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
+;; ruby
+(add-hook 'enh-ruby-mode-hook 'robe-mode)
+(add-hook 'enh-ruby-mode-hook 'yard-mode)
+(add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
+(add-to-list 'auto-mode-alist
+             '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode))
 
 
 ;; User-Defined init.el ends here
@@ -310,14 +320,14 @@ Version 2015-04-09"
  '(elpy-rpc-python-command "python3")
  '(org-agenda-files
    (quote
-    ("~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
+    ("~/orgblok/rb.org" "~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
  '(org-modules (quote (org-mouse)))
  '(org-mouse-features
    (quote
     (context-menu move-tree yank-link activate-stars activate-bullets activate-checkboxes)))
  '(package-selected-packages
    (quote
-    (org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
+    (enh-ruby-mode org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
  '(pyvenv-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

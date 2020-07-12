@@ -211,3 +211,11 @@ alias caja=activo:caja
 2020/07/10 remis cami
     perdidas:cami:extras             500
     activo:caja                     -500
+
+2020/07/11 lanas isabel
+    perdidas:isabel             400
+    activo:caja                -400
+
+2020/07/11 sandwich
+    perdidas:comida             500
+    activo:caja                -500

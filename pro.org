@@ -1,19 +1,21 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-07-08 Wed 20:29], for July 2020.
-| Headline               |       Time |
-|------------------------+------------|
-| *Total time*           | *1d 14:57* |
-|------------------------+------------|
-| Agenda de trabajo      |   1d 14:57 |
-| \_  2020-Julio         |   1d 14:57 |
-| \_    [2020-07-01 Wed] |       7:30 |
-| \_    [2020-07-02 Thu] |       5:27 |
-| \_    [2020-07-03 Fri] |       4:41 |
-| \_    [2020-07-04 Sat] |       3:45 |
-| \_    [2020-07-05 Sun] |       3:21 |
-| \_    [2020-07-06 Mon] |       7:20 |
-| \_    [2020-07-07 Tue] |       1:53 |
-| \_    [2020-07-08 Wed] |       5:00 |
+#+CAPTION: Clock summary at [2020-07-11 Sat 20:38], for July 2020.
+| Headline               |      Time |
+|------------------------+-----------|
+| *Total time*           | *2d 0:20* |
+|------------------------+-----------|
+| Agenda de trabajo      |   2d 0:20 |
+| \_  2020-Julio         |   2d 0:20 |
+| \_    [2020-07-01 Wed] |      7:30 |
+| \_    [2020-07-02 Thu] |      5:27 |
+| \_    [2020-07-03 Fri] |      4:41 |
+| \_    [2020-07-04 Sat] |      3:45 |
+| \_    [2020-07-05 Sun] |      3:21 |
+| \_    [2020-07-06 Mon] |      7:20 |
+| \_    [2020-07-07 Tue] |      1:53 |
+| \_    [2020-07-08 Wed] |      5:00 |
+| \_    [2020-07-09 Thu] |      1:51 |
+| \_    [2020-07-11 Sat] |      7:32 |
 #+END:
 
 * Agenda de trabajo
@@ -1670,6 +1672,15 @@ de superior calidad.
 *** [2020-07-10 Fri]
 dia perdido en re-instalacion de mint-cinnamon en la compu vieja.
 Y luego en breves practicas que no fueron cuantificadas.
+*** [2020-07-11 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-07-11 Sat 18:25]--[2020-07-11 Sat 20:25] =>  2:00
+    CLOCK: [2020-07-11 Sat 13:26]--[2020-07-11 Sat 17:40] =>  4:14
+    CLOCK: [2020-07-11 Sat 11:27]--[2020-07-11 Sat 12:45] =>  1:18
+    :END:
+Hoy fue un dia mas que satisfactorio, aunque lo veo asi recien al ir
+cerrando la jornada, con el aprendizaje que me he planteado desde
+abajo con ruby puro.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -1697,16 +1708,72 @@ exacto de bugs y TODOs.
 equivocados en los cuales se pierde mucho tiempo, pero en el camino se
 aprende mucho, nada se pierde creo, salvo la salud corporal en el
 proceso continuo sin descanso. Pero creo que vamos a salir adelante.
-** Idea de usar TCL como muleto
+** Idea de usar TCL como muleto                                         :TCL:
 o sea hacerlo entrar en produccion mas o menos rapidamente, y tenerlo
 como segunda opcion para cualquier cosa tener dos sistemas funcionando
 y no depender solo de un sistema que recien estamos aprendiendo y nos
 cuesta tanto aprender.
 [2020-06-08 lun] el tema es que el desarrollo se pueda hacer mas o
 menos rapidamente. que no lleve una excesiva cantidad de tiempo.
-
+** Idea de estudiar Ruby                                               :Ruby:
+[2020-07-10 Fri] la idea venia dando vueltas hace rato. Estos dos
+meses y pico he dedicado muchas horas al estudio pq basicamente no
+tengo otra cosa y como trabajo poco y el trabajo se hace en la casa y
+se fusiona en tiempo y forma con la actividad y ademas es focalizado,
+y no me lleva mas de digamos dos horas como mucho, y ademas no tengo
+muchas obligaciones familiares. Como resultas de todo lo dicho tengo
+mucho tiempo libre para malgastar o para dedicar a algo bueno. Esto me
+parece bueno para mi, pq no solo que me distrae sino que hace que mi
+mente se active. 
+Pase por varias faces, primero creo que el primer mes cuando no
+habiamos cerrado la oficina y era una carrera por aprovechar el poco
+tiempo que tenia de este recreo que significaba la pandemia, el
+objetivo era sacar un sistema operable. Luego el apuro quedo en la
+nada cuando salto la idea del sistema muleto o sea hacer algo en tcl
+provisorio y de respaldo que funcione bien mientras con tiempo
+programabamos algo mas permanente, pero luego el tiempo paso y no
+toque mas el proyecto pq no tuve tampoco apuro en sacarlo, pq pense
+que ponerlo en funcionamiento en la red significaria que mi trabajo
+quedaria seriamente comprometido, pq bien podria quedarme sin el
+pasado de los papeles en el caso de que el Fede le resultara mas facil
+ponerse a pasar los papeles en su casa que venir aca a traermelos a
+mi.
+Y en un escenario asi, mientras mas lejos y desdibujada este la chance
+de tener algo de la web, como quedo parado, mal.
+Luego vino la cancelacion del local, y al menos la perspectiva de que
+no hay donde volver a trabajar. Que el salir yo a la calle a trabajar
+o mutar de lo que estamos haciendo ahora solo podria darse mediando
+circunstancias extraordinarias. 
+Ahora desde el punto de vista de la programacion, veo que el primer
+mes aprendi con laravel, no reniego de eso, y renegue bastante mas que
+todo con los frontends. Y creo que hice bien en pasarme a rails, y
+logre algo bueno en pocos dias, pero cuando choco con una dificultad o
+sea ese muro de falta de conocimientos, que en laravel era bastante
+general, y en rails fue el hacer el detalle de venta a la vista venta,
+en vez de profundizar ahi, cambie de framework, y ahi estuvo el error.
+pq django me parecio lindo al principio pero me hizo perder mucho
+tiempo, pq el aprendizaje fue hecho no por el lado del crud, como en
+laravel/rails que son bastante similares, sino por otro tipo de pagina
+(un blog) y querer aplicar esos conocimientos a mi crud era muy
+dificil. Luego de bastante reniegue con django no fui capaz de tener
+ni un solo formulario propio ni mas elemental. 
+Pero luego de considerar que django fue un error, a pesar de lo lindo
+que se veia, y volviendo a la dupla laravel/rails como hermanos
+gemelos, en ambos tenia el mismo problema, mis conocimientos de php
+son 1.5 del 1 al 10 y de ruby del 3 de 1 al 10. Una cosa es copiar y
+consultar lo mas minimo otra cosa es saber programar en el lenguaje
+base. 
+Por eso pienso que quiero aprender a programar en ruby desde cero y
+bien, o sea aprenderme todos los trucos, y agarrarle practica. Tendria
+que tener hecho unos 100 programas, ponele que no haga tantos, que
+haga 20, pero tengo que tener conocimiento en ruby. Y eso me va a
+llevar a tener mas conocimientos en programacion tambien, en
+algorritmos, pq eso nada.  Despues la pagina va a salir sola.
+Veo que tengo varios dias con 7horas de maquina, mas una hora a la
+mañana y una hora a la noche de lectura, te da unas posibles 50 horas
+por semana. 200 al mes. En un par de meses tengo qeu lograr el objetivo.
 * avance semanal
-** semana [2020-06-07 dom]
+** semana [2020-06-07 dom]                 :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
 semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
 practica. recien el domingo empiezo con cierta dificultad y muchas
@@ -1741,7 +1808,7 @@ ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
 bichito de volver a rails, me parece un camino mas corto que seguir
 con laravel. Todos los conceptos aprendidos en laravel me
 recontrasirven para rails.
-** semana [2020-06-14 dom]
+** semana [2020-06-14 dom]                                       :Rails:Ruby:
 inmersion en ruby. Las diferencias son que hay pocos videos, pocos
 tutoriales y los que hay son muy viejos. Como que rails fue famoso 10
 años atras con la version 3 y 4 y ahora en el 2020 nadie le da bola.
@@ -1769,7 +1836,7 @@ otros niveles, por eso creo que el libro de ruby bajado me va a servir
 y seguir leyendo e investigando las guias rails a fondo hasta saberlas
 todas. Hay buenos tutoriales en medium sobre rails que hasta ahora me
 han servido y creo que por ahi pasa ir subiendo peldaño a peldaño.
-** semana [2020-06-21 Sun]
+** semana [2020-06-21 Sun]                           :Django:Flask:Vim:Emacs:
 semana de Django. Luego del pico de rails de la semana pasada parece
 que en el momento mas alto pica el bichito de lo nuevo y se me ocurrio
 probar django a ver como era. POr dos motivos, primero por probar,
@@ -1794,7 +1861,7 @@ por el momento), emacs en terminal, trabajar en terminal en pestañas,
 hoy con lynx (abandonado) y demas. O sea una semana floja en avance
 pero creo que cambie el entorno fisico de trabajo un monton, y tambien
 hice unos cambios de entorno de base que veremos como funcionan.
-** semana [2020-06-28 Sun]
+** semana [2020-06-28 Sun]                               :Emacs:Vim:TCL:Mint:
 en realidad la semana propiamente dicha va a empezar el martes, pq el
 domingo estuvo perdido en boludeaje de instalacion de s.o. y el lunes
 en obra de pintura del local.
@@ -1816,7 +1883,7 @@ Creo que esta fue la semana de la Guerra de los Editores. con la
 puesta a punto de dos editores grandes. Poner a punto Emacs me llevo
 bastante y Nvim tambien, y tambien en el medio perdi tiempo con el
 doom.
-** semana [2020-07-05 Sun]
+** semana [2020-07-05 Sun]           :Django:Emacs:VSCode:Rails:Ruby:Hledger:
 esta semana comienza ya con la herramienta establecida por lo tanto no tendria
 que perder demasiado tiempo en cambios rotundos como la semana pasada salvo
 perfeccionamientos menores.  siempre me da un reniegue nuevo el editor no
@@ -1900,6 +1967,25 @@ mejorar una de las vistas que tenia a medio hacer. Me lei tres
 capitulos del libro y pienso que puedo avanzar un poco aunque no
 espero mucho de alli. Me parece solido, puede que se pueda ir
 programando un sistema con el tiempo. 
+[2020-07-11 Sat] ayer decidi que tengo que estudiar de abajo no hay
+forma en este tipo de programacion de programar como lo venia haciendo
+salvo retomar un proyecto tcl de nuevo y hacer todo de vuelta como lo
+hice hace dos o tres semanas. Siendo que lo desarrollado con rails
+esta ahi, no se perdio nada. Pero me planteo estudiar ruby a fondo muy
+a fondo. lo cual incluye tambien a rails, para no hacerlo con cajas
+negras ni copiando y luego no saber que tengo que hacer, como me
+pasaba con django. Puede que demore mas pero es mas seguro.
+Quiero aprender ruby desde los fundamentos a fondo, no importa cuanto
+me lleve, y tengo que hacerlo leyendo detenidamente el libro escrito
+por el maximo maestro del tema, Matz, y hacerlo en la compu pq ahi
+articulo al irb para la practica de todos los conceptos hasta del mas
+ridiculamente simple, y anoto en emacs en mi cuaderno documentario.
+El cuaderno documentario termino haciendose mas que interesante hoy
+con la incorporacion de los tags. hago el encabezado, escribo el
+ejemplo o lo que sea, y lo tagueo, entonces luego va a ser facil
+encontrar o aislar las partes maxime cuando no sabemos como se va a
+estructurar o por si no me gusta la estructuracion, en este caso la
+estructura la dara el tagueo.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -1939,9 +2025,9 @@ el Cf lo vengo usando mucho y ahora empiezo con el Cb
 ** [2020-07-07 Tue]
 *** Md para borrar palabra 
 *** Cd para borrar un caracter
-* agenda django
-** [2020-07-05 Sun]
-lecturas formularios
+** [2020-07-11 Sat]
+*** Cc-Cq en org tags
+*** C}-m buscar por tags
 * agenda linux general
 ** firefox
 *** [2020-07-05 Sun]
@@ -1988,3 +2074,4 @@ controlador anterior.
 se posiciona despues de los pineados
 despues del reseteado sigue igual
 haciendo edit mode del panel lo restaure pero no se pq se puso.
+** [2020-07-10 Fri] instalacion en hero-old

@@ -1,0 +1,92 @@
+* estructura del archivo
+** shebang
+#! /home/hero/.rbenv/shims/ruby -w
+** coding
+# -*- coding: utf-8 -*-
+** final de archivo 
+__END__
+puede tener eso si luego siguen datos
+* varios
+** indentacion dos espacios
+** los numeros son inmutables                                        :Number:
+no hay metodos para modificar el valor como objeto
+** FixNum y BigNum are gone ahora se habla solo Integer              :Number:
+el tema FixNum/BigNum quedo detras de escena fuera de la vista de los
+programadores.
+[[https://stackoverflow.com/questions/21372649/what-is-the-difference-between-integer-and-fixnum/21411269#21411269][Ver discusion]]
+** string 'Single quote literal'                                     :String:
+para concatenar varias lineas lo mejor es escaparlas
+message =
+'These three literals are '\
+'concatenated into one by the interpreter. '\
+'The resulting string contains no newlines.'
+** string interpolation #{...}                                       :String:
+dentro de comillas dobles una string interpolation del tipo #{expr}
+calcula su expresion y la interpola.
+ej.
+"360 degrees=#{2*Math::PI} radians" # "360 degrees=6.28318530717959
+radians"
+*** con una variable global o variable de instancia prescinde de parentesis :String:
+"mi auto es #@color"
+"muestro el pais #$pais"
+** sprintf                                                           :String:
+"pi is about %.4f" % Math.PI # "pi is about 3.1416"
+
+forma alternativa:
+sprintf("pi is about %.4f", Math::PI) # Returns "pi is about 3.1416"
+pero la primera es mas ruby.
+** string concatenacion y append                                     :String:
+concatenacion +
+append con << (pero no se llama asi, lo digo por tcl)
+str="hola"
+str<<" "
+str<<"mundo" # "hola mundo"
+** operador [] en string                                       :Array:String:
+es el operador mas importante en string permite obtener substring y
+modificar las strings
+*** -a.length # -5 para una cadena "hello"
+o sea que el -a funciona como una cadena vista desde atras.
+si con a[a.length-1] obtenemos el ultimo elemento con -a[a.length]
+obtenemos el primer elemento, pero desde atras para adelante.
+*** [0,3]
+cuando queremos expresar una subcadena, con el primer numero
+expresamos el caracter de inicio y el segundo que siempre tiene que
+ser positivo, el ancho o alcance de la seleccion.
+O sea desde caracter 0 por tres caracteres. "hel"
+[-3,2] desde el -3 por dos caracteres "ll"
+*** [1..2] [1...2] uso de rangos
+no confundir el uso de rangos que son dos indices, con el anterior que
+es un indice y una longitud.
+** metodos length y size son lo mismo                          :Array:String:
+tanto en string como en array como en hash
+** %w para escribir literal de array rapidamente                      :Array:
+letters = %w[a b c d e f g h i j k l m n o p q r s t u v w x y z]
+letters = %W(a b c d e f g h i j k l m n o p q r s t u v w x y z)
+
+la primer opcion en minuscula va con corchetes, la con mayusculas con
+parentesis, en ambos casos no se usa ni comillas ni comas, solo
+separados por espacio.
+** opciones de inicio programaticas para Array                        :Array:
+#+begin_src ruby
+a=Array.new # []
+b=Array.new(3) # [nil,nil,nil]
+c=Array.new(3,0) # [0,0,0]
+d=Array.new(b) # [nil,nil,nil]
+e=Array.new(4) {|x| x+1} # [1,2,3,4]
+#+end_src
+** operaciones con array + - <<                                       :Array:
++ suma dos arrays
+- resta dos array 
+<< append elementos (no arrays)
+| operador de union de dos array
+& operador de interseccion
+podria parecer que union y suma son iguales (y creo que lo son) y que
+resta e interseccion son iguales pero no lo son:
+hice dos arrays vocales y consonantes
+vocales-consonantes
+=> vocales
+vocales&consonantes
+=> []
+o sea en la resta de dos conjuntos que no comparten nada queda el
+primer sumando(restando) y en la interseccion de dos conjuntos que no
+comparten nada, queda nada.
