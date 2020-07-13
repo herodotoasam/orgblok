@@ -176,7 +176,15 @@ locate arch
 se activan como variables dentro del sistema. Acceder desde el menu en
 Org/Customize/Expand this menu luego
 Org Modules...
-
+** gimp
+pasar una foto de plano por gimp a archivo imprimible.
+subo la foto a la computadora.
+abro en gimp- selecciono con herramienta cuadrado, corto y pego en un
+ctrl/n
+modificar imagen: roto - imagen auto-ajustar - imagen escalar mm ancho
+180
+filtro gausseano saca el fondo gris
+C-Shift-E exporta a formato jpeg
 * troubleshooting
 ** laravel
 *** no existe laravel como comando para ejecutar laravel new

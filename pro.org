@@ -29,8 +29,13 @@
    CLOCK: [2020-07-12 Sun 14:54]--[2020-07-12 Sun 15:35] =>  0:41
    CLOCK: [2020-07-12 Sun 12:05]--[2020-07-12 Sun 13:49] =>  1:44
    :END:
+** [2020-07-13 Mon]
+   :LOGBOOK:
+   CLOCK: [2020-07-13 Mon 11:54]--[2020-07-13 Mon 12:09] =>  0:15
+   CLOCK: [2020-07-13 Mon 10:45]--[2020-07-13 Mon 11:25] =>  0:40
+   :END:
 
-* Agenda de trabajo
+* Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
 **** desempolvado de la base postgres
@@ -1710,6 +1715,12 @@ lenguaje a fondo.
 La idea es tratar de llegar a las 7hs en maquina con el proceso de
 estudio que vengo implementando ahora y las lecturas anexas hacerlas
 de temas generales de computacion, pero que no me aparten del camino.
+*** [2020-07-13 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-07-13 Mon 15:10]--[2020-07-13 Mon 16:30] =>  1:20
+    CLOCK: [2020-07-13 Mon 12:09]--[2020-07-13 Mon 13:12] =>  1:03
+    :END:
+la primer hora termino el capitulo 3 e inicio el chapter 4.
 
 * Anotaciones
 ** Objetivos

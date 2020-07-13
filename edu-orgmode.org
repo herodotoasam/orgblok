@@ -143,7 +143,7 @@ un prompt en el minibuffer. Alli se puede poner una fecha relativa
 p.e.
 +5d, +2w siempre relativo a hoy
 ++5d con doble signo si la queremos referenciar a la que esta
-. pone el calendario a hoy
+. pone el calendario a hoy!
 
 Tambien asume que pondremos una fecha a futuro, entonces solo un
 numero pone esa fecha dentro del proximo mes.

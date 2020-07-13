@@ -19,8 +19,8 @@ movemos con Cs/Cr
 ** Lower/Upper
 *** Mu / Ml
 
-Con dICHOS COMANDOS VOY PONIENDO mayusculas/minusculas y va avanzando
-palabra a palabra
+CON DICHOS comandos VOY poniendo MAYUSCULAS/minusculas Y va AVANZANDO
+palabra A palabra
 
 * Emacs requeridos
 *** un theme que marque la fila a lo ancho. Antes lo tenia.

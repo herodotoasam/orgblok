@@ -124,6 +124,16 @@ Metodos para averiguar la pertenencia a un rango?
 true, false, nil son objetos, por lo tanto
 true no es 1.
 false o nil no es 0.
+*** todo valor que no sea nil o false se comporta como true
+pero no es convertido a true o no es equivalente
+ej.
+if x!=nil
+  puts x
+end
+if x      # ya que cualquier otro valor funge como true
+  puts x
+end
+OJO: "" o 0 son true no false.
 ** chequear class-superclass                                          :class:
 3.class # Integer
 3.class.superclass # Numeric
@@ -176,3 +186,71 @@ is_a? permite averiguar si pertenece a una clase o subclase.
 
  obj = obj2 = 'a' obj.equal? obj2 # => true obj.equal? obj.dup # =>
  false
+** Object conversion                                                 :Object:
+metodos explicitos para conversion de tipos
+.to_s
+.to_i
+.to.f
+.to.a
+.inspect # este metodo es para debbuger propositos y llama o usa por
+default .to_s
+
+t=Time.now.inspect
+** Freeze Objects                                                    :Object:
+un object mutable como string puede ser freeze y sus mutator method no
+funcionaran
+s="string"
+s.freeze
+s.frozen? # true
+s[0,2]="Str" # Error no se puede alterar un objeto freezado
+** Tainting Objects                                                  :Object:
+Objects sospechosos pueden ser marcados como tainted (manchados /
+corruptos/ contaminados). 
+User input—such as command-line arguments, environment variables, and strings read
+with gets —are automatically tainted.
+s="getstring"
+s.taint
+s.tainted? # true   (por alguna razon irb me da false)
+** Variables                                                      :Variables:
+hay cuatro clases de variables
+$globales
+@@clase
+@instancia
+locales _local
+Si usamos una variable global|clase|instancia sin declarar nos da nil,
+si usamos una nombre no definido como variable local da un NameError.
+Eso es pq sin haber sido usado en una asignacion de variable tal
+nombre sera buscado como metodo y al no ser encontrado sera lanzado
+como error.
+[en irb en realidad @@variable-de-clase tambien da error de
+uninitializate y el uso de un nombre no asignado error de variable o
+metodo no encontrado.]
+** Constants                                                      :Constants:
+Ruby no fuerza la constantividad de las constantes, pero lanza un
+warning si la cambiamos.
+las constantes van con la primer letra mayuscula Constante
+pero es usual todo en mayuscula PI
+y si son dos palabras usar guion bajo LIKE_THIS
+los nombres de clase y nombres de modulo son constantes y van con la
+primera en mayuscula o camelcase LikeThis
+
+Las constantes son globales
+Las constantes pueden estar en clases o modulos y se usa
+Modulox::CONSTANTE
+Modulopadre::MOdulonested::CONSTANTE
+::ARGS constante en el global espacio
+[los namespace se manejan parecido a tcl aca]
+** Methods Invocations                                              :Methods:
+La invocacion de metodos tiene cuatro partes
+1. una arbitraria expresion cuyo valor es el objeto sobre el cual el
+metodo es invocado. Esta expresion es seguida por . o :: (mayormente
+por .), la expresion y el separador es opcional si no esta el metodo
+se invoca sobre self.
+Ejemplo: puts "hello" # metodo puts invocandose sobre self
+2. el nombre de un metodo. esta es la unica parte requerida.
+3. los argumentos, si son mas de uno van separados por comas, los
+   parentesis mayormente son opcionales, hay metodos que no requieren argumentos.
+4. un block opcional que sera ejecutado en relacion al metodo,
+   relacionado con yield que permitira la interacion de metodo-bloque.
+   Ejemplo. a.each {|x| x+1}
+**  

@@ -223,3 +223,101 @@ alias caja=activo:caja
 2020/07/12 comida gatos
     perdidas:comida:gatos             700
     activo:caja                      -700
+
+2020/07/13 cami semana
+    perdidas:cami:comida            2000
+    perdidas:cami:mesada            1500
+    activo:caja                    -3500
+
+2020/07/13 saco reserva
+    activo:caja             $10000
+    activo:reserva         $-10000
+
+2020/07/13 ingresos
+    activo:reserva                      50000
+    ganancias:retiro sociedad          -50000
+
+2020/07/13 saco reserva
+    activo:caja              50000
+    activo:reserva          -50000
+
+2020/07/13 compras cumple romi
+    perdidas:comida            2602
+    activo:caja               -2602
+
+2020/07/13 copia de llave
+    perdidas:casa:mantenimiento             150
+    activo:caja                            -150
+
+2020/07/13 ospe julio/2020
+    perdidas:servicios:OSPE           22879
+    activo:caja                      -22879
+
+2020/07/13 vivero los tulipanes
+    perdidas:isabel             660
+    activo:caja                -660
+
+2020/07/13 carusso julio/2020
+    perdidas:servicios:carusso         1210.11
+    activo:caja                       -1210.11
+
+2020/07/13 rio shop
+    perdidas:isabel          214.38
+    activo:caja             -214.38
+
+2020/07/13 rio shop
+    perdidas:isabel           329.7
+    activo:caja              -329.7
+
+2020/07/13 comida plan zeta
+    perdidas:comida         6378.46
+    activo:caja            -6378.46
+
+2020/07/13 comida plan zeta
+    perdidas:comida         2917.76
+    activo:caja            -2917.76
+
+2020/07/13 moda marques
+    perdidas:isabel             944
+    activo:caja                -944
+
+2020/07/13 vivero los tulipanes
+    perdidas:isabel             242
+    activo:caja                -242
+
+2020/07/13 tyc electronica
+    perdidas:isabel            1116
+    activo:caja               -1116
+
+2020/07/13 calefactor
+    perdidas:casa:mantenimiento           813.6
+    activo:caja                          -813.6
+
+2020/07/13 netflix
+    perdidas:servicios:netflix          476.02
+    activo:caja                        -476.02
+
+2020/07/13 seguro auto
+    perdidas:servicios:la caja seguros            2302
+    activo:caja                                  -2302
+
+2020/07/13 tyc electronica
+    perdidas:isabel             983
+    activo:caja                -983
+
+2020/07/13 comida plan zeta
+    perdidas:comida            2925
+    activo:caja               -2925
+
+2020/07/13 cuota telefono
+    perdidas:cami:extras         4499.83
+    activo:caja                 -4499.83
+
+2020/07/13 cuota sillon computadora
+    perdidas:cami:extras          555.44
+    activo:caja                  -555.44
+
+2020/07/13 gastos tarjeta naranja
+    perdidas:servicios:tarjeta naranja gastos fijos          1162
+    activo:caja                                             -1162
+    
