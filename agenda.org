@@ -1,13 +1,16 @@
-* cort azul para cambiar Guebara Ramona cta 70756
-SCHEDULED: <2019-01-18 vie>
-* fibertel verificar baja
-SCHEDULED: <2019-01-09 mié>
-tramite 469215772
-* DONE pagar oficina
-SCHEDULED: <2019-01-09 mié>
-- State "DONE"       from "TODO"       [2019-01-08 mar 13:33]
-* cort amarilla para entregar a Mna 79/229
-SCHEDULED: <2019-01-18 vie>
-* DONE peluqueria
-- State "DONE"       from "TODO"       [2019-01-08 mar 13:33]
-* arreglar dni de seven
+
+* Turnos Medicos
+** Dentista 10hs 
+   SCHEDULED: <2020-07-16 Thu>
+
+* Romitex
+** subir Seven
+   SCHEDULED: <2020-07-17 Fri +1m>
+
+* Pagos de Servicios
+** pagar Fibertel
+   SCHEDULED: <2020-08-04 Tue +1m>
+** pagar TN
+   SCHEDULED: <2020-07-13 Mon>
+
+

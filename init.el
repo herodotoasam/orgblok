@@ -320,7 +320,7 @@ Version 2015-04-09"
  '(elpy-rpc-python-command "python3")
  '(org-agenda-files
    (quote
-    ("~/orgblok/rb.org" "~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
+    ("~/orgblok/agenda.org" "~/orgblok/rb.org" "~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
  '(org-modules (quote (org-mouse)))
  '(org-mouse-features
    (quote

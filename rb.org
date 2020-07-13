@@ -90,3 +90,89 @@ vocales&consonantes
 o sea en la resta de dos conjuntos que no comparten nada queda el
 primer sumando(restando) y en la interseccion de dos conjuntos que no
 comparten nada, queda nada.
+** Time                                                                :Time:
+Time.new
+Time.now 
+son sinonimos
+Esa instancia de tiempo tiene varios metodos que nos dan el tiempo
+parcial.p.e.
+t=Time.new
+t.year #2020
+t.day #12
+t.wday #0
+etc.
+
+Formar un tiempo especifico.
+bday=Time.local(1964,6,6) o Time.utn(1964,6,6)
+** Ranges                                                             :Range:
+se puede hacer rango de algo que sea discreto no continuo, o sea cuyos
+endpoints puedan definir el metodo .succ (succesor), como por ejemplo
+los numeros enteros, y las letras. 
+p.e. 'a'..'z' o 'a'..'az' 
+-10..10
+Los rangos con .. son inclusivos
+Los rangos con ... son excluyentes o sea el ultimo numero no esta
+incluido.
+a=1..10
+a.to_a # [1,2,3,4,5,6,7,8,9,10]
+pasa el rango a array
+Metodos para averiguar la pertenencia a un rango?
+.include?
+.cover?
+.member?
+** true,false,nil                                            :True:False:Nil:
+true, false, nil son objetos, por lo tanto
+true no es 1.
+false o nil no es 0.
+** chequear class-superclass                                          :class:
+3.class # Integer
+3.class.superclass # Numeric
+3.class.superclass.superclass # Object
+3.class.superclass.superclass.superclass # BasicObject
+
+3.instance_of? Integer # true
+
+3.class == Integer # true
+
+3.is_a? Numeric # true
+3.instance_of? Numeric # false
+
+is_a? permite averiguar si pertenece a una clase o subclase.
+** Object equality                                                   :Object:
+[[https://stackoverflow.com/questions/7156955/whats-the-difference-between-equal-eql-and][Pagina de stackoverflow que explica el tema mejor que el libro]]
+*** ==, ===, eql?, equal?  are 4 comparators, ie. 4 ways to compare 2
+ objects, in Ruby.  As, in Ruby, all comparators (and most operators)
+ are actually method-calls, you can change, overwrite, and define the
+ semantics of these comparing methods yourself. However, it is
+ important to understand, when Ruby's internal language constructs use
+ which comparator:
+***  == (value comparison) Ruby uses :== everywhere to compare the values
+ of 2 objects, eg. Hash-values:
+
+ {a: 'z'} == {a: 'Z'} # => false {a: 1} == {a: 1.0} # => true
+*** === (case comparison) Ruby uses :=== in case/when constructs. The
+ following code snippets are logically identical:
+
+ case foo when bar; p 'do something' end
+
+ if bar === foo p 'do something' end
+*** eql? (Hash-key comparison) Ruby uses :eql? (in combination with the
+ method hash) to compare Hash-keys. In most classes :eql? is identical
+ with :==.  Knowledge about :eql? is only important, when you want to
+ create your own special classes:
+
+ class Equ attr_accessor :val alias_method :initialize, :val= def
+   hash() self.val % 2 end def eql?(other) self.hash == other.hash end
+   end
+
+ h = {Equ.new(3) => 3, Equ.new(8) => 8, Equ.new(15) => 15} #3 entries,
+ but 2 are :eql?  h.size # => 2 h[Equ.new(27)] # => 15
+
+ Note: The commonly used Ruby-class Set also relies on
+ Hash-key-comparison.
+*** equal? (object identity comparison) Ruby uses :equal? to check if two
+ objects are identical. This method (of class BasicObject) is not
+ supposed to be overwritten.
+
+ obj = obj2 = 'a' obj.equal? obj2 # => true obj.equal? obj.dup # =>
+ false

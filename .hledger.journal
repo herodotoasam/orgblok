@@ -219,3 +219,7 @@ alias caja=activo:caja
 2020/07/11 sandwich
     perdidas:comida             500
     activo:caja                -500
+
+2020/07/12 comida gatos
+    perdidas:comida:gatos             700
+    activo:caja                      -700
