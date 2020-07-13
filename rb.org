@@ -253,4 +253,11 @@ Ejemplo: puts "hello" # metodo puts invocandose sobre self
 4. un block opcional que sera ejecutado en relacion al metodo,
    relacionado con yield que permitira la interacion de metodo-bloque.
    Ejemplo. a.each {|x| x+1}
-**  
+** Asignamiento de Variables                                      :Variables:
+hay diferentes modos de asignamiento
+1. simple x=1
+2. paralelo x,y,z=1,2,3
+3. abreviado x+=1 que es equivalente a x=x+1
+             x*=1 que es equivalente a x=x*1
+             funciona igual con -/
+4. asociativo x=y=0

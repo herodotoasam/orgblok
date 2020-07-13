@@ -1717,6 +1717,7 @@ estudio que vengo implementando ahora y las lecturas anexas hacerlas
 de temas generales de computacion, pero que no me aparten del camino.
 *** [2020-07-13 Mon]
     :LOGBOOK:
+    CLOCK: [2020-07-13 Mon 17:55]--[2020-07-13 Mon 18:53] =>  0:58
     CLOCK: [2020-07-13 Mon 15:10]--[2020-07-13 Mon 16:30] =>  1:20
     CLOCK: [2020-07-13 Mon 12:09]--[2020-07-13 Mon 13:12] =>  1:03
     :END:
