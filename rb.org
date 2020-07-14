@@ -261,3 +261,6 @@ hay diferentes modos de asignamiento
              x*=1 que es equivalente a x=x*1
              funciona igual con -/
 4. asociativo x=y=0
+** ternario operator						  :Operators:
+ x==3?y:z
+ puts x<10?"menor":"mayor"

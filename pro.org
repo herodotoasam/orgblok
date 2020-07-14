@@ -34,6 +34,8 @@
    CLOCK: [2020-07-13 Mon 11:54]--[2020-07-13 Mon 12:09] =>  0:15
    CLOCK: [2020-07-13 Mon 10:45]--[2020-07-13 Mon 11:25] =>  0:40
    :END:
+** [2020-07-14 Tue]
+   CLOCK: [2020-07-14 Tue 13:00]--[2020-07-14 Tue 13:30] =>  0:30
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -1717,12 +1719,32 @@ estudio que vengo implementando ahora y las lecturas anexas hacerlas
 de temas generales de computacion, pero que no me aparten del camino.
 *** [2020-07-13 Mon]
     :LOGBOOK:
+    CLOCK: [2020-07-13 Mon 19:45]--[2020-07-13 Mon 22:30] =>  2:45
     CLOCK: [2020-07-13 Mon 17:55]--[2020-07-13 Mon 18:53] =>  0:58
     CLOCK: [2020-07-13 Mon 15:10]--[2020-07-13 Mon 16:30] =>  1:20
     CLOCK: [2020-07-13 Mon 12:09]--[2020-07-13 Mon 13:12] =>  1:03
     :END:
 la primer hora termino el capitulo 3 e inicio el chapter 4.
-
+2:45 perdidas en "nuevo" cambio de sistema
+*** [2020-07-14 Tue]
+    CLOCK: [2020-07-14 Tue 17:00]--[2020-07-14 Tue 17:46] =>  0:46
+    CLOCK: [2020-07-14 Tue 14:15]--[2020-07-14 Tue 16:57] =>  2:42
+    CLOCK: [2020-07-14 Tue 10:56]--[2020-07-14 Tue 12:56] =>  2:00
+    CLOCK: [2020-07-14 Tue 09:56]--[2020-07-14 Tue 10:39] =>  0:43
+43min terminada la instalacion de Mate-LTS
+para mejorar mi experiencia de trabajo propongo dos mejoras: sacar el
+cable y poder cerrar la puerta, y poner el workrave para evitar pasar
+demasiado tiempo sentado.
+2:42 encare por otra direccion, desvarie viendo google cloud y ahi
+observe que se fueron al caño aumentando el servicio a 100
+u$s. inmediatamente lo di de baja. Y vi un servicio que arrancaba
+desde los 4.5 dol para mysql y me pregunte pq habia fracasado con
+mysql. Y lo concreto era la rapidez de carga desde sqlite a mysql y me
+dije voy a resolverlo. Y ya lo resolvi, el quid estaba en las
+transacciones eso lo ralentizaba mortalmente.
+En el medio lamentablemente no puedo hacer andar adminer.
+mysql trabaja aun mas rapido que postgres o igual, faltaria el
+desarrollo para ponerse a la par.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -1814,6 +1836,21 @@ algorritmos, pq eso nada.  Despues la pagina va a salir sola.
 Veo que tengo varios dias con 7horas de maquina, mas una hora a la
 mañana y una hora a la noche de lectura, te da unas posibles 50 horas
 por semana. 200 al mes. En un par de meses tengo qeu lograr el objetivo.
+** Sobre los cambios de S.O.
+ayer [2020-07-13 Mon] sucumbi nuevamente a la tentacion de otro cambio
+de s.o. luego de solo 3 dias!! de haber hecho un cambio. Esta vez
+supuestamente por un downgrade a mint 19.3 basado en ubuntu 18.04 que
+tendra LTS hasta abril-2023, por el hecho de que "se supondria" que
+tendria soporte a software que ya no es soportado en la 20.04 como el
+ruby-tk, y me decidi por mate en vez de cinnamon por que una
+comparativa lo sindicaba como menor consumidor de ram, y de aspecto
+similar. Y ya que hacia el cambio aprovechaba para poner encryptacion
+de disco que en la anterior no habia puesto (esto es pq prefiero las
+ventajas de la seguridad frente a la penalizacion de unos segundos mas
+en el arranque.).
+El tema es que no es banal el tiempo invertido en el cambio, y no
+puede ser tomada tan rapidamente la decision o sea en cuestion de
+minutos. 
 * avance semanal
 ** semana [2020-06-07 dom]                 :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
@@ -2028,7 +2065,7 @@ ejemplo o lo que sea, y lo tagueo, entonces luego va a ser facil
 encontrar o aislar las partes maxime cuando no sabemos como se va a
 estructurar o por si no me gusta la estructuracion, en este caso la
 estructura la dara el tagueo.
-** semana [2020-07-12 Sun]                                      :Hanami:Ruby:
+** semana [2020-07-12 Sun]				   :Hanami:Ruby:Mint:
 Anoche puse la busqueda ruby-web-framework y descubri hanami, y me
 parecio en principio lindo por todo lo que prometia, luego leyendo una
 documentacion muy bien presentada y entendible, lo veo abordable
@@ -2037,6 +2074,10 @@ momento de dejar el impulso de hacer la base de ruby. Pq incluso
 hanami tiene muchos conceptos de ruby que no entiendo por eso, pq no
 tengo base. O sea que despues de diplomarme en ruby estare listo ya
 sea para rails o para hanami o para sinatra o el que sea.
+El estudio se interrumpio final de tarde lunes comienzo del martes por
+re-re-reinstalacion de Mint. Y tambien tuve la tentacion de cambiar el
+orden de estudio, o sea dejar el denso libro que estoy siguiendo por
+un tutorial mas light. Ahora no pienso que sea buena idea.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -2121,6 +2162,19 @@ se presenten en los informes.
 **** cj (hl r caja)
 que viene a ser una forma rapida de consultar el saldo y a la vez de
 ver los ultimos movimientos.
+** cuestion con hl r caja
+paso muchos asientos por el pago de la tarjeta y no me daba la caja, y
+luego de revisar todo detalladamente, corrigiendo un error encontrado,
+el error inexplicable persistia. Viendo la salida de cj veo que
+tambien sumaba el asiento de seguro la caja, lo cual obviamente
+distorsionaba el calculo, por lo cual, cambie a algo mas preciso:
+hl r assets:caja y dio bien independientemente de que una cuenta
+contenga caja en su nombre.
+** downgrade a version 1.2
+diferencias:
+1. no admite la directiva account, por lo cual tengo cuentas en ingles
+2. no admite la abreviatura b para balance pq tiene dos comandos
+   similares balance y balancesheet, por lo cual hay que poner balance.
 * agenda mint
 ** [2020-07-07 Tue] aparece mensaje de error al arranque
 casi al dia siguiente de haber cambiado a uso de controlador nvidia
@@ -2132,3 +2186,12 @@ se posiciona despues de los pineados
 despues del reseteado sigue igual
 haciendo edit mode del panel lo restaure pero no se pq se puso.
 ** [2020-07-10 Fri] instalacion en hero-old
+** [2020-07-13 Mon] instalacion de hero-LTS
+Mint 19.3 - Mate en hero-jujuy que tiene soporte oficial hasta mitad
+del 2023!! y se habla de 5 años mas!! de soporte. Todo nacio pq hay
+software que desaparecio en la version 20.04 y no tiene sentido
+tenerla todavia cuando la otra esta vigente y hace lo mismo. Pero todo
+es relativo. A poco de comenzar ya vi el primer problema de
+compatibilidad con hledger que funcionaba perfectamente con el otro y
+bajo aca, cambiando ciertas caracteristicas obligandome p.e. a tener
+las cuentas en ingles. No gran cosa pero se van viendo diferencias.

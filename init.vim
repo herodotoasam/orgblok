@@ -12,7 +12,6 @@ Plugin 'mileszs/ack.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'SirVer/ultisnips'
 Plugin 'tpope/vim-surround'
 Plugin 'lambdalisue/fern.vim'
 Plugin 'tpope/vim-fugitive'
@@ -21,7 +20,7 @@ filetype plugin indent on    " required
 
 
 
-colorscheme gruvbox
+colorscheme default
 nnoremap j gj
 nnoremap k gk
 

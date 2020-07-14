@@ -62,9 +62,8 @@ instalar con apt tcl-tclreadline
 copiar de ~/orgblok .tclshrc a ~
 ** python necesarios
 *** libsqlite3-dev
-
 ** python
-*** python3-tk y python3-pip
+*** python3-tk y python3-pip python3-setuptools
 *** pip3 install modulos
 **** dateutils
 **** fastnumbers
@@ -192,7 +191,8 @@ en especial notar que en bash con C-r se busca muy eficientemente en la
 historia del bash lo cual arregla todos los problemas que uno tuvo con el bash 
 en especial el tema anular touchpad con el modprobe o hacer un commit etc.
 
-
+** instalar workrave
+[[https://workrave.org/download/ubuntu/][instalacion especifica para mate]]
 ** red con ssh
 *** instalar ssh en ambas maquinas
 instala varios archivos
@@ -445,8 +445,7 @@ sudo apt-get install tcl8.5-dev tk8.5-dev
 sudo ln -s /usr/lib/x86_64-linux-gnu/tcl8.5/tclConfig.sh /usr/lib/tclConfig.sh
 sudo ln -s /usr/lib/x86_64-linux-gnu/tk8.5/tkConfig.sh /usr/lib/tkConfig.sh
 sudo ln -s /usr/lib/x86_64-linux-gnu/libtcl8.5.so.0 /usr/lib/libtcl8.5.so.0
-sudo ln -s /usr/lib/x86_64-linux-gnu/libtk8.5.so.0
-/usr/lib/libtk8.5.so.0
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtk8.5.so.0 /usr/lib/libtk8.5.so.0
 **** [[https://saveriomiroddi.github.io/Installing-ruby-tk-bindings-gem-on-ubuntu/pagina%20explicativa]]
 **** gem install tk
 Building native extensions. This could take a while...

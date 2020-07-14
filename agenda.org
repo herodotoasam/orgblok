@@ -10,7 +10,7 @@
 * Pagos de Servicios
 ** pagar Fibertel
    SCHEDULED: <2020-08-04 Tue +1m>
-** pagar TN
+** DONE pagar TN
    SCHEDULED: <2020-07-13 Mon>
 
 

@@ -1,323 +1,290 @@
 ; journal created 2020-07-05 by hledger
 Y2020
 D $1000.00
-account activo					        ; type:Asset
-account activo:caja				        ; type:Asset
-account activo:deudores					; type:Asset
-account activo:reserva				        ; type:Asset
-account activo:reserva u$d			        ; type:Asset
-account pasivo:capital				        ; type:Liability
-account pasivo:capital u$d		                ; type:Liability
-account ganancias:retiro sociedad		        ; type:Revenue
-account perdidas:comida				        ; type:Expense
-account perdidas:comida:gatos			        ; type:Expense
-account perdidas:comida:limpieza		        ; type:Expense
-account perdidas:cami:mesada			        ; type:Expense
-account perdidas:cami:comida			        ; type:Expense
-account perdidas:cami:extras			        ; type:Expense
-account perdidas:romi                                   ; type:Expense
-account perdidas:isabel                                 ; type:Expense
-account perdidas:gastos medicos:odontologia             ; type:Expense
-account perdidas:casa:refacciones                       ; type:Expense
-account perdidas:casa:mantenimiento:jardineria          ; type:Expense
-account perdidas:diferencia arqueo                      ; type:Expense
-account perdidas:servicios:epec                         ; type:Expense
-account perdidas:servicios:aguas cordobesas             ; type:Expense
-account perdidas:servicios:ecogas                       ; type:Expense
-account perdidas:servicios:fibertel                     ; type:Expense
-account perdidas:servicios:claro                        ; type:Expense
-account perdidas:servicios:la caja seguros              ; type:Expense
-account perdidas:servicios:carusso                      ; type:Expense
-account perdidas:servicios:OSPE                         ; type:Expense
-account perdidas:servicios:tarjeta naranja gastos fijos ; type:Expense
-account perdidas:impuestos:municipales casa             ; type:Expense
-account perdidas:impuestos:municipales bora             ; type:Expense
-account perdidas:impuestos:dgr casa                     ; type:Expense
-account perdidas:gastos medicos:farmacia                ; type:Expense
-account perdidas:transporte:taxi y remis                ; type:Expense
-account perdidas:transporte:nafta                       ; type:Expense
-
-alias caja=activo:caja
 
 2020/07/05 delivery cena
-    perdidas:comida            $630
-    activo:caja                  $-630
+    expenses:comida            $630
+    assets:caja                  $-630
 
 2020/07/01 remis visita romi
-    perdidas:cami:extras             $500
-    activo:caja
+    expenses:cami:extras             $500
+    assets:caja
 
 2020/07/01 alimento gatos
-    perdidas:comida:gatos             $610
-    activo:caja                    $-610
+    expenses:comida:gatos             $610
+    assets:caja                    $-610
 
 2020/07/01 articulos de limpieza
-    perdidas:comida:limpieza             $200
-    activo:caja                       $-200
+    expenses:comida:limpieza             $200
+    assets:caja                       $-200
 
 2020/07/01 comida
-    perdidas:comida             $900
-    activo:caja              $-900
+    expenses:comida             $900
+    assets:caja              $-900
 
 2020/07/01 consulta dentista y dos rx
-    perdidas:gastos medicos:odontologia            $2100
-    activo:caja                                 $-2100
+    expenses:gastos medicos:odontologia            $2100
+    assets:caja                                 $-2100
 
 2020/07/04 comida
-    perdidas:comida             $530
-    activo:caja              $-530
+    expenses:comida             $530
+    assets:caja              $-530
 
 2020/07/03 colocacion aa dpto cami
-    perdidas:casa:refacciones            $4000
-    activo:caja                       $-4000
+    expenses:casa:refacciones            $4000
+    assets:caja                       $-4000
 
 2020/07/01 asiento inicial
-    activo:caja                            $15650
-    activo:reserva                  $-15650
+    assets:caja                            $15650
+    assets:reserva                  $-15650
 
 2020/07/01 asiento inicial
-    activo:reserva                        $145650
-    ganancias:retiro sociedad            $-145650
+    assets:reserva                        $145650
+    income:retiro sociedad            $-145650
 
 2020/07/01 reserva dolares
-    activo:reserva u$s              u$s1900
-    pasivo:capital u$s         u$s-1900
+    assets:reserva u$s              u$s1900
+    liabilities:capital u$s         u$s-1900
 
 2020/07/01 prestamo a fede
-    activo:deudores                    u$s6125
-    pasivo:capital u$s           u$s-6125
+    assets:deudores                    u$s6125
+    liabilities:capital u$s           u$s-6125
 
 2020/07/05 remis a romi
-    perdidas:romi             $200
-    activo:caja            $-200
+    expenses:romi             $200
+    assets:caja            $-200
 
 2020/07/05 comida
-    perdidas:comida            $1500
-    activo:caja             $-1500
+    expenses:comida            $1500
+    assets:caja             $-1500
 
 2020/07/05 regalo cumpleaños romi
-    perdidas:romi            $2000
-    activo:caja           $-2000
+    expenses:romi            $2000
+    assets:caja           $-2000
 
 2020/07/05 diff
-    perdidas:diferencia arqueo              $60
-    activo:caja                         $-60
+    expenses:diferencia arqueo              $60
+    assets:caja                         $-60
 
 2020/07/06 jabon liquido lavarropas
-    perdidas:comida:limpieza            $490
-    activo:caja                                $-490
+    expenses:comida:limpieza            $490
+    assets:caja                                $-490
 
 2020/07/06 hilos
-    perdidas:isabel             $100
-    activo:caja                $-100
+    expenses:isabel             $100
+    assets:caja                $-100
 
 2020/07/06 saco reserva
-    activo:caja              $10000
-    activo:reserva          $-10000
+    assets:caja              $10000
+    assets:reserva          $-10000
 
 2020/07/07 tratamiento de conducto
-    perdidas:gastos medicos:odontologia            5500
-    activo:caja                                   -5500
+    expenses:gastos medicos:odontologia            5500
+    assets:caja                                   -5500
 
 2020/07/07 arreglo general frente
-    perdidas:casa:mantenimiento:jardineria            1000
-    activo:caja                                      -1000
+    expenses:casa:mantenimiento:jardineria            1000
+    assets:caja                                      -1000
 
 2020/07/07 ingresos
-    activo:reserva                      40000
-    ganancias:retiro sociedad          -40000
+    assets:reserva                      40000
+    income:retiro sociedad          -40000
 
 2020/07/07 ketorolac
-    perdidas:gastos medicos:farmacia             325
-    activo:caja                                 -325
+    expenses:gastos medicos:farmacia             325
+    assets:caja                                 -325
 
 2020/07/07 fibertel 07/2020
-    perdidas:servicios:fibertel            1730
-    activo:caja                           -1730
+    expenses:servicios:fibertel            1730
+    assets:caja                           -1730
 
 2020/07/07 dif
-    perdidas:diferencia arqueo              95
-    activo:caja                            -95
+    expenses:diferencia arqueo              95
+    assets:caja                            -95
 
 2020/07/08 locro
-    perdidas:comida            2500
-    activo:caja               -2500
+    expenses:comida            2500
+    assets:caja               -2500
 
 2020/07/08 arreglo jardin terminacion
-    perdidas:casa:mantenimiento:jardineria             600
-    activo:caja                                       -600
+    expenses:casa:mantenimiento:jardineria             600
+    assets:caja                                       -600
 
 2020/07/08 saco reserva
-    activo:caja             $10000
-    activo:reserva         $-10000
+    assets:caja             $10000
+    assets:reserva         $-10000
 
 2020/07/08 cami semana
-    perdidas:cami:comida            2000
-    perdidas:cami:mesada            1500
-    activo:caja                    -3500
+    expenses:cami:comida            2000
+    expenses:cami:mesada            1500
+    assets:caja                    -3500
 
 2020/07/09 ñoño
-    perdidas:comida:ayuda              60
-    activo:caja                       -60
+    expenses:comida:ayuda              60
+    assets:caja                       -60
 
 2020/07/09 compras
-    perdidas:comida             600
-    activo:caja                -600
+    expenses:comida             600
+    assets:caja                -600
 
 2020/07/09 diff
-    perdidas:diferencia arqueo             100
-    activo:caja                           -100
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
 
 2020/07/09 facturas
-    perdidas:comida             400
-    activo:caja                -400
+    expenses:comida             400
+    assets:caja                -400
 
 2020/07/09 a cuenta devolucion de deuda sommier
-    perdidas:isabel            4000
-    activo:caja               -4000
+    expenses:isabel            4000
+    assets:caja               -4000
 
 2020/07/09 cuota valija
-    perdidas:cami:extras            1000
-    activo:caja                    -1000
+    expenses:cami:extras            1000
+    assets:caja                    -1000
 
 2020/07/09 romi remis
-    perdidas:romi             300
-    activo:caja              -300
+    expenses:romi             300
+    assets:caja              -300
 
 2020/07/09 saco reserva
-    activo:caja             $10000
-    activo:reserva         $-10000
+    assets:caja             $10000
+    assets:reserva         $-10000
 
 2020/07/10 epec julio/2020
-    perdidas:servicios:epec         3597.80
-    activo:caja                    -3597.80
+    expenses:servicios:epec         3597.80
+    assets:caja                    -3597.80
 
 2020/07/10 claro julio/2020
-    perdidas:servicios:claro         3041.60
-    activo:caja                     -3041.60
+    expenses:servicios:claro         3041.60
+    assets:caja                     -3041.60
 
 2020/07/10 ecogas 03/2020 con vto 06/07/2020
-    perdidas:servicios:ecogas         4049.98
-    activo:caja                      -4049.98
+    expenses:servicios:ecogas         4049.98
+    assets:caja                      -4049.98
 
 2020/07/10 aguas 6-7/2020 con vto 14/7 y 19/8
-    perdidas:servicios:aguas cordobesas         1492.44
-    activo:caja                                -1492.44
+    expenses:servicios:aguas cordobesas         1492.44
+    assets:caja                                -1492.44
 
 2020/07/10 saco reserva
-    activo:caja             $10000
-    activo:reserva         $-10000
+    assets:caja             $10000
+    assets:reserva         $-10000
 
 2020/07/10 remis cami
-    perdidas:cami:extras             500
-    activo:caja                     -500
+    expenses:cami:extras             500
+    assets:caja                     -500
 
 2020/07/11 lanas isabel
-    perdidas:isabel             400
-    activo:caja                -400
+    expenses:isabel             400
+    assets:caja                -400
 
 2020/07/11 sandwich
-    perdidas:comida             500
-    activo:caja                -500
+    expenses:comida             500
+    assets:caja                -500
 
 2020/07/12 comida gatos
-    perdidas:comida:gatos             700
-    activo:caja                      -700
+    expenses:comida:gatos             700
+    assets:caja                      -700
 
 2020/07/13 cami semana
-    perdidas:cami:comida            2000
-    perdidas:cami:mesada            1500
-    activo:caja                    -3500
+    expenses:cami:comida            2000
+    expenses:cami:mesada            1500
+    assets:caja                    -3500
 
 2020/07/13 saco reserva
-    activo:caja             $10000
-    activo:reserva         $-10000
+    assets:caja             $10000
+    assets:reserva         $-10000
 
 2020/07/13 ingresos
-    activo:reserva                      50000
-    ganancias:retiro sociedad          -50000
+    assets:reserva                      50000
+    income:retiro sociedad          -50000
 
 2020/07/13 saco reserva
-    activo:caja              50000
-    activo:reserva          -50000
+    assets:caja              50000
+    assets:reserva          -50000
 
 2020/07/13 compras cumple romi
-    perdidas:comida            2602
-    activo:caja               -2602
+    expenses:comida            2602
+    assets:caja               -2602
 
 2020/07/13 copia de llave
-    perdidas:casa:mantenimiento             150
-    activo:caja                            -150
+    expenses:casa:mantenimiento             150
+    assets:caja                            -150
 
 2020/07/13 ospe julio/2020
-    perdidas:servicios:OSPE           22879
-    activo:caja                      -22879
+    expenses:servicios:OSPE           22879
+    assets:caja                      -22879
 
 2020/07/13 vivero los tulipanes
-    perdidas:isabel             660
-    activo:caja                -660
+    expenses:isabel             660
+    assets:caja                -660
 
 2020/07/13 carusso julio/2020
-    perdidas:servicios:carusso         1210.11
-    activo:caja                       -1210.11
+    expenses:servicios:carusso         1210.11
+    assets:caja                       -1210.11
 
 2020/07/13 rio shop
-    perdidas:isabel          214.38
-    activo:caja             -214.38
+    expenses:isabel          214.38
+    assets:caja             -214.38
 
 2020/07/13 rio shop
-    perdidas:isabel           329.7
-    activo:caja              -329.7
+    expenses:isabel           329.7
+    assets:caja              -329.7
 
 2020/07/13 comida plan zeta
-    perdidas:comida         6378.46
-    activo:caja            -6378.46
+    expenses:comida         6378.46
+    assets:caja            -6378.46
 
 2020/07/13 comida plan zeta
-    perdidas:comida         2917.76
-    activo:caja            -2917.76
+    expenses:comida         2917.76
+    assets:caja            -2917.76
 
 2020/07/13 moda marques
-    perdidas:isabel             944
-    activo:caja                -944
+    expenses:isabel             944
+    assets:caja                -944
 
 2020/07/13 vivero los tulipanes
-    perdidas:isabel             242
-    activo:caja                -242
+    expenses:isabel             242
+    assets:caja                -242
 
 2020/07/13 tyc electronica
-    perdidas:isabel            1116
-    activo:caja               -1116
+    expenses:isabel            1116
+    assets:caja               -1116
 
 2020/07/13 calefactor
-    perdidas:casa:mantenimiento           813.6
-    activo:caja                          -813.6
+    expenses:casa:mantenimiento           813.6
+    assets:caja                          -813.6
 
 2020/07/13 netflix
-    perdidas:servicios:netflix          476.02
-    activo:caja                        -476.02
+    expenses:servicios:netflix          476.02
+    assets:caja                        -476.02
 
 2020/07/13 seguro auto
-    perdidas:servicios:la caja seguros            2302
-    activo:caja                                  -2302
+    expenses:servicios:la caja seguros            2302
+    assets:caja                                  -2302
 
 2020/07/13 tyc electronica
-    perdidas:isabel             983
-    activo:caja                -983
+    expenses:isabel             983
+    assets:caja                -983
 
 2020/07/13 comida plan zeta
-    perdidas:comida            2925
-    activo:caja               -2925
+    expenses:comida            2925
+    assets:caja               -2925
 
 2020/07/13 cuota telefono
-    perdidas:cami:extras         4499.83
-    activo:caja                 -4499.83
+    expenses:cami:extras         4499.83
+    assets:caja                 -4499.83
 
 2020/07/13 cuota sillon computadora
-    perdidas:cami:extras          555.44
-    activo:caja                  -555.44
+    expenses:cami:extras          555.44
+    assets:caja                  -555.44
 
 2020/07/13 gastos tarjeta naranja
-    perdidas:servicios:tarjeta naranja gastos fijos          1162
-    activo:caja                                             -1162
+    expenses:servicios:tarjeta naranja gastos fijos          1162
+    assets:caja                                             -1162
     
+
+2020/07/14 comida cumple romi
+    expenses:comida          2000
+    assets:caja           -2000.0
