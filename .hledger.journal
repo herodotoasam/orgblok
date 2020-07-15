@@ -288,3 +288,16 @@ D $1000.00
 2020/07/14 comida cumple romi
     expenses:comida          2000
     assets:caja           -2000.0
+
+2020/07/15 remedios ih
+    expenses:gastos medicos:farmacia            1000
+    assets:caja                                -1000
+
+2020/07/14 peluqueria
+    expenses:isabel                 700
+    expenses:peluqueria             200
+    assets:caja                    -900
+
+2020/07/15 faltante caja
+    expenses:diferencia arqueo           97.88
+    assets:caja                         -97.88

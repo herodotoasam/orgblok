@@ -20,7 +20,7 @@ filetype plugin indent on    " required
 
 
 
-colorscheme default
+colorscheme blue
 nnoremap j gj
 nnoremap k gk
 
