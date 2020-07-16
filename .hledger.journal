@@ -301,3 +301,15 @@ D $1000.00
 2020/07/15 faltante caja
     expenses:diferencia arqueo           97.88
     assets:caja                         -97.88
+
+2020/07/16 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/07/16 dentista
+    expenses:gastos medicos:odontologia            1700
+    assets:caja                                   -1700
+
+2020/07/16 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
