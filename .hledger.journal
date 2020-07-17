@@ -313,3 +313,23 @@ D $1000.00
 2020/07/16 ayuda
     expenses:comida:ayuda              60
     assets:caja                       -60
+
+2020/07/16 remedios
+    expenses:gastos medicos:farmacia          2340
+    assets:caja                            -2340.0
+
+2020/07/16 a cuenta ife
+    assets:deudas ih          2800
+    assets:caja            -2800.0
+
+2020/07/16 saco reserva
+    assets:caja         $10000.0
+    assets:reserva     $-10000.0
+
+2020/07/16 perdidos inexplicablemente
+    expenses:diferencia arqueo           500
+    assets:caja                       -500.0
+
+2020/07/16 comida lomito
+    expenses:comida           640
+    assets:caja            -640.0

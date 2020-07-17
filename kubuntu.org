@@ -72,6 +72,51 @@ copiar de ~/orgblok .tclshrc a ~
 **** pyperclip
 *** poner las fuentes DejaVu DejaVuBold 
 *** 
+** LAMP
+instalar apache
+sudo apt install apache2
+sudo ufw app list
+sudo ufw app info "Apache Full"
+sudo ufw allow in "Apache Full"
+localhost    para ver si funciona apache
+
+instalar mysql
+
+instalar php
+sudo apt install php libapache2-mod-php php-mysql
+
+** instalar myphpadmin
+OJO PRIMERO LAMP
+sudo apt install phpmyadmin php-mbstring php-gettext
+
+Warning: When the prompt appears, “apache2” is highlighted, but not
+selected. If you do not hit SPACE to select Apache, the installer will
+not move the necessary files during installation. Hit SPACE, TAB, and
+then ENTER to select Apache
+
+Select Yes when asked whether to use dbconfig-common to set up the
+database
+
+sudo phpenmod mbstring
+
+sudo systemctl restart apache2
+
+*** bug de phpmyadmin 
+[[https://github.com/phpmyadmin/phpmyadmin/issues/15574][pagina que explica el bug y la correccion]]
+actualizar el locate (buscar en doc/linux/locate-find) para encontrar
+el archivo
+/usr/share/phpmyadmin/libraries/... y corregirlo
+** instalar adminer
+*** Nueva forma de instalar para ubuntu 20.04
+ [[https://www.cyberciti.biz/faq/how-to-install-adminer-on-ubuntu-20-04-lts/][Instalar Adminer en Ubuntu 20.04 LTS]]
+*** Instalacion para ubuntu 18.04 OJO primero LAMP
+sudo mkdir /usr/share/adminer
+sudo wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
+sudo ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
+echo "Alias /adminer.php /usr/share/adminer/adminer.php" | sudo tee /etc/apache2/conf-available/adminer.conf
+sudo a2enconf adminer.conf
+sudo systemctl reload apache2
+
 ** postgres
 1. sudo apt-get install wget ca-certificates
 2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |
@@ -156,31 +201,6 @@ export PGMODELER_ROOT="/home/hero/.pgmodeler"
 8. seguir las instrucciones 
 cambiarle el nombre a pgmodeler.sh y mv a /etc/profile.d
 1. arrancar pgmodeler en /.pgmodeler
-** instalar adminer
-*** Nueva forma de instalar para ubuntu 20.04
- [[https://www.cyberciti.biz/faq/how-to-install-adminer-on-ubuntu-20-04-lts/][Instalar Adminer en Ubuntu 20.04 LTS]]
-*** Antigua forma [deprecated]
-
-  ya con apache y pgadmin4 funcionando...
-  sudo mkdir /usr/share/adminer
-  sudo wget "http://www.adminer.org/latest.php" -O /usr/share/adminer/latest.php
-  sudo ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
-  echo "Alias /adminer.php /usr/share/adminer/adminer.php" | sudo tee /etc/apache2/conf-available/adminer.conf
-  sudo a2enconf adminer.conf
-  sudo systemctl reload apache2
-  [[http://www.ubuntuboss.com/how-to-install-adminer-on-ubuntu-18-04/][Pagina que explica claramente el proceso]]
-
-  Basicamente hace una carpeta, descarga la ultima version de adminer
-  alli, luego hace unos links, luego el alias y el tee es para hacer el
-  conf para apache, y luego el a2enconf de apache y listo.
-
-  Luego para ponerle los themes que son los adminer.css que van en la
-  misma carpeta pero no te los toma apache asi nomas
-  hacer:
-  sudo emacs /etc/apache2/conf-enabled/adminer.conf
-  y alli hacer el alias...
-  Alias /adminer.css /usr/share/adminer/adminer.css
-  y restart apache y listo
 
 ** instalar fzf 
    git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf

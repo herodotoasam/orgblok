@@ -1779,9 +1779,23 @@ browser, voy practicando rapidamente con ww3.schooll. como primera
 aproximacion.
 *** [2020-07-16 Thu]
     :LOGBOOK:
-       CLOCK: [2020-07-16 Thu 12:46]--[2020-07-16 Thu 13:00] =>  0:14
+    CLOCK: [2020-07-16 Thu 20:32]--[2020-07-16 Thu 21:35] =>  1:03
+    CLOCK: [2020-07-16 Thu 17:30]--[2020-07-16 Thu 20:30] =>  3:00
+    CLOCK: [2020-07-16 Thu 13:20]--[2020-07-16 Thu 16:40] =>  3:20
+    CLOCK: [2020-07-16 Thu 12:45]--[2020-07-16 Thu 13:00] =>  0:15
     :END:
-instalo mysql 5.7
+instalo mysql 5.7- via reinstalacion general del ubuntu 18.04.
+primero: reviso las tablas nuevamente, las hago en workbench y obtengo
+un nuevo script depurado de createtable de todo el sistema nuevo, sin
+campos superfluos, sin tablas superfluas.
+Termine todo el tableado, con un script de drop y creacion de tablas
+completo, que al menos permite el trabajo inicial. Pq quedara obsoleto
+cuando con algun framework tenga un model que recree la estructura y
+tenga que adaptar el llenador.
+Ahora tengo que empezar con el llenador. ya estoy avanzando con
+esto. Creo que mañana lo tengo. Y comienzo con el pasado de los
+programas a mysql/tdbc
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
