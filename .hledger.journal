@@ -345,3 +345,11 @@ D $1000.00
 2020/07/17 faltante de caja
     expenses:diferencia arqueo           100
     assets:caja                       -100.0
+
+2020/07/18 comida pan
+    expenses:comida            80
+    assets:caja             -80.0
+
+2020/07/18 comida gatos
+    expenses:comida:gatos           600
+    assets:caja                  -600.0
