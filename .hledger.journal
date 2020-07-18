@@ -333,3 +333,15 @@ D $1000.00
 2020/07/16 comida lomito
     expenses:comida           640
     assets:caja            -640.0
+
+2020/07/17 nafta
+    expenses:transporte:nafta          1000
+    assets:caja                     -1000.0
+
+2020/07/17 macetas
+    expenses:isabel           700
+    assets:caja            -700.0
+
+2020/07/17 faltante de caja
+    expenses:diferencia arqueo           100
+    assets:caja                       -100.0

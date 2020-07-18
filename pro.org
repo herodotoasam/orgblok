@@ -52,8 +52,12 @@
 ** [2020-07-16 Thu]
    :LOGBOOK:
    CLOCK: [2020-07-16 Thu 11:18]--[2020-07-16 Thu 12:43] =>  1:25
+   
    :END:
-
+** [2020-07-17 Fri]
+   :LOGBOOK:
+   CLOCK: [2020-07-17 Fri 10:18]--[2020-07-17 Fri 12:56] =>  2:38
+  :END:
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -1795,7 +1799,34 @@ tenga que adaptar el llenador.
 Ahora tengo que empezar con el llenador. ya estoy avanzando con
 esto. Creo que mañana lo tengo. Y comienzo con el pasado de los
 programas a mysql/tdbc
-
+*** [2020-07-17 Fri]
+    CLOCK: [2020-07-17 Fri 21:29]--[2020-07-17 Fri 21:36] =>  0:07
+    CLOCK: [2020-07-17 Fri 20:02]--[2020-07-17 Fri 20:57] =>  0:55
+    renegando con la base de datos
+    CLOCK: [2020-07-17 Fri 18:57]--[2020-07-17 Fri 20:02] =>  1:05
+    primeros pasos - controller - routing basico
+    CLOCK: [2020-07-17 Fri 17:38]--[2020-07-17 Fri 18:29] =>  0:51
+    codeignater comienzo-renegando para instalar-instalado
+    CLOCK: [2020-07-17 Fri 16:30]--[2020-07-17 Fri 17:11] =>  0:41
+    CLOCK: [2020-07-17 Fri 15:49]--[2020-07-17 Fri 16:20] =>  0:31
+    CLOCK: [2020-07-17 Fri 14:18]--[2020-07-17 Fri 15:42] =>  1:24
+    CLOCK: [2020-07-17 Fri 13:43]--[2020-07-17 Fri 13:53] =>  0:10
+    CLOCK: [2020-07-17 Fri 13:16]--[2020-07-17 Fri 13:43] =>  0:27
+1.24hs haciendo las tablas me canse, es un trabajo muy repetitivo y ya
+lo hice un monton de veces, es mas fuerza bruta que otra cosa. Lo
+bueno de todo es que mysql es ultrarapido. Es ironico que la otra vez
+abandone el proyecto pq pensaba que era inexplicablemente lento e
+inviable y era pq no habia puesto transacciones.
+empezare con el traspaso de sistema.
+Tambien tendria que empezar a bajar el sistema de windows para la otra
+maquina para ir haciendo pruebas. para ver si el sistema funciona en
+ambos mundos.
+1.10 hs haciendo la traduccion de pg a tdbc::mysql no muy motivado pq
+es muy complejo todo y no creo que tenga sentido hacerlo, o quizas si
+no se. 
+Buen inicio con codeigniter se lo ve abordable para la complejidad de
+la tarea que tiene al frente que es unir la consulta a base de datos y
+la presentacion de una vista dinamica. y todo se hace en php.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2120,7 +2151,7 @@ ejemplo o lo que sea, y lo tagueo, entonces luego va a ser facil
 encontrar o aislar las partes maxime cuando no sabemos como se va a
 estructurar o por si no me gusta la estructuracion, en este caso la
 estructura la dara el tagueo.
-** semana [2020-07-12 Sun]                       :Hanami:Ruby:Mint:mysql:php:
+** semana [2020-07-12 Sun]	     :Hanami:Ruby:Mint:mysql:php:CodeIgniter:
 Anoche puse la busqueda ruby-web-framework y descubri hanami, y me
 parecio en principio lindo por todo lo que prometia, luego leyendo una
 documentacion muy bien presentada y entendible, lo veo abordable
@@ -2159,6 +2190,16 @@ habia que usar lo que el entorno de base de datos te daba. La otra
 opcion es olvidarme de todo y seguir con php y postgres pensando que
 voy a subir a heroku. Pero es depender de un solo proveedor y
 extranjero frente a la posibilidad de poner la base en cualquier lado.
+[2020-07-17 Fri] estoy reevaluando propositos pq creo que no estoy
+evaluando bien la dimension de todo esto. O mas que todo lo que
+significa traducir el sistema tcl a mysql encima con la limitacion de
+hacerlo en tdbc pq tenemos la limitacion windows, o sea una tarea
+enorme, y todo esto sin haber siquiera empezado a aprender php, ni el
+framework no haber desarrollado nada que haga necesario la conexion
+mysql-php. Es por lo tanto un momento dificultoso o de decision
+dificil de saber que hacer, y en que emplearse. Increiblemente pasan
+los dias y las semanas y estoy a fojas cero. Con crecientes
+preocupaciones.
 
 * agenda emacs
 ** [2020-07-04 Sat]

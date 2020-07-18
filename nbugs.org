@@ -229,3 +229,22 @@ puse boton adhoc para que no se olvide.
 .pagos.tbls rowconfigure $row -bg $coloresidvta($idvta)
 respagosxidvta
 para idvta 61160 que debe ser una devuelta
+* DONE [2020-07-17 Fri] al incluir un item en lista precios se inserta un art
+para que exista el articulo en el combo art de ventas se lo debe
+insertar en la tabla lista de precios que refiere a art/articulos.
+pero alguien inserta un registro duplicado, ejemplo sabana
+cacharel. otro sospechoso la salida de articulos.
+En realidad fue un error de ortografia. Al cargar articulos en tabla
+articulos (lo cual no hacia falta pq lo hubiera cargado el proceso de
+compra) pongo Sabana sin "s" final, y al cargar las compras se cargan
+ambos productos aparentemente repetidos pero con Sabanas no Sabana. 
+
+El programa es asi. Stock.tcl al cargar una compra, si no encuentra
+art en articulo lo carga y listo. procesa la compra. Luego si quizas
+sea necesario antes de usarlo a dicho articulo en lista de precios
+para venderlo ponerle costo pq si lo cargamos ahi y no tiene costo da
+error.
+
+Lo ideal seria corregir eso y no permitir la carga de una compra si
+antes no se carga bien un articulo, nombre, costo y activo, y hacer en
+artcomprado art referencia. (creo que asi va programado en lo nuevo.)

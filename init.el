@@ -12,19 +12,20 @@
 (setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 
+(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+                         ("melpa" . "https://melpa.org/packages/")))
 (require 'package)
 
 
 ;; Adds the Melpa archive to the list of available repositories
 
 (add-to-list 'package-archives
-
-             '("melpa" . "http://melpa.org/packages/") t)
-
-
-;; Initializes the package infrastructure
+                '(("melpa" . "http://melpa.org/packages/")
+                  ("melpa-stable" . "http://stable.melpa.org/packages/")
+                  ("org-elpa" . "https://orgmode.org/elpa/")))
 
 (package-initialize)
+(setq gnutls-algorithm-priority "NORMAL:-VERS-TLS1.3")
 
 
 ;; If there are no archived package contents, refresh them
@@ -53,8 +54,8 @@
     
     web-mode
     powerline
-    
-    org
+
+     org
     org-bullets
     ido-vertical-mode
     flx-ido

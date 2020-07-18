@@ -185,6 +185,13 @@ modificar imagen: roto - imagen auto-ajustar - imagen escalar mm ancho
 180
 filtro gausseano saca el fondo gris
 C-Shift-E exporta a formato jpeg
+** VSCode
+*** abrir files siempre en new tab
+    workbench - Editor Management  - Enable Preview (desmarcar)
+** codeignaiter
+*** instalacion
+antes de instalar con apt instalar
+php7.2-curl php7.2-initl
 * troubleshooting
 ** laravel
 *** no existe laravel como comando para ejecutar laravel new
