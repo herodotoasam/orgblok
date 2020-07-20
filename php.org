@@ -53,3 +53,10 @@ ir disipando con el tiempo. cuando lleve un par de meses de estudio
 puro de videos creo que ya aprendere lo suficiente como para producir
 algun resultado visible.
 El tema es seguir siendo capaz de lograr dominar esos temas. 
+* doc
+** constantes
+van en mayusculas sin signo delante y no se pueden cambiar de valor.
+son globales en su ambito.
+se definen con la funcion define
+define() tiene tres argumentos, el nombre de la constante entre
+comillas, el valor, y un tercero opcional que es case insensitive.

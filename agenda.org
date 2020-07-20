@@ -4,8 +4,11 @@
    SCHEDULED: <2020-07-17 Fri>
 
 * Romitex
-** subir Seven
-   SCHEDULED: <2020-07-17 Fri +1m>
+** TODO subir Seven
+   SCHEDULED: <2020-12-17 Thu +1m>
+   :PROPERTIES:
+   :LAST_REPEAT: [2020-07-20 Mon 10:49]
+   :END:
 
 * Pagos de Servicios
 ** pagar Fibertel
@@ -14,3 +17,5 @@
    SCHEDULED: <2020-07-13 Mon>
 
 
+* dar de baja Clarin
+  DEADLINE: <2020-07-31 Fri>

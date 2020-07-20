@@ -86,7 +86,7 @@ instalar php
 sudo apt install php libapache2-mod-php php-mysql
 
 ** instalar myphpadmin
-OJO PRIMERO LAMP
+   OJO PRIMERO LAMP
 sudo apt install phpmyadmin php-mbstring php-gettext
 
 Warning: When the prompt appears, “apache2” is highlighted, but not

@@ -353,3 +353,11 @@ D $1000.00
 2020/07/18 comida gatos
     expenses:comida:gatos           600
     assets:caja                  -600.0
+
+2020/07/20 funda celular Cami
+    expenses:cami:extras        $500.0
+    assets:caja                $-500.0
+
+2020/07/18 remis cami
+    expenses:cami:extras        $500.0
+    assets:caja                $-500.0
