@@ -72,7 +72,8 @@
 subiendo seven
 ** [2020-07-19 Sun]
    CLOCK: [2020-07-19 Sun 14:19]--[2020-07-19 Sun 15:31] =>  1:12
-
+** [2020-07-21 Tue]
+   CLOCK: [2020-07-21 Tue 10:39]--[2020-07-21 Tue 12:59] =>  2:20
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -1881,6 +1882,11 @@ saberlo.
     muchisimos sentidos. Lo que por un lado me embola por el tipo de
     s.o. atrasado pero por otro lado me hace la gran pregunta como
     carajo se hace a hostear una base de datos mysql version 5.7.
+*** [2020-07-21 Tue]
+    CLOCK: [2020-07-21 Tue 18:57]--[2020-07-21 Tue 19:36] =>  0:39
+    CLOCK: [2020-07-21 Tue 18:05]--[2020-07-21 Tue 18:20] =>  0:15
+    CLOCK: [2020-07-21 Tue 14:21]--[2020-07-21 Tue 18:04] =>  3:43
+    CLOCK: [2020-07-21 Tue 12:59]--[2020-07-21 Tue 13:41] =>  0:42
 
 * Anotaciones
 ** Objetivos
@@ -2405,3 +2411,15 @@ mysql 5.7 si o si por el proyecto que tengo, y las enormes
 dificultades que encontre para instalarlo en 20.04, siendo que en este
 se instala de una. En realidad una vez funcionando ambos sistemas
 andan igual, uno se olvida. Esta fue la semana de las tres instalaciones.
+* agenda laravel
+** crear proyecto
+composer create-project laravel/laravel rom1 --prefer-dist "7.*"
+** temas relacionados a la base de datos
+*** .env
+pongo tipo de coneccion pgsql y los datos de la coneccion
+creo en psql la base de datos asignada.
+*** copio las migraciones
+*** copio las clases Cliente Calle etc en App/
+corrijo que algunas empiezan con minusculas
+*** corrijo en pgtcl/migra/migra1.tcl 
+la coneccion a la base de datos creada para este proyecto y corro

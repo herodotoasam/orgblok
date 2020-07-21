@@ -361,3 +361,27 @@ D $1000.00
 2020/07/18 remis cami
     expenses:cami:extras        $500.0
     assets:caja                $-500.0
+
+2020/07/20 comida
+    expenses:comida           600
+    assets:caja            -600.0
+
+2020/07/21 saco reserva
+    assets:caja         $10000.0
+    assets:reserva     $-10000.0
+
+2020/07/21 mesada isabel
+    expenses:isabel          1000
+    assets:caja           -1000.0
+
+2020/07/21 comida
+    expenses:comida          4050
+    assets:caja           -4050.0
+
+2020/07/21 comida
+    expenses:comida           200
+    assets:caja            -200.0
+
+2020/07/21 pilas balanza
+    expenses:isabel           300
+    assets:caja            -300.0
