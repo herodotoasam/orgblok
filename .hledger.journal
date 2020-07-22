@@ -385,3 +385,20 @@ D $1000.00
 2020/07/21 pilas balanza
     expenses:isabel           300
     assets:caja            -300.0
+
+2020/07/22 cami semana
+    expenses:cami:comida          2000
+    expenses:cami:mesada          1500
+    assets:caja                  -3500
+
+2020/07/22 pico patio
+    expenses:casa:mantenimiento           530
+    assets:caja                        -530.0
+
+2020/07/22 pilas balanzas
+    expenses:cami:extras           500
+    assets:caja                 -500.0
+
+2020/07/22 varios
+    expenses:isabel           100
+    assets:caja            -100.0

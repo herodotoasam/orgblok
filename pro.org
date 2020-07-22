@@ -1,10 +1,10 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-07-20 Mon 17:09], for July 2020.
+#+CAPTION: Clock summary at [2020-07-22 Wed 20:30], for July 2020.
 | Headline                    |      Time |
 |-----------------------------+-----------|
-| *Total time*                | *4d 9:03* |
+| *Total time*                | *5d 0:42* |
 |-----------------------------+-----------|
-| Agenda Romitex              |     10:59 |
+| Agenda Romitex              |     14:50 |
 | \emsp [2020-07-12 Sun]      |      2:25 |
 | \emsp [2020-07-13 Mon]      |      0:55 |
 | \emsp [2020-07-14 Tue]      |      0:30 |
@@ -13,8 +13,10 @@
 | \emsp [2020-07-17 Fri]      |      2:38 |
 | \emsp [2020-07-18 Sat]      |      1:41 |
 | \emsp [2020-07-19 Sun]      |      1:12 |
-| Agenda de estudio           |  3d 22:04 |
-| \emsp 2020-Julio            |  3d 22:04 |
+| \emsp [2020-07-21 Tue]      |      2:20 |
+| \emsp [2020-07-22 Wed]      |      1:31 |
+| Agenda de estudio           |   4d 9:52 |
+| \emsp 2020-Julio            |   4d 9:52 |
 | \emsp\emsp [2020-07-01 Wed] |      7:30 |
 | \emsp\emsp [2020-07-02 Thu] |      5:27 |
 | \emsp\emsp [2020-07-03 Fri] |      4:41 |
@@ -33,7 +35,9 @@
 | \emsp\emsp [2020-07-17 Fri] |      6:11 |
 | \emsp\emsp [2020-07-18 Sat] |      2:04 |
 | \emsp\emsp [2020-07-19 Sun] |      4:46 |
-| \emsp\emsp [2020-07-20 Mon] |      5:31 |
+| \emsp\emsp [2020-07-20 Mon] |      6:29 |
+| \emsp\emsp [2020-07-21 Tue] |      5:19 |
+| \emsp\emsp [2020-07-22 Wed] |      5:31 |
 #+END:
 
 [[file:agenda.org][Recordar ver agenda]]
@@ -74,6 +78,8 @@ subiendo seven
    CLOCK: [2020-07-19 Sun 14:19]--[2020-07-19 Sun 15:31] =>  1:12
 ** [2020-07-21 Tue]
    CLOCK: [2020-07-21 Tue 10:39]--[2020-07-21 Tue 12:59] =>  2:20
+** [2020-07-22 Wed]
+   CLOCK: [2020-07-22 Wed 15:25]--[2020-07-22 Wed 16:56] =>  1:31
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -1887,6 +1893,18 @@ saberlo.
     CLOCK: [2020-07-21 Tue 18:05]--[2020-07-21 Tue 18:20] =>  0:15
     CLOCK: [2020-07-21 Tue 14:21]--[2020-07-21 Tue 18:04] =>  3:43
     CLOCK: [2020-07-21 Tue 12:59]--[2020-07-21 Tue 13:41] =>  0:42
+*** [2020-07-22 Wed]
+    CLOCK: [2020-07-22 Wed 19:45]--[2020-07-22 Wed 20:23] =>  0:38
+    instalando windows 10 en maquina de pruebas- primer round
+    instalado windows, firefox, activetcl y postgres. Mañana sigo con
+    llenar hero database e instalar git.
+    CLOCK: [2020-07-22 Wed 19:13]--[2020-07-22 Wed 19:45] =>  0:32
+    terminado el crud laravel
+    CLOCK: [2020-07-22 Wed 18:03]--[2020-07-22 Wed 18:25] =>  0:22
+    CLOCK: [2020-07-22 Wed 17:30]--[2020-07-22 Wed 18:03] =>  0:33
+    termino evaluacion de volver a tcl
+    CLOCK: [2020-07-22 Wed 14:37]--[2020-07-22 Wed 15:25] =>  0:48
+    CLOCK: [2020-07-22 Wed 10:52]--[2020-07-22 Wed 13:30] =>  2:38
 
 * Anotaciones
 ** Objetivos
@@ -1997,6 +2015,58 @@ minutos.
 ** idea encarar php-mysql
 o sea el clasico lamp, por una cuestion de disponibilidad de
 servidores mas baratos.
+** Idea de volver a programar en tcl					:TCL:
+estoy en un vaiven entre estas dos ideas, o destinar todo mi tiempo al
+proyecto nuevo sin un prospecto viable o usar el tiempo real de
+programacion en algo viable concreto y visible que haga alguna
+diferencia real, o sea que realmente convenga para algo. Lo otro
+decepciona por su bajo nivel de resultado y no se si algun dia podre
+tener un sistema que reproduzca en la web lo que tengo en el
+escritorio. Es decir no esta mal lo que voy viendo pero veo que no es
+lo nuestro. No venderemos a traves de la web y o al menos no un
+desarrollo propio. al menos que dedique un año o mas al desarrollo.
+Hablemos del corto plazo.
+Tambien esta el tema de que yo quiero programar, no solo estar en ese
+agonico proceso de aprendizaje sin final. 
+Tiene que ser un gran proyecto ya sea en tcl o en python-tcl, a
+eleccion ambos tienen sus pros y contras.
+Despues de un breve analisis obtuve algunas respuestas:
+1. no vale la pena desarrollar en python, seria perder enormemente el
+   tiempo en un desarrollo que no presenta ninguna ventaja. Y si
+   serias desventajas.
+2. hay realmente una gran diferencia entre un programa re-escrito de
+   cero como el buscapg y los otros, tanto en la parte estetica como
+   funcional.
+3. se podria seguir puliendo sacando campos que no son necesarios y
+   simplificando la base de datos y agregando vistas que sean mas
+   coherentes, pe. el tema devoluciones, tiene un monton de campos que
+   no son necesarios, se podria simplificar y se podria a la vez hacer
+   una interface de analisis mas a mano para un tema tan importante
+   como ese. Y asi con casi todos los temas.
+4. el tema seria reescribir todo el codigo, dandole mas legibilidad,
+   mas organizacion, mas documentacion.
+5. reorganizaciones
+   1. simplificar la base de datos, sacando campos y tablas que no
+      sirven, repasando de paso los triggers
+   2. testear el uso de pg_tcl o tdbc el que sea mas apto para
+      windows.(de nada valdria un esfuerzo gigante en ese sentido si
+      no se pudiera usar en windows).
+   3. documentar tanto interna como externamente lo mejor posible para
+      uso posterior. p.e. un documento org externo que documente
+      extensivamente toda la logica de negocios aplicada a la
+      aplicacion de modo tal que se pueda entender lo que esta hecho y
+      como y para que esta hecho.
+   4. hacer sistemas informativos reales que sirvan respecto a los
+      temas que realmente interesan del negocio.
+6. hay un punto mas freaky que podria ser una recapacitacion a fondo
+   de tcl mientras trabajamos pero no se si no quedara en la nada como
+   todos los planes hechos hasta ahora, o sea se hacen planes
+   demasiado grandes y despues no se hace nada. Como paso con ruby,
+   con laravel, con django. P.e. el famoso tema de imprimir, leer y
+   practicar con codigo el itcl para aprenderlo bien a fondo y lograr
+   con eso remodelar y pulir de otra manera lo que tenemos. O bien
+   organizarlo de otra forma.
+
 
 * avance semanal
 ** semana [2020-06-07 dom]                 :Laravel:TCL:Postgres:Lumen:Rails:
@@ -2283,6 +2353,17 @@ basico.
 Y obviamente conviene hacerlo en pg que ya tenemos la base hecha con
 tcl y la experiencia exitosa en heroku, por 9 dolares
 mensuales. Arriesgarse a otra cosa no tiene sentido.
+[2020-07-22 Wed] luego de un relativo exito en terminar una serie de
+videos de rimorsoft sobre crud con laravel y hacerlo a todo y lograr
+un crud basico con laravel que semeja bastante lo conseguido con
+antes, salvando las distancias, falta bastante trabajo tambien, para
+ello, pero no esta mal, salta hoy el tema de volver a programar en tcl
+lo cual te pone en el tapete que no hay una continuidad basica en lo
+mas minimo en ningun sistema. Es verdad que hay argumento para todo ,
+en realidad no podemos soslayar el tema de que no estamos programando
+nada, y que pasan los dias y el resultado no es concreto ni bueno para
+el negocio, ni para mi como persona. Solo tangencialmente un
+aprendizaje caotico que se va haciendo paso a paso hora tras hora.
  
 * agenda emacs
 ** [2020-07-04 Sat]
