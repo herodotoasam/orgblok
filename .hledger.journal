@@ -406,3 +406,7 @@ D $1000.00
 2020/07/23 ayuda
     expenses:comida:ayuda            80
     assets:caja                   -80.0
+
+2020/07/23 comida
+    expenses:comida           100
+    assets:caja            -100.0
