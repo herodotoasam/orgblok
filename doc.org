@@ -136,6 +136,13 @@ protected $fillable = ['dni','nombre']
 ** git cambiar repositorio remoto
 git remote -v muestra el repositorio actual que responde el git
 git remote set-url origin https://github.com/... se pone el nuevo
+
+#+BEGIN_EXAMPLE
+git remote set-url origin git@github.com:heroasam/tclmobile.git
+git push -u origin master
+#+END_EXAMPLE
+
+
 para cambiar el de heroku en caso de hayamos cambiado la app
 git remote set-url heroku https://heroku.com....
 ** rails-migrate

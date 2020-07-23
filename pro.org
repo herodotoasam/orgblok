@@ -1905,7 +1905,29 @@ saberlo.
     termino evaluacion de volver a tcl
     CLOCK: [2020-07-22 Wed 14:37]--[2020-07-22 Wed 15:25] =>  0:48
     CLOCK: [2020-07-22 Wed 10:52]--[2020-07-22 Wed 13:30] =>  2:38
-
+*** [2020-07-23 Thu]
+    CLOCK: [2020-07-23 Thu 15:02]--[2020-07-23 Thu 16:18] =>  1:16
+    sigo con la capacitacion pq sino no la hago mas. Bastante bien,
+    pero se va complicando mucho. Creo que es ahi donde uno
+    normalmente deja.
+    CLOCK: [2020-07-23 Thu 14:23]--[2020-07-23 Thu 14:58] =>  0:35
+    windows tercer round: instale los repositorios, determine que
+    pgtcl no anda, que tdbc esta ya instalado y es por lo tanto full
+    soportado de fabrica, pdf4tc se instala poniendo el directorio en
+    el dir lib/, y hay un bug de tbls que quizas se corrija ocn la
+    ultima version instalable igual. El resto funciona.
+    CLOCK: [2020-07-23 Thu 12:37]--[2020-07-23 Thu 13:55] =>  1:18
+    muy conforme con la practica guiada por itcl. no tendria que
+    quedarse ahi, tiene que seguir por lo que falta.
+    CLOCK: [2020-07-23 Thu 10:58]--[2020-07-23 Thu 12:37] =>  1:39
+    comienzo capacitacion itcl
+    CLOCK: [2020-07-23 Thu 10:42]--[2020-07-23 Thu 10:56] =>  0:14
+    intentare cambiar los repositorios tcl de gitlab a github.
+    listo subidos tclmobile-tclviejo-postcl a github.
+    CLOCK: [2020-07-23 Thu 10:08]--[2020-07-23 Thu 10:40] =>  0:32
+    windows segundo round: pude acceder al psql subir la base,
+    instalar git, pero no se puede acceder a gitlab por el momento por
+    lo cual pienso que debemos esperar.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2066,6 +2088,23 @@ Despues de un breve analisis obtuve algunas respuestas:
    practicar con codigo el itcl para aprenderlo bien a fondo y lograr
    con eso remodelar y pulir de otra manera lo que tenemos. O bien
    organizarlo de otra forma.
+7. En resumen los lineamientos de la nueva etapa tcl serian
+   1. optimizar el uso con windows al lado
+   2. recrear la interface postgres-tdbc-postgres para heroku
+   3. rehacer interfaces nuevas tipo buscapg o comando innovadoras
+   4. aprender cosas nuevas via itcl-class etc.
+   5. reaprender el lenguaje a fondo con el libro comprado
+   6. redocumentar bien todo tanto adentro como afuera de la aplicacion
+   7. crear utilidades de informacion nuevas y renovadas.
+** Idea de empezar con capacitacion itcl				:TCL:
+creo que he recorrido un cierto camino desde que leia y trataba con
+estos temas en otras epocas y he recogido conceptos de todo tipo de
+todo lugar, y pienso que no estaria mal empezar con ese paquete de
+practica para pasar a otro nivel en la programacion de tcl y no
+quedarse en lo ya sabido. Creo que di en la tecla donde hay una franja
+de tcl para explorar y capacitar.
+
+
 
 
 * avance semanal
@@ -2492,6 +2531,22 @@ mysql 5.7 si o si por el proyecto que tengo, y las enormes
 dificultades que encontre para instalarlo en 20.04, siendo que en este
 se instala de una. En realidad una vez funcionando ambos sistemas
 andan igual, uno se olvida. Esta fue la semana de las tres instalaciones.
+** [2020-07-23 Thu] vuelta a Cinnamon Mint 20 como hero-pandemonium
+ventajas que le veo a mint sobre otras distribuciones:
+1. es ubuntu: eso lo dice todo tengo la instalacion rapida y todo el
+   acceso a todo lo que necesito tanto a nivel programas como a nivel
+   ayuda. (no estoy tan seguro que exista eso en otras distribuciones.)
+2. es comunity o sea que no esta dirigido ni influenciado por
+   companias privadas como si lo esta ubuntu.
+3. tiene muy buena apariencia, tanto a nivel grafico/letras como en el
+   maquetado siendo o distanciandose del xfce que seria su comparativo
+   mas cercano.
+4. es superligero todo abre superrapido
+5. tiene herramientas muy bien pensadas para optimizar el uso.
+6. LA MAS IMPORTANTE: ya la conozco por lo tanto me aseguro que no
+   pierdo tiempo con el sist. operativo. Bastante uno reniega con los
+   programas como para tambien renegar con el sist. operativo.
+
 * agenda laravel
 ** crear proyecto
 composer create-project laravel/laravel rom1 --prefer-dist "7.*"

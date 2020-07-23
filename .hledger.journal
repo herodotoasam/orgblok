@@ -402,3 +402,7 @@ D $1000.00
 2020/07/22 varios
     expenses:isabel           100
     assets:caja            -100.0
+
+2020/07/23 ayuda
+    expenses:comida:ayuda            80
+    assets:caja                   -80.0

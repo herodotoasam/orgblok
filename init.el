@@ -328,7 +328,7 @@ Version 2015-04-09"
     (context-menu move-tree yank-link activate-stars activate-bullets activate-checkboxes)))
  '(package-selected-packages
    (quote
-    (enh-ruby-mode org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
+    (smartparens enh-ruby-mode org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
  '(pyvenv-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
