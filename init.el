@@ -142,6 +142,7 @@
 (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (linum-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'tcl-mode-hook (lambda () (show-paren-mode 1)))
 (add-hook 'tcl-mode-hook 'autopair-mode)
 
 (add-hook 'python-mode-hook (lambda () (linum-mode 1)))

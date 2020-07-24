@@ -410,3 +410,11 @@ D $1000.00
 2020/07/23 comida
     expenses:comida           100
     assets:caja            -100.0
+
+2020/07/23 lanas
+    expenses:isabel             500
+    assets:caja                -500
+
+2020/07/23 ropa gorro
+    expenses:personal:ropa             400
+    assets:caja                       -400

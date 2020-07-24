@@ -1,0 +1,61 @@
+* lineamientos
+** tdbc obligatorio para ser compatible con windows
+pq pgtcl que habia sido usado hasta ahora no es compatible con windows
+* problemas
+** tdbc entrega las listas con doble {{}}
+aparentemente lo solucione con este proc
+#+BEGIN_EXAMPLE
+proc db_list {conn sql} {
+    set stmt [$conn prepare $sql]
+    set lista [$stmt allrows -as lists]
+    set lista [lmap row $lista {string map {\{ "" \} ""} $row}]
+    return $lista
+}
+#+END_EXAMPLE
+* status proyecto traduccion
+** falta probar
+*** TODO plan de pagos que no funciona cuotas
+*** TODO devoluciones
+*** DONE recalculos no funciona
+rever la funcion en itk2 para que sea la general la que se dispare.
+* tdbc
+** db_list
+#+BEGIN_EXAMPLE
+proc db_list {conn sql} {
+    set stmt [$conn prepare $sql]
+    set lista [$stmt allrows -as lists]
+    set lista [lmap row $lista {string map {\{ "" \} ""} $row}]
+    return $lista
+}
+#+END_EXAMPLE
+entregamos una lista plana, simil al llist de pgtcl, sirve para llenar combos.
+** db_onecolumn
+#+BEGIN_EXAMPLE
+proc db_onecolumn {conn sql} {
+    set onevariable ""
+    set stmt [$conn prepare $sql]
+    set resultset [$stmt execute]
+    $resultset nextlist onevariable
+    return $onevariable
+}
+#+END_EXAMPLE
+entregamos un valor suelto sin la complicacion de pertenecer a una
+lista, para uso directo como el onecolumn de sqlite.
+** [db prepare $sel] foreach -as dicts dictequis
+cuando necesito un bucle de iteracion por los registros del select
+como hacia con sqlite, uso directamente el foreach del stmt, y saco un
+dict, que luego en la primer sentencia del bucle lo transformo a array
+para que sea mas usable por tcl
+array set equis $dictequis
+
+la tremenda facilidad de uso de un array en $equis(nombre) y la gran
+facilidad de pasar en una linea un dict a un array hace muy importante
+esa sentencia.
+** otra forma para conseguir un dict con un sql de un solo valor
+ #+BEGIN_EXAMPLE
+ [[db prepare $sel_una_linea_resultado] execute] nextdict dictequis
+ array set equis $dictequis
+ #+END_EXAMPLE
+ aca no hay bucle, por eso tengo que usar un resultset en vez de un
+ stmt, -de ahi el execute y el doble corchete-, y con nextdict y un
+ nombre de dict nomas pq solo espero una linea de resultado. 
