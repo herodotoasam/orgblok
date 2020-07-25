@@ -88,6 +88,7 @@ subiendo seven
    CLOCK: [2020-07-23 Thu 17:35]--[2020-07-23 Thu 17:54] =>  0:19
 ** [2020-07-24 Fri]
    :LOGBOOK:
+   CLOCK: [2020-07-24 Fri 19:18]--[2020-07-24 Fri 20:08] =>  0:50
    CLOCK: [2020-07-24 Fri 10:14]--[2020-07-24 Fri 12:26] =>  2:12
    :END:
 
@@ -1945,6 +1946,9 @@ saberlo.
     lo cual pienso que debemos esperar.
 *** [2020-07-24 Fri]
     :LOGBOOK:
+    CLOCK: [2020-07-24 Fri 20:12]
+    CLOCK: [2020-07-24 Fri 18:01]--[2020-07-24 Fri 19:01] =>  1:00
+    solucionado problemas de function gc
     CLOCK: [2020-07-24 Fri 13:38]--[2020-07-24 Fri 16:40] =>  3:02
     gran avance en la traduccion casi un 90% con gran manejo de la
     libreria de tdbc.
@@ -1953,7 +1957,15 @@ saberlo.
     CLOCK: [2020-07-24 Fri 12:27]--[2020-07-24 Fri 12:29] =>  0:02
     pongo a punto postgres recientemente instalado
     :END:
-
+    hoy fue un dia bastante satisfactorio pq pude programar y obtener
+    resultados concretos, o sea algo visible, tengo el programa ahi,
+    que es un buen programa, pero estaba servido por pgtcl y lo pase a
+    tdbc sin problemas con solvencia profesional. Y luego faltaba
+    reprogramar una funcion de postgres y tambien lo hice bien. Eso me
+    da para pensar que puedo seguir desarrollando. y todo hecho dentro
+    del entorno emacs que en algunos momentos brillaba, en el
+    teclado. Creo que lo que falta es eso practica y que la practica
+    sea virtuosa.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

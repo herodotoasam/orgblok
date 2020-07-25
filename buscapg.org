@@ -14,10 +14,14 @@ proc db_list {conn sql} {
 #+END_EXAMPLE
 * status proyecto traduccion
 ** falta probar
-*** TODO plan de pagos que no funciona cuotas
-*** TODO devoluciones
+*** DONE plan de pagos que no funciona cuotas
+*** DONE devoluciones tambien no funciona cuotas
+o sea todo bien la devolucion pero no funciona que siguen apareciendo
+las cuotas del articulo devuelto.
 *** DONE recalculos no funciona
 rever la funcion en itk2 para que sea la general la que se dispare.
+** falta desarrollar
+*** TODO la vista recibos no tiene recargos
 * tdbc
 ** db_list
 #+BEGIN_EXAMPLE
@@ -59,3 +63,10 @@ esa sentencia.
  aca no hay bucle, por eso tengo que usar un resultset en vez de un
  stmt, -de ahi el execute y el doble corchete-, y con nextdict y un
  nombre de dict nomas pq solo espero una linea de resultado. 
+* function gc
+la function gc es clave en el manejo de los datos que antes
+produciamos localmente desde la tabla ventas por medio de procesos
+tcl. 
+Esta por analizar si esta bueno trasladar la logica a postgres que es
+mas dificil de programar y mas dificil de debuggear alli, pero por lo
+menos esta hecho
