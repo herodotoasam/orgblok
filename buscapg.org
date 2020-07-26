@@ -70,3 +70,44 @@ tcl.
 Esta por analizar si esta bueno trasladar la logica a postgres que es
 mas dificil de programar y mas dificil de debuggear alli, pero por lo
 menos esta hecho
+* windows issues
+** error libpq.dll
+repuesta stackoverflow acertada
+el dll estaba en program files/postgresql/12/bin
+
+
+The answer's surprisingly simple.
+
+The issue you're seeing comes from the compiled application not being
+able to find the PostgreSQL libraries. The libpq.lib is used to
+compile the application, and it links to the DLL at run-time. You can
+either add it to your system wide path, or bundle the DLL with your
+application. (I'd add it on the development machine, and bundle the
+redistributable for a installer package.)
+
+To include it in your path try:
+
+    Right click on "My Computer" and select Properties Then Click on
+    "Advanced System Settings".  Click the "Environment Variables"
+    button at the bottom of the dialog box.  It will pop up a dialog
+    with a group box labeled "System Variables". Find the one in the
+    list box that has a Variable name of "Path".  Now, add the path of
+    the PostgreSQL library folder to the path with a ";" separator.
+    Now logout or reboot. It's imperative that you at least log out of
+    Windows and log back in for the Visual Studio debugger to pickup
+    the additional executable module paths (that Path
+    variable). Ideally, rebooting sends the new system path to all
+    applications in the system at boot time.
+
+If the Path variable has
+"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem" in it, you
+would add ";C:\Program Files\PostgreSQL\libraries" to make it look
+like
+"C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program
+Files\PostgreSQL\libraries".
+
+Be aware that your path will be really long in most cases. Just add it
+to the end.
+
+Good luck!
+
