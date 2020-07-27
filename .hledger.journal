@@ -442,3 +442,23 @@ D $1000.00
 2020/07/25 ingresos
     assets:reserva                  $30000
     income:retiro sociedad         $-30000
+
+2020/07/27 migral
+    expenses:gastos medicos:farmacia             400
+    assets:caja                                 -400
+
+2020/07/27 prestamo isabel
+    assets:deudas ih            $600
+    assets:caja                $-600
+
+2020/07/27 taxi hp isabel
+    expenses:transporte             700
+    assets:caja                    -700
+
+2020/07/27 lomito
+    expenses:comida             400
+    assets:caja                -400
+
+2020/07/27 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000

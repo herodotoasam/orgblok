@@ -1,0 +1,14 @@
+* Class Cliente
+
+** Objetivos
+la idea es una class contenedora de toda la logica de negocios de un
+cliente dentro de la clase, y no dentro del programa. Creacion,
+edicion, consulta de estado etc.
+
+** Definiciones
+
+*** sobre el ignorar parametros definidos por triggers p.e. deuda
+esta bien armada la estructura de triggers que permite que esos datos
+sean fiables y ademas existen mecanismos de borron y cuenta nueva
+generales como los recalculos que permiten volver a poner a cero
+todo. 
