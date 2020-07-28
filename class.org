@@ -4,7 +4,11 @@
 la idea es una class contenedora de toda la logica de negocios de un
 cliente dentro de la clase, y no dentro del programa. Creacion,
 edicion, consulta de estado etc.
-
+Para ver la potencialidad de lo que digo imaginar una interface tipo
+comando.tcl por pestañas (o sea un navegador tipo firefox de clientes)
+en los cuales se "abre" un cliente y se tienen todos los datos, y se
+abre otro cliente en otra pestaña y sin cerrar el anterior, esto es
+posible unicamente con class Cliente. 
 ** Definiciones
 
 *** sobre el ignorar parametros definidos por triggers p.e. deuda
@@ -12,3 +16,16 @@ esta bien armada la estructura de triggers que permite que esos datos
 sean fiables y ademas existen mecanismos de borron y cuenta nueva
 generales como los recalculos que permiten volver a poner a cero
 todo. 
+
+** prueba de velocidad
+creacion de objetos venta dentro de un objeto cliente aun en el
+cliente que mas ventas tiene se hace muy rapido. Mas rapido en
+postgres.
+
+** instrospeccion relativa a tipo de base de datos
+catch {$conn configure -host}
+entrega 1 en sqlite3 pq no tiene la variable host y entrega 0 en
+postgres.
+luego si quisieramos hilar mas fino tendriamos que leer la salida de
+host y buscar si dice postgres o mysql, pero no nos compliquemos al
+vicio ahora.
