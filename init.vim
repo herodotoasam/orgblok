@@ -20,7 +20,7 @@ filetype plugin indent on    " required
 
 
 
-colorscheme blue
+colorscheme default
 nnoremap j gj
 nnoremap k gk
 
@@ -83,7 +83,7 @@ set nocompatible
 set modelines=0
 
 "folding
-set foldmethod=indent
+"set foldmethod=indent
 nnoremap <space> za
 vnoremap <space> zf
 
