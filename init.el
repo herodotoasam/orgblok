@@ -45,14 +45,14 @@
 (defvar myPackages
 
   '(better-defaults                 ;; Set up some better Emacs defaults
-    elpy                            ;; Emacs Lisp Python Environment
-    flycheck                        ;; On the fly syntax checking
-    py-autopep8                     ;; Run autopep8 on save
-    blacken                         ;; Black formatting on save
-    magit                           ;; Git integration
-    enh-ruby-mode
+    ;;elpy                            ;; Emacs Lisp Python Environment
+    ;;flycheck                        ;; On the fly syntax checking
+    ;;py-autopep8                     ;; Run autopep8 on save
+    ;;blacken                         ;; Black formatting on save
+    ;;magit                           ;; Git integration
+    ;;enh-ruby-mode
     
-    web-mode
+    ;;web-mode
     powerline
 
      org
@@ -94,28 +94,22 @@
 
 ;;(global-linum-mode t)               ;; Enable line numbers globally
 
-(elpy-enable)
+;;(elpy-enable)
 
 ;; Enable Flycheck
 
-(when (require 'flycheck nil t)
+;;(when (require 'flycheck nil t)
 
-  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
+;;  (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
 
-  (add-hook 'elpy-mode-hook 'flycheck-mode))
+;;  (add-hook 'elpy-mode-hook 'flycheck-mode))
 
 ;; Enable autopep8
 
-(require 'py-autopep8)
+;;(require 'py-autopep8)
 
-(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+;;(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
-;; ruby
-(add-hook 'enh-ruby-mode-hook 'robe-mode)
-(add-hook 'enh-ruby-mode-hook 'yard-mode)
-(add-to-list 'auto-mode-alist '("\\.rb$" . enh-ruby-mode))
-(add-to-list 'auto-mode-alist
-             '("\\(?:\\.rb\\|ru\\|rake\\|thor\\|jbuilder\\|gemspec\\|podspec\\|/\\(?:Gem\\|Rake\\|Cap\\|Thor\\|Vagrant\\|Guard\\|Pod\\)file\\)\\'" . enh-ruby-mode))
 
 
 ;; User-Defined init.el ends here
@@ -145,34 +139,10 @@
 (add-hook 'tcl-mode-hook (lambda () (show-paren-mode 1)))
 (add-hook 'tcl-mode-hook 'autopair-mode)
 
-(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
+;;(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
-;; isearch at point
-(defun xah-search-current-word ()
-  "Call `isearch' on current word or text selection.
-“word” here is A to Z, a to z, and hyphen 「-」 and underline 「_」, independent of syntax table.
-URL `http://ergoemacs.org/emacs/modernization_isearch.html'
-Version 2015-04-09"
-  (interactive)
-  (let ( $p1 $p2 )
-    (if (use-region-p)
-        (progn
-          (setq $p1 (region-beginning))
-          (setq $p2 (region-end)))
-      (save-excursion
-        (skip-chars-backward "-_A-Za-z0-9")
-        (setq $p1 (point))
-        (right-char)
-        (skip-chars-forward "-_A-Za-z0-9")
-        (setq $p2 (point))))
-    (setq mark-active nil)
-    (when (< $p1 (point))
-      (goto-char $p1))
-    (isearch-mode t)
-    (isearch-yank-string (buffer-substring-no-properties $p1 $p2))))
-(global-set-key (kbd "<f8>") 'xah-search-current-word)
 
 ;; Duplicate line
 (defun duplicate-line (arg)
@@ -250,90 +220,23 @@ Version 2015-04-09"
 (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~"))
 (ido-mode 1)
 
-(require 'dired-x)
 (require 'ag)
+;;(require 'evil)
+;;(evil-mode 1)
 
-
-;; Configuracion de web-mode
-(require 'autopair)
-(autopair-global-mode) ;; enable autopair in all buffers
-(add-hook 'js2-mode-hook 'autopair-mode)
-(set-cursor-color "#aaaaaa")
-
-(require 'auto-complete)
-(require 'auto-complete-config)
-(ac-config-default)
-(setq ac-auto-start 3)
-(add-to-list 'ac-modes 'web-mode)
-(setq ac-ignore-case t)
-(setq ac-auto-start nil)
-(global-set-key (kbd "C-<tab>") 'auto-complete)
-
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.as[cp]x\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
-(add-to-list 'auto-mode-alist '("\\.html$\\'" . web-mode))
-(defun my-web-mode-hook ()
-  "Hooks for Web mode."
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-markup-indent-offset 2)
-  (setq web-mode-css-indent-offset 2)
-  (setq web-mode-code-indent-offset 2)
-  (setq web-mode-enable-auto-pairing t)
-  (setq web-mode-enable-css-colorization t)
-  (setq web-mode-enable-block-face t)
-  (setq web-mode-enable-part-face t)
-  (setq web-mode-enable-current-element-highlight t)
-  (setq web-mode-enable-current-column-highlight t)
-  (setq web-mode-ac-sources-alist
-	'(("css" . (ac-source-css-property))
-	  ("html" . (ac-source-words-in-buffer ac-source-abbrev))))
-)
-(add-hook 'web-mode-hook  'my-web-mode-hook)
-(add-hook 'web-mode-hook 'autopair-mode)
-(add-hook 'web-mode-hook 'auto-complete-mode)
-
-
-(define-key web-mode-map (kbd "C-n") 'web-mode-tag-match)
 
 
 (require 'powerline)
 (powerline-default-theme)
-
+;;(require 'powerline-evil)
 
 ;; --------------------------------------------
 ;; Aca termina lo que yo he programado
 ;; --------------------------------------------
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (material)))
- '(custom-safe-themes
-   (quote
-    ("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" "afd761c9b0f52ac19764b99d7a4d871fc329f7392dfc6cd29710e8209c691477" default)))
- '(elpy-rpc-python-command "python3")
- '(org-agenda-files
-   (quote
-    ("~/orgblok/agenda.org" "~/orgblok/rb.org" "~/orgblok/pro.org" "~/orgblok/kubuntu.org" "~/orgblok/doc.org")))
- '(org-modules (quote (org-mouse)))
- '(org-mouse-features
-   (quote
-    (context-menu move-tree yank-link activate-stars activate-bullets activate-checkboxes)))
- '(package-selected-packages
-   (quote
-    (smartparens enh-ruby-mode org py-autopep8 org-bullets material-theme magit ido-vertical-mode flycheck elpy blacken better-defaults ag)))
- '(pyvenv-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "Input Mono" :foundry "FBI " :slant normal :weight normal :height 143 :width normal)))))
+

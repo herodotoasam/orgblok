@@ -2,6 +2,8 @@
 * Turnos Medicos
 ** DONE Dentista 10hs 
    SCHEDULED: <2020-07-17 Fri>
+** sacar turno dentista
+   DEADLINE: <2020-08-15 Sat>
 
 * Romitex
 ** TODO subir Seven
@@ -17,5 +19,5 @@
    SCHEDULED: <2020-07-13 Mon>
 
 
-* dar de baja Clarin
+* DONE dar de baja Clarin
   DEADLINE: <2020-07-31 Fri>

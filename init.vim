@@ -20,9 +20,10 @@ filetype plugin indent on    " required
 
 
 
-colorscheme default
+colorscheme gruvbox
 nnoremap j gj
 nnoremap k gk
+inoremap jk <esc>
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -35,6 +36,7 @@ nnoremap <C-down> :bn<cr>
 nnoremap q :q<cr>
 nnoremap wq :wq<cr>
 nnoremap <C-s> :w<cr>
+nnoremap <C-z> :w<cr> :!wish %<CR>
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
 
@@ -51,7 +53,7 @@ nnoremap <C-s> :w<cr>
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set textwidth=79
+"set textwidth=79
 set expandtab
 set autoindent
 set fileformat=unix
@@ -83,7 +85,7 @@ set nocompatible
 set modelines=0
 
 "folding
-"set foldmethod=indent
+set foldmethod=indent
 nnoremap <space> za
 vnoremap <space> zf
 

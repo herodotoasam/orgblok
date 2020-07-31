@@ -1,56 +1,59 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-07-29 Wed 16:42], for July 2020.
-| Headline               |      Time |
-|------------------------+-----------|
-| *Total time*           | *7d 1:24* |
-|------------------------+-----------|
-| Agenda Romitex         |     23:31 |
-| \_  [2020-07-12 Sun]   |      2:25 |
-| \_  [2020-07-13 Mon]   |      0:55 |
-| \_  [2020-07-14 Tue]   |      0:30 |
-| \_  [2020-07-15 Wed]   |      0:13 |
-| \_  [2020-07-16 Thu]   |      1:25 |
-| \_  [2020-07-17 Fri]   |      2:38 |
-| \_  [2020-07-18 Sat]   |      1:41 |
-| \_  [2020-07-19 Sun]   |      1:12 |
-| \_  [2020-07-21 Tue]   |      2:20 |
-| \_  [2020-07-22 Wed]   |      1:31 |
-| \_  [2020-07-23 Thu]   |      0:19 |
-| \_  [2020-07-24 Fri]   |      3:02 |
-| \_  [2020-07-25 Sat]   |      1:55 |
-| \_  [2020-07-26 Sun]   |      0:32 |
-| \_  [2020-07-27 Mon]   |      1:28 |
-| \_  [2020-07-28 Tue]   |      1:25 |
-| Agenda de estudio      |   6d 1:53 |
-| \_  2020-Julio         |   6d 1:53 |
-| \_    [2020-07-01 Wed] |      7:30 |
-| \_    [2020-07-02 Thu] |      5:27 |
-| \_    [2020-07-03 Fri] |      4:41 |
-| \_    [2020-07-04 Sat] |      3:45 |
-| \_    [2020-07-05 Sun] |      3:21 |
-| \_    [2020-07-06 Mon] |      7:20 |
-| \_    [2020-07-07 Tue] |      1:53 |
-| \_    [2020-07-08 Wed] |      5:00 |
-| \_    [2020-07-09 Thu] |      1:51 |
-| \_    [2020-07-11 Sat] |      7:32 |
-| \_    [2020-07-12 Sun] |      3:17 |
-| \_    [2020-07-13 Mon] |      6:06 |
-| \_    [2020-07-14 Tue] |      8:11 |
-| \_    [2020-07-15 Wed] |      2:00 |
-| \_    [2020-07-16 Thu] |      7:38 |
-| \_    [2020-07-17 Fri] |      6:11 |
-| \_    [2020-07-18 Sat] |      2:04 |
-| \_    [2020-07-19 Sun] |      4:46 |
-| \_    [2020-07-20 Mon] |      6:29 |
-| \_    [2020-07-21 Tue] |      5:19 |
-| \_    [2020-07-22 Wed] |      5:31 |
-| \_    [2020-07-23 Thu] |      8:03 |
-| \_    [2020-07-24 Fri] |      4:42 |
-| \_    [2020-07-25 Sat] |      5:11 |
-| \_    [2020-07-26 Sun] |      3:09 |
-| \_    [2020-07-27 Mon] |      6:39 |
-| \_    [2020-07-28 Tue] |      6:20 |
-| \_    [2020-07-29 Wed] |      5:57 |
+#+CAPTION: Clock summary at [2020-07-31 Fri 13:00], for July 2020.
+| Headline               |       Time |
+|------------------------+------------|
+| *Total time*           | *7d 12:50* |
+|------------------------+------------|
+| Agenda Romitex         |    1d 0:14 |
+| \_  [2020-07-12 Sun]   |       2:25 |
+| \_  [2020-07-13 Mon]   |       0:55 |
+| \_  [2020-07-14 Tue]   |       0:30 |
+| \_  [2020-07-15 Wed]   |       0:13 |
+| \_  [2020-07-16 Thu]   |       1:25 |
+| \_  [2020-07-17 Fri]   |       2:38 |
+| \_  [2020-07-18 Sat]   |       1:41 |
+| \_  [2020-07-19 Sun]   |       1:12 |
+| \_  [2020-07-21 Tue]   |       2:20 |
+| \_  [2020-07-22 Wed]   |       1:31 |
+| \_  [2020-07-23 Thu]   |       0:19 |
+| \_  [2020-07-24 Fri]   |       3:02 |
+| \_  [2020-07-25 Sat]   |       1:55 |
+| \_  [2020-07-26 Sun]   |       0:32 |
+| \_  [2020-07-27 Mon]   |       1:28 |
+| \_  [2020-07-28 Tue]   |       1:25 |
+| \_  [2020-07-29 Wed]   |       0:43 |
+| Agenda de estudio      |   6d 12:36 |
+| \_  2020-Julio         |   6d 12:36 |
+| \_    [2020-07-01 Wed] |       7:30 |
+| \_    [2020-07-02 Thu] |       5:27 |
+| \_    [2020-07-03 Fri] |       4:41 |
+| \_    [2020-07-04 Sat] |       3:45 |
+| \_    [2020-07-05 Sun] |       3:21 |
+| \_    [2020-07-06 Mon] |       7:20 |
+| \_    [2020-07-07 Tue] |       1:53 |
+| \_    [2020-07-08 Wed] |       5:00 |
+| \_    [2020-07-09 Thu] |       1:51 |
+| \_    [2020-07-11 Sat] |       7:32 |
+| \_    [2020-07-12 Sun] |       3:17 |
+| \_    [2020-07-13 Mon] |       6:06 |
+| \_    [2020-07-14 Tue] |       8:11 |
+| \_    [2020-07-15 Wed] |       2:00 |
+| \_    [2020-07-16 Thu] |       7:38 |
+| \_    [2020-07-17 Fri] |       6:11 |
+| \_    [2020-07-18 Sat] |       2:04 |
+| \_    [2020-07-19 Sun] |       4:46 |
+| \_    [2020-07-20 Mon] |       6:29 |
+| \_    [2020-07-21 Tue] |       5:19 |
+| \_    [2020-07-22 Wed] |       5:31 |
+| \_    [2020-07-23 Thu] |       8:03 |
+| \_    [2020-07-24 Fri] |       4:42 |
+| \_    [2020-07-25 Sat] |       5:11 |
+| \_    [2020-07-26 Sun] |       3:09 |
+| \_    [2020-07-27 Mon] |       6:39 |
+| \_    [2020-07-28 Tue] |       6:20 |
+| \_    [2020-07-29 Wed] |       6:54 |
+| \_    [2020-07-30 Thu] |       7:10 |
+| \_    [2020-07-31 Fri] |       2:36 |
 #+END:
 
 [[file:agenda.org][Recordar ver agenda]]
@@ -120,7 +123,12 @@ subiendo seven
    :LOGBOOK:
    CLOCK: [2020-07-29 Wed 17:42]--[2020-07-29 Wed 18:25] =>  0:43
    :END:
+** [2020-07-31 Fri]
+   :LOGBOOK:
+   CLOCK: [2020-07-31 Fri 15:10]--[2020-07-31 Fri 15:25] =>  0:15
+   :END:
 
+ 
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -2077,6 +2085,29 @@ Y en cierta forma la estructura de tener abierto un outline aca mismo
 me va guiando en lo que voy haciendo sin perderme.
 Un ultimo toquecito de tarde-noche refuerza ambos conceptos. La
 rapidez de vim con la inconmensurabilidad del espacio orgmode.
+*** [2020-07-30 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-07-30 Thu 18:55]--[2020-07-30 Thu 19:29] =>  0:34
+    CLOCK: [2020-07-30 Thu 18:25]--[2020-07-30 Thu 18:53] =>  0:28
+    CLOCK: [2020-07-30 Thu 17:19]--[2020-07-30 Thu 18:21] =>  1:02
+    CLOCK: [2020-07-30 Thu 15:50]--[2020-07-30 Thu 16:36] =>  0:46
+    CLOCK: [2020-07-30 Thu 14:21]--[2020-07-30 Thu 15:46] =>  1:25
+    CLOCK: [2020-07-30 Thu 12:30]--[2020-07-30 Thu 13:05] =>  0:35
+    CLOCK: [2020-07-30 Thu 10:09]--[2020-07-30 Thu 12:29] =>  2:20
+    :END:
+hoy complete un buen avance en la agenda de desarrollo, el programa
+avanzo bastante y creo que se va puliendo bastante y ya esta en mejor
+posicion que el actual de sqlite. Falta el modulo analisis de venta.
+*** [2020-07-31 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-07-31 Fri 18:04]--[2020-07-31 Fri 19:14] =>  1:10
+    CLOCK: [2020-07-31 Fri 15:25]--[2020-07-31 Fri 18:04] =>  2:39
+    CLOCK: [2020-07-31 Fri 14:29]--[2020-07-31 Fri 15:10] =>  0:41
+    CLOCK: [2020-07-31 Fri 10:24]--[2020-07-31 Fri 13:00] =>  2:36
+    :END:
+    hoy un dia de desarrollo intermedio, con pocas luces, pero al
+    final salio, por lo menos la primera parte. Lo que pasa es que es
+    un poco complicado el tema por lo pronto
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2575,7 +2606,7 @@ Por otro lado pienso que se avanza poco o que no se avanza
 nada. P.e. pienso en todas las horas que llevo leyendo y practicando
 itcl y no he avanzado nada, o bien soy muy duro yo o el tema es muy
 dificil y amerita el esforzarse un poco mas.
-** semana [2020-07-26 Sun]                                         :Itcl:TCL:
+** semana [2020-07-26 Sun]                                :Itcl:TCL:Vim:Evil:
 Ahora puedo decir que se ha puesto fascinante la programacion. Estoy
 haciendo una class Cliente que encapsula toda la logica del negocio
 dentro de si misma y es atrapante se te pasa el tiempo volando. Pienso
@@ -2593,7 +2624,24 @@ los cuales queres abandonar todo, momentos en los cuales crees que si
 terminas no vas a tener nada que hacer y te autosaboteas, y en el
 fondo tambien tenes miedo de terminar algo y que ese algo sea mas
 modesto de lo que pensaste que iba a ser, o no se que. Una mezcla de
-todo lo anterior.
+todo lo anterior. [2020-07-30 Thu] la novedad de la semana, lo que
+activo el codigo, sin caer en fanatismos de ningun tipo, ni hacerme
+perder tiempo en la herramienta, sino solo se trato de usar la
+herramienta con los conocimientos que tengo hasta hoy, fue vim.
+Creo que agilice el codigo un cien por cien. la capacidad de moverme
+por el archivo, de pegar y cortar, de buscar, tanto local como en el
+directorio, reemplazar, hacer tareas repetitivas y quiza la mas
+importante aparte de moverse en el codigo sea la de volver rapidamente
+a donde estabas, con Ctrl-O Ctrl-I. Asi como vim fue la sensacion a
+nivel herramienta de la semana, se solidifica orgmode como herramienta
+de anotamiento de ideas, de registro, y de organizacion en general de
+escritos. No he querido meterme en la vaina de perder el tiempo de
+bajarme el evil-mode pq no quiero aprender otra cosa que no me hace
+falta, creo que soy ambidiestro y se los dos programas, pero que me
+resulta mas agil vim para programar. 
+[2020-07-31 Fri] hoy es el dia de practica de evil-mode y hasta ahora
+bastante funcional y podes tener las teclas de los dos sistemas
+bastante bien.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -2743,7 +2791,72 @@ bien hasta ahora.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
+** evil-mode con emacs
+    tendria que ser lo mejor de los dos mundos
+    entra en modo de edicion con la o-a-a-s
+    o sea las usuales de vim. 
+    hasta donde puedo ver se pueden usar los comandos de emacs tambien.
+    bastante bueno. Habria que ver si se comporta igual de rapido que vim
+    es un poco mas lento en apariencia, pero suma toda la capa de
+    emacs. Eso hay que tenerlo en cuenta, quizas no es para abrir y cerrar
+    a cada rato, pq tiene varios buffers abiertos, aparte el reloj de org
+    requiere que el programa no se cierre, pero la navegacion es
+    totalmente rapida y los comandos iconicos de vim estan presentes. Lo
+    unico que le faltaria seria una powerline que tuviera en cuenta el
+    evil-mode y me indicara en forma mas grafica el modo, normal, insert,
+    visual con colores distintos.
 * agenda programacion actual 
+** logica del proyecto actual
+*** articulo->artcomprado->art_ventas
+**** la tabla articulo guarda todos los articulos historicos
+pq de ella dependen detvta y artcomprado. La tabla articulo es como
+una tabla master que da origen a los articulos y cuida que no se
+repitan. Para que los combos no esten sobrecargados tiene un campo
+Activo que permite filtrar los obsoletos. La tabla Art_ventas es la
+lista de precios actual, es la que guarda el costo actual, precio
+actual y codigo para pasar la venta, y ArtComprado como su nombre lo
+indica es la lista de lo comprado. Para no confundir articulos
+parecidos en artcomprado el combo presenta tambien los activos si no
+esta se debe primero buscar si existe un articulo similar y activarlo
+y de ultima crearlo.
+**** flujo de trabajo primero en venta->luego en compra
+ingresa compra de articulo -> se revisa en ventaspg/list que esten los
+articulos en lista de precios, sino se los da de alta, se corrigen los
+costos, si no existen los articulos en combo, se activan abajo, si no
+existen abajo se crean y activan. 
+Luego se pasa la compra.
+***** transicion flujo actual en sqlite
+como la tabla articulos no tiene un campo activo, lo que hice fue
+borrar los costos cosa de que solo los activos tengan el costo
+puesto. Para mejor control. Entonces hay que controlar que tengan el
+costo actualizado. Y tener cuidado que compras permite el crear art en
+una forma muy facil y peligrosa. Por lo cual mejor antes de dar de
+alta un articulo mejor buscarlo en tabla articulo.
+*** archivos-dependencias
+**** tbls.tcl
+class tbls sola en un solo archivo pq es lo suficientemente grande
+para estar sola
+**** itk.tcl
+el resto de classes itk usadas
+**** lib2021.tcl
+     las funciones de uso comun
+*** analisis calidad de venta
+**** isln 
+**** isseven
+**** morosidad
+     es un int es la cantidad de dias que demoro en pagar la cuenta
+     anterior. Depende del proceso de pagos, que va a ser incorporado al
+     sistema pagos.
+**** vta_conj
+     cuantas ventas se hicieron en la misma casa el mismo dia. 
+**** vta_aument
+     el porcentaje de aumento sobre la venta anterior
+**** vta_grande
+     primero obtiene el promedio de la venta individual del mes
+     pasado. Eso asegura estar siempre actualizado automaticamente.
+     Y vta_grande es el cociente entre comprado/vtaprom entonces si da
+     1.16 significa que la venta fue un 16% mas grande que el
+     promedio.
 ** cuestiones relativas a la logica del negocio
 seria bueno hacer un archivo que unificara la logica del negocio, pe
 no se responder las siguientes cuestiones
@@ -2771,6 +2884,10 @@ pq los costos permanecen escondidos en una tabla articulos que es un
 lastre de los primeros tiempos y dificilmente en la practica volvamos
 alli cada vez que un precio aumenta. Pero si se podria mantener
 actualizada la tabla art_ventas.
+** cambios a la base de datos
+*** col costo tabla ventas
+    necesaria para toda la interface de analisis. probado hacerlo con
+    vista y es imposible la demora que causa.
 ** archivos que se pueden visitar 
 [[file:class.org][class.org Relativo a la clase Cliente y su desarrollo]]
 [[file:buscapg.org][buscapg.org Archivo base de la traduccion de buscapg]]
@@ -2805,8 +2922,19 @@ es como empezar de nuevo desde el mismo principio todo.
 como las salidas a terminal no importan pq usualmente los programas no
 se corren mirando la terminal, esta bueno tener una salida verbosa pq
 permite debuggear en el futuro.
+*** este software debe durar los proximos 10 años. 
+no puede ser complicado ni de usar ni de mantener y no se puede
+romper.
+** tecnicas de programacion
+*** mantener actualizado un combo ante la edicion
+un problema nunca antes resuelto. lo resolvi asi: encerre en un proc
+la creacion de la variable y la configuracion del combo:
+combo configure -value $arts p.e.
+luego llamo este proc despues de crear el combo para su
+inicializacion, y luego llamo el proc cada vez que un editcommand
+altera los datos y me mantiene el combo totalmente automatico.
 ** agenda de avance
-*** ventaspg
+*** TODO ventaspg
 **** DONE form de ingreso de art_ventas
 **** DONE forma de impedir que se trabe el arranque 
 por falta o error en los articulos que generan los botones
@@ -2828,25 +2956,65 @@ usaba. pq en realidad el pmovto de una vta nueva lo marca el campo
 primera.
 y para los demas usos de pmovto provenientes de las cobranzas prefiero
 tener una bien aceitada funcion proveniente de un proc tcl
-**** innovaciones
-***** buscador abajo general para casos que no este bien el dni
-***** clientes en la direccion mientras estoy pasando incluido el mismo
-**** TODO sacar btn generarvta y num vta del recuadro
-**** TODO bug listbutton no configure -state disabled
+**** DONE innovaciones
+***** DONE buscador abajo general para casos que no este bien el dni
+***** DONE clientes en la direccion mientras estoy pasando incluido el mismo
+**** DONE sacar btn generarvta y num vta del recuadro
 **** DONE bug flojito el proc de carga a detvta
 si borraste la linea de total, y permite borrarla no va a cargar esa
 linea
 o bien no se debe permitir borrarla, o bien debe cargar de cero a end
 y filtrar esa fila.
 **** DONE cargar el costo
-**** TODO segmentacion core dump
 **** DONE detalle de venta en postventa no muestra cnt art.
 facil y aparte hice que se mostrara con fondo oscuro
 **** DONE apertura por bind de todos los nodos de un dia
 apertura y cierre
-**** TODO bug vdores aparecen entre llaves 
-*** unknown.tcl
+**** DONE hacer el proceso del articulo en el tab lista
+**** TODO segmentacion core dump
+**** DONE bug vdores aparecen entre llaves 
+     resolvi con otro proc llamado llist que toma otro camino para
+     obtener la lista o sea el lindex $list 0 0, pero no puede ser
+     general pq no funcioona para los combos pq los combos lo tomas
+     desgranados a los valores y no sirve, por eso le puse a este
+     llist, pero anda bien para un valor en label como en idvdor en
+     ventaspg.
+
+**** TODO bug listbutton no configure -state disabled
+estudie un poquito el tema y parece que no va a ser usado como metodo
+de seguridad pq para eso esta el control de suma en el generarvta
+**** TODO terminar de limpiar tabla articulos en romitex.db
+**** TODO tab y sistema de proc control ventas
+     hasta ahora hice el tema funciones, pero falta la funcion
+     vta_conj que no upd en general. //
+     ya esta corregido, hice un if que procesa con un update general
+     el vta_conj para todos los involucrados.
+     Lo que falta ahora es la parte grafica. Y luego faltara la parte
+     de recibos o incorporar a pagos en forma automatizada el atraso
+     en el pago.
+**** TODO tab de estadisticas con graficos
+**** TODO crear notificaciones de error para uso indebido
+p.e. guardar sin datos, etc.
+*** TODO unknown.tcl
 **** historial de costos o/y historial de precios de venta
 **** datos historicos de distintos tipo para generar graficas
 ***** p.e. fecha-deuda sorpresa para un grafico
 ***** monto a cobrar
+*** TODO lib2021.tcl
+para reorganizar nuevamente todo el codigo nuevo que estoy haciendo
+debe incluir tambien itk2.tcl.
+O bien hacer un solo lib2021.tcl que incluya todo o bien que classes
+hipergrandes y complicadas como tbls o pivot tengan su propio archivo,
+asi la dependencia seria lib2021/tbls/pivot/ si forms o listadopg
+choto con uno dos cositas tenian su propio archivo y dependencia no
+veo porque no vaya a tener su propio archivo.
+incluso se requiere una reorganizacion en el directorio para no
+confundir y dejar frescamente lo nuevo, comenzando de la nada misma, o
+sea comenzando con ventaspg que es lo que tengo ahora, y luego bajando
+a buscapg, pero obteniendo los archivos puros inmaculados de
+referencias externas y de similitudes de nombre que son una bomba.
+Ahora tengo lib2015s diferentes por aqui y por alli con diferente
+codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
+*** DONE refactorizado ventaspg.tcl
+*** TODO refactorizado buscapg.tcl
+

@@ -487,3 +487,15 @@ D $1000.00
 2020/07/29 comida
     expenses:comida            1390
     assets:caja               -1390
+
+2020/07/30 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
+
+2020/07/31 devuelve ih
+    assets:caja                  200
+    assets:deudas ih            -200
+
+2020/07/31 lomitos
+    expenses:comida             670
+    assets:caja                -670
