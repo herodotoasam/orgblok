@@ -499,3 +499,15 @@ D $1000.00
 2020/07/31 lomitos
     expenses:comida             670
     assets:caja                -670
+
+2020/08/01 pan
+    expenses:comida             300
+    assets:caja                -300
+
+2020/08/01 comida
+    expenses:comida            1630
+    assets:caja               -1630
+
+2020/08/01 saco reserva
+    assets:caja           $10000.0
+    assets:reserva       $-10000.0
