@@ -2616,6 +2616,25 @@ cuatro años y no tiene sustituto, y no require mas habilidades de las
 que ya tengo, ni mayores perdidas de tiempo, que las ya asignadas, por
 lo cual no creo que tenga que seguir en esa linea. O sea vim para
 programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
+** semana [2020-08-02 Sun]                                              :TCL:
+ Llevo una semana y media con TCL o sea la semana pasada, la del 26/7
+ y mitad de la anterior la del 19/7. O sea no muy mucho que digamos, y
+ voy entranto en tema de a poco. Entre con cierta fuerza a aprender
+ itcl y ahi lo deje, luego no paro de leer el manual, temas aislados
+ pero que van agregando, como lo de hoy con format/scan. El objetivo
+ que es tener la base solida de tcl en mi cabeza para pasar a otro
+ nivel programatico, y no quedarme en el mismo lugar de siempre, como
+ por ejemplo no poder superar lo logrado en tiempos anteriores. Como
+ la joyita de jornales.tcl. Insuperable en su estetica y funcionalidad
+ pero sobre bases teoricas totalmente erroneas, lo que da la pauta que
+ el lenguaje funciona de cualquier forma, pero lo interesante seria
+ hacerlo funcionar bien. Lo bueno seria recuperar lo que teniamos
+ antes al menos en funciones, p.e. antes teniamos graficos, ahora
+ tenemos que tener graficos, y graficos mejores. Antes teniamos tal
+ cosa, ahora tenemos que tenerlo mejorado. Tambien me surgio la idea
+ de hacer un manual de estudio-aprendizaje para uso futuro de todo lo
+ aprendido-practicado, primero en esta pagina, luego exportable a su
+ propio archivo org.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -2779,6 +2798,31 @@ s surrounded
 :BTags busca en los tags del archivo en cuestion
 :Ag busca en el directorio con ag
 :Rg busca en el directorio con rg (mejor)
+* agenda TCL
+** format-scan
+#+BEGIN_EXAMPLE
+set x 343
+format "$%0.0f" $x ;# $343
+
+set a \$343
+scan $a "$%d" a
+set a ;# 343
+#+END_EXAMPLE
+format cadena-formato string
+la cadena-formato debe contener %s %d %f %c los mas usados son %s y %f
+los format se usan en tcl mas que todo para formatear
+format "%4d %12.3f" $i [expr exp ($i)]
+
+scan string cadena-formato var var?
+las var se llenan con las cadenas que se van encontrando en el scaneo
+y el proc devuelve la cantidad escaneada.
+ej de treefile
+if {[scan $line "%s %d" size value]==2}
+o sea si el scan produce dos reemplazos, pq encontro en la linea un
+string y un decimal en ese orden, llenando las variables size y value
+con dichos valores.
+
+
 * agenda programacion actual 
 ** logica del proyecto actual
 *** articulo->artcomprado->art_ventas
