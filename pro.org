@@ -1,18 +1,22 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-08-01 Sat 12:29], for August 2020.
-| Headline               |   Time |
-|------------------------+--------|
-| *Total time*           | *0:42* |
-|------------------------+--------|
-| Agenda de estudio      |   0:42 |
-| \_  2020-Agosto        |   0:42 |
-| \_    [2020-08-01 Sat] |   0:42 |
+#+CAPTION: Clock summary at [2020-08-03 Mon 20:04], for August 2020.
+| Headline               |    Time |
+|------------------------+---------|
+| *Total time*           | *11:39* |
+|------------------------+---------|
+| Agenda Romitex         |    3:27 |
+| \_  Agosto 2020        |    3:27 |
+| \_    [2020-08-01 Sat] |    2:52 |
+| \_    [2020-08-03 Mon] |    0:35 |
+| Agenda de estudio      |    8:12 |
+| \_  2020-Agosto        |    8:12 |
+| \_    [2020-08-01 Sat] |    3:33 |
+| \_    [2020-08-03 Mon] |    4:39 |
 #+END:
 
 [[file:agenda.org][Recordar ver agenda]]
 
 * Agenda Romitex
-
 ** Julio 2020
 *** [2020-07-12 Sun]
     :LOGBOOK:
@@ -86,6 +90,10 @@
 *** [2020-08-01 Sat]
     :LOGBOOK:
     CLOCK: [2020-08-01 Sat 17:39]--[2020-08-01 Sat 20:31] =>  2:52
+    :END:
+*** [2020-08-03 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-03 Mon 12:32]--[2020-08-03 Mon 13:07] =>  0:35
     :END:
 
 * Agenda de estudio
@@ -2074,6 +2082,13 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-01 Sat 12:34]--[2020-08-01 Sat 13:22] =>  0:48
     CLOCK: [2020-08-01 Sat 11:45]--[2020-08-01 Sat 12:27] =>  0:42
     :END:
+*** [2020-08-03 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-03 Mon 18:14]--[2020-08-03 Mon 19:54] =>  1:40
+    CLOCK: [2020-08-03 Mon 16:02]--[2020-08-03 Mon 16:58] =>  0:56
+    CLOCK: [2020-08-03 Mon 15:04]--[2020-08-03 Mon 15:20] =>  0:16
+    CLOCK: [2020-08-03 Mon 10:13]--[2020-08-03 Mon 12:00] =>  1:47
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2821,7 +2836,23 @@ if {[scan $line "%s %d" size value]==2}
 o sea si el scan produce dos reemplazos, pq encontro en la linea un
 string y un decimal en ese orden, llenando las variables size y value
 con dichos valores.
-
+** regexp
+   regexp {regexp} string
+ y retorna 1 si match o 0 si no match
+ el pattern se encierra en llaves para evitar problemas de sustitucion
+ de variables y commandos.
+ si se ponen mas argumentos son tratados como variables
+ regexp {pattern} string varTodoMatch varSubMatch1 varSubMatch2 etc.
+si hay mas variables que subexpresiones las sobrantes quedan vacias.
+entre regexp y pattern van las opciones
+-nocase
+-all
+-indices -> las variables no seran llenadas con el submatch sino con
+ una lista de comienzo y final del submatch.
+-inline -> no se ponen variables y el comando regexp devuelve una
+ lista con el resultado que iria a las variables
+-- buena practica para poner al final de las opciones
+** regsub
 
 * agenda programacion actual 
 ** logica del proyecto actual
@@ -3016,6 +3047,16 @@ p.e. guardar sin datos, etc.
 **** DONE encerrar analisis de venta en proc para agilizar
 **** DONE bug doble click no debe borrar linea Total
 **** TODO arreglar la class plotchart
+     primera parte de la reestructuracion de la plotchart tomando como
+     base la muy buena base del 2013. Lo que no tiene es la
+     posibilidad de tener doble barra y todavia tiene algunos errores:
+***** DONE tope maximo debe ser un poco mayor que el maximo
+***** step estaria bueno que fueran numeros redondos
+***** forma elegante de incluir dos series
+**** DONE ver cuando pase venta que pasa con pp
+     se pasa null, o bien actualizar modelo o bien pasarlo desde el
+     programa(mejor)
+     solucionado de las dos formas.
 *** TODO unknown.tcl
 **** historial de costos o/y historial de precios de venta
 **** datos historicos de distintos tipo para generar graficas
@@ -3038,4 +3079,6 @@ Ahora tengo lib2015s diferentes por aqui y por alli con diferente
 codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
 *** DONE refactorizado ventaspg.tcl
 *** TODO refactorizado buscapg.tcl
-
+hecho hasta la impresion de fichas que se traba en que falta ventas(pp)
+*** traslacion de datos pg->sqlite
+para uso en mobil

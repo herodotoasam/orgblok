@@ -511,3 +511,11 @@ D $1000.00
 2020/08/01 saco reserva
     assets:caja           $10000.0
     assets:reserva       $-10000.0
+
+2020/08/03 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2020/08/03 isabel pinturas
+    expenses:isabel             190
+    assets:caja                -190
