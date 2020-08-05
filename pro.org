@@ -2089,6 +2089,13 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-03 Mon 15:04]--[2020-08-03 Mon 15:20] =>  0:16
     CLOCK: [2020-08-03 Mon 10:13]--[2020-08-03 Mon 12:00] =>  1:47
     :END:
+*** [2020-08-04 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-08-04 Tue 18:40]--[2020-08-04 Tue 21:04] =>  2:24
+    CLOCK: [2020-08-04 Tue 14:18]--[2020-08-04 Tue 15:17] =>  0:59
+    CLOCK: [2020-08-04 Tue 11:52]--[2020-08-04 Tue 13:24] =>  1:32
+    CLOCK: [2020-08-04 Tue 10:20]--[2020-08-04 Tue 11:21] =>  1:01
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2807,6 +2814,7 @@ c change
 s surrounded 
 { el caracter a reemplazar 
 " el caracter por el cual sera reemplazado
+-las expresiones tienen que estar balanceadas, no pueden estar en proceso
 ** plugin fzf
 :Files busca archivos dentro del dir de trabajo
 :Buffers busca buffers
@@ -2853,6 +2861,21 @@ entre regexp y pattern van las opciones
  lista con el resultado que iria a las variables
 -- buena practica para poner al final de las opciones
 ** regsub
+   regsub pattern string replacement var
+#+BEGIN_EXAMPLE
+regsub there "They live there lives" their x ;# x-> "They live their lives
+#+END_EXAMPLE
+el comando retorna 1 o 0 depende el resultado, y la variable se setea
+lo mismo haya match o no.
+-all
+-nocase
+-start
+--
+si el replacement contiene & es considerado como la parte capturada
+regsub sel select \{&\} x
+x-> {sel}ect
+regsub a abril && x
+x-> aabril
 
 * agenda programacion actual 
 ** logica del proyecto actual
@@ -2926,6 +2949,18 @@ lo cargara cada vez que modifiquemos un valor lo cual se hace en el
 momento de la venta o en el momento del pago.
 Saco la function pmovto. La reemplazare con una function TCL que usare
 cada vez que necesite.
+**** se hizo funcion pmovto en tcl-postgres
+funciona bien para las tres periodicidades.
+**** hay tres casos anormales en la db de pmovto null en ventas
+58692/74156/74592 - los dos ultimos tienen el pmovto cliente bien,
+solo el de ventas es nulo. Ya los corregi en la db original.
+**** en ventas hay 0 casos con pmovto null y saldo>0
+**** en clientes hay 3500 casos +- con pmovto null y deuda>0
+en sqlite es pmovto='', entre gestion,incobrable,mudo explican unos
+mil, el resto quiza sea viejo.
+**** revisado en fichas2.tcl aparecen aunque sin pmovto en antiguos
+o sea que han perdido su pmovto por distinta causa pero no pierden su
+lugar en antiguos.
 *** politicas generales sobre costo
 **** no hay un sistema de guardar costos historicos
 **** no hay un cuidado de poner costos actualizados
@@ -3043,7 +3078,8 @@ de seguridad pq para eso esta el control de suma en el generarvta
      en el pago.
 **** DONE tab de estadisticas con graficos
 **** TODO crear notificaciones de error para uso indebido
-p.e. guardar sin datos, etc.
+     p.e. guardar sin datos, etc.
+****** buscarpg en apretar enter sin datos en nombre da cuelgue 
 **** DONE encerrar analisis de venta en proc para agilizar
 **** DONE bug doble click no debe borrar linea Total
 **** TODO arreglar la class plotchart
@@ -3078,7 +3114,30 @@ referencias externas y de similitudes de nombre que son una bomba.
 Ahora tengo lib2015s diferentes por aqui y por alli con diferente
 codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
 *** DONE refactorizado ventaspg.tcl
-*** TODO refactorizado buscapg.tcl
-hecho hasta la impresion de fichas que se traba en que falta ventas(pp)
+*** DONE refactorizado buscapg.tcl
+    totalmente probado y refactorizado para lib2021/itk/tbls
+**** DONE bug en plan de pagos
+     no toma dos cuentas y las cuotas se generan mal: parte la funcion
+     gc que no tenia un if saldo>0 en general para no generar
+     nada. (Ahora me queda la duda si la funcion estaba bien y el bug
+     es lo que paso a explicar abajo, pero al menos este if general le
+     ahorra trabajo). 
+     Y en el proc mostrarcliente habia un sutil bug, en el list que
+     servia de base al foreach para generar los gc se ponia como
+     condicion saldo>0, pero al momento posterior al plan de pago, la
+     cuenta secundaria tiene pcondo=1 y saldo=0, por lo que no entra
+     ahi, y al no generarse gc, no se "limpia", apareciendo en el
+     listado de cuotas, pq mas abajo la condicion del select del
+     llenarpgt del tbls cuotas es select cuotas where
+     idcliente=cliente, y "debe">0, lo cual me enviaba redondita la
+     cuota indeseada de la cuenta que habia sido incluida en el plan
+     de pagos.
+     Simplemente sacando el saldo>0 como condicion de ese list, se
+     regeneran todas las cuentas del cliente, y todo anda bien.
 *** traslacion de datos pg->sqlite
 para uso en mobil
+*** TODO rbospg.tcl
+*** TODO fichas.tcl
+*** TODO stock.tcl
+*** plataforma de pedidos
+tomar como base lo que tenemos en jornales

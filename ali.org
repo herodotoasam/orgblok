@@ -4279,3 +4279,29 @@ ese sentido y paso los dias sin resultados eso impacta negativamente
 en mi. Y aparte el frio, el dormir de mas, la sensacion de perdida de
 tiempo, y las preocupaciones crecientes que se van transformando en
 paranoias. 
+** [2020-08-04 Tue]
+para mi vivir esta situacion pandemica es el mejor de los mundos
+posibles, estar todo el dia en la casa, en la compu, tranquilo, no
+tener que salir. Lo unico malo fue que descuide mucho la alimentacion
+y tambien descuide mucho toda otra cosa que no sea la
+codificacion. Creo que me volvi monotematico. Practicamente no escribi
+mas, no hice mas nada. Todo mi tiempo y energia lo paso en esto, y
+asimismo percibo que no avanzo para nada, o sea que lo que voy
+haciendo no es nada, o que me cuesta codificar, o que no aprendo, o
+que no se nada, o que me cuesta aprender. Y esto ultimo lo digo
+respecto a TCL, imaginarse que con relacion a la programacion web que
+resulto fallida ni hablemos.
+Resulta esencial retomar el habito alimenticio, para lo cual el primer
+paso principal es la habitualidad rigurosa del mijo-avena a lo cual
+una vez establecido se le pueda ir agregando cosas. Aprovechando la
+base de los ejercicios. 
+Y en el tema del estudio, la idea es ir avanzando en la lectura
+practica del libro tcl y su paso a emacs para un aprovechamento mas
+integral. La lectura del pdf vim o regexp entran en el terreno de la
+freekeada mas grande que pueda haber pero no estan excluidas, y sirven
+de practica en el ingles, como la escucha de videos en ingles sobre
+temas que son de interes, y en este caso vim lo es. 
+Releyendo un dia como hoy, aproximadamente, de los ultimos años
+disponibles, veo que han cambiado muchas cosas y no todas fueron
+necesariamente malas, por eso pienso que debo aprovechar la situacion
+actual al maximo pq no sabemos lo que traera el futuro.
