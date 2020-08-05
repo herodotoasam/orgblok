@@ -1,17 +1,18 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-08-03 Mon 20:04], for August 2020.
+#+CAPTION: Clock summary at [2020-08-05 Wed 10:04], for August 2020.
 | Headline               |    Time |
 |------------------------+---------|
-| *Total time*           | *11:39* |
+| *Total time*           | *17:35* |
 |------------------------+---------|
 | Agenda Romitex         |    3:27 |
 | \_  Agosto 2020        |    3:27 |
 | \_    [2020-08-01 Sat] |    2:52 |
 | \_    [2020-08-03 Mon] |    0:35 |
-| Agenda de estudio      |    8:12 |
-| \_  2020-Agosto        |    8:12 |
+| Agenda de estudio      |   14:08 |
+| \_  2020-Agosto        |   14:08 |
 | \_    [2020-08-01 Sat] |    3:33 |
 | \_    [2020-08-03 Mon] |    4:39 |
+| \_    [2020-08-04 Tue] |    5:56 |
 #+END:
 
 [[file:agenda.org][Recordar ver agenda]]
@@ -2096,6 +2097,10 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-04 Tue 11:52]--[2020-08-04 Tue 13:24] =>  1:32
     CLOCK: [2020-08-04 Tue 10:20]--[2020-08-04 Tue 11:21] =>  1:01
     :END:
+*** [2020-08-05 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-08-05 Wed 10:04]--[2020-08-05 Wed 12:34] =>  2:30
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -3137,6 +3142,11 @@ codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
 *** traslacion de datos pg->sqlite
 para uso en mobil
 *** TODO rbospg.tcl
+**** TODO pasar a tdbc
+**** TODO refactorizar a 2021
+**** TODO tener en cuenta que pmvto no es una funcion
+**** TODO actualizaciones de pagos
+incorporar a recibos el script de sqlite
 *** TODO fichas.tcl
 *** TODO stock.tcl
 *** plataforma de pedidos

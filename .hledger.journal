@@ -519,3 +519,92 @@ D $1000.00
 2020/08/03 isabel pinturas
     expenses:isabel             190
     assets:caja                -190
+
+2020/08/05 cami semana
+    expenses:cami:comida            2000
+    expenses:cami:mesada            1500
+    assets:caja                    -3500
+
+2020/08/05 retiro sociedad
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/08/05 ih garbarino
+    expenses:isabel            1810
+    assets:caja               -1810
+
+2020/08/05 orejas perros
+    expenses:comida:gatos             110
+    assets:caja                      -110
+
+2020/08/05 camila regalo eugenio
+    expenses:cami:extras             350
+    assets:caja                     -350
+
+2020/08/05 ih regalo eugenio
+    expenses:isabel            1150
+    assets:caja               -1150
+
+2020/08/05 isabel pinturas
+    expenses:isabel              70
+    assets:caja                 -70
+
+2020/08/05 cami rociador caño
+    expenses:cami:extras             100
+    assets:caja                     -100
+
+2020/08/05 caño cami
+    expenses:cami:extras            1000
+    assets:caja                    -1000
+
+2020/08/05 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/08/05 fibertel 08/2020
+    expenses:servicios:fibertel           $1730
+    assets:caja                          $-1730
+
+2020/08/05 cami cuota sillon
+    expenses:cami:extras         $555.44
+    assets:caja                 $-555.44
+
+2020/08/05 cami cuota telefono
+    expenses:cami:extras        $4499.83
+    assets:caja                $-4499.83
+
+2020/08/05 cuota calefactor
+    expenses:casa:mantenimiento          $813.6
+    assets:caja                         $-813.6
+
+2020/08/05 comida plan z
+    expenses:comida        $6378.46
+    assets:caja           $-6378.46
+
+2020/08/05 rio shop
+    expenses:isabel         $214.38
+    assets:caja            $-214.38
+
+2020/08/05 seguro auto
+    expenses:servicios:la caja seguros           $2302
+    assets:caja                                 $-2302
+
+2020/08/05 netflix
+    expenses:servicios:netflix         $476.02
+    assets:caja                       $-476.02
+
+2020/08/05 comida plan z
+    expenses:comida         7193.46
+    assets:caja            -7193.46
+
+2020/08/05 cerraduras frente y fondo
+    expenses:casa:mantenimiento            2000
+    assets:caja                           -2000
+
+2020/08/05 carusso Agosto/2020
+    expenses:servicios:carusso        $1210.11
+    assets:caja                      $-1210.11
+
+2020/08/05 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          376.19
+    assets:caja                                             -376.19
