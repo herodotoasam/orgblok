@@ -1,18 +1,20 @@
 #+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-08-05 Wed 10:04], for August 2020.
+#+CAPTION: Clock summary at [2020-08-05 Wed 19:47], for August 2020.
 | Headline               |    Time |
 |------------------------+---------|
-| *Total time*           | *17:35* |
+| *Total time*           | *22:20* |
 |------------------------+---------|
-| Agenda Romitex         |    3:27 |
-| \_  Agosto 2020        |    3:27 |
+| Agenda Romitex         |    4:21 |
+| \_  Agosto 2020        |    4:21 |
 | \_    [2020-08-01 Sat] |    2:52 |
 | \_    [2020-08-03 Mon] |    0:35 |
-| Agenda de estudio      |   14:08 |
-| \_  2020-Agosto        |   14:08 |
+| \_    [2020-08-05 Wed] |    0:54 |
+| Agenda de estudio      |   17:59 |
+| \_  2020-Agosto        |   17:59 |
 | \_    [2020-08-01 Sat] |    3:33 |
 | \_    [2020-08-03 Mon] |    4:39 |
 | \_    [2020-08-04 Tue] |    5:56 |
+| \_    [2020-08-05 Wed] |    3:51 |
 #+END:
 
 [[file:agenda.org][Recordar ver agenda]]
@@ -96,7 +98,10 @@
     :LOGBOOK:
     CLOCK: [2020-08-03 Mon 12:32]--[2020-08-03 Mon 13:07] =>  0:35
     :END:
-
+*** [2020-08-05 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-08-05 Wed 15:17]--[2020-08-05 Wed 16:11] =>  0:54
+    :END:
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -2099,6 +2104,9 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     :END:
 *** [2020-08-05 Wed]
     :LOGBOOK:
+    CLOCK: [2020-08-05 Wed 19:50]--[2020-08-05 Wed 20:26] =>  0:36
+    CLOCK: [2020-08-05 Wed 18:37]--[2020-08-05 Wed 19:47] =>  1:10
+    CLOCK: [2020-08-05 Wed 13:55]--[2020-08-05 Wed 15:16] =>  1:21
     CLOCK: [2020-08-05 Wed 10:04]--[2020-08-05 Wed 12:34] =>  2:30
     :END:
 
@@ -2966,6 +2974,22 @@ mil, el resto quiza sea viejo.
 **** revisado en fichas2.tcl aparecen aunque sin pmovto en antiguos
 o sea que han perdido su pmovto por distinta causa pero no pierden su
 lugar en antiguos.
+*** definicion general: desisto completamente de los triggers?
+los triggers en postgres son complicados y presentan gran dificultad
+para programarse y mantenerse. 
+No permite tener la logica del negocio facilmente mantenible y
+unificada.
+Es una de las cosas que se usaron pq existian, pero asi podriamos
+haber usado la normalizacion extrema de las tablas como manda el
+sql. Y sin embargo usamos un monton de campos acumulables, que
+casualmente son el objetivo de los triggers. El calculo lo hace igual
+el sistema, el tema es cuando, si desde tcl con un proc o dentro de la
+misma base de datos. con los proc puedo tener en cuenta las
+complejidades.
+por ejemplo realizamos un pago, borramos un pago, o updateamos un
+pago, lanzamos el proc actualizar_datos_cliente que es un trigger
+interno que hace unos siete u ocho execute y actualiza los datos del
+cliente de una. 
 *** politicas generales sobre costo
 **** no hay un sistema de guardar costos historicos
 **** no hay un cuidado de poner costos actualizados
@@ -3142,11 +3166,23 @@ codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
 *** traslacion de datos pg->sqlite
 para uso en mobil
 *** TODO rbospg.tcl
-**** TODO pasar a tdbc
-**** TODO refactorizar a 2021
+**** DONE pasar a tdbc
+**** DONE refactorizar a 2021
 **** TODO tener en cuenta que pmvto no es una funcion
 **** TODO actualizaciones de pagos
+**** TODO [#B] pivot con agg ym
+     ver la posibilidad de hacer pivots con sqlite o hibridos, o sea
+     consulta raw a postgres crea tabla y de alli paso a sqlite en
+     memoria no necesito que sea en postgres. esta a la mitad.
+**** TODO BUG: los pagos no alteran el saldo o no activan el trigger
+la cuota sigue apareciendo 
+**** TODO BUG: ver cta 76917 muestra cuotas a cobrar viejas
+**** TODO no existen los triggers pagos
+pienso que debo desistir de la function gc y usar generarcuotas.
+cobro por mes, comision por mes.
 incorporar a recibos el script de sqlite
+**** TODO [#A] proc actualiza_datos_clientes
+**** TODO [#A] sacar gc y poner generarcuotas
 *** TODO fichas.tcl
 *** TODO stock.tcl
 *** plataforma de pedidos
