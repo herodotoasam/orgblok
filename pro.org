@@ -1,4 +1,4 @@
-#+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
++BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
 #+CAPTION: Clock summary at [2020-08-05 Wed 19:47], for August 2020.
 | Headline               |    Time |
 |------------------------+---------|
@@ -102,6 +102,16 @@
     :LOGBOOK:
     CLOCK: [2020-08-05 Wed 15:17]--[2020-08-05 Wed 16:11] =>  0:54
     :END:
+*** [2020-08-06 Thu]
+     :LOGBOOK:
+    CLOCK: [2020-08-06 Thu 18:30]--[2020-08-06 Thu 19:31] =>  1:01
+    :END:
+*** [2020-08-07 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-07 Fri 13:53]--[2020-08-07 Fri 15:35] =>  1:42
+    CLOCK: [2020-08-07 Fri 12:53]--[2020-08-07 Fri 13:29] =>  0:36
+    :END:
+
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -2109,7 +2119,18 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-05 Wed 13:55]--[2020-08-05 Wed 15:16] =>  1:21
     CLOCK: [2020-08-05 Wed 10:04]--[2020-08-05 Wed 12:34] =>  2:30
     :END:
-
+*** [2020-08-06 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-08-06 Thu 10:18]--[2020-08-06 Thu 13:06] =>  2:48
+    :END:
+*** [2020-08-07 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-07 Fri 17:12]--[2020-08-07 Fri 19:36] =>  2:24
+    CLOCK: [2020-08-07 Fri 10:10]--[2020-08-07 Fri 11:20] =>  1:10
+    :END:
+    jornada interesante la de hoy igual que la de ayer pq permitio
+    meterse de lleno en un tema nuevo y diferente que es reemplazar
+    los triggers por proc. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2651,7 +2672,7 @@ cuatro años y no tiene sustituto, y no require mas habilidades de las
 que ya tengo, ni mayores perdidas de tiempo, que las ya asignadas, por
 lo cual no creo que tenga que seguir en esa linea. O sea vim para
 programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
-** semana [2020-08-02 Sun]                                              :TCL:
+** semana [2020-08-02 Sun]                                       :TCL:Debian:
  Llevo una semana y media con TCL o sea la semana pasada, la del 26/7
  y mitad de la anterior la del 19/7. O sea no muy mucho que digamos, y
  voy entranto en tema de a poco. Entre con cierta fuerza a aprender
@@ -2670,6 +2691,18 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  de hacer un manual de estudio-aprendizaje para uso futuro de todo lo
  aprendido-practicado, primero en esta pagina, luego exportable a su
  propio archivo org.
+ Esta fue una semana de tcl puro, quizas matizado con un poco de
+ debian en los margenes, tanto en la escucha de videos como en la
+ prueba de bunsen-lab en la notebook y mx-19 patito-feo en la netbook,
+ ambas dependientes de debian-10, felizmente tengo el tino de no
+ cambiar el SO de produccion hasta tanto estar bien seguro de que
+ conocemos y tenemos confianza plena de que no vamos a romper las
+ cosas. 
+ Volviendo a la programacion a veces se hizo tediosa, y a veces
+ gloriosa, lo interesante es como lleva tiempo y trabajo un set de
+ programas de escritorio de de lo que sea, pq es software y el
+ software falla y hay que corregirlo y reescribirlo y depurarlo, y
+ luego queda documentarlo. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -2936,17 +2969,33 @@ el resto de classes itk usadas
      cuantas ventas se hicieron en la misma casa el mismo dia. 
 **** vta_aument
      el porcentaje de aumento sobre la venta anterior
+     En el caso de venta nueva dicho porcentaje es cero, pq no hay una
+     venta anterior.
 **** vta_grande
      primero obtiene el promedio de la venta individual del mes
      pasado. Eso asegura estar siempre actualizado automaticamente.
      Y vta_grande es el cociente entre comprado/vtaprom entonces si da
      1.16 significa que la venta fue un 16% mas grande que el
      promedio.
+*** devoluciones - comprado debe ser igual a cero
+el saldo es cero por supuesto.
+pero la columna comprado tambien tendria que ser cero, sino se esta
+generando una suma de un monto comprado (o sea vendido) o acumulado en
+la compra del cliente que no fue tal, pq fue devuelto, por lo cual,
+comprado debe ser igual a cero.
 ** cuestiones relativas a la logica del negocio
 seria bueno hacer un archivo que unificara la logica del negocio, pe
 no se responder las siguientes cuestiones
 1. pagado es sum(imp)+ent o no incluye la ent (y menos cuestiones
    respecto al viejo anticipo)
+-- No, pagado no incluye ent. 
+O sea comprado-ent-pagado = saldo
+saldo= comprado - ent - pagado
+-- En los PLANES DE PAGO pp=1 el saldo se calcula diferente
+ya no tiene que ver con la formula anterior sino con lo que se
+repacto, o sea el nuevo "comprado" que seria pcc*pic - ppagado
+El unico campo que se comparte por igual en pp=0 o 1 es saldo.
+
 2. cuando se genera una devolucion se pone saldo a cero? de modo tal
    que la suma de saldo directamente no tenga en cuenta las
    devoluciones? Criterio similar a las condonaciones que si se ponen
@@ -3181,8 +3230,12 @@ la cuota sigue apareciendo
 pienso que debo desistir de la function gc y usar generarcuotas.
 cobro por mes, comision por mes.
 incorporar a recibos el script de sqlite
-**** TODO [#A] proc actualiza_datos_clientes
+
 **** TODO [#A] sacar gc y poner generarcuotas
+**** TODO [#A] proc actualiza_datos_clientes
+***** DONE pagos ins-del-upd
+***** DONE ventas ins-del-upd-condonada-devuelta
+***** TODO detvta
 *** TODO fichas.tcl
 *** TODO stock.tcl
 *** plataforma de pedidos

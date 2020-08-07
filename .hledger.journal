@@ -608,3 +608,48 @@ D $1000.00
 2020/08/05 gastos tarjeta naranja
     expenses:servicios:tarjeta naranja gastos fijos          376.19
     assets:caja                                             -376.19
+
+2020/08/06 ayuda
+    expenses:comida:ayuda              70
+    assets:caja                       -70
+
+2020/08/07 ih carla
+    expenses:ih             700
+    assets:caja            -700
+
+2020/08/07 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/08/07 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2020/08/07 farmacia
+    expenses:gastos medicos:farmacia            2651
+    assets:caja                                -2651
+
+2020/08/07 pan
+    expenses:comida              65
+    assets:caja                 -65
+
+2020/08/07 torta euge
+    expenses:isabel             684
+    assets:caja                -684
+
+2020/08/07 barbijo
+    expenses:isabel             100
+    assets:caja                -100
+
+2020/08/07 comida gatos
+    expenses:comida:gatos             750
+    assets:caja                      -750
+
+
+2020/08/07 comida
+    expenses:comida            1990
+    assets:caja               -1990
+
+2020/08/07 yerba isabel
+    expenses:isabel             250
+    assets:caja                -250
