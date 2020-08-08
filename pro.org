@@ -1,22 +1,19 @@
-+BEGIN: clocktable :scope file :maxlevel 3 :block thismonth :compact t
-#+CAPTION: Clock summary at [2020-08-05 Wed 19:47], for August 2020.
-| Headline               |    Time |
-|------------------------+---------|
-| *Total time*           | *22:20* |
-|------------------------+---------|
-| Agenda Romitex         |    4:21 |
-| \_  Agosto 2020        |    4:21 |
-| \_    [2020-08-01 Sat] |    2:52 |
-| \_    [2020-08-03 Mon] |    0:35 |
-| \_    [2020-08-05 Wed] |    0:54 |
-| Agenda de estudio      |   17:59 |
-| \_  2020-Agosto        |   17:59 |
-| \_    [2020-08-01 Sat] |    3:33 |
-| \_    [2020-08-03 Mon] |    4:39 |
-| \_    [2020-08-04 Tue] |    5:56 |
-| \_    [2020-08-05 Wed] |    3:51 |
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2020-08-08 Sat 16:45]
+| Headline          | Time        |          |
+|-------------------+-------------+----------|
+| *Total time*      | *21d 14:28* |          |
+|-------------------+-------------+----------|
+| Agenda Romitex    | 1d 8:09     |          |
+| \_  Julio 2020    |             | 1d 0:29  |
+| \_  Agosto 2020   |             | 7:40     |
+| Agenda de estudio | 20d 6:19    |          |
+| \_  2020-Mayo     |             | 6d 14:04 |
+| \_  2020-Junio    |             | 5d 18:54 |
+| \_  2020-Julio    |             | 6d 17:06 |
+| \_  2020-Agosto   |             | 1d 4:15  |
 #+END:
-
+:scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
 
 * Agenda Romitex
@@ -2131,6 +2128,12 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     jornada interesante la de hoy igual que la de ayer pq permitio
     meterse de lleno en un tema nuevo y diferente que es reemplazar
     los triggers por proc. 
+*** [2020-08-08 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-08-08 Sat 15:28]--[2020-08-08 Sat 16:45] =>  1:17
+    CLOCK: [2020-08-08 Sat 11:50]--[2020-08-08 Sat 13:58] =>  2:08
+    :END:
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2703,6 +2706,16 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  programas de escritorio de de lo que sea, pq es software y el
  software falla y hay que corregirlo y reescribirlo y depurarlo, y
  luego queda documentarlo. 
+ Pienso que el proyecto va bien, pq va madurando, si puedo seguir en
+ el dos semanas mas como hasta ahora pienso que lo termino y lo pongo
+ funcional, pq estoy en condiciones de aprehenderlo, o sea de tener la
+ certeza de que los datos estan bajo control y que se puede confiar en
+ lo que hice. De ahi queda la experiencia de tcl, que se puede usar
+ para escribir otras cosas o bien se puede dejar de lado, pero creo
+ que es una masa que esta, que no se pierde, lo que pasa es que yo
+ aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
+ enseñar.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3133,7 +3146,8 @@ facil y aparte hice que se mostrara con fondo oscuro
 **** DONE apertura por bind de todos los nodos de un dia
 apertura y cierre
 **** DONE hacer el proceso del articulo en el tab lista
-**** TODO segmentacion core dump
+**** DONE segmentacion core dump
+     lo pongo DONE pq no lo vi mas.
 **** DONE bug vdores aparecen entre llaves 
      resolvi con otro proc llamado llist que toma otro camino para
      obtener la lista o sea el lindex $list 0 0, pero no puede ser
@@ -3142,9 +3156,13 @@ apertura y cierre
      llist, pero anda bien para un valor en label como en idvdor en
      ventaspg.
 
-**** TODO bug listbutton no configure -state disabled
+**** DONE bug listbutton no configure -state disabled
 estudie un poquito el tema y parece que no va a ser usado como metodo
 de seguridad pq para eso esta el control de suma en el generarvta
+      Arreglado!! una vez generada la venta se ponen disabled el boton
+de generar venta y los botones de articulos. El error era que las
+variables listbuttonX no estaban hechas globales desde el proc en que
+eran declaradas.
 **** TODO terminar de limpiar tabla articulos en romitex.db
 **** DONE tab y sistema de proc control ventas
      hasta ahora hice el tema funciones, pero falta la funcion
@@ -3160,6 +3178,10 @@ de seguridad pq para eso esta el control de suma en el generarvta
 ****** buscarpg en apretar enter sin datos en nombre da cuelgue 
 **** DONE encerrar analisis de venta en proc para agilizar
 **** DONE bug doble click no debe borrar linea Total
+**** DONE ver cuando pase venta que pasa con pp
+     se pasa null, o bien actualizar modelo o bien pasarlo desde el
+     programa(mejor)
+     solucionado de las dos formas.
 **** TODO arreglar la class plotchart
      primera parte de la reestructuracion de la plotchart tomando como
      base la muy buena base del 2013. Lo que no tiene es la
@@ -3167,10 +3189,6 @@ de seguridad pq para eso esta el control de suma en el generarvta
 ***** DONE tope maximo debe ser un poco mayor que el maximo
 ***** step estaria bueno que fueran numeros redondos
 ***** forma elegante de incluir dos series
-**** DONE ver cuando pase venta que pasa con pp
-     se pasa null, o bien actualizar modelo o bien pasarlo desde el
-     programa(mejor)
-     solucionado de las dos formas.
 *** TODO unknown.tcl
 **** historial de costos o/y historial de precios de venta
 **** datos historicos de distintos tipo para generar graficas
@@ -3214,29 +3232,60 @@ codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
      regeneran todas las cuentas del cliente, y todo anda bien.
 *** traslacion de datos pg->sqlite
 para uso en mobil
-*** TODO rbospg.tcl
+*** DONE rbospg.tcl
 **** DONE pasar a tdbc
 **** DONE refactorizar a 2021
-**** TODO tener en cuenta que pmvto no es una funcion
-**** TODO actualizaciones de pagos
-**** TODO [#B] pivot con agg ym
-     ver la posibilidad de hacer pivots con sqlite o hibridos, o sea
-     consulta raw a postgres crea tabla y de alli paso a sqlite en
-     memoria no necesito que sea en postgres. esta a la mitad.
-**** TODO BUG: los pagos no alteran el saldo o no activan el trigger
-la cuota sigue apareciendo 
-**** TODO BUG: ver cta 76917 muestra cuotas a cobrar viejas
-**** TODO no existen los triggers pagos
+**** DONE tener en cuenta que pmvto no es una funcion
+     se uso con total tranquilidad el proc pmovto conn idvta
+**** DONE BUG: los pagos no alteran el saldo o no activan el trigger
+     la cuota sigue apareciendo: ver mas abajo, se reemplazo toda la
+     estructura de trigger por proc adhoc.
+**** DONE BUG: ver cta 76917 muestra cuotas a cobrar viejas
+     el bug de gc se debia simplemente a que tomaba como pagado,
+     solamente el contenido de la columna pagado, y no el de ent, y
+     como se establecio en la logica de negocios mas arriba,
+     pago=pagado+ent
+     o sea saldo=comprado-pagado-ent
+     o sea figuraban las cuotas viejas cuyos montos correspondian con
+     las entregas que no se habian considerado pagados.
+**** DONE no existen los triggers pagos
 pienso que debo desistir de la function gc y usar generarcuotas.
 cobro por mes, comision por mes.
 incorporar a recibos el script de sqlite
-
-**** TODO [#A] sacar gc y poner generarcuotas
-**** TODO [#A] proc actualiza_datos_clientes
+     se decide no usar mas los triggers en postgress y en cambio usar
+proc centralizados en tcl que procesen todo, y ubicarlos en los
+momentos que son necesarios. Eso permite mayor control y mejor debug.
+**** DONE sacar gc y poner generarcuotas
+     decido por ahora dejar gc, pq anda bien, se han corregido los
+     fallos y anda rapido. Se hizo que al entrar se borraran todos los
+     registros de cuotas, o sea que cuotas es una tabla que funciona
+     solamente para una pasada nomas, lo cual asegura que no habra
+     problemas de errores por persistencia de anteriores registros que
+     no corresponden por condonacion o devoluciones, pero que quedan alli.
+**** DONE proc de reemplazo de triggers
 ***** DONE pagos ins-del-upd
+      puesto en pasado de recibos
+      puesto en borrado de recibo
+      puesto en update recibo en tbls debajo de pasado o en tab separada
 ***** DONE ventas ins-del-upd-condonada-devuelta
-***** TODO detvta
+      puesto en generarvta para pasado de venta
+      puesto en borrado de venta o update venta en tab2
+      condonar puesto en menu contextual de condonacion
+      devuelta puesto en proceso de devolucion
+****** especial anulacion de devolucion
+       mecanismo puesto en menu contextual que permite anular una
+       devolucion mal hecha. Esta bueno tenerlo por las dudas un error
+       involuntario procese mal una devolucion.
+***** DONE detvta - calculo costo de venta
+      puesto en pasado de ventas
+      puesto en edicion de venta
+*** TODO [#B] pivot con agg ym
+    ver la posibilidad de hacer pivots con sqlite o hibridos, o sea
+    consulta raw a postgres crea tabla y de alli paso a sqlite en
+    memoria no necesito que sea en postgres. esta a la mitad.
 *** TODO fichas.tcl
+**** TODO tranform a tdbc y limpieza espacios vacios
+**** TODO bug: no se muestran cobradores
 *** TODO stock.tcl
 *** plataforma de pedidos
 tomar como base lo que tenemos en jornales

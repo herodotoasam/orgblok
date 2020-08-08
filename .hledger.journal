@@ -653,3 +653,7 @@ D $1000.00
 2020/08/07 yerba isabel
     expenses:isabel             250
     assets:caja                -250
+
+2020/08/08 isabel afiches
+    expenses:isabel             260
+    assets:caja                -260
