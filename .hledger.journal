@@ -657,3 +657,15 @@ D $1000.00
 2020/08/08 isabel afiches
     expenses:isabel             260
     assets:caja                -260
+
+2020/08/08 lomitos
+    expenses:comida             730
+    assets:caja                -730
+
+2020/08/08 remi romi
+    expenses:romi             250
+    assets:caja              -250
+
+2020/08/08 facturas
+    expenses:comida             300
+    assets:caja                -300

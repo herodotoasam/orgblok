@@ -108,6 +108,10 @@
     CLOCK: [2020-08-07 Fri 13:53]--[2020-08-07 Fri 15:35] =>  1:42
     CLOCK: [2020-08-07 Fri 12:53]--[2020-08-07 Fri 13:29] =>  0:36
     :END:
+*** [2020-08-08 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-08-08 Sat 18:25]--[2020-08-08 Sat 20:08] =>  1:43
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -3232,7 +3236,7 @@ codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
      regeneran todas las cuentas del cliente, y todo anda bien.
 *** traslacion de datos pg->sqlite
 para uso en mobil
-*** DONE rbospg.tcl
+*** TODO rbospg.tcl
 **** DONE pasar a tdbc
 **** DONE refactorizar a 2021
 **** DONE tener en cuenta que pmvto no es una funcion
@@ -3279,6 +3283,7 @@ momentos que son necesarios. Eso permite mayor control y mejor debug.
 ***** DONE detvta - calculo costo de venta
       puesto en pasado de ventas
       puesto en edicion de venta
+**** TODO poner posibilidad de condonar salditos en rbospg.tcl
 *** TODO [#B] pivot con agg ym
     ver la posibilidad de hacer pivots con sqlite o hibridos, o sea
     consulta raw a postgres crea tabla y de alli paso a sqlite en
