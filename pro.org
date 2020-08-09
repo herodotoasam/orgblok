@@ -112,6 +112,10 @@
     :LOGBOOK:
     CLOCK: [2020-08-08 Sat 18:25]--[2020-08-08 Sat 20:08] =>  1:43
     :END:
+*** [2020-08-09 Sun]
+    :LOGBOOK:
+    CLOCK: [2020-08-09 Sun 20:08]--[2020-08-09 Sun 20:40] =>  0:32
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -2137,6 +2141,12 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-08 Sat 15:28]--[2020-08-08 Sat 16:45] =>  1:17
     CLOCK: [2020-08-08 Sat 11:50]--[2020-08-08 Sat 13:58] =>  2:08
     :END:
+*** [2020-08-09 Sun]
+    :LOGBOOK:
+    CLOCK: [2020-08-09 Sun 15:42]--[2020-08-09 Sun 16:30] =>  0:48
+    CLOCK: [2020-08-09 Sun 13:09]--[2020-08-09 Sun 13:34] =>  0:25
+    CLOCK: [2020-08-09 Sun 12:09]--[2020-08-09 Sun 13:09] =>  1:00
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2719,7 +2729,20 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  que es una masa que esta, que no se pierde, lo que pasa es que yo
  aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
  enseñar.
-
+** semana [2020-08-09 Sun]                                            :Flask:
+debido a Reddit que atrae mis lecturas en momentos de ocio, me join a
+grupos varios de interes, vim, emacs, tcl, orgmode, y tambien a
+python, y de ahi salto flask y lo vi de nuevo con cariño, como para
+volver a darle una oportunidad. Eso incluye por supuesto meterse con
+python, y meterse con python en gran medida, y dar por cerrado o
+terminado el ciclo con tcl en el proyecto de lo alcanzado, o sea
+considerar que lo alcanzado con tcl es lo maximo que se puede llegar a
+alcanzar. Lo que queda mas alla es la rareza, la profundidad del
+lenguaje que no se como aplicarlo. Pienso que un tema como flask no es
+como para compararse con tcl pq tcl es algo que produce en lo
+inmediato un resultado practico en cambio flask es una entelequia es
+algo muy futuro pero se puede ir viendo un rato por dia para matizar
+cuando uno llegue a aburrirse de lo otro.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

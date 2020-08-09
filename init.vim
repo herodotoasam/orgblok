@@ -120,9 +120,6 @@ autocmd BufWinLeave * call clearmatches()
 
 " Configuracion recomendada por django
 " """"""""""""""""""""""""""""""""""""""
-autocmd FileType python set sw = 4
-autocmd FileType python set ts = 4
-autocmd FileType python set sts = 4
 """"""""""""""""""""""""""""""""""""
 " para you complete me
 let g:ycm_collect_identifiers_from_tags_files = 1 " Let YCM read tags from Ctags file
