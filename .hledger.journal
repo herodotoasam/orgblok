@@ -669,3 +669,47 @@ D $1000.00
 2020/08/08 facturas
     expenses:comida             300
     assets:caja                -300
+
+2020/08/10 pan
+    expenses:comida             200
+    assets:caja                -200
+
+2020/08/10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/10 cami saldo caño
+    expenses:cami:extras            3500
+    assets:caja                    -3500
+
+2020/08/10 cami valija
+    expenses:cami:extras           $1000
+    assets:caja                   $-1000
+
+2020/08/10 cami mesada
+    expenses:cami:mesada            1500
+    assets:caja                    -1500
+
+2020/08/10 ih disfraz
+    expenses:isabel             500
+    assets:caja                -500
+
+2020/08/10 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/08/10 comida
+    expenses:comida            4320
+    assets:caja               -4320
+
+2020/08/10 remedios
+    expenses:gastos medicos:farmacia            4102
+    assets:caja                                -4102
+
+2020/08/10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/10 romi taxi
+    expenses:romi            $250
+    assets:caja             $-250

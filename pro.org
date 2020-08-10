@@ -116,6 +116,10 @@
     :LOGBOOK:
     CLOCK: [2020-08-09 Sun 20:08]--[2020-08-09 Sun 20:40] =>  0:32
     :END:
+*** [2020-08-10 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-10 Mon 10:37]--[2020-08-10 Mon 11:38] =>  1:01
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -2147,6 +2151,12 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-09 Sun 13:09]--[2020-08-09 Sun 13:34] =>  0:25
     CLOCK: [2020-08-09 Sun 12:09]--[2020-08-09 Sun 13:09] =>  1:00
     :END:
+*** [2020-08-10 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-10 Mon 15:45]--[2020-08-10 Mon 17:47] =>  2:02
+    CLOCK: [2020-08-10 Mon 14:25]--[2020-08-10 Mon 15:42] =>  1:17
+    CLOCK: [2020-08-10 Mon 11:48]--[2020-08-10 Mon 13:24] =>  1:36
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2729,7 +2739,7 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  que es una masa que esta, que no se pierde, lo que pasa es que yo
  aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
  enseñar.
-** semana [2020-08-09 Sun]                                            :Flask:
+** semana [2020-08-09 Sun]                                     :Flask:Python:
 debido a Reddit que atrae mis lecturas en momentos de ocio, me join a
 grupos varios de interes, vim, emacs, tcl, orgmode, y tambien a
 python, y de ahi salto flask y lo vi de nuevo con cariño, como para
@@ -2743,6 +2753,53 @@ como para compararse con tcl pq tcl es algo que produce en lo
 inmediato un resultado practico en cambio flask es una entelequia es
 algo muy futuro pero se puede ir viendo un rato por dia para matizar
 cuando uno llegue a aburrirse de lo otro.
+Por primera vez anoto python pq es verdad atrajo mi atencion, no he
+podido dejar de pensar en el desde que lo mencionan como uno de los
+lenguajes mas importantes de la actualidad. Primero pense
+circunscribirlo a flask y luego me pase el domingo a la tarde pensando
+en un python-gui tradicional, que no es otra cosa que tkinter. pq
+pyqt5 tambien analizado es complejo y no presenta grandes motivaciones
+en la visualidad ni en los widgets. Y el principal problema es la
+falta de un widget nativo de table. Hay un par desarrollados en
+python, pero sin la potencia de tablelist y hay que aprenderlos, y
+sobre usar tablelist como lo hacia yo dentro de tkinter no hay nada de
+nada, ni siquiera encuentro la pagina original, por lo cual poco se
+puede hacer o pensar en desarrollar con una base tan intexistente. 
+Y me entretuve un rato pensando y haciendo una especie de tablelist
+propio desde cero usando un grid de labels, pero muy incipiente. Puedo
+llegar a pasar 100 horas jugando con esa idea y no tener ni la mitad
+de lo que haria falta para trabajar decentemente. 
+Todo esto es una muestra de lo debil que son mis posiciones y como
+cuando llego a un punto de que hay que persistir, desgastarse,
+aguantar, aprender, sortear obstaculos, simplemente abandono por otro
+proyecto que parece mas luminoso pero del que no se nada hasta que
+llegamos al mismo nivel que antes y de nuevo la vuelta.
+La verdad es que estoy trabado, pq mientras trabajo en el egorroso
+prospecto de limpiar la compatibilidad de lo que estoy haciendo, mi
+mente vuela por lo que podria hacer con python, pero me equivoco al
+pensar en lo titanico de la labor, pq es empezar todo de cero,
+absolutamente de cero, incluso sin el aporte de tablelist, por no
+considerarse algo apto y factible de ser usado con seguridad. Que
+proponemos usar otro tipo de tablas o seguir con lo delirante de
+hacerse una tabla propia?. 
+Es algo serio el tener una improductividad tal que no podamos terminar
+ningun proyecto. 
+Dandole vuelta al asunto una repuesta que se me ocurre es la
+siguiente: todo este tiempo ha sido dar vueltas y vueltas sobre lo
+mismo, o sea reescribir los mismos programas, con la misma apariencia
+y la misma funcionalidad y eso basicamente me tiene cansado. La ultima
+tanda de los 7 programas lo que ha sido es una "traduccion" primero de
+sqlite a postgres y luego de de pg_tcl a tdbc::postgres pero sin
+mayores innovaciones o chocando con las mismas limitaciones.
+La idea aca es empezar de cero-cero, o sea tanto a desarrollar una
+posible matrix, como a desarrollar unas interfaces nuevas y que sean
+aptas desde el vamos con postgres.
+Esto no demorara indefinidamente el proyecto? O sea un proyecto asi te
+puede llevar meses, y si. Pero seria algo nuevo desde la base, seria
+empezar de nuevo en todos los sentidos. En una mano el manual de
+tkinter que lo agarrare en un toque, y en otra python que tambien. y a
+meterle codigo, revisando lo hecho en el pasado tambien puede ser pero
+todo codificado desde cero.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3312,8 +3369,13 @@ momentos que son necesarios. Eso permite mayor control y mejor debug.
     consulta raw a postgres crea tabla y de alli paso a sqlite en
     memoria no necesito que sea en postgres. esta a la mitad.
 *** TODO fichas.tcl
-**** TODO tranform a tdbc y limpieza espacios vacios
-**** TODO bug: no se muestran cobradores
+**** DONE tranform a tdbc y limpieza espacios vacios
+**** TODO bug: no se imprimen fichas
+     hay problemas en todo el proceso que puede haberse modificado al
+     borrar inadvertidamente algunas lineas o signos por la puta
+     limpieza de espacios en blanco
+**** DONE bug: no se muestran cobradores
+     era nada mas la tabla que figuraba como cobrs.
 *** TODO stock.tcl
 *** plataforma de pedidos
 tomar como base lo que tenemos en jornales
