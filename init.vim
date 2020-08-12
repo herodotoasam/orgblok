@@ -1,5 +1,3 @@
-set lines=50 columns=160
-:cd /home/hero/postcl
 
 "commenting a line
 nnoremap s I#<Esc>j

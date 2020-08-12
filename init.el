@@ -255,6 +255,7 @@
     ("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" default)))
  '(fci-rule-color "#37474f")
  '(hl-sexp-background-color "#1c1f26")
+ '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

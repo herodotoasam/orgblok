@@ -713,3 +713,7 @@ D $1000.00
 2020/08/10 romi taxi
     expenses:romi            $250
     assets:caja             $-250
+
+2020/08/11 comida cami
+    expenses:cami:comida            2000
+    assets:caja                    -2000

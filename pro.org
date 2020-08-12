@@ -1,17 +1,17 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-08 Sat 16:45]
-| Headline          | Time        |          |
-|-------------------+-------------+----------|
-| *Total time*      | *21d 14:28* |          |
-|-------------------+-------------+----------|
-| Agenda Romitex    | 1d 8:09     |          |
-| \_  Julio 2020    |             | 1d 0:29  |
-| \_  Agosto 2020   |             | 7:40     |
-| Agenda de estudio | 20d 6:19    |          |
-| \_  2020-Mayo     |             | 6d 14:04 |
-| \_  2020-Junio    |             | 5d 18:54 |
-| \_  2020-Julio    |             | 6d 17:06 |
-| \_  2020-Agosto   |             | 1d 4:15  |
+#+CAPTION: Clock summary at [2020-08-12 Wed 11:00]
+| Headline          | Time       |          |
+|-------------------+------------+----------|
+| *Total time*      | *22d 8:11* |          |
+|-------------------+------------+----------|
+| Agenda Romitex    | 1d 12:21   |          |
+| \_  Julio 2020    |            | 1d 0:29  |
+| \_  Agosto 2020   |            | 11:52    |
+| Agenda de estudio | 20d 19:50  |          |
+| \_  2020-Mayo     |            | 6d 14:04 |
+| \_  2020-Junio    |            | 5d 18:54 |
+| \_  2020-Julio    |            | 6d 17:06 |
+| \_  2020-Agosto   |            | 1d 17:46 |
 #+END:
 :scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
@@ -119,6 +119,15 @@
 *** [2020-08-10 Mon]
     :LOGBOOK:
     CLOCK: [2020-08-10 Mon 10:37]--[2020-08-10 Mon 11:38] =>  1:01
+    :END:
+*** [2020-08-11 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-08-11 Tue 17:48]--[2020-08-11 Tue 18:44] =>  0:56
+    :END:
+*** [2020-08-12 Wed]
+      :LOGBOOK:
+      CLOCK: [2020-08-12 Wed 17:46]--[2020-08-12 Wed 19:55] =>  2:09
+    CLOCK: [2020-08-12 Wed 12:21]--[2020-08-12 Wed 14:50] =>  2:29
     :END:
 
 * Agenda de estudio
@@ -2157,6 +2166,21 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     CLOCK: [2020-08-10 Mon 14:25]--[2020-08-10 Mon 15:42] =>  1:17
     CLOCK: [2020-08-10 Mon 11:48]--[2020-08-10 Mon 13:24] =>  1:36
     :END:
+*** [2020-08-11 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-08-11 Tue 15:52]--[2020-08-11 Tue 16:57] =>  1:05
+    CLOCK: [2020-08-11 Tue 14:45]--[2020-08-11 Tue 15:45] =>  1:00
+    CLOCK: [2020-08-11 Tue 12:29]--[2020-08-11 Tue 13:38] =>  1:09
+    CLOCK: [2020-08-11 Tue 10:08]--[2020-08-11 Tue 12:00] =>  1:52
+    :END:
+Hoy fue el dia de la prueba fallida de python. LLevo cuatro horas
+probar python-tkinter y al final despues de tener un prototipo mas o
+menos viable probarlo en windows y ver que no anda y tener que
+desistir definitivamente.
+*** [2020-08-12 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-08-12 Wed 11:00]--[2020-08-12 Wed 12:21] =>  1:21
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2739,7 +2763,7 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  que es una masa que esta, que no se pierde, lo que pasa es que yo
  aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
  enseñar.
-** semana [2020-08-09 Sun]                                     :Flask:Python:
+** semana [2020-08-09 Sun]                                 :Flask:Python:TCL:
 debido a Reddit que atrae mis lecturas en momentos de ocio, me join a
 grupos varios de interes, vim, emacs, tcl, orgmode, y tambien a
 python, y de ahi salto flask y lo vi de nuevo con cariño, como para
@@ -2800,6 +2824,45 @@ empezar de nuevo en todos los sentidos. En una mano el manual de
 tkinter que lo agarrare en un toque, y en otra python que tambien. y a
 meterle codigo, revisando lo hecho en el pasado tambien puede ser pero
 todo codificado desde cero.
+Despues de dos horas de ponerme con tkinter desde cero observo que no
+solo dependemos de tablelist en forma total, sino que tambien
+dependemos de bwidget, para el tema oscuro, lo cual es muy freaky, pq
+en cierta forma obliga a incorporar dentro de los propios programas
+los dos wraper que ya no existen directamente en internet, lo cual es
+muy riesgoso. Y aunque echas a andar un esqueleto de notebook, te
+paras frente a 5000 lineas de codigo, para algo que ni siquiera estaba
+optimizado, mas 2300 del lib, son 7300, o sea algo que realmente
+pesa. 
+Me parece que aunque este desencantado con la marcha del proyecto tcl
+o trabado en algunas partes tendre que continuar en el.
+Repensando pense que si podia tener una maqueta o sea un provisorio
+andando y probar si anda en windows, y testear, que problematicidad
+hay con la instalacion y el funcionamiento y la visualizacion, eso
+tambien aportaria.
+Luego pienso que a paso firme unas doscientas lineas de codigo por dia
+puedo entregar, serian 35 dias de codificacion para tener las 7000
+lineas, y repensar todo de cero. P.e. recien estaba reanalizando el
+tema de los combos, y toda la parafernalia detras de los combos
+propios, siendo que se puede usar perfectamente el combo-vainilla como
+viene y como habia decidido hacer en el desarrollo web, y asi puede
+haber un millon de cosas mas que quizas haya complicado en demasia y
+en realidad me haya perdido en una mala codificacion.
+Despues de cuatro horas perdidas y luego de una atinada prueba en
+windows, llego a la lapidante conclusion que no se puede seguir
+adelante con el proyecto, pq en windows directamente no anda. Y eso me
+deja solamente con la perspectiva de elegir un framework y seguir un
+desarrollo web, que en este caso seria flask y hacer una pagina web o
+una app web que sirva al proposito nuestro, pero para ello tengo que
+aprender un monton, no basta con saber un poquito. 
+Quizas ya no tenga mas nada que hacer en esto. 
+A partir de [2020-08-12 Wed] enteramente volcado al futuro con flask
+para bien o para mal. Uno empieza a programar en un lenguaje cuando
+empieza a hacer cosas por si mismo, y se sale del libreto por mas que
+las cosas vayan saliendo flojitas. El riesgo es que luego de harto
+renegar se obtengan unos resultados bonitos pero se llegue al famoso
+techo-web, o sea al techo que tuvimos con laravel y rails o sea donde
+no se pueda hacer una aplicacion que nos muestre nada mas complejo pq
+solo podemos mostrar un modelo tabla por vista.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3374,6 +3437,10 @@ momentos que son necesarios. Eso permite mayor control y mejor debug.
      hay problemas en todo el proceso que puede haberse modificado al
      borrar inadvertidamente algunas lineas o signos por la puta
      limpieza de espacios en blanco
+     Parece todo ser un bug mas profundo que tiene que ver con el
+     detalle de venta. Pude poner en marcha el branch pgtcl donde se
+     ven las fichas funcionando bien, y no tienen detalle de
+     articulo.  Por alli estara el problema quizas.
 **** DONE bug: no se muestran cobradores
      era nada mas la tabla que figuraba como cobrs.
 *** TODO stock.tcl
