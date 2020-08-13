@@ -717,3 +717,31 @@ D $1000.00
 2020/08/11 comida cami
     expenses:cami:comida            2000
     assets:caja                    -2000
+
+2020/08/13 comida
+    expenses:comida             520
+    assets:caja                -520
+
+2020/08/13 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
+
+2020/08/13 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/08/13 comida
+    expenses:comida             900
+    assets:caja                -900
+
+2020/08/13 regalos
+    expenses:isabel             900
+    assets:caja                -900
+
+2020/08/13 comida
+    expenses:comida             400
+    assets:caja                -400
+
+2020/08/13 plantas
+    expenses:isabel             300
+    assets:caja                -300
