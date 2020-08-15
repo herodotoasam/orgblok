@@ -134,6 +134,10 @@
     CLOCK: [2020-08-13 Thu 16:00]--[2020-08-13 Thu 16:52] =>  0:52
     CLOCK: [2020-08-13 Thu 11:33]--[2020-08-13 Thu 12:47] =>  1:14
     :END:
+*** [2020-08-14 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-14 Fri 15:02]--[2020-08-14 Fri 17:12] =>  2:10
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -2193,6 +2197,19 @@ desistir definitivamente.
     CLOCK: [2020-08-13 Thu 12:48]--[2020-08-13 Thu 13:20] =>  0:32
     CLOCK: [2020-08-13 Thu 10:18]--[2020-08-13 Thu 11:33] =>  1:15
     :END:
+*** [2020-08-14 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-14 Fri 19:28]--[2020-08-14 Fri 20:28] =>  1:00
+    CLOCK: [2020-08-14 Fri 17:15]--[2020-08-14 Fri 18:28] =>  1:13
+    CLOCK: [2020-08-14 Fri 12:54]--[2020-08-14 Fri 13:10] =>  0:16
+    CLOCK: [2020-08-14 Fri 09:38]--[2020-08-14 Fri 11:29] =>  1:51
+    :END:
+*** [2020-08-15 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-08-15 Sat 14:40]--[2020-08-15 Sat 17:08] =>  2:28
+    CLOCK: [2020-08-15 Sat 11:57]--[2020-08-15 Sat 13:20] =>  1:23
+    :END:
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -2369,7 +2386,7 @@ practica para pasar a otro nivel en la programacion de tcl y no
 quedarse en lo ya sabido. Creo que di en la tecla donde hay una franja
 de tcl para explorar y capacitar.
 ** El freakismo tcl                                                     :TCL:
-cada vez que mas me meto en el mundo tcl veo que es facil convertirse
+  cada vez que mas me meto en el mundo tcl veo que es facil convertirse
 en freaky. Creo que tengo que tener a mano el paper de activetcl que
 habla de pq hoy 2020 es una opcion valida trabajar con tcl. Es un
 programa que se usa bastante pero en forma quiet o sea callada. por
@@ -2895,6 +2912,31 @@ de seguir. Con esto como base pienso mañana ir por una aplicacion de
 busqueda de datos simple que tome el dni y entregue datos del cliente,
 saldo, cuotas, etc. Lo que podria ser el embrion para una aplicacion
 de celular que funcionara desde heroku por ejemplo. 
+[2020-08-14 Fri] hoy fue otro dia historico en la historia del
+desarrollo web pq logre atravesar la barrera de los datos multiples,
+con una sencillez pasmosa que lo transforma casi en una aplicacion de
+escritorio, obviamente que queda mucho por aprender, pero lo
+importante que se puede hacer lo que yo quiero hacer, sino no sirve de
+nada seguir insistiendo en algo que no comprendo.
+Termino el dia con una pagina de busqueda propia simple que me entrega
+todos los datos del cliente que quiera (en realidad dispongo de todo
+el array), todos los datos de venta (idem dispongo de todos) y las
+cuotas a pagar. Y puedo acomodar todos los datos extra que quiera
+extra. Siendo una aplicacion de no mas de 230 lineas de codigo y eso
+incluye el html que lleva muchas lineas y es muy facil de hacer. 
+Pienso que con una aplicacion bien diseñada de unas 5000 lineas de
+codigo se pueden tener todas las cosas
+[2020-08-15 Sat] La semana se cierra netamente con Flask y python,
+reinando totalmente, pq la aplicacion avanza, y pienso que seguira
+avanzando buscando resquicios donde desarrollarse y funcionar Estos
+ultimos tres dias fueron avances gigantes los que se lograron, que
+dieron vuelta todo. Incluso como yapa tambien desde el plano visual
+con el boostwatch que funciona en forma tan acabada, pienso que obtuve
+de una una funcionalidad estetica sin tanto reniegue como en el
+pasado. Y poder dedicarme a lo que tengo que dedicarme que es la
+funcionalidad del programa. La semana que viene pienso dedicarme de
+lleno a fpdf. para entrar en una ficha para entregar en celu y en la
+misma aplicacion, como ya tengo la base hecha.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3508,3 +3550,44 @@ cur.fetchone(), cur.fetchall().
 y las cadenas de sel, las escribo maravillosamente con f"select id
 from clientes where id={id}" 
 es simple y directa
+** psycopg2.extras -->Dicts
+permite trabajar con dicts lo cual es muchisimo mas comodo pq
+directamente lideamos con los nombres de columna como dict, o sea
+clientes['nombre'] y no clientes[3] lo cual hace muchisimo menos
+proclive a error. Y no es complicado pq lo hace el conector simplemente.
+** Mecanismo de paso de variables  
+   se pueden pasar por medio del render_template las variables que
+   queramos, por lo cual van todos los dicts o tuplas/dicts necesarios
+   para mostrar el estado del cliente,
+   p.e. cliente,ventas,cuotas,pagos, etc. todo en compactas diez
+   lineas, o menos de codigo simple. Lo que queda es el armado de la
+   interfaz en html con los datos a disposicion en forma de dict, o
+   sea muy comodamente linkables. o de tuplas/dict para hacer
+   forloop. 
+** Boostrap varios
+*** table-sm
+adecuado para listados pequeños como cuotas
+*** badges 
+rapidisimos y versatiles para mostrar titulos de tablas p.e.
+*** agrupamiento de campos
+** Html-Css
+*** mecanismo de poner dos tablas lado a lado
+style=" width:300px; float:left;" y ponerlas entre un div a ambas
+funciona bien pero me deja descuadrado los badget.
+El otro metodo que se podria hacer pero no me funciono es poner
+display: inline-block.
+Pero el mejor metodo fue:
+poner las tablas en div separados, y poner el float en el div, e
+incluso en el primer div o el izq se puede poner un margen right, y
+eso separa las tablas, y dentro de los div podemos poner los badget y
+podemos poner los width dentro de las tablas. Exquisito.
+#+BEGIN_EXAMPLE
+<div style="float: left;margin-right:30px">
+<span class="badge badge-info">Cuotas a Pagar</span>
+
+<table class="table table-sm table-hover" style="width: 300px;">
+#+END_EXAMPLE
+** Mecanismo de edicion con un boton atado a una ruta <a ref
+con ruta edit y ruta update, en la ruta update rehago la pagina, ese
+es el problema que tengo que repetir codigo, pero por ahora no conozco
+otra forma de hacerlo.

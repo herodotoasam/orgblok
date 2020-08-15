@@ -745,3 +745,15 @@ D $1000.00
 2020/08/13 plantas
     expenses:isabel             300
     assets:caja                -300
+
+2020/08/14 lomito
+    expenses:comida             750
+    assets:caja                -750
+
+2020/08/15 limpieza
+    expenses:comida:limpieza             200
+    assets:caja                         -200
+
+2020/08/15 comida gatos
+    expenses:comida:gatos             680
+    assets:caja                      -680
