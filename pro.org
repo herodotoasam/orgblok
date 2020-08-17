@@ -2217,6 +2217,11 @@ desistir definitivamente.
     :LOGBOOK:
     CLOCK: [2020-08-16 Sun 19:05]--[2020-08-16 Sun 20:58] =>  1:53
     :END:
+*** [2020-08-17 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-17 Mon 12:33]--[2020-08-17 Mon 13:16] =>  0:43
+    CLOCK: [2020-08-17 Mon 11:08]--[2020-08-17 Mon 12:23] =>  1:15
+    :END:
 
 * Anotaciones
 ** Objetivos

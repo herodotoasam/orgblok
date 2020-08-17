@@ -785,3 +785,15 @@ D $1000.00
 2020/08/16 cami
     expenses:cami:extras             600
     assets:caja                     -600
+
+2020/08/17 isabel mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/08/17 prestamo isabel
+    assets:deudas ih            3600
+    assets:caja                -3600
+
+2020/08/17 pan
+    expenses:comida             150
+    assets:caja                -150
