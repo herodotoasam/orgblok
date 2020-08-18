@@ -797,3 +797,11 @@ D $1000.00
 2020/08/17 pan
     expenses:comida             150
     assets:caja                -150
+
+2020/08/17 isabel
+    expenses:isabel             500
+    assets:caja                -500
+
+2020/08/18 pan
+    expenses:comida             120
+    assets:caja                -120

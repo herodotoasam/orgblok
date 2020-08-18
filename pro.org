@@ -143,6 +143,11 @@
     CLOCK: [2020-08-16 Sun 18:13]--[2020-08-16 Sun 19:01] =>  0:48
     CLOCK: [2020-08-15 Sat 19:30]--[2020-08-15 Sat 21:32] =>  2:02
     :END:
+*** [2020-08-18 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-08-18 Tue 16:39]--[2020-08-18 Tue 17:24] =>  0:45
+    :END:
+
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -2219,8 +2224,14 @@ desistir definitivamente.
     :END:
 *** [2020-08-17 Mon]
     :LOGBOOK:
+    CLOCK: [2020-08-17 Mon 16:22]--[2020-08-17 Mon 18:47] =>  2:25
     CLOCK: [2020-08-17 Mon 12:33]--[2020-08-17 Mon 13:16] =>  0:43
     CLOCK: [2020-08-17 Mon 11:08]--[2020-08-17 Mon 12:23] =>  1:15
+    :END:
+*** [2020-08-18 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-08-18 Tue 15:33]--[2020-08-18 Tue 16:33] =>  1:00
+    CLOCK: [2020-08-18 Tue 11:30]--[2020-08-18 Tue 15:30] =>  4:00
     :END:
 
 * Anotaciones
@@ -2967,6 +2978,24 @@ coleccion de todos los sistemas que me de el cuero tener y practicar y
 conocer, y ver las compatibilidades. Incluso tengo a windows
 virtualizado. En otras palabras boxes es un ahorra-tiempo, para no
 tener que cambiar de sistema.
+[2020-08-17 Mon] aunque no estoy muy muy motivado, veo que avanza
+bien, y que el codigo es mas simple y limpio que en tcl. p.e. plan de
+pagos es enormemente mas simple y en realidad hace lo mismo, o sea
+hace que la cuenta tenga un plan de pagos. Visualmente es impecable y
+es increible que tengamos eso a nivel themes o sea que podamos tener
+tantos themes como queramos solo cambiando un archivo. 
+[2020-08-18 Tue] anoche empece un curso en yt de learning machine muy
+bueno, pienso seguirlo y unos dos o tres series de cursos python
+intermediate-resolucion de problemas muy interesantes por si mismos
+para el dia a dia. la idea es llegar a un nivel de profesionalismo en
+python como no llegue con los otros lenguajes, y ya me esta
+facilitando la concrecion en flask de lo que voy necesitando casi sin
+apelar a otra cosa. Lo bueno de py es la enorme base de conocimiento a
+disposicion incluso en español, hay para aprender al nivel que
+queramos-necesitemos.
+Lo que me llama la atencion en esta etapa de python es lo compacto que
+es, se escribe codigo en forma muchismo mas compacta y rapida y
+simple y elegante. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3621,3 +3650,8 @@ podemos poner los width dentro de las tablas. Exquisito.
 con ruta edit y ruta update, en la ruta update rehago la pagina, ese
 es el problema que tengo que repetir codigo, pero por ahora no conozco
 otra forma de hacerlo.
+** Mecanismo de redirect(url_for('ruta',param=param))
+permitio que no repitiera codigo y pudiera con una sola ruta rearmar
+el estado del cliente pudiendo hacer con otros botones cualquier
+accion total siempre volvemos a la redireccion original y ver el
+estado del cliente como tal.
