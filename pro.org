@@ -1,17 +1,17 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-12 Wed 11:00]
+#+CAPTION: Clock summary at [2020-08-19 Wed 16:03]
 | Headline          | Time       |          |
 |-------------------+------------+----------|
-| *Total time*      | *22d 8:11* |          |
+| *Total time*      | *24d 4:33* |          |
 |-------------------+------------+----------|
-| Agenda Romitex    | 1d 12:21   |          |
+| Agenda Romitex    | 2d 1:40    |          |
 | \_  Julio 2020    |            | 1d 0:29  |
-| \_  Agosto 2020   |            | 11:52    |
-| Agenda de estudio | 20d 19:50  |          |
+| \_  Agosto 2020   |            | 1d 1:11  |
+| Agenda de estudio | 22d 2:53   |          |
 | \_  2020-Mayo     |            | 6d 14:04 |
 | \_  2020-Junio    |            | 5d 18:54 |
 | \_  2020-Julio    |            | 6d 17:06 |
-| \_  2020-Agosto   |            | 1d 17:46 |
+| \_  2020-Agosto   |            | 3d 0:49  |
 #+END:
 :scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
@@ -145,7 +145,29 @@
     :END:
 *** [2020-08-18 Tue]
     :LOGBOOK:
+    CLOCK: [2020-08-18 Tue 19:13]--[2020-08-18 Tue 20:03] =>  0:50
     CLOCK: [2020-08-18 Tue 16:39]--[2020-08-18 Tue 17:24] =>  0:45
+    :END:
+*** [2020-08-19 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-08-19 Wed 18:06]--[2020-08-19 Wed 19:45] =>  1:39
+    :END:
+*** [2020-08-20 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-08-20 Thu 17:48]--[2020-08-20 Thu 19:50] =>  2:02
+    :END:
+*** [2020-08-21 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-21 Fri 14:36]--[2020-08-21 Fri 15:13] =>  0:37
+    CLOCK: [2020-08-21 Fri 12:41]--[2020-08-21 Fri 13:19] =>  0:38
+    :END:
+*** [2020-08-22 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-08-22 Sat 14:30]--[2020-08-22 Sat 15:11] =>  0:41
+    :END:
+*** [2020-08-23 Sun]
+    :LOGBOOK:
+    CLOCK: [2020-08-23 Sun 17:04]--[2020-08-23 Sun 19:25] =>  2:21
     :END:
 
 * Agenda de estudio
@@ -2233,6 +2255,21 @@ desistir definitivamente.
     CLOCK: [2020-08-18 Tue 15:33]--[2020-08-18 Tue 16:33] =>  1:00
     CLOCK: [2020-08-18 Tue 11:30]--[2020-08-18 Tue 15:30] =>  4:00
     :END:
+*** [2020-08-19 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-08-19 Wed 13:43]--[2020-08-19 Wed 15:53] =>  2:10
+    CLOCK: [2020-08-19 Wed 11:15]--[2020-08-19 Wed 13:06] =>  1:51
+    :END:
+*** [2020-08-20 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-08-20 Thu 15:05]--[2020-08-20 Thu 16:01] =>  0:56
+    CLOCK: [2020-08-20 Thu 11:14]--[2020-08-20 Thu 13:32] =>  2:18
+    :END:
+*** [2020-08-21 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-08-21 Fri 15:45]--[2020-08-21 Fri 16:16] =>  0:31
+    CLOCK: [2020-08-21 Fri 11:17]--[2020-08-21 Fri 12:10] =>  0:53
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -2961,7 +2998,7 @@ pasado. Y poder dedicarme a lo que tengo que dedicarme que es la
 funcionalidad del programa. La semana que viene pienso dedicarme de
 lleno a fpdf. para entrar en una ficha para entregar en celu y en la
 misma aplicacion, como ya tengo la base hecha.
-** semana [2020-08-16 Sun]                     :python:Flask:LearningMachine:
+** semana [2020-08-16 Sun]          :python:Flask:LearningMachine:JavaScript:
 la semana despues del empuje de la semana pasada empieza con un gran
 entusiamo para codificar y aprender python. Anoche pensaba que tendria
 o quisiera poder dedicarle 50horas por semana, 8hs por dia de semana
@@ -2996,6 +3033,34 @@ queramos-necesitemos.
 Lo que me llama la atencion en esta etapa de python es lo compacto que
 es, se escribe codigo en forma muchismo mas compacta y rapida y
 simple y elegante. 
+[2020-08-19 Wed] Sigo avanzando con una plasticidad muy importante, ya
+casi termine el buscador y pase al pasador de pagos y todo muy
+bueno. Hoy me parecia que es como cortar nudos gordianos
+continuamente, cosas que en otro momento eran o parecian complejas se
+hacen sencillas.
+Se que no estoy probando frente al servidor real de heroku y no se
+como ira la demora con tantas consultas que le estoy metiendo si
+tuviera que reaccionar con la nube, pero hasta ahora andamos bien, con
+python hermoso. Y el aprendizaje muy enganchado en las series de
+videos que te permiten avanzar en temas que no necesitas en lo
+inmediato pero van ampliando el horizonte.
+[2020-08-20 Thu] bien, seguimos hasta ahora bien, sin problemas
+mayores, incluso con efectos secundarios como que si todos los campos
+son required se hace un traversed por enter de facto con una banderita
+de indicacion al campo presente. Pero nada, hoy descubri un curso
+gigante de js de 137 capitulos que creo que podria venir bien para
+luego de tener un backend bien solido que funcione bien, meterle
+funcionalidad con javascript. Por ahora no pq logramos hacerlo
+funcionar de esta forma no se si los delays de la base remota me
+mataran. Lo mismo es increible lo que logramos en solo una semana, pq
+el cambio se dio el dia 13 y hoy es 20, y estoy programando suave, de
+dos a tres horas por dia no mas. 
+[2020-08-21 Fri] desde ayer encontre un curso fabuloso de javascript
+que da gusto seguirlo, son 135 capitulos y creo que aprendere a fondo
+alli. Y no viene mal saber js. html-css-js hay que saberlo como base. 
+Con respecto a flask no resulta dificil hacer las cosas, al menos
+hasta donde se puede con el framework pero estoy desganado y no puedo
+avanzar mas alla de algunas pocas cosas.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3655,3 +3720,14 @@ permitio que no repitiera codigo y pudiera con una sola ruta rearmar
 el estado del cliente pudiendo hacer con otros botones cualquier
 accion total siempre volvemos a la redireccion original y ver el
 estado del cliente como tal.
+** Mecanismo de send_file(pdf)
+luego de generar la ficha o intimacion return send_file('file.pdf')
+y voile lo tenemos en el navegador listo para ser usado, impreso en el
+escritorio, compartido en el movil.
+* Flask-desarrollo
+** pagos
+*** TODO hacer los triggers
+*** TODO hacer las validaciones para no apretar enter y guardar antes de tiempo
+por el momento uso las de html5, y en el futuro usare las de js, pq no
+voy a usar las de flask para mantenerlo simple. y en lenguaje normal
+html. 

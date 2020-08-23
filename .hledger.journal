@@ -614,7 +614,7 @@ D $1000.00
     assets:caja                       -70
 
 2020/08/07 ih carla
-    expenses:ih             700
+    expenses:isabel             700
     assets:caja            -700
 
 2020/08/07 saco reserva
@@ -805,3 +805,87 @@ D $1000.00
 2020/08/18 pan
     expenses:comida             120
     assets:caja                -120
+
+2020/08/19 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/08/19 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/19 comida cami
+    expenses:cami:comida            2200
+    assets:caja                    -2200
+
+2020/08/20 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2020/08/20 farmacia
+    expenses:gastos medicos:farmacia             350
+    assets:caja                                 -350
+
+2020/08/20 ayuda
+    expenses:comida:ayuda             $60
+    assets:caja                      $-60
+
+2020/08/20 ospe
+    expenses:servicios:OSPE          $22879
+    assets:caja                     $-22879
+
+2020/08/20 ecogas 03/2020 con vto 03/08/2020
+    expenses:servicios:ecogas         3975.73
+    assets:caja                      -3975.73
+
+2020/08/20 claro
+    expenses:servicios:claro        $3041.60
+    assets:caja                    $-3041.60
+
+2020/08/20 mun auto 2020/4-5-6
+    expenses:impuestos:bora         1635.09
+    assets:caja                    -1635.09
+
+2020/08/20 impuestos casa 2020-6 al 12
+    expenses:impuestos:casa:municipal         3663.88
+    assets:caja                              -3663.88
+
+2020/08/20 dgr casa 2020/06-07
+    expenses:impuestos:casa:dgr          2296.2
+    assets:caja                         -2296.2
+
+2020/08/20 saco reserva
+    assets:caja             40000
+    assets:reserva         -40000
+
+2020/08/20 sandwich
+    expenses:comida             470
+    assets:caja                -470
+
+2020/08/21 prestamo isabel
+    assets:deudas ih            2000
+    assets:caja                -2000
+
+2020/08/21 zapas cami
+    expenses:cami:extras            3500
+    assets:caja                    -3500
+
+2020/08/21 ih
+    expenses:isabel             100
+    assets:caja                -100
+
+2020/08/23 facturas
+    expenses:comida            $300
+    assets:caja               $-300
+
+2020/08/23 prestamo romi
+    assets:deudas romi            6000
+    assets:caja                  -6000
+
+2020/08/23 pan
+    expenses:comida             500
+    assets:caja                -500
+
+2020/08/23 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
