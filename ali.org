@@ -4348,4 +4348,73 @@ noche.
 La preocupacion por el tema del vecino sigue igual, pq no encuentro la
 forma por ahora de ir y hablar el tema. Pienso que lo mejor seria ir,
 presentarse, y exponer lo que sabemos y ponerse a disposicion.
+** [2020-08-24 Mon]
+*** cambiar habito alimenticio
+ esta mañana pensaba seriamente en que tendria que cambiar el sistema
+ alimentario para el bien de mi salud, todavia estoy a tiempo creo
+ antes de que el problema sea insolucionable o solucionable unicamente
+ con intervenciones mas drasticas. Creo que esta falta de voluntad
+ total que padezco aca dentro tambien puede ser debida al alto consumo
+ de pan. O mas bien quizas se deba a que tengo otras alternativas a
+ mano.
+ Si pensamos en la fuerza de voluntad hoy cumpli 193 dias continuados
+ de las 3 series, habiendo atravesado casi todo el invierno, y solo en
+ el dpto me resultaba dificultoso mantener un habito de ese tipo,
+ tambien esta el habito de tender la cama todos los dias a la mañana
+ que lo vengo haciendo desde hace unos 5 meses, sin faltar ni un solo
+ dia. 
+ Se podria decir que ambos habitos estan facilitados pq no trabajo
+ formalmente como antes, pero en ese caso tambien un habito como el
+ mijo o el licuado tambien se tendria que ver facilitado. 
 
+ De ultima podriamos imponer un habito inicial de licuado pero
+ reemplazando avena con mijo, o sea un A15m: 15almendras, pasas de uva,
+ chia, girasol, mijo, manzana o pera. 
+
+ Hacer ese licuado seria mas facil de implementar y mantener que el
+ mijo/leche de avena y envuelve mas elementos. 
+
+ Ya con ese habito implementado y la refijacion del habito agua, y la
+ sacada del habito cafe podemos corregir un poco la acidez. 
+ Tengamos en cuenta que el cafe mas que un habito es una necesidad y
+ lo es por la falta de energia, por ello pienso que un licuado diario
+ con aporte de semillas, de almendra, chia, pasas de uva, mijo diario
+ y una fruta, va a hacer maravillas, que combinado con el habito de
+ los ejercicios va a andar bien.
+*** alternativas postpandemia para el negocio
+**** seguir igual que ahora
+**** volver igual que antes
+la primera pregunta siempre va a ser para que?. Ya nomas tenemos la
+pregunta sobre el para que estuvimos en el 2019 en esa oficina, el
+gastadero de plata que hicimos al pedo, siendo que en el dpto jujuy
+podriamos haber estado joya. Pero no. Que lindos tiempos aquellos. A
+pesar de que sufria un poco por el dolor de cabeza y me sentia
+miserable, pero cuando no me he sentido miserable. Pero mas alla de
+las situaciones que planteaba el no tener dpto propio era positivo y
+podria haber sido positivo, fue todo error mio. El Fede me siguio, yo
+lo entusiasme con la idea, pero podriamos haber seguido lo mas bien en
+el dpto. Lo que nos paso fue que tuvimos un muy buen enero, y nos
+olvidamos que los eneros son buenos mayormente, y no hay que engañarse
+con ello proyectando lo que puede ser el año,(al menos enero 2020
+tambien lo fue y mucho), y pensamos que nos ibamos para arriba, pero
+no, en poco tiempo todo se iba a ir trabando y el año iba a terminar
+bastante modesto, bastante normal, para terminar asi hubieramos
+seguido en el dpto. Y el 2020 que ya veniamos en decadencia total, nos
+agarro la pandemia. La pandemia vino a borrar o a hacer olvidar lo que
+estaba mal de antes, que era que no habia resultado. Parte por el
+sistema mismo parte por la situacion economica del pais pienso. 
+**** intentar un nuevo esquema (esquema de calle)
+**** esquema vta aumentada por tecnologia
+mejorar el manejo de la base de datos, lograr segmentar los clientes,
+manejar en forma diferencial el nivel de venta.
+Mas alla de eso dependemos de un repunte de la actividad economica,
+pero manejarse sin gastos fijos es una ventaja
+**** analizar cual es el verdadero negocio
+es la venta de clientes, y la cartera de clientes es lo mas importante
+que tenemos en estos momentos. Ya sea vendiendo a traves de un
+vendedor como Fabian, o saliendo el Fede, o saliendo yo, la base son
+los clientes. No veo un sistema facil de venta fuera de eso. No es que
+no haya sistema no hay sistema facil. 
+Formar un grupo de calle tipo cuatro chicos y salir, es muy
+complicado, y hacer un sistema desde oficina como hace veinte años
+atras no creo que sea epoca. 

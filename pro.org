@@ -169,6 +169,10 @@
     :LOGBOOK:
     CLOCK: [2020-08-23 Sun 17:04]--[2020-08-23 Sun 19:25] =>  2:21
     :END:
+*** [2020-08-24 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-24 Mon 14:52]--[2020-08-24 Mon 15:25] =>  0:33
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -2270,6 +2274,13 @@ desistir definitivamente.
     CLOCK: [2020-08-21 Fri 15:45]--[2020-08-21 Fri 16:16] =>  0:31
     CLOCK: [2020-08-21 Fri 11:17]--[2020-08-21 Fri 12:10] =>  0:53
     :END:
+*** [2020-08-24 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-08-24 Mon 14:02]--[2020-08-24 Mon 14:52] =>  0:50
+    CLOCK: [2020-08-24 Mon 13:55]--[2020-08-24 Mon 14:02] =>  0:07
+    CLOCK: [2020-08-24 Mon 13:37]--[2020-08-24 Mon 13:45] =>  0:08
+    CLOCK: [2020-08-24 Mon 11:40]--[2020-08-24 Mon 13:05] =>  1:25
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -3061,6 +3072,9 @@ alli. Y no viene mal saber js. html-css-js hay que saberlo como base.
 Con respecto a flask no resulta dificil hacer las cosas, al menos
 hasta donde se puede con el framework pero estoy desganado y no puedo
 avanzar mas alla de algunas pocas cosas.
+el finde solo fue ver videos de los cursos que estoy siguiendo(js y
+css) y nada sobre el sistema
+** semana [2020-08-23 Sun]                                   :JavaScript:CSS:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

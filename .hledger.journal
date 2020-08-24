@@ -889,3 +889,23 @@ D $1000.00
 2020/08/23 saco reserva
     assets:caja              10000
     assets:reserva          -10000
+
+2020/08/24 comida
+    expenses:comida            1370
+    assets:caja               -1370
+
+2020/08/24 ladrillos placard
+    expenses:casa:refacciones            1400
+    assets:caja                         -1400
+
+2020/08/24 tarugos
+    expenses:casa:mantenimiento             100
+    assets:caja                            -100
+
+2020/08/24 mesada isabel
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/08/24 dif arqueo
+    expenses:diferencia arqueo           87.01
+    assets:caja                         -87.01
