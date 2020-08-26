@@ -909,3 +909,11 @@ D $1000.00
 2020/08/24 dif arqueo
     expenses:diferencia arqueo           87.01
     assets:caja                         -87.01
+
+2020/08/25 comida camila
+    expenses:cami:comida            2000
+    assets:caja                    -2000
+
+2020/08/25 gimnasio camila
+    expenses:cami:extras             600
+    assets:caja                     -600
