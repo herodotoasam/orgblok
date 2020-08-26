@@ -914,6 +914,22 @@ D $1000.00
     expenses:cami:comida            2000
     assets:caja                    -2000
 
-2020/08/25 gimnasio camila
-    expenses:cami:extras             600
-    assets:caja                     -600
+2020/08/26 comida verdura
+    expenses:comida             896
+    assets:caja                -896
+
+2020/08/26 epec agosto/2020
+    expenses:servicios:epec          3981.7
+    assets:caja                     -3981.7
+
+2020/08/26 aguas 08-09/2020 con vto 15/9 y 15/10
+    expenses:servicios:aguas cordobesas         1531.22
+    assets:caja                                -1531.22
+
+2020/08/26 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/26 ih plantas
+    expenses:isabel             500
+    assets:caja                -500

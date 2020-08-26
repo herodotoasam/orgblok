@@ -4418,3 +4418,55 @@ no haya sistema no hay sistema facil.
 Formar un grupo de calle tipo cuatro chicos y salir, es muy
 complicado, y hacer un sistema desde oficina como hace veinte años
 atras no creo que sea epoca. 
+** [2020-08-26 Wed]
+*** estado de salud y general
+agobiado. me cuesta respirar y moverme. Aunque desperte medianamente
+temprano. Ya el dolor de cabeza diario es bienvenido, es algo conocido
+que da "gusto" tenerlo en el marasmo panicoso del fango
+preocupacional. Y es eso el agobio que me pesa son las preocupaciones,
+pq estoy en la casa y no se van, y porque las preocupaciones mas
+grandes tienen que ver con la casa (hundimiento, vecino, y ahora nuevo
+ayer, humedad en la nueva construccion). Al no cambiar de ubicacion y
+estar siempre aca pienso que se da una situacion de agobio.
+Y se me mezcla con, -a veces- frustracion en el proyecto... Deci que
+desde el dia bisagra 13/8 empece a agarrarle la vuelta a python-flask
+y a producir resultados increibles con poquisimas lineas de codigo,
+totalmente reproducibles y trasladables, y asi mismo en algunos
+momentos ese mismo proyecto se debilita, por procastinacion, por
+vagancia por miedo o por considerar que no vamos a llegar a hacer algo
+que valga la pena en general.
+...Deci tambien que la tarea de Romitex la he atado tambien a la
+escucha de videos que de otro modo no me pondria a escuchar y eso me
+interesa sobremanera, de modo tal que creo una sinergia o sea hacer el
+trabajo sin aburrimiento y quizas con interes.
+Hoy es el segundo dia de licuado, en el cual ingresa almendra, chia,
+girasol, mijo, pasa de uva y manzana a diario lo cual no es poca
+cosa. 
+Creo que el problema son las preocupaciones, debo tener una forma de
+enfrentarme a ellas, asi sea crear una filosofia de no preocuparme por
+nada. 
+*** estado fisico - afeccion preocupacional
+me tome la presion: 12/7.8, pero las pulsaciones eran 95ppm.
+ih me dio un clonazepan sl y me recoste y me puse a leer un capitulo
+de carnagie preocupaciones y me bajaron a 62/65ppm.
+Y ya tomamos accion para encarar un par de cosas, como llamar a los
+que pudieran hacer el trabajo de la cocina y ver la humedad de la
+pared y poner la puerta
+*** puesta en palabras [enumerate] del ciclo preocupativo
+luego de poner en palabras las preocupaciones del momento, ella toma
+la iniciativa felizmente de llamar a todos juntos, luego de una
+evaluacion decidimos llamar al andres, y a tissera, que quedaron en
+venir hoy, y llamamos al carlitos por el porton, o sea atacamos el
+problema de la seguridad arreglando el porton, y abriendo la puerta
+del fondo, y encararemos de frente la refaccion de la cocina y de paso
+pondremos el piso quede como quede, y de paso terminaremos el frente,
+con la tapia y el piso de la cami. A tissera le preguntaremos por el
+calefon, y ahi desarmaremos o concretaremos otra preocupacion sobre la
+humedad y luego la arreglaremos como se debe, y solo quedaria el
+vecino para ir a hablar.
+*** dos dias de licuado
+un habito que tengo que hacer y no creo que sea gravoso rehacer y va
+bien para todos los dias de la semana para incorporar semillas que mi
+dieta no tenia para nada y fruta, aparte del mijo.
+*** capacitacion
+por ahi flaquea, pero seguimos adelante, javascript, css, flask.
