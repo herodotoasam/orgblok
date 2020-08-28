@@ -933,3 +933,7 @@ D $1000.00
 2020/08/26 ih plantas
     expenses:isabel             500
     assets:caja                -500
+
+2020/08/27 gastos pintura dpto
+    expenses:romi            1830
+    assets:caja             -1830
