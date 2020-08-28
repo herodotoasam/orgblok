@@ -188,6 +188,7 @@
     :END:
 *** [2020-08-28 Fri]
     :LOGBOOK:
+    CLOCK: [2020-08-28 vie 18:00]--[2020-08-28 vie 18:58] =>  0:58
     CLOCK: [2020-08-28 Fri 10:51]--[2020-08-28 Fri 11:40] =>  0:49
     :END:
 * Agenda de estudio
@@ -2311,8 +2312,10 @@ desistir definitivamente.
     :END:
 *** [2020-08-27 Thu]
     :LOGBOOK:
+    CLOCK: [2020-08-28 vie 16:30]--[2020-08-28 vie 17:15] =>  0:45
     CLOCK: [2020-08-27 Thu 09:49]--[2020-08-27 Thu 10:43] =>  0:54
     :END:
+
 
 * Anotaciones
 ** Objetivos

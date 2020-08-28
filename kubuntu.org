@@ -51,7 +51,7 @@ alias cj='hl r caja' en .bashrc ambos
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
-tk8.6-dev tcl8.6-dev tcl8.6-tdbc tcl8.6-tdbc-sqlite3
+tk8.6-dev tcl8.6-dev tcl8.6-tdbc tcl8.6-tdbc-sqlite3 libpgtcl
 *** copiar en /usr/share/tcltk
 puede ser instalar telegram-desktop y bajar de alli o mejor aun del
 element, tambien en mega- carpeta bin.
@@ -107,6 +107,14 @@ actualizar el locate (buscar en doc/linux/locate-find) para encontrar
 el archivo
 /usr/share/phpmyadmin/libraries/... y corregirlo
 ** instalar adminer
+*** debian 10
+**** sudo apt install adminer
+**** crear un archivo de conf con vim
+sudo nano /etc/apache2/conf-available/adminer.conf
+solo ponerle esta linea:
+Alias /adminer /usr/share/adminer/adminer
+**** sudo a2enconf adminer
+**** sudo systemctl reload apache2
 *** Nueva forma de instalar para ubuntu 20.04
  [[https://www.cyberciti.biz/faq/how-to-install-adminer-on-ubuntu-20-04-lts/][Instalar Adminer en Ubuntu 20.04 LTS]]
 *** Instalacion para ubuntu 18.04 OJO primero LAMP

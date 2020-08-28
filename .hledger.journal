@@ -937,3 +937,35 @@ D $1000.00
 2020/08/27 gastos pintura dpto
     expenses:romi            1830
     assets:caja             -1830
+
+2020/08/28 cami remi
+    expenses:cami:extras             300
+    assets:caja                     -300
+
+2020/08/28 romi taxi
+    expenses:romi             300
+    assets:caja              -300
+
+2020/08/28 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2020/08/28 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/28 puerta patio
+    expenses:casa:mantenimiento            6500
+    assets:caja                           -6500
+
+2020/08/28 comida
+    expenses:comida            2040
+    assets:caja               -2040
+
+2020/08/28 cemento
+    expenses:casa:refacciones             300
+    assets:caja                          -300
+
+2020/08/28 dif
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
