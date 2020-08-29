@@ -2315,6 +2315,11 @@ desistir definitivamente.
     CLOCK: [2020-08-28 vie 16:30]--[2020-08-28 vie 17:15] =>  0:45
     CLOCK: [2020-08-27 Thu 09:49]--[2020-08-27 Thu 10:43] =>  0:54
     :END:
+*** [2020-08-29 sáb]
+    :LOGBOOK:
+    CLOCK: [2020-08-29 sáb 14:35]--[2020-08-29 sáb 15:09] =>  0:34
+    CLOCK: [2020-08-29 sáb 13:00]--[2020-08-29 sáb 14:10] =>  1:10
+    :END:
 
 
 * Anotaciones
@@ -3126,6 +3131,24 @@ rutas y a las vistas que sean expresivas de lo que hacen para no
 enredar los procesos. Puede que haya procesos recargados pq estoy
 haciendo todo por backend y quizas fuera necesario un guardado de
 datos con ajax. pero en el futuro puedo quizas mejorarla
+[2020-08-28 vie] hoy se dio un cambio fundamental en la dinamica del
+aprendizaje, un poco me harte de la baja calidad de jonmircha en la
+serie de js y releyendo primero W3scholl se me ocurre buscar un tuto
+escrito donde aprender leyendo no con videos pq es muy flojita a veces
+la performance "enseñante" de los videos, y encontre un supertutorial
+que tiene nada mas y nada menos que 20000 stars en github, y lo
+comence a leer, me dije comienzo con eso, y para sorpresa agradable
+por cierto, tambien esta en español!!!!. A pesar de haber recomenzado
+por lo mas basico no me aburri para nada, es mas aprendi un monton de
+cosas que no habia visto con el otro, y otras las entendi mejor y lo
+mejor que tiene ejercicios. Por el momento pienso que vamos
+bien. Muchos videos "estiran" los cursos para parecer enormes y en el
+fondo son puro aire. 
+[2020-08-29 sáb] hoy una mañana de mucha lectura traslade un poco esta
+idea a python tambien, y aunque no consegui mucho material
+contundente, algo hay, y en especial pienso que tengo que dedicarme un
+poco mas a flask, o sea si he logrado lo que he logrado sin casi nada
+de teoria tendria que aprender un poco mas para incorporar mas cosas.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3272,6 +3295,57 @@ Reinstalacion de vuelta nuevamente al 20, con problemas, pq instale
 todo y cuando doy arranque me aparece el grub> en la pantalla, y no
 sabia que hacer, entonces ahi nomas reinstale todo de nuevo y anduvo
 bien hasta ahora.
+* agenda bunsen
+** [2020-08-27 jue] instalacion bunsen helium debian 10
+sobre intel 9na 4mb.
+** fallos
+*** [2020-08-27 jue] cuelgue con fondo de pantalla
+recien instalado el primer durmimiento de pantalla se frizzo y no hubo
+forma de destrabarlo, le presione el boton apagar un poco y genero una
+secuencia de apagado que aparentemente apago bien el sistema y hasta
+ahora no volvio a ocurrir
+*** [2020-08-27 jue] deformacion del font del conky helium
+se borronea y se torna ilegible. Luego lo cambie al conki hidrogen que
+es mas definido y no tuve mas problemas.
+*** [2020-08-28 vie] problema copiando gran archivo y viendo youtube
+estaba pasando 1.6gb de los archivos del padron del disco externo y
+fue rapido pero al final se ralentizo y en eso el youtube entro en un
+loop de repetir las ultimas palabras, yo pense que se habia colgado la
+maquina pq no respondia raton ni teclado, pero duro solo unos segundos
+y termino de copiar y se volvio todo a la normalidad solo.
+** pros encontrados
+*** anda hardware que no me andaba en otras circunstancias
+p.e. el raton logitech hasta ahora , y la placa de sonido de la i3. 
+*** arranca y apaga muy velozmente
+desencripta en 5 segundos creo y apaga en 3 segundos.
+*** los programas tcl andan un poco mas rapido
+*** tiene un mayor ruido de base pero no modifica la ruidosidad
+la otra maquina era mas silenciosa pero tiene eso de que el ventilador
+varia de velocidad esta es constante.
+p.e. con chrome,firefox y visual abierto estoy en 1.7 ram mas 500 de
+swap pero solo 5% de cpu, o sea casi no usa el cpu. con todos los
+programas de romitex abiertos llego a 1.98 ram, pero no pase 9% de
+cpu, ni aun en el F7 o F8/ventas que eran los que me hacian "sonar" el
+otro procesador. Con libreoffice estoy en 2.04ram y 2.25 de swap pero
+quiza la swap sea tan rapida que no se note la diferencia.
+Tendria que probar firefox con youtube, y crome con visualcode al lado
+para ver como va eso. (lo mismo con 2+2 tenes todo funcionando y sin
+el ventilador sonando pq el procesador ni se mosquea, o sea no hay uso
+del cpu para esos procesos). 
+*** autostart de openbox
+para poner el xmodmap alli y toda otra configuracion que se apetezca,
+pero por ahora esa es la mas importante.
+*** atajos de teclado
+tiene una forma de configurarlas muy directa y facil, es un archivo
+plano pero muy directo.
+*** menu/disparo de programas
+aparte del clasico alt-F2, tenes el Alt-F3 mas completo por las dudas,
+y tenes la tecla super, que salta el menu, y alli empezas a escribir,
+sino con boton derecho en cualquier lado. Tiene buenos atajos, como
+todo openbox. 
+** contras encontrados
+*** ruido de base mayor
+pero es algo continuo en cambio el otro molestaba que era variable.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
@@ -3800,6 +3874,10 @@ el filter personalizado es muy comodo y simple de usar, muy consiso y
 permite el uso de funciones personalizadas python que pueden hacer
 casi todo lo que uno quiera, y uno las puede ir cambiando a medida que
 aprende mas. 
+** WTForms/validators
+ya implemente el formulario a traves de wtforms para tener
+validaciones del lado del servidor y una mayor compacidad al escribir
+los formularios. No es dificultoso para nada. 
 * Flask-desarrollo
 ** pagos
 *** TODO hacer los triggers
