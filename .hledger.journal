@@ -969,3 +969,75 @@ D $1000.00
 2020/08/28 dif
     expenses:diferencia arqueo             100
     assets:caja                           -100
+
+2020/08/29 comida
+    expenses:comida            2250
+    assets:caja               -2250
+
+2020/08/29 comida gatos
+    expenses:comida:gatos             750
+    assets:caja                      -750
+
+2020/08/29 sandwich
+    expenses:comida             770
+    assets:caja                -770
+
+2020/08/31 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/08/31 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/08/31 planta
+    expenses:personal            $300
+    assets:caja                 $-300
+
+2020/08/31 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/08/31 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/08/31 mesada cami
+    expenses:cami:mesada           $1500
+    assets:caja                   $-1500
+
+2020/08/31 comida cami
+    expenses:cami:comida            2000
+    assets:caja                    -2000
+
+2020/09/01 cami mesada 25/08
+    expenses:cami:mesada           $1500
+    assets:caja                   $-1500
+
+2020/09/01 cami desayuno
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2020/09/01 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2020/09/01 m.o. puerta patio
+    expenses:casa:mantenimiento            2500
+    assets:caja                           -2500
+
+2020/09/01 farmacia
+    expenses:gastos medicos:farmacia             830
+    assets:caja                                 -830
+
+2020/09/01 plantas
+    expenses:isabel             340
+    assets:caja                -340
+
+2020/09/01 garbarino
+    expenses:isabel            1600
+    assets:caja               -1600
+
+2020/09/01 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000

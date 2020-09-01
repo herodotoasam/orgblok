@@ -1,17 +1,19 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-08-25 Tue 16:44]
-| Headline          | Time       |          |
-|-------------------+------------+----------|
-| *Total time*      | *25d 1:20* |          |
-|-------------------+------------+----------|
-| Agenda Romitex    | 2d 11:00   |          |
-| \_  Julio 2020    |            | 1d 0:29  |
-| \_  Agosto 2020   |            | 1d 10:31 |
-| Agenda de estudio | 22d 14:20  |          |
-| \_  2020-Mayo     |            | 6d 14:04 |
-| \_  2020-Junio    |            | 5d 18:54 |
-| \_  2020-Julio    |            | 6d 17:06 |
-| \_  2020-Agosto   |            | 3d 12:16 |
+#+CAPTION: Clock summary at [2020-09-01 mar 20:21]
+| Headline           | Time       |          |
+|--------------------+------------+----------|
+| *Total time*       | *26d 5:54* |          |
+|--------------------+------------+----------|
+| Agenda Romitex     | 2d 20:45   |          |
+| \_  Julio 2020     |            | 1d 0:29  |
+| \_  Agosto 2020    |            | 1d 19:00 |
+| \_  Setiembre 2020 |            | 1:16     |
+| Agenda de estudio  | 23d 9:09   |          |
+| \_  2020-Mayo      |            | 6d 14:04 |
+| \_  2020-Junio     |            | 5d 18:54 |
+| \_  2020-Julio     |            | 6d 17:06 |
+| \_  2020-Agosto    |            | 4d 0:35  |
+| \_  2020-Setiembre |            | 6:30     |
 #+END:
 :scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
@@ -191,6 +193,24 @@
     CLOCK: [2020-08-28 vie 18:00]--[2020-08-28 vie 18:58] =>  0:58
     CLOCK: [2020-08-28 Fri 10:51]--[2020-08-28 Fri 11:40] =>  0:49
     :END:
+*** [2020-08-29 sáb]
+    :LOGBOOK:
+    CLOCK: [2020-08-29 sáb 20:09]--[2020-08-29 sáb 21:16] =>  1:07
+    :END:
+*** [2020-08-30 dom]
+    :LOGBOOK:
+    CLOCK: [2020-08-30 dom 11:35]--[2020-08-30 dom 12:27] =>  0:52
+    :END:
+*** [2020-08-31 lun]
+    :LOGBOOK:
+    CLOCK: [2020-08-31 lun 09:37]--[2020-08-31 lun 10:52] =>  1:15
+    :END:
+** Setiembre 2020 
+*** [2020-09-01 mar]
+    :LOGBOOK:
+    CLOCK: [2020-09-01 mar 11:26]--[2020-09-01 mar 12:42] =>  1:16
+    :END:
+
 * Agenda de estudio
 ** 2020-Mayo
 *** [2020-05-06 mié]
@@ -2317,10 +2337,21 @@ desistir definitivamente.
     :END:
 *** [2020-08-29 sáb]
     :LOGBOOK:
+    CLOCK: [2020-08-29 sáb 18:30]--[2020-08-29 sáb 20:08] =>  1:38
     CLOCK: [2020-08-29 sáb 14:35]--[2020-08-29 sáb 15:09] =>  0:34
     CLOCK: [2020-08-29 sáb 13:00]--[2020-08-29 sáb 14:10] =>  1:10
     :END:
-
+*** [2020-08-31 lun]
+    :LOGBOOK:
+    CLOCK: [2020-08-31 lun 16:10]--[2020-08-31 lun 20:10] =>  4:00
+    :END:
+** 2020-Setiembre
+*** [2020-09-01 mar]
+    :LOGBOOK:
+    CLOCK: [2020-09-01 mar 16:12]--[2020-09-01 mar 20:15] =>  4:03
+    CLOCK: [2020-09-01 mar 14:51]--[2020-09-01 mar 15:56] =>  1:05
+    CLOCK: [2020-09-01 mar 12:52]--[2020-09-01 mar 14:14] =>  1:22
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -3149,6 +3180,15 @@ idea a python tambien, y aunque no consegui mucho material
 contundente, algo hay, y en especial pienso que tengo que dedicarme un
 poco mas a flask, o sea si he logrado lo que he logrado sin casi nada
 de teoria tendria que aprender un poco mas para incorporar mas cosas.
+** semana [2020-08-30 dom]                              :Python:Flask:Pandas:
+[2020-09-01 mar] esta semana esta floja con el aprendizaje que cayo en
+una meseta y se reanimo la programacion con un par de modulos mas con
+lo que el proyecto va tomando mas forma y el agregado de pandas para
+los pivots que es algo fenomenal y que me ocupo ayer lunes y obtuve
+una forma de tirar un pivot en forma muy gracil y profesional. Pero
+hasta el dia de hoy el "acierto" ha sido flask-python. Sino estaria en
+la mayor desesperanza.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3313,6 +3353,9 @@ fue rapido pero al final se ralentizo y en eso el youtube entro en un
 loop de repetir las ultimas palabras, yo pense que se habia colgado la
 maquina pq no respondia raton ni teclado, pero duro solo unos segundos
 y termino de copiar y se volvio todo a la normalidad solo.
+*** [2020-08-31 lun] no reconocio teclado ni raton
+tuve que desenchufar y volver a enchufar usb
+*** [2020-08-31 lun] ignora el xmodmap del autostart
 ** pros encontrados
 *** anda hardware que no me andaba en otras circunstancias
 p.e. el raton logitech hasta ahora , y la placa de sonido de la i3. 
@@ -3342,7 +3385,9 @@ plano pero muy directo.
 aparte del clasico alt-F2, tenes el Alt-F3 mas completo por las dudas,
 y tenes la tecla super, que salta el menu, y alli empezas a escribir,
 sino con boton derecho en cualquier lado. Tiene buenos atajos, como
-todo openbox. 
+todo openbox.
+*** fonts 
+mejores fuentes que mint, se ven especialmente en los programas tcl
 ** contras encontrados
 *** ruido de base mayor
 pero es algo continuo en cambio el otro molestaba que era variable.
@@ -3878,6 +3923,27 @@ aprende mas.
 ya implemente el formulario a traves de wtforms para tener
 validaciones del lado del servidor y una mayor compacidad al escribir
 los formularios. No es dificultoso para nada. 
+** {% block %}
+hice dos block mas aparte del content, style y script para sus
+respectivos usos y todo ok.
+** pandas
+una potencia atomica. un sql una linea de codigo, la lectura del sql
+otra linea de codigo, el dataframe la tercera, y el pivot la cuarta,
+que lo hago "dibujar" to_html() para tener ya el formato tabla, y lo
+"leo" con jinja solo con poner {{table | safe}}, al considerar safe el
+contenido lo dibuja, y como tiene una clase, con js le asigno mas
+clases y con css lo acomodo un poco, casi sin conocimientos lo deje
+lindo visible, usable. 
+No veo que el uso de la libreria pandas ralentice el programa para
+nada.
+*** pandas to_excel()
+aunado a send_file(), permite "bajar" en formato excel la planilla por
+si tenemos que hacer calculos sobre ella, tipico caso de los retiros
+societarios. 
+*** values de dos variables ['cobranza','comision']
+tenemos dos tablas en una, una al lado de la otra, tipico caso
+cobranza/comision.
+
 * Flask-desarrollo
 ** pagos
 *** TODO hacer los triggers
@@ -3887,3 +3953,8 @@ voy a usar las de flask para mantenerlo simple. y en lenguaje normal
 html. 
 *** TODO hacer avisos
 *** TODO hacer modulos condonada/devolucion/edicion de ventas/resumen de cuenta
+*** TODO TEST: testear todo lo hecho en condonada-devolucion-plan de pagos para depurar los errores.
+
+** Pandas
+** Tabulator
+** Login
