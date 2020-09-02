@@ -210,6 +210,10 @@
     :LOGBOOK:
     CLOCK: [2020-09-01 mar 11:26]--[2020-09-01 mar 12:42] =>  1:16
     :END:
+*** [2020-09-02 mié]
+    :LOGBOOK:
+    CLOCK: [2020-09-02 mié 15:27]--[2020-09-02 mié 16:06] =>  0:39
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -2352,6 +2356,12 @@ desistir definitivamente.
     CLOCK: [2020-09-01 mar 14:51]--[2020-09-01 mar 15:56] =>  1:05
     CLOCK: [2020-09-01 mar 12:52]--[2020-09-01 mar 14:14] =>  1:22
     :END:
+*** [2020-09-02 mié]
+    :LOGBOOK:
+    CLOCK: [2020-09-02 mié 16:00]--[2020-09-02 mié 18:00] =>  2:00
+    CLOCK: [2020-09-02 mié 11:27]--[2020-09-02 mié 15:27] =>  4:00
+    CLOCK: [2020-09-02 mié 08:40]--[2020-09-02 mié 10:21] =>  1:41
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -3391,6 +3401,7 @@ mejores fuentes que mint, se ven especialmente en los programas tcl
 ** contras encontrados
 *** ruido de base mayor
 pero es algo continuo en cambio el otro molestaba que era variable.
+*** imposibilidad de instalar impresora 
 * agenda vim
 ** jump previas posiciones
 C-o C-i
@@ -3943,18 +3954,33 @@ societarios.
 *** values de dos variables ['cobranza','comision']
 tenemos dos tablas en una, una al lado de la otra, tipico caso
 cobranza/comision.
-
+** datatables
+con los datos directos de un df mediante el paso a array de numpy y
+luego a lista y luego a tojson.
+tbl = df.to_numpy().tolist()
+y luego en js...
+var DataSet = {{tbl | tojson}}
+el unico problema es que no me funciona el theme oscuro. 
+** tabulator
+por medio de una funcion en js escrita por mi, logre pasar los arrays
+que lee datatables al formato array de objetos json que lee
+tabulator. Y funciona.
+Ya le saque la funcion seleccionar filas, bastante bien, creo que con
+eso tengo solucionado el problema de la seleccion de filas para el
+/F6. con boton de marcar las del dia, y luego con los ticks que es
+facil agregar o sacar algo. y los movimientos que permite el tabulator
 * Flask-desarrollo
 ** pagos
-*** TODO hacer los triggers
+*** DONE hacer los triggers
 *** TODO hacer las validaciones para no apretar enter y guardar antes de tiempo
 por el momento uso las de html5, y en el futuro usare las de js, pq no
 voy a usar las de flask para mantenerlo simple. y en lenguaje normal
 html. 
 *** TODO hacer avisos
 *** TODO hacer modulos condonada/devolucion/edicion de ventas/resumen de cuenta
-*** TODO TEST: testear todo lo hecho en condonada-devolucion-plan de pagos para depurar los errores.
+*** DONE TEST: testear todo lo hecho en condonada-devolucion-plan de pagos para depurar los errores.
 
 ** Pandas
 ** Tabulator
 ** Login
+** JS

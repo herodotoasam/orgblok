@@ -4537,3 +4537,8 @@ hacerlo durante el periodo que dure la obra, es un habito posible de
 atravesar todo el verano tranquilamente. Y con el otro que tengo que
 preocuparme por no abandonarlo ya tendremos dos habitos saludables
 importantes.
+** [2020-09-02 mié]
+*** me invade el tedio
+cuando veo por delante todo lo que le falta al proyecto para que este
+terminado y funcional, pero en realidad hemos hecho solidos avances,
+de no tener nada a lo que se va armando. Y se van corrigiendo bugs.
