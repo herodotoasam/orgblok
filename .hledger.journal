@@ -1041,3 +1041,95 @@ D $1000.00
 2020/09/01 saco reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2020/09/03 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/09/03 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/03 materiales tapia
+    expenses:casa:mantenimiento            9700
+    assets:caja                           -9700
+
+2020/09/03 materiales tapia
+    expenses:casa:mantenimiento             650
+    assets:caja                            -650
+
+2020/09/03 materiales tapia
+    expenses:casa:mantenimiento            1230
+    assets:caja                           -1230
+
+2020/09/03 materiales tapia
+    expenses:casa:mantenimiento             755
+    assets:caja                            -755
+
+2020/09/03 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
+
+2020/09/03 a cuenta reparacion cocina
+    expenses:casa:mantenimiento           15000
+    assets:caja                          -15000
+
+2020/09/03 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/03 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/03 materiales tapia
+    expenses:casa:mantenimiento             600
+    assets:caja                            -600
+
+2020/09/03 comida
+    expenses:comida             670
+    assets:caja                -670
+
+2020/09/04 farmacia
+    expenses:gastos medicos:farmacia             260
+    assets:caja                                 -260
+
+2020/09/04 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2020/09/04 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/09/04 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2020/09/04 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2020/09/04 mano obra tapia
+    expenses:casa:mantenimiento           15000
+    assets:caja                          -15000
+
+2020/09/04 mano de obra cambio caños cocina
+    expenses:casa:mantenimiento           30000
+    assets:caja                          -30000
+
+2020/09/04 materiales tapia
+    expenses:casa:mantenimiento              70
+    assets:caja                             -70
+
+2020/09/04 saco reserva
+    assets:caja             $20000
+    assets:reserva         $-20000
+
+2020/09/04 lomitos
+    expenses:comida             900
+    assets:caja                -900
+
+2020/09/03 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000

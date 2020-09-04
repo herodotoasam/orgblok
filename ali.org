@@ -4542,3 +4542,10 @@ importantes.
 cuando veo por delante todo lo que le falta al proyecto para que este
 terminado y funcional, pero en realidad hemos hecho solidos avances,
 de no tener nada a lo que se va armando. Y se van corrigiendo bugs.
+** [2020-09-04 vie]
+mejor no preocuparse mas por nada. pq no tiene sentido. mejor es hacer
+lo que este a nuestra mano y lo que no este a nuestra mano no hacerlo
+y dejar que ocurra lo que tenga que ocurrir.
+*** debate sobre si en el fondo deseo tener las aplicaciones en la nube
+es un debate que me tengo que dar, y tambien cuanto estamos dispuestos
+a pagar por el servicio de hosting en la nube. 

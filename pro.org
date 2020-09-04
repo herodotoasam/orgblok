@@ -214,6 +214,15 @@
     :LOGBOOK:
     CLOCK: [2020-09-02 mié 15:27]--[2020-09-02 mié 16:06] =>  0:39
     :END:
+*** [2020-09-03 jue]
+    :LOGBOOK:
+    CLOCK: [2020-09-03 jue 18:12]--[2020-09-03 jue 18:50] =>  0:38
+    :END:
+*** [2020-09-04 vie]
+    :LOGBOOK:
+    CLOCK: [2020-09-04 vie 18:48]--[2020-09-04 vie 19:20] =>  0:32
+    CLOCK: [2020-09-04 vie 17:30]--[2020-09-04 vie 18:12] =>  0:42
+    :END:
 
 * Agenda de estudio
 ** 2020-Mayo
@@ -3198,7 +3207,14 @@ los pivots que es algo fenomenal y que me ocupo ayer lunes y obtuve
 una forma de tirar un pivot en forma muy gracil y profesional. Pero
 hasta el dia de hoy el "acierto" ha sido flask-python. Sino estaria en
 la mayor desesperanza.
-
+[2020-09-04 vie] semana floja pq jueves y viernes hubo obra en la
+casa, y mas que ver videos y con no mucha concentracion. Solo espero
+volver a la normalidad y que haya pasado toda esta molestia, pero en
+realidad la vamos pasando bastante bien, siendo que quizas habia
+imaginado un mal muchisimo mayor, pero en cierta forma hicimos mas de
+lo que habiamos planificado y tenemos proyectado todavia mucho mas, o
+sea que la obra en general sera mucho mas grande que lo que se habia
+pensado en principio. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
