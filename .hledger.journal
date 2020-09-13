@@ -1156,3 +1156,196 @@ D $1000.00
 2020/09/06 facturas
     expenses:comida            $300
     assets:caja               $-300
+
+2020/09/07 mesada cami
+    expenses:cami:mesada           $1500
+    assets:caja                   $-1500
+
+2020/09/07 comida cami
+    expenses:cami:comida           $2000
+    assets:caja                   $-2000
+
+2020/09/07 fiambre
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/09/07 dif
+    expenses:diferencia arqueo              46
+    assets:caja                            -46
+
+2020/09/08 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2020/09/08 extras cami
+    expenses:cami:extras            1000
+    assets:caja                    -1000
+
+2020/09/08 extras romi
+    expenses:romi            1000
+    assets:caja             -1000
+
+2020/09/08 materiales electricos
+    expenses:casa:mantenimiento             630
+    assets:caja                            -630
+
+2020/09/10 materiales electricos
+    expenses:casa:mantenimiento             200
+    assets:caja                            -200
+
+2020/09/10 mano de obra electricista
+    expenses:casa:mantenimiento             800
+    assets:caja                            -800
+
+2020/09/10 adelanto mano obra puesta piso
+    expenses:casa:mantenimiento           10000
+    assets:caja                          -10000
+
+2020/09/10 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2020/09/10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/08 fibertel set/2020
+    expenses:servicios:fibertel            1925
+    assets:caja                           -1925
+
+2020/09/08 cami cuota telefono
+    expenses:cami:extras        $4499.83
+    assets:caja                $-4499.83
+
+2020/09/08 cuota calefactor
+    expenses:casa:mantenimiento          $813.6
+    assets:caja                         $-813.6
+
+2020/09/08 rio shop
+    expenses:isabel         $214.38
+    assets:caja            $-214.38
+
+2020/09/08 comida plan z
+    expenses:comida         7193.47
+    assets:caja            -7193.47
+
+2020/09/08 seguro auto
+    expenses:servicios:la caja seguros            2596
+    assets:caja                                  -2596
+
+2020/09/08 netflix
+    expenses:servicios:netflix         $476.02
+    assets:caja                       $-476.02
+
+2020/09/08 hiper libertad
+    expenses:comida         1238.45
+    assets:caja            -1238.45
+
+2020/09/08 carusso Setiembre/2020
+    expenses:servicios:carusso        $1210.11
+    assets:caja                      $-1210.11
+
+2020/09/08 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          373.27
+    assets:caja                                             -373.27
+
+2020/09/08 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2020/09/10 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
+
+2020/09/10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/10 expensas dpto jujuy (ultima)
+    expenses:romi            3200
+    assets:caja             -3200
+
+2020/09/10 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+
+2020/09/11 materiales pisos
+    expenses:casa:mantenimiento            2280
+    assets:caja                           -2280
+
+2020/09/11 comida gatos
+    expenses:comida:gatos             600
+    assets:caja                      -600
+
+2020/09/10 comida
+    expenses:comida            $400
+    assets:caja               $-400
+
+2020/09/11 comida
+    expenses:comida            740
+    assets:caja               -740
+
+2020/09/11 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/11 cami extra
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2020/09/11 material piso
+    expenses:casa:mantenimiento             220
+    assets:caja                            -220
+
+2020/09/11 farmacia
+    expenses:gastos medicos:farmacia            1951
+    assets:caja                                -1951
+
+2020/09/13 comida
+    expenses:comida            1730
+    assets:caja               -1730
+
+2020/09/13 arreglo porton del fondo
+    expenses:casa:mantenimiento            5500
+    assets:caja                           -5500
+
+2020/09/12 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2020/09/12 mano de obra pisos
+    expenses:casa:mantenimiento           19000
+    assets:caja                          -19000
+
+2020/09/13 dif
+    expenses:diferencia arqueo           28.95
+    assets:caja                         -28.95
+
+2020/08/26 ingresos
+    assets:reserva                    2500
+    income:retiro sociedad           -2500
+
+2020/08/26 saco reserva
+    assets:caja               2500
+    assets:reserva           -2500
+
+2020/08/26 arreglo baul auto
+    expenses:transporte:reparacion auto            2500
+    assets:caja                                   -2500
+
+2020/08/25 ingresos
+    assets:reserva                   13300
+    income:retiro sociedad          -13300
+
+2020/08/25 saco reserva
+    assets:caja              13300
+    assets:reserva          -13300
+
+2020/08/25 compra dolares
+    expenses:compra dolares           13300
+    assets:caja                      -13300
+
+2020/08/25 compra dolares
+    assets:reserva u$s            u$s    100
+    income:compra dolares         u$s   -100
