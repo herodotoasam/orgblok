@@ -1349,3 +1349,83 @@ D $1000.00
 2020/08/25 compra dolares
     assets:reserva u$s            u$s    100
     income:compra dolares         u$s   -100
+
+2020/09/14 extra cami
+    expenses:cami:extras            $500
+    assets:caja                    $-500
+
+2020/09/14 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2020/09/15 materiales arreglos varios
+    expenses:casa:mantenimiento            3000
+    assets:caja                           -3000
+
+2020/09/15 farmacia
+    expenses:gastos medicos:farmacia            3420
+    assets:caja                                -3420
+
+2020/09/16 saldo mano obra y materiales plomeria
+    expenses:casa:mantenimiento           21200
+    assets:caja                          -21200
+
+2020/09/16 materiales tapia fondo
+    expenses:casa:mantenimiento            9610
+    assets:caja                           -9610
+
+2020/09/16 cami portavasos
+    expenses:cami:extras             350
+    assets:caja                     -350
+
+2020/09/16 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2020/09/16 cuadro
+    expenses:casa:mantenimiento             800
+    assets:caja                            -800
+
+2020/09/16 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2020/09/15 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2020/09/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/09/15 a cuenta materiales muebles cocina
+    expenses:casa:mantenimiento            6000
+    assets:caja                           -6000
+
+2020/09/16 cami comida
+    expenses:cami:comida            4000
+    assets:caja                    -4000
+
+2020/09/16 cami mesada
+    expenses:cami:mesada           $1500
+    assets:caja                   $-1500
+
+2020/09/16 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/09/16 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2020/09/16 material tapia fondo
+    expenses:casa:mantenimiento            2850
+    assets:caja                           -2850
+
+2020/09/16 papel higienico y papel cocina
+    expenses:comida            1600
+    assets:reserva            -1600
+
+2020/09/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
