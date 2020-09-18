@@ -1424,8 +1424,36 @@ D $1000.00
 
 2020/09/16 papel higienico y papel cocina
     expenses:comida            1600
-    assets:reserva            -1600
+    assets:caja               -1600
 
 2020/09/16 saco reserva
     assets:caja              10000
     assets:reserva          -10000
+
+2020/09/17 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
+
+2020/09/17 ih
+    expenses:isabel             400
+    assets:caja                -400
+
+2020/09/17 comida
+    expenses:comida             400
+    assets:caja                -400
+
+2020/09/04 ingresos
+    assets:reserva                     200
+    income:retiro sociedad            -200
+
+2020/09/04 saco reserva
+    assets:caja                200
+    assets:reserva            -200
+
+2020/09/04 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2020/09/17 mano de obra pintura porton
+    expenses:casa:mantenimiento            2500
+    assets:caja                           -2500

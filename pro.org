@@ -1,19 +1,19 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-09-07 Mon 20:51]
-| Headline           | Time        |          |
-|--------------------+-------------+----------|
-| *Total time*       | *26d 18:02* |          |
-|--------------------+-------------+----------|
-| Agenda Romitex     | 3d 1:12     |          |
-| \_  Julio 2020     |             | 1d 0:29  |
-| \_  Agosto 2020    |             | 1d 19:00 |
-| \_  Setiembre 2020 |             | 5:43     |
-| Agenda de estudio  | 23d 16:50   |          |
-| \_  2020-Mayo      |             | 6d 14:04 |
-| \_  2020-Junio     |             | 5d 18:54 |
-| \_  2020-Julio     |             | 6d 17:06 |
-| \_  2020-Agosto    |             | 4d 0:35  |
-| \_  2020-Setiembre |             | 14:11    |
+#+CAPTION: Clock summary at [2020-09-18 Fri 10:12]
+| Headline           | Time       |          |
+|--------------------+------------+----------|
+| *Total time*       | *27d 7:31* |          |
+|--------------------+------------+----------|
+| Agenda Romitex     | 3d 14:41   |          |
+| \_  Julio 2020     |            | 1d 0:29  |
+| \_  Agosto 2020    |            | 1d 19:00 |
+| \_  Setiembre 2020 |            | 19:12    |
+| Agenda de estudio  | 23d 16:50  |          |
+| \_  2020-Mayo      |            | 6d 14:04 |
+| \_  2020-Junio     |            | 5d 18:54 |
+| \_  2020-Julio     |            | 6d 17:06 |
+| \_  2020-Agosto    |            | 4d 0:35  |
+| \_  2020-Setiembre |            | 14:11    |
 #+END:
 :scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
@@ -263,6 +263,16 @@
 *** [2020-09-16 Wed]
     :LOGBOOK:
     CLOCK: [2020-09-16 Wed 13:50]--[2020-09-16 Wed 14:58] =>  1:08
+    :END:
+*** [2020-09-17 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-09-17 Thu 18:42]--[2020-09-17 Thu 19:02] =>  0:20
+    CLOCK: [2020-09-17 Thu 10:57]--[2020-09-17 Thu 15:07] =>  4:10
+    :END:
+*** [2020-09-18 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-09-18 Fri 17:36]--[2020-09-18 Fri 18:40] =>  1:04
+    CLOCK: [2020-09-18 Fri 10:13]--[2020-09-18 Fri 13:08] =>  2:55
     :END:
 
 * Agenda de estudio
@@ -3262,6 +3272,27 @@ en obras para rato, lo unico que hice fue reinstalar mint de nuevo en
 la i3-9na para tener toda la funcionalidad en una sola maquina y no
 preocuparme mas por el sistema operativo. Creo que los que se ocupan
 tanto del sistema operativo son nerds. 
+-- toda la semana en obras
+** semana [2020-09-13 Sun]                                       :JavaScript:
+-- seguimos en obras, ni siquiera estudio, solo escuchar informalmente
+   videitos de js y algunas lecturas supuestamente preparatorias para
+   estudiar en serio cuando comience de nuevo.
+A pesar de que ya en [2020-09-17 Thu] la obra sigue pero esta afuera,
+   no logro concentrarme como para estudiar algo, tampoco me siento
+   100% up, y quizas este desmotivado, o sea que todavia no me hallo
+   por eso pienso que es buen momento para repetir los videos de
+   Seiiti Arata como para al menos empezar de nuevo una nueva etapa
+   pero empezarla distinto con otros brios y en forma diferente, para
+   que sirva.
+Pienso que la estrategia de estudio para que sirva tiene que ser hecha
+   sentado y practicando, o sea que no sirve avanzar un curso en cama
+   o acostado sin practica en maquina y sin anotaciones. Y las
+   anotaciones no sirven si no son completas, y para ser completas y
+   que sirvan deben ser hechas con la compu, para escribir rapido lo
+   cual podria hacerse en orgmode, pero mejor es hacerlo en freemind
+   para luego imprimirlo en pdf y tener las hojas para repasar
+   espaciadamente.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
