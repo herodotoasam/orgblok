@@ -1457,3 +1457,88 @@ D $1000.00
 2020/09/17 mano de obra pintura porton
     expenses:casa:mantenimiento            2500
     assets:caja                           -2500
+
+2020/09/18 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2020/09/18 ih
+    expenses:isabel             700
+    assets:caja                -700
+
+2020/09/18 peluqueria
+    expenses:peluqueria             200
+    assets:caja                    -200
+
+2020/09/18 materiales tapia
+    expenses:casa:mantenimiento            220
+    assets:caja                           -220
+
+2020/09/19 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/09/19 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/09/18 epec set/2020
+    expenses:servicios:epec          3863.5
+    assets:caja                     -3863.5
+
+2020/09/18 epec dpto boletas atrasadas
+    expenses:romi            1358
+    assets:caja             -1358
+
+2020/09/19 materiales pintar cocina
+    expenses:casa:mantenimiento            2000
+    assets:caja                           -2000
+
+2020/09/19 comida
+    expenses:comida             270
+    assets:caja                -270
+
+2020/09/20 facturas
+    expenses:comida             250
+    assets:caja                -250
+
+2020/09/21 ih mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/09/19 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/09/19 mano obra tapia fondo
+    expenses:casa:mantenimiento           25000
+    assets:caja                          -25000
+
+2020/09/21 mesada cami
+    expenses:cami:mesada           $1500
+    assets:caja                   $-1500
+
+2020/09/21 comida cami
+    expenses:cami:comida            2000
+    assets:caja                    -2000
+
+
+2020/09/21 ih caños
+    expenses:ih             180
+    assets:caja            -180
+
+2020/09/21 comida super
+    expenses:comida            1510
+    assets:caja               -1510
+
+2020/09/21 comida fruta
+    expenses:comida             100
+    assets:caja                -100
+
+2020/09/21 comida gatos
+    expenses:comida:gatos            $600
+    assets:caja                     $-600
+
+2020/09/21 comida limpieza
+    expenses:comida:limpieza             400
+    assets:caja                         -400
