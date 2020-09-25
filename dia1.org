@@ -1,5 +1,71 @@
+* [2017-01-25 Wed]
+** Enero vagancia - no vacaciones
+Este enero transcurre muy distinto. Revago. Sin mayores esperanzas,
+ gozando el flujo de lo ya hecho. Atravesando el problema ocasionado
+ por lo de mi vieja. Que quizas se solucione, ya esta auto, falta el
+ local. Y se hace largo casi eterno el cuidado y tensa todo. Estamos
+ todos enfermos, en especial yo. Y eso lo irradio al resto. Y se nota
+ p.e. en la falta de vacaciones. Esa costumbre de no vacacionar por
+ mas que uno pueda, asi sea dos dias y hacerlo extensivo a toda la
+ familia, afecta el animo colectivo y enferma a todos. Y no se puede
+ culpar a la gm pq tampoco hay una escapada de dos dias en invierno
+ cuando no hay sol de verano. Ese no-cambio de aire. Ese no-gasto. Ese
+ no-salida. Sistematico.
+ Si hasta creo que el pum desatado con 3 1 2 2 (8 Migr en 4 dias desde
+ el sabado cuando venia bien bien puede ser el resultado de la tension
+ por el auto y la falta de celebracion o de alegria por el resultado
+ positivo).
+ Esa falta de alegria es debido a una contraccion del musculo de la
+ alegria/tristeza, que queda en un estado intermedio, ni alegre ni
+ triste, como indiferente. Y eso fue lo que senti. No pude relajar
+ luego del resultado positivo y por eso exploto en una migraña de 4
+ dias.
+** capacidad ociosa- tirania del horario discontinuo-falta de trabajo
+la ilusion de no trabajar o no tener que trabajar
+Hay varios vectores que confluyen. Filosofias que te pierden en la
+inaccion y te hacen creer que podes hacer otra cosa y al final no
+haces nada. O no estas haciendo nada pq estas paralizado en la
+inaccion no pq seas incapaz sin pq no hace falta o te tiras de vago o
+te abusas. Pero la falta de trabajo te hace mal. Y lo considero como
+una vacacion, como un mes de relax y pienso arrancar ahora como pueda.
+Por eso se me van estos dias asi tan largos y tan inutiles por el tipo
+de horario que tienen. Pq creo que los facts de la realidad del grupo
+llevo a:
+- que fue coco liso el que me obligo a horario en cierta forma
+- por mas que haga 16/18 a la tarde 744 puede que no te venga
+- lo mismo a la mañana necesitar ir si tenes promotores o para recibir
+  cobrador etc.
+- es cierto que el nerviosismo de no querer estar en oficina fue pq
+  tenia miedo de un embargo o algo asi.
+Conclusion: creo que un horario  x la mañana unicamente seria mas
+eficiente.
+** Horario matinal
+a) cobradores
+744/750 despacho por la mañana. Salen de ofi. Marco la salida. No me
+clavo esperando (744). Nega: ellos guardan la plata un dia para el
+otro.
+697: no problem
+516: idem
+731: unicamente habria que avisarle
+b) aviso:
+obvio conveniencia
+c) salida de promos
+tendrian que salir temprano, acostumbrarlos
+d) deposito
+tipo 12hs o maximo 12.30hs
+por el momento con los cobradores actuales se podria llegar a
+100+90+90+60+50+10->400k
+** Consideraciones sobre la promocion
+a) yo reparto - a la tarde en el bora
+b) puede ser un pack 1cort 1 toallo AI 7x190
+c) podemos poner aviso pago por dia y ver que llamada tiene la
+pregunta es cuanto pagamos por venta??
+d) con 15% de INC, y 25% de costo y 33% de Sn  da para 15% de venta y
+una venta de 7x190 ->$200 se podria dar $150
+Conclusion 1: hay que invertir en venta. Si no invertimos sera dificil
+conseguir gente.
 
-Diarios de oficina
+ Diarios de oficina
 * [2017-03-22 mié]
 ** porque segui asi que diria en analisis
 en una consulta frente a un analista diria que sigo este camino y no
@@ -2449,6 +2515,21 @@ Parte se lo debo a la alimentacion y parte se lo debo a no prender el
 tele. pq el tele es lo malo pq te crea esa necesidad de sentarse a ver
 y no te deja tomarte tu tiempo para hacer otras cosas que por ahi
 valen mas la pena como comer, preparar la comida, descansar o leer.
+* [2017-11-21 mar]
+:CLOCK: [2017-11-22 mié 09:17]--[2017-11-22 mié 10:38] =>  1:21
+:CLOCK: [2017-11-22 mié 08:16]--[2017-11-22 mié 09:04] =>  0:48
+:CLOCK: [2017-11-21 mar 21:50]--[2017-11-21 mar 22:31] =>  0:41
+pasados tres chicos 154/796/697 pero cansado pq en el medio llamado
+por telefono y cansancio del dia. sigo mañana.
+48 minutos pase brian solo pero intente solucionar un bug que encontre
+con el pmovto que se sigue poniendo cuando una cuenta se cancela, que
+yo pensaba que era inocuo pero en realidad no, pq cuando ese tipo
+compra de nuevo ese pmovto va a aparecer como anterior y se va a
+presentar como valido, entonces primero los hice nulos con un update
+masivo y ahora intento sin exito un trigger que me los haga
+automaticos.
+y eso me hace perder tiempo.
+Pase todo en 2hs hoy pero con esa perdida de tiempo. 
 * [2017-11-24 vie]
 ** remodelacion oficina
 ya avanzamos fundamentalmente con hacer el divisorio que es lo mas
@@ -2519,22 +2600,7 @@ a 4 y luego de las 4 entrevistas y cursos. mientras funciona el
 sistema cobranza adelante. Y yo no tengo que ir a la mañana y
 preservamos la oficina a la mañana
 
-* pasado de papeles en casa
-** [2017-11-21 mar]
-:CLOCK: [2017-11-22 mié 09:17]--[2017-11-22 mié 10:38] =>  1:21
-:CLOCK: [2017-11-22 mié 08:16]--[2017-11-22 mié 09:04] =>  0:48
-:CLOCK: [2017-11-21 mar 21:50]--[2017-11-21 mar 22:31] =>  0:41
-pasados tres chicos 154/796/697 pero cansado pq en el medio llamado
-por telefono y cansancio del dia. sigo mañana.
-48 minutos pase brian solo pero intente solucionar un bug que encontre
-con el pmovto que se sigue poniendo cuando una cuenta se cancela, que
-yo pensaba que era inocuo pero en realidad no, pq cuando ese tipo
-compra de nuevo ese pmovto va a aparecer como anterior y se va a
-presentar como valido, entonces primero los hice nulos con un update
-masivo y ahora intento sin exito un trigger que me los haga
-automaticos.
-y eso me hace perder tiempo.
-Pase todo en 2hs hoy pero con esa perdida de tiempo. 
+** pasado de papeles en casa
 
 * [2017-12-01 vie]
 ** correcciones al sistema

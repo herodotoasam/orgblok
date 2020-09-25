@@ -1542,3 +1542,79 @@ D $1000.00
 2020/09/21 comida limpieza
     expenses:comida:limpieza             400
     assets:caja                         -400
+
+2020/09/21 materiales mesada cocina
+    expenses:casa:mantenimiento             400
+    assets:caja                            -400
+
+2020/09/22 farmacia
+    expenses:gastos medicos:farmacia             850
+    assets:caja                                 -850
+
+2020/09/23 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/09/23 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/23 llevada de escombros
+    expenses:casa:mantenimiento            2200
+    assets:caja                           -2200
+
+2020/09/23 mano de obra y materiales tejas y limpieza tanque
+    expenses:casa:mantenimiento            3500
+    assets:caja                           -3500
+
+2020/09/23 ih ojotas
+    expenses:isabel             800
+    assets:caja                -800
+
+2020/09/24 comida
+    expenses:comida            4900
+    assets:caja               -4900
+
+2020/09/24 recupero deuda
+    assets:caja                 1900
+    assets:deudas ih           -1900
+
+2020/09/24 comida
+    expenses:comida            1900
+    assets:caja               -1900
+
+2020/09/24 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/09/24 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/09/24 garbarino
+    expenses:isabel            1800
+    assets:caja               -1800
+
+2020/09/24 claro
+    expenses:servicios:claro         3041.23
+    assets:caja                     -3041.23
+
+2020/09/24 ospe
+    expenses:servicios:OSPE          $22879
+    assets:caja                     $-22879
+
+2020/09/24 ecogas 2020/04 vto 07/09
+    expenses:servicios:ecogas         4746.89
+    assets:caja                      -4746.89
+
+2020/09/24 dgr casa 2020/08-09
+    expenses:impuestos:casa:dgr          1577.5
+    assets:caja                         -1577.5
+
+2020/09/24 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/09/24 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
