@@ -21,7 +21,7 @@
 * Agenda Recupero
 ** [2020-09-25 Fri] 
    :LOGBOOK:
-   CLOCK: [2020-09-25 Fri 12:21]
+   CLOCK: [2020-09-25 Fri 12:21]--[2020-09-25 Fri 12:53] =>  0:32
    :END:
 
 * Agenda Romitex
@@ -301,6 +301,14 @@
 *** [2020-09-23 Wed]
     :LOGBOOK:
     CLOCK: [2020-09-23 Wed 09:38]--[2020-09-23 Wed 12:30] =>  2:52
+    :END:
+*** [2020-09-26 Sat]
+    :LOGBOOK:
+    CLOCK: [2020-09-26 Sat 17:25]--[2020-09-26 Sat 18:53] =>  1:28
+    :END:
+*** [2020-09-28 Mon]
+    :LOGBOOK:
+    CLOCK: [2020-09-28 Mon 10:40]--[2020-09-28 Mon 13:34] =>  2:54
     :END:
 
 * Agenda de estudio
@@ -3337,7 +3345,10 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 -- seguimos en obras y cuesta empezar.
    solo he diseñado una estrategia de estudio como para empezar pero
    todavia me cuesta empezar.
-
+** semana [2020-09-27 Sun]
+-- aunque ya no estamos en obra y nada impide retomar el trabajo y la
+   programacion y/o el estudio me encuentro parado, sin combustible,
+   sin inspiracion de continuar.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

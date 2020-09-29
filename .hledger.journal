@@ -1618,3 +1618,39 @@ D $1000.00
 2020/09/24 nafta
     expenses:transporte:nafta           $1000
     assets:caja                        $-1000
+
+2020/09/25 prestamo ih
+    assets:deudas ih            2000
+    assets:caja                -2000
+
+2020/09/25 recupero prestamo ih
+    assets:caja                 4200
+    assets:deudas ih           -4200
+
+2020/09/25 a cuenta mesa y sillas
+    expenses:casa:mantenimiento            4200
+    assets:caja                           -4200
+
+2020/09/28 ih mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/09/27 facturas
+    expenses:comida             300
+    assets:caja                -300
+
+2020/09/29 farmacia
+    expenses:gastos medicos:farmacia             420
+    assets:caja                                 -420
+
+2020/09/28 gatos
+    expenses:comida:gatos            $600
+    assets:caja                     $-600
+
+2020/09/27 pan
+    expenses:comida              50
+    assets:caja                 -50
+
+2020/09/27 comida
+    expenses:comida             300
+    assets:caja                -300
