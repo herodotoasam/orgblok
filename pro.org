@@ -1,19 +1,21 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2020-09-18 Fri 10:12]
-| Headline           | Time       |          |
-|--------------------+------------+----------|
-| *Total time*       | *27d 7:31* |          |
-|--------------------+------------+----------|
-| Agenda Romitex     | 3d 14:41   |          |
-| \_  Julio 2020     |            | 1d 0:29  |
-| \_  Agosto 2020    |            | 1d 19:00 |
-| \_  Setiembre 2020 |            | 19:12    |
-| Agenda de estudio  | 23d 16:50  |          |
-| \_  2020-Mayo      |            | 6d 14:04 |
-| \_  2020-Junio     |            | 5d 18:54 |
-| \_  2020-Julio     |            | 6d 17:06 |
-| \_  2020-Agosto    |            | 4d 0:35  |
-| \_  2020-Setiembre |            | 14:11    |
+#+CAPTION: Clock summary at [2020-10-01 Thu 16:55]
+| Headline             | Time       |          |
+|----------------------+------------+----------|
+| *Total time*         | *28d 5:32* |          |
+|----------------------+------------+----------|
+| Agenda Recupero      | 0:32       |          |
+| \_  [2020-09-25 Fri] |            | 0:32     |
+| Agenda Romitex       | 4d 10:34   |          |
+| \_  Julio 2020       |            | 1d 0:29  |
+| \_  Agosto 2020      |            | 1d 19:00 |
+| \_  Setiembre 2020   |            | 1d 15:05 |
+| Agenda de estudio    | 23d 18:26  |          |
+| \_  2020-Mayo        |            | 6d 14:04 |
+| \_  2020-Junio       |            | 5d 18:54 |
+| \_  2020-Julio       |            | 6d 17:06 |
+| \_  2020-Agosto      |            | 4d 0:35  |
+| \_  2020-Setiembre   |            | 15:47    |
 #+END:
 :scope file :maxlevel 3 :block thismonth :compact t
 [[file:agenda.org][Recordar ver agenda]]
@@ -309,6 +311,15 @@
 *** [2020-09-28 Mon]
     :LOGBOOK:
     CLOCK: [2020-09-28 Mon 10:40]--[2020-09-28 Mon 13:34] =>  2:54
+    :END:
+*** [2020-09-30 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-09-30 Wed 17:23]--[2020-09-30 Wed 18:33] =>  1:10
+    :END:
+** Octubre 2020
+*** [2020-10-01 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-10-01 Thu 15:35]--[2020-10-01 Thu 16:57] =>  1:22
     :END:
 
 * Agenda de estudio
@@ -3349,6 +3360,15 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 -- aunque ya no estamos en obra y nada impide retomar el trabajo y la
    programacion y/o el estudio me encuentro parado, sin combustible,
    sin inspiracion de continuar.
+timido comienzo muy debil en estudio de js.
+** semana [2020-10-04 Sun]                                            :Flask:
+-- repaso visualmente lo logrado con flask con la idea de retomar la
+   programacion, con el concepto que salir del tutorial hell, o sea
+   con el ejemplo de haber logrado la hermosa funcion traslativa de
+   datos desde flask a js para tabulator. Y otro ejemplo esta en todo
+   lo que logre con flask. O sea esta bien ir estudiando y aprendiendo
+   pero de la mano del proyecto, sino se pierde interes y en realidad
+   nunca se hace nada. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

@@ -1654,3 +1654,76 @@ D $1000.00
 2020/09/27 comida
     expenses:comida             300
     assets:caja                -300
+
+2020/09/30 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/09/30 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2020/09/30 comida camila
+    expenses:cami:comida           $2000
+    assets:caja                   $-2000
+
+2020/09/30 mesada camila
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2020/10/01 materiales electricos
+    expenses:casa:mantenimiento              60
+    assets:caja                             -60
+
+2020/10/01 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
+
+2020/10/01 peluqueria lady
+    expenses:comida:gatos             450
+    assets:caja                      -450
+
+2020/10/01 comida
+    expenses:comida             150
+    assets:caja                -150
+
+2020/10/01 lavado auto
+    expenses:transporte:lavado             300
+    assets:caja                           -300
+
+2020/10/02 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/10/02 mesa y sillas
+    expenses:casa:mantenimiento            9100
+    assets:caja                           -9100
+
+
+2020/10/05 jardinero
+    expenses:casa:mantenimiento:jardineria            2000
+    assets:caja                                      -2000
+
+2020/10/04 comida
+    expenses:comida            1140
+    assets:caja               -1140
+
+2020/10/03 a cta muebles de cocina
+    expenses:casa:mantenimiento            1500
+    assets:caja                           -1500
+
+2020/10/05 mesada cami
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2020/10/05 comida cami
+    expenses:cami:comida           $2000
+    assets:caja                   $-2000
+
+2020/10/05 ih mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/10/05 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
