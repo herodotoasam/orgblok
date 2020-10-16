@@ -1727,3 +1727,231 @@ D $1000.00
 2020/10/05 saco reserva
     assets:caja              10000
     assets:reserva          -10000
+
+2020/10/06 limpieza
+    expenses:comida:limpieza             100
+    assets:caja                         -100
+
+2020/10/07 materiales electricos
+    expenses:casa:mantenimiento             650
+    assets:caja                            -650
+
+2020/10/07 electricista
+    expenses:casa:mantenimiento            $800
+    assets:caja                           $-800
+
+2020/10/07 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/10/06 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/10/06 saldo muebles de cocina
+    expenses:casa:mantenimiento           10000
+    assets:caja                          -10000
+
+2020/10/07 amortiguadores auto
+    expenses:transporte:reparacion auto           29100
+    assets:caja                                  -29100
+
+2020/10/08 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2020/10/08 verdura
+    expenses:comida            1630
+    assets:caja               -1630
+
+2020/10/08 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
+
+2020/10/08 comida gatos
+    expenses:comida:gatos            $600
+    assets:caja                     $-600
+
+2020/10/08 facturas
+    expenses:comida             460
+    assets:caja                -460
+
+2020/10/10 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/10/12 recupero prestamo ih
+    assets:caja                 3170
+    assets:deudas ih           -3170
+
+2020/10/12 comida
+    expenses:comida            3170
+    assets:caja               -3170
+
+2020/10/11 lomito
+    expenses:comida             520
+    assets:caja                -520
+
+2020/10/10 lomito
+    expenses:comida             650
+    assets:caja                -650
+
+2020/10/10 saco reserva
+    assets:caja              60000
+    assets:reserva          -60000
+
+2020/10/10 cielorraso cocina
+    expenses:casa:mantenimiento           31700
+    assets:caja                          -31700
+
+2020/10/10 colocacion luces cocina
+    expenses:casa:mantenimiento             800
+    assets:caja                            -800
+
+2020/10/10 farmacia
+    expenses:gastos medicos:farmacia            3111
+    assets:caja                                -3111
+
+2020/10/10 comida
+    expenses:comida            1140
+    assets:caja               -1140
+
+2020/10/10 farmacia h italiano
+    expenses:gastos medicos:farmacia            3849
+    assets:caja                                -3849
+
+2020/10/10 ecogas 2020/04 vto 05/10/2020
+    expenses:servicios:ecogas         4649.14
+    assets:caja                      -4649.14
+
+2020/10/10 fiberte
+    expenses:servicios:fibertel         1532.49
+    assets:caja                        -1532.49
+
+2020/10/10 carusso
+    expenses:servicios:carusso            1303
+    assets:caja                          -1303
+
+2020/10/10 cami cuota telefono
+    expenses:cami:extras        $4499.83
+    assets:caja                $-4499.83
+
+2020/10/10 cuota calefactor
+    expenses:casa:mantenimiento          $813.6
+    assets:caja                         $-813.6
+
+2020/10/10 rio shop
+    expenses:isabel         $214.38
+    assets:caja            $-214.38
+
+2020/10/10 netflix
+    expenses:servicios:netflix         $476.02
+    assets:caja                       $-476.02
+
+2020/10/10 seguro auto
+    expenses:servicios:la caja seguros           $2596
+    assets:caja                                 $-2596
+
+2020/10/10 canilla cocina y dpto plan z
+    expenses:casa:refacciones         3125.93
+    assets:caja                      -3125.93
+
+2020/10/10 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          771.96
+    assets:caja                                             -771.96
+
+2020/10/12 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/10/12 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/10/13 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2020/10/13 remi
+    expenses:transporte:remis             110
+    assets:caja                          -110
+
+2020/10/13 aceite y varios
+    expenses:transporte:reparacion auto             800
+    assets:caja                                    -800
+
+2020/10/13 escobillas de parabrisas
+    expenses:transporte:reparacion auto            1400
+    assets:caja                                   -1400
+
+2020/10/13 frenos
+    expenses:transporte:reparacion auto            8300
+    assets:caja                                   -8300
+
+2020/10/13 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2020/10/13 arreglo aire acondicionado bora
+    expenses:transporte:reparacion auto           17700
+    assets:caja                                  -17700
+
+2020/10/13 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/10/13 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/10/13 comida cami
+    expenses:cami:comida           $2000
+    assets:caja                   $-2000
+
+2020/10/13 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/10/13 dif
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
+
+2020/10/15 amortiguadores baul
+    expenses:transporte:reparacion auto            2400
+    assets:caja                                   -2400
+
+2020/10/16 pan
+    100                    $100
+    assets:caja           $-100
+
+2020/10/16 estacionamiento
+    expenses:transporte:estacionamiento              20
+    assets:caja                                     -20
+
+2020/10/16 compra bidet
+    expenses:casa:mantenimiento            5620
+    assets:caja                           -5620
+
+2020/10/16 carla peluquera
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2020/10/16 carne
+    expenses:comida            2460
+    assets:caja               -2460
+
+2020/10/16 ingresos
+    assets:reserva                    2460
+    income:retiro sociedad           -2460
+
+2020/10/16 saco reserva
+    assets:caja               2460
+    assets:reserva           -2460
+
+2020/10/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/10/15 ayuda
+    expenses:comida:ayuda              40
+    assets:caja                       -40
