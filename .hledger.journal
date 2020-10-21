@@ -1955,3 +1955,59 @@ D $1000.00
 2020/10/15 ayuda
     expenses:comida:ayuda              40
     assets:caja                       -40
+
+2020/10/16 enchufe
+    expenses:casa:mantenimiento             200
+    assets:caja                            -200
+
+2020/10/16 gatos
+    expenses:comida:gatos            $600
+    assets:caja                     $-600
+
+2020/10/16 comida
+    expenses:comida             700
+    assets:caja                -700
+
+2020/10/17 mano de obra electricista
+    expenses:casa:mantenimiento             700
+    assets:caja                            -700
+
+2020/10/17 recupero prestamo ih
+    assets:caja                  431
+    assets:deudas ih            -431
+
+2020/10/17 farmacia
+    expenses:gastos medicos:farmacia             431
+    assets:caja                                 -431
+
+2020/10/20 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/10/20 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/10/20 comida cami
+    expenses:cami:comida           $2000
+    assets:caja                   $-2000
+
+2020/10/20 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/10/20 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/10/20 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2020/10/20 compras
+    expenses:comida            6120
+    assets:caja               -6120
+
+2020/10/20 ropa
+    expenses:personal:ropa             300
+    assets:caja                       -300
