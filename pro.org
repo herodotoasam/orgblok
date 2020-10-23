@@ -2482,6 +2482,11 @@ primer mm hecho luego de la obra sobre array
     :LOGBOOK:
     CLOCK: [2020-09-24 Thu 17:36]--[2020-09-24 Thu 17:55] =>  0:19
     :END:
+** 2020-Octubre
+*** [2020-10-23 Fri]
+    :LOGBOOK:
+    CLOCK: [2020-10-23 Fri 18:20]--[2020-10-23 Fri 20:41] =>  2:21
+    :END:
 
 * Anotaciones
 ** Objetivos
@@ -3369,6 +3374,18 @@ timido comienzo muy debil en estudio de js.
    lo que logre con flask. O sea esta bien ir estudiando y aprendiendo
    pero de la mano del proyecto, sino se pierde interes y en realidad
    nunca se hace nada. 
+** semana [2020-10-11 Sun]
+** semana [2020-10-18 Sun]                                            :Flask:
+ Recien hoy [2020-10-23 Fri] me siento por primera vez despues de casi
+ mes y medio y hago el deploy a heroku y funciona aparentemente bien y
+ rapido la aplicacion tanto en busqueda como en la muestra de datos y
+ en el resto de las cosas. Si bien es cierto que estoy con una base
+ reducida a 7000 registros lo mismo para pg no le hace
+ tener 50000. Funciona en el celu, funciona en cuanto a la fluidez de
+ trabajo que es lo que yo temia que no funcionara. 
+ Ahora es un despegue, un gran aliciente a seguir desarrollando, ya
+ que se puede ver lo que se hace directamente desde un resultado
+ real. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

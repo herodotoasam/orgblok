@@ -452,7 +452,7 @@ D $1000.00
     assets:caja                $-600
 
 2020/07/27 taxi hp isabel
-    expenses:transporte             700
+    expenses:transporte:remis             700
     assets:caja                    -700
 
 2020/07/27 lomito
@@ -1921,7 +1921,7 @@ D $1000.00
     assets:caja                                   -2400
 
 2020/10/16 pan
-    100                    $100
+    expenses:comida                    $100
     assets:caja           $-100
 
 2020/10/16 estacionamiento
@@ -2011,3 +2011,71 @@ D $1000.00
 2020/10/20 ropa
     expenses:personal:ropa             300
     assets:caja                       -300
+
+2020/10/22 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/10/22 saco reservas
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/10/22 migral
+    expenses:gastos medicos:farmacia             370
+    assets:caja                                 -370
+
+2020/10/22 liquido limpiar campana acero
+    expenses:comida:limpieza            1100
+    assets:caja                        -1100
+
+2020/10/22 comida
+    expenses:comida             100
+    assets:caja                -100
+
+2020/10/22 comida gatos
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2020/10/22 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
+
+2020/10/22 ospe
+    expenses:servicios:OSPE          $22879
+    assets:caja                     $-22879
+
+2020/10/22 claro
+    expenses:servicios:claro         1379.66
+    assets:caja                     -1379.66
+
+2020/10/22 dgr casa 2020/10-11-12
+    expenses:impuestos:casa:dgr          2356.8
+    assets:caja                         -2356.8
+
+2020/10/22 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/10/22 epec octubre/2020
+    expenses:servicios:epec         3913.50
+    assets:caja                    -3913.50
+
+2020/10/22 aguas 10-11/2020 con vto 17/11 y 15/12
+    expenses:servicios:aguas cordobesas         1704.33
+    assets:caja                                -1704.33
+
+2020/10/22 material arreglo bidet
+    expenses:casa:mantenimiento             200
+    assets:caja                            -200
+
+2020/10/22 dif
+    expenses:diferencia arqueo            8.24
+    assets:caja                          -8.24
+
+2020/10/23 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/10/23 prestamo ih
+    assets:deudas ih           10000
+    assets:caja               -10000
