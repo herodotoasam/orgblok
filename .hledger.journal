@@ -2079,3 +2079,15 @@ D $1000.00
 2020/10/23 prestamo ih
     assets:deudas ih           10000
     assets:caja               -10000
+
+2020/10/25 minisol
+    expenses:comida            2000
+    assets:caja               -2000
+
+2020/10/27 alfajores
+    expenses:comida             800
+    assets:caja                -800
+
+2020/10/28 facturas
+    expenses:comida             250
+    assets:caja                -250
