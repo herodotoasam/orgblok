@@ -2513,7 +2513,13 @@ primer mm hecho luego de la obra sobre array
     :END:
     problematica con las fechas en js y por lo tanto en tab. Precaria
     solucion obtenida con el formatter generico mediante una funcion.
-
+*** [2020-10-29 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-10-29 Thu 14:10]--[2020-10-29 Thu 15:31] =>  1:21
+    :END:
+    puse day.js y con format solucione el tema de la fecha, y con
+    mutator en vez de formatter lo que logre es que transforme el dato
+    subyacente o sea lo mute, lo cual permite p.e. su ordenamiento.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3412,6 +3418,9 @@ timido comienzo muy debil en estudio de js.
  Ahora es un despegue, un gran aliciente a seguir desarrollando, ya
  que se puede ver lo que se hace directamente desde un resultado
  real. 
+** semana [2020-10-25 Sun]                                 :Flask:JavaScript:
+ de a poquito se va comenzando pero pienso que la necesidad de
+ tabulator o sea javascript en el entorno de flask complica todo.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

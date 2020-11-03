@@ -2091,3 +2091,63 @@ D $1000.00
 2020/10/28 facturas
     expenses:comida             250
     assets:caja                -250
+
+2020/10/30 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/10/30 saco reservas
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/10/30 mesada camila
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/10/30 comida camila
+    expenses:cami:comida            2200
+    assets:caja                    -2200
+
+2020/10/30 fumigacion
+    expenses:casa:mantenimiento            1800
+    assets:caja                           -1800
+
+2020/10/29 ayuda
+    expenses:comida:ayuda             $50
+    assets:caja                      $-50
+
+2020/10/30 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/10/30 templado celulares
+    expenses:personal:varios            1200
+    assets:caja                        -1200
+
+2020/10/31 comida
+    expenses:comida             550
+    assets:caja                -550
+
+2020/10/31 comida
+    expenses:comida           800
+    assets:caja            -800
+
+2020/11/02 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/11/02 limpieza
+    expenses:comida:limpieza             940
+    assets:caja                         -940
+
+2020/11/03 pan
+    expenses:comida            $100
+    assets:caja               $-100
+
+2020/11/03 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2020/11/03 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
