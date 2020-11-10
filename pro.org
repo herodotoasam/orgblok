@@ -2520,6 +2520,42 @@ primer mm hecho luego de la obra sobre array
     puse day.js y con format solucione el tema de la fecha, y con
     mutator en vez de formatter lo que logre es que transforme el dato
     subyacente o sea lo mute, lo cual permite p.e. su ordenamiento.
+** 2020-Noviembre
+*** [2020-11-04 Wed]
+    :LOGBOOK:
+    CLOCK: [2020-11-04 Wed 18:35]--[2020-11-04 Wed 20:49] =>  2:14
+    :END:
+    Hoy fue un dia gigante pq resolvi el tema de la seleccion de rows
+    por fecha, y simplificaciones varias como evitar el mutator con
+    una funcion propia de transformacion del arraydata.  Esto lo logro
+    luego de varios dias no registrados de frustracion con tabulator e
+    incluso un dia de prueba con datatables.
+*** [2020-11-05 Thu]
+    :LOGBOOK:
+    CLOCK: [2020-11-05 Thu 17:39]--[2020-11-05 Thu 19:39] =>  2:00
+    CLOCK: [2020-11-05 Thu 11:55]--[2020-11-05 Thu 14:14] =>  2:19
+    :END:
+    capitulo fallido tratando de buscar una solucion para imprimir
+    dentro de js con jspdf. No pude lograrlo.
+    Irritantemente dos horas mas probando, agote todas las
+    posibilidades con jspdf, y ahora voy con el require de
+    pdfmake. Que parece bueno. Y tengo que poder lograrlo. Pero no va
+    a salir a la primera.
+*** [2020-11-10 Tue]
+    :LOGBOOK:
+    CLOCK: [2020-11-10 Tue 11:15]--[2020-11-10 Tue 12:43] =>  1:28
+    CLOCK: [2020-11-10 Tue 13:30]--[2020-11-10 Tue 16:01] =>  2:31
+    :END:
+    Nuevo intento, esta vez hice andar pdfmake, produce un pdf en
+    pantalla, pero no es ductil, no es factible producir datos
+    dinamicamente. Y jspdf no logro hacerlo andar.
+    Es un embole no encontrarle la vuelta a un sistema para que
+    comience a andar no solo para que sea funcional que para eso falta
+    un monton, y si es que anda, y no resulta igual que pdfmaker.
+    Ese seria el paso siguiente, analizar si vale la pena insistir en
+    jspdf o sea si permite la funcionalidad que necesito, sino es
+    mejor inventar la forma de hacer funcionar pdfmake.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3421,6 +3457,12 @@ timido comienzo muy debil en estudio de js.
 ** semana [2020-10-25 Sun]                                 :Flask:JavaScript:
  de a poquito se va comenzando pero pienso que la necesidad de
  tabulator o sea javascript en el entorno de flask complica todo.
+** semana [2020-11-01 Sun]                                       :JavaScript:
+  En realidad son pocas las semanas que le he dedicado a js (7) y
+  varias de las que estan anotadas ahi, son dentro del receso de bajon
+  por la obra y por el bajon subsiguiente, por lo cual pienso que
+  tanto flask como js tienen un gran potencial para desarrollar
+  todavia. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
