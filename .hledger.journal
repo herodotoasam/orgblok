@@ -2277,7 +2277,7 @@ D $1000.00
     assets:caja                -600
 
 2020/11/09 remi cami
-    300                    $300
+    expenses:cami                   $300
     assets:caja           $-300
 
 2020/11/09 remi romi
@@ -2299,3 +2299,87 @@ D $1000.00
 2020/11/09 mesada ih
     expenses:isabel           $1000
     assets:caja              $-1000
+
+2020/11/12 especieros cocina
+    expenses:casa:mantenimiento            2430
+    assets:caja                           -2430
+
+2020/11/12 isabel
+    expenses:isabel             200
+    assets:caja                -200
+
+2020/11/12 pinturas rejas calle
+    expenses:casa:mantenimiento             920
+    assets:caja                            -920
+
+2020/11/12 ayuda
+    expenses:comida:ayuda              60
+    assets:caja                       -60
+
+2020/11/12 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/11/12 farmacia
+    expenses:gastos medicos:farmacia            1930
+    assets:caja                                -1930
+
+2020/11/12 pintura rejas
+    expenses:casa:mantenimiento             730
+    assets:caja                            -730
+
+2020/11/12 comida cami
+    expenses:cami:comida           $2200
+    assets:caja                   $-2200
+
+2020/11/12 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/11/12 comida gato
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2020/11/13 mano de obra pintura rejas
+    expenses:casa:mantenimiento            4200
+    assets:caja                           -4200
+
+2020/11/13 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/11/13 ravioles
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/11/13 mano de obra desague patio cami
+    expenses:casa:mantenimiento            3700
+    assets:caja                           -3700
+
+2020/11/14 lomito
+    expenses:comida            1060
+    assets:caja               -1060
+
+2020/11/14 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/11/15 dif
+    expenses:diferencia arqueo              70
+    assets:caja                            -70
+
+2020/11/16 farmacia
+    expenses:gastos medicos:farmacia            6560
+    assets:caja                                -6560
+
+2020/11/16 peaje
+    expenses:transporte:peajes             160
+    assets:caja                           -160
+
+2020/11/16 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2020/11/16 retiro reserva
+    assets:caja             $10000
+    assets:reserva         $-10000

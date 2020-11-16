@@ -3463,6 +3463,20 @@ timido comienzo muy debil en estudio de js.
   por la obra y por el bajon subsiguiente, por lo cual pienso que
   tanto flask como js tienen un gran potencial para desarrollar
   todavia. 
+** semana [2020-11-08 Sun]                                           :Svelte:
+ empiezo el jueves con svelte para aprenderlo desde la base y luego
+ poder aplicarlo al proyecto, como forma de salirse del bajon que
+ supone el parate de flask. En cierta forma viene a ser como decia ih,
+ estudiar o meterse con algo computacional por mas que no tenga
+ relacion directa con el negocio.
+** semana [2020-11-15 Sun]                                           :Svelte:
+ sigo pensando que flask-python es algo grandioso que es el mejor
+ framework que tuve, y que tendria que seguir aprendiendolo. aunque
+ sea de a poco. Y svelte es algo que se agrega.
+ Hoy surge el interes de volver a bunsen lab, ya que pude lograr
+ impresion limpia desde la notebook con bl. Y siendo que mint esta
+ dando problemas para actualizar.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
