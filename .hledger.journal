@@ -2395,3 +2395,7 @@ D $1000.00
 2020/11/17 jardin
     expenses:casa:mantenimiento:jardineria             500
     assets:caja                                       -500
+
+2020/11/17 fiambre
+    expenses:comida            1100
+    assets:caja               -1100
