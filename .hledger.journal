@@ -2383,3 +2383,15 @@ D $1000.00
 2020/11/16 retiro reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2020/11/17 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/11/17 remi cami
+    expenses:cami             600
+    assets:caja              -600
+
+2020/11/17 jardin
+    expenses:casa:mantenimiento:jardineria             500
+    assets:caja                                       -500
