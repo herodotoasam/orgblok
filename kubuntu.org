@@ -47,7 +47,7 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 sudo apt install hledger hledger-ui hledger-web
 *** ln -s ~/orgblok/.hledger.journal ~/.hledger.jounal
 *** alias hl='hledger'
-alias cj='hl r caja' en .bashrc ambos
+alias cj='hl r asset:caja' en .bashrc ambos
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
