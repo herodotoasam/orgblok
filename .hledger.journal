@@ -2399,3 +2399,7 @@ D $1000.00
 2020/11/17 fiambre
     expenses:comida            1100
     assets:caja               -1100
+
+2020/11/18 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50

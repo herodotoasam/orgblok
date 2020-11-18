@@ -15,11 +15,10 @@ ataraxia76
 **** crear un ln -s a init.el de orgblok
 ln -s ~/orgblok/init.el ~/.emacs.d/init.el
 **** instalar font: Input font for Code
-bajar desempaquetar - doble click en la font y luego install
-**** troubleshoting con algun package no encontrado en melpa
-me paso con yasnippet-20200420 supongamos y en package-list estaba ya
-el 2020-05-22 entonces lo instale a mano y luego siguio la instalacion
-sola.
+sudo apt install font-manager
+bajar InputMono-Regular.ttf - doble click en la font y luego install
+**** troubleshoting con error: Package ‘better-defaults-’ is unavailable
+     cerrar y volver a abrir.
 
 *** copiar .emacs de orblok/
 *** mx package-refresh-contens
@@ -62,6 +61,22 @@ instalar con apt tcl-tclreadline
 copiar de ~/orgblok .tclshrc a ~
 ** python necesarios
 *** libsqlite3-dev
+** fl3 - flask
+*** venv
+  sudo apt install python3-venv
+  python3 -m venv venv
+  source venv/bin/activate
+  eso produce que se comience a ver (venv) antes del prompt
+  pip install flask
+  pip install psycopg2-binary
+  pip install fpdf
+  pip install dateutils
+  pip install wtforms
+  pip install pandas
+  pip install openpyxl
+  
+  
+  
 ** python
 *** python3-tk y python3-pip python3-setuptools
 *** pip3 install modulos

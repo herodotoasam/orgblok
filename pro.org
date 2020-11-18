@@ -3469,7 +3469,7 @@ timido comienzo muy debil en estudio de js.
  supone el parate de flask. En cierta forma viene a ser como decia ih,
  estudiar o meterse con algo computacional por mas que no tenga
  relacion directa con el negocio.
-** semana [2020-11-15 Sun]                                           :Svelte:
+** semana [2020-11-15 Sun]                                :Svelte:TailwinCSS:
  sigo pensando que flask-python es algo grandioso que es el mejor
  framework que tuve, y que tendria que seguir aprendiendolo. aunque
  sea de a poco. Y svelte es algo que se agrega.
@@ -3680,6 +3680,21 @@ mejores fuentes que mint, se ven especialmente en los programas tcl
 *** ruido de base mayor
 pero es algo continuo en cambio el otro molestaba que era variable.
 *** imposibilidad de instalar impresora 
+** [2020-11-18 mié] instalacion bunsen helium debian
+ vamos por partes, hasta ahora recuperada parte tcl, con instalacion
+ de oficina.
+ Se logro hacer andar la impresora. Cuando se pone agregar impresora,
+ aparece en la lista la hp1102. (Esto luego de instalar los paquetes
+ de impresion) y da dos opciones de instalacion, una primera que dice
+ imagen linux no me acuerdo que mas y otra solo "usb". yo probe
+ primero esta segunda y no me anduvo y luego instale otra con la
+ primera opcion y anduvo joya. borre la primera e hice predeterminada
+ esta segunda y tengo impresora andando. 
+ python listo
+ postgres listo
+ flask listo
+ svelte listo
+
 * agenda vim
 ** jump previas posiciones
 C-o C-i
