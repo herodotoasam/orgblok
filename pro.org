@@ -3476,6 +3476,10 @@ timido comienzo muy debil en estudio de js.
  Hoy surge el interes de volver a bunsen lab, ya que pude lograr
  impresion limpia desde la notebook con bl. Y siendo que mint esta
  dando problemas para actualizar.
+ Hoy [2020-11-18 mié] ya estoy en bunsen-lab y estoy aplicandome un
+ poco a svelte. Le entro un poco a tailwin pero veo que es bastante
+ complejo y creo que no vale la pena complicarse por ahora en algo que
+ es marginal por el momento
 
 * agenda emacs
 ** [2020-07-04 Sat]

@@ -2403,3 +2403,75 @@ D $1000.00
 2020/11/18 ayuda
     expenses:comida:ayuda              50
     assets:caja                       -50
+
+2020/11/19 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/11/19 comida
+    expenses:comida            5700
+    assets:caja               -5700
+
+2020/11/19 cuchilla
+    expenses:comida             600
+    assets:caja                -600
+
+2020/11/19 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/11/19 dif
+    expenses:diferencia arqueo              80
+    assets:caja                            -80
+
+2020/11/19 mesada cami
+    expenses:cami:mesada            3000
+    assets:caja                    -3000
+
+2020/11/19 comida cami
+    expenses:cami:comida           $2200
+    assets:caja                   $-2200
+
+2020/11/19 bono ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2020/11/19 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/11/19 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/11/19 hiper
+    expenses:comida             550
+    assets:caja                -550
+
+2020/11/19 ospe
+    expenses:servicios:OSPE          $22879
+    assets:caja                     $-22879
+
+2020/11/19 ecogas 2020/05 vto 03/11/20
+    expenses:servicios:ecogas         3238.66
+    assets:caja                      -3238.66
+
+2020/11/19 epec 10/2020
+    expenses:servicios:epec          3867.3
+    assets:caja                     -3867.3
+
+2020/11/19 aguas cordobesas 10-11/2020
+    expenses:servicios:aguas cordobesas            1718
+    assets:caja                                   -1718
+
+2020/11/19 claro
+    expenses:servicios:claro         1199.99
+    assets:caja                     -1199.99
+
+2020/11/19 saco reservas
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/11/19 carla
+    expenses:isabel             900
+    assets:caja                -900
