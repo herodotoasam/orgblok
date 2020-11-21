@@ -2499,3 +2499,7 @@ D $1000.00
 2020/11/20 isabel
     expenses:isabel             400
     assets:caja                -400
+
+2020/11/20 pollo brasas
+    expenses:comida             570
+    assets:caja                -570
