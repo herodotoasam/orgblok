@@ -2475,3 +2475,27 @@ D $1000.00
 2020/11/19 carla
     expenses:isabel             900
     assets:caja                -900
+
+2020/11/20 ingresos
+    assets:reserva                    5000
+    income:retiro sociedad           -5000
+
+2020/11/20 saco reservas
+    assets:caja               5000
+    assets:reserva           -5000
+
+2020/11/20 carne
+    expenses:comida            5000
+    assets:caja               -5000
+
+2020/11/20 compras
+    expenses:comida            2000
+    assets:caja               -2000
+
+2020/11/20 gatos
+    expenses:comida:gatos            $600
+    assets:caja                     $-600
+
+2020/11/20 isabel
+    expenses:isabel             400
+    assets:caja                -400
