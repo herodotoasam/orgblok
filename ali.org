@@ -5043,7 +5043,88 @@ produce ese estado de soñolencia.
     Son dos temas: lo de hoy es el particularisimo caso de tener un
     compromiso, y no tener herramientas de control sobre la migraña lo
     cual agrava las situaciones, y otro el tema a investigar si la
-    toma prematura del primer migral dispara una migraña. 
+    toma prematura del primer migral dispara una migraña.
+*** objetivo levantarme temprano 
+    Asi sea para sentarme en el patio al fresco a leer. Podria probar
+    distintas estrategias, como p.e. levantarme de una sin la
+    obligacion de las series ni de la cama, ni del desayuno,
+    directamente al patio, al fresco, y luego hacer las series en la
+    mañana alla, o hacerlas en la pieza si se levanto ih pero ya sera
+    mas facil o igual de facil que siempre, y siempre estaran
+    terminadas antes de las 11hs. 
+    O sea quizas se me facilite el salirme de ese circulo dificil. 
+** [2020-11-22 dom]
+*** renacimiento de la lectura
+    tanto la lectura re-lectura de los grandes libros que tengo en
+    moon, con los que tengo en play-store, como algunos nuevos que
+    pueda comprar en play-store. Incluso articulos que tengo en pocket
+    Pero pienso que podria reiniciar una etapa relectora y eso seria
+    muy bueno. Por la lectura es la puerta a la actividad mental, a
+    una vuelta a la actividad mental que quedo un poco relegada,
+    adormecida por tiempos de estar mal. 
+*** positivo esperar para toma de migral
+    espere hasta las 17hs y con una brevisima siesta de recuperacion
+    que no llegue a dormirme, logre recuperarme o sea a lograr que el
+    migral hiciera efecto.
+*** movimiento generalizado
+    en estos ultimos cuatro dias, incluyendo hoy, desde el desgano
+    total del miercoles a hoy, que estoy sumido en multiples
+    actividades tanto de lectura, como de videos, como de escritura,
+    como de reflexion, como de estudio de programacion. Aparte que
+    tengo algo de motivacion para levantarme mas temprano o de no
+    dormir tanto para tener mas tiempo. Y no he visto nada en netflix,
+    lo cual me queda como reserva por las dudas me quede algo de
+    tiempo si me aburro.
+*** hacia 283 dias continuados de reflexion en CT.
+    pienso en que otro seria mi estado de animo si todos los dias
+    leyera aunque sea un capitulo de un libro de cabecera. Si los
+    ultimos 283 dias lo hubiese hecho, tal como hice las series. Una y
+    otra vez. Impregnando. 
+** [2020-11-23 lun]
+*** me levanto impresionantemente debil
+    dia lunes feriado, debe ser que la falta de ruido no me despierta,
+    y me despierto recien a las 10hs, todo dolorido de espaldas
+    cruzadas. Intento seguir durmiendo pero pero al rato me levanto y
+    hago sin mucha dificultad la rutina de la mañana y del lunes,
+    series y cambio de sabanas. Desayuno breve pq no tengo hambre un
+    cafe chico con un par de rebanaditas de torta seca sin nada y al
+    levantarme del desayuno parece que una aplanadora me paso por
+    encima.
+    Estoy fusilado, apolillado, enmohecido, adormilado, rigido,
+    embrutecido, sofocado, parece que el caminar de la cocina al
+    dormitorio me va a hacer salir el corazon por la boca. 
+    Se que mejorara durante el dia.
+*** enumeracion
+**** reflexion en emacs
+**** cambio de "canal" en youtube al trabajar - canal filosofico
+**** hacia 283 dias de impregnacion CT. 
+**** lecturas
+**** computadora todo el dia en stand-by
+**** estudio de a ratos
+*** cambios en licuado
+    el cambio mas importante seria usarlo como desayuno y/o merienda y
+    no como 5/6ta comida. El cambio de formato es guardar la jarra en
+    la heladera y servirme a medida que lo voy necesitando. Si es
+    posible acompañarlo con alguna fruta y eliminar una ingesta de
+    cafe/panificados, tal cual hacia en mi dpto. 
+    Este es el primero en una lista de cambios que tengo pensado.
+*** dia de migraña lamentosa
+    hoy no funciono la toma de un unico migral, se disparo una molesta
+    migraña intermedia, luego me levante con bastante dolor, me tome
+    10mg de corticoide, dos vasos de licuado dos bananas mientras vi
+    capitulo y medio de serie, pero el dolor no se iba y el calor era
+    agobiante, luego me fui de nuevo a la pieza con aire y el dolor no
+    cedia aunque lo pasaba leyendo pq era un N4 molesto, y tipo 20 me
+    levanto pido que me hagan unos bifes para cenar y tomo un segundo
+    migral con un ya N5punzante, esperando que se vaya por una vez
+    esta mierda. 
+*** mayor productividad
+    me gustaria darle mayor productividad al dia, en todos los
+    sentidos, ya sea en la lectura, ya sea en la vista de videos
+    especificos, ya sea en el estudio y practica, y no tener estos
+    dias como hoy tan escasos y trabados por el dolor de cabeza. 
+*** objetivo spining
+    ya tengo la bici, falta poner la voluntad de hacerlo. 
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5051,4 +5132,8 @@ produce ese estado de soñolencia.
  Respecto al tema del capitulo, salvo algunas ideas que no comparto,
  veo que tiene razon en varias cosas y quizas se requieran varias
  relecturas para que sirva a un proceso de inmersion.
-
+** [2020-11-22 dom] Cap 1 CT los dos paradigmas que mueven al mundo
+** [2020-11-23 lun] Cap 2 CT Vivir sin miedo 
+* reg-filosofia
+** [2020-11-22 dom] Clase 1: Descartes
+** [2020-11-23 lun] Clase 2-3 - Encuentro 1

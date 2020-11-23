@@ -2503,3 +2503,11 @@ D $1000.00
 2020/11/20 pollo brasas
     expenses:comida             570
     assets:caja                -570
+
+2020/11/23 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/11/23 facturas
+    expenses:comida             300
+    assets:caja                -300
