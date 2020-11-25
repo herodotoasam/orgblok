@@ -5099,6 +5099,7 @@ produce ese estado de soñolencia.
 **** cambio de "canal" en youtube al trabajar - canal filosofico
 **** hacia 283 dias de impregnacion CT. 
 **** lecturas
+**** filosofia lectura-videos
 **** computadora todo el dia en stand-by
 **** estudio de a ratos
 *** cambios en licuado
@@ -5117,7 +5118,7 @@ produce ese estado de soñolencia.
     cedia aunque lo pasaba leyendo pq era un N4 molesto, y tipo 20 me
     levanto pido que me hagan unos bifes para cenar y tomo un segundo
     migral con un ya N5punzante, esperando que se vaya por una vez
-    esta mierda. 
+    esta mierda. Y ya durante la cena se me fue.  
 *** mayor productividad
     me gustaria darle mayor productividad al dia, en todos los
     sentidos, ya sea en la lectura, ya sea en la vista de videos
@@ -5125,6 +5126,106 @@ produce ese estado de soñolencia.
     dias como hoy tan escasos y trabados por el dolor de cabeza. 
 *** objetivo spining
     ya tengo la bici, falta poner la voluntad de hacerlo. 
+** [2020-11-24 mar]
+*** dia muy agobiante temperatura muy alta 
+    desde la mañana mas de 30 y llega a los 37 a la siesta.
+*** me levante con gran esfuerzo media hora antes
+    cuando me desperte tipo 9.15 no me forze o permiti volverme a
+    dormir sino que intente despertarme y termine levantandome un poco
+    antes. Desayuno un vaso de licuado leyendo twitter en la
+    cocina. Resultado bastante mejor que ayer. Un poco de sueño pero
+    no tan destruido. 
+*** a partir de hoy licuado es reemplazo de desayuno - como agua
+    como agua es reemplazo de gaseosa. 
+    Para eso arbitro los medios de comprar mas insumos y hacer mas
+    cantidad.
+    El tener la jarra en la heladera ayuda mejor que el tenerlo
+    embotellado pienso para la distribucion.
+*** MUY IMPORTANTE: idea de empezar un proyecto python clasico
+    la idea proviene por un fracaso de lograr toda la informatividad
+    de la empresa en javascript que seria lo que se necesita, cuando
+    pe estoy totalmente trabado con el tema impresion que no puedo ni
+    siquiera instalarlo, ni hablemos ya de hacerlo funcionar.
+    Estos ultimos dias aprendi un poco de svelte pero me choco con la
+    falta de documentacion y la sincronizacion con flask es chino
+    basico. Es un tema para pensar. Y surgen muchas preguntas, si es
+    un proyecto para beneficio del negocio o para consumo personal del
+    tiempo, si es para ir a postgres o se quedara en sqlite o quedara
+    abierto a las dos. 
+    pq el sistema elegido python-wx no es facil tampoco, es todo un
+    paquete que hay que aprender, pero lo que apuesto es a una curva
+    lineal o sea de aprendizaje-practica, o sea que permita que uno se
+    entusiasme y se vuelva a prender el el fuego sagrado.
+    preliminarmente, me orientaria a una aplicacion liviana muy
+    reducida que hiciera incapie en el analisis de datos aprovechando
+    la potencia de python en eso. 
+** [2020-11-25 mié]
+*** informe a una semana de reflexion
+    hoy cierro una semana con reflexion despues de un tiempo de status
+    bajo o abotargado total. Y que puedo decir de resumen?: que
+    claramente las mañanas son por mucho mas dificiles, tanto por lo
+    dificil que resulta levantarse, cumplir con la rutina, como la
+    culpa que me ocasiona levantarme tarde, en especial cuando es una
+    mañana luminosa plena de movimiento. El desgano, el apolillamiento
+    fisico, la extremada debilidad fisica, el no saber que hacer. 
+    A eso le sumas que a esa hora de la mañana te invade un sueño de
+    locos, que no podes despertarte ni con un cafe de medio litro y
+    eso que has dormido doce horas. Y si le agregas incomodidad fisica
+    como ayer un dia de mierda que ya a las 10 hacia mas de 30 grados
+    y estaba insufrible. Encima no estoy solo en esto de estar boyando
+    en la nada, esta ih, y en los pocos dias en que ella hace limpieza
+    gral tambien me siento mal pq yo no hago nada, y si ella no hace
+    nada tambien me siento mal pq somos dos los que no hacemos nada.
+    Felizmente el resto del dia aflojan un poco la mayoria de los
+    sintomas: la soñolencia pasa, la extrema debilidad tambien, se van
+    encadenando actividades, rapidamente viene la tarde, que nunca me
+    parece larga y llega la noche que nunca se me presenta como
+    problema.
+    O sea que se podria ver como algo bastante claro: tengo todavia
+    pruritos sobre el trabajo y esos se manifiestan fuertemente en el
+    horario que presumiblemente tendria que dedicar al trabajo, y
+    disminuyen en los tiempos que son propios. En los cuales no
+    presento sintomas de aburrimiento ni encierro ni hastio, sino que
+    es un problema de trabajo.
+    Por eso el sueño recurrente que tengo es la reapertura de la
+    oficina, en distintos formatos oniricos, se trata de poner en
+    orden una estructura organizativa totalmente desordenada y volver
+    a la normalidad, pero nunca se termina de lograr en el sueño.
+*** breve vida del proyecto electron.js
+    ahi nomas quedo, pq no pude siquiera echar andar la primera
+    ventana. O sea el primer paso fallido. Es inimaginable los
+    problemas futuros, tal como paso con el anterior proyecto que
+    necesitaba js, y que llego a un punto muerto cuando necesitaba de
+    la impresion o de mayores conocimientos de js. 
+*** crisis de programacion - resolucion
+    desde ayer que cai en una crisis de programacion que me hizo
+    pensar en todas las variantes posibles, pasando fuertemente por la
+    posibilidad de electron.js. 
+    Aunque solucione el cuello de traba de electron.js lo considero
+    enormemente complicado como para lograr algo parecido a lo que ya
+    tenemos avanzado con flask.
+    pense en python-wx, incluso en tcl-tablelist y llegue a la
+    conclusion que lo mejor es seguir aprendiendo Flask y Svelte,
+    fundamentalmente flask primeramente.
+    Como ya tengo un proyecto funcionando, el fl3 toda cosa nueva que
+    aprenda y que pueda ser aplicada al proyecto la pondre y mientras
+    tanto ire aprendiendo. ¿Como? viendo proyectos reales de
+    github. Hay mas de 100000 proyectos flask ahi, algunos me deben
+    servir. 
+*** flask-sqlite3(local)-pandas
+    o sea leer el archivo de romitex.db e interpretarlo con pandas
+    emitiendo informes a medida y expresarlos con flask, seria una
+    practica en flask, en pandas, en tabulator, seria aprender el
+    binding con sqlite y permitiria sacarle provecho inmediato a esos
+    conocimientos.
+*** falta de confianza en el aprendizaje cuando se pone duro el camino
+    muchas veces en distintas vias que ha tomado este camino desde que
+    empezo la pandemia, he pensado que mi mente se ha contraido que mi
+    inteligencia se ha evaporado, que ya no soy capaz de lograr estas
+    cosas que son muy dificiles. Y tambien pienso que es falta de
+    motivacion, y de trabajo arduo para superar la incomodidad del
+    aprendizaje.
+
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5134,6 +5235,10 @@ produce ese estado de soñolencia.
  relecturas para que sirva a un proceso de inmersion.
 ** [2020-11-22 dom] Cap 1 CT los dos paradigmas que mueven al mundo
 ** [2020-11-23 lun] Cap 2 CT Vivir sin miedo 
+** [2020-11-24 mar] Cap 2 CT Vivir sin miedo Visualizacion
+** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
+** [2020-11-24 mar] Clase 4-5 - Encuentro 2 - 3
+** [2020-11-25 mié] Encuentro 4

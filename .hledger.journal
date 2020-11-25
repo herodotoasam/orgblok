@@ -2511,3 +2511,19 @@ D $1000.00
 2020/11/23 facturas
     expenses:comida             300
     assets:caja                -300
+
+2020/11/24 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/11/25 mesada cami
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2020/11/25 comida cami
+    expenses:cami:comida           $2200
+    assets:caja                   $-2200
+
+2020/11/25 comida
+    expenses:comida            2100
+    assets:caja               -2100

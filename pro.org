@@ -3480,6 +3480,11 @@ timido comienzo muy debil en estudio de js.
  poco a svelte. Le entro un poco a tailwin pero veo que es bastante
  complejo y creo que no vale la pena complicarse por ahora en algo que
  es marginal por el momento
+** semana [2020-11-22 dom]                                     :Svelte:Flask:
+    termine un crud en svelte y los primeros palotes ya los se hacer,
+    ahora me falta mucho de flask para ver si puedo mejorar la
+    implementacion y ver en donde puede entrar js o svelte en el
+    proyecto.
 
 * agenda emacs
 ** [2020-07-04 Sat]
@@ -3693,7 +3698,11 @@ pero es algo continuo en cambio el otro molestaba que era variable.
  imagen linux no me acuerdo que mas y otra solo "usb". yo probe
  primero esta segunda y no me anduvo y luego instale otra con la
  primera opcion y anduvo joya. borre la primera e hice predeterminada
- esta segunda y tengo impresora andando. 
+ esta segunda y tengo impresora andando.[despues en una oportunidad
+ una de las primeras, luego no ocurrio mas, se reinstalo sola la hp,
+ quedando dos iconos e imprimir una vez con el segundo icono, y luego
+ no anduvo mas, pero el primer icono funciono bien, y entonces borre
+ el segundo y deje el que originalmente habia instalado] 
  python listo
  postgres listo
  flask listo
@@ -4266,6 +4275,9 @@ Ya le saque la funcion seleccionar filas, bastante bien, creo que con
 eso tengo solucionado el problema de la seleccion de filas para el
 /F6. con boton de marcar las del dia, y luego con los ticks que es
 facil agregar o sacar algo. y los movimientos que permite el tabulator
+** requirements.txt
+pip install -r requirements.txt
+para instalar los requirements
 * Flask-desarrollo
 ** pagos
 *** DONE hacer los triggers
