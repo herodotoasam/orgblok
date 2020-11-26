@@ -2525,5 +2525,9 @@ D $1000.00
     assets:caja                   $-2200
 
 2020/11/25 comida
-    expenses:comida            2100
-    assets:caja               -2100
+    expenses:comida            1700
+    assets:caja               -1700
+
+2020/11/26 remi cami
+    expenses:cami            $600
+    assets:caja             $-600

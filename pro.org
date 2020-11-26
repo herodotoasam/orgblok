@@ -4278,6 +4278,14 @@ facil agregar o sacar algo. y los movimientos que permite el tabulator
 ** requirements.txt
 pip install -r requirements.txt
 para instalar los requirements
+** dotenv DEBUG=true
+   para que debug sea true y otras configuraciones no tengamos que
+   hacerlas manualmente cada vez que abramos la terminal podemos usar 
+pip install python-dotenv
+y poner un archivo .flaskenv que contenga lo siguiente
+DEBUG=True
+FLASK_ENV=development
+FLASK_APP=app.py
 * Flask-desarrollo
 ** pagos
 *** DONE hacer los triggers
@@ -4293,3 +4301,9 @@ html.
 ** Tabulator
 ** Login
 ** JS
+* DOM
+** selector
+*** querySelector querySelectorAll
+document.querySelector[All]('.card|#pepino|a)
+*** getElementbyId
+document.getElementById('pepino')

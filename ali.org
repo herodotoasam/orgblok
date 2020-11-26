@@ -5225,6 +5225,39 @@ produce ese estado de soñolencia.
     cosas que son muy dificiles. Y tambien pienso que es falta de
     motivacion, y de trabajo arduo para superar la incomodidad del
     aprendizaje.
+** [2020-11-26 jue]
+*** todavia en crisis sobre que camino tomar en la programacion
+    si seguir insistiendo con flask, si volver a tcl, si ponerme en
+    python. 
+    Para contar toda la verdad esta mañana hice una adaptacion a un
+    trabajo hecho para postgres a sqlite con total rapidez y ahora es
+    operativo en sqlite transparentemente, y permite ver (eso es nuevo
+    y lo desarrolle hoy) el pivot en tabulator, con opcion de suma/avg
+    en bottom-up, actualizables, y con posibilidad mas o menos facil
+    de ponerle un filtrado. O sea una vista bastante agradable y
+    usable se puede decir de lo que cobraron y ganaron los cobradores
+    durante el tiempo de pandemia.
+    En cierta forma es un paquetito de desarrollo lo que se logro en
+    un rato de programacion, pero desanima un poco que no se le ve la
+    luz al final del tunel, y pensemolo bien, la integracion con
+    heroku suena lejana en estos momentos pq no hay presupuesto ni
+    voluntad de lograrlo. 
+    Hay que separar por partes lo hecho es aprender pandas (insert
+    filas al dataframe) aprender tabulator (totalizar en botton y up,
+    filter) y hasta el propio pyhton con el list.insert. Todo muy
+    lindo para seguirle encontrando la vuelta y multiplicarlo por 100,
+    o sea si lo hecho hoy lo multiplicamos por 100, pienso que algo va
+    a salir. Hay que reestudiar y redocumentar todo para que no quede
+    en la nada.
+*** surge entusiasmo con el estudio del DOM 
+    empezando a manipular las tablas de html, pienso que hay bastante
+    por hacer alli con js. O sea para lograr cosas adhoc, o sea cosas
+    que realmente yo necesito de la tabla-html que por lo demas es
+    bastante buena a los fines practicos necesito un conocimiento
+    total del dom. Y la serie de videos de mircha del dom creo que va
+    a entregar ese conocimiento y la posibilidad de manejar algunas
+    cosas basicas al menos. p.e. totalizar ese seria un avance
+    gigante.
 
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
@@ -5237,8 +5270,10 @@ produce ese estado de soñolencia.
 ** [2020-11-23 lun] Cap 2 CT Vivir sin miedo 
 ** [2020-11-24 mar] Cap 2 CT Vivir sin miedo Visualizacion
 ** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
+** [2020-11-26 jue] Cap 3 CT 
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
 ** [2020-11-24 mar] Clase 4-5 - Encuentro 2 - 3
 ** [2020-11-25 mié] Encuentro 4
+** [2020-11-26 jue] Clase 6
