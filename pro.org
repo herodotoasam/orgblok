@@ -3480,7 +3480,7 @@ timido comienzo muy debil en estudio de js.
  poco a svelte. Le entro un poco a tailwin pero veo que es bastante
  complejo y creo que no vale la pena complicarse por ahora en algo que
  es marginal por el momento
-** semana [2020-11-22 dom]                                     :Svelte:Flask:
+** semana [2020-11-22 dom]                          :Svelte:Flask:JavaScript:
     termine un crud en svelte y los primeros palotes ya los se hacer,
     ahora me falta mucho de flask para ver si puedo mejorar la
     implementacion y ver en donde puede entrar js o svelte en el

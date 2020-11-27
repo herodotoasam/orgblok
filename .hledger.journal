@@ -2531,3 +2531,7 @@ D $1000.00
 2020/11/26 remi cami
     expenses:cami            $600
     assets:caja             $-600
+
+2020/11/27 lady
+    expenses:comida:gatos            $450
+    assets:caja                     $-450

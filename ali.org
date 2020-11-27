@@ -5258,7 +5258,33 @@ produce ese estado de soñolencia.
     a entregar ese conocimiento y la posibilidad de manejar algunas
     cosas basicas al menos. p.e. totalizar ese seria un avance
     gigante.
-
+** [2020-11-27 vie]
+*** me levante mas temprano hoy
+    pq desperte mas temprano en forma natural y me levante, desayune
+    dos vasos de licuado, pero me atrapa la soñolencia.
+*** a todo vapor con el DOM
+    son 44 videos del DOM con jonmircha que van bien, ya pase 10 y voy
+    con practica, lo cual es bueno pq metiendo mano en codigo uno se
+    va acostumbrando al manejo de las cuestiones. Tambien voy haciendo
+    la chuleta completa con numero de video anotado, para repaso
+    posterior.
+*** ayer decia que lo de ayer lo tenia que multiplicar por 100 (flask/tabulator/js...)
+    que no estaba mal lo poco o mucho que se habia logrado, pero que
+    era necesario seguir esforzandose aun mas en el camino de tener
+    que aprender bien la cosa. pq una cosa es leer someramente otra
+    cosa es aprender algo, una cosa es escuchar los videos otra cosa
+    es estar con la maquina haciendo las cosas, eso tiene mucho mas
+    valor, y si al final llegan ejercicios mucho mejor. Los ejercicios
+    o ejemplos hechos por nuestra cuenta son valiosisimos a la hora de
+    internalizar los conceptos. 
+    Pero pensaba que si poco a poco sigo por ese camino con confianza
+    sin fijarme en el resultado del proyecto pero aprendiendo lo que
+    deba aprender hasta lograr el multiplo de 100 veces lo de hoy, o
+    sea unos tres meses continuados, entonces creo que se veran
+    cambios.
+*** 25 hs para releer filosofia y 10 para releer CT
+    en ambos casos pienso que hago bien pq aunque son relecturas, lo
+    son de material que me hace bien leerlo.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5271,9 +5297,11 @@ produce ese estado de soñolencia.
 ** [2020-11-24 mar] Cap 2 CT Vivir sin miedo Visualizacion
 ** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
 ** [2020-11-26 jue] Cap 3 CT 
+** [2020-11-27 vie] Cap 3 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
 ** [2020-11-24 mar] Clase 4-5 - Encuentro 2 - 3
 ** [2020-11-25 mié] Encuentro 4
-** [2020-11-26 jue] Clase 6
+** [2020-11-26 jue] Clase 6: Kant
+** [2020-11-27 vie] Clase 7: Kant y las vanguardias
