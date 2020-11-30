@@ -3485,7 +3485,7 @@ timido comienzo muy debil en estudio de js.
     ahora me falta mucho de flask para ver si puedo mejorar la
     implementacion y ver en donde puede entrar js o svelte en el
     proyecto.
-
+** semana [2020-11-29 dom]                                   :JavaScript:Vue:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

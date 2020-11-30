@@ -2535,3 +2535,35 @@ D $1000.00
 2020/11/27 lady
     expenses:comida:gatos            $450
     assets:caja                     $-450
+
+2020/11/28 lomito
+    expenses:comida             700
+    assets:caja                -700
+
+2020/11/30 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/11/30 dif
+    expenses:diferencia arqueo              37
+    assets:caja                            -37
+
+2020/11/30 comida gatos
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2020/11/30 limpieza
+    expenses:comida:limpieza             200
+    assets:caja                         -200
+
+2020/11/30 chia
+    expenses:comida             780
+    assets:caja                -780
+
+2020/11/30 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/11/30 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000

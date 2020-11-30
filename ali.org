@@ -5285,6 +5285,63 @@ produce ese estado de soñolencia.
 *** 25 hs para releer filosofia y 10 para releer CT
     en ambos casos pienso que hago bien pq aunque son relecturas, lo
     son de material que me hace bien leerlo.
+** [2020-11-28 sáb]
+*** gigante avance practico sobre lo aprendido
+    logre que una tabla html pueda tener filas resaltadas como
+    seleccionadas y deseleccionadas con el raton.
+#+BEGIN_EXAMPLE javascript
+    const markSelected = (row)=>{
+        row.classList.toggle('selected');
+    }
+    const $rows = document.querySelectorAll("tbody tr");
+    $rows.forEach((el)=>{
+        el.setAttribute("onclick","markSelected(this)")
+    })
+#+END_EXAMPLE
+*** debo superar la btf y ser mas paciente con el estudio
+    no creo que deba destinar solo dias a aprender y dominar ciertas
+    cosas sino que debo aplicarme mas, quizas no lo estoy haciendo lo
+    suficientemente hard, como lo hacen otros, y por eso no avanzo no
+    porque no tenga la capacidad de hacerlo, por eso es motivador
+    escuchar historias reales de otros programadores que han dedicado
+    tiempo a aprender y les ha llevado tiempo aprender pero a lo mejor
+    se han puesto muchas horas por dia. No solo un poquito como es lo
+    que yo hago.
+** [2020-11-29 dom]
+*** hay que ser firmes en el plan de estudios
+    hay que completar los 44 capitulos del DOM, hay que recibirse de
+    dom. pq es algo basico de js que tenemos que saber. Igual que
+    luego tenemos que saber los 50 capitulos de ajax. Y luego aprender
+    vue, o irlo aprendiendo en paralelo puede ser si se quiere pero
+    sind dejar ese plan original. Son skill necesarias. Y recien con
+    esas skill nuevas adquiridas encarar el reunificar una aplicacion
+    flask/vue. 
+    Ese es un problema recurrente mio, no ser paciente y no ser
+    consecuente, persistente en un proposito hasta lograrlo. Puede que
+    me lleve mas tiempo pero lo lograre. 
+** [2020-11-30 lun]
+*** decidi dejar en stand-by filosofia por ahora
+    lo que pasa que esta tomando un poco de vuelo el estudio de
+    computacion y filosofia requiere un poco de concentracion y no
+    quiero distraccion y no le entiendo un pomo. 
+*** voy a probar el tutorial js/ejemplos/ejercicios
+    el tutorial de js es muy bueno, quizas un poco de alto nivel, pero
+    es verdad tambien que me he salteado muchos temas tambien. Pero
+    los ejercicios son fabulosos, y el #codepen que te marca como
+    hacerlos y ves el resultado ahi nomas, y podes copiar y practicar
+    en tu pagina y readaptarlo a tu conveniencia, todo bien, creo que
+    se podria ir mas agil que con jonmircha en muchos casos. 
+    Creo que hice mas a la tarde con js que lo que hice en el dia con
+    jmircha. Voy a seguir la implementacion de js en maquina. pq es
+    diferente que leerlo en el celu. 
+*** ya he avanzado bastante en mi codigo ejemplo de tabla con js
+    no solo puedo seleccionar filas y ese codigo ha cambiado muchisimo
+    ya, sino que hoy incorpore sorteado por columnas, y tengo ya una
+    pista sobre como hacer el totalizado.
+*** capaz que lo que falte al sistema de estudio sea una hoja escrita A4
+    en donde vaya apuntando cosas que tenga que recordar, tipo
+    CM. Para tener como base para repasar, y recordar, que seria el
+    circulito perfecto que faltaria. 
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5298,6 +5355,9 @@ produce ese estado de soñolencia.
 ** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
 ** [2020-11-26 jue] Cap 3 CT 
 ** [2020-11-27 vie] Cap 3 CT
+** [2020-11-28 sáb] Cap 3 CT
+** [2020-11-29 dom] Cap 3 CT
+** [2020-11-30 lun] Cap 4 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
