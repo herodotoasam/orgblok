@@ -2567,3 +2567,19 @@ D $1000.00
 2020/11/30 saco reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2020/12/01 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/01 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/12/01 comida cami
+    expenses:cami:comida            2500
+    assets:caja                    -2500
+
+2020/12/01 bono cami
+    expenses:cami:extras           10000
+    assets:caja                   -10000

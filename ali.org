@@ -5342,6 +5342,26 @@ produce ese estado de soñolencia.
     en donde vaya apuntando cosas que tenga que recordar, tipo
     CM. Para tener como base para repasar, y recordar, que seria el
     circulito perfecto que faltaria. 
+** [2020-12-01 mar]
+*** Hoy me levante a las 8hs!!!
+    habia puesto el reloj a las 7.30hs, pero lo postergue y luego de
+    algunas divagaciones, me termine levantando ocho menos diez.
+    hice los ejercicios rutina normal, y me tome un cafe con galletas
+    viendo arriba-cordoba. y a las 8.35 estoy presto a comenzar la
+    jornada de estudio dos horas antes de lo normal, con una
+    soñolencia igual que antes.
+    Pero sabiendo que el factor que despeja la soñolencia es la
+    luminosidad. Asi que antes de empezar me voy a ir a tomar un poco
+    de luz.
+*** abro registro de lev-temprano para instaurarlo como 6to habito
+    dos horas mas como minimo creo que van a pesar, y por el momento
+    voy a atacar dos "argumentos" que me decia para dormir de mas, uno
+    la dureza de decirme que levantarme temprano era hacer spinning,
+    eso por ahora queda voluntario, o queda para una segunda etapa, y
+    el que voy a hacer con tanto tiempo si me levanto temprano y
+    duermo menos, y la repuesta estara en estudiar mas, o sea en
+    seguir los cursos que me lleven a salir adelante del marasmo del
+    tutorial-hell y me metan de lleno en un area productiva.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5358,6 +5378,7 @@ produce ese estado de soñolencia.
 ** [2020-11-28 sáb] Cap 3 CT
 ** [2020-11-29 dom] Cap 3 CT
 ** [2020-11-30 lun] Cap 4 CT
+
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5365,3 +5386,7 @@ produce ese estado de soñolencia.
 ** [2020-11-25 mié] Encuentro 4
 ** [2020-11-26 jue] Clase 6: Kant
 ** [2020-11-27 vie] Clase 7: Kant y las vanguardias
+* reg-lev-temp
+| dia              | hora | spin |
+| [2020-12-01 mar] | 7.50 | -    |
+|                  |      |      |
