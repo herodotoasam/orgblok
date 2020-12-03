@@ -2583,3 +2583,23 @@ D $1000.00
 2020/12/01 bono cami
     expenses:cami:extras           10000
     assets:caja                   -10000
+
+2020/12/02 farmacia
+    expenses:gastos medicos:farmacia            1710
+    assets:caja                                -1710
+
+2020/12/03 pan
+    expenses:comida            $300
+    assets:caja               $-300
+
+2020/12/03 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/03 comida
+    expenses:comida            3500
+    assets:caja               -3500
+
+2020/12/03 pan dulce
+    expenses:comida             700
+    assets:caja                -700

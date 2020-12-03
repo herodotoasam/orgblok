@@ -5362,6 +5362,87 @@ produce ese estado de soñolencia.
     duermo menos, y la repuesta estara en estudiar mas, o sea en
     seguir los cursos que me lleven a salir adelante del marasmo del
     tutorial-hell y me metan de lleno en un area productiva.
+** [2020-12-02 mié]
+*** "de vuelta" sintonizo "volver" con python-wxpython
+    cada vez que veo el email de la subscripcion de pythoncode, me
+    pasa lo mismo, o sea me vienen ganas de pythonizar a tiempo
+    completo, y a hacerlo via wx o pyqt. En ambos casos empiezo por
+    indagar como son las tablas, y de acuerdo a eso empiezo a ver las
+    posibilidades, en ambos casos sistemas complejisimos, al lado de
+    tkinter, que ya lo manejaba bastante bien. Todo para que? para un
+    sistema que no superara en prestaciones al que ya tengo con tcl,
+    salvo por el acceso de python a pandas y el analisis de datos que
+    es otra materia para estudiar aparte. 
+    Toda esa vaina normalmente me lleva una hora una hora y media,
+    hasta que me doy cuenta que es inviable completamente, que es
+    volver al pasado y encima sin muchas posibilidades de exito. 
+*** hice mi primera serie de push-up despues de...!!
+    con esos videos de calistenia que muestran el grafico de mas facil
+    a mas dificil, con un push-up "facil" con rodillas en el piso, me
+    anime a probar e hice una serie.
+*** PHP-PHP-PHP-PHP-PHP-PHP-PHP-PHP-PHP-
+    la puta madre me enganche con la idea de estudiar php en crudo, no
+    ligado a laravel, ni a ningun framework sino puro para hacer una
+    pagina cruda, lo basico de la web, conocimientos basicos, no
+    compite con js sino que es complementario van juntos php en el
+    backend, js en el frontend. Y python???????. Bueno ahi quedo solo
+    por falta de implementacion. Pero lo sabido no se pierde. 
+    Pero perderia pandas... Y eso quiza sea inaceptable, tengo armado
+    ya con python y flask un suficiente andamiaje como para presentar
+    datos de base de datos, y formularios, y todo eso, pero me falta
+    interactividad, y eso la unica forma de lograrlo es con javascript
+    no hay otra forma, php es un backend, es una competencia de
+    python, y python lo esta haciendo mejor. En mi caso p.e. tengo el
+    analisis de datos incluido que perderia con php. Una lastima. 
+*** que gigante commit que meto a las 22hs una funcion resuelta en 1 minuto
+    resolvi el tema de la totalizacion de filas en forma muy modular
+    un problema gigante yendo paso por paso, o sea haciendo primero la
+    estructura, o sea poniendo la fila, sacandola, y luego haciendo el
+    algoritmo para una columna, y luego con un ciclo for, fue cuestion
+    de un minuto para generalizarla para el todo, una pinturita. Vale
+    la pena estudiar el codigo despues pq no parece que lo hubiese
+    hecho yo. 
+*** realmente se aprende mucho con los ejercicios y con el curso de js
+    todo lo que se hasta ahora de js que pienso que lo puedo
+    multiplicar por 20 en las proximas semanas es una buena base como
+    para luego agregarle vue, y luego unirlo con flask para realmente
+    producir codigo de calidad. 
+*** me pase momentaneamente a vim con un live-server genial de npm
+    el server es muy solido se arranca en una terminal y es compacto,
+    solo hay que seguir viendo los cambios que se van reflejando.
+    Trabajar con vim me gusta mas pq no tengo las interferencias de
+    pantalla que tiene visualcode que molestan mucho, y a la vez no
+    dependemos tanto de los autocompletados.
+** [2020-12-03 jue]
+*** es increible el avance que le di a las tables
+    no pensaba que con js puro iba a tener el totalizador tan rapido. 
+    Esto me da la pauta que con el curso de Mircha se aprende un
+    monton, a pesar de que el tipo es irritante a veces, pero sabe un
+    monton, y es humilde, eso tiene de bueno, no es como los de fatz o
+    platzi que son unos agrandaddos. 
+    Lo importante es la lateralidad del codigo, o sea que haciendo
+    ejercicios del dom que aparentemente no tenian nada que ver con lo
+    que yo estaba haciendo encuentro la llave y la inspiracion
+    necesaria para desarrollar la tecnologia mia. 
+    hoy habiendo pasado a dos archivos un js y un css independientes y
+    cargables, y aplicables a cualquier archivo, quedo totalmente a la
+    mano de hacer el cuadro que quiera. 
+*** quiero multiplicar lo que ya se ahora por 20
+    esa es la meta, hacer todo el curso de javascript y luego pasar al
+    mundo del css o de vue 
+*** lo que permite aprender es la practica y un proyecto
+    lamentablemente ver videos sin practica no te lleva a nada, es muy
+    teorico, tenes que hacer ejercicios, y tambien los proyectos
+    propios en los cuales poder ir engarzando los conocimientos, pq
+    sino no tenes donde aplicar lo que vas haciendo, por eso en un
+    momento hoy me sentia como que despues de haber hecho el
+    totalizador me quede sin nada. Pero no tendria que ser asi:
+*** el proyecto tiene que ser hacer en tables-html las funciones de tablelist-nemethi
+    o las que se puedan, mas que tablelist-nemethi, las que yo he
+    programado.
+    p.e. movilidad con teclas y borrado de filas, resaltado de filas. 
+*** otro proyecto de tables
+    generar una table con una entrada de sql. 
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5378,7 +5459,8 @@ produce ese estado de soñolencia.
 ** [2020-11-28 sáb] Cap 3 CT
 ** [2020-11-29 dom] Cap 3 CT
 ** [2020-11-30 lun] Cap 4 CT
-
+** [2020-12-01 mar] Cap 4 CT
+** [2020-12-02 mié] Cap 4 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5387,6 +5469,8 @@ produce ese estado de soñolencia.
 ** [2020-11-26 jue] Clase 6: Kant
 ** [2020-11-27 vie] Clase 7: Kant y las vanguardias
 * reg-lev-temp
-| dia              | hora | spin |
-| [2020-12-01 mar] | 7.50 | -    |
-|                  |      |      |
+| dia              |  hora | push | spin | excusas                               |
+| [2020-12-01 mar] |  7.50 | -    | -    |                                       |
+| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
+| [2020-12-03 jue] |  8.00 | -    | -    |                                       |
+|                  |       |      |      |                                       |
