@@ -2603,3 +2603,91 @@ D $1000.00
 2020/12/03 pan dulce
     expenses:comida             700
     assets:caja                -700
+
+2020/12/04 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/12/04 saco reservas
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/12/04 farmacia
+    expenses:gastos medicos:farmacia            3526
+    assets:caja                                -3526
+
+2020/12/04 ecogas 2020/05 vto 02/12/2020
+    expenses:servicios:ecogas         3138.79
+    assets:caja                      -3138.79
+
+2020/12/04 fibertel
+    expenses:servicios:fibertel            1634
+    assets:caja                           -1634
+
+2020/12/04 cuota calefactor
+    expenses:casa:mantenimiento          $813.6
+    assets:caja                         $-813.6
+
+2020/12/04 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2020/12/04 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2020/12/04 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2020/12/04 seguro auto
+    expenses:servicios:la caja seguros            2778
+    assets:caja                                  -2778
+
+2020/12/04 netflix
+    expenses:servicios:netflix         $605.14
+    assets:caja                       $-605.14
+
+2020/12/04 carusso
+    expenses:servicios:carusso           $1303
+    assets:caja                         $-1303
+
+2020/12/04 canilla cocina y dpto plan z
+    expenses:casa:refacciones        $3125.93
+    assets:caja                     $-3125.93
+
+2020/12/04 pintureria szumik zeta
+    expenses:casa:mantenimiento           $1494
+    assets:caja                          $-1494
+
+2020/12/04 rio shop buho
+    expenses:isabel         $745.86
+    assets:caja            $-745.86
+
+2020/12/04 farmacity cami
+    expenses:gastos medicos:farmacia        $1289.36
+    assets:caja                            $-1289.36
+
+2020/12/04 farmacity isabel
+    expenses:gastos medicos:farmacia        $1949.93
+    assets:caja                            $-1949.93
+
+2020/12/04 modas marques
+    expenses:isabel            $660
+    assets:caja               $-660
+
+2020/12/04 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos             635
+    assets:caja                                                -635
+
+2020/12/04 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
+
+2020/12/04 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2020/12/04 dif
+    expenses:diferencia arqueo           71.36
+    assets:caja                         -71.36

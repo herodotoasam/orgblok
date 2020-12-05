@@ -138,8 +138,13 @@
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (show-paren-mode 1)))
 (add-hook 'tcl-mode-hook 'autopair-mode)
+(add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'js2-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'js2-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'js2-mode-hook (lambda () (show-paren-mode 1)))
+(add-hook 'js2-mode-hook 'autopair-mode)
 
-;;(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'python-mode-hook (lambda () (linum-mode 1)))
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -230,6 +235,10 @@
 (powerline-default-theme)
 ;;(require 'powerline-evil)
 
+
+ 
+
+
 ;; --------------------------------------------
 ;; Aca termina lo que yo he programado
 ;; --------------------------------------------
@@ -258,7 +267,7 @@
  '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(package-selected-packages
    (quote
-    (material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
+    (js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

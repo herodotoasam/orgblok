@@ -5443,6 +5443,16 @@ produce ese estado de soñolencia.
     p.e. movilidad con teclas y borrado de filas, resaltado de filas. 
 *** otro proyecto de tables
     generar una table con una entrada de sql. 
+** [2020-12-04 vie]
+*** he evaluado dejar CT tambien pero pienso que hace falta
+    a pesar de los logros en materia de programacion de esta semana
+    estoy sumido en una gran CE. Por lo cual no esta mal que aporte a
+    diario un granito de arena motivacional para mantener la mente sana.
+*** perfeccionamiento continuo del programa tables
+    por ahi no se ven avances espectaculares pero el pulimiento es
+    continuo con cositas pequeñas a cada rato que van incorporando mas
+    funcionamiento.
+
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5473,4 +5483,4 @@ produce ese estado de soñolencia.
 | [2020-12-01 mar] |  7.50 | -    | -    |                                       |
 | [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
 | [2020-12-03 jue] |  8.00 | -    | -    |                                       |
-|                  |       |      |      |                                       |
+| [2020-12-04 vie] |  8.30 |      | -    |                                       |

@@ -21,6 +21,8 @@ Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'othree/html5.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -126,4 +128,5 @@ let g:UltiSnipsExpandTrigger       = "<c-j>"
 let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
 let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
+let g:user_emmet_leader_key = ','
 
