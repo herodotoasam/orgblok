@@ -21,7 +21,7 @@ Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'othree/html5.vim'
+Plugin 'preservim/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,6 +50,7 @@ nnoremap <C-z> :w<cr> :!wish %<CR>
 :map <C-n>  :Files<cr>
 :map <C-b>  :Buffers<cr>
 :map <C-t>  :BTags<cr>
+:map <F3>   :NERDTreeToggle<CR>
 
 "mueve la linea abajo
 :map <A-Up> :.,m.-2<CR>

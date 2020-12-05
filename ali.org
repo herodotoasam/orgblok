@@ -5452,7 +5452,44 @@ produce ese estado de soñolencia.
     por ahi no se ven avances espectaculares pero el pulimiento es
     continuo con cositas pequeñas a cada rato que van incorporando mas
     funcionamiento.
-
+** [2020-12-05 sáb]
+*** iniciando un curso paralelo de CSS
+    me viene bien pq es necesario saberlo y me sirve para distraerme
+    un poco para no estar tanto tiempo metido en lo mismo, o sea como
+    cambio de tema.
+*** desde que empece los capitulos del dom he aprendido mucho
+    aprendi, mucho, practique mucho, y tambien hice mucho del sistema
+    de tablas, hasta el punto que consegui la meta en poquitos dias
+    sin darme cuenta, pq hice un totalizador/reseteador generalizado
+    valido para cualquier tabla.
+*** el aburrimiento es gigante y se va acentuando mas 
+    con la llegada de fin de año, y con la crisis de enero de todos
+    los años potenciada con la crisis que tienen el fede y la mayra, y
+    la ih que esta superaburrida y no se que va a hacer, y como nos
+    vamos a arreglar para estar aca sin hacer nada todos los dias
+    hasta no se sabe cuando.
+*** sensacion de fin de ciclo
+    creo que es la edad, pq el tiempo es como es, y depende como lo
+    agarre a uno, y ahora uno esta como esta: viejo y no quiere hacer
+    nada y no quiere arriesgarse para nada y aprovecha la pandemia
+    para no salir a ningun lado.  Pienso que la situacion va a ser
+    diferente cuando la pandemia termine y ya no haya riesgos, pq alli
+    habria que plantearse salir. 
+*** tendria que sentirme contento en estos dias al menos
+    el frente migrañoso viene bien, con cinco dias con un solo migral
+    y dias tranquilos mayormente, y un noviembre con diez unidades
+    menos que octubre (53->43). Y por otro lado he enganchado una
+    aficcion nueva a estudiar, o sea que vale como aficcion ya que me
+    ocupa el tiempo suficientemente y a la vez es util pq me da la
+    posibilidad de aprender incluso una profesion nueva, hasta el
+    punto tal quizas del empleo. Pienso que en un año desde hoy a este
+    nivel estaria en nivel de tomar trabajo ajeno. 
+    Desde que empece a escribir estas bitacoras o sea desde el
+    19/11. Han pasado quince dias y se puede decir que tengo en cierta
+    forma ciertos planes aunque sean minimos. Esos planes son
+    sobrevivir, como sea, y estudiar javascript, css, html, flask,
+    python, y desarrollar sistemas fullstack en vim y seguir
+    escribiendo bitacoras en emacs.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5483,4 +5520,6 @@ produce ese estado de soñolencia.
 | [2020-12-01 mar] |  7.50 | -    | -    |                                       |
 | [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
 | [2020-12-03 jue] |  8.00 | -    | -    |                                       |
-| [2020-12-04 vie] |  8.30 |      | -    |                                       |
+| [2020-12-04 vie] |  8.30 | -    | -    |                                       |
+| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
+|                  |       |      |      |                                       |
