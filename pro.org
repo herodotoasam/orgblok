@@ -3486,6 +3486,12 @@ timido comienzo muy debil en estudio de js.
     implementacion y ver en donde puede entrar js o svelte en el
     proyecto.
 ** semana [2020-11-29 dom]                               :JavaScript:Vue:CSS:
+ Esta fue la semana bisagra con javascript, en la cual los capitulos
+ de practica del dom, en el curso de jonmircha empezaron a dar sus
+ resultados y consegui tener resultados practicos en mi desarrollo en
+ particular, el totalizador. A diferencia de hace dos semanas con
+ svelte que estudie algo que no pude concretar en la practica, con js
+ estoy pudiendo hacer cosas que realmente sirven a la practica concreta
 ** semana [2020-12-06 dom]                                   :JavaScript:CSS:
 * agenda emacs
 ** [2020-07-04 Sat]

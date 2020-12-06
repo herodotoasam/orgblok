@@ -2691,3 +2691,7 @@ D $1000.00
 2020/12/04 dif
     expenses:diferencia arqueo           71.36
     assets:caja                         -71.36
+
+2020/12/06 facturas
+    expenses:comida            $300
+    assets:caja               $-300

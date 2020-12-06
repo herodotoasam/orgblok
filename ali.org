@@ -5490,6 +5490,26 @@ produce ese estado de soñolencia.
     sobrevivir, como sea, y estudiar javascript, css, html, flask,
     python, y desarrollar sistemas fullstack en vim y seguir
     escribiendo bitacoras en emacs.
+** [2020-12-06 dom]
+*** aprendiendo html/css/js parejo los tres
+    el de html medio de repaso pq ya se la mayoria de los conceptos, y
+    el de css me interesa pero es el que mas necesito conocer y
+    dominar, y javascript que tengo que conocer a fondo y estoy en el
+    medio de la practica del dom, que en esta semana la termino y
+    empiezo con ajax. Creo que si siguiera con el aprendizaje de js,
+    en un par de meses tendria un fuerte dominio.
+*** tcl sigue vigente
+    hoy me toco hacer un tab de tcl, el cual hice de una en un
+    ratito. Esta bien que copiando y pegando mayormente, pero sin
+    mayores dificultades. 
+*** cultivar la virtud de la paciencia
+    pensar que la etapa que nos toca vivir es unica y especial en la
+    vida y que en realidad lo que estamos haciendo es cuidarnos y por
+    lo tanto no esta mal la estrategia. Que a uno le gusto mas o menos
+    "acogerse" al "retiro voluntario" que significo este periodo de
+    pandemia es otra cosa, pero pienso que hay que tomarlo y
+    disfrutarlo como lo que es y lo que dure. 
+
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5508,6 +5528,8 @@ produce ese estado de soñolencia.
 ** [2020-11-30 lun] Cap 4 CT
 ** [2020-12-01 mar] Cap 4 CT
 ** [2020-12-02 mié] Cap 4 CT
+** [2020-12-05 sáb] Cap 4 CT
+** [2020-12-06 dom] Cap 4 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5522,4 +5544,4 @@ produce ese estado de soñolencia.
 | [2020-12-03 jue] |  8.00 | -    | -    |                                       |
 | [2020-12-04 vie] |  8.30 | -    | -    |                                       |
 | [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
-|                  |       |      |      |                                       |
+| [2020-12-06 dom] | 10.30 | -    | -    | domingo                        |
