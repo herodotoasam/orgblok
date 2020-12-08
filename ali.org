@@ -5509,7 +5509,44 @@ produce ese estado de soñolencia.
     "acogerse" al "retiro voluntario" que significo este periodo de
     pandemia es otra cosa, pero pienso que hay que tomarlo y
     disfrutarlo como lo que es y lo que dure. 
-
+** [2020-12-08 mar]
+*** python-hell tcl-hell php-hell
+    fundamentalmente python-hell.
+    me agarra bastante seguido, y es la compulsion por querer largar
+    todo, y dedicarme al estudio exclusivo de python a fondo, y
+    desarrollar todo una nueva programacion de escritorio, sabiendo
+    que no voy a contar ni con tablelist ni con bwidget,
+    posibiblemente con alguna table ya prehecha de tkinter en algun
+    proyecto usable o bien directamente el sueño loco de hacerme mi
+    propia proto-tabla.
+    de ahi pase al tcl-hell en el cual pense que si habia
+    posibilidades de mejora de sistema, programacion que mejor que
+    hacerlas en tcl que tengo tablelist y demas.
+    php-hell es mas aislado y mas condenado al fracaso por si mismo pq
+    no esta relacionado al proyecto romitex, ya que no es de escritura
+    de escritorio. 
+    El problema que me debilita en la determinacion del camino que
+    estoy llevando con el desarrollo web, y me hace perder tiempo
+    pensando y buscando opciones que al final no voy a hacer por
+    inviables.
+*** proyecto fechador en flask 
+    bastante bueno, me hizo renegar bastante, eso significa que estoy
+    muy alejado de python, y del binding python-basededatos, y de
+    python-flask, y es bueno recomenzar y volver a aplicarse en ello
+    para no perder todo ese desarrollo que es muy interesante. 
+*** estoy usando emacs con evil-mode
+    en parte pq quiero el mode vim, pero nvim me embola mucho que no
+    admita el raton, aunque sea para ubicarse en las ventanas, y hasta
+    ahora anda bien, tengo que resolver que el autopair, y el
+    autocomplete me funcionen solos.
+    hecho una joyita, creo que mejor que mejor.
+*** por ahi me ataca la falta de autoconfianza en el medio de la programacion
+    ante el menor escollo me pongo negativo y empiezo a cuestionar mi
+    valia, y agarra CI, y pienso que no estoy para estos desafios y
+    que no voy a hacer nada que valga la pena hacerse, y luego el
+    problema se resuelve y sigo adelante.
+    Como hoy que resolvi varios problemitas de js y este proyecto
+    iniciado de flask.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5530,6 +5567,8 @@ produce ese estado de soñolencia.
 ** [2020-12-02 mié] Cap 4 CT
 ** [2020-12-05 sáb] Cap 4 CT
 ** [2020-12-06 dom] Cap 4 CT
+** [2020-12-07 lun] Cap 4 CT
+** [2020-12-08 mar] Cap 4 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5544,4 +5583,6 @@ produce ese estado de soñolencia.
 | [2020-12-03 jue] |  8.00 | -    | -    |                                       |
 | [2020-12-04 vie] |  8.30 | -    | -    |                                       |
 | [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
-| [2020-12-06 dom] | 10.30 | -    | -    | domingo                        |
+| [2020-12-06 dom] | 10.30 | -    | -    | domingo                               |
+| [2020-12-07 lun] | 10.00 | -    | -    | feriado                               |
+| [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |

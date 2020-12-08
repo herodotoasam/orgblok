@@ -2695,3 +2695,31 @@ D $1000.00
 2020/12/06 facturas
     expenses:comida            $300
     assets:caja               $-300
+
+2020/12/07 pizzas
+    expenses:comida             470
+    assets:caja                -470
+
+2020/12/08 comida gats
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2020/12/08 remi cami
+    expenses:cami             500
+    assets:caja              -500
+
+2020/12/08 remi romi
+    expenses:romi             500
+    assets:caja              -500
+
+2020/12/08 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/12/08 saco reservas
+    assets:caja              10000
+    assets:reserva          -10000
+
+2020/12/08 mesada ih
+    expenses:isabel            2000
+    assets:caja               -2000

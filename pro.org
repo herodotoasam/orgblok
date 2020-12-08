@@ -4314,3 +4314,18 @@ html.
 document.querySelector[All]('.card|#pepino|a)
 *** getElementbyId
 document.getElementById('pepino')
+* tables desarrollo
+** [2020-12-08 mar] 
+   sort columnas de string y date asc/desc y sort numerico con
+   ctrl/click para que sea automatico y no tengamos que setear las
+   columnas segun su tipo. 
+   generacion de tablas desde pandas directamente sin tener que hacer
+   nada.
+   correccion del evento mouseover para que capte las rows igual que
+   el tablelist con el mouseevent.buttons===1. 
+** TODO seleccionar hoy
+** TODO generar array de selected en fichas
+** TODO pasar ese array a flask como enlace para imprimir
+** TODO imprimir fichas desde flask
+** TODO moverse por la tabla con teclas de movimiento
+** TODO selecionar con el teclado

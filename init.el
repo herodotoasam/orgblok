@@ -35,7 +35,6 @@
   (package-refresh-contents))
 
 
-
 ;; Installs packages
 
 ;;
@@ -145,8 +144,26 @@
 (add-hook 'js2-mode-hook 'autopair-mode)
 
 (add-hook 'python-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'python-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'python-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'python-mode-hook (lambda () (show-paren-mode 1)))
+(add-hook 'python-mode-hook 'autopair-mode)
 
 (fset 'yes-or-no-p 'y-or-n-p)
+
+(require 'web-mode)
+(add-to-list 'auto-mode-alist '("\\.html?\\'" . web-mode))
+
+(defun my-web-mode-hook ()
+  "Hooks for Web mode."
+  (setq web-mode-markup-indent-offset 2)
+)
+(add-hook 'web-mode-hook  'my-web-mode-hook)
+(add-hook 'web-mode-hook (lambda () (linum-mode 1)))
+(add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
+(add-hook 'web-mode-hook (lambda () (show-paren-mode 1)))
+(add-hook 'web-mode-hook 'autopair-mode)
 
 
 ;; Duplicate line
@@ -235,12 +252,14 @@
 (powerline-default-theme)
 ;;(require 'powerline-evil)
 
-
+;; Enable Evil
+(require 'evil)
+(evil-mode 1)
  
 
 
 ;; --------------------------------------------
-;; Aca termina lo que yo he programado
+;; ACA termina lo que yo he programado
 ;; --------------------------------------------
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
@@ -267,7 +286,7 @@
  '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(package-selected-packages
    (quote
-    (js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
+    (web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote
