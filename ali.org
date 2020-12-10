@@ -5547,6 +5547,42 @@ produce ese estado de soñolencia.
     problema se resuelve y sigo adelante.
     Como hoy que resolvi varios problemitas de js y este proyecto
     iniciado de flask.
+** [2020-12-09 mié]
+*** enorme avance en flask-js
+    hoy en la concrecion de un pequeño proyecto donde se pudo plasmar
+    una conexion entre js y flask, se dio un avance gigante a todo,
+    tanto a python con flask repasando conceptos, como a js donde cada
+    vez nos sentimos mas comodos en el trabajo, y ansiosos por
+    aprender mas.
+*** muy comodo el trabajo en emacs
+    emacs evil-mode es muy comodo y rapido, y tiene todo lo que emacs
+    tiene, solo que con la rapidez y las formas de vim, y el apoyo del
+    raton que con nvim no tengo. Ademas tengo la busqueda global con
+    ag si me hace falta tambien, o sea que no es que no la tenga. 
+*** aunque a veces el estado de animo decaiga vamos avanzando
+    todo lo que aprendemos empuja hacia adelante, y va resultando en
+    un todo que ayuda en lo que hacemos, o sea el combo es estudiar de
+    todo un poco para formacion, si es posible en forma ordenada y a
+    la vez ir haciendo proyectos para que estemos motivados pq sino no
+    vamos a estar motivados en absoluto.
+*** hoy no fue un dia aburrido en absoluto
+    como cambia la sensacion el pensar que vas yendo a un lado cuando
+    pensas que estas trabado y no vas en ningun sentido
+** [2020-12-10 jue]
+*** me levanto apolillado
+    a pesar de que creo dormir bien, con la ventana abierta y el
+    delicioso vientito entrando por la ventana toda la noche, hasta el
+    punto de confortablemente tener que taparme brevemente, incluso
+    pienso que me levanto menos veces al baño, me levanto
+    apolilladamente, me cuesta un monton las series, y los primeros
+    movimientos son dificiles. Ya se adivina el calor el dia,
+    posiblemente una parte del dia la curse con el aire en la pieza
+    hasta que a la tardecita de nuevo se pueda volver a abrir la
+    ventana.
+*** lectura de inmersion de CT
+    ayer me convencia de nuevo que leyendo un poquito cada dia algo te
+    va quedando, y creo que podria multiplicarlo muchisimo mas si
+    releyera a menudo tambien los fragmentos resaltados.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5569,6 +5605,7 @@ produce ese estado de soñolencia.
 ** [2020-12-06 dom] Cap 4 CT
 ** [2020-12-07 lun] Cap 4 CT
 ** [2020-12-08 mar] Cap 4 CT
+** [2020-12-09 mié] Cap 4 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5586,3 +5623,5 @@ produce ese estado de soñolencia.
 | [2020-12-06 dom] | 10.30 | -    | -    | domingo                               |
 | [2020-12-07 lun] | 10.00 | -    | -    | feriado                               |
 | [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |
+| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
+| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |

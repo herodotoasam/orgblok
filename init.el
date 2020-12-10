@@ -62,6 +62,8 @@
     auto-complete
     ag
     material-theme                  ;; Theme
+    evil
+    emmet-mode
     
     )
 
@@ -137,6 +139,12 @@
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (show-paren-mode 1)))
 (add-hook 'tcl-mode-hook 'autopair-mode)
+
+(require 'js2-mode)
+(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+;; Better imenu
+(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+
 (add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'js2-mode-hook (lambda () (linum-mode 1)))
 (add-hook 'js2-mode-hook (lambda () (hl-line-mode 1)))
@@ -163,6 +171,7 @@
 (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
 (add-hook 'web-mode-hook (lambda () (show-paren-mode 1)))
+(add-hook 'web-mode-hook (lambda () (emmet-mode 1)))
 (add-hook 'web-mode-hook 'autopair-mode)
 
 
@@ -255,7 +264,8 @@
 ;; Enable Evil
 (require 'evil)
 (evil-mode 1)
- 
+;; Enable emmet
+(require 'emmet-mode)
 
 
 ;; --------------------------------------------
@@ -286,7 +296,7 @@
  '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(package-selected-packages
    (quote
-    (web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
+    (emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

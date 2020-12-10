@@ -19,7 +19,10 @@ sudo apt install font-manager
 bajar InputMono-Regular.ttf - doble click en la font y luego install
 **** troubleshoting con error: Package ‘better-defaults-’ is unavailable
      cerrar y volver a abrir.
-
+**** packages que instale a mano despues
+***** emmet
+***** js2
+***** evil
 *** copiar .emacs de orblok/
 *** mx package-refresh-contens
 *** mx package-install
@@ -127,6 +130,7 @@ actualizar el locate (buscar en doc/linux/locate-find) para encontrar
 el archivo
 /usr/share/phpmyadmin/libraries/... y corregirlo
 ** instalar adminer
+   ver--> postbird...
 *** debian 10
 **** sudo apt install adminer
 **** crear un archivo de conf con vim
@@ -170,6 +174,9 @@ postgres=# alter user hero with superuser;
 postgres=# grant all privileges on database hero to hero;
 **** cargamos el schema dumpeado previamente
 $psql -f dumppreviodeschema.sql
+*** instalar postbird en electron
+    electronjs.org / Aplicaciones / postbird
+    es ultrarapida y genial y mejor que adminer.
 ** instalar Rails
 sudo apt-get install libpq-dev
 para que no de problemas la gem pg

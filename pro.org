@@ -3492,7 +3492,7 @@ timido comienzo muy debil en estudio de js.
  particular, el totalizador. A diferencia de hace dos semanas con
  svelte que estudie algo que no pude concretar en la practica, con js
  estoy pudiendo hacer cosas que realmente sirven a la practica concreta
-** semana [2020-12-06 dom]                                   :JavaScript:CSS:
+** semana [2020-12-06 dom]                             :JavaScript:CSS:Flask:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3714,7 +3714,12 @@ pero es algo continuo en cambio el otro molestaba que era variable.
  postgres listo
  flask listo
  svelte listo
-
+** [2020-12-09 mié] informe de fallo
+   de bien que estaba se apago todo en un instante, pero no el sistema
+   sino los programas, pense que se habia cortado la luz por un
+   segundo y se habia reiniciado, pero la cuenta de tiempo del sistema
+   seguia igual, pero reseteo las xorg pienso o algo asi, me cerro
+   emacs, firefox y una terminal. 
 * agenda vim
 ** jump previas posiciones
 C-o C-i
@@ -4329,3 +4334,29 @@ document.getElementById('pepino')
 ** TODO imprimir fichas desde flask
 ** TODO moverse por la tabla con teclas de movimiento
 ** TODO selecionar con el teclado
+* proyecto fechador
+  [2020-12-09 mié] desarrolle practicamente todo el proyecto, la clave
+  estuvo en el fetch que permitio el pasaje de la variable
+  transformada por js de nuevo a flask para que la procese en el
+  backend.
+  Tambien tuve una trabita con poner un alert de bootstrap, que lo
+  hice pero pienso que puede haber una forma mas sencilla de hacerse.
+
+** DONE problema de enviar datos a flask desde js
+   o sea luego de alterar el pmovto lo tengo que enviar como parte de
+   una route para que flask lo updatee, y no tengo forma de pasar de
+   js a flask por ahora, ese el tema que tengo que aprender.
+   Resuelto en forma muy facil y muy elegante con un limpisimo fetch
+   que hace que con la direccion url de la route directamente se pase
+   la variable js.
+** DONE link a cuentas hermanas
+   hecho de una forma muy elegante tambien mediante links que permiten
+   cargar la cuenta hermana en forma muy rapida y facil
+** link a fechas mas recientes
+   por el momento no lo implemento pq no veo que sea usable, tener
+   muchos botones, pero queda pendiente
+** TODO soporte para teclado abreviado
+   es incompleto aun, funciona con los agregadores de fecha y el dia
+   de hoy pero no con el guardar, pq me da error en el backend. 
+* Bugs TCL
+** devolucion deja saldo pegado
