@@ -4328,9 +4328,9 @@ document.getElementById('pepino')
    nada.
    correccion del evento mouseover para que capte las rows igual que
    el tablelist con el mouseevent.buttons===1. 
-** TODO seleccionar hoy
-** TODO generar array de selected en fichas
-** TODO pasar ese array a flask como enlace para imprimir
+** DONE seleccionar hoy
+** DONE generar array de selected en fichas
+** DONE pasar ese array a flask como enlace para imprimir
 ** TODO imprimir fichas desde flask
 ** TODO moverse por la tabla con teclas de movimiento
 ** TODO selecionar con el teclado
@@ -4352,9 +4352,15 @@ document.getElementById('pepino')
 ** DONE link a cuentas hermanas
    hecho de una forma muy elegante tambien mediante links que permiten
    cargar la cuenta hermana en forma muy rapida y facil
-** link a fechas mas recientes
+** TODO link a fechas mas recientes
    por el momento no lo implemento pq no veo que sea usable, tener
    muchos botones, pero queda pendiente
+   Pude hacer con total elegancia la creacion de botones, la
+   ubicacion, el clasado, y la funcionalidad, pero hay un tema y es
+   que al recargar pagina los botones desaparecen, por lo cual seria
+   valida la opcion si el cargado de datos y el guardado de datos lo
+   hicieramos via fetch sin recargado de pagina.
+
 ** TODO soporte para teclado abreviado
    es incompleto aun, funciona con los agregadores de fecha y el dia
    de hoy pero no con el guardar, pq me da error en el backend. 

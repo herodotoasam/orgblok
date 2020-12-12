@@ -2783,3 +2783,23 @@ D $1000.00
 2020/12/10 saco reservas
     assets:caja              20000
     assets:reserva          -20000
+
+2020/12/12 retiro reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/10 ayuda
+    expenses:comida:ayuda             $50
+    assets:caja                      $-50
+
+2020/12/11 empanadas
+    expensas:comida             850
+    assets:caja                -850
+
+2020/12/11 papel higienico-rollos de cocina
+    expenses:comida           $1600
+    assets:caja              $-1600
+
+2020/12/12 jardinero
+    expenses:casa:mantenimiento:jardineria             700
+    assets:caja                                       -700

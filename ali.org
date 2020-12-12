@@ -5583,6 +5583,32 @@ produce ese estado de soñolencia.
     ayer me convencia de nuevo que leyendo un poquito cada dia algo te
     va quedando, y creo que podria multiplicarlo muchisimo mas si
     releyera a menudo tambien los fragmentos resaltados.
+** [2020-12-11 vie]
+*** otro dia apolillado al extremo
+    me levanto tardisimo y tengo cansansio y sueño extremo durante las
+    primeras horas de la mañana sentado en el escritorio, ni hablar si
+    tuviera que hacer algo. Las series las hago con muchisimo
+    esfuerzo. 
+*** baja presion arterial
+    me medi a la mañana cuando estaba apolillado al extremo y tenia
+    11.5/7 y a la tarde ya con una molestia micranial, habiendo tomado
+    migral con cafe hace media hora o mas: 11.5/8. 
+    Posiblemente eso tambien sea causa de mi malestar.
+*** hay cosas que van bien
+    hay procesos y habitos que voy llevando que muestran una pequeña
+    esperanza desde el 19/11 que estaba en el piso absoluto. P.e. el
+    habito de llevar registro aca en emacs y focalizar, inmersion de a
+    poco pero lo vamos llevando, las series que pasaron los 300 dias,
+    unesia que parece que va a servir, migraña que parece en una
+    meseta controlable, y lo mas positivo de todo que tengo un pin
+    positivo de aprendizaje, en un nivel intermedio, o sea sin llegar
+    a exultacion pero tampoco es desarticulado de la realidad como
+    cuando me obligue a estudiar svelte. O sea el trio html-css-js
+    parejo se puede estudiar y se puede poner en practica.
+*** html-css-js por cuatro meses mas minimo
+    pienso que los cursos basicos que estoy siguiendo los podria
+    terminar si sigo motivado en esos plazos y lograr un resultado
+    acorde de desarrollo web.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5606,6 +5632,8 @@ produce ese estado de soñolencia.
 ** [2020-12-07 lun] Cap 4 CT
 ** [2020-12-08 mar] Cap 4 CT
 ** [2020-12-09 mié] Cap 4 CT
+** [2020-12-10 jue] Cap 4 CT
+** [2020-12-11 vie] Cap 5 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5625,3 +5653,4 @@ produce ese estado de soñolencia.
 | [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |
 | [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
 | [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |
+| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
