@@ -5609,6 +5609,121 @@ produce ese estado de soñolencia.
     pienso que los cursos basicos que estoy siguiendo los podria
     terminar si sigo motivado en esos plazos y lograr un resultado
     acorde de desarrollo web.
+** [2020-12-13 dom]
+*** nuevamente php-mysql-hell que pesado!!
+    parece que no pero perdi como tres horas con eso, pq el hell
+    empezo como a las 5 de la tarde grosso modo y eran las 8hs y
+    estaba con eso. Me agarro fuerte hasta para escuchar fragmentos de
+    cursos de php de distintos profes, y un par de videos que hablaban
+    de los distintos frameworks que hay de php.
+*** lo que mato el php-hell de ayer fue...
+    un video que tendria que fijar sobre los mas populares framework
+    web, lo pone a flask segundo muy cerca de laravel, arriba de
+    muchos otros. Y obviamente la suma de flask y django hace que
+    python sea el ganador. Eso me hizo ver que la tecnologia de flask
+    que estaba usando no era para nada obsoleta ni desconocida sino
+    que era algo que estaba siendo bastante popular.
+    y el mismo grafico pero esta vez con lenguajes de programacion lo
+    deja como ganador absoluto a python y en segundo lugar a
+    javascript, por eso pienso que no tiene sentido inclinarse por php
+    en desmedro de python.
+*** lo que termino de definir el asunto fue...
+    la apreciacion como conjunto de los videos de John Ortiz Ordoñez
+    que son enormes en cantidad, tanto en javascript como en python de
+    modo tal de poder perfeccionarse en ambos lenguajes en detalle.
+*** gran gran tcl-hell
+    escuchando un live de develoteca-coderos sobre las aplicaciones de
+    escritorio vs las aplicaciones web, llegue a la conclusion que no
+    necesariamente necesitamos una aplicacion web, sino quizas una
+    aplicacion de escritorio bien hecha. No digo que lo que tengo este
+    mal hecho al contrario tengo cosas hechas que no he podido superar
+    ni entender siquiera. 
+    Hay cosas que se pueden mejorar: p.e. en los ultimos dias hice un
+    fechador nuevo basado en poner la fecha y alterarla por botones,
+    la hice en la web pero igual podria ser hecha en tcl, y antes que
+    eso hice un tab para visualizar ciertos datos clave que no lo
+    teniamos a la vista en esa forma y para visualizarlos y
+    manipularlos el Fede los transpolaba a un excel
+    innecesariamente. Hay un monton de cuadros y tab que quedaron
+    obsoletos.
+    Tambien esta el tema de la base de datos, que esta llena de diez
+    años de tablas, vistas, campos obsoletos que la inflan
+    desmedidamente al vicio.
+    Seria partidario de una sola aplicacion tipo como era el
+    fichaje.py para todo o el F13.tcl con menus, o el jornales.tcl,
+    pero ese era muy rebuscado, habria que ver. 
+    Comparando fichaje.py con las aplicaciones tcl, estas ultimas
+    resultan de mayor calidad, en todo sentido, tanto en la precision
+    de los datos como en la presentacion.
+    Todo un tema para analizar.
+**** purgado de base de datos
+     independiente de todas las consideraciones
+**** desarrollo all-in-one tipo jornales/fichaje.py
+     en vez de aplicaciones sueltas cada una con su formato
+     diferente. 
+**** desarrollo desagregado en vez de congestion de funciones
+**** desarrollo de nuevas ideas de datos
+     hasta ahora venimos peleandonos con las mismas fuentes de datos y
+     podriamos crear nuevas fuentes de datos para funcionar de otra forma
+**** manejo de las tecnologias de todos los tiempos
+      la botonera del F6, las pestañas agregadas y quitadas a medida
+      que van entrando del jornales, los menus del F13, el expand all
+      del F13, el diseño menos tosco del pasado. Tendria que estudiar
+      todo lo que hice bien el pasado.
+*** Cuan gigante fue el tcl-hell
+    tan gigante que comence a programar y todo y me llevo toda la
+    tarde del domingo, asi como el php-hell me llevo toda la tarde del
+    sabado. 
+*** Lo que puede definir el tcl-hell
+    Asi como el php-hell lo define el hecho de que php no puede
+    ganarle a python en ningun sentido y que si tengo que lanzarme a
+    estudiar un lenguaje a fondo como tendria que hacerlo con php para
+    eso lo hago con python que es el numero uno. 
+    El tcl-hell creo que se define pq nunca voy a alcanzar lo que hice
+    estos ultimos diez años de desarrollo, y si lo hiciera seria pq me
+    pusiera a perder literalmente un año de mi vida en algo que en
+    resultado va a ser igual que lo que tengo ahora. 
+    O sea funciona hasta lo que que programe hace diez años!!!!, y si
+    algo se rompe una cosa es ponerse puntualmente a corregirlo que
+    pretender crear todo de nuevo. En especial esa maravilla de la
+    programacion que fue el jornales.tcl/itcl1, que ni siquiera vale
+    la pena gastarse en emular pq esta semanticamente incorrecto, pero
+    esta perfectisimo como excentricidad programatica que todavia
+    funciona y es hermoso.
+    Los "cuatro grandes" actuales, buscador/recibos/ventas/stock son
+    muy grandes para cambiarlos, tienen casi mil lineas de codigo cada
+    uno y son bastante buenos, y no creo que pueda corregirlos lo
+    suficiente como para que valga la pena el cambio. Ya lo vi con
+    todo el trabajo del 2019 practicamente que se trato de portar eso
+    a postgres y que esta terminado y mayormente funciona, quizas por
+    ahi se podria trabajar en hacer funcionar lo que falta algun dia
+    que podamos contratar heroku full.
+    Si hacen falta vistas o pivots ahora se los pueden crear como tabs
+    extras a lo que estan sin necesidad de rehacer todo ni reinventar
+    la rueda ni los ejes.
+    Es mas si las vistas tambien se pueden hacer en
+    flask/python/pandas->fl4-via-sqlite mejor como hice el experimento
+    de fechamiento con la web y de paso practico javascript y sigo
+    aprendiendo algo nuevo que me puede llevar por otros caminos y no
+    sentirme estancado. 
+    Creo que la aplicacion ya esta programada, que no tengo que
+    hacerlo de nuevo. Y que la aplicacion para postgres tambien esta
+    programada, solo le falta la fase perfeccionamiento y correccion
+    de errores. Por si se necesitara en cierta forma usar eso.
+*** pruebas en heroku andan bien en ambos sistemas
+    o sea tanto en los tcl con conexion heroku como en flask, lo que
+    si en flask es mas rapido, pienso que en tcl he hecho procesos que
+    son mas lentos pq la busqueda en el primer tbls es instantanea
+    pero para cargar el cliente tarda, en cambio en flask el cliente y
+    todo en general lo carga en el instante.
+*** pruebas en heroku de los ultimos desarrollos de javascript
+    hechos en tablas en el frontend, funcionan perfecto, por lo tanto
+    creo eso es por si mismo un aliciente para seguir aprendiendo y
+    seguir desarrollando lo que se pueda.
+*** no sabemos lo que sera mas adelante ni cuantos "clientes" tendre
+    puedo si aprendo bien, tener clientes puntuales a los cuales les
+    desarrolle algunas cosas. No creo que mi unico cliente sea
+    romitex, maxime si lo hiciese solo por hobby.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5634,6 +5749,8 @@ produce ese estado de soñolencia.
 ** [2020-12-09 mié] Cap 4 CT
 ** [2020-12-10 jue] Cap 4 CT
 ** [2020-12-11 vie] Cap 5 CT
+** [2020-12-12 sáb] Cap 5 CT
+** [2020-12-13 dom] Cap 5 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5654,3 +5771,5 @@ produce ese estado de soñolencia.
 | [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
 | [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |
 | [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                 |
