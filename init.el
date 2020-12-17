@@ -296,7 +296,7 @@
  '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(package-selected-packages
    (quote
-    (emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
+    (pug-mode emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

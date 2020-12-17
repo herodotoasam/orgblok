@@ -4848,6 +4848,7 @@ breaking bad como forma de matar el tiempo que no puedo aprovechar de
 ninguna otra forma. el nadismo llega al pensamiento, y a todo mi ser
 entero. creo que ni siquiera puedo sentirme mal, pq tengo la cabeza
 vaciada. abotargada.
+* nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
 muy mal fisicamente. Estado fisico deplorable. mas que todo cuando la
@@ -5723,7 +5724,93 @@ produce ese estado de soñolencia.
 *** no sabemos lo que sera mas adelante ni cuantos "clientes" tendre
     puedo si aprendo bien, tener clientes puntuales a los cuales les
     desarrolle algunas cosas. No creo que mi unico cliente sea
-    romitex, maxime si lo hiciese solo por hobby.
+    romitex, maxime si lo hiciese solo por hobby
+** [2020-12-14 lun]
+*** intentare axios para hacer el fechador en js puro
+    logre hacer el fechador con axios tanto de un lado como del otro,
+    flask puede enviarte todos los datos que quieras con
+    jsonify(cliente=cliente, hermanos=hermanos, etc) o sea una masita
+    el retorno de datos, luego lo sacas del res.data.cliente con un
+    subindice. Permite muchas modificaciones el conocer axios pq con
+    javascript modificamos el dom a voluntad, pe aca agrego una fila
+    de botones que los manipulo a gusto y creo una tabla con los
+    registros que voy pasando.
+*** un remedio para el tcl-hell
+    hoy cuando me aparecia por la mente el tcl-hell en forma de
+    teorias etc. se me ocurrio una propuesta practica en vez de
+    elucubrar ir a la practica directa, o sea programar el fechador
+    que hice en flask-js en tcl y despues hablamos. 
+*** mayores conocimientos de axios serian muy beneficiosos
+    pienso que dominar mas axios seria muy beneficioso, asi como saber
+    dominar el dom cambio la perspectiva de manejo de js dentro de la
+    pagina.
+** [2020-12-15 mar]
+*** pienso empezar Vue y reforzar js
+    creo que ya estoy en condiciones de hacer vue, para poder integrar
+    ya el proyecto con vue directamente, el js necesario ya lo se, y
+    lo que me sienta flojo puedo seguir practicandolo con videos
+    sueltos.
+*** llego a la conclusion que los videos de @jonmircha son pesados
+    son un monton de videos con contenido igual a los otros, en
+    algunos casos exactamente igual, pero dictados en forma muchisimo
+    mas densa. No digo que alguno o algunos videos sigan teniendo
+    utilidad en especial los de practica que me fueron muy utiles,
+    pero el atravesar uno a uno la serie se hace muy tedioso
+*** vuelvo a visual studio code
+    para vue es necesario para no renegar tanto, le agrande la letra,
+    y le puse la font input mono regular, quedo bastante parecido a
+    emacs y le puse el evil-mode o sea tengo un funcionamiento
+    bastante similar en todos los aspectos
+*** estudio de Vue a todo vapor.
+    con una prueba piloto de que Vue funciona en el fl4 le estoy
+    metiendo a todo vapor cosa de ver si realmente se pueden
+    desarrollar cosas mas importantes que con vainilla js, pienso que
+    si, sino no existirian los frameworks. La pregunta es realmente
+    necesario Vue??? o se puede tener todo con vainilla js???. 
+*** decidi cortar las vias de comunicacion con twitter-youtube
+    en politica y demas. La forma: la desuscripcion, y en el caso de
+    twitter la forma sera el dejar de seguir, cosa de que no
+    vuelva. Hoy pase por ahi y me hizo mal. A partir de ahora estare
+    abocado cien por cien al tema computacional, y lo que haga
+    diariamente en la inmersion, salvo que por ahi vea un videito de
+    cualquier cosa en explorar o de DW. 
+    El otro dia pense, Se puede vivir asi como argentino sin que te
+    explote la cabeza pensando que vivis en un pais en el cual TODO se
+    hace mal, o es que estas escuchando la version de que todo se hace
+    mal, y eso te seca la vida, y lo mejor es no escuchar nada y no
+    amargarse y ponerse y hacer cosas.
+** [2020-12-16 mié]
+*** despertamiento natural
+    que lindo es dormir a pata tendida y despertarse naturalmente con
+    la luz de la mañana y luego de desayunar prender la compu con un
+    vaso de agua con un poco de gaseosa y ponerse a escribir en org-mode.
+*** fiaca suprema a la hora de la siesta - verano full
+    siestita intermedia, me levanto suavemente y tomo un cafe tipo
+    17:30 para activar un poco y ver si codifico un poco hasta la hora
+    de la cena.
+*** gran avance con aplicacion vue en el fechador-web
+    cuando pensaba que estaba sin resultado aparente resolvi un tema
+    que era un muro insalvable para vainilla script con una elegancia
+    suprema y una sencillez absoluta.
+    Todo debido a haber descubierto la forma de linkear variables que
+    pueden ser provenientes de datos externos, por medio de
+    app.variable siendo app el Vue instance. Y la otra resolucion de
+    problema vino por el lado de cambiar los delimitadores asignados
+    de doble [[ como habia visto en internet a pipe y asi pude
+    trabajar tranquilo.  El resto es historia. Y la aplicacion esta
+    mas completa. Y funciona con axios y con vue, y es muy completa.
+*** el proximo desafio para Vue: botones de fecha destacados segun su uso
+    los botones de fecha se permitiran en mayor cantidas, digamos dos
+    filas, y para no marear, segun se vayan usando van a ir cambiando
+    de color, mas de tres usos se pondran amarillos y mas de seis usos
+    rojos, siempre en el outline.
+*** el Visual Studio Code es muy lindo
+    solo el querer ser un renegado hace que quiera usar otra cosa,
+    siendo que atom esta muerto, y bracket no existe, y hoy es el
+    momento de visual studio.
+    emacs y vim los uso todos los dias en mi dia a dia, no se pq los
+    echaria de menos, son dos editores que me acompañaran hasta la
+    tumba. Son como mi maquina de escribir.
 * reg-inmersion
 ** [2020-11-21 sáb] Cap 13 LH La prosperidad
  primero debo decir que respecto al proceso de lectura me noto
@@ -5751,6 +5838,8 @@ produce ese estado de soñolencia.
 ** [2020-12-11 vie] Cap 5 CT
 ** [2020-12-12 sáb] Cap 5 CT
 ** [2020-12-13 dom] Cap 5 CT
+** [2020-12-14 lun] Cap 5 CT
+** [2020-12-15 mar] Cap 5 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -5773,3 +5862,6 @@ produce ese estado de soñolencia.
 | [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
 | [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                 |
 | [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-14 lun] | 9.30  | -    | -    | vino Fede sino sigo                   |
+| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am  |
+| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural   |

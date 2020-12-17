@@ -2277,7 +2277,7 @@ D $1000.00
     assets:caja                -600
 
 2020/11/09 remi cami
-    expenses:cami                   $300
+    expenses:cami:extras                   $300
     assets:caja           $-300
 
 2020/11/09 remi romi
@@ -2389,7 +2389,7 @@ D $1000.00
     assets:caja              $-1000
 
 2020/11/17 remi cami
-    expenses:cami             600
+    expenses:cami:extras             600
     assets:caja              -600
 
 2020/11/17 jardin
@@ -2529,7 +2529,7 @@ D $1000.00
     assets:caja               -1700
 
 2020/11/26 remi cami
-    expenses:cami            $600
+    expenses:cami:extras            $600
     assets:caja             $-600
 
 2020/11/27 lady
@@ -2705,7 +2705,7 @@ D $1000.00
     assets:caja                     $-800
 
 2020/12/08 remi cami
-    expenses:cami             500
+    expenses:cami:extras             500
     assets:caja              -500
 
 2020/12/08 remi romi
@@ -2737,7 +2737,7 @@ D $1000.00
     assets:caja                -500
 
 2020/12/09 extra cami cara
-    500                    $500
+    expenses:cami:extras                    $500
     assets:caja           $-500
 
 2020/12/09 nafta
@@ -2793,7 +2793,7 @@ D $1000.00
     assets:caja                      $-50
 
 2020/12/11 empanadas
-    expensas:comida             850
+    expenses:comida             850
     assets:caja                -850
 
 2020/12/11 papel higienico-rollos de cocina
@@ -2803,3 +2803,83 @@ D $1000.00
 2020/12/12 jardinero
     expenses:casa:mantenimiento:jardineria             700
     assets:caja                                       -700
+
+2020/12/14 mesada isabel
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2020/12/14 comida gatos
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2020/12/14 limpieza
+    expenses:comida:limpieza            1050
+    assets:caja                        -1050
+
+2020/12/14 fiambreria
+    expenses:comida            1200
+    assets:caja               -1200
+
+2020/12/14 bolsas consorsio
+    expenses:comida             170
+    assets:caja                -170
+
+2020/12/14 pan
+    expenses:comida            $100
+    assets:caja               $-100
+
+2020/12/14 skip
+    expenses:comida:limpieza             600
+    assets:caja                  -600
+
+2020/12/14 boleta luz dpto jujuy 11/2020
+    expenses:romi          277.40
+    assets:caja           -277.40
+
+2020/12/15 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/15 cami mesada
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/12/15 cami comida
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2020/12/15 bolsas
+    expenses:comida             100
+    assets:caja                -100
+
+2020/12/15 desodorante
+    expenses:gastos medicos:farmacia             120
+    assets:caja                                 -120
+
+2020/12/15 pan
+    expenses:comida            $100
+    assets:caja               $-100
+
+2020/12/16 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2020/12/16 isabel
+    expenses:isabel            2500
+    assets:caja               -2500
+
+2020/12/16 ospe
+    expenses:servicios:OSPE           25166
+    assets:caja                      -25166
+
+2020/12/16 epec 11/2020
+    expenses:servicios:epec            4912
+    assets:caja                       -4912
+
+2020/12/16 claro
+    expenses:servicios:claro            1335
+    assets:caja                        -1335
+
+2020/12/16 comida
+    expenses:comida            3100
+    assets:caja               -3100
