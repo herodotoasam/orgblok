@@ -3493,6 +3493,7 @@ timido comienzo muy debil en estudio de js.
  svelte que estudie algo que no pude concretar en la practica, con js
  estoy pudiendo hacer cosas que realmente sirven a la practica concreta
 ** semana [2020-12-06 dom]                             :JavaScript:CSS:Flask:
+** semana [2020-12-13 dom]                                   :JavaScript:Vue:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3719,7 +3720,10 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    sino los programas, pense que se habia cortado la luz por un
    segundo y se habia reiniciado, pero la cuenta de tiempo del sistema
    seguia igual, pero reseteo las xorg pienso o algo asi, me cerro
-   emacs, firefox y una terminal. 
+   emacs, firefox y una terminal.
+** [2020-12-15 mar] informe posible fallo 
+   al cerrar entro en un jobs de 2 min y luego recien se apago. 
+   esos jobs eran comunes en manjaro.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
@@ -4351,8 +4355,10 @@ document.getElementById('pepino')
    la variable js.
 ** DONE link a cuentas hermanas
    hecho de una forma muy elegante tambien mediante links que permiten
-   cargar la cuenta hermana en forma muy rapida y facil
-** TODO link a fechas mas recientes
+   cargar la cuenta hermana en forma muy rapida y facil.
+   En realidad fue rehecho pq habia sido abandonado cuando se hizo la
+   carga con axios, por inviable con js-vainilla, y se pudo lograr con Vue.
+** DONE link a fechas mas recientes
    por el momento no lo implemento pq no veo que sea usable, tener
    muchos botones, pero queda pendiente
    Pude hacer con total elegancia la creacion de botones, la
@@ -4360,6 +4366,7 @@ document.getElementById('pepino')
    que al recargar pagina los botones desaparecen, por lo cual seria
    valida la opcion si el cargado de datos y el guardado de datos lo
    hicieramos via fetch sin recargado de pagina.
+   Pude hacerlo ya que la carga de los datos se hace via axios.
 
 ** TODO soporte para teclado abreviado
    es incompleto aun, funciona con los agregadores de fecha y el dia

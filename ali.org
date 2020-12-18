@@ -4848,6 +4848,62 @@ breaking bad como forma de matar el tiempo que no puedo aprovechar de
 ninguna otra forma. el nadismo llega al pensamiento, y a todo mi ser
 entero. creo que ni siquiera puedo sentirme mal, pq tengo la cabeza
 vaciada. abotargada.
+* reg-inmersion
+** [2020-11-21 sáb] Cap 13 LH La prosperidad
+ primero debo decir que respecto al proceso de lectura me noto
+ embotado, lo cual puede pasar con sucesiva practica.
+ Respecto al tema del capitulo, salvo algunas ideas que no comparto,
+ veo que tiene razon en varias cosas y quizas se requieran varias
+ relecturas para que sirva a un proceso de inmersion.
+** [2020-11-22 dom] Cap 1 CT los dos paradigmas que mueven al mundo
+** [2020-11-23 lun] Cap 2 CT Vivir sin miedo 
+** [2020-11-24 mar] Cap 2 CT Vivir sin miedo Visualizacion
+** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
+** [2020-11-26 jue] Cap 3 CT 
+** [2020-11-27 vie] Cap 3 CT
+** [2020-11-28 sáb] Cap 3 CT
+** [2020-11-29 dom] Cap 3 CT
+** [2020-11-30 lun] Cap 4 CT
+** [2020-12-01 mar] Cap 4 CT
+** [2020-12-02 mié] Cap 4 CT
+** [2020-12-05 sáb] Cap 4 CT
+** [2020-12-06 dom] Cap 4 CT
+** [2020-12-07 lun] Cap 4 CT
+** [2020-12-08 mar] Cap 4 CT
+** [2020-12-09 mié] Cap 4 CT
+** [2020-12-10 jue] Cap 4 CT
+** [2020-12-11 vie] Cap 5 CT
+** [2020-12-12 sáb] Cap 5 CT
+** [2020-12-13 dom] Cap 5 CT
+** [2020-12-14 lun] Cap 5 CT
+** [2020-12-15 mar] Cap 5 CT
+** [2020-12-16 mié] Cap 5 CT
+* reg-filosofia
+** [2020-11-22 dom] Clase 1: Descartes
+** [2020-11-23 lun] Clase 2-3 - Encuentro 1
+** [2020-11-24 mar] Clase 4-5 - Encuentro 2 - 3
+** [2020-11-25 mié] Encuentro 4
+** [2020-11-26 jue] Clase 6: Kant
+** [2020-11-27 vie] Clase 7: Kant y las vanguardias
+* reg-lev-temp
+| dia              |  hora | push | spin | excusas                               |
+| [2020-12-01 mar] |  7.50 | -    | -    |                                       |
+| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
+| [2020-12-03 jue] |  8.00 | -    | -    |                                       |
+| [2020-12-04 vie] |  8.30 | -    | -    |                                       |
+| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
+| [2020-12-06 dom] | 10.30 | -    | -    | domingo                               |
+| [2020-12-07 lun] | 10.00 | -    | -    | feriado                               |
+| [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |
+| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
+| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |
+| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                 |
+| [2020-12-14 lun] | 9.30  | -    | -    | vino Fede sino sigo                   |
+| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am  |
+| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural   |
+| [2020-12-17 jue] | 9:15 | -    | -    | despertamiento natural   |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -5810,58 +5866,51 @@ produce ese estado de soñolencia.
     momento de visual studio.
     emacs y vim los uso todos los dias en mi dia a dia, no se pq los
     echaria de menos, son dos editores que me acompañaran hasta la
-    tumba. Son como mi maquina de escribir.
-* reg-inmersion
-** [2020-11-21 sáb] Cap 13 LH La prosperidad
- primero debo decir que respecto al proceso de lectura me noto
- embotado, lo cual puede pasar con sucesiva practica.
- Respecto al tema del capitulo, salvo algunas ideas que no comparto,
- veo que tiene razon en varias cosas y quizas se requieran varias
- relecturas para que sirva a un proceso de inmersion.
-** [2020-11-22 dom] Cap 1 CT los dos paradigmas que mueven al mundo
-** [2020-11-23 lun] Cap 2 CT Vivir sin miedo 
-** [2020-11-24 mar] Cap 2 CT Vivir sin miedo Visualizacion
-** [2020-11-25 mié] Cap 3 CT La confianza y la autoestima
-** [2020-11-26 jue] Cap 3 CT 
-** [2020-11-27 vie] Cap 3 CT
-** [2020-11-28 sáb] Cap 3 CT
-** [2020-11-29 dom] Cap 3 CT
-** [2020-11-30 lun] Cap 4 CT
-** [2020-12-01 mar] Cap 4 CT
-** [2020-12-02 mié] Cap 4 CT
-** [2020-12-05 sáb] Cap 4 CT
-** [2020-12-06 dom] Cap 4 CT
-** [2020-12-07 lun] Cap 4 CT
-** [2020-12-08 mar] Cap 4 CT
-** [2020-12-09 mié] Cap 4 CT
-** [2020-12-10 jue] Cap 4 CT
-** [2020-12-11 vie] Cap 5 CT
-** [2020-12-12 sáb] Cap 5 CT
-** [2020-12-13 dom] Cap 5 CT
-** [2020-12-14 lun] Cap 5 CT
-** [2020-12-15 mar] Cap 5 CT
-* reg-filosofia
-** [2020-11-22 dom] Clase 1: Descartes
-** [2020-11-23 lun] Clase 2-3 - Encuentro 1
-** [2020-11-24 mar] Clase 4-5 - Encuentro 2 - 3
-** [2020-11-25 mié] Encuentro 4
-** [2020-11-26 jue] Clase 6: Kant
-** [2020-11-27 vie] Clase 7: Kant y las vanguardias
-* reg-lev-temp
-| dia              |  hora | push | spin | excusas                               |
-| [2020-12-01 mar] |  7.50 | -    | -    |                                       |
-| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
-| [2020-12-03 jue] |  8.00 | -    | -    |                                       |
-| [2020-12-04 vie] |  8.30 | -    | -    |                                       |
-| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
-| [2020-12-06 dom] | 10.30 | -    | -    | domingo                               |
-| [2020-12-07 lun] | 10.00 | -    | -    | feriado                               |
-| [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |
-| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
-| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |
-| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-14 lun] | 9.30  | -    | -    | vino Fede sino sigo                   |
-| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am  |
-| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural   |
+    tumba. Son como mi maquina de escribir
+** [2020-12-17 jue]
+*** capacitacion por inmersion
+    creo que el goteo constante de videos de vue, con sus respectivas
+    practicas y visiones de distintos autores van a hacer que tarde o
+    temprano aprendamos algo. Lo que se pueda o no se pueda hacer con
+    vue.
+*** no encuentro otra dimension para mi vida actual que no pase por la programacion
+    y eso sin analizarla mucho, en el sentido de tener el cliente
+    unico romiteriano, matizado en el fondo por la posibilidad futura
+    de poder conseguirse otros clientes en el caso de alcanzar un
+    nivel aceptable. 
+    Pero si nos retrotraemos a etapas previas en donde no reina la
+    pasion por aprender, acompañada por la practica en el proyecto
+    para no caer en el tutorial-hell, realmente estoy en un vacio muy
+    grande digno de una gran angustia. 
+*** hoy cierro un mes de etapa verbosa
+    y justamente este diario lleno de post superfluos, pero en cierta
+    forma reflejan cierta actividad, cierta meditacion, ciertas ideas
+    que van y que vienen, y en cierta forma hay un diferenciarse de
+    mes anterior lleno de videos politicos y netflix y querer dormir
+    mas para acortar el dia pq no sabemos con que lo podemos llenar.
+*** desde el 6 de mayo con breve interrupcion estoy en formacion
+    fue un medio año de formacion continua donde pase por un monton de
+    lenguajes y frameworks que antes no conocia y desarrolle algunas
+    cosas y fui aprendiendo de a poco con dificultad una disciplina
+    que es bastante dificil y de la cual seis meses atras no sabia
+    absolutamente nada. 
+*** la mayoria de los ultimos avances los hice en los ultimos 15 dias
+    el espectacular avance en tables.js que permitio totalizar tablas,
+    resetear, seleccionar, para todo tipo de tabla con un #table, y
+    hacer sort por encabezado de columna de tipo string, y con Ctrl
+    los de tipo numeric, y el espectacular super-espectacular fechador
+    totalmente hecho en js- luego enteramente con axios, y ultimamente
+    ayudado y simplificado con vue.
+    Todo hecho en poco tiempo basicamente con los conocimientos
+    adquiridos del dom (readquiridos mas bien, pq ya los habia tenido,
+    solo que no tan detalladamente), de fetch, axios, y en los ultimos
+    tres dias con Vue, y en el medio la investigacion para hacer que
+    funcione en el entorno de flask. Y las funciones hechas en js
+    aumentaron mis skill en programacion de ese lenguaje. 
+    Y hay que recordar como empezo todo: de a poco, en forma logica,
+    despacio y paso por paso, con muchisimos console.log en el medio
+    para ir viendo paso a paso como ibamos construyendo las cosas pq
+    lo que termine haciendo no lo copie de ningun lado. 
+*** proximos proyectos
+**** pasar pagos con js-axios-vue
+**** contabilidad en heroku-postgres para romi

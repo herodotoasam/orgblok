@@ -2883,3 +2883,7 @@ D $1000.00
 2020/12/16 comida
     expenses:comida            3100
     assets:caja               -3100
+
+2020/12/17 ayuda
+    expenses:comida:ayuda             100
+    assets:caja                      -100
