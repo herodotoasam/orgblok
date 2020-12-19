@@ -3494,6 +3494,10 @@ timido comienzo muy debil en estudio de js.
  estoy pudiendo hacer cosas que realmente sirven a la practica concreta
 ** semana [2020-12-06 dom]                             :JavaScript:CSS:Flask:
 ** semana [2020-12-13 dom]                                   :JavaScript:Vue:
+ Esta fue una semana rotunda de Vue, comenze a "estudiarlo" el martes,
+ el miercoles y jueves, ya habia aplicado en fechador solucionando
+ problemas insalvables con js, y el vie y sab ya adelante bastante de
+ pasarpagos, creando cosas que antes de empezar no creia que fueran posibles.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

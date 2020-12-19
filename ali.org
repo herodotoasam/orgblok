@@ -4878,6 +4878,8 @@ vaciada. abotargada.
 ** [2020-12-14 lun] Cap 5 CT
 ** [2020-12-15 mar] Cap 5 CT
 ** [2020-12-16 mié] Cap 5 CT
+** [2020-12-17 jue] Cap 6 CT
+** [2020-12-18 vie] Cap 6 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -4886,24 +4888,26 @@ vaciada. abotargada.
 ** [2020-11-26 jue] Clase 6: Kant
 ** [2020-11-27 vie] Clase 7: Kant y las vanguardias
 * reg-lev-temp
-| dia              |  hora | push | spin | excusas                               |
-| [2020-12-01 mar] |  7.50 | -    | -    |                                       |
-| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa... |
-| [2020-12-03 jue] |  8.00 | -    | -    |                                       |
-| [2020-12-04 vie] |  8.30 | -    | -    |                                       |
-| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                |
-| [2020-12-06 dom] | 10.30 | -    | -    | domingo                               |
-| [2020-12-07 lun] | 10.00 | -    | -    | feriado                               |
-| [2020-12-08 mar] | 10.30 | -    | -    | feriado                               |
-| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                 |
-| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                 |
-| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                 |
-| [2020-12-14 lun] | 9.30  | -    | -    | vino Fede sino sigo                   |
-| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am  |
-| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural   |
-| [2020-12-17 jue] | 9:15 | -    | -    | despertamiento natural   |
+| dia              |  hora | push | spin | excusas                                    |
+| [2020-12-01 mar] |  7.50 | -    | -    |                                            |
+| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa...      |
+| [2020-12-03 jue] |  8.00 | -    | -    |                                            |
+| [2020-12-04 vie] |  8.30 | -    | -    |                                            |
+| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                     |
+| [2020-12-06 dom] | 10.30 | -    | -    | domingo                                    |
+| [2020-12-07 lun] | 10.00 | -    | -    | feriado                                    |
+| [2020-12-08 mar] | 10.30 | -    | -    | feriado                                    |
+| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                      |
+| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                      |
+| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                      |
+| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                      |
+| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                      |
+| [2020-12-14 lun] |  9.30 | -    | -    | vino Fede sino sigo                        |
+| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am       |
+| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural                     |
+| [2020-12-17 jue] |  9:15 | -    | -    | despertamiento natural                     |
+| [2020-12-18 vie] |  9:00 | -    | -    | despertamiento natural con vista de videos |
+| [2020-12-18 vie] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado   |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -5912,5 +5916,47 @@ produce ese estado de soñolencia.
     para ir viendo paso a paso como ibamos construyendo las cosas pq
     lo que termine haciendo no lo copie de ningun lado. 
 *** proximos proyectos
+**** traducir el fechador a postgres o sea a fl3
 **** pasar pagos con js-axios-vue
 **** contabilidad en heroku-postgres para romi
+** [2020-12-18 vie]
+*** agrego pug y pandas a la capacitacion
+    ambos fascinantes. pug me parece corto y fascinante por si mismo
+    mas que lo da dorian, - una muestra mas que el buscador de youtube
+    no nos muestra todo lo que hay -, y pandas es tambien fascinante
+    para ir aprendiendolo de a poco y dominandolo para manejar set de
+    datos y manipular mejor los datos.
+*** el desarrollo con Vue es fenomenal 
+    voy construyendo la pagina parte por parte en forma logica pq no
+    se como sera el todo, sino que voy por partes y el desarrollo va
+    siendo mucho mas rapido y mucho mas elegante y rapido y corto, tan
+    solo son 90 lineas de codigo y hay bastante funcionalidad ya hecha
+    que en vainilla-js me hubiera llevado mucho mas hacerla. Es una
+    masita. 
+** [2020-12-19 sáb]
+*** anoche lei vuetify y bootstrap-vue 
+    que son el paso siguiente a vue, pero decidi que primero tengo que
+    hacer algo solido con vue antes de pasar a esa capa para no
+    complicarme. Lo cual no obsta a que haga alguna prueba por ahi. o
+    siga el cursito de vuetify.
+    Ya puse los cdn de uno y de otro, ambos andan, me inclino por
+    dejar los de boostrap-vue que son mas compatibles con boostrap que
+    vengo haciendo, y andan los componentes. 
+*** vuelvo a repetir que Vue es fenomenal 
+    viene a acortar el desarrollo de js como con atajos en un nivel de
+    3 a 1 o 4 a 1 pienso, incluso en algunas cosas permitiendo cosas
+    que no son factibles al menos para mis niveles de conocimiento, y
+    eso que no he profundizado con vue.
+    Permite en pocas lineas de codigo programar cosas e inventar cosas
+    nuevas que realmente antes no tenias. 
+    p.e. en pasar pagos que elijas los clientes por botones, y luego
+    te salgan las cuentas que tienen por botones y podas alternar de
+    una por ellas y pasar asi, esta muy bocha.
+*** no digo que me quejo pero fuera de este microcosmos esta el desierto
+    no hay nada de nada. Tengo un proyecto de estudio larguisimo que
+    lo estoy llevando paso a paso, y hay muchos modulos para
+    desarrollar si andamos bien con vue-flask, primero todo con sqlite
+    en practica y luego lo que creo que sera facil, corregir la api
+    para pasarlo a postgres y subirlo a heroku. 
+    Esta temporada de verano te cansa para estar asi, todas son malas
+    y el verano es el mas facil a nivel personal, pero te termina cansando.
