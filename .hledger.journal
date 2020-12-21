@@ -2911,3 +2911,27 @@ D $1000.00
 2020/12/19 saco reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2020/12/21 mesada ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2020/12/21 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/12/21 comida cami
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2020/12/21 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/21 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2020/12/21 pan
+    expenses:comida            $100
+    assets:caja               $-100

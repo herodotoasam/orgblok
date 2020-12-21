@@ -4880,6 +4880,8 @@ vaciada. abotargada.
 ** [2020-12-16 mié] Cap 5 CT
 ** [2020-12-17 jue] Cap 6 CT
 ** [2020-12-18 vie] Cap 6 CT
+** [2020-12-19 sáb] Cap 6 CT
+** [2020-12-20 dom] Cap 6 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -4907,7 +4909,9 @@ vaciada. abotargada.
 | [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural                     |
 | [2020-12-17 jue] |  9:15 | -    | -    | despertamiento natural                     |
 | [2020-12-18 vie] |  9:00 | -    | -    | despertamiento natural con vista de videos |
-| [2020-12-18 vie] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado   |
+| [2020-12-19 sáb] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado   |
+| [2020-12-20 dom] | 10:00 | -    | -    | despertamiento natural fiacoso de domingo|
+| [2020-12-21 lun] | 10:00 | -    | -    | despertamiento natural fiacoso|
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -5960,3 +5964,56 @@ produce ese estado de soñolencia.
     para pasarlo a postgres y subirlo a heroku. 
     Esta temporada de verano te cansa para estar asi, todas son malas
     y el verano es el mas facil a nivel personal, pero te termina cansando.
+** [2020-12-20 dom]
+*** @ortizol es un freaky fenomenal!!
+     sigue subiendo videos de ejercicios de javascript y de python,
+     aparte de loadash diariamente. y de pandas creo que tambien.
+     sin contar que lo que esta subido es importantisimo.
+** [2020-12-21 lun]
+*** vue es simple
+    me trabe en un tema relativo a los botones borrar en la tabla,
+    primero los dibujaba pero no funcionaban, y pensaba que no
+    funcionaban pq estaban dentro de la tabla, hasta que averigue que
+    hacer un elemento por innerHTML no hace que el Vue component
+    funcione. Probe con vue-component y ni siquiera dibujaba el boton,
+    pero ya iba comprendiendo.
+    Despues me plantie la pregunta porque habia dibujado la tabla casi
+    con js vainilla, o sea con un metodo muy js puro en vez de usar un
+    simplisimo v-for directamente en la tabla desde el array de datos,
+    y lo hice asi y resulto tan obvio y facil, y rapido y de ahi a
+    incorporarle un boton y a ese boton darle la info que necesitaba
+    que provenia del mismo array que estaba dentro del v-for, era un
+    instante, o sea lo habia complicado por el arrastre de la inercia
+    de venir programando con js. 
+*** hay que seguir aprendiendo
+    con la practica que da el resolver problemas en el desarrollo real
+    y a la vez seguir aprendiendo la base teorica para seguir
+    fortaleciendo esa base.
+*** estando inspirado con Vue se programa velozmente
+    una vez que estas inspirado y con la idea de la resolucion del
+    pequeño problema, si no te traba nada, la resolucion es
+    veloz. Tenes algo que antes hubiera sido impensable en pocos
+    minutos de desarrollo, y con pocas lineas de codigo. 
+*** hoy no estoy cien por cien
+    estoy un poco aburrido, ni hablemos del desierto externo, que este
+    año viene repotenciado al maximo pq con el acontecimiento
+    universal-familiar de la ruptura del Fede y la Mayra digamos que
+    la navidad y año nuevo pueden ser muy pero muy aburridas en
+    extremo, e incluso con un poco de melodrama. Y el dia a dia se va
+    poniendo denso, me noto que no tengo ligazon con ninguna parte de
+    la casa en ninguna hora del dia, solo con la butaca de la compu, y
+    eso es lo que hoy no estoy cien por cien, y me preocupa, o me da
+    bronca, pero pienso que solo debo levantar el pie y dejar pasar,
+    mañana sera otro dia, de todos modos, hice bastante avance hoy, no
+    llevo un diario de lo que le hago a la aplicacion dia por dia,
+    pero hoy a pesar del bajon le hice un par de cosas, como el
+    pasarcuotas, borrarcuota, rediseño de la tabla para que se haga
+    por vue, y la linea de info de la planilla. o sea creo que
+    bastantes cosas, teniendo en cuenta que durante toda la mañana me
+    frustre en no encontrarle la vuelta. Y ademas avance en el
+    traspaso fl4->fl3 y lo hice andar en cierta forma. O sea que hubo
+    mucha programacion.
+    Retomando no tengo ninguna ligazon con ninguna parte de la casa,
+    ni con el patio, ni con el tele, ni con nada, solo con la cama y
+    la compu, o sea solo la pieza. O sea es vivir encerrado mal,
+    dentro no solo de la casa, sino de la habitacion.
