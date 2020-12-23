@@ -4378,3 +4378,17 @@ document.getElementById('pepino')
    de hoy pero no con el guardar, pq me da error en el backend. 
 * Bugs TCL
 ** devolucion deja saldo pegado
+* proyecto Vue-sqlite 
+** problema function pmovto
+el problema es que la funcion es necesaria pq sqlite esta programado
+asi y no lo vamos a cambiar a esta altura, por el momento. 
+Como no usamos una con global sino que cada proceso crea su propia
+con, la function tiene que crear su propia con, y cuando realiza el
+calculo todavia no obtiene el dato de la cuota que se esta pasando pq
+la conexion "llamante" no hizo commit todavia de los datos, y por eso
+siempre produce un pmovto atrasado en un mes.
+
+Lo que hice es corregirlo "a mano" o sea agregarle el valor de una
+cuota a lo pagado, de modo tal que se calcule bien, lo cual anda
+perfecto siempre y cuando el pago sea de una cuota, si el pago es
+menor funcionara mal, pq fechara como si hubiera pagado la cuota entera.

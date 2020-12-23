@@ -1,0 +1,87 @@
+* doc Vue
+** form-inline
+esta class en boostrap para los formularios permite que el formulario
+sea horizontal, aunque no le pude poner label y no quedarian bien, por
+eso use placeholders.
+** @submit.prevent se puede usar solo
+no es necesario que el modificador prevent sea usado con una funcion
+disparada, en efecto en el form lo uso solo y busco el efecto de
+preventDefault().
+** form-control
+ya se sabe es la clase de boostrap para que los input queden mas bonitos
+** validateCargarPlanilla y validatePasarPago
+use esas funciones previas para hacer las validaciones, una vez hechas
+recien pase a la funcion propiamente dicha para no recargar.
+** button type="button"
+aparentemente el button type="submit" me hacia recargar el formulario
+a pesar de estar con prevent, al ponerlo type button dejo de ser
+problematico, pienso que tambien se podria usar un input type button.
+** @focus="cuenta='';verInputsPagos=false"
+uso el event focus para poner el campo vacio y de paso cambiar el
+valor una variable
+** verInputsPagos como variable que controlara varios v-if
+para controlar la visibilidad de varios inputs y buttons con v-if creo
+esta variable
+** para que los buttons esten horizontales cree la class floated
+float:left (saque de internet). y para cuidar que no se pasen de fila
+uso el div/row
+** se pueden encadenar varias funciones en un event
+separados con punto y coma se pusieron distintas funciones o expresiones
+** se puede establecer delimitadores especiales
+delimiters:['|','|'],
+en este caso puedo usar pipes y no tener problemas con jinja2
+** los badges se les puede dar mas tamaño en h2/h3
+depende el h en donde embebamos el span del badge es el tamaño.
+** el atributo size vigila el ancho de un input
+util para dibujar mejor las grillas
+** v-bind sirve para vincular a nivel atributos
+el ejemplo mejor es el de importe+recargo en el total, haciendo
+:valor="importe+recargo" tenemos todo resuelto.
+** en tablas asignar una clase con un ternario
+p.e. :class pago[10]>0='normal':'cancelada'
+lo que si tener en cuenta que el nombre de la clase tiene que ir entre
+comillas simple sino no va a andar, ya que todo va a estar entre
+comillas dobles. 
+** en tablas incluir un button es muy directo
+ya que se lo incluye dentro de un td, se le da la class, y se le
+asigna un click event, relacionado con una variable relativa al valor
+del row p.e. @click="borrarPago(pago[0])
+** libreria Vue Toasted para notificaciones.
+agregar el cdn  y antes de la app vue.
+Vue.use(Toasted)
+y luego donde queramos el toasted:
+let toast = this.$toasted.error("Complete los campos faltantes", { 
+                theme: "outline", 
+                position: "top-right", 
+                duration : 3000,
+                fullWidth: true,
+            });
+** en general no olvidarse del this
+cuando Vue te dice que no conoce una variable o funcion, posiblemente
+la estemos poniendo sin el this adelante. 
+* Python/flask
+** transformacion de datos cuando viene un POST de axios
+los datos vienen en formato bytearray que es un formato que se ve como
+diccionario de python con una b adelante pero que no se puede acceder
+por claves.
+Buscando encontre esto:
+
+import ast
+--
+dict = ast.literal_eval(request.data.decode("UTF-8"))
+
+o sea el request.data que es lo que entra, primero se decode con UTF y
+luego eso pasa por la funcion ast.literal y se trasnforma en un dict
+python y ahora podemos acceder a los campos con clave.
+
+dict['idvta'] etc.
+** enviar datos a javascript en formato json
+de la repuesta de sqdict o sqonecolumn que obtengamos como es
+habitual, hacemos un return con jsonify
+return jsonify(planillas=planillas,clientes=clientes)
+
+del otro lado lo reciben como 
+res.data.planillas y res.data.clientes
+
+importar jsonify
+

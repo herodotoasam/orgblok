@@ -2935,3 +2935,20 @@ D $1000.00
 2020/12/21 pan
     expenses:comida            $100
     assets:caja               $-100
+
+
+2020/12/22 comida
+    expenses:comida            4000
+    assets:caja               -4000
+
+2020/12/22 cuchillos
+    expenses:comida            1000
+    assets:caja               -1000
+
+2020/12/23 comida
+    expenses:comida             800
+    assets:caja                -800
+
+2020/12/23 pollos
+    expenses:comida            1100
+    assets:caja               -1100

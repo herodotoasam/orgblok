@@ -4882,6 +4882,8 @@ vaciada. abotargada.
 ** [2020-12-18 vie] Cap 6 CT
 ** [2020-12-19 sáb] Cap 6 CT
 ** [2020-12-20 dom] Cap 6 CT
+** [2020-12-21 lun] Cap 6 CT
+** [2020-12-22 mar] Cap 6 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -4912,6 +4914,8 @@ vaciada. abotargada.
 | [2020-12-19 sáb] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado   |
 | [2020-12-20 dom] | 10:00 | -    | -    | despertamiento natural fiacoso de domingo|
 | [2020-12-21 lun] | 10:00 | -    | -    | despertamiento natural fiacoso|
+| [2020-12-22 mar] | 9:50  | -    | -    | despertamiento natural        |
+| [2020-12-23 mié] | 9:00  | -    | -    | despertamiento ih - (quede en videos hasta 10) |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -6017,3 +6021,57 @@ produce ese estado de soñolencia.
     ni con el patio, ni con el tele, ni con nada, solo con la cama y
     la compu, o sea solo la pieza. O sea es vivir encerrado mal,
     dentro no solo de la casa, sino de la habitacion.
+** [2020-12-22 mar]
+*** que sera del año 2021? cual sera el panorama personal?
+*** hay una deuda de documentacion terrible
+    no voy documentando nada, ni tomando ninguna nota de tecnologia, y
+    eso que voy solucionando muchas cosas y muchos cuellos de botella,
+    luego cuando me aleje un poco de lo que haga, me va a costar un
+    monton remontar y volver a enganchar. 
+    parte no lo quiero ensuciar al codigo, no se pero se va olvidando
+    es cierto. 
+*** fundamentos de desarrollo
+    el backend tiene que dar todo el procesamiento de datos, cuando
+    queres transformar datos en js te equivocas, el dato ya tiene que
+    venir listo, en front solo se tiene que dibujar.
+    hay cosas que son muy faciles como las tablas que se hacen con muy
+    poquito esfuerzo.
+    un v-for distribuye el array, y un v-bind te puede manejar clases
+    para colorear filas de acuerdo al contenido. 
+    Cambia mucho la percepcion de la pagina que vamos haciendo de
+    acuerdo a los colores que le damos, hay que tener en cuenta eso,
+    por ahi estamos disconformes con lo que hay y no es problema de lo
+    que hay sino del css. 
+** [2020-12-23 mié] 
+*** DONE pasar pagos
+    validaciones pasar pagos - lote y recibo
+    alert de pago pasado
+    automatismo de recargo->total
+    prueba si funciona la cuota sugerida cuando es menor a la ic
+    comprobar que los pmovto que se esten generando sean correctos
+*** muy mal la pase anoche con la migraña 
+    empezo sin querer con un migral mal tomado a las 14.30 cuando
+    quizas todavia no era hora de tomarlo, y luego de la siesta me
+    dolio la cabeza, pero lo estaba regulando, pero me molesto hasta
+    acostarme, ceno breve, para irme a dormir, pero me quedo a ver
+    videos con un leve y persistente dolor, y decido tomar el segundo
+    migral a las 22.30hs craso error, no me hizo nada, solo aumento el
+    dolor y lo transformo en una migraña y eso que ya no estaba viendo
+    videos sino intentando dormir. Y no tuve mas remedio que tomarme
+    otros 10mg.
+*** calculo que las series js y python ejercicios tienen 120hs c/u
+    calculo un promedio de 8min por video y son 947 videos. Y muchos
+    son muy instructivos. Te enseña con la practica
+*** una semana para la pagina pagos!!
+    todo una hazaña para la calidad de la pagina.
+    y como he resuelto desafios que ya los tengo, en las proximas no
+    creo que me aparezcan los mismos problemas, o al menos parto con
+    esos conocimientos para desde alli comenzar a pensar las soluciones.
+*** solo problemas de backend con function pmovto 
+    siempre da problemas esa funcion en python, pienso que tendria que
+    cambiarla o usarla asi con precaucion o ver como repercute en
+    postgres en el futuro sin triggers.
+*** ahora relax para comenzar la semana que viene con otro proyecto 
+    lo que podria hacer seria documentar, total no importa la cantidad
+    de lineas de codigo la bocha es la facilidad de codificacion y que
+    mas adelante no tenga muchos problemas para descifrar lo que hice.
