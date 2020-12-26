@@ -4884,6 +4884,7 @@ vaciada. abotargada.
 ** [2020-12-20 dom] Cap 6 CT
 ** [2020-12-21 lun] Cap 6 CT
 ** [2020-12-22 mar] Cap 6 CT
+** [2020-12-23 mié] Cap 6 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -4916,6 +4917,8 @@ vaciada. abotargada.
 | [2020-12-21 lun] | 10:00 | -    | -    | despertamiento natural fiacoso|
 | [2020-12-22 mar] | 9:50  | -    | -    | despertamiento natural        |
 | [2020-12-23 mié] | 9:00  | -    | -    | despertamiento ih - (quede en videos hasta 10) |
+| [2020-12-24 jue] | 10.30 | -    | -    | despertamiento natural post migrañoso |
+| [2020-12-25 vie] | 12.30 | -    | -    | resaca                                |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -6042,7 +6045,7 @@ produce ese estado de soñolencia.
     acuerdo a los colores que le damos, hay que tener en cuenta eso,
     por ahi estamos disconformes con lo que hay y no es problema de lo
     que hay sino del css. 
-** [2020-12-23 mié] 
+** [2020-12-23 mié]
 *** DONE pasar pagos
     validaciones pasar pagos - lote y recibo
     alert de pago pasado
@@ -6075,3 +6078,83 @@ produce ese estado de soñolencia.
     lo que podria hacer seria documentar, total no importa la cantidad
     de lineas de codigo la bocha es la facilidad de codificacion y que
     mas adelante no tenga muchos problemas para descifrar lo que hice.
+** [2020-12-24 jue]
+*** dos dias seguidos de migraña a la noche
+    ayer de nuevo, tomo el migral a las 20.30 recien con sintomas
+    reales, y aparentemente hizo efecto pero quedo un residual y a la
+    hora de irse a acostar se puso insidiosa que no me dejaba dormir,
+    y cedi a tomarme un 10mg, y empezo a pasar el tiempo y no
+    funcionaba y la migraña se ponia mas fuerte y molesta, no dejaba
+    dormir, era mas fuerte que el umbral del sueño. Sin tener nada que
+    hacer, me tome una SL y me bajo el sueño suficiente como para
+    dormirme y se me paso durmiendo.
+*** empezando la transformacion de pasarpagos a fl3-->victoria!! 
+    luego de unos tropiezos vi que el problema era el backend, o sea
+    quise adaptar a lo bruto el backend y debo ver que los datos que
+    se produzcan/envien esten afinados. p.e. las funciones
+    pgdict0/pgddict no eran adecuadas y tuve que hacer una nueva
+    pgdict a secas para que andemos bien, o sea lisa llana que
+    provenga del fetchall() o sea una lista de lista.
+    tengo en carpeta la solucion de posible de para el jsonify de tipo
+    de datos decimal para experimentar.
+*** una vision a 5 años en codigo
+    prima la vision cortoplacista en todo sentido, pero cinco años de
+    codificacion puede cambiar el panorama en todo sentido, o quizas
+    menos en uno o dos años
+*** escuchar a los null-pointers en general
+    te abre a panoramas nuevos que no conozco y voy conociendo pq no
+    estoy relacionado a estos ambitos.
+** [2020-12-25 vie]
+*** idea de estudiar python a fondo comenzando el 2021
+    lo de comenzando el 2021 no tiene nada que ver con resolucion de
+    año nuevo, o sea dio la casualidad, digo aprender a fondo a
+    programar. Me inspiro el libro bajado: Aprenda a pensar como un
+    programador con Python, donde se enseña basicamente a programar y
+    secundariamente lo hace con python. es el mismo libro que lei en
+    parte hasta la parte facil en el 2009 en la bety, y de ahi aprendi
+    a codificar lo que hice con romitex que no dejo de ser
+    interesante. Mi idea es terminar la teoria. Hacer algunos
+    proyectos de programacion que no sean siempre irme directo a la
+    base de datos romitex. 
+    Por eso sacaba la cuenta que pasar por los 900 ejercicios en la
+    maquina haciendolos yo, no viendolos en el celu serian lo
+    suficientemente interesantes como para practicar, y me tendria que
+    llevar un mes un mes y medio quizas si me entusiasmara la idea.
+**** pro: un sueño largamente postergado 
+     el saber un lenguaje de programacion base como python o ruby o
+     tcl bien, de paso aprender todos los algorritmos y temas
+     matematicos basicos que hacen al aprendizaje de un lenguaje
+     basico de programacion o a un curso de programacion basica. 
+**** hacerlo de un solo tiron:
+     o sea dia a dia full, sin interrupcion no una practica aislada de
+     ocasion.
+**** hacerlo con el teclado:
+     ni por las tapas da para hacerlo desde el celu, sino con practica
+     esa practica en los dedos es la que pienso que quedara grabada en
+     realidad para la resolucion final de los problemas. (Tengo la
+     pequeña experiencia con los videos del dom con jonmircha que me
+     dieron mucha experiencia con js para empezar a programar en ese
+     sentido).
+**** contra posible: que me aparte del desarrollo de la aplicacion
+     o sea que en vez de ponerme a desarrollar me ponga a estudiar
+**** contra: que estudiar full py me haga olvidar la sintaxis de js:
+     o sea estar dos meses a full con python para ser master python me
+     haga olvidar el nivel que tengo ahora en js y la sintaxis que
+     tengo adquirida en js. 
+**** puede que sirva para mayor entusiasmo
+     el mayor entusiasmo sirve un monton, pq salvo cuando tenemos
+     algun exito en la programacion no tenemos entusiasmo y eso es
+     malo, no ayuda a conseguir nada, y menos a aprovechar el
+     tiempo. Puede que con entusiasmo en menos tiempo destinado al
+     desarrollo hagamos mas que todo el dia sin entusiasmo y sin saber
+     que hacer.
+**** el popurri de videos que vengo viendo, la mayoria en el celu
+     no sirve pq no tiene la practica detras, que lo que hace es fijar
+     un poco mas el conocimiento para que quede. Quizas viendo una
+     materia por vez haga que se aprenda mejor.
+**** tambien tiene un plazo
+     o sea estamos hablando de que tiene que hacerse en unos dos meses
+     maximo. 
+*** dieta de reconstruccion de ulcera
+    ver el la forma de cambiar la alimentacion para evitar males
+    mayores con los problemas gastricos. [ampliaremos]

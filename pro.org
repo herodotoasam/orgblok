@@ -4378,6 +4378,8 @@ document.getElementById('pepino')
    de hoy pero no con el guardar, pq me da error en el backend. 
 * Bugs TCL
 ** devolucion deja saldo pegado
+** condonada no funciona
+ 74988 no funciono, tuve que poner a mano el saldo 
 * proyecto Vue-sqlite 
 ** problema function pmovto
 el problema es que la funcion es necesaria pq sqlite esta programado

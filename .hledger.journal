@@ -2952,3 +2952,7 @@ D $1000.00
 2020/12/23 pollos
     expenses:comida            1100
     assets:caja               -1100
+
+2020/12/23 comida
+    expenses:comida            1000
+    assets:caja               -1000
