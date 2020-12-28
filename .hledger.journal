@@ -2956,3 +2956,39 @@ D $1000.00
 2020/12/23 comida
     expenses:comida            1000
     assets:caja               -1000
+
+2020/12/26 isabel
+    expenses:isabel             400
+    assets:caja                -400
+
+2020/12/26 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/26 farmacia
+    expenses:gastos medicos:farmacia            2362
+    assets:caja                                -2362
+
+2020/12/26 isabel rio shop
+    expenses:isabel            1010
+    assets:caja               -1010
+
+2020/12/26 dif
+    expenses:diferencia arqueo             130
+    assets:caja                           -130
+
+2020/12/28 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/28 farmacia italiano
+    expenses:gastos medicos:farmacia            7850
+    assets:caja                                -7850
+
+2020/12/28 sanwich
+    expenses:comida             700
+    assets:caja                -700
+
+2020/12/28 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000

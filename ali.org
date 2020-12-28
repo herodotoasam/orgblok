@@ -4893,32 +4893,35 @@ vaciada. abotargada.
 ** [2020-11-26 jue] Clase 6: Kant
 ** [2020-11-27 vie] Clase 7: Kant y las vanguardias
 * reg-lev-temp
-| dia              |  hora | push | spin | excusas                                    |
-| [2020-12-01 mar] |  7.50 | -    | -    |                                            |
-| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa...      |
-| [2020-12-03 jue] |  8.00 | -    | -    |                                            |
-| [2020-12-04 vie] |  8.30 | -    | -    |                                            |
-| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                     |
-| [2020-12-06 dom] | 10.30 | -    | -    | domingo                                    |
-| [2020-12-07 lun] | 10.00 | -    | -    | feriado                                    |
-| [2020-12-08 mar] | 10.30 | -    | -    | feriado                                    |
-| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                      |
-| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                      |
-| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                      |
-| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                      |
-| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                      |
-| [2020-12-14 lun] |  9.30 | -    | -    | vino Fede sino sigo                        |
-| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am       |
-| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural                     |
-| [2020-12-17 jue] |  9:15 | -    | -    | despertamiento natural                     |
-| [2020-12-18 vie] |  9:00 | -    | -    | despertamiento natural con vista de videos |
-| [2020-12-19 sáb] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado   |
-| [2020-12-20 dom] | 10:00 | -    | -    | despertamiento natural fiacoso de domingo|
-| [2020-12-21 lun] | 10:00 | -    | -    | despertamiento natural fiacoso|
-| [2020-12-22 mar] | 9:50  | -    | -    | despertamiento natural        |
-| [2020-12-23 mié] | 9:00  | -    | -    | despertamiento ih - (quede en videos hasta 10) |
-| [2020-12-24 jue] | 10.30 | -    | -    | despertamiento natural post migrañoso |
-| [2020-12-25 vie] | 12.30 | -    | -    | resaca                                |
+| dia              |  hora | push | spin | excusas                                        |
+| [2020-12-01 mar] |  7.50 | -    | -    |                                                |
+| [2020-12-02 mié] | 10.00 | 8    | -    | migral 6am- lluvia matinal profusa...          |
+| [2020-12-03 jue] |  8.00 | -    | -    |                                                |
+| [2020-12-04 vie] |  8.30 | -    | -    |                                                |
+| [2020-12-05 sáb] | 10.15 | -    | -    | sabado                                         |
+| [2020-12-06 dom] | 10.30 | -    | -    | domingo                                        |
+| [2020-12-07 lun] | 10.00 | -    | -    | feriado                                        |
+| [2020-12-08 mar] | 10.30 | -    | -    | feriado                                        |
+| [2020-12-09 mié] |  9.30 | -    | -    | fiaca                                          |
+| [2020-12-10 jue] | 10.00 | -    | -    | fiaca                                          |
+| [2020-12-11 vie] | 10.30 | -    | -    | fiaca                                          |
+| [2020-12-12 sáb] | 10.30 | -    | -    | fiaca                                          |
+| [2020-12-13 dom] | 10.30 | -    | -    | fiaca                                          |
+| [2020-12-14 lun] |  9.30 | -    | -    | vino Fede sino sigo                            |
+| [2020-12-15 mar] | 10:00 | -    | -    | despertamiento natural migral 6.30am           |
+| [2020-12-16 mié] | 10:00 | -    | -    | despertamiento natural                         |
+| [2020-12-17 jue] |  9:15 | -    | -    | despertamiento natural                         |
+| [2020-12-18 vie] |  9:00 | -    | -    | despertamiento natural con vista de videos     |
+| [2020-12-19 sáb] | 10:00 | -    | -    | despertamiento natural fiacoso de sabado       |
+| [2020-12-20 dom] | 10:00 | -    | -    | despertamiento natural fiacoso de domingo      |
+| [2020-12-21 lun] | 10:00 | -    | -    | despertamiento natural fiacoso                 |
+| [2020-12-22 mar] |  9:50 | -    | -    | despertamiento natural                         |
+| [2020-12-23 mié] |  9:00 | -    | -    | despertamiento ih - (quede en videos hasta 10) |
+| [2020-12-24 jue] | 10.30 | -    | -    | despertamiento natural post migrañoso          |
+| [2020-12-25 vie] | 12.30 | -    | -    | resaca                                         |
+| [2020-12-26 sáb] | 11.30 | -    | -    | sabado post-fiestas                            |
+| [2020-12-27 dom] | 11.15 | -    | -    | domingo                                        |
+| [2020-12-28 lun] |  9:30 | -    | -    | despertamiento natural                  |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -6158,3 +6161,65 @@ produce ese estado de soñolencia.
 *** dieta de reconstruccion de ulcera
     ver el la forma de cambiar la alimentacion para evitar males
     mayores con los problemas gastricos. [ampliaremos]
+** [2020-12-26 sáb]
+*** hoy decidi hacer el curso completo pero de javascript primero 
+    para no apartarme de la programacion. Creo que la capacitacion en
+    js me dara la base para mejorar mis habilidades de frontend. Si me
+    meto mucho en python ahora voy a enfriar esa parte que me es muy
+    necesaria.
+    Lo mismo la motivacion funciona para hacer los ejercicios, el tema
+    es escuchar/hacer los ejercicios en la compu, para ir adquiriendo
+    mas manejo del lenguaje
+*** probando vue en heroku
+    y anda barbaro asi de una y noto que es mas rapido todo, pq los
+    requerimientos a la base de datos se hacen a traves de axios y son
+    del orden de los b no de los kb como es recargar una pagina, asi
+    p.e. pasar un pago es 16b p.e. y recargar la pagina es 16kb o sea
+    una gran diferencia.  O sea en general muy buenas posibilidades le
+    veo al sistema. (Eso que fue adaptado a las apuradas en el backend
+    haciendo una adaptacion de lo que se trajo del fl4).
+** [2020-12-27 dom]
+*** ayer buena cantidad y calidad de videos
+    sume 3.30hs entre la practica js y uno de una hora y media sobre
+    python poo muy bueno, que da para verlo de nuevo y el primero de
+    una serie de computacion basica teorica que me parece tambien muy
+    bueno.
+*** inicie el buscador con vue en sqlite primero 
+    con algunos problemas en backend por json, con algunos problemas
+    en vue que se fueron resolviendo, y de paso me sirve como repaso
+    para las tecnicas usadas en el pagos. En realidad las herramientas
+    son geniales, permiten jugar con otros conceptos, el resto es como
+    vamos a maquetar las cosas dentro la pagina. 
+*** hoy un domingo inbancablemente aburrido y caluroso
+    con dolor de cabeza en el medio, y tener que prender el aire un
+    rato a la siesta, de todos modos me escuche un par de videos un
+    poco aburridos de poo python pq es parte que ya se y se hace
+    tedioso volverla a escuchar, en vez de avanzar con otras
+    cosas. Perdi una hora o mas reescuchando material que ya habia
+    escuchado y eso es doblemente aburrido, en vez de avanzar con la
+    lectura o bien con la practica
+*** me gustaria saber programar a nivel master python
+    se que con js/vue/flask construyo la pagina de romitex y eso
+    tambien es divertido y util a la vez, y produce satisfaccion, pero
+    la bocha estaria en aprender python a nivel master pero no para
+    romitex sino para todo tipo de proyectos desde el bigdata, el
+    pandas, el numpy, que llegue a ser un hobby. Mas alla de un
+    trabajo.
+** [2020-12-28 lun]
+*** inicio el fl5 directamente con pg 
+    o sea empiezo a programar un sistema puro con vue-pg-flask para
+    produccion directamente con axios.  No tiene sentido hacer mucho
+    mas con sqlite, pq no voy a trabajar en lo cotideano con flask mas
+    alla del fechador que me resulta practico y fue la primera prueba
+    para largarme. Sino es tener que programar dos veces. 
+    Este nuevo diseño estara inclinado mas que todo a la velocidad
+    lograble por medio de las intervenciones puntuales de axios con
+    baja carga de transmision.
+** [2020-12-29 mar]
+*** TODO tabla ventas en buscador
+    columna compra 
+    tag info de devuelta y condonado
+    agregado de articulos a la vista de ventas mediante al agregado de
+    filas de acuerdo a la necesidad y la forma de eliminarlas cuando
+    sea necesario, o sea restaurar, sea poniendoles una class
+    especifica o algo. 
