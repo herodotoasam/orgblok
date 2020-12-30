@@ -84,4 +84,57 @@ del otro lado lo reciben como
 res.data.planillas y res.data.clientes
 
 importar jsonify
-
+* dayjs
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script src="https://unpkg.com/dayjs@1.8.21/plugin/utc.js"></script>
+<script>dayjs.extend(window.dayjs_plugin_utc)</script>
+el plugin utc es para evitar un error que hace que por el utc la
+conversion format de dayjs te la hace a un dia menos. la descubri con
+los pmovto. 
+entonces a la funcion hay que usarla dayjs.utc().format(...
+* postgres
+** pgtcl/migra contiene los migradores sqlite-pg
+*** borra todos los trigger ya que se usa a partir de ahora trigger propios
+*** borra y vuelve a definir la funcion gc
+    alli se corrigio [2020-12-30 mié] una linea erronea en 
+delete from cuotas where cuotas.idvta=$1;
+    donde le agrego el where cuotas.idvta=$1 o sea que al generar un
+gc de una cuenta especifica, no borre todo el contenido de cuotas como
+hacia antes, sino cuando un cliente tiene dos cuentas se le muestra
+una sola cuenta. 
+*** ahora la base lite se genera por N° de idvta
+lo cual es mas facil de mantener, si tuviera que actualizar lo
+actualizo a ese numero nomas. Tambien limito la cantidad de calles
+incluidas en lite.
+** para subir la base lite a heroku
+psql -f lite.sql -h ec2-3-95-87-221.compute-1.amazonaws.com -d daq6n3vvmrg79o -U ynpqvlqqsidhga -p 5432
+** schema basico postgres
+*** schema backupeado en mega y en drive
+por seguridad y simplicidad el schema esta backupeado en esos dos
+lugares mega/postgres y en drive/postgres/schemas 
+*** pgmodeler
+en la carpeta models de pgtcl (que esta giteada) hay un modelo hero
+que es el modelo actual del schema. 
+lo unico que pgmodeler usado desde debian me dio error, pero se podria
+usar como base del schema, pero es una solucion mas complicada. 
+* javascript
+** clipboard
+no existe una forma clara de hacerlo.
+hay un execCommand("copy") pero que funciona sobre lo selected() de un
+element
+por eso una funcion que encontre en stackoverflow soluciona
+genialmente el problema, crea un elemento dummy al que se le asigna el
+texto que queremos pasar al portapapeles, y lo seleccionamos y le
+aplicamos el metodo execComand y luego removemos el dummy, que a todo
+esto no alcanza a verse. 
+#+BEGIN_EXAMPLE
+function textToClipboard (text) {
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+}
+#+END_EXAMPLE
+luego se lo usa facilmente como cualquier funcion, y listo

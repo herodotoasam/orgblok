@@ -4378,8 +4378,14 @@ document.getElementById('pepino')
    de hoy pero no con el guardar, pq me da error en el backend. 
 * Bugs TCL
 ** devolucion deja saldo pegado
-** condonada no funciona
- 74988 no funciono, tuve que poner a mano el saldo 
+   queda en observacion para ver si es un bug verdadero o fue un error
+   de procesamiento. 
+** DONE condonada no funciona
+ 74988 no funciono, tuve que poner a mano el saldo-->
+en este caso no es que no funciono, sino que yo me equivoque al
+procesar la condonacion, pq aplicaba la condonacion a una cuenta que
+no era. La que debia era la anteultima cuenta no la ultima y por eso
+el saldo quedaba. Burro!!!!. 
 * proyecto Vue-sqlite 
 ** problema function pmovto
 el problema es que la funcion es necesaria pq sqlite esta programado

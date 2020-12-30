@@ -2992,3 +2992,44 @@ D $1000.00
 2020/12/28 mesada ih
     expenses:isabel           $1000
     assets:caja              $-1000
+
+2020/12/29 reparacion calefon
+    expenses:casa:mantenimiento            1800
+    assets:caja                           -1800
+
+2020/12/29 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2020/12/29 comida cami
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2020/12/29 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2020/12/29 farmacia otosporin
+    expenses:gastos medicos:farmacia             400
+    assets:caja                                 -400
+
+2020/12/29 bazar
+    expenses:comida             600
+    assets:caja                -600
+
+2020/12/29 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2020/12/28 comida gatos
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+
+2020/12/30 comida
+    expenses:comida            4300
+    assets:caja               -4300
+
+2020/12/30 pan dulce
+    expenses:comida            1200
+    assets:caja               -1200
