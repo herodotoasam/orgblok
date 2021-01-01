@@ -54,16 +54,25 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 sudo apt install hledger hledger-ui hledger-web
 *** ln -s ~/orgblok/.hledger.journal ~/.hledger.jounal
 *** alias hl='hledger'
-alias cj='hl r asset:caja' en .bashrc ambos
+alias cj='hl r assets:caja' en .bashrc ambos
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
 tk8.6-dev tcl8.6-dev tcl8.6-tdbc tcl8.6-tdbc-sqlite3 libpgtcl
-*** copiar en /usr/share/tcltk
-puede ser instalar telegram-desktop y bajar de alli o mejor aun del
-element, tambien en mega- carpeta bin.
-son itcl4.1.1 e itk4.1.0
-itcl/itk/pdf4tcl/tablelist
+*** en pacman
+    sqlite3 sqlite3-tcl 
+*** en AUR
+    tklib (incluye tcllib y tk)
+    tkimg
+    bwidget
+    pgtcl
+*** copiar itcl/itk/tablelist/pdf4tcl 
+**** ubuntu
+ /usr/share/tcltk
+**** manjaro
+/usr/bin/tcl8.6/ tablelist y pdf4tcl
+/usr/bin/ itcl4.1.1 e itk4.1.0
+
 *** tclsh
 instalar con apt tcl-tclreadline
 copiar de ~/orgblok .tclshrc a ~
@@ -73,16 +82,11 @@ copiar de ~/orgblok .tclshrc a ~
 *** venv
   sudo apt install python3-venv
   python3 -m venv venv
+  pip install -r requeriment.txt
+
   source venv/bin/activate
   eso produce que se comience a ver (venv) antes del prompt
-  pip install flask
-  pip install psycopg2-binary
-  pip install fpdf
-  pip install dateutils
-  pip install wtforms
-  pip install pandas
-  pip install openpyxl
-  
+    
   
   
 ** python

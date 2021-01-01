@@ -51,7 +51,7 @@
     ;;magit                           ;; Git integration
     ;;enh-ruby-mode
     
-    ;;web-mode
+    web-mode
     powerline
 
      org
@@ -140,16 +140,16 @@
 (add-hook 'tcl-mode-hook (lambda () (show-paren-mode 1)))
 (add-hook 'tcl-mode-hook 'autopair-mode)
 
-(require 'js2-mode)
-(add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;; Better imenu
-(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+;; (require 'js2-mode)
+;; (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
+;; ;; Better imenu
+;; (add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
 
-(add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
-(add-hook 'js2-mode-hook (lambda () (linum-mode 1)))
-(add-hook 'js2-mode-hook (lambda () (hl-line-mode 1)))
-(add-hook 'js2-mode-hook (lambda () (show-paren-mode 1)))
-(add-hook 'js2-mode-hook 'autopair-mode)
+;; (add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
+;; (add-hook 'js2-mode-hook (lambda () (linum-mode 1)))
+;; (add-hook 'js2-mode-hook (lambda () (hl-line-mode 1)))
+;; (add-hook 'js2-mode-hook (lambda () (show-paren-mode 1)))
+;; (add-hook 'js2-mode-hook 'autopair-mode)
 
 (add-hook 'python-mode-hook (lambda () (linum-mode 1)))
 (add-hook 'python-mode-hook (lambda () (auto-complete-mode 1)))
@@ -287,20 +287,17 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes (quote (material)))
+ '(custom-enabled-themes '(material))
  '(custom-safe-themes
-   (quote
-    ("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" default)))
+   '("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" default))
  '(fci-rule-color "#37474f")
  '(hl-sexp-background-color "#1c1f26")
- '(org-agenda-files (quote ("~/orgblok/*.org")))
+ '(org-agenda-files '("~/orgblok/*.org"))
  '(package-selected-packages
-   (quote
-    (pug-mode emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
+   '(pug-mode emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
-   (quote
-    ((20 . "#f36c60")
+   '((20 . "#f36c60")
      (40 . "#ff9800")
      (60 . "#fff59d")
      (80 . "#8bc34a")
@@ -317,5 +314,5 @@
      (300 . "#f36c60")
      (320 . "#ff9800")
      (340 . "#fff59d")
-     (360 . "#8bc34a"))))
+     (360 . "#8bc34a")))
  '(vc-annotate-very-old-color nil))
