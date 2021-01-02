@@ -82,13 +82,26 @@ copiar de ~/orgblok .tclshrc a ~
 *** venv
   sudo apt install python3-venv
   python3 -m venv venv
-  pip install -r requeriment.txt
-
+  
   source venv/bin/activate
   eso produce que se comience a ver (venv) antes del prompt
-    
   
-  
+  pip install -r requeriment.txt
+** Visual Studio Code 
+*** hacer que un file abra en tab nueva
+    "workbench.editor.enablePreview": false
+*** wordwrap
+     'Editor: Word Wrap'. on
+*** disable mdn show
+    "editor hover enabled" and disable checkbox
+*** File-autosave
+*** extension
+**** One Monokai Theme
+**** Project Manager
+** mint usb utilities
+usb image writer
+usb disk formatter 
+[[http://packages.linuxmint.com/pool/main/m/mintstick/][pagina donde descargar el deb del programa mintstick]]
 ** python
 *** python3-tk y python3-pip python3-setuptools
 *** pip3 install modulos

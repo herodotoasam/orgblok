@@ -287,17 +287,20 @@
    [default default default italic underline success warning error])
  '(ansi-color-names-vector
    ["#242424" "#e5786d" "#95e454" "#cae682" "#8ac6f2" "#333366" "#ccaa8f" "#f6f3e8"])
- '(custom-enabled-themes '(material))
+ '(custom-enabled-themes (quote (material)))
  '(custom-safe-themes
-   '("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" default))
+   (quote
+    ("d4f8fcc20d4b44bf5796196dbeabec42078c2ddb16dcb6ec145a1c610e0842f3" default)))
  '(fci-rule-color "#37474f")
  '(hl-sexp-background-color "#1c1f26")
- '(org-agenda-files '("~/orgblok/*.org"))
+ '(org-agenda-files (quote ("~/orgblok/*.org")))
  '(package-selected-packages
-   '(pug-mode emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults))
+   (quote
+    (pug-mode emmet-mode web-mode evil js2-mode material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
-   '((20 . "#f36c60")
+   (quote
+    ((20 . "#f36c60")
      (40 . "#ff9800")
      (60 . "#fff59d")
      (80 . "#8bc34a")
@@ -314,5 +317,5 @@
      (300 . "#f36c60")
      (320 . "#ff9800")
      (340 . "#fff59d")
-     (360 . "#8bc34a")))
+     (360 . "#8bc34a"))))
  '(vc-annotate-very-old-color nil))

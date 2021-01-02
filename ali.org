@@ -4921,9 +4921,10 @@ vaciada. abotargada.
 | [2020-12-25 vie] | 12.30 | -    | -    | resaca                                         |
 | [2020-12-26 sáb] | 11.30 | -    | -    | sabado post-fiestas                            |
 | [2020-12-27 dom] | 11.15 | -    | -    | domingo                                        |
-| [2020-12-28 lun] |  9:30 | -    | -    | despertamiento natural                  |
-| [2020-12-29 mar] |  9:10 | -    | -    | desperto ih             |
-| [2020-12-30 mié] |  9:00 | -    | -    | despertamiento natural lluvioso |
+| [2020-12-28 lun] |  9:30 | -    | -    | despertamiento natural                         |
+| [2020-12-29 mar] |  9:10 | -    | -    | desperto ih                                    |
+| [2020-12-30 mié] |  9:00 | -    | -    | despertamiento natural lluvioso                |
+| [2020-12-31 jue] | 10:00  | -    | -    | despertamiento natural                         |
 * nueva etapa verbosa
 ** [2020-11-19 jue]
 *** informe de situacion 
@@ -6259,7 +6260,7 @@ produce ese estado de soñolencia.
     queda para otra vez, como que si usas datos que vienen de una
     promise antes de tiempo no van a estar disponibles. 
 ** [2020-12-30 mié]
-*** TODO botones funcionales del buscador
+*** DONE botones funcionales del buscador
     subir-llamar-nv+ etc. imprimir ficha, etc. 
 *** los cursos de CSS-HTML tienen mucho de interesante tambien
     anoche termine html hasta el video 70 y aprendi muchas cosas que
@@ -6269,3 +6270,28 @@ produce ese estado de soñolencia.
     del refuerzo que significaria el hacer uno mismo los ejercicios,
     pero algo es algo, uno va conociendo los temas. Ya sea por
     repeticion los va conociendo. 
+* 2021
+** [2021-01-02 sáb]
+*** gran fiasco con fl5 el 31/12
+    termino de programar la tarde del 31 y todo bien, habia terminado
+    los botones de funciones, y el esquema basico de edicion con la
+    ventana modal, y subo a heroku y pruebo alla la funcionalidad,
+    todo ok, y se me ocurre testear la pagina con google para la
+    velocidad y ahi veo que da 61 mejorable y me dice que tablas.css
+    ralentiza la carga, etc. y me pongo a sacar lo superfluo y borro
+    tablas.js, tablas.css, tabulator y pruebo y veo que no funciona la
+    aplicacion, y pienso algo hice mal, vuelvo sobre mis pasos y
+    funciona pero lentisimamente, yo desolado, y asi estuve y tuve que
+    dejar pq vino el Fede.
+    Despues de doce antes de acostarme prendo la maquina para ver si
+    encuentro el problema y nada, andaba pero lento, mas lento incluso
+    que heroku. yo decia no puede ser que la base de datos local sea
+    tan lenta. Y me fui a dormir. Al levantarme segui buscando
+    solucion y por ahi se me ocurre que estaba linkada al servidor
+    heroku... no lo podia creer, todo un dia de desasiego por una
+    pavada, todo por la presuncion de que los cambios que habia hecho
+    justo antes de detectar la demora habian afectado el rendimiento y
+    no otra cosa. 
+*** so-hell al maximo ayer me agarro otra vez y ahora estoy en xubuntu
+    todo un dia perdido un desgaste impresionante para cambiar a
+    xubuntu!!. No se puede creer. 

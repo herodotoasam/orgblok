@@ -3730,6 +3730,22 @@ pero es algo continuo en cambio el otro molestaba que era variable.
 ** [2020-12-15 mar] informe posible fallo 
    al cerrar entro en un jobs de 2 min y luego recien se apago. 
    esos jobs eran comunes en manjaro.
+* agenda xubuntu
+** instalacion xubuntu [2021-01-01 vie]
+ instalado el [2021-01-01 vie] luego de un intento fallido de instalar
+ manjaro.
+ Manjaro fallo pq ya de por si falla en el encriptado de disco, tema ya
+ probado varias veces en los ultimos años. Sino tambien falla en la
+ impresora, cosa que acepte, y complicaba el tema de posgres, cosa que
+ acepte, pero me impedia la instalacion de bracket que en ese momento
+ lo queria y no estuve dispuesto a aceptarlo, y me complico la creacion
+ de los virtual enviroment, pero eso fue por un error mio en su
+ ejecucion.
+ Al final decidi instalar xubuntu como forma de ir a una version basica
+ que no me de problemas de ningun tipo en versiones de software como
+ era con debian, ni en estabilidad, ni en uso como podria tener con
+ arch. pq en realidad uno esta para programar no para renegar con el
+ sistema operativo.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
