@@ -84,6 +84,13 @@ del otro lado lo reciben como
 res.data.planillas y res.data.clientes
 
 importar jsonify
+** problema comparacion de fechas con un campo pmovto
+   resuelto con trabajar con date en vez de datetime
+   from datetime import date
+   if cliente['pmovto']<date.today():
+      pmovto = date.today().strftime('%Y-%m-%d')
+
+   los errores que tenia eran pq usaba datetime y el campo era data.
 * dayjs
 <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
 <script src="https://unpkg.com/dayjs@1.8.21/plugin/utc.js"></script>

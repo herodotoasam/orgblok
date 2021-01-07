@@ -6410,5 +6410,22 @@ produce ese estado de soñolencia.
     metodos, pq hay que tener constancia. A mi me gustaria poder
     escuchar audios en ingles y comprenderlos bien, obviamente poder
     leer tambien.
+*** es cuestion de ponerse nomas a programar
+    y te van saliendo las cosas. le vas agregando funciones al
+    programa y todo se va cerrando. Es algo entretenido. Lo bueno es
+    que el backend de python a traves de flask ofrece mayor claridad
+    en la expresion que el enredado tcl. Pe la fuente de datos en
+    backend del fichaje para tres tipos de datos, normales, gestion y
+    antiguos es superclaro en una funcion de 5 lineas de codigo, y con
+    las consultas en una linea larga para que sean comparables a ojo
+    en donde tienen las diferencias de corte y las coincidencias de
+    campos. Creo que el backend separado le da mas seguridad a los
+    datos. 
+*** si me voy de xubuntu a donde me voy
+    que condiciones tiene que tener el s.o.
+**** ser deb
+     si o si, o sea descarto arch o mas raros aun, no estoy para
+     pelearme con los sistemas operativos para hacer funcionar lo que
+     necesito para romitex, y para programar.
 
-
+    

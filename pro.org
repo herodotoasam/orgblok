@@ -3746,7 +3746,14 @@ pero es algo continuo en cambio el otro molestaba que era variable.
  que no me de problemas de ningun tipo en versiones de software como
  era con debian, ni en estabilidad, ni en uso como podria tener con
  arch. pq en realidad uno esta para programar no para renegar con el
- sistema operativo.
+ sistema operativo
+** fallas emacs [2021-01-07 jue]
+   desde ayer tengo fallas en emacs 26 que viene de fabrica y
+   desinstale todo e instale emacs con snap que es el emacs 27.1 y
+   tiene la misma falla, un titilear del scroll derecho mientras
+   escribis, y luego fallas varias, como no permitirte abrir archivos,
+   o problemas de visualizacion. Muy mal, pienso que me voy a ir de
+   xubuntu por eso.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
