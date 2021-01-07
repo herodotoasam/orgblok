@@ -4885,6 +4885,7 @@ vaciada. abotargada.
 ** [2020-12-21 lun] Cap 6 CT
 ** [2020-12-22 mar] Cap 6 CT
 ** [2020-12-23 mié] Cap 6 CT
+** [2021-01-03 dom] Cap 7 CT
 * reg-filosofia
 ** [2020-11-22 dom] Clase 1: Descartes
 ** [2020-11-23 lun] Clase 2-3 - Encuentro 1
@@ -6294,4 +6295,105 @@ produce ese estado de soñolencia.
     no otra cosa. 
 *** so-hell al maximo ayer me agarro otra vez y ahora estoy en xubuntu
     todo un dia perdido un desgaste impresionante para cambiar a
-    xubuntu!!. No se puede creer. 
+    xubuntu!!. No se puede creer.
+*** impresiones de xubuntu 
+    ligero como debian, rapido en el hibernado hasta ahora, todo es
+    hasta ahora.
+    xfce es muy lindo, solo hecho de menos el menu en todos lados de
+    openbox, que xubuntu casi tiene uno pero es fijo no se puede
+    modificar creo. tenes el altF2 o altF3 para buscar cualquier cosa.
+    tengo que acostumbrarme a la barra arriba aunque podria ponerla
+    abajo facilmente, antes siempre la usaba arriba. 
+    despues tenes todos los programas al dia, lo ultimo de lo ultimo y
+    todo te funciona.
+    bracket no funciona pq es abandonaware, directamente esta roto. El
+    ganador absoluto es visual studio code.
+*** sabado bajon
+    me empieza a invadir el aburrimiento despacito desde los pies para
+    arriba hasta abarcarme todo el cuerpo y me siento afectado cien
+    por cien, no tengo ganas de programar, o no descarto programar
+    pero el sabado es muy brumoso en su aburrimiento denso como para
+    arruinar la vivencia programatica en eso. 
+    madre mia recien es dos de enero, quien pudiera estirarse hasta
+    fin de febrero y que comience el año de una buena vez. 
+** [2021-01-03 dom]
+*** domingo lluvioso desde la madrugada hasta la una
+    dormi un monton, me desperte temprano, desayune y me puse a ver
+    videos toda la mañana. Luego comimos rico pq tenia mucho hambre
+    una tortilla de papas con ensalada de tomates riquisima, y jugamos
+    a las cartas con las chicas, dos partidos a la escoba que ganamos
+    con la romi, a la ih-cami, y luego un partido aburridaso de rumi,
+    y luego un partido de grandes contra chicos que perdimos. Despues
+    la ih se fue al Fede, y las chicas a dormir, y yo me puse a ver un
+    video y despues me dormi una siesta hasta las seis, y ahora me
+    puse a la compu, o sea un domingo de mierda, pero bueno queria
+    relatarlo como fue. 
+*** nuevamente la perspectiva de quedarse solo en el trabajo
+    o de tener que trabajar. Y surge la pregunta de que si tendre la
+    voluntad de seguir con el estudio y el desarrollo como hasta ahora
+    o si definitivamente abandono todo o puedo seguir de a poco pero
+    trabajando en el proyecto. El tema es undefined, y se ira
+    resolviendo con el paso del tiempo. Tambien es posible que termine
+    el año trabajando full atendiendo cobradores y vendedor, y todas
+    las cuestiones relativas al trabajo y tambien programando y
+    aprendiendo javascript y css a traves del año y siga programando
+    la interfase del negocio que cuando este madura la empiece a usar
+    por mas que este solo y este en un solo lugar ya este preparada
+    para crecer o para ser usada desde distintos lugares. 
+** [2021-01-04 lun]
+*** pienso que volver a la actividad puede ser favorable
+    este periodo de inaccion, de encierro, si bien es cierto que es
+    motivado por una profilaxis-covid19 puede hacerse interminable y
+    tediosa y producir una situacion de irse barranca abajo. 
+    No hay motivacion a hacer nada incluso las tareas basicas que uno
+    se plantea como programar y aprender lo basico, quedan seriamente
+    puestas en duda. 
+    Uno le echa la culpa al verano, pero ya sabemos como es eso de
+    echarle la culpa a factores externos que no tienen nada que ver. 
+    En general es la desmotivacion y el estar alejado de todo. 
+** [2021-01-05 mar]
+*** que bueno que es resolver problemas computacionales
+    cuando se traba la programacion te invade la depresion, todo se
+    ensombrece, y empezas a tener dudas hasta de la misma viabilidad
+    del proyecto. Mas que todo cuando vez que las soluciones son
+    intrincadas y completamente feas o son cajas negras que no son
+    viables, y cuando encontras esa solucion que despeja todo el cielo
+    en un momento y todo funciona y viste que con dos lineas de codigo
+    en forma totalmente elegante conseguiste la solucion todo se
+    renueva, se renueva el animo, y las ganas de seguir adelante. 
+*** DONE terminar fichaje - resumen - num page etc
+    hoja resumen
+    numero de pagina
+*** fabuloso el resultado con la impresion en la nube
+    imprimi 100 registros mas o menos, unas 30 hojas en 3 segundos,
+    con la nube de prueba, lo cual es por demas satisfactorio para
+    todos los fines practicos.
+    Al sistema le faltan mil detalles, pero por lo menos encontre unas
+    herramientas de programacion que me permiten hacerlo. De pronto
+    pueden haber mas cuellos de botella, falta p.e. la autentificacion
+    y la seguridad que son temas que no he abordado todavia pero falta
+    bastante.
+    Creo que si seguimos asi (o sea en este esquema de trabajo en el
+    2021 de estar yo en la casa con esta rutina de
+    trabajo/estudio/capacitacion) puedo lograr en cierto tiempo mas un
+    sistema en la nube que sea realmente profesional.
+** [2021-01-06 mié]
+*** fabuloso el poder de python para programar
+    la ficha y el resumen en muy pocas lineas de codigo, todo muy
+    simple de leer y de mantener. 
+    Lo de hoy y ayer fue muy contundente pq pensaba que iba a ser mas
+    tedioso o trabajoso hacer una ficha para ambos propositos y el
+    resumen de cuenta y lo hice en muy pocos minutos con muy pocas
+    lineas de codigo, con una simplicidad y elegancia que pasman, por
+    eso te da ganas saber mas a fondo lo basico y lo intermedio y
+    llegar algun dia a nivel experto
+*** me gustaria aprender bien la base python e ingles con cm
+    a pesar de que hace diez años que digo lo mismo, o sea que pongo
+    al cm como base de un sistema de aprendizaje para lo que sea, pero
+    pensado casi siempre para ingles y computacion.
+    esta vez pienso en hacer la base de ingles con paciencia con cm y
+    la base de python solida tambien
+*** solo hace falta querer nada mas
+    nada de consideraciones de ningun tipo. si quiero estudiar python
+    tengo que hacerlo, si quiero hacer programas aparte como desafio
+    los hago.

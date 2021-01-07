@@ -138,3 +138,34 @@ function textToClipboard (text) {
 }
 #+END_EXAMPLE
 luego se lo usa facilmente como cualquier funcion, y listo
+** impresion en javascript desde flask SOLVED
+el problema de imprimir desde flask. Una cosa es usar un link de flask
+directo y otra es obtener la respuesta que te manda send_file y hacer
+algo con ese raw.
+Los lugares desde donde obtuve alguna idea fueron [[https://stackoverflow.com/questions/56546795/how-to-receive-files-in-javascript-sent-from-flask-using-send-file][How to receive files
+in Javascript sent from Flask using send_file()]]
+pero no logre hacerlo funcionar pq me daba el pdf vacio, buscando
+casos en que les daba el pdf vacio consegui dar con 
+[[https://stackoverflow.com/questions/21729451/pdf-blob-pop-up-window-not-showing-content][PDF Blob - Pop up window not showing content]]
+y alli vi que la clave estaba en 
+
+
+If you set { responseType: 'blob' }, no need to create Blob on your own. You can simply create url based with response content:
+
+$http({
+    url: "...",
+    method: "POST",
+    responseType: "blob"
+}).then(function(response) {
+    var fileURL = URL.createObjectURL(response.data);
+    window.open(fileURL);
+});
+
+en el responseType: "blob"
+entonces cambio el axios de get a post, pongo el responseType a blob
+que funciona tal cual, y funciona perfecto, simplificando solo deje: 
+let url = window.URL.createObjectURL(res.data);
+        window.open(url) 
+la creacion de una url con el res.data ya listo que me manda el axios
+esta vez en formato blob, y el window open de esa url. para que me
+muestre directamente en pantalla el pdf como yo queria.

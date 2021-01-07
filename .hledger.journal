@@ -47,8 +47,8 @@ D $1000.00
     liabilities:capital u$s         u$s-1900
 
 2020/07/01 prestamo a fede
-    assets:deudores                    u$s6125
-    liabilities:capital u$s           u$s-6125
+    assets:deudores                    u$s5553
+    liabilities:capital u$s           u$s-5553
 
 2020/07/05 remis a romi
     expenses:romi             $200
@@ -3033,3 +3033,183 @@ D $1000.00
 2020/12/30 pan dulce
     expenses:comida            1200
     assets:caja               -1200
+
+2021/01/03 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2021/01/03 jardinero
+    expenses:casa:mantenimiento:jardineria            $700
+    assets:caja                                      $-700
+
+2021/01/01 ayuda
+    expenses:comida:ayuda            $100
+    assets:caja                     $-100
+
+2021/01/04 pan dulce
+    expenses:comida             260
+    assets:caja                -260
+
+2021/01/05 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2021/01/05 saco reservas
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021/01/05 cami mesada
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/01/05 cami comida
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2021/01/05 isabel mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/01/05 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/01/05 carne
+    expenses:comida            4700
+    assets:caja               -4700
+
+2021/01/05 ecogas 2020/06 vto 04/01/2021
+    expenses:servicios:ecogas            2072
+    assets:caja                         -2072
+
+2021/01/05 fibertel
+    expenses:servicios:fibertel            3844
+    assets:caja                           -3844
+
+2021/01/05 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/01/05 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/01/05 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/01/05 seguro auto
+    expenses:servicios:la caja seguros           $2778
+    assets:caja                                 $-2778
+
+2021/01/05 netflix
+    expenses:servicios:netflix         $605.14
+    assets:caja                       $-605.14
+
+2021/01/05 carusso
+    expenses:servicios:carusso         1490.65
+    assets:caja                       -1490.65
+
+2021/01/05 american cuer
+    expenses:isabel          966.67
+    assets:caja             -966.67
+
+2021/01/05 moda marques nuevo
+    expenses:isabel            2457
+    assets:caja               -2457
+
+2021/01/05 composite 1
+    expenses:personal:ropa            1333
+    assets:caja                      -1333
+
+2021/01/05 composite 2
+    expenses:personal:ropa            1000
+    assets:caja                      -1000
+
+2021/01/05 jc
+    expenses:romi             996
+    assets:caja              -996
+
+2021/01/05 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos              571
+    assets:caja                                                 -571
+
+2021/01/05 pinturerias szumik zeta
+    expenses:casa:mantenimiento           $1494
+    assets:caja                          $-1494
+
+2021/01/05 rio shop buho
+    expenses:isabel         $745.86
+    assets:caja            $-745.86
+
+2021/01/05 farmacity cami
+    expenses:gastos medicos:farmacia        $1289.36
+    assets:caja                            $-1289.36
+
+2021/01/05 farmacity isabel
+    expenses:gastos medicos:farmacia        $1949.93
+    assets:caja                            $-1949.93
+
+2021/01/05 modas marques
+    expenses:isabel            $660
+    assets:caja               $-660
+
+2021/01/03 ingresos
+    assets:reserva                   97800
+    income:retiro sociedad          -97800
+
+2021/01/03 compra dolares
+    expenses:compra dolares           97800
+    assets:caja                      -97800
+
+2021/01/03 compra dolares
+    assets:reserva u$s            u$s 600
+    income:compra dolares        u$s -600
+
+2020/12/19 compra dolares
+    expenses:compra dolares           36750
+    assets:caja                      -36750
+
+2020/12/19 compra dolares
+    assets:reserva u$s            u$s 250
+    income:compra dolares        u$s -250
+
+2020/12/19 ingresos
+    assets:reserva                   36750
+    income:retiro sociedad          -36750
+
+2020/12/19 saco reservas
+    assets:caja              36750
+    assets:reserva          -36750
+
+2021/01/03 saco reservas
+    assets:caja              97800
+    assets:reserva          -97800
+
+2021/01/05 gimnasio cami
+    expenses:cami:extras            1900
+    assets:caja                    -1900
+
+2021/01/05 tarjeta cami
+    expenses:cami:extras            1700
+    assets:caja                    -1700
+
+2021/01/06 comida
+    expenses:comida            7600
+    assets:caja               -7600
+
+2021/01/06 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2021/01/06 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/01/06 isabel carla
+    expenses:isabel            1100
+    assets:caja               -1100
+
+2021/01/06 peluquero
+    expenses:peluqueria            $200
+    assets:caja                   $-200

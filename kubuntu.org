@@ -111,7 +111,17 @@ usb disk formatter
 **** Pmw
 **** pyperclip
 *** poner las fuentes DejaVu DejaVuBold 
-*** 
+** heroku
+*** install
+    sudo snap install --classic heroku
+*** verificar
+    heroku --version
+*** heroku login
+    contraseña: Ataraxia76.
+*** agregar en fl5
+    heroku git:remote -a rxcba1
+*** hacer push 
+    git push heroku main
 ** LAMP
 instalar apache
 sudo apt install apache2

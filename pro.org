@@ -3500,6 +3500,7 @@ timido comienzo muy debil en estudio de js.
  pasarpagos, creando cosas que antes de empezar no creia que fueran posibles.
 ** semana [2020-12-20 dom]                                              :Vue:
 ** semana [2020-12-27 dom]                                              :Vue:
+** semana [2021-01-03 dom]                                              :Vue:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
