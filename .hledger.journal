@@ -3213,3 +3213,19 @@ D $1000.00
 2021/01/06 peluquero
     expenses:peluqueria            $200
     assets:caja                   $-200
+
+2021/01/08 arreglo techo goteras
+    expenses:casa:mantenimiento            2700
+    assets:caja                           -2700
+
+2021/01/08 saco reser
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/01/08 dif
+    expenses:diferencia arqueo           54.81
+    assets:caja                         -54.81
+
+2021/01/08 peluqueria lady
+    expenses:comida:gatos            $450
+    assets:caja                     $-450

@@ -3394,7 +3394,7 @@ o sea tomarlo por tomarlo.
 luego de dos o tres docuseries me gusta el formato y lo estoy
 explorando, y resulta bastante apasionante al menos mejor que las
 series predecibles que estuve viendo hasta el momento.
-** [2019-12-05 jue] 
+** [2019-12-05 jue]
 *** regreso full del trabajo
 con el esquema armado a partir del 26/11 he vuelto a trabajar full y
 con la comida en la oficina por viandas de cuenco como rico sano y
@@ -6427,5 +6427,41 @@ produce ese estado de soñolencia.
      si o si, o sea descarto arch o mas raros aun, no estoy para
      pelearme con los sistemas operativos para hacer funcionar lo que
      necesito para romitex, y para programar.
-
-    
+     el otro dia probe manjaro y es todo muy distinto y peliagudo para
+     meterse con eso, y recien pruebo opensuse y menos que menos pq
+     tiene menos documentacion y no reconoce bien el software. pe
+     internet funcionaba lento a 8.3Mb cuando lo esta haciendo a 43 en
+     xubuntu.
+**** con bunsen tenia un sistema estable sin fallos y rapido 
+     lo use un mes entero sin problemas y con una rapidez total, lo
+     que pasa que no tiene los ultimos programas pero no lo eche de
+     menos o no me di cuenta salvo en eso que el pgmodeler no me
+     funciono, y aca con xubuntu si me funciono.
+     El menu es muy comodo y todavia lo echo de menos
+**** xubuntu es casi igual a bunsen con mas los programas nuevos
+     el unico problema es emacs que no anda. Por el momento no creo
+     que vaya a cambiar el s.o por emacs salvo que emacs colapse
+     totalmente. 
+     y pienso que ya lo van a arreglar, si es un bug lo van a corregir
+     ya que emacs esta activamente desarrollandose.  
+** [2021-01-08 vie]
+*** estoy probando emacs a pelo para ver como anda
+    en la posibilidad de que sea algo de mi configuracion que haga el
+    problema y no emacs mismo. 
+    Hasta ahora no hay flickering de scroll. y funciona perfecto. 
+*** mucho dolor estos ultimos dos dias 
+    enfrentados con dos migrales por dia, pero muy rescilientes, de
+    varias horas pero sin 
+*** programa de estudio-trabajo meditado hoy
+    hacer diez videos de js y diez videos de py por dia. en tres meses
+    terminaria la serie, y tomar registro del tiempo de pasado de
+    papeles y de desarrollo. Si la serie me parece que no sirve como
+    por momentos parece, se podria optar por la lectura minuciosa de
+    la documentacion oficial con practicas intensivas.
+*** un posible proyecto seria poner openbox en xubuntu
+    se puede hacer pero es complicado.
+** [2021-01-09 sáb]
+*** escuchar videos en ingles
+    sobre temas mas o menos conocidos, a veces en velocidad .75 puede
+    ser, tengo una comprension de mas del 80%, lo suficiente como para
+    seguir el tema.
