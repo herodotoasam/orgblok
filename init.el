@@ -293,6 +293,9 @@
  '(fci-rule-color "#37474f")
  '(hl-sexp-background-color "#1c1f26")
  '(org-agenda-files (quote ("~/orgblok/*.org")))
+ '(package-selected-packages
+   (quote
+    (emmet-mode evil material-theme ag auto-complete autopair flx-ido ido-vertical-mode org-bullets powerline better-defaults)))
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
    (quote

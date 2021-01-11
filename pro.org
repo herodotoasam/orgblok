@@ -3731,6 +3731,17 @@ pero es algo continuo en cambio el otro molestaba que era variable.
 ** [2020-12-15 mar] informe posible fallo 
    al cerrar entro en un jobs de 2 min y luego recien se apago. 
    esos jobs eran comunes en manjaro.
+** [2021-01-01 vie] desintalando
+   a causa de pensar que la base de debian me impide tener lo ultimo
+   en los programas actuales, p.e. habia tenido problemas con una
+   funcion de pgmodeler que no andaba, y me daba error, y queria
+   instalarme brackets. Brackets al final fue un fiasco pq no anduvo
+   en ningun sistema que lo intente, pq esta roto es abandonaware ya
+   no se actualiza mas.
+** [2021-01-10 dom] vuelvo a instalarlo
+   despues de la fallida experiencia con xubuntu vuelvo a instalarlo
+   con la esperanza de recuperar la funcionalidad que tenia en el mes
+   y medio que lo tuve con total comodidad.
 * agenda xubuntu
 ** instalacion xubuntu [2021-01-01 vie]
  instalado el [2021-01-01 vie] luego de un intento fallido de instalar

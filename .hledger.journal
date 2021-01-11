@@ -3229,3 +3229,7 @@ D $1000.00
 2021/01/08 peluqueria lady
     expenses:comida:gatos            $450
     assets:caja                     $-450
+
+2021/01/11 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
