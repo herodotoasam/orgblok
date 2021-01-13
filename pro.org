@@ -3742,6 +3742,25 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    despues de la fallida experiencia con xubuntu vuelvo a instalarlo
    con la esperanza de recuperar la funcionalidad que tenia en el mes
    y medio que lo tuve con total comodidad.
+** puesta a punto de bunsen
+*** en preferences-bunsenlab-edit autostart
+**** agregar xmodmap .Xmodmap
+**** (sleep 10; bl-conky-session --autostart) &
+     esto termino corrigiendo la distorsion de conky al cargarse
+     cuando hemos cambiado el fondo de pantalla o no. Ese borroneado.
+**** set r rate 500 25
+     ralentiza al doble los teclazos 500ms de delay, viene 250ms por
+     default.
+*** en preferences-keybinds
+    "gnome-calculator"
+      XF86Calculator
+    y no olvidar el restart.
+*** en preferences-jgmenu
+    editar prepend.csv
+    y agregar los programas mas comunes
+    p.e.
+    Code,code,code
+    Emacs,emacs,emacs
 * agenda xubuntu
 ** instalacion xubuntu [2021-01-01 vie]
  instalado el [2021-01-01 vie] luego de un intento fallido de instalar

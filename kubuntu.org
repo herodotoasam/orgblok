@@ -55,6 +55,10 @@ sudo apt install hledger hledger-ui hledger-web
 *** ln -s ~/orgblok/.hledger.journal ~/.hledger.jounal
 *** alias hl='hledger'
 alias cj='hl r assets:caja' en .bashrc ambos
+** gnome-calculator
+   sudo apt install gnome-calculator
+   atajo: XF86Calculator
+   modo teclado
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib

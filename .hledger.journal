@@ -3233,3 +3233,19 @@ D $1000.00
 2021/01/11 mesada ih
     expenses:isabel           $1000
     assets:caja              $-1000
+
+2021/01/11 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/01/11 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/01/11 prestamo romi
+    assets:deudas romi           10000
+    assets:caja                 -10000
+
+2021/01/11 facturas
+    expenses:comida             500
+    assets:caja                -500
