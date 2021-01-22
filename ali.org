@@ -6682,3 +6682,115 @@ produce ese estado de soñolencia.
 **** acomodar y reducir mis cajas
 **** pasar mis cuadernos para destruirlos
 **** pegar el cablecanal del living
+** [2021-01-19 mar]
+*** intentando seguir adelante dia por dia
+    por mas que hice el plan alternativo, cuando llega el momento de
+    levantarse no encuentro las ganas ni la energia para hacer ninguna
+    tarea, por mas que la tenga ya preparada de antemano
+*** el dia se hace muy largo
+    cuando lo unico que tenes para hacer es ver la serie. No hay nada,
+    ningun prospecto en marcha. None. Cero. 
+*** pienso que es mejor tener la tarea del dia siguiente
+    no dejarla para el azar de la mañana pq es el momento mas bajo del
+    dia.
+*** buscar ayuda en internet sobre la depresion
+    mayormente videos
+** [2021-01-21 jue]
+*** informacion sobre la depresion
+**** videos
+     mucha informacion util sobre la depresion en general y la
+     necesidad de tratarla con medicacion.
+**** distimia
+     o depresion persistente que pareceria ser mas mi caso o sea un
+     cuadro depresivo menor pero a lo largo de los años con altos y bajos.
+**** menos prozac y mas platon
+     una alternativa de tratamiento o una vision alternativa desde el
+     punto de vista filosofico
+*** relectura y destruccion de cuadernos
+    he decidido la destruccion de los cuadernos, y antes me concedo la
+    oportunidad de una ultima lectura, pero me encuentro con pasajes
+    tan buenos que los estoy marcando para una posible transcripcion
+    de forma tal que conserve algo, hay expresiones que me parecen muy
+    buenas o geniales, y relatos muy bucolicos a veces que me hacen
+    rememorar mejor que fotos que no tengo lamentablemente. 
+    Y son una fuente de datos objetiva y precisa de mi situacion
+    animica y mi estado fisico en esas fechas. 
+    La verdad no quiero dejar escritos en papel por eso quiero
+    romperlos y tirarlos, ya bastante que queden estos orgmode que son
+    otra cosa. 
+*** operativo informacion
+    me voy a abocar en estos dias lo maximo posible a conseguir
+    informacion sobre el tema, a leer, a ver videos a releer cuadernos
+    como hice ayer, esa es la idea.
+*** idea: maestria en python
+    armar de a poco un conocimiento sobre python estructurado en
+    fichas u hojas A4 de todos los temas, que seran debidamente
+    practicados hasta alcanzar la debida practica y asi poder subir el
+    nivel con el tiempo.
+*** [excurso: porque no se congelo en el tiempo ese febrero de 2013?]
+    o sea viviendo en la cabaña con todas esos pros y contras y
+    trabajando con el deivi visitando clientes. Y como principal eje
+    de campo la filo y la alimentacion?. Pq las cosas evolucionan
+    solas, pq me fui cansando del deivi, pq en agosto ya tenia la
+    lesta trabajando de nuevo y con una minita extra, que tuvo que
+    ponerse de novio con el deivi, que en setiembre los puse a los
+    tres en el sistema de casa en casa, que en diciembre ya estaba
+    listo para venirme a vivir en patricios, que en poco tiempo mas le
+    estaba prestando al fede para que se comprara el auto, y en
+    poquisimo tiempo mas le estaba ofreciendo que trabajaramos
+    juntos. que en poco tiempo mas la utopia de la calle se haria
+    trizas, que volveria la oficina, que yo volveria a vivir en el
+    centro en un dpto oscuro y feo que pasaria los peores tres años de
+    local y de dpto centrico de mi vida, que la falta de tarea me iba
+    a ir matando poco a poco.
+    Visto para atras con el diario del 2019, diriamos que uno es
+    cambiante, que no es capaz de mantener un esquema mas de seis
+    meses, que tampoco los esquemas soportan la continuidad (cosa que
+    no es tan cierta pq hay esquemas que van soportanto mas
+    continuidad pero no nos involucran personalmente). Y visto con el
+    diario del 2021 diria que no creo que en lo personal hubiera dado
+    continuidad a una "pasion?" como la filo durante estos siete años
+    en forma continua, sino que seria?, como seria?. 
+    una ucronia de este tipo ignora un hecho fundamental y es la
+    enorme dependencia que tenia en esos tiempos con ih y la casa,
+    practicamente no podia estar solo un fin de semana, la carga se me
+    hacia insoportable. Eso ahora que desaparecio, que fue dinamitado
+    por el simple hecho que vivo aca de lunes a lunes era gravitante
+    en el pasado, ineludible, era parte constitutiva del ser en
+    soledad. Era una vida con permiso para estar fuera cinco dias a la
+    semana y el fin de semana cuando vencia ese permiso la vida se
+    descomponia. 
+*** {sueño} ranger-cabaña III
+    comprar una ranger 06 con lo que iba a comprar el auto a la cami,
+    y empezar a buscar una cabaña para alquilar. No es improbable
+    encontrar algo a 20/23k de un dormitorio terminado todo cercadito
+    en el medio del campo. Y vivir de la jubilacion de la empresa y
+    generar un minisistema que me entregue unos mangos. P.e. un
+    sistema basico de cortinas x4 cobrado por mi en 4 cuotas que
+    serian 25c+10inc+10vta=>45%; Sn=>55%. 10cxd 200cxm 640000=>500000;
+    500k=>275k 75k de gastos==> 200k netos. con 156 cortinas
+    vendidas. La venta la haria con dos o tres promos que captaria con
+    wassap. Tiene que haber un pueblo cercano para poder vender.
+**** condicion de posibilidad: economica
+     con los U$D actuales me faltan 300k para la ranger. Y una casita
+     nueva/seminueva de 40/50m2 cuesta 13/15k de alquiler en las
+     sierras. Y de las dos que vi una traia heladera y cocina y la
+     otra traia todos los muebles. 
+**** condicion de posibilidad: fisica-animica
+     no estar curado y estar en medio de una depresion no es el mejor
+     pronostico para planificar una situacion asi.
+**** condicion de posibilidad: situacion familiar
+     no muy oportuna, la indefinicion del Fede, esto hace necesario un
+     Fede solido, y la ida pendiente de las chicas. 
+**** porque se da esta idea ahora 
+     porque estoy releyendo cuadernos de cabaña. Es normal. Y se
+     acentua pq veo en la voz y encuentro una cabaña en el medio de la
+     nada a 13000 el alquiler.
+**** condiciones de viabilidad
+     altamente inviable - altamente 
+** [2021-01-22 vie]
+*** TODO temas del dia
+**** leer menos prozac y mas platon
+**** leer y marcar y posteriormente transcribir cuaderno cabaña
+**** escuchar conferencia distimia
+
