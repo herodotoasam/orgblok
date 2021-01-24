@@ -3333,3 +3333,11 @@ D $1000.00
 2021/01/21 psi cami
     cami:psicologo            1200
     assets:caja              -1200
+
+2021/01/23 jardinero
+    expenses:casa:mantenimiento:jardineria            $700
+    assets:caja                                      $-700
+
+2021/01/23 lomitos
+    expenses:comida             950
+    assets:caja                -950

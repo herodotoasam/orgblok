@@ -6793,4 +6793,68 @@ produce ese estado de soñolencia.
 **** leer menos prozac y mas platon
 **** leer y marcar y posteriormente transcribir cuaderno cabaña
 **** escuchar conferencia distimia
+** [2021-01-23 sáb]
+*** importante descubrimento sobre la astenia
+    es un hecho que tengo astenia muy pronunciada, pero como ya habia
+    pensado antes en el pasado tiene un componente sicologico y no
+    fisico. Yo estos ultimos tiempos le quise echar la culpa a la
+    falta de estado fisico o sea tipo una decadencia generalizada muy
+    grande que se estaba cobrando factura via una incapacidad fisica
+    real de movimiento. Pero tambien veia que esa incapacidad motora
+    se veia suspendida en los momentos en los que interactuaba con
+    otros ajenos a la familia, como pe. si atendia un pedido en la
+    puerta o algo asi, lo cual me llevo a la teoria de la descarga de
+    adrenalina. Y hoy cuando me puse a cocinar y lo hice con total
+    normalidad cai en la cuenta que el malestar es sicologico. Sin
+    hablar de lo que ocurrio a las 19hs:...
+*** PASO GIGANTE: CAMINATA 4KM CON LAS CHICAS.
+    la Romi convoca a las 19hs para que salgamos a caminar a la
+    colectora, en el almuerzo, y faltaban una pila de horas, y me fui
+    a dormir la siesta, me surgio un dolor de cabeza, una incomodidad
+    y comence a debatir si ir o no ir. Y luego llegue a la decision de
+    si ir, y no me arrepiento. En ese momento no pensaba que podia
+    lograrlo, pensaba que iba a hacer cuatro o cinco cuadras y me iba
+    a volver. 
+    Lo que jugo a favor es que el circuito es ambientalmente optimo,
+    es muy lindo en todos los aspectos.
+    Termine caminando 4 km, con una andada en bici por unas cuadras
+    que me costo mas, quizas por la ergonomia de la bici para mi
+    cuerpo. 
+    Teniendo en cuenta que en todo el 2020 despues de la pandemia
+    fueron las diez cuadras volviendo de bertoloto creo que me las
+    banque muy bien y podria repetirlo. 
+** [2021-01-24 dom]
+*** lectura de New Calport
+    en ambos libros, esta el mismo tema y es el trabajo profundo, o
+    sea la dedicacion total. Tres o cuatro horas por dia cinco dias a
+    la semana. (que dicho sea de paso son las 1000hs anuales que
+    llevan a la maestria). 
+*** posible plan de accion
+**** caminata - walking 
+**** nueva alimentacion
+***** nuevo licuado 
+      con avena fermentada y hervida y mejores
+      complementos. (p.e. agregar algas, maca, lino)
+***** evitar los contaminantes
+***** consumir amaranto, mijo y legumbres mas rutinariamente.
+***** consumir frutas y verduras mas rutinariamente
+**** base lectura y videos
+***** libros
+****** hazlo tan bien que no puedan ignorarlo
+****** enfocate (deep work)
+***** videos
+****** psiquiatria
+****** resumen libros leidos
+**** nucleo de estudio profundo 3hs por dia
+     a definir
+**** aplicaciones de trabajar mejor en romitex
+***** analisis crediticio y prospectivo cientifico bigdata
+***** generacion de nuevas herramientas de trabajo
+****** ejemplo el fechador
+****** bigdata sobre el fechamiento en tablas sqlite y su analisis
+****** analisis de posibles errores de pasado 
+       p.e. en recibos que marque las zonas que no son del cobrador en
+       rojo.
+       que marque los pagos que ya fueron hechos en el los ultimos
+       dias. 
 
