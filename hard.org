@@ -1,0 +1,7 @@
+* Agenda hard-work
+** Enero 2021
+*** [2021-01-25 lun]
+    :LOGBOOK:
+    CLOCK: [2021-01-25 lun 16:11]--[2021-01-25 lun 16:57] =>  0:46
+    introduccion informal python
+    :END:
