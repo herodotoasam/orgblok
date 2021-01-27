@@ -6846,7 +6846,7 @@ produce ese estado de soñolencia.
 ****** psiquiatria
 ****** resumen libros leidos
 **** nucleo de estudio profundo 3hs por dia
-     a definir
+     python / pandas / machine learning
 **** aplicaciones de trabajar mejor en romitex
 ***** analisis crediticio y prospectivo cientifico bigdata
 ***** generacion de nuevas herramientas de trabajo
@@ -6857,4 +6857,81 @@ produce ese estado de soñolencia.
        rojo.
        que marque los pagos que ya fueron hechos en el los ultimos
        dias. 
-
+** [2021-01-25 lun]
+*** DONE segundo gran desafio
+    camine mas de 45 minutos, y aparte camine como 10 cuadras extras
+    para ir a comprar fruta con las chicas, y mañana empiezo el
+    licuado.
+** [2021-01-26 mar]
+*** cambio el animo y el tono muscular
+    a pesar de estar cansado por la actividad un poco torpe a la
+    noche, el animo es otro y la actividad tambien cambio. Por el
+    momento es totalmente distinta en general. Se que hace falta
+    persistencia por lo menos por cuatro meses mas.
+*** tambien cambio el abanico lector
+    abarcando distintos libros que ya habiamos leido pero que pretendo
+    leerlos con mayor detenimiento. 
+    La lectura abarcativa a varios libros a la vez me llena, pq ayuda
+    un monton y motiva un monton, y sirve para sacarse de encima la
+    dispersion de estar leyendo twitter, o noticias o esas cosas, o lo
+    que tambien termino siendo un sucedaneo el "ver" los videos pero
+    no quedarse con ninguno.
+*** valiosisima experiencia con trabajo profundo
+    la segunda xp, habia empezado medio floja y cuando encontre un
+    tema nuevo que no conocia y medianamente dificil que representaba
+    un reto para mi conocimiento o sea que constituia una practica
+    deliberada ahi empece a fluir y el tiempo volo, y termino la
+    sesion siendo de una hora.
+    Por el momento pienso que debo ir acostumbrandome a sesiones de
+    una hora por vez hasta que pueda ir metiendo dos por dia y asi. En
+    el medio una borrasca de la mente incluso cuestiono el paraque? o
+    sea quehagoyoaqui? estudiando python, y todo pq habia encontrado
+    algo dificil fuera de los esquemas faciles, pero luego de haberlo
+    hecho me siento mejor y mas realizado. Por eso pienso que la exp
+    fue valiosa.
+    Hoy hice dos xp, completando 1.45hs entre los dos, lo cual es
+    positivo, pq agregue spyder para que no tenga fiaca de copiar las
+    funciones y probarlas lo cual es positivo para la practica. La
+    meta es llegar a las 3hs de practica por dia. Como dice CN tres
+    horas por dia de hard work dan muy buenos resultados.
+*** valiosa xp haciendo la comida hoy.
+    me hice un puchero para las chicas y yo, y capaz el fede. Pero fue
+    todo facil, no voy a negarlo. Pq ya esta hecho el trabajo duro que
+    es picar todo lavadito y congelado.
+    Todo salio muy bien y aparte lave los platos.
+*** MB: arrancar el licuado de nuevo
+    asi sea asi como estaba antes sin hervir nada por ahora, luego
+    tendre tiempo de mejorarlo un poco, pero por ahora lo arranco y lo
+    mas importante de todo reemplazo las malas comidas, pq esa es la
+    bocha, reemplazar con la dupla licuado+fruta toda la panificacion.
+    Bien hoy por lo menos, la jarra completa sirvio para reeplazar en
+    forma completa desayuno y merienda, desayunito y meriendita, y
+    cafe intermedio, y eso que no tuve que apelar a la banana que
+    tenia por las dudas.
+*** comprar yo la fruta
+    o bien solo o bien hacerlo con las chicas en la verduleria de la
+    ruta.
+    tengo que tener si o si la fruta del licuado, y bananas para
+    complementar el licuado, y alguna otra de estacion.
+*** no ser el encargado de comer todo lo que hay en panificados
+    yo me siento el encargado tacito de consumir lo que se haga en
+    panificados, si hacen una torta comerla, si hay una caja de
+    alfajores, comerlos, etc. y no es el caso. 
+    La idea es alejarse de todo lo que es gluten proveniente de
+    panificados, dejando por ahora solo la pizza pq es algo rico, que
+    se come de vez en cuando.
+** [2021-01-27 mié]
+*** ojala venga el otoño
+    me gustaria que venga el frio y que se vayan los mosquitos, aunque
+    en esta temporada quede en no darles bolas, la verdad que me
+    tienen podrido.
+*** valiosa xp yendo al banco a depositar
+    parte pq salimos con el Fede, parte pq hicimos algo dificil por
+    si, parte pq sacamos de encima algo que venia atrasado, parte pq
+    salgo y no me quedo adentro.
+*** hoy fue una mañana cortada por tener que ir a asistirlo al Fede
+    en su crisis matrimonial toda la mañana la pasamos en la casa del
+    Fede y no hice ningun trabajo
+*** por algunos momentos me parece que el objeto del hard work no vale la pena
+    no se si es un bache, o si es normal pero por ahi me lo cuestiono,
+    por el momento voy a seguir adelante.

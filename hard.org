@@ -5,3 +5,15 @@
     CLOCK: [2021-01-25 lun 16:11]--[2021-01-25 lun 16:57] =>  0:46
     introduccion informal python
     :END:
+*** [2021-01-26 mar]
+    :LOGBOOK:
+    CLOCK: [2021-01-26 mar 17:40]--[2021-01-26 mar 18:25] =>  0:45
+    funciones- instalo Spyder para pruebas mejoradas 
+    CLOCK: [2021-01-26 mar 10:32]--[2021-01-26 mar 11:32] =>  1:00
+    control de flujo - sentencia for(else) - 
+    :END:
+*** [2021-01-27 mié]
+    :LOGBOOK:
+    CLOCK: [2021-01-27 mié 18:04]--[2021-01-27 mié 19:09] =>  1:05
+    funciones 
+    :END:

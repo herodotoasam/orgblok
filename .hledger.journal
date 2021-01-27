@@ -3341,3 +3341,63 @@ D $1000.00
 2021/01/23 lomitos
     expenses:comida             950
     assets:caja                -950
+
+2021/01/26 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2021/01/26 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021/01/26 tatuaje
+    expenses:cami:extras            4000
+    assets:caja                    -4000
+
+2021/01/26 comida
+    expenses:comida             300
+    assets:caja                -300
+
+2021/01/26 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/01/26 ih mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/01/26 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/01/26 comida cami
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2021/01/24 pizza
+    expenses:comida             800
+    assets:caja                -800
+
+2021/01/26 epec 12/2020
+    expenses:servicios:epec         4810.20
+    assets:caja                    -4810.20
+
+2021/01/26 claro
+    expenses:servicios:claro         1365.97
+    assets:caja                     -1365.97
+
+2021/01/26 ospe
+    expenses:servicios:OSPE          $25166
+    assets:caja                     $-25166
+
+2021/01/26 aguas cordobesas 12/2020($0)-01/2021
+    expenses:servicios:aguas cordobesas          725.03
+    assets:caja                                 -725.03
+
+2021/01/26 epec dpto
+    expenses:servicios:epec          277.60
+    assets:caja                     -277.60
+
+2021/01/27 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
