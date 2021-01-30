@@ -1,3 +1,14 @@
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2021-01-30 sáb 20:55]
+| Headline         | Time   |      |
+|------------------+--------+------|
+| *Total time*     | *6:10* |      |
+|------------------+--------+------|
+| Agenda hard-work | 6:10   |      |
+| \_  Enero 2021   |        | 6:10 |
+#+END:
+
+
 * Agenda hard-work
 ** Enero 2021
 *** [2021-01-25 lun]
@@ -16,4 +27,20 @@
     :LOGBOOK:
     CLOCK: [2021-01-27 mié 18:04]--[2021-01-27 mié 19:09] =>  1:05
     funciones 
+    :END:
+*** [2021-01-28 jue]
+    :LOGBOOK:
+    CLOCK: [2021-01-28 jue 17:42]--[2021-01-28 jue 18:05] =>  0:23
+    list methods
+    :END:
+*** [2021-01-29 vie]
+    :LOGBOOK:
+    CLOCK: [2021-01-29 vie 10:57]--[2021-01-29 vie 12:04] =>  1:07
+    sorted / lifo-fifo / comprension de listas
+    :END:
+*** [2021-01-30 sáb]
+    :LOGBOOK:
+    CLOCK: [2021-01-30 sáb 20:14]--[2021-01-30 sáb 20:55] =>  0:41
+    CLOCK: [2021-01-30 sáb 14:54]--[2021-01-30 sáb 15:17] =>  0:23
+    tuplas - conjuntos
     :END:
