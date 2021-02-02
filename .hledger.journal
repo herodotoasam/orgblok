@@ -3469,3 +3469,7 @@ D $1000.00
 2021/01/23 compra dolares
     assets:reserva u$s            u$s 500
     income:compra dolares        u$s -500
+
+2021/01/31 empanadas
+    expenses:comida             500
+    assets:caja                -500

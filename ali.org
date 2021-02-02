@@ -6275,9 +6275,7 @@ produce ese estado de soñolencia.
     del refuerzo que significaria el hacer uno mismo los ejercicios,
     pero algo es algo, uno va conociendo los temas. Ya sea por
     repeticion los va conociendo. 
-* libros
-** [2021-01-29 vie] Enfocate - Cal Newport
-* 2021
+* 2021 - Enero
 ** [2021-01-02 sáb]
 *** gran fiasco con fl5 el 31/12
     termino de programar la tarde del 31 y todo bien, habia terminado
@@ -7054,4 +7052,69 @@ produce ese estado de soñolencia.
     llegar a leer, es algo que podemos hacer siempre, y sirve para
     varios propositos, para fijar mejor lo que hemos leido, y tambien
     para ver que tan bien estamos leyendo. 
-
+** [2021-01-31 dom]
+*** {ucronia}: si en pandemia me hubiera dedicado a leer y ver videos
+    sin tener que trabajar a un nivel de poder leer 4 horas por dia
+    podes terminarte un libro cada tres dias mas o menos o sea 6 o 7
+    libros por mes. Y respecto a los videos, rescato que hay
+    muchisimos videos que amplian los horizontes de una o de otra
+    manera, todo sobre lo ficcional y todo sobre lo coyuntural. Y en
+    relacion a lo invertido en aprender lo aprendido de programacion
+    web en forma fallida pq es dificil llegar a donde hay que llegar. 
+*** porque quiero aprender python
+    pq una vez olvidado el sueño de la web por inalcanzable por el
+    momento o inabarcable, quiero focalizar en un lenguaje de
+    programacion para luego estudiar machine-learning y todo eso es en
+    python. 
+**** parte puede ser seguir con la programacion tcl para el negocio
+**** python pandas flask para el analisis de datos
+*** gran repunte del hw
+    hoy domingo con 2.30hs y un renovado entusiasmo ya que incorpore
+    un libro con la suficiente profundidad como para mantenerme
+    interesado y a la vez no desanimarme. Creo que si llego a dominar
+    todo el libro de inmersion-python, con mas las lecturas que puedan
+    salir de la documentacion tendre una base del lenguaje como para
+    ir agarrando practica en la resolucion de los problemas.
+    La meta para esta semana estaria en eso, en llegar a las dos horas
+    diarias, o sea estar en 14hs en la semana, lo cual le dara pienso
+    un buen avance.
+*** vi un video de 52 libros en 52 semanas
+    o sea un reto de leer un libro por semana en un año. Si son
+    ciertas las mediciones de Moon Reader los libros oscilan entre 5 y
+    10 hs de lectura. Supongamos 8 para dejar margen, tenemos una
+    necesidad de una hora y pico por dia para cubrirlo. Nada comparado
+    con lo que habitualmente se desperdicia mirando netflix.
+* libros
+ 1. [2021-01-29 vie] Enfocate - Cal Newport
+ 2. 
+* 2021 - Febrero
+** [2021-02-01 lun]
+*** retomamos la normalidad: volvio la mami!
+    volvio la ih de sus entrecortadas vacaciones familiares, y corto
+    dos fines de semana de soledad que los pase bastante bien, pq
+    fueron cursados a posteriori de empezar a caminar, y si bien es
+    cierto que este ultimo finde no camine por motivos de clima, ya
+    tenia adentro 4 sesiones de caminata. 
+*** caminata suspendida por lluvia. Pero...
+    nuevamente suspendimos la caminata por amenaza de lluvia y ahi
+    andaba con la pierna entumecida luego de una hora de hw, e hice un
+    paso gigante, saque la bici le acomode el asiento y el manubrio a
+    mi altura y pum me hice 20 minutos escuchando una conferencia de
+    Piglia sobre Sarmiento. Contento pq 20 min de bici valen como
+    haber ido a la caminata asi no queda el hueco, no vaya ser que
+    mañana no podamos ir tampoco.
+*** nuevo record de hw: 2.55hs casi tres horas!!!
+    creo que el libro lo voy a hacer masita. Espero la complejidad, y
+    espero que en un par de semanas lo termine por dominar totalmente
+    para encarar otro desafio. Lo que si tengamos en cuenta que todo
+    es teoria que no hay ninguna practica programadora todavia. Pero
+    ya va a venir.
+    Lo bueno que veo es que si uno se engancha en el tema, o sea que
+    empieza a fluir la hora se pasa volando y la cuestion es ponerse
+    dos o tres veces al dia. Pq en forma seguida pienso que es muy
+    duro por ahora.
+*** la lectura la distribuyo una hora a la siesta y una hora a la noche
+    asi puedo con tranquilidad lograr las dos horas por dia para
+    lograr las metas de lectura. Y cuando frena la comprension o el
+    entusiasmo, leer los marcadores y/o ver videos de resumen. Para
+    retomar el curso de la concentracion.
