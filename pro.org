@@ -3503,6 +3503,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-01-03 dom]                                              :Vue:
 ** semana [2021-01-10 dom]
 ** semana [2021-01-17 dom]
+** semana [2021-01-24 dom]                                           :Python:
+** semana [2021-01-31 dom]                                           :Python:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
