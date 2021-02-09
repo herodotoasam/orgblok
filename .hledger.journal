@@ -3565,3 +3565,59 @@ D $1000.00
 2021/02/04 cami sicologa
     cami:psicologo           $1200
     assets:caja             $-1200
+
+2021/02/05 alimentos naturales
+    expenses:comida:naturales            1300
+    assets:caja                         -1300
+
+2021/02/05 zapatillas reebook running
+    expenses:personal:ropa            7000
+    assets:caja                      -7000
+
+2021/02/05 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/02/05 saco reservas
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/02/05 comida
+    expenses:comida             370
+    assets:caja                -370
+
+2021/02/07 pipetas
+    expenses:comida:gatos             320
+    assets:caja                      -320
+
+2021/02/07 farmacia
+    expenses:gastos medicos:farmacia             168
+    assets:caja                                 -168
+
+2021/02/07 cami tarjetas
+    expenses:cami:extras            4200
+    assets:caja                    -4200
+
+2021/02/07 carla
+    expenses:isabel            1400
+    assets:caja               -1400
+
+2021/02/07 peluquero
+    expenses:peluqueria            $200
+    assets:caja                   $-200
+
+2021/02/08 cami bono utiles
+    expenses:cami:extras            3000
+    assets:caja                    -3000
+
+2021/02/08 limpieza
+    expenses:comida:limpieza             450
+    assets:caja                         -450
+
+2021/02/08 comida gatos
+    expenses:comida:gatos             550
+    assets:caja                      -550
+
+2021/02/08 farmacia atenix
+    expenses:gastos medicos:farmacia             265
+    assets:caja                                 -265

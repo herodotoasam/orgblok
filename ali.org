@@ -7086,7 +7086,8 @@ produce ese estado de soñolencia.
     con lo que habitualmente se desperdicia mirando netflix.
 * libros
  1. [2021-01-29 vie] Enfocate - Cal Newport
- 2. 
+ 2. [2021-02-07 dom] Hazlo tan bien que no puedan ignorarte - Cal Newport
+ 3. 
 * 2021 - Febrero
 ** [2021-02-01 lun]
 *** retomamos la normalidad: volvio la mami!
@@ -7187,10 +7188,12 @@ produce ese estado de soñolencia.
     los aires para el entrepiso, y al terminar me vino un reflujo
     horrible con vomitos acidos que me quemaron la garganta.
 ** [2021-02-04 jue]
-*** ayer con gran esfuerzo hice la 5ta sesion de caminata
+*** ayer con gran decision hice la 5ta sesion de caminata
     a pesar de que habia hecho fuerza a la siesta y habia tenido
-    vomito, me fui a caminar con la Cami, y fuimos temprano con el sol
-    alto, un poco de calor, pero lo hice al final me senti bien. Es
+    vomito, me fui a caminar con la Cami lo mismo para no fallarme,
+    y fuimos temprano con el sol alto y eso causo muchas molestias
+    un poco de calor, mayormente a la ida, pero la vuelta se hizo 
+    rapido y bien. La vuelta se hace mas rapido siempre. Es
     raro arrepentirse de ir a caminar.
 *** hoy amaneci con tapon de cerumen en oido derecho
     re-molesto el sintoma y hasta ahora no he podido solucionarlo con
@@ -7235,4 +7238,92 @@ produce ese estado de soñolencia.
 *** voy a probar el hervir la avena para ver si es mas liviana al estomago
     quiero continuar con el licuado si o si, pero me viene cayendo
     pesada o irritante el licuado tal cual lo estoy comiendo hasta ahora.
+** [2021-02-05 vie]
+*** hoy fui a comprarme las zapas de caminar
+    hacia mucho que no iba al dino/hiper... y me canse un
+    monton. Felizmente consegui comprar lo que iba a comprar o sea que
+    mi mision fue exitosa y no fue en vano, y menos mal que ya empece
+    una rutina de ejercicio de caminata y voy por la 6ta edicion para
+    estrenar las zapas nuevas. Sino lo de hoy seria una muestra de un
+    deterioro mayusculo y una declinacion fisica pronunciada. 
+    Creo que debo hacer el esfuerzo de caminar tres veces por semana
+    todo el año para tener un cierto estado fisico. 
+** [2021-02-08 lun]
+*** alta depresion
+    sigo con el tapon en el oido peor que antes, ayer parecia mejorar
+    y hoy tengo un tapon peor como si fuera por agua.
+    y no tengo ganas de hacer nada, estoy totalmente deprimido. 
+    aunque me levante relativamente temprano e hice las series, tome
+    licuado, y luego con gran esfuerzo limpie la habitacion, me
+    encuentro en un pozo desesperante. 
+    Es que desde ayer comence a preocuparme sobre mi jubilacion y la
+    verdad no se que hariamos. 
+    El largo finde solo lei y vi un par de capitulos de la serie y
+    ayer la invite a ih a ver una pelicula en el living, lo cual me
+    costo fisicamente estar sentado, pero fue una experiencia positiva
+    para salirse del ututismo que ambos estamos sufriendo. 
+    No me motiva nada, no me mueve nada. La caminata me es
+    indiferente, no me motiva nada positivo y asi con todo.
+*** Muy positivo: fui al medico     
+    lo cual inicio un proceso positivo, pq en el transcurso del dia,
+    yendo a la tarde tambien me sacaron el tapon de cerumen, y me
+    dieron un antidepresivo provisoriamente para comenzar, y luego
+    iniciar la admision para terapia sicologica y siquiatrica. Incluso
+    va mas alla pq vamos hacia la clinica medica, pq tengo turno para
+    el 19 cuando haremos analisis clinicos y veremos el tema de la
+    hiperprolactinemia, y posiblemente la colonscopia. 
+    Todo gracias a un impulso instantaneo que ih hizo de llevarme ahi
+    mismo al medico a pesar de que eran las 13hs casi. Y yo le hice
+    caso. 
+*** alta migraña
+    cuando me preparaba para ir al medico se me presento el dolor, y
+    tome un migral, luego por miedo que no se fuera y me repercutiera
+    fiero, tome un 10mg corti, que hacia muchisimo que no tomaba, y
+    mas o menos lo soporte mientras estuve alla, pero al volver a la
+    casa recrudecio el dolor y se volvio bastante molesto.
+*** una cosa es tener migraña otra cosa es no tener migraña
+    estar con un punzante N5/N6 es urticante, no podes pensar, ni
+    hacer nada, solo podes echarte y hacer "recuperacion".
+*** hoy comienzo el tratamiento antidepresivo
+    veremos como me va con eso. Se que tampoco debo esperar mucho,
+    pero puede ser que me vaya bien y logremos resultados. Es sabido
+    que el nivel de depresion que tengo requiere medicacion si o si. Y
+    tengo que ir probando hasta dar con la medicacion adecuada.
+    primero la voy a evaluar con respecto a la astenia-energia, luego
+    con respecto al levantarse temprano a la mañana y no tener esa
+    sensacion de futilidad y poder levantarse sin miedo para hacer
+    cosas, tambien en relacion a los proyectos y las relaciones. O sea
+    hoy por hoy me encuentro con astenia o energia cero, con una
+    sensacion de miedo al levantarme, que me impide levantarme
+    temprano a discresion por no saber que hacer, no puedo hacer
+    proyectos o los que hago no los cumplo, y le esquivo a las
+    relaciones y a las salidas, p.e. prefiero quedarme en la casa
+    encerrado.
+*** creo que hay trabajo en rx en mi area si me dedicara
+    las nuevas ideas pueden aparecer en el adyacente posible. Y para
+    estar en el adyacente posible, hay que estar en la
+    vanguardia. Como hago para estar en la vanguardia?. Aumentando mis
+    conocimientos sobre machine learning y analisis de datos para
+    saber predecir resultados sobre los creditos dados en funcion de
+    los datos que tenemos y poder explotar aun mas la cartera de
+    creditos que tenemos. Conocer aun mas los clientes que
+    tenemos. Estar atento a negocios futuros que podamos hacer con mas
+    inversion.
+    Uniendo dos cosas el conocimiento (python/pandas/mlearning) [por
+    aprender] con los datos que tenemos [trabajo por realizar]. 
+    Lo cual significa un gran y apasionante trabajo por delante. 
+    Esta es una idea mas densa y desarrollable y mas interesante y mas
+    valuable, y mas potencialmente valiosa, y mas potencialmente
+    rentable que la idea de llevar los datos a la red. 
+    pq llevar los datos a la red no nos dara valor agregado, en cambio
+    manejar el bigdata probablemente si nos de un plus de valor ya sea
+    en la toma de decisiones como en los negocios concretos que
+    podamos encarar con eso. 
+    De todos modos el pasado de papeles puede seguir siendo
+    centralizado en tcl y seguir siendo hecho por mi como hasta el
+    presente en un solo lado.
 
+
+    
+    
+    

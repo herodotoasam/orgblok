@@ -1,12 +1,12 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-02-04 jue 20:24]
+#+CAPTION: Clock summary at [2021-02-05 vie 18:00]
 | Headline         | Time    |      |
 |------------------+---------+------|
-| *Total time*     | *15:51* |      |
+| *Total time*     | *17:39* |      |
 |------------------+---------+------|
-| Agenda hard-work | 15:51   |      |
+| Agenda hard-work | 17:39   |      |
 | \_  Enero 2021   |         | 8:39 |
-| \_  Febrero 2021 |         | 7:12 |
+| \_  Febrero 2021 |         | 9:00 |
 #+END:
 
 
@@ -81,4 +81,11 @@
     CLOCK: [2021-02-04 jue 12:08]--[2021-02-04 jue 12:34] =>  0:26
     CLOCK: [2021-02-04 jue 11:44]--[2021-02-04 jue 11:57] =>  0:13
     nivel 32 - reto 1-5
+    :END:
+*** [2021-02-05 vie]
+    :LOGBOOK:
+    CLOCK: [2021-02-05 vie 17:04]--[2021-02-05 vie 17:59] =>  0:55
+    nivel 32 - reto 11-13
+    CLOCK: [2021-02-05 vie 12:36]--[2021-02-05 vie 13:29] =>  0:53
+    Nivel 32 - reto 9-10
     :END:
