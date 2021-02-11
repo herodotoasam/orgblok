@@ -7087,7 +7087,8 @@ produce ese estado de soñolencia.
 * libros
  1. [2021-01-29 vie] Enfocate - Cal Newport
  2. [2021-02-07 dom] Hazlo tan bien que no puedan ignorarte - Cal Newport
- 3. 
+ 3. [2021-02-09 mar] Focus - Daniel Goleman
+ 4. 
 * 2021 - Febrero
 ** [2021-02-01 lun]
 *** retomamos la normalidad: volvio la mami!
@@ -7322,8 +7323,82 @@ produce ese estado de soñolencia.
     De todos modos el pasado de papeles puede seguir siendo
     centralizado en tcl y seguir siendo hecho por mi como hasta el
     presente en un solo lado.
-
-
-    
-    
-    
+** [2021-02-09 mar]
+*** informe animico
+    quiero descontar el efecto placebo, tambien quiero evitar la
+    decepcion, o sea creer que hay efectos positivos muy rapidos que
+    despues desaparezcan o se ameseten y no terminen de resolver los
+    problemas. 
+    Dormi mas profundamente, fue como si hubiera tomado una o dos
+    dosis de clonazepan, y me desperte a la hora de siempre por los
+    ruidos de la mañana y decidi levantarme a hacer las series sin ese
+    sentimiento matinal, las hice bien, tome licuado me tome un migral
+    pq me dolia la cabeza, y me puse a leer una hora en la cama hasta
+    las diez. Luego me levante y desayune tranquilo cafe con un par de
+    tostadas con ih y la Cami totalmente relajado, digamos feliz. Y
+    ahora me puse a hacer la bitacora y a empezar cualquier tarea que
+    elija, pq animicamente estoy bien.
+*** resultado del dia
+    hice la gigante 7ma sesion de la caminata, y ya estoy con mas
+    estado fisico. Lo pude hacer con mas solvencia y a pesar de que
+    llego cansado tuve mas energia.
+    Hice tambien un dia interesante en python, llegando a 2.47hs. con
+    interes y repaso de los escritos antes de empezar, diez minutos de
+    repaso antes de empezar es bueno pq te pone en marcha y sirve para
+    repasar lo que hemos olvidado. Recien vamos 20hs, creo que cuando
+    tengamos las 50hs de python la solvencia sobre el lenguaje va a
+    ser muy importante. 
+    Hoy acabe mi tercer libro Focus, cuando termine el decimo libro
+    con repasos incluidos y recaptacion a traves de videos vamos a
+    tener mayor valor agregado. 
+    y aparte tuve tiempo para trabajar o sea fue un dia full time, me
+    levante una hora antes tambien, aunque todavia eso no se note mucho.
+** [2021-02-10 mié]
+*** segunda noche de pastilla
+    dormi bien la primera parte, hasta que me desperte por una
+    semi-pesadilla y luego no me pude dormir ahi nomas, tarde mas de
+    lo normal. Hice un poco de mindfulness y un enumerate y luego debo
+    haber quedado dormido.
+    Me semi-levante temprano hoy (8.45). O sea levantarse, hacer las
+    series y acostarse de nuevo a leer hasta que se levante ih y ahi
+    me pongo a desayunar y luego me pongo a hacer las cosas.
+** [2021-02-11 jue]
+*** tercera noche de pastilla
+    dormi bien sin insomnio pero desperte temprano, y como tenia que
+    darle la notebook a la Cami a las 8, me levante 7.45, la prendi y
+    espere en la cocina, luego me acoste de nuevo y me dormitaba de a
+    ratos con mucha fiaca y me levante tarde, desganado. No digo que
+    siento bajon, pero tampoco estoy pum para arriba, estoy como
+    indiferente. Con respecto a las actividades de la mañana estoy mas
+    bien fiacoso. Estoy como si lo dormido no hubiera sido suficiente,
+    como si tuviera que acostarme y seguir durmiendo. 
+    Anoche a las 00hs me estallo una migraña importante que no se a
+    que atribuirla, y me tome un migral y me dormi, y felizmente se
+    resolvio, y hoy tome un segundo migral a las 15hs, con dolor
+    residual importante que no cedia en la "recuperacion", y como tuve
+    que levantarme lo mismo para pasar papeles, se me paso con la
+    actividad.
+    El dia transcurrio normal, sin demasiadas estridencias, digamos
+    que no me sobra la energia pero tampoco me falta tanto.
+    Lo feo es que las chicas no quisieron ir a caminar asi que tendria
+    para cumplir que hacer la bici 20 minutos.
+    Enorme 8va sesion hecha en forma de bici. 
+*** sinergia positiva lectura + marcadores + videos
+    eso va compactando la memoria y las conexiones y sirve para
+    afianzar el habito lector tambien, pq lo pone mas en contexto, lo
+    enriquece. Pq le agrega datos, o lo redondea. 
+*** tambien este xp es algo experimental
+    p.e. en cuanto al desarrollo de la atencion y/o concentracion de
+    estudio y lo que se puede lograr en una materia en 50,100hs o mas,
+    es algo que no conozco. 
+    igualmente para el desarrollo mental el ir agregando libros
+    leidos, p.e. llegando a 10,20,50 con relectura de marcadores y
+    vista de videos cuando se pueda.
+    como tampoco se el estado fisico que puedo llegar a tener luego de
+    60,90 dias de entrenamiento constante semanal de tres veces por
+    semana.
+    como tampoco se el efecto fisico de tomar licuado 30 dias seguidos
+    con la avena hervida como hago ahora, que ha cambiado totalmente
+    la digestibilidad de la avena. 
+*** lo que tiene de malo este esquema
+    es que no trabajo. y en algun momento vamos a tener que trabajar. 

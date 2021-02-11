@@ -3765,6 +3765,8 @@ pero es algo continuo en cambio el otro molestaba que era variable.
     p.e.
     Code,code,code
     Emacs,emacs,emacs
+** problemas para update en la notebook
+   sudo apt update --allow-releaseinfo-change
 * agenda xubuntu
 ** instalacion xubuntu [2021-01-01 vie]
  instalado el [2021-01-01 vie] luego de un intento fallido de instalar

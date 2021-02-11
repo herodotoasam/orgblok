@@ -3621,3 +3621,63 @@ D $1000.00
 2021/02/08 farmacia atenix
     expenses:gastos medicos:farmacia             265
     assets:caja                                 -265
+
+2021/02/09 ih mesada
+    expenses:isabel            1200
+    assets:caja               -1200
+
+2021/02/09 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/02/09 ih lanas
+    expenses:isabel            2300
+    assets:caja               -2300
+
+2021/02/09 diferencia arqueo positiva
+    expenses:diferencia arqueo            -300
+    assets:caja                            300
+
+2021/02/09 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/02/09 comida cami
+    expenses:cami:comida           $2500
+    assets:caja                   $-2500
+
+2021/02/09 nafta
+    expenses:transporte:nafta            1000
+    assets:caja                         -1000
+
+2021/02/09 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2021/02/09 saco reservas
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/02/09 prestamo romi
+    assets:deudas romi           15000
+    assets:caja                 -15000
+
+2021/02/09 comida
+    expenses:comida            5000
+    assets:caja               -5000
+
+2021/02/10 farmacia migral
+    expenses:gastos medicos:farmacia             430
+    assets:caja                                 -430
+
+2021/02/10 farmacia ih
+    expenses:gastos medicos:farmacia             270
+    assets:caja                                 -270
+
+2021/02/11 cuchillos
+    expenses:comida             750
+    assets:caja                -750
+
+2021/02/11 comida
+    expenses:comida            2800
+    assets:caja               -2800
