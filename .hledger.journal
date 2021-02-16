@@ -3681,3 +3681,15 @@ D $1000.00
 2021/02/11 comida
     expenses:comida            2800
     assets:caja               -2800
+
+2021/02/14 pollos
+    expenses:comida             670
+    assets:caja                -670
+
+2021/02/15 jardinero
+    expenses:casa:mantenimiento:jardineria            1200
+    assets:caja                                      -1200
+
+2021/02/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
