@@ -3331,7 +3331,7 @@ D $1000.00
     assets:caja               -3000
 
 2021/01/21 psi cami
-    cami:psicologo            1200
+    expenses:cami:psicologo            1200
     assets:caja              -1200
 
 2021/01/23 jardinero
@@ -3419,7 +3419,7 @@ D $1000.00
     assets:reserva         -152500
 
 2021/01/28 cami psicologo
-    cami:psicologo           $1200
+    expenses:cami:psicologo           $1200
     assets:caja             $-1200
 
 2021/01/28 comida
@@ -3563,7 +3563,7 @@ D $1000.00
     assets:caja                                                -882
 
 2021/02/04 cami sicologa
-    cami:psicologo           $1200
+    expenses:cami:psicologo           $1200
     assets:caja             $-1200
 
 2021/02/05 alimentos naturales
@@ -3693,3 +3693,95 @@ D $1000.00
 2021/02/16 saco reserva
     assets:caja              10000
     assets:reserva          -10000
+
+2021/02/17 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2021/02/17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/02/17 cami mesada
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/02/17 cami comida
+    expenses:cami:comida            3000
+    assets:caja                    -3000
+
+2021/02/17 verdura
+    expenses:comida            1200
+    assets:caja               -1200
+
+2021/02/17 ih mesada
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/02/17 prestamo romi
+    assets:deudas romi            5000
+    assets:caja                  -5000
+
+2021/02/17 lomitos
+    expenses:comida            1350
+    assets:caja               -1350
+
+2021/02/17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/02/17 comida gato
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/02/17 limpieza
+    expenses:comida:limpieza             200
+    assets:caja                         -200
+
+2021/02/14 ingresos
+    assets:reserva                 $30000
+    income:retiro sociedad         $-30000
+
+2021/02/14 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2021/02/14 compra dolares
+    expenses:compra dolares           30000
+    assets:caja                      -30000
+
+2021/02/14 compra dolares -
+    assets:reserva u$s            u$s 200
+    income:compra dolares        u$s -200
+
+2021/02/17 ingresos
+    assets:reserva                   44700
+    income:retiro sociedad          -44700
+
+2021/02/17 saco reserva
+    assets:caja              44700
+    assets:reserva          -44700
+
+2021/02/17 compra dolares
+    expenses:compra dolares           44700
+    assets:caja                      -44700
+
+2021/02/17 compra dolares
+    assets:reserva u$s            u$s 300
+    income:compra dolares        u$s -300
+
+2021/02/18 ingresos
+    assets:reserva                   75000
+    income:retiro sociedad          -75000
+
+2021/02/18 saco reserva
+    assets:caja              75000
+    assets:reserva          -75000
+
+2021/02/18 compra dolares
+    expenses:compra dolares           75000
+    assets:caja                      -75000
+
+2021/02/18 compra dolares
+    assets:reserva u$s            u$s 500
+    income:compra dolares        u$s -500
