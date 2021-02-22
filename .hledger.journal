@@ -3785,3 +3785,75 @@ D $1000.00
 2021/02/18 compra dolares
     assets:reserva u$s            u$s 500
     income:compra dolares        u$s -500
+
+2021/02/19 prestamo romi
+    assets:deudas romi           $5000
+    assets:caja                 $-5000
+
+2021/02/19 dif
+    expenses:diferencia arqueo          171.76
+    assets:caja                        -171.76
+
+2021/02/20 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/02/20 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/02/20 aguas cordobesas 02/2021
+    expenses:servicios:aguas cordobesas         3511.15
+    assets:caja                                -3511.15
+
+2021/02/20 aguas cordobesas 03/2021
+    expenses:servicios:aguas cordobesas         1033.86
+    assets:caja                                -1033.86
+
+2021/02/20 ospe
+    expenses:servicios:OSPE          $25166
+    assets:caja                     $-25166
+
+2021/02/20 claro
+    expenses:servicios:claro         1592.65
+    assets:caja                     -1592.65
+
+2021/02/20 epec dpto
+    expenses:servicios:epec           275.2
+    assets:caja                      -275.2
+
+2021/02/20 dgr casa 2021/01-02-03
+    expenses:impuestos:casa:dgr         2953.90
+    assets:caja                        -2953.90
+
+2021/02/20 mun auto 2021/01-02
+    expenses:impuestos:bora          827.72
+    assets:caja                     -827.72
+
+2021/02/20 impuestos casa 2021/01-02
+    expenses:impuestos:casa:municipal         2059.38
+    assets:caja                              -2059.38
+
+2021/02/20 epec 01/2021
+    expenses:servicios:epec            9953
+    assets:caja                       -9953
+
+2021/02/20 dif - faltante negocio
+    expenses:diferencia arqueo          727.14
+    assets:caja                        -727.14
+
+2021/02/22 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/02/22 farmacia h italiano
+    expenses:gastos medicos:farmacia            6410
+    assets:caja                                -6410
+
+2021/02/22 facturas
+    expenses:comida             600
+    assets:caja                -600
+
+2021/02/22 ih
+    expenses:isabel             500
+    assets:caja                -500

@@ -64,6 +64,9 @@ servicio 21500964
 * ih ciudadano municipal
 ** usuario heredie150
 clave Ataraxia76 
-** 20-16744542-0
-clave Ataraxia76.
-pero solo nivel 1
+** isabel
+clave 69920381Isabel
+PIN 0162
+** sergio
+clave Eva=tj18975
+PIN 7253

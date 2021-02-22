@@ -125,3 +125,8 @@
     nivel 30 - reto 8-9 (comprension)
     nivel 27 - reto 1 (clases)
     :END:
+*** [2021-02-19 vie]
+    :LOGBOOK:
+    CLOCK: [2021-02-19 vie 11:35]--[2021-02-19 vie 11:59] =>  0:24
+    nivel 20 - reto 1-2
+    :END:
