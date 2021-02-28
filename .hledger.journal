@@ -3857,3 +3857,79 @@ D $1000.00
 2021/02/22 ih
     expenses:isabel             500
     assets:caja                -500
+
+2021/02/22 comida
+    expenses:comida            1980
+    assets:caja               -1980
+
+2021/02/23 cami
+    expenses:cami:extras             400
+    assets:caja                     -400
+
+2021/02/24 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/02/24 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/02/24 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/02/24 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/02/24 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/02/24 lomito
+    expenses:comida             740
+    assets:caja                -740
+
+2021/02/24 peluqueria lady
+    expenses:comida:gatos             550
+    assets:caja                      -550
+
+2021/02/26 estacionamiento
+    expenses:transporte:estacionamiento             200
+    assets:caja                                    -200
+
+2021/02/26 pizza
+    expenses:comida             830
+    assets:caja                -830
+
+2021/02/26 ingresos
+    assets:reserva                   71500
+    income:retiro sociedad          -71500
+
+2021/02/26 saco reserva
+    assets:caja              71500
+    assets:reserva          -71500
+
+2021/02/26 compra dolares
+    expenses:compra dolares           71500
+    assets:caja                      -71500
+
+2021/02/26 compra dolares
+    assets:reserva u$s            u$s 500
+    income:compra dolares        u$s -500
+
+2021/02/26 ingresos
+    assets:reserva                   28600
+    income:retiro sociedad          -28600
+
+2021/02/26 saco reservas
+    assets:caja              28600
+    assets:reserva          -28600
+
+2021/02/26 compra dolares
+    expenses:compra dolares           28600
+    assets:caja                      -28600
+
+2021/02/26 compra dolares
+    assets:reserva u$s            u$s 200
+    income:compra dolares        u$s -200
