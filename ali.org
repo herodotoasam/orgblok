@@ -6275,6 +6275,11 @@ produce ese estado de soñolencia.
     del refuerzo que significaria el hacer uno mismo los ejercicios,
     pero algo es algo, uno va conociendo los temas. Ya sea por
     repeticion los va conociendo. 
+* libros
+ 1. [2021-01-29 vie] Enfocate - Cal Newport
+ 2. [2021-02-07 dom] Hazlo tan bien que no puedan ignorarte - Cal Newport
+ 3. [2021-02-09 mar] Focus - Daniel Goleman
+ 4. 
 * 2021 - Enero
 ** [2021-01-02 sáb]
 *** gran fiasco con fl5 el 31/12
@@ -7084,11 +7089,6 @@ produce ese estado de soñolencia.
     10 hs de lectura. Supongamos 8 para dejar margen, tenemos una
     necesidad de una hora y pico por dia para cubrirlo. Nada comparado
     con lo que habitualmente se desperdicia mirando netflix.
-* libros
- 1. [2021-01-29 vie] Enfocate - Cal Newport
- 2. [2021-02-07 dom] Hazlo tan bien que no puedan ignorarte - Cal Newport
- 3. [2021-02-09 mar] Focus - Daniel Goleman
- 4. 
 * 2021 - Febrero
 ** [2021-02-01 lun]
 *** retomamos la normalidad: volvio la mami!
@@ -7749,6 +7749,7 @@ produce ese estado de soñolencia.
     el marasmo es total, la indiferencia es total, el dolor es
     total. El unico plan posible es estar acostado y ver series. o
     dormir.
+* 2021 - Marzo
 ** [2021-03-01 lun]
 *** vigesimo primer noche de pastillas
     dormi pero me desvele a partir de las ocho, poco bruxismo.
@@ -7843,3 +7844,134 @@ produce ese estado de soñolencia.
     durante el dia domingo experimente una leve mejora en el estado
     animico, dificil explicar por palabras por el momento pero
     perceptible minimamente.
+** [2021-03-08 lun]
+*** vigesimo octava noche de pastillas - quinta aripiprazol
+    dormi profundo. me mordi la lengua tres veces, aunque con menor
+    intensidad que de costumbre. 
+    luego de desayunar y tomar las pastillas me invadio un sueño
+    terrible, ih me decia que me vaya a acostar que no sufriera mas.
+    al final prendi la compu y el sueño cedio un poco, pero tengo una
+    astenia feroz, me cuesta tener las manos arriba del teclado.
+    luego se fue mejorando con el transcurso del dia.
+    aparecio a media tarde temprana una migraña feroz, impaciente por
+    "esperar" el "verdadero dolor" para tomar correctamente el migral,
+    lo tomo y al rato desemboca en una loca migraña, y encima tenia
+    compromiso de cortarme el pelo, no sabia que hacer, por eso tome
+    pienso 10mg. Ahora no se si la mejora posterior fue como siempre
+    lo estoy logrando todas las tardes o por los 10mg. Termine
+    mejorando, al final no me corte el pelo, pero me fui a caminar.
+    Enorme caminata. No solo pq rompi una inercia fenomenal sino pq lo
+    hice con energia ida y vuelta, casi 4km. Fresquito, pq fuimos al
+    anochecer con la Cami. 
+    Aunque animicamente hoy no estoy caminata incluida tan bien como
+    ayer, sino un poco mas abajo. 
+    Empiezo a veces a dudar de los medicamentos, del tratamiento, y a
+    pensar que tengo que poner de mi parte para salir adelante. 
+**** Como podria ser salir adelante
+     levantarme temprano sin miedo a que vaya a agarrar un sueño atroz
+     el resto del dia o alguna otra forma de descompensacion. Lo ideal
+     seria tomar un vaso de licuado una banana e irme a
+     caminar. Alternativamente sentarme en el patio a leer. Tambien
+     podria incluir una actividad puntual limitada modular como
+     p.e. regar las plantas o sacar los yuyos de las macetas un tiempo
+     limitado.
+**** Como me autosaboteo en ese intento
+     me despierto habitualmente a las 8 o antes, pero me obligo a
+     seguir durmiendo a pesar de que es engorroso, pero tambien es
+     complicado volitivamente levantarse pq no solo implica levantarse
+     sino hacer las series y tender la cama. Podria modificar el
+     habito de las series, -que es un habito maduro y establecido-, y
+     levantarme solamente. Eso facilitaria el como, ahora veamos el
+     para que? y seria sentarse en el patio o en el living, o en el
+     porche si llueve, puede ser a leer con el celu, puede ser leer
+     libro papel, puede ser escribir/leer en la notebook en
+     emacs. Puede ser ver videos en el celu o en la nt. Pero todo
+     tiene que ser afuera de la habitacion, siempre preferible el exterior.
+     A las 10 comenzaria la jornada habitual si hay que pasar papeles
+     y antes de las 11hs hago las series. 
+** [2021-03-09 mar]
+*** vigesimo novena noche de pastillas - sexta aripiprazol
+    dormi bien, sin bruxismo, sangrado profuso al sacarme el aparato.
+    Hoy me desperte a las 8 y pico y segui durmiendo y me levante a
+    las 9 en punto.
+    Me levante sin la rutina de las series. por eso me levante rapido,
+    agarre la jarra de licuado una banana y me sente en el patio, y
+    estuvo agradable, me puse a escuchar radio y a leer el diario,
+    luego se levanto ih y luego tome las pastillas, en el medio hice
+    dos series y recien hago la tercera, o sea a las 10.28 tengo las
+    tres series hechas con mas energia que si las hubiera hecho a la
+    mañana o quizas no no se sabe. 
+    Lo lindo es haber hecho algo distinto, o sea levantarme a un
+    horario mas temprano y evitarme todo el feo proceso del
+    levantamiento que me producia desasosiegos varios. 
+    tengo cansansio, y el estatus premigrañoso del dia es muy molesto
+    y lo que a veces me lleva a tomar el migral antes de tiempo.
+    tambien me siento un poco aturdido. 
+** [2021-03-10 mié]
+*** trigesima noche de pastillas - septima aripiprazol
+    dormi bien, sin bruxismo, sigue sangrado profuso al sacar el
+    aparato.
+    desperte temprano varias veces pq ih se tenia que ir a pilates a
+    las 8, le cerre el porton y me dormi profundo hasta las 9 que
+    volvio y me levante.
+    desayune y tome las pastillas. Vacile entre echarme a fiacar hasta
+    las once y sentarme en la compu, y me sente en la compu.
+    Si me preguntan como estoy estoy igual, lo unico que hice fue dos
+    dias levantarme a las 9hs en vez de torturarme con la levantada
+    tarde. 
+    pase papeles, la mañana fue buena, comimos temprano, y ya a las
+    13hs estabamos acostados, pero la siesta fue interrumpida primero
+    por ñoño, despues por Fede, y luego segui durmiendo hasta las 17.
+    luego me levante merende y estoy con fiaca en todo sentido, fiaca
+    para ver tele, fiaca para ver video, fiaca para recostarme!!,
+    fiaca para salir a caminar. Pienso que lo mas sano para
+    recuperarse es salir a caminar.
+** [2021-03-11 jue]
+*** trigesima primer noche de pastillas - octava aripiprazol 
+    dormi bien, sin bruxismo, sangrado sigue, detecte lugar en
+    protector como que fuera el causal del sangrado por contacto en la
+    encia.
+    ih dice que anoche hable dormido bastante. yo no me acuerdo de
+    nada.
+    me costo levantarme a las 9, no pude cumplir, me termine
+    levantando a las 9.20, hice las series con muchisimo esfuerzo,
+    desayune con algo de alegria con ih.
+    Segun ih dice que estoy mejor que antes. Y yo tambien pienso que
+    animicamente estoy mejor aunque no se note muy mucho, son pequeñas
+    cosas, p.e. en querer levantarse mas temprano, en los videos que
+    empece a ver de nuevo.
+    Pero lo que no consigo es tener mayores niveles de energia que me
+    permitan hacer mas cosas.
+    Tambien pienso que esta como muchas otras es una etapa de mi vida
+    que me toca transitar y como todo va a pasar.
+    Increible debilidad atraviesa todo el dia, toda la tarde. Tome un
+    migral a las 15.40 felizmente parece que fue efectivo, pero la
+    debilidad es extrema y no da para dormir. 
+    Me puse a ver el cielo gris y a meditar y solo consegui llenar mi
+    mente de malos pensamientos, lo cual me dice que hasta el momento
+    tengo que estar continuamente ocupado, ya sea viendo un video o
+    una pelicula o leyendo algo, pero no puedo estar sin hacer nada.
+    enorme caminata para terminar el dia, haciendo la segunda en la
+    semana. un dia con una distimia impresionante que no me dejaba
+    hacer nada.
+    interesante es observar tambien que tuve una buena conversacion
+    con ih sobre el trabajo involucrandome en la generacion de ideas y
+    en la critica de las ideas, cosa que en el marasmo anterior no lo
+    hacia.
+
+
+*** fracaso de la idea de estudiar python puro
+    creo que desde el principio tenia el capricho de estudiar python
+    desde cero pero no tenia la cantidad de voluntad o pila que se
+    necesitaba. Y el proyecto quedo trunco. Y lo mismo iba a naufragar
+    por falta de acompañamiento de un proyecto de la vida real en la
+    cual aplicar lo que se fuera aprendiendo. Pq es mil veces mas
+    importante ir practicando en la vida real que caer en el tutorial
+    hell y no salir mas de alli. 
+    Pienso que tendria que recuperar el proyecto JS-Vue-Flask desde
+    donde lo deje y continuarlo desde alli. Hay muchisimas cosas que
+    aprender de todo eso y se pueden poner en practica en lo
+    inmediato. De todos modos a python lo sigo usando y nada quita que
+    algun dia lo siga. 
+    
+    

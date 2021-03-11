@@ -4049,3 +4049,115 @@ D $1000.00
 2021/03/06 comida
     expenses:comida            2600
     assets:caja               -2600
+
+2021/03/08 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/03/08 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/03/08 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/03/08 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/03/08 cami ingles
+    expenses:cami:extras            1500
+    assets:caja                    -1500
+
+2021/03/08 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2021/03/08 fibertel
+    expenses:servicios:fibertel           $3844
+    assets:caja                          $-3844
+
+2021/03/08 carusso
+    expenses:servicios:carusso        $1490.65
+    assets:caja                      $-1490.65
+
+2021/03/08 hp farma
+    expenses:gastos medicos:farmacia             169
+    assets:caja                                 -169
+
+2021/03/08 seguro auto
+    expenses:servicios:la caja seguros            3112
+    assets:caja                                  -3112
+
+2021/03/08 american cuer
+    expenses:isabel         $966.67
+    assets:caja            $-966.67
+
+2021/03/08 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/03/08 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/03/08 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/03/08 moda marques nuevo
+    expenses:isabel           $2457
+    assets:caja              $-2457
+
+2021/03/08 composite 1
+    expenses:personal:ropa           $1333
+    assets:caja                     $-1333
+
+2021/03/08 composite 2
+    expenses:personal:ropa            1000
+    assets:caja                      -1000
+
+2021/03/08 jc
+    expenses:romi            $747
+    assets:caja             $-747
+
+2021/03/08 lucia villamoro
+    expenses:ih          833.35
+    assets:caja         -833.35
+
+2021/03/08 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          580.43
+    assets:caja                                             -580.43
+
+2021/03/08 farmacia neutop
+    expenses:gastos medicos:farmacia            1900
+    assets:caja                                -1900
+
+2021/03/08 ih carla
+    expenses:isabel             600
+    assets:caja                -600
+
+2021/03/08 lomito
+    expenses:comida             350
+    assets:caja                -350
+
+2021/03/09 ingresos
+    assets:reserva                  426000
+    income:retiro sociedad         -426000
+
+2021/03/09 saco reserva
+    assets:caja             426000
+    assets:reserva         -426000
+
+2021/03/09 compra dolares
+    expenses:compra dolares          426000
+    assets:caja                     -426000
+
+2021/03/09 compra dolares
+    assets:reserva u$s           u$s 3000
+    income:compra dolares       u$s -3000
+
+2021/03/11 cami psicologo
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
