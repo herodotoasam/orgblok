@@ -7958,8 +7958,6 @@ produce ese estado de soñolencia.
     con ih sobre el trabajo involucrandome en la generacion de ideas y
     en la critica de las ideas, cosa que en el marasmo anterior no lo
     hacia.
-
-
 *** fracaso de la idea de estudiar python puro
     creo que desde el principio tenia el capricho de estudiar python
     desde cero pero no tenia la cantidad de voluntad o pila que se
@@ -7973,5 +7971,101 @@ produce ese estado de soñolencia.
     aprender de todo eso y se pueden poner en practica en lo
     inmediato. De todos modos a python lo sigo usando y nada quita que
     algun dia lo siga. 
-    
-    
+** [2021-03-12 vie]
+*** trigesima segunda noche de pastillas - novena aripiprazol 
+    dormi bien, sin bruxismo en absoluto, sin sangrado al sacar el
+    aparato.
+    levante tarde pq el dia se prestaba para eso pq estaba muy nublado
+    y lloviznoso.
+    hice las series normal, con esfuerzo en la ultima de las series.
+    desayune lindo con ih en agradable compañia. 
+    y como se largo a llover me plantie volverme a acostar a
+    "escuchar" la lluvia, pero despues ih prendio su tele y esa magia
+    se esfumo, entonces me puse a ver un par de videitos, me aburri y
+    me levante. Mucha soñolencia, pienso que por el dia.
+    animicamente bien, pero sin ganas de hacer nada, pienso que soy
+    vago asi nomas.
+    no se como pasar la tarde, ya no tengo ganas de hacer nada, ni de
+    ver tele, ni de ver videos, ni de leer, ni de dormir, ni me duele
+    la cabeza. por el momento pasare unos papeles.
+    veo el codigo programado por mi en todos estos meses y me parece
+    codigo de otro - sensacion bastante normal que ya la he sentido
+    otras veces en el pasado cuando dejo atras la programacion y me
+    olvido de todo lo que hice y luego me cuesta ponerme al dia de
+    nuevo - y lucho con la soñolencia y la vagancia que no me permite
+    concentrarme. Pienso que en un futuro podre hacerlo cuando me
+    hagan efecto las pastillas. 
+** [2021-03-13 sáb]
+*** trigesima tercer noche de pastillas - decima aripiprazol
+    dormi bien sin bruxismo, sin sangrado en encias.
+    levante tarde pq era sabado y el dia se prestaba.
+    hice las series animado por motivacion mental de un video que
+    habia visto la noche anterior y luego hice la cama lo mejor que
+    pude como primer cosa bien hecha del dia.
+    Hoy el estado de animo fue totalmente distinto a todos los dias
+    anteriores desde que empezo el tratamiento, pq no solo tuve un
+    animo diria estable y fuerte sino que hice planes concretos y
+    viables, creibles para el futuro, que me entusiasman y pienso que
+    puedo lograrlos.
+    el video motivador que vi anoche fue positivo para encarar cosas
+    en el dia, pero luego durante el dia se fue dando el cambio en el
+    estado de animo y todo empezo tendiendo bien la cama a la mañana!!
+*** suceso de alteracion de ih en una tranquila mañana
+    estaba ella haciendo las cuentas para ir a hacer las compras y no
+    se aguanto una broma sobre una pintura para ella que costaba 70 y
+    yo decia que en realidad costaba 700, y alli estallo en broncas y
+    nos hizo pasar un mal momento a todos, y a pesar de que le dijimos
+    que se calmara que no era nada lo mismo hizo el berrinche. Muy
+    parecido a los que hace la Cami. 
+*** pienso que puedo estar a tiempo de huir
+    usar el capital acumulado para iniciar una nueva vida. Comprarme
+    una ranger 2012 y ponerme a trabajar.
+*** plan nuevo comienzo - vision preliminar 
+    necesito tres cosas: trabajar, un trabajo en la zona, medio dia,
+    como tenia antes, comprarme una chata para movilidad y mudarme a
+    una casa (que puede ser casa con deposito de mercaderia incluida).
+    obviamente parte del supuesto basico de curarme, de exigir un
+    estado normal de energia, no aceptar estar mal, buscar estar bien,
+    buscar ayuda medica. Y tambien parte de la conviccion de que no
+    hay ocio o sea que la "otra parte" que supuestamente tenia que
+    hacer no existe, no hay lectura, no hay estudio, no hay
+    programacion. Por eso mejor buscar ocupacion en la rutina normal
+    de la vida y no pensar que existe otra cosa que compite con la
+    vida normal. No hay nada para hacer. NO existe nada para hacer. 
+    Si hay algo para escribir esta bueno tener este sistema
+    emacs/org/git que mantiene los escritos ordenados y a salvo, uno
+    se sienta y escribe, pero no se obliga a escribir lo que no hay. Y
+    si uno quiere leer lee, pero no hay otra cosa. 
+**** derivacion N°1 - solo queda TCL
+     por el tipo de negocio que es lo mas seguro es lo que tenemos
+     ahora o sea un sistema basado en sqlite monousuario no compartido
+     por red. Y por las facilidades de tablelist lo mejor es TCL
+     nativo. Tener cualquier otro tipo de sistema basado en la web
+     para usarse via postgres/heroku es inviable en lo inmediato, no
+     tiene sentido. (el unico sentido tendria si yo vendo y vivo en
+     otro lado y paso mis ventas y Fede pasara en su casa los recibos,
+     pero si yo vendo quien programa tremendo desafio). 
+**** derivacion N°2 - la lectura es un caso perdido
+     como se observo en estos ultimos seis meses no hay un rumbo
+     edificante con la lectura, fuera de algunos libritos
+     "motivadores" en relacion a alguna que otra cosa, pero entrarse
+     en el mundo de la "Literatura" me resulta tan insipido como
+     entrar en el mundo de la "Numismatica" o de la "Historia". O sea
+     si no hay un titulo en especial que te llame la atencion y te
+     atraiga es dificil en estos tiempos para mi concentrarme en la
+     lectura, y decir que la "lectura" es un pilar para mi.
+**** derivacion N°3 - la filosofia no existe
+     mas alla de leer un libro "filosofico" la filosofia en si como
+     tema o materia tiene tan poco interes para mi como cualquier otro
+     tema.
+*** el tema de los cuadernos
+    el tema es que quiero deshacerme de ellos, no quiero dejar ningun
+    cuaderno escrito. Tampoco quiero perderlos. Pq por ahi
+    racionalizaba que ahora estoy viviendo el hoy y no tengo por que
+    "regresar" al pasado con esas lecturas, pero tambien me sirven
+    para darme cuenta de ciertas cosas. P.e. que hace siete años atras
+    estaba totalmente deprimido y podria haber buscado ayuda en aquel
+    entonces y no lo hice. Y que esa "otra cosa" que siempre me agobio
+    que supuestamente iba a perder si me dedicaba a vivir una vida
+    "normal" no existe, no es nada. 
+
