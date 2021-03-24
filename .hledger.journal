@@ -4201,3 +4201,261 @@ D $1000.00
 2021/03/13 comida gatos
     expenses:comida:gatos             460
     assets:caja                      -460
+
+2021/03/14 lomitos
+    expenses:comida             950
+    assets:caja                -950
+
+2021/03/15 alimentos naturales
+    expenses:comida:naturales            1990
+    assets:caja                         -1990
+
+2021/03/15 ingresos
+    assets:reserva                   90000
+    income:retiro sociedad          -90000
+
+2021/03/15 saco reserva
+    assets:caja              90000
+    assets:reserva          -90000
+
+2021/03/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/03/16 a cuenta techo cochera
+    expenses:casa:mantenimiento           90000
+    assets:caja                          -90000
+
+2021/03/16 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/03/16 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/03/16 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/03/16 papel higienico
+    expenses:comida            1300
+    assets:caja               -1300
+
+2021/03/16 comida
+    expenses:comida            5000
+    assets:caja               -5000
+
+2021/03/16 ingreso
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2021/03/16 devolucion dolares Fede
+    assets:reserva u$s         u$s 200
+    assets:deudores           u$s -200
+
+2021/03/17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/03/17 electricista
+    expenses:casa:mantenimiento            2000
+    assets:caja                           -2000
+
+2021/03/17 comida
+    expenses:comida             300
+    assets:caja                -300
+
+2021/03/17 jardinero
+    expenses:casa:mantenimiento:jardineria            2000
+    assets:caja                                      -2000
+
+2021/03/18 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2021/03/18 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/03/18 peluquero
+    expenses:peluqueria            $200
+    assets:caja                   $-200
+
+2021/03/18 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2021/03/18 comida gato
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2021/03/18 veterinaria
+    expenses:comida:gatos            1500
+    assets:caja                     -1500
+
+2021/03/18 electricista
+    expenses:casa:mantenimiento            1200
+    assets:caja                           -1200
+
+2021/03/18 farmacity
+    expenses:gastos medicos:farmacia            1394
+    assets:caja                                -1394
+
+2021/03/18 materiales construccion
+    expenses:casa:mantenimiento            1910
+    assets:caja                           -1910
+
+2021/03/18 flete chapas techo cochera
+    expenses:casa:mantenimiento            1100
+    assets:caja                           -1100
+
+2021/03/18 cami psicologo
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/03/18 cami extras
+    expenses:cami:extras             200
+    assets:caja                     -200
+
+
+2021/03/19 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+
+2021/03/19 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2021/03/19 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021/03/19 arreglo bora - cierre centralizado
+    expenses:transporte:reparacion auto            3800
+    assets:caja                                   -3800
+
+2021/03/19 comida
+    expenses:comida             550
+    assets:caja                -550
+
+2021/03/19 comida
+    expenses:comida             850
+    assets:caja                -850
+
+2021/03/19 farmacia hp - isabel
+    expenses:gastos medicos:farmacia            2230
+    assets:caja                                -2230
+
+2021/03/19 dgr casa 2021-04
+    expenses:impuestos:casa:dgr             982
+    assets:caja                            -982
+
+2021/03/19 claro
+    expenses:servicios:claro            1286
+    assets:caja                        -1286
+
+2021/03/19 impuestos casa 2021- multa ocupacion indebida vereda
+    expenses:impuestos:casa:municipal         1476.34
+    assets:caja                              -1476.34
+
+2021/03/19 impuestos casa 2021-01/02
+    expenses:impuestos:casa:municipal         1322.93
+    assets:caja                              -1322.93
+
+2021/03/19 ecogas 2021/01
+    expenses:servicios:ecogas         3101.18
+    assets:caja                      -3101.18
+
+2021/03/19 epec 2021/02
+    expenses:servicios:epec          9892.9
+    assets:caja                     -9892.9
+
+2021/03/19 ospe
+    expenses:servicios:OSPE          $25166
+    assets:caja                     $-25166
+
+2021/03/20 farmacia diclofenac
+    expenses:gastos medicos:farmacia             150
+    assets:caja                                 -150
+
+2021/03/22 sandwiches
+    expenses:comida             800
+    assets:caja                -800
+
+2021/03/22 pan
+    expenses:comida             250
+    assets:caja                -250
+
+2021/03/22 ih
+    expenses:isabel             250
+    assets:caja                -250
+
+2021/03/23 ingresos
+    assets:reserva                    8100
+    income:retiro sociedad           -8100
+
+2021/03/23 saco reserva
+    assets:caja               8100
+    assets:reserva           -8100
+
+2021/03/23 cambio de aceite
+    expenses:transporte:reparacion auto            8100
+    assets:caja                                   -8100
+
+2021/03/23 devolucion dolares Fede
+    assets:reserva u$s         u$s 800
+    assets:deudores           u$s -800
+
+2021/03/23 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/03/23 prestamo romi
+    assets:deudas romi           10000
+    assets:caja                 -10000
+
+2021/03/23 materiales cochera rueda II
+    expenses:casa:mantenimiento            1850
+    assets:caja                           -1850
+
+2021/03/24 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2021/03/24 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/03/24 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/03/24 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/03/24 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/03/24 psi cami
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/03/24 apunte cami
+    expenses:cami:extras            $400
+    assets:caja                    $-400
+
+2021/03/24 materiales cochera rueda III
+    expenses:casa:mantenimiento            1450
+    assets:caja                           -1450
+
+2021/03/24 facturas
+    expenses:comida             390
+    assets:caja                -390
+
+2021/03/24 diferencia
+    expenses:diferencia arqueo            -205
+    assets:caja                            205
