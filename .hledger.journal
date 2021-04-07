@@ -4459,3 +4459,303 @@ D $1000.00
 2021/03/24 diferencia
     expenses:diferencia arqueo            -205
     assets:caja                            205
+
+2021/03/25 hisopado romi
+    expenses:romi            3000
+    assets:caja             -3000
+
+2021/03/25 dia hospital romi
+    expenses:romi             870
+    assets:caja              -870
+
+2021/03/25 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/03/26 comida
+    expenses:comida            $550
+    assets:caja               $-550
+
+2021/03/26 comida gato
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2021/03/26 limpieza
+    expenses:comida:limpieza              60
+    assets:caja                          -60
+
+2021/03/26 devolucion dolares Fede
+    assets:reserva u$s         u$s 300
+    assets:deudores           u$s -300
+
+2021/03/27 lomitos
+    expenses:comida            2500
+    assets:caja               -2500
+
+2021/03/25 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2021/03/25 commida
+    expenses:comida             890
+    assets:caja                -890
+
+2021/03/29 mesada cami
+    expenses:cami:mesada            1000
+    assets:caja                    -1000
+
+2021/03/29 prestamo romi
+    assets:deudas romi            1000
+    assets:caja                  -1000
+
+2021/03/30 matafuegos
+    expenses:transporte:reparacion auto             500
+    assets:caja                                    -500
+
+2021/03/30 lavado auto
+    expenses:transporte:lavado             400
+    assets:caja                           -400
+
+2021/03/30 comida tadicor
+    expenses:comida            4390
+    assets:caja               -4390
+
+2021/03/30 cami comida
+    expenses:cami:comida             600
+    assets:caja                     -600
+
+2021/03/30 comida
+    expenses:comida             100
+    assets:caja                -100
+
+2021/03/30 mesada cami
+    expenses:cami:mesada            1500
+    assets:caja                    -1500
+
+2021/03/30 cami comida
+    expenses:cami:comida            3000
+    assets:caja                    -3000
+
+2021/03/30 ingresos
+    assets:reserva                  $30000
+    income:retiro sociedad         $-30000
+
+2021/03/30 retiro
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/03/30 devolucion dolares Fede
+    assets:reserva u$s         u$s 200
+    assets:deudores           u$s -200
+
+2021/03/30 itv auto
+    expenses:impuestos:bora            2410
+    assets:caja                       -2410
+
+2021/03/31 farmacia italiano
+    expenses:gastos medicos:farmacia            5150
+    assets:caja                                -5150
+
+2021/03/31 nafta
+    expenses:transporte:nafta            1000
+    assets:caja                         -1000
+
+2021/03/31 comida
+    expenses:comida             360
+    assets:caja                -360
+
+2021/03/31 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/03/31 dif
+    expenses:diferencia arqueo           80.37
+    assets:caja                         -80.37
+
+2021/04/01 retiro reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/01 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/04/01 cami apunte
+    expenses:cami:extras             300
+    assets:caja                     -300
+
+2021/04/01 comida gatos
+    expenses:comida:gatos             540
+    assets:caja                      -540
+
+2021/04/01 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/04/01 devolucion dolares Fede
+    assets:reserva u$s         u$s 500
+    assets:deudores           u$s -500
+
+2021/04/03 mesada ih viaje
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/04/03 ih cuchillos
+    expenses:comida            3980
+    assets:caja               -3980
+
+2021/04/04 helado
+    expenses:comida             300
+    assets:caja                -300
+
+2021/04/04 comida
+    expenses:comida             700
+    assets:caja                -700
+
+2021/04/04 cuchillo ih
+    expenses:comida            1000
+    assets:caja               -1000
+
+2021/04/04 comida huevos de pascua
+    expenses:comida             200
+    assets:caja                -200
+
+2021/04/04 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/04/05 mesada ih
+    expenses:isabel            2000
+    assets:caja               -2000
+
+2021/04/05 mesada cami
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2021/04/05 comida cami
+    expenses:cami:comida            3000
+    assets:caja                    -3000
+
+2021/04/05 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2021/04/05 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021/04/05 fibertel
+    expenses:servicios:fibertel           $3844
+    assets:caja                          $-3844
+
+2021/04/05 epec dpto jujuy
+    expenses:servicios:epec           486.6
+    assets:caja                      -486.6
+
+2021/04/05 ecogas 2021/01
+    expenses:servicios:ecogas            2858
+    assets:caja                         -2858
+
+2021/04/05 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/04/05 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/04/05 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/04/05 american cuer
+    expenses:isabel         $966.67
+    assets:caja            $-966.67
+
+2021/04/05 seguro auto
+    expenses:servicios:la caja seguros           $3112
+    assets:caja                                 $-3112
+
+2021/04/05 ih rio shop deco
+    expenses:isabel           419.8
+    assets:caja              -419.8
+
+2021/04/05 ih microfono
+    expenses:isabel            3770
+    assets:caja               -3770
+
+2021/04/05 ih lenceria cristina
+    expenses:isabel            5400
+    assets:caja               -5400
+
+2021/04/05 carusso
+    expenses:servicios:carusso         1453.49
+    assets:caja                       -1453.49
+
+2021/04/05 lucia villamoro
+    expenses:ih         $833.35
+    assets:caja        $-833.35
+
+2021/04/05 consultas hp
+    expenses:gastos medicos:psiquiatria            2000
+    assets:caja                                   -2000
+
+2021/04/05 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          860.28
+    assets:caja                                             -860.28
+
+2021/04/06 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/04/06 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/04/06 farmacia neutop
+    expenses:gastos medicos:farmacia            1922
+    assets:caja                                -1922
+
+2021/04/06 farmacia diapresan y clonagin
+    expenses:gastos medicos:farmacia            2230
+    assets:caja                                -2230
+
+2021/04/06 farmacia varios
+    expenses:gastos medicos:farmacia            1554
+    assets:caja                                -1554
+
+2021/04/06 remocion tierra jardin
+    expenses:casa:mantenimiento:jardineria             300
+    assets:caja                                       -300
+
+2021/04/06 ih prestamo carla
+    assets:deudas ih            1500
+    assets:caja                -1500
+
+2021/04/06 lavado auto
+    expenses:transporte:lavado            $400
+    assets:caja                          $-400
+
+2021/04/06 taxi
+    expenses:transporte:remis             440
+    assets:caja                          -440
+
+2021/04/06 arreglo auto bulbo marcha atras
+    expenses:transporte:reparacion auto            3200
+    assets:caja                                   -3200
+
+2021/04/06 comida gatos
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/04/06 lavandina
+    expenses:comida:limpieza              30
+    assets:caja                          -30
+
+2021/04/07 diff
+    expenses:diferencia arqueo           99.63
+    assets:caja                         -99.63
+
+2021/04/07 ayuda
+    expenses:comida:ayuda              50
+    assets:caja                       -50
