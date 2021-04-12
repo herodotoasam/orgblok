@@ -4759,3 +4759,79 @@ D $1000.00
 2021/04/07 ayuda
     expenses:comida:ayuda              50
     assets:caja                       -50
+
+2021/04/07 cami ingles
+    expenses:cami:extras            3000
+    assets:caja                    -3000
+
+2021/04/07 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/04/07 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/08 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/04/08 cami zapas
+    expenses:cami:extras            2700
+    assets:caja                    -2700
+
+2021/04/08 ih
+    expenses:isabel             200
+    assets:caja                -200
+
+2021/04/08 comida
+    expenses:comida            3310
+    assets:caja               -3310
+
+2021/04/08 devolucion prestamo ih
+    assets:caja                 1350
+    assets:deudas ih           -1350
+
+2021/04/08 ih carla
+    expenses:isabel            1150
+    assets:caja               -1150
+
+2021/04/08 peluqueria
+    expenses:peluqueria            $200
+    assets:caja                   $-200
+
+2021/04/12 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/04/12 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/12 cuchillo
+    expenses:comida             880
+    assets:caja                -880
+
+2021/04/12 comida
+    expenses:comida            1300
+    assets:caja               -1300
+
+2021/04/12 nafta viaje
+    viajes:nafta            3000
+    assets:caja            -3000
+
+2021/04/12 viaje alfajores
+    viajes:viaticos             450
+    assets:caja                -450
+
+2021/04/12 viaje peajes
+    viajes:peajes             160
+    assets:caja              -160
+
+2021/04/12 ih mesada
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/04/12 viaje viaticos
+    viajes:viaticos             310
+    assets:caja                -310

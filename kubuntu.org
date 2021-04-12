@@ -428,7 +428,11 @@ previamente sacarle las comillas dobles con C-r "
 sudo apt install solaar 
 desenchufar y volver a enchufar el usb
 abrir solaar
-
+** reconfigurar extensor tp-link
+   bajar app tp link tether
+   resetear el extensor con una aguja estando enchufado
+   conectar con cable de red al modem
+   buscarlo en la app y seguir los pasos
 * ATAJOS A APRENDER
 ** control-esc show system activity
 mas rapido y al acceso que ksysguard
