@@ -4835,3 +4835,135 @@ D $1000.00
 2021/04/12 viaje viaticos
     viajes:viaticos             310
     assets:caja                -310
+
+2021/04/13 comida
+    expenses:comida            1700
+    assets:caja               -1700
+
+2021/04/13 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/04/13 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/13 cami mesada
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/04/13 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/04/14 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/04/14 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/14 ih
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/04/14 regalo fede
+    expenses:personal:varios            4750
+    assets:caja                        -4750
+
+2021/04/14 ayuda
+    expenses:comida:ayuda              90
+    assets:caja                       -90
+
+2021/04/15 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/04/15 carla
+    expenses:isabel             700
+    assets:caja                -700
+
+2021/04/15 devolucion prestamo ih
+    assets:caja                  150
+    assets:deudas ih            -150
+
+2021/04/15 comida gatos
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2021/04/16 ih mesada
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/04/16 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2021/04/17 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/04/17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/17 lomito
+    expenses:comida             730
+    assets:caja                -730
+
+2021/04/17 comida
+    expenses:comida            1400
+    assets:caja               -1400
+
+2021/04/18 nafta viaje
+    viajes:nafta            3500
+    assets:caja            -3500
+
+2021/04/18 viaje peajes
+    viajes:peajes            $160
+    assets:caja             $-160
+
+2021/04/18 viaje viaticos
+    viajes:viaticos              60
+    assets:caja                 -60
+
+2021/04/20 ingreso
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/04/20 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/04/20 pan
+    expenses:comida            $250
+    assets:caja               $-250
+
+2021/04/20 tadicor
+    expenses:comida            3647
+    assets:caja               -3647
+
+2021/04/20 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/04/20 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/04/22 ih
+    expenses:isabel             100
+    assets:caja                -100
+
+2021/04/22 limpieza
+    expenses:comida:limpieza             100
+    assets:caja                         -100
+
+2021/04/22 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/04/22 ih planchita carla
+    expenses:isabel            1500
+    assets:caja               -1500
