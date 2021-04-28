@@ -4967,3 +4967,95 @@ D $1000.00
 2021/04/22 ih planchita carla
     expenses:isabel            1500
     assets:caja               -1500
+
+2021/04/23 viaje multas
+    viajes:multas            8860
+    assets:caja             -8860
+
+2021/04/23 ospe
+    expenses:servicios:OSPE           26928
+    assets:caja                      -26928
+
+2021/04/23 epec 03/2021
+    expenses:servicios:epec         7760.70
+    assets:caja                    -7760.70
+
+2021/04/23 impuestos casa 2021/03
+    expenses:impuestos:casa:municipal             662
+    assets:caja                                  -662
+
+2021/04/23 mun auto 2021/03
+    expenses:impuestos:bora           423.8
+    assets:caja                      -423.8
+
+2021/04/23 claro
+    expenses:servicios:claro            1672
+    assets:caja                        -1672
+
+2021/04/23 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/04/23 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/04/23 jardinero
+    expenses:casa:mantenimiento:jardineria             800
+    assets:caja                                       -800
+
+2021/04/25 viajes nafta
+    viajes:nafta            2000
+    assets:caja            -2000
+
+2021/04/25 viaje peajes
+    viajes:peajes            $160
+    assets:caja             $-160
+
+2021/04/25 carne
+    expenses:comida             790
+    assets:caja                -790
+
+2021/04/25 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/04/25 isabel
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/04/25 comida gatos
+    expenses:comida:gatos            $800
+    assets:caja                     $-800
+
+2021/04/25 dif a favor
+    expenses:diferencia arqueo          -153.5
+    assets:caja                          153.5
+
+2021/04/27 comida
+    expenses:comida            2100
+    assets:caja               -2100
+
+2021/04/27 veterinaria
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/04/27 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/04/28 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/04/28 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/04/28 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/04/28 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
