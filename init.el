@@ -58,7 +58,7 @@
     org-bullets
     ido-vertical-mode
     flx-ido
-    autopair
+    ;;autopair
     auto-complete
     ag
     material-theme                  ;; Theme

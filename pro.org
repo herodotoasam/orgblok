@@ -3790,6 +3790,16 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    escribis, y luego fallas varias, como no permitirte abrir archivos,
    o problemas de visualizacion. Muy mal, pienso que me voy a ir de
    xubuntu por eso.
+** instalacion xubuntu [2021-04-28 mié]
+   salgo de debian 10 luego de un largo intervalo con un resultado
+   bastante positivo en general salvo por el tema de la impresora que
+   me hacia renegar bastante y por un tema de upgrade que empezo a dar
+   errores que no se corrigieron y cada vez fueron a mayores y
+   empezaron a afectar la instalacion de otros programas.
+   Lo que busco en xubuntu es un sistema operativo que no de reniegues
+   aunque siempre algo va a tener, como el blinking en el scroll de
+   emacs p.e. pero es lo de menos, el tema es las actualizaciones, la
+   impresora, y la confiabilidad. Y que no se ponga tan pesado o lento.
 * agenda vim
 ** jump previas posiciones
 C-o C-i
