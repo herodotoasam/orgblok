@@ -5079,3 +5079,35 @@ D $1000.00
 2021/04/30 saco reservas
     assets:caja              10000
     assets:reserva          -10000
+
+2021/04/30 peluqueria lady
+    expenses:comida:gatos            $550
+    assets:caja                     $-550
+
+2021/05/01 lomitos
+    expenses:comida             730
+    assets:caja                -730
+
+2021/05/01 extra cami
+    expenses:cami:extras            2000
+    assets:caja                    -2000
+
+2021/05/02 pollo
+    expenses:comida             730
+    assets:caja                -730
+
+2021/05/03 gatos
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/05/03 lavandina
+    expenses:comida:limpieza             100
+    assets:caja                         -100
+
+2021/05/03 lampara led
+    expenses:casa:mantenimiento             120
+    assets:caja                            -120
+
+2021/05/03 comida
+    expenses:comida             290
+    assets:caja                -290

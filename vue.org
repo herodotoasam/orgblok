@@ -75,6 +75,13 @@ luego eso pasa por la funcion ast.literal y se trasnforma en un dict
 python y ahora podemos acceder a los campos con clave.
 
 dict['idvta'] etc.
+** envio de arrays a traves de axios
+aparte del method:'POST', la url , se le pone
+responseType: "blob",
+data:this.datos
+luego en python la lista es entregada directamente, no a traves de un dict.
+
+ver ejemplos en /loterbo/guardarlote y /fichaje/imprimir
 ** enviar datos a javascript en formato json
 de la repuesta de sqdict o sqonecolumn que obtengamos como es
 habitual, hacemos un return con jsonify
@@ -176,3 +183,6 @@ let url = window.URL.createObjectURL(res.data);
 la creacion de una url con el res.data ya listo que me manda el axios
 esta vez en formato blob, y el window open de esa url. para que me
 muestre directamente en pantalla el pdf como yo queria.
+            
+** pasar un escalar a un array
+      [...Array(escalar).keys()]

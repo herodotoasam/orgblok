@@ -22,6 +22,7 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
+Plugin 'jceb/vim-orgmode'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -131,3 +132,5 @@ let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
 let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
 let g:user_emmet_leader_key = ','
 
+inoremap <C-f> <C-R>=strftime('[%F %a]')<cr>
+map <C-f> :put =strftime('[%F %a]')<cr>

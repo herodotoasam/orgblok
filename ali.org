@@ -6280,6 +6280,29 @@ produce ese estado de soñolencia.
  2. [2021-02-07 dom] Hazlo tan bien que no puedan ignorarte - Cal Newport
  3. [2021-02-09 mar] Focus - Daniel Goleman
  4. 
+* viajes
+** [2021-04-12 lun] mina clavero
+   254km 14.30-20hs.
+   hicimos varias paradas en la ruta, un rato de mates a la orilla del
+   rio que estaba bastante feo, y una vuelta por la ciudad pq nos
+   perdimos al buscar la salida, luego una multa por alta velocidad.
+** [2021-04-17 sáb] tuneles de taninga
+   350km aprox. (80km de ripio) - 11.30-21hs. 
+   hicimos variante costa azul - tanti - taninga (ripio)- tuneles -
+   mina clavero - cno altas cumbres cba
+   se nos hizo muy tarde al volver quisimos pernoctar en mina clavero
+   pero no conseguimos lugar, y emprendimos la vuelta, todo bien la
+   primera parte hasta el condor con el atardecer sobre nosotros, pero
+   en el condor una niebla tremenda nos hizo vivir una experiencia
+   bastante fea pq no se veia nada en la ruta y encima tenia un
+   colectivo detras. Pude dejar pasar al colectivo con una maniobra
+   bastante arriesgada y luego de eso se alivio totalmente el susto y
+   el problema de la niebla pq se trato nomas de ir detras del
+   colectivo. (Moraleja, cuando hay un poquito de niebla habra mas
+   niebla despues, entonces mejor ahi parar y ver que pase un vehiculo
+   grande para ir atras de el). Hicimos la ultima parte del camino
+   todo de noche, muy lindo, pero la experiencia de la niebla habia
+   sido bastante shockeante.
 * 2021 - Enero
 ** [2021-01-02 sáb]
 *** gran fiasco con fl5 el 31/12
@@ -8320,26 +8343,30 @@ produce ese estado de soñolencia.
    bien en la calle. No es como los primeros dias del tratamiento. 
    Lo peor de todo es que no engancho en la programacion que es lo que
    antes de la depresion me daba una ocupacion
-* viajes
-** [2021-04-12 lun] mina clavero
-   254km 14.30-20hs.
-   hicimos varias paradas en la ruta, un rato de mates a la orilla del
-   rio que estaba bastante feo, y una vuelta por la ciudad pq nos
-   perdimos al buscar la salida, luego una multa por alta velocidad.
-** [2021-04-17 sáb] tuneles de taninga
-   350km aprox. (80km de ripio) - 11.30-21hs. 
-   hicimos variante costa azul - tanti - taninga (ripio)- tuneles -
-   mina clavero - cno altas cumbres cba
-   se nos hizo muy tarde al volver quisimos pernoctar en mina clavero
-   pero no conseguimos lugar, y emprendimos la vuelta, todo bien la
-   primera parte hasta el condor con el atardecer sobre nosotros, pero
-   en el condor una niebla tremenda nos hizo vivir una experiencia
-   bastante fea pq no se veia nada en la ruta y encima tenia un
-   colectivo detras. Pude dejar pasar al colectivo con una maniobra
-   bastante arriesgada y luego de eso se alivio totalmente el susto y
-   el problema de la niebla pq se trato nomas de ir detras del
-   colectivo. (Moraleja, cuando hay un poquito de niebla habra mas
-   niebla despues, entonces mejor ahi parar y ver que pase un vehiculo
-   grande para ir atras de el). Hicimos la ultima parte del camino
-   todo de noche, muy lindo, pero la experiencia de la niebla habia
-   sido bastante shockeante.
+* 2021 - Mayo
+** [2021-05-03 lun]
+   un poco mejor el lunes pq destine un par de horas a la programacion
+   y me enganche en ello. Por ahi internamente chillo un poco en el
+   sentido de que el programa en si sera muy dificil de escribir, o de
+   mantener o de interpretar. 
+   El problema es que tengo picos muy grandes de maximos y minimos en
+   la programacion, de estar muy enchufado y aprender bastante hasta
+   alejarme por varios meses y olvidarme de todo. 
+   De ahi viene el miedo al no poder mantener por falta de
+   conocimiento o entendimiento. Hoy por hoy, me pasa eso con tcl. No
+   hay que ir muy lejos. Es mas apenas comence a mirar el programa de
+   js corregi dos bugs al toque, y voy agarrando practica bastante
+   rapido. 
+   Me gusta el esquema de programacion que tiene la aplicacion, o sea
+   python por un lado en forma ordenada y los templates por otro lado
+   en forma separada y accesibles por rutas distintas.
+*** crisis existencial 
+    no se si es momento de pretender resolver o pilotear la crisis
+    existencial que he tenido toda mi vida, me conformo con tener
+    animos y ganas de salir del pozo y hacer algo, que cada dia no sea
+    una tortura. No se si enfrascarse en la programacion es bueno o es
+    malo pero tiene algunas cosas positivas:
+    1. es una profesion, es un saber, un conocimiento que no esta de
+       mas tenerlo
+    2. podes producir un paquete util para el negocio
+    3. podes estar ocupado, trabajando y no estar desocupado.
