@@ -2566,6 +2566,33 @@ primer mm hecho luego de la obra sobre array
     lastid.
     Hasta el momento todo es trabajo de mediana dificultad pero
     complicado para hacer despacio y bien. 
+*** [2021-05-04 mar]
+    se avanzo en detalles, como el resumen al final de la planilla
+    impresa, la validacion del faltante de recibos antes de guardar
+    que puede ser un error comun. 
+    Hay dos temas que por el momento no se pueden hacer, y es que se
+    llene solo como en tcl, y que se coloree por bloque de recibos
+    como en tcl, lo veo demasiado complejo o directamente imposible
+    aca por el momento.
+    se mejoro la planilla impresa con encabezado y con el pie abajo de
+    donde termine la planilla.
+    falta que en pagos se aparee solo el num de lote cuando exista. No
+    se si eso sera factible y/o deseable, ya que el lote vendra en
+    forma fisica con los recibos y tendria que ser introducido como
+    son introducidos los numeros de recibos.
+    se hizo la reimpresion desde el listado de lotes no sin antes
+    renegar con errores oscuros provenientes de valores integer en vez
+    de string para fpdf. 
+*** [2021-05-05 mié] 
+    se siguio con los detalles tanto en los lotes Rbo, como en
+    planillas como en pagos, corrigiendo bugs y agregando funciones. 
+*** [2021-05-06 jue]
+    hoy luego de hacer un par de detalles de pagosvue, encare un
+    template puro de vue, relativo a asientos, con la vista y el
+    pasado de asientos y avance bastante, dejandolo bastante
+    funcional. 
+    Descubri una forma de referenciar los elementos del dom
+    internamente en vue con $refs
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3516,7 +3543,20 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-01-24 dom]                                           :Python:
 ** semana [2021-01-31 dom]                                           :Python:
 ** semana [2021-05-02 dom]                                        :Vue:Flask:
-   vuelvo a arrancar luego de tres meses de inactividad en el proyecto vue/flask.
+   vuelvo a arrancar luego de tres meses de inactividad en el proyecto
+   vue/flask.
+   lo unico que me gustaria es seguir en el proyecto hasta el final,
+   no cambiar a otra cosa, no repetir el patron del año pasado de
+   cambios por un monton de tecnologias.
+   anoche que pensaba en laravel, pq el ciclo de videos que estoy
+   repasando lo toca, y si es lindo pero comparado con flask esta a km
+   de distancia pq con flask hacemos mucho en forma muy
+   facil. p.e. usamos las consultas directamente pq usamos la base de
+   datos en pelo sin abstraccion de por medio y tener las rutas en un
+   solo archivo es muy conveniente. Creo que la combinacion flask/vue
+   es la mejor y hay que seguir en ella aprendiendo mas pq todavia
+   queda un monton por aprender, creo que solo uso el 10% de la
+   tecnologia. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3812,6 +3852,14 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    aunque siempre algo va a tener, como el blinking en el scroll de
    emacs p.e. pero es lo de menos, el tema es las actualizaciones, la
    impresora, y la confiabilidad. Y que no se ponga tan pesado o lento.
+*** falla emacs
+    aparentemente usando maximizado la falla no se percibe.
+*** bloqueo de pantalla que termino siendo el salvapantallas
+    seteado de fabrica cada 5 minutos se pone la pantalla en negro,
+    resultando muy molesto por tener que poner la contraseña y mas que
+    todo pq se pone cuando estoy viendo videos. CAsi me hace desistir
+    pero ya lo arregle.
+
 * agenda vim
 ** jump previas posiciones
 C-o C-i

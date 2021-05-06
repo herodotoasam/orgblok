@@ -5111,3 +5111,131 @@ D $1000.00
 2021/05/03 comida
     expenses:comida             290
     assets:caja                -290
+
+2021/05/04 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/05/04 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/05/04 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/05/04 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/05/04 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/05/04 carla
+    expenses:isabel             900
+    assets:caja                -900
+
+2021/05/04 isabel
+    expenses:isabel             800
+    assets:caja                -800
+
+2021/05/05 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2021/05/06 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/05/06 cami ingles
+    expenses:cami:extras           $3000
+    assets:caja                   $-3000
+
+2021/05/06 comida
+    expenses:comida             530
+    assets:caja                -530
+
+2021/05/06 ecogas 2021/02
+    expenses:servicios:ecogas          540.62
+    assets:caja                       -540.62
+
+2021/05/06 fibertel
+    expenses:servicios:fibertel           $3844
+    assets:caja                          $-3844
+
+2021/05/06 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/05/06 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/05/06 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/05/06 american cuer
+    expenses:isabel         $966.67
+    assets:caja            $-966.67
+
+2021/05/06 seguro auto
+    expenses:servicios:la caja seguros           $3112
+    assets:caja                                 $-3112
+
+2021/05/06 netflix
+    expenses:servicios:netflix         1097.13
+    assets:caja                       -1097.13
+
+2021/05/06 new sport
+    expenses:personal:ropa            2200
+    assets:caja                      -2200
+
+2021/05/06 comida tadicor
+    expenses:comida         3482.13
+    assets:caja            -3482.13
+
+2021/05/06 comida hiper
+    expenses:comida          545.96
+    assets:caja             -545.96
+
+2021/05/06 carusso
+    expenses:servicios:carusso         1674.84
+    assets:caja                       -1674.84
+
+2021/05/06 optica campos
+    expenses:gastos medicos:opticas         7476.66
+    assets:caja                            -7476.66
+
+2021/05/06 rio shop deco
+    expenses:isabel           566.6
+    assets:caja              -566.6
+
+2021/05/06 lucia villamoro
+    expenses:ih         $833.35
+    assets:caja        $-833.35
+
+2021/05/06 lucia villamoro II
+    expenses:ih         1741.70
+    assets:caja        -1741.70
+
+2021/05/06 consultas hp
+    expenses:gastos medicos:psiquiatria             250
+    assets:caja                                    -250
+
+2021/05/06 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          1312.3
+    assets:caja                                             -1312.3
+
+2021/05/06 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/05/06 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/05/06 comida
+    expenses:comida             200
+    assets:caja                -200

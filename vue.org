@@ -58,7 +58,15 @@ let toast = this.$toasted.error("Complete los campos faltantes", {
             });
 ** en general no olvidarse del this
 cuando Vue te dice que no conoce una variable o funcion, posiblemente
-la estemos poniendo sin el this adelante. 
+la estemos poniendo sin el this adelante.
+** representacion de la fecha real con dayjs (dayjs.utc)
+   bug del dia menos: cuando en las tablas ves fechas un dia menos que
+   lo que tendrian que ser. 
+   eso es debido a que normalmente procesamos las columnas fecha con
+   la funcion dayjs().format('YYYY-MM-DD') y esa funcion atrasa un
+   dia. Por lo cual hay que usar en su defecto dayjs.utc()
+** event focusOut -> @blur
+   como indica el titulo el evento focusout se obtiene con blur. 
 * Python/flask
 ** transformacion de datos cuando viene un POST de axios
 los datos vienen en formato bytearray que es un formato que se ve como
