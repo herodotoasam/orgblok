@@ -2593,6 +2593,10 @@ primer mm hecho luego de la obra sobre array
     funcional. 
     Descubri una forma de referenciar los elementos del dom
     internamente en vue con $refs
+*** [2021-05-07 vie]
+    dia de grandes avances, hice el mayor y el pivot-cuentas con
+    innumerables detalles y aprendizajes, que quedaron todos
+    documentados. Incluso hice el pasaje a boostrap 5 de yapa. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3557,6 +3561,19 @@ timido comienzo muy debil en estudio de js.
    es la mejor y hay que seguir en ella aprendiendo mas pq todavia
    queda un monton por aprender, creo que solo uso el 10% de la
    tecnologia. 
+   anoche reaparecio php en forma bastante estupida pq no veo que deba
+   embarcarme en estudiar un lenguaje que no conozco a diferencia de
+   python que recontraconozco, y que tendria que perfeccionar. O sea
+   si saltan ganas de hacer teoria no se pq no me pongo en python
+   directamente.
+   Se puede decir que al final de la semana estoy completamente
+   actualizado con respecto a flask-vue-js o sea he retomado el
+   proyecto y le estoy dando avance, creo que podria darle un avance
+   interesante en los proximos dias y de paso ir aprendiendo mas sobre
+   la marcha. No hay tiempo para perfeccionar mucho la teoria pero
+   creo que el entusiasmo crece cuando vez que las paginas van
+   quedando hechas y funcionan bien.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

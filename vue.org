@@ -67,6 +67,28 @@ la estemos poniendo sin el this adelante.
    dia. Por lo cual hay que usar en su defecto dayjs.utc()
 ** event focusOut -> @blur
    como indica el titulo el evento focusout se obtiene con blur. 
+** v-show="cuenta"
+   directiva que puede servir facilmente para mostrar u ocultar algo
+   segun el valor de una variable
+** this.$refs.cuenta.focus()
+   en el elemento ponemos el atributo ref="cuenta" por ejemplo y luego
+   podemos referenciarlo como si fuera un id dentro de un metodo con
+   this.$refs.cuenta y asignarle una funcion como focus() en este
+   caso. 
+   se puede usar directamente en el template, sin el this, como $refs.cuenta.focus()
+** coloreado de dias en Asientos
+   se logro con v-bind al atributo class con una funcion que entregaba
+   el ultimo digito del dia. Poner ahi mismo la funcion dayjs no
+   funciona, hay que poner una funcion propia registrada en methods,
+   entonces hice la funcion dia que componia un nombre de class
+   concatenando color al ultimo digito. Luego hice 10 css para esas
+   clases y listo.
+** resaltado de campos obligatorios con v-bind 
+   hago :class='{required:!campo}'
+   entonces al no haber valor en el campo se pone la clase required (o
+   cualquier otra que asignemos) y ahi podemos con css asignar el
+   resaltado que queramos. A medida que vayan llenandose de datos la
+   clase se saca y el resaltado desaparece. 
 * Python/flask
 ** transformacion de datos cuando viene un POST de axios
 los datos vienen en formato bytearray que es un formato que se ve como
@@ -194,3 +216,49 @@ muestre directamente en pantalla el pdf como yo queria.
             
 ** pasar un escalar a un array
       [...Array(escalar).keys()]
+* bootstrap
+** list-group-item
+   para que los <li> aparezcan cuadrados como si fueran una tabla
+* pandas
+** index las columnas
+usual si queremos las fechas recientes primero
+hacer:
+sort_index(1, 'fecha', False)
+1 es indexar las columnas, 0 las filas.
+luego el campo a indexar.
+luego el orden true ascendente y false descendente.
+** evitar en las tablas notacion exponencial
+    pd.options.display.float_format = '{:20,.0f}'.format
+    esa orden permite visualizar el float format sin formato
+    exponencial.
+* CSS
+** table hoverable (que se marque la fila activa)
+   tr:hover {
+       background-color: bisque;
+       color: black;
+   }
+** freezar la primer columna de los pivots pandas con css
+  trato este caso en particular o sea los pandas que vienen cruditos
+  ya hechos y son pasados por flask directos sin posibilidad de
+  alterar el html, o sea que solo me queda el css.
+  th{
+    left: 0;
+    position:sticky;
+    background-color: bisque;
+    color: black;
+}
+se trabaja sobre el th pq en dichas tablas son la primer columna y
+  permiten por medio de un elemento, ya que no podemos aplicar una
+  clase ya que no accedemos al html, asignar css, en este caso left, y
+  position sticky. 
+** freezar el encabezado de los pivots pandas con css/js
+al th anterior solo le agrego 
+top: 0;
+y con el siguiente codigo borro la tercera fila del thead que esta de
+mas en el diseño que nos tira empaquetado pandas.
+let $thead = document.querySelector('thead');
+let heads = $thead.children.length
+if(heads===3) $thead.removeChild($thead.lastElementChild)
+//removemos el tr de fecha que complica y afea el encabezado
+Y asi obtengo ambos th freezados y operativos.
+

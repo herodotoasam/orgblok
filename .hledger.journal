@@ -5239,3 +5239,15 @@ D $1000.00
 2021/05/06 comida
     expenses:comida             200
     assets:caja                -200
+
+2021/05/07 comida
+    expenses:comida             750
+    assets:caja                -750
+
+2021/05/07 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/05/07 lomito
+    expenses:comida             830
+    assets:caja                -830
