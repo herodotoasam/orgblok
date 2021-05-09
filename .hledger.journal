@@ -5251,3 +5251,28 @@ D $1000.00
 2021/05/07 lomito
     expenses:comida             830
     assets:caja                -830
+
+
+2021/05/08 materiales reparacion caño subida agua
+    expenses:casa:mantenimiento            6810
+    assets:caja                           -6810
+
+2021/05/08 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/05/08 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/05/08 mano de obra reparacion caños de agua
+    expenses:casa:mantenimiento            5000
+    assets:caja                           -5000
+
+2021/05/08 comida
+    expenses:comida            1100
+    assets:caja               -1100
+
+2021/05/08 comida
+    expenses:comida             400
+    assets:caja                -400

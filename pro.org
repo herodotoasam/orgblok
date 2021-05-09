@@ -2596,7 +2596,17 @@ primer mm hecho luego de la obra sobre array
 *** [2021-05-07 vie]
     dia de grandes avances, hice el mayor y el pivot-cuentas con
     innumerables detalles y aprendizajes, que quedaron todos
-    documentados. Incluso hice el pasaje a boostrap 5 de yapa. 
+    documentados. Incluso hice el pasaje a boostrap 5 de yapa.
+*** [2021-05-08 sáb] 
+    gran avance hoy a pesar de que solo tuve la tarde, pero fue a
+    full.
+    incorpore Atom, muy bueno. Y me hice un branch a boostrap5 para
+    actualizar y no consegui resultados y ahi vi Bulma, de nuevo, y de
+    a poquito fui acomodandome, y cuando puse bulma theme en google me
+    di con la gratisima sorpresa de que bulmaswatch tiene los themes
+    espectaculares y mas variados que boostrapswatch, asi que de una
+    queda mas lindo y es un solo archivo. Y creo que la sintaxis es
+    mas facil y los conceptos son mas faciles. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3546,7 +3556,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-01-17 dom]
 ** semana [2021-01-24 dom]                                           :Python:
 ** semana [2021-01-31 dom]                                           :Python:
-** semana [2021-05-02 dom]                                        :Vue:Flask:
+** semana [2021-05-02 dom]                                  :Vue:Flask:Bulma:
    vuelvo a arrancar luego de tres meses de inactividad en el proyecto
    vue/flask.
    lo unico que me gustaria es seguir en el proyecto hasta el final,
