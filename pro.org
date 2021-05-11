@@ -2607,6 +2607,16 @@ primer mm hecho luego de la obra sobre array
     espectaculares y mas variados que boostrapswatch, asi que de una
     queda mas lindo y es un solo archivo. Y creo que la sintaxis es
     mas facil y los conceptos son mas faciles. 
+*** [2021-05-09 dom]
+    muy entretenido muchas horas en la transformacion de bulma y en la
+    instalacion de mx-19.
+*** [2021-05-10 lun]
+    avance dos modulitos mas, y termine la transformacion a bulma de
+    un modulo grande como es buscador, luego lo revisare mas en
+    detalle.
+    Y a la tarde-noche me entretuve en table.js para ver si la podia
+    hacer componente de Vue, pero me falta conocimiento por ahora pero
+    ya lo voy a hacer.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3583,7 +3593,9 @@ timido comienzo muy debil en estudio de js.
    la marcha. No hay tiempo para perfeccionar mucho la teoria pero
    creo que el entusiasmo crece cuando vez que las paginas van
    quedando hechas y funcionan bien.
-
+** semana [2021-05-09 dom]                                  :Vue:Flask:Bulma:
+   comienza la semana con una gran transformacion a Bulma dejando
+   atras boostrap.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3886,6 +3898,10 @@ pero es algo continuo en cambio el otro molestaba que era variable.
     resultando muy molesto por tener que poner la contraseña y mas que
     todo pq se pone cuando estoy viendo videos. CAsi me hace desistir
     pero ya lo arregle.
+*** desinstalo el [2021-05-09 dom] por fallas reiteradas (cuelgues)
+* agenda MX-19
+** instalacion [2021-05-09 dom]
+   instalado sin problemas, veremos que pasa.
 
 * agenda vim
 ** jump previas posiciones

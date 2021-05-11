@@ -118,6 +118,8 @@ usb disk formatter
 ** heroku
 *** install
     sudo snap install --classic heroku
+    si no se puede usar snap (como p.e. en MX-19)
+   curl https://cli-assets.heroku.com/install-ubuntu.sh | sh  
 *** verificar
     heroku --version
 *** heroku login
