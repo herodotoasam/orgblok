@@ -2617,6 +2617,29 @@ primer mm hecho luego de la obra sobre array
     Y a la tarde-noche me entretuve en table.js para ver si la podia
     hacer componente de Vue, pero me falta conocimiento por ahora pero
     ya lo voy a hacer.
+*** [2021-05-11 Tue]
+    avance con un modulito y medio casi, y me canse fisica y
+    mentalmente. Estoy muy motivado pq se hacer lo que estoy haciendo
+    y lo que no se hacerlo me motiva aun mas, como fue el descubrir la
+    forma de totalizar/resetear en distintas tablas y asi hacer mas
+    generalizado mi script. Ahora para terminar este que estoy ahora
+    tendria que o bien editar en la tabla o bien usar modal en bulma,
+    cualquiera de las dos requerira mi mayor esfuerzo, y es un desafio.
+*** [2021-05-12 Wed]
+    hoy hubo un gran desafio programatico pq corregi un gran problema
+    que es el bloqueo de psicopg2 cuando hay un error, y lo hice al
+    usar try/except en python y catch en js. Me costo pero valio la
+    pena el desafio y ya queda el tema sabido para el futuro. Y se
+    combina con teoria o sea con aprendizaje.
+*** [2021-05-13 Thu]
+    hoy hice una sola pagina y me canse, esta bien que fue un poco
+    dificultosa y me equivoque en el concepto pero la remonte en pocos
+    minutos y quedo muy bien. Esta bien que pase muchos recibos y eso
+    me canso
+*** [2021-05-14 Fri]
+    hoy hice la pagina verzonas y la idea es hacer un par de videos de
+    js, la idea es seguir capacitando en nivel de js hasta llegar a
+    senior algun dia. Mientras sigo haciendo el sistema. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3596,6 +3619,9 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-05-09 dom]                                  :Vue:Flask:Bulma:
    comienza la semana con una gran transformacion a Bulma dejando
    atras boostrap.
+   un tema importante de la semana es el evitar que se cuelgue el
+   servidor ante los errores de postgres, creo que envolver todos los
+   procesos en bloques de try/except va a hacer mas seguro el proceso.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3742,6 +3768,13 @@ Reinstalacion de vuelta nuevamente al 20, con problemas, pq instale
 todo y cuando doy arranque me aparece el grub> en la pantalla, y no
 sabia que hacer, entonces ahi nomas reinstale todo de nuevo y anduvo
 bien hasta ahora.
+** [2021-05-11 Tue] vuelta al uso diario de Cinnamon Mint 20
+   sin reinstalar, asi como lo tenia, hice las actualizaciones y sigo
+   usandolo, veremos que pasa, parece que se corrigieron los errores
+   de actualizacion que me daban el año pasado cuando deje de usarlo.
+   Muy conforme con la estetica y en lineas generales con mint,
+   quisiera instalarlo en la otra maquina para conseguir mayor rapidez
+   que aca que esta muy lento.
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
@@ -3902,6 +3935,9 @@ pero es algo continuo en cambio el otro molestaba que era variable.
 * agenda MX-19
 ** instalacion [2021-05-09 dom]
    instalado sin problemas, veremos que pasa.
+   desechado (pq en realidad sigue en la maquina pero cambie de
+   maquina) pq no leyo el disco solido y no podia instalar los
+   padrones.
 
 * agenda vim
 ** jump previas posiciones

@@ -5296,3 +5296,63 @@ D $1000.00
 2021/05/10 saco reserva
     assets:caja             $20000
     assets:reserva         $-20000
+
+2021/05/11 toner
+    expenses:casa:mantenimiento            750
+    assets:caja                           -750
+
+2021/05/11 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/05/11 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/05/11 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/05/11 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/05/11 dif
+    expenses:diferencia arqueo             807
+    assets:caja                           -807
+
+2021/05/12 farmacia italiano
+    expenses:gastos medicos:farmacia            6433
+    assets:caja                                -6433
+
+2021/05/12 comida
+    expenses:comida            1100
+    assets:caja               -1100
+
+2021/05/13 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/05/13 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/05/13 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021/05/13 nafta
+    expenses:transporte:nafta           $1000
+    assets:caja                        $-1000
+
+2021/05/13 ih
+    expenses:isabel            500
+    assets:caja               -500
+
+2021/05/13 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/05/13 dif
+    expenses:diferencia arqueo            7.86
+    assets:caja                          -7.86
