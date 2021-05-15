@@ -5356,3 +5356,11 @@ D $1000.00
 2021/05/13 dif
     expenses:diferencia arqueo            7.86
     assets:caja                          -7.86
+
+2021/05/15 comida
+    expenses:comida             600
+    assets:caja                -600
+
+2021/05/15 comida
+    expenses:comida            1200
+    assets:caja               -1200

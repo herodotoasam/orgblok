@@ -3622,6 +3622,12 @@ timido comienzo muy debil en estudio de js.
    un tema importante de la semana es el evitar que se cuelgue el
    servidor ante los errores de postgres, creo que envolver todos los
    procesos en bloques de try/except va a hacer mas seguro el proceso.
+   terminado un bloque completo, -pagos-, que se suma a stock. Falta
+   encarar la proxima semana ventas. El tema es ser persistente, si
+   sigo asi en un mes termino toda la programacion y tendria que
+   empezar a probarla, con lo cual tendria que ver los errores y
+   faltantes. 
+** semana [2021-05-16 Sun]                                  :Vue:Flask:Bulma:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3775,6 +3781,14 @@ bien hasta ahora.
    Muy conforme con la estetica y en lineas generales con mint,
    quisiera instalarlo en la otra maquina para conseguir mayor rapidez
    que aca que esta muy lento.
+** [2021-05-14 Fri] reinstalacion de mint cinnamon 20.1 en intel9th
+   y me dio un cuelgue repentino al cerrar chrome, y no quiso arrancar
+   de ninguna manera. Ya la daba por rota a la maquina cuando se me
+   ocurre probar con el recovery. Lo corro toda la noche pq no paraba
+   mas. A la mañana me canse lo rebootie y anduvo normal hasta ahora,
+   con solo un cuelgue sin consecuencias.
+   Y otro rebooteo por que no anduvo el suspend, directamente la
+   maquina queda prendida y no responde a volver a arrancar.
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
