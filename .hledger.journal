@@ -2901,7 +2901,7 @@ D $1000.00
     assets:caja                    -5000
 
 2020/12/19 bono romi
-    expenses:romi:            5000
+    expenses:romi            5000
     assets:caja              -5000
 
 2020/12/19 bono isabel
@@ -5396,3 +5396,99 @@ D $1000.00
 2021/05/17 saco reservas
     assets:caja             $10000
     assets:reserva         $-10000
+
+2021/05/18 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021/05/18 comida cammi
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/05/18 mesada ih
+    expenses:isabel           $1000
+    assets:caja              $-1000
+
+2021/05/18 nafta
+    expenses:transporte:nafta            2000
+    assets:caja                         -2000
+
+2021/05/18 remi cami
+    expenses:cami:extras             180
+    assets:caja                     -180
+
+2021/05/18 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/05/18 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/05/18 prestamo romi
+    assets:deudas romi            5000
+    assets:caja                  -5000
+
+2021/05/18 comida
+    expenses:comida             390
+    assets:caja                -390
+
+2021/05/18 farmacia
+    expenses:gastos medicos:farmacia             300
+    assets:caja                                 -300
+
+2021/05/18 jardinera
+    expenses:casa:mantenimiento:jardineria             300
+    assets:caja                                       -300
+
+2021/05/18 ih
+    expenses:isabel             300
+    assets:caja                -300
+
+2021/05/19 veterinaria
+    expenses:comida:gatos             750
+    assets:caja                      -750
+
+2021/05/19 viaje multas
+    viajes:multas            4700
+    assets:caja             -4700
+
+2021/05/20 cami psi
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/05/21 ingresos
+    assets:reserva                   60000
+    income:retiro sociedad          -60000
+
+2021/05/21 saco reserva
+    assets:caja              60000
+    assets:reserva          -60000
+
+2021/05/21 veterinaria
+    expenses:comida:gatos             600
+    assets:caja                      -600
+
+2021/05/21 farmacia
+    expenses:gastos medicos:farmacia            5110
+    assets:caja                                -5110
+
+2021/05/21 epec 04/2021
+    expenses:servicios:epec            7424
+    assets:caja                       -7424
+
+2021/05/21 aguas cordobesas 04/2021
+    expenses:servicios:aguas cordobesas         9247.37
+    assets:caja                                -9247.37
+
+2021/05/21 claro
+    expenses:servicios:claro            1730
+    assets:caja                        -1730
+
+2021/05/21 ospe
+    expenses:servicios:OSPE           29887
+    assets:caja                      -29887
+
+2021/05/24 mesada ih
+    expenses:isabel            2000
+    assets:caja               -2000

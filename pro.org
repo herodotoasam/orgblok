@@ -2640,6 +2640,63 @@ primer mm hecho luego de la obra sobre array
     hoy hice la pagina verzonas y la idea es hacer un par de videos de
     js, la idea es seguir capacitando en nivel de js hasta llegar a
     senior algun dia. Mientras sigo haciendo el sistema. 
+*** [2021-05-15 Sat]
+    hoy hice las paginas totales y estimados
+*** [2021-05-17 Mon]
+    hoy empece la gran pagina pasarventas con muchos contratiempos por
+    ser un dia muy cortado para el desarrollo, por ser el cumple de la
+    Cami. 
+*** [2021-05-18 Tue]
+    comence con el desafio de ponerle csrf a los forms y  hacer un
+    login
+*** [2021-05-19 Wed]
+    dia intenso con los login, fue todo un trabajo de investigacion y
+    al final logre hacerlo funcionar sin problemas. Me trabaron hoy
+    dos cosas, el check_password que no funcionaba y cambie por una
+    alternativa, y que las paginas manejadas por axios no hacen
+    redirect, por lo cual tuve que trasladar la logica a formulario
+    comun. Pero fue una buena practica dentro de todo.
+    Faltaria un campo en la tabla Users para dar de alta al usuario,
+    cosa de que controlemos quien pueda entrar o no a la base de datos
+*** [2021-05-20 Thu] 
+    hoy un dia muy intenso y muy frustrante, pq el login/csrf que
+    funcionaba perfecto en localhost no funciona en heroku. Investigue
+    de todo, probe de todo y no pude llegar a nada.
+    Por parte del csrf llegue a la conclusion que son cambios en los
+    navegadores de este año que se pusieron mas estrictos y todo el
+    rollo, entonces quite el csrf, pero el login no anda tampoco, anda
+    erraticamente, despues de varios cambios, reflejados en los
+    ultimos commits y deploys andaba en parte pero fallaba por ejemplo
+    a la segunda de cambio. 
+    Y asi perdi todo un dia y en realidad inverti tres dias en esto,
+    esta bien que aprendi y saque un tema, pero no contaba que no
+    funcionara en la web. Lo malo es que es una caja negra y si no te
+    funciona no sabes porque no funciona, no te manda ningun mensaje
+    de error ni nada, solo no funciona.
+    Me deja la opcion de seguir aprendiendo, otras formas mas
+    complejas o bien hacer una propia basada en sessiones.
+    Tengo pensado hacerme un sistema de login basado en sessiones, con
+    session obtengo el current_user, y puedo hacer login/logout, el
+    signup queda practicamente igual, y el decorador loginrequired se
+    reemplazaria con un if que me chequeara si hay usuario logueado
+    caso contrario render template a login.
+*** [2021-05-21 Fri]
+    otro dia de frustracion pq la solucion con session que anda
+    perfecto en localhost, nuevamente anda erraticamente en el
+    hosting. 
+    Aunque hace varios dias que vengo escuchando videos de nodejs hoy
+    me planteo la posibilidad de cambiar de lenguaje de backend y
+    aprender node.js y hacer todo en javascript y ver que pasa. 
+    Lo que pasa es que el sistema es endeble si no funciona perfecto y
+    no podra ser llevado a produccion, y si no puedo seguir
+    aprendiendo y estoy limitado a esa unica posibilidad que use como
+    para que funcionara, se parece a eso que escuche el otro dia,
+    lanzamos una primera version como sea con stack-overflow pero sin
+    base solida.
+    Todo es aprendizaje, hasta los fracasos, y manteniendose
+    codificando todos los dias uno se mantiene en forma como para
+    volver. Y en cualquier momento esta abierta la posibilidad de
+    retomar el proyecto y hacer un flask run.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3627,7 +3684,12 @@ timido comienzo muy debil en estudio de js.
    sigo asi en un mes termino toda la programacion y tendria que
    empezar a probarla, con lo cual tendria que ver los errores y
    faltantes. 
-** semana [2021-05-16 Sun]                                  :Vue:Flask:Bulma:
+** semana [2021-05-16 Sun]             :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
+   sigue el trabajo a buen ritmo con fecha cierta de terminacion, si
+   sigo con inspiracion, creo que en un par de meses.
+** semana [2021-05-23 Sun]                                           :Nuxtjs:
+   sigo en la busqueda de un marco para desarrollo que sea monorepo y
+   basado en nodejs.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3789,6 +3851,10 @@ bien hasta ahora.
    con solo un cuelgue sin consecuencias.
    Y otro rebooteo por que no anduvo el suspend, directamente la
    maquina queda prendida y no responde a volver a arrancar.
+** [2021-05-21 Fri] fallas en la impresora
+   asi de la nada no imprime. da el error estara desconectada?, y
+   desenchufo el usb y lo vuelvo a enchufar y se reinstala de nuevo y
+   esa anda, luego borro la primera y dejo la segunda como default.
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
