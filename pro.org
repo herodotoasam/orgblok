@@ -2697,6 +2697,52 @@ primer mm hecho luego de la obra sobre array
     codificando todos los dias uno se mantiene en forma como para
     volver. Y en cualquier momento esta abierta la posibilidad de
     retomar el proyecto y hacer un flask run.
+*** [2021-05-22 Sat]
+    dia intensisimo estudiando nodejs/express etc y haciendo funcionar
+    mi get de clientes con pg node. muchos avances se veian.
+*** [2021-05-23 Sun]
+    otro dia intensisimo pero que termina en gran frustracion pq logro
+    hacer facilmente un monorepo con sapper y trabajar con svelte que
+    habia estado estudiando-repasando el dia anterior y resulta que
+    luego veo que no se continuara desarrollando y que la alternativa
+    es sveltekit.
+*** [2021-05-24 Mon]
+    dia de lo mas frustrante, pruebo un poco sveltekit con
+    frustracion, luego nuxtjs tambien con frustracion hasta que al
+    final decido que me conviene un marco mas serio y responsable y
+    global o sea laravel, y empiezo a ver los videos de laravel lo que
+    no esta mal pero es enorme, y pierdo un monton de tiempo poniendo
+    a punto la base de datos para ello y ahi freno y me digo que estoy
+    haciendo.
+    Felizmente tome la decision de regresar a flask. de poner el mismo
+    empeño que iba a necesitar para aprender laravel o cualquier otra
+    cosa en solucionar lo que tenga flask de faltante o erroneo, y
+    logre encontrar en menos de una hora el problema del login que me
+    habia trabado el jueves pasado.
+*** [2021-05-25 Tue] 
+    se avanzo bastante en varias cosas, se puso cors, se activo csrf,
+    se adjunto una nueva base de datos a la aplicacion y se lo hizo en
+    forma directa que lea el ENV no los settings puestos a mano, que
+    pueden cambiar y son tediosos de poner. Puse buefy para el
+    autocompletado que anda muy bien con el enter en el keep-first,
+    solo resigno el cambio de clase para resaltar el campo, pero todo
+    lo demas sigue igual. y se sigue leyendo flask para aprender mas
+    detalles cosa de robustecer la aplicacion.
+*** [2021-05-26 Wed]
+    se avanzo mucho se termino pasarventa y se hizo el switch para
+    themes que aunque no es perfecto permite tener dos themes dentro
+    del mismo sistema.
+*** [2021-05-27 Thu]
+    se funcionalizo con Blueprint
+    se desarrollo el listado de ventas con todas las funcionalidades
+    que tenia en tcl.
+    tambien se hacen numerosas correcciones de todo tipo en todos los
+    modulos.
+    Entre otras cosas encontre la vuelta a usar current_user para que
+    refleje correctamente el usuario conectado.
+    Hice la autorizacion de email, para que no cualquiera que se
+    registre pueda entrar al sistema sino los que nosotros aprobemos.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3687,9 +3733,25 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-05-16 Sun]             :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
    sigue el trabajo a buen ritmo con fecha cierta de terminacion, si
    sigo con inspiracion, creo que en un par de meses.
-** semana [2021-05-23 Sun]                                           :Nuxtjs:
+** semana [2021-05-23 Sun]                                  :Flask:Vue:Bulma:
    sigo en la busqueda de un marco para desarrollo que sea monorepo y
    basado en nodejs.
+   despues de media semana de caos y desgastante giro por un monton de
+   lados y de frustrarse por no encontrar lo que buscaba, decidi
+   volver y dedicar la misma energia que tendria que poner en aprender
+   a manejar laravel de cero a terminar de dominar flask y buscar
+   soluciones a los problemas que teniamos y consegui la solucion en
+   una hora de lo que me habia trabado en flask-login, mediante
+   realizar correctamente la consulta en google y encontrar la
+   repuesta que buscaba, despues de descartar varias opciones que no
+   funcionaron. 
+   O sea que vuelvo re-motivado a un proyecto con un gran grado de
+   avance que puede estar terminado en relativamente poco tiempo. 
+   quizas es patologico, que prefiero estar siempre empezando algo
+   nuevo en vez de terminar un proyecto. 
+   TAmbien hay que notar que exactamente los mismos problemas que he
+   tenido con heroku p.e. los han tenido otros tambien, o sea que no
+   estoy lejos de lo que es la realidad programatica.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

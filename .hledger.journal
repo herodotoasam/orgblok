@@ -5492,3 +5492,39 @@ D $1000.00
 2021/05/24 mesada ih
     expenses:isabel            2000
     assets:caja               -2000
+
+2021/05/25 lomito
+    expenses:comida            1400
+    assets:caja               -1400
+
+2021/05/26 gatos
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/05/26 comida
+    expenses:comida             320
+    assets:caja                -320
+
+2021/05/26 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/05/26 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/05/26 mesada cami
+    expenses:cami:mesada            3000
+    assets:caja                    -3000
+
+2021/05/26 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/05/26 papel higienico
+    expenses:comida            1400
+    assets:caja               -1400
+
+2021/05/27 dif
+    expenses:diferencia arqueo             421
+    assets:caja                           -421
