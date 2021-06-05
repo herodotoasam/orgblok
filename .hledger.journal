@@ -5528,3 +5528,51 @@ D $1000.00
 2021/05/27 dif
     expenses:diferencia arqueo             421
     assets:caja                           -421
+
+2021/05/29 lomito
+    expenses:comida            1300
+    assets:caja               -1300
+
+2021/06/01 mesada ih
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/06/01 mesada ih
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/06/01 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2021/06/01 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/06/01 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/06/01 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/06/02 taxi cami
+    expenses:cami:extras            $500
+    assets:caja                    $-500
+
+2021/06/02 estacionamiento
+    expenses:transporte:estacionamiento             170
+    assets:caja                                    -170
+
+2021/06/02 cami psico
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/06/02 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/06/02 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000

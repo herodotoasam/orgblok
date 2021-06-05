@@ -2742,7 +2742,52 @@ primer mm hecho luego de la obra sobre array
     refleje correctamente el usuario conectado.
     Hice la autorizacion de email, para que no cualquiera que se
     registre pueda entrar al sistema sino los que nosotros aprobemos.
-
+*** [2021-05-28 Fri]
+    hice paginas de ventas/clientes y ventas/calles-barrios-zonas las
+    tres juntas me hizo ahorrar un monton de tiempo. 
+    hice retoques a los sumadores de table.js para las sumas
+    numericas.
+    jugue un poco con la posibilidad de jquery para la edicion de
+    tablas html, pero me parece que la solucion de la edicion con
+    ventana modal dedicada es mas segura que la edicion tipo tablelist
+    en la misma tabla. Para mañana queda estadisticas y me meto en
+    fichaje.
+*** [2021-05-29 Sat]
+    hice con dificultad la pagina estadisticas de venta por la mañana
+    y a la tarde empece con fichas/fichaje refuncionalizandolo en
+    general, y agregandole la funcion que no estaba que era cambiar de
+    zona. Y la funcionalidad de los toggles de estado. 
+*** [2021-05-30 Sun] 
+    hice pagina para agregar cobr y togglear activo, todo un crud en
+    si mismo que requiere pensar todo desde el principio. pq no lo
+    hice copiando sino escribiendo las rutas yo mismo.
+*** [2021-05-31 Mon]
+    entre anoche y esta mañana hice el fechador en alpine!!! que
+    parecia que no me funcionaba en una parte pero era que estaba
+    escribiendo fuera del div. Luego hice un hermoso nav con css puro,
+    responsive y mejor que el que tenia de bulma. Y me traje el
+    escritorio al living para no cagarme tanto de frio.
+** 2021-Junio
+*** falta
+**** DONE pagina fechadora
+**** TODO vista por meses
+**** DONE gestion de datos para fabian
+**** TODO comprar dominio/contratar heroku/SSL
+*** [2021-06-01 Tue]
+    hice la pagina de listado de calle con algunas complicaciones
+    extra pq quise ponerle mas funcionalidad con alpine que la que
+    tenia con vue, p.e. que me marque la que esta en uso.
+    Arregle el menu para que la parte del email tenga una class aparte
+    y ademas sea un label cosa de que parezca mas fijo y no un link.
+*** [2021-06-02 Wed]
+    contrate heroku y un dominio romitex.xyz.
+    hice un importantisimo script para manejar las cuotas con js en
+    vez de hacerlo desde base de datos
+*** [2021-06-03 Thu]
+    trabaje con buscador y pagina de plan de pagos.
+    pero me trabe con los triggers que creo que es mala idea tenerlos
+    asi, y me parece que hare una pausa y me dedicare unos dias a la
+    base de datos, quizas cambie todo.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3752,6 +3797,26 @@ timido comienzo muy debil en estudio de js.
    TAmbien hay que notar que exactamente los mismos problemas que he
    tenido con heroku p.e. los han tenido otros tambien, o sea que no
    estoy lejos de lo que es la realidad programatica.
+   Pienso que ya estoy cerca de completar la programacion, mañana
+   termino ventas y retomo fichaje, que esta en gran parte hecho, y
+   ahi termino, faltandome corregir errores en especial de los dos
+   modulos que quedaron ultimos o sea fichajes y buscador, pq
+   vtas,pagos y stock estan bastante bien terminados, luego queda
+   pulir, o sea pasar todo a try/execpt y login_required. 
+   Y pienso que ahi tendria que contratar heroku para poder iniciar la
+   prueba real de carga de la aplicacion con datos reales para ver los
+   errores, e ir llevando en paralelo las dos aplicaciones por un
+   tiempo hasta tenerle confianza.  (de ultima puedo hacer que la cami
+   pase los papeles en tcl, y yo los paso en la nueva). 
+** semana [2021-05-30 Sun]                            :Alpine:CSS:Javascript:
+   si bien es cierto que sigo con el stack flask/vue/bulma, aparecio
+   alpine y me gusto mucho y es compatible por lo cual un par de
+   paginas las hice con el incluso con mas ventaja sobre vue. 
+   Me intereso el CSS puro, no para un cambio radical por ahora en
+   todo el proyecto creo que eso es inviable, pero me hice la navbar y
+   me gusta mas como me quedo que la que me dio bulma. Y por ultimo
+   javascript es lo que se lleva todo el interes programatico y de
+   aprendizaje estos dias. 
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

@@ -102,6 +102,11 @@ copiar de ~/orgblok .tclshrc a ~
 *** extension
 **** One Monokai Theme
 **** Project Manager
+*** multiples cursores con Alt-click
+    si no funciona puede que el S.O. este usando esa combinacion en
+    caso de mint p.e. ir a preferencias/windows y sacar la tecla alt
+    para mover ventanas etc. y empieza a funcionar el multiple cursor
+    de inmediato.
 ** mint usb utilities
 usb image writer
 usb disk formatter 
@@ -213,9 +218,15 @@ postgres=# alter user hero with superuser;
 postgres=# grant all privileges on database hero to hero;
 **** cargamos el schema dumpeado previamente
 $psql -f dumppreviodeschema.sql
-*** instalar postbird en electron
-    electronjs.org / Aplicaciones / postbird
-    es ultrarapida y genial y mejor que adminer.
+** instalar postbird en electron
+   electronjs.org / Aplicaciones / postbird
+   es ultrarapida y genial y mejor que adminer.
+*** heroku in postbird
+para que conecte con la uri de la base de datos agregarle al final de
+la cadena ?ssl=verify-full
+pq intente hacer otras cosas como modificar el pg_hba.config que le
+agregue dos lineas nuevas y el postgres.config que le puse ssl of y
+otra modificacion.
 ** instalar Rails
 sudo apt-get install libpq-dev
 para que no de problemas la gem pg
