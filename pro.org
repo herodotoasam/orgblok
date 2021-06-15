@@ -464,6 +464,11 @@ sudo mysql; (como root)
 CREATE DATABASE hero;
 CREATE USER 'hero' IDENTIFIED BY 'ata';
 GRANT ALL PRIVILEGES ON hero.* to hero;
+
+mejor opcion mas general y con super:
+CREATE USER '{{ username }}'@'%' IDENTIFIED BY '{{ password }}';
+GRANT ALL PRIVILEGES ON *.* TO '{{ username }}'@'%' WITH GRANT OPTION;
+
 FLUSH PRIVILEGES;
 exit;
 
@@ -2788,6 +2793,49 @@ primer mm hecho luego de la obra sobre array
     pero me trabe con los triggers que creo que es mala idea tenerlos
     asi, y me parece que hare una pausa y me dedicare unos dias a la
     base de datos, quizas cambie todo.
+*** [2021-06-05 Sat]
+    inmerso totalmente en el mysql-hell para cambiar la base de datos,
+    y enfrentandome a numerosisimos problemas, incluso tener que
+    reinstalar el s.o. 
+*** [2021-06-06 Sun]
+    terminado de pasar los datos y puesta a punto del sistema, pero
+    falta pasar triggers, hacer la funcion pmovto, arreglar la
+    impresion con cuotaje (igual lo tendria que haber hecho).
+*** [2021-06-07 Mon]
+    comenzando a renegar con deploy a vps con linux server con apache
+    en kamatera. Sin exito.
+*** [2021-06-08 Tue]
+    dia historico pude tener exito en el deploy vps con apache en
+    kamatera. 
+*** [2021-06-09 Wed]
+    despues de fallar con nginx con un vps, contrate donweb en pesos y
+    anduvo bien con nginx-gunicorn.
+*** [2021-06-10 Thu]
+    luego de un problema de caida de servidor con donweb a raiz de una
+    actualizacion del sistema lo solucione rapido. 
+*** [2021-06-11 Fri]
+    necesitaba una tercera instalacion limpia de pelo y barba y la
+    consegui en digital-ocean via apache, con solucion impecable del
+    problema de impresion. Ahora mas tranquilo con el deploy, incluso
+    tengo ssl instalado. donweb es mas rapida pero tiene eso que se
+    corta a la noche y debo resolverlo. por ahora estudiare las tres
+    opciones. 
+*** [2021-06-12 Sat]
+    instale la cuarta instancia esta vez en oracle y con sudo, y en
+    apache, la mas rapida es donweb que esta en argentina y cuesta 400
+    por mes,
+*** [2021-06-13 Sun] 
+    al no tener grades desafios me aburro un poco ahora, hoy hice el
+    recambio de loterbo, ayer el recambio de calles, las dos con
+    alpine.js.
+    Casi todos los dias voy corrigiendo errores varios de diseño y de
+    logica. Falta poner a prueba a fondo al sistema con datos reales
+    para detectar mas fallos y ponerle fecha a la transicion.
+*** [2021-06-14 Mon]
+    correccion de errores varios. 
+*** [2021-06-15 Tue] 
+    hoy termine modulo seven y corregi bug en el pasado de pagos pq el
+    dump no contenia la funcion pq la sacaba sin --routines 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3817,6 +3865,8 @@ timido comienzo muy debil en estudio de js.
    me gusta mas como me quedo que la que me dio bulma. Y por ultimo
    javascript es lo que se lleva todo el interes programatico y de
    aprendizaje estos dias. 
+** semana [2021-06-06 Sun]                                           :mysql:
+** semana [2021-06-13 Sun]                          :mysql:Alpine:Javascript:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -3982,6 +4032,7 @@ bien hasta ahora.
    asi de la nada no imprime. da el error estara desconectada?, y
    desenchufo el usb y lo vuelvo a enchufar y se reinstala de nuevo y
    esa anda, luego borro la primera y dejo la segunda como default.
+** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
@@ -4817,3 +4868,64 @@ Lo que hice es corregirlo "a mano" o sea agregarle el valor de una
 cuota a lo pagado, de modo tal que se calcule bien, lo cual anda
 perfecto siempre y cuando el pago sea de una cuota, si el pago es
 menor funcionara mal, pq fechara como si hubiera pagado la cuota entera.
+* agenda donweb
+** troubleshoting
+*** restart rxcba y nginx
+    [2021-06-10 Thu]
+    dejo de funcionar en la noche, no se podia conectar la base de
+    datos, etc. bad gateway.
+    pero... al abrir la consola decia que el server necesitaba
+    reiniciarse.
+    lo cual indicaba que se habia actualizado.
+    hice reboot.
+    luego hice systemctl restart rxcba y nginx y todo anduvo genial de
+    nuevo.
+*** impresiones que no funcionaban
+    [2021-06-10 Thu]
+    luego de darles todos los permisos posibles a las carpetas
+    involucradas con el usuario no-root, para solucionar el problema
+    de que el archivo se genera en /home/hero/rxcba y se lee en
+    /home/hero/rxcba/application hice sendos 
+    ln -s ../ficha.pdf ficha.pdf
+    ln -s ../listado.pdf listado.pdf
+    y anduvo joya.
+*** el problema del sock en la instalacion
+    cuando hago mi propio service para que funcione gunicorn
+    continuamente en el archivo
+    /etc/systemd/system/rxcba.service
+    la guia me indicaba que pusiera en la orden de exec: 
+    
+    ExecStart=/home/sammy/myproject/myprojectenv/bin/gunicorn
+    --workers 3 --bind unix:rxcba.sock -m 007 wsgi:app
+    
+    o sea ese rxcba.sock no se genera automaticamente como ellos dicen
+    y resulto ser un quebradero de cabeza.
+
+    puse directamente --bind '127.0.0.1:8000' y me anduvo bien hasta
+    ahora.
+* agenda digital ocean
+** solucion a impresion
+   con impresion a /tmp poniendo en output y en savefile la ruta
+   /tmp/ficha.pdf
+   como el directorio /tmp es libre todo ok.
+* agenda deploy
+en general parece que para que sea exitoso el deploy tiene que ser
+desde un acceso root, pq fueron exitosos los tres casos con acceso
+root y fracasaron los tres casos de sudo. 
+el ultimo deploy fue liso y llano.
+primero probando el puerto 80 con python.
+python3 -m http.server 80
+y desde otro terminal curl ip:80 y alli vemos si hay algo.
+o sea que este abierto el puerto 80 por empezar y en oracle el
+problema era ese, el puerto 80.
+
+luego queda el problema de las impresiones que tienen acceso denegado
+por falta de permisos de escritura, solo lo solucione en la
+instalacion de donweb pq la hice con nginx fuera de /var/www 
+
+logre hacer la cuarta instalacion en oracle con sudo, pero siguiendo
+las instrucciones de iptables para la instalacion de apache
+primero. luego lo normal, solo que el pip3 install hay que hacerlo con
+sudo. El resto todo igual y bien.
+
+

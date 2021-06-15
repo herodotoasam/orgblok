@@ -102,6 +102,11 @@ copiar de ~/orgblok .tclshrc a ~
 *** extension
 **** One Monokai Theme
 **** Project Manager
+**** alpinejs intelisense
+**** babel js
+**** eslint
+**** comunity material themes
+**** material icon 
 *** multiples cursores con Alt-click
     si no funciona puede que el S.O. este usando esa combinacion en
     caso de mint p.e. ir a preferencias/windows y sacar la tecla alt

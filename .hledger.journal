@@ -5576,3 +5576,239 @@ D $1000.00
 2021/06/02 saco reserva
     assets:caja              20000
     assets:reserva          -20000
+
+2021/06/05 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/06/05 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/06/05 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/06/05 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021/06/07 mesada ih
+    expenses:isabel            1500
+    assets:caja               -1500
+
+2021/06/07 odontologia
+    expenses:gastos medicos:odontologia            4500
+    assets:caja                                   -4500
+
+2021/06/07 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/06/07 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/06/07 nafta
+    expenses:transporte:nafta            1500
+    assets:caja                         -1500
+
+2021/06/07 ih
+    expenses:isabel             680
+    assets:caja                -680
+
+2021/06/08 gatos
+    expenses:comida:gatos           $1000
+    assets:caja                    $-1000
+
+2021/06/08 comida
+    expenses:comida             430
+    assets:caja                -430
+
+2021/06/08 ecogas 2021/02
+    expenses:servicios:ecogas          500.55
+    assets:caja                       -500.55
+
+2021/06/08 fibertel
+    expenses:servicios:fibertel            4637
+    assets:caja                           -4637
+
+2021/06/08 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/06/08 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/06/08 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/06/08 american cuer
+    expenses:isabel         $966.67
+    assets:caja            $-966.67
+
+2021/06/08 new sport
+    expenses:personal:ropa           $2200
+    assets:caja                     $-2200
+
+2021/06/08 rio shop deco
+    expenses:isabel           982.6
+    assets:caja              -982.6
+
+2021/06/08 seguro auto
+    expenses:servicios:la caja seguros            3608
+    assets:caja                                  -3608
+
+2021/06/08 netflix
+    expenses:servicios:netflix        $1097.13
+    assets:caja                      $-1097.13
+
+2021/06/08 todo moda
+    expenses:isabel            1597
+    assets:caja               -1597
+
+2021/06/08 rio shop deco
+    expenses:isabel          566.60
+    assets:caja             -566.60
+
+2021/06/08 optica campos
+    expenses:gastos medicos:opticas        $7476.66
+    assets:caja                           $-7476.66
+
+2021/06/08 comida hiper
+    expenses:comida         $545.96
+    assets:caja            $-545.96
+
+2021/06/08 comida tadicor
+    expenses:comida        $3482.13
+    assets:caja           $-3482.13
+
+2021/06/08 caruso
+    expenses:servicios:carusso         1672.49
+    assets:caja                       -1672.49
+
+2021/06/08 rimo calzados
+    expenses:ih            1748
+    assets:caja           -1748
+
+2021/06/08 ecogas ultima boleta dpto jujuy
+    expenses:romi         1212.78
+    assets:caja          -1212.78
+
+2021/06/08 lucia villamoro
+    expenses:ih         $833.35
+    assets:caja        $-833.35
+
+2021/06/08 lucia villamoro
+    expenses:ih         1741.66
+    assets:caja        -1741.66
+
+2021/06/08 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos          982.34
+    assets:caja                                             -982.34
+
+2021/06/08 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/06/08 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/06/08 peluquero
+    expenses:peluqueria            $200
+    assets:caja                   $-200
+
+2021/06/08 ih carla
+    expenses:isabel             800
+    assets:caja                -800
+
+2021/06/08 ih
+    expenses:isabel            1200
+    assets:caja               -1200
+
+2021/06/09 ayuda
+    expenses:comida:ayuda             100
+    assets:caja                      -100
+
+2021/06/09 ayuda
+    expenses:comida:ayuda             120
+    assets:caja                      -120
+
+2021/06/09 jardinero
+    expenses:casa:mantenimiento:jardineria             800
+    assets:caja                                       -800
+
+2021/06/09 ingles cami
+    expenses:cami:extras           $3000
+    assets:caja                   $-3000
+
+2021/06/09 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/06/09 saco reservas
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/06/09 prestamo romi
+    assets:deudas romi           15000
+    assets:caja                 -15000
+
+2021/06/09 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2021/06/11 odontologo
+    expenses:gastos medicos:odontologia            5500
+    assets:caja                                   -5500
+
+2021/06/11 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/06/12 ingreso
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/06/12 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/06/12 lomitos
+    expenses:comida           $1300
+    assets:caja              $-1300
+
+2021/06/12 pollos
+    expenses:comida             750
+    assets:caja                -750
+
+2021/06/12 lapicero
+    expenses:personal:varios             500
+    assets:caja                         -500
+
+2021/06/12 sanwiches
+    expenses:comida            1110
+    assets:caja               -1110
+
+2021/06/14 mesada ih
+    expenses:isabel           $1500
+    assets:caja              $-1500
+
+2021/06/14 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/06/14 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/06/15 prestamo romi
+    assets:deudas romi            2000
+    assets:caja                  -2000
+
+2021/06/15 comida
+    expenses:comida            1200
+    assets:caja               -1200
