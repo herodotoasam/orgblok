@@ -73,3 +73,7 @@ PIN 7253
 * kamatera 
 inicio hfj024 por chrome
 server rxcba - Ataraxia76cordoba
+* moodle
+admin/ Ataraxia76*
+* ospe
+Ataraxia76.

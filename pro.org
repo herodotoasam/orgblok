@@ -468,6 +468,7 @@ GRANT ALL PRIVILEGES ON hero.* to hero;
 mejor opcion mas general y con super:
 CREATE USER '{{ username }}'@'%' IDENTIFIED BY '{{ password }}';
 GRANT ALL PRIVILEGES ON *.* TO '{{ username }}'@'%' WITH GRANT OPTION;
+ALTER USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
 
 FLUSH PRIVILEGES;
 exit;
@@ -2835,7 +2836,42 @@ primer mm hecho luego de la obra sobre array
     correccion de errores varios. 
 *** [2021-06-15 Tue] 
     hoy termine modulo seven y corregi bug en el pasado de pagos pq el
-    dump no contenia la funcion pq la sacaba sin --routines 
+    dump no contenia la funcion pq la sacaba sin --routines
+*** [2021-06-16 Wed] 
+    hoy me dedique a poner en funcionamiento el segundo vps oracle y
+    montar un servidor express con mysql y que sirva una miniapp con pm2
+*** [2021-06-17 Thu]
+    hoy hice arreglos menores de pulimiento en distintos lugares de la
+    aplicacion.
+    Creo que faltaria empezar la prueba en paralelo.
+*** [2021-06-18 Fri]
+    hoy inicialice moodle en un servidor, una tarea no facil que me
+    llevo mas de medio dia. 
+    y en el otro medio dia comence con tailwind y creo que enganche.
+*** [2021-06-19 Sat]
+    hoy empiezo con tips de salud paralelos a informes de actividad:
+    investigaciones sobre un framework css, llegue a la conclusion
+    luego de perder un poco de tiempo y descartar tailwind por
+    complejo y muy demandante de tiempo, por bulma. Incluso encontre
+    un articulo que expresamente decia eso que para proyectos chicos o
+    grandes pero sin tanto tiempo que dedicar es mejor bulma.
+**** salud
+***** licuado desayuno-merienda
+***** mijo-manzana por la noche o sopa avena
+***** movimiento cada 30minutos
+*** [2021-06-20 Sun]
+    aprendi sass, aprendi customize bulma con sass, logre solucionar
+    el problema del link de archivos en express, y el
+    collapsible(acordeon). 
+    La idea es seguir con bulma para manejar el marco con mas soltura
+*** [2021-06-21 Mon] 
+    mas de lo mismo. 
+*** [2021-06-22 Tue]
+    hoy hice un framework css propio con grid, container responsives,
+    y table responsive, y me funciona mejor que los marcos que he
+    trabajado hasta ahora.
+*** [2021-06-23 Wed]
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3867,6 +3903,7 @@ timido comienzo muy debil en estudio de js.
    aprendizaje estos dias. 
 ** semana [2021-06-06 Sun]                                           :mysql:
 ** semana [2021-06-13 Sun]                          :mysql:Alpine:Javascript:
+** semana [2021-06-20 Sun]                                            :Bulma:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
