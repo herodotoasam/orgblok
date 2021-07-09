@@ -2871,7 +2871,186 @@ primer mm hecho luego de la obra sobre array
     y table responsive, y me funciona mejor que los marcos que he
     trabajado hasta ahora.
 *** [2021-06-23 Wed]
-    
+    siguiendo con lo de ayer, potencie el manejo de grid con un gran
+    ejemplo que me ocupo mas de una hora haciendolo con flex con gran
+    complicacion y luego volvi con grid y lo hice en 2 minutos, solo
+    habia que encerrar la tabla y su titulo en un div. 
+    Hice el toast!!! propio.
+**** informe salud:
+     gran dolor de cervical y de espalda. Y creo que la molestia que
+     siento en el corazon es por gases.
+*** [2021-06-24 Thu]
+    hoy desarrolle un autocomplete propio
+*** [2021-06-25 Fri]
+    hice el esquema para escribir el css con sass y generar el css
+    minificado para usar en mis proyectos.
+*** [2021-06-26 Sat]
+    pruebas e intentos fallidos de imprimir en js. Se puede instalar
+    perfecto los modulos pero es muy complejo hacer la ficha que
+    necesitamos
+    Pienso que el backend con python tiene las ventajas de la
+    impresion y de pandas y que se podria tener el frontend de igual manera
+*** [2021-06-27 Sun]
+    decido hacer un stack: flask-alpine-css y pruebo pasar el
+    desarrollo de buscar que estaba en node a este stack y lo hago
+    rapidamente sin problemas. Actualizo forma de tratar con pymysql
+    con forma dict y mediante una clase.
+*** [2021-06-28 Mon] 
+    dia aciago, ayer con problemas de diseño con los dialogos de login
+    y signup y esta mañana comienzo bien en poco tiempo rediseño bien
+    logrando un pasable y armonioso diseño, pero no me anda el sistema
+    ni para atras ni para adelante sin ningun mensaje de error, ni una
+    pista por donde seguir.
+    Cansado a ciertas horas perdidas, decido explorar pyramid, pero me
+    entierro en el fango a poco de andar y abandono tambien.
+    terminando con lo aciago del dia, le dedique un buen y largo rato
+    a depurar el problema en flask y no consegui resolverlo, entonces
+    quise largarme a fastapi y querer adaptar lo hecho sin leer
+    documentacion lo cual es decepcionante.
+*** [2021-06-29 Tue]
+    medio dia dedicado a incursionar en scarlette y en fastapi,
+    chocando con la complejidad y en especial con el problema de la
+    falta de jsonify para pasar un list en forma comoda. 
+    Decepcionado finalmente vuelvo a probar flask y a mirar de cerca
+    el problema, buscando encuentro que el problema estaria en la
+    funcion login.user_loader, que segun el print que yo tenia no se
+    usaba, puse un print en la que andaba bien y efectivamente se usa,
+    entonces puse un print en el except de mi funcion y ahi marcaba
+    que pasaba por ahi. Entonces reviso el codigo y con el primer
+    print me doy que una fstring estaba mal escrita le faltaba el f,
+    entonces la consulta nunca se ejecutaba bien. O sea todo el
+    problema de un dia y medio de perdida de tiempo se limito a una
+    letra f. 
+*** [2021-06-30 Wed]
+    practico el montaje y desmontaje de apache en el vps mixto
+    moodle/rx pero no puedo iniciar moodle, solo puedo sacar y volver
+    a poner rx.
+    hoy fue un dia muy prolifico en el avance del modulo buscar,
+    termine los botones y logre como gran avance la edicion del pmovto
+    y de los datos en general con ventanas modales que logre de mi
+    propia factura con una minima inspiracion en un par de videos,
+    solamente con los conocimientos de flex. Y logre la adaptacion y
+    funcionamiento de mi propio autocomplete. Si logramos buenas cosas
+    con flex, pienso que con grid conociendolo a fondo se podrian
+    hacer cosas muy interesantes.
+** 2021-Julio
+*** [2021-07-01 Thu]
+    dia totalmente perdido. Muchos papeles pasados y sin tareas
+    concretas para realizar. No hay un panorama claro de como seguir
+    adelante con el proyecto.
+*** [2021-07-02 Fri]
+ dia muy fructifero en productividad comenzando a la mañana con un
+ curso sobre position css que fue alli mismo aplicado para posisionar
+ la x de cierre de los modales. Se va aprendiendo mucho con la
+ practica de todos los dias.
+**** DONE ver ventas/articulos
+**** DONE ver comentarios
+**** DONE ver anteriores domicilios
+**** DONE plan de pagos como modal
+**** DONE comentarios como modal
+**** DONE wa.me
+*** [2021-07-03 Sat]
+**** DONE en edicion pasar a logcambiodomicilio
+**** TODO devolucion como modal
+     pienso que devoluciones tiene que estar dentro de ventas no de
+     buscador pq es una funcion de ventas ->devolucion de una venta.
+     y amerita una pagina separada.
+**** TODO ventas - pasarventas
+     puede ser con grid areas
+***** DONE maquetacion del grid responsive
+      en desktop se hace con el ancho prefijado de los input en un
+      contenedor columns que es el row de boostrap en el cual ponemos
+      los anchos para dibujar el form. El cambio responsive lo hacemos
+      con el cambio a una sola columna y modificando el ancho de los
+      input al 100%. No olvidar ponerle al contenedor general un
+      margen derecho e izquierdo para que se refleje en mobile.
+***** DONE validaciones 
+***** DONE ruta crear/editar cliente segun idcliente
+      acorte un monton de camino por medio de usar un objeto Cliente
+      que agrupe todos los campos del cliente, en vez de usar todas
+      las variables sueltas, y tambien ahorro una consulta al servidor
+      pq abrircliente solo saca los datos de la primera consulta.
+***** TODO pasado de venta
+*** [2021-07-04 Sun]
+    Relativo descanso dominical, y reflexion sobre lo que podemos
+    llegar a emprender de ahora en mas en adelante. La idea es una
+    idea recurrente en el pasado, o sea el dedicarse a una sola cosa
+    por vez. En primer instancia python, luego javascript, luego css y
+    asi porque estoy repitiendo la misma web, si bien es cierto que
+    esta mejor, pq es responsive, en realidad no todas las paginas
+    tendrian que ser responsives. 
+    1hs-generadores/web scrape inicio con requests que me permitio ver
+    la vulnerabilidad de los vps-oracle.
+*** [2021-07-05 Mon] 
+    dia perdido desde el punto de vista del estudio pq estuve en el
+    hospital por la Cami, y el resto del dia estuve preocupado por su
+    salud. 
+    El debate estuvo entre hacer un buscar.html responsive con bulma
+    dentro de romitex.xyz o en seguir con el proyecto en el stack
+    alpine-css-flask pero tener que programar todo de nuevo. 
+    En el aprendizaje de python pase por tic-tac-toe entendiendo
+    bastante bien el funcionamiento del programa.
+*** [2021-07-06 Tue]
+    hoy tengo un dia similar en cuanto a perdida de tiempo por
+    factores diversos, pq por tener que ir a comprar la compra
+    bimensual a tadicor y luego el almuerzo y luego la sentada al sol,
+    se hicieron las 15hs sin nada en la maquina, solo haber pasado los
+    papeles de romitex.
+    El debate continua.
+    Lo que se que no creo que sea buena idea hacer un sistema de
+    estudio unico de python sin resolver primero el tema del sistema
+    de romitex.
+    pq me deja sin nada productivo como respuesta a todo el tiempo
+    invertido. Y la idea es tener algo bien hecho como base. 
+    Felizmente luego de varios intentos y cuando ya casi ni pensaba
+    que algo podria ser descubierto como falla basica del sistema,
+    encuentro el error, y estaba en los <meta> del html basico que
+    definen el viewport y establecen el ancho al ancho del device.
+    Eso era, inadvertidamente en el fl6 lo tenia seteado y yo pensaba
+    que era por el container-sm que tenia y nada que ver.
+    Con esto tengo casi terminado el proyecto, pq solo tengo que
+    afinar detalles sobre lo que ya esta hecho sin tener que cambiar
+    nada espectacular. 
+    Incluso podria ensayar una fusion de un marco que podria ser bulma
+    con algunos desarrollos que hice yo como el modal.
+    Quedaria tratar de corregir en lo posible el buscador.html que
+    hay, hacer otro con alpine/bulma/css lo cual no seria dificil ya
+    que basicamente seria trasladar lo que tenemos en fl5 y adaptarle
+    las clases de bulma.
+    Otra cosa hecha en el dia fue la coneccion a mysql en remoto, lo
+    cual me permitiria tener una aplicacion de escritorio trabajando
+    con remoto. Lo cual seria muy interesante a la hora de dividir las
+    tareas, visualizacion de datos en la web y escritorio para el
+    pasado de datos.
+*** [2021-07-07 Wed] 
+    logre la conexion de datos con mysql-python con el conector
+    oficial, no con pymysql. 
+    Ahora queda empezar a fabricar un cliente python-tkinter para
+    pasar recibos/pasarventas etc. Por el momento vamos a pensar en un
+    cliente de prueba para ver si logramos algo mas ergonomico que lo
+    logrado en la web.
+    Y de paso repasar los conocimientos de tkinter y practicar python.
+    Pensaba destinar una hora por dia a repasar o mejorar el sistema
+    romitex.xyz para no perder practica.
+    Bueno la hora se hizo larga, y se hicieron casi tres, pero creo
+    que hubo un gran avance en al aprovechamiento del codigo
+    desarrollado y los conocimientos ya tenidos y mezclando con bulma.
+    mejoras: el fetch con dictionary, el buscarpordni por filter de la
+    lista previamente fetcheada, el uso de un objeto para no usar las
+    variables sueltas, el uso de la class grid-buscar para el
+    encabezado buscar. 
+*** [2021-07-08 Thu]
+    avance lento pero parejo en el trabajo sucio de trasladar el
+    codigo de lo hecho en fl6 con buscar.html aca con bulma, pero va
+    quedando, creo que en un par de dias tengo el buscador listo y con
+    eso la pagina funcional.
+    si bien es cierto que me atrae la idea de tener un cliente noweb
+    de escritorio para comunicarme con la base, no lo veo facil de
+    desarrollar ni rapido pq estoy muy olvidado de esas tecnologias. 
+    Es que estoy pasando por un bache, por un punto de meseta de
+    cansancio en general y no encuentro algo que canalice el esfuerzo
+    diario.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3903,7 +4082,33 @@ timido comienzo muy debil en estudio de js.
    aprendizaje estos dias. 
 ** semana [2021-06-06 Sun]                                           :mysql:
 ** semana [2021-06-13 Sun]                          :mysql:Alpine:Javascript:
-** semana [2021-06-20 Sun]                                            :Bulma:
+** semana [2021-06-20 Sun]                                 :Bulma:CSS:NodeJs:
+** semana [2021-06-27 Sun]                                 :Flask:Alpine:CSS:
+** semana [2021-07-04 Sun]                                           :Python:
+   en este momento me planteo la cuestion de como seguir
+   avanzando. Una idea es el monotema, es decir suspender el
+   desarrollo, o sea intentar meter el responsive en el romitex.xyz y
+   dar por terminado el desarrollo. Y dedicarme a la capacitacion,
+   empezando por python, en una forma monotema, o sea todo el dia con
+   lo mismo, con un tema alternativo de respaldo que no tenga nada que
+   ver con ese (como por ejemplo redes). 
+   una consideracion puede ser la necesidad del sistema por si fede
+   sale a la calle??. Suponiendo que eso ocurra en agosto, hay dos
+   posibilidades: una que use tcl, otra el buscador de 152... con la
+   base de datos actualizada.
+   otra consideracion es el desmotivarse, o no engancharse. la idea es
+   hacerlo aislandose un poco con los auriculares con musica para
+   programar.
+   y tambien empezar en cualquier tema, no llevando un orden, para no
+   aburrirse y poder empezar a programar cosas para ir practicando en
+   otras cosas que no sea siempre lo mismo. 
+   [2021-07-06 Tue] llego a la conclusion de que no puedo hacerlo sin
+   tener el sistema terminado. Por eso primero tengo que terminar el
+   sistema con un buscar responsive. Ya sea en bulma o terminar de
+   pasar todo en fl6. PD: se soluciono el problema y deja la
+   adaptacion restante como una tarea menor. Via libre para seguir
+   estudiando.
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

@@ -33,3 +33,9 @@ f"Hello,{name}.You are {age}"
 misteriosamente no funciona en esa tab cuando todo parece indicar que
 tendria que andar bien.
 ** 
+* Nueva teoria
+** any()
+    La funcion any() retorna True si algun (any) item en el iterable
+    es true, de otra forma retorna False.
+    not any() significaria que todos los elementos del iterable son
+    False, pq si uno fuese True el any() diera True.
