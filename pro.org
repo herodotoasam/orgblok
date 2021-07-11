@@ -3050,7 +3050,29 @@ primer mm hecho luego de la obra sobre array
     Es que estoy pasando por un bache, por un punto de meseta de
     cansancio en general y no encuentro algo que canalice el esfuerzo
     diario.
-
+*** [2021-07-09 Fri]
+    termine todos los botones, me falta las tablas. Instale uma 20.02
+    en la amd8gb para tenerla preparada para el modem claro, pero
+    todavia estoy en dudas, pero fue un ejercicio de instalacion, la
+    cual se hizo sin ningun problema. 
+    Hoy termine el modulo buscar solo falta corregir algun detalle
+    menor y en realidad esta mejor que lo que estaba en fl6 pq usa la
+    experiencia que en fl6 recien consegui en ventas.html.
+**** anotacion fisica:
+     aparte de seguir con el licuado a rajatabla, agregar tres cositas
+     que tengo y que podria aprovechar sin tener que comprar nada: el
+     prensamanos, la cintaelastica, y la bici. un rato por dia para
+     dar tono. No hay que salir de la casa ni comprometer grandes
+     horarios.
+*** [2021-07-10 Sat]
+    En realidad no llevo un año estudiando sino 6 meses: mayo, junio,
+    julio y agosto del 2020, y mayo, junio del 2021 y he logrado
+    cierto nivel de avance en los conocimientos, pienso que si hubiera
+    avanzado parejo todo el año sabria el doble. Estaria en otro
+    nivel. Pero bueno, lo positivo es que se avanzo en el ultimo
+    tiempo desde la implementacion de flask, luego vue, que fue
+    desplazado por alpinejs.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4275,6 +4297,7 @@ bien hasta ahora.
    desenchufo el usb y lo vuelvo a enchufar y se reinstala de nuevo y
    esa anda, luego borro la primera y dejo la segunda como default.
 ** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
+** [2021-07-09 Fri] instalacion de uma 20.02 cinnamon en amd8gb
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.

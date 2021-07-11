@@ -62,7 +62,7 @@ alias cj='hl r assets:caja' en .bashrc ambos
 ** tcl
 *** en apt
 sqlite3 libsqlite3-tcl tklib bwidget libtk-img tcllib
-tk8.6-dev tcl8.6-dev tcl8.6-tdbc tcl8.6-tdbc-sqlite3 libpgtcl
+tk8.6-dev tcl8.6-dev tcl8.6-tdbc tcl8.6-tdbc-sqlite3 mysqltcl
 *** en pacman
     sqlite3 sqlite3-tcl 
 *** en AUR
@@ -145,17 +145,33 @@ usb disk formatter
 *** entrar al psql de heroku
 psql -h ec2-3-95-87-221.compute-1.amazonaws.com -p 5432 -d daq6n3vvmrg79o -U ynpqvlqqsidhga  -f lite5.sql
 ** LAMP
-instalar apache
-sudo apt install apache2
-sudo ufw app list
-sudo ufw app info "Apache Full"
-sudo ufw allow in "Apache Full"
-localhost    para ver si funciona apache
+*** instalar apache
+ sudo apt install apache2
+ sudo ufw app list
+ sudo ufw app info "Apache Full"
+ sudo ufw allow in "Apache Full"
+ localhost    para ver si funciona apache
 
-instalar mysql
+ instalar mysql
+*** instalar mysql
+    sudo mysql; (como root)
+CREATE DATABASE hero;
+CREATE USER 'hero' IDENTIFIED BY 'ata';
+GRANT ALL PRIVILEGES ON hero.* to hero;
 
-instalar php
-sudo apt install php libapache2-mod-php php-mysql
+mejor opcion mas general y con super:
+CREATE USER '{{ username }}'@'%' IDENTIFIED BY '{{ password }}';
+GRANT ALL PRIVILEGES ON *.* TO '{{ username }}'@'%' WITH GRANT OPTION;
+ALTER USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+FLUSH PRIVILEGES;
+exit;
+
+entro como
+mysql -p
+y pongo la password
+*** instalar php
+ sudo apt install php libapache2-mod-php php-mysql
 
 ** instalar myphpadmin
    OJO PRIMERO LAMP

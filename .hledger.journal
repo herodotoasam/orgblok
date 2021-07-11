@@ -6241,6 +6241,39 @@ D $1000.00
     expenses:comida            6500
     assets:caja               -6500
 
-2021/07/09 ih mesada extra
-    expenses:isabel            2000
-    assets:caja               -2000
+
+2021/07/05 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/07/05 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/07/09 dif
+    expenses:diferencia arqueo            1030
+    assets:caja                          -1030
+
+2021/07/10 comida
+    expenses:comida             820
+    assets:caja                -820
+
+2021/07/11 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2021/07/10 comida
+    expenses:comida            1200
+    assets:caja               -1200
+
+2021/07/09 lomitos
+    expenses:comida            1110
+    assets:caja               -1110
+
+2021/07/09 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/07/09 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
