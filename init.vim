@@ -23,12 +23,14 @@ Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
 Plugin 'jceb/vim-orgmode'
+Plugin 'jnurmine/Zenburn'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme zenburn
 nnoremap j gj
 nnoremap k gk
 inoremap jk <esc>
@@ -96,7 +98,7 @@ set nocompatible
 set modelines=0
 
 "folding
-set foldmethod=indent
+"set foldmethod=indent
 nnoremap <space> za
 vnoremap <space> zf
 
@@ -134,3 +136,10 @@ let g:user_emmet_leader_key = ','
 
 inoremap <C-f> <C-R>=strftime('[%F %a]')<cr>
 map <C-f> :put =strftime('[%F %a]')<cr>
+
+" para jedi
+let g:jedi#use_splits_not_buffers = "bottom"
+
+" run python script con F9
+autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>

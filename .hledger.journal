@@ -6277,3 +6277,75 @@ D $1000.00
 2021/07/09 saco reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2021/07/12 ih mesada
+    expenses:isabel            2500
+    assets:caja               -2500
+
+2021/07/13 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/07/13 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/07/13 odontologo
+    expenses:gastos medicos:odontologia           10000
+    assets:caja                                  -10000
+
+2021/07/13 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/07/13 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/07/13 cami tarjeta
+    expenses:cami:extras            3340
+    assets:caja                    -3340
+
+2021/07/13 pan
+    expenses:comida             300
+    assets:caja                -300
+
+2021/07/13 dif
+    expenses:diferencia arqueo              60
+    assets:caja                            -60
+
+2021/07/14 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2021/07/14 comida
+    expenses:comida            2000
+    assets:caja               -2000
+
+2021/07/14 ingresos
+    assets:reserva                  $20000
+    income:retiro sociedad         $-20000
+
+2021/07/14 saco reserva
+    assets:caja             $20000
+    assets:reserva         $-20000
+
+2021/07/14 prestamo romi
+    assets:deudas romi           15000
+    assets:caja                 -15000
+
+2021/07/15 psicologa cami
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/07/16 comida
+    expenses:comida            4500
+    assets:caja               -4500
+
+2021/07/18 taxi cami
+    expenses:cami:extras             200
+    assets:caja                     -200
+
+2021/07/18 cami merienda
+    expenses:cami:extras             600
+    assets:caja                     -600

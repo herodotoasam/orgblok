@@ -170,6 +170,18 @@ exit;
 entro como
 mysql -p
 y pongo la password
+**** crear usuario SSL_USER para cada ip en particular. (es independiente de las rules del fw)
+    CREATE USER ‘SSL_USER’@'<SSLServer2_IP>’ IDENTIFIED BY ‘password’ REQUIRE SSL;
+
+After we have created the user, let’s gave him all permissions to access all remote MySQL databases.
+
+Execute the following command:
+
+GRANT ALL ON *.* TO ‘SSL_USER’@'<SSLServer2_IP>’;
+
+To apply these settings immediately, execute the following:
+
+FLUSH PRIVILEGES; 
 *** instalar php
  sudo apt install php libapache2-mod-php php-mysql
 
