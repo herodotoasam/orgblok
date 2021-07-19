@@ -11,6 +11,9 @@ ataraxia76
 
 ** crear clave ssh en gitlab segun instrucciones
 ** emacs
+*** Nuevo nuevo Emacs
+    instalar fuente firacode y Cantarell
+    [[https://github.com/daviwil/emacs-from-scratch/blob/dd9320769f3041ac1edca139496f14abe147d010/Emacs.org#python][github del init.el nuevo]]
 *** Nuevo Emacs
 **** crear un ln -s a init.el de orgblok
 ln -s ~/orgblok/init.el ~/.emacs.d/init.el
