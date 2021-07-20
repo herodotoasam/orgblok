@@ -6349,3 +6349,31 @@ D $1000.00
 2021/07/18 cami merienda
     expenses:cami:extras             600
     assets:caja                     -600
+
+2021/07/20 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/07/20 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/07/20 odontologo
+    expenses:gastos medicos:odontologia            5000
+    assets:caja                                   -5000
+
+2021/07/20 facturas
+    expenses:comida             290
+    assets:caja                -290
+
+2021/07/20 mesada ih
+    expenses:isabel            1500
+    assets:caja               -1500
+
+2021/07/20 gatos
+    expenses:comida:gatos            1300
+    assets:caja                     -1300
+
+2021/07/20 farmacia hospital italiano
+    expenses:gastos medicos:farmacia            5260
+    assets:caja                                -5260

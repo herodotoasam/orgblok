@@ -36,6 +36,8 @@
 
 (column-number-mode)
 (global-display-line-numbers-mode t)
+(smartparens-global-mode t)
+(paren-activate)  
 
 ;; Set frame transparency
 (set-frame-parameter (selected-frame) 'alpha efs/frame-transparency)
@@ -197,6 +199,101 @@
 (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
 (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
+(fset 'yes-or-no-p 'y-or-n-p)
+
+
+;; Duplicate line
+(defun duplicate-line (arg)
+  "Duplicate current line, leaving point in lower line."
+  (interactive "*p")
+
+  ;; save the point for undo
+  (setq buffer-undo-list (cons (point) buffer-undo-list))
+
+  ;; local variables for start and end of line
+  (let ((bol (save-excursion (beginning-of-line) (point)))
+        eol)
+    (save-excursion
+
+      ;; don't use forward-line for this, because you would have
+      ;; to check whether you are at the end of the buffer
+      (end-of-line)
+      (setq eol (point))
+
+      ;; store the line and disable the recording of undo information
+      (let ((line (buffer-substring bol eol))
+            (buffer-undo-list t)
+            (count arg))
+        ;; insert the line arg times
+        (while (> count 0)
+          (newline)         ;; because there is no newline in 'line'
+          (insert line)
+          (setq count (1- count)))
+        )
+
+      ;; create the undo information
+      (setq buffer-undo-list (cons (cons eol (point)) buffer-undo-list)))
+    ) ; end-of-let
+
+  ;; put the point in the lowest line and return
+  (next-line arg))
+
+(global-set-key (kbd "C-S-d") 'duplicate-line)
+
+(defun move-line (n)
+  "Move the current line up or down by N lines."
+  (interactive "p")
+  (setq col (current-column))
+  (beginning-of-line) (setq start (point))
+  (end-of-line) (forward-char) (setq end (point))
+  (let ((line-text (delete-and-extract-region start end)))
+    (forward-line n)
+    (insert line-text)
+    ;; restore point to original column in moved line
+    (forward-line -1)
+    (forward-char col)))
+
+(defun move-line-up (n)
+  "Move the current line up by N lines."
+  (interactive "p")
+  (move-line (if (null n) -1 (- n))))
+
+(defun move-line-down (n)
+  "Move the current line down by N lines."
+  (interactive "p")
+  (move-line (if (null n) 1 n)))
+
+(global-set-key (kbd "M-<up>") 'move-line-up)
+(global-set-key (kbd "M-<down>") 'move-line-down)
+
+(desktop-save-mode 1)
+(recentf-mode 1)
+(setq recentf-max-menu-items 25)
+
+(autoload 'tcl-mode "tcl" "Tcl mode." t)
+(add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+
+(use-package evil-nerd-commenter
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
+
+(use-package magit
+  :custom
+  (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
+
+;; NOTE: Make sure to configure a GitHub token before using this package!
+;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
+;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
+(use-package forge)
+
+
+
+(autoload 'web-mode "web" "HTML+." t)
+(add-hook 'web-mode-hook (lambda () (emmet-mode)))
+(add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
+(add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
+
+(global-set-key [f3] 'neotree-toggle)
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (custom-set-variables
@@ -206,7 +303,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))))
+    (all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -3257,6 +3257,19 @@ primer mm hecho luego de la obra sobre array
     instante el script, instale projectile que hace busquedas por ag
     en toda la carpeta eficientemente. Pero es mucho tiempo perdido
     creo que algo muy freaky como siempre.
+    ya logre el funcionamiento optimo para python, y el hook de
+    tcl. Faltaria el tema web y js.
+    No puedo parar... Ya logre emmet en web, pero me faltan las otras
+    cosas como el autocompletado, y otras cosas mas, pero por ahora
+    dejo, ha sido fascinante. No se que atraccion ejercen estos
+    mostros del pasado que te hacen olvidar de todo y te pones y
+    dedicas a eso nomas.
+    Ya hubo una guerra de editores que duro una semana el año pasado y
+    al final todo el año use visual code. 
+*** [2021-07-20 Tue]
+    ayer fue un dia totalmente destinado a emacs, hoy retomo el camino supuestamente.
+    bien el registro aparte que llevo con el estudio profundo, se me
+    pasa volando el tiempo. El metodo es bueno.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4335,7 +4348,7 @@ puesta a punto
 *** busqueda en buffer con Cx b
 a traves de ido en forma facil y rapida
 *** Cx s
-para ver que buffers necesitan ser
+    para ver que buffers necesitan ser
 salvados en un momento dado.
 *** arregle el problema de los linum en orghook
 y de python venv que causaban

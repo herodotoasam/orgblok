@@ -1,0 +1,22 @@
+* agenda estudio
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2021-07-20 Tue 12:52]
+| Headline             | Time   |      |
+|----------------------+--------+------|
+| *Total time*         | *1:13* |      |
+|----------------------+--------+------|
+| agenda estudio       | 1:13   |      |
+| \_  [2021-07-20 Tue] |        | 1:13 |
+#+END:
+
+** [2021-07-20 Tue]
+*** bash - test/if/arrays/for
+    :LOGBOOK:
+    CLOCK: [2021-07-20 Tue 12:24]--[2021-07-20 Tue 12:52] =>  0:28
+    CLOCK: [2021-07-20 Tue 11:28]--[2021-07-20 Tue 12:13] =>  0:45
+    :END:
+*** python 
+    :LOGBOOK:
+    CLOCK: [2021-07-20 Tue 15:11]
+    CLOCK: [2021-07-20 Tue 14:08]--[2021-07-20 Tue 14:50] =>  0:42
+    :END:
