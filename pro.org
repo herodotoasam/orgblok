@@ -3270,6 +3270,47 @@ primer mm hecho luego de la obra sobre array
     ayer fue un dia totalmente destinado a emacs, hoy retomo el camino supuestamente.
     bien el registro aparte que llevo con el estudio profundo, se me
     pasa volando el tiempo. El metodo es bueno.
+    una prueba de una hora bastante dificil de reemplazar un modal en
+    un html hecho enteramente el flujo de trabajo en emacs y fue muy
+    satisfactorio. Lo unico que podria echar de menos fue el
+    autocompletado en css. Perdido una hora mas en incorporar el
+    web-mode, pero no tenemos aun un autocompletado para css
+    inteligente, lo cual no es gran cosa pq no es mucho lo que se
+    programa en css. 
+*** [2021-07-21 Wed]
+    anoche pensaba que podria finalmente dejar de lado bash por el
+    momento y concentrarme en python, o sino concentrarme en bash
+    unicamente pero no en los dos pq se hace muy distractivo y es muy
+    poco lo que se avanza. 
+    tambien se podria plantear el abandonar de una el estudio de
+    ambos, pero ahi pienso que esta la falla. O sea en el hacer un
+    proyecto de una. De todos modos pienso que la adquisicion de
+    conocimientos debe llevar consigo la paciencia. La impaciencia y
+    la desesperacion no conducen a nada. Y uno debe querer algo, o sea
+    debe querer tener esos conocimientos. 
+    He notado que estoy trabado. 
+    Momentaneamente estoy trabado. No quiero que me pase como me
+    pasaba en años anteriores de cabaña o sea que pierdo el tiempo por
+    no dedicarme plenamente al momento presente. 
+    Ahora estoy en una situacion en la cual no trabajo en la calle, y
+    no hay posibilidad de hacerlo y eso me deja tiempo para estudiar
+    pero no siempre se aprovecha cien por ciento el tiempo por
+    diversas razones de todo tipo. 
+    Al final me aferro a seguir como sea con python, y mediante el
+    control horario en pr.org para dar mas certeza de cuanto estamos
+    efectivamente en eso. El resto vendra solo.
+    Estoy probando emacs puro para ver como anda. Sin evil digo. Una
+    prueba veremos como se comporta, en especial quiero ver los
+    problemas con undo/redo. Y yank.
+    Hoy hice 3.30hs de python que creo que no se notaron para nada,
+    pero en el fondo se aprende, pero me gustaria aprender mas, sera
+    que estoy equivocando la herramienta?. Hay muchos conceptos que he
+    ido aprendiendo de este libro y solo llevo dos capitulos y me he
+    salteado un par de recipes. Pienso que se puede llegar a poner mas
+    interesante mas adelante. 
+    Hoy tendria que haber sido un dia optimo, solo tuve que ir al
+    banco y por lo demas no hice nada de nada. Pero parece que en
+    otros dias en los que esta uno mas ocupado tiene mayor exito.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4333,7 +4374,7 @@ timido comienzo muy debil en estudio de js.
    de llegar mas profundo en lo que tenemos que hacer.
    pienso que agregar mas horas de estudio pueden agregar conocimiento
    siempre que sean efectivas 
-** semana [2021-07-18 Sun]                              :python:english:bash:
+** semana [2021-07-18 Sun]                             :python:english:emacs:
    Por lo menos la semana pasada rellene bien los tiempos con
    intervalos de estudio bastante frecuentes y descubri algunos
    metodos que por el momento son convenientes como p.e. la lectura de
@@ -5401,6 +5442,13 @@ logre hacer la cuarta instalacion en oracle con sudo, pero siguiendo
 las instrucciones de iptables para la instalacion de apache
 primero. luego lo normal, solo que el pip3 install hay que hacerlo con
 sudo. El resto todo igual y bien.
+** dumpeado de la base y resubida 
+   mysqldump -u hero -p hero > dump.sql
+   
+   mysql -u hero -p hero < dump.sql
+   
+   de este modo actualizo la base de datos sin tener que borrarla y
+   volver a crearla, y como no borro la tabla users no borro los usuarios.
 * agenda ingles
 ** vocabulary
 1. polite-impolite-politeness (educado/descortes)

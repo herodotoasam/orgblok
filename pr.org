@@ -1,12 +1,16 @@
 * agenda estudio
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-07-20 Tue 12:52]
-| Headline             | Time   |      |
+#+CAPTION: Clock summary at [2021-07-21 Wed 18:55]
+| Headline             |   Time |      |
 |----------------------+--------+------|
-| *Total time*         | *1:13* |      |
+| *Total time*         | *9:47* |      |
 |----------------------+--------+------|
-| agenda estudio       | 1:13   |      |
-| \_  [2021-07-20 Tue] |        | 1:13 |
+| agenda estudio       |   7:54 |      |
+| \_  [2021-07-20 Tue] |        | 4:23 |
+| \_  [2021-07-21 Wed] |        | 3:31 |
+| agenda programacion  |   1:53 |      |
+| \_  [2021-07-20 Tue] |        | 0:57 |
+| \_  [2021-07-21 Wed] |        | 0:56 |
 #+END:
 
 ** [2021-07-20 Tue]
@@ -17,6 +21,35 @@
     :END:
 *** python 
     :LOGBOOK:
-    CLOCK: [2021-07-20 Tue 15:11]
+    CLOCK: [2021-07-20 Tue 17:34]--[2021-07-20 Tue 18:40] =>  1:06
     CLOCK: [2021-07-20 Tue 14:08]--[2021-07-20 Tue 14:50] =>  0:42
     :END:
+*** bash challenger
+    :LOGBOOK:
+    CLOCK: [2021-07-20 Tue 18:51]--[2021-07-20 Tue 20:13] =>  1:22
+    :END:
+** [2021-07-21 Wed]
+   :LOGBOOK:
+   CLOCK: [2021-07-21 Wed 17:35]--[2021-07-21 Wed 18:53] =>  1:18
+   CLOCK: [2021-07-21 Wed 13:50]--[2021-07-21 Wed 14:39] =>  0:49
+   CLOCK: [2021-07-21 Wed 11:17]--[2021-07-21 Wed 12:10] =>  0:53
+   CLOCK: [2021-07-21 Wed 11:02]--[2021-07-21 Wed 11:09] =>  0:07
+   CLOCK: [2021-07-21 Wed 10:26]--[2021-07-21 Wed 10:50] =>  0:24
+   :END:
+   
+* agenda programacion
+** [2021-07-20 Tue]
+*** poner modal de los nuevos en ventas/listado/editar
+    :LOGBOOK:
+    CLOCK: [2021-07-20 Tue 15:20]--[2021-07-20 Tue 16:17] =>  0:57
+    :END:
+    puse modal nuevo y subi a romitex.xyz y corregi el bug de la
+    transparencia en los modales del thead de las tablas que tenia
+    zindex 10. 
+** [2021-07-21 Wed]
+   :LOGBOOK:
+   CLOCK: [2021-07-21 Wed 15:45]--[2021-07-21 Wed 16:41] =>  0:56
+   :END:
+   subida de base de datos al dia a romitex.xyz y correccion de bug
+   que se presento que aparentemente no andaban los usuarios luego de
+   la configuracion de la base de datos.

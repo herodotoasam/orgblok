@@ -6377,3 +6377,67 @@ D $1000.00
 2021/07/20 farmacia hospital italiano
     expenses:gastos medicos:farmacia            5260
     assets:caja                                -5260
+
+2021/07/21 farmacia hospital italiano
+    expenses:gastos medicos:farmacia            1510
+    assets:caja                                -1510
+
+2021/07/21 ingreso
+    assets:reserva                   60000
+    income:retiro sociedad          -60000
+
+2021/07/21 saco reserva
+    assets:caja              60000
+    assets:reserva          -60000
+
+2021/07/21 ospe
+    expenses:servicios:OSPE          $28715
+    assets:caja                     $-28715
+
+2021/07/21 epec 06/2021
+    expenses:servicios:epec            4491
+    assets:caja                       -4491
+
+2021/07/21 claro
+    expenses:servicios:claro            2206
+    assets:caja                        -2206
+
+2021/07/21 dgr casa 2021/07-08
+    expenses:impuestos:casa:dgr            1964
+    assets:caja                           -1964
+
+2021/07/21 impuestos bora 2021/06-07
+    expenses:impuestos:bora           837.8
+    assets:caja                      -837.8
+
+2021/07/21 impuesto inmobiliario 2021/06-07
+    expenses:impuestos:casa:municipal         1309.32
+    assets:caja                              -1309.32
+
+2021/07/21 aguas cordobesas 06/2021
+    expenses:servicios:aguas cordobesas        13411.67
+    assets:caja                               -13411.67
+
+2021/07/21 ih
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/07/21 ingreso
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/07/21 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/07/21 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/07/21 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021/07/21 taxi cami
+    expenses:cami:extras             500
+    assets:caja                     -500
