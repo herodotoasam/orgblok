@@ -24,6 +24,7 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
 Plugin 'jceb/vim-orgmode'
 Plugin 'jnurmine/Zenburn'
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

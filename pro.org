@@ -3311,6 +3311,19 @@ primer mm hecho luego de la obra sobre array
     Hoy tendria que haber sido un dia optimo, solo tuve que ir al
     banco y por lo demas no hice nada de nada. Pero parece que en
     otros dias en los que esta uno mas ocupado tiene mayor exito.
+    La idea es dive into python. o sea lograr un mayor conocimiento
+    que se plasme en apuntes para luego repasar, pq sino tenemos que
+    hay temas que ya estan sabidos/aprendidos y los volvemos a
+    tocar. Y hay temas profundos a los cuales nunca llegamos.
+*** [2021-07-22 Thu]
+    para hoy tengo un proyecto real del negocio, que nace de una
+    necesidad real de informacion, asi que a ello.
+    Ya esta listo solo estoy trabado con un bug de subida del dump en
+    el servidor.
+    Esta sesion de programacion a sido una hard practice de emacs puro
+    y no esta mal, es cuestion de acostumbrarse para ser eficiente.
+    En la mitad de la programacion me agobie y me pase a neovim y me
+    senti muy comodo asi que voy a seguir probando.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

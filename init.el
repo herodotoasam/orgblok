@@ -64,18 +64,18 @@
 
 
 ;; Make ESC quit prompts
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+;; (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+     
+;; (use-package general
+;;   :config
+;;   (general-create-definer rune/leader-keys
+;;     :keymaps '(normal insert visual emacs)
+;;     :prefix "SPC"
+;;     :global-prefix "C-SPC")
 
-(use-package general
-  :config
-  (general-create-definer rune/leader-keys
-    :keymaps '(normal insert visual emacs)
-    :prefix "SPC"
-    :global-prefix "C-SPC")
-
-  (rune/leader-keys
-    "t"  '(:ignore t :which-key "toggles")
-    "tt" '(counsel-load-theme :which-key "choose theme")))
+;;   (rune/leader-keys
+;;     "t"  '(:ignore t :which-key "toggles")
+;;     "tt" '(counsel-load-theme :which-key "choose theme")))
 
 ;; (use-package evil
 ;;   :init
@@ -104,7 +104,7 @@
   :init (load-theme 'doom-dracula t))
 
 
-(use-package all-the-icons)
+;; (use-package all-the-icons)
 
 
 (use-package which-key

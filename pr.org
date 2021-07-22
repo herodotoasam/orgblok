@@ -1,18 +1,19 @@
-* agenda estudio
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-07-21 Wed 18:55]
-| Headline             |   Time |      |
-|----------------------+--------+------|
-| *Total time*         | *9:47* |      |
-|----------------------+--------+------|
-| agenda estudio       |   7:54 |      |
-| \_  [2021-07-20 Tue] |        | 4:23 |
-| \_  [2021-07-21 Wed] |        | 3:31 |
-| agenda programacion  |   1:53 |      |
-| \_  [2021-07-20 Tue] |        | 0:57 |
-| \_  [2021-07-21 Wed] |        | 0:56 |
+#+CAPTION: Clock summary at [2021-07-22 Thu 13:05]
+| Headline             |    Time |      |
+|----------------------+---------+------|
+| *Total time*         | *12:58* |      |
+|----------------------+---------+------|
+| agenda estudio       |    7:54 |      |
+| \_  [2021-07-20 Tue] |         | 4:23 |
+| \_  [2021-07-21 Wed] |         | 3:31 |
+| agenda programacion  |    5:04 |      |
+| \_  [2021-07-20 Tue] |         | 0:57 |
+| \_  [2021-07-21 Wed] |         | 0:56 |
+| \_  [2021-07-22 Thu] |         | 3:11 |
 #+END:
 
+* agenda estudio
 ** [2021-07-20 Tue]
 *** bash - test/if/arrays/for
     :LOGBOOK:
@@ -36,7 +37,6 @@
    CLOCK: [2021-07-21 Wed 11:02]--[2021-07-21 Wed 11:09] =>  0:07
    CLOCK: [2021-07-21 Wed 10:26]--[2021-07-21 Wed 10:50] =>  0:24
    :END:
-   
 * agenda programacion
 ** [2021-07-20 Tue]
 *** poner modal de los nuevos en ventas/listado/editar
@@ -53,3 +53,13 @@
    subida de base de datos al dia a romitex.xyz y correccion de bug
    que se presento que aparentemente no andaban los usuarios luego de
    la configuracion de la base de datos.
+** [2021-07-22 Thu]
+   :LOGBOOK:
+   CLOCK: [2021-07-22 Thu 15:01]--[2021-07-22 Thu 16:02] =>  1:01
+   CLOCK: [2021-07-22 Thu 09:51]--[2021-07-22 Thu 13:02] =>  3:11
+   :END:
+   tab de ventas/morosidad que calcula un campo en la tabla ventas de
+   las cuotas vencidas y le resta lo pagado, y eso lo pasa como
+   morosidad.
+   La ultima hora la pase con un filtro interesante hecho con js sobre
+   los datos ya levantados.
