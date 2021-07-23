@@ -6441,3 +6441,27 @@ D $1000.00
 2021/07/21 taxi cami
     expenses:cami:extras             500
     assets:caja                     -500
+
+2021/07/23 papel higienico
+    expenses:comida            1600
+    assets:caja               -1600
+
+2021/07/23 verdura
+    expenses:comida            1500
+    assets:caja               -1500
+
+2021/07/23 lavado auto
+    expenses:transporte:lavado            $400
+    assets:caja                          $-400
+
+2021/07/23 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2021/07/23 comida
+    expenses:comida             440
+    assets:caja                -440
+
+2021/07/23 comida
+    expenses:comida            1500
+    assets:caja               -1500

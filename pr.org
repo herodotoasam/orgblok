@@ -1,16 +1,17 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-07-22 Thu 13:05]
+#+CAPTION: Clock summary at [2021-07-23 Fri 17:53]
 | Headline             |    Time |      |
 |----------------------+---------+------|
-| *Total time*         | *12:58* |      |
+| *Total time*         | *17:45* |      |
 |----------------------+---------+------|
 | agenda estudio       |    7:54 |      |
 | \_  [2021-07-20 Tue] |         | 4:23 |
 | \_  [2021-07-21 Wed] |         | 3:31 |
-| agenda programacion  |    5:04 |      |
+| agenda programacion  |    9:51 |      |
 | \_  [2021-07-20 Tue] |         | 0:57 |
 | \_  [2021-07-21 Wed] |         | 0:56 |
-| \_  [2021-07-22 Thu] |         | 3:11 |
+| \_  [2021-07-22 Thu] |         | 4:12 |
+| \_  [2021-07-23 Fri] |         | 3:46 |
 #+END:
 
 * agenda estudio
@@ -63,3 +64,11 @@
    morosidad.
    La ultima hora la pase con un filtro interesante hecho con js sobre
    los datos ya levantados.
+** [2021-07-23 Fri]
+   :LOGBOOK:
+   CLOCK: [2021-07-23 Fri 17:22]--[2021-07-23 Fri 17:50] =>  0:28
+   CLOCK: [2021-07-23 Fri 14:44]--[2021-07-23 Fri 17:02] =>  2:18
+   CLOCK: [2021-07-23 Fri 09:09]--[2021-07-23 Fri 10:09] =>  1:00
+   :END:
+    se comenzo a desarrollar un nuevo pagos.html que reemplaze el anterior
+    desarrollado en vue. Similar pero con las nuevas tecnologias.

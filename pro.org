@@ -3323,7 +3323,38 @@ primer mm hecho luego de la obra sobre array
     Esta sesion de programacion a sido una hard practice de emacs puro
     y no esta mal, es cuestion de acostumbrarse para ser eficiente.
     En la mitad de la programacion me agobie y me pase a neovim y me
-    senti muy comodo asi que voy a seguir probando.
+    senti muy comodo asi que voy a seguir probando. Pienso que a
+    igualdad de condiciones con el autocompletado, o sea teniendo
+    autocompletado simple, es mas rapido y eficiente vim, pero hay que
+    seguir probando.
+    En el pasado el ciclo de los editors-war era vim-emacs-vim-code. O
+    sea comienzo con vim fascinado con su rapidez y agilidad, y luego
+    quiero ponerle complementos y alli me encuentro con dificultades,
+    y de alli paso a emacs que parece mas compacto, mas posible de
+    configurar, pero no tan facil de manejar, salvo que le pongamos
+    evil-mode, y ahi es donde vuelvo a vim, hasta que me aburro y
+    vuelvo a visual studio code, puede que al principio le ponga el
+    manejo vim, y luego se lo saque y quede normal.
+    Se sintio bien volver a programar, pienso que debo volver a hacer
+    una tanda de programacion para perfeccionar la aplicacion
+*** [2021-07-23 Fri]
+    luego de una escapada a vim, volvi a evil-emacs, pq es rapido y es
+    vim y tambien es emacs en cierta forma. Y tiene magit y
+    projectile. en especial magit pq projectile no es muy mucho mas
+    que lo que tiene vim, y por lo demas funciona todo como en vim. es
+    rapido tambien, y tiene un monton de colorschemes y tiene mas
+    brillosidad. Esta bien que vim se siente mas rapido, eso si. no se
+    porque. Hasta ahora estan empatados.
+    En cuanto al balance estudio/programacion en los ultimos tres dias
+    gano la programacion, con empuje a querer perfeccionar el sitio y
+    comenzar a usarlo. Es muy compacto lo que se programa, p.e. la
+    forma de filtrar en morosidad dentro del listado con un
+    array.filter es soberbio. Y la interfase que se esta logrando con
+    pasar pagos esta muy acabada pero necesita ser mas responsive.
+    El estudio en si queda bastante relegado, pq son pocas las horas
+    que se pueden dedicar en la cama y luego no hago nada en el dia.
+    Lo que podria hacer es leer en la cama como hice con bash
+    scripting si es posible hacer alguna anotacion y al otro dia practicar.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4387,7 +4418,7 @@ timido comienzo muy debil en estudio de js.
    de llegar mas profundo en lo que tenemos que hacer.
    pienso que agregar mas horas de estudio pueden agregar conocimiento
    siempre que sean efectivas 
-** semana [2021-07-18 Sun]                             :python:english:emacs:
+** semana [2021-07-18 Sun]                         :python:english:emacs:vim:
    Por lo menos la semana pasada rellene bien los tiempos con
    intervalos de estudio bastante frecuentes y descubri algunos
    metodos que por el momento son convenientes como p.e. la lectura de

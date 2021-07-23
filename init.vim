@@ -25,13 +25,14 @@ Plugin 'preservim/nerdtree'
 Plugin 'jceb/vim-orgmode'
 Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
-
+Plugin 'tpope/vim-commentary'
+Plugin 'dracula/vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-"colorscheme gruvbox
-colorscheme zenburn
+colorscheme gruvbox
+"colorscheme zenburn
 nnoremap j gj
 nnoremap k gk
 inoremap jk <esc>
