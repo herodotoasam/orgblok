@@ -6485,3 +6485,15 @@ D $1000.00
 2021/07/24 comida
     expenses:comida             155
     assets:caja                -155
+
+2021/07/26 mesada ih
+    expenses:isabel           $1500
+    assets:caja              $-1500
+
+2021/07/26 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/07/26 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
