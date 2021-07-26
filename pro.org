@@ -3355,6 +3355,29 @@ primer mm hecho luego de la obra sobre array
     que se pueden dedicar en la cama y luego no hago nada en el dia.
     Lo que podria hacer es leer en la cama como hice con bash
     scripting si es posible hacer alguna anotacion y al otro dia practicar.
+*** [2021-07-25 Sun]
+    no logro articular una rutina de estudio, estos tres ultimos dias
+    la pase programando, pero no logro mezclar programacion y estudio.
+    Llego a la conclusion que para python el mejor libro es el
+    cookbook seguido recipe by recipe con anotaciones en hoja aparte
+    para repasarlas luego. 
+    definitivamente es agradable programar en vim.
+    proyecto para la semana:
+    1. pasar todas las palabras pendientes a la app
+    2. hacer al menos un capitulo de cookbook por semana
+    3. hacer la nueva grilla de control fisico
+*** [2021-07-26 Mon] 
+    estoy varado en lo que tiene que ver con el estudio. El ingles se
+    limita a la app de vocabulario y a escuchar videos en ingles y la
+    lectura de pdf se ha reducido drasticamente.
+    Se puede ver que en los ultimos dias solamente me he dedicado a
+    programar.
+    Hoy pensaba que podria perfeccionarme ya que estoy un poquito en
+    vim. Y seguir programando no queda otra opcion. 
+    lo que veo es que el tema vim es enorme como es enorme emacs y asi
+    sucesivamente todo es enorme, por eso hay que hacer algo de a
+    poco.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4425,6 +4448,7 @@ timido comienzo muy debil en estudio de js.
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
+** semana [2021-07-25 Sun]                                 :python:bash:vim:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -4497,6 +4521,11 @@ ln -s path-del-archivo-real  path-del-soft-link
 ls -R | wc -l
 mas exacto seria:
 find . -type f | wc -l  que solo contaria archivos no directorios vacios.
+** ncdu
+   te muestra en forma grafica cuanto espacio ocupa cada directorio y
+   lo hace en forma recursiva incluso con movimientos vim.
+** hollywood y cmatrix
+   ambos son para hacer simulaciones en pantalla para presumir de hacking
 * agenda hledger
 ** inicio [2020-07-05 Sun]
 muy rapido y facil.
