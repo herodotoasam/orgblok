@@ -5,7 +5,6 @@ packloadall
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-:cd /home/hero/fl5
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -24,7 +23,7 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
-Plugin 'jceb/vim-orgmode'
+Plugin 'axvr/org.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
@@ -39,6 +38,7 @@ lua << EOF
 require'lspconfig'.pyright.setup{}
 EOF
 
+set guifont=DejaVu\ Sans\ Mono:h14
 colorscheme gruvbox
 set background=dark
 "colorscheme zenburn
@@ -57,7 +57,9 @@ nnoremap <C-down> :bn<cr>
 nnoremap q :q<cr>
 nnoremap wq :wq<cr>
 nnoremap <C-s> :w<cr>
-nnoremap <C-z> :w<cr> :!wish %<CR>
+nnoremap <F6> :w<cr> :!wish %<CR>
+nnoremap <C-z> :w<cr> :!bash %<CR>
+
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
 
@@ -71,7 +73,7 @@ nnoremap <C-z> :w<cr> :!wish %<CR>
 "mueve la linea arriba
 :map <A-Down> :.,m.+<CR>
 "duplica la linea
-:map <C-D> :.,co.<CR>
+":map <C-D> :.,co.<CR>
 
 :syntax on
 set tabstop=4
@@ -104,6 +106,8 @@ set backspace=indent,eol,start
 set laststatus=2
 set number
 set undofile
+set nobackup
+set nowritebackup
 
 set nocompatible
 set modelines=0

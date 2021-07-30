@@ -3377,7 +3377,100 @@ primer mm hecho luego de la obra sobre array
     lo que veo es que el tema vim es enorme como es enorme emacs y asi
     sucesivamente todo es enorme, por eso hay que hacer algo de a
     poco.
+    Hoy fue un poco improductivo, programe solo tres horas, nada muy
+    especial, me meti un poco en el wm i3, como opcion, felizmente no
+    hace falta reinstalar sino que funciona con mint, como para jugar
+    un poco y tomar practica. Estoy en una gran meseta, tengo que
+    aguantar.
+    Lei o escuche en un video que vim luego de unas semanas de
+    practica intensiva da resultados de productividad asombrosa, o
+    emacs o el que sea, pero mas vim, pero hay que perfeccionarse.
+*** [2021-07-27 Tue]   
+    anoche retome la lectura de pdf en moon por medio del celu lo cual
+    resulta mucho mas practico y comodo que la tablet, es cuestion de
+    acostumbrarse a una pantalla mas pequeña y listo. 
+    Comence con un libro de POO de python bastante interesante, vamos
+    a ver hasta donde puedo llevarlo sin que se ponga demasiado denso.
+    Lo que si encontre muchisimas palabras desconocidas en ingles que
+    no las busque pq seria imposible seguir el hilo de la lectura. La
+    unica forma seria anotarlas en un papel aparte pienso y despues
+    cargarlas a la app. 
+    Hoy un sorprendente record de estudio: 4.18hs pero creo que puede
+    haber sido mas incluso y ser un record. Pero lo que interesa es la
+    calidad, en el entorno i3, tuve una hora y media estudiando bash,
+    practicando if/for/y array, siendo que es un tema dificil para mi,
+    creo que fue una buena experiencia. Luego el resto fue python con
+    el libro nuevo de la poo. Me intente comprar una tablet y no pude,
+    pero quizas lo haga para que me sea mas facil la lectura de los
+    pdfs.
+    debo decir que los videos de savitar son motivadores, quizas
+    tambien los otros en ingles lo son, pero no entiendo el cien por
+    cien, pero me han llevado por vim y tambien por i3, gruvbox.
+*** [2021-07-28 Wed]
+    el dia de ayer fue bastante productivo en el aprendizaje si
+    contamos las 4hs de practica y las lecturas. Veremos si hoy puedo
+    seguir asi.
+    comienzo bien con una sesion de una hora veinte bien aprovechada
+    de bash, luego sin levantarme a pausa, lo que seria apropiado y
+    oportuno, me quedo en un bache, mientras el migral me hace efectos
+    negativos en la cabeza, y ese bache se prolonga ya por casi una
+    hora de improductividad. Si bien es cierto que logre hacer los
+    shortcuts a las app de romitex en i3, al no funcionar bien i3, ya
+    sea en el cierre de las apps, o en vim que lo hace funcionar
+    erraticamente, me deja perplejo. 
+    O sea aca ya tengo una pista de lo que esta mal, el negarse a
+    hacer pausas y el divagar sin rumbo, dentro de eso.
+    Otro dia satisfactorio desde el punto de vista del estudio, pq he
+    podido hacer varias lineas que pienso son fertiles: seguir el
+    cookbook de bash, repasar las notas de bash, seguir el de python
+    que tiene 60 miniprogramas para practicar, 20 basicos, 20
+    intermedios y 20 avanzados y luego unos tips. Luego esta el tema
+    de los terminos buscados en reverso, 12 en 34 minutos. Luego esta
+    el aprendizaje por practica cotideana, que es el que se da con i3,
+    con vim, con emacs. 
+*** [2021-07-29 Thu]
+    Hoy fue el dia de la vacunacion, asi que empece tarde el dia. Pero
+    estoy muy motivado. primero encontre una nueva aplicacion de
+    flashcard, que permite la carga por cvs y pude cargarle todo lo
+    que tenia hasta ahora, y de casualidad pude recuperar casi
+    doscientas palabras que tenia de antes con anki, pq estoy
+    limpiando los drives, pq el puto ankiweb me borro las decks. menos
+    mal que estan guardados los csv alli.
+    Me quedaria el hfj024 mas vacio solo para las fotos y cosas
+    basicas del celu, el 050 para libros y backup personal, y los
+    otros dos para deposito en bruto de cosas viejas. 
+    Era una tarea que tenia que hacerse no quedaba otra, pq google te
+    apura con que no hay mas espacio.
+    La lectura esta en su punto optimo, creo que debo seguir por un
+    tiempo asi. Y ver de cerca como evoluciona el tema del trabajo con
+    el Fede a partir de las proximas semanas.
+    Hoy aplique la idea de un videito de estudiar o programar durante
+    30 minutos reloj y descansar 5 minutos, eso hace que mantengamos
+    el nivel alto de efectividad, pq sino decaemos.
+*** [2021-07-30 Fri]
+    Resumiendo el sistema de estudio que tengo hasta ahora seria:
+    1. lectura de libros pdf en el celu. (mas practico, lo puedo hacer
+       en cualquier lado, pq la tablet es muy pesada)
+    2. marcado de palabras de ingles en moon reader para luego
+       buscarlas y generar un csv que se cargara masivamente a las tarjetas.
+    3. repaso masivo de tarjetas hasta memorizar todas las palabras.
+    4. periodos de estudio limitados a 30 minutos con una pausa de 5
+       minutos para mayor efectividad.
+    5. practica cotideana con el uso del entorno i3
+    6. practica cotideana con vim
     
+    Creo que tengo un apasionamiento sobre el tema estudio pero que a
+    veces no cuadra con la realidad o sea que no todos los dias son
+    productivos como yo quisiera, pq tienen muchas distracciones o pq
+    yo mismo estoy divagante. Una de las principales causas de ese
+    divague es que pienso en cuando se va a terminar este periodo de
+    gracia o año sabatico y eso me causa desasosiego. Pero pienso que
+    si tuviera que trabajar mas tiempo digamos atendiendo a los
+    cobradores o alguna tarea mas creo que lo mismo podria tener en el
+    dia a dia la posibilidad de encontrar unas horas para estudiar al
+    menos lo basico. Pq tambien se da que mientras mas tiempo tenes
+    peor es. ¿Como hacia antes que programaba en las horas sobrantes
+    de oficina? y logre programar todo. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4803,6 +4896,13 @@ s surrounded
 :BTags busca en los tags del archivo en cuestion
 :Ag busca en el directorio con ag
 :Rg busca en el directorio con rg (mejor)
+** ejecutar dot command masivamente
+por ejemplo poner ; al final de la linea a todo un archivo.
+A;<Esc>   va al final pone el punto y coma y sale del modo insert
+j va a la linea siguiente
+VG entra en modo visual hasta el final de archivo
+:<,> normal . (normal . hace que en modo normal se ejecute . en todas
+las lineas marcadas por el visual.)
 * agenda TCL
 ** format-scan
 #+BEGIN_EXAMPLE

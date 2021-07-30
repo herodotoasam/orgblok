@@ -1,21 +1,32 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-07-25 Sun 19:24]
-| Headline             |      Time |      |
-|----------------------+-----------+------|
-| *Total time*         | *1d 0:56* |      |
-|----------------------+-----------+------|
-| agenda estudio       |      7:54 |      |
-| \_  [2021-07-20 Tue] |           | 4:23 |
-| \_  [2021-07-21 Wed] |           | 3:31 |
-| agenda programacion  |     16:04 |      |
-| \_  [2021-07-20 Tue] |           | 0:57 |
-| \_  [2021-07-21 Wed] |           | 0:56 |
-| \_  [2021-07-22 Thu] |           | 4:12 |
-| \_  [2021-07-23 Fri] |           | 3:46 |
-| \_  [2021-07-24 Sat] |           | 3:04 |
-| \_  [2021-07-25 Sun] |           | 3:09 |
-| agenda editores      |      0:58 |      |
-| \_  intento vim      |           | 0:58 |
+#+CAPTION: Clock summary at [2021-07-30 Fri 16:05]
+| Headline             |       Time |      |
+|----------------------+------------+------|
+| *Total time*         | *1d 20:40* |      |
+|----------------------+------------+------|
+| agenda estudio       |      19:27 |      |
+| \_  [2021-07-20 Tue] |            | 4:23 |
+| \_  [2021-07-21 Wed] |            | 3:33 |
+| \_  [2021-07-27 Tue] |            | 4:18 |
+| \_  [2021-07-28 Wed] |            | 3:02 |
+| \_  [2021-07-29 Thu] |            | 2:45 |
+| \_  [2021-07-30 Fri] |            | 1:26 |
+| agenda programacion  |      23:13 |      |
+| \_  [2021-07-20 Tue] |            | 0:57 |
+| \_  [2021-07-21 Wed] |            | 0:56 |
+| \_  [2021-07-22 Thu] |            | 4:12 |
+| \_  [2021-07-23 Fri] |            | 3:46 |
+| \_  [2021-07-24 Sat] |            | 3:04 |
+| \_  [2021-07-25 Sun] |            | 3:09 |
+| \_  [2021-07-26 Mon] |            | 3:15 |
+| \_  [2021-07-27 Tue] |            | 0:56 |
+| \_  [2021-07-28 Wed] |            | 1:20 |
+| \_  [2021-07-29 Thu] |            | 0:24 |
+| \_  [2021-07-30 Fri] |            | 1:14 |
+| agenda editores      |       2:00 |      |
+| \_  [2021-07-24 Sat] |            | 0:58 |
+| \_  [2021-07-26 Mon] |            | 0:36 |
+| \_  [2021-07-28 Wed] |            | 0:26 |
 #+END:
 
 * agenda estudio
@@ -36,12 +47,39 @@
     :END:
 ** [2021-07-21 Wed]
    :LOGBOOK:
-   CLOCK: [2021-07-21 Wed 17:35]--[2021-07-21 Wed 18:53] =>  1:18
+   CLOCK: [2021-07-21 Wed 17:35]--[2021-07-21 Wed 18:55] =>  1:20
    CLOCK: [2021-07-21 Wed 13:50]--[2021-07-21 Wed 14:39] =>  0:49
    CLOCK: [2021-07-21 Wed 11:17]--[2021-07-21 Wed 12:10] =>  0:53
    CLOCK: [2021-07-21 Wed 11:02]--[2021-07-21 Wed 11:09] =>  0:07
    CLOCK: [2021-07-21 Wed 10:26]--[2021-07-21 Wed 10:50] =>  0:24
    :END:
+** [2021-07-27 Tue] 
+   :LOGBOOK:
+   CLOCK: [2021-07-27 Tue 17:35]--[2021-07-27 Tue 19:20] =>  1:45
+   CLOCK: [2021-07-27 Tue 15:55]--[2021-07-27 Tue 16:39] =>  0:44
+   CLOCK: [2021-07-27 Tue 12:50]--[2021-07-27 Tue 13:39] =>  0:49
+   CLOCK: [2021-07-27 Tue 10:13]--[2021-07-27 Tue 11:13] =>  1:00
+   :END:
+** [2021-07-28 Wed]
+   :LOGBOOK:
+   CLOCK: [2021-07-28 Wed 17:00]--[2021-07-28 Wed 17:22] =>  0:22
+   CLOCK: [2021-07-28 Wed 16:06]--[2021-07-28 Wed 16:43] =>  0:37
+   CLOCK: [2021-07-28 Wed 15:20]--[2021-07-28 Wed 16:02] =>  0:42
+   CLOCK: [2021-07-28 Wed 10:14]--[2021-07-28 Wed 11:35] =>  1:21
+   :END:
+** [2021-07-29 Thu]
+   :LOGBOOK:
+   CLOCK: [2021-07-29 Thu 18:04]--[2021-07-29 Thu 18:58] =>  0:54
+   CLOCK: [2021-07-29 Thu 15:45]--[2021-07-29 Thu 16:17] =>  0:32
+   CLOCK: [2021-07-29 Thu 13:17]--[2021-07-29 Thu 13:57] =>  0:40
+   CLOCK: [2021-07-29 Thu 11:50]--[2021-07-29 Thu 12:29] =>  0:39
+   :END:
+** [2021-07-30 Fri]
+   :LOGBOOK:
+   CLOCK: [2021-07-30 Fri 11:00]--[2021-07-30 Fri 12:26] =>  1:26
+   ingles3.csv con 35 items estudiados en contexto y subidos. 
+   :END:
+
 * agenda programacion
 ** [2021-07-20 Tue]
 *** poner modal de los nuevos en ventas/listado/editar
@@ -75,7 +113,7 @@
    CLOCK: [2021-07-23 Fri 09:09]--[2021-07-23 Fri 10:09] =>  1:00
    :END:
     se comenzo a desarrollar un nuevo pagos.html que reemplaze el anterior
-    desarrollado en vue. Similar pero con las nuevas tecnologias.
+    desarrollado en vue. Similar pero con las nuevas tecnologias.j
 ** [2021-07-24 Sat]
    :LOGBOOK:
    CLOCK: [2021-07-24 Sat 18:40]--[2021-07-24 Sat 19:29] =>  0:49
@@ -95,16 +133,47 @@ alpine 3.22 lo reemplace con page-up page-down, pero me llevo tiempo
 descubrir que la falla estaba en el binding y no tenia yo la culpa en
 el js que estaba poniendo adentro.
 ** [2021-07-26 Mon]
-   :PROPERTIES:
-   :ORDERED:  t
-   :END:
    :LOGBOOK:
+   CLOCK: [2021-07-26 Mon 16:25]--[2021-07-26 Mon 17:45] =>  1:20
    CLOCK: [2021-07-26 Mon 12:45]--[2021-07-26 Mon 13:40] =>  0:55
    CLOCK: [2021-07-26 Mon 11:10]--[2021-07-26 Mon 12:10] =>  1:00
    :END:
-
+** [2021-07-27 Tue]   
+   :LOGBOOK:
+   CLOCK: [2021-07-27 Tue 14:42]--[2021-07-27 Tue 15:38] =>  0:56
+   :END:
+** [2021-07-28 Wed]
+   :LOGBOOK:
+   CLOCK: [2021-07-28 Wed 18:45]--[2021-07-28 Wed 19:05] =>  0:20
+   CLOCK: [2021-07-28 Wed 13:37]--[2021-07-28 Wed 14:37] =>  1:00
+   :END:
+   arreglos generales: bindie a modF1 vim, modF2 emacs, modF3 firefox,
+   use nvim-qt para no tener problemas con la terminal, agrande la
+   font que trae por defecto y quedo preciosa. 
+   Le puse a todos los programas tcl un bind de salida con ctrl-q para
+   no tener que killearlos, y estan bindeados con i3 directamente o
+   sea no necesito hacerlo por terminal. Arregle fechador.tcl le
+   solucione el problema del focus luego de fechar, y el problema de
+   los datos que quedaban pegados luego de una edicion de wapp u
+   horario. 
+   Encontre una solucion a uno de los imposibles de pagos, siguiendo
+   el mismo concepto de tcl pero aplicado a js, o sea after
+   idle~SetTimeout()
+** [2021-07-29 Thu]
+   :LOGBOOK:
+   CLOCK: [2021-07-29 Thu 19:30]--[2021-07-29 Thu 19:54] =>  0:24
+   :END:
+   Solucione un bug que me hacia renegar bastante en el pasado de
+   ventas en tcl. Una cosita de nada. Pero habia que ponerse y
+   hacerlo.
+** [2021-07-30 Fri]
+   :LOGBOOK:
+   CLOCK: [2021-07-30 Fri 15:30]--[2021-07-30 Fri 15:57] =>  0:27
+   CLOCK: [2021-07-30 Fri 14:35]--[2021-07-30 Fri 14:51] =>  0:16
+   CLOCK: [2021-07-30 Fri 13:31]--[2021-07-30 Fri 14:02] =>  0:31
+   :END:
 * agenda editores 
-** intento vim
+ * intento vim
 ** [2021-07-24 Sat]
    :LOGBOOK:
    CLOCK: [2021-07-24 Sat 11:35]--[2021-07-24 Sat 12:33] =>  0:58
@@ -117,3 +186,17 @@ el js que estaba poniendo adentro.
    logre que abra maximizado y en el directorio de trabajo, lo que me
    ahorra un par de segundos de tarea repetitiva, y baje las cheat
    sheet para comenzar a profundizar
+** [2021-07-28 Wed]
+   :LOGBOOK:
+   CLOCK: [2021-07-28 Wed 17:44]--[2021-07-28 Wed 18:10] =>  0:26
+   :END:
+   cambie la terminal gnome-terminal por kitty y le hice unas
+   configuraciones basicas para que se pueda usar, basicamente font y
+   tamaño. 
+* agenda fisica
+| fecha            | alm | fruta | baño | press |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [2021-07-26 Mon] |   7 |     3 |      |       |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [2021-07-27 Tue] |   7 |     1 |      |       |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [2021-07-28 Wed] |   7 |     1 | si   |    40 |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [2021-07-29 Thu] |   7 |     2 |      |    40 |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| [2021-07-30 Fri] |   7 |       |      |    40 |   |   |   |   |   |   |   |   |   |   |   |   |   |

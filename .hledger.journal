@@ -6497,3 +6497,56 @@ D $1000.00
 2021/07/26 comida cami
     expenses:cami:comida           $3000
     assets:caja                   $-3000
+
+2021/07/27 prestamo romi
+    assets:deudas romi            2000
+    assets:caja                  -2000
+
+2021/07/28 farmacia neutop atenix
+    expenses:gastos medicos:farmacia            3552
+    assets:caja                                -3552
+
+2021/07/28 farmacia diapresan etc
+    expenses:gastos medicos:farmacia            2558
+    assets:caja                                -2558
+
+2021/07/28 farmacia varios
+    expenses:gastos medicos:farmacia             895
+    assets:caja                                 -895
+
+2021/07/28 farmacia varios
+    expenses:gastos medicos:farmacia             594
+    assets:caja                                 -594
+
+2021/07/28 comida
+    expenses:comida            2400
+    assets:caja               -2400
+
+2021/07/29 comida
+    expenses:comida            780
+    assets:caja               -780
+
+2021/07/29 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021/07/29 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/07/29 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/07/30 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/07/30 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/07/30 odontologo
+    expenses:gastos medicos:odontologia           10000
+    assets:caja                                  -10000
+
