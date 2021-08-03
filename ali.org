@@ -8452,35 +8452,35 @@ produce ese estado de soñolencia.
 * 2021 - Julio
 ** [2021-07-19 Mon]
    un comentario sobre el resultado del tratamiento psiquiatrico que
-   se me ocurrio esta mañana. 
+   se me ocurrio esta mañana.
    En la primera etapa tenia ganas de salir a la calle, no importa a
    hacer que, cualquier excusa era valida, y  buena para salir de la
    casa. No tenia una sensacion de que estaba dejando de hacer "algo",
    incluso llegue a reconocer esta idea, que el "algo" era lo culpable
    de mi ututismo y ahora liberado de ese "algo" era una persona mas
-   normal o sea un "tomlla". 
+   normal o sea un "tomlla".
    A los pocos dias comence de nuevo con la computacion y el "algo"
    volvio cada vez mas compacto ocupandome todo el dia de lunes a
    lunes, haciendo que cada vez que tenga un compromiso me sienta
    incomodo, evitando en lo posible cualquier tipo de salida,
    comportandome mal incluso dentro de la casa frente a los otros por
-   estar metido en lo mio, o sea un "lolismo" pleno. 
+   estar metido en lo mio, o sea un "lolismo" pleno.
    Y la angustia que se mezcla con el futuro incierto
 ** [2021-07-20 Tue]
    me duele la cabeza mucho mas esta semana, ni hablemos del cuello
-   que lo tengo rigido. Y tengo problemas gastricos. 
+   que lo tengo rigido. Y tengo problemas gastricos.
 ** [2021-07-21 Wed]
    estoy en un momento muy complejo pq no puedo concentrarme para la
    produccion en este entorno de distraccion y a la vez sin tener una
    idea clara de a donde quiero llegar. O sea que estaria fallando la
-   capacidad autodidacta. 
+   capacidad autodidacta.
    el problema de no estar trabajando es lo que me afecta en el fondo,
    pero este es un problema que arrastramos de hace mucho tiempo atras
    pq un año antes de la pandemia estabamos en un simulacro de
-   trabajo. 
+   trabajo.
    Va a ser muy dificil arrancar el trabajo de nuevo, salvo que fede
    este dispuesto a trabajar, sino no lograremos nada. Poner una
-   oficina como pantalla para no hacer nada no sirve. 
+   oficina como pantalla para no hacer nada no sirve.
 ** [2021-07-27 Tue]
    llego a la conclusion que estoy deprimido, a pesar de estar tomando
    la medicacion. y tengo ansiedad en ascenso. tengo ganas de irme a
@@ -8498,7 +8498,7 @@ produce ese estado de soñolencia.
    problemas fisicos, y no veo la forma de solucionarlo.
    no puedo enganchar una rutina de trabajo-estudio adecuada, menos
    estando aca (evaluo volverme a la habitacion). Y pierdo motivacion
-   y tengo miedo de quedarme vacio. 
+   y tengo miedo de quedarme vacio.
 ** [2021-07-28 Wed]
    me levanto con extraordinario buen animo, luego me siento en la
    compu, con bastante animo, y veremos que pasa, en donde se rompe la
@@ -8511,7 +8511,7 @@ produce ese estado de soñolencia.
    de materia que estas estudiando obviamente te parece que es poco o
    nada, pero luego ves que se va acumulando a traves de los dias y la
    cosa toma otro cariz. Por eso pienso que debo persistir. Y adquirir
-   pequeños habitos de mejora diaria, como hago con vim. 
+   pequeños habitos de mejora diaria, como hago con vim.
 ** [2021-07-30 Fri]
    del informe de dos dias atras donde me declaraba deprimido a hoy,
    pienso que en el fondo es cuestion motivacion. A veces la
@@ -8521,3 +8521,18 @@ produce ese estado de soñolencia.
    como repaso de palabras, o lectura de pdf que se puede hacer en
    otro lugar, no necesariamente en frente del monitor. Y tambien el
    intentar cambiar rutinas del aspecto fisico con los minihabitos.
+** [2021-07-31 Sat]
+   hoy me duele de fondo la cabeza y mi winpower esta
+   down. Considerado desde ayer que termine la jornada bastante bien a
+   hoy hay una diferencia.
+* 2021 - Agosto
+** [2021-08-01 Sun]
+   ayer tuve que acostarme y hacer reposo para evitar un segundo migral ya que
+   habia tomado un corticoide. Hoy me tome otro corticoide pq anoche me tome un
+   migral y no me he sentido bien esta mañana.
+   por la tarde me acoste una siesta y me senti peor, pero me levante y merende
+   y me mejore con un segundo migral.
+** [2021-08-02 Mon]
+   me siento bien de animo pero estoy inmerso en un bache de improductividad
+   a pesar de disponer de todo el dia para mi, no logro articular una rutina
+   que sea lo suficientemente productiva, no veo avances.

@@ -6550,3 +6550,123 @@ D $1000.00
     expenses:gastos medicos:odontologia           10000
     assets:caja                                  -10000
 
+
+2021/07/31 psico
+    expenses:cami:psicologo           $1200
+    assets:caja                      $-1200
+
+2021/07/31 cami
+    expenses:cami:extras             300
+    assets:caja                     -300
+
+2021/07/31 lomitos
+    expenses:comida             850
+    assets:caja                -850
+
+2021/08/02 veterinaria
+    expenses:comida:gatos             800
+    assets:caja                      -800
+
+2021/08/03 ingresos
+    assets:reserva                   60000
+    income:retiro sociedad          -60000
+
+2021/08/03 retiro reserva
+    assets:caja              60000
+    assets:reserva          -60000
+
+2021/08/03 ecogas 2021/3
+    expenses:servicios:ecogas            3728
+    assets:caja                         -3728
+
+2021/08/03 fibertel
+    expenses:servicios:fibertel            3562
+    assets:caja                           -3562
+
+2021/08/03 aguas cordobesas 07/2021
+    expenses:servicios:aguas cordobesas            1120
+    assets:caja                                   -1120
+
+2021/08/03 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021/08/03 luces cocina
+    expenses:casa:mantenimiento         $423.76
+    assets:caja                        $-423.76
+
+2021/08/03 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021/08/03 new sport
+    expenses:personal:ropa           $2200
+    assets:caja                     $-2200
+
+2021/08/03 seguro auto
+    expenses:servicios:la caja seguros           $3608
+    assets:caja                                 $-3608
+
+2021/08/03 netflix
+    expenses:servicios:netflix        $1097.13
+    assets:caja                      $-1097.13
+
+2021/08/03 carusso
+    expenses:servicios:carusso        $1817.49
+    assets:caja                      $-1817.49
+
+2021/08/03 lucia villamoro
+    expenses:ih         $833.35
+    assets:caja        $-833.35
+
+2021/08/03 lucia villamoro
+    expenses:ih         1741.66
+    assets:caja        -1741.66
+
+2021/08/03 rimo
+    expenses:ih           $1748
+    assets:caja          $-1748
+
+2021/08/03 hipermercados libertad
+    expenses:comida         $958.61
+    assets:caja            $-958.61
+
+2021/08/03 construluz romi
+    expenses:casa:mantenimiento          598.62
+    assets:caja                         -598.62
+
+2021/08/03 luces cami
+    expenses:casa:mantenimiento          223.13
+    assets:caja                         -223.13
+
+2021/08/03 tadicor
+    expenses:comida         6028.13
+    assets:caja            -6028.13
+
+2021/08/03 maidana libros
+    expenses:ih          804.21
+    assets:caja         -804.21
+
+2021/08/03 farmacity
+    expenses:gastos medicos:farmacia          1938.7
+    assets:caja                              -1938.7
+
+2021/08/03 youtube premium
+    expenses:servicios:youtube            $200
+    assets:caja                          $-200
+
+2021/08/03 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos            1462
+    assets:caja                                               -1462
+
+2021/08/03 ih
+    expenses:isabel            $600
+    assets:caja               $-600
+
+2021/08/03 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/08/03 dif
+    expenses:diferencia arqueo              52
+    assets:caja                            -52

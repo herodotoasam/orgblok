@@ -1,34 +1,3 @@
-#+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2021-07-19 Mon 11:41]
-| Headline             | Time       |          |
-|----------------------+------------+----------|
-| *Total time*         | *29d 1:29* |          |
-|----------------------+------------+----------|
-| Agenda Recupero      | 0:32       |          |
-| \_  [2020-09-25 Fri] |            | 0:32     |
-| Agenda Romitex       | 4d 11:56   |          |
-| \_  Julio 2020       |            | 1d 0:29  |
-| \_  Agosto 2020      |            | 1d 19:00 |
-| \_  Setiembre 2020   |            | 1d 15:05 |
-| \_  Octubre 2020     |            | 1:22     |
-| Agenda de estudio    | 24d 13:01  |          |
-| \_  2020-Mayo        |            | 6d 14:04 |
-| \_  2020-Junio       |            | 5d 18:54 |
-| \_  2020-Julio       |            | 6d 17:06 |
-| \_  2020-Agosto      |            | 4d 0:35  |
-| \_  2020-Setiembre   |            | 15:47    |
-| \_  2020-Octubre     |            | 8:03     |
-| \_  2020-Noviembre   |            | 10:32    |
-#+END:
-:scope file :maxlevel 3 :block thismonth :compact t
-[[file:agenda.org][Recordar ver agenda]]
-
-* Agenda Recupero
-** [2020-09-25 Fri] 
-   :LOGBOOK:
-   CLOCK: [2020-09-25 Fri 12:21]--[2020-09-25 Fri 12:53] =>  0:32
-   :END:
-
 * Agenda Romitex
 ** Julio 2020
 *** [2020-07-12 Sun]
@@ -2981,16 +2950,16 @@ primer mm hecho luego de la obra sobre array
     por vez. En primer instancia python, luego javascript, luego css y
     asi porque estoy repitiendo la misma web, si bien es cierto que
     esta mejor, pq es responsive, en realidad no todas las paginas
-    tendrian que ser responsives. 
+    tendrian que ser responsives.
     1hs-generadores/web scrape inicio con requests que me permitio ver
     la vulnerabilidad de los vps-oracle.
-*** [2021-07-05 Mon] 
+*** [2021-07-05 Mon]
     dia perdido desde el punto de vista del estudio pq estuve en el
     hospital por la Cami, y el resto del dia estuve preocupado por su
-    salud. 
+    salud.
     El debate estuvo entre hacer un buscar.html responsive con bulma
     dentro de romitex.xyz o en seguir con el proyecto en el stack
-    alpine-css-flask pero tener que programar todo de nuevo. 
+    alpine-css-flask pero tener que programar todo de nuevo.
     En el aprendizaje de python pase por tic-tac-toe entendiendo
     bastante bien el funcionamiento del programa.
 *** [2021-07-06 Tue]
@@ -3004,7 +2973,7 @@ primer mm hecho luego de la obra sobre array
     estudio unico de python sin resolver primero el tema del sistema
     de romitex.
     pq me deja sin nada productivo como respuesta a todo el tiempo
-    invertido. Y la idea es tener algo bien hecho como base. 
+    invertido. Y la idea es tener algo bien hecho como base.
     Felizmente luego de varios intentos y cuando ya casi ni pensaba
     que algo podria ser descubierto como falla basica del sistema,
     encuentro el error, y estaba en los <meta> del html basico que
@@ -3013,7 +2982,7 @@ primer mm hecho luego de la obra sobre array
     que era por el container-sm que tenia y nada que ver.
     Con esto tengo casi terminado el proyecto, pq solo tengo que
     afinar detalles sobre lo que ya esta hecho sin tener que cambiar
-    nada espectacular. 
+    nada espectacular.
     Incluso podria ensayar una fusion de un marco que podria ser bulma
     con algunos desarrollos que hice yo como el modal.
     Quedaria tratar de corregir en lo posible el buscador.html que
@@ -3049,7 +3018,7 @@ primer mm hecho luego de la obra sobre array
     eso la pagina funcional.
     si bien es cierto que me atrae la idea de tener un cliente noweb
     de escritorio para comunicarme con la base, no lo veo facil de
-    desarrollar ni rapido pq estoy muy olvidado de esas tecnologias. 
+    desarrollar ni rapido pq estoy muy olvidado de esas tecnologias.
     Es que estoy pasando por un bache, por un punto de meseta de
     cansancio en general y no encuentro algo que canalice el esfuerzo
     diario.
@@ -3075,7 +3044,7 @@ primer mm hecho luego de la obra sobre array
     nivel. Pero bueno, lo positivo es que se avanzo en el ultimo
     tiempo desde la implementacion de flask, luego vue, que fue
     desplazado por alpinejs.
-*** [2021-07-11 Sun] 
+*** [2021-07-11 Sun]
     a pesar de que no he podido destinar tiempo a programar en el
     ratito que tuve pq hoy fue dia de visita familiar, hice un
     programa de numeros primos muy eficiente que obtiene los primos
@@ -3092,7 +3061,7 @@ primer mm hecho luego de la obra sobre array
     en cuando y quiere cambiar pero en realidad funciona bien.
     Luego mejore el algoritmo y obtuve mejor resultado. 10000 en 0.049
     seg. Y controle con el millon de numeros, cuantos primos con lo
-    que dicen en google y dio bien. 
+    que dicen en google y dio bien.
 *** [2021-07-12 Mon]
     anoche encontre un par de recursos para estudiar ingles en forma
     efectiva y practica, veremos como lo puedo implementar.
@@ -3101,9 +3070,9 @@ primer mm hecho luego de la obra sobre array
     sino es poco lo que se aprovecha de lo que veo en la cama.
     aprender ingles lleva su tiempo, bastante tiempo, asi que hay que
     tener paciencia. Pero por lo menos mientras mas audio escucho mas
-    entiendo. 
+    entiendo.
     Hoy estudie la lesson 1 del BBC-Grammar course. Estudie 8 videos
-    de pandas, son 19 en total, y pase 6 niveles del bash nivel 1. 
+    de pandas, son 19 en total, y pase 6 niveles del bash nivel 1.
     En general bien. Me gustaria multiplicar esto por 10 en primera
     instancia.
 *** [2021-07-13 Tue]
@@ -3196,7 +3165,7 @@ primer mm hecho luego de la obra sobre array
     Con respecto a las palabras, la idea es buscar ahi mismo con el
     celu en la app de reverso las palabras que sean mas relevantes, no
     las palabras raras, en especial preposisiones y adverbios que
-    deberian ser estudiadas con mas cuidado. 
+    deberian ser estudiadas con mas cuidado.
 **** ojo gran etapa de confusion
      no se si esta etapa llegara a ser una etapa de aprendizaje pq al
      no estar haciendo proyecto parece que lo que estamos viendo esta
@@ -3252,7 +3221,7 @@ primer mm hecho luego de la obra sobre array
     trabajo estandar para todo proposito, nuevamente no pude, pq es
     complejo que funcione un sistema apto para autocompletado en
     python, ni que hablar en los otros lenguajes, pero me quedo
-    bastante mejor que lo que estaba antes. 
+    bastante mejor que lo que estaba antes.
     Logre el autocompletado excelente en python, y con CcCc ejecuta al
     instante el script, instale projectile que hace busquedas por ag
     en toda la carpeta eficientemente. Pero es mucho tiempo perdido
@@ -3265,7 +3234,7 @@ primer mm hecho luego de la obra sobre array
     mostros del pasado que te hacen olvidar de todo y te pones y
     dedicas a eso nomas.
     Ya hubo una guerra de editores que duro una semana el año pasado y
-    al final todo el año use visual code. 
+    al final todo el año use visual code.
 *** [2021-07-20 Tue]
     ayer fue un dia totalmente destinado a emacs, hoy retomo el camino supuestamente.
     bien el registro aparte que llevo con el estudio profundo, se me
@@ -3366,14 +3335,14 @@ primer mm hecho luego de la obra sobre array
     1. pasar todas las palabras pendientes a la app
     2. hacer al menos un capitulo de cookbook por semana
     3. hacer la nueva grilla de control fisico
-*** [2021-07-26 Mon] 
+*** [2021-07-26 Mon
     estoy varado en lo que tiene que ver con el estudio. El ingles se
     limita a la app de vocabulario y a escuchar videos en ingles y la
     lectura de pdf se ha reducido drasticamente.
     Se puede ver que en los ultimos dias solamente me he dedicado a
     programar.
     Hoy pensaba que podria perfeccionarme ya que estoy un poquito en
-    vim. Y seguir programando no queda otra opcion. 
+    vim. Y seguir programando no queda otra opcion.
     lo que veo es que el tema vim es enorme como es enorme emacs y asi
     sucesivamente todo es enorme, por eso hay que hacer algo de a
     poco.
@@ -3385,16 +3354,16 @@ primer mm hecho luego de la obra sobre array
     Lei o escuche en un video que vim luego de unas semanas de
     practica intensiva da resultados de productividad asombrosa, o
     emacs o el que sea, pero mas vim, pero hay que perfeccionarse.
-*** [2021-07-27 Tue]   
+*** [2021-07-27 Tue]
     anoche retome la lectura de pdf en moon por medio del celu lo cual
     resulta mucho mas practico y comodo que la tablet, es cuestion de
-    acostumbrarse a una pantalla mas pequeña y listo. 
+    acostumbrarse a una pantalla mas pequeña y listo.
     Comence con un libro de POO de python bastante interesante, vamos
     a ver hasta donde puedo llevarlo sin que se ponga demasiado denso.
     Lo que si encontre muchisimas palabras desconocidas en ingles que
     no las busque pq seria imposible seguir el hilo de la lectura. La
     unica forma seria anotarlas en un papel aparte pienso y despues
-    cargarlas a la app. 
+    cargarlas a la app.
     Hoy un sorprendente record de estudio: 4.18hs pero creo que puede
     haber sido mas incluso y ser un record. Pero lo que interesa es la
     calidad, en el entorno i3, tuve una hora y media estudiando bash,
@@ -3417,7 +3386,7 @@ primer mm hecho luego de la obra sobre array
     hora de improductividad. Si bien es cierto que logre hacer los
     shortcuts a las app de romitex en i3, al no funcionar bien i3, ya
     sea en el cierre de las apps, o en vim que lo hace funcionar
-    erraticamente, me deja perplejo. 
+    erraticamente, me deja perplejo.
     O sea aca ya tengo una pista de lo que esta mal, el negarse a
     hacer pausas y el divagar sin rumbo, dentro de eso.
     Otro dia satisfactorio desde el punto de vista del estudio, pq he
@@ -3427,7 +3396,7 @@ primer mm hecho luego de la obra sobre array
     intermedios y 20 avanzados y luego unos tips. Luego esta el tema
     de los terminos buscados en reverso, 12 en 34 minutos. Luego esta
     el aprendizaje por practica cotideana, que es el que se da con i3,
-    con vim, con emacs. 
+    con vim, con emacs.
 *** [2021-07-29 Thu]
     Hoy fue el dia de la vacunacion, asi que empece tarde el dia. Pero
     estoy muy motivado. primero encontre una nueva aplicacion de
@@ -3438,7 +3407,7 @@ primer mm hecho luego de la obra sobre array
     mal que estan guardados los csv alli.
     Me quedaria el hfj024 mas vacio solo para las fotos y cosas
     basicas del celu, el 050 para libros y backup personal, y los
-    otros dos para deposito en bruto de cosas viejas. 
+    otros dos para deposito en bruto de cosas viejas.
     Era una tarea que tenia que hacerse no quedaba otra, pq google te
     apura con que no hay mas espacio.
     La lectura esta en su punto optimo, creo que debo seguir por un
@@ -3458,7 +3427,7 @@ primer mm hecho luego de la obra sobre array
        minutos para mayor efectividad.
     5. practica cotideana con el uso del entorno i3
     6. practica cotideana con vim
-    
+
     Creo que tengo un apasionamiento sobre el tema estudio pero que a
     veces no cuadra con la realidad o sea que no todos los dias son
     productivos como yo quisiera, pq tienen muchas distracciones o pq
@@ -3470,7 +3439,76 @@ primer mm hecho luego de la obra sobre array
     dia a dia la posibilidad de encontrar unas horas para estudiar al
     menos lo basico. Pq tambien se da que mientras mas tiempo tenes
     peor es. ¿Como hacia antes que programaba en las horas sobrantes
-    de oficina? y logre programar todo. 
+    de oficina? y logre programar todo.
+*** [2021-07-31 Sat]
+    ayer probe de nuevo manjaro-i3 y descubri que mi version de i3 con
+    mint es mejor en muchos aspectos, pe es rapidisima, y tengo el
+    problema de la impresora solucionado, aparte de todo lo relativo a
+    programas con mint. Pq i3 seguira siendo i3 sobre la base de
+    manjaro, no le cambiara nada, es mas me parece que funciona mejor
+    este, salvo que tiene un fondo de pantalla. Pero son cosas que se
+    pueden programar.
+    Ademas cambie la terminal puse lxterminal que funciona mejor que
+    kitty pq habia instalado vim para el uso rapido y me funcionaba
+    mal con kitty.
+
+** 2021-Agosto
+*** [2021-08-01 Sun]
+    desde hoy empiezo a usar vim para mi workflow enteramente o sea queda
+    fuera emacs.
+    Comienzo con un drive-sheet para tener un mejor control de los tiempos
+    de estudio informe mas granularizado y mas facil.
+    No solo tendria el total estudiado por dia y por semana en forma facil sino
+    que tendria dichos valores por materia!!.
+    Tambien pensaba ayer unas columnas al costado de acumulados en horas
+    para poder saber cuando llego a las miticas 100 horas en alguna materia.
+    Esta bien que no cuento lo que leo aparte y practico aparte con el celu
+    pero por lo menos es la practica deliberada la que registro.
+    Me pregunto si avanzo o no avanzo.
+    En el sistema parece que si que avanzo que cada dia lo pongo mejor.
+    En vim estoy aprendiendo de nuevo un monton, recien llevo un par de dias.
+    Necesitaria un par de semanas de practica intensiva para ver si hay ganancias
+    de productividad evidentes.
+    Por lo que estoy viendo el flujo en orgmode es mejor, mas rapido.
+    En cuanto al estudio de cualquier materia, lo mejor es poner el cronometro
+    no el temporizador y parar cuando sea conveniente y registrar el tiempo justo
+    Este sistema es optimo para el registro.
+
+*** [2021-08-02 Mon]
+   esta mañana hice un raconto mental de lo aprendido y el nivel de lo alcanzado
+   y me parece pobre. En especial cuando se enfrenta uno a mesetas o a dias sin
+   motivacion como los ultimos dos en lo cuales no tenes ganas de estudiar.
+   Creo que el sistema de anotar con mas detalle y el controlar por cronometro
+   me impulsara a mayor motivacion.
+   Pienso que debo suspender el estudio/lectura todo de bash y concentrarme solo
+   en python y en english. Pq bash es muy complejo y es una disipacion de energia
+   Sino la otra seria abandonar python. Pero no tiene sentido. Si es por leer
+   libros en ingles de python hay a patadas.
+
+   El bache de improductividad lo veo p.e. en que hoy por h o por b son las 13hs
+   y solo tengo una hora anotada como estudio. Algo tengo que hacer.
+
+   El dia no cierra tan malo por ser lunes y estar tan bajon, y aparte pase pa-
+   peles. 3,5 hs. la mitad en python y la mitad en ingles. Hacer el librito de
+   ingles escribiendo todo, adquiriendo practica escrita del idioma y haciendo
+   los ejercicios y revisando el resultado, me parece llevadero y se aprende bien
+   En cuanto a python es mas dificil encontrar algo para hacer cuando uno esta
+   desmotivado pero creo que si no logro enganchar con algo tendria que dejarlo
+   de lado y ponerme a estudiar algo que realmente me motive.
+   La idea de hacer un proyecto basado en POO es muy motivante y creo que por
+   alli vamos a comenzar.
+   Al final lo cierro en 4hs. mas todo lo que hago fuera de horario.
+*** [2021-08-03 Tue]
+    hoy me levante motivado para perfeccionarme en el camino de python. Una lec-
+    tura de madrugada de poo me hace profundizar temas y pienso que es muy inte-
+    resante. Esta bien que a la hora de llevarlo a la practica yo solo se mani-
+    fiesta la falta de conocimiento, pero es mejor practicar algo por nuestra
+    cuenta que solamente leer.
+
+    Tambien relativo al ingles pense que un practica de 150 palabras por dia me
+    puede llevar a aprender un vocabulario mas amplio del que voy recolectando
+    con mis lecturas. Y podria abrirme en contextos para ir aprendiendo mas.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3514,7 +3552,7 @@ y no me lleva mas de digamos dos horas como mucho, y ademas no tengo
 muchas obligaciones familiares. Como resultas de todo lo dicho tengo
 mucho tiempo libre para malgastar o para dedicar a algo bueno. Esto me
 parece bueno para mi, pq no solo que me distrae sino que hace que mi
-mente se active. 
+mente se active.
 Pase por varias faces, primero creo que el primer mes cuando no
 habiamos cerrado la oficina y era una carrera por aprovechar el poco
 tiempo que tenia de este recreo que significaba la pandemia, el
@@ -3533,7 +3571,7 @@ de tener algo de la web, como quedo parado, mal.
 Luego vino la cancelacion del local, y al menos la perspectiva de que
 no hay donde volver a trabajar. Que el salir yo a la calle a trabajar
 o mutar de lo que estamos haciendo ahora solo podria darse mediando
-circunstancias extraordinarias. 
+circunstancias extraordinarias.
 Ahora desde el punto de vista de la programacion, veo que el primer
 mes aprendi con laravel, no reniego de eso, y renegue bastante mas que
 todo con los frontends. Y creo que hice bien en pasarme a rails, y
@@ -4542,6 +4580,7 @@ timido comienzo muy debil en estudio de js.
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
 ** semana [2021-07-25 Sun]                                 :python:bash:vim:
+** semana [2021-08-01 Sun]                                 :python:vim:english:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -4903,6 +4942,11 @@ j va a la linea siguiente
 VG entra en modo visual hasta el final de archivo
 :<,> normal . (normal . hace que en modo normal se ejecute . en todas
 las lineas marcadas por el visual.)
+** borrar en insert mode
+   Ctrl-u borra toda la linea
+   Ctrl-h borra un caracter
+   Ctrl-w borra por palabras
+   No solo vim funciona asi, sino el shell.
 * agenda TCL
 ** format-scan
 #+BEGIN_EXAMPLE
