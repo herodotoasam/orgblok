@@ -3509,6 +3509,41 @@ primer mm hecho luego de la obra sobre array
     puede llevar a aprender un vocabulario mas amplio del que voy recolectando
     con mis lecturas. Y podria abrirme en contextos para ir aprendiendo mas.
 
+    Bien con python, hice una practica solo y voy avanzando y me da entusiasmo y
+    me ocupo en eso.
+    Esta muy bien pq consolida el aprendizaje. No solo de poo sino tambien de
+    tkinter yq le di un repaso.
+    Y la POO es algo nuevo para mi, pq estaba acostumbrado a otro tipo de pro-
+    gramacion. Esta es la primera vez que veo en la vida real algo poo funcio-
+    nando que haya sido progrmado por mi.
+    Me pregunto: Estas horas son programacion o son estudio?. Creo que entran
+    dentro del estudio pq responden a un ejercicio en concreto de un libro que
+    estoy leyendo y versa sobre temas que no conozco. Y se trata de un proyecto
+    no laboral.
+*** [2021-08-04 Wed]
+    hoy sigo con python la idea es ver si podemos hacer que funcione la poo
+    con sqlite3 veremos.
+    Mal. No se puede. Hay que estudiar sqlalchemy para eso. No le encuentro
+    la forma en la cual se conecta el trabajar con poo y la persistencia de
+    datos.
+    Logre una forma de trabajar la persistencia pero no se si es la correcta
+    Me pondre a estudiar un poco sqlalchemy.
+    Otro dia que llego a las 4hs, y es por el entusiasmo que desata este tema
+    de python.
+
+*** [2021-08-05 Thu]
+   anoche lei bastante de sqlalchemy como para practicar hoy. Y tambien llegue
+   a la conclusion de que la tarea de grammar es muy importante y no debo rele-
+   garla sino mas bien potenciarla, p.e. mediante repaso de los temas ya escri-
+   tos arriba, y continuar.
+   Se me plantea el problema de la programacion o de la necesidad de programa-
+   cion puntual que interrumpe el flujo de los estudios, como paso la semana
+   pasada. Por el momento voy a registrar lo que encuentre necesario programar
+   para mantener la mente libre.
+   Instale Coc para autocompletado en todos los lenguajes que programo, funciona
+   en python, html, js, css y en cierta forma es lo que le faltaba a nvim.
+   Es importante el avance de conocimiento que voy dando en python que me permi-
+   te pasar a la poo. Ahora con sqlalchemy.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5693,6 +5728,7 @@ sudo. El resto todo igual y bien.
 22. along (a lo largo - al igual)
 23. 
 
-
-
-
+* agenda programacion
+1. corregir la seleccion de fichas para imprimir, no funciona.
+2. agregar la intimacion.
+3. ver de agregar un sistema de intimacion masivo.

@@ -11,6 +11,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " different version somewhere else.
+Plugin 'ervandew/supertab'
 Plugin 'morhetz/gruvbox'
 Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
@@ -20,7 +21,6 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'tpope/vim-surround'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
-Plugin 'ervandew/supertab'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
 ""Plugin 'axvr/org.vim'
@@ -32,6 +32,7 @@ Plugin 'dracula/vim'
 "Plugin 'nvim-lua/completion-nvim'
 Plugin 'kristijanhusak/orgmode.nvim'
 Plugin 'mbbill/undotree'
+Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -217,4 +218,15 @@ autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellesca
 "   }
 " end
 " EOF
-
+"
+" Completion by Conqueror
+" Use tab for trigger completion with characters ahead and navigate.
+" NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
+" other plugin before putting this into your config.
+inoremap <silent><expr> <TAB>
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
