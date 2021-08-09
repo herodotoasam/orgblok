@@ -23,7 +23,6 @@ Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
-""Plugin 'axvr/org.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
@@ -32,7 +31,7 @@ Plugin 'dracula/vim'
 "Plugin 'nvim-lua/completion-nvim'
 Plugin 'kristijanhusak/orgmode.nvim'
 Plugin 'mbbill/undotree'
-Plugin 'neoclide/coc.nvim', {'branch': 'release'}
+"Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -168,65 +167,65 @@ let g:jedi#use_splits_not_buffers = "bottom"
 autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 
-" " configuraciones de los keybinding de lsp
-
-" lua << EOF
-" local nvim_lsp = require('lspconfig')
-
-" -- Use an on_attach function to only map the following keys
-" -- after the language server attaches to the current buffer
-" local on_attach = function(client, bufnr)
-"   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
-"   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
-
-"   --Enable completion triggered by <c-x><c-o>
-"   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
-
-"   -- Mappings.
-"   local opts = { noremap=true, silent=true }
-
-"   -- See `:help vim.lsp.*` for documentation on any of the below functions
-"   buf_set_keymap('n', 'gD', '<Cmd>lua vim.lsp.buf.declaration()<CR>', opts)
-"   buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
-"   buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
-"   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
-"   buf_set_keymap('n', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
-"   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
-"   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
-"   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
-"   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
-"   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
-"   buf_set_keymap('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
-"   buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
-"   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
-"   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
-"   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-"   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
-"   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
-
-" end
-
-" -- Use a loop to conveniently call 'setup' on multiple servers and
-" -- map buffer local keybindings when the language server attaches
-" local servers = { "pyright", "rust_analyzer", "tsserver" }
-" for _, lsp in ipairs(servers) do
-"   nvim_lsp[lsp].setup {
-"     on_attach = on_attach,
-"     flags = {
-"       debounce_text_changes = 150,
-"     }
-"   }
-" end
-" EOF
-"
 " Completion by Conqueror
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
-inoremap <silent><expr> <TAB>
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
+"  inoremap <silent><expr> <TAB>
+"       \ <SID>check_back_space() ? "\<TAB>" :
+"       \ coc#refresh()
+" function! s:check_back_space() abort
+"   let col = col('.') - 1
+"   return !col || getline('.')[col - 1]  =~# '\s'
+" endfunction
+
+ " lua << EOF
+ " local nvim_lsp = require('lspconfig')
+
+ " -- Use an on_attach function to only map the following keys
+ " -- after the language server attaches to the current buffer
+ " local on_attach = function(client, bufnr)
+ "   local function buf_set_keymap(...) vim.api.nvim_buf_set_keymap(bufnr, ...) end
+ "   local function buf_set_option(...) vim.api.nvim_buf_set_option(bufnr, ...) end
+
+ "   --Enable completion triggered by <c-x><c-o>
+ "   buf_set_option('omnifunc', 'v:lua.vim.lsp.omnifunc')
+
+ "   -- Mappings.
+ "   local opts = { noremap=true, silent=true }
+
+ "   -- See `:help vim.lsp.*` for documentation on any of the below functions
+ "   buf_set_keymap('n', 'gD', '<Cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+ "   buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)
+ "   buf_set_keymap('n', 'K', '<Cmd>lua vim.lsp.buf.hover()<CR>', opts)
+ "   buf_set_keymap('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', opts)
+ "   buf_set_keymap('n', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', opts)
+ "   buf_set_keymap('n', '<space>wa', '<cmd>lua vim.lsp.buf.add_workspace_folder()<CR>', opts)
+ "   buf_set_keymap('n', '<space>wr', '<cmd>lua vim.lsp.buf.remove_workspace_folder()<CR>', opts)
+ "   buf_set_keymap('n', '<space>wl', '<cmd>lua print(vim.inspect(vim.lsp.buf.list_workspace_folders()))<CR>', opts)
+ "   buf_set_keymap('n', '<space>D', '<cmd>lua vim.lsp.buf.type_definition()<CR>', opts)
+ "   buf_set_keymap('n', '<space>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', opts)
+ "   buf_set_keymap('n', '<space>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+ "   buf_set_keymap('n', 'gr', '<cmd>lua vim.lsp.buf.references()<CR>', opts)
+ "   buf_set_keymap('n', '<space>e', '<cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>', opts)
+ "   buf_set_keymap('n', '[d', '<cmd>lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
+ "   buf_set_keymap('n', ']d', '<cmd>lua vim.lsp.diagnostic.goto_next()<CR>', opts)
+ "   buf_set_keymap('n', '<space>q', '<cmd>lua vim.lsp.diagnostic.set_loclist()<CR>', opts)
+ "   buf_set_keymap("n", "<space>f", "<cmd>lua vim.lsp.buf.formatting()<CR>", opts)
+
+ " end
+
+ " -- Use a loop to conveniently call 'setup' on multiple servers and
+ " -- map buffer local keybindings when the language server attaches
+ " local servers = { "pyright", "rust_analyzer", "tsserver" }
+ " for _, lsp in ipairs(servers) do
+ "   nvim_lsp[lsp].setup {
+ "     on_attach = on_attach,
+ "     flags = {
+ "       debounce_text_changes = 150,
+ "     }
+ "   }
+ " end
+" EOF
+
+

@@ -3329,7 +3329,7 @@ primer mm hecho luego de la obra sobre array
     la pase programando, pero no logro mezclar programacion y estudio.
     Llego a la conclusion que para python el mejor libro es el
     cookbook seguido recipe by recipe con anotaciones en hoja aparte
-    para repasarlas luego. 
+    para repasarlas luego.
     definitivamente es agradable programar en vim.
     proyecto para la semana:
     1. pasar todas las palabras pendientes a la app
@@ -3544,6 +3544,53 @@ primer mm hecho luego de la obra sobre array
    en python, html, js, css y en cierta forma es lo que le faltaba a nvim.
    Es importante el avance de conocimiento que voy dando en python que me permi-
    te pasar a la poo. Ahora con sqlalchemy.
+*** [2021-08-06 Fri]
+    Ayer hice un record de 280 minutos a pesar de lo cortado del dia.
+    Hoy el dia se presenta cumbersome. Un dia que estamos esperando el gasista.
+    y eso me tiene preocupado, pero no obstante me absorvi bastante de modo tal
+    que llevo 3horas sin poder resolver un simple tema de tkinter. O sea no es
+    ningun avance de sqlalchemy, sino que es necesaria la interfase de tkinker
+    y no logro articular. Se que es una parte importante del conocer python
+    pq es necesario hacer una rapida maquetacion en tkinker pero tiene que ser
+    rapida, no puede ser que llevo 3hs y no logre hacer nada.
+    Hoy los 220 minutos mas tontos de la semana con python intentando hacer una
+    interfase simple para mostrar las tarjetas que habia modelado con poo
+    para lo cual necesito textvariable seguramente funcionando bien y no lo pude
+    conseguir.
+    Podria intentarlo en flask.
+*** [2021-08-07 Sat]
+    Hoy la idea es intentar una solucion con flask. Pero tambien me planteo que
+    en la semana tiene que haber un dia de descanso, pero normalmente es el
+    domingo.
+    Llevo una semana del registro en googlesheet, me parece positivo. Uno se
+    acostumbra a tomar el tiempo con cronometro y resulta mas exacto.
+    Aparte es mas facil para el analisis tener desagregado lo que dedicamos a
+    cada tema.
+    Llevo una semana con ulangi que me parece genial para aprender vocabulario
+    en serio.
+    Llevo una semana de orgmode en vim y no veo mucha diferencia salvo mucha mas
+    agilidad. La unica pega es tener que cortar el wrap a mano.
+    Llevo dos semanas con i3 y es muy bueno, me resulta muy comodo y es rapido.
+
+    Destrabe por fin tkinter, no podia ser que no anduviera, era un problema con
+    con los comandos de los buttons.
+
+    Cambie el autocompletado de nvim. Volvi a lsp. Tiene un autocompletado
+    normal con tab, y un autocompletado con Ctrl-x/Ctrl-o de omnicompletion
+    que te busca las clases y los metodos que es lo que yo necesito eventualmente
+    Y no es tan invasivo como el otro que te llena de carteles por todos lados.
+
+    Hoy me agarro el tcl-hell, por un lado, eso fue antes de que destrabara
+    tkinter, y hace un rato un poco el emacs-hell.
+*** [2021-08-08 Sun]
+    anoche pude bajar un libro de sqlalchemy muy lindo, que estoy leyendo creo
+    que es un tema fascinante para profundizar por ahi.
+*** [2021-08-09 Mon]
+    el comienzo de semana fue bastante pobre pq no me senti muy bien. Dos migra-
+    les y un corty. Y dolor resciliente, con reposo. Lo unico que aproveche a
+    a leer bastante y a repasar palabras.
+    Y se me ocurrio una idea para programar un anki desde otro concepto: mas en-
+    focado al sistema Leiter o sea de las cajas.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4614,8 +4661,9 @@ timido comienzo muy debil en estudio de js.
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
-** semana [2021-07-25 Sun]                                 :python:bash:vim:
-** semana [2021-08-01 Sun]                                 :python:vim:english:
+** semana [2021-07-25 Sun]                               :python:bash:vim:i3:
+** semana [2021-08-01 Sun]                               :python:vim:english:i3:
+** semana [2021-08-08 Sun]                               :python:vim:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
