@@ -3591,6 +3591,7 @@ primer mm hecho luego de la obra sobre array
     a leer bastante y a repasar palabras.
     Y se me ocurrio una idea para programar un anki desde otro concepto: mas en-
     focado al sistema Leiter o sea de las cajas.
+    en 4hs lo termine. falta cargar los datos ahora.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
