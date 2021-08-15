@@ -3706,6 +3706,10 @@ primer mm hecho luego de la obra sobre array
     poner multiples dominios dentro de un mismo vps lo cual es algo
     que puede ser bueno, y me olvido de que ande o no ande, total es
     como darse un gusto y no es caro.
+    Hoy tambien baje debian 11 recien salido del horno, y me da ganas
+    de probarlo con i3 en la otra maquina ya que la impresion anda
+    genial.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

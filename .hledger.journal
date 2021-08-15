@@ -6823,3 +6823,15 @@ D $1000.00
 2021/08/14 empanadas
     expenses:comida             430
     assets:caja                -430
+
+2021/08/15 mesada isabel dia niño
+    expenses:isabel            2000
+    assets:caja               -2000
+
+2021/08/15 mesada cami extra
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2021/08/15 mesada romi dia del niño
+    expenses:romi            2000
+    assets:caja             -2000
