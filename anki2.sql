@@ -40,4 +40,13 @@ INSERT INTO anki VALUES(27,'accustomed','acostumbrado','Liz took her accustomed 
 INSERT INTO anki VALUES(28,'fellow','hombre sujeto compañero socio','He''s just some fellow I met on the bus.','2021-08-09 00:00:00.000000',1,0);
 INSERT INTO anki VALUES(29,'sparinly','con moderacion','Use the double cream sparinly, as too much isn''t good for you.','2021-08-09 00:00:00.000000',1,0);
 INSERT INTO anki VALUES(30,'replenish','reponer rellenar','Ellen replenished her supply of biscuits.','2021-08-09 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(31,'seamlessly','sin problemas perfectamente a la perfeccion','Adobe integrates seamlessly with all the popular file formats.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(32,'attainable','posible alcanzable asequible','Remember that hard requirements are objectively attainable goals.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(33,'reign','reinado reinar gobierno','Peace must reign, understanding and helping among human beings.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(34,'haphazardly','al azar sin orden ni concierto caprichosamente','Users who have to jump around a form haphazardly to match their workflow are more likely to make mistakes.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(35,'clerk','empleado secretario recepcionista','That way data entry clerks can zip right through the form...','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(36,'bounce','rebote rebotar','without having to bounce around the screen.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(37,'mockup','maqueta prototipo','Take a moment to make a mockup of your form using paper and pencil.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(38,'readily','facilmente rapidamente inmediatamente','It''s readily avalaible on both your development and target platforms.','2021-08-10 00:00:00.000000',1,0);
+INSERT INTO anki VALUES(39,'mistakenly','erroneamente equivocadamente','in case you mistakenly assign your variable to it.','2021-08-10 00:00:00.000000',1,0);
 COMMIT;

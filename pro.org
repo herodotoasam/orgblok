@@ -2785,7 +2785,7 @@ primer mm hecho luego de la obra sobre array
     anduvo bien con nginx-gunicorn.
 *** [2021-06-10 Thu]
     luego de un problema de caida de servidor con donweb a raiz de una
-    actualizacion del sistema lo solucione rapido. 
+    actualizacion del sistema lo solucione rapido.
 *** [2021-06-11 Fri]
     necesitaba una tercera instalacion limpia de pelo y barba y la
     consegui en digital-ocean via apache, con solucion impecable del
@@ -2867,7 +2867,7 @@ primer mm hecho luego de la obra sobre array
     desarrollo de buscar que estaba en node a este stack y lo hago
     rapidamente sin problemas. Actualizo forma de tratar con pymysql
     con forma dict y mediante una clase.
-*** [2021-06-28 Mon] 
+*** [2021-06-28 Mon]
     dia aciago, ayer con problemas de diseño con los dialogos de login
     y signup y esta mañana comienzo bien en poco tiempo rediseño bien
     logrando un pasable y armonioso diseño, pero no me anda el sistema
@@ -2882,7 +2882,7 @@ primer mm hecho luego de la obra sobre array
 *** [2021-06-29 Tue]
     medio dia dedicado a incursionar en scarlette y en fastapi,
     chocando con la complejidad y en especial con el problema de la
-    falta de jsonify para pasar un list en forma comoda. 
+    falta de jsonify para pasar un list en forma comoda.
     Decepcionado finalmente vuelvo a probar flask y a mirar de cerca
     el problema, buscando encuentro que el problema estaria en la
     funcion login.user_loader, que segun el print que yo tenia no se
@@ -2892,7 +2892,7 @@ primer mm hecho luego de la obra sobre array
     print me doy que una fstring estaba mal escrita le faltaba el f,
     entonces la consulta nunca se ejecutaba bien. O sea todo el
     problema de un dia y medio de perdida de tiempo se limito a una
-    letra f. 
+    letra f.
 *** [2021-06-30 Wed]
     practico el montaje y desmontaje de apache en el vps mixto
     moodle/rx pero no puedo iniciar moodle, solo puedo sacar y volver
@@ -2994,9 +2994,9 @@ primer mm hecho luego de la obra sobre array
     con remoto. Lo cual seria muy interesante a la hora de dividir las
     tareas, visualizacion de datos en la web y escritorio para el
     pasado de datos.
-*** [2021-07-07 Wed] 
+*** [2021-07-07 Wed]
     logre la conexion de datos con mysql-python con el conector
-    oficial, no con pymysql. 
+    oficial, no con pymysql.
     Ahora queda empezar a fabricar un cliente python-tkinter para
     pasar recibos/pasarventas etc. Por el momento vamos a pensar en un
     cliente de prueba para ver si logramos algo mas ergonomico que lo
@@ -3010,7 +3010,7 @@ primer mm hecho luego de la obra sobre array
     mejoras: el fetch con dictionary, el buscarpordni por filter de la
     lista previamente fetcheada, el uso de un objeto para no usar las
     variables sueltas, el uso de la class grid-buscar para el
-    encabezado buscar. 
+    encabezado buscar.
 *** [2021-07-08 Thu]
     avance lento pero parejo en el trabajo sucio de trasladar el
     codigo de lo hecho en fl6 con buscar.html aca con bulma, pero va
@@ -3026,7 +3026,7 @@ primer mm hecho luego de la obra sobre array
     termine todos los botones, me falta las tablas. Instale uma 20.02
     en la amd8gb para tenerla preparada para el modem claro, pero
     todavia estoy en dudas, pero fue un ejercicio de instalacion, la
-    cual se hizo sin ningun problema. 
+    cual se hizo sin ningun problema.
     Hoy termine el modulo buscar solo falta corregir algun detalle
     menor y en realidad esta mejor que lo que estaba en fl6 pq usa la
     experiencia que en fl6 recien consegui en ventas.html.
@@ -3185,7 +3185,7 @@ primer mm hecho luego de la obra sobre array
     un set repasable.
     Con respecto a la lectura bastante bien avance un buen poco pq me
     quede bastante anoche y me voy acostumbrando a la lectura en
-    ingles sin problemas. 
+    ingles sin problemas.
     Y tambien tuve el tiempo para hacer un par de sesiones de 6min de
     grammar para estar atento al oido en ingles. Creo que toda una
     sesion continuada de aprendizaje que puede llevar a los objetivos.
@@ -3196,7 +3196,7 @@ primer mm hecho luego de la obra sobre array
     la par que sigamos con el libro por lo menos un par de capitulos
     mas.
     Y me pico el bichito de vim, para el desarrollo de python, al
-    menos por el momento. 
+    menos por el momento.
 *** [2021-07-18 Sun]
     sigo bien pero estos dias son atipicos pq estamos con la visita de
     los nietos.
@@ -3592,6 +3592,120 @@ primer mm hecho luego de la obra sobre array
     Y se me ocurrio una idea para programar un anki desde otro concepto: mas en-
     focado al sistema Leiter o sea de las cajas.
     en 4hs lo termine. falta cargar los datos ahora.
+*** [2021-08-10 Tue]
+    funcional la applicacion con las limitaciones que tiene el text-to-voice de
+    python que no es tan claro como el del celular, pero el funcionamiento logico
+    de la aplicacion esta bien, y la hice en poco tiempo aplicando conceptos
+    aprendidos recientemente de poo y sqlalchemy.
+
+    Pienso que le dedico una hora por dia a los terminos, practicando los 200 de
+    ulangi y pasando los terminos nuevos. Luego dedico una hora promedio por dia
+    a leer en ingles. Eso hace minimo dos horas de practica del lenguaje por dia.
+    en 240 dias, o sea en 8 meses tendria 480hs de practica lo suficiente como
+    para mejorar el nivel que tenia antes.
+
+    Hoy llegara la tablet y en teoria aumentara la calidad de la lectura en pdf
+    no mucho mas que eso pq todo depende de la cantidad de tiempo en horizontal
+
+    La preocupacion me afecta para poder emprender otro proyecto. No se si en
+    realidad voy a poder seguir viviendo de rentas o tendre que salir a trabajar
+    y en ese caso cambiara totalmente el panorama.
+
+    Le puse text to speach online a la app y quedo genial, y como le puse que
+    lea el ejemplo mas denso es el material que entra en la memoria.
+
+    Un cambio muy importante en estos ultimos tiempos fue el pasar de los videos
+    a la lectura de libros/manuales lo cual pienso es mucho mas importante.
+    Aunque mas arduo en especial pq la mayoria esta en ingles. Y porque el dispo-
+    sitivo no es muy comodo para leer.
+
+    Hoy es un dia escaso pq la preocupacion por el trabajo y la ansiedad de la
+    espera de la tablet y la falta de un nuevo proyecto hacen que no me enganche
+    en algo. Eso que me levante muy temprano y estoy aca desde las 8hs.
+*** [2021-08-11 Wed]
+    hoy empieza una nueva etapa si tenemos en cuenta la conversacion de anoche
+    tendria que potenciar los resultados en todo sentido.
+    O sea tendria que estar motivado para sin trabas de ninguna especie dedicar-
+    me a lo que mas me gusta.
+    Y aca me pregunto que es lo que me gusta? cual es el objetivo de lo que quie-
+    ro lograr.
+    Estas ultimas semanas segun el avance semanal estoy dedicado a perfeccionar
+    vim a largo plazo, aprender el uso de un entorno como el i3, a largo plazo,
+    y en concreto a corto plazo o mas bien intensivamente al ingles, y a python.
+    Ingles pensaba en un momento ideal p.e. en que termine el libro de grammar,
+    y haya aprendido perfectamente 1000 palabras nuevas y haya escuchado y com-
+    prendido un par de libros como robinson crussoe, y a la vez siga con mis lec-
+    turas de pdf en ingles, no creo que aprenderia, sino que llegaria a un stage
+    a un nivel 1 digamos. Despues sigue.
+    En cambio con python estoy mas perdido, si bien es cierto que los tres o cua-
+    tro libros que leo son de python, no es facil encontrar proyectos para hacer.
+    que no caigan en mas de lo mismo. Si bien podria copiar los ejemplos por el
+    momento, modificar los ejemplos y agregarles entorno.
+    Buenas dos horas con una copia e interpretacion de un capitulo del libro
+    altamente instructivo en todos los sentidos.
+    Hice la version inversa del anki, y el repaso es muy fructifero, tengo que
+    chequear el algoritmo pq me repite palabras. Pero es muy importante lo que
+    se aprende en ingles y lo importante que es desarrollarlo en python.
+*** [2021-08-12 Thu]
+    hoy el objetivo es las 6hs. Empecemos.
+    objetivo cumplido 375minutos. Me enganche mucho con el perfeccionamiento de
+    tk2/4/5 y luego con el ankiflask. Una vez visto que puedo pasar datos por
+    medio de jsonify veo que con js se puede hacer de todo y es muy divertido
+    programar en json, me gusta mucho tambien. Toda la programacion web me gusta
+    Hay tengo una veta por profundizar pq la idea seria el mismo anki que tengo
+    en tkinter llevarlo a flask y poderlo usar con la tablet o el celu y en tk
+    todo con la misma base de datos. Y el ingles esta relacionado y tracciona.
+    Proximo proyecto reemplazar el hl add con un programa en flask/tk que tenga
+    la db en la nube y sea usable desde pc o celu.
+*** [2021-08-13 Fri]
+    anoche descubri un yacimiento de pdf actuales entre los cuales habia un
+    manual superactualizado y completo de javascript, lo cual me dio ganas de
+    leer y perfeccionar dado la buena experiencia de ayer en la programacion.
+    Hoy el objetivo es hacer 6hs tambien.
+    Hice casi 5hs pero lei bastante.
+*** [2021-08-14 Sat]
+    hoy sabado estoy suficientemente motivado como para hacer un buen tiempo
+    eso pienso.
+    hice 168min y llegue sin querer justo a los 1548 minutos empatando la semana
+    anterior.
+    quedaria por hacer quizas algo, pero ya no tan importante pq termine un blo-
+    que, la programacion del programa de ingles propio y desde la red. No es poca
+    cosa y me sirvio de repaso para muchos temas y para recuperar un poco a js.
+    Esta a sido una semana muy importante pq he consolidado el habito del ingles
+    y de la lectura de pdf (ahora esta la tablet). Para la practica si no hay
+    proyecto propio cabe hacer practicas de los temas de los libros.
+    Hace 5 semanas que estoy con ingles y cada dia estoy mas motivado, hasta
+    hice un anki propio en la red para aprender en forma experimental con el
+    sistema leiter.
+    Llevo 3 semanas completas con i3 y me siento comodo con el sistema.
+    Con vim es ambiguo por momentos no es cien por ciento seamlessly la expe-
+    riencia pero por descarte me quedo, pq no me encuentro volviendo a emacs
+    y menos a code.
+    Con python se hizo un avance por la lectura de libros que es una manera muy
+    profesional de aprender muy profunda, el libro que estoy leyendo aparte de
+    que me aporta terminos, casi la mitad de todos, me aporto ideas, y el sis-
+    tema de anki que desarrolle es con poo y con sqlalchemy. 
+    Lamentablemente para bien o para mal parece que me agarro el
+    vaiven de emacs o el emacs-hell y con unos pocos tweaks estoy en
+    emacas de nuevo.
+    El tema es que tengo todo el armamento de emacs mas el movimiento
+    de vim, pq tengo el poder del dot, del slash de busqueda, del
+    control-o, del visual mode, y en general de todos los movimientos
+    del normal mode.
+    Visualmente con el font a 14, dejavu, y gruvbox no parece
+    diferente a vim. La fluidez tampoco.
+    El workflow en python es excelente, digamos muy superior a vim.
+    en html/js es bastante bueno, hay emmet y autocomplete, pero no
+    hay js como no tenia tampoco en code y menos en vim, se podria programar.
+    en orgmode el workflow es muy superior obviamente pq es nativo y
+    todo lo que es orgmode esta presente.
+    preciosa la interfase de trabajo.
+*** [2021-08-15 Sun]
+    desafortunadamente no anda el vps de oracle. Tengo ganas de
+    comprar un vps en donweb para mis desarrollos. He visto que puedo
+    poner multiples dominios dentro de un mismo vps lo cual es algo
+    que puede ser bueno, y me olvido de que ande o no ande, total es
+    como darse un gusto y no es caro.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -3777,7 +3891,7 @@ de cabeza dentro de eso es facinante y te lleva por caminos nunca
 vistos. Y como eso hay un millon de caminos. Es increible que con tcl
 se hagan cosas como tablelist sin objetos. Tambien esta todo el tema
 de la web a nivel teorico pero por ahora no lo toco pq no es tiempo aun.
-
+
 * avance semanal
 ** semana [2020-06-07 dom]                 :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
@@ -4662,9 +4776,10 @@ timido comienzo muy debil en estudio de js.
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
-** semana [2021-07-25 Sun]                               :python:bash:vim:i3:
+** semana [2021-07-25 Sun]                       :python:english:bash:vim:i3:
 ** semana [2021-08-01 Sun]                               :python:vim:english:i3:
 ** semana [2021-08-08 Sun]                               :python:vim:english:i3:
+** semana [2021-08-14 Sat]               :python:emacs:english:i3:Javascript:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
