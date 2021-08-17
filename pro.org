@@ -3709,7 +3709,47 @@ primer mm hecho luego de la obra sobre array
     Hoy tambien baje debian 11 recien salido del horno, y me da ganas
     de probarlo con i3 en la otra maquina ya que la impresion anda
     genial.
-    
+    Decidi al final no instalarlo todavia, pq en realidad no voy a
+    experimentar diferencias con lo que tengo actualmente, pq mint
+    funciona perfectamente bien. 
+    Si tuve exito en trasladar el sistema a un nuevo vps. 
+    Este fue un domingo muy intenso como un dia de semana, pq tuve la
+    prueba de debian y el simulacro de instalacion que resulto fallido
+    en la otra maquina y la creacion del nuevo vps, mas una practica
+    de una hora veinte de ingles. Mas pasar todos los recibos. Pero
+    mañana es feriado.
+    Segundo dia de uso de emacs: totalmente vencedor: para python es
+    asombrosamente mejor, para org obviamente es mejor y para html/js
+    es o bien igual o levemente superior, y el manejo de buffers es
+    mejor pq aunque te muestra el directorio actual te permite irte a
+    otros. 
+*** [2021-08-16 Mon]
+    empece mal el lunes con un intento fallido de instalar doom-emacs
+    todo pq no tengo emacs27 en la maquina y es imposible instalarlo.
+    y tuve que reinstalar de nuevo todo mi emacs que es complejo pq
+    las instalaciones de los paquetes practicamente hay que hacerlas a
+    mano pq no estan puestas en el script.
+    Voy a intentar instalar debian 11 en la vieja netbook pq parece
+    que debian tiene emacs 27 luego veremos que pasa. 
+    El programa de ingles es muy bueno pq permite un manejo
+    personalizado de lo que necesitamos aprender, no como los otros
+    que ellos manejan las repeticiones haciendonos perder el tiempo
+    repitiendo terminos ya conocidos y no repitiendo lo suficiente los
+    que no conocemos. Aparte el tener los ejemplos hace que escuchemos
+    mucho lenguaje y mucha repeticion lo cual graba tambien el termino
+    en la mente.
+    Al final decido que antes de instalar debian voy a estudiar si
+    doom-emacs funciona para js y para python como yo quiero sino me
+    quedo con mi propia configuracion de emacs, y no tengo que
+    reinstalar por ahora.
+    Desisti al final de doom-emacs sin romper nada pq lo probe en la
+    netbook y vi que en python no sirve y en js si esta muy bueno lo
+    que tiene. Seria cuestion de tratar de emularlo. No tiene una
+    completion con tab como tiene aca python y js/html. 
+    Hoy no llegue a los 240 en un dia totalmente improductivo y
+    termino totalmente cansado. Pero quizas fue por la distraccion de
+    doom-emacs. Eso te lleva mucho tiempo y energias. Luego por ser
+    feriado el dia se planteo diferente. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

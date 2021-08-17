@@ -1,0 +1,83 @@
+* instalacion vps
+** sudo apt -y install apache2
+** sudo systemctl restart apache2
+** iptables
+sudo iptables -I INPUT 6 -m state --state NEW -p tcp --dport 80 -j ACCEPT
+sudo netfilter-persistent save
+*** en el vps donweb tuve problemas:
+    iptables: Index of insertion too big.
+    lo solucione sacando el 6 despues del INPUT
+    netfilter-persistent: command not found
+    lo solucione instalando netfilter-persistent
+** sudo apt -y install php libapache2-mod-php
+php -v
+sudo systemctl restart apache2
+** test de ip on the browser to see the apache index page
+** sudo apt install apache2-dev libapache2-mod-wsgi-py3 
+** crear los directorios en /var/www/
+/var/www/webApp y /var/www/webApp/webApp
+** chown y chmod 755 a los directorios /var/www/
+** install pip3/flask/flask_sqlalchemy
+   sudo apt install python3-pip
+   sudo pip3 install flask
+   sudo pip3 install flask_sqlalchemy
+   sudo pip3 install mysql-connector-python
+** configure y enable virtual host en apache 
+   sudo vim /etc/apache2/sites-avalaible/webApp.conf
+
+   <VirtualHost *:80>
+		ServerName ip
+		ServerAdmin email@mywebsite.com
+		WSGIScriptAlias / /var/www/webApp/webapp.wsgi
+		<Directory /var/www/webApp/webApp/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		Alias /static /var/www/webApp/webApp/static
+		<Directory /var/www/webApp/webApp/static/>
+			Order allow,deny
+			Allow from all
+		</Directory>
+		ErrorLog ${APACHE_LOG_DIR}/error.log
+		LogLevel warn
+		CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+Cambiarle la ip y ponerle la verdadera ip
+hacer el directorio static en webApp.
+** sudo a2ensite webApp 
+luego sudo systemctl reload apache2
+** hacer el archivo webapp.wsgi en /var/www/webApp/
+#!/usr/bin/python3
+import sys
+import logging
+logging.basicConfig(stream=sys.stderr)
+sys.path.insert(0,"/var/www/webApp/")
+
+from webApp import app as application
+application.secret_key = 'Add your secret key'
+**  subir los archivos y carpetas de la aplicacion
+   recordar que app.py debe llamarse __init__.py
+**  crear la base de datos mysql
+*** instalar mysql
+    sudo apt install mysql-server
+*** configurar
+    sudo mysql; (como root)
+    CREATE DATABASE hero;
+    CREATE USER 'hero' IDENTIFIED BY 'ata';
+    GRANT ALL PRIVILEGES ON hero.* to hero;
+
+    mejor opcion mas general y con super:
+    CREATE USER '{{ username }}'@'%' IDENTIFIED BY '{{ password }}';
+    GRANT ALL PRIVILEGES ON *.* TO '{{ username }}'@'%' WITH GRANT OPTION;
+    ALTER USER 'user'@'%' IDENTIFIED WITH mysql_native_password BY 'password';
+
+    FLUSH PRIVILEGES;
+    exit;
+
+    entro como
+    mysql -p
+    y pongo la password
+   
+**  sudo service apache2 restart
+**  abrir la ip en el browser

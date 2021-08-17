@@ -6835,3 +6835,7 @@ D $1000.00
 2021/08/15 mesada romi dia del niño
     expenses:romi            2000
     assets:caja             -2000
+
+2021/08/15 facturas
+    expenses:comida            $500
+    assets:caja               $-500

@@ -14,7 +14,7 @@ three cups
 
 One baby -> two babies
 
-** Words ending in ch, x, sh, ss, s: add es.
+** Words ending in ch, x, sh, Sq, s: add es.
 
 a match -> two matches
 a box   -> two boxes
@@ -622,4 +622,40 @@ But in British English have got is more common than have for possession.
     We work. We don't work. Do we work? Yes, we do. No, we don't.
     They work. We don't work. Do they work? Yes, they do. No, they don't.
 
+*** 16b
+    1. Hello. Nice to see you. Do you work here?
+       Yes, I do, I'm the head waiter.
+    2. Oh good. And do you like it?
+    3. Oh yes. I love it here. It's an excellent restaurant.
+    4. The chef cooks wonderful food and the waiters all
+    5. work very hard. The only problem is that I
+    6. don't go out in the evenings any more because I'm
+       always busy here.
+    7. Ah, that's why we don't see you now at the club.
+    8. That's right. I only have one evening free and I
+    9. usually stay at home then.
+    10. Does Maria go to the club now?
+    11. Oh yes, she does. She talks about you sometimes.
+    12. Do you see her?
+    13. No. I don't. I'm always busy and she doesn't know 
+    14. about this new job. I telephone her sometimes but
+        she's always out.
+    15. Well, she goes out quite often. But I
+    16. know she wants to see you again.
+        Look at the door! It's Maria. She's coming in here.
 
+** was, were: Past Simple tense of verb to be
+   Form:
+   | I was     | I was not     | I wasn't     | Was I ... ?    |
+   | You were  | You were not  | You weren't  | Were you ... ? |
+   | She was   | She was not   | She wasn't   | Was she ... ?  |
+   | He was    | He was not    | He wasn't    | Was he ...?    |
+   | It was    | It was not    | It wasn't    | Was it ...?    |
+   | We were   | We were not   | We weren't   | Were we ...?   |
+   | They were | They were not | They weren't | Were they ...? |
+   
+   
+*** 17a
+    1. He was very tired yesterday.
+    2. They were not very happy together.
+    3. You were very angry with me last night.
