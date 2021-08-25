@@ -6839,3 +6839,143 @@ D $1000.00
 2021/08/15 facturas
     expenses:comida            $500
     assets:caja               $-500
+
+2021-08-17 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-08-17 saco reservas
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-08-17 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021-08-17 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021-08-17 migral
+    expenses:gastos medicos:farmacia             980
+    assets:caja                                 -980
+
+2021-08-18 comida
+    expenses:comida             630
+    assets:caja                -630
+
+2021-08-18 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021-08-18 jardinero
+    expenses:casa:mantenimiento:jardineria            1500
+    assets:caja                                      -1500
+
+2021-08-19 epec 07/2021
+    expenses:servicios:epec            6282
+    assets:caja                       -6282
+
+2021-08-19 ospe
+    expenses:servicios:OSPE          $28715
+    assets:caja                     $-28715
+
+2021-08-19 claro
+    expenses:servicios:claro            2356
+    assets:caja                        -2356
+
+2021-08-19 dgr casa 2021/09-10
+    expenses:impuestos:casa:dgr           $1964
+    assets:caja                          $-1964
+
+2021-08-19 municipal casa 2021/08
+    expenses:impuestos:casa:municipal             647
+    assets:caja                               -647
+
+2021-08-19 municipal bora
+    expenses:impuestos:bora             414
+    assets:caja                      -414
+
+2021-08-19 isabel
+    expenses:isabel             200
+    assets:caja                -200
+
+2021-08-19 saco reservas
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021-08-19 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021-08-19 dif
+    expenses:diferencia arqueo            2582
+    assets:caja                          -2582
+
+2021-08-20 odontologo
+    expenses:gastos medicos:odontologia            2300
+    assets:caja                                   -2300
+
+2021-08-20 pan
+    expenses:comida             220
+    assets:caja                -220
+
+2021-08-20 gatos
+    expenses:comida:gatos             200
+    assets:caja                      -200
+
+2021-08-21 comida
+    expenses:comida            2000
+    assets:caja               -2000
+
+2021-08-23 libro cami
+    expenses:cami:extras            2100
+    assets:caja                    -2100
+
+2021-08-23 mesada ih
+    expenses:isabel            2000
+    assets:caja               -2000
+
+2021-08-23 comida
+    expenses:comida             130
+    assets:caja                -130
+
+2021-08-23 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021-08-23 saco reservas
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021-08-23 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021-08-23 comida cami
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021-08-25 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2021-08-25 saco reservas
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021-08-25 optica
+    expenses:gastos medicos:opticas           30000
+    assets:caja                              -30000
+
+2021-08-25 farmacia hp
+    expenses:gastos medicos:farmacia            3656
+    assets:caja                                -3656
+
+2021-08-25 farmacia hp
+    expenses:gastos medicos:farmacia            2352
+    assets:caja                                -2352
+
+2021-08-25 farmacia hp
+    expenses:gastos medicos:farmacia              39
+    assets:caja                                  -39

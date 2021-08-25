@@ -59,6 +59,20 @@ application.secret_key = 'Add your secret key'
 **  subir los archivos y carpetas de la aplicacion
    recordar que app.py debe llamarse __init__.py
 **  crear la base de datos mysql
+*** instalar mariadb
+**** primero 
+sudo apt -y update
+sudo apt -y install software-properties-common gnupg2
+sudo apt -y upgrade
+sudo reboot
+**** segundo
+apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xF1656F24C74CD1D8
+add-apt-repository "deb [arch=amd64] http://mariadb.mirror.liquidtelecom.com/repo/10.5/debian $(lsb_release -cs) main"
+**** tercero
+     apt update
+     apt install mariadb-server mariadb-client
+**** cuarto
+     mysql_secure_installation
 *** instalar mysql
     sudo apt install mysql-server
 *** configurar
@@ -78,6 +92,17 @@ application.secret_key = 'Add your secret key'
     entro como
     mysql -p
     y pongo la password
-   
+*** cuidado con sqlalchemy y los users 
+    pq usa un usuario tipo hero@localhost
+    me paso que no me aceptaba la coneccion, y creo el usuario pero
+    ese usuario descubro despues de mucho debug que no tenia el grant
+    all privileges with grant option por el usuario root.
+
 **  sudo service apache2 restart
 **  abrir la ip en el browser
+* bajar archivo del server
+** scp  -P 5657 root@168.181.186.241:/var/www/webApp/webApp/__init__.py ~/anki/__init__.py
+desde nuestra maquina ubicamos el archivo que queremos bajar y ponemos
+el nombre que le vamos a asignar y listo. 
+
+Util para bajar el backup de la base de datos.

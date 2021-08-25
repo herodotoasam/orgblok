@@ -2,6 +2,8 @@
 (defvar efs/default-font-size 140)
 (defvar efs/default-variable-font-size 140)
 
+(setq byte-compile-warnings '(cl-functions))
+
 ;; Make frame transparency overridable
 (defvar efs/frame-transparency '(90 . 90))
 
@@ -30,6 +32,7 @@
 (set-fringe-mode 10)        ; Give some breathing room
 
 (menu-bar-mode -1)            ; Disable the menu bar
+(simpleclip-mode 1)           ; enable simpleclip globaly
 
 ;; Set up the visible bell
 ;;(setq visible-bell t)
@@ -54,28 +57,33 @@
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 
-(set-face-attribute 'default nil :font "Dejavu Sans Mono" :height efs/default-font-size)
+(set-face-attribute 'default nil :font "Source Code Pro" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
-(set-face-attribute 'fixed-pitch nil :font "Dejavu Sans Mono" :height efs/default-font-size)
+(set-face-attribute 'fixed-pitch nil :font "Source Code Pro" :height efs/default-font-size)
 
 ;; Set the variable pitch face
-(set-face-attribute 'variable-pitch nil :font "Cantarell" :height efs/default-variable-font-size :weight 'regular)
+;;(set-face-attribute 'variable-pitch nil :font "Cantarell" :height efs/default-variable-font-size :weight 'regular)
 
 
 ;;Make ESC quit prompts
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
      
-(use-package general
-  :config
-  (general-create-definer rune/leader-keys
-    :keymaps '(normal insert visual emacs)
-    :prefix "SPC"
-    :global-prefix "C-SPC")
+;; (use-package general
+;;   :config
+;;   (general-create-definer rune/leader-keys
+;;     :keymaps '(normal insert visual emacs)
+;;     :prefix "SPC"
+;;     :global-prefix "C-SPC")
 
-  (rune/leader-keys
-    "t"  '(:ignore t :which-key "toggles")
-    "tt" '(counsel-load-theme :which-key "choose theme")))
+;;   (rune/leader-keys
+;;     "t"  '(:ignore t :which-key "toggles")
+;;     "tt" '(counsel-load-theme :which-key "choose theme")))
+
+(use-package doom-themes)
+(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
+      doom-themes-enable-italic t) ; if nil, italics is universally disabled
+(load-theme 'doom-one t)
 
 (use-package evil
   :init
@@ -100,11 +108,7 @@
   :config
   (evil-collection-init))
 
-(use-package doom-themes
-  :init (load-theme 'doom-gruvbox t))
 
-
-;; (use-package all-the-icons)
 
 
 (use-package which-key
@@ -187,7 +191,7 @@
 
 (require 'powerline)
 (powerline-default-theme)
-;;(powerline-center-evil-theme)
+(powerline-center-evil-theme)
 
 ;;;python-elpy
 (require 'elpy)
@@ -267,12 +271,14 @@
 (global-set-key (kbd "M-<down>") 'move-line-down)
 
 (desktop-save-mode 1)
-(recentf-mode 1)
-(setq recentf-max-menu-items 25)
+;;(recentf-mode 1)
+;;(setq recentf-max-menu-items 25)
 
 (autoload 'tcl-mode "tcl" "Tcl mode." t)
 (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+;; (autoload 'python-mode' "python" "Python" t)
+;; (add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
 
 (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
@@ -284,7 +290,7 @@
 ;; NOTE: Make sure to configure a GitHub token before using this package!
 ;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
-(use-package forge)
+;;(use-package forge)
 
 
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
@@ -301,6 +307,30 @@
 
 ;; Better imenu
 (add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+
+;; Improv performance emacs
+(setq gc-cons-threshold (* 2 1000 1000))
+
+
+;; (use-package all-the-icons)
+
+;; (use-package dashboard
+;;   :init      ;; tweak dashboard config before loading it
+;;   (setq dashboard-set-heading-icons t)
+;;   (setq dashboard-set-file-icons t)
+;;   (setq dashboard-banner-logo-title "Emacs Is More Than A Text Editor!")
+;;   ;;(setq dashboard-startup-banner 'logo) ;; use standard emacs logo as banner
+;;   (setq dashboard-startup-banner "~/.emacs.d/emacs-dash.png")  ;; use custom image as banner
+;;   (setq dashboard-center-content nil) ;; set to 't' for centered content
+;;   (setq dashboard-items '((recents . 5)
+;;                           (agenda . 5 )
+;;                           (bookmarks . 3)
+;;                           (projects . 3)
+;;                           (registers . 3)))
+;;   :config
+;;   (dashboard-setup-startup-hook)
+;;   (dashboard-modify-heading-icons '((recents . "file-text")
+;; 			      (bookmarks . "book"))))
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (custom-set-variables
@@ -308,12 +338,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files (quote ("~/orgblok/")))
+ '(org-agenda-files '("~/orgblok/"))
  '(package-selected-packages
-   (quote
-    (ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag)))
- '(projectile-globally-ignored-file-suffixes (quote ("#")))
- '(projectile-globally-ignored-files (quote ("#*#" "TAGS")))
+   '(pdf-tools all-the-icons elpygen simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
+ '(projectile-globally-ignored-file-suffixes '("#"))
+ '(projectile-globally-ignored-files '("#*#" "TAGS"))
  '(projectile-mode t nil (projectile)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -3750,6 +3750,183 @@ primer mm hecho luego de la obra sobre array
     termino totalmente cansado. Pero quizas fue por la distraccion de
     doom-emacs. Eso te lleva mucho tiempo y energias. Luego por ser
     feriado el dia se planteo diferente. 
+*** [2021-08-17 mar]
+    hoy instale debian 11, y por lo menos todo ok. hasta ahora no noto
+    diferencia aunque no he terminado de instalar algunas cosas.
+    noto que emacs es mas lento para abrir pero puede ser una
+    sensacion mia. O puede ser el wm. 
+    Por el momento no puedo probar el wm, pq lo estoy atendiendo a
+    Fabian.
+    A la tarde lo probare.
+    Tengo que volver a la productividad, para no perderme en temas que
+    no son importantes.
+    Instale mariadb y es muchisimo mas rapida que mysql, no se si sera
+    debian o mariadb, pero es un abuso de velocidad.
+    Problemas en el pip install requirement es porque algunos
+    programas estan atrasados, me paso con pandas. quizas haya que
+    actualizar.
+    Compre dominio fidin.uno para romitex, de modo de proteger un poco
+    los datos a futuro. 
+*** [2021-08-18 mié]
+    ayer fue un dia dentro de todo muy productivo pq instale debian
+    11, cambie el sitio de romitex a un nuevo dominio, cambiando de
+    sistema o sea pasandolo de nginx a apache, y cambie la base de
+    datos de mysql a mariadb.
+    Hoy el objetivo es hacer 4hs, bastante ingles y algunos retoques
+    al programa.
+    El programa de ingles funciona muy bien para el aprendizaje pq
+    permite la incorporacion de las palabras y la practica temprana de
+    los terminos nuevos sin perdidas de tiempo en tenerlos mezclados
+    con terminos antiguos.
+    Hay dias como hoy que siento que soy improductivo que me cuesta
+    arrancar.
+    Hice la modificacion a cargar, le agregue una tabla y edicion y
+    borrado, pero tuve un contratiempo con google-chrome que hablaba
+    en español y perdi como una hora cambiando los locales. Ahora ya
+    se como se hace.
+    Abandono el ejemplo state de py. Vere si mañana comienzo con un
+    ejemplo mas interesante o directamente comienzo con un proyecto
+    propio.
+    Me estoy percatando que mariadb podria ser encriptada en el vps ya
+    que lo administramos nosotros, seria cuestion de probar.
+*** [2021-08-19 Thu]
+    hoy empece el dia con el fossil-hell pero no creo que sea viable
+    el workflow por el momento me parece bastante complicado comparado
+    a la simplicidad de git. Salvo por tener los archivos compactos de
+    cada repositorio y la posibilidad de servirse uno mismo, no se
+    podria explorarse pero lo veo aun dificil. Le voy a dar un rato de
+    chance a ver si lo puedo servir del vps y sino chau.
+    Ya esta 25 minutos tirados a la basura. Muy freaky. No tiene
+    sentido o va mas alla de mis conocimientos actuales. Pq antes hace
+    un par de años lo tenia.
+    El otro tema de hoy es abrir un nuevo archivo personal llamado
+    per.org para registros de todo tipo unificados y dejar el pro para
+    relacionados al trabajo.
+    Hoy termine con el teclado logitech inalambrico que fue full en su
+    tiempo.
+    No anda mas.
+    El reemplaza generico que puse anda camion al lado de ese.
+    Lo mismo me pedi un mecanico que vamos a ver como anda. El
+    ratoncito hard-wired anda joya asi que por el momento lo voy a
+    usar.
+    Fuera de eso y de que compre un sitio para el ingles que se llama
+    fidin.xyz y que pienso emprender un proyecto de contabilidad
+    propia en la red, pero no se si ahora.
+    El dia es muy improductivo, este si, la verdad. Con este teclado
+    ya me duele el pulgar
+    Comence con otro "case studie" del libro de python y no puedo
+    llevarlo a cabo pq no me da la cabeza no encuentro
+    concentracion. Es como que estoy cansado. pero puede ser por hoy,
+    no hay que desesperarse y continuar cuando las fuerzas te lo permitan.
+*** [2021-08-20 Fri]
+    ayer un dia muy complejo fisicamente con sintomatologia diversa
+    que me llevo a la cama temprano y apague la maquina temprano,
+    luego me puse a leer y segui en el fossil.hell. 
+    Tambien me trabo que no andan los dominios y borre el dominio de
+    romitex que andaba bien y no puedo recuperarlo igual como ejemplo.
+    No cabe duda que estoy varado, o sea que estoy completamente
+    bogged down. Me falta un proyectito que me interese lo suficiente
+    como para que salga del marasmo.  
+    Hoy inaguro el teclado nuevo. Mecanico y retroiluminado. Una
+    maravilla hasta ahora. Veremos luego lo que pasa.
+    No lo encuentro muy ruidoso, solo un poco mas que el otro y hay
+    precision, obviamente con el cablesonon que tiene, igual con el
+    ratoncito que me hace renegar menos que el anterior.
+    El teclado es un enorme paso a la comodidad, incluso el ratoncito
+    lo es. 
+    Se soluciono un paso de la registracion del sitio de namecheap. 
+    Hice la mitad de la encryptacion de mariadb. Y estoy probando que
+    funciona al menos en local. 
+    O sea que no fue un dia tan improductivo en cierta forma.
+*** [2021-08-21 Sat]
+    definitivamente cai en un fossil-hell al menos en mis horas de
+    lectura.
+    pq no lleva a nada productivo en el workflow.
+    para hoy tengo: agregar login a anki, y poner intimaciones a
+    romitex. Como tarea programatica.
+    por lo menos le agregue el login y el menu a la app anki, no tengo
+    ganas de ponerme con lo otro al menos hoy, lo dejo para el lunes o
+    martes.
+    Creo que en algunos temas me estoy convirtiendo en usuario
+    avanzado, pero tengo que esforzarme aun mas.
+    Pareceria que el tema dominio se arreglara en dady, eso me
+    habilitaria para tener dos dominios en el vps. dejando fidin.uno
+    por mas que redireccione en romitex, total alli habra un solo
+    dominio. 
+    Creo que el programa de ingles tiene un metodo eficiente para
+    aprender las palabras, mejor que los otros que he visto.
+    Creo que el cierre de semana positivo se debe mas a las
+    instalaciones y otros temas diversos que a la programacion. python
+    bajo de 1224 a 670, y el ingles se mantuvo igual. 
+*** [2021-08-22 Sun]
+    hoy no tengo mucho para hacer pq tengo que pasar papeles. 
+    quiero probar una nueva config de emacs para ver como anda, basada
+    en orgmode tangle. 
+    Lo tengo en .emacs2.d, pero no me convence del todo, la velocidad
+    es la misma y los atajos no los necesito mayormente. y el workflow
+    de ivy no es el mismo que ido, parece que me quedo con ivy.
+    Esta ha sido una semana de hells, y no de dedicacion a los temas
+    principales, esta bien que termino con la instalacion de debian y
+    fue la semana completa de vuelta a emacs, pero hay numerosos hells
+    que me hacen perder el tiempo algunos son necesarios otros no.
+    Perdiendo el tiempo en configurar emacs mergeando mi propia
+    configuracion con la que habia probado esta mañana.
+*** [2021-08-23 Mon]
+    anoche estuve viendo bvpwm y polybar luego i3-gaps, pero en
+    realidad no creo que haga falta pq i3 asi como esta cumple todas
+    las expectativas solo falta aprender un poco mas, como ahora que
+    aprendi a switchear las windows con W+S+j/k/l/ñ. 
+    Creo que necesito un orden de org, un archivo de documentacion
+    unico que creo que ya lo tengo. 
+    Esta ultima semana afloje muchisimo la lectura pdf, en cambio tuve
+    mucho web y youtube, pero aunque practica al fin, no me sirve para
+    recolectar los terminos pq no hay forma de anotarlos.
+    Pase la primer mañana solo excesivamente improductiva. Solo una
+    hora de ingles, pase todas las ventas y nada mas. 
+    Estoy en mi punto mas bajo de motivacion.  
+    Pase dos horas mas o menos programando las intimaciones y las
+    termine, lo cual fue positivo. 
+    Pienso que podria hacer un programa contable propio en red como el
+    de ingles, pq podriamos usar los conocimientos de poo, sqlalchemy
+    y luego cuando tengamos datos de pandas.
+    A pesar de ser un dia en que dije que estaba en mi mas bajo punto
+    motivacional, pase casi dos horas practicando ingles, una hora
+    anotada aca y otra fuera, dos horas programando, lo cual es
+    inedito en agosto, y empece con una hora despertando el apetito
+    con un proyecto nuevo de aprendizaje de python.
+*** [2021-08-24 Tue]
+    hoy sigo firme con las practicas de ingles y vere si arranco con
+    las practicas de python. 
+    Decidi en vista de la circunstancias nuevas que debo poner en
+    marcha el sitio de romitex, no debemos esperar mas. 
+    Para ello pienso que necesito una copia del sitio para hacer
+    pruebas? o basta con el localhost? 
+    Pienso que la mejor forma de probar el sistema es mediante la
+    "doble pasada" o sea cargar los datos y a partir de ahi pasar
+    doble por un tiempo y que ese sobrecosto de tiempo que resulte de
+    pasar los datos doblemente sea el "trabajo extra" de probar el
+    sistema nuevo. Es asi como se hace en la vida real.
+    Por el momento estoy refaccionando ciertas cosas, como que las
+    referencias a los campos sean por diccionario lo cual le va
+    agregar mas legibilidad al codigo a futuro. 
+    Hemos aprendido mucho desde que empezamos en todos los
+    campos. Desde que la unica opcion era heroku a 9 dolares por mes,
+    hasta ahora tener un vps a 400 pesos por mes. y manejarlo
+    internamente como queremos nosotros.
+    Hoy hice bastante, bastante practica de ingles, un poco de arreglo
+    de emacs, un intento por hacer backup de vps. Y una remodelacion
+    en el programa.  
+    Logre hacer un backup automatico con cron!!. Es muy importante
+    ahora necesito bajar una copia por semana o cada tres o cuatro
+    dias. 
+*** [2021-08-25 Wed]
+    hoy comienzo tarde la jornada pq fui a encargar los lentes, era
+    hora seis años despues.
+    Son casi las 13hs y no he comenzado. 
+    Poco y nada pude hacer hoy. Parte pq sali a la mañana y a la tarde
+    y pq estuve mal animicamente. 
+    Pero tengo delineado el trabajo para los proximos dias, o sea
+    terminar a fondo el sistema para empezar la prueba. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4824,6 +5001,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-08-01 Sun]                               :python:vim:english:i3:
 ** semana [2021-08-08 Sun]                               :python:vim:english:i3:
 ** semana [2021-08-14 Sat]               :python:emacs:english:i3:Javascript:
+** semana [2021-08-22 Sun]                         :python:emacs:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -5159,7 +5337,14 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    desechado (pq en realidad sigue en la maquina pero cambie de
    maquina) pq no leyo el disco solido y no podia instalar los
    padrones.
-
+* agenda debian 11
+** instalacion [2021-08-17 mar]
+   seamlessly
+** problemas con su
+   algunos programas no son reconocidos como 
+   dpkg-reconfigure locales
+   resuelto con su -
+   
 * agenda vim
 ** jump previas posiciones
 C-o C-i
@@ -5940,3 +6125,21 @@ sudo. El resto todo igual y bien.
 1. corregir la seleccion de fichas para imprimir, no funciona.
 2. agregar la intimacion.
 3. ver de agregar un sistema de intimacion masivo.
+
+* agenda temas por ver
+** fossil
+** encryptamiento de mariadb
+** montar dos sitios en el vps
+** helm o ivy for emacs
+** solucionar el tema elpy
+** browser Vieb
+   que por ahora no se puede instalar en debian 11 por la falta de un
+   archivo que no se instala.
+** mejorar el init.el de emacs
+   en especial la rapidez de carga al comienzo
+** solucionar el tema de la redireccion de los dominios
+* proyecto contable
+** tema simple registro o doble registro
+   el doble registro le añade mucha complejidad y la unica doble
+   cuenta es compra de dolares y prestamos en dolares.
+   

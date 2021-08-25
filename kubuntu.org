@@ -36,6 +36,12 @@ bajar InputMono-Regular.ttf - doble click en la font y luego install
 **** ag (instalar silversearcher con apt)
 *** instalar org en su ultima version
 usar package-list-packages
+*** simpleclip
+(require 'simpleclip)
+(simpleclip-mode 1)
+C-<insert>	simpleclip-copy
+S-<delete>	simpleclip-cut
+S-<insert>	simpleclip-paste
 ** neovim
 *** instalar neovim 
 *** ln -s a init.vim
