@@ -6979,3 +6979,23 @@ D $1000.00
 2021-08-25 farmacia hp
     expenses:gastos medicos:farmacia              39
     assets:caja                                  -39
+
+2021-08-26 cadena baño
+    expenses:casa:mantenimiento             200
+    assets:caja                            -200
+
+2021-08-26 romi
+    expenses:romi            1000
+    assets:caja             -1000
+
+2021-08-26 facturas
+    expenses:comida             600
+    assets:caja                -600
+
+2021-08-27 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021-08-27 lomitos
+    expenses:comida            1750
+    assets:caja               -1750

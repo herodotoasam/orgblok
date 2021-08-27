@@ -3927,6 +3927,42 @@ primer mm hecho luego de la obra sobre array
     y pq estuve mal animicamente. 
     Pero tengo delineado el trabajo para los proximos dias, o sea
     terminar a fondo el sistema para empezar la prueba. 
+*** [2021-08-26 Thu]
+    desde anoche leo solo javascript-pdf me parece un muy agradable
+    libro para leer y para poder recuperar un poco la lectura de pdf,
+    que es necesaria para practicar el ingles.
+    ya son 400 palabras las que estoy practicando, pero necesitan mas
+    practica para que queden completamente incorporadas al lexico. Y
+    necesito seguir con la gramatica. 
+*** [2021-08-27 Fri]
+    ya estoy escuchando videos en yt completamente con un
+    entendimiento de cerca del 90%. 
+    Necesito apurar la practica.
+    Justo cuando pensaba que habia hecho un avance siento que es
+    enorme el desafio, y hay que seguir practicando un monton, asi es
+    la cosa. Hay que hacer una inmersion en ingles en todos los
+    frentes.
+    Quiero llegar a las 1000 palabras en el vocabulario y a terminar
+    el libro de grammar. Este objetivo en general esta cubierto en un
+    40%. 
+    Ya tengo el sistema funcional y voy a empezar la prueba doble el
+    lunes.
+    Estoy muy conforme con emacs, veo en los videos como algunos se
+    pasan a vim, pero no veo la diferencia. Puede ser mas rapido para
+    arrancar, pero visualmente no alcanza a ser como emacs.
+    No tenes ni orgmode ni magit puros como son en emacs, tenes
+    copias, incluso ahora orgvimmode no anda. Y no logro hacer andar
+    el autocompletado correctamente en vim. Quizas los otros si pueden
+    por eso les gusta mas vim.
+    Lo que si me gusta emacs pero con evil-mode. No se si me volveria
+    a adaptar al modo puro de emacs.
+    Ya cargue los datos de romitex en el sitio. Ahora tengo que
+    reforzar la seguridad del VPS.  
+    Estaria bueno tener el mismo programa TCL linkado a la base remota
+    con las mismas facilidades en especial el fichas2 con la capacidad
+    de tablelist de subir al seven en manada. 
+    Esta semana no tome nota del tiempo con exactitud, y algunos dias
+    ni siquiera anote.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

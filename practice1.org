@@ -804,7 +804,7 @@ But in British English have got is more common than have for possession.
    | shut       | shut        |
    | swim       | swam        |
    | take       | took        |
-   | took       | taught      |
+   | teach      | taught      |
    | tell       | told        |
    | think      | thought     |
    | understand | understood  |
@@ -831,6 +831,117 @@ But in British English have got is more common than have for possession.
        them on holiday.
     10. The garden looks lovely in the spring. The garden looked
         lovely last spring.
+
+*** 20b
+    1. Kelly got up.
+    2. She brushed her teeth.
+    3. She had a shower.
+    4. She got dressed.
+    5. She made a cup of tea.
+    6. She ate her breakfast.
+    7. She turned on the radio.
+    8. She read the paper.
+    9. She washed the dishes.
+    10. She left the house.
+
+** Past Simple tense: questions and negatives
+   Form
+   Question
+   Did I/You/She/He/It/We/They walk/go/come?
+   Did + subject + infinitive for all persons and all verbs, regular
+   and irregular.
+   Did you go? Did you walk? 
+   Negative
+   Subject did not (didn't) walk. go. come.
+   Subject + did not + infinitive for all persons and all verbs,
+   regular and irregular. 
+
+*** 21
+    1. She gets up early in the morning.
+       She got up early in the morning.
+       Did she get up early in the morning?
+       She didn't get up early in the morning.
+    2. He teaches history at the university.
+       He taught history at the university.
+       Did he teach history at the university?
+       He didn't teach history at the university.
+    3. They leave home at 8 o'clock.
+       They left home at 8 o'clock.
+       Did they leave home at 8 o'clock?
+       They didn't leave home at 8 o'clock.
+    4. He stays in very good hotels.
+       He stayed in very good hotels.
+       Did he stay in very good hotels?
+       He didn't stay in very good hotels.
+    5. You smoke a lot.
+       You smoked a lot.
+       Did you smoke a lot?
+       You didn't smoke a lot.
+    6. I look very tired.
+       I looked very tired.
+       Did I look very tired?
+       I didn't look very tired.
+    7. We stop at Oxford.
+       We stopped at Oxford.
+       Did we stop at Oxford?
+       We didn't stop at Oxford.
+    8. The restaurant closes at 11 o'clock.
+       The restaurant closed at 11 o'clock.
+       Did the restaurant close at 11 o'clock?
+       the restaurant didn't close at 11 o'clock.
+    9. Pam buys a lot of clothes.
+       Pam bought a lot of clothes.
+       Did Pam buy a lot of clothes?
+       Pam didn't buy a lot of clothes.
+    10. The birds fly away to other countries.
+	The birds flew away to other countries.
+	Did the birds fly away to other countries?
+	The birds didn't fly away to other countries.
+
+*** 22
+    1. When did you speak to Peter? Last week.
+    2. When did they buy that car? Two year ago.
+    3. When did we clean the windows? Six months ago.
+    4. When did the film start? Five minutes ago.
+    5. When did you see your cousin? Three year ago.
+    6. When did she stop smoking? Last month.
+    7. When did it stop raining? Two hours ago.
+    8. When did they go to Australia? Last year.
+    9. When did Max phone? Last night.
+    10. When did you find your wallet? Half an hour ago.
+   
+** Past simple tense
+*** 23
+    1. Where did you go for you last summer holiday?
+    2. We went to Egypt.
+    3. Oh really? How interesting! Did you enjoy it?
+    4. Oh yes, we did.
+    5. Paul loved the River Nile
+    6. and I thought the pyramids and all the
+    7. historical sights were fascinating.
+    8. How long did you stay?
+    9. For four weeks. We were there  for the whole of October.
+    10. How nice. So did you had lots of time to travel round?.
+    11. Yes, we did -well, quite a lot. But we only
+    12. saw a few places so I'd like to go again.
+    13. Did you learn any Egyptian Arabic?
+    14. I did
+    15. but Paul didn't. I
+    16. studied the language for a few weeks before we
+    17. went.
+    18. I found a good Arabic
+    19. language cassette in the local library and that was very helpful.
+    20. Did you talk to the local people?
+    21. Not really, but I knew how to order food and drink in the
+        cafes and restaurants.
+    22. Yes it is, but I wanted to talk to people too so I'm still
+        studying Arabic and I hope to go again next year.
+    23. Well best of luck!
+
+
+
+
+
 
 
 
