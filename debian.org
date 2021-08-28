@@ -1,0 +1,10 @@
+* format usb
+lsblk
+umount /dev/sdb
+mkfs.vfat -F 32 /dev/sdb -I
+
+los ultimos dos como su.
+puede que umount no haga falta.
+
+* write iso to usb
+dd if=/ruta-de-iso of=/dev/sdb

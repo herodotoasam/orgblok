@@ -3963,6 +3963,20 @@ primer mm hecho luego de la obra sobre array
     de tablelist de subir al seven en manada. 
     Esta semana no tome nota del tiempo con exactitud, y algunos dias
     ni siquiera anote.
+    fichaspg se puede adaptar bien a mysql pienso con poco esfuerzo y
+    quizas lo otro que programe para postgres.
+*** [2021-08-28 Sat]
+    hoy tomo consciencia que he avanzado mucho en ingles pero me queda
+    bastante todavia. Recien llevo veinte dias con mi app de ingles y
+    mas o menos un mes con la de ulangy y estoy barajando 400 palabras
+    de practica, pero queda mucho por hacer todavia. 
+    Hoy probe en otra maquina emacs-doom y no difiere mucho el tema
+    python del que tengo aca, lo que si arranca velozmente.
+    Creo que no voy a conseguir que emacs funcione en autocompletado
+    como vscode. Pero si que es funcional y lindo para programar.
+    La prueba tambien me indico cuan comodo para trabajar es i3
+    comparado con gnome. El otro sera lindo pero es incomodo para
+    trabajar con rapidez.  
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
