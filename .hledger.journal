@@ -7003,3 +7003,7 @@ D $1000.00
 2021-08-28 carla
     expenses:isabel             600
     assets:caja                -600
+
+2021-08-29 dif
+    expenses:diferencia arqueo             923
+    assets:caja                           -923

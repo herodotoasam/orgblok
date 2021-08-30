@@ -3977,6 +3977,30 @@ primer mm hecho luego de la obra sobre array
     La prueba tambien me indico cuan comodo para trabajar es i3
     comparado con gnome. El otro sera lindo pero es incomodo para
     trabajar con rapidez.  
+*** [2021-08-29 Sun]
+    anoche y esta mañana practique muchisimo ingles oral, escuchando
+    videos y una serie de netflix. Los videos los entiendo 95%, y la
+    serie un 60% pq necesito el subtitulo en ingles para ir leyendo,
+    pero logro entender la trama. Esta bien que es una sitcom muy
+    rapida. Lo mismo hice mi horita de lectura del libro de js que a
+    paso lento pero seguro vamos avanzando.
+    Hoy tendria que arrancar pasando los papeles en el sistema en
+    forma doble no queda otra la fecha ya llego y es la hora de la
+    verdad. Ahi saltaran los problemas de la vida real.
+    Y saltaron un par que ya los arregle. 
+    El unico problema que no es tan grave es que cuando pase las
+    ventas mañana los numeros no van a coincidir en los dos sistemas
+    pq pase un plan de pagos en el nuevo y una venta anulada que
+    mariadb no los repite.
+*** [2021-08-30 Mon] 
+    hoy me levante cansado de todo, del ingles, de estudiar, de
+    programar, de no tener que programar.
+    Pienso que solo es un bache en el camino, que tengo que dejarlo
+    pasar y que luego volvera la inspiracion. 
+    Por el momento me voy a poner a pasar papeles lo que mas pueda.
+    Avanzando... Bien en esto. Mientras tanto pienso en el ingles, y
+    creo que quizas tenga que aprender otras estrategias para
+    incorporar vocabulario. Y seguir practicando. Tener paciencia. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5052,6 +5076,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-08-08 Sun]                               :python:vim:english:i3:
 ** semana [2021-08-14 Sat]               :python:emacs:english:i3:Javascript:
 ** semana [2021-08-22 Sun]                         :python:emacs:english:i3:
+** semana [2021-08-29 Sun]                                :emacs:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -6192,4 +6217,6 @@ sudo. El resto todo igual y bien.
 ** tema simple registro o doble registro
    el doble registro le añade mucha complejidad y la unica doble
    cuenta es compra de dolares y prestamos en dolares.
-   
+* bugs sistema
+** borrar items pasado de venta
+** problemas en el fechado que hacen recargar
