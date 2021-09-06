@@ -4001,6 +4001,129 @@ primer mm hecho luego de la obra sobre array
     Avanzando... Bien en esto. Mientras tanto pienso en el ingles, y
     creo que quizas tenga que aprender otras estrategias para
     incorporar vocabulario. Y seguir practicando. Tener paciencia. 
+*** [2021-08-31 Tue]
+    ayer fecundo dia de escuchar videos en english y retomar las
+    practicas. Por lo menos seguir adelante con escuchar lo maximo
+    posible de diversas fuentes y seguir con el sistema de aprendizaje
+    de las palabras que tengo. Luego incorporar alguna otra tecnica
+    nueva. 
+    pase toda la mañana incorporando nuevos terminos a la base de
+    datos, mucho mas no pude hacer pq ih no salio y no estaba la
+    tranquilidad para mas cosas. 
+    No se pq siempre que releo ese libro de la productividad y la
+    concentracion en el estudio pienso en python, no en javascript
+    sino en python, no en la posibilidad de empezar con un nuevo
+    lenguaje sino python.
+** 2021-Setiembre
+*** [2021-09-01 Wed]
+    anoche profundice un concepto en el estudio del ingles que es el
+    deep learning o sea el concentrarse en pocas cosas pero hacerlas a
+    fondo, exponerse a pocos videos pero repetidas veces, dominar a
+    fondo un tema antes de pasar a otro tema, que no tiene sentido ir
+    saltando de tema en tema sin antes llegar a comprender
+    profundamente el anterior.
+    pienso tambien que el ingles es un skill clave que abre puertas a
+    otras cosas pq poder escuchar videos en ingles p.e. decuplica el
+    rango de posibilidades de fuentes de donde sacar provecho. 
+    Hasta hace un mes mes y medio me resultaba pesado el leer un libro
+    en ingles y ahora es lo mas natural del mundo, y ahora voy
+    haciendo lo mismo con los videos. 
+    Relei todo agosto y vi que hay cosas que parece que estan desde
+    siempre y solo llevan dias, ulangi lleva treinta dias, y el
+    sistema de palabras mio lleva veinte dias. 
+    Hoy en programacion no fue nada mal, hice un bloque de webcrawl de
+    python que es un tema lindo, y corregi un problema del sistema o
+    mas bien agregue una funcion con extremada facilidad, es que
+    javascript+flask+alpine es muy potente.
+    Con respecto al ingles estoy entusiasmado con las tecnicas nuevas
+    que descubri que me llevarian a la practica en el futuro.
+*** [2021-09-02 Thu]
+    anoche lo que destaco fue la lectura de js. Me entusiasme leyendo
+    y releyendo, volviendo atras a releer temas para reforzar lo
+    aprendido y entenderlos mejor. Ya llevo leido el 22% del libro.
+    Es la mañana y no se bien por donde empezar. Asi que comence
+    escuchando videos de ingles, de la play list repetitiva que tengo.
+    Me gustaria agregar un log de actividad a la base de datos que
+    registre insert/update/delete y el users, fecha y hora.
+    Ya lo hice, usando una interface propia de la base de dato que son
+    los binlogs asi que ya esta. Muy rapido. Y me quedo mas tranquilo
+    pq todo cambio a la base de datos queda registrado. 
+    lei un poco de tcl toolkit y es fabuloso, no para entrar en un
+    tcl-hell pero si para releer las bases teoricas del lenguaje.
+    tiene un factorial de la gran pipeta.
+    Pienso que tendria que hacer un log propio pq no funciona como lo
+    esperaba el binlog de mariadb. Tendria que recorrer todas las
+    rutas y cuando se inserte, borre o updatee un registro guardar en
+    una tabla current_user, fecha/hora, y el stm. 
+*** [2021-09-03 Fri]
+    avanzo un poco el tcl-hell en la lectura o busqueda de material
+    posible de lectura. Pero decidi que no puedo leer en paralelo dos
+    lenguajes al mismo tiempo eso es confuso, y ahora estoy en la
+    lectura de js. Lo dejo para despues. 
+    termine de hacer el log, lo subi, cancele el binlog. 
+    compre un dominio nuevo en namecheap con paypal: fedesal.xyz falta
+    hacerlo operativo y hacerle el certbot.
+    las modificaciones al sistema son interesantes y faciles pq ambos
+    lenguajes son bien estructurados y faciles de entender. 
+    Por ahi pierdo un poquito de interes en seguir practicando a full
+    english, pero no del todo y al menos sigo teniendo ganas de leer,
+    o es como un subibaja, mas ingles, menos lectura, menos ingles mas
+    lectura, y con la programacion pasa lo mismo.
+    Hoy tuve tarea entretenida al menos. Y el dia se presto barbaro
+    para estar adentro disfrutando al maximo, fresquito nubladito.
+*** [2021-09-04 Sat]
+    hoy desperte a las 7.30 y me puse casi dos horas a listening,
+    luego media hora lectura de js, y quince minutos tcl-hell. Luego
+    cuando me puse en maquina hice dos grandes mejoras al sistema de
+    fedesal, y pase un dia de ventas y estoy fusilado, por eso apago
+    la maquina y me voy a echar luego del almuerzo, nada mas por ahora
+    de maquina. 
+*** [2021-09-05 Sun]
+    hoy pasado de papeles a dos sistemas.
+    tengo que revisar el pmovto si anda bien.
+    tengo que revisar la emision de listados de fichas si emite la
+    misma cantidad de fichas que el otro.
+    y me gustaria hacer un fechador con registro en tabla de los
+    fechados para tener una estadistica y para luego poder procesar
+    esos datos. Y de paso cuando uno cometa un error tener un boton de
+    deshacer el fechado. 
+    Tambien en el anki me gustaria cambiar los examples complejos
+    basados en los libros que estoy leyendo por ejemplos sencillos que
+    sean faciles de practicar y recordar, oraciones cortas y varias. 
+*** [2021-09-06 Mon]
+    anoche descubri lingQ una plataforma muy compacta para listening
+    and listening storys. Esta mañana practique ingles una hora y
+    media.
+    Hoy oficialmente dejo de registrar en la pagina de study, y el
+    habito press lo paso a la app habits. 
+    en lectura voy con javascript y pizcas de tcl no se porque pero lo
+    hago por hobby. 
+    decidi que las tareas rutinarias como pasar papeles mejor las hago
+    cuando este ih que hay mas ruidosidad y menor concentracion y
+    aprovecho el tiempo de quality solo para o bien programar o bien
+    estudiar.
+    Estoy llevando una vida muy monotematica muy concentrada en una
+    sola cosa incluso a expensas de mi salud. Pero lo cierto es que si
+    no estuviese dedicado a fondo a esto tampoco me cuidaria. Es que
+    no me pinta mas cuidarme quizas sea eso. Ahora entiendo a la gente
+    que no se cuida en absoluto o por falta de voluntad o por rebeldia.
+    Hice primos en tcl translate el algorritmo de python en cierta
+    forma pero no es muy eficiente pq es lento.
+    Estoy embotado, no puedo hacer nada. Quizas sea pq estoy un poco
+    cansado pq estoy en atencion desde las 7,30 constantemente y
+    necesito un descanso. O porque es lunes.
+    Acordarse que todo puede verse desde dos puntos de vista
+    distintos, este puede ser el mejor de los mundos para mi o el peor
+    de los mundos, y yo puedo disfrutar el dia a dia haciendo lo que
+    quiero.
+    llevo 6 semanas de i3 y me siento comodo en el, ni hablemos con
+    debian o la dupla debian-i3, tanto en su rapidez como en todo.
+    llevo 4 semanas desde la ultima vuelta de emacs y estoy bastante
+    estable en la configuracion actual, luego de todos los vaivenes y
+    oropeles que se me han mostrado. 
+    llevo 9 semanas de ingles al menos en esta ultima etapa mas
+    intensiva y todavia estoy encontrando nuevos metodos de estudio,
+    pero cada vez le dedico mas tiempo.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5074,9 +5197,10 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-07-25 Sun]                       :python:english:bash:vim:i3:
 ** semana [2021-08-01 Sun]                               :python:vim:english:i3:
 ** semana [2021-08-08 Sun]                               :python:vim:english:i3:
-** semana [2021-08-14 Sat]               :python:emacs:english:i3:Javascript:
+** semana [2021-08-14 Sat]               :Javascript:python:emacs:english:i3:
 ** semana [2021-08-22 Sun]                         :python:emacs:english:i3:
 ** semana [2021-08-29 Sun]                                :emacs:english:i3:
+** semana [2021-09-05 Sun]                  :Javascript:TCL:emacs:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -6219,4 +6343,5 @@ sudo. El resto todo igual y bien.
    cuenta es compra de dolares y prestamos en dolares.
 * bugs sistema
 ** borrar items pasado de venta
+** lista en el fechado no esta ordenada 
 ** problemas en el fechado que hacen recargar

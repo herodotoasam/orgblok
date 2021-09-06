@@ -106,3 +106,25 @@ desde nuestra maquina ubicamos el archivo que queremos bajar y ponemos
 el nombre que le vamos a asignar y listo. 
 
 Util para bajar el backup de la base de datos.
+* mysqlbinlog
+para que el log sea visible debo deshabilitar la encryptacion del log.
+
+1. stop the server   sytemctl stop mariadb
+2. set encrypt_binlog=OFF  vim /etc/mysql/my.cnf
+3. restart the server  systemctl restart mariadb
+
+
+luego tengo que ENABLE BINARY LOG IN MYSQL
+1. vim /etc/mysql/mariadb.conf.d/50-server.conf
+    desmarcar las siguientes lineas que estan comentadas
+    log_bin                = /var/log/mysql/mysql-bin.log
+    expire_logs_days        = 10
+    max_binlog_size        = 100M
+2. restart the server  systemctl restart mariadb
+
+para ver el log
+cd /var/log/mysql
+los log tienen la forma mysql-bin.00001 etc.
+mysqlbinlog mysql-bin.0000x > output.log
+y tenemos en lenguaje plano los movimientos en el log
+
