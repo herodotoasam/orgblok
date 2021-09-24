@@ -2,296 +2,296 @@
 ** Julio 2020
 *** [2020-07-12 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-12 Sun 14:54]--[2020-07-12 Sun 15:35] =>  0:41
-    CLOCK: [2020-07-12 Sun 12:05]--[2020-07-12 Sun 13:49] =>  1:44
+    :CLOCK: [2020-07-12 Sun 14:54]--[2020-07-12 Sun 15:35] =>  0:41
+    :CLOCK: [2020-07-12 Sun 12:05]--[2020-07-12 Sun 13:49] =>  1:44
     :END:
 *** [2020-07-13 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-13 Mon 11:54]--[2020-07-13 Mon 12:09] =>  0:15
-    CLOCK: [2020-07-13 Mon 10:45]--[2020-07-13 Mon 11:25] =>  0:40
+    :CLOCK: [2020-07-13 Mon 11:54]--[2020-07-13 Mon 12:09] =>  0:15
+    :CLOCK: [2020-07-13 Mon 10:45]--[2020-07-13 Mon 11:25] =>  0:40
     :END:
 *** [2020-07-14 Tue]
      :LOGBOOK:
-      CLOCK: [2020-07-14 Tue 13:00]--[2020-07-14 Tue 13:30] =>  0:30
+      :CLOCK: [2020-07-14 Tue 13:00]--[2020-07-14 Tue 13:30] =>  0:30
      :END:
 *** [2020-07-15 Wed]
      :LOGBOOK:
-    CLOCK: [2020-07-15 Wed 17:12]--[2020-07-15 Wed 17:25] =>  0:13
+    :CLOCK: [2020-07-15 Wed 17:12]--[2020-07-15 Wed 17:25] =>  0:13
     :END:
 *** [2020-07-16 Thu]
     :LOGBOOK:
-    CLOCK: [2020-07-16 Thu 11:18]--[2020-07-16 Thu 12:43] =>  1:25
+    :CLOCK: [2020-07-16 Thu 11:18]--[2020-07-16 Thu 12:43] =>  1:25
    
     :END:
 *** [2020-07-17 Fri]
     :LOGBOOK:
-    CLOCK: [2020-07-17 Fri 10:18]--[2020-07-17 Fri 12:56] =>  2:38
+    :CLOCK: [2020-07-17 Fri 10:18]--[2020-07-17 Fri 12:56] =>  2:38
     :END:      
 *** [2020-07-18 Sat]
-    CLOCK: [2020-07-18 Sat 18:23]--[2020-07-18 Sat 19:40] =>  1:17
-    CLOCK: [2020-07-18 Sat 12:26]--[2020-07-18 Sat 12:50] =>  0:24
+    :CLOCK: [2020-07-18 Sat 18:23]--[2020-07-18 Sat 19:40] =>  1:17
+    :CLOCK: [2020-07-18 Sat 12:26]--[2020-07-18 Sat 12:50] =>  0:24
  subiendo seven
 *** [2020-07-19 Sun]
-    CLOCK: [2020-07-19 Sun 14:19]--[2020-07-19 Sun 15:31] =>  1:12
+    :CLOCK: [2020-07-19 Sun 14:19]--[2020-07-19 Sun 15:31] =>  1:12
 *** [2020-07-21 Tue]
-    CLOCK: [2020-07-21 Tue 10:39]--[2020-07-21 Tue 12:59] =>  2:20
+    :CLOCK: [2020-07-21 Tue 10:39]--[2020-07-21 Tue 12:59] =>  2:20
 *** [2020-07-22 Wed]
-    CLOCK: [2020-07-22 Wed 15:25]--[2020-07-22 Wed 16:56] =>  1:31
+    :CLOCK: [2020-07-22 Wed 15:25]--[2020-07-22 Wed 16:56] =>  1:31
 *** [2020-07-23 Thu]
-    CLOCK: [2020-07-23 Thu 17:35]--[2020-07-23 Thu 17:54] =>  0:19
+    :CLOCK: [2020-07-23 Thu 17:35]--[2020-07-23 Thu 17:54] =>  0:19
 *** [2020-07-24 Fri]
     :LOGBOOK:
-    CLOCK: [2020-07-24 Fri 19:18]--[2020-07-24 Fri 20:08] =>  0:50
-    CLOCK: [2020-07-24 Fri 10:14]--[2020-07-24 Fri 12:26] =>  2:12
+    :CLOCK: [2020-07-24 Fri 19:18]--[2020-07-24 Fri 20:08] =>  0:50
+    :CLOCK: [2020-07-24 Fri 10:14]--[2020-07-24 Fri 12:26] =>  2:12
     :END:
 *** [2020-07-25 Sat]
     :LOGBOOK:
-    CLOCK: [2020-07-25 Sat 18:47]--[2020-07-25 Sat 20:42] =>  1:55
+    :CLOCK: [2020-07-25 Sat 18:47]--[2020-07-25 Sat 20:42] =>  1:55
     :END:
 *** [2020-07-26 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-26 Sun 19:12]--[2020-07-26 Sun 19:44] =>  0:32
+    :CLOCK: [2020-07-26 Sun 19:12]--[2020-07-26 Sun 19:44] =>  0:32
     :END:
 *** [2020-07-27 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-27 Mon 14:51]--[2020-07-27 Mon 16:19] =>  1:28
+    :CLOCK: [2020-07-27 Mon 14:51]--[2020-07-27 Mon 16:19] =>  1:28
     :END:
 *** [2020-07-28 Tue]
     :LOGBOOK:
-    CLOCK: [2020-07-28 Tue 14:53]--[2020-07-28 Tue 16:18] =>  1:25
+    :CLOCK: [2020-07-28 Tue 14:53]--[2020-07-28 Tue 16:18] =>  1:25
     :END:
 *** [2020-07-29 Wed]
     :LOGBOOK:
-    CLOCK: [2020-07-29 Wed 17:42]--[2020-07-29 Wed 18:25] =>  0:43
+    :CLOCK: [2020-07-29 Wed 17:42]--[2020-07-29 Wed 18:25] =>  0:43
     :END:
 *** [2020-07-31 Fri]
     :LOGBOOK:
-    CLOCK: [2020-07-31 Fri 15:10]--[2020-07-31 Fri 15:25] =>  0:15
+    :CLOCK: [2020-07-31 Fri 15:10]--[2020-07-31 Fri 15:25] =>  0:15
     :END:
 ** Agosto 2020
 *** [2020-08-01 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-01 Sat 17:39]--[2020-08-01 Sat 20:31] =>  2:52
+    :CLOCK: [2020-08-01 Sat 17:39]--[2020-08-01 Sat 20:31] =>  2:52
     :END:
 *** [2020-08-03 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-03 Mon 12:32]--[2020-08-03 Mon 13:07] =>  0:35
+    :CLOCK: [2020-08-03 Mon 12:32]--[2020-08-03 Mon 13:07] =>  0:35
     :END:
 *** [2020-08-05 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-05 Wed 15:17]--[2020-08-05 Wed 16:11] =>  0:54
+    :CLOCK: [2020-08-05 Wed 15:17]--[2020-08-05 Wed 16:11] =>  0:54
     :END:
 *** [2020-08-06 Thu]
      :LOGBOOK:
-    CLOCK: [2020-08-06 Thu 18:30]--[2020-08-06 Thu 19:31] =>  1:01
+    :CLOCK: [2020-08-06 Thu 18:30]--[2020-08-06 Thu 19:31] =>  1:01
     :END:
 *** [2020-08-07 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-07 Fri 13:53]--[2020-08-07 Fri 15:35] =>  1:42
-    CLOCK: [2020-08-07 Fri 12:53]--[2020-08-07 Fri 13:29] =>  0:36
+    :CLOCK: [2020-08-07 Fri 13:53]--[2020-08-07 Fri 15:35] =>  1:42
+    :CLOCK: [2020-08-07 Fri 12:53]--[2020-08-07 Fri 13:29] =>  0:36
     :END:
 *** [2020-08-08 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-08 Sat 18:25]--[2020-08-08 Sat 20:08] =>  1:43
+    :CLOCK: [2020-08-08 Sat 18:25]--[2020-08-08 Sat 20:08] =>  1:43
     :END:
 *** [2020-08-09 Sun]
     :LOGBOOK:
-    CLOCK: [2020-08-09 Sun 20:08]--[2020-08-09 Sun 20:40] =>  0:32
+    :CLOCK: [2020-08-09 Sun 20:08]--[2020-08-09 Sun 20:40] =>  0:32
     :END:
 *** [2020-08-10 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-10 Mon 10:37]--[2020-08-10 Mon 11:38] =>  1:01
+    :CLOCK: [2020-08-10 Mon 10:37]--[2020-08-10 Mon 11:38] =>  1:01
     :END:
 *** [2020-08-11 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-11 Tue 17:48]--[2020-08-11 Tue 18:44] =>  0:56
+    :CLOCK: [2020-08-11 Tue 17:48]--[2020-08-11 Tue 18:44] =>  0:56
     :END:
 *** [2020-08-12 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-12 Wed 17:46]--[2020-08-12 Wed 19:55] =>  2:09
-    CLOCK: [2020-08-12 Wed 12:21]--[2020-08-12 Wed 14:50] =>  2:29
+    :CLOCK: [2020-08-12 Wed 17:46]--[2020-08-12 Wed 19:55] =>  2:09
+    :CLOCK: [2020-08-12 Wed 12:21]--[2020-08-12 Wed 14:50] =>  2:29
     :END:
 *** [2020-08-13 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-13 Thu 16:00]--[2020-08-13 Thu 16:52] =>  0:52
-    CLOCK: [2020-08-13 Thu 11:33]--[2020-08-13 Thu 12:47] =>  1:14
+    :CLOCK: [2020-08-13 Thu 16:00]--[2020-08-13 Thu 16:52] =>  0:52
+    :CLOCK: [2020-08-13 Thu 11:33]--[2020-08-13 Thu 12:47] =>  1:14
     :END:
 *** [2020-08-14 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-14 Fri 15:02]--[2020-08-14 Fri 17:12] =>  2:10
+    :CLOCK: [2020-08-14 Fri 15:02]--[2020-08-14 Fri 17:12] =>  2:10
     :END:
 *** [2020-08-15 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-16 Sun 18:13]--[2020-08-16 Sun 19:01] =>  0:48
-    CLOCK: [2020-08-15 Sat 19:30]--[2020-08-15 Sat 21:32] =>  2:02
+    :CLOCK: [2020-08-16 Sun 18:13]--[2020-08-16 Sun 19:01] =>  0:48
+    :CLOCK: [2020-08-15 Sat 19:30]--[2020-08-15 Sat 21:32] =>  2:02
     :END:
 *** [2020-08-18 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-18 Tue 19:13]--[2020-08-18 Tue 20:03] =>  0:50
-    CLOCK: [2020-08-18 Tue 16:39]--[2020-08-18 Tue 17:24] =>  0:45
+    :CLOCK: [2020-08-18 Tue 19:13]--[2020-08-18 Tue 20:03] =>  0:50
+    :CLOCK: [2020-08-18 Tue 16:39]--[2020-08-18 Tue 17:24] =>  0:45
     :END:
 *** [2020-08-19 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-19 Wed 18:06]--[2020-08-19 Wed 19:45] =>  1:39
+    :CLOCK: [2020-08-19 Wed 18:06]--[2020-08-19 Wed 19:45] =>  1:39
     :END:
 *** [2020-08-20 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-20 Thu 17:48]--[2020-08-20 Thu 19:50] =>  2:02
+    :CLOCK: [2020-08-20 Thu 17:48]--[2020-08-20 Thu 19:50] =>  2:02
     :END:
 *** [2020-08-21 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-21 Fri 14:36]--[2020-08-21 Fri 15:13] =>  0:37
-    CLOCK: [2020-08-21 Fri 12:41]--[2020-08-21 Fri 13:19] =>  0:38
+    :CLOCK: [2020-08-21 Fri 14:36]--[2020-08-21 Fri 15:13] =>  0:37
+    :CLOCK: [2020-08-21 Fri 12:41]--[2020-08-21 Fri 13:19] =>  0:38
     :END:
 *** [2020-08-22 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-22 Sat 14:30]--[2020-08-22 Sat 15:11] =>  0:41
+    :CLOCK: [2020-08-22 Sat 14:30]--[2020-08-22 Sat 15:11] =>  0:41
     :END:
 *** [2020-08-23 Sun]
     :LOGBOOK:
-    CLOCK: [2020-08-23 Sun 17:04]--[2020-08-23 Sun 19:25] =>  2:21
+    :CLOCK: [2020-08-23 Sun 17:04]--[2020-08-23 Sun 19:25] =>  2:21
     :END:
 *** [2020-08-24 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-24 Mon 14:52]--[2020-08-24 Mon 15:25] =>  0:33
+    :CLOCK: [2020-08-24 Mon 14:52]--[2020-08-24 Mon 15:25] =>  0:33
     :END:
 *** [2020-08-25 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-25 Tue 20:36]--[2020-08-25 Tue 21:47] =>  1:11
-    CLOCK: [2020-08-25 Tue 10:56]--[2020-08-25 Tue 11:45] =>  0:49
+    :CLOCK: [2020-08-25 Tue 20:36]--[2020-08-25 Tue 21:47] =>  1:11
+    :CLOCK: [2020-08-25 Tue 10:56]--[2020-08-25 Tue 11:45] =>  0:49
     :END:
 *** [2020-08-26 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-26 Wed 11:06]--[2020-08-26 Wed 12:49] =>  1:43
+    :CLOCK: [2020-08-26 Wed 11:06]--[2020-08-26 Wed 12:49] =>  1:43
     :END:
 *** [2020-08-27 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-27 Thu 18:48]--[2020-08-27 Thu 19:22] =>  0:34
+    :CLOCK: [2020-08-27 Thu 18:48]--[2020-08-27 Thu 19:22] =>  0:34
     :END:
 *** [2020-08-28 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-28 vie 18:00]--[2020-08-28 vie 18:58] =>  0:58
-    CLOCK: [2020-08-28 Fri 10:51]--[2020-08-28 Fri 11:40] =>  0:49
+    :CLOCK: [2020-08-28 vie 18:00]--[2020-08-28 vie 18:58] =>  0:58
+    :CLOCK: [2020-08-28 Fri 10:51]--[2020-08-28 Fri 11:40] =>  0:49
     :END:
 *** [2020-08-29 sáb]
     :LOGBOOK:
-    CLOCK: [2020-08-29 sáb 20:09]--[2020-08-29 sáb 21:16] =>  1:07
+    :CLOCK: [2020-08-29 sáb 20:09]--[2020-08-29 sáb 21:16] =>  1:07
     :END:
 *** [2020-08-30 dom]
     :LOGBOOK:
-    CLOCK: [2020-08-30 dom 11:35]--[2020-08-30 dom 12:27] =>  0:52
+    :CLOCK: [2020-08-30 dom 11:35]--[2020-08-30 dom 12:27] =>  0:52
     :END:
 *** [2020-08-31 lun]
     :LOGBOOK:
-    CLOCK: [2020-08-31 lun 09:37]--[2020-08-31 lun 10:52] =>  1:15
+    :CLOCK: [2020-08-31 lun 09:37]--[2020-08-31 lun 10:52] =>  1:15
     :END:
 ** Setiembre 2020 
 *** [2020-09-01 mar]
     :LOGBOOK:
-    CLOCK: [2020-09-01 mar 11:26]--[2020-09-01 mar 12:42] =>  1:16
+    :CLOCK: [2020-09-01 mar 11:26]--[2020-09-01 mar 12:42] =>  1:16
     :END:
 *** [2020-09-02 mié]
     :LOGBOOK:
-    CLOCK: [2020-09-02 mié 15:27]--[2020-09-02 mié 16:06] =>  0:39
+    :CLOCK: [2020-09-02 mié 15:27]--[2020-09-02 mié 16:06] =>  0:39
     :END:
 *** [2020-09-03 jue]
     :LOGBOOK:
-    CLOCK: [2020-09-03 jue 18:12]--[2020-09-03 jue 18:50] =>  0:38
+    :CLOCK: [2020-09-03 jue 18:12]--[2020-09-03 jue 18:50] =>  0:38
     :END:
 *** [2020-09-04 vie]
     :LOGBOOK:
-    CLOCK: [2020-09-04 vie 18:48]--[2020-09-04 vie 19:a20] =>  0:32
-    CLOCK: [2020-09-04 vie 17:30]--[2020-09-04 vie 18:12] =>  0:42
+    :CLOCK: [2020-09-04 vie 18:48]--[2020-09-04 vie 19:a20] =>  0:32
+    :CLOCK: [2020-09-04 vie 17:30]--[2020-09-04 vie 18:12] =>  0:42
     :END:
 *** [2020-09-05 sáb]
     :LOGBOOK:
-    CLOCK: [2020-09-05 sáb 15:20]--[2020-09-05 sáb 15:49] =>  0:29
+    :CLOCK: [2020-09-05 sáb 15:20]--[2020-09-05 sáb 15:49] =>  0:29
     :END:
 *** [2020-09-06 dom]
     :LOGBOOK:
-    CLOCK: [2020-09-06 dom 14:15]--[2020-09-06 dom 15:31] =>  1:16
-    CLOCK: [2020-09-06 dom 12:32]--[2020-09-06 dom 13:15] =>  0:43
+    :CLOCK: [2020-09-06 dom 14:15]--[2020-09-06 dom 15:31] =>  1:16
+    :CLOCK: [2020-09-06 dom 12:32]--[2020-09-06 dom 13:15] =>  0:43
     :END:
 *** [2020-09-08 Tue]
     :LOGBOOK:
-    CLOCK: [2020-09-08 Tue 15:40]--[2020-09-08 Tue 16:15] =>  0:35
+    :CLOCK: [2020-09-08 Tue 15:40]--[2020-09-08 Tue 16:15] =>  0:35
     :END:
 *** [2020-09-09 Wed]
     :LOGBOOK:
-    CLOCK: [2020-09-09 Wed 17:22]--[2020-09-09 Wed 17:40] =>  0:18
+    :CLOCK: [2020-09-09 Wed 17:22]--[2020-09-09 Wed 17:40] =>  0:18
     :END:
 *** [2020-09-10 Thu]
     :LOGBOOK:
-    CLOCK: [2020-09-10 Thu 10:55]--[2020-09-10 Thu 12:05] =>  1:10
+    :CLOCK: [2020-09-10 Thu 10:55]--[2020-09-10 Thu 12:05] =>  1:10
     :END:
 *** [2020-09-11 Fri]
     :LOGBOOK:
-    CLOCK: [2020-09-11 Fri 11:55]--[2020-09-11 Fri 14:13] =>  2:18
+    :CLOCK: [2020-09-11 Fri 11:55]--[2020-09-11 Fri 14:13] =>  2:18
     :END:
 *** [2020-09-13 Sun]
     :LOGBOOK:
-    CLOCK: [2020-09-13 Sun 16:15]--[2020-09-13 Sun 18:23] =>  2:08
+    :CLOCK: [2020-09-13 Sun 16:15]--[2020-09-13 Sun 18:23] =>  2:08
     :END:
 *** [2020-09-14 Mon]
     :LOGBOOK:
-    CLOCK: [2020-09-14 Mon 19:30]--[2020-09-14 Mon 20:15] =>  0:45
+    :CLOCK: [2020-09-14 Mon 19:30]--[2020-09-14 Mon 20:15] =>  0:45
     :END:
 *** [2020-09-15 Tue]
     :LOGBOOK:
-    CLOCK: [2020-09-15 Tue 16:30]--[2020-09-15 Tue 17:07] =>  0:37
+    :CLOCK: [2020-09-15 Tue 16:30]--[2020-09-15 Tue 17:07] =>  0:37
     :END:
 *** [2020-09-16 Wed]
     :LOGBOOK:
-    CLOCK: [2020-09-16 Wed 13:50]--[2020-09-16 Wed 14:58] =>  1:08
+    :CLOCK: [2020-09-16 Wed 13:50]--[2020-09-16 Wed 14:58] =>  1:08
     :END:
 *** [2020-09-17 Thu]
     :LOGBOOK:
-    CLOCK: [2020-09-17 Thu 18:42]--[2020-09-17 Thu 19:02] =>  0:20
-    CLOCK: [2020-09-17 Thu 10:57]--[2020-09-17 Thu 15:07] =>  4:10
+    :CLOCK: [2020-09-17 Thu 18:42]--[2020-09-17 Thu 19:02] =>  0:20
+    :CLOCK: [2020-09-17 Thu 10:57]--[2020-09-17 Thu 15:07] =>  4:10
     :END:
 *** [2020-09-18 Fri]
     :LOGBOOK:
-    CLOCK: [2020-09-18 Fri 17:36]--[2020-09-18 Fri 18:40] =>  1:04
-    CLOCK: [2020-09-18 Fri 10:13]--[2020-09-18 Fri 13:08] =>  2:55
+    :CLOCK: [2020-09-18 Fri 17:36]--[2020-09-18 Fri 18:40] =>  1:04
+    :CLOCK: [2020-09-18 Fri 10:13]--[2020-09-18 Fri 13:08] =>  2:55
     :END:
 *** [2020-09-19 Sat]
     :LOGBOOK:
-    CLOCK: [2020-09-19 Sat 10:55]--[2020-09-19 Sat 12:00] =>  1:05
+    :CLOCK: [2020-09-19 Sat 10:55]--[2020-09-19 Sat 12:00] =>  1:05
     :END:
 *** [2020-09-20 Sun]
     :LOGBOOK:
-    CLOCK: [2020-09-20 Sun 13:49]--[2020-09-20 Sun 17:35] =>  3:46
+    :CLOCK: [2020-09-20 Sun 13:49]--[2020-09-20 Sun 17:35] =>  3:46
     :END:
 *** [2020-09-21 Mon]
     :LOGBOOK:
-    CLOCK: [2020-09-21 Mon 13:17]--[2020-09-21 Mon 13:40] =>  0:23
-    CLOCK: [2020-09-21 Mon 10:55]--[2020-09-21 Mon 10:56] =>  0:01
+    :CLOCK: [2020-09-21 Mon 13:17]--[2020-09-21 Mon 13:40] =>  0:23
+    :CLOCK: [2020-09-21 Mon 10:55]--[2020-09-21 Mon 10:56] =>  0:01
     :END:
 *** [2020-09-22 Tue]
     :LOGBOOK:
-    CLOCK: [2020-09-22 Tue 17:11]--[2020-09-22 Tue 18:11] =>  1:00
-    CLOCK: [2020-09-22 Tue 10:55]--[2020-09-22 Tue 12:10] =>  1:15
+    :CLOCK: [2020-09-22 Tue 17:11]--[2020-09-22 Tue 18:11] =>  1:00
+    :CLOCK: [2020-09-22 Tue 10:55]--[2020-09-22 Tue 12:10] =>  1:15
     :END:
 *** [2020-09-23 Wed]
     :LOGBOOK:
-    CLOCK: [2020-09-23 Wed 09:38]--[2020-09-23 Wed 12:30] =>  2:52
+    :CLOCK: [2020-09-23 Wed 09:38]--[2020-09-23 Wed 12:30] =>  2:52
     :END:
 *** [2020-09-26 Sat]
     :LOGBOOK:
-    CLOCK: [2020-09-26 Sat 17:25]--[2020-09-26 Sat 18:53] =>  1:28
+    :CLOCK: [2020-09-26 Sat 17:25]--[2020-09-26 Sat 18:53] =>  1:28
     :END:
 *** [2020-09-28 Mon]
     :LOGBOOK:
-    CLOCK: [2020-09-28 Mon 10:40]--[2020-09-28 Mon 13:34] =>  2:54
+    :CLOCK: [2020-09-28 Mon 10:40]--[2020-09-28 Mon 13:34] =>  2:54
     :END:
 *** [2020-09-30 Wed]
     :LOGBOOK:
-    CLOCK: [2020-09-30 Wed 17:23]--[2020-09-30 Wed 18:33] =>  1:10
+    :CLOCK: [2020-09-30 Wed 17:23]--[2020-09-30 Wed 18:33] =>  1:10
     :END:
 ** Octubre 2020
 *** [2020-10-01 Thu]
     :LOGBOOK:
-    CLOCK: [2020-10-01 Thu 15:35]--[2020-10-01 Thu 16:57] =>  1:22
+    :CLOCK: [2020-10-01 Thu 15:35]--[2020-10-01 Thu 16:57] =>  1:22
     :END:
 
 * Agenda de estudio
@@ -299,12 +299,12 @@
 *** [2020-05-06 mié]
 **** desempolvado de la base postgres
 :LOGBOOK:
-CLOCK: [2020-05-06 mié 16:01]--[2020-05-06 mié 17:53] =>  1:52
+:CLOCK: [2020-05-06 mié 16:01]--[2020-05-06 mié 17:53] =>  1:52
 :END:
 postgres3 y 3-1
 **** instalando herramientas para el manejo de postgres
 :LOGBOOK:
-CLOCK: [2020-05-06 mié 18:25]--[2020-05-06 mié 19:24] =>  0:59
+:CLOCK: [2020-05-06 mié 18:25]--[2020-05-06 mié 19:24] =>  0:59
 :END:
 pgadmin y adminer
 30 minutos para instalar adminer por no seguir las instrucciones que
@@ -316,13 +316,13 @@ que aunque no era bueno era otra opcion para alguna que otra cualidad
 que no tenia por ahi.
 **** intentando resolver el problema de la funcion gc
 :LOGBOOK:
-CLOCK: [2020-05-06 mié 19:24]--[2020-05-06 mié 20:34] =>  1:10
+:CLOCK: [2020-05-06 mié 19:24]--[2020-05-06 mié 20:34] =>  1:10
 :END:
 resuelto, sacado los campos que estaban de mas, lo cual alivio la
 consulta que paso de tres tablas a una sola. 
 **** bonus final del dia
 :LOGBOOK:
-CLOCK: [2020-05-06 mié 21:00]--[2020-05-06 mié 21:59] =>  0:59
+:CLOCK: [2020-05-06 mié 21:00]--[2020-05-06 mié 21:59] =>  0:59
 :END:
 instale el puto Valentina que parece un muy muy buen sustituto del
 pgadmin4.
@@ -333,7 +333,7 @@ compiten entre si. o sea que hay que ver.
 **** procurando encryptacion de db
 ***** descubriendo TDE transparent data encryption postgres
 :LOGBOOK:
-CLOCK: [2020-05-07 jue 08:30]--[2020-05-07 jue 10:35] =>  2:05
+:CLOCK: [2020-05-07 jue 08:30]--[2020-05-07 jue 10:35] =>  2:05
 :END:
 intente instalar las dos versiones la 12 y la 9, y las dos fallaron en
 el make install, con mensajes incomprensibles y cero respuesta en
@@ -365,7 +365,7 @@ SELECT
 FROM users WHERE name = 'marco';
 ***** encriptando tabla clientes
 :LOGBOOK:
-CLOCK: [2020-05-07 jue 14:00]--[2020-05-07 jue 14:55] =>  0:55
+:CLOCK: [2020-05-07 jue 14:00]--[2020-05-07 jue 14:55] =>  0:55
 :END:
 ****** problemas presentados
 ******* columna dni cambiado de tipo 
@@ -380,12 +380,12 @@ que vaya programando, para evitar campos heredados. Y ver como
 impactan los problemas.
 ****** intentare instalar pgmodeler
 :LOGBOOK:
-CLOCK: [2020-05-07 jue 15:01]--[2020-05-07 jue 15:10] =>  0:09
+:CLOCK: [2020-05-07 jue 15:01]--[2020-05-07 jue 15:10] =>  0:09
 :END:
 sudo apt install pgmodeler
 ****** dividire la tabla clientes en dos cli_data cli_ex
 :LOGBOOK:
-CLOCK: [2020-05-07 jue 15:10]--[2020-05-07 jue 16:25] =>  1:15
+:CLOCK: [2020-05-07 jue 15:10]--[2020-05-07 jue 16:25] =>  1:15
 :END:
 y las relaciones con calles iran por id.
 Terminado trabajosamente el primer modelo
@@ -395,8 +395,8 @@ psql rx -f schema.sql
 lo hago facilmente y rapido y me da info que yo puedo procesar.
 ****** carga de datos desde romitex.db a set cli_data
 :LOGBOOK:
-CLOCK: [2020-05-07 jue 17:40]--[2020-05-07 jue 18:45] =>  1:05
-CLOCK: [2020-05-07 jue 16:35]--[2020-05-07 jue 17:13] =>  0:38
+:CLOCK: [2020-05-07 jue 17:40]--[2020-05-07 jue 18:45] =>  1:05
+:CLOCK: [2020-05-07 jue 16:35]--[2020-05-07 jue 17:13] =>  0:38
 
 :END:
 haciendo migra1.tcl y renegando con la primer subida.
@@ -414,7 +414,7 @@ postgres que en mysql, es mas queda abierto a usarlo con los dos.
 
 **** INSTALACION
 :LOGBOOK:
-CLOCK: [2020-05-08 vie 09:30]--[2020-05-08 vie 10:26] =>  0:56
+:CLOCK: [2020-05-08 vie 09:30]--[2020-05-08 vie 10:26] =>  0:56
 :END:
 sudo apt install mysql-client
 mysql -V
@@ -450,7 +450,7 @@ mysql -p
 y pongo la password
 **** reexplorando mytcl
 :LOGBOOK:
-CLOCK: [2020-05-08 vie 10:30]--[2020-05-08 vie 11:12] =>  0:42
+:CLOCK: [2020-05-08 vie 10:30]--[2020-05-08 vie 11:12] =>  0:42
 :END:
 ***** instalando mysql-workbench
 [[https://www.how2shout.com/how-to/how-to-install-mysql-workbench-on-ubuntu-20-04-lts.html][Procedimiento para instalar Workbench]]
@@ -461,9 +461,9 @@ hecha la ingenieria forward para ir de diseño a base de datos como el
 pgmodeler.
 ***** hacer el primer script para llenar la tablas con tcl
 :LOGBOOK:
-CLOCK: [2020-05-08 vie 13:52]--[2020-05-08 vie 14:53] =>  1:01
-CLOCK: [2020-05-08 vie 12:08]--[2020-05-08 vie 13:24] =>  1:16
-CLOCK: [2020-05-08 vie 11:15]--[2020-05-08 vie 11:46] =>  0:31
+:CLOCK: [2020-05-08 vie 13:52]--[2020-05-08 vie 14:53] =>  1:01
+:CLOCK: [2020-05-08 vie 12:08]--[2020-05-08 vie 13:24] =>  1:16
+:CLOCK: [2020-05-08 vie 11:15]--[2020-05-08 vie 11:46] =>  0:31
 :END:
 estoy trabado con el autoincrement por un lado y el local data loading
 por otro.
@@ -496,8 +496,8 @@ malo.
 Y aparte un espacio en el ultimo campo CREA UN NUEVO REGISTRO NULL!!!
 ****** primer borrador del comando
 :LOGBOOK:
-CLOCK: [2020-05-08 vie 18:10]--[2020-05-08 vie 19:49] =>  1:39
-CLOCK: [2020-05-08 vie 17:00]--[2020-05-08 vie 17:52] =>  0:52
+:CLOCK: [2020-05-08 vie 18:10]--[2020-05-08 vie 19:49] =>  1:39
+:CLOCK: [2020-05-08 vie 17:00]--[2020-05-08 vie 17:52] =>  0:52
 :END:
 la idea es un formato tipo browser que sea grande y que la informacion
 fluya y que tambien se pueda maximizar sin problemas.
@@ -509,7 +509,7 @@ bastante el tema text y/o canvas en su defecto.
 *** [2020-05-09 sáb]
 ***** encryptacion de columnas con AES
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 09:45]--[2020-05-09 sáb 10:38] =>  0:53
+:CLOCK: [2020-05-09 sáb 09:45]--[2020-05-09 sáb 10:38] =>  0:53
 :END:
 consegui las funciones encrypt/decrypt de AES y funcionan bien y es
 simple el proceso pero no me anda en el simple proceso de CVS-INFILE
@@ -518,7 +518,7 @@ el CVS o sea que hay que buscar otra forma de encryptar.
 o sea hacerlo una vez cargada la base en mysql localmente.
 ***** busqueda de encryptamiento por columna de mysql
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 10:38]--[2020-05-09 sáb 11:05] =>  0:27
+:CLOCK: [2020-05-09 sáb 10:38]--[2020-05-09 sáb 11:05] =>  0:27
 :END:
 doy por concluido momentaneamente el tema por un problema circular.
 la columna que contenga el resultado de un AES_ENCRYPT tiene que ser
@@ -528,21 +528,21 @@ Vamos a debilitar el proceso por buscar un tipo de encriptamiento que
 no se puede hacer.
 ***** install phpmyadmin
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 12:37]--[2020-05-09 sáb 12:46] =>  0:09
+:CLOCK: [2020-05-09 sáb 12:37]--[2020-05-09 sáb 12:46] =>  0:09
 :END:
 [[https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-phpmyadmin-on-ubuntu-20-04][pagina que explica]]
 ***** cambiar text por canvas
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 12:46]--[2020-05-09 sáb 13:09] =>  0:23
+:CLOCK: [2020-05-09 sáb 12:46]--[2020-05-09 sáb 13:09] =>  0:23
 :END:
 ***** intentando abrir cuenta gcloud nuevamente
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 14:19]--[2020-05-09 sáb 14:32] =>  0:13
+:CLOCK: [2020-05-09 sáb 14:19]--[2020-05-09 sáb 14:32] =>  0:13
 :END:
 negativo
 ***** canvas tag
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 14:30]--[2020-05-09 sáb 15:23] =>  0:53
+:CLOCK: [2020-05-09 sáb 14:30]--[2020-05-09 sáb 15:23] =>  0:53
 :END:
 ****** que es un tag
 es la segunda forma de identificar un objeto. Una es el id que retorna
@@ -562,8 +562,8 @@ bien.
 tambien se pueden hacer bindings.
 ****** rearmado de tabla clientes
 :LOGBOOK:
-CLOCK: [2020-05-09 sáb 18:42]--[2020-05-09 sáb 20:50] =>  2:08
-CLOCK: [2020-05-09 sáb 16:00]--[2020-05-09 sáb 18:26] =>  2:26
+:CLOCK: [2020-05-09 sáb 18:42]--[2020-05-09 sáb 20:50] =>  2:08
+:CLOCK: [2020-05-09 sáb 16:00]--[2020-05-09 sáb 18:26] =>  2:26
 :END:
 problemas
 ******* problemas con los id
@@ -587,104 +587,104 @@ arreglado con el puts -nonewline
 *** [2020-05-10 dom]
 **** evaluar el hacer script llano de subida 
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 09:58]--[2020-05-10 dom 13:17] =>  3:19
+:CLOCK: [2020-05-10 dom 09:58]--[2020-05-10 dom 13:17] =>  3:19
 :END:
 termino la tabla clientes completa primero
 DOY POR TERMINADO EL DESARROLLO en mysql pq no es factible hacer el
 paso de los datos.
 **** reinicio con postgres 
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 14:04]--[2020-05-10 dom 15:37] =>  1:33
+:CLOCK: [2020-05-10 dom 14:04]--[2020-05-10 dom 15:37] =>  1:33
 :END:
 muy conforme con Adminer, por su rapidez y muy conforme con pgmodeler
 tambien por su rapidez y por su interaccion a traves de Diff y con
 postgres por su rapidez.
 **** veo si puedo poner a full adminer
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 15:56]--[2020-05-10 dom 16:34] =>  0:38
+:CLOCK: [2020-05-10 dom 15:56]--[2020-05-10 dom 16:34] =>  0:38
 :END:
 negativo - suficiente tiempo perdido. Sin documentacion.
 **** hacer la tabla ventas
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 16:35]--[2020-05-10 dom 17:35] =>  1:00
+:CLOCK: [2020-05-10 dom 16:35]--[2020-05-10 dom 17:35] =>  1:00
 :END:
 **** hacer la tabla pagos
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 17:47]--[2020-05-10 dom 18:06] =>  0:19
+:CLOCK: [2020-05-10 dom 17:47]--[2020-05-10 dom 18:06] =>  0:19
 :END:
 **** hacer la tabla detalle de venta
 :LOGBOOK:
-CLOCK: [2020-05-10 dom 18:07]--[2020-05-10 dom 18:16] =>  0:09
+:CLOCK: [2020-05-10 dom 18:07]--[2020-05-10 dom 18:16] =>  0:09
 :END:
 *** [2020-05-11 lun]
 **** instalar laravel on ubuntu 20.04
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 09:32]--[2020-05-11 lun 09:50] =>  0:18
+:CLOCK: [2020-05-11 lun 09:32]--[2020-05-11 lun 09:50] =>  0:18
 :END:
 use el camino sencillo via Composer
 [[https://www.osradar.com/install-laravel-ubuntu-2004/][ver pagina donde explica el proceso]]
 **** ESTUDIO VIDEO 8
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 09:55]--[2020-05-11 lun 10:27] =>  0:32
+:CLOCK: [2020-05-11 lun 09:55]--[2020-05-11 lun 10:27] =>  0:32
 :END:
 **** ESTUDIO VIDEO 9
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 10:35]--[2020-05-11 lun 10:50] =>  0:15
+:CLOCK: [2020-05-11 lun 10:35]--[2020-05-11 lun 10:50] =>  0:15
 :END:
 **** ESTUDIO VIDEO 10
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 17:27]--[2020-05-11 lun 18:16] =>  0:49
-CLOCK: [2020-05-11 lun 10:52]--[2020-05-11 lun 10:57] =>  0:05
+:CLOCK: [2020-05-11 lun 17:27]--[2020-05-11 lun 18:16] =>  0:49
+:CLOCK: [2020-05-11 lun 10:52]--[2020-05-11 lun 10:57] =>  0:05
 :END:
 **** hago tabla articulos,artcomprado,caja,ctas
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 16:50]--[2020-05-11 lun 17:27] =>  0:37
+:CLOCK: [2020-05-11 lun 16:50]--[2020-05-11 lun 17:27] =>  0:37
 :END:
 **** ESTUDIO VIDEO 11
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 18:16]--[2020-05-11 lun 18:32] =>  0:16
+:CLOCK: [2020-05-11 lun 18:16]--[2020-05-11 lun 18:32] =>  0:16
 :END:
 **** ESTUDIO VIDEO 2-3-4
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 18:33]--[2020-05-11 lun 19:11] =>  0:38
+:CLOCK: [2020-05-11 lun 18:33]--[2020-05-11 lun 19:11] =>  0:38
 :END:
 **** ESTUDIO VIDEO 12
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 19:15]--[2020-05-11 lun 19:53] =>  0:38
+:CLOCK: [2020-05-11 lun 19:15]--[2020-05-11 lun 19:53] =>  0:38
 :END:
 **** boludeando con la increible falta de integracion git de sublime
 :LOGBOOK:
-CLOCK: [2020-05-11 lun 19:50]--[2020-05-11 lun 20:49] =>  0:59
+:CLOCK: [2020-05-11 lun 19:50]--[2020-05-11 lun 20:49] =>  0:59
 :END:
 *** [2020-05-12 mar]
 **** ESTUDIO VIDEO 13-14-15
 :LOGBOOK:
-CLOCK: [2020-05-12 mar 09:25]--[2020-05-12 mar 10:52] =>  1:27
+:CLOCK: [2020-05-12 mar 09:25]--[2020-05-12 mar 10:52] =>  1:27
 :END:
 **** estudio video 16-17
 :LOGBOOK:
-CLOCK: [2020-05-12 mar 14:47]--[2020-05-12 mar 15:39] =>  0:52
-CLOCK: [2020-05-12 mar 14:08]--[2020-05-12 mar 14:30] =>  0:22
+:CLOCK: [2020-05-12 mar 14:47]--[2020-05-12 mar 15:39] =>  0:52
+:CLOCK: [2020-05-12 mar 14:08]--[2020-05-12 mar 14:30] =>  0:22
 :END:
 **** estudio video 20 -21 -22 (salteo 18-19)
 :LOGBOOK:
-CLOCK: [2020-05-12 mar 16:57]--[2020-05-12 mar 18:47] =>  1:50
+:CLOCK: [2020-05-12 mar 16:57]--[2020-05-12 mar 18:47] =>  1:50
 :END:
 **** estudio video 23 y 25 (el 24 no esta)
 :LOGBOOK:
-CLOCK: [2020-05-12 mar 18:56]--[2020-05-12 mar 20:10] =>  1:14
+:CLOCK: [2020-05-12 mar 18:56]--[2020-05-12 mar 20:10] =>  1:14
 :END:
 *** [2020-05-13 mié]
 **** estudio video 26-27 y 28 parcial
 :LOGBOOK:
-CLOCK: [2020-05-13 mié 18:09]--[2020-05-13 mié 18:24] =>  0:15
-CLOCK: [2020-05-13 mié 10:01]--[2020-05-13 mié 11:16] =>  1:15
+:CLOCK: [2020-05-13 mié 18:09]--[2020-05-13 mié 18:24] =>  0:15
+:CLOCK: [2020-05-13 mié 10:01]--[2020-05-13 mié 11:16] =>  1:15
 :END:
 **** comienzo el proyecto Romi
 :LOGBOOK:
-CLOCK: [2020-05-13 mié 21:40]--[2020-05-13 mié 21:53] =>  0:13
-CLOCK: [2020-05-13 mié 19:28]--[2020-05-13 mié 21:06] =>  1:38
-CLOCK: [2020-05-13 mié 16:05]--[2020-05-13 mié 17:50] =>  1:45
+:CLOCK: [2020-05-13 mié 21:40]--[2020-05-13 mié 21:53] =>  0:13
+:CLOCK: [2020-05-13 mié 19:28]--[2020-05-13 mié 21:06] =>  1:38
+:CLOCK: [2020-05-13 mié 16:05]--[2020-05-13 mié 17:50] =>  1:45
 :END:
 cree el proyecto
 cree el model para clientes
@@ -699,11 +699,11 @@ subi el proyecto a github.
 *** [2020-05-14 jue]
 **** prosigo con el proyecto romi
 :LOGBOOK:
-CLOCK: [2020-05-14 jue 19:10]--[2020-05-14 jue 20:48] =>  1:38
-CLOCK: [2020-05-14 jue 17:15]--[2020-05-14 jue 18:51] =>  1:36
-CLOCK: [2020-05-14 jue 15:05]--[2020-05-14 jue 16:55] =>  1:50
-CLOCK: [2020-05-14 jue 11:12]--[2020-05-14 jue 12:35] =>  1:23
-CLOCK: [2020-05-14 jue 10:19]--[2020-05-14 jue 11:08] =>  0:49
+:CLOCK: [2020-05-14 jue 19:10]--[2020-05-14 jue 20:48] =>  1:38
+:CLOCK: [2020-05-14 jue 17:15]--[2020-05-14 jue 18:51] =>  1:36
+:CLOCK: [2020-05-14 jue 15:05]--[2020-05-14 jue 16:55] =>  1:50
+:CLOCK: [2020-05-14 jue 11:12]--[2020-05-14 jue 12:35] =>  1:23
+:CLOCK: [2020-05-14 jue 10:19]--[2020-05-14 jue 11:08] =>  0:49
 :END:
 creado layout con el uso de @extends @section @endsection @yield y el
 form create todo en 45min. lo unico que no tomo bootstrap pero ya
@@ -733,13 +733,13 @@ para definir lo que va quedando bien.
 *** [2020-05-15 vie]
 **** prosigo con el proyecto
 :LOGBOOK:
-CLOCK: [2020-05-15 vie 20:20]--[2020-05-15 vie 20:32] =>  0:12
-CLOCK: [2020-05-15 vie 18:23]--[2020-05-15 vie 19:54] =>  1:31
-CLOCK: [2020-05-15 vie 16:55]--[2020-05-15 vie 18:23] =>  1:28
-CLOCK: [2020-05-15 vie 15:16]--[2020-05-15 vie 16:30] =>  1:14
-CLOCK: [2020-05-15 vie 14:20]--[2020-05-15 vie 15:10] =>  0:50
-CLOCK: [2020-05-15 vie 13:05]--[2020-05-15 vie 13:37] =>  0:32
-CLOCK: [2020-05-15 vie 09:50]--[2020-05-15 vie 11:45] =>  1:55
+:CLOCK: [2020-05-15 vie 20:20]--[2020-05-15 vie 20:32] =>  0:12
+:CLOCK: [2020-05-15 vie 18:23]--[2020-05-15 vie 19:54] =>  1:31
+:CLOCK: [2020-05-15 vie 16:55]--[2020-05-15 vie 18:23] =>  1:28
+:CLOCK: [2020-05-15 vie 15:16]--[2020-05-15 vie 16:30] =>  1:14
+:CLOCK: [2020-05-15 vie 14:20]--[2020-05-15 vie 15:10] =>  0:50
+:CLOCK: [2020-05-15 vie 13:05]--[2020-05-15 vie 13:37] =>  0:32
+:CLOCK: [2020-05-15 vie 09:50]--[2020-05-15 vie 11:45] =>  1:55
 :END:
 aplicando semantic al proyecto.
 de acuerdo a las lecturas de esta mañana me decante por semantic en
@@ -775,8 +775,8 @@ falta menos.
 falta teoria.
 *** [2020-05-16 sáb]
 :LOGBOOK:
-CLOCK: [2020-05-16 sáb 16:47]--[2020-05-16 sáb 20:43] =>  3:56
-CLOCK: [2020-05-16 sáb 10:30]--[2020-05-16 sáb 12:46] =>  2:16
+:CLOCK: [2020-05-16 sáb 16:47]--[2020-05-16 sáb 20:43] =>  3:56
+:CLOCK: [2020-05-16 sáb 10:30]--[2020-05-16 sáb 12:46] =>  2:16
 :END:
 primer round hice el datatable.
 segundo round intentare subir al gcloud. fallido pq no admite mas que
@@ -789,7 +789,7 @@ si pude subir los datos mediante psql a pesar de los nombres largos de
 db host y usuario.
 *** [2020-05-17 dom]
 :LOGBOOK:
-CLOCK: [2020-05-17 dom 08:39]--[2020-05-17 dom 11:05] =>  2:26
+:CLOCK: [2020-05-17 dom 08:39]--[2020-05-17 dom 11:05] =>  2:26
 :END:
 terminado el objetivo de la semana con la puesta en marcha de la
 pagina en la web con heroku.
@@ -809,13 +809,13 @@ falso-error.
 por la presuncion de que algo no anda por desconocimiento.
 *** [2020-05-18 lun]
 :LOGBOOK:
-CLOCK: [2020-05-18 lun 18:04]--[2020-05-18 lun 20:13] =>  2:09
-CLOCK: [2020-05-18 lun 17:39]--[2020-05-18 lun 17:50] =>  0:11
-CLOCK: [2020-05-18 lun 14:21]--[2020-05-18 lun 17:36] =>  3:15
-CLOCK: [2020-05-18 lun 13:29]--[2020-05-18 lun 14:07] =>  0:38
-CLOCK: [2020-05-18 lun 12:03]--[2020-05-18 lun 13:25] =>  1:22
-CLOCK: [2020-05-18 lun 11:09]--[2020-05-18 lun 11:24] =>  0:15
-CLOCK: [2020-05-18 lun 09:33]--[2020-05-18 lun 10:57] =>  1:24
+:CLOCK: [2020-05-18 lun 18:04]--[2020-05-18 lun 20:13] =>  2:09
+:CLOCK: [2020-05-18 lun 17:39]--[2020-05-18 lun 17:50] =>  0:11
+:CLOCK: [2020-05-18 lun 14:21]--[2020-05-18 lun 17:36] =>  3:15
+:CLOCK: [2020-05-18 lun 13:29]--[2020-05-18 lun 14:07] =>  0:38
+:CLOCK: [2020-05-18 lun 12:03]--[2020-05-18 lun 13:25] =>  1:22
+:CLOCK: [2020-05-18 lun 11:09]--[2020-05-18 lun 11:24] =>  0:15
+:CLOCK: [2020-05-18 lun 09:33]--[2020-05-18 lun 10:57] =>  1:24
 :END:
 el plan de trabajo para la semana seria primero terminar de maquetar
 la base de datos o sea recorrer toda la bd de sqlite y ver que tablas
@@ -844,11 +844,11 @@ daba errores compatibles con los status del momento sin existir db,
 sin existir la tabla y sin existir los datos y luego largo.
 *** [2020-05-19 mar]
 :LOGBOOK:
-CLOCK: [2020-05-19 mar 17:24]--[2020-05-19 mar 18:07] =>  0:43
-CLOCK: [2020-05-19 mar 14:16]--[2020-05-19 mar 17:02] =>  2:46
-CLOCK: [2020-05-19 mar 12:37]--[2020-05-19 mar 13:50] =>  1:13
-CLOCK: [2020-05-19 mar 12:06]--[2020-05-19 mar 12:36] =>  0:30
-CLOCK: [2020-05-19 mar 10:20]--[2020-05-19 mar 11:15] =>  0:55
+:CLOCK: [2020-05-19 mar 17:24]--[2020-05-19 mar 18:07] =>  0:43
+:CLOCK: [2020-05-19 mar 14:16]--[2020-05-19 mar 17:02] =>  2:46
+:CLOCK: [2020-05-19 mar 12:37]--[2020-05-19 mar 13:50] =>  1:13
+:CLOCK: [2020-05-19 mar 12:06]--[2020-05-19 mar 12:36] =>  0:30
+:CLOCK: [2020-05-19 mar 10:20]--[2020-05-19 mar 11:15] =>  0:55
 :END:
 primero arreglo problema con tabla pagos que dio un error al cargar a
 heroku
@@ -866,13 +866,13 @@ Tambien falta aprender mucho mas de DB y descubri el tinker que es
 como una consola que permite probar el eloquent.
 *** [2020-05-20 mié]
 :LOGBOOK:
-CLOCK: [2020-05-20 mié 18:33]--[2020-05-20 mié 21:31] =>  2:58
-CLOCK: [2020-05-20 mié 16:53]--[2020-05-20 mié 18:19] =>  1:26
-CLOCK: [2020-05-20 mié 14:06]--[2020-05-20 mié 14:30] =>  0:24
-CLOCK: [2020-05-20 mié 13:35]--[2020-05-20 mié 13:40] =>  0:05
-CLOCK: [2020-05-20 mié 12:36]--[2020-05-20 mié 13:17] =>  0:41
-CLOCK: [2020-05-20 mié 12:17]--[2020-05-20 mié 12:36] =>  0:19
-CLOCK: [2020-05-20 mié 10:30]--[2020-05-20 mié 11:29] =>  0:59
+:CLOCK: [2020-05-20 mié 18:33]--[2020-05-20 mié 21:31] =>  2:58
+:CLOCK: [2020-05-20 mié 16:53]--[2020-05-20 mié 18:19] =>  1:26
+:CLOCK: [2020-05-20 mié 14:06]--[2020-05-20 mié 14:30] =>  0:24
+:CLOCK: [2020-05-20 mié 13:35]--[2020-05-20 mié 13:40] =>  0:05
+:CLOCK: [2020-05-20 mié 12:36]--[2020-05-20 mié 13:17] =>  0:41
+:CLOCK: [2020-05-20 mié 12:17]--[2020-05-20 mié 12:36] =>  0:19
+:CLOCK: [2020-05-20 mié 10:30]--[2020-05-20 mié 11:29] =>  0:59
 :END:
 la idea es comenzar con la pagina de carga de ventas, la cual sera
 lenta pq necesito aprender mucho, es mas anoche lei tres horas, esta
@@ -883,11 +883,11 @@ estoy a pleno con datetables que creo que sera una parte esencial de
 mis forms.
 *** [2020-05-21 jue]
 :LOGBOOK:
-CLOCK: [2020-05-21 jue 18:20]--[2020-05-21 jue 21:00] =>  2:40
-CLOCK: [2020-05-21 jue 16:29]--[2020-05-21 jue 18:00] =>  1:31
-CLOCK: [2020-05-21 jue 13:57]--[2020-05-21 jue 14:50] =>  0:53
-CLOCK: [2020-05-21 jue 12:40]--[2020-05-21 jue 13:27] =>  0:47
-CLOCK: [2020-05-21 jue 10:00]--[2020-05-21 jue 12:10] =>  2:10
+:CLOCK: [2020-05-21 jue 18:20]--[2020-05-21 jue 21:00] =>  2:40
+:CLOCK: [2020-05-21 jue 16:29]--[2020-05-21 jue 18:00] =>  1:31
+:CLOCK: [2020-05-21 jue 13:57]--[2020-05-21 jue 14:50] =>  0:53
+:CLOCK: [2020-05-21 jue 12:40]--[2020-05-21 jue 13:27] =>  0:47
+:CLOCK: [2020-05-21 jue 10:00]--[2020-05-21 jue 12:10] =>  2:10
 :END:
 luego de haber reestudiado la posibilidad de volver a semantic-ui me
 decante definitivamente por boostrap pq semantic es un proyecto
@@ -904,9 +904,9 @@ aciago. pero algunas cosas se hicieron, y como siempre algo se
 aprendio.
 *** [2020-05-22 vie]
 :LOGBOOK:
-CLOCK: [2020-05-22 vie 18:54]--[2020-05-22 vie 21:00] =>  2:06
-CLOCK: [2020-05-22 vie 14:52]--[2020-05-22 vie 18:35] =>  3:43
-CLOCK: [2020-05-22 vie 09:58]--[2020-05-22 vie 13:25] =>  3:27
+:CLOCK: [2020-05-22 vie 18:54]--[2020-05-22 vie 21:00] =>  2:06
+:CLOCK: [2020-05-22 vie 14:52]--[2020-05-22 vie 18:35] =>  3:43
+:CLOCK: [2020-05-22 vie 09:58]--[2020-05-22 vie 13:25] =>  3:27
 :END:
 Conclusiones de este dia largo y aciago:
 1 la mas importante de todas, para trabajar en serio firefox para
@@ -925,10 +925,10 @@ las lineas de codigo que se hagan y lo que se aprenda, es imposible
 con el cansancio del dia exponerlas aca.
 *** [2020-05-23 sáb]
 :LOGBOOK:
-CLOCK: [2020-05-23 sáb 18:59]--[2020-05-23 sáb 19:25] =>  0:26
-CLOCK: [2020-05-23 sáb 17:59]--[2020-05-23 sáb 18:48] =>  0:49
-CLOCK: [2020-05-23 sáb 13:07]--[2020-05-23 sáb 17:24] =>  4:17
-CLOCK: [2020-05-23 sáb 10:40]--[2020-05-23 sáb 12:44] =>  2:04
+:CLOCK: [2020-05-23 sáb 18:59]--[2020-05-23 sáb 19:25] =>  0:26
+:CLOCK: [2020-05-23 sáb 17:59]--[2020-05-23 sáb 18:48] =>  0:49
+:CLOCK: [2020-05-23 sáb 13:07]--[2020-05-23 sáb 17:24] =>  4:17
+:CLOCK: [2020-05-23 sáb 10:40]--[2020-05-23 sáb 12:44] =>  2:04
 :END:
 acomododar vim a basico
 instalar mozilla firefox for developer
@@ -965,8 +965,8 @@ esta la mitad del pasar ventas, faltan los articulos que es lo mas
 dificil, veremos como lo solucionamos.
 *** [2020-05-24 dom]
 :LOGBOOK:
-CLOCK: [2020-05-24 dom 18:21]--[2020-05-24 dom 19:17] =>  0:56
-CLOCK: [2020-05-24 dom 15:58]--[2020-05-24 dom 17:08] =>  1:10
+:CLOCK: [2020-05-24 dom 18:21]--[2020-05-24 dom 19:17] =>  0:56
+:CLOCK: [2020-05-24 dom 15:58]--[2020-05-24 dom 17:08] =>  1:10
 :END:
 decidi hacer un curso intensivo de javascript para estar en mejores
 condiciones de encarar el trabajo. por eso no se vera reflejado aca en
@@ -974,8 +974,8 @@ el horario pero es un monton de horas desde las siete de la mañana que
 vengo con esto.
 *** [2020-05-25 lun]
 :LOGBOOK:
-CLOCK: [2020-05-25 lun 19:03]--[2020-05-25 lun 20:12] =>  1:09
-CLOCK: [2020-05-25 lun 16:17]--[2020-05-25 lun 18:30] =>  2:13
+:CLOCK: [2020-05-25 lun 19:03]--[2020-05-25 lun 20:12] =>  1:09
+:CLOCK: [2020-05-25 lun 16:17]--[2020-05-25 lun 18:30] =>  2:13
 :END:
 instalando gitkraken para ver si tengo el manejo de git fuera del
 editor y puedo volver a sublime text. Gitkraken bosta fallo pq no
@@ -1012,8 +1012,8 @@ semana a la capacitacion intensa y despues ver si me deposita en un
 estadio mas arriba.
 *** [2020-05-26 mar]
 :LOGBOOK:
-CLOCK: [2020-05-26 mar 17:17]--[2020-05-26 mar 18:28] =>  1:11
-CLOCK: [2020-05-26 mar 10:48]--[2020-05-26 mar 13:53] =>  3:05
+:CLOCK: [2020-05-26 mar 17:17]--[2020-05-26 mar 18:28] =>  1:11
+:CLOCK: [2020-05-26 mar 10:48]--[2020-05-26 mar 13:53] =>  3:05
 :END:
 hoy comence a ver Vue.js como posible alternativa para front-end pero
 primero tengo que terminar la base de js.
@@ -1023,9 +1023,9 @@ Por alguna razon no funcionaron los eventos de Form submit o blur y
 entonces hice la funcion de limpiar campos atada al boton crear.
 *** [2020-05-27 mié]
 :LOGBOOK:
-CLOCK: [2020-05-27 mié 18:27]--[2020-05-27 mié 18:42] =>  0:15
-CLOCK: [2020-05-27 mié 16:39]--[2020-05-27 mié 18:01] =>  1:22
-CLOCK: [2020-05-27 mié 10:21]--[2020-05-27 mié 13:29] =>  3:08
+:CLOCK: [2020-05-27 mié 18:27]--[2020-05-27 mié 18:42] =>  0:15
+:CLOCK: [2020-05-27 mié 16:39]--[2020-05-27 mié 18:01] =>  1:22
+:CLOCK: [2020-05-27 mié 10:21]--[2020-05-27 mié 13:29] =>  3:08
 :END:
 excelentisima practica con el fetch datacreate.
 bastante bien tambien el tema de la seleccion del articulo y el
@@ -1035,10 +1035,10 @@ andar.
 Falta mucho por aprender todavia. 
 *** [2020-05-28 jue]
 :LOGBOOK:
-CLOCK: [2020-05-28 jue 17:14]--[2020-05-28 jue 18:06] =>  0:52
-CLOCK: [2020-05-28 jue 15:04]--[2020-05-28 jue 16:03] =>  0:59
-CLOCK: [2020-05-28 jue 14:00]--[2020-05-28 jue 14:18] =>  0:18
-CLOCK: [2020-05-28 jue 11:01]--[2020-05-28 jue 13:13] =>  2:12
+:CLOCK: [2020-05-28 jue 17:14]--[2020-05-28 jue 18:06] =>  0:52
+:CLOCK: [2020-05-28 jue 15:04]--[2020-05-28 jue 16:03] =>  0:59
+:CLOCK: [2020-05-28 jue 14:00]--[2020-05-28 jue 14:18] =>  0:18
+:CLOCK: [2020-05-28 jue 11:01]--[2020-05-28 jue 13:13] =>  2:12
 :END:
 anoche pense una nueva forma de trabajar con los videos. Escucha mas
 activa con toma de apuntes, pero apuntes no con formato prettyfy para
@@ -1054,12 +1054,12 @@ creia que las regex no funcionaban era pq habia puesto mal el nombre
 del elemento en el getElementById o sea un error muy infantil.
 *** [2020-05-29 vie]
 :LOGBOOK:
-CLOCK: [2020-05-29 vie 18:46]--[2020-05-29 vie 20:06] =>  1:20
-CLOCK: [2020-05-29 vie 17:32]--[2020-05-29 vie 18:44] =>  1:12
-CLOCK: [2020-05-29 vie 15:27]--[2020-05-29 vie 17:27] =>  2:00
-CLOCK: [2020-05-29 vie 13:50]--[2020-05-29 vie 15:25] =>  1:35
-CLOCK: [2020-05-29 vie 11:25]--[2020-05-29 vie 12:53] =>  1:28
-CLOCK: [2020-05-29 vie 09:53]--[2020-05-29 vie 11:23] =>  1:30
+:CLOCK: [2020-05-29 vie 18:46]--[2020-05-29 vie 20:06] =>  1:20
+:CLOCK: [2020-05-29 vie 17:32]--[2020-05-29 vie 18:44] =>  1:12
+:CLOCK: [2020-05-29 vie 15:27]--[2020-05-29 vie 17:27] =>  2:00
+:CLOCK: [2020-05-29 vie 13:50]--[2020-05-29 vie 15:25] =>  1:35
+:CLOCK: [2020-05-29 vie 11:25]--[2020-05-29 vie 12:53] =>  1:28
+:CLOCK: [2020-05-29 vie 09:53]--[2020-05-29 vie 11:23] =>  1:30
 :END:
 hora y media perdida en un intento de practica con laravel mix que
 resulto fallida pq no me anduvo, esta bien que el sistema esta muy
@@ -1087,14 +1087,14 @@ Un poco mejor el ultimo tramo pq recupere la visual de semantic y
 aprendi que con un componente de vue se pueden hacer muchas cosas.
 *** [2020-05-30 sáb]
 :LOGBOOK:
-CLOCK: [2020-05-30 sáb 19:20]--[2020-05-30 sáb 20:08] =>  0:48
-CLOCK: [2020-05-30 sáb 18:36]--[2020-05-30 sáb 19:02] =>  0:26
-CLOCK: [2020-05-30 sáb 17:38]--[2020-05-30 sáb 18:31] =>  0:53
-CLOCK: [2020-05-30 sáb 16:18]--[2020-05-30 sáb 17:03] =>  0:45
-CLOCK: [2020-05-30 sáb 14:55]--[2020-05-30 sáb 15:23] =>  0:28
-CLOCK: [2020-05-30 sáb 12:10]--[2020-05-30 sáb 13:04] =>  0:54
-CLOCK: [2020-05-30 sáb 10:35]--[2020-05-30 sáb 11:41] =>  1:06
-CLOCK: [2020-05-30 sáb 09:39]--[2020-05-30 sáb 10:19] =>  0:40
+:CLOCK: [2020-05-30 sáb 19:20]--[2020-05-30 sáb 20:08] =>  0:48
+:CLOCK: [2020-05-30 sáb 18:36]--[2020-05-30 sáb 19:02] =>  0:26
+:CLOCK: [2020-05-30 sáb 17:38]--[2020-05-30 sáb 18:31] =>  0:53
+:CLOCK: [2020-05-30 sáb 16:18]--[2020-05-30 sáb 17:03] =>  0:45
+:CLOCK: [2020-05-30 sáb 14:55]--[2020-05-30 sáb 15:23] =>  0:28
+:CLOCK: [2020-05-30 sáb 12:10]--[2020-05-30 sáb 13:04] =>  0:54
+:CLOCK: [2020-05-30 sáb 10:35]--[2020-05-30 sáb 11:41] =>  1:06
+:CLOCK: [2020-05-30 sáb 09:39]--[2020-05-30 sáb 10:19] =>  0:40
 :END:
 1er tramo: perdido experimentando con toast. Lamentablemente no
 funciona, jquery no la acepta pero no anda en boostrap tampoco, anoto
@@ -1119,12 +1119,12 @@ puede obviar todo el tema margin top, center y muchas huevaditas que
 le pedimos a booster.
 *** [2020-05-31 dom]
 :LOGBOOK:
-CLOCK: [2020-05-31 dom 21:17]--[2020-05-31 dom 22:00] =>  0:43
-CLOCK: [2020-05-31 dom 17:03]--[2020-05-31 dom 17:49] =>  0:46
-CLOCK: [2020-05-31 dom 16:23]--[2020-05-31 dom 16:26] =>  0:03
-CLOCK: [2020-05-31 dom 15:42]--[2020-05-31 dom 15:57] =>  0:15
-CLOCK: [2020-05-31 dom 14:39]--[2020-05-31 dom 15:41] =>  1:02
-CLOCK: [2020-05-31 dom 12:02]--[2020-05-31 dom 14:08] =>  2:06
+:CLOCK: [2020-05-31 dom 21:17]--[2020-05-31 dom 22:00] =>  0:43
+:CLOCK: [2020-05-31 dom 17:03]--[2020-05-31 dom 17:49] =>  0:46
+:CLOCK: [2020-05-31 dom 16:23]--[2020-05-31 dom 16:26] =>  0:03
+:CLOCK: [2020-05-31 dom 15:42]--[2020-05-31 dom 15:57] =>  0:15
+:CLOCK: [2020-05-31 dom 14:39]--[2020-05-31 dom 15:41] =>  1:02
+:CLOCK: [2020-05-31 dom 12:02]--[2020-05-31 dom 14:08] =>  2:06
 :END:
 Despues de 3horas 8 minutos de reniegue descubri que search de
 semantic necesita que el campo busqueda se llame title, entre otras
@@ -1139,15 +1139,15 @@ acrecentando el conocimiento acumulado.
 ** 2020-Junio
 *** [2020-06-01 lun]
 :LOGBOOK:
-CLOCK: [2020-06-01 lun 21:49]--[2020-06-01 lun 22:31] =>  0:42
-CLOCK: [2020-06-01 lun 19:45]--[2020-06-01 lun 20:14] =>  0:29
-CLOCK: [2020-06-01 lun 18:43]--[2020-06-01 lun 19:45] =>  1:02
-CLOCK: [2020-06-01 lun 18:10]--[2020-06-01 lun 18:28] =>  0:18
-CLOCK: [2020-06-01 lun 15:35]--[2020-06-01 lun 16:12] =>  0:37
-CLOCK: [2020-06-01 lun 14:50]--[2020-06-01 lun 15:34] =>  0:44
-CLOCK: [2020-06-01 lun 14:20]--[2020-06-01 lun 14:50] =>  0:30
-CLOCK: [2020-06-01 lun 12:37]--[2020-06-01 lun 13:11] =>  0:34
-CLOCK: [2020-06-01 lun 11:09]--[2020-06-01 lun 12:34] =>  1:25
+:CLOCK: [2020-06-01 lun 21:49]--[2020-06-01 lun 22:31] =>  0:42
+:CLOCK: [2020-06-01 lun 19:45]--[2020-06-01 lun 20:14] =>  0:29
+:CLOCK: [2020-06-01 lun 18:43]--[2020-06-01 lun 19:45] =>  1:02
+:CLOCK: [2020-06-01 lun 18:10]--[2020-06-01 lun 18:28] =>  0:18
+:CLOCK: [2020-06-01 lun 15:35]--[2020-06-01 lun 16:12] =>  0:37
+:CLOCK: [2020-06-01 lun 14:50]--[2020-06-01 lun 15:34] =>  0:44
+:CLOCK: [2020-06-01 lun 14:20]--[2020-06-01 lun 14:50] =>  0:30
+:CLOCK: [2020-06-01 lun 12:37]--[2020-06-01 lun 13:11] =>  0:34
+:CLOCK: [2020-06-01 lun 11:09]--[2020-06-01 lun 12:34] =>  1:25
 :END:
 creado laravel-vue-spa con gran problematica con npm run dev resuelto
 en troubleshooting. 
@@ -1185,12 +1185,12 @@ instalacion tampoco logre algo bien bonito, y eso que no tengo
 practica y que solo llevo pocos minutos en esto.
 *** [2020-06-02 mar]
 :LOGBOOK:
-CLOCK: [2020-06-02 mar 18:35]--[2020-06-02 mar 20:40] =>  2:05
-CLOCK: [2020-06-02 mar 17:41]--[2020-06-02 mar 17:57] =>  0:16
-CLOCK: [2020-06-02 mar 14:52]--[2020-06-02 mar 17:25] =>  2:33
-CLOCK: [2020-06-02 mar 13:17]--[2020-06-02 mar 14:20] =>  1:03
-CLOCK: [2020-06-02 mar 11:19]--[2020-06-02 mar 12:03] =>  0:44
-CLOCK: [2020-06-02 mar 10:22]--[2020-06-02 mar 11:19] =>  0:57
+:CLOCK: [2020-06-02 mar 18:35]--[2020-06-02 mar 20:40] =>  2:05
+:CLOCK: [2020-06-02 mar 17:41]--[2020-06-02 mar 17:57] =>  0:16
+:CLOCK: [2020-06-02 mar 14:52]--[2020-06-02 mar 17:25] =>  2:33
+:CLOCK: [2020-06-02 mar 13:17]--[2020-06-02 mar 14:20] =>  1:03
+:CLOCK: [2020-06-02 mar 11:19]--[2020-06-02 mar 12:03] =>  0:44
+:CLOCK: [2020-06-02 mar 10:22]--[2020-06-02 mar 11:19] =>  0:57
 :END:
 descubri esta mañana Bulma y me parece buena opcion, primero pq esta
 en pleno y seguro desarrollo es muy usado por 200000 developers.
@@ -1209,11 +1209,11 @@ Lo mismo todavia no he cumplido un mes de programacion y creo que he
 avanzado un monton.
 *** [2020-06-03 mié]
 :LOGBOOK:
-CLOCK: [2020-06-03 mié 16:58]--[2020-06-03 mié 20:02] =>  3:04
-CLOCK: [2020-06-03 mié 15:32]--[2020-06-03 mié 16:24] =>  0:52
-CLOCK: [2020-06-03 mié 14:23]--[2020-06-03 mié 15:30] =>  1:07
-CLOCK: [2020-06-03 mié 12:45]--[2020-06-03 mié 13:58] =>  1:13
-CLOCK: [2020-06-03 mié 10:56]--[2020-06-03 mié 12:08] =>  1:12
+:CLOCK: [2020-06-03 mié 16:58]--[2020-06-03 mié 20:02] =>  3:04
+:CLOCK: [2020-06-03 mié 15:32]--[2020-06-03 mié 16:24] =>  0:52
+:CLOCK: [2020-06-03 mié 14:23]--[2020-06-03 mié 15:30] =>  1:07
+:CLOCK: [2020-06-03 mié 12:45]--[2020-06-03 mié 13:58] =>  1:13
+:CLOCK: [2020-06-03 mié 10:56]--[2020-06-03 mié 12:08] =>  1:12
 :END:
 Ayer decidi definitivamente quedarme con Buefy porque opto por el
 diseño bulma. Lo veo mas simple y liviano que el otro. Y los
@@ -1242,14 +1242,14 @@ ver si el haber trasvasado todas las migraciones sirve, si hay que
 hacer una fresh y recargar los datos, o sea todas esas cosas. 
 *** [2020-06-04 jue]
 :LOGBOOK:
-CLOCK: [2020-06-04 jue 20:02]--[2020-06-04 jue 21:40] =>  1:38
-CLOCK: [2020-06-04 jue 18:58]--[2020-06-04 jue 20:02] =>  1:04
-CLOCK: [2020-06-04 jue 15:17]--[2020-06-04 jue 18:40] =>  3:23
-CLOCK: [2020-06-04 jue 12:41]--[2020-06-04 jue 12:50] =>  0:09
-CLOCK: [2020-06-04 jue 12:07]--[2020-06-04 jue 12:35] =>  0:28
-CLOCK: [2020-06-04 jue 11:18]--[2020-06-04 jue 11:28] =>  0:10
-CLOCK: [2020-06-04 jue 10:34]--[2020-06-04 jue 11:16] =>  0:42
-CLOCK: [2020-06-04 jue 09:35]--[2020-06-04 jue 10:34] =>  0:59
+:CLOCK: [2020-06-04 jue 20:02]--[2020-06-04 jue 21:40] =>  1:38
+:CLOCK: [2020-06-04 jue 18:58]--[2020-06-04 jue 20:02] =>  1:04
+:CLOCK: [2020-06-04 jue 15:17]--[2020-06-04 jue 18:40] =>  3:23
+:CLOCK: [2020-06-04 jue 12:41]--[2020-06-04 jue 12:50] =>  0:09
+:CLOCK: [2020-06-04 jue 12:07]--[2020-06-04 jue 12:35] =>  0:28
+:CLOCK: [2020-06-04 jue 11:18]--[2020-06-04 jue 11:28] =>  0:10
+:CLOCK: [2020-06-04 jue 10:34]--[2020-06-04 jue 11:16] =>  0:42
+:CLOCK: [2020-06-04 jue 09:35]--[2020-06-04 jue 10:34] =>  0:59
 :END:
 logre un punto de partida limpio vamos a ver que pasa.
 por el momento quiero tirar todo a la mierda, es que estoy varado
@@ -1277,14 +1277,14 @@ frustrante.
 Pero el dia viendolo en perspectiva es de mucho avance.
 *** [2020-06-05 vie]
 :LOGBOOK:
-CLOCK: [2020-06-05 vie 18:52]--[2020-06-05 vie 19:50] =>  0:58
-CLOCK: [2020-06-05 vie 18:44]--[2020-06-05 vie 18:51] =>  0:07
-CLOCK: [2020-06-05 vie 18:15]--[2020-06-05 vie 18:23] =>  0:08
-CLOCK: [2020-06-05 vie 18:06]--[2020-06-05 vie 18:12] =>  0:06
-CLOCK: [2020-06-05 vie 17:29]--[2020-06-05 vie 17:58] =>  0:29
-CLOCK: [2020-06-05 vie 15:49]--[2020-06-05 vie 17:18] =>  1:29
-CLOCK: [2020-06-05 vie 13:24]--[2020-06-05 vie 13:28] =>  0:04
-CLOCK: [2020-06-05 vie 10:30]--[2020-06-05 vie 13:05] =>  2:35
+:CLOCK: [2020-06-05 vie 18:52]--[2020-06-05 vie 19:50] =>  0:58
+:CLOCK: [2020-06-05 vie 18:44]--[2020-06-05 vie 18:51] =>  0:07
+:CLOCK: [2020-06-05 vie 18:15]--[2020-06-05 vie 18:23] =>  0:08
+:CLOCK: [2020-06-05 vie 18:06]--[2020-06-05 vie 18:12] =>  0:06
+:CLOCK: [2020-06-05 vie 17:29]--[2020-06-05 vie 17:58] =>  0:29
+:CLOCK: [2020-06-05 vie 15:49]--[2020-06-05 vie 17:18] =>  1:29
+:CLOCK: [2020-06-05 vie 13:24]--[2020-06-05 vie 13:28] =>  0:04
+:CLOCK: [2020-06-05 vie 10:30]--[2020-06-05 vie 13:05] =>  2:35
 :END:
 Por lo menos hoy despues de tanto renegar tuve suerte con el
 datalist. primero me baje un datalist casero que funciona gracias a
@@ -1329,10 +1329,10 @@ hice el campo buscador y empece con los modales y anduvieron, pero
 falta seguir encontrando la vuelta.
 *** [2020-06-07 dom]
 :LOGBOOK:
-CLOCK: [2020-06-07 dom 20:20]--[2020-06-07 dom 20:46] =>  0:26
-CLOCK: [2020-06-07 dom 18:19]--[2020-06-07 dom 20:14] =>  1:55
-CLOCK: [2020-06-07 dom 17:03]--[2020-06-07 dom 17:28] =>  0:25
-CLOCK: [2020-06-07 dom 16:05]--[2020-06-07 dom 17:02] =>  0:57
+:CLOCK: [2020-06-07 dom 20:20]--[2020-06-07 dom 20:46] =>  0:26
+:CLOCK: [2020-06-07 dom 18:19]--[2020-06-07 dom 20:14] =>  1:55
+:CLOCK: [2020-06-07 dom 17:03]--[2020-06-07 dom 17:28] =>  0:25
+:CLOCK: [2020-06-07 dom 16:05]--[2020-06-07 dom 17:02] =>  0:57
 :END:
 despues de la decepcion y de las ganas de tirar todo por unos errores
 inesperados en el datatable me vuelve la confianza al haberlos
@@ -1349,18 +1349,18 @@ como para saber renegar mejor, pero no creo que todo vaya a ser vue,
 aunque debo seguir aprendiendo eso.
 *** [2020-06-08 lun]
 ::LOGBOOK:
-CLOCK: [2020-06-08 lun 19:20]--[2020-06-08 lun 21:40] =>  2:20
-CLOCK: [2020-06-08 lun 17:54]--[2020-06-08 lun 19:20] =>  1:26
-CLOCK: [2020-06-08 Mon 14:55]--[2020-06-08 lun 15:23] =>  0:00
-CLOCK: [2020-06-08 lun 14:55]--[2020-06-08 lun 15:23] =>  0:28
-CLOCK: [2020-06-08 lun 14:22]--[2020-06-08 lun 14:54] =>  0:32
-CLOCK: [2020-06-08 lun 13:15]--[2020-06-08 lun 13:58] =>  0:43
-CLOCK: [2020-06-08 lun 12:48]--[2020-06-08 lun 13:13] =>  0:25
-CLOCK: [2020-06-08 lun 11:29]--[2020-06-08 lun 12:03] =>  0:34
-CLOCK: [2020-06-08 lun 11:14]--[2020-06-08 lun 11:28] =>  0:14
-CLOCK: [2020-06-08 lun 10:59]--[2020-06-08 lun 11:13] =>  0:14
-CLOCK: [2020-06-08 lun 10:51]--[2020-06-08 lun 10:59] =>  0:08
-CLOCK: [2020-06-08 lun 09:14]--[2020-06-08 lun 10:50] =>  1:36
+:CLOCK: [2020-06-08 lun 19:20]--[2020-06-08 lun 21:40] =>  2:20
+:CLOCK: [2020-06-08 lun 17:54]--[2020-06-08 lun 19:20] =>  1:26
+:CLOCK: [2020-06-08 Mon 14:55]--[2020-06-08 lun 15:23] =>  0:00
+:CLOCK: [2020-06-08 lun 14:55]--[2020-06-08 lun 15:23] =>  0:28
+:CLOCK: [2020-06-08 lun 14:22]--[2020-06-08 lun 14:54] =>  0:32
+:CLOCK: [2020-06-08 lun 13:15]--[2020-06-08 lun 13:58] =>  0:43
+:CLOCK: [2020-06-08 lun 12:48]--[2020-06-08 lun 13:13] =>  0:25
+:CLOCK: [2020-06-08 lun 11:29]--[2020-06-08 lun 12:03] =>  0:34
+:CLOCK: [2020-06-08 lun 11:14]--[2020-06-08 lun 11:28] =>  0:14
+:CLOCK: [2020-06-08 lun 10:59]--[2020-06-08 lun 11:13] =>  0:14
+:CLOCK: [2020-06-08 lun 10:51]--[2020-06-08 lun 10:59] =>  0:08
+:CLOCK: [2020-06-08 lun 09:14]--[2020-06-08 lun 10:50] =>  1:36
 :END:
 falta validaciones / autocomplete / guardar/ borrar / editar/
 solucionar el bug-problema de que al hacer enter se borran los
@@ -1430,12 +1430,12 @@ si hay algo que corregir, desde mañana lo reviso y comienzo a
 programar algo mas sencillo.
 *** [2020-06-09 mar]
 :LOGBOOK:
-CLOCK: [2020-06-09 mar 19:29]--[2020-06-09 mar 19:48] =>  0:19
-CLOCK: [2020-06-09 mar 17:56]--[2020-06-09 mar 18:17] =>  0:21
-CLOCK: [2020-06-09 mar 15:16]--[2020-06-09 mar 16:39] =>  1:23
-CLOCK: [2020-06-09 mar 14:18]--[2020-06-09 mar 14:53] =>  0:35
-CLOCK: [2020-06-09 mar 12:03]--[2020-06-09 mar 13:45] =>  1:42
-CLOCK: [2020-06-09 mar 08:28]--[2020-06-09 mar 11:52] =>  3:24
+:CLOCK: [2020-06-09 mar 19:29]--[2020-06-09 mar 19:48] =>  0:19
+:CLOCK: [2020-06-09 mar 17:56]--[2020-06-09 mar 18:17] =>  0:21
+:CLOCK: [2020-06-09 mar 15:16]--[2020-06-09 mar 16:39] =>  1:23
+:CLOCK: [2020-06-09 mar 14:18]--[2020-06-09 mar 14:53] =>  0:35
+:CLOCK: [2020-06-09 mar 12:03]--[2020-06-09 mar 13:45] =>  1:42
+:CLOCK: [2020-06-09 mar 08:28]--[2020-06-09 mar 11:52] =>  3:24
 :END:
 probando tiempos en las distintas bases de datos y de paso repasando
 como borrar y recargar base de datos en la nube.
@@ -1463,17 +1463,17 @@ operativos.
 Muy buen avance hoy con el buscador. 
 *** [2020-06-10 mié]
 :LOGBOOK:
-CLOCK: [2020-06-10 mié 20:00]--[2020-06-10 mié 20:29] =>  0:29
-CLOCK: [2020-06-10 mié 17:59]--[2020-06-10 mié 19:54] =>  1:55
-CLOCK: [2020-06-10 mié 16:05]--[2020-06-10 mié 16:21] =>  0:16
-CLOCK: [2020-06-10 mié 15:55]--[2020-06-10 mié 16:03] =>  0:08
-CLOCK: [2020-06-10 mié 13:10]--[2020-06-10 mié 13:44] =>  0:34
-CLOCK: [2020-06-10 mié 11:57]--[2020-06-10 mié 13:04] =>  1:07
-CLOCK: [2020-06-10 mié 11:50]--[2020-06-10 mié 11:52] =>  0:02
-CLOCK: [2020-06-10 mié 11:23]--[2020-06-10 mié 11:49] =>  0:26
-CLOCK: [2020-06-10 mié 10:10]--[2020-06-10 mié 11:15] =>  1:05
-CLOCK: [2020-06-10 mié 10:00]--[2020-06-10 mié 10:08] =>  0:08
-CLOCK: [2020-06-10 mié 09:25]--[2020-06-10 mié 09:59] =>  0:34
+:CLOCK: [2020-06-10 mié 20:00]--[2020-06-10 mié 20:29] =>  0:29
+:CLOCK: [2020-06-10 mié 17:59]--[2020-06-10 mié 19:54] =>  1:55
+:CLOCK: [2020-06-10 mié 16:05]--[2020-06-10 mié 16:21] =>  0:16
+:CLOCK: [2020-06-10 mié 15:55]--[2020-06-10 mié 16:03] =>  0:08
+:CLOCK: [2020-06-10 mié 13:10]--[2020-06-10 mié 13:44] =>  0:34
+:CLOCK: [2020-06-10 mié 11:57]--[2020-06-10 mié 13:04] =>  1:07
+:CLOCK: [2020-06-10 mié 11:50]--[2020-06-10 mié 11:52] =>  0:02
+:CLOCK: [2020-06-10 mié 11:23]--[2020-06-10 mié 11:49] =>  0:26
+:CLOCK: [2020-06-10 mié 10:10]--[2020-06-10 mié 11:15] =>  1:05
+:CLOCK: [2020-06-10 mié 10:00]--[2020-06-10 mié 10:08] =>  0:08
+:CLOCK: [2020-06-10 mié 09:25]--[2020-06-10 mié 09:59] =>  0:34
 :END:
 encarar edicion - planes de pago - devoluciones - comentarios
 luego los tbls extras que pretendo para abajo siempre que no
@@ -1509,13 +1509,13 @@ Perdi media hora mas pq para que funcione el script tuve que poner que
 borrara las funciones pq sino daba error.
 *** [2020-06-11 jue]
 :LOGBOOK:
-CLOCK: [2020-06-11 jue 19:25]--[2020-06-11 jue 20:22] =>  0:57
-CLOCK: [2020-06-11 jue 18:15]--[2020-06-11 jue 19:24] =>  1:09
-CLOCK: [2020-06-11 jue 14:35]--[2020-06-11 jue 15:18] =>  0:43
-CLOCK: [2020-06-11 jue 12:21]--[2020-06-11 jue 13:20] =>  0:59
-CLOCK: [2020-06-11 jue 11:23]--[2020-06-11 jue 11:36] =>  0:13
-CLOCK: [2020-06-11 jue 10:27]--[2020-06-11 jue 11:09] =>  0:42
-CLOCK: [2020-06-11 jue 09:47]--[2020-06-11 jue 10:26] =>  0:39
+:CLOCK: [2020-06-11 jue 19:25]--[2020-06-11 jue 20:22] =>  0:57
+:CLOCK: [2020-06-11 jue 18:15]--[2020-06-11 jue 19:24] =>  1:09
+:CLOCK: [2020-06-11 jue 14:35]--[2020-06-11 jue 15:18] =>  0:43
+:CLOCK: [2020-06-11 jue 12:21]--[2020-06-11 jue 13:20] =>  0:59
+:CLOCK: [2020-06-11 jue 11:23]--[2020-06-11 jue 11:36] =>  0:13
+:CLOCK: [2020-06-11 jue 10:27]--[2020-06-11 jue 11:09] =>  0:42
+:CLOCK: [2020-06-11 jue 09:47]--[2020-06-11 jue 10:26] =>  0:39
 :END:
 comenzar con el problema de pmovto pienso el problema de la funcion se
 da con las ventas nuevas pq no da tiempo que se genere el idvta o algo
@@ -1547,9 +1547,9 @@ que lograr ahora es dominar el array que entra y poder mostrarlo en
 pantalla con foreach e ir paso a paso.
 *** [2020-06-12 vie]
 :LOGBOOK:
-CLOCK: [2020-06-12 vie 17:35]--[2020-06-12 vie 17:50] =>  0:15
-CLOCK: [2020-06-12 vie 16:42]--[2020-06-12 vie 17:20] =>  0:38
-CLOCK: [2020-06-12 vie 10:27]--[2020-06-12 vie 12:30] =>  2:03
+:CLOCK: [2020-06-12 vie 17:35]--[2020-06-12 vie 17:50] =>  0:15
+:CLOCK: [2020-06-12 vie 16:42]--[2020-06-12 vie 17:20] =>  0:38
+:CLOCK: [2020-06-12 vie 10:27]--[2020-06-12 vie 12:30] =>  2:03
 :END:
 2hs : comenzando con cobrpg.tcl terminada la vista, terminados muchos
 detalles de rbospg incluso con una practica de pasado completo,
@@ -1562,22 +1562,22 @@ controllers y empezar a trabajar con vue despues.
 15min puse en marcha stockpg.tcl el ultimo que faltaba.
 *** [2020-06-13 sáb]
 :LOGBOOK:
-CLOCK: [2020-06-13 sáb 15:46]--[2020-06-13 sáb 17:53] =>  2:07
+:CLOCK: [2020-06-13 sáb 15:46]--[2020-06-13 sáb 17:53] =>  2:07
 :END:
 con ruby rails- muy positiva la experiencia pude comenzar la migracion
 de dos tablas desde cero cargarla con datos y trabajar, falta ahora
 teoria. 
 *** [2020-06-14 dom]
 :LOGBOOK:
-CLOCK: [2020-06-14 dom 12:10]--[2020-06-14 dom 12:56] =>  0:46
+:CLOCK: [2020-06-14 dom 12:10]--[2020-06-14 dom 12:56] =>  0:46
 :END:
 *** [2020-06-15 lun]
 :LOGBOOK:
-CLOCK: [2020-06-16 mar 12:15]--[2020-06-16 mar 12:15] =>  0:00
-CLOCK: [2020-06-15 lun 17:30]--[2020-06-15 lun 19:34] =>  2:04
-CLOCK: [2020-06-15 lun 14:59]--[2020-06-15 lun 16:53] =>  1:54
-CLOCK: [2020-06-15 lun 13:56]--[2020-06-15 lun 14:47] =>  0:51
-CLOCK: [2020-06-15 lun 11:16]--[2020-06-15 lun 13:20] =>  2:04
+:CLOCK: [2020-06-16 mar 12:15]--[2020-06-16 mar 12:15] =>  0:00
+:CLOCK: [2020-06-15 lun 17:30]--[2020-06-15 lun 19:34] =>  2:04
+:CLOCK: [2020-06-15 lun 14:59]--[2020-06-15 lun 16:53] =>  1:54
+:CLOCK: [2020-06-15 lun 13:56]--[2020-06-15 lun 14:47] =>  0:51
+:CLOCK: [2020-06-15 lun 11:16]--[2020-06-15 lun 13:20] =>  2:04
 :END:
 Hice todas las migraciones de la base de datos en rails, todo normal,
 salvo los nombres de algunas pocas tablas, como paso con el otro
@@ -1600,12 +1600,12 @@ que tenemos que hacer, para que el backend funcione a pleno antes de
 querer agregar algo de frontend.
 *** [2020-06-16 mar]
 :LOGBOOK:
-CLOCK: [2020-06-16 mar 18:30]--[2020-06-16 mar 19:31] =>  1:01
-CLOCK: [2020-06-16 mar 15:48]--[2020-06-16 mar 16:24] =>  0:36
-CLOCK: [2020-06-16 mar 13:44]--[2020-06-16 mar 14:04] =>  0:20
-CLOCK: [2020-06-16 mar 12:21]--[2020-06-16 mar 12:40] =>  0:19
-CLOCK: [2020-06-16 mar 11:35]--[2020-06-16 mar 12:15] =>  0:40
-CLOCK: [2020-06-16 mar 09:56]--[2020-06-16 mar 11:18] =>  1:22
+:CLOCK: [2020-06-16 mar 18:30]--[2020-06-16 mar 19:31] =>  1:01
+:CLOCK: [2020-06-16 mar 15:48]--[2020-06-16 mar 16:24] =>  0:36
+:CLOCK: [2020-06-16 mar 13:44]--[2020-06-16 mar 14:04] =>  0:20
+:CLOCK: [2020-06-16 mar 12:21]--[2020-06-16 mar 12:40] =>  0:19
+:CLOCK: [2020-06-16 mar 11:35]--[2020-06-16 mar 12:15] =>  0:40
+:CLOCK: [2020-06-16 mar 09:56]--[2020-06-16 mar 11:18] =>  1:22
 :END:
 una hora veinte muy basicas tratando de comprender yo solo el
 funcionamiento de rails para new/create. con el form hecho con
@@ -1616,18 +1616,18 @@ no estoy haciendo ningun curso por ahora sino que estoy siguiendo la
 lectura del manual.
 *** [2020-06-17 mié]
 :LOGBOOK:
-CLOCK: [2020-06-17 mié 17:45]--[2020-06-17 mié 19:27] =>  1:42
-CLOCK: [2020-06-17 mié 15:58]--[2020-06-17 mié 17:15] =>  1:17
-CLOCK: [2020-06-17 mié 11:00]--[2020-06-17 mié 12:27] =>  1:27
-CLOCK: [2020-06-17 mié 10:14]--[2020-06-17 mié 11:00] =>  0:46
+:CLOCK: [2020-06-17 mié 17:45]--[2020-06-17 mié 19:27] =>  1:42
+:CLOCK: [2020-06-17 mié 15:58]--[2020-06-17 mié 17:15] =>  1:17
+:CLOCK: [2020-06-17 mié 11:00]--[2020-06-17 mié 12:27] =>  1:27
+:CLOCK: [2020-06-17 mié 10:14]--[2020-06-17 mié 11:00] =>  0:46
 :END:
 estoy en un bache con rails, quiero tratar de avanzar despacio
 aprendiendo solidamente con las guias.
 sigo con el trabajo sobre tcl-postgres
 *** [2020-06-18 jue]
 :LOGBOOK:
-CLOCK: [2020-06-18 jue 15:00]--[2020-06-18 jue 17:33] =>  2:33
-CLOCK: [2020-06-18 jue 10:22]--[2020-06-18 jue 12:56] =>  2:34
+:CLOCK: [2020-06-18 jue 15:00]--[2020-06-18 jue 17:33] =>  2:33
+:CLOCK: [2020-06-18 jue 10:22]--[2020-06-18 jue 12:56] =>  2:34
 :END:
 ayer estuve a punto de abandonar rails, y leyendo descubri que
 desarrollar un SPA no es una buena idea, que requiere mucha
@@ -1665,10 +1665,10 @@ y no olvidemos que permite poner html o sea que si algo no funca lo
 ponemos directo y listo.
 *** [2020-06-19 vie]
 :LOGBOOK:
-CLOCK: [2020-06-19 vie 16:20]--[2020-06-19 vie 18:06] =>  1:46
-CLOCK: [2020-06-19 vie 12:20]--[2020-06-19 vie 13:01] =>  0:41
-CLOCK: [2020-06-19 vie 11:25]--[2020-06-19 vie 12:19] =>  0:54
-CLOCK: [2020-06-19 vie 10:15]--[2020-06-19 vie 11:23] =>  1:08
+:CLOCK: [2020-06-19 vie 16:20]--[2020-06-19 vie 18:06] =>  1:46
+:CLOCK: [2020-06-19 vie 12:20]--[2020-06-19 vie 13:01] =>  0:41
+:CLOCK: [2020-06-19 vie 11:25]--[2020-06-19 vie 12:19] =>  0:54
+:CLOCK: [2020-06-19 vie 10:15]--[2020-06-19 vie 11:23] =>  1:08
 :END:
 la idea es volver a erb, pienso que slim es lindo pero agrega una capa
 de posibles errores incomprensibles o sea no debugueables, y tiene
@@ -1718,10 +1718,10 @@ mas de todo voy a andar muchisimo mas rapido.
 
 *** [2020-06-20 sáb]
 :LOGBOOK:
-CLOCK: [2020-06-20 sáb 17:05]--[2020-06-20 sáb 17:29] =>  0:24
-CLOCK: [2020-06-20 sáb 16:10]--[2020-06-20 sáb 17:02] =>  0:52
-CLOCK: [2020-06-20 sáb 13:56]--[2020-06-20 sáb 15:22] =>  1:26
-CLOCK: [2020-06-20 sáb 13:12]--[2020-06-20 sáb 13:31] =>  0:19
+:CLOCK: [2020-06-20 sáb 17:05]--[2020-06-20 sáb 17:29] =>  0:24
+:CLOCK: [2020-06-20 sáb 16:10]--[2020-06-20 sáb 17:02] =>  0:52
+:CLOCK: [2020-06-20 sáb 13:56]--[2020-06-20 sáb 15:22] =>  1:26
+:CLOCK: [2020-06-20 sáb 13:12]--[2020-06-20 sáb 13:31] =>  0:19
 :END:
 Pude lograr pasar ventas, tener el formulario de pasar ventas, linkado
 a un cliente con los metodos new y create funcionando correctamente, y
@@ -1742,39 +1742,39 @@ La rapidez es como decia ese tipo es como un spa, falta el delay de
 consulta en la nube, pero eso lo sufren todos.
 *** [2020-06-22 lun]
 :LOGBOOK:
-CLOCK: [2020-06-22 lun 13:59]--[2020-06-22 lun 15:51] =>  1:52
-CLOCK: [2020-06-22 lun 12:42]--[2020-06-22 lun 13:15] =>  0:33
-CLOCK: [2020-06-22 lun 11:38]--[2020-06-22 lun 12:00] =>  0:22
-CLOCK: [2020-06-22 lun 10:26]--[2020-06-22 lun 11:28] =>  1:02
+:CLOCK: [2020-06-22 lun 13:59]--[2020-06-22 lun 15:51] =>  1:52
+:CLOCK: [2020-06-22 lun 12:42]--[2020-06-22 lun 13:15] =>  0:33
+:CLOCK: [2020-06-22 lun 11:38]--[2020-06-22 lun 12:00] =>  0:22
+:CLOCK: [2020-06-22 lun 10:26]--[2020-06-22 lun 11:28] =>  1:02
 :END:
 enteramente dedicado a flask
 *** [2020-06-23 mar]
 :LOGBOOK:
-CLOCK: [2020-06-23 mar 19:34]--[2020-06-23 mar 19:54] =>  0:20
-CLOCK: [2020-06-23 mar 19:13]--[2020-06-23 mar 19:33] =>  0:20
-CLOCK: [2020-06-23 mar 17:56]--[2020-06-23 mar 18:47] =>  0:51
-CLOCK: [2020-06-23 mar 13:40]--[2020-06-23 mar 15:42] =>  2:02
-CLOCK: [2020-06-23 mar 12:03]--[2020-06-23 mar 12:54] =>  0:51
-CLOCK: [2020-06-23 mar 10:11]--[2020-06-23 mar 11:27] =>  1:16
+:CLOCK: [2020-06-23 mar 19:34]--[2020-06-23 mar 19:54] =>  0:20
+:CLOCK: [2020-06-23 mar 19:13]--[2020-06-23 mar 19:33] =>  0:20
+:CLOCK: [2020-06-23 mar 17:56]--[2020-06-23 mar 18:47] =>  0:51
+:CLOCK: [2020-06-23 mar 13:40]--[2020-06-23 mar 15:42] =>  2:02
+:CLOCK: [2020-06-23 mar 12:03]--[2020-06-23 mar 12:54] =>  0:51
+:CLOCK: [2020-06-23 mar 10:11]--[2020-06-23 mar 11:27] =>  1:16
 :END:
 dedicado a flask
 19:34 retomo django
 *** [2020-06-24 mié]
 :LOGBOOK:
-CLOCK: [2020-06-24 mié 19:52]--[2020-06-24 mié 20:18] =>  0:26
-CLOCK: [2020-06-24 mié 18:01]--[2020-06-24 mié 19:45] =>  1:44
-CLOCK: [2020-06-24 mié 14:10]--[2020-06-24 mié 14:55] =>  0:45
-CLOCK: [2020-06-24 mié 13:24]--[2020-06-24 mié 13:43] =>  0:19
-CLOCK: [2020-06-24 mié 11:35]--[2020-06-24 mié 12:35] =>  1:00
-CLOCK: [2020-06-24 mié 10:24]--[2020-06-24 mié 11:34] =>  1:10
+:CLOCK: [2020-06-24 mié 19:52]--[2020-06-24 mié 20:18] =>  0:26
+:CLOCK: [2020-06-24 mié 18:01]--[2020-06-24 mié 19:45] =>  1:44
+:CLOCK: [2020-06-24 mié 14:10]--[2020-06-24 mié 14:55] =>  0:45
+:CLOCK: [2020-06-24 mié 13:24]--[2020-06-24 mié 13:43] =>  0:19
+:CLOCK: [2020-06-24 mié 11:35]--[2020-06-24 mié 12:35] =>  1:00
+:CLOCK: [2020-06-24 mié 10:24]--[2020-06-24 mié 11:34] =>  1:10
 :END:
 *** [2020-06-25 jue]
 :LOGBOOK:
-CLOCK: [2020-06-25 jue 19:47]--[2020-06-25 jue 20:08] =>  0:21
-CLOCK: [2020-06-25 jue 15:35]--[2020-06-25 jue 17:23] =>  1:48
-CLOCK: [2020-06-25 jue 13:15]--[2020-06-25 jue 13:29] =>  0:14
-CLOCK: [2020-06-25 jue 12:23]--[2020-06-25 jue 13:13] =>  0:50
-CLOCK: [2020-06-25 jue 10:06]--[2020-06-25 jue 12:05] =>  1:59
+:CLOCK: [2020-06-25 jue 19:47]--[2020-06-25 jue 20:08] =>  0:21
+:CLOCK: [2020-06-25 jue 15:35]--[2020-06-25 jue 17:23] =>  1:48
+:CLOCK: [2020-06-25 jue 13:15]--[2020-06-25 jue 13:29] =>  0:14
+:CLOCK: [2020-06-25 jue 12:23]--[2020-06-25 jue 13:13] =>  0:50
+:CLOCK: [2020-06-25 jue 10:06]--[2020-06-25 jue 12:05] =>  1:59
 :END:
 instalare pycharm:hecho.
 *** [2020-06-26 vie]
@@ -1782,8 +1782,8 @@ dia dedicado al traslado de la oficina y adecuacion del lugar con una
 nueva computadora con la instalacion del sistema
 *** [2020-06-27 sáb]
 :LOGBOOK:
-CLOCK: [2020-06-27 sáb 14:00]--[2020-06-27 sáb 16:50] =>  2:50
-CLOCK: [2020-06-27 sáb 11:30]--[2020-06-27 sáb 13:09] =>  1:39
+:CLOCK: [2020-06-27 sáb 14:00]--[2020-06-27 sáb 16:50] =>  2:50
+:CLOCK: [2020-06-27 sáb 11:30]--[2020-06-27 sáb 13:09] =>  1:39
 :END:
 comienza boludeo con vim-ide-python
 *** [2020-06-28 Sun]
@@ -1794,10 +1794,10 @@ complejidad en general del sistema. Y decantacion final por mint hasta
 ahora muy satisfecho.
 *** [2020-06-29 Mon]
 :LOGBOOK:
-CLOCK: [2020-06-29 Mon 19:25]--[2020-06-29 Mon 20:57] =>  1:32
-CLOCK: [2020-06-29 Mon 18:33]--[2020-06-29 Mon 19:25] =>  0:52
-CLOCK: [2020-06-29 Mon 12:49]--[2020-06-29 Mon 14:17] =>  1:28
-CLOCK: [2020-06-29 Mon 11:03]--[2020-06-29 Mon 11:20] =>  0:17
+:CLOCK: [2020-06-29 Mon 19:25]--[2020-06-29 Mon 20:57] =>  1:32
+:CLOCK: [2020-06-29 Mon 18:33]--[2020-06-29 Mon 19:25] =>  0:52
+:CLOCK: [2020-06-29 Mon 12:49]--[2020-06-29 Mon 14:17] =>  1:28
+:CLOCK: [2020-06-29 Mon 11:03]--[2020-06-29 Mon 11:20] =>  0:17
 :END:
 hoy interrumpido por idas al Fede por rotura del auto no pude hacer
 nada, solo instale lynx. 
@@ -1808,8 +1808,8 @@ estudiar desde alli. Estudiando y practicando directamente el orm.
 sera una copia del programa anterior.
 *** [2020-06-30 Tue]
 :LOGBOOK:
-CLOCK: [2020-06-30 Tue 19:00]--[2020-06-30 Tue 20:36] =>  1:36
-CLOCK: [2020-06-30 Tue 11:50]--[2020-06-30 Tue 16:59] =>  5:09
+:CLOCK: [2020-06-30 Tue 19:00]--[2020-06-30 Tue 20:36] =>  1:36
+:CLOCK: [2020-06-30 Tue 11:50]--[2020-06-30 Tue 16:59] =>  5:09
 :END:
 puesta a punto en general con nvim y entorno de trabajo con buffers y
 busqueda de archivos dentro del proyecto. Fueron claves ciertos
@@ -1828,16 +1828,16 @@ Emacs dooms espectacular. Lo mejor en este primer minuto.
 ** 2020-Julio
 *** [2020-07-01 Wed]
 :LOGBOOK:
-CLOCK: [2020-07-01 Wed 19:25]--[2020-07-01 Wed 20:52] =>  1:27
-CLOCK: [2020-07-01 Wed 15:59]--[2020-07-01 Wed 18:17] =>  2:18
-CLOCK: [2020-07-01 Wed 14:09]--[2020-07-01 Wed 15:39] =>  1:30
-CLOCK: [2020-07-01 Wed 13:28]--[2020-07-01 Wed 13:40] =>  0:12
-CLOCK: [2020-07-01 Wed 11:54]--[2020-07-01 Wed 12:40] =>  0:46
-CLOCK: [2020-07-01 Wed 11:34]--[2020-07-01 Wed 11:54] =>  0:20
-CLOCK: [2020-07-01 Wed 11:32]--[2020-07-01 Wed 11:34] =>  0:02
-CLOCK: [2020-07-01 Wed 11:03]--[2020-07-01 Wed 11:32] =>  0:29
-CLOCK: [2020-07-01 Wed 10:43]--[2020-07-01 Wed 11:02] =>  0:19
-CLOCK: [2020-07-01 Wed 10:36]--[2020-07-01 Wed 10:43] =>  0:07
+:CLOCK: [2020-07-01 Wed 19:25]--[2020-07-01 Wed 20:52] =>  1:27
+:CLOCK: [2020-07-01 Wed 15:59]--[2020-07-01 Wed 18:17] =>  2:18
+:CLOCK: [2020-07-01 Wed 14:09]--[2020-07-01 Wed 15:39] =>  1:30
+:CLOCK: [2020-07-01 Wed 13:28]--[2020-07-01 Wed 13:40] =>  0:12
+:CLOCK: [2020-07-01 Wed 11:54]--[2020-07-01 Wed 12:40] =>  0:46
+:CLOCK: [2020-07-01 Wed 11:34]--[2020-07-01 Wed 11:54] =>  0:20
+:CLOCK: [2020-07-01 Wed 11:32]--[2020-07-01 Wed 11:34] =>  0:02
+:CLOCK: [2020-07-01 Wed 11:03]--[2020-07-01 Wed 11:32] =>  0:29
+:CLOCK: [2020-07-01 Wed 10:43]--[2020-07-01 Wed 11:02] =>  0:19
+:CLOCK: [2020-07-01 Wed 10:36]--[2020-07-01 Wed 10:43] =>  0:07
 :END:
 puesta a punto de emacs-doom logre agrandar la letra, el theme no lo
 cambio pq me gusta bastante, y pude arreglar los atajos para
@@ -1859,13 +1859,13 @@ proyecto.  y aparentemente me salio bien el commit dentro de magit. Va
 ahora otro para reforzar.
 *** [2020-07-02 Thu]
 :LOGBOOK:
-CLOCK: [2020-07-02 Thu 18:38]--[2020-07-02 Thu 20:52] =>  2:14
-CLOCK: [2020-07-02 Thu 17:27]--[2020-07-02 Thu 17:53] =>  0:26
-CLOCK: [2020-07-02 Thu 13:47]--[2020-07-02 Thu 13:57] =>  0:10
-CLOCK: [2020-07-02 Thu 12:39]--[2020-07-02 Thu 12:55] =>  0:16
-CLOCK: [2020-07-02 Thu 11:15]--[2020-07-02 Thu 12:27] =>  1:12
-CLOCK: [2020-07-02 Thu 11:03]--[2020-07-02 Thu 11:15] =>  0:12
-CLOCK: [2020-07-02 Thu 10:01]--[2020-07-02 Thu 10:58] =>  0:57
+:CLOCK: [2020-07-02 Thu 18:38]--[2020-07-02 Thu 20:52] =>  2:14
+:CLOCK: [2020-07-02 Thu 17:27]--[2020-07-02 Thu 17:53] =>  0:26
+:CLOCK: [2020-07-02 Thu 13:47]--[2020-07-02 Thu 13:57] =>  0:10
+:CLOCK: [2020-07-02 Thu 12:39]--[2020-07-02 Thu 12:55] =>  0:16
+:CLOCK: [2020-07-02 Thu 11:15]--[2020-07-02 Thu 12:27] =>  1:12
+:CLOCK: [2020-07-02 Thu 11:03]--[2020-07-02 Thu 11:15] =>  0:12
+:CLOCK: [2020-07-02 Thu 10:01]--[2020-07-02 Thu 10:58] =>  0:57
 :END:
 descubierto spacevim. Vamos a ver la guerra con igualdad de
 condicion. Tendra mas capitulos.  Batalla totalmente perdida hoy por
@@ -1878,11 +1878,11 @@ Recien 11.15 comienzo con django despues de una hora diez con el
 reniegue. Demasiado pienso en las herramientas.
 *** [2020-07-03 Fri]
 :LOGBOOK:
-CLOCK: [2020-07-03 Fri 20:10]--[2020-07-03 Fri 21:33] =>  1:23
-CLOCK: [2020-07-03 Fri 18:30]--[2020-07-03 Fri 19:21] =>  0:51
-CLOCK: [2020-07-03 Fri 15:26]--[2020-07-03 Fri 17:26] =>  2:00
-CLOCK: [2020-07-03 Fri 14:59]--[2020-07-03 Fri 15:16] =>  0:17
-CLOCK: [2020-07-03 Fri 14:49]--[2020-07-03 Fri 14:59] =>  0:10
+:CLOCK: [2020-07-03 Fri 20:10]--[2020-07-03 Fri 21:33] =>  1:23
+:CLOCK: [2020-07-03 Fri 18:30]--[2020-07-03 Fri 19:21] =>  0:51
+:CLOCK: [2020-07-03 Fri 15:26]--[2020-07-03 Fri 17:26] =>  2:00
+:CLOCK: [2020-07-03 Fri 14:59]--[2020-07-03 Fri 15:16] =>  0:17
+:CLOCK: [2020-07-03 Fri 14:49]--[2020-07-03 Fri 14:59] =>  0:10
 :END:
 hoy la batalla se inclino fuertemente hacia el lado de emacs.
 bellisimo theme, muy convincente modo de python para trabajar y nada
@@ -1895,13 +1895,13 @@ Esta bastante focalizado en org el problema, no en los otros tipos de
 archivos.
 *** [2020-07-04 Sat]
     :LOGBOOK:
-    CLOCK: [2020-07-04 Sat 18:33]--[2020-07-04 Sat 19:25] =>  0:52
-    CLOCK: [2020-07-04 Sat 12:50]--[2020-07-04 Sat 13:10] =>  0:20
-    CLOCK: [2020-07-04 Sat 12:34]--[2020-07-04 Sat 12:50] =>  0:16
-    CLOCK: [2020-07-04 Sat 12:05]--[2020-07-04 Sat 12:34] =>  0:29
-    CLOCK: [2020-07-04 Sat 11:57]--[2020-07-04 Sat 12:01] =>  0:04
-    CLOCK: [2020-07-04 Sat 11:33]--[2020-07-04 Sat 11:57] =>  0:24
-    CLOCK: [2020-07-04 Sat 10:13]--[2020-07-04 Sat 11:33] =>  1:20
+    :CLOCK: [2020-07-04 Sat 18:33]--[2020-07-04 Sat 19:25] =>  0:52
+    :CLOCK: [2020-07-04 Sat 12:50]--[2020-07-04 Sat 13:10] =>  0:20
+    :CLOCK: [2020-07-04 Sat 12:34]--[2020-07-04 Sat 12:50] =>  0:16
+    :CLOCK: [2020-07-04 Sat 12:05]--[2020-07-04 Sat 12:34] =>  0:29
+    :CLOCK: [2020-07-04 Sat 11:57]--[2020-07-04 Sat 12:01] =>  0:04
+    :CLOCK: [2020-07-04 Sat 11:33]--[2020-07-04 Sat 11:57] =>  0:24
+    :CLOCK: [2020-07-04 Sat 10:13]--[2020-07-04 Sat 11:33] =>  1:20
     :END:
 instalando ido-mode,web-mode. No hicieron nada nuevo en realidad.
 Pero creo que se podra trabajar lo mismo por ahora. 
@@ -1917,18 +1917,18 @@ Puede ser debido a la version de org. Eso es cambiante.
 De todos modos cambie y puse en otro archivo doc.org la documentacion.
 *** [2020-07-05 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-05 Sun 17:29]--[2020-07-05 Sun 20:03] =>  2:34
-    CLOCK: [2020-07-05 Sun 11:28]--[2020-07-05 Sun 12:15] =>  0:47
+    :CLOCK: [2020-07-05 Sun 17:29]--[2020-07-05 Sun 20:03] =>  2:34
+    :CLOCK: [2020-07-05 Sun 11:28]--[2020-07-05 Sun 12:15] =>  0:47
     :END:
 *** [2020-07-06 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-06 Mon 19:07]--[2020-07-06 Mon 20:33] =>  1:26
-    CLOCK: [2020-07-06 Mon 18:00]--[2020-07-06 Mon 19:07] =>  1:07
-    CLOCK: [2020-07-06 Mon 14:51]--[2020-07-06 Mon 16:15] =>  1:24
-    CLOCK: [2020-07-06 Mon 13:36]--[2020-07-06 Mon 14:51] =>  1:15
-    CLOCK: [2020-07-06 Mon 12:31]--[2020-07-06 Mon 13:11] =>  0:40
-    CLOCK: [2020-07-06 Mon 11:54]--[2020-07-06 Mon 12:18] =>  0:24
-    CLOCK: [2020-07-06 Mon 10:50]--[2020-07-06 Mon 11:54] =>  1:04
+    :CLOCK: [2020-07-06 Mon 19:07]--[2020-07-06 Mon 20:33] =>  1:26
+    :CLOCK: [2020-07-06 Mon 18:00]--[2020-07-06 Mon 19:07] =>  1:07
+    :CLOCK: [2020-07-06 Mon 14:51]--[2020-07-06 Mon 16:15] =>  1:24
+    :CLOCK: [2020-07-06 Mon 13:36]--[2020-07-06 Mon 14:51] =>  1:15
+    :CLOCK: [2020-07-06 Mon 12:31]--[2020-07-06 Mon 13:11] =>  0:40
+    :CLOCK: [2020-07-06 Mon 11:54]--[2020-07-06 Mon 12:18] =>  0:24
+    :CLOCK: [2020-07-06 Mon 10:50]--[2020-07-06 Mon 11:54] =>  1:04
     :END:
 una hora con hl y ahora empiezo con dj. termine el cap 3 del libro y
 ahi termino el blog. y empieza un nuevo proyecto, y vi un par de
@@ -1936,37 +1936,37 @@ videos de la serie que venia viendo pero vuelvo al libro pq me parece
 de superior calidad.
 *** [2020-07-07 Tue]
     :LOGBOOK:
-    CLOCK: [2020-07-07 Tue 17:45]--[2020-07-07 Tue 19:38] =>  1:53
+    :CLOCK: [2020-07-07 Tue 17:45]--[2020-07-07 Tue 19:38] =>  1:53
     :END:
 *** [2020-07-08 Wed]
     :LOGBOOK:
-    CLOCK: [2020-07-08 Wed 18:48]--[2020-07-08 Wed 20:22] =>  1:34
-    CLOCK: [2020-07-08 Wed 17:00]--[2020-07-08 Wed 18:20] =>  1:20
-    CLOCK: [2020-07-08 Wed 15:27]--[2020-07-08 Wed 16:14] =>  0:47
-    CLOCK: [2020-07-08 Wed 11:11]--[2020-07-08 Wed 12:30] =>  1:19
+    :CLOCK: [2020-07-08 Wed 18:48]--[2020-07-08 Wed 20:22] =>  1:34
+    :CLOCK: [2020-07-08 Wed 17:00]--[2020-07-08 Wed 18:20] =>  1:20
+    :CLOCK: [2020-07-08 Wed 15:27]--[2020-07-08 Wed 16:14] =>  0:47
+    :CLOCK: [2020-07-08 Wed 11:11]--[2020-07-08 Wed 12:30] =>  1:19
     :END:
 *** [2020-07-09 Thu]
     :LOGBOOK:
-    CLOCK: [2020-07-09 Thu 18:00]--[2020-07-09 Thu 18:32] =>  0:32
-    CLOCK: [2020-07-09 Thu 17:40]--[2020-07-09 Thu 17:59] =>  0:19
-    CLOCK: [2020-07-09 Thu 11:57]--[2020-07-09 Thu 12:57] =>  1:00
+    :CLOCK: [2020-07-09 Thu 18:00]--[2020-07-09 Thu 18:32] =>  0:32
+    :CLOCK: [2020-07-09 Thu 17:40]--[2020-07-09 Thu 17:59] =>  0:19
+    :CLOCK: [2020-07-09 Thu 11:57]--[2020-07-09 Thu 12:57] =>  1:00
     :END:
 *** [2020-07-10 Fri]
 dia perdido en re-instalacion de mint-cinnamon en la compu vieja.
 Y luego en breves practicas que no fueron cuantificadas.
 *** [2020-07-11 Sat]
     :LOGBOOK:
-    CLOCK: [2020-07-11 Sat 18:25]--[2020-07-11 Sat 20:25] =>  2:00
-    CLOCK: [2020-07-11 Sat 13:26]--[2020-07-11 Sat 17:40] =>  4:14
-    CLOCK: [2020-07-11 Sat 11:27]--[2020-07-11 Sat 12:45] =>  1:18
+    :CLOCK: [2020-07-11 Sat 18:25]--[2020-07-11 Sat 20:25] =>  2:00
+    :CLOCK: [2020-07-11 Sat 13:26]--[2020-07-11 Sat 17:40] =>  4:14
+    :CLOCK: [2020-07-11 Sat 11:27]--[2020-07-11 Sat 12:45] =>  1:18
     :END:
 Hoy fue un dia mas que satisfactorio, aunque lo veo asi recien al ir
 cerrando la jornada, con el aprendizaje que me he planteado desde
 abajo con ruby puro.
 *** [2020-07-12 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-12 Sun 17:40]--[2020-07-12 Sun 20:37] =>  2:57
-    CLOCK: [2020-07-12 Sun 16:55]--[2020-07-12 Sun 17:15] =>  0:20
+    :CLOCK: [2020-07-12 Sun 17:40]--[2020-07-12 Sun 20:37] =>  2:57
+    :CLOCK: [2020-07-12 Sun 16:55]--[2020-07-12 Sun 17:15] =>  0:20
     :END:
 Jornada bastante aplicada al estudio sin distracciones, ni
 desasosiegos, a pesar de que estoy en los comienzos y habria razones
@@ -1982,20 +1982,20 @@ estudio que vengo implementando ahora y las lecturas anexas hacerlas
 de temas generales de computacion, pero que no me aparten del camino.
 *** [2020-07-13 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-13 Mon 19:45]--[2020-07-13 Mon 22:30] =>  2:45
-    CLOCK: [2020-07-13 Mon 17:55]--[2020-07-13 Mon 18:53] =>  0:58
-    CLOCK: [2020-07-13 Mon 15:10]--[2020-07-13 Mon 16:30] =>  1:20
-    CLOCK: [2020-07-13 Mon 12:09]--[2020-07-13 Mon 13:12] =>  1:03
+    :CLOCK: [2020-07-13 Mon 19:45]--[2020-07-13 Mon 22:30] =>  2:45
+    :CLOCK: [2020-07-13 Mon 17:55]--[2020-07-13 Mon 18:53] =>  0:58
+    :CLOCK: [2020-07-13 Mon 15:10]--[2020-07-13 Mon 16:30] =>  1:20
+    :CLOCK: [2020-07-13 Mon 12:09]--[2020-07-13 Mon 13:12] =>  1:03
     :END:
 la primer hora termino el capitulo 3 e inicio el chapter 4.
 2:45 perdidas en "nuevo" cambio de sistema
 *** [2020-07-14 Tue]
     :LOGBOOK:
-    CLOCK: [2020-07-14 Tue 18:03]--[2020-07-14 Tue 20:03] =>  2:00
-    CLOCK: [2020-07-14 Tue 17:00]--[2020-07-14 Tue 17:46] =>  0:46
-    CLOCK: [2020-07-14 Tue 14:15]--[2020-07-14 Tue 16:57] =>  2:42
-    CLOCK: [2020-07-14 Tue 10:56]--[2020-07-14 Tue 12:56] =>  2:00
-    CLOCK: [2020-07-14 Tue 09:56]--[2020-07-14 Tue 10:39] =>  0:43
+    :CLOCK: [2020-07-14 Tue 18:03]--[2020-07-14 Tue 20:03] =>  2:00
+    :CLOCK: [2020-07-14 Tue 17:00]--[2020-07-14 Tue 17:46] =>  0:46
+    :CLOCK: [2020-07-14 Tue 14:15]--[2020-07-14 Tue 16:57] =>  2:42
+    :CLOCK: [2020-07-14 Tue 10:56]--[2020-07-14 Tue 12:56] =>  2:00
+    :CLOCK: [2020-07-14 Tue 09:56]--[2020-07-14 Tue 10:39] =>  0:43
     :END:
 43min terminada la instalacion de Mate-LTS
 para mejorar mi experiencia de trabajo propongo dos mejoras: sacar el
@@ -2017,7 +2017,7 @@ totalmente innecesario. (la unica diferencia es que ahora esta
 encriptada)
 *** [2020-07-15 Wed]
     :LOGBOOK:
-    CLOCK: [2020-07-15 Wed 10:30]--[2020-07-15 Wed 12:30] =>  2:00
+    :CLOCK: [2020-07-15 Wed 10:30]--[2020-07-15 Wed 12:30] =>  2:00
     :END:
 primera aproximacion a php, puse en marcha el servidor php -S para
 trabajar directamente en un archivo php y ver el resultado en el
@@ -2025,10 +2025,10 @@ browser, voy practicando rapidamente con ww3.schooll. como primera
 aproximacion.
 *** [2020-07-16 Thu]
     :LOGBOOK:
-    CLOCK: [2020-07-16 Thu 20:32]--[2020-07-16 Thu 21:35] =>  1:03
-    CLOCK: [2020-07-16 Thu 17:30]--[2020-07-16 Thu 20:30] =>  3:00
-    CLOCK: [2020-07-16 Thu 13:20]--[2020-07-16 Thu 16:40] =>  3:20
-    CLOCK: [2020-07-16 Thu 12:45]--[2020-07-16 Thu 13:00] =>  0:15
+    :CLOCK: [2020-07-16 Thu 20:32]--[2020-07-16 Thu 21:35] =>  1:03
+    :CLOCK: [2020-07-16 Thu 17:30]--[2020-07-16 Thu 20:30] =>  3:00
+    :CLOCK: [2020-07-16 Thu 13:20]--[2020-07-16 Thu 16:40] =>  3:20
+    :CLOCK: [2020-07-16 Thu 12:45]--[2020-07-16 Thu 13:00] =>  0:15
     :END:
 instalo mysql 5.7- via reinstalacion general del ubuntu 18.04.
 primero: reviso las tablas nuevamente, las hago en workbench y obtengo
@@ -2042,18 +2042,18 @@ Ahora tengo que empezar con el llenador. ya estoy avanzando con
 esto. Creo que mañana lo tengo. Y comienzo con el pasado de los
 programas a mysql/tdbc
 *** [2020-07-17 Fri]
-    CLOCK: [2020-07-17 Fri 21:29]--[2020-07-17 Fri 21:36] =>  0:07
-    CLOCK: [2020-07-17 Fri 20:02]--[2020-07-17 Fri 20:57] =>  0:55
+    :CLOCK: [2020-07-17 Fri 21:29]--[2020-07-17 Fri 21:36] =>  0:07
+    :CLOCK: [2020-07-17 Fri 20:02]--[2020-07-17 Fri 20:57] =>  0:55
     renegando con la base de datos
-    CLOCK: [2020-07-17 Fri 18:57]--[2020-07-17 Fri 20:02] =>  1:05
+    :CLOCK: [2020-07-17 Fri 18:57]--[2020-07-17 Fri 20:02] =>  1:05
     primeros pasos - controller - routing basico
-    CLOCK: [2020-07-17 Fri 17:38]--[2020-07-17 Fri 18:29] =>  0:51
+    :CLOCK: [2020-07-17 Fri 17:38]--[2020-07-17 Fri 18:29] =>  0:51
     codeignater comienzo-renegando para instalar-instalado
-    CLOCK: [2020-07-17 Fri 16:30]--[2020-07-17 Fri 17:11] =>  0:41
-    CLOCK: [2020-07-17 Fri 15:49]--[2020-07-17 Fri 16:20] =>  0:31
-    CLOCK: [2020-07-17 Fri 14:18]--[2020-07-17 Fri 15:42] =>  1:24
-    CLOCK: [2020-07-17 Fri 13:43]--[2020-07-17 Fri 13:53] =>  0:10
-    CLOCK: [2020-07-17 Fri 13:16]--[2020-07-17 Fri 13:43] =>  0:27
+    :CLOCK: [2020-07-17 Fri 16:30]--[2020-07-17 Fri 17:11] =>  0:41
+    :CLOCK: [2020-07-17 Fri 15:49]--[2020-07-17 Fri 16:20] =>  0:31
+    :CLOCK: [2020-07-17 Fri 14:18]--[2020-07-17 Fri 15:42] =>  1:24
+    :CLOCK: [2020-07-17 Fri 13:43]--[2020-07-17 Fri 13:53] =>  0:10
+    :CLOCK: [2020-07-17 Fri 13:16]--[2020-07-17 Fri 13:43] =>  0:27
 1.24hs haciendo las tablas me canse, es un trabajo muy repetitivo y ya
 lo hice un monton de veces, es mas fuerza bruta que otra cosa. Lo
 bueno de todo es que mysql es ultrarapido. Es ironico que la otra vez
@@ -2070,11 +2070,11 @@ Buen inicio con codeigniter se lo ve abordable para la complejidad de
 la tarea que tiene al frente que es unir la consulta a base de datos y
 la presentacion de una vista dinamica. y todo se hace en php.
 *** [2020-07-18 Sat]
-    CLOCK: [2020-07-18 Sat 16:45]--[2020-07-18 Sat 17:29] =>  0:44
+    :CLOCK: [2020-07-18 Sat 16:45]--[2020-07-18 Sat 17:29] =>  0:44
     terminada la primera etapa- hecho el formulario.
-    CLOCK: [2020-07-18 Sat 15:54]--[2020-07-18 Sat 16:41] =>  0:47
+    :CLOCK: [2020-07-18 Sat 15:54]--[2020-07-18 Sat 16:41] =>  0:47
     comprension del funcionamiento controller/vista
-    CLOCK: [2020-07-18 Sat 12:51]--[2020-07-18 Sat 13:24] =>  0:33
+    :CLOCK: [2020-07-18 Sat 12:51]--[2020-07-18 Sat 13:24] =>  0:33
     seguimos con codeigniter-decifrando codigo-
 No es mucho lo que hice hoy pero estoy encuadrado pienso, tanto en la
 teoria basica de php, releer y aprenderse bien w3.schooll-php, como en
@@ -2087,54 +2087,54 @@ Por lo menos php me gusta, me gusta pq tiene su parentezco con tcl, y
 su similitud con javascript, por lo cual pienso que es supernecesario
 saberlo.
 *** [2020-07-19 Sun]
-    CLOCK: [2020-07-19 Sun 19:35]--[2020-07-19 Sun 22:00] =>  2:25
+    :CLOCK: [2020-07-19 Sun 19:35]--[2020-07-19 Sun 22:00] =>  2:25
     con notebook en la cama repase codeigniter primeros pasos
-    CLOCK: [2020-07-19 Sun 14:35]--[2020-07-19 Sun 16:56] =>  2:21
+    :CLOCK: [2020-07-19 Sun 14:35]--[2020-07-19 Sun 16:56] =>  2:21
     con notebook en living hice aplicacion php
 *** [2020-07-20 Mon]
-    CLOCK: [2020-07-20 Mon 17:23]--[2020-07-20 Mon 18:21] =>  0:58
+    :CLOCK: [2020-07-20 Mon 17:23]--[2020-07-20 Mon 18:21] =>  0:58
     reinstalacion de laravel - puesta en marcha de nuevo
-    CLOCK: [2020-07-20 Mon 14:50]--[2020-07-20 Mon 17:08] =>  2:18
+    :CLOCK: [2020-07-20 Mon 14:50]--[2020-07-20 Mon 17:08] =>  2:18
     empiezo a capacitar lo que pueda de ci4.Punto final. ampliaremos.
-    CLOCK: [2020-07-20 Mon 14:26]--[2020-07-20 Mon 14:44] =>  0:18
+    :CLOCK: [2020-07-20 Mon 14:26]--[2020-07-20 Mon 14:44] =>  0:18
     despues de renegar un rato largo por la falta de documentacion
     clara y amigable como siempre logre hacer andar postgres en ci4.
-    CLOCK: [2020-07-20 Mon 12:57]--[2020-07-20 Mon 13:56] =>  0:59
+    :CLOCK: [2020-07-20 Mon 12:57]--[2020-07-20 Mon 13:56] =>  0:59
     me pregunto que version de mysql usa heroku? pruebo cig con pg por
     ahora no anda.
-    CLOCK: [2020-07-20 Mon 10:59]--[2020-07-20 Mon 12:55] =>  1:56
+    :CLOCK: [2020-07-20 Mon 10:59]--[2020-07-20 Mon 12:55] =>  1:56
     casi 1:30 perdidas "restaurando" rails. Lo que en 20.04 fue hecho
     en 15min despues de muchisimo tiempo, aca se me travo en
     muchisimos sentidos. Lo que por un lado me embola por el tipo de
     s.o. atrasado pero por otro lado me hace la gran pregunta como
     carajo se hace a hostear una base de datos mysql version 5.7.
 *** [2020-07-21 Tue]
-    CLOCK: [2020-07-21 Tue 18:57]--[2020-07-21 Tue 19:36] =>  0:39
-    CLOCK: [2020-07-21 Tue 18:05]--[2020-07-21 Tue 18:20] =>  0:15
-    CLOCK: [2020-07-21 Tue 14:21]--[2020-07-21 Tue 18:04] =>  3:43
-    CLOCK: [2020-07-21 Tue 12:59]--[2020-07-21 Tue 13:41] =>  0:42
+    :CLOCK: [2020-07-21 Tue 18:57]--[2020-07-21 Tue 19:36] =>  0:39
+    :CLOCK: [2020-07-21 Tue 18:05]--[2020-07-21 Tue 18:20] =>  0:15
+    :CLOCK: [2020-07-21 Tue 14:21]--[2020-07-21 Tue 18:04] =>  3:43
+    :CLOCK: [2020-07-21 Tue 12:59]--[2020-07-21 Tue 13:41] =>  0:42
 *** [2020-07-22 Wed]
-    CLOCK: [2020-07-22 Wed 19:45]--[2020-07-22 Wed 20:23] =>  0:38
+    :CLOCK: [2020-07-22 Wed 19:45]--[2020-07-22 Wed 20:23] =>  0:38
     instalando windows 10 en maquina de pruebas- primer round
     instalado windows, firefox, activetcl y postgres. Mañana sigo con
     llenar hero database e instalar git.
-    CLOCK: [2020-07-22 Wed 19:13]--[2020-07-22 Wed 19:45] =>  0:32
+    :CLOCK: [2020-07-22 Wed 19:13]--[2020-07-22 Wed 19:45] =>  0:32
     terminado el crud laravel
-    CLOCK: [2020-07-22 Wed 18:03]--[2020-07-22 Wed 18:25] =>  0:22
-    CLOCK: [2020-07-22 Wed 17:30]--[2020-07-22 Wed 18:03] =>  0:33
+    :CLOCK: [2020-07-22 Wed 18:03]--[2020-07-22 Wed 18:25] =>  0:22
+    :CLOCK: [2020-07-22 Wed 17:30]--[2020-07-22 Wed 18:03] =>  0:33
     termino evaluacion de volver a tcl
-    CLOCK: [2020-07-22 Wed 14:37]--[2020-07-22 Wed 15:25] =>  0:48
-    CLOCK: [2020-07-22 Wed 10:52]--[2020-07-22 Wed 13:30] =>  2:38
+    :CLOCK: [2020-07-22 Wed 14:37]--[2020-07-22 Wed 15:25] =>  0:48
+    :CLOCK: [2020-07-22 Wed 10:52]--[2020-07-22 Wed 13:30] =>  2:38
 *** [2020-07-23 Thu]
     :LOGBOOK:
-    CLOCK: [2020-07-23 Thu 18:07]--[2020-07-23 Thu 20:36] =>  2:29
+    :CLOCK: [2020-07-23 Thu 18:07]--[2020-07-23 Thu 20:36] =>  2:29
     instalando mint con problemas- funcional tcl- falta terminar postgres
-    CLOCK: [2020-07-23 Thu 10:08]--[2020-07-23 Thu 10:40] =>  0:32
-    CLOCK: [2020-07-23 Thu 10:42]--[2020-07-23 Thu 10:56] =>  0:14
-    CLOCK: [2020-07-23 Thu 10:58]--[2020-07-23 Thu 12:37] =>  1:39
-    CLOCK: [2020-07-23 Thu 12:37]--[2020-07-23 Thu 13:55] =>  1:18
-    CLOCK: [2020-07-23 Thu 14:23]--[2020-07-23 Thu 14:58] =>  0:35
-    CLOCK: [2020-07-23 Thu 15:02]--[2020-07-23 Thu 16:18] =>  1:16
+    :CLOCK: [2020-07-23 Thu 10:08]--[2020-07-23 Thu 10:40] =>  0:32
+    :CLOCK: [2020-07-23 Thu 10:42]--[2020-07-23 Thu 10:56] =>  0:14
+    :CLOCK: [2020-07-23 Thu 10:58]--[2020-07-23 Thu 12:37] =>  1:39
+    :CLOCK: [2020-07-23 Thu 12:37]--[2020-07-23 Thu 13:55] =>  1:18
+    :CLOCK: [2020-07-23 Thu 14:23]--[2020-07-23 Thu 14:58] =>  0:35
+    :CLOCK: [2020-07-23 Thu 15:02]--[2020-07-23 Thu 16:18] =>  1:16
     :END:
     sigo con la capacitacion pq sino no la hago mas. Bastante bien,
     pero se va complicando mucho. Creo que es ahi donde uno
@@ -2154,14 +2154,14 @@ saberlo.
     lo cual pienso que debemos esperar.
 *** [2020-07-24 Fri]
     :LOGBOOK:
-    CLOCK: [2020-07-24 Fri 18:01]--[2020-07-24 Fri 19:01] =>  1:00
+    :CLOCK: [2020-07-24 Fri 18:01]--[2020-07-24 Fri 19:01] =>  1:00
     solucionado problemas de function gc
-    CLOCK: [2020-07-24 Fri 13:38]--[2020-07-24 Fri 16:40] =>  3:02
+    :CLOCK: [2020-07-24 Fri 13:38]--[2020-07-24 Fri 16:40] =>  3:02
     gran avance en la traduccion casi un 90% con gran manejo de la
     libreria de tdbc.
-    CLOCK: [2020-07-24 Fri 12:29]--[2020-07-24 Fri 13:07] =>  0:38
+    :CLOCK: [2020-07-24 Fri 12:29]--[2020-07-24 Fri 13:07] =>  0:38
     me pongo a traducir buscapg a tdbc
-    CLOCK: [2020-07-24 Fri 12:27]--[2020-07-24 Fri 12:29] =>  0:02
+    :CLOCK: [2020-07-24 Fri 12:27]--[2020-07-24 Fri 12:29] =>  0:02
     pongo a punto postgres recientemente instalado
     :END:
     hoy fue un dia bastante satisfactorio pq pude programar y obtener
@@ -2175,21 +2175,21 @@ saberlo.
     sea virtuosa.
 *** [2020-07-25 Sat]
     :LOGBOOK:
-    CLOCK: [2020-07-25 Sat 15:50]--[2020-07-25 Sat 17:43] =>  1:53
+    :CLOCK: [2020-07-25 Sat 15:50]--[2020-07-25 Sat 17:43] =>  1:53
     termine de pasar y hacer funcionar un modulo
-    CLOCK: [2020-07-25 Sat 14:41]--[2020-07-25 Sat 15:46] =>  1:05
+    :CLOCK: [2020-07-25 Sat 14:41]--[2020-07-25 Sat 15:46] =>  1:05
     trabajo con tree
-    CLOCK: [2020-07-25 Sat 13:08]--[2020-07-25 Sat 14:11] =>  1:03
+    :CLOCK: [2020-07-25 Sat 13:08]--[2020-07-25 Sat 14:11] =>  1:03
     paso tree a nuevo proyecto.
-    CLOCK: [2020-07-25 Sat 11:58]--[2020-07-25 Sat 13:08] =>  1:10
+    :CLOCK: [2020-07-25 Sat 11:58]--[2020-07-25 Sat 13:08] =>  1:10
     inicio de buscapg en windows arranco pero con errores pero no a
     causa del programa sino por la deficiencia de windows como
     sistema, en especial la resolucion de pantalla.
     :END:
 *** [2020-07-26 Sun]
     :LOGBOOK:
-    CLOCK: [2020-07-26 Sun 19:50]--[2020-07-26 Sun 20:50] =>  1:00
-    CLOCK: [2020-07-26 Sun 15:56]--[2020-07-26 Sun 18:05] =>  2:09
+    :CLOCK: [2020-07-26 Sun 19:50]--[2020-07-26 Sun 20:50] =>  1:00
+    :CLOCK: [2020-07-26 Sun 15:56]--[2020-07-26 Sun 18:05] =>  2:09
     :END:
     Excelente jornada de programacion pura y nueva, con la creacion de
     una class Cliente que guarda dentro de si misma toda la logica de
@@ -2198,9 +2198,9 @@ saberlo.
     mysql. o sea directamente tdbc.
 *** [2020-07-27 Mon]
     :LOGBOOK:
-    CLOCK: [2020-07-27 Mon 19:25]--[2020-07-27 Mon 20:31] =>  1:06
-    CLOCK: [2020-07-27 Mon 16:46]--[2020-07-27 Mon 19:23] =>  2:37
-    CLOCK: [2020-07-27 Mon 10:04]--[2020-07-27 Mon 13:00] =>  2:56
+    :CLOCK: [2020-07-27 Mon 19:25]--[2020-07-27 Mon 20:31] =>  1:06
+    :CLOCK: [2020-07-27 Mon 16:46]--[2020-07-27 Mon 19:23] =>  2:37
+    :CLOCK: [2020-07-27 Mon 10:04]--[2020-07-27 Mon 13:00] =>  2:56
     :END:
     dia bastante decepcionante pq la class me termino desencantando en
     su potencial aplicacion real, o al menos eso creo, y tuve que
@@ -2218,11 +2218,11 @@ saberlo.
     realmente importa. 
 *** [2020-07-28 Tue]
     :LOGBOOK:
-    CLOCK: [2020-07-28 Tue 18:53]--[2020-07-28 Tue 20:06] =>  1:13
-    CLOCK: [2020-07-28 Tue 16:18]--[2020-07-28 Tue 18:22] =>  2:04
-    CLOCK: [2020-07-28 Tue 14:18]--[2020-07-28 Tue 14:53] =>  0:35
-    CLOCK: [2020-07-28 Tue 11:39]--[2020-07-28 Tue 12:50] =>  1:11
-    CLOCK: [2020-07-28 Tue 10:16]--[2020-07-28 Tue 11:33] =>  1:17
+    :CLOCK: [2020-07-28 Tue 18:53]--[2020-07-28 Tue 20:06] =>  1:13
+    :CLOCK: [2020-07-28 Tue 16:18]--[2020-07-28 Tue 18:22] =>  2:04
+    :CLOCK: [2020-07-28 Tue 14:18]--[2020-07-28 Tue 14:53] =>  0:35
+    :CLOCK: [2020-07-28 Tue 11:39]--[2020-07-28 Tue 12:50] =>  1:11
+    :CLOCK: [2020-07-28 Tue 10:16]--[2020-07-28 Tue 11:33] =>  1:17
     :END:
 jornada bastante satisfactoria en codigo, a pesar de los vaivenes y no
 saber bien por donde va el proyecto, creo que el arreglo que le voy
@@ -2232,14 +2232,14 @@ cercano y dejar para el futuro los planes mas avanzados como la class
 Cliente.
 *** [2020-07-29 Wed]
     :LOGBOOK:
-    CLOCK: [2020-07-29 Wed 19:02]--[2020-07-29 Wed 19:59] =>  0:57
-    CLOCK: [2020-07-29 Wed 15:48]--[2020-07-29 Wed 16:41] =>  0:53
-    CLOCK: [2020-07-29 Wed 13:49]--[2020-07-29 Wed 15:41] =>  1:52
+    :CLOCK: [2020-07-29 Wed 19:02]--[2020-07-29 Wed 19:59] =>  0:57
+    :CLOCK: [2020-07-29 Wed 15:48]--[2020-07-29 Wed 16:41] =>  0:53
+    :CLOCK: [2020-07-29 Wed 13:49]--[2020-07-29 Wed 15:41] =>  1:52
     por momentos me hace renegar como un enano ventaspg y es que o
     esta mal diseñado o las interacciones con pg son complicadas, pero
     me dio errores de triggers que no los encontraba y parecian cosa
     de mandinga y era que pgmodeler me subia un esquema viejo de triggers.
-    CLOCK: [2020-07-29 Wed 10:09]--[2020-07-29 Wed 13:21] =>  3:12
+    :CLOCK: [2020-07-29 Wed 10:09]--[2020-07-29 Wed 13:21] =>  3:12
     alto reniegue con la function pmovto de postgres para debuggearla
     y descubrir el error hasta al final decidir no usarla mas.
     :END:
@@ -2258,23 +2258,23 @@ Un ultimo toquecito de tarde-noche refuerza ambos conceptos. La
 rapidez de vim con la inconmensurabilidad del espacio orgmode.
 *** [2020-07-30 Thu]
     :LOGBOOK:
-    CLOCK: [2020-07-30 Thu 18:55]--[2020-07-30 Thu 19:29] =>  0:34
-    CLOCK: [2020-07-30 Thu 18:25]--[2020-07-30 Thu 18:53] =>  0:28
-    CLOCK: [2020-07-30 Thu 17:19]--[2020-07-30 Thu 18:21] =>  1:02
-    CLOCK: [2020-07-30 Thu 15:50]--[2020-07-30 Thu 16:36] =>  0:46
-    CLOCK: [2020-07-30 Thu 14:21]--[2020-07-30 Thu 15:46] =>  1:25
-    CLOCK: [2020-07-30 Thu 12:30]--[2020-07-30 Thu 13:05] =>  0:35
-    CLOCK: [2020-07-30 Thu 10:09]--[2020-07-30 Thu 12:29] =>  2:20
+    :CLOCK: [2020-07-30 Thu 18:55]--[2020-07-30 Thu 19:29] =>  0:34
+    :CLOCK: [2020-07-30 Thu 18:25]--[2020-07-30 Thu 18:53] =>  0:28
+    :CLOCK: [2020-07-30 Thu 17:19]--[2020-07-30 Thu 18:21] =>  1:02
+    :CLOCK: [2020-07-30 Thu 15:50]--[2020-07-30 Thu 16:36] =>  0:46
+    :CLOCK: [2020-07-30 Thu 14:21]--[2020-07-30 Thu 15:46] =>  1:25
+    :CLOCK: [2020-07-30 Thu 12:30]--[2020-07-30 Thu 13:05] =>  0:35
+    :CLOCK: [2020-07-30 Thu 10:09]--[2020-07-30 Thu 12:29] =>  2:20
     :END:
 hoy complete un buen avance en la agenda de desarrollo, el programa
 avanzo bastante y creo que se va puliendo bastante y ya esta en mejor
 posicion que el actual de sqlite. Falta el modulo analisis de venta.
 *** [2020-07-31 Fri]
     :LOGBOOK:
-    CLOCK: [2020-07-31 Fri 18:04]--[2020-07-31 Fri 19:14] =>  1:10
-    CLOCK: [2020-07-31 Fri 15:25]--[2020-07-31 Fri 18:04] =>  2:39
-    CLOCK: [2020-07-31 Fri 14:29]--[2020-07-31 Fri 15:10] =>  0:41
-    CLOCK: [2020-07-31 Fri 10:24]--[2020-07-31 Fri 13:00] =>  2:36
+    :CLOCK: [2020-07-31 Fri 18:04]--[2020-07-31 Fri 19:14] =>  1:10
+    :CLOCK: [2020-07-31 Fri 15:25]--[2020-07-31 Fri 18:04] =>  2:39
+    :CLOCK: [2020-07-31 Fri 14:29]--[2020-07-31 Fri 15:10] =>  0:41
+    :CLOCK: [2020-07-31 Fri 10:24]--[2020-07-31 Fri 13:00] =>  2:36
     :END:
     hoy un dia de desarrollo intermedio, con pocas luces, pero al
     final salio, por lo menos la primera parte. Lo que pasa es que es
@@ -2282,66 +2282,66 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
 ** 2020-Agosto 
 *** [2020-08-01 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-01 Sat 14:56]--[2020-08-01 Sat 16:59] =>  2:03
-    CLOCK: [2020-08-01 Sat 12:34]--[2020-08-01 Sat 13:22] =>  0:48
-    CLOCK: [2020-08-01 Sat 11:45]--[2020-08-01 Sat 12:27] =>  0:42
+    :CLOCK: [2020-08-01 Sat 14:56]--[2020-08-01 Sat 16:59] =>  2:03
+    :CLOCK: [2020-08-01 Sat 12:34]--[2020-08-01 Sat 13:22] =>  0:48
+    :CLOCK: [2020-08-01 Sat 11:45]--[2020-08-01 Sat 12:27] =>  0:42
     :END:
 *** [2020-08-03 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-03 Mon 18:14]--[2020-08-03 Mon 19:54] =>  1:40
-    CLOCK: [2020-08-03 Mon 16:02]--[2020-08-03 Mon 16:58] =>  0:56
-    CLOCK: [2020-08-03 Mon 15:04]--[2020-08-03 Mon 15:20] =>  0:16
-    CLOCK: [2020-08-03 Mon 10:13]--[2020-08-03 Mon 12:00] =>  1:47
+    :CLOCK: [2020-08-03 Mon 18:14]--[2020-08-03 Mon 19:54] =>  1:40
+    :CLOCK: [2020-08-03 Mon 16:02]--[2020-08-03 Mon 16:58] =>  0:56
+    :CLOCK: [2020-08-03 Mon 15:04]--[2020-08-03 Mon 15:20] =>  0:16
+    :CLOCK: [2020-08-03 Mon 10:13]--[2020-08-03 Mon 12:00] =>  1:47
     :END:
 *** [2020-08-04 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-04 Tue 18:40]--[2020-08-04 Tue 21:04] =>  2:24
-    CLOCK: [2020-08-04 Tue 14:18]--[2020-08-04 Tue 15:17] =>  0:59
-    CLOCK: [2020-08-04 Tue 11:52]--[2020-08-04 Tue 13:24] =>  1:32
-    CLOCK: [2020-08-04 Tue 10:20]--[2020-08-04 Tue 11:21] =>  1:01
+    :CLOCK: [2020-08-04 Tue 18:40]--[2020-08-04 Tue 21:04] =>  2:24
+    :CLOCK: [2020-08-04 Tue 14:18]--[2020-08-04 Tue 15:17] =>  0:59
+    :CLOCK: [2020-08-04 Tue 11:52]--[2020-08-04 Tue 13:24] =>  1:32
+    :CLOCK: [2020-08-04 Tue 10:20]--[2020-08-04 Tue 11:21] =>  1:01
     :END:
 *** [2020-08-05 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-05 Wed 19:50]--[2020-08-05 Wed 20:26] =>  0:36
-    CLOCK: [2020-08-05 Wed 18:37]--[2020-08-05 Wed 19:47] =>  1:10
-    CLOCK: [2020-08-05 Wed 13:55]--[2020-08-05 Wed 15:16] =>  1:21
-    CLOCK: [2020-08-05 Wed 10:04]--[2020-08-05 Wed 12:34] =>  2:30
+    :CLOCK: [2020-08-05 Wed 19:50]--[2020-08-05 Wed 20:26] =>  0:36
+    :CLOCK: [2020-08-05 Wed 18:37]--[2020-08-05 Wed 19:47] =>  1:10
+    :CLOCK: [2020-08-05 Wed 13:55]--[2020-08-05 Wed 15:16] =>  1:21
+    :CLOCK: [2020-08-05 Wed 10:04]--[2020-08-05 Wed 12:34] =>  2:30
     :END:
 *** [2020-08-06 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-06 Thu 10:18]--[2020-08-06 Thu 13:06] =>  2:48
+    :CLOCK: [2020-08-06 Thu 10:18]--[2020-08-06 Thu 13:06] =>  2:48
     :END:
 *** [2020-08-07 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-07 Fri 17:12]--[2020-08-07 Fri 19:36] =>  2:24
-    CLOCK: [2020-08-07 Fri 10:10]--[2020-08-07 Fri 11:20] =>  1:10
+    :CLOCK: [2020-08-07 Fri 17:12]--[2020-08-07 Fri 19:36] =>  2:24
+    :CLOCK: [2020-08-07 Fri 10:10]--[2020-08-07 Fri 11:20] =>  1:10
     :END:
     jornada interesante la de hoy igual que la de ayer pq permitio
     meterse de lleno en un tema nuevo y diferente que es reemplazar
     los triggers por proc. 
 *** [2020-08-08 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-08 Sat 15:28]--[2020-08-08 Sat 16:45] =>  1:17
-    CLOCK: [2020-08-08 Sat 11:50]--[2020-08-08 Sat 13:58] =>  2:08
+    :CLOCK: [2020-08-08 Sat 15:28]--[2020-08-08 Sat 16:45] =>  1:17
+    :CLOCK: [2020-08-08 Sat 11:50]--[2020-08-08 Sat 13:58] =>  2:08
     :END:
 *** [2020-08-09 Sun]
     :LOGBOOK:
-    CLOCK: [2020-08-09 Sun 15:42]--[2020-08-09 Sun 16:30] =>  0:48
-    CLOCK: [2020-08-09 Sun 13:09]--[2020-08-09 Sun 13:34] =>  0:25
-    CLOCK: [2020-08-09 Sun 12:09]--[2020-08-09 Sun 13:09] =>  1:00
+    :CLOCK: [2020-08-09 Sun 15:42]--[2020-08-09 Sun 16:30] =>  0:48
+    :CLOCK: [2020-08-09 Sun 13:09]--[2020-08-09 Sun 13:34] =>  0:25
+    :CLOCK: [2020-08-09 Sun 12:09]--[2020-08-09 Sun 13:09] =>  1:00
     :END:
 *** [2020-08-10 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-10 Mon 15:45]--[2020-08-10 Mon 17:47] =>  2:02
-    CLOCK: [2020-08-10 Mon 14:25]--[2020-08-10 Mon 15:42] =>  1:17
-    CLOCK: [2020-08-10 Mon 11:48]--[2020-08-10 Mon 13:24] =>  1:36
+    :CLOCK: [2020-08-10 Mon 15:45]--[2020-08-10 Mon 17:47] =>  2:02
+    :CLOCK: [2020-08-10 Mon 14:25]--[2020-08-10 Mon 15:42] =>  1:17
+    :CLOCK: [2020-08-10 Mon 11:48]--[2020-08-10 Mon 13:24] =>  1:36
     :END:
 *** [2020-08-11 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-11 Tue 15:52]--[2020-08-11 Tue 16:57] =>  1:05
-    CLOCK: [2020-08-11 Tue 14:45]--[2020-08-11 Tue 15:45] =>  1:00
-    CLOCK: [2020-08-11 Tue 12:29]--[2020-08-11 Tue 13:38] =>  1:09
-    CLOCK: [2020-08-11 Tue 10:08]--[2020-08-11 Tue 12:00] =>  1:52
+    :CLOCK: [2020-08-11 Tue 15:52]--[2020-08-11 Tue 16:57] =>  1:05
+    :CLOCK: [2020-08-11 Tue 14:45]--[2020-08-11 Tue 15:45] =>  1:00
+    :CLOCK: [2020-08-11 Tue 12:29]--[2020-08-11 Tue 13:38] =>  1:09
+    :CLOCK: [2020-08-11 Tue 10:08]--[2020-08-11 Tue 12:00] =>  1:52
     :END:
 Hoy fue el dia de la prueba fallida de python. LLevo cuatro horas
 probar python-tkinter y al final despues de tener un prototipo mas o
@@ -2349,131 +2349,131 @@ menos viable probarlo en windows y ver que no anda y tener que
 desistir definitivamente.
 *** [2020-08-12 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-12 Wed 11:00]--[2020-08-12 Wed 12:21] =>  1:21
+    :CLOCK: [2020-08-12 Wed 11:00]--[2020-08-12 Wed 12:21] =>  1:21
     :END:
 *** [2020-08-13 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-13 Thu 17:54]--[2020-08-13 Thu 20:08] =>  2:14
-    CLOCK: [2020-08-13 Thu 13:41]--[2020-08-13 Thu 15:54] =>  2:13
-    CLOCK: [2020-08-13 Thu 12:48]--[2020-08-13 Thu 13:20] =>  0:32
-    CLOCK: [2020-08-13 Thu 10:18]--[2020-08-13 Thu 11:33] =>  1:15
+    :CLOCK: [2020-08-13 Thu 17:54]--[2020-08-13 Thu 20:08] =>  2:14
+    :CLOCK: [2020-08-13 Thu 13:41]--[2020-08-13 Thu 15:54] =>  2:13
+    :CLOCK: [2020-08-13 Thu 12:48]--[2020-08-13 Thu 13:20] =>  0:32
+    :CLOCK: [2020-08-13 Thu 10:18]--[2020-08-13 Thu 11:33] =>  1:15
     :END:
 *** [2020-08-14 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-14 Fri 19:28]--[2020-08-14 Fri 20:28] =>  1:00
-    CLOCK: [2020-08-14 Fri 17:15]--[2020-08-14 Fri 18:28] =>  1:13
-    CLOCK: [2020-08-14 Fri 12:54]--[2020-08-14 Fri 13:10] =>  0:16
-    CLOCK: [2020-08-14 Fri 09:38]--[2020-08-14 Fri 11:29] =>  1:51
+    :CLOCK: [2020-08-14 Fri 19:28]--[2020-08-14 Fri 20:28] =>  1:00
+    :CLOCK: [2020-08-14 Fri 17:15]--[2020-08-14 Fri 18:28] =>  1:13
+    :CLOCK: [2020-08-14 Fri 12:54]--[2020-08-14 Fri 13:10] =>  0:16
+    :CLOCK: [2020-08-14 Fri 09:38]--[2020-08-14 Fri 11:29] =>  1:51
     :END:
 *** [2020-08-15 Sat]
     :LOGBOOK:
-    CLOCK: [2020-08-15 Sat 14:40]--[2020-08-15 Sat 17:08] =>  2:28
-    CLOCK: [2020-08-15 Sat 11:57]--[2020-08-15 Sat 13:20] =>  1:23
+    :CLOCK: [2020-08-15 Sat 14:40]--[2020-08-15 Sat 17:08] =>  2:28
+    :CLOCK: [2020-08-15 Sat 11:57]--[2020-08-15 Sat 13:20] =>  1:23
     :END:
 *** [2020-08-16 Sun]
     :LOGBOOK:
-    CLOCK: [2020-08-16 Sun 19:05]--[2020-08-16 Sun 20:58] =>  1:53
+    :CLOCK: [2020-08-16 Sun 19:05]--[2020-08-16 Sun 20:58] =>  1:53
     :END:
 *** [2020-08-17 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-17 Mon 16:22]--[2020-08-17 Mon 18:47] =>  2:25
-    CLOCK: [2020-08-17 Mon 12:33]--[2020-08-17 Mon 13:16] =>  0:43
-    CLOCK: [2020-08-17 Mon 11:08]--[2020-08-17 Mon 12:23] =>  1:15
+    :CLOCK: [2020-08-17 Mon 16:22]--[2020-08-17 Mon 18:47] =>  2:25
+    :CLOCK: [2020-08-17 Mon 12:33]--[2020-08-17 Mon 13:16] =>  0:43
+    :CLOCK: [2020-08-17 Mon 11:08]--[2020-08-17 Mon 12:23] =>  1:15
     :END:
 *** [2020-08-18 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-18 Tue 15:33]--[2020-08-18 Tue 16:33] =>  1:00
-    CLOCK: [2020-08-18 Tue 11:30]--[2020-08-18 Tue 15:30] =>  4:00
+    :CLOCK: [2020-08-18 Tue 15:33]--[2020-08-18 Tue 16:33] =>  1:00
+    :CLOCK: [2020-08-18 Tue 11:30]--[2020-08-18 Tue 15:30] =>  4:00
     :END:
 *** [2020-08-19 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-19 Wed 13:43]--[2020-08-19 Wed 15:53] =>  2:10
-    CLOCK: [2020-08-19 Wed 11:15]--[2020-08-19 Wed 13:06] =>  1:51
+    :CLOCK: [2020-08-19 Wed 13:43]--[2020-08-19 Wed 15:53] =>  2:10
+    :CLOCK: [2020-08-19 Wed 11:15]--[2020-08-19 Wed 13:06] =>  1:51
     :END:
 *** [2020-08-20 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-20 Thu 15:05]--[2020-08-20 Thu 16:01] =>  0:56
-    CLOCK: [2020-08-20 Thu 11:14]--[2020-08-20 Thu 13:32] =>  2:18
+    :CLOCK: [2020-08-20 Thu 15:05]--[2020-08-20 Thu 16:01] =>  0:56
+    :CLOCK: [2020-08-20 Thu 11:14]--[2020-08-20 Thu 13:32] =>  2:18
     :END:
 *** [2020-08-21 Fri]
     :LOGBOOK:
-    CLOCK: [2020-08-21 Fri 15:45]--[2020-08-21 Fri 16:16] =>  0:31
-    CLOCK: [2020-08-21 Fri 11:17]--[2020-08-21 Fri 12:10] =>  0:53
+    :CLOCK: [2020-08-21 Fri 15:45]--[2020-08-21 Fri 16:16] =>  0:31
+    :CLOCK: [2020-08-21 Fri 11:17]--[2020-08-21 Fri 12:10] =>  0:53
     :END:
 *** [2020-08-24 Mon]
     :LOGBOOK:
-    CLOCK: [2020-08-24 Mon 14:02]--[2020-08-24 Mon 14:52] =>  0:50
-    CLOCK: [2020-08-24 Mon 13:55]--[2020-08-24 Mon 14:02] =>  0:07
-    CLOCK: [2020-08-24 Mon 13:37]--[2020-08-24 Mon 13:45] =>  0:08
-    CLOCK: [2020-08-24 Mon 11:40]--[2020-08-24 Mon 13:05] =>  1:25
+    :CLOCK: [2020-08-24 Mon 14:02]--[2020-08-24 Mon 14:52] =>  0:50
+    :CLOCK: [2020-08-24 Mon 13:55]--[2020-08-24 Mon 14:02] =>  0:07
+    :CLOCK: [2020-08-24 Mon 13:37]--[2020-08-24 Mon 13:45] =>  0:08
+    :CLOCK: [2020-08-24 Mon 11:40]--[2020-08-24 Mon 13:05] =>  1:25
     :END:
 *** [2020-08-25 Tue]
     :LOGBOOK:
-    CLOCK: [2020-08-25 Tue 19:36]--[2020-08-25 Tue 20:36] =>  1:00
-    CLOCK: [2020-08-25 Tue 14:34]--[2020-08-25 Tue 16:33] =>  1:59
-    CLOCK: [2020-08-25 Tue 11:55]--[2020-08-25 Tue 13:53] =>  1:58
-    CLOCK: [2020-08-25 Tue 10:33]--[2020-08-25 Tue 10:55] =>  0:22
+    :CLOCK: [2020-08-25 Tue 19:36]--[2020-08-25 Tue 20:36] =>  1:00
+    :CLOCK: [2020-08-25 Tue 14:34]--[2020-08-25 Tue 16:33] =>  1:59
+    :CLOCK: [2020-08-25 Tue 11:55]--[2020-08-25 Tue 13:53] =>  1:58
+    :CLOCK: [2020-08-25 Tue 10:33]--[2020-08-25 Tue 10:55] =>  0:22
     :END:
 *** [2020-08-26 Wed]
     :LOGBOOK:
-    CLOCK: [2020-08-26 Wed 19:30]--[2020-08-26 Wed 20:18] =>  0:48
-    CLOCK: [2020-08-26 Wed 14:51]--[2020-08-26 Wed 16:21] =>  1:30
+    :CLOCK: [2020-08-26 Wed 19:30]--[2020-08-26 Wed 20:18] =>  0:48
+    :CLOCK: [2020-08-26 Wed 14:51]--[2020-08-26 Wed 16:21] =>  1:30
     :END:
 *** [2020-08-27 Thu]
     :LOGBOOK:
-    CLOCK: [2020-08-28 vie 16:30]--[2020-08-28 vie 17:15] =>  0:45
-    CLOCK: [2020-08-27 Thu 09:49]--[2020-08-27 Thu 10:43] =>  0:54
+    :CLOCK: [2020-08-28 vie 16:30]--[2020-08-28 vie 17:15] =>  0:45
+    :CLOCK: [2020-08-27 Thu 09:49]--[2020-08-27 Thu 10:43] =>  0:54
     :END:
 *** [2020-08-29 sáb]
     :LOGBOOK:
-    CLOCK: [2020-08-29 sáb 18:30]--[2020-08-29 sáb 20:08] =>  1:38
-    CLOCK: [2020-08-29 sáb 14:35]--[2020-08-29 sáb 15:09] =>  0:34
-    CLOCK: [2020-08-29 sáb 13:00]--[2020-08-29 sáb 14:10] =>  1:10
+    :CLOCK: [2020-08-29 sáb 18:30]--[2020-08-29 sáb 20:08] =>  1:38
+    :CLOCK: [2020-08-29 sáb 14:35]--[2020-08-29 sáb 15:09] =>  0:34
+    :CLOCK: [2020-08-29 sáb 13:00]--[2020-08-29 sáb 14:10] =>  1:10
     :END:
 *** [2020-08-31 lun]
     :LOGBOOK:
-    CLOCK: [2020-08-31 lun 16:10]--[2020-08-31 lun 20:10] =>  4:00
+    :CLOCK: [2020-08-31 lun 16:10]--[2020-08-31 lun 20:10] =>  4:00
     :END:
 ** 2020-Setiembre
 *** [2020-09-01 mar]
     :LOGBOOK:
-    CLOCK: [2020-09-01 mar 16:12]--[2020-09-01 mar 20:15] =>  4:03
-    CLOCK: [2020-09-01 mar 14:51]--[2020-09-01 mar 15:56] =>  1:05
-    CLOCK: [2020-09-01 mar 12:52]--[2020-09-01 mar 14:14] =>  1:22
+    :CLOCK: [2020-09-01 mar 16:12]--[2020-09-01 mar 20:15] =>  4:03
+    :CLOCK: [2020-09-01 mar 14:51]--[2020-09-01 mar 15:56] =>  1:05
+    :CLOCK: [2020-09-01 mar 12:52]--[2020-09-01 mar 14:14] =>  1:22
     :END:
 *** [2020-09-02 mié]
     :LOGBOOK:
-    CLOCK: [2020-09-02 mié 16:00]--[2020-09-02 mié 18:00] =>  2:00
-    CLOCK: [2020-09-02 mié 11:27]--[2020-09-02 mié 15:27] =>  4:00
-    CLOCK: [2020-09-02 mié 08:40]--[2020-09-02 mié 10:21] =>  1:41
+    :CLOCK: [2020-09-02 mié 16:00]--[2020-09-02 mié 18:00] =>  2:00
+    :CLOCK: [2020-09-02 mié 11:27]--[2020-09-02 mié 15:27] =>  4:00
+    :CLOCK: [2020-09-02 mié 08:40]--[2020-09-02 mié 10:21] =>  1:41
     :END:
 *** [2020-09-24 Thu]
     :LOGBOOK:
-    CLOCK: [2020-09-23 Wed 18:21]--[2020-09-23 Wed 18:50] =>  0:29
+    :CLOCK: [2020-09-23 Wed 18:21]--[2020-09-23 Wed 18:50] =>  0:29
     :END:
 primer mm hecho luego de la obra sobre array
 *** [2020-09-24 Thu]
     :LOGBOOK:
-    CLOCK: [2020-09-24 Thu 10:22]--[2020-09-24 Thu 11:10] =>  0:48
+    :CLOCK: [2020-09-24 Thu 10:22]--[2020-09-24 Thu 11:10] =>  0:48
     :END:
 *** [2020-09-24 Thu]
     :LOGBOOK:
-    CLOCK: [2020-09-24 Thu 17:36]--[2020-09-24 Thu 17:55] =>  0:19
+    :CLOCK: [2020-09-24 Thu 17:36]--[2020-09-24 Thu 17:55] =>  0:19
     :END:
 ** 2020-Octubre
 *** [2020-10-23 Fri]
     :LOGBOOK:
-    CLOCK: [2020-10-23 Fri 18:20]--[2020-10-23 Fri 20:41] =>  2:21
+    :CLOCK: [2020-10-23 Fri 18:20]--[2020-10-23 Fri 20:41] =>  2:21
     :END:
 *** [2020-10-26 Mon]
     :LOGBOOK:
-    CLOCK: [2020-10-26 Mon 10:50]--[2020-10-26 Mon 11:27] =>  0:37
+    :CLOCK: [2020-10-26 Mon 10:50]--[2020-10-26 Mon 11:27] =>  0:37
     :END:
     agregue funcionalidad de automatismo de nombre para columnas del tabulator
 *** [2020-10-27 Tue]
     :LOGBOOK:
-    CLOCK: [2020-10-27 Tue 15:20]--[2020-10-27 Tue 15:34] =>  0:14
-    CLOCK: [2020-10-27 Tue 13:55]--[2020-10-27 Tue 15:20] =>  1:25
+    :CLOCK: [2020-10-27 Tue 15:20]--[2020-10-27 Tue 15:34] =>  0:14
+    :CLOCK: [2020-10-27 Tue 13:55]--[2020-10-27 Tue 15:20] =>  1:25
     :END:
     practicamente inicialice el fichaje, con una botonera automatica
     de cobradores, que dispara una segunda botonera de zonas, que a su
@@ -2486,14 +2486,14 @@ primer mm hecho luego de la obra sobre array
     fichaje con tabulator y botones.
 *** [2020-10-28 Wed]
     :LOGBOOK:
-    CLOCK: [2020-10-28 Wed 12:09]--[2020-10-28 Wed 13:09] =>  1:00
-    CLOCK: [2020-10-28 Wed 17:40]--[2020-10-28 Wed 18:45] =>  1:05
+    :CLOCK: [2020-10-28 Wed 12:09]--[2020-10-28 Wed 13:09] =>  1:00
+    :CLOCK: [2020-10-28 Wed 17:40]--[2020-10-28 Wed 18:45] =>  1:05
     :END:
     problematica con las fechas en js y por lo tanto en tab. Precaria
     solucion obtenida con el formatter generico mediante una funcion.
 *** [2020-10-29 Thu]
     :LOGBOOK:
-    CLOCK: [2020-10-29 Thu 14:10]--[2020-10-29 Thu 15:31] =>  1:21
+    :CLOCK: [2020-10-29 Thu 14:10]--[2020-10-29 Thu 15:31] =>  1:21
     :END:
     puse day.js y con format solucione el tema de la fecha, y con
     mutator en vez de formatter lo que logre es que transforme el dato
@@ -2501,7 +2501,7 @@ primer mm hecho luego de la obra sobre array
 ** 2020-Noviembre
 *** [2020-11-04 Wed]
     :LOGBOOK:
-    CLOCK: [2020-11-04 Wed 18:35]--[2020-11-04 Wed 20:49] =>  2:14
+    :CLOCK: [2020-11-04 Wed 18:35]--[2020-11-04 Wed 20:49] =>  2:14
     :END:
     Hoy fue un dia gigante pq resolvi el tema de la seleccion de rows
     por fecha, y simplificaciones varias como evitar el mutator con
@@ -2510,8 +2510,8 @@ primer mm hecho luego de la obra sobre array
     incluso un dia de prueba con datatables.
 *** [2020-11-05 Thu]
     :LOGBOOK:
-    CLOCK: [2020-11-05 Thu 17:39]--[2020-11-05 Thu 19:39] =>  2:00
-    CLOCK: [2020-11-05 Thu 11:55]--[2020-11-05 Thu 14:14] =>  2:19
+    :CLOCK: [2020-11-05 Thu 17:39]--[2020-11-05 Thu 19:39] =>  2:00
+    :CLOCK: [2020-11-05 Thu 11:55]--[2020-11-05 Thu 14:14] =>  2:19
     :END:
     capitulo fallido tratando de buscar una solucion para imprimir
     dentro de js con jspdf. No pude lograrlo.
@@ -2521,8 +2521,8 @@ primer mm hecho luego de la obra sobre array
     a salir a la primera.
 *** [2020-11-10 Tue]
     :LOGBOOK:
-    CLOCK: [2020-11-10 Tue 11:15]--[2020-11-10 Tue 12:43] =>  1:28
-    CLOCK: [2020-11-10 Tue 13:30]--[2020-11-10 Tue 16:01] =>  2:31
+    :CLOCK: [2020-11-10 Tue 11:15]--[2020-11-10 Tue 12:43] =>  1:28
+    :CLOCK: [2020-11-10 Tue 13:30]--[2020-11-10 Tue 16:01] =>  2:31
     :END:
     Nuevo intento, esta vez hice andar pdfmake, produce un pdf en
     pantalla, pero no es ductil, no es factible producir datos
@@ -4124,6 +4124,333 @@ primer mm hecho luego de la obra sobre array
     llevo 9 semanas de ingles al menos en esta ultima etapa mas
     intensiva y todavia estoy encontrando nuevos metodos de estudio,
     pero cada vez le dedico mas tiempo.
+*** [2021-09-07 Tue]
+    duro golpe al metodo de estudio de ingles, pq me habia acomodado a
+    la app lingQ y me traicionaron de mala manera, entonces vuelvo a
+    la practica manejada por mi mismo en yt gratuitamente. Con el
+    vocabulario manejado por mi. 
+    Replantearia el metodo: como el contexto en el libro no lo buscare
+    mas pq lleva a ejemplos freakys, es mas rapido el proceso de los
+    terminos, pero la recoleccion de terminos ahora cambia pq procede
+    de distintas fuentes por lo que voy a necesitar anotarlos en papel
+    con el anotador directamente desde la lectura, ya sea pq provengan
+    de medios que no se pueden marcar (google play o libros en moon
+    que no se marcan) o de videos. 
+    Que lindo y facil es programar en js/flask, la programacion
+    fluye y se hace rapido como es rapido este teclado.
+    Me queda para mañana hacer el reverso de un fechamiento.
+    Y luego me quedara jugar con esos datos estadisticamente cuando
+    haya juntado suficiente datos.
+*** [2021-09-08 Wed]
+    recupere para mejor el metodo de estudio. Con la nueva playlist de
+    stories encontrada con ciento y pico de stories mas simon que es
+    fabuloso, mas los books de oxford tengo material como para
+    practicar de sobra, y la recoleccion de terminos en la planilla
+    aparte funciono perfecto, recolecte un monton. Lo bueno de estos
+    terminos que al estar dentro de historias que luego repetimos una
+    y otra vez los terminos quedan en uso, en cambio toda la tanda
+    anterior proveniente del libro, donde se aprende un termino y
+    queda aislado. Ahi se ven claramente las tres diferencias, primero
+    el sistema inicial sin ejemplos donde esta la palabra desnuda
+    sola, el segundo mejorado con ejemplos de uso un poco mejor, y el
+    tercero mucho mejor aprender el termino que esta dentro de una
+    historia que seguimos repitiendo y vemos el termino funcionando.
+    Creo ademas que los principios de la repeticion y del deep
+    learning pueden aplicar a otros ambitos por ejemplo a otros
+    aprendizajes o a los habitos. Ejemplo: vi un video de ciertos
+    ejercicios matinales que podrian incorporarse como rutina, quizas
+    viendo el video 10 veces podria ser una mejor base para empezar a
+    hacerlo que viendolo una sola vez a la pasada. 
+    Ejemplo 2: lectura de js, puede hacerse de una a la ligera con el
+    afan de cubrir paginas o terminarlo rapido o bien podria hacerse
+    despacio y bien releyendo lo que no entendamos hasta entenderlo y
+    terminar con algo bien sabido.
+    
+    En otro orden tengo que programar el sistema de devolucion de
+    fedesal, que no lo tengo. 
+    Un intenso trabajo de unas tres horas o mas en el tema
+    devoluciones y solo hice la mitad de un tema complejo, pero que
+    hace falta. 
+    tambien necesito hacer una tabla de ventas diferenciada por dia y
+    por vendedor.
+    
+    estoy cansado pero hace diez horas que estoy en actividad mental,
+    pq empece a las 7hs. y programe hard hoy.
+*** [2021-09-09 Thu]
+    anoche y esta mañana no practique at all, es como que estaba burn
+    out, pero ya voy a recuperarme.
+    Ahora a seguir programando.
+    Termine devoluciones y condonaciones, falta subir al servidor.
+    Ahora a practicar ingles hasta que venga la ma.
+    En realidad practique un poco pero algo es algo comparado con la
+    nada de ayer. Tengo que convencerme a fondo del metodo
+    listening-deep learning (rules 3 y 4) las cuales constituyen un
+    incentivo pq es un metodo poderoso que antes no tenia. Anoche
+    pensaba: hace dos meses ni siquiera estudiaba ingles, hace un mes
+    atras solo queria leer y entender el 100% de los terminos leidos,
+    o sea ampliar el vocabulario especifico del reading, nothing about
+    listening y menos aun de speaking. Ten days ago descubro este
+    sistema mas o menos. And changed a lot. En especial pq empiezan
+    poco a poco a fluir palabras. 
+    Pero ahi es donde creo que necesito impregnarme de la doctrina pq
+    el tipo habla de six months or more listening simple material,
+    simpler is better. 
+    el viejo de lingq dice que repitio casi 50 veces algunas
+    historias. 
+*** [2021-09-10 Fri]
+    recupere un poco la practica con confianza en que vamos a llegar
+    algun dia a aprender. 
+    la mañana transcurrio agitada con correcciones del sistema
+    contrareloj en temas de planes de pagos, devoluciones y
+    condonados, quedara para semana que viene agregar algunas
+    planillas informativas con mas tranquilidad, para keep my mind
+    calm tengo un item abajo con bugs y mejoras al sistema, para ir
+    anotando alli lo que se pueda ir programando y hacerlo cuando
+    tenga ganas, sino me pongo a estudiar.
+*** [2021-09-12 Sun]
+    ayer no anote pq tuve un dia complicado pq tuve que ir a retirar
+    lo de los cobradores, pasar recibos, y atender a la ih. Pero lo
+    mismo estudie bastante y descubri nuevos lineamientos
+    1. para recoleccion de terminos de diversas fuentes lo mejor es el
+       cuadernito que tengo y la oracion completa que sea la misma que
+       pongo en el anki asi se hace una impregnacion mas completa.
+    2. empece una serie que encontre de una buena profesora
+       intermedia, o sea tiene 30 años de experiencia 2.5M de
+       seguidores, pero es un poco mas estructurada y habla en ingles
+       y se le entiende todo, o sea es mas estructurada que mmmEnglish
+       y no tan pretensiosa, y obviamente mejor que el chanta de Pacho
+       y similares que enseñan en castellano de Colombia. Que son
+       buenos para escuchar ocasionalmente. Aparte es una serie de los
+       12 tenses, hecha a proposito bien armada de 23 videos y la
+       mayoria de media hora o sea clases completas. 
+       Un poco me alejo de la boludez de AG que decia no estudies
+       gramatica, pienso que el listening y el deep learning es mas
+       fecundo si uno conoce los tiempos verbales y los temas
+       gramaticales.
+    3. me reconcilie con js via la lectura y comprension de clousures,
+       lo cual me entusiasmo. Y decidi que no solo voy  a hacer una
+       relectura del capitulo sino que voy a apoyar con videos y otras
+       lecturas si hace falta, hasta alcanzar un nivel de deep
+       learning del tema. 
+    Mas alla de eso el domingo es para el olvido en lo personal y en
+    lo familiar, con una explosion de la cami esta vez hacia mi.
+    no repase mucho hoy listening, pero lei un poquito y vi un poco de
+    grammar. Pero hoy es domingo y estoy perdonado.
+*** [2021-09-13 Mon]
+    seguimos con la rutina alterada, estos dias no cuentan mucho. Pero
+    me puse a repasar write nivel 3 para abajo en anki y fue un
+    desastre. Creo que esa aplicacion falla si no le metemos mas garra
+    de aprendizaje.
+    Hoy fue un dia en que entre en panico por el estado del repaso de
+    palabras en anki, me parecia que estaba muy mal. E intentaba
+    repasar en un momento en que no estaba bien, y luego transcurrio
+    el dia y pude hacer un repaso coherente de los tres receptaculos
+    activos y solamente obtuve 9 errores entre 230 palabras, o sea que
+    bastante bien. Y se puede mejorar.
+    Hoy pensaba en la mañana cuando hacia la cama que no me queda otra
+    salida que la repeticion en todos los temas, pq no se puede de
+    otra forma.
+    Mucho del problema cotideano es motivacional, tanto el relativo a
+    lo que pensamos sobre el aprendizaje como el nivel de energia en
+    si mismo. Y eso influye en que realmente hagamos o nos dediquemos
+    a practicar y con que nivel de fe lo hagamos.
+*** [2021-09-14 Tue]
+    Pienso que cuando dejo la practica cotideana y luego la retomo,
+    siento como un bache de resultado, los terminos parecen no
+    recordarse, o las historias parecen que van muy rapido y no se
+    entienden, pero es una sensacion inicial. Hay que retomar la
+    practica y esa sensacion se va.
+    de hecho la practica me va llevando de nuevo al nivel que tenia antes.
+*** [2021-09-15 Wed]
+    hoy mucha tarea romitex. El mantenimiento online del sistema en el
+    momento me lleva tiempo y nervios.
+    primero tuve banco, luego pase las ventas, y luego con distintos
+    problemas del sistema.
+    Me recoste un rato y tengo que interrumpir aca en maquina pq viene
+    la carla, asi que sigo la practica en habitacion.
+*** [2021-09-16 Thu] vim-hell
+    hoy estoy metido en un vim-hell, y he pasado la ultima hora en poner
+    marcha el nvim 0.5 que es el que habilita las funciones mas modernas
+    de nvim.
+    creo que el vim-hell viene por todos los videos que me salen de vim
+    pero no importa no es nada.
+    Ayer bien la practica de ingles, bien el repaso de palabras y el
+    listening, dia normal.
+    Hoy programe bastante mas que los dias anteriores, hice varios puntos
+    de la lista de TODOs me quedan solo dos o tres temas para otro dia,
+    no voy a hacer todo hoy  pq me voy a quedar sin trabajo para despues.
+    Agregue todos los terminos nuevos que me quedaban y practique el deck
+    3, con un solo error.
+    La experiencia con vim es mas o menos no veo que sea espectacularmente
+    diferente, es mas pienso que perdemos un poco con orgmode, perdemos
+    con projectile, y a lo mejor ganamos otras cosas no se.
+*** [2021-09-17 Fri]
+    avance con una tarea mas, pero sin muchas ganas ni mucha originalidad
+    estoy muy bajoneado en general con respecto a la programacion, estoy
+    cansado, es parte de una CE.
+    se da una paradoja, estoy en medio del vim-hell y me gustaria estar
+    programando a full pero no tengo en este momento ganas de programar.
+    La apertura y cierre de vim es instantanea y eso es lo que mas me
+    gusta, lo que mas me disgusta es que varias veces he borrado muchas
+    lineas por error apretando la d continuamente, y luego con undo no
+    es posible rehacer completamente lo hecho.
+    el pluging rooter es muy bueno pq hace change dir a cada file que
+    abramos, lo cual habilita a las busquedas dentro del proyecto.
+    No entiendo la falta de ganas de programar, ni el bajon en general,
+    salvo un agotamiento por hastio general de la vida. Una vida gris
+    monotematica, monocroma.
+    Me quede un rato, obligandome al principio y algo hice, en el formato
+    leer en la tablet y practicar en vim, y ejecutar en node. Todo un com-
+    bo perfecto para js.
+*** [2021-09-18 Sat]
+    anoche reacomode las cosas con la practica de english. Deje los videos
+    de A.G. hasta ahora el 1-4 y pienso seguir con esa filosofia por ahora.
+    Saque de la playlist todos los videos varios y deje solo los de la serie
+    de 104 videos, los cuales pienso son mas adecuados para una practica de
+    este tipo.
+    Instale vim8 y estoy probando a ver que pasa.
+    Hasta ahora todo bien, el problema es que estoy usando una version vieja
+    de vimorganizer que ya no es mantenida pero para lo que me entrega el
+    nvim-orgmode esto hace lo mismo y un poco mas pq hace el encabezado en 
+    forma automatica, y funciona el tab.
+    En realidad tengo el vim8, -que parece ser mas rapido, y no tener el pro-
+    blema de las comas, que se mueven raro, pq tenemos ycm. Veremos si sirve
+    a la hora de programar. Tendria que ver un par de videos mas para aprender
+    a usarlo.
+    Por otra parte son iguales.
+    Estoy motivado para seguir con ingles. Anoche escuche un video de vim
+    y lo entendi en un 85%, hay videos que no se entienden nada pero pienso
+    que el problema es del que habla que es poco fluente. Hablan con una papa
+    en la boca.
+    El eje words-reading js-listening es el que debo seguir haciendo.
+    quiero seguir programando, o mejor dicho quiero empezar a programar algo
+    grande que me mantenga ocupado, o bien hacer practicas para aprender a
+    fondo el lenguaje js y python, con la modalidad tablet/vim/node.
+    Logre lo mas cercano a code en vim que hasta ahora haya tenido con ycm.
+*** [2021-09-19 Sun]
+    bajon en el estudio de ingles. No estoy muy motivado a la hora de
+    practicar y veo que se me hace complicado el nivel 2 de videos, y baje
+    un par de nivel 1 para ir viendo. Igual con las palabras que no estan
+    siendo practicadas correctamente. 
+    Algo de interes tengo para js.
+*** [2021-09-20 Mon] quantums
+    paradaso el ingles. lo mas destacable de ayer fue dos videos de la cocina 
+    del codigo, -una serie muy recomendable para js-. 
+    Tomo conciencia que he avanzado un monton pq puse el sitio online y eso es 
+    algo muy importante, mas que todo por todo lo que lleva atras de 
+    aprendizaje.
+    anoche pensaba que me gustaria al menos tener una hora de estudio intenso 
+    de javascript como se debe y una hora de practica de listening de ingles 
+    eso diario por lo menos de rutina.
+
+    volvi al nivel 2 de listening, pienso que con un poco de esfuerzo estoy en 
+    ese nivel. Una treta para empezar el listening es empezar con la story que 
+    mas te gusta y luego te enganchas a seguir con la siguiente y asi, total 
+    son de 4 min cada una.
+
+    Otro quantum de tarea en ingles es preparar un listening o sea sacar los 
+    terminos y buscarlos para el aprendizaje y la incorporacion de la leccion.
+    Otro quantum es repasar los cubos 2 y/o 3 del anki. 
+    Otro quantum es escuchar una conferencia como la de cambridge-vim que es 
+    bastante entendible y tiene subtitulos originales.
+    otro quantum es leer del libro de js frente a la compu y practicar los 
+    ejemplos.
+    otro quantum es ver la serie unbreakeable.
+    otro quantum es hacer los minutos que pueda de bici.
+    otro quantum es releer el diario y/o escribir mas detalladamente
+
+    Hice todos los quantunes y de la variedad saco la energia y la motivacion 
+    para hacer otra cosa y asi seguir adelante, con otra cosa.
+
+*** [2021-09-21 Tue]
+    ayer repunto un poco el ingles. aumente a 6 los stories y tuve dos series 
+    de listening. bastante repaso de palabras y la escucha de cambridge que 
+    avanza bastante.
+    Hoy hice una hora de table/js/practica, muy fecundo cuando empezas a 
+    enganchar. Hice mucha practica de write deck 1 y 3. Y agregue 10 palabras, 
+    tambien pase dos dias de venta. Y tambien hice una miniprogramacion de un 
+    detalle en anki para que se vea por balloon cada vez que pasamos una 
+    palabra cuantas quedan del deck. 
+    A todo esto lamentablemente me esta empezando a doler la cabeza sino 
+    seguia con js. Que martirio que es esto por favor.
+*** [2021-09-22 Wed]
+    ayer practique bastante ingles y escuche bastantes minutos de conferencias 
+    del mit y cambridge, ambas tienen subtitulos en ingles, y ambas fueron 
+    bastante comprensibles.
+    me agarra la soñolencia y eso que acabo de tomar un cafe.
+    Descubro que se registraron dos sujetos en fedesal que no se si obtuvieron 
+    acceso, en teoria no si el esquema anduvo bien.
+    instale fail2fan. hice un registro de logueo exitoso en el sistema. 
+    y tambien hice que quede registrado cuando uno se registra. 
+    no parece ser una amenaza profesional en el sentido que se registra un 
+    email cosa que cualquiera puede hacer, pero eso no significa obtener 
+    acceso al sistema. 
+    tengo que aprender sobre seguridad urgente, por necesidad, suspendo toda 
+    otra lectura.
+    escuche un video completo una charla ted de mind maping dado por una 
+    profesora con 4 titulos que me parecio muy inspirador para el uso de esa 
+    herramienta que yo conozco desde hace mas de veinticinco años, pero que no 
+    le he sacado el provecho que deberia.
+    Desde el punto de vista de la escucha o el listening bien, creo que la 
+    practica me viene bien. Y de paso aprendo temas. 
+    
+
+*** [2021-09-23 Thu] word mind maps - pomodoro times
+    hoy tuve la idea que ya la habia barajado muchas veces de hacer unos 
+    cuantos mapas mentales con las palabras y sus definiciones agrupadas por 
+    temas, como para ir armando una estructura mental un poco mas amplia y 
+    flexible que la que da el sistema anki. 
+    Hice una prueba y es bastante positivo, se puede agrupar bajo un concepto 
+    varias palabras libremente, en algunos mas en otros se agrupara menos. 
+    P.e. hice "fore" y consegui 14 terminos. Lo que no esta nada mal. Y me 
+    parece que es facil de aprender pq esta relacionado.
+    en tres mm hice 58 terminos, lo cual es mas del 10% de la masa de 
+    terminos.
+    Es divertido hacerlo y creo que va a resultar en una mejora de la 
+    organizacion de lo que sabemos y en mayor facilidad para recopilar 
+    terminos faltantes.
+
+    Tambien pense luego de escuchar tres ted-talks y entenderlos casi todos 
+    que son dialogos reales destinados a una audiencia nativa, y a una 
+    velocidad normal de habla, o sea discursiva, si es cierto que hay palabras 
+    que no se, y frases, pero podria trabajarlos para incorporarlos y 
+    repetirlos un par de veces. En vez de las lecciones o conjuntamente con 
+    las lecciones que me da ñañunzio repetir.
+    Y tambien pense que podria cambiar el sistema de las lecciones, por medio 
+    de repetir varias veces en el dia la misma leccion y luego al otro dia 
+    empezar con otra y luego repetir para atras cuando tenga ganas, pero no 
+    obligarme a repetir todo todos los dias.
+
+    Muy positivo el efecto de la escucha de los ted-talks en un solo dia, me 
+    permearon ideas interesantes para poner en practica como los mind maps y 
+    la tecnica pomodoro. Ambos sabidos pero lo recuperas de otra forma. Como 
+    dice la ingeniera 25 minutos lo hace cualquiera o se compromete 
+    cualquiera, y lo que no hay que hacer es pretender resolver todo en esos 
+    veinticinco minutos sino estar concentrados en ese tiempo y luego 
+    relajarse.
+    Luego dijo que si uno va mas lento va a aprendiendo de otra forma como un 
+    caminante que va apreciando mejor el entorno.
+
+    Muy positivo la practica de pomodoro. Hice dos pomodoros de 25minutos con 
+    js, y realmente sirven, pq te conectas dentro del trabajo, te concentras.
+
+    Positivo hoy que hice en la practica las dos cosas que habia escuchado y 
+    las dos fueron barbaro. Para seguir intentandolo.
+
+
+*** [2021-09-24 Fri]
+    despues de un dia como el de ayer es dificil empezar, o tendria que ser 
+    mas facil?.
+    animicamente me levanto pum para arriba y luego choco con la barrera del 
+    comienzo de la "jornada", donde me enfrento a la futilidad y al temor de 
+    no estar haciendo nada laboralmente util y que nos estemos fundiendo.
+    Luego cuando el dia va avanzando voy mejorando y me voy entusiasmando en 
+    mayor o menor medida.
+    Tambien puede ser que el comienzo de la "jornada" coincide con la toma del 
+    migral que me deja turuleco.
+    estoy completamente apolillado y sin ganas de hacer nada. No deja de ser 
+    un golpe animico lo del negocio en especial despues de ayer con el 
+    sincericidio del Fede.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4151,14 +4478,16 @@ exacto de bugs y TODOs.
 equivocados en los cuales se pierde mucho tiempo, pero en el camino se
 aprende mucho, nada se pierde creo, salvo la salud corporal en el
 proceso continuo sin descanso. Pero creo que vamos a salir adelante.
-** Idea de usar TCL como muleto                                         :TCL:
+** Idea de usar TCL como muleto
+   :TCL:
 o sea hacerlo entrar en produccion mas o menos rapidamente, y tenerlo
 como segunda opcion para cualquier cosa tener dos sistemas funcionando
 y no depender solo de un sistema que recien estamos aprendiendo y nos
 cuesta tanto aprender.
 [2020-06-08 lun] el tema es que el desarrollo se pueda hacer mas o
 menos rapidamente. que no lleve una excesiva cantidad de tiempo.
-** Idea de estudiar Ruby                                               :Ruby:
+** Idea de estudiar Ruby
+   :Ruby:
 [2020-07-10 Fri] la idea venia dando vueltas hace rato. Estos dos
 meses y pico he dedicado muchas horas al estudio pq basicamente no
 tengo otra cosa y como trabajo poco y el trabajo se hace en la casa y
@@ -4233,7 +4562,8 @@ minutos.
 ** idea encarar php-mysql
 o sea el clasico lamp, por una cuestion de disponibilidad de
 servidores mas baratos.
-** Idea de volver a programar en tcl					:TCL:
+** Idea de volver a programar en tcl
+   :TCL:
 estoy en un vaiven entre estas dos ideas, o destinar todo mi tiempo al
 proyecto nuevo sin un prospecto viable o usar el tiempo real de
 programacion en algo viable concreto y visible que haga alguna
@@ -4292,14 +4622,16 @@ Despues de un breve analisis obtuve algunas respuestas:
    5. reaprender el lenguaje a fondo con el libro comprado
    6. redocumentar bien todo tanto adentro como afuera de la aplicacion
    7. crear utilidades de informacion nuevas y renovadas.
-** Idea de empezar con capacitacion itcl				:TCL:
+** Idea de empezar con capacitacion itcl
+   :TCL:
 creo que he recorrido un cierto camino desde que leia y trataba con
 estos temas en otras epocas y he recogido conceptos de todo tipo de
 todo lugar, y pienso que no estaria mal empezar con ese paquete de
 practica para pasar a otro nivel en la programacion de tcl y no
 quedarse en lo ya sabido. Creo que di en la tecla donde hay una franja
 de tcl para explorar y capacitar.
-** El freakismo tcl                                                     :TCL:
+** El freakismo tcl
+   :TCL:
   cada vez que mas me meto en el mundo tcl veo que es facil convertirse
 en freaky. Creo que tengo que tener a mano el paper de activetcl que
 habla de pq hoy 2020 es una opcion valida trabajar con tcl. Es un
@@ -4311,7 +4643,8 @@ se hagan cosas como tablelist sin objetos. Tambien esta todo el tema
 de la web a nivel teorico pero por ahora no lo toco pq no es tiempo aun.
 
 * avance semanal
-** semana [2020-06-07 dom]                 :Laravel:TCL:Postgres:Lumen:Rails:
+** semana [2020-06-07 dom]
+   :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
 semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
 practica. recien el domingo empiezo con cierta dificultad y muchas
@@ -4346,7 +4679,8 @@ ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
 bichito de volver a rails, me parece un camino mas corto que seguir
 con laravel. Todos los conceptos aprendidos en laravel me
 recontrasirven para rails.
-** semana [2020-06-14 dom]                                       :Rails:Ruby:
+** semana [2020-06-14 dom]
+   :Rails:Ruby:
 inmersion en ruby. Las diferencias son que hay pocos videos, pocos
 tutoriales y los que hay son muy viejos. Como que rails fue famoso 10
 años atras con la version 3 y 4 y ahora en el 2020 nadie le da bola.
@@ -4374,7 +4708,8 @@ otros niveles, por eso creo que el libro de ruby bajado me va a servir
 y seguir leyendo e investigando las guias rails a fondo hasta saberlas
 todas. Hay buenos tutoriales en medium sobre rails que hasta ahora me
 han servido y creo que por ahi pasa ir subiendo peldaño a peldaño.
-** semana [2020-06-21 Sun]                           :Django:Flask:Vim:Emacs:
+** semana [2020-06-21 Sun]
+   :Django:Flask:Vim:Emacs:
 semana de Django. Luego del pico de rails de la semana pasada parece
 que en el momento mas alto pica el bichito de lo nuevo y se me ocurrio
 probar django a ver como era. POr dos motivos, primero por probar,
@@ -4399,7 +4734,8 @@ por el momento), emacs en terminal, trabajar en terminal en pestañas,
 hoy con lynx (abandonado) y demas. O sea una semana floja en avance
 pero creo que cambie el entorno fisico de trabajo un monton, y tambien
 hice unos cambios de entorno de base que veremos como funcionan.
-** semana [2020-06-28 Sun]                               :Emacs:Vim:TCL:Mint:
+** semana [2020-06-28 Sun]
+   :Emacs:Vim:TCL:Mint:
 en realidad la semana propiamente dicha va a empezar el martes, pq el
 domingo estuvo perdido en boludeaje de instalacion de s.o. y el lunes
 en obra de pintura del local.
@@ -4421,7 +4757,8 @@ Creo que esta fue la semana de la Guerra de los Editores. con la
 puesta a punto de dos editores grandes. Poner a punto Emacs me llevo
 bastante y Nvim tambien, y tambien en el medio perdi tiempo con el
 doom.
-** semana [2020-07-05 Sun]           :Django:Emacs:VSCode:Rails:Ruby:Hledger:
+** semana [2020-07-05 Sun]
+   :Django:Emacs:VSCode:Rails:Ruby:Hledger:
 esta semana comienza ya con la herramienta establecida por lo tanto no tendria
 que perder demasiado tiempo en cambios rotundos como la semana pasada salvo
 perfeccionamientos menores.  siempre me da un reniegue nuevo el editor no
@@ -4524,7 +4861,8 @@ ejemplo o lo que sea, y lo tagueo, entonces luego va a ser facil
 encontrar o aislar las partes maxime cuando no sabemos como se va a
 estructurar o por si no me gusta la estructuracion, en este caso la
 estructura la dara el tagueo.
-** semana [2020-07-12 Sun]	     :Hanami:Ruby:Mint:mysql:php:CodeIgniter:
+** semana [2020-07-12 Sun]
+   :Hanami:Ruby:Mint:mysql:php:CodeIgniter:
 Anoche puse la busqueda ruby-web-framework y descubri hanami, y me
 parecio en principio lindo por todo lo que prometia, luego leyendo una
 documentacion muy bien presentada y entendible, lo veo abordable
@@ -4575,7 +4913,8 @@ los dias y las semanas y estoy a fojas cero. Con crecientes
 preocupaciones.
 Termina la semana tranquilo al menos encuadrado en una nueva idea que
 es meterle al php.
-** semana [2020-07-19 Sun]                          :CodeIgniter:Laravel:TCL:
+** semana [2020-07-19 Sun]
+   :CodeIgniter:Laravel:TCL:
 [2020-07-20 Mon] la semana comienza muy php. Pero sin una clara linea
 de accion sobre como seguir o sea como comenzar a programar o como
 seguir aprendiendo lo que me falta rapidamente, en otras palabras
@@ -4622,7 +4961,8 @@ Por otro lado pienso que se avanza poco o que no se avanza
 nada. P.e. pienso en todas las horas que llevo leyendo y practicando
 itcl y no he avanzado nada, o bien soy muy duro yo o el tema es muy
 dificil y amerita el esforzarse un poco mas.
-** semana [2020-07-26 Sun]                                :Itcl:TCL:Vim:Evil:
+** semana [2020-07-26 Sun]
+   :Itcl:TCL:Vim:Evil:
 Ahora puedo decir que se ha puesto fascinante la programacion. Estoy
 haciendo una class Cliente que encapsula toda la logica del negocio
 dentro de si misma y es atrapante se te pasa el tiempo volando. Pienso
@@ -4665,7 +5005,8 @@ cuatro años y no tiene sustituto, y no require mas habilidades de las
 que ya tengo, ni mayores perdidas de tiempo, que las ya asignadas, por
 lo cual no creo que tenga que seguir en esa linea. O sea vim para
 programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
-** semana [2020-08-02 Sun]                                       :TCL:Debian:
+** semana [2020-08-02 Sun]
+   :TCL:Debian:
  Llevo una semana y media con TCL o sea la semana pasada, la del 26/7
  y mitad de la anterior la del 19/7. O sea no muy mucho que digamos, y
  voy entranto en tema de a poco. Entre con cierta fuerza a aprender
@@ -4705,7 +5046,8 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  que es una masa que esta, que no se pierde, lo que pasa es que yo
  aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
  enseñar.
-** semana [2020-08-09 Sun]                                 :Flask:Python:TCL:
+** semana [2020-08-09 Sun]
+   :Flask:Python:TCL:
 debido a Reddit que atrae mis lecturas en momentos de ocio, me join a
 grupos varios de interes, vim, emacs, tcl, orgmode, y tambien a
 python, y de ahi salto flask y lo vi de nuevo con cariño, como para
@@ -4851,7 +5193,8 @@ pasado. Y poder dedicarme a lo que tengo que dedicarme que es la
 funcionalidad del programa. La semana que viene pienso dedicarme de
 lleno a fpdf. para entrar en una ficha para entregar en celu y en la
 misma aplicacion, como ya tengo la base hecha.
-** semana [2020-08-16 Sun]          :python:Flask:LearningMachine:JavaScript:
+** semana [2020-08-16 Sun]
+   :python:Flask:LearningMachine:JavaScript:
 la semana despues del empuje de la semana pasada empieza con un gran
 entusiamo para codificar y aprender python. Anoche pensaba que tendria
 o quisiera poder dedicarle 50horas por semana, 8hs por dia de semana
@@ -4916,7 +5259,8 @@ hasta donde se puede con el framework pero estoy desganado y no puedo
 avanzar mas alla de algunas pocas cosas.
 el finde solo fue ver videos de los cursos que estoy siguiendo(js y
 css) y nada sobre el sistema
-** semana [2020-08-23 Sun]                      :JavaScript:CSS:Flask:Python:
+** semana [2020-08-23 Sun]
+   :JavaScript:CSS:Flask:Python:
 Esta semana flask y python no estan en primer lugar pq empece un poco
 desanimado con la programacion, estaba un poco caido, desanimado. Y
 mientras tanto le daba a la capacitacion de js y css por eso los
@@ -4951,7 +5295,8 @@ idea a python tambien, y aunque no consegui mucho material
 contundente, algo hay, y en especial pienso que tengo que dedicarme un
 poco mas a flask, o sea si he logrado lo que he logrado sin casi nada
 de teoria tendria que aprender un poco mas para incorporar mas cosas.
-** semana [2020-08-30 dom]                              :Python:Flask:Pandas:
+** semana [2020-08-30 dom]
+   :Python:Flask:Pandas:
 [2020-09-01 mar] esta semana esta floja con el aprendizaje que cayo en
 una meseta y se reanimo la programacion con un par de modulos mas con
 lo que el proyecto va tomando mas forma y el agregado de pandas para
@@ -4967,14 +5312,16 @@ imaginado un mal muchisimo mayor, pero en cierta forma hicimos mas de
 lo que habiamos planificado y tenemos proyectado todavia mucho mas, o
 sea que la obra en general sera mucho mas grande que lo que se habia
 pensado en principio. 
-** semana [2020-09-06 Sun]                          :Python:Flask:JavaScript:
+** semana [2020-09-06 Sun]
+   :Python:Flask:JavaScript:
 [2020-09-07 Mon] la semana empieza en obras y creo que pinta a estar
 en obras para rato, lo unico que hice fue reinstalar mint de nuevo en
 la i3-9na para tener toda la funcionalidad en una sola maquina y no
 preocuparme mas por el sistema operativo. Creo que los que se ocupan
 tanto del sistema operativo son nerds. 
 -- toda la semana en obras
-** semana [2020-09-13 Sun]                                       :JavaScript:
+** semana [2020-09-13 Sun]
+   :JavaScript:
 -- seguimos en obras, ni siquiera estudio, solo escuchar informalmente
    videitos de js y algunas lecturas supuestamente preparatorias para
    estudiar en serio cuando comience de nuevo.
@@ -4993,7 +5340,8 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
    cual podria hacerse en orgmode, pero mejor es hacerlo en freemind
    para luego imprimirlo en pdf y tener las hojas para repasar
    espaciadamente.
-** semana [2020-09-20 Sun]                                       :JavaScript:
+** semana [2020-09-20 Sun]
+   :JavaScript:
 -- seguimos en obras y cuesta empezar.
    solo he diseñado una estrategia de estudio como para empezar pero
    todavia me cuesta empezar.
@@ -5002,7 +5350,8 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
    programacion y/o el estudio me encuentro parado, sin combustible,
    sin inspiracion de continuar.
 timido comienzo muy debil en estudio de js.
-** semana [2020-10-04 Sun]                                            :Flask:
+** semana [2020-10-04 Sun]
+   :Flask:
 -- repaso visualmente lo logrado con flask con la idea de retomar la
    programacion, con el concepto que salir del tutorial hell, o sea
    con el ejemplo de haber logrado la hermosa funcion traslativa de
@@ -5011,7 +5360,8 @@ timido comienzo muy debil en estudio de js.
    pero de la mano del proyecto, sino se pierde interes y en realidad
    nunca se hace nada. 
 ** semana [2020-10-11 Sun]
-** semana [2020-10-18 Sun]                                            :Flask:
+** semana [2020-10-18 Sun]
+   :Flask:
  Recien hoy [2020-10-23 Fri] me siento por primera vez despues de casi
  mes y medio y hago el deploy a heroku y funciona aparentemente bien y
  rapido la aplicacion tanto en busqueda como en la muestra de datos y
@@ -5022,22 +5372,26 @@ timido comienzo muy debil en estudio de js.
  Ahora es un despegue, un gran aliciente a seguir desarrollando, ya
  que se puede ver lo que se hace directamente desde un resultado
  real. 
-** semana [2020-10-25 Sun]                                 :Flask:JavaScript:
+** semana [2020-10-25 Sun]
+   :Flask:JavaScript:
  de a poquito se va comenzando pero pienso que la necesidad de
  tabulator o sea javascript en el entorno de flask complica todo.
-** semana [2020-11-01 Sun]                                       :JavaScript:
+** semana [2020-11-01 Sun]
+   :JavaScript:
   En realidad son pocas las semanas que le he dedicado a js (7) y
   varias de las que estan anotadas ahi, son dentro del receso de bajon
   por la obra y por el bajon subsiguiente, por lo cual pienso que
   tanto flask como js tienen un gran potencial para desarrollar
   todavia. 
-** semana [2020-11-08 Sun]                                           :Svelte:
+** semana [2020-11-08 Sun]
+   :Svelte:
  empiezo el jueves con svelte para aprenderlo desde la base y luego
  poder aplicarlo al proyecto, como forma de salirse del bajon que
  supone el parate de flask. En cierta forma viene a ser como decia ih,
  estudiar o meterse con algo computacional por mas que no tenga
  relacion directa con el negocio.
-** semana [2020-11-15 Sun]                                :Svelte:TailwinCSS:
+** semana [2020-11-15 Sun]
+   :Svelte:TailwinCSS:
  sigo pensando que flask-python es algo grandioso que es el mejor
  framework que tuve, y que tendria que seguir aprendiendolo. aunque
  sea de a poco. Y svelte es algo que se agrega.
@@ -5048,32 +5402,42 @@ timido comienzo muy debil en estudio de js.
  poco a svelte. Le entro un poco a tailwin pero veo que es bastante
  complejo y creo que no vale la pena complicarse por ahora en algo que
  es marginal por el momento
-** semana [2020-11-22 dom]                          :Svelte:Flask:JavaScript:
+** semana [2020-11-22 dom]
+   :Svelte:Flask:JavaScript:
     termine un crud en svelte y los primeros palotes ya los se hacer,
     ahora me falta mucho de flask para ver si puedo mejorar la
     implementacion y ver en donde puede entrar js o svelte en el
     proyecto.
-** semana [2020-11-29 dom]                               :JavaScript:Vue:CSS:
+** semana [2020-11-29 dom]
+   :JavaScript:Vue:CSS:
  Esta fue la semana bisagra con javascript, en la cual los capitulos
  de practica del dom, en el curso de jonmircha empezaron a dar sus
  resultados y consegui tener resultados practicos en mi desarrollo en
  particular, el totalizador. A diferencia de hace dos semanas con
  svelte que estudie algo que no pude concretar en la practica, con js
  estoy pudiendo hacer cosas que realmente sirven a la practica concreta
-** semana [2020-12-06 dom]                             :JavaScript:CSS:Flask:
-** semana [2020-12-13 dom]                                   :JavaScript:Vue:
+** semana [2020-12-06 dom]
+   :JavaScript:CSS:Flask:
+** semana [2020-12-13 dom]
+   :JavaScript:Vue:
  Esta fue una semana rotunda de Vue, comenze a "estudiarlo" el martes,
  el miercoles y jueves, ya habia aplicado en fechador solucionando
  problemas insalvables con js, y el vie y sab ya adelante bastante de
  pasarpagos, creando cosas que antes de empezar no creia que fueran posibles.
-** semana [2020-12-20 dom]                                              :Vue:
-** semana [2020-12-27 dom]                                              :Vue:
-** semana [2021-01-03 dom]                                              :Vue:
+** semana [2020-12-20 dom]
+   :Vue:
+** semana [2020-12-27 dom]
+   :Vue:
+** semana [2021-01-03 dom]
+   :Vue:
 ** semana [2021-01-10 dom]
 ** semana [2021-01-17 dom]
-** semana [2021-01-24 dom]                                           :Python:
-** semana [2021-01-31 dom]                                           :Python:
-** semana [2021-05-02 dom]                                  :Vue:Flask:Bulma:
+** semana [2021-01-24 dom]
+   :Python:
+** semana [2021-01-31 dom]
+   :Python:
+** semana [2021-05-02 dom]
+   :Vue:Flask:Bulma:
    vuelvo a arrancar luego de tres meses de inactividad en el proyecto
    vue/flask.
    lo unico que me gustaria es seguir en el proyecto hasta el final,
@@ -5100,7 +5464,8 @@ timido comienzo muy debil en estudio de js.
    la marcha. No hay tiempo para perfeccionar mucho la teoria pero
    creo que el entusiasmo crece cuando vez que las paginas van
    quedando hechas y funcionan bien.
-** semana [2021-05-09 dom]                                  :Vue:Flask:Bulma:
+** semana [2021-05-09 dom]
+   :Vue:Flask:Bulma:
    comienza la semana con una gran transformacion a Bulma dejando
    atras boostrap.
    un tema importante de la semana es el evitar que se cuelgue el
@@ -5111,10 +5476,12 @@ timido comienzo muy debil en estudio de js.
    sigo asi en un mes termino toda la programacion y tendria que
    empezar a probarla, con lo cual tendria que ver los errores y
    faltantes. 
-** semana [2021-05-16 Sun]             :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
+** semana [2021-05-16 Sun]
+   :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
    sigue el trabajo a buen ritmo con fecha cierta de terminacion, si
    sigo con inspiracion, creo que en un par de meses.
-** semana [2021-05-23 Sun]                                  :Flask:Vue:Bulma:
+** semana [2021-05-23 Sun]
+   :Flask:Vue:Bulma:
    sigo en la busqueda de un marco para desarrollo que sea monorepo y
    basado en nodejs.
    despues de media semana de caos y desgastante giro por un monton de
@@ -5144,7 +5511,8 @@ timido comienzo muy debil en estudio de js.
    errores, e ir llevando en paralelo las dos aplicaciones por un
    tiempo hasta tenerle confianza.  (de ultima puedo hacer que la cami
    pase los papeles en tcl, y yo los paso en la nueva). 
-** semana [2021-05-30 Sun]                            :Alpine:CSS:Javascript:
+** semana [2021-05-30 Sun]
+   :Alpine:CSS:Javascript:
    si bien es cierto que sigo con el stack flask/vue/bulma, aparecio
    alpine y me gusto mucho y es compatible por lo cual un par de
    paginas las hice con el incluso con mas ventaja sobre vue. 
@@ -5153,11 +5521,16 @@ timido comienzo muy debil en estudio de js.
    me gusta mas como me quedo que la que me dio bulma. Y por ultimo
    javascript es lo que se lleva todo el interes programatico y de
    aprendizaje estos dias. 
-** semana [2021-06-06 Sun]                                           :mysql:
-** semana [2021-06-13 Sun]                          :mysql:Alpine:Javascript:
-** semana [2021-06-20 Sun]                                 :Bulma:CSS:NodeJs:
-** semana [2021-06-27 Sun]                                 :Flask:Alpine:CSS:
-** semana [2021-07-04 Sun]                                           :Python:
+** semana [2021-06-06 Sun]
+   :mysql:
+** semana [2021-06-13 Sun]
+   :mysql:Alpine:Javascript:
+** semana [2021-06-20 Sun]
+   :Bulma:CSS:NodeJs:
+** semana [2021-06-27 Sun]
+   :Flask:Alpine:CSS:
+** semana [2021-07-04 Sun]
+   :Python:
    en este momento me planteo la cuestion de como seguir
    avanzando. Una idea es el monotema, es decir suspender el
    desarrollo, o sea intentar meter el responsive en el romitex.xyz y
@@ -5181,26 +5554,39 @@ timido comienzo muy debil en estudio de js.
    pasar todo en fl6. PD: se soluciono el problema y deja la
    adaptacion restante como una tarea menor. Via libre para seguir
    estudiando.
-** semana [2021-07-11 Sun]                                   :python:english:
+** semana [2021-07-11 Sun]
+   :python:english:
    todavia estoy en duda sobre que camino emprender. Anoche pensaba en
    una tanda de recapacitacion mas esquematica que quizas sea la clave
    de llegar mas profundo en lo que tenemos que hacer.
    pienso que agregar mas horas de estudio pueden agregar conocimiento
    siempre que sean efectivas 
-** semana [2021-07-18 Sun]                         :python:english:emacs:vim:
+** semana [2021-07-18 Sun]
+   :python:english:emacs:vim:
    Por lo menos la semana pasada rellene bien los tiempos con
    intervalos de estudio bastante frecuentes y descubri algunos
    metodos que por el momento son convenientes como p.e. la lectura de
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
-** semana [2021-07-25 Sun]                       :python:english:bash:vim:i3:
-** semana [2021-08-01 Sun]                               :python:vim:english:i3:
-** semana [2021-08-08 Sun]                               :python:vim:english:i3:
-** semana [2021-08-14 Sat]               :Javascript:python:emacs:english:i3:
-** semana [2021-08-22 Sun]                         :python:emacs:english:i3:
-** semana [2021-08-29 Sun]                                :emacs:english:i3:
-** semana [2021-09-05 Sun]                  :Javascript:TCL:emacs:english:i3:
+** semana [2021-07-25 Sun]
+   :python:english:bash:vim:i3:
+** semana [2021-08-01 Sun]
+   :python:vim:english:i3:
+** semana [2021-08-08 Sun]
+   :python:vim:english:i3:
+** semana [2021-08-14 Sat]
+   :Javascript:python:emacs:english:i3:
+** semana [2021-08-22 Sun]
+   :python:emacs:english:i3:
+** semana [2021-08-29 Sun]
+   :emacs:english:i3:
+** semana [2021-09-05 Sun]
+   :Javascript:TCL:emacs:english:i3:
+** semana [2021-09-12 Sun]
+   :Javascript:vim:emacs:english:i3:
+** semana [2021-09-20 Mon]
+   :Javascript:vim:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -5540,35 +5926,40 @@ pero es algo continuo en cambio el otro molestaba que era variable.
 ** instalacion [2021-08-17 mar]
    seamlessly
 ** problemas con su
-   algunos programas no son reconocidos como 
+   algunos programas no son reconocidos como
    dpkg-reconfigure locales
    resuelto con su -
-   
+
 * agenda vim
 ** jump previas posiciones
-C-o C-i
+    C-o C-i
 ** cs"{ sourround
-para un tipico problema de reemplazo de llaves o comillas en un select
-p.e. en vez del tedioso reemplazo dentro de la cadena hacemos cs{" o
-lo que sea
-c change 
-s surrounded 
-{ el caracter a reemplazar 
-" el caracter por el cual sera reemplazado
--las expresiones tienen que estar balanceadas, no pueden estar en proceso
+    para un tipico problema de reemplazo de llaves o comillas en un select
+    p.e. en vez del tedioso reemplazo dentro de la cadena hacemos cs{" o
+    lo que sea
+    c change 
+    s surrounded 
+    { el caracter a reemplazar 
+    " el caracter por el cual sera reemplazado
+    -las expresiones tienen que estar balanceadas, no pueden estar en proceso
 ** plugin fzf
-:Files busca archivos dentro del dir de trabajo
-:Buffers busca buffers
-:BTags busca en los tags del archivo en cuestion
-:Ag busca en el directorio con ag
-:Rg busca en el directorio con rg (mejor)
+    :Files busca archivos dentro del dir de trabajo
+    :Buffers busca buffers
+    :BTags busca en los tags del archivo en cuestion
+    :Ag busca en el directorio con ag
+    :Rg busca en el directorio con rg (mejor)
 ** ejecutar dot command masivamente
-por ejemplo poner ; al final de la linea a todo un archivo.
-A;<Esc>   va al final pone el punto y coma y sale del modo insert
-j va a la linea siguiente
-VG entra en modo visual hasta el final de archivo
-:<,> normal . (normal . hace que en modo normal se ejecute . en todas
-las lineas marcadas por el visual.)
+    por ejemplo poner ; al final de la linea a todo un archivo.
+    A;<Esc>   va al final pone el punto y coma y sale del modo insert
+    j va a la linea siguiente
+    VG entra en modo visual hasta el final de archivo
+    :<,> normal . (normal . hace que en modo normal se ejecute . en todas
+    las lineas marcadas por el visual.)
+** marcas
+   con m pongo una marca mas una letra, minuscula para una marca
+   dentro del archivo y mayuscula para una marca global.
+   Luego las invoco con 'A, 'a etc.
+
 ** borrar en insert mode
    Ctrl-u borra toda la linea
    Ctrl-h borra un caracter
@@ -6341,7 +6732,19 @@ sudo. El resto todo igual y bien.
 ** tema simple registro o doble registro
    el doble registro le añade mucha complejidad y la unica doble
    cuenta es compra de dolares y prestamos en dolares.
-* bugs sistema
-** borrar items pasado de venta
-** lista en el fechado no esta ordenada 
-** problemas en el fechado que hacen recargar
+* bugs y mejoras del sistema
+** DONE borrar items pasado de venta
+** DONE lista en el fechado no esta ordenada
+** DONE problemas en el fechado que hacen recargar
+** DONE [#A] borrado de items fechados y revertir operacion
+** DONE [#B] verificar que total ventas no incluya devuelta ni plan pagos
+** DONE lista de venta por vendedor por dia
+** DONE cuadro de vista de devoluciones
+** TODO cuadro de vista de planes de pagos
+   quizas tengamos que poner una nueva pestaña de informacion para no
+   recargar las que tenemos actualmente
+** DONE boton de whatapp para comunicacion normal sin intimacion
+** DONE poner el numero de venta en los pagos de clientes
+   no se puede saber bien cual pago corresponde a cual venta
+** DONE filtrar si se puede los planes de pagos del listado de venta
+   para que no confundan al sumar las ventas o al observar las ventas

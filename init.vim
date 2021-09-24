@@ -28,10 +28,13 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'dracula/vim'
-" Plugin 'neovim/nvim-lspconfig'
-" Plugin 'nvim-lua/completion-nvim'
+"Plugin 'ycm-core/YouCompleteMe'
+"Plugin 'neovim/nvim-lspconfig'
+"Plugin 'nvim-lua/completion-nvim'
 Plugin 'kristijanhusak/orgmode.nvim'
+"Plugin 'dhruvasagar/vim-dotoo'
 Plugin 'mbbill/undotree'
+Plugin 'airblade/vim-rooter'
 "Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -41,9 +44,10 @@ filetype plugin indent on    " required
 " require'lspconfig'.pyright.setup{}
 " EOF
 
-set guifont=DejaVu\ Sans\ Mono:h14
-" colorscheme gruvbox
-colorscheme dracula
+"set guifont=DejaVu\ Sans\ Mono:h14
+set guifont=Fira\ Code\ Mono:h15
+colorscheme gruvbox
+"colorscheme dracula
 set background=dark
 "colorscheme zenburn
 " colorscheme desert
@@ -67,9 +71,10 @@ nnoremap <C-z> :w<cr> :!bash %<CR>
 
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
+:map <F8> :e /home/hero/orgblok/pro.org <cr>
 
-:map <C-n>  :Files<cr>
-" :map <C-n> :NnnPicker<cr>
+":map <C-n>  :Files<cr>
+:map <C-n> :NnnPicker<cr>
 :map <C-b>  :Buffers<cr>
 :map <C-t>  :BTags<cr>
 :map <F3>   :NERDTreeToggle<CR>
@@ -145,12 +150,12 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 "ver los espacios en blanco o tabs mal puestos
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
-autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-autocmd BufWinLeave * call clearmatches()
+" highlight ExtraWhitespace ctermbg=red guibg=red
+" match ExtraWhitespace /\s\+$/
+" autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+" autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+" autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+" autocmd BufWinLeave * call clearmatches()
 
 "tweaks for netrw
 let g:netrw_banner=0
@@ -185,13 +190,13 @@ autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellesca
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
-"  inoremap <silent><expr> <TAB>
-"       \ <SID>check_back_space() ? "\<TAB>" :
-"       \ coc#refresh()
-" function! s:check_back_space() abort
-"   let col = col('.') - 1
-"   return !col || getline('.')[col - 1]  =~# '\s'
-" endfunction
+ inoremap <silent><expr> <TAB>
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
 
  " lua << EOF
  " local nvim_lsp = require('lspconfig')

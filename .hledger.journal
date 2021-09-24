@@ -7121,7 +7121,7 @@ D $1000.00
     assets:caja                        $-223.13
 
 2021-09-02 construluz romi
-    ><<                 $598.62
+    expenses:casa:mantenimiento         $598.62
     assets:caja        $-598.62
 
 2021-09-02 hiper libertad
@@ -7207,3 +7207,207 @@ D $1000.00
 2021-09-06 dif
     expenses:diferencia arqueo             220
     assets:caja                           -220
+
+2021-09-06 facturas
+    expenses:comida             500
+    assets:caja                -500
+
+2021-09-07 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2021-09-07 saco reservas
+    assets:caja              40000
+    assets:reserva          -40000
+
+2021-09-07 optica
+    expenses:gastos medicos:opticas           36800
+    assets:caja                              -36800
+
+2021-09-07 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2021-09-07 compras
+    expenses:comida             180
+    assets:caja                -180
+
+2021-09-08 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021-09-08 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-08 cami mesada
+    expenses:cami:mesada            1500
+    assets:caja                    -1500
+
+2021-09-08 cami comida
+    expenses:cami:comida           $3000
+    assets:caja                   $-3000
+
+2021-09-08 cami botas y lentes
+    expenses:cami:extras            4100
+    assets:caja                    -4100
+
+2021-09-08 pan
+    expenses:comida             400
+    assets:caja                -400
+
+2021-09-09 psicologa cami
+    expenses:cami:psicologo            1500
+    assets:caja                       -1500
+
+2021-09-09 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2021-09-10 sandwiches
+    expenses:comida            1110
+    assets:caja               -1110
+
+2021-09-10 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-09-10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-11 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-09-11 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-11 mesada cami
+    expenses:cami:mesada            2000
+    assets:caja                    -2000
+
+2021-09-11 farmacia
+    expenses:gastos medicos:farmacia            2000
+    assets:caja                                -2000
+
+2021-09-11 gatos
+    expenses:comida:gatos           $1000
+    assets:caja                    $-1000
+
+2021-09-13 pollos
+    expenses:comida             810
+    assets:caja                -810
+
+2021-09-13 pan
+    expenses:comida             110
+    assets:caja                -110
+
+2021-09-13 saldo mesada cami
+    expenses:cami:mesada            1000
+    assets:caja                    -1000
+
+2021-09-13 comida cami
+    expenses:cami:comida            4000
+    assets:caja                    -4000
+
+2021-09-13 comida
+    expenses:comida             600
+    assets:caja                -600
+
+2021-09-13 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021-09-14 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2021-09-15 pan
+    expenses:comida             140
+    assets:caja                -140
+
+2021-09-15 extra cami
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2021-09-15 romi
+    expenses:romi             500
+    assets:caja              -500
+
+2021-09-16 carla
+    expenses:isabel             700
+    assets:caja                -700
+
+2021-09-16 ingresos
+    assets:reserva                   60000
+    income:retiro sociedad          -60000
+
+2021-09-16 saco reservas
+    assets:caja              60000
+    assets:reserva          -60000
+
+2021-09-16 multas
+    viajes:multas            8671
+    assets:caja             -8671
+
+2021-09-16 aguas cordobesas 08/2021
+    expenses:servicios:aguas cordobesas         1258.39
+    assets:caja                                -1258.39
+
+2021-09-16 epec 08/2021
+    expenses:servicios:epec          6231.4
+    assets:caja                     -6231.4
+
+2021-09-16 claro
+    expenses:servicios:claro            2705
+    assets:caja                        -2705
+
+2021-09-16 ospe
+    expenses:servicios:OSPE           36701
+    assets:caja                      -36701
+
+2021-09-17 gatos
+    expenses:comida:gatos            1500
+    assets:caja                     -1500
+
+2021-09-17 limpieza
+    expenses:comida:limpieza             130
+    assets:caja                         -130
+
+2021-09-17 cami extras
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2021-09-17 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021-09-17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-17 farmacia hospital italiano
+    expenses:gastos medicos:farmacia            6032
+    assets:caja                                -6032
+
+2021-09-18 pizza
+    expenses:comida            1130
+    assets:caja               -1130
+
+2021-09-18 dif
+    expenses:diferencia arqueo             591
+    assets:caja                           -591
+
+2021-09-20 comida
+    expenses:comida             270
+    assets:caja                -270
+
+2021-09-20 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2021-09-20 comida
+    expenses:comida             600
+    assets:caja                -600
