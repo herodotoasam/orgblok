@@ -4373,7 +4373,7 @@ primer mm hecho luego de la obra sobre array
     palabra cuantas quedan del deck. 
     A todo esto lamentablemente me esta empezando a doler la cabeza sino 
     seguia con js. Que martirio que es esto por favor.
-*** [2021-09-22 Wed]
+*** [2021-09-22 Wed] ted mit cambridge
     ayer practique bastante ingles y escuche bastantes minutos de conferencias 
     del mit y cambridge, ambas tienen subtitulos en ingles, y ambas fueron 
     bastante comprensibles.
@@ -4438,7 +4438,7 @@ primer mm hecho luego de la obra sobre array
     las dos fueron barbaro. Para seguir intentandolo.
 
 
-*** [2021-09-24 Fri]
+*** [2021-09-24 Fri] tips alternativo para las mañanas
     despues de un dia como el de ayer es dificil empezar, o tendria que ser 
     mas facil?.
     animicamente me levanto pum para arriba y luego choco con la barrera del 
@@ -4451,6 +4451,87 @@ primer mm hecho luego de la obra sobre array
     estoy completamente apolillado y sin ganas de hacer nada. No deja de ser 
     un golpe animico lo del negocio en especial despues de ayer con el 
     sincericidio del Fede.
+    Hoy resulto un dia raro pq estuve apolillado y luego tome dos migrales, 
+    tuve mal del dolor, y me levante y tuve una conversacion que no pudo haber 
+    salido mejor, y luego hice una mejora importante al sistema. Igual que 
+    anteayer.
+    
+    Un tips que se me ocurre para evitar el momento laxo de la mañana es 
+    evitarlo, o sea hacer la rutina de levantarse y en vez de prender la 
+    maquina y sentarse al frente inmediatamente, hacer otra cosa, como p.e. 
+    romper recibos escuchando videos, o acomodar el rincon para el escritorio 
+    o la mejor de todas: sentarme a leer material motivante de alguno de los 
+    libros que tengo, o bien un libro de tecnologia y tener a mano la carpeta 
+    para hacer un mm. La cosa es cambiar el lugar en que uno se siente 
+    incomodo.
+
+*** [2021-09-25 Sat] hacia un metodo de estudio
+    Mayormente leo, reading in english books of tecnologhy pero mayormente me 
+    enfoco en marcar las palabras que desconozco, recien ultimamente estuve 
+    haciendo un minimo marcado de partes importantes. Lo maximo que llego es 
+    leer frente a la compu y practicar un ejemplo en la compu, o cuando 
+    estudie python hacer unos apuntes muy deficientes.
+    No hay elaboracion propia de conceptos aprendidos y menos esa elaboracion 
+    es de una calidad superior, como seria p.e. si fuesen mm bien hechos. 
+    Despues quedan los videos que en tiempo pasado mayormente y menos ahora 
+    veo/veia que peor aun, pq no hay nada ni anotacion ni practica.
+    Por eso pienso que mi tiempo de estudio es ineficiente. No sirve. No 
+    cuenta.
+    Podria buscar la forma de hacer los pomodoros que pueda en forma muy 
+    eficiente aprendiendo y teniendo la disciplina de hacer el formato 
+    Encontre un articulo bastante completo que puede ser util.
+
+*** [2021-09-26 Sun] los daños de estar sentado mucho tiempo
+    Encontre un video que explica claramente que estar sentado mucho tiempo 
+    sin levantarse y moverse, es dañino y produce que los pulmones se achiquen 
+    y que le llegue menos oxigeno al cerebro. Y que tenga problemas de 
+    rodilla.
+    Por eso puse un dispositivo para que avise cada tantos minutos y tomemos 
+    un breve descanso de quince segundos al menos. Lo ideal es que luego lo 
+    ponga en el config cosa que se active solo con todo tipo de actividad.
+
+    Como resumen de metodo de estudio pongo:
+    1. usar pomodoros de 25min.
+    2. usar activadores de 5min en caso que no arranquemos.
+    3. hacer mm de lo que vayamos estudiando no importa como salgan hasta que 
+       vayamos aprendiendo con el tiempo a hacerlos mejor.
+
+*** [2021-09-27 Mon]
+    empiezo una semana vamos a ver como se presenta.
+    sigo notando que el mayor problema es comenzar a la mañana, por mas que 
+    tenga la mañana totalmente despejada pq ih se fue a trabajar y se fue 
+    temprano, son las 11.30hs y no hice nada.
+    Lo unico que fui haciendo durante estos ultimos dias de setiembre fue una 
+    toma de conciencia en el tema fisico y en la necesariedad de incorporar al 
+    esquema de habits ciertos minihabitos que impactaran sobre la alimentacion 
+    y el movimiento. Los mas importantes son: el desayuno de mijo y la bici a 
+    la tarde. Y tambien los minihabitos evitadores, esos tambien son 
+    importantes pq vienen a evitar rutinas nocivas como tomar gaseosa comer 
+    comidas en mal estado, o comidas chatarra. 
+    Unido al tip de ayer de no estar sentado mucho tiempo y con el programa 
+    que me marca las pausas. 
+    Hice dos pomodoros con anki deck 1 y 2, bastante bien a pesar del 
+    abandono. un 90% de recordacion en escrito, me parece bien. Hay que seguir 
+    practicando. Lo de los pomodoros esta bien, y lo de los descansos tambien.
+    
+    Estoy en una meseta de ingles. He perdido la confianza en que pueda 
+    aprender. El descubrimiento de las ted-charlas fue negativo pq me lleva a 
+    interesarme en el tema hasta tal punto de preferir el subtitulo en español 
+    pq me interesa mas el tema que practicar ingles. 
+    Por otra parte no he repetido mas las lecciones sencillas que AG decia que 
+    habia que repetir como listening para aprender. Tampoco hago grammar. Y es 
+    muy irregular la practica de anki.
+    Si a esto le sumamos que son dias malos de mucho migral es el combo total.
+*** [2021-09-28 Tue]
+    anoche bien pq hice mi primer mm de una lectura que habia hecho de js "a 
+    libro cerrado" o sea con recordacion luego de leido que es como se debe 
+    hacer. 
+    Hace falta ademas mucha practica, no porque haga un mm ya sos experto.
+    De nuevo la soñolencia matinal, qlp.
+    Hice un pomodoro de js, luego vi el video de this-js de media hora, no 
+    mucho mas. El dia no ayuda para nada.
+    Hice una practica del deck 2 completo y nada mas.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5585,7 +5666,9 @@ timido comienzo muy debil en estudio de js.
    :Javascript:TCL:emacs:english:i3:
 ** semana [2021-09-12 Sun]
    :Javascript:vim:emacs:english:i3:
-** semana [2021-09-20 Mon]
+** semana [2021-09-19 Sun]
+   :Javascript:vim:english:i3:
+** semana [2021-09-26 Sun]
    :Javascript:vim:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]

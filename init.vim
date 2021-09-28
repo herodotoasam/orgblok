@@ -35,6 +35,7 @@ Plugin 'kristijanhusak/orgmode.nvim'
 "Plugin 'dhruvasagar/vim-dotoo'
 Plugin 'mbbill/undotree'
 Plugin 'airblade/vim-rooter'
+Plugin 'nvim-telescope/telescope.nvim'
 "Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -7411,3 +7411,91 @@ D $1000.00
 2021-09-20 comida
     expenses:comida             600
     assets:caja                -600
+
+2021-09-25 extra cami
+    expenses:cami:extras            1000
+    assets:caja                    -1000
+
+2021-09-25 extra romi
+    expenses:romi           $1000
+    assets:caja            $-1000
+
+2021-09-25 nafta
+    expenses:transporte:nafta            1500
+    assets:caja                         -1500
+
+2021-09-25 lomito
+    expenses:comida             530
+    assets:caja                -530
+
+2021-09-25 jardinero
+    expenses:casa:mantenimiento:jardineria            2000
+    assets:caja                                      -2000
+
+2021-09-26 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2021-09-27 sandwich
+    expenses:comida            1260
+    assets:caja               -1260
+
+2021-09-27 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-09-27 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-27 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021-09-27 cemento de contacto
+    expenses:casa:refacciones             420
+    assets:caja                          -420
+
+2021-09-28 comida
+    expenses:comida            1150
+    assets:caja               -1150
+
+2021-09-28 farmacia
+    expenses:gastos medicos:farmacia            4000
+    assets:caja                                -4000
+
+2021-09-28 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-09-28 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-28 gatos
+    expenses:comida:gatos            1000
+    assets:caja                     -1000
+
+2021-09-28 mesada cami
+    expenses:cami:mesada           $2000
+    assets:caja                   $-2000
+
+2021-09-28 comida cami
+    expenses:cami:comida            5000
+    assets:caja                    -5000
+
+2021-09-28 prestamo romi
+    assets:deudas romi            2000
+    assets:caja                  -2000
+
+2021-09-28 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021-09-28 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021-09-28 dif
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
