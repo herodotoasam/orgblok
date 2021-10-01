@@ -340,7 +340,7 @@
  ;; If there is more than one, they won't work right.
  '(org-agenda-files '("~/orgblok/"))
  '(package-selected-packages
-   '(pdf-tools all-the-icons elpygen simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
+   '(ripgrep pdf-tools all-the-icons elpygen simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
  '(projectile-globally-ignored-file-suffixes '("#"))
  '(projectile-globally-ignored-files '("#*#" "TAGS"))
  '(projectile-mode t nil (projectile)))

@@ -127,13 +127,6 @@
    dolor, Me tome un 10mg tipo 10pm y recien mejore un poco a las 5am,
    y no estoy del todo bien.
 
-** [2021-09-28 Tue] malestar a la toma del migral
-   hace rato que siento malestar general a la toma del migral, o sea a veces 
-   trato de esperar para no tomar al vicio o con demasiada antelacion, pero me 
-   refiero a los malestares extra-migrañosos que siento al tomar el migral, 
-   siento como que la cabeza se me vacia o se me llena de aire o me mareara. 
-   Es un malestar que dura un rato y luego se va. A veces me tomo la tension y 
-   la tengo normal. (como ahora 12.3/7.8). 
 ** [2021-08-21 Sat] oido tapado
    desde ayer siento una sensacion de ruido, y hoy me puse gotas de
    cerumax y no me resultaron de alivio, no esta tapado como la otra
@@ -245,8 +238,49 @@
    fuera un temblor, me levante a ver a SAnchez si se movia, y no, luego me 
    senti mareado como vertigoso como unos 10 minutos.
 
+** [2021-09-28 Tue] malestar a la toma del migral
+   hace rato que siento malestar general a la toma del migral, o sea a veces 
+   trato de esperar para no tomar al vicio o con demasiada antelacion, pero me 
+   refiero a los malestares extra-migrañosos que siento al tomar el migral, 
+   siento como que la cabeza se me vacia o se me llena de aire o me mareara. 
+   Es un malestar que dura un rato y luego se va. A veces me tomo la tension y 
+   la tengo normal. (como ahora 12.3/7.8). 
 ** [2021-09-28 Tue] brumosidad en el muslo izquierdo
    siento en el muslo izq a la altura del bolsillo un temblor como si fuera el 
    celu pero no tengo el celu es muscular como si fuera una vena tapada y 
    hubiera rumorosidad.
+   [2021-09-29 Wed] acostado no senti el sintoma, pero al llegar al hora de 
+   levantarme vuelvo a sentirlo. No es constante. 
+   [2021-09-30 Thu] hoy que fui al hp dispuesto a hacerme ver y
+   comence la cortiterapia no senti nada mas en ese tema.
+** [2021-09-29 Wed] tensiones durante el dormir
+   esta madrugada me desperte muy tensionado, y me obligue a relajar y pude 
+   seguir durmiendo confortablemente.
+* cortiterapia 2021
+  UM: [2021-09-29 Wed] 16hs
 
+** Comentarios:
+   decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
+   a las 8hs y topiramato+silbelium, y migral de rescate si hace
+   falta.
+
+    
+** [2021-09-30 Thu] 8hs 20mg
+    tome un paracetamol 1gr a las 14hs. Mucho dolor de cintura, cadera y de hombros 
+    menos, dolor oseo, tipico del corticoide. E incipiente dolor de cabeza.
+    por la siesta y tarde el dolor de cabeza se hizo presente en forma
+    mas o menos constante y molesta pero sin ser muy fuerte, pude
+    dormitar mientras atendia fabian, y luego no pude dormir muy bien
+    una siesta.
+    Cuando me puse a leer el dolor parecia estacionarse o estancarse y
+    luego de un rato largo de estar leyendo se fue. Luego cene y me
+    puse bien. Mientras que antes estaba esperando que se hagan las
+    20hs para tomar la otra dosis, cuando las 20hs llego no me dolia
+    nada y decidi no tomar la segunda dosis y me dormi a las
+    22hs. Dormi bastante normal, no bien, ni mal.
+    Desperte con dolor articular de mandibula que se fue al ratito de
+    levantado.
+** [2021-10-01 Fri] 7hs 20mg
+    Luego de las actividades por hora y media de la salida de ih de
+    viaje no me dolio nada ese dolor de base que tenia cuando estaba
+    despertando.

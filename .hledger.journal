@@ -7499,3 +7499,19 @@ D $1000.00
 2021-09-28 dif
     expenses:diferencia arqueo             100
     assets:caja                           -100
+
+2021-09-30 comida
+    expenses:comida             450
+    assets:caja                -450
+
+2021-09-30 comida
+    expenses:comida             190
+    assets:caja                -190
+
+2021-09-30 estacionamiento
+    expenses:transporte:estacionamiento             100
+    assets:caja                                    -100
+
+2021-09-30 farmacia hp cortypiren b 40
+    expenses:gastos medicos:farmacia            2000
+    assets:caja                                -2000

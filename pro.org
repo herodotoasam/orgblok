@@ -4532,6 +4532,34 @@ primer mm hecho luego de la obra sobre array
     mucho mas. El dia no ayuda para nada.
     Hice una practica del deck 2 completo y nada mas.
     
+
+*** [2021-09-29 Wed] Eloquent javascript en español
+    anoche decidi que voy a leer dos materiales de javascript en español pq 
+    hasta ahora indirectamente practicaba ingles con la lectura y de paso 
+    usaba la tablet, pero en realidad si tengo un buen material en español no 
+    esta mal usarlo ya que en este caso el objetivo principal es aprender a 
+    fondo javascript. El estudio de ingles va por otro carril. Quizas se 
+    podria practicar un reading de otro tipo de libro.
+
+*** [2021-09-30 Thu]
+    esta buenisimo Eloquent Javascript, para seguir leyendolo por lo menos.
+    Hay una idea ahi para aplicarse a estadistica de pagos que vamos a 
+    explorar.
+
+    Pude hacer el analisis para dos variables hj y mj (hombre joven y mujer 
+    joven), pero pienso que esta mal
+
+    No me exijo nada hoy ni en los dias inmediatos por venir del tratamiento 
+    cortypiren empezado hoy, salvo en momentos en que me sienta realmente 
+    bien.
+
+    El objetivo es terminar javascript en español ambos para fin de año y 
+    certificar un conocimiento un poco mas avanzado del lenguaje.
+    
+*** [2021-10-01 Fri]
+    muy instructivo el articulo sobre metodos de estudio.
+    anoche lei un poco de js-tutorial en español muy completo.
+    Hay que notar que en estos dias estoy de tratamiento.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5660,16 +5688,11 @@ timido comienzo muy debil en estudio de js.
    :Javascript:python:emacs:english:i3:
 ** semana [2021-08-22 Sun]
    :python:emacs:english:i3:
-** semana [2021-08-29 Sun]
-   :emacs:english:i3:
-** semana [2021-09-05 Sun]
-   :Javascript:TCL:emacs:english:i3:
-** semana [2021-09-12 Sun]
-   :Javascript:vim:emacs:english:i3:
-** semana [2021-09-19 Sun]
-   :Javascript:vim:english:i3:
-** semana [2021-09-26 Sun]
-   :Javascript:vim:english:i3:
+** semana [2021-08-29 Sun]                                 :emacs:english:i3:
+** semana [2021-09-05 Sun]                  :Javascript:TCL:emacs:english:i3:
+** semana [2021-09-12 Sun]                  :Javascript:vim:emacs:english:i3:
+** semana [2021-09-19 Sun]                        :Javascript:vim:english:i3:
+** semana [2021-09-26 Sun]                        :Javascript:vim:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
