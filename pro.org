@@ -4394,7 +4394,6 @@ primer mm hecho luego de la obra sobre array
     Desde el punto de vista de la escucha o el listening bien, creo que la 
     practica me viene bien. Y de paso aprendo temas. 
     
-
 *** [2021-09-23 Thu] word mind maps - pomodoro times
     hoy tuve la idea que ya la habia barajado muchas veces de hacer unos 
     cuantos mapas mentales con las palabras y sus definiciones agrupadas por 
@@ -4436,7 +4435,6 @@ primer mm hecho luego de la obra sobre array
 
     Positivo hoy que hice en la practica las dos cosas que habia escuchado y 
     las dos fueron barbaro. Para seguir intentandolo.
-
 
 *** [2021-09-24 Fri] tips alternativo para las mañanas
     despues de un dia como el de ayer es dificil empezar, o tendria que ser 
@@ -4532,7 +4530,6 @@ primer mm hecho luego de la obra sobre array
     mucho mas. El dia no ayuda para nada.
     Hice una practica del deck 2 completo y nada mas.
     
-
 *** [2021-09-29 Wed] Eloquent javascript en español
     anoche decidi que voy a leer dos materiales de javascript en español pq 
     hasta ahora indirectamente practicaba ingles con la lectura y de paso 
@@ -4556,10 +4553,139 @@ primer mm hecho luego de la obra sobre array
     El objetivo es terminar javascript en español ambos para fin de año y 
     certificar un conocimiento un poco mas avanzado del lenguaje.
     
+** 2021-Octubre
 *** [2021-10-01 Fri]
     muy instructivo el articulo sobre metodos de estudio.
     anoche lei un poco de js-tutorial en español muy completo.
     Hay que notar que en estos dias estoy de tratamiento.
+    Estoy volviendo suavemente a emacs al menos en orgmode.
+    lo unico que no tiene lo que habia logrado en vim, pero creo que
+    es suficiente como para trabajar correctamente.
+    No creo que tenga tutorial-hell pq ya hice un proyecto gigante que
+    esta muy bueno. Lo que tengo es que se me han acabado los
+    desafios, o al menos las cosas faltantes que le podria poner al
+    sistema no tengo ganas de hacerlo.
+
+    El ingles esta parado tambien, lo que es el listening
+    totalmente. Las palabras hoy al menos hice un repaso general de
+    todas bastante bien. Y la meta para que valga la pena seguir
+    pagando el vps es llegar a 1000 palabras. En palabras trabajando
+    sobre articulos como el que lei de los metodos de estudio que
+    entendi al 90% y lo mismo contenia cierta cantidad de palabras que
+    me falta conocer. 
+*** [2021-10-02 Sat]
+    No se si fue por el repaso de ayer pero hoy en medio de la
+    brumosidad del dolor un monton de palabras me saltaron con sus
+    significados.
+    Y me parecio revalorizar el tema de los cuadros mentales de grupos
+    de palabras, eso puede aumentar grandemente la cantidad de
+    palabras aprendidas. p.e. willing unwilling willinly unwillingly
+    willingless un willingless, tenes 6 palabras de una sola.
+    
+    Que bueno es estar en emacs al menos en el entorno de orgmode, son
+    45 años detras de programacion que hay, mucho hack envuelto en el
+    cual uno apenas si conoce algo. 
+
+    Analizando someramente el avance semanal, este deja mucho que
+    desear, lo cual lleva a preguntarme si realmente deseo estudiar, o
+    si es ese el objetivo de mi vida, pq parece que no arranco para
+    ningun lado. O no consigo nada. 
+    O visto desde otro punto de vista soy muy duro conmigo mismo y en
+    realidad aprendi un monton pero de temas muy variados que no sabia
+    antes y me permitiron hacer el sistema y que funcione.
+*** [2021-10-03 Sun] Javascript el tutorial
+    si me faltaba estructurar y eso es lo que decia que faltaba a la
+    hora de ponerse en pomodoro, y viendo para atras cuando uno dice
+    que no se certifico en ninguna materia, encontre una posibilidad:
+    Javascript el tutorial, encararlo capitulo por capitulo y si es
+    dificil no dejarlo de lado sino repetirlo hasta aprenderlo, y
+    hacer las practicas. 
+*** [2021-10-04 Mon]
+    ayer tarde y noche lei 3hs el tuto. empezando desde cero. Muy
+    interesante. Desde que me destrabe con los ejercicios, si son muy
+    imposibles los veo pq si no es peor, los dejo, los paso por alto o
+    peor aun me desanimo y dejo el tutorial.
+    LLego a pensar (todavia) que estoy en medio del cortycoide-hook o
+    sea ese torbellino de mind-enhancement que me hace estar mas
+    alerta y mas proclive a la lectura y al entendimiento. Me ha
+    pasado en todos los otros anteriores WD. Pero que lindo si asi
+    fuera en la vida en la vida real de todos los dias!!.
+    Tan enchufado estaba que ya fanteseaba con el "proximo" lenguaje a
+    aprender: kotlin, kivy o scala? 
+    
+    Tema: cambiar la ubicacion de la compu de nuevo al
+    dormitorio. [ver aparte] Resultado: no se puede pq es muy grande
+    el precio para mi en este momento o sea dejar debian 11. 
+    
+    Una registracion en fedesal: cerre mas el sistema, directamente
+    puse login_required en registrarse y ya no podra registrarse nadie
+    que no haga login en la pagina. 
+    Lo mismo hay que seguir vigilando.
+*** [2021-10-05 Tue]
+    ayer leyendo en ingles comentarios de redes sociales de
+    computacion quede frustrado por la gran cantidad de terminos que
+    no conozco, en relacion al articulo y menos en relacion al libro.
+    Como que libro 95%, articulo 85 y conversacion informal 70% o
+    menos.
+    Pero la solucion es agarrar como quiero hacer primero con el
+    articulo y buscar las frases y aprenderlas y asi sucesivamente
+    hasta ampliar mas el vocabulario.
+    
+    Anoche tambien perdi casi una hora leyendo alternativa
+    doom/spacemacs para emacs, y luego termine dejando pq pense que mi
+    flujo de programacion tampoco es tan grande como para que tenga
+    que renegar con esas cuestiones. Si me pongo a programar en serio
+    dentro de javascript no se que? capaz me voy a vcode, pero yo soy
+    del estilo de programar basico, o sea que con un autocompletado
+    basico me conformo, pq lo demas lo tengo en la cabeza.
+*** [2021-10-06 Wed] como estudiar un lenguaje for free - python hell 
+    ayer vi un video de un autodidacta brasileño que estudio solo
+    ingles con exito y dice que primero hay que tener un gran
+    proposito o sueño, de aprender el idioma, luego fijarse objetivos,
+    que no es lo mismo, pq los objetivos (goals) son cuantificables,
+    que estudiar solo require mucho willingness y willpower, y eso es
+    lo que aprovechan las academias y metodos, eso te venden, pq
+    material hay de sobra gratuitamente, que si uno desarrolla la
+    fuerza de voluntad de hacerlo solo lo va a lograr. Que hay que
+    hacer una inmersion total en el lenguaje, en todos los ambitos por
+    mas que eso nos cueste pq se torne inconfortable.
+
+    Ayer se me cruzo otro episodio de python-hell. Es raro ver a
+    python con la el prefijo -hell, y es que estoy metido dentro de la
+    lectura detallada de javascript. Por lo que no se si es
+    aburrimiento o es directamente un cambiarse ante la falta de
+    desafio, no lo se. La pregunta es si estoy aprendiendo realmente
+    javascript? y pienso que si, que se muchisimas mas cosas que antes
+    no sabia, pero hay ejercicios que todavia no comprendo. 
+    Creo que lo mas sensato es seguir las lecturas de javascript y si
+    hay mucha necesidad de programar reformular alguna pagina de
+    fedesal o agregar alguna funcionalidad.
+    
+    Me hice dos pomodoros con ingles sacando terminos del articulo en
+    forma directa y el otro repasando deck 1 y 2. A pesar de la poca
+    willpower que tenia y del dolor de cabeza cursante muy bien!!!.
+    
+    Tambien la falta de estimulo o incentivo para estudiar in
+    abstracto tanto javascript como python es el hacer otro tipo de
+    programas que no sean los que siempre hice o sea los de bases de
+    datos y relacionados con romitex. No tengo idea en que podria ser
+    util hacer un sistema de programacion de otra cosa, por eso o bien
+    tendria que replantearme si es esta la materia que realmente me
+    gusta para no perder tiempo y ser tan improductivo. 
+*** [2021-10-07 Thu] 
+    desde anoche leo las dos cosas, js y python, por el momento.
+    estando "parado" en la mañana sin poder arrancar, use un tip que
+    se me ocurrio varios dias atras o sea hacer cosas fisicas para
+    destrabar el problema de la mañana.
+    
+    Termine el vocabulario del articulo How to Learn Quickly, 32
+    nuevas palabras. Muy bueno, pq un gran articulo que lo entendi
+    pero habia ciertas palabras que no conocia y tenia que aprender,
+    ahora incorporadas al anki.
+    
+    Hoy dos pomodoros seguidos muy enchufado, pero de python!!,
+    positivo. y eso que en un entorno de tranquilidad excesiva pero de
+    dolor de cabeza.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -4752,8 +4878,7 @@ se hagan cosas como tablelist sin objetos. Tambien esta todo el tema
 de la web a nivel teorico pero por ahora no lo toco pq no es tiempo aun.
 
 * avance semanal
-** semana [2020-06-07 dom]
-   :Laravel:TCL:Postgres:Lumen:Rails:
+** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
 semantic ui por bulma-buefy. Mucho estudio pero no poderlo poner en
 practica. recien el domingo empiezo con cierta dificultad y muchas
@@ -4788,8 +4913,7 @@ ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
 bichito de volver a rails, me parece un camino mas corto que seguir
 con laravel. Todos los conceptos aprendidos en laravel me
 recontrasirven para rails.
-** semana [2020-06-14 dom]
-   :Rails:Ruby:
+** semana [2020-06-14 Sun] :Rails:Ruby:
 inmersion en ruby. Las diferencias son que hay pocos videos, pocos
 tutoriales y los que hay son muy viejos. Como que rails fue famoso 10
 años atras con la version 3 y 4 y ahora en el 2020 nadie le da bola.
@@ -4817,8 +4941,7 @@ otros niveles, por eso creo que el libro de ruby bajado me va a servir
 y seguir leyendo e investigando las guias rails a fondo hasta saberlas
 todas. Hay buenos tutoriales en medium sobre rails que hasta ahora me
 han servido y creo que por ahi pasa ir subiendo peldaño a peldaño.
-** semana [2020-06-21 Sun]
-   :Django:Flask:Vim:Emacs:
+** semana [2020-06-21 Sun] :Django:Flask:Vim:Emacs:
 semana de Django. Luego del pico de rails de la semana pasada parece
 que en el momento mas alto pica el bichito de lo nuevo y se me ocurrio
 probar django a ver como era. POr dos motivos, primero por probar,
@@ -4843,8 +4966,7 @@ por el momento), emacs en terminal, trabajar en terminal en pestañas,
 hoy con lynx (abandonado) y demas. O sea una semana floja en avance
 pero creo que cambie el entorno fisico de trabajo un monton, y tambien
 hice unos cambios de entorno de base que veremos como funcionan.
-** semana [2020-06-28 Sun]
-   :Emacs:Vim:TCL:Mint:
+** semana [2020-06-28 Sun] :Emacs:Vim:TCL:Mint:
 en realidad la semana propiamente dicha va a empezar el martes, pq el
 domingo estuvo perdido en boludeaje de instalacion de s.o. y el lunes
 en obra de pintura del local.
@@ -4866,8 +4988,7 @@ Creo que esta fue la semana de la Guerra de los Editores. con la
 puesta a punto de dos editores grandes. Poner a punto Emacs me llevo
 bastante y Nvim tambien, y tambien en el medio perdi tiempo con el
 doom.
-** semana [2020-07-05 Sun]
-   :Django:Emacs:VSCode:Rails:Ruby:Hledger:
+** semana [2020-07-05 Sun] :Django:Emacs:VSCode:Rails:Ruby:Hledger:
 esta semana comienza ya con la herramienta establecida por lo tanto no tendria
 que perder demasiado tiempo en cambios rotundos como la semana pasada salvo
 perfeccionamientos menores.  siempre me da un reniegue nuevo el editor no
@@ -4970,8 +5091,7 @@ ejemplo o lo que sea, y lo tagueo, entonces luego va a ser facil
 encontrar o aislar las partes maxime cuando no sabemos como se va a
 estructurar o por si no me gusta la estructuracion, en este caso la
 estructura la dara el tagueo.
-** semana [2020-07-12 Sun]
-   :Hanami:Ruby:Mint:mysql:php:CodeIgniter:
+** semana [2020-07-12 Sun] :Hanami:Ruby:Mint:mysql:php:CodeIgniter:
 Anoche puse la busqueda ruby-web-framework y descubri hanami, y me
 parecio en principio lindo por todo lo que prometia, luego leyendo una
 documentacion muy bien presentada y entendible, lo veo abordable
@@ -5022,8 +5142,7 @@ los dias y las semanas y estoy a fojas cero. Con crecientes
 preocupaciones.
 Termina la semana tranquilo al menos encuadrado en una nueva idea que
 es meterle al php.
-** semana [2020-07-19 Sun]
-   :CodeIgniter:Laravel:TCL:
+** semana [2020-07-19 Sun] :CodeIgniter:Laravel:TCL:
 [2020-07-20 Mon] la semana comienza muy php. Pero sin una clara linea
 de accion sobre como seguir o sea como comenzar a programar o como
 seguir aprendiendo lo que me falta rapidamente, en otras palabras
@@ -5070,8 +5189,7 @@ Por otro lado pienso que se avanza poco o que no se avanza
 nada. P.e. pienso en todas las horas que llevo leyendo y practicando
 itcl y no he avanzado nada, o bien soy muy duro yo o el tema es muy
 dificil y amerita el esforzarse un poco mas.
-** semana [2020-07-26 Sun]
-   :Itcl:TCL:Vim:Evil:
+** semana [2020-07-26 Sun] :Itcl:TCL:Vim:Evil:
 Ahora puedo decir que se ha puesto fascinante la programacion. Estoy
 haciendo una class Cliente que encapsula toda la logica del negocio
 dentro de si misma y es atrapante se te pasa el tiempo volando. Pienso
@@ -5114,8 +5232,7 @@ cuatro años y no tiene sustituto, y no require mas habilidades de las
 que ya tengo, ni mayores perdidas de tiempo, que las ya asignadas, por
 lo cual no creo que tenga que seguir en esa linea. O sea vim para
 programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
-** semana [2020-08-02 Sun]
-   :TCL:Debian:
+** semana [2020-08-02 Sun] :TCL:Debian:
  Llevo una semana y media con TCL o sea la semana pasada, la del 26/7
  y mitad de la anterior la del 19/7. O sea no muy mucho que digamos, y
  voy entranto en tema de a poco. Entre con cierta fuerza a aprender
@@ -5155,8 +5272,7 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  que es una masa que esta, que no se pierde, lo que pasa es que yo
  aspiro a saberlo de memoria, o sea a conocerlo como si lo tuviera que
  enseñar.
-** semana [2020-08-09 Sun]
-   :Flask:Python:TCL:
+** semana [2020-08-09 Sun] :Flask:Python:TCL:
 debido a Reddit que atrae mis lecturas en momentos de ocio, me join a
 grupos varios de interes, vim, emacs, tcl, orgmode, y tambien a
 python, y de ahi salto flask y lo vi de nuevo con cariño, como para
@@ -5302,8 +5418,7 @@ pasado. Y poder dedicarme a lo que tengo que dedicarme que es la
 funcionalidad del programa. La semana que viene pienso dedicarme de
 lleno a fpdf. para entrar en una ficha para entregar en celu y en la
 misma aplicacion, como ya tengo la base hecha.
-** semana [2020-08-16 Sun]
-   :python:Flask:LearningMachine:JavaScript:
+** semana [2020-08-16 Sun] :python:Flask:LearningMachine:JavaScript:
 la semana despues del empuje de la semana pasada empieza con un gran
 entusiamo para codificar y aprender python. Anoche pensaba que tendria
 o quisiera poder dedicarle 50horas por semana, 8hs por dia de semana
@@ -5368,8 +5483,7 @@ hasta donde se puede con el framework pero estoy desganado y no puedo
 avanzar mas alla de algunas pocas cosas.
 el finde solo fue ver videos de los cursos que estoy siguiendo(js y
 css) y nada sobre el sistema
-** semana [2020-08-23 Sun]
-   :JavaScript:CSS:Flask:Python:
+** semana [2020-08-23 Sun] :JavaScript:CSS:Flask:Python:
 Esta semana flask y python no estan en primer lugar pq empece un poco
 desanimado con la programacion, estaba un poco caido, desanimado. Y
 mientras tanto le daba a la capacitacion de js y css por eso los
@@ -5404,8 +5518,7 @@ idea a python tambien, y aunque no consegui mucho material
 contundente, algo hay, y en especial pienso que tengo que dedicarme un
 poco mas a flask, o sea si he logrado lo que he logrado sin casi nada
 de teoria tendria que aprender un poco mas para incorporar mas cosas.
-** semana [2020-08-30 dom]
-   :Python:Flask:Pandas:
+** semana [2020-08-30 Sun] :Python:Flask:Pandas:
 [2020-09-01 mar] esta semana esta floja con el aprendizaje que cayo en
 una meseta y se reanimo la programacion con un par de modulos mas con
 lo que el proyecto va tomando mas forma y el agregado de pandas para
@@ -5421,16 +5534,14 @@ imaginado un mal muchisimo mayor, pero en cierta forma hicimos mas de
 lo que habiamos planificado y tenemos proyectado todavia mucho mas, o
 sea que la obra en general sera mucho mas grande que lo que se habia
 pensado en principio. 
-** semana [2020-09-06 Sun]
-   :Python:Flask:JavaScript:
+** semana [2020-09-06 Sun] :Python:Flask:JavaScript:
 [2020-09-07 Mon] la semana empieza en obras y creo que pinta a estar
 en obras para rato, lo unico que hice fue reinstalar mint de nuevo en
 la i3-9na para tener toda la funcionalidad en una sola maquina y no
 preocuparme mas por el sistema operativo. Creo que los que se ocupan
 tanto del sistema operativo son nerds. 
 -- toda la semana en obras
-** semana [2020-09-13 Sun]
-   :JavaScript:
+** semana [2020-09-13 Sun] :JavaScript:
 -- seguimos en obras, ni siquiera estudio, solo escuchar informalmente
    videitos de js y algunas lecturas supuestamente preparatorias para
    estudiar en serio cuando comience de nuevo.
@@ -5449,8 +5560,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
    cual podria hacerse en orgmode, pero mejor es hacerlo en freemind
    para luego imprimirlo en pdf y tener las hojas para repasar
    espaciadamente.
-** semana [2020-09-20 Sun]
-   :JavaScript:
+** semana [2020-09-20 Sun] :JavaScript:
 -- seguimos en obras y cuesta empezar.
    solo he diseñado una estrategia de estudio como para empezar pero
    todavia me cuesta empezar.
@@ -5459,8 +5569,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
    programacion y/o el estudio me encuentro parado, sin combustible,
    sin inspiracion de continuar.
 timido comienzo muy debil en estudio de js.
-** semana [2020-10-04 Sun]
-   :Flask:
+** semana [2020-10-04 Sun] :Flask:
 -- repaso visualmente lo logrado con flask con la idea de retomar la
    programacion, con el concepto que salir del tutorial hell, o sea
    con el ejemplo de haber logrado la hermosa funcion traslativa de
@@ -5469,8 +5578,7 @@ timido comienzo muy debil en estudio de js.
    pero de la mano del proyecto, sino se pierde interes y en realidad
    nunca se hace nada. 
 ** semana [2020-10-11 Sun]
-** semana [2020-10-18 Sun]
-   :Flask:
+** semana [2020-10-18 Sun] :Flask:
  Recien hoy [2020-10-23 Fri] me siento por primera vez despues de casi
  mes y medio y hago el deploy a heroku y funciona aparentemente bien y
  rapido la aplicacion tanto en busqueda como en la muestra de datos y
@@ -5481,26 +5589,22 @@ timido comienzo muy debil en estudio de js.
  Ahora es un despegue, un gran aliciente a seguir desarrollando, ya
  que se puede ver lo que se hace directamente desde un resultado
  real. 
-** semana [2020-10-25 Sun]
-   :Flask:JavaScript:
+** semana [2020-10-25 Sun] :Flask:JavaScript:
  de a poquito se va comenzando pero pienso que la necesidad de
  tabulator o sea javascript en el entorno de flask complica todo.
-** semana [2020-11-01 Sun]
-   :JavaScript:
+** semana [2020-11-01 Sun] :JavaScript:
   En realidad son pocas las semanas que le he dedicado a js (7) y
   varias de las que estan anotadas ahi, son dentro del receso de bajon
   por la obra y por el bajon subsiguiente, por lo cual pienso que
   tanto flask como js tienen un gran potencial para desarrollar
   todavia. 
-** semana [2020-11-08 Sun]
-   :Svelte:
+** semana [2020-11-08 Sun] :Svelte:
  empiezo el jueves con svelte para aprenderlo desde la base y luego
  poder aplicarlo al proyecto, como forma de salirse del bajon que
  supone el parate de flask. En cierta forma viene a ser como decia ih,
  estudiar o meterse con algo computacional por mas que no tenga
  relacion directa con el negocio.
-** semana [2020-11-15 Sun]
-   :Svelte:TailwinCSS:
+** semana [2020-11-15 Sun] :Svelte:TailwinCSS:
  sigo pensando que flask-python es algo grandioso que es el mejor
  framework que tuve, y que tendria que seguir aprendiendolo. aunque
  sea de a poco. Y svelte es algo que se agrega.
@@ -5511,42 +5615,32 @@ timido comienzo muy debil en estudio de js.
  poco a svelte. Le entro un poco a tailwin pero veo que es bastante
  complejo y creo que no vale la pena complicarse por ahora en algo que
  es marginal por el momento
-** semana [2020-11-22 dom]
-   :Svelte:Flask:JavaScript:
+** semana [2020-11-22 Sun] :Svelte:Flask:JavaScript:
     termine un crud en svelte y los primeros palotes ya los se hacer,
     ahora me falta mucho de flask para ver si puedo mejorar la
     implementacion y ver en donde puede entrar js o svelte en el
     proyecto.
-** semana [2020-11-29 dom]
-   :JavaScript:Vue:CSS:
+** semana [2020-11-29 Sun] :JavaScript:Vue:CSS:
  Esta fue la semana bisagra con javascript, en la cual los capitulos
  de practica del dom, en el curso de jonmircha empezaron a dar sus
  resultados y consegui tener resultados practicos en mi desarrollo en
  particular, el totalizador. A diferencia de hace dos semanas con
  svelte que estudie algo que no pude concretar en la practica, con js
  estoy pudiendo hacer cosas que realmente sirven a la practica concreta
-** semana [2020-12-06 dom]
-   :JavaScript:CSS:Flask:
-** semana [2020-12-13 dom]
-   :JavaScript:Vue:
+** semana [2020-12-06 Sun] :JavaScript:CSS:Flask:
+** semana [2020-12-13 Sun] :JavaScript:Vue:
  Esta fue una semana rotunda de Vue, comenze a "estudiarlo" el martes,
  el miercoles y jueves, ya habia aplicado en fechador solucionando
  problemas insalvables con js, y el vie y sab ya adelante bastante de
  pasarpagos, creando cosas que antes de empezar no creia que fueran posibles.
-** semana [2020-12-20 dom]
-   :Vue:
-** semana [2020-12-27 dom]
-   :Vue:
-** semana [2021-01-03 dom]
-   :Vue:
-** semana [2021-01-10 dom]
-** semana [2021-01-17 dom]
-** semana [2021-01-24 dom]
-   :Python:
-** semana [2021-01-31 dom]
-   :Python:
-** semana [2021-05-02 dom]
-   :Vue:Flask:Bulma:
+** semana [2020-12-20 Sun] :Vue:
+** semana [2020-12-27 Sun] :Vue:
+** semana [2021-01-03 Sun] :Vue:
+** semana [2021-01-10 Sun]
+** semana [2021-01-17 Sun]
+** semana [2021-01-24 Sun] :Python:
+** semana [2021-01-31 Sun] :Python:
+** semana [2021-05-02 Sun] :Vue:Flask:Bulma:
    vuelvo a arrancar luego de tres meses de inactividad en el proyecto
    vue/flask.
    lo unico que me gustaria es seguir en el proyecto hasta el final,
@@ -5573,8 +5667,7 @@ timido comienzo muy debil en estudio de js.
    la marcha. No hay tiempo para perfeccionar mucho la teoria pero
    creo que el entusiasmo crece cuando vez que las paginas van
    quedando hechas y funcionan bien.
-** semana [2021-05-09 dom]
-   :Vue:Flask:Bulma:
+** semana [2021-05-09 Sun] :Vue:Flask:Bulma:
    comienza la semana con una gran transformacion a Bulma dejando
    atras boostrap.
    un tema importante de la semana es el evitar que se cuelgue el
@@ -5585,12 +5678,10 @@ timido comienzo muy debil en estudio de js.
    sigo asi en un mes termino toda la programacion y tendria que
    empezar a probarla, con lo cual tendria que ver los errores y
    faltantes. 
-** semana [2021-05-16 Sun]
-   :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
+** semana [2021-05-16 Sun] :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
    sigue el trabajo a buen ritmo con fecha cierta de terminacion, si
    sigo con inspiracion, creo que en un par de meses.
-** semana [2021-05-23 Sun]
-   :Flask:Vue:Bulma:
+** semana [2021-05-23 Sun] :Flask:Vue:Bulma:
    sigo en la busqueda de un marco para desarrollo que sea monorepo y
    basado en nodejs.
    despues de media semana de caos y desgastante giro por un monton de
@@ -5620,8 +5711,7 @@ timido comienzo muy debil en estudio de js.
    errores, e ir llevando en paralelo las dos aplicaciones por un
    tiempo hasta tenerle confianza.  (de ultima puedo hacer que la cami
    pase los papeles en tcl, y yo los paso en la nueva). 
-** semana [2021-05-30 Sun]
-   :Alpine:CSS:Javascript:
+** semana [2021-05-30 Sun] :Alpine:CSS:Javascript:
    si bien es cierto que sigo con el stack flask/vue/bulma, aparecio
    alpine y me gusto mucho y es compatible por lo cual un par de
    paginas las hice con el incluso con mas ventaja sobre vue. 
@@ -5630,16 +5720,11 @@ timido comienzo muy debil en estudio de js.
    me gusta mas como me quedo que la que me dio bulma. Y por ultimo
    javascript es lo que se lleva todo el interes programatico y de
    aprendizaje estos dias. 
-** semana [2021-06-06 Sun]
-   :mysql:
-** semana [2021-06-13 Sun]
-   :mysql:Alpine:Javascript:
-** semana [2021-06-20 Sun]
-   :Bulma:CSS:NodeJs:
-** semana [2021-06-27 Sun]
-   :Flask:Alpine:CSS:
-** semana [2021-07-04 Sun]
-   :Python:
+** semana [2021-06-06 Sun] :mysql:
+** semana [2021-06-13 Sun] :mysql:Alpine:Javascript:
+** semana [2021-06-20 Sun] :Bulma:CSS:NodeJs:
+** semana [2021-06-27 Sun] :Flask:Alpine:CSS:
+** semana [2021-07-04 Sun] :Python:
    en este momento me planteo la cuestion de como seguir
    avanzando. Una idea es el monotema, es decir suspender el
    desarrollo, o sea intentar meter el responsive en el romitex.xyz y
@@ -5663,36 +5748,32 @@ timido comienzo muy debil en estudio de js.
    pasar todo en fl6. PD: se soluciono el problema y deja la
    adaptacion restante como una tarea menor. Via libre para seguir
    estudiando.
-** semana [2021-07-11 Sun]
-   :python:english:
+** semana [2021-07-11 Sun] :python:english:
    todavia estoy en duda sobre que camino emprender. Anoche pensaba en
    una tanda de recapacitacion mas esquematica que quizas sea la clave
    de llegar mas profundo en lo que tenemos que hacer.
    pienso que agregar mas horas de estudio pueden agregar conocimiento
    siempre que sean efectivas 
-** semana [2021-07-18 Sun]
-   :python:english:emacs:vim:
+** semana [2021-07-18 Sun] :python:english:emacs:vim:
    Por lo menos la semana pasada rellene bien los tiempos con
    intervalos de estudio bastante frecuentes y descubri algunos
    metodos que por el momento son convenientes como p.e. la lectura de
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
    tambien bash pero necesarios ambos, muy necesarios. 
-** semana [2021-07-25 Sun]
-   :python:english:bash:vim:i3:
-** semana [2021-08-01 Sun]
-   :python:vim:english:i3:
-** semana [2021-08-08 Sun]
-   :python:vim:english:i3:
-** semana [2021-08-14 Sat]
-   :Javascript:python:emacs:english:i3:
-** semana [2021-08-22 Sun]
-   :python:emacs:english:i3:
-** semana [2021-08-29 Sun]                                 :emacs:english:i3:
-** semana [2021-09-05 Sun]                  :Javascript:TCL:emacs:english:i3:
-** semana [2021-09-12 Sun]                  :Javascript:vim:emacs:english:i3:
-** semana [2021-09-19 Sun]                        :Javascript:vim:english:i3:
-** semana [2021-09-26 Sun]                        :Javascript:vim:english:i3:
+** semana [2021-07-25 Sun] :python:english:bash:vim:i3:
+** semana [2021-08-01 Sun] :python:vim:english:i3:
+** semana [2021-08-08 Sun] :python:vim:english:i3:
+** semana [2021-08-14 Sat] :Javascript:python:emacs:english:i3:
+** semana [2021-08-22 Sun] :python:emacs:english:i3:
+** semana [2021-08-29 Sun] :emacs:english:i3:
+** semana [2021-09-05 Sun] :Javascript:TCL:emacs:english:i3:
+** semana [2021-09-12 Sun] :Javascript:vim:emacs:english:i3:
+** semana [2021-09-19 Sun] :Javascript:vim:english:i3:
+** semana [2021-09-26 Sun] :Javascript:vim:english:i3:
+** semana [2021-10-03 Sun] :Javascript:emacs:english:i3:
+   comenzando a leer detenidamente el tutorial-javascript, dia
+   miercoles python-hell comienzo a leer en paralelo Python The True Book.
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -6854,3 +6935,21 @@ sudo. El resto todo igual y bien.
    no se puede saber bien cual pago corresponde a cual venta
 ** DONE filtrar si se puede los planes de pagos del listado de venta
    para que no confundan al sumar las ventas o al observar las ventas
+* cambio de ubicacion lugar de trabajo 
+** dormitorio
+*** pro
+**** mayor privacidad para concentracion
+     en especial a la hora de la mañana ya sea en escenario ih-encasa
+     viendo tele toda la mañana en el living o haciendo cosas, o
+     ih-trabajando que a la espera que venga el Fede se hacen las 11hs.
+*** contra
+**** pierdo debian 11
+     pq no andan los pendrives de wifi en debian, tendria que volver a
+     mint o a ubuntu.
+**** pierdo el wifi cercano
+     vuelvo al wifi por aire un poco mas lento que el actual
+** living
+*** pro
+**** luminosidad de la ventana
+     ver para afuera estar en otro ambiente que no sea el dormitorio
+*** contra

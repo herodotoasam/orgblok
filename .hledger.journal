@@ -7515,3 +7515,207 @@ D $1000.00
 2021-09-30 farmacia hp cortypiren b 40
     expenses:gastos medicos:farmacia            2000
     assets:caja                                -2000
+
+2021-10-01 comida
+    expenses:comida            2000
+    assets:caja               -2000
+
+2021-10-01 farmacia
+    expenses:gastos medicos:farmacia             800
+    assets:caja                                 -800
+
+2021-10-03 comida
+    expenses:comida             355
+    assets:caja                -355
+
+2021-10-03 ih mesada
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021-10-03 dif
+    expenses:diferencia arqueo             600
+    assets:caja                           -600
+
+2021-10-04 ingresos
+    assets:reserva                  100000
+    income:retiro sociedad         -100000
+
+2021-10-04 saco reserva
+    assets:caja             100000
+    assets:reserva         -100000
+
+2021-10-04 mesada ih
+    expenses:isabel            2000
+    assets:caja               -2000
+
+2021-10-04 mesada cami
+    expenses:cami:mesada            3000
+    assets:caja                    -3000
+
+2021-10-04 comida cami
+    expenses:cami:comida            4000
+    assets:caja                    -4000
+
+2021-10-04 comida
+    expenses:comida             750
+    assets:caja                -750
+
+2021-10-04 fibertel
+    expenses:servicios:fibertel            4098
+    assets:caja                           -4098
+
+2021-10-04 ecogas 2021/04
+    expenses:servicios:ecogas            4667
+    assets:caja                         -4667
+
+2021-10-04 vps donweb
+    expenses:personal:varios            $399
+    assets:caja                        $-399
+
+2021-10-04 consulta telefonica psiquiatra
+    expenses:gastos medicos:psiquiatria             320
+    assets:caja                                    -320
+
+2021-10-04 lucia villamoro
+    expenses:ih        $1741.66
+    assets:caja       $-1741.66
+
+2021-10-04 ortopedia dimar ferula esguinze
+    expenses:gastos medicos:farmacia            4025
+    assets:caja                                -4025
+
+2021-10-04 ih rioshop
+    expenses:isabel          2108.3
+    assets:caja             -2108.3
+
+2021-10-04 carusso
+    expenses:servicios:carusso         2008.58
+    assets:caja                       -2008.58
+
+2021-10-04 zapatillas ih
+    expenses:isabel            2180
+    assets:caja               -2180
+
+2021-10-04 comida hiper
+    expenses:comida         5746.41
+    assets:caja            -5746.41
+
+2021-10-04 cami crocs
+    expenses:cami:extras            5799
+    assets:caja                    -5799
+
+2021-10-04 netflix
+    expenses:servicios:netflix        $1097.13
+    assets:caja                      $-1097.13
+
+2021-10-04 seguro auto
+    expenses:servicios:la caja seguros           $3988
+    assets:caja                                 $-3988
+
+2021-10-04 comida hiper
+    expenses:comida         1358.72
+    assets:caja            -1358.72
+
+2021-10-04 tablet fravega
+    expenses:personal:varios           $3422
+    assets:caja                       $-3422
+
+2021-10-04 afeitadora fravega
+    expenses:personal:varios            $622
+    assets:caja                        $-622
+
+2021-10-04 luces cami
+    expenses:casa:mantenimiento         $223.13
+    assets:caja                        $-223.13
+
+2021-10-04 construluz romi
+    expenses:casa:mantenimiento         $598.62
+    assets:caja                        $-598.62
+
+2021-10-04 hiper libertad
+    expenses:comida         $604.72
+    assets:caja            $-604.72
+
+2021-10-04 hiper libertad
+    expenses:comida          958.61
+    assets:caja             -958.61
+
+2021-10-04 rimo
+    expenses:ih           $1748
+    assets:caja          $-1748
+
+2021-10-04 samsung A51
+    expenses:personal:celular        $3749.92
+    assets:caja                     $-3749.92
+
+2021-10-04 heladera samsung
+    expenses:casa:mantenimiento         $7566.5
+    assets:caja                        $-7566.5
+
+2021-10-04 tadicor z-ago
+    expenses:comida        $6028.13
+    assets:caja           $-6028.13
+
+2021-10-04 maidana z-ago
+    expenses:ih         $804.21
+    assets:caja        $-804.21
+
+2021-10-04 farmacity z-ago
+    expenses:gastos medicos:farmacia         $1938.7
+    assets:caja                             $-1938.7
+
+2021-10-04 moda marques z-set
+    expenses:isabel           $1063
+    assets:caja              $-1063
+
+2021-10-04 hiper libertad z-set
+    expenses:comida            $756
+    assets:caja               $-756
+
+2021-10-04 rio shop z-set
+    expenses:isabel         $1181.5
+    assets:caja            $-1181.5
+
+2021-10-04 lucia villamoro z-set
+    expenses:ih           $8853
+    assets:caja          $-8853
+
+2021-10-04 youtube premium
+    expenses:servicios:youtube             473
+    assets:caja                           -473
+
+2021-10-04 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos            1384
+    assets:caja                                               -1384
+
+2021-10-04 farmacia hp
+    expenses:gastos medicos:farmacia            1980
+    assets:caja                                -1980
+
+2021-10-04 dif
+    expenses:diferencia arqueo          143.37
+    assets:caja                        -143.37
+
+2021-10-07 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021-10-07 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021-10-07 gatos
+    expenses:comida:gatos            6650
+    assets:caja                     -6650
+
+2021-10-07 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021-10-07 ih
+    expenses:isabel             300
+    assets:caja                -300
+
+2021-10-07 comida
+    expenses:comida             800
+    assets:caja                -800

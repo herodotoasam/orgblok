@@ -117,7 +117,56 @@
     Esperemos que esto lo motive a cambiar y a arrancar lo suficiente.
     [2021-09-28 Tue] arranco el lunes a duras penas y a pesar de que vendieron 
     bastante bien, el martes ya echo el faltaso.
-
+** Octubre
+*** [2021-10-01 Fri]
+    hoy por hoy lo mas importante es sacar adelante la cortyterapia o
+    mas bien el withdrall. Estoy bastante asustado por los efectos que
+    me puede causar el migral, y no quiero tomar mas migral en forma
+    desenfrenada como hasta ahora.
+*** [2021-10-02 Sat]
+    desafortunadamente a pesar de que los dos ultimos withdrall los
+    curse con emacs-orgmode no tengo un registro claro al cual acudir
+    como el que estoy haciendo ahora.
+*** [2021-10-04 Mon]
+    hoy me levante temprano y bien, fui a pagar las boletas, la lleve
+    a ih, y luego pase los asientos de la tarjeta, delibere sobre irme
+    a la pieza y conclui que no puedo por el tema debian-wifi, y probe
+    un sistema de hacer todo la parte js de un html por separado y no
+    funciono en forma facil y clara, son las doce y aca estoy.
+    almorce y la lleve a la Romi al cerro, muchisimo transito, y luego
+    las lleve a las chicas al Fede. Decidi descansar un poco. Al menos
+    acostarme a leer un poco.
+* arreglos habitacionales
+  [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
+  ir limpiando y minimizando un poco.
+** TODO ropa de invierno 
+   separar la ropa de invierno usable en los esquemas actuales y esa
+   poner en las cajas azules y hacer una bolsa de plastico sorpresa
+   encintada correctamente y subirla al entrepiso. Ahi tambien iria el
+   contenido de la caja de arriba del placard y los pantalones grandes
+   que no uso.
+** DONE libros - mesa de computacion
+   poner la mesa de computacion en su sitio con los libros acomodados
+   en la base, lo que permitira barrer y pasar la mopa cuando vengan
+   los alacranes.
+   Hecho [2021-10-07 Thu]. Se acomodaron los libros, quedan las
+   maquinas arriba para su acomodo en su momento, pero es limpiable el
+   sitio de otra manera.
+** TODO computadoras
+   o bien ponerlas en el entrepiso forradas con bolsa de plastico y
+   encintada o arriba del placard en el lugar que deje la caja idem.
+** TODO cajas arriba del placard
+   las de computacion al entrepiso y la de recuerdos abajo del placard.
+** TODO romper recibos y tirar
+   tirar los recibos que saque al patio, puede ser mojandolos y
+   poniendolos en bolsa un poco cada dia como hacia en el centro
+** TODO escritorio de-cluttered
+   desocupar el cajon de abajo de las boletas de pago, filtrar, tirar,
+   nepakear, y guardar en el placard o en el entrepiso.
+** TODO centro del placard papeles importantes
+   revisar y acomodar esos papeles y guardar los importantes en el
+   placard dejando libre esa parte para ropa.
+** TODO acomodar el primer cajon del placard
 * registro de sintomas (explain)
 ** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
@@ -256,16 +305,39 @@
 ** [2021-09-29 Wed] tensiones durante el dormir
    esta madrugada me desperte muy tensionado, y me obligue a relajar y pude 
    seguir durmiendo confortablemente.
+** [2021-10-04 Mon] perdida de la voz
+   siento como si hubiera esforzado la voz un monton y no pudiera
+   hablar a volumen normal. 
+** [2021-10-06 Wed] destellos de luz
+   media mañana cuando estaba pasando los papeles no podia fijar la
+   vista en la pantalla pq se me formaban aureolas muy pronunciadas
+   romboides que me dificultaban la fijacion de la vista, tanto con
+   lentes como sin lentes, me recuesto en oscuridad un rato, pq en el
+   medio me llamo Fabian como tres veces, y al rato descubri que se
+   habia ido, Habra durado una media hora.
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
+| Fecha            | Cy | Mig | Dur  | otros medicamentos            |
+| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |
+| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |
+| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |
+| [2021-10-03 Sun] | 40 | no  |      |                               |
+| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |
+| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |
+| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |
+| [2021-10-07 Thu] | 40 |     |      |                               |
+|                  |    |     |      |                               |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
    a las 8hs y topiramato+silbelium, y migral de rescate si hace
    falta.
+   Cambio sobre la marcha, y decido agregar los 20mg de la tarde, y en
+   lo posible evitar el migral de rescate por ahora.
 
     
 ** [2021-09-30 Thu] 8hs 20mg
+   :Paracetamol:
     tome un paracetamol 1gr a las 14hs. Mucho dolor de cintura, cadera y de hombros 
     menos, dolor oseo, tipico del corticoide. E incipiente dolor de cabeza.
     por la siesta y tarde el dolor de cabeza se hizo presente en forma
@@ -280,7 +352,112 @@
     22hs. Dormi bastante normal, no bien, ni mal.
     Desperte con dolor articular de mandibula que se fue al ratito de
     levantado.
-** [2021-10-01 Fri] 7hs 20mg
+** [2021-10-01 Fri] 7hs 20mg 18hs 20mg
+   :Naproxeno:Paracetamol:Reliveran:Clonazepan:
     Luego de las actividades por hora y media de la salida de ih de
     viaje no me dolio nada ese dolor de base que tenia cuando estaba
     despertando.
+    10hs tomo paracetamol 1 gr. Comienzo a sentir los dolores de cadera y una 
+    incipiente migraña lateral izquierda en la frente por ahora de nivel muy 
+    bajo.
+    me quede reposo toda la mañana durmiendo mayormente y no se
+    desarrollo ninguna migraña, me levante a almorzar y todo bien,
+    pero estoy bastante flojito de fuerzas, en especial de fuerza de
+    voluntad.
+    Luego del almuerzo siguen leves molestias.
+    Aguante hasta las cuatro que se fue Fabian alli ya senti molestias
+    mas grandes y me acoste. La Romu me trajo naproxeno y me tome un
+    naproxeno 500 que no me hizo ningun efecto.
+    Se me fue desarrollando una migraña izquierda bien determinada
+    pero soportable que al menos me dejaba dormir y no estaba
+    acompañada de sintomas oseos. Pero si de nauseas, y tome 40 gotas
+    de reliveran.
+    Me levante unos minutos cuando vinieron los chicos y luego me
+    acoste, y luego se fueron de la casa y me acoste bien, y no cene
+    nada pq seguia la nausea, tome las pastillas de la noche y un poco
+    de agua, y recien tipo 5am fue aflojando el dolor, quedando solo
+    una resaca.
+** [2021-10-02 Sat] 7hs 20mg 18hs 20mg
+   :Naproxeno:Clonazepan:
+   Me levanto a tomar el corticoide, y trato de quedarme levantado o
+   sea de hacer toda la rutina del levantarse, no ir a tomarlo y
+   acostarse de nuevo. La resaca parecia estar alli y no se iba y
+   amenazaba con mas.
+   Me fui a comprar pan con el auto. Barri toda la casa, y cuando iba
+   a intentar hacer una tarea mas grande me di cuenta que el dolor
+   habia aumentado ya. Me tome un naproxeno 500 que resulto inutil
+   como el del dia anterior.
+   Al principio parecia una jaqueca muy fuerte mas no una migraña bien
+   determinada con preponderancia a un costado sino que abarcaba como
+   una especie de banda toda la cabeza en derredor a la altura de la
+   terminacion del cuero cabelludo, pero luego surgiron algunas notas
+   del lado izquierdo no muy determinadas como ayer pero surgieron.
+   Pude dormir felizmente todo el dia, desde las diez hasta las doce
+   que me levante a comer y luego me tome un clonazepan SL para seguir
+   durmiendo toda la siesta y dormi hasta las 18hs.
+   A esta hora estoy casi sin dolor solo con una resaca a nivel
+   izquierdo, pero quien sabe como puede evolucionar.
+** [2021-10-03 Sun] 7.30hs 20mg 20hs 20mg
+   dormi toda la noche sin dolor alguno, en forma totalmente normal.
+   Ahora veremos al levantarme que tengo que pasar los papeles que pasa.
+   Bueno todos los papeles pasados bien. son casi las 10hs y sigo
+   bien, pero estoy muy cansado.
+   El cansancio se me fue, fui al Fede y me volvi no por cansancio ni
+   por dolor sino por el aburrimiento de siempre. Aca me acoste a leer
+   y lei 3hs el tutorial, entre otras cosas. Luego no me podia
+   dormir. Pero no me dolio nada de nada, ni tampoco durante la noche.
+** [2021-10-04 Mon] 8hs 20mg 17hs 20mg
+   :Ibuprofeno:
+   me levanto optimo, con energia y optimismo sin dolores por el
+   momento.
+   estuve muy bien hasta las 15hs. La lleve a la Romi al cerro a
+   buscar la tarjeta con un trafico intenso, quizas eso me causo mucho
+   estres.
+   Fui un rato al Fede despues. 
+   Y se me desarrollo un dolor, tome un ibuprofeno que no me hizo
+   ningun efecto y me dormi una siesta y como hacia las
+   cinco era una migraña izquierda completa, adelante la toma del
+   segundo y tome un te. 
+   A la hora mas o menos estaba leyendo y puedo leer unas cuantas
+   horas ya sin dolor el resto del dia.
+** [2021-10-05 Tue] 8hs 20mg 17hs 20mg
+   dormi bien anoche, sin dolor, y me costo levantarme pq tenia mas
+   sueño que dias anteriores.
+   iba a quedarme en la cama hasta las 9 pero decidi levantarme y
+   empezar a pasar los papeles para luego ir al banco y poner al dia
+   mis obligaciones.
+   Equilibre el levantarme temprano con un mal desayuno con un cafe y
+   tostadas con queso, y me fui al banco sacandome ya un peso de
+   encima.
+   pasando papeles siento cansansio general y un poco de soñolencia
+   pero esa sensacion de que has dormido poco en la noche.
+   Como sintoma de la cortyterapia pongo perdida de la voz.
+   Haciendo una tarea rutinaria normal como colgar la ropa siento
+   cansancio inusual, me voy a reposar un poquito. 
+   tipo 14hs me comienza una migraña izq. y me tomo una SL y me duermo
+   una siesta.
+   Resulto muy leve y aunque adelante la toma del cort. no sufri
+   demasiado ni tampoco a la noche.
+** [2021-10-06 Wed] 8hs 20mg 17hs 20mg
+   me levante tome y me acoste desayune mijo en la cama, y luego me
+   dormi una hora y media mas. Me levante bien, aunque tengo una
+   ligera molestia basica no llega a nada.
+   Cuando me levantaba pensaba en una carencia de willpower, pero hice
+   las series excepcionalmente energicas.
+   la mañana transcurre bien, sin contar con el destello de luz, y
+   despues de comer tipo 13hs comienza de a poco la jaqueca.
+   Lo mismo lleve a ih al Fede, y al volver me puse a la compu estas
+   dos horas estudiando quebrando asi la falta de willpower, pero ya
+   me duele un poco mas.
+   dormi un poco la siesta, tome adelantado el segundo y luego me puse
+   a leer hasta las 20hs que fui a cenar al Fede.
+** [2021-10-07 Thu] 8.30hs 20mg 16hs 20mg
+   dormi normal anoche y me levanto bien de energia y animos, en el
+   trasfondo parece que tuviera una molestia pero no pasa a mayor por
+   ahora.
+   el mismo proceso que los ultimos dias, una jaqueca tardera que se
+   va acumulando a estas horas a veces antes a veces despues, no muy
+   fuerte pero te impide el estudio, en especial si es intenso. A las
+   16.30 que termine el segundo pomodoro python, la lleve a ih a la
+   nevi a que vendiera sus cosas, y luego compre pan y otras cosas,
+   pero termine con dolor de cabeza.
