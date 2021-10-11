@@ -136,6 +136,22 @@
     almorce y la lleve a la Romi al cerro, muchisimo transito, y luego
     las lleve a las chicas al Fede. Decidi descansar un poco. Al menos
     acostarme a leer un poco.
+*** [2021-10-09 Sat]
+    tengo muchos conflictos existenciales que derivan en caidas de
+    animo, luego cuando tenes un chispaso como el de esta tarde te
+    pones de otro animo o pensas que podes lograr otras cosas, por mas
+    que la meta este muy lejana. Me refiero a que me sente a las 5 y
+    ya son las 8.30 casi y estoy en la maquina, con sus
+    correspondientes descansos logicos, y programe y practique ingles
+    y escribi un poco y todo bien. 
+    El tema es si "el estudio" me aleja o acerca a una normalizacion,
+    o sea ha sido un factor que ha ocupado mucho mi mente ultimamente
+    y me ha sacado muchos pensamientos negativos. Un poco me frustra
+    la falta de avance en la cantidad de tiempo dedicada y/o absorvida
+    en el tema cosa que me parece el mayor problema. Como el gran
+    problema de la mañana cuando terminas la rutina de levantarte y te
+    sentas a la maquina y no tenes ganas de hacer nada, tiene que
+    haber algo que rompa esa rutina y te haga empezar con algo util.
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
@@ -167,6 +183,7 @@
    revisar y acomodar esos papeles y guardar los importantes en el
    placard dejando libre esa parte para ropa.
 ** TODO acomodar el primer cajon del placard
+** TODO purgar y reacomodar las cajas de chucherias
 * registro de sintomas (explain)
 ** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
@@ -315,6 +332,14 @@
    lentes como sin lentes, me recuesto en oscuridad un rato, pq en el
    medio me llamo Fabian como tres veces, y al rato descubri que se
    habia ido, Habra durado una media hora.
+   [2021-10-09 Sat] estando todavia acostado y sin haber visto
+   pantalla todavia me empezo el destello en forma romboidal grande,
+   duro unos minutos y se fue.
+** [2021-10-10 Sun] mordida de lengua
+   se producen con una dentellada violenta y unica sin relacion a lo
+   que estas soñando, mas cerca de la hora de levantarse, en este caso
+   a posteriori de tomar el corti y acostarme de nuevo. (Ya he tenido
+   casos, ahora los voy a registrar)
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
@@ -327,6 +352,10 @@
 | [2021-10-05 Tue] | 40 | si  | 2hs  |                               |
 | [2021-10-06 Wed] | 40 | si  | 2hs  |                               |
 | [2021-10-07 Thu] | 40 |     |      |                               |
+| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |
+| [2021-10-09 Sat] | 20 |     |      |                               |
+| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |
+| [2021-10-11 Mon] | 20 |     |      |                               |
 |                  |    |     |      |                               |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
@@ -461,3 +490,36 @@
    16.30 que termine el segundo pomodoro python, la lleve a ih a la
    nevi a que vendiera sus cosas, y luego compre pan y otras cosas,
    pero termine con dolor de cabeza.
+** [2021-10-08 Fri] 8hs 20mg 16hs 20mg
+   bien en general solo con una ligera molestia que no perturba la
+   lectura ni nada pero esta ahi. Lo mismo ayer me pase la tarde-noche
+   acostado mas en plan de vago-lectura que otra cosa. 
+   muy vago hoy, quizas influyera el ambiente de dia feriado, que me
+   levante a las 10.30hs, que tenia sueño a las 12hs etc. La cosa que
+   me dormi la siesta un hora y pico y me desperte al borde de las
+   16hs con jaqueca, y "tenia la dosis por delante", no me volvi a
+   dormir sino que practique anki y lei un capitulo de js, y se me fue
+   el dolor, la pregunta es si hubiera pasado igual sin dosis, y que
+   pasara dentro de dos dias cuando ya baje la dosis.
+** [2021-10-09 Sat] 7.30hs 20mg
+   dormi bien anoche a pesar de la preocupacion y luego del corti
+   dormi bastante. Me agarro un destello que se fue a los diez
+   minutos. y me levante bien.
+   Estoy tratando de ver que pasa hasta donde se puede llegar a
+   manifestar si se manifiesta dolor y que relacion tiene con la
+   segunda dosis.
+   Al final transcurrio tarde noche y no tome segunda dosis, y
+   desperte bien.
+** [2021-10-10 Sun] 8hs 20mg 16hs 20mg
+   me levante muy contracturado para hacer las series pq dormi hasta
+   muy tarde, las 10.30hs. Pero bien. 
+   comi a las 13hs y luego una siesta pero ya se adelantaba un dolor
+   basico pero molesto, como el dia no es tranquilo, le puse la
+   segunda dosis, y me quede levantado y cambiado, paso una hora y
+   solo quedo estacionario.
+   Sin hacerle mas caso al dolor, fui al Fede y me quede hasta la
+   noche y el dolor se termino olvidando practicamente.
+** [2021-10-11 Mon] 8hs 20mg
+   me fui a dormir luego del corti pq es feriado, sin culpa y dormi
+   hasta las 10.30hs pesadisimo dificil de levantarme, hinchado, pero
+   sin dolor al menos hasta ahora.

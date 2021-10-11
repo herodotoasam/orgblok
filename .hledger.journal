@@ -7719,3 +7719,27 @@ D $1000.00
 2021-10-07 comida
     expenses:comida             800
     assets:caja                -800
+
+2021-10-10 cami cuotas
+    expenses:cami:extras            3900
+    assets:caja                    -3900
+
+2021-10-10 dif
+    expenses:diferencia arqueo            1000
+    assets:caja                          -1000
+
+2021-10-11 sandwich
+    expenses:comida           $1260
+    assets:caja              $-1260
+
+2021-10-11 devolucion prestamo romi
+    assets:caja                  45000
+    assets:deudas romi          -45000
+
+2021-10-11 reserva
+    assets:reserva           45000
+    assets:caja             -45000
+
+2021-08-11 prestamo dolares Fede
+    assets:deudores                   u$s 2700
+    assets:reserva u$s            u$s   -2700 

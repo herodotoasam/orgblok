@@ -4554,7 +4554,7 @@ primer mm hecho luego de la obra sobre array
     certificar un conocimiento un poco mas avanzado del lenguaje.
     
 ** 2021-Octubre
-*** [2021-10-01 Fri]
+*** [2021-10-01 Fri] articulos en ingles
     muy instructivo el articulo sobre metodos de estudio.
     anoche lei un poco de js-tutorial en español muy completo.
     Hay que notar que en estos dias estoy de tratamiento.
@@ -4686,6 +4686,93 @@ primer mm hecho luego de la obra sobre array
     Hoy dos pomodoros seguidos muy enchufado, pero de python!!,
     positivo. y eso que en un entorno de tranquilidad excesiva pero de
     dolor de cabeza.
+    
+    Corte la posibilidad de editar orgmode en vim. Todo bien con vim,
+    si quiero usarlo para programar como hoy cosas chicas y rapidas o
+    luego cosas mas grandes no importa pero orgmode se queda con emacs
+    forever.
+    No tiene sentido que el vim-feel solo sirva para mal-procesar y
+    arruinar archivos orgmode. Es cierto que emacs "abre" 2 segundos
+    despues, pero luego es exactamente igual la experiencia con la
+    diferencia que en orgmode estamos en casa y no hay problemas.
+*** [2021-10-08 Fri] ruby-hell -> +javascript +english
+    desde anoche tuve un gran rubi/rail-hell en realidad empezo como
+    ruby-hell y como la unica aplicacion viable del ruby es rails
+    siguio con rails. La idea era recuperar el conocimiento que ya
+    tengo sobre el tema pq no creo que este totalmente olvidado sino
+    que solo hay que rescatarlo y comenzar a practicar con rails con
+    los nuevos conocimientos adquiridos este ultimo año. En especial
+    de javascript, de vue. 
+    No es la primera vez que tengo un hell, los hay y hubo de todo
+    tipo vim,emacs,tcl,ruby,python,lua y en realidad no se concretan
+    javascript sigue adelante despacito aprendiendose de a poco para
+    comprender mas a fondo su esencia.
+    Por eso esta mañana pense que mejor seria seguir con la lectura de
+    javascript y en su profundizacion y meterle mas con el ingles. O
+    sea hacer un concentrado ingles-javascript para ver que pasa por
+    unos dias, dejando para despues incluso python para no interferir.
+    
+    Con las lecturas se me desenvuelve uno o dos conceptos grandes por
+    dia de javascript que no comprendia bien antes.
+*** [2021-10-09 Sat] metodos para english
+    anoche esta mañana se me ocurrieron varias cosas:
+    1. hacer los mm grandes o chicos en el cuadernito
+    2. hacer un mm de las palabras de la fase actual que estoy
+       estudiando para tenerla mas a mano y eso ayudara a la rapidez
+       del aprendizaje.
+    3. practicar haciendo oraciones con las palabras del aprendizaje y
+       chequearlas en el traductor para ver si estan bien.
+    4. puedo pasar si quedan bien los mm que tengo que son tres al
+       cuadernito.
+    Similarmente se podria aplicar a javascript con el cuaderno-agenda
+    mas grande, me parece mas practico y usable que las hojas sueltas
+    que nunca se usan.
+    
+    Lo mismo hace falta un enorme esfuerzo de voluntad para pasar de
+    la simple lectura o practica de palabras a la escritura, hacer un
+    mm, repasar o alguna otra tecnica.
+    
+    Estoy atravesando una meseta con javascript, no estoy tan animado
+    como hace unos dias.
+    
+    HOy una sesion de programacion de mantenimiento, y al principio un
+    poco duro, quizas tenga que hacerlo mas seguido para no perder
+    practica en este sistema pq sino estamos fritos, y tambien esta la
+    posibilidad de pasar a alpine todo, saliendose de vue
+    definitivamente. Y de paso dejar la aplicacion mas uniforme de
+    mantener, sino en un tiempo me va a tocar mantener algo de vue y
+    va a ser dificultoso.
+    
+    Fructiferas dos horas de practica de ingles en general. Primero
+    repase deck uno y dos, luego me puse a leer un articulo sacando
+    los terminos. En el medio hice un par de mapitas con terminos
+    similares sobre los cuales habia tenido problema en la revision y
+    al cargar las palabras. Muy bien, primer dia y llevo 5 mm. Muy
+    practico pq pueden ser hecho de cualquier dimension, no es como en
+    la hoja A4 que te lleva a una cierta cantidad de material.
+*** [2021-10-10 Sun]
+    anoche hice un detour hacia el capitulo 9 Classes del libro,
+    bastante interesante, todo para matizar y evitar el aburrimiento
+    de atravesar un capitulo mas o menos conocido.
+
+    Bastante practica de palabras con un par de cuadros mas. Eso de
+    los cuadros pienso que si va a andar pq va a agregar un monton de
+    familias de palabras que se dificultan a la primera pq las
+    agarramos asi nomas sueltas sin contexto en la primera parte de
+    ulangui.
+*** [2021-10-11 Mon] plan de estudios english - js como teoria
+    quiero estudiar con furia ingles, ampliar la base hasta llegar a
+    las 1000 palabras, con sus desagregados en el cuadernito, y mucha
+    practica, ademas seguir con la practica del listening, para
+    acostumbrar el oido a la interpretacion en volumen real, mas ver
+    videos de gramatica que se puedan ver, mas inmersion: lectura,
+    otros videos, teds, etc. series. 
+    
+    El otro tema que se me ocurrio anoche es seguirle metiendo en el
+    estudio de javascript mas alla de lo usable, sino mas bien
+    llegando al nivel teorico. Como esta pasando con el capitulo de
+    prototype y classes.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5774,6 +5861,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-10-03 Sun] :Javascript:emacs:english:i3:
    comenzando a leer detenidamente el tutorial-javascript, dia
    miercoles python-hell comienzo a leer en paralelo Python The True Book.
+   jueves ruby-hell desechado. Decido continuar solo con javascript-english
+** semana [2021-10-10 Sun] :Javascript:emacs:vim:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -5821,7 +5910,7 @@ pone link luego descripcion
 o pone file: y luego elige el archivo y hace un hiperlink
 ** [2020-07-12 Sun]
 *** CcCs Scheduled en orgmode
-y poniendole adentro +1 hacemos el vto periodico
+    y poniendole adentro +1 hacemos el vto periodico
 * agenda linux general
 ** firefox
 *** [2020-07-05 Sun]
@@ -6935,6 +7024,13 @@ sudo. El resto todo igual y bien.
    no se puede saber bien cual pago corresponde a cual venta
 ** DONE filtrar si se puede los planes de pagos del listado de venta
    para que no confundan al sumar las ventas o al observar las ventas
+** TODO que se pueda asentar la baja de un seven individualmente
+** TODO que se vea en el tablero clientes el ex-seven (alta y baja)
+** DONE [#A] corregir el tema agregado articulos en devoluciones
+   solucionado, la funcion faltaba y se corrigio el tema del select
+   que no tomaba bien el articulo.
+** TODO posibilidad de borrar comentarios
+   
 * cambio de ubicacion lugar de trabajo 
 ** dormitorio
 *** pro
