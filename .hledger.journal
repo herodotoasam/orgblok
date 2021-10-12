@@ -7743,3 +7743,7 @@ D $1000.00
 2021-08-11 prestamo dolares Fede
     assets:deudores                   u$s 2700
     assets:reserva u$s            u$s   -2700 
+
+2021-10-11 dif encontrada
+    assets:caja                            810
+    expenses:diferencia arqueo            -810

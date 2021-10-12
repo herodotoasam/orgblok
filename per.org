@@ -152,6 +152,20 @@
     problema de la mañana cuando terminas la rutina de levantarte y te
     sentas a la maquina y no tenes ganas de hacer nada, tiene que
     haber algo que rompa esa rutina y te haga empezar con algo util.
+*** [2021-10-11 Mon]
+    no considero que esta forma de vivir y [no] trabajar sea mala pq
+    trato de hacer cosas que me mejoren y me mantengan mentalmente
+    activo. 
+    En particular estos diez dias he atravesado la cortyterapia en una
+    forma totalmente desatendida en lo personal, pq ih ha estado
+    doblemente comprometida, por su lesion y por su compromiso de ir
+    todos los dias a cuidar los chicos, y ya pasaron los diez primeros
+    dias y tengo que empezar la retirada, aunque visto como fue este
+    WD es la parte mas facil, no siempre fue asi, y la toma de cy es
+    complicada pq da sintomas dificiles como soñolencia y cansancio. 
+    Ademas que me voy a preocupar yo si el que tiene que salir a
+    vender es el Fede. Otra cosa mas que lo que hago no creo que pueda
+    o tenga que hacer.
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
@@ -340,6 +354,14 @@
    que estas soñando, mas cerca de la hora de levantarse, en este caso
    a posteriori de tomar el corti y acostarme de nuevo. (Ya he tenido
    casos, ahora los voy a registrar)
+** [2021-10-12 Tue] gases extremos
+   gases extremos que se meten debajo del diafragma y no solo no te
+   dejan dormir sino que te hacen doler, te oprimen y te obligan a
+   pararte. La ultima vez que recuerdo me paso fue un año nuevo en
+   herrera que se quedo el Rodri y habia comido una torta helada y me
+   cayo malisimo y no podia estar. Aca me cayeron mal dos sandwiches
+   de richione que habia jurado un dia olvidado ya que no iba a
+   comerlos mas.
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
@@ -356,6 +378,7 @@
 | [2021-10-09 Sat] | 20 |     |      |                               |
 | [2021-10-10 Sun] | 40 | si  | 4hs  |                               |
 | [2021-10-11 Mon] | 20 |     |      |                               |
+| [2021-10-12 Tue] | 20 |     |      |                               |
 |                  |    |     |      |                               |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
@@ -523,3 +546,6 @@
    me fui a dormir luego del corti pq es feriado, sin culpa y dormi
    hasta las 10.30hs pesadisimo dificil de levantarme, hinchado, pero
    sin dolor al menos hasta ahora.
+** [2021-10-12 Tue] 7hs 20mg
+   hoy adelante la toma del ct pq ya creia que me empezaba el dolor
+   luego de una noche de mucho malestar por gases. 

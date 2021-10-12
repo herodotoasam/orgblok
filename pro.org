@@ -4772,7 +4772,8 @@ primer mm hecho luego de la obra sobre array
     estudio de javascript mas alla de lo usable, sino mas bien
     llegando al nivel teorico. Como esta pasando con el capitulo de
     prototype y classes.
-
+*** [2021-10-12 Tue]
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -7030,8 +7031,12 @@ sudo. El resto todo igual y bien.
    solucionado, la funcion faltaba y se corrigio el tema del select
    que no tomaba bien el articulo.
 ** TODO posibilidad de borrar comentarios
-   
+** TODO reemplazo de vue
+   son 22 paginas aparentemente
 * cambio de ubicacion lugar de trabajo 
+  lo decido ipso facto por las circunstancias de la casa, por lo menos
+  hasta el proximo invierno.
+
 ** dormitorio
 *** pro
 **** mayor privacidad para concentracion
@@ -7044,8 +7049,11 @@ sudo. El resto todo igual y bien.
      mint o a ubuntu.
 **** pierdo el wifi cercano
      vuelvo al wifi por aire un poco mas lento que el actual
+     la mitad de lento o menos
+**** menos luminosidad natural
 ** living
 *** pro
 **** luminosidad de la ventana
      ver para afuera estar en otro ambiente que no sea el dormitorio
 *** contra
+**** achica el living
