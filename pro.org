@@ -4760,7 +4760,7 @@ primer mm hecho luego de la obra sobre array
     familias de palabras que se dificultan a la primera pq las
     agarramos asi nomas sueltas sin contexto en la primera parte de
     ulangui.
-*** [2021-10-11 Mon] plan de estudios english - js como teoria
+*** [2021-10-11 Mon] objetivos en english - js como teoria
     quiero estudiar con furia ingles, ampliar la base hasta llegar a
     las 1000 palabras, con sus desagregados en el cuadernito, y mucha
     practica, ademas seguir con la practica del listening, para
@@ -4773,7 +4773,83 @@ primer mm hecho luego de la obra sobre array
     llegando al nivel teorico. Como esta pasando con el capitulo de
     prototype y classes.
 *** [2021-10-12 Tue]
+    hoy hice el cambiazo al fondo, cambie el sistema operativo a mint,
+    y no necesite instalar nada para empezar a trabajar, pq solo con
+    el navegador ya estas trabajando.
+    Lo primero que hice es levantar orgblock e instalar emacs, lo cual
+    ya se hizo.
+*** [2021-10-13 Wed]
+    anoche segui leyendo js. Terminando de instalar lo que falta.
+    bien el lugar nuevo, mas tranquilo. Ahora falta la motivacion para
+    estudiar, salir de la abulia.
+    A pesar del incipiente dolor de cabeza lei el tema setter/getter y
+    lo elabore un poco.
+    Recuperado i3 como base de trabajo, me parece mas practico.
+    Hice dos tareas de mantenimiento en vscode/vim como para ir
+    empezando a programar de nuevo.
+*** [2021-10-14 Thu] "cuadraditos" de ingles - 
+    Anoche pensaba que como estoy atascado en ingles, implementar una
+    base de mini-habitos al respecto:
+    1. listening solo 15min o sea 3 episodios
+    2. grammar 15min un episodio o parte
+    3. grammar escrita 15min
+    A todo esto controlarlo con habits que seria la forma de
+    asegurarme que lo estoy haciendo en forma constante.
     
+    Puede funcionar por ser cortos y determinados los "cuadraditos" de
+    practica y controlados por habits y no me cabe duda que acumularan
+    conocimiento de a poco. Peor es lo erratico de no estar haciendo
+    nada. Y basarse unicamente en el repaso de los terminos.
+    
+    puse el safeeyes cada 25minutos para que me sirva como pomodoro, y
+    me puse a programar, aunque estuvo cortado pq vino el Fede, creo
+    que complete dos pomodoros, y comence en forma satisfactoria el
+    traspaso de pasarventas que es la pagina mas dificil a pasar a
+    alpine.
+    Luego vendran las otras, y luego el desarrollo de la app contable.
+*** [2021-10-15 Fri] vuelta a Vue
+    defini que no puedo complicarme con js mas de lo que me plantea la
+    "Definitive Guide 2021" o sea si el tutorial-js quiere ser mas
+    awkward haya el, seguire con el libro en ingles y videos de soporte.
+    dos pomodoros de programacion bastante fructiferos, pasando por
+    los temas mas dificultosos. A pesar de que todo es un cortar y
+    pegar de cosas que ya tengo hechas, de las cuales no tengo la
+    menor idea. 
+    Por lo menos tres pomodoros a calculo programando con una agenda
+    de programacion bien compacta y entusiasmadora para mejorar al
+    sistema. El sistema esta muy bueno y esta bueno seguir programando
+    para mantenerse activo y perfeccionando y si es posible
+    documentando.
+    
+    Hoy se marca el dia de la vuelta a Vue (en desmedro de alpinejs)
+    como base de desarrollo, alentado por dos articulos que lei uno
+    que decia que alpinejs es el hermano menor de vue y puede ser
+    usado por desarrolladores de vue como prueba rapida o cuando no
+    valga la pena montar todo el vue, pq la sintaxis es la misma.
+    El otro mas importante aun relativo a vue2 vs vue3, que terciaba
+    ampliamente a favor de vue2 diciendo que en 2021 vale la pena no
+    solo estudiar vue2 sino mantener los desarrollos que uno hizo pq
+    vue3 esta muy verde aun. Eso por una parte pq me desilusionaba un
+    poco de Vue el pensar que estaba en una forma poco profesional y
+    la forma que lo uso en mis paginas es perfectamente viable.
+*** [2021-10-16 Sat]
+    toda la mañana programando un monton, termine la gestion de
+    asuntos en Vue, seemlessly. Un dulce Vue.
+    una programacion bastante compleja toda la gestion de asuntos y la
+    hice en menos de un dia. 
+    Lo bueno seria que las ganas de programar y la inspiracion de
+    programar me duraran en forma continua para que cada vez pudiera
+    hacer mejores cosas.
+    
+    Llevo tres dias de cuadraditos de english controlados por habits,
+    no va a ser facil, pero pienso que pueden ser efectivos en
+    aprender material que de otra forma no estariamos aprendiendo, pq
+    dos son relativos a grammar. 
+    
+    Hice un service de emergencia al sistema pq descubrimos que no
+    salian algunas fichas, y era que tenian mal el valor de la ultima
+    cuota y yo habia hecho las consultas por ultima cuota en vez de
+    hacerlo por pmovto.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -5864,6 +5940,7 @@ timido comienzo muy debil en estudio de js.
    miercoles python-hell comienzo a leer en paralelo Python The True Book.
    jueves ruby-hell desechado. Decido continuar solo con javascript-english
 ** semana [2021-10-10 Sun] :Javascript:emacs:vim:english:i3:
+** semana [2021-10-17 Sun] :Javascript:emacs:english:i3:Vue:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -6036,6 +6113,7 @@ bien hasta ahora.
    esa anda, luego borro la primera y dejo la segunda como default.
 ** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
 ** [2021-07-09 Fri] instalacion de uma 20.02 cinnamon en amd8gb
+** [2021-10-12 Tue] instalacion de uma 20.02 cinnamon con i3 en intel9th
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
@@ -6783,7 +6861,7 @@ tbl = df.to_numpy().tolist()
 y luego en js...
 var DataSet = {{tbl | tojson}}
 el unico problema es que no me funciona el theme oscuro. 
-** tabulator
+** tabulator
 por medio de una funcion en js escrita por mi, logre pasar los arrays
 que lee datatables al formato array de objetos json que lee
 tabulator. Y funciona.
@@ -7009,31 +7087,7 @@ sudo. El resto todo igual y bien.
 ** tema simple registro o doble registro
    el doble registro le añade mucha complejidad y la unica doble
    cuenta es compra de dolares y prestamos en dolares.
-* bugs y mejoras del sistema
-** DONE borrar items pasado de venta
-** DONE lista en el fechado no esta ordenada
-** DONE problemas en el fechado que hacen recargar
-** DONE [#A] borrado de items fechados y revertir operacion
-** DONE [#B] verificar que total ventas no incluya devuelta ni plan pagos
-** DONE lista de venta por vendedor por dia
-** DONE cuadro de vista de devoluciones
-** TODO cuadro de vista de planes de pagos
-   quizas tengamos que poner una nueva pestaña de informacion para no
-   recargar las que tenemos actualmente
-** DONE boton de whatapp para comunicacion normal sin intimacion
-** DONE poner el numero de venta en los pagos de clientes
-   no se puede saber bien cual pago corresponde a cual venta
-** DONE filtrar si se puede los planes de pagos del listado de venta
-   para que no confundan al sumar las ventas o al observar las ventas
-** TODO que se pueda asentar la baja de un seven individualmente
-** TODO que se vea en el tablero clientes el ex-seven (alta y baja)
-** DONE [#A] corregir el tema agregado articulos en devoluciones
-   solucionado, la funcion faltaba y se corrigio el tema del select
-   que no tomaba bien el articulo.
-** TODO posibilidad de borrar comentarios
-** TODO reemplazo de vue
-   son 22 paginas aparentemente
-* cambio de ubicacion lugar de trabajo 
+* DONE cambio de ubicacion lugar de trabajo 
   lo decido ipso facto por las circunstancias de la casa, por lo menos
   hasta el proximo invierno.
 
@@ -7057,3 +7111,35 @@ sudo. El resto todo igual y bien.
      ver para afuera estar en otro ambiente que no sea el dormitorio
 *** contra
 **** achica el living
+* bugs y mejoras del sistema
+** DONE borrar items pasado de venta
+** DONE lista en el fechado no esta ordenada
+** DONE problemas en el fechado que hacen recargar
+** DONE [#A] borrado de items fechados y revertir operacion
+** DONE [#B] verificar que total ventas no incluya devuelta ni plan pagos
+** DONE lista de venta por vendedor por dia
+** DONE cuadro de vista de devoluciones
+** TODO cuadro de vista de planes de pagos
+   quizas tengamos que poner una nueva pestaña de informacion para no
+   recargar las que tenemos actualmente
+** DONE boton de whatapp para comunicacion normal sin intimacion
+** DONE poner el numero de venta en los pagos de clientes
+   no se puede saber bien cual pago corresponde a cual venta
+** DONE filtrar si se puede los planes de pagos del listado de venta
+   para que no confundan al sumar las ventas o al observar las ventas
+** DONE que se pueda asentar la baja de un seven individualmente
+** DONE que se vea en el tablero clientes el ex-seven (alta y baja)
+   lo hice a traves de un boton rojo, no tiene las fechas pero al
+   menos queda escrachado.
+** DONE [#A] corregir el tema agregado articulos en devoluciones
+   solucionado, la funcion faltaba y se corrigio el tema del select
+   que no tomaba bien el articulo.
+** TODO posibilidad de borrar comentarios
+** TODO reemplazo de vue o de alpinejs??
+   son 22 paginas aparentemente
+** TODO arreglo de ventas.html
+   sacar las variables sueltas y ponerlas en un objeto cliente.
+** DONE sistema de manejo de asuntos
+*** DONE hacer tabla asuntos y modal de carga de asunto
+*** DONE hacer html listado de asuntos con borrar/editar/completado
+*** DONE impresion de asuntos pendientes por cobrador

@@ -106,6 +106,7 @@ desde nuestra maquina ubicamos el archivo que queremos bajar y ponemos
 el nombre que le vamos a asignar y listo. 
 
 Util para bajar el backup de la base de datos.
+** scp -P 5088 root@179.43.127.47:/root/backup.sql ~/backup.sql
 * mysqlbinlog
 para que el log sea visible debo deshabilitar la encryptacion del log.
 

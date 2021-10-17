@@ -361,25 +361,33 @@
    herrera que se quedo el Rodri y habia comido una torta helada y me
    cayo malisimo y no podia estar. Aca me cayeron mal dos sandwiches
    de richione que habia jurado un dia olvidado ya que no iba a
-   comerlos mas.
+   comerlos mas. Me tuve que tomar dos factor ag casi consecutivos
+   pero lo mismo no me hizo ningun efecto inmediato.
+   [2021-10-13 Wed] tambien tuve sintomas, y eso que habia cenado
+   porotos negros con ensalada, tome un factor ag pero fue muchisimo
+   menos que la noche anterior.
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
-| Fecha            | Cy | Mig | Dur  | otros medicamentos            |
-| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |
-| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |
-| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |
-| [2021-10-03 Sun] | 40 | no  |      |                               |
-| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |
-| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |
-| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |
-| [2021-10-07 Thu] | 40 |     |      |                               |
-| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |
-| [2021-10-09 Sat] | 20 |     |      |                               |
-| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |
-| [2021-10-11 Mon] | 20 |     |      |                               |
-| [2021-10-12 Tue] | 20 |     |      |                               |
-|                  |    |     |      |                               |
+| Fecha            | Cy | Mig | Dur  | otros medicamentos            |   |
+| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |   |
+| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |   |
+| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |   |
+| [2021-10-03 Sun] | 40 | no  |      |                               |   |
+| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |   |
+| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |   |
+| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |   |
+| [2021-10-07 Thu] | 40 |     |      |                               |   |
+| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |   |
+| [2021-10-09 Sat] | 20 |     |      |                               |   |
+| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |   |
+| [2021-10-11 Mon] | 20 |     |      |                               |   |
+| [2021-10-12 Tue] | 20 |     |      |                               |   |
+| [2021-10-13 Wed] | 20 | si  | 4hs  |                               |   |
+| [2021-10-14 Thu] | 20 |     |      |                               |   |
+| [2021-10-15 Fri] | 20 | si  | 1hs  |                               |   |
+| [2021-10-16 Sat] | 20 |     |      |                               |   |
+|                  |    |     |      |                               |   |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
    a las 8hs y topiramato+silbelium, y migral de rescate si hace
@@ -552,3 +560,24 @@
    por suerte no me duele la cabeza por el momento pero tengo/tuve
    esta mañana mucho mal humor o enojo y mucha vagancia no solo ganas
    de dormir la siesta sino ni siquiera de leer en la cama.
+** [2021-10-13 Wed] 7.30hs 20mg
+   me levanto bien, un poco dormi muy recortado, pq nuevamente tuve
+   sintoma de gases, y me dormi luego de la toma del ct.
+   dolor incipiente a moderado-bajo, por el momento puedo seguir en la
+   compu en actividad esperando el milagro que se me pase.
+   como a las 18hs prendi de nuevo la compu pq estaba Fede y se puso
+   aburrido y me entretuve instalando i3 y luego programando en vscode
+   y se me fue yendo bastante el dolor de base.
+** [2021-10-14 Thu] 7hs 20mg
+   dormi bien y me levante bien.
+** [2021-10-15 Fri] 7hs 20mg
+   dormi bien y me levante bien.
+
+   despues del mediodia se me desarrollo un dolor bastante incipiente
+   que pensaba me iba a tirar a la cama despues de las 4 de la tarde y
+   pense en tomar un naproxeno, y me dije que no que si se me iba el
+   dolor lo iba a atribuir falsamente a la pastilla y si no se iba la
+   toma era al vicio, y me acoste en "reparacion intensa" unos minutos
+   y se me fue el dolor, luego de haber comido un poco de mijo.
+** [2021-10-16 Sat] 7hs 20mg
+   dormi con un ligero dolor toda la noche. Ya al levantarme desaparecio.

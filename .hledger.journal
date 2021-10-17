@@ -7747,3 +7747,47 @@ D $1000.00
 2021-10-11 dif encontrada
     assets:caja                            810
     expenses:diferencia arqueo            -810
+
+2021/10/13 comida
+    expenses:comida             380
+    assets:caja                -380
+
+2021/10/14 nafta
+    expenses:transporte:nafta            2000
+    assets:caja                         -2000
+
+2021/10/14 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/10/14 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/10/14 comida cami
+    expenses:cami:comida            4500
+    assets:caja                    -4500
+
+2021/10/14 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/10/14 dif
+    expenses:diferencia arqueo             450
+    assets:caja                           -450
+
+2021/10/15 carne
+    expenses:comida             580
+    assets:caja                -580
+
+2021/10/15 comida
+    expenses:comida            1040
+    assets:caja               -1040
+
+2021/10/16 carla
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/10/16 lomitos
+    expenses:comida             730
+    assets:caja                -730
