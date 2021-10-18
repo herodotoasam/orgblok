@@ -7791,3 +7791,35 @@ D $1000.00
 2021/10/16 lomitos
     expenses:comida             730
     assets:caja                -730
+
+2021/10/18 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/10/18 retiro reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/10/18 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/10/18 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/10/18 hiper
+    expenses:comida            4300
+    assets:caja               -4300
+
+2021/10/18 comida
+    expenses:comida              90
+    assets:caja                 -90
+
+2021/10/18 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/10/18 gimnasio cami
+    expenses:cami:extras            1800
+    assets:caja                    -1800

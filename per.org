@@ -166,6 +166,13 @@
     Ademas que me voy a preocupar yo si el que tiene que salir a
     vender es el Fede. Otra cosa mas que lo que hago no creo que pueda
     o tenga que hacer.
+*** [2021-10-17 Sun]
+    estaba pensando no ir al neurologo este miercoles pq voy a estar
+    muy colgadazo con lo que le tendria que decir a una neurologa
+    nueva que no me conoce. Algo como mire el problema es tal y tal,
+    completamente diagnosticado por años, y lleve a cabo un wd exitoso
+    yo solo segun las prescripciones de mi antiguo neurologo, al cual
+    no consulto pq no lo encontre en la cartilla.
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
@@ -369,25 +376,27 @@
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
-| Fecha            | Cy | Mig | Dur  | otros medicamentos            |   |
-| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |   |
-| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |   |
-| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |   |
-| [2021-10-03 Sun] | 40 | no  |      |                               |   |
-| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |   |
-| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |   |
-| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |   |
-| [2021-10-07 Thu] | 40 |     |      |                               |   |
-| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |   |
-| [2021-10-09 Sat] | 20 |     |      |                               |   |
-| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |   |
-| [2021-10-11 Mon] | 20 |     |      |                               |   |
-| [2021-10-12 Tue] | 20 |     |      |                               |   |
-| [2021-10-13 Wed] | 20 | si  | 4hs  |                               |   |
-| [2021-10-14 Thu] | 20 |     |      |                               |   |
-| [2021-10-15 Fri] | 20 | si  | 1hs  |                               |   |
-| [2021-10-16 Sat] | 20 |     |      |                               |   |
-|                  |    |     |      |                               |   |
+| Fecha            | Cy | Mig | Dur  | otros medicamentos            |          |
+| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |          |
+| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |          |
+| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |          |
+| [2021-10-03 Sun] | 40 | no  |      |                               |          |
+| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |          |
+| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |          |
+| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |          |
+| [2021-10-07 Thu] | 40 |     |      |                               |          |
+| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |          |
+| [2021-10-09 Sat] | 20 |     |      |                               |          |
+| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |          |
+| [2021-10-11 Mon] | 20 |     |      |                               |          |
+| [2021-10-12 Tue] | 20 |     |      |                               |          |
+| [2021-10-13 Wed] | 20 | si  | 4hs  |                               |          |
+| [2021-10-14 Thu] | 20 |     |      |                               |          |
+| [2021-10-15 Fri] | 20 | si  | 1hs  |                               |          |
+| [2021-10-16 Sat] | 20 |     |      |                               |          |
+| [2021-10-17 Sun] | 20 | si  | 5hs  | naproxeno 500                 | 1 Migral |
+| [2021-10-18 Mon] | 20 | si  | 4hs  |                               |          |
+|                  |    |     |      |                               |          |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
    a las 8hs y topiramato+silbelium, y migral de rescate si hace
@@ -581,3 +590,18 @@
    y se me fue el dolor, luego de haber comido un poco de mijo.
 ** [2021-10-16 Sat] 7hs 20mg
    dormi con un ligero dolor toda la noche. Ya al levantarme desaparecio.
+** [2021-10-17 Sun] 7hs 20mg
+   dormi muy bien, levante bien. Solo ligeras molestias imperceptibles.
+   comenzo dolor antes del mediodia, y me recoste despues de comer,
+   dormi y no se fue sino que se fue acentuando a una migraña punzante
+   izquierda con fondo detras del ojo, que no cedio con el naproxeno,
+   tomado al vicio, y que termino cediendo a un lamentable migral en
+   una hora. 
+** [2021-10-18 Mon] 8hs 20mg
+   dormi bien, levante bien.
+   la mañana fue muy ajetreada y como siempre el dolor comenzo despues
+   del mediodia, y se puso fiero, creo que podria haber sido como
+   ayer, pero lo fui postergando quedandome levantado y ocupado en la
+   programacion, con dos leches intermedias y descansos
+   programados. Lo mismo me duele pero es menos, espero que no escale
+   en las proximas horas.

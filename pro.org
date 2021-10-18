@@ -4850,6 +4850,35 @@ primer mm hecho luego de la obra sobre array
     salian algunas fichas, y era que tenian mal el valor de la ultima
     cuota y yo habia hecho las consultas por ultima cuota en vez de
     hacerlo por pmovto.
+*** [2021-10-17 Sun] sinatra-hell
+    pasado de papeles anoche y esta mañana a full.
+    anoche en breve relectura creo que voy entendiendo el capitulo
+    classes de js. Tengo que hacer los ejemplos de practica.
+    
+    por un rato tuve un sinatra-hell por su mencion en un libro que
+    supe leer. No descarto en algun momento estudiar ruby y rails y sinatra.
+    
+    muy potente va a resultar el habito de los cuadraditos de ingles,
+    pq la grammar se ve de a poco y se asimila despacio no como antes
+    que se veian los videos de corrido para terminarlos cuanto
+    antes. Y en cuanto al listening al ser rutinario-habitual, creo
+    que con el tiempo va a dar sus frutos de acuerdo a la teoria de
+    que mucho listening te produce que despues speaking.
+*** [2021-10-18 Mon]
+    mañana muy ajetreada comence yendo al banco a la carrera, luego
+    llevando a ih, y yendo al hiper, en el medio la crisis por la
+    ficha que no salia y otro error del sistema, luego tener que
+    llevar la plata al flete, buscar a ih, etc. Mañana atipica en
+    relacion a lo acostumbrado.
+    
+    Hecho la mitad de la transformacion de ventas.vue refactorizando,
+    falta ventas/detalle-venta.
+    terminada la refactorizacion de ventas.html. Bastante facil, tengo
+    que probarlo un poco mas pero creo que esta listo. 
+    Interesante trabajar con objetos que clarifican mucho mas el
+    trabajo en vez de trabajar con un monton de variables, y a la vez
+    podes trabajar con el mismo nombre de campo y se puede pasar el
+    objeto directamente a flask. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -7137,8 +7166,9 @@ sudo. El resto todo igual y bien.
 ** TODO posibilidad de borrar comentarios
 ** TODO reemplazo de vue o de alpinejs??
    son 22 paginas aparentemente
-** TODO arreglo de ventas.html
+** DONE arreglo de ventas.html
    sacar las variables sueltas y ponerlas en un objeto cliente.
+** TODO validacion de campos fecha pmovto y primera
 ** DONE sistema de manejo de asuntos
 *** DONE hacer tabla asuntos y modal de carga de asunto
 *** DONE hacer html listado de asuntos con borrar/editar/completado
