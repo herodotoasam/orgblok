@@ -4879,6 +4879,29 @@ primer mm hecho luego de la obra sobre array
     trabajo en vez de trabajar con un monton de variables, y a la vez
     podes trabajar con el mismo nombre de campo y se puede pasar el
     objeto directamente a flask. 
+*** [2021-10-19 Tue] descubro obsidean - org-roam
+    descubro obsidean que es un entorno muy parecido a org-mode pero
+    mas moderno. Estoy dudando en instalarlo pq hace mucho que estoy
+    en orgmode y no voy a cambiar a esta altura.
+    Pero puede ser interesante para la Cami por ejemplo. O si
+    pudieramos hacer que las notas se leyeran en el celu.
+    Ya lo instale pero no es tan facil el workflow de anotacion como
+    es en orgmode.
+    En orgmode existe un sistema similar que se llama org-roam que
+    permite la interconexion de notas con id. 
+
+    Tambien pensaba un sistema de notas hecho en base de datos que se
+    pudiera leer por mobil o sea tipo flask-app con mariadb de
+    backend.
+    Lo unico que ese campito text no tendria formato, seria medio
+    anodino, y la parte grafica dependeria del armado de la pagina que
+    yo haga. Pero puede ser un proyecto de programacion para un
+    futuro. 
+    Lo comence al final y ya hice las bases, me falta hacer las rutas
+    y la parte estetica, lo mas facil. Pero hoy no estoy de humor para ello.
+
+    Instale org-roam y le voy entendiendo es lo mismo que obsidian
+    pero basado en orgmode, con el formato orgmode y el entorno orgmode.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

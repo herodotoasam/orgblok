@@ -312,7 +312,22 @@
 ;; Improv performance emacs
 (setq gc-cons-threshold (* 2 1000 1000))
 
-
+;; org-roam
+(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-v2-ack t)
+  :custom
+  (org-roam-directory "~/orgblok/roam")
+  (org-roam-completion-everywhere t)
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+	 ("C-c n f" . org-roam-node-find)
+	 ("C-c n i" . org-roam-node-insert)
+	 :map org-mode-map
+	 ("C-M-i" . completion-at-point)
+	 )
+  )
+(setq org-startup-folded t)
 ;; (use-package all-the-icons)
 
 ;; (use-package dashboard
@@ -339,11 +354,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(org-agenda-files '("~/orgblok/"))
+ '(org-agenda-files (quote ("~/orgblok/")))
  '(package-selected-packages
-   '(ripgrep pdf-tools all-the-icons elpygen simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
- '(projectile-globally-ignored-file-suffixes '("#"))
- '(projectile-globally-ignored-files '("#*#" "TAGS"))
+   (quote
+    (org-roam ripgrep pdf-tools all-the-icons elpygen simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren smartparens parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode elpy doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag)))
+ '(projectile-globally-ignored-file-suffixes (quote ("#")))
+ '(projectile-globally-ignored-files (quote ("#*#" "TAGS")))
  '(projectile-mode t nil (projectile)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

@@ -173,6 +173,18 @@
     completamente diagnosticado por años, y lleve a cabo un wd exitoso
     yo solo segun las prescripciones de mi antiguo neurologo, al cual
     no consulto pq no lo encontre en la cartilla.
+*** [2021-10-19 Tue] plan de contingencia 2022
+    1. armar grupo: pongo aviso en la voz, atiendo el aviso por
+       wassap, y personalmente en la oficina por la mañana. Doy curso
+       alli mismo por la mañana.
+    2. salgo con el auto con 3 promotores para hacer 10 cortinas por
+       dia, que serian 54k por dia. 1080000 por mes, con el 15% de
+       inc, y el 15 de cobr, y 500 para el promotor, tenes 448k.
+    3. puedo depositar en la av la voz antes de salir, puedo retirar
+       los sabados y entregar los lunes como hasta ahora.
+    4. tendria que arreglar el arranque del auto, la luz de freno, y
+       el embrague, puede ser tambien la correa, o sea con unos 100mil
+       lo dejo joyita para empezar.
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
@@ -396,6 +408,7 @@
 | [2021-10-16 Sat] | 20 |     |      |                               |          |
 | [2021-10-17 Sun] | 20 | si  | 5hs  | naproxeno 500                 | 1 Migral |
 | [2021-10-18 Mon] | 20 | si  | 4hs  |                               |          |
+| [2021-10-19 Tue] | 20 | si  | 3hs  |                               |          |
 |                  |    |     |      |                               |          |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
@@ -604,4 +617,10 @@
    ayer, pero lo fui postergando quedandome levantado y ocupado en la
    programacion, con dos leches intermedias y descansos
    programados. Lo mismo me duele pero es menos, espero que no escale
-   en las proximas horas.
+   en las proximas horas. Llego un momento cuando me acoste que se fue
+   felizmente el dolor y me dejo en paz.
+** [2021-10-19 Tue] 7hs 20mg
+   dormi bien  levante bien
+   un poco menos que ayer me dolio y me quede en la maquina y cuando
+   me acoste luego de las cuatro placenteramente ya sin nada para
+   hacer se me fue el dolor.
