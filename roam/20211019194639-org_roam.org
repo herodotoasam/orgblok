@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       61a95762-cdb0-4ab8-9916-2fdbc9770848
+:END:
+#+title: org-roam
+* problemas de instalacion
+  decia que el tar no existia en melpa. hice package-refresh y
+  package-list y lo instale desde alli
