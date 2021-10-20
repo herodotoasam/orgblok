@@ -7823,3 +7823,19 @@ D $1000.00
 2021/10/18 gimnasio cami
     expenses:cami:extras            1800
     assets:caja                    -1800
+
+2021/10/20 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2021/10/20 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/10/20 devolucion prestamo romi
+    assets:caja                  10000
+    assets:deudas romi          -10000
+
+2021/10/20 reserva
+    assets:reserva           10000
+    assets:caja             -10000

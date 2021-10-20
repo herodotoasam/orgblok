@@ -185,6 +185,14 @@
     4. tendria que arreglar el arranque del auto, la luz de freno, y
        el embrague, puede ser tambien la correa, o sea con unos 100mil
        lo dejo joyita para empezar.
+*** [2021-10-20 Wed] plan cortinas con Fede
+    se hablo del plan cortinas puro con Fede poniendo aviso por
+    wassap, etc. o sea idem plan de contingencia 2022, pero realizado
+    por Fede. El mismo tuvo una gran acogida de su parte, provocando
+    un gran entusiasmo. Pienso que puede ser llevado a cabo. En tal
+    caso tendria que hacer un nuevo plan de contingencia que envuelva
+    actividades educativas y programaticas para que llene el vacio de
+    tiempo que esta rutina que tengo me produce.
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
@@ -388,35 +396,42 @@
 * cortiterapia 2021
   UM: [2021-09-29 Wed] 16hs
 
-| Fecha            | Cy | Mig | Dur  | otros medicamentos            |          |
-| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr               |          |
-| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran     |          |
-| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500 / clonazepan SL |          |
-| [2021-10-03 Sun] | 40 | no  |      |                               |          |
-| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600                |          |
-| [2021-10-05 Tue] | 40 | si  | 2hs  |                               |          |
-| [2021-10-06 Wed] | 40 | si  | 2hs  |                               |          |
-| [2021-10-07 Thu] | 40 |     |      |                               |          |
-| [2021-10-08 Fri] | 40 | si  | 2hs  |                               |          |
-| [2021-10-09 Sat] | 20 |     |      |                               |          |
-| [2021-10-10 Sun] | 40 | si  | 4hs  |                               |          |
-| [2021-10-11 Mon] | 20 |     |      |                               |          |
-| [2021-10-12 Tue] | 20 |     |      |                               |          |
-| [2021-10-13 Wed] | 20 | si  | 4hs  |                               |          |
-| [2021-10-14 Thu] | 20 |     |      |                               |          |
-| [2021-10-15 Fri] | 20 | si  | 1hs  |                               |          |
-| [2021-10-16 Sat] | 20 |     |      |                               |          |
-| [2021-10-17 Sun] | 20 | si  | 5hs  | naproxeno 500                 | 1 Migral |
-| [2021-10-18 Mon] | 20 | si  | 4hs  |                               |          |
-| [2021-10-19 Tue] | 20 | si  | 3hs  |                               |          |
-|                  |    |     |      |                               |          |
+| Fecha            | Cy | Mig | Dur  | otros medicamentos        |          |
+| [2021-09-30 Thu] | 20 | si  | 4hs  | paracetamol 1gr           |          |
+| [2021-10-01 Fri] | 40 | si  | 13hs | naproxeno 500 / reliveran |          |
+| [2021-10-02 Sat] | 40 | si  | 8hs  | naproxeno 500             |          |
+| [2021-10-03 Sun] | 40 | no  |      |                           |          |
+| [2021-10-04 Mon] | 40 | si  | 4hs  | ibuprofeno 600            |          |
+| [2021-10-05 Tue] | 40 | si  | 2hs  |                           |          |
+| [2021-10-06 Wed] | 40 | si  | 2hs  |                           |          |
+| [2021-10-07 Thu] | 40 |     |      |                           |          |
+| [2021-10-08 Fri] | 40 | si  | 2hs  |                           |          |
+| [2021-10-09 Sat] | 20 |     |      |                           |          |
+| [2021-10-10 Sun] | 40 | si  | 4hs  |                           |          |
+| [2021-10-11 Mon] | 20 |     |      |                           |          |
+| [2021-10-12 Tue] | 20 |     |      |                           |          |
+| [2021-10-13 Wed] | 20 | si  | 4hs  |                           |          |
+| [2021-10-14 Thu] | 20 |     |      |                           |          |
+| [2021-10-15 Fri] | 20 | si  | 1hs  |                           |          |
+| [2021-10-16 Sat] | 20 |     |      |                           |          |
+| [2021-10-17 Sun] | 20 | si  | 5hs  | naproxeno 500             | 1 Migral |
+| [2021-10-18 Mon] | 20 | si  | 4hs  |                           |          |
+| [2021-10-19 Tue] | 20 | si  | 3hs  |                           |          |
+| [2021-10-20 Wed] | 20 | si  | 5hs  |                           |          |
+|                  |    |     |      |                           |          |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
    a las 8hs y topiramato+silbelium, y migral de rescate si hace
    falta.
    Cambio sobre la marcha, y decido agregar los 20mg de la tarde, y en
    lo posible evitar el migral de rescate por ahora.
-
+   [2021-10-20 Wed] en 20 dias de tratamiento con 40 y 20 mg hasta
+   ahora dolores casi todos los dias pero a nivel manejable,
+   concentrados en el horario del mediodia-siesta.
+   Se revelo la inutilidad de los analgesicos varios.
+   Si puede ser positivo lo actitudinal, o sea lo postural, el estar
+   ocupado en algo que capte nuestra atencion mientras cursa el dolor
+   puede hacer que aminore y/o desaparezca.
     
 ** [2021-09-30 Thu] 8hs 20mg
    :Paracetamol:
@@ -624,3 +639,11 @@
    un poco menos que ayer me dolio y me quede en la maquina y cuando
    me acoste luego de las cuatro placenteramente ya sin nada para
    hacer se me fue el dolor.
+** [2021-10-20 Wed] 7hs 20mg
+   dormi bien levante bien. Hoy termino la fase 20mg. Siguen diez dias
+   con 10mg. 
+   Hoy tuve un dolor que se ponia intenso y lo soporte lo mas que pude
+   en la maquina, y me acoste pensando que iba a derivar en migral,
+   pero la siesta aunque imperfecta lo corrigio, luego me levante, me
+   bañe, y merende y ya estoy normal. Un tiro sacado de la raya.
+   

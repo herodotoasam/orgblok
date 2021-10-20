@@ -4902,6 +4902,9 @@ primer mm hecho luego de la obra sobre array
 
     Instale org-roam y le voy entendiendo es lo mismo que obsidian
     pero basado en orgmode, con el formato orgmode y el entorno orgmode.
+*** [2021-10-20 Wed]
+    avanzo en la maquetacion de notas, con vim, sintiendo que vim
+    vuela programando estas cosas faciles que no tienen mucho cortar y pegar.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
