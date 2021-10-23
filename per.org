@@ -193,10 +193,13 @@
     caso tendria que hacer un nuevo plan de contingencia que envuelva
     actividades educativas y programaticas para que llene el vacio de
     tiempo que esta rutina que tengo me produce.
+*** [2021-10-21 Thu]
+    Existe alguna otra posibilidad de estudio o plan de lectura que no
+    sea tecnologico, que sea referido a otra materia?. 
 * arreglos habitacionales
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
-** TODO ropa de invierno 
+** DONE ropa de invierno 
    separar la ropa de invierno usable en los esquemas actuales y esa
    poner en las cajas azules y hacer una bolsa de plastico sorpresa
    encintada correctamente y subirla al entrepiso. Ahi tambien iria el
@@ -418,6 +421,9 @@
 | [2021-10-18 Mon] | 20 | si  | 4hs  |                           |          |
 | [2021-10-19 Tue] | 20 | si  | 3hs  |                           |          |
 | [2021-10-20 Wed] | 20 | si  | 5hs  |                           |          |
+| [2021-10-21 Thu] | 10 | si  | 5hs  |                           | 1 Migral |
+| [2021-10-22 Fri] | 10 | si  | 2hs  |                           |          |
+| [2021-10-23 Sat] | 10 |     |      |                           |          |
 |                  |    |     |      |                           |          |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
@@ -646,4 +652,26 @@
    en la maquina, y me acoste pensando que iba a derivar en migral,
    pero la siesta aunque imperfecta lo corrigio, luego me levante, me
    bañe, y merende y ya estoy normal. Un tiro sacado de la raya.
+** [2021-10-21 Thu] 7hs 10mg
+   dormi bien levante un poco flojo.
+   hoy comence la reduccion.
+   desde el mediodia como siempre un dolor jaquecoso central bifronte
+   con notas traseras tambien, bastante fuerteson, lo mismo me pongo
+   ha hacer cosas a ver que pasa.
+   Pase todos los papeles mas o menos bien, pero luego la cabeza me
+   estallaba, y considere que ya habia probado siesta y trabajo que no
+   quedaba mas que tomarme un migral, y lo tome a las 16.30, y hizo un
+   efecto moderado, son las 18hs y todavia tengo una resaca
+   importante. Lo que paso es que se demoro mucho la toma.
+   Son las 19:30 y estoy semiadolorido, resacoso, como apaleado,
+   confuso, y eso que hace tres horas tome un migral. 
+** [2021-10-22 Fri] 7hs 10mg
+   dormi bien. me levante bien sin dolor, pero muy cansado, me costo
+   muchisimo hacer las series y tender la cama.
+   el dolor amago con establecerse pero mucho mas leve que ayer
+** [2021-10-23 Sat] 7hs 10mg
+   dormi bien, levante bien, pero muy debil sigo igual que ayer, costo
+   mucho hacer las series.
+   Sin dolor hasta ahora, son las 15hs y ya tuve una siesta de dos
+   horas.
    

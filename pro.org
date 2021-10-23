@@ -4905,6 +4905,59 @@ primer mm hecho luego de la obra sobre array
 *** [2021-10-20 Wed]
     avanzo en la maquetacion de notas, con vim, sintiendo que vim
     vuela programando estas cosas faciles que no tienen mucho cortar y pegar.
+*** [2021-10-21 Thu]
+    estos ultimos dos dias estoy un poco que no tengo ganas de ver
+    ningun video, ni de leer nada, estoy como fusilado. 
+    Me parece que no me queda nada en la cabeza que no recuerdo
+    ninguna palabra de ingles, que es como si no hubiera estudiado
+    nada estos ultimos tres meses. Como si la cabeza estubiera embotada.
+
+    A pesar de que ayer reflexionaba que en vista de las
+    circunstancias tenia que ver el nuevo plan de contingencia 2022 en
+    modo interno y diseñar otro tipo de motivaciones para ser mas
+    productivo.
+
+    Pensaba a la siesta que me falta un sistema de estudio, en general
+    que sea eficiente y me sirva a mi. Algo que combine los mm y el
+    repaso espaciado, y a la vez la elaboracion del material que no
+    deje solo librado a la lectura. 
+
+    Agregue un habit mas para el estudio del ingles controlado por
+    habits: words, o sea el repaso de 15 minutos de cualquier deck y
+    cualquier sistema.
+    Creo que hasta ahora funciona bien la motivacion por el habito
+    llevo 8 dias con 45 minutos destinados a esas tareas que puede que
+    no se reflejen mucho ahora pero son acumulativas. 
+
+    Es como que no puedo avanzar mas alla de cierto nivel de
+    complejidad.
+    Me pregunto si la motivacion por aprender me vendria si encaro una
+    nueva materia, p.e. ruby o php-laravel. 
+*** [2021-10-22 Fri] php-hell
+    anoche destine una hora a php sin mucho entusiasmo por el lenguaje
+    en si mismo, solo para ver si picaba. En realidad no se bien que
+    hacer si seguirlo o dejar ahi mismo. 
+    La verdad que estoy trabado. La unica forma de destrabarse que veo
+    es como estoy haciendo con el ingles por medio del habito, pero
+    tampoco puedo recargar mucho o de golpe el habits con estudio. 
+
+    Hice con cierta soltura la validacion de fechas para pasar ventas
+    y fechado.
+*** [2021-10-23 Sat] book flask - zettelkasten
+    anoche empeze a leer el libro de flask, y creo que vale la pena
+    profundizar sobre flask, pq tengo un proyecto importante hecho en
+    flask y estaria bueno entender ahora como lo hice.
+
+    Lo otro de ayer fue un video sobre el sistema zettelkasten, que se
+    basaba originalmente en hojas A6 casualmente del mismo tamaño que
+    queria implementar yo dias atras. Usa A6 para que cada ficha sea
+    atomica, o sea un solo tema, y tenga referencias a otras
+    fichas. Usa una numeracion alfanumerica que permite la insersion
+    sin fin entre fichas de ser necesario. (1,2 - 1.a 1.b 2 - 1.a
+    1.b.1 1.b.2 2 etc.)
+    Yo mas que el relacionamiento le veo al repaso programado por eso
+    me inclino mas por la ficha fisica y no por sistemas digitales,
+    que impiden el repaso.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -7194,7 +7247,7 @@ sudo. El resto todo igual y bien.
    son 22 paginas aparentemente
 ** DONE arreglo de ventas.html
    sacar las variables sueltas y ponerlas en un objeto cliente.
-** TODO validacion de campos fecha pmovto y primera
+** DONE validacion de campos fecha pmovto y primera
 ** DONE sistema de manejo de asuntos
 *** DONE hacer tabla asuntos y modal de carga de asunto
 *** DONE hacer html listado de asuntos con borrar/editar/completado

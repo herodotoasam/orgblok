@@ -7839,3 +7839,63 @@ D $1000.00
 2021/10/20 reserva
     assets:reserva           10000
     assets:caja             -10000
+
+2021/10/21 ingresos
+    assets:reserva                   60000
+    income:retiro sociedad          -60000
+
+2021/10/21 saco reservas
+    assets:caja             $60000
+    assets:reserva         $-60000
+
+2021/10/21 farmacia
+    expenses:gastos medicos:farmacia            2950
+    assets:caja                                -2950
+
+2021/10/21 ospe
+    expenses:servicios:OSPE        37186.55
+    assets:caja                   -37186.55
+
+2021/10/21 claro
+    expenses:servicios:claro         2855.03
+    assets:caja                     -2855.03
+
+2021/10/21 epec 09/2021
+    expenses:servicios:epec         5106.70
+    assets:caja                    -5106.70
+
+2021/10/21 aguas cordobesas 09/2021
+    expenses:servicios:aguas cordobesas         1274.41
+    assets:caja                                -1274.41
+
+2021/10/21 dgr casa 2021-11/12
+    expenses:impuestos:casa:dgr            1960
+    assets:caja                           -1960
+
+2021/10/21 impuesto bora 2021/09/10
+    expenses:impuestos:bora          832.90
+    assets:caja                     -832.90
+
+2021/10/21 impuesto inmobiliario 2021/09-10
+    expenses:impuestos:casa:municipal         1301.66
+    assets:caja                              -1301.66
+
+2021/10/21 dif
+    expenses:diferencia arqueo           92.75
+    assets:caja                         -92.75
+
+2021/10/21 comida
+    expenses:comida            1960
+    assets:caja               -1960
+
+2021/10/22 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2021/10/22 entrada fiesta Fabian
+    expenses:personal:varios            3000
+    assets:caja                        -3000
+
+2021/10/23 comida
+    expenses:comida            1000
+    assets:caja               -1000
