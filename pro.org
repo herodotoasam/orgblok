@@ -4958,6 +4958,13 @@ primer mm hecho luego de la obra sobre array
     Yo mas que el relacionamiento le veo al repaso programado por eso
     me inclino mas por la ficha fisica y no por sistemas digitales,
     que impiden el repaso.
+*** [2021-10-24 Sun] vuelta a la lectura comun? - active recall
+    ayer pense en plantar toda lectura tecnica pq en los hechos estoy
+    parado, o reducirla a periodos de 15min que es lo que realmente
+    estoy haciendo y empezar a leer un libro normal, cualquiera para
+    redirigir la mente a otro lado.
+
+    Se nota el avance en los cuadraditos, de a poco se va notando.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6049,6 +6056,7 @@ timido comienzo muy debil en estudio de js.
    jueves ruby-hell desechado. Decido continuar solo con javascript-english
 ** semana [2021-10-10 Sun] :Javascript:emacs:vim:english:i3:
 ** semana [2021-10-17 Sun] :Javascript:emacs:english:i3:Vue:
+** semana [2021-10-24 Sun] :emacs:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

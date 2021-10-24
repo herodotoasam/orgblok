@@ -212,10 +212,10 @@
    Hecho [2021-10-07 Thu]. Se acomodaron los libros, quedan las
    maquinas arriba para su acomodo en su momento, pero es limpiable el
    sitio de otra manera.
-** TODO computadoras
+** DONE computadoras
    o bien ponerlas en el entrepiso forradas con bolsa de plastico y
    encintada o arriba del placard en el lugar que deje la caja idem.
-** TODO cajas arriba del placard
+** DONE cajas arriba del placard
    las de computacion al entrepiso y la de recuerdos abajo del placard.
 ** TODO romper recibos y tirar
    tirar los recibos que saque al patio, puede ser mojandolos y
@@ -424,6 +424,7 @@
 | [2021-10-21 Thu] | 10 | si  | 5hs  |                           | 1 Migral |
 | [2021-10-22 Fri] | 10 | si  | 2hs  |                           |          |
 | [2021-10-23 Sat] | 10 |     |      |                           |          |
+| [2021-10-24 Sun] | 10 | si  | 2hs  |                           |          |
 |                  |    |     |      |                           |          |
 ** Comentarios:
    decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
@@ -674,4 +675,18 @@
    mucho hacer las series.
    Sin dolor hasta ahora, son las 15hs y ya tuve una siesta de dos
    horas.
+   Felizmente despues de 6 dias consecutivos con dolor un dia completo
+   sin dolor hasta ahora. 
+** [2021-10-24 Sun] 7hs 10mg
+   levante bien, dormi bien, y levante con un poco mas de energia para
+   hacer las series que los ultimos dos dias.
+   mientras dormia tenia una basesita de dolor que se limpio un poco
+   al levantarme y desayunar. Felizmente termine el trabajo hacia las
+   15hs sin mayores molestias, solo con un incipiente dolorcillo.
+   me dormi una siesta hasta las cinco y alli el dolor crecio en forma
+   importante y pensaba que me iba a resultar un domingo como el
+   pasado o sea doloroso, pero me levante a comer las almendras, pero
+   no me hice cafecito y luego me volvi a acostar y se me paso,
+   merende y prendi la maquina de nuevo: a hacer los cuadraditos!!.
+   
    

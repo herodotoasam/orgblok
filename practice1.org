@@ -1309,3 +1309,72 @@ Part D
    2. The sun is very hot today.
    3. Did you see the Pope when you went to Rome?
    4. The sky went very grey and it started to rain.
+   5. I hope I can go round the world one day.
+   6. The Prince of Wales is visiting our town next week.
+   7. What is the capital of Sweden?
+   8. It was very cold in the sea today.
+   9. How many countries are in the European Community?
+   10. I once met the Prime Minister of Spain.
+** 34 some, any with countable and uncountable nouns
+ I'd like a biscuit.
+          a glass of milk.
+	  a sandwich.
+	  some milk.
+	  some bread.
+	  some toast.
+	  
+ Countable nouns: a + singular countable noun.
+ biscuit, glass and sandwich are countable nouns.
+ We can count them: one biscuit, two biscuit, three biscuit.
+ Countable nouns can be singular or plural.
+
+ Uncountable nouns: some + singular uncountable noun.
+ milk, bread, toast are uncountable nouns.
+ We cannot count them.
+ We cannot say: a milk, a bread, a toast.
+                two milks, two breads, three toasts.
+ Uncountable nouns are always singular.
+
+ We can also use "the" before countable and uncountable nouns.
+** 34 Practice
+   | paper       | U |   |
+   | coffee      | U |   |
+   | cassette    | C |   |
+   | information | U |   |
+   | bottle      | C |   |
+   | soup        | U |   |
+   | pen         | C |   |
+   | metal       | U |   |
+   | book        | C |   |
+   | rice        | U |   |
+   | spaghetti   | U |   |
+   | child       | C |   |
+   | milk        | U |   |
+   | news        | U |   |
+   | job         | C |   |
+   | homework    | U |   |
+   | apple       | C |   |
+   | toothpaste  | U |   |
+   | bath        | C |   |
+   | salt        | U |   |
+   | girl        | C |   |
+   | money       | U |   |
+   | knife       | C |   |
+   | egg         | C |   |
+   | table       | C |   |
+   | shampoo     | U |   |
+   | coat        | C |   |
+   | water       | U |   |
+   | tea         | U |   |
+   | flour       | U |   |
+   | bread       | U |   |
+   | bag         | C |   |
+   | ball        | C |   |
+   | soap        | U |   |
+   | food        | U |   |
+   | cup         | C |   |
+   | cat         | C |   |
+   | meat        | U |   |
+   | honey       | U |   |
+
+que es soap?
