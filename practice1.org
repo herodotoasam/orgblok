@@ -1376,5 +1376,314 @@ Part D
    | cat         | C |   |
    | meat        | U |   |
    | honey       | U |   |
+soap: jabon
+** 35 Counting the uncountables
+   I'd like a glass of water, please.
+   Did you buy a bag of sugar?
+   We do not say one water, two waters, etc but we can count:
+   - the number of litres/kilos:
+     a litre of milk
+     two kilos of potatoes
+   - the containers:
+     a bottle of water
+     three jars of jam (frascos de mermelada)
+   - the pieces:
+     two slices of bread (dos rodajas de pan)
+     a piece of chocolate
+   - the item you buy:
+     a loaf of bread (una barra de pan)
+     a bar of chocolate
+** 35 practice
+   1. a bottle of shampoo
+   2. a tin of soup (una lata de jabon)
+   3. a bag of sugar
+   4. a loaf of bread
+   5. a carton of juice
+   6. a bar of soap
+   7. a tube of toothpaste
+   8. a glass of water
+   9. a jar of honey
+   10. a slice  of bread
+** 36 a, an, some
+   Can I have a sandwich?
+   I usually have an egg for breakfast.
+   There are some eggs in the fridge.
+   We've got some bread.
 
-que es soap?
+   a, an + singular countable noun: a sandwich
+   some + plurar countable noun: some eggs
+   some + uncountable noun: some bread
+** 37 some and any: positive, negative and question
+   I've got an orange.
+            some oranges.
+	    some bread.
+   some in positive sentences
+
+   Have you got... an orange?
+   Is, Are there... any oranges?
+   I haven't got... any bread.
+   any in question and negative sentences.
+
+   |               | Singular  | Plural       | Uncontable Nouns |
+   | Positive      | an orange | some oranges | some bread       |
+   | Neg and quest | an orange | any oranges  | any bread        |
+   
+   Offers and request:
+   We usually use some using Would you like...? question and Can I
+   have ...? questions:
+
+   Would you like some oranges? / some bread / an orange
+   Can I have some oranges? / some bread / an orange
+** 37a practice
+  1. Have you got any juice in the fridge?
+  2. There are some letters on the floor.
+  3. I had a cup of tea but I didn't have any toast.
+  4. You need some flour and an egg.
+  5. I'd like some rice but I don't want any potatoes.
+  6. Would you like a bowl of soup?
+  7. He gave me some tea but he didn't put any sugar in it.
+  8. There are some nice trees in the garden but there aren't any flowers.
+  9. Can I have a glass of orange juice?
+  10. There are some knives and forks on the table but there isn't any
+      salt or peper.
+** 37b
+   1. a
+   2. the
+   3. the
+   4. the
+   5. some ANY Have you got any fresh fish tonight?
+   6. some
+   7. some
+   8. the SOME and would you like some vegetables with your fish?
+   9. a
+   10. some
+   11. some
+   12. any
+   13. a
+   14. a
+   15. the
+   16. some
+   17. the A I don't want a starter but...
+   18. a
+   19. some
+   20. a
+   21. some
+   22. any
+   23. the
+* quickly, slowly, badly: adverbs of manner
+  She's a slow learner.   -> She learns slowly.
+  She's a careful driver. -> She drives carefully.
+  He's a quick worker     -> He works quickly.
+
+  Adjective + ly:
+  beautiful -> beautifully
+  careful   -> carefully
+  quick     -> quickly
+
+  Irregulares:
+  good      -> well
+  hard      -> hard
+  fast      -> fast
+  late      -> late
+  early     -> early
+
+  Notes:
+  spelling:
+  terminados en y : -> ily
+  angry -> angrily
+  happy -> happily
+
+  Word order:
+  Adverbs of manner usually go after the verb:
+  She drives carefully.
+  or after the verb + object
+  You speak Spanish well.
+** 38a Write the adverbs
+   1. softly
+   2. quickly
+   3. angrily
+   4. slowly
+   5. nicely
+   6. quietly
+   7. calmly
+   8. perfectly
+   9. politely
+   10. badly
+   11. beautifully
+   12. hard
+   13. sadly
+   14. carefully
+   15. well
+   16. fast
+   17. clearly
+** 38b
+   1. hard
+   2. beautifully
+   3. well
+   4. quietly
+   5. perfectly
+   6. fast
+   7. clearly
+   8. carefully
+   9. calmly
+   10. politely
+** 38c
+   1. They work slowly
+   2. He drives dangerously
+   3. She writes carefully
+   4. I sing loudly
+   5. She swims fast.
+   6. He acts badly.
+   7. Jill paints beautifully.
+   8. You dance terribly.
+   9. They teach well.
+   10. John listens patiently.
+** 38d
+   1. This music is too loud. We can't talk.
+   2. She played badly and she lost the game.
+   3. We waited patiently for the letter but it never came.
+   4. Please don't be angry with him.
+   5. She asks intelligent questions.
+   6. The children are playing together very nicely today.
+   7. She's a very warm person and everyone likes her.
+   8. She surprised me when she opened the door suddenly.
+   9. You speak English very well.
+   10. It's dangerous to swim in the sea here.
+* 39 bigger than..., more expensive than... comparative adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  One-syllable adjectives:
+  cheap  --> cheaper
+  clean  --> cleaner
+  dark   --> darker
+  big    --> bigger
+  adj + er than
+
+  Spelling:
+  big --> bigger
+
+  two-syllable adjectives ending in y:
+  pre-tty (two bigger than..., more expensive than... comparative
+  adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  
+  two-syllable adjectives ending in y:
+  pre-tty (two bigger than..., more expensive than... comparative
+  adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  One-syllable adjectives:
+  cheap  --> cheaper
+  clean  --> cleaner
+  dark   --> darker
+  big    --> bigger
+  adj + er than
+
+  Spelling:
+  big --> bigger
+
+  two-syllable adjectives ending in y:
+  pre-tty (two bigger than..., more expensive than... comparative
+  adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  One-syllable adjectives:
+  cheap  --> cheaper
+  clean  --> cleaner
+  dark   --> darker
+  big    --> bigger
+  adj + er than
+
+  Spelling:
+  big --> bigger
+
+  two-syllable adjectives ending in y:
+  pre-tty (two bigger than..., more expensive than... comparative
+  adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  One-syllable adjectives:
+  cheap  --> cheaper
+  clean  --> cleaner
+  dark   --> darker
+  big    --> bigger
+  adj + er than
+
+  Spelling:
+  big --> bigger
+
+  two-syllable adjectives ending in y:
+  pre-tty (two bigger than..., more expensive than... comparative
+  adjectives with er and more
+  This restaurant is more expensive than the one across the road.
+  Sue's friendlier than her sister.
+  Please be more careful.
+  She's five years older than her husband.
+
+  One-syllable adjectives:
+  cheap  --> cheaper
+  clean  --> cleaner
+  dark   --> darker
+  big    --> bigger
+  adj + er than
+
+  Spelling:
+  big --> bigger
+
+  two-syllable adjectives ending in y:
+  pretty -->  prettier
+  happy  -->  happier
+  dirty  -->  dirtier
+  adj without y + ier than
+
+
+  Other two-syllable adjectives:
+  careful --> more careful
+  worried --> more worried
+  Most other two-syllable adjectives use more:
+  more + adjective than
+
+  Adjectives of three or more syllables:
+  ex-pen-sive (three syllables)
+  in-tell-i-gent (four syllables)
+  expensive -->  more expensive
+  intelligent --> more intelligent
+  beautiful   --> more beautiful
+  interesting --> more interesting
+  more + adjective than
+
+  irregular comparatives
+  good  --> better
+  bad   --> worse
+
+  Notes:
+  You can use a bit, a lot, much before comparatives:
+  She's a lot happier now.
+  I'm a bit older than you.
+  This book is much more interesting than the other one.
+
+  After than you can use me, you, her, him, us, them:
+  You're taller than me.
+  They arrived earlier than us.
+
+  or you can use I, you, etc + auxiliary (am, is, was, were, do, does,
+  did, etc)
+  You're taller than I am.
+  They arrived earlier than we did.
+

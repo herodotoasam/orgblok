@@ -4965,6 +4965,119 @@ primer mm hecho luego de la obra sobre array
     redirigir la mente a otro lado.
 
     Se nota el avance en los cuadraditos, de a poco se va notando.
+*** [2021-10-25 Mon] habits y A6
+    buscando un metodo de aprendizaje en general para todo tipo de
+    material, que me sea propio, que funcione para mi, pienso que lo
+    mas fuerte que tengo es el engranaje del habits, como ha sido
+    demostrado estos ultimos diez dias con ingles y los cuadraditos de
+    quince minutos y alguna elaboracion para que quede algo para
+    repasar: y alli pienso en los papelitos A6 ordenados por tema con
+    un codigo alfanumerico que comience con una letra alusiva al tema
+    y luego numeros correlativos. Estos ZCs los puedo programar para
+    repasar espaciadamente y guardar luego de recuerdo para algun
+    repaso futuro, como tengo las fichas de hace tanto tiempo ha.
+    El A6 es chico para que sea atomico, no necesariamente tiene que
+    contener un monton de informacion, puede ser escrito, puede ser
+    mm, puede ser una tabla. 
+    lo que falta es la motivacion, lo que veo renacer en estos dias
+    con el ingles, por eso pienso que un metodo completo que envuelva
+    las dos partes para los otros temas tambien sera motivante y
+    altamente efectiva con el correr de los dias. 
+*** [2021-10-26 Tue] ruby puro
+    ayer me entusiasme con ruby como lenguaje puro, sin aplicaciones
+    practicas ulteriores. 
+    solo por la belleza del lenguaje. Y para leer/aprender algo que no
+    sepa, pq leer el libro de flask me esta aburriendo pq ya conozco
+    todo lo que dice o la mayoria de las cosas son inaplicables pq son
+    obsoletas o no aplican pq se hacen por javascript.
+    La diferencia con el ruby-hell del [2021-10-08 Fri] es que este
+    saltaba rapidamente a rails dejando de lado ruby, o sea una
+    obsesion por ir a la practica. 
+*** [2021-10-27 Wed]
+    ayer hice 5 horas y media de ruby entre lectura del libro y
+    distintos tutoriales. Bastante entusiasmado con el tema. 
+    hoy no estoy muy optimo fisicamente para igualar esa marca pero
+    sigo enchufado con el tema, igual pienso que para que un proyecto
+    como este cuaje tiene que superar la barrera de los 20 dias y
+    transformarse en habito para lograr un abarcamiento mas general de
+    la materia. O mas aun.
+    Hoy hice lectura y practica y tarjetas con ruby mas o menos 3hs
+    hasta ahora, mas lo que siga haciendo hasta dormirme. Es mas que
+    interesante me gusta un monton el lenguaje en si. Y aparte
+    descubro que las aplicaciones "ulteriores" donde python jugaba
+    fuerte como machine learning, pandas etc tambien las tiene y las
+    hace ruby. y ni hablar de rails, lo que debe ser sabiendo manejar
+    bien los conceptos de ruby.
+    Tengamos en cuenta que solo llevo "dos dias", en cambio javascript
+    p.e. lo vengo estudiando de una forma u otra hace un año mas o
+    menos.
+
+    Hoy me costo un poco hacer los cuadraditos, pero obviamente los
+    hice pq estan dentro del habits y luego de hechos me dio gusto
+    haberlos hecho. Obviamente el estudio del ingles seria un desastre
+    sin esa traccion y ese ordenamiento que le puso el habits.
+
+    Igual hoy con las fichitas de ruby, no tenia ganas de hacerlas, y
+    empece con una sola y termine haciendo 5. 
+*** [2021-10-28 Thu]
+    hoy es el tercer dia de ruby, sigo leyendo y sigo aprendiendo de a poco.
+*** [2021-10-29 Fri]
+    hoy es el cuarto dia de ruby. Intento fallido de instalar
+    rails. Problema ahi. Voy a seguir intentando pq en el pasado no
+    tuve problemas, aunque si la instalacion de rails era mas
+    complicada que gems install rails.
+*** [2021-10-30 Sat] 
+    estoy instalando ruby y rails desde cero a ver como me va. Si no
+    se puede abandono todo y me pongo con python. jaja no era una
+    broma.
+    Yay! You're on rails!
+    pude instalarlo pq segui paso a paso las instrucciones de
+    gorails. voy a abrir un archivo rails.org para poner todas las
+    cosas resueltas ahi.
+    Ultimo momento!!! python-hell!! abandono de ruby por python. 
+    pasa con todos los lenguajes, paso con js, con python y ahora con
+    ruby, cuando se pone mas complicado, alli lo abandono. Pero en
+    ruby no he hecho nada todavia.
+*** [2021-10-31 Sun] parece que si que me quedo con Python
+    por lo menos ayer me pase la tarde viendo videos de python y creo
+    que puede ser interesante profundizar en el.
+    De ultima se podria hacer un habit de lun a sab que tuviera tres
+    partes python-lecture, python-video, python-practice que sean de
+    15 a 30 minutos cada uno
+** 2021-Noviembre
+*** [2021-11-01 Mon]
+    7to mes consecutivo de registros: may-jun-jul ago-set-oct nov 
+    lo unico que tengo al dia de hoy es el ancla de los cuadraditos
+    que ha impedido que naufrague en la inconsistencia el proyecto de
+    estudiar ingles.
+    Un intento fallido de estudiar ruby. Una idea renovada de
+    emprender python de nuevo por enesima vez sin mucho entusiasmo,
+    pero con el atenuante de que todo esto esta en el marco de una
+    crisis sin precedentes de energia quizas producida por la toma del
+    corticoide. O sea sobrevivo cada dia como puedo, no puedo
+    pretender mas. 
+*** [2021-11-02 Tue] vuelta a ruby 
+    hoy comence a pintar la galeria asi que no hice nada en la mañana.
+    Ayer hice algo de python en practica y vi unos videos, me gustaria
+    ver videos de un tema por vez hasta dominarlo por completo
+    hice el algoritmo de primos con ruby, y anduvo perfecto en el
+    mismo tiempo que py, y el programa tomo 6 lineas menos y es mucho
+    mas elegante, lo cual dice que no es el tema el lenguaje sino el
+    algorritmo, el problema es como planteamos los problemas y como lo
+    solucionamos.
+    Me dio ganas de volver a la carga con ruby y seguir con los
+    algorritmos hasta agotar el tema por lo menos o hasta manejar bien
+    el tema.
+
+    En otro orden, hoy se demostro que habits tira fuerte cuando la
+    situacion es adversa, hoy los cuadraditos no se hubieran hecho
+    para nada, sin embargo los hice, con dolor de cabeza y todo, pq no
+    queria romper el invicto. 
+*** [2021-11-03 Wed] libro "I love Ruby"
+    anoche vi ese libro y me parece intermedio y bueno como para
+    leerlo en este momento en que se algo del lenguaje pero me falta
+    completar algunos huecos.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6057,6 +6170,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-10-10 Sun] :Javascript:emacs:vim:english:i3:
 ** semana [2021-10-17 Sun] :Javascript:emacs:english:i3:Vue:
 ** semana [2021-10-24 Sun] :emacs:english:i3:
+** semana [2021-10-31 Sun] :emacs:english:i3:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
