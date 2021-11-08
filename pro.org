@@ -5073,11 +5073,47 @@ primer mm hecho luego de la obra sobre array
     situacion es adversa, hoy los cuadraditos no se hubieran hecho
     para nada, sin embargo los hice, con dolor de cabeza y todo, pq no
     queria romper el invicto. 
-*** [2021-11-03 Wed] libro "I love Ruby"
-    anoche vi ese libro y me parece intermedio y bueno como para
+*** [2021-11-03 Wed] busco un libro de Ruby para leer 
+    anoche vi I love Ruby libro y me parece intermedio y bueno como para
     leerlo en este momento en que se algo del lenguaje pero me falta
-    completar algunos huecos.
+    completar algunos huecos. Empece pero no me gusto.
+    Ahora estoy probando con Eloquent Ruby.
+*** [2021-11-04 Thu] 
+    es lindo eloquent ruby, pero es muy complicado de leer el ingles
+    que tiene, o sea es muy avanzado, comparado con el otro de
+    matz. Practicamente no le entiendo. Asi que no me sirve mucho.
+    Creo que se aprende mucho tambien programando, por eso el programa
+    que estoy haciendo con todos los contratiempos que me genera me va
+    enseñando con los bugs y errores propios.
+*** [2021-11-05 Fri]
+    muy bueno el libro de Matz, es entendible y profundo a la vez en
+    el tema ruby, lo unico que no me gusta es cuando habla de ruby
+    1.8, perdiendo el tiempo en una version vieja.
+    Me preguntaba anoche cuantas horas se necesitaran para aprender a
+    fondo un lenguaje de programacion? si para aprender ingles dicen
+    que se necesitan 650hs, cuantas horas se necesitan para aprender ruby?
+*** [2021-11-06 Sat]
+    muy lento avanza la lectura de ruby. Esta bien hay dias que leo
+    dos horas, pero ayer solo 25min... Pienso que tendria que leer al
+    menos dos horas por dia para que avance un poco. Lo que sea de ruby.
     
+    ¿Avanzan los cuadraditos? a veces pienso que no pasa nada, que
+    nunca voy a aprender ingles para nada, pero luego veo que al menos
+    los cuadraditos me mantiene estudiando en forma constante, todos
+    los dias, algun dia se veran los resultados
+*** [2021-11-07 Sun]
+   solo lectura paciente se va incrementando de a poco la comprension
+*** [2021-11-08 Mon] 
+    tema aspero el ultimo leido de ruby clausuras, proc, lambdas,
+    bloques, y busque esos titulos en la web en español y lei dos o
+    tres articulos y llegue a entender bastante bien la cuestion, por
+    lo cual pienso que hay que seguir investigando y leyendo para
+    aprender mas.
+    
+    Otro tema: hoy pensaba que los cuadraditos no los hacia pq estaba
+    muy desalentado, y como siempre que estoy asi empiezo por lo mas
+    dificil y empece por practice y luego con word, y ya lo que me
+    falta es nada, asi que no me hace problemas. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6219,6 +6255,11 @@ o pone file: y luego elige el archivo y hace un hiperlink
 ** [2020-07-12 Sun]
 *** CcCs Scheduled en orgmode
     y poniendole adentro +1 hacemos el vto periodico
+** [2021-11-03 Wed]
+   reinstale de cero pq habia fallas en emacs, de la nada me repetia
+   texto, principalmente en el archivo de practice.org.
+   Y notaba diferencias con respecto a antes, en la apertura de los
+   nodos en el org en general.
 * agenda linux general
 ** firefox
 *** [2020-07-05 Sun]

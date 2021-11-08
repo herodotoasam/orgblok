@@ -8011,3 +8011,147 @@ D $1000.00
 2021/11/03 pan
     expenses:comida             150
     assets:caja                -150
+
+2021/11/05 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/11/05 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/11/05 resma y toner
+    expenses:casa:mantenimiento            1350
+    assets:caja                           -1350
+
+2021/11/05 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/11/05 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/11/05 ecogas 2021/05
+    expenses:servicios:ecogas            2002
+    assets:caja                         -2002
+
+2021/11/05 fibertel
+    expenses:servicios:fibertel           $4098
+    assets:caja                          $-4098
+
+2021/11/05 luces cami
+    expenses:casa:mantenimiento         $223.13
+    assets:caja                        $-223.13
+
+2021/11/05 construluz romi
+    expenses:casa:mantenimiento         $598.62
+    assets:caja                        $-598.62
+
+2021/11/05 hiper libertad
+    expenses:comida         $604.72
+    assets:caja            $-604.72
+
+2021/11/05 tablet fravega
+    expenses:personal:varios           $3422
+    assets:caja                       $-3422
+
+2021/11/05 afeitadora fravega
+    expenses:personal:varios            $622
+    assets:caja                        $-622
+
+2021/11/05 moda marques z-set
+    expenses:isabel           $1063
+    assets:caja              $-1063
+
+2021/11/05 hiper libertad z-set
+    expenses:comida            $756
+    assets:caja               $-756
+
+2021/11/05 rio shop z-set
+    expenses:isabel         $1181.5
+    assets:caja            $-1181.5
+
+2021/11/05 lucia villamoro z-set
+    expenses:ih           $8853
+    assets:caja          $-8853
+
+2021/11/05 zapatillas ih
+    expenses:isabel           $2180
+    assets:caja              $-2180
+
+2021/11/05 seguro auto
+    expenses:servicios:la caja seguros           $3988
+    assets:caja                                 $-3988
+
+2021/11/05 netflix
+    expenses:servicios:netflix        $1097.13
+    assets:caja                      $-1097.13
+
+2021/11/05 farmacity web
+    expenses:gastos medicos:farmacia         7048.40
+    assets:caja                             -7048.40
+
+2021/11/05 carusso
+    expenses:servicios:carusso        $2008.58
+    assets:caja                      $-2008.58
+
+2021/11/05 almacen ferretero
+    expenses:casa:mantenimiento            2610
+    assets:caja                           -2610
+
+2021/11/05 donweb
+    expenses:personal:varios             399
+    assets:caja                         -399
+
+2021/11/05 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos         1109.91
+    assets:caja                                            -1109.91
+
+2021/11/05 almohadones
+    expenses:ih            2000
+    assets:caja           -2000
+
+2021/11/08 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/11/08 saco reservas
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/11/08 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/11/08 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/11/08 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/11/06 empanadas
+    expenses:comida             480
+    assets:caja                -480
+
+2021/11/07 pollo
+    expenses:comida             880
+    assets:caja                -880
+
+2021/11/08 ih
+    expenses:isabel            2000
+    assets:caja               -2000
+
+2021/11/08 cami taxi
+    expenses:cami:extras            $500
+    assets:caja                    $-500
+
+2021/11/08 pan
+    expenses:comida            $150
+    assets:caja               $-150
+
+2021/11/08 gatos
+    expenses:comida:gatos             300
+    assets:caja                      -300
