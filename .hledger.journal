@@ -8155,3 +8155,95 @@ D $1000.00
 2021/11/08 gatos
     expenses:comida:gatos             300
     assets:caja                      -300
+
+2021/11/09 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/11/09 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/11/09 farmacia hosp italiano
+    expenses:gastos medicos:farmacia            6630
+    assets:caja                                -6630
+
+2021/11/10 pan
+    expenses:comida             100
+    assets:caja                -100
+
+2021/11/10 fiambreria
+    expenses:comida            2330
+    assets:caja               -2330
+
+2021/11/10 super
+    expenses:comida             700
+    assets:caja                -700
+
+2021/11/10 farmacia hp
+    expenses:gastos medicos:farmacia            2875
+    assets:caja                                -2875
+
+2021/11/10 extra cami tarjeta
+    expenses:cami:extras            4000
+    assets:caja                    -4000
+
+2021/11/10 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/11/10 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/11/10 bono cami
+    expenses:cami:extras           20000
+    assets:caja                   -20000
+
+2021/11/11 ingresos
+    assets:reserva                  $20000
+    income:retiro sociedad         $-20000
+
+2021/11/11 saco reserva
+    assets:caja             $20000
+    assets:reserva         $-20000
+
+2021/11/11 hiper
+    expenses:comida            6430
+    assets:caja               -6430
+
+2021/11/12 farmacia hp
+    expenses:gastos medicos:farmacia            1180
+    assets:caja                                -1180
+
+2021/11/14 empanadas
+    expenses:comida             730
+    assets:caja                -730
+
+2021/11/15 farmacia
+    expenses:gastos medicos:farmacia            1570
+    assets:caja                                -1570
+
+2021/11/16 verdura
+    expenses:comida            2580
+    assets:caja               -2580
+
+2021/11/16 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/11/16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/11/16 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/11/16 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/11/16 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000

@@ -1,0 +1,3 @@
+* instalacion de ruby y rails
+ [[https://gorails.com/setup/ubuntu/20.04#ruby-rbenv][instalar ruby en ubuntu 20.04]] 
+ paso a paso con rbenv

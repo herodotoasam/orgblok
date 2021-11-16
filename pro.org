@@ -5114,6 +5114,80 @@ primer mm hecho luego de la obra sobre array
     muy desalentado, y como siempre que estoy asi empiezo por lo mas
     dificil y empece por practice y luego con word, y ya lo que me
     falta es nada, asi que no me hace problemas. 
+*** [2021-11-09 Tue] Ruby Monks
+    encontre anoche una pagina de ruby con un material muy bueno para
+    leer progresivamente ruby, ampliaremos.
+*** [2021-11-10 Wed]
+    continue leyendo hora y media.
+    es impresionante el poder de los habits. Te permite pasar de la
+    barrera de los primeros minutos de ñañunzio que te lleva a no
+    hacer lo que habias previsto hacer.
+*** [2021-11-11 Thu]
+    continuo leyendo ruby-monks ayer una hora.
+    considero que el ritmo de lectura va muy lento pq no hay
+    programacion en el medio. El numletras.rb es algo pero no esta
+    terminado y no emplea muchas de las cosas nuevas que estoy
+    aprendiendo.
+*** [2021-11-12 Fri]
+    poco pude hacer ayer. voy a un paso muy lento.
+    ayer el habits tracciono los cuadraditos en forma extrema ya.
+*** [2021-11-13 Sat]
+    ayer se produjo un curioso cambio de viento con relacion a
+    ruby-python y empece a leer python de nuevo. Parte porque no le
+    veo continuidad en el futuro al resultarme incomprensibles los que
+    siguen o sea sinatra, rails, hanami, etc. y no porque me falten
+    muchos temas por ver de ruby. 
+    No se todavia estoy a tiempo de recapacitar y seguir viendo si le
+    encuentro la vuelta.
+    
+    Estoy aflojando en mi fuerza de voluntad respecto a los
+    cuadraditos, se que el habit es poderoso y lo lleva adelante pero
+    me parece muy duro hacerlo 7 dias a la semana, o querer hacerlo 7
+    dias a la semana, aunque tengo agendado 6, y pienso bajarlo a 5.
+    Un poco me invade el desanimo respecto a estudiar ingles pq no veo
+    que tenga progreso de ningun tipo, o sea llevo treinta dias de
+    cuadraditos y no he avanzado nada o al menos eso percibo. Quizas
+    sea momento de replantearme el formato de estudio o hacerle alguna
+    correccion.
+*** [2021-11-14 Sun]
+    lo unico que tengo pendiente para hoy es hacer un plan de estudios
+    basico para python o mas bien un temario y delinear como siguen
+    los cuadraditos el segundo mes.
+*** [2021-11-15 Mon] se cayo habits
+    desde ayer se me cayo habits, se me acabo el willpower. Se me
+    rompieron los cuadraditos y volaron por los aires. Cumplieron un
+    mes y volaron. No tengo mas ganas de seguirlos.
+    No pude seguir los nuevos de limpiar la habitacion y bath, y me
+    cuesta un monton el hacer cereal para el desayuno.
+    No se que hacer. Si tirar todo a la mierda o dejar pasar un rato y
+    despues seguir como si nada.
+    El no-willpower se manifiesta con una soñolencia atroz. Y un
+    desgano total. 
+    Hace muchos años lei que cuando uno atraviesa un bache asi lo
+    mejor es levantar el pie del acelerador y esperar que pase, y
+    luego seguir, no desesperar no frenar no volver atras, no destruir
+    lo que se hizo hasta ahora. Tomarse un descanso.
+    A medida que avanza el dia mas se acentua el paro general de
+    actividades en todos los habits, una rebelion total, que no se
+    vislumbraba dias atras. Seran los dulces?? No se.
+*** [2021-11-16 Tue] nuevo plan english
+    un nuevo english centrado en el primer objetivo que es el reading
+    que es lo que queria en un primer momento, que es ampliar el
+    vocabulario.
+    Esta basado en:
+    1. recoleccion de terminos: de distinta fuente, p.e. los articulos
+       diversos que leo, anotando en libreta o en hoja el termino y la oracion.
+    2. la carga en anki
+    3. la practica de words
+    4. la practica de grammar
+    Estos dos ultimos items seran controlados a diario por habits,
+    practica de words y grammar. 
+    Con esto pienso que aumentare el caudal de palabras manejadas y de
+    conocimiento gramatical para entender mas el reading.
+    
+    Plan inmersion python: me-gustaria un plan inmersion total en
+    python que consista en lectura de articulos y practica de codigo,
+    con anotacion de fichas si se puede.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6207,6 +6281,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-10-17 Sun] :Javascript:emacs:english:i3:Vue:
 ** semana [2021-10-24 Sun] :emacs:english:i3:
 ** semana [2021-10-31 Sun] :emacs:english:i3:
+** semana [2021-11-07 Sun] :emacs:english:i3:ruby:
+** semana [2021-11-14 Sun] :emacs:english:i3:python:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
