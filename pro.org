@@ -5188,6 +5188,20 @@ primer mm hecho luego de la obra sobre array
     Plan inmersion python: me-gustaria un plan inmersion total en
     python que consista en lectura de articulos y practica de codigo,
     con anotacion de fichas si se puede.
+    
+    Instale lubuntu en la maquina vieja para tener mayor comodidad de
+    teclado y raton en el escritorio, y para tener sonido desde la
+    compu para ver videos y porque se me canto. Y tambien por los
+    problemas que me presentaba emacs, vamos a ver si siguen en ubuntu
+    21.10.
+*** [2021-11-17 mié]
+    todavia no comienzo con ningun proyecto, estoy en stand-by.
+*** [2021-11-18 jue]
+    sigo vacio de proyectos, solamente anoche repasada varios sitios
+    anotados de python con material para leer y estudiar muy
+    interesantes pero nada mas que eso, de ahi para adelante
+    nada. Estoy muy parado, solamente basado en una serie de netflix.
+    desganada e indiferente.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6461,6 +6475,9 @@ bien hasta ahora.
 ** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
 ** [2021-07-09 Fri] instalacion de uma 20.02 cinnamon en amd8gb
 ** [2021-10-12 Tue] instalacion de uma 20.02 cinnamon con i3 en intel9th
+** [2021-11-16 mar] desinstalo con fallas en emacs
+   vamos a ver si son atribuibles al s.o. o si se repiten en el otro
+   sistema tambien.
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
@@ -6618,6 +6635,7 @@ pero es algo continuo en cambio el otro molestaba que era variable.
     todo pq se pone cuando estoy viendo videos. CAsi me hace desistir
     pero ya lo arregle.
 *** desinstalo el [2021-05-09 dom] por fallas reiteradas (cuelgues)
+*** instalo lubuntu [2021-11-16 mar] con i3
 * agenda MX-19
 ** instalacion [2021-05-09 dom]
    instalado sin problemas, veremos que pasa.
