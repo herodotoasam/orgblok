@@ -1,1 +1,6 @@
-t2ghMsVMTqcP 179.43.127.47 5088
+179.43.127.47
+sfmdwj84N6UL
+------------
+ssh -p 5088 root@179.43.127.47
+scp -P 5088 root@179.43.127.47:/root/backup.sql ~/backup.sql
+scp -P 5088 -r templates/ *.py root@179.43.127.47:/var/www/webApp/webApp/

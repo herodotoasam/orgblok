@@ -9,7 +9,9 @@ hfj024@gmail.com - ataraxia76
 clonar via http que es la opcion directa que te da, con password
 ataraxia76
 
-** crear clave ssh en gitlab segun instrucciones
+** crear clave ssh segun las siguientes instrucciones 
+   ssh-keygen -t rsa -b 2048 -C "hfj024@gmail.com"
+   xclip -sel clip < ~/.ssh/id_rsa.pub
 ** emacs
 *** Nuevo nuevo Emacs
     instalar fuente firacode y Cantarell

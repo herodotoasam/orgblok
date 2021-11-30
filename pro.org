@@ -5202,6 +5202,196 @@ primer mm hecho luego de la obra sobre array
     interesantes pero nada mas que eso, de ahi para adelante
     nada. Estoy muy parado, solamente basado en una serie de netflix.
     desganada e indiferente.
+    A la tarde me sente en la maquina un par de horas, luego de hacer
+    la caja, me puse con el words de ingles un tiempo bastante largo y
+    luego me puse un poco con sinatra.rb y ruby por arribita, hasta
+    casi las 9 de la noche. Pase casi 3horas en esto.
+*** [2021-11-19 Fri] alienacion descubierta "tenes que hacer algo"
+    Cual es la causa por la cual estoy con la cabeza quemada y no
+    puedo aprovechar una circunstancia tan favorable de no tener que
+    trabajar afuera con un teletrabajo tan poco demandante y no
+    aprovecharla para algo util?
+    Primero que nada debo resaltar la falta de respeto hacia el
+    trabajo que desarrollo y que he desarrollado durante la pandemia,
+    o sea dentro de la division de trabajo yo me quede con el pasado
+    de papeles y aparte desarrolle el sistema web que es un salto
+    cualitativo de datos para la empresa gigante y eso lo hice en el
+    año de pandemia. Pq si contamos que de marzo a setiembre mas o
+    menos no se trabajo, hay un año laboral "perdido" que es el año de
+    la pandemia y en ese año tuve esa produccion.
+    Ahora el Fede esta saliendo a la calle, sin demasiados brios con
+    algunas fallas a mi modo de ver, pero en el fondo es un gran
+    avance tener un sistema nuevo y fresco que genere venta.
+    Si yo tomara mas consciencia de que mi trabajo es valido y que
+    hago mi aporte no estaria considerando que "no trabajo". Eso es lo
+    que tengo que definir primero.
+    Luego viene el problema depresivo/energetico, o sea me levanto mas
+    que mal hago las rutinas de ejercicio y cama, desayuno, y luego me
+    siento frente a la maquina y siento un vacio enorme pq no se que
+    carajo hacer, no siento ganas de hacer nada, ni siquiera de
+    escribir una bitacora, si tengo trabajo de oficina lo hago a
+    durisimas penas como una tortura a pesar de que en el fondo lo
+    considero una salvacion de la situacion pq me da la posibilidad de
+    hacer algo, y ni hablemos de las otras cosas como estudiar algo,
+    ver un video o programar. Me agarra la soñolencia extrema y eso
+    que recien me levanto y no puedo estar. 
+    A la noche no leo nada, hace mucho que no leo ningun material no
+    veo ningun video, tengo la cabeza quemada. 
+    Aparte del hecho de que estoy monotematico con la programacion
+    como unico tema y dentro de la programacion me obligo a elegir un
+    solo tema que en este momento seria python. No tengo cabida a otro
+    tipo de libros o de intereses de ningun tipo.
+    Pero asimismo no se concreta, o sea no hay una concrecion en ese
+    monotema en el sentido de que tampoco es que lo ponga en practica.
+    
+    El otro dia me pregunte si acaso el problema estaba en la materia,
+    si no era acaso que no me gustaba quizas el tema, que dedicandome
+    a otra cosa quizas me fuera mejor. Y no encontre respuesta.
+    En el fondo es una alienacion. Es como un circulo vicioso, 1)
+    quiero saber a fondo un tema en este caso programar en python,
+    pero 2) no estoy dispuesto a estudiar y 3) en el medio estoy
+    inmovilizado.
+    Esa inmovilizacion del dia a dia por considerarme insuficiente,
+    fallado, en falta, etc me impide hacer quizas un monton de cosas
+    que podria hacer si me pusiera y a lo mejor las disfrutaria mas.
+    Por ejemplo todas las tareas de renovacion que pensaba hacer en la
+    casa una vez dividida. 
+    Es como que "tengo que hacer algo" pero en el fondo no hago nada,
+    pero esa consciencia de "tener-que-hacer-algo" es alienante.
+
+    Un parrafo para el ingles en el formato de cuadraditos, si bien es
+    cierto que 4 a veces resultaba mucho, pienso que 2 puede ser una
+    meta bastante realizable y se puede seguir traccionando hacia
+    adelante en el aprendizaje en un ritmo normal, tranquilo y sin
+    pausa.
+    
+    Se podria cambiar esta bitacora a agenda general en vez de agenda
+    de estudio.
+
+    ¿Que pasaria si no estudio nada? ¿que pasa si solo me dedico a
+    mirar videos y a leer libros de cualquier cosa? Nada. Porque ahora
+    tengo la cabeza quemada y mas quemada que lo que estoy ahora no
+    puedo estar, es mas esta sesion de autosicoterapia es una muestra
+    de un buen primer paso dado en direccion de un cambio.
+*** [2021-11-20 Sat] continuacion del analisis
+    el error en el analisis de ayer es pensar que el problema la
+    alienacion del "tenes que hacer algo". Y que liberado del mismo
+    ahi mismo voy a querer hacer cosas diversas y entretenidas.
+    El problema es que tengo el cerebro quemado y no puedo
+    concentrarme en nada. Es como si tuviera la memoria llena, tengo
+    la cabeza llena de pensamientos de todo tipo que me vienen del
+    pasado de todas las epocas posibles y me trastornan el presente y
+    no puedo hacer nada. 
+    Tengo que tenerme un poco de paciencia en este momento. 
+*** [2021-11-21 Sun]
+    por un momento luego de tomar el migral me sobrevino una sensacion
+    de bienestar o sea de poder cambiar de hacer cosas. Y alli pense
+    hacer una lista de las cosas que he estado evitando o temiendo, y
+    basado en el principio de que nuestro mayor poder reside en
+    dominar las cosas que mas tememos, ir a la ejecucion de esas
+    cosas. Y alli pense p.e. invertir primero un poco en ropa para
+    estar mas en condiciones de salir o enfrentar ciertos compromisos,
+    (p.e. un par de camisas mc, un jean, unas zapas, un par de
+    remeras), luego propiciar o proponer los encuentros que mas
+    esquivo para no estar pendiente de eso. Etc. la explosion de
+    serotonina abarcaba todo, desde el uso de herramientas hasta el
+    dominar python o perfeccionar el sistema o salir a tener un grupo
+    propio. No se cuanto de fantasia puede tener esto, lo develare en
+    los proximos dias u horas.
+*** [2021-11-22 Mon]
+    ayer vi un video cortito y motivador que hablaba de los primeros
+    dos minutos, que superando la barrera de los dos minutos se
+    encuentra la motivacion para hacer las cosas que evitamos porque
+    consideramos el total de lo que queremos hacer y llegamos a
+    overwhelming (abrumarnos). 
+    ayer hice 45 minutos de grammar y otros tantos de words, tanto en
+    agregar un par de palabras mas como en una reiterada practica
+    durante el dia.
+    Hoy segui un poco menos que ayer el ingles, pero lo hice.
+*** [2021-11-23 Tue] nuevas ideas
+    1. caminar:
+       levantarme a las 7.30hs prepararme e irme a caminar a la
+       colectora lo que pueda, luego venir, ducharme y estar listo
+       para ir a hacer lo que tenga que hacer de jornada.
+    2. radicalizar la dieta:
+       seguir con el mijo y agregar mas cereales y legumbres y
+       vegetales y complementos.
+    3. evitar la siesta:
+       si la mayoria de los dolores de cabeza vienen despues de dormir
+       la siesta probar no dormir la siesta y hacer algo distinto
+    La idea de caminar basicamente viene para ver si podemos romper el
+    circuito de la falta de energia que padezco a diario. Ese agobio
+    tiene que cortarse, tiene que terminarse de algun
+    modo.
+*** [2021-11-24 Wed]
+    van tres dias que al menos sigo con la rutina de words y grammar.
+*** [2021-11-25 Thu] metodo para vencer la fatiga?
+    a la par que sufro una fatiga muy impresionantemente fuerte me
+    llama la atencion que cuando tengo que hacer diligencias externas
+    normalmente las hago, como si hubiera una adrenalina interna que
+    empujara al cuerpo a actuar y a desempeñarse con normalidad.
+    Esta mañana luego de una larga pasada de ventas con fatiga
+    incluida, hago una pausa muy fatigosa y me tiro en la cama, y alli
+    descubro un metodo para vencer a la fatiga??.
+    Me pongo a tensar los musculos como en una especie de calistenia
+    acostado, y se me fue ese ñañunzio de flojedad y me vino las ganas
+    de hacer algo fisico, me levanto y hago press que tenia pendiente,
+    y ahi mismo me puse a limpiar la pieza que era lo que mas atrasado
+    tenia con gran energia, debo decir que solo senti el comienzo del
+    dolor de espalda tipico de la actividad fisica pero se me fueron
+    los sintomas de la fatiga y quede incluso con ganas de hacer mas
+    cosas.
+    No se si se repetira, habra que probar otras veces y ver pero fue
+    muy positivo.
+*** [2021-11-26 Fri] 
+    probe por segunda vez el metodo y funciono bastante bien, con un
+    objetivo mayor incluso que ayer, pq me limpie el living, con mopa
+    y todo algo que nunca lo habia hecho y no senti ni sofocon, ni
+    palpitaciones, ni tampoco dolores relevantes de espalda. Con lo
+    cual se dan vuelta todas las especulaciones sobre el significado
+    de la fatiga que venia padeciendo pq no se explica como algo
+    fisico, sino mas bien sicologico. Pq no solo que logro hacer estas
+    cosas impensables en mi estado, y en cualquier estado, como lo del
+    living, sino que te da ganas de hacer mas cosas.
+*** [2021-11-27 Sat]
+    siguen las pruebas al metodo, y una nueva prueba mas grande esta
+    vez el patio.
+    Pero no avanzo en el estudio, pero no importa mientras no caiga en
+    el aburrimiento, ni en el marasmo.
+    Estoy leyendo Focus, le meti un par de capitulos.
+*** [2021-11-28 Sun]
+    dia de pasado de papeles.
+*** [2021-11-29 Mon]
+    dia de pintura
+    a nivel pruebas de energia creo que vamos bien, aunque de a poco,
+    pq si las consideramos netamente son avances muy pequeños casi
+    nulos que no significan nada  en terminos absolutos (limpiar un living, pintar dos
+    parecitas, acomodar un poco el patio), pero en terminos relativos,
+    comparado a como estaba yo antes de esto con una situacion de
+    fatiga general total, es otro el tono muscular.
+    Es cierto a nivel estudio estoy mal. Atravieso un bache a nivel
+    ingles, pensando que es enorme lo que hay que saber y que nunca lo
+    voy a alcanzar. Y a nivel programacion una desmotivacion total,
+    que impide todo avance en el tema. 
+    A nivel animico estoy muy bien, quizas estoy con el mejor de los
+    animos, pq tengo alguito de energia, que me permite encarar
+    algunas cosas, tendria que ver cuales. Y volver a articular la
+    fuerza de voluntad para querer poder hacer algo, o sea revitalizar
+    el habits. 
+    Me parece que en los ultimos tiempos funcionaba en formato
+    supervivencia unicamente o sea que solamente pensaba en como pasar
+    el dia y llegar a la noche para acostarme de nuevo.
+    Por eso no me planteo un plan de accion que se base en un acuerdo
+    con mis ansiedades fundamentales presentes y futuras.
+*** [2021-11-30 Tue]
+    termine la pintura. pero quede muy cansado digamos agotado, tanto
+    por la breve pintada como por levantarme temprano pienso, y por la
+    vagancia en general que me sigue. hice un poco de papeles y quedo
+    fusilado.
+    a la tarde tengo que terminar de pasar las ventas. Pero al menos
+    dormire un poco de siesta despues de comer. De estudio nada de
+    nada.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6297,6 +6487,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-10-31 Sun] :emacs:english:i3:
 ** semana [2021-11-07 Sun] :emacs:english:i3:ruby:
 ** semana [2021-11-14 Sun] :emacs:english:i3:python:
+** semana [2021-11-21 Sun] :emacs:english:i3:python:
+** semana [2021-11-28 Sun] :emacs:english:i3:python:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -6475,9 +6667,10 @@ bien hasta ahora.
 ** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
 ** [2021-07-09 Fri] instalacion de uma 20.02 cinnamon en amd8gb
 ** [2021-10-12 Tue] instalacion de uma 20.02 cinnamon con i3 en intel9th
-** [2021-11-16 mar] desinstalo con fallas en emacs
+** [2021-11-16 mar] dejado de usar por fallas en emacs
    vamos a ver si son atribuibles al s.o. o si se repiten en el otro
    sistema tambien.
+** [2021-11-18 Thu] vuelvo a usarlo pq el otro es peor que este
 * agenda bunsen
 ** [2020-08-27 jue] instalacion bunsen helium debian 10
 sobre intel 9na 4mb.
@@ -7509,3 +7702,4 @@ sudo. El resto todo igual y bien.
 *** DONE hacer tabla asuntos y modal de carga de asunto
 *** DONE hacer html listado de asuntos con borrar/editar/completado
 *** DONE impresion de asuntos pendientes por cobrador
+** TODO fechar bien luego de condonar.

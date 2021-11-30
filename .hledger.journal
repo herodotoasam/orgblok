@@ -8267,3 +8267,199 @@ D $1000.00
 2021-11-18 saco reserva
     assets:caja              20000
     assets:reserva          -20000
+
+2021/11/18 ih
+    expenses:isabel             100
+    assets:caja                -100
+
+2021/11/18 dif
+    expenses:diferencia arqueo            1630
+    assets:caja                          -1630
+
+2021/11/19 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/11/19 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/11/19 municipal casa 2021/11
+    expenses:impuestos:casa:municipal             647
+    assets:caja                                  -647
+
+2021/11/19 municipal bora
+    expenses:impuestos:bora            $414
+    assets:caja                       $-414
+
+2021/11/19 aguas cordobesas 10/2021
+    expenses:servicios:aguas cordobesas         1954.59
+    assets:caja                                -1954.59
+
+2021/11/19 epec 10/2021
+    expenses:servicios:epec          4924.1
+    assets:caja                     -4924.1
+
+2021/11/19 claro
+    expenses:servicios:claro            2873
+    assets:caja                        -2873
+
+2021/11/19 ospe
+    expenses:servicios:OSPE       $37186.55
+    assets:caja                  $-37186.55
+
+2021/11/19 farmacia hp
+    expenses:gastos medicos:farmacia            1450
+    assets:caja                                -1450
+
+2021/11/19 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/11/19 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/11/19 mano de obra patio
+    expenses:casa:mantenimiento           18000
+    assets:caja                          -18000
+
+2021/11/21 cami extras
+    expenses:cami:extras            1000
+    assets:caja                    -1000
+
+2021/11/21 comida
+    expenses:comida            1700
+    assets:caja               -1700
+
+2021/11/21 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/11/21 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2021/11/21 pollos
+    expenses:comida             880
+    assets:caja                -880
+
+2021/11/22 ih
+    expenses:isabel             500
+    assets:caja                -500
+
+2021/11/23 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/11/23 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/11/23 comida
+    expenses:comida            1690
+    assets:caja               -1690
+
+2021/11/23 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/11/23 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/11/24 peluquero
+    expenses:peluqueria             700
+    assets:caja                    -700
+
+2021/11/24 ropa
+    expenses:personal:ropa            1900
+    assets:caja                      -1900
+
+2021/11/24 comida
+    expenses:comida             770
+    assets:caja                -770
+
+2021/11/24 repuesto baño
+    expenses:casa:mantenimiento             230
+    assets:caja                            -230
+
+2021/11/24 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/11/25 ih
+    expenses:isabel            1500
+    assets:caja               -1500
+
+2021/11/25 lomito
+    expenses:comida             550
+    assets:caja                -550
+
+2021/11/25 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2021/11/25 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/11/25 saco reservas
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/11/25 lady
+    expenses:comida:gatos             700
+    assets:caja                      -700
+
+2021/11/25 devolucion prestamo romi
+    assets:caja                  10000
+    assets:deudas romi          -10000
+
+2021/11/25 pintura plavicon
+    expenses:casa:mantenimiento           10000
+    assets:caja                          -10000
+
+2021/11/28 empanadas
+    expenses:comida             500
+    assets:caja                -500
+
+2021/11/28 comida
+    expenses:comida            2200
+    assets:caja               -2200
+
+2021/11/28 dif
+    expenses:diferencia arqueo             850
+    assets:caja                           -850
+
+2021/11/29 cami mesada
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/11/29 cami comida
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/11/29 ih mesada
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/11/29 jardinero
+    expenses:casa:mantenimiento:jardineria            1000
+    assets:caja                                      -1000
+
+2021/11/30 cami gimnasio
+    expenses:cami:extras            1300
+    assets:caja                    -1300
+
+2021/11/30 mano de obra techo
+    expenses:casa:mantenimiento            7000
+    assets:caja                           -7000
+
+2021/11/30 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/11/30 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
