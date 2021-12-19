@@ -8428,9 +8428,6 @@ D $1000.00
     expenses:comida            2200
     assets:caja               -2200
 
-2021/11/28 dif
-    expenses:diferencia arqueo             850
-    assets:caja                           -850
 
 2021/11/29 cami mesada
     expenses:cami:mesada           $3000
@@ -8463,3 +8460,331 @@ D $1000.00
 2021/11/30 saco reserva
     assets:caja             $10000
     assets:reserva         $-10000
+
+2021/12/01 cami zapas
+    expenses:cami:extras            3750
+    assets:caja                    -3750
+
+2021/12/01 lavandina
+    expenses:comida:limpieza             200
+    assets:caja                         -200
+
+2021/12/01 verduleria
+    expenses:comida            2350
+    assets:caja               -2350
+
+2021/12/01 pollo
+    expenses:comida             900
+    assets:caja                -900
+
+2021/12/01 empanadas
+    expenses:comida            1500
+    assets:caja               -1500
+
+2021/12/01 dif
+    expenses:diferencia arqueo             850
+    assets:caja                           -850
+
+2021/12/02 farmacia hp
+    expenses:gastos medicos:farmacia            3250
+    assets:caja                                -3250
+
+2021/12/02 fibertel
+    expenses:servicios:fibertel           $4098
+    assets:caja                          $-4098
+
+2021/12/02 ecogas 2021/05
+    expenses:servicios:ecogas            2018
+    assets:caja                         -2018
+
+2021/12/02 luces cami
+    expenses:casa:mantenimiento         $223.13
+    assets:caja                        $-223.13
+
+2021/12/02 construluz romi
+    expenses:casa:mantenimiento         $598.62
+    assets:caja                        $-598.62
+
+2021/12/02 hiper libertad
+    expenses:comida         $604.72
+    assets:caja            $-604.72
+
+2021/12/02 afeitadora fravega
+    expenses:personal:varios            $622
+    assets:caja                        $-622
+
+2021/12/02 tablet fravega
+    expenses:personal:varios           $3422
+    assets:caja                       $-3422
+
+2021/12/02 zapatillas ih
+    expenses:isabel           $2180
+    assets:caja              $-2180
+
+2021/12/02 seguro auto
+    expenses:servicios:la caja seguros            4273
+    assets:caja                                  -4273
+
+2021/12/02 neflix
+    expenses:servicios:netflix        $1097.13
+    assets:caja                      $-1097.13
+
+
+2021/12/02 tropea sa
+    expenses:ih         1331.67
+    assets:caja        -1331.67
+
+2021/12/02 pintureria szumik
+    expenses:casa:mantenimiento             915
+    assets:caja                            -915
+
+2021/12/02 carusso
+    expenses:servicios:carusso        $2008.58
+    assets:caja                      $-2008.58
+
+2021/12/02 donweb
+    expenses:personal:varios             519
+    assets:caja                         -519
+
+2021/12/02 youtube premium
+    expenses:servicios:youtube             308
+    assets:caja                           -308
+
+2021/12/02 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos            1130
+    assets:caja                                               -1130
+
+2021/12/02 gastos tn ih
+    expenses:ih           15712
+    assets:caja          -15712
+
+2021/12/02 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2021/12/02 saco reservas
+    assets:caja              50000
+    assets:reserva          -50000
+
+2021/12/03 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/12/03 cami libro
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2021/12/05 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/12/05 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/12/05 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/12/05 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2021/12/05 cami extra
+    expenses:cami:extras           $1000
+    assets:caja                   $-1000
+
+2021/12/05 mano obra mover maderas patio
+    expenses:casa:mantenimiento            2300
+    assets:caja                           -2300
+
+2021/12/05 mano de obra retiro escombros
+    expenses:casa:mantenimiento            2000
+    assets:caja                           -2000
+
+2021/12/05 carla
+    expenses:isabel            1400
+    assets:caja               -1400
+
+2021/12/05 empanadas
+    expenses:comida             500
+    assets:caja                -500
+
+2021/12/06 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/12/06 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/12/06 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/12/06 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/12/06 cami extra
+    expenses:cami:extras             500
+    assets:caja                     -500
+
+2021/12/06 cami extra
+    expenses:cami:extras             850
+    assets:caja                     -850
+
+2021/12/06 farmacia hp ih
+    expenses:gastos medicos:farmacia            3200
+    assets:caja                                -3200
+
+2021/12/07 carla
+    expenses:isabel             700
+    assets:caja                -700
+
+2021/12/08 comida
+    expenses:comida            1700
+    assets:caja               -1700
+
+2021/12/08 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/12/08 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/12/09 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2021/12/09 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/12/09 tarjeta cami
+    expenses:cami:extras            7100
+    assets:caja                    -7100
+
+2021/12/09 devolucion prestamo romi
+    assets:caja                  12300
+    assets:deudas romi          -12300
+
+2021/12/09 reserva
+    assets:reserva           12300
+    assets:caja             -12300
+
+
+2021/12/10 ingreso
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/12/10 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2021/12/10 cami
+    expenses:cami:extras           10000
+    assets:caja                   -10000
+
+2021/12/10 nafta
+    expenses:transporte:nafta            1500
+    assets:caja                         -1500
+
+2021/12/11 ingreso
+    assets:reserva                   13000
+    income:retiro sociedad          -13000
+
+2021/12/11 saco reserva
+    assets:caja              13000
+    assets:reserva          -13000
+
+2021/12/11 saco reserva
+    assets:caja              85300
+    assets:reserva          -85300
+
+2021/12/11 compra dolares
+    expenses:compra dolares           98250
+    assets:caja                      -98250
+
+2021/12/11 compra dolares
+    assets:reserva u$s            u$s    500
+    income:compra dolares         u$s   -500
+
+
+
+2021/12/11 dif
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
+
+2021/12/11 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2021/12/11 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2021/12/11 cami extras
+    expenses:cami:extras           15000
+    assets:caja                   -15000
+
+2021/12/11 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/12/11 cami comida
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/12/13 devolucion dolares Fede
+    assets:reserva u$s         u$s 800
+    assets:deudores           u$s -800
+
+2021/12/14 comida
+    expenses:comida            1800
+    assets:caja               -1800
+
+2021/12/14 papel higienico
+    expenses:comida            1800
+    assets:caja               -1800
+
+2021/12/14 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/12/14 estacionamiento
+    expenses:transporte:estacionamiento             150
+    assets:caja                                    -150
+
+2021/12/14 dif
+    expenses:diferencia arqueo             749
+    assets:caja                           -749
+
+2021/12/15 fiambreria
+    expenses:comida            1600
+    assets:caja               -1600
+
+2021/12/16 comida
+    expenses:comida             180
+    assets:caja                -180
+
+2021/12/17 comida
+    expenses:comida             150
+    assets:caja                -150
+
+2021/12/19 farmacia
+    expenses:gastos medicos:farmacia             450
+    assets:caja                                 -450
+
+2021/12/19 materiales electricos
+    expenses:casa:mantenimiento             440
+    assets:caja                            -440
+
+2021/12/19 empanadas
+    expenses:comida            1350
+    assets:caja               -1350
+
+2021/12/17 lomitos
+    expenses:comida             850
+    assets:caja                -850

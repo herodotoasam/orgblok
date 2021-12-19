@@ -5391,7 +5391,89 @@ primer mm hecho luego de la obra sobre array
     a la tarde tengo que terminar de pasar las ventas. Pero al menos
     dormire un poco de siesta despues de comer. De estudio nada de
     nada.
+*** [2021-12-01 Wed] 
+    dia sin registros.
+    lo unico que hice fue leer Focus y ver series y declararme
+    totalmente aburrido a eso de las 5 de la tarde.
+*** [2021-12-02 Thu] idea de agenda
+    si el problema es no tener nada programado para hacer, podria
+    emular los compromisos de un trabajo por medio de una "agenda" en
+    la cual programe los eventos que tenga la obligacion de hacer, ya
+    sea salir a comprar ciertas cosas, o tareas de la casa, o tareas
+    de estudio, o tareas de trabajo. Luego podre cancelar o posponer
+    algun compromiso no hay problema pero no es lo mismo a no tener
+    ninguna idea de lo que tenes que hacer en el dia, a tener mas o
+    menos un esquema de actividades. 
+    Ejemplos de actividades:
+    1. tostar y moler sesamo.
+    2. limpiar la habitacion.
+    3. ir a comprar a la dietetica. o algun otro lado.
+    4. llevar el auto al lavadero.
     
+    Ayer en el medio del marasmo mas absoluto porque no solo era
+    fisico sino animico, pq habia llegado luego de dos capitulos de
+    series al aburrimiento mas a fondo, salgo al patio y me pongo a
+    sacar la basura y a hacer otras cositas mas y ahi me olvido de
+    todo, tanto de la debilidad como del aburrimiento, pero tenes que
+    tener algo que hacer.
+*** [2021-12-03 Fri]
+    el estudio esta completamente parado. 
+    el animo esta bien, pero no tengo ganas ni impulso de hacer nada,
+    no tengo fuerza de voluntad para hacer nada de nada.  
+    puede ser que en otro momento retome quizas. Ya me ha pasado antes
+    estar asi sin ningun tipo de motivacion y luego empece con ganas
+    de hacer cosas.
+** 2021-Diciembre
+*** [2021-12-06 Mon]
+    fin de semana sin registro en estudio, pq no hice nada al
+    respecto, salvo hacer algunas cosas en el patio, ver algun
+    capitulo de una serie y dormir. Nada mas.
+    Ahora tengo que hacer una pagina nueva del sistema y estoy
+    bastante anquilosado.
+*** [2021-12-07 Tue]
+    lo milagroso de hoy fue haber hecho de una la pagina de control de
+    calles y acordarme de todo, pq no fue tanto cortar y pegar, sino
+    entender todo y recordar todo.  Y lo magnifico fue como se pasa el
+    tiempo sin que te des cuenta, fueron como dos horas pienso en que
+    ni me di cuenta que el tiempo pasaba. 
+*** [2021-12-08 Wed]
+    dia feriado. Pase dos cobradores. Y nada mas por el momento. 
+*** [2021-12-10 Fri]
+   hace mucho que no estoy en un marasmo tan profundo, pienso que
+   cuando no registraba nada en emacs, o sea el periodo que va de
+   enero a mayo del año pasado, es como ciclico el asunto. 
+*** [2021-12-11 Sat] cuadraditos varios controlados
+    ayer hice algo diferente para recomenzar: me puse a leer ruby en
+    la tablet media hora y eso me motivo, luego hice 15min de grammar
+    y 15min de words.
+    Ademas llegue a la conclusion que puedo encarar distintos
+    proyectos de "15min por dia" controlados por habits para ir
+    llenando el dia con cosas por hacer. 
+    Pienso que la clave esta en la limitacion del tiempo, pq si uno
+    hace tiempo libre puede que un dia motivado haga hora y media pero
+    luego no haces mas. 
+    Y todo acompañado con la "tecnica del recupero" o sea al finalizar
+    tratar de rememorar a libro cerrado lo que uno leyo o vio. 
+*** [2021-12-12 Sun]
+    ayer hice la rutina de cuadraditos pero le falta mucho para ser habitual.
+*** [2021-12-13 Mon]
+    ayer decidi que el cuadradito ruby no va mas y lo reemplace por
+    python, y voy a leer python intermediate, y luego algun otro
+    libro, posiblemente el de poo. Y tambien agrego un cuadradito de
+    js para no olvidar los temas de js que tanto me han beneficiado.
+*** [2021-12-14 Tue]
+   sin registro pq es lamentable el abandono en este ambito
+*** [2021-12-16 Thu] 
+    sigo registrando los dias vacios nomas.
+*** [2021-12-17 Fri]
+    idem
+*** [2021-12-18 Sat] multiples lecturas
+    este es un dia en el cual voy entusiasmandome en hacer una lectura
+    lo mejor que se pueda de un libro fisico, uno por moon, uno por
+    play libros y a la vez tratar de hacer los cuadraditos de ingles
+    que una vez hechos me causan satisfaccion.
+    Faltaria agregarle en el futuro un libro por tablet y un libro por ereader.
+*** [2021-12-19 Sun]
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -7698,8 +7780,11 @@ sudo. El resto todo igual y bien.
 ** DONE arreglo de ventas.html
    sacar las variables sueltas y ponerlas en un objeto cliente.
 ** DONE validacion de campos fecha pmovto y primera
-** DONE sistema de manejo de asuntos
+** TODO [#B] sistema de manejo de asuntos
 *** DONE hacer tabla asuntos y modal de carga de asunto
 *** DONE hacer html listado de asuntos con borrar/editar/completado
 *** DONE impresion de asuntos pendientes por cobrador
+*** TODO ver que vea que un cliente tiene asunto o evitar cargar duplicado
+    el tema es que no siempre me acuerdo si un asunto ya esta cargado
+    y es tedioso revisar a mano si ya esta cargado.
 ** TODO fechar bien luego de condonar.
