@@ -8892,3 +8892,378 @@ D $1000.00
 2021/12/22 comida
     expenses:comida             380
     assets:caja                -380
+
+2021/12/24 comida
+    expenses:comida             780
+    assets:caja                -780
+
+2021/12/24 comida
+    expenses:comida             500
+    assets:caja                -500
+
+2021/12/27 facturas
+    expenses:comida             300
+    assets:caja                -300
+
+2021/12/23 comida
+    3000                   $780
+    assets:caja           $-780
+
+2021/12/23 comida
+    expenses:comida            3000
+    assets:caja               -3000
+
+2021/12/27 comida
+    expenses:comida             400
+    assets:caja                -400
+
+2021/12/28 comida
+    expenses:comida              90
+    assets:caja                 -90
+
+2021/12/28 estacionamiento
+    expenses:transporte:estacionamiento            $100
+    assets:caja                                   $-100
+
+2021/12/28 comida
+    expenses:comida             650
+    assets:caja                -650
+
+2021/12/28 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2021/12/28 comida cami
+    expenses:cami:comida           $4500
+    assets:caja                   $-4500
+
+2021/12/28 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/12/28 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2021/12/28 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2021/12/28 comida
+    expenses:comida             100
+    assets:caja                -100
+
+2021/12/28 jardinero
+    expenses:casa:mantenimiento:jardineria            1700
+    assets:caja                                      -1700
+
+
+2021/12/28 devolucion prestamo romi
+    assets:caja                  11700
+    assets:deudas romi          -11700
+
+2021/12/28 reserva
+    assets:reserva           11700
+    assets:caja             -11700
+
+
+2021/12/29 comida
+    expenses:comida            1900
+    assets:caja               -1900
+
+2021/12/29 comida
+    expenses:comida             380
+    assets:caja                -380
+
+2021/12/27 devolucion dolares Fede
+    assets:reserva u$s         u$s 800
+    assets:deudores           u$s -800
+
+
+2021/12/30 dif
+    expenses:diferencia arqueo          558.37
+    assets:caja                        -558.37
+
+2021/12/31 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2021/12/31 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2021/12/31 comida
+    expenses:comida             810
+    assets:caja                -810
+
+2021/12/31 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2021/12/31 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/01/01 comida
+    expenses:comida            1800
+    assets:caja               -1800
+
+2022/01/02 lomito
+    expenses:comida             500
+    assets:caja                -500
+
+2022/01/02 farmacia
+    expenses:gastos medicos:farmacia             890
+    assets:caja                                 -890
+
+2022/01/03 empanadas
+    expenses:comida             850
+    assets:caja                -850
+
+2022/01/03 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/01/03 comida cami
+    expenses:cami:comida            5500
+    assets:caja                    -5500
+
+2022/01/03 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/01/03 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/01/03 farmacia
+    expenses:gastos medicos:farmacia             600
+    assets:caja                                 -600
+
+2022/01/05 tadicor
+    expenses:comida            4020
+    assets:caja               -4020
+
+2022/01/05 farmacia hp
+    expenses:gastos medicos:farmacia            1600
+    assets:caja                                -1600
+
+2022/01/05 ingresos
+    assets:reserva                   50000
+    income:retiro sociedad          -50000
+
+2022/01/05 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2022/01/05 ecogas 2021/06
+    expenses:servicios:ecogas            1519
+    assets:caja                         -1519
+
+2022/01/05 fibertel
+    expenses:servicios:fibertel            4890
+    assets:caja                           -4890
+
+2022/01/05 luces cami
+    expenses:casa:mantenimiento         $223.13
+    assets:caja                        $-223.13
+
+2022/01/05 construluz romi
+    expenses:casa:mantenimiento         $598.62
+    assets:caja                        $-598.62
+
+2022/01/05 afeitadora fravega
+    expenses:personal:varios            $622
+    assets:caja                        $-622
+
+2022/01/05 tablet fravega
+    expenses:personal:varios           $3422
+    assets:caja                       $-3422
+
+2022/01/05 zapatillas ih
+    expenses:isabel           $2180
+    assets:caja              $-2180
+
+2022/01/05 pintureria szumik
+    expenses:casa:mantenimiento            $915
+    assets:caja                           $-915
+
+2022/01/05 tropea sa
+    expenses:ih        $1331.67
+    assets:caja       $-1331.67
+
+2022/01/05 seguro auto
+    expenses:servicios:la caja seguros           $4273
+    assets:caja                                 $-4273
+
+2022/01/05 netflix
+    expenses:servicios:netflix            1539
+    assets:caja                          -1539
+
+2022/01/05 indonesia
+    expenses:ih             562
+    assets:caja            -562
+
+2022/01/05 hipermercado libertad
+    expenses:comida            2916
+    assets:caja               -2916
+
+2022/01/05 el balcon perfume
+    expenses:ih            2817
+    assets:caja           -2817
+
+2022/01/05 carusso
+    expenses:servicios:carusso            2339
+    assets:caja                          -2339
+
+2022/01/05 farmacia
+    expenses:gastos medicos:farmacia            2792
+    assets:caja                                -2792
+
+2022/01/05 tejano store
+    expenses:personal:ropa             749
+    assets:caja                       -749
+
+2022/01/05 ropa fiestas
+    expenses:ih            4950
+    assets:caja           -4950
+
+2022/01/05 ropa fiestas
+    expenses:ih            4370
+    assets:caja           -4370
+
+2022/01/05 ropa fiestas
+    expenses:ih            3000
+    assets:caja           -3000
+
+2022/01/05 donweb
+    expenses:personal:varios            $519
+    assets:caja                        $-519
+
+2022/01/05 youtube premium
+    expenses:servicios:youtube            $308
+    assets:caja                          $-308
+
+2022/01/05 gastos tarjeta naranja
+    expenses:servicios:tarjeta naranja gastos fijos            1271
+    assets:caja                                               -1271
+
+2022/01/05 creditos devoluciones por compras fiestas
+    assets:caja            4997
+    expenses:ih           -4997
+
+2022/01/05 farmacia hisopado
+    expenses:gastos medicos:farmacia            3000
+    assets:caja                                -3000
+
+2022/01/06 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/01/06 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/01/06 comida
+    expenses:comida             380
+    assets:caja                -380
+
+2022/01/06 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2022/01/08 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2022/01/09 comida
+    expenses:comida            2000
+    assets:caja               -2000
+
+2022/01/06 devolucion dolares Fede
+    assets:reserva u$s         u$s 500
+    assets:deudores           u$s -500
+
+2022/01/09 devolucion dolares Fede
+    assets:reserva u$s         u$s 100
+    assets:deudores           u$s -100
+
+2022/01/10 devolucion dolares Fede
+    assets:reserva u$s         u$s 400
+    assets:deudores           u$s -400
+
+2022/01/11 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/01/11 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/01/11 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/01/11 comida cami
+    expenses:cami:comida           $5500
+    assets:caja                   $-5500
+
+2022/01/11 facturas
+    expenses:comida             500
+    assets:caja                -500
+
+2022/01/11 dif
+    expenses:diferencia arqueo             880
+    assets:caja                           -880
+
+2022/01/13 varios
+    expenses:personal:varios            1000
+    assets:caja                        -1000
+
+2022/01/13 estacionamiento
+    expenses:transporte:estacionamiento             390
+    assets:caja                                    -390
+
+2022/01/13 comida
+    expenses:comida             150
+    assets:caja                -150
+
+2022/01/13 ih
+    expenses:isabel            1700
+    assets:caja               -1700
+
+2022/01/13 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/01/13 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/01/13 farmacia hospital italiano
+    expenses:gastos medicos:farmacia            9900
+    assets:caja                                -9900
+
+2022/01/13 dif
+    expenses:diferencia arqueo            1130
+    assets:caja                          -1130
+
+2022/01/14 comida
+    expenses:comida            1870
+    assets:caja               -1870
+
+2022/01/14 lomito
+    expenses:comida             630
+    assets:caja                -630
+
+2022/01/14 comida
+    expenses:comida             380
+    assets:caja                -380
+
+2022/01/14 devolucion prestamo romi
+    assets:caja                  11900
+    assets:deudas romi          -11900
+
+2022/01/14 reserva
+    assets:reserva           11900
+    assets:caja             -11900
