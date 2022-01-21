@@ -9267,3 +9267,75 @@ D $1000.00
 2022/01/14 reserva
     assets:reserva           11900
     assets:caja             -11900
+
+2022/01/14 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2022/01/14 carla
+    expenses:isabel             800
+    assets:caja                -800
+
+2022/01/16 sandwich
+    expenses:comida            1570
+    assets:caja               -1570
+
+2022/01/16 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/01/16 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/01/16 dif
+    expenses:diferencia arqueo             950
+    assets:caja                           -950
+
+2022/01/18 hiper
+    expenses:comida            5500
+    assets:caja               -5500
+
+2022/01/18 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/01/18 comida cami
+    expenses:cami:comida           $5500
+    assets:caja                   $-5500
+
+2022/01/18 mesada ih
+    expenses:isabel           $2000
+    assets:caja              $-2000
+
+2022/01/18 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2022/01/18 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022/01/18 peluqueria
+    expenses:peluqueria             850
+    assets:caja                    -850
+
+2022/01/18 remi ih
+    expenses:transporte:remis             300
+    assets:caja                          -300
+
+2022/01/18 diff
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
+
+2022/01/20 estacionamiento
+    expenses:transporte:estacionamiento              90
+    assets:caja                                     -90
+
+2022/01/20 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2022/01/20 lady
+    expenses:comida:gatos            $700
+    assets:caja                     $-700
