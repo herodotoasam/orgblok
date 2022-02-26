@@ -9897,3 +9897,271 @@ D $1000.00
 2022/02/13 comida
     expenses:comida            2800
     assets:caja               -2800
+
+2022/02/14 mesada ih
+    expenses:isabel           $2300
+    assets:caja              $-2300
+
+2022/02/14 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2022/02/14 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2022/02/14 estacionamiento
+    expenses:transporte:estacionamiento             390
+    assets:caja                                    -390
+
+2022/02/14 psiquiatra
+    expenses:gastos medicos:psiquiatria             380
+    assets:caja                                    -380
+
+2022/02/14 comida
+    expenses:comida             260
+    assets:caja                -260
+
+2022/02/14 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/02/14 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/02/14 materiales
+    expenses:casa:refacciones            4500
+    assets:caja                         -4500
+
+2022/02/15 estacionamiento
+    expenses:transporte:estacionamiento             240
+    assets:caja                                    -240
+
+2022/02/15 ih
+    expenses:isabel            1500
+    assets:caja               -1500
+
+2022/02/15 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/02/15 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/02/15 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/02/15 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022/02/16 estacionamiento
+    expenses:transporte:estacionamiento            $240
+    assets:caja                                   $-240
+
+2022/02/16 farmacia
+    expenses:gastos medicos:farmacia            1800
+    assets:caja                                -1800
+
+2022/02/17 estacionamiento
+    expenses:transporte:estacionamiento            $240
+    assets:caja                                   $-240
+
+2022/02/17 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/02/17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/02/17 farmacia hospital italiano
+    expenses:gastos medicos:farmacia           $9900
+    assets:caja                               $-9900
+
+2022/02/17 lomito
+    expenses:comida            $730
+    assets:caja               $-730
+
+2022/02/18 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/02/18 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/02/18 lomito
+    expenses:comida            1230
+    assets:caja               -1230
+
+2022/02/18 pan
+    expenses:comida            $100
+    assets:caja               $-100
+
+2022/02/18 mesada ih
+    expenses:isabel           $2300
+    assets:caja              $-2300
+
+2022/02/19 ingresos
+    assets:reserva                  $10000
+    income:retiro sociedad         $-10000
+
+2022/02/19 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022/02/19 bono cami
+    expenses:cami:extras           11000
+    assets:caja                   -11000
+
+2022/02/19 farmacia hi
+    expenses:gastos medicos:farmacia            1270
+    assets:caja                                -1270
+
+2022/02/20 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2022/02/20 extra cami
+    expenses:cami:extras            $500
+    assets:caja                    $-500
+
+2022/02/20 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2022/02/20 pollo
+    expenses:comida            1130
+    assets:caja               -1130
+
+2022/02/21 ingresos
+    assets:reserva                   20000
+    income:retiro sociedad          -20000
+
+2022/02/21 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022/02/21 mano de obra
+    expenses:casa:refacciones          $20000
+    assets:caja                       $-20000
+
+2022/02/21 estacionamiento
+    expenses:transporte:estacionamiento            $240
+    assets:caja                                   $-240
+
+2022/02/21 comida
+    expenses:comida             400
+    assets:caja                -400
+
+2022/02/22 ingresos
+    assets:reserva                   80000
+    income:retiro sociedad          -80000
+
+2022/02/22 saco reserva
+    assets:caja              80000
+    assets:reserva          -80000
+
+2022/02/22 estacionamiento
+    expenses:transporte:estacionamiento            $240
+    assets:caja                                   $-240
+
+2022/02/22 comida
+    expenses:comida             160
+    assets:caja                -160
+
+2022/02/22 aguas cordobesas 01/2022
+    expenses:servicios:aguas cordobesas            1126
+    assets:caja                                   -1126
+
+2022/02/22 epec 01/2022
+    expenses:servicios:epec           16572
+    assets:caja                      -16572
+
+2022/02/22 claro
+    expenses:servicios:claro            3073
+    assets:caja                        -3073
+
+2022/02/22 ospe
+    expenses:servicios:OSPE          $40533
+    assets:caja                     $-40533
+
+2022/02/22 tadicor
+    expenses:comida            6970
+    assets:caja               -6970
+
+2022/02/22 materiales
+    expenses:casa:refacciones            8150
+    assets:caja                         -8150
+
+2022/02/22 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/02/22 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/02/22 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022/02/22 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/02/23 materiales
+    expenses:casa:refacciones            6950
+    assets:caja                         -6950
+
+2022/02/23 estacionamiento
+    expenses:transporte:estacionamiento            $240
+    assets:caja                                   $-240
+
+2022/02/23 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/02/23 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/02/24 comida
+    expenses:comida            1430
+    assets:caja               -1430
+
+2022/02/25 comida
+    expenses:comida             300
+    assets:caja                -300
+
+2022/02/25 lomito
+    expenses:comida             730
+    assets:caja                -730
+
+2022/02/25 ingresos
+    assets:reserva                   40000
+    income:retiro sociedad          -40000
+
+2022/02/25 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2022/02/25 mano de obra
+    expenses:casa:refacciones           13000
+    assets:caja                        -13000
+
+2022/02/26 pollo
+    expenses:comida           $1130
+    assets:caja              $-1130
+
+2022/02/26 mesada ih
+    expenses:isabel           $2300
+    assets:caja              $-2300
+
+2022/02/26 dif
+    expenses:diferencia arqueo             800
+    assets:caja                           -800
