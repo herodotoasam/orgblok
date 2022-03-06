@@ -10165,3 +10165,176 @@ D $1000.00
 2022/02/26 dif
     expenses:diferencia arqueo             800
     assets:caja                           -800
+
+2022/02/27 comida
+    expenses:comida            4000
+    assets:caja               -4000
+
+2022/02/27 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2022/02/27 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2022/02/27 mano de obra
+    expenses:casa:refacciones           30000
+    assets:caja                        -30000
+
+2022/02/28 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2022/02/28 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2022/03/01 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/03/01 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/03/01 facturas
+    expenses:comida            $500
+    assets:caja               $-500
+
+2022/03/01 mano de obra
+    expenses:casa:refacciones            6500
+    assets:caja                         -6500
+
+2022/03/02 ingresos
+    assets:reserva                  120000
+    income:retiro sociedad         -120000
+
+2022/03/02 saco reserva
+    assets:caja             120000
+    assets:reserva         -120000
+
+2022/03/02 materiales
+    expenses:casa:refacciones           13000
+    assets:caja                        -13000
+
+2022/03/02 materiales
+    expenses:casa:refacciones          100600
+    assets:caja                       -100600
+
+2022/03/02 materiales fletes
+    expenses:casa:refacciones            4000
+    assets:caja                         -4000
+
+2022/03/02 materiales mesada
+    expenses:casa:mantenimiento           20400
+    assets:caja                          -20400
+
+2022/03/02 taxis
+    expenses:transporte:remis            1060
+    assets:caja                         -1060
+
+2022/03/02 ingresos
+    assets:reserva                   10000
+    income:retiro sociedad          -10000
+
+2022/03/02 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022/03/02 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022/03/02 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022/03/02 lomito
+    expenses:comida            $730
+    assets:caja               $-730
+
+2022/03/03 peluqueria
+    expenses:peluqueria            1000
+    assets:caja                   -1000
+
+2022/03/03 materiales
+    expenses:casa:refacciones            1000
+    assets:caja                         -1000
+
+2022/03/03 ingresos
+    assets:reserva                  100000
+    income:retiro sociedad         -100000
+
+2022/03/03 ih tn
+    expenses:isabel           63612
+    assets:caja              -63612
+
+2022/03/03 fibertel
+    expenses:servicios:fibertel           $4890
+    assets:caja                          $-4890
+
+2022/03/03 ecogas
+    expenses:servicios:ecogas            1088
+    assets:caja                         -1088
+
+2022/03/03 saco reserva
+    assets:caja             100000
+    assets:reserva         -100000
+
+2022/03/03 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2022/03/03 cami gimnasio
+    expenses:cami:extras           $1600
+    assets:caja                   $-1600
+
+2022/03/03 comida
+    expenses:comida             820
+    assets:caja                -820
+
+2022/03/04 taxis
+    expenses:transporte:remis            1070
+    assets:caja                         -1070
+
+2022/03/04 farmacia
+    expenses:gastos medicos:farmacia            1500
+    assets:caja                                -1500
+
+2022/03/04 materiales
+    expenses:casa:refacciones             300
+    assets:caja                          -300
+
+2022/03/04 farmacia
+    expenses:gastos medicos:farmacia             100
+    assets:caja                                 -100
+
+2022/03/04 consumo isa con tn
+    assets:caja            1800
+    expenses:ih           -1800
+
+2022/03/04 mesada ih
+    expenses:isabel           $2300
+    assets:caja              $-2300
+
+2022/03/06 comida
+    expenses:comida            4000
+    assets:caja               -4000
+
+
+2022/03/06 dif
+    expenses:diferencia arqueo            5300
+    assets:caja                          -5300
+
+2022/03/06 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2022/03/06 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2022/03/06 mano de obra
+    expenses:casa:refacciones           30000
+    assets:caja                        -30000

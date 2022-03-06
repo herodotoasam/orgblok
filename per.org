@@ -312,7 +312,7 @@
     al menos la mitad, 3hs por dia todos los dias. y lo mucho que se
     podria lograr con eso. No lo logro bajo ningun punto de vista y
     tampoco tengo ganas de trabajar, o sea estamos en el horno total.
-* arreglos habitacionales
+* arreglos habitacioles
   [2021-10-07 Thu] anoche se me ocurrieron varias cosas por hacer para
   ir limpiando y minimizando un poco.
 ** DONE ropa de invierno 
@@ -378,7 +378,7 @@
 *** uso del auto
     para usar el auto tengo que dar la vuelta a la manzana y tener una
     llave duplicada
-* registro de sintomas (explain)
+* registro de sintomas 
 ** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
    a las 5am y uno a las 5pm, y a las 8pm me acuesto y a las 9pm el
@@ -1624,4 +1624,42 @@
 ** [2022-01-26 Wed] 2 migral 1am - 17hs
 ** [2022-01-27 Thu] 1 migral
 ** [2022-01-28 Fri] 1 migral
+* cortiterapia 2022
+  UM: [2022-2 Wed] (2 migrales) - se aumenta la dosis de
+  topiramato a 75mg. En una semana se aumentara a 100mg.
+  [2022-03-012hsdiclo-2hs3 Thu] comienzo de cortiterapia 40mg por dia a las 8hs.
+| 1 | [2022-03-03 Thu] | 60mg | 12hs | diclo-kSL |
+| 2 | [2022-03-04 Fri] | 40mg |      |           |
+| 3 | [2022-03-05 Sat] | 40mg | 3hs  | kSL       |
+| 4 | [2022-03-06 Sun] | 40mg |      |           |
+
+** descripcion
+  
+*** [2022-03-03 Thu] 40mg 8hs - 20mg 20hs
+   curse molesto pero no tragico, se empezaron a manifestar luego de
+   una alargada y disconfortable siesta dolores articulares, aparte de
+   la cefalea por eso me incline por un diclo, pero solo me corrigio
+   los dolores articulares, no la cefalea que me siguio, de continuo.
+   No me podia dormir a la noche, y me aumentaba el dolor mandibular
+   hasta hacerlo mas fuerte que el dolor de cabeza y tome un keto
+   sublingual el cual fue positivo pq me mejoro tanto el dolor de
+   mandibula como el de cabeza y pude dormir bien el resto de la noche.
    
+*** [2022-03-04 Fri] 20mg 8hs - 20mg 20hs
+    me levante bien y me fui a la oficina, volvi, estuve levantado,
+    hasta el almuerzo con tareas varias, luego una siesta breve
+    interrumpida pq tenia que venir Fabian, luego me puse a trabajar
+    en la compu tareas varias, y aca estoy a las 18hs sin ningun tipo
+    de dolor, salvo una incipiente jaquecosidad que si no le das
+    bolilla no pasa nada.
+
+*** [2022-03-05 Sat] 20mg 8hs - 20mg 20hs
+    curse poco dolor de cabeza mas que todo a la siesta, lo ataque con
+    un k y fue efectivo a mas o menos una hora horaymedia. para
+    bajarlo de una N5 a un N2.
+    tuve un episodio paralelo de retorcijones muy largo como de tres
+    horas con demora en la evacuacion, cuando al final bajo la
+    diarrea, el dolor se fue. Sospecho de comida o bebida en mal
+    estado.
+    
+*** [2022-03-06 Sun] 20mg 8hs
