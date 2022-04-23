@@ -1628,10 +1628,35 @@
   UM: [2022-2 Wed] (2 migrales) - se aumenta la dosis de
   topiramato a 75mg. En una semana se aumentara a 100mg.
   [2022-03-012hsdiclo-2hs3 Thu] comienzo de cortiterapia 40mg por dia a las 8hs.
-| 1 | [2022-03-03 Thu] | 60mg | 12hs | diclo-kSL |
-| 2 | [2022-03-04 Fri] | 40mg |      |           |
-| 3 | [2022-03-05 Sat] | 40mg | 3hs  | kSL       |
-| 4 | [2022-03-06 Sun] | 40mg |      |           |
+|  1 | [2022-03-03 Thu] | 60mg | 12hs | diclo-kSL             |
+|  2 | [2022-03-04 Fri] | 40mg |      |                       |
+|  3 | [2022-03-05 Sat] | 40mg | 3hs  | kSL                   |
+|  4 | [2022-03-06 Sun] | 40mg | 5hs  | kSL k10               |
+|  5 | [2022-03-07 Mon] | 40mg |      |                       |
+|  6 | [2022-03-08 Tue] | 40mg | 3hs  | k10                   |
+|  7 | [2022-03-09 Wed] | 40mg | 6hs  | k10 k10               |
+|  8 | [2022-03-10 Thu] | 40mg | 3hs  | k10                   |
+|  9 | [2022-03-11 Fri] | 20mg |      |                       |
+| 10 | [2022-03-12 Sat] | 20mg | 4hs  | kSL k10 k10           |
+| 11 | [2022-03-13 Sun] | 20mg |      |                       |
+| 12 | [2022-03-14 Mon] | 20mg |      |                       |
+| 13 | [2022-03-15 Tue] | 20mg | 3hs  | k10 k10 Flocur        |
+| 14 | [2022-03-16 Wed] | 20mg |      |                       |
+| 15 | [2022-03-17 Thu] | 20mg | 1hs  | k10 k10               |
+| 16 | [2022-03-18 Fri] | 20mg |      |                       |
+| 17 | [2022-03-19 Sat] | 20mg |      |                       |
+| 18 | [2022-03-20 Sun] | 20mg |      |                       |
+| 19 | [2022-03-21 Mon] | 10mg |      |                       |
+| 20 | [2022-03-22 Tue] | 10mg |      |                       |
+| 21 | [2022-03-23 Wed] | 10mg | 6hs  | k10 k10 Flocur Flocur |
+| 22 | [2022-03-24 Thu] | 10mg |      |                       |
+| 23 | [2022-03-25 Fri] | 10mg |      |                       |
+| 24 | [2022-03-26 Sat] | 10mg | 6hs  | Flocur Flocur         |
+| 25 | [2022-03-27 Sun] | 10mg |      |                       |
+| 26 | [2022-03-28 Mon] | 10mg | 10hs | Flocur Flocur         |
+| 27 | [2022-03-29 Tue] |      | 4hs  | Flocur Flocur MIGRAL  |
+|    |                  |      |      |                       |
+
 
 ** descripcion
   
@@ -1662,4 +1687,84 @@
     diarrea, el dolor se fue. Sospecho de comida o bebida en mal
     estado.
     
-*** [2022-03-06 Sun] 20mg 8hs
+*** [2022-03-06 Sun] 20mg 8hs - 20mg 19hs
+    curso bien, pero luego del almuerzo familiar me retire con un n2 y
+    tome un ksl y no me suertio efecto sino que subio a las dos horas
+    a un n5 y al rato a un n7 decido levantarme y tomar algo moverme,
+    y me hago un te con pan y tomo un k10mg que fue efectivo en la
+    siguiente hora para bajarmelo a un n2
+    
+*** [2022-03-07 Mon] 20mg 8hs - 20mg 20hs
+    curso bien sin dolor en todo el dia, tomando mucha agua.
+
+*** [2022-03-08 Tue] 20mg 8hs - 20mg 20hs
+    esta cursando bien la mañana. a la siesta como de costumbre se
+    desato un normal n4 y tome un keto10mg que fue efectivo en 3hs.
+    
+*** [2022-03-09 Wed] 20mg 8hs - 20mg 20hs 
+    la jornada mas complicada hasta ahora el dolor fue mas fuerte y
+    mas continuo, tome dos keto 10mg, que lograron controlar a lo
+    largo de 6hs el dolor, yo pensaba que iba a terminar tomando un migral.
+
+*** [2022-03-10 Thu] 20mg 8hs - 20mg 20hs
+    Curso un n2-n4 despues del
+    almuerzo tratado con un keto10 eficazmente.
+
+*** [2022-03-11 Fri] 20mg 8hs
+    comence la reduccion
+    fue un dia completo sin dolor
+
+*** [2022-03-12 Sat] 20mg 8hs
+    bien por la mañana hasta el mediodia mas o menos que me tome un
+    kSL y no me surtio efecto luego me tome dos k10 que ayudado con la
+    necesidad de levantarme para pagarle al Andres, tomarme una buena
+    merienda, y quedarme en la compu a hacer unas tareas agradables,
+    lo fui piloteando, pq era un N6.
+
+*** [2022-03-13 Sun] 20mg 8hs
+    dia completo sin dolor
+
+*** [2022-03-14 Mon] 20mg 8hs
+    dia completo sin dolor, salvo a la tarde algunas minimas molestias
+    pero que no ameritaron tomar nada.
+
+*** [2022-03-15 Tue] 20mg 8hs
+    empezo un n3 a la siesta que se transformo en n5 tome dos keto10
+    juntos, dormi la siesta y en dos horas se transformo en n7, como
+    tenia compromiso y de paso para probar tome un flocur, que resulto
+    efectivo en 45min. 
+*** [2022-03-16 Wed] 20mg 8hs 
+    hasta el momento se presenta un dia optimo
+*** [2022-03-17 Thu] 20mg 8hs
+    un k10mg fue efectivo en media hora contra un n5 luego me levante
+    tome merienda y continue el proceso, luego mas tarde hubo recaida
+    pero no necesite tomar mas nada y para la noche habia limpiado
+    totalmente.
+*** [2022-03-18 Fri] 20mg 8hs
+    dia optimo
+*** [2022-03-19 Sat] 20mg 8hs
+    dia optimo
+*** [2022-03-20 Sun] 20mg 8hs
+    dia optimo
+*** [2022-03-21 Mon] 10mg 8hs
+    dia optimo
+*** [2022-03-22 Tue] 10mg 8hs 
+    dia optimo
+*** [2022-03-23 Wed] 10mg 8hs
+    dia aciago comenzo dolor como a las 14hs y fueron inefectivas las
+    medidas de control, primero dos keto 10mg a las 14hs, y luego un
+    flocur a las 15.10 y otro a las 18hs. El dolor cedio solo a las
+    20hs.
+    Si bien es cierto que pivoteo entre un N5-N6 y no llego nunca a un
+    nivel alto fue molesto e incapacitante social y laboralmente.
+    Rompio una racha de cinco dias sin dolor, y me demostro que el
+    dolor es neuronal, o sea que no depende de ninguna estrategia de
+    nada que pueda yo hacer.
+*** [2022-03-24 Thu] 10mg 8hs
+     dia optimo
+*** [2022-03-25 Fri]
+*** [2022-03-29 Tue]
+    decidi tomar migral pq el flocur es ineficiente y tenia que estar
+    bien pq iba a venir el andres y pq estoy cansado de tener migraña
+    y de sentirme mal.
+
