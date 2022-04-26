@@ -5551,6 +5551,12 @@ primer mm hecho luego de la obra sobre array
     O en el espacio cocina (muebles-alacena-heladera) pueda tener lo
     necesario y a mano para cocinarme lo que me haga falta y me guste
     a mi. 
+** 2022-Abril
+*** [2022-04-26 mar]
+    solucion a la usabilidad de la vista de calle para el trabajo en
+    zona, que tenia un select que era inusable en el celu.
+    
+    Algunas incipientes lecturas de ruby. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -7001,7 +7007,7 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    algunos programas no son reconocidos como
    dpkg-reconfigure locales
    resuelto con su -
-
+** instalacion [2022-04-24 dom]
 * agenda vim
 ** jump previas posiciones
     C-o C-i

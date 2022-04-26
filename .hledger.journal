@@ -11120,3 +11120,39 @@ D $1000.00
 2022/04/23 saco reserva
     assets:caja              60000
     assets:reserva          -60000
+
+2022-04-25 comida
+    expenses:comida             680
+    assets:caja                -680
+
+2022-04-25 comida
+    expenses:comida            1530
+    assets:caja               -1530
+
+2022-04-25 comida
+    expenses:comida            1030
+    assets:caja               -1030
+
+2022-04-25 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-04-25 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-04-25 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022-04-26 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-04-26 comida
+    expenses:comida            5560
+    assets:caja               -5560
+
+2022-04-26 comida
+    expenses:comida            3400
+    assets:caja               -3400
