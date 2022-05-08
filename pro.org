@@ -5557,6 +5557,55 @@ primer mm hecho luego de la obra sobre array
     zona, que tenia un select que era inusable en el celu.
     
     Algunas incipientes lecturas de ruby. 
+*** [2022-04-27 mié]
+    se acabaron las lecturas de ruby, o por lo menos no se transforman
+    en nada en serio, no hay voluntad para hacer nada en serio, por el
+    momento.
+    Si disfrute trabajando sobre el sistema en la reparacion de cosas
+    puntuales y utiles, pero eso no implica un estudio desde cero en
+    forma teorica sin aplicacion real a la vista en lo inmediato.
+    descarge ruby mine aunque tiene una licencia hasta el 27 de mayo
+    para que sirva de incentivo para practicar aunque sea un poco de
+    ruby, y luego veremos que hacemos, de acuerdo a lo que hagamos. Si
+    realmente marca la diferencia o si es lo mismo que el code.
+    por lo pronto estoy trabajando en la class sequence. para
+    analizarla a fondo y aprenderla, y luego ir por los otros
+    programitas que tengo.
+*** [2022-04-28 jue]
+    termine la class sequence en ruby y me di cuenta dos cosas
+    felizmente, una que ruby mine no es un gancho para programar pq lo
+    termine con code al final, y segundo que ruby no es relevante
+    sobre python, con sus end/end/end, es preferible python y estaria
+    dentro del ambito que yo manejo.
+*** [2022-04-30 sáb] idea del archivo unico de estudio
+    tuve una idea bastante buena pienso para estudiar una materia en
+    forma concreta que sirve a varios propositos.
+    Se trata de hacer un archivo org para la materia que contenga
+    arriba un agendamiento del tiempo dedicado al estudio con su
+    correspondiente tabla, y abajo una estructura jerarquica con los
+    temas de la materia para que en el paso del tiempo podamos
+    repasar.
+    Con esto tendriamos:
+    1. la posibilidad de contar efectivamente cuanto tiempo dedicamos
+       al estudio de la materia en cuestion.
+    2. contariamos con un material simple y directo para el repaso
+       rapido en caso que con el paso del tiempo dejemos la materia y
+       olvidemos el tema y quisieramos retormarlo sin tener que volver
+       a la fuente original.
+    3. y todo en un solo archivo.
+    
+    Primer dia abri dos archivos ruby y rails, hice tres horas, lo
+    malo es el dolor de espalda, pero me mantiene entusiasmado, en
+    rails no anote mucho pero voy haciendo paso a paso lo que voy
+    leyendo lo cual me va abriendo al entendimiento, luego vendra el
+    momento pienso para escribir, el tema es entusiasmarse y quedarse.
+*** [2022-05-01 dom] python-hell again
+    nuevamente pense que debo dirigir este impetu de querer aprender
+    algo nuevo para el lado de python en vez de hacerlo para el lado
+    de ruby, y definitivamente olvidarme de ruby, pq python es un
+    continente excesivamente grande para perderse en el y aprender lo
+    que podamos en el.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

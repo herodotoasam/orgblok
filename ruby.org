@@ -1,13 +1,41 @@
-;; This buffer is for text that is not saved, and for Lisp evaluation.
-;; To create a file, visit it with C-x C-f and enter text in its buffer.
 
-* tkvariable - textvariable
-$resultsVar = TkVariable.new
-label['textvariable'] = $resultsVar
-$resultsVar.value = 'New value to display'
+* agenda
+** [2022-04-30 sáb]
+   :LOGBOOK:
+   CLOCK: [2022-04-30 sáb 11:14]--[2022-04-30 sáb 11:38] =>  0:24
+   :END:
+   
+ 
+* contenido
 
-Ruby's Tk binding only allows you to attach to an instance of the
-"TkVariable" class, which contains all the logic to watch for changes,
-communicate them back and forth between the variable and Tk, and so
-on. You need to read or write the current value using the "value"
-accessor, as shown.
+** hash
+   un hash es una estructura de dato tipo llave-valor
+   se escribe entre {}, separados cada elemento con comas,
+   y la llave se separa del valor con =>
+   hash1 = {'nombre' => 'Sergio', 'edad'=> 57}
+   
+   para obtener el valor de una llave se pone:
+   hash1['nombre']
+   
+   para agregar un nuevo valor al hash
+   hash1['ingresos']=400000
+
+   para borrar un elemento del hash
+   hash1.delete('ingresos')
+
+   para recorrer los elementos de un hash usar el metodo each
+   hash1.each {|key,value| puts "#{key} : #{value}"}
+
+   Se puede usar simbolos como llaves en los hash:
+   los simbolos no llevan espacios en blanco, no llevan comillas, y
+   empiezan con dos puntos:   :nombre :edad
+   hash2 = {:nombre => "sergio", :edad => 57}
+   esto se puede simplificar asi:
+   hash2 = {nombre:"sergio", edad:57}
+   hash2[:nombre]
+
+   algunos metodos:
+   lenght
+   keys
+   values
+   haskey?(key)

@@ -11156,3 +11156,83 @@ D $1000.00
 2022-04-26 comida
     expenses:comida            3400
     assets:caja               -3400
+
+2022-04-29 ingresos
+    assets:reserva                  131000
+    income:retiro sociedad         -131000
+
+2022-04-30 pizza
+    expenses:comida            $650
+    assets:caja               $-650
+
+2022-04-30 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-04-30 saco reserva
+    assets:caja             350000
+    assets:reserva         -350000
+
+2022-04-30 inversion romitex
+    assets:prestamo romitex          350000
+    assets:caja                     -350000
+
+2022-04-30 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022-05-06 ingresos
+    assets:reserva                   21800
+    income:retiro sociedad          -21800
+
+2022-05-06 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022-05-06 saco reserva
+    assets:caja              21800
+    assets:reserva          -21800
+
+2022-05-06 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-05-06 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-05-06 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022-05-07 fibertel
+    expenses:servicios:fibertel            2569
+    assets:caja                           -2569
+
+2022-05-07 ecogas
+    expenses:servicios:ecogas           $1353
+    assets:caja                        $-1353
+
+2022-05-07 dgr casa
+    expenses:impuestos:casa:dgr            1460
+    assets:caja                           -1460
+
+2022-05-07 diff
+    expenses:diferencia arqueo             636
+    assets:caja                           -636
+
+2022-05-07 saco reserva
+    assets:caja               1000
+    assets:reserva           -1000
+
+2022-05-07 comida
+    expenses:comida            1200
+    assets:caja               -1200
+
+2022-05-07 lavado auto
+    expenses:transporte:lavado            1200
+    assets:caja                          -1200
+
+2022-05-07 comida
+    expenses:comida           $1200
+    assets:caja              $-1200
