@@ -5599,6 +5599,7 @@ primer mm hecho luego de la obra sobre array
     rails no anote mucho pero voy haciendo paso a paso lo que voy
     leyendo lo cual me va abriendo al entendimiento, luego vendra el
     momento pienso para escribir, el tema es entusiasmarse y quedarse.
+** 2022-Mayo
 *** [2022-05-01 dom] python-hell again
     nuevamente pense que debo dirigir este impetu de querer aprender
     algo nuevo para el lado de python en vez de hacerlo para el lado

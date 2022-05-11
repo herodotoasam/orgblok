@@ -11236,3 +11236,23 @@ D $1000.00
 2022-05-07 comida
     expenses:comida           $1200
     assets:caja              $-1200
+
+2022-05-11 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-05-11 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022-05-11 extra cami
+    expenses:cami:extras            2000
+    assets:caja                    -2000
+
+2022-05-11 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-05-11 diff
+    expenses:diferencia arqueo            1000
+    assets:caja                          -1000
