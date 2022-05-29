@@ -11256,3 +11256,203 @@ D $1000.00
 2022-05-11 diff
     expenses:diferencia arqueo            1000
     assets:caja                          -1000
+
+2022-05-13 mesada
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-05-13 ingresos
+    assets:reserva                    5000
+    income:retiro sociedad           -5000
+
+2022-05-13 ingresos
+    assets:reserva                  199600
+    income:retiro sociedad         -199600
+
+2022-05-13 saco reserva
+    assets:caja               -400
+    assets:reserva             400
+
+2022-05-13 saco reserva
+    assets:caja               5000
+    assets:reserva           -5000
+
+2022-05-14 ingresos
+    assets:reserva                   15000
+    income:retiro sociedad          -15000
+
+2022-05-16 lomito
+    expenses:comida             900
+    assets:caja                -900
+
+2022-05-16 comida
+    expenses:comida             860
+    assets:caja                -860
+
+2022-05-17 farmacia hp
+    expenses:gastos medicos:farmacia            8150
+    assets:caja                                -8150
+
+2022-05-17 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2022-05-17 ospe
+    expenses:servicios:OSPE           47975
+    assets:caja                      -47975
+
+2022-05-17 aguas cordobesas
+    expenses:servicios:aguas cordobesas            1511
+    assets:caja                                   -1511
+
+2022-05-17 aguas cordobesas
+    expenses:servicios:aguas cordobesas            1511
+    assets:caja                                   -1511
+
+2022-05-17 epec
+    expenses:servicios:epec            6139
+    assets:caja                       -6139
+
+2022-05-17 municipal casa
+    expenses:impuestos:casa:municipal             692
+    assets:caja                                  -692
+
+2022-05-17 mun auto
+    expenses:impuestos:bora             799
+    assets:caja                        -799
+
+2022-05-17 claro
+    expenses:servicios:claro            5028
+    assets:caja                        -5028
+
+2022-05-17 saco reserva
+    assets:caja              60000
+    assets:reserva          -60000
+
+2022-05-17 saco reserva
+    assets:caja             110000
+    assets:reserva         -110000
+
+2022-05-17 ih
+    expenses:isabel           99077
+    assets:caja              -99077
+
+2022-05-17 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-05-17 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022-05-17 extra cami
+    expenses:cami:extras           $2000
+    assets:caja                   $-2000
+
+2022-05-17 diff
+    expenses:diferencia arqueo             100
+    assets:caja                           -100
+
+2022-05-17 saco reserva
+    assets:caja              15000
+    assets:reserva          -15000
+
+2022-05-18 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2022-05-18 extra cami
+    expenses:cami:extras           40000
+    assets:caja                   -40000
+
+2022-05-18 extra cami
+    expenses:cami:extras           10000
+    assets:caja                   -10000
+
+2022-05-20 ingresos
+    assets:reserva                  120000
+    income:retiro sociedad         -120000
+
+2022-05-20 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-05-20 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-05-20 comida
+    expenses:comida             150
+    assets:caja                -150
+
+2022-05-20 diff
+    expenses:diferencia arqueo            1598
+    assets:caja                          -1598
+
+2022-05-21 comida
+    expenses:comida            6000
+    assets:caja               -6000
+
+2022-05-22 comida
+    expenses:comida             800
+    assets:caja                -800
+
+2022-05-23 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-05-23 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-05-23 comida cami
+    expenses:cami:comida           $7000
+    assets:caja                   $-7000
+
+2022-05-23 remedios ih
+    expenses:gastos medicos:farmacia            9000
+    assets:caja                                -9000
+
+2022-05-26 comida
+    expenses:comida             160
+    assets:caja                -160
+
+2022-05-26 materiales
+    expenses:casa:refacciones             250
+    assets:caja                          -250
+
+2022-05-26 materiales
+    expenses:casa:refacciones           16000
+    assets:caja                        -16000
+
+2022-05-26 varios
+    expenses:personal:varios             700
+    assets:caja                         -700
+
+2022-05-26 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022-05-27 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-05-27 ingresos
+    assets:reserva                    6000
+    income:retiro sociedad           -6000
+
+2022-05-27 ingresos
+    assets:reserva                   60500
+    income:retiro sociedad          -60500
+
+2022-05-27 saco reserva
+    assets:caja               6500
+    assets:reserva           -6500
+
+2022-05-29 lomito
+    expenses:comida            $900
+    assets:caja               $-900
+
+2022-05-29 diff
+    expenses:diferencia arqueo            -600
+    assets:caja                            600
