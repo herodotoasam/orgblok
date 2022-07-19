@@ -11866,3 +11866,99 @@ D $1000.00
 2022-07-09 comida
     expenses:comida            4000
     assets:caja               -4000
+
+2022-07-11 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-07-11 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-07-11 comida cami
+    expenses:cami:comida            9000
+    assets:caja                    -9000
+
+2022-07-12 farmacia
+    expenses:gastos medicos:farmacia            1100
+    assets:caja                                -1100
+
+2022-07-17 comida
+    expenses:comida            1200
+    assets:caja               -1200
+
+2022-07-17 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-07-17 ingresos
+    assets:reserva                  108500
+    income:retiro sociedad         -108500
+
+2022-07-17 ingresos
+    assets:reserva                   29400
+    income:retiro sociedad          -29400
+
+2022-07-17 saco reserva
+    assets:caja               7900
+    assets:reserva           -7900
+
+2022-07-17 ingreso
+    assets:reserva                    6000
+    income:retiro sociedad           -6000
+
+2022-07-17 saco reserva
+    assets:caja               6000
+    assets:reserva           -6000
+
+2022-07-17 comida
+    expenses:comida             100
+    assets:caja                -100
+
+2022-07-18 aceite
+    expenses:transporte:reparacion auto             100
+    assets:caja                                    -100
+
+2022-07-19 farmacia hospital italiano
+    expenses:gastos medicos:farmacia           11520
+    assets:caja                               -11520
+
+2022-07-18 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-07-18 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-07-18 taxi cami
+    expenses:cami:extras            1000
+    assets:caja                    -1000
+
+2022-07-19 ih
+    expenses:isabel            1000
+    assets:caja               -1000
+
+2022-07-19 impuesto munic casa
+    expenses:impuestos:casa:municipal             692
+    assets:caja                                  -692
+
+2022-07-19 ospe
+    expenses:servicios:OSPE           56271
+    assets:caja                      -56271
+
+2022-07-19 epec
+    expenses:servicios:epec            4920
+    assets:caja                       -4920
+
+2022-07-19 claro
+    expenses:servicios:claro            3879
+    assets:caja                        -3879
+
+2022-07-19 impuesto municipal bora
+    expenses:impuestos:bora            $799
+    assets:caja                       $-799
+
+2022-07-19 saco reserva
+    assets:caja              70000
+    assets:reserva          -70000
