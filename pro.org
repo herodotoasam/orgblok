@@ -5606,7 +5606,17 @@ primer mm hecho luego de la obra sobre array
     de ruby, y definitivamente olvidarme de ruby, pq python es un
     continente excesivamente grande para perderse en el y aprender lo
     que podamos en el.
-    
+** 2022-Julio
+*** [2022-07-26 mar] ruby-hell again
+    el libro (de aqui en adelante se refiere a Eloquent Ruby) sugiere
+    que hay que tener maestria en array y hash. Por eso voy a
+    practicar esos dos arreglos.
+    Tambien vi un video de como aprender mas rapido a programar y es
+    practicando mucho en la maquina no solo leyendo.
+*** [2022-07-27 mié] sinatra-hell again
+    baje un libro de sinatra que esta muy bueno y lo estoy leyendo en
+    paralelo con ruby, y tambien sirve para practicar el lenguaje.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6704,6 +6714,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-11-14 Sun] :emacs:english:i3:python:
 ** semana [2021-11-21 Sun] :emacs:english:i3:python:
 ** semana [2021-11-28 Sun] :emacs:english:i3:python:
+** semana [2022-07-24 dom] :ruby:sinatra
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

@@ -12014,3 +12014,19 @@ D $1000.00
 2022-07-24 dif
     expenses:diferencia arqueo             -41
     assets:caja                             41
+
+2022-07-25 comida
+    expenses:comida              60
+    assets:caja                 -60
+
+2022-07-27 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-07-27 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-07-27 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
