@@ -5616,6 +5616,15 @@ primer mm hecho luego de la obra sobre array
 *** [2022-07-27 mié] sinatra-hell again
     baje un libro de sinatra que esta muy bueno y lo estoy leyendo en
     paralelo con ruby, y tambien sirve para practicar el lenguaje.
+*** [2022-07-28 jue]
+    estoy leyendo mas de ambos libros ruby y sinatra a la vez. vamos a
+    ver en que termina o cuando se termina esto. Ojala que siga pq me
+    gusta y es interesante.
+*** [2022-07-29 vie]
+    mucho trabajo hoy con sinatra para pasar datos a traves de
+    javascript pero ya esta logrado y hay que seguir avanzando mañana
+    con la interface alpine/bulma.
+
 
 * Anotaciones
 ** Objetivos

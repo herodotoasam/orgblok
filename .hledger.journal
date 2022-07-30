@@ -12030,3 +12030,23 @@ D $1000.00
 2022-07-27 comida cami
     expenses:cami:comida           $9000
     assets:caja                   $-9000
+
+2022-07-28 comida
+    expenses:comida             380
+    assets:caja                -380
+
+2022-07-29 ingresos
+    assets:reserva                   52200
+    income:retiro sociedad          -52200
+
+2022-07-29 saco reserva
+    assets:caja               2200
+    assets:reserva           -2200
+
+2022-07-29 comida
+    expenses:comida             970
+    assets:caja                -970
+
+2022-07-29 diff
+    expenses:diferencia arqueo             210
+    assets:caja                           -210
