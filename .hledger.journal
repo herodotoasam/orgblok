@@ -12050,3 +12050,11 @@ D $1000.00
 2022-07-29 diff
     expenses:diferencia arqueo             210
     assets:caja                           -210
+
+2022-07-30 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-07-30 comida
+    expenses:comida            1600
+    assets:caja               -1600

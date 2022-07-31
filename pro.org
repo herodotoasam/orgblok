@@ -5624,8 +5624,16 @@ primer mm hecho luego de la obra sobre array
     mucho trabajo hoy con sinatra para pasar datos a traves de
     javascript pero ya esta logrado y hay que seguir avanzando mañana
     con la interface alpine/bulma.
-
-
+*** [2022-07-30 sáb]
+    me encuentro muy trabado con respecto al desarrollo con sinatra pq
+    en realidad todo el desarrollo web es puro js/vue o alpine del
+    lado del browser via axios, servido por endpoints que entregan los
+    datos serializados, por lo cual hay poco lenguaje base(py o rb)
+    del otro lado. O sea que es todo muy que no lleva a la nada. Mas
+    bien pienso que volvemos a lo de antes o sea a la elegancia y
+    fortaleza de ruby como lenguaje pero no muy aplicable a la web en
+    si pq la web esta totalmente comandada por lo que podes hacer con
+    html/css/js y sus derivados vue y alpine. 
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
