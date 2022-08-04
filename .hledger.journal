@@ -12058,3 +12058,71 @@ D $1000.00
 2022-07-30 comida
     expenses:comida            1600
     assets:caja               -1600
+
+2022-08-01 saco reserva
+    assets:caja              40000
+    assets:reserva          -40000
+
+2022-08-01 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-08-01 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-08-01 mano de obra
+    expenses:casa:refacciones           $3000
+    assets:caja                        $-3000
+
+2022-08-01 extra cami
+    expenses:cami:extras           30000
+    assets:caja                   -30000
+
+2022-08-02 comida
+    expenses:comida             430
+    assets:caja                -430
+
+2022-08-03 comida
+    expenses:comida             200
+    assets:caja                -200
+
+2022-08-03 ingresos
+    assets:reserva                   30000
+    income:retiro sociedad          -30000
+
+2022-08-03 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2022-08-03 compra dolares
+    expenses:compra dolares           30000
+    assets:caja                      -30000
+
+2022-08-03 compra dolares u$s
+    assets:reserva u$s            u$s 100
+    income:compra dolares        u$s -100
+
+2022-08-03 saco reserva
+    assets:caja              80000
+    assets:reserva          -80000
+
+2022-08-03 dgr casa
+    expenses:impuestos:casa:dgr           $1460
+    assets:caja                          $-1460
+
+2022-08-03 ecogas
+    expenses:servicios:ecogas            3649
+    assets:caja                         -3649
+
+2022-08-03 fibertel
+    expenses:servicios:fibertel           $3419
+    assets:caja                          $-3419
+
+2022-08-03 isabel
+    expenses:isabel           58289
+    assets:caja              -58289
+
+2022-08-04 aceite
+    expenses:transporte:reparacion auto             600
+    assets:caja                                    -600

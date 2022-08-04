@@ -5634,6 +5634,21 @@ primer mm hecho luego de la obra sobre array
     fortaleza de ruby como lenguaje pero no muy aplicable a la web en
     si pq la web esta totalmente comandada por lo que podes hacer con
     html/css/js y sus derivados vue y alpine. 
+*** [2022-07-31 dom]
+    luego de un atascamiento con sequel, logre avanzar un poco
+    arrancando con Active Record, por lo menos para darle forma al
+    anki.rb, creo que de una forma mas elegante que con py. La unica
+    contra es el nombre de la tabla ankis->Anki. 
+** 2022-Agosto
+*** [2022-08-01 lun]
+    es monumental el programa de anki, aunque parezca poca cosa, o
+    bien me llevo sus horas, que ahora aunque estoy entrando en modo
+    verboso no estoy dispuesto a dedicarme como hacia en el pasado.
+    Lo unico que estoy haciendo es traspasandolo a ruby, y eso esta
+    mal, pq la bocha esta en reescribirlo, pero la mayoria esta en
+    javascript, no en python/ruby, y esa parte ya la hice y quedo
+    bien.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6732,6 +6747,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-11-21 Sun] :emacs:english:i3:python:
 ** semana [2021-11-28 Sun] :emacs:english:i3:python:
 ** semana [2022-07-24 dom] :ruby:sinatra
+** semana [2022-07-31 dom] :ruby:sinatra
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
