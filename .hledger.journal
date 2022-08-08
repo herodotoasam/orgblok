@@ -12126,3 +12126,23 @@ D $1000.00
 2022-08-04 aceite
     expenses:transporte:reparacion auto             600
     assets:caja                                    -600
+
+2022-08-06 comida
+    expenses:comida            1000
+    assets:caja               -1000
+
+2022-08-06 peluqueria
+    expenses:peluqueria            1200
+    assets:caja                   -1200
+
+2022-08-08 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-08-08 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-08-08 gatos
+    expenses:comida:gatos            4650
+    assets:caja                     -4650
