@@ -12120,8 +12120,8 @@ D $1000.00
     assets:caja                          $-3419
 
 2022-08-03 isabel
-    expenses:isabel           58289
-    assets:caja              -58289
+    expenses:isabel           52139
+    assets:caja              -52139
 
 2022-08-04 aceite
     expenses:transporte:reparacion auto             600
@@ -12146,3 +12146,43 @@ D $1000.00
 2022-08-08 gatos
     expenses:comida:gatos            4650
     assets:caja                     -4650
+
+2022-08-08 mesada ih
+    expenses:isabel          $10000
+    assets:caja             $-10000
+
+2022-08-09 farmacia
+    expenses:gastos medicos:farmacia            4000
+    assets:caja                                -4000
+
+2022-08-09 saco reserva
+    assets:caja              50000
+    assets:reserva          -50000
+
+2022-08-12 lomito
+    expenses:comida            1100
+    assets:caja               -1100
+
+2022-08-13 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-08-13 mesada ih
+    expenses:isabel           12000
+    assets:caja              -12000
+
+2022-08-13 cami extras
+    expenses:cami:extras            3500
+    assets:caja                    -3500
+
+2022-08-13 facturas
+    expenses:comida             700
+    assets:caja                -700
+
+2022-08-13 ingresos
+    assets:reserva                  350000
+    income:retiro sociedad         -350000
+
+2022-08-13 diff
+    expenses:diferencia arqueo              73
+    assets:caja                            -73

@@ -5648,7 +5648,14 @@ primer mm hecho luego de la obra sobre array
     mal, pq la bocha esta en reescribirlo, pero la mayoria esta en
     javascript, no en python/ruby, y esa parte ya la hice y quedo
     bien.
-
+*** [2022-08-12 vie]
+    ruby a full.
+    por fin me puse a desarrollar el proyecto de hacer una lista de
+    zonas trabajadas completamente en ruby, y fue muy instructivo y
+    muy divertido y me gusto mucho como lenguaje y como tema en si
+    para hacer. Se aprende mucho mas en la practica que en la lectura
+    sola.
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6748,6 +6755,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-11-28 Sun] :emacs:english:i3:python:
 ** semana [2022-07-24 dom] :ruby:sinatra
 ** semana [2022-07-31 dom] :ruby:sinatra
+** semana [2022-08-07 dom] :ruby:rails
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
