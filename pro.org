@@ -5655,6 +5655,61 @@ primer mm hecho luego de la obra sobre array
     muy divertido y me gusto mucho como lenguaje y como tema en si
     para hacer. Se aprende mucho mas en la practica que en la lectura
     sola.
+*** [2022-08-13 sáb]
+    hoy es un hito o punto de inflexion en ruby. pq termine una
+    aplicacion mas o menos buena en poquisimo tiempo y el lenguaje
+    demostro ser muy apto para el desarrollo.
+    Yo pienso que se el 1% de lo que se puede saber de Ruby. Pero no
+    obstante la miniaplicacion envuelve conectar a una base de datos
+    mariadb, hacer un query, transformarlo, obtener los datos
+    correctos que quiero, y mostrarlo en forma rapida en la web por
+    medio de sinatra. Son bastantes conocimientos por ahora. Se puede
+    aprender muchisimo mas todavia pero pienso que por ahora esta
+    bien. Debo reconocer que he aprendido algo.
+*** [2022-08-14 dom]
+    anoche en insomnio de migral, pensaba que podria programar ruby en
+    vim o emacs, incluso me levante para ver como se comportaban y vi
+    que en espacios y syntax andan bien, o sea igual que code.
+    entre ayer y hoy le di un gran avance a la programacion de oficina
+    en la dupla python-javascript con gran solvencia y rapidez. Pq
+    como entiendo y conozco los temas es cortar y pegar de soluciones
+    que ya he trabajado y adaptarlas a la necesidad actual. Y
+    python/sql lo manejo mejor. Lo mismo es divertido una vez que lo
+    empezas y lo mismo es util para la empresa.
+*** [2022-08-15 lun]
+    terminada hoy feriado la jornada doble de programacion en la
+    empresa, hice el libre-deuda, el recibo-transferencia y la
+    adaptacion para que se pueda vender con anticipo.
+    Bastante bien para una jornada de trabajo. Luego seguire en la
+    semana con ruby hasta que tenga la tablet-trucha para leer-pdfs
+    con mas comodidad.
+*** [2022-08-19 vie]   
+    hoy he programado un monton, he hecho el sistema de login/logout
+    para sinatra y algun trabajito para python/flask.
+    Creo que estoy en camino de aprender mucho mas de ruby en el
+    futuro y de python tambien, o mas bien de programacion en lineas
+    generales.
+*** [2022-08-22 lun] python-hell
+    cuando habia encontrado un path para avanzar en ruby, con project
+    odin, encuentro gracias a un tweet una pagina similar exercism, y
+    luego de un tiempito empieza un python-hell cada vez mas grande
+    que me desenfoca de mi concentracion unica en ruby.
+    Hoy estoy desencantado pq me aumento la tablet barata que queria
+    comprar para leer pdf. 
+    Me parece que en Real Python hay muchisimo material como para
+    estudiar lo que quiera si es que sigue free.
+*** hacer un log de anki-sinatra
+    hacer una tabla fecha-hora palabra fecha
+    hacer que cada vez que repasemos una palabra se registre
+    hacer distintas vistas en especial fecha - cantidad de palabras
+*** [2022-08-24 mié]
+    el python-hell se decidio al final para estudiar python siguiendo
+    el "path" de python.course.eu que es completo hasta el extremo, y
+    lo puedo leer en el celu, no necesito la tablet. 
+    Pero... conservo el anki en ruby-sinatra para tener una coneccion
+    con ruby, y conservo la pestaña abierta de odin-project para
+    seguir con la lectura de ruby.
+    Nada costaria, dedicarle una horita por dia a seguir leyendo ruby.
     
 * Anotaciones
 ** Objetivos
@@ -6755,7 +6810,9 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-11-28 Sun] :emacs:english:i3:python:
 ** semana [2022-07-24 dom] :ruby:sinatra
 ** semana [2022-07-31 dom] :ruby:sinatra
-** semana [2022-08-07 dom] :ruby:rails
+** semana [2022-08-07 dom] :ruby:rails:sinatra
+** semana [2022-08-14 dom] :ruby:sinatra
+** semana [2022-08-21 dom] :ruby:sinatra:python
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

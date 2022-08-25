@@ -12186,3 +12186,128 @@ D $1000.00
 2022-08-13 diff
     expenses:diferencia arqueo              73
     assets:caja                            -73
+
+
+2022-08-17 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-08-17 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-08-17 nafta
+    expenses:transporte:nafta           $2000
+    assets:caja                        $-2000
+
+2022-08-17 peajes
+    expenses:transporte:peajes             300
+    assets:caja                           -300
+
+2022-08-17 comida
+    expenses:comida             480
+    assets:caja                -480
+
+2022-08-17 comida
+    expenses:comida             170
+    assets:caja                -170
+
+2022-08-17 consulta medico
+    expenses:gastos medicos:psiquiatria            3000
+    assets:caja                                   -3000
+
+2022-08-17 farmacia
+    expenses:gastos medicos:farmacia            3000
+    assets:caja                                -3000
+
+2022-08-18 lomito
+    expenses:comida            1000
+    assets:caja               -1000
+
+2022-08-18 comida
+    expenses:comida             900
+    assets:caja                -900
+
+2022-08-19 farmacia hosp italiano
+    expenses:gastos medicos:farmacia           10200
+    assets:caja                               -10200
+
+2022-08-20 cami extra
+    expenses:cami:extras           20000
+    assets:caja                   -20000
+
+2022-08-20 mesa ih
+    expenses:isabel          $12000
+    assets:caja             $-12000
+
+2022-08-20 pollo
+    expenses:comida            1750
+    assets:caja               -1750
+
+2022-08-20 comida
+    expenses:comida             420
+    assets:caja                -420
+
+2022-08-20 retiro reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2022-08-20 comida
+    expenses:comida            4260
+    assets:caja               -4260
+
+2022-08-22 saco reserva
+    assets:caja              80000
+    assets:reserva          -80000
+
+2022-08-22 farmacity
+    expenses:gastos medicos:farmacia            1500
+    assets:caja                                -1500
+
+2022-08-22 epec
+    expenses:servicios:epec            6207
+    assets:caja                       -6207
+
+2022-08-22 claro
+    expenses:servicios:claro            4659
+    assets:caja                        -4659
+
+2022-08-22 impuesto munic casa
+    expenses:impuestos:casa:municipal            $692
+    assets:caja                                 $-692
+
+2022-08-22 impuesto municipal bora
+    expenses:impuestos:bora            $799
+    assets:caja                       $-799
+
+2022-08-22 ospe
+    expenses:servicios:OSPE           62652
+    assets:caja                      -62652
+
+2022-08-22 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-08-22 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-08-22 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-08-23 comida
+    expenses:comida             280
+    assets:caja                -280
+
+2022-08-23 saco reserva
+    assets:caja              20000
+    assets:reserva          -20000
+
+2022-08-23 tadicor
+    expenses:comida            9830
+    assets:caja               -9830
+
+2022-08-24 saco reserva
+    assets:caja             $20000
+    assets:reserva         $-20000
