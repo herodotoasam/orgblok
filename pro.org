@@ -5710,7 +5710,9 @@ primer mm hecho luego de la obra sobre array
     con ruby, y conservo la pestaña abierta de odin-project para
     seguir con la lectura de ruby.
     Nada costaria, dedicarle una horita por dia a seguir leyendo ruby.
-    
+*** [2022-08-25 jue]  
+    hoy gran avance en la lectura y practica de py. A la noche ya
+    tarde baje pycharm que es excelente para el desarrollo.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

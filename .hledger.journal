@@ -12311,3 +12311,19 @@ D $1000.00
 2022-08-24 saco reserva
     assets:caja             $20000
     assets:reserva         $-20000
+
+2022-08-26 ingresos
+    assets:reserva                  270250
+    income:retiro sociedad         -270250
+
+2022-08-26 saco reserva
+    assets:caja                250
+    assets:reserva            -250
+
+2022-08-26 mesada ih
+    expenses:isabel          $12000
+    assets:caja             $-12000
+
+2022-08-26 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
