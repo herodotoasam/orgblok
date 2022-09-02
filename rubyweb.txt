@@ -1,0 +1,6 @@
+168.197.50.133
+Xq52AvQFaHPx
+puerto 5649
+
+ssh -p 5649 root@168.197.50.133
+scp -P 5649 -r views/ *.rb root@168.197.50.133
