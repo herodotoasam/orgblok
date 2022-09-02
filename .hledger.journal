@@ -12327,3 +12327,11 @@ D $1000.00
 2022-08-26 saco reserva
     assets:caja              10000
     assets:reserva          -10000
+
+2022-08-27 comida
+    expenses:comida             450
+    assets:caja                -450
+
+2022-08-27 lomito
+    expenses:comida           $1000
+    assets:caja              $-1000

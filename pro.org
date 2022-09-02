@@ -5710,9 +5710,27 @@ primer mm hecho luego de la obra sobre array
     con ruby, y conservo la pestaña abierta de odin-project para
     seguir con la lectura de ruby.
     Nada costaria, dedicarle una horita por dia a seguir leyendo ruby.
-*** [2022-08-25 jue]  
+*** [2022-08-25 jue] pycharm 
     hoy gran avance en la lectura y practica de py. A la noche ya
     tarde baje pycharm que es excelente para el desarrollo.
+*** [2022-08-27 sáb] twilio santander
+    hoy practique un monton con python, es realmente una masa.
+    a la tarde descubri twilio como posibilidad de manejo de
+    mensajeria para la empresa, pero por el momento no logro entrar en
+    tema.
+    Tambien hice el recambio de dominio para el sistema.
+    pycharm es excelente, te da gusto desarrollar alli.
+    hoy surgio tambien la necesidad de una programacion en el sistema
+    para agregar una caja de banco.
+*** hacer visor de apache2.error dentro del sistema 
+    p.e. www.fedesal.lol/error
+*** [2022-08-31 mié]
+    lo que empezo el sabado 27, ya estuvo implementado el lunes 29.
+    avanza la lectura de python. anoche un micro julia.hell. 
+    pero me resuenan las palabras de quora: "mejor saber un lenguaje
+    bien que dos mas o menos". Viendo una minifuncion (cipher) hecha
+    en python y en ruby, es mas linda en ruby, pero python es mas
+    util.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6815,6 +6833,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-08-07 dom] :ruby:rails:sinatra
 ** semana [2022-08-14 dom] :ruby:sinatra
 ** semana [2022-08-21 dom] :ruby:sinatra:python
+** semana [2022-08-28 dom] :python:pycharm
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
