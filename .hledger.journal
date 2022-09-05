@@ -12335,3 +12335,35 @@ D $1000.00
 2022-08-27 lomito
     expenses:comida           $1000
     assets:caja              $-1000
+
+2022-09-01 mesada ih
+    expenses:isabel          $12000
+    assets:caja             $-12000
+
+2022-09-02 ingresos
+    assets:reserva                  104200
+    income:retiro sociedad         -104200
+
+2022-09-02 saco reserva
+    assets:caja               4200
+    assets:reserva           -4200
+
+2022-09-03 saco reserva
+    assets:caja              30000
+    assets:reserva          -30000
+
+2022-08-29 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-08-29 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-09-03 lomito
+    expenses:comida           $1000
+    assets:caja              $-1000
+
+2022-09-04 comida
+    expenses:comida            1000
+    assets:caja               -1000
