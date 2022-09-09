@@ -8800,3 +8800,9 @@ produce ese estado de soñolencia.
    hoy cambio de rumbo en el trabajo. Ayer deshice el grupo de
    promotores y hoy empece a arreglar la kangoo, para salir a visitar
    clientes.
+* 2022 - Setiembre
+** [2022-09-09 vie]
+   muy ocupado en el trabajo pq me lleva mucho esfuerzo, mucho mas que
+   antes y a la vez en una etapa en la cual hay mucho para programar y
+   estoy enchufado para programar pero no hay tiempo para dedicarse a
+   hacerlo.

@@ -5731,6 +5731,13 @@ primer mm hecho luego de la obra sobre array
     bien que dos mas o menos". Viendo una minifuncion (cipher) hecha
     en python y en ruby, es mas linda en ruby, pero python es mas
     util.
+** 2022-Setiembre
+*** [2022-09-09 vie]
+    muy ocupado en estos ultimos dias con la programacion del sistema,
+    desde que empece con la programacion del tema whatsapp.
+    Y desde alli se abrio un abanico de necesidad de programacion y
+    reformulacion de la programacion hecha que me ha hecho estar
+    continuamente enfocado a la programacion del sistema
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6834,6 +6841,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-08-14 dom] :ruby:sinatra
 ** semana [2022-08-21 dom] :ruby:sinatra:python
 ** semana [2022-08-28 dom] :python:pycharm
+** semana [2022-09-04 dom] :flask:javascript:alpinejs
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

@@ -12367,3 +12367,43 @@ D $1000.00
 2022-09-04 comida
     expenses:comida            1000
     assets:caja               -1000
+
+2022-09-06 inversion
+    assets:prestamo romitex          500000
+    assets:caja                     -500000
+
+2022-09-06 saco reserva
+    assets:caja             500000
+    assets:reserva         -500000
+
+2022-09-06 diff
+    expenses:diferencia arqueo            1681
+    assets:caja                          -1681
+
+2022-09-07 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-09-07 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-09-07 lomito
+    expenses:comida           $1000
+    assets:caja              $-1000
+
+2022-09-07 dentista
+    expenses:gastos medicos:odontologia            7000
+    assets:caja                                   -7000
+
+2022-09-08 comida gatos
+    expenses:comida:gatos            6300
+    assets:caja                     -6300
+
+2022-09-08 comida
+    expenses:comida             800
+    assets:caja                -800
+
+2022-09-09 facturas
+    expenses:comida            $700
+    assets:caja               $-700
