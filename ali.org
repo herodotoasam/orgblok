@@ -8806,3 +8806,15 @@ produce ese estado de soñolencia.
    antes y a la vez en una etapa en la cual hay mucho para programar y
    estoy enchufado para programar pero no hay tiempo para dedicarse a
    hacerlo.
+** [2022-09-11 dom]
+   que bueno es que se haya despertado de nuevo el bichito de la
+   programacion, pq un tiempito atras, parece que desde el
+   [2022-07-26 mar] mas o menos que recomence muy de a poco a meterme
+   en tema primero con ruby o sea con algo inutil para la programacion
+   en serio, y luego mude a python y alli estuve a un paso de
+   re-dedicarme al sistema, y creo que con la idea de la api de
+   whatsapp se desperto del todo la vocacion y desde alli ha sido a
+   full.
+   Tanto que he dicho que podria estar dedicado a full sin trabajar en
+   la calle pq reescribiria el programa de cero, pero no es posible.
+   

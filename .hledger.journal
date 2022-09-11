@@ -12407,3 +12407,11 @@ D $1000.00
 2022-09-09 facturas
     expenses:comida            $700
     assets:caja               $-700
+
+2022-09-10 lomito
+    expenses:comida           $1000
+    assets:caja              $-1000
+
+2022-09-10 mesada ih
+    expenses:isabel          $12000
+    assets:caja             $-12000

@@ -5738,6 +5738,20 @@ primer mm hecho luego de la obra sobre array
     Y desde alli se abrio un abanico de necesidad de programacion y
     reformulacion de la programacion hecha que me ha hecho estar
     continuamente enfocado a la programacion del sistema
+*** [2022-09-11 dom] javascript-hell vim-hell
+    estaria bueno poder dedicarse a full a la programacion poder
+    reescribir todo el codigo de nuevo de modo tal de volcar los
+    nuevos conocimientos y de ir logrando mejores cosas.
+    Pero lamentablemente hay que salir a vender tambien y eso traba
+    todo posible avance en el tema programacion.
+    Hoy fue un dia frustrante pq todas las ideas que tenia dando
+    vueltas por mi cabeza me salieron mal, la del autocompletado, la
+    de boostrap, la de tener librerias para modal, la de evitar que se
+    lean calle, barrio, zona al comenzar, etc. Un dia de mierda.
+    Lo unico bueno es poder seguir con esto como hobby y haber
+    empezado de nuevo.
+    
+    
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6835,13 +6849,14 @@ timido comienzo muy debil en estudio de js.
 ** semana [2021-11-14 Sun] :emacs:english:i3:python:
 ** semana [2021-11-21 Sun] :emacs:english:i3:python:
 ** semana [2021-11-28 Sun] :emacs:english:i3:python:
-** semana [2022-07-24 dom] :ruby:sinatra
-** semana [2022-07-31 dom] :ruby:sinatra
-** semana [2022-08-07 dom] :ruby:rails:sinatra
-** semana [2022-08-14 dom] :ruby:sinatra
-** semana [2022-08-21 dom] :ruby:sinatra:python
-** semana [2022-08-28 dom] :python:pycharm
-** semana [2022-09-04 dom] :flask:javascript:alpinejs
+** semana [2022-07-24 dom] :ruby:sinatra:
+** semana [2022-07-31 dom] :ruby:sinatra:
+** semana [2022-08-07 dom] :ruby:rails:sinatra:
+** semana [2022-08-14 dom] :ruby:sinatra:
+** semana [2022-08-21 dom] :ruby:sinatra:python:
+** semana [2022-08-28 dom] :python:pycharm:
+** semana [2022-09-04 dom] :flask:javascript:alpinejs:
+** semana [2022-09-11 dom]                                   :Javascript:vim:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

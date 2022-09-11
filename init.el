@@ -292,7 +292,7 @@
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 ;;(use-package forge)
 
-
+(require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
 (add-hook 'web-mode-hook (lambda () (emmet-mode)))
 (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
