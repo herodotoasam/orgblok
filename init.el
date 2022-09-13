@@ -17,7 +17,7 @@
 
 ; list the packages you want
 (setq package-list
-    '(simpleclip smartparens flx-ido powerline elpy ag web-mode js2-mode))
+    '(simpleclip smartparens flx-ido powerline elpy ag web-mode js2-mode projectile))
 
 
 (package-initialize)
@@ -25,11 +25,14 @@
   (package-refresh-contents))
 
 
+; fetch the list of packages available 
+(unless package-archive-contents
+  (package-refresh-contents))
 
-(unless (package-installed-p 'use-package)
-  (package-install 'use-package))
-(require 'use-package)
-(setq use-package-always-ensure t)
+; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+    (package-install package)))
 
 
 (setq inhibit-startup-message t)
