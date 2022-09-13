@@ -12439,3 +12439,51 @@ D $1000.00
 2022-09-11 ingresos
     assets:reserva                  116700
     income:retiro sociedad         -116700
+
+2022-09-13 ingresos
+    assets:reserva                    3000
+    income:retiro sociedad           -3000
+
+2022-09-13 saco reserva
+    assets:caja               3000
+    assets:reserva           -3000
+
+2022-09-13 uala
+    assets:uala            3000
+    assets:caja           -3000
+
+2022-09-13 saco reserva
+    assets:caja             100000
+    assets:reserva         -100000
+
+2022-09-13 farmacia
+    expenses:gastos medicos:farmacia            5070
+    assets:caja                                -5070
+
+2022-09-13 ecogas
+    expenses:servicios:ecogas            4956
+    assets:caja                         -4956
+
+2022-09-13 dgr casa
+    expenses:impuestos:casa:dgr           $1460
+    assets:caja                          $-1460
+
+2022-09-13 fibertel
+    expenses:servicios:fibertel            3479
+    assets:caja                           -3479
+
+2022-09-13 ih
+    expenses:isabel           64451
+    assets:caja              -64451
+
+2022-09-13 ih
+    expenses:isabel            3072
+    assets:caja               -3072
+
+2022-09-13 saco reserva
+    assets:caja               6700
+    assets:reserva           -6700
+
+2022-09-13 dif
+    expenses:diferencia arqueo            5799
+    assets:caja                          -5799
