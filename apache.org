@@ -128,4 +128,16 @@ cd /var/log/mysql
 los log tienen la forma mysql-bin.00001 etc.
 mysqlbinlog mysql-bin.0000x > output.log
 y tenemos en lenguaje plano los movimientos en el log
-
+* problemas de can't connect to mysql server error 111
+se soluciona en el archivo de configuracion
+en alpine esta en /etc/my.cnf.d/mariadb-server.cnf
+comente la linea skip-networking y eso permitio que se pudiera conectar.
+service mariadb restart   (en alpine)
+* problemas con mysql-connector-python
+parece que la actualizacion da error que no reconoce utf8.
+la solucion provisoria es actualizar a la version vieja
+pip install mysql-connector-python==8.0.29
+* problemas con la instalacion del mariadb-connector-c
+intento con pip install mariadb pero me pide mariadb-connector-c y
+aunque lo tengo instalado lo mismo me causa problemas. Por el momento
+se deja.

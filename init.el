@@ -14,9 +14,17 @@
                          ("org" . "https://orgmode.org/elpa/")
                          ("elpa" . "https://elpa.gnu.org/packages/")))
 
+
+; list the packages you want
+(setq package-list
+    '(simpleclip smartparens flx-ido powerline elpy ag web-mode js2-mode))
+
+
 (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
+
+
 
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
@@ -57,10 +65,10 @@
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 
-(set-face-attribute 'default nil :font "Source Code Pro" :height efs/default-font-size)
+(set-face-attribute 'default nil :font "Hack" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
-(set-face-attribute 'fixed-pitch nil :font "Source Code Pro" :height efs/default-font-size)
+(set-face-attribute 'fixed-pitch nil :font "Hack" :height efs/default-font-size)
 
 ;; Set the variable pitch face
 ;;(set-face-attribute 'variable-pitch nil :font "Cantarell" :height efs/default-variable-font-size :weight 'regular)
