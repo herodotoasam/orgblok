@@ -1,0 +1,89 @@
+* instalacion nginx
+apt install nginx
+ufw app list
+ufw allow 'Nginx Full'
+ufw status
+systemctl status nginx
+curl -4 icanhazip.com
+
+chequear la url para ver si el servidor esta funcionando
+
+* instalar los componentes de python
+apt install python3-pip python3-dev buid-essential libssl-dev
+apt install libffi-dev python3-setuptools
+
+crear un virtual enviroment
+apt install python3-venv
+
+mkdir ~/app
+cd ~/app
+python3 -m venv .venv
+source .venv/bin/activate
+
+setting flask
+pip install whell
+pip install flask
+pip install gunicorn
+
+crear wsgi.py
+
+from __init__py import app
+if __name__ == "__main__":
+    app.run()
+
+configurar gunicorn
+gunicorn --bind 0.0.0.0:5000 wsgi:app
+
+salir del env
+
+* crear el servicio app
+vim /etc/systemd/system/app.service
+
+[Unit]
+Description=Gunicorn instance to serve app
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/home/app
+Enviroment="PATH=/home/app/.venv/bin"
+ExecStart=/home/app/.venv/bin/gunicorn --workers 3 --bind
+unix:app.sock -m 007 wsgi:app
+
+[Install]
+WantedBy=multi-user.target
+
+guardar
+
+systemctl start app
+systemctl enable app
+systemctl status app
+
+vim /etc/nginx/sites-avalaible/app
+
+server{
+       listen:80;
+       server_name fedesal.lol www.fedesal.lol;
+
+      location / {
+           include proxy_params;
+	   proxy_pass http://unix:/home/app/app.sock;
+}
+}
+guardar
+linkear
+ln -s /etc/nginx/sites-avalaible/app /etc/nginx/sites-enabled
+
+testear
+nginx -t
+
+restart
+systemctl restart nginx
+
+ufw allow 'Nginx Full'
+
+* certbot
+apt install python3-certbot-nginx
+certbot --nginx -d fedesal.lol -d www.fedesal.lol
+
