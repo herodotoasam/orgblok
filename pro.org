@@ -5750,8 +5750,20 @@ primer mm hecho luego de la obra sobre array
     lean calle, barrio, zona al comenzar, etc. Un dia de mierda.
     Lo unico bueno es poder seguir con esto como hobby y haber
     empezado de nuevo.
-    
-    
+*** [2022-09-13 mar] super alpine-linux-hell helix-hell
+    fue un dia de locos pq me levante temprano para seguir con la
+    instalacion que habia empezado la noche anterior de Alpine-Linux
+    un hell que me agarro de repente para poder tener helix que es un
+    tipo neovim pero de otro tipo con otro concepto que supuestamente
+    es mas rapido, aunque tiene cosas que no me gustan. Y renegue un
+    monton y termine volviendo a debian, ahora no me acuerdo pq, pero
+    era algo que no se podia instalar de ninguna manera.
+    termine estando mas de diez horas en la compu.
+*** [2022-09-14 mié]
+    Hoy comence con la prueba de otro servidor con nginx para mudar a
+    fedesal, y lo hice en el otro vpn, y gaste todo el dia en eso, con
+    un poco de programacion pura, pero con buenos resultados en lo que
+    respecta a aprender a montar en otro servidor.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

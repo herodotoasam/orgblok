@@ -12487,3 +12487,23 @@ D $1000.00
 2022-09-13 dif
     expenses:diferencia arqueo            5799
     assets:caja                          -5799
+
+2022-09-14 dentista
+    expenses:gastos medicos:odontologia            3500
+    assets:caja                                   -3500
+
+2022-09-15 facturas
+    expenses:comida             500
+    assets:caja                -500
+
+2022-09-15 ingresos
+    assets:reserva                    9000
+    income:retiro sociedad           -9000
+
+2022-09-15 saco reservas
+    assets:caja               9000
+    assets:reserva           -9000
+
+2022-09-15 extras cami
+    expenses:cami:extras            9000
+    assets:caja                    -9000

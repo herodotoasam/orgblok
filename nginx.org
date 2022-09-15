@@ -63,7 +63,7 @@ systemctl status app
 vim /etc/nginx/sites-avalaible/app
 
 server{
-       listen:80;
+       listen 80;
        server_name fedesal.lol www.fedesal.lol;
 
       location / {

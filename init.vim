@@ -28,6 +28,9 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'dracula/vim'
+Plugin 'folke/tokyoniht.nvim'
+"Plugin 'edeneast/nightfox.nvim'
+Plugin 'jacoborus/tender.vim'
 "Plugin 'ycm-core/YouCompleteMe'
 "Plugin 'neovim/nvim-lspconfig'
 "Plugin 'nvim-lua/completion-nvim'
@@ -48,8 +51,8 @@ filetype plugin indent on    " required
 
 "set guifont=DejaVu\ Sans\ Mono:h14
 set guifont=Fira\ Code\ Mono:h15
-colorscheme gruvbox
-"colorscheme dracula
+"colorscheme gruvbox
+colorscheme dracula
 set background=dark
 "colorscheme zenburn
 " colorscheme desert
@@ -81,8 +84,9 @@ nnoremap <C-z> :w<cr> :!bash %<CR>
 :map <C-t>  :BTags<cr>
 :map <F3>   :NERDTreeToggle<CR>
 " :map <F3>  :30vs +Ex<cr>
-
 "mueve la linea abajo
+let NERDTreeQuitOnOpen=1
+
 :map <A-Up> :.,m.-2<CR>
 "mueve la linea arriba
 :map <A-Down> :.,m.+<CR>

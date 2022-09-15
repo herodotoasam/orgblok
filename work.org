@@ -1,0 +1,16 @@
+* agenda de actividad
+** [2022-09-15 jue]
+   :LOGBOOK:
+   CLOCK: [2022-09-15 jue 12:34]
+   CLOCK: [2022-09-15 jue 11:05]--[2022-09-15 jue 12:21] =>  1:16
+   lista de precios automatica
+   CLOCK: [2022-09-15 jue 10:04]--[2022-09-15 jue 10:50] =>  0:46
+   CLOCK: [2022-09-15 jue 08:16]--[2022-09-15 jue 09:30] =>  1:14
+   termine de revisar todo el codigo de articulos.html cambiando todo
+   a alpine-js y a Swall, simplificando las funciones lo mas posible.
+   CLOCK: [2022-09-15 jue 08:04]--[2022-09-15 jue 08:16] =>  0:12
+   corregi problema de pachito agregando crontab para el restart del
+   servicio como esta hecho en apache, e hice que el backup se haga
+   por hora.
+   :END:
+   
