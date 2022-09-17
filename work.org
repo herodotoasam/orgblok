@@ -56,6 +56,8 @@
    :END:
 ** [2022-09-17 sáb]
    :LOGBOOK:
+   CLOCK: [2022-09-17 sáb 18:47]
+   de emergencia un chequeo al envio de libre deuda si la cuenta esta cancelada
    CLOCK: [2022-09-17 sáb 15:05]--[2022-09-17 sáb 15:41] =>  0:36
    busqueda de optimizacion de emacs (fallida)
    CLOCK: [2022-09-17 sáb 14:30]--[2022-09-17 sáb 15:01] =>  0:31
