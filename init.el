@@ -97,7 +97,8 @@
 (use-package doom-themes)
 (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
       doom-themes-enable-italic t) ; if nil, italics is universally disabled
-(load-theme 'doom-gruvbox t)
+(load-theme 'tsdh-light t)
+
 
 
  ;; - doom-1337 -- ported from VSCode's 1337 theme (ported by @ccmywish)
@@ -187,6 +188,10 @@
   (evil-set-initial-state 'messages-buffer-mode 'normal)
   (evil-set-initial-state 'dashboard-mode 'normal))
 
+  ;; agregado por mi
+  (setq evil-want-fine-undo 'fine)
+  (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+
 (use-package evil-collection
   :after evil
   :config
@@ -259,8 +264,10 @@
 (global-set-key (kbd "C-<right>") 'next-buffer)
 (global-set-key (kbd "C-<left>") 'previous-buffer)
 (global-set-key (kbd "C-<up>") 'delete-other-windows)
+(global-set-key [f6] 'projectile-ibuffer)
 (global-set-key [f12] (lambda() (interactive)(find-file "~/.emacs.d/init.el")))
 (global-set-key [f8] 'web-mode-fold-or-unfold)
+(global-set-key [f7] 'web-mode-navigate)
 
 ;; Mis propios ajustes de orgmode 
 (defun org-insert-inactive-timestamp()
@@ -362,8 +369,8 @@
 (autoload 'tcl-mode "tcl" "Tcl mode." t)
 (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
 (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
-;; (autoload 'python-mode' "python" "Python" t)
-;; (add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
+(autoload 'python-mode' "python" "Python" t)
+(add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
 
 (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))

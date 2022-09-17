@@ -236,7 +236,31 @@ sudo ln -s /usr/share/adminer/latest.php /usr/share/adminer/adminer.php
 echo "Alias /adminer.php /usr/share/adminer/adminer.php" | sudo tee /etc/apache2/conf-available/adminer.conf
 sudo a2enconf adminer.conf
 sudo systemctl reload apache2
+*** posible instalacion para Alpine
+    [[https://wiki.alpinelinux.org/wiki/Zabbix_-_cgi_and_mysql#adminer:_Web_Frontend_administration][pagina de Alpine donde se instala lighttpd y Adminer]]
+    mkdir -p /var/www/webapps/adminer
+    wget https://github.com/vrana/adminer/releases/download/v4.7.6/adminer-4.7.6.php -O /var/www/webapps/adminer/adminer-4.7.6.php
+    ln -s adminer-4.7.6.php /var/www/webapps/adminer/index.php
+    y luego supongo configurarlo. Yo no pude pq no podia instalar
+    apache, pero alli instalan lighttpd
+	cat > /etc/lighttpd/mod_adminer.conf << EOF
+	# NOTE: this requires mod_alias
+	alias.url += (
+	    "/adminer/"	    =>	    "/var/www/webapps/adminer/"
+	)
+	$HTTP["url"] =~ "^/adminer/" {
+	    # disable directory listings
+	    dir-listing.activate = "disable"
+	}
+	EOF
 
+	sed -i -r 's#\#.*mod_alias.*,.*#    "mod_alias",#g' /etc/lighttpd/lighttpd.conf
+
+	sed -i -r 's#.*include "mod_cgi.conf".*#   include "mod_cgi.conf"#g' /etc/lighttpd/lighttpd.conf
+
+	checkssl="";checkssl=$(grep 'include "mod_adminer.conf' /etc/lighttpd/lighttpd.conf);[[ "$checkssl" != "" ]] && echo listo || sed -i -r 's#.*include "mod_cgi.conf".*#include "mod_cgi.conf"\ninclude "mod_adminer.conf"#g' /etc/lighttpd/lighttpd.conf
+
+	rc-service lighttpd restart
 ** postgres
 1. sudo apt-get install wget ca-certificates
 2. wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc |
