@@ -52,7 +52,9 @@
    :END:
 ** [2022-09-17 sáb]
    :LOGBOOK:
-   intentare pasar los textos de los mensajes a base de datos
+   CLOCK: [2022-09-17 sáb 11:48]--[2022-09-17 sáb 12:44] =>  0:56
+   arregle el acceso de adminer a la base de datos. Me hizo renegar un
+   monton.
    CLOCK: [2022-09-17 sáb 11:05]--[2022-09-17 sáb 11:33] =>  0:28
    carge todos los codigos y grupos a la tabla articulos
    CLOCK: [2022-09-17 sáb 10:43]--[2022-09-17 sáb 11:01] =>  0:18
