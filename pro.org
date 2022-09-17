@@ -5764,6 +5764,18 @@ primer mm hecho luego de la obra sobre array
     fedesal, y lo hice en el otro vpn, y gaste todo el dia en eso, con
     un poco de programacion pura, pero con buenos resultados en lo que
     respecta a aprender a montar en otro servidor.
+*** [2022-09-15 jue]
+    hoy trabaje todo el dia en vim, cada vez con mas efectividad y
+    rapidez.
+    el control de actividad con org-mode tambien va muy bien. 
+*** [2022-09-16 vie] planes de estudio // emacs-hell!!!
+    pienso que en esta nueva etapa de home-dev tengo que trazar bien
+    claro un plan de estudios paralelo al desarrollo para ir creciendo
+    profesionalmente tambien y que no solo sea desarrollar hasta el
+    punto de lo que he aprendido. 
+**** tablet o ipad para lectura de pdf
+**** ingles
+**** js
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

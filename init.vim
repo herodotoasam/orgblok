@@ -76,7 +76,6 @@ nnoremap <C-z> :w<cr> :!bash %<CR>
 
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
-:map <F8> :e /home/hero/orgblok/pro.org <cr>
 
 ":map <C-n>  :Files<cr>
 :map <C-n> :NnnPicker<cr>
@@ -172,21 +171,19 @@ let g:netrw_listhide=netrw_gitignore#Hide()
 let g:netrw_listhide=',\(^\|\s\s\)\zs\.\S\+'
 
 
-" Configuracion recomendada por django
 " """"""""""""""""""""""""""""""""""""""
 """"""""""""""""""""""""""""""""""""
 " para ultisnips
-let g:UltiSnipsExpandTrigger       = "<c-j>"
-let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
-let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
-let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
+" let g:UltiSnipsExpandTrigger       = "<c-j>"
+" let g:UltiSnipsJumpForwardTrigger  = "<c-j>"
+" let g:UltiSnipsJumpBackwardTrigger = "<c-p>"
+" let g:UltiSnipsListSnippets        = "<c-k>" "List possible snippets based on current file
 let g:user_emmet_leader_key = ','
 
 inoremap <C-f> <C-R>=strftime('[%F %a]')<cr>
 map <C-f> :put =strftime('[%F %a]')<cr>
 
 " para jedi
-let g:jedi#use_splits_not_buffers = "bottom"
 
 " run python script con F9
 autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
@@ -196,13 +193,13 @@ autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellesca
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
 " other plugin before putting this into your config.
- inoremap <silent><expr> <TAB>
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
-function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
-endfunction
+ " inoremap <silent><expr> <TAB>
+ "      \ <SID>check_back_space() ? "\<TAB>" :
+ "      \ coc#refresh()
+" function! s:check_back_space() abort
+ "  let col = col('.') - 1
+ "  return !col || getline('.')[col - 1]  =~# '\s'
+" endfunction
 
  " lua << EOF
  " local nvim_lsp = require('lspconfig')

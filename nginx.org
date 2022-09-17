@@ -9,8 +9,8 @@ curl -4 icanhazip.com
 chequear la url para ver si el servidor esta funcionando
 
 * instalar los componentes de python
-apt install python3-pip python3-dev buid-essential libssl-dev
-apt install libffi-dev python3-setuptools
+apt install python3-pip python3-dev libssl-dev
+apt install libffi-dev 
 
 crear un virtual enviroment
 apt install python3-venv

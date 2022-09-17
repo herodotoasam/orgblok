@@ -1,7 +1,26 @@
+
+* agenda pendientes
+** DONE [#A] poner en el listado de rbos total cobrado y estimado
+** DONE agregar codigo a los articulos del stock
+** DONE ver bug proveedores
+   revisado. No habia tal bug. 
+** TODO ver de incorporar los botones a submenu
+   y/o de cambiar el menu directamente a bulma menu
+** DONE explorar un tipo de boton con submenu
+** TODO explorar y pasarse a bulma menu-bar
 * agenda de actividad
 ** [2022-09-15 jue]
    :LOGBOOK:
-   CLOCK: [2022-09-15 jue 12:34]
+   CLOCK: [2022-09-15 jue 20:10]--[2022-09-15 jue 20:31] =>  0:21
+   CLOCK: [2022-09-15 jue 17:05]--[2022-09-15 jue 17:37] =>  0:32
+   bug irresuelto: no funciona en server pero si en local: imprimir
+   listagenerada. Termino siendo problema de cache. Al tener el mismo
+   nombre el browser usa el cache. tuve que agregarle una terminacion
+   aleatoria con time.
+   CLOCK: [2022-09-15 jue 14:45]--[2022-09-15 jue 16:11] =>  1:26
+   hice manejo de error para los whatsapp en caso de no tener whatsapp
+   y no tener repuesta 200, tambien hice un log.
+   CLOCK: [2022-09-15 jue 12:34]--[2022-09-15 jue 13:18] =>  0:44
    CLOCK: [2022-09-15 jue 11:05]--[2022-09-15 jue 12:21] =>  1:16
    lista de precios automatica
    CLOCK: [2022-09-15 jue 10:04]--[2022-09-15 jue 10:50] =>  0:46
@@ -12,5 +31,45 @@
    corregi problema de pachito agregando crontab para el restart del
    servicio como esta hecho en apache, e hice que el backup se haga
    por hora.
+   :END:
+** [2022-09-16 vie]
+   :LOGBOOK:
+   CLOCK: [2022-09-16 vie 17:54]--[2022-09-16 vie 18:08] =>  0:14
+   CLOCK: [2022-09-16 vie 16:51]--[2022-09-16 vie 17:38] =>  0:47
+   CLOCK: [2022-09-16 vie 16:10]--[2022-09-16 vie 16:44] =>  0:34
+   implementacion de bulma-dropdowns en buscar.html
+   CLOCK: [2022-09-16 vie 14:10]--[2022-09-16 vie 15:59] =>  1:49
+   optimizacion de emacs
+   CLOCK: [2022-09-16 vie 12:29]--[2022-09-16 vie 13:33] =>  1:04
+   agregado funcionalidad de codigo de articulos en ventas y salida de
+   mercaderia y en lista de precios
+   CLOCK: [2022-09-16 vie 09:57]--[2022-09-16 vie 11:23] =>  1:26
+   hice fk en tablas artcomprado/detvta/detallesalida para que los art
+   se actualicen en cascada y para que la tabla articulo sea realmente
+   la mandatory respecto a los articulos.
+   CLOCK: [2022-09-16 vie 08:12]--[2022-09-16 vie 09:02] =>  0:50
+   terminado el cobrado/estimado en planilla recibo
+   :END:
+** [2022-09-17 sáb]
+   :LOGBOOK:
+   intentare pasar los textos de los mensajes a base de datos
+   CLOCK: [2022-09-17 sáb 11:05]--[2022-09-17 sáb 11:33] =>  0:28
+   carge todos los codigos y grupos a la tabla articulos
+   CLOCK: [2022-09-17 sáb 10:43]--[2022-09-17 sáb 11:01] =>  0:18
+   pasado a hoverable y arreglado las importaciones .lib
+   CLOCK: [2022-09-17 sáb 09:59]--[2022-09-17 sáb 10:14] =>  0:15
+   pasar a is-hoverable -- urgente arreglar los .lib
+   CLOCK: [2022-09-17 sáb 09:00]--[2022-09-17 sáb 09:30] =>  0:30
+   resolviendo un bug. Los whatsapp se entregan pero dan codigo 500 y
+   por lo tanto dan notificacion erronea
+   Bug resuelto: era que no habia creado el directorio ~/log para el
+   log de wapps. Por el momento se encuentra el log de debug en
+   systemctl status app.
+   CLOCK: [2022-09-17 sáb 07:39]--[2022-09-17 sáb 09:00] =>  1:21
+   inicio el cambio de servidor a nginx.
+   se hizo un servidor espejo en pachito.xyz.
+   se reinicio el servidor fedesal.lol
+   se instalo de nuevo debian 10
+   se instalo todo con nginx
    :END:
    

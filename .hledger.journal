@@ -12420,9 +12420,6 @@ D $1000.00
     assets:caja              30000
     assets:reserva          -30000
 
-2022-09-11 dif
-    expenses:diferencia arqueo             700
-    assets:caja                           -700
 
 2022-09-11 mesada cami
     expenses:cami:mesada           $3000
@@ -12484,9 +12481,6 @@ D $1000.00
     assets:caja               6700
     assets:reserva           -6700
 
-2022-09-13 dif
-    expenses:diferencia arqueo            5799
-    assets:caja                          -5799
 
 2022-09-14 dentista
     expenses:gastos medicos:odontologia            3500
@@ -12507,3 +12501,51 @@ D $1000.00
 2022-09-15 extras cami
     expenses:cami:extras            9000
     assets:caja                    -9000
+
+2022-09-16 ingreso
+    assets:reserva                    4010
+    income:retiro sociedad           -4010
+
+2022-09-16 saco reserva
+    assets:caja               4010
+    assets:reserva           -4010
+
+2022-09-16 extra cami
+    expenses:cami:extras            4010
+    assets:caja                    -4010
+
+2022-09-16 mano de obra
+    expenses:casa:refacciones            6600
+    assets:caja                         -6600
+
+2022-09-16 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-09-16 comida cami
+    expenses:cami:comida           $9000
+    assets:caja                   $-9000
+
+2022-09-16 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-09-17 saco reserva
+    assets:caja              10000
+    assets:reserva          -10000
+
+2022-09-17 mesada ih
+    expenses:isabel          $12000
+    assets:caja             $-12000
+
+2022-09-17 facturas
+    expenses:comida             700
+    assets:caja                -700
+
+2022-09-17 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-09-17 diff
+    expenses:diferencia arqueo             199
+    assets:caja                           -199
