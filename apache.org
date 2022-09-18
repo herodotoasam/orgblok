@@ -133,6 +133,11 @@ se soluciona en el archivo de configuracion
 en alpine esta en /etc/my.cnf.d/mariadb-server.cnf
 comente la linea skip-networking y eso permitio que se pudiera conectar.
 service mariadb restart   (en alpine)
+
+en otra instalacion el conector nuevo daba el error pero no de la utf8
+sino de la refused connection, y luego que me puse con adminer e
+instale todo lo de php que es un monton, volvi a hacer flask run y
+salto lo de la utf8.
 * problemas con mysql-connector-python
 parece que la actualizacion da error que no reconoce utf8.
 la solucion provisoria es actualizar a la version vieja
@@ -143,8 +148,9 @@ aunque lo tengo instalado lo mismo me causa problemas. Por el momento
 se deja.
 * problemas con la coneccion de mariadb y adminer
   primero daba connection refused
-
+  
   ir a /etc/mysql/mariadb.conf.d/50-server.cnf
+  (/etc/my.cnf.d/mariadb-server.cnf   en alpine)
   y en la linea 
   tambien descomentar la linea de port=3306
   bind-address = 127.0.0.1 poner

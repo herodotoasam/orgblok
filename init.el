@@ -450,7 +450,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(evil-smartparens smartparens evil-commentary ripgrep pdf-tools all-the-icons  simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode  doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
+   '(evil-smartparens smartparens evil-commentary ripgrep pdf-tools all-the-icons simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
  '(projectile-globally-ignored-file-suffixes '("#"))
  '(projectile-globally-ignored-files '("#*#" "TAGS"))
  '(projectile-mode t nil (projectile)))
