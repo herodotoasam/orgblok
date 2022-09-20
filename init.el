@@ -170,35 +170,38 @@
  ;; - doom-xcode -- based off of Apple's Xcode Dark Theme (ported by @kadenbarlow)
  ;; - doom-zenburn -- port of the popular Zenburn theme (ported by @jsoa)
 
-(use-package evil
-  :init
-  (setq evil-want-integration t)
-  (setq evil-want-keybinding nil)
-  (setq evil-want-C-u-scroll t)
-  (setq evil-want-C-i-jump nil)
-  :config
-  (evil-mode 1)
-  (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
-  (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+;; (use-package evil
+;;   :init
+;;   (setq evil-want-integration t)
+;;   (setq evil-want-keybinding nil)
+;;   (setq evil-want-C-u-scroll t)
+;;   (setq evil-want-C-i-jump nil)
+;;   :config
+;;   (evil-mode 1)
+;;   (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
+;;   (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
 
-  ;; Use visual line motions even outside of visual-line-mode buffers
-  (evil-global-set-key 'motion "j" 'evil-next-visual-line)
-  (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
+;;   ;; Use visual line motions even outside of visual-line-mode buffers
+;;   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
+;;   (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
 
-  (evil-set-initial-state 'messages-buffer-mode 'normal)
-  (evil-set-initial-state 'dashboard-mode 'normal))
+;;   (evil-set-initial-state 'messages-buffer-mode 'normal)
+;;   (evil-set-initial-state 'dashboard-mode 'normal))
 
-  ;; agregado por mi
-  (setq evil-want-fine-undo 'fine)
-  (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+;;   ;; agregado por mi
+;;   (setq evil-want-fine-undo 'fine)
+;;   (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
 
-(use-package evil-collection
-  :after evil
-  :config
-  (evil-collection-init))
+;; (use-package evil-collection
+;;   :after evil
+;;   :config
+;;   (evil-collection-init))
 
+;; (use-package evil-nerd-commenter
+;;   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
-
+(require 'boon-qwerty)
+(boon-mode)
 
 (use-package which-key
   :init (which-key-mode)
@@ -283,7 +286,7 @@
 
 (require 'powerline)
 (powerline-default-theme)
-(powerline-center-evil-theme)
+;;(powerline-center-evil-theme)
 
 ;;;python-elpy
 ;; (require 'elpy)
@@ -372,8 +375,6 @@
 (autoload 'python-mode' "python" "Python" t)
 (add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
 
-(use-package evil-nerd-commenter
-  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
 (use-package magit
   :custom
@@ -449,11 +450,10 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes '(tsdh-light))
  '(package-selected-packages
-   '(evil-smartparens smartparens evil-commentary ripgrep pdf-tools all-the-icons simpleclip ac-js2 web-mode js2-mode web-mode-edit-element all-the-icons-gnus all-the-icons-dired neotree mic-paren parent-mode vterm which-key visual-fill-column use-package python-mode py-autopep8 powerline org-bullets material-theme magit ivy-rich ido-vertical-mode general flycheck flx-ido evil-collection emmet-mode doom-themes doom-modeline counsel company-box blacken better-defaults auto-complete ag))
- '(projectile-globally-ignored-file-suffixes '("#"))
- '(projectile-globally-ignored-files '("#*#" "TAGS"))
- '(projectile-mode t nil (projectile)))
+   '(avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
+ '(warning-suppress-types '((comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

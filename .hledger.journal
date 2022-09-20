@@ -12549,3 +12549,7 @@ D $1000.00
 2022-09-17 diff
     expenses:diferencia arqueo             199
     assets:caja                           -199
+
+2022-09-18 lomito
+    expenses:comida           $1000
+    assets:caja              $-1000

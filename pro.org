@@ -5775,7 +5775,11 @@ primer mm hecho luego de la obra sobre array
     punto de lo que he aprendido. 
 **** tablet o ipad para lectura de pdf
 **** ingles
-**** js
+
+*** [2022-09-19 Mon]
+    estoy probando un nuevo esquema para emacs con un sistema modal
+    que no interfiere con todos los comandos nativos de emacs. Se
+    llama meow y parece que es bueno solo tengo que aprenderlo.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

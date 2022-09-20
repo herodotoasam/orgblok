@@ -169,4 +169,16 @@ se deja.
   systemctl restart mariadb y app
   ya el mensaje de adminer cambia si damos la password equivocada
   la password es la de la base de datos no la del servidor.
-  
+* problemas para conectar server con adminer en fedora
+intente todo lo anterior y lo mismo no funcionaba y era lo siguiente:
+
+SELinux has boolean httpd_can_network_connect_db which defines whether
+HTTP server scripts and modules can connect to database server or not.
+    This defaults to off:
+
+[root@fedora hero]# getsebool httpd_can_network_connect_db
+httpd_can_network_connect_db --> off
+[root@fedora hero]# setsebool -P httpd_can_network_connect_db on
+[root@fedora hero]# getsebool httpd_can_network_connect_db
+httpd_can_network_connect_db --> on
+[root@fedora hero]# systemctl restart httpd

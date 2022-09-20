@@ -1,4 +1,3 @@
-
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -56,7 +55,7 @@
    :END:
 ** [2022-09-17 sáb]
    :LOGBOOK:
-   CLOCK: [2022-09-17 sáb 18:47]
+   CLOCK: [2022-09-17 sáb 18:47]--[2022-09-17 Sat 19:52] =>  1:05
    de emergencia un chequeo al envio de libre deuda si la cuenta esta cancelada
    CLOCK: [2022-09-17 sáb 15:05]--[2022-09-17 sáb 15:41] =>  0:36
    busqueda de optimizacion de emacs (fallida)
@@ -85,4 +84,35 @@
    se instalo de nuevo debian 10
    se instalo todo con nginx
    :END:
-   
+** [2022-09-19 Mon]
+:LOGBOOK:
+CLOCK: [2022-09-19 Mon 21:20]--[2022-09-19 Mon 23:49] =>  2:29
+CLOCK: [2022-09-19 Mon 17:32]--[2022-09-19 Mon 20:50] =>  3:18
+CLOCK: [2022-09-19 Mon 17:10]--[2022-09-19 Mon 17:31] =>  0:21
+resuelto el bug pasarplanillas resulto ser una multiplicacion de int
+con str en la preparacion de un insert en python. Se destaca el
+descubrimiento del log1 que te muestra la salida de gunicorn sino no
+hubiera podido hacer nada.
+CLOCK: [2022-09-19 Mon 15:11]--[2022-09-19 Mon 16:40] =>  1:29
+gran problema rastreando el bug pasarplanillas
+CLOCK: [2022-09-19 Mon 15:24]--[2022-09-19 Mon 16:41] =>  1:17
+CLOCK: [2022-09-19 Mon 14:17]--[2022-09-19 Mon 15:10] =>  0:53
+se intenta solucionar el bug de nginx con los whatsapp
+se intenta tomar el rastro de los numeros inactivos
+se intenta hacer una cola general para los requests
+CLOCK: [2022-09-19 Mon 12:13]--[2022-09-19 Mon 13:50] =>  1:37
+analizar bug a pedido de ndryon
+CLOCK: [2022-09-19 Mon 11:12]--[2022-09-19 Mon 12:13] =>  1:01
+CLOCK: [2022-09-19 Mon 10:53]--[2022-09-19 Mon 11:12] =>  0:19
+agregar mas mensajes programables y poner un dropdown
+:END:
+** [2022-09-20 Tue]
+:LOGBOOK:
+CLOCK: [2022-09-20 Tue 09:25]--[2022-09-20 Tue 10:24] =>  0:59
+CLOCK: [2022-09-20 Tue 09:13]--[2022-09-20 Tue 09:22] =>  0:09
+excurso emacs para probar otro modal
+capturar como res el response.text y ver si el wapp es invalid
+y dar msg acorde en js
+CLOCK: [2022-09-20 Tue 08:34]--[2022-09-20 Tue 08:49] =>  0:15
+arreglar urgente bug de impresion fichas
+:END:
