@@ -51,7 +51,7 @@
 
 (column-number-mode)
 (global-display-line-numbers-mode t)
-(smartparens-global-mode t)
+;;(smartparens-global-mode t)
 (show-paren-mode 1)
 (set-face-attribute 'show-paren-match nil :weight 'extra-bold)
 
@@ -169,39 +169,44 @@
  ;; - doom-wilmersdorf -- port of Ian Pan's Wilmersdorf (ported by @ema2159)
  ;; - doom-xcode -- based off of Apple's Xcode Dark Theme (ported by @kadenbarlow)
  ;; - doom-zenburn -- port of the popular Zenburn theme (ported by @jsoa)
+(use-package evil-leader
+  :ensure t
+  :init
+  (setq evil-want-keybinding nil)
+  (global-evil-leader-mode))
 
-;; (use-package evil
-;;   :init
-;;   (setq evil-want-integration t)
-;;   (setq evil-want-keybinding nil)
-;;   (setq evil-want-C-u-scroll t)
-;;   (setq evil-want-C-i-jump nil)
-;;   :config
-;;   (evil-mode 1)
-;;   (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
-;;   (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+(use-package evil
+   :init
+   (setq evil-want-integration t)
+   (setq evil-want-keybinding nil)
+   (setq evil-want-C-u-scroll t)
+   (setq evil-want-C-i-jump nil))
+   :config
+   (evil-mode 1)
+   (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
+   (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+
 
 ;;   ;; Use visual line motions even outside of visual-line-mode buffers
-;;   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
-;;   (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
+   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
+   (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
 
-;;   (evil-set-initial-state 'messages-buffer-mode 'normal)
-;;   (evil-set-initial-state 'dashboard-mode 'normal))
+   (evil-set-initial-state 'messages-buffer-mode 'normal)
+   (evil-set-initial-state 'dashboard-mode 'normal)
 
 ;;   ;; agregado por mi
-;;   (setq evil-want-fine-undo 'fine)
-;;   (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+   (setq evil-want-fine-undo 'fine)
+   (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
 
-;; (use-package evil-collection
-;;   :after evil
-;;   :config
-;;   (evil-collection-init))
+ (use-package evil-collection
+   :after evil
+   :ensure t
+   :config
+   (evil-collection-init))
 
-;; (use-package evil-nerd-commenter
-;;   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
+ (use-package evil-nerd-commenter
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
-(require 'boon-qwerty)
-(boon-mode)
 
 (use-package which-key
   :init (which-key-mode)
@@ -286,12 +291,12 @@
 
 (require 'powerline)
 (powerline-default-theme)
-;;(powerline-center-evil-theme)
+(powerline-center-evil-theme)
 
-;;;python-elpy
-;; (require 'elpy)
-;; (elpy-enable)
-;; (setq elpy-rpc-python-command "python3")
+;;python-elpy
+ (require 'elpy)
+ (elpy-enable)
+ (setq elpy-rpc-python-command "python3")
 
 (require 'ag)
 (projectile-mode +1)
@@ -393,7 +398,7 @@
 (setq web-mode-enable-current-element-highlight 1)
 
 (global-set-key [f3] 'neotree-toggle)
-(global-set-key (kbd "}") 'web-mode-tag-match)
+;;(global-set-key (kbd "}") 'web-mode-tag-match)
 
 (require 'js2-mode)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
@@ -452,8 +457,14 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(tsdh-light))
  '(package-selected-packages
-   '(avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
- '(warning-suppress-types '((comp))))
+   '(evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
+ '(warning-suppress-log-types
+   '(((evil-collection))
+     ((evil-collection))
+     ((evil-collection))
+     (comp)
+     (comp)))
+ '(warning-suppress-types '(((evil-collection)) ((evil-collection)) (comp) (comp))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -12553,3 +12553,31 @@ D $1000.00
 2022-09-18 lomito
     expenses:comida           $1000
     assets:caja              $-1000
+
+2022-09-20 farmacia
+    expenses:gastos medicos:farmacia           14500
+    assets:caja                               -14500
+
+2022-09-20 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-09-20 pizza
+    expenses:comida            1000
+    assets:caja               -1000
+
+2022-09-20 ingresos
+    assets:reserva                  185000
+    income:retiro sociedad         -185000
+
+2022-09-20 saco reserva
+    assets:caja               5000
+    assets:reserva           -5000
+
+2022-09-20 ingresos
+    assets:reserva                    1300
+    income:retiro sociedad           -1300
+
+2022-09-20 saco reserva
+    assets:caja               1300
+    assets:reserva           -1300

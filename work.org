@@ -11,6 +11,10 @@
 *** instalar version 28
 *** solucionar el tema elpy
 *** solucionar el tema undo
+** TODO lista de control de documentos
+** TODO whatsapp de imagenes
+** TODO folleto automatico
+** TODO nuevo listado de visita clientes
 * agenda de actividad
 ** [2022-09-15 jue]
    :LOGBOOK:
@@ -108,11 +112,37 @@ agregar mas mensajes programables y poner un dropdown
 :END:
 ** [2022-09-20 Tue]
 :LOGBOOK:
+CLOCK: [2022-09-20 Tue 20:45]--[2022-09-20 Tue 22:00] =>  1:15
+busqueda de otro reemplazo que sea mas seguro
+CLOCK: [2022-09-20 Tue 20:25]--[2022-09-20 Tue 20:45] =>  0:20
+CLOCK: [2022-09-20 Tue 18:30]--[2022-09-20 Tue 20:24] =>  1:54
+busqueda de reemplazo de xmodmap: encontrado!!!!
+es input-remapper y trabaja hasta ahora bastante bien, veremos
+demore pero es una cuestion ergonomica fundamental que me ha hecho
+sufrir mucho en estos ultimos dias el teclado gringo.
+CLOCK: [2022-09-20 Tue 18:21]--[2022-09-20 Tue 18:30] =>  0:09
+busqueda de funcionalidades de evil-mode
+CLOCK: [2022-09-20 Tue 12:14]--[2022-09-20 Tue 12:43] =>  0:29
+capturar como res el response.text y ver si el wapp es invalid
+y dar msg acorde en js
+CLOCK: [2022-09-20 Tue 11:05]--[2022-09-20 Tue 12:14] =>  1:09
+perdida de tiempo para encontrar la vuelta a evil-mode
+CLOCK: [2022-09-20 Tue 10:47]--[2022-09-20 Tue 11:04] =>  0:17
 CLOCK: [2022-09-20 Tue 09:25]--[2022-09-20 Tue 10:24] =>  0:59
 CLOCK: [2022-09-20 Tue 09:13]--[2022-09-20 Tue 09:22] =>  0:09
 excurso emacs para probar otro modal
-capturar como res el response.text y ver si el wapp es invalid
-y dar msg acorde en js
 CLOCK: [2022-09-20 Tue 08:34]--[2022-09-20 Tue 08:49] =>  0:15
 arreglar urgente bug de impresion fichas
+:END:
+** [2022-09-21 Wed]
+:LOGBOOK:
+CLOCK: [2022-09-21 Wed 10:24]
+CLOCK: [2022-09-21 Wed 10:02]--[2022-09-21 Wed 10:13] =>  0:11
+CLOCK: [2022-09-21 Wed 09:54]--[2022-09-21 Wed 09:56] =>  0:02
+CLOCK: [2022-09-21 Wed 09:49]--[2022-09-21 Wed 09:53] =>  0:04
+CLOCK: [2022-09-21 Wed 09:35]--[2022-09-21 Wed 09:48] =>  0:13
+obtengo error en evil-mode en insert-mode con la tecla braceright.
+CLOCK: [2022-09-21 Wed 08:28]--[2022-09-21 Wed 09:28] =>  1:00
+optimizacion de teclado gringo para trabajar minimamente ya que no
+pude hacerlo con el latam. Resigne la - en el menique.
 :END:
