@@ -15,6 +15,14 @@
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO nuevo listado de visita clientes
+** TODO nuevo enfoque en la queue de whatsapp
+ hacer que primero una funcion centralizadora registre el pedido de
+ envio de whatsapp en una tabla de la base de datos.
+ con fecha exacta, idcliente, wapp y msg. o sea el log. y luego de ahi
+ por orden vamos sacando con un campo logico de no procesado vamos
+ procesando cada diez segundos.
+ luego de procesado, se edita el registro con el resultado y tendremos
+ un log con el resultado, failed, rejected, invalid, success.
 * agenda de actividad
 ** [2022-09-15 jue]
    :LOGBOOK:
@@ -160,6 +168,16 @@ pude hacerlo con el latam. Resigne la - en el menique.
 :END:
 ** [2022-09-22 Thu]
 :LOGBOOK:
+CLOCK: [2022-09-22 Thu 17:07]--[2022-09-22 Thu 18:07] =>  1:00
+subida la rama whatalt1 y prueba y correccion
+CLOCK: [2022-09-22 Thu 15:35]--[2022-09-22 Thu 16:58] =>  1:23
+refactorizacion de lib.py para flake y buscar.html
+CLOCK: [2022-09-22 Thu 15:28]--[2022-09-22 Thu 15:34] =>  0:06
+CLOCK: [2022-09-22 Thu 14:25]--[2022-09-22 Thu 14:53] =>  0:28
+trasteo de nuevo con emacs.d/init.el
+CLOCK: [2022-09-22 Thu 13:31]--[2022-09-22 Thu 14:17] =>  0:46
+tedioso trabajo de arreglar refactorizar buscar.html
+CLOCK: [2022-09-22 Thu 13:02]--[2022-09-22 Thu 13:31] =>  0:29
 CLOCK: [2022-09-22 Thu 10:49]--[2022-09-22 Thu 12:18] =>  1:29
 trabaje sobre intimarpdf para que sea nominada
 CLOCK: [2022-09-22 Thu 08:53]--[2022-09-22 Thu 09:53] =>  1:00

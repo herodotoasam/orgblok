@@ -1,14 +1,7 @@
-(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
-(require 'init-benchmarking) ;; Measure startup time
 (defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
 
-;; Adjust garbage collection thresholds during startup, and thereafter
-
-(let ((normal-gc-cons-threshold (* 20 1024 1024))
-      (init-gc-cons-threshold (* 128 1024 1024)))
-  (setq gc-cons-threshold init-gc-cons-threshold)
-  (add-hook 'emacs-startup-hook
-            (lambda () (setq gc-cons-threshold normal-gc-cons-threshold))))
+; The default is 800 kilobytes.  Measured in bytes.
+(setq gc-cons-threshold (* 50 1000 1000))
 
 ;; Allow access from emacsclient
 (add-hook 'after-init-hook
@@ -27,6 +20,17 @@
 ;Make frame transparency overridable	;h
 (defvar efs/frame-transparency '(90 . 90))
 
+
+(defun efs/display-startup-time ()
+  (message "Emacs loaded in %s with %d garbage collections."
+           (format "%.2f seconds"
+                   (float-time
+                     (time-subtract after-init-time before-init-time)))
+           gcs-done))
+
+(add-hook 'emacs-startup-hook #'efs/display-startup-time)
+
+
 ;; Initialize package sources
 (require 'package)
 
@@ -36,20 +40,32 @@
                          ("elpa" . "https://elpa.gnu.org/packages/")))
 
 
-; list the packages you want
-(setq package-list
-    '(simpleclip  flx-ido powerline ag web-mode js2-mode projectile ))
-
 
 (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
+
+(require 'use-package)
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
-(require 'use-package)
+
 (setq use-package-always-ensure t)
 
+(use-package auto-package-update
+  :custom
+  (auto-package-update-interval 7)
+  (auto-package-update-prompt-before-update t)
+  (auto-package-update-hide-results t)
+  :config
+  (auto-package-update-maybe)
+  (auto-package-update-at-time "09:00"))
 
+(use-package no-littering)
+
+;; no-littering doesn't set this by default so we must place
+;; auto save files in the same path as it uses for sessions
+(setq auto-save-file-name-transforms
+      `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
 
 (setq inhibit-startup-message t)
@@ -100,91 +116,18 @@
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
      
 (use-package general
+  :after evil
   :config
-  (general-create-definer rune/leader-keys
+  (general-create-definer efs/leader-keys
     :keymaps '(normal insert visual emacs)
     :prefix "SPC"
     :global-prefix "C-SPC")
 
-  (rune/leader-keys
+  (efs/leader-keys
     "t"  '(:ignore t :which-key "toggles")
-    "tt" '(counsel-load-theme :which-key "choose theme")))
+    "tt" '(counsel-load-theme :which-key "choose theme")
+    "fde" '(lambda () (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))))
 
-(use-package doom-themes)
-(setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
-      doom-themes-enable-italic t) ; if nil, italics is universally disabled
-(load-theme 'doom-badger t)
-
-
-
- ;; - doom-1337 -- ported from VSCode's 1337 theme (ported by @ccmywish)
- ;; - doom-acario-dark -- an original dark theme (ported by @gagbo)
- ;; - doom-acario-light -- an original light theme (ported by @gagbo)
- ;; - doom-ayu-dark -- inspired by Ayu Dark (ported by @ashton)
- ;; - doom-ayu-light -- inspirted by Ayu Light (ported by @LoveSponge)
- ;; - doom-ayu-mirage -- inspired by Ayu Mirage (ported by @LoveSponge)
- ;; - doom-badger -- inspired by cann's Badger colorscheme (ported by @jsoa)
- ;; - doom-challenger-deep -- inspired by Vim's Challenger Deep theme (ported by @fuxialexander)
- ;; - doom-city-lights -- inspired by Atom's City Lights theme (ported by @fuxialexander)
- ;; - doom-dark+ -- ported from equinusocio's VSCode Theme, dark+ (ported by @ema2159)
- ;; - doom-dracula -- inspired by the popular Dracula theme (ported by @fuxialexander)
- ;; - doom-earl-grey -- a gentle color scheme, for code (ported by @JuneKelly)
- ;; - doom-ephemeral -- inspired by the Ephemeral Theme from elenapan's dotfiles (ported by @karetsu)
- ;; - doom-fairy-floss -- a candy colored theme by sailorhg (ported by @ema2159)
- ;; - doom-flatwhite -- inspired by Atom's Flatwhite Syntax theme (ported by @JuneKelly)
- ;; - doom-gruvbox -- inspired by morhetz's Gruvbox (ported by @JongW)
- ;; - doom-gruvbox-light -- inspired by morhetz's Gruvbox (light) (ported by @jsoa)
- ;; - doom-henna -- based on VSCode's Henna theme (ported by @jsoa)
- ;; - doom-homage-black -- a minimalistic, colorless theme inspired by eziam, tao, and jbeans (ported by @mskorzhinskiy)
- ;; - doom-homage-white -- minimal white theme inspired by editors from 2000s (ported by @mskorzhinskiy)
- ;; - doom-horizon -- ported from VSCode Horizon (ported by @karetsu)
- ;; - doom-Iosvkem -- ported from the default dark theme for Adobe Brackets (ported by @neutaaaaan)
- ;; - doom-ir-black -- ported from Vim's ir_black colorscheme (ported by @legendre6891)
- ;; - doom-lantern -- based on Gitleptune's Lantern theme (ported by @paladhammika)
- ;; - doom-laserwave -- a clean synthwave/outrun theme inspired by VSCode's Laserwave (ported by @hyakt)
- ;; - doom-manegarm -- an original autumn-inspired dark theme (ported by @kenranunderscore)
- ;; - doom-material -- adapted from equinusocio's Material themes (ported by @tam5)
- ;; - doom-material-dark -- inspired by Material Theme by xrei (ported by @trev-dev)
- ;; - doom-meltbus -- a dark (mostly) monochromatic theme (ported by @spacefrogg)
- ;; - doom-miramare -- a port of Franbach's Miramare theme; a variant of Grubox (ported by @sagittaros)
- ;; - doom-molokai -- inspired by Tomas Restrepo's Molokai (ported by @hlissner)
- ;; - doom-monokai-classic -- port of Monokai Classic (ported by @ema2159)
- ;; - doom-monokai-machine -- port of Monokai Classic (ported by @minikN)
- ;; - doom-monokai-octagon -- port of Monokai Octagon (ported by @minikN)
- ;; - doom-monokai-pro -- Port of Monokai Pro (ported by @minikN)
- ;; - doom-monokai-ristretto -- Port of Monokai Ristretto (ported by @minikN)
- ;; - doom-monokai-spectrum -- port of Monokai Spectrum (ported by @minikN)
- ;; - doom-moonlight -- inspired by VS code's Moonlight (ported by @Brettm12345)
- ;; - doom-nord -- dark variant of Nord (ported by @fuxialexander)
- ;; - doom-nord-aurora -- a light variant of Nord (ported by @MoskitoHero)
- ;; - doom-nord-light -- light variant of Nord (ported by @fuxialexander)
- ;; - doom-nova -- inspired by Trevord Miller's Nova (ported by @bigardone)
- ;; - doom-oceanic-next -- inspired by Oceanic Next (ported by @juanwolf)
- ;; - doom-old-hope -- inspired by An Old Hope, in a galaxy far far away (ported by @teesloane)
- ;; - doom-one -- inspired by Atom One Dark (ported by @hlissner)
- ;; - doom-one-light -- inspired by Atom One Light (ported by @ztlevi)
- ;; - doom-opera -- an original light theme (ported by @jwintz)
- ;; - doom-opera-light -- an original light theme (ported by @jwintz)
- ;; - doom-outrun-electric -- a high contrast, neon theme inspired by Outrun Electric on VSCode (ported by @ema2159)
- ;; - doom-palenight -- adapted from equinusocio's Material themes (ported by @Brettm12345)
- ;; - doom-peacock -- inspired by daylerees' Peacock (ported by @teesloane)
- ;; - doom-plain -- inspired by gko's plain theme for VSCode (ported by @das-s)
- ;; - doom-plain-dark -- inspired by gko's plain theme for VSCode (ported by @das-s)
- ;; - doom-rouge -- ported from VSCode's Rouge Theme (ported by @das-s)
- ;; - doom-shades-of-purple -- a port of VSCode's Shades of Purple (ported by @jwbaldwin)
- ;; - doom-snazzy -- inspired by Hyper Snazzy (ported by @ar1a)
- ;; - doom-solarized-dark -- a dark variant of Solarized (ported by @ema2159)
- ;; - doom-solarized-dark-high-contrast -- a high-contrast variant of Solarized Dark (ported by @jmorag)
- ;; - doom-solarized-light -- a light variant of Solarized (ported by @fuxialexander)
- ;; - doom-sourcerer -- a port of xero's Sourcerer (ported by @fm0xb)
- ;; - doom-spacegrey -- I'm sure you've heard of it (ported by @teesloane)
- ;; - doom-tokyo-night -- inspired by VSCode's Tokyo Night theme (ported by @FosterHangdaan)
- ;; - doom-tomorrow-day -- a light variant of Tomorrow (ported by @emacswatcher)
- ;; - doom-tomorrow-night -- One of the dark variants of Tomorrow (ported by @hlissner)
- ;; - doom-vibrant -- a more vibrant variant of doom-one (ported by @hlissner)
- ;; - doom-wilmersdorf -- port of Ian Pan's Wilmersdorf (ported by @ema2159)
- ;; - doom-xcode -- based off of Apple's Xcode Dark Theme (ported by @kadenbarlow)
- ;; - doom-zenburn -- port of the popular Zenburn theme (ported by @jsoa)
 (use-package evil-leader
   :ensure t
   :init
@@ -193,10 +136,13 @@
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key
   "e" 'find-file
+  "0" 'delete-window
+  "2" 'split-window-below
   "3" 'split-window-right
   "g" 'magit-status
   "b" 'switch-to-buffer
   "d" 'dired
+  "u" 'undo-tree-visualize
   "k" 'kill-buffer)
 
 (use-package evil
@@ -224,28 +170,93 @@
 
  (use-package evil-collection
    :after evil
-   :ensure t
    :config
    (evil-collection-init))
+
+(use-package command-log-mode
+  :commands command-log-mode)
+
+(use-package doom-themes
+  :init (load-theme 'doom-badger t))
 
  (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
+(use-package all-the-icons)
+
+(use-package doom-modeline
+  :init (doom-modeline-mode 1)
+  :custom ((doom-modeline-height 15)))
 
 (use-package which-key
-  :init (which-key-mode)
+  :defer 0
   :diminish which-key-mode
   :config
+  (which-key-mode)
   (setq which-key-idle-delay 1))
 
+(use-package ivy
+  :diminish
+  :bind (("C-s" . swiper)
+         :map ivy-minibuffer-map
+         ("TAB" . ivy-alt-done)
+         ("C-l" . ivy-alt-done)
+         ("C-j" . ivy-next-line)
+         ("C-k" . ivy-previous-line)
+         :map ivy-switch-buffer-map
+         ("C-k" . ivy-previous-line)
+         ("C-l" . ivy-done)
+         ("C-d" . ivy-switch-buffer-kill)
+         :map ivy-reverse-i-search-map
+         ("C-k" . ivy-previous-line)
+         ("C-d" . ivy-reverse-i-search-kill))
+  :config
+  (ivy-mode 1))
+
+(use-package ivy-rich
+  :after ivy
+  :init
+  (ivy-rich-mode 1))
+
+(use-package counsel
+  :bind (("C-M-j" . 'counsel-switch-buffer)
+         :map minibuffer-local-map
+         ("C-r" . 'counsel-minibuffer-history))
+  :custom
+  (counsel-linux-app-format-function #'counsel-linux-app-format-function-name-only)
+  :config
+  (counsel-mode 1))
+
+(use-package ivy-prescient
+  :after counsel
+  :custom
+  (ivy-prescient-enable-filtering nil)
+  :config
+  ;; Uncomment the following line to have sorting remembered across sessions!
+  ;(prescient-persist-mode 1)
+  (ivy-prescient-mode 1))
+
+(use-package hydra
+  :defer t)
+
+(defhydra hydra-text-scale (:timeout 4)
+  "scale text"
+  ("j" text-scale-increase "in")
+  ("k" text-scale-decrease "out")
+  ("f" nil "finished" :exit t))
+
+(efs/leader-keys
+  "ts" '(hydra-text-scale/body :which-key "scale text"))
+
+
 ;; ido mo
-(require 'flx-ido)
-(setq ido-enable-flex-maching t)
-(setq ido-everywhere t)
-(setq ido-use-filename-at-point 'guess)
-(setq ido-create-new-buffer 'always)
-(setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~"))
-(ido-mode 1)
+;; (require 'flx-ido)
+;; (setq ido-enable-flex-maching t)
+;; (setq ido-everywhere t)
+;; (setq ido-use-filename-at-point 'guess)
+;; (setq ido-create-new-buffer 'always)
+;; (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
+;; (ido-mode 1)
 
 
 
@@ -283,6 +294,171 @@
   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
 
 
+(defun efs/lsp-mode-setup ()
+  (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
+  (lsp-headerline-breadcrumb-mode))
+
+(use-package lsp-mode
+  :commands (lsp lsp-deferred)
+  :hook (lsp-mode . efs/lsp-mode-setup)
+  :init
+  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
+  :config
+  (lsp-enable-which-key-integration t))
+
+(use-package lsp-ui
+  :hook (lsp-mode . lsp-ui-mode)
+  :custom
+  (lsp-ui-doc-position 'bottom))
+
+(use-package lsp-treemacs
+  :after lsp)
+
+(use-package lsp-ivy
+  :after lsp)
+
+(use-package typescript-mode
+  :mode "\\.ts\\'"
+  :hook (typescript-mode . lsp-deferred)
+  :config
+  (setq typescript-indent-level 2))
+
+(use-package python-mode
+  :ensure t
+  :hook (python-mode . lsp-deferred)
+  :custom
+  ;; NOTE: Set these if Python 3 is called "python3" on your system!
+  (python-shell-interpreter "python3")
+  (dap-python-executable "python3")
+  (dap-python-debugger 'debugpy)
+  :config
+  (require 'dap-python))
+
+(use-package pyvenv
+  :after python-mode
+  :config
+  (pyvenv-mode 1))
+
+(use-package company
+  :after lsp-mode
+  :hook (lsp-mode . company-mode)
+  :bind (:map company-active-map
+         ("<tab>" . company-complete-selection))
+        (:map lsp-mode-map
+         ("<tab>" . company-indent-or-complete-common))
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0))
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
+(use-package projectile
+  :diminish projectile-mode
+  :config (projectile-mode)
+  :custom ((projectile-completion-system 'ivy))
+  :bind-keymap
+  ("C-c p" . projectile-command-map)
+  :init
+  ;; NOTE: Set this to the folder where you keep your Git repos!
+  (when (file-directory-p "~/fl5")
+    (setq projectile-project-search-path '("~/fl5")))
+  (setq projectile-switch-project-action #'projectile-dired))
+
+(use-package counsel-projectile
+  :after projectile
+  :config (counsel-projectile-mode))
+
+(use-package magit
+  :commands magit-status
+  :custom
+  (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
+(use-package forge
+  :after magit)
+(use-package rainbow-delimiters
+  :hook (prog-mode . rainbow-delimiters-mode))
+
+(use-package term
+  :commands term
+  :config
+  (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
+  ;;(setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
+
+  ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
+  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
+
+(use-package eterm-256color
+  :hook (term-mode . eterm-256color-mode))
+
+(use-package vterm
+  :commands vterm
+  :config
+  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
+  ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
+  (setq vterm-max-scrollback 10000))
+
+(defun efs/configure-eshell ()
+  ;; Save command history when commands are entered
+  (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
+
+  ;; Truncate buffer for performance
+  (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
+
+  ;; Bind some useful keys for evil-mode
+  (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
+  (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
+  (evil-normalize-keymaps)
+
+  (setq eshell-history-size         10000
+        eshell-buffer-maximum-lines 10000
+        eshell-hist-ignoredups t
+        eshell-scroll-to-bottom-on-input t))
+
+(use-package eshell-git-prompt
+  :after eshell)
+
+(use-package eshell
+  :hook (eshell-first-time-mode . efs/configure-eshell)
+  :config
+
+  (with-eval-after-load 'esh-opt
+    (setq eshell-destroy-buffer-when-process-dies t)
+    (setq eshell-visual-commands '("htop" "zsh" "vim")))
+
+  (eshell-git-prompt-use-theme 'powerline))
+
+(use-package dired
+  :ensure nil
+  :commands (dired dired-jump)
+  :bind (("C-x C-j" . dired-jump))
+  :custom ((dired-listing-switches "-agho --group-directories-first"))
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "h" 'dired-single-up-directory
+    "l" 'dired-single-buffer))
+
+(use-package dired-single
+  :commands (dired dired-jump))
+
+(use-package all-the-icons-dired
+  :hook (dired-mode . all-the-icons-dired-mode))
+
+(use-package dired-open
+  :commands (dired dired-jump)
+  :config
+  ;; Doesn't work as expected!
+  ;;(add-to-list 'dired-open-functions #'dired-open-xdg t)
+  (setq dired-open-extensions '(("png" . "feh")
+                                ("mkv" . "mpv"))))
+
+(use-package dired-hide-dotfiles
+  :hook (dired-mode . dired-hide-dotfiles-mode)
+  :config
+  (evil-collection-define-key 'normal 'dired-mode-map
+    "H" 'dired-hide-dotfiles-mode))
+
+;; Make gc pauses faster by decreasing the threshold.
+(setq gc-cons-threshold (* 2 1000 1000))
 ;; (defun efs/org-mode-visual-fill ()
 ;;   (setq visual-fill-column-width 100
 ;;         visual-fill-column-center-text t)
@@ -318,14 +494,14 @@
 (powerline-center-evil-theme)
 
 ;;python-elpy
- (require 'elpy)
- (elpy-enable)
- (setq elpy-rpc-python-command "python3")
+ ;; (require 'elpy)
+ ;; (elpy-enable)
+ ;; (setq elpy-rpc-python-command "python3")
 
 (require 'ag)
-(projectile-mode +1)
-(define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+;; (projectile-mode +1)
+;; (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+;; (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -398,27 +574,27 @@
 ;;(recentf-mode 1)
 ;;(setq recentf-max-menu-items 25)
 
-(autoload 'tcl-mode "tcl" "Tcl mode." t)
-(add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
-(add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
-(autoload 'python-mode' "python" "Python" t)
-(add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
+;; (autoload 'tcl-mode "tcl" "Tcl mode." t)
+;; (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
+;; (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
+;; (autoload 'python-mode' "python" "Python" t)
+;; (add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
 
 
-(use-package magit
-  :custom
-  (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
+;; (use-package magit
+  ;; :custom
+  ;; (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 
 ;; NOTE: Make sure to configure a GitHub token before using this package!
 ;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 ;;(use-package forge)
 
-(require 'web-mode)
-(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
-(add-hook 'web-mode-hook (lambda () (emmet-mode)))
-(add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
-(add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
+; (require 'web-mode)
+; (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+ (add-hook 'web-mode-hook (lambda () (emmet-mode)))
+ (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
+ (add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
 (setq web-mode-enable-current-element-highlight 1)
 
 (global-set-key [f3] 'neotree-toggle)
@@ -430,7 +606,7 @@
 (add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
 
 ;; Better imenu
-(add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
+;; (add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
 
 
 ;; org-roam
@@ -480,9 +656,8 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(tsdh-light))
  '(package-selected-packages
-   '(ripgrep evil-org ac-js2 emmet-mode evil-smartparens evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
+   '(all-the-icons-completion spaceline-all-the-icons all-the-icons-ivy-rich treemacs-all-the-icons all-the-icons-ibuffer all-the-icons-ivy ripgrep evil-org ac-js2 emmet-mode evil-smartparens evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
  '(warning-suppress-log-types
    '(((evil-collection))
      ((evil-collection))

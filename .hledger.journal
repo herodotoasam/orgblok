@@ -12589,3 +12589,7 @@ D $1000.00
 2022-09-22 extra cami
     expenses:cami:extras            1500
     assets:caja                    -1500
+
+2022-09-22 comida
+    expenses:comida            $700
+    assets:caja               $-700
