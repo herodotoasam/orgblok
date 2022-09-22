@@ -1,7 +1,23 @@
-(setq gc-cons-threshold 100000000)
-(add-hook 'emacs-startup-hook
+(add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(require 'init-benchmarking) ;; Measure startup time
+(defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
+
+;; Adjust garbage collection thresholds during startup, and thereafter
+
+(let ((normal-gc-cons-threshold (* 20 1024 1024))
+      (init-gc-cons-threshold (* 128 1024 1024)))
+  (setq gc-cons-threshold init-gc-cons-threshold)
+  (add-hook 'emacs-startup-hook
+            (lambda () (setq gc-cons-threshold normal-gc-cons-threshold))))
+
+;; Allow access from emacsclient
+(add-hook 'after-init-hook
           (lambda ()
-            (setq gc-cons-threshold (expt 2 23))))
+            (require 'server)
+            (unless (server-running-p)
+              (server-start))))
+
+
 ;; will most likely need to adjust this font size for your system!
 (defvar efs/default-font-size 140)
 (defvar efs/default-variable-font-size 140)
@@ -51,7 +67,7 @@
 
 (column-number-mode)
 (global-display-line-numbers-mode t)
-;;(smartparens-global-mode t)
+(smartparens-global-mode t)
 (show-paren-mode 1)
 (set-face-attribute 'show-paren-match nil :weight 'extra-bold)
 
@@ -97,7 +113,7 @@
 (use-package doom-themes)
 (setq doom-themes-enable-bold t    ; if nil, bold is universally disabled
       doom-themes-enable-italic t) ; if nil, italics is universally disabled
-(load-theme 'tsdh-light t)
+(load-theme 'doom-badger t)
 
 
 
@@ -174,6 +190,14 @@
   :init
   (setq evil-want-keybinding nil)
   (global-evil-leader-mode))
+(evil-leader/set-leader "<SPC>")
+(evil-leader/set-key
+  "e" 'find-file
+  "3" 'split-window-right
+  "g" 'magit-status
+  "b" 'switch-to-buffer
+  "d" 'dired
+  "k" 'kill-buffer)
 
 (use-package evil
    :init
@@ -448,6 +472,7 @@
 ;; like matchit in vim
 ;; @return t => start from open tag; nil start from close tag
 
+(global-undo-tree-mode)
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (custom-set-variables
@@ -457,7 +482,7 @@
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(tsdh-light))
  '(package-selected-packages
-   '(evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
+   '(ripgrep evil-org ac-js2 emmet-mode evil-smartparens evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
  '(warning-suppress-log-types
    '(((evil-collection))
      ((evil-collection))

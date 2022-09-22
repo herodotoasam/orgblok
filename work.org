@@ -136,7 +136,19 @@ arreglar urgente bug de impresion fichas
 :END:
 ** [2022-09-21 Wed]
 :LOGBOOK:
-CLOCK: [2022-09-21 Wed 10:24]
+CLOCK: [2022-09-21 Wed 19:57]--[2022-09-21 Wed 21:18] =>  1:21
+nuevo enfoque en el delay de los wapps
+CLOCK: [2022-09-21 Wed 19:47]--[2022-09-21 Wed 19:55] =>  0:08
+CLOCK: [2022-09-21 Wed 18:33]--[2022-09-21 Wed 19:27] =>  0:54
+CLOCK: [2022-09-21 Wed 15:00]--[2022-09-21 Wed 16:59] =>  1:59
+termine rbotransferencia; hice utilidades/pdfsistema
+CLOCK: [2022-09-21 Wed 13:35]--[2022-09-21 Wed 14:52] =>  1:17
+continuo con la limpieza de buscar.html; inicio la refactorizacion de
+rboportransferencia
+CLOCK: [2022-09-21 Wed 12:00]--[2022-09-21 Wed 13:32] =>  1:32
+terminado el envio de bajas a whatsapp
+CLOCK: [2022-09-21 Wed 10:24]--[2022-09-21 Wed 11:41] =>  1:17
+trabajo en el tema mensaje de invalid whatsapp
 CLOCK: [2022-09-21 Wed 10:02]--[2022-09-21 Wed 10:13] =>  0:11
 CLOCK: [2022-09-21 Wed 09:54]--[2022-09-21 Wed 09:56] =>  0:02
 CLOCK: [2022-09-21 Wed 09:49]--[2022-09-21 Wed 09:53] =>  0:04
@@ -145,4 +157,13 @@ obtengo error en evil-mode en insert-mode con la tecla braceright.
 CLOCK: [2022-09-21 Wed 08:28]--[2022-09-21 Wed 09:28] =>  1:00
 optimizacion de teclado gringo para trabajar minimamente ya que no
 pude hacerlo con el latam. Resigne la - en el menique.
+:END:
+** [2022-09-22 Thu]
+:LOGBOOK:
+CLOCK: [2022-09-22 Thu 10:49]--[2022-09-22 Thu 12:18] =>  1:29
+trabaje sobre intimarpdf para que sea nominada
+CLOCK: [2022-09-22 Thu 08:53]--[2022-09-22 Thu 09:53] =>  1:00
+otra version de la cola de wapps
+CLOCK: [2022-09-22 Thu 08:21]--[2022-09-22 Thu 08:50] =>  0:29
+trasteando el init.el
 :END:
