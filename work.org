@@ -15,7 +15,7 @@
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO nuevo listado de visita clientes
-** TODO nuevo enfoque en la queue de whatsapp
+** DONE nuevo enfoque en la queue de whatsapp
  hacer que primero una funcion centralizadora registre el pedido de
  envio de whatsapp en una tabla de la base de datos.
  con fecha exacta, idcliente, wapp y msg. o sea el log. y luego de ahi
@@ -23,6 +23,8 @@
  procesando cada diez segundos.
  luego de procesado, se edita el registro con el resultado y tendremos
  un log con el resultado, failed, rejected, invalid, success.
+** TODO ver la forma de ordenar las columnas de logwapp el datatable
+aparentemente la culpa la tendria jsonify
 * agenda de actividad
 ** [2022-09-15 jue]
    :LOGBOOK:
@@ -185,3 +187,21 @@ otra version de la cola de wapps
 CLOCK: [2022-09-22 Thu 08:21]--[2022-09-22 Thu 08:50] =>  0:29
 trasteando el init.el
 :END:
+** [2022-09-23 Fri]
+:LOGBOOK:
+CLOCK: [2022-09-23 Fri 17:44]--[2022-09-23 Fri 18:20] =>  0:36
+terminado el queue - trabaje un poco en el orden de columnas de wapplog
+CLOCK: [2022-09-23 Fri 15:48]--[2022-09-23 Fri 17:20] =>  1:32
+probando el nuevo queue problemas con el libredeuda
+CLOCK: [2022-09-23 Fri 14:00]--[2022-09-23 Fri 15:17] =>  1:17
+haciendo listado nuevo
+CLOCK: [2022-09-23 Fri 13:12]--[2022-09-23 Fri 13:43] =>  0:31
+CLOCK: [2022-09-23 Fri 11:10]--[2022-09-23 Fri 12:35] =>  1:25
+CLOCK: [2022-09-23 Fri 09:20]--[2022-09-23 Fri 10:45] =>  1:25
+exitoso por el momento
+CLOCK: [2022-09-23 Fri 09:16]--[2022-09-23 Fri 09:19] =>  0:03
+voy a encarar un nuevo enfoque con la queue de whatsapp
+CLOCK: [2022-09-23 Fri 08:50]--[2022-09-23 Fri 09:12] =>  0:22
+solucione el problema de los archivos undo-tree
+:END:
+

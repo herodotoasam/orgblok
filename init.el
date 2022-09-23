@@ -167,6 +167,13 @@
 ;;   ;; agregado por mi
    (setq evil-want-fine-undo 'fine)
    (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
+   (evil-global-set-key 'normal (kbd "7") 'evil-search-forward)
+   (evil-global-set-key 'normal (kbd "3") 'evil-search-word-backward)
+   (evil-global-set-key 'normal (kbd "+") 'evil-search-word-forward)
+   (evil-global-set-key 'normal (kbd "4") 'evil-end-of-line)
+   (evil-global-set-key 'normal (kbd "M-7") 'evilnc-comment-or-uncomment-lines)
+   (evil-global-set-key 'normal (kbd "5") 'evil-jump-item)
+   (evil-global-set-key 'visual (kbd "5") 'evil-jump-item)
 
  (use-package evil-collection
    :after evil
@@ -182,7 +189,8 @@
  (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
-(use-package all-the-icons)
+(use-package all-the-icons
+  :ensure t)
 
 (use-package doom-modeline
   :init (doom-modeline-mode 1)
@@ -489,9 +497,9 @@
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
 
 
-(require 'powerline)
-(powerline-default-theme)
-(powerline-center-evil-theme)
+;; (require 'powerline)
+;; (powerline-default-theme)
+;; (powerline-center-evil-theme)
 
 ;;python-elpy
  ;; (require 'elpy)
@@ -590,8 +598,8 @@
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 ;;(use-package forge)
 
-; (require 'web-mode)
-; (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+ (require 'web-mode)
+ (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
  (add-hook 'web-mode-hook (lambda () (emmet-mode)))
  (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
  (add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
@@ -648,7 +656,14 @@
 ;; like matchit in vim
 ;; @return t => start from open tag; nil start from close tag
 
-(global-undo-tree-mode)
+(use-package undo-tree
+  :defer t
+  :diminish undo-tree-mode
+  :init (global-undo-tree-mode)
+  :custom
+  (undo-tree-visualizer-diff t)
+  (undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
+  (undo-tree-visualizer-timestamps t))
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (custom-set-variables
@@ -657,7 +672,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(all-the-icons-completion spaceline-all-the-icons all-the-icons-ivy-rich treemacs-all-the-icons all-the-icons-ibuffer all-the-icons-ivy ripgrep evil-org ac-js2 emmet-mode evil-smartparens evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit js2-mode general flx-ido evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
+   '(neotree evil-matchit all-the-icons-completion spaceline-all-the-icons all-the-icons-ivy-rich treemacs-all-the-icons all-the-icons-ibuffer all-the-icons-ivy ripgrep evil-org ac-js2 emmet-mode evil-smartparens evil-commentary undo-tree goto-last-change avy boon auto-complete which-key web-mode use-package smartparens simpleclip projectile powerline org-bullets meow magit general evil-nerd-commenter evil-collection elpy doom-themes counsel ag))
  '(warning-suppress-log-types
    '(((evil-collection))
      ((evil-collection))

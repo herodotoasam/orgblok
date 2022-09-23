@@ -12593,3 +12593,15 @@ D $1000.00
 2022-09-22 comida
     expenses:comida            $700
     assets:caja               $-700
+
+2022-09-23 carla
+    expenses:limpieza            3000
+    assets:caja                 -3000
+
+2022-09-23 mesada ih
+    expenses:isabel          $12000
+    assets:caja             $-12000
+
+2022-09-23 comida
+    expenses:comida            2500
+    assets:caja               -2500
