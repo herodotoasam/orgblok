@@ -207,7 +207,11 @@ solucione el problema de los archivos undo-tree
 :END:
 ** [2022-09-24 Sat]
 :LOGBOOK:
-CLOCK: [2022-09-24 Sat 12:25]
+CLOCK: [2022-09-24 Sat 16:14]
+CLOCK: [2022-09-24 Sat 14:40]--[2022-09-24 Sat 16:14] => 1:34
+CLOCK: [2022-09-24 Sat 13:08]--[2022-09-24 Sat 13:59] =>  0:51
+volviendo a nvim
+CLOCK: [2022-09-24 Sat 12:25]--[2022-09-24 Sat 13:08] =>  0:43
 CLOCK: [2022-09-24 Sat 10:10]--[2022-09-24 Sat 11:43] =>  1:33
 terminado queue con class
 CLOCK: [2022-09-24 Sat 10:01]--[2022-09-24 Sat 10:06] =>  0:05
