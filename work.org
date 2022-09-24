@@ -25,6 +25,7 @@
  un log con el resultado, failed, rejected, invalid, success.
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
 aparentemente la culpa la tendria jsonify
+** TODO sistema contable para las transferencias
 * agenda de actividad
 ** [2022-09-15 jue]
    :LOGBOOK:
@@ -204,4 +205,13 @@ voy a encarar un nuevo enfoque con la queue de whatsapp
 CLOCK: [2022-09-23 Fri 08:50]--[2022-09-23 Fri 09:12] =>  0:22
 solucione el problema de los archivos undo-tree
 :END:
-
+** [2022-09-24 Sat]
+:LOGBOOK:
+CLOCK: [2022-09-24 Sat 12:25]
+CLOCK: [2022-09-24 Sat 10:10]--[2022-09-24 Sat 11:43] =>  1:33
+terminado queue con class
+CLOCK: [2022-09-24 Sat 10:01]--[2022-09-24 Sat 10:06] =>  0:05
+probando otro sistema queue basado en clases
+CLOCK: [2022-09-24 Sat 08:24]--[2022-09-24 Sat 09:41] =>  1:17
+termine listado con dos formatos- hice el merge - 
+:END:

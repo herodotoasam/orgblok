@@ -12605,3 +12605,11 @@ D $1000.00
 2022-09-23 comida
     expenses:comida            2500
     assets:caja               -2500
+
+2022-09-24 comida
+    expenses:comida             400
+    assets:caja                -400
+
+2022-09-24 ih
+    expenses:isabel            1500
+    assets:caja               -1500

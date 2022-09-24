@@ -1,6 +1,6 @@
 packloadall
 "commenting a line
-"nnoremap s I#<Esc>j
+nnoremap s I#<Esc>j
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -15,9 +15,10 @@ Plugin 'ervandew/supertab'
 Plugin 'morhetz/gruvbox'
 Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'powerline/powerline'
 Plugin 'tpope/vim-surround'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
@@ -70,18 +71,19 @@ nnoremap <C-down> :bn<cr>
 
 nnoremap q :q<cr>
 nnoremap wq :wq<cr>
-nnoremap <C-s> :w<cr>
+nnoremap <C-x><C-s> :w<cr>
 nnoremap <F6> :w<cr> :!wish %<CR>
 nnoremap <C-z> :w<cr> :!bash %<CR>
 
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
 
-":map <C-n>  :Files<cr>
-:map <C-n> :NnnPicker<cr>
+:map <C-n>  :Files<cr>
+":map <C-n> :NnnPicker<cr>
 :map <C-b>  :Buffers<cr>
 :map <C-t>  :BTags<cr>
 :map <F3>   :NERDTreeToggle<CR>
+:map <F4>   :UndotreeShow<CR>
 " :map <F3>  :30vs +Ex<cr>
 "mueve la linea abajo
 let NERDTreeQuitOnOpen=1
@@ -90,7 +92,7 @@ let NERDTreeQuitOnOpen=1
 "mueve la linea arriba
 :map <A-Down> :.,m.+<CR>
 "duplica la linea
-":map <C-D> :.,co.<CR>
+:map <C-D> :.,co.<CR>
 
 :syntax on
 set tabstop=4
