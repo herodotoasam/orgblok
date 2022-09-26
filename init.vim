@@ -1,9 +1,15 @@
 packloadall
 "commenting a line
-nnoremap s I#<Esc>j
+"nnoremap s I#<Esc>j
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
+
+""Autocomplete native
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
+set path=/home/hero/fl5,/home/hero/orgblok
+set complete=.,w,b,u,t,i
 
 
 " set the runtime path to include Vundle and initialize
@@ -12,59 +18,54 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " different version somewhere else.
 Plugin 'ervandew/supertab'
+Plugin 'rcarriga/nvim-notify'
 Plugin 'morhetz/gruvbox'
 Plugin 'mattn/emmet-vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'ctrlpvim/ctrlp.vim'
-"Plugin 'powerline/powerline'
 Plugin 'tpope/vim-surround'
 Plugin 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plugin 'junegunn/fzf.vim'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'preservim/nerdtree'
-"Plugin 'mcchrish/nnn.vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'dracula/vim'
 Plugin 'jacoborus/tender.vim'
-"Plugin 'ycm-core/YouCompleteMe'
-"Plugin 'neovim/nvim-lspconfig'
-"Plugin 'nvim-lua/completion-nvim'
-"""Plugin 'kristijanhusak/orgmode.nvim'
-Plugin 'nvim-treesitter/nvim-treesitter'
+Plugin 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plugin 'nvim-orgmode/orgmode'
-"Plugin 'dhruvasagar/vim-dotoo'
 Plugin 'chriskempson/base16-vim'
 Plugin 'mbbill/undotree'
-Plugin 'airblade/vim-rooter'
+"Plugin 'airblade/vim-rooter'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'TimUntersberger/neogit'
-"Plugin 'nvim-telescope/telescope.nvim'
+Plugin 'sindrets/diffview.nvim'
+Plugin 'nvim-telescope/telescope-symbols.nvim'
+Plugin  'nvim-lua/popup.nvim'
+Plugin 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+Plugin 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plugin 'kyazdani42/nvim-web-devicons'
 Plugin 'neoclide/coc.nvim', {'branch': 'release'}
-" Plugin 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'yarn install --frozen-lockfile' }
+Plugin 'alvan/vim-closetag'
+Plugin 'folke/which-key.nvim'
+Plugin 'andymass/vim-matchup'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 
-" lua << EOF
-" require'lspconfig'.pyright.setup{}
-" EOF
 
-"set guifont=DejaVu\ Sans\ Mono:h14
 set guifont=Fira\ Code\ Mono:h15
-"colorscheme gruvbox
 if (has("termguicolors"))
  set termguicolors
 endif
 colorscheme base16-default-dark
 colorscheme base16-tomorrow-night
-"set background=dark
 
-let mapleader = ","
+let mapleader = "\<Space>"
 nnoremap j gj
 nnoremap k gk
 inoremap jk <esc>
@@ -84,22 +85,26 @@ nnoremap <C-up> :bp<cr>
 nnoremap <C-down> :bn<cr>
 
 nnoremap q :q<cr>
-nnoremap wq :wq<cr>
-nnoremap <C-x><C-s> :w<cr>
-nnoremap <C-k> :d$<cr>
-nnoremap <C-z> :w<cr> :!bash %<CR>
+nnoremap <leader>wq :wq<cr>
+nnoremap <leader>w :w<cr>
+nnoremap <leader>s :w<cr>
+nnoremap <leader>g :Neogit<cr>
 nnoremap <F8> :Commentary<cr>
 nnoremap <F7> :CocCommand document.jumpToNextSymbol<cr>
 
+nnoremap <leader>ds :DiffSaved<cr>
+nnoremap <leader>dh :DiffviewFileHistory<cr>
+
 nnoremap 5 %
 nnoremap 4 $
-
+nnoremap 3 #
+nnoremap 1 q
 
 :map <F12> :e /home/hero/.config/nvim/init.vim <cr>
 
-:map <C-n>  :Files<cr>
 :map <C-b>  :Buffers<cr>
 :map <C-t>  :BTags<cr>
+:map <C-l>  :Lines<cr>
 :map <F3>   :NERDTreeToggle<CR>
 :map <F4>   :UndotreeShow<CR>
 
@@ -117,10 +122,13 @@ autocmd BufEnter *.html :syntax sync fromstart
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-"set textwidth=79
+set textwidth=79
+set colorcolumn=80
+highlight ColorColumn ctermbg=lightgrey
 set expandtab
 set autoindent
 set fileformat=unix
+set autoread
 
 set ignorecase
 set smartcase
@@ -143,6 +151,7 @@ set ruler
 set backspace=indent,eol,start
 set laststatus=2
 set number
+set relativenumber
 set undofile
 set nobackup
 set nowritebackup
@@ -177,12 +186,12 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
 "ver los espacios en blanco o tabs mal puestos
-" highlight ExtraWhitespace ctermbg=red guibg=red
-" match ExtraWhitespace /\s\+$/
-" autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
-" autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
-" autocmd InsertLeave * match ExtraWhitespace /\s\+$/
-" autocmd BufWinLeave * call clearmatches()
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
+autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+autocmd InsertLeave * match ExtraWhitespace /\s\+$/
+autocmd BufWinLeave * call clearmatches()
 
 "tweaks for netrw
 let g:netrw_banner=0
@@ -201,6 +210,7 @@ map <C-f> :put =strftime('[%F %a]')<cr>
 
 autocmd FileType python map <buffer> <F5> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F5> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+autocmd FileType org imap <buffer> <cr> <cr>
 
 let g:airline_powerline_fonts = 1
 
@@ -300,8 +310,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 nmap <leader>rn <Plug>(coc-rename)
 
 " Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+xmap <leader>fo  <Plug>(coc-format-selected)
+nmap <leader>fo  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
@@ -313,13 +323,13 @@ augroup end
 
 " Applying codeAction to the selected region.
 " Example: `<leader>aap` for current paragraph
-xmap <leader>a  <Plug>(coc-codeaction-selected)
-nmap <leader>a  <Plug>(coc-codeaction-selected)
+xmap <leader>ca  <Plug>(coc-codeaction-selected)
+nmap <leader>ca  <Plug>(coc-codeaction-selected)
 
 " Remap keys for applying codeAction to the current buffer.
-nmap <leader>ac  <Plug>(coc-codeaction)
+nmap <leader>cc  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
-nmap <leader>qf  <Plug>(coc-fix-current)
+nmap <leader>cq  <Plug>(coc-fix-current)
 
 " Run the Code Lens action on the current line.
 nmap <leader>cl  <Plug>(coc-codelens-action)
@@ -366,21 +376,21 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 " Mappings for CoCList
 " Show all diagnostics.
-nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
+nnoremap <silent><nowait> <leader>cd  :<C-u>CocList diagnostics<cr>
 " Manage extensions.
-nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>
+nnoremap <silent><nowait> <leader>ce  :<C-u>CocList extensions<cr>
 " Show commands.
-nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>
+nnoremap <silent><nowait> <leader>co  :<C-u>CocList commands<cr>
 " Find symbol of current document.
-nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>
+nnoremap <silent><nowait> <leader>cs  :<C-u>CocList outline<cr>
 " Search workspace symbols.
-nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>
+nnoremap <silent><nowait> <leader>cy  :<C-u>CocList -I symbols<cr>
 " Do default action for next item.
-nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
+nnoremap <silent><nowait> <leader>cj  :<C-u>CocNext<CR>
 " Do default action for previous item.
-nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
+nnoremap <silent><nowait> <leader>ck  :<C-u>CocPrev<CR>
 " Resume latest coc list.
-nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+nnoremap <silent><nowait> <leader>cp  :<C-u>CocListResume<CR>
 
 
 """"" orgmode """""
@@ -404,4 +414,138 @@ require('orgmode').setup({
   org_agenda_files = {'~/Dropbox/org/*', '~/my-orgs/**/*'},
   org_default_notes_file = '~/Dropbox/org/refile.org',
 })
+
 EOF
+set statusline=%{v:lua.orgmode.statusline()}
+
+lua << EOF
+require("telescope").setup{
+  defaults ={},
+  extensions = {
+    fzf = {
+      fuzzy = true,                    -- false will only do exact matching
+      override_generic_sorter = true,  -- override the generic sorter
+      override_file_sorter = true,     -- override the file sorter
+      case_mode = "smart_case",        -- or "ignore_case" or "respect_case"
+                                       -- the default case_mode is "smart_case"
+    }
+  }
+  }
+EOF
+
+"""TElescope"""
+" Find files using Telescope command-line sugar.
+nnoremap <leader>ff :lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>
+nnoremap <C-n> :lua require('telescope.builtin').find_files(require('telescope.themes').get_dropdown{previewer = false})<cr>
+nnoremap <leader>fg :lua require('telescope.builtin').live_grep()<cr>
+nnoremap <leader>fb :lua require('telescope.builtin').buffers()<cr>
+nnoremap <leader>fr :lua require('telescope.builtin').registers()<cr>
+
+
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.js'
+let g:closetag_filetypes = 'html,xhtml,phtml,javascript'
+let g:closetag_emptyTags_caseSensitive = 1
+let g:closetag_regions = {
+  \ 'typescript.tsx': 'jsxRegion,tsxRegion',
+  \ 'javascript.jsx': 'jsxRegion',
+  \ 'typescriptreact': 'jsxRegion,tsxRegion',
+  \ 'javascriptreact': 'jsxRegion',
+  \ }
+let g:closetag_shortcut = '>'
+" Add > at current position without closing the current tag, default is ''
+let g:closetag_close_shortcut = '<leader>>'
+
+""""""neomagit""""""
+lua << EOF
+require("neogit").setup{
+  disable_signs = false,
+  disable_hint = false,
+  disable_context_highlighting = false,
+  disable_commit_confirmation = false,
+  -- Neogit refreshes its internal state after specific events, which can be expensive depending on the repository size. 
+  -- Disabling `auto_refresh` will make it so you have to manually refresh the status after you open it.
+  auto_refresh = true,
+  disable_builtin_notifications = false,
+  use_magit_keybindings = false,
+  -- Change the default way of opening neogit
+  kind = "tab",
+  -- Change the default way of opening the commit popup
+  commit_popup = {
+    kind = "split",
+  },
+  -- Change the default way of opening popups
+  popup = {
+    kind = "split",
+  },
+  -- customize displayed signs
+  signs = {
+    -- { CLOSED, OPENED }
+    section = { ">", "v" },
+    item = { ">", "v" },
+    hunk = { "", "" },
+  },
+  integrations = {
+    -- Neogit only provides inline diffs. If you want a more traditional way to look at diffs, you can use `sindrets/diffview.nvim`.
+    -- The diffview integration enables the diff popup, which is a wrapper around `sindrets/diffview.nvim`.
+    --
+    -- Requires you to have `sindrets/diffview.nvim` installed.
+    -- use {
+    --   'TimUntersberger/neogit',
+    --     requires = {
+    --     'nvim-lua/plenary.nvim',
+    --     'sindrets/diffview.nvim'
+    --   }
+    -- }
+    diffview = true
+  },
+  -- Setting any section to `false` will make the section not render at all
+  sections = {
+    untracked = {
+      folded = false
+    },
+    unstaged = {
+      folded = false
+    },
+    staged = {
+      folded = false
+    },
+    stashes = {
+      folded = true
+    },
+    unpulled = {
+      folded = true
+    },
+    unmerged = {
+      folded = false
+    },
+    recent = {
+      folded = true
+    },
+  },
+  -- override/add mappings
+  mappings = {
+    -- modify status buffer mappings
+    status = {
+      -- Adds a mapping with "B" as key that does the "BranchPopup" command
+      ["B"] = "BranchPopup",
+      -- Removes the default mapping of "s"
+    }
+  }
+}
+EOF
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
+EOF
+""""Funcion para ver las diff de un file antes de guardar""""
+function! s:DiffWithSaved()
+  let filetype=&ft
+  diffthis
+  vnew | r # | normal! 1Gdd
+  diffthis
+  exe "setlocal bt=nofile bh=wipe nobl noswf ro ft=" . filetype
+endfunction
+com! DiffSaved call s:DiffWithSaved()

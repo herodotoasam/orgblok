@@ -148,23 +148,23 @@ aunque lo tengo instalado lo mismo me causa problemas. Por el momento
 se deja.
 * problemas con la coneccion de mariadb y adminer
   primero daba connection refused
-  
+
   ir a /etc/mysql/mariadb.conf.d/50-server.cnf
   (/etc/my.cnf.d/mariadb-server.cnf   en alpine)
-  y en la linea 
+  y en la linea
   tambien descomentar la linea de port=3306
   bind-address = 127.0.0.1 poner
   bind-address = 0.0.0.0 lo cual permitira no solo conecciones de
   localhost sino de todos lados.
 
   luego chequear con netstat -ant | grep 3306
-  
+
   en mysql como root
   hacer:
   grant all privileges on *.* to 'hero'@'186.12.184.224' identified by
   'password';
   flush privileges;
-  
+
   luego de resetear
   systemctl restart mariadb y app
   ya el mensaje de adminer cambia si damos la password equivocada
