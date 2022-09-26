@@ -34,12 +34,8 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-commentary'
 Plugin 'dracula/vim'
-Plugin 'jacoborus/tender.vim'
 Plugin 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plugin 'nvim-orgmode/orgmode'
 Plugin 'chriskempson/base16-vim'
-Plugin 'mbbill/undotree'
-"Plugin 'airblade/vim-rooter'
 Plugin 'jelera/vim-javascript-syntax'
 Plugin 'nvim-lua/plenary.nvim'
 Plugin 'TimUntersberger/neogit'
@@ -53,6 +49,9 @@ Plugin 'neoclide/coc.nvim', {'branch': 'release'}
 Plugin 'alvan/vim-closetag'
 Plugin 'folke/which-key.nvim'
 Plugin 'andymass/vim-matchup'
+Plugin 'mbbill/undotree'
+Plugin 'airblade/vim-rooter'
+Plugin 'nvim-orgmode/orgmode'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -65,11 +64,10 @@ endif
 colorscheme base16-default-dark
 colorscheme base16-tomorrow-night
 
-let mapleader = "\<Space>"
+let mapleader=" "
 nnoremap j gj
 nnoremap k gk
 inoremap jk <esc>
-
 
 " use alt+hjkl to move between split/vsplit panels
 tnoremap <A-h> <C-\><C-n><C-w>h
@@ -91,6 +89,9 @@ nnoremap <leader>s :w<cr>
 nnoremap <leader>g :Neogit<cr>
 nnoremap <F8> :Commentary<cr>
 nnoremap <F7> :CocCommand document.jumpToNextSymbol<cr>
+
+nnoremap 5 %
+nnoremap 4 $
 
 nnoremap <leader>ds :DiffSaved<cr>
 nnoremap <leader>dh :DiffviewFileHistory<cr>
@@ -253,6 +254,47 @@ set updatetime=300
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+let g:airline_powerline_fonts = 1
+
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+" unicode symbols
+let g:airline_left_sep = '»'
+let g:airline_left_sep = '▶'
+let g:airline_right_sep = '«'
+let g:airline_right_sep = '◀'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'
+
+" airline symbols
+let g:airline_left_sep = ''
+let g:airline_left_alt_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_alt_sep = ''
+let g:airline_symbols.branch = ''
+let g:airline_symbols.readonly = ''
+let g:airline_symbols.linenr = ''
+
+" Some servers have issues with backup files, see #649.
+set nobackup
+set nowritebackup
+
+" Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
+" delays and poor user experience.
+set updatetime=300
+
+" Always show the signcolumn, otherwise it would shift the text each time
+" diagnostics appear/become resolved.
+set signcolumn=yes
+
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: There's always complete item selected by default, you may want to enable
 " no select by `"suggest.noselect": true` in your configuration file.
@@ -330,6 +372,11 @@ nmap <leader>ca  <Plug>(coc-codeaction-selected)
 nmap <leader>cc  <Plug>(coc-codeaction)
 " Apply AutoFix to problem on the current line.
 nmap <leader>cq  <Plug>(coc-fix-current)
+
+" Remap keys for applying codeAction to the current buffer.
+nmap <leader>ac  <Plug>(coc-codeaction)
+" Apply AutoFix to problem on the current line.
+nmap <leader>qf  <Plug>(coc-fix-current)
 
 " Run the Code Lens action on the current line.
 nmap <leader>cl  <Plug>(coc-codelens-action)
@@ -412,7 +459,7 @@ require'nvim-treesitter.configs'.setup {
 
 require('orgmode').setup({
   org_agenda_files = {'~/Dropbox/org/*', '~/my-orgs/**/*'},
-  org_default_notes_file = '~/Dropbox/org/refile.org',
+  org_default_notes_file = '~/Dropbox/org/refile.org'
 })
 
 EOF
