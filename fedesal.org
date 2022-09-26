@@ -1,15 +1,24 @@
 * programacion pendiente
 ** revisar el comportamiento de markselected() en table.js
    lo revise para que seleccionar y deseleccionar no se hiciera en
-   tablas que no iban a usar la totalizacion. 
+   tablas que no iban a usar la totalizacion.
    pero ahora el seleccionado se usa para otras cosa como la
    impresion, asi que hay que dar orden a eso.
 ** poner orden al style
    en vez de tenerlo en todas las paginas ponerlo en un solo archivo
-** hacer la lista de precios automatica
+** DONE hacer la lista de precios automatica
+   CLOSED: [2022-09-26 Mon 09:45]
 ** hacer el recibimiento de clientes automatico
-** hacer la vista para los watt enviados
+** DONE hacer la vista para los watt enviados
+   CLOSED: [2022-09-26 Mon 09:45]
    tanto en general como en particular a cada cliente
 ** pasar los vue a alpine
-** pasar los mensajes bulma a sweet alerts
+** DONE pasar los mensajes bulma a sweet alerts
+   CLOSED: [2022-09-26 Mon 09:45]
 ** tabulator - queda para un futuro lejano
+** TODO modificaciones contable
+   primero branch contable
+   segundo crud agrego cuentas
+   tercero prueba de concepto de tener todo en la misma tabla pero
+   diferenciando color.
+

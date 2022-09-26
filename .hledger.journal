@@ -12613,3 +12613,19 @@ D $1000.00
 2022-09-24 ih
     expenses:isabel            1500
     assets:caja               -1500
+
+2022-09-26 comida
+    expenses:comida             700
+    assets:caja                -700
+
+2022-09-26 comida
+    expenses:comida             600
+    assets:caja                -600
+
+2022-09-26 saco reserva
+    assets:caja             $10000
+    assets:reserva         $-10000
+
+2022-09-26 comida
+    expenses:comida             800
+    assets:caja                -800

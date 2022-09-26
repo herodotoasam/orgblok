@@ -570,3 +570,12 @@ trabajo y lo hice en emacs y me lo corrigio perfecto.
 Asi pienso que es todo emacs para el que lo sabe usar, me imagino que
 con el mail tambien. 
 
+
+* check-parens
+cuando tenemos problemas en init.el ese comando nos puede salvar las
+papas.
+
+* ordenar los elementos de un heading en org-mode
+C-c ^ eso abre un menu de multiples opciones en minuscula para asc y
+mayusculas para desc.
+

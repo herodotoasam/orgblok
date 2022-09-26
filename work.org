@@ -28,48 +28,176 @@
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
 aparentemente la culpa la tendria jsonify
 ** TODO sistema contable para las transferencias
+** TODO interfase para registrar autorizaciones
+   una modal en el contexto del cliente donde se registre dia y hora de la
+   autorizacion, current_user, y respuesta, y se guarden automaticamente los
+   status del cliente al momento, deuda, ultpago, sev, ln, llamar, seguir,
+** TODO cambio de look y limpieza en general.
+el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
+las paginas y centralizarlos, cambiar las notificaciones a swall
+wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
+botones, etc. muchas otras cosas que podre ir agregando.
 * agenda de actividad
-** [2022-09-15 jue]
+** [2022-09-26 Mon]
    :LOGBOOK:
-   CLOCK: [2022-09-15 jue 20:10]--[2022-09-15 jue 20:31] =>  0:21
-   CLOCK: [2022-09-15 jue 17:05]--[2022-09-15 jue 17:37] =>  0:32
-   bug irresuelto: no funciona en server pero si en local: imprimir
-   listagenerada. Termino siendo problema de cache. Al tener el mismo
-   nombre el browser usa el cache. tuve que agregarle una terminacion
-   aleatoria con time.
-   CLOCK: [2022-09-15 jue 14:45]--[2022-09-15 jue 16:11] =>  1:26
-   hice manejo de error para los whatsapp en caso de no tener whatsapp
-   y no tener repuesta 200, tambien hice un log.
-   CLOCK: [2022-09-15 jue 12:34]--[2022-09-15 jue 13:18] =>  0:44
-   CLOCK: [2022-09-15 jue 11:05]--[2022-09-15 jue 12:21] =>  1:16
-   lista de precios automatica
-   CLOCK: [2022-09-15 jue 10:04]--[2022-09-15 jue 10:50] =>  0:46
-   CLOCK: [2022-09-15 jue 08:16]--[2022-09-15 jue 09:30] =>  1:14
-   termine de revisar todo el codigo de articulos.html cambiando todo
-   a alpine-js y a Swall, simplificando las funciones lo mas posible.
-   CLOCK: [2022-09-15 jue 08:04]--[2022-09-15 jue 08:16] =>  0:12
-   corregi problema de pachito agregando crontab para el restart del
-   servicio como esta hecho en apache, e hice que el backup se haga
-   por hora.
+   CLOCK: [2022-09-26 Mon 19:22]--[2022-09-26 Mon 20:14] =>  0:52
+   cambiar los botones feos por awesome y otros retoques incluso
+   cambie los themes por defecto.
+   CLOCK: [2022-09-26 Mon 18:45]--[2022-09-26 Mon 19:01] =>  0:16
+   CLOCK: [2022-09-26 Mon 18:30]--[2022-09-26 Mon 18:45] =>  0:15
+   CLOCK: [2022-09-26 Mon 17:30]--[2022-09-26 Mon 18:24] =>  0:54
+   me dispongo a tunear emacs que le voy a hacer 
+   lo aliviane lo maximo que pude y veremos que pasa.
+   CLOCK: [2022-09-26 Mon 16:30]--[2022-09-26 Mon 16:59] =>  0:29
+   CLOCK: [2022-09-26 Mon 15:43]--[2022-09-26 Mon 16:01] =>  0:18
+   encaro la instalacion de la impresora
+   CLOCK: [2022-09-26 Mon 14:31]--[2022-09-26 Mon 15:43] =>  1:12
+   terminado asientos
+   CLOCK: [2022-09-26 Mon 13:17]--[2022-09-26 Mon 14:30] => 1:13
+   CLOCK: [2022-09-26 Mon 11:11]--[2022-09-26 Mon 13:01] => 1:50
+   arreglo la vista asientos
+   CLOCK: [2022-09-26 Mon 09:40]--[2022-09-26 Mon 11:10] => 1:30
+   comienzo proyecto reforma contable
+   terminado el crud cuentas
+   CLOCK: [2022-09-26 Mon 08:57]--[2022-09-26 Mon 09:39] => 0:42
+   termino de poner a punto vim con folder y Files global y Rg
    :END:
-** [2022-09-16 vie]
+** [2022-09-25 Sun]
    :LOGBOOK:
-   CLOCK: [2022-09-16 vie 17:54]--[2022-09-16 vie 18:08] =>  0:14
-   CLOCK: [2022-09-16 vie 16:51]--[2022-09-16 vie 17:38] =>  0:47
-   CLOCK: [2022-09-16 vie 16:10]--[2022-09-16 vie 16:44] =>  0:34
-   implementacion de bulma-dropdowns en buscar.html
-   CLOCK: [2022-09-16 vie 14:10]--[2022-09-16 vie 15:59] =>  1:49
-   optimizacion de emacs
-   CLOCK: [2022-09-16 vie 12:29]--[2022-09-16 vie 13:33] =>  1:04
-   agregado funcionalidad de codigo de articulos en ventas y salida de
-   mercaderia y en lista de precios
-   CLOCK: [2022-09-16 vie 09:57]--[2022-09-16 vie 11:23] =>  1:26
-   hice fk en tablas artcomprado/detvta/detallesalida para que los art
-   se actualicen en cascada y para que la tabla articulo sea realmente
-   la mandatory respecto a los articulos.
-   CLOCK: [2022-09-16 vie 08:12]--[2022-09-16 vie 09:02] =>  0:50
-   terminado el cobrado/estimado en planilla recibo
+   CLOCK: [2022-09-25 Sun 18:30]--[2022-09-25 Sun 21:15] => 2:45
+   optimizacion de vim - instalacion de kitty - conf.
+   arreglo de bug de org-return
+   CLOCK: [2022-09-25 Sun 09:56]--[2022-09-25 Sun 10:48] => 0:52
    :END:
+** [2022-09-24 Sat]
+:LOGBOOK:
+CLOCK: [2022-09-24 Sat 21:46]--[2022-09-24 Sat 22:35] => 0:49
+   lamentablemente descubro que el enfoque de queue con clase
+   no sirve pq aunque anda bien en un solo browser no anda en un ambiente de
+   mas de un browser. Manana soluciono los branchs y vuelvo al whatalt2.
+CLOCK: [2022-09-24 Sat 20:14]--[2022-09-24 Sat 21:00] => 0:46
+   sigo tuneando vim. es una locura el hell que me agarro.
+CLOCK: [2022-09-24 Sat 19:07]--[2022-09-24 Sat 20:04] => 0:57
+   me hizo renegar el mapping de orgmode y telescope
+CLOCK: [2022-09-24 Sat 16:14]--[2022-09-24 Sat 19:06] => 2:52
+   vim hell al mango con org incluido!!!
+CLOCK: [2022-09-24 Sat 14:40]--[2022-09-24 Sat 16:14] => 1:34
+CLOCK: [2022-09-24 Sat 13:08]--[2022-09-24 Sat 13:59] =>  0:51
+volviendo a nvim
+CLOCK: [2022-09-24 Sat 12:25]--[2022-09-24 Sat 13:08] =>  0:43
+CLOCK: [2022-09-24 Sat 10:10]--[2022-09-24 Sat 11:43] =>  1:33
+terminado queue con class
+CLOCK: [2022-09-24 Sat 10:01]--[2022-09-24 Sat 10:06] =>  0:05
+probando otro sistema queue basado en clases
+CLOCK: [2022-09-24 Sat 08:24]--[2022-09-24 Sat 09:41] =>  1:17
+termine listado con dos formatos- hice el merge -
+:END:
+** [2022-09-23 Fri]
+:LOGBOOK:
+CLOCK: [2022-09-23 Fri 17:44]--[2022-09-23 Fri 18:20] =>  0:36
+terminado el queue - trabaje un poco en el orden de columnas de wapplog
+CLOCK: [2022-09-23 Fri 15:48]--[2022-09-23 Fri 17:20] =>  1:32
+probando el nuevo queue problemas con el libredeuda
+CLOCK: [2022-09-23 Fri 14:00]--[2022-09-23 Fri 15:17] =>  1:17
+haciendo listado nuevo
+CLOCK: [2022-09-23 Fri 13:12]--[2022-09-23 Fri 13:43] =>  0:31
+CLOCK: [2022-09-23 Fri 11:10]--[2022-09-23 Fri 12:35] =>  1:25
+CLOCK: [2022-09-23 Fri 09:20]--[2022-09-23 Fri 10:45] =>  1:25
+exitoso por el momento
+CLOCK: [2022-09-23 Fri 09:16]--[2022-09-23 Fri 09:19] =>  0:03
+voy a encarar un nuevo enfoque con la queue de whatsapp
+CLOCK: [2022-09-23 Fri 08:50]--[2022-09-23 Fri 09:12] =>  0:22
+solucione el problema de los archivos undo-tree
+:END:
+** [2022-09-22 Thu]
+:LOGBOOK:
+CLOCK: [2022-09-22 Thu 17:07]--[2022-09-22 Thu 18:07] =>  1:00
+subida la rama whatalt1 y prueba y correccion
+CLOCK: [2022-09-22 Thu 15:35]--[2022-09-22 Thu 16:58] =>  1:23
+refactorizacion de lib.py para flake y buscar.html
+CLOCK: [2022-09-22 Thu 15:28]--[2022-09-22 Thu 15:34] =>  0:06
+CLOCK: [2022-09-22 Thu 14:25]--[2022-09-22 Thu 14:53] =>  0:28
+trasteo de nuevo con emacs.d/init.el
+CLOCK: [2022-09-22 Thu 13:31]--[2022-09-22 Thu 14:17] =>  0:46
+tedioso trabajo de arreglar refactorizar buscar.html
+CLOCK: [2022-09-22 Thu 13:02]--[2022-09-22 Thu 13:31] =>  0:29
+CLOCK: [2022-09-22 Thu 10:49]--[2022-09-22 Thu 12:18] =>  1:29
+trabaje sobre intimarpdf para que sea nominada
+CLOCK: [2022-09-22 Thu 08:53]--[2022-09-22 Thu 09:53] =>  1:00
+otra version de la cola de wapps
+CLOCK: [2022-09-22 Thu 08:21]--[2022-09-22 Thu 08:50] =>  0:29
+trasteando el init.el
+:END:
+** [2022-09-21 Wed]
+:LOGBOOK:
+CLOCK: [2022-09-21 Wed 19:57]--[2022-09-21 Wed 21:18] =>  1:21
+nuevo enfoque en el delay de los wapps
+CLOCK: [2022-09-21 Wed 19:47]--[2022-09-21 Wed 19:55] =>  0:08
+CLOCK: [2022-09-21 Wed 18:33]--[2022-09-21 Wed 19:27] =>  0:54
+CLOCK: [2022-09-21 Wed 15:00]--[2022-09-21 Wed 16:59] =>  1:59
+termine rbotransferencia; hice utilidades/pdfsistema
+CLOCK: [2022-09-21 Wed 13:35]--[2022-09-21 Wed 14:52] =>  1:17
+continuo con la limpieza de buscar.html; inicio la refactorizacion de
+rboportransferencia
+CLOCK: [2022-09-21 Wed 12:00]--[2022-09-21 Wed 13:32] =>  1:32
+terminado el envio de bajas a whatsapp
+CLOCK: [2022-09-21 Wed 10:24]--[2022-09-21 Wed 11:41] =>  1:17
+trabajo en el tema mensaje de invalid whatsapp
+CLOCK: [2022-09-21 Wed 10:02]--[2022-09-21 Wed 10:13] =>  0:11
+CLOCK: [2022-09-21 Wed 09:54]--[2022-09-21 Wed 09:56] =>  0:02
+CLOCK: [2022-09-21 Wed 09:49]--[2022-09-21 Wed 09:53] =>  0:04
+CLOCK: [2022-09-21 Wed 09:35]--[2022-09-21 Wed 09:48] =>  0:13
+obtengo error en evil-mode en insert-mode con la tecla braceright.
+CLOCK: [2022-09-21 Wed 08:28]--[2022-09-21 Wed 09:28] =>  1:00
+optimizacion de teclado gringo para trabajar minimamente ya que no
+pude hacerlo con el latam. Resigne la - en el menique.
+:END:
+** [2022-09-20 Tue]
+:LOGBOOK:
+CLOCK: [2022-09-20 Tue 20:45]--[2022-09-20 Tue 22:00] =>  1:15
+busqueda de otro reemplazo que sea mas seguro
+CLOCK: [2022-09-20 Tue 20:25]--[2022-09-20 Tue 20:45] =>  0:20
+CLOCK: [2022-09-20 Tue 18:30]--[2022-09-20 Tue 20:24] =>  1:54
+busqueda de reemplazo de xmodmap: encontrado!!!!
+es input-remapper y trabaja hasta ahora bastante bien, veremos
+demore pero es una cuestion ergonomica fundamental que me ha hecho
+sufrir mucho en estos ultimos dias el teclado gringo.
+CLOCK: [2022-09-20 Tue 18:21]--[2022-09-20 Tue 18:30] =>  0:09
+busqueda de funcionalidades de evil-mode
+CLOCK: [2022-09-20 Tue 12:14]--[2022-09-20 Tue 12:43] =>  0:29
+capturar como res el response.text y ver si el wapp es invalid
+y dar msg acorde en js
+CLOCK: [2022-09-20 Tue 11:05]--[2022-09-20 Tue 12:14] =>  1:09
+perdida de tiempo para encontrar la vuelta a evil-mode
+CLOCK: [2022-09-20 Tue 10:47]--[2022-09-20 Tue 11:04] =>  0:17
+CLOCK: [2022-09-20 Tue 09:25]--[2022-09-20 Tue 10:24] =>  0:59
+CLOCK: [2022-09-20 Tue 09:13]--[2022-09-20 Tue 09:22] =>  0:09
+excurso emacs para probar otro modal
+CLOCK: [2022-09-20 Tue 08:34]--[2022-09-20 Tue 08:49] =>  0:15
+arreglar urgente bug de impresion fichas
+:END:
+** [2022-09-19 Mon]
+:LOGBOOK:
+CLOCK: [2022-09-19 Mon 21:20]--[2022-09-19 Mon 23:49] =>  2:29
+CLOCK: [2022-09-19 Mon 17:32]--[2022-09-19 Mon 20:50] =>  3:18
+CLOCK: [2022-09-19 Mon 17:10]--[2022-09-19 Mon 17:31] =>  0:21
+resuelto el bug pasarplanillas resulto ser una multiplicacion de int
+con str en la preparacion de un insert en python. Se destaca el
+descubrimiento del log1 que te muestra la salida de gunicorn sino no
+hubiera podido hacer nada.
+CLOCK: [2022-09-19 Mon 15:11]--[2022-09-19 Mon 16:40] =>  1:29
+gran problema rastreando el bug pasarplanillas
+CLOCK: [2022-09-19 Mon 15:24]--[2022-09-19 Mon 16:41] =>  1:17
+CLOCK: [2022-09-19 Mon 14:17]--[2022-09-19 Mon 15:10] =>  0:53
+se intenta solucionar el bug de nginx con los whatsapp
+se intenta tomar el rastro de los numeros inactivos
+se intenta hacer una cola general para los requests
+CLOCK: [2022-09-19 Mon 12:13]--[2022-09-19 Mon 13:50] =>  1:37
+analizar bug a pedido de ndryon
+CLOCK: [2022-09-19 Mon 11:12]--[2022-09-19 Mon 12:13] =>  1:01
+CLOCK: [2022-09-19 Mon 10:53]--[2022-09-19 Mon 11:12] =>  0:19
+agregar mas mensajes programables y poner un dropdown
+:END:
 ** [2022-09-17 sáb]
    :LOGBOOK:
    CLOCK: [2022-09-17 sáb 18:47]--[2022-09-17 Sat 19:52] =>  1:05
@@ -101,140 +229,44 @@ aparentemente la culpa la tendria jsonify
    se instalo de nuevo debian 10
    se instalo todo con nginx
    :END:
-** [2022-09-19 Mon]
-:LOGBOOK:
-CLOCK: [2022-09-19 Mon 21:20]--[2022-09-19 Mon 23:49] =>  2:29
-CLOCK: [2022-09-19 Mon 17:32]--[2022-09-19 Mon 20:50] =>  3:18
-CLOCK: [2022-09-19 Mon 17:10]--[2022-09-19 Mon 17:31] =>  0:21
-resuelto el bug pasarplanillas resulto ser una multiplicacion de int
-con str en la preparacion de un insert en python. Se destaca el
-descubrimiento del log1 que te muestra la salida de gunicorn sino no
-hubiera podido hacer nada.
-CLOCK: [2022-09-19 Mon 15:11]--[2022-09-19 Mon 16:40] =>  1:29
-gran problema rastreando el bug pasarplanillas
-CLOCK: [2022-09-19 Mon 15:24]--[2022-09-19 Mon 16:41] =>  1:17
-CLOCK: [2022-09-19 Mon 14:17]--[2022-09-19 Mon 15:10] =>  0:53
-se intenta solucionar el bug de nginx con los whatsapp
-se intenta tomar el rastro de los numeros inactivos
-se intenta hacer una cola general para los requests
-CLOCK: [2022-09-19 Mon 12:13]--[2022-09-19 Mon 13:50] =>  1:37
-analizar bug a pedido de ndryon
-CLOCK: [2022-09-19 Mon 11:12]--[2022-09-19 Mon 12:13] =>  1:01
-CLOCK: [2022-09-19 Mon 10:53]--[2022-09-19 Mon 11:12] =>  0:19
-agregar mas mensajes programables y poner un dropdown
-:END:
-** [2022-09-20 Tue]
-:LOGBOOK:
-CLOCK: [2022-09-20 Tue 20:45]--[2022-09-20 Tue 22:00] =>  1:15
-busqueda de otro reemplazo que sea mas seguro
-CLOCK: [2022-09-20 Tue 20:25]--[2022-09-20 Tue 20:45] =>  0:20
-CLOCK: [2022-09-20 Tue 18:30]--[2022-09-20 Tue 20:24] =>  1:54
-busqueda de reemplazo de xmodmap: encontrado!!!!
-es input-remapper y trabaja hasta ahora bastante bien, veremos
-demore pero es una cuestion ergonomica fundamental que me ha hecho
-sufrir mucho en estos ultimos dias el teclado gringo.
-CLOCK: [2022-09-20 Tue 18:21]--[2022-09-20 Tue 18:30] =>  0:09
-busqueda de funcionalidades de evil-mode
-CLOCK: [2022-09-20 Tue 12:14]--[2022-09-20 Tue 12:43] =>  0:29
-capturar como res el response.text y ver si el wapp es invalid
-y dar msg acorde en js
-CLOCK: [2022-09-20 Tue 11:05]--[2022-09-20 Tue 12:14] =>  1:09
-perdida de tiempo para encontrar la vuelta a evil-mode
-CLOCK: [2022-09-20 Tue 10:47]--[2022-09-20 Tue 11:04] =>  0:17
-CLOCK: [2022-09-20 Tue 09:25]--[2022-09-20 Tue 10:24] =>  0:59
-CLOCK: [2022-09-20 Tue 09:13]--[2022-09-20 Tue 09:22] =>  0:09
-excurso emacs para probar otro modal
-CLOCK: [2022-09-20 Tue 08:34]--[2022-09-20 Tue 08:49] =>  0:15
-arreglar urgente bug de impresion fichas
-:END:
-** [2022-09-21 Wed]
-:LOGBOOK:
-CLOCK: [2022-09-21 Wed 19:57]--[2022-09-21 Wed 21:18] =>  1:21
-nuevo enfoque en el delay de los wapps
-CLOCK: [2022-09-21 Wed 19:47]--[2022-09-21 Wed 19:55] =>  0:08
-CLOCK: [2022-09-21 Wed 18:33]--[2022-09-21 Wed 19:27] =>  0:54
-CLOCK: [2022-09-21 Wed 15:00]--[2022-09-21 Wed 16:59] =>  1:59
-termine rbotransferencia; hice utilidades/pdfsistema
-CLOCK: [2022-09-21 Wed 13:35]--[2022-09-21 Wed 14:52] =>  1:17
-continuo con la limpieza de buscar.html; inicio la refactorizacion de
-rboportransferencia
-CLOCK: [2022-09-21 Wed 12:00]--[2022-09-21 Wed 13:32] =>  1:32
-terminado el envio de bajas a whatsapp
-CLOCK: [2022-09-21 Wed 10:24]--[2022-09-21 Wed 11:41] =>  1:17
-trabajo en el tema mensaje de invalid whatsapp
-CLOCK: [2022-09-21 Wed 10:02]--[2022-09-21 Wed 10:13] =>  0:11
-CLOCK: [2022-09-21 Wed 09:54]--[2022-09-21 Wed 09:56] =>  0:02
-CLOCK: [2022-09-21 Wed 09:49]--[2022-09-21 Wed 09:53] =>  0:04
-CLOCK: [2022-09-21 Wed 09:35]--[2022-09-21 Wed 09:48] =>  0:13
-obtengo error en evil-mode en insert-mode con la tecla braceright.
-CLOCK: [2022-09-21 Wed 08:28]--[2022-09-21 Wed 09:28] =>  1:00
-optimizacion de teclado gringo para trabajar minimamente ya que no
-pude hacerlo con el latam. Resigne la - en el menique.
-:END:
-** [2022-09-22 Thu]
-:LOGBOOK:
-CLOCK: [2022-09-22 Thu 17:07]--[2022-09-22 Thu 18:07] =>  1:00
-subida la rama whatalt1 y prueba y correccion
-CLOCK: [2022-09-22 Thu 15:35]--[2022-09-22 Thu 16:58] =>  1:23
-refactorizacion de lib.py para flake y buscar.html
-CLOCK: [2022-09-22 Thu 15:28]--[2022-09-22 Thu 15:34] =>  0:06
-CLOCK: [2022-09-22 Thu 14:25]--[2022-09-22 Thu 14:53] =>  0:28
-trasteo de nuevo con emacs.d/init.el
-CLOCK: [2022-09-22 Thu 13:31]--[2022-09-22 Thu 14:17] =>  0:46
-tedioso trabajo de arreglar refactorizar buscar.html
-CLOCK: [2022-09-22 Thu 13:02]--[2022-09-22 Thu 13:31] =>  0:29
-CLOCK: [2022-09-22 Thu 10:49]--[2022-09-22 Thu 12:18] =>  1:29
-trabaje sobre intimarpdf para que sea nominada
-CLOCK: [2022-09-22 Thu 08:53]--[2022-09-22 Thu 09:53] =>  1:00
-otra version de la cola de wapps
-CLOCK: [2022-09-22 Thu 08:21]--[2022-09-22 Thu 08:50] =>  0:29
-trasteando el init.el
-:END:
-** [2022-09-23 Fri]
-:LOGBOOK:
-CLOCK: [2022-09-23 Fri 17:44]--[2022-09-23 Fri 18:20] =>  0:36
-terminado el queue - trabaje un poco en el orden de columnas de wapplog
-CLOCK: [2022-09-23 Fri 15:48]--[2022-09-23 Fri 17:20] =>  1:32
-probando el nuevo queue problemas con el libredeuda
-CLOCK: [2022-09-23 Fri 14:00]--[2022-09-23 Fri 15:17] =>  1:17
-haciendo listado nuevo
-CLOCK: [2022-09-23 Fri 13:12]--[2022-09-23 Fri 13:43] =>  0:31
-CLOCK: [2022-09-23 Fri 11:10]--[2022-09-23 Fri 12:35] =>  1:25
-CLOCK: [2022-09-23 Fri 09:20]--[2022-09-23 Fri 10:45] =>  1:25
-exitoso por el momento
-CLOCK: [2022-09-23 Fri 09:16]--[2022-09-23 Fri 09:19] =>  0:03
-voy a encarar un nuevo enfoque con la queue de whatsapp
-CLOCK: [2022-09-23 Fri 08:50]--[2022-09-23 Fri 09:12] =>  0:22
-solucione el problema de los archivos undo-tree
-:END:
-** [2022-09-24 Sat]
-:LOGBOOK:
-CLOCK: [2022-09-24 Sat 21:46]--[2022-09-24 Sat 22:35] => 0:49
-   lamentablemente descubro que el enfoque de queue con clase
-   no sirve pq aunque anda bien en un solo browser no anda en un ambiente de
-   mas de un browser. Manana soluciono los branchs y vuelvo al whatalt2.
-CLOCK: [2022-09-24 Sat 20:14]--[2022-09-24 Sat 21:00] => 0:46
-   sigo tuneando vim. es una locura el hell que me agarro.
-CLOCK: [2022-09-24 Sat 19:07]--[2022-09-24 Sat 20:04] => 0:57
-   me hizo renegar el mapping de orgmode y telescope
-CLOCK: [2022-09-24 Sat 16:14]--[2022-09-24 Sat 19:06] => 2:52
-   vim hell al mango con org incluido!!!
-CLOCK: [2022-09-24 Sat 14:40]--[2022-09-24 Sat 16:14] => 1:34
-CLOCK: [2022-09-24 Sat 13:08]--[2022-09-24 Sat 13:59] =>  0:51
-volviendo a nvim
-CLOCK: [2022-09-24 Sat 12:25]--[2022-09-24 Sat 13:08] =>  0:43
-CLOCK: [2022-09-24 Sat 10:10]--[2022-09-24 Sat 11:43] =>  1:33
-terminado queue con class
-CLOCK: [2022-09-24 Sat 10:01]--[2022-09-24 Sat 10:06] =>  0:05
-probando otro sistema queue basado en clases
-CLOCK: [2022-09-24 Sat 08:24]--[2022-09-24 Sat 09:41] =>  1:17
-termine listado con dos formatos- hice el merge -
-:END:
-** [2022-09-25 Sun]
+** [2022-09-16 vie]
    :LOGBOOK:
-   CLOCK: [2022-09-25 Sun 18:30]--[2022-09-25 Sun 21:15] => 2:45
-   optimizacion de vim - instalacion de kitty - conf.
-   arreglo de bug de org-return
-   CLOCK: [2022-09-25 Sun 09:56]--[2022-09-25 Sun 10:48] => 0:52
+   CLOCK: [2022-09-16 vie 17:54]--[2022-09-16 vie 18:08] =>  0:14
+   CLOCK: [2022-09-16 vie 16:51]--[2022-09-16 vie 17:38] =>  0:47
+   CLOCK: [2022-09-16 vie 16:10]--[2022-09-16 vie 16:44] =>  0:34
+   implementacion de bulma-dropdowns en buscar.html
+   CLOCK: [2022-09-16 vie 14:10]--[2022-09-16 vie 15:59] =>  1:49
+   optimizacion de emacs
+   CLOCK: [2022-09-16 vie 12:29]--[2022-09-16 vie 13:33] =>  1:04
+   agregado funcionalidad de codigo de articulos en ventas y salida de
+   mercaderia y en lista de precios
+   CLOCK: [2022-09-16 vie 09:57]--[2022-09-16 vie 11:23] =>  1:26
+   hice fk en tablas artcomprado/detvta/detallesalida para que los art
+   se actualicen en cascada y para que la tabla articulo sea realmente
+   la mandatory respecto a los articulos.
+   CLOCK: [2022-09-16 vie 08:12]--[2022-09-16 vie 09:02] =>  0:50
+   terminado el cobrado/estimado en planilla recibo
    :END:
-
+** [2022-09-15 jue]
+   :LOGBOOK:
+   CLOCK: [2022-09-15 jue 20:10]--[2022-09-15 jue 20:31] =>  0:21
+   CLOCK: [2022-09-15 jue 17:05]--[2022-09-15 jue 17:37] =>  0:32
+   bug irresuelto: no funciona en server pero si en local: imprimir
+   listagenerada. Termino siendo problema de cache. Al tener el mismo
+   nombre el browser usa el cache. tuve que agregarle una terminacion
+   aleatoria con time.
+   CLOCK: [2022-09-15 jue 14:45]--[2022-09-15 jue 16:11] =>  1:26
+   hice manejo de error para los whatsapp en caso de no tener whatsapp
+   y no tener repuesta 200, tambien hice un log.
+   CLOCK: [2022-09-15 jue 12:34]--[2022-09-15 jue 13:18] =>  0:44
+   CLOCK: [2022-09-15 jue 11:05]--[2022-09-15 jue 12:21] =>  1:16
+   lista de precios automatica
+   CLOCK: [2022-09-15 jue 10:04]--[2022-09-15 jue 10:50] =>  0:46
+   CLOCK: [2022-09-15 jue 08:16]--[2022-09-15 jue 09:30] =>  1:14
+   termine de revisar todo el codigo de articulos.html cambiando todo
+   a alpine-js y a Swall, simplificando las funciones lo mas posible.
+   CLOCK: [2022-09-15 jue 08:04]--[2022-09-15 jue 08:16] =>  0:12
+   corregi problema de pachito agregando crontab para el restart del
+   servicio como esta hecho en apache, e hice que el backup se haga
+   por hora.
+   :END:

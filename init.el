@@ -18,7 +18,7 @@
 (setq byte-compile-warnings '(cl-functions))
 
 ;Make frame transparency overridable	;h
-(defvar efs/frame-transparency '(90 . 90))
+;;(defvar efs/frame-transparency '(90 . 90))
 
 
 (defun efs/display-startup-time ()
@@ -83,16 +83,16 @@
 
 (column-number-mode)
 (global-display-line-numbers-mode t)
-(smartparens-global-mode t)
+;;(smartparens-global-mode t)
 (show-paren-mode 1)
 (set-face-attribute 'show-paren-match nil :weight 'extra-bold)
 
 
 ;; Set frame transparency
-(set-frame-parameter (selected-frame) 'alpha efs/frame-transparency)
-(add-to-list 'default-frame-alist `(alpha . ,efs/frame-transparency))
-(set-frame-parameter (selected-frame) 'fullscreen 'maximized)
-(add-to-list 'default-frame-alist '(fullscreen . maximized))
+;;(set-frame-parameter (selected-frame) 'alpha efs/frame-transparency)
+;;(add-to-list 'default-frame-alist `(alpha . ,efs/frame-transparency))
+;;(set-frame-parameter (selected-frame) 'fullscreen 'maximized)
+;;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Disable line numbers for some modes
 (dolist (mode '(org-mode-hook
@@ -103,10 +103,10 @@
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 
-(set-face-attribute 'default nil :font "Hack" :height efs/default-font-size)
+(set-face-attribute 'default nil :font "Fira Code" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
-(set-face-attribute 'fixed-pitch nil :font "Hack" :height efs/default-font-size)
+(set-face-attribute 'fixed-pitch nil :font "Fira Code" :height efs/default-font-size)
 
 ;; Set the variable pitch face
 (set-face-attribute 'variable-pitch nil :font "Cantarell" :height efs/default-variable-font-size :weight 'regular)
@@ -125,8 +125,7 @@
 
   (efs/leader-keys
     "t"  '(:ignore t :which-key "toggles")
-    "tt" '(counsel-load-theme :which-key "choose theme")
-    "fde" '(lambda () (interactive) (find-file (expand-file-name "~/.emacs.d/Emacs.org")))))
+    "tt" '(counsel-load-theme :which-key "choose theme")))
 
 (use-package evil-leader
   :ensure t
@@ -135,15 +134,19 @@
   (global-evil-leader-mode))
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key
-  "e" 'find-file
+  "f" 'find-file
   "0" 'delete-window
   "2" 'split-window-below
   "3" 'split-window-right
   "g" 'magit-status
-  "b" 'switch-to-buffer
   "d" 'dired
-  "u" 'undo-tree-visualize
-  "k" 'kill-buffer)
+  "k" 'kill-buffer
+  "s" 'save-buffer
+  "b" 'switch-to-buffer
+  "h" 'projectile-ag
+  "a" '(lambda() (interactive)(find-file "~/fl5/main.py"))
+  "w" '(lambda() (interactive)(find-file "~/orgblok/work.org"))
+  )
 
 (use-package evil
    :init
@@ -167,13 +170,9 @@
 ;;   ;; agregado por mi
    (setq evil-want-fine-undo 'fine)
    (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
-   (evil-global-set-key 'normal (kbd "7") 'evil-search-forward)
    (evil-global-set-key 'normal (kbd "3") 'evil-search-word-backward)
-   (evil-global-set-key 'normal (kbd "+") 'evil-search-word-forward)
    (evil-global-set-key 'normal (kbd "4") 'evil-end-of-line)
-   (evil-global-set-key 'normal (kbd "M-7") 'evilnc-comment-or-uncomment-lines)
    (evil-global-set-key 'normal (kbd "5") 'evil-jump-item)
-   (evil-global-set-key 'visual (kbd "5") 'evil-jump-item)
 
  (use-package evil-collection
    :after evil
@@ -187,7 +186,7 @@
   :init (load-theme 'doom-badger t))
 
  (use-package evil-nerd-commenter
-  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
+  :bind ("M--" . evilnc-comment-or-uncomment-lines))
 
 (use-package all-the-icons
   :ensure t)
@@ -203,28 +202,28 @@
   (which-key-mode)
   (setq which-key-idle-delay 1))
 
-(use-package ivy
-  :diminish
-  :bind (("C-s" . swiper)
-         :map ivy-minibuffer-map
-         ("TAB" . ivy-alt-done)
-         ("C-l" . ivy-alt-done)
-         ("C-j" . ivy-next-line)
-         ("C-k" . ivy-previous-line)
-         :map ivy-switch-buffer-map
-         ("C-k" . ivy-previous-line)
-         ("C-l" . ivy-done)
-         ("C-d" . ivy-switch-buffer-kill)
-         :map ivy-reverse-i-search-map
-         ("C-k" . ivy-previous-line)
-         ("C-d" . ivy-reverse-i-search-kill))
-  :config
-  (ivy-mode 1))
+;; (use-package ivy
+;;   :diminish
+;;   :bind (("C-s" . swiper)
+;;          :map ivy-minibuffer-map
+;;          ("TAB" . ivy-alt-done)
+;;          ("C-l" . ivy-alt-done)
+;;          ("C-j" . ivy-next-line)
+;;          ("C-k" . ivy-previous-line)
+;;          :map ivy-switch-buffer-map
+;;          ("C-k" . ivy-previous-line)
+;;          ("C-l" . ivy-done)
+;;          ("C-d" . ivy-switch-buffer-kill)
+;;          :map ivy-reverse-i-search-map
+;;          ("C-k" . ivy-previous-line)
+;;          ("C-d" . ivy-reverse-i-search-kill))
+;;   :config
+;;   (ivy-mode 1))
 
-(use-package ivy-rich
-  :after ivy
-  :init
-  (ivy-rich-mode 1))
+;; (use-package ivy-rich
+;;   :after ivy
+;;   :init
+;;   (ivy-rich-mode 1))
 
 (use-package counsel
   :bind (("C-M-j" . 'counsel-switch-buffer)
@@ -235,14 +234,14 @@
   :config
   (counsel-mode 1))
 
-(use-package ivy-prescient
-  :after counsel
-  :custom
-  (ivy-prescient-enable-filtering nil)
-  :config
-  ;; Uncomment the following line to have sorting remembered across sessions!
-  ;(prescient-persist-mode 1)
-  (ivy-prescient-mode 1))
+;; (use-package ivy-prescient
+;;   :after counsel
+;;   :custom
+;;   (ivy-prescient-enable-filtering nil)
+;;   :config
+;;   ;; Uncomment the following line to have sorting remembered across sessions!
+;;   ;(prescient-persist-mode 1)
+;;   (ivy-prescient-mode 1))
 
 (use-package hydra
   :defer t)
@@ -257,14 +256,13 @@
   "ts" '(hydra-text-scale/body :which-key "scale text"))
 
 
-;; ido mo
-;; (require 'flx-ido)
-;; (setq ido-enable-flex-maching t)
-;; (setq ido-everywhere t)
-;; (setq ido-use-filename-at-point 'guess)
-;; (setq ido-create-new-buffer 'always)
-;; (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
-;; (ido-mode 1)
+(require 'flx-ido)
+(setq ido-enable-flex-maching t)
+(setq ido-everywhere t)
+(setq ido-use-filename-at-point 'guess)
+(setq ido-create-new-buffer 'always)
+(setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
+(ido-mode 1)
 
 
 
@@ -364,7 +362,7 @@
 (use-package projectile
   :diminish projectile-mode
   :config (projectile-mode)
-  :custom ((projectile-completion-system 'ivy))
+  :custom ((projectile-completion-system 'ido))
   :bind-keymap
   ("C-c p" . projectile-command-map)
   :init
@@ -386,54 +384,54 @@
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
 
-(use-package term
-  :commands term
-  :config
-  (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
+;; (use-package term
+;;   :commands term
+;;   :config
+;;   (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
   ;;(setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
 
   ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
-  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
+;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
 
-(use-package eterm-256color
-  :hook (term-mode . eterm-256color-mode))
+;; (use-package eterm-256color
+;;   :hook (term-mode . eterm-256color-mode))
 
-(use-package vterm
-  :commands vterm
-  :config
-  (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
-  ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
-  (setq vterm-max-scrollback 10000))
+;; (use-package vterm
+;;   :commands vterm
+;;   :config
+;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
+;;   ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
+;;   (setq vterm-max-scrollback 10000))
 
-(defun efs/configure-eshell ()
-  ;; Save command history when commands are entered
-  (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
+;; (defun efs/configure-eshell ()
+;;   ;; Save command history when commands are entered
+;;   (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
 
-  ;; Truncate buffer for performance
-  (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
+;;   ;; Truncate buffer for performance
+;;   (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
 
-  ;; Bind some useful keys for evil-mode
-  (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
-  (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
-  (evil-normalize-keymaps)
+;;   ;; Bind some useful keys for evil-mode
+;;   (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
+;;   (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
+;;   (evil-normalize-keymaps)
 
-  (setq eshell-history-size         10000
-        eshell-buffer-maximum-lines 10000
-        eshell-hist-ignoredups t
-        eshell-scroll-to-bottom-on-input t))
+;;   (setq eshell-history-size         10000
+;;         eshell-buffer-maximum-lines 10000
+;;         eshell-hist-ignoredups t
+;;         eshell-scroll-to-bottom-on-input t))
 
-(use-package eshell-git-prompt
-  :after eshell)
+;; (use-package eshell-git-prompt
+;;   :after eshell)
 
-(use-package eshell
-  :hook (eshell-first-time-mode . efs/configure-eshell)
-  :config
+;; (use-package eshell
+;;   :hook (eshell-first-time-mode . efs/configure-eshell)
+;;   :config
 
-  (with-eval-after-load 'esh-opt
-    (setq eshell-destroy-buffer-when-process-dies t)
-    (setq eshell-visual-commands '("htop" "zsh" "vim")))
+;;   (with-eval-after-load 'esh-opt
+;;     (setq eshell-destroy-buffer-when-process-dies t)
+;;     (setq eshell-visual-commands '("htop" "zsh" "vim")))
 
-  (eshell-git-prompt-use-theme 'powerline))
+;;   (eshell-git-prompt-use-theme 'powerline))
 
 (use-package dired
   :ensure nil
@@ -482,6 +480,7 @@
 (global-set-key (kbd "C-<up>") 'delete-other-windows)
 (global-set-key [f6] 'projectile-ibuffer)
 (global-set-key [f12] (lambda() (interactive)(find-file "~/.emacs.d/init.el")))
+(global-set-key [f10] (lambda() (interactive)(find-file "~/fl5/main.py")))
 (global-set-key [f8] 'web-mode-fold-or-unfold)
 (global-set-key [f7] 'web-mode-navigate)
 
@@ -656,14 +655,32 @@
 ;; like matchit in vim
 ;; @return t => start from open tag; nil start from close tag
 
-(use-package undo-tree
-  :defer t
-  :diminish undo-tree-mode
-  :init (global-undo-tree-mode)
-  :custom
-  (undo-tree-visualizer-diff t)
-  (undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
-  (undo-tree-visualizer-timestamps t))
+;; (use-package undo-tree
+;;   :defer t
+;;   :diminish undo-tree-mode
+;;   :init (global-undo-tree-mode)
+;;   :custom
+;;   (undo-tree-visualizer-diff t)
+;;   (undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
+;;   (undo-tree-visualizer-timestamps t))
+;; -
+;; Fira-Code
+;; Enable the www ligature in every possible major mode
+(ligature-set-ligatures 't '("www"))
+
+;; Enable ligatures in programming modes                                                           
+(ligature-set-ligatures 'prog-mode '("www" "**" "***" "**/" "*>" "*/" "\\\\" "\\\\\\" "{-" "::"
+                                     ":::" ":=" "!!" "!=" "!==" "-}" "----" "-->" "->" "->>"
+                                     "-<" "-<<" "-~" "#{" "#[" "##" "###" "####" "#(" "#?" "#_"
+                                     "#_(" ".-" ".=" ".." "..<" "..." "?=" "??" ";;" "/*" "/**"
+                                     "/=" "/==" "/>" "//" "///" "&&" "||" "||=" "|=" "|>" "^=" "$>"
+                                     "++" "+++" "+>" "=:=" "==" "===" "==>" "=>" "=>>" "<="
+                                     "=<<" "=/=" ">-" ">=" ">=>" ">>" ">>-" ">>=" ">>>" "<*"
+                                     "<*>" "<|" "<|>" "<$" "<$>" "<!--" "<-" "<--" "<->" "<+"
+                                     "<+>" "<=" "<==" "<=>" "<=<" "<>" "<<" "<<-" "<<=" "<<<"
+                                     "<~" "<~~" "</" "</>" "~@" "~-" "~>" "~~" "~~>" "%%"))
+
+(global-ligature-mode 't)
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -671,7 +688,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ivy-prescient goto-last-change general forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile command-log-mode auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired all-the-icons-completion ag ac-js2)))
+   '(fzf base16-theme which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ivy-prescient goto-last-change general forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile command-log-mode auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired all-the-icons-completion ag ac-js2)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
