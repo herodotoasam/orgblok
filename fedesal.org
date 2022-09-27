@@ -21,4 +21,5 @@
    segundo crud agrego cuentas
    tercero prueba de concepto de tener todo en la misma tabla pero
    diferenciando color.
+   por ultimo cargar los datos
 

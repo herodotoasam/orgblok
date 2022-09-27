@@ -12629,3 +12629,27 @@ D $1000.00
 2022-09-26 comida
     expenses:comida             800
     assets:caja                -800
+
+2022-09-27 ospe
+    expenses:servicios:OSPE          $62652
+    assets:caja                     $-62652
+
+2022-09-27 epec
+    expenses:servicios:epec            6435
+    assets:caja                       -6435
+
+2022-09-27 claro
+    expenses:servicios:claro           $4659
+    assets:caja                       $-4659
+
+2022-09-27 municipal bora
+    expenses:impuestos:bora            $799
+    assets:caja                       $-799
+
+2022-09-27 municipal casa
+    expenses:impuestos:casa:municipal            $692
+    assets:caja                                 $-692
+
+2022-09-27 saco reserva
+    assets:caja              70000
+    assets:reserva          -70000

@@ -144,8 +144,9 @@
   "s" 'save-buffer
   "b" 'switch-to-buffer
   "h" 'projectile-ag
-  "a" '(lambda() (interactive)(find-file "~/fl5/main.py"))
-  "w" '(lambda() (interactive)(find-file "~/orgblok/work.org"))
+  "a" #'(lambda() (interactive)(find-file "~/fl5/main.py"))
+  "w" #'(lambda() (interactive)(find-file "~/orgblok/work.org"))
+  "q" 'save-buffers-kill-terminal
   )
 
 (use-package evil
@@ -186,7 +187,7 @@
   :init (load-theme 'doom-badger t))
 
  (use-package evil-nerd-commenter
-  :bind ("M--" . evilnc-comment-or-uncomment-lines))
+  :bind ("M-/" . evilnc-comment-or-uncomment-lines))
 
 (use-package all-the-icons
   :ensure t)
@@ -259,11 +260,14 @@
 (require 'flx-ido)
 (setq ido-enable-flex-maching t)
 (setq ido-everywhere t)
-(setq ido-use-filename-at-point 'guess)
 (setq ido-create-new-buffer 'always)
 (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
 (ido-mode 1)
-
+(require 'ido-vertical-mode)
+(ido-mode 1)
+(ido-vertical-mode 1)
+(setq ido-vertical-define-keys 'C-n-and-C-p-only)
+(setq ido-vertical-show-count t)
 
 
 (defun efs/org-font-setup ()
@@ -380,7 +384,9 @@
   :custom
   (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 (use-package forge
-  :after magit)
+  :after magit
+  )
+(setq forge-add-default-bindings nil)
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
 
@@ -609,8 +615,8 @@
 
 (require 'js2-mode)
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-(add-hook 'js2-mode-hook 'ac-js2-mode)
-(add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
+;;(add-hook 'js2-mode-hook 'ac-js2-mode)
+;; (add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
 
 ;; Better imenu
 ;; (add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
@@ -681,6 +687,17 @@
                                      "<~" "<~~" "</" "</>" "~@" "~-" "~>" "~~" "~~>" "%%"))
 
 (global-ligature-mode 't)
+
+(setq-default abbrev-mode t)
+(setq save-abbrevs 'silent)
+
+
+
+
+
+
+
+
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -688,7 +705,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(fzf base16-theme which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ivy-prescient goto-last-change general forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile command-log-mode auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired all-the-icons-completion ag ac-js2)))
+   '(rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation goto-last-change general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

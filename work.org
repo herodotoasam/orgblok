@@ -27,7 +27,7 @@
  un log con el resultado, failed, rejected, invalid, success.
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
 aparentemente la culpa la tendria jsonify
-** TODO sistema contable para las transferencias
+** DONE sistema contable para las transferencias
 ** TODO interfase para registrar autorizaciones
    una modal en el contexto del cliente donde se registre dia y hora de la
    autorizacion, current_user, y respuesta, y se guarden automaticamente los
@@ -38,6 +38,27 @@ las paginas y centralizarlos, cambiar las notificaciones a swall
 wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
 botones, etc. muchas otras cosas que podre ir agregando.
 * agenda de actividad
+** [2022-09-27 Tue]
+:LOGBOOK:
+CLOCK: [2022-09-27 Tue 17:20]--[2022-09-27 Tue 17:46] =>  0:26
+corrigiendo bugs
+CLOCK: [2022-09-27 Tue 15:52]--[2022-09-27 Tue 17:18] =>  1:26
+termino de afinar la busqueda en especial el uso de tags.
+CLOCK: [2022-09-27 Tue 14:54]--[2022-09-27 Tue 15:24] =>  0:30
+CLOCK: [2022-09-27 Tue 11:40]--[2022-09-27 Tue 14:27] =>  2:47
+refinando los metodos de busqueda y cambie el cuadro de vista
+agregando un table
+CLOCK: [2022-09-27 Tue 11:25]--[2022-09-27 Tue 11:40] =>  0:15
+bug en el sitio mobile- arreglado
+CLOCK: [2022-09-27 Tue 10:23]--[2022-09-27 Tue 11:19] =>  0:56
+busqueda mejorada-> agregue busquedas por id por wapp por acla y
+respuestas personalizadas. Visualizo en desktop solo una barra de
+busqueda. pq las otras dos son para trabajo en la calle.
+CLOCK: [2022-09-27 Tue 08:58]--[2022-09-27 Tue 10:10] =>  1:12
+termino de probar asientos e instalar en la web
+CLOCK: [2022-09-27 Tue 08:30]--[2022-09-27 Tue 08:57] =>  0:27
+agregue ido vertical mode a emacs y rg
+:END:
 ** [2022-09-26 Mon]
    :LOGBOOK:
    CLOCK: [2022-09-26 Mon 19:22]--[2022-09-26 Mon 20:14] =>  0:52
