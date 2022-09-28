@@ -184,7 +184,8 @@
   :commands command-log-mode)
 
 (use-package doom-themes
-  :init (load-theme 'doom-badger t))
+  ;; :init (load-theme 'doom-badger t))
+  :init (load-theme 'atom-dark t))
 
  (use-package evil-nerd-commenter
   :bind ("M-/" . evilnc-comment-or-uncomment-lines))
@@ -691,10 +692,11 @@
 (setq-default abbrev-mode t)
 (setq save-abbrevs 'silent)
 
-
-
-
-
+;; function jump last position
+(require 'jumplist)
+(global-set-key (kbd "<f9>") 'jumplist--set)
+(global-set-key (kbd "M-o") 'jumplist-previous)
+(global-set-key (kbd "M-i") 'jumplist-next)
 
 
 
@@ -705,7 +707,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation goto-last-change general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
+   '(jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

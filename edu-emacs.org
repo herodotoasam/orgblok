@@ -579,3 +579,12 @@ papas.
 C-c ^ eso abre un menu de multiples opciones en minuscula para asc y
 mayusculas para desc.
 
+
+* intento de jump en forma mas segura
+en evil tengo C-o C-i pero no anda tan bien como en vim. 
+baje un paquete y keybindie A-o A-i y para setear F9. tiene la
+ventaja/desventaja de que uno tiene que setear la marca manualmente.
+* mejoras a ido
+en lo posible. por empezar puse ido-vertical
+* rapidez en el teclado
+xset r rate 150 255

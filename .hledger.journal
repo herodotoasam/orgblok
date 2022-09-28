@@ -12653,3 +12653,15 @@ D $1000.00
 2022-09-27 saco reserva
     assets:caja              70000
     assets:reserva          -70000
+
+2022-09-27 ingresos
+    assets:reserva                  198000
+    income:retiro sociedad         -198000
+
+2022-09-27 facturas
+    expenses:comida            $700
+    assets:caja               $-700
+
+2022-09-28 menu
+    expenses:comida             700
+    assets:caja                -700

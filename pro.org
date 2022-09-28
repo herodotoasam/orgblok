@@ -5780,6 +5780,12 @@ primer mm hecho luego de la obra sobre array
     estoy probando un nuevo esquema para emacs con un sistema modal
     que no interfiere con todos los comandos nativos de emacs. Se
     llama meow y parece que es bueno solo tengo que aprenderlo.
+*** [2022-09-28 Wed] emacs superhell (ex-vimhell)
+gran avance del afinamiento de herramientas para el trabajo diario.
+p.e. fedora, emacs, vim, kitty, firefox.
+gran dedicacion al trabajo todo el dia y lectura los ratos libres en
+el emacs-superhell o en el vim-hell segun corresponda. Con exclusion
+de toda otra cosa.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
@@ -6885,6 +6891,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-08-28 dom] :python:pycharm:
 ** semana [2022-09-04 dom] :flask:javascript:alpinejs:
 ** semana [2022-09-11 dom]                                   :Javascript:vim:
+** semana [2022-09-18 Sun] :flask:javascript:alpinejs:emacs:
+** semana [2022-09-25 Sun] :flask:javascript:alpineja:emacs:vim:kitty:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -7239,6 +7247,19 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    dpkg-reconfigure locales
    resuelto con su -
 ** instalacion [2022-04-24 dom]
+* agenda fedora
+** [2022-09-18 Sun] instale la version 36
+   luego de fracasar con alpine-linux me decidi por fedora que era la
+   unica grande que no habia probado. En realidad busque mejor distro
+   para gnome-wailand pq me habia gustado la interfase gnome en alpine
+   y vi que fedora tenia bastante actualizado los programas.
+   hasta ahora todo bien. Lo unico es el tema en general de wayland no
+   de fedora que no acepta mas el xmodmap entonces hay que buscar otra
+   solucion que encontre input-remapper que se comporta bastante bien. 
+   Han sido muchisimos los cambios que he hecho y no estan todos
+   documentados por lo que no es tan divertido cambiar de instalacion
+   ahora.
+   
 * agenda vim
 ** jump previas posiciones
     C-o C-i
