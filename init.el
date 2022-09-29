@@ -135,6 +135,7 @@
 (evil-leader/set-leader "<SPC>")
 (evil-leader/set-key
   "f" 'find-file
+  "h" 'projectile-find-file
   "0" 'delete-window
   "2" 'split-window-below
   "3" 'split-window-right
@@ -143,9 +144,12 @@
   "k" 'kill-buffer
   "s" 'save-buffer
   "b" 'switch-to-buffer
-  "h" 'projectile-ag
-  "a" #'(lambda() (interactive)(find-file "~/fl5/main.py"))
+  "a" 'ag
+  "r" 'rg-project
+  "p" 'rg-dwim-current-file
+  "<f5>" #'(lambda() (interactive)(find-file "~/fl5/main.py"))
   "w" #'(lambda() (interactive)(find-file "~/orgblok/work.org"))
+  "i" #'(lambda() (interactive)(find-file "~/orgblok/init.el"))
   "q" 'save-buffers-kill-terminal
   )
 
@@ -174,6 +178,7 @@
    (evil-global-set-key 'normal (kbd "3") 'evil-search-word-backward)
    (evil-global-set-key 'normal (kbd "4") 'evil-end-of-line)
    (evil-global-set-key 'normal (kbd "5") 'evil-jump-item)
+   (evil-global-set-key 'normal (kbd "C-r") 'swiper-backward)
 
  (use-package evil-collection
    :after evil
@@ -258,17 +263,54 @@
   "ts" '(hydra-text-scale/body :which-key "scale text"))
 
 
-(require 'flx-ido)
-(setq ido-enable-flex-maching t)
-(setq ido-everywhere t)
-(setq ido-create-new-buffer 'always)
-(setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
-(ido-mode 1)
-(require 'ido-vertical-mode)
-(ido-mode 1)
-(ido-vertical-mode 1)
-(setq ido-vertical-define-keys 'C-n-and-C-p-only)
-(setq ido-vertical-show-count t)
+;; (require 'flx-ido)
+;; (setq ido-enable-flex-maching t)
+;; (setq ido-everywhere t)
+;; (setq ido-create-new-buffer 'always)
+;; (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
+;; (ido-mode 1)
+;; (require 'ido-vertical-mode)
+;; (ido-mode 1)
+;; (ido-vertical-mode 1)
+;; (setq ido-vertical-define-keys 'C-n-and-C-p-only)
+;; (setq ido-vertical-show-count t)
+(defun eh-ivy-partial-or-done ()
+  (interactive)
+  (or (ivy-partial)
+      (ivy-alt-done)))
+
+(use-package ivy
+  :diminish
+  :bind (("C-s" . swiper)
+	 ("C-r" . swiper-backward)
+         :map ivy-minibuffer-map
+         ("TAB" . eh-ivy-partial-or-done)
+         ("C-l" . ivy-alt-done)
+         ("C-j" . ivy-next-line)
+         ("C-k" . ivy-previous-line)
+         :map ivy-switch-buffer-map
+         ("C-k" . ivy-previous-line)
+         ("C-l" . ivy-done)
+         ("C-d" . ivy-switch-buffer-kill)
+         :map ivy-reverse-i-search-map
+         ("C-k" . ivy-previous-line)
+         ("C-d" . ivy-reverse-i-search-kill))
+  :config
+  (ivy-mode 1))
+
+(use-package ivy-rich
+  :after ivy
+  :init
+  (ivy-rich-mode 1))
+
+(use-package ivy-prescient
+  :after counsel
+  :custom
+  (ivy-prescient-enable-filtering nil)
+  :config
+  ;; Uncomment the following line to have sorting remembered across sessions!
+  (prescient-persist-mode 1)
+  (ivy-prescient-mode 1))
 
 
 (defun efs/org-font-setup ()
@@ -395,9 +437,9 @@
 ;;   :commands term
 ;;   :config
 ;;   (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
-  ;;(setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
+;;   (setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
 
-  ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
+;;   ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
 ;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
 
 ;; (use-package eterm-256color
@@ -407,28 +449,28 @@
 ;;   :commands vterm
 ;;   :config
 ;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
-;;   ;;(setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
+;;   (setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
 ;;   (setq vterm-max-scrollback 10000))
 
 ;; (defun efs/configure-eshell ()
 ;;   ;; Save command history when commands are entered
-;;   (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
+  ;; (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
 
 ;;   ;; Truncate buffer for performance
-;;   (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
+  ;; (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
 
 ;;   ;; Bind some useful keys for evil-mode
-;;   (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
-;;   (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
-;;   (evil-normalize-keymaps)
+  ;; (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
+  ;; (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
+  ;; (evil-normalize-keymaps)
 
-;;   (setq eshell-history-size         10000
-;;         eshell-buffer-maximum-lines 10000
-;;         eshell-hist-ignoredups t
-;;         eshell-scroll-to-bottom-on-input t))
+  ;; (setq eshell-history-size         10000
+  ;;       eshell-buffer-maximum-lines 10000
+  ;;       eshell-hist-ignoredups t
+  ;;       eshell-scroll-to-bottom-on-input t))
 
 ;; (use-package eshell-git-prompt
-;;   :after eshell)
+  ;; :after eshell)
 
 ;; (use-package eshell
 ;;   :hook (eshell-first-time-mode . efs/configure-eshell)
@@ -436,9 +478,9 @@
 
 ;;   (with-eval-after-load 'esh-opt
 ;;     (setq eshell-destroy-buffer-when-process-dies t)
-;;     (setq eshell-visual-commands '("htop" "zsh" "vim")))
+;;     (setq eshell-visual-commands '("htop" "zsh" "vim")))) 
 
-;;   (eshell-git-prompt-use-theme 'powerline))
+  ;; (eshell-git-prompt-use-theme 'powerline))
 
 (use-package dired
   :ensure nil
@@ -482,9 +524,9 @@
 
 
 ;; Mis propios ajustes 
-(global-set-key (kbd "C-<right>") 'next-buffer)
-(global-set-key (kbd "C-<left>") 'previous-buffer)
-(global-set-key (kbd "C-<up>") 'delete-other-windows)
+(global-set-key (kbd "M-<right>") 'next-buffer)
+(global-set-key (kbd "M-<left>") 'previous-buffer)
+(global-set-key (kbd "M-<up>") 'delete-other-windows)
 (global-set-key [f6] 'projectile-ibuffer)
 (global-set-key [f12] (lambda() (interactive)(find-file "~/.emacs.d/init.el")))
 (global-set-key [f10] (lambda() (interactive)(find-file "~/fl5/main.py")))
@@ -698,7 +740,30 @@
 (global-set-key (kbd "M-o") 'jumplist-previous)
 (global-set-key (kbd "M-i") 'jumplist-next)
 
+;;; ace-window
+(global-set-key (kbd "M-o") 'ace-window)
 
+;;; pomidor
+(use-package pomidor
+  :bind (("<f12>" . pomidor))
+  :config (setq pomidor-sound-tick nil
+                pomidor-sound-tack nil)
+  :hook (pomidor-mode . (lambda ()
+                          (display-line-numbers-mode -1) ; Emacs 26.1+
+                          (setq left-fringe-width 0 right-fringe-width 0)
+                          (setq left-margin-width 2 right-margin-width 0)
+                          ;; force fringe update
+                          (set-window-buffer nil (current-buffer)))))
+(use-package pomidor
+  :bind (("<f12>" . pomidor))
+  :config (setq pomidor-sound-tick nil
+                pomidor-sound-tack nil)
+  :hook (pomidor-mode . (lambda ()
+                          (display-line-numbers-mode -1) ; Emacs 26.1+
+                          (setq left-fringe-width 0 right-fringe-width 0)
+                          (setq left-margin-width 2 right-margin-width 0)
+                          ;; force fringe update
+                          (set-window-buffer nil (current-buffer)))))
 
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
@@ -707,7 +772,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
+   '(pomidor jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

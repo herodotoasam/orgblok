@@ -73,10 +73,17 @@ envolveria agregar campos en tabla clientes y triggers
 dias de atraso
 ** TODO vista en Card para los que estan pagando
 atrasado
+** TODO sacar de static todos los archivos y bajarlos por cdn
+** TODO refactorizar table.js - rename idem table.css
 * agenda de actividad
 ** semana [2022-09-25 Sun]
 *** [2022-09-28 Wed]
 :LOGBOOK:
+CLOCK: [2022-09-28 Wed 19:20]--[2022-09-28 Wed 20:32] =>  1:12
+analice avy-> desechado. Reemplaze ido por ivy hay que acostumbrarse a
+la forma de abrir los archivos.
+CLOCK: [2022-09-28 Wed 19:09]--[2022-09-28 Wed 19:19] =>  0:10
+free hour
 CLOCK: [2022-09-28 Wed 15:33]--[2022-09-28 Wed 16:59] =>  1:26
 hice los triggers y los campos en el servidor
 falta ver de cargar el campo condonados por valor minimo de montocondonado
@@ -363,4 +370,5 @@ agregar mas mensajes programables y poner un dropdown
    servicio como esta hecho en apache, e hice que el backup se haga
    por hora.
    :END:
+   
    
