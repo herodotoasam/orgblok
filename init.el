@@ -51,19 +51,19 @@
 
 (setq use-package-always-ensure t)
 
-(use-package auto-package-update
-  :custom
-  (auto-package-update-interval 7)
-  (auto-package-update-prompt-before-update t)
-  (auto-package-update-hide-results t)
-  :config
-  (auto-package-update-maybe)
-  (auto-package-update-at-time "09:00"))
+;; (use-package auto-package-update
+;;   :custom
+;;   (auto-package-update-interval 7)
+;;   (auto-package-update-prompt-before-update t)
+;;   (auto-package-update-hide-results t)
+;;   :config
+;;   (auto-package-update-maybe)
+;;   (auto-package-update-at-time "09:00"))
 
 (use-package no-littering)
 
-;; no-littering doesn't set this by default so we must place
-;; auto save files in the same path as it uses for sessions
+; no-littering doesn't set this by default so we must place
+; auto save files in the same path as it uses for sessions
 (setq auto-save-file-name-transforms
       `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
@@ -76,7 +76,12 @@
 (set-fringe-mode 10)        ; Give some breathing room
 
 (menu-bar-mode -1)            ; Disable the menu bar
+(use-package simpleclip)
 (simpleclip-mode 1)           ; enable simpleclip globaly
+(use-package ag)
+(use-package js2-mode)
+(use-package ligature)
+(use-package ace-window)
 
 ;; Set up the visible bell
 ;;(setq visible-bell t)
@@ -193,6 +198,7 @@
 (use-package command-log-mode
   :commands command-log-mode)
 
+(use-package atom-dark-theme)
 (use-package doom-themes
   ;; :init (load-theme 'doom-badger t))
   :init (load-theme 'atom-dark t))
@@ -535,8 +541,6 @@
 (global-set-key [f6] 'projectile-ibuffer)
 (global-set-key [f12] (lambda() (interactive)(find-file "~/.emacs.d/init.el")))
 (global-set-key [f10] (lambda() (interactive)(find-file "~/fl5/main.py")))
-(global-set-key [f8] 'web-mode-fold-or-unfold)
-(global-set-key [f7] 'web-mode-navigate)
 
 ;; Mis propios ajustes de orgmode 
 (defun org-insert-inactive-timestamp()
@@ -640,8 +644,7 @@
 ;; (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
 (autoload 'python-mode' "python" "Python" t)
 (add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
-
-
+(add-hook 'python-mode-hook (lambda() (hs-minor-mode)))
 ;; (use-package magit
   ;; :custom
   ;; (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
@@ -651,14 +654,20 @@
 ;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
 ;;(use-package forge)
 
+(use-package web-mode)
  (require 'web-mode)
  (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
  (add-hook 'web-mode-hook (lambda () (emmet-mode)))
  (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
  (add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
+  (evil-collection-define-key 'normal 'web-mode-map
+    "z" 'web-mode-fold-or-unfold
+    "q" 'web-mode-navigate)
 (setq web-mode-enable-current-element-highlight 1)
+(global-set-key [f8] 'web-mode-fold-or-unfold)
+(global-set-key [f7] 'web-mode-navigate)
 
-(global-set-key [f3] 'neotree-toggle)
+;;(global-set-key [f3] 'neotree-toggle)
 ;;(global-set-key (kbd "}") 'web-mode-tag-match)
 
 (require 'js2-mode)
@@ -739,11 +748,6 @@
 (setq-default abbrev-mode t)
 (setq save-abbrevs 'silent)
 
-;; function jump last position
-(require 'jumplist)
-(global-set-key (kbd "<f9>") 'jumplist--set)
-(global-set-key (kbd "M-o") 'jumplist-previous)
-(global-set-key (kbd "M-i") 'jumplist-next)
 
 ;;; ace-window
 (global-set-key (kbd "M-o") 'ace-window)
@@ -777,7 +781,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(key-chord eglot jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
+   '(which-key web-mode use-package simpleclip ripgrep rg rainbow-delimiters queue python-mode org-bullets memoize ligature ivy-prescient highlight-indentation general frame-local forge flx evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection emmet-mode eglot doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete atom-one-dark-theme atom-dark-theme all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
