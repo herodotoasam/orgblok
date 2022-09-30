@@ -588,3 +588,10 @@ ventaja/desventaja de que uno tiene que setear la marca manualmente.
 en lo posible. por empezar puse ido-vertical
 * rapidez en el teclado
 xset r rate 150 255
+* reemplazo en multiples archivos
+find-name-dired
+dando el path y el wildcard que queremos
+luego con t marcamos todos los archivos juntos
+con Q hacemos reemplace
+con Y aceptamos cambiar a todos juntos y finalmente
+C-s s guardamos todo usando la opcion ! (all).

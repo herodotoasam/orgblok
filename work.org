@@ -29,17 +29,7 @@
    CLOSED: [2022-09-24 Sat 20:23]
 ** DONE ver bug proveedores
    revisado. No habia tal bug.
-** TODO ver de incorporar los botones a submenu
-   y/o de cambiar el menu directamente a bulma menu
 ** DONE explorar un tipo de boton con submenu
-** TODO explorar y pasarse a bulma menu-bar
-** TODO optimizaciones de emacs
-*** instalar version 28
-*** solucionar el tema elpy
-*** solucionar el tema undo
-** TODO lista de control de documentos
-** TODO whatsapp de imagenes
-** TODO folleto automatico
 ** DONE nuevo listado de visita clientes
    CLOSED: [2022-09-24 Sat 20:22]
 ** DONE nuevo enfoque en la queue de whatsapp
@@ -50,10 +40,22 @@
  procesando cada diez segundos.
  luego de procesado, se edita el registro con el resultado y tendremos
  un log con el resultado, failed, rejected, invalid, success.
+** DONE sistema contable para las transferencias
+** DONE sacar de static todos los archivos y bajarlos por cdn
+** DONE refactorizar table.js - rename idem table.css
+** TODO ver de incorporar los botones a submenu
+   y/o de cambiar el menu directamente a bulma menu
+** TODO explorar y pasarse a bulma menu-bar
+** TODO optimizaciones de emacs
+*** DONE instalar version 28
+*** solucionar el tema elpy
+*** solucionar el tema undo
+** TODO lista de control de documentos
+** TODO whatsapp de imagenes
+** TODO folleto automatico
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
 aparentemente la culpa la tendria jsonify
 y ponerlo accesible desde utilidades
-** DONE sistema contable para las transferencias
 ** TODO interfase para registrar autorizaciones
    una modal en el contexto del cliente donde se registre dia y hora de la
    autorizacion, current_user, y respuesta, y se guarden automaticamente los
@@ -73,10 +75,35 @@ envolveria agregar campos en tabla clientes y triggers
 dias de atraso
 ** TODO vista en Card para los que estan pagando
 atrasado
-** TODO sacar de static todos los archivos y bajarlos por cdn
-** TODO refactorizar table.js - rename idem table.css
+** TODO contador de billetes
+** TODO modificar la funcion totalizar para aceptar arg columnas
+** TODO hacer una forma de mostrar o no mostrar la tabla de cuotas pagadas
+en los cancelados con un icono.
+hacer que cuando haya muchos registros de pago se muestre un poco y lo
+demas se baje despues.
+
+
 * agenda de actividad
 ** semana [2022-09-25 Sun]
+*** [2022-09-29 Thu]
+:LOGBOOK:
+CLOCK: [2022-09-29 Thu 19:45]--[2022-09-29 Thu 21:00] =>  1:15
+nueva presentacion de tablas en el buscador
+CLOCK: [2022-09-29 Thu 18:50]--[2022-09-29 Thu 19:05] =>  0:15
+CLOCK: [2022-09-29 Thu 18:00]--[2022-09-29 Thu 18:50] =>  0:50
+cambio de nombre a base_template
+CLOCK: [2022-09-29 Thu 17:24]--[2022-09-29 Thu 17:59] =>  0:35
+CLOCK: [2022-09-29 Thu 15:15]--[2022-09-29 Thu 15:35] =>  0:20
+mucha optimizacion de emacs
+CLOCK: [2022-09-29 Thu 14:46]--[2022-09-29 Thu 15:13] =>  0:27
+CLOCK: [2022-09-29 Thu 13:12]--[2022-09-29 Thu 14:20] =>  1:08
+CLOCK: [2022-09-29 Thu 12:30]--[2022-09-29 Thu 12:52] =>  0:22
+terminado la refactorizacion de script.js
+CLOCK: [2022-09-29 Thu 10:45]--[2022-09-29 Thu 12:29] =>  1:44
+CLOCK: [2022-09-29 Thu 10:43]--[2022-09-29 Thu 10:45] =>  0:02
+CLOCK: [2022-09-29 Thu 08:30]--[2022-09-29 Thu 10:42] =>  2:12
+sacar de todos los archivos de static y linkear a cdn
+:END:
 *** [2022-09-28 Wed]
 :LOGBOOK:
 CLOCK: [2022-09-28 Wed 19:20]--[2022-09-28 Wed 20:32] =>  1:12

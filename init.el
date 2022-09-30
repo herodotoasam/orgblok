@@ -146,7 +146,8 @@
   "b" 'switch-to-buffer
   "a" 'ag
   "r" 'rg-project
-  "p" 'rg-dwim-current-file
+  "o" 'rg-dwim-current-file
+  "p" 'pomidor-break
   "<f5>" #'(lambda() (interactive)(find-file "~/fl5/main.py"))
   "w" #'(lambda() (interactive)(find-file "~/orgblok/work.org"))
   "i" #'(lambda() (interactive)(find-file "~/orgblok/init.el"))
@@ -178,7 +179,11 @@
    (evil-global-set-key 'normal (kbd "3") 'evil-search-word-backward)
    (evil-global-set-key 'normal (kbd "4") 'evil-end-of-line)
    (evil-global-set-key 'normal (kbd "5") 'evil-jump-item)
-   (evil-global-set-key 'normal (kbd "C-r") 'swiper-backward)
+   (evil-global-set-key 'normal (kbd "t") 'avy-goto-char-timer)
+   (evil-global-set-key 'visual (kbd "t") 'avy-goto-char-timer)
+   (evil-global-set-key 'normal (kbd "m") 'set-mark-command)
+   (evil-global-set-key 'normal (kbd "K") 'kill-whole-line)
+   (evil-global-set-key 'normal (kbd "L") 'duplicate-line)
 
  (use-package evil-collection
    :after evil
@@ -744,26 +749,26 @@
 (global-set-key (kbd "M-o") 'ace-window)
 
 ;;; pomidor
-(use-package pomidor
-  :bind (("<f12>" . pomidor))
-  :config (setq pomidor-sound-tick nil
-                pomidor-sound-tack nil)
-  :hook (pomidor-mode . (lambda ()
-                          (display-line-numbers-mode -1) ; Emacs 26.1+
-                          (setq left-fringe-width 0 right-fringe-width 0)
-                          (setq left-margin-width 2 right-margin-width 0)
-                          ;; force fringe update
-                          (set-window-buffer nil (current-buffer)))))
-(use-package pomidor
-  :bind (("<f12>" . pomidor))
-  :config (setq pomidor-sound-tick nil
-                pomidor-sound-tack nil)
-  :hook (pomidor-mode . (lambda ()
-                          (display-line-numbers-mode -1) ; Emacs 26.1+
-                          (setq left-fringe-width 0 right-fringe-width 0)
-                          (setq left-margin-width 2 right-margin-width 0)
-                          ;; force fringe update
-                          (set-window-buffer nil (current-buffer)))))
+;; (use-package pomidor
+;;   :bind (("<f12>" . pomidor))
+;;   :config (setq pomidor-sound-tick nil
+;;                 pomidor-sound-tack nil)
+;;   :hook (pomidor-mode . (lambda ()
+;;                           (display-line-numbers-mode -1) ; Emacs 26.1+
+;;                           (setq left-fringe-width 0 right-fringe-width 0)
+;;                           (setq left-margin-width 2 right-margin-width 0)
+;;                           ;; force fringe update
+;;                           (set-window-buffer nil (current-buffer)))))
+;; (use-package pomidor
+;;   :bind (("<f12>" . pomidor))
+;;   :config (setq pomidor-sound-tick nil
+;;                 pomidor-sound-tack nil)
+;;   :hook (pomidor-mode . (lambda ()
+;;                           (display-line-numbers-mode -1) ; Emacs 26.1+
+;;                           (setq left-fringe-width 0 right-fringe-width 0)
+;;                           (setq left-margin-width 2 right-margin-width 0)
+;;                           ;; force fringe update
+;;                           (set-window-buffer nil (current-buffer)))))
 
 ;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
@@ -772,7 +777,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(pomidor jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
+   '(key-chord eglot jumplist ido-hacks atom-one-dark-theme atom-dark-theme rg ido-vertical-mode yasnippet which-key web-mode vterm use-package undo-tree typescript-mode treemacs-all-the-icons spaceline-all-the-icons simpleclip ripgrep rainbow-delimiters pyvenv python-mode org-bullets no-littering neotree lsp-ui lsp-treemacs lsp-ivy ligature ivy-prescient highlight-indentation general fzf frame-local forge flx-ido evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection eterm-256color eshell-git-prompt emmet-mode doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag ac-js2)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
