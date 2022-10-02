@@ -61,7 +61,7 @@ i686).
 
 Pero tambien creo que hay mejoras en el uso de vim que pueden hacerlo
 muchisimo mas poderoso (que lo que yo lo estaba usando)
-[2016-10-01 sáb] 
+[2016-10-01 sáb]
 Hoy puse en emacs evil, y parece que todo va muy rapido, al menos para
 seguir usando org-mode y punto.
 
@@ -114,7 +114,7 @@ C-left/right
 
 * Seleccion de texto
 
-con C-Space hacemos una marca luego nos movemos hasta el lugar deseado y podemos usar los 
+con C-Space hacemos una marca luego nos movemos hasta el lugar deseado y podemos usar los
 comandos copiar o cortar
 C-x-h marca todo el buffer (el Ctrl-a de windows)
 
@@ -263,7 +263,7 @@ si no se puede hacer andar jedi la bocha la veo fea
 
 - instalar jedi
 - instalar virtualenv desde arch
-- ejecutar jedi:install-server 
+- ejecutar jedi:install-server
 - ejecutar jedi-mode
 
 Eso produciria el jedi-mode enabled
@@ -273,7 +273,7 @@ Eso produciria el jedi-mode enabled
 <2016-09-18 dom>
 Este ha sido un domingo muy intenso debido a un ataque muy potente del virus
 patetico diletante.
-Comenzo el viernes o quizas el jueves con un vistazo a emacs, que me produjo 
+Comenzo el viernes o quizas el jueves con un vistazo a emacs, que me produjo
 que el viernes perdiera un par de horas.
 Y el finde entero estuvo destinado a la investigacion sobre la linea de trabajo
 sobre el tema.
@@ -295,7 +295,7 @@ emacs para trabajar
 
 *** puesta en produccion de emacs
 
-Con spacemacs todo esta muy bueno pq es de configuracion simple y clara y tiene la 
+Con spacemacs todo esta muy bueno pq es de configuracion simple y clara y tiene la
 posibilidad de ponerle cientos de themes muy buenos, al menos el que estoy usando ahora.
 
 *** spacemacs
@@ -307,7 +307,7 @@ sabes mas emacs y sus tres mil comandos y la posibilidad de programar abajo en l
 
 para ser realista la autocomplecion con jedi en vim lo enlentece muchisimo hasta la exasperacion
 y en atom es muy intrusiva que tambien te exaspera pq te tapa lo que estas haciendo.
-Es cierto que uno puede estar escribiendo una funcion de la que no recuerda los argumentos y 
+Es cierto que uno puede estar escribiendo una funcion de la que no recuerda los argumentos y
 un poco te lo facilita pero tengo un workaround que es mucho mas rapido.
 Tiene facilidades muy potentes para la busqueda, con asterisk sobre la palabra y / directamente
 se abre helm y te muestra todas las ocurrencias en el proyecto desde donde podes ir al archivo original
@@ -336,7 +336,7 @@ y cierra igual que en la vida real
 | busqueda global    | c-F   | */ etc           | un quilombo |
 | manejo de archivos | c-t   | integrado        | :Explore    |
 |                    |       |                  |             |
- 
+
 
 | otros aspectos   | atom  | emacs  | vim        |
 | distraccion      | mucha | media  | baja       |
@@ -354,7 +354,7 @@ pero en este caso (hasta ahora) spacemacs es seamless y no requiere ni permite n
 
 muy util seria para navegar rapidamente no solo entre clases, sino entre definiciones
 y partes de sectores densos.
-Incluso si se pone el titulo del sector denso como comentario es facil transitarlo. 
+Incluso si se pone el titulo del sector denso como comentario es facil transitarlo.
 
 * DONE Emacs basicos :anki:
 CLOSED: [2018-10-29 Mon 12:19]
@@ -478,7 +478,7 @@ y lo descubri por casualidad
 
 ** Ctrl-Mouse-2 menu contextual
 
-con algunas cosas 
+con algunas cosas
 
 ** Shift-Mouse-1 menu contextual
 
@@ -487,7 +487,7 @@ cambio de font entre otras
 ** occur
 
 M-s o occur de una regexpr
-interesantes opciones 
+interesantes opciones
 r - rename occur buffer para dejarlo fijo sin importar si llamamos a
 otros occur
 Auto Ocurrence Display para navegar de una entre las partes.
@@ -534,7 +534,7 @@ el clasico C-x que hacia en vim. lo logro facilmente con el menu Tcl
 que me aparece mientras trabajo con Tcl.
 Restart Tcl process with file (no tiene un atajo adaptado todavia) y
 me aparece un file explorer donde elijo el archivo a ejecutar, que
-esta resaltado el que estoy trabajando y enter y ya esta. 
+esta resaltado el que estoy trabajando y enter y ya esta.
 
 * jump to register
 
@@ -551,7 +551,7 @@ la marca.
 
 1) con + - *
 2) M-RET agrego otro renglon
-3) con S-Left ciclo tipos de bullets o C-c - 
+3) con S-Left ciclo tipos de bullets o C-c -
 4) M-Left-Right promote/demote
 5) M-Up-Down subo bajo el renglon
 6) C-c * transforma una entrada en un titulo
@@ -560,15 +560,15 @@ la marca.
 
 * corrector ortografico
 
-instalar aspell-es 
-luego M-$ 
+instalar aspell-es
+luego M-$
 es muy bueno mejor que el de google
 lo use para una palabra rara pq estaba escribiendo un mail en gmail:
 háganoslo y el puto gmail no me la corregía, abri el libreoffice y me
 corregia igual que google y me desesperaba pq tenia que terminar el
 trabajo y lo hice en emacs y me lo corrigio perfecto.
 Asi pienso que es todo emacs para el que lo sabe usar, me imagino que
-con el mail tambien. 
+con el mail tambien.
 
 
 * check-parens
@@ -581,7 +581,7 @@ mayusculas para desc.
 
 
 * intento de jump en forma mas segura
-en evil tengo C-o C-i pero no anda tan bien como en vim. 
+en evil tengo C-o C-i pero no anda tan bien como en vim.
 baje un paquete y keybindie A-o A-i y para setear F9. tiene la
 ventaja/desventaja de que uno tiene que setear la marca manualmente.
 * mejoras a ido
@@ -595,3 +595,8 @@ luego con t marcamos todos los archivos juntos
 con Q hacemos reemplace
 con Y aceptamos cambiar a todos juntos y finalmente
 C-s s guardamos todo usando la opcion ! (all).
+* consult M-s y alli veo las opciones
+en especial MsMi y varias para ver
+* embarck C-; y alli veo las opciones
+en especial ir hacia la definicion
+* lsp - space l  y de alli veo las opciones

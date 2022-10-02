@@ -1,7 +1,9 @@
-(defconst *spell-check-support-enabled* nil) ;; Enable with t if you prefer
+;; (spell-check-support-enabled nil) ;; Enable with t if you prefer
 
 ; The default is 800 kilobytes.  Measured in bytes.
 (setq gc-cons-threshold (* 50 1000 1000))
+
+(setq debug-on-error nil)
 
 ;; Allow access from emacsclient
 (add-hook 'after-init-hook
@@ -17,8 +19,6 @@
 
 (setq byte-compile-warnings '(cl-functions))
 
-;Make frame transparency overridable	;h
-;;(defvar efs/frame-transparency '(90 . 90))
 
 
 (defun efs/display-startup-time ()
@@ -51,14 +51,6 @@
 
 (setq use-package-always-ensure t)
 
-;; (use-package auto-package-update
-;;   :custom
-;;   (auto-package-update-interval 7)
-;;   (auto-package-update-prompt-before-update t)
-;;   (auto-package-update-hide-results t)
-;;   :config
-;;   (auto-package-update-maybe)
-;;   (auto-package-update-at-time "09:00"))
 
 (use-package no-littering)
 
@@ -79,7 +71,6 @@
 (use-package simpleclip)
 (simpleclip-mode 1)           ; enable simpleclip globaly
 (use-package ag)
-(use-package js2-mode)
 (use-package ligature)
 (use-package ace-window)
 
@@ -93,11 +84,6 @@
 (set-face-attribute 'show-paren-match nil :weight 'extra-bold)
 
 
-;; Set frame transparency
-;;(set-frame-parameter (selected-frame) 'alpha efs/frame-transparency)
-;;(add-to-list 'default-frame-alist `(alpha . ,efs/frame-transparency))
-;;(set-frame-parameter (selected-frame) 'fullscreen 'maximized)
-;;(add-to-list 'default-frame-alist '(fullscreen . maximized))
 
 ;; Disable line numbers for some modes
 (dolist (mode '(org-mode-hook
@@ -108,7 +94,7 @@
   (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 
-(set-face-attribute 'default nil :font "Fira Code" :height efs/default-font-size)
+(set-face-attribute 'default nil :font "Azeret Mono" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
 (set-face-attribute 'fixed-pitch nil :font "Fira Code" :height efs/default-font-size)
@@ -141,7 +127,7 @@
 (evil-leader/set-key
   "f" 'find-file
   "h" 'projectile-find-file
-  "0" 'delete-window
+  "0" 'delete-other-windows
   "2" 'split-window-below
   "3" 'split-window-right
   "g" 'magit-status
@@ -157,10 +143,13 @@
   "w" #'(lambda() (interactive)(find-file "~/orgblok/work.org"))
   "i" #'(lambda() (interactive)(find-file "~/orgblok/init.el"))
   "q" 'save-buffers-kill-terminal
+  "," 'counsel-buffer-or-recentf
+  "." 'counsel-find-file
   )
 
 (use-package evil
    :init
+   (setq evil-undo-system 'undo-redo)
    (setq evil-want-integration t)
    (setq evil-want-keybinding nil)
    (setq evil-want-C-u-scroll t)
@@ -179,7 +168,7 @@
    (evil-set-initial-state 'dashboard-mode 'normal)
 
 ;;   ;; agregado por mi
-   (setq evil-want-fine-undo 'fine)
+   ;(setq evil-want-fine-undo 'fine)
    (define-key evil-normal-state-map (kbd "C-p") 'projectile-find-file)
    (evil-global-set-key 'normal (kbd "3") 'evil-search-word-backward)
    (evil-global-set-key 'normal (kbd "4") 'evil-end-of-line)
@@ -189,6 +178,7 @@
    (evil-global-set-key 'normal (kbd "m") 'set-mark-command)
    (evil-global-set-key 'normal (kbd "K") 'kill-whole-line)
    (evil-global-set-key 'normal (kbd "L") 'duplicate-line)
+   (evil-global-set-key 'normal (kbd "C-r") 'undo-redo)
 
  (use-package evil-collection
    :after evil
@@ -220,28 +210,6 @@
   (which-key-mode)
   (setq which-key-idle-delay 1))
 
-;; (use-package ivy
-;;   :diminish
-;;   :bind (("C-s" . swiper)
-;;          :map ivy-minibuffer-map
-;;          ("TAB" . ivy-alt-done)
-;;          ("C-l" . ivy-alt-done)
-;;          ("C-j" . ivy-next-line)
-;;          ("C-k" . ivy-previous-line)
-;;          :map ivy-switch-buffer-map
-;;          ("C-k" . ivy-previous-line)
-;;          ("C-l" . ivy-done)
-;;          ("C-d" . ivy-switch-buffer-kill)
-;;          :map ivy-reverse-i-search-map
-;;          ("C-k" . ivy-previous-line)
-;;          ("C-d" . ivy-reverse-i-search-kill))
-;;   :config
-;;   (ivy-mode 1))
-
-;; (use-package ivy-rich
-;;   :after ivy
-;;   :init
-;;   (ivy-rich-mode 1))
 
 (use-package counsel
   :bind (("C-M-j" . 'counsel-switch-buffer)
@@ -252,14 +220,6 @@
   :config
   (counsel-mode 1))
 
-;; (use-package ivy-prescient
-;;   :after counsel
-;;   :custom
-;;   (ivy-prescient-enable-filtering nil)
-;;   :config
-;;   ;; Uncomment the following line to have sorting remembered across sessions!
-;;   ;(prescient-persist-mode 1)
-;;   (ivy-prescient-mode 1))
 
 (use-package hydra
   :defer t)
@@ -274,17 +234,6 @@
   "ts" '(hydra-text-scale/body :which-key "scale text"))
 
 
-;; (require 'flx-ido)
-;; (setq ido-enable-flex-maching t)
-;; (setq ido-everywhere t)
-;; (setq ido-create-new-buffer 'always)
-;; (setq ido-ignore-buffers '("\\` " "^\*" "\*.\*~" "#\*.\*#"))
-;; (ido-mode 1)
-;; (require 'ido-vertical-mode)
-;; (ido-mode 1)
-;; (ido-vertical-mode 1)
-;; (setq ido-vertical-define-keys 'C-n-and-C-p-only)
-;; (setq ido-vertical-show-count t)
 (defun eh-ivy-partial-or-done ()
   (interactive)
   (or (ivy-partial)
@@ -358,64 +307,6 @@
   (org-bullets-bullet-list '("◉" "○" "●" "○" "●" "○" "●")))
 
 
-;; (defun efs/lsp-mode-setup ()
-;;   (setq lsp-headerline-breadcrumb-segments '(path-up-to-project file symbols))
-;;   (lsp-headerline-breadcrumb-mode))
-
-;; (use-package lsp-mode
-;;   :commands (lsp lsp-deferred)
-;;   :hook (lsp-mode . efs/lsp-mode-setup)
-;;   :init
-;;   (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
-;;   :config
-;;   (lsp-enable-which-key-integration t))
-
-;; (use-package lsp-ui
-;;   :hook (lsp-mode . lsp-ui-mode)
-;;   :custom
-;;   (lsp-ui-doc-position 'bottom))
-
-;; (use-package lsp-treemacs
-;;   :after lsp)
-
-;; (use-package lsp-ivy
-;;   :after lsp)
-
-;; (use-package typescript-mode
-;;   :mode "\\.ts\\'"
-;;   :hook (typescript-mode . lsp-deferred)
-;;   :config
-;;   (setq typescript-indent-level 2))
-
-;; (use-package python-mode
-;;   :ensure t
-;;   :hook (python-mode . lsp-deferred)
-;;   :custom
-;;   ;; NOTE: Set these if Python 3 is called "python3" on your system!
-;;   (python-shell-interpreter "python3")
-;;   (dap-python-executable "python3")
-;;   (dap-python-debugger 'debugpy)
-;;   :config
-;;   (require 'dap-python))
-
-;; (use-package pyvenv
-;;   :after python-mode
-;;   :config
-;;   (pyvenv-mode 1))
-
-;; (use-package company
-;;   :after lsp-mode
-;;   :hook (lsp-mode . company-mode)
-;;   :bind (:map company-active-map
-;;          ("<tab>" . company-complete-selection))
-;;         (:map lsp-mode-map
-;;          ("<tab>" . company-indent-or-complete-common))
-;;   :custom
-;;   (company-minimum-prefix-length 1)
-;;   (company-idle-delay 0.0))
-
-;; (use-package company-box
-;;   :hook (company-mode . company-box-mode))
 
 (use-package projectile
   :diminish projectile-mode
@@ -444,54 +335,6 @@
 (use-package rainbow-delimiters
   :hook (prog-mode . rainbow-delimiters-mode))
 
-;; (use-package term
-;;   :commands term
-;;   :config
-;;   (setq explicit-shell-file-name "bash") ;; Change this to zsh, etc
-;;   (setq explicit-zsh-args '())         ;; Use 'explicit-<shell>-args for shell-specific args
-
-;;   ;; Match the default Bash shell prompt.  Update this if you have a custom prompt
-;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *"))
-
-;; (use-package eterm-256color
-;;   :hook (term-mode . eterm-256color-mode))
-
-;; (use-package vterm
-;;   :commands vterm
-;;   :config
-;;   (setq term-prompt-regexp "^[^#$%>\n]*[#$%>] *")  ;; Set this to match your custom shell prompt
-;;   (setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
-;;   (setq vterm-max-scrollback 10000))
-
-;; (defun efs/configure-eshell ()
-;;   ;; Save command history when commands are entered
-  ;; (add-hook 'eshell-pre-command-hook 'eshell-save-some-history)
-
-;;   ;; Truncate buffer for performance
-  ;; (add-to-list 'eshell-output-filter-functions 'eshell-truncate-buffer)
-
-;;   ;; Bind some useful keys for evil-mode
-  ;; (evil-define-key '(normal insert visual) eshell-mode-map (kbd "C-r") 'counsel-esh-history)
-  ;; (evil-define-key '(normal insert visual) eshell-mode-map (kbd "<home>") 'eshell-bol)
-  ;; (evil-normalize-keymaps)
-
-  ;; (setq eshell-history-size         10000
-  ;;       eshell-buffer-maximum-lines 10000
-  ;;       eshell-hist-ignoredups t
-  ;;       eshell-scroll-to-bottom-on-input t))
-
-;; (use-package eshell-git-prompt
-  ;; :after eshell)
-
-;; (use-package eshell
-;;   :hook (eshell-first-time-mode . efs/configure-eshell)
-;;   :config
-
-;;   (with-eval-after-load 'esh-opt
-;;     (setq eshell-destroy-buffer-when-process-dies t)
-;;     (setq eshell-visual-commands '("htop" "zsh" "vim")))) 
-
-  ;; (eshell-git-prompt-use-theme 'powerline))
 
 (use-package dired
   :ensure nil
@@ -525,13 +368,6 @@
 
 ;; Make gc pauses faster by decreasing the threshold.
 (setq gc-cons-threshold (* 2 1000 1000))
-;; (defun efs/org-mode-visual-fill ()
-;;   (setq visual-fill-column-width 100
-;;         visual-fill-column-center-text t)
-;;   (visual-fill-column-mode 1))
-
-;; (use-package visual-fill-column
-;;   :hook (org-mode . efs/org-mode-visual-fill))
 
 
 ;; Mis propios ajustes 
@@ -550,23 +386,12 @@
   )
 (global-set-key (kbd "C-{") 'org-insert-inactive-timestamp)
 (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
-;;(global-set-key (kbd "C-}") 'org-agenda)
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
 
 
-;; (require 'powerline)
-;; (powerline-default-theme)
-;; (powerline-center-evil-theme)
 
-;;python-elpy
- ;; (require 'elpy)
- ;; (elpy-enable)
- ;; (setq elpy-rpc-python-command "python3")
 
 (require 'ag)
-;; (projectile-mode +1)
-;; (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
-;; (define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -636,99 +461,159 @@
 (global-set-key (kbd "M-<down>") 'move-line-down)
 
 (desktop-save-mode 1)
-;;(recentf-mode 1)
-;;(setq recentf-max-menu-items 25)
 
-;; (autoload 'tcl-mode "tcl" "Tcl mode." t)
-;; (add-hook 'tcl-mode-hook (lambda () (auto-complete-mode 1)))
-;; (add-hook 'tcl-mode-hook (lambda () (hl-line-mode 1)))
-(autoload 'python-mode' "python" "Python" t)
-(add-hook 'python-mode-hook' (lambda () (auto-complete-mode 1)))
-(add-hook 'python-mode-hook (lambda() (hs-minor-mode)))
-;; (use-package magit
-  ;; :custom
-  ;; (magit-display-buffer-function #'magit-display-buffer-same-window-except-diff-v1))
 
-;; NOTE: Make sure to configure a GitHub token before using this package!
-;; - https://magit.vc/manual/forge/Token-Creation.html#Token-Creation
-;; - https://magit.vc/manual/ghub/Getting-Started.html#Getting-Started
-;;(use-package forge)
+(use-package company
+  :bind (:map company-active-map
+         ("<tab>" . company-indent-or-complete-common))
+  :custom
+  (company-minimum-prefix-length 1)
+  (company-idle-delay 0.0))
+(setq company-idle-delay
+      (lambda () (if (company-in-string-or-comment) nil 0.3)))
+(add-hook 'after-init-hook 'global-company-mode)
+(setq company-tooltip-align-annotations t)
+(setq company-tooltip-limit 4)
+(setq company-tooltip-offset-display 'lines)
+(setq company-tooltip-minimum 4)
+(setq company-tooltip-flip-when-above t)
+(setq company-tooltip-margin 3)
+(setq company-selection-wrap-around t)
 
+
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(company-tooltip ((t (:background "gray14" :foreground "white"))))
+ '(company-tooltip-annotation ((t (:foreground "white"))))
+ '(company-tooltip-common ((t (:weight bold :foreground "white"))))
+ '(company-tooltip-scrollbar-thumb ((t (:background "gray0"))))
+ '(company-tooltip-scrollbar-track ((t (:background "gray0"))))
+ '(company-tooltip-selection ((t (:background "gray20" :foreground "white")))))
+(setq company-text-face-extra-attributes
+      '(:weight bold :slant italic)) 
+(setq company-text-icons-add-background t)
+
+(use-package company-box
+  :hook (company-mode . company-box-mode))
+
+
+(setq company-idle-delay 0
+      company-tooltip-idle-delay 10
+      company-require-match nil
+      company-frontends
+      '(company-pseudo-tooltip-unless-just-one-frontend-with-delay
+        company-preview-frontend
+        company-echo-metadata-frontend)
+      company-backends '(company-capf))
+
+(global-set-key (kbd "<tab>")
+                (lambda ()
+                  (interactive)
+                  (let ((company-tooltip-idle-delay 0.0))
+                    (company-complete)
+                    (and company-candidates
+                         (company-call-frontends 'post-command)))))
+(setq company-tooltip-align-annotations t)
+
+(add-to-list 'company-backends 'company-capf)
+(add-to-list 'company-backends '(company-files company-dabbrev))
+(add-to-list 'company-backends 'company-css)
+(add-to-list 'company-backends '(company-keywords company-dabbrev))
+(add-to-list 'company-backends '(company-jedi company-dabbrev))
+(add-to-list 'company-backends '(company-semantic company-dabbrev))
+(add-to-list 'company-backends '(company-web-html company-dabbrev))
+
+(setq company-dabbrev-other-buffers #'all)
+(setq company-dadbrev-ignore-buffers #'*.org) 
+
+
+(add-hook 'elisp-mode-hook
+  (lambda ()
+    (setq company-backends '(company-capf :with company-files))))
+
+
+
+
+(use-package eglot)
+ (require 'eglot)
+
+(use-package emmet-mode)
+(require 'emmet-mode)
 (use-package web-mode)
  (require 'web-mode)
  (add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
  (add-hook 'web-mode-hook (lambda () (emmet-mode)))
- (add-hook 'web-mode-hook (lambda () (auto-complete-mode 1)))
  (add-hook 'web-mode-hook (lambda () (hl-line-mode 1)))
   (evil-collection-define-key 'normal 'web-mode-map
     "z" 'web-mode-fold-or-unfold
     "q" 'web-mode-navigate)
 (setq web-mode-enable-current-element-highlight 1)
-(global-set-key [f8] 'web-mode-fold-or-unfold)
-(global-set-key [f7] 'web-mode-navigate)
+(setq web-mode-enable-auto-indentation 1)
+(setq web-mode-enable-auto-closing 1)
+(setq web-mode-enable-auto-opening 1)
+(setq web-mode-enable-current-column-highlight 1)
+(setq web-mode-enable-element-tag-fontification 1)
+(setq web-mode-engines-alist
+      '(("jinja2"    . "\\.html\\'"))
+)
+(setq web-mode-markup-indent-offset 2)
+(setq web-mode-css-indent-offset 2)
+(setq web-mode-style-padding 1)
+(setq web-mode-script-padding 1)
+(setq web-mode-block-padding 0)
+(setq web-mode-comment-style 2)
+(setq web-mode-enable-css-colorization t) 
+;; (add-hook 'web-mode-hook (lambda ()
+;;                           (set (make-local-variable 'company-backends) '(company-web-html))
+;;                           (company-mode t)))
 
-;;(global-set-key [f3] 'neotree-toggle)
-;;(global-set-key (kbd "}") 'web-mode-tag-match)
+(add-hook 'css-mode-hook
+            (lambda ()
+              (set (make-local-variable 'company-backends) '(company-web-html))))
 
+(use-package js2-mode)
 (require 'js2-mode)
+(use-package company-flow)
+(require 'company-flow)
+;; (eval-after-load 'company
+;;   (add-to-list 'company-backends 'company-flow))
+(add-hook 'js2
+  (lambda ()
+    (setq company-backends '(company-flow))))
+
+;; defun flow/set-flow-executable ()
+;;   (interactive)
+;;   (let* ((os (pcase system-type
+;;                ('darwin "osx")
+;;                ('gnu/linux "linux64")
+;;                (_ nil)))
+;;          (root (locate-dominating-file  buffer-file-name  "node_modules/flow-bin"))
+;;          (executable (car (file-expand-wildcards
+;;                            (concat root "node_modules/flow-bin/*" os "*/flow")))))
+;;     (setq-local company-flow-executable executable)
+;;     ;; These are not necessary for this package, but a good idea if you use
+;;     ;; these other packages
+;;     (setq-local flow-minor-default-binary executable)
+;;     (setq-local flycheck-javascript-flow-executable executable))
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
-;;(add-hook 'js2-mode-hook 'ac-js2-mode)
+;;(add-hook 'js2-mode-hook #'flow/set-flow-executable t)
 ;; (add-hook 'js2-mode-hook (lambda () (auto-complete-mode 1)))
 
-;; Better imenu
-;; (add-hook 'js2-mode-hook #'js2-imenu-extras-mode)
 
+(use-package python-mode)
+(require 'python-mode)
+(autoload 'python-mode "python-mode" "Python Mode." t)
+ (add-to-list 'auto-mode-alist '("\\.py\\'" . python-mode))
+ (add-to-list 'interpreter-mode-alist '("python3" . python-mode))
+(add-hook 'python-mode-hook (lambda() (hs-minor-mode)))
+(add-hook 'python-mode
+  (lambda ()
+    (set (make-local-variable 'company-backends) '(company-jedi))))
 
-;; org-roam
-;; (use-package org-roam
-;;   :ensure t
-;;   :init
-;;   (setq org-roam-v2-ack t)
-;;   :custom
-;;   (org-roam-directory "~/orgblok/roam")
-;;   (org-roam-completion-everywhere t)
-;;   :bind (("C-c n l" . org-roam-buffer-toggle)
-;; 	 ("C-c n f" . org-roam-node-find)
-;; 	 ("C-c n i" . org-roam-node-insert)
-;; 	 :map org-mode-map
-;; 	 ("C-M-i" . completion-at-point)
-;; 	 )
-;;   )
 (setq org-startup-folded t)
-;; (use-package all-the-icons)
-
-;; (use-package dashboard
-;;   :init      ;; tweak dashboard config before loading it
-;;   (setq dashboard-set-heading-icons t)
-;;   (setq dashboard-set-file-icons t)
-;;   (setq dashboard-banner-logo-title "Emacs Is More Than A Text Editor!")
-;;   ;;(setq dashboard-startup-banner 'logo) ;; use standard emacs logo as banner
-;;   (setq dashboard-startup-banner "~/.emacs.d/emacs-dash.png")  ;; use custom image as banner
-;;   (setq dashboard-center-content nil) ;; set to 't' for centered content
-;;   (setq dashboard-items '((recents . 5)
-;;                           (agenda . 5 )
-;;                           (bookmarks . 3)
-;;                           (projects . 3)
-;;                           (registers . 3)))
-;;   :config
-;;   (dashboard-setup-startup-hook)
-;;   (dashboard-modify-heading-icons '((recents . "file-text")
-;; 			      (bookmarks . "book"))))
-;; make sp-select-next-thing works even the cusor is in the open/close tag
-;; like matchit in vim
-;; @return t => start from open tag; nil start from close tag
-
-;; (use-package undo-tree
-;;   :defer t
-;;   :diminish undo-tree-mode
-;;   :init (global-undo-tree-mode)
-;;   :custom
-;;   (undo-tree-visualizer-diff t)
-;;   (undo-tree-history-directory-alist '(("." . "~/.emacs.d/undo")))
-;;   (undo-tree-visualizer-timestamps t))
-;; -
-;; Fira-Code
-;; Enable the www ligature in every possible major mode
 (ligature-set-ligatures 't '("www"))
 
 ;; Enable ligatures in programming modes                                                           
@@ -752,39 +637,28 @@
 ;;; ace-window
 (global-set-key (kbd "M-o") 'ace-window)
 
-;;; pomidor
-;; (use-package pomidor
-;;   :bind (("<f12>" . pomidor))
-;;   :config (setq pomidor-sound-tick nil
-;;                 pomidor-sound-tack nil)
-;;   :hook (pomidor-mode . (lambda ()
-;;                           (display-line-numbers-mode -1) ; Emacs 26.1+
-;;                           (setq left-fringe-width 0 right-fringe-width 0)
-;;                           (setq left-margin-width 2 right-margin-width 0)
-;;                           ;; force fringe update
-;;                           (set-window-buffer nil (current-buffer)))))
-;; (use-package pomidor
-;;   :bind (("<f12>" . pomidor))
-;;   :config (setq pomidor-sound-tick nil
-;;                 pomidor-sound-tack nil)
-;;   :hook (pomidor-mode . (lambda ()
-;;                           (display-line-numbers-mode -1) ; Emacs 26.1+
-;;                           (setq left-fringe-width 0 right-fringe-width 0)
-;;                           (setq left-margin-width 2 right-margin-width 0)
-;;                           ;; force fringe update
-;;                           (set-window-buffer nil (current-buffer)))))
+;; popper
+(require 'popper)
+(use-package popper
+  :ensure t ; or :straight t
+  :bind (("C-`"   . popper-toggle-latest)
+         ("M-`"   . popper-cycle)
+         ("C-M-`" . popper-toggle-type))
+  :init
+  (setq popper-reference-buffers
+        '("\\*Messages\\*"
+          "Output\\*$"
+          "\\*Async Shell Command\\*"
+          help-mode
+          compilation-mode))
+  (popper-mode +1)
+  (popper-echo-mode +1))         
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; end
 
-;;; END ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(which-key web-mode use-package simpleclip ripgrep rg rainbow-delimiters queue python-mode org-bullets memoize ligature ivy-prescient highlight-indentation general frame-local forge flx evil-smartparens evil-org evil-nerd-commenter evil-matchit evil-leader evil-commentary evil-collection emmet-mode eglot doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company command-log-mode base16-theme auto-package-update auto-complete atom-one-dark-theme atom-dark-theme all-the-icons-ivy-rich all-the-icons-ivy all-the-icons-ibuffer all-the-icons-dired ag)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+   '(popper company-web-html which-key web-mode use-package skewer-mode simpleclip rg rainbow-delimiters popup org-bullets no-littering ligature ivy-rich ivy-prescient hydra general forge evil-nerd-commenter evil-leader evil-collection emmet-mode eglot doom-themes doom-modeline dired-single dired-open dired-hide-dotfiles counsel-projectile company-web company-jedi company-flow company-box command-log-mode atom-dark-theme all-the-icons-dired ag ace-window)))

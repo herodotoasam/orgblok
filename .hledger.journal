@@ -12669,3 +12669,11 @@ D $1000.00
 2022-09-29 menu
     expenses:comida            $700
     assets:caja               $-700
+
+2022-09-30 carla
+    expenses:limpieza            3500
+    assets:caja                 -3500
+
+2022-10-02 ih
+    expenses:isabel           12000
+    assets:caja              -12000
