@@ -3,12 +3,21 @@
 
 ** pendientes completion - lsp etc
 
+
+sin lsp andan mejor las completiones
 *** css no anda
+lo hice andar con el js-ts pero hay que tomarle la vuelta, anda
+completion y flymake.
 
 *** html no es funcional
+*** js anda mas o menos
+anda el dabbrev y mescla con elisps creo
 
 ** python no lo implemente todavia
 pero anda bien el dabbrev.
+luego de renegar bastante tratando de portar doom en la parte de
+configuracion de lsp de python, abandone y puse eglot que funciona
+bien para python, pero todavia no le encuentro el arranque a algunas cosas.
 
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -80,11 +89,14 @@ calcular.
 ** semana [2022-10-02 Sun]
 *** [2022-10-02 Sun]
 :LOGBOOK:
+CLOCK: [2022-10-02 Sun 22:35]--[2022-10-02 Sun 23:07] =>  0:32
+CLOCK: [2022-10-02 Sun 19:50]--[2022-10-02 Sun 22:33] =>  2:43
+CLOCK: [2022-10-02 Sun 19:32]--[2022-10-02 Sun 19:49] =>  0:17
 CLOCK: [2022-10-02 Sun 14:25]--[2022-10-02 Sun 16:57] =>  2:32
 mas tuneado
 CLOCK: [2022-10-02 Sun 13:40]--[2022-10-02 Sun 14:25] =>  0:45
 intento instalar web-mode
-CLOCK: [2022-10-02 Sun 12:10]--[2022-10-02 Sun 12:-26] =>  0:16
+CLOCK: [2022-10-02 Sun 12:10]--[2022-10-02 Sun 12:26] =>  0:16
 CLOCK: [2022-10-02 Sun 11:35]--[2022-10-02 Sun 12:10] =>  0:35
 CLOCK: [2022-10-02 Sun 09:20]--[2022-10-02 Sun 11:35] =>  2:15
 instale todo de nuevo con la base de un sistema separado
