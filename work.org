@@ -1,24 +1,18 @@
 
 * agenda emacs
-
 ** pendientes completion - lsp etc
-
-
 sin lsp andan mejor las completiones
 *** css no anda
 lo hice andar con el js-ts pero hay que tomarle la vuelta, anda
 completion y flymake.
-
 *** html no es funcional
 *** js anda mas o menos
 anda el dabbrev y mescla con elisps creo
-
 ** python no lo implemente todavia
 pero anda bien el dabbrev.
 luego de renegar bastante tratando de portar doom en la parte de
 configuracion de lsp de python, abandone y puse eglot que funciona
 bien para python, pero todavia no le encuentro el arranque a algunas cosas.
-
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -47,6 +41,21 @@ demas se baje despues.
 atrasado
 ** DONE listado de ultima cuota no atrasados en general
 pienso que tendria que ser global para trabajar mas rapido.
+** DONE vista en Card para los que cancelaron con fines de aprobacion
+CLOSED: [2022-10-03 Mon 11:58]
+:LOGBOOK:
+- State "DONE"       from "CANCEL"     [2022-10-03 Mon 11:58]
+:END:
+ahora voy a hacer una vista para cuando no tienen deuda de status con
+tags-addons devuelta-0 condonado-1 planpago-1
+envolveria agregar campos en tabla clientes y triggers
+dias de atraso
+ver la posibilidad de hacer otro campo llamado atrasos y trigeriar
+desde pagos a medida que se pague el atraso pero es dificil de
+calcular.
+
+** DONE contador de billetes
+CLOSED: [2022-10-03 Mon 16:16]
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -72,21 +81,40 @@ botones, etc. muchas otras cosas que podre ir agregando.
 ** TODO cuadro de resultado mensual
 con vista ordenada de ingresos y egresos
 ** TODO acceso a la ficha individual desde fichaje
-** TODO contador de billetes
 ** TODO hacer una columna recargo tomando la inflacion real
+** TODO analizar diferenciar en pagadas las atrasadas
+o sea las que se pagaron despues del vto
 ** TODO modificar la funcion totalizar para aceptar arg columnas
-** TODO vista en Card para los que cancelaron con fines de aprobacion
-ahora voy a hacer una vista para cuando no tienen deuda de status con
-tags-addons devuelta-0 condonado-1 planpago-1
-envolveria agregar campos en tabla clientes y triggers
-dias de atraso
-ver la posibilidad de hacer otro campo llamado atrasos y trigeriar
-desde pagos a medida que se pague el atraso pero es dificil de
-calcular.
-
+hasta ahora un paso gigante pq mediante clases en el th defino si la
+columna se suma, y puedo poner al subtotal tambien las clases de los
+td qeu contiene la columna.
+Habria que ver si podemos definir el sistema de ordenado en forma
+automatica o por class tambien y quedar con una sola forma para el usuario.
+O sea una tabla con unos pocos toques mas de configuracion y queda
+muchisimo mas exacta en su disposicion
+Ver de hacer que si ya hay un subtotal no hagamos otro sino que
+reusemos ese mismo o lo borremos primero.
+Alli hice una tentativa de comprobacion si el idtable existe o no para
+capturar errores, seguir con eso.
 * agenda de actividad
 
 ** semana [2022-10-02 Sun]
+*** [2022-10-03 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-03 Mon 20:35]--[2022-10-03 Mon 20:57] =>  0:22
+CLOCK: [2022-10-03 Mon 18:44]--[2022-10-03 Mon 20:14] =>  1:30
+trabajando arduo en el totalizado
+CLOCK: [2022-10-03 Mon 14:44]--[2022-10-03 Mon 16:16] =>  1:32
+terminado el contador de billetes.
+CLOCK: [2022-10-03 Mon 12:49]--[2022-10-03 Mon 14:35] =>  1:46
+CLOCK: [2022-10-03 Mon 12:03]--[2022-10-03 Mon 12:28] =>  0:25
+CLOCK: [2022-10-03 Mon 11:32]--[2022-10-03 Mon 11:58] =>  0:26
+con este addtag atrasos termino la info de cancelados con funcion a
+analizar una venta.
+CLOCK: [2022-10-03 Mon 09:15]--[2022-10-03 Mon 11:27] =>  2:12
+agregue campos en ventas y clientes para calcular el atraso del pago
+final de una cuenta con sus correspondientes triggers y los subi al servidor.
+:END:
 *** [2022-10-02 Sun]
 :LOGBOOK:
 CLOCK: [2022-10-02 Sun 22:35]--[2022-10-02 Sun 23:07] =>  0:32
@@ -451,3 +479,11 @@ agregar mas mensajes programables y poner un dropdown
    servicio como esta hecho en apache, e hice que el backup se haga
    por hora.
    :END:
+* agenda
+**** llevar bici fede
+**** comprar agua kangoo
+**** llevar kangoo mecanico
+**** inflar gomas kangoo
+**** comprar guantes carla
+**** arreglar fibertel vencio la promocion
+**** pagar impuesto kangoo en ag

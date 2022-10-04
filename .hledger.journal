@@ -12677,3 +12677,55 @@ D $1000.00
 2022-10-02 ih
     expenses:isabel           12000
     assets:caja              -12000
+
+2022-10-03 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-10-03 comida cami
+    expenses:cami:comida           10500
+    assets:caja                   -10500
+
+2022-10-03 menu
+    expenses:comida            $700
+    assets:caja               $-700
+
+2022-10-03 farmacia hp
+    expenses:gastos medicos:farmacia            1660
+    assets:caja                                -1660
+
+2022-10-03 ih tn
+    expenses:isabel           59946
+    assets:caja              -59946
+
+2022-10-03 dgr-casa
+    expenses:impuestos:casa:dgr            1468
+    assets:caja                           -1468
+
+2022-10-03 ecogas
+    expenses:servicios:ecogas            5204
+    assets:caja                         -5204
+
+2022-10-03 fibertel
+    expenses:servicios:fibertel            4886
+    assets:caja                           -4886
+
+2022-10-03 epec
+    expenses:servicios:epec            6241
+    assets:caja                       -6241
+
+2022-10-03 saco reserva
+    assets:caja             100000
+    assets:reserva         -100000
+
+2022-10-03 saco reserva
+    assets:caja              38000
+    assets:reserva          -38000
+
+2022-09-23 mesada cami
+    expenses:cami:mesada           $3000
+    assets:caja                   $-3000
+
+2022-09-23 comida cami
+    expenses:cami:comida            9000
+    assets:caja                    -9000
