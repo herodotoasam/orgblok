@@ -13,7 +13,7 @@ sudo netfilter-persistent save
 php -v
 sudo systemctl restart apache2
 ** test de ip on the browser to see the apache index page
-** sudo apt install apache2-dev libapache2-mod-wsgi-py3 
+** sudo apt install apache2-dev libapache2-mod-wsgi-py3
 ** crear los directorios en /var/www/
 /var/www/webApp y /var/www/webApp/webApp
 ** chown y chmod 755 a los directorios /var/www/
@@ -22,7 +22,7 @@ sudo systemctl restart apache2
    sudo pip3 install flask
    sudo pip3 install flask_sqlalchemy
    sudo pip3 install mysql-connector-python
-** configure y enable virtual host en apache 
+** configure y enable virtual host en apache
    sudo vim /etc/apache2/sites-avalaible/webApp.conf
 
    <VirtualHost *:80>
@@ -45,7 +45,7 @@ sudo systemctl restart apache2
 
 Cambiarle la ip y ponerle la verdadera ip
 hacer el directorio static en webApp.
-** sudo a2ensite webApp 
+** sudo a2ensite webApp
 luego sudo systemctl reload apache2
 ** hacer el archivo webapp.wsgi en /var/www/webApp/
 #!/usr/bin/python3
@@ -60,7 +60,7 @@ application.secret_key = 'Add your secret key'
    recordar que app.py debe llamarse __init__.py
 **  crear la base de datos mysql
 *** instalar mariadb
-**** primero 
+**** primero
 sudo apt -y update
 sudo apt -y install software-properties-common gnupg2
 sudo apt -y upgrade
@@ -92,7 +92,7 @@ add-apt-repository "deb [arch=amd64] http://mariadb.mirror.liquidtelecom.com/rep
     entro como
     mysql -p
     y pongo la password
-*** cuidado con sqlalchemy y los users 
+*** cuidado con sqlalchemy y los users
     pq usa un usuario tipo hero@localhost
     me paso que no me aceptaba la coneccion, y creo el usuario pero
     ese usuario descubro despues de mucho debug que no tenia el grant
@@ -103,7 +103,7 @@ add-apt-repository "deb [arch=amd64] http://mariadb.mirror.liquidtelecom.com/rep
 * bajar archivo del server
 ** scp  -P 5657 root@168.181.186.241:/var/www/webApp/webApp/__init__.py ~/anki/__init__.py
 desde nuestra maquina ubicamos el archivo que queremos bajar y ponemos
-el nombre que le vamos a asignar y listo. 
+el nombre que le vamos a asignar y listo.
 
 Util para bajar el backup de la base de datos.
 ** scp -P 5088 root@179.43.127.47:/root/backup.sql ~/backup.sql
@@ -182,3 +182,14 @@ httpd_can_network_connect_db --> off
 [root@fedora hero]# getsebool httpd_can_network_connect_db
 httpd_can_network_connect_db --> on
 [root@fedora hero]# systemctl restart httpd
+* problemas para importar un csv
+LOAD DATA LOCAL INFILE  'c:/tmp/discounts.csv'
+INTO TABLE discounts
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+usar data local
+LOAD DATA LOCAL INFILE 'file_name' INTO TABLE table_name
+
+sino usamos data local nos da problemas de permisos.

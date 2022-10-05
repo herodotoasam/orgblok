@@ -1,5 +1,5 @@
-*~
-\#*#
-\.#*
-data*
-TAGS
+  /home/hero/orgblok:
+  wildcard .gitignore
+  -rw-rw-r--. 1 hero 24 2022-09-20 10:30 .gitignore
+  .vim/
+  .vscode/

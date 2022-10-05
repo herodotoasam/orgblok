@@ -1,4 +1,3 @@
-
 * agenda emacs
 ** pendientes completion - lsp etc
 sin lsp andan mejor las completiones
@@ -8,11 +7,46 @@ completion y flymake.
 *** html no es funcional
 *** js anda mas o menos
 anda el dabbrev y mescla con elisps creo
-** python no lo implemente todavia
+*** python no lo implemente todavia
 pero anda bien el dabbrev.
 luego de renegar bastante tratando de portar doom en la parte de
 configuracion de lsp de python, abandone y puse eglot que funciona
 bien para python, pero todavia no le encuentro el arranque a algunas cosas.
+ayer que trabaje una funcion en python anduvo extremadamente lento y
+las completiones no eran adecuadas. flymake no funciona. pero las
+letras funcionan bien y lindo.
+*** status al [2022-10-04 Tue]
+implemente un nuevo completion con lsp
+css no andaba bien pq usaba el mode built in en vez del bajado de
+melpa
+js anda joya
+elisp anda joya
+py anda joya
+todos esos tienen autocompletion con tab, y dabbrev con C-/.
+solo html tiene dabbrev solo, y el tab hace un tipo de snippet.
+Estoy en corfu y de apoco hay mucho para avanzar en eso.
+css aunque muestra las propiedades no es funcional 100%
+ahora que bindie el dabbrev a M-j todo va mejor pq html hace menu de
+eso y org tambien. los otros no lo necesitan.
+descubri que con elisps-major-mode se puede evaluar una region y alli
+mismo aplicar un cambio.
+tendria que cambiar el el bind 0 pq esta en la memoria como ir al
+principio de linea.
+implemente un autosave pero todavia no veo que funcione en absoluto
+*** status al [2022-10-05 Wed]
+luego de una hora y media probando todo el ecosistema de vertico, no
+logro hacerlo funcionar en el minibuffer. o sea funciona aparentemente
+igual que si estuviese corfu solo
+hasta ahora corfu+abbrev funciona css/py/html pero no js como funciono
+en un momento no se cuando.
+
+** al cambiar theme hay problemas
+solucionaron al eliminar los paquetes de letras pero me quede con
+menos opcione, creo que hay que enriquecer un poco el tema fonts
+** problemas con undo
+anda para dos o tres cambios y luego lastimosamente no anda mas.
+instale vundo - space-v
+
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -56,6 +90,37 @@ calcular.
 
 ** DONE contador de billetes
 CLOSED: [2022-10-03 Mon 16:16]
+** DONE modificar la funcion totalizar para aceptar arg columnas
+CLOSED: [2022-10-04 Tue 13:06]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-10-04 Tue 13:06]
+:END:
+hasta ahora un paso gigante pq mediante clases en el th defino si la
+columna se suma, y puedo poner al subtotal tambien las clases de los
+td qeu contiene la columna.
+Habria que ver si podemos definir el sistema de ordenado en forma
+automatica o por class tambien y quedar con una sola forma para el usuario.
+O sea una tabla con unos pocos toques mas de configuracion y queda
+muchisimo mas exacta en su disposicion
+
+Ver de hacer que si ya hay un subtotal no hagamos otro sino que
+reusemos ese mismo o lo borremos primero.
+
+Alli hice una tentativa de comprobacion si el idtable existe o no para
+capturar errores, seguir con eso.
+
+ver si se puede sacar el css-class pesos del tr y hago un Q global
+sumar numeric por sumar numeric pesos. No se pudo!. Habra que updatear
+a mano los campos que queramos de a poco.
+
+ver si se puede agregar un miniicon al sort.
+en realidad tendria que estar solo en el th que esta sorteado.
+** DONE analizar diferenciar en pagadas las atrasadas
+CLOSED: [2022-10-04 Tue 15:49]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-10-04 Tue 15:49]
+:END:
+o sea las que se pagaron despues del vto
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -81,24 +146,50 @@ botones, etc. muchas otras cosas que podre ir agregando.
 ** TODO cuadro de resultado mensual
 con vista ordenada de ingresos y egresos
 ** TODO acceso a la ficha individual desde fichaje
-** TODO hacer una columna recargo tomando la inflacion real
-** TODO analizar diferenciar en pagadas las atrasadas
-o sea las que se pagaron despues del vto
-** TODO modificar la funcion totalizar para aceptar arg columnas
-hasta ahora un paso gigante pq mediante clases en el th defino si la
-columna se suma, y puedo poner al subtotal tambien las clases de los
-td qeu contiene la columna.
-Habria que ver si podemos definir el sistema de ordenado en forma
-automatica o por class tambien y quedar con una sola forma para el usuario.
-O sea una tabla con unos pocos toques mas de configuracion y queda
-muchisimo mas exacta en su disposicion
-Ver de hacer que si ya hay un subtotal no hagamos otro sino que
-reusemos ese mismo o lo borremos primero.
-Alli hice una tentativa de comprobacion si el idtable existe o no para
-capturar errores, seguir con eso.
-* agenda de actividad
+** BUG  luego de un sort y refresh sigue quedando el ultimo icon
+tiene que haber una forma de limpiar.
 
+** TODO hacer una columna recargo tomando la inflacion real
+lo primero que necesito es una tabla de valores.
+* agenda de actividad
 ** semana [2022-10-02 Sun]
+*** [2022-10-05 Wed]
+:LOGBOOK:
+CLOCK: [2022-10-05 Wed 10:43]--[2022-10-05 Wed 12:30] =>  1:47
+hice el proceso para mostrar las cuotas por inflacion
+CLOCK: [2022-10-05 Wed 10:16]--[2022-10-05 Wed 10:40] =>  0:24
+emacs- vertico again
+CLOCK: [2022-10-05 Wed 08:57]--[2022-10-05 Wed 10:01] =>  1:04
+hice la tabla de inflacion
+CLOCK: [2022-10-05 Wed 07:20]--[2022-10-05 Wed 08:45] =>  1:25
+emacs- vertico y corfu
+:END:
+*** [2022-10-04 Tue]
+:LOGBOOK:
+CLOCK: [2022-10-04 Tue 22:20]--[2022-10-04 Tue 23:10] =>  0:50
+CLOCK: [2022-10-04 Tue 21:12]--[2022-10-04 Tue 22:20] =>  1:08
+CLOCK: [2022-10-04 Tue 18:00]--[2022-10-04 Tue 20:18] =>  2:18
+emacs configuration
+CLOCK: [2022-10-04 Tue 15:50]--[2022-10-04 Tue 16:30] =>  0:40
+revision de modulos en emacs descartando lo que no uso
+CLOCK: [2022-10-04 Tue 15:30]--[2022-10-04 Tue 15:50] =>  0:20
+CLOCK: [2022-10-04 Tue 13:05]--[2022-10-04 Tue 14:23] =>  1:18
+terminado la diferenciacion de las pagadas, reniego con un supuesto
+tooltip que no estaba en las especificaciones.
+CLOCK: [2022-10-04 Tue 11:15]--[2022-10-04 Tue 12:01] =>  0:46
+se agrego el iconito en forma muy profesional!!
+CLOCK: [2022-10-04 Tue 10:21]--[2022-10-04 Tue 11:03] =>  0:42
+agregando class pesos a mano- tedioso-
+CLOCK: [2022-10-04 Tue 08:36]--[2022-10-04 Tue 10:10] =>  1:34
+hice la unificacion de los sorts en un solo toggle con click
+entro en la tediosa parte de cargar en todas las tablas las clases
+CLOCK: [2022-10-04 Tue 08:01]--[2022-10-04 Tue 08:36] =>  0:35
+comienzo con totalizar-ultima parte
+por el momento esta listo. faltaria ver el bug cuando se presente
+CLOCK: [2022-10-04 Tue 07:50]--[2022-10-04 Tue 08:01] =>  0:11
+CLOCK: [2022-10-04 Tue 07:30]--[2022-10-04 Tue 07:50] =>  0:20
+revision infructuosa de emacs para poner jedi en python
+:END:
 *** [2022-10-03 Mon]
 :LOGBOOK:
 CLOCK: [2022-10-03 Mon 20:35]--[2022-10-03 Mon 20:57] =>  0:22
@@ -481,9 +572,6 @@ agregar mas mensajes programables y poner un dropdown
    :END:
 * agenda
 **** llevar bici fede
-**** comprar agua kangoo
 **** llevar kangoo mecanico
 **** inflar gomas kangoo
-**** comprar guantes carla
 **** arreglar fibertel vencio la promocion
-**** pagar impuesto kangoo en ag
