@@ -39,6 +39,28 @@ logro hacerlo funcionar en el minibuffer. o sea funciona aparentemente
 igual que si estuviese corfu solo
 hasta ahora corfu+abbrev funciona css/py/html pero no js como funciono
 en un momento no se cuando.
+luego que empece a trabajar funciono todo joya. Solo tengo corfu y
+dabbrev, puse marginalia y no cambio nada ni para bien ni para mal.
+Ya que ese funciona puedo probar copias de ese sabiendo que el corfu
+original anda bien. A partir de ahora quiero modularizar todo para que
+sea facil cambiar y volver a lo anterior. Como el tema de las fonts.
+termino con corfu2 integrando todos los paquetes, me falta solo
+cape. y todo anda bien, solo algunas cositas en consult para facilitar
+la seleccion dentro del buffer y no anda orderless pq no puedo hacer
+un espacio todavia.
+*** status al [2022-10-06 Thu]
+pude hacer andar el combo vertico-corfu-orderless. El problema era que
+editaba el completion-corfu2.el y en el init estaba el corfu.el o sea
+los cambios nunca se iban a levantar. Hay que acostumbrarse.
+Creo que lo unico que me faltaria es projectile para navegar mas
+rapido en los archivos del project.
+Ahora con un par de funciones de projectile anda barbaro.
+Tendria que habilitar treemacs en forma correcta es decir que corra
+con el directorio en curso y abra subdirectorios. pe quiero el file
+planillas.html y no se en que carpeta esta.
+la solucion esta en dired.
+al final la opcion que mejor anda es la prot-emacs-completion que
+busca fuzzy al toque.
 
 ** al cambiar theme hay problemas
 solucionaron al eliminar los paquetes de letras pero me quede con
@@ -149,12 +171,35 @@ con vista ordenada de ingresos y egresos
 ** BUG  luego de un sort y refresh sigue quedando el ultimo icon
 tiene que haber una forma de limpiar.
 
+** BUG [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
+suma queda
 ** TODO hacer una columna recargo tomando la inflacion real
 lo primero que necesito es una tabla de valores.
+derivados: actualizar los montos comprados y hacer un tag de monto
+comprado actualizado. Listo.
 * agenda de actividad
 ** semana [2022-10-02 Sun]
+*** [2022-10-06 Thu]
+:LOGBOOK:
+CLOCK: [2022-10-06 Thu 19:15]--[2022-10-06 Thu 19:40] =>  0:25
+mas configuracion de emacs
+CLOCK: [2022-10-06 Thu 18:45]--[2022-10-06 Thu 19:12] =>  0:27
+emacs cape y affe le voy encontrando la vuelta a la busqueda
+CLOCK: [2022-10-06 Thu 11:50]--[2022-10-06 Thu 12:47] =>  0:57
+varios entre trabajos de fedesal y emacs
+CLOCK: [2022-10-06 Thu 10:48]--[2022-10-06 Thu 11:48] =>  1:00
+puse a punto orderless y corregi bug de actualizacion sin tener en
+cuenta condonados/devueltas y pp.
+:END:
 *** [2022-10-05 Wed]
 :LOGBOOK:
+CLOCK: [2022-10-05 Wed 16:38]--[2022-10-05 Wed 17:20] =>  0:42
+emacs vertico-consult
+CLOCK: [2022-10-05 Wed 15:35]--[2022-10-05 Wed 16:10] =>  0:35
+temas varios
+CLOCK: [2022-10-05 Wed 14:34]--[2022-10-05 Wed 15:34] =>  1:00
+emacs counsil
+CLOCK: [2022-10-05 Wed 14:16]--[2022-10-05 Wed 14:22] =>  0:06
 CLOCK: [2022-10-05 Wed 10:43]--[2022-10-05 Wed 12:30] =>  1:47
 hice el proceso para mostrar las cuotas por inflacion
 CLOCK: [2022-10-05 Wed 10:16]--[2022-10-05 Wed 10:40] =>  0:24
