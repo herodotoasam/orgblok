@@ -601,3 +601,4 @@ en especial MsMi y varias para ver
 en especial ir hacia la definicion
 * lsp - space l  y de alli veo las opciones
 * Ctrl X- TAB indentacion
+* Ctrl X- v = diff del buffer actual

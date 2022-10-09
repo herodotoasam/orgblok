@@ -254,6 +254,14 @@ me ponga el dni en el campo buscar.
 ** semana [2022-10-09 Sun]
 *** [2022-10-09 Sun]
 :LOGBOOK:
+CLOCK: [2022-10-09 Sun 16:05]--[2022-10-09 Sun 16:47] =>  0:42
+funciona crypt - recupere la clave hay que usar las herramientas de
+busqueda dentro de org.
+CLOCK: [2022-10-09 Sun 15:35]--[2022-10-09 Sun 16:05] =>  0:30
+hago changelog y pruebo crypt sin resultados
+CLOCK: [2022-10-09 Sun 14:40]--[2022-10-09 Sun 15:35] =>  0:55
+interesante incorporacion de un addon de pass para firefox. Con tiempo
+seguire importando las pass desde firefox para tenerlas en pass
 CLOCK: [2022-10-09 Sun 14:15]--[2022-10-09 Sun 14:37] =>  0:22
 clave exportada y llevada a orgblok - perdida de tiempo intentando
 recuperar una vieja clave(frase olvidada)
@@ -746,3 +754,13 @@ agregar mas mensajes programables y poner un dropdown
 **** llevar kangoo mecanico
 **** inflar gomas kangoo
 **** arreglar fibertel vencio la promocion
+* changelog
+** pass
+** epa
+posibilidad de encryptar archivos o partes directamente en emacs
+** vterm-multi-vterm
+** hledger
+** ef-themes modus-themes ef-frost!
+** acceso a ssh
+** treemacs
+** vertico-ordeless-corfu-cape-embark etc.

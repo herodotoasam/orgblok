@@ -1,4 +1,18 @@
-* emai:clave:
+
+* gpg
+
+** ss
+:PROPERTIES:
+:clave Eva=tj18975**/
+:END:
+
+** ha
+:PROPERTIES:
+:clave Eva=tj18975
+:END:
+
+
+* emails:
 ** cobrozonalcba@gmail.com
    clave ataraxia76
    telefono contacto 3513882892
@@ -63,14 +77,14 @@ servicio 21500964
 0043431725
 * ih ciudadano municipal
 ** usuario heredie150
-clave Ataraxia76 
+clave Ataraxia76
 ** isabel
 clave 69920381Isabel
 PIN 0162
 ** sergio
 clave Eva=tj18975
 PIN 7253
-* kamatera 
+* kamatera
 inicio hfj024 por chrome
 server rxcba - Ataraxia76cordoba
 * moodle
@@ -78,7 +92,7 @@ admin/ Ataraxia76*
 * ospe
 Ataraxia76.
 * autoahorro volkwagen
-  cuil romi 27-9 y Ataraxia76 grupo 3498 orden 014 
+  cuil romi 27-9 y Ataraxia76 grupo 3498 orden 014
   termina el 29/01/23
 * uala
   189754
