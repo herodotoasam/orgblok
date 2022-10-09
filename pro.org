@@ -21,12 +21,12 @@
 *** [2020-07-16 Thu]
     :LOGBOOK:
     :CLOCK: [2020-07-16 Thu 11:18]--[2020-07-16 Thu 12:43] =>  1:25
-   
+
     :END:
 *** [2020-07-17 Fri]
     :LOGBOOK:
     :CLOCK: [2020-07-17 Fri 10:18]--[2020-07-17 Fri 12:56] =>  2:38
-    :END:      
+    :END:
 *** [2020-07-18 Sat]
     :CLOCK: [2020-07-18 Sat 18:23]--[2020-07-18 Sat 19:40] =>  1:17
     :CLOCK: [2020-07-18 Sat 12:26]--[2020-07-18 Sat 12:50] =>  0:24
@@ -185,7 +185,7 @@
     :LOGBOOK:
     :CLOCK: [2020-08-31 lun 09:37]--[2020-08-31 lun 10:52] =>  1:15
     :END:
-** Setiembre 2020 
+** Setiembre 2020
 *** [2020-09-01 mar]
     :LOGBOOK:
     :CLOCK: [2020-09-01 mar 11:26]--[2020-09-01 mar 12:42] =>  1:16
@@ -319,7 +319,7 @@ que no tenia por ahi.
 :CLOCK: [2020-05-06 mié 19:24]--[2020-05-06 mié 20:34] =>  1:10
 :END:
 resuelto, sacado los campos que estaban de mas, lo cual alivio la
-consulta que paso de tres tablas a una sola. 
+consulta que paso de tres tablas a una sola.
 **** bonus final del dia
 :LOGBOOK:
 :CLOCK: [2020-05-06 mié 21:00]--[2020-05-06 mié 21:59] =>  0:59
@@ -368,7 +368,7 @@ FROM users WHERE name = 'marco';
 :CLOCK: [2020-05-07 jue 14:00]--[2020-05-07 jue 14:55] =>  0:55
 :END:
 ****** problemas presentados
-******* columna dni cambiado de tipo 
+******* columna dni cambiado de tipo
 alter table clientes
 alter column dni set data type text;
 sino no entra el texto codificado
@@ -390,8 +390,8 @@ sudo apt install pgmodeler
 y las relaciones con calles iran por id.
 Terminado trabajosamente el primer modelo
 cli_data/calles/barrios/zonas con los campos adecuados para recibir
-los datos encriptados. No pude cargarlo automaticamente pero con 
-psql rx -f schema.sql 
+los datos encriptados. No pude cargarlo automaticamente pero con
+psql rx -f schema.sql
 lo hago facilmente y rapido y me da info que yo puedo procesar.
 ****** carga de datos desde romitex.db a set cli_data
 :LOGBOOK:
@@ -427,7 +427,7 @@ y asi no podran contactar desde afuera a la base de datos local
 sudo systemctl restart mysql
 sudo systemctl enable mysql
 verificar si esta recibiendo conecciones a 0.0.0.0
-con 
+con
 ss -ltn
 sudo ufw allow from any to any port 3306 proto tcp
 [[https://linuxconfig.org/install-mysql-on-ubuntu-20-04-lts-linux][pagina donde se explica el proceso]]
@@ -479,7 +479,7 @@ lo descubri por casualidad pq el manual decia que era para mac.
 ****** error en el LOAD DATA POR el local-infile
 editar /etc/mysql/mysql.conf.d/mysqld.cnf
 agregar al final
-[client]  
+[client]
 local_infile=1
 eso hace que a nivel server autorice el load-file
 ****** intento hacer los archivos csv con tcl EXCELENTE!!!!
@@ -523,7 +523,7 @@ o sea hacerlo una vez cargada la base en mysql localmente.
 doy por concluido momentaneamente el tema por un problema circular.
 la columna que contenga el resultado de un AES_ENCRYPT tiene que ser
 blob pero si la hago blob el contenido del campo se muestra mal y se
-va a encriptar mal. 
+va a encriptar mal.
 Vamos a debilitar el proceso por buscar un tipo de encriptamiento que
 no se puede hacer.
 ***** install phpmyadmin
@@ -585,14 +585,14 @@ encuentro fk de barrios pero habia de ahi tambien
 creo que es el puts newline del puts file
 arreglado con el puts -nonewline
 *** [2020-05-10 dom]
-**** evaluar el hacer script llano de subida 
+**** evaluar el hacer script llano de subida
 :LOGBOOK:
 :CLOCK: [2020-05-10 dom 09:58]--[2020-05-10 dom 13:17] =>  3:19
 :END:
 termino la tabla clientes completa primero
 DOY POR TERMINADO EL DESARROLLO en mysql pq no es factible hacer el
 paso de los datos.
-**** reinicio con postgres 
+**** reinicio con postgres
 :LOGBOOK:
 :CLOCK: [2020-05-10 dom 14:04]--[2020-05-10 dom 15:37] =>  1:33
 :END:
@@ -755,7 +755,7 @@ tablas o sea adquirir mas conocimiento en el manejo de eloquent para
 lograr tener la bd postgres igual que la generada y poder traspasar
 Los datos correctamente para comenzar a trabajar. - pausa
 hice los migrate de tres tablas con sus relaciones, vamos barbaro,
-seguire con las tablas a ver como vamos. 
+seguire con las tablas a ver como vamos.
 OJO CON LOS ERRORES LA MAYORIA SON ERRORES DE TIPEADO. PERO PIERDO
 TIEMPO BUSCANDO EN INTERNET Y NO OBTENGO RESULTADO Y ES PQ EL ERROR ES
 MIO.
@@ -861,7 +861,7 @@ aunque la basica que viene con laravel no me disgusta pero las hay mas
 profe.
 interesante el avance de hoy, pq veo que tendria un esqueleto para
 desarrollar en paginas individuales que luego se pondrian u
-organizarian en una plantilla adecuada y se regularia por permisos. 
+organizarian en una plantilla adecuada y se regularia por permisos.
 Tambien falta aprender mucho mas de DB y descubri el tinker que es
 como una consola que permite probar el eloquent.
 *** [2020-05-20 mié]
@@ -919,7 +919,7 @@ funcionaba cuando todo parecia pefecto y era un par de errores que
 corregi con firefox que no tenian nada que ver.
 esta mañana me hizo renegar un poco el select de semantic asi que tuve
 que poner el datatable con bootstrap y no queda mal, y todo lo otro
-con semantic, y creo que queda bien. 
+con semantic, y creo que queda bien.
 Bueno creo que todo es un gran aprendizaje, que quedara plasmado en
 las lineas de codigo que se hagan y lo que se aprenda, es imposible
 con el cansancio del dia exponerlas aca.
@@ -1032,7 +1032,7 @@ bastante bien tambien el tema de la seleccion del articulo y el
 agregado del articulo el form paso de ventas que creo que esta
 expresado en su funcionalidad, faltan detalles pero creo que va a
 andar.
-Falta mucho por aprender todavia. 
+Falta mucho por aprender todavia.
 *** [2020-05-28 jue]
 :LOGBOOK:
 :CLOCK: [2020-05-28 jue 17:14]--[2020-05-28 jue 18:06] =>  0:52
@@ -1150,9 +1150,9 @@ acrecentando el conocimiento acumulado.
 :CLOCK: [2020-06-01 lun 11:09]--[2020-06-01 lun 12:34] =>  1:25
 :END:
 creado laravel-vue-spa con gran problematica con npm run dev resuelto
-en troubleshooting. 
+en troubleshooting.
 visto video 18 de vue donde profundizamos la creacion de rutas para
-construir un SPA single page aplication. 
+construir un SPA single page aplication.
 Esta mañana lei sobre blaze (reemplazo de vue) y meteor (reemplazo de
 laravel) y por suerte no profundice en ese camino que es opuesto a lo
 que vengo haciendo. y anoche lo dedique a foundation que en cierta
@@ -1164,7 +1164,7 @@ falta de mantenimiento y su complejidad. O sea si ya es un proyecto
 abandonado, imaginate que no puedo desarrollar con el. Yo en cierta
 forma estoy desarrollando ahora para los proximos años no puedo
 basarme en algo que da errores que no tiene mantenimiento. Por mas que
-tenga algunas caracteristicas lindas. 
+tenga algunas caracteristicas lindas.
 El proyecto tiene un movimiento de desarrollo impresionante en la
 actualidad por lo cual, creo que no hay que pensarlo mucho, sin
 problemas de integracion al menos en el proyecto de vue con vuikit.
@@ -1201,7 +1201,7 @@ gusta mas Bulma pero hay casi nula documentacion, tanto en video como
 en web para seguir adelante. Lo que esta casi finiquitado es que debo
 terminar de aprender vue con la practica, y en eso los videos de
 vuetify a pesar de ser especificos son vue, y te arrojan practica,
-Creo que un par de dias mas tengo que seguir aprendiendo. 
+Creo que un par de dias mas tengo que seguir aprendiendo.
 Creo que el mejor descubrimiento del dia fue el escuchar los videos a
 una velocidad mayor, 1.25/1.50 o hasta 1.75 lo cual hace que se pueda
 avanzar mas rapido y aprovecharlos mejor sin aburrirse.
@@ -1239,7 +1239,7 @@ santum que parece ser un problema general, pero se puede ir
 resolviendo despues, y me queda por aprender en lo inmediato como
 conseguir datos por medio de vue, que creo que es por axios. Y alli
 ver si el haber trasvasado todas las migraciones sirve, si hay que
-hacer una fresh y recargar los datos, o sea todas esas cosas. 
+hacer una fresh y recargar los datos, o sea todas esas cosas.
 *** [2020-06-04 jue]
 :LOGBOOK:
 :CLOCK: [2020-06-04 jue 20:02]--[2020-06-04 jue 21:40] =>  1:38
@@ -1291,7 +1291,7 @@ datalist. primero me baje un datalist casero que funciona gracias a
 cuatro componentes individuales, y luego pensando se me prende la
 lampara que falta algo en php para que funcione y ahi recuerdo el
 video y lo pongo y sas era un archivo en composer que maneja el
-tablelist. 
+tablelist.
 Despues empiezo a renegar con la interface en si para emular lo hecho
 con lo anterior pero dentro de un SPA y con lo que pueda conseguir
 luego con vue, nada mas y nada menos que eso.  Por lo demas pienso
@@ -1371,7 +1371,7 @@ el combo, en la inspeccion con vue tiene el array filtrado correcto
 pero no muestra el combo. Tampoco lo hace con un ejemplo simple
 copiado. Es como que mi pagina no lo permite.
 8min muy felizmente!! en 8 minutos encaje la implementacion de mi!!
-datalist en buefy... con v-for de vue. 
+datalist en buefy... con v-for de vue.
 14min: termine de extender a las otras dos barrios y zonas el sistema.
 14min: problema de que borra los campos: no solucionado pero acotado:
 lo hace el enter y el tab tambien, pero sucede la primera vez luego de
@@ -1387,7 +1387,7 @@ duplicar prefiero esperar a tener mas conocimiento, quizas con vuex.
 43m salvando crear clientes +32min renegando. no funciona FormData que
 recibe el form correctamente pero no levanta los pares de valores y no
 entrega nada. En rom funciona bien y entrega todos los valores, sin
-los valores el fetch no se hace. obviamente. 
+los valores el fetch no se hace. obviamente.
 28min mas descubri el problema es que FormData arma sus valores con el
 atributo name de los campos.
 1.30hs prueba con buscadorpg anda bien le faltan pocas cosas para ser
@@ -1450,9 +1450,9 @@ pego los reviso y van.
 Dejo de funcionar heroku con un error que lo he encontrado en internet
 incluso en la misma pagina de ellos. como que interpretaran que el uso
 que le da el programa mio es inseguro y dieron de baja el acceso a la
-base de datos. 
+base de datos.
 21min di de baja heroku, por malos, me quedo con google, a pesar del
-precio, no existe algo que sea bueno y sea barato, lamentablemente. 
+precio, no existe algo que sea bueno y sea barato, lamentablemente.
 Ya esta la primer parte ahora quiero poner en la parte de abajo mas
 info para tener todo en primera plana, comentarios, devoluciones,
 relaciones, visitas?, intimaciones?, subidas al seven?. Todo en el
@@ -1460,7 +1460,7 @@ balance de informacion y que no sea pesada la pagina al cargarse. Los
 analisis cuadros y demas los quiero presentar en otra ventana no
 quiero tenerlos en la misma. Quiero que los programas sean solo
 operativos.
-Muy buen avance hoy con el buscador. 
+Muy buen avance hoy con el buscador.
 *** [2020-06-10 mié]
 :LOGBOOK:
 :CLOCK: [2020-06-10 mié 20:00]--[2020-06-10 mié 20:29] =>  0:29
@@ -1480,7 +1480,7 @@ luego los tbls extras que pretendo para abajo siempre que no
 ralenticen la carga.
 34min edicion y comentarios sobre toda la aplicacion, pude observar lo
 bueno que son los comentarios, uno nunca sabe cuando va a volver sobre
-el codigo, y los comentarios son mas que bienvenidos. 
+el codigo, y los comentarios son mas que bienvenidos.
 8min hice condonacion y comentarios y suspendo para hacer triggers en
 la base de datos para terminar de verificar los condonados.
 1:10 puse todas las funciones y los triggers felizmente estaban
@@ -1495,7 +1495,7 @@ relaciones tiene doble click.
 Me gustaria un atajo para volver al cliente anterior. Hecho.
 Me gustaria que cuando uno busca y en el tbls aparece un solo
 resultado se busque sin mas.
-5min terminado - eso agiliza un monton las busquedas. 
+5min terminado - eso agiliza un monton las busquedas.
 15min cambie el algorritmo del boton volver para poder volver
 indefinidamente de ida y vuelta, o sea no borrando los links para
 poder ir y volver.
@@ -1530,11 +1530,11 @@ desarrollar alli, debido a las caracteristicas de la api que
 necesitamos nosotros.
 42min termine de optimizar ventaspg arregle el tema pmovto era lo que
 decia estaba mal el trigger, el pmovto de una cuenta nueva es primera,
-no tiene sentido llamar a pmovto(). 
+no tiene sentido llamar a pmovto().
 -Estudiar volver a tener la tabla cuotas en pg para generar al toque
-sin demasiada carga de software cliente el simple array de cuotas. 
+sin demasiada carga de software cliente el simple array de cuotas.
 -Estudiar tambien el no tener tabla cuotas pero usar la funcion gc.
-Me falta el campo cuota en tabla clientes, que vendria a ser: 
+Me falta el campo cuota en tabla clientes, que vendria a ser:
 update clientes set cuota=(select sum(ic) from ventas where
 idcliente=clientes.id)
 update clientes set cuota=(select sum(ic) from
@@ -1558,7 +1558,7 @@ triggers pagos.
 axios aunque tuve que poner el scr para vue y para axios, hice un
 v-for y presente los datos con un {{}} lo que veo es que no veo
 dificil la ejecucion de rutas para nada, menos el trabajo con los
-controllers y empezar a trabajar con vue despues. 
+controllers y empezar a trabajar con vue despues.
 15min puse en marcha stockpg.tcl el ultimo que faltaba.
 *** [2020-06-13 sáb]
 :LOGBOOK:
@@ -1566,7 +1566,7 @@ controllers y empezar a trabajar con vue despues.
 :END:
 con ruby rails- muy positiva la experiencia pude comenzar la migracion
 de dos tablas desde cero cargarla con datos y trabajar, falta ahora
-teoria. 
+teoria.
 *** [2020-06-14 dom]
 :LOGBOOK:
 :CLOCK: [2020-06-14 dom 12:10]--[2020-06-14 dom 12:56] =>  0:46
@@ -1609,7 +1609,7 @@ querer agregar algo de frontend.
 :END:
 una hora veinte muy basicas tratando de comprender yo solo el
 funcionamiento de rails para new/create. con el form hecho con
-erb. problemas con el scope y los params. pero ya esta visto. 
+erb. problemas con el scope y los params. pero ya esta visto.
 40min corrigiendo el fichas.tcl.
 avanzando en rails con dificultad, a los tropezones, no es facil, pq
 no estoy haciendo ningun curso por ahora sino que estoy siguiendo la
@@ -1673,7 +1673,7 @@ ponemos directo y listo.
 la idea es volver a erb, pienso que slim es lindo pero agrega una capa
 de posibles errores incomprensibles o sea no debugueables, y tiene
 poca documentacion, y como es con indentacion con una pagina grande
-tambien sera dificil de mantener. 
+tambien sera dificil de mantener.
 creo que con erb tenes una capa menos, y aparte todos los ejemplos en
 todos lados estan con erb. Medio como que pasarse a slim sin dominar
 el tema es medio complicado.
@@ -1726,7 +1726,7 @@ mas de todo voy a andar muchisimo mas rapido.
 Pude lograr pasar ventas, tener el formulario de pasar ventas, linkado
 a un cliente con los metodos new y create funcionando correctamente, y
 tambien en el metodo show de clientes agregue una tabla con las
-ventas. 
+ventas.
 La solucion de datapicker de html5 es satisfactoria y rapida, en
 firefox es mas linda que cualquier datapicker que hubiese imaginado.
 Me falta ver como podria agregar el detalle de articulos a la venta
@@ -1737,7 +1737,7 @@ practicamente sin esfuerzo o sea se hace solo, en ese sentido un gran
 clap para html5 y bootstrap, y el background de rails funciona muy
 solido pero hay que entenderlo para que rinda bien. Creo que una
 aplicacion solida asi con rails es de confianza y tambien servira bien
-a su proposito. 
+a su proposito.
 La rapidez es como decia ese tipo es como un spa, falta el delay de
 consulta en la nube, pero eso lo sufren todos.
 *** [2020-06-22 lun]
@@ -1800,7 +1800,7 @@ ahora muy satisfecho.
 :CLOCK: [2020-06-29 Mon 11:03]--[2020-06-29 Mon 11:20] =>  0:17
 :END:
 hoy interrumpido por idas al Fede por rotura del auto no pude hacer
-nada, solo instale lynx. 
+nada, solo instale lynx.
 Dia interrumpido por obra de pintura por devolucion de oficina.
 Descubierta una pagina con buen material sobre ORM django para
 estudiar desde alli. Estudiando y practicando directamente el orm.
@@ -1904,7 +1904,7 @@ archivos.
     :CLOCK: [2020-07-04 Sat 10:13]--[2020-07-04 Sat 11:33] =>  1:20
     :END:
 instalando ido-mode,web-mode. No hicieron nada nuevo en realidad.
-Pero creo que se podra trabajar lo mismo por ahora. 
+Pero creo que se podra trabajar lo mismo por ahora.
 Lo unico exasperante y problematico lamentablemente es el delay
 increible en el orgmode pro.org no le encuentro sentido siendo que con
 emacs hemos trabajado bien siempre. Por lo menos he localizado que el
@@ -2065,7 +2065,7 @@ maquina para ir haciendo pruebas. para ver si el sistema funciona en
 ambos mundos.
 1.10 hs haciendo la traduccion de pg a tdbc::mysql no muy motivado pq
 es muy complejo todo y no creo que tenga sentido hacerlo, o quizas si
-no se. 
+no se.
 Buen inicio con codeigniter se lo ve abordable para la complejidad de
 la tarea que tiene al frente que es unir la consulta a base de datos y
 la presentacion de una vista dinamica. y todo se hace en php.
@@ -2207,7 +2207,7 @@ saberlo.
     hacer tedioso trabajo de reconstruir la base de datos y replantear
     objetivos. La class no es mala y funciona bien, esta estructurada
     logicamente bien, lo que pasa es que por momentos se hace tedioso,
-    como conocer a fondo la base pg, como la palma de la mano. 
+    como conocer a fondo la base pg, como la palma de la mano.
     Creo que lo que sigue es un proceso reorganizativo, primero
     relativo a tcl, con la traduccion-refactorizacion de los programas
     para que funcionen en heroku, luego el deploy en heroku, y
@@ -2215,7 +2215,7 @@ saberlo.
     pg, alejandola del manoseo sufrido por los frameworks. Lo de la
     class Cliente podria considerarse como un trabajo practico de
     aprendizaje de lo que estoy estudiando-aprendiendo que es lo que
-    realmente importa. 
+    realmente importa.
 *** [2020-07-28 Tue]
     :LOGBOOK:
     :CLOCK: [2020-07-28 Tue 18:53]--[2020-07-28 Tue 20:06] =>  1:13
@@ -2246,10 +2246,10 @@ Cliente.
 Jornada muy atravesada por los bugs. Felizmente lo pude resolver y
 seguir adelante en cierta forma pero por momentos te hace dudar de tu
 capacidad de programacion o de razonamiento cuando no encontras la
-vuelta al asunto. 
+vuelta al asunto.
 Positivo fue el hacer codigo con vim por lo rapido muy rapido, quizas
 mas rapido que con vcode. Creo que es la herramienta adecuada para
-codificar tcl. 
+codificar tcl.
 Me dedique a documentar pacientemente tambien para no tener que pasar
 de nuevo por lo incomprensible del codigo.
 Y en cierta forma la estructura de tener abierto un outline aca mismo
@@ -2279,7 +2279,7 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     hoy un dia de desarrollo intermedio, con pocas luces, pero al
     final salio, por lo menos la primera parte. Lo que pasa es que es
     un poco complicado el tema por lo pronto
-** 2020-Agosto 
+** 2020-Agosto
 *** [2020-08-01 Sat]
     :LOGBOOK:
     :CLOCK: [2020-08-01 Sat 14:56]--[2020-08-01 Sat 16:59] =>  2:03
@@ -2318,7 +2318,7 @@ posicion que el actual de sqlite. Falta el modulo analisis de venta.
     :END:
     jornada interesante la de hoy igual que la de ayer pq permitio
     meterse de lleno en un tema nuevo y diferente que es reemplazar
-    los triggers por proc. 
+    los triggers por proc.
 *** [2020-08-08 Sat]
     :LOGBOOK:
     :CLOCK: [2020-08-08 Sat 15:28]--[2020-08-08 Sat 16:45] =>  1:17
@@ -2479,7 +2479,7 @@ primer mm hecho luego de la obra sobre array
     de cobradores, que dispara una segunda botonera de zonas, que a su
     vez dispara un tabulator de display de zonas, que luego acomodare
     a voluntad con los campos necesarios y se va cambiando a voluntad,
-    todo muy rapidamente. 
+    todo muy rapidamente.
     Subida a heroku, con un descuido de mi parte pq no cambie la base
     de datos y por eso la aplicacion no arrancaba, pero es parte del
     aprendizaje. Por lo demas rapidisimo en heroku el manejo de
@@ -2543,11 +2543,11 @@ primer mm hecho luego de la obra sobre array
     el hacer un axios/get dentro de un .then del post para obtener el
     lastid.
     Hasta el momento todo es trabajo de mediana dificultad pero
-    complicado para hacer despacio y bien. 
+    complicado para hacer despacio y bien.
 *** [2021-05-04 mar]
     se avanzo en detalles, como el resumen al final de la planilla
     impresa, la validacion del faltante de recibos antes de guardar
-    que puede ser un error comun. 
+    que puede ser un error comun.
     Hay dos temas que por el momento no se pueden hacer, y es que se
     llene solo como en tcl, y que se coloree por bloque de recibos
     como en tcl, lo veo demasiado complejo o directamente imposible
@@ -2560,22 +2560,22 @@ primer mm hecho luego de la obra sobre array
     son introducidos los numeros de recibos.
     se hizo la reimpresion desde el listado de lotes no sin antes
     renegar con errores oscuros provenientes de valores integer en vez
-    de string para fpdf. 
-*** [2021-05-05 mié] 
+    de string para fpdf.
+*** [2021-05-05 mié]
     se siguio con los detalles tanto en los lotes Rbo, como en
-    planillas como en pagos, corrigiendo bugs y agregando funciones. 
+    planillas como en pagos, corrigiendo bugs y agregando funciones.
 *** [2021-05-06 jue]
     hoy luego de hacer un par de detalles de pagosvue, encare un
     template puro de vue, relativo a asientos, con la vista y el
     pasado de asientos y avance bastante, dejandolo bastante
-    funcional. 
+    funcional.
     Descubri una forma de referenciar los elementos del dom
     internamente en vue con $refs
 *** [2021-05-07 vie]
     dia de grandes avances, hice el mayor y el pivot-cuentas con
     innumerables detalles y aprendizajes, que quedaron todos
     documentados. Incluso hice el pasaje a boostrap 5 de yapa.
-*** [2021-05-08 sáb] 
+*** [2021-05-08 sáb]
     gran avance hoy a pesar de que solo tuve la tarde, pero fue a
     full.
     incorpore Atom, muy bueno. Y me hice un branch a boostrap5 para
@@ -2584,7 +2584,7 @@ primer mm hecho luego de la obra sobre array
     di con la gratisima sorpresa de que bulmaswatch tiene los themes
     espectaculares y mas variados que boostrapswatch, asi que de una
     queda mas lindo y es un solo archivo. Y creo que la sintaxis es
-    mas facil y los conceptos son mas faciles. 
+    mas facil y los conceptos son mas faciles.
 *** [2021-05-09 dom]
     muy entretenido muchas horas en la transformacion de bulma y en la
     instalacion de mx-19.
@@ -2617,13 +2617,13 @@ primer mm hecho luego de la obra sobre array
 *** [2021-05-14 Fri]
     hoy hice la pagina verzonas y la idea es hacer un par de videos de
     js, la idea es seguir capacitando en nivel de js hasta llegar a
-    senior algun dia. Mientras sigo haciendo el sistema. 
+    senior algun dia. Mientras sigo haciendo el sistema.
 *** [2021-05-15 Sat]
     hoy hice las paginas totales y estimados
 *** [2021-05-17 Mon]
     hoy empece la gran pagina pasarventas con muchos contratiempos por
     ser un dia muy cortado para el desarrollo, por ser el cumple de la
-    Cami. 
+    Cami.
 *** [2021-05-18 Tue]
     comence con el desafio de ponerle csrf a los forms y  hacer un
     login
@@ -2636,7 +2636,7 @@ primer mm hecho luego de la obra sobre array
     comun. Pero fue una buena practica dentro de todo.
     Faltaria un campo en la tabla Users para dar de alta al usuario,
     cosa de que controlemos quien pueda entrar o no a la base de datos
-*** [2021-05-20 Thu] 
+*** [2021-05-20 Thu]
     hoy un dia muy intenso y muy frustrante, pq el login/csrf que
     funcionaba perfecto en localhost no funciona en heroku. Investigue
     de todo, probe de todo y no pude llegar a nada.
@@ -2645,7 +2645,7 @@ primer mm hecho luego de la obra sobre array
     rollo, entonces quite el csrf, pero el login no anda tampoco, anda
     erraticamente, despues de varios cambios, reflejados en los
     ultimos commits y deploys andaba en parte pero fallaba por ejemplo
-    a la segunda de cambio. 
+    a la segunda de cambio.
     Y asi perdi todo un dia y en realidad inverti tres dias en esto,
     esta bien que aprendi y saque un tema, pero no contaba que no
     funcionara en la web. Lo malo es que es una caja negra y si no te
@@ -2661,10 +2661,10 @@ primer mm hecho luego de la obra sobre array
 *** [2021-05-21 Fri]
     otro dia de frustracion pq la solucion con session que anda
     perfecto en localhost, nuevamente anda erraticamente en el
-    hosting. 
+    hosting.
     Aunque hace varios dias que vengo escuchando videos de nodejs hoy
     me planteo la posibilidad de cambiar de lenguaje de backend y
-    aprender node.js y hacer todo en javascript y ver que pasa. 
+    aprender node.js y hacer todo en javascript y ver que pasa.
     Lo que pasa es que el sistema es endeble si no funciona perfecto y
     no podra ser llevado a produccion, y si no puedo seguir
     aprendiendo y estoy limitado a esa unica posibilidad que use como
@@ -2697,7 +2697,7 @@ primer mm hecho luego de la obra sobre array
     cosa en solucionar lo que tenga flask de faltante o erroneo, y
     logre encontrar en menos de una hora el problema del login que me
     habia trabado el jueves pasado.
-*** [2021-05-25 Tue] 
+*** [2021-05-25 Tue]
     se avanzo bastante en varias cosas, se puso cors, se activo csrf,
     se adjunto una nueva base de datos a la aplicacion y se lo hizo en
     forma directa que lea el ENV no los settings puestos a mano, que
@@ -2722,7 +2722,7 @@ primer mm hecho luego de la obra sobre array
     registre pueda entrar al sistema sino los que nosotros aprobemos.
 *** [2021-05-28 Fri]
     hice paginas de ventas/clientes y ventas/calles-barrios-zonas las
-    tres juntas me hizo ahorrar un monton de tiempo. 
+    tres juntas me hizo ahorrar un monton de tiempo.
     hice retoques a los sumadores de table.js para las sumas
     numericas.
     jugue un poco con la posibilidad de jquery para la edicion de
@@ -2734,8 +2734,8 @@ primer mm hecho luego de la obra sobre array
     hice con dificultad la pagina estadisticas de venta por la mañana
     y a la tarde empece con fichas/fichaje refuncionalizandolo en
     general, y agregandole la funcion que no estaba que era cambiar de
-    zona. Y la funcionalidad de los toggles de estado. 
-*** [2021-05-30 Sun] 
+    zona. Y la funcionalidad de los toggles de estado.
+*** [2021-05-30 Sun]
     hice pagina para agregar cobr y togglear activo, todo un crud en
     si mismo que requiere pensar todo desde el principio. pq no lo
     hice copiando sino escribiendo las rutas yo mismo.
@@ -2769,7 +2769,7 @@ primer mm hecho luego de la obra sobre array
 *** [2021-06-05 Sat]
     inmerso totalmente en el mysql-hell para cambiar la base de datos,
     y enfrentandome a numerosisimos problemas, incluso tener que
-    reinstalar el s.o. 
+    reinstalar el s.o.
 *** [2021-06-06 Sun]
     terminado de pasar los datos y puesta a punto del sistema, pero
     falta pasar triggers, hacer la funcion pmovto, arreglar la
@@ -2779,7 +2779,7 @@ primer mm hecho luego de la obra sobre array
     en kamatera. Sin exito.
 *** [2021-06-08 Tue]
     dia historico pude tener exito en el deploy vps con apache en
-    kamatera. 
+    kamatera.
 *** [2021-06-09 Wed]
     despues de fallar con nginx con un vps, contrate donweb en pesos y
     anduvo bien con nginx-gunicorn.
@@ -2792,12 +2792,12 @@ primer mm hecho luego de la obra sobre array
     problema de impresion. Ahora mas tranquilo con el deploy, incluso
     tengo ssl instalado. donweb es mas rapida pero tiene eso que se
     corta a la noche y debo resolverlo. por ahora estudiare las tres
-    opciones. 
+    opciones.
 *** [2021-06-12 Sat]
     instale la cuarta instancia esta vez en oracle y con sudo, y en
     apache, la mas rapida es donweb que esta en argentina y cuesta 400
     por mes,
-*** [2021-06-13 Sun] 
+*** [2021-06-13 Sun]
     al no tener grades desafios me aburro un poco ahora, hoy hice el
     recambio de loterbo, ayer el recambio de calles, las dos con
     alpine.js.
@@ -2805,11 +2805,11 @@ primer mm hecho luego de la obra sobre array
     logica. Falta poner a prueba a fondo al sistema con datos reales
     para detectar mas fallos y ponerle fecha a la transicion.
 *** [2021-06-14 Mon]
-    correccion de errores varios. 
-*** [2021-06-15 Tue] 
+    correccion de errores varios.
+*** [2021-06-15 Tue]
     hoy termine modulo seven y corregi bug en el pasado de pagos pq el
     dump no contenia la funcion pq la sacaba sin --routines
-*** [2021-06-16 Wed] 
+*** [2021-06-16 Wed]
     hoy me dedique a poner en funcionamiento el segundo vps oracle y
     montar un servidor express con mysql y que sirva una miniapp con pm2
 *** [2021-06-17 Thu]
@@ -2818,7 +2818,7 @@ primer mm hecho luego de la obra sobre array
     Creo que faltaria empezar la prueba en paralelo.
 *** [2021-06-18 Fri]
     hoy inicialice moodle en un servidor, una tarea no facil que me
-    llevo mas de medio dia. 
+    llevo mas de medio dia.
     y en el otro medio dia comence con tailwind y creo que enganche.
 *** [2021-06-19 Sat]
     hoy empiezo con tips de salud paralelos a informes de actividad:
@@ -2834,10 +2834,10 @@ primer mm hecho luego de la obra sobre array
 *** [2021-06-20 Sun]
     aprendi sass, aprendi customize bulma con sass, logre solucionar
     el problema del link de archivos en express, y el
-    collapsible(acordeon). 
+    collapsible(acordeon).
     La idea es seguir con bulma para manejar el marco con mas soltura
-*** [2021-06-21 Mon] 
-    mas de lo mismo. 
+*** [2021-06-21 Mon]
+    mas de lo mismo.
 *** [2021-06-22 Tue]
     hoy hice un framework css propio con grid, container responsives,
     y table responsive, y me funciona mejor que los marcos que he
@@ -2846,7 +2846,7 @@ primer mm hecho luego de la obra sobre array
     siguiendo con lo de ayer, potencie el manejo de grid con un gran
     ejemplo que me ocupo mas de una hora haciendolo con flex con gran
     complicacion y luego volvi con grid y lo hice en 2 minutos, solo
-    habia que encerrar la tabla y su titulo en un div. 
+    habia que encerrar la tabla y su titulo en un div.
     Hice el toast!!! propio.
 **** informe salud:
      gran dolor de cervical y de espalda. Y creo que la molestia que
@@ -2936,7 +2936,7 @@ primer mm hecho luego de la obra sobre array
       con el cambio a una sola columna y modificando el ancho de los
       input al 100%. No olvidar ponerle al contenedor general un
       margen derecho e izquierdo para que se refleje en mobile.
-***** DONE validaciones 
+***** DONE validaciones
 ***** DONE ruta crear/editar cliente segun idcliente
       acorte un monton de camino por medio de usar un objeto Cliente
       que agrupe todos los campos del cliente, en vez de usar todas
@@ -3107,7 +3107,7 @@ primer mm hecho luego de la obra sobre array
      podemos usar el resto de espacio en las hojas al costado o atras,
      para practicas tanto de ingles como de la materia. No seremos
      perfeccionistas con el impreso, ni pretendemos mantenerlo
-     impoluto. 
+     impoluto.
 **** english-bbc-mobile too
      la app de bbc es muy buena trae la transcripcion tambien en forma
      comoda para seguir el dialogo y trae una mejor explicacion
@@ -3115,7 +3115,7 @@ primer mm hecho luego de la obra sobre array
      en otros lugares, no creo que valga la pena imprimir la
      transcripcion pero si hacer una hoja con las palabras que
      necesitamos.
-**** curva de improductividad 
+**** curva de improductividad
      lo que me mata es la improductividad o sea los dias con
      compromiso que se van sin un plan de accion claro o una pauta de
      productividad clara. Por eso cuando estas programando un proyecto
@@ -3144,18 +3144,18 @@ primer mm hecho luego de la obra sobre array
      inicial. La verdad es que nunca o casi nunca termine de leer en
      profundidad un libro de programacion y la vez que lo hice aprendi
      un monton. Por eso creo que que la forma de perfeccionar python
-     es a traves de los libros, y el ingles a traves de la practica. 
+     es a traves de los libros, y el ingles a traves de la practica.
 *** [2021-07-15 Thu]
     hoy otro dia de receso familiar por el cumple de la romi asi que
     no se cuenta, ayer no obstante pude leer bastante, y es de notar
     que no solo se lee on the bed, sino frente a la maquina, lo que
-    permite practicar en el momento. 
+    permite practicar en el momento.
     Lo que si me pregunto si el costo del papel es conveniente o si no
     sera mejor buscar otras opciones, p.e. la netbook en la cama o la
-    tablet. 
+    tablet.
     lo de el marcado de palabras que no entiendo no es muy practico pq
     se terminan marcando palabras raras y luego quedan fuera de
-    contexto. 
+    contexto.
 *** [2021-07-16 Fri]
     mejoramiento de los metodos de estudio (segundo loop):
     uso de la tablet: bastante confortable pq se puede apoyar y leerse
@@ -3245,26 +3245,26 @@ primer mm hecho luego de la obra sobre array
     autocompletado en css. Perdido una hora mas en incorporar el
     web-mode, pero no tenemos aun un autocompletado para css
     inteligente, lo cual no es gran cosa pq no es mucho lo que se
-    programa en css. 
+    programa en css.
 *** [2021-07-21 Wed]
     anoche pensaba que podria finalmente dejar de lado bash por el
     momento y concentrarme en python, o sino concentrarme en bash
     unicamente pero no en los dos pq se hace muy distractivo y es muy
-    poco lo que se avanza. 
+    poco lo que se avanza.
     tambien se podria plantear el abandonar de una el estudio de
     ambos, pero ahi pienso que esta la falla. O sea en el hacer un
     proyecto de una. De todos modos pienso que la adquisicion de
     conocimientos debe llevar consigo la paciencia. La impaciencia y
     la desesperacion no conducen a nada. Y uno debe querer algo, o sea
-    debe querer tener esos conocimientos. 
-    He notado que estoy trabado. 
+    debe querer tener esos conocimientos.
+    He notado que estoy trabado.
     Momentaneamente estoy trabado. No quiero que me pase como me
     pasaba en años anteriores de cabaña o sea que pierdo el tiempo por
-    no dedicarme plenamente al momento presente. 
+    no dedicarme plenamente al momento presente.
     Ahora estoy en una situacion en la cual no trabajo en la calle, y
     no hay posibilidad de hacerlo y eso me deja tiempo para estudiar
     pero no siempre se aprovecha cien por ciento el tiempo por
-    diversas razones de todo tipo. 
+    diversas razones de todo tipo.
     Al final me aferro a seguir como sea con python, y mediante el
     control horario en pr.org para dar mas certeza de cuanto estamos
     efectivamente en eso. El resto vendra solo.
@@ -3276,7 +3276,7 @@ primer mm hecho luego de la obra sobre array
     que estoy equivocando la herramienta?. Hay muchos conceptos que he
     ido aprendiendo de este libro y solo llevo dos capitulos y me he
     salteado un par de recipes. Pienso que se puede llegar a poner mas
-    interesante mas adelante. 
+    interesante mas adelante.
     Hoy tendria que haber sido un dia optimo, solo tuve que ir al
     banco y por lo demas no hice nada de nada. Pero parece que en
     otros dias en los que esta uno mas ocupado tiene mayor exito.
@@ -3684,7 +3684,7 @@ primer mm hecho luego de la obra sobre array
     Con python se hizo un avance por la lectura de libros que es una manera muy
     profesional de aprender muy profunda, el libro que estoy leyendo aparte de
     que me aporta terminos, casi la mitad de todos, me aporto ideas, y el sis-
-    tema de anki que desarrolle es con poo y con sqlalchemy. 
+    tema de anki que desarrolle es con poo y con sqlalchemy.
     Lamentablemente para bien o para mal parece que me agarro el
     vaiven de emacs o el emacs-hell y con unos pocos tweaks estoy en
     emacas de nuevo.
@@ -3711,8 +3711,8 @@ primer mm hecho luego de la obra sobre array
     genial.
     Decidi al final no instalarlo todavia, pq en realidad no voy a
     experimentar diferencias con lo que tengo actualmente, pq mint
-    funciona perfectamente bien. 
-    Si tuve exito en trasladar el sistema a un nuevo vps. 
+    funciona perfectamente bien.
+    Si tuve exito en trasladar el sistema a un nuevo vps.
     Este fue un domingo muy intenso como un dia de semana, pq tuve la
     prueba de debian y el simulacro de instalacion que resulto fallido
     en la otra maquina y la creacion del nuevo vps, mas una practica
@@ -3722,7 +3722,7 @@ primer mm hecho luego de la obra sobre array
     asombrosamente mejor, para org obviamente es mejor y para html/js
     es o bien igual o levemente superior, y el manejo de buffers es
     mejor pq aunque te muestra el directorio actual te permite irte a
-    otros. 
+    otros.
 *** [2021-08-16 Mon]
     empece mal el lunes con un intento fallido de instalar doom-emacs
     todo pq no tengo emacs27 en la maquina y es imposible instalarlo.
@@ -3730,7 +3730,7 @@ primer mm hecho luego de la obra sobre array
     las instalaciones de los paquetes practicamente hay que hacerlas a
     mano pq no estan puestas en el script.
     Voy a intentar instalar debian 11 en la vieja netbook pq parece
-    que debian tiene emacs 27 luego veremos que pasa. 
+    que debian tiene emacs 27 luego veremos que pasa.
     El programa de ingles es muy bueno pq permite un manejo
     personalizado de lo que necesitamos aprender, no como los otros
     que ellos manejan las repeticiones haciendonos perder el tiempo
@@ -3745,16 +3745,16 @@ primer mm hecho luego de la obra sobre array
     Desisti al final de doom-emacs sin romper nada pq lo probe en la
     netbook y vi que en python no sirve y en js si esta muy bueno lo
     que tiene. Seria cuestion de tratar de emularlo. No tiene una
-    completion con tab como tiene aca python y js/html. 
+    completion con tab como tiene aca python y js/html.
     Hoy no llegue a los 240 en un dia totalmente improductivo y
     termino totalmente cansado. Pero quizas fue por la distraccion de
     doom-emacs. Eso te lleva mucho tiempo y energias. Luego por ser
-    feriado el dia se planteo diferente. 
+    feriado el dia se planteo diferente.
 *** [2021-08-17 mar]
     hoy instale debian 11, y por lo menos todo ok. hasta ahora no noto
     diferencia aunque no he terminado de instalar algunas cosas.
     noto que emacs es mas lento para abrir pero puede ser una
-    sensacion mia. O puede ser el wm. 
+    sensacion mia. O puede ser el wm.
     Por el momento no puedo probar el wm, pq lo estoy atendiendo a
     Fabian.
     A la tarde lo probare.
@@ -3766,7 +3766,7 @@ primer mm hecho luego de la obra sobre array
     programas estan atrasados, me paso con pandas. quizas haya que
     actualizar.
     Compre dominio fidin.uno para romitex, de modo de proteger un poco
-    los datos a futuro. 
+    los datos a futuro.
 *** [2021-08-18 mié]
     ayer fue un dia dentro de todo muy productivo pq instale debian
     11, cambie el sitio de romitex a un nuevo dominio, cambiando de
@@ -3821,22 +3821,22 @@ primer mm hecho luego de la obra sobre array
 *** [2021-08-20 Fri]
     ayer un dia muy complejo fisicamente con sintomatologia diversa
     que me llevo a la cama temprano y apague la maquina temprano,
-    luego me puse a leer y segui en el fossil.hell. 
+    luego me puse a leer y segui en el fossil.hell.
     Tambien me trabo que no andan los dominios y borre el dominio de
     romitex que andaba bien y no puedo recuperarlo igual como ejemplo.
     No cabe duda que estoy varado, o sea que estoy completamente
     bogged down. Me falta un proyectito que me interese lo suficiente
-    como para que salga del marasmo.  
+    como para que salga del marasmo.
     Hoy inaguro el teclado nuevo. Mecanico y retroiluminado. Una
     maravilla hasta ahora. Veremos luego lo que pasa.
     No lo encuentro muy ruidoso, solo un poco mas que el otro y hay
     precision, obviamente con el cablesonon que tiene, igual con el
     ratoncito que me hace renegar menos que el anterior.
     El teclado es un enorme paso a la comodidad, incluso el ratoncito
-    lo es. 
-    Se soluciono un paso de la registracion del sitio de namecheap. 
+    lo es.
+    Se soluciono un paso de la registracion del sitio de namecheap.
     Hice la mitad de la encryptacion de mariadb. Y estoy probando que
-    funciona al menos en local. 
+    funciona al menos en local.
     O sea que no fue un dia tan improductivo en cierta forma.
 *** [2021-08-21 Sat]
     definitivamente cai en un fossil-hell al menos en mis horas de
@@ -3852,16 +3852,16 @@ primer mm hecho luego de la obra sobre array
     Pareceria que el tema dominio se arreglara en dady, eso me
     habilitaria para tener dos dominios en el vps. dejando fidin.uno
     por mas que redireccione en romitex, total alli habra un solo
-    dominio. 
+    dominio.
     Creo que el programa de ingles tiene un metodo eficiente para
     aprender las palabras, mejor que los otros que he visto.
     Creo que el cierre de semana positivo se debe mas a las
     instalaciones y otros temas diversos que a la programacion. python
-    bajo de 1224 a 670, y el ingles se mantuvo igual. 
+    bajo de 1224 a 670, y el ingles se mantuvo igual.
 *** [2021-08-22 Sun]
-    hoy no tengo mucho para hacer pq tengo que pasar papeles. 
+    hoy no tengo mucho para hacer pq tengo que pasar papeles.
     quiero probar una nueva config de emacs para ver como anda, basada
-    en orgmode tangle. 
+    en orgmode tangle.
     Lo tengo en .emacs2.d, pero no me convence del todo, la velocidad
     es la misma y los atajos no los necesito mayormente. y el workflow
     de ivy no es el mismo que ido, parece que me quedo con ivy.
@@ -3875,17 +3875,17 @@ primer mm hecho luego de la obra sobre array
     anoche estuve viendo bvpwm y polybar luego i3-gaps, pero en
     realidad no creo que haga falta pq i3 asi como esta cumple todas
     las expectativas solo falta aprender un poco mas, como ahora que
-    aprendi a switchear las windows con W+S+j/k/l/ñ. 
+    aprendi a switchear las windows con W+S+j/k/l/ñ.
     Creo que necesito un orden de org, un archivo de documentacion
-    unico que creo que ya lo tengo. 
+    unico que creo que ya lo tengo.
     Esta ultima semana afloje muchisimo la lectura pdf, en cambio tuve
     mucho web y youtube, pero aunque practica al fin, no me sirve para
     recolectar los terminos pq no hay forma de anotarlos.
     Pase la primer mañana solo excesivamente improductiva. Solo una
-    hora de ingles, pase todas las ventas y nada mas. 
-    Estoy en mi punto mas bajo de motivacion.  
+    hora de ingles, pase todas las ventas y nada mas.
+    Estoy en mi punto mas bajo de motivacion.
     Pase dos horas mas o menos programando las intimaciones y las
-    termine, lo cual fue positivo. 
+    termine, lo cual fue positivo.
     Pienso que podria hacer un programa contable propio en red como el
     de ingles, pq podriamos usar los conocimientos de poo, sqlalchemy
     y luego cuando tengamos datos de pandas.
@@ -3896,11 +3896,11 @@ primer mm hecho luego de la obra sobre array
     con un proyecto nuevo de aprendizaje de python.
 *** [2021-08-24 Tue]
     hoy sigo firme con las practicas de ingles y vere si arranco con
-    las practicas de python. 
+    las practicas de python.
     Decidi en vista de la circunstancias nuevas que debo poner en
-    marcha el sitio de romitex, no debemos esperar mas. 
+    marcha el sitio de romitex, no debemos esperar mas.
     Para ello pienso que necesito una copia del sitio para hacer
-    pruebas? o basta con el localhost? 
+    pruebas? o basta con el localhost?
     Pienso que la mejor forma de probar el sistema es mediante la
     "doble pasada" o sea cargar los datos y a partir de ahi pasar
     doble por un tiempo y que ese sobrecosto de tiempo que resulte de
@@ -3908,35 +3908,35 @@ primer mm hecho luego de la obra sobre array
     sistema nuevo. Es asi como se hace en la vida real.
     Por el momento estoy refaccionando ciertas cosas, como que las
     referencias a los campos sean por diccionario lo cual le va
-    agregar mas legibilidad al codigo a futuro. 
+    agregar mas legibilidad al codigo a futuro.
     Hemos aprendido mucho desde que empezamos en todos los
     campos. Desde que la unica opcion era heroku a 9 dolares por mes,
     hasta ahora tener un vps a 400 pesos por mes. y manejarlo
     internamente como queremos nosotros.
     Hoy hice bastante, bastante practica de ingles, un poco de arreglo
     de emacs, un intento por hacer backup de vps. Y una remodelacion
-    en el programa.  
+    en el programa.
     Logre hacer un backup automatico con cron!!. Es muy importante
     ahora necesito bajar una copia por semana o cada tres o cuatro
-    dias. 
+    dias.
 *** [2021-08-25 Wed]
     hoy comienzo tarde la jornada pq fui a encargar los lentes, era
     hora seis años despues.
-    Son casi las 13hs y no he comenzado. 
+    Son casi las 13hs y no he comenzado.
     Poco y nada pude hacer hoy. Parte pq sali a la mañana y a la tarde
-    y pq estuve mal animicamente. 
+    y pq estuve mal animicamente.
     Pero tengo delineado el trabajo para los proximos dias, o sea
-    terminar a fondo el sistema para empezar la prueba. 
+    terminar a fondo el sistema para empezar la prueba.
 *** [2021-08-26 Thu]
     desde anoche leo solo javascript-pdf me parece un muy agradable
     libro para leer y para poder recuperar un poco la lectura de pdf,
     que es necesaria para practicar el ingles.
     ya son 400 palabras las que estoy practicando, pero necesitan mas
     practica para que queden completamente incorporadas al lexico. Y
-    necesito seguir con la gramatica. 
+    necesito seguir con la gramatica.
 *** [2021-08-27 Fri]
     ya estoy escuchando videos en yt completamente con un
-    entendimiento de cerca del 90%. 
+    entendimiento de cerca del 90%.
     Necesito apurar la practica.
     Justo cuando pensaba que habia hecho un avance siento que es
     enorme el desafio, y hay que seguir practicando un monton, asi es
@@ -3944,7 +3944,7 @@ primer mm hecho luego de la obra sobre array
     frentes.
     Quiero llegar a las 1000 palabras en el vocabulario y a terminar
     el libro de grammar. Este objetivo en general esta cubierto en un
-    40%. 
+    40%.
     Ya tengo el sistema funcional y voy a empezar la prueba doble el
     lunes.
     Estoy muy conforme con emacs, veo en los videos como algunos se
@@ -3957,10 +3957,10 @@ primer mm hecho luego de la obra sobre array
     Lo que si me gusta emacs pero con evil-mode. No se si me volveria
     a adaptar al modo puro de emacs.
     Ya cargue los datos de romitex en el sitio. Ahora tengo que
-    reforzar la seguridad del VPS.  
+    reforzar la seguridad del VPS.
     Estaria bueno tener el mismo programa TCL linkado a la base remota
     con las mismas facilidades en especial el fichas2 con la capacidad
-    de tablelist de subir al seven en manada. 
+    de tablelist de subir al seven en manada.
     Esta semana no tome nota del tiempo con exactitud, y algunos dias
     ni siquiera anote.
     fichaspg se puede adaptar bien a mysql pienso con poco esfuerzo y
@@ -3969,14 +3969,14 @@ primer mm hecho luego de la obra sobre array
     hoy tomo consciencia que he avanzado mucho en ingles pero me queda
     bastante todavia. Recien llevo veinte dias con mi app de ingles y
     mas o menos un mes con la de ulangy y estoy barajando 400 palabras
-    de practica, pero queda mucho por hacer todavia. 
+    de practica, pero queda mucho por hacer todavia.
     Hoy probe en otra maquina emacs-doom y no difiere mucho el tema
     python del que tengo aca, lo que si arranca velozmente.
     Creo que no voy a conseguir que emacs funcione en autocompletado
     como vscode. Pero si que es funcional y lindo para programar.
     La prueba tambien me indico cuan comodo para trabajar es i3
     comparado con gnome. El otro sera lindo pero es incomodo para
-    trabajar con rapidez.  
+    trabajar con rapidez.
 *** [2021-08-29 Sun]
     anoche y esta mañana practique muchisimo ingles oral, escuchando
     videos y una serie de netflix. Los videos los entiendo 95%, y la
@@ -3987,29 +3987,29 @@ primer mm hecho luego de la obra sobre array
     Hoy tendria que arrancar pasando los papeles en el sistema en
     forma doble no queda otra la fecha ya llego y es la hora de la
     verdad. Ahi saltaran los problemas de la vida real.
-    Y saltaron un par que ya los arregle. 
+    Y saltaron un par que ya los arregle.
     El unico problema que no es tan grave es que cuando pase las
     ventas mañana los numeros no van a coincidir en los dos sistemas
     pq pase un plan de pagos en el nuevo y una venta anulada que
     mariadb no los repite.
-*** [2021-08-30 Mon] 
+*** [2021-08-30 Mon]
     hoy me levante cansado de todo, del ingles, de estudiar, de
     programar, de no tener que programar.
     Pienso que solo es un bache en el camino, que tengo que dejarlo
-    pasar y que luego volvera la inspiracion. 
+    pasar y que luego volvera la inspiracion.
     Por el momento me voy a poner a pasar papeles lo que mas pueda.
     Avanzando... Bien en esto. Mientras tanto pienso en el ingles, y
     creo que quizas tenga que aprender otras estrategias para
-    incorporar vocabulario. Y seguir practicando. Tener paciencia. 
+    incorporar vocabulario. Y seguir practicando. Tener paciencia.
 *** [2021-08-31 Tue]
     ayer fecundo dia de escuchar videos en english y retomar las
     practicas. Por lo menos seguir adelante con escuchar lo maximo
     posible de diversas fuentes y seguir con el sistema de aprendizaje
     de las palabras que tengo. Luego incorporar alguna otra tecnica
-    nueva. 
+    nueva.
     pase toda la mañana incorporando nuevos terminos a la base de
     datos, mucho mas no pude hacer pq ih no salio y no estaba la
-    tranquilidad para mas cosas. 
+    tranquilidad para mas cosas.
     No se pq siempre que releo ese libro de la productividad y la
     concentracion en el estudio pienso en python, no en javascript
     sino en python, no en la posibilidad de empezar con un nuevo
@@ -4024,13 +4024,13 @@ primer mm hecho luego de la obra sobre array
     profundamente el anterior.
     pienso tambien que el ingles es un skill clave que abre puertas a
     otras cosas pq poder escuchar videos en ingles p.e. decuplica el
-    rango de posibilidades de fuentes de donde sacar provecho. 
+    rango de posibilidades de fuentes de donde sacar provecho.
     Hasta hace un mes mes y medio me resultaba pesado el leer un libro
     en ingles y ahora es lo mas natural del mundo, y ahora voy
-    haciendo lo mismo con los videos. 
+    haciendo lo mismo con los videos.
     Relei todo agosto y vi que hay cosas que parece que estan desde
     siempre y solo llevan dias, ulangi lleva treinta dias, y el
-    sistema de palabras mio lleva veinte dias. 
+    sistema de palabras mio lleva veinte dias.
     Hoy en programacion no fue nada mal, hice un bloque de webcrawl de
     python que es un tema lindo, y corregi un problema del sistema o
     mas bien agregue una funcion con extremada facilidad, es que
@@ -4047,24 +4047,24 @@ primer mm hecho luego de la obra sobre array
     registre insert/update/delete y el users, fecha y hora.
     Ya lo hice, usando una interface propia de la base de dato que son
     los binlogs asi que ya esta. Muy rapido. Y me quedo mas tranquilo
-    pq todo cambio a la base de datos queda registrado. 
+    pq todo cambio a la base de datos queda registrado.
     lei un poco de tcl toolkit y es fabuloso, no para entrar en un
     tcl-hell pero si para releer las bases teoricas del lenguaje.
     tiene un factorial de la gran pipeta.
     Pienso que tendria que hacer un log propio pq no funciona como lo
     esperaba el binlog de mariadb. Tendria que recorrer todas las
     rutas y cuando se inserte, borre o updatee un registro guardar en
-    una tabla current_user, fecha/hora, y el stm. 
+    una tabla current_user, fecha/hora, y el stm.
 *** [2021-09-03 Fri]
     avanzo un poco el tcl-hell en la lectura o busqueda de material
     posible de lectura. Pero decidi que no puedo leer en paralelo dos
     lenguajes al mismo tiempo eso es confuso, y ahora estoy en la
-    lectura de js. Lo dejo para despues. 
-    termine de hacer el log, lo subi, cancele el binlog. 
+    lectura de js. Lo dejo para despues.
+    termine de hacer el log, lo subi, cancele el binlog.
     compre un dominio nuevo en namecheap con paypal: fedesal.xyz falta
     hacerlo operativo y hacerle el certbot.
     las modificaciones al sistema son interesantes y faciles pq ambos
-    lenguajes son bien estructurados y faciles de entender. 
+    lenguajes son bien estructurados y faciles de entender.
     Por ahi pierdo un poquito de interes en seguir practicando a full
     english, pero no del todo y al menos sigo teniendo ganas de leer,
     o es como un subibaja, mas ingles, menos lectura, menos ingles mas
@@ -4077,7 +4077,7 @@ primer mm hecho luego de la obra sobre array
     cuando me puse en maquina hice dos grandes mejoras al sistema de
     fedesal, y pase un dia de ventas y estoy fusilado, por eso apago
     la maquina y me voy a echar luego del almuerzo, nada mas por ahora
-    de maquina. 
+    de maquina.
 *** [2021-09-05 Sun]
     hoy pasado de papeles a dos sistemas.
     tengo que revisar el pmovto si anda bien.
@@ -4086,18 +4086,18 @@ primer mm hecho luego de la obra sobre array
     y me gustaria hacer un fechador con registro en tabla de los
     fechados para tener una estadistica y para luego poder procesar
     esos datos. Y de paso cuando uno cometa un error tener un boton de
-    deshacer el fechado. 
+    deshacer el fechado.
     Tambien en el anki me gustaria cambiar los examples complejos
     basados en los libros que estoy leyendo por ejemplos sencillos que
-    sean faciles de practicar y recordar, oraciones cortas y varias. 
+    sean faciles de practicar y recordar, oraciones cortas y varias.
 *** [2021-09-06 Mon]
     anoche descubri lingQ una plataforma muy compacta para listening
     and listening storys. Esta mañana practique ingles una hora y
     media.
     Hoy oficialmente dejo de registrar en la pagina de study, y el
-    habito press lo paso a la app habits. 
+    habito press lo paso a la app habits.
     en lectura voy con javascript y pizcas de tcl no se porque pero lo
-    hago por hobby. 
+    hago por hobby.
     decidi que las tareas rutinarias como pasar papeles mejor las hago
     cuando este ih que hay mas ruidosidad y menor concentracion y
     aprovecho el tiempo de quality solo para o bien programar o bien
@@ -4120,7 +4120,7 @@ primer mm hecho luego de la obra sobre array
     debian o la dupla debian-i3, tanto en su rapidez como en todo.
     llevo 4 semanas desde la ultima vuelta de emacs y estoy bastante
     estable en la configuracion actual, luego de todos los vaivenes y
-    oropeles que se me han mostrado. 
+    oropeles que se me han mostrado.
     llevo 9 semanas de ingles al menos en esta ultima etapa mas
     intensiva y todavia estoy encontrando nuevos metodos de estudio,
     pero cada vez le dedico mas tiempo.
@@ -4128,14 +4128,14 @@ primer mm hecho luego de la obra sobre array
     duro golpe al metodo de estudio de ingles, pq me habia acomodado a
     la app lingQ y me traicionaron de mala manera, entonces vuelvo a
     la practica manejada por mi mismo en yt gratuitamente. Con el
-    vocabulario manejado por mi. 
+    vocabulario manejado por mi.
     Replantearia el metodo: como el contexto en el libro no lo buscare
     mas pq lleva a ejemplos freakys, es mas rapido el proceso de los
     terminos, pero la recoleccion de terminos ahora cambia pq procede
     de distintas fuentes por lo que voy a necesitar anotarlos en papel
     con el anotador directamente desde la lectura, ya sea pq provengan
     de medios que no se pueden marcar (google play o libros en moon
-    que no se marcan) o de videos. 
+    que no se marcan) o de videos.
     Que lindo y facil es programar en js/flask, la programacion
     fluye y se hace rapido como es rapido este teclado.
     Me queda para mañana hacer el reverso de un fechamiento.
@@ -4160,20 +4160,20 @@ primer mm hecho luego de la obra sobre array
     aprendizajes o a los habitos. Ejemplo: vi un video de ciertos
     ejercicios matinales que podrian incorporarse como rutina, quizas
     viendo el video 10 veces podria ser una mejor base para empezar a
-    hacerlo que viendolo una sola vez a la pasada. 
+    hacerlo que viendolo una sola vez a la pasada.
     Ejemplo 2: lectura de js, puede hacerse de una a la ligera con el
     afan de cubrir paginas o terminarlo rapido o bien podria hacerse
     despacio y bien releyendo lo que no entendamos hasta entenderlo y
     terminar con algo bien sabido.
-    
+
     En otro orden tengo que programar el sistema de devolucion de
-    fedesal, que no lo tengo. 
+    fedesal, que no lo tengo.
     Un intenso trabajo de unas tres horas o mas en el tema
     devoluciones y solo hice la mitad de un tema complejo, pero que
-    hace falta. 
+    hace falta.
     tambien necesito hacer una tabla de ventas diferenciada por dia y
     por vendedor.
-    
+
     estoy cansado pero hace diez horas que estoy en actividad mental,
     pq empece a las 7hs. y programe hard hoy.
 *** [2021-09-09 Thu]
@@ -4191,15 +4191,15 @@ primer mm hecho luego de la obra sobre array
     o sea ampliar el vocabulario especifico del reading, nothing about
     listening y menos aun de speaking. Ten days ago descubro este
     sistema mas o menos. And changed a lot. En especial pq empiezan
-    poco a poco a fluir palabras. 
+    poco a poco a fluir palabras.
     Pero ahi es donde creo que necesito impregnarme de la doctrina pq
     el tipo habla de six months or more listening simple material,
-    simpler is better. 
+    simpler is better.
     el viejo de lingq dice que repitio casi 50 veces algunas
-    historias. 
+    historias.
 *** [2021-09-10 Fri]
     recupere un poco la practica con confianza en que vamos a llegar
-    algun dia a aprender. 
+    algun dia a aprender.
     la mañana transcurrio agitada con correcciones del sistema
     contrareloj en temas de planes de pagos, devoluciones y
     condonados, quedara para semana que viene agregar algunas
@@ -4222,7 +4222,7 @@ primer mm hecho luego de la obra sobre array
        y similares que enseñan en castellano de Colombia. Que son
        buenos para escuchar ocasionalmente. Aparte es una serie de los
        12 tenses, hecha a proposito bien armada de 23 videos y la
-       mayoria de media hora o sea clases completas. 
+       mayoria de media hora o sea clases completas.
        Un poco me alejo de la boludez de AG que decia no estudies
        gramatica, pienso que el listening y el deep learning es mas
        fecundo si uno conoce los tiempos verbales y los temas
@@ -4231,7 +4231,7 @@ primer mm hecho luego de la obra sobre array
        lo cual me entusiasmo. Y decidi que no solo voy  a hacer una
        relectura del capitulo sino que voy a apoyar con videos y otras
        lecturas si hace falta, hasta alcanzar un nivel de deep
-       learning del tema. 
+       learning del tema.
     Mas alla de eso el domingo es para el olvido en lo personal y en
     lo familiar, con una explosion de la cami esta vez hacia mi.
     no repase mucho hoy listening, pero lei un poquito y vi un poco de
@@ -4311,7 +4311,7 @@ primer mm hecho luego de la obra sobre array
     Instale vim8 y estoy probando a ver que pasa.
     Hasta ahora todo bien, el problema es que estoy usando una version vieja
     de vimorganizer que ya no es mantenida pero para lo que me entrega el
-    nvim-orgmode esto hace lo mismo y un poco mas pq hace el encabezado en 
+    nvim-orgmode esto hace lo mismo y un poco mas pq hace el encabezado en
     forma automatica, y funciona el tab.
     En realidad tengo el vim8, -que parece ser mas rapido, y no tener el pro-
     blema de las comas, que se mueven raro, pq tenemos ycm. Veremos si sirve
@@ -4331,228 +4331,228 @@ primer mm hecho luego de la obra sobre array
     bajon en el estudio de ingles. No estoy muy motivado a la hora de
     practicar y veo que se me hace complicado el nivel 2 de videos, y baje
     un par de nivel 1 para ir viendo. Igual con las palabras que no estan
-    siendo practicadas correctamente. 
+    siendo practicadas correctamente.
     Algo de interes tengo para js.
 *** [2021-09-20 Mon] quantums
-    paradaso el ingles. lo mas destacable de ayer fue dos videos de la cocina 
-    del codigo, -una serie muy recomendable para js-. 
-    Tomo conciencia que he avanzado un monton pq puse el sitio online y eso es 
-    algo muy importante, mas que todo por todo lo que lleva atras de 
+    paradaso el ingles. lo mas destacable de ayer fue dos videos de la cocina
+    del codigo, -una serie muy recomendable para js-.
+    Tomo conciencia que he avanzado un monton pq puse el sitio online y eso es
+    algo muy importante, mas que todo por todo lo que lleva atras de
     aprendizaje.
-    anoche pensaba que me gustaria al menos tener una hora de estudio intenso 
-    de javascript como se debe y una hora de practica de listening de ingles 
+    anoche pensaba que me gustaria al menos tener una hora de estudio intenso
+    de javascript como se debe y una hora de practica de listening de ingles
     eso diario por lo menos de rutina.
 
-    volvi al nivel 2 de listening, pienso que con un poco de esfuerzo estoy en 
-    ese nivel. Una treta para empezar el listening es empezar con la story que 
-    mas te gusta y luego te enganchas a seguir con la siguiente y asi, total 
+    volvi al nivel 2 de listening, pienso que con un poco de esfuerzo estoy en
+    ese nivel. Una treta para empezar el listening es empezar con la story que
+    mas te gusta y luego te enganchas a seguir con la siguiente y asi, total
     son de 4 min cada una.
 
-    Otro quantum de tarea en ingles es preparar un listening o sea sacar los 
+    Otro quantum de tarea en ingles es preparar un listening o sea sacar los
     terminos y buscarlos para el aprendizaje y la incorporacion de la leccion.
-    Otro quantum es repasar los cubos 2 y/o 3 del anki. 
-    Otro quantum es escuchar una conferencia como la de cambridge-vim que es 
+    Otro quantum es repasar los cubos 2 y/o 3 del anki.
+    Otro quantum es escuchar una conferencia como la de cambridge-vim que es
     bastante entendible y tiene subtitulos originales.
-    otro quantum es leer del libro de js frente a la compu y practicar los 
+    otro quantum es leer del libro de js frente a la compu y practicar los
     ejemplos.
     otro quantum es ver la serie unbreakeable.
     otro quantum es hacer los minutos que pueda de bici.
     otro quantum es releer el diario y/o escribir mas detalladamente
 
-    Hice todos los quantunes y de la variedad saco la energia y la motivacion 
+    Hice todos los quantunes y de la variedad saco la energia y la motivacion
     para hacer otra cosa y asi seguir adelante, con otra cosa.
 
 *** [2021-09-21 Tue]
-    ayer repunto un poco el ingles. aumente a 6 los stories y tuve dos series 
-    de listening. bastante repaso de palabras y la escucha de cambridge que 
+    ayer repunto un poco el ingles. aumente a 6 los stories y tuve dos series
+    de listening. bastante repaso de palabras y la escucha de cambridge que
     avanza bastante.
-    Hoy hice una hora de table/js/practica, muy fecundo cuando empezas a 
-    enganchar. Hice mucha practica de write deck 1 y 3. Y agregue 10 palabras, 
-    tambien pase dos dias de venta. Y tambien hice una miniprogramacion de un 
-    detalle en anki para que se vea por balloon cada vez que pasamos una 
-    palabra cuantas quedan del deck. 
-    A todo esto lamentablemente me esta empezando a doler la cabeza sino 
+    Hoy hice una hora de table/js/practica, muy fecundo cuando empezas a
+    enganchar. Hice mucha practica de write deck 1 y 3. Y agregue 10 palabras,
+    tambien pase dos dias de venta. Y tambien hice una miniprogramacion de un
+    detalle en anki para que se vea por balloon cada vez que pasamos una
+    palabra cuantas quedan del deck.
+    A todo esto lamentablemente me esta empezando a doler la cabeza sino
     seguia con js. Que martirio que es esto por favor.
 *** [2021-09-22 Wed] ted mit cambridge
-    ayer practique bastante ingles y escuche bastantes minutos de conferencias 
-    del mit y cambridge, ambas tienen subtitulos en ingles, y ambas fueron 
+    ayer practique bastante ingles y escuche bastantes minutos de conferencias
+    del mit y cambridge, ambas tienen subtitulos en ingles, y ambas fueron
     bastante comprensibles.
     me agarra la soñolencia y eso que acabo de tomar un cafe.
-    Descubro que se registraron dos sujetos en fedesal que no se si obtuvieron 
+    Descubro que se registraron dos sujetos en fedesal que no se si obtuvieron
     acceso, en teoria no si el esquema anduvo bien.
-    instale fail2fan. hice un registro de logueo exitoso en el sistema. 
-    y tambien hice que quede registrado cuando uno se registra. 
-    no parece ser una amenaza profesional en el sentido que se registra un 
-    email cosa que cualquiera puede hacer, pero eso no significa obtener 
-    acceso al sistema. 
-    tengo que aprender sobre seguridad urgente, por necesidad, suspendo toda 
+    instale fail2fan. hice un registro de logueo exitoso en el sistema.
+    y tambien hice que quede registrado cuando uno se registra.
+    no parece ser una amenaza profesional en el sentido que se registra un
+    email cosa que cualquiera puede hacer, pero eso no significa obtener
+    acceso al sistema.
+    tengo que aprender sobre seguridad urgente, por necesidad, suspendo toda
     otra lectura.
-    escuche un video completo una charla ted de mind maping dado por una 
-    profesora con 4 titulos que me parecio muy inspirador para el uso de esa 
-    herramienta que yo conozco desde hace mas de veinticinco años, pero que no 
+    escuche un video completo una charla ted de mind maping dado por una
+    profesora con 4 titulos que me parecio muy inspirador para el uso de esa
+    herramienta que yo conozco desde hace mas de veinticinco años, pero que no
     le he sacado el provecho que deberia.
-    Desde el punto de vista de la escucha o el listening bien, creo que la 
-    practica me viene bien. Y de paso aprendo temas. 
-    
+    Desde el punto de vista de la escucha o el listening bien, creo que la
+    practica me viene bien. Y de paso aprendo temas.
+
 *** [2021-09-23 Thu] word mind maps - pomodoro times
-    hoy tuve la idea que ya la habia barajado muchas veces de hacer unos 
-    cuantos mapas mentales con las palabras y sus definiciones agrupadas por 
-    temas, como para ir armando una estructura mental un poco mas amplia y 
-    flexible que la que da el sistema anki. 
-    Hice una prueba y es bastante positivo, se puede agrupar bajo un concepto 
-    varias palabras libremente, en algunos mas en otros se agrupara menos. 
-    P.e. hice "fore" y consegui 14 terminos. Lo que no esta nada mal. Y me 
+    hoy tuve la idea que ya la habia barajado muchas veces de hacer unos
+    cuantos mapas mentales con las palabras y sus definiciones agrupadas por
+    temas, como para ir armando una estructura mental un poco mas amplia y
+    flexible que la que da el sistema anki.
+    Hice una prueba y es bastante positivo, se puede agrupar bajo un concepto
+    varias palabras libremente, en algunos mas en otros se agrupara menos.
+    P.e. hice "fore" y consegui 14 terminos. Lo que no esta nada mal. Y me
     parece que es facil de aprender pq esta relacionado.
-    en tres mm hice 58 terminos, lo cual es mas del 10% de la masa de 
+    en tres mm hice 58 terminos, lo cual es mas del 10% de la masa de
     terminos.
-    Es divertido hacerlo y creo que va a resultar en una mejora de la 
-    organizacion de lo que sabemos y en mayor facilidad para recopilar 
+    Es divertido hacerlo y creo que va a resultar en una mejora de la
+    organizacion de lo que sabemos y en mayor facilidad para recopilar
     terminos faltantes.
 
-    Tambien pense luego de escuchar tres ted-talks y entenderlos casi todos 
-    que son dialogos reales destinados a una audiencia nativa, y a una 
-    velocidad normal de habla, o sea discursiva, si es cierto que hay palabras 
-    que no se, y frases, pero podria trabajarlos para incorporarlos y 
-    repetirlos un par de veces. En vez de las lecciones o conjuntamente con 
+    Tambien pense luego de escuchar tres ted-talks y entenderlos casi todos
+    que son dialogos reales destinados a una audiencia nativa, y a una
+    velocidad normal de habla, o sea discursiva, si es cierto que hay palabras
+    que no se, y frases, pero podria trabajarlos para incorporarlos y
+    repetirlos un par de veces. En vez de las lecciones o conjuntamente con
     las lecciones que me da ñañunzio repetir.
-    Y tambien pense que podria cambiar el sistema de las lecciones, por medio 
-    de repetir varias veces en el dia la misma leccion y luego al otro dia 
-    empezar con otra y luego repetir para atras cuando tenga ganas, pero no 
+    Y tambien pense que podria cambiar el sistema de las lecciones, por medio
+    de repetir varias veces en el dia la misma leccion y luego al otro dia
+    empezar con otra y luego repetir para atras cuando tenga ganas, pero no
     obligarme a repetir todo todos los dias.
 
-    Muy positivo el efecto de la escucha de los ted-talks en un solo dia, me 
-    permearon ideas interesantes para poner en practica como los mind maps y 
-    la tecnica pomodoro. Ambos sabidos pero lo recuperas de otra forma. Como 
-    dice la ingeniera 25 minutos lo hace cualquiera o se compromete 
-    cualquiera, y lo que no hay que hacer es pretender resolver todo en esos 
-    veinticinco minutos sino estar concentrados en ese tiempo y luego 
+    Muy positivo el efecto de la escucha de los ted-talks en un solo dia, me
+    permearon ideas interesantes para poner en practica como los mind maps y
+    la tecnica pomodoro. Ambos sabidos pero lo recuperas de otra forma. Como
+    dice la ingeniera 25 minutos lo hace cualquiera o se compromete
+    cualquiera, y lo que no hay que hacer es pretender resolver todo en esos
+    veinticinco minutos sino estar concentrados en ese tiempo y luego
     relajarse.
-    Luego dijo que si uno va mas lento va a aprendiendo de otra forma como un 
+    Luego dijo que si uno va mas lento va a aprendiendo de otra forma como un
     caminante que va apreciando mejor el entorno.
 
-    Muy positivo la practica de pomodoro. Hice dos pomodoros de 25minutos con 
+    Muy positivo la practica de pomodoro. Hice dos pomodoros de 25minutos con
     js, y realmente sirven, pq te conectas dentro del trabajo, te concentras.
 
-    Positivo hoy que hice en la practica las dos cosas que habia escuchado y 
+    Positivo hoy que hice en la practica las dos cosas que habia escuchado y
     las dos fueron barbaro. Para seguir intentandolo.
 
 *** [2021-09-24 Fri] tips alternativo para las mañanas
-    despues de un dia como el de ayer es dificil empezar, o tendria que ser 
+    despues de un dia como el de ayer es dificil empezar, o tendria que ser
     mas facil?.
-    animicamente me levanto pum para arriba y luego choco con la barrera del 
-    comienzo de la "jornada", donde me enfrento a la futilidad y al temor de 
+    animicamente me levanto pum para arriba y luego choco con la barrera del
+    comienzo de la "jornada", donde me enfrento a la futilidad y al temor de
     no estar haciendo nada laboralmente util y que nos estemos fundiendo.
-    Luego cuando el dia va avanzando voy mejorando y me voy entusiasmando en 
+    Luego cuando el dia va avanzando voy mejorando y me voy entusiasmando en
     mayor o menor medida.
-    Tambien puede ser que el comienzo de la "jornada" coincide con la toma del 
+    Tambien puede ser que el comienzo de la "jornada" coincide con la toma del
     migral que me deja turuleco.
-    estoy completamente apolillado y sin ganas de hacer nada. No deja de ser 
-    un golpe animico lo del negocio en especial despues de ayer con el 
+    estoy completamente apolillado y sin ganas de hacer nada. No deja de ser
+    un golpe animico lo del negocio en especial despues de ayer con el
     sincericidio del Fede.
-    Hoy resulto un dia raro pq estuve apolillado y luego tome dos migrales, 
-    tuve mal del dolor, y me levante y tuve una conversacion que no pudo haber 
-    salido mejor, y luego hice una mejora importante al sistema. Igual que 
+    Hoy resulto un dia raro pq estuve apolillado y luego tome dos migrales,
+    tuve mal del dolor, y me levante y tuve una conversacion que no pudo haber
+    salido mejor, y luego hice una mejora importante al sistema. Igual que
     anteayer.
-    
-    Un tips que se me ocurre para evitar el momento laxo de la mañana es 
-    evitarlo, o sea hacer la rutina de levantarse y en vez de prender la 
-    maquina y sentarse al frente inmediatamente, hacer otra cosa, como p.e. 
-    romper recibos escuchando videos, o acomodar el rincon para el escritorio 
-    o la mejor de todas: sentarme a leer material motivante de alguno de los 
-    libros que tengo, o bien un libro de tecnologia y tener a mano la carpeta 
-    para hacer un mm. La cosa es cambiar el lugar en que uno se siente 
+
+    Un tips que se me ocurre para evitar el momento laxo de la mañana es
+    evitarlo, o sea hacer la rutina de levantarse y en vez de prender la
+    maquina y sentarse al frente inmediatamente, hacer otra cosa, como p.e.
+    romper recibos escuchando videos, o acomodar el rincon para el escritorio
+    o la mejor de todas: sentarme a leer material motivante de alguno de los
+    libros que tengo, o bien un libro de tecnologia y tener a mano la carpeta
+    para hacer un mm. La cosa es cambiar el lugar en que uno se siente
     incomodo.
 
 *** [2021-09-25 Sat] hacia un metodo de estudio
-    Mayormente leo, reading in english books of tecnologhy pero mayormente me 
-    enfoco en marcar las palabras que desconozco, recien ultimamente estuve 
-    haciendo un minimo marcado de partes importantes. Lo maximo que llego es 
-    leer frente a la compu y practicar un ejemplo en la compu, o cuando 
+    Mayormente leo, reading in english books of tecnologhy pero mayormente me
+    enfoco en marcar las palabras que desconozco, recien ultimamente estuve
+    haciendo un minimo marcado de partes importantes. Lo maximo que llego es
+    leer frente a la compu y practicar un ejemplo en la compu, o cuando
     estudie python hacer unos apuntes muy deficientes.
-    No hay elaboracion propia de conceptos aprendidos y menos esa elaboracion 
-    es de una calidad superior, como seria p.e. si fuesen mm bien hechos. 
-    Despues quedan los videos que en tiempo pasado mayormente y menos ahora 
+    No hay elaboracion propia de conceptos aprendidos y menos esa elaboracion
+    es de una calidad superior, como seria p.e. si fuesen mm bien hechos.
+    Despues quedan los videos que en tiempo pasado mayormente y menos ahora
     veo/veia que peor aun, pq no hay nada ni anotacion ni practica.
-    Por eso pienso que mi tiempo de estudio es ineficiente. No sirve. No 
+    Por eso pienso que mi tiempo de estudio es ineficiente. No sirve. No
     cuenta.
-    Podria buscar la forma de hacer los pomodoros que pueda en forma muy 
-    eficiente aprendiendo y teniendo la disciplina de hacer el formato 
+    Podria buscar la forma de hacer los pomodoros que pueda en forma muy
+    eficiente aprendiendo y teniendo la disciplina de hacer el formato
     Encontre un articulo bastante completo que puede ser util.
 
 *** [2021-09-26 Sun] los daños de estar sentado mucho tiempo
-    Encontre un video que explica claramente que estar sentado mucho tiempo 
-    sin levantarse y moverse, es dañino y produce que los pulmones se achiquen 
-    y que le llegue menos oxigeno al cerebro. Y que tenga problemas de 
+    Encontre un video que explica claramente que estar sentado mucho tiempo
+    sin levantarse y moverse, es dañino y produce que los pulmones se achiquen
+    y que le llegue menos oxigeno al cerebro. Y que tenga problemas de
     rodilla.
-    Por eso puse un dispositivo para que avise cada tantos minutos y tomemos 
-    un breve descanso de quince segundos al menos. Lo ideal es que luego lo 
+    Por eso puse un dispositivo para que avise cada tantos minutos y tomemos
+    un breve descanso de quince segundos al menos. Lo ideal es que luego lo
     ponga en el config cosa que se active solo con todo tipo de actividad.
 
     Como resumen de metodo de estudio pongo:
     1. usar pomodoros de 25min.
     2. usar activadores de 5min en caso que no arranquemos.
-    3. hacer mm de lo que vayamos estudiando no importa como salgan hasta que 
+    3. hacer mm de lo que vayamos estudiando no importa como salgan hasta que
        vayamos aprendiendo con el tiempo a hacerlos mejor.
 
 *** [2021-09-27 Mon]
     empiezo una semana vamos a ver como se presenta.
-    sigo notando que el mayor problema es comenzar a la mañana, por mas que 
-    tenga la mañana totalmente despejada pq ih se fue a trabajar y se fue 
+    sigo notando que el mayor problema es comenzar a la mañana, por mas que
+    tenga la mañana totalmente despejada pq ih se fue a trabajar y se fue
     temprano, son las 11.30hs y no hice nada.
-    Lo unico que fui haciendo durante estos ultimos dias de setiembre fue una 
-    toma de conciencia en el tema fisico y en la necesariedad de incorporar al 
-    esquema de habits ciertos minihabitos que impactaran sobre la alimentacion 
-    y el movimiento. Los mas importantes son: el desayuno de mijo y la bici a 
-    la tarde. Y tambien los minihabitos evitadores, esos tambien son 
-    importantes pq vienen a evitar rutinas nocivas como tomar gaseosa comer 
-    comidas en mal estado, o comidas chatarra. 
-    Unido al tip de ayer de no estar sentado mucho tiempo y con el programa 
-    que me marca las pausas. 
-    Hice dos pomodoros con anki deck 1 y 2, bastante bien a pesar del 
-    abandono. un 90% de recordacion en escrito, me parece bien. Hay que seguir 
+    Lo unico que fui haciendo durante estos ultimos dias de setiembre fue una
+    toma de conciencia en el tema fisico y en la necesariedad de incorporar al
+    esquema de habits ciertos minihabitos que impactaran sobre la alimentacion
+    y el movimiento. Los mas importantes son: el desayuno de mijo y la bici a
+    la tarde. Y tambien los minihabitos evitadores, esos tambien son
+    importantes pq vienen a evitar rutinas nocivas como tomar gaseosa comer
+    comidas en mal estado, o comidas chatarra.
+    Unido al tip de ayer de no estar sentado mucho tiempo y con el programa
+    que me marca las pausas.
+    Hice dos pomodoros con anki deck 1 y 2, bastante bien a pesar del
+    abandono. un 90% de recordacion en escrito, me parece bien. Hay que seguir
     practicando. Lo de los pomodoros esta bien, y lo de los descansos tambien.
-    
-    Estoy en una meseta de ingles. He perdido la confianza en que pueda 
-    aprender. El descubrimiento de las ted-charlas fue negativo pq me lleva a 
-    interesarme en el tema hasta tal punto de preferir el subtitulo en español 
-    pq me interesa mas el tema que practicar ingles. 
-    Por otra parte no he repetido mas las lecciones sencillas que AG decia que 
-    habia que repetir como listening para aprender. Tampoco hago grammar. Y es 
+
+    Estoy en una meseta de ingles. He perdido la confianza en que pueda
+    aprender. El descubrimiento de las ted-charlas fue negativo pq me lleva a
+    interesarme en el tema hasta tal punto de preferir el subtitulo en español
+    pq me interesa mas el tema que practicar ingles.
+    Por otra parte no he repetido mas las lecciones sencillas que AG decia que
+    habia que repetir como listening para aprender. Tampoco hago grammar. Y es
     muy irregular la practica de anki.
     Si a esto le sumamos que son dias malos de mucho migral es el combo total.
 *** [2021-09-28 Tue]
-    anoche bien pq hice mi primer mm de una lectura que habia hecho de js "a 
-    libro cerrado" o sea con recordacion luego de leido que es como se debe 
-    hacer. 
+    anoche bien pq hice mi primer mm de una lectura que habia hecho de js "a
+    libro cerrado" o sea con recordacion luego de leido que es como se debe
+    hacer.
     Hace falta ademas mucha practica, no porque haga un mm ya sos experto.
     De nuevo la soñolencia matinal, qlp.
-    Hice un pomodoro de js, luego vi el video de this-js de media hora, no 
+    Hice un pomodoro de js, luego vi el video de this-js de media hora, no
     mucho mas. El dia no ayuda para nada.
     Hice una practica del deck 2 completo y nada mas.
-    
+
 *** [2021-09-29 Wed] Eloquent javascript en español
-    anoche decidi que voy a leer dos materiales de javascript en español pq 
-    hasta ahora indirectamente practicaba ingles con la lectura y de paso 
-    usaba la tablet, pero en realidad si tengo un buen material en español no 
-    esta mal usarlo ya que en este caso el objetivo principal es aprender a 
-    fondo javascript. El estudio de ingles va por otro carril. Quizas se 
+    anoche decidi que voy a leer dos materiales de javascript en español pq
+    hasta ahora indirectamente practicaba ingles con la lectura y de paso
+    usaba la tablet, pero en realidad si tengo un buen material en español no
+    esta mal usarlo ya que en este caso el objetivo principal es aprender a
+    fondo javascript. El estudio de ingles va por otro carril. Quizas se
     podria practicar un reading de otro tipo de libro.
 
 *** [2021-09-30 Thu]
     esta buenisimo Eloquent Javascript, para seguir leyendolo por lo menos.
-    Hay una idea ahi para aplicarse a estadistica de pagos que vamos a 
+    Hay una idea ahi para aplicarse a estadistica de pagos que vamos a
     explorar.
 
-    Pude hacer el analisis para dos variables hj y mj (hombre joven y mujer 
+    Pude hacer el analisis para dos variables hj y mj (hombre joven y mujer
     joven), pero pienso que esta mal
 
-    No me exijo nada hoy ni en los dias inmediatos por venir del tratamiento 
-    cortypiren empezado hoy, salvo en momentos en que me sienta realmente 
+    No me exijo nada hoy ni en los dias inmediatos por venir del tratamiento
+    cortypiren empezado hoy, salvo en momentos en que me sienta realmente
     bien.
 
-    El objetivo es terminar javascript en español ambos para fin de año y 
+    El objetivo es terminar javascript en español ambos para fin de año y
     certificar un conocimiento un poco mas avanzado del lenguaje.
-    
+
 ** 2021-Octubre
 *** [2021-10-01 Fri] articulos en ingles
     muy instructivo el articulo sobre metodos de estudio.
@@ -4572,7 +4572,7 @@ primer mm hecho luego de la obra sobre array
     pagando el vps es llegar a 1000 palabras. En palabras trabajando
     sobre articulos como el que lei de los metodos de estudio que
     entendi al 90% y lo mismo contenia cierta cantidad de palabras que
-    me falta conocer. 
+    me falta conocer.
 *** [2021-10-02 Sat]
     No se si fue por el repaso de ayer pero hoy en medio de la
     brumosidad del dolor un monton de palabras me saltaron con sus
@@ -4581,15 +4581,15 @@ primer mm hecho luego de la obra sobre array
     de palabras, eso puede aumentar grandemente la cantidad de
     palabras aprendidas. p.e. willing unwilling willinly unwillingly
     willingless un willingless, tenes 6 palabras de una sola.
-    
+
     Que bueno es estar en emacs al menos en el entorno de orgmode, son
     45 años detras de programacion que hay, mucho hack envuelto en el
-    cual uno apenas si conoce algo. 
+    cual uno apenas si conoce algo.
 
     Analizando someramente el avance semanal, este deja mucho que
     desear, lo cual lleva a preguntarme si realmente deseo estudiar, o
     si es ese el objetivo de mi vida, pq parece que no arranco para
-    ningun lado. O no consigo nada. 
+    ningun lado. O no consigo nada.
     O visto desde otro punto de vista soy muy duro conmigo mismo y en
     realidad aprendi un monton pero de temas muy variados que no sabia
     antes y me permitiron hacer el sistema y que funcione.
@@ -4599,7 +4599,7 @@ primer mm hecho luego de la obra sobre array
     que no se certifico en ninguna materia, encontre una posibilidad:
     Javascript el tutorial, encararlo capitulo por capitulo y si es
     dificil no dejarlo de lado sino repetirlo hasta aprenderlo, y
-    hacer las practicas. 
+    hacer las practicas.
 *** [2021-10-04 Mon]
     ayer tarde y noche lei 3hs el tuto. empezando desde cero. Muy
     interesante. Desde que me destrabe con los ejercicios, si son muy
@@ -4611,15 +4611,15 @@ primer mm hecho luego de la obra sobre array
     pasado en todos los otros anteriores WD. Pero que lindo si asi
     fuera en la vida en la vida real de todos los dias!!.
     Tan enchufado estaba que ya fanteseaba con el "proximo" lenguaje a
-    aprender: kotlin, kivy o scala? 
-    
+    aprender: kotlin, kivy o scala?
+
     Tema: cambiar la ubicacion de la compu de nuevo al
     dormitorio. [ver aparte] Resultado: no se puede pq es muy grande
-    el precio para mi en este momento o sea dejar debian 11. 
-    
+    el precio para mi en este momento o sea dejar debian 11.
+
     Una registracion en fedesal: cerre mas el sistema, directamente
     puse login_required en registrarse y ya no podra registrarse nadie
-    que no haga login en la pagina. 
+    que no haga login en la pagina.
     Lo mismo hay que seguir vigilando.
 *** [2021-10-05 Tue]
     ayer leyendo en ingles comentarios de redes sociales de
@@ -4630,7 +4630,7 @@ primer mm hecho luego de la obra sobre array
     Pero la solucion es agarrar como quiero hacer primero con el
     articulo y buscar las frases y aprenderlas y asi sucesivamente
     hasta ampliar mas el vocabulario.
-    
+
     Anoche tambien perdi casi una hora leyendo alternativa
     doom/spacemacs para emacs, y luego termine dejando pq pense que mi
     flujo de programacion tampoco es tan grande como para que tenga
@@ -4638,7 +4638,7 @@ primer mm hecho luego de la obra sobre array
     dentro de javascript no se que? capaz me voy a vcode, pero yo soy
     del estilo de programar basico, o sea que con un autocompletado
     basico me conformo, pq lo demas lo tengo en la cabeza.
-*** [2021-10-06 Wed] como estudiar un lenguaje for free - python hell 
+*** [2021-10-06 Wed] como estudiar un lenguaje for free - python hell
     ayer vi un video de un autodidacta brasileño que estudio solo
     ingles con exito y dice que primero hay que tener un gran
     proposito o sueño, de aprender el idioma, luego fijarse objetivos,
@@ -4656,37 +4656,37 @@ primer mm hecho luego de la obra sobre array
     aburrimiento o es directamente un cambiarse ante la falta de
     desafio, no lo se. La pregunta es si estoy aprendiendo realmente
     javascript? y pienso que si, que se muchisimas mas cosas que antes
-    no sabia, pero hay ejercicios que todavia no comprendo. 
+    no sabia, pero hay ejercicios que todavia no comprendo.
     Creo que lo mas sensato es seguir las lecturas de javascript y si
     hay mucha necesidad de programar reformular alguna pagina de
     fedesal o agregar alguna funcionalidad.
-    
+
     Me hice dos pomodoros con ingles sacando terminos del articulo en
     forma directa y el otro repasando deck 1 y 2. A pesar de la poca
     willpower que tenia y del dolor de cabeza cursante muy bien!!!.
-    
+
     Tambien la falta de estimulo o incentivo para estudiar in
     abstracto tanto javascript como python es el hacer otro tipo de
     programas que no sean los que siempre hice o sea los de bases de
     datos y relacionados con romitex. No tengo idea en que podria ser
     util hacer un sistema de programacion de otra cosa, por eso o bien
     tendria que replantearme si es esta la materia que realmente me
-    gusta para no perder tiempo y ser tan improductivo. 
-*** [2021-10-07 Thu] 
+    gusta para no perder tiempo y ser tan improductivo.
+*** [2021-10-07 Thu]
     desde anoche leo las dos cosas, js y python, por el momento.
     estando "parado" en la mañana sin poder arrancar, use un tip que
     se me ocurrio varios dias atras o sea hacer cosas fisicas para
     destrabar el problema de la mañana.
-    
+
     Termine el vocabulario del articulo How to Learn Quickly, 32
     nuevas palabras. Muy bueno, pq un gran articulo que lo entendi
     pero habia ciertas palabras que no conocia y tenia que aprender,
     ahora incorporadas al anki.
-    
+
     Hoy dos pomodoros seguidos muy enchufado, pero de python!!,
     positivo. y eso que en un entorno de tranquilidad excesiva pero de
     dolor de cabeza.
-    
+
     Corte la posibilidad de editar orgmode en vim. Todo bien con vim,
     si quiero usarlo para programar como hoy cosas chicas y rapidas o
     luego cosas mas grandes no importa pero orgmode se queda con emacs
@@ -4702,7 +4702,7 @@ primer mm hecho luego de la obra sobre array
     tengo sobre el tema pq no creo que este totalmente olvidado sino
     que solo hay que rescatarlo y comenzar a practicar con rails con
     los nuevos conocimientos adquiridos este ultimo año. En especial
-    de javascript, de vue. 
+    de javascript, de vue.
     No es la primera vez que tengo un hell, los hay y hubo de todo
     tipo vim,emacs,tcl,ruby,python,lua y en realidad no se concretan
     javascript sigue adelante despacito aprendiendose de a poco para
@@ -4711,7 +4711,7 @@ primer mm hecho luego de la obra sobre array
     javascript y en su profundizacion y meterle mas con el ingles. O
     sea hacer un concentrado ingles-javascript para ver que pasa por
     unos dias, dejando para despues incluso python para no interferir.
-    
+
     Con las lecturas se me desenvuelve uno o dos conceptos grandes por
     dia de javascript que no comprendia bien antes.
 *** [2021-10-09 Sat] metodos para english
@@ -4727,14 +4727,14 @@ primer mm hecho luego de la obra sobre array
     Similarmente se podria aplicar a javascript con el cuaderno-agenda
     mas grande, me parece mas practico y usable que las hojas sueltas
     que nunca se usan.
-    
+
     Lo mismo hace falta un enorme esfuerzo de voluntad para pasar de
     la simple lectura o practica de palabras a la escritura, hacer un
     mm, repasar o alguna otra tecnica.
-    
+
     Estoy atravesando una meseta con javascript, no estoy tan animado
     como hace unos dias.
-    
+
     HOy una sesion de programacion de mantenimiento, y al principio un
     poco duro, quizas tenga que hacerlo mas seguido para no perder
     practica en este sistema pq sino estamos fritos, y tambien esta la
@@ -4742,7 +4742,7 @@ primer mm hecho luego de la obra sobre array
     definitivamente. Y de paso dejar la aplicacion mas uniforme de
     mantener, sino en un tiempo me va a tocar mantener algo de vue y
     va a ser dificultoso.
-    
+
     Fructiferas dos horas de practica de ingles en general. Primero
     repase deck uno y dos, luego me puse a leer un articulo sacando
     los terminos. En el medio hice un par de mapitas con terminos
@@ -4766,8 +4766,8 @@ primer mm hecho luego de la obra sobre array
     practica, ademas seguir con la practica del listening, para
     acostumbrar el oido a la interpretacion en volumen real, mas ver
     videos de gramatica que se puedan ver, mas inmersion: lectura,
-    otros videos, teds, etc. series. 
-    
+    otros videos, teds, etc. series.
+
     El otro tema que se me ocurrio anoche es seguirle metiendo en el
     estudio de javascript mas alla de lo usable, sino mas bien
     llegando al nivel teorico. Como esta pasando con el capitulo de
@@ -4787,7 +4787,7 @@ primer mm hecho luego de la obra sobre array
     Recuperado i3 como base de trabajo, me parece mas practico.
     Hice dos tareas de mantenimiento en vscode/vim como para ir
     empezando a programar de nuevo.
-*** [2021-10-14 Thu] "cuadraditos" de ingles - 
+*** [2021-10-14 Thu] "cuadraditos" de ingles -
     Anoche pensaba que como estoy atascado en ingles, implementar una
     base de mini-habitos al respecto:
     1. listening solo 15min o sea 3 episodios
@@ -4795,12 +4795,12 @@ primer mm hecho luego de la obra sobre array
     3. grammar escrita 15min
     A todo esto controlarlo con habits que seria la forma de
     asegurarme que lo estoy haciendo en forma constante.
-    
+
     Puede funcionar por ser cortos y determinados los "cuadraditos" de
     practica y controlados por habits y no me cabe duda que acumularan
     conocimiento de a poco. Peor es lo erratico de no estar haciendo
     nada. Y basarse unicamente en el repaso de los terminos.
-    
+
     puse el safeeyes cada 25minutos para que me sirva como pomodoro, y
     me puse a programar, aunque estuvo cortado pq vino el Fede, creo
     que complete dos pomodoros, y comence en forma satisfactoria el
@@ -4814,13 +4814,13 @@ primer mm hecho luego de la obra sobre array
     dos pomodoros de programacion bastante fructiferos, pasando por
     los temas mas dificultosos. A pesar de que todo es un cortar y
     pegar de cosas que ya tengo hechas, de las cuales no tengo la
-    menor idea. 
+    menor idea.
     Por lo menos tres pomodoros a calculo programando con una agenda
     de programacion bien compacta y entusiasmadora para mejorar al
     sistema. El sistema esta muy bueno y esta bueno seguir programando
     para mantenerse activo y perfeccionando y si es posible
     documentando.
-    
+
     Hoy se marca el dia de la vuelta a Vue (en desmedro de alpinejs)
     como base de desarrollo, alentado por dos articulos que lei uno
     que decia que alpinejs es el hermano menor de vue y puede ser
@@ -4836,16 +4836,16 @@ primer mm hecho luego de la obra sobre array
     toda la mañana programando un monton, termine la gestion de
     asuntos en Vue, seemlessly. Un dulce Vue.
     una programacion bastante compleja toda la gestion de asuntos y la
-    hice en menos de un dia. 
+    hice en menos de un dia.
     Lo bueno seria que las ganas de programar y la inspiracion de
     programar me duraran en forma continua para que cada vez pudiera
     hacer mejores cosas.
-    
+
     Llevo tres dias de cuadraditos de english controlados por habits,
     no va a ser facil, pero pienso que pueden ser efectivos en
     aprender material que de otra forma no estariamos aprendiendo, pq
-    dos son relativos a grammar. 
-    
+    dos son relativos a grammar.
+
     Hice un service de emergencia al sistema pq descubrimos que no
     salian algunas fichas, y era que tenian mal el valor de la ultima
     cuota y yo habia hecho las consultas por ultima cuota en vez de
@@ -4854,10 +4854,10 @@ primer mm hecho luego de la obra sobre array
     pasado de papeles anoche y esta mañana a full.
     anoche en breve relectura creo que voy entendiendo el capitulo
     classes de js. Tengo que hacer los ejemplos de practica.
-    
+
     por un rato tuve un sinatra-hell por su mencion en un libro que
     supe leer. No descarto en algun momento estudiar ruby y rails y sinatra.
-    
+
     muy potente va a resultar el habito de los cuadraditos de ingles,
     pq la grammar se ve de a poco y se asimila despacio no como antes
     que se veian los videos de corrido para terminarlos cuanto
@@ -4870,15 +4870,15 @@ primer mm hecho luego de la obra sobre array
     ficha que no salia y otro error del sistema, luego tener que
     llevar la plata al flete, buscar a ih, etc. Mañana atipica en
     relacion a lo acostumbrado.
-    
+
     Hecho la mitad de la transformacion de ventas.vue refactorizando,
     falta ventas/detalle-venta.
     terminada la refactorizacion de ventas.html. Bastante facil, tengo
-    que probarlo un poco mas pero creo que esta listo. 
+    que probarlo un poco mas pero creo que esta listo.
     Interesante trabajar con objetos que clarifican mucho mas el
     trabajo en vez de trabajar con un monton de variables, y a la vez
     podes trabajar con el mismo nombre de campo y se puede pasar el
-    objeto directamente a flask. 
+    objeto directamente a flask.
 *** [2021-10-19 Tue] descubro obsidean - org-roam
     descubro obsidean que es un entorno muy parecido a org-mode pero
     mas moderno. Estoy dudando en instalarlo pq hace mucho que estoy
@@ -4888,7 +4888,7 @@ primer mm hecho luego de la obra sobre array
     Ya lo instale pero no es tan facil el workflow de anotacion como
     es en orgmode.
     En orgmode existe un sistema similar que se llama org-roam que
-    permite la interconexion de notas con id. 
+    permite la interconexion de notas con id.
 
     Tambien pensaba un sistema de notas hecho en base de datos que se
     pudiera leer por mobil o sea tipo flask-app con mariadb de
@@ -4896,7 +4896,7 @@ primer mm hecho luego de la obra sobre array
     Lo unico que ese campito text no tendria formato, seria medio
     anodino, y la parte grafica dependeria del armado de la pagina que
     yo haga. Pero puede ser un proyecto de programacion para un
-    futuro. 
+    futuro.
     Lo comence al final y ya hice las bases, me falta hacer las rutas
     y la parte estetica, lo mas facil. Pero hoy no estoy de humor para ello.
 
@@ -4907,7 +4907,7 @@ primer mm hecho luego de la obra sobre array
     vuela programando estas cosas faciles que no tienen mucho cortar y pegar.
 *** [2021-10-21 Thu]
     estos ultimos dos dias estoy un poco que no tengo ganas de ver
-    ningun video, ni de leer nada, estoy como fusilado. 
+    ningun video, ni de leer nada, estoy como fusilado.
     Me parece que no me queda nada en la cabeza que no recuerdo
     ninguna palabra de ingles, que es como si no hubiera estudiado
     nada estos ultimos tres meses. Como si la cabeza estubiera embotada.
@@ -4920,26 +4920,26 @@ primer mm hecho luego de la obra sobre array
     Pensaba a la siesta que me falta un sistema de estudio, en general
     que sea eficiente y me sirva a mi. Algo que combine los mm y el
     repaso espaciado, y a la vez la elaboracion del material que no
-    deje solo librado a la lectura. 
+    deje solo librado a la lectura.
 
     Agregue un habit mas para el estudio del ingles controlado por
     habits: words, o sea el repaso de 15 minutos de cualquier deck y
     cualquier sistema.
     Creo que hasta ahora funciona bien la motivacion por el habito
     llevo 8 dias con 45 minutos destinados a esas tareas que puede que
-    no se reflejen mucho ahora pero son acumulativas. 
+    no se reflejen mucho ahora pero son acumulativas.
 
     Es como que no puedo avanzar mas alla de cierto nivel de
     complejidad.
     Me pregunto si la motivacion por aprender me vendria si encaro una
-    nueva materia, p.e. ruby o php-laravel. 
+    nueva materia, p.e. ruby o php-laravel.
 *** [2021-10-22 Fri] php-hell
     anoche destine una hora a php sin mucho entusiasmo por el lenguaje
     en si mismo, solo para ver si picaba. En realidad no se bien que
-    hacer si seguirlo o dejar ahi mismo. 
+    hacer si seguirlo o dejar ahi mismo.
     La verdad que estoy trabado. La unica forma de destrabarse que veo
     es como estoy haciendo con el ingles por medio del habito, pero
-    tampoco puedo recargar mucho o de golpe el habits con estudio. 
+    tampoco puedo recargar mucho o de golpe el habits con estudio.
 
     Hice con cierta soltura la validacion de fechas para pasar ventas
     y fechado.
@@ -4978,24 +4978,24 @@ primer mm hecho luego de la obra sobre array
     repaso futuro, como tengo las fichas de hace tanto tiempo ha.
     El A6 es chico para que sea atomico, no necesariamente tiene que
     contener un monton de informacion, puede ser escrito, puede ser
-    mm, puede ser una tabla. 
+    mm, puede ser una tabla.
     lo que falta es la motivacion, lo que veo renacer en estos dias
     con el ingles, por eso pienso que un metodo completo que envuelva
     las dos partes para los otros temas tambien sera motivante y
-    altamente efectiva con el correr de los dias. 
+    altamente efectiva con el correr de los dias.
 *** [2021-10-26 Tue] ruby puro
     ayer me entusiasme con ruby como lenguaje puro, sin aplicaciones
-    practicas ulteriores. 
+    practicas ulteriores.
     solo por la belleza del lenguaje. Y para leer/aprender algo que no
     sepa, pq leer el libro de flask me esta aburriendo pq ya conozco
     todo lo que dice o la mayoria de las cosas son inaplicables pq son
     obsoletas o no aplican pq se hacen por javascript.
     La diferencia con el ruby-hell del [2021-10-08 Fri] es que este
     saltaba rapidamente a rails dejando de lado ruby, o sea una
-    obsesion por ir a la practica. 
+    obsesion por ir a la practica.
 *** [2021-10-27 Wed]
     ayer hice 5 horas y media de ruby entre lectura del libro y
-    distintos tutoriales. Bastante entusiasmado con el tema. 
+    distintos tutoriales. Bastante entusiasmado con el tema.
     hoy no estoy muy optimo fisicamente para igualar esa marca pero
     sigo enchufado con el tema, igual pienso que para que un proyecto
     como este cuaje tiene que superar la barrera de los 20 dias y
@@ -5018,7 +5018,7 @@ primer mm hecho luego de la obra sobre array
     sin esa traccion y ese ordenamiento que le puso el habits.
 
     Igual hoy con las fichitas de ruby, no tenia ganas de hacerlas, y
-    empece con una sola y termine haciendo 5. 
+    empece con una sola y termine haciendo 5.
 *** [2021-10-28 Thu]
     hoy es el tercer dia de ruby, sigo leyendo y sigo aprendiendo de a poco.
 *** [2021-10-29 Fri]
@@ -5026,7 +5026,7 @@ primer mm hecho luego de la obra sobre array
     rails. Problema ahi. Voy a seguir intentando pq en el pasado no
     tuve problemas, aunque si la instalacion de rails era mas
     complicada que gems install rails.
-*** [2021-10-30 Sat] 
+*** [2021-10-30 Sat]
     estoy instalando ruby y rails desde cero a ver como me va. Si no
     se puede abandono todo y me pongo con python. jaja no era una
     broma.
@@ -5034,7 +5034,7 @@ primer mm hecho luego de la obra sobre array
     pude instalarlo pq segui paso a paso las instrucciones de
     gorails. voy a abrir un archivo rails.org para poner todas las
     cosas resueltas ahi.
-    Ultimo momento!!! python-hell!! abandono de ruby por python. 
+    Ultimo momento!!! python-hell!! abandono de ruby por python.
     pasa con todos los lenguajes, paso con js, con python y ahora con
     ruby, cuando se pone mas complicado, alli lo abandono. Pero en
     ruby no he hecho nada todavia.
@@ -5046,7 +5046,7 @@ primer mm hecho luego de la obra sobre array
     15 a 30 minutos cada uno
 ** 2021-Noviembre
 *** [2021-11-01 Mon]
-    7to mes consecutivo de registros: may-jun-jul ago-set-oct nov 
+    7to mes consecutivo de registros: may-jun-jul ago-set-oct nov
     lo unico que tengo al dia de hoy es el ancla de los cuadraditos
     que ha impedido que naufrague en la inconsistencia el proyecto de
     estudiar ingles.
@@ -5055,8 +5055,8 @@ primer mm hecho luego de la obra sobre array
     pero con el atenuante de que todo esto esta en el marco de una
     crisis sin precedentes de energia quizas producida por la toma del
     corticoide. O sea sobrevivo cada dia como puedo, no puedo
-    pretender mas. 
-*** [2021-11-02 Tue] vuelta a ruby 
+    pretender mas.
+*** [2021-11-02 Tue] vuelta a ruby
     hoy comence a pintar la galeria asi que no hice nada en la mañana.
     Ayer hice algo de python en practica y vi unos videos, me gustaria
     ver videos de un tema por vez hasta dominarlo por completo
@@ -5072,13 +5072,13 @@ primer mm hecho luego de la obra sobre array
     En otro orden, hoy se demostro que habits tira fuerte cuando la
     situacion es adversa, hoy los cuadraditos no se hubieran hecho
     para nada, sin embargo los hice, con dolor de cabeza y todo, pq no
-    queria romper el invicto. 
-*** [2021-11-03 Wed] busco un libro de Ruby para leer 
+    queria romper el invicto.
+*** [2021-11-03 Wed] busco un libro de Ruby para leer
     anoche vi I love Ruby libro y me parece intermedio y bueno como para
     leerlo en este momento en que se algo del lenguaje pero me falta
     completar algunos huecos. Empece pero no me gusto.
     Ahora estoy probando con Eloquent Ruby.
-*** [2021-11-04 Thu] 
+*** [2021-11-04 Thu]
     es lindo eloquent ruby, pero es muy complicado de leer el ingles
     que tiene, o sea es muy avanzado, comparado con el otro de
     matz. Practicamente no le entiendo. Asi que no me sirve mucho.
@@ -5096,24 +5096,24 @@ primer mm hecho luego de la obra sobre array
     muy lento avanza la lectura de ruby. Esta bien hay dias que leo
     dos horas, pero ayer solo 25min... Pienso que tendria que leer al
     menos dos horas por dia para que avance un poco. Lo que sea de ruby.
-    
+
     ¿Avanzan los cuadraditos? a veces pienso que no pasa nada, que
     nunca voy a aprender ingles para nada, pero luego veo que al menos
     los cuadraditos me mantiene estudiando en forma constante, todos
     los dias, algun dia se veran los resultados
 *** [2021-11-07 Sun]
    solo lectura paciente se va incrementando de a poco la comprension
-*** [2021-11-08 Mon] 
+*** [2021-11-08 Mon]
     tema aspero el ultimo leido de ruby clausuras, proc, lambdas,
     bloques, y busque esos titulos en la web en español y lei dos o
     tres articulos y llegue a entender bastante bien la cuestion, por
     lo cual pienso que hay que seguir investigando y leyendo para
     aprender mas.
-    
+
     Otro tema: hoy pensaba que los cuadraditos no los hacia pq estaba
     muy desalentado, y como siempre que estoy asi empiezo por lo mas
     dificil y empece por practice y luego con word, y ya lo que me
-    falta es nada, asi que no me hace problemas. 
+    falta es nada, asi que no me hace problemas.
 *** [2021-11-09 Tue] Ruby Monks
     encontre anoche una pagina de ruby con un material muy bueno para
     leer progresivamente ruby, ampliaremos.
@@ -5136,10 +5136,10 @@ primer mm hecho luego de la obra sobre array
     ruby-python y empece a leer python de nuevo. Parte porque no le
     veo continuidad en el futuro al resultarme incomprensibles los que
     siguen o sea sinatra, rails, hanami, etc. y no porque me falten
-    muchos temas por ver de ruby. 
+    muchos temas por ver de ruby.
     No se todavia estoy a tiempo de recapacitar y seguir viendo si le
     encuentro la vuelta.
-    
+
     Estoy aflojando en mi fuerza de voluntad respecto a los
     cuadraditos, se que el habit es poderoso y lo lleva adelante pero
     me parece muy duro hacerlo 7 dias a la semana, o querer hacerlo 7
@@ -5162,7 +5162,7 @@ primer mm hecho luego de la obra sobre array
     No se que hacer. Si tirar todo a la mierda o dejar pasar un rato y
     despues seguir como si nada.
     El no-willpower se manifiesta con una soñolencia atroz. Y un
-    desgano total. 
+    desgano total.
     Hace muchos años lei que cuando uno atraviesa un bache asi lo
     mejor es levantar el pie del acelerador y esperar que pase, y
     luego seguir, no desesperar no frenar no volver atras, no destruir
@@ -5181,14 +5181,14 @@ primer mm hecho luego de la obra sobre array
     3. la practica de words
     4. la practica de grammar
     Estos dos ultimos items seran controlados a diario por habits,
-    practica de words y grammar. 
+    practica de words y grammar.
     Con esto pienso que aumentare el caudal de palabras manejadas y de
     conocimiento gramatical para entender mas el reading.
-    
+
     Plan inmersion python: me-gustaria un plan inmersion total en
     python que consista en lectura de articulos y practica de codigo,
     con anotacion de fichas si se puede.
-    
+
     Instale lubuntu en la maquina vieja para tener mayor comodidad de
     teclado y raton en el escritorio, y para tener sonido desde la
     compu para ver videos y porque se me canto. Y tambien por los
@@ -5234,16 +5234,16 @@ primer mm hecho luego de la obra sobre array
     considero una salvacion de la situacion pq me da la posibilidad de
     hacer algo, y ni hablemos de las otras cosas como estudiar algo,
     ver un video o programar. Me agarra la soñolencia extrema y eso
-    que recien me levanto y no puedo estar. 
+    que recien me levanto y no puedo estar.
     A la noche no leo nada, hace mucho que no leo ningun material no
-    veo ningun video, tengo la cabeza quemada. 
+    veo ningun video, tengo la cabeza quemada.
     Aparte del hecho de que estoy monotematico con la programacion
     como unico tema y dentro de la programacion me obligo a elegir un
     solo tema que en este momento seria python. No tengo cabida a otro
     tipo de libros o de intereses de ningun tipo.
     Pero asimismo no se concreta, o sea no hay una concrecion en ese
     monotema en el sentido de que tampoco es que lo ponga en practica.
-    
+
     El otro dia me pregunte si acaso el problema estaba en la materia,
     si no era acaso que no me gustaba quizas el tema, que dedicandome
     a otra cosa quizas me fuera mejor. Y no encontre respuesta.
@@ -5255,7 +5255,7 @@ primer mm hecho luego de la obra sobre array
     fallado, en falta, etc me impide hacer quizas un monton de cosas
     que podria hacer si me pusiera y a lo mejor las disfrutaria mas.
     Por ejemplo todas las tareas de renovacion que pensaba hacer en la
-    casa una vez dividida. 
+    casa una vez dividida.
     Es como que "tengo que hacer algo" pero en el fondo no hago nada,
     pero esa consciencia de "tener-que-hacer-algo" es alienante.
 
@@ -5264,7 +5264,7 @@ primer mm hecho luego de la obra sobre array
     meta bastante realizable y se puede seguir traccionando hacia
     adelante en el aprendizaje en un ritmo normal, tranquilo y sin
     pausa.
-    
+
     Se podria cambiar esta bitacora a agenda general en vez de agenda
     de estudio.
 
@@ -5281,8 +5281,8 @@ primer mm hecho luego de la obra sobre array
     concentrarme en nada. Es como si tuviera la memoria llena, tengo
     la cabeza llena de pensamientos de todo tipo que me vienen del
     pasado de todas las epocas posibles y me trastornan el presente y
-    no puedo hacer nada. 
-    Tengo que tenerme un poco de paciencia en este momento. 
+    no puedo hacer nada.
+    Tengo que tenerme un poco de paciencia en este momento.
 *** [2021-11-21 Sun]
     por un momento luego de tomar el migral me sobrevino una sensacion
     de bienestar o sea de poder cambiar de hacer cosas. Y alli pense
@@ -5303,7 +5303,7 @@ primer mm hecho luego de la obra sobre array
     dos minutos, que superando la barrera de los dos minutos se
     encuentra la motivacion para hacer las cosas que evitamos porque
     consideramos el total de lo que queremos hacer y llegamos a
-    overwhelming (abrumarnos). 
+    overwhelming (abrumarnos).
     ayer hice 45 minutos de grammar y otros tantos de words, tanto en
     agregar un par de palabras mas como en una reiterada practica
     durante el dia.
@@ -5343,7 +5343,7 @@ primer mm hecho luego de la obra sobre array
     cosas.
     No se si se repetira, habra que probar otras veces y ver pero fue
     muy positivo.
-*** [2021-11-26 Fri] 
+*** [2021-11-26 Fri]
     probe por segunda vez el metodo y funciono bastante bien, con un
     objetivo mayor incluso que ayer, pq me limpie el living, con mopa
     y todo algo que nunca lo habia hecho y no senti ni sofocon, ni
@@ -5372,12 +5372,12 @@ primer mm hecho luego de la obra sobre array
     Es cierto a nivel estudio estoy mal. Atravieso un bache a nivel
     ingles, pensando que es enorme lo que hay que saber y que nunca lo
     voy a alcanzar. Y a nivel programacion una desmotivacion total,
-    que impide todo avance en el tema. 
+    que impide todo avance en el tema.
     A nivel animico estoy muy bien, quizas estoy con el mejor de los
     animos, pq tengo alguito de energia, que me permite encarar
     algunas cosas, tendria que ver cuales. Y volver a articular la
     fuerza de voluntad para querer poder hacer algo, o sea revitalizar
-    el habits. 
+    el habits.
     Me parece que en los ultimos tiempos funcionaba en formato
     supervivencia unicamente o sea que solamente pensaba en como pasar
     el dia y llegar a la noche para acostarme de nuevo.
@@ -5391,7 +5391,7 @@ primer mm hecho luego de la obra sobre array
     a la tarde tengo que terminar de pasar las ventas. Pero al menos
     dormire un poco de siesta despues de comer. De estudio nada de
     nada.
-*** [2021-12-01 Wed] 
+*** [2021-12-01 Wed]
     dia sin registros.
     lo unico que hice fue leer Focus y ver series y declararme
     totalmente aburrido a eso de las 5 de la tarde.
@@ -5403,13 +5403,13 @@ primer mm hecho luego de la obra sobre array
     de estudio, o tareas de trabajo. Luego podre cancelar o posponer
     algun compromiso no hay problema pero no es lo mismo a no tener
     ninguna idea de lo que tenes que hacer en el dia, a tener mas o
-    menos un esquema de actividades. 
+    menos un esquema de actividades.
     Ejemplos de actividades:
     1. tostar y moler sesamo.
     2. limpiar la habitacion.
     3. ir a comprar a la dietetica. o algun otro lado.
     4. llevar el auto al lavadero.
-    
+
     Ayer en el medio del marasmo mas absoluto porque no solo era
     fisico sino animico, pq habia llegado luego de dos capitulos de
     series al aburrimiento mas a fondo, salgo al patio y me pongo a
@@ -5417,9 +5417,9 @@ primer mm hecho luego de la obra sobre array
     todo, tanto de la debilidad como del aburrimiento, pero tenes que
     tener algo que hacer.
 *** [2021-12-03 Fri]
-    el estudio esta completamente parado. 
+    el estudio esta completamente parado.
     el animo esta bien, pero no tengo ganas ni impulso de hacer nada,
-    no tengo fuerza de voluntad para hacer nada de nada.  
+    no tengo fuerza de voluntad para hacer nada de nada.
     puede ser que en otro momento retome quizas. Ya me ha pasado antes
     estar asi sin ningun tipo de motivacion y luego empece con ganas
     de hacer cosas.
@@ -5435,25 +5435,25 @@ primer mm hecho luego de la obra sobre array
     calles y acordarme de todo, pq no fue tanto cortar y pegar, sino
     entender todo y recordar todo.  Y lo magnifico fue como se pasa el
     tiempo sin que te des cuenta, fueron como dos horas pienso en que
-    ni me di cuenta que el tiempo pasaba. 
+    ni me di cuenta que el tiempo pasaba.
 *** [2021-12-08 Wed]
-    dia feriado. Pase dos cobradores. Y nada mas por el momento. 
+    dia feriado. Pase dos cobradores. Y nada mas por el momento.
 *** [2021-12-10 Fri]
    hace mucho que no estoy en un marasmo tan profundo, pienso que
    cuando no registraba nada en emacs, o sea el periodo que va de
-   enero a mayo del año pasado, es como ciclico el asunto. 
+   enero a mayo del año pasado, es como ciclico el asunto.
 *** [2021-12-11 Sat] cuadraditos varios controlados
     ayer hice algo diferente para recomenzar: me puse a leer ruby en
     la tablet media hora y eso me motivo, luego hice 15min de grammar
     y 15min de words.
     Ademas llegue a la conclusion que puedo encarar distintos
     proyectos de "15min por dia" controlados por habits para ir
-    llenando el dia con cosas por hacer. 
+    llenando el dia con cosas por hacer.
     Pienso que la clave esta en la limitacion del tiempo, pq si uno
     hace tiempo libre puede que un dia motivado haga hora y media pero
-    luego no haces mas. 
+    luego no haces mas.
     Y todo acompañado con la "tecnica del recupero" o sea al finalizar
-    tratar de rememorar a libro cerrado lo que uno leyo o vio. 
+    tratar de rememorar a libro cerrado lo que uno leyo o vio.
 *** [2021-12-12 Sun]
     ayer hice la rutina de cuadraditos pero le falta mucho para ser habitual.
 *** [2021-12-13 Mon]
@@ -5463,7 +5463,7 @@ primer mm hecho luego de la obra sobre array
     js para no olvidar los temas de js que tanto me han beneficiado.
 *** [2021-12-14 Tue]
    sin registro pq es lamentable el abandono en este ambito
-*** [2021-12-16 Thu] 
+*** [2021-12-16 Thu]
     sigo registrando los dias vacios nomas.
 *** [2021-12-17 Fri]
     idem
@@ -5491,20 +5491,20 @@ primer mm hecho luego de la obra sobre array
     la limpieza sea muchisimo mas facil)
     Luego del experimento me sente a la maquina a escribir esto y ya
     me estan volviendo los sintomas tipicos de siempre, bostezos,
-    vagancia, imposibilidad, sueño. 
+    vagancia, imposibilidad, sueño.
 *** [2021-12-23 Thu] experimento actividad II
     estaba acostado en la siesta pero no tenia sueño y me decidi a
     hacer una tarea grande: limpiar el living y la cocina o sea pasar
     el piso. Ahi nomas me levante y sin ningun problema hice el
     trabajo que es bastante pesado de por si, demore 55 minutos. Parte
-    con aire en el living y parte sin aire en el patio y cocina. 
+    con aire en el living y parte sin aire en el patio y cocina.
     De ahi quede motivado y luego me sente en el living he hice todos
     los cuadraditos de ingles, y 45 minutos de nietzsche.
 *** [2021-12-24 Fri]
     hoy me levante motivado por el experimento de ayer aunque el
     cuerpo presenta sintomas de bajon habituales, pero dejo para la
     tarde la labor que comprometi de arreglar el patio.
-    
+
     Va tomando cuerpo la lectura en los dias en que me dedico a ella,
     como ayer, que me entusiasmo el libro de nietzsche y el de
     ñamerica.
@@ -5514,10 +5514,10 @@ primer mm hecho luego de la obra sobre array
     idea de "estudiar" en forma compulsiva u "obligada", queda la
     lectura que se hara si se quiere y si uno se engancha y en el
     futuro el ingles si uno se engancha, pero no ya como algo
-    controlado. 
+    controlado.
     Si tratare de enfocar la atencion en lograr objetivos fisicos que
     hagan a la mejora del estado fisico y la salud en general. Como la
-    caminata. 
+    caminata.
     No solo habra mas ocupacion en relacion al trabajo en si sino que
     puede que en los dias que este en la casa tenga tarea concreta de
     programacion, que provenga de necesidades concretas del uso y bugs
@@ -5547,16 +5547,16 @@ primer mm hecho luego de la obra sobre array
     luego encarar soluciones/mejoras esteticas por parte, como puede
     ser pintar arreglar el frente, o arreglar el baño, o hacer un
     placard en la habitacion, o bien en aspectos mas practicos como
-    liberarse de los gatos, perros, tortugas, etc. 
+    liberarse de los gatos, perros, tortugas, etc.
     O en el espacio cocina (muebles-alacena-heladera) pueda tener lo
     necesario y a mano para cocinarme lo que me haga falta y me guste
-    a mi. 
+    a mi.
 ** 2022-Abril
 *** [2022-04-26 mar]
     solucion a la usabilidad de la vista de calle para el trabajo en
     zona, que tenia un select que era inusable en el celu.
-    
-    Algunas incipientes lecturas de ruby. 
+
+    Algunas incipientes lecturas de ruby.
 *** [2022-04-27 mié]
     se acabaron las lecturas de ruby, o por lo menos no se transforman
     en nada en serio, no hay voluntad para hacer nada en serio, por el
@@ -5593,7 +5593,7 @@ primer mm hecho luego de la obra sobre array
        olvidemos el tema y quisieramos retormarlo sin tener que volver
        a la fuente original.
     3. y todo en un solo archivo.
-    
+
     Primer dia abri dos archivos ruby y rails, hice tres horas, lo
     malo es el dolor de espalda, pero me mantiene entusiasmado, en
     rails no anote mucho pero voy haciendo paso a paso lo que voy
@@ -5633,12 +5633,12 @@ primer mm hecho luego de la obra sobre array
     bien pienso que volvemos a lo de antes o sea a la elegancia y
     fortaleza de ruby como lenguaje pero no muy aplicable a la web en
     si pq la web esta totalmente comandada por lo que podes hacer con
-    html/css/js y sus derivados vue y alpine. 
+    html/css/js y sus derivados vue y alpine.
 *** [2022-07-31 dom]
     luego de un atascamiento con sequel, logre avanzar un poco
     arrancando con Active Record, por lo menos para darle forma al
     anki.rb, creo que de una forma mas elegante que con py. La unica
-    contra es el nombre de la tabla ankis->Anki. 
+    contra es el nombre de la tabla ankis->Anki.
 ** 2022-Agosto
 *** [2022-08-01 lun]
     es monumental el programa de anki, aunque parezca poca cosa, o
@@ -5683,7 +5683,7 @@ primer mm hecho luego de la obra sobre array
     Bastante bien para una jornada de trabajo. Luego seguire en la
     semana con ruby hasta que tenga la tablet-trucha para leer-pdfs
     con mas comodidad.
-*** [2022-08-19 vie]   
+*** [2022-08-19 vie]
     hoy he programado un monton, he hecho el sistema de login/logout
     para sinatra y algun trabajito para python/flask.
     Creo que estoy en camino de aprender mucho mas de ruby en el
@@ -5695,7 +5695,7 @@ primer mm hecho luego de la obra sobre array
     luego de un tiempito empieza un python-hell cada vez mas grande
     que me desenfoca de mi concentracion unica en ruby.
     Hoy estoy desencantado pq me aumento la tablet barata que queria
-    comprar para leer pdf. 
+    comprar para leer pdf.
     Me parece que en Real Python hay muchisimo material como para
     estudiar lo que quiera si es que sigue free.
 *** hacer un log de anki-sinatra
@@ -5705,12 +5705,12 @@ primer mm hecho luego de la obra sobre array
 *** [2022-08-24 mié]
     el python-hell se decidio al final para estudiar python siguiendo
     el "path" de python.course.eu que es completo hasta el extremo, y
-    lo puedo leer en el celu, no necesito la tablet. 
+    lo puedo leer en el celu, no necesito la tablet.
     Pero... conservo el anki en ruby-sinatra para tener una coneccion
     con ruby, y conservo la pestaña abierta de odin-project para
     seguir con la lectura de ruby.
     Nada costaria, dedicarle una horita por dia a seguir leyendo ruby.
-*** [2022-08-25 jue] pycharm 
+*** [2022-08-25 jue] pycharm
     hoy gran avance en la lectura y practica de py. A la noche ya
     tarde baje pycharm que es excelente para el desarrollo.
 *** [2022-08-27 sáb] twilio santander
@@ -5722,11 +5722,11 @@ primer mm hecho luego de la obra sobre array
     pycharm es excelente, te da gusto desarrollar alli.
     hoy surgio tambien la necesidad de una programacion en el sistema
     para agregar una caja de banco.
-*** hacer visor de apache2.error dentro del sistema 
+*** hacer visor de apache2.error dentro del sistema
     p.e. www.fedesal.lol/error
 *** [2022-08-31 mié]
     lo que empezo el sabado 27, ya estuvo implementado el lunes 29.
-    avanza la lectura de python. anoche un micro julia.hell. 
+    avanza la lectura de python. anoche un micro julia.hell.
     pero me resuenan las palabras de quora: "mejor saber un lenguaje
     bien que dos mas o menos". Viendo una minifuncion (cipher) hecha
     en python y en ruby, es mas linda en ruby, pero python es mas
@@ -5767,12 +5767,12 @@ primer mm hecho luego de la obra sobre array
 *** [2022-09-15 jue]
     hoy trabaje todo el dia en vim, cada vez con mas efectividad y
     rapidez.
-    el control de actividad con org-mode tambien va muy bien. 
+    el control de actividad con org-mode tambien va muy bien.
 *** [2022-09-16 vie] planes de estudio // emacs-hell!!!
     pienso que en esta nueva etapa de home-dev tengo que trazar bien
     claro un plan de estudios paralelo al desarrollo para ir creciendo
     profesionalmente tambien y que no solo sea desarrollar hasta el
-    punto de lo que he aprendido. 
+    punto de lo que he aprendido.
 **** tablet o ipad para lectura de pdf
 **** ingles
 
@@ -5804,7 +5804,7 @@ usando como base canvas o edit o web y con los menus salgamos con
 toplevels a hacer funciones extras. De paso puedo ir revisando todos
 los programas actuales para ver lo que realmente se usa de lo que no
 se usa, y lo que se usa hacerlo bien, o rehacerlo de otra forma o de
-la misma forma pero mas simple quizas. 
+la misma forma pero mas simple quizas.
 *** paciencia con el trabajo
 tener este log en el directorio nuevo, comenzar de nuevo, loggear
 tiempo de trabajo y resumen de avance dia a dia, y llevar un registro
@@ -5863,13 +5863,13 @@ tiempo, pq el aprendizaje fue hecho no por el lado del crud, como en
 laravel/rails que son bastante similares, sino por otro tipo de pagina
 (un blog) y querer aplicar esos conocimientos a mi crud era muy
 dificil. Luego de bastante reniegue con django no fui capaz de tener
-ni un solo formulario propio ni mas elemental. 
+ni un solo formulario propio ni mas elemental.
 Pero luego de considerar que django fue un error, a pesar de lo lindo
 que se veia, y volviendo a la dupla laravel/rails como hermanos
 gemelos, en ambos tenia el mismo problema, mis conocimientos de php
 son 1.5 del 1 al 10 y de ruby del 3 de 1 al 10. Una cosa es copiar y
 consultar lo mas minimo otra cosa es saber programar en el lenguaje
-base. 
+base.
 Por eso pienso que quiero aprender a programar en ruby desde cero y
 bien, o sea aprenderme todos los trucos, y agarrarle practica. Tendria
 que tener hecho unos 100 programas, ponele que no haga tantos, que
@@ -5893,7 +5893,7 @@ ventajas de la seguridad frente a la penalizacion de unos segundos mas
 en el arranque.).
 El tema es que no es banal el tiempo invertido en el cambio, y no
 puede ser tomada tan rapidamente la decision o sea en cuestion de
-minutos. 
+minutos.
 ** idea encarar php-mysql
 o sea el clasico lamp, por una cuestion de disponibilidad de
 servidores mas baratos.
@@ -5910,7 +5910,7 @@ lo nuestro. No venderemos a traves de la web y o al menos no un
 desarrollo propio. al menos que dedique un año o mas al desarrollo.
 Hablemos del corto plazo.
 Tambien esta el tema de que yo quiero programar, no solo estar en ese
-agonico proceso de aprendizaje sin final. 
+agonico proceso de aprendizaje sin final.
 Tiene que ser un gran proyecto ya sea en tcl o en python-tcl, a
 eleccion ambos tienen sus pros y contras.
 Despues de un breve analisis obtuve algunas respuestas:
@@ -6006,7 +6006,7 @@ parte del proyecto, revisando la base de datos, haciendo mas triggers,
 etc.
 El Miercoles descubro LUMEN que es un microframework de Laravel y
 empiezo a leer y a aprender sobre el, y a practicar un poco sobre
-eso. 
+eso.
 Creo que la semana que viene tendria que terminar el proyecto y seguir
 estudiando Lumen y Vue.
 ULTIMO MOMENTO!!!! anoche me tope con ruby on rails y me pico el
@@ -6136,7 +6136,7 @@ solo hacer el ln -s en .emacs.d/ a la carpeta orgblok o sea mejor que
 antes.
 Pero puedo seguir con vscode pienso.
 Bastante regular la experiencia con vscode. No fue tan lisa y llana
-como pense. Quizas siga con emacs. 
+como pense. Quizas siga con emacs.
 Esta mañana habia tenido la idea de esqueletos de diseño. O sea
 p.e. la estructura {% extends "base.html" %} etc se repite en todos
 los templates, por lo tanto tenerlo como un boilerplate, y tambien se
@@ -6171,7 +6171,7 @@ instalaciones de rails, e incluso tomando como ejemplo lo hecho pude
 mejorar una de las vistas que tenia a medio hacer. Me lei tres
 capitulos del libro y pienso que puedo avanzar un poco aunque no
 espero mucho de alli. Me parece solido, puede que se pueda ir
-programando un sistema con el tiempo. 
+programando un sistema con el tiempo.
 [2020-07-11 Sat] ayer decidi que tengo que estudiar de abajo no hay
 forma en este tipo de programacion de programar como lo venia haciendo
 salvo retomar un proyecto tcl de nuevo y hacer todo de vuelta como lo
@@ -6251,7 +6251,7 @@ llego a la conclusion de que no va mas.  Hasta diria que no va mas el
 desarrollo web. Estoy cerrando casi un periodo de mes y medio en el
 cual parece una risa el raid que he corrido he pasado por todos y no
 he llegado a nada. Y hoy vuelvo al principio en el ultimo intento que
-hago en el campo web. 
+hago en el campo web.
 Hay mucho hecho en laravel, y en rails que son los dos en los que hice
 algo de mi sistema pq en django solo segui un ejemplo de libro. Creo
 que conviene ahora resumir toda la experiencia lograda y hacer un
@@ -6296,7 +6296,7 @@ dentro de si misma y es atrapante se te pasa el tiempo volando. Pienso
 que tengo varias horas por delante de entretenimiento denso sobre eso.
 La idea es que toda la logica este en las clases y que en el programa
 solo se usen las clases en procedimientos. A su vez las clases son
-agnosticas de database, pq usan tdbc. 
+agnosticas de database, pq usan tdbc.
 [2020-07-27 Mon] creo que tantas idas y vueltas me han dejado mareado
 en cuanto a cual es el proyecto, y tengo muy poca capacidad de
 mantenerme en un proyecto por un tiempo lo suficientemente largo,
@@ -6321,7 +6321,7 @@ de anotamiento de ideas, de registro, y de organizacion en general de
 escritos. No he querido meterme en la vaina de perder el tiempo de
 bajarme el evil-mode pq no quiero aprender otra cosa que no me hace
 falta, creo que soy ambidiestro y se los dos programas, pero que me
-resulta mas agil vim para programar. 
+resulta mas agil vim para programar.
 [2020-07-31 Fri] hoy es el dia de practica de evil-mode y hasta ahora
 bastante funcional y podes tener las teclas de los dos sistemas
 bastante bien.
@@ -6357,12 +6357,12 @@ programar y emacs para orgmode, asi como ha sido y asi seguira siendo.
  ambas dependientes de debian-10, felizmente tengo el tino de no
  cambiar el SO de produccion hasta tanto estar bien seguro de que
  conocemos y tenemos confianza plena de que no vamos a romper las
- cosas. 
+ cosas.
  Volviendo a la programacion a veces se hizo tediosa, y a veces
  gloriosa, lo interesante es como lleva tiempo y trabajo un set de
  programas de escritorio de de lo que sea, pq es software y el
  software falla y hay que corregirlo y reescribirlo y depurarlo, y
- luego queda documentarlo. 
+ luego queda documentarlo.
  Pienso que el proyecto va bien, pq va madurando, si puedo seguir en
  el dos semanas mas como hasta ahora pienso que lo termino y lo pongo
  funcional, pq estoy en condiciones de aprehenderlo, o sea de tener la
@@ -6397,11 +6397,11 @@ falta de un widget nativo de table. Hay un par desarrollados en
 python, pero sin la potencia de tablelist y hay que aprenderlos, y
 sobre usar tablelist como lo hacia yo dentro de tkinter no hay nada de
 nada, ni siquiera encuentro la pagina original, por lo cual poco se
-puede hacer o pensar en desarrollar con una base tan intexistente. 
+puede hacer o pensar en desarrollar con una base tan intexistente.
 Y me entretuve un rato pensando y haciendo una especie de tablelist
 propio desde cero usando un grid de labels, pero muy incipiente. Puedo
 llegar a pasar 100 horas jugando con esa idea y no tener ni la mitad
-de lo que haria falta para trabajar decentemente. 
+de lo que haria falta para trabajar decentemente.
 Todo esto es una muestra de lo debil que son mis posiciones y como
 cuando llego a un punto de que hay que persistir, desgastarse,
 aguantar, aprender, sortear obstaculos, simplemente abandono por otro
@@ -6414,9 +6414,9 @@ pensar en lo titanico de la labor, pq es empezar todo de cero,
 absolutamente de cero, incluso sin el aporte de tablelist, por no
 considerarse algo apto y factible de ser usado con seguridad. Que
 proponemos usar otro tipo de tablas o seguir con lo delirante de
-hacerse una tabla propia?. 
+hacerse una tabla propia?.
 Es algo serio el tener una improductividad tal que no podamos terminar
-ningun proyecto. 
+ningun proyecto.
 Dandole vuelta al asunto una repuesta que se me ocurre es la
 siguiente: todo este tiempo ha sido dar vueltas y vueltas sobre lo
 mismo, o sea reescribir los mismos programas, con la misma apariencia
@@ -6441,7 +6441,7 @@ los dos wraper que ya no existen directamente en internet, lo cual es
 muy riesgoso. Y aunque echas a andar un esqueleto de notebook, te
 paras frente a 5000 lineas de codigo, para algo que ni siquiera estaba
 optimizado, mas 2300 del lib, son 7300, o sea algo que realmente
-pesa. 
+pesa.
 Me parece que aunque este desencantado con la marcha del proyecto tcl
 o trabado en algunas partes tendre que continuar en el.
 Repensando pense que si podia tener una maqueta o sea un provisorio
@@ -6462,8 +6462,8 @@ adelante con el proyecto, pq en windows directamente no anda. Y eso me
 deja solamente con la perspectiva de elegir un framework y seguir un
 desarrollo web, que en este caso seria flask y hacer una pagina web o
 una app web que sirva al proposito nuestro, pero para ello tengo que
-aprender un monton, no basta con saber un poquito. 
-Quizas ya no tenga mas nada que hacer en esto. 
+aprender un monton, no basta con saber un poquito.
+Quizas ya no tenga mas nada que hacer en esto.
 A partir de [2020-08-12 Wed] enteramente volcado al futuro con flask
 para bien o para mal. Uno empieza a programar en un lenguaje cuando
 empieza a hacer cosas por si mismo, y se sale del libreto por mas que
@@ -6492,7 +6492,7 @@ receta magica copiada de medium que no entendia ni jota y era dificil
 de seguir. Con esto como base pienso mañana ir por una aplicacion de
 busqueda de datos simple que tome el dni y entregue datos del cliente,
 saldo, cuotas, etc. Lo que podria ser el embrion para una aplicacion
-de celular que funcionara desde heroku por ejemplo. 
+de celular que funcionara desde heroku por ejemplo.
 [2020-08-14 Fri] hoy fue otro dia historico en la historia del
 desarrollo web pq logre atravesar la barrera de los datos multiples,
 con una sencillez pasmosa que lo transforma casi en una aplicacion de
@@ -6504,7 +6504,7 @@ todos los datos del cliente que quiera (en realidad dispongo de todo
 el array), todos los datos de venta (idem dispongo de todos) y las
 cuotas a pagar. Y puedo acomodar todos los datos extra que quiera
 extra. Siendo una aplicacion de no mas de 230 lineas de codigo y eso
-incluye el html que lleva muchas lineas y es muy facil de hacer. 
+incluye el html que lleva muchas lineas y es muy facil de hacer.
 Pienso que con una aplicacion bien diseñada de unas 5000 lineas de
 codigo se pueden tener todas las cosas
 [2020-08-15 Sat] La semana se cierra netamente con Flask y python,
@@ -6540,7 +6540,7 @@ bien, y que el codigo es mas simple y limpio que en tcl. p.e. plan de
 pagos es enormemente mas simple y en realidad hace lo mismo, o sea
 hace que la cuenta tenga un plan de pagos. Visualmente es impecable y
 es increible que tengamos eso a nivel themes o sea que podamos tener
-tantos themes como queramos solo cambiando un archivo. 
+tantos themes como queramos solo cambiando un archivo.
 [2020-08-18 Tue] anoche empece un curso en yt de learning machine muy
 bueno, pienso seguirlo y unos dos o tres series de cursos python
 intermediate-resolucion de problemas muy interesantes por si mismos
@@ -6552,7 +6552,7 @@ disposicion incluso en español, hay para aprender al nivel que
 queramos-necesitemos.
 Lo que me llama la atencion en esta etapa de python es lo compacto que
 es, se escribe codigo en forma muchismo mas compacta y rapida y
-simple y elegante. 
+simple y elegante.
 [2020-08-19 Wed] Sigo avanzando con una plasticidad muy importante, ya
 casi termine el buscador y pase al pasador de pagos y todo muy
 bueno. Hoy me parecia que es como cortar nudos gordianos
@@ -6574,10 +6574,10 @@ funcionalidad con javascript. Por ahora no pq logramos hacerlo
 funcionar de esta forma no se si los delays de la base remota me
 mataran. Lo mismo es increible lo que logramos en solo una semana, pq
 el cambio se dio el dia 13 y hoy es 20, y estoy programando suave, de
-dos a tres horas por dia no mas. 
+dos a tres horas por dia no mas.
 [2020-08-21 Fri] desde ayer encontre un curso fabuloso de javascript
 que da gusto seguirlo, son 135 capitulos y creo que aprendere a fondo
-alli. Y no viene mal saber js. html-css-js hay que saberlo como base. 
+alli. Y no viene mal saber js. html-css-js hay que saberlo como base.
 Con respecto a flask no resulta dificil hacer las cosas, al menos
 hasta donde se puede con el framework pero estoy desganado y no puedo
 avanzar mas alla de algunas pocas cosas.
@@ -6589,7 +6589,7 @@ desanimado con la programacion, estaba un poco caido, desanimado. Y
 mientras tanto le daba a la capacitacion de js y css por eso los
 tags. Pero ayer me puse a ver la fortaleza de los procesos backend que
 estoy haciendo y lo simples que son y lo solidos que son, una vez que
-incorporan la logica de datos que proviene de tcl en python. 
+incorporan la logica de datos que proviene de tcl en python.
 Y eso me motivo a seguir. Y de paso me di cuenta lo rapido que se
 programa, lo mucho que se reusa. P.e. saque el modulo pasar ventas
 practicamente en 4 horas, un modulo que no bajaba de 20/25horas en
@@ -6612,7 +6612,7 @@ por lo mas basico no me aburri para nada, es mas aprendi un monton de
 cosas que no habia visto con el otro, y otras las entendi mejor y lo
 mejor que tiene ejercicios. Por el momento pienso que vamos
 bien. Muchos videos "estiran" los cursos para parecer enormes y en el
-fondo son puro aire. 
+fondo son puro aire.
 [2020-08-29 sáb] hoy una mañana de mucha lectura traslade un poco esta
 idea a python tambien, y aunque no consegui mucho material
 contundente, algo hay, y en especial pienso que tengo que dedicarme un
@@ -6633,13 +6633,13 @@ realidad la vamos pasando bastante bien, siendo que quizas habia
 imaginado un mal muchisimo mayor, pero en cierta forma hicimos mas de
 lo que habiamos planificado y tenemos proyectado todavia mucho mas, o
 sea que la obra en general sera mucho mas grande que lo que se habia
-pensado en principio. 
+pensado en principio.
 ** semana [2020-09-06 Sun] :Python:Flask:JavaScript:
 [2020-09-07 Mon] la semana empieza en obras y creo que pinta a estar
 en obras para rato, lo unico que hice fue reinstalar mint de nuevo en
 la i3-9na para tener toda la funcionalidad en una sola maquina y no
 preocuparme mas por el sistema operativo. Creo que los que se ocupan
-tanto del sistema operativo son nerds. 
+tanto del sistema operativo son nerds.
 -- toda la semana en obras
 ** semana [2020-09-13 Sun] :JavaScript:
 -- seguimos en obras, ni siquiera estudio, solo escuchar informalmente
@@ -6676,7 +6676,7 @@ timido comienzo muy debil en estudio de js.
    datos desde flask a js para tabulator. Y otro ejemplo esta en todo
    lo que logre con flask. O sea esta bien ir estudiando y aprendiendo
    pero de la mano del proyecto, sino se pierde interes y en realidad
-   nunca se hace nada. 
+   nunca se hace nada.
 ** semana [2020-10-11 Sun]
 ** semana [2020-10-18 Sun] :Flask:
  Recien hoy [2020-10-23 Fri] me siento por primera vez despues de casi
@@ -6685,10 +6685,10 @@ timido comienzo muy debil en estudio de js.
  en el resto de las cosas. Si bien es cierto que estoy con una base
  reducida a 7000 registros lo mismo para pg no le hace
  tener 50000. Funciona en el celu, funciona en cuanto a la fluidez de
- trabajo que es lo que yo temia que no funcionara. 
+ trabajo que es lo que yo temia que no funcionara.
  Ahora es un despegue, un gran aliciente a seguir desarrollando, ya
  que se puede ver lo que se hace directamente desde un resultado
- real. 
+ real.
 ** semana [2020-10-25 Sun] :Flask:JavaScript:
  de a poquito se va comenzando pero pienso que la necesidad de
  tabulator o sea javascript en el entorno de flask complica todo.
@@ -6697,7 +6697,7 @@ timido comienzo muy debil en estudio de js.
   varias de las que estan anotadas ahi, son dentro del receso de bajon
   por la obra y por el bajon subsiguiente, por lo cual pienso que
   tanto flask como js tienen un gran potencial para desarrollar
-  todavia. 
+  todavia.
 ** semana [2020-11-08 Sun] :Svelte:
  empiezo el jueves con svelte para aprenderlo desde la base y luego
  poder aplicarlo al proyecto, como forma de salirse del bajon que
@@ -6754,7 +6754,7 @@ timido comienzo muy debil en estudio de js.
    solo archivo es muy conveniente. Creo que la combinacion flask/vue
    es la mejor y hay que seguir en ella aprendiendo mas pq todavia
    queda un monton por aprender, creo que solo uso el 10% de la
-   tecnologia. 
+   tecnologia.
    anoche reaparecio php en forma bastante estupida pq no veo que deba
    embarcarme en estudiar un lenguaje que no conozco a diferencia de
    python que recontraconozco, y que tendria que perfeccionar. O sea
@@ -6777,7 +6777,7 @@ timido comienzo muy debil en estudio de js.
    encarar la proxima semana ventas. El tema es ser persistente, si
    sigo asi en un mes termino toda la programacion y tendria que
    empezar a probarla, con lo cual tendria que ver los errores y
-   faltantes. 
+   faltantes.
 ** semana [2021-05-16 Sun] :Vue:Flask:Bulma:NodeJs:Svelte:Sapper:
    sigue el trabajo a buen ritmo con fecha cierta de terminacion, si
    sigo con inspiracion, creo que en un par de meses.
@@ -6792,11 +6792,11 @@ timido comienzo muy debil en estudio de js.
    una hora de lo que me habia trabado en flask-login, mediante
    realizar correctamente la consulta en google y encontrar la
    repuesta que buscaba, despues de descartar varias opciones que no
-   funcionaron. 
+   funcionaron.
    O sea que vuelvo re-motivado a un proyecto con un gran grado de
-   avance que puede estar terminado en relativamente poco tiempo. 
+   avance que puede estar terminado en relativamente poco tiempo.
    quizas es patologico, que prefiero estar siempre empezando algo
-   nuevo en vez de terminar un proyecto. 
+   nuevo en vez de terminar un proyecto.
    TAmbien hay que notar que exactamente los mismos problemas que he
    tenido con heroku p.e. los han tenido otros tambien, o sea que no
    estoy lejos de lo que es la realidad programatica.
@@ -6805,21 +6805,21 @@ timido comienzo muy debil en estudio de js.
    ahi termino, faltandome corregir errores en especial de los dos
    modulos que quedaron ultimos o sea fichajes y buscador, pq
    vtas,pagos y stock estan bastante bien terminados, luego queda
-   pulir, o sea pasar todo a try/execpt y login_required. 
+   pulir, o sea pasar todo a try/execpt y login_required.
    Y pienso que ahi tendria que contratar heroku para poder iniciar la
    prueba real de carga de la aplicacion con datos reales para ver los
    errores, e ir llevando en paralelo las dos aplicaciones por un
    tiempo hasta tenerle confianza.  (de ultima puedo hacer que la cami
-   pase los papeles en tcl, y yo los paso en la nueva). 
+   pase los papeles en tcl, y yo los paso en la nueva).
 ** semana [2021-05-30 Sun] :Alpine:CSS:Javascript:
    si bien es cierto que sigo con el stack flask/vue/bulma, aparecio
    alpine y me gusto mucho y es compatible por lo cual un par de
-   paginas las hice con el incluso con mas ventaja sobre vue. 
+   paginas las hice con el incluso con mas ventaja sobre vue.
    Me intereso el CSS puro, no para un cambio radical por ahora en
    todo el proyecto creo que eso es inviable, pero me hice la navbar y
    me gusta mas como me quedo que la que me dio bulma. Y por ultimo
    javascript es lo que se lleva todo el interes programatico y de
-   aprendizaje estos dias. 
+   aprendizaje estos dias.
 ** semana [2021-06-06 Sun] :mysql:
 ** semana [2021-06-13 Sun] :mysql:Alpine:Javascript:
 ** semana [2021-06-20 Sun] :Bulma:CSS:NodeJs:
@@ -6831,7 +6831,7 @@ timido comienzo muy debil en estudio de js.
    dar por terminado el desarrollo. Y dedicarme a la capacitacion,
    empezando por python, en una forma monotema, o sea todo el dia con
    lo mismo, con un tema alternativo de respaldo que no tenga nada que
-   ver con ese (como por ejemplo redes). 
+   ver con ese (como por ejemplo redes).
    una consideracion puede ser la necesidad del sistema por si fede
    sale a la calle??. Suponiendo que eso ocurra en agosto, hay dos
    posibilidades: una que use tcl, otra el buscador de 152... con la
@@ -6841,7 +6841,7 @@ timido comienzo muy debil en estudio de js.
    programar.
    y tambien empezar en cualquier tema, no llevando un orden, para no
    aburrirse y poder empezar a programar cosas para ir practicando en
-   otras cosas que no sea siempre lo mismo. 
+   otras cosas que no sea siempre lo mismo.
    [2021-07-06 Tue] llego a la conclusion de que no puedo hacerlo sin
    tener el sistema terminado. Por eso primero tengo que terminar el
    sistema con un buscar responsive. Ya sea en bulma o terminar de
@@ -6853,14 +6853,14 @@ timido comienzo muy debil en estudio de js.
    una tanda de recapacitacion mas esquematica que quizas sea la clave
    de llegar mas profundo en lo que tenemos que hacer.
    pienso que agregar mas horas de estudio pueden agregar conocimiento
-   siempre que sean efectivas 
+   siempre que sean efectivas
 ** semana [2021-07-18 Sun] :python:english:emacs:vim:
    Por lo menos la semana pasada rellene bien los tiempos con
    intervalos de estudio bastante frecuentes y descubri algunos
    metodos que por el momento son convenientes como p.e. la lectura de
    libros (sinergia con ingles) el hacer los ejercicios, el hacer la
    anotacion en papel para luego repasar. es un tema profundo python y
-   tambien bash pero necesarios ambos, muy necesarios. 
+   tambien bash pero necesarios ambos, muy necesarios.
 ** semana [2021-07-25 Sun] :python:english:bash:vim:i3:
 ** semana [2021-08-01 Sun] :python:vim:english:i3:
 ** semana [2021-08-08 Sun] :python:vim:english:i3:
@@ -6892,11 +6892,13 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-09-04 dom] :flask:javascript:alpinejs:
 ** semana [2022-09-11 dom]                                   :Javascript:vim:
 ** semana [2022-09-18 Sun] :flask:javascript:alpinejs:emacs:
-** semana [2022-09-25 Sun] :flask:javascript:alpineja:emacs:vim:kitty:
+** semana [2022-09-25 Sun] :flask:javascript:alpinejs:emacs:vim:kitty:
+** semana [2022-10-02 Sun] :emacs:flask:javascript:alpinejs:
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
-*** ido-mode 
+*** ido-mode
 puesta a punto
 *** busqueda en buffer con Cx b
 a traves de ido en forma facil y rapida
@@ -6930,7 +6932,7 @@ el Cf lo vengo usando mucho y ahora empiezo con el Cb
 *** dired R rename + crear directorio
 *** M% para buscar y reemplazar
 ** [2020-07-07 Tue]
-*** Md para borrar palabra 
+*** Md para borrar palabra
 *** Cd para borrar un caracter
 ** [2020-07-11 Sat]
 *** Cc-Cq en org tags
@@ -6984,7 +6986,7 @@ D $1000.00 para establecer el producto por defecto
 account ... ; type:Asset
 para establecer el plan de cuentas y la tipologia de cuentas para que
 se presenten en los informes.
-*** tipos de informes 
+*** tipos de informes
 **** hl b caja - hl b
 **** hl register caja
 **** cj (hl r caja)
@@ -7098,7 +7100,7 @@ tuve que desenchufar y volver a enchufar usb
 *** [2020-08-31 lun] ignora el xmodmap del autostart
 ** pros encontrados
 *** anda hardware que no me andaba en otras circunstancias
-p.e. el raton logitech hasta ahora , y la placa de sonido de la i3. 
+p.e. el raton logitech hasta ahora , y la placa de sonido de la i3.
 *** arranca y apaga muy velozmente
 desencripta en 5 segundos creo y apaga en 3 segundos.
 *** los programas tcl andan un poco mas rapido
@@ -7114,7 +7116,7 @@ quiza la swap sea tan rapida que no se note la diferencia.
 Tendria que probar firefox con youtube, y crome con visualcode al lado
 para ver como va eso. (lo mismo con 2+2 tenes todo funcionando y sin
 el ventilador sonando pq el procesador ni se mosquea, o sea no hay uso
-del cpu para esos procesos). 
+del cpu para esos procesos).
 *** autostart de openbox
 para poner el xmodmap alli y toda otra configuracion que se apetezca,
 pero por ahora esa es la mas importante.
@@ -7126,12 +7128,12 @@ aparte del clasico alt-F2, tenes el Alt-F3 mas completo por las dudas,
 y tenes la tecla super, que salta el menu, y alli empezas a escribir,
 sino con boton derecho en cualquier lado. Tiene buenos atajos, como
 todo openbox.
-*** fonts 
+*** fonts
 mejores fuentes que mint, se ven especialmente en los programas tcl
 ** contras encontrados
 *** ruido de base mayor
 pero es algo continuo en cambio el otro molestaba que era variable.
-*** imposibilidad de instalar impresora 
+*** imposibilidad de instalar impresora
 ** [2020-11-18 mié] instalacion bunsen helium debian
  vamos por partes, hasta ahora recuperada parte tcl, con instalacion
  de oficina.
@@ -7145,7 +7147,7 @@ pero es algo continuo en cambio el otro molestaba que era variable.
  una de las primeras, luego no ocurrio mas, se reinstalo sola la hp,
  quedando dos iconos e imprimir una vez con el segundo icono, y luego
  no anduvo mas, pero el primer icono funciono bien, y entonces borre
- el segundo y deje el que originalmente habia instalado] 
+ el segundo y deje el que originalmente habia instalado]
  python listo
  postgres listo
  flask listo
@@ -7156,8 +7158,8 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    segundo y se habia reiniciado, pero la cuenta de tiempo del sistema
    seguia igual, pero reseteo las xorg pienso o algo asi, me cerro
    emacs, firefox y una terminal.
-** [2020-12-15 mar] informe posible fallo 
-   al cerrar entro en un jobs de 2 min y luego recien se apago. 
+** [2020-12-15 mar] informe posible fallo
+   al cerrar entro en un jobs de 2 min y luego recien se apago.
    esos jobs eran comunes en manjaro.
 ** [2021-01-01 vie] desintalando
    a causa de pensar que la base de debian me impide tener lo ultimo
@@ -7255,11 +7257,11 @@ pero es algo continuo en cambio el otro molestaba que era variable.
    y vi que fedora tenia bastante actualizado los programas.
    hasta ahora todo bien. Lo unico es el tema en general de wayland no
    de fedora que no acepta mas el xmodmap entonces hay que buscar otra
-   solucion que encontre input-remapper que se comporta bastante bien. 
+   solucion que encontre input-remapper que se comporta bastante bien.
    Han sido muchisimos los cambios que he hecho y no estan todos
    documentados por lo que no es tan divertido cambiar de instalacion
    ahora.
-   
+
 * agenda vim
 ** jump previas posiciones
     C-o C-i
@@ -7267,9 +7269,9 @@ pero es algo continuo en cambio el otro molestaba que era variable.
     para un tipico problema de reemplazo de llaves o comillas en un select
     p.e. en vez del tedioso reemplazo dentro de la cadena hacemos cs{" o
     lo que sea
-    c change 
-    s surrounded 
-    { el caracter a reemplazar 
+    c change
+    s surrounded
+    { el caracter a reemplazar
     " el caracter por el cual sera reemplazado
     -las expresiones tienen que estar balanceadas, no pueden estar en proceso
 ** plugin fzf
@@ -7351,7 +7353,7 @@ x-> {sel}ect
 regsub a abril && x
 x-> aabril
 
-* agenda programacion actual 
+* agenda programacion actual
 ** logica del proyecto actual
 *** articulo->artcomprado->art_ventas
 **** la tabla articulo guarda todos los articulos historicos
@@ -7369,7 +7371,7 @@ y de ultima crearlo.
 ingresa compra de articulo -> se revisa en ventaspg/list que esten los
 articulos en lista de precios, sino se los da de alta, se corrigen los
 costos, si no existen los articulos en combo, se activan abajo, si no
-existen abajo se crean y activan. 
+existen abajo se crean y activan.
 Luego se pasa la compra.
 ***** transicion flujo actual en sqlite
 como la tabla articulos no tiene un campo activo, lo que hice fue
@@ -7387,14 +7389,14 @@ el resto de classes itk usadas
 **** lib2021.tcl
      las funciones de uso comun
 *** analisis calidad de venta
-**** isln 
+**** isln
 **** isseven
 **** morosidad
      es un int es la cantidad de dias que demoro en pagar la cuenta
      anterior. Depende del proceso de pagos, que va a ser incorporado al
      sistema pagos.
 **** vta_conj
-     cuantas ventas se hicieron en la misma casa el mismo dia. 
+     cuantas ventas se hicieron en la misma casa el mismo dia.
 **** vta_aument
      el porcentaje de aumento sobre la venta anterior
      En el caso de venta nueva dicho porcentaje es cero, pq no hay una
@@ -7416,7 +7418,7 @@ seria bueno hacer un archivo que unificara la logica del negocio, pe
 no se responder las siguientes cuestiones
 1. pagado es sum(imp)+ent o no incluye la ent (y menos cuestiones
    respecto al viejo anticipo)
--- No, pagado no incluye ent. 
+-- No, pagado no incluye ent.
 O sea comprado-ent-pagado = saldo
 saldo= comprado - ent - pagado
 -- En los PLANES DE PAGO pp=1 el saldo se calcula diferente
@@ -7453,7 +7455,7 @@ o sea que han perdido su pmovto por distinta causa pero no pierden su
 lugar en antiguos.
 *** definicion general: desisto completamente de los triggers?
 los triggers en postgres son complicados y presentan gran dificultad
-para programarse y mantenerse. 
+para programarse y mantenerse.
 No permite tener la logica del negocio facilmente mantenible y
 unificada.
 Es una de las cosas que se usaron pq existian, pero asi podriamos
@@ -7466,7 +7468,7 @@ complejidades.
 por ejemplo realizamos un pago, borramos un pago, o updateamos un
 pago, lanzamos el proc actualizar_datos_cliente que es un trigger
 interno que hace unos siete u ocho execute y actualiza los datos del
-cliente de una. 
+cliente de una.
 *** politicas generales sobre costo
 **** no hay un sistema de guardar costos historicos
 **** no hay un cuidado de poner costos actualizados
@@ -7478,7 +7480,7 @@ actualizada la tabla art_ventas.
 *** col costo tabla ventas
     necesaria para toda la interface de analisis. probado hacerlo con
     vista y es imposible la demora que causa.
-** archivos que se pueden visitar 
+** archivos que se pueden visitar
 [[file:class.org][class.org Relativo a la clase Cliente y su desarrollo]]
 [[file:buscapg.org][buscapg.org Archivo base de la traduccion de buscapg]]
 [[file:tclpg.org][tclpg.org viejo archivo de problemas en el desarrollo de pg]]
@@ -7507,12 +7509,12 @@ que usemos, con postgres es una cosa, con sqlite es otra cosa. no se
 puede cambiar la cabezera nomas. Ahi quizas seria interesante el tema
 de las class pq si hacemos una traduccion segun la base que este en un
 solo lugar pero ya seria agregar capas de complejidad al proyecto, y
-es como empezar de nuevo desde el mismo principio todo. 
+es como empezar de nuevo desde el mismo principio todo.
 *** dejar salidas puts de control para debug
 como las salidas a terminal no importan pq usualmente los programas no
 se corren mirando la terminal, esta bueno tener una salida verbosa pq
 permite debuggear en el futuro.
-*** este software debe durar los proximos 10 años. 
+*** este software debe durar los proximos 10 años.
 no puede ser complicado ni de usar ni de mantener y no se puede
 romper.
 ** tecnicas de programacion
@@ -7526,7 +7528,7 @@ altera los datos y me mantiene el combo totalmente automatico.
 ** agenda de avance
 *** TODO ventaspg
 **** DONE form de ingreso de art_ventas
-**** DONE forma de impedir que se trabe el arranque 
+**** DONE forma de impedir que se trabe el arranque
 por falta o error en los articulos que generan los botones
 Rapidamente genere un if que controla que la lista que produce los
 botones no sea vacia sino no genere los botones, y con eso listo.
@@ -7539,8 +7541,8 @@ sospecho que siendo que la periodicidad va en 1 y postgres dice case
 no encontrado, es que en realidad puede no ir como integer sino como
 text o algo asi. Termino siendo un bug incomprensible e indebuggeable
 con el criptico plpsql. Hago period := myrec.p y en vez de tener el
-valor 1 obtiene el valor NULL y no se pq. 
-Al final decido dejar de usar la funcion pmovto. 
+valor 1 obtiene el valor NULL y no se pq.
+Al final decido dejar de usar la funcion pmovto.
 Para la venta no hace falta no se usa. Era un trigger viejo el que la
 usaba. pq en realidad el pmovto de una vta nueva lo marca el campo
 primera.
@@ -7563,7 +7565,7 @@ apertura y cierre
 **** DONE hacer el proceso del articulo en el tab lista
 **** DONE segmentacion core dump
      lo pongo DONE pq no lo vi mas.
-**** DONE bug vdores aparecen entre llaves 
+**** DONE bug vdores aparecen entre llaves
      resolvi con otro proc llamado llist que toma otro camino para
      obtener la lista o sea el lindex $list 0 0, pero no puede ser
      general pq no funcioona para los combos pq los combos lo tomas
@@ -7590,7 +7592,7 @@ eran declaradas.
 **** DONE tab de estadisticas con graficos
 **** TODO crear notificaciones de error para uso indebido
      p.e. guardar sin datos, etc.
-****** buscarpg en apretar enter sin datos en nombre da cuelgue 
+****** buscarpg en apretar enter sin datos en nombre da cuelgue
 **** DONE encerrar analisis de venta en proc para agilizar
 **** DONE bug doble click no debe borrar linea Total
 **** DONE ver cuando pase venta que pasa con pp
@@ -7632,7 +7634,7 @@ codigo depende lo que sirva, esto tiene que tener una dependencia nueva.
      gc que no tenia un if saldo>0 en general para no generar
      nada. (Ahora me queda la duda si la funcion estaba bien y el bug
      es lo que paso a explicar abajo, pero al menos este if general le
-     ahorra trabajo). 
+     ahorra trabajo).
      Y en el proc mostrarcliente habia un sutil bug, en el list que
      servia de base al foreach para generar los gc se ponia como
      condicion saldo>0, pero al momento posterior al plan de pago, la
@@ -7742,14 +7744,14 @@ cur.execute("update... insert... select..."
 cur.close()
 cur.fetchone(), cur.fetchall().
 y las cadenas de sel, las escribo maravillosamente con f"select id
-from clientes where id={id}" 
+from clientes where id={id}"
 es simple y directa
 ** psycopg2.extras -->Dicts
 permite trabajar con dicts lo cual es muchisimo mas comodo pq
 directamente lideamos con los nombres de columna como dict, o sea
 clientes['nombre'] y no clientes[3] lo cual hace muchisimo menos
 proclive a error. Y no es complicado pq lo hace el conector simplemente.
-** Mecanismo de paso de variables  
+** Mecanismo de paso de variables
    se pueden pasar por medio del render_template las variables que
    queramos, por lo cual van todos los dicts o tuplas/dicts necesarios
    para mostrar el estado del cliente,
@@ -7757,11 +7759,11 @@ proclive a error. Y no es complicado pq lo hace el conector simplemente.
    lineas, o menos de codigo simple. Lo que queda es el armado de la
    interfaz en html con los datos a disposicion en forma de dict, o
    sea muy comodamente linkables. o de tuplas/dict para hacer
-   forloop. 
+   forloop.
 ** Boostrap varios
 *** table-sm
 adecuado para listados pequeños como cuotas
-*** badges 
+*** badges
 rapidisimos y versatiles para mostrar titulos de tablas p.e.
 *** agrupamiento de campos
 ** Html-Css
@@ -7804,11 +7806,11 @@ def cur(monto):
 el filter personalizado es muy comodo y simple de usar, muy consiso y
 permite el uso de funciones personalizadas python que pueden hacer
 casi todo lo que uno quiera, y uno las puede ir cambiando a medida que
-aprende mas. 
+aprende mas.
 ** WTForms/validators
 ya implemente el formulario a traves de wtforms para tener
 validaciones del lado del servidor y una mayor compacidad al escribir
-los formularios. No es dificultoso para nada. 
+los formularios. No es dificultoso para nada.
 ** {% block %}
 hice dos block mas aparte del content, style y script para sus
 respectivos usos y todo ok.
@@ -7819,13 +7821,13 @@ que lo hago "dibujar" to_html() para tener ya el formato tabla, y lo
 "leo" con jinja solo con poner {{table | safe}}, al considerar safe el
 contenido lo dibuja, y como tiene una clase, con js le asigno mas
 clases y con css lo acomodo un poco, casi sin conocimientos lo deje
-lindo visible, usable. 
+lindo visible, usable.
 No veo que el uso de la libreria pandas ralentice el programa para
 nada.
 *** pandas to_excel()
 aunado a send_file(), permite "bajar" en formato excel la planilla por
 si tenemos que hacer calculos sobre ella, tipico caso de los retiros
-societarios. 
+societarios.
 *** values de dos variables ['cobranza','comision']
 tenemos dos tablas en una, una al lado de la otra, tipico caso
 cobranza/comision.
@@ -7835,7 +7837,7 @@ luego a lista y luego a tojson.
 tbl = df.to_numpy().tolist()
 y luego en js...
 var DataSet = {{tbl | tojson}}
-el unico problema es que no me funciona el theme oscuro. 
+el unico problema es que no me funciona el theme oscuro.
 ** tabulator
 por medio de una funcion en js escrita por mi, logre pasar los arrays
 que lee datatables al formato array de objetos json que lee
@@ -7849,7 +7851,7 @@ pip install -r requirements.txt
 para instalar los requirements
 ** dotenv DEBUG=true
    para que debug sea true y otras configuraciones no tengamos que
-   hacerlas manualmente cada vez que abramos la terminal podemos usar 
+   hacerlas manualmente cada vez que abramos la terminal podemos usar
 pip install python-dotenv
 y poner un archivo .flaskenv que contenga lo siguiente
 DEBUG=True
@@ -7861,7 +7863,7 @@ FLASK_APP=app.py
 *** TODO hacer las validaciones para no apretar enter y guardar antes de tiempo
 por el momento uso las de html5, y en el futuro usare las de js, pq no
 voy a usar las de flask para mantenerlo simple. y en lenguaje normal
-html. 
+html.
 *** TODO hacer avisos
 *** TODO hacer modulos condonada/devolucion/edicion de ventas/resumen de cuenta
 *** DONE TEST: testear todo lo hecho en condonada-devolucion-plan de pagos para depurar los errores.
@@ -7877,14 +7879,14 @@ document.querySelector[All]('.card|#pepino|a)
 *** getElementbyId
 document.getElementById('pepino')
 * tables desarrollo
-** [2020-12-08 mar] 
+** [2020-12-08 mar]
    sort columnas de string y date asc/desc y sort numerico con
    ctrl/click para que sea automatico y no tengamos que setear las
-   columnas segun su tipo. 
+   columnas segun su tipo.
    generacion de tablas desde pandas directamente sin tener que hacer
    nada.
    correccion del evento mouseover para que capte las rows igual que
-   el tablelist con el mouseevent.buttons===1. 
+   el tablelist con el mouseevent.buttons===1.
 ** DONE seleccionar hoy
 ** DONE generar array de selected en fichas
 ** DONE pasar ese array a flask como enlace para imprimir
@@ -7923,21 +7925,21 @@ document.getElementById('pepino')
 
 ** TODO soporte para teclado abreviado
    es incompleto aun, funciona con los agregadores de fecha y el dia
-   de hoy pero no con el guardar, pq me da error en el backend. 
+   de hoy pero no con el guardar, pq me da error en el backend.
 * Bugs TCL
 ** devolucion deja saldo pegado
    queda en observacion para ver si es un bug verdadero o fue un error
-   de procesamiento. 
+   de procesamiento.
 ** DONE condonada no funciona
  74988 no funciono, tuve que poner a mano el saldo-->
 en este caso no es que no funciono, sino que yo me equivoque al
 procesar la condonacion, pq aplicaba la condonacion a una cuenta que
 no era. La que debia era la anteultima cuenta no la ultima y por eso
-el saldo quedaba. Burro!!!!. 
-* proyecto Vue-sqlite 
+el saldo quedaba. Burro!!!!.
+* proyecto Vue-sqlite
 ** problema function pmovto
 el problema es que la funcion es necesaria pq sqlite esta programado
-asi y no lo vamos a cambiar a esta altura, por el momento. 
+asi y no lo vamos a cambiar a esta altura, por el momento.
 Como no usamos una con global sino que cada proceso crea su propia
 con, la function tiene que crear su propia con, y cuando realiza el
 calculo todavia no obtiene el dato de la cuota que se esta pasando pq
@@ -7965,7 +7967,7 @@ menor funcionara mal, pq fechara como si hubiera pagado la cuota entera.
     luego de darles todos los permisos posibles a las carpetas
     involucradas con el usuario no-root, para solucionar el problema
     de que el archivo se genera en /home/hero/rxcba y se lee en
-    /home/hero/rxcba/application hice sendos 
+    /home/hero/rxcba/application hice sendos
     ln -s ../ficha.pdf ficha.pdf
     ln -s ../listado.pdf listado.pdf
     y anduvo joya.
@@ -7973,11 +7975,11 @@ menor funcionara mal, pq fechara como si hubiera pagado la cuota entera.
     cuando hago mi propio service para que funcione gunicorn
     continuamente en el archivo
     /etc/systemd/system/rxcba.service
-    la guia me indicaba que pusiera en la orden de exec: 
-    
+    la guia me indicaba que pusiera en la orden de exec:
+
     ExecStart=/home/sammy/myproject/myprojectenv/bin/gunicorn
     --workers 3 --bind unix:rxcba.sock -m 007 wsgi:app
-    
+
     o sea ese rxcba.sock no se genera automaticamente como ellos dicen
     y resulto ser un quebradero de cabeza.
 
@@ -7991,7 +7993,7 @@ menor funcionara mal, pq fechara como si hubiera pagado la cuota entera.
 * agenda deploy
 en general parece que para que sea exitoso el deploy tiene que ser
 desde un acceso root, pq fueron exitosos los tres casos con acceso
-root y fracasaron los tres casos de sudo. 
+root y fracasaron los tres casos de sudo.
 el ultimo deploy fue liso y llano.
 primero probando el puerto 80 con python.
 python3 -m http.server 80
@@ -8001,17 +8003,17 @@ problema era ese, el puerto 80.
 
 luego queda el problema de las impresiones que tienen acceso denegado
 por falta de permisos de escritura, solo lo solucione en la
-instalacion de donweb pq la hice con nginx fuera de /var/www 
+instalacion de donweb pq la hice con nginx fuera de /var/www
 
 logre hacer la cuarta instalacion en oracle con sudo, pero siguiendo
 las instrucciones de iptables para la instalacion de apache
 primero. luego lo normal, solo que el pip3 install hay que hacerlo con
 sudo. El resto todo igual y bien.
-** dumpeado de la base y resubida 
+** dumpeado de la base y resubida
    mysqldump -u hero -p hero > dump.sql
-   
+
    mysql -u hero -p hero < dump.sql
-   
+
    de este modo actualizo la base de datos sin tener que borrarla y
    volver a crearla, y como no borro la tabla users no borro los usuarios.
 * agenda ingles
@@ -8039,7 +8041,7 @@ sudo. El resto todo igual y bien.
 20. nifty (ingenioso)
 21. hard-wired (cableado)
 22. along (a lo largo - al igual)
-23. 
+23.
 
 * agenda programacion
 1. corregir la seleccion de fichas para imprimir, no funciona.
@@ -8062,7 +8064,7 @@ sudo. El resto todo igual y bien.
 ** tema simple registro o doble registro
    el doble registro le añade mucha complejidad y la unica doble
    cuenta es compra de dolares y prestamos en dolares.
-* DONE cambio de ubicacion lugar de trabajo 
+* DONE cambio de ubicacion lugar de trabajo
   lo decido ipso facto por las circunstancias de la casa, por lo menos
   hasta el proximo invierno.
 
@@ -8119,7 +8121,7 @@ sudo. El resto todo igual y bien.
 *** DONE hacer tabla asuntos y modal de carga de asunto
 *** DONE hacer html listado de asuntos con borrar/editar/completado
 *** DONE impresion de asuntos pendientes por cobrador
-*** TODO ver que vea que un cliente tiene asunto o evitar cargar duplicado
+*** DONE ver que vea que un cliente tiene asunto o evitar cargar duplicado
     el tema es que no siempre me acuerdo si un asunto ya esta cargado
     y es tedioso revisar a mano si ya esta cargado.
 ** TODO fechar bien luego de condonar.

@@ -3,15 +3,15 @@ Este archivo concentrara todo lo relativo al tema medico
 turnos, sintomas, historial etc.
 
 * turnos
-** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia 
+** DONE 16.30 MEUBRY, SOLANGE DEL VALLE traumatologia
 :SCHEDULED: <2017-09-26 mar>
 - State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
 
 
 ** Romero William
-** DONE Dra Banus Maria Victoria 18hs 
+** DONE Dra Banus Maria Victoria 18hs
 :SCHEDULED: <2017-11-30 jue>
-** DONE radiografias MEUBRY, SOLANGE DEL VALLE traumatologia 
+** DONE radiografias MEUBRY, SOLANGE DEL VALLE traumatologia
 :DEADLINE: <2017-10-25 mié> SCHEDULED: <2017-09-30 sáb>
 - State "DONE"       from "TODO"       [2017-10-25 mié 12:49]
 
@@ -22,9 +22,9 @@ turnos, sintomas, historial etc.
 :SCHEDULED: <2017-09-27 mié>
 - State "DONE"       from "TODO"       [2017-09-27 mié 19:34]
 **  Romero William [2018-01-03 mié] 12.40hs
-** 
-** TODO dentista toma de impresion y arreglo inferior
-SCHEDULED: <2018-11-17 sáb> 9hs
+**
+** DONE dentista toma de impresion y arreglo inferior
+CLOSED: [2022-10-08 Sat 14:22] SCHEDULED: <2018-11-17 sáb> 9hs
 * sintomas
 ** Dolores
 *** Testiculos
@@ -85,9 +85,9 @@ jornada de sillon con la compu.
 espalda hasta el punto que con oleo31 tuve masajes el domingo en
 varias oportunidades y poco alivio tuve, y el domingo a la noche y el
 lunes me tome un diclo para aliviar sintomas de inflamacion.
-[2018-04-12 jue] muy mucho dolor hasta el punto que no puedo estar sentado en 
+[2018-04-12 jue] muy mucho dolor hasta el punto que no puedo estar sentado en
 el sillon de la oficina, o en una silla, y acostado en algunas posiciones.
-Acabo de tomar un ibu no por cabeza sino por espalda, es un dolor puntual en 
+Acabo de tomar un ibu no por cabeza sino por espalda, es un dolor puntual en
 el sector dorsal
 
 *** acidez extrema
@@ -101,6 +101,31 @@ de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
 [2017-11-02 jue] hoy me tuve que ir al dpto a buscar SL para ponerme
 una y soportar la jornada, pq vengo desde ayer no soportando los
 embates normales del trabajo.
+** Enfermedades
+*** resfrio fuerte [2022-10-05 Wed]
+   me contagie de ih que cayo enferma de repente despues del fin de
+   semana, lo que atribuimos a un resfriado por el pasmo del fuego del
+   asado y el frio en la espalda.
+   Yo la cuide dos dias.
+   El miercoles [2022-10-05 Wed] tuve trabajando normal en la compu y
+   tosi todo el dia mayormente con sensacion de calenturamiento, pero me
+   mantuve levantado.
+   Ya a la noche del miercoles estuve peor, y comenzo a molestarme la
+   garganta con dolor y empece a tomar amoxidal 500, cada 8 horas, y como
+   he tenido mas insidiosos los dolores de cabeza he tomado dos migrales
+   por dia y he andado bien con eso. El jueves la pase en la cama con
+   solo dos incursiones de pocas horas en la compu y el viernes peor, con
+   mas ganas de estar acostado y dormir y menos de estar en la compu.
+   Empece a tomar decadron que me dio ih pero lo voy a tomar una vez al dia.
+   Alta diarrea con mucho dolor al inicio.
+   hoy [2022-10-08 Sat] estoy mejor pero lo mismo no tengo ganas de
+   permanecer levantado ni siquiera en la maquina, no es un problema de
+   dolores fisicos en este momento ni de dolor de cabeza sino de que no
+   tengo la concentracion como para ponerme a resolver temas.
+   hoy [2022-10-08 Sat] estuve no mejor que ayer. a la manana con
+   sueno, dormi bastante pero a la tarde sintomas
+   variables. Nuevamente diarrea, pero sin dolor como anoche.
+
 * medicacion
 ** ibuprofeno
 :CLOCK: [2018-03-05 lun 19:47]--[2018-03-05 lun 19:54] =>  0:07
@@ -307,7 +332,7 @@ bien cero o bien 2
 | [2017-09-27 mié] |   2 | mediodia y noche |
 | [2017-10-18 mié] |   1 | mañana           |
 ** Cabergolina
-:SCHEDULED: <2018-02-09 
+:SCHEDULED: <2018-02-09
 vie .+1w>
 - State "DONE"       from "TODO"       [2018-02-02 vie 20:31]
 - State "DONE"       from "TODO"       [2018-01-21 dom 12:12]
@@ -397,7 +422,7 @@ vie .+1w>
 
 
 * cefaleico
-** [2017-09-19 mar] 
+** [2017-09-19 mar]
 un dia feucho del dolor desde la mañana, pq desperte con dolor y tome
 el primer ibu temprano. Luego el segundo en la ofi misma. Y sali
 temprano de la ofi pq pensaba que iba a tener una cefalea molesta, y
@@ -460,7 +485,7 @@ ayer pensaba nuevamente que iba a llegar al nar, y antes de acostarme
 tome el segundo luego de un domingo que trabaje mucho y no disfrute pq
 estuve tenso todo el dia, pq estaba enojado con el Fede a la
 distancia. Y al acostarme luego de comer profusamente me agarro
-retorcijon fuerte, y tuve que aplicarme profusamente oleo31. 
+retorcijon fuerte, y tuve que aplicarme profusamente oleo31.
 ** [2017-10-03 mar]
 molesto un poco en oficina me fui a comer a casa lasagna y volvi con
 un poco de dolor.
@@ -518,7 +543,7 @@ anoche muy mal me desperte con intensa cefalea para <<nar>> que tome
 solo con agua y segui durmiendo y fue efectivo en la noche. Me dio un
 poco de miedo pq en la noche anterior habia tomado cabergolina, nunca
 habia tomado tan cerca ambos medicamentos.
-Pero sigo cefaleico. 
+Pero sigo cefaleico.
 Es que tenemos problemas y tensiones en el trabajo.
 ** [2017-10-19 jue]
 anoche me tome un ibu preventivo pq estoy cefaleico como ahora y dormi
@@ -542,7 +567,7 @@ Pero para tener en cuenta pq la semana pasada ya habia atribuido estar
 cefaleico al licuado.
 No diria al licuado sino a los ingredientes viejos, tiraria todo y
 compraria nuevos por las dudas. y compraria verduras para probar si
-hay desagote por otro lado. 
+hay desagote por otro lado.
 Por la experiencia del dia de hoy en la cual transcurrio todo el dia
 bien, salvo con un pequeño brote al llegar al marques que fue sofocado
 cuando me tome un ibu creo que puede ser el tema licuado. (No creo que
@@ -625,7 +650,7 @@ Cedo a <<nar>> en un momento peligroso pq es la segunda al hilo en dia
 habil de oficina, a pesar de que el encierro, la claustrofofia, la
 falta de aire, y el hambre  etc no se presentaron, pero el estres por el caso 765
 es muy grande casi comparado al caso 747 y produce la migraña estoy
-seguro mas alla de las bronquitas menores con los otros chicos. 
+seguro mas alla de las bronquitas menores con los otros chicos.
 ** [2017-11-14 mar]
 hoy felizmente corte la racha del nar en oficina y el nar de ayer
 logro disipar por 24hs el malestar.
@@ -734,14 +759,14 @@ va mas, que el incremento del dolor en esta pauta casi diaria, aun
 habiendo evitado el huevo, tiene que ver quiza con desintoxicacion de
 alguna manera, pq se puede decir que las ultimas 48 hs no tuve malos
 pensamientos y las ultimas 72 hs no tuve estres importante, incluso el
-dolor intenso de espalda cedio. 
+dolor intenso de espalda cedio.
 Creo que una vez que se asiente la pauta de alimento nueva cederan los
 dolores y no creo que haya tiempo para enviciarme con el migral, eso
 llevaria unos dos meses. De todos modos como voy voy camino a una
 crisis del naratriptan, crisis aguda pq me impediria trabajar. Ojala
 que prenda el migral y corte el dolor, al menos puedo repetirlo o sea
 tomar dos o tres de ultima, o sea estoy en terreno conocido, pero con
-el nar no y estoy muy acotado. 
+el nar no y estoy muy acotado.
 Aca yo pienso que debemos cambiar totalmente y a ello vamos asi que no
 hay que tener miedo.
 Para bien o para mal el migral fue efectivo, saco en tiempo y forma el
@@ -760,7 +785,7 @@ ni presion de ningun tipo, luego al volver previo haberme desviado por
 una picardia me senti un poquito cansado y luego hice el trabajazo de
 la cocina [[file:dia-general.org::*%5B2017-11-21%20mar%5D][limpie la mesada podrida]] y me hice una cena de antologia y
 aqui estoy dispuesto a pasar los papeles para que no me pese mañana el
-dia. 
+dia.
 ** [2017-11-22 mié]
 aunque anoche comi copiosamente el menu ya descripto dormi bien y
 recien tipo 5 o 6 aparecieron las primeras molestias y decidi tomarme
@@ -787,7 +812,7 @@ rendir, cosa que se va a acabar pronto, y ahora recien me termino
 tomando otro ibu eso que estoy en un ambiente mas o menos tenso, mas o
 menos caldeado con 37 grados sin aire y con calor pq no prendemos el
 aire hace unos tres dias.  Pero creo que la dieta va funcionando
-bien. en cierta forma tiene almuerzo/cena y licuado en el medio. 
+bien. en cierta forma tiene almuerzo/cena y licuado en el medio.
 pasando las horas no fue efectivo el ibu, pienso que por el encierro
 casi cinco horas de intenso calor aca sin aire, mas que aire
 acondicionado creo que se necesitaria un extractor que recirculara el
@@ -799,7 +824,7 @@ alivio, lo que si estaba muy cansado, entonces me acoste a reposar un
 poco y fui safando poco a poco de la necesidad de tomar migral y no
 tome y tampoco ibu, y dormi bien y me levante bien y tuve una mañana
 bien el viernes a la mañana y recien me tomo un ibu mas que todo pq se
-me hace insoportable el dolor de espalda. 
+me hace insoportable el dolor de espalda.
 Es que esta mañana me levante y vine a la oficina y luego cuando me
 relajaba me tuve que ir al banco y luego de un breve momento venir a
 la oficina y el tiron es largo pq al estar expuesto aca adelante se
@@ -875,7 +900,7 @@ luego cene liviano y dormi muy bien.
 recien a las 14.30hs tomo un ibu por cefalea de apuro, pero pienso que
 se va a controlar. Y fue creciendo (hoy comi 4 huevitos de codorniz)
 mas tensiones mas trabajar ahi mismo. Crecio el dolor de cabeza y me
-tome un migral 
+tome un migral
 Ya a las 2hs esta bastante limpio el sistema e incluso me muestro
 animoso, parte por la charla politica con la Elva que me animo a mas
 lecturas y a esforzarme mas en el trabajo.
@@ -912,7 +937,7 @@ empezar por caminar mas e incluso comprarme unas reebok de trekking
 como las que marque para caminar largos trechos y meterle cada vez mas
 cuadras hasta llegar en lo posible a irme caminando los fines de
 semana al marques. Eso seria un buen ejercicio. Incluso con la mochila
-de 40 lts encima puesta para ir preparando el cuerpo a la faena. 
+de 40 lts encima puesta para ir preparando el cuerpo a la faena.
 Luego de esto tuve una idea genial, lo cual es una muestra de que si
 uno esta libre puede encontrar soluciones a los problemas que sean
 mejores que estando atado a labores rutinarias.
@@ -944,7 +969,7 @@ el tema de la regularidad alimenticia.
 ** [2017-12-15 vie]
 hoy estoy cefaleico y lamentablemente tomo migral por una cefaleita de
 morondanga pq ya el migral me gano la batalla sicologica, como me la
-gano netflix, como me la va a ganar la azucar y el gluten. 
+gano netflix, como me la va a ganar la azucar y el gluten.
 Pero noto que el nerviosismo era por las chicas nuevas, y por la
 mañana agitada con lo que tenia que hacer a nivel bancario.
 
@@ -984,7 +1009,7 @@ me gusto y me cayo mal.
 hoy luego del dia de ayer que enfrente cansancio inusual y luego del
 llamado del Fede en donde acomodamos lo que vamos a hacer y hoy que
 pienso que va a haber estres, creo que caigo en un estado cefaleico
-que el ibu no lo paro a pesar de que lo tome hace 4.30hs. 
+que el ibu no lo paro a pesar de que lo tome hace 4.30hs.
 
 ** [2017-12-29 vie]
 sin saber porque se desencadeno  una cefalea fuerte que necesito
@@ -1055,7 +1080,7 @@ poco la cefalea, me decidi urgente a cambiarme y salir a comprar un
 par de cosas que necesitaba con dos salidas cosa de caminar y tomar
 aire, y eso me despejo, aunque utilitariamente y no solo por placer pq
 no lo haria. Y ya me canse, me faltaba ir a comprar fruta pero mejor
-no pq no es buen dia hoy para eso, mejor mañana en el mercado. 
+no pq no es buen dia hoy para eso, mejor mañana en el mercado.
 
 ** [2018-01-25 jue]
 HOY CATASTROFE PORQUE???? creo que el dia fue estresante desde las 7
@@ -1080,17 +1105,17 @@ tome hasta ahora ibus
 ** [2018-02-20 mar]
 ayer tome de emergencia cuando estaba con fede por una jaqueca
 incisiva y se me paso, pq pense que era problematico el momento de la
-incorporacion de nuevos cobradores. 
+incorporacion de nuevos cobradores.
 ** [2018-02-24 sáb]
 luego del viernes con el tema de la Sandra en oficina hasta tarde y
 comiendo mal dos dias anteriores termine yendome a dormir medio
 cefaleico pensando que iba a safar y lo mismo termine tomandome un
 migral a la noche a las 4 y durmiendo muy mal
-** [2018-03-03 Sat]  
-   nuevamente el estres de ayer salir apurado de la oficina y comer asado con 
-   los nietos y estar aca en el marques en un horario atipico hizo que me 
-   subiera la jaqueca y tomara un migral pero nada grave. Pienso que luego del 
-   reposo que tuve que hacer se fue y le meti programacion a lo loco sin 
+** [2018-03-03 Sat]
+   nuevamente el estres de ayer salir apurado de la oficina y comer asado con
+   los nietos y estar aca en el marques en un horario atipico hizo que me
+   subiera la jaqueca y tomara un migral pero nada grave. Pienso que luego del
+   reposo que tuve que hacer se fue y le meti programacion a lo loco sin
    sombrero.
 ** [2018-03-05 lun]
 dormi siesta y me senti fatal, no se porque lo hice, ahora post. Pq me
@@ -1102,120 +1127,120 @@ danina y media hora de dormitar y me levante con jaqueca fuerte y no
 tenia ibu, me puse a tomar la jarra de licuado y termine con un
 migral, lamentable por partida doble.
 ** [2018-03-07 mie]
-   termino tomando un migral al volver de ofi, luego de tomar un ibu alla a la 
-   mañana, y no se pq estoy cayendo a este estado cefaleico. Que va acompañado 
-   quiero cronicar aca de malos pensamientos, o sea de una catarata de malos 
-   pensamientos, o sea p.e. puntualmente ahora venia caminando de  la ofi y en 
-   vez de estar bien conmigo mismo me sentia mal y en realidad focalizaba en 
-   lo malo en especial mirando a una equis persona que va caminando adelante o 
-   a una equis tipologia de persona. Lo cual no es para nada normal ni logico, 
-   pero pasa, y la siesta de hace dos dias fue de lo mas patetica pq fue un 
-   reconcentrado de pensamientos negativos. Al menos recien cuando llegue y me 
-   tire en la cama antes de decidir tomar el migral y escribir esto me puse a 
-   leer el resumen de louise y ahi vi una parte que demorar la decision del 
-   cambio se hace mediante "estar ocupado, incluso trabajar" y es lo que hago, 
-   y cuando lei otro que es un ejercicio de espejo que consiste en amarse 
-   completamente como uno es, me dije que no puedo, y me pregunto pq y ahi 
-   quedo. 
+   termino tomando un migral al volver de ofi, luego de tomar un ibu alla a la
+   mañana, y no se pq estoy cayendo a este estado cefaleico. Que va acompañado
+   quiero cronicar aca de malos pensamientos, o sea de una catarata de malos
+   pensamientos, o sea p.e. puntualmente ahora venia caminando de  la ofi y en
+   vez de estar bien conmigo mismo me sentia mal y en realidad focalizaba en
+   lo malo en especial mirando a una equis persona que va caminando adelante o
+   a una equis tipologia de persona. Lo cual no es para nada normal ni logico,
+   pero pasa, y la siesta de hace dos dias fue de lo mas patetica pq fue un
+   reconcentrado de pensamientos negativos. Al menos recien cuando llegue y me
+   tire en la cama antes de decidir tomar el migral y escribir esto me puse a
+   leer el resumen de louise y ahi vi una parte que demorar la decision del
+   cambio se hace mediante "estar ocupado, incluso trabajar" y es lo que hago,
+   y cuando lei otro que es un ejercicio de espejo que consiste en amarse
+   completamente como uno es, me dije que no puedo, y me pregunto pq y ahi
+   quedo.
 ** [2018-03-08 jue]
-   hoy sigo cefaleico. Esta mañana tome ibu en la oficina y no se me disipo el 
-   dolor, llegue y me recoste, luego comi liviano y quede muy rigido, pero 
-   decidi irme al peluquero y al volver me sente en la compu, pero el problema 
-   creo que es el exceso que estoy haciendo en la dupla compu/sillon sin los 
+   hoy sigo cefaleico. Esta mañana tome ibu en la oficina y no se me disipo el
+   dolor, llegue y me recoste, luego comi liviano y quede muy rigido, pero
+   decidi irme al peluquero y al volver me sente en la compu, pero el problema
+   creo que es el exceso que estoy haciendo en la dupla compu/sillon sin los
    descansos/ejercicios adecuados y eso esta repercutiendo negativamente
-   Va in crescendo el dolor, y no quise tomar otro ibu para no generar la 
-   tipica situacion 2ibu+1Mig que se repite muchas veces, o sea cuando ves que 
-   el segundo ibu es al vicio si atras seguro se viene el migral pq el primer 
+   Va in crescendo el dolor, y no quise tomar otro ibu para no generar la
+   tipica situacion 2ibu+1Mig que se repite muchas veces, o sea cuando ves que
+   el segundo ibu es al vicio si atras seguro se viene el migral pq el primer
    ibu no paso nada.
-   Que noto? insitu: tension cervical como dije, hice la pausa estricta, lave 
-   los platos y me sente a comer un durazno y me hice masajes con el 
-   masajeador mientras veia serie, luego se paro el aparato, me comi otro 
-   durazno con un vaso de licuado pq tenia hambre y empiezo otra sesion de 
-   masajes pero la interrumpo pq no da el mismo resultado que la primera. 
-   (Noto que ni siquiera me doy el tiempo para el relax, ni sisquiera el relax 
-   reconstructivo, pq el masajeador lo active en paralelo con ver el tele y 
+   Que noto? insitu: tension cervical como dije, hice la pausa estricta, lave
+   los platos y me sente a comer un durazno y me hice masajes con el
+   masajeador mientras veia serie, luego se paro el aparato, me comi otro
+   durazno con un vaso de licuado pq tenia hambre y empiezo otra sesion de
+   masajes pero la interrumpo pq no da el mismo resultado que la primera.
+   (Noto que ni siquiera me doy el tiempo para el relax, ni sisquiera el relax
+   reconstructivo, pq el masajeador lo active en paralelo con ver el tele y
    comer o sea tres actividades al mismo tiempo).
-   Y ante la pregunta estoy nervioso?. Si. Estoy ansioso. Es como saber que 
-   estoy haciendo poco, o estar en falta, o faltarme algo por hacer y eso me 
-   crea un poquito de tension o sea no me deja relajarme, pq hace como que el 
-   tiempo se me escapa. O sea no veo que el tiempo transcurra comodamente sino 
-   que transcurre en forma que te preocupa o sea te afecta internamente. Pero 
+   Y ante la pregunta estoy nervioso?. Si. Estoy ansioso. Es como saber que
+   estoy haciendo poco, o estar en falta, o faltarme algo por hacer y eso me
+   crea un poquito de tension o sea no me deja relajarme, pq hace como que el
+   tiempo se me escapa. O sea no veo que el tiempo transcurra comodamente sino
+   que transcurre en forma que te preocupa o sea te afecta internamente. Pero
    no se si hasta el punto de causarte el dolor de cabeza.
-   Tambien tengo dolor en los huesitos de la base del craneo que hace mucho 
+   Tambien tengo dolor en los huesitos de la base del craneo que hace mucho
    que no tenia esos dolores.
-   Al final se despejo el dolor gracias a la distraccion que supuso el ponerme 
-   al vim en terminal y comenzar a programar y escribir un poco. Se fue el 
+   Al final se despejo el dolor gracias a la distraccion que supuso el ponerme
+   al vim en terminal y comenzar a programar y escribir un poco. Se fue el
    dolor sin tener que tomar nada mas. Felizmente.
 ** [2018-03-10 sab]
-  seguia con la inercia del dia anterior y tenia el asado a la noche pero 
+  seguia con la inercia del dia anterior y tenia el asado a la noche pero
   felizmante lo pase muy bien. Limpio rapido y no volvio.
 ** [2018-03-13 mar]
-  hoy no es pq tome sino pq aborte una tomada segura, en una pausa de 
-  programacion en el limite de la baja siesta y la alta tarde, parecia que iba 
-  a migral, y ya lo habia aprobado y me pongo a limpiar, y limpio cada vez con 
-  mas fuerza y sigo con el bano luego y ya ahi se habia ido el dolor, luego 
-  segui con otra sesion larga de programacion donde se fueron las causas del 
-  patetismo y el fracaso y todo salio bien y sali adelante y hasta este 
+  hoy no es pq tome sino pq aborte una tomada segura, en una pausa de
+  programacion en el limite de la baja siesta y la alta tarde, parecia que iba
+  a migral, y ya lo habia aprobado y me pongo a limpiar, y limpio cada vez con
+  mas fuerza y sigo con el bano luego y ya ahi se habia ido el dolor, luego
+  segui con otra sesion larga de programacion donde se fueron las causas del
+  patetismo y el fracaso y todo salio bien y sali adelante y hasta este
   momento al menos se fue el momento critico
 
 ** [2018-03-19 lun]
-  casi segui la misma pauta que la semana anterior con migral el viernes y 
-  domingo. Anoche me desperte con cefalea y tome es raro despertarse, el del 
-  viernes fue quizas medio al pedo. 
+  casi segui la misma pauta que la semana anterior con migral el viernes y
+  domingo. Anoche me desperte con cefalea y tome es raro despertarse, el del
+  viernes fue quizas medio al pedo.
 
 ** [2018-03-22 jue]
-   desde ayer que da vueltas el migral incluso afuera del blister, en el 
-   bolsillo, arriba de la mesa, al lado de la taza de cafe, y felizmente no lo 
-   he tomado. y todo pq no tenia ibu casi tomo migral. Y eso que ayer comi 3 
+   desde ayer que da vueltas el migral incluso afuera del blister, en el
+   bolsillo, arriba de la mesa, al lado de la taza de cafe, y felizmente no lo
+   he tomado. y todo pq no tenia ibu casi tomo migral. Y eso que ayer comi 3
    huevos.
 ** [2017-03-26 dom]
-   la llevaba bien hasta el domingo con ibus, y me largue a tomar tintillo por 
-   demas y eso creo que llevo a que me doliera la cabeza y me tome un ibu y un 
-   migral y no basto para limpiar rapido el dolor. Creo que lo que gatillo fue 
+   la llevaba bien hasta el domingo con ibus, y me largue a tomar tintillo por
+   demas y eso creo que llevo a que me doliera la cabeza y me tome un ibu y un
+   migral y no basto para limpiar rapido el dolor. Creo que lo que gatillo fue
    la preocupacion que me dio la musica fuerte a la siesta del domingo.
 
 ** [2018-03-27 mar]
-   ayer no tome nada y hoy tome al levantarme y otro a las 16hs y estoy casi a 
+   ayer no tome nada y hoy tome al levantarme y otro a las 16hs y estoy casi a
    punto de un migral, aparte de fuertes dolores de espalda.
-   Creo que influye el estres y el alto dolor y tension muscular en el cuello 
+   Creo que influye el estres y el alto dolor y tension muscular en el cuello
    y los hombros y la tension en general
 ** [2018-04-04 mié]
-   hace mucho que no tomo un migral en la oficina creo que es el estres de 
+   hace mucho que no tomo un migral en la oficina creo que es el estres de
    tanto trabajo por la incorporacion de gente y tambien el cambio de dieta
 
 ** [2018-04-06 vie]
-   hace dos noches que despierto a 1.30am con migraña y sin migral, antenoche 
-   sin ibu tampoco, busque corty por las dudas y me dormi y se limpio bien, y 
-   anoche que era mas fuerte, tome un ibu y tambien limpio bien. Lo 
+   hace dos noches que despierto a 1.30am con migraña y sin migral, antenoche
+   sin ibu tampoco, busque corty por las dudas y me dormi y se limpio bien, y
+   anoche que era mas fuerte, tome un ibu y tambien limpio bien. Lo
    interesante es que en ambas noches posiblemente hubiera tomado migral.
-   Creo que es la desintoxicacion. Noto en estos ultimos dos dias un aumento 
-   muy pronunciado de tt. Mas alla del malestar fisico al salir de oficina que 
+   Creo que es la desintoxicacion. Noto en estos ultimos dos dias un aumento
+   muy pronunciado de tt. Mas alla del malestar fisico al salir de oficina que
    luego atribui a baja presion pero tenia al tomarme 11/8
 ** [2018-04-07 sab]
    los migrales de viernes y sabado ultimos fueron debidos al alto estres que me ocasiono el tema de la firma de la escritura
-   
+
 ** [2018-04-12 jue]
-   ayer y hoy sufri procesos muy parecidos. Me acuesto luego de comer bien mas 
-   que todo por dolor de espalda no tanto por sueño (pero me pongo a escuchar 
-   un video y me duermo) y luego me pongo para dormir con gran aparato pq hay 
-   que poner sonidos fuertes con auricular, posicion incomoda, y en si no 
-   logro la tranquilidad para relajarme, y de golpe en un momento se agrava la 
-   migraña a tal punto que se hace muy fuerte, tomando migral y todo ayer, no 
-   cedia y al rato largo, parecia como si no hubiera tomado nada. Recien 
-   cuando decidi salirme pensando que salir me sacaria el dolor (fui a la 
-   farmacia a comprar topiramato y me vine a la oficina mas temprano) el dolor 
-   cedio y se fue y eso que el dia tenia 34° y el sol estaba brillante.  Hoy 
-   iba camino a pasar lo mismo, me acuesto, me dormilo, no iba a dormirme pero 
-   vi que comenzaba la migraña y ahi me levante, me cambie y me puse en 
-   actividad sin proposito claro. O sea no utilitarista. Me tome un licuado, y 
-   vi el freezer y me puse a limpiarlo saque el hielo con el secapelo y tire 
-   todo lo vencido, y luego limpie abajo la peor parte, o sea toda una parte 
-   si se dice fea de la heladera, la peor, (quizas me queda lo mas facil si 
-   decidiera terminar de limpiarla). Pero no viene al caso, el tema es que 
-   estuve agachado, estuve largo rato en el tema y se me paso todo sintoma 
-   hasta ese momento. Luego dije que hago. pq tengo un horario incierto y me 
-   vine a la oficina. Lo que tiene que ver con el cefaleico es que parece que 
-   la migraña esa se hace ahi. 
+   ayer y hoy sufri procesos muy parecidos. Me acuesto luego de comer bien mas
+   que todo por dolor de espalda no tanto por sueño (pero me pongo a escuchar
+   un video y me duermo) y luego me pongo para dormir con gran aparato pq hay
+   que poner sonidos fuertes con auricular, posicion incomoda, y en si no
+   logro la tranquilidad para relajarme, y de golpe en un momento se agrava la
+   migraña a tal punto que se hace muy fuerte, tomando migral y todo ayer, no
+   cedia y al rato largo, parecia como si no hubiera tomado nada. Recien
+   cuando decidi salirme pensando que salir me sacaria el dolor (fui a la
+   farmacia a comprar topiramato y me vine a la oficina mas temprano) el dolor
+   cedio y se fue y eso que el dia tenia 34° y el sol estaba brillante.  Hoy
+   iba camino a pasar lo mismo, me acuesto, me dormilo, no iba a dormirme pero
+   vi que comenzaba la migraña y ahi me levante, me cambie y me puse en
+   actividad sin proposito claro. O sea no utilitarista. Me tome un licuado, y
+   vi el freezer y me puse a limpiarlo saque el hielo con el secapelo y tire
+   todo lo vencido, y luego limpie abajo la peor parte, o sea toda una parte
+   si se dice fea de la heladera, la peor, (quizas me queda lo mas facil si
+   decidiera terminar de limpiarla). Pero no viene al caso, el tema es que
+   estuve agachado, estuve largo rato en el tema y se me paso todo sintoma
+   hasta ese momento. Luego dije que hago. pq tengo un horario incierto y me
+   vine a la oficina. Lo que tiene que ver con el cefaleico es que parece que
+   la migraña esa se hace ahi.
 * historial
 ** migrañas
 *** Diario de migrañas fuertes
@@ -1274,17 +1299,17 @@ tomo el tercer migral del dia a las 17hs, sin nauseas hasta ahora, y
 no espero resolucion ni nada sino que me enfrasco en la compu, y en un
 momento de relax cuando miro por la ventana de la cocina, me golpeo
 fuertemente la frente, hasta el punto del sangrado, asi que ahora no
-se si tengo resaca o dolor del golpe. 
+se si tengo resaca o dolor del golpe.
 Si bien es cierto que no tuvo la magnitud del domingo pasado, si
 podria haberlo ubicado en un comodo 6 en el momento de levantarme que
 me impediria las actividades. Y alli decidi ir al medico mañana. En
 realidad comenzar a ir a todos los medicos. O sea instalarme en el hp
-del patio olmos. o el central si hace falta. 
+del patio olmos. o el central si hace falta.
 **** [2016-10-18 mar]
      :2M:fuerte:
 El domingo tomo dos migrales seguidos, me cayo un poco mal la comida
 (pollo al disco) y me percato que era tipo cefaleico y cedio bastante
-rapido y me bañe y me sente en la terraza y mejore bastante. 
+rapido y me bañe y me sente en la terraza y mejore bastante.
 Ayer lunes en la oficina tome dos migrales con separacion de 2 horas
 mas o menos y tambien un dolor cefaleico moderado a molesto pero cedio
 practicamente cuando volvia a casa. Y hoy fue diferente, tomo los 2
@@ -1329,7 +1354,7 @@ un te con dos galletas y queso.
    mañana. Luego desayuno y voy a la ofi. Y alli tipo 11hs tomo un
    migral normal como hago siempre, y luego de nuevo en la ofi a la
    tarde siento que el dolor va in crescendo y tipo 16hs tomo otro
-   sabiendo que tenia que quedarme hasta las 17 obligadamente. 
+   sabiendo que tenia que quedarme hasta las 17 obligadamente.
    Luego llego a casa en un estado raro, no queria sentarme a
    programar, me sentia saturado, y me hice una merienda frutal con
    manzana, arandanos y frutilla y medio vaso de licuado, previamente

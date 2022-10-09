@@ -600,3 +600,4 @@ en especial MsMi y varias para ver
 * embarck C-; y alli veo las opciones
 en especial ir hacia la definicion
 * lsp - space l  y de alli veo las opciones
+* Ctrl X- TAB indentacion

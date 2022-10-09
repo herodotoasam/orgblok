@@ -261,7 +261,7 @@ D $1000.00
     assets:caja                        -476.02
 
 2020/07/13 seguro auto
-    expenses:servicios:la caja seguros            2302
+    expenses:servicios:la-caja-seguros            2302
     assets:caja                                  -2302
 
 2020/07/13 tyc electronica
@@ -281,9 +281,9 @@ D $1000.00
     assets:caja                  -555.44
 
 2020/07/13 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          1162
+    expenses:servicios:tarjeta-naranja-gastos-fijos          1162
     assets:caja                                             -1162
-    
+
 
 2020/07/14 comida cumple romi
     expenses:comida          2000
@@ -586,7 +586,7 @@ D $1000.00
     assets:caja            $-214.38
 
 2020/08/05 seguro auto
-    expenses:servicios:la caja seguros           $2302
+    expenses:servicios:la-caja-seguros           $2302
     assets:caja                                 $-2302
 
 2020/08/05 netflix
@@ -606,7 +606,7 @@ D $1000.00
     assets:caja                      $-1210.11
 
 2020/08/05 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          376.19
+    expenses:servicios:tarjeta-naranja-gastos-fijos          376.19
     assets:caja                                             -376.19
 
 2020/08/06 ayuda
@@ -1230,7 +1230,7 @@ D $1000.00
     assets:caja            -7193.47
 
 2020/09/08 seguro auto
-    expenses:servicios:la caja seguros            2596
+    expenses:servicios:la-caja-seguros            2596
     assets:caja                                  -2596
 
 2020/09/08 netflix
@@ -1246,7 +1246,7 @@ D $1000.00
     assets:caja                      $-1210.11
 
 2020/09/08 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          373.27
+    expenses:servicios:tarjeta-naranja-gastos-fijos          373.27
     assets:caja                                             -373.27
 
 2020/09/08 saco reserva
@@ -1261,7 +1261,7 @@ D $1000.00
     assets:caja             $10000
     assets:reserva         $-10000
 
-2020/09/10 expensas dpto jujuy (ultima)
+2020/09/10 gastos comunes dpto jujuy (ultima)
     expenses:romi            3200
     assets:caja             -3200
 
@@ -1849,7 +1849,7 @@ D $1000.00
     assets:caja                       $-476.02
 
 2020/10/10 seguro auto
-    expenses:servicios:la caja seguros           $2596
+    expenses:servicios:la-caja-seguros           $2596
     assets:caja                                 $-2596
 
 2020/10/10 canilla cocina y dpto plan z
@@ -1857,7 +1857,7 @@ D $1000.00
     assets:caja                      -3125.93
 
 2020/10/10 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          771.96
+    expenses:servicios:tarjeta-naranja-gastos-fijos          771.96
     assets:caja                                             -771.96
 
 2020/10/12 ingresos
@@ -1972,9 +1972,6 @@ D $1000.00
     expenses:casa:mantenimiento             700
     assets:caja                            -700
 
-2020/10/17 recupero prestamo ih
-    assets:caja                  431
-    assets:deudas ih            -431
 
 2020/10/17 farmacia
     expenses:gastos medicos:farmacia             431
@@ -2185,7 +2182,7 @@ D $1000.00
     assets:caja            $-214.38
 
 2020/11/04 seguro auto
-    expenses:servicios:la caja seguros           $2596
+    expenses:servicios:la-caja-seguros           $2596
     assets:caja                                 $-2596
 
 2020/11/04 netflix
@@ -2237,7 +2234,7 @@ D $1000.00
     assets:caja                      -3749.92
 
 2020/11/04 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos         1067.69
+    expenses:servicios:tarjeta-naranja-gastos-fijos         1067.69
     assets:caja                                            -1067.69
 
 2020/11/04 saco reserva
@@ -2641,7 +2638,7 @@ D $1000.00
     assets:caja                     $-3749.92
 
 2020/12/04 seguro auto
-    expenses:servicios:la caja seguros            2778
+    expenses:servicios:la-caja-seguros            2778
     assets:caja                                  -2778
 
 2020/12/04 netflix
@@ -2677,7 +2674,7 @@ D $1000.00
     assets:caja               $-660
 
 2020/12/04 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos             635
+    expenses:servicios:tarjeta-naranja-gastos-fijos             635
     assets:caja                                                -635
 
 2020/12/04 ayuda
@@ -3099,7 +3096,7 @@ D $1000.00
     assets:caja                     $-3749.92
 
 2021/01/05 seguro auto
-    expenses:servicios:la caja seguros           $2778
+    expenses:servicios:la-caja-seguros           $2778
     assets:caja                                 $-2778
 
 2021/01/05 netflix
@@ -3131,7 +3128,7 @@ D $1000.00
     assets:caja              -996
 
 2021/01/05 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos              571
+    expenses:servicios:tarjeta-naranja-gastos-fijos              571
     assets:caja                                                 -571
 
 2021/01/05 pinturerias szumik zeta
@@ -3523,7 +3520,7 @@ D $1000.00
     assets:caja                       $-605.14
 
 2021/02/04 seguro auto
-    expenses:servicios:la caja seguros           $2778
+    expenses:servicios:la-caja-seguros           $2778
     assets:caja                                 $-2778
 
 2021/02/04 american cuer
@@ -3559,7 +3556,7 @@ D $1000.00
     assets:caja              -747
 
 2021/02/04 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos             882
+    expenses:servicios:tarjeta-naranja-gastos-fijos             882
     assets:caja                                                -882
 
 2021/02/04 cami sicologa
@@ -4087,7 +4084,7 @@ D $1000.00
     assets:caja                                 -169
 
 2021/03/08 seguro auto
-    expenses:servicios:la caja seguros            3112
+    expenses:servicios:la-caja-seguros            3112
     assets:caja                                  -3112
 
 2021/03/08 american cuer
@@ -4127,7 +4124,7 @@ D $1000.00
     assets:caja         -833.35
 
 2021/03/08 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          580.43
+    expenses:servicios:tarjeta-naranja-gastos-fijos          580.43
     assets:caja                                             -580.43
 
 2021/03/08 farmacia neutop
@@ -4673,7 +4670,7 @@ D $1000.00
     assets:caja            $-966.67
 
 2021/04/05 seguro auto
-    expenses:servicios:la caja seguros           $3112
+    expenses:servicios:la-caja-seguros           $3112
     assets:caja                                 $-3112
 
 2021/04/05 ih rio shop deco
@@ -4701,7 +4698,7 @@ D $1000.00
     assets:caja                                   -2000
 
 2021/04/05 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          860.28
+    expenses:servicios:tarjeta-naranja-gastos-fijos          860.28
     assets:caja                                             -860.28
 
 2021/04/06 ingresos
@@ -5181,7 +5178,7 @@ D $1000.00
     assets:caja            $-966.67
 
 2021/05/06 seguro auto
-    expenses:servicios:la caja seguros           $3112
+    expenses:servicios:la-caja-seguros           $3112
     assets:caja                                 $-3112
 
 2021/05/06 netflix
@@ -5225,7 +5222,7 @@ D $1000.00
     assets:caja                                    -250
 
 2021/05/06 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          1312.3
+    expenses:servicios:tarjeta-naranja-gastos-fijos          1312.3
     assets:caja                                             -1312.3
 
 2021/05/06 ingresos
@@ -5658,7 +5655,7 @@ D $1000.00
     assets:caja              -982.6
 
 2021/06/08 seguro auto
-    expenses:servicios:la caja seguros            3608
+    expenses:servicios:la-caja-seguros            3608
     assets:caja                                  -3608
 
 2021/06/08 netflix
@@ -5706,7 +5703,7 @@ D $1000.00
     assets:caja        -1741.66
 
 2021/06/08 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          982.34
+    expenses:servicios:tarjeta-naranja-gastos-fijos          982.34
     assets:caja                                             -982.34
 
 2021/06/08 cami mesada
@@ -6062,7 +6059,7 @@ D $1000.00
     assets:caja                     $-2200
 
 2021/07/01 seguro auto
-    expenses:servicios:la caja seguros           $3608
+    expenses:servicios:la-caja-seguros           $3608
     assets:caja                                 $-3608
 
 2021/07/01 netflix
@@ -6114,7 +6111,7 @@ D $1000.00
     assets:caja                           -200
 
 2021/07/01 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos          950.71
+    expenses:servicios:tarjeta-naranja-gastos-fijos          950.71
     assets:caja                                             -950.71
 
 2021/07/01 saco reserva
@@ -6604,7 +6601,7 @@ D $1000.00
     assets:caja                     $-2200
 
 2021/08/03 seguro auto
-    expenses:servicios:la caja seguros           $3608
+    expenses:servicios:la-caja-seguros           $3608
     assets:caja                                 $-3608
 
 2021/08/03 netflix
@@ -6656,7 +6653,7 @@ D $1000.00
     assets:caja                          $-200
 
 2021/08/03 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos            1462
+    expenses:servicios:tarjeta-naranja-gastos-fijos            1462
     assets:caja                                               -1462
 
 2021/08/03 ih
@@ -7101,7 +7098,7 @@ D $1000.00
     assets:caja                      $-1097.13
 
 2021-09-02 seguro auto
-    expenses:servicios:la caja seguros            3988
+    expenses:servicios:la-caja-seguros            3988
     assets:caja                                  -3988
 
 2021-09-02 jugueteria pluto
@@ -7157,7 +7154,7 @@ D $1000.00
     assets:caja                             $-1938.7
 
 2021-09-02 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos         1744.28
+    expenses:servicios:tarjeta-naranja-gastos-fijos         1744.28
     assets:caja                                            -1744.28
 
 2021-09-02 ih
@@ -7609,7 +7606,7 @@ D $1000.00
     assets:caja                      $-1097.13
 
 2021-10-04 seguro auto
-    expenses:servicios:la caja seguros           $3988
+    expenses:servicios:la-caja-seguros           $3988
     assets:caja                                 $-3988
 
 2021-10-04 comida hiper
@@ -7685,7 +7682,7 @@ D $1000.00
     assets:caja                           -473
 
 2021-10-04 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos            1384
+    expenses:servicios:tarjeta-naranja-gastos-fijos            1384
     assets:caja                                               -1384
 
 2021-10-04 farmacia hp
@@ -7742,7 +7739,7 @@ D $1000.00
 
 2021-08-11 prestamo dolares Fede
     assets:deudores                   u$s 2700
-    assets:reserva u$s            u$s   -2700 
+    assets:reserva u$s            u$s   -2700
 
 2021-10-11 dif encontrada
     assets:caja                            810
@@ -8081,7 +8078,7 @@ D $1000.00
     assets:caja              $-2180
 
 2021/11/05 seguro auto
-    expenses:servicios:la caja seguros           $3988
+    expenses:servicios:la-caja-seguros           $3988
     assets:caja                                 $-3988
 
 2021/11/05 netflix
@@ -8105,7 +8102,7 @@ D $1000.00
     assets:caja                         -399
 
 2021/11/05 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos         1109.91
+    expenses:servicios:tarjeta-naranja-gastos-fijos         1109.91
     assets:caja                                            -1109.91
 
 2021/11/05 almohadones
@@ -8522,7 +8519,7 @@ D $1000.00
     assets:caja              $-2180
 
 2021/12/02 seguro auto
-    expenses:servicios:la caja seguros            4273
+    expenses:servicios:la-caja-seguros            4273
     assets:caja                                  -4273
 
 2021/12/02 neflix
@@ -8551,7 +8548,7 @@ D $1000.00
     assets:caja                           -308
 
 2021/12/02 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos            1130
+    expenses:servicios:tarjeta-naranja-gastos-fijos            1130
     assets:caja                                               -1130
 
 2021/12/02 gastos tn ih
@@ -8959,8 +8956,8 @@ D $1000.00
 
 
 2021/12/28 devolucion prestamo romi
-    assets:caja                  11700
-    assets:deudas romi          -11700
+    assets:caja                  11200
+    assets:deudas romi          -11200
 
 2021/12/28 reserva
     assets:reserva           11700
@@ -9093,7 +9090,7 @@ D $1000.00
     assets:caja       $-1331.67
 
 2022/01/05 seguro auto
-    expenses:servicios:la caja seguros           $4273
+    expenses:servicios:la-caja-seguros           $4273
     assets:caja                                 $-4273
 
 2022/01/05 netflix
@@ -9145,7 +9142,7 @@ D $1000.00
     assets:caja                          $-308
 
 2022/01/05 gastos tarjeta naranja
-    expenses:servicios:tarjeta naranja gastos fijos            1271
+    expenses:servicios:tarjeta-naranja-gastos-fijos            1271
     assets:caja                                               -1271
 
 2022/01/05 creditos devoluciones por compras fiestas
@@ -9703,7 +9700,7 @@ D $1000.00
     assets:reserva          -40000
 
 2022/02/04 devolucion prestamo romi
-    assets:caja                   59000 
+    assets:caja                   59000
     assets:deudas romi           -59000
 
 
@@ -12694,9 +12691,21 @@ D $1000.00
     expenses:gastos medicos:farmacia            1660
     assets:caja                                -1660
 
-2022-10-03 ih tn
-    expenses:isabel           59946
-    assets:caja              -59946
+2022-10-03 tarjeta naranja
+    expenses:casa:mantenimiento   $ 12533
+    expenses:casa:mantenimiento   $ 9144
+    expenses:romi   $ 2166
+    expenses:comida   $ 4134
+    expenses:servicios:la-caja-seguros  $ 6832
+    expenses:servicios:netflix   $ 2086
+    expenses:servicios:varios   $ 564
+    expenses:casa:mantenimiento   $ 539
+    expenses:regalos   $ 2999
+    expenses:ih   $ 7585
+    expenses:comida   $ 3008
+    expenses:servicios:carusso   $ 3616
+    expenses:servicios:tarjeta-naranja-gastos-fijos   $ 3426
+    assets:caja   $ - 58632
 
 2022-10-03 dgr-casa
     expenses:impuestos:casa:dgr            1468
@@ -12777,3 +12786,23 @@ D $1000.00
 2022-10-05 diff
     expenses:diferencia arqueo             351
     assets:caja                           -351
+
+2022-10-07 ingresos
+    assets:reserva                    5000
+    income:retiro sociedad           -5000
+
+2022-10-07 saco reserva
+    assets:caja               5000
+    assets:reserva           -5000
+
+2022-10-07 comida cami
+    expenses:cami:comida            5000
+    assets:caja                    -5000
+
+2022-10-08 mesada ih
+    expenses:ih     12000
+    assets:caja     -12000
+
+2022-10-08 devolucion para cerrar cuenta
+    assets:caja      1130
+    assets:deudas ih  -1130

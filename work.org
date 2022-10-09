@@ -68,6 +68,13 @@ menos opcione, creo que hay que enriquecer un poco el tema fonts
 ** problemas con undo
 anda para dos o tres cambios y luego lastimosamente no anda mas.
 instale vundo - space-v
+** problema de velocidad de carga
+estoy en los 7/8 segundos y antes estaba en los 5/6
+** la opcion de un sistema 'adquirido'
+el sistema anda mejor que nunca. Es el mejor emacs que nunca he
+tenido, pero tiene muchas cosas que no son propias. Ese es el tema,
+menos mal que tiene una forma modular de trabajo para poder cambiar
+sin romper las cosas.
 
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -143,6 +150,43 @@ CLOSED: [2022-10-04 Tue 15:49]
 - State "DONE"       from "TODO"       [2022-10-04 Tue 15:49]
 :END:
 o sea las que se pagaron despues del vto
+** DONE en mobile no se accede a la base de datos mayormente
+CLOSED: [2022-10-07 Fri 18:40]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-07 Fri 18:40]
+:END:
+   no hay log negativos, ya restart mariadb, ya resetie el telefono.
+   en acc del ssh se ve que la ruta /stock/asientos la pasa como GET a /stock/null
+   resuelto el bug. Era axios. Lo que pasa que cuando no pones una
+   version fija como te aconseja alpine, te descarga la ultima y eso te
+   puede romper el sistema.
+
+** DONE [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
+CLOSED: [2022-10-08 Sat 08:36]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-08 Sat 08:36]
+:END:
+suma queda
+** DONE luego de un sort y refresh sigue quedando el ultimo icon
+CLOSED: [2022-10-08 Sat 08:37]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-08 Sat 08:37]
+:END:
+tiene que haber una forma de limpiar.
+
+** DONE hacer una columna recargo tomando la inflacion real
+CLOSED: [2022-10-08 Sat 12:47]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-08 Sat 12:47]
+:END:
+lo primero que necesito es una tabla de valores.
+derivados: actualizar los montos comprados y hacer un tag de monto
+comprado actualizado. Listo.
+** DONE poner version a todos los script linkeados en base
+CLOSED: [2022-10-08 Sat 13:52]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-08 Sat 13:52]
+:END:
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -168,17 +212,42 @@ botones, etc. muchas otras cosas que podre ir agregando.
 ** TODO cuadro de resultado mensual
 con vista ordenada de ingresos y egresos
 ** TODO acceso a la ficha individual desde fichaje
-** BUG  luego de un sort y refresh sigue quedando el ultimo icon
-tiene que haber una forma de limpiar.
-
-** BUG [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
-suma queda
-** TODO hacer una columna recargo tomando la inflacion real
-lo primero que necesito es una tabla de valores.
-derivados: actualizar los montos comprados y hacer un tag de monto
-comprado actualizado. Listo.
+por ahora no le encuentro solucion, pq puedo acceder al buscador
+mediante una ruta, pero no que busque automaticamente, ni siquiera que
+me ponga el dni en el campo buscar.
 * agenda de actividad
 ** semana [2022-10-02 Sun]
+*** [2022-10-08 Sat]
+:LOGBOOK:
+CLOCK: [2022-10-08 Sat 22:13]--[2022-10-08 Sat 23:20] =>  1:07
+trabaje con hledger es mucho mas productivo voy a ir arreglando el
+journal de a poco.
+CLOCK: [2022-10-08 Sat 17:55]--[2022-10-08 Sat 19:24] =>  1:29
+instale hledger funcional por ahora por los reportes, luego lo hare
+funcionar para pasar los asientos
+CLOCK: [2022-10-08 Sat 17:15]--[2022-10-08 Sat 17:52] =>  0:37
+cambio de font es operativo, esta para seguir probando
+CLOCK: [2022-10-08 Sat 13:55]--[2022-10-08 Sat 14:18] =>  0:23
+infructuoso intento de acceso a la ficha individual desde fichaje
+CLOCK: [2022-10-08 Sat 13:00]--[2022-10-08 Sat 13:52] =>  0:52
+pineado de cdns
+CLOCK: [2022-10-08 Sat 12:00]--[2022-10-08 Sat 12:35] =>  0:35
+emacs varios
+CLOCK: [2022-10-08 Sat 08:10]--[2022-10-08 Sat 08:36] =>  0:26
+termine la funcion limpiar tabla
+CLOCK: [2022-10-08 Sat 07:35]--[2022-10-08 Sat 08:09] =>  0:34
+renegue un poco con el intento de romper el sistema que anda bien
+:END:
+*** [2022-10-07 Fri]
+:LOGBOOK:
+CLOCK: [2022-10-07 Fri 17:51]--[2022-10-07 Fri 18:51] =>  1:00
+marco una hora de diferentes momentos que prendi la maquina hasta que
+arregle el bug critico axios
+CLOCK: [2022-10-07 Fri 12:20]--[2022-10-07 Fri 12:48] =>  0:28
+corrijo bug en parte de los subtotales falta el iconito
+CLOCK: [2022-10-07 Fri 11:16]--[2022-10-07 Fri 12:20] =>  1:04
+arregle el tema font y le agregue treemacs
+:END:
 *** [2022-10-06 Thu]
 :LOGBOOK:
 CLOCK: [2022-10-06 Thu 19:15]--[2022-10-06 Thu 19:40] =>  0:25
