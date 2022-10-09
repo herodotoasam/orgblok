@@ -62,7 +62,11 @@ la solucion esta en dired.
 al final la opcion que mejor anda es la prot-emacs-completion que
 busca fuzzy al toque.
 
-** al cambiar theme hay problemas
+** DONE al cambiar theme hay problemas
+CLOSED: [2022-10-09 Sun 14:42]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-09 Sun 14:42]
+:END:
 solucionaron al eliminar los paquetes de letras pero me quede con
 menos opcione, creo que hay que enriquecer un poco el tema fonts
 ** problemas con undo
@@ -75,7 +79,11 @@ el sistema anda mejor que nunca. Es el mejor emacs que nunca he
 tenido, pero tiene muchas cosas que no son propias. Ese es el tema,
 menos mal que tiene una forma modular de trabajo para poder cambiar
 sin romper las cosas.
-
+** DONE ver la forma de backup de gpg
+CLOSED: [2022-10-09 Sun 14:42]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-09 Sun 14:42]
+:END:
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -150,7 +158,7 @@ CLOSED: [2022-10-04 Tue 15:49]
 - State "DONE"       from "TODO"       [2022-10-04 Tue 15:49]
 :END:
 o sea las que se pagaron despues del vto
-** DONE en mobile no se accede a la base de datos mayormente
+** DONE en mobile no se accede a la base de datos mayormente :bug:axios:
 CLOSED: [2022-10-07 Fri 18:40]
 :LOGBOOK:
 - State "DONE"       from "BUG"        [2022-10-07 Fri 18:40]
@@ -160,6 +168,33 @@ CLOSED: [2022-10-07 Fri 18:40]
    resuelto el bug. Era axios. Lo que pasa que cuando no pones una
    version fija como te aconseja alpine, te descarga la ultima y eso te
    puede romper el sistema.
+   la historia fue asi: De repente se me da por chequear el sistema en
+   el telefono (yo enfermo en cama y fede pasando la caja a mil el
+   viernes por la tarde pq se iba de viaje) y veo stock-asientos y veo
+   caja $0 y santander $0, tambien veo que en buscador no busca nada,
+   entonces deduzco que no leia la base de datos. Aunque andaban las
+   tablas dinamicas generadas en pandas. O sea que mariadb andaba.
+   Me levando y chequeo la maquina, y si andaba. Entonces deduzco que
+   era el mobil. Entonces me pongo a googlear web site not working at
+   mobile y cosas similares y me decian cualquier cosa.
+   Entonces tuve una suerte de iluminacion por un asuntito que vi en
+   el access.log pq el error.log no decia nada, y el de flask
+   tampoco. Y era que las rutas las hacia /null o sea que en vez de
+   direccionar a /stock/asientos te direccionaba a /stock/null y eso
+   obvio no existe. Nuevas busquedas en google peor me mandaban al
+   quinoto.
+   Habia leido justo hacia un rato que axios habia actualizado y no
+   sin errores, linkee en su momento a los errores y era que daba
+   error la version y que muchos pedian cambio. Y algunos sugerian un
+   downgrade a la 0.27.2. Hice eso y voile! todo resuelto. Luego lei
+   mas comentarios y uno de mucha experiencia en devsys decia
+   "Muchachos como no van a tener pineados los cdns" asi que pinie
+   todo.
+   Lo unico que me quedo en la cabeza fue que en ese momento fugaz de
+   apuro pq no queria dejar inoperativo el sistema, yo hice un S-C-r
+   en firefox y me dejo de funcionar tambien en desktop, y ahora no lo
+   puedo reproducir como que lo hubieran arreglado para desktop en
+   estas ultimas horas.
 
 ** DONE [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
 CLOSED: [2022-10-08 Sat 08:36]
@@ -216,6 +251,28 @@ por ahora no le encuentro solucion, pq puedo acceder al buscador
 mediante una ruta, pero no que busque automaticamente, ni siquiera que
 me ponga el dni en el campo buscar.
 * agenda de actividad
+** semana [2022-10-09 Sun]
+*** [2022-10-09 Sun]
+:LOGBOOK:
+CLOCK: [2022-10-09 Sun 14:15]--[2022-10-09 Sun 14:37] =>  0:22
+clave exportada y llevada a orgblok - perdida de tiempo intentando
+recuperar una vieja clave(frase olvidada)
+CLOCK: [2022-10-09 Sun 13:55]--[2022-10-09 Sun 14:14] =>  0:19
+intentando solucionar problemas de term - puedo usar pass en vterm o
+sea no necesito term
+CLOCK: [2022-10-09 Sun 11:35]--[2022-10-09 Sun 13:00] =>  1:25
+instale pass a nivel linux genere gpg y lo usa directo emacs
+CLOCK: [2022-10-09 Sun 10:25]--[2022-10-09 Sun 11:30] =>  1:05
+instale vterm-term-multi-vterm
+CLOCK: [2022-10-09 Sun 10:05]--[2022-10-09 Sun 10:21] =>  0:16
+instale dashboard
+CLOCK: [2022-10-09 Sun 09:25]--[2022-10-09 Sun 10:04] =>  0:39
+instale pythonenv
+CLOCK: [2022-10-09 Sun 08:55]--[2022-10-09 Sun 09:25] =>  0:30
+comprobacion del bug-axios - existe realmente y solo fue en mobile
+CLOCK: [2022-10-09 Sun 08:12]--[2022-10-09 Sun 08:35] =>  0:23
+mas ajustes a hledger en lo posible
+:END:
 ** semana [2022-10-02 Sun]
 *** [2022-10-08 Sat]
 :LOGBOOK:
