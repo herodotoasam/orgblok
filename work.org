@@ -84,6 +84,22 @@ CLOSED: [2022-10-09 Sun 14:42]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-09 Sun 14:42]
 :END:
+** TODO resolver el tema xmodmap
+p.e. el tema de la enie
+** TODO arreglar hledger
+corregir el nombre de las cuentas
+corregir las duplicaciones y los malos encuadramientos
+** TODO pasar password firefox a pass
+pasar y/o revisar duplicaciones
+idem con los de chrome
+guardar los password de firefox en csv encryptado por emacs en orgblok
+borrar los password de los browser
+hacer un nuevo archivo tipo kubuntu.org que se llame fedora.org con
+instrucciones de instalacion
+agregar el manejador de pass
+hacer una nueva clave gpg edificiogama con la clave que se desprende
+obvia de eso para mi uso personal.
+Establecer una estrategia de cambio de maquina con respecto a las claves
 * agenda pendientes
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -280,6 +296,11 @@ CLOCK: [2022-10-09 Sun 08:55]--[2022-10-09 Sun 09:25] =>  0:30
 comprobacion del bug-axios - existe realmente y solo fue en mobile
 CLOCK: [2022-10-09 Sun 08:12]--[2022-10-09 Sun 08:35] =>  0:23
 mas ajustes a hledger en lo posible
+:END:
+*** [2022-10-10 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-10 Mon 08:41]
+
 :END:
 ** semana [2022-10-02 Sun]
 *** [2022-10-08 Sat]
