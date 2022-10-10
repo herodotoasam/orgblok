@@ -1,4 +1,4 @@
-* agenda emacs
+* agenda sistema
 ** pendientes completion - lsp etc
 sin lsp andan mejor las completiones
 *** css no anda
@@ -120,7 +120,7 @@ agregar el manejador de pass
 hacer una nueva clave gpg edificiogama con la clave que se desprende
 obvia de eso para mi uso personal.
 Establecer una estrategia de cambio de maquina con respecto a las claves
-* agenda pendientes
+* agenda programacion
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
    CLOSED: [2022-09-24 Sat 20:23]
@@ -288,6 +288,20 @@ mediante una ruta, pero no que busque automaticamente, ni siquiera que
 me ponga el dni en el campo buscar.
 * agenda de actividad
 ** semana [2022-10-09 Sun]
+*** [2022-10-10 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-10 Mon 12:04]--[2022-10-10 Mon 12:40] =>  0:36
+hago nueva gpg - empiezo a ver forma de importar password de firefox a pass
+CLOCK: [2022-10-10 Mon 11:14]--[2022-10-10 Mon 11:50] =>  0:36
+probando flycheck: satisfactorio para py/js/html/css
+CLOCK: [2022-10-10 Mon 10:31]--[2022-10-10 Mon 11:10] =>  0:39
+termino configuracion de lsp-mode probando prescient.
+CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
+configuracion de lsp-mode
+CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33
+varios temas- mirrorin git en GitLab
+
+:END:
 *** [2022-10-09 Sun]
 :LOGBOOK:
 CLOCK: [2022-10-09 Sun 16:05]--[2022-10-09 Sun 16:47] =>  0:42
@@ -316,20 +330,6 @@ CLOCK: [2022-10-09 Sun 08:55]--[2022-10-09 Sun 09:25] =>  0:30
 comprobacion del bug-axios - existe realmente y solo fue en mobile
 CLOCK: [2022-10-09 Sun 08:12]--[2022-10-09 Sun 08:35] =>  0:23
 mas ajustes a hledger en lo posible
-:END:
-*** [2022-10-10 Mon]
-:LOGBOOK:
-CLOCK: [2022-10-10 Mon 12:04]
-hago nueva gpg
-CLOCK: [2022-10-10 Mon 11:14]--[2022-10-10 Mon 11:50] =>  0:36
-probando flycheck: satisfactorio para py/js/html/css
-CLOCK: [2022-10-10 Mon 10:31]--[2022-10-10 Mon 11:10] =>  0:39
-termino configuracion de lsp-mode probando prescient.
-CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
-configuracion de lsp-mode
-CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33
-varios temas- mirrorin git en GitLab
-
 :END:
 ** semana [2022-10-02 Sun]
 *** [2022-10-08 Sat]
@@ -799,7 +799,7 @@ agregar mas mensajes programables y poner un dropdown
    servicio como esta hecho en apache, e hice que el backup se haga
    por hora.
    :END:
-* agenda
+* agenda pendientes
 **** llevar bici fede
 **** llevar kangoo mecanico
 **** inflar gomas kangoo
