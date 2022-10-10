@@ -341,7 +341,15 @@ sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 ** semana [2022-10-09 Sun]
 *** [2022-10-10 Mon]
 :LOGBOOK:
-CLOCK: [2022-10-10 Mon 16:16]--[2022-10-10 Mon 16:35] =>  0:19
+CLOCK: [2022-10-10 Mon 19:30]--[2022-10-10 Mon 19:49] =>  0:19
+atajo a agitate-diff-buffer-or-file a F9 muy util y rescate de space-o
+para occur dentro del buffer aun en palabras con guion
+CLOCK: [2022-10-10 Mon 18:15]--[2022-10-10 Mon 19:10] =>  0:55
+poniendo a punto undo-tree
+CLOCK: [2022-10-10 Mon 17:05]--[2022-10-10 Mon 18:10] =>  1:05
+limpiarTable en fichaje y dispersiones varias
+CLOCK: [2022-10-10 Mon 16:16]--[2022-10-10 Mon 16:55] =>  0:39
+anotacion de los conceptos pensados cuando estuve en cama
 CLOCK: [2022-10-10 Mon 15:00]--[2022-10-10 Mon 15:55] =>  0:55
 trabajo en parte con pass que es muy tedioso
 CLOCK: [2022-10-10 Mon 13:40]--[2022-10-10 Mon 15:00] =>  1:20
@@ -356,7 +364,6 @@ CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
 configuracion de lsp-mode
 CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33
 varios temas- mirrorin git en GitLab
-
 :END:
 *** [2022-10-09 Sun]
 :LOGBOOK:
