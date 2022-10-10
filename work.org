@@ -1,5 +1,9 @@
 * agenda sistema
-** pendientes completion - lsp etc
+** DONE pendientes completion - lsp etc
+CLOSED: [2022-10-10 Mon 15:40]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-10 Mon 15:40]
+:END:
 sin lsp andan mejor las completiones
 *** css no anda
 lo hice andar con el js-ts pero hay que tomarle la vuelta, anda
@@ -81,7 +85,6 @@ busca fuzzy al toque.
    completiones locales que no toma las obtengo de M-/.
 Por ahora cerramos el tema ya que el sistema anda razonablemente bien
 en el tema.
-
 ** DONE al cambiar theme hay problemas
 CLOSED: [2022-10-09 Sun 14:42]
 :LOGBOOK:
@@ -89,12 +92,16 @@ CLOSED: [2022-10-09 Sun 14:42]
 :END:
 solucionaron al eliminar los paquetes de letras pero me quede con
 menos opcione, creo que hay que enriquecer un poco el tema fonts
-** problemas con undo
+** TODO problemas con undo
 anda para dos o tres cambios y luego lastimosamente no anda mas.
 instale vundo - space-v
 ** problema de velocidad de carga
 estoy en los 7/8 segundos y antes estaba en los 5/6
-** la opcion de un sistema 'adquirido'
+** DONE la opcion de un sistema 'adquirido'
+CLOSED: [2022-10-10 Mon 15:40]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-10 Mon 15:40]
+:END:
 el sistema anda mejor que nunca. Es el mejor emacs que nunca he
 tenido, pero tiene muchas cosas que no son propias. Ese es el tema,
 menos mal que tiene una forma modular de trabajo para poder cambiar
@@ -109,6 +116,12 @@ p.e. el tema de la enie
 ** TODO arreglar hledger
 corregir el nombre de las cuentas
 corregir las duplicaciones y los malos encuadramientos
+el problema de la completion que es tedioso se resuelve con sacar el
+corfu-mode lo que se hace en un instante y se queda con el modo a-pelo
+de emacs el cual para este programa es muy efectivo pq te va mostrando
+todas las cuentas ordenadamente a medida que vas precisando la cuenta
+cosa tambien de decidir en donde encuadrar el asiento y si es
+necesario crear una nueva cuenta o cambiar las existentes.
 ** TODO pasar password firefox a pass
 pasar y/o revisar duplicaciones
 idem con los de chrome
@@ -120,6 +133,8 @@ agregar el manejador de pass
 hacer una nueva clave gpg edificiogama con la clave que se desprende
 obvia de eso para mi uso personal.
 Establecer una estrategia de cambio de maquina con respecto a las claves
+1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
+2. pase los git y la mayoria de los mails. y el banco.
 * agenda programacion
 ** DONE [#A] poner en el listado de rbos total cobrado y estimado
 ** DONE agregar codigo a los articulos del stock
@@ -258,13 +273,17 @@ CLOSED: [2022-10-08 Sat 13:52]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-08 Sat 13:52]
 :END:
-** TODO ver de incorporar los botones a submenu
-   y/o de cambiar el menu directamente a bulma menu
-** TODO explorar y pasarse a bulma menu-bar
-** TODO optimizaciones de emacs
+** DONE optimizaciones de emacs
+CLOSED: [2022-10-10 Mon 16:51]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-10 Mon 16:51]
+:END:
 *** DONE instalar version 28
 *** solucionar el tema elpy
 *** solucionar el tema undo
+** TODO ver de incorporar los botones a submenu
+   y/o de cambiar el menu directamente a bulma menu
+** TODO explorar y pasarse a bulma menu-bar
 ** TODO lista de control de documentos
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
@@ -286,16 +305,53 @@ con vista ordenada de ingresos y egresos
 por ahora no le encuentro solucion, pq puedo acceder al buscador
 mediante una ruta, pero no que busque automaticamente, ni siquiera que
 me ponga el dni en el campo buscar.
+** TODO concepto de analisis automatico efectividad de promocion
+Aplicable en primer caso a las visitas a clientes y en segundo a los
+whatsapp de venta.
+En el primer caso se tendria que registrar el listado que se emite
+para trabajar, haciendo un cuadro de dialogo que pregunte si
+registramos el listado y para que vendedor es. (Luego tener la
+posibilidad de borrar listados de una lista en caso de error).
+O sea una tabla listados y una tabla clientesvisitables. la tabla
+listado tendria la fecha y el vdor, la cantidad de clientes y quien la
+emitio.
+la tabla clientesvisitables el idplanilla,idcliente, fechaemision,
+year-ultcompra, vendido, fechaventa.
+una clave foranea en idplanilla con planillas permitiria borrar en
+cascada cuando eliminamos una planilla.
+unos triggers en venta-ins que actualizen vendido=1 y
+fechaventa=curdate(), terminarian el proceso.
+Luego necesitamos un pivot-table sobre la tabla clientesvisitables
+filtrado con vendido=1;
+un concepto similar se puede pensar para los wapp.
+** TODO cambios en asientos
+*** hacer asientos editables
+*** hacer una vista funcional de los santander
+** TODO explorar el concepto tree en las tablas
+siguiendo la metodologia seguida con subtotal, pero agregando las
+filas children que hagan falta.
+Seria fundamental en paginas como estadisticas.
+** TODO mas usos del concepto inflacion
+en el cuadro estadisticas actualizando los montos pasados de venta
+para que la comparacion intra-year sea mas correcta.
+Algun tipo de registro paralelo mediante triggers que permita ir
+sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
+
 * agenda de actividad
 ** semana [2022-10-09 Sun]
 *** [2022-10-10 Mon]
 :LOGBOOK:
+CLOCK: [2022-10-10 Mon 16:16]--[2022-10-10 Mon 16:35] =>  0:19
+CLOCK: [2022-10-10 Mon 15:00]--[2022-10-10 Mon 15:55] =>  0:55
+trabajo en parte con pass que es muy tedioso
+CLOCK: [2022-10-10 Mon 13:40]--[2022-10-10 Mon 15:00] =>  1:20
+trabajo con hledger- control de caja y puesta a punto
 CLOCK: [2022-10-10 Mon 12:04]--[2022-10-10 Mon 12:40] =>  0:36
 hago nueva gpg - empiezo a ver forma de importar password de firefox a pass
 CLOCK: [2022-10-10 Mon 11:14]--[2022-10-10 Mon 11:50] =>  0:36
 probando flycheck: satisfactorio para py/js/html/css
 CLOCK: [2022-10-10 Mon 10:31]--[2022-10-10 Mon 11:10] =>  0:39
-termino configuracion de lsp-mode probando prescient.
+termino configuracion de lsp-mode probando prescient.(lo saque)
 CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
 configuracion de lsp-mode
 CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33

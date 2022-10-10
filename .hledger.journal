@@ -44,11 +44,11 @@ D $1000.00
 
 2020/07/01 reserva dolares
     assets:reserva-dol              u$s1900
-    liabilities:capital u$s         u$s-1900
+    liabilities:capital-dol         u$s-1900
 
 2020/07/01 prestamo a fede
     assets:deudores                    u$s5553
-    liabilities:capital u$s           u$s-5553
+    liabilities:capital-dol           u$s-5553
 
 2020/07/05 remis a romi
     expenses:romi             $200
@@ -164,7 +164,7 @@ D $1000.00
     assets:caja                      -4049.98
 
 2020/07/10 aguas 6-7/2020 con vto 14/7 y 19/8
-    expenses:servicios:aguas cordobesas         1492.44
+    expenses:servicios:aguas-cordobesas         1492.44
     assets:caja                                -1492.44
 
 2020/07/10 saco reserva
@@ -319,7 +319,7 @@ D $1000.00
     assets:caja                            -2340.0
 
 2020/07/16 a cuenta ife
-    assets:deudas ih          2800
+    assets:deudas-ih          2800
     assets:caja            -2800.0
 
 2020/07/16 saco reserva
@@ -448,7 +448,7 @@ D $1000.00
     assets:caja                                 -400
 
 2020/07/27 prestamo isabel
-    assets:deudas ih            $600
+    assets:deudas-ih            $600
     assets:caja                $-600
 
 2020/07/27 taxi hp isabel
@@ -478,7 +478,7 @@ D $1000.00
 
 2020/07/29 devolucion prestamo ih
     assets:caja                  400
-    assets:deudas ih            -400
+    assets:deudas-ih            -400
 
 2020/07/29 mesada ih
     expenses:isabel           $1000
@@ -494,7 +494,7 @@ D $1000.00
 
 2020/07/31 devuelve ih
     assets:caja                  200
-    assets:deudas ih            -200
+    assets:deudas-ih            -200
 
 2020/07/31 lomitos
     expenses:comida             670
@@ -791,7 +791,7 @@ D $1000.00
     assets:caja              $-1000
 
 2020/08/17 prestamo isabel
-    assets:deudas ih            3600
+    assets:deudas-ih            3600
     assets:caja                -3600
 
 2020/08/17 pan
@@ -863,7 +863,7 @@ D $1000.00
     assets:caja                -470
 
 2020/08/21 prestamo isabel
-    assets:deudas ih            2000
+    assets:deudas-ih            2000
     assets:caja                -2000
 
 2020/08/21 zapas cami
@@ -879,7 +879,7 @@ D $1000.00
     assets:caja               $-300
 
 2020/08/23 prestamo romi
-    assets:deudas romi            6000
+    assets:deudas-romi            6000
     assets:caja                  -6000
 
 2020/08/23 pan
@@ -923,7 +923,7 @@ D $1000.00
     assets:caja                     -3981.7
 
 2020/08/26 aguas 08-09/2020 con vto 15/9 y 15/10
-    expenses:servicios:aguas cordobesas         1531.22
+    expenses:servicios:aguas-cordobesas         1531.22
     assets:caja                                -1531.22
 
 2020/08/26 saco reserva
@@ -1331,7 +1331,7 @@ D $1000.00
     assets:reserva           -2500
 
 2020/08/26 arreglo baul auto
-    expenses:transporte:reparacion auto            2500
+    expenses:transporte:reparacion-auto            2500
     assets:caja                                   -2500
 
 2020/08/25 ingresos
@@ -1348,7 +1348,7 @@ D $1000.00
 
 2020/08/25 compra-dolares
     assets:reserva-dol            u$s    100
-    income:compra-dolares         u$s   -100
+    expenses:compra-dolares         u$s   -100
 
 2020/09/14 extra cami
     expenses:cami:extras            $500
@@ -1577,7 +1577,7 @@ D $1000.00
 
 2020/09/24 recupero deuda
     assets:caja                 1900
-    assets:deudas ih           -1900
+    assets:deudas-ih           -1900
 
 2020/09/24 comida
     expenses:comida            1900
@@ -1620,12 +1620,12 @@ D $1000.00
     assets:caja                        $-1000
 
 2020/09/25 prestamo ih
-    assets:deudas ih            2000
+    assets:deudas-ih            2000
     assets:caja                -2000
 
 2020/09/25 recupero prestamo ih
     assets:caja                 4200
-    assets:deudas ih           -4200
+    assets:deudas-ih           -4200
 
 2020/09/25 a cuenta mesa y sillas
     expenses:casa:mantenimiento            4200
@@ -1753,7 +1753,7 @@ D $1000.00
     assets:caja                          -10000
 
 2020/10/07 amortiguadores auto
-    expenses:transporte:reparacion auto           29100
+    expenses:transporte:reparacion-auto           29100
     assets:caja                                  -29100
 
 2020/10/08 pan
@@ -1782,7 +1782,7 @@ D $1000.00
 
 2020/10/12 recupero prestamo ih
     assets:caja                 3170
-    assets:deudas ih           -3170
+    assets:deudas-ih           -3170
 
 2020/10/12 comida
     expenses:comida            3170
@@ -1877,15 +1877,15 @@ D $1000.00
     assets:caja                          -110
 
 2020/10/13 aceite y varios
-    expenses:transporte:reparacion auto             800
+    expenses:transporte:reparacion-auto             800
     assets:caja                                    -800
 
 2020/10/13 escobillas de parabrisas
-    expenses:transporte:reparacion auto            1400
+    expenses:transporte:reparacion-auto            1400
     assets:caja                                   -1400
 
 2020/10/13 frenos
-    expenses:transporte:reparacion auto            8300
+    expenses:transporte:reparacion-auto            8300
     assets:caja                                   -8300
 
 2020/10/13 ingresos
@@ -1893,7 +1893,7 @@ D $1000.00
     income:retiro-sociedad          -20000
 
 2020/10/13 arreglo aire acondicionado bora
-    expenses:transporte:reparacion auto           17700
+    expenses:transporte:reparacion-auto           17700
     assets:caja                                  -17700
 
 2020/10/13 mesada ih
@@ -1917,7 +1917,7 @@ D $1000.00
     assets:caja                           -100
 
 2020/10/15 amortiguadores baul
-    expenses:transporte:reparacion auto            2400
+    expenses:transporte:reparacion-auto            2400
     assets:caja                                   -2400
 
 2020/10/16 pan
@@ -2058,7 +2058,7 @@ D $1000.00
     assets:caja                    -3913.50
 
 2020/10/22 aguas 10-11/2020 con vto 17/11 y 15/12
-    expenses:servicios:aguas cordobesas         1704.33
+    expenses:servicios:aguas-cordobesas         1704.33
     assets:caja                                -1704.33
 
 2020/10/22 material arreglo bidet
@@ -2074,7 +2074,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/10/23 prestamo ih
-    assets:deudas ih           10000
+    assets:deudas-ih           10000
     assets:caja               -10000
 
 2020/10/25 minisol
@@ -2457,8 +2457,8 @@ D $1000.00
     expenses:servicios:epec          3867.3
     assets:caja                     -3867.3
 
-2020/11/19 aguas cordobesas 10-11/2020
-    expenses:servicios:aguas cordobesas            1718
+2020/11/19 aguas-cordobesas 10-11/2020
+    expenses:servicios:aguas-cordobesas            1718
     assets:caja                                   -1718
 
 2020/11/19 claro
@@ -2774,7 +2774,7 @@ D $1000.00
     income:retiro-sociedad          -20000
 
 2020/12/10 prestamo romi
-    assets:deudas romi           20000
+    assets:deudas-romi           20000
     assets:caja                 -20000
 
 2020/12/10 saco reservas
@@ -3161,7 +3161,7 @@ D $1000.00
 
 2021/01/03 compra-dolares
     assets:reserva-dol            u$s 600
-    income:compra-dolares        u$s -600
+    expenses:compra-dolares        u$s -600
 
 2020/12/19 compra-dolares
     expenses:compra-dolares           36750
@@ -3169,7 +3169,7 @@ D $1000.00
 
 2020/12/19 compra-dolares
     assets:reserva-dol            u$s 250
-    income:compra-dolares        u$s -250
+    expenses:compra-dolares        u$s -250
 
 2020/12/19 ingresos
     assets:reserva                   36750
@@ -3240,7 +3240,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/01/11 prestamo romi
-    assets:deudas romi           10000
+    assets:deudas-romi           10000
     assets:caja                 -10000
 
 2021/01/11 facturas
@@ -3387,8 +3387,8 @@ D $1000.00
     expenses:servicios:OSPE          $25166
     assets:caja                     $-25166
 
-2021/01/26 aguas cordobesas 12/2020($0)-01/2021
-    expenses:servicios:aguas cordobesas          725.03
+2021/01/26 aguas-cordobesas 12/2020($0)-01/2021
+    expenses:servicios:aguas-cordobesas          725.03
     assets:caja                                 -725.03
 
 2021/01/26 epec dpto
@@ -3409,7 +3409,7 @@ D $1000.00
 
 2021/01/27 compra-dolares
     assets:reserva-dol           u$s 1000
-    income:compra-dolares       u$s -1000
+    expenses:compra-dolares       u$s -1000
 
 2021/01/27 saco reserva
     assets:caja             152500
@@ -3465,7 +3465,7 @@ D $1000.00
 
 2021/01/23 compra-dolares
     assets:reserva-dol            u$s 500
-    income:compra-dolares        u$s -500
+    expenses:compra-dolares        u$s -500
 
 2021/01/31 empanadas
     expenses:comida             500
@@ -3656,7 +3656,7 @@ D $1000.00
     assets:reserva          -20000
 
 2021/02/09 prestamo romi
-    assets:deudas romi           15000
+    assets:deudas-romi           15000
     assets:caja                 -15000
 
 2021/02/09 comida
@@ -3716,7 +3716,7 @@ D $1000.00
     assets:caja               -1000
 
 2021/02/17 prestamo romi
-    assets:deudas romi            5000
+    assets:deudas-romi            5000
     assets:caja                  -5000
 
 2021/02/17 lomitos
@@ -3749,7 +3749,7 @@ D $1000.00
 
 2021/02/14 compra-dolares -
     assets:reserva-dol            u$s 200
-    income:compra-dolares        u$s -200
+    expenses:compra-dolares        u$s -200
 
 2021/02/17 ingresos
     assets:reserva                   44700
@@ -3765,7 +3765,7 @@ D $1000.00
 
 2021/02/17 compra-dolares
     assets:reserva-dol            u$s 300
-    income:compra-dolares        u$s -300
+    expenses:compra-dolares        u$s -300
 
 2021/02/18 ingresos
     assets:reserva                   75000
@@ -3781,10 +3781,10 @@ D $1000.00
 
 2021/02/18 compra-dolares
     assets:reserva-dol            u$s 500
-    income:compra-dolares        u$s -500
+    expenses:compra-dolares        u$s -500
 
 2021/02/19 prestamo romi
-    assets:deudas romi           $5000
+    assets:deudas-romi           $5000
     assets:caja                 $-5000
 
 2021/02/19 dif
@@ -3799,12 +3799,12 @@ D $1000.00
     assets:caja              50000
     assets:reserva          -50000
 
-2021/02/20 aguas cordobesas 02/2021
-    expenses:servicios:aguas cordobesas         3511.15
+2021/02/20 aguas-cordobesas 02/2021
+    expenses:servicios:aguas-cordobesas         3511.15
     assets:caja                                -3511.15
 
-2021/02/20 aguas cordobesas 03/2021
-    expenses:servicios:aguas cordobesas         1033.86
+2021/02/20 aguas-cordobesas 03/2021
+    expenses:servicios:aguas-cordobesas         1033.86
     assets:caja                                -1033.86
 
 2021/02/20 ospe
@@ -3913,7 +3913,7 @@ D $1000.00
 
 2021/02/26 compra-dolares
     assets:reserva-dol            u$s 500
-    income:compra-dolares        u$s -500
+    expenses:compra-dolares        u$s -500
 
 2021/02/26 ingresos
     assets:reserva                   28600
@@ -3929,7 +3929,7 @@ D $1000.00
 
 2021/02/26 compra-dolares
     assets:reserva-dol            u$s 200
-    income:compra-dolares        u$s -200
+    expenses:compra-dolares        u$s -200
 
 2021/03/01 compras
     expenses:comida            5600
@@ -4005,7 +4005,7 @@ D $1000.00
 
 2021/03/05 compra-dolares
     assets:reserva-dol            u$s 400
-    income:compra-dolares        u$s -400
+    expenses:compra-dolares        u$s -400
 
 2021/03/05 cami psicologo
     expenses:cami:psicologo           $1200
@@ -4032,7 +4032,7 @@ D $1000.00
     assets:reserva          -20000
 
 2021/03/06 prestamo romi
-    assets:deudas romi           22000
+    assets:deudas-romi           22000
     assets:caja                 -22000
 
 2021/03/06 ih
@@ -4153,7 +4153,7 @@ D $1000.00
 
 2021/03/09 compra-dolares
     assets:reserva-dol           u$s 3000
-    income:compra-dolares       u$s -3000
+    expenses:compra-dolares       u$s -3000
 
 2021/03/11 cami psicologo
     expenses:cami:psicologo           $1200
@@ -4173,7 +4173,7 @@ D $1000.00
 
 2021/03/12 compra-dolares
     assets:reserva-dol            u$s 200
-    income:compra-dolares        u$s -200
+    expenses:compra-dolares        u$s -200
 
 2021/03/12 ingresos
     assets:reserva                    5617
@@ -4183,8 +4183,8 @@ D $1000.00
     assets:caja               5617
     assets:reserva           -5617
 
-2021/03/12 perdidas de caja empresa
-    expenses:personal:perdidas de caja            5617
+2021/03/12 perdidas-de-caja empresa
+    expenses:personal:perdidas-de-caja            5617
     assets:caja                                  -5617
 
 2021/03/12 saco reservas
@@ -4330,7 +4330,7 @@ D $1000.00
     assets:reserva          -40000
 
 2021/03/19 arreglo bora - cierre centralizado
-    expenses:transporte:reparacion auto            3800
+    expenses:transporte:reparacion-auto            3800
     assets:caja                                   -3800
 
 2021/03/19 comida
@@ -4398,7 +4398,7 @@ D $1000.00
     assets:reserva           -8100
 
 2021/03/23 cambio de aceite
-    expenses:transporte:reparacion auto            8100
+    expenses:transporte:reparacion-auto            8100
     assets:caja                                   -8100
 
 2021/03/23 devolucion dolares Fede
@@ -4410,7 +4410,7 @@ D $1000.00
     assets:reserva          -10000
 
 2021/03/23 prestamo romi
-    assets:deudas romi           10000
+    assets:deudas-romi           10000
     assets:caja                 -10000
 
 2021/03/23 materiales cochera rueda II
@@ -4502,11 +4502,11 @@ D $1000.00
     assets:caja                    -1000
 
 2021/03/29 prestamo romi
-    assets:deudas romi            1000
+    assets:deudas-romi            1000
     assets:caja                  -1000
 
 2021/03/30 matafuegos
-    expenses:transporte:reparacion auto             500
+    expenses:transporte:reparacion-auto             500
     assets:caja                                    -500
 
 2021/03/30 lavado auto
@@ -4726,7 +4726,7 @@ D $1000.00
     assets:caja                                       -300
 
 2021/04/06 ih prestamo carla
-    assets:deudas ih            1500
+    assets:deudas-ih            1500
     assets:caja                -1500
 
 2021/04/06 lavado auto
@@ -4738,7 +4738,7 @@ D $1000.00
     assets:caja                          -440
 
 2021/04/06 arreglo auto bulbo marcha atras
-    expenses:transporte:reparacion auto            3200
+    expenses:transporte:reparacion-auto            3200
     assets:caja                                   -3200
 
 2021/04/06 comida gatos
@@ -4787,7 +4787,7 @@ D $1000.00
 
 2021/04/08 devolucion prestamo ih
     assets:caja                 1350
-    assets:deudas ih           -1350
+    assets:deudas-ih           -1350
 
 2021/04/08 ih carla
     expenses:isabel            1150
@@ -4814,15 +4814,15 @@ D $1000.00
     assets:caja               -1300
 
 2021/04/12 nafta viaje
-    viajes:nafta            3000
+    expenses:personal:viajes:nafta            3000
     assets:caja            -3000
 
 2021/04/12 viaje alfajores
-    viajes:viaticos             450
+    expenses:personal:viajes:viaticos             450
     assets:caja                -450
 
 2021/04/12 viaje peajes
-    viajes:peajes             160
+    expenses:personal:viajes:peajes             160
     assets:caja              -160
 
 2021/04/12 ih mesada
@@ -4830,7 +4830,7 @@ D $1000.00
     assets:caja               -1000
 
 2021/04/12 viaje viaticos
-    viajes:viaticos             310
+    expenses:personal:viajes:viaticos             310
     assets:caja                -310
 
 2021/04/13 comida
@@ -4883,7 +4883,7 @@ D $1000.00
 
 2021/04/15 devolucion prestamo ih
     assets:caja                  150
-    assets:deudas ih            -150
+    assets:deudas-ih            -150
 
 2021/04/15 comida gatos
     expenses:comida:gatos            $800
@@ -4914,15 +4914,15 @@ D $1000.00
     assets:caja               -1400
 
 2021/04/18 nafta viaje
-    viajes:nafta            3500
+    expenses:personal:viajes:nafta            3500
     assets:caja            -3500
 
 2021/04/18 viaje peajes
-    viajes:peajes            $160
+    expenses:personal:viajes:peajes            $160
     assets:caja             $-160
 
 2021/04/18 viaje viaticos
-    viajes:viaticos              60
+    expenses:personal:viajes:viaticos              60
     assets:caja                 -60
 
 2021/04/20 ingreso
@@ -4966,7 +4966,7 @@ D $1000.00
     assets:caja               -1500
 
 2021/04/23 viaje multas
-    viajes:multas            8860
+    expenses:personal:viajes:multas            8860
     assets:caja             -8860
 
 2021/04/23 ospe
@@ -5002,11 +5002,11 @@ D $1000.00
     assets:caja                                       -800
 
 2021/04/25 viajes nafta
-    viajes:nafta            2000
+    expenses:personal:viajes:nafta            2000
     assets:caja            -2000
 
 2021/04/25 viaje peajes
-    viajes:peajes            $160
+    expenses:personal:viajes:peajes            $160
     assets:caja             $-160
 
 2021/04/25 carne
@@ -5275,7 +5275,7 @@ D $1000.00
     assets:caja                -400
 
 2021/05/10 prestamo romina
-    assets:deudas romi           25000
+    assets:deudas-romi           25000
     assets:caja                 -25000
 
 2021/05/10 isabel
@@ -5423,7 +5423,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/05/18 prestamo romi
-    assets:deudas romi            5000
+    assets:deudas-romi            5000
     assets:caja                  -5000
 
 2021/05/18 comida
@@ -5447,7 +5447,7 @@ D $1000.00
     assets:caja                      -750
 
 2021/05/19 viaje multas
-    viajes:multas            4700
+    expenses:personal:viajes:multas            4700
     assets:caja             -4700
 
 2021/05/20 cami psi
@@ -5474,8 +5474,8 @@ D $1000.00
     expenses:servicios:epec            7424
     assets:caja                       -7424
 
-2021/05/21 aguas cordobesas 04/2021
-    expenses:servicios:aguas cordobesas         9247.37
+2021/05/21 aguas-cordobesas 04/2021
+    expenses:servicios:aguas-cordobesas         9247.37
     assets:caja                                -9247.37
 
 2021/05/21 claro
@@ -5751,7 +5751,7 @@ D $1000.00
     assets:reserva          -20000
 
 2021/06/09 prestamo romi
-    assets:deudas romi           15000
+    assets:deudas-romi           15000
     assets:caja                 -15000
 
 2021/06/09 comida
@@ -5803,7 +5803,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/06/15 prestamo romi
-    assets:deudas romi            2000
+    assets:deudas-romi            2000
     assets:caja                  -2000
 
 2021/06/15 comida
@@ -5839,7 +5839,7 @@ D $1000.00
     assets:caja            -30000
 
 2021/06/17 prestamo romi
-    assets:deudas romi            5000
+    assets:deudas-romi            5000
     assets:caja                  -5000
 
 2021/06/17 ingresos
@@ -5910,8 +5910,8 @@ D $1000.00
     expenses:servicios:claro         3766.97
     assets:caja                     -3766.97
 
-2021/06/21 aguas cordobesas 05/2021
-    expenses:servicios:aguas cordobesas         1047.02
+2021/06/21 aguas-cordobesas 05/2021
+    expenses:servicios:aguas-cordobesas         1047.02
     assets:caja                                -1047.02
 
 2021/06/21 epec 05/2021
@@ -6135,11 +6135,11 @@ D $1000.00
     assets:caja                                 -150
 
 2021/07/01 prestamo romi
-    assets:deudas romi           $5000
+    assets:deudas-romi           $5000
     assets:caja                 $-5000
 
 2021/07/01 prestamo romi
-    assets:deudas romi            2000
+    assets:deudas-romi            2000
     assets:caja                  -2000
 
 2021/07/01 electricista
@@ -6328,7 +6328,7 @@ D $1000.00
     assets:reserva         $-20000
 
 2021/07/14 prestamo romi
-    assets:deudas romi           15000
+    assets:deudas-romi           15000
     assets:caja                 -15000
 
 2021/07/15 psicologa cami
@@ -6411,8 +6411,8 @@ D $1000.00
     expenses:impuestos:casa:municipal         1309.32
     assets:caja                              -1309.32
 
-2021/07/21 aguas cordobesas 06/2021
-    expenses:servicios:aguas cordobesas        13411.67
+2021/07/21 aguas-cordobesas 06/2021
+    expenses:servicios:aguas-cordobesas        13411.67
     assets:caja                               -13411.67
 
 2021/07/21 ih
@@ -6496,7 +6496,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/07/27 prestamo romi
-    assets:deudas romi            2000
+    assets:deudas-romi            2000
     assets:caja                  -2000
 
 2021/07/28 farmacia neutop atenix
@@ -6580,8 +6580,8 @@ D $1000.00
     expenses:servicios:fibertel            3562
     assets:caja                           -3562
 
-2021/08/03 aguas cordobesas 07/2021
-    expenses:servicios:aguas cordobesas            1120
+2021/08/03 aguas-cordobesas 07/2021
+    expenses:servicios:aguas-cordobesas            1120
     assets:caja                                   -1120
 
 2021/08/03 heladera samsung
@@ -6709,7 +6709,7 @@ D $1000.00
     assets:caja                    -3300
 
 2021/08/05 prestamo romi
-    assets:deudas romi           10000
+    assets:deudas-romi           10000
     assets:caja                 -10000
 
 2021/08/05 pizza
@@ -7346,11 +7346,11 @@ D $1000.00
     assets:reserva          -60000
 
 2021-09-16 multas
-    viajes:multas            8671
+    expenses:personal:viajes:multas            8671
     assets:caja             -8671
 
-2021-09-16 aguas cordobesas 08/2021
-    expenses:servicios:aguas cordobesas         1258.39
+2021-09-16 aguas-cordobesas 08/2021
+    expenses:servicios:aguas-cordobesas         1258.39
     assets:caja                                -1258.39
 
 2021-09-16 epec 08/2021
@@ -7482,7 +7482,7 @@ D $1000.00
     assets:caja                    -5000
 
 2021-09-28 prestamo romi
-    assets:deudas romi            2000
+    assets:deudas-romi            2000
     assets:caja                  -2000
 
 2021-09-28 ingresos
@@ -7731,7 +7731,7 @@ D $1000.00
 
 2021-10-11 devolucion prestamo romi
     assets:caja                  45000
-    assets:deudas romi          -45000
+    assets:deudas-romi          -45000
 
 2021-10-11 reserva
     assets:reserva           45000
@@ -7831,7 +7831,7 @@ D $1000.00
 
 2021/10/20 devolucion prestamo romi
     assets:caja                  10000
-    assets:deudas romi          -10000
+    assets:deudas-romi          -10000
 
 2021/10/20 reserva
     assets:reserva           10000
@@ -7861,8 +7861,8 @@ D $1000.00
     expenses:servicios:epec         5106.70
     assets:caja                    -5106.70
 
-2021/10/21 aguas cordobesas 09/2021
-    expenses:servicios:aguas cordobesas         1274.41
+2021/10/21 aguas-cordobesas 09/2021
+    expenses:servicios:aguas-cordobesas         1274.41
     assets:caja                                -1274.41
 
 2021/10/21 dgr casa 2021-11/12
@@ -7915,7 +7915,7 @@ D $1000.00
 
 2021/10/25 devolucion prestamo romi
     assets:caja                  18000
-    assets:deudas romi          -18000
+    assets:deudas-romi          -18000
 
 2021/10/25 reserva
     assets:reserva           18000
@@ -8289,8 +8289,8 @@ D $1000.00
     expenses:impuestos:bora            $414
     assets:caja                       $-414
 
-2021/11/19 aguas cordobesas 10/2021
-    expenses:servicios:aguas cordobesas         1954.59
+2021/11/19 aguas-cordobesas 10/2021
+    expenses:servicios:aguas-cordobesas         1954.59
     assets:caja                                -1954.59
 
 2021/11/19 epec 10/2021
@@ -8411,7 +8411,7 @@ D $1000.00
 
 2021/11/25 devolucion prestamo romi
     assets:caja                  10000
-    assets:deudas romi          -10000
+    assets:deudas-romi          -10000
 
 2021/11/25 pintura plavicon
     expenses:casa:mantenimiento           10000
@@ -8665,7 +8665,7 @@ D $1000.00
 
 2021/12/09 devolucion prestamo romi
     assets:caja                  12300
-    assets:deudas romi          -12300
+    assets:deudas-romi          -12300
 
 2021/12/09 reserva
     assets:reserva           12300
@@ -8706,7 +8706,7 @@ D $1000.00
 
 2021/12/11 compra-dolares
     assets:reserva-dol            u$s    500
-    income:compra-dolares         u$s   -500
+    expenses:compra-dolares         u$s   -500
 
 
 
@@ -8854,8 +8854,8 @@ D $1000.00
     expenses:gastos medicos:farmacia            4200
     assets:caja                                -4200
 
-2021/12/22 aguas cordobesas 11/2021
-    expenses:servicios:aguas cordobesas            1275
+2021/12/22 aguas-cordobesas 11/2021
+    expenses:servicios:aguas-cordobesas            1275
     assets:caja                                   -1275
 
 2021/12/22 ospe
@@ -8957,7 +8957,7 @@ D $1000.00
 
 2021/12/28 devolucion prestamo romi
     assets:caja                  11200
-    assets:deudas romi          -11200
+    assets:deudas-romi          -11200
 
 2021/12/28 reserva
     assets:reserva           11700
@@ -9259,7 +9259,7 @@ D $1000.00
 
 2022/01/14 devolucion prestamo romi
     assets:caja                  11900
-    assets:deudas romi          -11900
+    assets:deudas-romi          -11900
 
 2022/01/14 reserva
     assets:reserva           11900
@@ -9501,8 +9501,8 @@ D $1000.00
     expenses:impuestos:casa:municipal             692
     assets:caja                                  -692
 
-2022/01/28 aguas cordobesas 12/2021
-    expenses:servicios:aguas cordobesas            1741
+2022/01/28 aguas-cordobesas 12/2021
+    expenses:servicios:aguas-cordobesas            1741
     assets:caja                                   -1741
 
 2022/01/30 ingresos
@@ -9571,7 +9571,7 @@ D $1000.00
 
 2022/01/31 devolucion prestamo romi
     assets:caja                   2300
-    assets:deudas romi           -2300
+    assets:deudas-romi           -2300
 
 2022/01/31 reserva
     assets:reserva            2300
@@ -9610,7 +9610,7 @@ D $1000.00
     assets:caja                                -5500
 
 2022/02/02 arreglo bora - aceite
-    expenses:transporte:reparacion auto            2300
+    expenses:transporte:reparacion-auto            2300
     assets:caja                                   -2300
 
 2022/02/02 estacionamiento
@@ -9643,7 +9643,7 @@ D $1000.00
 
 2022/02/04 devolucion prestamo romi
     assets:caja                  $2300
-    assets:deudas romi          $-2300
+    assets:deudas-romi          $-2300
 
 2022/02/04 reserva
     assets:reserva           $2300
@@ -9701,11 +9701,7 @@ D $1000.00
 
 2022/02/04 devolucion prestamo romi
     assets:caja                   59000
-    assets:deudas romi           -59000
-
-
-
-
+    assets:deudas-romi           -59000
 
 2022/02/04 aire acondicionado dpto
     expenses:casa:mantenimiento           59000
@@ -9749,7 +9745,7 @@ D $1000.00
 
 2022/02/07 recupero deuda ih
     assets:caja                10000
-    assets:deudas ih          -10000
+    assets:deudas-ih          -10000
 
 2022/02/07 mesada cami
     expenses:cami:mesada           $3000
@@ -9780,7 +9776,7 @@ D $1000.00
     assets:caja                          -25000
 
 2022/02/07 arreglo auto
-    expenses:transporte:reparacion auto            5000
+    expenses:transporte:reparacion-auto            5000
     assets:caja                                   -5000
 
 2022/02/07 comida
@@ -9820,7 +9816,7 @@ D $1000.00
     assets:reserva          -20000
 
 2022/02/09 repuestos auto
-    expenses:transporte:reparacion auto           12300
+    expenses:transporte:reparacion-auto           12300
     assets:caja                                  -12300
 
 2022/02/09 venta de tablet
@@ -9852,7 +9848,7 @@ D $1000.00
     assets:caja                                   $-240
 
 2022/02/10 repuesto
-    expenses:transporte:reparacion auto            5500
+    expenses:transporte:reparacion-auto            5500
     assets:caja                                   -5500
 
 2022/02/10 ingresos
@@ -9880,7 +9876,7 @@ D $1000.00
     assets:caja                        -20000
 
 2022/02/12 arreglo auto - cambio correa
-    expenses:transporte:reparacion auto            6000
+    expenses:transporte:reparacion-auto            6000
     assets:caja                                   -6000
 
 2022/02/12 comida
@@ -9888,7 +9884,7 @@ D $1000.00
     assets:caja               -1000
 
 2022/02/12 repuesto auto
-    expenses:transporte:reparacion auto             300
+    expenses:transporte:reparacion-auto             300
     assets:caja                                    -300
 
 2022/02/13 comida
@@ -10071,8 +10067,8 @@ D $1000.00
     expenses:comida             160
     assets:caja                -160
 
-2022/02/22 aguas cordobesas 01/2022
-    expenses:servicios:aguas cordobesas            1126
+2022/02/22 aguas-cordobesas 01/2022
+    expenses:servicios:aguas-cordobesas            1126
     assets:caja                                   -1126
 
 2022/02/22 epec 01/2022
@@ -10512,7 +10508,7 @@ D $1000.00
     assets:caja                         -5000
 
 2022/03/15 arreglo auto
-    expenses:transporte:reparacion auto           46000
+    expenses:transporte:reparacion-auto           46000
     assets:caja                                  -46000
 
 2022/03/15 saco reserva
@@ -10580,7 +10576,7 @@ D $1000.00
     assets:caja               $-100
 
 2022/03/18 repuesto auto
-    expenses:transporte:reparacion auto             200
+    expenses:transporte:reparacion-auto             200
     assets:caja                                    -200
 
 2022/03/18 impuesto casa
@@ -10624,7 +10620,7 @@ D $1000.00
     assets:caja               -3300
 
 2022/03/19 repuesto auto
-    expenses:transporte:reparacion auto             700
+    expenses:transporte:reparacion-auto             700
     assets:caja                                    -700
 
 2022/03/20 saco reserva
@@ -10737,7 +10733,7 @@ D $1000.00
 
 2022/03/25 compra-dolares
     assets:reserva-dol            u$s    400
-    income:compra-dolares         u$s   -400
+    expenses:compra-dolares         u$s   -400
 
 
 
@@ -10834,12 +10830,12 @@ D $1000.00
     expenses:comida            1820
     assets:caja               -1820
 
-2022/03/31 aguas cordobesas
-    expenses:servicios:aguas cordobesas            2215
+2022/03/31 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            2215
     assets:caja                                   -2215
 
-2022/03/31 aguas cordobesas
-    expenses:servicios:aguas cordobesas            1512
+2022/03/31 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            1512
     assets:caja                                   -1512
 
 2022/03/31 farmacia
@@ -10872,7 +10868,7 @@ D $1000.00
 
 2022/04/01 compra-dolares
     assets:reserva-dol            u$s    200
-    income:compra-dolares         u$s   -200
+    expenses:compra-dolares         u$s   -200
 
 
 
@@ -11171,7 +11167,7 @@ D $1000.00
     assets:reserva         -350000
 
 2022-04-30 inversion romitex
-    assets:prestamo romitex          350000
+    assets:prestamo-romitex          350000
     assets:caja                     -350000
 
 2022-04-30 saco reserva
@@ -11298,12 +11294,12 @@ D $1000.00
     expenses:servicios:OSPE           47975
     assets:caja                      -47975
 
-2022-05-17 aguas cordobesas
-    expenses:servicios:aguas cordobesas            1511
+2022-05-17 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            1511
     assets:caja                                   -1511
 
-2022-05-17 aguas cordobesas
-    expenses:servicios:aguas cordobesas            1511
+2022-05-17 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            1511
     assets:caja                                   -1511
 
 2022-05-17 epec
@@ -11579,7 +11575,7 @@ D $1000.00
     assets:caja               -2090
 
 2022-06-13 repuesto
-    expenses:transporte:reparacion auto             400
+    expenses:transporte:reparacion-auto             400
     assets:caja                                    -400
 
 2022-06-13 mesada cami
@@ -11698,12 +11694,12 @@ D $1000.00
     expenses:servicios:OSPE           57750
     assets:caja                      -57750
 
-2022-06-27 aguas cordobesas
-    expenses:servicios:aguas cordobesas            1977
+2022-06-27 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            1977
     assets:caja                                   -1977
 
-2022-06-27 aguas cordobesas
-    expenses:servicios:aguas cordobesas            1790
+2022-06-27 aguas-cordobesas
+    expenses:servicios:aguas-cordobesas            1790
     assets:caja                                   -1790
 
 2022-06-27 saco reserva
@@ -11772,7 +11768,7 @@ D $1000.00
     assets:reserva         -289449
 
 2022-07-01 inversion romitex
-    assets:prestamo romitex          289449
+    assets:prestamo-romitex          289449
     assets:caja                     -289449
 
 2022-07-03 comida
@@ -11788,7 +11784,7 @@ D $1000.00
     assets:caja               -1700
 
 2022-07-05 repuesto
-    expenses:transporte:reparacion auto            $400
+    expenses:transporte:reparacion-auto            $400
     assets:caja                                   $-400
 
 2022-07-05 comida
@@ -11829,7 +11825,7 @@ D $1000.00
     assets:reserva         -250000
 
 2022-07-08 inversion romitex
-    assets:prestamo romitex          250000
+    assets:prestamo-romitex          250000
     assets:caja                     -250000
 
 2022-07-08 dif
@@ -11913,7 +11909,7 @@ D $1000.00
     assets:caja                -100
 
 2022-07-18 aceite
-    expenses:transporte:reparacion auto             100
+    expenses:transporte:reparacion-auto             100
     assets:caja                                    -100
 
 2022-07-19 farmacia hospital italiano
@@ -12001,7 +11997,7 @@ D $1000.00
     assets:caja               -3700
 
 2022-07-24 inversion romitex
-    assets:prestamo romitex          140000
+    assets:prestamo-romitex          140000
     assets:caja                     -140000
 
 2022-07-24 saco reserva
@@ -12098,7 +12094,7 @@ D $1000.00
 
 2022-08-03 compra-dolares u$s
     assets:reserva-dol            u$s 100
-    income:compra-dolares        u$s -100
+    expenses:compra-dolares        u$s -100
 
 2022-08-03 saco reserva
     assets:caja              80000
@@ -12121,7 +12117,7 @@ D $1000.00
     assets:caja              -52139
 
 2022-08-04 aceite
-    expenses:transporte:reparacion auto             600
+    expenses:transporte:reparacion-auto             600
     assets:caja                                    -600
 
 2022-08-06 comida
@@ -12366,7 +12362,7 @@ D $1000.00
     assets:caja               -1000
 
 2022-09-06 inversion
-    assets:prestamo romitex          500000
+    assets:prestamo-romitex          500000
     assets:caja                     -500000
 
 2022-09-06 saco reserva
@@ -12805,7 +12801,7 @@ D $1000.00
 
 2022-10-08 devolucion para cerrar cuenta
     assets:caja      1130
-    assets:deudas ih  -1130
+    assets:deudas-ih  -1130
 
 2022-10-10 empanadas
     expenses:comida   $ 1600
@@ -12813,14 +12809,14 @@ D $1000.00
 
 2022-10-10 saco reserva
     assets:caja   $ 10000
-    assets:reserva $ -10000
+    assets:reserva   $ -10000
 
 2022-10-10 diff sobrante
     assets:caja   $ 667
     expenses:diferencia   $ -667
 
 2022-10-10 ingresos
-    assets:reserva $ 60000
+    assets:reserva   $ 60000
     assets:caja   $ 1070
     income:retiro-sociedad   $ -61070
 
@@ -12828,12 +12824,12 @@ D $1000.00
     assets:reserva-dol   u$s 200
     assets:deudores      u$s -200
 
-
+# Devolucion de 56000 equivalentes a 200 dol
 2022-10-10 venta dolares (pq fede devolvio en pesos)
     assets:caja   $ 6000
-    assets:reserva $50000
+    assets:reserva   $50000
     income:venta-dolares   $ -56000
 
 2022-10-10 movimiento de dol del asiento anterior
-    expenses:venta-dolares  u$s 200
+    income:venta-dolares  u$s 200
     assets:reserva-dol   u$s -200
