@@ -1,0 +1,2 @@
+* mirror git
+git push --mirror https://GitLab.com/heroasam/repositorio.git

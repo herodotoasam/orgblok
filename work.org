@@ -61,6 +61,26 @@ planillas.html y no se en que carpeta esta.
 la solucion esta en dired.
 al final la opcion que mejor anda es la prot-emacs-completion que
 busca fuzzy al toque.
+*** status al [2022-10-10 Mon]
+1. elimino dabbrev que creo que es al vicio pq ya se usa cape-dabbrev
+2. probamos primera conf lsp con flex sin poner los modes en el hook
+   con flex anda mejor pero no hace las completiones de keyword en js
+   y supongo que no las hara en css y te manda cualquiera unas frases
+   largas de dos o tres renglones.
+   pruebo orderless ahora
+3. ahora le agrego los modes al hook a ver que pasa. Funciona css a la
+   perfeccion, js2 funciona bien, python mas o menos pero funciona, y
+   html sin lsp esta muy bien. elisp funciona bien. O sea todo ok.
+4. pruebo usar prescient.el junto con el bloque de corfu. No veo mucho
+   la diferencia por ahora lo dejo. Lo unico que me parece que cambio
+   fue que en las busquedas de minibuffer se resalta con negrita lo
+   buscado y ahora hay que hacer busquedas separadas de tokenes
+   separados, en cambio en los popups anda bien eso de mesclar las
+   letras.
+   js tiene mejor ide, py anda malisimo, en ambos casos las
+   completiones locales que no toma las obtengo de M-/.
+Por ahora cerramos el tema ya que el sistema anda razonablemente bien
+en el tema.
 
 ** DONE al cambiar theme hay problemas
 CLOSED: [2022-10-09 Sun 14:42]
@@ -299,7 +319,16 @@ mas ajustes a hledger en lo posible
 :END:
 *** [2022-10-10 Mon]
 :LOGBOOK:
-CLOCK: [2022-10-10 Mon 08:41]
+CLOCK: [2022-10-10 Mon 12:04]
+hago nueva gpg
+CLOCK: [2022-10-10 Mon 11:14]--[2022-10-10 Mon 11:50] =>  0:36
+probando flycheck: satisfactorio para py/js/html/css
+CLOCK: [2022-10-10 Mon 10:31]--[2022-10-10 Mon 11:10] =>  0:39
+termino configuracion de lsp-mode probando prescient.
+CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
+configuracion de lsp-mode
+CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33
+varios temas- mirrorin git en GitLab
 
 :END:
 ** semana [2022-10-02 Sun]
@@ -785,3 +814,4 @@ posibilidad de encryptar archivos o partes directamente en emacs
 ** acceso a ssh
 ** treemacs
 ** vertico-ordeless-corfu-cape-embark etc.
+** mirror git
