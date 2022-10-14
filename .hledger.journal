@@ -12756,14 +12756,6 @@ D $1000.00
     assets:caja                -420
 
 2022-10-04 ingresos
-    assets:reserva                    1500
-    income:retiro-sociedad           -1500
-
-2022-10-04 uala
-    assets:uala               1500
-    assets:reserva           -1500
-
-2022-10-04 ingresos
     assets:reserva                   10000
     income:retiro-sociedad          -10000
 
@@ -12833,3 +12825,19 @@ D $1000.00
 2022-10-10 movimiento de dol del asiento anterior
     income:venta-dolares  u$s 200
     assets:reserva-dol   u$s -200
+
+2022-10-12 jardinero
+    expenses:casa:mantenimiento:jardineria   $ 2000
+    assets:caja   $ -2000
+
+2022-10-12 lomito
+    expenses:comida   $ 1150
+    assets:caja   $ -1150
+
+2022-10-13 limpieza casa
+    expenses:casa:limpieza   $ 2500
+    assets:caja   $ -2500
+
+2022-10-14 menu
+    expenses:comida:menu   $ 700
+    assets:caja   $ -700

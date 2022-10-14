@@ -10,11 +10,13 @@ CLOSED: [2018-10-29 Mon 12:20]
 :END:
 - State "DONE"       from "TODO"       [2018-10-14 dom 11:36]
 
-** TODO peluquero
+** peluquero
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-12 Wed 18:51]
+:END:
 
 [2018-10-14 dom 13:30]
-SCHEDULED: <2018-10-19 vie .+30d>
+SCHEDULED: <2022-11-11 Fri .+30d>
 :PROPERTIES:
 :STYLE: habit
 :END:
-

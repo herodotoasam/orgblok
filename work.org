@@ -95,8 +95,10 @@ menos opcione, creo que hay que enriquecer un poco el tema fonts
 ** TODO problemas con undo
 anda para dos o tres cambios y luego lastimosamente no anda mas.
 instale vundo - space-v
-** problema de velocidad de carga
+** TODO problema de velocidad de carga
 estoy en los 7/8 segundos y antes estaba en los 5/6
+[2022-10-14 Fri] me pongo en esto: voy a ver si puedo bajarlo pq ahora
+estoy en 9 y pico.
 ** DONE la opcion de un sistema 'adquirido'
 CLOSED: [2022-10-10 Mon 15:40]
 :LOGBOOK:
@@ -113,6 +115,9 @@ CLOSED: [2022-10-09 Sun 14:42]
 :END:
 ** TODO resolver el tema xmodmap
 p.e. el tema de la enie
+pruebo con gnome xorg que parece ser lo mismo y tengo el xmodmap por
+ahora a mano y luego veo de desactivar el input-remaper y automatizar
+el xmodmap
 ** TODO arreglar hledger
 corregir el nombre de las cuentas
 corregir las duplicaciones y los malos encuadramientos
@@ -136,15 +141,16 @@ Establecer una estrategia de cambio de maquina con respecto a las claves
 1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
 2. pase los git y la mayoria de los mails. y el banco.
 * agenda programacion
-** DONE [#A] poner en el listado de rbos total cobrado y estimado
-** DONE agregar codigo a los articulos del stock
+** DONEs
+*** DONE [#A] poner en el listado de rbos total cobrado y estimado
+*** DONE agregar codigo a los articulos del stock
    CLOSED: [2022-09-24 Sat 20:23]
-** DONE ver bug proveedores
+*** DONE ver bug proveedores
    revisado. No habia tal bug.
-** DONE explorar un tipo de boton con submenu
-** DONE nuevo listado de visita clientes
+*** DONE explorar un tipo de boton con submenu
+*** DONE nuevo listado de visita clientes
    CLOSED: [2022-09-24 Sat 20:22]
-** DONE nuevo enfoque en la queue de whatsapp
+*** DONE nuevo enfoque en la queue de whatsapp
  hacer que primero una funcion centralizadora registre el pedido de
  envio de whatsapp en una tabla de la base de datos.
  con fecha exacta, idcliente, wapp y msg. o sea el log. y luego de ahi
@@ -152,18 +158,18 @@ Establecer una estrategia de cambio de maquina con respecto a las claves
  procesando cada diez segundos.
  luego de procesado, se edita el registro con el resultado y tendremos
  un log con el resultado, failed, rejected, invalid, success.
-** DONE sistema contable para las transferencias
-** DONE sacar de static todos los archivos y bajarlos por cdn
-** DONE refactorizar table.js - rename idem table.css
-** DONE hacer una forma de mostrar o no mostrar la tabla de cuotas pagadas
+*** DONE sistema contable para las transferencias
+*** DONE sacar de static todos los archivos y bajarlos por cdn
+*** DONE refactorizar table.js - rename idem table.css
+*** DONE hacer una forma de mostrar o no mostrar la tabla de cuotas pagadas
 en los cancelados con un icono.
 hacer que cuando haya muchos registros de pago se muestre un poco y lo
 demas se baje despues.
-** DONE vista en Card para los que estan pagando
+*** DONE vista en Card para los que estan pagando
 atrasado
-** DONE listado de ultima cuota no atrasados en general
+*** DONE listado de ultima cuota no atrasados en general
 pienso que tendria que ser global para trabajar mas rapido.
-** DONE vista en Card para los que cancelaron con fines de aprobacion
+*** DONE vista en Card para los que cancelaron con fines de aprobacion
 CLOSED: [2022-10-03 Mon 11:58]
 :LOGBOOK:
 - State "DONE"       from "CANCEL"     [2022-10-03 Mon 11:58]
@@ -176,9 +182,9 @@ ver la posibilidad de hacer otro campo llamado atrasos y trigeriar
 desde pagos a medida que se pague el atraso pero es dificil de
 calcular.
 
-** DONE contador de billetes
+*** DONE contador de billetes
 CLOSED: [2022-10-03 Mon 16:16]
-** DONE modificar la funcion totalizar para aceptar arg columnas
+*** DONE modificar la funcion totalizar para aceptar arg columnas
 CLOSED: [2022-10-04 Tue 13:06]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2022-10-04 Tue 13:06]
@@ -203,13 +209,13 @@ a mano los campos que queramos de a poco.
 
 ver si se puede agregar un miniicon al sort.
 en realidad tendria que estar solo en el th que esta sorteado.
-** DONE analizar diferenciar en pagadas las atrasadas
+*** DONE analizar diferenciar en pagadas las atrasadas
 CLOSED: [2022-10-04 Tue 15:49]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2022-10-04 Tue 15:49]
 :END:
 o sea las que se pagaron despues del vto
-** DONE en mobile no se accede a la base de datos mayormente :bug:axios:
+*** DONE en mobile no se accede a la base de datos mayormente :bug:axios:
 CLOSED: [2022-10-07 Fri 18:40]
 :LOGBOOK:
 - State "DONE"       from "BUG"        [2022-10-07 Fri 18:40]
@@ -247,20 +253,20 @@ CLOSED: [2022-10-07 Fri 18:40]
    puedo reproducir como que lo hubieran arreglado para desktop en
    estas ultimas horas.
 
-** DONE [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
+*** DONE [#A] cuando se hace una suma y no se borra luego se busca otro cliente la
 CLOSED: [2022-10-08 Sat 08:36]
 :LOGBOOK:
 - State "DONE"       from "BUG"        [2022-10-08 Sat 08:36]
 :END:
 suma queda
-** DONE luego de un sort y refresh sigue quedando el ultimo icon
+*** DONE luego de un sort y refresh sigue quedando el ultimo icon
 CLOSED: [2022-10-08 Sat 08:37]
 :LOGBOOK:
 - State "DONE"       from "BUG"        [2022-10-08 Sat 08:37]
 :END:
 tiene que haber una forma de limpiar.
 
-** DONE hacer una columna recargo tomando la inflacion real
+*** DONE hacer una columna recargo tomando la inflacion real
 CLOSED: [2022-10-08 Sat 12:47]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-08 Sat 12:47]
@@ -268,19 +274,208 @@ CLOSED: [2022-10-08 Sat 12:47]
 lo primero que necesito es una tabla de valores.
 derivados: actualizar los montos comprados y hacer un tag de monto
 comprado actualizado. Listo.
-** DONE poner version a todos los script linkeados en base
+*** DONE poner version a todos los script linkeados en base
 CLOSED: [2022-10-08 Sat 13:52]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-08 Sat 13:52]
 :END:
-** DONE optimizaciones de emacs
+*** DONE optimizaciones de emacs
 CLOSED: [2022-10-10 Mon 16:51]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-10 Mon 16:51]
 :END:
-*** DONE instalar version 28
-*** solucionar el tema elpy
-*** solucionar el tema undo
+**** DONE instalar version 28
+**** solucionar el tema elpy
+**** solucionar el tema undo
+*** DONE cambios en asientos
+CLOSED: [2022-10-11 Tue 10:32]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 10:32]
+:END:
+**** DONE hacer asientos editables
+CLOSED: [2022-10-11 Tue 09:25]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 09:25]
+:END:
+pienso que no deberia ser editable todo el asiento, sino el
+comentario.
+**** DONE hacer una vista funcional de los santander
+CLOSED: [2022-10-11 Tue 10:32]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 10:32]
+:END:
+*** DONE campo ultwappenviado para poder marcar planillas
+CLOSED: [2022-10-12 Wed 12:43]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-12 Wed 12:43]
+:END:
+se podria hacer con un trigger. agregue el campo fechaultwapp en
+clientes y un trigger en logwhatsapp que pone la fecha
+automaticamente. En las planillas de fichaje pongo un :class que con
+la fecha al dia de hoy pongo class wapp y el style lo puse en
+seagreen.
+Renegue un poco por la igualdad de dayjs hasta que busque la doc y vi
+que es dayjs().isSame(fecha,'day') o sea un poquito weird pero en
+realidad comprensible pq un objeto fecha es muy amplio como para tener
+una igualdad asi nomas con un string.
+*** DONE subtotal para pandas
+CLOSED: [2022-10-12 Wed 13:25]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-12 Wed 13:25]
+:END:
+ahora suma desde la columna 1 hasta el final por defecto. Sino en las
+columnas con th-class=sumar
+
+*** DONE cambiar el tipo de campo fecha de logwhatsapp
+CLOSED: [2022-10-12 Wed 15:20]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-12 Wed 15:20]
+:END:
+es currentdatetime y cuando se vuelve a cargar la db se resetea todo!!!
+al vicio nomas le puse current, pq eso se llena mediante un proceso y
+aparte solo necesitamos la fecha. o sea currentdate().
+ya hice el cambio. tengo que hacerlo esta tarde en el servidor.
+*** DONE revisar los ultimos triggers agregados
+CLOSED: [2022-10-12 Wed 15:15]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-12 Wed 15:15]
+:END:
+ver si funcionan bien - ejecutar pruebas de test.
+revise todos los triggers: cancelados, devueltos y pp dan igual en
+cantidad con clientes. Compras tome un par de casos que han comprado
+ultimamente y revise si tenian correcto el numero de compras.
+La unica duda me queda con respecto al atraso pq todos los casos que
+vi son negativos o cero. Listo ya lo comprobe y funciona bien.
+*** DONE acceso a la ficha individual desde fichaje
+CLOSED: [2022-10-13 Thu 10:28]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-13 Thu 10:28]
+:END:
+por ahora no le encuentro solucion, pq puedo acceder al buscador
+mediante una ruta, pero no que busque automaticamente, ni siquiera que
+me ponga el dni en el campo buscar.
+la clave estuvo en pasar un dato desde flask a js, y se hace como
+datojs={{datoflask | tojson}}
+la unica pega es que esa notacion te descuageringa el flycheck, mas
+que la combino con un {% if para que se dispare unicamente cuando sea pertinente.
+le puse target="_blank" para que abra en un tab aparte y no te
+desconfigure lo que estas haciendo en el fichaje.
+*** DONE explorar el concepto tree en las tablas :chart:graficos:
+CLOSED: [2022-10-13 Thu 17:25]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-13 Thu 17:23]
+:END:
+siguiendo la metodologia seguida con subtotal, pero agregando las
+filas children que hagan falta.
+Seria fundamental en paginas como estadisticas.
+Resulto mas simple que lo que yo pensaba:
+La libreria se llama chart.js[[https://www.chartjs.org/][    chart.js]]
+1. se agrega el td correspondiente al iconito de tree
+   #+begin_src html
+    <td><span class="icon is-small"><i class="fa fa-plus-square-o" aria-hidden="true" @click="expandChildren(anual['y'])"></td>
+   #+end_src
+2. se agrega "dentro de la misma tabla" un template con los tr
+   "children" que van a depender de una lista que se va a generar
+   cuando se haga click en el iconito, en este caso est_mensuales.
+#+begin_src html
+                    <template x-for="mes in est_mensuales">
+                    <tr class="children">
+                        <td></td>
+                        <td x-text="mes['ym']"></td>
+                        <td class="pesos" x-text="mes['comprado']"></td>
+                        <td class="pesos" x-text="(mes['comprado']*(listaInflacion[dayjs(mes['ym']).format('YYYYM')]||1)).toFixed()"></td>
+                        <td class="pesos" x-text="mes['saldo']"></td>
+                        <td class="perc" x-text="(mes['inc']*100).toFixed(2)"></td>
+                        <td class="right" x-text="mes['cnt']"></td>
+                    </tr>
+                    </template>
+#+end_src
+3. luego la funcion de apertura es la que regula el contenido de la
+lista que genera el tree de childrens
+#+begin_src js
+         expandChildren(year){
+             if(this.year==year && this.est_mensuales.length>0){
+                 this.est_mensuales = []
+                 return
+             }
+            axios.get('/ventas/estadisticasmensuales/'+year)
+            .then(res=>{
+                this.est_mensuales = res.data.est_mensuales
+                this.year = year
+                setTimeout(()=>{
+             $tbody = document.querySelector('tbody')
+             $tryear = document.getElementById(year)
+             let arrayrows = Array.from($tbody.children)
+             let children = arrayrows.filter(row=>row.classList.contains('children'))
+             children = children.reverse()
+             for(el of children){
+                 $tbody.insertBefore(el,$tryear.nextSibling)
+             }},10)
+            })
+         },
+#+end_src
+alli vemos dos controles sobre la lista this.est_mensuales que van a
+regular la vista o no vista de los children, cuando al comienzo veo si
+es un toggle o sea si me llama el mismo que me llamo antes que ya lo
+tengo guardado en la variable this.year y a su vez tengo el children
+expandido lo cierro o sea solo hago la lista vacia y return, y sino
+hago el request de datos y lleno la lista, luego muevo con
+insertBefore del nodo.nextSibling como no hay un insertAfter tengo que
+usar eso.
+4. por ultimo grafico, que es extremadamente simple, una parte en el
+   dom
+#+begin_src html
+          <canvas id="grafico-estadistica" width="700" height="600"></canvas>
+#+end_src
+y otra parte en js
+#+begin_src js
+             const canvas = document.getElementById('grafico-estadistica').getContext('2d');
+             const chart = new Chart(canvas, {
+                 type: 'bar',
+                 data: {
+                     labels: this.years,
+                     datasets: [{
+                        label: 'Monto Vendido Actualizado',
+                        data: this.ventaYears,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+#+end_src
+aca deje esas opciones de colores sacada de la pagina oficial pq me
+parecen bonitos pero se puede poner cualquier cosa.
+*** DONE cambio de zonas no anda
+CLOSED: [2022-10-14 Fri 10:09]
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-14 Fri 10:09]
+:END:
+arreglado el bug, era que habia quedado desactualizado pq tanto cambio
+de zona como impresion de fichas repetian codigo, en vez de usar la
+funcion seleccionarRow y en el caso de cambio de zonas no habia
+actualizado la col del dni. Ahora me quedan dos columnas a actualizar
+la del dni y la de pmovto
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -294,17 +489,6 @@ y ponerlo accesible desde utilidades
    una modal en el contexto del cliente donde se registre dia y hora de la
    autorizacion, current_user, y respuesta, y se guarden automaticamente los
    status del cliente al momento, deuda, ultpago, sev, ln, llamar, seguir,
-** TODO cambio de look y limpieza en general.
-el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
-las paginas y centralizarlos, cambiar las notificaciones a swall
-wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
-botones, etc. muchas otras cosas que podre ir agregando.
-** TODO cuadro de resultado mensual
-con vista ordenada de ingresos y egresos
-** TODO acceso a la ficha individual desde fichaje
-por ahora no le encuentro solucion, pq puedo acceder al buscador
-mediante una ruta, pero no que busque automaticamente, ni siquiera que
-me ponga el dni en el campo buscar.
 ** TODO concepto de analisis automatico efectividad de promocion
 Aplicable en primer caso a las visitas a clientes y en segundo a los
 whatsapp de venta.
@@ -324,21 +508,130 @@ fechaventa=curdate(), terminarian el proceso.
 Luego necesitamos un pivot-table sobre la tabla clientesvisitables
 filtrado con vendido=1;
 un concepto similar se puede pensar para los wapp.
-** TODO cambios en asientos
-*** hacer asientos editables
-*** hacer una vista funcional de los santander
-** TODO explorar el concepto tree en las tablas
-siguiendo la metodologia seguida con subtotal, pero agregando las
-filas children que hagan falta.
-Seria fundamental en paginas como estadisticas.
+1. creamos una tabla para los listados que vamos a registrar
+id-fecha-vdor-zona-cntperiodos-cntclientes-user-
+le puse listavisitar
+2. creamos una segunda tabla relacionada prospectos
+id-idlistavisitar-idcliente-yultcpra-compro
+3. registracion de un listado de visita
+   estoy haciendolo con un modal, me voy demorando pq estoy con modal
+   bulma pero ya esta. Hay que agregar un campo en tabla cobr vdor.
+   ahora busco la forma que los botones queden marcados como radiobuttons.
+   es un tema que ya estaba resuelto alli mismo, pero no es una
+   solucion perfecta. Ya esta el registro en las dos tablas
+4. Ahora se necesita una tabla para ver los listados y poder borrar un
+   registro si se registro mal.
+5. Nuevo concepto en botones de link. Del nav se va a la pagina
+   principal, esa contiene todos los links a las paginas secundarias y
+   ellas se mueven en un plano particular y/o vuelven a la principal.
+   p.e. Fichas es la principal, Listado es la secundaria, en vez de
+   tener dentro de Listado los links a todas las paginas de Fichas
+   (cobradores, morosos, cancelados etc) tengo los links que interesan
+   al tema o sea ver-planillas-visitar y volver a fichas. Desde ahi
+   puedo o volver a Fichas o con nav pasar a otro estanco.
+6. ya hice los cambios en la base de datos oficial. Subo el patch y
+   empezamos a recolectar los datos. Lo que queda para despues es el
+   analisis de los datos. Y la aplicacion del concepto al envio de whatsapp.
+7. whatsapps de venta: la tabla podria tener un campo mas que sea
+   tipo, tipo 1 venta, tipo 2 cobro.
+   Por el momento lo dejamos en suspenso.
+
+** TODO cambio de look y limpieza en general.
+el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
+las paginas y centralizarlos, cambiar las notificaciones a swall
+wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
+botones, etc. muchas otras cosas que podre ir agregando.
 ** TODO mas usos del concepto inflacion
 en el cuadro estadisticas actualizando los montos pasados de venta
 para que la comparacion intra-year sea mas correcta.
 Algun tipo de registro paralelo mediante triggers que permita ir
 sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 
+** TODO cuadro de resultado mensual
+con vista ordenada de ingresos y egresos
+faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/no-usado
+
 * agenda de actividad
-** semana [2022-10-09 Sun]
+** semana [2022-10-09 Sun] ver agenda
+*** [2022-10-14 Fri]
+:LOGBOOK:
+CLOCK: [2022-10-14 Fri 19:06]
+CLOCK: [2022-10-14 Fri 17:36]--[2022-10-14 Fri 17:41] =>  0:05
+interrumpido pq me fui al Fede
+CLOCK: [2022-10-14 Fri 13:35]--[2022-10-14 Fri 14:29] =>  0:54
+me faltan los graficos
+CLOCK: [2022-10-14 Fri 11:26]--[2022-10-14 Fri 12:55] =>  1:29
+cuadro de resultado mensual- no es tan facil como parece
+CLOCK: [2022-10-14 Fri 10:50]--[2022-10-14 Fri 11:18] =>  0:28
+pass agregado de cuentas: hoy aguascordobesas y pago con debito y
+adhesion a factura electronica
+CLOCK: [2022-10-14 Fri 10:23]--[2022-10-14 Fri 10:46] =>  0:23
+excurso a pass habilite browserpass
+CLOCK: [2022-10-14 Fri 09:35]--[2022-10-14 Fri 10:07] =>  0:32
+arreglado el bug
+CLOCK: [2022-10-14 Fri 08:44]--[2022-10-14 Fri 09:34] =>  0:50
+bug de emergencia al comprobar de rutina: no andaba la impresion
+entre en panico y era que habia agregado una columna a la izq en
+fichaje lo clasico que desconfigura la lectura del dni, etc. Hay que
+buscar una forma de que eso no sea asi.
+:END:
+*** [2022-10-13 Thu]
+:LOGBOOK:
+CLOCK: [2022-10-13 Thu 17:30]--[2022-10-13 Thu 18:30] =>  1:00
+prueba con gopass: negativa
+CLOCK: [2022-10-13 Thu 16:43]--[2022-10-13 Thu 17:25] =>  0:42
+terminado estadisticas
+CLOCK: [2022-10-13 Thu 15:14]--[2022-10-13 Thu 15:55] =>  0:41
+empiezo a buscar algun tipo de grafico
+CLOCK: [2022-10-13 Thu 14:48]--[2022-10-13 Thu 15:14] =>  0:26
+terminado con muy poco codigo todo dentro de alpinejs
+CLOCK: [2022-10-13 Thu 13:41]--[2022-10-13 Thu 14:07] =>  0:26
+usando concepto inflacion para terminar
+CLOCK: [2022-10-13 Thu 12:24]--[2022-10-13 Thu 13:09] =>  0:45
+reacomodo con insertBefore
+CLOCK: [2022-10-13 Thu 10:42]--[2022-10-13 Thu 12:06] =>  1:24
+primero: paso estadisticas.html a alpinejs (esta en Vue)
+lo logro en alpine pero no logro que se acomoden debajo del parent
+CLOCK: [2022-10-13 Thu 09:45]--[2022-10-13 Thu 10:22] =>  0:37
+terminado el route desde fichaje a buscador
+CLOCK: [2022-10-13 Thu 09:22]--[2022-10-13 Thu 09:45] =>  0:23
+pruebo con gnome xorg y xmodmap por un tiempo a mano y luego voy a
+desactivar el input-remapper
+:END:
+*** [2022-10-12 Wed]
+:LOGBOOK:
+CLOCK: [2022-10-12 Wed 19:46]--[2022-10-12 Wed 20:35] =>  0:49
+vinculacion desde fichaje
+CLOCK: [2022-10-12 Wed 18:40]--[2022-10-12 Wed 19:14] =>  0:34
+establecimos agendas vamos a incorporar la agenda en emacs
+CLOCK: [2022-10-12 Wed 14:32]--[2022-10-12 Wed 15:20] =>  0:48
+revisar los ultimos trigger agregados- listo
+CLOCK: [2022-10-12 Wed 12:59]--[2022-10-12 Wed 13:27] =>  0:28
+bug sumar pandas
+CLOCK: [2022-10-12 Wed 10:27]--[2022-10-12 Wed 12:43] =>  2:16
+varias cosas bug fecha logwhatsapp y resaltado de los whatsappeados hoy
+CLOCK: [2022-10-12 Wed 08:07]--[2022-10-12 Wed 08:33] =>  0:26
+evaluacion de la extension de la idea de analisis de la efectividad a
+los whatsapp. postergada por el momento.
+:END:
+*** [2022-10-11 Tue]
+:LOGBOOK:
+CLOCK: [2022-10-11 Tue 17:30]--[2022-10-11 Tue 17:49] =>  0:19
+pasado de movimientos y correccion de bug
+CLOCK: [2022-10-11 Tue 16:55]--[2022-10-11 Tue 17:29] =>  0:34
+subida de la base de datos
+CLOCK: [2022-10-11 Tue 16:33]--[2022-10-11 Tue 16:52] =>  0:19
+CLOCK: [2022-10-11 Tue 14:08]--[2022-10-11 Tue 16:13] =>  2:05
+lista de planillas emitidas y posibilidad de borrarlas
+CLOCK: [2022-10-11 Tue 10:50]--[2022-10-11 Tue 13:41] =>  2:51
+sistema de registro de visitados
+CLOCK: [2022-10-11 Tue 09:42]--[2022-10-11 Tue 10:32] =>  0:50
+vista diferenciada de santander y caja
+CLOCK: [2022-10-11 Tue 08:13]--[2022-10-11 Tue 09:21] =>  1:08
+asiento editable en comentarios
+CLOCK: [2022-10-11 Tue 07:56]--[2022-10-11 Tue 08:13] =>  0:17
+orden del dia
+:END:
 *** [2022-10-10 Mon]
 :LOGBOOK:
 CLOCK: [2022-10-10 Mon 19:30]--[2022-10-10 Mon 19:49] =>  0:19
@@ -864,9 +1157,30 @@ agregar mas mensajes programables y poner un dropdown
    :END:
 * agenda pendientes
 **** llevar bici fede
+DEADLINE: <2022-10-16 Sun>
 **** llevar kangoo mecanico
+DEADLINE: <2022-10-20 Thu>
 **** inflar gomas kangoo
-**** arreglar fibertel vencio la promocion
+DEADLINE: <2022-10-20 Thu>
+**** peluquero
+scheduled: <2022-10-19 Wed>
+:LOGBOOK:
+- Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
+:END:
+**** pedir turno dastolfo
+DEADLINE: <2022-10-18 Tue>
+**** seven
+SCHEDULED: <2022-10-21 Fri .+1m>
+**** pagos facturas I
+SCHEDULED: <2022-11-02 Wed .+1m>
+gas luz fibertel dgr tarjeta
+**** pagos facturas II
+SCHEDULED: <2022-10-18 Tue .+1m>
+ospe - claro - municipal
+
+
+
+
 * changelog
 ** pass
 ** epa

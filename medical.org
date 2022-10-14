@@ -137,9 +137,23 @@ embates normales del trabajo.
    luego de una hora trabajando me siento realmente mal, estoy como
    nauseoso y tembloroso, pero no tengo hambre, solo puedo tomar un
    poco de coca. Muy diferente de ayer, que trabaje 7hs seguidas.
+   [2022-10-11 Tue] me levanto a trabajar normal, me queda un poco de
+   tos y estornudo de vez en cuando y sintomas estomacales, poco
+   apetito y un poco nauseoso a la manana.
+   [2022-10-13 Thu] ayer no presente mayores sintomas salvo cansansio
+   y hoy tengo mucha tos como una minirecaida por eso no quiero salir
+   afuera que esta frio
+** Odontologico
+*** [2022-10-10 Mon] se rompio nuevamente el arreglo
+el [2022-09-07 Wed] me arreglo Dastolfo el premolar inferior derecho
+con composite, me cobro 7000 y me duro justo un mes.
 
 * medicacion
-** ibuprofeno
+** DONE ibuprofeno
+CLOSED: [2022-10-11 Tue 08:01]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 08:01]
+:END:
 :CLOCK: [2018-03-05 lun 19:47]--[2018-03-05 lun 19:54] =>  0:07
    :<2018-03-01 Thu>
 | Fecha            | cnt | sintomas                     |
@@ -319,7 +333,11 @@ embates normales del trabajo.
 #+TBLFM: @2$2=vsum(@3$2..@>$2)
 a partir del [2018-03-05 lun] registro solo los dias que consuma o
 bien cero o bien 2
-** naratriptan
+** DONE naratriptan
+CLOSED: [2022-10-11 Tue 08:01]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 08:01]
+:END:
 | Fecha            | cnt | hora     |
 | [2017-09-27 mié] |   1 | 6.30hs   |
 | [2017-10-13 vie] |   1 | 18.30hs  |
@@ -339,11 +357,11 @@ bien cero o bien 2
 | [2017-11-18 sáb] |   1 | 12hs     |
 | [2017-11-19 dom] |   1 | 13hs     |
 | [2017-11-20 lun] |   1 | 17hs     |
-** gastromax
-| fecha            | cnt | horas            |
-| [2017-09-27 mié] |   2 | mediodia y noche |
-| [2017-10-18 mié] |   1 | mañana           |
-** Cabergolina
+** DONE Cabergolina
+CLOSED: [2022-10-11 Tue 08:01]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-11 Tue 08:01]
+:END:
 :SCHEDULED: <2018-02-09
 vie .+1w>
 - State "DONE"       from "TODO"       [2018-02-02 vie 20:31]
@@ -361,6 +379,22 @@ vie .+1w>
 :PROPERTIES:
 :LAST_REPEAT: [2018-02-03 sáb 15:31]
 :END:
+** DONE VitC
+:SCHEDULED: <2017-09-29 vie>
+- State "DONE"       from "TODO"       [2017-09-29 vie 19:59]
+- State "DONE"       from "TODO"       [2017-09-28 jue 18:02]
+- State "DONE"       from "TODO"       [2017-09-27 mié 19:30]
+- State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
+- State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
+- State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
+- State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
+- State "DONE"       from "TODO"       [2017-09-22 vie 17:44]
+- State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
+- State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
+:PROPERTIES:
+:LAST_REPEAT: [2017-09-29 vie 19:59]
+:END:
+
 ** migral
 | Fecha            | cnt | hora        |   |   |
 | [2017-11-20 lun] | 1   | 20.23hs     |   |   |
@@ -416,25 +450,21 @@ vie .+1w>
 | [2018-04-23 lun] | 1   | 6am         |   |   |
 | [2018-04-25 mie] | 1   | 7 am        |   |   |
 
-** DONE VitC
-:SCHEDULED: <2017-09-29 vie>
-- State "DONE"       from "TODO"       [2017-09-29 vie 19:59]
-- State "DONE"       from "TODO"       [2017-09-28 jue 18:02]
-- State "DONE"       from "TODO"       [2017-09-27 mié 19:30]
-- State "DONE"       from "TODO"       [2017-09-26 mar 19:16]
-- State "DONE"       from "TODO"       [2017-09-25 lun 21:25]
-- State "DONE"       from "TODO"       [2017-09-24 dom 12:19]
-- State "DONE"       from "TODO"       [2017-09-23 sáb 22:29]
-- State "DONE"       from "TODO"       [2017-09-22 vie 17:44]
-- State "DONE"       from "TODO"       [2017-09-21 jue 19:44]
-- State "DONE"       from "TODO"       [2017-09-20 mié 21:58]
-:PROPERTIES:
-:LAST_REPEAT: [2017-09-29 vie 19:59]
-:END:
-
-
+** gastromax
+| fecha            | cnt | horas            |
+| [2017-09-27 mié] |   2 | mediodia y noche |
+| [2017-10-18 mié] |   1 | mañana           |
+Desde el [2022-09-21 Wed] estoy tomando a diario gastromax y me siento
+muy bien respecto a la acidez, lo tomo a la manana al levantarme.
+** topiramato
+actualmente estoy tomando 50mg
+** elafax
+actualmente estoy tomando 75mg
+** migral mensual
+** cannabis
 * cefaleico
-** [2017-09-19 mar]
+** 2017
+*** [2017-09-19 mar]
 un dia feucho del dolor desde la mañana, pq desperte con dolor y tome
 el primer ibu temprano. Luego el segundo en la ofi misma. Y sali
 temprano de la ofi pq pensaba que iba a tener una cefalea molesta, y
@@ -442,38 +472,38 @@ luego con el disgusto-desasosiego (ver diario) pero hice lo que dice
 el libro, segui con el plan con todo, como un bull, y luego me tome
 unos buenos mates, y luego me perdi en la compu en mi silloncito nuevo
 y en el medio hice todo el ejercicio y el dolor se limpio totalmente.
-** [2017-09-20 mié]
+*** [2017-09-20 mié]
 desperte con dolor bastante feucho, tanto que pensaba que iba a
 terminar en nar. Tome un ibu a las 4.30hs y luego me levante bien.
-** [2017-09-22 vie]
+*** [2017-09-22 vie]
 desperte con dolor mas o menos molesto, pero pienso que fue debido a
 que comi casi toda la bandeja de una tarta de pollo muy tarde y ahi al
 toque me fui a dormir, tome el ibu y me dormi y se fue todo bien, me
 levante joya.
-** [2017-09-24 dom]
+*** [2017-09-24 dom]
 el domingo tome uno a las 12hs medio al pedo, pero por momentos
 parecia que era necesario, como paso al final ahora, el lunes que
 escribo esto y no lo tomas y no pasa nada. Pq transcurrio el domingo y
 no paso nada. Ojo con tomar por safar de situaciones o por arreglar un
 dia que parezca nefasto.
-** [2017-09-26 mar]
+*** [2017-09-26 mar]
 mal desperte con dolor como costumbre luego de la cabergolina, y todo
 bien, se fue, me levante y me bañe, y ahora en oficina, luego de una
 mañana dificil y sin desayuno me tomo un segundo ibu pq tengo un
 punzante en sien izq que espero se vaya. pero pienso que si se va a
 ir.
-** [2017-09-27 mié]
+*** [2017-09-27 mié]
 desperte como todas las noches de este tipo, tomo ibu con yogur, sigo
 durmiendo y me despierto de nuevo con un dolor mas intenso y dormido
 como estaba decido un <nar> pensando que tenia oficina, pienso que me
 acuchilla los compromisos de la oficina, que estoy muy cansado por
 eso.
-** [2017-09-28 jue]
+*** [2017-09-28 jue]
 tuve unos dolorcitos que por momentos me hicieron pensar en tomar algo
 mas fuerte o sea que por ahi te parece que se va a ir de
 madre. Felizmente anoche que comi bastante y queria irme a hacer el
 analisis y no tomar nada a la madrugada no jodio
-** [2017-09-29 vie]
+*** [2017-09-29 vie]
 por ahi aparecen tipo puntadas de la nada esta bien que no le doy
 pausa cuando estoy en la oficina y tambien tendria que tomarme un
 ejercicio.
@@ -484,7 +514,7 @@ sigo, pero como me va bien, sigo, y alterno, ejercicios, limpieza,
 comida, etc, pero la puntadita sigue y la amenaza sigue y todo el
 significante del migral agazapado, ese seguir hasta reventar total
 tomo la pastilla y se me va o caigo reventado. no me importa.
-** [2017-09-30 sáb]
+*** [2017-09-30 sáb]
 tomo un ibu postsiestal y preparatorio para lo que vendra esta noche
 con los nietos. Al final a pesar de que no habia traido nar, gran
 olvido de mi parte, y de haber sido una noche dificil, habia comido
@@ -492,28 +522,28 @@ mucho y mal, y me habia acostado ahi nomas, y sentia como que al menos
 tenia que tomar otro ibu, hasta pense que haria ante una migraña (me
 iba a ir en el auto a buscar el nar), al final dormi tranquilo, no
 tome el ibu y se limpio solo el dolor
-** [2017-10-01 dom]
+*** [2017-10-01 dom]
 ayer pensaba nuevamente que iba a llegar al nar, y antes de acostarme
 tome el segundo luego de un domingo que trabaje mucho y no disfrute pq
 estuve tenso todo el dia, pq estaba enojado con el Fede a la
 distancia. Y al acostarme luego de comer profusamente me agarro
 retorcijon fuerte, y tuve que aplicarme profusamente oleo31.
-** [2017-10-03 mar]
+*** [2017-10-03 mar]
 molesto un poco en oficina me fui a comer a casa lasagna y volvi con
 un poco de dolor.
-** [2017-10-06 vie]
+*** [2017-10-06 vie]
 no parecia hoy un dia especialmente molesto, pero llegue a casa y me
 tome un segundo ibu.
-** [2017-10-07 sáb]
+*** [2017-10-07 sáb]
 hoy tome dos ibus por los implantes
-** [2017-10-08 dom]
+*** [2017-10-08 dom]
 idem ayer tome dos ibus por implantes, aunque hoy domingo pense por
 momentos a la tarde que iba a tomar un nar, pq el segundo ibu en
 realidad lo adelante y lo tome por cefaleico y luego se fue todo y
 termine por no tomar nada.
-** [2017-10-09 lun]
+*** [2017-10-09 lun]
 hoy a las 13hs fue por implantes directamente.
-** [2017-10-13 vie]
+*** [2017-10-13 vie]
 hoy despues de muchos dias me molesta un poco un dolor continuo, y
 creo que es la desintoxicacion del cuarto dia de licuado. Es increible
 el cambio que el licuado me hizo a nivel estomacal.
@@ -522,7 +552,7 @@ nervioso con relacion a la cena de graduacion de la mayra y sumado a
 la detox hizo que lo tomara. Creo que si hubiera sido un dia normal en
 que con el mismo proceso en marcha me hubiera podido recostar o no
 hubiera tenido tension creo que no lo tomaba.
-** [2017-10-14 sáb]
+*** [2017-10-14 sáb]
 hoy estoy patetico he dormido bien anoche luego de un dia o dias de
 tension por un compromiso que no se dio y enfrento un finde largo y no
 me puedo distender pq estoy patetico para querer estar enfrascado todo
@@ -532,7 +562,7 @@ que en mi casa pq aca el tema posicional es ferozmente feo y ya esta
 subiendo a dolor de cabeza y esta afectando a incomodidades.
 Al final termine con la netbook hasta casi las 2 am, y a la noche me
 tome un ibu casi preventivamente sin necesidad.
-** [2017-10-15 dom]
+*** [2017-10-15 dom]
 obviamente que me iba a dar la pataleta por los desmanes que
 estaba/estoy haciendo y por la comida. Hoy comi como loco y comi esa
 porcion de torta de chocolate encima. Pero no tendria porque darme la
@@ -543,26 +573,26 @@ termino haciendo efecto bastante rapido y quedo con una leve
 resaca. Ayudo que me puse a lavar a mano y colgar la ropa en el aire y
 me despeje un poco tomando mates y deje un poco la compu.
 Ahora voy a descansar un poco.
-** [2017-10-17 mar]
+*** [2017-10-17 mar]
 ayer no tome nada pero hoy empece temprano a la una y media con un
 ibu, el dia en oficina normal, y a la tarde senti como en los viejos
 tiempos la presion de la cefaleica y cuando me decia que yendome a
 caminar un poco se me iba a ir, y omiti tomarme un segundo (tercero en
 realidad). Luego me olvide pero tome cabergolina y estoy precefaleico
 asi que en un rato me tomo otro.
-** [2017-10-18 mié]
+*** [2017-10-18 mié]
 anoche muy mal me desperte con intensa cefalea para <<nar>> que tome
 solo con agua y segui durmiendo y fue efectivo en la noche. Me dio un
 poco de miedo pq en la noche anterior habia tomado cabergolina, nunca
 habia tomado tan cerca ambos medicamentos.
 Pero sigo cefaleico.
 Es que tenemos problemas y tensiones en el trabajo.
-** [2017-10-19 jue]
+*** [2017-10-19 jue]
 anoche me tome un ibu preventivo pq estoy cefaleico como ahora y dormi
 bien hasta las 4.30am que me desperte y tome un <<nar>> y mas o menos
 se fue y me levante bien y la mañana fue particularmente intensa y
 nerviosa hasta el mediodia que tomo otro ibu y sigo cefaleico.
-** [2017-10-20 vie]
+*** [2017-10-20 vie]
 el primer triplete desde no se si hubo. anoche a las 1.30hs ya
 desperte mal. Decidi esperar total estaba con margen, y ya a las 4.30
 decidi tomarlo pq tengo responsabilidad de empresa. Quizas me dije si
@@ -586,12 +616,12 @@ cuando me tome un ibu creo que puede ser el tema licuado. (No creo que
 sea el segundo factor corregido que fue el partir la dosis de
 topiramato y menos el tercer factor no corregido que fue no haber
 tomado estos tres dias la sublingual)
-** [2017-10-21 sáb]
+*** [2017-10-21 sáb]
 felizmente anoche corte la racha, en realidad ayer se corto. me tome
 un ibu ayer tarde al llegar aca y un ibu esta mañana pienso que el
 problema radico en intoxicacion por licuado, o sea por elementos
 viejos del licuado.
-** [2017-10-22 dom]
+*** [2017-10-22 dom]
 anoche dormi nuevamente bastante normal, con un poquito de cefalea sin
 haber tomado ningun preventivo y me tome un ibu solo al levantarme. La
 manana transcurre normal y pinta un domingo bastante fierito de
@@ -601,11 +631,11 @@ un <<nar>> y no surtio efecto. Segui con la actividad, me vine al dpto
 y estoy haciendo las cosas pq creo que si me tiro en la cama va a ser
 peor, al menos estoy planchando, voy a pasar los datos y me voy a
 bañar, y veo.
-** [2017-10-23 lun]
+*** [2017-10-23 lun]
 es obvia la diferencia que hubo en las dos ultimas noches con relacion
 a la semana pasada sin la sublingual, no solo la calidad del sueño y
 descanso sino como me levanto.
-** [2017-10-25 mié]
+*** [2017-10-25 mié]
 anoche me fui a dormir un poco cefaleico y pense que iba a despertar
 con <<nar>> y me preguntaba que me habia llevado a eso si el exceso de
 un capitulo de mas de la serie o el dia demasiado largo o que no habia
@@ -613,31 +643,31 @@ cenado pero en realidad dormi bien y limpio bien la noche la cabeza y
 me desperte bien y tire hasta pasado el medio dia sin problemas eso
 que estoy cagado de hambre y me fui al patio olmos a la carrera a
 sacarme los rx.
-** [2017-10-27 vie]
+*** [2017-10-27 vie]
 hoy el dolor nacio luego del estres en oficina, y todo el dia tuve muy
 sonolento pq me falta sueno.
 
-** [2017-10-28 sáb]
+*** [2017-10-28 sáb]
 nuevamente entra el factor nervioso, y cuando hay estres viene la
 necesidad de tomar un analgesico, hoy que cuando me levante no habia
 tomado nada, lo termine tomando cuando el estres de la situacion subio
 a cierto nivel.
 
-** [2017-10-31 mar]
+*** [2017-10-31 mar]
 anoche pense que iba a tener que tomar un nar pq no tenia ibu, pense
 en salir a comprar, y me la aguante y me fue bien al final, aunque
 ahora recien tomado no he mejorado nada. Pero sali del pozo de la
 semana pasada con la crisis migrañosa que me causo creo el licuado.
-** [2017-11-06 lun]
+*** [2017-11-06 lun]
 de un finde en general malo y encima cene pesado anoche desperte con
 un dolor turbio aunque no declarado y como tenia supercompromiso hoy
 con el aviso me tome el <<nar>> sino no lo tomaba.
-** [2017-11-08 mié]
+*** [2017-11-08 mié]
 anoche desperte con dolor que no cedio con el ibu, y sospecho a la
 cena. Muy tarde para meterse a las 22.30hs esos ravioles la
 salteña. Tome un ibu a las 3 y un <<nar>> a las 4.20 y me levante mas
 o menos bien, pero no tan limpiado como el lunes.
-** [2017-11-10 vie]
+*** [2017-11-10 vie]
 
 esta mañana tome un ibu y ahora decido un <<nar>> pq la cefalea pinta
 fuerte y tengo 3.15hs de labor por delante y la oficina sin aire o a
@@ -648,14 +678,14 @@ Mejoro bastante y a las dos horas se puede decir que no hay dolor a
 nivel cabeza a pesar de la atmosfera cerrada y de haber seguido
 trabajando.
 *
-** [2017-11-12 dom]
+*** [2017-11-12 dom]
 termine con un <<nar>> pienso que por estress combinando el finde con
 la presentacion del yerno y el compromiso del almuerzo en casa del
 fede el domingo y una cefalea refractaria a medianoche en el marques
 sin saber como tratarla me decidi cortar por lo sano y tomar un nar y
 antes de ir al almuerzo un ibu y anduve joya todo el domingo incluida
 la noche y la mañana del lunes.
-** [2017-11-13 lun]
+*** [2017-11-13 lun]
 cefalea de oficina quizas por estres todo el dia aca adentro con el
 aire y extremo estress que obliga a estar templando el animo.
 Cedo a <<nar>> en un momento peligroso pq es la segunda al hilo en dia
@@ -663,13 +693,13 @@ habil de oficina, a pesar de que el encierro, la claustrofofia, la
 falta de aire, y el hambre  etc no se presentaron, pero el estres por el caso 765
 es muy grande casi comparado al caso 747 y produce la migraña estoy
 seguro mas alla de las bronquitas menores con los otros chicos.
-** [2017-11-14 mar]
+*** [2017-11-14 mar]
 hoy felizmente corte la racha del nar en oficina y el nar de ayer
 logro disipar por 24hs el malestar.
 No obstante los multiples otros malestares persisten pero es bueno que
 se haya frenado esa racha.
 
-** [2017-11-15 mié]
+*** [2017-11-15 mié]
 esta madrugada 3 am desperte cefaleico encerrado con aire encendido
 abombado y tome un <<nar>>. Limpio bastante bien,lo unico que causo
 mucho malestar estomacal luego con acidez y mucha produccion de saliva
@@ -679,7 +709,7 @@ nervioson, a pesar de que me habia acomodado un poco, que habia
 logrado cierto nivel de encuadre en mi dpto y en mis planes no le di a
 la cena la paz y tranquilidad que era necesario.
 
-** [2017-11-16 jue]
+*** [2017-11-16 jue]
 decidi que no tomo mas ibuprofeno, pq habia caido en la toma
 preventiva, y en todas las variantes de toma que el migral tiene, por
 eso la toma diaria, y con lo malo que es el ibuprofeno no me conviene
@@ -699,11 +729,11 @@ años.
 Pasaron 3 horas y no se me fue el dolor cien por cien y el embole que
 tengo es mayusculo, asi no se me va a ir.
 
-** [2017-11-17 vie]
+*** [2017-11-17 vie]
 mal dos dias de <<nar>> refractario, no hace nada pero la presion es
 muy grande dentro y fuera del trabajo, es indescriptible.
 
-** [2017-11-18 sáb]
+*** [2017-11-18 sáb]
 a las 24.42min me tomo otro <<nar>> a las 12.02 con fuerte jaqueca
 ambos lados molleral habia dormido bien desperte normal y desayune dos
 huevos con cinco almendras  y fui al mercado y eso si fueron dos horas
@@ -734,7 +764,7 @@ hace nada. al menos con los 42 ibus y los 10 nar (tomado de 14/10 a
 Ojo tambien dude de que eran los huevos que estaba consumiendo los que
 habian activado la migraña feroz, pero creo que no o no esta bien
 claro por los registros aun.
-** [2017-11-19 dom]
+*** [2017-11-19 dom]
 se repitio practicamente el patron de ayer o sea desayune dos huevos
 fritos en oliva y a las dos horas mas o menos se desato la migrana que
 el <<nar>> no pudo abortar. En este caso comi igual y recien a las
@@ -748,7 +778,7 @@ Hay que notar que desde la tarde del sabado y ya desde que me levante
 el domingo cedio un poco el malestar mayusculo de la columna que me
 tuvo a maltraer en el dpto. Pero sigo con la dieta estricta en cierta
 forma.
-** [2017-11-20 lun]
+*** [2017-11-20 lun]
 hoy no desayune huevos como los ultimos dos dias y no tuve la migrana
 a la misma hora y a la misma intensidad hasta ahora. Es mas ni
 siquiera tome ibu. Desayune mate amargo con 15 almendras y almorce
@@ -784,7 +814,7 @@ hay que tener miedo.
 Para bien o para mal el migral fue efectivo, saco en tiempo y forma el
 dolor y me voy a dormir con la esperanza de normalizarme lo mas pronto
 posible. Espero no equivocarme de estrategia.
-** [2017-11-21 mar]
+*** [2017-11-21 mar]
 me levante bien, me bañe y tenia cita con ramiro a las 10hs y luego el
 plan era ir al patio olmos a ver la traumatologa que al final atendia
 a la tarde, el plan b no lo hice que era comprar ropa. Me volvi pero
@@ -798,7 +828,7 @@ una picardia me senti un poquito cansado y luego hice el trabajazo de
 la cocina [[file:dia-general.org::*%5B2017-11-21%20mar%5D][limpie la mesada podrida]] y me hice una cena de antologia y
 aqui estoy dispuesto a pasar los papeles para que no me pese mañana el
 dia.
-** [2017-11-22 mié]
+*** [2017-11-22 mié]
 aunque anoche comi copiosamente el menu ya descripto dormi bien y
 recien tipo 5 o 6 aparecieron las primeras molestias y decidi tomarme
 tipo 7 un ibu q ya para las 8 limpio completamente la molestia, como
@@ -811,7 +841,7 @@ Y las cuatro horas de la oficina trabaje mucho sin movimiento, pero
 produje un monton, casi adelante todo el trabajo que me lleve a la
 casa, o sea que no tengo que hacer nada en la casa y tengo hecho lo de
 mañana al llegar (los recibos) y ya hice un tema de vaciamiento de mueble.
-** [2017-11-23 jue]
+*** [2017-11-23 jue]
 anoche me tome un ibu puse a las 1am pero no recuerdo si fue a la 1 o
 a las 3 am. y me levante bien, pero medio vago hoy con no tanta
 energia como ayer, y aunque fui a rapipago y a la verduleria y me fue
@@ -846,7 +876,7 @@ Creo que lo que fue fundamental para el alivio de las ultimas 24hs fue
 el litro de agua de lino como desinflamante no queda otra. Pq estando
 yo cefaleico, tome por tomar medio vaso cada media hora mas o menos y
 fui despejandome.
-** [2017-11-25 sáb]
+*** [2017-11-25 sáb]
 me levante bien y fui a la oficina temprano una hora y media
 acomodando hasta que llegaron ellos y con el aire prendido, a las 11
 tome un ibu medio preventivo y luego la cefalea fue creciendo y a las
@@ -859,7 +889,7 @@ avena como factor inflamante y mas cruda. Creo que una dieta sin
 gluten definitiva va a ser positiva en el futuro. Y el lino como
 factor desinflamante. Y el frio intenso del aire como factor que
 pudiera llevar a la cefalea (estudiarlo)
-** [2017-11-26 dom]
+*** [2017-11-26 dom]
 repeti el patron de ayer, en oficina luego de dormir mal anoche pq me
 desperte a las 6 y no me pude volver a dormir, me tomo un ibu tipo
 11hs mas que todo preventivo y luego tipo mediodia cuando se fue Fede
@@ -874,13 +904,13 @@ me acoste me puse una SL y dormi una siesta de mas de dos horas y
 desperte con la recidiva del dolor, no hice nada me levante, tome
 lino, y se fue el dolor. Me fui al disco compre, y me bañe y aca
 estoy, por ahora lo saque de vista.
-** [2017-11-27 lun]
+*** [2017-11-27 lun]
 al final me desperte a la una de la mañana con una cefalea importante
 y no supe que hacer y tome un <<migral>> y no me causo insomnio pq
 estoy tomando clonagin, esa noche tome uno y medio despues de la
 despertada de las cinco, y el lunes transcurrio limpio total de ibu y
 de dolor y de molestias.
-** [2017-11-28 mar]
+*** [2017-11-28 mar]
 hoy me levante bien incluso con pocas molestias a nivel espalda, que
 desde que hago los estiramientos van disminuyendo a pesar de que
 cumplo las funciones igual (pe. lavo platos) y que camino como bestia
@@ -896,7 +926,7 @@ me produce un incremento del dolor jaquecoso para los estandares del
 trabajo en este ambiente cerrado y maxime con el tener que estar
 lidiando con el tema 765. Y tomo un <<migral>>!!.
 
-** [2017-11-30 jue]
+*** [2017-11-30 jue]
 ayer se repitio el patron, somnolencia, hartazgo, nerviosismo, y
 encierro hicieron que tomara un ibu a las 16hs y que luego se
 aumentara el riesgo de que se incrementara el dolor y terminara en
@@ -908,7 +938,7 @@ Al final el ibu me domino el dolor y pude ir a la reunion que duro
 hasta las 22hs en un ambiente encerrado, sin problemas jaquecosos
 luego cene liviano y dormi muy bien.
 
-** [2017-12-01 vie]
+*** [2017-12-01 vie]
 recien a las 14.30hs tomo un ibu por cefalea de apuro, pero pienso que
 se va a controlar. Y fue creciendo (hoy comi 4 huevitos de codorniz)
 mas tensiones mas trabajar ahi mismo. Crecio el dolor de cabeza y me
@@ -917,7 +947,7 @@ Ya a las 2hs esta bastante limpio el sistema e incluso me muestro
 animoso, parte por la charla politica con la Elva que me animo a mas
 lecturas y a esforzarme mas en el trabajo.
 
-** [2017-12-04 lun]
+*** [2017-12-04 lun]
 el finde entero lo pase en el marques, fue como haber pasado un finde
 en una cabaña de viernes a la noche a lunes a la mañana. Por la
 tranquilidad con la que dormi, por como le dimos, vimos unas cuantas
@@ -928,7 +958,7 @@ y me distraje con las pelis. Solo me tome un ibu el domingo cuando
 pense que me aumentaba el dolorcillo y me tome un par de tes de
 romero. y luego desaparecio el vestigio del dolor.
 
-** [2017-12-05 mar]
+*** [2017-12-05 mar]
 ya comence mal con la pintada. pero no quiero que me siente mal, sino
 que al reves considerar que esto es parte de lo que yo quiero hacer y
 parte de lo que me va a beneficiar.
@@ -937,7 +967,7 @@ bien animicamente y lo cefaleico se fue, pero el transcurrir de las
 horas termina por aburrirme y cansarme aca abajo tanto el encierro
 como la postura. Pero al menos se limpio lo cefaleico.
 
-** [2017-12-06 mié]
+*** [2017-12-06 mié]
 hoy con el tema levantarse venir a ofi etc, sentirse desgraciado, etc,
 termine con una migraña. Y justo empece a contestar el aviso por wapp
 y me motive y me tome un migral, que limpio el dolor, y me vine, y a
@@ -957,15 +987,15 @@ Un poco me hizo mal el olor a pintura, me volvi y en casa me siento
 que la cefalea vuelve y me ronda siendo que es dia que ya tome un
 migral y se tendria que dejar de joder por largo rato.
 
-** [2017-12-07 jue]
+*** [2017-12-07 jue]
 tomo migral por el desborde y encima no limpia y es resciliente, creo
 que es el olor a pintura y tomo ibu a la hora sobre el migral
 
-** [2017-12-10 dom]
+*** [2017-12-10 dom]
 tome uno en plena fiesta y preventivo casi, creo que justificado, pero
 me la banque muy bien eso que habia tomado bastante vino tintillo.
 
-** [2017-12-13 mié]
+*** [2017-12-13 mié]
 ayer, anoche y esta mañana estoy en un estado cefaleico mas o menos
 leve, ayer mas acentuado pero con suerte se modero con el ibu, como ha
 pasado otras tardes. He aplicado el concepto de ir con calma y
@@ -978,38 +1008,38 @@ como en mi casa y me quedo directo.
 y termino con un migral, fue un dia de mierda con respecto a suspender
 el tema de la regularidad alimenticia.
 
-** [2017-12-15 vie]
+*** [2017-12-15 vie]
 hoy estoy cefaleico y lamentablemente tomo migral por una cefaleita de
 morondanga pq ya el migral me gano la batalla sicologica, como me la
 gano netflix, como me la va a ganar la azucar y el gluten.
 Pero noto que el nerviosismo era por las chicas nuevas, y por la
 mañana agitada con lo que tenia que hacer a nivel bancario.
 
-** [2017-12-18 lun]
+*** [2017-12-18 lun]
 Felizmente va terminando el año, pero en el fondo se renota que uno
 toma ya sea ibu o algo mas fuerte cuando tiene tensiones inmanejables
 y en el medio esta cefaleico.
 
-** [2017-12-19 mar]
+*** [2017-12-19 mar]
 vengo cefaleico desde ayer, y muy agotado. hoy fui llegue a las 11
 repose me bañe, comi bien, pero comi un huevo, y el olor a pintura
 tambien hace lo suyo. tome el segundo ibu al pedo tomo un migral
 despues de 96hs del anterior. Ojala se acabe este olor de mierda.
 
-** [2017-12-21 jue]
+*** [2017-12-21 jue]
 anoche tome un ibu medio al vicio creo, y ahora lo tome medio
 preventivo pq el olor a pintura me hace medio bosta.
 y al volver a la casa me tome otro ibu para paliar el estado y me
 mejore por lo menos safe de la situacion, incluso pq me acomode en
 cuanto a lo que pienso hacer.
 
-** [2017-12-22 vie]
+*** [2017-12-22 vie]
 hoy pase un poco de calor en la mañana y perdi tiempo viniendo al
 centro por causa de la monica y no pude reposar bastante
 tuve que tomar un migral pq no tuve paciencia en esperar el ibu y es
 un dia agitado por ser el cierre del año, y eso me lleva a tomar el migral
 
-** [2017-12-26 mar]
+*** [2017-12-26 mar]
 todo este finde navideño incluido tomar vino tinto dos veces, lo pase
 sin migral y eso que animicamente no estuve del todo bien. Y no pude
 comer todo lo que necesito. Esta bien que la salida de la dieta fue
@@ -1017,27 +1047,29 @@ minima. Solo el postre breve el 24 y la ensalada de fruta el 25 que
 tenia azucar y un poco de rusa con mayonesa. El pollo que es carne no
 me gusto y me cayo mal.
 
-** [2017-12-28 jue]
+*** [2017-12-28 jue]
 hoy luego del dia de ayer que enfrente cansancio inusual y luego del
 llamado del Fede en donde acomodamos lo que vamos a hacer y hoy que
 pienso que va a haber estres, creo que caigo en un estado cefaleico
 que el ibu no lo paro a pesar de que lo tome hace 4.30hs.
 
-** [2017-12-29 vie]
+*** [2017-12-29 vie]
 sin saber porque se desencadeno  una cefalea fuerte que necesito
 migral a pesar que no llevo 24hs del ultimo y tuve que tomar.
 No estoy nervioso, al menos por fuera, salvo que la cami se va mañana
 y las cosas con ih no estan claras pero al menos se alivio un poco el
 frente aca en la oficina.
 
-** [2018-01-03 mié]
+** 2018
+
+**** [2018-01-03 mié]
 ayer el primero que me tomo antes de ir a dormir, y si descubro algo
 que se ha repetido muchas veces, y es que el segundo ibu cuando el
 dolor esta declarado y vamos rumbo a un migral o antes ibamos rumbo a
 un nar es al pedo, no sirve de nada y recarga el estomago y el higado
 pq lo mismo uno se va a tomar lo otro.
 
-** [2018-01-07 dom]
+**** [2018-01-07 dom]
 venia bien con un ibu por dia, pero el domingo me mato la tension, la
 ida al aeropuerto bien, pq a pesar del planton, el hecho que hubiera
 aterrizado ahi mismo el avion fue todo joya, pero luego la tension del
@@ -1049,7 +1081,7 @@ distendido el tema con la Cami, me empezo una migraña que parecia
 bomba y me tome un migral, y como la comida estaba ahi al toque se
 aborto enseguida.
 
-** [2018-01-10 mié]
+*** [2018-01-10 mié]
 ayer y hoy he estado cefaleico y felizmente pude safar con un segundo
 ibu en casa. Hoy mande a lesta a comprar una caja a las 10hs y ahi
 mismo me tome cuando me empezaba a joder en la oficina y luego se me
@@ -1057,13 +1089,13 @@ paso bien, y recien ahora luego de una densa siesta  de asadito de
 bocado y no saber si iba a hacer algo productivo a la tarde safe y
 recien tome hace un rato.
 
-** [2018-01-14 dom]
+*** [2018-01-14 dom]
 anoche siendo que venia de un mal fin de semana y ya venia con dos
 ibus y estaba al limite y habia tenido mucho de netflix y me fui a
 dormir con 1.5 clonagin y me dije mejor si viene la alta migraña asi
 me tomo el migral y al final me dormi y desaparecio todo, se esfumo.
 
-** [2018-01-19 vie]
+*** [2018-01-19 vie]
 tire sin ibus de lunes a viernes y cai con migral en la madrugada del
 viernes a 2 am potenciado por la responsabilidad-presion de aviso que
 al final termino siendo una mierda pq no vino sino solo uno.
@@ -1073,14 +1105,14 @@ cuando se "destapo la olla o se hizo publico que yo estaba en nirvana,
 cosa que hasta ese momento solo lo sabia yo solo" caigo en migraña el
 viernes 2 am y luego el sabado a las 15hs
 
-** [2018-01-20 sáb]
+*** [2018-01-20 sáb]
 como adelante el sabado a pesar de mantenerme en mi postura sufre
 muchos embates y nervios y a las 15hs luego de almorzar y acostarme
 una siesta sufri una migraña y me tome un migral que no sirvio y me
 salvo que me fui a la oficina con fede y tuve con el hasta las 20.30hs
 casi.
 
-** [2018-01-22 lun]
+*** [2018-01-22 lun]
 mal dia hoy para la cefalea, empece mal el dia pensando que no tenia
 migral y me tome un ibu en oficina que me mejoro, y trabaje con gusto
 en la oficina hasta las 16hs almorzando alla.
@@ -1094,7 +1126,7 @@ aire, y eso me despejo, aunque utilitariamente y no solo por placer pq
 no lo haria. Y ya me canse, me faltaba ir a comprar fruta pero mejor
 no pq no es buen dia hoy para eso, mejor mañana en el mercado.
 
-** [2018-01-25 jue]
+*** [2018-01-25 jue]
 HOY CATASTROFE PORQUE???? creo que el dia fue estresante desde las 7
 am.
 y vino la cami, y luego se me demoro el almuerzo, y luego todo,
@@ -1108,28 +1140,28 @@ compro. pq uno esta incomodo y luego o bien no baja si se cambia o
 bien esta incomodo como hoy y lo mismo se tiene que bajar. La gran
 puta.
 
-** [2018-01-31 mié]
+*** [2018-01-31 mié]
 el del finde no lo recuerdo, y no lo anote, no se si fue sabado o
 domingo, pero ayer tome uno no pq estuviera en crisis severa sino creo
 que era constipacion. Y hartazgo y eso se disipo bastante
 luteranamente hoy creo. Gracias a la fruta y a los arrozitos. Y hoy no
 tome hasta ahora ibus
-** [2018-02-20 mar]
+*** [2018-02-20 mar]
 ayer tome de emergencia cuando estaba con fede por una jaqueca
 incisiva y se me paso, pq pense que era problematico el momento de la
 incorporacion de nuevos cobradores.
-** [2018-02-24 sáb]
+*** [2018-02-24 sáb]
 luego del viernes con el tema de la Sandra en oficina hasta tarde y
 comiendo mal dos dias anteriores termine yendome a dormir medio
 cefaleico pensando que iba a safar y lo mismo termine tomandome un
 migral a la noche a las 4 y durmiendo muy mal
-** [2018-03-03 Sat]
+*** [2018-03-03 Sat]
    nuevamente el estres de ayer salir apurado de la oficina y comer asado con
    los nietos y estar aca en el marques en un horario atipico hizo que me
    subiera la jaqueca y tomara un migral pero nada grave. Pienso que luego del
    reposo que tuve que hacer se fue y le meti programacion a lo loco sin
    sombrero.
-** [2018-03-05 lun]
+*** [2018-03-05 lun]
 dormi siesta y me senti fatal, no se porque lo hice, ahora post. Pq me
 hubiera puesto en otro plan, antes de someterme a ese castigo, ya sea
 salir afuera (estoy totalmente agarofobico) y/o no se, la cosa que
@@ -1138,7 +1170,7 @@ louse muy freekimente, lo cierto que fue media hora muy patetica y muy
 danina y media hora de dormitar y me levante con jaqueca fuerte y no
 tenia ibu, me puse a tomar la jarra de licuado y termine con un
 migral, lamentable por partida doble.
-** [2018-03-07 mie]
+*** [2018-03-07 mie]
    termino tomando un migral al volver de ofi, luego de tomar un ibu alla a la
    mañana, y no se pq estoy cayendo a este estado cefaleico. Que va acompañado
    quiero cronicar aca de malos pensamientos, o sea de una catarata de malos
@@ -1154,7 +1186,7 @@ migral, lamentable por partida doble.
    y cuando lei otro que es un ejercicio de espejo que consiste en amarse
    completamente como uno es, me dije que no puedo, y me pregunto pq y ahi
    quedo.
-** [2018-03-08 jue]
+*** [2018-03-08 jue]
    hoy sigo cefaleico. Esta mañana tome ibu en la oficina y no se me disipo el
    dolor, llegue y me recoste, luego comi liviano y quede muy rigido, pero
    decidi irme al peluquero y al volver me sente en la compu, pero el problema
@@ -1183,10 +1215,10 @@ migral, lamentable por partida doble.
    Al final se despejo el dolor gracias a la distraccion que supuso el ponerme
    al vim en terminal y comenzar a programar y escribir un poco. Se fue el
    dolor sin tener que tomar nada mas. Felizmente.
-** [2018-03-10 sab]
+*** [2018-03-10 sab]
   seguia con la inercia del dia anterior y tenia el asado a la noche pero
   felizmante lo pase muy bien. Limpio rapido y no volvio.
-** [2018-03-13 mar]
+*** [2018-03-13 mar]
   hoy no es pq tome sino pq aborte una tomada segura, en una pausa de
   programacion en el limite de la baja siesta y la alta tarde, parecia que iba
   a migral, y ya lo habia aprobado y me pongo a limpiar, y limpio cada vez con
@@ -1195,32 +1227,32 @@ migral, lamentable por partida doble.
   patetismo y el fracaso y todo salio bien y sali adelante y hasta este
   momento al menos se fue el momento critico
 
-** [2018-03-19 lun]
+*** [2018-03-19 lun]
   casi segui la misma pauta que la semana anterior con migral el viernes y
   domingo. Anoche me desperte con cefalea y tome es raro despertarse, el del
   viernes fue quizas medio al pedo.
 
-** [2018-03-22 jue]
+*** [2018-03-22 jue]
    desde ayer que da vueltas el migral incluso afuera del blister, en el
    bolsillo, arriba de la mesa, al lado de la taza de cafe, y felizmente no lo
    he tomado. y todo pq no tenia ibu casi tomo migral. Y eso que ayer comi 3
    huevos.
-** [2017-03-26 dom]
+*** [2017-03-26 dom]
    la llevaba bien hasta el domingo con ibus, y me largue a tomar tintillo por
    demas y eso creo que llevo a que me doliera la cabeza y me tome un ibu y un
    migral y no basto para limpiar rapido el dolor. Creo que lo que gatillo fue
    la preocupacion que me dio la musica fuerte a la siesta del domingo.
 
-** [2018-03-27 mar]
+*** [2018-03-27 mar]
    ayer no tome nada y hoy tome al levantarme y otro a las 16hs y estoy casi a
    punto de un migral, aparte de fuertes dolores de espalda.
    Creo que influye el estres y el alto dolor y tension muscular en el cuello
    y los hombros y la tension en general
-** [2018-04-04 mié]
+*** [2018-04-04 mié]
    hace mucho que no tomo un migral en la oficina creo que es el estres de
    tanto trabajo por la incorporacion de gente y tambien el cambio de dieta
 
-** [2018-04-06 vie]
+*** [2018-04-06 vie]
    hace dos noches que despierto a 1.30am con migraña y sin migral, antenoche
    sin ibu tampoco, busque corty por las dudas y me dormi y se limpio bien, y
    anoche que era mas fuerte, tome un ibu y tambien limpio bien. Lo
@@ -1228,10 +1260,10 @@ migral, lamentable por partida doble.
    Creo que es la desintoxicacion. Noto en estos ultimos dos dias un aumento
    muy pronunciado de tt. Mas alla del malestar fisico al salir de oficina que
    luego atribui a baja presion pero tenia al tomarme 11/8
-** [2018-04-07 sab]
+*** [2018-04-07 sab]
    los migrales de viernes y sabado ultimos fueron debidos al alto estres que me ocasiono el tema de la firma de la escritura
 
-** [2018-04-12 jue]
+*** [2018-04-12 jue]
    ayer y hoy sufri procesos muy parecidos. Me acuesto luego de comer bien mas
    que todo por dolor de espalda no tanto por sueño (pero me pongo a escuchar
    un video y me duermo) y luego me pongo para dormir con gran aparato pq hay
@@ -1253,6 +1285,11 @@ migral, lamentable por partida doble.
    hasta ese momento. Luego dije que hago. pq tengo un horario incierto y me
    vine a la oficina. Lo que tiene que ver con el cefaleico es que parece que
    la migraña esa se hace ahi.
+** [2022-10-11 Tue]
+anoche casi tomo el segundo migral por costumbre como si fuera un
+chicle y me digo tengo que parar, al menos tengo que tomarlo cuando
+tenga dolor y no lo tome, y pasaron como 10 hs hasta ahora sin ningun
+tipo de molestia
 * historial
 ** migrañas
 *** Diario de migrañas fuertes

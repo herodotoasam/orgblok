@@ -5786,6 +5786,11 @@ p.e. fedora, emacs, vim, kitty, firefox.
 gran dedicacion al trabajo todo el dia y lectura los ratos libres en
 el emacs-superhell o en el vim-hell segun corresponda. Con exclusion
 de toda otra cosa.
+** 2022-Octubre
+*** [2022-10-11 Tue]
+pensar un flujo de trabajo para el futuro en el cual se aprovechen
+mejor las herramientas.
+
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube
