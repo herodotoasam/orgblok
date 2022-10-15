@@ -466,6 +466,12 @@ y otra parte en js
 #+end_src
 aca deje esas opciones de colores sacada de la pagina oficial pq me
 parecen bonitos pero se puede poner cualquier cosa.
+El tema del update() no me funciono, para cambiar el set de datos tuve
+que hacer destroy del chart. Asi que antes de la inicializacion del
+grafico hice destroy.
+#+begin_src js
+             if(this.chart!='') this.chart.destroy()
+#+end_src
 *** DONE cambio de zonas no anda
 CLOSED: [2022-10-14 Fri 10:09]
 :LOGBOOK:
@@ -551,11 +557,46 @@ sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 con vista ordenada de ingresos y egresos
 faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/no-usado
 
+** TODO transformar Vue en alpinejs
+*** TODO asuntos.html
+*** TODO mudados.html
+*** TODO cobr.html
+*** TODO fichaje.html
+*** TODO estimados.html
+*** TODO editarrbo.html
+*** TODO totales.html
+*** TODO planillas.html
+*** TODO verzona.html
+*** compras.html
+*** mayor.html
+*** verstock.html
+*** salidas.html
+*** impresos.html
+*** pdfsistema.html
+*** planos.html
+*** clientes.html
+*** barrios.html
+*** zonas.html
+*** cancelados.html
+*** listado.html
+*** ventas.html
+*** signup.html
+
 * agenda de actividad
 ** semana [2022-10-09 Sun] ver agenda
+*** [2022-10-15 Sat]
+:LOGBOOK:
+CLOCK: [2022-10-15 Sat 14:59]--[2022-10-15 Sat 16:30] =>  1:31
+terminacion del grafico de doughnut.
+CLOCK: [2022-10-15 Sat 09:17]--[2022-10-15 Sat 09:25] =>  0:08
+interrumpo pq me voy al hiper y me pongo a cambiar la rueda de la kangoo
+:END:
 *** [2022-10-14 Fri]
 :LOGBOOK:
-CLOCK: [2022-10-14 Fri 19:06]
+CLOCK: [2022-10-14 Fri 19:55]--[2022-10-14 Fri 20:33] =>  0:38
+renegando con python virtualenv- quite lsp por ahora
+CLOCK: [2022-10-14 Fri 19:06]--[2022-10-14 Fri 19:52] =>  0:46
+actualizando claves en pass
 CLOCK: [2022-10-14 Fri 17:36]--[2022-10-14 Fri 17:41] =>  0:05
 interrumpido pq me fui al Fede
 CLOCK: [2022-10-14 Fri 13:35]--[2022-10-14 Fri 14:29] =>  0:54
@@ -1160,8 +1201,11 @@ agregar mas mensajes programables y poner un dropdown
 DEADLINE: <2022-10-16 Sun>
 **** llevar kangoo mecanico
 DEADLINE: <2022-10-20 Thu>
-**** inflar gomas kangoo
-DEADLINE: <2022-10-20 Thu>
+**** DONE inflar gomas kangoo
+CLOSED: [2022-10-15 Sat 11:05] DEADLINE: <2022-10-15 Sat>
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-15 Sat 11:05]
+:END:
 **** peluquero
 scheduled: <2022-10-19 Wed>
 :LOGBOOK:

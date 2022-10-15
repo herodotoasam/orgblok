@@ -8907,3 +8907,18 @@ pasas de uva y almendras
 chia avena y fruta
 Me dormi una larga siesta y me levante me tome un cafe y me cayo mal,
 como si hubiera querido tomar otra cosa.
+** [2022-10-15 Sat]
+hoy cambie con el licuado, y bastante mejor.
+tenia que ir al hiper a comprar los remedios, y saque la kangoo, pero
+la goma estaba muy desinflada, entonces la entre y la cambie. Un gran
+esfuerzo. Luego fui al hiper y a la gomeria y la hice arreglar. He
+quedado un poco desarmado pero al menos saque un gran pendiente. Y
+vuelvo a tener movilidad.
+Por ahi pienso que he perdido motivacion, pero en realidad no es asi,
+pq me gusta lo que hago, pero tampoco puedo estar haciendo todos los
+dias al mismo ritmo. Lo que si ha disminuido es emacs pq he llegado a
+un nivel en el que estoy conforme con lo que tengo y he aprendido
+mucho, ya no creo que haya muy mucho por innovar al respecto.
+la mayoria de la programacion la hago en un archivo html-js y en emacs
+es en donde encuentro la facilidad de hacerlo con el web-mode. y el parent-mode.
+el resto es chachara.

@@ -23,7 +23,7 @@ D $1000.00
     assets:caja              $-900
 
 2020/07/01 consulta dentista y dos rx
-    expenses:gastos medicos:odontologia            $2100
+    expenses:gastos-medicos:odontologia            $2100
     assets:caja                                 $-2100
 
 2020/07/04 comida
@@ -63,7 +63,7 @@ D $1000.00
     assets:caja           $-2000
 
 2020/07/05 diff
-    expenses:diferencia arqueo              $60
+    expenses:diferencia-arqueo              $60
     assets:caja                         $-60
 
 2020/07/06 jabon liquido lavarropas
@@ -79,7 +79,7 @@ D $1000.00
     assets:reserva          $-10000
 
 2020/07/07 tratamiento de conducto
-    expenses:gastos medicos:odontologia            5500
+    expenses:gastos-medicos:odontologia            5500
     assets:caja                                   -5500
 
 2020/07/07 arreglo general frente
@@ -91,7 +91,7 @@ D $1000.00
     income:retiro-sociedad          -40000
 
 2020/07/07 ketorolac
-    expenses:gastos medicos:farmacia             325
+    expenses:gastos-medicos:farmacia             325
     assets:caja                                 -325
 
 2020/07/07 fibertel 07/2020
@@ -99,7 +99,7 @@ D $1000.00
     assets:caja                           -1730
 
 2020/07/07 dif
-    expenses:diferencia arqueo              95
+    expenses:diferencia-arqueo              95
     assets:caja                            -95
 
 2020/07/08 locro
@@ -128,7 +128,7 @@ D $1000.00
     assets:caja                -600
 
 2020/07/09 diff
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2020/07/09 facturas
@@ -290,16 +290,16 @@ D $1000.00
     assets:caja           -2000.0
 
 2020/07/15 remedios ih
-    expenses:gastos medicos:farmacia            1000
+    expenses:gastos-medicos:farmacia            1000
     assets:caja                                -1000
 
-2020/07/14 peluqueria
+2020/07/14 personal:peluquero
     expenses:isabel                 700
-    expenses:peluqueria             200
+    expenses:personal:peluquero             200
     assets:caja                    -900
 
 2020/07/15 faltante caja
-    expenses:diferencia arqueo           97.88
+    expenses:diferencia-arqueo           97.88
     assets:caja                         -97.88
 
 2020/07/16 ingresos
@@ -307,7 +307,7 @@ D $1000.00
     income:retiro-sociedad          -30000
 
 2020/07/16 dentista
-    expenses:gastos medicos:odontologia            1700
+    expenses:gastos-medicos:odontologia            1700
     assets:caja                                   -1700
 
 2020/07/16 ayuda
@@ -315,7 +315,7 @@ D $1000.00
     assets:caja                       -60
 
 2020/07/16 remedios
-    expenses:gastos medicos:farmacia          2340
+    expenses:gastos-medicos:farmacia          2340
     assets:caja                            -2340.0
 
 2020/07/16 a cuenta ife
@@ -327,7 +327,7 @@ D $1000.00
     assets:reserva     $-10000.0
 
 2020/07/16 perdidos inexplicablemente
-    expenses:diferencia arqueo           500
+    expenses:diferencia-arqueo           500
     assets:caja                       -500.0
 
 2020/07/16 comida lomito
@@ -343,7 +343,7 @@ D $1000.00
     assets:caja            -700.0
 
 2020/07/17 faltante de caja
-    expenses:diferencia arqueo           100
+    expenses:diferencia-arqueo           100
     assets:caja                       -100.0
 
 2020/07/18 comida pan
@@ -444,7 +444,7 @@ D $1000.00
     income:retiro-sociedad         $-30000
 
 2020/07/27 migral
-    expenses:gastos medicos:farmacia             400
+    expenses:gastos-medicos:farmacia             400
     assets:caja                                 -400
 
 2020/07/27 prestamo isabel
@@ -626,7 +626,7 @@ D $1000.00
     assets:caja                        $-1000
 
 2020/08/07 farmacia
-    expenses:gastos medicos:farmacia            2651
+    expenses:gastos-medicos:farmacia            2651
     assets:caja                                -2651
 
 2020/08/07 pan
@@ -703,7 +703,7 @@ D $1000.00
     assets:caja               -4320
 
 2020/08/10 remedios
-    expenses:gastos medicos:farmacia            4102
+    expenses:gastos-medicos:farmacia            4102
     assets:caja                                -4102
 
 2020/08/10 saco reserva
@@ -823,7 +823,7 @@ D $1000.00
     income:retiro-sociedad          -40000
 
 2020/08/20 farmacia
-    expenses:gastos medicos:farmacia             350
+    expenses:gastos-medicos:farmacia             350
     assets:caja                                 -350
 
 2020/08/20 ayuda
@@ -907,7 +907,7 @@ D $1000.00
     assets:caja              $-1000
 
 2020/08/24 dif arqueo
-    expenses:diferencia arqueo           87.01
+    expenses:diferencia-arqueo           87.01
     assets:caja                         -87.01
 
 2020/08/25 comida camila
@@ -967,7 +967,7 @@ D $1000.00
     assets:caja                          -300
 
 2020/08/28 dif
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2020/08/29 comida
@@ -991,7 +991,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/08/31 planta
-    expenses:personal            $300
+    expenses:personal:regalos            $300
     assets:caja                 $-300
 
 2020/08/31 mesada ih
@@ -1027,7 +1027,7 @@ D $1000.00
     assets:caja                           -2500
 
 2020/09/01 farmacia
-    expenses:gastos medicos:farmacia             830
+    expenses:gastos-medicos:farmacia             830
     assets:caja                                 -830
 
 2020/09/01 plantas
@@ -1091,7 +1091,7 @@ D $1000.00
     assets:caja                -670
 
 2020/09/04 farmacia
-    expenses:gastos medicos:farmacia             260
+    expenses:gastos-medicos:farmacia             260
     assets:caja                                 -260
 
 2020/09/04 nafta
@@ -1170,7 +1170,7 @@ D $1000.00
     assets:caja               -1000
 
 2020/09/07 dif
-    expenses:diferencia arqueo              46
+    expenses:diferencia-arqueo              46
     assets:caja                            -46
 
 2020/09/08 ingresos
@@ -1299,7 +1299,7 @@ D $1000.00
     assets:caja                            -220
 
 2020/09/11 farmacia
-    expenses:gastos medicos:farmacia            1951
+    expenses:gastos-medicos:farmacia            1951
     assets:caja                                -1951
 
 2020/09/13 comida
@@ -1319,7 +1319,7 @@ D $1000.00
     assets:caja                          -19000
 
 2020/09/13 dif
-    expenses:diferencia arqueo           28.95
+    expenses:diferencia-arqueo           28.95
     assets:caja                         -28.95
 
 2020/08/26 ingresos
@@ -1363,7 +1363,7 @@ D $1000.00
     assets:caja                           -3000
 
 2020/09/15 farmacia
-    expenses:gastos medicos:farmacia            3420
+    expenses:gastos-medicos:farmacia            3420
     assets:caja                                -3420
 
 2020/09/16 saldo mano obra y materiales plomeria
@@ -1466,8 +1466,8 @@ D $1000.00
     expenses:isabel             700
     assets:caja                -700
 
-2020/09/18 peluqueria
-    expenses:peluqueria             200
+2020/09/18 personal:peluquero
+    expenses:personal:peluquero             200
     assets:caja                    -200
 
 2020/09/18 materiales tapia
@@ -1524,7 +1524,7 @@ D $1000.00
 
 
 2020/09/21 ih caños
-    expenses:ih             180
+    expenses:isabel             180
     assets:caja            -180
 
 2020/09/21 comida super
@@ -1548,7 +1548,7 @@ D $1000.00
     assets:caja                            -400
 
 2020/09/22 farmacia
-    expenses:gastos medicos:farmacia             850
+    expenses:gastos-medicos:farmacia             850
     assets:caja                                 -850
 
 2020/09/23 ingresos
@@ -1640,7 +1640,7 @@ D $1000.00
     assets:caja                -300
 
 2020/09/29 farmacia
-    expenses:gastos medicos:farmacia             420
+    expenses:gastos-medicos:farmacia             420
     assets:caja                                 -420
 
 2020/09/28 gatos
@@ -1679,7 +1679,7 @@ D $1000.00
     expenses:comida:ayuda              60
     assets:caja                       -60
 
-2020/10/01 peluqueria lady
+2020/10/01 personal:peluquero lady
     expenses:comida:gatos             450
     assets:caja                      -450
 
@@ -1809,7 +1809,7 @@ D $1000.00
     assets:caja                            -800
 
 2020/10/10 farmacia
-    expenses:gastos medicos:farmacia            3111
+    expenses:gastos-medicos:farmacia            3111
     assets:caja                                -3111
 
 2020/10/10 comida
@@ -1817,7 +1817,7 @@ D $1000.00
     assets:caja               -1140
 
 2020/10/10 farmacia h italiano
-    expenses:gastos medicos:farmacia            3849
+    expenses:gastos-medicos:farmacia            3849
     assets:caja                                -3849
 
 2020/10/10 ecogas 2020/04 vto 05/10/2020
@@ -1913,7 +1913,7 @@ D $1000.00
     assets:reserva          -30000
 
 2020/10/13 dif
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2020/10/15 amortiguadores baul
@@ -1974,7 +1974,7 @@ D $1000.00
 
 
 2020/10/17 farmacia
-    expenses:gastos medicos:farmacia             431
+    expenses:gastos-medicos:farmacia             431
     assets:caja                                 -431
 
 2020/10/20 ingresos
@@ -2018,7 +2018,7 @@ D $1000.00
     assets:reserva          -30000
 
 2020/10/22 migral
-    expenses:gastos medicos:farmacia             370
+    expenses:gastos-medicos:farmacia             370
     assets:caja                                 -370
 
 2020/10/22 liquido limpiar campana acero
@@ -2066,7 +2066,7 @@ D $1000.00
     assets:caja                            -200
 
 2020/10/22 dif
-    expenses:diferencia arqueo            8.24
+    expenses:diferencia-arqueo            8.24
     assets:caja                          -8.24
 
 2020/10/23 saco reserva
@@ -2166,7 +2166,7 @@ D $1000.00
     assets:caja               -3500
 
 2020/11/03 farmacia
-    expenses:gastos medicos:farmacia            2532
+    expenses:gastos-medicos:farmacia            2532
     assets:caja                                -2532
 
 2020/11/04 cami cuota telefono
@@ -2214,11 +2214,11 @@ D $1000.00
     assets:caja             -745.86
 
 2020/11/04 farmacity cami
-    expenses:gastos medicos:farmacia         1289.36
+    expenses:gastos-medicos:farmacia         1289.36
     assets:caja                             -1289.36
 
 2020/11/04 farmacity isabel
-    expenses:gastos medicos:farmacia         1949.93
+    expenses:gastos-medicos:farmacia         1949.93
     assets:caja                             -1949.93
 
 2020/11/04 modas marques
@@ -2253,8 +2253,8 @@ D $1000.00
     expenses:comida             200
     assets:caja                -200
 
-2020/11/04 peluqueria
-    expenses:peluqueria            $200
+2020/11/04 personal:peluquero
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2020/11/04 carla
@@ -2290,7 +2290,7 @@ D $1000.00
     assets:caja                -550
 
 2020/11/09 dif
-    expenses:diferencia arqueo              44
+    expenses:diferencia-arqueo              44
     assets:caja                            -44
 
 2020/11/09 mesada ih
@@ -2318,7 +2318,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/11/12 farmacia
-    expenses:gastos medicos:farmacia            1930
+    expenses:gastos-medicos:farmacia            1930
     assets:caja                                -1930
 
 2020/11/12 pintura rejas
@@ -2362,11 +2362,11 @@ D $1000.00
     assets:caja               -1000
 
 2020/11/15 dif
-    expenses:diferencia arqueo              70
+    expenses:diferencia-arqueo              70
     assets:caja                            -70
 
 2020/11/16 farmacia
-    expenses:gastos medicos:farmacia            6560
+    expenses:gastos-medicos:farmacia            6560
     assets:caja                                -6560
 
 2020/11/16 peaje
@@ -2418,7 +2418,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/11/19 dif
-    expenses:diferencia arqueo              80
+    expenses:diferencia-arqueo              80
     assets:caja                            -80
 
 2020/11/19 mesada cami
@@ -2542,7 +2542,7 @@ D $1000.00
     assets:caja              $-1000
 
 2020/11/30 dif
-    expenses:diferencia arqueo              37
+    expenses:diferencia-arqueo              37
     assets:caja                            -37
 
 2020/11/30 comida gatos
@@ -2582,7 +2582,7 @@ D $1000.00
     assets:caja                   -10000
 
 2020/12/02 farmacia
-    expenses:gastos medicos:farmacia            1710
+    expenses:gastos-medicos:farmacia            1710
     assets:caja                                -1710
 
 2020/12/03 pan
@@ -2610,7 +2610,7 @@ D $1000.00
     assets:reserva          -30000
 
 2020/12/04 farmacia
-    expenses:gastos medicos:farmacia            3526
+    expenses:gastos-medicos:farmacia            3526
     assets:caja                                -3526
 
 2020/12/04 ecogas 2020/05 vto 02/12/2020
@@ -2662,11 +2662,11 @@ D $1000.00
     assets:caja            $-745.86
 
 2020/12/04 farmacity cami
-    expenses:gastos medicos:farmacia        $1289.36
+    expenses:gastos-medicos:farmacia        $1289.36
     assets:caja                            $-1289.36
 
 2020/12/04 farmacity isabel
-    expenses:gastos medicos:farmacia        $1949.93
+    expenses:gastos-medicos:farmacia        $1949.93
     assets:caja                            $-1949.93
 
 2020/12/04 modas marques
@@ -2686,7 +2686,7 @@ D $1000.00
     assets:caja                -100
 
 2020/12/04 dif
-    expenses:diferencia arqueo           71.36
+    expenses:diferencia-arqueo           71.36
     assets:caja                         -71.36
 
 2020/12/06 facturas
@@ -2722,7 +2722,7 @@ D $1000.00
     assets:caja               -2000
 
 2020/12/09 peluquero
-    expenses:peluqueria            $200
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2020/12/09 carla
@@ -2850,7 +2850,7 @@ D $1000.00
     assets:caja                -100
 
 2020/12/15 desodorante
-    expenses:gastos medicos:farmacia             120
+    expenses:gastos-medicos:farmacia             120
     assets:caja                                 -120
 
 2020/12/15 pan
@@ -2963,7 +2963,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/12/26 farmacia
-    expenses:gastos medicos:farmacia            2362
+    expenses:gastos-medicos:farmacia            2362
     assets:caja                                -2362
 
 2020/12/26 isabel rio shop
@@ -2971,7 +2971,7 @@ D $1000.00
     assets:caja               -1010
 
 2020/12/26 dif
-    expenses:diferencia arqueo             130
+    expenses:diferencia-arqueo             130
     assets:caja                           -130
 
 2020/12/28 saco reserva
@@ -2979,7 +2979,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2020/12/28 farmacia italiano
-    expenses:gastos medicos:farmacia            7850
+    expenses:gastos-medicos:farmacia            7850
     assets:caja                                -7850
 
 2020/12/28 sanwich
@@ -3007,7 +3007,7 @@ D $1000.00
     income:retiro-sociedad         $-30000
 
 2020/12/29 farmacia otosporin
-    expenses:gastos medicos:farmacia             400
+    expenses:gastos-medicos:farmacia             400
     assets:caja                                 -400
 
 2020/12/29 bazar
@@ -3140,11 +3140,11 @@ D $1000.00
     assets:caja            $-745.86
 
 2021/01/05 farmacity cami
-    expenses:gastos medicos:farmacia        $1289.36
+    expenses:gastos-medicos:farmacia        $1289.36
     assets:caja                            $-1289.36
 
 2021/01/05 farmacity isabel
-    expenses:gastos medicos:farmacia        $1949.93
+    expenses:gastos-medicos:farmacia        $1949.93
     assets:caja                            $-1949.93
 
 2021/01/05 modas marques
@@ -3208,7 +3208,7 @@ D $1000.00
     assets:caja               -1100
 
 2021/01/06 peluquero
-    expenses:peluqueria            $200
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2021/01/08 arreglo techo goteras
@@ -3220,10 +3220,10 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/01/08 dif
-    expenses:diferencia arqueo           54.81
+    expenses:diferencia-arqueo           54.81
     assets:caja                         -54.81
 
-2021/01/08 peluqueria lady
+2021/01/08 personal:peluquero lady
     expenses:comida:gatos            $450
     assets:caja                     $-450
 
@@ -3276,7 +3276,7 @@ D $1000.00
     assets:caja                      -860
 
 2021/01/18 farmacia hp hiper
-    expenses:gastos medicos:farmacia            1800
+    expenses:gastos-medicos:farmacia            1800
     assets:caja                                -1800
 
 2021/01/19 comida
@@ -3300,7 +3300,7 @@ D $1000.00
     assets:caja              $-1000
 
 2021/01/19 dif
-    expenses:diferencia arqueo             680
+    expenses:diferencia-arqueo             680
     assets:caja                           -680
 
 2021/01/21 nafta
@@ -3316,7 +3316,7 @@ D $1000.00
     assets:caja                      -600
 
 2021/01/21 inflar gomas
-    expenses:transporte             100
+    expenses:transporte:gomeria             100
     assets:caja                    -100
 
 2021/01/21 peajes
@@ -3500,7 +3500,7 @@ D $1000.00
     assets:reserva         $-40000
 
 2021/02/04 farmacia neutop y vs ih
-    expenses:gastos medicos:farmacia            4000
+    expenses:gastos-medicos:farmacia            4000
     assets:caja                                -4000
 
 2021/02/04 ecogas 2020/6
@@ -3588,7 +3588,7 @@ D $1000.00
     assets:caja                      -320
 
 2021/02/07 farmacia
-    expenses:gastos medicos:farmacia             168
+    expenses:gastos-medicos:farmacia             168
     assets:caja                                 -168
 
 2021/02/07 cami tarjetas
@@ -3600,7 +3600,7 @@ D $1000.00
     assets:caja               -1400
 
 2021/02/07 peluquero
-    expenses:peluqueria            $200
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2021/02/08 cami bono utiles
@@ -3616,7 +3616,7 @@ D $1000.00
     assets:caja                      -550
 
 2021/02/08 farmacia atenix
-    expenses:gastos medicos:farmacia             265
+    expenses:gastos-medicos:farmacia             265
     assets:caja                                 -265
 
 2021/02/09 ih mesada
@@ -3631,8 +3631,8 @@ D $1000.00
     expenses:isabel            2300
     assets:caja               -2300
 
-2021/02/09 diferencia arqueo positiva
-    expenses:diferencia arqueo            -300
+2021/02/09 diferencia-arqueo positiva
+    expenses:diferencia-arqueo            -300
     assets:caja                            300
 
 2021/02/09 mesada cami
@@ -3664,11 +3664,11 @@ D $1000.00
     assets:caja               -5000
 
 2021/02/10 farmacia migral
-    expenses:gastos medicos:farmacia             430
+    expenses:gastos-medicos:farmacia             430
     assets:caja                                 -430
 
 2021/02/10 farmacia ih
-    expenses:gastos medicos:farmacia             270
+    expenses:gastos-medicos:farmacia             270
     assets:caja                                 -270
 
 2021/02/11 cuchillos
@@ -3788,7 +3788,7 @@ D $1000.00
     assets:caja                 $-5000
 
 2021/02/19 dif
-    expenses:diferencia arqueo          171.76
+    expenses:diferencia-arqueo          171.76
     assets:caja                        -171.76
 
 2021/02/20 ingresos
@@ -3836,7 +3836,7 @@ D $1000.00
     assets:caja                       -9953
 
 2021/02/20 dif - faltante negocio
-    expenses:diferencia arqueo          727.14
+    expenses:diferencia-arqueo          727.14
     assets:caja                        -727.14
 
 2021/02/22 saco reserva
@@ -3844,7 +3844,7 @@ D $1000.00
     assets:reserva          -10000
 
 2021/02/22 farmacia h italiano
-    expenses:gastos medicos:farmacia            6410
+    expenses:gastos-medicos:farmacia            6410
     assets:caja                                -6410
 
 2021/02/22 facturas
@@ -3887,7 +3887,7 @@ D $1000.00
     expenses:comida             740
     assets:caja                -740
 
-2021/02/24 peluqueria lady
+2021/02/24 personal:peluquero lady
     expenses:comida:gatos             550
     assets:caja                      -550
 
@@ -3964,7 +3964,7 @@ D $1000.00
     assets:caja               -5000
 
 2021/03/03 farmacia sertralina-aripiprazol
-    expenses:gastos medicos:farmacia            2000
+    expenses:gastos-medicos:farmacia            2000
     assets:caja                                -2000
 
 2021/03/03 ih
@@ -3980,7 +3980,7 @@ D $1000.00
     assets:caja                         -2000
 
 2021/03/03 dif
-    expenses:diferencia arqueo             270
+    expenses:diferencia-arqueo             270
     assets:caja                           -270
 
 2021/03/03 saco reserva
@@ -4080,7 +4080,7 @@ D $1000.00
     assets:caja                      $-1490.65
 
 2021/03/08 hp farma
-    expenses:gastos medicos:farmacia             169
+    expenses:gastos-medicos:farmacia             169
     assets:caja                                 -169
 
 2021/03/08 seguro auto
@@ -4120,7 +4120,7 @@ D $1000.00
     assets:caja             $-747
 
 2021/03/08 lucia villamoro
-    expenses:ih          833.35
+    expenses:isabel          833.35
     assets:caja         -833.35
 
 2021/03/08 gastos tarjeta naranja
@@ -4128,7 +4128,7 @@ D $1000.00
     assets:caja                                             -580.43
 
 2021/03/08 farmacia neutop
-    expenses:gastos medicos:farmacia            1900
+    expenses:gastos-medicos:farmacia            1900
     assets:caja                                -1900
 
 2021/03/08 ih carla
@@ -4276,7 +4276,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/03/18 peluquero
-    expenses:peluqueria            $200
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2021/03/18 nafta
@@ -4296,7 +4296,7 @@ D $1000.00
     assets:caja                           -1200
 
 2021/03/18 farmacity
-    expenses:gastos medicos:farmacia            1394
+    expenses:gastos-medicos:farmacia            1394
     assets:caja                                -1394
 
 2021/03/18 materiales construccion
@@ -4342,7 +4342,7 @@ D $1000.00
     assets:caja                -850
 
 2021/03/19 farmacia hp - isabel
-    expenses:gastos medicos:farmacia            2230
+    expenses:gastos-medicos:farmacia            2230
     assets:caja                                -2230
 
 2021/03/19 dgr casa 2021-04
@@ -4374,7 +4374,7 @@ D $1000.00
     assets:caja                     $-25166
 
 2021/03/20 farmacia diclofenac
-    expenses:gastos medicos:farmacia             150
+    expenses:gastos-medicos:farmacia             150
     assets:caja                                 -150
 
 2021/03/22 sandwiches
@@ -4454,7 +4454,7 @@ D $1000.00
     assets:caja                -390
 
 2021/03/24 diferencia
-    expenses:diferencia arqueo            -205
+    expenses:diferencia-arqueo            -205
     assets:caja                            205
 
 2021/03/25 hisopado romi
@@ -4550,7 +4550,7 @@ D $1000.00
     assets:caja                       -2410
 
 2021/03/31 farmacia italiano
-    expenses:gastos medicos:farmacia            5150
+    expenses:gastos-medicos:farmacia            5150
     assets:caja                                -5150
 
 2021/03/31 nafta
@@ -4566,7 +4566,7 @@ D $1000.00
     assets:caja              $-1000
 
 2021/03/31 dif
-    expenses:diferencia arqueo           80.37
+    expenses:diferencia-arqueo           80.37
     assets:caja                         -80.37
 
 2021/04/01 retiro reserva
@@ -4690,11 +4690,11 @@ D $1000.00
     assets:caja                       -1453.49
 
 2021/04/05 lucia villamoro
-    expenses:ih         $833.35
+    expenses:isabel         $833.35
     assets:caja        $-833.35
 
 2021/04/05 consultas hp
-    expenses:gastos medicos:psiquiatria            2000
+    expenses:gastos-medicos:psiquiatria            2000
     assets:caja                                   -2000
 
 2021/04/05 gastos tarjeta naranja
@@ -4710,15 +4710,15 @@ D $1000.00
     assets:reserva          -10000
 
 2021/04/06 farmacia neutop
-    expenses:gastos medicos:farmacia            1922
+    expenses:gastos-medicos:farmacia            1922
     assets:caja                                -1922
 
 2021/04/06 farmacia diapresan y clonagin
-    expenses:gastos medicos:farmacia            2230
+    expenses:gastos-medicos:farmacia            2230
     assets:caja                                -2230
 
 2021/04/06 farmacia varios
-    expenses:gastos medicos:farmacia            1554
+    expenses:gastos-medicos:farmacia            1554
     assets:caja                                -1554
 
 2021/04/06 remocion tierra jardin
@@ -4750,7 +4750,7 @@ D $1000.00
     assets:caja                          -30
 
 2021/04/07 diff
-    expenses:diferencia arqueo           99.63
+    expenses:diferencia-arqueo           99.63
     assets:caja                         -99.63
 
 2021/04/07 ayuda
@@ -4793,8 +4793,8 @@ D $1000.00
     expenses:isabel            1150
     assets:caja               -1150
 
-2021/04/08 peluqueria
-    expenses:peluqueria            $200
+2021/04/08 personal:peluquero
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2021/04/12 ingresos
@@ -5026,7 +5026,7 @@ D $1000.00
     assets:caja                     $-800
 
 2021/04/25 dif a favor
-    expenses:diferencia arqueo          -153.5
+    expenses:diferencia-arqueo          -153.5
     assets:caja                          153.5
 
 2021/04/27 comida
@@ -5066,7 +5066,7 @@ D $1000.00
     assets:caja               -1400
 
 2021/04/30 farmacia topi/atenix/ih varios
-    expenses:gastos medicos:farmacia            5258
+    expenses:gastos-medicos:farmacia            5258
     assets:caja                                -5258
 
 2021/04/30 ingresos
@@ -5077,7 +5077,7 @@ D $1000.00
     assets:caja              10000
     assets:reserva          -10000
 
-2021/04/30 peluqueria lady
+2021/04/30 personal:peluquero lady
     expenses:comida:gatos            $550
     assets:caja                     $-550
 
@@ -5202,7 +5202,7 @@ D $1000.00
     assets:caja                       -1674.84
 
 2021/05/06 optica campos
-    expenses:gastos medicos:opticas         7476.66
+    expenses:gastos-medicos:opticas         7476.66
     assets:caja                            -7476.66
 
 2021/05/06 rio shop deco
@@ -5210,15 +5210,15 @@ D $1000.00
     assets:caja              -566.6
 
 2021/05/06 lucia villamoro
-    expenses:ih         $833.35
+    expenses:isabel         $833.35
     assets:caja        $-833.35
 
 2021/05/06 lucia villamoro II
-    expenses:ih         1741.70
+    expenses:isabel         1741.70
     assets:caja        -1741.70
 
 2021/05/06 consultas hp
-    expenses:gastos medicos:psiquiatria             250
+    expenses:gastos-medicos:psiquiatria             250
     assets:caja                                    -250
 
 2021/05/06 gastos tarjeta naranja
@@ -5315,11 +5315,11 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/05/11 dif
-    expenses:diferencia arqueo             807
+    expenses:diferencia-arqueo             807
     assets:caja                           -807
 
 2021/05/12 farmacia italiano
-    expenses:gastos medicos:farmacia            6433
+    expenses:gastos-medicos:farmacia            6433
     assets:caja                                -6433
 
 2021/05/12 comida
@@ -5351,7 +5351,7 @@ D $1000.00
     assets:caja                      $-1200
 
 2021/05/13 dif
-    expenses:diferencia arqueo            7.86
+    expenses:diferencia-arqueo            7.86
     assets:caja                          -7.86
 
 2021/05/15 comida
@@ -5431,7 +5431,7 @@ D $1000.00
     assets:caja                -390
 
 2021/05/18 farmacia
-    expenses:gastos medicos:farmacia             300
+    expenses:gastos-medicos:farmacia             300
     assets:caja                                 -300
 
 2021/05/18 jardinera
@@ -5467,7 +5467,7 @@ D $1000.00
     assets:caja                      -600
 
 2021/05/21 farmacia
-    expenses:gastos medicos:farmacia            5110
+    expenses:gastos-medicos:farmacia            5110
     assets:caja                                -5110
 
 2021/05/21 epec 04/2021
@@ -5523,7 +5523,7 @@ D $1000.00
     assets:caja               -1400
 
 2021/05/27 dif
-    expenses:diferencia arqueo             421
+    expenses:diferencia-arqueo             421
     assets:caja                           -421
 
 2021/05/29 lomito
@@ -5595,7 +5595,7 @@ D $1000.00
     assets:caja               -1500
 
 2021/06/07 odontologia
-    expenses:gastos medicos:odontologia            4500
+    expenses:gastos-medicos:odontologia            4500
     assets:caja                                   -4500
 
 2021/06/07 ingresos
@@ -5671,7 +5671,7 @@ D $1000.00
     assets:caja             -566.60
 
 2021/06/08 optica campos
-    expenses:gastos medicos:opticas        $7476.66
+    expenses:gastos-medicos:opticas        $7476.66
     assets:caja                           $-7476.66
 
 2021/06/08 comida hiper
@@ -5687,7 +5687,7 @@ D $1000.00
     assets:caja                       -1672.49
 
 2021/06/08 rimo calzados
-    expenses:ih            1748
+    expenses:isabel            1748
     assets:caja           -1748
 
 2021/06/08 ecogas ultima boleta dpto jujuy
@@ -5695,11 +5695,11 @@ D $1000.00
     assets:caja          -1212.78
 
 2021/06/08 lucia villamoro
-    expenses:ih         $833.35
+    expenses:isabel         $833.35
     assets:caja        $-833.35
 
 2021/06/08 lucia villamoro
-    expenses:ih         1741.66
+    expenses:isabel         1741.66
     assets:caja        -1741.66
 
 2021/06/08 gastos tarjeta naranja
@@ -5715,7 +5715,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/06/08 peluquero
-    expenses:peluqueria            $200
+    expenses:personal:peluquero            $200
     assets:caja                   $-200
 
 2021/06/08 ih carla
@@ -5759,7 +5759,7 @@ D $1000.00
     assets:caja               -1000
 
 2021/06/11 odontologo
-    expenses:gastos medicos:odontologia            5500
+    expenses:gastos-medicos:odontologia            5500
     assets:caja                                   -5500
 
 2021/06/11 ih
@@ -5831,7 +5831,7 @@ D $1000.00
     assets:caja                      $-1200
 
 2021/06/17 farmacia hp
-    expenses:gastos medicos:farmacia            1660
+    expenses:gastos-medicos:farmacia            1660
     assets:caja                                -1660
 
 2021/06/17 regalo cumple romi
@@ -5971,7 +5971,7 @@ D $1000.00
     assets:reserva          -30000
 
 2021/06/25 odontologo
-    expenses:gastos medicos:odontologia            6900
+    expenses:gastos-medicos:odontologia            6900
     assets:caja                                   -6900
 
 2021/06/25 colocacion aire acondicionado
@@ -5991,7 +5991,7 @@ D $1000.00
     assets:caja               -1200
 
 2021/06/28 odontologo
-    expenses:gastos medicos:odontologia            9000
+    expenses:gastos-medicos:odontologia            9000
     assets:caja                                   -9000
 
 2021/06/29 facturas
@@ -6031,7 +6031,7 @@ D $1000.00
     income:retiro-sociedad          -60000
 
 2021/07/01 farmacia
-    expenses:gastos medicos:farmacia            6011
+    expenses:gastos-medicos:farmacia            6011
     assets:caja                                -6011
 
 2021/07/01 ecogas 2021/3
@@ -6071,19 +6071,19 @@ D $1000.00
     assets:caja                       -1817.49
 
 2021/07/01 lucia villamoro
-    expenses:ih         $833.35
+    expenses:isabel         $833.35
     assets:caja        $-833.35
 
 2021/07/01 lucia villamoro
-    expenses:ih         1741.66
+    expenses:isabel         1741.66
     assets:caja        -1741.66
 
 2021/07/01 consulta telefonica psiquiatra
-    expenses:gastos medicos:psiquiatria            $250
+    expenses:gastos-medicos:psiquiatria            $250
     assets:caja                                   $-250
 
 2021/07/01 rimo
-    expenses:ih           $1748
+    expenses:isabel           $1748
     assets:caja          $-1748
 
 2021/07/01 hipermercados libertad
@@ -6095,7 +6095,7 @@ D $1000.00
     assets:caja             -566.60
 
 2021/07/01 optica campos
-    expenses:gastos medicos:opticas        $7476.66
+    expenses:gastos-medicos:opticas        $7476.66
     assets:caja                           $-7476.66
 
 2021/07/01 comida hiper
@@ -6131,7 +6131,7 @@ D $1000.00
     assets:caja                      $-1200
 
 2021/06/24 farmacia
-    expenses:gastos medicos:farmacia             150
+    expenses:gastos-medicos:farmacia             150
     assets:caja                                 -150
 
 2021/07/01 prestamo romi
@@ -6159,7 +6159,7 @@ D $1000.00
     assets:caja                -100
 
 2021/07/04 farmacia
-    expenses:gastos medicos:farmacia             520
+    expenses:gastos-medicos:farmacia             520
     assets:caja                                 -520
 
 2021/07/04 ingresos
@@ -6179,11 +6179,11 @@ D $1000.00
     assets:caja                -300
 
 2021/07/05 farmacia migral
-    expenses:gastos medicos:farmacia            1190
+    expenses:gastos-medicos:farmacia            1190
     assets:caja                                -1190
 
 2021/07/05 farmacia antibioticos
-    expenses:gastos medicos:farmacia             880
+    expenses:gastos-medicos:farmacia             880
     assets:caja                                 -880
 
 2021/07/05 ingresos
@@ -6199,7 +6199,7 @@ D $1000.00
     assets:caja              $-1500
 
 2021/07/05 dif
-    expenses:diferencia arqueo           81.07
+    expenses:diferencia-arqueo           81.07
     assets:caja                         -81.07
 
 2021/07/05 comida
@@ -6248,7 +6248,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/07/09 dif
-    expenses:diferencia arqueo            1030
+    expenses:diferencia-arqueo            1030
     assets:caja                          -1030
 
 2021/07/10 comida
@@ -6288,7 +6288,7 @@ D $1000.00
     assets:reserva          -20000
 
 2021/07/13 odontologo
-    expenses:gastos medicos:odontologia           10000
+    expenses:gastos-medicos:odontologia           10000
     assets:caja                                  -10000
 
 2021/07/13 cami mesada
@@ -6308,7 +6308,7 @@ D $1000.00
     assets:caja                -300
 
 2021/07/13 dif
-    expenses:diferencia arqueo              60
+    expenses:diferencia-arqueo              60
     assets:caja                            -60
 
 2021/07/14 comida
@@ -6356,7 +6356,7 @@ D $1000.00
     assets:reserva          -10000
 
 2021/07/20 odontologo
-    expenses:gastos medicos:odontologia            5000
+    expenses:gastos-medicos:odontologia            5000
     assets:caja                                   -5000
 
 2021/07/20 facturas
@@ -6372,11 +6372,11 @@ D $1000.00
     assets:caja                     -1300
 
 2021/07/20 farmacia hospital italiano
-    expenses:gastos medicos:farmacia            5260
+    expenses:gastos-medicos:farmacia            5260
     assets:caja                                -5260
 
 2021/07/21 farmacia hospital italiano
-    expenses:gastos medicos:farmacia            1510
+    expenses:gastos-medicos:farmacia            1510
     assets:caja                                -1510
 
 2021/07/21 ingreso
@@ -6500,19 +6500,19 @@ D $1000.00
     assets:caja                  -2000
 
 2021/07/28 farmacia neutop atenix
-    expenses:gastos medicos:farmacia            3552
+    expenses:gastos-medicos:farmacia            3552
     assets:caja                                -3552
 
 2021/07/28 farmacia diapresan etc
-    expenses:gastos medicos:farmacia            2558
+    expenses:gastos-medicos:farmacia            2558
     assets:caja                                -2558
 
 2021/07/28 farmacia varios
-    expenses:gastos medicos:farmacia             895
+    expenses:gastos-medicos:farmacia             895
     assets:caja                                 -895
 
 2021/07/28 farmacia varios
-    expenses:gastos medicos:farmacia             594
+    expenses:gastos-medicos:farmacia             594
     assets:caja                                 -594
 
 2021/07/28 comida
@@ -6544,7 +6544,7 @@ D $1000.00
     assets:reserva          -10000
 
 2021/07/30 odontologo
-    expenses:gastos medicos:odontologia           10000
+    expenses:gastos-medicos:odontologia           10000
     assets:caja                                  -10000
 
 
@@ -6613,15 +6613,15 @@ D $1000.00
     assets:caja                      $-1817.49
 
 2021/08/03 lucia villamoro
-    expenses:ih         $833.35
+    expenses:isabel         $833.35
     assets:caja        $-833.35
 
 2021/08/03 lucia villamoro
-    expenses:ih         1741.66
+    expenses:isabel         1741.66
     assets:caja        -1741.66
 
 2021/08/03 rimo
-    expenses:ih           $1748
+    expenses:isabel           $1748
     assets:caja          $-1748
 
 2021/08/03 hipermercados libertad
@@ -6641,11 +6641,11 @@ D $1000.00
     assets:caja            -6028.13
 
 2021/08/03 maidana libros
-    expenses:ih          804.21
+    expenses:isabel          804.21
     assets:caja         -804.21
 
 2021/08/03 farmacity
-    expenses:gastos medicos:farmacia          1938.7
+    expenses:gastos-medicos:farmacia          1938.7
     assets:caja                              -1938.7
 
 2021/08/03 youtube premium
@@ -6665,7 +6665,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/08/03 dif
-    expenses:diferencia arqueo              52
+    expenses:diferencia-arqueo              52
     assets:caja                            -52
 
 2021/08/03 pinturas
@@ -6689,7 +6689,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/08/05 dif
-    expenses:diferencia arqueo             170
+    expenses:diferencia-arqueo             170
     assets:caja                           -170
 
 2021/08/05 ingresos
@@ -6746,7 +6746,7 @@ D $1000.00
 
 
 2021/08/09 dif
-    expenses:diferencia arqueo              40
+    expenses:diferencia-arqueo              40
     assets:caja                            -40
 
 2021/08/09 ingresos
@@ -6854,7 +6854,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021-08-17 migral
-    expenses:gastos medicos:farmacia             980
+    expenses:gastos-medicos:farmacia             980
     assets:caja                                 -980
 
 2021-08-18 comida
@@ -6906,11 +6906,11 @@ D $1000.00
     income:retiro-sociedad          -50000
 
 2021-08-19 dif
-    expenses:diferencia arqueo            2582
+    expenses:diferencia-arqueo            2582
     assets:caja                          -2582
 
 2021-08-20 odontologo
-    expenses:gastos medicos:odontologia            2300
+    expenses:gastos-medicos:odontologia            2300
     assets:caja                                   -2300
 
 2021-08-20 pan
@@ -6962,19 +6962,19 @@ D $1000.00
     assets:reserva          -40000
 
 2021-08-25 optica
-    expenses:gastos medicos:opticas           30000
+    expenses:gastos-medicos:opticas           30000
     assets:caja                              -30000
 
 2021-08-25 farmacia hp
-    expenses:gastos medicos:farmacia            3656
+    expenses:gastos-medicos:farmacia            3656
     assets:caja                                -3656
 
 2021-08-25 farmacia hp
-    expenses:gastos medicos:farmacia            2352
+    expenses:gastos-medicos:farmacia            2352
     assets:caja                                -2352
 
 2021-08-25 farmacia hp
-    expenses:gastos medicos:farmacia              39
+    expenses:gastos-medicos:farmacia              39
     assets:caja                                  -39
 
 2021-08-26 cadena baño
@@ -7002,7 +7002,7 @@ D $1000.00
     assets:caja                -600
 
 2021-08-29 dif
-    expenses:diferencia arqueo             923
+    expenses:diferencia-arqueo             923
     assets:caja                           -923
 
 2021-08-31 ingresos
@@ -7058,7 +7058,7 @@ D $1000.00
     assets:caja                         -399
 
 2021-09-02 lucia villamoro
-    expenses:ih         1741.66
+    expenses:isabel         1741.66
     assets:caja        -1741.66
 
 2021-09-02 carusso
@@ -7102,11 +7102,11 @@ D $1000.00
     assets:caja                                  -3988
 
 2021-09-02 jugueteria pluto
-    expenses:ih             988
+    expenses:isabel             988
     assets:caja            -988
 
 2021-09-02 lucia villamoro z-set
-    expenses:ih            8853
+    expenses:isabel            8853
     assets:caja           -8853
 
 2021-09-02 hiper libertad
@@ -7126,7 +7126,7 @@ D $1000.00
     assets:caja             -958.61
 
 2021-09-02 rimo
-    expenses:ih           $1748
+    expenses:isabel           $1748
     assets:caja          $-1748
 
 2021-09-02 new sport
@@ -7146,11 +7146,11 @@ D $1000.00
     assets:caja           $-6028.13
 
 2021-09-02 maidana z-ago
-    expenses:ih         $804.21
+    expenses:isabel         $804.21
     assets:caja        $-804.21
 
 2021-09-02 farmacity z-ago
-    expenses:gastos medicos:farmacia         $1938.7
+    expenses:gastos-medicos:farmacia         $1938.7
     assets:caja                             $-1938.7
 
 2021-09-02 gastos tarjeta naranja
@@ -7162,7 +7162,7 @@ D $1000.00
     assets:caja                -800
 
 2021-09-02 dif
-    expenses:diferencia arqueo           90.66
+    expenses:diferencia-arqueo           90.66
     assets:caja                         -90.66
 
 2021-09-04 empanadas
@@ -7190,7 +7190,7 @@ D $1000.00
     assets:caja                -100
 
 2021-09-06 migral
-    expenses:gastos medicos:farmacia             700
+    expenses:gastos-medicos:farmacia             700
     assets:caja                                 -700
 
 2021-09-06 mesada ih
@@ -7202,7 +7202,7 @@ D $1000.00
     assets:caja                    -2000
 
 2021-09-06 dif
-    expenses:diferencia arqueo             220
+    expenses:diferencia-arqueo             220
     assets:caja                           -220
 
 2021-09-06 facturas
@@ -7218,7 +7218,7 @@ D $1000.00
     assets:reserva          -40000
 
 2021-09-07 optica
-    expenses:gastos medicos:opticas           36800
+    expenses:gastos-medicos:opticas           36800
     assets:caja                              -36800
 
 2021-09-07 nafta
@@ -7286,7 +7286,7 @@ D $1000.00
     assets:caja                    -2000
 
 2021-09-11 farmacia
-    expenses:gastos medicos:farmacia            2000
+    expenses:gastos-medicos:farmacia            2000
     assets:caja                                -2000
 
 2021-09-11 gatos
@@ -7386,7 +7386,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021-09-17 farmacia hospital italiano
-    expenses:gastos medicos:farmacia            6032
+    expenses:gastos-medicos:farmacia            6032
     assets:caja                                -6032
 
 2021-09-18 pizza
@@ -7394,7 +7394,7 @@ D $1000.00
     assets:caja               -1130
 
 2021-09-18 dif
-    expenses:diferencia arqueo             591
+    expenses:diferencia-arqueo             591
     assets:caja                           -591
 
 2021-09-20 comida
@@ -7458,7 +7458,7 @@ D $1000.00
     assets:caja               -1150
 
 2021-09-28 farmacia
-    expenses:gastos medicos:farmacia            4000
+    expenses:gastos-medicos:farmacia            4000
     assets:caja                                -4000
 
 2021-09-28 ingresos
@@ -7494,7 +7494,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021-09-28 dif
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2021-09-30 comida
@@ -7510,7 +7510,7 @@ D $1000.00
     assets:caja                                    -100
 
 2021-09-30 farmacia hp cortypiren b 40
-    expenses:gastos medicos:farmacia            2000
+    expenses:gastos-medicos:farmacia            2000
     assets:caja                                -2000
 
 2021-10-01 comida
@@ -7518,7 +7518,7 @@ D $1000.00
     assets:caja               -2000
 
 2021-10-01 farmacia
-    expenses:gastos medicos:farmacia             800
+    expenses:gastos-medicos:farmacia             800
     assets:caja                                 -800
 
 2021-10-03 comida
@@ -7530,7 +7530,7 @@ D $1000.00
     assets:caja               -1000
 
 2021-10-03 dif
-    expenses:diferencia arqueo             600
+    expenses:diferencia-arqueo             600
     assets:caja                           -600
 
 2021-10-04 ingresos
@@ -7570,15 +7570,15 @@ D $1000.00
     assets:caja                        $-399
 
 2021-10-04 consulta telefonica psiquiatra
-    expenses:gastos medicos:psiquiatria             320
+    expenses:gastos-medicos:psiquiatria             320
     assets:caja                                    -320
 
 2021-10-04 lucia villamoro
-    expenses:ih        $1741.66
+    expenses:isabel        $1741.66
     assets:caja       $-1741.66
 
 2021-10-04 ortopedia dimar ferula esguinze
-    expenses:gastos medicos:farmacia            4025
+    expenses:gastos-medicos:farmacia            4025
     assets:caja                                -4025
 
 2021-10-04 ih rioshop
@@ -7638,7 +7638,7 @@ D $1000.00
     assets:caja             -958.61
 
 2021-10-04 rimo
-    expenses:ih           $1748
+    expenses:isabel           $1748
     assets:caja          $-1748
 
 2021-10-04 samsung A51
@@ -7654,11 +7654,11 @@ D $1000.00
     assets:caja           $-6028.13
 
 2021-10-04 maidana z-ago
-    expenses:ih         $804.21
+    expenses:isabel         $804.21
     assets:caja        $-804.21
 
 2021-10-04 farmacity z-ago
-    expenses:gastos medicos:farmacia         $1938.7
+    expenses:gastos-medicos:farmacia         $1938.7
     assets:caja                             $-1938.7
 
 2021-10-04 moda marques z-set
@@ -7674,7 +7674,7 @@ D $1000.00
     assets:caja            $-1181.5
 
 2021-10-04 lucia villamoro z-set
-    expenses:ih           $8853
+    expenses:isabel           $8853
     assets:caja          $-8853
 
 2021-10-04 youtube premium
@@ -7686,11 +7686,11 @@ D $1000.00
     assets:caja                                               -1384
 
 2021-10-04 farmacia hp
-    expenses:gastos medicos:farmacia            1980
+    expenses:gastos-medicos:farmacia            1980
     assets:caja                                -1980
 
 2021-10-04 dif
-    expenses:diferencia arqueo          143.37
+    expenses:diferencia-arqueo          143.37
     assets:caja                        -143.37
 
 2021-10-07 ingresos
@@ -7722,7 +7722,7 @@ D $1000.00
     assets:caja                    -3900
 
 2021-10-10 dif
-    expenses:diferencia arqueo            1000
+    expenses:diferencia-arqueo            1000
     assets:caja                          -1000
 
 2021-10-11 sandwich
@@ -7743,7 +7743,7 @@ D $1000.00
 
 2021-10-11 dif encontrada
     assets:caja                            810
-    expenses:diferencia arqueo            -810
+    expenses:diferencia-arqueo            -810
 
 2021/10/13 comida
     expenses:comida             380
@@ -7770,7 +7770,7 @@ D $1000.00
     assets:caja                   $-3000
 
 2021/10/14 dif
-    expenses:diferencia arqueo             450
+    expenses:diferencia-arqueo             450
     assets:caja                           -450
 
 2021/10/15 carne
@@ -7846,7 +7846,7 @@ D $1000.00
     assets:reserva         $-60000
 
 2021/10/21 farmacia
-    expenses:gastos medicos:farmacia            2950
+    expenses:gastos-medicos:farmacia            2950
     assets:caja                                -2950
 
 2021/10/21 ospe
@@ -7878,7 +7878,7 @@ D $1000.00
     assets:caja                              -1301.66
 
 2021/10/21 dif
-    expenses:diferencia arqueo           92.75
+    expenses:diferencia-arqueo           92.75
     assets:caja                         -92.75
 
 2021/10/21 comida
@@ -7922,7 +7922,7 @@ D $1000.00
     assets:caja             -18000
 
 2021/10/25 farmacia hp
-    expenses:gastos medicos:farmacia            1920
+    expenses:gastos-medicos:farmacia            1920
     assets:caja                                -1920
 
 2021/10/25 ingresos
@@ -7962,7 +7962,7 @@ D $1000.00
     assets:caja                -930
 
 2021/10/31 dif
-    expenses:diferencia arqueo             280
+    expenses:diferencia-arqueo             280
     assets:caja                           -280
 
 2021/11/01 nafta
@@ -8070,7 +8070,7 @@ D $1000.00
     assets:caja            $-1181.5
 
 2021/11/05 lucia villamoro z-set
-    expenses:ih           $8853
+    expenses:isabel           $8853
     assets:caja          $-8853
 
 2021/11/05 zapatillas ih
@@ -8086,7 +8086,7 @@ D $1000.00
     assets:caja                      $-1097.13
 
 2021/11/05 farmacity web
-    expenses:gastos medicos:farmacia         7048.40
+    expenses:gastos-medicos:farmacia         7048.40
     assets:caja                             -7048.40
 
 2021/11/05 carusso
@@ -8106,7 +8106,7 @@ D $1000.00
     assets:caja                                            -1109.91
 
 2021/11/05 almohadones
-    expenses:ih            2000
+    expenses:isabel            2000
     assets:caja           -2000
 
 2021/11/08 ingresos
@@ -8162,7 +8162,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/11/09 farmacia hosp italiano
-    expenses:gastos medicos:farmacia            6630
+    expenses:gastos-medicos:farmacia            6630
     assets:caja                                -6630
 
 2021/11/10 pan
@@ -8178,7 +8178,7 @@ D $1000.00
     assets:caja                -700
 
 2021/11/10 farmacia hp
-    expenses:gastos medicos:farmacia            2875
+    expenses:gastos-medicos:farmacia            2875
     assets:caja                                -2875
 
 2021/11/10 extra cami tarjeta
@@ -8210,7 +8210,7 @@ D $1000.00
     assets:caja               -6430
 
 2021/11/12 farmacia hp
-    expenses:gastos medicos:farmacia            1180
+    expenses:gastos-medicos:farmacia            1180
     assets:caja                                -1180
 
 2021/11/14 empanadas
@@ -8218,7 +8218,7 @@ D $1000.00
     assets:caja                -730
 
 2021/11/15 farmacia
-    expenses:gastos medicos:farmacia            1570
+    expenses:gastos-medicos:farmacia            1570
     assets:caja                                -1570
 
 2021/11/16 verdura
@@ -8270,7 +8270,7 @@ D $1000.00
     assets:caja                -100
 
 2021/11/18 dif
-    expenses:diferencia arqueo            1630
+    expenses:diferencia-arqueo            1630
     assets:caja                          -1630
 
 2021/11/19 ingresos
@@ -8306,7 +8306,7 @@ D $1000.00
     assets:caja                  $-37186.55
 
 2021/11/19 farmacia hp
-    expenses:gastos medicos:farmacia            1450
+    expenses:gastos-medicos:farmacia            1450
     assets:caja                                -1450
 
 2021/11/19 ingresos
@@ -8366,7 +8366,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2021/11/24 peluquero
-    expenses:peluqueria             700
+    expenses:personal:peluquero             700
     assets:caja                    -700
 
 2021/11/24 ropa
@@ -8479,11 +8479,11 @@ D $1000.00
     assets:caja               -1500
 
 2021/12/01 dif
-    expenses:diferencia arqueo             850
+    expenses:diferencia-arqueo             850
     assets:caja                           -850
 
 2021/12/02 farmacia hp
-    expenses:gastos medicos:farmacia            3250
+    expenses:gastos-medicos:farmacia            3250
     assets:caja                                -3250
 
 2021/12/02 fibertel
@@ -8528,7 +8528,7 @@ D $1000.00
 
 
 2021/12/02 tropea sa
-    expenses:ih         1331.67
+    expenses:isabel         1331.67
     assets:caja        -1331.67
 
 2021/12/02 pintureria szumik
@@ -8552,7 +8552,7 @@ D $1000.00
     assets:caja                                               -1130
 
 2021/12/02 gastos tn ih
-    expenses:ih           15712
+    expenses:isabel           15712
     assets:caja          -15712
 
 2021/12/02 ingresos
@@ -8632,7 +8632,7 @@ D $1000.00
     assets:caja                     -850
 
 2021/12/06 farmacia hp ih
-    expenses:gastos medicos:farmacia            3200
+    expenses:gastos-medicos:farmacia            3200
     assets:caja                                -3200
 
 2021/12/07 carla
@@ -8711,7 +8711,7 @@ D $1000.00
 
 
 2021/12/11 dif
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2021/12/11 ingresos
@@ -8755,7 +8755,7 @@ D $1000.00
     assets:caja                                    -150
 
 2021/12/14 dif
-    expenses:diferencia arqueo             749
+    expenses:diferencia-arqueo             749
     assets:caja                           -749
 
 2021/12/15 fiambreria
@@ -8771,7 +8771,7 @@ D $1000.00
     assets:caja                -150
 
 2021/12/19 farmacia
-    expenses:gastos medicos:farmacia             450
+    expenses:gastos-medicos:farmacia             450
     assets:caja                                 -450
 
 2021/12/19 materiales electricos
@@ -8851,7 +8851,7 @@ D $1000.00
     assets:reserva          -50000
 
 2021/12/22 farmacia
-    expenses:gastos medicos:farmacia            4200
+    expenses:gastos-medicos:farmacia            4200
     assets:caja                                -4200
 
 2021/12/22 aguas-cordobesas 11/2021
@@ -8978,7 +8978,7 @@ D $1000.00
 
 
 2021/12/30 dif
-    expenses:diferencia arqueo          558.37
+    expenses:diferencia-arqueo          558.37
     assets:caja                        -558.37
 
 2021/12/31 nafta
@@ -9010,7 +9010,7 @@ D $1000.00
     assets:caja                -500
 
 2022/01/02 farmacia
-    expenses:gastos medicos:farmacia             890
+    expenses:gastos-medicos:farmacia             890
     assets:caja                                 -890
 
 2022/01/03 empanadas
@@ -9034,7 +9034,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2022/01/03 farmacia
-    expenses:gastos medicos:farmacia             600
+    expenses:gastos-medicos:farmacia             600
     assets:caja                                 -600
 
 2022/01/05 tadicor
@@ -9042,7 +9042,7 @@ D $1000.00
     assets:caja               -4020
 
 2022/01/05 farmacia hp
-    expenses:gastos medicos:farmacia            1600
+    expenses:gastos-medicos:farmacia            1600
     assets:caja                                -1600
 
 2022/01/05 ingresos
@@ -9086,7 +9086,7 @@ D $1000.00
     assets:caja                           $-915
 
 2022/01/05 tropea sa
-    expenses:ih        $1331.67
+    expenses:isabel        $1331.67
     assets:caja       $-1331.67
 
 2022/01/05 seguro auto
@@ -9098,7 +9098,7 @@ D $1000.00
     assets:caja                          -1539
 
 2022/01/05 indonesia
-    expenses:ih             562
+    expenses:isabel             562
     assets:caja            -562
 
 2022/01/05 hipermercado libertad
@@ -9106,7 +9106,7 @@ D $1000.00
     assets:caja               -2916
 
 2022/01/05 el balcon perfume
-    expenses:ih            2817
+    expenses:isabel            2817
     assets:caja           -2817
 
 2022/01/05 carusso
@@ -9114,7 +9114,7 @@ D $1000.00
     assets:caja                          -2339
 
 2022/01/05 farmacia
-    expenses:gastos medicos:farmacia            2792
+    expenses:gastos-medicos:farmacia            2792
     assets:caja                                -2792
 
 2022/01/05 tejano store
@@ -9122,15 +9122,15 @@ D $1000.00
     assets:caja                       -749
 
 2022/01/05 ropa fiestas
-    expenses:ih            4950
+    expenses:isabel            4950
     assets:caja           -4950
 
 2022/01/05 ropa fiestas
-    expenses:ih            4370
+    expenses:isabel            4370
     assets:caja           -4370
 
 2022/01/05 ropa fiestas
-    expenses:ih            3000
+    expenses:isabel            3000
     assets:caja           -3000
 
 2022/01/05 donweb
@@ -9147,10 +9147,10 @@ D $1000.00
 
 2022/01/05 creditos devoluciones por compras fiestas
     assets:caja            4997
-    expenses:ih           -4997
+    expenses:isabel           -4997
 
 2022/01/05 farmacia hisopado
-    expenses:gastos medicos:farmacia            3000
+    expenses:gastos-medicos:farmacia            3000
     assets:caja                                -3000
 
 2022/01/06 ingresos
@@ -9210,7 +9210,7 @@ D $1000.00
     assets:caja                -500
 
 2022/01/11 dif
-    expenses:diferencia arqueo             880
+    expenses:diferencia-arqueo             880
     assets:caja                           -880
 
 2022/01/13 varios
@@ -9238,11 +9238,11 @@ D $1000.00
     assets:reserva         $-10000
 
 2022/01/13 farmacia hospital italiano
-    expenses:gastos medicos:farmacia            9900
+    expenses:gastos-medicos:farmacia            9900
     assets:caja                                -9900
 
 2022/01/13 dif
-    expenses:diferencia arqueo            1130
+    expenses:diferencia-arqueo            1130
     assets:caja                          -1130
 
 2022/01/14 comida
@@ -9286,7 +9286,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2022/01/16 dif
-    expenses:diferencia arqueo             950
+    expenses:diferencia-arqueo             950
     assets:caja                           -950
 
 2022/01/18 hiper
@@ -9313,8 +9313,8 @@ D $1000.00
     assets:caja              20000
     assets:reserva          -20000
 
-2022/01/18 peluqueria
-    expenses:peluqueria             850
+2022/01/18 personal:peluquero
+    expenses:personal:peluquero             850
     assets:caja                    -850
 
 2022/01/18 remi ih
@@ -9322,7 +9322,7 @@ D $1000.00
     assets:caja                          -300
 
 2022/01/18 diff
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2022/01/20 estacionamiento
@@ -9366,7 +9366,7 @@ D $1000.00
     assets:caja               -1050
 
 2022/01/23 dif
-    expenses:diferencia arqueo             150
+    expenses:diferencia-arqueo             150
     assets:caja                           -150
 
 2022/01/24 ingresos
@@ -9414,7 +9414,7 @@ D $1000.00
     assets:caja                           -8000
 
 2022/01/26 farmacia
-    expenses:gastos medicos:farmacia             500
+    expenses:gastos-medicos:farmacia             500
     assets:caja                                 -500
 
 2022/01/26 copia de llave
@@ -9458,7 +9458,7 @@ D $1000.00
     assets:caja               -1150
 
 2022/01/27 dif
-    expenses:diferencia arqueo            1390
+    expenses:diferencia-arqueo            1390
     assets:caja                          -1390
 
 2022/01/28 pila reloj
@@ -9606,7 +9606,7 @@ D $1000.00
     assets:reserva          -10000
 
 2022/02/01 farmacia
-    expenses:gastos medicos:farmacia            5500
+    expenses:gastos-medicos:farmacia            5500
     assets:caja                                -5500
 
 2022/02/02 arreglo bora - aceite
@@ -9658,7 +9658,7 @@ D $1000.00
     assets:caja                        -36800
 
 2022/02/04 tarjeta naranja a desglosar
-    expenses:ih           22697
+    expenses:isabel           22697
     assets:caja          -22697
 
 2022/02/04 ecogas 2021/06
@@ -9908,7 +9908,7 @@ D $1000.00
     assets:caja                                    -390
 
 2022/02/14 psiquiatra
-    expenses:gastos medicos:psiquiatria             380
+    expenses:gastos-medicos:psiquiatria             380
     assets:caja                                    -380
 
 2022/02/14 comida
@@ -9956,7 +9956,7 @@ D $1000.00
     assets:caja                                   $-240
 
 2022/02/16 farmacia
-    expenses:gastos medicos:farmacia            1800
+    expenses:gastos-medicos:farmacia            1800
     assets:caja                                -1800
 
 2022/02/17 estacionamiento
@@ -9972,7 +9972,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2022/02/17 farmacia hospital italiano
-    expenses:gastos medicos:farmacia           $9900
+    expenses:gastos-medicos:farmacia           $9900
     assets:caja                               $-9900
 
 2022/02/17 lomito
@@ -10012,7 +10012,7 @@ D $1000.00
     assets:caja                   -11000
 
 2022/02/19 farmacia hi
-    expenses:gastos medicos:farmacia            1270
+    expenses:gastos-medicos:farmacia            1270
     assets:caja                                -1270
 
 2022/02/20 facturas
@@ -10156,7 +10156,7 @@ D $1000.00
     assets:caja              $-2300
 
 2022/02/26 dif
-    expenses:diferencia arqueo             800
+    expenses:diferencia-arqueo             800
     assets:caja                           -800
 
 2022/02/27 comida
@@ -10247,8 +10247,8 @@ D $1000.00
     expenses:comida            $730
     assets:caja               $-730
 
-2022/03/03 peluqueria
-    expenses:peluqueria            1000
+2022/03/03 personal:peluquero
+    expenses:personal:peluquero            1000
     assets:caja                   -1000
 
 2022/03/03 materiales
@@ -10292,7 +10292,7 @@ D $1000.00
     assets:caja                         -1070
 
 2022/03/04 farmacia
-    expenses:gastos medicos:farmacia            1500
+    expenses:gastos-medicos:farmacia            1500
     assets:caja                                -1500
 
 2022/03/04 materiales
@@ -10300,12 +10300,12 @@ D $1000.00
     assets:caja                          -300
 
 2022/03/04 farmacia
-    expenses:gastos medicos:farmacia             100
+    expenses:gastos-medicos:farmacia             100
     assets:caja                                 -100
 
 2022/03/04 consumo isa con tn
     assets:caja            1800
-    expenses:ih           -1800
+    expenses:isabel           -1800
 
 2022/03/04 mesada ih
     expenses:isabel           $2300
@@ -10317,7 +10317,7 @@ D $1000.00
 
 
 2022/03/06 dif
-    expenses:diferencia arqueo            5300
+    expenses:diferencia-arqueo            5300
     assets:caja                          -5300
 
 2022/03/06 ingresos
@@ -10384,7 +10384,7 @@ D $1000.00
     assets:reserva           -5345
 
 2022/03/09 dif
-    expenses:diferencia arqueo             185
+    expenses:diferencia-arqueo             185
     assets:caja                           -185
 
 2022/03/09 materiales
@@ -10424,7 +10424,7 @@ D $1000.00
     assets:caja                         -1100
 
 2022/03/11 farmacia
-    expenses:gastos medicos:farmacia            6040
+    expenses:gastos-medicos:farmacia            6040
     assets:caja                                -6040
 
 2022/03/11 comida
@@ -10460,7 +10460,7 @@ D $1000.00
     assets:reserva          -32333
 
 2022/03/12 dif
-    expenses:diferencia arqueo         -236.42
+    expenses:diferencia-arqueo         -236.42
     assets:caja                         236.42
 
 2022/03/13 pollo
@@ -10476,7 +10476,7 @@ D $1000.00
     assets:caja                   $-7000
 
 2022/03/14 psiquiatra
-    expenses:gastos medicos:psiquiatria            $380
+    expenses:gastos-medicos:psiquiatria            $380
     assets:caja                                   $-380
 
 2022/03/14 materiales
@@ -10532,7 +10532,7 @@ D $1000.00
     assets:caja                         -1320
 
 2022/03/16 carne conductor
-    expenses:transporte            2570
+    expenses:transporte:carne            2570
     assets:caja                   -2570
 
 2022/03/16 comida
@@ -10540,11 +10540,11 @@ D $1000.00
     assets:caja                -300
 
 2022/03/16 diff
-    expenses:diferencia arqueo             140
+    expenses:diferencia-arqueo             140
     assets:caja                           -140
 
 2022/03/17 farmacia
-    expenses:gastos medicos:farmacia            2470
+    expenses:gastos-medicos:farmacia            2470
     assets:caja                                -2470
 
 2022/03/17 mano de obra
@@ -10640,7 +10640,7 @@ D $1000.00
     assets:caja               $-750
 
 2022/03/20 farmacity
-    expenses:gastos medicos:farmacia            1220
+    expenses:gastos-medicos:farmacia            1220
     assets:caja                                -1220
 
 2022/03/20 saco reserva
@@ -10688,7 +10688,7 @@ D $1000.00
     assets:deudores              u$s -600
 
 2022/03/22 dif
-    expenses:diferencia arqueo            1000
+    expenses:diferencia-arqueo            1000
     assets:caja                          -1000
 
 2022/03/22 materiales
@@ -10839,7 +10839,7 @@ D $1000.00
     assets:caja                                   -1512
 
 2022/03/31 farmacia
-    expenses:gastos medicos:farmacia            5288
+    expenses:gastos-medicos:farmacia            5288
     assets:caja                                -5288
 
 2022/04/01 ingresos
@@ -10889,7 +10889,7 @@ D $1000.00
     assets:caja                -300
 
 2022/04/03 diff
-    expenses:diferencia arqueo             294
+    expenses:diferencia-arqueo             294
     assets:caja                           -294
 
 2022/04/04 mesada cami
@@ -10939,7 +10939,7 @@ D $1000.00
     assets:reserva          -70000
 
 2022/04/09 gastos ih
-    expenses:ih           62597
+    expenses:isabel           62597
     assets:caja          -62597
 
 2022/04/09 ecogas
@@ -10959,11 +10959,11 @@ D $1000.00
     assets:caja                -650
 
 2022/04/09 farmacia
-    expenses:gastos medicos:farmacia             810
+    expenses:gastos-medicos:farmacia             810
     assets:caja                                 -810
 
 2022/04/09 diff
-    expenses:diferencia arqueo            1237
+    expenses:diferencia-arqueo            1237
     assets:caja                          -1237
 
 2022/04/10 lavado auto
@@ -10995,7 +10995,7 @@ D $1000.00
     assets:caja               -2350
 
 2022/04/14 farmacia hospital italiano
-    expenses:gastos medicos:farmacia            3650
+    expenses:gastos-medicos:farmacia            3650
     assets:caja                                -3650
 
 2022/04/14 estacionamiento
@@ -11003,7 +11003,7 @@ D $1000.00
     assets:caja                                    -210
 
 2022/04/15 diff
-    expenses:diferencia arqueo             210
+    expenses:diferencia-arqueo             210
     assets:caja                           -210
 
 2022/04/15 comida
@@ -11078,8 +11078,8 @@ D $1000.00
     expenses:transporte:estacionamiento             200
     assets:caja                                    -200
 
-2022/04/23 peluqueria
-    expenses:peluqueria           $1000
+2022/04/23 personal:peluquero
+    expenses:personal:peluquero           $1000
     assets:caja                  $-1000
 
 2022/04/23 ospe
@@ -11211,7 +11211,7 @@ D $1000.00
     assets:caja                           -1460
 
 2022-05-07 diff
-    expenses:diferencia arqueo             636
+    expenses:diferencia-arqueo             636
     assets:caja                           -636
 
 2022-05-07 saco reserva
@@ -11247,7 +11247,7 @@ D $1000.00
     assets:reserva          -10000
 
 2022-05-11 diff
-    expenses:diferencia arqueo            1000
+    expenses:diferencia-arqueo            1000
     assets:caja                          -1000
 
 2022-05-13 mesada
@@ -11283,7 +11283,7 @@ D $1000.00
     assets:caja                -860
 
 2022-05-17 farmacia hp
-    expenses:gastos medicos:farmacia            8150
+    expenses:gastos-medicos:farmacia            8150
     assets:caja                                -8150
 
 2022-05-17 comida
@@ -11343,7 +11343,7 @@ D $1000.00
     assets:caja                   $-2000
 
 2022-05-17 diff
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2022-05-17 saco reserva
@@ -11379,7 +11379,7 @@ D $1000.00
     assets:caja                -150
 
 2022-05-20 diff
-    expenses:diferencia arqueo            1598
+    expenses:diferencia-arqueo            1598
     assets:caja                          -1598
 
 2022-05-21 comida
@@ -11403,7 +11403,7 @@ D $1000.00
     assets:caja                   $-7000
 
 2022-05-23 remedios ih
-    expenses:gastos medicos:farmacia            9000
+    expenses:gastos-medicos:farmacia            9000
     assets:caja                                -9000
 
 2022-05-26 comida
@@ -11447,7 +11447,7 @@ D $1000.00
     assets:caja               $-900
 
 2022-05-29 diff
-    expenses:diferencia arqueo            -600
+    expenses:diferencia-arqueo            -600
     assets:caja                            600
 
 2022-05-30 ih
@@ -11475,7 +11475,7 @@ D $1000.00
     assets:reserva          -60000
 
 2022-06-02 diff
-    expenses:diferencia arqueo             100
+    expenses:diferencia-arqueo             100
     assets:caja                           -100
 
 2022-06-03 mano de obra
@@ -11495,7 +11495,7 @@ D $1000.00
     assets:caja                   $-7000
 
 2022-06-04 farmacia
-    expenses:gastos medicos:farmacia            1420
+    expenses:gastos-medicos:farmacia            1420
     assets:caja                                -1420
 
 2022-06-04 dgr casa
@@ -11595,7 +11595,7 @@ D $1000.00
     assets:caja                -100
 
 2022-06-17 farmacia
-    expenses:gastos medicos:farmacia            1570
+    expenses:gastos-medicos:farmacia            1570
     assets:caja                                -1570
 
 2022-06-17 comida
@@ -11603,7 +11603,7 @@ D $1000.00
     assets:caja                -330
 
 2022-06-17 dif
-    expenses:diferencia arqueo             616
+    expenses:diferencia-arqueo             616
     assets:caja                           -616
 
 2022-06-18 materiales
@@ -11611,7 +11611,7 @@ D $1000.00
     assets:caja                          -800
 
 2022-06-18 farmacia
-    expenses:gastos medicos:farmacia             970
+    expenses:gastos-medicos:farmacia             970
     assets:caja                                 -970
 
 2022-06-18 comida
@@ -11631,7 +11631,7 @@ D $1000.00
     income:retiro-sociedad          -60000
 
 2022-06-20 odontologo
-    expenses:gastos medicos:odontologia            3000
+    expenses:gastos-medicos:odontologia            3000
     assets:caja                                   -3000
 
 2022-06-21 comida
@@ -11639,7 +11639,7 @@ D $1000.00
     assets:caja                -610
 
 2022-06-21 farmacia hospital italiano
-    expenses:gastos medicos:farmacia           10620
+    expenses:gastos-medicos:farmacia           10620
     assets:caja                               -10620
 
 2022-06-23 comida
@@ -11707,7 +11707,7 @@ D $1000.00
     assets:reserva          -20000
 
 2022-06-27 dif
-    expenses:diferencia arqueo             270
+    expenses:diferencia-arqueo             270
     assets:caja                           -270
 
 2022-06-28 saco reserva
@@ -11731,7 +11731,7 @@ D $1000.00
     assets:caja                   $-7000
 
 2022-06-29 peluquero
-    expenses:peluqueria            1300
+    expenses:personal:peluquero            1300
     assets:caja                   -1300
 
 2022-07-01 ingresos
@@ -11776,7 +11776,7 @@ D $1000.00
     assets:caja               -3200
 
 2022-07-04 farmacia
-    expenses:gastos medicos:farmacia            6430
+    expenses:gastos-medicos:farmacia            6430
     assets:caja                                -6430
 
 2022-07-05 comida
@@ -11796,7 +11796,7 @@ D $1000.00
     assets:caja                -200
 
 2022-07-07 farmacia
-    expenses:gastos medicos:farmacia             990
+    expenses:gastos-medicos:farmacia             990
     assets:caja                                 -990
 
 2022-07-07 ecogas
@@ -11829,7 +11829,7 @@ D $1000.00
     assets:caja                     -250000
 
 2022-07-08 dif
-    expenses:diferencia arqueo            -459
+    expenses:diferencia-arqueo            -459
     assets:caja                            459
 
 2022-07-08 saco reserva
@@ -11873,7 +11873,7 @@ D $1000.00
     assets:caja                    -9000
 
 2022-07-12 farmacia
-    expenses:gastos medicos:farmacia            1100
+    expenses:gastos-medicos:farmacia            1100
     assets:caja                                -1100
 
 2022-07-17 comida
@@ -11913,7 +11913,7 @@ D $1000.00
     assets:caja                                    -100
 
 2022-07-19 farmacia hospital italiano
-    expenses:gastos medicos:farmacia           11520
+    expenses:gastos-medicos:farmacia           11520
     assets:caja                               -11520
 
 2022-07-18 mesada cami
@@ -12005,7 +12005,7 @@ D $1000.00
     assets:reserva         -140000
 
 2022-07-24 dif
-    expenses:diferencia arqueo             -41
+    expenses:diferencia-arqueo             -41
     assets:caja                             41
 
 2022-07-25 comida
@@ -12041,7 +12041,7 @@ D $1000.00
     assets:caja                -970
 
 2022-07-29 diff
-    expenses:diferencia arqueo             210
+    expenses:diferencia-arqueo             210
     assets:caja                           -210
 
 2022-07-30 mesada ih
@@ -12124,8 +12124,8 @@ D $1000.00
     expenses:comida            1000
     assets:caja               -1000
 
-2022-08-06 peluqueria
-    expenses:peluqueria            1200
+2022-08-06 personal:peluquero
+    expenses:personal:peluquero            1200
     assets:caja                   -1200
 
 2022-08-08 mesada cami
@@ -12145,7 +12145,7 @@ D $1000.00
     assets:caja             $-10000
 
 2022-08-09 farmacia
-    expenses:gastos medicos:farmacia            4000
+    expenses:gastos-medicos:farmacia            4000
     assets:caja                                -4000
 
 2022-08-09 saco reserva
@@ -12177,7 +12177,7 @@ D $1000.00
     income:retiro-sociedad         -350000
 
 2022-08-13 diff
-    expenses:diferencia arqueo              73
+    expenses:diferencia-arqueo              73
     assets:caja                            -73
 
 
@@ -12206,11 +12206,11 @@ D $1000.00
     assets:caja                -170
 
 2022-08-17 consulta medico
-    expenses:gastos medicos:psiquiatria            3000
+    expenses:gastos-medicos:psiquiatria            3000
     assets:caja                                   -3000
 
 2022-08-17 farmacia
-    expenses:gastos medicos:farmacia            3000
+    expenses:gastos-medicos:farmacia            3000
     assets:caja                                -3000
 
 2022-08-18 lomito
@@ -12222,7 +12222,7 @@ D $1000.00
     assets:caja                -900
 
 2022-08-19 farmacia hosp italiano
-    expenses:gastos medicos:farmacia           10200
+    expenses:gastos-medicos:farmacia           10200
     assets:caja                               -10200
 
 2022-08-20 cami extra
@@ -12254,7 +12254,7 @@ D $1000.00
     assets:reserva          -80000
 
 2022-08-22 farmacity
-    expenses:gastos medicos:farmacia            1500
+    expenses:gastos-medicos:farmacia            1500
     assets:caja                                -1500
 
 2022-08-22 epec
@@ -12370,7 +12370,7 @@ D $1000.00
     assets:reserva         -500000
 
 2022-09-06 diff
-    expenses:diferencia arqueo            1681
+    expenses:diferencia-arqueo            1681
     assets:caja                          -1681
 
 2022-09-07 mesada cami
@@ -12386,7 +12386,7 @@ D $1000.00
     assets:caja              $-1000
 
 2022-09-07 dentista
-    expenses:gastos medicos:odontologia            7000
+    expenses:gastos-medicos:odontologia            7000
     assets:caja                                   -7000
 
 2022-09-08 comida gatos
@@ -12447,7 +12447,7 @@ D $1000.00
     assets:reserva         -100000
 
 2022-09-13 farmacia
-    expenses:gastos medicos:farmacia            5070
+    expenses:gastos-medicos:farmacia            5070
     assets:caja                                -5070
 
 2022-09-13 ecogas
@@ -12476,7 +12476,7 @@ D $1000.00
 
 
 2022-09-14 dentista
-    expenses:gastos medicos:odontologia            3500
+    expenses:gastos-medicos:odontologia            3500
     assets:caja                                   -3500
 
 2022-09-15 facturas
@@ -12540,7 +12540,7 @@ D $1000.00
     assets:reserva         $-10000
 
 2022-09-17 diff
-    expenses:diferencia arqueo             199
+    expenses:diferencia-arqueo             199
     assets:caja                           -199
 
 2022-09-18 lomito
@@ -12548,7 +12548,7 @@ D $1000.00
     assets:caja              $-1000
 
 2022-09-20 farmacia
-    expenses:gastos medicos:farmacia           14500
+    expenses:gastos-medicos:farmacia           14500
     assets:caja                               -14500
 
 2022-09-20 saco reserva
@@ -12588,7 +12588,7 @@ D $1000.00
     assets:caja               $-700
 
 2022-09-23 carla
-    expenses:limpieza            3000
+    expenses:casa:limpieza            3000
     assets:caja                 -3000
 
 2022-09-23 mesada ih
@@ -12664,7 +12664,7 @@ D $1000.00
     assets:caja               $-700
 
 2022-09-30 carla
-    expenses:limpieza            3500
+    expenses:casa:limpieza            3500
     assets:caja                 -3500
 
 2022-10-02 ih
@@ -12684,7 +12684,7 @@ D $1000.00
     assets:caja               $-700
 
 2022-10-03 farmacia hp
-    expenses:gastos medicos:farmacia            1660
+    expenses:gastos-medicos:farmacia            1660
     assets:caja                                -1660
 
 2022-10-03 tarjeta naranja
@@ -12696,8 +12696,8 @@ D $1000.00
     expenses:servicios:netflix   $ 2086
     expenses:servicios:varios   $ 564
     expenses:casa:mantenimiento   $ 539
-    expenses:regalos   $ 2999
-    expenses:ih   $ 7585
+    expenses:personal:regalos   $ 2999
+    expenses:isabel   $ 7585
     expenses:comida   $ 3008
     expenses:servicios:carusso   $ 3616
     expenses:servicios:tarjeta-naranja-gastos-fijos   $ 3426
@@ -12772,7 +12772,7 @@ D $1000.00
     assets:caja               -1050
 
 2022-10-05 diff
-    expenses:diferencia arqueo             351
+    expenses:diferencia-arqueo             351
     assets:caja                           -351
 
 2022-10-07 ingresos
@@ -12788,7 +12788,7 @@ D $1000.00
     assets:caja                    -5000
 
 2022-10-08 mesada ih
-    expenses:ih     12000
+    expenses:isabel     12000
     assets:caja     -12000
 
 2022-10-08 devolucion para cerrar cuenta
@@ -12805,7 +12805,7 @@ D $1000.00
 
 2022-10-10 diff sobrante
     assets:caja   $ 667
-    expenses:diferencia   $ -667
+    expenses:diferencia-arqueo   $ -667
 
 2022-10-10 ingresos
     assets:reserva   $ 60000
@@ -12826,6 +12826,11 @@ D $1000.00
     income:venta-dolares  u$s 200
     assets:reserva-dol   u$s -200
 
+2022-10-10 mesada cami
+    expenses:cami:mesada   $ 3000
+    expenses:cami:comida   $ 10500
+    assets:caja   $ -13500
+
 2022-10-12 jardinero
     expenses:casa:mantenimiento:jardineria   $ 2000
     assets:caja   $ -2000
@@ -12841,3 +12846,17 @@ D $1000.00
 2022-10-14 menu
     expenses:comida:menu   $ 700
     assets:caja   $ -700
+
+2022-10-15 arreglo goma kangoo
+    expenses:transporte:gomeria   $ 1000
+    expenses:gastos-medicos:farmacia   $ 3640
+    expenses:comida:naturales   $ 1720
+    assets:caja   $ -6360
+
+2022-10-15 saco reserva
+    assets:caja   $ 10000
+    assets:reserva   $ -10000
+
+2022-10-15 diff
+    expenses:diferencia-arqueo   $ 1400
+    assets:caja   $ -1400
