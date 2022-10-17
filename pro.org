@@ -5798,6 +5798,11 @@ archivo se puede manipular mejor con web-mode de emacs y eso no lo
 tiene vim ni siquiera vscode. Por mas que se vea fresco y lindo a la
 vista vim no tiene eso que se le parezca a un web-mode.
 Y en general no hay ninguna razon para usar vim por sobre emacs.
+*** [2022-10-17 Mon]
+yo creo que estoy bien establecido en emacs no creo que cambie a esta
+altura, pero los hells siempre aparecen asi que no me fio de
+nada. Pero el yacimiento de escritos org es tan grande que no vale la
+pena desecharlos.
 
 * Anotaciones
 ** Objetivos
