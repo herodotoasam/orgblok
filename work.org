@@ -95,10 +95,18 @@ menos opcione, creo que hay que enriquecer un poco el tema fonts
 ** TODO problemas con undo
 anda para dos o tres cambios y luego lastimosamente no anda mas.
 instale vundo - space-v
-** TODO problema de velocidad de carga
+** DONE problema de velocidad de carga
+CLOSED: [2022-10-15 Sat 22:12]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-15 Sat 22:12]
+:END:
 estoy en los 7/8 segundos y antes estaba en los 5/6
 [2022-10-14 Fri] me pongo en esto: voy a ver si puedo bajarlo pq ahora
 estoy en 9 y pico.
+En realidad la velocidad de carga no me importa pq en mi flujo de
+trabajo el sistema se prende una vez por dia, y siete/ocho segundos no
+es nada. No tiene porque ser un vim de dos segundos o uno. Mas bien
+uno aprecia otras cualidades del sistema.
 ** DONE la opcion de un sistema 'adquirido'
 CLOSED: [2022-10-10 Mon 15:40]
 :LOGBOOK:
@@ -118,7 +126,11 @@ p.e. el tema de la enie
 pruebo con gnome xorg que parece ser lo mismo y tengo el xmodmap por
 ahora a mano y luego veo de desactivar el input-remaper y automatizar
 el xmodmap
-** TODO arreglar hledger
+** DONE arreglar hledger
+closed: [2022-10-15 Sat 22:15]
+:LOGBOOK:
+- State "DONE"       from              [2022-10-15 Sat 22:15]
+:END:
 corregir el nombre de las cuentas
 corregir las duplicaciones y los malos encuadramientos
 el problema de la completion que es tedioso se resuelve con sacar el
@@ -127,6 +139,7 @@ de emacs el cual para este programa es muy efectivo pq te va mostrando
 todas las cuentas ordenadamente a medida que vas precisando la cuenta
 cosa tambien de decidir en donde encuadrar el asiento y si es
 necesario crear una nueva cuenta o cambiar las existentes.
+terminado el proceso de arreglo de hledger
 ** TODO pasar password firefox a pass
 pasar y/o revisar duplicaciones
 idem con los de chrome
@@ -482,6 +495,14 @@ de zona como impresion de fichas repetian codigo, en vez de usar la
 funcion seleccionarRow y en el caso de cambio de zonas no habia
 actualizado la col del dni. Ahora me quedan dos columnas a actualizar
 la del dni y la de pmovto
+*** DONE cuadro de resultado mensual
+CLOSED: [2022-10-16 Sun 21:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-16 Sun 21:51]
+:END:
+con vista ordenada de ingresos y egresos
+faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/no-usado
+
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -553,27 +574,47 @@ para que la comparacion intra-year sea mas correcta.
 Algun tipo de registro paralelo mediante triggers que permita ir
 sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 
-** TODO cuadro de resultado mensual
-con vista ordenada de ingresos y egresos
-faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/no-usado
-
 ** TODO transformar Vue en alpinejs
 *** TODO asuntos.html
 *** TODO mudados.html
-*** TODO cobr.html
-*** TODO fichaje.html
 *** TODO estimados.html
 *** TODO editarrbo.html
+*** TODO cobr.html
+*** TODO fichaje.html
 *** TODO totales.html
 *** TODO planillas.html
 *** TODO verzona.html
-*** compras.html
-*** mayor.html
+*** DONE compras.html
+CLOSED: [2022-10-17 Mon 12:01]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 12:01]
+:END:
+*** DONE mayor.html
+closed: [2022-10-17 Mon 12:41]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 12:41]
+:END:
 *** verstock.html
-*** salidas.html
-*** impresos.html
-*** pdfsistema.html
-*** planos.html
+*** DONE salidas.html
+CLOSED: [2022-10-17 Mon 15:23]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 15:23]
+:END:
+*** DONE impresos.html
+CLOSED: [2022-10-17 Mon 10:16]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:16]
+:END:
+*** DONE pdfsistema.html
+CLOSED: [2022-10-17 Mon 10:13]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:13]
+:END:
+*** DONE planos.html
+CLOSED: [2022-10-17 Mon 10:07]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-10-17 Mon 10:07]
+:END:
 *** clientes.html
 *** barrios.html
 *** zonas.html
@@ -582,8 +623,33 @@ faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/n
 *** ventas.html
 *** signup.html
 
+** TODO chequear formularios.py
+adecuarlo a flycheck y agregarle actualizacion en cuotas a pagar.
+se saca prioridad #A.
+Lo de las actualizaciones es un tema para chequear y debatir, no es
+tan asi como ponerlo sin hablarlo primero con el Fede.
+
+** TODO solucionar el tema de favicon
+
 * agenda de actividad
-** semana [2022-10-09 Sun] ver agenda
+** semana [2022-10-16 Sun] ver agenda
+*** [2022-10-16 Sun]
+:LOGBOOK:
+CLOCK: [2022-10-16 Sun 21:22]--[2022-10-16 Sun 22:25] =>  1:03
+instalo w3m-emacs y recorro un poco emacs
+:END:
+*** [2022-10-17 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-17 Mon 13:55]--[2022-10-17 Mon 15:26] =>  1:31
+bindeando hippie-expand a C-j. alpinejs: salidas
+CLOCK: [2022-10-17 Mon 09:56]--[2022-10-17 Mon 12:40] =>  2:44
+alpinejs: planos/pdfsistema/impresos/compras/mayor
+CLOCK: [2022-10-17 Mon 09:13]--[2022-10-17 Mon 09:41] =>  0:28
+probando hippie-expand pero no es muy diferente a dabbrev
+refactorizo def cuotaje de formularios.py
+
+:END:
+** semana [2022-10-09 Sun]
 *** [2022-10-15 Sat]
 :LOGBOOK:
 CLOCK: [2022-10-15 Sat 14:59]--[2022-10-15 Sat 16:30] =>  1:31

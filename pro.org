@@ -5790,6 +5790,14 @@ de toda otra cosa.
 *** [2022-10-11 Tue]
 pensar un flujo de trabajo para el futuro en el cual se aprovechen
 mejor las herramientas.
+*** [2022-10-15 Sat] amague vim-hell
+yo creo que estoy bien establecido en emacs y en particular como vengo
+diciendo el flujo clave de programacion pasa por los archivos html-js
+o sea los templates/ que son el 90% del proyecto. Y ese tipo de
+archivo se puede manipular mejor con web-mode de emacs y eso no lo
+tiene vim ni siquiera vscode. Por mas que se vea fresco y lindo a la
+vista vim no tiene eso que se le parezca a un web-mode.
+Y en general no hay ninguna razon para usar vim por sobre emacs.
 
 * Anotaciones
 ** Objetivos
@@ -5971,7 +5979,7 @@ practica para pasar a otro nivel en la programacion de tcl y no
 quedarse en lo ya sabido. Creo que di en la tecla donde hay una franja
 de tcl para explorar y capacitar.
 ** El freakismo tcl
-   :TCL:
+:TCL:
   cada vez que mas me meto en el mundo tcl veo que es facil convertirse
 en freaky. Creo que tengo que tener a mano el paper de activetcl que
 habla de pq hoy 2020 es una opcion valida trabajar con tcl. Es un
@@ -5981,7 +5989,6 @@ de cabeza dentro de eso es facinante y te lleva por caminos nunca
 vistos. Y como eso hay un millon de caminos. Es increible que con tcl
 se hagan cosas como tablelist sin objetos. Tambien esta todo el tema
 de la web a nivel teorico pero por ahora no lo toco pq no es tiempo aun.
-
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
@@ -6899,7 +6906,8 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-09-18 Sun] :flask:javascript:alpinejs:emacs:
 ** semana [2022-09-25 Sun] :flask:javascript:alpinejs:emacs:vim:kitty:
 ** semana [2022-10-02 Sun] :emacs:flask:javascript:alpinejs:
-
+** semana [2022-10-09 Sun] :emacs:flask:javascript:alpinejs:
+** semana [2022-10-16 Sun] :emacs:flask:javascript:alpinejs:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
@@ -7843,7 +7851,7 @@ tbl = df.to_numpy().tolist()
 y luego en js...
 var DataSet = {{tbl | tojson}}
 el unico problema es que no me funciona el theme oscuro.
-** tabulator
+** tabulator
 por medio de una funcion en js escrita por mi, logre pasar los arrays
 que lee datatables al formato array de objetos json que lee
 tabulator. Y funciona.

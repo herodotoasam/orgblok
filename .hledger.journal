@@ -12860,3 +12860,15 @@ D $1000.00
 2022-10-15 diff
     expenses:diferencia-arqueo   $ 1400
     assets:caja   $ -1400
+
+2022-10-15 lomito
+    expenses:comida   $ 1250
+    assets:caja   $ -1250
+
+2022-10-17 farmacia hospital italiano
+    expenses:gastos-medicos:farmacia   $ 16000
+    assets:caja   $ -16000
+
+2022-10-17 cami apuntes
+    expenses:cami:extras   $ 2000
+    assets:caja   $ -2000

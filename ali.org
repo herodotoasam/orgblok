@@ -8922,3 +8922,11 @@ mucho, ya no creo que haya muy mucho por innovar al respecto.
 la mayoria de la programacion la hago en un archivo html-js y en emacs
 es en donde encuentro la facilidad de hacerlo con el web-mode. y el parent-mode.
 el resto es chachara.
+** [2022-10-16 Sun]
+hoy un hermoso dia en familia, me tome una siesta al medio de cuarenta
+minutos y pude seguir lo mas bien, pq de otro modo me sentia muy cansado.
+** [2022-10-17 Mon]
+me levante a las 8.30 bien, la lleve a la Cami y luego comenzando a
+trabajar me agarro una gran sonolencia.
+Me tome un cafe y pude trabajar normal, pero tuve dolor de panza toda
+la manana. Luego a la una me volvio la sonolencia.
