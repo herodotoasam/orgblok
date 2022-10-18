@@ -575,6 +575,9 @@ Algun tipo de registro paralelo mediante triggers que permita ir
 sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 
 ** TODO transformar Vue en alpinejs
+Hoy comence a refactorizar integralmente muchas paginas, no solo
+pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
+manejo de variables y modal.
 *** TODO asuntos.html
 *** TODO mudados.html
 *** TODO estimados.html
@@ -594,7 +597,11 @@ closed: [2022-10-17 Mon 12:41]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-17 Mon 12:41]
 :END:
-*** verstock.html
+*** DONE verstock.html
+CLOSED: [2022-10-17 Mon 18:41]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 18:41]
+:END:
 *** DONE salidas.html
 CLOSED: [2022-10-17 Mon 15:23]
 :LOGBOOK:
@@ -615,11 +622,36 @@ CLOSED: [2022-10-17 Mon 10:07]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2022-10-17 Mon 10:07]
 :END:
-*** clientes.html
-*** barrios.html
-*** zonas.html
-*** cancelados.html
-*** listado.html
+*** DONE clientes.html
+CLOSED: [2022-10-18 Tue 13:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 13:52]
+:END:
+*** DONE barrios.html
+CLOSED: [2022-10-17 Mon 20:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 20:16]
+:END:
+*** DONE zonas.html
+CLOSED: [2022-10-18 Tue 10:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 10:51]
+:END:
+*** DONE calles.html
+CLOSED: [2022-10-18 Tue 11:13]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 11:13]
+:END:
+*** DONE cancelados.html
+CLOSED: [2022-10-18 Tue 13:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 13:25]
+:END:
+*** DONE listado.html
+CLOSED: [2022-10-18 Tue 14:37]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 14:37]
+:END:
 *** ventas.html
 *** signup.html
 
@@ -630,16 +662,59 @@ Lo de las actualizaciones es un tema para chequear y debatir, no es
 tan asi como ponerlo sin hablarlo primero con el Fede.
 
 ** TODO solucionar el tema de favicon
+** TODO eliminar las zonas obsoletas y rezonificar
+p.e. -abogado -doc a reventar -etc y buscar otra forma para manejar
+los fallecidos.
+** TODO hacer del autocompletado alpine una funcion general
+todo anda bien pero me trabo en que no es reactivo cuando le asigna el
+valor por el evento.  por fin tuve exito en encontrar el problema.
+
+Assigning the value in JavaScript updates the selection, but it
+doesn't notify the code running on that page of the change.
+
+To make the page react to the change you also need to trigger a change
+event on the dropdown:
+#+begin_src js
+var el = document.getElementsByName("mvprodvaronetimeorder")[0];
+el.value = "Ipg-Q-Q"
+el.dispatchEvent(new Event("change"))
+#+end_src
+luego vi que no funcionaba ese Event pero la idea era buena y probe
+con el evento InputEvent('input') y lo consegui.
+Esto no solo permite eliminar codigo repetido sino que puede permitir
+seguir desarrollando el autocomplete en un solo lado.
+
+Queda seguir probando si anda todo bien para borrar el codigo
+desactivado.
+Ver de programar una interfase de busqueda por flechas.
 
 * agenda de actividad
 ** semana [2022-10-16 Sun] ver agenda
-*** [2022-10-16 Sun]
+*** [2022-10-18 Tue]
 :LOGBOOK:
-CLOCK: [2022-10-16 Sun 21:22]--[2022-10-16 Sun 22:25] =>  1:03
-instalo w3m-emacs y recorro un poco emacs
+CLOCK: [2022-10-18 Tue 18:35]--[2022-10-18 Tue 19:53] =>  1:18
+encuentro la solucion al autoComplete
+CLOCK: [2022-10-18 Tue 17:43]--[2022-10-18 Tue 18:35] =>  0:52
+tuneando emacs bastante positivo
+CLOCK: [2022-10-18 Tue 14:40]--[2022-10-18 Tue 16:19] =>  1:39
+renegando con autocompletado:fracaso
+CLOCK: [2022-10-18 Tue 13:40]--[2022-10-18 Tue 14:38] =>  0:58
+alpinejs:clientes/listado
+CLOCK: [2022-10-18 Tue 13:06]--[2022-10-18 Tue 13:25] =>  0:19
+alpinejs: termino cancelados
+CLOCK: [2022-10-18 Tue 11:36]--[2022-10-18 Tue 12:23] =>  0:47
+alpinejs:cancelados
+CLOCK: [2022-10-18 Tue 10:29]--[2022-10-18 Tue 11:15] =>  0:46
+alpinejs: zonas y calles
+CLOCK: [2022-10-18 Tue 09:39]--[2022-10-18 Tue 10:15] =>  0:36
+tuneando emacs prueba de straight positivo.
 :END:
 *** [2022-10-17 Mon]
 :LOGBOOK:
+CLOCK: [2022-10-17 Mon 18:59]--[2022-10-17 Mon 20:17] =>  1:18
+alpinejs:barrios
+CLOCK: [2022-10-17 Mon 17:43]--[2022-10-17 Mon 18:42] =>  0:59
+alpinejs:verstock
 CLOCK: [2022-10-17 Mon 13:55]--[2022-10-17 Mon 15:26] =>  1:31
 bindeando hippie-expand a C-j. alpinejs: salidas
 CLOCK: [2022-10-17 Mon 09:56]--[2022-10-17 Mon 12:40] =>  2:44
@@ -647,7 +722,11 @@ alpinejs: planos/pdfsistema/impresos/compras/mayor
 CLOCK: [2022-10-17 Mon 09:13]--[2022-10-17 Mon 09:41] =>  0:28
 probando hippie-expand pero no es muy diferente a dabbrev
 refactorizo def cuotaje de formularios.py
-
+:END:
+*** [2022-10-16 Sun]
+:LOGBOOK:
+CLOCK: [2022-10-16 Sun 21:22]--[2022-10-16 Sun 22:25] =>  1:03
+instalo w3m-emacs y recorro un poco emacs
 :END:
 ** semana [2022-10-09 Sun]
 *** [2022-10-15 Sat]
@@ -1302,3 +1381,4 @@ posibilidad de encryptar archivos o partes directamente en emacs
 ** treemacs
 ** vertico-ordeless-corfu-cape-embark etc.
 ** mirror git
+** hippie-expand

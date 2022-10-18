@@ -12865,10 +12865,24 @@ D $1000.00
     expenses:comida   $ 1250
     assets:caja   $ -1250
 
+2022-10-16 mesada ih
+    expenses:isabel   $13500
+    assets:caja       $-13500
+
 2022-10-17 farmacia hospital italiano
     expenses:gastos-medicos:farmacia   $ 16000
     assets:caja   $ -16000
 
-2022-10-17 cami apuntes
-    expenses:cami:extras   $ 2000
-    assets:caja   $ -2000
+2022-10-17 cami mesada
+    expenses:cami:mesada   $ 3000
+    expenses:cami:comida   $ 11000
+    expenses:cami:extras   $ 20000
+    assets:caja   $ -34000
+
+2022-10-17 saco reserva
+    assets:caja    $40000
+    assets:reserva    $-40000
+
+2022-10-17 diff
+    expenses:diferencia-arqueo   $310
+    assets:caja         $-310

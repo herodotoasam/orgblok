@@ -597,8 +597,11 @@ con Y aceptamos cambiar a todos juntos y finalmente
 C-s s guardamos todo usando la opcion ! (all).
 * consult M-s y alli veo las opciones
 en especial MsMi y varias para ver
-* embarck C-; y alli veo las opciones
+* embarck C-, y alli veo las opciones
 en especial ir hacia la definicion
 * lsp - space l  y de alli veo las opciones
 * Ctrl X- TAB indentacion
 * Ctrl X- v = diff del buffer actual
+* Ctrl j - hippie-expand
+una gran ayuda a la completion en la realidad y bindeado a un shortcut
+comodo, dejando el emmet a su natural Ctrl-Ret.

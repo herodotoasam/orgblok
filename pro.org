@@ -5803,6 +5803,11 @@ yo creo que estoy bien establecido en emacs no creo que cambie a esta
 altura, pero los hells siempre aparecen asi que no me fio de
 nada. Pero el yacimiento de escritos org es tan grande que no vale la
 pena desecharlos.
+Los themes en emacs son muy buenos y muy variados. Hoy tome el camino
+de probar uno diferente todo el dia solo por un dia y todo ok. Uno se
+va acostumbrando.
+Es tan grande el ecosistema de emacs que uno tiene que ir
+descubriendolo de a poco pq es abrumador.
 
 * Anotaciones
 ** Objetivos
