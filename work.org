@@ -503,6 +503,34 @@ CLOSED: [2022-10-16 Sun 21:51]
 con vista ordenada de ingresos y egresos
 faltaria un grafico de pie, uno solo con desagregacion, compras/retiros/gastos/no-usado
 
+** PENDING hacer del autocompletado alpine una funcion general
+autoComplete(url,input,suggestion)
+la url debe ser a un recurso que entregue un pglflat con nombre result
+
+
+todo anda bien pero me trabo en que no es reactivo cuando le asigna el
+valor por el evento.  por fin tuve exito en encontrar el problema.
+
+Assigning the value in JavaScript updates the selection, but it
+doesn't notify the code running on that page of the change.
+
+To make the page react to the change you also need to trigger a change
+event on the dropdown:
+#+begin_src js
+var el = document.getElementsByName("mvprodvaronetimeorder")[0];
+el.value = "Ipg-Q-Q"
+el.dispatchEvent(new Event("change"))
+#+end_src
+luego vi que no funcionaba ese Event pero la idea era buena y probe
+con el evento InputEvent('input') y lo consegui.
+Esto no solo permite eliminar codigo repetido sino que puede permitir
+seguir desarrollando el autocomplete en un solo lado.
+
+Queda seguir probando si anda todo bien para borrar el codigo
+desactivado.
+Ver de programar una interfase de busqueda por flechas.
+probado todo. En un par de dias borro el codigo desactivado
+
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -574,10 +602,26 @@ para que la comparacion intra-year sea mas correcta.
 Algun tipo de registro paralelo mediante triggers que permita ir
 sabiendo luego de cada pago, cuanto realmente se tendria que haber pagado.
 
+** TODO chequear formularios.py
+adecuarlo a flycheck y agregarle actualizacion en cuotas a pagar.
+se saca prioridad #A.
+Lo de las actualizaciones es un tema para chequear y debatir, no es
+tan asi como ponerlo sin hablarlo primero con el Fede.
+
+** TODO solucionar el tema de favicon
+** TODO eliminar las zonas obsoletas y rezonificar
+p.e. -abogado -doc a reventar -etc y buscar otra forma para manejar
+los fallecidos.
+Idem purgar las calles y los barrios.
+** TODO verificar bug probable con 'INVALIDO' en log1
+hay un par de errores pero desde que puse el warning del update no me
+dio mas el error.
 ** TODO transformar Vue en alpinejs
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
+El objetivo al final sera borrar dependencias a Vue/Buefy/BulmaToast y
+en general que tengan un diseno uniforme.
 *** TODO asuntos.html
 *** TODO mudados.html
 *** TODO estimados.html
@@ -585,8 +629,16 @@ manejo de variables y modal.
 *** TODO cobr.html
 *** TODO fichaje.html
 *** TODO totales.html
-*** TODO planillas.html
-*** TODO verzona.html
+*** DONE planillas.html
+CLOSED: [2022-10-19 Wed 14:32]
+:LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-19 Wed 14:32]
+:END:
+*** DONE verzona.html
+CLOSED: [2022-10-19 Wed 12:23]
+:LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-19 Wed 12:23]
+:END:
 *** DONE compras.html
 CLOSED: [2022-10-17 Mon 12:01]
 :LOGBOOK:
@@ -652,47 +704,62 @@ CLOSED: [2022-10-18 Tue 14:37]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 14:37]
 :END:
-*** ventas.html
+*** DONE ventas.html
+CLOSED: [2022-10-20 Thu 17:04]
+:LOGBOOK:
+- State "DONE"       from "PENDING"    [2022-10-20 Thu 17:04]
+- State "DONE"       from "TODO"    [2022-10-19 Wed 20:26]
+:END:
+queda pendiente el ver si podemos hacer algo con el event enter del
+autocomplete y el alpine-focus que chocan ahi.
+Y si hay una forma de marcar los campos requeridos que no se
+cumplieron.
+Lo logre con css pseudoclase :required y con html pattern
+Ahora vere de validar con la inclusion en el listado creo que es
+necesario por el tipo de autoComplete.
 *** signup.html
-
-** TODO chequear formularios.py
-adecuarlo a flycheck y agregarle actualizacion en cuotas a pagar.
-se saca prioridad #A.
-Lo de las actualizaciones es un tema para chequear y debatir, no es
-tan asi como ponerlo sin hablarlo primero con el Fede.
-
-** TODO solucionar el tema de favicon
-** TODO eliminar las zonas obsoletas y rezonificar
-p.e. -abogado -doc a reventar -etc y buscar otra forma para manejar
-los fallecidos.
-** TODO hacer del autocompletado alpine una funcion general
-todo anda bien pero me trabo en que no es reactivo cuando le asigna el
-valor por el evento.  por fin tuve exito en encontrar el problema.
-
-Assigning the value in JavaScript updates the selection, but it
-doesn't notify the code running on that page of the change.
-
-To make the page react to the change you also need to trigger a change
-event on the dropdown:
-#+begin_src js
-var el = document.getElementsByName("mvprodvaronetimeorder")[0];
-el.value = "Ipg-Q-Q"
-el.dispatchEvent(new Event("change"))
-#+end_src
-luego vi que no funcionaba ese Event pero la idea era buena y probe
-con el evento InputEvent('input') y lo consegui.
-Esto no solo permite eliminar codigo repetido sino que puede permitir
-seguir desarrollando el autocomplete en un solo lado.
-
-Queda seguir probando si anda todo bien para borrar el codigo
-desactivado.
-Ver de programar una interfase de busqueda por flechas.
-
 * agenda de actividad
 ** semana [2022-10-16 Sun] ver agenda
+*** [2022-10-20 Thu]
+:LOGBOOK:
+CLOCK: [2022-10-20 Thu 16:53]--[2022-10-20 Thu 17:40] =>  0:47
+tuneos varios emacs
+CLOCK: [2022-10-20 Thu 16:05]--[2022-10-20 Thu 16:52] =>  0:47
+validacion de campos incluidos en autoComplete
+CLOCK: [2022-10-20 Thu 14:57]--[2022-10-20 Thu 16:02] =>  1:05
+validacion por css :required y pattern
+CLOCK: [2022-10-20 Thu 14:00]--[2022-10-20 Thu 14:45] =>  0:45
+termino de tunear con meow
+CLOCK: [2022-10-20 Thu 09:42]--[2022-10-20 Thu 13:05] =>  3:23
+gran transformacion de emacs a meow y empece todo de nuevo
+:END:
+*** [2022-10-19 Wed]
+:LOGBOOK:
+CLOCK: [2022-10-19 Wed 21:40]--[2022-10-19 Wed 22:25] =>  0:45
+intento en autoComplete tema enter y tunning emacs
+CLOCK: [2022-10-19 Wed 17:33]--[2022-10-19 Wed 20:26] =>  2:53
+alpinejs ventas.html
+CLOCK: [2022-10-19 Wed 15:00]--[2022-10-19 Wed 15:35] =>  0:35
+tuneando emacs fonts cambio a iosevka comfy
+CLOCK: [2022-10-19 Wed 14:35]--[2022-10-19 Wed 14:59] =>  0:24
+tuneando emacs
+CLOCK: [2022-10-19 Wed 13:46]--[2022-10-19 Wed 14:32] =>  0:46
+alpinejs planillas con refactorizacion a tree
+CLOCK: [2022-10-19 Wed 12:25]--[2022-10-19 Wed 12:56] =>  0:31
+tuneando emacs ya estoy entre 3 y 4 segundos
+CLOCK: [2022-10-19 Wed 11:13]--[2022-10-19 Wed 12:23] =>  1:10
+refactorizacion de articulos y alpinejs verzonas
+CLOCK: [2022-10-19 Wed 10:45]--[2022-10-19 Wed 11:07] =>  0:22
+intento de modificar autoComplete
+CLOCK: [2022-10-19 Wed 09:40]--[2022-10-19 Wed 10:45] =>  1:05
+refactorizado de articulos al nuevo diseno. Prueba de autoComplete en
+los refactorizados ayer.
+:END:
 *** [2022-10-18 Tue]
 :LOGBOOK:
-CLOCK: [2022-10-18 Tue 18:35]--[2022-10-18 Tue 19:53] =>  1:18
+CLOCK: [2022-10-18 Tue 20:00]--[2022-10-18 Tue 21:07] =>  1:07
+tuneando emacs positivo
+CLOCK: [2022-10-18 Tue 18:35]--[2022-10-18 Tue 20:00] =>  1:25
 encuentro la solucion al autoComplete
 CLOCK: [2022-10-18 Tue 17:43]--[2022-10-18 Tue 18:35] =>  0:52
 tuneando emacs bastante positivo
@@ -1343,9 +1410,15 @@ agregar mas mensajes programables y poner un dropdown
    :END:
 * agenda pendientes
 **** llevar bici fede
-DEADLINE: <2022-10-16 Sun>
-**** llevar kangoo mecanico
-DEADLINE: <2022-10-20 Thu>
+DEADLINE: <2022-10-21 Fri>
+:LOGBOOK:
+- New deadline from "[2022-10-16 Sun]" on [2022-10-19 Wed 09:40]
+:END:
+**** DONE llevar kangoo mecanico
+CLOSED: [2022-10-20 Thu 17:40] DEADLINE: <2022-10-20 Thu>
+:LOGBOOK:
+- State "DONE"       from "PENDING"    [2022-10-20 Thu 17:40]
+:END:
 **** DONE inflar gomas kangoo
 CLOSED: [2022-10-15 Sat 11:05] DEADLINE: <2022-10-15 Sat>
 :LOGBOOK:
@@ -1357,14 +1430,20 @@ scheduled: <2022-10-19 Wed>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-DEADLINE: <2022-10-18 Tue>
+DEADLINE: <2022-10-25 Tue>
+:LOGBOOK:
+- New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
+:END:
 **** seven
 SCHEDULED: <2022-10-21 Fri .+1m>
 **** pagos facturas I
 SCHEDULED: <2022-11-02 Wed .+1m>
 gas luz fibertel dgr tarjeta
 **** pagos facturas II
-SCHEDULED: <2022-10-18 Tue .+1m>
+SCHEDULED: <2022-10-20 Thu .+1m>
+:LOGBOOK:
+- Rescheduled from "[2022-10-18 Tue .+1m]" on [2022-10-19 Wed 14:33]
+:END:
 ospe - claro - municipal
 
 
@@ -1382,3 +1461,12 @@ posibilidad de encryptar archivos o partes directamente en emacs
 ** vertico-ordeless-corfu-cape-embark etc.
 ** mirror git
 ** hippie-expand
+** straight
+** [2022-10-20 Thu]Cambio sistema: meow
+empece de cero con un .emacs.d nuevo, backupie el anterior y empece a
+hacer un init.el nuevo con straight y solo los packages que uso. Tiene
+una repuesta mas rapida y un inicio rapidisimo (1.31seg) y la
+funcionalidad practicamente es la misma. El undo p.e. anda bien y
+puedo usar el de emacs nativo. En realidad evil interfiere mucho con
+emacs.  Y meow en si es interesante hay que darle la chance de
+aprenderlo.

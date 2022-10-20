@@ -5808,6 +5808,13 @@ de probar uno diferente todo el dia solo por un dia y todo ok. Uno se
 va acostumbrando.
 Es tan grande el ecosistema de emacs que uno tiene que ir
 descubriendolo de a poco pq es abrumador.
+*** [2022-10-19 Wed]
+muchos cambios a emacs con straight y reduciendo un monton el tiempo
+de arranque.
+A emacs hay que irlo conociendo de a poco pq es enorme.
+*** [2022-10-20 Thu]meow-hell
+excelente la nueva distribucion de emacs que empiezo hoy, con el nuevo
+modal meow. Muy liviano e interesante.
 
 * Anotaciones
 ** Objetivos

@@ -107,7 +107,12 @@ toda hora pero mayormente despues de comer asi sea el licuado, con o
 sin ingesta de migral, p.e. hasta esta hora las 14hs todavia no he
 ingerido el migral y me ha dolido esta manana y despues de comer. Le
 sospecho al grastomax que llevo tomando una caja.
-
+[2022-10-19 Wed] hoy no tome gastromax y tome dos vasos de licuado de
+desayuno e instantaneamente me empezo el dolor. Ahora la sospecha es
+contra el licuado (o sea la avena cruda).
+[2022-10-20 Thu]hoy no tuve mayormente dolor como los dos dias
+anteriores sin licuado y sin gastromax, con cafe y con coca y con
+lomito anoche.
 ** Enfermedades
 *** resfrio fuerte [2022-10-05 Wed]
    me contagie de ih que cayo enferma de repente despues del fin de
@@ -463,12 +468,14 @@ vie .+1w>
 | [2017-10-18 mié] |   1 | mañana           |
 Desde el [2022-09-21 Wed] estoy tomando a diario gastromax y me siento
 muy bien respecto a la acidez, lo tomo a la manana al levantarme.
+[2022-10-19 Wed] suspendo la toma diaria a partir de hoy (hoy no tomo).
 ** topiramato
 actualmente estoy tomando 50mg
 ** elafax
 actualmente estoy tomando 75mg
 ** migral mensual
-** cannabis
+** DONE cannabis
+abandonado el [2022-10-16 Sun] sin pena y sin gloria.
 * cefaleico
 ** 2017
 *** [2017-09-19 mar]

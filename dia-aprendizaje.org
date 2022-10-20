@@ -8,7 +8,7 @@ CLOSED: [2018-10-29 Mon 12:18]
 - State "DONE"       from "TODO"       [2017-10-10 mar 22:35]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:06]
-- State "DONE"       from "TODO"      
+- State "DONE"       from "TODO"
 :PROPERTIES:
 :LAST_REPEAT: [2017-10-10 mar 22:35]
 :END:
@@ -23,7 +23,7 @@ CLOSED: [2018-10-29 Mon 12:18]
 
 *** Vuelta a Emacs puro (no evil/ no spacemacs)
 
-Me canse de vim, que parece rapido pero siempre causa errores y al 
+Me canse de vim, que parece rapido pero siempre causa errores y al
 final perdes el tiempo y no logras hacer lo que queres.
 Aca va un resumen de los comandos aprendidos y logrados hoy:
 | gotoline         | Mg g                   | default |
@@ -55,7 +55,7 @@ Y ahora un repaso de los comandos generales
 
 ** [2016-09-23 vie]
 
- 
+
 
 *** DONE Elips - inicio de lectura :anki:
 CLOSED: [2018-10-29 Mon 12:18]
@@ -98,7 +98,7 @@ De aqui se:
 con el argumento package (lo que no se es pq en ese caso package esta con apostrofe)
    - se usa el apostrofe para que lo evalue como variable sino que lo tome como nombre
    - la segunda idem la funcion add-to-list y el segundo argumento una lista
-   - 
+   -
 
 ** [2016-09-24 sáb]
 *** Puesta a punto general para emacs
@@ -128,7 +128,7 @@ Muy rapido el fold/unfold con boton derecho.
 
 **** Excurso electric-pair / show-parent-mode
 
-show-parent-mode muestra los pares de parentesis, corchetes, llaves, etc. Por eso la pongo global pq no 
+show-parent-mode muestra los pares de parentesis, corchetes, llaves, etc. Por eso la pongo global pq no
 molesta.
 En cambio electric-pair aunque es muy util, puede molestar y se pone/saca facil con el C-f9.
 Espectacular resaltar una palabra y poner ' y te la encierra automaticamente.
@@ -181,9 +181,23 @@ Auto-fill mode es un minor-mode que provee el corte de linea
 automatico cuando se llega a cierto limite. Lo que uno conocia como
 auto wrap. Se pone en el menu Text, o como comando.
 
-** TODO [2016-09-25 dom] :anki:
+** DONE [2015-09-26 Sat] :anki:
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-19 Wed 09:43]
+:END:
+:LOGBOOK:
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:43]
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:42]
+- State "DONE"       from              [2022-10-19 Wed 09:42]
+- State "DONE"       from              [2022-10-19 Wed 09:42]
+- State "DONE"       from              [2022-10-19 Wed 09:42]
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:42]
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:42]
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:42]
+- State "DONE"       from "BUG"        [2022-10-19 Wed 09:41]
+:END:
 
-SCHEDULED: s<2016-12-05 lun +15d>
+SCHEDULED: <2017-04-19 Wed +15d>
 - State "DONE"       from "TODO"       [2016-11-23 mié 21:07]
 - State "DONE"       from "TODO"       [2016-11-07 lun 21:44]
 :PROPERTIES:
@@ -271,5 +285,4 @@ lecturas sobre el branching.
 | git push origin testing | subo al repo el branch local            |
 | git checkout --track    | hago que localmente se siga una rama    |
 | ... origin/testing      | ... que existe en el repo               |
-| git push :testing       | borro dicha rama en el repo             | 
-
+| git push :testing       | borro dicha rama en el repo             |

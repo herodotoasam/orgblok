@@ -1,0 +1,5 @@
+* [2022-10-17 Mon] base16-gruvbox-dark-hard
+y compania -medium -pale -light. bastantes buenos y suaves.
+* [2022-10-19 Wed] ef-dark doom-opera-light
+doom-opera-light para el dia parecido al modus-theme muy delicado.
+Y ef-dark para la noche impactante. Todo con el cambio de font a iosevka-comfy

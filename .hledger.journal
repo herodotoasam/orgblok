@@ -12886,3 +12886,16 @@ D $1000.00
 2022-10-17 diff
     expenses:diferencia-arqueo   $310
     assets:caja         $-310
+
+2022-10-18 comida y reparacion techo ih
+    expenses:comida    $1300
+    expenses:casa:mantenimiento $1000
+    assets:caja   $-2300
+
+2022-10-20 lomito
+	expenses:comida  $ 1250
+	assets:caja  $-1250
+
+2022-10-20 pago ospe con debito
+	expenses:servicios:OSPE  $ 69876
+	income:retiro-sociedad   $-69876
