@@ -8952,5 +8952,24 @@ dio la Cami y manteca y dulce. No me gustaba el menu del burger.
 me dormi la siesta bastante y me levante con hambre y merende bien con
 ese pan de la Cami que estuvo muy bueno. Hace mucho que no como un pan
 tan rico.
-** [2022-10-20 Thu]
-hoy estoy bastante mejor muy enchufado en la computacion gracias a emacs.
+** [2022-10-20 Thu] :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQwAjVoe54HhJ03fe4ztZdOM0qgqy1LafOsj/SWvt0c0Nq9c
+6/w0IzgxUiHLpQfrkksM7NR7GISI8xYG47CXjVyUUbLmhXS8llenIvyBz0xa2Q2A
+h31LylwTppxVCXqpwRez6RbLr6PX5Ybg0+Izf1cyKW5a3T96bp2jrh139arRlpHH
+e5GZZFQT68HeXBTz1mqzbVvVIWUqArC5ELmmIT1Gzv+516RWIb3QLZDFmSwz3nv+
+cDb3xRoSdIavRXpzlQDNoDa0Cz3wvUXwy6xEYuEnx/3VJcWvcvvk3lm9t3ZyBVpI
+6pgiYu3x/Gyr8s05D/sHyUc3IzIql4tdZ5mHATpKP2BSVx20cBbuvNz+CxXwHTvr
+oKhv66VF27vTabW9n5/KF4dKVNQAyO3SFbXqdvgJRadJmoAJO37rGs8lGOutjoN2
+DvSO/e8DNW/GZAmg7MylDe6Px6r/gtTbhWCjuPurX2XvcDa+mcwH+zYZhxCJOPRF
+4wOc6tmfABYhrdW5Jdwq1MCrAQkCEABQ2Z0HopFwlPJhz9tVgKHwBs4e4H3G4p9m
+6KnKMp6/mOmcUrnI4D7DRVElcqsrMKSqZLo6oIsCgboDNQHqyt/lpMSDLdawmHz5
+tsJQQ06h47cmWfomHNY3+yL5lRTZwA5Y9agpb1bCLxUUhsZRQj9HIrtK73+7Hduj
+G/fJXy2q/awEZBpQn+/e94y1qF64rySMKlmqRk02YBy3X1aUnNwUUTiFnXB5JMis
+BABh2GYNi8qSlNT80jA8DbQO1iYcdikEzXYhnqiUGVqe+QcDHjoc6V4bur1JuStl
+uUuxGX4sIxC3xPnXjng3m5NvmOgwfpF6gyUUaeoJSKR0XQsODpOyYX/hCwZHWwUC
+ZXmSx2M31mZRUkdH9ORiSomAJbiw6RQ1M8Mll8DvItsEBW7+Wb79fleLXmasIjpJ
+Uj/WI59F1YtN0qu8t3fTb3QzQ/C07GzMc7PPiYjYom+5gQINlBcKrf3u+mP6
+=wSY8
+-----END PGP MESSAGE-----

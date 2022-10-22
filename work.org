@@ -92,9 +92,15 @@ CLOSED: [2022-10-09 Sun 14:42]
 :END:
 solucionaron al eliminar los paquetes de letras pero me quede con
 menos opcione, creo que hay que enriquecer un poco el tema fonts
-** TODO problemas con undo
+** DONE problemas con undo
+CLOSED: [2022-10-20 Thu 21:54]
+:LOGBOOK:
+- State "DONE"       from "PENDING"    [2022-10-20 Thu 21:54]
+:END:
 anda para dos o tres cambios y luego lastimosamente no anda mas.
 instale vundo - space-v
+terminado el asunto con la nueva instalacion de emacs donde el undo
+anda normalmente bien como tiene que andar.
 ** DONE problema de velocidad de carga
 CLOSED: [2022-10-15 Sat 22:12]
 :LOGBOOK:
@@ -107,6 +113,7 @@ En realidad la velocidad de carga no me importa pq en mi flujo de
 trabajo el sistema se prende una vez por dia, y siete/ocho segundos no
 es nada. No tiene porque ser un vim de dos segundos o uno. Mas bien
 uno aprecia otras cualidades del sistema.
+[2022-10-20 Thu] en el sistema nuevo 1.46 seg
 ** DONE la opcion de un sistema 'adquirido'
 CLOSED: [2022-10-10 Mon 15:40]
 :LOGBOOK:
@@ -116,16 +123,21 @@ el sistema anda mejor que nunca. Es el mejor emacs que nunca he
 tenido, pero tiene muchas cosas que no son propias. Ese es el tema,
 menos mal que tiene una forma modular de trabajo para poder cambiar
 sin romper las cosas.
+[2022-10-20 Thu] ahora ya el sistema es mas mio que antes.
 ** DONE ver la forma de backup de gpg
 CLOSED: [2022-10-09 Sun 14:42]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-09 Sun 14:42]
 :END:
-** TODO resolver el tema xmodmap
+** PENDING resolver el tema xmodmap
 p.e. el tema de la enie
 pruebo con gnome xorg que parece ser lo mismo y tengo el xmodmap por
 ahora a mano y luego veo de desactivar el input-remaper y automatizar
-el xmodmap
+el xmodmap.
+Al [2022-10-20 Thu] despues de varios dias del cambio a xorg sigo con
+remaper sin enie. No recuerdo a la manana hacer la rutina de
+desactivar el remaper y activar solo el xmodmap, tendria que
+investigar como hacerlo automatico en fedora. Pongo pending.
 ** DONE arreglar hledger
 closed: [2022-10-15 Sat 22:15]
 :LOGBOOK:
@@ -140,7 +152,7 @@ todas las cuentas ordenadamente a medida que vas precisando la cuenta
 cosa tambien de decidir en donde encuadrar el asiento y si es
 necesario crear una nueva cuenta o cambiar las existentes.
 terminado el proceso de arreglo de hledger
-** TODO pasar password firefox a pass
+** PENDING pasar password firefox a pass
 pasar y/o revisar duplicaciones
 idem con los de chrome
 guardar los password de firefox en csv encryptado por emacs en orgblok
@@ -153,6 +165,64 @@ obvia de eso para mi uso personal.
 Establecer una estrategia de cambio de maquina con respecto a las claves
 1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
 2. pase los git y la mayoria de los mails. y el banco.
+** TODO python-mode
+1. resolver el tema python-env
+   resuelto con pipenv se activa con C-c C-p a
+2. resolver el tema flycheck que falla cuando activamos el env.
+   resuelto instalando pylint en el proyecto bajo pipenv
+ver de automatizar el uso del venv nuevo
+resolver el tema completion en python mode
+aprender las opciones de menu de python mode
+** PENDING bug-emacs o fedora?
+al arrancar arranca minimizado y con el dashboard default pq no puede
+leer el dibujo. y arranca en scratch. Y si hago restart no arranca mas
+y tengo que matar proceso en fedora.
+Si lo arranco en terminal con debug anda bien y tambien como emacs
+solo y tambien anda bien arrancando con altF2
+o sea que es un problema del arrancador de fedora.
+** TODO completion
+css/python/orgmode no anda
+el resto anda dabbrev ahora anda python y orgmode el unico que no es
+css que antes andaba.En realidad anda bien, mas bien perfecto, es el
+mejor de todos pq autocompleta el lenguaje, lo unico que funciona en
+el medio de una propiedad.Y yo lo probaba afuera.
+probar con eglot.(no se si vale la pena pq no me aportara nada
+exclusivamente nuevo).
+Probe con eglot y no funciona. Flymake no funciona.
+La completion en python con jedi no funciona.
+Lo que si no penaliza tiempo.
+Probe con lsp-mode y el mode en si no penaliza. Lo que es lento es el
+lsp-jedi que insume un tiempo.
+| lsp-jedi    | Configured | 14:15:56.628566 | 0.43 |
+| css-mode    | Configured | 14:15:56.409352 | 0.37 |
+| js2-mode    | Configured | 14:15:56.103019 | 0.30 |
+| python-mode | Configured | 14:15:56.181861 | 0.16 |
+EL insulso css-mode me lleva .37 y el nuevo jedi me lleva .43 para un
+total de 1.69 no esta mal.
+La completion en python es genial.
+Y flycheck funciona luego de activar pipenv, llamando
+flycheck-verify-setup y activando python-pylint.
+Renegue un monton para activar lsp para javascript. No hay
+forma. Despues sigo.
+** Idea plan de estudios
+Se me ocurrio anoche una idea y es tener un esquema de materias para
+profundizar
+1. emacs
+   1. meow: analisis comando por comando y variable por variable
+   2. init.el: analisis de cada variable seteada y limpieza de errores
+      en las configuraciones
+   3. kbd: listado de todos los atajos de teclado que estan seteados y
+      son usables eventualmente.
+   4. funciones: listado de funciones y su analisis correspondiente.
+2. org
+3. elisp
+4. tailwind
+5. alpinejs
+6. javascript
+
+En general tener un org para estructurar el tema e ir registrando los avances.
+
+
 * agenda programacion
 ** DONEs
 *** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -628,7 +698,12 @@ en general que tengan un diseno uniforme.
 *** TODO editarrbo.html
 *** TODO cobr.html
 *** TODO fichaje.html
-*** TODO totales.html
+*** DONE totales.html
+CLOSED: [2022-10-21 Fri 10:31]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-21 Fri 10:31]
+:END:
+hice un grafico por mes y tambien una correccion por inflacion muy genial
 *** DONE planillas.html
 CLOSED: [2022-10-19 Wed 14:32]
 :LOGBOOK:
@@ -718,10 +793,48 @@ Lo logre con css pseudoclase :required y con html pattern
 Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 *** signup.html
+** TODO limpiar por flycheck todos los *.py
 * agenda de actividad
 ** semana [2022-10-16 Sun] ver agenda
+*** [2022-10-22 Sat]
+:LOGBOOK:
+CLOCK: [2022-10-22 Sat 13:08]--[2022-10-22 Sat 15:20] =>  2:12
+probando eglot- luego termine instalando lsp
+CLOCK: [2022-10-22 Sat 11:25]--[2022-10-22 Sat 12:28] =>  1:03
+probando el sistema para subir branch y merge.
+termine de probar y subi los cambios si todo anda bien hago merge el
+lunes y abro otra rama.
+:END:
+*** [2022-10-21 Fri]
+:LOGBOOK:
+CLOCK: [2022-10-21 Fri 21:50]--[2022-10-21 Fri 23:12] =>  1:22
+tuneando emacs python autocomplete y demas- negativo
+CLOCK: [2022-10-21 Fri 21:00]--[2022-10-21 Fri 21:44] =>  0:44
+limpiando python stock.py falta la mitad
+CLOCK: [2022-10-21 Fri 17:05]--[2022-10-21 Fri 18:10] =>  1:05
+tuneando meow cambiando seting.
+CLOCK: [2022-10-21 Fri 14:10]--[2022-10-21 Fri 14:38] =>  0:28
+corregi un bug de hace mucho en js que el parent del event.target no
+existe elimino los console.logs inactivos.
+CLOCK: [2022-10-21 Fri 13:05]--[2022-10-21 Fri 13:30] =>  0:25
+borro print de py que littering el log1
+CLOCK: [2022-10-21 Fri 12:40]--[2022-10-21 Fri 13:05] =>  0:25
+cambios a meow para hacerlo mas rapido y eficiente.
+CLOCK: [2022-10-21 Fri 11:10]--[2022-10-21 Fri 12:35] =>  1:25
+arreglo pandas errores preventivos
+CLOCK: [2022-10-21 Fri 10:35]--[2022-10-21 Fri 10:52] =>  0:17
+anule agitate por performance
+CLOCK: [2022-10-21 Fri 08:52]--[2022-10-21 Fri 10:33] =>  1:41
+alpinejs totales.html pero con grafico y correccion por inflacion
+CLOCK: [2022-10-21 Fri 08:17]--[2022-10-21 Fri 08:50] =>  0:33
+mande seven e investigue un poco de python-env sin resultado
+:END:
 *** [2022-10-20 Thu]
 :LOGBOOK:
+CLOCK: [2022-10-20 Thu 19:24]--[2022-10-20 Thu 20:55] =>  1:31
+emacs intentando con pipenv
+CLOCK: [2022-10-20 Thu 18:00]--[2022-10-20 Thu 18:45] =>  0:45
+cree el git para nuevo emacs y otras cosas
 CLOCK: [2022-10-20 Thu 16:53]--[2022-10-20 Thu 17:40] =>  0:47
 tuneos varios emacs
 CLOCK: [2022-10-20 Thu 16:05]--[2022-10-20 Thu 16:52] =>  0:47
@@ -729,7 +842,7 @@ validacion de campos incluidos en autoComplete
 CLOCK: [2022-10-20 Thu 14:57]--[2022-10-20 Thu 16:02] =>  1:05
 validacion por css :required y pattern
 CLOCK: [2022-10-20 Thu 14:00]--[2022-10-20 Thu 14:45] =>  0:45
-termino de tunear con meow
+termino de tunear con meowa
 CLOCK: [2022-10-20 Thu 09:42]--[2022-10-20 Thu 13:05] =>  3:23
 gran transformacion de emacs a meow y empece todo de nuevo
 :END:
@@ -1409,9 +1522,10 @@ agregar mas mensajes programables y poner un dropdown
    por hora.
    :END:
 * agenda pendientes
-**** llevar bici fede
-DEADLINE: <2022-10-21 Fri>
+**** DONE llevar bici fede
+CLOSED: [2022-10-21 Fri 19:04] DEADLINE: <2022-10-21 Fri>
 :LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-21 Fri 19:04]
 - New deadline from "[2022-10-16 Sun]" on [2022-10-19 Wed 09:40]
 :END:
 **** DONE llevar kangoo mecanico
@@ -1425,7 +1539,7 @@ CLOSED: [2022-10-15 Sat 11:05] DEADLINE: <2022-10-15 Sat>
 - State "DONE"       from "BUG"        [2022-10-15 Sat 11:05]
 :END:
 **** peluquero
-scheduled: <2022-10-19 Wed>
+scheduled: <2022-10-19 Wed .+1m>
 :LOGBOOK:
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
@@ -1434,14 +1548,24 @@ DEADLINE: <2022-10-25 Tue>
 :LOGBOOK:
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
-**** seven
-SCHEDULED: <2022-10-21 Fri .+1m>
+**** TODO seven
+SCHEDULED: <2022-11-21 Mon .+1m>
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-21 Fri 08:38]
+:END:
+:LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-21 Fri 08:38]
+:END:
 **** pagos facturas I
 SCHEDULED: <2022-11-02 Wed .+1m>
 gas luz fibertel dgr tarjeta
 **** pagos facturas II
-SCHEDULED: <2022-10-20 Thu .+1m>
+SCHEDULED: <2022-11-22 Tue .+1m>
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-22 Sat 10:05]
+:END:
 :LOGBOOK:
+- State "DONE"       from              [2022-10-22 Sat 10:05]
 - Rescheduled from "[2022-10-18 Tue .+1m]" on [2022-10-19 Wed 14:33]
 :END:
 ospe - claro - municipal
@@ -1470,3 +1594,20 @@ funcionalidad practicamente es la misma. El undo p.e. anda bien y
 puedo usar el de emacs nativo. En realidad evil interfiere mucho con
 emacs.  Y meow en si es interesante hay que darle la chance de
 aprenderlo.
+[2022-10-21 Fri]
+cambios que le hice a la configuracion basica:
+1. |o| para abrir linea debajo porque la A era muy incomoda.
+2. |-| para el cambio de direccion no es muy usado pero es mas rapido
+   que el punto y coma.
+3. |,| quedo , para inner of y ; para bound of
+4. |/| para buscar mucho mas rapido aunque tambien deje a v.
+5. |.| para el repeat que ya esta aprendido. Solo queda ver en que
+   casos meow lo usa.
+6. |+| para borrar linea
+7. |D| para duplicar linea
+8. |d| para seleccionar linea cambie la x que estaba contramano.
+9. |x| para borrar caracter
+
+Ademas aprendi sobre beacon con G y multiples cursores lo cual es
+fascinante.
+Y tambien para extender seleccion con HLJK. y O para seleccionar los bloques.

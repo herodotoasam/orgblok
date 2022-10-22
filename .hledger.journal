@@ -12899,3 +12899,32 @@ D $1000.00
 2022-10-20 pago ospe con debito
 	expenses:servicios:OSPE  $ 69876
 	income:retiro-sociedad   $-69876
+
+2022-10-21 ingresos
+	assets:reserva  $ 300000
+	assets:caja     $   5509
+	income:retiro-sociedad   $ -305509
+
+2022-10-21 ih
+	expenses:isabel  $ 9609
+	expenses:isabel  $ 13500
+	assets:caja      $ -23109
+
+2022-10-21 saco reserva
+	assets:caja    $ 20000
+	assets:reserva    $-20000
+
+2022-10-22 pago facturas
+	expenses:servicios:ecogas    $ 3627
+	expenses:impuestos:bora   $ 799
+	expenses:impuestos:casa:municipal   $ 692
+	assets:caja   $ -5118
+
+2022-10-22 peluqueria
+	expenses:personal:peluquero   $ 1700
+	expenses:servicios:claro   $ 4681
+	assets:caja   $ -6381
+
+2022-10-22 alimento para gato
+	expenses:comida:gatos   $ 6300
+	assets:caja   $ -6300

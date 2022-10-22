@@ -3,3 +3,7 @@ y compania -medium -pale -light. bastantes buenos y suaves.
 * [2022-10-19 Wed] ef-dark doom-opera-light
 doom-opera-light para el dia parecido al modus-theme muy delicado.
 Y ef-dark para la noche impactante. Todo con el cambio de font a iosevka-comfy
+* [2022-10-20 Thu]ef-night
+le gana al ef-dark a la noche, en el dia siguio el doom-opera-light
+* [2022-10-21 Fri]ef-spring
+para el dia.

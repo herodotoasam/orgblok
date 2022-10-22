@@ -605,3 +605,13 @@ en especial ir hacia la definicion
 * Ctrl j - hippie-expand
 una gran ayuda a la completion en la realidad y bindeado a un shortcut
 comodo, dejando el emmet a su natural Ctrl-Ret.
+* M-< ir al comienzo y M-> ir al final
+alt-< va al comienzo
+alt-Shift-< va al final
+me resulta mas comodo que las opciones de meow {b y }b
+* M-m en corfu para llevar el menu al minibuffer
+muy bueno para cuando hay mucho para buscar y el minibuffer permite
+busquedas mas orderless
+* v en meow es fascinante
+es la busqueda que en evil era / pero en forma mucho mas acertada pq
+tiene historial y te muestra lo que hay en el buffer. Mejor no puede haber.
