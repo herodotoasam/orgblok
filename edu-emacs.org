@@ -615,3 +615,6 @@ busquedas mas orderless
 * v en meow es fascinante
 es la busqueda que en evil era / pero en forma mucho mas acertada pq
 tiene historial y te muestra lo que hay en el buffer. Mejor no puede haber.
+* M-? x-ref en el buffer o en otros bufferes
+xref-find-references
+te busca en el proyecto.

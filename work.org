@@ -204,6 +204,16 @@ Y flycheck funciona luego de activar pipenv, llamando
 flycheck-verify-setup y activando python-pylint.
 Renegue un monton para activar lsp para javascript. No hay
 forma. Despues sigo.
+Encontre una solucion general sacando los modes (css/python/js2) y
+haciendo un (add-hook prog-mode #'lsp) eso me funcion bien, pero en
+los lisp-el da un warning asqueroso que no se como evitarlo y
+aparentemente no hay lsp para emacs-elisp.
+El arranque bajo a 1.04 seg. incluyendo treemacs.
+Solucionado todo: lsp cambie el add-hook por la inclusion individual
+de todos los hooks sin tener que instalarlos y anda perfecto.
+solucionado el git-timemachine. Quedo en 1.34 con todo lsp funcionando
+con treemacs.  Son 84 paquetes!!!!
+
 ** Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
@@ -214,11 +224,14 @@ profundizar
    3. kbd: listado de todos los atajos de teclado que estan seteados y
       son usables eventualmente.
    4. funciones: listado de funciones y su analisis correspondiente.
-2. org
-3. elisp
-4. tailwind
-5. alpinejs
-6. javascript
+2. git
+   tengo para leer el libro epub del tema que es fascinante.
+3. tailwind
+   es un fascinante marco para aprender
+4. alpinejs
+5. org
+6. elisp
+7. javascript
 
 En general tener un org para estructurar el tema e ir registrando los avances.
 
@@ -798,7 +811,9 @@ necesario por el tipo de autoComplete.
 ** semana [2022-10-16 Sun] ver agenda
 *** [2022-10-22 Sat]
 :LOGBOOK:
-CLOCK: [2022-10-22 Sat 13:08]--[2022-10-22 Sat 15:20] =>  2:12
+CLOCK: [2022-10-22 Sat 18:24]--[2022-10-22 Sat 21:30] =>  3:06
+terminando lsp con los otros modes y otras cosas.
+CLOCK: [2022-10-22 Sat 13:08]--[2022-10-22 Sat 15:35] =>  2:27
 probando eglot- luego termine instalando lsp
 CLOCK: [2022-10-22 Sat 11:25]--[2022-10-22 Sat 12:28] =>  1:03
 probando el sistema para subir branch y merge.
@@ -1607,6 +1622,7 @@ cambios que le hice a la configuracion basica:
 7. |D| para duplicar linea
 8. |d| para seleccionar linea cambie la x que estaba contramano.
 9. |x| para borrar caracter
+10. |JKLH| para seleccionar en bloque, util luego de d
 
 Ademas aprendi sobre beacon con G y multiples cursores lo cual es
 fascinante.
