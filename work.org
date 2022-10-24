@@ -166,13 +166,14 @@ Establecer una estrategia de cambio de maquina con respecto a las claves
 1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
 2. pase los git y la mayoria de los mails. y el banco.
 ** TODO python-mode
-1. resolver el tema python-env
-   resuelto con pipenv se activa con C-c C-p a
-2. resolver el tema flycheck que falla cuando activamos el env.
-   resuelto instalando pylint en el proyecto bajo pipenv
-ver de automatizar el uso del venv nuevo
-resolver el tema completion en python mode
-aprender las opciones de menu de python mode
++ [X] resolver el tema python-env
+  - resuelto con pipenv se activa con C-c C-p a
++ [X] resolver el tema flycheck que falla cuando activamos el env.
+  - resuelto instalando pylint en el proyecto bajo pipenv
+  - hay que usar flycheck-verify-setup y elegir pylint
++ [ ] ver de automatizar el uso del venv nuevo
++ [ ] resolver el tema completion en python mode
++ [ ] aprender las opciones de menu de python mode
 ** PENDING bug-emacs o fedora?
 al arrancar arranca minimizado y con el dashboard default pq no puede
 leer el dibujo. y arranca en scratch. Y si hago restart no arranca mas
@@ -217,25 +218,23 @@ con treemacs.  Son 84 paquetes!!!!
 ** Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
-1. emacs
-   1. meow: analisis comando por comando y variable por variable
-   2. init.el: analisis de cada variable seteada y limpieza de errores
-      en las configuraciones
-   3. kbd: listado de todos los atajos de teclado que estan seteados y
-      son usables eventualmente.
-   4. funciones: listado de funciones y su analisis correspondiente.
-2. git
-   tengo para leer el libro epub del tema que es fascinante.
-3. tailwind
-   es un fascinante marco para aprender
-4. alpinejs
-5. org
-6. elisp
-7. javascript
-
 En general tener un org para estructurar el tema e ir registrando los avances.
-
-
+*** emacs
+**** meow: analisis comando por comando y variable por variable
+**** init.el: analisis de cada variable seteada y limpieza de errores
+en las configuraciones
+**** kbd: listado de todos los atajos de teclado que estan seteados y
+son usables eventualmente.
+**** funciones: listado de funciones y su analisis correspondiente.
+*** git
+tengo para leer el libro epub del tema que es fascinante.
+*** tailwind
+es un fascinante marco para aprender.
+[2022-10-24 Mon]  instalacion de PostCSS y de tailwindCSS. primeros pasos
+*** alpinejs
+*** org
+*** elisp
+*** javascript
 * agenda programacion
 ** DONEs
 *** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -617,7 +616,6 @@ probado todo. En un par de dias borro el codigo desactivado
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
-** TODO lista de control de documentos
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
@@ -812,11 +810,24 @@ necesario por el tipo de autoComplete.
 *** signup.html
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
+** TODO [#A] lista de control de documentos
 * agenda de actividad
 ** semana [2022-10-23 Sun]
 *** [2022-10-24 Mon]
 :LOGBOOK:
-CLOCK: [2022-10-24 Mon 11:35]--[2022-10-24 Mon 12:49] =>  1:14
+CLOCK: [2022-10-24 Mon 20:20]--[2022-10-24 Mon 20:46] =>  0:26
+temas diversos en work
+CLOCK: [2022-10-24 Mon 19:15]--[2022-10-24 Mon 20:18] =>  1:03
+estudio tailwinds
+CLOCK: [2022-10-24 Mon 18:20]--[2022-10-24 Mon 19:15] =>  0:55
+tunning emacs modeline y goto-brace C-5
+CLOCK: [2022-10-24 Mon 17:50]--[2022-10-24 Mon 18:16] =>  0:26
+tuneo minimo emacs
+CLOCK: [2022-10-24 Mon 15:00]--[2022-10-24 Mon 15:28] =>  0:28
+tuneando emacs init.el
+CLOCK: [2022-10-24 Mon 13:50]--[2022-10-24 Mon 15:00] =>  1:10
+debuggiando el 1.log - refactorice fechador.html
+CLOCK: [2022-10-24 Mon 11:35]--[2022-10-24 Mon 13:10] =>  1:35
 alpinejs cobr terminado - retiros terminado
 CLOCK: [2022-10-24 Mon 11:00]--[2022-10-24 Mon 11:35] =>  0:35
 tunning emacs smartparents y otros atajos necesarios
@@ -1660,6 +1671,12 @@ fascinante.
 Y tambien para extender seleccion con HLJK. y O para seleccionar los bloques.
 ** irc
 comenzando a explorar con emacs erc
+ya registre el nick heroasam con password ataraxia76 y mail hfj027@gmail.com
 ** visualreplace ,deadgrep y Ctrlf
 buenos los tres.
 ** nano themes y nano modeline
+lindo theme y lindo modeline a pesar de que algunas cosas no se ven
+bien en el light. Pero sabes que estan ahi. Tiene todo lo que tiene
+doom-modeline.
+** solucion tema braces/parentesis
+smartparens y C-5 que emula el % de vim

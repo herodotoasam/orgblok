@@ -5815,6 +5815,11 @@ A emacs hay que irlo conociendo de a poco pq es enorme.
 *** [2022-10-20 Thu]meow-hell
 excelente la nueva distribucion de emacs que empiezo hoy, con el nuevo
 modal meow. Muy liviano e interesante.
+*** [2022-10-24 Mon]tailwindCSS
+a cuatro dias del cambio es muy positivo. Es practicamente un evil-vim
+pero recargado con otras particularidades. No se extrana nada.
+Tailwind es fascinante. Ya di el primer paso, ahora a leer un poco mas
+las clases y a comenzar a desarrollar mis propios disenos.
 
 * Anotaciones
 ** Objetivos
@@ -6925,6 +6930,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-10-02 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-09 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-16 Sun] :emacs:flask:javascript:alpinejs:
+** semana [2022-10-23 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

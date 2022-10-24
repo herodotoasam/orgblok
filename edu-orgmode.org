@@ -3,12 +3,12 @@
 ** Historia:
 Escuche la conferencia del creador de org-mode. Muy interesante
 ** bugs
-*** Me borra escritos que ya hice. No creo que sea fossil 
+*** Me borra escritos que ya hice. No creo que sea fossil
 ** Uso
 *** M-RET estando al final de un outline te abre otro al mismo nivel
 *** Tab alli lo promote/demote ciclicamente a los niveles que existen
-*** M-up|down sube/baja el nodo 
-*** M-left|right lo promote/demote no limitado a los niveles que existen 
+*** M-up|down sube/baja el nodo
+*** M-left|right lo promote/demote no limitado a los niveles que existen
 *** Listas ordenadas y no ordenadas se hacen con -,1.,1) y se mueven igual
 *** [2016-09-21 mié] C-c . inserta una fecha del calendario
 *** SM-RET inserta un TODO
@@ -28,22 +28,22 @@ Escuche la conferencia del creador de org-mode. Muy interesante
 |                      |                                 |                                |
 **** [[ManualesKapeluz]] Apunta a una etiqueta <<etiqueta>>
 *** Tags                                                        :ms:manual:
-*** 
+***
 **** Un tag es una clave enclosada en dos puntos
-**** poniendo los primeros dos puntos y M-tab hay autocomplecion 
+**** poniendo los primeros dos puntos y M-tab hay autocomplecion
 **** o con Cc-Cc en un headline se puede poner un tag o Cc-Cq en cualquier parte
 **** Cu CcCq realinea los tags a la columna 77
-**** Al poner #+TAGS: en la primer linea y hacer CcCc no cargo tags fijos								       
+**** Al poner #+TAGS: en la primer linea y hacer CcCc no cargo tags fijos
 	Entonces habilito a hacer un listado dinamico de tags con los usados en el archivo.
 	Se podria tambien hacer:
-	#+TAGS: tag1(a) tag2(b) tag3(c) y siempre cargar con CcCc o 
-	#+TAGS: {tag1(a) tag2(b)} tag3(c) y crear un grupo alternativo o sea tag1 o tag2 en ese caso 
+	#+TAGS: tag1(a) tag2(b) tag3(c) y siempre cargar con CcCc o
+	#+TAGS: {tag1(a) tag2(b)} tag3(c) y crear un grupo alternativo o sea tag1 o tag2 en ese caso
 **** Search tags:
 ***** Cc / m permite busqueda por tags tag1+tag2 tag1-tag2 tag1|tag2
 ***** Cc \ idem anterior pero va directo sin la m
 *** checkbox
     toda lista puede ser usada con checkbox. Ojo respetar espacios sino no funciona
-    - [ ] Comienzo 
+    - [ ] Comienzo
     Si ponemos un checkbox en un item jerarquico superior y dentro de su checkbox
     ponemos [/] o [%] llevara la cuenta de la cantidad o porc de subitems checkados
     Con el mouse se pueden checkar o descheckar los items.
@@ -98,7 +98,7 @@ es un sistema de guardado de paginas con wget y de paso te queda el registro.[[h
 |   | Alt-up-down    | para mover las filas    |
 |---+----------------+-------------------------|
 
-Poner un encabezado con / <> <> y una col vacia a la izquierda produce 
+Poner un encabezado con / <> <> y una col vacia a la izquierda produce
 que se dibujen las lineas verticales de columna
 
 | / | <>              | <>                       |
@@ -177,17 +177,17 @@ M-S-RET nos otorga otro chekbox
 Poniendo la cockie [/] o [%] en un item superior se lleva la cuenta de los
 check tildados en los items inferiores.
 ** Ciclo de listas
-- 
-- 
-- 
+-
+-
+-
 Poniendo cualquier lista y luego haciendo S-left/right se cicla por distintos
-formatos de lista 
-+ 1) 1. - 
+formatos de lista
++ 1) 1. -
 
- 
+
 ** Edicion de codigo
 con <s y Tab obtenemos el siguiente esquema
-#+BEGIN_SRC 
+#+BEGIN_SRC
 
 #+END_SRC
 ese espacio permite insertar codigo.
@@ -197,14 +197,14 @@ formateara como habitualmente se hace.
 
 
 * En que estoy usando orgmode actualmente
-** [2016-10-07 vie] 
+** [2016-10-07 vie]
 O bien en que le encuentro utilidad
 *** Escritura de proyectos complejos
 p.e. manual de usuario o diario de proyecto
 *** Agenda de proximos pagos
-ahi la veo interesante por lo sencillo y a la vez segura forma de 
+ahi la veo interesante por lo sencillo y a la vez segura forma de
 poner todo junto y estar tranquilo.
-*** Manejo de proyectos 
+*** Manejo de proyectos
 poner todo lo relativo a un proyecto en el mismo lugar y despachar
 las next action etc.
 *** Diario
@@ -219,15 +219,15 @@ todas las cosas.
 ** [2016-10-11 mar]
 Lo encuentro extremadamente util para el brainstorming. En forma
 parecida al manejo de los proyectos, donde se busca el estado de
-mente-barrida. 
+mente-barrida.
 Hoy hice un bs con una seccion que tengo que programar que es bastante
 compleja y al ir escribiendo rapido y en forma de outline las ideas
 fluyen mas rapido y luego eso queda y se puede seguir trabajando sobre
-eso en forma muy comoda y flexible. 
+eso en forma muy comoda y flexible.
 Como p.e. reacomodar los headlines, promote, demote, ocultar
-desarrollos de la idea y focalizar sobre los encabezados. 
+desarrollos de la idea y focalizar sobre los encabezados.
 ** [2016-10-17 lun]
-*** Agenda-Calendario 
+*** Agenda-Calendario
    Ahora veo muy util el escribir el diario y luego exportarlo con
    org-mobile y plasmarlo en el calendario del celu, pero ahi creo que
    falta un poco de orden para que tenga mas utilidad. Por eso estoy
@@ -244,7 +244,7 @@ desarrollos de la idea y focalizar sobre los encabezados.
 *** org-habits bien
 *** org-agenda muy bien con los pagos habitos y otros schedules
 *** diario secuencial
-*** temas con entidad propia 
+*** temas con entidad propia
 *** anki temal o articular
 
 
@@ -257,9 +257,17 @@ desarrollos de la idea y focalizar sobre los encabezados.
 
 
 * your life in plain text
-** [2017-10-04 mié] 
+** [2017-10-04 mié]
 1. que se pueden tener distintos archivos dentro del directorio para
    distintos asuntos, total las herramientas de busqueda son muy
    poderosas y tambien las de versionado
 2. que se puede poner en agenda directamente el directorio y no los
    archivos individuales eso hace que se agende todo.
+* plain list
+- C-c * toggle plain list to outlines
+- C-c - cycle the entire plain list througth diferent
+  itemize/enummerate bullets
+- C-c ^ sort the plain list
+- [ ] cualquier item de una plain list puede ser un checkbox si le
+  ponemos [ ]
+- C-c toggle checkbox

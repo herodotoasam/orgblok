@@ -12936,3 +12936,12 @@ D $1000.00
 2022-10-23 apuestas bingo
 	expenses:personal:varios   $ 1000
 	assets:caja   $ -1000
+
+2022-10-24 menu
+    expenses:comida   $ 760
+    assets:caja   $ -760
+
+2022-10-24 mesada cami
+    expenses:cami:mesada   $ 3000
+    expenses:cami:comida   $ 11000
+    assets:caja   $ -14000
