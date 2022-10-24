@@ -12928,3 +12928,11 @@ D $1000.00
 2022-10-22 alimento para gato
 	expenses:comida:gatos   $ 6300
 	assets:caja   $ -6300
+
+2022-10-23 bono cami
+	expenses:cami:extras   $ 50000
+	income:retiro-sociedad   $ -50000
+
+2022-10-23 apuestas bingo
+	expenses:personal:varios   $ 1000
+	assets:caja   $ -1000

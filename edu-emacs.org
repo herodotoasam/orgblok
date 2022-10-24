@@ -618,3 +618,10 @@ tiene historial y te muestra lo que hay en el buffer. Mejor no puede haber.
 * M-? x-ref en el buffer o en otros bufferes
 xref-find-references
 te busca en el proyecto.
+* vr visualreplace  5
+replace visual en region
+* Ctrlf
+reemplaza a los de fabrica c-s c-r cm-s etc con mucho mas polenta
+* git-timemachine
+sobre un buffer manejado con git muestra el ultimo snapshot y con n p
+vamos adelantando atrasando en el tiempo.

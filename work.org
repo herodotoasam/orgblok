@@ -709,7 +709,11 @@ en general que tengan un diseno uniforme.
 *** TODO mudados.html
 *** TODO estimados.html
 *** TODO editarrbo.html
-*** TODO cobr.html
+*** DONE cobr.html
+CLOSED: [2022-10-24 Mon 12:50]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-24 Mon 12:50]
+:END:
 *** TODO fichaje.html
 *** DONE totales.html
 CLOSED: [2022-10-21 Fri 10:31]
@@ -807,8 +811,35 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 *** signup.html
 ** TODO limpiar por flycheck todos los *.py
+1. stock.py
 * agenda de actividad
-** semana [2022-10-16 Sun] ver agenda
+** semana [2022-10-23 Sun]
+*** [2022-10-24 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-24 Mon 11:35]--[2022-10-24 Mon 12:49] =>  1:14
+alpinejs cobr terminado - retiros terminado
+CLOCK: [2022-10-24 Mon 11:00]--[2022-10-24 Mon 11:35] =>  0:35
+tunning emacs smartparents y otros atajos necesarios
+CLOCK: [2022-10-24 Mon 09:10]--[2022-10-24 Mon 10:58] =>  1:48
+alpinejs:cobr - tuneando:retiros
+CLOCK: [2022-10-24 Mon 08:51]--[2022-10-24 Mon 09:10] =>  0:19
+tuneo emacs. Instalo N A N O themes y modeline.
+:END:
+*** [2022-10-23 Sun]
+:LOGBOOK:
+CLOCK: [2022-10-23 Sun 21:10]--[2022-10-23 Sun 21:45] =>  0:35
+tuneando emacs
+CLOCK: [2022-10-23 Sun 20:05]--[2022-10-23 Sun 21:08] =>  1:03
+arreglos bugs de emergencia en el sistema
+CLOCK: [2022-10-23 Sun 12:20]--[2022-10-23 Sun 12:56] =>  0:36
+limpie stock.py
+CLOCK: [2022-10-23 Sun 11:41]--[2022-10-23 Sun 12:20] =>  0:39
+instalacion de algunos interesantes paquetes extra
+CLOCK: [2022-10-23 Sun 09:27]--[2022-10-23 Sun 10:20] =>  0:53
+tuneando emacs varios temas menores- hice branch tree1 para hacer
+diferencia con lo instalado en sistema.
+:END:
+** semana [2022-10-16 Sun]
 *** [2022-10-22 Sat]
 :LOGBOOK:
 CLOCK: [2022-10-22 Sat 18:24]--[2022-10-22 Sat 21:30] =>  3:06
@@ -1627,3 +1658,8 @@ cambios que le hice a la configuracion basica:
 Ademas aprendi sobre beacon con G y multiples cursores lo cual es
 fascinante.
 Y tambien para extender seleccion con HLJK. y O para seleccionar los bloques.
+** irc
+comenzando a explorar con emacs erc
+** visualreplace ,deadgrep y Ctrlf
+buenos los tres.
+** nano themes y nano modeline
