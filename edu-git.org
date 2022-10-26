@@ -5,3 +5,9 @@ config.
 muestra el git grafico
 * git log -p file
 muestra los patch de cierto file
+es muy bueno esto pq lo podemos hacer en vterm y tener facilidades de
+busqueda y filtrado de emacs.
+en magit hay que hacer l -- file
+* projectile-kill-buffers M-p k despues de new branch
+para que nos aseguremos que trabajemos en el nuevo branch con todos
+los archivos

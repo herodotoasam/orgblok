@@ -1,4 +1,4 @@
-#+TODO: TODO(t) | DONE(d)
+#+TODO: TODO(t) PENDING(p) | DONE(d)
 #+TODO: BUG(b) | FIXED(f)
 #+TODO: IDEA(i) CANCELED(c) | DONE(d)
 
@@ -169,7 +169,7 @@ obvia de eso para mi uso personal.
 Establecer una estrategia de cambio de maquina con respecto a las claves
 1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
 2. pase los git y la mayoria de los mails. y el banco.
-** TODO python-mode
+** TODO python-mode [40%]
 + [X] resolver el tema python-env
   - resuelto con pipenv se activa con C-c C-p a
 + [X] resolver el tema flycheck que falla cuando activamos el env.
@@ -223,14 +223,23 @@ buena, la completion es mejor, pero hay delay en la escritura, que con
 lsp puro no habia. hay que estudiarlo mas.
 Hice una separacion en tres archivos lsp.el lsp-bridge y eglot.el para
 probar debidamente las tres opciones en forma rapida.
-** TODO leidos a experimentar
+** TODO leidos a experimentar [2/8]
 1. [X] lsp-bridge
 2. [X] undo-fu undo-fu-session
-3. vimish-fold
-4. emacs-format-all-the-code
-5. mmm-mode
-6. fix-word
-
+3. [ ] vimish-fold
+4. [ ] emacs-format-all-the-code
+5. [ ] mmm-mode
+6. [ ] fix-word
+7. [ ] unspell
+   ver pq no funciona. para que autocomplete como dice el manual de
+   org.
+8. [ ] themes en distintos repositorios
+** TODO gestion de emails
++ [ ] buscar un gestor de email en linux que centralice todos las
+  cuentas y sea eficiente.
++ [ ] cargar todas las cuentas en fair-mail en el celular
++ [ ] buscar nuevas cuentas que funcionen en ambos sistemas para ir
+  reemplazando gmail
 ** Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
@@ -633,6 +642,17 @@ CLOSED: [2022-10-25 Tue 17:55]
   opcional una segunda class en el campo
 + [X] boton en vez de <a> en ir
 + [X] corregir anchos minimos
+*** DONE evaluar alternativa datalist al combo alpine
+CLOSED: [2022-10-26 Wed 09:29]
+llenar con un x-for las opciones con una lista.
+proceder.
+ya esta totalmente reemplazado el combo made-in-casa de alpinejs con
+el datalist llenado con la directiva x-for lo cual lo veo mas fuerte
+pq permite poner el focus sin problema y permite el manejo de flechas.
++ [X] buscador.html cambio de combos
++ [X] ventas.html cambio combos y validacion
+*** DONE [#A] lista de control de documentos
+CLOSED: [2022-10-26 Wed 10:59]
 ** PENDING hacer del autocompletado alpine una funcion general
 autoComplete(url,input,suggestion)
 la url debe ser a un recurso que entregue un pglflat con nombre result
@@ -748,7 +768,7 @@ dio mas el error.
 Y otro error mas que tiro el log1
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
-** TODO transformar Vue en alpinejs
+** TODO transformar Vue en alpinejs [75%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -858,18 +878,21 @@ cumplieron.
 Lo logre con css pseudoclase :required y con html pattern
 Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
-*** signup.html
-** TODO [#A] lista de control de documentos
-** TODO evaluar alternativa datalist al combo alpine
-llenar con un x-for las opciones con una lista.
-proceder.
-+ [ ] buscador.html cambio de combos
-+ [X] ventas.html cambio combos y validacion
+*** TODO signup.html
 * agenda de actividad
 ** semana [2022-10-23 Sun]
 **** [2022-10-26 Wed]
 :LOGBOOK:
-CLOCK: [2022-10-26 Wed 08:01]
+CLOCK: [2022-10-26 Wed 12:14]--[2022-10-26 Wed 13:05] =>  0:51
+alpinejs: fichaje - 1° parte
+CLOCK: [2022-10-26 Wed 11:31]--[2022-10-26 Wed 12:08] =>  0:37
+tema emails
+CLOCK: [2022-10-26 Wed 09:49]--[2022-10-26 Wed 10:59] =>  1:10
+gestion de documentos
+CLOCK: [2022-10-26 Wed 08:52]--[2022-10-26 Wed 09:30] =>  0:38
+termine de sacar el autoComplete
+CLOCK: [2022-10-26 Wed 08:01]--[2022-10-26 Wed 08:50] =>  0:49
+reafirmando lo aprendido anoche
 :END:
 **** [2022-10-25 Tue]
 :LOGBOOK:

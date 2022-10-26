@@ -26,6 +26,7 @@ turnos, sintomas, historial etc.
 ** DONE dentista toma de impresion y arreglo inferior
 CLOSED: [2022-10-08 Sat 14:22] SCHEDULED: <2018-11-17 sáb> 9hs
 * sintomas
+
 ** Dolores
 *** Testiculos
 [2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
@@ -168,6 +169,9 @@ forma varicosa.
 *** [2022-10-10 Mon] se rompio nuevamente el arreglo
 el [2022-09-07 Wed] me arreglo Dastolfo el premolar inferior derecho
 con composite, me cobro 7000 y me duro justo un mes.
+** Sintomas
+*** palpitaciones
+[2022-10-26 Wed] desde hace mucho, pero hoy me molestan bastante.
 
 * medicacion
 ** DONE ibuprofeno
@@ -1444,6 +1448,12 @@ un te con dos galletas y queso.
    me senti como que podia terminar alli mismo todo el modulo, pero me
    fui a dormir. Esta mañana crei tener un par de puntaditas de nuevo
    en el ojo, aunque no son en el ojo sino en el arco superciliar.
+**** [2022-10-25 Tue]
+tome uno a la madrugada, luego otro a la manana un poco innecesario
+cuando esperaba a ih en el hp que se hiciera los analisis, ese estuvo
+de mas, y luego a la siesta ya estaba molesto y tome 10mg de
+cortypiren y a las 22hs estaba detonado y tome el tercero que fue mas
+o menos eficiente.
 * tratamientos naturales
 ** 10 dias de masajes de cervical
 ** 10 dias de arroz yamani
