@@ -625,3 +625,9 @@ reemplaza a los de fabrica c-s c-r cm-s etc con mucho mas polenta
 * git-timemachine
 sobre un buffer manejado con git muestra el ultimo snapshot y con n p
 vamos adelantando atrasando en el tiempo.
+* magit l --file
+permite elegir el archivo que queremos y ahi vamos a la verdadera
+maquina del tiempo.
+* straight-pull-all
+para actualizar los paquetes
+luego straight-check-all para rebuild the packages que han cambiado.

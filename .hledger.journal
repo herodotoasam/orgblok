@@ -12949,3 +12949,12 @@ D $1000.00
 2022-10-25 gaseosa
     expenses:comida   $ 140
     assets:caja   $ -140
+
+2022-10-26 facturas
+    expenses:comida   $ 800
+    assets:caja   $ -800
+
+2022-10-26 jean levi
+    expenses:personal:ropa   $ 22500
+    assets:caja   $ -2500
+    assets:reserva   $ -20000

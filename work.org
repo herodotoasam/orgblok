@@ -234,13 +234,18 @@ probar debidamente las tres opciones en forma rapida.
    ver pq no funciona. para que autocomplete como dice el manual de
    org.
 8. [ ] themes en distintos repositorios
-** TODO gestion de emails
-+ [ ] buscar un gestor de email en linux que centralice todos las
+** DONE gestion de emails
+CLOSED: [2022-10-26 Wed 18:42]
++ [X] buscar un gestor de email en linux que centralice todos las
   cuentas y sea eficiente.
-+ [ ] cargar todas las cuentas en fair-mail en el celular
-+ [ ] buscar nuevas cuentas que funcionen en ambos sistemas para ir
+  thunderbird es muy bueno aparentemente
++ [X] cargar todas las cuentas en fair-mail en el celular
++ [X] buscar nuevas cuentas que funcionen en ambos sistemas para ir
   reemplazando gmail
-** Idea plan de estudios
+  se complica pq las funciones imap y pop3 que se requieren la mayoria
+  de esos servicios la consideran premium.
+  hice una nueva hero.asam@yahoo.com
+** IDEA Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
 En general tener un org para estructurar el tema e ir registrando los avances.
@@ -768,7 +773,7 @@ dio mas el error.
 Y otro error mas que tiro el log1
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
-** TODO transformar Vue en alpinejs [75%]
+** TODO transformar Vue en alpinejs [79%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -783,7 +788,8 @@ CLOSED: [2022-10-24 Mon 12:50]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-24 Mon 12:50]
 :END:
-*** TODO fichaje.html
+*** DONE fichaje.html
+CLOSED: [2022-10-26 Wed 19:11]
 *** DONE totales.html
 CLOSED: [2022-10-21 Fri 10:31]
 :LOGBOOK:
@@ -879,10 +885,18 @@ Lo logre con css pseudoclase :required y con html pattern
 Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 *** TODO signup.html
+** IDEA revisar choice.js
+parece ser una bomba en autocomplete.
 * agenda de actividad
 ** semana [2022-10-23 Sun]
 **** [2022-10-26 Wed]
 :LOGBOOK:
+CLOCK: [2022-10-26 Wed 18:45]--[2022-10-26 Wed 19:55] =>  1:10
+diversos temas explorando  eww navegando en emacs
+CLOCK: [2022-10-26 Wed 17:54]--[2022-10-26 Wed 18:42] =>  0:48
+gestion de mail terminada por ahora.
+CLOCK: [2022-10-26 Wed 13:48]--[2022-10-26 Wed 15:28] =>  1:40
+terminado alpinejs:fichaje
 CLOCK: [2022-10-26 Wed 12:14]--[2022-10-26 Wed 13:05] =>  0:51
 alpinejs: fichaje - 1° parte
 CLOCK: [2022-10-26 Wed 11:31]--[2022-10-26 Wed 12:08] =>  0:37
@@ -1786,3 +1800,4 @@ smartparens y C-5 que emula el % de vim
 asombrosamente rapido. Pero veremos el delay que imprime al escribir.
 ** undo-fu undo-fu-session
 es compatible con vundo y vainilla-emacs y meow
+** eww
