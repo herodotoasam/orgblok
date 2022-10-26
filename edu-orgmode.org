@@ -1,3 +1,6 @@
+#+TODO: TODO(t) | DONE(d)
+#+TODO: BUG(b) | FIXED(f)
+#+TODO: IDEA(i) CANCELED(c) | DONE(d)
 #+STARTUP: indent
 * Org-mode                                                         :dpto:org:
 ** Historia:
@@ -271,3 +274,21 @@ desarrollos de la idea y focalizar sobre los encabezados.
 - [ ] cualquier item de una plain list puede ser un checkbox si le
   ponemos [ ]
 - C-c toggle checkbox
+* todo sobre "TODOs"
++ establecer per file el tipo de todos que vamos a implementar incluso
+  con distintos flujos de trabajo. La barra separa las acciones que
+  son de todo o hacer, de las done. Si no hay barra, la ultima es
+  done.
+  Entre parentesis esta el atajo.
++ Cc-Ct atajo para poner directo el todo que queremos
++ M-S-Ret para hacer un headline con todo incluido
++ M-S-Ret para hacer un item de plain list con checkbox
++ con la cookie [/] o [%] se puede hacer que el todo principal lleve
+  la cuenta de los resultados parciales.
+* completion
++ al principio de un headline complete todos
++ con : complete tags
++ con [[ complete links
++ con [[* complete headlines
++ despues de #+ complete special words
++ en cualquier lado complete con ispell

@@ -12945,3 +12945,7 @@ D $1000.00
     expenses:cami:mesada   $ 3000
     expenses:cami:comida   $ 11000
     assets:caja   $ -14000
+
+2022-10-25 gaseosa
+    expenses:comida   $ 140
+    assets:caja   $ -140

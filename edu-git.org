@@ -1,0 +1,7 @@
+* git commit -v
+nos muestra las diff y nos lleva al procesador de texto indicado en el
+config.
+* gitk
+muestra el git grafico
+* git log -p file
+muestra los patch de cierto file
