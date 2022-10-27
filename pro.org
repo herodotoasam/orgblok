@@ -5820,6 +5820,10 @@ a cuatro dias del cambio es muy positivo. Es practicamente un evil-vim
 pero recargado con otras particularidades. No se extrana nada.
 Tailwind es fascinante. Ya di el primer paso, ahora a leer un poco mas
 las clases y a comenzar a desarrollar mis propios disenos.
+*** [2022-10-27 Thu]
+cada dia que pasa veo que emacs es un entorno para aprender a usarlo a
+largo plazo y es un gran amigo del programador. Facilita las cosas,
+pero tiene una curva de aprendizaje muy empinada.
 
 * Anotaciones
 ** Objetivos

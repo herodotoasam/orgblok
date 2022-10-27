@@ -12958,3 +12958,12 @@ D $1000.00
     expenses:personal:ropa   $ 22500
     assets:caja   $ -2500
     assets:reserva   $ -20000
+
+2022-10-27 compras
+    expenses:comida   $ 260
+    expenses:comida:gatos   $ 1000
+    assets:caja   $ -1260
+
+2022-10-27 carla
+    expenses:casa:limpieza   $ 3000
+    assets:caja   $ -3000

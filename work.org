@@ -1,4 +1,4 @@
-#+TODO: TODO(t) PENDING(p) | DONE(d)
+#+TODO: TODO(t) PENDING(p) | DONE(d) DESCARTADO(o)
 #+TODO: BUG(b) | FIXED(f)
 #+TODO: IDEA(i) CANCELED(c) | DONE(d)
 
@@ -658,7 +658,8 @@ pq permite poner el focus sin problema y permite el manejo de flechas.
 + [X] ventas.html cambio combos y validacion
 *** DONE [#A] lista de control de documentos
 CLOSED: [2022-10-26 Wed 10:59]
-** PENDING hacer del autocompletado alpine una funcion general
+*** DESCARTADO hacer del autocompletado alpine una funcion general
+CLOSED: [2022-10-27 Thu 08:34]
 autoComplete(url,input,suggestion)
 la url debe ser a un recurso que entregue un pglflat con nombre result
 
@@ -686,6 +687,14 @@ desactivado.
 Ver de programar una interfase de busqueda por flechas.
 probado todo. En un par de dias borro el codigo desactivado
 
+Lo descarto como opcion ya que pase todos los combos a datalist y
+tengo agendado estudiar opciones mas modernas que se pueden usar con
+alpinejs como choices.js. [2022-10-27 Thu]
+
+*** CANCELED revisar choices.js
+parece ser una bomba en autocomplete.
+lo dejo para un futuro. Acabo de poner todo con autocomplete y parece
+que a los usuarios les gusta y es una opcion rapida y segura.
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO explorar y pasarse a bulma menu-bar
@@ -694,10 +703,6 @@ probado todo. En un par de dias borro el codigo desactivado
 ** TODO ver la forma de ordenar las columnas de logwapp el datatable
 aparentemente la culpa la tendria jsonify
 y ponerlo accesible desde utilidades
-** TODO interfase para registrar autorizaciones
-   una modal en el contexto del cliente donde se registre dia y hora de la
-   autorizacion, current_user, y respuesta, y se guarden automaticamente los
-   status del cliente al momento, deuda, ultpago, sev, ln, llamar, seguir,
 ** TODO concepto de analisis automatico efectividad de promocion
 Aplicable en primer caso a las visitas a clientes y en segundo a los
 whatsapp de venta.
@@ -750,6 +755,8 @@ el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
 las paginas y centralizarlos, cambiar las notificaciones a swall
 wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
 botones, etc. muchas otras cosas que podre ir agregando.
+No obstante el cambio de look queda pendiente hasta aprender tailwind
+en una segunda etapa. Por ahora haremos un bulma puro.
 ** TODO mas usos del concepto inflacion
 en el cuadro estadisticas actualizando los montos pasados de venta
 para que la comparacion intra-year sea mas correcta.
@@ -767,22 +774,35 @@ tan asi como ponerlo sin hablarlo primero con el Fede.
 p.e. -abogado -doc a reventar -etc y buscar otra forma para manejar
 los fallecidos.
 Idem purgar las calles y los barrios.
-** TODO verificar bug probable con 'INVALIDO' en log1
+** PENDING verificar bug probable con 'INVALIDO' en log1
 hay un par de errores pero desde que puse el warning del update no me
 dio mas el error.
 Y otro error mas que tiro el log1
+El bug INVALIDO aparentemente se porque se causo y es por un mal corte
+de linea en la refactorizacion del archivo python. Esta por revisar y
+ver si aparece algun error nuevo y se confirma que no hay mas error.
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
-** TODO transformar Vue en alpinejs [79%]
+** PENDING transformar Vue en alpinejs [100%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
 El objetivo al final sera borrar dependencias a Vue/Buefy/BulmaToast y
 en general que tengan un diseno uniforme.
-*** TODO asuntos.html
-*** TODO mudados.html
-*** TODO estimados.html
-*** TODO editarrbo.html
+Saque las dependencias de Vue/Buefy y BulmaToast.
+Faltaria recorrer todos los archivos y ver que cumplan el formato
+nuevo, hay algunos que todavia falta corregir.
+*** DONE asuntos.html
+CLOSED: [2022-10-27 Thu 15:31]
+termino borrando pagina que no se usa mas
+*** DONE mudados.html
+CLOSED: [2022-10-27 Thu 15:32]
+termino borrando pagina que no se usa mas pq el proceso ahora se hace
+de otra forma
+*** DONE estimados.html
+CLOSED: [2022-10-27 Thu 12:02]
+*** DONE editarrbo.html
+CLOSED: [2022-10-27 Thu 11:17]
 *** DONE cobr.html
 CLOSED: [2022-10-24 Mon 12:50]
 :LOGBOOK:
@@ -884,12 +904,47 @@ cumplieron.
 Lo logre con css pseudoclase :required y con html pattern
 Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
-*** TODO signup.html
-** IDEA revisar choice.js
-parece ser una bomba en autocomplete.
+*** DONE signup.html
+CLOSED: [2022-10-27 Thu 16:44]
+** TODO interfase para registrar autorizaciones
+   una modal en el contexto del cliente donde se registre dia y hora de la
+   autorizacion, current_user, y respuesta, y se guarden automaticamente los
+   status del cliente al momento, deuda, ultpago, sev, ln, llamar,
+   seguir,
+   El tema de los que no son clientes pienso que hay que resolverlo
+   pasando el cliente ahi mismo. Al menos con los datos que tenemos. Y
+   registrar la autorizacion. Y los datos del seven. Es un flujo de
+   trabajo que no creo que sea muy gravoso.
 * agenda de actividad
 ** semana [2022-10-23 Sun]
-**** [2022-10-26 Wed]
+*** [2022-10-27 Thu]
+:LOGBOOK:
+CLOCK: [2022-10-27 Thu 17:50]--[2022-10-27 Thu 19:19] =>  1:29
+tuneando emacs lsp/lsp-bridge/eglot con pyvenv
+CLOCK: [2022-10-27 Thu 16:55]--[2022-10-27 Thu 17:45] =>  0:50
+tuneando emacs agregados al init. Agregue 2.log
+CLOCK: [2022-10-27 Thu 16:22]--[2022-10-27 Thu 16:46] =>  0:24
+se borro Vue/Buefy/bulmaToast
+CLOCK: [2022-10-27 Thu 14:51]--[2022-10-27 Thu 15:30] =>  0:39
+alpinejs: programarMsg borro asuntos y borro mudados
+refactorizo fichaje para mejor gestion de tags
+CLOCK: [2022-10-27 Thu 13:35]--[2022-10-27 Thu 14:13] =>  0:38
+tuneando emacs eww
+CLOCK: [2022-10-27 Thu 13:12]--[2022-10-27 Thu 13:32] =>  0:20
+alpinejs:comisiones terminado con grafico
+CLOCK: [2022-10-27 Thu 12:37]--[2022-10-27 Thu 12:37] =>  0:00
+alpinejs:comisiones
+CLOCK: [2022-10-27 Thu 11:45]--[2022-10-27 Thu 12:02] =>  0:17
+alpinejs: estimados con agregado de grafico
+CLOCK: [2022-10-27 Thu 09:23]--[2022-10-27 Thu 11:17] =>  1:54
+alpinejs: editarrbo con mejoras
+CLOCK: [2022-10-27 Thu 08:59]--[2022-10-27 Thu 09:23] =>  0:24
+di de baja el server ruby.
+CLOCK: [2022-10-27 Thu 08:24]--[2022-10-27 Thu 08:51] =>  0:27
+investigacion y desecho de choices.js - ver logs y correccion de bug
+INVALIDO
+:END:
+*** [2022-10-26 Wed]
 :LOGBOOK:
 CLOCK: [2022-10-26 Wed 18:45]--[2022-10-26 Wed 19:55] =>  1:10
 diversos temas explorando  eww navegando en emacs
@@ -908,7 +963,7 @@ termine de sacar el autoComplete
 CLOCK: [2022-10-26 Wed 08:01]--[2022-10-26 Wed 08:50] =>  0:49
 reafirmando lo aprendido anoche
 :END:
-**** [2022-10-25 Tue]
+*** [2022-10-25 Tue]
 :LOGBOOK:
 CLOCK: [2022-10-25 Tue 19:45]--[2022-10-25 Tue 20:25] =>  0:40
 tuneando emacs hice un lsp-2 pero no funciono todavia
@@ -1717,7 +1772,7 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-DEADLINE: <2022-10-25 Tue>
+SCHEDULED: <2022-11-01 Tue> DEADLINE: <2022-10-25 Tue>
 :LOGBOOK:
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
@@ -1744,6 +1799,8 @@ SCHEDULED: <2022-11-22 Tue .+1m>
 ospe - claro - municipal
 **** backup
 SCHEDULED: <2022-10-28 Fri .+3d>
+**** chequear la baja de server ruby
+SCHEDULED: <2022-10-29 Sat>
 
 
 * changelog
@@ -1801,3 +1858,4 @@ asombrosamente rapido. Pero veremos el delay que imprime al escribir.
 ** undo-fu undo-fu-session
 es compatible con vundo y vainilla-emacs y meow
 ** eww
+** sql-mysql
