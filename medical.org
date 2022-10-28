@@ -26,7 +26,6 @@ turnos, sintomas, historial etc.
 ** DONE dentista toma de impresion y arreglo inferior
 CLOSED: [2022-10-08 Sat 14:22] SCHEDULED: <2018-11-17 sáb> 9hs
 * sintomas
-
 ** Dolores
 *** Testiculos
 [2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
@@ -117,6 +116,8 @@ lomito anoche.
 [2022-10-21 Fri] un poco de dolor luego de dos o tres cafes en el dia
 y gaseosa y un segundo migral, o sea toda la bateria de perforadores
 del estomago.
+[2022-10-28 Fri] despues del cafe un poco de dolor y malestar. Decidi
+no tomar mas cafe. Para ver que pasa.
 *** oido tapado
 [2022-10-25 Tue] hace unos dos dias que se puso muy molesto.
 *** piernas debajo de la rodilla

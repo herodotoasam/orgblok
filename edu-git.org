@@ -11,3 +11,6 @@ en magit hay que hacer l -- file
 * projectile-kill-buffers M-p k despues de new branch
 para que nos aseguremos que trabajemos en el nuevo branch con todos
 los archivos
+* git commit --amend
+cambia el commit anterior si es que no hemos hecho push todavia.
+Hay que hacer push a cada commit que hacemos?
