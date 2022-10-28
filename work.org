@@ -925,6 +925,10 @@ CLOSED: [2022-10-27 Thu 16:44]
 ** semana [2022-10-23 Sun]
 *** [2022-10-28 Fri]
 :LOGBOOK:
+CLOCK: [2022-10-28 Fri 15:17]--[2022-10-28 Fri 15:17] =>  0:00
+tuneando emacs translate. en-es.
+CLOCK: [2022-10-28 Fri 14:00]--[2022-10-28 Fri 14:43] =>  0:43
+paso revista de changelog de emacs
 CLOCK: [2022-10-28 Fri 13:22]--[2022-10-28 Fri 13:32] =>  0:10
 CLOCK: [2022-10-28 Fri 11:32]--[2022-10-28 Fri 12:00] =>  0:28
 terminado calles/barrios/zonas/clientes.
@@ -1816,25 +1820,53 @@ SCHEDULED: <2022-11-22 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-10-28 Fri .+3d>
+SCHEDULED: <2022-10-31 Mon .+3d>
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-28 Fri 14:17]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2022-10-28 Fri 14:17]
+:END:
 **** chequear la baja de server ruby
 SCHEDULED: <2022-10-29 Sat>
-
+**** git-mirror
+SCHEDULED: <2022-10-28 Fri .+1w>
 
 * changelog
 ** pass
+De a poco he estado pasando todo a pass, renegando un monton con las
+interfaces de pass a firefox, pero mas o menos andan. La idea es tener
+las claves en un solo lugar un poco mas seguras que en el navegador,
+pero es un trabajo a largo plazo.
 ** epa
 posibilidad de encryptar archivos o partes directamente en emacs
+lo mas directo es un outline tagearlo con :crypt: y listo, queda
+encriptado cuando lo cerras automaticamente.
 ** vterm-multi-vterm
+La multi-vterm la saque pq consume muchos segundos de arranque, y
+vterm lo uso a diario para tener el flask run adentro.
 ** hledger
+Desde que lo puse no lo deje de usar. Es mucho mas eficiente que el
+sistema de terminal.
 ** ef-themes modus-themes ef-frost!
+Los ef-themes al principio me gustaban pero despues me dejaron de
+gustar por como distorsionan los tamanos en org-mode. Y los colores se
+va de mambo. Ahora estoy usando el modus-theme.
 ** acceso a ssh
+genialisimo. Unido a bookmarks que es una brillante herramienta, tengo
+el acceso instantaneo a archivos y directorios del host. Sin tener que
+poner la clave.
 ** treemacs
+no le veo la utilidad. Uso mejor dired. me gusta mas.
+lo dejo pq no usa segundos de arranque.
 ** vertico-ordeless-corfu-cape-embark etc.
+la completion es optima con ese tandem, todo genial.
 ** mirror git
 [2022-10-16 Sun]
 abri cuentas en bitbucker e hice mirror en gitlab y alli.
 ahora pongo en agenda para hacer mirror una vez a la semana.
+Ahora el mirror se hace con ssh y es mas rapido o sea
+git push --mirror git...(la direccion git del repositorio)
 ** hippie-expand
 [2022-10-16 Sun]
 primero no he logrado bajo ningun concepto alterar el binding. M-/.
@@ -1877,6 +1909,11 @@ aprendidos.
 y pase v a cancelar seleccion pq / queda para la busqueda, y V para
 Beacon.
 que en cierto sentido se usan menos.
+Otro cambio:
+S para save-buffer que es un teclazo muy frecuente y me evito la
+barra. y de paso usamos las teclas que meow no usa en modo normal.
+El tema es ver lo que queda y es eficiente y lo que no se usa cambiarlo.
+
 ** irc
 [2022-10-22 Sat]
 comenzando a explorar con emacs erc
@@ -1934,3 +1971,13 @@ hay que acordarse que cuando se trabaja con consultas que
 eventualmente hay que copiar y pegar, etc. se puede obtener un buffer
 en emacs de mysql. el comando es sql-mysql
 se puede automatizar mas pero no creo que sea necesario pq no lo uso tanto.
+** proced
+[2022-10-28 Fri] linkeado a p te muestra la lista de procesos de la compu.
+** translate
+[2022-10-28 Fri]
+** local-mark ring y global-mark-ring
+[2022-10-28 Fri]
+C-F8 en global mark-ring-local despues veo si lo cambio.
+P (en normal de meow) es el global-mark-ring que te lleva a otros
+archivos.
+hay que estudiarlas y ver que pasa.
