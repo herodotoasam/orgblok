@@ -250,6 +250,8 @@ CLOSED: [2022-10-26 Wed 18:42]
   se complica pq las funciones imap y pop3 que se requieren la mayoria
   de esos servicios la consideran premium.
   hice una nueva hero.asam@yahoo.com
+** TODO gestion de migrales en emacs
+** TODO emails en emacs
 ** IDEA Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
@@ -921,11 +923,22 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 *** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
+** TODO hacer un cuadro resumen de santander ingresos por mes
+cuadro de barras a dos barras por mes con ingresos y egresos pq en la
+pagina "cuadro" no se alcanza a ver el ingreso de depositos de
+cobradores que no es un ingreso real, pero si es un movimiento de
+cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
 ** semana [2022-10-23 Sun]
 *** [2022-10-28 Fri]
 :LOGBOOK:
-CLOCK: [2022-10-28 Fri 15:17]--[2022-10-28 Fri 15:17] =>  0:00
+CLOCK: [2022-10-28 Fri 21:50]--[2022-10-28 Fri 23:10] =>  1:20
+tuneando emacs: agregando soporte email. Inconcluso.
+CLOCK: [2022-10-28 Fri 18:22]--[2022-10-28 Fri 20:00] =>  1:38
+mas tuneo. Impresionantes atajos para aprender.
+CLOCK: [2022-10-28 Fri 16:37]--[2022-10-28 Fri 18:00] =>  1:23
+tuneando emacs cambio los atajos de SPC a atajos directos.
+CLOCK: [2022-10-28 Fri 15:17]--[2022-10-28 Fri 16:00] =>  0:43
 tuneando emacs translate. en-es.
 CLOCK: [2022-10-28 Fri 14:00]--[2022-10-28 Fri 14:43] =>  0:43
 paso revista de changelog de emacs
@@ -1914,6 +1927,74 @@ S para save-buffer que es un teclazo muy frecuente y me evito la
 barra. y de paso usamos las teclas que meow no usa en modo normal.
 El tema es ver lo que queda y es eficiente y lo que no se usa cambiarlo.
 
+La idea es prescindir de la tecla SPC y usar todas las teclas que deja
+vacante meow-normal y define-key-globales. Veamos si se puede.
+Al final termine haciendolo. Ubique todas las cosas importantes dentro
+del teclado meow-normal y algunas teclas de funcion:
++ S save
++ M bookmarks
++ T vterm
++ U vundo
++ Z restart emacs
++ + consult-line
++ * consult-buffer
++ | dired
++ "(2) split-horizontal
++ #(3) split-vertical
++ $(4) deadgrep
++ %(5) vreplace
++ F1 work
++ F2 change-themes
++ F3 erc
++ F4 treemacs
++ F6 toggle dark/light themes seteados
++ F7 browser
++ F8 comment
++ F9 diff
+  Algunas cosas las saque pq no hacia falta tener atajos.
+  Y tengo otras con atajos comunes de emacs como salir que ahora queda
+  con Cx-Cc.
++ Cx-Cc salir de emacs
++ Cx-k kill buffer
++ Cx-b igual a * consult-buffer
++ Cx-Cb ibuffer
++ Cx-Cs save de buffer
++ Cx- s save other buffer
++ Cx-Cf find file
++ Cx-g magit status
++ M-U/M-L upper y lower
++ Cx-Cu/Cx-Cl upper/lower region
++ m-t transpose de words
++ c-t transpose de caracter
++ M-y despues de Cy yank-pop
++ C-x h selecciona todo el buffer
+
+  Proyectile:
++ M-p p change-project Y BUSCA EN ESE PROYECTO o sea resuelve el
+  problema de tener que ir a un archivo dentro del proyecto y recien
+  despues buscar dentro de el.
++ M-p f find-file in project
++ M-p k kill all buffer in project!! muy util
++ M-p j find tag que es lo mismo que M-? o sea busca x-ref
++ M-p v magit
++ M-p o multi-occur en el file
++ M-p r replace en todos los files del project
++ M-p s g grep r ripgrep a ag
+
+  Consult:
++ M-s varios
++ Cx-C-SPC lista de global-mark-ring muy bueno!!!!-->P
++ M-g varios
+
+  Embark
++ C-. actua con un menu sobre la seleccion actual
++ M-. te lleva la definicion del point
++ Ch-b te da todos los keybinds que hay pudiendo buscar por key o por
+  function en el mismo lugar. Una masita.
+
+
+
+
 ** irc
 [2022-10-22 Sat]
 comenzando a explorar con emacs erc
@@ -1981,3 +2062,5 @@ C-F8 en global mark-ring-local despues veo si lo cambio.
 P (en normal de meow) es el global-mark-ring que te lleva a otros
 archivos.
 hay que estudiarlas y ver que pasa.
+** email notmuch - offlineimap
+[2022-10-28 Fri]
