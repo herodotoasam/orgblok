@@ -1,0 +1,266 @@
+#+BEGIN: clocktable :scope file :maxlevel 2
+#+CAPTION: Clock summary at [2022-10-29 Sat 19:53]
+| Headline             | Time       |         |
+|----------------------+------------+---------|
+| *Total time*         | *4d 12:23* |         |
+|----------------------+------------+---------|
+| emacs                | 4d 12:23   |         |
+| \_  [2022-09-17 Sat] |            |    1:31 |
+| \_  [2022-09-20 Tue] |            |    2:43 |
+| \_  [2022-09-21 Wed] |            |    0:30 |
+| \_  [2022-09-22 Thu] |            |    1:03 |
+| \_  [2022-09-23 Fri] |            | 4d 6:36 |
+#+END:
+
+* emacs
+** [2022-09-17 Sat]
+CLOCK: [2022-09-17 sáb 15:05]--[2022-09-17 sáb 15:41] =>  0:36
+busqueda de optimizacion de emacs (fallida)
+CLOCK: [2022-09-17 sáb 14:30]--[2022-09-17 sáb 15:01] =>  0:31
+CLOCK: [2022-09-17 sáb 12:45]--[2022-09-17 sáb 13:09] =>  0:24
+arreglos en emacs
+** [2022-09-20 Tue]
+CLOCK: [2022-09-20 Tue 18:21]--[2022-09-20 Tue 18:30] =>  0:09
+busqueda de funcionalidades de evil-mode
+CLOCK: [2022-09-20 Tue 11:05]--[2022-09-20 Tue 12:14] =>  1:09
+perdida de tiempo para encontrar la vuelta a evil-mode
+CLOCK: [2022-09-20 Tue 10:47]--[2022-09-20 Tue 11:04] =>  0:17
+CLOCK: [2022-09-20 Tue 09:25]--[2022-09-20 Tue 10:24] =>  0:59
+CLOCK: [2022-09-20 Tue 09:13]--[2022-09-20 Tue 09:22] =>  0:09
+excurso emacs para probar otro modal
+** [2022-09-21 Wed]
+CLOCK: [2022-09-21 Wed 10:02]--[2022-09-21 Wed 10:13] =>  0:11
+CLOCK: [2022-09-21 Wed 09:54]--[2022-09-21 Wed 09:56] =>  0:02
+CLOCK: [2022-09-21 Wed 09:49]--[2022-09-21 Wed 09:53] =>  0:04
+CLOCK: [2022-09-21 Wed 09:35]--[2022-09-21 Wed 09:48] =>  0:13
+obtengo error en evil-mode en insert-mode con la tecla braceright.
+** [2022-09-22 Thu]
+CLOCK: [2022-09-22 Thu 15:28]--[2022-09-22 Thu 15:34] =>  0:06
+CLOCK: [2022-09-22 Thu 14:25]--[2022-09-22 Thu 14:53] =>  0:28
+trasteo de nuevo con emacs.d/init.el
+CLOCK: [2022-09-22 Thu 08:21]--[2022-09-22 Thu 08:50] =>  0:29
+trasteando el init.el
+** [2022-09-23 Fri]
+CLOCK: [2022-09-23 Fri 08:50]--[2022-09-23 Fri 09:12] =>  0:22
+solucione el problema de los archivos undo-tree
+CLOCK: [2022-09-26 Mon 18:45]--[2022-09-26 Mon 19:01] =>  0:16
+CLOCK: [2022-09-26 Mon 18:30]--[2022-09-26 Mon 18:45] =>  0:15
+CLOCK: [2022-09-26 Mon 17:30]--[2022-09-26 Mon 18:24] =>  0:54
+me dispongo a tunear emacs que le voy a hacer
+lo aliviane lo maximo que pude y veremos que pasa.
+CLOCK: [2022-09-27 Tue 20:33]--[2022-09-27 Tue 21:33] =>  1:00
+CLOCK: [2022-09-27 Tue 19:49]--[2022-09-27 Tue 20:29] =>  0:40
+free hour
+CLOCK: [2022-09-27 Tue 08:30]--[2022-09-27 Tue 08:57] =>  0:27
+agregue ido vertical mode a emacs y rg
+CLOCK: [2022-09-28 Wed 19:20]--[2022-09-28 Wed 20:32] =>  1:12
+analice avy-> desechado. Reemplaze ido por ivy hay que acostumbrarse a
+la forma de abrir los archivos.
+CLOCK: [2022-09-28 Wed 19:09]--[2022-09-28 Wed 19:19] =>  0:10
+free hour
+CLOCK: [2022-09-29 Thu 21:30]--[2022-09-29 Thu 22:29] =>  0:59
+free hour arreglando emacs se rompio por littering
+CLOCK: [2022-09-29 Thu 21:05]--[2022-09-29 Thu 21:13] =>  0:08
+free minutes
+CLOCK: [2022-09-29 Thu 17:24]--[2022-09-29 Thu 17:59] =>  0:35
+CLOCK: [2022-09-29 Thu 15:15]--[2022-09-29 Thu 15:35] =>  0:20
+mucha optimizacion de emacs
+CLOCK: [2022-09-30 Fri 14:05]--[2022-09-30 Fri 16:45] =>  2:40
+tremenda perdida/inversion de tiempo por unos ajustes no muy
+satisfactorios en emacs.
+CLOCK: [2022-09-30 Fri 13:40]--[2022-09-30 Fri 13:47] =>  0:07
+CLOCK: [2022-09-30 Fri 12:47]--[2022-09-30 Fri 13:00] =>  0:13
+CLOCK: [2022-09-30 Fri 12:05]--[2022-09-30 Fri 12:32] =>  0:27
+arreglando emacs intentando infructuosamente de nuevo con eglot
+CLOCK: [2022-10-01 Sat 18:15]--[2022-10-01 Sat 19:04] =>  0:49
+un placer volver a mi configuracion. Me faltan cosas por resolver pero
+estoy mejor asi.
+CLOCK: [2022-10-01 Sat 17:20]--[2022-10-01 Sat 18:14] =>  0:54
+despues de renegar como enano con doom volvi a mi configuracion
+CLOCK: [2022-10-01 Sat 16:55]--[2022-10-01 Sat 17:17] =>  0:22
+CLOCK: [2022-10-01 Sat 13:40]--[2022-10-01 Sat 16:52] =>  3:12
+renegando con web-mode todavia.
+CLOCK: [2022-10-01 Sat 12:43]--[2022-10-01 Sat 13:00] =>  0:17
+CLOCK: [2022-10-01 Sat 08:10]--[2022-10-01 Sat 11:29] =>  3:19
+CLOCK: [2022-10-02 Sun 22:35]--[2022-10-02 Sun 23:07] =>  0:32
+CLOCK: [2022-10-02 Sun 19:50]--[2022-10-02 Sun 22:33] =>  2:43
+CLOCK: [2022-10-02 Sun 19:32]--[2022-10-02 Sun 19:49] =>  0:17
+CLOCK: [2022-10-02 Sun 14:25]--[2022-10-02 Sun 16:57] =>  2:32
+mas tuneado
+CLOCK: [2022-10-02 Sun 13:40]--[2022-10-02 Sun 14:25] =>  0:45
+intento instalar web-mode
+CLOCK: [2022-10-02 Sun 12:10]--[2022-10-02 Sun 12:26] =>  0:16
+CLOCK: [2022-10-02 Sun 11:35]--[2022-10-02 Sun 12:10] =>  0:35
+CLOCK: [2022-10-02 Sun 09:20]--[2022-10-02 Sun 11:35] =>  2:15
+instale todo de nuevo con la base de un sistema separado
+CLOCK: [2022-10-02 Sun 09:14]--[2022-10-02 Sun 09:18] =>  0:04
+empiezo el tuneado de emacs
+CLOCK: [2022-10-04 Tue 22:20]--[2022-10-04 Tue 23:10] =>  0:50
+CLOCK: [2022-10-04 Tue 21:12]--[2022-10-04 Tue 22:20] =>  1:08
+CLOCK: [2022-10-04 Tue 18:00]--[2022-10-04 Tue 20:18] =>  2:18
+emacs configuration
+CLOCK: [2022-10-04 Tue 15:50]--[2022-10-04 Tue 16:30] =>  0:40
+revision de modulos en emacs descartando lo que no uso
+CLOCK: [2022-10-04 Tue 07:50]--[2022-10-04 Tue 08:01] =>  0:11
+CLOCK: [2022-10-04 Tue 07:30]--[2022-10-04 Tue 07:50] =>  0:20
+revision infructuosa de emacs para poner jedi en python
+CLOCK: [2022-10-05 Wed 16:38]--[2022-10-05 Wed 17:20] =>  0:42
+emacs vertico-consult
+CLOCK: [2022-10-05 Wed 15:35]--[2022-10-05 Wed 16:10] =>  0:35
+temas varios
+CLOCK: [2022-10-05 Wed 14:34]--[2022-10-05 Wed 15:34] =>  1:00
+emacs counsil
+CLOCK: [2022-10-05 Wed 10:16]--[2022-10-05 Wed 10:40] =>  0:24
+emacs- vertico again
+CLOCK: [2022-10-05 Wed 07:20]--[2022-10-05 Wed 08:45] =>  1:25
+emacs- vertico y corfu
+CLOCK: [2022-10-06 Thu 19:15]--[2022-10-06 Thu 19:40] =>  0:25
+mas configuracion de emacs
+CLOCK: [2022-10-06 Thu 18:45]--[2022-10-06 Thu 19:12] =>  0:27
+emacs cape y affe le voy encontrando la vuelta a la busqueda
+CLOCK: [2022-10-06 Thu 10:48]--[2022-10-06 Thu 11:48] =>  1:00
+puse a punto orderless y corregi bug de actualizacion sin tener en
+cuenta condonados/devueltas y pp.
+CLOCK: [2022-10-07 Fri 11:16]--[2022-10-07 Fri 12:20] =>  1:04
+arregle el tema font y le agregue treemacs
+CLOCK: [2022-10-08 Sat 22:13]--[2022-10-08 Sat 23:20] =>  1:07
+trabaje con hledger es mucho mas productivo voy a ir arreglando el
+journal de a poco.
+CLOCK: [2022-10-08 Sat 17:55]--[2022-10-08 Sat 19:24] =>  1:29
+instale hledger funcional por ahora por los reportes, luego lo hare
+funcionar para pasar los asientos
+CLOCK: [2022-10-08 Sat 17:15]--[2022-10-08 Sat 17:52] =>  0:37
+cambio de font es operativo, esta para seguir probando
+CLOCK: [2022-10-08 Sat 12:00]--[2022-10-08 Sat 12:35] =>  0:35
+emacs varios
+CLOCK: [2022-10-08 Sat 07:35]--[2022-10-08 Sat 08:09] =>  0:34
+renegue un poco con el intento de romper el sistema que anda bien
+CLOCK: [2022-10-09 Sun 16:05]--[2022-10-09 Sun 16:47] =>  0:42
+funciona crypt - recupere la clave hay que usar las herramientas de
+busqueda dentro de org.
+CLOCK: [2022-10-09 Sun 15:35]--[2022-10-09 Sun 16:05] =>  0:30
+hago changelog y pruebo crypt sin resultados
+CLOCK: [2022-10-09 Sun 14:15]--[2022-10-09 Sun 14:37] =>  0:22
+clave exportada y llevada a orgblok - perdida de tiempo intentando
+recuperar una vieja clave(frase olvidada)
+CLOCK: [2022-10-09 Sun 13:55]--[2022-10-09 Sun 14:14] =>  0:19
+intentando solucionar problemas de term - puedo usar pass en vterm o
+sea no necesito term
+CLOCK: [2022-10-09 Sun 10:25]--[2022-10-09 Sun 11:30] =>  1:05
+instale vterm-term-multi-vterm
+instale dashboard
+CLOCK: [2022-10-09 Sun 09:25]--[2022-10-09 Sun 10:04] =>  0:39
+instale pythonenv
+CLOCK: [2022-10-09 Sun 08:55]--[2022-10-09 Sun 09:25] =>  0:30
+CLOCK: [2022-10-09 Sun 08:12]--[2022-10-09 Sun 08:35] =>  0:23
+mas ajustes a hledger en lo posible
+CLOCK: [2022-10-10 Mon 19:30]--[2022-10-10 Mon 19:49] =>  0:19
+atajo a agitate-diff-buffer-or-file a F9 muy util y rescate de space-o
+para occur dentro del buffer aun en palabras con guion
+CLOCK: [2022-10-10 Mon 18:15]--[2022-10-10 Mon 19:10] =>  0:55
+poniendo a punto undo-tree
+CLOCK: [2022-10-10 Mon 13:40]--[2022-10-10 Mon 15:00] =>  1:20
+trabajo con hledger- control de caja y puesta a punto
+CLOCK: [2022-10-10 Mon 12:04]--[2022-10-10 Mon 12:40] =>  0:36
+CLOCK: [2022-10-10 Mon 11:14]--[2022-10-10 Mon 11:50] =>  0:36
+probando flycheck: satisfactorio para py/js/html/css
+CLOCK: [2022-10-10 Mon 10:31]--[2022-10-10 Mon 11:10] =>  0:39
+termino configuracion de lsp-mode probando prescient.(lo saque)
+CLOCK: [2022-10-10 Mon 09:28]--[2022-10-10 Mon 10:20] =>  0:52
+configuracion de lsp-mode
+CLOCK: [2022-10-10 Mon 08:41]--[2022-10-10 Mon 09:14] =>  0:33
+varios temas- mirrorin git en GitLab
+CLOCK: [2022-10-14 Fri 19:55]--[2022-10-14 Fri 20:33] =>  0:38
+renegando con python virtualenv- quite lsp por ahora
+CLOCK: [2022-10-16 Sun 21:22]--[2022-10-16 Sun 22:25] =>  1:03
+instalo w3m-emacs y recorro un poco emacs
+CLOCK: [2022-10-18 Tue 20:00]--[2022-10-18 Tue 21:07] =>  1:07
+tuneando emacs positivo
+CLOCK: [2022-10-18 Tue 18:35]--[2022-10-18 Tue 20:00] =>  1:25
+encuentro la solucion al autoComplete
+CLOCK: [2022-10-18 Tue 17:43]--[2022-10-18 Tue 18:35] =>  0:52
+tuneando emacs bastante positivo
+CLOCK: [2022-10-18 Tue 09:39]--[2022-10-18 Tue 10:15] =>  0:36
+tuneando emacs prueba de straight positivo.
+CLOCK: [2022-10-19 Wed 21:40]--[2022-10-19 Wed 22:25] =>  0:45
+intento en autoComplete tema enter y tunning emacs
+CLOCK: [2022-10-19 Wed 15:00]--[2022-10-19 Wed 15:35] =>  0:35
+tuneando emacs fonts cambio a iosevka comfy
+CLOCK: [2022-10-19 Wed 14:35]--[2022-10-19 Wed 14:59] =>  0:24
+tuneando emacs
+CLOCK: [2022-10-19 Wed 12:25]--[2022-10-19 Wed 12:56] =>  0:31
+tuneando emacs ya estoy entre 3 y 4 segundos
+CLOCK: [2022-10-20 Thu 19:24]--[2022-10-20 Thu 20:55] =>  1:31
+emacs intentando con pipenv
+CLOCK: [2022-10-20 Thu 18:00]--[2022-10-20 Thu 18:45] =>  0:45
+cree el git para nuevo emacs y otras cosas
+CLOCK: [2022-10-20 Thu 16:53]--[2022-10-20 Thu 17:40] =>  0:47
+tuneos varios emacs
+CLOCK: [2022-10-20 Thu 14:00]--[2022-10-20 Thu 14:45] =>  0:45
+termino de tunear con meowa
+CLOCK: [2022-10-20 Thu 09:42]--[2022-10-20 Thu 13:05] =>  3:23
+gran transformacion de emacs a meow y empece todo de nuevo
+CLOCK: [2022-10-21 Fri 21:50]--[2022-10-21 Fri 23:12] =>  1:22
+tuneando emacs python autocomplete y demas- negativo
+CLOCK: [2022-10-21 Fri 17:05]--[2022-10-21 Fri 18:10] =>  1:05
+tuneando meow cambiando seting.
+CLOCK: [2022-10-21 Fri 12:40]--[2022-10-21 Fri 13:05] =>  0:25
+cambios a meow para hacerlo mas rapido y eficiente.
+CLOCK: [2022-10-21 Fri 10:35]--[2022-10-21 Fri 10:52] =>  0:17
+anule agitate por performance
+CLOCK: [2022-10-21 Fri 08:17]--[2022-10-21 Fri 08:50] =>  0:33
+mande seven e investigue un poco de python-env sin resultado
+CLOCK: [2022-10-22 Sat 18:24]--[2022-10-22 Sat 21:30] =>  3:06
+terminando lsp con los otros modes y otras cosas.
+CLOCK: [2022-10-22 Sat 13:08]--[2022-10-22 Sat 15:35] =>  2:27
+probando eglot- luego termine instalando lsp
+CLOCK: [2022-10-23 Sun 21:10]--[2022-10-23 Sun 21:45] =>  0:35
+tuneando emacs
+CLOCK: [2022-10-23 Sun 11:41]--[2022-10-23 Sun 12:20] =>  0:39
+instalacion de algunos interesantes paquetes extra
+CLOCK: [2022-10-24 Mon 20:20]--[2022-10-24 Mon 20:46] =>  0:26
+temas diversos en work
+CLOCK: [2022-10-24 Mon 18:20]--[2022-10-24 Mon 19:15] =>  0:55
+tunning emacs modeline y goto-brace C-5
+CLOCK: [2022-10-24 Mon 17:50]--[2022-10-24 Mon 18:16] =>  0:26
+tuneo minimo emacs
+CLOCK: [2022-10-24 Mon 15:00]--[2022-10-24 Mon 15:28] =>  0:28
+tuneando emacs init.el
+CLOCK: [2022-10-24 Mon 11:00]--[2022-10-24 Mon 11:35] =>  0:35
+tunning emacs smartparents y otros atajos necesarios
+CLOCK: [2022-10-24 Mon 08:51]--[2022-10-24 Mon 09:10] =>  0:19
+tuneo emacs. Instalo N A N O themes y modeline.
+CLOCK: [2022-10-25 Tue 19:45]--[2022-10-25 Tue 20:25] =>  0:40
+tuneando emacs hice un lsp-2 pero no funciono todavia
+CLOCK: [2022-10-25 Tue 18:25]--[2022-10-25 Tue 19:44] =>  1:19
+tuneando emacs hice tres opciones de lsp
+CLOCK: [2022-10-25 Tue 10:37]--[2022-10-25 Tue 10:50] =>  0:13
+tunning emacs undo-fu undo-fu-session
+CLOCK: [2022-10-25 Tue 07:30]--[2022-10-25 Tue 08:30] =>  1:00
+tunning emacs con lsp-bridge.
+CLOCK: [2022-10-26 Wed 18:45]--[2022-10-26 Wed 19:55] =>  1:10
+diversos temas explorando  eww navegando en emacs
+CLOCK: [2022-10-27 Thu 17:50]--[2022-10-27 Thu 19:19] =>  1:29
+tuneando emacs lsp/lsp-bridge/eglot con pyvenv
+CLOCK: [2022-10-27 Thu 16:55]--[2022-10-27 Thu 17:45] =>  0:50
+tuneando emacs agregados al init. Agregue 2.log
+CLOCK: [2022-10-27 Thu 13:35]--[2022-10-27 Thu 14:13] =>  0:38
+tuneando emacs eww
+CLOCK: [2022-10-28 Fri 21:50]--[2022-10-28 Fri 23:10] =>  1:20
+tuneando emacs: agregando soporte email. Inconcluso.
+CLOCK: [2022-10-28 Fri 18:22]--[2022-10-28 Fri 20:00] =>  1:38
+mas tuneo. Impresionantes atajos para aprender.
+CLOCK: [2022-10-28 Fri 16:37]--[2022-10-28 Fri 18:00] =>  1:23
+tuneando emacs cambio los atajos de SPC a atajos directos.
+CLOCK: [2022-10-28 Fri 15:17]--[2022-10-28 Fri 16:00] =>  0:43
+tuneando emacs translate. en-es.
+CLOCK: [2022-10-28 Fri 14:00]--[2022-10-28 Fri 14:43] =>  0:43
+paso revista de changelog de emacs
+CLOCK: [2022-10-29 Sat 15:06]--[2022-10-29 Sat 16:35] =>  1:29
+termine con el bajado de los mensajes con offineimap.
+CLOCK: [2022-10-29 Sat 11:30]--[2022-10-29 Sat 13:15] =>  1:45
+tuneando emacs siguendo con sendmail
+CLOCK: [2022-10-29 Sat 08:32]--[2022-10-29 Sat 09:15] =>  0:43
+tuneando emacs - bajando email con offineimap.
+CLOCK: [2022-10-29 Sat 19:18]--[2022-10-29 Sat 20:17] =>  0:59
+temas varios emacs

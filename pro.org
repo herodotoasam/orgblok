@@ -5824,6 +5824,18 @@ las clases y a comenzar a desarrollar mis propios disenos.
 cada dia que pasa veo que emacs es un entorno para aprender a usarlo a
 largo plazo y es un gran amigo del programador. Facilita las cosas,
 pero tiene una curva de aprendizaje muy empinada.
+*** [2022-10-29 Sat] minimo helix-hell
+    por leer en reddit las entradas de helix quise instalarlo y lo
+    pude hacer en un toque y me puse a verlo pq es similar a meow pero
+    mas tirando a vim. Pero comparado al entorno emacs no tiene nada
+    que ver. Es algo mucho mas simple.
+*** [2022-10-30 Sun] helix-hell kakoune.hell minimos ambos
+    ya terminados. Son entornos todavia muy iniciales. Incluso al lado de
+    nvim. Lo unico que tienen es la idea de la seleccion. Pero con meow la
+    tengo implementada en una forma mucho mas avanzada. Pe. en kakoune es
+    inusable y en helix es muy primitiva al lado de meow. Quizas tengan
+    cosas interesantes como el sourrund pero el sistema emacs es enorme al
+    lado de todo eso.
 
 * Anotaciones
 ** Objetivos
@@ -6706,7 +6718,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 -- aunque ya no estamos en obra y nada impide retomar el trabajo y la
    programacion y/o el estudio me encuentro parado, sin combustible,
    sin inspiracion de continuar.
-timido comienzo muy debil en estudio de js.
+   timido comienzo muy debil en estudio de js.
 ** semana [2020-10-04 Sun] :Flask:
 -- repaso visualmente lo logrado con flask con la idea de retomar la
    programacion, con el concepto que salir del tutorial hell, o sea
@@ -6935,6 +6947,7 @@ timido comienzo muy debil en estudio de js.
 ** semana [2022-10-09 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-16 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-23 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
+** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

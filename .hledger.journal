@@ -12889,7 +12889,7 @@ D $1000.00
 
 2022-10-18 comida y reparacion techo ih
     expenses:comida    $1300
-    expenses:casa:mantenimiento $1000
+    expenses:casa:mantenimiento   $1000
     assets:caja   $-2300
 
 2022-10-20 lomito
@@ -12967,3 +12967,11 @@ D $1000.00
 2022-10-27 carla
     expenses:casa:limpieza   $ 3000
     assets:caja   $ -3000
+
+2022-10-29 lomito
+    expenses:comida   $ 1250
+    assets:caja   $ -1250
+
+2022-10-29 lomito en hiper
+    expenses:comida   $ 2300
+    assets:caja   $ -2300

@@ -252,6 +252,19 @@ CLOSED: [2022-10-26 Wed 18:42]
   hice una nueva hero.asam@yahoo.com
 ** TODO gestion de migrales en emacs
 ** TODO emails en emacs
+[2022-10-29 Sat] mucho reniegue con el sendmail.
+** FIXED meow no muestra los numeros en select
+CLOSED: [2022-10-30 Sun 00:01]
+si andan pero no los muestra. Resuelto. En todos los major modes anda
+bien y no anda en org-mode pq especificamente esta excluido en la
+configuracion no se porque. Por las dudas lo dejo asi.
+** PENDING temas a consultar o investigar de emacs                                     :investigar:
++ [X] ver si podemos hacer un clocking diferenciado de emacs y trabajo y
+  de alguna forma llevar la cuenta de lo que gastamos en emacs.
+  No no es posible. Lo que podria hacerse es hacer otro archivo y
+  copiar todos los clocks. Queda pendiente agregarles outline con
+  fechas pero hay se puede ver que llevo mas de cien horas invertidas
+  en emacs.
 ** IDEA Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
@@ -347,7 +360,7 @@ CLOSED: [2022-10-04 Tue 15:49]
 - State "DONE"       from "TODO"       [2022-10-04 Tue 15:49]
 :END:
 o sea las que se pagaron despues del vto
-*** DONE en mobile no se accede a la base de datos mayormente :bug:axios:
+*** DONE en mobile no se accede a la base de datos mayormente                          :bug:axios:
 CLOSED: [2022-10-07 Fri 18:40]
 :LOGBOOK:
 - State "DONE"       from "BUG"        [2022-10-07 Fri 18:40]
@@ -492,7 +505,7 @@ la unica pega es que esa notacion te descuageringa el flycheck, mas
 que la combino con un {% if para que se dispare unicamente cuando sea pertinente.
 le puse target="_blank" para que abra en un tab aparte y no te
 desconfigure lo que estas haciendo en el fichaje.
-*** DONE explorar el concepto tree en las tablas :chart:graficos:
+*** DONE explorar el concepto tree en las tablas                                  :chart:graficos:
 CLOSED: [2022-10-13 Thu 17:25]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-13 Thu 17:23]
@@ -929,7 +942,26 @@ pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
+** semana [2022-10-30 Sun]
+*** [2022-10-30 Sun]
+:LOGBOOK:
+CLOCK: [2022-10-30 Sun 09:30]--[2022-10-30 Sun 10:00] =>  0:30
+emacs: descubro funcion surround en smartparens
+CLOCK: [2022-10-30 Sun 08:55]--[2022-10-30 Sun 09:30] =>  0:35
+emacs install tree-sitter
+:END:
 ** semana [2022-10-23 Sun]
+*** [2022-10-29 Sat]
+:LOGBOOK:
+CLOCK: [2022-10-29 Sat 19:18]--[2022-10-29 Sat 20:28] =>  1:10
+temas varios emacs
+CLOCK: [2022-10-29 Sat 15:06]--[2022-10-29 Sat 16:35] =>  1:29
+termine con el bajado de los mensajes con offineimap.
+CLOCK: [2022-10-29 Sat 11:30]--[2022-10-29 Sat 13:15] =>  1:45
+tuneando emacs siguendo con sendmail
+CLOCK: [2022-10-29 Sat 08:32]--[2022-10-29 Sat 09:15] =>  0:43
+tuneando emacs - bajando email con offineimap.
+:END:
 *** [2022-10-28 Fri]
 :LOGBOOK:
 CLOCK: [2022-10-28 Fri 21:50]--[2022-10-28 Fri 23:10] =>  1:20
@@ -1573,14 +1605,14 @@ agregue ido vertical mode a emacs y rg
    terminado el crud cuentas
    CLOCK: [2022-09-26 Mon 08:57]--[2022-09-26 Mon 09:39] => 0:42
    termino de poner a punto vim con folder y Files global y Rg
-   :END:
+                                                                                               :END:
 *** [2022-09-25 Sun]
-   :LOGBOOK:
+:LOGBOOK:
    CLOCK: [2022-09-25 Sun 18:30]--[2022-09-25 Sun 21:15] => 2:45
    optimizacion de vim - instalacion de kitty - conf.
    arreglo de bug de org-return
    CLOCK: [2022-09-25 Sun 09:56]--[2022-09-25 Sun 10:48] => 0:52
-   :END:
+  :END:
 ** semana [2022-09-18 Sun]
 *** [2022-09-24 Sat]
 :LOGBOOK:
@@ -1742,7 +1774,7 @@ agregar mas mensajes programables y poner un dropdown
    se reinicio el servidor fedesal.lol
    se instalo de nuevo debian 10
    se instalo todo con nginx
-   :END:
+                                                                                               :END:
 *** [2022-09-16 vie]
    :LOGBOOK:
    CLOCK: [2022-09-16 vie 17:54]--[2022-09-16 vie 18:08] =>  0:14
@@ -1762,7 +1794,7 @@ agregar mas mensajes programables y poner un dropdown
    terminado el cobrado/estimado en planilla recibo
    :END:
 *** [2022-09-15 jue]
-   :LOGBOOK:
+  :LOGBOOK:
    CLOCK: [2022-09-15 jue 20:10]--[2022-09-15 jue 20:31] =>  0:21
    CLOCK: [2022-09-15 jue 17:05]--[2022-09-15 jue 17:37] =>  0:32
    bug irresuelto: no funciona en server pero si en local: imprimir
@@ -1841,9 +1873,18 @@ SCHEDULED: <2022-10-31 Mon .+3d>
 - State "DONE"       from ""           [2022-10-28 Fri 14:17]
 :END:
 **** chequear la baja de server ruby
-SCHEDULED: <2022-10-29 Sat>
+SCHEDULED: <2022-11-01 Tue>
+:LOGBOOK:
+- Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
+:END:
 **** git-mirror
-SCHEDULED: <2022-10-28 Fri .+1w>
+SCHEDULED: <2022-11-06 Sun .+1w>
+:PROPERTIES:
+:LAST_REPEAT: [2022-10-30 Sun 10:02]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2022-10-30 Sun 10:02]
+:END:
 
 * changelog
 ** pass
@@ -1889,9 +1930,9 @@ funcionado y me ha dado la completion pero no una gran cosa.
 [2022-10-20 Thu]
 es muy sano y potente, y me permite tener todo bien acomodadito y
 lograr un inicio super rapido. Ahora estoy en menos de 1.5seg.
-** [2022-10-20 Thu]Cambio sistema: meow
+** [2022-10-20 Thu]Cambio sistema: meow                                                        :meow:
 empece de cero con un .emacs.d nuevo, backupie el anterior y empece a
-hacer un init.el nuevo con straight y solo los packages que uso. Tiene
+hacer un init.el nuevo con straight y solo los packages  Tiene
 una repuesta mas rapida y un inicio rapidisimo (1.31seg) y la
 funcionalidad practicamente es la misma. El undo p.e. anda bien y
 puedo usar el de emacs nativo. En realidad evil interfiere mucho con
@@ -1899,18 +1940,20 @@ emacs.  Y meow en si es interesante hay que darle la chance de
 aprenderlo.
 [2022-10-21 Fri]
 cambios que le hice a la configuracion basica:
-1. |o| para abrir linea debajo porque la A era muy incomoda.
-2. |-| para el cambio de direccion no es muy usado pero es mas rapido
-   que el punto y coma.
-3. |,| quedo , para inner of y ; para bound of
-4. |/| para buscar mucho mas rapido aunque tambien deje a v.
-5. |.| para el repeat que ya esta aprendido. Solo queda ver en que
-   casos meow lo usa.
-6. |+| para borrar linea
-7. |D| para duplicar linea
-8. |d| para seleccionar linea cambie la x que estaba contramano.
-9. |x| para borrar caracter
-10. |JKLH| para seleccionar en bloque, util luego de d
++ |o| para abrir linea debajo porque la A era muy incomoda.
++ |-| para el cambio de direccion no es muy usado pero es mas rapido
+  que el punto y coma.
++ |,| quedo , para inner of y ; para bound of
++ |/| para buscar mucho mas rapido aunque tambien deje a v.
++ |.| para el repeat que ya esta aprendido. Solo queda ver en que
+  casos meow lo usa.
++ |+| para borrar linea
++ |D| para duplicar linea
++ |d| para seleccionar linea cambie la x que estaba contramano.
++ |x| para borrar caracter
++ |JKLH| para seleccionar en bloque, util luego de d
++ |t| till casi no le veo diferencia con f pero son ambos muy utiles
+  para la tarea rapida de busqueda en el area visible tipo avy.
 
 Ademas aprendi sobre beacon con G y multiples cursores lo cual es
 fascinante.
@@ -1992,7 +2035,12 @@ del teclado meow-normal y algunas teclas de funcion:
 + Ch-b te da todos los keybinds que hay pudiendo buscar por key o por
   function en el mismo lugar. Una masita.
 
-
+[2022-10-29 Sat]
+Estoy tan acostumbrado ya a meow que casi no me encuentro en vim puro,
+si bien es cierto que hay algunos teclazos que se sienten bien
+directos como el a para ir al final de la linea y el dw o cw que aca
+es al reves o sea ws o wc pero al final y al cabo creo que meow es muy
+superior en todo. Metido en el ecosistema de emacs.
 
 
 ** irc
@@ -2020,15 +2068,23 @@ doom-modeline.
 la modeline es innovadora, me gustaria ver si es hackeable.
 Lei el programa y parece tener un monton de cosas pero no se
 manifiesta en el uso.
-** solucion tema braces/parentesis
-[2022-10-25 Tue]
-smartparens y C-5 que emula el % de vim
-Lo mejor de todo que hace innecesario el C-5 para ir de llave en llave
-es la funcion que creo que es smartparens de que cuando resaltas una
-llave cuya otra-parte no esta a la vista te la muestra y eso es
-genial.
-Pq yo lo uso en conjuncion con meow-block (O) en javascript y es
-genial para ver que todo el script esta sano.
+** smartparens
+    [2022-10-25 Tue]
+    smartparens y C-5 que emula el % de vim
+    Lo mejor de todo que hace innecesario el C-5 para ir de llave en llave
+    es la funcion que creo que es smartparens de que cuando resaltas una
+    llave cuya otra-parte no esta a la vista te la muestra y eso es
+    genial.
+    Pq yo lo uso en conjuncion con meow-block (O) en javascript y es
+    genial para ver que todo el script esta sano.
+    [2022-10-30 Sun]
+    descubro una nueva funcion tipo vim-surround con smartparens
+    pero hay que mesclar insert-mode de meow y region-emacs
+    por ejemplo: "escribo una parte que tengo que enclosar"
+    sin salir de insert-mode, Ctrl-Space para empezar region y alt-b para
+    ir atras por palabra o {[alt-f para ir adelante cuando termino la region
+    ahi nomas inserto el enclose, que puede ser comillas parentesis o
+    llave lo que quiera.]}
 ** lsp-bridge
 [2022-10-25 Tue]
 asombrosamente rapido. Pero veremos el delay que imprime al escribir.
@@ -2064,3 +2120,29 @@ archivos.
 hay que estudiarlas y ver que pasa.
 ** email notmuch - offlineimap
 [2022-10-28 Fri]
+    parece que el flujo de trabajo es primero que se bajen todos los
+    mensajes al filesystem.
+    Luego establecer un daemon para que lo haga automaticamente. Todo eso
+    lo hace offlineimap. Despues notmuch hace una base de datos con eso y
+    tiene las facilidades de tageo y busqueda.
+    Lo que estoy viendo es que ocupa mucho espacio. Esta bien que hfj024
+    es la cuenta mas grande.
+    logre que funcione notmuch, en busquedas es brutal pero no logre
+    todavia enviar mail.
+    Y falta ver si puedo agregar cuentas a offineimap.
+    hecho- ya estan bajadas.
+    Lo que falta es enviar mail. Da error de autenticacion.
+    No voy a perder mas tiempo en eso por ahora. Yo nunca envio mail. Ya
+    bastante con tener la base de los mails en la compu y tener la forma
+    de buscar para entretenerme un rato.
+** other-window  meow '
+en vez de usar el M-o de ace-window tengo esa rotacion instantanea con
+el apostrofe.
+** treemacs en org te permite navegar rapidamente en archivos largos
+y luego lo cerras con F4
+** C-1.2.3.4 etc es como Cu - num
+o sea C4 Cx-TAB TAB te indenta a 4 espacios.
+** C-i indentar
+te indenta la region. Lo probe con python y funciona joya.
+** tree-sitter
+[2022-10-30 Sun] por ahora no veo diferencia.
