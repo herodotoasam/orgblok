@@ -276,6 +276,11 @@ en las configuraciones
 **** kbd: listado de todos los atajos de teclado que estan seteados y
 son usables eventualmente.
 **** funciones: listado de funciones y su analisis correspondiente.
+*** elisp
+[2022-10-30 Sun] pienso que seria bueno darle prioridad a elisp por
+sobre tailwind ya que no en el corto plazo veo la posibilidad de
+cambio en el sistema general hacia tailwind pero si veo posibilidades
+de aplicacion de elisp.
 *** git
 tengo para leer el libro epub del tema que es fascinante.
 *** tailwind
@@ -283,7 +288,6 @@ es un fascinante marco para aprender.
 [2022-10-24 Mon]  instalacion de PostCSS y de tailwindCSS. primeros pasos
 *** alpinejs
 *** org
-*** elisp
 *** javascript
 * agenda programacion
 ** DONEs
@@ -813,7 +817,12 @@ ver si aparece algun error nuevo y se confirma que no hay mas error.
    pasando el cliente ahi mismo. Al menos con los datos que tenemos. Y
    registrar la autorizacion. Y los datos del seven. Es un flujo de
    trabajo que no creo que sea muy gravoso.
-** PENDING transformar Vue en alpinejs [100%]
+** TODO hacer un cuadro resumen de santander ingresos por mes
+cuadro de barras a dos barras por mes con ingresos y egresos pq en la
+pagina "cuadro" no se alcanza a ver el ingreso de depositos de
+cobradores que no es un ingreso real, pero si es un movimiento de
+cuenta que puede ser perseguido por impositiva.
+** PENDING transformar Vue en alpinejs [33%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -822,106 +831,113 @@ en general que tengan un diseno uniforme.
 Saque las dependencias de Vue/Buefy y BulmaToast.
 Faltaria recorrer todos los archivos y ver que cumplan el formato
 nuevo, hay algunos que todavia falta corregir.
-*** DONE asuntos.html
++ [ ] carpeta stock
++ [X] carpeta ventas
++ [ ] carpeta pagos
++ [ ] clientes
++ [ ] carpeta fichas
++ [X] carpeta utilidades
+*** refactorizados a alpinejs
+**** DONE asuntos.html
 CLOSED: [2022-10-27 Thu 15:31]
 termino borrando pagina que no se usa mas
-*** DONE mudados.html
+**** DONE mudados.html
 CLOSED: [2022-10-27 Thu 15:32]
 termino borrando pagina que no se usa mas pq el proceso ahora se hace
 de otra forma
-*** DONE estimados.html
+**** DONE estimados.html
 CLOSED: [2022-10-27 Thu 12:02]
-*** DONE editarrbo.html
+**** DONE editarrbo.html
 CLOSED: [2022-10-27 Thu 11:17]
-*** DONE cobr.html
+**** DONE cobr.html
 CLOSED: [2022-10-24 Mon 12:50]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-24 Mon 12:50]
 :END:
-*** DONE fichaje.html
+**** DONE fichaje.html
 CLOSED: [2022-10-26 Wed 19:11]
-*** DONE totales.html
+**** DONE totales.html
 CLOSED: [2022-10-21 Fri 10:31]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-21 Fri 10:31]
 :END:
 hice un grafico por mes y tambien una correccion por inflacion muy genial
-*** DONE planillas.html
+**** DONE planillas.html
 CLOSED: [2022-10-19 Wed 14:32]
 :LOGBOOK:
 - State "DONE"       from "TODO"    [2022-10-19 Wed 14:32]
 :END:
-*** DONE verzona.html
+**** DONE verzona.html
 CLOSED: [2022-10-19 Wed 12:23]
 :LOGBOOK:
 - State "DONE"       from "TODO"    [2022-10-19 Wed 12:23]
 :END:
-*** DONE compras.html
+**** DONE compras.html
 CLOSED: [2022-10-17 Mon 12:01]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-17 Mon 12:01]
 :END:
-*** DONE mayor.html
+**** DONE mayor.html
 closed: [2022-10-17 Mon 12:41]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-17 Mon 12:41]
 :END:
-*** DONE verstock.html
+**** DONE verstock.html
 CLOSED: [2022-10-17 Mon 18:41]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-17 Mon 18:41]
 :END:
-*** DONE salidas.html
+**** DONE salidas.html
 CLOSED: [2022-10-17 Mon 15:23]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-17 Mon 15:23]
 :END:
-*** DONE impresos.html
+**** DONE impresos.html
 CLOSED: [2022-10-17 Mon 10:16]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-17 Mon 10:16]
 :END:
-*** DONE pdfsistema.html
+**** DONE pdfsistema.html
 CLOSED: [2022-10-17 Mon 10:13]
 :LOGBOOK:
 - State "DONE"       from  "TODO"            [2022-10-17 Mon 10:13]
 :END:
-*** DONE planos.html
+**** DONE planos.html
 CLOSED: [2022-10-17 Mon 10:07]
 :LOGBOOK:
 - State "DONE"       from "TODO"       [2022-10-17 Mon 10:07]
 :END:
-*** DONE clientes.html
+**** DONE clientes.html
 CLOSED: [2022-10-18 Tue 13:52]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 13:52]
 :END:
-*** DONE barrios.html
+**** DONE barrios.html
 CLOSED: [2022-10-17 Mon 20:16]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-17 Mon 20:16]
 :END:
-*** DONE zonas.html
+**** DONE zonas.html
 CLOSED: [2022-10-18 Tue 10:51]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 10:51]
 :END:
-*** DONE calles.html
+**** DONE calles.html
 CLOSED: [2022-10-18 Tue 11:13]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 11:13]
 :END:
-*** DONE cancelados.html
+**** DONE cancelados.html
 CLOSED: [2022-10-18 Tue 13:25]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 13:25]
 :END:
-*** DONE listado.html
+**** DONE listado.html
 CLOSED: [2022-10-18 Tue 14:37]
 :LOGBOOK:
 - State "DONE"       from "TODO"        [2022-10-18 Tue 14:37]
 :END:
-*** DONE ventas.html
+**** DONE ventas.html
 CLOSED: [2022-10-20 Thu 17:04]
 :LOGBOOK:
 - State "DONE"       from "PENDING"    [2022-10-20 Thu 17:04]
@@ -934,17 +950,44 @@ cumplieron.
 Lo logre con css pseudoclase :required y con html pattern
 Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
-*** DONE signup.html
+**** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
-** TODO hacer un cuadro resumen de santander ingresos por mes
-cuadro de barras a dos barras por mes con ingresos y egresos pq en la
-pagina "cuadro" no se alcanza a ver el ingreso de depositos de
-cobradores que no es un ingreso real, pero si es un movimiento de
-cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
 ** semana [2022-10-30 Sun]
+*** [2022-10-31 Mon]
+:LOGBOOK:
+CLOCK: [2022-10-31 Mon 18:45]--[2022-10-31 Mon 19:14] =>  0:29
+elisp
+CLOCK: [2022-10-31 Mon 18:00]--[2022-10-31 Mon 18:43] =>  0:43
+instaling flatpak epiphany
+CLOCK: [2022-10-31 Mon 17:10]--[2022-10-31 Mon 17:41] =>  0:31
+elisp
+CLOCK: [2022-10-31 Mon 16:30]--[2022-10-31 Mon 17:08] =>  0:38
+probando otra terminal: alacritty sin exito.
+CLOCK: [2022-10-31 Mon 15:38]--[2022-10-31 Mon 16:28] =>  0:50
+refactorizo ventasxdia- termino carpeta ventas.
+CLOCK: [2022-10-31 Mon 14:50]--[2022-10-31 Mon 15:35] =>  0:45
+arreglado crontab y i3bar
+CLOCK: [2022-10-31 Mon 12:40]--[2022-10-31 Mon 13:15] =>  0:35
+termino de factorizar pivot-devoluciones
+CLOCK: [2022-10-31 Mon 12:05]--[2022-10-31 Mon 12:29] =>  0:24
+suscribiendo cuenta en disroot.org
+CLOCK: [2022-10-31 Mon 09:55]--[2022-10-31 Mon 12:05] =>  2:10
+refactorizacion pivot-devoluciones
+CLOCK: [2022-10-31 Mon 08:05]--[2022-10-31 Mon 09:54] =>  1:49
+refactorizacion: devoluciones
+CLOCK: [2022-10-31 Mon 07:49]--[2022-10-31 Mon 08:03] =>  0:14
+configuracion de i3 bar
+:END:
 *** [2022-10-30 Sun]
 :LOGBOOK:
+CLOCK: [2022-10-30 Sun 17:45]--[2022-10-30 Sun 20:00] =>  2:15
+emacs: variantes en fonts y themes.(Con correccion de bug.)
+hice crontab para offlineimap-notmuch
+CLOCK: [2022-10-30 Sun 16:41]--[2022-10-30 Sun 17:41] =>  1:00
+i3: install i3 on fedora.
+CLOCK: [2022-10-30 Sun 12:45]--[2022-10-30 Sun 13:34] =>  0:49
+emacs: reformulo tema parentheses
 CLOCK: [2022-10-30 Sun 09:30]--[2022-10-30 Sun 10:00] =>  0:30
 emacs: descubro funcion surround en smartparens
 CLOCK: [2022-10-30 Sun 08:55]--[2022-10-30 Sun 09:30] =>  0:35
@@ -2068,7 +2111,7 @@ doom-modeline.
 la modeline es innovadora, me gustaria ver si es hackeable.
 Lei el programa y parece tener un monton de cosas pero no se
 manifiesta en el uso.
-** smartparens
+** tema parentheses
     [2022-10-25 Tue]
     smartparens y C-5 que emula el % de vim
     Lo mejor de todo que hace innecesario el C-5 para ir de llave en llave
@@ -2079,12 +2122,16 @@ manifiesta en el uso.
     genial para ver que todo el script esta sano.
     [2022-10-30 Sun]
     descubro una nueva funcion tipo vim-surround con smartparens
-    pero hay que mesclar insert-mode de meow y region-emacs
+    pero hay que mesclar insert-mode  de meow y region-emacs
     por ejemplo: "escribo una parte que tengo que enclosar"
     sin salir de insert-mode, Ctrl-Space para empezar region y alt-b para
     ir atras por palabra o {[alt-f para ir adelante cuando termino la region
     ahi nomas inserto el enclose, que puede ser comillas parentesis o
     llave lo que quiera.]}
+    Lamentablemente no puedo volver a replicar la funcion.
+    La funcion que realmente necesito la da rainbow. Y show-paren, y
+    electric-pair te da los dos parentesis.
+
 ** lsp-bridge
 [2022-10-25 Tue]
 asombrosamente rapido. Pero veremos el delay que imprime al escribir.

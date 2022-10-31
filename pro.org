@@ -5836,6 +5836,16 @@ pero tiene una curva de aprendizaje muy empinada.
     inusable y en helix es muy primitiva al lado de meow. Quizas tengan
     cosas interesantes como el sourrund pero el sistema emacs es enorme al
     lado de todo eso.
+    Me puse a ver a fondo helix y es un proto-editor. Al lado de emacs
+    no tiene nada que mostrar salvo su arranque en cero segundos. Pero
+    tambien emacs sin paquetes arranca en cero segundos. Yo tengo 104
+    paquetes y re-arranco en 1.67seg. pero tengo 104 paquetes!!!!. O
+    sea una guasada.
+    Sacandole notmuch/virtualenv tengo 1.34seg no se si vale la pena,
+    pero hay que ver.
+    Despues de la prueba los volvi a instalar y me da un re-arranque
+    en 1.62seg lo cual no esta mal.
+
 
 * Anotaciones
 ** Objetivos
@@ -6947,7 +6957,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 ** semana [2022-10-09 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-16 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-23 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
-** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
+** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:elisp:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

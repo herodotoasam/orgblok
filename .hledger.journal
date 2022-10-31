@@ -12975,3 +12975,7 @@ D $1000.00
 2022-10-29 lomito en hiper
     expenses:comida   $ 2300
     assets:caja   $ -2300
+
+2022-10-31 nafta
+    expenses:transporte:nafta   $ 2000
+    assets:caja   $ -2000

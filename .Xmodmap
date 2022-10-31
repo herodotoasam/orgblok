@@ -2,6 +2,7 @@ clear Lock
 keycode 66 = Escape
 keycode 108 = Mode_switch
 keycode 61 = slash underscore minus
+keycode 49 = bar masculine
 keycode 60 = period colon asciitilde
 keycode 35 = asterisk greater grave
 keycode 34 = plus less dead_circumflex
@@ -15,6 +16,6 @@ keycode 12 = 3 numbersign
 keycode 10 = 1 exclam bar
 keycode 48 = braceleft bracketleft parenleft
 keycode 51 = braceright bracketright parenright
-add Lock = Print
+add Lock = Menu
 
 

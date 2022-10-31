@@ -10,3 +10,4 @@ para el dia.
 * [2022-10-23 Sun] nano light y dark
 * [2022-10-25 Tue] doom-nord
 * [2022-10-27 Thu] sanytyinc-tomorrow-night
+* [2022-10-30 Sun] doom-nord-aurora

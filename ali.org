@@ -9031,3 +9031,24 @@ tarde se pasa el dia en un ratito.
 ** [2022-10-30 Sun]
 me levante temprano al pedo, pq me dormi muy tarde y al final no tengo
 nada para hacer y tengo un terrible sueno.
+** [2022-10-31 Mon] :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQv+MmMsdJv6Q9bN++DOUda1xSf/mNQ9reXhyv4MM7CgfnBh
+oid7QKWMR0sHAhPPT8qzYJNMln52/2OHoc/Wb60x3Z5OldghOaTDzcdT1cFJ/yrf
+TPFYlaGTgO+1AfWcokhJjt5T8f8S6ilTnP1x3rLgfAUi3ABmuOe+TuIal0RSZifM
+9aLlxg2ArsOoWyWlOnu4VtZkUKqfPe+t1IOgiKUHVGfKcJjvGImnYygIcat9QJcz
+UFp6VwrDqRkBpRDCKVXroB52qv4UJWgLSgSd5rDDO3YOwB898Lea6VUWGFY9VysF
+NJBADQnSMPRxvH5U5Q2EkrssV9LWu/BMHgQ+k+2saysbmyWgSY5GTLAf9kbE+zNZ
+Dwvak43HV/HfbzDvo/1BuAacGVFYxMhfMmudUML+wP/EnD8uSUYk1RUmht4dnff/
+etgHsGxz+Coc/G+hTvfDuHosRV6GzSmhV72UylnOO2D1p16d6QZFzNy+Od3geFah
+GXwN58pKNJsBC0kblgdD1MCMAQkCEF98IowU2m6jhX+qSwoJJkPHH3GA9GHVV0GF
+Lp9zTWugialx8SeVRi3h41eQzXJ7so0Pum2zZb4QCnKdIsonqSUJcFm9StgJ4JyL
+h3UcKECPEr3NKeX4D06weQyhceKtkYJnfghV6rhjPF0h6kw2C/cEbj//90U6+sXd
+hEHfPMlJbVCgZQ6Tr1gAQhtTX9aKExaE2nKvRQfTCBdsT9z9i95qDIBsqXQRocPi
+mIrH80p/3fFM3rsTILBnR/Ffl0mcJcfZfO9VmQ5o/yGYVbn0stbNJ0/vaJ5zK9N3
+TMfE/g9tOo3ux1kPqCoAqJVqNQRt9Pi1XST+OYcoT9XXG4MszKRMdhYZ2Paz49IT
+oAJh8gR4cnnqOrimAs+eIpSCDAeL9iG8AjpMJd8LlkxCT0ZxHfb2ccPGQ09VfQ6R
+8u3+RGlGt7O2QQzJpKE=
+=61Yv
+-----END PGP MESSAGE-----
