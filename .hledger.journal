@@ -12979,3 +12979,15 @@ D $1000.00
 2022-10-31 nafta
     expenses:transporte:nafta   $ 2000
     assets:caja   $ -2000
+
+2022-11-01 regalo euge
+    expenses:personal:regalos   $ 700
+    assets:caja   $ -700
+
+2022-11-01 comida ih
+    expenses:isabel   $ 14000
+    assets:caja   $ -14000
+
+2022-11-01 colocacion de aire ih
+    expenses:casa:mantenimiento   $ 12000
+    assets:caja   $ -12000

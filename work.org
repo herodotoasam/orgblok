@@ -142,6 +142,11 @@ Al [2022-10-20 Thu] despues de varios dias del cambio a xorg sigo con
 remaper sin enie. No recuerdo a la manana hacer la rutina de
 desactivar el remaper y activar solo el xmodmap, tendria que
 investigar como hacerlo automatico en fedora. Pongo pending.
+[2022-10-30 Sun]me pase a i3 y andamos fantastico. Eso me permitio
+poner el teclado en latam, y activar el xmodmap al inicio, como
+siempre lo hice, pero a veces me falla no se porque. Desactive ya el
+remapper.
+Dejo pendiente hasta solucionar el tema de que a veces no arranca el xmodmap.
 ** DONE arreglar hledger
 closed: [2022-10-15 Sat 22:15]
 :LOGBOOK:
@@ -178,13 +183,16 @@ Establecer una estrategia de cambio de maquina con respecto a las claves
 + [X] ver de automatizar el uso del venv nuevo
 + [X] resolver el tema completion en python mode
 + [ ] aprender las opciones de menu de python mode
-** PENDING bug-emacs o fedora?
+** FIXED bug-emacs o fedora?
+CLOSED: [2022-11-02 Wed 12:30]
 al arrancar arranca minimizado y con el dashboard default pq no puede
 leer el dibujo. y arranca en scratch. Y si hago restart no arranca mas
 y tengo que matar proceso en fedora.
 Si lo arranco en terminal con debug anda bien y tambien como emacs
 solo y tambien anda bien arrancando con altF2
 o sea que es un problema del arrancador de fedora.
+Con el paso a i3 tengo un atajo para iniciar emacs y no he tenido
+problemas por eso pongo fixed.
 ** TODO completion
 css/python/orgmode no anda
 el resto anda dabbrev ahora anda python y orgmode el unico que no es
@@ -832,6 +840,11 @@ Saque las dependencias de Vue/Buefy y BulmaToast.
 Faltaria recorrer todos los archivos y ver que cumplan el formato
 nuevo, hay algunos que todavia falta corregir.
 + [ ] carpeta stock
+  proveedores
+  retiros
+  salidas
+  verstock
+  wapp
 + [X] carpeta ventas
 + [ ] carpeta pagos
 + [ ] clientes
@@ -954,6 +967,48 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-10-30 Sun]
+*** [2022-11-02 Wed]
+:LOGBOOK:
+CLOCK: [2022-11-02 Wed 11:55]--[2022-11-02 Wed 12:17] =>  0:22
+termino de refactorizar pivot-cuentas renegue mucho
+CLOCK: [2022-11-02 Wed 09:40]--[2022-11-02 Wed 11:40] =>  2:00
+refactorizando pivot-cuentas
+CLOCK: [2022-11-02 Wed 09:20]--[2022-11-02 Wed 09:32] =>  0:12
+intento diario de sent-messages: infructuoso
+CLOCK: [2022-11-02 Wed 08:56]--[2022-11-02 Wed 09:19] =>  0:23
+inicio del dia. Agenda del migral.
+:END:
+*** [2022-11-01 Tue]
+:LOGBOOK:
+CLOCK: [2022-11-01 Tue 20:35]--[2022-11-01 Tue 20:54] =>  0:19
+emacs: investigo sobre diccionarios en español.
+CLOCK: [2022-11-01 Tue 19:42]--[2022-11-01 Tue 20:32] =>  0:50
+indexado por grupo y tipo por pandas. Falta poner subtotales.
+CLOCK: [2022-11-01 Tue 17:00]--[2022-11-01 Tue 17:00] =>  0:00
+arreglando pivot-cuentas faltaria hacer un orden que debe ser hecho a
+mano manipulando el table. O buscar en pandas la solucion.
+CLOCK: [2022-11-01 Tue 15:06]--[2022-11-01 Tue 16:15] =>  1:09
+elisp
+CLOCK: [2022-11-01 Tue 13:56]--[2022-11-01 Tue 14:10] =>  0:14
+elisp
+CLOCK: [2022-11-01 Tue 12:25]--[2022-11-01 Tue 12:37] =>  0:12
+corrijo bug salidas
+CLOCK: [2022-11-01 Tue 12:00]--[2022-11-01 Tue 12:25] =>  0:25
+viendo el 1.log y depurando algunos bugs de emergencia
+CLOCK: [2022-11-01 Tue 11:20]--[2022-11-01 Tue 11:50] =>  0:30
+renegando con send-mail pero avance bastante
+CLOCK: [2022-11-01 Tue 10:56]--[2022-11-01 Tue 11:16] =>  0:20
+refactorizacion: cuentas
+CLOCK: [2022-11-01 Tue 10:19]--[2022-11-01 Tue 10:54] =>  0:35
+refactorizacion: compras y cuadro
+CLOCK: [2022-11-01 Tue 09:11]--[2022-11-01 Tue 09:55] =>  0:44
+comienzo carpeta stock: articulos y asientos
+CLOCK: [2022-11-01 Tue 08:17]--[2022-11-01 Tue 09:10] =>  0:53
+hice funcionar disroot en offineimap pero aun no puedo enviar mensajes
+CLOCK: [2022-11-01 Tue 08:00]--[2022-11-01 Tue 08:09] =>  0:09
+reniego con un bug de i3 que no arranca y habia un error en el seteo
+del layout era latam no es. Pero lo mismo no lo toma.
+:END:
 *** [2022-10-31 Mon]
 :LOGBOOK:
 CLOCK: [2022-10-31 Mon 18:45]--[2022-10-31 Mon 19:14] =>  0:29
@@ -1882,8 +1937,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-01 Tue> DEADLINE: <2022-10-25 Tue>
+SCHEDULED: <2022-11-08 Tue> DEADLINE: <2022-10-25 Tue>
 :LOGBOOK:
+- Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:03]
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
 **** TODO seven
@@ -1908,16 +1964,18 @@ SCHEDULED: <2022-11-22 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-10-31 Mon .+3d>
+SCHEDULED: <2022-11-05 Sat .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-10-28 Fri 14:17]
+:LAST_REPEAT: [2022-11-02 Wed 09:05]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-02 Wed 09:05]
 - State "DONE"       from ""           [2022-10-28 Fri 14:17]
 :END:
 **** chequear la baja de server ruby
-SCHEDULED: <2022-11-01 Tue>
+SCHEDULED: <2022-11-05 Sat>
 :LOGBOOK:
+- Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:04]
 - Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
 :END:
 **** git-mirror
@@ -1928,6 +1986,8 @@ SCHEDULED: <2022-11-06 Sun .+1w>
 :LOGBOOK:
 - State "DONE"       from ""           [2022-10-30 Sun 10:02]
 :END:
+**** actualizar tabla inflacion
+SCHEDULED: <2023-01-12 Thu .+1m>
 
 * changelog
 ** pass

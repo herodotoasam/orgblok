@@ -5845,7 +5845,12 @@ pero tiene una curva de aprendizaje muy empinada.
     pero hay que ver.
     Despues de la prueba los volvi a instalar y me da un re-arranque
     en 1.62seg lo cual no esta mal.
-
+** 2022-Noviembre
+*** [2022-11-01 Tue] elisp
+La idea es meterle con elisp a fondo pq hay una causa que es ya la
+completa adopcion de emacs, demostrada luego de estas 100hs tuneando
+emacs. en el ultimo mes. Lo encuentro por demas interesante y creo que
+lo voy a aprender rapido y tendre otro lenguaje mas para adelante.
 
 * Anotaciones
 ** Objetivos
