@@ -258,7 +258,9 @@ CLOSED: [2022-10-26 Wed 18:42]
   se complica pq las funciones imap y pop3 que se requieren la mayoria
   de esos servicios la consideran premium.
   hice una nueva hero.asam@yahoo.com
-** TODO gestion de migrales en emacs
+** DONE gestion de migrales en emacs
+CLOSED: [2022-11-03 Thu 18:46]
+ya hice el mensual y ahora estoy llevando el diario.
 ** TODO emails en emacs
 [2022-10-29 Sat] mucho reniegue con el sendmail.
 ** FIXED meow no muestra los numeros en select
@@ -273,6 +275,17 @@ configuracion no se porque. Por las dudas lo dejo asi.
   copiar todos los clocks. Queda pendiente agregarles outline con
   fechas pero hay se puede ver que llevo mas de cien horas invertidas
   en emacs.
+** terminales
++ terminator:
+  mala experiencia da errores y no es linda
++ kitty:
+  muy linda y rapida, pero confunde los renglones con ssh
++ alacrytty:
+  idem kitty
++ roxterm
+  recien la pruebo hoy [2022-11-02 Wed] es un gnome-terminal liviano
+  que se configura igual y es rapida y eficiente hasta ahora.
+
 ** IDEA Idea plan de estudios
 Se me ocurrio anoche una idea y es tener un esquema de materias para
 profundizar
@@ -727,14 +740,90 @@ alpinejs como choices.js. [2022-10-27 Thu]
 parece ser una bomba en autocomplete.
 lo dejo para un futuro. Acabo de poner todo con autocomplete y parece
 que a los usuarios les gusta y es una opcion rapida y segura.
-** TODO ver de incorporar los botones a submenu
-   y/o de cambiar el menu directamente a bulma menu
-** TODO explorar y pasarse a bulma menu-bar
-** TODO whatsapp de imagenes
-** TODO folleto automatico
-** TODO ver la forma de ordenar las columnas de logwapp el datatable
+*** FIXED fecha-ultima-wapp no marca
+CLOSED: [2022-11-02 Wed 19:02]
+la fechaultwapp se pone con un trigger
+#+begin_src sql
+update clientes set fechaultwapp = new.fecha where clientes.id = new.idcliente
+#+end_src
+el problema primero era que la fecha no la parseaba bien al entrar:
+#+begin_src js
+                     if (row.fechaultwapp){
+                         row.fechaultwapp = dayjs.utc(row.fechaultwapp).format("YYYY-MM-DD");
+                     }
+#+end_src
+y despues que habia un error inexplicable en la condicion que aplicaba
+la clase de marcado:
+#+begin_src html
+          <td x-text="cliente.wapp" :class="dayjs.utc().diff(cliente['fechaultwapp'],'d')==0&&
+                      dayjs.utc().diff(cliente['fechaultwapp'],'d')<11?'wapp':''"></td>
+#+end_src
+como se puede ver se exigia que la diff fuera 0 y ademas menor que 11,
+o sea que la unica que podia cumplir era 0.
+#+begin_src html
+          <td x-text="cliente.wapp" :class="dayjs.utc().diff(cliente['fechaultwapp'],'d')<30?'wapp':''"></td>
+#+end_src
+ahora lo puse en 30 dias.
+*** FIXED mandar un lote de wapp hace que se trabe la cola
+CLOSED: [2022-11-02 Wed 18:54]
+viendo 1.log:
+2022-10-31 10:47:49 -0300] [18842] [CRITICAL] WORKER TIMEOUT
+luego de ciertos numeros de wapps enviados.
+
+Is this endpoint taking too many time?
+
+Maybe you are using flask without asynchronous support, so every
+request will block the call. To create async support without make
+difficult, add the gevent worker.
+
+With gevent, a new call will spawn a new thread, and you app will be
+able to receive more requests
+
+hice pip install gevent  en el .venv
+
+luego de eso se vio:
+2022-11-02 18:43:41 -0300] [8931] [INFO] Using worker: gevent
+en vez de:
+2022-10-27 17:45:47 -0300] [22032] [INFO] Using worker: sync
+
+veremos que pasa.
+[[https://stackoverflow.com/questions/10855197/gunicorn-worker-timeout-error]]
+
+
+*** DONE ver la forma de ordenar las columnas de logwapp el datatable
+CLOSED: [2022-11-03 Thu 12:37]
 aparentemente la culpa la tendria jsonify
 y ponerlo accesible desde utilidades
+[2022-11-03 Thu]
+la solucion fue simple, despues de renegar con una solucion de google,
+hacer un loop y reasignar los items en un nuevo objeto y hacer un
+nuevo array.
+#+begin_src js
+        wapps_ = res.data.wapps
+        wapps = []
+        for(let item of wapps_){
+            let obj = {
+            id:item.id,
+            idcliente:item.idcliente,
+            fecha:item.fecha,
+            wapp:item.wapp,
+            response:item.response,
+            user:item.user,
+            msg:item.msg,
+            file:item.file,
+            enviado:item.enviado,
+            timein:item.timein,
+            timeout:item.timeout
+            }
+            wapps.push(obj)
+        }
+#+end_src
+no podia ser mas simple.
+** TODO explorar y pasarse a bulma menu-bar
+** TODO ver de incorporar los botones a submenu
+   y/o de cambiar el menu directamente a bulma menu
+** TODO whatsapp de imagenes
+** TODO folleto automatico
 ** TODO concepto de analisis automatico efectividad de promocion
 Aplicable en primer caso a las visitas a clientes y en segundo a los
 whatsapp de venta.
@@ -830,7 +919,7 @@ cuadro de barras a dos barras por mes con ingresos y egresos pq en la
 pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
-** PENDING transformar Vue en alpinejs [33%]
+** PENDING transformar Vue en alpinejs [50%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -839,14 +928,15 @@ en general que tengan un diseno uniforme.
 Saque las dependencias de Vue/Buefy y BulmaToast.
 Faltaria recorrer todos los archivos y ver que cumplan el formato
 nuevo, hay algunos que todavia falta corregir.
-+ [ ] carpeta stock
-  proveedores
-  retiros
-  salidas
-  verstock
-  wapp
++ [X] carpeta stock
 + [X] carpeta ventas
 + [ ] carpeta pagos
+  loterbo
+  loterbover
+  pagos
+  planillas
+  totales
+  verzona
 + [ ] clientes
 + [ ] carpeta fichas
 + [X] carpeta utilidades
@@ -967,8 +1057,40 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-10-30 Sun]
+*** [2022-11-03 Thu]
+:LOGBOOK:
+CLOCK: [2022-11-03 Thu 18:10]--[2022-11-03 Thu 18:44] =>  0:34
+reparacion bug de emergencia en retiros por cambio de mes, se
+produjeron unos desajustes.
+CLOCK: [2022-11-03 Thu 18:04]--[2022-11-03 Thu 18:10] =>  0:06
+jugando con emacs-nw es todo igual pero no andan atajos de org.
+CLOCK: [2022-11-03 Thu 16:24]--[2022-11-03 Thu 17:55] =>  1:31
+refactorizo estimados: pierdo muchisimo tiempo por generalizar una
+funcion totalizar_tabla en una tabla pivot con dos th verticales.
+CLOCK: [2022-11-03 Thu 16:15]--[2022-11-03 Thu 16:24] =>  0:09
+CLOCK: [2022-11-03 Thu 14:10]--[2022-11-03 Thu 15:29] =>  1:19
+refactorizacion:altas y bajas con mensaje de ayuda
+CLOCK: [2022-11-03 Thu 13:50]--[2022-11-03 Thu 14:10] =>  0:20
+varios temas - nuevo intento de send mail: negativo
+CLOCK: [2022-11-03 Thu 11:41]--[2022-11-03 Thu 12:35] =>  0:54
+refactorizo wapp lo incorpore a utilidades y ordene los campos
+CLOCK: [2022-11-03 Thu 09:47]--[2022-11-03 Thu 11:12] =>  1:25
+refactorizo salidas- verstock renegue un monton.
+CLOCK: [2022-11-03 Thu 08:51]--[2022-11-03 Thu 09:40] =>  0:49
+inicio del dia- caja- impresion de boletas-
+:END:
 *** [2022-11-02 Wed]
 :LOGBOOK:
+CLOCK: [2022-11-03 Thu 20:30]--[2022-11-02 Wed 20:56] => -23:34
+cambio de terminal: roxterm
+CLOCK: [2022-11-02 Wed 19:50]--[2022-11-02 Wed 20:30] =>  0:40
+refactorizacion retiros con dos graficos
+CLOCK: [2022-11-02 Wed 19:20]--[2022-11-02 Wed 19:38] =>  0:18
+refactorizacion: proveedores
+CLOCK: [2022-11-02 Wed 18:00]--[2022-11-02 Wed 19:05] =>  1:05
+solucionando dos bugs del sistema
+CLOCK: [2022-11-02 Wed 12:20]--[2022-11-02 Wed 12:45] =>  0:25
+temas varios free-time
 CLOCK: [2022-11-02 Wed 11:55]--[2022-11-02 Wed 12:17] =>  0:22
 termino de refactorizar pivot-cuentas renegue mucho
 CLOCK: [2022-11-02 Wed 09:40]--[2022-11-02 Wed 11:40] =>  2:00
@@ -1937,8 +2059,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-08 Tue> DEADLINE: <2022-10-25 Tue>
+SCHEDULED: <2022-11-10 Thu> DEADLINE: <2022-10-25 Tue>
 :LOGBOOK:
+- Rescheduled from "[2022-11-08 Tue]" on [2022-11-03 Thu 09:07]
 - Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:03]
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
@@ -2253,3 +2376,5 @@ o sea C4 Cx-TAB TAB te indenta a 4 espacios.
 te indenta la region. Lo probe con python y funciona joya.
 ** tree-sitter
 [2022-10-30 Sun] por ahora no veo diferencia.
+** calc
+[2022-11-03 Thu] es muy comoda y si la aprendes a usar es mejor que la otra.

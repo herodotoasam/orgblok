@@ -12991,3 +12991,20 @@ D $1000.00
 2022-11-01 colocacion de aire ih
     expenses:casa:mantenimiento   $ 12000
     assets:caja   $ -12000
+
+2022-11-02 semana cami
+    expenses:cami:mesada   $ 3000
+    expenses:cami:comida   $ 11000
+    assets:caja   $ -14000
+
+2022-11-03 saco reserva
+    assets:caja   $ 90000
+    assets:reserva   $ -90000
+
+2022-11-03 mercaderia retiro cami
+    expenses:cami:extras   $ 2200
+    income:retiro-sociedad   $ -2200
+
+2022-11-03 carla
+    expenses:casa:limpieza   $ 3000
+    assets:caja   $ -3000

@@ -1474,12 +1474,7 @@ cuando esperaba a ih en el hp que se hiciera los analisis, ese estuvo
 de mas, y luego a la siesta ya estaba molesto y tome 10mg de
 cortypiren y a las 22hs estaba detonado y tome el tercero que fue mas
 o menos eficiente.
-* tratamientos naturales
-** 10 dias de masajes de cervical
-** 10 dias de arroz yamani
-*** TODO comprar arroz yamani
-SCHEDULED: <2022-10-24 Mon>
-* toma de migral
+*** toma de migral
 |  año | mes | cnt |
 | 2017 |  11 |   4 |
 | 2017 |  12 |  10 |
@@ -1542,3 +1537,16 @@ SCHEDULED: <2022-10-24 Mon>
 | 2022 |  09 |  43 |
 | 2022 |  10 |  51 |
 | 2022 |  11 |     |
+* tratamientos naturales
+** 10 dias de masajes de cervical
+** 10 dias de arroz yamani
+*** TODO comprar arroz yamani
+SCHEDULED: <2022-10-24 Mon>
+** 10 dias de licuado
+| 1 | [2022-11-03 Thu] |
+|   |                  |
+* registro migral
+** Noviembre 2022
+| [2022-11-01 Tue] | 2 |
+| [2022-11-02 Wed] | 1 |
+| [2022-11-03 Thu] | 2 |

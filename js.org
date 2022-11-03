@@ -1,0 +1,11 @@
+* clone una row y cambiarla de posicion
+#+begin_src js
+    let $rowTotalclone = $rowTotal.cloneNode(true)
+    tbody.appendChild($rowTotalclone)
+    tbody.insertBefore($rowTotalclone, tbody.firstChild)
+#+end_src
+primero clonamos el elemento.
+despues lo agregamos al parent que queremos. (ahi estuvo el error pq
+yo lo agregue al comienzo a table, lo cual no estaba mal, pero despues
+me dio error con la funcion totalizar)
+y con insertBefore lo cambiamos de posicion.
