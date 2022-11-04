@@ -13008,3 +13008,7 @@ D $1000.00
 2022-11-03 carla
     expenses:casa:limpieza   $ 3000
     assets:caja   $ -3000
+
+2022-11-04 comida
+    expenses:comida   $ 1360
+    income:retiro-sociedad   $ -1360

@@ -5208,7 +5208,7 @@ produce ese estado de soñolencia.
     especificos, ya sea en el estudio y practica, y no tener estos
     dias como hoy tan escasos y trabados por el dolor de cabeza.
 *** objetivo spining
-    ya tengo la bici, falta poner la voluntad de hacerlo.
+ya tengo la bici, falta poner la voluntad de hacerlo.
 ** [2020-11-24 mar]
 *** dia muy agobiante temperatura muy alta
     desde la mañana mas de 30 y llega a los 37 a la siesta.
@@ -9075,3 +9075,11 @@ cosas pq no como bien y esas cosas.
 Pienso que tengo que volver al licuado. Y seguir reevaluando su real
 incidencia en los dolores de estomago. Y quizas plantearme otras cosas
 para mejorar.
+** [2022-11-03 Thu]
+son dias muy lindos los que paso programando, la verdad que es algo
+que realmente me gusta y se que aporta al negocio, pq la informacion
+correcta en tiempo y en forma es necesaria para las decisiones. Y para
+la marcha del negocio.
+Como extracurricular pienso en un excurso por elisp para hacer
+mastering emacs ya que estoy tan metido adentro de este sistema. Lo
+cual puede ser hasta fin de año.

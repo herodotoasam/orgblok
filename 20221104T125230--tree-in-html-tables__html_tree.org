@@ -1,0 +1,57 @@
+#+title:      tree in html tables
+#+date:       [2022-11-04 Fri 12:52]
+#+filetags:   :html:tree:
+#+identifier: 20221104T125230
+
+1. se agrega el td correspondiente al iconito de tree
+   #+begin_src html
+    <td><span class="icon is-small"><i class="fa fa-plus-square-o" aria-hidden="true" @click="expandChildren(anual['y'])"></td>
+   #+end_src
+2. se agrega "dentro de la misma tabla" un template con los tr
+   "children" que van a depender de una lista que se va a generar
+   cuando se haga click en el iconito, en este caso est_mensuales.
+#+begin_src html
+                    <template x-for="mes in est_mensuales">
+                    <tr class="children">
+                        <td></td>
+                        <td x-text="mes['ym']"></td>
+                        <td class="pesos" x-text="mes['comprado']"></td>
+                        <td class="pesos" x-text="(mes['comprado']*(listaInflacion[dayjs(mes['ym']).format('YYYYM')]||1)).toFixed()"></td>
+                        <td class="pesos" x-text="mes['saldo']"></td>
+                        <td class="perc" x-text="(mes['inc']*100).toFixed(2)"></td>
+                        <td class="right" x-text="mes['cnt']"></td>
+                    </tr>
+                    </template>
+#+end_src
+3. luego la funcion de apertura es la que regula el contenido de la
+lista que genera el tree de childrens
+#+begin_src js
+         expandChildren(year){
+             if(this.year==year && this.est_mensuales.length>0){
+                 this.est_mensuales = []
+                 return
+             }
+            axios.get('/ventas/estadisticasmensuales/'+year)
+            .then(res=>{
+                this.est_mensuales = res.data.est_mensuales
+                this.year = year
+                setTimeout(()=>{
+             $tbody = document.querySelector('tbody')
+             $tryear = document.getElementById(year)
+             let arrayrows = Array.from($tbody.children)
+             let children = arrayrows.filter(row=>row.classList.contains('children'))
+             children = children.reverse()
+             for(el of children){
+                 $tbody.insertBefore(el,$tryear.nextSibling)
+             }},10)
+            })
+         },
+#+end_src
+alli vemos dos controles sobre la lista this.est_mensuales que van a
+regular la vista o no vista de los children, cuando al comienzo veo si
+es un toggle o sea si me llama el mismo que me llamo antes que ya lo
+tengo guardado en la variable this.year y a su vez tengo el children
+expandido lo cierro o sea solo hago la lista vacia y return, y sino
+hago el request de datos y lleno la lista, luego muevo con
+insertBefore del nodo.nextSibling como no hay un insertAfter tengo que
+usar eso.

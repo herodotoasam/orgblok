@@ -1,0 +1,54 @@
+#+title:      Graficos en html con chart.js
+#+date:       [2022-11-04 Fri 12:54]
+#+filetags:   :html:javascript:
+#+identifier: 20221104T125459
+
+Primero en el DOM ponemos el elemento donde ira insertado el grafico:
+#+begin_src html
+          <canvas id="grafico-estadistica" width="700" height="600"></canvas>
+#+end_src
+y otra parte en js
+#+begin_src js
+             const canvas = document.getElementById('grafico-estadistica').getContext('2d');
+             const chart = new Chart(canvas, {
+                 type: 'bar',
+                 data: {
+                     labels: this.years,
+                     datasets: [{
+                        label: 'Monto Vendido Actualizado',
+                        data: this.ventaYears,
+                        backgroundColor: [
+                            'rgba(255, 99, 132, 0.2)',
+                            'rgba(54, 162, 235, 0.2)',
+                            'rgba(255, 206, 86, 0.2)',
+                            'rgba(75, 192, 192, 0.2)',
+                            'rgba(153, 102, 255, 0.2)',
+                            'rgba(255, 159, 64, 0.2)'
+                        ],
+                        borderColor: [
+                            'rgba(255, 99, 132, 1)',
+                            'rgba(54, 162, 235, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(153, 102, 255, 1)',
+                            'rgba(255, 159, 64, 1)'
+                        ],
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+#+end_src
+aca deje esas opciones de colores sacada de la pagina oficial pq me
+parecen bonitos pero se puede poner cualquier cosa.
+El tema del update() no me funciono, para cambiar el set de datos tuve
+que hacer destroy del chart. Asi que antes de la inicializacion del
+grafico hice destroy.
+#+begin_src js
+             if(this.chart!='') this.chart.destroy()
+#+end_src

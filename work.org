@@ -530,7 +530,7 @@ la unica pega es que esa notacion te descuageringa el flycheck, mas
 que la combino con un {% if para que se dispare unicamente cuando sea pertinente.
 le puse target="_blank" para que abra en un tab aparte y no te
 desconfigure lo que estas haciendo en el fichaje.
-*** DONE explorar el concepto tree en las tablas                                  :chart:graficos:
+*** DONE  tree en las tablas :chart:graficos:doc:
 CLOSED: [2022-10-13 Thu 17:25]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-13 Thu 17:23]
@@ -931,8 +931,6 @@ nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta stock
 + [X] carpeta ventas
 + [ ] carpeta pagos
-  loterbo
-  loterbover
   pagos
   planillas
   totales
@@ -1057,6 +1055,18 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-10-30 Sun]
+*** [2022-11-04 Fri]
+:LOGBOOK:
+CLOCK: [2022-11-04 Fri 12:30]--[2022-11-04 Fri 12:51] =>  0:21
+CLOCK: [2022-11-04 Fri 11:20]--[2022-11-04 Fri 11:50] =>  0:30
+refactorizo: verloterbo
+CLOCK: [2022-11-04 Fri 09:38]--[2022-11-04 Fri 10:51] =>  1:13
+refactorizo: loterbo
+CLOCK: [2022-11-04 Fri 09:16]--[2022-11-04 Fri 09:37] =>  0:21
+mas intento fallido para instalar el jodido zutty
+CLOCK: [2022-11-04 Fri 07:16]--[2022-11-04 Fri 07:42] =>  0:26
+inicio corrijo bugs en retiros. Intento de instalar zutty. fallido
+:END:
 *** [2022-11-03 Thu]
 :LOGBOOK:
 CLOCK: [2022-11-03 Thu 18:10]--[2022-11-03 Thu 18:44] =>  0:34
@@ -2059,7 +2069,7 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-10 Thu> DEADLINE: <2022-10-25 Tue>
+SCHEDULED: <2022-11-10 Thu>
 :LOGBOOK:
 - Rescheduled from "[2022-11-08 Tue]" on [2022-11-03 Thu 09:07]
 - Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:03]

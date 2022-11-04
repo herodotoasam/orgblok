@@ -588,6 +588,8 @@ ventaja/desventaja de que uno tiene que setear la marca manualmente.
 en lo posible. por empezar puse ido-vertical
 * rapidez en el teclado
 xset r rate 150 255
+-- a ese radio es inusable en fedora
+puse xset r rate 400 25
 * reemplazo en multiples archivos
 find-name-dired
 dando el path y el wildcard que queremos
