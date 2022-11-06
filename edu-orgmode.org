@@ -291,4 +291,13 @@ desarrollos de la idea y focalizar sobre los encabezados.
 + con [[ complete links
 + con [[* complete headlines
 + despues de #+ complete special words
-+ en cualquier lado complete con ispell
++ en cualquier lado complete con ispel
+
+
+
+* tablas
+M-S-right agrega columna
+M-S-left  borra columna
+M-S-up    borra fila
+M-S-down  agrega fila
+C-C -     agrega linea divisoria

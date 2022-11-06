@@ -13012,3 +13012,42 @@ D $1000.00
 2022-11-04 comida
     expenses:comida   $ 1360
     income:retiro-sociedad   $ -1360
+
+2022-11-04 servicios varios
+    expenses:servicios:fibertel   $ 3826
+    expenses:servicios:epec   $ 6050
+    expenses:impuestos:casa:dgr   $ 1460
+    assets:caja   $ -11336
+
+2022-11-04 tarjeta naranja
+    expenses:casa:mantenimiento   $ 12533
+    expenses:casa:mantenimiento   $ 9144
+    expenses:romi   $ 2166
+    expenses:comida   $ 4134
+    expenses:comida   $ 6930
+    expenses:servicios:netflix   $ 2467
+    expenses:servicios:la-caja-seguros   $ 6832
+    expenses:isabel   $ 5333               ;# lucia villamoro cuota 1 de 6
+    expenses:servicios:carusso   $ 3616
+    expenses:servicios:tarjeta-naranja-gastos-fijos   $ 3167
+    expenses:casa:mantenimiento   $ 538    ;#zeta 2 de 3
+    expenses:isabel   $ 7585               ;#zeta 2 de 3
+    expenses:comida   $ 3008               ;#zeta 2 de 3
+    assets:caja   $ -67453
+
+2022-11-04 saco reserva
+    assets:caja   $ 100000
+    assets:reserva   $ -100000
+
+2022-11-05 ingresos
+    assets:caja   $ 7000
+    assets:reserva   $ 120000
+    income:retiro-sociedad   $ -127000
+
+2022-11-05 comida
+    expenses:comida   $ 3000
+    assets:caja   $ -3000
+
+2022-11-05 mesada ih
+    expenses:isabel   $ 14000
+    assets:caja   $ -14000

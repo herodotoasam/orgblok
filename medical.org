@@ -132,6 +132,8 @@ unicamente un cafe ayer en lo del Fede. Y he notado bastante mejoria.
 [2022-10-25 Tue] siento dolores como que tengo molestias por estar
 mucho tiempo sentado. Hoy la siento mas a la derecha. Como en una
 forma varicosa.
+[2022-11-05 Sat] siento dolor venoso en la pierna derecha unos veinte
+cm desde el talon para arriba.
 ** Enfermedades
 *** resfrio fuerte [2022-10-05 Wed]
    me contagie de ih que cayo enferma de repente despues del fin de
@@ -184,6 +186,8 @@ con composite, me cobro 7000 y me duro justo un mes.
 *** temblor matinal
 [2022-10-31 Mon] cuando me levanto siento un temblor en las manos al
 hacer las cosas como prepararme el te o esas cosas.
+*** lesion
+[2022-11-06 Sun] tratada con av
 
 * medicacion
 ** DONE ibuprofeno
@@ -1543,10 +1547,19 @@ o menos eficiente.
 *** TODO comprar arroz yamani
 SCHEDULED: <2022-10-24 Mon>
 ** 10 dias de licuado
-| 1 | [2022-11-03 Thu] |
-|   |                  |
+| 1 | [2022-11-03 Thu] | * |
+| 2 | [2022-11-04 Fri] | * |
+|   |                  |   |
+|   |                  |   |
 * registro migral
 ** Noviembre 2022
-| [2022-11-01 Tue] | 2 |
-| [2022-11-02 Wed] | 1 |
-| [2022-11-03 Thu] | 2 |
+| [2022-11-01 Tue] |  2 |
+| [2022-11-02 Wed] |  1 |
+| [2022-11-03 Thu] |  2 |
+| [2022-11-04 Fri] |  2 |
+| [2022-11-05 Sat] |  1 |
+| [2022-11-06 Sun] |  2 |
+| [2022-11-07 Mon] |    |
+|------------------+----|
+| Subtotal Semanal | 10 |
+|                  |    |

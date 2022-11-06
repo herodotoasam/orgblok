@@ -275,6 +275,8 @@ configuracion no se porque. Por las dudas lo dejo asi.
   copiar todos los clocks. Queda pendiente agregarles outline con
   fechas pero hay se puede ver que llevo mas de cien horas invertidas
   en emacs.
++ tiempo de inicio de emacs reducido 40ms con :defer t en aquellos
+  paquetes que demoran el arranque.
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -932,7 +934,6 @@ nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta ventas
 + [ ] carpeta pagos
   pagos
-  planillas
   totales
   verzona
 + [ ] clientes
@@ -1053,11 +1054,40 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
+** TODO contabilidad dedicada
+contabilidad para cada persona en menu con acceso individual.
++ [X] Pienso que podria ser en el _nav que aprobara el usuario.
++ [ ] una pagina que maneje las cuentas.
++ [ ] una pagina que maneje los asientos.
+
 * agenda de actividad
+** semana [2022-11-06 Sun]
+*** [2022-11-06 Sun]
+:LOGBOOK:
+CLOCK: [2022-11-06 Sun 10:05]--[2022-11-06 Sun 10:26] =>  0:21
+trabajo en conta
+:END:
 ** semana [2022-10-30 Sun]
+*** [2022-11-05 Sat]
+:LOGBOOK:
+CLOCK: [2022-11-05 Sat 19:00]--[2022-11-05 Sat 19:40] =>  0:40
+pruebo haciendo modulo asientos con emacs-vainilla. Aguante solo 20
+minutos.
+CLOCK: [2022-11-05 Sat 16:46]--[2022-11-05 Sat 17:55] =>  1:09
+inicie la contabilidad personal.
+CLOCK: [2022-11-05 Sat 12:55]--[2022-11-05 Sat 13:36] =>  0:41
+arreglos en articulos/salidas por errores detectados
+CLOCK: [2022-11-05 Sat 11:26]--[2022-11-05 Sat 12:54] =>  1:28
+empiezo a trabajar en el stock- terminado stock
+CLOCK: [2022-11-05 Sat 10:34]--[2022-11-05 Sat 11:25] =>  0:51
+inicio- varias cosas- emacs init- :defer t
+:END:
 *** [2022-11-04 Fri]
 :LOGBOOK:
-CLOCK: [2022-11-04 Fri 12:30]--[2022-11-04 Fri 12:51] =>  0:21
+CLOCK: [2022-11-04 Fri 13:10]--[2022-11-04 Fri 13:41] =>  0:31
+increiblemente perdi media hora mas en zutty
+CLOCK: [2022-11-04 Fri 12:30]--[2022-11-04 Fri 13:10] =>  0:40
+refactorizo: planillas
 CLOCK: [2022-11-04 Fri 11:20]--[2022-11-04 Fri 11:50] =>  0:30
 refactorizo: verloterbo
 CLOCK: [2022-11-04 Fri 09:38]--[2022-11-04 Fri 10:51] =>  1:13
@@ -2084,7 +2114,13 @@ SCHEDULED: <2022-11-21 Mon .+1m>
 - State "DONE"       from "TODO"    [2022-10-21 Fri 08:38]
 :END:
 **** pagos facturas I
-SCHEDULED: <2022-11-02 Wed .+1m>
+SCHEDULED: <2022-12-04 Sun .+1m>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-04 Fri 16:31]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2022-11-04 Fri 16:31]
+:END:
 gas luz fibertel dgr tarjeta
 **** pagos facturas II
 SCHEDULED: <2022-11-22 Tue .+1m>
@@ -2097,16 +2133,17 @@ SCHEDULED: <2022-11-22 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-05 Sat .+3d>
+SCHEDULED: <2022-11-08 Tue .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-02 Wed 09:05]
+:LAST_REPEAT: [2022-11-05 Sat 13:43]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-05 Sat 13:43]
 - State "DONE"       from ""           [2022-11-02 Wed 09:05]
 - State "DONE"       from ""           [2022-10-28 Fri 14:17]
 :END:
-**** chequear la baja de server ruby
-SCHEDULED: <2022-11-05 Sat>
+**** DONE chequear la baja de server ruby
+CLOSED: [2022-11-05 Sat 12:57] SCHEDULED: <2022-11-05 Sat>
 :LOGBOOK:
 - Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:04]
 - Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
@@ -2166,6 +2203,8 @@ funcionado y me ha dado la completion pero no una gran cosa.
 [2022-10-20 Thu]
 es muy sano y potente, y me permite tener todo bien acomodadito y
 lograr un inicio super rapido. Ahora estoy en menos de 1.5seg.
+[2022-11-05 Sat] descubro el :defer para bloquear los paquetes que
+demoran mucho y que no usamos relevantemente. Estoy en 1.26seg.
 ** [2022-10-20 Thu]Cambio sistema: meow                                                        :meow:
 empece de cero con un .emacs.d nuevo, backupie el anterior y empece a
 hacer un init.el nuevo con straight y solo los packages  Tiene
@@ -2388,3 +2427,12 @@ te indenta la region. Lo probe con python y funciona joya.
 [2022-10-30 Sun] por ahora no veo diferencia.
 ** calc
 [2022-11-03 Thu] es muy comoda y si la aprendes a usar es mejor que la otra.
+** emacs vainilla
+[2022-11-05 Sat] probando emacs-vainilla por un rato para ver que
+pasa, como es el flujo de trabajo.
+No se puede evaluar nada aun si no se trabaja en la realidad, o sea en
+un chunk de trabajo realista en la cual las exigencias del momento nos
+hagan ver lo que hace falta en el momento.
+Termine dejandolo a solo 20 minutos de trabajo real, pq es muy
+antiergonomico y a la vez muy lento, pienso que aumento la velocidad
+en x10 con meow, o un sistema tipo vim.

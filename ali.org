@@ -9083,3 +9083,32 @@ la marcha del negocio.
 Como extracurricular pienso en un excurso por elisp para hacer
 mastering emacs ya que estoy tan metido adentro de este sistema. Lo
 cual puede ser hasta fin de año.
+** [2022-11-04 Fri]
+seriamente me preocupa quedarme sin nada para programar, o sea una vez
+que refactorice todo que hare? Porque hay dias que estoy muy freaky y
+puedo pasarmela estudiando o aprendiendo un lenguaje nuevo siempre que
+tenga aplicacion practica e inmediata, sino no creo que me atraiga en
+gran medida.
+Por eso las dos opciones que se me plantearon en los ultimos dias
+fueron tailwind y elisp. Y ambos no tienen relacion directa con el
+proyecto.
+Quizas empezar por emacs-elisp intensivo con duracion dos o tres meses
+sea empezar a ver los resultados en poco tiempo por una acumulacion de
+temas en corto periodo de tiempo. o sea por inmersion.
+Y hacer una especie de jornada Protesilaos. De estudio y escritura. Y
+documentacion del codigo y de lo aprendido para que quede bien
+sabido. Y alli se pueda corregir lo que se vaya reaprendiendo.
+Cada dia se aprende algo nuevo p.e. hoy lo de los td, th vacios. Es un
+detalle pero que no lo habia tenido en cuenta antes.
+Y como ese puede haber muchas mas cosas o enfoques distintos que
+aparezcan con el tiempo que hagan que podamos seguir refactorizando el
+sistema.
+Y despues queda el data-mining sobre el que hay mucho que trabajar.
+** [2022-11-06 Sun]
+ayer fue un dia donde me invadio la tristeza. Una tristeza que te
+ahoga, que te da ganas de llorar deseperadamente. Pero no llegue a eso
+ni por cerca. Pero no dejo de ser un dia triste. No tenia mucha pila
+para freekear en exceso ni para meterme en netflix, y me termine
+acostando a las 20.30 termine de ver el capitulo de la serie que
+estaba viendo y luego me puse a leer hasta las 10 de la noche que me
+invadio el sueño y me dormi hasta el otro dia bien.
