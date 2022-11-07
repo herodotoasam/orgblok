@@ -1062,8 +1062,15 @@ contabilidad para cada persona en menu con acceso individual.
 
 * agenda de actividad
 ** semana [2022-11-06 Sun]
+*** [2022-11-07 Mon]
+:LOGBOOK:
+CLOCK: [2022-11-07 Mon 08:45]--[2022-11-07 Mon 09:15] =>  0:30
+probando boon- esta verde todavia.
+:END:
 *** [2022-11-06 Sun]
 :LOGBOOK:
+CLOCK: [2022-11-06 Sun 16:25]--[2022-11-06 Sun 17:55] =>  1:30
+experimento con boon
 CLOCK: [2022-11-06 Sun 10:05]--[2022-11-06 Sun 10:26] =>  0:21
 trabajo en conta
 :END:
@@ -2436,3 +2443,9 @@ hagan ver lo que hace falta en el momento.
 Termine dejandolo a solo 20 minutos de trabajo real, pq es muy
 antiergonomico y a la vez muy lento, pienso que aumento la velocidad
 en x10 con meow, o un sistema tipo vim.
+[2022-11-06 Sun] probando sin eglot y sin nada usando la completion
+dabbrev unicamente que creo que es suficiente para mis propositos de programacion.
+** nuevo modal boon
+[2022-11-06 Sun] experimento con nuevo modal boon. Todavia menos
+intrusivo que meow.
+**

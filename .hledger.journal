@@ -13051,3 +13051,7 @@ D $1000.00
 2022-11-05 mesada ih
     expenses:isabel   $ 14000
     assets:caja   $ -14000
+
+2022-11-06 extra cami
+    expenses:cami:extras   $ 10000
+    income:retiro-sociedad   $ -10000

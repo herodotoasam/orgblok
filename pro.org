@@ -5851,6 +5851,11 @@ La idea es meterle con elisp a fondo pq hay una causa que es ya la
 completa adopcion de emacs, demostrada luego de estas 100hs tuneando
 emacs. en el ultimo mes. Lo encuentro por demas interesante y creo que
 lo voy a aprender rapido y tendre otro lenguaje mas para adelante.
+*** [2022-11-06 Sun] elisp con la inspiracion de Prot
+mi inspiracion es prot que sin ser programador aprendiendo con fuerza
+de ensayo y error como hago yo, aprendio elisp y es el unico programa
+que conoce, y llego a desarrollar varios programas como colaborador y
+fue premiado por eso.
 
 * Anotaciones
 ** Objetivos
@@ -6963,6 +6968,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 ** semana [2022-10-16 Sun] :emacs:flask:javascript:alpinejs:
 ** semana [2022-10-23 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
 ** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:elisp:
+** semana [2022-11-06 Sun] :emacs:elisp:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

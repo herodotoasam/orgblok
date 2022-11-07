@@ -187,7 +187,7 @@ con composite, me cobro 7000 y me duro justo un mes.
 [2022-10-31 Mon] cuando me levanto siento un temblor en las manos al
 hacer las cosas como prepararme el te o esas cosas.
 *** lesion
-[2022-11-06 Sun] tratada con av
+[2022-11-06 Sun] tratada con av [2022-11-07 Mon]
 
 * medicacion
 ** DONE ibuprofeno
@@ -1559,7 +1559,10 @@ SCHEDULED: <2022-10-24 Mon>
 | [2022-11-04 Fri] |  2 |
 | [2022-11-05 Sat] |  1 |
 | [2022-11-06 Sun] |  2 |
-| [2022-11-07 Mon] |    |
+| [2022-11-07 Mon] |  1 |
 |------------------+----|
-| Subtotal Semanal | 10 |
+| Subtotal Semanal | 11 |
+|                  |    |
+|------------------+----|
+| [2022-11-08 Tue] |    |
 |                  |    |
