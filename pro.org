@@ -5870,6 +5870,22 @@ diversos temas. y hoy empece a usar links para referirme a ellos. Eso
 puede ser lo importante linkear internamente. Me parece mas agil, mas
 limpio y mejor que la forma que estaba teniendo lo retorcido del org
 infinito. Y todo lo mismo se termina giteando.
+El tema es hacer de a poco. Como hoy que hice un denote de cero
+mientras estudie/aprendi la documentacion de una extension, y otro
+denote lo hice luego de programar al haber usado una particularidad de
+alpinejs documente las dos cosas, la teoria y la practica, y luego un
+par de denotes de extraccion.
+
+Tampoco caigo en un history-hell o sea en la idea de transformar el
+pasado de org a denote o algo asi. Pienso que los archivos estan como
+estan, el tema es como o que hacemos de ahora en adelante con las
+herramientas y el tiempo que tenemos ahora.
+Solo por un ejemplo a 3 denote por dia, en un año tengo 1000 denotes y
+eso seria bueno, pero el tema es el contenido o sea lo que aporto lo
+que te sirvio, lo que aprendiste para la productividad en general
+futura.
+Ejemplos: emacs/extensiones/org/elisp/
+entre las extensiones destaco meow y el propio denote.
 
 * Anotaciones
 ** Objetivos

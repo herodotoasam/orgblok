@@ -966,6 +966,8 @@ CLOSED: [2022-10-27 Thu 16:44]
 ** semana [2022-11-06 Sun]
 *** [2022-11-07 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-07 Mon 19:40]--[2022-11-07 Mon 20:02] =>  0:22
+journal
 CLOCK: [2022-11-07 Mon 17:40]--[2022-11-07 Mon 19:40] =>  2:00
 refactorizacion pagos.html
 CLOCK: [2022-11-07 Mon 17:15]--[2022-11-07 Mon 17:32] =>  0:17

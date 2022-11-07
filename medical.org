@@ -26,114 +26,6 @@ turnos, sintomas, historial etc.
 ** DONE dentista toma de impresion y arreglo inferior
 CLOSED: [2022-10-08 Sat 14:22] SCHEDULED: <2018-11-17 sáb> 9hs
 * sintomas
-** Dolores
-*** Testiculos
-[2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
-de un gran ataque virosico y buscaba las ampollitas y me puse ac, pero
-nada, luego lo tuve el sabado a la mañana y se fue.
-Creo que la causa fue el boxer ajustado.
-[2017-09-18 lun] hoy hace un rato vuelvo a sentir pero a nivel
-varicocele en el huevo izquierdo, o como una sensacion de hernia, no
-como senti el viernes como algo masivo que abarcaba todo el perineo y
-casi no me dejaba sentar.
-[2017-10-02 lun] en oficina senti como me apretaba el huevo derecho el
-boxer y de nuevo no se si es causa o efecto, o sea si el boxer es el
-causante o siento el boxer cuando tengo el dolor y lo sentiria igual
-con slip
-[2022-10-30 Sun] desde anoche que siento dolor en ambos, pero puede
-ser el boxer ajustado con el cual tuve que dormir pq el flojito estaba
-en la soga, me sigue un poco en la manana.
-En realidad durante el dia el dolor se fue extendiendo a toda la zona
-perianal.
-[2022-10-31 Mon] anoche se me fue pasando y hoy ya no lo senti casi.
-*** Implantes
-[2017-09-19 mar] hoy tengo bastantes molestias en en los implantes
-izquierdos en ambos, mas que todo en el de mas atras.
-Creo que la causa fue un cepillado demasiado intenso en la zona
-lastimada de los implantes.
-*** presion en brazos
-[2017-09-21 jue] siento presion en los brazos a la altura del codo de
-la parte de adentro como si tuviera una banda elastica que me
-oprimiera, mas que todo el derecho y muchisimo menos el izq casi nada,
-asi casi como dos horas que lo tengo y casi se me irradia a dolor en
-la mano derecha al escribir en el teclado. y por momentos en la
-oficina senti como que los ojos no enfocaban bien y se deslumbraban
-con la pantalla, pero recien me vine caminando bien hasta aca, solo
-tengo esto y un poco de rareza en la cabeza.
-Creo que la causa es el ejercicio de brazos.
-*** Temblores
-[2017-09-25 lun] si bien es cierto que hace dos años que los padezco
-hoy tuve un ataque bastante feo en mano izquierda posterior a
-levantarme.
-Y tengo la sensacion que habia cesado el sintoma por mucho tiempo y se
-volvio a complicar el ultimo tiempo.
-*** retorcijones
-[2017-10-02 lun] la noche anterior safe con oleo31 y a la mañana
-volvieron y me tome una pastilla de carbon y no jodio mas enla
-oficina.
-*** cadera derecha
-[2017-10-05 jue] un dolor que aparecio hace una semana y que me impide
-cruzar la pierna del lado derecho y lo sospecho que es el sillon de la
-oficina.
-[2017-10-31 mar] este ultimo fin de semana estuvo muy inflamado la
-cadera incluso me parecio que se propagaba a la otra. Pienso que se
-debe en parte a que la mala postura en el marques se potencia con la notebook.
-[2017-11-14 mar] hoy tuve un choque en puerta del fondo de oficina con
-pie derecho que repercutio en cadera derecha inflamada y me hizo
-gritar literalmente de dolor, muy feo eso. No le hacen nada los
-masajes ni unguentos. Va de mal en peor.
-*** espalda
-[2017-10-18 mié] muy mucho dolor de espalda, toda la noche, pienso que
-la culpa del dolor de anoche la tuvo el sillon. Ahoche me colgue con
-tres capitulos de netflix y eso se noto a nivel espalda es peor que la
-jornada de sillon con la compu.
-[2017-10-31 mar] este ultimo finde tuve un pico de malestar en la
-espalda hasta el punto que con oleo31 tuve masajes el domingo en
-varias oportunidades y poco alivio tuve, y el domingo a la noche y el
-lunes me tome un diclo para aliviar sintomas de inflamacion.
-[2018-04-12 jue] muy mucho dolor hasta el punto que no puedo estar sentado en
-el sillon de la oficina, o en una silla, y acostado en algunas posiciones.
-Acabo de tomar un ibu no por cabeza sino por espalda, es un dolor puntual en
-el sector dorsal
-
-*** acidez extrema
-[2017-10-18 mié] hasta el punto de tomar agua para pasar la noche, me
-paso hace dos noches en el marques y hoy tome un gastromax a la mañana
-como primer medicamento
-*** polialquria
-[2017-10-18 mié] ya a nivel molesto, tener que levantarme tantas veces
-de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
-*** nerviosismo
-[2017-11-02 jue] hoy me tuve que ir al dpto a buscar SL para ponerme
-una y soportar la jornada, pq vengo desde ayer no soportando los
-embates normales del trabajo.
-*** estomago
-[2022-10-18 Tue] hace dos dias que siento dolor en el estomago a casi
-toda hora pero mayormente despues de comer asi sea el licuado, con o
-sin ingesta de migral, p.e. hasta esta hora las 14hs todavia no he
-ingerido el migral y me ha dolido esta manana y despues de comer. Le
-sospecho al grastomax que llevo tomando una caja.
-[2022-10-19 Wed] hoy no tome gastromax y tome dos vasos de licuado de
-desayuno e instantaneamente me empezo el dolor. Ahora la sospecha es
-contra el licuado (o sea la avena cruda).
-[2022-10-20 Thu]hoy no tuve mayormente dolor como los dos dias
-anteriores sin licuado y sin gastromax, con cafe y con coca y con
-lomito anoche.
-[2022-10-21 Fri] un poco de dolor luego de dos o tres cafes en el dia
-y gaseosa y un segundo migral, o sea toda la bateria de perforadores
-del estomago.
-[2022-10-28 Fri] despues del cafe un poco de dolor y malestar. Decidi
-no tomar mas cafe. Para ver que pasa.
-[2022-10-30 Sun] estos dias he desayunado y tomado mate cocido,
-unicamente un cafe ayer en lo del Fede. Y he notado bastante mejoria.
-*** oido tapado
-[2022-10-25 Tue] hace unos dos dias que se puso muy molesto.
-*** piernas debajo de la rodilla
-[2022-10-25 Tue] siento dolores como que tengo molestias por estar
-mucho tiempo sentado. Hoy la siento mas a la derecha. Como en una
-forma varicosa.
-[2022-11-05 Sat] siento dolor venoso en la pierna derecha unos veinte
-cm desde el talon para arriba.
 ** Enfermedades
 *** resfrio fuerte [2022-10-05 Wed]
    me contagie de ih que cayo enferma de repente despues del fin de
@@ -189,6 +81,318 @@ hacer las cosas como prepararme el te o esas cosas.
 *** lesion
 [2022-11-06 Sun] tratada con av [2022-11-07 Mon]
 
+*** Dolores
+**** Testiculos
+[2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
+de un gran ataque virosico y buscaba las ampollitas y me puse ac, pero
+nada, luego lo tuve el sabado a la mañana y se fue.
+Creo que la causa fue el boxer ajustado.
+[2017-09-18 lun] hoy hace un rato vuelvo a sentir pero a nivel
+varicocele en el huevo izquierdo, o como una sensacion de hernia, no
+como senti el viernes como algo masivo que abarcaba todo el perineo y
+casi no me dejaba sentar.
+[2017-10-02 lun] en oficina senti como me apretaba el huevo derecho el
+boxer y de nuevo no se si es causa o efecto, o sea si el boxer es el
+causante o siento el boxer cuando tengo el dolor y lo sentiria igual
+con slip
+[2022-10-30 Sun] desde anoche que siento dolor en ambos, pero puede
+ser el boxer ajustado con el cual tuve que dormir pq el flojito estaba
+en la soga, me sigue un poco en la manana.
+En realidad durante el dia el dolor se fue extendiendo a toda la zona
+perianal.
+[2022-10-31 Mon] anoche se me fue pasando y hoy ya no lo senti casi.
+**** Implantes
+[2017-09-19 mar] hoy tengo bastantes molestias en en los implantes
+izquierdos en ambos, mas que todo en el de mas atras.
+Creo que la causa fue un cepillado demasiado intenso en la zona
+lastimada de los implantes.
+**** presion en brazos
+[2017-09-21 jue] siento presion en los brazos a la altura del codo de
+la parte de adentro como si tuviera una banda elastica que me
+oprimiera, mas que todo el derecho y muchisimo menos el izq casi nada,
+asi casi como dos horas que lo tengo y casi se me irradia a dolor en
+la mano derecha al escribir en el teclado. y por momentos en la
+oficina senti como que los ojos no enfocaban bien y se deslumbraban
+con la pantalla, pero recien me vine caminando bien hasta aca, solo
+tengo esto y un poco de rareza en la cabeza.
+Creo que la causa es el ejercicio de brazos.
+**** Temblores
+[2017-09-25 lun] si bien es cierto que hace dos años que los padezco
+hoy tuve un ataque bastante feo en mano izquierda posterior a
+levantarme.
+Y tengo la sensacion que habia cesado el sintoma por mucho tiempo y se
+volvio a complicar el ultimo tiempo.
+**** retorcijones
+[2017-10-02 lun] la noche anterior safe con oleo31 y a la mañana
+volvieron y me tome una pastilla de carbon y no jodio mas enla
+oficina.
+**** cadera derecha
+[2017-10-05 jue] un dolor que aparecio hace una semana y que me impide
+cruzar la pierna del lado derecho y lo sospecho que es el sillon de la
+oficina.
+[2017-10-31 mar] este ultimo fin de semana estuvo muy inflamado la
+cadera incluso me parecio que se propagaba a la otra. Pienso que se
+debe en parte a que la mala postura en el marques se potencia con la notebook.
+[2017-11-14 mar] hoy tuve un choque en puerta del fondo de oficina con
+pie derecho que repercutio en cadera derecha inflamada y me hizo
+gritar literalmente de dolor, muy feo eso. No le hacen nada los
+masajes ni unguentos. Va de mal en peor.
+**** espalda
+[2017-10-18 mié] muy mucho dolor de espalda, toda la noche, pienso que
+la culpa del dolor de anoche la tuvo el sillon. Ahoche me colgue con
+tres capitulos de netflix y eso se noto a nivel espalda es peor que la
+jornada de sillon con la compu.
+[2017-10-31 mar] este ultimo finde tuve un pico de malestar en la
+espalda hasta el punto que con oleo31 tuve masajes el domingo en
+varias oportunidades y poco alivio tuve, y el domingo a la noche y el
+lunes me tome un diclo para aliviar sintomas de inflamacion.
+[2018-04-12 jue] muy mucho dolor hasta el punto que no puedo estar sentado en
+el sillon de la oficina, o en una silla, y acostado en algunas posiciones.
+Acabo de tomar un ibu no por cabeza sino por espalda, es un dolor puntual en
+el sector dorsal
+
+**** acidez extrema
+[2017-10-18 mié] hasta el punto de tomar agua para pasar la noche, me
+paso hace dos noches en el marques y hoy tome un gastromax a la mañana
+como primer medicamento
+**** polialquria
+[2017-10-18 mié] ya a nivel molesto, tener que levantarme tantas veces
+de noche siendo que hace unas cuantas noches habia logrado cierto equilibrio.
+**** nerviosismo
+[2017-11-02 jue] hoy me tuve que ir al dpto a buscar SL para ponerme
+una y soportar la jornada, pq vengo desde ayer no soportando los
+embates normales del trabajo.
+**** estomago
+[2022-10-18 Tue] hace dos dias que siento dolor en el estomago a casi
+toda hora pero mayormente despues de comer asi sea el licuado, con o
+sin ingesta de migral, p.e. hasta esta hora las 14hs todavia no he
+ingerido el migral y me ha dolido esta manana y despues de comer. Le
+sospecho al grastomax que llevo tomando una caja.
+[2022-10-19 Wed] hoy no tome gastromax y tome dos vasos de licuado de
+desayuno e instantaneamente me empezo el dolor. Ahora la sospecha es
+contra el licuado (o sea la avena cruda).
+[2022-10-20 Thu]hoy no tuve mayormente dolor como los dos dias
+anteriores sin licuado y sin gastromax, con cafe y con coca y con
+lomito anoche.
+[2022-10-21 Fri] un poco de dolor luego de dos o tres cafes en el dia
+y gaseosa y un segundo migral, o sea toda la bateria de perforadores
+del estomago.
+[2022-10-28 Fri] despues del cafe un poco de dolor y malestar. Decidi
+no tomar mas cafe. Para ver que pasa.
+[2022-10-30 Sun] estos dias he desayunado y tomado mate cocido,
+unicamente un cafe ayer en lo del Fede. Y he notado bastante mejoria.
+**** oido tapado
+[2022-10-25 Tue] hace unos dos dias que se puso muy molesto.
+**** piernas debajo de la rodilla
+[2022-10-25 Tue] siento dolores como que tengo molestias por estar
+mucho tiempo sentado. Hoy la siento mas a la derecha. Como en una
+forma varicosa.
+[2022-11-05 Sat] siento dolor venoso en la pierna derecha unos veinte
+cm desde el talon para arriba.
+** registro de sintomas
+*** [2021-08-19 Thu] migraña
+   tuve toda la tarde con dolor intermedio un dia con dos migrales uno
+   a las 5am y uno a las 5pm, y a las 8pm me acuesto y a las 9pm el
+   dolor era grande nivel 7 (impedia leer o cualquier actividad pero
+   no era terrible, era posible dormirse), y dormi toda la noche con
+   dolor, Me tome un 10mg tipo 10pm y recien mejore un poco a las 5am,
+   y no estoy del todo bien.
+
+*** [2021-08-21 Sat] oido tapado
+   desde ayer siento una sensacion de ruido, y hoy me puse gotas de
+   cerumax y no me resultaron de alivio, no esta tapado como la otra
+   vez pero siento molestias.
+   [2021-08-23 Mon]
+   la molestia siguio ayer un poco y me eche cerumax y no cambio nada,
+   hoy lunes me eche cerumax temprano y luego ih me echo gotas oticas
+   que entraron mas, y parece que lavaron un poco pero sigo sintiendo
+   la sensacion.
+   [2021-08-24 Tue]
+   no me puse gotas hoy, no siento tapon pero siento picor y molestias.
+   sentia dolorcitos y me puse una gota de otosporin, y senti como si
+   abriera algo, pero no pude estar tranquilo un rato para que hiciera
+   efecto.
+   Desde que me puse esa gota no me molesto mas parece.
+*** [2021-08-21 Sat] meteorismo
+   Como y siento una sensacion de molestia en el estomago, distension
+   y movimientos raros dentro, ruidos, sensacion que me viene un
+   diarreion, pero voy al baño y solo son gases, muchos gases. Leyendo
+   veo que es meteorismo.
+   [2021-08-22 Sun]
+   pruebo desayunar mate cocido sin azucar y tostadas sin manteca ni
+   dulce para evitar azucares y lacteos y ver la reaccion y por lo
+   menos parece que las reacciones extremas descriptas antes no se dieron.
+   [2021-08-23 Mon]
+   ayer no senti la molestia explosiva, ruidosa y doliente que
+   describia al principio. Hoy en el desayuno tampoco. Hasta ahora lo
+   unico que deje fue el "licuado de avena cruda".
+   Despues de comer me agarro un momentaneo dolor de "panza" y termine
+   yendo al baño pensaba que era diarreico pero no. Al rato
+   paso. (Comi pastel de papas con mucho pure recalentado, bastante
+   caliente con un vaso grande de agua y comi apurado, despues del
+   dolor me tome un boldo)
+   [2021-08-24 Tue]
+   hoy desayune mate cocido con torta y me olvide, pq no tuve ningun
+   sintoma.
+   merende tarde y me fui a acostar, pero un par de horas despues me
+   dio hambre y tome un te con tres tostadas con queso. Me hicieron
+   muy mal, me hicieron doler la panza toda la noche y mayormente eran
+   gases.
+*** [2021-08-25 Wed] depresion
+   hace un par de dias que me desaparecio la alegria por las mañanas,
+   y me puse bajon.
+   es algo involuntario que no lo puedo manejar.
+   cuando fui a encargar los lentes pienso que anduve bien o actue
+   bien, pero luego cuando estoy en la casa me decaigo.
+   [2021-08-27 Fri]
+   ayer senti que estuve mejor, aunque un poco beligerante con ih,
+   quizas sea una reaccion pq ella este trabajando, pero la verdad que
+   me gusta estar un par de horas solo.
+   [2021-09-09 Thu]
+   me cuesta levantarme y no me levanto con alegria como antes. Aunque
+   la jornada luego mejoro bastante.
+   [2021-09-22 Wed]
+   no digo que estoy alegre, pero tampoco estoy pesimiesta ni estoy triste, ni
+   estoy problematico, es mas estoy en el medio de una serie de minihabitos y
+   rutinas para cambiar el estado. En realidad veo que otros a mi alrededor
+   tienen problemas como ih que tiene problematicidades que las transmite a
+   los demas.
+*** [2021-09-09 Thu] dolor rodilla izquierda
+   empezo a molestar estando sentado, me puse la faja a media mañana y
+   sigue molestando.
+   [2021-09-21 Tue] desde ayer con la practica de la bici se ha acentuado el
+   dolor de la rodilla izquierda.
+   [2021-09-22 Wed] a pesar del dolor que tuve ayer todo el dia, hice igual
+   bici, y durante la bici no me molesto, ni despues de la bici, que me saque
+   la faja. Sigue sin molestias incluso despues de la tercera sesion de bici.
+
+*** [2021-09-17 Fri] soñolencia
+   el miercoles anote que tenia soñolencia, pero hoy es abuso, desde las 12hs del
+   mediodia que tengo ganas de acostarme y no puedo pq me llama a cada rato Fabian
+   me tome un cafe recargado y lo mismo tengo pesadez, me obligo a hacer cosas, como
+   practicar las palabras, o leer, pero lo mismo estoy muy pesado.
+   [2021-09-22 Wed] mucha soñolencia hoy, a pesar de estar durmiendo facil
+   unas 10hs por noche. Y hoy me dormi una siesta aparte, pero en ciertos
+   momentos tuve soñolencia a pesar de varios cafes que me tomo en el dia.
+*** [2021-09-19 Sun] arritmia dific. respiratoria
+   hago las series con dificultad y me agito mucho, y quedo en arritmia unos
+   segundos. Aunque la tension me da bien (11/8) y el oximetro (95) tambien.
+   [2021-09-20 Mon] es como que luego de la primera actividad de la mañana
+   quedo extenuado, sin aire. Luego me parecia que no podia permanecer en pie.
+   Y tome las pastillas, con cierta dificultad. Pero luego cuando barri la
+   habitacion no quede tan extenuado, casi que ya me iba animando a mas.
+   Tener en cuenta que dormi casi 10 horas, y llevo acostado 12hs, y me
+   levanto y ahi nomas hago las series.
+   [2021-09-21 Tue] ni ayer con los 10minutos de bici, ni esta mañana senti el
+   problema respiratorio de ayer.
+   [2021-09-22 Wed] idem hoy, hice las series normal, con dificultad solamente
+   por el esfuerzo en alguna parte de la serie final, pero nada que ver con
+   anteayer. Los doce minutos de bici, los hago sin ningun tipo de molestia
+   cardiaca ni durante ni despues de la actividad.
+   [2021-09-23 Thu] molestias anoche para dormir, pienso que por la cena, pero
+   nada mas
+
+*** [2021-09-20 Mon] hernia
+   me molesto un poco ayer y hoy.
+   [2021-09-21 Tue] anoche me molesto mucho y me puse el bolero y eso lo
+   contuvo un poco. De vez en cuando me da como una puntada pero nada muy
+   doloroso. Recien sin darme cuenta hice fuerza sacando al patio tres macetas
+   moderadamente pesadas y no senti ningun dolor ni problema.
+   [2021-09-22 Wed] ya desde anoche no use el bolero y no senti mayormente
+   molestias. Hoy uso un boxer elastizado y veo.
+   Molestias menores que las de ayer, esporadicas, pero trascurre el dia sin
+   bolero.
+   [2021-09-23 Thu] cero molestias
+
+*** [2021-09-28 Tue] mareo
+   estando en la compu normal, senti un movimiento de sillon lateral como si
+   fuera un temblor, me levante a ver a SAnchez si se movia, y no, luego me
+   senti mareado como vertigoso como unos 10 minutos.
+
+*** [2021-09-28 Tue] malestar a la toma del migral
+   hace rato que siento malestar general a la toma del migral, o sea a veces
+   trato de esperar para no tomar al vicio o con demasiada antelacion, pero me
+   refiero a los malestares extra-migrañosos que siento al tomar el migral,
+   siento como que la cabeza se me vacia o se me llena de aire o me mareara.
+   Es un malestar que dura un rato y luego se va. A veces me tomo la tension y
+   la tengo normal. (como ahora 12.3/7.8).
+*** [2021-09-28 Tue] brumosidad en el muslo izquierdo
+   siento en el muslo izq a la altura del bolsillo un temblor como si fuera el
+   celu pero no tengo el celu es muscular como si fuera una vena tapada y
+   hubiera rumorosidad.
+   [2021-09-29 Wed] acostado no senti el sintoma, pero al llegar al hora de
+   levantarme vuelvo a sentirlo. No es constante.
+   [2021-09-30 Thu] hoy que fui al hp dispuesto a hacerme ver y
+   comence la cortiterapia no senti nada mas en ese tema.
+*** [2021-09-29 Wed] tensiones durante el dormir
+   esta madrugada me desperte muy tensionado, y me obligue a relajar y pude
+   seguir durmiendo confortablemente.
+*** [2021-10-04 Mon] perdida de la voz
+   siento como si hubiera esforzado la voz un monton y no pudiera
+   hablar a volumen normal.
+*** [2021-10-06 Wed] destellos de luz
+   media mañana cuando estaba pasando los papeles no podia fijar la
+   vista en la pantalla pq se me formaban aureolas muy pronunciadas
+   romboides que me dificultaban la fijacion de la vista, tanto con
+   lentes como sin lentes, me recuesto en oscuridad un rato, pq en el
+   medio me llamo Fabian como tres veces, y al rato descubri que se
+   habia ido, Habra durado una media hora.
+   [2021-10-09 Sat] estando todavia acostado y sin haber visto
+   pantalla todavia me empezo el destello en forma romboidal grande,
+   duro unos minutos y se fue.
+*** [2021-10-10 Sun] mordida de lengua
+   se producen con una dentellada violenta y unica sin relacion a lo
+   que estas soñando, mas cerca de la hora de levantarse, en este caso
+   a posteriori de tomar el corti y acostarme de nuevo. (Ya he tenido
+   casos, ahora los voy a registrar)
+   [2021-11-18 Thu] a sido continuo pero aunque llevo seis dias sin un
+   episodio de mordida de lengua en la noche, veo que es una costumbre
+   estar con el molar derecho apretando la lengua en todos los
+   momentos del dia, es como que la lengua fuera mas grande que el
+   espacio, pero sospecho de que el arreglo mal terminado de dastolfo
+   me hace "Pisar" desparejo el maxilar.
+   [2021-11-22 Mon] me volvi a morder fuerte la lengua despues de como
+   8 dias sin novedad.
+*** [2021-10-12 Tue] gases extremos
+   gases extremos que se meten debajo del diafragma y no solo no te
+   dejan dormir sino que te hacen doler, te oprimen y te obligan a
+   pararte. La ultima vez que recuerdo me paso fue un año nuevo en
+   herrera que se quedo el Rodri y habia comido una torta helada y me
+   cayo malisimo y no podia estar. Aca me cayeron mal dos sandwiches
+   de richione que habia jurado un dia olvidado ya que no iba a
+   comerlos mas. Me tuve que tomar dos factor ag casi consecutivos
+   pero lo mismo no me hizo ningun efecto inmediato.
+   [2021-10-13 Wed] tambien tuve sintomas, y eso que habia cenado
+   porotos negros con ensalada, tome un factor ag pero fue muchisimo
+   menos que la noche anterior.
+*** [2021-11-10 Wed] zumbido extremo oidos
+   me levante con sensibilidad extrema en ambos oidos, un zumbido mas
+   fuerte que lo normal, o sea el tinitus que sufro normalmente, y me
+   retumban los ruidos externos especialmente los bajos como los
+   estereos de los autos y siento un ligero dolorcillo en ambos
+   lados. y una sensacion de aturdimiento general.
+   [2021-11-11 Thu] sigo con el sintoma al levantarme, luego sin darme
+   cuenta se va o se olvida, pero es como un tinitus aumentado, y con
+   ciertos toques de mareo o sensacion que el piso no es plano.
+   [2021-11-22 Mon] sigue el zumbido aturdimiento con dolorcillo en el
+   oido derecho.
+*** [2021-12-15 Wed] dolor hernial
+   siento un dolor superficial a la altura de la vegiga pero tirado a
+   la izquierda. No hay dolor testicular, no hay dolor continuo sino
+   al levantarme, mientras duermo no hay dolor, solo cuando estoy durmiendo
+   [2021-12-16 Thu] al final pienso que lo que tengo es una
+   EPIDIDIMITIS no bacteriana ocasionada por el esfuerzo mal hecho de
+   los ultimos dias.  Pienso que es no bacteriana pq no hay forma de
+   contagio en mi caso y pq no curse con fiebre. [2021-12-19 Sun] con
+   el paso de los dias el dolor fue cediendo y la molestia tambien, y
+   la inflamacion del epididimo fue disminuyendo casi a la mitad de lo
+   que era el jueves. Siendo que el tratamiendo se prolonga por diez
+   dias pienso que va bien. A la tarde luego de que escribiera esto
+   desmejore, no se si estuve muchas horas sentado o que, pero tuve
+   ciertos dolorcillos y molestias y vi que en realidad no ha
+   disminuido la inflamacion del epididimo.
+*** [2021-12-19 Sun] ruido en los oidos en especial el derecho
+   ruido como si fuera de papel adentro
 * medicacion
 ** DONE ibuprofeno
 CLOSED: [2022-10-11 Tue 08:01]
@@ -1479,6 +1683,7 @@ de mas, y luego a la siesta ya estaba molesto y tome 10mg de
 cortypiren y a las 22hs estaba detonado y tome el tercero que fue mas
 o menos eficiente.
 *** toma de migral
+
 |  año | mes | cnt |
 | 2017 |  11 |   4 |
 | 2017 |  12 |  10 |
@@ -1550,6 +1755,1193 @@ SCHEDULED: <2022-10-24 Mon>
 | 1 | [2022-11-03 Thu] | * |
 | 2 | [2022-11-04 Fri] | * |
 | 3 | [2022-11-07 Mon] |   |
+* cortiterapia 2021
+  UM: [2021-09-29 Wed] 16hs
+
+| Fecha               |  Cy | Mig | Dur  | otros medicamentos        |          |
+| [2021-09-30 Thu]    |  20 | si  | 4hs  | paracetamol 1gr           |          |
+| [2021-10-01 Fri]    |  40 | si  | 13hs | naproxeno 500 / reliveran |          |
+| [2021-10-02 Sat]    |  40 | si  | 8hs  | naproxeno 500             |          |
+| [2021-10-03 Sun]    |  40 | no  |      |                           |          |
+| [2021-10-04 Mon]    |  40 | si  | 4hs  | ibuprofeno 600            |          |
+| [2021-10-05 Tue]    |  40 | si  | 2hs  |                           |          |
+| [2021-10-06 Wed]    |  40 | si  | 2hs  |                           |          |
+| [2021-10-07 Thu]    |  40 |     |      |                           |          |
+| [2021-10-08 Fri]    |  40 | si  | 2hs  |                           |          |
+| [2021-10-09 Sat]    |  20 |     |      |                           |          |
+| [2021-10-10 Sun]    |  40 | si  | 4hs  |                           |          |
+| [2021-10-11 Mon]    |  20 |     |      |                           |          |
+| [2021-10-12 Tue]    |  20 |     |      |                           |          |
+| [2021-10-13 Wed]    |  20 | si  | 4hs  |                           |          |
+| [2021-10-14 Thu]    |  20 |     |      |                           |          |
+| [2021-10-15 Fri]    |  20 | si  | 1hs  |                           |          |
+| [2021-10-16 Sat]    |  20 |     |      |                           |          |
+| [2021-10-17 Sun]    |  20 | si  | 5hs  | naproxeno 500             | 1 Migral |
+| [2021-10-18 Mon]    |  20 | si  | 4hs  |                           |          |
+| [2021-10-19 Tue]    |  20 | si  | 3hs  |                           |          |
+| [2021-10-20 Wed]    |  20 | si  | 5hs  |                           |          |
+| [2021-10-21 Thu]    |  10 | si  | 5hs  |                           | 1 Migral |
+| [2021-10-22 Fri]    |  10 | si  | 2hs  |                           |          |
+| [2021-10-23 Sat]    |  10 |     |      |                           |          |
+| [2021-10-24 Sun]    |  10 | si  | 2hs  |                           |          |
+| [2021-10-25 Mon]    |  10 | si  | 6hs  |                           | 2 Migral |
+| [2021-10-26 Tue]    |  10 |     |      |                           |          |
+| [2021-10-27 Wed]    |  10 | si  | 2hs  |                           | 1 Migral |
+| FIN de cortiterapia | 670 |     |      |                           |          |
+
+** Comentarios:
+   decido implementar la prescripcion del 2019, o sea 12 dias de 20mg
+   a las 8hs y topiramato+silbelium, y migral de rescate si hace
+   falta.
+   Cambio sobre la marcha, y decido agregar los 20mg de la tarde, y en
+   lo posible evitar el migral de rescate por ahora.
+   [2021-10-20 Wed] en 20 dias de tratamiento con 40 y 20 mg hasta
+   ahora dolores casi todos los dias pero a nivel manejable,
+   concentrados en el horario del mediodia-siesta.
+   Se revelo la inutilidad de los analgesicos varios.
+   Si puede ser positivo lo actitudinal, o sea lo postural, el estar
+   ocupado en algo que capte nuestra atencion mientras cursa el dolor
+   puede hacer que aminore y/o desaparezca.
+
+** [2021-09-30 Thu] 8hs 20mg
+   :Paracetamol:
+    tome un paracetamol 1gr a las 14hs. Mucho dolor de cintura, cadera y de hombros
+    menos, dolor oseo, tipico del corticoide. E incipiente dolor de cabeza.
+    por la siesta y tarde el dolor de cabeza se hizo presente en forma
+    mas o menos constante y molesta pero sin ser muy fuerte, pude
+    dormitar mientras atendia fabian, y luego no pude dormir muy bien
+    una siesta.
+    Cuando me puse a leer el dolor parecia estacionarse o estancarse y
+    luego de un rato largo de estar leyendo se fue. Luego cene y me
+    puse bien. Mientras que antes estaba esperando que se hagan las
+    20hs para tomar la otra dosis, cuando las 20hs llego no me dolia
+    nada y decidi no tomar la segunda dosis y me dormi a las
+    22hs. Dormi bastante normal, no bien, ni mal.
+    Desperte con dolor articular de mandibula que se fue al ratito de
+    levantado.
+** [2021-10-01 Fri] 7hs 20mg 18hs 20mg
+   :Naproxeno:Paracetamol:Reliveran:Clonazepan:
+    Luego de las actividades por hora y media de la salida de ih de
+    viaje no me dolio nada ese dolor de base que tenia cuando estaba
+    despertando.
+    10hs tomo paracetamol 1 gr. Comienzo a sentir los dolores de cadera y una
+    incipiente migraña lateral izquierda en la frente por ahora de nivel muy
+    bajo.
+    me quede reposo toda la mañana durmiendo mayormente y no se
+    desarrollo ninguna migraña, me levante a almorzar y todo bien,
+    pero estoy bastante flojito de fuerzas, en especial de fuerza de
+    voluntad.
+    Luego del almuerzo siguen leves molestias.
+    Aguante hasta las cuatro que se fue Fabian alli ya senti molestias
+    mas grandes y me acoste. La Romu me trajo naproxeno y me tome un
+    naproxeno 500 que no me hizo ningun efecto.
+    Se me fue desarrollando una migraña izquierda bien determinada
+    pero soportable que al menos me dejaba dormir y no estaba
+    acompañada de sintomas oseos. Pero si de nauseas, y tome 40 gotas
+    de reliveran.
+    Me levante unos minutos cuando vinieron los chicos y luego me
+    acoste, y luego se fueron de la casa y me acoste bien, y no cene
+    nada pq seguia la nausea, tome las pastillas de la noche y un poco
+    de agua, y recien tipo 5am fue aflojando el dolor, quedando solo
+    una resaca.
+** [2021-10-02 Sat] 7hs 20mg 18hs 20mg
+   :Naproxeno:Clonazepan:
+   Me levanto a tomar el corticoide, y trato de quedarme levantado o
+   sea de hacer toda la rutina del levantarse, no ir a tomarlo y
+   acostarse de nuevo. La resaca parecia estar alli y no se iba y
+   amenazaba con mas.
+   Me fui a comprar pan con el auto. Barri toda la casa, y cuando iba
+   a intentar hacer una tarea mas grande me di cuenta que el dolor
+   habia aumentado ya. Me tome un naproxeno 500 que resulto inutil
+   como el del dia anterior.
+   Al principio parecia una jaqueca muy fuerte mas no una migraña bien
+   determinada con preponderancia a un costado sino que abarcaba como
+   una especie de banda toda la cabeza en derredor a la altura de la
+   terminacion del cuero cabelludo, pero luego surgiron algunas notas
+   del lado izquierdo no muy determinadas como ayer pero surgieron.
+   Pude dormir felizmente todo el dia, desde las diez hasta las doce
+   que me levante a comer y luego me tome un clonazepan SL para seguir
+   durmiendo toda la siesta y dormi hasta las 18hs.
+   A esta hora estoy casi sin dolor solo con una resaca a nivel
+   izquierdo, pero quien sabe como puede evolucionar.
+** [2021-10-03 Sun] 7.30hs 20mg 20hs 20mg
+   dormi toda la noche sin dolor alguno, en forma totalmente normal.
+   Ahora veremos al levantarme que tengo que pasar los papeles que pasa.
+   Bueno todos los papeles pasados bien. son casi las 10hs y sigo
+   bien, pero estoy muy cansado.
+   El cansancio se me fue, fui al Fede y me volvi no por cansancio ni
+   por dolor sino por el aburrimiento de siempre. Aca me acoste a leer
+   y lei 3hs el tutorial, entre otras cosas. Luego no me podia
+   dormir. Pero no me dolio nada de nada, ni tampoco durante la noche.
+** [2021-10-04 Mon] 8hs 20mg 17hs 20mg
+   :Ibuprofeno:
+   me levanto optimo, con energia y optimismo sin dolores por el
+   momento.
+   estuve muy bien hasta las 15hs. La lleve a la Romi al cerro a
+   buscar la tarjeta con un trafico intenso, quizas eso me causo mucho
+   estres.
+   Fui un rato al Fede despues.
+   Y se me desarrollo un dolor, tome un ibuprofeno que no me hizo
+   ningun efecto y me dormi una siesta y como hacia las
+   cinco era una migraña izquierda completa, adelante la toma del
+   segundo y tome un te.
+   A la hora mas o menos estaba leyendo y puedo leer unas cuantas
+   horas ya sin dolor el resto del dia.
+** [2021-10-05 Tue] 8hs 20mg 17hs 20mg
+   dormi bien anoche, sin dolor, y me costo levantarme pq tenia mas
+   sueño que dias anteriores.
+   iba a quedarme en la cama hasta las 9 pero decidi levantarme y
+   empezar a pasar los papeles para luego ir al banco y poner al dia
+   mis obligaciones.
+   Equilibre el levantarme temprano con un mal desayuno con un cafe y
+   tostadas con queso, y me fui al banco sacandome ya un peso de
+   encima.
+   pasando papeles siento cansansio general y un poco de soñolencia
+   pero esa sensacion de que has dormido poco en la noche.
+   Como sintoma de la cortyterapia pongo perdida de la voz.
+   Haciendo una tarea rutinaria normal como colgar la ropa siento
+   cansancio inusual, me voy a reposar un poquito.
+   tipo 14hs me comienza una migraña izq. y me tomo una SL y me duermo
+   una siesta.
+   Resulto muy leve y aunque adelante la toma del cort. no sufri
+   demasiado ni tampoco a la noche.
+** [2021-10-06 Wed] 8hs 20mg 17hs 20mg
+   me levante tome y me acoste desayune mijo en la cama, y luego me
+   dormi una hora y media mas. Me levante bien, aunque tengo una
+   ligera molestia basica no llega a nada.
+   Cuando me levantaba pensaba en una carencia de willpower, pero hice
+   las series excepcionalmente energicas.
+   la mañana transcurre bien, sin contar con el destello de luz, y
+   despues de comer tipo 13hs comienza de a poco la jaqueca.
+   Lo mismo lleve a ih al Fede, y al volver me puse a la compu estas
+   dos horas estudiando quebrando asi la falta de willpower, pero ya
+   me duele un poco mas.
+   dormi un poco la siesta, tome adelantado el segundo y luego me puse
+   a leer hasta las 20hs que fui a cenar al Fede.
+** [2021-10-07 Thu] 8.30hs 20mg 16hs 20mg
+   dormi normal anoche y me levanto bien de energia y animos, en el
+   trasfondo parece que tuviera una molestia pero no pasa a mayor por
+   ahora.
+   el mismo proceso que los ultimos dias, una jaqueca tardera que se
+   va acumulando a estas horas a veces antes a veces despues, no muy
+   fuerte pero te impide el estudio, en especial si es intenso. A las
+   16.30 que termine el segundo pomodoro python, la lleve a ih a la
+   nevi a que vendiera sus cosas, y luego compre pan y otras cosas,
+   pero termine con dolor de cabeza.
+** [2021-10-08 Fri] 8hs 20mg 16hs 20mg
+   bien en general solo con una ligera molestia que no perturba la
+   lectura ni nada pero esta ahi. Lo mismo ayer me pase la tarde-noche
+   acostado mas en plan de vago-lectura que otra cosa.
+   muy vago hoy, quizas influyera el ambiente de dia feriado, que me
+   levante a las 10.30hs, que tenia sueño a las 12hs etc. La cosa que
+   me dormi la siesta un hora y pico y me desperte al borde de las
+   16hs con jaqueca, y "tenia la dosis por delante", no me volvi a
+   dormir sino que practique anki y lei un capitulo de js, y se me fue
+   el dolor, la pregunta es si hubiera pasado igual sin dosis, y que
+   pasara dentro de dos dias cuando ya baje la dosis.
+** [2021-10-09 Sat] 7.30hs 20mg
+   dormi bien anoche a pesar de la preocupacion y luego del corti
+   dormi bastante. Me agarro un destello que se fue a los diez
+   minutos. y me levante bien.
+   Estoy tratando de ver que pasa hasta donde se puede llegar a
+   manifestar si se manifiesta dolor y que relacion tiene con la
+   segunda dosis.
+   Al final transcurrio tarde noche y no tome segunda dosis, y
+   desperte bien.
+** [2021-10-10 Sun] 8hs 20mg 16hs 20mg
+   me levante muy contracturado para hacer las series pq dormi hasta
+   muy tarde, las 10.30hs. Pero bien.
+   comi a las 13hs y luego una siesta pero ya se adelantaba un dolor
+   basico pero molesto, como el dia no es tranquilo, le puse la
+   segunda dosis, y me quede levantado y cambiado, paso una hora y
+   solo quedo estacionario.
+   Sin hacerle mas caso al dolor, fui al Fede y me quede hasta la
+   noche y el dolor se termino olvidando practicamente.
+** [2021-10-11 Mon] 8hs 20mg
+   me fui a dormir luego del corti pq es feriado, sin culpa y dormi
+   hasta las 10.30hs pesadisimo dificil de levantarme, hinchado, pero
+   sin dolor al menos hasta ahora.
+** [2021-10-12 Tue] 7hs 20mg
+   hoy adelante la toma del ct pq ya creia que me empezaba el dolor
+   luego de una noche de mucho malestar por gases.
+   por suerte no me duele la cabeza por el momento pero tengo/tuve
+   esta mañana mucho mal humor o enojo y mucha vagancia no solo ganas
+   de dormir la siesta sino ni siquiera de leer en la cama.
+** [2021-10-13 Wed] 7.30hs 20mg
+   me levanto bien, un poco dormi muy recortado, pq nuevamente tuve
+   sintoma de gases, y me dormi luego de la toma del ct.
+   dolor incipiente a moderado-bajo, por el momento puedo seguir en la
+   compu en actividad esperando el milagro que se me pase.
+   como a las 18hs prendi de nuevo la compu pq estaba Fede y se puso
+   aburrido y me entretuve instalando i3 y luego programando en vscode
+   y se me fue yendo bastante el dolor de base.
+** [2021-10-14 Thu] 7hs 20mg
+   dormi bien y me levante bien.
+** [2021-10-15 Fri] 7hs 20mg
+   dormi bien y me levante bien.
+
+   despues del mediodia se me desarrollo un dolor bastante incipiente
+   que pensaba me iba a tirar a la cama despues de las 4 de la tarde y
+   pense en tomar un naproxeno, y me dije que no que si se me iba el
+   dolor lo iba a atribuir falsamente a la pastilla y si no se iba la
+   toma era al vicio, y me acoste en "reparacion intensa" unos minutos
+   y se me fue el dolor, luego de haber comido un poco de mijo.
+** [2021-10-16 Sat] 7hs 20mg
+   dormi con un ligero dolor toda la noche. Ya al levantarme desaparecio.
+** [2021-10-17 Sun] 7hs 20mg
+   dormi muy bien, levante bien. Solo ligeras molestias imperceptibles.
+   comenzo dolor antes del mediodia, y me recoste despues de comer,
+   dormi y no se fue sino que se fue acentuando a una migraña punzante
+   izquierda con fondo detras del ojo, que no cedio con el naproxeno,
+   tomado al vicio, y que termino cediendo a un lamentable migral en
+   una hora.
+** [2021-10-18 Mon] 8hs 20mg
+   dormi bien, levante bien.
+   la mañana fue muy ajetreada y como siempre el dolor comenzo despues
+   del mediodia, y se puso fiero, creo que podria haber sido como
+   ayer, pero lo fui postergando quedandome levantado y ocupado en la
+   programacion, con dos leches intermedias y descansos
+   programados. Lo mismo me duele pero es menos, espero que no escale
+   en las proximas horas. Llego un momento cuando me acoste que se fue
+   felizmente el dolor y me dejo en paz.
+** [2021-10-19 Tue] 7hs 20mg
+   dormi bien  levante bien
+   un poco menos que ayer me dolio y me quede en la maquina y cuando
+   me acoste luego de las cuatro placenteramente ya sin nada para
+   hacer se me fue el dolor.
+** [2021-10-20 Wed] 7hs 20mg
+   dormi bien levante bien. Hoy termino la fase 20mg. Siguen diez dias
+   con 10mg.
+   Hoy tuve un dolor que se ponia intenso y lo soporte lo mas que pude
+   en la maquina, y me acoste pensando que iba a derivar en migral,
+   pero la siesta aunque imperfecta lo corrigio, luego me levante, me
+   bañe, y merende y ya estoy normal. Un tiro sacado de la raya.
+** [2021-10-21 Thu] 7hs 10mg
+   dormi bien levante un poco flojo.
+   hoy comence la reduccion.
+   desde el mediodia como siempre un dolor jaquecoso central bifronte
+   con notas traseras tambien, bastante fuerteson, lo mismo me pongo
+   ha hacer cosas a ver que pasa.
+   Pase todos los papeles mas o menos bien, pero luego la cabeza me
+   estallaba, y considere que ya habia probado siesta y trabajo que no
+   quedaba mas que tomarme un migral, y lo tome a las 16.30, y hizo un
+   efecto moderado, son las 18hs y todavia tengo una resaca
+   importante. Lo que paso es que se demoro mucho la toma.
+   Son las 19:30 y estoy semiadolorido, resacoso, como apaleado,
+   confuso, y eso que hace tres horas tome un migral.
+** [2021-10-22 Fri] 7hs 10mg
+   dormi bien. me levante bien sin dolor, pero muy cansado, me costo
+   muchisimo hacer las series y tender la cama.
+   el dolor amago con establecerse pero mucho mas leve que ayer
+** [2021-10-23 Sat] 7hs 10mg
+   dormi bien, levante bien, pero muy debil sigo igual que ayer, costo
+   mucho hacer las series.
+   Sin dolor hasta ahora, son las 15hs y ya tuve una siesta de dos
+   horas.
+   Felizmente despues de 6 dias consecutivos con dolor un dia completo
+   sin dolor hasta ahora.
+** [2021-10-24 Sun] 7hs 10mg
+   levante bien, dormi bien, y levante con un poco mas de energia para
+   hacer las series que los ultimos dos dias.
+   mientras dormia tenia una basesita de dolor que se limpio un poco
+   al levantarme y desayunar. Felizmente termine el trabajo hacia las
+   15hs sin mayores molestias, solo con un incipiente dolorcillo.
+   me dormi una siesta hasta las cinco y alli el dolor crecio en forma
+   importante y pensaba que me iba a resultar un domingo como el
+   pasado o sea doloroso, pero me levante a comer las almendras, pero
+   no me hice cafecito y luego me volvi a acostar y se me paso,
+   merende y prendi la maquina de nuevo: a hacer los cuadraditos!!.
+** [2021-10-25 Mon] 7.30 10mg
+   levante bien hice las series con energia, pero me encuentro
+   seriamente deprimido.
+   Al mediodia me empezo el dolor que fue escalando hasta
+   transformarse en una migraña completa que se agudizaba con el
+   movimiento hasta sentir el bombeo del corazon como latidos de dolor
+   en la cabeza despues del movimiento.
+   Tome un migral y no me hizo ningun efecto, al reves me puso medio
+   nauseoso, y luego a la hora y media me tome otro que si me hizo
+   efecto rapidamente.
+** [2021-10-26 Tue] 7.30 10mg
+   dormi bien, levante bien, pero menos energia que ayer.
+   el dia termino bien sin dolor. Al mediodia amago y dormi la siesta
+   con aire ac full y no paso nada.
+** [2021-10-27 Wed] 8hs 10mg
+   dormi bien pero levante muy debilitado, hice las series a duras
+   penas y me cuesta cualquier movimiento, es como si estuviera abombado.
+   al medio dia me empezo como siempre y antes que se volviera
+   resciliente tome el migral y en una hora mas o menos dio resultado.
+   Fin de la cortiterapia.
+** post-cortiterapia 2021
+*** [2021-10-28 Thu]
+   casi tomo un migral a la siesta, estuve a punto de tomarlo, solo
+   esperaba una confirmacion mas clara del dolor, y me puse a leer y a
+   moverme un poco, y al final el dolor se desvanecio.
+*** [2021-10-29 Fri] 1 migral
+   idem ayer, pero no se iba, y me tome el migral nomas, incluso paso
+   hora y media y le costo irse al dolor, tarde muy pesada.
+*** [2021-10-30 Sat]
+   como ocurrio los ultimos dos sabados no me dolio en absoluto la
+   cabeza durante el sabado, ni durante la noche o sea la madrugada
+   del domingo, y eso que tuve una mala noche por un malestar
+   estomacal pq me cayo mal lo que comi en exceso y tuve incluso
+   vomitos a la mitad de la noche.
+*** [2021-10-31 Sun] 1 migral
+   me levanto con un leve indicio de comienzo de dolor craneal. Se
+   hace muy molesto la mordida de la lengua, en los dos ultimos dias
+   no se alcanza a reponer la lengua.
+   pasado la hora de la siesta me dolia fuerte la cabeza pero no llega
+   a ser migraña completa como el primer dia que tome migral, cada vez
+   se va tomando migral con dolores menores. A la hora y pico se fue.
+*** [2021-11-01 Mon]
+   levante bien - dormi bien - hice los ejercicios con energia
+   moderada pero el dia esta muy fresquito.
+   Sin dolor todo el dia y la noche, pero no tan limpio como el sabado.
+*** [2021-11-02 Tue]
+   levante bien, hice las series con energia suficiente, y estuve sin
+   soñolencia, pq la noche me parecio muy larga pq dormi desde las
+   10pm hasta las 8am entrecortado obviamente. y fresquito. Luego me
+   puse a pintar.
+   Me dolio un termino medio a molesto toda la tarde, sin embargo
+   segui con la actividad normal tanto de pintar como de ingles (con
+   mayores molestias) sin embargo el dolor no escala como para tomar
+   un migral ni tampoco se va, lo cual es algo feo pq te impide vivir
+   plenamente,  pero alli pienso que empieza la adiccion, queriendo
+   matar estos dolores intermedios, cansandose y "bajando la vara" del
+   umbral del dolor permitido para tomar un migral y entonces el
+   migral se hace diario y se toma por cualquier dolor.
+*** [2021-11-03 Wed] 1 migral 1.30 am
+   tuve que tomar el migral de madrugada, o sea pasaron dos dias
+   teoricos sin migral pero con un migral intermedio de madrugada, o
+   sea no se si es tan valido.
+   dormi bien, levante bien, hice las series bien, y pinte con energia
+   normal unas dos horas.
+   en el dia amago con doler un poco y se limpio despues de la siesta
+   o mas bien despues de la merienda.
+*** [2021-11-04 Thu]
+   a duras penas transcurrio el dia anterior que ya tenia migral
+   tomado, y hoy que tiene que ser dia limpio ya empieza con dolores
+   importantes.
+   dormi bien, levante bien sin embargo las series me costaron mucho.
+   hoy es el dia que no tengo qeu tomar migral, todo un desafio, me
+   tome un paracetamol 500mg con cierto nivel de exito al medio dia.
+*** [2021-11-05 Fri]
+   dormi bien a pesar de los animales dando vueltas. me levante bien
+   hice las series con energia y hoy voy a transcurrir el dia segundo
+   sin migral, vamos a ver si lo logramos.
+   Logrado!. paso todo el dia y la noche sin problemas y sin dolor
+   mayormente. Ni siquiera tuve la necesidad de tomar el paracetamol
+   de emergencia.
+*** [2021-11-06 Sat] 1 migral
+   dormi mejor que anoche, levante bien, hice las series bien, pero
+   estoy un poco embotado de la cabeza, con un dolorcillo agazapado.
+   Hoy es el "tercer dia" y tambien es sabado. Si tomo hoy romperia la
+   rutina de los sabados sin dolor.
+   tome un paracetamol pero no surtio efecto.
+   el dolor siguio mas o menos fuerte, y termine quizas adelantando el
+   migral racionalizando que "necesitaba" estar bien pq iba a venir el
+   fede y tenia que estar bien (cosa que era real, vino el fede
+   contamos la plata, cargamos los paquetes, luego lleve a la cami
+   todo sin dolor, pienso que si hubiera estado con migraña todo esto
+   hubiera sido complicado)
+   Termine tomando un migral y en una hora y media mas o menos limpio
+   el dolor que era bastante aunque no migrañoso fuerte
+*** [2021-11-07 Sun]
+   dormi bien anoche, y me levante bien hice las series bien, me
+   levante tarde y ahora me dispongo a pasar los papeles.
+   el domingo transcurrio sin dolor
+*** [2021-11-08 Mon] 1 migral
+   dormi bien y me levante bien y las series las hice bien con
+   energia.
+   son las 12am y tengo un sueño sobrehumano, no puedo mantenerme
+   sentado, no puedo mantener los ojos abiertos. Es muy complicado.
+   Esta bien que las "tareas" que se me presentan son muy aburridas:
+   pasar ventas, o quizas hacer el practice-writing o word.
+   Me sali de la compu y un poco es cierto es el aburrimiento, pero no
+   tengo mucha alternativa, entre el dolor de espalda y el dolor de
+   cabeza. Dia inutilizado. En el fondo no tengo mucha chance de ser
+   productivo.
+   Como ahora, paso casi una hora viendo short estupidos de yt,
+   acostado y me siento a la maquina y me agarra la soñolencia extrema
+   que no permite hacer nada de nada. No puede ser.
+   El dolor de cabeza me agota fisica y siquicamente. Y la situacion
+   que vivo tambien me agota.
+   termine tomando migral no tan intenso, pero demoro bastante en
+   irse, el dolor.
+*** [2021-11-09 Tue]
+   dormi bien, levante bien, hice las series con energia normal. ahora
+   me pongo a pasar papeles, veamos como sigue la mañana
+   al final una mañana lluviosa que no permitio trabajar a nadie, asi
+   que transcurrio rapidamente sin mucho trabajo y sin dolor.
+*** [2021-11-10 Wed] 1 migral 1.30 am
+   dormi bien a pesar de la interrupcion migrañosa de la noche, me
+   levante bien, hice las series con energia. ih me pidio que la
+   ayudara a limpiar, al principio no queria, pero despues de empezar
+   todo ok el cuerpo se adapta. Y ahi mismo empalme con la limpieza de
+   la habitacion que me tocaba para hoy.
+   ya pase todas las ventas e hice los dos cuadraditos de
+   maquina. Queda la lectura de cama.
+*** [2021-11-11 Thu] 1 migral
+   dormi bien a pesar del dolor de base toda la noche, pero me
+   permitia dormir normal. Levante bien, hice las series con energia
+   pq me levante a las 8hs.
+   Termine yendo solo al hiper a hacer las compras del mes y eso
+   enmascaro un poco el dolor que termino volviendo luego.
+   A las 8hs me tome un ibuprofeno liquido que me quemo la garganta y
+   no fue efectivo en limpiar el dolor.
+   el dolor crecio en intensidad y molestia y tome un migral, que no
+   fue 100% efectivo en el sentido de limpiar totalmente el dolor,
+   aunque si despejo la molestia que habia antes, esta bien que me fui
+   a dormir una extensa siesta, y luego me tome una buena merienda y
+   aqui estoy.
+   Es de notarse que aparte del hecho que es un migral tomado en dos
+   dias consecutivos, el umbral del dolor ha bajado y ya no se puede
+   "esperar" que venga el dolor migrañoso para tomar el migral, y se
+   lo termina tomando con dolor "jaquecoso" o sea dolor molesto pero
+   que podria ser aguantable incluso haciendo actividades.
+*** [2021-11-12 Fri]
+   dormi bien, pero me mordi la lengua dos veces, eso ya es un
+   problema grande, hice las series con algun esfuerzo, y me levante
+   un poco sin energia como teniendo que hacer un gran esfuerzo para
+   cada cosa que haga.
+*** [2021-11-13 Sat]
+   hoy un dia atipico pq anoche dormi entrecortado hasta las cinco pq
+   era la fiesta de quince, luego me tome una SL, lei un poquito y me
+   dormi hasta las 10, pero me quede fiaquento y desayune porquerias
+   dulces en la cama, y luego las series las hice tipo 12, aunque
+   curiosamente las hice con energia, almorzamos y me dormi tres horas
+   de siesta y me levante a tomar una merienda de dulces de
+   nuevo. Sumado al viento y al calor, hacen un dia horrible en
+   general.
+   Hoy es el segundo dia sin/m aunque valdria uno por uno, pq tome dos
+   seguidos, pero no se si llego a la noche pq cada rato me aparecen
+   indicios de un dolorcillo.
+*** [2021-11-14 Sun] 1 migral
+   dormi bien y mucho por ser domingo, me levante bien hice las series
+   bien y desayune dulces todavia sobrantes del cumple. Sigo teniendo
+   el tinitus agravado, esa sensacion de aturdimiento con un leve
+   dolor de oidos y un leve dolor de garganta de un lado. Dos dias sin
+   morderme la lengua, coincide con dos dias que no uso enjuague bucal
+   no se si habra una relacion causal alli.
+   Logre cumplir los dos dias de los dos migrales! por lo menos lo basico.
+   Luego al comenzar la siesta escalo el dolor rapidamente poniendose
+   migrañoso de golpe, y tome el migral rapido y fue efectivo en
+   tiempo y forma pienso pq lo tome rapido.
+*** [2021-11-15 Mon]
+   dormi bien y mucho, me levante mal animicamente sin ganas de
+   levantarme, hice las series mecanicamente, y el cambio de sabanas,
+   sin demasiada tortura. Luego desayune dulces de nuevo, y me fui a
+   depositar. Durante el tiempo que duro el deposito tanto mi mente
+   como mi cuerpo funcionan en otra dimension, o sea funcionan bien,
+   es cuando vuelvo a la casa es que me siento aplastado sin ganas y
+   sin deseos de hacer nada sino de tirarme y dormir o matarme. Pero
+   no confundirse, es muy dificil sacarme de ese marasmo, salvo
+   llevarla a la cami que es un acto reflejo sin pensarlo, y exigido
+   externamente, en el momento, "el tener que" ir al banco p.e. supone
+   una tarea imposible para llevar a cabo pero la obligatoriedad hace
+   que no la posterguemos mas que lo que se pueda. En cambio salir
+   para ir a la verdu p.e. lo postergamos indefinidamente.
+   Hoy al menos el tinitus-aturdimiento casi no se sintio al levantarme.
+   Son las trece horas y estoy exhausto fisica y mentalmente.
+   Son las diecisiete y estoy sumido en un marasmo fisico y mental
+   absoluto.
+   Me dormi una siesta y no puedo dormir completamente pq todavia
+   Fabian esta en la calle, y no da pero estoy knock out.
+   No tengo ganas de hacer nada, de seguir ningun habito, de leer
+   nada, de estudiar nada, de hacer nada. Lo unico que voy a hacer es
+   sentarme a ver la serie, pienso y posiblemente vaya a la farmacia a
+   comprar el pharmathon y probare con eso a ver como me va.
+   Comienzo a tomar pharmaton hoy.
+   Fui a la farmacia sin problemas lo unico que mucho calor. y me
+   molesta el picor en el torso delante y espalda. es como una alergia.
+   sigo en la situacion de no importarme nada y viviendo al pedo
+   total.
+*** [2021-11-16 Tue] 1 migral 1 am
+   dormi bien, levante optimo, hice las series muy bien, volvio el
+   tinitus con sensacion de oido tapado, cambio al otro oido ahora al
+   izquierdo.
+   El dolor de cabeza nocturno como siempre vino de repente y tome el
+   migral y lo limpio normal.
+   cuarto dia sin mordida de lengua.
+*** [2021-11-17 mié]
+   dormi muy bien, levante bien, hice las series bien, quinto dia sin
+   morderme la lengua, parte por menos espasmos - solo percibi uno muy
+   debil, y parte por mas conciencia del problema.
+   sigue el tinitus agravado pero mas leve que ayer.
+   Ayer fue un dia que pase todo el dia "levantado" o sea que no me
+   acoste a fiacar ni a dormir siesta hasta la noche, eso estuvo bueno
+   pq en el fondo supuso un poco mas de energia en juego.
+*** [2021-11-18 jue] 1 migral 15hs
+   dormi muy bien, levante bien, hice las series con mucho esfuerzo,
+   sexto dia sin morderme la lengua, descubriendo nuevos metodos para
+   corregir el mal habito. Me parece que el tinitus sobreviene luego
+   de sonarme fuerte la nariz a la mañana, hoy lo evite y el tinitus
+   quedo en niveles normales.
+   Hasta ahora no sobrevino el dolor.
+   El nivel de energia no se nota que haya cambiado mas alla de la
+   sensacion del primer dia, esta bien que estos dos dias son
+   especiales pq esta la obra de construccion.
+   no llega a ser dolor migrañoso punzante pero es una molestia que se
+   va en aumento y lo adelante, quizas hice mal, en otras
+   circunstancias hubiera podido pensar que hubiera tirado un dia mas.
+   Dormi una larga siesta y luego me sente en la maquina primero a
+   hacer las cajas, y luego a una sesion bastante larga de ingles, en
+   el nuevo esquema de words/grammar.
+*** [2021-11-19 Fri] 1 migral 12hs
+   dormi bien, levante bien, pero las series las hice con mucho
+   esfuerzo, y estoy con mucha fiaca en general. A pesar de todo he
+   hecho las obligaciones, he ido a pagar las boletas al hiper y
+   comprado un remedio, luego pase todos los papeles, y la lleve a la
+   cami al hiper de nuevo. Mucho calor, mucha incomodidad y un
+   incipiente y molesto dolor de cabeza, a pesar de que estoy en el
+   dia no.
+   Nuevamente un migral tomado al dia siguiente, con un dolor moderado
+   a molesto alto, sumado a la situacion molesta que se vive en la
+   obra tercer dia, pero ya proximo a escalar a migraña.
+   Es obvio que ya el migral bajo a jaquecoso, no a migrañoso pq el
+   umbral del dolor ha bajado y la paciencia tambien
+   Estoy en una situacion sumamente peligrosa la de caer en el consumo
+   diario de nuevo demasiado pronto luego del WD y a pesar de toda la
+   artilleria de neutop+sibelium junto.
+   Pero como dije juega en contra la situacion, el no tener ibuprofeno
+   como para probar anticipadamente, y ver, etc.
+   Limpio rapidamente el dolor incipiente que habia, luego amago,
+   luego se fue pero me deja la sensacion de un migral desperdiciado.
+*** [2021-11-20 Sat]
+   dormi mal anoche, me levante mas o menos y las series las hice con
+   muchisimo esfuerzo, luego la mañana transcurrio en la desidia mas
+   absoluta solo viendo cortos de yt. Almorce y luego siesta y mas
+   cortos en la cama, hasta las 6 y pico que prendi la compu, en el
+   medio un amague de comenzar una migraña fuerte que hubiera sido la
+   tercera al hilo, catastrofico.
+*** [2021-11-21 Sun] 1 migral 13hs
+   dormi regular, me levante mal, hice las series con extremada
+   dificultad y a duras penas desayune y me sente en el patio, estoy
+   exhausto, y me siento ahora a pasar los papeles que pueda. La unica
+   nota es que hace un calor extremo, pero estoy ya asustado por el
+   extremo a que va llegando la sintomatologia de la extenuacion.
+   Dia de extremo calor, 36°. tomo migral con sintoma intermedio
+   tirando a jaquecoso, pq tengo la voluntad cero, y esto tambien
+   abarca el querer aguantar migrañosidad. O sea un desastre total.
+*** [2021-11-22 Mon] 1 migral 15.30hs
+   otro dia que dormi regular, me levante temprano pq pensaba que ih
+   se habia levantado a pintar, y pense en no hacer las series a la
+   mañana al levantarse como metodo de no abrumarme, no tome el
+   pharmaton, comence con el mijo, no tome cafe agregado, tuve poco
+   hambre en realidad, y tuve muy poca energia como un golpe de calor,
+   hace un calor impresionante.
+   Lamentablemente me tuve que tomar un migral luego de una torrida
+   siesta sin aire de 13.30/a 15.30hs con un dolor suficiente para
+   migral.
+   Despues me tome un cafe con pan dulce saliendome de la dieta, luego
+   segui con el mijo.
+   El nivel de energia sigue bajo pero el dia no se presta para nada
+   mas que esto.
+*** [2021-11-23 Tue] 1 migral 16.30hs
+   dormi bastante bien, levante mal, muy debil no hice las series
+   directamente, pero me fui al hiper a comprar agua, lo hice bien,
+   pero volvi exhausto totalmente, no puedo ni respirar. re-desayune
+   con cafe de la manera tradicional a ver si me da un empujon pero
+   estoy muy mal, algo me esta haciendo mal.
+   a la tarde como siempre luego de dormir la siesta me agarro el
+   dolor y tome el migral pero no me fue eficiente, llevo dos horas de
+   sufrimiento y no se va del todo el dolor.
+*** [2021-11-24 Wed] 1 migral 14hs
+   me levante a las 8hs por necesidad para llevarla a la Cami a la
+   parada, y me quede levantado, luego me fui al banco, luego al
+   hiper, luego entre al hiper compre una remera y cafe, luego me
+   corte el pelo, luego compre el repuesto del baño, llegue acalorado
+   y cansado pero hice todo, y anoche habia dormido mal pq fue la
+   noche de la explosion de la casa vecina que nos desperto a todos a
+   las 4am y recien pude dormirme con una sl una hora despues. Lo
+   mismo me mordi la lengua muy fuerte.
+   Hice las series, con bastante dificultad pero las hice.
+   Y ahora estoy un poco acalorado y con bastante fiaca y
+   debilidad. Pero al menos he hecho cosas.
+   Lamentablemente tome el 4 migral consecutivo, ya dando por
+   terminado el efecto de la cortiterapia a menos de un mes de terminada.
+*** [2021-11-25 Thu]
+   dormi bastante bien, me desperte temprano y segui durmiendo, y
+   luego segui haciendo fiaca hasta las diez, me levante hice las
+   series con bastante dificultad y tome el cafe, pero estoy como
+   embotado, echo bosta, aturdido, nada que ver con lo que estaba ayer
+   cuando a la misma hora habia llevado a la cami, luego habia ido al
+   banco, luego al hiper, luego a cortarme el pelo, luego a la
+   ferreteria. No tiene sentido. Me dispongo a pasar los papeles en lo
+   que resta de la mañana.
+   Luego paso lo de la "activacion muscular" y la limpieza de la
+   habitacion, y el entonamiento del resto del dia. termine no
+   durmiendo siesta, pasandola con aire acondicionado a full, y no
+   registrando en el dia episodio de migraña. Me fui a acostar a las
+   22hs.
+*** [2021-11-26 Fri]
+   dormi bien, me levante a las 7.30hs fresco, agil, hice las series
+   con bastante energia, luego desayune y me puse a esperar que
+   viniera el Andres a pintar el techo. No tengo el impetu de ayer
+   cuando hice la activacion pero no estoy embotado todavia. Estoy de
+   otra forma.
+   hice una segunda prueba activacion muscular y no senti mucho el
+   estiramiento muscular, pero si hubo activacion, tanto es asi que me
+   puse y limpie todo el living, sin ñañunzio y sin sueño, con mucha
+   energia. Previamente habia tenido un toque de energia para pasar
+   los papeles pq pase todo lo que tenia atrasado.
+   Ahora sin embargo tipo 12 siento un poco de sueño.
+   no me resulta dificil tomar una siesta de bombero, o sea durante la
+   posibilidad de llamado de Fabian.
+   Ahora luego del cafecito estoy incubando una jaquecosidad.
+*** [2021-11-27 Sat] 1 migral 14hs
+   dormi bien me levante bien hice las series con energia, y luego me
+   puse a limpiar el patio, saque baldes de arena afuera, e hice otras
+   tareas bastante arduas bajo el sol, esta vez me ayudo la ih pero
+   fue una tarea mas dificil que la limpieza del living.
+   luego pasado el mediodia el dolor comenzo y no se hacia bien
+   redondeado, como para migral pero al final termine tomandomelo, y
+   luego de una siesta no surtio efecto, quedo igual a las dos horas,
+   cuando ya me presentia que iba a necesitar un segundo migral, me
+   levanto a tomar la merienda y termino dando vuelta el sintoma y se
+   fue el dolor.
+*** [2021-11-28 Sun]
+   dormi bien, me levante tarde por ser domingo, hice las series con
+   gran energia, y ahora me dispongo a pasar una tonelada de papeles.
+   pase los papeles de una y luego el dia discurrio bien.
+*** [2021-11-29 Mon] 1 migral 12.30hs
+   dormi bien, me levante temprano, hice las series con energia casi
+   total, me puse fagina luego del desayuno y me puse a trabajar en el
+   patio, como hacia calor y no me pintaba muy mucho seguir con el
+   purgado de las cosas a guardar me puse a pintar y lo hice hasta el
+   mediodia que pare para comer, luego me agarro el dolor de cabeza,
+   que el migral tuvo dificultad para limpiar a pesar de haberle dado
+   correcta siesta sin interrupciones de Fabian ni de Fede y no hacia
+   calor tampoco.
+   Pienso seguir pintando a la tarde para terminar la pintura y tirar
+   un par de cosas mas para ir terminando con el patio.
+*** [2021-11-30 Tue] 1 migral 12.30hs
+   dormi bien me levante temprano, hice las series con energia y me
+   puse a pintar de una lo que faltaba, que era poco y luego de
+   terminar me senti un poco agotado, no se porque pq la tarea no fue
+   tan demandante como para agotar.
+   Se me esta incubando ya un dolor.
+   tome un migral 12.30 por un incipiente grande, y me limpio en menos
+   de media hora, luego dormi la siesta, todo bien, y luego pase
+   papeles bien pero son muchos, tengo mucha fiaca de estudiar, me
+   levanto, apago y me voy afuera, o a ver tele.
+*** [2021-12-01 Wed]
+   dia sin registros no recuerdo bien porque. No hubo ninguna tarea
+   relevante que recuerde, ni hecho puntual relevante. No tome migral
+   durante el dia, sino solo a las doce de la noche. Recuerdo que
+   dormi la siesta una hora y media y que me dormi a la noche a las 9.30.
+*** [2021-12-02 Thu] 1 migral 0 am
+   dormi bien pero mucho, casi 12hs. dificultad para levantarme. hice
+   las series bien normal, aunque instantes antes pensaba que no
+   podria hacerlas. Desayuno normal en el aqui y ahora, y luego pum!
+   se cae la cortina a la nada. Sin tener nada para hacer, y el cuerpo
+   que cruje y duele. Ahi nomas decido limpiar la habitacion y lo hago
+   en el aqui y ahora con dificultad si pero con gusto de estar en
+   medio de una tarea, y luego me siento para las tareas del dia.
+   media mañana pasando papeles me siento realmente mal fisicamente, y
+   me tomo la presion tengo 9.9/6.7 y 89ppm luego de estar sentado
+   varios minutos. con el oximetro me mido y tengo 97%, o sea que bien
+   la oxigenacion de la sangre. Me tome dos veces mas y la tension
+   siguio igual lo que bajo fueron la ppm, a 76 y luego a 68. Lo
+   llamativo es la estabilidad de la tension en esos valores bajos. No
+   importa que coma, que duerma, nada.
+*** [2021-12-03 Fri] 1 migral 15hs
+   dormi bien levante bien series regular.
+   desayune bien, luego para no sentirme miserable empezando la nada
+   de actividad frente a la compu, me sente a charlar con ih, como una
+   hora, y ahora recien me siento a la compu a pasar las ventas. Hoy
+   la idea seria soportar hasta las cero sin dolor.
+   tengo 11.2/7.3 - 72ppm o sea no tan baja que ayer, pero la
+   sintomatologia casi igual, apolillado, soñolento,
+   debilitado. Releyendo el año pasado hace casi un año estaba
+   apolillado en extremo describiendo una situacion muy similar a la
+   actual.
+*** [2021-12-04 Sat] 1 migral 15hs
+   levante a las 7.30 de golpe pq vinieron a llevar los escombros, lo
+   mismo hice las series bien, y desayune licuado despues de tanto
+   tiempo, y pase toda la mañana con el trabajo en el patio con el
+   Andres, no hice mucho pero estuve para lo que hiciera falta. Luego
+   me empezo el dolor de cabeza y a mitad de la siesta tome el
+   migral.
+*** [2021-12-05 Sun] 1 migral 17hs
+   dormi bien y mucho pq es domingo, desayune licuado en la cama, y
+   luego hice las series bien, y al final me levante a las doce a
+   pasar los papeles.
+   Un anticipo de lo que puede ser un domingo solo, sin tener nada que hacer.
+   termine tomando un migral con una jaqueca asi nomas. Otra tanda de
+   cuatro dias seguidos. Vamos mal.
+*** [2021-12-06 Mon] 1 migral 18hs
+   dias casi sin registro. Todo igual, dormir mucho, levantarse hacer
+   las series bien en cierta forma pero carecer de voluntad de hacer
+   nada. El dolor viene automatico en forma diaria. Es una cagada,
+   pero la vida es una cagada aun sin dolor de cabeza.
+*** [2021-12-07 Tue]
+   dia normal. como me quede solo no me queria levantar y dormi mas de
+   la cuenta y no tenia voluntad de nada. Luego no se como me puse a
+   hacer el encargo del Fede de una pagina de control de calles y tuve
+   un par de horas en eso que pasaron volando y lo termine, todo un
+   milagro en todos los sentidos. Luego a la tarde espere que vinieran
+   del Chaco, y como fueron directo a hyg fui para alla y nos quedamos
+   hasta las 23hs, o sea fue una jornada larga.
+   Otra cosa milagrosa que fue un dia sin dolor de cabeza.
+*** [2021-12-08 Wed] 1 migral 19hs
+   dormi mucho al amparo del feriado, me bañe al levantarme algo
+   milagroso, y luego de desayunar, me puse a hacer tareitas de ayuda
+   en la casa para ih, y quede extenuado fisicamente.
+   luego del almuerzo me acoste un rato y luego me levante mas animado
+   a estar con los chicos.
+   el aburrimiento es supremo, la hora no pasa mas, los chicos se
+   fueron temprano y luego quedo una tarde larguisima. Vi bastante
+   tele, y luego me sente en el patio, y alli termine tomandome el
+   migral, cenamos en el patio y luego vimos el partido de talleres
+   que termino perdiendo con boca por penales, una decepcion.
+*** [2021-12-09 Thu]
+   dormi bien noche con lluvia y truenos, me levante para llevar a ih
+   al fede a cuidar los chicos, desayune antes de las series, luego
+   hacer las series fue una tortura. Termine las series y me acoste
+   extenuado. Al rato me entraron unos wass y me tuve que levantar. Y
+   no me permitieron dormir.
+   No se ya que hacer, la decadencia es extremada. P.e. en este
+   momento la soñolencia es extrema, es como un ataque, bostezo tras
+   bostezo cada vez mas fuerte que hace doler la mandibula y me
+   humedece los ojos.
+   lo bueno del dia que no tome migral
+*** [2021-12-10 Fri] 1 migral 18hs
+   dormi bien con lluvia y truenos, me levante para llevar a ih,
+   desayune no muy lindo, despues hice las series con mucho esfuerzo
+   casi torturante.
+   Tengo un viejo recuerdo del 2007 en que estaba muy debilitado,
+   aunque eran distintas las circunstancias pq trabajaba y cumplia mis
+   obligaciones y no recuerdo que me haya costado cumplirlas, si
+   recuerdo que salimos a caminar por la peatonal un sabado con mucho
+   calor con la Cami chiquita y luego de media cuadra me sente en los
+   circulos extenuado. Y recuerdo que tomaba o bien me compre un
+   frasco de proteinas en polvo. Pero que me habia hecho bien una
+   tanda de diez dias de muesli de avena. La diferencia con el licuado
+   de ahora quizas es que lo fracciono en dos dias y entonces la
+   cantidad de avena por dia es menor.
+   Lo bueno del dia es que al amparo de la motivacion por los nuevos
+   cuadraditos que meti en estudio despues de tanto tiempo, me motivo
+   a cocinarme una sopa de calabaza con avena y la hice y me salio
+   bastante aceptable, en el medio toste sesamo y lo moli lo cual fue
+   tambien determinante para redondear el sabor. Creo que la sopita de
+   avena viene a acentuar el tratamiento de avena con el licuado.
+*** [2021-12-11 Sat] 1 migral 15hs
+   todo normal o igual que dias anteriores.
+   a la tarde me tome un migral no tan necesario pero quizas por
+   ansiedad pq a la tarde tenia que ir a la terminal a llevar a las chicas
+*** [2021-12-12 Sun]
+   dormi hasta las doce por ser domingo y por estar nubladito
+   fresquito y ventoso, faltaba la lluvia nomas.
+   lo mas importante del dia fue que no tome migral
+*** [2021-12-13 Mon] 1 migral 14.30hs
+   dormi muy bien, anoche tome sopita energizadora, me levante bien
+   hice las series con energia, y lleve a ih, luego fui al banco todo
+   bien, y ahora con un poco de esfuerzo estoy haciendo algunas tareas
+   domesticas.
+   despues de almorzar tome un migral.
+   El migral me fallo!!!!. Tuve una migrañosidad post-migral que me
+   hizo acostarme a dormir por unas dos horas y luego me levante como
+   a las 9 de la noche a cenar y recien ahi se me fue.
+*** [2021-12-14 Tue]
+   dormi bien, me costo levantarme, hice las series bien, y otro dia
+   mas en que las mañanas transcurren como una lucha sin sentido entre
+   la fuerza de voluntad y la falta de ganas de hacer cosas. Lo unico
+   positivo fue que fui a la dietetica y compre todo para hacer
+   licuado por un tiempo.
+   lo unico bueno del dia que no tome migral.
+*** [2021-12-15 Wed] 1 migral 17hs
+   dormi bien pero como vengo sufriendo estos ultimos dos dias desde
+   temprano ih empieza a hinchar y ya no puedo seguir durmiendo,
+   ademas la posibilidad de que vengan a buscar el violin hoy me hizo
+   levantarme.
+   hice las series normal.
+   tome el licuado y empiezo a ponerle maca negra.
+   tome el migral como una rutina pienso.
+*** [2021-12-16 Thu] 1 migral 13hs
+   dormi bien, duermo mucho, estoy en la cama mas de 12hs, pq me
+   acuesto a las 9hs y tipo 10, 10.30 ya me duermo y me levanto a las
+   9.30, o sea una barbaridad. Me levanto pq tengo que llevar a ih,
+   hago las series bien, y llevo a ih, desayuno rapido y me voy al
+   banco, todo bien, y es cuestion de sentarme a la compu que me
+   agarran los bostezos, es algo de mandinga, no se pq pasa.
+   estaba pasando papeles cerca de las 12.30 y me agarro de golpe
+   dolor de cabeza y me tome un migral y luego se corrigio rapido pq
+   me fui a comer a hyg y se me paso y me quede alla hasta las 16hs y
+   cuando vine me surgio de nuevo una molestia pero mucho menor.
+*** [2021-12-17 Fri]
+   dormi bien hice las series bien.
+   ya temprano tipo 11 me comienzan las molestias jaquecosas.
+   lo unico bueno es que paso todo el dia y no tome migral
+*** [2021-12-18 Sat] 1 migral 1 am - 1 migral 17hs
+   debe ser que la no toma de ayer se estiro a despues de las doce
+   pero no paro la migralosidad y detono una toma dentro del
+   dia. lamentable.
+   el dia normal.
+*** [2021-12-19 Sun]
+   dormi perfecto, que digo, hermoso, pienso pq dormi mitad con aire y
+   mitad con ventana fresco y con la sabana marron recien cambiada y
+   era domingo y dormi hasta que yo quisiera, dormi hasta las 11hs.
+   obviamente me levante debilitado, y las series las hice flojito con
+   esfuerzo.
+   Los papeles los pase con algun esfuercito pero bastante bien, me
+   desocupo a las 15hs, bien.
+   positivo que el dia y la noche y la mañana siguiente sin migral
+*** [2021-12-20 Mon] 1 migral 15hs
+   dormi poco pq tenia que buscar a las chicas y me levante rapido
+   para ir a buscarlas y no hice las series. Luego cuando regrese,
+   todo ok, tenia un golpe de calor que se evidencio cuando entre a la
+   casa, recien al rato de estar dentro de la habitacion con a.a. me
+   estabilice.
+   Lo bueno que ayer y hasta el momento curso sin migral.
+   hice las series con gran esfuerzo y me sente obligado por atenderlo
+   a Fabian, pero no es que tenga ganas de pasar papeles ni nada.
+   encima no mejora la epididimitis.
+
+   La paradoja del funcionamiento correcto y normal cuando tengo algo
+   que "hacer" pq antes, durante y mientras estuve en la tarea "ir a
+   buscar a las chicas" estuve totalmente normal, con todas mis
+   facultades fisicas y mentales al tope, y es cuestion de llegar a la
+   casa y empezar a desmoronarme de a poco.
+   Ayer en un video vi que el dia se tenia que empezar con un periodo
+   de unos minutos de luz diurna intensa para "despertarse" bien.
+
+   tome un migral al almuerzo casi sin necesitarlo, despues me
+   arrepenti, eso pasa cuando tenes la licencia para tomarlo luego de
+   un dia en que no lo has tomado.
+*** [2021-12-21 Tue] 1 migral 14hs
+   dormi hermoso, pero llego la hora de levantarse y tuve que
+   levantarme pesadamente, y luego hice las series esforzadamente y
+   tome el desayuno bien, y encaro las tareas con un esfuerzo titanico
+   pq hace mucho calor y tengo mucha fiaca y mucho sueño, pero hoy
+   tengo dos compromisos asi que tengo que mantenerme levantado.
+   el compromiso-plomero fue arduo pq estuve 2hs con estres y parado
+   al lado del baño pq no salia bien el trabajo y en el medio tome un
+   migral, que luego fue semiresciliente pq me dolio levemente a la
+   tarde.
+   luego dormi una buena siesta con aire.
+*** [2021-12-22 Wed]
+   dormi mas o menos bien a la noche sin aire, con la ventana hasta
+   arriba abierta con algo de viento que entraba. Me levante desayune
+   primero sin hacer las series, y la lleve a la ih y a la cami al
+   hiper. Luego para hacer las series tuve que hacer un esfuerzo
+   sobrehumano. quede exhausto.
+   Lo mismo de siempre, ya no se que hacer. Estoy terminando el frasco
+   de pharmaton y no aprecio ningun cambio en el nivel de energia. Mas
+   que todo por la mañana que es lo mas grave.
+   hoy no tome migral y eso es lo mas importante del dia.
+   dormi una siesta mounstrosa que se suma a las 11hs que duermo a la
+   noche.
+*** [2021-12-23 Thu] 1 migral 13hs
+   dormi mas o menos con muchas incomodidades a pesar de haber dormido
+   con aire toda la noche. Hice las series normal. desayune y tengo
+   que pasar un monton de papeles.
+   terminado con gran esfuerzo los papeles en el medio me tome un
+   innecesario migral.
+*** [2021-12-24 Fri] 1 migral 17hs
+   dormi bien anoche, levante mas o menos, hice las series normal
+   desayune mal, pq me olvide de hacer el licuado y ahora intento
+   pasar los papeles faltantes para que no me quede nada pendiente.
+   a la tarde me tomo un migral mas bien preventivo de la noche pero
+   fue efectivo.
+*** [2021-12-25 Sat] 1 migral 2 am
+   tome un migral a las 2am ante incipiente migraña que al final no
+   fue.
+   Como me fui a dormir a las 3.30 al final todo el dia tuve durmiendo
+   de a ratos.
+*** [2021-12-26 Sun] 1 migral 15hs
+   dormi bien y hasta tarde pero me levante muy debilitado, hice las
+   series normal, pero estoy muy bajo.
+   Pero quizas se deba a los dias estos de mucho calor, mal comer,
+   mucho dormir, no hacer nada, etc.
+   Tome un migral creo que tambien innecesario.
+*** [2021-12-27 Mon] 1 migral 13.30hs
+   dormi perfecto y me levante bien, hice las series bien, lleve a ih
+   al fede y ya cuando volvi estaba un poco bajon, y al final del
+   desayuno tipo 10hs estoy completamente exhausto.
+   Pienso que es por dormir de mas, creo que tendria que levantarme
+   dos horas antes por lo menos.
+   tome otro migral innecesario.
+*** [2021-12-28 Tue] 1 migral 13.30hs
+   dormi bastante bien siendo que me tenia que levantar temprano para
+   ir al medico. Me levante bien, hice las series perfecto con el
+   aire, luego me prepare y me fui al hospital.
+   Conforme con las dos consultas, mas que conforme.
+   al volver golpe de calor, golpe de isabelismo y de nuevo otro
+   migral ante una aguda crisis repentina de migralosidad. A todo esto
+   tenia mucho sueño y no pude dormir bien, pq entre el timbre dos
+   veces, el corte de luz, y fabian 3 veces, me cagaron la siesta del
+   todo.
+   Asi que alli tengo un tema, o sea los dias de oficina que me
+   levante a las 7 luego voy a querer volver y dormir una siesta y a
+   veces como hoy no voy a poder.
+   El animo cambia un poco ante la idea de que en breve empezamos de
+   nuevo la oficina. La bocha es volver a trabajar y producir
+   nuevamente.
+*** [2021-12-29 Wed] 1 migral 13.30hs
+   idem dias anteriores
+   migral idem dias anteriores solo que parecio por un momento que no
+   iba a funcionar y que me iba a tener que tomar un segundo migral
+   pero felizmente no paso.
+*** [2021-12-30 Thu] 1 migral 17hs
+   dormi bien al viento natural de la noche toda la noche, levante
+   bien, hice las series bien, pero no tengo energia pero me dispongo
+   igualmente a hacer el trabajo.
+   migral tomado innecesariamente pq el pmo wh esta cerca.
+   ih tiene covid positivo.
+*** [2021-12-31 Fri] 1 migral 13.30hs
+   dormi bien, levante bien sin sintomas de covid, hice las series
+   bien, y aparte de algunas tareas domesticas extras me dispongo a
+   pasar algunos papeles mas.
+   fue un dia de muy diversas ocupaciones y todo ok
+*** [2022-01-01 Sat] 1 migral 3.30 am.
+   dormi bien, solo que desperte con dolor de cabeza, y es que habia
+   tomado un par de copas de sidra, quizas sea eso, me tome un migral
+   y listo.
+   dormi hasta tarde y luego me levante bien.
+*** [2022-01-02 Sun] 1 migral 17hs
+   dormi bien, levante bien, hice las series normal.
+   hoy me falto una pastilla de sertralina, tendria que ir a comprar o
+   mañana temprano.
+   Estoy contento pq es el cuarto dia que le esquivo al covid. En
+   circunstancias adversas pq si me agarrara no tendria nadie que me
+   cuide. Espero al menos que se cure ih primero.
+   Sigo con la debilidad de base pero puedo seguir haciendo las cosas
+   con cierta fuerza de voluntad. Creo que es el dormir de mas lo que
+   me causa que este debilitado. Es algo que tengo que corregir cuando
+   empieze a trabajar.
+*** [2022-01-03 Mon] 1 migral 13hs
+   dormi bien, pero me tuve que levantar "temprano" a las 9 con gran
+   dificultad, hice las series bien, y luego varias tareas, tome
+   licuado despues de bastante tiempo, y sigo con el cansancio
+   fatal.
+   Ayer tome la mitad de la dosis de sertralina pq se me acabo y hoy
+   no la tome, mañana tengo psiquiatra veremos que dice, no creo que
+   me haga nada interrumpirla por dos dias.
+*** [2022-01-04 Tue] 1 migral 13hs
+   dormi hermoso pero demas, noche fresca y lluviosa, me levante bien
+   hice las series bien y desayune licuado, pero no tengo suficiente
+   fuerza como p.e. para ponerme a limpiar la casa que le haria falta.
+   dos dias sin sertralina.
+*** [2022-01-05 Wed] 1 migral 13hs
+   dormi muy bien, me levante mas temprano que lo que venia haciendo
+   para llevar a ih, hice las series bien, desayune licuado, y luego
+   fui al tadicor, todo bien, solo quede exhausto cuando acomode las
+   cosas que habia comprado en la casa, y en la casa me volvio el
+   sueño y el cansansio y todas los sintomas de siempre. Es algo que
+   no puedo explicarmelo bien.
+*** [2022-01-06 Thu] 1 migral 13hs
+   dormi bien, me levante bien, y con un poco mas de energia las
+   series se hicieron en forma normal, me senti un poco agitado es
+   decir con 95ppm luego de agacharme un segundo. Pero hice varias
+   tareas.
+   Ayer pase el piso living y cocina en 45 minutos, hoy no conte el
+   tiempo pero limpie a fondo campana y heladera, luego de un descanso
+   hice los muebles blancos, luego a la siesta la cocina que es
+   enorme.
+   Aunque estoy cerrado a cualquier actividad intelectual del
+   ex-"algo" no por ello carezco de metas u objetivos y en ellos me
+   mantengo ahora y con los trabajos que hago estoy mas ocupado y no
+   siento el cuerpo tan debilitado como antes, y ya van un par de dias
+   que no duermo siesta y me acuesto un poco mas tarde.
+*** [2022-01-07 Fri] 1 migral 13hs
+   id anterior. la diferencia que pase casi todo el dia en la cama,
+   salvo a la tarde que me puse en el sillon a ver netflix.
+*** [2022-01-08 Sat] 1 migral 17hs topiramato 50mg
+   id anterior. y pinta a ser igual de ponerse a dormir o a estar
+   echado, cuesta estar sentado o encarar una tarea.
+*** [2022-01-09 Sun] 1 migral 13hs
+   id anterior. mucha rigidez cervical. Apartir de anoche reduje
+   topiramato a 50mg, quiero probar sacarlo y ver que pasa con el
+   migral si sigue igual o que joda.
+*** [2022-01-10 Mon] 1 migral
+   id anterior. exagerado cansansio muscular, exagerada sensacion del
+   calor, aplastamiento, y eso que son las 10hs, que todavia esta
+   fresquito, que no he sufrido nada de calor todavia.
+   a pesar de todo, pienso que cuando empiece a trabajar todo va a
+   cambiar.
+*** [2022-01-11 Tue] 1 migral
+*** [2022-01-12 Wed] 1 migral
+   a las 10.30 me fui al centro, camine como un enano bajo el sol, fui
+   al seven, fui al cerrajero, varias cosas. Mision cumplida.
+*** [2022-01-13 Thu] 1 migral
+   me levante a las 7.15 para la mudanza de la romi, mision cumplida.
+*** [2022-01-14 Fri] 1 migral
+   cuesta hacer las series, estoy evaluando dejarlas, con 700 hechas
+   como marca historica, pero me pesa seguir haciendolas.
+   Estos dos ultimos dias he logrado hacerlas si o si a la tarde con
+   un esfuerzo normal, pero pienso que no debo dejar el record que
+   tengo pq nunca mas lo voy a lograr. Estoy cerca de los dos años.
+
+   Esta semana es una semana de ola de calor y no hay otra que pasarla
+   en el aire y echado, no hay forma de salir a la calle con mas de
+   40° a la sombra.
+*** [2022-01-15 Sat] 1 migral
+   anteultimo dia de la ola de calor, por suerte hasta ahora bien.
+   estoy muy esperanzado que la oficina articulara todo lo relativo al
+   trabajo y activara en mi energias que tengo ocultas y volvere a ser
+   el de antes. No solo concentrando todo el pasado de papeles
+   atencion de cobradores y avisos alla sino tambien lo necesario en
+   programacion para asegurar el sistema.
+   Y en la casa que venga a ser como de relax.
+*** [2022-01-16 Sun] 1 migral
+*** [2022-01-17 Mon] 1 migral
+*** [2022-01-18 Tue] 1 migral topiramato 25mg
+   a partir de hoy comienzo a tomar 25mg de topiramato
+*** [2022-01-19 Wed] 1 migral
+*** [2022-01-20 Thu] 1 migral
+*** [2022-01-21 Fri] 1 migral
+*** [2022-01-22 Sat] 1 migral
+*** [2022-01-23 Sun] 1 migral
+*** [2022-01-24 Mon] 1 migral
+*** [2022-01-25 Tue] 1 migral
+*** [2022-01-26 Wed] 2 migral 1am - 17hs
+*** [2022-01-27 Thu] 1 migral
+*** [2022-01-28 Fri] 1 migral
+* cortiterapia 2022
+  UM: [2022-2 Wed] (2 migrales) - se aumenta la dosis de
+  topiramato a 75mg. En una semana se aumentara a 100mg.
+  [2022-03-012hsdiclo-2hs3 Thu] comienzo de cortiterapia 40mg por dia a las 8hs.
+|  1 | [2022-03-03 Thu] | 60mg | 12hs | diclo-kSL             |
+|  2 | [2022-03-04 Fri] | 40mg |      |                       |
+|  3 | [2022-03-05 Sat] | 40mg | 3hs  | kSL                   |
+|  4 | [2022-03-06 Sun] | 40mg | 5hs  | kSL k10               |
+|  5 | [2022-03-07 Mon] | 40mg |      |                       |
+|  6 | [2022-03-08 Tue] | 40mg | 3hs  | k10                   |
+|  7 | [2022-03-09 Wed] | 40mg | 6hs  | k10 k10               |
+|  8 | [2022-03-10 Thu] | 40mg | 3hs  | k10                   |
+|  9 | [2022-03-11 Fri] | 20mg |      |                       |
+| 10 | [2022-03-12 Sat] | 20mg | 4hs  | kSL k10 k10           |
+| 11 | [2022-03-13 Sun] | 20mg |      |                       |
+| 12 | [2022-03-14 Mon] | 20mg |      |                       |
+| 13 | [2022-03-15 Tue] | 20mg | 3hs  | k10 k10 Flocur        |
+| 14 | [2022-03-16 Wed] | 20mg |      |                       |
+| 15 | [2022-03-17 Thu] | 20mg | 1hs  | k10 k10               |
+| 16 | [2022-03-18 Fri] | 20mg |      |                       |
+| 17 | [2022-03-19 Sat] | 20mg |      |                       |
+| 18 | [2022-03-20 Sun] | 20mg |      |                       |
+| 19 | [2022-03-21 Mon] | 10mg |      |                       |
+| 20 | [2022-03-22 Tue] | 10mg |      |                       |
+| 21 | [2022-03-23 Wed] | 10mg | 6hs  | k10 k10 Flocur Flocur |
+| 22 | [2022-03-24 Thu] | 10mg |      |                       |
+| 23 | [2022-03-25 Fri] | 10mg |      |                       |
+| 24 | [2022-03-26 Sat] | 10mg | 6hs  | Flocur Flocur         |
+| 25 | [2022-03-27 Sun] | 10mg |      |                       |
+| 26 | [2022-03-28 Mon] | 10mg | 10hs | Flocur Flocur         |
+| 27 | [2022-03-29 Tue] |      | 4hs  | Flocur Flocur MIGRAL  |
+|    |                  |      |      |                       |
+
+
+** descripcion
+
+*** [2022-03-03 Thu] 40mg 8hs - 20mg 20hs
+   curse molesto pero no tragico, se empezaron a manifestar luego de
+   una alargada y disconfortable siesta dolores articulares, aparte de
+   la cefalea por eso me incline por un diclo, pero solo me corrigio
+   los dolores articulares, no la cefalea que me siguio, de continuo.
+   No me podia dormir a la noche, y me aumentaba el dolor mandibular
+   hasta hacerlo mas fuerte que el dolor de cabeza y tome un keto
+   sublingual el cual fue positivo pq me mejoro tanto el dolor de
+   mandibula como el de cabeza y pude dormir bien el resto de la noche.
+
+*** [2022-03-04 Fri] 20mg 8hs - 20mg 20hs
+    me levante bien y me fui a la oficina, volvi, estuve levantado,
+    hasta el almuerzo con tareas varias, luego una siesta breve
+    interrumpida pq tenia que venir Fabian, luego me puse a trabajar
+    en la compu tareas varias, y aca estoy a las 18hs sin ningun tipo
+    de dolor, salvo una incipiente jaquecosidad que si no le das
+    bolilla no pasa nada.
+
+*** [2022-03-05 Sat] 20mg 8hs - 20mg 20hs
+    curse poco dolor de cabeza mas que todo a la siesta, lo ataque con
+    un k y fue efectivo a mas o menos una hora horaymedia. para
+    bajarlo de una N5 a un N2.
+    tuve un episodio paralelo de retorcijones muy largo como de tres
+    horas con demora en la evacuacion, cuando al final bajo la
+    diarrea, el dolor se fue. Sospecho de comida o bebida en mal
+    estado.
+
+*** [2022-03-06 Sun] 20mg 8hs - 20mg 19hs
+    curso bien, pero luego del almuerzo familiar me retire con un n2 y
+    tome un ksl y no me suertio efecto sino que subio a las dos horas
+    a un n5 y al rato a un n7 decido levantarme y tomar algo moverme,
+    y me hago un te con pan y tomo un k10mg que fue efectivo en la
+    siguiente hora para bajarmelo a un n2
+
+*** [2022-03-07 Mon] 20mg 8hs - 20mg 20hs
+    curso bien sin dolor en todo el dia, tomando mucha agua.
+
+*** [2022-03-08 Tue] 20mg 8hs - 20mg 20hs
+    esta cursando bien la mañana. a la siesta como de costumbre se
+    desato un normal n4 y tome un keto10mg que fue efectivo en 3hs.
+
+*** [2022-03-09 Wed] 20mg 8hs - 20mg 20hs
+    la jornada mas complicada hasta ahora el dolor fue mas fuerte y
+    mas continuo, tome dos keto 10mg, que lograron controlar a lo
+    largo de 6hs el dolor, yo pensaba que iba a terminar tomando un migral.
+
+*** [2022-03-10 Thu] 20mg 8hs - 20mg 20hs
+    Curso un n2-n4 despues del
+    almuerzo tratado con un keto10 eficazmente.
+
+*** [2022-03-11 Fri] 20mg 8hs
+    comence la reduccion
+    fue un dia completo sin dolor
+
+*** [2022-03-12 Sat] 20mg 8hs
+    bien por la mañana hasta el mediodia mas o menos que me tome un
+    kSL y no me surtio efecto luego me tome dos k10 que ayudado con la
+    necesidad de levantarme para pagarle al Andres, tomarme una buena
+    merienda, y quedarme en la compu a hacer unas tareas agradables,
+    lo fui piloteando, pq era un N6.
+
+*** [2022-03-13 Sun] 20mg 8hs
+    dia completo sin dolor
+
+*** [2022-03-14 Mon] 20mg 8hs
+    dia completo sin dolor, salvo a la tarde algunas minimas molestias
+    pero que no ameritaron tomar nada.
+
+*** [2022-03-15 Tue] 20mg 8hs
+    empezo un n3 a la siesta que se transformo en n5 tome dos keto10
+    juntos, dormi la siesta y en dos horas se transformo en n7, como
+    tenia compromiso y de paso para probar tome un flocur, que resulto
+    efectivo en 45min.
+*** [2022-03-16 Wed] 20mg 8hs
+    hasta el momento se presenta un dia optimo
+*** [2022-03-17 Thu] 20mg 8hs
+    un k10mg fue efectivo en media hora contra un n5 luego me levante
+    tome merienda y continue el proceso, luego mas tarde hubo recaida
+    pero no necesite tomar mas nada y para la noche habia limpiado
+    totalmente.
+*** [2022-03-18 Fri] 20mg 8hs
+    dia optimo
+*** [2022-03-19 Sat] 20mg 8hs
+    dia optimo
+*** [2022-03-20 Sun] 20mg 8hs
+    dia optimo
+*** [2022-03-21 Mon] 10mg 8hs
+    dia optimo
+*** [2022-03-22 Tue] 10mg 8hs
+    dia optimo
+*** [2022-03-23 Wed] 10mg 8hs
+    dia aciago comenzo dolor como a las 14hs y fueron inefectivas las
+    medidas de control, primero dos keto 10mg a las 14hs, y luego un
+    flocur a las 15.10 y otro a las 18hs. El dolor cedio solo a las
+    20hs.
+    Si bien es cierto que pivoteo entre un N5-N6 y no llego nunca a un
+    nivel alto fue molesto e incapacitante social y laboralmente.
+    Rompio una racha de cinco dias sin dolor, y me demostro que el
+    dolor es neuronal, o sea que no depende de ninguna estrategia de
+    nada que pueda yo hacer.
+*** [2022-03-24 Thu] 10mg 8hs
+     dia optimo
+*** [2022-03-25 Fri]
+*** [2022-03-29 Tue]
+
+    decidi tomar migral pq el flocur es ineficiente y tenia que estar
+    bien pq iba a venir el andres y pq estoy cansado de tener migraña
+    y de sentirme mal.
+
 * registro migral
 ** Noviembre 2022
 | [2022-11-01 Tue] |  2 |      |
