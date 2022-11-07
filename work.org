@@ -821,6 +821,15 @@ nuevo array.
         }
 #+end_src
 no podia ser mas simple.
+*** DONE contabilidad dedicada
+CLOSED: [2022-11-07 Mon 10:42]
+contabilidad para cada persona en menu con acceso individual.
++ [X] Pienso que podria ser en el _nav que aprobara el usuario.
++ [X] una pagina que maneje las cuentas.
++ [X] una pagina que maneje los asientos.
++ [X] una pagina que con el cuadro de resultados.
+
+
 ** TODO explorar y pasarse a bulma menu-bar
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
@@ -1054,16 +1063,12 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
-** TODO contabilidad dedicada
-contabilidad para cada persona en menu con acceso individual.
-+ [X] Pienso que podria ser en el _nav que aprobara el usuario.
-+ [ ] una pagina que maneje las cuentas.
-+ [ ] una pagina que maneje los asientos.
-
 * agenda de actividad
 ** semana [2022-11-06 Sun]
 *** [2022-11-07 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-07 Mon 09:46]--[2022-11-07 Mon 10:41] =>  0:55
+voy a tratar de terminar conta.- terminado.
 CLOCK: [2022-11-07 Mon 08:45]--[2022-11-07 Mon 09:15] =>  0:30
 probando boon- esta verde todavia.
 :END:
@@ -2156,11 +2161,12 @@ CLOSED: [2022-11-05 Sat 12:57] SCHEDULED: <2022-11-05 Sat>
 - Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
 :END:
 **** git-mirror
-SCHEDULED: <2022-11-06 Sun .+1w>
+SCHEDULED: <2022-11-14 Mon .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-10-30 Sun 10:02]
+:LAST_REPEAT: [2022-11-07 Mon 09:46]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-07 Mon 09:46]
 - State "DONE"       from ""           [2022-10-30 Sun 10:02]
 :END:
 **** actualizar tabla inflacion

@@ -46,7 +46,8 @@ y otra parte en js
 #+end_src
 aca deje esas opciones de colores sacada de la pagina oficial pq me
 parecen bonitos pero se puede poner cualquier cosa.
-El tema del update() no me funciono, para cambiar el set de datos tuve
+El tema del update() no me funciono (ver [[denote:20221107T110347][chartjs in alpinejs usando update]]
+para una solucion) , para cambiar el set de datos tuve
 que hacer destroy del chart. Asi que antes de la inicializacion del
 grafico hice destroy.
 #+begin_src js

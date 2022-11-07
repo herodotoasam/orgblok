@@ -1,0 +1,65 @@
+#+title:      chartjs in alpinejs usando update
+#+date:       [2022-11-07 Mon 11:03]
+#+filetags:   :javascript-chartjs:
+#+identifier: 20221107T110347
+
+Non-reactive data in Alpine.js
+
+Sometimes you want to store data in your Alpine component without
+wrapping it in a JavaScript proxy (which is how Alpine keeps
+everything reactive).
+
+For example, third party libraries might have issues when wrapped in a
+proxy. Chart.js is one of those. If you store a Chart.js instance in
+Alpine data, the chart will error.
+
+To prevent Alpine from making the property reactive, the property
+shouldn't be on the data object in the first place. One way to
+create state without storing it on an object is with the revealing
+module pattern.
+
+#+begin_src html
+  <div x-data="chart">
+  <canvas x-ref="canvas"></canvas>
+  </div>
+#+end_src
+
+#+begin_src js
+Alpine.data('chart', () => {
+  let chart;
+
+  return {
+    init() {
+      chart = new Chart(this.$refs.canvas, { ... });
+    },
+
+    update() {
+      // Fetch new data\u2026
+
+      chart.update();
+    },
+  };
+});
+#+end_src
+With the revealing module pattern, the data is stored in a regular
+variable, and privately available in the component.
+
+If you need to expose it to the outside world, you can add a getter.
+
+#+begin_src js
+Alpine.data('chart', () => {
+  let chart;
+
+  return {
+    init() {
+      chart = new Chart(this.$refs.canvas, { ... });
+    },
+
+    // ...
+
+    get chart() {
+      return chart;
+    },
+  };
+});
+#+end_src
