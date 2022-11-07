@@ -1,0 +1,44 @@
+#+title:      Ctrlf
+#+date:       [2022-11-07 Mon 13:50]
+#+filetags:   :emacs-doc-edu:
+#+identifier: 20221107T135012
+
+Ctrlf
+| C-s   | isearch forward         |
+| C-r   | isearch backward        |
+| C-M-s | isearch regexp forward  |
+| C-M-r | isearch regexp backward |
+| M-s . | isearch symbol at-point |
+| M-s _ | isearch symbol          |
+|-------+-------------------------|
+en la busqueda
+| C-g   | cancela la busqueda y vuelve donde estabas |
+| C-s/r | sigue la busqueda                          |
+| RET   | cancela la busqueda y elige el candidato   |
+| C-l   | centra la busqueda en pantalla.            |
+| M</M> | va al comienzo/final de la lista           |
+|-------+--------------------------------------------|
+otros comandos opcionales dentro de la busqueda
+| M-c   | cambia case-sensitive                                  |
+| Ms-o  | abre un buffer Occur con el resultado de las busquedas |
+| Ms-s  | cambia el search style: literal/word/regexp/fuzzy      |
+| M-r   | cambia entre regexp y literal search style             |
+| M-s _ | cambia entre symbol y literal search style             |
+| M-s . | cambia entre symbol at point y search symbol           |
+|-------+--------------------------------------------------------|
+
+Estilos de busqueda
++ literal: busca una coincidencia exacta con la cadena de consulta,
+  sujeto al plegado de mayúsculas y minúsculas (C-o c). Esto se
+  implementa usando regexp-quote.
++ regexp: Búsqueda de un regexp proporcionado por el usuario. Si el
+  regexp no es válido, CTRLF mostrará un mensaje de error en el
+  minibuffer hasta el problema se corrige.
++ fuzzy: divide la cadena de consulta en espacios y busca una
+  aparición de todas las subpartes separadas por texto
+  arbitrario. Para incluir un espacio literal, o Más de uno,
+  simplemente agregue un espacio adicional. Por ejemplo, foo $42 baz
+  quux se convierte en foo.*\$42.*baz quux.
++ fuzzy-regexp: Igual que fuzzy, excepto que las subpartes
+  individuales se interpretan directamente como regexps, de modo que
+  foo $ 42 baz quux se convierte en Foo.*$42.*Baz Quux.

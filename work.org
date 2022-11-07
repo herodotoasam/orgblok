@@ -277,6 +277,7 @@ configuracion no se porque. Por las dudas lo dejo asi.
   en emacs.
 + tiempo de inicio de emacs reducido 40ms con :defer t en aquellos
   paquetes que demoran el arranque.
++ aprender regexp de emacs a usar p.e. en isearch con regexp
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -542,108 +543,8 @@ filas children que hagan falta.
 Seria fundamental en paginas como estadisticas.
 Resulto mas simple que lo que yo pensaba:
 La libreria se llama chart.js[[https://www.chartjs.org/][    chart.js]]
-1. se agrega el td correspondiente al iconito de tree
-   #+begin_src html
-    <td><span class="icon is-small"><i class="fa fa-plus-square-o" aria-hidden="true" @click="expandChildren(anual['y'])"></td>
-   #+end_src
-2. se agrega "dentro de la misma tabla" un template con los tr
-   "children" que van a depender de una lista que se va a generar
-   cuando se haga click en el iconito, en este caso est_mensuales.
-#+begin_src html
-                    <template x-for="mes in est_mensuales">
-                    <tr class="children">
-                        <td></td>
-                        <td x-text="mes['ym']"></td>
-                        <td class="pesos" x-text="mes['comprado']"></td>
-                        <td class="pesos" x-text="(mes['comprado']*(listaInflacion[dayjs(mes['ym']).format('YYYYM')]||1)).toFixed()"></td>
-                        <td class="pesos" x-text="mes['saldo']"></td>
-                        <td class="perc" x-text="(mes['inc']*100).toFixed(2)"></td>
-                        <td class="right" x-text="mes['cnt']"></td>
-                    </tr>
-                    </template>
-#+end_src
-3. luego la funcion de apertura es la que regula el contenido de la
-lista que genera el tree de childrens
-#+begin_src js
-         expandChildren(year){
-             if(this.year==year && this.est_mensuales.length>0){
-                 this.est_mensuales = []
-                 return
-             }
-            axios.get('/ventas/estadisticasmensuales/'+year)
-            .then(res=>{
-                this.est_mensuales = res.data.est_mensuales
-                this.year = year
-                setTimeout(()=>{
-             $tbody = document.querySelector('tbody')
-             $tryear = document.getElementById(year)
-             let arrayrows = Array.from($tbody.children)
-             let children = arrayrows.filter(row=>row.classList.contains('children'))
-             children = children.reverse()
-             for(el of children){
-                 $tbody.insertBefore(el,$tryear.nextSibling)
-             }},10)
-            })
-         },
-#+end_src
-alli vemos dos controles sobre la lista this.est_mensuales que van a
-regular la vista o no vista de los children, cuando al comienzo veo si
-es un toggle o sea si me llama el mismo que me llamo antes que ya lo
-tengo guardado en la variable this.year y a su vez tengo el children
-expandido lo cierro o sea solo hago la lista vacia y return, y sino
-hago el request de datos y lleno la lista, luego muevo con
-insertBefore del nodo.nextSibling como no hay un insertAfter tengo que
-usar eso.
-4. por ultimo grafico, que es extremadamente simple, una parte en el
-   dom
-#+begin_src html
-          <canvas id="grafico-estadistica" width="700" height="600"></canvas>
-#+end_src
-y otra parte en js
-#+begin_src js
-             const canvas = document.getElementById('grafico-estadistica').getContext('2d');
-             const chart = new Chart(canvas, {
-                 type: 'bar',
-                 data: {
-                     labels: this.years,
-                     datasets: [{
-                        label: 'Monto Vendido Actualizado',
-                        data: this.ventaYears,
-                        backgroundColor: [
-                            'rgba(255, 99, 132, 0.2)',
-                            'rgba(54, 162, 235, 0.2)',
-                            'rgba(255, 206, 86, 0.2)',
-                            'rgba(75, 192, 192, 0.2)',
-                            'rgba(153, 102, 255, 0.2)',
-                            'rgba(255, 159, 64, 0.2)'
-                        ],
-                        borderColor: [
-                            'rgba(255, 99, 132, 1)',
-                            'rgba(54, 162, 235, 1)',
-                            'rgba(255, 206, 86, 1)',
-                            'rgba(75, 192, 192, 1)',
-                            'rgba(153, 102, 255, 1)',
-                            'rgba(255, 159, 64, 1)'
-                        ],
-                        borderWidth: 1
-                    }]
-                },
-                options: {
-                    scales: {
-                        y: {
-                            beginAtZero: true
-                        }
-                    }
-                }
-#+end_src
-aca deje esas opciones de colores sacada de la pagina oficial pq me
-parecen bonitos pero se puede poner cualquier cosa.
-El tema del update() no me funciono, para cambiar el set de datos tuve
-que hacer destroy del chart. Asi que antes de la inicializacion del
-grafico hice destroy.
-#+begin_src js
-             if(this.chart!='') this.chart.destroy()
-#+end_src
+[[denote:20221104T125230][Instrucciones para hacer tree en tables en HTML]]
+[[denote:20221104T125459][Instrucciones para insertar graficos con chart.js]]
 *** DONE cambio de zonas no anda
 CLOSED: [2022-10-14 Fri 10:09]
 :LOGBOOK:
@@ -942,9 +843,7 @@ nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta stock
 + [X] carpeta ventas
 + [ ] carpeta pagos
-  pagos
-  totales
-  verzona
+  pagos: falta tabla y metodos
 + [ ] clientes
 + [ ] carpeta fichas
 + [X] carpeta utilidades
@@ -1067,6 +966,18 @@ CLOSED: [2022-10-27 Thu 16:44]
 ** semana [2022-11-06 Sun]
 *** [2022-11-07 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-07 Mon 17:40]--[2022-11-07 Mon 19:40] =>  2:00
+refactorizacion pagos.html
+CLOCK: [2022-11-07 Mon 17:15]--[2022-11-07 Mon 17:32] =>  0:17
+mantenimiento i3
+CLOCK: [2022-11-07 Mon 14:15]--[2022-11-07 Mon 14:53] =>  0:38
+inicio de pagos
+CLOCK: [2022-11-07 Mon 13:25]--[2022-11-07 Mon 14:15] =>  0:50
+analizando log1 y Ctrlf y haciendo un denote de Ctrlf-doc-edu
+CLOCK: [2022-11-07 Mon 11:45]--[2022-11-07 Mon 12:16] =>  0:31
+refactorizo todos los graficos: pasan a estar en box
+CLOCK: [2022-11-07 Mon 11:14]--[2022-11-07 Mon 11:45] =>  0:31
+refactorizo totales.
 CLOCK: [2022-11-07 Mon 09:46]--[2022-11-07 Mon 10:41] =>  0:55
 voy a tratar de terminar conta.- terminado.
 CLOCK: [2022-11-07 Mon 08:45]--[2022-11-07 Mon 09:15] =>  0:30
@@ -2348,6 +2259,7 @@ rapido al archivo debajo y volves a la busqueda.
 Ctrlf es tambien muy logrado y lo uso en muchos bufferes donde meow no
 llega con la busqueda /.
 buenos los tres.
+[2022-11-07 Mon] [[denote:20221107T135012][basicos sobre Ctrlf]]
 ** nano themes y nano modeline
 [2022-10-24 Mon]
 lindo theme y lindo modeline a pesar de que algunas cosas no se ven

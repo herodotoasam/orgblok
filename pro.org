@@ -5856,6 +5856,20 @@ mi inspiracion es prot que sin ser programador aprendiendo con fuerza
 de ensayo y error como hago yo, aprendio elisp y es el unico programa
 que conoce, y llego a desarrollar varios programas como colaborador y
 fue premiado por eso.
+*** [2022-11-07 Mon] denote boon-hell
+por una parte no entiendo los -hell, o sea no entiendo pq si algo anda
+bien en vez de buscar la forma de perfeccionarlo, de hacer que ande
+mejor, busco cambio.
+P.e. con meow, llevo desde el [2022-10-20 Thu] unas dos semanas, y
+anda realmente bien, no me puedo quejar. Y me agarra el boon-hell o
+cualquier otro modal-hell que lo reemplaze. Y no tiene sentido. al
+menos tendria que darle tiempo para llegar a mastering.
+
+Por otra parte empece con denote  haciendo documentaciones aparte de
+diversos temas. y hoy empece a usar links para referirme a ellos. Eso
+puede ser lo importante linkear internamente. Me parece mas agil, mas
+limpio y mejor que la forma que estaba teniendo lo retorcido del org
+infinito. Y todo lo mismo se termina giteando.
 
 * Anotaciones
 ** Objetivos

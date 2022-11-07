@@ -1,0 +1,45 @@
+#+title:      event object en alpinejs
+#+date:       [2022-11-07 Mon 19:08]
+#+filetags:   :alpinejs:
+#+identifier: 20221107T190833
+
+
+Si queremos acceder al evento nativo JavaScript desde nuestra
+expresion alpinejs podemos usar la propiedad magica de Alpinejs:
+$event.
+
+#+begin_src js
+      <button @click="alert($event.target.getAttribute('message'))"
+             message="Hello World">Say Hi</button>
+#+end_src
+
+
+Adicionalmente, Alpine pasa el objeto evento a todo metodo
+referenciado sin parentesis.
+Por ejemplo
+#+begin_src js
+      <button @click="handleClick">...</button>
+
+      <script> function handleClick(e) { // Now you can access the event
+          object (e) directly } </script>
+#+end_src
+
+Como lo use y donde:
+En pagos.html para hacer el toggle de uso del button.
+
+#+begin_src html
+        <button class="button is-danger" x-text="venta.id" @click="toggleMarcado;obtenerVenta(venta.id)"></button>
+#+end_src
+#+begin_src js
+         toggleMarcado(e){
+             this.limpiarToggle()
+             if(this.Ventas.length>1){
+                 e.target.classList.add('is-warning')
+                 e.target.classList.remove('is-danger')
+             }
+         },
+#+end_src
+
+Lo unico que hay que tener en cuenta es que no admite varios llamados
+juntos al estilo @click="funcion1;funcion2;funcion3"
+Solo funcionara para la funcion1.
