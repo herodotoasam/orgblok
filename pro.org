@@ -5910,6 +5910,10 @@ atrevia a hacer cambios en org-files por inseguridad, pero ahora con
 las mejores herramientas de emacs pienso que es mas seguro, tendria
 que bindear en org-mode-map org-copy-subtree y compañia para tener
 mejor acceso.
+
+Los denotes son una masa. Creo que estoy aprendiendo mas de Ctrlf que
+lo que podria antes en un año, con una horita de lectura y hacer un
+denote que luego lo repaso brevemente y practico.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

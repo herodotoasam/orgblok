@@ -17,4 +17,17 @@ Alpine.store
 Alpine.reactive
 $nextTick en el x-init
 
-Hasta ahora no logre resultados. Y tampoco encontre nada en google que sirviera.
+Hasta ahora no logre resultados. Y tampoco encontre nada en google que
+sirviera.
+
+En realidad estaba planteando mal MI problema porque no requeria
+reactividad ya que se trataba de cambiar el dibujado de un componente
+por el cambio de una variable. Pienso que no se puede. Que hay que
+refrescar la pagina.
+Y asi funciona!
+con la variable pelada. Como funciona isMobileDevice. O sea uno pone
+theme dark refresca y aparece el theme actualizado.
+No puedo hacer que al cambiar el tema se actualizen tambien las
+clases.
+O sea es una solucion, puedo estrenar los cambios, pero no estoy
+conforme del todo.

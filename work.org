@@ -968,10 +968,13 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
+** TODO  cambiar santander por banco
 * agenda de actividad
 ** semana [2022-11-06 Sun]
 *** [2022-11-08 Tue]
 :LOGBOOK:
+CLOCK: [2022-11-08 Tue 18:16]--[2022-11-08 Tue 20:15] =>  1:59
+sistema de variacion de interna de themes
 CLOCK: [2022-11-08 Tue 15:30]--[2022-11-08 Tue 16:00] =>  0:30
 refactorizo migra.org
 CLOCK: [2022-11-08 Tue 15:05]--[2022-11-08 Tue 15:30] =>  0:25
@@ -2112,6 +2115,8 @@ SCHEDULED: <2022-11-14 Mon .+1w>
 :END:
 **** actualizar tabla inflacion
 SCHEDULED: <2023-01-12 Thu .+1m>
+**** parabrisas kangoo
+SCHEDULED: <2022-11-11 Fri>
 
 * changelog
 ** pass
