@@ -1,0 +1,21 @@
+#+title:      array includes in
+#+date:       [2022-11-08 Tue 09:26]
+#+filetags:   :javascript-error:
+#+identifier: 20221108T092611
+
+The includes() method determines whether an array includes a certain
+value among its entries, returning true or false as appropriate.
+
+Un error comun es querer testear si un array en js incluye un valor
+determinado y hacerlo como en python.
+
+#+begin_src js
+  if(Cuentas.tipo in ["egresos", "ingresos"])
+#+end_src
+
+y eso no funciona pq eso no existe en js.
+
+#+begin_src js
+  if(["egresos","ingresos"].includes(Cuentas.tipo))
+#+end_src
+es lo correcto.

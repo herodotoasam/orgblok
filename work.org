@@ -815,6 +815,13 @@ Y otro error mas que tiro el log1
 El bug INVALIDO aparentemente se porque se causo y es por un mal corte
 de linea en la refactorizacion del archivo python. Esta por revisar y
 ver si aparece algun error nuevo y se confirma que no hay mas error.
+[2022-11-08 Tue] rastrie un caso, que dio error el mismo error de
+siempre:
+_mysql_connector.MySQLInterfaceError: Unknown column 'INVALIDO' in 'field list'
+y vi que no registra el wapp como invalido ni en verde como enviado.
+Lo reenvie y se proceso normalmente como invalido.
+O sea que no se pq ocurre aleatoriamente.
+Es como el xmodmap que a veces anda y a veces no.
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
 ** TODO interfase para registrar autorizaciones
@@ -831,7 +838,7 @@ cuadro de barras a dos barras por mes con ingresos y egresos pq en la
 pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
-** PENDING transformar Vue en alpinejs [50%]
+** PENDING transformar Vue en alpinejs [66%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -842,8 +849,7 @@ Faltaria recorrer todos los archivos y ver que cumplan el formato
 nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta stock
 + [X] carpeta ventas
-+ [ ] carpeta pagos
-  pagos: falta tabla y metodos
++ [X] carpeta pagos
 + [ ] clientes
 + [ ] carpeta fichas
 + [X] carpeta utilidades
@@ -964,10 +970,31 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-11-06 Sun]
+*** [2022-11-08 Tue]
+:LOGBOOK:
+CLOCK: [2022-11-08 Tue 15:30]--[2022-11-08 Tue 16:00] =>  0:30
+refactorizo migra.org
+CLOCK: [2022-11-08 Tue 15:05]--[2022-11-08 Tue 15:30] =>  0:25
+cambio CBU
+CLOCK: [2022-11-08 Tue 13:42]--[2022-11-08 Tue 15:04] =>  1:22
+CLOCK: [2022-11-08 Tue 12:44]--[2022-11-08 Tue 12:54] =>  0:10
+intento fallido de hacer un reactive con alpinejs segun una variable
+externa [[denote:20221108T150625][detalles del intento]]
+CLOCK: [2022-11-08 Tue 12:10]--[2022-11-08 Tue 12:30] =>  0:20
+rastreo de bug invalido-
+CLOCK: [2022-11-08 Tue 11:00]--[2022-11-08 Tue 12:08] =>  1:08
+tratando de hacer la pagina reactiva al cambio de themes.
+CLOCK: [2022-11-08 Tue 10:30]--[2022-11-08 Tue 10:58] =>  0:28
+varios
+CLOCK: [2022-11-08 Tue 09:21]--[2022-11-08 Tue 10:30] =>  1:09
+refactorizacion de pagos.html
+:END:
 *** [2022-11-07 Mon]
 :LOGBOOK:
-CLOCK: [2022-11-07 Mon 19:40]--[2022-11-07 Mon 20:02] =>  0:22
-journal
+CLOCK: [2022-11-07 Mon 20:45]--[2022-11-07 Mon 21:15] =>  0:30
+terminado de conta
+CLOCK: [2022-11-07 Mon 19:40]--[2022-11-07 Mon 20:45] =>  1:05
+journal- refactorizo un org que encontre de casualidad con dired
 CLOCK: [2022-11-07 Mon 17:40]--[2022-11-07 Mon 19:40] =>  2:00
 refactorizacion pagos.html
 CLOCK: [2022-11-07 Mon 17:15]--[2022-11-07 Mon 17:32] =>  0:17
@@ -2058,11 +2085,12 @@ SCHEDULED: <2022-11-22 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-08 Tue .+3d>
+SCHEDULED: <2022-11-11 Fri .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-05 Sat 13:43]
+:LAST_REPEAT: [2022-11-08 Tue 10:59]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-08 Tue 10:59]
 - State "DONE"       from ""           [2022-11-05 Sat 13:43]
 - State "DONE"       from ""           [2022-11-02 Wed 09:05]
 - State "DONE"       from ""           [2022-10-28 Fri 14:17]

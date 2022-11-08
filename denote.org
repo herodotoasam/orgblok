@@ -1,0 +1,11 @@
+* emacs
+[[denote:20221107T135012][Ctrlf]]
+* javascript
+[[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]
+** alpinejs
+[[denote:20221107T190833][event object]]
+[[denote:20221107T110347][correcto manejo de chart.js dentro de alpinejs]]
+** chart.js
+[[denote:20221104T125459][graficos con chart.js]]
+* html
+[[denote:20221104T125230][tree en tables]]

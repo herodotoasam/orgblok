@@ -5886,7 +5886,30 @@ que te sirvio, lo que aprendiste para la productividad en general
 futura.
 Ejemplos: emacs/extensiones/org/elisp/
 entre las extensiones destaco meow y el propio denote.
+*** [2022-11-08 Tue]
+bastante satisfecho con el refactorizado que estoy haciendo, son
+mejoras pequeñas pero funcionales a todos los modulos. Y un criterio
+uniforme aplicado a todo el codigo.
+Ademas me pasea por todo el codigo haciendo que tome familiaridad con
+el codigo y lo tenga en la cabeza y le pierda el cuco. Como paso entre
+ayer y hoy con pagos, que es un modulo tradicionalmente dificil y que
+me parecio por demas facil y bien planteado.
+Luego quedara la refactorizacion de python que es mas densa y
+engorrosa y el data-mining.
+Tambien hay una cierta documentacion en los denotes que vamos haciendo
+con lo temas problematicos que se van presentando.
+Ahora hice un archivo org comun: denote.org donde tengo un indice de
+denotes que sera facil de consultar pq es muy simple moverse dentro de
+los links y tambien es muy facil hacer links.
+Mas alla que es facil hacer busquedas de todo tipo.
 
+Tambien estoy refactorizando migra.org, reuniendo alli todo lo
+relativo a la migraña que tengo suelto en todos lados, la idea es
+tener ordenado lo mejor posible todos los datos alli. Antes no me
+atrevia a hacer cambios en org-files por inseguridad, pero ahora con
+las mejores herramientas de emacs pienso que es mas seguro, tendria
+que bindear en org-mode-map org-copy-subtree y compañia para tener
+mejor acceso.
 * Anotaciones
 ** Objetivos
 *** tener la base de datos en la nube

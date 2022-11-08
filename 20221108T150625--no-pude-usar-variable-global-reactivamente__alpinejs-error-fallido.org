@@ -1,0 +1,20 @@
+#+title:      no pude usar variable global reactivamente
+#+date:       [2022-11-08 Tue 15:06]
+#+filetags:   :alpinejs-error-fallido:
+#+identifier: 20221108T150625
+
+La idea era usar una variable themeDark producida en script.js cuando
+se establezca el tema y cuando se cambie y de acuerdo al tema que
+tengamos en el momento cambiar la clase de los componentes.
+
+El problema es que no son reactivas.
+Yo uso isMobileDevice para mostrar o no mostrar un input pero esa
+variable no cambia.
+En este caso no hay caso y no pude hacerlo.
+
+Probe:
+Alpine.store
+Alpine.reactive
+$nextTick en el x-init
+
+Hasta ahora no logre resultados. Y tampoco encontre nada en google que sirviera.
