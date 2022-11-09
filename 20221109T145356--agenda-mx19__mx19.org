@@ -1,0 +1,10 @@
+#+title:      agenda mx19
+#+date:       [2022-11-09 Wed 14:53]
+#+filetags:   :mx19:
+#+identifier: 20221109T145356
+
+** instalacion [2021-05-09 dom]
+   instalado sin problemas, veremos que pasa.
+   desechado (pq en realidad sigue en la maquina pero cambie de
+   maquina) pq no leyo el disco solido y no podia instalar los
+   padrones.

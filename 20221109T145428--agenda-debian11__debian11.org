@@ -1,0 +1,12 @@
+#+title:      agenda debian11
+#+date:       [2022-11-09 Wed 14:54]
+#+filetags:   :debian11:
+#+identifier: 20221109T145428
+
+** instalacion [2021-08-17 mar]
+   seamlessly
+** problemas con su
+   algunos programas no son reconocidos como
+   dpkg-reconfigure locales
+   resuelto con su -
+** instalacion [2022-04-24 dom]

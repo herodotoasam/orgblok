@@ -1,0 +1,46 @@
+#+title:      agenda xubuntu
+#+date:       [2022-11-09 Wed 14:53]
+#+filetags:   :xubuntu:
+#+identifier: 20221109T145320
+
+** instalacion xubuntu [2021-01-01 vie]
+ instalado el [2021-01-01 vie] luego de un intento fallido de instalar
+ manjaro.
+ Manjaro fallo pq ya de por si falla en el encriptado de disco, tema ya
+ probado varias veces en los ultimos años. Sino tambien falla en la
+ impresora, cosa que acepte, y complicaba el tema de posgres, cosa que
+ acepte, pero me impedia la instalacion de bracket que en ese momento
+ lo queria y no estuve dispuesto a aceptarlo, y me complico la creacion
+ de los virtual enviroment, pero eso fue por un error mio en su
+ ejecucion.
+ Al final decidi instalar xubuntu como forma de ir a una version basica
+ que no me de problemas de ningun tipo en versiones de software como
+ era con debian, ni en estabilidad, ni en uso como podria tener con
+ arch. pq en realidad uno esta para programar no para renegar con el
+ sistema operativo
+** fallas emacs [2021-01-07 jue]
+   desde ayer tengo fallas en emacs 26 que viene de fabrica y
+   desinstale todo e instale emacs con snap que es el emacs 27.1 y
+   tiene la misma falla, un titilear del scroll derecho mientras
+   escribis, y luego fallas varias, como no permitirte abrir archivos,
+   o problemas de visualizacion. Muy mal, pienso que me voy a ir de
+   xubuntu por eso.
+** instalacion xubuntu [2021-04-28 mié]
+   salgo de debian 10 luego de un largo intervalo con un resultado
+   bastante positivo en general salvo por el tema de la impresora que
+   me hacia renegar bastante y por un tema de upgrade que empezo a dar
+   errores que no se corrigieron y cada vez fueron a mayores y
+   empezaron a afectar la instalacion de otros programas.
+   Lo que busco en xubuntu es un sistema operativo que no de reniegues
+   aunque siempre algo va a tener, como el blinking en el scroll de
+   emacs p.e. pero es lo de menos, el tema es las actualizaciones, la
+   impresora, y la confiabilidad. Y que no se ponga tan pesado o lento.
+*** falla emacs
+    aparentemente usando maximizado la falla no se percibe.
+*** bloqueo de pantalla que termino siendo el salvapantallas
+    seteado de fabrica cada 5 minutos se pone la pantalla en negro,
+    resultando muy molesto por tener que poner la contraseña y mas que
+    todo pq se pone cuando estoy viendo videos. CAsi me hace desistir
+    pero ya lo arregle.
+*** desinstalo el [2021-05-09 dom] por fallas reiteradas (cuelgues)
+*** instalo lubuntu [2021-11-16 mar] con i3

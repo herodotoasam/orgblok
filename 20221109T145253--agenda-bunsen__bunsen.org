@@ -1,0 +1,120 @@
+#+title:      agenda bunsen
+#+date:       [2022-11-09 Wed 14:52]
+#+filetags:   :bunsen:
+#+identifier: 20221109T145253
+
+** [2020-08-27 jue] instalacion bunsen helium debian 10
+sobre intel 9na 4mb.
+** fallos
+*** [2020-08-27 jue] cuelgue con fondo de pantalla
+recien instalado el primer durmimiento de pantalla se frizzo y no hubo
+forma de destrabarlo, le presione el boton apagar un poco y genero una
+secuencia de apagado que aparentemente apago bien el sistema y hasta
+ahora no volvio a ocurrir
+*** [2020-08-27 jue] deformacion del font del conky helium
+se borronea y se torna ilegible. Luego lo cambie al conki hidrogen que
+es mas definido y no tuve mas problemas.
+*** [2020-08-28 vie] problema copiando gran archivo y viendo youtube
+estaba pasando 1.6gb de los archivos del padron del disco externo y
+fue rapido pero al final se ralentizo y en eso el youtube entro en un
+loop de repetir las ultimas palabras, yo pense que se habia colgado la
+maquina pq no respondia raton ni teclado, pero duro solo unos segundos
+y termino de copiar y se volvio todo a la normalidad solo.
+*** [2020-08-31 lun] no reconocio teclado ni raton
+tuve que desenchufar y volver a enchufar usb
+*** [2020-08-31 lun] ignora el xmodmap del autostart
+** pros encontrados
+*** anda hardware que no me andaba en otras circunstancias
+p.e. el raton logitech hasta ahora , y la placa de sonido de la i3.
+*** arranca y apaga muy velozmente
+desencripta en 5 segundos creo y apaga en 3 segundos.
+*** los programas tcl andan un poco mas rapido
+*** tiene un mayor ruido de base pero no modifica la ruidosidad
+la otra maquina era mas silenciosa pero tiene eso de que el ventilador
+varia de velocidad esta es constante.
+p.e. con chrome,firefox y visual abierto estoy en 1.7 ram mas 500 de
+swap pero solo 5% de cpu, o sea casi no usa el cpu. con todos los
+programas de romitex abiertos llego a 1.98 ram, pero no pase 9% de
+cpu, ni aun en el F7 o F8/ventas que eran los que me hacian "sonar" el
+otro procesador. Con libreoffice estoy en 2.04ram y 2.25 de swap pero
+quiza la swap sea tan rapida que no se note la diferencia.
+Tendria que probar firefox con youtube, y crome con visualcode al lado
+para ver como va eso. (lo mismo con 2+2 tenes todo funcionando y sin
+el ventilador sonando pq el procesador ni se mosquea, o sea no hay uso
+del cpu para esos procesos).
+*** autostart de openbox
+para poner el xmodmap alli y toda otra configuracion que se apetezca,
+pero por ahora esa es la mas importante.
+*** atajos de teclado
+tiene una forma de configurarlas muy directa y facil, es un archivo
+plano pero muy directo.
+*** menu/disparo de programas
+aparte del clasico alt-F2, tenes el Alt-F3 mas completo por las dudas,
+y tenes la tecla super, que salta el menu, y alli empezas a escribir,
+sino con boton derecho en cualquier lado. Tiene buenos atajos, como
+todo openbox.
+*** fonts
+mejores fuentes que mint, se ven especialmente en los programas tcl
+** contras encontrados
+*** ruido de base mayor
+pero es algo continuo en cambio el otro molestaba que era variable.
+*** imposibilidad de instalar impresora
+** [2020-11-18 mié] instalacion bunsen helium debian
+ vamos por partes, hasta ahora recuperada parte tcl, con instalacion
+ de oficina.
+ Se logro hacer andar la impresora. Cuando se pone agregar impresora,
+ aparece en la lista la hp1102. (Esto luego de instalar los paquetes
+ de impresion) y da dos opciones de instalacion, una primera que dice
+ imagen linux no me acuerdo que mas y otra solo "usb". yo probe
+ primero esta segunda y no me anduvo y luego instale otra con la
+ primera opcion y anduvo joya. borre la primera e hice predeterminada
+ esta segunda y tengo impresora andando.[despues en una oportunidad
+ una de las primeras, luego no ocurrio mas, se reinstalo sola la hp,
+ quedando dos iconos e imprimir una vez con el segundo icono, y luego
+ no anduvo mas, pero el primer icono funciono bien, y entonces borre
+ el segundo y deje el que originalmente habia instalado]
+ python listo
+ postgres listo
+ flask listo
+ svelte listo
+** [2020-12-09 mié] informe de fallo
+   de bien que estaba se apago todo en un instante, pero no el sistema
+   sino los programas, pense que se habia cortado la luz por un
+   segundo y se habia reiniciado, pero la cuenta de tiempo del sistema
+   seguia igual, pero reseteo las xorg pienso o algo asi, me cerro
+   emacs, firefox y una terminal.
+** [2020-12-15 mar] informe posible fallo
+   al cerrar entro en un jobs de 2 min y luego recien se apago.
+   esos jobs eran comunes en manjaro.
+** [2021-01-01 vie] desintalando
+   a causa de pensar que la base de debian me impide tener lo ultimo
+   en los programas actuales, p.e. habia tenido problemas con una
+   funcion de pgmodeler que no andaba, y me daba error, y queria
+   instalarme brackets. Brackets al final fue un fiasco pq no anduvo
+   en ningun sistema que lo intente, pq esta roto es abandonaware ya
+   no se actualiza mas.
+** [2021-01-10 dom] vuelvo a instalarlo
+   despues de la fallida experiencia con xubuntu vuelvo a instalarlo
+   con la esperanza de recuperar la funcionalidad que tenia en el mes
+   y medio que lo tuve con total comodidad.
+** puesta a punto de bunsen
+*** en preferences-bunsenlab-edit autostart
+**** agregar xmodmap .Xmodmap
+**** (sleep 10; bl-conky-session --autostart) &
+     esto termino corrigiendo la distorsion de conky al cargarse
+     cuando hemos cambiado el fondo de pantalla o no. Ese borroneado.
+**** set r rate 500 25
+     ralentiza al doble los teclazos 500ms de delay, viene 250ms por
+     default.
+*** en preferences-keybinds
+    "gnome-calculator"
+      XF86Calculator
+    y no olvidar el restart.
+*** en preferences-jgmenu
+    editar prepend.csv
+    y agregar los programas mas comunes
+    p.e.
+    Code,code,code
+    Emacs,emacs,emacs
+** problemas para update en la notebook
+   sudo apt update --allow-releaseinfo-change

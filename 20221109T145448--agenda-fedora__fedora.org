@@ -1,0 +1,16 @@
+#+title:      agenda fedora
+#+date:       [2022-11-09 Wed 14:54]
+#+filetags:   :fedora:
+#+identifier: 20221109T145448
+
+** [2022-09-18 Sun] instale la version 36
+   luego de fracasar con alpine-linux me decidi por fedora que era la
+   unica grande que no habia probado. En realidad busque mejor distro
+   para gnome-wailand pq me habia gustado la interfase gnome en alpine
+   y vi que fedora tenia bastante actualizado los programas.
+   hasta ahora todo bien. Lo unico es el tema en general de wayland no
+   de fedora que no acepta mas el xmodmap entonces hay que buscar otra
+   solucion que encontre input-remapper que se comporta bastante bien.
+   Han sido muchisimos los cambios que he hecho y no estan todos
+   documentados por lo que no es tan divertido cambiar de instalacion
+   ahora.

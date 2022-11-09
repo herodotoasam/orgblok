@@ -1,0 +1,76 @@
+#+title:      agenda mint
+#+date:       [2022-11-09 Wed 14:51]
+#+filetags:   :mint:
+#+identifier: 20221109T145149
+
+** [2020-07-07 Tue] aparece mensaje de error al arranque
+casi al dia siguiente de haber cambiado a uso de controlador nvidia
+por sugerencia del mismo sistema
+[2020-07-09 Thu] lo mismo sigue haciendolo por mas que volvi al
+controlador anterior.
+** [2020-07-09 Thu] cambia el orden del icono de inicio
+se posiciona despues de los pineados
+despues del reseteado sigue igual
+haciendo edit mode del panel lo restaure pero no se pq se puso.
+** [2020-07-10 Fri] instalacion en hero-old
+** [2020-07-13 Mon] instalacion de Mate Mint 19.3 hero-LTS
+Mint 19.3 - Mate en hero-jujuy que tiene soporte oficial hasta mitad
+del 2023!! y se habla de 5 años mas!! de soporte. Todo nacio pq hay
+software que desaparecio en la version 20.04 y no tiene sentido
+tenerla todavia cuando la otra esta vigente y hace lo mismo. Pero todo
+es relativo. A poco de comenzar ya vi el primer problema de
+compatibilidad con hledger que funcionaba perfectamente con el otro y
+bajo aca, cambiando ciertas caracteristicas obligandome p.e. a tener
+las cuentas en ingles. No gran cosa pero se van viendo diferencias.
+** [2020-07-14 Tue] vuelta a Cinnamon Mint 20 como hero-20
+** [2020-07-16 Thu] vuelta a Cinnamon Mint 19.3 como hero-19
+volvi a 19.3 como obligacion o necesidad por tener que desarrollar
+mysql 5.7 si o si por el proyecto que tengo, y las enormes
+dificultades que encontre para instalarlo en 20.04, siendo que en este
+se instala de una. En realidad una vez funcionando ambos sistemas
+andan igual, uno se olvida. Esta fue la semana de las tres instalaciones.
+** [2020-07-23 Thu] vuelta a Cinnamon Mint 20 como hero-2020
+ventajas que le veo a mint sobre otras distribuciones:
+1. es ubuntu: eso lo dice todo tengo la instalacion rapida y todo el
+   acceso a todo lo que necesito tanto a nivel programas como a nivel
+   ayuda. (no estoy tan seguro que exista eso en otras distribuciones.)
+2. es comunity o sea que no esta dirigido ni influenciado por
+   companias privadas como si lo esta ubuntu.
+3. tiene muy buena apariencia, tanto a nivel grafico/letras como en el
+   maquetado siendo o distanciandose del xfce que seria su comparativo
+   mas cercano.
+4. es superligero todo abre superrapido
+5. tiene herramientas muy bien pensadas para optimizar el uso.
+6. LA MAS IMPORTANTE: ya la conozco por lo tanto me aseguro que no
+   pierdo tiempo con el sist. operativo. Bastante uno reniega con los
+   programas como para tambien renegar con el sist. operativo.
+Reinstalacion de vuelta nuevamente al 20, con problemas, pq instale
+todo y cuando doy arranque me aparece el grub> en la pantalla, y no
+sabia que hacer, entonces ahi nomas reinstale todo de nuevo y anduvo
+bien hasta ahora.
+** [2021-05-11 Tue] vuelta al uso diario de Cinnamon Mint 20
+   sin reinstalar, asi como lo tenia, hice las actualizaciones y sigo
+   usandolo, veremos que pasa, parece que se corrigieron los errores
+   de actualizacion que me daban el año pasado cuando deje de usarlo.
+   Muy conforme con la estetica y en lineas generales con mint,
+   quisiera instalarlo en la otra maquina para conseguir mayor rapidez
+   que aca que esta muy lento.
+** [2021-05-14 Fri] reinstalacion de mint cinnamon 20.1 en intel9th
+   y me dio un cuelgue repentino al cerrar chrome, y no quiso arrancar
+   de ninguna manera. Ya la daba por rota a la maquina cuando se me
+   ocurre probar con el recovery. Lo corro toda la noche pq no paraba
+   mas. A la mañana me canse lo rebootie y anduvo normal hasta ahora,
+   con solo un cuelgue sin consecuencias.
+   Y otro rebooteo por que no anduvo el suspend, directamente la
+   maquina queda prendida y no responde a volver a arrancar.
+** [2021-05-21 Fri] fallas en la impresora
+   asi de la nada no imprime. da el error estara desconectada?, y
+   desenchufo el usb y lo vuelvo a enchufar y se reinstala de nuevo y
+   esa anda, luego borro la primera y dejo la segunda como default.
+** [2021-06-05 Sat] reinstalado por necesidad de mysql/mariadb
+** [2021-07-09 Fri] instalacion de uma 20.02 cinnamon en amd8gb
+** [2021-10-12 Tue] instalacion de uma 20.02 cinnamon con i3 en intel9th
+** [2021-11-16 mar] dejado de usar por fallas en emacs
+   vamos a ver si son atribuibles al s.o. o si se repiten en el otro
+   sistema tambien.
+** [2021-11-18 Thu] vuelvo a usarlo pq el otro es peor que este
