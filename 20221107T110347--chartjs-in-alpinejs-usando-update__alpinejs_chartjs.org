@@ -1,6 +1,6 @@
 #+title:      chartjs in alpinejs usando update
 #+date:       [2022-11-07 Mon 11:03]
-#+filetags:   :javascript-chartjs:
+#+filetags:   :alpinejs:chartjs:
 #+identifier: 20221107T110347
 
 Non-reactive data in Alpine.js

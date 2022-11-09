@@ -1,6 +1,6 @@
 #+title:      array includes in
 #+date:       [2022-11-08 Tue 09:26]
-#+filetags:   :javascript-error:
+#+filetags:   :javascript:
 #+identifier: 20221108T092611
 
 The includes() method determines whether an array includes a certain

@@ -5914,196 +5914,27 @@ mejor acceso.
 Los denotes son una masa. Creo que estoy aprendiendo mas de Ctrlf que
 lo que podria antes en un año, con una horita de lectura y hacer un
 denote que luego lo repaso brevemente y practico.
-* Anotaciones
-** Objetivos
-*** tener la base de datos en la nube
-*** tener mejores datos
-** Ideas
-*** orden de trabajo
-primero lograr la base postegres funcionando en la maquina localmente,
-pq ya sabemos que funciona en la nube (eso ya lo probamos el año
-pasado). Aunque se podria reprobar en algun punto.
-luego reescribir todos los programas con nuevos paradigmas.
-*** nuevo paradigma de programacion
-hacer una base que tenga un menu y una pantalla limpia con una barra
-de busqueda arriba, tipo navegador. y de acuerdo a lo que necesitemos
-despleguemos en la pantalla los datos en forma mas dinamica, quizas
-usando como base canvas o edit o web y con los menus salgamos con
-toplevels a hacer funciones extras. De paso puedo ir revisando todos
-los programas actuales para ver lo que realmente se usa de lo que no
-se usa, y lo que se usa hacerlo bien, o rehacerlo de otra forma o de
-la misma forma pero mas simple quizas.
-*** paciencia con el trabajo
-tener este log en el directorio nuevo, comenzar de nuevo, loggear
-tiempo de trabajo y resumen de avance dia a dia, y llevar un registro
-exacto de bugs y TODOs.
-[2020-05-09 sáb] se trabaja muy  mucho a veces se toman caminos
-equivocados en los cuales se pierde mucho tiempo, pero en el camino se
-aprende mucho, nada se pierde creo, salvo la salud corporal en el
-proceso continuo sin descanso. Pero creo que vamos a salir adelante.
-** Idea de usar TCL como muleto
-   :TCL:
-o sea hacerlo entrar en produccion mas o menos rapidamente, y tenerlo
-como segunda opcion para cualquier cosa tener dos sistemas funcionando
-y no depender solo de un sistema que recien estamos aprendiendo y nos
-cuesta tanto aprender.
-[2020-06-08 lun] el tema es que el desarrollo se pueda hacer mas o
-menos rapidamente. que no lleve una excesiva cantidad de tiempo.
-** Idea de estudiar Ruby
-   :Ruby:
-[2020-07-10 Fri] la idea venia dando vueltas hace rato. Estos dos
-meses y pico he dedicado muchas horas al estudio pq basicamente no
-tengo otra cosa y como trabajo poco y el trabajo se hace en la casa y
-se fusiona en tiempo y forma con la actividad y ademas es focalizado,
-y no me lleva mas de digamos dos horas como mucho, y ademas no tengo
-muchas obligaciones familiares. Como resultas de todo lo dicho tengo
-mucho tiempo libre para malgastar o para dedicar a algo bueno. Esto me
-parece bueno para mi, pq no solo que me distrae sino que hace que mi
-mente se active.
-Pase por varias faces, primero creo que el primer mes cuando no
-habiamos cerrado la oficina y era una carrera por aprovechar el poco
-tiempo que tenia de este recreo que significaba la pandemia, el
-objetivo era sacar un sistema operable. Luego el apuro quedo en la
-nada cuando salto la idea del sistema muleto o sea hacer algo en tcl
-provisorio y de respaldo que funcione bien mientras con tiempo
-programabamos algo mas permanente, pero luego el tiempo paso y no
-toque mas el proyecto pq no tuve tampoco apuro en sacarlo, pq pense
-que ponerlo en funcionamiento en la red significaria que mi trabajo
-quedaria seriamente comprometido, pq bien podria quedarme sin el
-pasado de los papeles en el caso de que el Fede le resultara mas facil
-ponerse a pasar los papeles en su casa que venir aca a traermelos a
-mi.
-Y en un escenario asi, mientras mas lejos y desdibujada este la chance
-de tener algo de la web, como quedo parado, mal.
-Luego vino la cancelacion del local, y al menos la perspectiva de que
-no hay donde volver a trabajar. Que el salir yo a la calle a trabajar
-o mutar de lo que estamos haciendo ahora solo podria darse mediando
-circunstancias extraordinarias.
-Ahora desde el punto de vista de la programacion, veo que el primer
-mes aprendi con laravel, no reniego de eso, y renegue bastante mas que
-todo con los frontends. Y creo que hice bien en pasarme a rails, y
-logre algo bueno en pocos dias, pero cuando choco con una dificultad o
-sea ese muro de falta de conocimientos, que en laravel era bastante
-general, y en rails fue el hacer el detalle de venta a la vista venta,
-en vez de profundizar ahi, cambie de framework, y ahi estuvo el error.
-pq django me parecio lindo al principio pero me hizo perder mucho
-tiempo, pq el aprendizaje fue hecho no por el lado del crud, como en
-laravel/rails que son bastante similares, sino por otro tipo de pagina
-(un blog) y querer aplicar esos conocimientos a mi crud era muy
-dificil. Luego de bastante reniegue con django no fui capaz de tener
-ni un solo formulario propio ni mas elemental.
-Pero luego de considerar que django fue un error, a pesar de lo lindo
-que se veia, y volviendo a la dupla laravel/rails como hermanos
-gemelos, en ambos tenia el mismo problema, mis conocimientos de php
-son 1.5 del 1 al 10 y de ruby del 3 de 1 al 10. Una cosa es copiar y
-consultar lo mas minimo otra cosa es saber programar en el lenguaje
-base.
-Por eso pienso que quiero aprender a programar en ruby desde cero y
-bien, o sea aprenderme todos los trucos, y agarrarle practica. Tendria
-que tener hecho unos 100 programas, ponele que no haga tantos, que
-haga 20, pero tengo que tener conocimiento en ruby. Y eso me va a
-llevar a tener mas conocimientos en programacion tambien, en
-algorritmos, pq eso nada.  Despues la pagina va a salir sola.
-Veo que tengo varios dias con 7horas de maquina, mas una hora a la
-mañana y una hora a la noche de lectura, te da unas posibles 50 horas
-por semana. 200 al mes. En un par de meses tengo qeu lograr el objetivo.
-** Sobre los cambios de S.O.
-ayer [2020-07-13 Mon] sucumbi nuevamente a la tentacion de otro cambio
-de s.o. luego de solo 3 dias!! de haber hecho un cambio. Esta vez
-supuestamente por un downgrade a mint 19.3 basado en ubuntu 18.04 que
-tendra LTS hasta abril-2023, por el hecho de que "se supondria" que
-tendria soporte a software que ya no es soportado en la 20.04 como el
-ruby-tk, y me decidi por mate en vez de cinnamon por que una
-comparativa lo sindicaba como menor consumidor de ram, y de aspecto
-similar. Y ya que hacia el cambio aprovechaba para poner encryptacion
-de disco que en la anterior no habia puesto (esto es pq prefiero las
-ventajas de la seguridad frente a la penalizacion de unos segundos mas
-en el arranque.).
-El tema es que no es banal el tiempo invertido en el cambio, y no
-puede ser tomada tan rapidamente la decision o sea en cuestion de
-minutos.
-** idea encarar php-mysql
-o sea el clasico lamp, por una cuestion de disponibilidad de
-servidores mas baratos.
-** Idea de volver a programar en tcl
-   :TCL:
-estoy en un vaiven entre estas dos ideas, o destinar todo mi tiempo al
-proyecto nuevo sin un prospecto viable o usar el tiempo real de
-programacion en algo viable concreto y visible que haga alguna
-diferencia real, o sea que realmente convenga para algo. Lo otro
-decepciona por su bajo nivel de resultado y no se si algun dia podre
-tener un sistema que reproduzca en la web lo que tengo en el
-escritorio. Es decir no esta mal lo que voy viendo pero veo que no es
-lo nuestro. No venderemos a traves de la web y o al menos no un
-desarrollo propio. al menos que dedique un año o mas al desarrollo.
-Hablemos del corto plazo.
-Tambien esta el tema de que yo quiero programar, no solo estar en ese
-agonico proceso de aprendizaje sin final.
-Tiene que ser un gran proyecto ya sea en tcl o en python-tcl, a
-eleccion ambos tienen sus pros y contras.
-Despues de un breve analisis obtuve algunas respuestas:
-1. no vale la pena desarrollar en python, seria perder enormemente el
-   tiempo en un desarrollo que no presenta ninguna ventaja. Y si
-   serias desventajas.
-2. hay realmente una gran diferencia entre un programa re-escrito de
-   cero como el buscapg y los otros, tanto en la parte estetica como
-   funcional.
-3. se podria seguir puliendo sacando campos que no son necesarios y
-   simplificando la base de datos y agregando vistas que sean mas
-   coherentes, pe. el tema devoluciones, tiene un monton de campos que
-   no son necesarios, se podria simplificar y se podria a la vez hacer
-   una interface de analisis mas a mano para un tema tan importante
-   como ese. Y asi con casi todos los temas.
-4. el tema seria reescribir todo el codigo, dandole mas legibilidad,
-   mas organizacion, mas documentacion.
-5. reorganizaciones
-   1. simplificar la base de datos, sacando campos y tablas que no
-      sirven, repasando de paso los triggers
-   2. testear el uso de pg_tcl o tdbc el que sea mas apto para
-      windows.(de nada valdria un esfuerzo gigante en ese sentido si
-      no se pudiera usar en windows).
-   3. documentar tanto interna como externamente lo mejor posible para
-      uso posterior. p.e. un documento org externo que documente
-      extensivamente toda la logica de negocios aplicada a la
-      aplicacion de modo tal que se pueda entender lo que esta hecho y
-      como y para que esta hecho.
-   4. hacer sistemas informativos reales que sirvan respecto a los
-      temas que realmente interesan del negocio.
-6. hay un punto mas freaky que podria ser una recapacitacion a fondo
-   de tcl mientras trabajamos pero no se si no quedara en la nada como
-   todos los planes hechos hasta ahora, o sea se hacen planes
-   demasiado grandes y despues no se hace nada. Como paso con ruby,
-   con laravel, con django. P.e. el famoso tema de imprimir, leer y
-   practicar con codigo el itcl para aprenderlo bien a fondo y lograr
-   con eso remodelar y pulir de otra manera lo que tenemos. O bien
-   organizarlo de otra forma.
-7. En resumen los lineamientos de la nueva etapa tcl serian
-   1. optimizar el uso con windows al lado
-   2. recrear la interface postgres-tdbc-postgres para heroku
-   3. rehacer interfaces nuevas tipo buscapg o comando innovadoras
-   4. aprender cosas nuevas via itcl-class etc.
-   5. reaprender el lenguaje a fondo con el libro comprado
-   6. redocumentar bien todo tanto adentro como afuera de la aplicacion
-   7. crear utilidades de informacion nuevas y renovadas.
-** Idea de empezar con capacitacion itcl
-   :TCL:
-creo que he recorrido un cierto camino desde que leia y trataba con
-estos temas en otras epocas y he recogido conceptos de todo tipo de
-todo lugar, y pienso que no estaria mal empezar con ese paquete de
-practica para pasar a otro nivel en la programacion de tcl y no
-quedarse en lo ya sabido. Creo que di en la tecla donde hay una franja
-de tcl para explorar y capacitar.
-** El freakismo tcl
-:TCL:
-  cada vez que mas me meto en el mundo tcl veo que es facil convertirse
-en freaky. Creo que tengo que tener a mano el paper de activetcl que
-habla de pq hoy 2020 es una opcion valida trabajar con tcl. Es un
-programa que se usa bastante pero en forma quiet o sea callada. por
-cientificos e ingenieros. Ya nomas el itcl es complejisimo y meterse
-de cabeza dentro de eso es facinante y te lleva por caminos nunca
-vistos. Y como eso hay un millon de caminos. Es increible que con tcl
-se hagan cosas como tablelist sin objetos. Tambien esta todo el tema
-de la web a nivel teorico pero por ahora no lo toco pq no es tiempo aun.
+*** [2022-11-09 Wed]
+anoche pensaba que una tarea con denote es limpiar un poco los
+archivos principales de org, los mas usados y sacarle ciertos trees
+que son obsoletos y quedan solo como valor historico para que se pueda
+seguir usando la pagina. P.e. pro/ali/medical/migra/
+*** [2022-11-09 Wed] denote-hell
+sigo pensando en decluttering los archivos gigantes y no tanto y
+transformarlos en denote.
+una contra es que mi buscador de recentf esta lleno de esos denotes,
+pero no es problema en absoluto.
+El otro tema es el miedo a perder algo que esta pero es tonto pq esta
+giteado y de ultima esta en el propio arbol historico de git. Y
+aparece en la busqueda.
+Por ejemplo este subtree Anotaciones que esta aca inmediatamente
+abajo, son escritos del 2020 y no necesariamente tienen que estar en
+una pagina activa. Lo termine pasando a un denote con sus keyword
+correctos y listo.
+Estaba tageando mal los denotes. Resolvi que los tags van a ser
+programas cuando se habla de programas, y no otras cuestiones, como
+error, doc, edu, etc.
+
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

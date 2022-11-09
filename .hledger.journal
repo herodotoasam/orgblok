@@ -13055,3 +13055,16 @@ D $1000.00
 2022-11-06 extra cami
     expenses:cami:extras   $ 10000
     income:retiro-sociedad   $ -10000
+
+2022-11-09 ospe
+    expenses:servicios:OSPE   $ 69877
+    income:retiro-sociedad   $ -69877
+
+2022-11-09 mesada cami
+    expenses:cami:comida   $ 12000
+    expenses:cami:mesada   $ 3000
+    assets:caja   $ -15000
+
+2022-11-09 compras
+    expenses:comida   $ 2080
+    assets:caja   $ -2080

@@ -1,6 +1,6 @@
 #+title:      no pude usar variable global reactivamente
 #+date:       [2022-11-08 Tue 15:06]
-#+filetags:   :alpinejs-error-fallido:
+#+filetags:   :alpinejs:
 #+identifier: 20221108T150625
 
 La idea era usar una variable themeDark producida en script.js cuando

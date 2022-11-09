@@ -278,6 +278,7 @@ configuracion no se porque. Por las dudas lo dejo asi.
 + tiempo de inicio de emacs reducido 40ms con :defer t en aquellos
   paquetes que demoran el arranque.
 + aprender regexp de emacs a usar p.e. en isearch con regexp
++ ver la forma de anular meow para cierto tipo de buffers p.e. magit o nomuch
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -313,6 +314,9 @@ es un fascinante marco para aprender.
 *** alpinejs
 *** org
 *** javascript
+* actividades varias
++ [ ] actualizar clock-emacs.org
++ [ ] actualizar migra.org
 * agenda programacion
 ** DONEs
 *** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -731,6 +735,8 @@ contabilidad para cada persona en menu con acceso individual.
 + [X] una pagina que con el cuadro de resultados.
 
 
+*** DONE cambiar santander por banco
+CLOSED: [2022-11-09 Wed 09:39]
 ** TODO explorar y pasarse a bulma menu-bar
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
@@ -852,6 +858,10 @@ nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta pagos
 + [ ] clientes
 + [ ] carpeta fichas
+  fichaje
+  listado
+  listavisitar
+  programar
 + [X] carpeta utilidades
 *** refactorizados a alpinejs
 **** DONE asuntos.html
@@ -968,9 +978,23 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
-** TODO  cambiar santander por banco
 * agenda de actividad
 ** semana [2022-11-06 Sun]
+*** [2022-11-09 Wed]
+:LOGBOOK:
+CLOCK: [2022-11-09 Wed 13:23]--[2022-11-09 Wed 14:12] =>  0:49
+refactorizo cobr- cancelados- fechador
+CLOCK: [2022-11-09 Wed 12:30]--[2022-11-09 Wed 12:57] =>  0:27
+corrigiendo stock-corrijo lista de precios generada
+CLOCK: [2022-11-09 Wed 11:00]--[2022-11-09 Wed 11:30] =>  0:30
+emacs: emacs-server y emacsclient alias em para todo lo demas
+CLOCK: [2022-11-09 Wed 10:25]--[2022-11-09 Wed 10:59] =>  0:34
+tramitacion de parabrisas kangoo
+CLOCK: [2022-11-09 Wed 09:40]--[2022-11-09 Wed 10:22] =>  0:42
+retoques a pasar ventas
+CLOCK: [2022-11-09 Wed 08:44]--[2022-11-09 Wed 09:38] =>  0:54
+paso santander a bancos y arreglo detalles de pasar ventas
+:END:
 *** [2022-11-08 Tue]
 :LOGBOOK:
 CLOCK: [2022-11-08 Tue 18:16]--[2022-11-08 Tue 20:15] =>  1:59
@@ -2116,7 +2140,10 @@ SCHEDULED: <2022-11-14 Mon .+1w>
 **** actualizar tabla inflacion
 SCHEDULED: <2023-01-12 Thu .+1m>
 **** parabrisas kangoo
-SCHEDULED: <2022-11-11 Fri>
+SCHEDULED: <2022-11-10 Thu>
+**** depositar romina
+SCHEDULED: <2022-11-10 Thu>
+
 
 * changelog
 ** pass

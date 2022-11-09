@@ -1,6 +1,6 @@
 #+title:      Ctrlf
 #+date:       [2022-11-07 Mon 13:50]
-#+filetags:   :emacs-doc-edu:
+#+filetags:   :emacs:
 #+identifier: 20221107T135012
 
 Ctrlf

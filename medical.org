@@ -75,8 +75,24 @@ con composite, me cobro 7000 y me duro justo un mes.
 *** temblor matinal
 [2022-10-31 Mon] cuando me levanto siento un temblor en las manos al
 hacer las cosas como prepararme el te o esas cosas.
-*** lesion
-[2022-11-06 Sun] tratada con av [2022-11-07 Mon]
+*** lesion :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQwAnFGtZWqyMYmNzErJEM4h4yjAJ12ETBketkLbMiVaKl7o
+4lA12mPRRmiJYYFGqlt6Gw9LTrIHBEeXIbTFDxlfqUZnRk2SURfLTzPCrCDv6Vng
+WZMe9WXSqs2jEwbPDssgF4bHA6Ps3wC+1w1CoxeotxkekOlxb0fj9qRbNExvHDT8
+lhUr4WjvAEUohPw0PR6UYio3Dk/o7KoQXDms6M4u9wO7mPLN+4taJY3vv0EKBRI/
+7zJEaEf8cjJbXgB1AiO5o0rNTN7dR4QlsMhO1lHKmYR5NJXcAjqXphs3jB2AV9/y
+5LDEtDwYlpqWZNiMU4kqyUGvq8wordHQVEpyYsrH0il/DwYdlEtAQmjQ4UImCyf0
+ev0E66kmQTAOOjHINdkLOjnB/Y/MQcaVvRs6tG+/2BpiC5YpSFvEDDjSYXarLIPh
+M3FRPjzUyx3ZI9q2Yzu0Om6IjDJQqCXyRiEZvKo86vziiHBF74zKvZtiEUAw2I8J
+EhlrcsGkj0DAP28uzzCk1L4BCQIQYG/2MXwLJbB3Wzack7RZlmaSQCgdmuL8HCJs
+F8heR7o3C8df/7bYzHHWJI6HLzhNsMsfN3Xjr4UQiTzKAPz1a8tq9x1UDSTENFKL
+pD8FfElnEK7/Sk4e9qz+hyYIDQQXtMPPnD+ZO/Li6/OZsr3eypoRWrNdU3moO/E2
+3knerxYQR81PGe3w486za5wclJWHaA7QGw1rrFI7jPs33EiO1yCnJR1rW7l/LFE5
+h5TGKuFGkMO0+Nbp/r4Q
+=6Q81
+-----END PGP MESSAGE-----
 
 *** Dolores
 **** Testiculos
@@ -1740,10 +1756,11 @@ compromisos fallados q en este caso seria el lolo.
 * tratamientos naturales
 ** 10 dias de masajes de cervical
 ** 10 dias de arroz yamani
-*** TODO comprar arroz yamani
-SCHEDULED: <2022-10-24 Mon>
+| 1 | [2022-11-09 Wed] |
+|   |                  |
 ** 10 dias de licuado
 | 1 | [2022-11-03 Thu] | * |
 | 2 | [2022-11-04 Fri] | * |
 | 3 | [2022-11-07 Mon] |   |
 | 4 | [2022-11-08 Tue] | * |
+| 5 | [2022-11-09 Wed] | * |
