@@ -279,8 +279,13 @@ configuracion no se porque. Por las dudas lo dejo asi.
   paquetes que demoran el arranque. [2022-11-09 Wed] hice grandes
   cambios en el init. puse un early-init, y pase de 1.32 a 1.89, pero
   con lsp-bridge y svg-icons. Hay que seguir probando.
+  [2022-11-10 Thu] hoy con emacs-vainilla como efecto secundario tengo
+  0.92 segundos, con lsp-bridge y los icons. sin meow.
 + aprender regexp de emacs a usar p.e. en isearch con regexp
 + ver la forma de anular meow para cierto tipo de buffers p.e. magit o nomuch
++ multiples cursores
++ marks-visuales
++ hl-diff otro parecido a git-gutter solo para ver.
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -739,6 +744,16 @@ contabilidad para cada persona en menu con acceso individual.
 
 *** DONE cambiar santander por banco
 CLOSED: [2022-11-09 Wed 09:39]
+*** DONE rezonificador
+CLOSED: [2022-11-10 Thu 11:02]
++ cambiador de zona como el que esta en fichaje
++ decidir que hacer con todos esos barrios que no hacemos. Si dejar
+  una zona fuerazona.
++ pienso que habria que distinguir entre las zonas que nunca ni por la
+  via de la ciencia ficcion vamos a pisar como villa paez o alberdi de
+  aquellas otras como olmedo que no estamos haciendo ahora.
++ hay 20 zonas que no significan nada, y creo que con una sola alcanza
+  para tenerlas a todas juntas. -FueraZona
 ** TODO explorar y pasarse a bulma menu-bar
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
@@ -862,8 +877,6 @@ nuevo, hay algunos que todavia falta corregir.
 + [ ] carpeta fichas
   fichaje
   listado
-  listavisitar
-  programar
 + [X] carpeta utilidades
 *** refactorizados a alpinejs
 **** DONE asuntos.html
@@ -980,17 +993,29 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
-** TODO  rezonificador
-+ cambiador de zona como el que esta en fichaje
-+ decidir que hacer con todos esos barrios que no hacemos. Si dejar
-  una zona fuerazona.
-+ pienso que habria que distinguir entre las zonas que nunca ni por la
-  via de la ciencia ficcion vamos a pisar como villa paez o alberdi de
-  aquellas otras como olmedo que no estamos haciendo ahora.
-+ hay 20 zonas que no significan nada, y creo que con una sola alcanza
-  para tenerlas a todas juntas. -FueraZona
 * agenda de actividad
 ** semana [2022-11-06 Sun]
+*** [2022-11-10 Thu]
+:LOGBOOK:
+CLOCK: [2022-11-10 Thu 15:40]--[2022-11-10 Thu 16:14] =>  0:34
+emacs vainilla: explorando
+CLOCK: [2022-11-10 Thu 15:00]--[2022-11-10 Thu 15:40] =>  0:40
+refactorizado de listado a visitar
+CLOCK: [2022-11-10 Thu 14:40]--[2022-11-10 Thu 14:59] =>  0:19
+emacs vainilla: explorando
+CLOCK: [2022-11-10 Thu 14:10]--[2022-11-10 Thu 14:39] =>  0:29
+depurando y analizando el bug invalido
+CLOCK: [2022-11-10 Thu 12:50]--[2022-11-10 Thu 13:42] =>  0:52
+emacs: probando vainilla mas atajos
+CLOCK: [2022-11-10 Thu 12:30]--[2022-11-10 Thu 12:47] =>  0:17
+haciendo banco
+CLOCK: [2022-11-10 Thu 11:00]--[2022-11-10 Thu 12:05] =>  1:05
+emacs: probando vainilla
+CLOCK: [2022-11-10 Thu 09:40]--[2022-11-10 Thu 11:00] =>  1:20
+terminado refactorizacion-
+CLOCK: [2022-11-10 Thu 08:25]--[2022-11-10 Thu 09:05] =>  0:40
+emacs: probando vainilla. Intento fallido de remapear Ctrl
+:END:
 *** [2022-11-09 Wed]
 :LOGBOOK:
 CLOCK: [2022-11-09 Wed 20:45]--[2022-11-09 Wed 21:21] =>  0:36
@@ -2102,8 +2127,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-10 Thu>
+SCHEDULED: <2022-11-14 Mon>
 :LOGBOOK:
+- Rescheduled from "[2022-11-10 Thu]" on [2022-11-10 Thu 12:48]
 - Rescheduled from "[2022-11-08 Tue]" on [2022-11-03 Thu 09:07]
 - Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:03]
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
@@ -2163,10 +2189,10 @@ SCHEDULED: <2022-11-14 Mon .+1w>
 :END:
 **** actualizar tabla inflacion
 SCHEDULED: <2023-01-12 Thu .+1m>
-**** parabrisas kangoo
-SCHEDULED: <2022-11-10 Thu>
-**** depositar romina
-SCHEDULED: <2022-11-10 Thu>
+**** DONE parabrisas kangoo
+CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
+**** DONE depositar romina
+CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
 
 
 * changelog
@@ -2452,3 +2478,27 @@ dabbrev unicamente que creo que es suficiente para mis propositos de programacio
 ** nuevo modal boon
 [2022-11-06 Sun] experimento con nuevo modal boon. Todavia menos
 intrusivo que meow.
+** [2022-11-10 Thu] nueva experiencia vainilla-emacs
+ahora bien porque no estoy presionado por el
+apuro, sino tranqui. Y viene bien la experiencia acumulada con Ctrlf
+como buscador.
+Se echaria de menos por ahora solamente
++ el buscador / que te premuestra resultados
++ el O que te comprueba que la funcion esta completa.
++ las funciones menos usadas de copiar el interior de una expresion
+Pero pienso seguir investigando y buscando la forma de encontrar un
+flujo de trabajo que me sirva.  Todavia tengo mucha memoria muscular
+activada que debo domar. Algo bueno que hice ayer fue poner el
+emacs-server para que no se me mezcle vim con emacs. (aunque ahora con
+emacs-vainilla no hay problema)
++ pareceria que con Ms-o tengo un occur en el buffer que muestra
+  rapido y permite navegar mas rapido que el C-s y es regexp
++ instale expand-region que todos lo tienen como bueno pero no se si
+  es muy usable para mi.
++ Estoy pensando en cambiar C-f/b por M-f/b para ver por mi flujo de
+  trabajo pienso que seria mejor.
++ Ya tengo C-o para ir atras a los pop-marks locales los globales no
+  sirven y estan por defecto en Cx-Cspace.  Y tengo M-n que no estaba
+  bindeado a nada para lo mismo que C-n o sea la linea siguiente pero
+  es util cuando estas finito en el ciclo de los M-f/b/d y queres
+  hacer M-n en vez de cuando estas con C-f/b/d/n.

@@ -13068,3 +13068,7 @@ D $1000.00
 2022-11-09 compras
     expenses:comida   $ 2080
     assets:caja   $ -2080
+
+2022-11-10 lentes cami
+    expenses:cami:extras   $ 10000
+    income:retiro-sociedad   $ -10000

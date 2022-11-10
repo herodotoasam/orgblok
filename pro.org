@@ -5934,7 +5934,27 @@ correctos y listo.
 Estaba tageando mal los denotes. Resolvi que los tags van a ser
 programas cuando se habla de programas, y no otras cuestiones, como
 error, doc, edu, etc.
+*** [2022-11-10 Thu] emacs-vainilla-hell
+en una noche migrañiosa e insomne me agarro el emacs-vainilla-hell. O
+sea la idea de probar a fondo vainilla-emacs. Sin meow, sin modales.
+Aunque tenga que usar arrow-keys, aunque tenga que usar mouse.
+De todos modos vivo cometiendo fallos en meow, asi que no veo cual es
+la diferencia.
 
+Otra cosa que quiero hacer es probar otras opciones asi sea para
+descartarlas por obsoletas e irrealizables, como paso con icicles,
+aunque puede que le de otra oportunidad. Hablo de ido, ivy, etc. por
+medio de los modulos. Solo para ver.
+
+Otra cosa es ver si puedo programar con xmodmap la Hyper key a Caps
+para tener otra opcion en emacs que permita programar muchas teclas
+mas.
+
+El tema es cambiar la forma de trabajar: cambiar el apuro existencial
+de hacer las cosas a mil por hora y hacerlas sin prisa hasta aprender
+el flujo de trabajo bien, y luego ir adquiriendo velocidad. No hace
+falta velocidad en absoluto en la programacion. Salvo en momentos
+criticos en los cuales seria permitido usar el mouse.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
