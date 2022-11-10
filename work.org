@@ -276,7 +276,9 @@ configuracion no se porque. Por las dudas lo dejo asi.
   fechas pero hay se puede ver que llevo mas de cien horas invertidas
   en emacs.
 + tiempo de inicio de emacs reducido 40ms con :defer t en aquellos
-  paquetes que demoran el arranque.
+  paquetes que demoran el arranque. [2022-11-09 Wed] hice grandes
+  cambios en el init. puse un early-init, y pase de 1.32 a 1.89, pero
+  con lsp-bridge y svg-icons. Hay que seguir probando.
 + aprender regexp de emacs a usar p.e. en isearch con regexp
 + ver la forma de anular meow para cierto tipo de buffers p.e. magit o nomuch
 ** terminales
@@ -978,10 +980,32 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
+** TODO  rezonificador
++ cambiador de zona como el que esta en fichaje
++ decidir que hacer con todos esos barrios que no hacemos. Si dejar
+  una zona fuerazona.
++ pienso que habria que distinguir entre las zonas que nunca ni por la
+  via de la ciencia ficcion vamos a pisar como villa paez o alberdi de
+  aquellas otras como olmedo que no estamos haciendo ahora.
++ hay 20 zonas que no significan nada, y creo que con una sola alcanza
+  para tenerlas a todas juntas. -FueraZona
 * agenda de actividad
 ** semana [2022-11-06 Sun]
 *** [2022-11-09 Wed]
 :LOGBOOK:
+CLOCK: [2022-11-09 Wed 20:45]--[2022-11-09 Wed 21:21] =>  0:36
+emacs: repaso de edu-emacs
+CLOCK: [2022-11-09 Wed 19:40]--[2022-11-09 Wed 20:45] =>  1:05
+emacs: perdi la ventaja del arranque estoy peor que antes. Estoy en
+1.90 pero tengo lsp-bridge y svg-icons.
+CLOCK: [2022-11-09 Wed 18:47]--[2022-11-09 Wed 19:40] =>  0:53
+haciendo cambiador generalizado de zonas 1ºparte
+CLOCK: [2022-11-09 Wed 17:30]--[2022-11-09 Wed 18:45] =>  1:15
+emacs:instalacion de ultima version con soporte svg
+CLOCK: [2022-11-09 Wed 16:20]--[2022-11-09 Wed 17:29] =>  1:09
+emacs:cambios en init.el reduzco a 0.68 el arranque.
+CLOCK: [2022-11-09 Wed 14:15]--[2022-11-09 Wed 14:57] =>  0:42
+denoteando archivos descomprimiento
 CLOCK: [2022-11-09 Wed 13:23]--[2022-11-09 Wed 14:12] =>  0:49
 refactorizo cobr- cancelados- fechador
 CLOCK: [2022-11-09 Wed 12:30]--[2022-11-09 Wed 12:57] =>  0:27
@@ -2428,4 +2452,3 @@ dabbrev unicamente que creo que es suficiente para mis propositos de programacio
 ** nuevo modal boon
 [2022-11-06 Sun] experimento con nuevo modal boon. Todavia menos
 intrusivo que meow.
-**

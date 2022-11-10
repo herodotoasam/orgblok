@@ -19,8 +19,8 @@ movemos con Cs/Cr
 ** Lower/Upper
 *** Mu / Ml
 
-CON DICHOS comandos VOY poniendo MAYUSCULAS/minusculas Y va AVANZANDO
-palabra A palabra
+Con dichos comandos voy poniendo mayusculas/minusculas y va avanzando
+palabra a palabra
 
 * Emacs requeridos
 *** un theme que marque la fila a lo ancho. Antes lo tenia.
@@ -633,3 +633,9 @@ maquina del tiempo.
 * straight-pull-all
 para actualizar los paquetes
 luego straight-check-all para rebuild the packages que han cambiado.
+* M-= cuenta las lineas, palabras y caracteres de una region
+* C-h-m muestra el modo major y menor del buffer
+* en cambiar buffer (* o Cx-b) ves tambien los Bookmarks
+Ves los buffers | files | bookmarks
+o bien tipeas el nombre o con Ctrl-up/down vas de bloque en bloque y
+alli los tenes a todos.
