@@ -1,0 +1,23 @@
+#+title:      arreglo bug none en pmovto impresion ficha
+#+date:       [2022-11-10 Thu 20:16]
+#+filetags:   :bug:
+#+identifier: 20221110T201656
+
+#+begin_src python
+        cliente_pmovto = cliente[5]
+        if cliente_pmovto is None:
+            cliente_pmovto = date.today()
+        if cliente_pmovto<date.today():
+            pmovto = date.today().strftime('%Y-%m-%d')
+        else:
+            pmovto = cliente_pmovto
+
+#+end_src
+
+descripcion del error:
+    if cliente[5]<date.today():
+TypeError: '<' not supported between instances of 'NoneType' and 'datetime.date'
+ERROR:main:Exception on /buscador/imprimirficha [POST]
+
+
+Se da cuando se quiere imprimir una ficha que tiene el pmovto nulo.

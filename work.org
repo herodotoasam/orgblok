@@ -997,6 +997,14 @@ CLOSED: [2022-10-27 Thu 16:44]
 ** semana [2022-11-06 Sun]
 *** [2022-11-10 Thu]
 :LOGBOOK:
+CLOCK: [2022-11-10 Thu 21:11]--[2022-11-10 Thu 22:20] =>  1:09
+emacs: puse ac en webmode y atajo C-* a lsp-list-diagnostics
+CLOCK: [2022-11-10 Thu 19:50]--[2022-11-10 Thu 20:19] =>  0:29
+corrijo bug pmovto
+CLOCK: [2022-11-10 Thu 18:20]--[2022-11-10 Thu 19:47] =>  1:27
+emacs: integracion con meow: visit y block- sin penalidad de arranque.
+CLOCK: [2022-11-10 Thu 18:01]--[2022-11-10 Thu 18:19] =>  0:18
+cheatshet emacs/explorar lsp-bridge
 CLOCK: [2022-11-10 Thu 15:40]--[2022-11-10 Thu 16:14] =>  0:34
 emacs vainilla: explorando
 CLOCK: [2022-11-10 Thu 15:00]--[2022-11-10 Thu 15:40] =>  0:40
@@ -2502,3 +2510,84 @@ emacs-vainilla no hay problema)
   bindeado a nada para lo mismo que C-n o sea la linea siguiente pero
   es util cuando estas finito en el ciclo de los M-f/b/d y queres
   hacer M-n en vez de cuando estas con C-f/b/d/n.
+Repaso general del vainilla-emacs cheat sheet.
+| C-q   | quoted-insert               | inusable   |
+| C-w   | kill-region                 | util       |
+| C-e   | move-end-of-line            | muy-util   |
+| C-r   | isearch-backward            | poco-usado |
+| C-t   | transpose-chars             | no-usado   |
+| C-y   | yank                        | util       |
+| C-u   | universal-argument          | util       |
+| C-i   |                             |            |
+| C-o   | meow-block                  | muy-usado  |
+| C-p   | previous-line               | muy-usado  |
+| C-a   | move-beginning-of-line      | muy-usado  |
+| C-s   | isearch-forward             | muy-usado  |
+| C-d   | kill-word                   | muy-usado  |
+| C-f   | forward-word                | muy-usado  |
+| C-g   | keyboard-quit               | muy-usado  |
+| C-h   | help-quit-or-quick          | util       |
+| C-j   | pop-local-mark-ring         | poco-usado |
+| C-k   | kill-line                   | muy-usado  |
+| C--   |                             |            |
+| C-z   | undo-fu-only-undo           | no-usado   |
+| C-x   | universal                   | muy-usado  |
+| C-c   | universal                   | muy-usado  |
+| C-v   | scroll-up-command           | poco-usado |
+| C-b   | backward-word               | muy-usado  |
+| C-n   | next-line                   | muy-usado  |
+| C-m   |                             |            |
+| C-,   |                             |            |
+| C-.   | embark-act                  | poco-usado |
+| C-*   | lsp-bridge-list-diagnostic  | util       |
+|-------+-----------------------------+------------|
+| C-S-e | embark-export               | inusable   |
+| C-S-z | undo-fu-only-redo           | no-usado   |
+| C-S-b | consult-buffer-other-window | inusable   |
+|-------+-----------------------------+------------|
+| M-q   | fill-paragraph              | poco-usado |
+| M-w   | kill-ring-save              | util       |
+| M-e   | forward-sentence            | poco-usado |
+| M-r   | vertico-repeat              | no-usado   |
+| M-t   | transpose-words             | no-usado   |
+| M-y   | consult-yank-from-kill-ring | util       |
+| M-u   | upcase-word                 | poco-usado |
+| M-i   | tap-to-tab-stop             | no-usado   |
+| M-o   | ace-window                  | muy-usado  |
+| M-p   | meow-visit                  | muy-usado  |
+| M-a   | backward-sentence           | poco-usado |
+| M-s   | universal-search            | muy-usado  |
+| M-d   | delete-char                 | muy-usado  |
+| M-f   | forward-char                | muy-usado  |
+| M-g   | consult                     | ??         |
+| M-h   |                             |            |
+| M-j   | default-indent-new-line     | no-usado   |
+| M-k   | kill-sentence               | no-usado   |
+| M-l   | downcase-word               | no-usado   |
+| M-z   | zap-to-char                 | no-usado   |
+| M-x   | execute-extended-command    | muy-usado  |
+| M-c   | capitalize-word             | no-usado   |
+| M-v   | scroll-down-command         | poco-usado |
+| M-b   | backward-char               | muy-usado  |
+| M-n   | next-line                   | muy-usado  |
+| M-m   | back-to-indentation         | no-usado   |
+|-------+-----------------------------+------------|
+| C-M-w | append-next-kill            | no-usado   |
+| C-M-e | end-of-defun                | no-usado   |
+| C-M-r | isearch-backward-regexp     | no-usado   |
+| C-M-u | backward-up-list            | no-usado   |
+| C-M-o | split-line                  | no-usado   |
+| C-M-a | beginning-of-defun          | no-usado   |
+| C-M-s | isearch-forward-regexp      | no-usado   |
+| C-M-d | duplicate-line              | muy-usado  |
+| C-M-f | forward-sexp                | no-usado   |
+| C-M-h | mark-defun                  | no-usado   |
+| C-M-j | default-indent-new-line     | no-usado   |
+| C-M-k | kill-sexp                   | no-usado   |
+| C-M-l | reposition-window           | no-usado   |
+| C-M-c | exit-recursive-edit         | no-usado   |
+| C-M-v | scroll-other-window         | no-usado   |
+| C-M-b | backward-sexp               | no-usado   |
+| C-M-n | forward-list                | no-usado   |
+|-------+-----------------------------+------------|
+| f10   | meow-search                 | muy-usado  |
