@@ -5955,6 +5955,11 @@ de hacer las cosas a mil por hora y hacerlas sin prisa hasta aprender
 el flujo de trabajo bien, y luego ir adquiriendo velocidad. No hace
 falta velocidad en absoluto en la programacion. Salvo en momentos
 criticos en los cuales seria permitido usar el mouse.
+*** [2022-11-11 Fri]
+encuentro muy instructivos los escritos de Mastering Emacs como para
+leerlos y releerlos al maximo. Se van aprendiendo secretitos que pasan
+desapercibidos.
+
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

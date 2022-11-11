@@ -13072,3 +13072,31 @@ D $1000.00
 2022-11-10 lentes cami
     expenses:cami:extras   $ 10000
     income:retiro-sociedad   $ -10000
+
+2022-11-11 factura claro
+    expenses:servicios:claro   $ 5435
+    income:retiro-sociedad   $ -5435
+
+2022-11-11 contraasiento para eliminar uala
+    assets:caja   $ 1500
+    assets:uala   $ -1500
+
+2022-11-11 aplicacion del saldo de uala al pago de api
+    income:retiro-sociedad   $ 1285  ;# en positivo pq es una disminucion del retiro una nota de credito
+    assets:uala   $ -1285
+
+2022-11-11 perdida por diferencia
+    expenses:diferencia-arqueo   $ 215   ;# perdida pq en realidad el monto de la api no es redondo 1500
+    assets:uala   $ -215
+
+2022-11-11 retiro
+    assets:caja   $ 40000
+    assets:reserva   $ -40000
+
+2022-11-11 lomito
+    expenses:comida   $ 1350
+    assets:caja   $ -1350
+
+2022-11-11 diff
+    expenses:diferencia-arqueo   $ 1682
+    assets:caja   $ -1682

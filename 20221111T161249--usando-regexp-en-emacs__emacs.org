@@ -1,0 +1,15 @@
+#+title:      usando regexp en emacs
+#+date:       [2022-11-11 Fri 16:12]
+#+filetags:   :emacs:
+#+identifier: 20221111T161249
+
+tenia que eliminar 9 matches de placeholder="word" donde word eran
+diferentes palabras.
+
+Use M-% para hacer el replace-regexp.
+
+puse:  placeholder="\([^"]+\)"
+o sea un grupo que contenga uno o mas (+) de cualquier cosa menos "
+eso significa [^"] y resulto en un toque.
+
+[[http://xahlee.info/emacs/emacs/emacs_regex_syntax.html][Pagina explicatoria de donde saque la idea]]

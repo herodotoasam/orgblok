@@ -1,5 +1,5 @@
 clear Lock
-keycode 66 = Escape
+keycode 66 = Hyper_L Caps_Lock Caps_Lock
 keycode 108 = Mode_switch
 keycode 61 = slash underscore minus
 keycode 49 = bar masculine
@@ -16,4 +16,4 @@ keycode 12 = 3 numbersign
 keycode 10 = 1 exclam bar
 keycode 48 = braceleft bracketleft parenleft
 keycode 51 = braceright bracketright parenright
-add Lock = Print
+add Lock = Caps_Lock

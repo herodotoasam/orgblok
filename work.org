@@ -286,6 +286,9 @@ configuracion no se porque. Por las dudas lo dejo asi.
 + multiples cursores
 + marks-visuales
 + hl-diff otro parecido a git-gutter solo para ver.
+  [2022-11-11 Fri] probe con ido-mode y es muy primitivo al lado de lo
+  que tenemos ahora. nada que ver, y encima la maquina arranca a
+  0.86s. y tiene Hyper teclado.
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -754,7 +757,6 @@ CLOSED: [2022-11-10 Thu 11:02]
   aquellas otras como olmedo que no estamos haciendo ahora.
 + hay 20 zonas que no significan nada, y creo que con una sola alcanza
   para tenerlas a todas juntas. -FueraZona
-** TODO explorar y pasarse a bulma menu-bar
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO whatsapp de imagenes
@@ -831,20 +833,27 @@ p.e. -abogado -doc a reventar -etc y buscar otra forma para manejar
 los fallecidos.
 Idem purgar las calles y los barrios.
 + ver de sacar del seven a aquellos que estan en forma irregular.
-** PENDING verificar bug probable con 'INVALIDO' en log1
+** BUG bugs relacionados con la api de Whatsapp
 hay un par de errores pero desde que puse el warning del update no me
-dio mas el error.
-Y otro error mas que tiro el log1
-El bug INVALIDO aparentemente se porque se causo y es por un mal corte
-de linea en la refactorizacion del archivo python. Esta por revisar y
-ver si aparece algun error nuevo y se confirma que no hay mas error.
+dio mas el error.  Y otro error mas que tiro el log1 El bug INVALIDO
+aparentemente se porque se causo y es por un mal corte de linea en la
+refactorizacion del archivo python. Esta por revisar y ver si aparece
+algun error nuevo y se confirma que no hay mas error.
 [2022-11-08 Tue] rastrie un caso, que dio error el mismo error de
-siempre:
-_mysql_connector.MySQLInterfaceError: Unknown column 'INVALIDO' in 'field list'
-y vi que no registra el wapp como invalido ni en verde como enviado.
-Lo reenvie y se proceso normalmente como invalido.
-O sea que no se pq ocurre aleatoriamente.
-Es como el xmodmap que a veces anda y a veces no.
+siempre: _mysql_connector.MySQLInterfaceError: Unknown column
+'INVALIDO' in 'field list' y vi que no registra el wapp como invalido
+ni en verde como enviado.  Lo reenvie y se proceso normalmente como
+invalido.  O sea que no se pq ocurre aleatoriamente.  Es como el
+xmodmap que a veces anda y a veces no.
+[2022-11-11 Fri] bug ficha Ale. veo con consult-line que ocurrio el
+mismo error con 5 numeros diferentes dos veces en noviembre y resto
+antes.
+Pienso que es algo del servidor de la api, pq despues pude mandar el
+msg sin problemas.
+Recipient's
+Phone number: <b>+5493516366532</b><br>Sender's phone number:
+<b>+5493513882892</b><br>API version: <b>2.0</b><br>Sending
+document...<br><p>Result: <b>Unknown Error.</p><u>
 ** TODO limpiar por flycheck todos los *.py
 1. stock.py
 ** TODO interfase para registrar autorizaciones
@@ -861,7 +870,8 @@ cuadro de barras a dos barras por mes con ingresos y egresos pq en la
 pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
-** PENDING transformar Vue en alpinejs [66%]
+** TODO [#A] explorar y pasarse a bulma menu-bar
+** PENDING transformar Vue en alpinejs [83%]
 Hoy comence a refactorizar integralmente muchas paginas, no solo
 pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
 manejo de variables y modal.
@@ -874,9 +884,7 @@ nuevo, hay algunos que todavia falta corregir.
 + [X] carpeta ventas
 + [X] carpeta pagos
 + [ ] clientes
-+ [ ] carpeta fichas
-  fichaje
-  listado
++ [X] carpeta fichas
 + [X] carpeta utilidades
 *** refactorizados a alpinejs
 **** DONE asuntos.html
@@ -995,6 +1003,23 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-11-06 Sun]
+*** [2022-11-11 Fri]
+:LOGBOOK:
+CLOCK: [2022-11-11 Fri 17:49]--[2022-11-11 Fri 18:28] =>  0:39
+termine de refactorizar modal plan de pagos
+CLOCK: [2022-11-11 Fri 15:04]--[2022-11-11 Fri 17:15] =>  2:11
+renegando un monton con la busqueda despues de plan pagos
+CLOCK: [2022-11-11 Fri 13:45]--[2022-11-11 Fri 14:53] =>  1:08
+emacs: pruebo con ido pero es negativo- antes bugs y atajos
+CLOCK: [2022-11-11 Fri 12:30]--[2022-11-11 Fri 12:53] =>  0:23
+emacs: save-desktop para salvar register veremos
+CLOCK: [2022-11-11 Fri 09:44]--[2022-11-11 Fri 12:10] =>  2:26
+refactorizacion fichaje y comienzo de clientes
+CLOCK: [2022-11-11 Fri 09:19]--[2022-11-11 Fri 09:44] =>  0:25
+emacs: Hyper- jump-to-register
+CLOCK: [2022-11-11 Fri 09:00]--[2022-11-11 Fri 09:19] =>  0:19
+conciliacion bancaria
+:END:
 *** [2022-11-10 Thu]
 :LOGBOOK:
 CLOCK: [2022-11-10 Thu 21:11]--[2022-11-10 Thu 22:20] =>  1:09
@@ -2591,3 +2616,16 @@ Repaso general del vainilla-emacs cheat sheet.
 | C-M-n | forward-list                | no-usado   |
 |-------+-----------------------------+------------|
 | f10   | meow-search                 | muy-usado  |
+
+
+| H-s | save-buffer      | muy-usado |
+| H-b | consult-buffer   | ?         |
+| H-j | jump-to-register | util      |
+
+
+
++ Hyper para agregar mas atajos
++ jump-to-register H-j
++ C--C-d para borrar hacia atras.
++ en realidad el cambio de direccion funciona para todo.
++ S-M-x te da un set reducido de comandos para el major mode que estas trabajando.
