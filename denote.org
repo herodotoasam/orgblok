@@ -24,3 +24,4 @@
 [[denote:20221109T145428][agenda Debian]]
 * historicos de programacion
 [[denote:20221109T142640][escritos del 2020 sobre TCL y Ruby]]
+[[denote:20221113T162631][idea plan de estudios]]

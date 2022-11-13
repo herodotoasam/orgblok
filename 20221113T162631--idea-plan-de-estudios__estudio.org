@@ -1,0 +1,29 @@
+#+title:      idea plan de estudios
+#+date:       [2022-11-13 Sun 16:26]
+#+filetags:   :estudio:
+#+identifier: 20221113T162631
+
+* IDEA Idea plan de estudios
+Se me ocurrio anoche una idea y es tener un esquema de materias para
+profundizar
+En general tener un org para estructurar el tema e ir registrando los avances.
+** emacs
+*** meow: analisis comando por comando y variable por variable
+*** init.el: analisis de cada variable seteada y limpieza de errores
+en las configuraciones
+*** kbd: listado de todos los atajos de teclado que estan seteados y
+son usables eventualmente.
+*** funciones: listado de funciones y su analisis correspondiente.
+** elisp
+[2022-10-30 Sun] pienso que seria bueno darle prioridad a elisp por
+sobre tailwind ya que no en el corto plazo veo la posibilidad de
+cambio en el sistema general hacia tailwind pero si veo posibilidades
+de aplicacion de elisp.
+** git
+tengo para leer el libro epub del tema que es fascinante.
+** tailwind
+es un fascinante marco para aprender.
+[2022-10-24 Mon]  instalacion de PostCSS y de tailwindCSS. primeros pasos
+** alpinejs
+** org
+** javascript

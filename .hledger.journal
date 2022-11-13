@@ -13112,3 +13112,7 @@ D $1000.00
 2022-11-12 mesada ih
     expenses:isabel   $ 15000
     assets:caja   $ -15000
+
+2022-11-13 varios ih
+    expenses:isabel   $ 1000
+    assets:caja   $ -1000

@@ -5972,7 +5972,17 @@ Encontre un yacimiento de material sobre emacs.
 Primero baje el libro completo Mastering.
 Despues una pagina que reune un monton de feeds increibles:
 [[https://planet.emacslife.com][Planet emacslife]]
+*** [2022-11-13 Sun] lectura del manual gnu-emacs
+Pienso que aparte de leer cuidadosamente el Mastering Emacs, luego
+debo leer el manual completo de pe a pa.
 
+Estoy haciendo introduccion a elisp en la compu en cuatro windows:
+eng.org con la lista de terminos de ingles que estamos buscando,
+el Info que estamos haciendo en este caso elisp, y a la derecha:
+el traductor, y abajo scratch para las practicas.
+
+La unica forma de sacar adelante el problema del ingles va a ser
+recopilar palabras en algun lado y pienso que el sitio mas adecuado es este.
 
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
@@ -6896,6 +6906,8 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 ** semana [2022-10-23 Sun] :emacs:flask:javascript:alpinejs:tailwindCSS:
 ** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:elisp:
 ** semana [2022-11-06 Sun] :emacs:elisp:
+** semana [2022-11-13 Sun] :emacs:
+
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline
