@@ -1,0 +1,39 @@
+#+title:      bug en jump-to-register
+#+date:       [2022-11-13 Sun 11:12]
+#+filetags:   :emacs:
+#+identifier: 20221113T111245
+
+cuando ponia el atajo a jump-to-register o sea H-+ me daba el
+siguiente error en el minibuffer: Error running timer:
+(wrong-type-argument stringp nil)
+
+En google nada como siempre. Bueno casi nada. Pq me sugirieron:
+#+begin_src elisp
+(setq debug-on-error t)
+#+end_src
+lo cual me mostraria mas indicios del error.
+Y en Messages aparecio:
+Error running timer: (wrong-type-argument stringp nil)
+register-read-with-preview: Non-character input-event
+
+Busco la funcion y obtengo:
+Read and return a register name, possibly showing existing registers.
+Prompt with the string PROMPT.  If ‘register-alist’ and
+‘register-preview-delay’ are both non-nil, display a window
+listing existing registers after ‘register-preview-delay’ seconds.
+If ‘help-char’ (or a member of ‘help-event-list’) is pressed,
+display such a window regardless.
+
+Busco el valor de register-alist:
+Its value is
+((109 . #<marker at nil>)
+ (102 . #<marker at nil>))
+
+ Y no podia ejecutar ningun command relativo a register, ni verlos ni
+ establecerlos.
+
+ Tenia que reestablecer el valor de register-alist.
+ En google como siempre derrapaban con varias soluciones, una de las
+ cuales no me funciono.
+ Y agarre directamente el Scratch y puse
+ (setq register-alist ()) y lo evalue, y listo, todo anduvo de nuevo.

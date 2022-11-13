@@ -75,6 +75,7 @@ con composite, me cobro 7000 y me duro justo un mes.
 *** temblor matinal
 [2022-10-31 Mon] cuando me levanto siento un temblor en las manos al
 hacer las cosas como prepararme el te o esas cosas.
+[2022-11-12 Sat] hoy estuve un poco mas tembloroso que de costumbre.
 *** lesion :crypt:
 -----BEGIN PGP MESSAGE-----
 
@@ -95,6 +96,14 @@ K822wMRGOZKfPW5Oo72AY49vWnLSSo4ozi1sOuFYgNLavl3oD4MqOmqu/n3WZOcy
 VH2QzzVRkb572Cg3EoruHUFoHOJdUFuy
 =FzIq
 -----END PGP MESSAGE-----
+*** circulos luminosos en ojo izquierdo sobre la pantalla del celu
+estaba merendando viendo el celu [2022-11-12 Sat] luego de una sesion
+cortita de compu fallida por falta de ganas, luego de una siesta no
+muy buena, luego de una mega-sesion de computacion a la mañana, y me
+comenzo a molestar la aureola fosforecente. Me acoste me tape la vista
+y se me fue. A la hora mas o menos me tomo la presion ih y me dio
+14:9, tenia tambien un poquito de temblorcitos en el ceño, pero no fue
+un aura migrañosa y se fue asi nomas.
 *** Dolores
 **** Testiculos
 [2017-09-15 vie] aparecio de repente que yo pense que era premonitorio
@@ -214,6 +223,22 @@ de que estaba hablando... NO jaja. de la memoria a corto plazo. A
 veces estoy trabajando por media hora en un archivo y lo cierro y voy
 a hacer el resumen, ya sea en git o en work y no me acuerdo en que
 estaba trabajando.
+*** smt :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQwAjjPommr9lG3Y7R3k+tMQKVXpN7YvpyyqrPJVsseKgVaB
+Yu8/hF9+0wdsnX1T5crGe1P+jRXDmUtivodN0VFVk15fcP3HFkHGZ/zkzlXU4CgJ
+ccYPwy5JjQaOCkGm3DOClxJ+eQ62bIZErrRdMsWzIbTaZcS7bUUdawi18yJ3BgCq
+gaq30hIJQxsHTn9gLEkMnIxTVyoYFtUGMyyqppN+JcaPgjcHUkC+q2ANj+LCL2XE
+tzHrJqKaG8p5Mr+C+LhwkeM7KiWrTR7EmLWBII4iN+9GnBdmF2WOtmd1P2V1FgVB
+NAY7TsKhh+FMPfpcVgolAxLwEyDuKbvyswp3Zn3jXy1U9R4B5UGxv7Vqx7GqIOeO
+0w1qmOaTr55Jxf3Na2Hy+G6Y7fEDsuesvlOt4XDH+K05gR3jI/6UaLolsTpz58F2
+dm3KjjhdDmVV969qmiEZIoQ2YQLDEMbCyfC2yaS6eVQnIi3UfJg9/wEwR2Dk5gef
+G/BJydEw9H2t4m2JLELP1FUBCQIQz2nMqshkQjUbj41eDP5icDRghWa1vHV5J4RX
+sU89LJfIEL4M/ZSqd3pTq80sdWTlktaCiYHWIMpLbH33orYJchTLORU4ljigTGLm
+8ekeoPam
+=U/0/
+-----END PGP MESSAGE-----
 ** registro de sintomas
 *** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
@@ -1775,3 +1800,6 @@ compromisos fallados q en este caso seria el lolo.
 | 3 | [2022-11-07 Mon] |   |
 | 4 | [2022-11-08 Tue] | * |
 | 5 | [2022-11-09 Wed] | * |
+| 6 | [2022-11-10 Thu] |   |
+|   |                  |   |
+|   |                  |   |

@@ -1002,9 +1002,42 @@ necesario por el tipo de autoComplete.
 **** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
+** semana [2022-11-13 Sun]
+*** [2022-11-13 Sun]
+:LOGBOOK:
+CLOCK: [2022-11-13 Sun 11:10]--[2022-11-13 Sun 11:35] =>  0:25
+emacs: hice denote del bug. e indexe todos los denotes.
+CLOCK: [2022-11-13 Sun 10:45]--[2022-11-13 Sun 11:09] =>  0:24
+emacs: corrigiendo bug de register-alist
+clock: [2022-11-13 Sun 09:55]--[2022-11-13 Sun 10:45] =>  0:50
+emacs: tuneado y atajos-
+:END:
 ** semana [2022-11-06 Sun]
+*** [2022-11-12 Sat]
+:LOGBOOK:
+CLOCK: [2022-11-12 Sat 21:38]--[2022-11-12 Sat 22:25] =>  0:47
+emacs: atajos- hermosa font input mono
+CLOCK: [2022-11-12 Sat 16:30]--[2022-11-12 Sat 16:58] =>  0:28
+hice la subida la prueba y el merge de tree2
+CLOCK: [2022-11-12 Sat 15:52]--[2022-11-12 Sat 16:30] =>  0:38
+emacs: atajos
+CLOCK: [2022-11-12 Sat 13:00]--[2022-11-12 Sat 13:20] =>  0:20
+emacs: atajos
+CLOCK: [2022-11-12 Sat 12:35]--[2022-11-12 Sat 12:58] =>  0:23
+solucionado copiado en clipboard. era una pavada el flag g
+CLOCK: [2022-11-12 Sat 11:10]--[2022-11-12 Sat 12:35] =>  1:25
+trabadazo con las regexp en buscador. weird behavior
+CLOCK: [2022-11-12 Sat 10:40]--[2022-11-12 Sat 11:09] =>  0:29
+emacs: bindeando con Super tambien!!!
+CLOCK: [2022-11-12 Sat 08:18]--[2022-11-12 Sat 10:31] =>  2:13
+termine bulma-modal - renegando con bug de datalist en buscar
+CLOCK: [2022-11-12 Sat 07:49]--[2022-11-12 Sat 08:15] =>  0:26
+emacs: inicio
+:END:
 *** [2022-11-11 Fri]
 :LOGBOOK:
+CLOCK: [2022-11-11 Fri 18:30]--[2022-11-11 Fri 18:59] =>  0:29
+emacs: creando atajos nuevos
 CLOCK: [2022-11-11 Fri 17:49]--[2022-11-11 Fri 18:28] =>  0:39
 termine de refactorizar modal plan de pagos
 CLOCK: [2022-11-11 Fri 15:04]--[2022-11-11 Fri 17:15] =>  2:11
@@ -2451,6 +2484,8 @@ y no es molesto como undo-tree con el guardado de los archivos.
 buen desempeno del browser basico para algunas cuestiones.
 bindie a F7 el browser y arregle bind internos para que pueda navegar
 con jklh.
+[2022-11-12 Sat] setie init.el para que todo link en emacs se abra en
+eww y tener en cuenta que & abre la pagina en navegador externo.
 ** sql-mysql
 [2022-10-27 Thu]
 hay que acordarse que cuando se trabaja con consultas que
@@ -2628,4 +2663,15 @@ Repaso general del vainilla-emacs cheat sheet.
 + jump-to-register H-j
 + C--C-d para borrar hacia atras.
 + en realidad el cambio de direccion funciona para todo.
-+ S-M-x te da un set reducido de comandos para el major mode que estas trabajando.
++ S-M-x te da un set reducido de comandos para el major mode que estas
+** keyfreq
+[2022-11-12 Sat]
+te muestra un resumen de todos los comandos que ejecutas.
+** guru-mode
+[2022-11-12 Sat]
+esta bueno para obligarse a no usar las arrow-key y demas que no deben
+ser usadas para el flujo normal de emacs.
+** what-cursor-position
+Cu-Cx-=
+te muestra la posision del cursor y ademas con el argumento universal
+toda la informacion de la face (font usada principalmente lo que nos interesa.)

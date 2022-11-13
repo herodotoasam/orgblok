@@ -5959,6 +5959,20 @@ criticos en los cuales seria permitido usar el mouse.
 encuentro muy instructivos los escritos de Mastering Emacs como para
 leerlos y releerlos al maximo. Se van aprendiendo secretitos que pasan
 desapercibidos.
+segundo dia de emacs-vainilla, -no me gusta ese nombre-, y ya me voy
+acostumbrando. Y pienso que se puede alcanzar rapidez en tareas
+repetitivas con mayor practica, pero el sistema es bueno.
+Pienso que con treinta dias de practica se puede poner especialmente
+bueno.
+Y eso que trato de no usar el raton, sino es mucho lo que se ayuda,
+para llegar al uso guru. pero vs-code se usa ratoncentricamente.
+Conforme con lo logrado estos dos dias de emacs-puro.
+*** [2022-11-12 Sat] yacimiento emacs
+Encontre un yacimiento de material sobre emacs.
+Primero baje el libro completo Mastering.
+Despues una pagina que reune un monton de feeds increibles:
+[[https://planet.emacslife.com][Planet emacslife]]
+
 
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:

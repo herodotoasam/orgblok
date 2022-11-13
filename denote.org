@@ -1,11 +1,26 @@
 * emacs
 [[denote:20221107T135012][Ctrlf]]
+[[denote:20221111T161249][usando regexp en emacs]]
+[[denote:20221113T111245][bug en jump-to-register]]
 * javascript
 [[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]
+[[denote:20221112T155515][global flag en regexp en javascript]]
 ** alpinejs
 [[denote:20221107T190833][event object]]
 [[denote:20221107T110347][correcto manejo de chart.js dentro de alpinejs]]
+[[denote:20221108T150625][no pude usar variable global reactivamente]]
 ** chart.js
 [[denote:20221104T125459][graficos con chart.js]]
 * html
 [[denote:20221104T125230][tree en tables]]
+* bugs sistema
+[[denote:20221110T201656][bug pmovto Invalid Date en impresion de fichas]]
+* agendas S.O.
+[[denote:20221109T145149][agenda Mint]]
+[[denote:20221109T145356][agenda MX-19]]
+[[denote:20221109T145253][agenda bunsen]]
+[[denote:20221109T145448][agenda Fedora]]
+[[denote:20221109T145320][agenda Xubuntu]]
+[[denote:20221109T145428][agenda Debian]]
+* historicos de programacion
+[[denote:20221109T142640][escritos del 2020 sobre TCL y Ruby]]

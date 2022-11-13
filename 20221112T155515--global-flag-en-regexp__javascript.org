@@ -1,0 +1,29 @@
+#+title:      global flag en regexp
+#+date:       [2022-11-12 Sat 15:55]
+#+filetags:   :javascript:
+#+identifier: 20221112T155515
+
+Hoy renegue un monton con una situacion en la cual no encontraba la
+solucion a un tema que involucraba regexp.
+#+begin_src js
+  let patternDni = /^(\d){7,8}$/
+  if(patternDni.test(this.buscar)){
+      textToClipboard(this.buscar)
+      this.verAvisoDniCopiado=true
+      setTimeout(()=>{this.verAvisoDniCopiado=false},3000)
+  }else{
+      clearClipboard()
+  }
+  #+end_src
+Como se ve alli se hace un patern, en js va enclosado por //, lo de
+dentro es regexp usual. Y se usa el method test sobre el pattern.
+
+regexp.test(text)
+
+Y luego del ultimo / se ponen los flags uno de ellos es g - global The
+g flag indicates that the regular expression should be tested against
+all possible matches in a string.
+
+El error en el script era que ponia el flag g.
+[lo que no explica porque el mismo test en un console.log antes del if
+daba true, y en el if daba false.]

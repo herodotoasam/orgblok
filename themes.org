@@ -15,3 +15,5 @@ para el dia.
 * [2022-11-04 Fri] ef-cyprus - ef-bio
 * [2022-11-05 Sat] base16-tokyo-city-dark
 * [2022-11-08 Tue] ef-bio  (uso de themes-dark aun de dia)
+* [2022-11-12 Sat] base16-gruvbox-dark-hard (input font)
+* [2022-11-13 Sun] lambda-light-faded y lambda-dark-faded
