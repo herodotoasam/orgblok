@@ -13116,3 +13116,7 @@ D $1000.00
 2022-11-13 varios ih
     expenses:isabel   $ 1000
     assets:caja   $ -1000
+
+2022-11-14 farmacia hospital italiano
+    expenses:gastos-medicos:farmacia   $ 21600
+    assets:caja   $ -21600

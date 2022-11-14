@@ -224,6 +224,7 @@ veces estoy trabajando por media hora en un archivo y lo cierro y voy
 a hacer el resumen, ya sea en git o en work y no me acuerdo en que
 estaba trabajando.
 *** smt :crypt:
+
 -----BEGIN PGP MESSAGE-----
 
 hQGMAwgb/w8r8tnHAQwAjjPommr9lG3Y7R3k+tMQKVXpN7YvpyyqrPJVsseKgVaB
@@ -238,6 +239,25 @@ G/BJydEw9H2t4m2JLELP1FUBCQIQz2nMqshkQjUbj41eDP5icDRghWa1vHV5J4RX
 sU89LJfIEL4M/ZSqd3pTq80sdWTlktaCiYHWIMpLbH33orYJchTLORU4ljigTGLm
 8ekeoPam
 =U/0/
+-----END PGP MESSAGE-----
+*** smt2 :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQv6Ag4IUqrLuZ9C48dolY8qr4Zfz2C9cMpHSEpVeV0ufvan
+Bd+6nDD+UQbbI8EGn/W5D6A6bj38YH+QpRuOLdXkNn/Ci3K83v5H4qkpd9CuIv8g
+A64UpAlJCpVpUVcUfOGMuQ0rZhHD7roFe3ijYASqGppxsG2sFQzbL6/CKmw/Cfto
+jQ8Mdtz4kb9qGNNWErSgfNzXRcOpOoxt4Ml8+FWgVBvemnf3vfHAglY/kGT3IVfa
+LZtWRVVIMvnEHnZeVnQGj3/H9s/pMX107bbm7O+sW1h1HU+VH/4JJn6e2GJW3njt
+ZBQmm8R5/Agc1nqisHME4zH7Nq8uUp9koS/CO+RWHPTxtJaPRad//hbYtN6HFLHc
++tUTfCK9P0qa7GnrK1DEIZgggkVxOTF8pKm72sv9enF7KEJfmeRHoQhSf7IOZr5j
+iQ7uzGUcinBr+azoCQV1m7bTcm9ZCIhcl5FpSNFLjYUjzM9mA351jKQNXGY5b87Z
+EZ7moXF4hjAELNHF/ueM1MA7AQkCEJPpusz2u4k4bOdt4q6MniAkW+GnnZpIZi5y
+YCA5RXHaGkr2WPrbSDHDL/E6evtDttgbkT4zu/K9Ma6lA1o4RtpPaCCjCuOD+z+3
+llpCIozYeJQuTqNPjCZPga+c9F+VxRzKVV87Vo3sIaNpuFXtHqqet7yJKuyLNunV
+P2F75sQgJZ5hs3Y7/101u7drXnLTM4FbOPHLGJZr7ad01AElQLw6TcK8LHTDRKe6
+dlVbtRP3T+TW5u/xvbjKvtfZfSgF1ftEhK5i258uJWWklVcHWdlQ0kbAO2jEAV7b
+XevUp6oAEiPbYfMoDaOCDMb2CvlTh6QnTdRgY9o=
+=U3Zk
 -----END PGP MESSAGE-----
 ** registro de sintomas
 *** [2021-08-19 Thu] migraña

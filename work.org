@@ -746,6 +746,137 @@ CLOSED: [2022-11-10 Thu 11:02]
   aquellas otras como olmedo que no estamos haciendo ahora.
 + hay 20 zonas que no significan nada, y creo que con una sola alcanza
   para tenerlas a todas juntas. -FueraZona
+*** DONE transformar Vue en alpinejs [100%]
+CLOSED: [2022-11-14 Mon 15:00]
+Hoy comence a refactorizar integralmente muchas paginas, no solo
+pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
+manejo de variables y modal.
+El objetivo al final sera borrar dependencias a Vue/Buefy/BulmaToast y
+en general que tengan un diseno uniforme.
+Saque las dependencias de Vue/Buefy y BulmaToast.
+Faltaria recorrer todos los archivos y ver que cumplan el formato
+nuevo, hay algunos que todavia falta corregir.
++ [X] carpeta stock
++ [X] carpeta ventas
++ [X] carpeta pagos
++ [X] clientes
++ [X] carpeta fichas
++ [X] carpeta utilidades
+**** refactorizados a alpinejs
+***** DONE asuntos.html
+CLOSED: [2022-10-27 Thu 15:31]
+termino borrando pagina que no se usa mas
+***** DONE mudados.html
+CLOSED: [2022-10-27 Thu 15:32]
+termino borrando pagina que no se usa mas pq el proceso ahora se hace
+de otra forma
+***** DONE estimados.html
+CLOSED: [2022-10-27 Thu 12:02]
+***** DONE editarrbo.html
+CLOSED: [2022-10-27 Thu 11:17]
+***** DONE cobr.html
+CLOSED: [2022-10-24 Mon 12:50]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-24 Mon 12:50]
+:END:
+***** DONE fichaje.html
+CLOSED: [2022-10-26 Wed 19:11]
+***** DONE totales.html
+CLOSED: [2022-10-21 Fri 10:31]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-21 Fri 10:31]
+:END:
+hice un grafico por mes y tambien una correccion por inflacion muy genial
+***** DONE planillas.html
+CLOSED: [2022-10-19 Wed 14:32]
+:LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-19 Wed 14:32]
+:END:
+***** DONE verzona.html
+CLOSED: [2022-10-19 Wed 12:23]
+:LOGBOOK:
+- State "DONE"       from "TODO"    [2022-10-19 Wed 12:23]
+:END:
+***** DONE compras.html
+CLOSED: [2022-10-17 Mon 12:01]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 12:01]
+:END:
+***** DONE mayor.html
+closed: [2022-10-17 Mon 12:41]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 12:41]
+:END:
+***** DONE verstock.html
+CLOSED: [2022-10-17 Mon 18:41]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 18:41]
+:END:
+***** DONE salidas.html
+CLOSED: [2022-10-17 Mon 15:23]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 15:23]
+:END:
+***** DONE impresos.html
+CLOSED: [2022-10-17 Mon 10:16]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:16]
+:END:
+***** DONE pdfsistema.html
+CLOSED: [2022-10-17 Mon 10:13]
+:LOGBOOK:
+- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:13]
+:END:
+***** DONE planos.html
+CLOSED: [2022-10-17 Mon 10:07]
+:LOGBOOK:
+- State "DONE"       from "TODO"       [2022-10-17 Mon 10:07]
+:END:
+***** DONE clientes.html
+CLOSED: [2022-10-18 Tue 13:52]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 13:52]
+:END:
+***** DONE barrios.html
+CLOSED: [2022-10-17 Mon 20:16]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-17 Mon 20:16]
+:END:
+***** DONE zonas.html
+CLOSED: [2022-10-18 Tue 10:51]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 10:51]
+:END:
+***** DONE calles.html
+CLOSED: [2022-10-18 Tue 11:13]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 11:13]
+:END:
+***** DONE cancelados.html
+CLOSED: [2022-10-18 Tue 13:25]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 13:25]
+:END:
+***** DONE listado.html
+CLOSED: [2022-10-18 Tue 14:37]
+:LOGBOOK:
+- State "DONE"       from "TODO"        [2022-10-18 Tue 14:37]
+:END:
+***** DONE ventas.html
+CLOSED: [2022-10-20 Thu 17:04]
+:LOGBOOK:
+- State "DONE"       from "PENDING"    [2022-10-20 Thu 17:04]
+- State "DONE"       from "TODO"    [2022-10-19 Wed 20:26]
+:END:
+queda pendiente el ver si podemos hacer algo con el event enter del
+autocomplete y el alpine-focus que chocan ahi.
+Y si hay una forma de marcar los campos requeridos que no se
+cumplieron.
+Lo logre con css pseudoclase :required y con html pattern
+Ahora vere de validar con la inclusion en el listado creo que es
+necesario por el tipo de autoComplete.
+***** DONE signup.html
+CLOSED: [2022-10-27 Thu 16:44]
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO whatsapp de imagenes
@@ -860,138 +991,19 @@ pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 ** TODO [#A] explorar y pasarse a bulma menu-bar
-** PENDING transformar Vue en alpinejs [83%]
-Hoy comence a refactorizar integralmente muchas paginas, no solo
-pasarlas a alpinejs sino cambiar bulmatoast, el metodo de borrado,
-manejo de variables y modal.
-El objetivo al final sera borrar dependencias a Vue/Buefy/BulmaToast y
-en general que tengan un diseno uniforme.
-Saque las dependencias de Vue/Buefy y BulmaToast.
-Faltaria recorrer todos los archivos y ver que cumplan el formato
-nuevo, hay algunos que todavia falta corregir.
-+ [X] carpeta stock
-+ [X] carpeta ventas
-+ [X] carpeta pagos
-+ [ ] clientes
-+ [X] carpeta fichas
-+ [X] carpeta utilidades
-*** refactorizados a alpinejs
-**** DONE asuntos.html
-CLOSED: [2022-10-27 Thu 15:31]
-termino borrando pagina que no se usa mas
-**** DONE mudados.html
-CLOSED: [2022-10-27 Thu 15:32]
-termino borrando pagina que no se usa mas pq el proceso ahora se hace
-de otra forma
-**** DONE estimados.html
-CLOSED: [2022-10-27 Thu 12:02]
-**** DONE editarrbo.html
-CLOSED: [2022-10-27 Thu 11:17]
-**** DONE cobr.html
-CLOSED: [2022-10-24 Mon 12:50]
-:LOGBOOK:
-- State "DONE"       from  "TODO"            [2022-10-24 Mon 12:50]
-:END:
-**** DONE fichaje.html
-CLOSED: [2022-10-26 Wed 19:11]
-**** DONE totales.html
-CLOSED: [2022-10-21 Fri 10:31]
-:LOGBOOK:
-- State "DONE"       from  "TODO"            [2022-10-21 Fri 10:31]
-:END:
-hice un grafico por mes y tambien una correccion por inflacion muy genial
-**** DONE planillas.html
-CLOSED: [2022-10-19 Wed 14:32]
-:LOGBOOK:
-- State "DONE"       from "TODO"    [2022-10-19 Wed 14:32]
-:END:
-**** DONE verzona.html
-CLOSED: [2022-10-19 Wed 12:23]
-:LOGBOOK:
-- State "DONE"       from "TODO"    [2022-10-19 Wed 12:23]
-:END:
-**** DONE compras.html
-CLOSED: [2022-10-17 Mon 12:01]
-:LOGBOOK:
-- State "DONE"       from  "TODO"            [2022-10-17 Mon 12:01]
-:END:
-**** DONE mayor.html
-closed: [2022-10-17 Mon 12:41]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-17 Mon 12:41]
-:END:
-**** DONE verstock.html
-CLOSED: [2022-10-17 Mon 18:41]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-17 Mon 18:41]
-:END:
-**** DONE salidas.html
-CLOSED: [2022-10-17 Mon 15:23]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-17 Mon 15:23]
-:END:
-**** DONE impresos.html
-CLOSED: [2022-10-17 Mon 10:16]
-:LOGBOOK:
-- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:16]
-:END:
-**** DONE pdfsistema.html
-CLOSED: [2022-10-17 Mon 10:13]
-:LOGBOOK:
-- State "DONE"       from  "TODO"            [2022-10-17 Mon 10:13]
-:END:
-**** DONE planos.html
-CLOSED: [2022-10-17 Mon 10:07]
-:LOGBOOK:
-- State "DONE"       from "TODO"       [2022-10-17 Mon 10:07]
-:END:
-**** DONE clientes.html
-CLOSED: [2022-10-18 Tue 13:52]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-18 Tue 13:52]
-:END:
-**** DONE barrios.html
-CLOSED: [2022-10-17 Mon 20:16]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-17 Mon 20:16]
-:END:
-**** DONE zonas.html
-CLOSED: [2022-10-18 Tue 10:51]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-18 Tue 10:51]
-:END:
-**** DONE calles.html
-CLOSED: [2022-10-18 Tue 11:13]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-18 Tue 11:13]
-:END:
-**** DONE cancelados.html
-CLOSED: [2022-10-18 Tue 13:25]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-18 Tue 13:25]
-:END:
-**** DONE listado.html
-CLOSED: [2022-10-18 Tue 14:37]
-:LOGBOOK:
-- State "DONE"       from "TODO"        [2022-10-18 Tue 14:37]
-:END:
-**** DONE ventas.html
-CLOSED: [2022-10-20 Thu 17:04]
-:LOGBOOK:
-- State "DONE"       from "PENDING"    [2022-10-20 Thu 17:04]
-- State "DONE"       from "TODO"    [2022-10-19 Wed 20:26]
-:END:
-queda pendiente el ver si podemos hacer algo con el event enter del
-autocomplete y el alpine-focus que chocan ahi.
-Y si hay una forma de marcar los campos requeridos que no se
-cumplieron.
-Lo logre con css pseudoclase :required y con html pattern
-Ahora vere de validar con la inclusion en el listado creo que es
-necesario por el tipo de autoComplete.
-**** DONE signup.html
-CLOSED: [2022-10-27 Thu 16:44]
 * agenda de actividad
 ** semana [2022-11-13 Sun]
+*** [2022-11-14 Mon]
+:LOGBOOK:
+CLOCK: [2022-11-14 Mon 13:42]--[2022-11-14 Mon 15:00] =>  1:18
+arreglo bug de emergencia de wapp y veo arreglos de fichaje
+CLOCK: [2022-11-14 Mon 11:38]--[2022-11-14 Mon 13:02] =>  1:24
+refactorizacion de Clientes- visual mas que todo
+CLOCK: [2022-11-14 Mon 10:00]--[2022-11-14 Mon 10:32] =>  0:32
+buscar agrego botones programados
+CLOCK: [2022-11-14 Mon 09:27]--[2022-11-14 Mon 10:00] =>  0:33
+emacs: instalo lambda-line: fallido no sirve es como nano-line
+:END:
 *** [2022-11-13 Sun]
 :LOGBOOK:
 CLOCK: [2022-11-13 Sun 19:45]--[2022-11-13 Sun 20:28] =>  0:43
