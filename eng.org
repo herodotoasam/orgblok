@@ -1,4 +1,6 @@
-| indeed      | en efecto   | in effect, in fact       | adv  |
-| transient   | transitorio | transitory, temporary    | adj  |
-| albeit      | aunque      | although, though,even if | conj |
-| nonetheless | sin embargo |                          |      |
+| indeed      | en efecto         | in effect, in fact       | adv  |
+| transient   | transitorio       | transitory, temporary    | adj  |
+| albeit      | aunque            | although, though,even if | conj |
+| nonetheless | sin embargo       |                          |      |
+| bespoke     | hecho a la medida |                          |      |
+|             |                   |                          |      |

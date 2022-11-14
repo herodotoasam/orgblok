@@ -995,6 +995,8 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-13 Sun]
 *** [2022-11-14 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-14 Mon 16:06]--[2022-11-14 Mon 16:30] =>  0:24
+emacs: winner mode- reviso init.el
 CLOCK: [2022-11-14 Mon 13:42]--[2022-11-14 Mon 15:00] =>  1:18
 arreglo bug de emergencia de wapp y veo arreglos de fichaje
 CLOCK: [2022-11-14 Mon 11:38]--[2022-11-14 Mon 13:02] =>  1:24
@@ -2183,11 +2185,14 @@ agregar mas mensajes programables y poner un dropdown
    :END:
 * agenda pendientes
 **** DONE llevar bici fede
+
 CLOSED: [2022-10-21 Fri 19:04] DEADLINE: <2022-10-21 Fri>
 :LOGBOOK:
 - State "DONE"       from "TODO"    [2022-10-21 Fri 19:04]
 - New deadline from "[2022-10-16 Sun]" on [2022-10-19 Wed 09:40]
 :END:
+**** matafuegos kangoo
+SCHEDULED: <2022-11-15 Tue>
 **** DONE llevar kangoo mecanico
 CLOSED: [2022-10-20 Thu 17:40] DEADLINE: <2022-10-20 Thu>
 :LOGBOOK:
@@ -2204,8 +2209,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-14 Mon>
+SCHEDULED: <2022-11-21 Mon>
 :LOGBOOK:
+- Rescheduled from "[2022-11-14 Mon]" on [2022-11-14 Mon 19:41]
 - Rescheduled from "[2022-11-10 Thu]" on [2022-11-10 Thu 12:48]
 - Rescheduled from "[2022-11-08 Tue]" on [2022-11-03 Thu 09:07]
 - Rescheduled from "[2022-11-01 Tue]" on [2022-11-02 Wed 09:03]
@@ -2272,7 +2278,9 @@ SCHEDULED: <2023-01-12 Thu .+1m>
 CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
 **** DONE depositar romina
 CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
-
+**** hp central 9hs/10hs Dra.Cortez/Dra.Flores
+SCHEDULED: <2022-12-26 Mon>
+Neurologia/Psiquiatria
 
 * changelog
 ** pass
