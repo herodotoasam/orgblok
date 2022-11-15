@@ -5990,6 +5990,10 @@ recopilar palabras en algun lado y pienso que el sitio mas adecuado es este.
 hoy lei un reddit muy interesante que decia que para avanzar en emacs
 hace falta si o si estudiar elisp, e ir mas alla y estudiar lisp, pero
 eso es otra etapa.
+**** [2022-11-15 Tue]
+hoy programe un monton en una forma tan seamlessly que da gusto. Es
+realmente emacs una herramienta integral que a medida que la vas
+aprendiendo mas te metes adentro.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

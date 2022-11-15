@@ -1,0 +1,85 @@
+#+title:      emacs roadmap in reddit
+#+date:       [2022-11-14 Mon 21:27]
+#+filetags:   :emacs:
+#+identifier: 20221114T212710
+
+Hi fellow Emacs comrade.  I have been where you are and I understand
+ your pursuit.  I wouldn’t portray myself as an expert but I’ve been
+ using emacs in my daily personal and professional life for years
+ now. So here’s what’s helped me get over that block and still helping
+ me too this day: ## Dip your feet in Keep doing what you’re doing,
+ read the symbols help, read the info manual, read the shortdocs,
+ explore the apropos, look around the available built-ins.  Don’t
+ necessarily do this aimlessly but tie it to what you need on the
+ moment.  ## Get water to your knees Anytime you find something is
+ bothering you or could be more efficient in your Emacs usage: Tweak
+ your config with custom keybinds, keymaps, keyboard macros or
+ functions, use hooks, advise existing functions, etc.  ## Submerge
+ your lower half Regularly attempt to yak shave your Emacs.  Try
+ packages that can help you accomplish your tasks of course, but also
+ try to understand what they do and gauge what you really need.
+ Sometimes you might find you don’t really need that package or only a
+ limited amount of its features.  Drop it, challenge yourself and use
+ your own functions -> make your own minor mode -> make your own major
+ mode -> make your own package.  ## Wet your nips Learn the
+ intricacies of Lisp.  Not only Emacs Lisp but expand your mind with
+ the big L family. Try some Common Lisp, Scheme (Guile, Racket,
+ whatever really), Clojure, etc...  It is neverending and it will
+ directly impact your programming skills.  Start reading deeper into
+ those Elisp sources and how the built-in libraries are used to shape
+ advanced features.  Stalk advanced users and package developers.
+ Legally.  Explore their repos, follow their social, read their
+ websites/blogs if they have any.  Find bugs or features you’d like in
+ packages and try to contribute.  *Embrace those parens.* I’m
+ progressively taking the time to do this more in the recent years.
+ ## Get your shoulders in Follow emacs’ development.  Read the
+ newsgroups. Absorb the constructive drama (the less constructive one
+ as well if you need entertainment) and technical debates.  Stalk
+ Emacs core devs.  Again. Legally.  Maybe even start learning some C
+ and get a better view of Emacs’ core.  I learned programming and C
+ using Emacs so that did help make it easier for my part.  ## Head in
+ and drown Master C and Elisp and contribute to core \o/.  I’m not
+ there yet but hey, one of these days.
+
+ Hola compañero camarada de Emacs.  He estado donde tú estás y
+ entiendo tu búsqueda.  No me presentaría como un experto, pero he
+ estado usando emacs en mi vida personal y profesional diaria durante
+ años. Así que esto es lo que me ayudó a superar ese bloqueo y todavía
+ me ayuda hoy: ## Sumerge tus pies en Siga haciendo lo que está
+ haciendo, lea la ayuda de los símbolos, lea el manual de información,
+ lea los documentos abreviados, explore los a propósito, busque las
+ funciones integradas disponibles.  No hagas esto necesariamente sin
+ rumbo fijo, pero átalo a lo que necesitas en el momento.  ## Llévate
+ agua a las rodillas Cada vez que encuentre que algo le molesta o
+ podría ser más eficiente en su uso de Emacs: Modifique su
+ configuración con combinaciones de teclas personalizadas, mapas de
+ teclas, macros o funciones de teclado, use ganchos, aconseje
+ funciones existentes, etc.  ## Sumerge tu mitad inferior Intente
+ regularmente afeitado de yak su Emacs.  Pruebe los paquetes que
+ pueden ayudarlo a realizar sus tareas, por supuesto, pero también
+ intente comprender lo que hacen y calcule lo que realmente necesita.
+ A veces, es posible que descubra que realmente no necesita ese
+ paquete o solo una cantidad limitada de sus funciones.  Déjalo,
+ desafíate a ti mismo y usa tus propias funciones -> crea tu propio
+ modo menor -> crea tu propio modo principal -> crea tu propio
+ paquete.  ## Moja tus pellizcos Aprende las complejidades de Lisp.
+ No solo Emacs Lisp, sino que amplíe su mente con la gran familia
+ L. Prueba con Common Lisp, Scheme (Guile, Racket, lo que sea
+ realmente), Clojure, etc...  Es interminable y tendrá un impacto
+ directo en tus habilidades de programación.  Comience a profundizar
+ en esas fuentes de Elisp y cómo se utilizan las bibliotecas
+ integradas para dar forma a funciones avanzadas.  Acechar a los
+ usuarios avanzados y desarrolladores de paquetes.  Legalmente.
+ Explore sus repositorios, siga sus redes sociales, lea sus sitios
+ web/blogs si tienen alguno.  Encuentre errores o características que
+ le gustarían en los paquetes e intente contribuir.  *Abraza a esos
+ padres.* Progresivamente me estoy tomando el tiempo para hacer esto
+ más en los últimos años.  ## Mete los hombros Siga el desarrollo de
+ emacs.  Lee los grupos de noticias. Absorbe el drama constructivo (el
+ menos constructivo también si necesitas entretenimiento) y los
+ debates técnicos.  Stalk Emacs desarrolladores principales.  Otra
+ vez. Legalmente.  Tal vez incluso comience a aprender algo de C y
+ obtenga una mejor vista del núcleo de Emacs.  Aprendí programación y
+ C usando Emacs, así que eso ayudó a que fuera más fácil para mi
+ parte.  ## Métete y ahógate Domine C y Elisp y contribuya al núcleo
+ \o/.  Todavía no llego, pero bueno, uno de estos días.

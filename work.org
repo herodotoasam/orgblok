@@ -240,6 +240,11 @@ buffer con commando. Y no tiene delay. el resto es chachara.
 joya, no siento el delay que sentia antes, y eso que programe un
 monton, pero tengamos en cuenta que no programe en python todavia,
 donde mas se puede sentir el delay.
+[2022-11-14 Mon]tuve que volver a eglot pq lsp-bridge no me funcionaba
+mas. O sea las completiones las hacia con dabbrev. Paso a eglot y
+funciona a pleno. Aparte me carga en 0.76seg y estaba en casi 0.93seg.
+Aparte instale corfu-prescient y vertico-prescient que permite ciertas
+formas de busqueda muy diferentes.
 ** TODO leidos a experimentar [2/8]
 1. [X] lsp-bridge
 2. [X] undo-fu undo-fu-session
@@ -272,7 +277,7 @@ CLOSED: [2022-10-30 Sun 00:01]
 si andan pero no los muestra. Resuelto. En todos los major modes anda
 bien y no anda en org-mode pq especificamente esta excluido en la
 configuracion no se porque. Por las dudas lo dejo asi.
-** PENDING temas a consultar o investigar de emacs                                     :investigar:
+** PENDING temas a consultar o investigar de emacs :investigar:
 + [X] ver si podemos hacer un clocking diferenciado de emacs y trabajo y
   de alguna forma llevar la cuenta de lo que gastamos en emacs.
   No no es posible. Lo que podria hacerse es hacer otro archivo y
@@ -298,6 +303,7 @@ configuracion no se porque. Por las dudas lo dejo asi.
   que tenemos ahora. nada que ver, y encima la maquina arranca a
   0.86s. y tiene Hyper teclado.
 + aprender a usar macros.
++ instalar visor de matrix y mastodont
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -877,6 +883,8 @@ Ahora vere de validar con la inclusion en el listado creo que es
 necesario por el tipo de autoComplete.
 ***** DONE signup.html
 CLOSED: [2022-10-27 Thu 16:44]
+*** DONE [#A] explorar y pasarse a bulma menu-bar
+CLOSED: [2022-11-15 Tue 19:40]
 ** TODO ver de incorporar los botones a submenu
    y/o de cambiar el menu directamente a bulma menu
 ** TODO whatsapp de imagenes
@@ -990,11 +998,34 @@ cuadro de barras a dos barras por mes con ingresos y egresos pq en la
 pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
-** TODO [#A] explorar y pasarse a bulma menu-bar
 * agenda de actividad
 ** semana [2022-11-13 Sun]
+*** [2022-11-15 Tue]
+:LOGBOOK:
+CLOCK: [2022-11-15 Tue 19:40]--[2022-11-15 Tue 20:08] =>  0:28
+al final anduvo!!! md4rd!!
+CLOCK: [2022-11-15 Tue 18:00]--[2022-11-15 Tue 19:39] =>  1:39
+terminado el fascinante nav
+CLOCK: [2022-11-15 Tue 16:25]--[2022-11-15 Tue 18:00] =>  1:35
+emacs elfeed- reinstalado md4rd, pero no refresh todavia.
+CLOCK: [2022-11-15 Tue 15:30]--[2022-11-15 Tue 15:44] =>  0:14
+emacs luchando con md4reddit
+CLOCK: [2022-11-15 Tue 13:51]--[2022-11-15 Tue 15:30] =>  1:39
+muy entretenido haciendo el nuevo nav
+CLOCK: [2022-11-15 Tue 12:18]--[2022-11-15 Tue 13:16] =>  0:58
+CLOCK: [2022-11-15 Tue 08:53]--[2022-11-15 Tue 10:44] =>  1:51
+nuevo bulma nav
+CLOCK: [2022-11-15 Tue 08:18]--[2022-11-15 Tue 08:37] =>  0:19
+emacs: descubriendo imenu- H-6 s-i-
+:END:
 *** [2022-11-14 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-14 Mon 21:00]--[2022-11-14 Mon 21:45] =>  0:45
+emacs: md4rd reddit en emacs.!!
+CLOCK: [2022-11-14 Mon 20:10]--[2022-11-14 Mon 21:00] =>  0:50
+emacs: paso a eglot pq no andaba mas lsp-bridge-
+CLOCK: [2022-11-14 Mon 19:40]--[2022-11-14 Mon 20:08] =>  0:28
+arreglando git mirror: unicamente se sigue en bitbucket
 CLOCK: [2022-11-14 Mon 16:06]--[2022-11-14 Mon 16:30] =>  0:24
 emacs: winner mode- reviso init.el
 CLOCK: [2022-11-14 Mon 13:42]--[2022-11-14 Mon 15:00] =>  1:18
@@ -2264,16 +2295,23 @@ CLOSED: [2022-11-05 Sat 12:57] SCHEDULED: <2022-11-05 Sat>
 - Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
 :END:
 **** git-mirror
-SCHEDULED: <2022-11-14 Mon .+1w>
+SCHEDULED: <2022-11-22 Tue .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-07 Mon 09:46]
+:LAST_REPEAT: [2022-11-15 Tue 15:50]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-15 Tue 15:50]
 - State "DONE"       from ""           [2022-11-07 Mon 09:46]
 - State "DONE"       from ""           [2022-10-30 Sun 10:02]
 :END:
 **** actualizar tabla inflacion
-SCHEDULED: <2023-01-12 Thu .+1m>
+SCHEDULED: <2022-12-14 Wed .+1m>
+:PROPERTIES:
+:LAST_REPEAT: [2022-11-14 Mon 20:10]
+:END:
+:LOGBOOK:
+- State "DONE"       from ""           [2022-11-14 Mon 20:10]
+:END:
 **** DONE parabrisas kangoo
 CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
 **** DONE depositar romina
@@ -2302,7 +2340,7 @@ sistema de terminal.
 Los ef-themes al principio me gustaban pero despues me dejaron de
 gustar por como distorsionan los tamanos en org-mode. Y los colores se
 va de mambo. Ahora estoy usando el modus-theme.
-** acceso a ssh
+** tramp
 genialisimo. Unido a bookmarks que es una brillante herramienta, tengo
 el acceso instantaneo a archivos y directorios del host. Sin tener que
 poner la clave.
@@ -2311,6 +2349,8 @@ no le veo la utilidad. Uso mejor dired. me gusta mas.
 lo dejo pq no usa segundos de arranque.
 ** vertico-ordeless-corfu-cape-embark etc.
 la completion es optima con ese tandem, todo genial.
+[2022-11-14 Mon] instale corfu-prescient y vertico-prescient
+mientras se esta buscando en ambos Ms es habilitado con opciones.
 ** mirror git
 [2022-10-16 Sun]
 abri cuentas en bitbucker e hice mirror en gitlab y alli.
@@ -2700,6 +2740,8 @@ Repaso general del vainilla-emacs cheat sheet.
 + C--C-d para borrar hacia atras.
 + en realidad el cambio de direccion funciona para todo.
 + S-M-x te da un set reducido de comandos para el major mode que estas
+** font input - lambda themes
+[2022-11-12 Sat]
 ** keyfreq
 [2022-11-12 Sat]
 te muestra un resumen de todos los comandos que ejecutas.
@@ -2711,3 +2753,10 @@ ser usadas para el flujo normal de emacs.
 Cu-Cx-=
 te muestra la posision del cursor y ademas con el argumento universal
 toda la informacion de la face (font usada principalmente lo que nos interesa.)
+** reddit en emacs: md4rd
+muy bueno, lo unico que tengo que ver como conseguir el token de
+refresh que no lo tengo.
+** imenu
+[2022-11-15 Tue]
+muy util para py/css/js/el/ no tanto para web y regular para org.
+pero para py p.e. es mejor que buscar incluso que el meow-visit.

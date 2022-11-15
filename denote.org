@@ -2,6 +2,7 @@
 [[denote:20221107T135012][Ctrlf]]
 [[denote:20221111T161249][usando regexp en emacs]]
 [[denote:20221113T111245][bug en jump-to-register]]
+[[denote:20221114T212710][roadmap de emacs segun un experto en Reddit]]
 * javascript
 [[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]
 [[denote:20221112T155515][global flag en regexp en javascript]]

@@ -243,21 +243,22 @@ sU89LJfIEL4M/ZSqd3pTq80sdWTlktaCiYHWIMpLbH33orYJchTLORU4ljigTGLm
 *** smt2 :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQGMAwgb/w8r8tnHAQv6Ag4IUqrLuZ9C48dolY8qr4Zfz2C9cMpHSEpVeV0ufvan
-Bd+6nDD+UQbbI8EGn/W5D6A6bj38YH+QpRuOLdXkNn/Ci3K83v5H4qkpd9CuIv8g
-A64UpAlJCpVpUVcUfOGMuQ0rZhHD7roFe3ijYASqGppxsG2sFQzbL6/CKmw/Cfto
-jQ8Mdtz4kb9qGNNWErSgfNzXRcOpOoxt4Ml8+FWgVBvemnf3vfHAglY/kGT3IVfa
-LZtWRVVIMvnEHnZeVnQGj3/H9s/pMX107bbm7O+sW1h1HU+VH/4JJn6e2GJW3njt
-ZBQmm8R5/Agc1nqisHME4zH7Nq8uUp9koS/CO+RWHPTxtJaPRad//hbYtN6HFLHc
-+tUTfCK9P0qa7GnrK1DEIZgggkVxOTF8pKm72sv9enF7KEJfmeRHoQhSf7IOZr5j
-iQ7uzGUcinBr+azoCQV1m7bTcm9ZCIhcl5FpSNFLjYUjzM9mA351jKQNXGY5b87Z
-EZ7moXF4hjAELNHF/ueM1MA7AQkCEJPpusz2u4k4bOdt4q6MniAkW+GnnZpIZi5y
-YCA5RXHaGkr2WPrbSDHDL/E6evtDttgbkT4zu/K9Ma6lA1o4RtpPaCCjCuOD+z+3
-llpCIozYeJQuTqNPjCZPga+c9F+VxRzKVV87Vo3sIaNpuFXtHqqet7yJKuyLNunV
-P2F75sQgJZ5hs3Y7/101u7drXnLTM4FbOPHLGJZr7ad01AElQLw6TcK8LHTDRKe6
-dlVbtRP3T+TW5u/xvbjKvtfZfSgF1ftEhK5i258uJWWklVcHWdlQ0kbAO2jEAV7b
-XevUp6oAEiPbYfMoDaOCDMb2CvlTh6QnTdRgY9o=
-=U3Zk
+hQGMAwgb/w8r8tnHAQv+PwfNlK3T3FogVWPx7r+SMYTfwDhrfqY3umg39K3blgrr
+QgcRQ9EtbATS/KxpXFsi7j5QrKkjtySf/zeBJNP7RKoULXigaWtuJMycFp9GRDSk
+IeGeQjVHEKk0q7SaxiYaECN34lhhxaXF3bVO5ip5yk9gLW42SZTOHAwMw0Ur0DDq
+ZA5hQSqUndQPtgk7bWOlDqdwKAr+lK1AG5trlpr8UlWylEnoyMgLAN7yxwvyQOku
+luxl2DP7ltKjmpUTlMVjbA9f3tlcQCO26q9Tbr0WKjsr1rmmSXh3jtN7dxLbHs0L
+CWy78Ht5vbfr2AhfIXbaIORgTaqaY9u2TjjiAtE1riV4aExsXfprShvGcti/Qv9K
+ZLUErTq2C0ITAbCCHvOlO0od5eo80VOl85KsHekfdws8+Frx+6odb+e4QgADaZVg
+PbgF0e5oqyWSTDywMjtJ1o3BHIqKKfLWZLTZM6IFrZ0cLkFwa9ZpHkyP+5/No3//
+rGbLeeZWI3+BnxR95mv51MBvAQkCEEiJDMhcNQnn0982qQcZxIl6GVy20c1Gwcpz
+1pJ4OV2xlYFoPoYZhU42SHcI8G3u/HRz/vCnESXsxQsNMDU0td0kzd872cPKznxh
+2/05xK4iKwvLM3MpNgWrl9gRNHrN/CCWsNNoedAGihHEQKB0bD7epnn45jARCNCd
+8he0fLr58XTaw37N24b025+eabAe3tFvn5RZEiA7Rlj2aZZsO1Z6H3PcbUvAV/CI
+azNFnOQvhVCB5SpxDTEzZy7WoODV1T0POGilc+woKsMhrxYs4GQcUmwygE3aMncV
+ACl5JoQ5si7jzDoLwRAE31voCzpInsRtOePK/eZ7XPlQs3+RoOo84u0q4uykgylj
+fNGzfDOPr2cygvN3MfEnpUblbNp13NgnC0r+QWUTlwjB
+=DkKq
 -----END PGP MESSAGE-----
 ** registro de sintomas
 *** [2021-08-19 Thu] migraña
@@ -462,7 +463,7 @@ XevUp6oAEiPbYfMoDaOCDMb2CvlTh6QnTdRgY9o=
    ciertos dolorcillos y molestias y vi que en realidad no ha
    disminuido la inflamacion del epididimo.
 *** [2021-12-19 Sun] ruido en los oidos en especial el derecho
-   ruido como si fuera de papel adentro
+ruido como si fuera de papel adentro
 * medicacion
 ** DONE ibuprofeno
 CLOSED: [2022-10-11 Tue 08:01]
@@ -1617,6 +1618,12 @@ los 50. Estoy tomando dos migrales por dia como costumbre. Es como un
 vicio como un habito. Como algo que ocurre asi porque si en forma
 displicente sin ninguna disciplina.
 Debo estudiar que voy a hacer.
+*** [2022-11-15 Tue]
+hoy tome 2 migrales, y 20mg de corty 10 a la mañana y 10 a la tarde,
+me la pase todo el dia en el living comodamente con el aire, y solo
+sali un ratito afuera.
+Y me dolio toda la tarde, despues de acostarme y levantarme a los
+cinco minutos no me acuerdo porque, me dolio hasta ahora.
 ** migrañas
 *** Diario de migrañas fuertes
 **** [2016-10-09 dom]
