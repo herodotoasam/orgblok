@@ -1000,6 +1000,10 @@ cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
 ** semana [2022-11-13 Sun]
+*** [2022-11-16 Wed]
+:LOGBOOK:
+CLOCK: [2022-11-16 Wed 07:09]--[2022-11-16 Wed 07:19] =>  0:10
+:END:
 *** [2022-11-15 Tue]
 :LOGBOOK:
 CLOCK: [2022-11-15 Tue 19:40]--[2022-11-15 Tue 20:08] =>  0:28
@@ -1016,8 +1020,7 @@ CLOCK: [2022-11-15 Tue 12:18]--[2022-11-15 Tue 13:16] =>  0:58
 CLOCK: [2022-11-15 Tue 08:53]--[2022-11-15 Tue 10:44] =>  1:51
 nuevo bulma nav
 CLOCK: [2022-11-15 Tue 08:18]--[2022-11-15 Tue 08:37] =>  0:19
-emacs: descubriendo imenu- H-6 s-i-
-:END:
+emacs: descubriendo imenu- H-6 s-
 *** [2022-11-14 Mon]
 :LOGBOOK:
 CLOCK: [2022-11-14 Mon 21:00]--[2022-11-14 Mon 21:45] =>  0:45
