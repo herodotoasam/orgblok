@@ -1,0 +1,4 @@
+machine "168.197.50.133#5649" login root port ssh password VSdTLLqc43ts
+machine "179.43.127.47#5088" login root port ssh password V6zT7JvGBYfc
+machine "stmp.google.com" login hfj024@gmail.com  port 587 password qxywehmybgamvgbj
+machine "stmp.disroot.org" login heroasam@disroot.org port 587 password maCIkDZ3XM63DciyFhD1C0imP2ZY315o1fgGRU0YNNNYB1QPl26zu5uKDfh9SVa6

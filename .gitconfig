@@ -1,0 +1,7 @@
+[user]
+	email = hfj024@gmail.com
+	name = heroasam
+[init]
+	defaultBranch = main
+[core]
+	editor = emacsclient

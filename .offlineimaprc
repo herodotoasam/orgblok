@@ -1,0 +1,92 @@
+[general]
+accounts = gmailaccount
+
+[Account gmailaccount]
+localrepository = localgmail
+remoterepository = remotegmail
+
+[Account gmailaccount1]
+localrepository = localgmail1
+remoterepository = remotegmail1
+
+[Account gmailaccount2]
+localrepository = localgmail2
+remoterepository = remotegmail2
+
+[Account gmailaccount3]
+localrepository = localgmail3
+remoterepository = remotegmail3
+
+[Account disroot]
+localrepository = disroot
+remoterepository = remotedisroot
+
+
+[Repository localgmail]
+type = GmailMaildir
+localfolders = /home/hero/mail/hfj024@gmail.com
+
+[Repository localgmail1]
+type = GmailMaildir
+localfolders = /home/hero/mail/hfj050@gmail.com
+
+[Repository localgmail2]
+type = GmailMaildir
+localfolders = /home/hero/mail/hfj027@gmail.com
+
+[Repository localgmail3]
+type = GmailMaildir
+localfolders = /home/hero/mail/romitexcba@gmail.com
+
+[Repository disroot]
+type = Maildir
+localfolders = /home/hero/mail/heroasam@disroot.org
+
+[Repository remotegmail]
+type = Gmail
+maxconnections=1
+remotehost = imap.gmail.com
+remoteuser = hfj024@gmail.com
+remotepass = kizvrxifkzvajtdt
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+[Repository remotegmail1]
+type = Gmail
+maxconnections=1
+remotehost = imap.gmail.com
+remoteuser = hfj050@gmail.com
+remotepass = rudekaxaznlgfkoz
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+[Repository remotegmail2]
+type = Gmail
+maxconnections=1
+remotehost = imap.gmail.com
+remoteuser = hfj027@gmail.com
+remotepass = nrdoxbshuuwmfkmu
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+
+[Repository remotegmail3]
+type = Gmail
+maxconnections=1
+remotehost = imap.gmail.com
+remoteuser = romitexcba@gmail.com
+remotepass = tkcayocjcxwivchh
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
+
+[Repository remotedisroot]
+type = IMAP
+maxconnections=1
+remotehost = disroot.org
+remoteport = 993
+remoteuser = heroasam@disroot.org
+remotepass = maCIkDZ3XM63DciyFhD1C0imP2ZY315o1fgGRU0YNNNYB1QPl26zu5uKDfh9SVa6
+ssl = yes
+sslcacertfile = /etc/ssl/certs/ca-certificates.crt
