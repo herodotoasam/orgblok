@@ -245,6 +245,14 @@ mas. O sea las completiones las hacia con dabbrev. Paso a eglot y
 funciona a pleno. Aparte me carga en 0.76seg y estaba en casi 0.93seg.
 Aparte instale corfu-prescient y vertico-prescient que permite ciertas
 formas de busqueda muy diferentes.
+[2022-11-16 Wed]saque vertico-prescient pq no aportaba nada nuevo a lo
+que ya tenia con vertico y me sacaba el historial, lo que se notaba
+especialmente en Mx.
+Pruebo todo en eglot y no andaba py, pero luego anduvo bien, no se que
+onda.
+Pero sigo diciendo que eglot es ligero como una pluma y muy bueno en
+py/js/css.
+
 ** TODO leidos a experimentar [2/8]
 1. [X] lsp-bridge
 2. [X] undo-fu undo-fu-session
@@ -314,10 +322,13 @@ configuracion no se porque. Por las dudas lo dejo asi.
 + roxterm
   recien la pruebo hoy [2022-11-02 Wed] es un gnome-terminal liviano
   que se configura igual y es rapida y eficiente hasta ahora.
-** BUG bugs emacs
+** FIXED bugs emacs
+CLOSED: [2022-11-16 Wed 18:00]
 *** [2022-11-13 Sun] mezcla de themes al arrancar
 ocurre con cualquier set de themes que pongamos y se corrige haciendo
 un cambio con F6.
+[2022-11-16 Wed] solucionado. No me acuerdo que era, pero era una
+configuracion que los afectaba.
 
 * actividades varias
 + [ ] actualizar clock-emacs.org
@@ -885,7 +896,16 @@ necesario por el tipo de autoComplete.
 CLOSED: [2022-10-27 Thu 16:44]
 *** DONE [#A] explorar y pasarse a bulma menu-bar
 CLOSED: [2022-11-15 Tue 19:40]
-** TODO ver de incorporar los botones a submenu
+*** DONE cambio de look y limpieza en general.
+CLOSED: [2022-11-16 Wed 17:57]
+el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
+las paginas y centralizarlos, cambiar las notificaciones a swall
+wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
+botones, etc. muchas otras cosas que podre ir agregando.
+No obstante el cambio de look queda pendiente hasta aprender tailwind
+en una segunda etapa. Por ahora haremos un bulma puro.
+*** DONE ver de incorporar los botones a submenu
+CLOSED: [2022-11-16 Wed 17:58]
    y/o de cambiar el menu directamente a bulma menu
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
@@ -936,13 +956,6 @@ id-idlistavisitar-idcliente-yultcpra-compro
    tipo, tipo 1 venta, tipo 2 cobro.
    Por el momento lo dejamos en suspenso.
 
-** TODO cambio de look y limpieza en general.
-el cambio abarca no solo pasar de vue a alpinejs y sacar los styles de
-las paginas y centralizarlos, cambiar las notificaciones a swall
-wrappeada, modificar los borrados hacerlos mas seguros, cambiar los
-botones, etc. muchas otras cosas que podre ir agregando.
-No obstante el cambio de look queda pendiente hasta aprender tailwind
-en una segunda etapa. Por ahora haremos un bulma puro.
 ** TODO mas usos del concepto inflacion
 en el cuadro estadisticas actualizando los montos pasados de venta
 para que la comparacion intra-year sea mas correcta.
@@ -1002,7 +1015,22 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-13 Sun]
 *** [2022-11-16 Wed]
 :LOGBOOK:
-CLOCK: [2022-11-16 Wed 07:09]--[2022-11-16 Wed 07:19] =>  0:10
+CLOCK: [2022-11-16 Wed 18:07]--[2022-11-16 Wed 19:07] =>  1:00
+elisp: repaso
+CLOCK: [2022-11-16 Wed 17:05]--[2022-11-16 Wed 17:56] =>  0:51
+upgrade fedora 36 a 37
+CLOCK: [2022-11-16 Wed 15:40]--[2022-11-16 Wed 17:04] =>  1:24
+emacs: eww-hydras
+CLOCK: [2022-11-16 Wed 15:10]--[2022-11-16 Wed 15:38] =>  0:28
+investigando como upgrade a fedora 37 desde fedora 36
+CLOCK: [2022-11-16 Wed 13:00]--[2022-11-16 Wed 13:36] =>  0:36
+atajos y nuevo intento para send mail.
+CLOCK: [2022-11-16 Wed 11:30]--[2022-11-16 Wed 13:00] =>  1:30
+modifico y pulo contador.
+CLOCK: [2022-11-16 Wed 08:15]--[2022-11-16 Wed 10:25] =>  2:10
+termine de arreglar los themes magistralmente.
+CLOCK: [2022-11-16 Wed 07:09]--[2022-11-16 Wed 08:15] =>  1:06
+fedora: intento de actualizar a fedora 37-i3 pero desisti.
 :END:
 *** [2022-11-15 Tue]
 :LOGBOOK:
@@ -2225,8 +2253,8 @@ CLOSED: [2022-10-21 Fri 19:04] DEADLINE: <2022-10-21 Fri>
 - State "DONE"       from "TODO"    [2022-10-21 Fri 19:04]
 - New deadline from "[2022-10-16 Sun]" on [2022-10-19 Wed 09:40]
 :END:
-**** matafuegos kangoo
-SCHEDULED: <2022-11-15 Tue>
+**** DONE matafuegos kangoo
+CLOSED: [2022-11-16 Wed 11:47] SCHEDULED: <2022-11-15 Tue>
 **** DONE llevar kangoo mecanico
 CLOSED: [2022-10-20 Thu 17:40] DEADLINE: <2022-10-20 Thu>
 :LOGBOOK:
@@ -2280,11 +2308,12 @@ SCHEDULED: <2022-12-13 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-16 Wed .+3d>
+SCHEDULED: <2022-11-19 Sat .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-13 Sun 11:35]
+:LAST_REPEAT: [2022-11-16 Wed 11:51]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-16 Wed 11:51]
 - State "DONE"       from ""           [2022-11-13 Sun 11:35]
 - State "DONE"       from ""           [2022-11-08 Tue 10:59]
 - State "DONE"       from ""           [2022-11-05 Sat 13:43]

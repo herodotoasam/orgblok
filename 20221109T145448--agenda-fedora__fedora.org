@@ -14,3 +14,16 @@
    Han sido muchisimos los cambios que he hecho y no estan todos
    documentados por lo que no es tan divertido cambiar de instalacion
    ahora.
+
+** [2022-11-16 Wed] desisto de instalar 37-i3
+   baje el live y prepare todo el sistema para la reinstalacion pensando
+   que iba a tener un sistema i3-nativo que fuese super-eficiente como
+   era bunsen para openbox, y no es pobrecito y al salir lo mismo
+   comparte interface como el que tengo yo, asi que prefiero quedarme
+   donde estoy. Primero pq tengo muchas cosas armadas y segundo pq tengo
+   gnome detras para algunas tareas de vez en cuando.
+
+** [2022-11-16 Wed]upgrade a fedora 37 desde fedora 36
+   me decidi a hacerlo desde dentro, previo haber hecho el backup de los
+   mail y los fonts por las dudas, pero me saco el problema de la
+   actualizacion de encima sin tener que reinstalar.

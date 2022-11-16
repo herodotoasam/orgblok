@@ -227,6 +227,26 @@ de que estaba hablando... NO jaja. de la memoria a corto plazo. A
 veces estoy trabajando por media hora en un archivo y lo cierro y voy
 a hacer el resumen, ya sea en git o en work y no me acuerdo en que
 estaba trabajando.
+**** ardor :crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMAwgb/w8r8tnHAQwApVXUddy9StV9jS9V42pK3qOdf+KqTcYn19/PA3RXvfQM
+NtadebSi2McwP/kbO9ZhBftDH/S1MG5QTy0W5uPKbdTBalKAtqlks+2obSOX3uGF
+TZeGQxgtwTF1GcGh+jgjU40nZ9fohRcfhpifBLnOQPKHyz+d6k/Y7h2KZ0MjrQg6
+8L+XN2ar58ORopfwGv/FQdgobSDfvpZ0xq/GqKd4AfjOBl49XCHCFNuBPY/8zO1T
+PK/eaWbd08PtWcGzC8dLs+Kdf0pi7y2JgG/Y/2AjMupzwXz6fhnKqPZc0fpSnwtZ
+uD/EjjXhuxcNzhKstgTY8TUXpsvq49LfJj2sl9Hipzp/GMmNnBk1qvbJqN/92siT
+79v7quHV6WBUXUzqCggnbTKzTZ5WpZifaSeEu6lIaDVvjC5IvrU45/2zSw5DF+EX
+QzsWV6nxuWDb5RcA/PxZBKQMq4a97I33Gk6J/tKiSOb0D4UaqxBcEXiQ6OO1saXp
+LJj8/ygjqoL6oAclKugv1MA3AQkCEKorAtnVGBc9sWvJD8BmlL3AIv+YQV6Rt6ba
+MYOedps8oey/qxB9ZdS3GGtGsrkWEk0S4Bjj4yDINGuuk466RiRRw0Mb08vdLUWU
+I/UgWQf9Llai2Ua/KIuiy0LXSiYHrJ4p+CvuJbrM3VfyTPU++/iQZSXvXD4CLCc4
+aRZZQ5eyoi9vZlHXtIk+4rRWNVePdNev9D9hBoDiKoH5A1ae8utla6uA47DdF4Ll
+l30Ll8Cq/tcEZAAePrcuZkou1BoCFkbakyFiLdD71RM9DwPzfugGAmx+D2HH473O
+XzIg90lN2y9JyStv0iarl+25eyyx6FanBw==
+=KZle
+-----END PGP MESSAGE-----
+
 *** smt :crypt:
 
 -----BEGIN PGP MESSAGE-----

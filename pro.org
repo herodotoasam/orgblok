@@ -5994,6 +5994,25 @@ eso es otra etapa.
 hoy programe un monton en una forma tan seamlessly que da gusto. Es
 realmente emacs una herramienta integral que a medida que la vas
 aprendiendo mas te metes adentro.
+**** [2022-11-16 Wed]
+anoche pensaba que ya no me queda nada que hacer relevante en el
+sistema por ahora y me iba a tomar una pausa.
+Y me iba a poner a estudiar elisp-emacs a fondo para sacarlo en un mes
+mes y medio. (Mientras tanto solo hare mantenimiento.)
+
+Tambien pense en un registro de denotes tipo archivo de algunas cosas
+que veo en reddit o en los bloggs que despues se me pierden. ¿No
+tendria que ponerlas en otro directorio?. Digo para que orgmode no se
+llene tanto.
+
+Hoy lei un articulo de eww, donde decia lo bueno que era tener el nav
+de texto dentro de emacs, y es verdad, para buscar texto no hay
+necesidad de irse a otro lado. Y la verdad que es mucho mas rapido
+tenerlo a mano.
+
+Hoy es un dia que no salio tan mal. Upgradie sin problemas fedora, y
+programe bastante, lo unico que me levante muy temprano y por eso el
+dia me parece tan largo.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

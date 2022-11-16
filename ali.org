@@ -9581,3 +9581,14 @@ dmxbj80DUWjdy6WWHU6OzFGpQqeH5gDdwlfdsWpCAaSbacu542Msd0DidTwpoZtN
 /teX
 =fxqO
 -----END PGP MESSAGE-----
+** [2022-11-16 Wed]
+hoy comi pizza fria de ayer de roquefort de burgershop y me cayo
+remal.
+Hoy me levante a las 6.30, todo bien pq queria instalar el fedora
+37-i3 y luego desisti, pq es un viaje todo lo que tengo que hacer para
+nada, o sea nada de lo que hago se vera mejor en fedora 37. Y fedora
+36 sera mantenido hasta que salga fedora 38. O sea no worry.
+Lo mismo estoy investigando como hacer el proceso.
+Pero voy a hacer un backup de la carpeta mail y de la carpeta
+fonts. Que son las mas trabajadas, pero no se esperaria problema
+haciendo el upgrade.
