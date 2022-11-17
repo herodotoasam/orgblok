@@ -6013,6 +6013,30 @@ tenerlo a mano.
 Hoy es un dia que no salio tan mal. Upgradie sin problemas fedora, y
 programe bastante, lo unico que me levante muy temprano y por eso el
 dia me parece tan largo.
+**** [2022-11-17 Thu]
+   'Escribir se  ha convertido  en parte de  mi identidad.  paso horas
+   delante de Emacs cada día escribiendo  lo que hago y organizando mi
+   día.  Por extensión,  tener un  blog me  permite extender  más esta
+   identidad: soy más yo  porque hago un blog.' leido en  un blog y me
+   parecio parecido  a lo  que yo  siento dia a  dia pasando  horas en
+   frente de emacs.
+   Es interesante lo que se va aprendiendo dia a dia con la lectura y
+   practica del propio emacs, unos cuantos atajos por dia, o el
+   entendimiento mayor de un sistema o un paquete nuevo.
+   Creo que por alli pasara lo que debo hacer los proximos dos meses,
+   para tener una herramienta que pase a otro nivel completamente
+   diferente, de lo que tenemos ahora, o tuvimos siempre.
+   Soy mas yo pq escribo en mis orgs.
+
+   Es un tema recurrente en Reddit y en todas las redes el si emacs es
+   preferible sobre vscode o sobre vim, y cuando no usar emacs.
+   Pienso que cada cual adapta el uso que le va a dar a la herramienta
+   depende su propio trabajo lo cual es unico e individual depende sus
+   circunstancias. El tema es si a uno le cierra, y le conviene, si
+   desarrollando lo que uno hace en emacs es mas productivo o no. Y en
+   mi caso el web-mode es totalmente funcional y superior a
+   vscode. Unido al org-mode todo dentro de un mismo editor, junto con
+   un monton de cosas mas.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

@@ -133,20 +133,24 @@ CLOSED: [2022-10-09 Sun 14:42]
 :LOGBOOK:
 - State "DONE"       from              [2022-10-09 Sun 14:42]
 :END:
-** PENDING resolver el tema xmodmap
-p.e. el tema de la enie
-pruebo con gnome xorg que parece ser lo mismo y tengo el xmodmap por
-ahora a mano y luego veo de desactivar el input-remaper y automatizar
-el xmodmap.
-Al [2022-10-20 Thu] despues de varios dias del cambio a xorg sigo con
-remaper sin enie. No recuerdo a la manana hacer la rutina de
-desactivar el remaper y activar solo el xmodmap, tendria que
-investigar como hacerlo automatico en fedora. Pongo pending.
-[2022-10-30 Sun]me pase a i3 y andamos fantastico. Eso me permitio
-poner el teclado en latam, y activar el xmodmap al inicio, como
-siempre lo hice, pero a veces me falla no se porque. Desactive ya el
-remapper.
-Dejo pendiente hasta solucionar el tema de que a veces no arranca el xmodmap.
+** FIXED resolver el tema xmodmap
+CLOSED: [2022-11-17 Thu 18:09]
+   p.e. el tema de la enie
+   pruebo con gnome xorg que parece ser lo mismo y tengo el xmodmap por
+   ahora a mano y luego veo de desactivar el input-remaper y automatizar
+   el xmodmap.
+   Al [2022-10-20 Thu] despues de varios dias del cambio a xorg sigo con
+   remaper sin enie. No recuerdo a la manana hacer la rutina de
+   desactivar el remaper y activar solo el xmodmap, tendria que
+   investigar como hacerlo automatico en fedora. Pongo pending.
+   [2022-10-30 Sun]me pase a i3 y andamos fantastico. Eso me permitio
+   poner el teclado en latam, y activar el xmodmap al inicio, como
+   siempre lo hice, pero a veces me falla no se porque. Desactive ya el
+   remapper.
+   Dejo pendiente hasta solucionar el tema de que a veces no arranca el
+   xmodmap.
+   [2022-11-17 Thu]hace ya bastantes dias que arranca
+   correctamente. Pongo fixed, si causa problemas lo reabro.
 ** DONE arreglar hledger
 closed: [2022-10-15 Sat 22:15]
 :LOGBOOK:
@@ -252,6 +256,10 @@ Pruebo todo en eglot y no andaba py, pero luego anduvo bien, no se que
 onda.
 Pero sigo diciendo que eglot es ligero como una pluma y muy bueno en
 py/js/css.
+[2022-11-17 Thu]actualizo por el cambio de fedora37 la instalacion del
+server eglot para python: pip install "python-lsp-server[all]" y todo
+anda genial. El venv funciona bien a expensas de 0.24s llevandome a
+0.90s con 113 packages. Lo cual no esta mal para tener todo asi.
 
 ** TODO leidos a experimentar [2/8]
 1. [X] lsp-bridge
@@ -286,12 +294,11 @@ si andan pero no los muestra. Resuelto. En todos los major modes anda
 bien y no anda en org-mode pq especificamente esta excluido en la
 configuracion no se porque. Por las dudas lo dejo asi.
 ** PENDING temas a consultar o investigar de emacs :investigar:
-+ [X] ver si podemos hacer un clocking diferenciado de emacs y trabajo y
-  de alguna forma llevar la cuenta de lo que gastamos en emacs.
-  No no es posible. Lo que podria hacerse es hacer otro archivo y
-  copiar todos los clocks. Queda pendiente agregarles outline con
-  fechas pero hay se puede ver que llevo mas de cien horas invertidas
-  en emacs.
++ [X] VER si podemos hacer un clocking diferenciado de emacs y trabajo y
+  de alguna forma llevar la cuenta de lo que gastamos en emacs.  No no
+  es posible.  Lo que podria  hacerse es  hacer otro archivo  y copiar
+  todos los clocks. Queda pendiente agregarles outline con fechas pero
+  hay se puede ver que llevo mas de cien horas invertidas en emacs.
 + tiempo de inicio de emacs reducido 40ms con :defer t en aquellos
   paquetes que demoran el arranque. [2022-11-09 Wed] hice grandes
   cambios en el init. puse un early-init, y pase de 1.32 a 1.89, pero
@@ -906,7 +913,9 @@ No obstante el cambio de look queda pendiente hasta aprender tailwind
 en una segunda etapa. Por ahora haremos un bulma puro.
 *** DONE ver de incorporar los botones a submenu
 CLOSED: [2022-11-16 Wed 17:58]
-   y/o de cambiar el menu directamente a bulma menu
+y/o de cambiar el menu directamente a bulma menu
+*** DONE hacer un nuevo log de login-themes
+CLOSED: [2022-11-17 Thu 16:16]
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO concepto de analisis automatico efectividad de promocion
@@ -1013,6 +1022,23 @@ cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
 ** semana [2022-11-13 Sun]
+*** [2022-11-17 Thu]
+:LOGBOOK:
+CLOCK: [2022-11-17 Thu 17:20]--[2022-11-17 Thu 17:49] =>  0:29
+emacs instale mastodon pero no parece gran cosa.
+CLOCK: [2022-11-17 Thu 16:20]--[2022-11-17 Thu 17:20] =>  1:00
+emacs arreglando offlineimap
+CLOCK: [2022-11-17 Thu 15:02]--[2022-11-17 Thu 16:16] =>  1:14
+log de themes.
+CLOCK: [2022-11-17 Thu 13:05]--[2022-11-17 Thu 13:24] =>  0:19
+emacs: explorando denote en otros directorios. Notes p.e.
+CLOCK: [2022-11-17 Thu 10:55]--[2022-11-17 Thu 11:49] =>  0:54
+elisp: repaso
+CLOCK: [2022-11-17 Thu 09:25]--[2022-11-17 Thu 10:36] =>  1:11
+bug de emergencia recibos y edicion de asientos integral
+CLOCK: [2022-11-17 Thu 09:05]--[2022-11-17 Thu 09:24] =>  0:19
+emacs atajos
+:END:
 *** [2022-11-16 Wed]
 :LOGBOOK:
 CLOCK: [2022-11-16 Wed 18:07]--[2022-11-16 Wed 19:07] =>  1:00
@@ -2792,3 +2818,21 @@ refresh que no lo tengo.
 [2022-11-15 Tue]
 muy util para py/css/js/el/ no tanto para web y regular para org.
 pero para py p.e. es mejor que buscar incluso que el meow-visit.
+** marks
+[2022-11-17 Thu]
++ Cx-h mark whole buffer
++ M-h mark paragraph
++ H-r mark-word
++ C-o pop-mark (local)
++ C-x C-<SPC> pop-global-mark
++ C-x C-x exchange-point-and-mark
+** mastodon
+[2022-11-17 Thu]
+Mx-mastodon
+luego u para actualizar.
+** consult-swicht-buffer
+[2022-11-17 Thu]
+poniendo b f m y <SPC>
+busca solo en buffer, files, bookmarks sin tener que ir a C-arrow para
+hacer lo mismo.
+y solo con <SPC> busca buffers ocultos: "hidden-buffers".

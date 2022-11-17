@@ -27,3 +27,9 @@
    me decidi a hacerlo desde dentro, previo haber hecho el backup de los
    mail y los fonts por las dudas, pero me saco el problema de la
    actualizacion de encima sin tener que reinstalar.
+   Problemas encontrados:
+   + venv: no funciono. Lo corregi de una borrando y creando de nuevo
+     el venv.
+   + python 3.11 rompe el chequeo de multithreading de offlineimap
+     [[https://github.com/OfflineIMAP/offlineimap3/pull/137][github donde encontraron la solucion]]
+     mientras suben el cambio yo lo pase a mano en el archivo y funciona.

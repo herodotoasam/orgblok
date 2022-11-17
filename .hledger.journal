@@ -13147,3 +13147,12 @@ D $1000.00
 2022-11-15 saco reserva
     assets:caja   $ 150000
     assets:reserva   $ -150000
+
+2022-11-16 municipal casa y bora
+    expenses:impuestos:bora   $ 799
+    expenses:impuestos:casa:municipal   $ 692
+    income:retiro-sociedad   $ -1491           ;# pagado con debito santander
+
+2022-11-17 carla
+    expenses:casa:limpieza   $ 2500
+    assets:caja   $ -2500
