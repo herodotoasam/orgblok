@@ -6037,6 +6037,11 @@ dia me parece tan largo.
    mi caso el web-mode es totalmente funcional y superior a
    vscode. Unido al org-mode todo dentro de un mismo editor, junto con
    un monton de cosas mas.
+**** [2022-11-18 Fri]
+   Estoy leyendo el manual de emacs a todo vapor  y es realmente
+   bastante comprensible y estoy sacando muchos datos solo de lo que
+   recuerdo al pasar y reanoto en changelog.
+
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

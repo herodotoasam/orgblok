@@ -1,0 +1,74 @@
+#+title:      bug plan pagos
+#+date:       [2022-11-18 Fri 09:33]
+#+filetags:   :bug:
+#+identifier: 20221118T093338
+
+[2022-11-17 16:40:17,519] ERROR in app: Exception on /buscador/generarplandepagos/44043 [POST]
+Traceback (most recent call last):
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.venv/lib/python3.7/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/app/buscador.py", line 456, in buscar_generarplandepagos
+    ins = f"insert into ventas(fecha,cc,ic,p,primera,pp,idvdor,idcliente) values('{d['fecha']}',{d['cc']},{d['ic']},{d['p']},'{d['primera']}',1,10,{idcliente})"
+KeyError: 'primera'
+
+Revisando la operacion veo que se paso todo bien, o sea la operacion
+existe y figura bien pasada.
+Todo en la tabla log esta bien: id 79179-79181
+
+Reproduciendo el bug, aparentemente se paso el plan de pagos sin fecha
+de primer cuota.
+
+Se corrigio en varias partes:
++ se agrego validacion al plan de pagos
+  #+begin_src js
+         validarPlanPagos(){
+             if(this.validarListVar([this.Venta.primera,this.Venta.fecha,this.Venta.cc,this.Venta.ic,this.Venta.p])){
+                 this.guardarPlanPagos()
+             }else{
+                 msgError('Complete los datos faltantes')
+           }
+         },
+         validarListVar(list){
+             for(item of list){
+                 if(typeof item === "undefined") return false;
+                 if(item=='') return false;
+             }
+             return true;
+         },
+#+end_src
+Creandose una funcion validarListVar que toma una lista de variables y
+verifica que no sean nulas ni tampoco sean indefinidas.
++ se cambio todo en buscador.py usando try/except
+  #+begin_src python
+    try:
+        cur.execute(upd)
+        cur.execute(ins)
+    except mysql.connector.Error as _error:
+        logging.warning(ins)
+        logging.warning(upd)
+        con.rollback()
+        error = _error.msg
+        logging.warning(error)
+        return make_response(error,400)
+    else:
+        con.commit()
+        log(upd)
+        log(ins)
+        con.close()
+        return 'ok'
+#+end_src
+Poniendo todo el proceso del hacer el plan de pagos en un mismo
+try/except puedo hacer rollback en caso de error sin problemas y no
+generar un plan de pagos a medias como se hacia antes.
+Y genero logging.warning para los sql y el error, lo cual no he podido
+probar en vterm pero espero que funcione en log1.
+
+[bug cerrado]

@@ -1,4 +1,5 @@
 * emacs
+[[denote:20221118T145236][changelog]]
 [[denote:20221107T135012][Ctrlf]]
 [[denote:20221111T161249][usando regexp en emacs]]
 [[denote:20221113T111245][bug en jump-to-register]]
@@ -16,6 +17,7 @@
 [[denote:20221104T125230][tree en tables]]
 * bugs sistema
 [[denote:20221110T201656][bug pmovto Invalid Date en impresion de fichas]]
+[[denote:20221118T093338][bug plan de pagos]]
 * agendas S.O.
 [[denote:20221109T145149][agenda Mint]]
 [[denote:20221109T145356][agenda MX-19]]

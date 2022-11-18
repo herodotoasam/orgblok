@@ -1277,3 +1277,24 @@
 | [2022-11-15 Tue] |  2 | 20mg |
 | [2022-11-16 Wed] |  2 |      |
 | [2022-11-17 Thu] |  2 | 10mg |
+| [2022-11-18 Fri] |  1 | ***  |
+* cortiterapia 2022 2ºedicion
+** antecedentes
+Vengo con toma muy alta de migral desde hace tres meses casi.
+Setiembre con 43, Octubre con 51 y Noviembre va camino a 60 con dos
+por dia sin excepcion mas algunos cy.
+Anoche con el episodio de indigestion [[file:medical.org::*indigestion][[ver]​]], tome un migral a las 2am que no
+me cambio nada y tome 20mg a la hora y esta mañana tome ya los
+primeros 20mg.
+** registro de toma
+um: [2022-11-18 Fri] 2am (3am 20mg)
+| [2022-11-18 Fri] | 8am | 20mg |   |   |
+|                  |     |      |   |   |
+** journal
+*** [2022-11-18 Fri]
+transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
+bien no eran muy grandes, llevarla a ih al medico y llevarla a la cami
+a la terminal. Ya la lleve a ih, y todo ok, me falta esta noche
+llevarla a la Cami a la terminal. Me vienen ganitas pero tengo que
+aguantar hasta al menos las 7 de la tarde.
+Me dormi una siesta todo bien.
