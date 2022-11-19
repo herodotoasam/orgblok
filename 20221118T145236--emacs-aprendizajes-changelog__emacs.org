@@ -508,3 +508,29 @@ afecta a todo el buffer.
 Comandos parecidos en org:
 | Cx-n-s | org-narrow-to-subtree |
 es interesante pq no necesita crear la region.
+** expand-region
+[2022-11-19 Sat] 120 packages loaded in 0.939177 seconds
+al principio no creia mucho en ese paquete, pero usandolo un poco
+pienso que tiene potencial.
+| C-=  | expande la region por unidades |
+| C-+  | contrae la region por unidades |
+| Cc r | accede a un menu               |
+El menu es un poco inusable y redundante. Pero esta ahi.
+El bindaje natural es comodo y una vez se aprende esta bien. Esta
+bueno para lenguajes de programacion donde queremos unidades
+sintacticas.
+En cambio en org es muy util el M-h para todo el paragraph, y tambien
+el H-r para el word y el H-l para la linea ambos con el H--.
+
+Nota: puse :defer 0.1 a pyenv y cia que me estaban costando un monton
+de milisegundos y tambien :defer t a mastodon y elmet que no son
+relevantes y baje bastante:
+120 packages loaded in 0.783033 seconds
+** free-keys describe-keymap
+[2022-11-19 Sat] 121 packages loaded in 0.792399 seconds
+free-keys es un paquete que te muestra los atajos libres en el
+major-mode donde lo invocas.
+y embark-bindings-in-keymaps o describe-keymaps te lleva a ver todos
+los bind que tenes por major-modes
+Este ultimo es mejor pq es mas completo y tiene links que te llevan a
+la help ida y vuelta.

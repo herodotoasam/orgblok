@@ -1288,8 +1288,9 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| [2022-11-18 Fri] | 8am | 20mg |   |   |
-|                  |     |      |   |   |
+| 1 | [2022-11-18 Fri] | 8am | 20mg | 8pm | 20mg | 10mg | ibu |
+| 2 | [2022-11-19 Sat] | 8am | 30mg |     |      |      |     |
+|   |                  |     |      |     |      |      |     |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1297,4 +1298,13 @@ bien no eran muy grandes, llevarla a ih al medico y llevarla a la cami
 a la terminal. Ya la lleve a ih, y todo ok, me falta esta noche
 llevarla a la Cami a la terminal. Me vienen ganitas pero tengo que
 aguantar hasta al menos las 7 de la tarde.
-Me dormi una siesta todo bien.
+Me dormi una siesta todo bien. Me puse en emacs y me entretuve hasta
+las 20hs.
+*** [2022-11-19 Sat]
+anoche estuve molesto y tuve un incipiente dolor que no me dejaba
+dormir y me despertaba a menudo. Pense que iba a hacer y tome un
+refuerzo de 10mg a las 2am y a las 3am tenia mas dolor y un dolor
+masivo en la carretilla me molestaba el aparato. Decidi probar con un
+ibu y sacarme el aparato. Fue positivo y dormi bien. A las 8am tome
+una dosis mayor de 30mg y me dormi hasta las 10am y tengo un cierto
+dolorcillo pero por el momento puede estar normal.

@@ -338,9 +338,6 @@ un cambio con F6.
 [2022-11-16 Wed] solucionado. No me acuerdo que era, pero era una
 configuracion que los afectaba.
 
-* actividades varias
-+ [ ] actualizar clock-emacs.org
-+ [ ] actualizar migra.org
 * agenda programacion
 ** DONEs
 *** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -1035,9 +1032,19 @@ cuenta que puede ser perseguido por impositiva.
 + [ ] atajo desde seven altas a la cuenta del cliente
 * agenda de actividad
 ** semana [2022-11-13 Sun]
+*** [2022-11-19 Sat]
+:LOGBOOK:
+CLOCK: [2022-11-19 Sat 10:41]--[2022-11-19 Sat 12:34] =>  1:53
+emacs: prueba con otros init.el y un hero-emacs-elisp.el
+CLOCK: [2022-11-19 Sat 10:15]--[2022-11-19 Sat 10:40] =>  0:25
+log inicial del dia
+:END:
 *** [2022-11-18 Fri]
 :LOGBOOK:
-CLOCK: [2022-11-18 Fri 18:31]--[2022-11-18 Fri 18:42] =>  0:11
+CLOCK: [2022-11-18 Fri 18:55]--[2022-11-18 Fri 19:39] =>  0:44
+emacs: paso todo a emacs-clock
+CLOCK: [2022-11-18 Fri 18:31]--[2022-11-18 Fri 18:55] =>  0:24
+emacs: narrow-mode atajos
 CLOCK: [2022-11-18 Fri 14:51]--[2022-11-18 Fri 15:50] =>  0:59
 emacs: instale pulsar y algunos atajos.
 CLOCK: [2022-11-18 Fri 11:30]--[2022-11-18 Fri 12:04] =>  0:34
@@ -1137,7 +1144,7 @@ CLOCK: [2022-11-13 Sun 11:10]--[2022-11-13 Sun 11:35] =>  0:25
 emacs: hice denote del bug. e indexe todos los denotes.
 CLOCK: [2022-11-13 Sun 10:45]--[2022-11-13 Sun 11:09] =>  0:24
 emacs: corrigiendo bug de register-alist
-clock: [2022-11-13 Sun 09:55]--[2022-11-13 Sun 10:45] =>  0:50
+CLOCK: [2022-11-13 Sun 09:55]--[2022-11-13 Sun 10:45] =>  0:50
 emacs: tuneado y atajos-
 :END:
 ** semana [2022-11-06 Sun]

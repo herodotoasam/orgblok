@@ -634,6 +634,7 @@ maquina del tiempo.
 para actualizar los paquetes
 luego straight-check-all para rebuild the packages que han cambiado.
 * M-= cuenta las lineas, palabras y caracteres de una region
+con Cu- lo del buffer
 * C-h-m muestra el modo major y menor del buffer
 * en cambiar buffer (* o Cx-b) ves tambien los Bookmarks
 Ves los buffers | files | bookmarks
