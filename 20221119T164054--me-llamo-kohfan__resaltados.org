@@ -1,0 +1,70 @@
+#+title:      Me llamo kohfan
+#+date:       [2022-11-19 Sat 16:40]
+#+filetags:   :resaltados:
+#+identifier: 20221119T164054
+
+"El hacker establece en el ciberespacio un territorio de operaciones
+en el que desarrolla un conjunto de actividades que cuestionan la
+validez de conceptos que juegan un papel clave en la configuración de
+este nuevo entorno social, como los relativos a los derechos de copia
+o a los derechos de acceso a la información"
+
+"A la vez, los hackers proponían un modelo exploratorio y lúdico de
+creación de conocimiento: aprender haciendo, descubrir a través de la
+práctica"
+
+"Muchos de los hackers se convertían en expertos programadores sin
+asistir a las clases de programación de la universidad"
+
+"Frente a trabajos alienantes y sin sentido, el hacking proporciona un
+aliciente basado en la exploración lúdica, en entender el
+funcionamiento de las cosas y en mejorarlas a través de nuevos diseños
+sencillos y eficaces. Todo ello proporciona un modelo de vida más
+gratificante, basado en el desarrollo intelectual continuo"
+
+"1. Una persona que disfruta explorando los detalles internos de los
+sistemas programables y la manera de extender sus capacidades, al
+contrario que la mayoría de los usuarios, que prefieren aprender sólo
+lo mínimo necesario. 2. Alguien que programa de manera entusiasta
+(incluso obsesivamente) o que disfruta programando en lugar de
+simplemente teorizar sobre la programación"
+
+"Un experto de un programa específico, o alguien que frecuentemente lo
+utiliza en su trabajo; como en «Unix hacker»"
+
+"Alguien que disfruta enfrentándose a retos intelectuales que implican
+la superación creativa de limitaciones"
+
+"El kernel del sistema operativo GNU/Linux es el ejemplo paradigmático
+del modelo de desarrollo hacker, y una magnífica prueba de que la
+colaboración de redes de hackers es capaz de generar productos
+software con unos niveles de robustez, fiabilidad y funcionalidad muy
+superiores a los conseguidos por las grandes empresas que siguen
+modelos organizativos"
+
+"algunos de los compradores y usuarios de tarjetas piratas compran
+televisiones de alta gama de precios superiores a los 10.000
+euros. Estos usuarios de alto poder adquisitivo eligen utilizar una
+solución ilegal, mucho más frágil en términos de solidez técnica y que
+les obliga a establecer una relación con el mercado negro de piratas y
+traficantes de tarjetas, en lugar de optar por una solución legal,
+mucho más cómoda y que supondría un gasto poco menos que
+insignificante para este segmento de consumidores"
+
+"Mi ideario político es] un mundo sin fronteras y con libertad. Pero
+los intereses políticos están más corrompidos que la comunidad
+underground mas baja»"
+
+"El hacker no sólo depende del grupo para crear conocimiento. Es la
+comunidad, además, la que determina el estatus del hacker"
+
+"«Yo soy todo lo que hago. Todo forma parte de lo mismo. Kohfam es
+parte de mí, yo soy parte de Kohfam. Yo me llamo Kohfam»"
+
+"la identidad hacker permite al individuo reordenar su experiencia
+vital, compartiendo un nuevo código ético y pasando a formar parte de
+una comunidad en la que podrá definir, prácticamente desde cero, el
+papel que desee jugar en una nueva organización social basada en los
+principios de creación y distribución de conocimiento"
+
+(Me Llamo Kohfam)

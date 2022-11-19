@@ -1030,10 +1030,19 @@ cuenta que puede ser perseguido por impositiva.
   nuevo, caso ayer isabel que puso mal la cuota.
 + [ ] visor de tabla planes de pago
 + [ ] atajo desde seven altas a la cuenta del cliente
++ [ ] cuadro de revision que bancos ingresos cobradores sea igual a
+  transferencia cobradores
++ [ ] nueva tabla para poner recibos-por-transferencia el numero de
+  asiento
++ [ ] log caja con los asientos relativos a caja fecha-hora-asiento-user
+  saldos.
+
 * agenda de actividad
 ** semana [2022-11-13 Sun]
 *** [2022-11-19 Sat]
 :LOGBOOK:
+CLOCK: [2022-11-19 Sat 15:49]--[2022-11-19 Sat 16:50] =>  1:01
+denote: archivo de evernote resaltados
 CLOCK: [2022-11-19 Sat 10:41]--[2022-11-19 Sat 12:34] =>  1:53
 emacs: prueba con otros init.el y un hero-emacs-elisp.el
 CLOCK: [2022-11-19 Sat 10:15]--[2022-11-19 Sat 10:40] =>  0:25

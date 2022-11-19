@@ -1,0 +1,82 @@
+#+title:      Tubos
+#+date:       [2022-11-19 Sat 16:35]
+#+filetags:   :resaltados:
+#+identifier: 20221119T163550
+
+"cierto grado de vulnerabilidad en el hecho de ser una red de trabajo
+de Internet. Cuando dos redes se interconectan, deben confiar la una
+en la otra —lo que a su vez implica que deben confiar en todas
+aquellas redes en las que confía la otra—. Las redes de Internet son
+promiscuas"
+
+"esté inherentemente presente. Cada enrutador es un punto destacado
+único, una caja física, un lugar real en el viaje de un paquete a lo
+largo de esta tierra real"
+
+"historia de Internet está sorprendentemente muy poco documentada"
+
+"«Internet carece de una figura fundadora central, de un Thomas Edison
+o de un Samuel F. B. Morse»"
+
+"Si en algún rincón del Pentágono, algún general de alta graduación
+tuvo la siniestra idea de que el incipiente ARPANET evolucionaría
+hasta convertirse en una red de comunicaciones capaz de sobrevivir una
+guerra nuclear —mito muy extendido sobre los orígenes de Internet—,
+aquel grupo estaba al margen de ello"
+
+"Kleinrock es el padre de Internet —o, mejor dicho, uno de ellos,
+porque el éxito tiene muchos padres. En 1961, cuando era alumno de
+posgrado en el Massachusetts Institute of Technology (MIT), publicó su
+primer trabajo sobre «conmutación de paquetes», la idea de que los
+datos podían transmitirse eficazmente en pequeños pedazos, más que en
+un caudal continuo —una de las nociones fundamentales que sustentan
+Internet"
+
+"Desde el nacimiento de ARPANET en la UCLA, en 1969, hasta mediados de
+la década de 1990, la red de redes fue saliendo muy despacio de
+universidades y bases militares y entrando en empresas de informática,
+bufetes de abogados y bancos, mucho antes de abrirse paso hasta todos
+nosotros"
+
+"Fiel a sus raíces filosóficas como sistema de comunicaciones pensado
+para la era posnuclear, ARPANET resultaba asombrosamente desurbanizada
+y descentralizada. Carecía de lugares especiales, de monumentos"
+
+"ARPANET, en la década de 1970, era propiedad del gobierno
+estadunidense, y conectaba a investigadores de defensa con el
+ejército, o con los departamentos universitarios financiados por la
+ARPA. Pero, socialmente, ARPA era una ciudad pequeña. La"
+
+"La estandarización de TCP/IP que tuvo lugar durante el año nuevo de
+1983 fijó de manera permanente la estructura repartida de Internet,
+asegurando, hasta hoy, su falta de control central. Cada una de las
+redes actúa de manera independiente, o «autónoma», porque TCP/IP
+proporciona el vocabulario que permite «interactuar»"
+
+"Los ingenieros de redes más paranoicos —los «tipos del sombrero de
+papel de plata», como se les conoce, en referencia a su convicción de
+que la única manera de evitar que el gobierno les lea la mente es
+llevar un casco hecho con papel aluminio"
+
+"Cada uno de aquellos cables de fibra óptica representaba hasta diez
+gigabits de tráfico por segundo, suficientes para transmitir diez mil
+fotografías familiares por segundo. El enrutador grande contaba con
+setenta y dos de aquellos cables conectados en todo momento; y el
+edificio estaba lleno de centenares de enrutador como ése. Pasearse
+por aquellos pasillos en penumbra era como abrirse paso por un
+sotobosque de cuatrillones, una cantidad inconcebible de información.
+
+"
+
+"«la de Internet es una historia de metáforas sobre Internet, que
+giran alrededor del siguiente dilema: ¿cómo podemos hablar entre
+nosotros sobre un dios invisible?»"
+
+"el peering es el acuerdo para interconectar dos redes —aunque eso es
+como decir que la política es meramente la actividad de
+gobernar. Peering implica que las dos redes implicadas son peers, es
+decir, iguales: tienen el mismo tamaño y estatus y, por tanto,
+intercambian datos en unos términos más o menos iguales, sin que haya
+dinero de por medio. Pero determinar quién puede ser tu igual es"
+
+(Tubos)

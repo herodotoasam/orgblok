@@ -534,3 +534,15 @@ y embark-bindings-in-keymaps o describe-keymaps te lleva a ver todos
 los bind que tenes por major-modes
 Este ultimo es mejor pq es mas completo y tiene links que te llevan a
 la help ida y vuelta.
+** interactive highlighting
+[2022-11-19 Sat] 121 packages loaded in 0.796076 seconds
+comandos faciles para marcar con hightlight en el buffer
+| Ms-h r | hightlight regexp                                          |
+| Ms-h u | quitar el hightlight                                       |
+| Ms-h . | hightlight symbol at point                                 |
+| Ms-h l | hightlight regexp dentro de la line                        |
+| Ms-h p | hightlight regexp dentro del paragraph                     |
+| Ms-h w | escribe los hightlight como comentario para usarse despues |
+| Ms-h f | supuestamente se buscaria dentro de ellos...?              |
+
+En cada caso hay auto-completion con menu en el minibuffer.

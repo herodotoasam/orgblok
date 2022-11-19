@@ -1,0 +1,113 @@
+#+title:      En el principio fue la linea de comando
+#+date:       [2022-11-19 Sat 16:36]
+#+filetags:   :resaltados:
+#+identifier: 20221119T163627
+
+"lamentablemente, construir ese muro de metáforas en forma de interfaz
+gráfica entre el ordenador y el usuario (conocida como GUI) ha tenido
+un coste social y cultural muy notable, al contribuir decisivamente a
+que la tecnología que subyace al ordenador se perciba como algo
+mágico"
+
+"El teletipo enviaría entonces esa línea al ordenador, que podía
+responder o no con líneas propias, que el teletipo martillearía
+—produciendo, con el tiempo, una transcripción del intercambio
+mantenido con la máquina—. Este modo de hacerlo ni siquiera tenía
+nombre entonces, pero cuando, mucho más tarde, apareció una
+alternativa, se denominó retroactivamente la «Interfaz de Línea de
+Comandos»"
+
+"un sistema operativo consiste en una pila de metáforas y
+abstracciones que media entre los telegramas y tú, encarnando diversos
+trucos que el programador usó para convertir la información con la que
+estás trabajando —ya sean imágenes, mensajes de correo electrónico,
+películas o documentos de procesador de textos— en las cadenas de
+bytes, que son lo único con lo que funcionan los ordenadores"
+
+"una insultante chorrada audiovisual diseñada por hackers zumbados de
+San Francisco, que despojaba a los ordenadores de su potencia y
+flexibilidad y convertía el serio y noble arte de la computación en un
+pueril videojuego"
+
+"El negocio de los sistemas operativos ha sido bueno para Microsoft
+sólo en la medida en que les ha proporcionado el dinero necesario para
+lanzar un negocio de software de aplicaciones realmente bueno y
+contratar a un montón de investigadores inteligentes"
+
+"Estamos ansiosos por ser cómplices de nuestro propio engaño: por
+pagar dinero por el pase a un parque temático, votar a un tipo que
+obviamente nos está mintiendo o permanecer de pie sosteniendo la cesta
+que se llena de cosméticos.
+
+"
+
+"La Disney y Apple/Microsoft están en el mismo negocio: cortocircuitar
+la laboriosa y explícita comunicación verbal con interfaces de diseño
+caro. La Disney es una especie de interfaz de usuario en sí misma —y
+más que meramente gráfica—. Llamémosla interfaz sensorial. Puede
+aplicarse a cualquier cosa en el mundo, real o imaginada, aunque a un
+precio apabullante"
+
+"hasta el punto de no leer libros ya, aunque sabemos leer. Estamos
+mucho más cómodos transmitiéndoles esos valores a las generaciones
+futuras de forma no verbal, mediante el proceso de inmersión
+mediática"
+
+"El único problema real es que cualquiera que no tenga más cultura que
+esta monocultura global está completamente jodido. Cualquiera que
+crezca viendo la televisión, que nunca vea nada de religión o
+filosofía, se críe en una atmósfera de relativismo moral, aprenda
+ética viendo escándalos sexuales en el telediario, y vaya a una
+universidad donde los posmodernos se desviven por demoler las nociones
+tradicionales de verdad y cualidad, va a salir al mundo como un ser
+humano bastante incapaz. Y —de nuevo— tal vez el fin de todo esto es
+hacernos incapaces, de modo que no nos bombardeemos mutuamente con
+armas nucleares.
+
+"
+
+"hemos desarrollado una cultura popular que a) es increíblemente
+infecciosa y b) neutraliza a toda persona que se ve infectada,
+haciéndolos reticentes a emitir juicios e incapaces de tomar
+posiciones.
+
+"
+
+"me encuentro con tipos normales —albañiles, mecánicos, taxistas,
+gente de a pie en general— que básicamente carecían de cultura hasta
+que algo hizo necesario que se convirtieran en lectores y empezaran a
+pensar en serio acerca de las cosas. Tal vez tuvieron que vérselas con
+el alcoholismo, tal vez fueron a la cárcel, o enfermaron, o sufrieron
+una crisis de fe, o simplemente se aburrieron. Tales personas pueden
+aprender sobre temas particulares a toda"
+
+"sistema operativo (por tanto) se ha convertido en una especie de
+instrumento para ahorrarse trabajo"
+
+"comprador medio de un sistema operativo no paga realmente, y no le
+interesa especialmente, el código de bajo nivel que asigna memoria y
+escribe bytes en el disco. Lo que compramos realmente es un sistema de
+metáforas.
+
+Y —mucho más importante— a lo que nos ven"
+
+"Doug Barnes tenía razón. Apple, pese a su reputación de ser la opción
+de los hackers creativos y contestatarios, había creado de hecho una
+máquina que desalentaba el hackeo, mientras que Microsoft, considerada
+una perezosa tecnológica y una plagiaria, había creado un vasto bazar
+de componentes sin orden ni concierto"
+
+"Al tratar de comprender el fenómeno Linux, pues, tenemos que
+contemplar no a un único innovador, sino una especie de extraña
+Trinidad: Linus Torvalds, Richard Stallman y Bill Gates. Elimínese
+cualquiera de estos tres y Linux no existiría"
+
+"Yo todavía hago que el mío se inicie con esta pantalla de teletipo,
+blanco sobre negro, como un memento mori computacional. Solía estar de
+moda que los escritores tuvieran un cráneo humano sobre su escritorio
+como recordatorio de su mortalidad, de que todo era vanidad. La
+pantalla tty me recuerda que lo mismo sucede con las elegantes GUI.
+
+"
+
+(En El Principio... Fue La Línea De Comandos(c.1))

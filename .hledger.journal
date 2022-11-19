@@ -13160,3 +13160,7 @@ D $1000.00
 2022-11-19 bono Cami viaje mendoza
     expenses:cami:extras   $ 18000
     income:retiro-sociedad   $ -18000  ;# pagado con debito santander
+
+2022-11-19 ecogas
+    expenses:servicios:ecogas   $ 3632
+    income:retiro-sociedad   $ -3632   ;# pagado con debito santander
