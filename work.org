@@ -1041,6 +1041,8 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-13 Sun]
 *** [2022-11-19 Sat]
 :LOGBOOK:
+CLOCK: [2022-11-19 Sat 21:00]--[2022-11-19 Sat 21:31] =>  0:31
+emacs: aprendiendo macros
 CLOCK: [2022-11-19 Sat 19:57]--[2022-11-19 Sat 21:00] =>  1:03
 elisp: mark-whole-buffer
 CLOCK: [2022-11-19 Sat 17:25]--[2022-11-19 Sat 17:58] =>  0:33

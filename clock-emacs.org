@@ -490,6 +490,9 @@ emacs: matrix y mastodon en authinfo
 CLOCK: [2022-11-18 Fri 08:06]--[2022-11-18 Fri 09:08] =>  1:02
 emacs: atajos repaso varios
 ** [2022-11-19 Sat]
+CLOCK: [2022-11-19 Sat 21:00]--[2022-11-19 Sat 21:31] =>  0:31
+emacs: aprendiendo macros
+CLOCK: [2022-11-19 Sat 17:25]--[2022-11-19 Sat 17:58] =>  0:33
 emacs: hightlightchanges
 CLOCK: [2022-11-19 Sat 16:50]--[2022-11-19 Sat 17:25] =>  0:35
 dired zip - y creando por meow-grab masivos links a denote
@@ -497,6 +500,7 @@ CLOCK: [2022-11-19 Sat 15:49]--[2022-11-19 Sat 16:50] =>  1:01
 denote: archivo de evernote resaltados
 CLOCK: [2022-11-19 Sat 10:41]--[2022-11-19 Sat 12:34] =>  1:53
 emacs: prueba con otros init.el y un hero-emacs-elisp.el
+
 * elisp
 ** [2022-10-31 Mon]
 CLOCK: [2022-10-31 Mon 18:45]--[2022-10-31 Mon 19:14] =>  0:29

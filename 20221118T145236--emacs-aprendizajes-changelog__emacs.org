@@ -560,3 +560,9 @@ la remocion la hace por region. Y parece que el next-previous lo hace
 por bloque.
 tuve que sacar el atajo a hightlight-changes-remove-hightlight pq
 freeza emacs. Pero anda desde m-x
+** macros
+[2022-11-19 Sat] 121 packages loaded in 0.786194 seconds
+f3 para grabar, f4 para terminar.
+Mx: apply-macro-to-region-lines. Cx-k-r para hacerlo mas rapido.
+Es mas rapido y seguro que meow.
+Hay que hacer que la macro termine en el punto en el que empezo.
