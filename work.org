@@ -1041,6 +1041,12 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-13 Sun]
 *** [2022-11-19 Sat]
 :LOGBOOK:
+CLOCK: [2022-11-19 Sat 19:57]--[2022-11-19 Sat 21:00] =>  1:03
+elisp: mark-whole-buffer
+CLOCK: [2022-11-19 Sat 17:25]--[2022-11-19 Sat 17:58] =>  0:33
+emacs: hightlightchanges
+CLOCK: [2022-11-19 Sat 16:50]--[2022-11-19 Sat 17:25] =>  0:35
+dired zip - y creando por meow-grab masivos links a denote
 CLOCK: [2022-11-19 Sat 15:49]--[2022-11-19 Sat 16:50] =>  1:01
 denote: archivo de evernote resaltados
 CLOCK: [2022-11-19 Sat 10:41]--[2022-11-19 Sat 12:34] =>  1:53

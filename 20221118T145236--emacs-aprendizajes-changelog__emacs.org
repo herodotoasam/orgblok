@@ -3,7 +3,6 @@
 #+filetags:   :emacs:
 #+identifier: 20221118T145236
 
-
 ** pass
 De a poco he estado pasando todo a pass, renegando un monton con las
 interfaces de pass a firefox, pero mas o menos andan. La idea es tener
@@ -546,3 +545,18 @@ comandos faciles para marcar con hightlight en el buffer
 | Ms-h f | supuestamente se buscaria dentro de ellos...?              |
 
 En cada caso hay auto-completion con menu en el minibuffer.
+** hightlight-changes-mode
+[2022-11-19 Sat]121 packages loaded in 0.784668 seconds
+con el agregado de
+(global-highlight-changes-mode t)
+(add-hook 'write-file-functions 'highlight-changes-rotate-faces nil t)
+tengo el modo activado en todos los modos.
+Lo cambiado y/o agregado esta diferenciado.
+Estaria bueno un par de atajos pq tiene la funcion de ir next/previous
+change
+| C-<f8>   | hightlight-changes-next              |
+| M-<f8>   | hightlight-changes-previous          |
+la remocion la hace por region. Y parece que el next-previous lo hace
+por bloque.
+tuve que sacar el atajo a hightlight-changes-remove-hightlight pq
+freeza emacs. Pero anda desde m-x

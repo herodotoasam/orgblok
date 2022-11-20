@@ -13164,3 +13164,7 @@ D $1000.00
 2022-11-19 ecogas
     expenses:servicios:ecogas   $ 3632
     income:retiro-sociedad   $ -3632   ;# pagado con debito santander
+
+2022-11-19 compra en fiambreria
+    expenses:comida   $ 6000
+    income:retiro-sociedad   $ -6000  ;# pagado con debito santander
