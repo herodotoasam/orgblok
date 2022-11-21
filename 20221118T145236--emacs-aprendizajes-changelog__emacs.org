@@ -3,6 +3,7 @@
 #+filetags:   :emacs:
 #+identifier: 20221118T145236
 
+* temas
 ** pass
 De a poco he estado pasando todo a pass, renegando un monton con las
 interfaces de pass a firefox, pero mas o menos andan. La idea es tener
@@ -442,6 +443,12 @@ refresh que no lo tengo.
 [2022-11-15 Tue]
 muy util para py/css/js/el/ no tanto para web y regular para org.
 pero para py p.e. es mejor que buscar incluso que el meow-visit.
+[2022-11-20 Sun]descubri por fin como se usa imenu, por lo menos para
+org es fabuloso pq te pone en el outline correcto no importa cuan
+grande sea el archivo. Pero tienen que ser subtrees. Eso tiene que
+servir de guia para usar mas a menudo la estructura de tree.
+Lo unico que queda por ver que no sirve en un archivo html, sino casi
+que reemplazaria al visit de meow.
 ** marks
 [2022-11-17 Thu]
 + Cx-h mark whole buffer
@@ -498,8 +505,8 @@ muy interesante modo para "ver" un archivo sin tener que estar
 pendiente que tocamos algo.
 ** narrow-to-region
 [2022-11-18 Fri] 119 packages loaded in 0.923642 seconds
-| Cx-n-n | s-F9   | narrow-to-region |
-| Cx-n-w | C-s-F9 | widen            |
+| Cx-n-n | narrow-to-region |
+| Cx-n-w | widen            |
 
 narrow to region es seleccionar una parte del buffer y centrarse en
 ella. No se puede acceder a la otra parte del buffer. Pero el guardado
@@ -564,5 +571,46 @@ freeza emacs. Pero anda desde m-x
 [2022-11-19 Sat] 121 packages loaded in 0.786194 seconds
 f3 para grabar, f4 para terminar.
 Mx: apply-macro-to-region-lines. Cx-k-r para hacerlo mas rapido.
+bindeado a: C-F4
 Es mas rapido y seguro que meow.
 Hay que hacer que la macro termine en el punto en el que empezo.
+** rectangulos
+[2022-11-20 Sun]121 packages loaded in 0.798086 seconds
+util para acomodar pe una salida de ls que esta en dos columnas.
+Terminal permite un trabajo facil solo cambiando de char a line.
+| Cx-r k      | kill-rectangle                                      |
+| Cx-r y      | yank-rectangle                                      |
+| M-C-Mouse-1 | drag una region para luego aplicar kill-rectangle   |
+| push-marks  | idem poner marcas en esq. opuestas y kill-rectangle |
+
+es una funcion facil y poderosa que podemos hacer con el bindaje
+normal sin cambios.
+** dired
+[2022-11-21 Mon]122 packages loaded in 0.598315 seconds
+agregue algunos atajos y deje la posibilidad de agregar mas en el
+futuro en la medida que lo vaya aprendiendo. Algunos de los que estan
+y los que agregue son:
+| s             | search alternativamente by name or by size                          |
+| /             | dired-narrow-fuzzy permite achicar una vista con una busqueda fuzzy |
+| up            | lleva al directorio superior lo que hacia Cx-Cj                     |
+| C-r           | habilita wdired para editar los nombres insitu.                     |
+| dired-du-mode | habilita el tamaño recursivo de los dir. (slower)                   |
+|               |                                                                     |
+** occur
+[2022-11-21 Mon]121 packages loaded in 0.612408 seconds
+bindeado a dos partes Occur es muy usable en la programacion y puede
+competir con el visit de meow quizas mejor.
+| H-7   | occur |
+| C-H-4 | occur |
+dentro de occur la e lo hace editable y Cc-Cc sale de edicion. Y se
+mantiene el buffer. Pero no se renombra. Una vez lei que se podian
+renombrar los occurs para no perderlos.
+** imenu anywhere consult-org-heading
+[2022-11-21 Mon]122 packages loaded in 0.596226 seconds
+| C-H-6 | imenu-anywhere |
+| C-H-7 | consult-org-heading       |
+La diferencia entre ambos es que imenu-anywhere busca en los orgs (y
+en general en los otros major-modes tambien) abiertos en buffers. Y
+consult circunscribe solamente al buffer abierto.
+Util para ir en work al dia de hoy poniendo 11-21 p.e. o lo que sea la
+fecha de hoy.

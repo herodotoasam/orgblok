@@ -1,0 +1,74 @@
+#+title:      bug chrome firefox mobiles
+#+date:       [2022-11-20 Sun 10:47]
+#+filetags:   :bug:
+#+identifier: 20221120T104743
+
+El bug consistia en que no se podia abrir el menu en ningun browser
+android excepto opera.
+Se probo chrome, firefox, samsung.
+Se usaba para establecer el listening lo siguiente:
+#+begin_src
+-document.addEventListener('DOMContentLoaded', () => {
+-
+-  // Get all "navbar-burger" elements
+-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+-
+-  // Add a click event on each of them
+-  $navbarBurgers.forEach( el => {
+-    el.addEventListener('click', () => {
+-
+-      // Get the target from the "data-target" attribute
+-      const target = el.dataset.target;
+-      const $target = document.getElementById(target);
+-
+-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+-      el.classList.toggle('is-active');
+-      $target.classList.toggle('is-active');
+
+-    });
+-  });
+-
+-});
+
+#+end_src
+Chequie la compatibilidad de DOMContentLoaded en los navegadores
+android y todos la aceptan pero no pasaba nada.
+Cambie a trabajar con alpine-js en el propio _nav
+
+#+begin_src html <a role="button" class="navbar-burger" data-target="navMenu"
+   aria-label="menu" aria-expanded="false" id="navburger"
+   :class="isClicked?'is-active':''"
+   @click="isClicked=!isClicked;toggleActive()">
+#+end_src>
+le agrege el cambio de class con :class, y el disparador con @click
+   cambiando el valor de una variable que la agregue previamente en
+   x-data como false. Y tambien hice una funcion toggleActive que hace
+   el cambio a todos los descendientes.
+      #+begin_src js
+function toggleActive(){
+    const $navburger = document.getElementById('navburger');
+    const target = $navburger.dataset.target;
+    const $target = document.getElementById(target);
+    $target.classList.toggle('is-active')
+}
+#+end_src>
+Despues de eso todo funciona ok en los cuatro navegadores probados:
+opera, firefox, chrome, samsung.
+
+Es desconocido el motivo por el cual dichos navegadores no tomaban el
+evento como lo hacia opera.
+Probe una solucion alternativa encontrada en google que no funciono,
+aunque seguia siendo funcional en opera.
+#+begin_src js
+ if(document.readyState === 'loading') {
+     document.addEventListener('DOMContentLoaded',afterDOMLoaded);
+ } else {
+     afterDOMLoaded();
+ }
+function afterDOMLoaded(){
+     //Everything that needs to happen after the DOM has initially loaded.
+     const theme = document.getElementById('bulma');
+     theme.setAttribute('href', cdnTheme);
+     axios.get('/utilidades/logthemes/'+nameTheme+'/'+isMobileDevice)
+}
+#+end_src>

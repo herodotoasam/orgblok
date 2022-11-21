@@ -13168,3 +13168,32 @@ D $1000.00
 2022-11-19 compra en fiambreria
     expenses:comida   $ 6000
     income:retiro-sociedad   $ -6000  ;# pagado con debito santander
+
+2022-11-20 pollo
+    expenses:comida   $ 2200
+    assets:caja   $ -2200
+
+2022-11-20 estacionamiento terminal
+    expenses:transporte:estacionamiento   $ 300
+    assets:caja   $ -300
+
+2022-11-20 dif
+    expenses:diferencia-arqueo   $ 2250
+    assets:caja   $ -2250
+
+2022-11-20 mesada ih
+    expenses:isabel   $ 18000
+    assets:caja   $ -18000
+
+2022-11-20 ingresos sociedad
+    assets:reserva   $ 280000
+    assets:caja   $ 7700
+    income:retiro-sociedad   $ -287700
+
+2022-11-21 estacionamiento terminal
+    expenses:transporte:estacionamiento   $ 200
+    assets:caja   $ -200
+
+2022-11-21 compra en tadicor
+    expenses:comida   $ 14700
+    assets:caja   $ -14700

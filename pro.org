@@ -6041,6 +6041,22 @@ dia me parece tan largo.
    Estoy leyendo el manual de emacs a todo vapor  y es realmente
    bastante comprensible y estoy sacando muchos datos solo de lo que
    recuerdo al pasar y reanoto en changelog.
+**** [2022-11-20 Sun]
+   Sigo aprendiendo emacs al mango y de a poco elisp pienso que tengo
+   que llegar a un momento a estar bien equipado con ambas
+   herramientas. El aprendizaje que estoy haciendo no lo hice nunca,
+   p.e. nunca antes tuve una configuracion propia y entendida del
+   nivel del que la que tengo ahora. Ni tampoco habia aprendido temas
+   que ni sabia que existian como view-mode narrow-mode, o cosas mucho
+   mas utiles como rectangulos o macros. Y se hace mas lindo cuando se
+   conoce mas a fondo un sistema o una herramienta. Porque la usas con
+   mas fluidez y mas satisfaccion.
+**** [2022-11-21 Mon]
+   Estoy remodelando los atajos y repasando temas claves, tambien
+   reacomodando paquetes claves como dired, y ahora me pongo a
+   estudiar bien consult con el tema de las busquedas y todo el
+   aparato de searching que tiene el sistema y las regexp. Todo un
+   tema gigante.
 
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
@@ -6965,6 +6981,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 ** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:elisp:
 ** semana [2022-11-06 Sun] :emacs:elisp:
 ** semana [2022-11-13 Sun] :emacs:
+** semana [2022-11-20 Sun] :emacs:elisp:
 
 * agenda emacs
 ** [2020-07-04 Sat]

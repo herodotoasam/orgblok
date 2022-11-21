@@ -1288,9 +1288,10 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| 1 | [2022-11-18 Fri] | 8am | 20mg | 8pm    | 20mg | 10mg | ibu |
-| 2 | [2022-11-19 Sat] | 8am | 30mg | 7.30pm | 20mg |      |     |
-|   |                  |     |      |        |      |      |     |
+| 1 | [2022-11-18 Fri] | 8am | 20mg | 8pm    | 20mg | 10mg | ibu  |
+| 2 | [2022-11-19 Sat] | 8am | 30mg | 7.30pm | 20mg |      |      |
+| 3 | [2022-11-20 Sun] | 8am | 20mg | 8.20pm | 20mg |      | 3ibu |
+| 4 | [2022-11-21 Mon] | 7am | 20mg |        |      |      | 2ibu |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1311,3 +1312,17 @@ dolorcillo pero por el momento puede estar normal.
 Hoy pase todo bien, no dormi la siesta pero cerca de las 19 me empezo
 a molestar y adelante la toma. Me mantengo en actividad pero hay
 dolorcillos menores.
+*** [2022-11-20 Sun]
+anoche con mas dolores que ayer pero pude dormir. Me tome un ibu a las
+3am y otro a las 8.30am.
+El dia transcurrio bastante bien con un dolorcito de base que termino
+tomandome un 3er ibu para probar el efecto pero seria tolerable si ya
+me fuera a acostar, pero tengo que esperar al menos tomar la dosis de
+las 8pm. Entretenido con emacs se me paso la hora de la toma.
+*** [2022-11-21 Mon]
+dormi bien. Con menos dolor, casi sin molestias de mandibula, sigo
+durmiendo sin aparato. Tome un solo ibu anoche a la madrugada a las
+2am. Y adelante la toma del corty a las 7am pq me levante a esa hora
+pq pensaba que el partido era hoy. Y mi actividad empezo asi que tomo
+a esta hora. Tome otro ibu a las 7.30 pq tenia que ir a buscar a las
+chicas y todo funciono bien, quede joya y medio.

@@ -178,6 +178,8 @@ obvia de eso para mi uso personal.
 Establecer una estrategia de cambio de maquina con respecto a las claves
 1. ver de pasar un poco cada dia hasta tener todo limpio y pasado
 2. pase los git y la mayoria de los mails. y el banco.
+3. pase todo lo relevante que quedaba de firefox [2022-11-20 Sun]
+
 ** TODO python-mode [80%]
 + [X] resolver el tema python-env
   - resuelto con pipenv se activa con C-c C-p a
@@ -320,6 +322,20 @@ configuracion no se porque. Por las dudas lo dejo asi.
 + aprender a usar macros.
 + [X] instalar visor de matrix y mastodont
 + [ ] investigar como trabajar con .authinfo gpg y como es el tema.
++ [X] aprender a usar rectangulos
++ [ ] porque los bookmarks estan duplicados
+** uso de defer para achicar inicio
+[2022-11-20 Sun]114 packages loaded in 0.640411 seconds
+baje varios milisegundos sacando hero-emacs-web que era un engendro de
+hydra para eww que no servia de nada pq no mejoraba la navegacion pq
+todos los link no andan. Y los otros ya me los se.
+Lo unico que no me anda el use-package-report me sale vacio. Pienso
+que es porque uso defer 0.1 ahora.
+termino el dia con 122 packages loaded in 0.609916 seconds luego de
+sacar a tree-sitter del inicio inmediato y ponerle defer 0.1.
+[2022-11-21 Mon] 122 packages loaded in 0.592138 seconds luego de
+sacar dirvish. Pero lo saco no por rapidez sino porque no me gusta por
+sobre dired directo.
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -914,6 +930,11 @@ CLOSED: [2022-11-16 Wed 17:58]
 y/o de cambiar el menu directamente a bulma menu
 *** DONE hacer un nuevo log de login-themes
 CLOSED: [2022-11-17 Thu 16:16]
+*** DONE bug de emergencia: no anda menu en mobile
+CLOSED: [2022-11-20 Sun 11:01]
+chrome y firefox
+Solucionado  [[file:20221120T104743--bug-chrome-firefox-mobiles__bug.org][ver bug]]
+
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO concepto de analisis automatico efectividad de promocion
@@ -1036,8 +1057,47 @@ cuenta que puede ser perseguido por impositiva.
   asiento
 + [ ] log caja con los asientos relativos a caja fecha-hora-asiento-user
   saldos.
-
 * agenda de actividad
+** semana [2022-11-20 Sun]
+*** [2022-11-21 Mon]
+:LOGBOOK:
+hacer denote cap regexp
+CLOCK: [2022-11-21 Mon 13:49]--[2022-11-21 Mon 14:15] =>  0:26
+emacs: atajos varios.
+CLOCK: [2022-11-21 Mon 12:55]--[2022-11-21 Mon 13:15] =>  0:20
+emacs: atajos y valoracion de occur
+CLOCK: [2022-11-21 Mon 10:25]--[2022-11-21 Mon 10:47] =>  0:22
+emacs: repaso a consult eliminacion de atajos muertos
+CLOCK: [2022-11-21 Mon 10:05]--[2022-11-21 Mon 10:21] =>  0:16
+emacs: arregle la completion para hledger sacando corfu.
+CLOCK: [2022-11-21 Mon 08:58]--[2022-11-21 Mon 10:05] =>  1:07
+emacs: tuneando dired
+CLOCK: [2022-11-21 Mon 06:53]--[2022-11-21 Mon 07:40] =>  0:47
+emacs: arreglo atajos. Y arreglos varios. Y repaso de macro/rectangulo/regexp.
+:END:
+*** [2022-11-20 Sun]
+:LOGBOOK:
+CLOCK: [2022-11-20 Sun 20:05]--[2022-11-20 Sun 20:45] =>  0:40
+emacs: re-descubrimiento de imenu y practica con embark
+CLOCK: [2022-11-20 Sun 19:20]--[2022-11-20 Sun 20:02] =>  0:42
+mejoras al backup ahora es gizipeado y ef-themes random
+CLOCK: [2022-11-20 Sun 18:35]--[2022-11-20 Sun 19:20] =>  0:45
+pasado de password de firefox a pass
+CLOCK: [2022-11-20 Sun 18:10]--[2022-11-20 Sun 18:34] =>  0:24
+temas varios
+CLOCK: [2022-11-20 Sun 14:08]--[2022-11-20 Sun 14:25] =>  0:17
+emacs: achico tiempo corrigiendo ajustes eww.
+CLOCK: [2022-11-20 Sun 12:20]--[2022-11-20 Sun 12:46] =>  0:26
+emacs: achico el tiempo de inicio con defer
+CLOCK: [2022-11-20 Sun 11:55]--[2022-11-20 Sun 12:16] =>  0:21
+emacs: repaso de atajos
+CLOCK: [2022-11-20 Sun 11:00]--[2022-11-20 Sun 11:19] =>  0:19
+emacs: rectangles
+CLOCK: [2022-11-20 Sun 08:58]--[2022-11-20 Sun 10:59] =>  2:01
+bug no abre menu en browser android [[file:20221120T104743--bug-chrome-firefox-mobiles__bug.org][ver bug]]
+CLOCK: [2022-11-20 Sun 08:40]--[2022-11-20 Sun 08:58] =>  0:18
+emacs: varios
+:END:
 ** semana [2022-11-13 Sun]
 *** [2022-11-19 Sat]
 :LOGBOOK:
@@ -2348,8 +2408,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-21 Mon>
+SCHEDULED: <2022-11-28 Mon>
 :LOGBOOK:
+- Rescheduled from "[2022-11-21 Mon]" on [2022-11-21 Mon 10:23]
 - Rescheduled from "[2022-11-14 Mon]" on [2022-11-14 Mon 19:41]
 - Rescheduled from "[2022-11-10 Thu]" on [2022-11-10 Thu 12:48]
 - Rescheduled from "[2022-11-08 Tue]" on [2022-11-03 Thu 09:07]
@@ -2357,11 +2418,12 @@ SCHEDULED: <2022-11-21 Mon>
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
 **** TODO seven
-SCHEDULED: <2022-11-21 Mon .+1m>
+SCHEDULED: <2022-11-22 Tue .+1m>
 :PROPERTIES:
 :LAST_REPEAT: [2022-10-21 Fri 08:38]
 :END:
 :LOGBOOK:
+- Rescheduled from "[2022-11-21 Mon .+1m]" on [2022-11-21 Mon 10:23]
 - State "DONE"       from "TODO"    [2022-10-21 Fri 08:38]
 :END:
 **** pagos facturas I
@@ -2385,11 +2447,12 @@ SCHEDULED: <2022-12-13 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-19 Sat .+3d>
+SCHEDULED: <2022-11-23 Wed .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-16 Wed 11:51]
+:LAST_REPEAT: [2022-11-20 Sun 19:35]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-20 Sun 19:35]
 - State "DONE"       from ""           [2022-11-16 Wed 11:51]
 - State "DONE"       from ""           [2022-11-13 Sun 11:35]
 - State "DONE"       from ""           [2022-11-08 Tue 10:59]
