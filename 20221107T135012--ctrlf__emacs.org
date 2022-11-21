@@ -12,12 +12,12 @@ Ctrlf
 | M-s _ | isearch symbol          |
 |-------+-------------------------|
 en la busqueda
-| C-g   | cancela la busqueda y vuelve donde estabas |
-| C-s/r | sigue la busqueda                          |
-| RET   | cancela la busqueda y elige el candidato   |
-| C-l   | centra la busqueda en pantalla.            |
-| M</M> | va al comienzo/final de la lista           |
-|-------+--------------------------------------------|
+| C-g     | cancela la busqueda y vuelve donde estabas |
+| C-s/r   | sigue la busqueda                          |
+| RET     | cancela la busqueda y elige el candidato   |
+| C-l     | centra la busqueda en pantalla.            |
+| M-</M-> | va al comienzo/final de la lista           |
+|---------+--------------------------------------------|
 otros comandos opcionales dentro de la busqueda
 | M-c   | cambia case-sensitive                                  |
 | Ms-o  | abre un buffer Occur con el resultado de las busquedas |

@@ -311,7 +311,7 @@ configuracion no se porque. Por las dudas lo dejo asi.
   paquetes mas (que estan en duda, por ahora que son dirvish y
   multiple-cursor) y subi a 0.93, pero puse unos defer y baje de nuevo
   a 0.83 sin aparentes problemas.
-+ aprender regexp de emacs a usar p.e. en isearch con regexp
++ [X] aprender regexp de emacs a usar p.e. en isearch con regexp
 + ver la forma de anular meow para cierto tipo de buffers p.e. magit o nomuch
 + multiples cursores
 + marks-visuales
@@ -319,7 +319,7 @@ configuracion no se porque. Por las dudas lo dejo asi.
 + 2022-11-11 Fri] probe con ido-mode y es muy primitivo al lado de lo
   que tenemos ahora. nada que ver, y encima la maquina arranca a
   0.86s. y tiene Hyper teclado.
-+ aprender a usar macros.
++ [X] aprender a usar macros.
 + [X] instalar visor de matrix y mastodont
 + [ ] investigar como trabajar con .authinfo gpg y como es el tema.
 + [X] aprender a usar rectangulos
@@ -336,6 +336,9 @@ sacar a tree-sitter del inicio inmediato y ponerle defer 0.1.
 [2022-11-21 Mon] 122 packages loaded in 0.592138 seconds luego de
 sacar dirvish. Pero lo saco no por rapidez sino porque no me gusta por
 sobre dired directo.
+Tambien he notado hoy que comence a usar no el apagado sino el poner
+en reposo la maquina, pero cerrando emacs antes. Que arranca en 0.62
+no en 1.35 como cuando arranca de cero.
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -1057,11 +1060,22 @@ cuenta que puede ser perseguido por impositiva.
   asiento
 + [ ] log caja con los asientos relativos a caja fecha-hora-asiento-user
   saldos.
++ [ ] idear otras formas de auditoria automatica asi sean en paginas no
+  incorporadas al sistema sino en forma de logs. P.e. compras vs
+  pasado de compras. etc.
++ [ ] bug campo too long campo sex
 * agenda de actividad
 ** semana [2022-11-20 Sun]
 *** [2022-11-21 Mon]
 :LOGBOOK:
-hacer denote cap regexp
+CLOCK: [2022-11-21 Mon 19:10]--[2022-11-21 Mon 19:43] =>  0:33
+emacs: denote de help de emacs muy bueno.
+CLOCK: [2022-11-21 Mon 18:10]--[2022-11-21 Mon 19:08] =>  0:58
+emacs: atajos a teclas especiales y aprendizaje de la ayuda.
+CLOCK: [2022-11-21 Mon 17:18]--[2022-11-21 Mon 18:07] =>  0:49
+emacs: denote de regexp primera parte
+CLOCK: [2022-11-21 Mon 14:15]--[2022-11-21 Mon 14:39] =>  0:24
+veo un bug que tengo que resolver mañana
 CLOCK: [2022-11-21 Mon 13:49]--[2022-11-21 Mon 14:15] =>  0:26
 emacs: atajos varios.
 CLOCK: [2022-11-21 Mon 12:55]--[2022-11-21 Mon 13:15] =>  0:20

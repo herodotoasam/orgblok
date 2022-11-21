@@ -1,0 +1,32 @@
+#+title:      regexp en emacs
+#+date:       [2022-11-21 Mon 17:26]
+#+filetags:   :emacs:
+#+identifier: 20221121T172648
+
+Algunos comandos de busqueda que implementan regexp
+| C-M-s | isearch-forward-regexp  |
+| C-M-r | isearch-backward-regexp |
+|       |                         |
+
+** regexp
+*** caracteres especiales
+The special characters are ‘$^.*+?[\’
+] es especial dentro de un "character alternative" o sea "[a-z]" es
+especial como terminacion del "character alternative".
+- es especial dentro de un "character alternative"
+Todo otro caracter es ordinario salvo que \ lo preceda.
+
+| .       | match any single character except a newline      |
+| *       | match the preceding regexp 0 o mas veces         |
+| +       | match the preceding regexp 1 o mas veces         |
+| ?       | match the preceding regexp 0 o 1 vez             |
+| *?      | non-greedy match as litle as posible             |
+| +?      | non-greedy idem                                  |
+| ??      | non-greedy idem                                  |
+| \{n\}   | n repetition                                     |
+| \{n,m\} | n to m repetion                                  |
+| [...]   | character set [a-zA-Z0-9~.]                      |
+| [^...]  | matches any characters except the ones specified |
+| ^       | match at beginning of a line                     |
+| $       | match at end of a line                           |
+| \       | quotes caracteres especiales \$ \[    \\         |

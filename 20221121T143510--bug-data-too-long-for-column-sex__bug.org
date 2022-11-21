@@ -1,0 +1,36 @@
+#+title:      bug data too long for column sex
+#+date:       [2022-11-21 Mon 14:35]
+#+filetags:   :bug:
+#+identifier: 20221121T143510
+
+[2022-11-18 16:47:49,232] ERROR in app: Exception on /buscador/guardaredicioncliente/35642 [POST]
+Traceback (most recent call last):
+  File "/home/app/.venv/lib/python3.7/site-packages/mysql/connector/connection_cext.py", line 560, in cmd_query
+    query_attrs=self._query_attrs,
+_mysql_connector.MySQLInterfaceError: Data too long for column 'sex' at row 1
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/app/.venv/lib/python3.7/site-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/app/.venv/lib/python3.7/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/app/buscador.py", line 374, in busca_guardaredicioncliente
+    cur.execute(upd)
+  File "/home/app/.venv/lib/python3.7/site-packages/mysql/connector/cursor_cext.py", line 280, in execute
+    raw_as_string=self._raw_as_string,
+  File "/home/app/.venv/lib/python3.7/site-packages/mysql/connector/connection_cext.py", line 565, in cmd_query
+    ) from err
+mysql.connector.errors.DataError: 1406 (22001): Data too long for
+  column 'sex' at row 1
+
+  Lo que llama la atencion es que guardaredicioncliente en buscador no
+  tiene campo sex, o sea no se puede generar este error por problema
+  del usuario.

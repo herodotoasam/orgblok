@@ -1,0 +1,25 @@
+#+title:      emacs system help
+#+date:       [2022-11-21 Mon 19:15]
+#+filetags:   :emacs:
+#+identifier: 20221121T191555
+
+emacs es autodocumentado. El sistema de ayuda que tiene es enorme.
+Algunos atajos ya usados y otros descubiertos
+todos debajo del C-h
+| k                 | busca por key                                       | muy usado |
+| f                 | busca por funcion                                   | muy usado |
+| v                 | busca por variable                                  | muy usado |
+| m                 | describe mode                                       | usado     |
+| a                 | apropos                                             |           |
+| x                 | estan los 6992 comandos y te da breve documentacion |           |
+| c                 | describe key briefly (brevemente)                   |           |
+| describe-bindings | muy completo muestra todo el sistema de binding     |           |
+| d                 | busca regexp dentro de la documentacion             |           |
+| o                 | busca por funcion o variable (una union de f-v)     |           |
+| r                 | show Emacs manual                                   |           |
+| F                 | show Emacs manual por command!!                     |           |
+| K                 | show Emacs manual por key                           | confuso   |
+| R                 | show un manual especifico (formato man de linux)    |           |
+| P                 | describe a specific Emacs package                   | muy bueno |
+| e                 | show recent Messages                                | atajo     |
+|                   |                                                     |           |
