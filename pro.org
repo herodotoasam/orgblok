@@ -6057,7 +6057,10 @@ dia me parece tan largo.
    estudiar bien consult con el tema de las busquedas y todo el
    aparato de searching que tiene el sistema y las regexp. Todo un
    tema gigante.
-
+   Hice un par de denotes y remodele mucho. Luego hay que repasar para
+   reincorporar todo al flujo de trabajo normal.
+   Y mezclar un poco con elisp para no quedar atras con eso.
+**** [2022-11-22 Tue]
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

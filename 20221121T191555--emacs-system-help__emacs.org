@@ -23,3 +23,8 @@ todos debajo del C-h
 | P                 | describe a specific Emacs package                   | muy bueno |
 | e                 | show recent Messages                                | atajo     |
 |                   |                                                     |           |
+
+Los mas importantes me parece que son:
+k v f x(commands)
+F (show manual por command)
+P (buscar el manual de un package en especial)

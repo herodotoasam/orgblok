@@ -1288,10 +1288,12 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| 1 | [2022-11-18 Fri] | 8am | 20mg | 8pm    | 20mg | 10mg | ibu  |
-| 2 | [2022-11-19 Sat] | 8am | 30mg | 7.30pm | 20mg |      |      |
-| 3 | [2022-11-20 Sun] | 8am | 20mg | 8.20pm | 20mg |      | 3ibu |
-| 4 | [2022-11-21 Mon] | 7am | 20mg |        |      |      | 2ibu |
+| 1 | [2022-11-18 Fri] | 8am    | 20mg | 8pm    | 20mg | 10mg | ibu  |
+| 2 | [2022-11-19 Sat] | 8am    | 30mg | 7.30pm | 20mg |      |      |
+| 3 | [2022-11-20 Sun] | 8am    | 20mg | 8.20pm | 20mg |      | 3ibu |
+| 4 | [2022-11-21 Mon] | 7am    | 20mg | 8.00pm | 20mg |      | 3ibu |
+| 5 | [2022-11-22 Tue] | 7.30am | 20mg |        |      |      | 1ibu |
+|   |                  |        |      |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1330,3 +1332,9 @@ Me fui al tadicor con ih y todo muy bien, luego almorzamos y me quede
 en la maquina hasta las 4pm, luego una siesta hasta las 5pm que quedo
 media corta, y me levante a la maquina de nuevo luego de un cafe con
 alfajor. Hasta ahora bien.
+*** [2022-11-22 Tue]
+duermo poco y no muy bien pero no tengo sueño. Me duele moderadamente
+la cabeza y el ibu esta sentando bien, pero tomo tres por dia por
+ahora.
+Me tome un ibu a las 6.30 esta mañana. Y el corty a las 7.30. Pq ya
+estaba levantado hacia una hora y media.

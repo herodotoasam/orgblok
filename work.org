@@ -339,6 +339,12 @@ sobre dired directo.
 Tambien he notado hoy que comence a usar no el apagado sino el poner
 en reposo la maquina, pero cerrando emacs antes. Que arranca en 0.62
 no en 1.35 como cuando arranca de cero.
+** crash emacs
+*** [2022-11-22 Tue]
+hice una macro para hero-mark-line y la bindie a H-l y la llame como
+Cu-H-l y clavo el programa.
+
+
 ** terminales
 + terminator:
   mala experiencia da errores y no es linda
@@ -1047,7 +1053,7 @@ pagina "cuadro" no se alcanza a ver el ingreso de depositos de
 cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 ** TODO borrado comentarios y otros
-+ [ ] error al pasado de numero de cobrador
++ [X] error al pasado de numero de cobrador
 + [ ] error al pasado de plan de pago
   forma de borrar planes de pagos muertos e impagos??
   forma de editar un plan de pago mal pasado, o borrarlo y pasarlo de
@@ -1064,10 +1070,26 @@ cuenta que puede ser perseguido por impositiva.
   incorporadas al sistema sino en forma de logs. P.e. compras vs
   pasado de compras. etc.
 + [ ] bug campo too long campo sex
++ [ ] hacer validacion en cargar loterecibos para evitar errores por lo
+  menos en idcobr.
 * agenda de actividad
 ** semana [2022-11-20 Sun]
+*** [2022-11-22 Tue]
+:LOGBOOK:
+CLOCK: [2022-11-22 Tue 15:05]
+CLOCK: [2022-11-22 Tue 12:04]--[2022-11-22 Tue 12:18] =>  0:14
+emacs: repaso help
+CLOCK: [2022-11-22 Tue 10:01]--[2022-11-22 Tue 11:45] =>  1:44
+error en el pasado de planilla de cobrador- solucion-
+CLOCK: [2022-11-22 Tue 09:22]--[2022-11-22 Tue 10:00] =>  0:38
+emacs: hice una macro para reemplazar meow-line. Repaso atajos.
+CLOCK: [2022-11-22 Tue 06:36]--[2022-11-22 Tue 06:53] =>  0:17
+emacs: atajos nuevos voy sacando meow
+:END:
 *** [2022-11-21 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-21 Mon 19:45]--[2022-11-21 Mon 20:18] =>  0:33
+emacs: jugando con nuevos themes
 CLOCK: [2022-11-21 Mon 19:10]--[2022-11-21 Mon 19:43] =>  0:33
 emacs: denote de help de emacs muy bueno.
 CLOCK: [2022-11-21 Mon 18:10]--[2022-11-21 Mon 19:08] =>  0:58
@@ -2505,3 +2527,5 @@ CLOSED: [2022-11-10 Thu 12:47] SCHEDULED: <2022-11-10 Thu>
 **** hp central 9hs/10hs Dra.Cortez/Dra.Flores
 SCHEDULED: <2022-12-26 Mon>
 Neurologia/Psiquiatria
+**** DONE pedir cortypiren
+CLOSED: [2022-11-22 Tue 11:35] SCHEDULED: <2022-11-22 Tue>
