@@ -21,7 +21,9 @@
 ** [[denote:20221110T201656][bug pmovto Invalid Date en impresion de fichas]]
 ** [[denote:20221118T093338][bug plan de pagos]]
 ** [[denote:20221120T104743][bug no abre menu en mobiles chrome, firefox, samsung]]
-* [[denote:20221121T143510][bug data too long campo sex]]
+** [[denote:20221121T143510][bug data too long campo sex]]
+* diseño del sistema
+** [[denote:20221123T175708][Gestion de planes de pagos]]
 * agendas S.O.
 ** [[denote:20221109T145149][agenda Mint]]
 ** [[denote:20221109T145356][agenda MX-19]]

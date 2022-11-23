@@ -466,6 +466,9 @@ Lo dejo inactivo. Por el momento sigo vainilla. Por lo menos se que
 existe, lo que pasa es que interfiere en procesos que emacs tiene y
 vscode no p.e. estoy en el medio de un undo y me autosave y me
 confunde. Prefiero manejar yo solo la cuestion.
+Voy a ver de poner el auto-save con gatito pero no funciona por ahora.
+No entiendo, pero bueno lo vamos a poner en vista. Puede ser mal
+puesto el valor de la variable. No encuentro. Ya funciona bien.
 ** revert buffers
 [2022-11-23 Wed]
 El revert buffers me entero leyendo el manual anoche no afecta a los
@@ -1163,11 +1166,21 @@ cobradores que no es un ingreso real, pero si es un movimiento de
 cuenta que puede ser perseguido por impositiva.
 ** TODO borrado comentarios y otros
 + [X] error al pasado de numero de cobrador
-+ [ ] error al pasado de plan de pago
+  [2022-11-22 Tue]
++ [X] error al pasado de plan de pago
+  [2022-11-23 Wed]
   forma de borrar planes de pagos muertos e impagos??
   forma de editar un plan de pago mal pasado, o borrarlo y pasarlo de
   nuevo, caso ayer isabel que puso mal la cuota.
-+ [ ] visor de tabla planes de pago
+  Al final lo que hice fue una funcion en python que verifica si un
+  idvta es una cuenta muerta con la condicion de que es un ppago o sea
+  pp=1 y no tiene pagos asociados. Entonces la borro. Y luego genero
+  el plan de pagos. O sea que se puede generar un plan de pagos arriba
+  de uno erroneo sin problema pq el de abajo se borrara.
++ [X] visor de tabla planes de pago
+  no hay tabla de planes de pago. Cuando se genera un plan de pago se
+  marca pp=1 la venta, pcondo=1 las otras ventas y no se hacen los
+  logs no hay una tabla aparte.
 + [X] atajo desde seven altas a la cuenta del cliente
 + [ ] cuadro de revision que bancos ingresos cobradores sea igual a
   transferencia cobradores
@@ -1181,10 +1194,19 @@ cuenta que puede ser perseguido por impositiva.
 + [ ] bug campo too long campo sex
 + [ ] hacer validacion en cargar loterecibos para evitar errores por lo
   menos en idcobr.
++ [ ] visor de planes de pago: usando una consulta y diferentes vistas.
 * agenda de actividad
 ** semana [2022-11-20 Sun]
 *** [2022-11-23 Wed]
 :LOGBOOK:
+CLOCK: [2022-11-23 Wed 18:40]--[2022-11-23 Wed 19:46] =>  1:06
+emacs: remodelando init algunas mejoras
+CLOCK: [2022-11-23 Wed 17:30]--[2022-11-23 Wed 18:37] =>  1:07
+planes de pago elimina planes muertos
+CLOCK: [2022-11-23 Wed 16:55]--[2022-11-23 Wed 17:30] =>  0:35
+emacs auto-save
+CLOCK: [2022-11-23 Wed 13:00]--[2022-11-23 Wed 14:30] =>  1:30
+hice un fk y otras cosas.
 CLOCK: [2022-11-23 Wed 10:53]--[2022-11-23 Wed 12:35] =>  1:42
 tema plan de pagos
 CLOCK: [2022-11-23 Wed 09:50]--[2022-11-23 Wed 10:23] =>  0:33

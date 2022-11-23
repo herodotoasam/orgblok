@@ -1,0 +1,84 @@
+#+title:      gestion de planes de pagos
+#+date:       [2022-11-23 Wed 17:57]
+#+filetags:   :sistema:
+#+identifier: 20221123T175708
+
+Los planes de pagos se indican en la tabla ventas en el campo pp=1,
+creandose un idvta nuevo sin articulos comprados, con cc-ic-etc del
+plan de pago y poniendo pcondo=1 a todos los otros idvta del cliente
+que tengan saldo>0.
+
+La sucesiva hechura de planes de pagos sobre planes de pago resulto en
+algunos casos en que idclientes tienen mas de un idvta con pp=1.
+Respondiendo a la siguiente consulta:
+#+begin_src sql
+select count(*) as cnt, idcliente from ventas where pp=1 group by idcliente having cnt>1;
+#+end_src>
+obtenemos:
++-----+-----------+-------------+
+| cnt | idcliente | sum(pcondo) |
++-----+-----------+-------------+
+|   2 |     33087 |           1 |
+|   2 |     40235 |           1 |
+|   2 |     42309 |           1 |
+|   2 |     44533 |           1 |
+|   2 |     45012 |           1 |
+|   2 |      4081 |           1 |
+|   2 |     41290 |           1 |
+|   2 |     42362 |           1 |
+|   2 |     16044 |           1 |
+|   2 |     41965 |           1 |
+|   2 |     45546 |           1 |
+|   2 |     37144 |           1 |
+|   2 |     44906 |           1 |
+|   2 |     45598 |           1 |
+|   2 |     45906 |           1 |
+|   2 |     31892 |           1 |
+|   2 |     34365 |           1 |
+|   2 |     44675 |           1 |
+|   2 |     45107 |           1 |
+|   2 |     43212 |           1 |
+|   2 |     45301 |           1 |
+|   2 |     12444 |           1 |
+|   2 |     19979 |           1 |
+|   2 |     35038 |           1 |
+|   2 |     41482 |           1 |
+|   2 |     45725 |           1 |
+|   3 |     35209 |           2 |
+|   3 |     42434 |           2 |
+|   3 |     25922 |           2 |
+|   4 |     42595 |           3 |
++-----+-----------+-------------+
+30 rows in set (0.096 sec)
+Lo que vemos alli es que esta todo bien o sea que solo una de las
+idvta con pp=1 tiene pcondo=0.
+
+Ahora lo que hice es un sistema de borrar el plan de pago intermedio
+que no fue pagado, al que le llamo plan de pago muerto.
+
+#+begin_src python
+def buscar_buscarplandepagos_muerto(idcliente):
+    """Funcion que busca planes de pago muertos del cliente.
+
+    En el caso que tenga mas de un idvta con pp=1 por error del ultimo tiempo
+    pedimos el ultimo con max(id), en caso que exista buscamos si tiene pagos
+    asociados. Si no tiene pagos asociados se puede borrar tranquilamente y
+    devuelvo True o sea el plan de pagos esta muerto, y en otro caso ya sea que
+    no exista una idvta con pp=1 o si existe tenga pagos hechos devuelvo False
+    o sea el plan de pagos no esta muerto.
+    """
+    con = get_con()
+    # pongo max(id) pq hay casos no muchos que tienen planes superpuestos
+    idplan = pgonecolumn(con, f"select max(id) from ventas where pp=1 and idcliente={idcliente}")
+    # ahora averiguo de ese idvta hizo pagos
+    if idplan is not None:
+        pagos = pglflat(con, f"select id from pagos where idvta={idplan}")
+        if len(pagos)==0:
+            return True
+    return False
+#+end_src
+
+Lo que me faltaria es poner pp=0 a los que pongo pcondo=1, por las
+dudas se trate de un plan de pagos intermedio que no sea muerto, pq
+tenga unos pagos y por lo tanto no se borre. Para que no siga
+creciendo la lista de 30 rows que marque arriba.
