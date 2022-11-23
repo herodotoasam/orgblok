@@ -13197,3 +13197,12 @@ D $1000.00
 2022-11-21 compra en tadicor
     expenses:comida   $ 14700
     assets:caja   $ -14700
+
+2022-11-22 jardinero
+    expenses:casa:mantenimiento:jardineria   $ 2000
+    assets:caja   $ -2000
+
+2022-11-22 mesada Cami
+    expenses:cami:mesada   $ 3000
+    expenses:cami:comida   $ 12000
+    assets:caja   $ -15000

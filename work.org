@@ -262,6 +262,29 @@ py/js/css.
 server eglot para python: pip install "python-lsp-server[all]" y todo
 anda genial. El venv funciona bien a expensas de 0.24s llevandome a
 0.90s con 113 packages. Lo cual no esta mal para tener todo asi.
+[2022-11-22 Tue]voy a probar como se puede trabajar sin eglot, pq en
+el flujo basico normal de trabajo no me sirve. Yo necesito una
+completion mas rapida y me molesta el movimiento que hace en python.
+veamos:123 packages loaded in 0.612494 seconds al arrancar.
+saco eglot y en tiempo no significa nada solo 1 ms.
+py/js/html/org normales con dabbrev css/el con su capfs no se porque.
+si a Cape le pongo que use cape-symbol toma mas entradas para html
+pero te llena con los symbols de lisp, lo cual puede ser negativo.
+con cape-keyword te py agrega muy bien a todo los keyword del programa
+basico. Idem js, pero no los del DOM.
+Con esto doy por terminado el ajuste. La idea era sacar los elementos
+molestos a la hora de programar mas que todo en python que me
+mostraban errores y que no los estaba aprovechando, y cuando
+necesitaba alguna xref no la tenia. Y cuando necesito una completion
+especial no la tengo. Entonces para que quiero que me marque todos
+esos errores. Si yo estoy acostumbrado a depurar el codigo de otra
+forma. Luego lo voy a acomodar y alli prendo eglot.
+quedamos en 114 packages loaded in 0.609007 seconds.
+Viendo corfu, veo que usando M-<SPC> haces el corte de palabra sin
+salir de la completion, lo cual hace innecesario el uso de M-m para ir
+al minibuffer. Agregue icons y que el corte se haga nomas con <SPC>
+Saco hippie-expand pq no se usa.
+
 
 ** TODO leidos a experimentar [2/8]
 1. [X] lsp-bridge
@@ -339,6 +362,16 @@ sobre dired directo.
 Tambien he notado hoy que comence a usar no el apagado sino el poner
 en reposo la maquina, pero cerrando emacs antes. Que arranca en 0.62
 no en 1.35 como cuando arranca de cero.
+** emacs bug del sistema a investigar
++ [ ] consult-ripgrep y otros consult
+  estaba terminando la jornada y pruebo el ripgrep y no funciona, me
+  da la busqueda de un solo termino en un solo buffer. Luego busco
+  deadgrep y si anda, luego consult si anda. Pero despues dejo de
+  funcionar. Instalo ripgrep y no hace la diferencia. En el medio no
+  se porque la maquina me paso de 0.61 a 0.78 sin explicacion.
+  Por lo que veo funciona en todos los projects menos en el fl5.??
+  Ahora funciona bien en todos lados... Una curiosidad.
+  Pero lo mismo el salto de demora quedo.
 ** crash emacs
 *** [2022-11-22 Tue]
 hice una macro para hero-mark-line y la bindie a H-l y la llame como
@@ -1059,7 +1092,7 @@ cuenta que puede ser perseguido por impositiva.
   forma de editar un plan de pago mal pasado, o borrarlo y pasarlo de
   nuevo, caso ayer isabel que puso mal la cuota.
 + [ ] visor de tabla planes de pago
-+ [ ] atajo desde seven altas a la cuenta del cliente
++ [X] atajo desde seven altas a la cuenta del cliente
 + [ ] cuadro de revision que bancos ingresos cobradores sea igual a
   transferencia cobradores
 + [ ] nueva tabla para poner recibos-por-transferencia el numero de
@@ -1076,7 +1109,16 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-20 Sun]
 *** [2022-11-22 Tue]
 :LOGBOOK:
-CLOCK: [2022-11-22 Tue 15:05]
+CLOCK: [2022-11-22 Tue 22:00]--[2022-11-22 Tue 23:15] =>  1:15
+emacs: redes mastodont y matrix y bug de consult-ripgrep
+CLOCK: [2022-11-22 Tue 21:06]--[2022-11-22 Tue 22:00] =>  0:54
+emacs termino la prueba con eglot y corfu.
+CLOCK: [2022-11-22 Tue 19:32]--[2022-11-22 Tue 20:30] =>  0:58
+emacs: pruebas sobre eglot y corfu.
+CLOCK: [2022-11-22 Tue 15:45]--[2022-11-22 Tue 16:36] =>  0:51
+elisp: lectura y practica
+CLOCK: [2022-11-22 Tue 15:05]--[2022-11-22 Tue 15:45] =>  0:40
+subido al seven y hecho el atajo para ver fichas desde seven.
 CLOCK: [2022-11-22 Tue 12:04]--[2022-11-22 Tue 12:18] =>  0:14
 emacs: repaso help
 CLOCK: [2022-11-22 Tue 10:01]--[2022-11-22 Tue 11:45] =>  1:44
@@ -2454,11 +2496,12 @@ SCHEDULED: <2022-11-28 Mon>
 - New deadline from "[2022-10-18 Tue]" on [2022-10-19 Wed 09:40]
 :END:
 **** TODO seven
-SCHEDULED: <2022-11-22 Tue .+1m>
+SCHEDULED: <2022-12-22 Thu .+1m>
 :PROPERTIES:
-:LAST_REPEAT: [2022-10-21 Fri 08:38]
+:LAST_REPEAT: [2022-11-22 Tue 15:19]
 :END:
 :LOGBOOK:
+- State "DONE"       from "TODO"       [2022-11-22 Tue 15:19]
 - Rescheduled from "[2022-11-21 Mon .+1m]" on [2022-11-21 Mon 10:23]
 - State "DONE"       from "TODO"    [2022-10-21 Fri 08:38]
 :END:
@@ -2503,11 +2546,12 @@ CLOSED: [2022-11-05 Sat 12:57] SCHEDULED: <2022-11-05 Sat>
 - Rescheduled from "[2022-10-29 Sat]" on [2022-10-30 Sun 10:08]
 :END:
 **** git-mirror
-SCHEDULED: <2022-11-22 Tue .+1w>
+SCHEDULED: <2022-11-29 Tue .+1w>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-15 Tue 15:50]
+:LAST_REPEAT: [2022-11-22 Tue 15:19]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-22 Tue 15:19]
 - State "DONE"       from ""           [2022-11-15 Tue 15:50]
 - State "DONE"       from ""           [2022-11-07 Mon 09:46]
 - State "DONE"       from ""           [2022-10-30 Sun 10:02]

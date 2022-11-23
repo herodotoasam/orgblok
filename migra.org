@@ -1292,7 +1292,7 @@ um: [2022-11-18 Fri] 2am (3am 20mg)
 | 2 | [2022-11-19 Sat] | 8am    | 30mg | 7.30pm | 20mg |      |      |
 | 3 | [2022-11-20 Sun] | 8am    | 20mg | 8.20pm | 20mg |      | 3ibu |
 | 4 | [2022-11-21 Mon] | 7am    | 20mg | 8.00pm | 20mg |      | 3ibu |
-| 5 | [2022-11-22 Tue] | 7.30am | 20mg |        |      |      | 1ibu |
+| 5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
 |   |                  |        |      |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
@@ -1338,3 +1338,12 @@ la cabeza y el ibu esta sentando bien, pero tomo tres por dia por
 ahora.
 Me tome un ibu a las 6.30 esta mañana. Y el corty a las 7.30. Pq ya
 estaba levantado hacia una hora y media.
+A las 9hs de haber tomado el ibu me tome otro y ya me habia agarrado
+de nuevo el dolorcillo. Aparte llevo muchas horas levantado y me tengo
+que quedar pq vino el jardinero.
+Me puse a ver los partidos y tipo 4.30 me empezo a doler un poco y me
+fui a dormir, creo que dormi bastante pq son las 19.30, pero me
+desperte hace como 45 min. Y acostado no sentia tanto pero tengo un
+dolor denso y pegajoso. Es el primer dolor desde que empece el WD.
+me tome un cafe, con galletas y una coca me puse a emacsiar, luego me
+fui a comer con ih y se me fue pasando.

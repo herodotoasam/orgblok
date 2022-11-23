@@ -6061,6 +6061,13 @@ dia me parece tan largo.
    reincorporar todo al flujo de trabajo normal.
    Y mezclar un poco con elisp para no quedar atras con eso.
 **** [2022-11-22 Tue]
+  un dia mas termina y termino contento pq lo veo mas optimizado al
+  emacs pq responde mas a lo que yo necesito. O sea sin eglot por
+  ahora y lo prendo cuando lo necesite, o sea lo tengo alli
+  preparado. Y corfu-cape andan perfecto para lo que necesito. Y veo
+  mas fluidez en el teclado, que en realidad se siente. Son muchisimos
+  los cambios por eso requiero de repasos continuos para estar al
+  tanto de todos los cambios que voy haciendo.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
