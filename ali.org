@@ -1,3 +1,5 @@
+# -*- buffer-auto-save-file-name: nil; -*-
+
 * alimentacion
 ** teoria
 [2019-02-08 vie] de acuerdo a las ultimas lecturas, que no vienen mal

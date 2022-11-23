@@ -396,6 +396,82 @@ un cambio con F6.
 [2022-11-16 Wed] solucionado. No me acuerdo que era, pero era una
 configuracion que los afectaba.
 
+** log compile emacs
+#+begin_src bash sudo dnf install -y jansson-devel mpfr-devel libmpc-devel
+gmp-devel libgccjit-devel autoconf texinfo libX11-devel jansson
+jansson-devel libXpm libXaw-devel \ libjpeg-turbo-devel libpng-devel
+giflib-devel libtiff-devel gnutls-devel ncurses-devel gtk3-devel
+webkit2gtk3-devel
+#+end_src
+echo 'compiling emacs'
+cd ~/git/emacs
+
+echo 'cleaning before beginning'
+make clean
+
+#+begin_src bash ./configure --with-dbus --with-gif --with-jpeg --with-png
+--with-rsvg --with-tiff --with-xft --with-xpm --with-gpm=no
+--with-xwidgets --with-modules --with-native-compilation -with-threads
+--with-included-regex --with-mailutils
+#+end_src
+notar el --with-rsvg  la diferencia que le saque --with-pgtk y le
+agregue --with-mailutils
+
+#+begin_src bash
+make -j8
+sudo make install
+#+end_src
+*** GNU Emacs 29.0.50  [2022-11-09 Wed]
+(build 2, x86_64-pc-linux-gnu, GTK+ Version 3.24.34, cairo version
+1.17.6) of 2022-11-09
+con soporte svg.
+
+** sistema de busqueda
+[2022-11-23 Wed]
+este tema es para reacomodar los conceptos en relacion al sistema de
+busqueda en el medio del trabajo.
++ para la busqueda fuzzy-regexp H-/ que es un bind ya establecido, lo
+  unico que debo corregir es la repeticion con el mismo teclazo de los
+  candidatos, No sigue con F10, y si puede ir a occur con C-F10 o con
+  s-o que es mas comodo y cercano.
++ Tenes lo vainilla C-s/C-r que No puede ser seguido por F10. y si
+  puede abrir occur con s-o.
++ busqueda en el symbol con M-F10 y SI puede ser seguida con F10 o con
+  C-s o con C-r y tambien abrir el occur con s-o.
++ vainilla C-M-s abre regexp y comienza la busqueda y SI podes seguir
+  con F10.
+** autosave
+[2022-11-23 Wed]
+implemento la variable auto-save-visited-mode no-nil para que haga un
+auto-save cada 5 segundos de los bufferes modificados. En el file. No
+en otro file. Baje el autosave a 30 eventos incorporados para que se
+active solo, pero no parece que se active. Con un idle de 15 segundos.
+Modifique auto-save-default to t. Veremos ahora y si hizo el autosave
+solo, lo unico que no cambia el modeline, pero va salvando solo.
+Estaba poniendo mal el auto-save-visited-mode como variable y era una
+funcion es un mode que se hace enable o no. El auto-save es
+independiente a todo esto. Y la indicacion en el minibuffer es del
+autosave normal. Funciono.
+Los auto-save normales con su comienzo y final con gatito, estan en
+.gitignore y no son tomados ni por dired ni por grep en general.
+Por lo visto no se esta haciendo el el auto-save. Bueno mejor. Quizas
+eso signifique que sea ortogonal, o sea que es uno u otro.
+Tampoco tengo solucion para el tema de los crypt, pq no te deja tiempo
+para escribir el crypt. Lo que podes hacer es escribir el node y luego
+tagearlo y salvarlo como crypt, dejando solo el problema para el caso
+de la lectura, lo que no es tan frecuente y se puede desactivar
+momentaneamente el autosave para "leer crypts". no pasa nada.
+
+Lo dejo inactivo. Por el momento sigo vainilla. Por lo menos se que
+existe, lo que pasa es que interfiere en procesos que emacs tiene y
+vscode no p.e. estoy en el medio de un undo y me autosave y me
+confunde. Prefiero manejar yo solo la cuestion.
+** revert buffers
+[2022-11-23 Wed]
+El revert buffers me entero leyendo el manual anoche no afecta a los
+tramp lo cual es lo unico que me interesa. Pero se puede corregir.
+Ya esta arreglado, anda fenomeno el revert para los tramp.
+
 * agenda programacion
 ** DONEs
 *** DONE [#A] poner en el listado de rbos total cobrado y estimado
@@ -1107,6 +1183,15 @@ cuenta que puede ser perseguido por impositiva.
   menos en idcobr.
 * agenda de actividad
 ** semana [2022-11-20 Sun]
+*** [2022-11-23 Wed]
+:LOGBOOK:
+CLOCK: [2022-11-23 Wed 10:53]--[2022-11-23 Wed 12:35] =>  1:42
+tema plan de pagos
+CLOCK: [2022-11-23 Wed 09:50]--[2022-11-23 Wed 10:23] =>  0:33
+correccion cobradores por filas seleccionadas.
+CLOCK: [2022-11-23 Wed 07:22]--[2022-11-23 Wed 09:20] =>  1:58
+emacs: autosave/revert/sistema-busqueda/log-compile
+:END:
 *** [2022-11-22 Tue]
 :LOGBOOK:
 CLOCK: [2022-11-22 Tue 22:00]--[2022-11-22 Tue 23:15] =>  1:15

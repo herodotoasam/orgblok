@@ -1293,7 +1293,7 @@ um: [2022-11-18 Fri] 2am (3am 20mg)
 | 3 | [2022-11-20 Sun] | 8am    | 20mg | 8.20pm | 20mg |      | 3ibu |
 | 4 | [2022-11-21 Mon] | 7am    | 20mg | 8.00pm | 20mg |      | 3ibu |
 | 5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
-|   |                  |        |      |        |      |      |      |
+| 6 | [2022-11-23 Wed] | 9.50am | 20mg |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1347,3 +1347,7 @@ desperte hace como 45 min. Y acostado no sentia tanto pero tengo un
 dolor denso y pegajoso. Es el primer dolor desde que empece el WD.
 me tome un cafe, con galletas y una coca me puse a emacsiar, luego me
 fui a comer con ih y se me fue pasando.
+*** [2022-11-23 Wed]
+me levante a las 7 y desayune todo ok, pero luego me olvide de tomar
+la matinal de corty y la tome a las 9.50!!!.
+Ayer solo 2 ibus.

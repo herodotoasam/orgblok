@@ -25,4 +25,4 @@ El uso del light/dark ha sido 95/5 de forma tal que vuelvo a cambiar a
 mi preferido el-bio por ahora.
 * [2022-11-15 Tue] lambda-light-faded el-bio
 * [2022-11-16 Wed] lambda-light-faded lambda-dark
-* [2022-11-22 Tue] kaolin-ocean
+* [2022-11-22 Tue] kaolin-ocean - kaolin-mono-light
