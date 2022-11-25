@@ -6068,6 +6068,17 @@ dia me parece tan largo.
   mas fluidez en el teclado, que en realidad se siente. Son muchisimos
   los cambios por eso requiero de repasos continuos para estar al
   tanto de todos los cambios que voy haciendo.
+**** [2022-11-24 Thu]
+  lo que falta es que sigamos en practica y avanzando de a poco con el
+  sistema, a veces parece que no avanzamos pero es mucho lo que se ha
+  conseguido. Y luego viene todo lo de elisp que debe ser hecho con
+  paciencia pq es algo complejo no es facil.
+  Hoy pensaba como podia ser que me enganchara mas con emacs en esta
+  oportunidad que en anteriores con estudiar python o ruby de cero en
+  seco en los hells correspondientes, y no se, pienso que es otra cosa
+  o no, es algo raro.
+  Muy lindo estudiar elisp de a poco. Le voy entendiendo, no es que le
+  dedique mucho pero es algo. Y me gusta.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

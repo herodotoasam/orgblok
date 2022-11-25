@@ -1,13 +1,13 @@
 PRAGMA foreign_keys=OFF;
 BEGIN TRANSACTION;
 CREATE TABLE anki (
-	id INTEGER NOT NULL, 
-	front VARCHAR(40), 
-	back VARCHAR(100), 
-	example VARCHAR(240), 
-	date_created DATETIME, 
-	deck INTEGER, 
-	count INTEGER, 
+	id INTEGER NOT NULL,
+	front VARCHAR(40),
+	back VARCHAR(100),
+	example VARCHAR(240),
+	date_created DATETIME,
+	deck INTEGER,
+	count INTEGER,
 	PRIMARY KEY (id)
 );
 INSERT INTO anki VALUES(1,'struggle','lucha',NULL,'2021-08-09 00:00:00.000000',2,1);

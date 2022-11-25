@@ -474,6 +474,18 @@ puesto el valor de la variable. No encuentro. Ya funciona bien.
 El revert buffers me entero leyendo el manual anoche no afecta a los
 tramp lo cual es lo unico que me interesa. Pero se puede corregir.
 Ya esta arreglado, anda fenomeno el revert para los tramp.
+** move files con dired
+[2022-11-24 Thu]no es algo facil.
+Me quedo colgado un denote en otro directorio y tenia que moverlo a
+orgblok/, y lo marco, aprieto R y todo bien, solo que al poner el
+directorio me impide hacer autocomplete con el nombre del file que es
+largo y complejo.
+Tenia que poner R y tratar de cambiar el dir sin que se me fuera de
+foco, -lo cual paso dos veces-, y se hizo el cambio.
+Baje una funcion que bindie a Cx-Cm que mueve un buffer y su file a
+otro directorio pero tiene el mismo problema no hay complete en el
+nuevo directorio. Es lo mismo. Aunque ya no creo que sea parte del
+problema diario pq volvi a setear que los denotes se hagan dentro de org.
 
 * agenda programacion
 ** DONEs
@@ -1186,19 +1198,53 @@ cuenta que puede ser perseguido por impositiva.
   transferencia cobradores
 + [ ] nueva tabla para poner recibos-por-transferencia el numero de
   asiento
+  pienso que seria muy engorroso y un trabajo extra para mi llevar esa
+  tabla mejor seria un calculo cruzado
+  asiento-bancos-ingresos-clientes con pagos-
+  Corriendo unas consultas da bien. Tendria que ver como hago el tema
+  si con un test seco, o una tabla o algo mas elaborado. Lo dejo pendiente.
 + [ ] log caja con los asientos relativos a caja fecha-hora-asiento-user
   saldos.
 + [ ] idear otras formas de auditoria automatica asi sean en paginas no
   incorporadas al sistema sino en forma de logs. P.e. compras vs
   pasado de compras. etc.
 + [ ] bug campo too long campo sex
-+ [ ] hacer validacion en cargar loterecibos para evitar errores por lo
++ [X] hacer validacion en cargar loterecibos para evitar errores por lo
   menos en idcobr.
-+ [ ] visor de planes de pago: usando una consulta y diferentes vistas.
+  Doble validacion, indica que el cobrador no existe y si lo ignoras
+  no te deja procesar el lote.
++ [X] visor de planes de pago: usando una consulta y diferentes vistas.
+  podria ser un boton fichaje para no generar paginas al vicio y
+  aprovechar infraestructura. Se hicieron los cambios en la base de
+  dato.
++ [X] estimados a cobrar tiene el eje x erroneo no es num de cobradores
+  es mes
+
 * agenda de actividad
 ** semana [2022-11-20 Sun]
+*** [2022-11-24 Thu]
+:LOGBOOK:
+CLOCK: [2022-11-24 Thu 18:50]--[2022-11-24 Thu 20:05] =>  1:15
+emacs: xref generacion de TAGS con etags
+CLOCK: [2022-11-24 Thu 18:12]--[2022-11-24 Thu 18:48] =>  0:36
+elisp: estudio
+CLOCK: [2022-11-24 Thu 13:35]--[2022-11-24 Thu 13:48] =>  0:13
+corrijo bug cuadro estimados
+CLOCK: [2022-11-24 Thu 12:00]--[2022-11-24 Thu 12:10] =>  0:10
+preliminar de revision asiento-pago-transferencias
+CLOCK: [2022-11-24 Thu 11:00]--[2022-11-24 Thu 11:22] =>  0:22
+validacion de cobr en loterbo
+CLOCK: [2022-11-24 Thu 08:56]--[2022-11-24 Thu 10:25] =>  1:29
+muestro lista de planes de pagos en Fichas
+CLOCK: [2022-11-24 Thu 07:47]--[2022-11-24 Thu 08:35] =>  0:48
+corrijo bug de ventas saldo<0 no se mostraban.
+CLOCK: [2022-11-24 Thu 06:51]--[2022-11-24 Thu 07:14] =>  0:23
+usando mail unificado de vivaldi un espectaculo.
+:END:
 *** [2022-11-23 Wed]
 :LOGBOOK:
+CLOCK: [2022-11-23 Wed 20:10]--[2022-11-23 Wed 20:41] =>  0:31
+lisp: estudio
 CLOCK: [2022-11-23 Wed 18:40]--[2022-11-23 Wed 19:46] =>  1:06
 emacs: remodelando init algunas mejoras
 CLOCK: [2022-11-23 Wed 17:30]--[2022-11-23 Wed 18:37] =>  1:07
@@ -2633,11 +2679,12 @@ SCHEDULED: <2022-12-13 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-23 Wed .+3d>
+SCHEDULED: <2022-11-26 Sat .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-20 Sun 19:35]
+:LAST_REPEAT: [2022-11-23 Wed 20:17]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-23 Wed 20:17]
 - State "DONE"       from ""           [2022-11-20 Sun 19:35]
 - State "DONE"       from ""           [2022-11-16 Wed 11:51]
 - State "DONE"       from ""           [2022-11-13 Sun 11:35]

@@ -13206,3 +13206,20 @@ D $1000.00
     expenses:cami:mesada   $ 3000
     expenses:cami:comida   $ 12000
     assets:caja   $ -15000
+
+2022-11-24 compra dolares
+    expenses:compra-dolares   $ 403000  ;# 1300dol a 310
+    assets:reserva   $ -400000
+    assets:caja   $ -3000
+    assets:reserva-dol   u$s  1300
+    expenses:compra-dolares   u$s -1300
+
+2022-11-24 compra dolares
+    expenses:compra-dolares   $ 108500 ; 350dol a 310
+    income:retiro-sociedad   $ -108500
+    assets:reserva-dol   u$s 350
+    expenses:compra-dolares   u$s -350
+
+2022-11-24 devolucion dolares Fede
+    assets:reserva-dol   u$s 350
+    assets:deudores   u$s -350

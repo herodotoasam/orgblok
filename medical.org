@@ -22,7 +22,7 @@
 **
 ** DONE dentista toma de impresion y arreglo inferior
 CLOSED: [2022-10-08 Sat 14:22] SCHEDULED: <2018-11-17 sáb> 9hs
-* sintomas
+* Registro
 ** Enfermedades
 *** resfrio fuerte [2022-10-05 Wed]
    me contagie de ih que cayo enferma de repente despues del fin de
@@ -72,6 +72,9 @@ con composite, me cobro 7000 y me duro justo un mes.
 ** Sintomas
 *** palpitaciones
 [2022-10-26 Wed] desde hace mucho, pero hoy me molestan bastante.
+[2022-11-24 Thu] noto palpitaciones o taquicardia cuando estoy sentado
+viendo tele p.e. en ciertas posiciones, o cuando me acuesto, algunas
+veces no es comun sentirlas mientras estoy en la compu.
 *** temblor matinal
 [2022-10-31 Mon] cuando me levanto siento un temblor en las manos al
 hacer las cosas como prepararme el te o esas cosas.
@@ -254,22 +257,23 @@ Xxf3ffRheJPA
 *** smt :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQGMAwgb/w8r8tnHAQv+PwfNlK3T3FogVWPx7r+SMYTfwDhrfqY3umg39K3blgrr
-QgcRQ9EtbATS/KxpXFsi7j5QrKkjtySf/zeBJNP7RKoULXigaWtuJMycFp9GRDSk
-IeGeQjVHEKk0q7SaxiYaECN34lhhxaXF3bVO5ip5yk9gLW42SZTOHAwMw0Ur0DDq
-ZA5hQSqUndQPtgk7bWOlDqdwKAr+lK1AG5trlpr8UlWylEnoyMgLAN7yxwvyQOku
-luxl2DP7ltKjmpUTlMVjbA9f3tlcQCO26q9Tbr0WKjsr1rmmSXh3jtN7dxLbHs0L
-CWy78Ht5vbfr2AhfIXbaIORgTaqaY9u2TjjiAtE1riV4aExsXfprShvGcti/Qv9K
-ZLUErTq2C0ITAbCCHvOlO0od5eo80VOl85KsHekfdws8+Frx+6odb+e4QgADaZVg
-PbgF0e5oqyWSTDywMjtJ1o3BHIqKKfLWZLTZM6IFrZ0cLkFwa9ZpHkyP+5/No3//
-rGbLeeZWI3+BnxR95mv51MBvAQkCEEiJDMhcNQnn0982qQcZxIl6GVy20c1Gwcpz
-1pJ4OV2xlYFoPoYZhU42SHcI8G3u/HRz/vCnESXsxQsNMDU0td0kzd872cPKznxh
-2/05xK4iKwvLM3MpNgWrl9gRNHrN/CCWsNNoedAGihHEQKB0bD7epnn45jARCNCd
-8he0fLr58XTaw37N24b025+eabAe3tFvn5RZEiA7Rlj2aZZsO1Z6H3PcbUvAV/CI
-azNFnOQvhVCB5SpxDTEzZy7WoODV1T0POGilc+woKsMhrxYs4GQcUmwygE3aMncV
-ACl5JoQ5si7jzDoLwRAE31voCzpInsRtOePK/eZ7XPlQs3+RoOo84u0q4uykgylj
-fNGzfDOPr2cygvN3MfEnpUblbNp13NgnC0r+QWUTlwjB
-=DkKq
+hQGMAwgb/w8r8tnHAQv9Hs0Q4XHRmio8B/tOMYyaiasPM2R+XwQiGHnAooXSEAdK
+N4V72JeHo/VZfN1YrEdSGZkqYdIXGNrxM5IFLC1PeOyDabGyMdjylZ54m1jcOGmJ
+vuKQ3Eo4uZwcOS3pGg90pJ9GHiHtz1QFldMtYYR9YkiIeWQ4ktqLGd3gQsMys6xR
+hKo6CzjyEusw3HqnnlIkqY4E/VzKfAJc8Z4uMAsxnr2xA0TUmornbty5tLJPoH51
+6WrqXdGLl2uNt1Lodd8FvJr3EugpaZDseIN8Q6NNjPVCOGHVGIuIQ2gQTxQ4w5Wi
+D/vI8hqtkwmdqzhPYEEXm5pywJUZguL7oruREJx4eMkFVWBkOEjHawhGIbhi/Ilt
+EQa+V+Qz+93r07nWREEM3WNRRYxRxJJf2foi1yHygHCzDlI10d8+u9vZZulSmani
+7Q9xFSPjdtEhh0XxC2cYKDyd2Q30LkNvo+rRD0+mDtSGUGhZdzs8G9orta3KEBqA
+LGujGL6f9wzByU7pUo/n1MCiAQkCENoFHTxdiWsYkVoPnpcuqVYfblfx47YmvNZ+
+zlrABfVWbwst8f0NFj9nTlcs8fcqbI/rb0sMlNLjEn755xSp19kSDbcJaOgMHOEY
+u5yXMFi05BUN5MV23qrmOvdyPw6T4GEU1RtkMMzp164ON+NwQqitAo8YptBIsze5
+EBJ0oD+KohNOhBewpcqiISEfbnPhtMhHFaBSrxfq39xR2Q1jEc6vzMJAEw2/EMdS
+OF5imQyVLSFlHxKAcU/qJC4HW3zGLPRhP71SAX0eedQxbHfOr8AdfTPTEbV+k3bn
+nKAEBpjlyOTR2pmK8lMGxfd3zlAcDHfcR3sqbqcwhhRtcrGRG/ejxeUyzJkezsjh
+jo5jsdN6FcnETnqeHJtW80fX+f3tVvNZ7KO0JF9Qz6+KsheVttejJVmbrDt28GtH
+6hHLOKMv/Ka0aFXt45Xhpx8UAQroE6KMnxRqibvWOTiT58MP
+=rHqD
 -----END PGP MESSAGE-----
 *** indigestion
 [2022-11-18 Fri] anoche fuimos a comer al Fede y cenamos matambre a la
@@ -289,7 +293,24 @@ distendido y sin hambre.
 [2022-11-23 Wed]siento como que las piernas y brazos los tengo
 adormecidos levemente en forma inespecifica. Estando sentado en la
 compu siento mas en las piernas pero tambien me afecta los brazos.
-** registro de sintomas
+*** gases en traquea?
+[2022-11-24 Thu] me estaba despertando normal con insomnio y de golpe
+empece a sentir una bola de gas en la traquea como la que solia tener
+cuando tomaba factor-g, pero me llamo la atencion lo repentino y la
+hora, normalmente se hace desde la noche no a la mañana. Me levante y
+me tome un factor ag y me estoy mejorando pero todavia no he
+desayunado nada. Puede ser el ibu que tome hace 3hs.
+A la tarde lo mismo, pero esta vez luego de levantarme de la siesta,
+sin mas aviso siento el gas, pero no tanto como la mañana.
+*** insomnio
+[2022-11-24 Thu]
+no lo habia puesto como sintoma pq creia que era por los corticoides
+pero me cuesta seguir durmiendo, muchos dias por ansiedad de emacs, o
+levantarme a la compu, y estos dias hay partido y hay una excusa pero
+lo mismo tengo sueño y cada dia me despierto mas temprano.
+Pude dormir una buena siestita no muy larga pero confortable, me
+duermo con una  enumeracion liviana. Pero es como que no supiera bien
+si estoy dormido.
 *** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
    a las 5am y uno a las 5pm, y a las 8pm me acuesto y a las 9pm el

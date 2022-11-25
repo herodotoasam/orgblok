@@ -1,0 +1,46 @@
+#+title:      definir plan pago vigente en tabla clientes
+#+date:       [2022-11-24 Thu 09:11]
+#+filetags:   :sistema:
+#+identifier: 20221124T091146
+
+Quiero hacer una vista por clientes para insertar en fichajes y
+mostrar los planes de pagos vigentes, y no encuentro un campo en la
+tabla clientes que indique que hay un plan de pagos vigente.
+
+Primero habria que agregar el campo -> planvigente
+Segundo update el campo:
+#+begin_src sql
+    update clientes set planvigente=(select sum(pp) from ventas where idcliente=clientes.id and pp=1 and pcondo=0 and saldo>0);
+#+end_src>
+Con esto nos da 158 clientes con planes de pagos desde ambas tablas.
+
+Faltaria hacer un trigger ahora que actualizara automaticamente cuando
+se agregue un plan de pago, se borre un plan, o se cancele.
+O incluir esas cosas en los triggers de venta.
+
+Primero en insert ventas
+#+begin_src sql
+    if new.pp=1 then
+update clientes set planes=COALESCE((select count(*) from ventas where idcliente=new.idcliente and pp=1),0),planvigente=1 where id=new.idcliente;
+end if;
+#+end_src
+Notese que solo agrega un campo al update planvigente=1.
+
+Segundo en update ventas en especial con la condicion saldo=0 and pp=1
+#+begin_src sql
+  if new.saldo=0 and new.pp=1 then
+  update clientes set planvigente=0 where id=new.idcliente;
+  end if;
+#+end_src
+Como solo puede haber una venta con pp=1, directamente al hacerse
+saldo 0 se puede poner seguramente planvigente 0 en clientes.
+
+Tercero delete ventas
+#+begin_src sql
+  if old.pp=1 then
+  update clientes set planvigente=0 where id=old.idcliente;
+  end if;
+#+end_src
+
+Estos trigger aseguran la actualizacion del campo y funcionan dentro
+de los tres clasicos triggers de venta que actualizan clientes.

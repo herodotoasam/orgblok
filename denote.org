@@ -1,29 +1,38 @@
-* emacs
-** [[denote:20221118T145236][changelog]]
-** [[denote:20221107T135012][Ctrlf]]
-** [[denote:20221121T172648][regexp]]
-** [[denote:20221121T191555][sistema de ayuda en emacs]]
-** [[denote:20221111T161249][usando regexp en emacs]]
-** [[denote:20221113T111245][bug en jump-to-register]]
-** [[denote:20221114T212710][roadmap de emacs segun un experto en Reddit]]
-* javascript
-** [[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]
-** [[denote:20221112T155515][global flag en regexp en javascript]]
-** alpinejs
-** [[denote:20221107T190833][event object]]
-** [[denote:20221107T110347][correcto manejo de chart.js dentro de alpinejs]]
-** [[denote:20221108T150625][no pude usar variable global reactivamente]]
-** chart.js
-** [[denote:20221104T125459][graficos con chart.js]]
-* html
-** [[denote:20221104T125230][tree en tables]]
-* bugs sistema
-** [[denote:20221110T201656][bug pmovto Invalid Date en impresion de fichas]]
-** [[denote:20221118T093338][bug plan de pagos]]
-** [[denote:20221120T104743][bug no abre menu en mobiles chrome, firefox, samsung]]
-** [[denote:20221121T143510][bug data too long campo sex]]
-* diseño del sistema
-** [[denote:20221123T175708][Gestion de planes de pagos]]
+* estacion de trabajo
+** emacs
+*** [[denote:20221118T145236][changelog]]
+*** [[denote:20221107T135012][Ctrlf]]
+*** [[denote:20221121T172648][regexp]]
+*** [[denote:20221121T191555][sistema de ayuda en emacs]]
+*** [[denote:20221111T161249][usando regexp en emacs]]
+*** [[denote:20221113T111245][bug en jump-to-register]]
+*** [[denote:20221114T212710][roadmap de emacs segun un experto en Reddit]]
+*** [[denote:20221124T194106][xref en el proyecto - generacion de TAGS por etags]]
+** fedora
+** i3
+** vivaldi
+* lenguajes de programacion
+** javascript
+*** [[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]
+*** [[denote:20221112T155515][global flag en regexp en javascript]]
+*** alpinejs
+*** [[denote:20221107T190833][event object]]
+*** [[denote:20221107T110347][correcto manejo de chart.js dentro de alpinejs]]
+*** [[denote:20221108T150625][no pude usar variable global reactivamente]]
+*** chart.js
+*** [[denote:20221104T125459][graficos con chart.js]]
+** html
+*** [[denote:20221104T125230][tree en tables]]
+* fedesal.lol
+** bugs sistema
+*** [[denote:20221110T201656][bug pmovto Invalid Date en impresion de fichas]]
+*** [[denote:20221118T093338][bug plan de pagos]]
+*** [[denote:20221120T104743][bug no abre menu en mobiles chrome, firefox, samsung]]
+*** [[denote:20221121T143510][bug data too long campo sex]]
+** diseño del sistema
+*** [[denote:20221123T175708][Gestion de planes de pagos]]
+*** [[denote:20221124T081213][Problema de los saldos menores a cero en ventas]]
+*** [[denote:20221124T091146][Definir planes de pago en la tabla clientes]]
 * agendas S.O.
 ** [[denote:20221109T145149][agenda Mint]]
 ** [[denote:20221109T145356][agenda MX-19]]

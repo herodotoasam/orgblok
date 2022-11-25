@@ -1288,12 +1288,14 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| 1 | [2022-11-18 Fri] | 8am    | 20mg | 8pm    | 20mg | 10mg | ibu  |
-| 2 | [2022-11-19 Sat] | 8am    | 30mg | 7.30pm | 20mg |      |      |
-| 3 | [2022-11-20 Sun] | 8am    | 20mg | 8.20pm | 20mg |      | 3ibu |
-| 4 | [2022-11-21 Mon] | 7am    | 20mg | 8.00pm | 20mg |      | 3ibu |
+| 1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | ibu  |
+| 2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |      |
+| 3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu |
+| 4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu |
 | 5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
-| 6 | [2022-11-23 Wed] | 9.50am | 20mg |        |      |      |      |
+| 6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
+| 7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
+| 8 | [2022-11-25 Fri] |        |      |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1353,3 +1355,22 @@ la matinal de corty y la tome a las 9.50!!!.
 Ayer solo 2 ibus.
 un poco de parestesia en la cara izquierda, pero sigo bien con menos
 dolor hoy. Aparte un poco de adormecimiento.
+Pase la tarde viendo partidos y en la compu con un poco de aire pq
+hace mucho calor y sin dolor hoy.
+Pero sigue la parestesia en la parte izquierda de la cara y la
+sensacion en general de hinchazon por el corty.
+*** [2022-11-24 Thu]
+hoy un dia medio molestito: me despierto temprano de mas como a las 5
+y no me puedo dormir de nuevo, me pongo en el celu y se hacen casi las
+seis y se produce el episodio del gas traqueal [[file:medical.org::*gases en traquea?][gases en traquea?]] y
+estoy como dormido, tengo los ojos semicerrados y no puedo fijarlos en
+la pantalla y no tengo hambre pq no puedo desayunar todavia, hoy va a
+hacer un calor de locos. El dolor de cabeza la debilidad el
+corticoide, todo hace un combo dificil.
+El dia avanza mejor, ahora me voy a dormir una siesta. Dormi muy bien,
+luego vi el partido de brasil, mientras merende, y un poco de dolor
+pero no da para tomar ibu. Afuera hace 40ºC.
+Me termine tomando el 2ibu, pero no me hizo nada, al contrario se me
+intensifico el dolor, pienso que me hace mal el aire frio, pero si
+apago el aire me cocino, hace 40º. Adelante la toma a las 7.30pm y
+sigo trabajando en emacs y se me va pasando pienso.

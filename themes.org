@@ -26,3 +26,4 @@ mi preferido el-bio por ahora.
 * [2022-11-15 Tue] lambda-light-faded el-bio
 * [2022-11-16 Wed] lambda-light-faded lambda-dark
 * [2022-11-22 Tue] kaolin-ocean - kaolin-mono-light
+* [2022-11-24 Thu] kaolin-dark - kaolin-light

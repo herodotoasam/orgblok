@@ -1,0 +1,30 @@
+#+title:      xref generacion de TAGS con etags
+#+date:       [2022-11-24 Thu 19:41]
+#+filetags:   :emacs:
+#+identifier: 20221124T194106
+
+hoy busque la forma que anduviera xref para mis files py y js que son
+los que puedo referenciar en mi trabajo, para eso investigue la
+funcion xtag que esta bindeada a M-. y funciona joya en elisp.
+
+An identifier is a name of a syntactical subunit of the program: a
+function, a subroutine, a method, a class, a data type, a macro,
+etc. In a programming language, each identifier is a symbol in the
+language’s syntax. Identifiers are also known as tags.
+
+Emacs provides a unified interface to these capabilities, called
+‘xref’.
+
+A tags table records the tags15 extracted by scanning the source code
+of a certain program or a certain document.
+
+para evitar tener que poner el nombre de todos los programas a mano se
+puede usar la salida de find
+
+#+begin_src bash
+  find . -type f -regex '.*.[py|js] | etags -
+#+end_src
+
+eso genera el archivo TAGS que leera xref y te llevara a las
+definiciones del proyecto inclusive a las de los programas base de
+python que estan en el .venv

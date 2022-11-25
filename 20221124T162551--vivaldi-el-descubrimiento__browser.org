@@ -1,0 +1,38 @@
+#+title:      Vivaldi el descubrimiento
+#+date:       [2022-11-24 Thu 16:25]
+#+filetags:   :browser:
+#+identifier: 20221124T162551
+
+Desde hace dos dias tengo en el telefono y en el desktop instalado
+Vivaldi y la verdad que es un descubrimiento asombroso. Voy a dividir
+por tipo de navegador para ser mas objetivo:
+* desktop
+** tile window
+asombroso: es la funcion que estuve buscando hace mucho
+tiempo. Seleccionas las los tabs con Ctrl-click y luego con boton
+derecho elegis tile.
+** nicknames en bookmark
+capaz lo tenian los otros, pero aca lo uso al toque y es rapidisimo.
+** integracion email.
+asombrosa, tengo todas las cuentas juntas, todo lo hice muy rapido y
+manejo todo el tema email al toque.
+** desarrollo
+como es un chromium tiene todo el sistema debajo apto para el
+desarrollo asi que no me falta nada.
+** // me faltaria descubrir la forma de abrir tres bookmarks al mismo tiempo
+para el caso de hacer el tema bancos.
+** bing para probar algo nuevo
+** barra de busqueda con una clara forma de busqueda
+te pone los bookmarks/ las busquedas recientes y las navegaciones
+recientes, todo separado en forma muy bien lograda. Parece que me
+hubieran leido el pensamiento.
+** buena interfase de traduccion
+* mobile
+** rapidez
+realmente busque una alternativa pq firefox me estaba resultando lento
+en android, casi inusable y no queria usar opera pq es comercial, y
+chrome lo odio.
+** abro los otros contenidos que muestra chrome pero sin publicidad
+como muy linux o genbeta cba24 etc
+** syncronizacion con el desktop
+creo que no syncronice las contraseñas.

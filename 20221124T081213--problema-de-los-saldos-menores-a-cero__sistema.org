@@ -1,0 +1,49 @@
+#+title:      problema de los saldos menores a cero
+#+date:       [2022-11-24 Thu 08:12]
+#+filetags:   :sistema:
+#+identifier: 20221124T081213
+
+haciendo la consulta de saldos menores a cero
+#+begin_src sql
+       select id,saldo from ventas where saldo<0;
+#+end_src
+obtenemos un resultado de
+1150 rows in set (0.020 sec)
+
+Lo mas problematico de ello es que NO figuran en la vista clientes.
+Queriendo hacer un update para poner a cero los saldos obtengo:
+#+begin_src sql
+      update ventas set saldo=0 where saldo<0;
+#+end_src
+Query OK, 0 rows affected (0.406 sec)
+Rows matched: 1150  Changed: 0  Warnings: 0
+O sea el query se hace pero no hay ningun cambio, posiblemente
+intervenga un trigger que recalcule el saldo.
+
+Tendria que mostrar la venta en la vista clientes, con el saldo
+negativo y revisar los criterios saldo=0.
+
+Con este hunk soluciono el problema de vista en clientes de esas
+ventas:
+
+#+begin_src python
+ @buscador.route('/buscador/obtenerventascanceladasporidcliente/<int:idcliente>')
+ def buscar_obtenerventascanceladasporidcliente(idcliente):
+     """Entrega lista de ventas canceladas por idcliente."""
+-    sql = f"select * from ventas where idcliente={idcliente} and saldo=0 order by id desc"
++    sql = f"select * from ventas where idcliente={idcliente} and saldo<=0 order by id desc"
+     con = get_con()
+     cur = con.cursor(dictionary=True)
+     cur.execute(sql)
+#+end_src
+y en buscador
+#+begin_src html
+  <span class="tag is-info is-small" x-show="Cliente.seguir">SEGUIR</span>
+     </div>
+     <div :class="!isMobileDevice?'flex-baseline-space':'flex-column'">
+-      <h2 x-text="Cliente.deuda?'$'+Cliente.deuda:'SIN DEUDA'" class="title is-2"></h2>
++      <h2 x-text="Cliente.deuda>0?'$'+Cliente.deuda:'SIN DEUDA'" class="title is-2"></h2>
+       <h2 x-text="Cliente.pmovto=='Invalid Date'?'':Cliente.pmovto" class="title is-2 pointer" x-show="Cliente.deuda"
+ 	      @click="fecharPmovto(Cliente.id)"></h2>
+       <a href="#table-comentarios"
+#+end_src
