@@ -3,11 +3,12 @@
 *** [[denote:20221118T145236][changelog]]
 *** [[denote:20221107T135012][Ctrlf]]
 *** [[denote:20221121T172648][regexp]]
-*** [[denote:20221121T191555][sistema de ayuda en emacs]]
+*** [[denote:20221121T191555][help en emacs]]
 *** [[denote:20221111T161249][usando regexp en emacs]]
 *** [[denote:20221113T111245][bug en jump-to-register]]
 *** [[denote:20221114T212710][roadmap de emacs segun un experto en Reddit]]
 *** [[denote:20221124T194106][xref en el proyecto - generacion de TAGS por etags]]
+*** [[denote:20221126T091315][crear gpg keys exportar e importar]]
 ** fedora
 ** i3
 ** vivaldi

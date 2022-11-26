@@ -233,26 +233,31 @@ estaba trabajando.
 **** ardor :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQGMAwgb/w8r8tnHAQwAkykAuJgoK9anKSFQGlTyQx97tdjWmiujA1bzNJrU5cp2
-89v1+USE5CVW4G+lvZFu0+efX1eMUD0s1/x3S4RRqQsBeUGr2M5D4BxHTEn9ZmP/
-Fj47di347werGypS1Op1yGBt+D4YlK7czx7MWOkJ7xpSy75eiOR79NfrdUDiBee1
-PVQ2VWas88zAqpEXEEGQaGAlmD59NoaRX1Np1dN0j+ujwHOiLGv/YP5ImyRQscMe
-69pZTJGumCmaFYrIhWtdRFzx2/yvl4vcWQVZUyYYSmCnRaW11wD0H0W9lfhXPGvR
-a4E45iynoUWD/cvhK7xZwAF9ji/m0SXU4nnB71ady2LMmEhLJB8AMrUkjLxox18b
-bIJz7O5psB9eAM/FeaJ34FhgSCOtIaZDtKDdqRknyHv+4BvVdTNdB4pPNx+wjc6v
-/i//6ycxLW7IVUcJ51f4ssMILjoTO7MfY4iXKPFGoDc7gKr5wkZuT9ZRAWpL1N8h
-fv5FUeqjNrWw8BgotGaG1MEXAQkCEOgIH/qivluDFVOCajg3Dpkrp1dgNWNmkmI2
-EQifDWM6kMK3wOywkAwtgdq/WP/WNKAN5oaqkosrOt7HDZnLv3PA2v6JfIaSREzq
-hkhOIxl1uFN0t+greYhAluRxBdeiBBLVkQ3PgRtJ1YJNCHTSzhgUBpuerOnuqIR3
-WcJB0DfEmDWeGPp1QkEfkWHg0lM7lwfn+WowK88CGvBQW532k25tEQK4CsU0eLv6
-+QzJGDQD9xkQazmOV+AKGVJcLtQoO+dk1EFXjhu1YIbFMPQzTdi6B+TKJk8TjW9V
-BQxWlVe62h/pMOB3kUNCD/gEfNkDsnxbQyxm2PbLXtBn4FCzx1E6qvHqXUdwpoZH
-MiclilF/MAG9gvCQFdTiAFjKSi9NpkD/iQRt6vmiU/V3460FNzI4dlTRbaLxUhEW
-j4sIPjMTABpli1P/QkgzFwB9A0kyLG7yhhZ2Ejmy9U7lpzoJkU0p2RpP9CZJc+cG
-fRbaWGOCYbNFr4kzHmpp47p2Le0dlY0nyQ+Q61Ug41UfHuMFwZfo1Oy7YBIoG+SM
-Qa8FNYdHV9dYUrXi6c2daCJs1OgwjBsMxYUy+qoyWDFJaqByDyVOxA46Pu8ddE80
-Xxf3ffRheJPA
-=eTI1
+hQGMAwgb/w8r8tnHAQv/UgzmpCPrVSCyo1ZQPgSUvEXhTznZOcGakfqUY9+eZ0Wc
+1uBtSjlnUxdXSO5ASNO4Kx46POobZJNT21ThhRUea1FjdlX/+/g0wQxJmEB+Wsvz
+MfL7u59VLHIovBR4PGB3D7LUoBt9lR7TAVG8kdR8rNGyt5SE6UlRBmMjsHzZdfre
+ZNPcH3qwDIV58nW+NSrzwKoTj04cZ7UNpMrw6mME4kmk7urYKhcQwJPz8X67Uzzk
+ZAYjVnChbFvZoUK7KChVWwHmJGLqUxGiBbV6ZEdYJdugBeQJZ90YiKiCcGRaG/Tv
+o5CulZKV6rc3gjkhGOYPPaHvESgoQldjh31ZHX5oiUulCJs0vij57Jx1fl3eq2Ls
+eZLgvSVz57bm2hiOjaba+u3VTF8143Qk6KcbEasocxy+EUY0pXxePL2h4u70fDGr
+ec4q2Xf7GXkA5NhkBe1cTcNqJj5pAfDcgL2Ag5n0vnOTbEMnCuyaIMXIvlpyObnC
+fhHS6TEkIeY2rZVySdnK1OkBCQIQqHvnH95Od/TUUsBzD9xxHf/30L386ZEivf7L
+Zp/mW8RlkdpcIWD4xoRG+9bXprvvVdM9+Q9LqMdvXzX8N0pntWQlSsfNGpEPgKsM
+sNNb5W7SjQh8DfOjwvX7WpuCmE+Kgym6HC1nboQuG8mFvTnQ3OmKO/F+JzSXmTIP
+OCsh7NQCFfoI0sTTYKXBOiSL4FdEssxIwq8nMhwPy4PEgaiq+CIMMxINJxaEwOLV
+jA4ecMxwAb0kkO2vcDnM38aJVb8hTenBy28GA7r9wpQe5gPLvPKs2AnFbsWyQzZ+
+vjLQaJhUEzYe0Fs8g1i1eROdmFTSCX+bosvsGNS957NW1H/n3JWyGUpOHoiAm49n
+XEdukDzpFHUSzQO2qg0q4NZH/4YoOb3XrvUbbijnOrCmWnx4InRMngXJF4hOyOIK
+Vm90SZ5800oFhd4qj3Di80IRPhpPlWIQzaQH0Mx+ARjMRuyPm8Q13Qp3peq0FGkU
+Y31jk5ECijM3REz6Mpbm3qkeYMKEmfmaim1bepqbvP6WYOVBLBmlfVskkeTdqthb
+l/zyxgJFdd0BrSeiV5IdH8wRlALhQo0pBfiVDsJFfZXfXwzNRzHbSZmsazs8nh9Z
+UdG02/CmxwlnG858KuFfQ3ZMeso0oc6HhByU9kbCE9KT7qIzhlHlWmm+j3S1s4o0
+9MAOixMY50ql11vJU4RXSvi+nDSGkYWV15ykVBzlwU2FbfLuJ/GZ1cxstNehTBe2
+2zRyv0HotzpV2RSQ3h/HbBoPmWJcjbMzBsTrj0/rHElpO6P36i4AaPsoOM8XRpea
+IW6mdLBsBe5Ke2CkJVdCZKMkgXrhTInjKYe/JFYTMoGld7VrMqhHK8IIM6k0IFEw
+lCrd/58F+Gd6zlmL2qWgxQCkUcXO0OyX3//OzGUQv/f09O3BKPr81fir3CeOcgyW
+dE9pi8VMUmeqAxiBEOlHcEM=
+=E7il
 -----END PGP MESSAGE-----
 *** smt :crypt:
 -----BEGIN PGP MESSAGE-----
@@ -1895,5 +1900,5 @@ compromisos fallados q en este caso seria el lolo.
 
 * registros provisorios
 | fecha            | ins | hora | almuerzo | cena | Ncag |
-| [2022-11-26 Sat] | *   |  4-5 |          |      |      |
+| [2022-11-26 Sat] | *   |  4-5 |          |      | 3/10 |
 |                  |     |      |          |      |      |

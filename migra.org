@@ -1296,7 +1296,7 @@ um: [2022-11-18 Fri] 2am (3am 20mg)
 | 6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
 | 7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
 | 8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --   |
-| 9 | [2022-11-26 Sat] |        |      | --     | --   |      | 1ibu |
+| 9 | [2022-11-26 Sat] | 8.00am | 20mg | --     | --   |      | 1ibu |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1385,4 +1385,5 @@ transcurso del dia, sin contar esa primera media horita de la mañana.
 hoy me levanto mal, con un insomnio largo como ayer, pero signado por
 un gas intenso, solo dormi un ratito mas y me levanto con dolor de
 cabeza. Lo estuve postergando toda la noche al dolorcillo sin querer
-tomarme ibu pq ayer no tome y me tome uno a las 6.30.
+tomarme ibu pq ayer no tome y me tome uno a las 6.30. El dolor mejoro,
+y tome a las 8 el corty. (otros malestares que no tienen nada que ver aparecieron)

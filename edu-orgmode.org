@@ -301,3 +301,15 @@ M-S-left  borra columna
 M-S-up    borra fila
 M-S-down  agrega fila
 C-C -     agrega linea divisoria
+* listas desordenadas
+1) con + - *
+2) M-RET agrego otro renglon
+3) con S-Left ciclo tipos de bullets o C-c -
+4) M-Left-Right promote/demote
+5) M-Up-Down subo bajo el renglon
+6) C-c * transforma una entrada en un titulo
+7) C-c C-* transforma toda la lista en titulos sin tener que resaltarla
+8) C-c ^ ordena la lista con un criterio que te da a eleccion.
+* ordenar los elementos de un heading en org-mode
+C-c ^ eso abre un menu de multiples opciones en minuscula para asc y
+mayusculas para desc.

@@ -356,7 +356,7 @@ muy util seria para navegar rapidamente no solo entre clases, sino entre definic
 y partes de sectores densos.
 Incluso si se pone el titulo del sector denso como comentario es facil transitarlo.
 
-* DONE Emacs basicos :anki:
+* Emacs basicos
 CLOSED: [2018-10-29 Mon 12:19]
 - State "DONE"       from "TODO"       [2016-12-15 jue 13:39]
 - State "DONE"       from "TODO"       [2016-11-12 sáb 23:07]
@@ -494,13 +494,11 @@ Auto Ocurrence Display para navegar de una entre las partes.
 Vendria a ser una ventanita mucho mejor que el F4 de vim, pero hay que
 hacerla a mano. y con la profundidad que uno quiera
 
-** tab search
+** tag search
 
 M-. busqueda en tags en un archivo generado por etags. y te lleva al
 file que sea. Util para ir a librerias.
 
-* Hace falta
-** una navegacion a ultimos cambios como en vim
 * git
 
 comandos basicos
@@ -547,19 +545,7 @@ Lo que si si cerramos el buffer la marca nos dice que el buffer no
 existe y la marca ya se pierde, o sea que al cerrar el buffer se borra
 la marca.
 
-* listas desordenadas
-
-1) con + - *
-2) M-RET agrego otro renglon
-3) con S-Left ciclo tipos de bullets o C-c -
-4) M-Left-Right promote/demote
-5) M-Up-Down subo bajo el renglon
-6) C-c * transforma una entrada en un titulo
-7) C-c C-* transforma toda la lista en titulos sin tener que resaltarla
-8) C-c ^ ordena la lista con un criterio que te da a eleccion.
-
 * corrector ortografico
-
 instalar aspell-es
 luego M-$
 es muy bueno mejor que el de google
@@ -569,23 +555,9 @@ corregia igual que google y me desesperaba pq tenia que terminar el
 trabajo y lo hice en emacs y me lo corrigio perfecto.
 Asi pienso que es todo emacs para el que lo sabe usar, me imagino que
 con el mail tambien.
-
-
 * check-parens
 cuando tenemos problemas en init.el ese comando nos puede salvar las
 papas.
-
-* ordenar los elementos de un heading en org-mode
-C-c ^ eso abre un menu de multiples opciones en minuscula para asc y
-mayusculas para desc.
-
-
-* intento de jump en forma mas segura
-en evil tengo C-o C-i pero no anda tan bien como en vim.
-baje un paquete y keybindie A-o A-i y para setear F9. tiene la
-ventaja/desventaja de que uno tiene que setear la marca manualmente.
-* mejoras a ido
-en lo posible. por empezar puse ido-vertical
 * rapidez en el teclado
 xset r rate 150 255
 -- a ese radio es inusable en fedora
@@ -601,32 +573,48 @@ C-s s guardamos todo usando la opcion ! (all).
 en especial MsMi y varias para ver
 * embarck C-, y alli veo las opciones
 en especial ir hacia la definicion
-* lsp - space l  y de alli veo las opciones
 * Ctrl X- TAB indentacion
 * Ctrl X- v = diff del buffer actual
-* Ctrl j - hippie-expand
-una gran ayuda a la completion en la realidad y bindeado a un shortcut
-comodo, dejando el emmet a su natural Ctrl-Ret.
+en realidad uso agitate-diff-buffer-or-file que abarca un poquito mas
+que este comando. Bindeado y muy usado a F9.
+* M-/ a dabbrev-completion
+antes bindie hippie-expand pero me resulto inutil en muchos aspectos y
+deje el dabbrev-completion vainilla.
 * M-< ir al comienzo y M-> ir al final
 alt-< va al comienzo
 alt-Shift-< va al final
 me resulta mas comodo que las opciones de meow {b y }b
 * M-m en corfu para llevar el menu al minibuffer
 muy bueno para cuando hay mucho para buscar y el minibuffer permite
-busquedas mas orderless
+busquedas mas orderless.
+update: ya casi no hace falta con la posibilidad de usar el <SPC> en
+el popup.
 * v en meow es fascinante
 es la busqueda que en evil era / pero en forma mucho mas acertada pq
 tiene historial y te muestra lo que hay en el buffer. Mejor no puede haber.
-* M-? x-ref en el buffer o en otros bufferes
+* x-ref
+x-ref bindeado a M-. busca en un TAG que generamos y nos muestra la
+definicion.
 xref-find-references
 te busca en el proyecto.
 * vr visualreplace  5
 replace visual en region
+Estuve usando ultimamente C-M-% pero erraticamente no marca como
+visual replace.
+bindie un comando vr/query-replace a C-M-% que funciona con todos los
+chiches de vr/ y el formato del vainilla o sea ir uno a uno, cancelar
+a la mitad, etc.
 * Ctrlf
-reemplaza a los de fabrica c-s c-r cm-s etc con mucho mas polenta
+reemplaza a los de fabrica c-s c-r cm-s etc con mucho mas polenta.
+He estado teniendo problemas con Ms-. isearch-forward-symbol-at-point
+pq me deja el buffer vacio y con una sola palabra la buscada. Y el
+tema es que lo disparo cuando esta vigente una busqueda. El tema es
+que debo terminar las busquedas con <RET>. Y eso no se hace
+normalmente y se deja abierto el buscador.
 * git-timemachine
 sobre un buffer manejado con git muestra el ultimo snapshot y con n p
 vamos adelantando atrasando en el tiempo.
+update: lo desinstale pq la utilidad esta incluida en magit
 * magit l --file
 permite elegir el archivo que queremos y ahi vamos a la verdadera
 maquina del tiempo.
@@ -640,3 +628,14 @@ con Cu- lo del buffer
 Ves los buffers | files | bookmarks
 o bien tipeas el nombre o con Ctrl-up/down vas de bloque en bloque y
 alli los tenes a todos.
+update: poniendo m <SPC> | f<SPC> | b<SPC> buscas bookmarks, files o
+buffers alternativamente.
+* org-toggle-link-display
+es autodescriptivo permite editar los links, cambiando su display, a
+la forma textual.
+* vr/mark && multiples cursores
+vr/mark bindeado a F2 permite una busqueda regexp dentro de una region
+y te coloca el cursor al final de todos los resultados. Muy simple y
+muy efectivo.
+Luego editas con multiple cursor y apretas <RET> para desactivar el
+mode multiple cursor.

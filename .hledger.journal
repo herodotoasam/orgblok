@@ -13235,3 +13235,9 @@ D $1000.00
 2022-11-25 diff
     expenses:diferencia-arqueo   $ 550
     assets:caja   $ -550
+
+2022-11-26 mesada ih
+    expenses:isabel   $ 15000
+    expenses:comida   $ 4000  ;# comida domingo
+    expenses:casa:mantenimiento   $ 1000 ;# arreglo techo dpto
+    assets:caja   $ -20000

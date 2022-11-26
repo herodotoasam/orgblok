@@ -1235,7 +1235,12 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-20 Sun]
 *** [2022-11-26 Sat]
 :LOGBOOK:
-CLOCK: [2022-11-26 Sat 07:28]
+CLOCK: [2022-11-26 Sat 10:45]--[2022-11-26 Sat 12:28] =>  1:43
+emacs: repaso integral de edu-emacs
+CLOCK: [2022-11-26 Sat 09:00]--[2022-11-26 Sat 09:16] =>  0:16
+emacs: denote de importar gpg
+CLOCK: [2022-11-26 Sat 07:28]--[2022-11-26 Sat 07:47] =>  0:19
+hice alias para mirror global
 CLOCK: [2022-11-26 Sat 06:47]--[2022-11-26 Sat 07:28] =>  0:41
 quise separar fl5 a github romitex pero no pude.
 :END:
@@ -2712,11 +2717,12 @@ SCHEDULED: <2022-12-13 Tue .+1m>
 :END:
 ospe - claro - municipal
 **** backup
-SCHEDULED: <2022-11-26 Sat .+3d>
+SCHEDULED: <2022-11-29 Tue .+3d>
 :PROPERTIES:
-:LAST_REPEAT: [2022-11-23 Wed 20:17]
+:LAST_REPEAT: [2022-11-26 Sat 07:40]
 :END:
 :LOGBOOK:
+- State "DONE"       from ""           [2022-11-26 Sat 07:40]
 - State "DONE"       from ""           [2022-11-23 Wed 20:17]
 - State "DONE"       from ""           [2022-11-20 Sun 19:35]
 - State "DONE"       from ""           [2022-11-16 Wed 11:51]
@@ -2761,4 +2767,7 @@ Neurologia/Psiquiatria
 **** DONE pedir cortypiren
 CLOSED: [2022-11-22 Tue 11:35] SCHEDULED: <2022-11-22 Tue>
 **** update pc local
-SCHEDULED: <2022-11-25 Fri>
+SCHEDULED: <2022-12-03 Sat>
+:LOGBOOK:
+- Rescheduled from "[2022-11-25 Fri]" on [2022-11-26 Sat 07:40]
+:END:
