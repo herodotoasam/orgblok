@@ -13223,3 +13223,15 @@ D $1000.00
 2022-11-24 devolucion dolares Fede
     assets:reserva-dol   u$s 350
     assets:deudores   u$s -350
+
+2022-11-25 farmacia hospital italiano
+    expenses:gastos-medicos:farmacia   $ 4000
+    assets:caja   $ -4000
+
+2022-11-25 hiper
+    expenses:comida   $ 610
+    assets:caja   $ -610
+
+2022-11-25 diff
+    expenses:diferencia-arqueo   $ 550
+    assets:caja   $ -550

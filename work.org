@@ -1068,6 +1068,13 @@ CLOSED: [2022-11-20 Sun 11:01]
 chrome y firefox
 Solucionado  [[file:20221120T104743--bug-chrome-firefox-mobiles__bug.org][ver bug]]
 
+*** DONE agregar garante a pasado de ventas
+CLOSED: [2022-11-25 Fri 18:19]
+solo queda pendiente el tema update de las garantias ya en curso pero
+hay que ponerlas correctamente en la venta correspondiente, o sea hay
+que hacerlo con la venta en la mano.
+
+
 ** TODO whatsapp de imagenes
 ** TODO folleto automatico
 ** TODO concepto de analisis automatico efectividad de promocion
@@ -1219,9 +1226,29 @@ cuenta que puede ser perseguido por impositiva.
   dato.
 + [X] estimados a cobrar tiene el eje x erroneo no es num de cobradores
   es mes
++ [X] poner entrada en menu especial auditoria para user hfj024 o hfj050
+  ej log y los otros que genere. Para no pulular el sistema.
++ [ ] borrar codigo comentado en todos los templates cuando borramos el
+  botonaje.
 
 * agenda de actividad
 ** semana [2022-11-20 Sun]
+*** [2022-11-25 Fri]
+:LOGBOOK:
+CLOCK: [2022-11-25 Fri 19:10]--[2022-11-25 Fri 19:29] =>  0:19
+agregue Auditoria
+CLOCK: [2022-11-25 Fri 18:25]--[2022-11-25 Fri 19:10] =>  0:45
+data mining: zonas
+CLOCK: [2022-11-25 Fri 16:00]--[2022-11-25 Fri 16:46] =>  0:46
+seteando password en vivaldi y sitios alternativos en github/lab
+CLOCK: [2022-11-25 Fri 10:52]--[2022-11-25 Fri 12:20] =>  1:28
+casi termino el tema garantia
+CLOCK: [2022-11-25 Fri 09:39]--[2022-11-25 Fri 10:38] =>  0:59
+CLOCK: [2022-11-25 Fri 08:35]--[2022-11-25 Fri 08:55] =>  0:20
+defino los alcances del tema garante a pasado de ventas
+CLOCK: [2022-11-25 Fri 07:12]--[2022-11-25 Fri 07:38] =>  0:26
+inicio del dia
+:END:
 *** [2022-11-24 Thu]
 :LOGBOOK:
 CLOCK: [2022-11-24 Thu 18:50]--[2022-11-24 Thu 20:05] =>  1:15
@@ -2727,3 +2754,5 @@ SCHEDULED: <2022-12-26 Mon>
 Neurologia/Psiquiatria
 **** DONE pedir cortypiren
 CLOSED: [2022-11-22 Tue 11:35] SCHEDULED: <2022-11-22 Tue>
+**** update pc local
+SCHEDULED: <2022-11-25 Fri>

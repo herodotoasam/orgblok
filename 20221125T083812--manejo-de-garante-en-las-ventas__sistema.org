@@ -1,0 +1,62 @@
+#+title:      manejo de garante en las ventas
+#+date:       [2022-11-25 Fri 08:38]
+#+filetags:   :sistema:
+#+identifier: 20221125T083812
+
+en realidad el garante se da por venta. O sea un documento esta
+garantizado, no un cliente. Si esa venta se cancela y la proxima no se
+firma con garantia no podemos hacer nada.
+Esa situacion en tablas se debe reflejar en que el campo garantizado
+tiene que estar en tabla ventas.
+
+La unica confusion es que en el "pasado de la venta" el dni del
+garante se pone en la zona de clientes.
+
+Campos a agregar en tabla ventas: garantizado int, dnigarante int
+fk__clientes.dni (el fk no se puede hacer asi que la validacion del
+dni tiene que ser hecha al ingresar la venta.)
+
+Al pasar la venta el procedimiento seria:
++ poner el dni del garante: chequear el dni en la base de clientes, si
+  existe mostrar una notificacion con el nombre y direccion para
+  corroborar, si no existe emitir error.
++ poner en el campo msgcobrador que la cuenta esta garantizada por tal
+  persona.
++ insertamos en tabla ventas garantizado=1 y dnigarante=dni
+
+Modificaciones en clientes
+Para que el cliente pueda mostrar informacion sobre las garantias hay
+hacer trigger que manejen un campo garantizado en tabla clientes.
+
++ un tag que diga que tiene garante con un link al garante (que el tag
+  por supuesto aparezca mientras la venta garantizada este deudora)
++ posibilidad de edicion para anotar garantias de documentos
+  anteriores que vayan apareciendo. (lo cual tendria que hacerse en
+  editar ventas, no en editar clientes)
+
+Otras aplicaciones de la lista de garantes
+La lista seria obtenida de filtrar ventas por garantizado=1 and
+saldo>0.
++ listar en Fichas los garantes de cuentas deudoras para que se pueda
+  mandar un mensaje adhoc que automaticamente lo linkara al deudor.
+
+
+Triggers para mantener los campos garantizado y dnigarante de clientes
+insert de ventas:
+#+begin_src sql
+  if new.garantizado=1 then
+  update clientes set garantizado=1,dnigarante=new.dnigarante where id=new.idcliente;
+  end if;
+#+end_src
+update de ventas cuando se cancela una una venta:
+#+begin_src sql
+  if new.garantizado=1 and new.saldo=0 then
+  update clientes set garantizado=(select sum(garantizado) from ventas where idcliente=new.idcliente and saldo>0) where id=new.idcliente;
+  end if;
+#+end_src
+delete venta
+#+begin_src sql
+  if old.garantizado=1 then
+  update clientes set garantizado=(select sum(garantizado) from ventas where idcliente=old.idcliente) where id=old.idcliente;
+  end if;
+#+end_src

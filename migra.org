@@ -1288,14 +1288,15 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| 1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | ibu  |
+| 1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | 1ibu |
 | 2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |      |
 | 3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu |
 | 4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu |
 | 5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
 | 6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
 | 7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
-| 8 | [2022-11-25 Fri] |        |      |        |      |      |      |
+| 8 | [2022-11-25 Fri] | 7.00am | 20mg |        |      |      |      |
+| 9 | [2022-11-26 Sat] |        |      | --     | --   |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1374,3 +1375,9 @@ Me termine tomando el 2ibu, pero no me hizo nada, al contrario se me
 intensifico el dolor, pienso que me hace mal el aire frio, pero si
 apago el aire me cocino, hace 40º. Adelante la toma a las 7.30pm y
 sigo trabajando en emacs y se me va pasando pienso.
+*** [2022-11-25 Fri]
+me levante bien a las 6.30 pero tuve un largo insomnio como de una
+hora entre las 4 y las 5. Cuando termino de desayunar siento la cabeza
+como si tuviera un casco puesto de algodones insertados dentro.
+De todos modos el dia de hoy fue uno de los que mejor me senti en el
+transcurso del dia, sin contar esa primera media horita de la mañana.

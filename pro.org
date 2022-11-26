@@ -6013,7 +6013,7 @@ tenerlo a mano.
 Hoy es un dia que no salio tan mal. Upgradie sin problemas fedora, y
 programe bastante, lo unico que me levante muy temprano y por eso el
 dia me parece tan largo.
-**** [2022-11-17 Thu]
+**** [2022-11-17 Thu] identidad escribiendo en Emacs
    'Escribir se  ha convertido  en parte de  mi identidad.  paso horas
    delante de Emacs cada día escribiendo  lo que hago y organizando mi
    día.  Por extensión,  tener un  blog me  permite extender  más esta
@@ -6079,6 +6079,12 @@ dia me parece tan largo.
   o no, es algo raro.
   Muy lindo estudiar elisp de a poco. Le voy entendiendo, no es que le
   dedique mucho pero es algo. Y me gusta.
+**** [2022-11-25 Fri]
+  lo que noto en estos ultimos tiempos que el desarrollo es mas claro
+  con la herramienta afilada, y que estoy trabajando mas lentamente
+  pero mas cuidadosamente.
+  Cada vez que aprendo algo nuevo me facilita mas el trabajo, y
+  tambien afila mi forma de pensar.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando
@@ -7002,8 +7008,7 @@ Pienso que la estrategia de estudio para que sirva tiene que ser hecha
 ** semana [2022-10-30 Sun] :emacs:flask:javascript:alpinejs:elisp:
 ** semana [2022-11-06 Sun] :emacs:elisp:
 ** semana [2022-11-13 Sun] :emacs:
-** semana [2022-11-20 Sun] :emacs:elisp:
-
+** semana [2022-11-20 Sun] :emacs:elisp:vivaldi:
 * agenda emacs
 ** [2020-07-04 Sat]
 *** powerline

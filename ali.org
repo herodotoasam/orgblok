@@ -9651,3 +9651,25 @@ mi casita con los medios para hacer frente a esa adversidad.
 Caso contrario se produce una contradiccion o una tension, pq si el
 tiempo es muy bueno y da para salir y uno esta dentro encerrado como
 un topo entonces hay un tension subyacente que te molesta.
+** [2022-11-25 Fri]
+hoy otro dia que se perfila de extremado calor, son las 7.30 y hace
+calor dentro del living. Dice que hoy llegamos a los 40º tambien.
+Y yo en medio de la cortiterapia un poco echo bosta de todos lados, pq
+me afecta el insomnio y no estoy durmiendo bien. Y me sigue doliendo
+el cuello.
+Felizmente estos 8 dias no me ha pegado mucho el dolor de cabeza como
+para impedirme las funciones, pero no he estado bien del todo.
+En la mañana me mejore bastante, luego que fui al hiper. Espero poder
+dormir una buena siesta. El aire no da a basto. En los ultimos dias un
+ratito de aire me hacia frio, ahora no enfria casi. Pero esta
+agradable.
+Me dormi una siesta magnifica de casi dos horas y dormi bien, luego me
+levante a ver a escuchar el partido de la tarde mientras programaba y
+toda una tarde ok, sin tomar ibu.
+Pero me invade el aburrimiento, o sea lo que programo y hago en el
+sistema lo hago muy rapido, y no tengo ahi mismo el impulso para
+ponerme a estudiar elisp.
+Lo que se me ocurre es ir haciendo las partes tediosas o sea la
+correccion py, el data mining. Voy a probar.
+Funciona pq te consume tiempo y te para un poco. Y de paso vas sacando
+cosas que no tenes ganas de hacer despues.
