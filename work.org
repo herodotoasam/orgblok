@@ -1233,6 +1233,12 @@ cuenta que puede ser perseguido por impositiva.
 
 * agenda de actividad
 ** semana [2022-11-20 Sun]
+*** [2022-11-26 Sat]
+:LOGBOOK:
+CLOCK: [2022-11-26 Sat 07:28]
+CLOCK: [2022-11-26 Sat 06:47]--[2022-11-26 Sat 07:28] =>  0:41
+quise separar fl5 a github romitex pero no pude.
+:END:
 *** [2022-11-25 Fri]
 :LOGBOOK:
 CLOCK: [2022-11-25 Fri 19:10]--[2022-11-25 Fri 19:29] =>  0:19

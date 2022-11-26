@@ -302,6 +302,11 @@ me tome un factor ag y me estoy mejorando pero todavia no he
 desayunado nada. Puede ser el ibu que tome hace 3hs.
 A la tarde lo mismo, pero esta vez luego de levantarme de la siesta,
 sin mas aviso siento el gas, pero no tanto como la mañana.
+[2022-11-26 Sat] de nuevo otro ataque de gas pero casi a la madrugada,
+luego del insomnio, esta vez fuerte, me tome el factor-ag y tuve que
+levantarme a caminar, y luego me dormi y me levanto y sigo con el
+problema, menos mal que estoy dispuesto a levantarme, pq si quisiera
+seguir durmiendo me seguiria molestando.
 *** insomnio
 [2022-11-24 Thu]
 no lo habia puesto como sintoma pq creia que era por los corticoides
@@ -311,6 +316,9 @@ lo mismo tengo sueño y cada dia me despierto mas temprano.
 Pude dormir una buena siestita no muy larga pero confortable, me
 duermo con una  enumeracion liviana. Pero es como que no supiera bien
 si estoy dormido.
+[2022-11-26 Sat]
+de nuevo el insomnio, ayer tambien aunque no lo registre, casi una
+hora entre las 4 y las 5.
 *** [2021-08-19 Thu] migraña
    tuve toda la tarde con dolor intermedio un dia con dos migrales uno
    a las 5am y uno a las 5pm, y a las 8pm me acuesto y a las 9pm el
@@ -832,6 +840,10 @@ actualmente estoy tomando 50mg
 actualmente estoy tomando 75mg
 ** DONE cannabis
 abandonado el [2022-10-16 Sun] sin pena y sin gloria.
+** factor-ag
+[2022-11-24 Thu]
+[2022-11-26 Sat]
+
 * cefaleico
 ** 2017
 *** [2017-09-19 mar]
@@ -1880,3 +1892,8 @@ compromisos fallados q en este caso seria el lolo.
 | 6 | [2022-11-10 Thu] |   |
 |   |                  |   |
 |   |                  |   |
+
+* registros provisorios
+| fecha            | ins | hora | almuerzo | cena | Ncag |
+| [2022-11-26 Sat] | *   |  4-5 |          |      |      |
+|                  |     |      |          |      |      |
