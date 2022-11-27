@@ -60,3 +60,11 @@ delete venta
   update clientes set garantizado=(select sum(garantizado) from ventas where idcliente=old.idcliente) where id=old.idcliente;
   end if;
 #+end_src
+
+
+Desde el punto de vista del garante:
++ habria que agregar un campo esgarante que marcara que cierta persona
+es garante de alguien en estos momentos.
++ habria que actualizar los triggers para mantener ese campo.
++ ese campo permitiria poner un tag en la vista cliente y buscar los
+  garantizados, para automatizar los mensajes.

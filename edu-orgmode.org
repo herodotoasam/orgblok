@@ -249,16 +249,6 @@ desarrollos de la idea y focalizar sobre los encabezados.
 *** diario secuencial
 *** temas con entidad propia
 *** anki temal o articular
-
-
-
-
-
-
-
-
-
-
 * your life in plain text
 ** [2017-10-04 mié]
 1. que se pueden tener distintos archivos dentro del directorio para
@@ -267,13 +257,13 @@ desarrollos de la idea y focalizar sobre los encabezados.
 2. que se puede poner en agenda directamente el directorio y no los
    archivos individuales eso hace que se agende todo.
 * plain list
-- C-c * toggle plain list to outlines
-- C-c - cycle the entire plain list througth diferent
++ C-c * toggle plain list to outlines
++ C-c - cycle the entire plain list througth diferent
   itemize/enummerate bullets
-- C-c ^ sort the plain list
-- [ ] cualquier item de una plain list puede ser un checkbox si le
++ C-c ^ sort the plain list
++ [ ] cualquier item de una plain list puede ser un checkbox si le
   ponemos [ ]
-- C-c toggle checkbox
++ C-c toggle checkbox
 * todo sobre "TODOs"
 + establecer per file el tipo de todos que vamos a implementar incluso
   con distintos flujos de trabajo. La barra separa las acciones que

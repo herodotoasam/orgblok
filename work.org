@@ -1230,11 +1230,25 @@ cuenta que puede ser perseguido por impositiva.
   ej log y los otros que genere. Para no pulular el sistema.
 + [ ] borrar codigo comentado en todos los templates cuando borramos el
   botonaje.
++ [ ] gestion garantes: poner un listado en Fichas, de garantizados.
+  fijarse como seria el flujo de trabajo con los vinculos a garante y
+  esas cosas. En fichas tenes la lista, vas al link, luego apretas el
+  tag garante y abris el garante y le mandas el boton programado de
+  intimacion al garante. No puedo hacer un msg automatico pq un
+  garante puede garantizar mas de un deudor. Para eso tendria que
+  tener una consulta que me mostrara sus garantizados y listara los
+  whatsapp de reclamo garantia de deudores. Tambien podria haber un
+  tag azul, ES GARANTE y un tbls abajo con los garantes y la situacion
+  de los garantes. para ver si podemos decidir venta.
 
 * agenda de actividad
 ** semana [2022-11-27 Sun]
 *** [2022-11-27 Sun]
 :LOGBOOK:
+CLOCK: [2022-11-27 Sun 09:00]--[2022-11-27 Sun 10:00] =>  1:00
+pasado de los garantes
+CLOCK: [2022-11-27 Sun 07:30]--[2022-11-27 Sun 08:58] =>  1:28
+tiempo perdido para hacer una segunda cuenta de github.
 CLOCK: [2022-11-27 Sun 07:05]--[2022-11-27 Sun 07:16] =>  0:11
 inicio
 :END:
