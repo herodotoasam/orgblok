@@ -12,6 +12,9 @@
 ** fedora
 ** i3
 ** vivaldi
+** git
+*** [[denote:20221127T124248][usar multiples cuentas github]]
+
 * lenguajes de programacion
 ** javascript
 *** [[denote:20221108T092611][error comun de usar "in" en vez de usar includes]]

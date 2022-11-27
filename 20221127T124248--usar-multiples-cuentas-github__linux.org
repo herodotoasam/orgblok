@@ -1,0 +1,28 @@
+#+title:      usar multiples cuentas github
+#+date:       [2022-11-27 Sun 12:42]
+#+filetags:   :linux:
+#+identifier: 20221127T124248
+
+Hay que hacer un ~/.ssh/config
+#+begin_src bash
+# GitHub Romitex
+Host github.com
+HostName github.com
+User git
+AddKeysToAgent yes
+IdentityFile ~/.ssh/id_rsa
+
+# GitHub org
+Host github.com-org
+HostName github.com
+User git
+AddKeysToAgent yes
+IdentityFile ~/.ssh/heroasam
+#+end_src
+
+En el set-url del repositorio poner el nombre que le asignamos al host
+en este caso github.com-org
+
+#+begin_src git
+git remote set-url origin git@github.com-org:herodotoasam/orgblok.git
+#+end_src
