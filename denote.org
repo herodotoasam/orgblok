@@ -10,6 +10,7 @@
 *** [[denote:20221124T194106][xref en el proyecto - generacion de TAGS por etags]]
 *** [[denote:20221126T091315][crear gpg keys exportar e importar]]
 ** fedora
+*** [[denote:20221127T202429][Guia de reinstalacion fedora]]
 ** i3
 ** vivaldi
 ** git

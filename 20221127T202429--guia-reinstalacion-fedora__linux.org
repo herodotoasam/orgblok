@@ -1,0 +1,17 @@
+#+title:      guia reinstalacion fedora
+#+date:       [2022-11-27 Sun 20:24]
+#+filetags:   :linux:
+#+identifier: 20221127T202429
+
+Guia de instalacion (kubuntu.org)
+
+* fonts
+restaurar las fonts en /usr/share/fonts/
+actualizar cache con fc-cache -v
+
+* soft-links
+ssh config en ~/.ssh  y .bashrc en ~
+#+begin_src bash
+ln -s ~/orgblok/.dotfiles/.ssh/config
+ln -s ~/orgblok/.dotfiles/bash/.bashrc
+#+end_src
