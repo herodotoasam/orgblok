@@ -14,6 +14,7 @@
 ** vivaldi
 ** git
 *** [[denote:20221127T124248][usar multiples cuentas github]]
+*** [[denote:20221127T164626][manejo de orgblok en git]]
 
 * lenguajes de programacion
 ** javascript

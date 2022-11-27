@@ -1,0 +1,24 @@
+#+title:      manejo de orgblok en git
+#+date:       [2022-11-27 Sun 16:46]
+#+filetags:   :git:
+#+identifier: 20221127T164626
+
+Usamos el sistema de multiples cuentas para github u otros
+proveedores, para lo cual tenemos que hacer un config para la carpeta
+~/.ssh. Dicho archivo se llama config
+Lo pongo en el directorio de .emacs.d/ para gitearlo por separado y
+hago un ln -s  en ~/.ssh con
+ln -s ~/.emacs.d/config config    [[denote:20221127T124248][Usar multiples cuentas con github]]
+
+El git remote -v  de orgblok es el siguiente:
+origin	git@github.com-org:herodotoasam/orgblok.git (fetch)
+origin	git@github.com-org:herodotoasam/orgblok.git (push)
+
+(el paragraphap de la clave heroasam es ataraxia, pero ya voy a crear
+otras en otra maquina e incluso puedo hacerlo en esta)
+
+El kid es el config de .ssh que hace que bitbucket.org-org lleve a
+otra clave, y alli pondremos la clave.
+
+De esta manera quedaria separado orgblok del repositorio principal de
+heroasam. Un primer paso para separar los escritos.
