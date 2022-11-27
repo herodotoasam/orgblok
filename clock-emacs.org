@@ -1,10 +1,10 @@
 #+BEGIN: clocktable :scope file :maxlevel 2
-#+CAPTION: Clock summary at [2022-11-18 Fri 19:38]
+#+CAPTION: Clock summary at [2022-11-27 Sun 07:15]
 | Headline             | Time       |      |
 |----------------------+------------+------|
-| *Total time*         | *6d 16:55* |      |
+| *Total time*         | *7d 20:54* |      |
 |----------------------+------------+------|
-| emacs                | 6d 12:23   |      |
+| emacs                | 7d 13:21   |      |
 | \_  [2022-09-17 Sat] |            | 1:31 |
 | \_  [2022-09-20 Tue] |            | 2:43 |
 | \_  [2022-09-21 Wed] |            | 0:30 |
@@ -54,13 +54,24 @@
 | \_  [2022-11-15 Tue] |            | 2:36 |
 | \_  [2022-11-16 Wed] |            | 2:00 |
 | \_  [2022-11-17 Thu] |            | 2:07 |
-| \_  [2022-11-18 Fri] |            | 2:59 |
-| elisp                | 4:32       |      |
+| \_  [2022-11-18 Fri] |            | 3:43 |
+| \_  [2022-11-19 Sat] |            | 4:33 |
+| \_  [2022-11-20 Sun] |            | 2:21 |
+| \_  [2022-11-21 Mon] |            | 6:11 |
+| \_  [2022-11-22 Tue] |            | 4:16 |
+| \_  [2022-11-23 Wed] |            | 3:39 |
+| \_  [2022-11-24 Thu] |            | 1:15 |
+| \_  [2022-11-26 Sat] |            | 1:59 |
+| elisp                | 7:33       |      |
 | \_  [2022-10-31 Mon] |            | 1:00 |
 | \_  [2022-11-01 Tue] |            | 0:26 |
 | \_  [2022-11-13 Sun] |            | 1:12 |
 | \_  [2022-11-16 Wed] |            | 1:00 |
 | \_  [2022-11-17 Thu] |            | 0:54 |
+| \_  [2022-11-19 Sat] |            | 1:03 |
+| \_  [2022-11-22 Tue] |            | 0:51 |
+| \_  [2022-11-23 Wed] |            | 0:31 |
+| \_  [2022-11-24 Thu] |            | 0:36 |
 #+END:
 
 * emacs
@@ -500,6 +511,69 @@ CLOCK: [2022-11-19 Sat 15:49]--[2022-11-19 Sat 16:50] =>  1:01
 denote: archivo de evernote resaltados
 CLOCK: [2022-11-19 Sat 10:41]--[2022-11-19 Sat 12:34] =>  1:53
 emacs: prueba con otros init.el y un hero-emacs-elisp.el
+** [2022-11-20 Sun]
+CLOCK: [2022-11-20 Sun 20:05]--[2022-11-20 Sun 20:45] =>  0:40
+emacs: re-descubrimiento de imenu y practica con embark
+CLOCK: [2022-11-20 Sun 14:08]--[2022-11-20 Sun 14:25] =>  0:17
+emacs: achico tiempo corrigiendo ajustes eww.
+CLOCK: [2022-11-20 Sun 12:20]--[2022-11-20 Sun 12:46] =>  0:26
+emacs: achico el tiempo de inicio con defer
+CLOCK: [2022-11-20 Sun 11:55]--[2022-11-20 Sun 12:16] =>  0:21
+emacs: repaso de atajos
+CLOCK: [2022-11-20 Sun 11:00]--[2022-11-20 Sun 11:19] =>  0:19
+emacs: rectangles
+CLOCK: [2022-11-20 Sun 08:40]--[2022-11-20 Sun 08:58] =>  0:18
+emacs: varios
+** [2022-11-21 Mon]
+CLOCK: [2022-11-21 Mon 19:45]--[2022-11-21 Mon 20:18] =>  0:33
+emacs: jugando con nuevos themes
+CLOCK: [2022-11-21 Mon 19:10]--[2022-11-21 Mon 19:43] =>  0:33
+emacs: denote de help de emacs muy bueno.
+CLOCK: [2022-11-21 Mon 18:10]--[2022-11-21 Mon 19:08] =>  0:58
+emacs: atajos a teclas especiales y aprendizaje de la ayuda.
+CLOCK: [2022-11-21 Mon 17:18]--[2022-11-21 Mon 18:07] =>  0:49
+emacs: denote de regexp primera parte
+CLOCK: [2022-11-21 Mon 13:49]--[2022-11-21 Mon 14:15] =>  0:26
+emacs: atajos varios.
+CLOCK: [2022-11-21 Mon 12:55]--[2022-11-21 Mon 13:15] =>  0:20
+emacs: atajos y valoracion de occur
+CLOCK: [2022-11-21 Mon 10:25]--[2022-11-21 Mon 10:47] =>  0:22
+emacs: repaso a consult eliminacion de atajos muertos
+CLOCK: [2022-11-21 Mon 10:05]--[2022-11-21 Mon 10:21] =>  0:16
+emacs: arregle la completion para hledger sacando corfu.
+CLOCK: [2022-11-21 Mon 08:58]--[2022-11-21 Mon 10:05] =>  1:07
+emacs: tuneando dired
+CLOCK: [2022-11-21 Mon 06:53]--[2022-11-21 Mon 07:40] =>  0:47
+emacs: arreglo atajos. Y arreglos varios. Y repaso de macro/rectangulo/regexp.
+** [2022-11-22 Tue]
+CLOCK: [2022-11-22 Tue 22:00]--[2022-11-22 Tue 23:15] =>  1:15
+emacs: redes mastodont y matrix y bug de consult-ripgrep
+CLOCK: [2022-11-22 Tue 21:06]--[2022-11-22 Tue 22:00] =>  0:54
+emacs termino la prueba con eglot y corfu.
+CLOCK: [2022-11-22 Tue 19:32]--[2022-11-22 Tue 20:30] =>  0:58
+emacs: pruebas sobre eglot y corfu.
+CLOCK: [2022-11-22 Tue 12:04]--[2022-11-22 Tue 12:18] =>  0:14
+emacs: repaso help
+CLOCK: [2022-11-22 Tue 09:22]--[2022-11-22 Tue 10:00] =>  0:38
+emacs: hice una macro para reemplazar meow-line. Repaso atajos.
+CLOCK: [2022-11-22 Tue 06:36]--[2022-11-22 Tue 06:53] =>  0:17
+emacs: atajos nuevos voy sacando meow
+** [2022-11-23 Wed]
+CLOCK: [2022-11-23 Wed 18:40]--[2022-11-23 Wed 19:46] =>  1:06
+emacs: remodelando init algunas mejoras
+CLOCK: [2022-11-23 Wed 16:55]--[2022-11-23 Wed 17:30] =>  0:35
+emacs auto-save
+CLOCK: [2022-11-23 Wed 07:22]--[2022-11-23 Wed 09:20] =>  1:58
+emacs: autosave/revert/sistema-busqueda/log-compile
+** [2022-11-24 Thu]
+CLOCK: [2022-11-24 Thu 18:50]--[2022-11-24 Thu 20:05] =>  1:15
+emacs: xref generacion de TAGS con etags
+** [2022-11-26 Sat]
+CLOCK: [2022-11-26 Sat 10:45]--[2022-11-26 Sat 12:28] =>  1:43
+emacs: repaso integral de edu-emacs
+CLOCK: [2022-11-26 Sat 09:00]--[2022-11-26 Sat 09:16] =>  0:16
+emacs: denote de importar gpg
+:END:
 
 * elisp
 ** [2022-10-31 Mon]
@@ -524,3 +598,12 @@ elisp: repaso
 ** [2022-11-19 Sat]
 CLOCK: [2022-11-19 Sat 19:57]--[2022-11-19 Sat 21:00] =>  1:03
 elisp: mark-whole-buffer
+** [2022-11-22 Tue]
+CLOCK: [2022-11-22 Tue 15:45]--[2022-11-22 Tue 16:36] =>  0:51
+elisp: lectura y practica
+** [2022-11-23 Wed]
+CLOCK: [2022-11-23 Wed 20:10]--[2022-11-23 Wed 20:41] =>  0:31
+lisp: estudio
+** [2022-11-24 Thu]
+CLOCK: [2022-11-24 Thu 18:12]--[2022-11-24 Thu 18:48] =>  0:36
+elisp: estudio

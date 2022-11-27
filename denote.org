@@ -73,3 +73,5 @@
 ** [[denote:20221120T181455][estudio columna lumbar]]
 * elisp
 ** [[denote:20221120T201413][idea para hacer un package mejor para que imenu funcione con html]]
+** historia
+*** [[denote:20221126T125847][Cuando empece a usar emacs]]

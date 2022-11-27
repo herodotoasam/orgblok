@@ -224,6 +224,8 @@ cm desde el talon para arriba.
 varias oportunidades, luego de poco tiempo de lograr la relajacion
 previa a dormir, involuntariamente, pego como un salto, un espasmo de
 casi todo el cuerpo.
+[2022-11-26 Sat]siguen ocurriendo en distintas oportunidades, parece
+mas bien producto de una posision de la espalda que me los causa.
 **** perdida de la memoria de cortisimo plazo
 [2022-11-10 Thu] he notado en estos ultimos dias la perdida... no se
 de que estaba hablando... NO jaja. de la memoria a corto plazo. A
@@ -233,31 +235,32 @@ estaba trabajando.
 **** ardor :crypt:
 -----BEGIN PGP MESSAGE-----
 
-hQGMAwgb/w8r8tnHAQv/UgzmpCPrVSCyo1ZQPgSUvEXhTznZOcGakfqUY9+eZ0Wc
-1uBtSjlnUxdXSO5ASNO4Kx46POobZJNT21ThhRUea1FjdlX/+/g0wQxJmEB+Wsvz
-MfL7u59VLHIovBR4PGB3D7LUoBt9lR7TAVG8kdR8rNGyt5SE6UlRBmMjsHzZdfre
-ZNPcH3qwDIV58nW+NSrzwKoTj04cZ7UNpMrw6mME4kmk7urYKhcQwJPz8X67Uzzk
-ZAYjVnChbFvZoUK7KChVWwHmJGLqUxGiBbV6ZEdYJdugBeQJZ90YiKiCcGRaG/Tv
-o5CulZKV6rc3gjkhGOYPPaHvESgoQldjh31ZHX5oiUulCJs0vij57Jx1fl3eq2Ls
-eZLgvSVz57bm2hiOjaba+u3VTF8143Qk6KcbEasocxy+EUY0pXxePL2h4u70fDGr
-ec4q2Xf7GXkA5NhkBe1cTcNqJj5pAfDcgL2Ag5n0vnOTbEMnCuyaIMXIvlpyObnC
-fhHS6TEkIeY2rZVySdnK1OkBCQIQqHvnH95Od/TUUsBzD9xxHf/30L386ZEivf7L
-Zp/mW8RlkdpcIWD4xoRG+9bXprvvVdM9+Q9LqMdvXzX8N0pntWQlSsfNGpEPgKsM
-sNNb5W7SjQh8DfOjwvX7WpuCmE+Kgym6HC1nboQuG8mFvTnQ3OmKO/F+JzSXmTIP
-OCsh7NQCFfoI0sTTYKXBOiSL4FdEssxIwq8nMhwPy4PEgaiq+CIMMxINJxaEwOLV
-jA4ecMxwAb0kkO2vcDnM38aJVb8hTenBy28GA7r9wpQe5gPLvPKs2AnFbsWyQzZ+
-vjLQaJhUEzYe0Fs8g1i1eROdmFTSCX+bosvsGNS957NW1H/n3JWyGUpOHoiAm49n
-XEdukDzpFHUSzQO2qg0q4NZH/4YoOb3XrvUbbijnOrCmWnx4InRMngXJF4hOyOIK
-Vm90SZ5800oFhd4qj3Di80IRPhpPlWIQzaQH0Mx+ARjMRuyPm8Q13Qp3peq0FGkU
-Y31jk5ECijM3REz6Mpbm3qkeYMKEmfmaim1bepqbvP6WYOVBLBmlfVskkeTdqthb
-l/zyxgJFdd0BrSeiV5IdH8wRlALhQo0pBfiVDsJFfZXfXwzNRzHbSZmsazs8nh9Z
-UdG02/CmxwlnG858KuFfQ3ZMeso0oc6HhByU9kbCE9KT7qIzhlHlWmm+j3S1s4o0
-9MAOixMY50ql11vJU4RXSvi+nDSGkYWV15ykVBzlwU2FbfLuJ/GZ1cxstNehTBe2
-2zRyv0HotzpV2RSQ3h/HbBoPmWJcjbMzBsTrj0/rHElpO6P36i4AaPsoOM8XRpea
-IW6mdLBsBe5Ke2CkJVdCZKMkgXrhTInjKYe/JFYTMoGld7VrMqhHK8IIM6k0IFEw
-lCrd/58F+Gd6zlmL2qWgxQCkUcXO0OyX3//OzGUQv/f09O3BKPr81fir3CeOcgyW
-dE9pi8VMUmeqAxiBEOlHcEM=
-=E7il
+hQGMAwgb/w8r8tnHAQv9Fqfhk6J+nx3beL0ZOKNDFS5c7hoBP+F6Mbz9HL1Scye9
+au4nmdhYVAaip6IIBYuzCMg+z63XV5YpgSBk2F6H3Ys3gY//B8/Q3uXKzYk9trXs
+tc7OlGjVyqz6pHXWERp2G0qk6/7A2jczzWSEANVIKae5d091bK7sPfxhAov8RWSS
+Xx5yCQjVxZ5i1xUPMwqnubDhbZUXudVSqO0Vvxbbo8EuC62AjOgm0mnuYxRtwSkL
+E4V2ud2dhbHNy9GwLXV1oUXxzCHn/sztX2X2uWnqqjqWgs3C14SSm4uodW7QdWdx
+nHDP0NC8CtT+CUtykd/pW9J/YgUlwwaCc3k5m/qgnePTYeK4jVV0SWp1GtYXnHtb
+Kc+UD+yXthoHdLMGplJXR3Xw0Qm2ehyO6An0/a9Z6R8LOXQ5lFwiWNnhFdgcEFRI
+xhMvcWjgj9FXdbyxhbEEcRfN27A4CyuD2+Sb+pvJs2ZHVoZFPDt0XDj/sKDfTwA4
+BLknDuJm93H8LrTlwpT81OkBCQIQJIIXssanUo8uHLtIoDFZ6mIFcZMCL5T4dB7c
+GbOMDss9oNwqvZV+QMzXWm6sJ08pu6QV0sR6p5E/TnUSql7jOlzJT53AOb0kS3p9
+2Sd/Y3Huu3my4MIcm3d7CKqygGMbTgkq6wP6SMuvZQ1gbrxMu6jiBWcjs7/MTwrF
+JcuJLlHr8tMvgR/h2bZRlE5rl4Bc+SkX0jShrXuPO5nhWBKYAJMz4oHbl/0CUFXp
+KRF+JQPM4evNH5JhsxzZE1JmXD1+QpD1xNuZF7XziWGoZ7Sk07i78pInjoYvMsE3
+Nc0gtaA9/PM8eNOG332tJCVGrCxLW0yUFitmZw8/Tg1amYUE8BohwfLS8qwKX4dD
+vi/vuGv3+0iWQkB9C8sAquYjf1bD5G8+18OcRCdmqLMNtNFYOlyHOz8F+DY3gj2s
+yl9e9+mOb5HM4iGQQWGxJrysFvwmgIiD+t6jDkeXzZh/FsgR3usZMLmEqXKCKJPI
+mKvLuDm25J364p/b7Xy+udsm6EhNextqGDQN18lxtq2OtAZKQuS8iGSna5/B203C
+Q09Zu+bBCmzyQRjGjIcJCJxDLeMpSO8Za4GFOwDg5yxROYKwk9yxbED/ubD7swjO
+m7GFB3jFjcuNr195BCBVp3ksz7CN5j63E9u/yHe1cN3yUMC47O3V5IdWD6oQtl2W
+/MBL2GDM3EJV3GLMJYHtsblVdJjvZp9JBpBgn5yXOgiAZunRB5pTWNTlE82OX754
+RMTsRtsSLl50kVbqQ1z2wQ4w7grQMzmS0bnQ8gosYKE63aBNNQXsRKRHctNosG6s
+Ob7w6mt3AHrW1zbDqI2/RwD4QfvyPSiJDiwcw5ftc5dfidVGnBj7eYjKn3Lx1PD/
+oaBrAjttfu4S6+Qbke/ii0uHiaUF22oLUHZKePgy3cxbtcooaPs4dvktGcZzlPtq
+WwZruCqa866BXdrUc+dKwPeMqqre21AUiThPX9EgzXnwHj2rgtDQ33p4GVuvs9n+
+9Ay4I/66AxHztIGQJaftjLiEw357Qy5BnKyzPc2t
+=Sp7g
 -----END PGP MESSAGE-----
 *** smt :crypt:
 -----BEGIN PGP MESSAGE-----
@@ -311,7 +314,7 @@ sin mas aviso siento el gas, pero no tanto como la mañana.
 luego del insomnio, esta vez fuerte, me tome el factor-ag y tuve que
 levantarme a caminar, y luego me dormi y me levanto y sigo con el
 problema, menos mal que estoy dispuesto a levantarme, pq si quisiera
-seguir durmiendo me seguiria molestando.
+seguir durmiendo me seguiria molestando. Sin darme cuenta se me fue.
 *** insomnio
 [2022-11-24 Thu]
 no lo habia puesto como sintoma pq creia que era por los corticoides
@@ -1899,6 +1902,6 @@ compromisos fallados q en este caso seria el lolo.
 |   |                  |   |
 
 * registros provisorios
-| fecha            | ins | hora | almuerzo | cena | Ncag |
-| [2022-11-26 Sat] | *   |  4-5 |          |      | 3/10 |
-|                  |     |      |          |      |      |
+| fecha            | ins | hora | almuerzo    | cena | Ncag |
+| [2022-11-26 Sat] | *   |  4-5 | pollo asado |      | 3/10 |
+|                  |     |      |             |      |      |

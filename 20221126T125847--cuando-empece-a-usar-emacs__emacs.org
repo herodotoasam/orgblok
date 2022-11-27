@@ -1,0 +1,82 @@
+#+title:      Cuando empece a usar emacs
+#+date:       [2022-11-26 Sat 12:58]
+#+filetags:   :emacs:
+#+identifier: 20221126T125847
+
+busqueda en el archivo de los primeros pasos en emacs:
+por lo visto entre ahi por spacemacs breve tiempo. Ya solo diez dias
+despues se dio el primer vim-hell.
+* spacemacs
+** Entrada en modo de produccion con emacs
+<2016-09-18 dom>
+Este ha sido un domingo muy intenso debido a un ataque muy potente del virus
+patetico diletante.
+Comenzo el viernes o quizas el jueves con un vistazo a emacs, que me produjo
+que el viernes perdiera un par de horas.
+Y el finde entero estuvo destinado a la investigacion sobre la linea de trabajo
+sobre el tema.
+Con mucha frustracion porque no encontraba la forma de hacerlo funcionar.
+Hasta que comence por la base con las fichitas de los comandos basicos.
+Luego descubri org-mode.
+Luego los videos que vi sobre org-mode donde alucine en la forma en que acabadamente
+un tipo logro escribir tres libros sobre org que luego exporto a hlmt y/o pdf/latex.
+Y alli mismo me puse a trabajar en org, bastante bien al principio pq es rapido
+muy rapido y te muestra los resultados ahi mismo.
+Anoche que caigo rendido de cansancio pq no habia dormido bien las dos noches anteriores
+y en el proceso de la frustracion durante la noche concluyo que por mas que todo hubiera
+sido una perdida de tiempo me quedaba el haber conocido a org-mode que podria solucionar
+uno de los problemas de documentacion y base de conocimiento relativa a la programacion
+que no he podido resolver en los ultimos tiempos (años) sin suerte, como muchas experiencias
+que lei/vi en la web.
+Pero hoy despues de renegar un monton y tres migrales (lamentablemente) puse en produccion
+emacs para trabajar
+
+*** puesta en produccion de emacs
+
+Con spacemacs todo esta muy bueno pq es de configuracion simple y clara y tiene la
+posibilidad de ponerle cientos de themes muy buenos, al menos el que estoy usando ahora.
+
+*** spacemacs
+
+lo bueno es que tenes vim casi con todos los comandos y la rapidez que te da lo que ya
+sabes mas emacs y sus tres mil comandos y la posibilidad de programar abajo en lisp.
+
+
+* Emacs vs Vim
+
+[2016-09-28 mié]
+No esta definida a hoy la batalla. Se que ha pasado poco tiempo y uno
+no va a aprender todo en dos dias. Una cosa es entrar en produccion y
+otra es mastering.
+Y en el fondo creo que lo mejor es la produccion no la herramienta.
+Incluso a hoy un poco se me cae la utilidad de org-mode. Parte pq
+quedo en ese bache y parte por la forma en que se me hace complejo el
+escrito y sin orden.
+[2016-09-30 vie]
+Hoy la batalla dio un giro inesperado. Desde anoche me volvi
+rotundamente a vim. La idea es lograr un vim bien armonizado con un
+control de plugin bien hecho y fundamentalmente con un .vimrc hecho de
+cero.
+Aunque parezca mentira trabajo con un .vimrc de hace varios años y
+nunca lo revise. Entonces tiene parche sobre parche y al final no se
+lo que tiene.
+Lo que me llamo la atencion fue.
+1. la rapidez
+En realidad gvim abre en un segundo y esta listo. (Emacs puro tambien)
+2. la facilidad real para editar
+No puedo decir que no es rapido y facil, y tiene ciertas
+caracteristicas que son utiles a la hora de trabajar (que no he
+encontrado aun en emacs).
+
+Al final me decidi en realidad por un resultado dividido:
+a. Vim para programar
+b. Emacs para org-mode
+Total los dos son ultrarapidos y estan en todas las maquinas (no asi
+atom que es un mastodonte en la tablet y no se puede instalar en una
+i686).
+
+Pero tambien creo que hay mejoras en el uso de vim que pueden hacerlo
+muchisimo mas poderoso (que lo que yo lo estaba usando)
+[2016-10-01 sáb]
+Hoy puse en emacs evil, y parece que todo va muy rapido, al menos para
+seguir usando org-mode y punto.

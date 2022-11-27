@@ -1232,9 +1232,17 @@ cuenta que puede ser perseguido por impositiva.
   botonaje.
 
 * agenda de actividad
+** semana [2022-11-27 Sun]
+*** [2022-11-27 Sun]
+:LOGBOOK:
+CLOCK: [2022-11-27 Sun 07:05]--[2022-11-27 Sun 07:16] =>  0:11
+inicio
+:END:
 ** semana [2022-11-20 Sun]
 *** [2022-11-26 Sat]
 :LOGBOOK:
+CLOCK: [2022-11-26 Sat 18:46]--[2022-11-26 Sat 19:12] =>  0:26
+cambie las claves de mis usuarios. Deje un usuario comun.
 CLOCK: [2022-11-26 Sat 10:45]--[2022-11-26 Sat 12:28] =>  1:43
 emacs: repaso integral de edu-emacs
 CLOCK: [2022-11-26 Sat 09:00]--[2022-11-26 Sat 09:16] =>  0:16

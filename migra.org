@@ -1288,15 +1288,16 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-| 1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | 1ibu |
-| 2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |      |
-| 3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu |
-| 4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu |
-| 5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
-| 6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
-| 7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
-| 8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --   |
-| 9 | [2022-11-26 Sat] | 8.00am | 20mg | --     | --   |      | 1ibu |
+|  1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | 1ibu |
+|  2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |      |
+|  3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu |
+|  4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu |
+|  5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
+|  6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
+|  7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
+|  8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --   |
+|  9 | [2022-11-26 Sat] | 8.00am | 20mg | 7.30pm | 20mg | 1MIG | 2ibu |
+| 10 | [2022-11-27 Sun] |        |      |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1386,4 +1387,16 @@ hoy me levanto mal, con un insomnio largo como ayer, pero signado por
 un gas intenso, solo dormi un ratito mas y me levanto con dolor de
 cabeza. Lo estuve postergando toda la noche al dolorcillo sin querer
 tomarme ibu pq ayer no tome y me tome uno a las 6.30. El dolor mejoro,
-y tome a las 8 el corty. (otros malestares que no tienen nada que ver aparecieron)
+y tome a las 8 el corty. (otros malestares que no tienen nada que ver
+aparecieron). Luego vino el almuerzo y comi como loco, tome dos
+helados y vino el partido, y me agarro dolor de cabeza y tengo
+persistente, tengo ganas de hacer una excepcion y tomar hoy el corty y
+empezar a cortarlo mañana. Me segui sintiendo mal, el dolor aumento un
+monton. Me tome un te con galletas y queso, y el dolor llego a un un
+N7 y considere que no tenia ganas que sufrir largas horas de
+sufrimiento y me tome un migral. Fue eficiente en una hora mas o
+menos.
+*** [2022-11-27 Sun]
+la noche fue larguisima y signada por un largo insomnio. Un calor
+impresionante aunque yo estaba con aire y estaba joya, pero me levante
+a orinar como 10/12 veces. Me levanto a las 7 todo bien. Con bastante energia.
