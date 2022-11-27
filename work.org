@@ -1245,6 +1245,9 @@ cuenta que puede ser perseguido por impositiva.
 ** semana [2022-11-27 Sun]
 *** [2022-11-27 Sun]
 :LOGBOOK:
+CLOCK: [2022-11-27 Sun 15:49]
+CLOCK: [2022-11-27 Sun 12:25]--[2022-11-27 Sun 12:49] =>  0:24
+github multiples cuentas si pude hacerlo.
 CLOCK: [2022-11-27 Sun 09:00]--[2022-11-27 Sun 10:00] =>  1:00
 pasado de los garantes
 CLOCK: [2022-11-27 Sun 07:30]--[2022-11-27 Sun 08:58] =>  1:28
