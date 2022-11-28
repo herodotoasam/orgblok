@@ -1902,6 +1902,8 @@ compromisos fallados q en este caso seria el lolo.
 |   |                  |   |
 
 * registros provisorios
-| fecha            | ins | hora | almuerzo    | cena | Ncag |
-| [2022-11-26 Sat] | *   |  4-5 | pollo asado |      | 3/10 |
-|                  |     |      |             |      |      |
+| fecha            | ins | horas | almuerzo              | cena                    | Ncag |
+| [2022-11-26 Sat] | *   | 4-5   | pollo asado           | te con galletas y queso | 3/10 |
+| [2022-11-27 Sun] | *   | vario | pollo frio            | te con factura          | 0/10 |
+| [2022-11-28 Mon] | -   | ----  | pollo frio ens tomate |                         | 4/10 |
+|                  |     |       |                       |                         |      |

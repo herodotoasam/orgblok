@@ -614,3 +614,9 @@ en general en los otros major-modes tambien) abiertos en buffers. Y
 consult circunscribe solamente al buffer abierto.
 Util para ir en work al dia de hoy poniendo 11-21 p.e. o lo que sea la
 fecha de hoy.
+** folding via ts
+| s-c | ts-fold-close-all |
+| s-v | ts-fold-open-all  |
+|     | ts-fold-open      |
+|     | ts-fold-close     |
+|     | ts-fold-toggle    |

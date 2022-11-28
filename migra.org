@@ -1297,7 +1297,9 @@ um: [2022-11-18 Fri] 2am (3am 20mg)
 |  7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
 |  8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --   |
 |  9 | [2022-11-26 Sat] | 8.00am | 20mg | 7.30pm | 20mg | 1MIG | 2ibu |
-| 10 | [2022-11-27 Sun] |        |      |        |      |      |      |
+| 10 | [2022-11-27 Sun] | 8.00am | 20mg | ------ | ---- |      | --   |
+| 11 | [2022-11-28 Mon] | 7.00am | 20mg |        |      |      | 1ibu |
+|    |                  |        |      |        |      |      |      |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1400,3 +1402,9 @@ menos.
 la noche fue larguisima y signada por un largo insomnio. Un calor
 impresionante aunque yo estaba con aire y estaba joya, pero me levante
 a orinar como 10/12 veces. Me levanto a las 7 todo bien. Con bastante energia.
+*** [2022-11-28 Mon]
+dormi bien sin insomnio y me levante bien pero luego de tomar el corty
+la cabeza se me puso rara como estirada por dentro y/o por fuera. Pero
+estoy raro. Pero no me duele en realidad, y ayer no tome nada extra.
+Tomo un ibu, que resulta bastante efectivo. Como con mucho hambre, y
+me duermo una siestita muy buena.

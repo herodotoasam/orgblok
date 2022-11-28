@@ -639,3 +639,9 @@ mode multiple cursor.
 * renombrar un occur
 si estamos en un occur, de cualquier forma que lo hagamos, lo podemos
 renombrar con "r" y luego disparar otro occur y no se superpondran.
+* folding via ts
+| s-c | ts-fold-close-all |
+| s-v | ts-fold-open-all  |
+|     | ts-fold-open      |
+|     | ts-fold-close     |
+|     | ts-fold-toggle    |

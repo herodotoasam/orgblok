@@ -1230,7 +1230,7 @@ cuenta que puede ser perseguido por impositiva.
   ej log y los otros que genere. Para no pulular el sistema.
 + [ ] borrar codigo comentado en todos los templates cuando borramos el
   botonaje.
-+ [ ] gestion garantes: poner un listado en Fichas, de garantizados.
++ [X] gestion garantes: poner un listado en Fichas, de garantizados.
   fijarse como seria el flujo de trabajo con los vinculos a garante y
   esas cosas. En fichas tenes la lista, vas al link, luego apretas el
   tag garante y abris el garante y le mandas el boton programado de
@@ -1240,11 +1240,25 @@ cuenta que puede ser perseguido por impositiva.
   whatsapp de reclamo garantia de deudores. Tambien podria haber un
   tag azul, ES GARANTE y un tbls abajo con los garantes y la situacion
   de los garantes. para ver si podemos decidir venta.
++ [X] poner un tag en fichas que indique en que cuadro estamos.
 
 * agenda de actividad
 ** semana [2022-11-27 Sun]
+*** [2022-11-28 Mon]
+:LOGBOOK:
+CLOCK: [2022-11-28 Mon 15:46]--[2022-11-28 Mon 16:52] =>  1:06
+asientos agrego validacion de control y otras validaciones.
+CLOCK: [2022-11-28 Mon 10:10]--[2022-11-28 Mon 12:45] =>  2:35
+garantias: mucho trabajo con los triggers
+CLOCK: [2022-11-28 Mon 07:53]--[2022-11-28 Mon 10:02] =>  2:09
+garantias: renegue mucho con la base de datos
+CLOCK: [2022-11-28 Mon 07:17]--[2022-11-28 Mon 07:45] =>  0:28
+emacs: instalo folding ts
+:END:
 *** [2022-11-27 Sun]
 :LOGBOOK:
+CLOCK: [2022-11-27 Sun 20:00]--[2022-11-27 Sun 20:40] =>  0:40
+github-bitbucket reemplazo de clave
 CLOCK: [2022-11-27 Sun 15:50]--[2022-11-27 Sun 17:12] =>  1:22
 github-bitbucket haciendo el sistema orgblok
 CLOCK: [2022-11-27 Sun 12:25]--[2022-11-27 Sun 12:49] =>  0:24
