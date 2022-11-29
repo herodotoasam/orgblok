@@ -1,0 +1,43 @@
+#+title:      seguridad en la red
+#+date:       [2022-11-29 Tue 16:21]
+#+filetags:   :fedesal:sistema:version2:
+#+identifier: 20221129T162156
+
+* Luego de correr ZAP obtengo
+** cors
+Asegúrese de que los datos confidenciales no estén disponibles de
+manera no autenticada (usando la lista blanca de direcciones IP, por
+ejemplo).  Configure el encabezado HTTP "Access-Control-Allow-Origin"
+en un conjunto más restrictivo de dominios, o elimine todos los
+encabezados CORS por completo, para permitir que el navegador web
+aplique la Política de Mismo Origen (SOP) de una manera más
+restrictiva.
+https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy
+** leaks
+Se identificó un archivo sensible como accesible o disponible. Esto
+puede filtrar información administrativa, de configuración o de
+credenciales que puede ser aprovechada por un individuo malicioso para
+atacar aún más el sistema o realizar esfuerzos de ingeniería social.
+GET: http://fedesal.lol/._darcs GET: http://fedesal.lol/.bzr GET:
+http://fedesal.lol/.hg GET: http://fedesal.lol/BitKeeper Considere si
+el componente es realmente requerido o no en la producción, si no lo
+es, desactívelo. Si es así, asegúrese de que el acceso a él requiera
+la autenticación y autorización apropiadas, o limite la exposición a
+sistemas internos o IP de fuente específicas, etc.
+** Missing Anti-clickjacking Header
+Los navegadores web modernos admiten los encabezados HTTP
+Content-Security-Policy y X-Frame-Options. Asegúrese de que uno de
+ellos esté configurado en todas las páginas web devueltas por su sitio
+/ aplicación.  Si espera que la página se enmarque solo por páginas en
+su servidor (p. Ej. es parte de un FRAMESET), entonces querrás usar
+SAMEORIGIN, de lo contrario, si nunca esperas que la página se
+enmarque, debes usar DENY. Alternativamente, considere implementar la
+directiva "marco-antepasados" de la Política de Seguridad de
+Contenido.
+** Cookie Without Secure Flag
+Se ha configurado una cookie sin el indicador seguro, lo que significa
+que se puede acceder a la cookie a través de conexiones sin cifrar.
+Siempre que una cookie contenga información confidencial o sea un
+token de sesión, siempre debe pasarse utilizando un canal
+cifrado. Asegúrese de que el indicador seguro esté configurado para
+cookies que contengan dicha información confidencial.

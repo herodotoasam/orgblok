@@ -40,6 +40,10 @@
 *** [[denote:20221124T081213][Problema de los saldos menores a cero en ventas]]
 *** [[denote:20221124T091146][Definir planes de pago en la tabla clientes]]
 *** [[denote:20221125T083812][Manejo del garante en las ventas]]
+** version 2
+*** [[denote:20221129T094020][Requisitos a cumplir para ir cerrando la version 1]]
+*** [[denote:20221129T162156][Seguridad en la red]]
+
 * agendas S.O.
 ** [[denote:20221109T145149][agenda Mint]]
 ** [[denote:20221109T145356][agenda MX-19]]

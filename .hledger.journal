@@ -13245,3 +13245,23 @@ D $1000.00
 2022-11-28 saco reserva
     assets:caja   $ 20000
     assets:reserva   $ -20000
+
+2022-11-28 carla
+    expenses:casa:limpieza   $ 3500
+    assets:caja   $ -3500
+
+2022-11-29 ingresos
+    assets:reserva   $ 100000
+    income:retiro-sociedad   $ -100000
+
+2022-11-29 nafta kangoo
+    expenses:transporte:nafta   $ 2000
+    assets:caja   $ -2000
+
+2022-11-29 sillon ergonomico y mouse gamer
+    expenses:personal:computacion   $ 80800
+    assets:caja   $ -80800
+
+2022-11-29 saco reserva
+    assets:caja   $ 90000
+    assets:reserva   $ -90000

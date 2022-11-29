@@ -315,6 +315,11 @@ luego del insomnio, esta vez fuerte, me tome el factor-ag y tuve que
 levantarme a caminar, y luego me dormi y me levanto y sigo con el
 problema, menos mal que estoy dispuesto a levantarme, pq si quisiera
 seguir durmiendo me seguiria molestando. Sin darme cuenta se me fue.
+2022-11-29 Tue] otro ataque fuertisimo de gas que me hizo levantarme a
+las seis y me hizo estar despierto desde las cinco, tomando un
+factor-ag, tambien vino de golpe, esta bien que la noche anterior comi
+pizza de burger de roquefort y mucha gaseosa.
+
 *** insomnio
 [2022-11-24 Thu]
 no lo habia puesto como sintoma pq creia que era por los corticoides
@@ -851,7 +856,7 @@ abandonado el [2022-10-16 Sun] sin pena y sin gloria.
 ** factor-ag
 [2022-11-24 Thu]
 [2022-11-26 Sat]
-
+[2022-11-29 Tue]
 * cefaleico
 ** 2017
 *** [2017-09-19 mar]
@@ -1905,5 +1910,6 @@ compromisos fallados q en este caso seria el lolo.
 | fecha            | ins | horas | almuerzo              | cena                    | Ncag |
 | [2022-11-26 Sat] | *   | 4-5   | pollo asado           | te con galletas y queso | 3/10 |
 | [2022-11-27 Sun] | *   | vario | pollo frio            | te con factura          | 0/10 |
-| [2022-11-28 Mon] | -   | ----  | pollo frio ens tomate |                         | 4/10 |
+| [2022-11-28 Mon] | -   | ----  | pollo frio ens tomate | pizza burger            | 4/10 |
+| [2022-11-29 Tue] | *   | 5->   | hamburguesa casera    |                         | 4/10 |
 |                  |     |       |                       |                         |      |

@@ -28,8 +28,8 @@ alias fl='cd ~/fl5 && source .venv/bin/activate && flask run'
 alias ll='ls -latr'
 alias xm='xmodmap .Xmodmap'
 alias em='emacsclient --alternate-editor vi'
-alias mirror='cd ~/fl5 && git push --mirror git@bitbucket.org:pyrx/fl5.git && cd ~/.emacs.d/ && git push --mirror git@bitbucket.org:pyrx/emacs.git && cd ~/.password-store/ && git push --mirror git@bitbucket.org:pyrx/pass.git && mirrororg'
-alias mirrororg='cd ~/orgblok/ && git push --mirror git@bitbucket.org-org:herodotoasam/orgblok.git && cd ~/fl5/ && git push --mirror git@bitbucket.org-org:herodotoasam/fl5.git && cd ~/.emacs.d/ && git push --mirror git@bitbucket.org-org:herodotoasam/emacs.git && cd ~/.password-store/ && git push --mirror git@bitbucket.org-org:herodotoasam/pass.git'
+alias mirrorold='cd ~/fl5 && git push --mirror git@bitbucket.org:pyrx/fl5.git && cd ~/.emacs.d/ && git push --mirror git@bitbucket.org:pyrx/emacs.git && cd ~/.password-store/ && git push --mirror git@bitbucket.org:pyrx/pass.git && mirrororg'
+alias mirror='cd ~/orgblok/ && git push --mirror git@bitbucket.org-org:herodotoasam/orgblok.git && cd ~/fl5/ && git push --mirror git@bitbucket.org-org:herodotoasam/fl5.git && cd ~/.emacs.d/ && git push --mirror git@bitbucket.org-org:herodotoasam/emacs.git && cd ~/.password-store/ && git push --mirror git@bitbucket.org-org:herodotoasam/pass.git'
 
 if [ -d ~/.bashrc.d ]; then
 	for rc in ~/.bashrc.d/*; do

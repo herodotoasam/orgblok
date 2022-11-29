@@ -1,0 +1,35 @@
+#+title:      objetivos a cumplir para cerrar la primera etapa
+#+date:       [2022-11-29 Tue 09:40]
+#+filetags:   :alpinejs:html:javascript:sistema:
+#+identifier: 20221129T094020
+
+Seria como cerrar la version 1. Y empezar a trabajar en la version 2.
+Algunos objetivos que se me ocurren no necesariamente en orden:
+* buscar e ir probando flask-login-role
+esto lo debo hacer desde ya, estudiando y probando con branch
+especificos para ir viendo como funcionan. Para poder probar quizas un
+par diferentes y decidir.
+* ordenar archivos py
+pq si el backend va a ser python podemos tener necesidad en algun
+momento de alguna herramienta de ayuda, y no podemos tener los
+archivos base completamente mal hechos.
+** corregir el flycheck
+** hacer el try/except
+** revisar las funciones bases como pgflat, pgdict p.e.
+* data-mining
+el data mininig de zonas, barrios y calles al menos debe estar
+terminado, para que no haya inconveniente para el ingreso de nuevas
+operaciones.
+* chequear todos los bugs
+hacer logging.warning o logging
+con:
+#+begin_src python
+  import logging
+  FORMAT = '%(asctime)s  %(message)s'
+  logging.basicConfig(format=FORMAT)
+  logging.warning(upd)
+#+end_src
+* optimizar el flujo de trabajo con emacs
+mientras mas claro y organizado tengamos el sistema de trabajo en el
+futuro mejor podemos lograr
+* aprender sobre seguridad de red

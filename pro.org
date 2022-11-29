@@ -6085,6 +6085,36 @@ dia me parece tan largo.
   pero mas cuidadosamente.
   Cada vez que aprendo algo nuevo me facilita mas el trabajo, y
   tambien afila mi forma de pensar.
+**** [2022-11-28 Mon]
+  es hermoso programar con emacs y todo el sistema de buffers, tramp,
+  sql, org-mode, denote, todo incluido.
+  Voy corrigiendo pequeños bugs que no son relevantes en si mismos
+  pero que van perfeccionando el sistema.
+  Compre en venex el sillon ergonomico, un raton con cable gamer, para
+  no tener mas problemas de inalambrico, y los parlantes para no tener
+  que renegar mas con los audios de whatsapp. O sea mejorando la
+  estacion de trabajo, para que sea mas agradable el sitio. Luego
+  viene la pc y el monitor.
+**** [2022-11-29 Tue]nueva etapa trabajo - sillon aerocool - mouse reddragon.
+  se abre una nueva etapa en el trabajo. De programacion pura.
+  Hay nuevos y grandes objetivos de trabajo que requeriran grandes
+  desafios y la posibilidad de dedicarse full-time a la ocupacion
+  principal de programar.
+
+  Hoy estreno el sillon aero-cool y el mouse reddragon.
+  El sillon parece muy comodo y solido y valio la pena la compra.
+  El raton fenomenal, pq tiene cable y eso es lo que queria, un raton
+  de alta gama con cable para olvidarme de las pilas, y con botones
+  extra que se pueden programar con emacs.
+
+  Faltaria la compu y el monitor.
+
+  Tambien despeje la mesa sacando la impresora que no la voy a usar
+  mas, y baje el modem para evitar interferencia. y recontraeleve el
+  monitor.
+
+  Tendria que establecer nuevas rutinas de trabajo en el futuro pero
+  pienso que voy a tener que trabajar muchisimas horas.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

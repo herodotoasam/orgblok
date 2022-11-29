@@ -26,11 +26,16 @@ heroasam. Un primer paso para separar los escritos.
 El mirror queda configurado a bitbucket.org:herodotoasam lo cual lo
 manejo con el alias en .bashrc
 
-#+begin_src bash alias mirrororg='cd ~/orgblok/ && git push --mirror
-git@bitbucket.org-org:herodotoasam/orgblok.git && cd ~/fl5/ && git
-push --mirror git@bitbucket.org-org:herodotoasam/fl5.git && cd
-~/.emacs.d/ && git push --mirror
-git@bitbucket.org-org:herodotoasam/emacs.git && cd ~/.password-store/
-&& git push --mirror git@bitbucket.org-org:herodotoasam/pass.git'
+#+begin_src bash
+  alias mirror='cd ~/orgblok/ && git push --mirror
+  git@bitbucket.org-org:herodotoasam/orgblok.git && cd ~/fl5/ && git
+  push --mirror git@bitbucket.org-org:herodotoasam/fl5.git && cd
+  ~/.emacs.d/ && git push --mirror
+  git@bitbucket.org-org:herodotoasam/emacs.git && cd ~/.password-store/
+  && git push --mirror git@bitbucket.org-org:herodotoasam/pass.git'
 #+end_src
 pq tengo mirror de los otros repositorios que no son orgblok alli.
+* resumen
+| github    | heroasam     | fl5 pass                      |
+| github    | herodotoasam | orgblok notes emacs           |
+| bitbucket | herodotoasam | mirror fl5 orgblok emacs pass |

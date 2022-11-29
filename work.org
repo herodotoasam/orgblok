@@ -1243,9 +1243,27 @@ cuenta que puede ser perseguido por impositiva.
 + [X] poner un tag en fichas que indique en que cuadro estamos.
 
 * agenda de actividad
+[[denote:20221129T094020][objetivos...]]
 ** semana [2022-11-27 Sun]
+*** [2022-11-29 Tue]
+:LOGBOOK:
+CLOCK: [2022-11-29 Tue 18:35]--[2022-11-29 Tue 20:10] =>  1:35
+lectura de seguridad en red y flask-praetorian
+CLOCK: [2022-11-29 Tue 18:10]--[2022-11-29 Tue 18:35] =>  0:25
+reacomodado de pc y modem
+CLOCK: [2022-11-29 Tue 17:09]--[2022-11-29 Tue 18:09] =>  1:00
+armado de sillon aero-cool
+CLOCK: [2022-11-29 Tue 15:21]--[2022-11-29 Tue 16:50] =>  1:29
+penetration test against flask - bastante bien.
+CLOCK: [2022-11-29 Tue 11:23]--[2022-11-29 Tue 12:20] =>  0:57
+pruebas sobre logging.warning
+CLOCK: [2022-11-29 Tue 06:23]--[2022-11-29 Tue 07:45] =>  1:22
+lectura preliminar de flask-autentication.
+:END:
 *** [2022-11-28 Mon]
 :LOGBOOK:
+CLOCK: [2022-11-28 Mon 16:55]--[2022-11-28 Mon 17:36] =>  0:41
+corrigiendo git-mirror
 CLOCK: [2022-11-28 Mon 15:46]--[2022-11-28 Mon 16:52] =>  1:06
 asientos agrego validacion de control y otras validaciones.
 CLOCK: [2022-11-28 Mon 10:10]--[2022-11-28 Mon 12:45] =>  2:35
@@ -2717,8 +2735,9 @@ scheduled: <2022-10-19 Wed .+1m>
 - Rescheduled from "[2022-10-13 Thu]" on [2022-10-13 Thu 09:21]
 :END:
 **** pedir turno dastolfo
-SCHEDULED: <2022-11-28 Mon>
+SCHEDULED: <2022-12-05 Mon>
 :LOGBOOK:
+- Rescheduled from "[2022-11-28 Mon]" on [2022-11-28 Mon 17:36]
 - Rescheduled from "[2022-11-21 Mon]" on [2022-11-21 Mon 10:23]
 - Rescheduled from "[2022-11-14 Mon]" on [2022-11-14 Mon 19:41]
 - Rescheduled from "[2022-11-10 Thu]" on [2022-11-10 Thu 12:48]
@@ -2811,3 +2830,5 @@ SCHEDULED: <2022-12-03 Sat>
 :LOGBOOK:
 - Rescheduled from "[2022-11-25 Fri]" on [2022-11-26 Sat 07:40]
 :END:
+**** recargar uala para whatsapp-api
+SCHEDULED: <2022-12-05 Mon>
