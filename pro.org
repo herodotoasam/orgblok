@@ -6115,6 +6115,17 @@ dia me parece tan largo.
 
   Tendria que establecer nuevas rutinas de trabajo en el futuro pero
   pienso que voy a tener que trabajar muchisimas horas.
+**** [2022-11-30 Wed]
+  hoy arranque a toda maquina la investigacion de tema nuevo para la
+  version 2 y fue un dia dificil. Lo mismo va a llevar tiempo.
+
+  Estoy sobre ascuas por determinar si el sillon no-es
+  sillon-tortura-china lo cual seria una gran lastima para el entorno
+  de trabajo que he creado. Con una mayor comodidad de trabajo y mayor
+  amplitud de escritorio.
+
+  Muchos atajos de raton con el raton nuevo. tengo un manejo semi a la
+  distancia de muchas funciones de emacs cuando estoy estirado.
 * avance semanal
 ** semana [2020-06-07 Sun] :Laravel:TCL:Postgres:Lumen:Rails:
 a todo vapor con el comienzo del spa, y el cambio de frontend dejando

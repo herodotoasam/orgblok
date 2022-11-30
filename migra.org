@@ -1288,18 +1288,20 @@ me cambio nada y tome 20mg a la hora y esta mañana tome ya los
 primeros 20mg.
 ** registro de toma
 um: [2022-11-18 Fri] 2am (3am 20mg)
-|  1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | 1ibu |
-|  2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |      |
-|  3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu |
-|  4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu |
-|  5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu |
-|  6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu |
-|  7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu |
-|  8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --   |
-|  9 | [2022-11-26 Sat] | 8.00am | 20mg | 7.30pm | 20mg | 1MIG | 2ibu |
-| 10 | [2022-11-27 Sun] | 8.00am | 20mg | ------ | ---- |      | --   |
-| 11 | [2022-11-28 Mon] | 7.00am | 20mg | ------ | ---- |      | 1ibu |
-| 12 | [2022-11-29 Tue] | 7.00am | 20mg | ------ | ---- |      |      |
+|  1 | [2022-11-18 Fri] | 8.00am | 20mg | 8.00pm | 20mg | 10mg | 1ibu  |
+|  2 | [2022-11-19 Sat] | 8.00am | 30mg | 7.30pm | 20mg |      |       |
+|  3 | [2022-11-20 Sun] | 8.00am | 20mg | 8.20pm | 20mg |      | 3ibu  |
+|  4 | [2022-11-21 Mon] | 7.00am | 20mg | 8.00pm | 20mg |      | 3ibu  |
+|  5 | [2022-11-22 Tue] | 7.30am | 20mg | 7.30pm | 20mg |      | 2ibu  |
+|  6 | [2022-11-23 Wed] | 9.50am | 20mg | 8.00pm | 20mg |      | 2ibu  |
+|  7 | [2022-11-24 Thu] | 8.00am | 20mg | 7.30pm | 20mg |      | 2ibu  |
+|  8 | [2022-11-25 Fri] | 7.00am | 20mg | 8.00pm | 20mg |      | --    |
+|  9 | [2022-11-26 Sat] | 8.00am | 20mg | 7.30pm | 20mg | 1MIG | 2ibu  |
+| 10 | [2022-11-27 Sun] | 8.00am | 20mg | ------ | ---- |      | --    |
+| 11 | [2022-11-28 Mon] | 7.00am | 20mg | ------ | ---- |      | 1ibu  |
+| 12 | [2022-11-29 Tue] | 7.00am | 20mg | ------ | ---- |      | --    |
+| 13 | [2022-11-30 Wed] | 7.00am | 20mg | ------ | ---  |      | 1 ibu |
+|    |                  |        |      |        |      |      |       |
 ** journal
 *** [2022-11-18 Fri]
 transcurre el dia normal, hoy tenia dos compromisos, aunque pensandolo
@@ -1411,3 +1413,9 @@ me duermo una siestita muy buena.
 *** [2022-11-29 Tue]
 me levante roto por insomnio y gas rotundo, tome las pastillas y el
 corty a las 7am, sigo sin dolor.
+*** [2022-11-30 Wed]
+hoy me levante bien pero dormi mal, me costo dormir, no tuve insomnio
+pasivo pero me costo dormirme a la noche y luego no dormi profundo,
+tenia un leve dolor en las ultimas horas de la noche pero al
+levantarme parece que se fue. Lo mismo a la siesta hubo partido de
+argentina y me tome un ibu, y fue efectivo. Luego no me dolio mas.

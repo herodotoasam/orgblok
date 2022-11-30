@@ -1245,6 +1245,19 @@ cuenta que puede ser perseguido por impositiva.
 * agenda de actividad
 [[denote:20221129T094020][objetivos...]]
 ** semana [2022-11-27 Sun]
+*** [2022-11-30 Wed]
+:LOGBOOK:
+CLOCK: [2022-11-30 Wed 18:03]--[2022-11-30 Wed 20:00] =>  1:57
+ultimo round del dia. Seguiremos mañana.
+CLOCK: [2022-11-30 Wed 14:25]--[2022-11-30 Wed 15:36] =>  1:11
+seguimos pero esta dificil
+CLOCK: [2022-11-30 Wed 11:10]--[2022-11-30 Wed 12:05] =>  0:55
+atascado por un error pero avanzando.
+CLOCK: [2022-11-30 Wed 09:20]--[2022-11-30 Wed 10:52] =>  1:32
+segunda aproximacion vamos mejorando ya tenemos tabla users
+CLOCK: [2022-11-30 Wed 07:24]--[2022-11-30 Wed 09:04] =>  1:40
+primera aproximacion fallida a crear la tabla users nueva
+:END:
 *** [2022-11-29 Tue]
 :LOGBOOK:
 CLOCK: [2022-11-29 Tue 18:35]--[2022-11-29 Tue 20:10] =>  1:35
